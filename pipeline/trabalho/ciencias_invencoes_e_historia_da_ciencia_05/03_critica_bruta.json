@@ -1,0 +1,407 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado (nome vem das moedas penny e farthing) e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goodrich usou o nome zipper nas galochas em 1923; fato confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sputnik significa companheiro de viagem; bem sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Termo criado em 1611 num banquete da Accademia dei Lincei em Roma; significado grego confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta K está na própria palavra Kodak citada no enunciado e é facilmente adivinhável; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "X indicava radiação de natureza desconhecida; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estrelas Medicianas, família Médici de Florença; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Watt comparou máquinas a vapor com cavalos de tração; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palmira passou a se chamar Santos Dumont em 1932; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Beta por ser sempre o segundo; confirmado pelo Suda.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escalator era marca registrada de Seeberger/Otis antes de virar genérico.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carrapichos (burdock) no pelo do cão; 1941 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Barra de chocolate derretida no bolso de Spencer; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explosão de 1864 em Estocolmo matou o irmão mais novo Emil; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O 'porque' é impreciso: a causa do incêndio é debatida (tinta incendiária); melhor perguntar só o gás.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Em 1937, o dirigível alemão Hindenburg pegou fogo ao tentar pousar nos Estados Unidos. Que gás o mantinha no ar?",
+        "resposta": "Hidrogênio",
+        "distratores": [
+          "Hélio",
+          "Metano",
+          "Propano"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hindenburg_disaster",
+          "https://pt.wikipedia.org/wiki/Desastre_do_Hindenburg"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fry queria ancorar o marcador no hinário; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Âncora errada (o fato é sobre a foto Boulevard du Temple, não o processo daguerreótipo) e o enunciado simplifica as duas pessoas registradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mãe e esposa de Bell eram surdas; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Máquina de Newcomen servia para bombear água das minas; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado hedgeado ('teria'), causa Tambora confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distrator 'Ouro artificial' é defensável para alquimistas, ameaçando a resposta única; trocado.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "A pólvora foi descoberta na China, por volta do século nove, por alquimistas que tentavam produzir o quê?",
+        "resposta": "O elixir da imortalidade",
+        "distratores": [
+          "Tinta para seda",
+          "Remédio contra peste",
+          "Veneno para flechas"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Gunpowder"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Condenado à prisão domiciliar em 1633; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cambridge fechou por causa da Grande Peste; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Newton nasceu em 1642 pelo calendário juliano, ano da morte de Galileu; ressalva do calendário correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Louis Cartier criou o relógio Santos em 1904; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marconi em Roma acionaria as luzes na inauguração de 1931; 'estava previsto' é preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bill Gates comprou o Códice Leicester em 1994; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filipe II chamou Aristóteles para tutor de Alexandre em 343 a.C.; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bell foi o segundo presidente da National Geographic Society; revista de moldura amarela confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eiffel projetou a estrutura de ferro da Estátua da Liberdade; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Disputa Volta-Galvani sobre rãs; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A correspondência com Bouvet e o paralelo com o I Ching são de 1700-1701, não do século dezessete.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Por volta de 1700, Leibniz viu no sistema binário, de zeros e uns, um paralelo com os hexagramas de que antigo livro chinês?",
+        "resposta": "I Ching",
+        "distratores": [
+          "Tao Te Ching",
+          "A Arte da Guerra",
+          "Os Analectos"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Binary_number"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rowland Hill propôs o selo adesivo em 1837; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bain patenteou o Electric Printing Telegraph em 1843; era relojoeiro escocês.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Garnerin, inventor do paraquedas sem armação, saltou em 1797 em Paris.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Armônica de vidro inventada por Franklin em 1761; Mozart compôs para ela.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Comitê chefiado por Carl Sagan; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prêmio Deutsch: Saint-Cloud, Torre Eiffel, 30 minutos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Leonardo passou seus últimos dias na França a convite de Francisco I.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arquimedes morreu no cerco de Siracusa, sua cidade natal.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Relógio cuco popularizado na Floresta Negra; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jazida de Borrowdale, Inglaterra, século dezesseis; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Johnny B. Goode, de Chuck Berry, está no Disco de Ouro; amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte em inglês fala de pelos de cavalo na China em 1223, ameaçando a resposta única; foco nas escovas importadas, de pelos de porco.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Os europeus achavam duras demais as escovas de dentes importadas da China no século dezessete. Cerdas de pelo de que animal elas tinham?",
+        "resposta": "Porco",
+        "distratores": [
+          "Cavalo",
+          "Texugo",
+          "Cabra"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Toothbrush"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Última execução na França em 1977; década de 1970 correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pascalina criada em 1642, século dezessete; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cruzeiro do Concorde em Mach 2; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cela braille tem seis pontos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Newton dirigiu a Casa da Moeda Real por cerca de trinta anos e perseguiu falsificadores.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os irmãos Wright tinham loja de bicicletas em Dayton; confirmado.",
+      "reescrita": null
+    }
+  ]
+}

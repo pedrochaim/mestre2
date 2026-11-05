@@ -1,0 +1,1243 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "penny_farthing",
+        "nome": "Penny-farthing",
+        "descricao": "Biciclo do século dezenove com roda dianteira enorme e roda traseira pequena.",
+        "variantes": [
+          "Biciclo",
+          "High wheeler"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penny-farthing"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O biciclo do século dezenove, de roda dianteira enorme e traseira pequena, ganhou em inglês o nome penny-farthing, inspirado em quê?",
+      "resposta": "Duas moedas britânicas",
+      "distratores": [
+        "Duas rodas de carroça",
+        "Dois inventores ingleses",
+        "Duas aves inglesas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Penny-farthing"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ziper",
+        "nome": "Zíper",
+        "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados",
+        "variantes": [
+          "Fecho éclair",
+          "Zipper"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zipper"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome zíper vem de uma marca registrada nos anos vinte pela fabricante americana B.F. Goodrich para que produto com esse fecho?",
+      "resposta": "Galochas de borracha",
+      "distratores": [
+        "Malas de viagem",
+        "Jaquetas de aviador",
+        "Bolsas femininas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Zipper"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sputnik_1",
+        "nome": "Sputnik 1",
+        "descricao": "Primeiro satélite artificial da Terra, lançado pela União Soviética em 1957.",
+        "variantes": [
+          "Sputnik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sputnik_1"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em russo, o nome Sputnik, dado ao primeiro satélite artificial, lançado pela União Soviética em 1957, significa o quê?",
+      "resposta": "Companheiro de viagem",
+      "distratores": [
+        "Estrela vermelha",
+        "Pequena lua",
+        "Mensageiro veloz"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sputnik_1"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "telescopio",
+        "nome": "Telescópio",
+        "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Telescope"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome telescópio foi criado em 1611, num banquete em Roma em homenagem a Galileu. Em grego, essa palavra significa o quê?",
+      "resposta": "Ver longe",
+      "distratores": [
+        "Olho mágico",
+        "Grande lente",
+        "Luz das estrelas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Telescope"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "kodak",
+        "nome": "Kodak",
+        "descricao": "Empresa americana de fotografia fundada por George Eastman, que lançou em 1888 a primeira câmera Kodak.",
+        "variantes": [
+          "Eastman Kodak"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kodak"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "George Eastman inventou a palavra Kodak para sua empresa de fotografia. Que letra ele dizia ser a sua favorita, por parecer forte e incisiva?",
+      "resposta": "A letra K",
+      "distratores": [
+        "A letra O",
+        "A letra D",
+        "A letra E"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kodak"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "raio_x",
+        "nome": "Raio X",
+        "descricao": "Radiação eletromagnética de alta energia usada em radiografias.",
+        "variantes": [
+          "Raios X",
+          "Raios Röntgen"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/X-ray"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 1895, o físico alemão Wilhelm Röntgen chamou de X os raios que tinha acabado de descobrir. Por que escolheu essa letra?",
+      "resposta": "A natureza era desconhecida",
+      "distratores": [
+        "Formavam uma cruz",
+        "Eram o décimo tipo",
+        "Homenagem a um colega"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/X-ray"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Galileu Galilei",
+        "descricao": "Astrônomo, físico e matemático italiano (1564–1642), pioneiro do uso do telescópio na astronomia.",
+        "variantes": [
+          "Galileo Galilei",
+          "Galileu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Galileo_Galilei",
+          "https://pt.wikipedia.org/wiki/Galileu_Galilei"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 1610, Galileu chamou as quatro luas de Júpiter que descobriu de estrelas de uma poderosa família de Florença. Que família?",
+      "resposta": "Médici",
+      "distratores": [
+        "Bórgia",
+        "Sforza",
+        "Strozzi"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galilean_moons"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "james_watt",
+        "nome": "James Watt",
+        "descricao": "Engenheiro, inventor e químico escocês (1736–1819) que aperfeiçoou a máquina a vapor de Newcomen.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/James_Watt"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Para vender suas máquinas a vapor, James Watt criou uma unidade de potência que comparava o trabalho delas com o de que animal?",
+      "resposta": "Cavalo",
+      "distratores": [
+        "Boi",
+        "Mula",
+        "Elefante"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Horsepower"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alberto Santos-Dumont",
+        "descricao": "Aviador e inventor brasileiro (1873–1932), pioneiro dos dirigíveis e criador do 14-bis.",
+        "variantes": [
+          "Santos Dumont",
+          "Pai da Aviação"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+          "https://pt.wikipedia.org/wiki/Alberto_Santos_Dumont"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O inventor do 14-bis nasceu em 1873 em Palmira, Minas Gerais. Que nome essa cidade passou a ter, em homenagem a ele?",
+      "resposta": "Santos Dumont",
+      "distratores": [
+        "Juiz de Fora",
+        "Barbacena",
+        "Ouro Branco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+        "https://pt.wikipedia.org/wiki/Santos_Dumont_(Minas_Gerais)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "eratostenes",
+        "nome": "Eratóstenes",
+        "descricao": "Matemático e geógrafo grego do século três a.C. que estimou a circunferência da Terra.",
+        "variantes": [
+          "Eratóstenes de Cirene"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eratosthenes"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Eratóstenes, que estimou o tamanho da Terra, ganhou dos contemporâneos um apelido por ser considerado o segundo melhor em tudo. Que apelido?",
+      "resposta": "Beta",
+      "distratores": [
+        "Alfa",
+        "Delta",
+        "Ômega"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eratosthenes"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "escada_rolante",
+        "nome": "Escada rolante",
+        "descricao": "Escada mecânica de degraus móveis que transporta pessoas entre andares.",
+        "variantes": [
+          "Escalator"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Escalator"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra inglesa escalator, hoje usada para qualquer escada rolante, começou como o quê?",
+      "resposta": "Marca registrada da Otis",
+      "distratores": [
+        "Sobrenome do inventor",
+        "Nome de uma estação",
+        "Termo da Marinha"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Escalator"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Velcro",
+        "descricao": "Fecho de contato formado por uma face de ganchinhos e outra de laços, criado pelo engenheiro suíço George de Mestral.",
+        "variantes": [
+          "Fecho de contato",
+          "Hook-and-loop"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Nos anos quarenta, o suíço George de Mestral teve a ideia do velcro ao examinar o que grudava no pelo do seu cachorro depois de um passeio. O quê?",
+      "resposta": "Carrapichos",
+      "distratores": [
+        "Teias de aranha",
+        "Resina de pinheiro",
+        "Lama seca"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "forno_de_micro_ondas",
+        "nome": "Forno de micro-ondas",
+        "descricao": "Eletrodoméstico que aquece alimentos com radiação de micro-ondas, desenvolvido a partir da tecnologia de radar.",
+        "variantes": [
+          "Micro-ondas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microwave_oven"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O engenheiro Percy Spencer percebeu que as ondas do radar podiam cozinhar ao notar que algo tinha derretido no seu bolso. O quê?",
+      "resposta": "Uma barra de chocolate",
+      "distratores": [
+        "Uma vela de cera",
+        "Um tubo de cola",
+        "Um pedaço de queijo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Microwave_oven"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dinamite",
+        "nome": "Dinamite",
+        "descricao": "Explosivo à base de nitroglicerina absorvida em material poroso, patenteado por Alfred Nobel em 1867.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dynamite"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Alfred Nobel buscou um explosivo mais seguro que a nitroglicerina depois que uma explosão na fábrica da família, em Estocolmo, em 1864, matou quem?",
+      "resposta": "O irmão caçula, Emil",
+      "distratores": [
+        "O pai dele",
+        "A noiva dele",
+        "O sócio dele"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alfred_Nobel"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "desastre_do_hindenburg",
+        "nome": "Desastre do Hindenburg",
+        "descricao": "Incêndio do dirigível LZ 129 Hindenburg em 6 de maio de 1937, em Lakehurst, Nova Jersey.",
+        "variantes": [
+          "Hindenburg"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hindenburg_disaster"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1937, o dirigível alemão Hindenburg foi consumido pelo fogo em poucos segundos porque era inflado com que gás?",
+      "resposta": "Hidrogênio",
+      "distratores": [
+        "Hélio",
+        "Metano",
+        "Propano"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hindenburg_disaster"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "post_it",
+        "nome": "Post-it",
+        "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+        "variantes": [
+          "Post-it Note"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Post-it_note"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Nos anos setenta, Art Fry, da 3M, viu utilidade na cola fraca de Spencer Silver porque queria marcar sem perder as páginas de quê?",
+      "resposta": "Do hinário do coral",
+      "distratores": [
+        "De mapas rodoviários",
+        "De livros escolares",
+        "De listas telefônicas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Post-it_note"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "daguerreotipo",
+        "nome": "Daguerreótipo",
+        "descricao": "Processo fotográfico criado pelo francês Louis Daguerre, que produzia imagens únicas sobre placas de cobre prateadas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Daguerreotype"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Numa foto de Daguerre de 1838, uma avenida movimentada de Paris parece vazia, mas mostra um homem. Por que ele ficou registrado?",
+      "resposta": "Parou para engraxar as botas",
+      "distratores": [
+        "Era o próprio fotógrafo",
+        "Estava deitado dormindo",
+        "Usava roupa branca"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boulevard_du_Temple_(photograph)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "alexander_graham_bell",
+        "nome": "Alexander Graham Bell",
+        "descricao": "Inventor e cientista nascido na Escócia, a quem se atribui a primeira patente prática do telefone.",
+        "variantes": [
+          "Graham Bell"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Graham Bell dedicou boa parte da vida a estudar o som e a ensinar a falar. Que condição tinham sua mãe e sua esposa?",
+      "resposta": "Eram surdas",
+      "distratores": [
+        "Eram cantoras",
+        "Eram cegas",
+        "Eram gagas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Máquina a vapor de Newcomen",
+        "descricao": "Máquina a vapor atmosférica criada pelo inglês Thomas Newcomen em 1712, antecessora da máquina de James Watt.",
+        "variantes": [
+          "Máquina de Newcomen",
+          "Newcomen atmospheric engine"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Newcomen_atmospheric_engine"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1712, a máquina a vapor do inglês Thomas Newcomen foi criada para resolver que problema?",
+      "resposta": "Tirar água das minas",
+      "distratores": [
+        "Mover teares",
+        "Puxar vagões",
+        "Moer trigo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Newcomen_atmospheric_engine"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "draisiana",
+        "nome": "Draisiana",
+        "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
+        "variantes": [
+          "Laufmaschine",
+          "Dandy horse"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dandy_horse"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A falta de cavalos, mortos de fome num ano sem verão, teria inspirado Karl Drais a criar a draisiana. O que causou esse ano sem verão?",
+      "resposta": "Erupção do vulcão Tambora",
+      "distratores": [
+        "Um grande terremoto",
+        "A queda de um meteoro",
+        "Uma tempestade solar"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dandy_horse",
+        "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pólvora",
+        "descricao": "Mistura explosiva de salitre, enxofre e carvão inventada na China, uma das Quatro Grandes Invenções chinesas.",
+        "variantes": [
+          "Pólvora negra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gunpowder"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A pólvora foi descoberta na China, por volta do século nove, por alquimistas que tentavam produzir o quê?",
+      "resposta": "O elixir da imortalidade",
+      "distratores": [
+        "Ouro artificial",
+        "Tinta para seda",
+        "Remédio contra peste"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gunpowder"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Galileu Galilei",
+        "descricao": "Astrônomo, físico e matemático italiano (1564–1642), pioneiro do uso do telescópio na astronomia.",
+        "variantes": [
+          "Galileo Galilei",
+          "Galileu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1633, julgado pela Inquisição por defender que a Terra gira em torno do Sol, Galileu foi condenado a quê?",
+      "resposta": "Prisão domiciliar",
+      "distratores": [
+        "Morte na fogueira",
+        "Exílio na Holanda",
+        "Trabalhos forçados"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galileo_affair"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Isaac Newton",
+        "descricao": "Físico e matemático inglês (1643–1727), autor das leis do movimento e da gravitação universal.",
+        "variantes": [
+          "Sir Isaac Newton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Isaac_Newton",
+          "https://pt.wikipedia.org/wiki/Isaac_Newton"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1665, Isaac Newton voltou para a fazenda da família e ali fez descobertas decisivas. Por que a Universidade de Cambridge tinha fechado?",
+      "resposta": "Uma epidemia de peste",
+      "distratores": [
+        "Um grande incêndio",
+        "Uma guerra civil",
+        "Uma revolta estudantil"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isaac_Newton"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Galileu Galilei",
+        "descricao": "Astrônomo, físico e matemático italiano (1564–1642), pioneiro do uso do telescópio na astronomia.",
+        "variantes": [
+          "Galileo Galilei",
+          "Galileu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Pelo calendário então usado na Inglaterra, Isaac Newton nasceu no mesmo ano em que morreu que cientista italiano?",
+      "resposta": "Galileu Galilei",
+      "distratores": [
+        "Evangelista Torricelli",
+        "Giordano Bruno",
+        "Alessandro Volta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alberto Santos-Dumont",
+        "descricao": "Aviador e inventor brasileiro (1873–1932), pioneiro dos dirigíveis e criador do 14-bis.",
+        "variantes": [
+          "Santos Dumont",
+          "Pai da Aviação"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Por volta de 1904, que joalheiro francês criou um relógio de pulso para Santos-Dumont ver as horas sem tirar as mãos dos comandos?",
+      "resposta": "Louis Cartier",
+      "distratores": [
+        "Louis Vuitton",
+        "Hans Wilsdorf",
+        "Abraham Breguet"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cartier_Santos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guglielmo Marconi",
+        "descricao": "Inventor e engenheiro italiano (1874–1937), pioneiro da radiotelegrafia e Nobel de Física de 1909.",
+        "variantes": [
+          "Marconi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+          "https://pt.wikipedia.org/wiki/Guglielmo_Marconi"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na inauguração do Cristo Redentor, em 1931, estava previsto que as luzes fossem acesas a partir de Roma, por sinal de rádio, por que inventor?",
+      "resposta": "Guglielmo Marconi",
+      "distratores": [
+        "Nikola Tesla",
+        "Thomas Edison",
+        "Landell de Moura"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cristo_Redentor",
+        "https://en.wikipedia.org/wiki/Guglielmo_Marconi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Leonardo da Vinci",
+        "descricao": "Pintor, inventor e cientista italiano do Renascimento (1452–1519), autor de cadernos com projetos de máquinas.",
+        "variantes": [
+          "Leonardo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1994, que bilionário americano da informática comprou o Códice Leicester, um caderno de anotações científicas de Leonardo da Vinci?",
+      "resposta": "Bill Gates",
+      "distratores": [
+        "Steve Jobs",
+        "Larry Ellison",
+        "Paul Allen"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Codex_Leicester"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aristoteles",
+        "nome": "Aristóteles",
+        "descricao": "Filósofo e polímata grego (384–322 a.C.), fundador da escola peripatética no Liceu de Atenas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aristotle"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Por volta de 343 antes de Cristo, o rei Filipe da Macedônia chamou Aristóteles para ser professor de que filho, futuro conquistador?",
+      "resposta": "Alexandre, o Grande",
+      "distratores": [
+        "Ptolomeu I",
+        "Seleuco I",
+        "Cassandro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aristotle"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "alexander_graham_bell",
+        "nome": "Alexander Graham Bell",
+        "descricao": "Inventor e cientista nascido na Escócia, a quem se atribui a primeira patente prática do telefone.",
+        "variantes": [
+          "Graham Bell"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "De 1898 a 1903, Graham Bell presidiu que sociedade científica americana, famosa pela revista de moldura amarela na capa?",
+      "resposta": "National Geographic Society",
+      "distratores": [
+        "Instituto Smithsoniano",
+        "Sociedade Audubon",
+        "Academia de Ciências"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/National_Geographic_Society"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gustave_eiffel",
+        "nome": "Gustave Eiffel",
+        "descricao": "Engenheiro francês, 1832-1923, cuja empresa construiu a torre de ferro do Campo de Marte, em Paris.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Anos antes de erguer sua torre em Paris, o engenheiro Gustave Eiffel projetou a estrutura interna de ferro de que monumento famoso?",
+      "resposta": "Estátua da Liberdade",
+      "distratores": [
+        "Cristo Redentor",
+        "Arco do Triunfo",
+        "Big Ben"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+        "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pilha de Volta",
+        "descricao": "Primeira bateria elétrica, formada por discos de metais diferentes empilhados, criada por Alessandro Volta em 1800.",
+        "variantes": [
+          "Pilha voltaica",
+          "Voltaic pile"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Voltaic_pile"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1800, Alessandro Volta criou a pilha elétrica numa disputa com outro italiano, que atribuía a eletricidade aos músculos das rãs. Quem?",
+      "resposta": "Luigi Galvani",
+      "distratores": [
+        "Evangelista Torricelli",
+        "Amedeo Avogadro",
+        "Galileu Galilei"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Voltaic_pile"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sistema binário",
+        "descricao": "Sistema de numeração de base dois, com apenas os algarismos zero e um, estudado por Leibniz e usado nos computadores.",
+        "variantes": [
+          "Numeração binária",
+          "Código binário"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Binary_number"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No fim do século dezessete, Leibniz viu no sistema binário, de zeros e uns, um paralelo com os hexagramas de que antigo livro chinês?",
+      "resposta": "I Ching",
+      "distratores": [
+        "Tao Te Ching",
+        "A Arte da Guerra",
+        "Os Analectos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Binary_number"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "penny_black",
+        "nome": "Penny Black",
+        "descricao": "Primeiro selo postal adesivo do mundo, emitido no Reino Unido em 1840 com o perfil da rainha Vitória.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penny_Black"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que reformador britânico propôs o selo adesivo pago pelo remetente, o que levou à criação do Penny Black, em 1840?",
+      "resposta": "Rowland Hill",
+      "distratores": [
+        "Robert Peel",
+        "Charles Babbage",
+        "Isambard Brunel"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Penny_Black"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fax",
+        "nome": "Fax",
+        "descricao": "Sistema de transmissão de documentos e imagens por linha telefônica ou fio, também chamado fac-símile.",
+        "variantes": [
+          "Fac-símile"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fax"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1843, que relojoeiro escocês patenteou um telégrafo capaz de copiar imagens à distância, ancestral do fax?",
+      "resposta": "Alexander Bain",
+      "distratores": [
+        "James Clerk Maxwell",
+        "John Logie Baird",
+        "Graham Bell"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fax"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "paraquedas",
+        "nome": "Paraquedas",
+        "descricao": "Dispositivo que freia a descida de um objeto ou pessoa pela atmosfera, aqui sustentando uma cápsula espacial.",
+        "variantes": [
+          "Para-quedas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Parachute"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1797, que francês saltou de um balão sobre Paris usando um paraquedas de seda, sem armação rígida, criado por ele mesmo?",
+      "resposta": "André-Jacques Garnerin",
+      "distratores": [
+        "Jacques Charles",
+        "Louis Blériot",
+        "Joseph Montgolfier"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Andr%C3%A9-Jacques_Garnerin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Armônica de vidro",
+        "descricao": "Instrumento musical de taças de vidro giratórias, tocadas com os dedos molhados, inventado por Benjamin Franklin em 1761.",
+        "variantes": [
+          "Harmônica de vidro",
+          "Glass harmonica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Glass_harmonica"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Mozart e Beethoven compuseram para um instrumento de taças de vidro giratórias, tocadas com os dedos molhados. Que americano o inventou?",
+      "resposta": "Benjamin Franklin",
+      "distratores": [
+        "Thomas Jefferson",
+        "Thomas Edison",
+        "Samuel Morse"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Glass_harmonica"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "disco_de_ouro_da_voyager",
+        "nome": "Disco de Ouro da Voyager",
+        "descricao": "Disco fonográfico banhado a ouro, com sons, imagens e músicas da Terra, levado pelas sondas Voyager 1 e 2.",
+        "variantes": [
+          "Voyager Golden Record"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que astrônomo americano, famoso pela série Cosmos, de 1980, chefiou o comitê que escolheu o conteúdo do Disco de Ouro das sondas Voyager?",
+      "resposta": "Carl Sagan",
+      "distratores": [
+        "Edwin Hubble",
+        "Stephen Hawking",
+        "Isaac Asimov"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alberto Santos-Dumont",
+        "descricao": "Aviador e inventor brasileiro (1873–1932), pioneiro dos dirigíveis e criador do 14-bis.",
+        "variantes": [
+          "Santos Dumont",
+          "Pai da Aviação"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1901, Santos-Dumont ganhou um prêmio ao sair de Saint-Cloud num dirigível, contornar um monumento de Paris e voltar em menos de meia hora. Que monumento?",
+      "resposta": "Torre Eiffel",
+      "distratores": [
+        "Arco do Triunfo",
+        "Catedral de Notre-Dame",
+        "Panteão"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deutsch_de_la_Meurthe_prize",
+        "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Leonardo da Vinci",
+        "descricao": "Pintor, inventor e cientista italiano do Renascimento (1452–1519), autor de cadernos com projetos de máquinas.",
+        "variantes": [
+          "Leonardo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Autor de projetos de máquinas voadoras, Leonardo da Vinci passou os últimos anos de vida em que país, a convite do rei?",
+      "resposta": "França",
+      "distratores": [
+        "Espanha",
+        "Áustria",
+        "Inglaterra"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Arquimedes",
+        "descricao": "Matemático, físico e inventor grego do século três a.C., nascido em Siracusa, na Sicília.",
+        "variantes": [
+          "Arquimedes de Siracusa",
+          "Archimedes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Archimedes",
+          "https://pt.wikipedia.org/wiki/Arquimedes"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 212 antes de Cristo, o inventor Arquimedes foi morto por um soldado romano durante a tomada de que cidade da Sicília, onde nasceu?",
+      "resposta": "Siracusa",
+      "distratores": [
+        "Palermo",
+        "Messina",
+        "Agrigento"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Archimedes"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "relogio_cuco",
+        "nome": "Relógio cuco",
+        "descricao": "Relógio de parede com um pássaro mecânico que sai de uma portinhola para marcar as horas.",
+        "variantes": [
+          "Relógio de cuco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cuckoo_clock"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O relógio cuco virou artesanato típico de que região montanhosa e arborizada do sudoeste da Alemanha?",
+      "resposta": "Floresta Negra",
+      "distratores": [
+        "Alpes Bávaros",
+        "Montes Harz",
+        "Vale do Mosela"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cuckoo_clock"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lapis",
+        "nome": "Lápis",
+        "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pencil"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "No século dezesseis, a descoberta de uma grande jazida de grafite puro levou à fabricação dos primeiros lápis. Em que país ela ficava?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "Alemanha",
+        "Itália",
+        "Suécia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pencil"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "disco_de_ouro_da_voyager",
+        "nome": "Disco de Ouro da Voyager",
+        "descricao": "Disco fonográfico banhado a ouro, com sons, imagens e músicas da Terra, levado pelas sondas Voyager 1 e 2.",
+        "variantes": [
+          "Voyager Golden Record"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Entre as músicas gravadas no Disco de Ouro das sondas Voyager, que viajam para fora do Sistema Solar, há um rock de Chuck Berry. Qual?",
+      "resposta": "Johnny B. Goode",
+      "distratores": [
+        "Roll Over Beethoven",
+        "Maybellene",
+        "Sweet Little Sixteen"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Contents_of_the_Voyager_Golden_Record"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "escova_de_dentes",
+        "nome": "Escova de dentes",
+        "descricao": "Utensílio de higiene bucal com cerdas presas a um cabo, produzido em massa desde o século dezoito.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toothbrush"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "As escovas de dentes com cerdas criadas na China, séculos antes das europeias, usavam pelos duros de que animal?",
+      "resposta": "Porco",
+      "distratores": [
+        "Cavalo",
+        "Texugo",
+        "Cabra"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toothbrush"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guilhotina",
+        "descricao": "Máquina de execução por decapitação com lâmina que cai entre dois postes, símbolo da Revolução Francesa.",
+        "variantes": [
+          "Guillotine"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guillotine"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Símbolo da Revolução Francesa, a guilhotina continuou sendo usada em execuções na França até que década?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1910",
+        "Década de 1940",
+        "Década de 1950"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guillotine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pascalina",
+        "descricao": "Calculadora mecânica de engrenagens criada pelo francês Blaise Pascal para fazer somas e subtrações.",
+        "variantes": [
+          "Máquina de Pascal",
+          "Pascaline"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que século o francês Blaise Pascal criou uma calculadora mecânica de engrenagens para ajudar o pai, cobrador de impostos?",
+      "resposta": "Século dezessete",
+      "distratores": [
+        "Século dezesseis",
+        "Século dezoito",
+        "Século dezenove"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "concorde",
+        "nome": "Concorde",
+        "descricao": "Avião comercial supersônico franco-britânico que operou de 1976 a 2003.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Concorde"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em velocidade de cruzeiro, o avião supersônico Concorde voava a cerca de quantas vezes a velocidade do som?",
+      "resposta": "Duas vezes",
+      "distratores": [
+        "Uma vez e meia",
+        "Três vezes",
+        "Cinco vezes"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Concorde"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sistema braille",
+        "descricao": "Sistema de leitura e escrita tátil com pontos em relevo, criado pelo francês Louis Braille no século dezenove.",
+        "variantes": [
+          "Braille",
+          "Braile"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Braille",
+          "https://pt.wikipedia.org/wiki/Braille"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No sistema de Louis Braille, cada letra é formada por pontos em relevo arrumados num pequeno retângulo, a cela. Quantas posições de ponto tem a cela?",
+      "resposta": "Seis",
+      "distratores": [
+        "Quatro",
+        "Oito",
+        "Nove"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Braille"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Isaac Newton",
+        "descricao": "Físico e matemático inglês (1643–1727), autor das leis do movimento e da gravitação universal.",
+        "variantes": [
+          "Sir Isaac Newton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Isaac_Newton"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Além da física, Isaac Newton passou cerca de três décadas à frente de que instituição inglesa, onde chegou a perseguir falsificadores?",
+      "resposta": "Casa da Moeda Real",
+      "distratores": [
+        "Banco da Inglaterra",
+        "Universidade de Oxford",
+        "Observatório de Greenwich"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isaac_Newton"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Irmãos Wright",
+        "descricao": "Orville e Wilbur Wright, inventores americanos que fizeram em 1903 o primeiro voo controlado e sustentado de um avião motorizado.",
+        "variantes": [
+          "Wright brothers",
+          "Orville e Wilbur Wright"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wright_brothers"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Antes do voo de 1903, os irmãos Wright tinham em Dayton, no estado de Ohio, uma loja onde fabricavam e consertavam o quê?",
+      "resposta": "Bicicletas",
+      "distratores": [
+        "Relógios",
+        "Máquinas de costura",
+        "Carroças"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wright_brothers"
+      ]
+    }
+  ]
+}

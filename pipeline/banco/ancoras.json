@@ -13602,7 +13602,8 @@
     "nome": "Relógio cuco",
     "descricao": "Relógio de parede com um pássaro mecânico que sai de uma portinhola para marcar as horas.",
     "variantes": [
-      "Cuckoo clock"
+      "Cuckoo clock",
+      "Relógio de cuco"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Cuckoo_clock"
@@ -62051,7 +62052,8 @@
     "descricao": "Máquina a vapor atmosférica construída por Thomas Newcomen em 1712, na Inglaterra.",
     "variantes": [
       "Newcomen atmospheric engine",
-      "Máquina atmosférica de Newcomen"
+      "Máquina atmosférica de Newcomen",
+      "Máquina a vapor de Newcomen"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Newcomen_atmospheric_engine"
@@ -98674,7 +98676,8 @@
       "Numeração binária",
       "Base dois",
       "Sistema de numeração binário",
-      "Binary number"
+      "Binary number",
+      "Código binário"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Binary_number"
@@ -109540,7 +109543,10 @@
       "wikidata": "Q482816",
       "pt": 338,
       "en": 8143
-    }
+    },
+    "variantes": [
+      "Para-quedas"
+    ]
   },
   {
     "id": "disco_rigido",
@@ -231127,6 +231133,18 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Cairo_Tower",
       "https://pt.wikipedia.org/wiki/Torre_do_Cairo"
+    ]
+  },
+  {
+    "id": "guglielmo_marconi",
+    "nome": "Guglielmo Marconi",
+    "descricao": "Inventor e engenheiro italiano (1874–1937), pioneiro da radiotelegrafia e Nobel de Física de 1909.",
+    "variantes": [
+      "Marconi"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+      "https://pt.wikipedia.org/wiki/Guglielmo_Marconi"
     ]
   }
 ]

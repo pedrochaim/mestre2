@@ -1,0 +1,761 @@
+{
+  "itens": [
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "telescopio",
+        "nome": "Telescópio",
+        "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Telescope"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome telescópio foi criado em 1611, num banquete em Roma em homenagem a Galileu. Em grego, essa palavra significa o quê?",
+      "resposta": "Ver longe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Telescope"
+      ],
+      "distratores": [
+        "Olho mágico",
+        "Grande lente",
+        "Luz das estrelas"
+      ],
+      "ancora": "telescopio"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Galileu Galilei",
+        "descricao": "Astrônomo, físico e matemático italiano (1564–1642), pioneiro do uso do telescópio na astronomia.",
+        "variantes": [
+          "Galileo Galilei",
+          "Galileu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Galileo_Galilei",
+          "https://pt.wikipedia.org/wiki/Galileu_Galilei"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 1610, Galileu chamou as quatro luas de Júpiter que descobriu de estrelas de uma poderosa família de Florença. Que família?",
+      "resposta": "Médici",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galilean_moons"
+      ],
+      "distratores": [
+        "Bórgia",
+        "Sforza",
+        "Strozzi"
+      ],
+      "ancora": "galileu_galilei"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "james_watt",
+        "nome": "James Watt",
+        "descricao": "Engenheiro, inventor e químico escocês (1736–1819) que aperfeiçoou a máquina a vapor de Newcomen.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/James_Watt"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Para vender suas máquinas a vapor, James Watt criou uma unidade de potência que comparava o trabalho delas com o de que animal?",
+      "resposta": "Cavalo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Horsepower"
+      ],
+      "distratores": [
+        "Boi",
+        "Mula",
+        "Elefante"
+      ],
+      "ancora": "james_watt"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Alberto Santos-Dumont",
+        "descricao": "Aviador e inventor brasileiro (1873–1932), pioneiro dos dirigíveis e criador do 14-bis.",
+        "variantes": [
+          "Santos Dumont",
+          "Pai da Aviação"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+          "https://pt.wikipedia.org/wiki/Alberto_Santos_Dumont"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O inventor do 14-bis nasceu em 1873 em Palmira, Minas Gerais. Que nome essa cidade passou a ter, em homenagem a ele?",
+      "resposta": "Santos Dumont",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+        "https://pt.wikipedia.org/wiki/Santos_Dumont_(Minas_Gerais)"
+      ],
+      "distratores": [
+        "Juiz de Fora",
+        "Barbacena",
+        "Ouro Branco"
+      ],
+      "ancora": "alberto_santos_dumont"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "eratostenes",
+        "nome": "Eratóstenes",
+        "descricao": "Matemático e geógrafo grego do século três a.C. que estimou a circunferência da Terra.",
+        "variantes": [
+          "Eratóstenes de Cirene"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eratosthenes"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Eratóstenes, que estimou o tamanho da Terra, ganhou dos contemporâneos um apelido por ser considerado o segundo melhor em tudo. Que apelido?",
+      "resposta": "Beta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eratosthenes"
+      ],
+      "distratores": [
+        "Alfa",
+        "Delta",
+        "Ômega"
+      ],
+      "ancora": "eratostenes"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "desastre_do_hindenburg",
+        "nome": "Desastre do Hindenburg",
+        "descricao": "Incêndio do dirigível LZ 129 Hindenburg em 6 de maio de 1937, em Lakehurst, Nova Jersey.",
+        "variantes": [
+          "Hindenburg"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hindenburg_disaster"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em 1937, o dirigível alemão Hindenburg pegou fogo ao tentar pousar nos Estados Unidos. Que gás o mantinha no ar?",
+      "resposta": "Hidrogênio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hindenburg_disaster",
+        "https://pt.wikipedia.org/wiki/Desastre_do_Hindenburg"
+      ],
+      "distratores": [
+        "Hélio",
+        "Metano",
+        "Propano"
+      ],
+      "ancora": "desastre_do_hindenburg"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "alexander_graham_bell",
+        "nome": "Alexander Graham Bell",
+        "descricao": "Inventor e cientista nascido na Escócia, a quem se atribui a primeira patente prática do telefone.",
+        "variantes": [
+          "Graham Bell"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Graham Bell dedicou boa parte da vida a estudar o som e a ensinar a falar. Que condição tinham sua mãe e sua esposa?",
+      "resposta": "Eram surdas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+      ],
+      "distratores": [
+        "Eram cantoras",
+        "Eram cegas",
+        "Eram gagas"
+      ],
+      "ancora": "alexander_graham_bell"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "draisiana",
+        "nome": "Draisiana",
+        "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
+        "variantes": [
+          "Laufmaschine",
+          "Dandy horse"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dandy_horse"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A falta de cavalos, mortos de fome num ano sem verão, teria inspirado Karl Drais a criar a draisiana. O que causou esse ano sem verão?",
+      "resposta": "Erupção do vulcão Tambora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dandy_horse",
+        "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+      ],
+      "distratores": [
+        "Um grande terremoto",
+        "A queda de um meteoro",
+        "Uma tempestade solar"
+      ],
+      "ancora": "draisiana"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Galileu Galilei",
+        "descricao": "Astrônomo, físico e matemático italiano (1564–1642), pioneiro do uso do telescópio na astronomia.",
+        "variantes": [
+          "Galileo Galilei",
+          "Galileu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Pelo calendário então usado na Inglaterra, Isaac Newton nasceu no mesmo ano em que morreu que cientista italiano?",
+      "resposta": "Galileu Galilei",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      ],
+      "distratores": [
+        "Evangelista Torricelli",
+        "Giordano Bruno",
+        "Alessandro Volta"
+      ],
+      "ancora": "galileu_galilei"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Guglielmo Marconi",
+        "descricao": "Inventor e engenheiro italiano (1874–1937), pioneiro da radiotelegrafia e Nobel de Física de 1909.",
+        "variantes": [
+          "Marconi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+          "https://pt.wikipedia.org/wiki/Guglielmo_Marconi"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na inauguração do Cristo Redentor, em 1931, estava previsto que as luzes fossem acesas a partir de Roma, por sinal de rádio, por que inventor?",
+      "resposta": "Guglielmo Marconi",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cristo_Redentor",
+        "https://en.wikipedia.org/wiki/Guglielmo_Marconi"
+      ],
+      "distratores": [
+        "Nikola Tesla",
+        "Thomas Edison",
+        "Landell de Moura"
+      ],
+      "ancora": "guglielmo_marconi"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Leonardo da Vinci",
+        "descricao": "Pintor, inventor e cientista italiano do Renascimento (1452–1519), autor de cadernos com projetos de máquinas.",
+        "variantes": [
+          "Leonardo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1994, que bilionário americano da informática comprou o Códice Leicester, um caderno de anotações científicas de Leonardo da Vinci?",
+      "resposta": "Bill Gates",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Codex_Leicester"
+      ],
+      "distratores": [
+        "Steve Jobs",
+        "Larry Ellison",
+        "Paul Allen"
+      ],
+      "ancora": "leonardo_da_vinci"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "alexander_graham_bell",
+        "nome": "Alexander Graham Bell",
+        "descricao": "Inventor e cientista nascido na Escócia, a quem se atribui a primeira patente prática do telefone.",
+        "variantes": [
+          "Graham Bell"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "De 1898 a 1903, Graham Bell presidiu que sociedade científica americana, famosa pela revista de moldura amarela na capa?",
+      "resposta": "National Geographic Society",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/National_Geographic_Society"
+      ],
+      "distratores": [
+        "Instituto Smithsoniano",
+        "Sociedade Audubon",
+        "Academia de Ciências"
+      ],
+      "ancora": "alexander_graham_bell"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Pilha de Volta",
+        "descricao": "Primeira bateria elétrica, formada por discos de metais diferentes empilhados, criada por Alessandro Volta em 1800.",
+        "variantes": [
+          "Pilha voltaica",
+          "Voltaic pile"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Voltaic_pile"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1800, Alessandro Volta criou a pilha elétrica numa disputa com outro italiano, que atribuía a eletricidade aos músculos das rãs. Quem?",
+      "resposta": "Luigi Galvani",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Voltaic_pile"
+      ],
+      "distratores": [
+        "Evangelista Torricelli",
+        "Amedeo Avogadro",
+        "Galileu Galilei"
+      ],
+      "ancora": "pilha_voltaica"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "penny_black",
+        "nome": "Penny Black",
+        "descricao": "Primeiro selo postal adesivo do mundo, emitido no Reino Unido em 1840 com o perfil da rainha Vitória.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penny_Black"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que reformador britânico propôs o selo adesivo pago pelo remetente, o que levou à criação do Penny Black, em 1840?",
+      "resposta": "Rowland Hill",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Penny_Black"
+      ],
+      "distratores": [
+        "Robert Peel",
+        "Charles Babbage",
+        "Isambard Brunel"
+      ],
+      "ancora": "penny_black"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "fax",
+        "nome": "Fax",
+        "descricao": "Sistema de transmissão de documentos e imagens por linha telefônica ou fio, também chamado fac-símile.",
+        "variantes": [
+          "Fac-símile"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fax"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1843, que relojoeiro escocês patenteou um telégrafo capaz de copiar imagens à distância, ancestral do fax?",
+      "resposta": "Alexander Bain",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fax"
+      ],
+      "distratores": [
+        "James Clerk Maxwell",
+        "John Logie Baird",
+        "Graham Bell"
+      ],
+      "ancora": "fax"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "paraquedas",
+        "nome": "Paraquedas",
+        "descricao": "Dispositivo que freia a descida de um objeto ou pessoa pela atmosfera, aqui sustentando uma cápsula espacial.",
+        "variantes": [
+          "Para-quedas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Parachute"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1797, que francês saltou de um balão sobre Paris usando um paraquedas de seda, sem armação rígida, criado por ele mesmo?",
+      "resposta": "André-Jacques Garnerin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Andr%C3%A9-Jacques_Garnerin"
+      ],
+      "distratores": [
+        "Jacques Charles",
+        "Louis Blériot",
+        "Joseph Montgolfier"
+      ],
+      "ancora": "paraquedas"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "disco_de_ouro_da_voyager",
+        "nome": "Disco de Ouro da Voyager",
+        "descricao": "Disco fonográfico banhado a ouro, com sons, imagens e músicas da Terra, levado pelas sondas Voyager 1 e 2.",
+        "variantes": [
+          "Voyager Golden Record"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que astrônomo americano, famoso pela série Cosmos, de 1980, chefiou o comitê que escolheu o conteúdo do Disco de Ouro das sondas Voyager?",
+      "resposta": "Carl Sagan",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+      ],
+      "distratores": [
+        "Edwin Hubble",
+        "Stephen Hawking",
+        "Isaac Asimov"
+      ],
+      "ancora": "disco_de_ouro_da_voyager"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "lapis",
+        "nome": "Lápis",
+        "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pencil"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "No século dezesseis, a descoberta de uma grande jazida de grafite puro levou à fabricação dos primeiros lápis. Em que país ela ficava?",
+      "resposta": "Inglaterra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pencil"
+      ],
+      "distratores": [
+        "Alemanha",
+        "Itália",
+        "Suécia"
+      ],
+      "ancora": "lapis"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "disco_de_ouro_da_voyager",
+        "nome": "Disco de Ouro da Voyager",
+        "descricao": "Disco fonográfico banhado a ouro, com sons, imagens e músicas da Terra, levado pelas sondas Voyager 1 e 2.",
+        "variantes": [
+          "Voyager Golden Record"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Entre as músicas gravadas no Disco de Ouro das sondas Voyager, que viajam para fora do Sistema Solar, há um rock de Chuck Berry. Qual?",
+      "resposta": "Johnny B. Goode",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Contents_of_the_Voyager_Golden_Record"
+      ],
+      "distratores": [
+        "Roll Over Beethoven",
+        "Maybellene",
+        "Sweet Little Sixteen"
+      ],
+      "ancora": "disco_de_ouro_da_voyager"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Pascalina",
+        "descricao": "Calculadora mecânica de engrenagens criada pelo francês Blaise Pascal para fazer somas e subtrações.",
+        "variantes": [
+          "Máquina de Pascal",
+          "Pascaline"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Invenções e História da Ciência",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que século o francês Blaise Pascal criou uma calculadora mecânica de engrenagens para ajudar o pai, cobrador de impostos?",
+      "resposta": "Século dezessete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+      ],
+      "distratores": [
+        "Século dezesseis",
+        "Século dezoito",
+        "Século dezenove"
+      ],
+      "ancora": "pascalina"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "guglielmo_marconi",
+      "nome": "Guglielmo Marconi",
+      "descricao": "Inventor e engenheiro italiano (1874–1937), pioneiro da radiotelegrafia e Nobel de Física de 1909.",
+      "variantes": [
+        "Marconi"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+        "https://pt.wikipedia.org/wiki/Guglielmo_Marconi"
+      ]
+    }
+  ],
+  "variantes": {
+    "penny_farthing": [
+      "Penny-farthing",
+      "Biciclo",
+      "High wheeler"
+    ],
+    "ziper": [
+      "Zíper",
+      "Fecho éclair",
+      "Zipper"
+    ],
+    "sputnik_1": [
+      "Sputnik 1",
+      "Sputnik"
+    ],
+    "telescopio": [
+      "Telescópio"
+    ],
+    "raio_x": [
+      "Raio X",
+      "Raios X",
+      "Raios Röntgen"
+    ],
+    "james_watt": [
+      "James Watt"
+    ],
+    "eratostenes": [
+      "Eratóstenes",
+      "Eratóstenes de Cirene"
+    ],
+    "escada_rolante": [
+      "Escada rolante",
+      "Escalator"
+    ],
+    "forno_de_micro_ondas": [
+      "Forno de micro-ondas",
+      "Micro-ondas"
+    ],
+    "dinamite": [
+      "Dinamite"
+    ],
+    "desastre_do_hindenburg": [
+      "Desastre do Hindenburg",
+      "Hindenburg"
+    ],
+    "post_it": [
+      "Post-it",
+      "Post-it Note"
+    ],
+    "alexander_graham_bell": [
+      "Alexander Graham Bell",
+      "Graham Bell"
+    ],
+    "draisiana": [
+      "Draisiana",
+      "Laufmaschine",
+      "Dandy horse"
+    ],
+    "aristoteles": [
+      "Aristóteles"
+    ],
+    "gustave_eiffel": [
+      "Gustave Eiffel"
+    ],
+    "penny_black": [
+      "Penny Black"
+    ],
+    "fax": [
+      "Fax",
+      "Fac-símile"
+    ],
+    "paraquedas": [
+      "Paraquedas",
+      "Para-quedas"
+    ],
+    "disco_de_ouro_da_voyager": [
+      "Disco de Ouro da Voyager",
+      "Voyager Golden Record"
+    ],
+    "relogio_cuco": [
+      "Relógio cuco",
+      "Relógio de cuco"
+    ],
+    "lapis": [
+      "Lápis"
+    ],
+    "escova_de_dentes": [
+      "Escova de dentes"
+    ],
+    "concorde": [
+      "Concorde"
+    ],
+    "galileu_galilei": [
+      "Galileu Galilei",
+      "Galileo Galilei",
+      "Galileu"
+    ],
+    "alberto_santos_dumont": [
+      "Alberto Santos-Dumont",
+      "Santos Dumont",
+      "Pai da Aviação"
+    ],
+    "velcro": [
+      "Velcro",
+      "Fecho de contato",
+      "Hook-and-loop"
+    ],
+    "maquina_de_newcomen": [
+      "Máquina a vapor de Newcomen",
+      "Máquina de Newcomen",
+      "Newcomen atmospheric engine"
+    ],
+    "polvora": [
+      "Pólvora",
+      "Pólvora negra"
+    ],
+    "isaac_newton": [
+      "Isaac Newton",
+      "Sir Isaac Newton"
+    ],
+    "leonardo_da_vinci": [
+      "Leonardo da Vinci",
+      "Leonardo"
+    ],
+    "pilha_voltaica": [
+      "Pilha de Volta",
+      "Pilha voltaica",
+      "Voltaic pile"
+    ],
+    "sistema_binario": [
+      "Sistema binário",
+      "Numeração binária",
+      "Código binário"
+    ],
+    "armonica_de_vidro": [
+      "Armônica de vidro",
+      "Harmônica de vidro",
+      "Glass harmonica"
+    ],
+    "arquimedes": [
+      "Arquimedes",
+      "Arquimedes de Siracusa",
+      "Archimedes"
+    ],
+    "guilhotina": [
+      "Guilhotina",
+      "Guillotine"
+    ],
+    "pascalina": [
+      "Pascalina",
+      "Máquina de Pascal",
+      "Pascaline"
+    ],
+    "braille": [
+      "Sistema braille",
+      "Braille",
+      "Braile"
+    ],
+    "irmaos_wright": [
+      "Irmãos Wright",
+      "Wright brothers",
+      "Orville e Wilbur Wright"
+    ]
+  }
+}
