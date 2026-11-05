@@ -1,0 +1,1106 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "bernardinho",
+        "nome": "Bernardinho",
+        "descricao": "Técnico brasileiro de vôlei, campeão olímpico com a seleção masculina em 2004 e 2016.",
+        "variantes": [
+          "Bernardo Rezende"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bernardinho"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Como técnico, entre Atlanta 1996 e o Rio 2016, Bernardinho levou seleções brasileiras ao pódio olímpico em quantas edições seguidas dos Jogos?",
+      "resposta": "Seis",
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Sete"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bernardinho"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bernardinho",
+        "nome": "Bernardinho",
+        "descricao": "Técnico brasileiro de vôlei, campeão olímpico com a seleção masculina em 2004 e 2016.",
+        "variantes": [
+          "Bernardo Rezende"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bernardinho"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O técnico Bernardinho, campeão olímpico com a seleção masculina, é conhecido pelo apelido. Qual é o seu nome de batismo?",
+      "resposta": "Bernardo Rocha de Rezende",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bernardinho"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grand Prix de Voleibol",
+        "descricao": "Torneio anual de seleções femininas de vôlei organizado pela FIVB entre 1993 e 2017.",
+        "variantes": [
+          "Grand Prix Mundial de Vôlei",
+          "FIVB World Grand Prix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/FIVB_Volleyball_Women%27s_World_Grand_Prix"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "O Grand Prix, torneio anual de seleções femininas de vôlei, foi disputado de 1993 a 2017. Que país foi o seu maior campeão?",
+      "resposta": "Brasil",
+      "distratores": [
+        "China",
+        "Estados Unidos",
+        "Rússia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/FIVB_Volleyball_Women%27s_World_Grand_Prix"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Liga das Nações de Voleibol",
+        "descricao": "Torneio anual de seleções de vôlei organizado pela FIVB desde 2018, no masculino e no feminino.",
+        "variantes": [
+          "Volleyball Nations League",
+          "VNL"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/FIVB_Volleyball_Nations_League"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em 2018, a Liga Mundial masculina e o Grand Prix feminino deram lugar a um novo torneio anual de seleções de vôlei. Qual?",
+      "resposta": "Liga das Nações",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/FIVB_Volleyball_Nations_League"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rede_de_volei",
+        "nome": "Rede de vôlei",
+        "descricao": "Rede que divide a quadra de vôlei, com altura oficial diferente para homens e mulheres.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No vôlei de quadra adulto, a rede masculina fica a 2,43 metros do chão. Qual é a altura oficial da rede feminina?",
+      "resposta": "2,24 metros",
+      "distratores": [
+        "2,10 metros",
+        "2,30 metros",
+        "2,35 metros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rede_de_volei",
+        "nome": "Rede de vôlei",
+        "descricao": "Rede que divide a quadra de vôlei, com altura oficial diferente para homens e mulheres.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1895, para inventar o vôlei, William Morgan pegou emprestada a rede de outro esporte e a ergueu bem mais alto. Que esporte?",
+      "resposta": "Tênis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "quadra_de_volei",
+        "nome": "Quadra de vôlei",
+        "descricao": "Superfície retangular onde se joga o vôlei de quadra, dividida ao meio pela rede.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na quadra de vôlei, a linha que separa a zona de ataque da zona de defesa fica a quantos metros da rede?",
+      "resposta": "Três metros",
+      "distratores": [
+        "Dois metros",
+        "Quatro metros",
+        "Cinco metros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rodizio",
+        "nome": "Rodízio",
+        "descricao": "Regra do vôlei de quadra que obriga os jogadores a mudar de posição sempre que o time recupera o saque.",
+        "variantes": [
+          "Rotação"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "No rodízio do vôlei de quadra, o jogador que vai sacar é quem ocupa a posição um. Onde fica essa posição?",
+      "resposta": "No fundo, à direita",
+      "distratores": [
+        "No fundo, à esquerda",
+        "Na rede, ao centro",
+        "No fundo, ao centro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "libero",
+        "nome": "Líbero",
+        "descricao": "Jogador especialista em defesa no vôlei, que usa camisa de cor diferente da dos companheiros.",
+        "variantes": [
+          "Libero"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Pelas regras da federação internacional, o líbero não pode bloquear nem atacar acima da altura da rede. Que outro fundamento ele também não pode executar?",
+      "resposta": "Sacar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "libero",
+        "nome": "Líbero",
+        "descricao": "Jogador especialista em defesa no vôlei, que usa camisa de cor diferente da dos companheiros.",
+        "variantes": [
+          "Libero"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Criada pela federação internacional em 1998, a posição do líbero estreou nos Jogos Olímpicos em que edição?",
+      "resposta": "Sydney 2000",
+      "distratores": [
+        "Atlanta 1996",
+        "Atenas 2004",
+        "Pequim 2008"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball_at_the_2000_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Manchete",
+        "descricao": "Fundamento do vôlei em que o jogador toca a bola com os antebraços unidos, usado sobretudo na recepção e na defesa.",
+        "variantes": [
+          "Bump",
+          "Passe de antebraço"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Voleibol"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que fundamento do vôlei é feito com os antebraços unidos e esticados, e é o mais usado para receber o saque adversário?",
+      "resposta": "Manchete",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Voleibol"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bloqueio",
+        "descricao": "Fundamento do vôlei em que jogadores junto à rede saltam com os braços erguidos para barrar o ataque adversário.",
+        "variantes": [
+          "Block"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "No vôlei de quadra, só os jogadores da linha da frente podem bloquear. Quantos jogadores, no máximo, podem formar um mesmo bloqueio?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sistema_de_pontuacao_por_rali",
+        "nome": "Sistema de pontuação por rali",
+        "descricao": "Regra do vôlei em que todo rali vale ponto, independentemente de quem sacou, adotada pela FIVB em 1999.",
+        "variantes": [
+          "Rally point"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No vôlei de quadra, os quatro primeiros sets vão a vinte e cinco pontos. Até quantos pontos vai o quinto set, o tie-break?",
+      "resposta": "Quinze",
+      "distratores": [
+        "Onze",
+        "Dezoito",
+        "Vinte e um"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bola de vôlei",
+        "descricao": "Bola esférica usada no vôlei, com câmara de borracha e revestimento de couro ou material sintético.",
+        "variantes": [
+          "Volleyball (ball)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball_(ball)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nos primeiros jogos de vôlei, William Morgan achou a bola de basquete pesada demais. Que parte dela ele chegou a usar no lugar, por ser leve?",
+      "resposta": "A câmara de ar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball",
+        "https://en.wikipedia.org/wiki/Volleyball_(ball)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "federacao_internacional_de_voleibol",
+        "nome": "Federação Internacional de Voleibol",
+        "descricao": "Entidade que governa o vôlei de quadra e de praia no mundo, conhecida pela sigla FIVB.",
+        "variantes": [
+          "FIVB"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_Internationale_de_Volleyball"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Fundada em Paris em 1947, a federação internacional de vôlei transferiu sua sede nos anos oitenta para que cidade suíça?",
+      "resposta": "Lausanne",
+      "distratores": [
+        "Genebra",
+        "Zurique",
+        "Berna"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_Internationale_de_Volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "volei_sentado",
+        "nome": "Vôlei sentado",
+        "descricao": "Variante do vôlei para pessoas com deficiência, jogada com os atletas sentados no chão.",
+        "variantes": [
+          "Sitting volleyball"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sitting_volleyball"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No vôlei sentado paralímpico, a rede é bem mais baixa que no vôlei comum. Qual é a altura oficial da rede masculina?",
+      "resposta": "1,15 metro",
+      "distratores": [
+        "0,90 metro",
+        "1,30 metro",
+        "1,50 metro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sitting_volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "volei_de_praia",
+        "nome": "Vôlei de praia",
+        "descricao": "Modalidade de vôlei disputada na areia por duplas.",
+        "variantes": [
+          "Beach volleyball"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beach_volleyball"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O vôlei de praia jogado em duplas, como o das Olimpíadas, surgiu entre os anos vinte e trinta em que praia da Califórnia?",
+      "resposta": "Santa Monica",
+      "distratores": [
+        "Malibu",
+        "San Diego",
+        "Long Beach"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beach_volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "emanuel_rego",
+        "nome": "Emanuel Rego",
+        "descricao": "Ex-jogador brasileiro de vôlei de praia, campeão olímpico com Ricardo em Atenas 2004.",
+        "variantes": [
+          "Emanuel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Emanuel_Rego"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Campeão olímpico com Ricardo em 2004, Emanuel voltou a uma final olímpica em Londres 2012 e ficou com a prata. Quem era seu parceiro?",
+      "resposta": "Alison Cerutti",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emanuel_Rego",
+        "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ricardo Santos",
+        "descricao": "Ex-jogador brasileiro de vôlei de praia, campeão olímpico com Emanuel em Atenas 2004.",
+        "variantes": [
+          "Ricardo Alex Costa Santos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ricardo_Santos"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Antes do ouro com Emanuel em Atenas, o baiano Ricardo Santos já tinha sido prata no vôlei de praia em Sydney 2000. Ao lado de quem?",
+      "resposta": "Zé Marco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ricardo_Santos",
+        "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2000_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sandra_pires",
+        "nome": "Sandra Pires",
+        "descricao": "Ex-jogadora brasileira de vôlei de praia, campeã olímpica com Jacqueline Silva em 1996.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sandra_Pires"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Campeã olímpica em Atlanta, Sandra Pires voltou ao pódio em Sydney 2000, com o bronze no vôlei de praia. Quem era sua parceira?",
+      "resposta": "Adriana Samuel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sandra_Pires",
+        "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2000_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "adriana_samuel",
+        "nome": "Adriana Samuel",
+        "descricao": "Ex-jogadora brasileira de vôlei de praia, medalha de prata em Atlanta 1996 e de bronze em Sydney 2000.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Adriana_Samuel"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na primeira final olímpica do vôlei de praia feminino, em Atlanta 1996, Adriana Samuel ficou com a prata. Quem era sua parceira de dupla?",
+      "resposta": "Mônica Rodrigues",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adriana_Samuel",
+        "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_1996_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "shelda_bede",
+        "nome": "Shelda Bede",
+        "descricao": "Ex-jogadora brasileira de vôlei de praia, medalha de prata olímpica em Sydney 2000 e Atenas 2004.",
+        "variantes": [
+          "Shelda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shelda_Bede"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Shelda Bede, duas vezes prata olímpica no vôlei de praia ao lado de Adriana Behar, nasceu em que capital nordestina?",
+      "resposta": "Fortaleza",
+      "distratores": [
+        "Natal",
+        "Recife",
+        "João Pessoa"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shelda_Bede"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "larissa_franca",
+        "nome": "Larissa França",
+        "descricao": "Jogadora brasileira de vôlei de praia, maior campeã de títulos da história do circuito mundial da FIVB.",
+        "variantes": [
+          "Larissa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Larissa_Fran%C3%A7a"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Londres 2012, Larissa conquistou sua medalha olímpica, um bronze no vôlei de praia, com a parceira de tantos títulos no circuito mundial. Quem?",
+      "resposta": "Juliana Silva",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Larissa_Fran%C3%A7a",
+        "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Women%27s_tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "paola_egonu",
+        "nome": "Paola Egonu",
+        "descricao": "Oposta italiana de vôlei, estrela da seleção da Itália.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paola_Egonu"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A oposta Paola Egonu, estrela da seleção italiana de vôlei, nasceu na Itália, filha de imigrantes de que país africano?",
+      "resposta": "Nigéria",
+      "distratores": [
+        "Gana",
+        "Senegal",
+        "Camarões"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paola_Egonu"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "volei_feminino_nos_jogos_olimpicos_de_2024",
+        "nome": "Vôlei feminino nos Jogos Olímpicos de 2024",
+        "descricao": "Torneio feminino de vôlei de quadra dos Jogos de Paris, em 2024.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball_at_the_2024_Summer_Olympics_%E2%80%93_Women%27s_tournament"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "No torneio olímpico de vôlei feminino de Paris 2024, vencido pela Itália, que oposta italiana foi eleita a melhor jogadora da competição?",
+      "resposta": "Paola Egonu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball_at_the_2024_Summer_Olympics_%E2%80%93_Women%27s_tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "wilfredo_leon",
+        "nome": "Wilfredo León",
+        "descricao": "Ponta de vôlei nascido em Cuba e naturalizado polonês.",
+        "variantes": [
+          "Wilfredo León Venero"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wilfredo_Le%C3%B3n"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nascido em Cuba, o ponteiro Wilfredo León ganhou a medalha de prata olímpica em Paris 2024 defendendo que seleção?",
+      "resposta": "Polônia",
+      "distratores": [
+        "Itália",
+        "Rússia",
+        "Alemanha"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wilfredo_Le%C3%B3n",
+        "https://en.wikipedia.org/wiki/Volleyball_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "selecao_italiana_de_voleibol_masculino",
+        "nome": "Seleção Italiana de Voleibol Masculino",
+        "descricao": "Seleção masculina de vôlei de quadra da Itália.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Italy_men%27s_national_volleyball_team"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que feito nos Mundiais masculinos de vôlei a Itália dos anos noventa e o Brasil de 2002 a 2010 têm em comum?",
+      "resposta": "Três títulos mundiais seguidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/FIVB_Volleyball_Men%27s_World_Championship"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "volei_masculino_nos_jogos_olimpicos_de_1992",
+        "nome": "Vôlei masculino nos Jogos Olímpicos de 1992",
+        "descricao": "Torneio masculino de vôlei de quadra dos Jogos de Barcelona, vencido pelo Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball_at_the_1992_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na seleção brasileira campeã olímpica de vôlei em Barcelona 1992, cheia de jovens como Tande e Giovane, que central veterano era o capitão?",
+      "resposta": "Carlão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Brasileira_de_Voleibol_Masculino",
+        "https://en.wikipedia.org/wiki/Volleyball_at_the_1992_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ricardinho",
+        "descricao": "Ricardo Garcia, ex-levantador brasileiro de vôlei, campeão olímpico em Atenas 2004.",
+        "variantes": [
+          "Ricardo Garcia",
+          "Ricardo Bermudez Garcia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ricardo_Garcia"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em 2007, às vésperas do Pan do Rio, Bernardinho cortou da seleção o levantador titular do ouro olímpico de Atenas. Quem era ele?",
+      "resposta": "Ricardinho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ricardo_Garcia"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bruninho",
+        "nome": "Bruninho",
+        "descricao": "Levantador brasileiro de vôlei, campeão olímpico nos Jogos do Rio em 2016.",
+        "variantes": [
+          "Bruno Rezende"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bruno_Rezende"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Na cerimônia de abertura dos Jogos de Tóquio, ao lado da judoca Ketleyn Quadros, que jogador de vôlei carregou a bandeira do Brasil?",
+      "resposta": "Bruninho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_at_the_2020_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Bruno_Rezende"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "serginho",
+        "nome": "Serginho",
+        "descricao": "Ex-jogador brasileiro de vôlei, campeão olímpico em Atenas 2004 e no Rio 2016, conhecido como Serginho Escadinha.",
+        "variantes": [
+          "Sérgio Dutra Santos",
+          "Serginho Escadinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/S%C3%A9rgio_Dutra_Santos"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "De Atenas 2004 ao Rio 2016, o líbero Serginho subiu ao pódio olímpico com a seleção em todas as edições. Quantas medalhas olímpicas ele somou?",
+      "resposta": "Quatro",
+      "distratores": [
+        "Duas",
+        "Três",
+        "Cinco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/S%C3%A9rgio_Dutra_Santos"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "giba",
+        "nome": "Giba",
+        "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+        "variantes": [
+          "Gilberto Amauri de Godoy Filho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giba"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Giba, ponteiro campeão olímpico em Atenas e um dos maiores ídolos do vôlei brasileiro, nasceu em que cidade do norte do Paraná?",
+      "resposta": "Londrina",
+      "distratores": [
+        "Maringá",
+        "Cascavel",
+        "Ponta Grossa"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vôlei masculino nos Jogos Olímpicos de 2004",
+        "descricao": "Torneio masculino de vôlei de quadra dos Jogos de Atenas, em 2004, vencido pelo Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball_at_the_2004_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "O Brasil ganhou o ouro no vôlei masculino de Atenas 2004. Que jogador brasileiro foi eleito o melhor do torneio olímpico?",
+      "resposta": "Giba",
+      "distratores": [
+        "Nalbert",
+        "Dante",
+        "Ricardinho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball_at_the_2004_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+        "https://en.wikipedia.org/wiki/Giba"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "volei_masculino_nos_jogos_olimpicos_de_2012",
+        "nome": "Vôlei masculino nos Jogos Olímpicos de 2012",
+        "descricao": "Torneio masculino de vôlei de quadra dos Jogos de Londres, em 2012.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Mesmo com a derrota do Brasil na final de Londres 2012, um ponteiro brasileiro foi eleito o melhor jogador do torneio olímpico. Quem?",
+      "resposta": "Murilo Endres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+        "https://en.wikipedia.org/wiki/Murilo_Endres"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vôlei feminino nos Jogos Olímpicos de 2008",
+        "descricao": "Torneio feminino de vôlei de quadra dos Jogos de Pequim, em 2008, vencido pelo Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball_at_the_2008_Summer_Olympics_%E2%80%93_Women%27s_tournament"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na campanha do primeiro ouro olímpico do vôlei feminino brasileiro, em Pequim 2008, quem recebeu o prêmio de melhor jogadora do torneio?",
+      "resposta": "Paula Pequeno",
+      "distratores": [
+        "Sheilla Castro",
+        "Fofão",
+        "Mari Steinbrecher"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball_at_the_2008_Summer_Olympics_%E2%80%93_Women%27s_tournament",
+        "https://en.wikipedia.org/wiki/Paula_Pequeno"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "karch_kiraly",
+        "nome": "Karch Kiraly",
+        "descricao": "Ex-jogador americano de vôlei, campeão olímpico na quadra em 1984 e 1988 e na areia em 1996.",
+        "variantes": [
+          "Charles Frederick Kiraly"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Karch_Kiraly"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na virada do milênio, a federação internacional de vôlei elegeu o melhor jogador do século vinte, um americano campeão olímpico na quadra e na areia. Quem?",
+      "resposta": "Karch Kiraly",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Karch_Kiraly"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Regla Torres",
+        "descricao": "Ex-jogadora cubana de vôlei, central tricampeã olímpica com Cuba em 1992, 1996 e 2000.",
+        "variantes": [
+          "Regla Torres Herrera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Regla_Torres"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Que central das Morenas do Caribe, tricampeã olímpica, foi escolhida pela federação internacional como a melhor jogadora de vôlei do século vinte?",
+      "resposta": "Regla Torres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Regla_Torres"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lang_ping",
+        "nome": "Lang Ping",
+        "descricao": "Ex-jogadora e técnica chinesa de vôlei, campeã olímpica como atleta em 1984 e como treinadora em 2016.",
+        "variantes": [
+          "Jenny Lang Ping"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lang_Ping"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nos Jogos de Pequim, em 2008, a chinesa Lang Ping foi prata olímpica no vôlei feminino, jogando em casa, mas como técnica de outro país. Qual?",
+      "resposta": "Estados Unidos",
+      "distratores": [
+        "Japão",
+        "Itália",
+        "Rússia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lang_Ping"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "haikyu",
+        "nome": "Haikyu!!",
+        "descricao": "Mangá e anime japonês de Haruichi Furudate sobre um time colegial de vôlei.",
+        "variantes": [
+          "Haikyuu!!"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Haikyu!!"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No mangá e anime Haikyu, quem é o protagonista baixinho que compensa a altura com saltos enormes no time do colégio Karasuno?",
+      "resposta": "Shoyo Hinata",
+      "distratores": [
+        "Tobio Kageyama",
+        "Yu Nishinoya",
+        "Kei Tsukishima"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Haikyu!!"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "giovane_gavio",
+        "nome": "Giovane Gávio",
+        "descricao": "Ex-jogador e técnico brasileiro de vôlei, campeão olímpico em Barcelona 1992.",
+        "variantes": [
+          "Giovane"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giovane_G%C3%A1vio"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Ao lado do levantador Maurício, que outro jogador esteve tanto no ouro olímpico de Barcelona 1992 quanto no de Atenas 2004?",
+      "resposta": "Giovane Gávio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giovane_G%C3%A1vio"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fofao",
+        "nome": "Fofão",
+        "descricao": "Levantadora brasileira de vôlei, campeã olímpica em Pequim 2008.",
+        "variantes": [
+          "Hélia Souza"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/H%C3%A9lia_Souza"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quando enfim ganhou o ouro olímpico, em Pequim 2008, a levantadora Fofão estava disputando sua edição de número quantos dos Jogos?",
+      "resposta": "Quinta",
+      "distratores": [
+        "Terceira",
+        "Quarta",
+        "Sexta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/H%C3%A9lia_Souza"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ana_moser",
+        "nome": "Ana Moser",
+        "descricao": "Ex-jogadora brasileira de vôlei, medalha de bronze olímpica em Atlanta 1996.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ana_Moser"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Ana Moser, ponteira da seleção bronze em Atlanta 1996, nasceu em que cidade catarinense de forte colonização alemã?",
+      "resposta": "Blumenau",
+      "distratores": [
+        "Joinville",
+        "Pomerode",
+        "Jaraguá do Sul"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ana_Moser"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bebeto_de_freitas",
+        "nome": "Bebeto de Freitas",
+        "descricao": "Técnico brasileiro de vôlei que comandou a seleção masculina prata em Los Angeles 1984 e depois foi dirigente de futebol.",
+        "variantes": [
+          "Paulo Roberto de Freitas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bebeto_de_Freitas"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em 1998, o brasileiro Bebeto de Freitas foi campeão mundial de vôlei masculino como técnico de que seleção europeia?",
+      "resposta": "Itália",
+      "distratores": [
+        "Holanda",
+        "Espanha",
+        "Portugal"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bebeto_de_Freitas",
+        "https://en.wikipedia.org/wiki/1998_FIVB_Volleyball_Men%27s_World_Championship"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "volei_de_praia_nos_jogos_olimpicos_de_2016",
+        "nome": "Vôlei de praia nos Jogos Olímpicos de 2016",
+        "descricao": "Torneios olímpicos de vôlei de praia disputados no Rio de Janeiro em 2016.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No Rio 2016, a seleção masculina venceu a Itália na final da quadra. Na final do vôlei de praia, Alison e Bruno Schmidt venceram uma dupla de que país?",
+      "resposta": "Itália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ace",
+        "descricao": "Ponto do vôlei conquistado diretamente no saque, sem que o adversário consiga devolver a bola.",
+        "variantes": [
+          "Ás"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "No vôlei, que nome em inglês recebe o ponto conquistado direto no saque, quando o adversário nem consegue tocar ou devolver a bola?",
+      "resposta": "Ace",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Largada",
+        "descricao": "Ataque do vôlei em que o jogador, em vez de cortar com força, toca a bola de leve por cima ou ao lado do bloqueio.",
+        "variantes": [
+          "Tip",
+          "Dink"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Voleibol"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "No vôlei, como se chama o ataque em que o jogador finge que vai cortar, mas apenas encosta na bola e a deixa cair logo atrás do bloqueio?",
+      "resposta": "Largada",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Voleibol"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mikasa",
+        "nome": "Mikasa",
+        "descricao": "Fabricante japonesa de artigos esportivos, conhecida pelas bolas de vôlei usadas em competições olímpicas.",
+        "variantes": [
+          "Mikasa Sports"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mikasa_Sports"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No fim dos anos noventa, a bola oficial de vôlei deixou de ser toda branca e ganhou faixas amarelas e azuis. Qual foi o principal motivo?",
+      "resposta": "Melhorar a visibilidade",
+      "distratores": [
+        "Reduzir o peso",
+        "Aumentar a aderência",
+        "Homenagear o patrocinador"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mikasa_Sports",
+        "https://en.wikipedia.org/wiki/Volleyball_(ball)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vôlei masculino nos Jogos Olímpicos de 2000",
+        "descricao": "Torneio masculino de vôlei de quadra dos Jogos de Sydney, em 2000.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volleyball_at_the_2000_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos Jogos de Sydney, em 2000, o ouro do vôlei masculino ficou com uma seleção de um país que depois deixou de existir. Qual?",
+      "resposta": "Iugoslávia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volleyball_at_the_2000_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "liga_mundial_de_voleibol",
+        "nome": "Liga Mundial de Voleibol",
+        "descricao": "Torneio anual de seleções masculinas de vôlei organizado pela federação internacional entre 1990 e 2017.",
+        "variantes": [
+          "World League"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/FIVB_Volleyball_World_League"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A Liga Mundial de vôlei masculino estreou em 1990, antes da era de ouro brasileira. Que seleção venceu essa primeira edição?",
+      "resposta": "Itália",
+      "distratores": [
+        "Cuba",
+        "Holanda",
+        "União Soviética"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/FIVB_Volleyball_World_League"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "duda_lisboa",
+        "nome": "Duda Lisboa",
+        "descricao": "Jogadora brasileira de vôlei de praia, campeã olímpica com Ana Patrícia em Paris 2024.",
+        "variantes": [
+          "Duda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Duda_Lisboa"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A campeã olímpica de vôlei de praia em Paris 2024 é conhecida como Duda. De que nome de batismo vem esse apelido?",
+      "resposta": "Eduarda",
+      "distratores": [
+        "Maria Eduarda",
+        "Daniela",
+        "Dulce"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Duda_Lisboa"
+      ]
+    }
+  ]
+}

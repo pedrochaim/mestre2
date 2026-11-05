@@ -1,0 +1,425 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis medalhas consecutivas de 1996 a 2016 está na Wikipédia em português; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato fraco: o nome de batismo é quase o próprio apelido (Bernardo), sem graça nem ensinamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (Brasil é o maior campeão), mas a fonte é inexistente; trocar por URL válida.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "O Grand Prix, torneio anual de seleções femininas de vôlei, foi disputado de 1993 a 2017. Que país foi o seu maior campeão?",
+        "resposta": "Brasil",
+        "distratores": [
+          "China",
+          "Estados Unidos",
+          "Rússia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/FIVB_Volleyball_World_Grand_Prix"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a fonte é página de desambiguação; trocar pela do torneio masculino.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Em 2018, a Liga Mundial masculina e o Grand Prix feminino deram lugar a um novo torneio anual de seleções de vôlei. Qual?",
+        "resposta": "Liga das Nações",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/FIVB_Men%27s_Volleyball_Nations_League",
+          "https://en.wikipedia.org/wiki/FIVB_Volleyball_World_League"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "2,24 m confirmado nas fontes; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Morgan adaptou uma rede de tênis elevada; fato bem documentado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Linha de três metros confirmada na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Posição 1 é fundo à direita, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regra FIVB: líbero não saca, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (estreia olímpica em Sydney 2000), mas a fonte não menciona o líbero; acrescentar fonte que cite 1998 e trocar distrator anterior à criação.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Criada pela federação internacional em 1998, a posição do líbero estreou nos Jogos Olímpicos em que edição?",
+        "resposta": "Sydney 2000",
+        "distratores": [
+          "Atenas 2004",
+          "Pequim 2008",
+          "Londres 2012"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Volleyball",
+          "https://en.wikipedia.org/wiki/Volleyball_at_the_2000_Summer_Olympics"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Definição de manchete e uso na recepção confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A linha de frente tem três jogadores, então a resposta sai do próprio enunciado; sem fonte nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tie-break até 15 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Câmara de ar da bola de basquete confirmada na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mudança de Paris para Lausanne em 1984 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1,15 m masculino confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Santa Monica nos anos 1920 e duplas confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alison Cerutti como parceiro em Londres 2012, prata, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (Zé Marco, prata em 2000), mas a fonte é desambiguação; trocar pela página do jogador.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Antes do ouro com Emanuel em Atenas, o baiano Ricardo Santos já tinha sido prata no vôlei de praia em Sydney 2000. Ao lado de quem?",
+        "resposta": "Zé Marco",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ricardo_Santos_(beach_volleyball)",
+          "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2000_Summer_Olympics"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bronze com Adriana Samuel em Sydney confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prata com Mônica Rodrigues em Atlanta confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nascida em Fortaleza, pratas em 2000 e 2004, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bronze em 2012 com Juliana confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pais nigerianos confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Egonu MVP em Paris 2024 confirmada na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "León, nascido em Cuba, prata em Paris 2024 pela Polônia.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tricampeonato seguido de Itália (anos 90) e Brasil (2002-2010) confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Capitão não confirmado e Carlão não é o central de ofício citado; fato incerto.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte é desambiguação e o fato do corte em 2007 não está confirmado nos trechos; na dúvida, descartar.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bruninho e Ketleyn Quadros foram porta-bandeiras em Tóquio; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dois ouros e duas pratas, quatro medalhas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Giba nasceu em Londrina, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Giba MVP em Atenas 2004 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Murilo Endres MVP de Londres 2012 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paula Pequeno MVP em Pequim 2008 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Karch Kiraly melhor do século XX pela FIVB confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regla Torres melhor jogadora do século XX, tricampeã olímpica, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Foi prata olímpica' é impreciso: ela foi técnica da equipe prateada, não atleta.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Em Pequim 2008, jogando em casa, a chinesa Lang Ping foi técnica da seleção de outro país no vôlei feminino e levou a prata. Qual país?",
+        "resposta": "Estados Unidos",
+        "distratores": [
+          "Japão",
+          "Itália",
+          "Rússia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lang_Ping"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shoyo Hinata protagonista de Haikyu!!, confirmado; distratores da mesma obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Giovane ouro em 1992 e 2004 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fofão disputou cinco Olimpíadas seguidas, ouro na quinta (2008).",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ana Moser nasceu em Blumenau, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bebeto campeão mundial 1998 com a Itália confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado cita a Itália, que é a resposta (vazamento); reformular como múltipla sem mencionar a quadra.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Na final do vôlei de praia masculino do Rio 2016, Alison e Bruno Schmidt venceram uma dupla de que país?",
+        "resposta": "Itália",
+        "distratores": [
+          "Holanda",
+          "Rússia",
+          "Estados Unidos"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Voleibol_de_praia_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2016_-_Masculino"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ace como saque direto é termo consagrado e consta na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Largada definida na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fontes não tratam das faixas coloridas nem do motivo; âncora Mikasa fraca e distrator absurdo.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Iugoslávia campeã em Sydney 2000 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itália venceu a primeira Liga Mundial em 1990.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Duda vir de Eduarda é trivial e o distrator 'Maria Eduarda' também seria defensável.",
+      "reescrita": null
+    }
+  ]
+}

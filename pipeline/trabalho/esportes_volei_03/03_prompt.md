@@ -1,0 +1,1889 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Vôlei** (tema **Esportes**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Bernardinho",
+      "descricao": "Técnico brasileiro de vôlei, campeão olímpico com a seleção masculina em 2004 e 2016."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Como técnico, entre Atlanta 1996 e o Rio 2016, Bernardinho levou seleções brasileiras ao pódio olímpico em quantas edições seguidas dos Jogos?",
+    "resposta": "Seis",
+    "distratores": [
+      "Quatro",
+      "Cinco",
+      "Sete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bernardinho"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bernardinho",
+        "situacao": "ok",
+        "texto": "Bernardo Rocha de Rezende (born 25 August 1959), known as Bernardo Rezende and nicknamed Bernardinho, is a Brazilian volleyball coach and former player. He is the current coach of the female volleyball team Rio de Janeiro Vôlei Clube. Rezende is one of the most successful coaches in the history of volleyball, accumulating more than 30 major titles in a twenty-year career directing the Brazilian ma\n[…]\nRezende has won two Olympic gold medals during his coaching career, as head coach of Brazil men's national volleyball team at 2004 Athens and 2016 Rio Olympics. He also won two bronze medals as head coach of Brazil women's national volleyball team at the 1996 Atlanta and 2000 Sydney Olympics. He is the first and only head coach to lead national teams to win six Olympics medals. As of 2021, with 48 medals overall, he is the most successful team sport coach of all time.\n[…]\nIn 1996, the team won the bronze medal at the Atlanta Olympic Games and the gold medal at the FIVB World Grand Prix. In 1998 Rezende led the Brazilians to a South American title, earned qualification for the FIVB World Championship and won bronze in the FIVB World Grand Championship Cup in Japan.\n[…]\nSince 2001, Rezende has been the coach of the Brazilian male national team, with whom he won two Olympic titles in 2004 and 2016. After this success Rezende accepted the challenge of leading the Brazilian men in 2001. Bernardinho led the team to memorable victories including first place in the 2001 and 2003 editions of the FIVB World League, and the gold medal at the 2002 FIVB World Championship.\n[…]\nRezende once again defeated his great rival Italy to win the gold medal in the Rio 2016 Olympics.\n[…]\nBernardo Rocha Rocha Rezende at Olympics.com\n[…]\nOlympics 2016 Rezende - Reuters\n[…]\nVolleyballadvisors - Bernardo Rezende\n[…]\nEspn.uol World Volleyball Rezende\n[…]\nMelhordovolei Bernardo Rezende Archived 16 August 2017 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bernardinho",
+        "situacao": "ok",
+        "texto": "Bernardo Rocha de Rezende (Rio de Janeiro, 25 de agosto de 1959), conhecido como Bernardinho, é um ex-jogador, treinador de voleibol, economista, e empresário brasileiro. Atualmente, treina o Sesc-Flamengo e a Seleção Brasileira de Voleibol Masculino.\n[…]\nComo treinador, Bernardinho é um dos maiores campeões da história do voleibol, acumulando mais de trinta títulos importantes em vinte e dois anos de carreira dirigindo as seleções brasileiras feminina e masculina. Entre 2001 e 2017, foi o técnico da Seleção Brasileira de Voleibol Masculino, tendo conquistado dois ouros olímpicos (2004 e 2016), três Campeonatos Mundiais, duas Copas do Mundo, três Copas dos Campeões e oito Ligas Mundiais.\n[…]\nConjuntamente à sua passagem pela Seleção Brasileira de Voleibol Feminino, Bernardinho conquistou seis medalhas olímpicas consecutivas (de 1996, em Atlanta, a 2016, no Rio de Janeiro): dois bronzes, duas pratas e dois ouros.\n[…]\nBernardo Rocha de Rezende, mais conhecido como Bernardinho, nasceu em 25 de agosto de 1959. Formado em economia pela PUC-Rio, jogou vôlei de 1979 até 1986, defendendo times do Rio de Janeiro e a seleção brasileira. Em 1988, parou de jogar, começando a carreira de treinador como assistente-técnico da seleção Bebeto de Freitas, nas Olimpíadas de Seul. Dois anos depois, treinou a equipe feminina do Perugia, na Itália, onde ficou até 1992. No ano seguinte, dirigiu a equipe masculina do Modena.\n[…]\nEm seguida, Bernardinho retornou ao Brasil e, em 1994, assumiu o comando da seleção feminina brasileira adulta até 2000. Depois disso assumiu a seleção masculina, ficando até 2016.\n[…]\nSupercopa Brasileira de Voleibol:2015, 2016 e 2017\n[…]\n1996 - Bronze na Olimpíada de Atlanta\n[…]\nJogos Olímpicos: 2004 e 2016\n[…]\n2016 - Ouro na Olimpíada do Rio, no Brasil",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Bernardinho",
+      "descricao": "Técnico brasileiro de vôlei, campeão olímpico com a seleção masculina em 2004 e 2016."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O técnico Bernardinho, campeão olímpico com a seleção masculina, é conhecido pelo apelido. Qual é o seu nome de batismo?",
+    "resposta": "Bernardo Rocha de Rezende",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bernardinho"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bernardinho",
+        "situacao": "ok",
+        "texto": "Bernardo Rocha de Rezende (born 25 August 1959), known as Bernardo Rezende and nicknamed Bernardinho, is a Brazilian volleyball coach and former player. He is the current coach of the female volleyball team Rio de Janeiro Vôlei Clube. Rezende is one of the most successful coaches in the history of volleyball, accumulating more than 30 major titles in a twenty-year career directing the Brazilian ma\n[…]\nSince 2001, Rezende has been the coach of the Brazilian male national team, with whom he won two Olympic titles in 2004 and 2016. After this success Rezende accepted the challenge of leading the Brazilian men in 2001. Bernardinho led the team to memorable victories including first place in the 2001 and 2003 editions of the FIVB World League, and the gold medal at the 2002 FIVB World Championship.\n[…]\nRezende once again defeated his great rival Italy to win the gold medal in the Rio 2016 Olympics.\n[…]\nIn 1999, Rezende married volleyball player Fernanda Venturini, with whom he has two daughters. They got divorced in 2020. From his previous marriage to player Vera Mossa he had a son who is currently the setter and captain of the Brazilian volleyball team, Bruno Rezende (Bruninho). Since August 2024, he is in a relationship with the journalist Ana Paula Araújo who currently hosts the morning show Bom Dia Brasil at the Rede Globo.\n[…]\nRezende besides lecturer is also a businessman on several fronts separate business and is part of the board of directors of all of them:\n[…]\nInstituto Compartilhar - NGO created by Rezende with the mission to develop young people from disadvantaged communities through by sport.\n[…]\nBernardo Rocha Rocha Rezende at Olympics.com\n[…]\nBernardinho at Olympedia\n[…]\nOlympics 2016 Rezende - Reuters\n[…]\nVolleyballadvisors - Bernardo Rezende\n[…]\nEspn.uol World Volleyball Rezende\n[…]\nMelhordovolei Bernardo Rezende Archived 16 August 2017 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bernardinho",
+        "situacao": "ok",
+        "texto": "Bernardo Rocha de Rezende (Rio de Janeiro, 25 de agosto de 1959), conhecido como Bernardinho, é um ex-jogador, treinador de voleibol, economista, e empresário brasileiro. Atualmente, treina o Sesc-Flamengo e a Seleção Brasileira de Voleibol Masculino.\n[…]\nComo treinador, Bernardinho é um dos maiores campeões da história do voleibol, acumulando mais de trinta títulos importantes em vinte e dois anos de carreira dirigindo as seleções brasileiras feminina e masculina. Entre 2001 e 2017, foi o técnico da Seleção Brasileira de Voleibol Masculino, tendo conquistado dois ouros olímpicos (2004 e 2016), três Campeonatos Mundiais, duas Copas do Mundo, três Copas dos Campeões e oito Ligas Mundiais.\n[…]\nBernardo Rocha de Rezende, mais conhecido como Bernardinho, nasceu em 25 de agosto de 1959. Formado em economia pela PUC-Rio, jogou vôlei de 1979 até 1986, defendendo times do Rio de Janeiro e a seleção brasileira. Em 1988, parou de jogar, começando a carreira de treinador como assistente-técnico da seleção Bebeto de Freitas, nas Olimpíadas de Seul. Dois anos depois, treinou a equipe feminina do Perugia, na Itália, onde ficou até 1992. No ano seguinte, dirigiu a equipe masculina do Modena.\n[…]\nBernardinho foi casado com a jogadora de voleibol Fernanda Venturini de 1999 a 2020, tendo duas filhas, Júlia e Vitória. Por causa da mais nova largou a Seleção Francesa de Voleibol Masculino, com a qual havia assinado em 2021 visando a Olimpíada de Paris.\n[…]\nÉ autor dos livros Bernardinho - Cartas a um jovem atleta - Determinação e Talento: O caminho da Vitória e Transformando Suor em Ouro. Em 11 de janeiro de 2017, foi anunciada a sua saída da Seleção Brasileira de voleibol masculino após um ciclo de 16 anos, sendo substituído por Renan Dal Zotto.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Grand Prix de Voleibol",
+      "descricao": "Torneio anual de seleções femininas de vôlei organizado pela FIVB entre 1993 e 2017."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "O Grand Prix, torneio anual de seleções femininas de vôlei, foi disputado de 1993 a 2017. Que país foi o seu maior campeão?",
+    "resposta": "Brasil",
+    "distratores": [
+      "China",
+      "Estados Unidos",
+      "Rússia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/FIVB_Volleyball_Women%27s_World_Grand_Prix"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/FIVB_Volleyball_Women%27s_World_Grand_Prix",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Liga das Nações de Voleibol",
+      "descricao": "Torneio anual de seleções de vôlei organizado pela FIVB desde 2018, no masculino e no feminino."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em 2018, a Liga Mundial masculina e o Grand Prix feminino deram lugar a um novo torneio anual de seleções de vôlei. Qual?",
+    "resposta": "Liga das Nações",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/FIVB_Volleyball_Nations_League"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/FIVB_Volleyball_Nations_League",
+        "situacao": "desambiguacao",
+        "texto": "FIVB Volleyball Nations League may refer to\n\nFIVB Men's Volleyball Nations League\nFIVB Women's Volleyball Nations League"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Rede de vôlei",
+      "descricao": "Rede que divide a quadra de vôlei, com altura oficial diferente para homens e mulheres."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No vôlei de quadra adulto, a rede masculina fica a 2,43 metros do chão. Qual é a altura oficial da rede feminina?",
+    "resposta": "2,24 metros",
+    "distratores": [
+      "2,10 metros",
+      "2,30 metros",
+      "2,35 metros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball",
+        "situacao": "ok",
+        "texto": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the program at the Atlanta 1996 Summer Olympics. The adapted version of volleyball at the Su\n[…]\nA volleyball court is 9 m × 18 m (29.5 ft × 59.1 ft), divided into equal square halves by a net with a width of one meter (39.4 in). The top of the net is 2.43 m (7 ft 11+11⁄16 in) above the center of the court for men's competition, and 2.24 m (7 ft 4+3⁄16 in) for women's competition, varied for veterans and junior competitions.\n[…]\nIn the 6–2 formation, a player always comes forward from the back row to set. The three front row players are all in attacking positions. As a result, all six players act as hitters at one time or another, while two can act as setters. So the 6–2 formation is now a 4–2 system, but the back-row setter penetrates to set. The 6–2 lineup thus requires two setters, who line up opposite to each other in the rotation.\n[…]\nThere is another advantage, the same as that of a 4–2 formation: as a front-row player the setter is allowed to jump and \"dump\" the ball onto the opponent's side. Thus the setter can confuse the opponent's blocking players; they have the option to jump and dump or set to one of the hitters. A good setter knows and they are able to jump to dump or to set for a quick hit as well as when setting outside, thus they are able to confuse the opponent.\n[…]\nThe 5–1 offence is a mix of 6–2 and 4–2: when the setter is in the front row, the offense looks like a 4–2; when the setter is in the back row, the offense looks like a 6–2.\n[…]\n2.43: Seiin High School Boys Volleyball Team (2021): A Japanese anime about a high school boys volleyball team's journey to victory."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nÉ retangular, com a dimensão de 18 x 9 metros, com uma rede no meio colocada a uma altura variável, conforme o sexo e a categoria dos jogadores (exemplo dos seniores e juniores: masculino 2,43 metros e feminino 2,24 metros).\n[…]\nAcima da linha central, é postada uma rede de material sintético a uma altura de 2,43 m para homens ou 2,24 m para mulheres (no caso de competições juvenis, infanto-juvenis e mirins, as alturas são diferentes). Cada quadra é por sua vez dividida em duas áreas de tamanhos diferentes (usualmente denominadas \"rede\" e \"fundo\") por uma linha que se localiza, em cada lado, a três metros da rede (\"linha de 3 metros\").\n[…]\nPostado dentro da zona de ataque da quadra ou tocando a linha de três metros, o líbero realiza um levantamento de toque que é posteriormente atacado acima da altura da rede.\n[…]\nAtaque do fundo: ataque realizado por um jogador que não se encontra na rede, ou seja, por um jogador que não ocupa as posições 2-4. O atacante não pode pisar na linha de três metros ou na parte frontal da quadra antes de tocar a bola, embora seja permitido que ele aterrisse nesta área após o ataque.\n[…]\nO bloqueio refere-se às ações executadas pelos jogadores que ocupam a parte frontal da quadra (posições 2-3-4) e que têm por objetivo impedir ou dificultar o ataque da equipe adversária. Elas consistem, em geral, em estender os braços acima do nível da rede com o propósito de interceptar a trajetória ou diminuir a velocidade de uma bola que foi cortada pelo oponente.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Rede de vôlei",
+      "descricao": "Rede que divide a quadra de vôlei, com altura oficial diferente para homens e mulheres."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1895, para inventar o vôlei, William Morgan pegou emprestada a rede de outro esporte e a ergueu bem mais alto. Que esporte?",
+    "resposta": "Tênis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball",
+        "situacao": "ok",
+        "texto": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the program at the Atlanta 1996 Summer Olympics. The adapted version of volleyball at the Su\n[…]\nVolleyball was invented in 1895 by the American educator William G. Morgan, a YMCA physical education director in Holyoke, Massachusetts. Morgan intended the game, which he originally called \"mintonette\", to be an alternative to basketball that was less physically demanding. It spread rapidly through YMCA networks in the United States and abroad.\n[…]\nWilliam G. Morgan invented the sport in 1895 while he was the YMCA physical education director in Holyoke, Massachusetts. Because he originally derived the game from badminton, he initially named the sport mintonette. He was a one-time student of basketball inventor James Naismith and invented the game for his clients at the YMCA, most of whom were middle-aged businessmen for whom the physical demands of basketball were too great.\n[…]\n9-man: A variant invented by Chinese immigrants to the United States in the 1930s. 9-man is still played in Asian countries and North America, being recognized for its historic and cultural significance. In 2014, a documentary was produced about the sport, and a YouTube documentary was made in 2017.\n[…]\nBiribol: an aquatic variant, played in shallow swimming pools. The name comes from the Brazilian city where it was invented, Birigui. It is similar to water volleyball.\n[…]\nEcua-volley: A variant invented in Ecuador, with some significant variants, such as number of players, and a heavier ball."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nO vôlei foi criado em 9 de fevereiro de 1895 por William George Morgan nos Estados Unidos. O objetivo de Morgan, que trabalhava na \"Associação Cristã de Moços\" (ACM), era criar um esporte de equipes sem contato físico entre os adversários, de modo a minimizar os riscos de lesões. Inicialmente jogava-se com uma câmara de ar da bola de basquetebol e foi chamado Mintonette, mas rapidamente ganhou popularidade com o nome de volleyball.\n[…]\nO jogador não pode encostar na rede e, caso isso ocorra, o ponto será para o outro time. O mesmo jogador não pode dar 2 ou mais toques seguidos na bola, exceção no caso do toque de Bloqueio.\n[…]\nOs seis jogadores de cada equipe são dispostos na quadra do seguinte modo. No sentido do comprimento, três estão mais próximos da rede, e três mais próximos do fundo; e, no sentido da largura, dois estão mais próximos da lateral esquerda; dois, do centro da quadra; e dois, da lateral direita.\n[…]\nUm saque que a bola aterrissa diretamente sobre a quadra do adversário sem ser tocada pelo adversário - é denominado em voleibol \"ace\", assim como em outros esportes tais como o tênis.\n[…]\nSaque por baixo ou por cima: indica a forma como o saque é realizado, ou seja, se o jogador acerta a bola por baixo, no nível da cintura, ou primeiro lança-a no ar para depois acertá-la acima do nível do ombro. A recepção do saque por baixo é usualmente considerada muito fácil, e por esta razão esta técnica não é mais utilizada em competições de alto nível.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Quadra de vôlei",
+      "descricao": "Superfície retangular onde se joga o vôlei de quadra, dividida ao meio pela rede."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na quadra de vôlei, a linha que separa a zona de ataque da zona de defesa fica a quantos metros da rede?",
+    "resposta": "Três metros",
+    "distratores": [
+      "Dois metros",
+      "Quatro metros",
+      "Cinco metros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball",
+        "situacao": "ok",
+        "texto": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the program at the Atlanta 1996 Summer Olympics. The adapted version of volleyball at the Su"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nEm termos técnicos, os jogadores que ocupam as posições 1, 6 e 5 só podem acertar a bola acima da altura da rede em direção à quadra adversária se estiverem no \"fundo\" de sua própria quadra. Por esta razão, não só o bloqueio torna-se impossível, como restrições adicionais se aplicam ao ataque. Para atacar do fundo, o atleta deve saltar sem tocar com os pés na linha de três metros ou na área por ela delimitada; o contato posterior com a bola, contudo, pode ocorrer no espaço aéreo frontal.\n[…]\nPor fim, o líbero só pode realizar levantamentos de toque do fundo da quadra. Caso esteja pisando sobre a linha de três metros ou sobre a área por ela delimitada, deverá exercitar somente levantamentos de manchete, pois se o fizer de toque por cima (pontas dos dedos) o ataque deverá ser executado com a bola abaixo do bordo superior da rede.\n[…]\nUm jogador que está no fundo da quadra pisa na linha de três metros ou na área frontal antes de fazer contato com a bola acima do bordo superior da rede (\"invasão do fundo\").\n[…]\nPostado dentro da zona de ataque da quadra ou tocando a linha de três metros, o líbero realiza um levantamento de toque que é posteriormente atacado acima da altura da rede.\n[…]\nAtaque do fundo: ataque realizado por um jogador que não se encontra na rede, ou seja, por um jogador que não ocupa as posições 2-4. O atacante não pode pisar na linha de três metros ou na parte frontal da quadra antes de tocar a bola, embora seja permitido que ele aterrisse nesta área após o ataque.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Rodízio",
+      "descricao": "Regra do vôlei de quadra que obriga os jogadores a mudar de posição sempre que o time recupera o saque."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "No rodízio do vôlei de quadra, o jogador que vai sacar é quem ocupa a posição um. Onde fica essa posição?",
+    "resposta": "No fundo, à direita",
+    "distratores": [
+      "No fundo, à esquerda",
+      "Na rede, ao centro",
+      "No fundo, ao centro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball",
+        "situacao": "ok",
+        "texto": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the program at the Atlanta 1996 Summer Olympics. The adapted version of volleyball at the Su"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nOs seis jogadores de cada equipe são dispostos na quadra do seguinte modo. No sentido do comprimento, três estão mais próximos da rede, e três mais próximos do fundo; e, no sentido da largura, dois estão mais próximos da lateral esquerda; dois, do centro da quadra; e dois, da lateral direita.\n[…]\nEstas posições são identificadas por números: com o observador postado frente à rede, aquela que se localiza no fundo à direita recebe o número 1, e as outras seguem-se em ordem crescente conforme o sentido anti-horário.\n[…]\nSaque oriental: o jogador posta-se na linha de fundo de perfil para a quadra, lança a bola no ar e acerta-a com um movimento circular do braço oposto. O nome deste saque provém do fato de que seu uso contemporâneo restringe-se a algumas equipes de voleibol feminino da Rússia.\n[…]\nAtaque do fundo: ataque realizado por um jogador que não se encontra na rede, ou seja, por um jogador que não ocupa as posições 2-4. O atacante não pode pisar na linha de três metros ou na parte frontal da quadra antes de tocar a bola, embora seja permitido que ele aterrisse nesta área após o ataque.\n[…]\nUm bloqueio é chamado, entretanto, \"defensivo\" se tem por objetivo apenas tocar a bola e deste modo diminuir a sua velocidade, de modo a que ela possa ser melhor defendida pelos jogadores que se situam no fundo da quadra. Para a execução do bloqueio defensivo, o jogador reduz o ângulo de penetração dos braços na quadra adversária, e procura manter as palmas das mãos voltadas em direção à sua própria quadra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Líbero",
+      "descricao": "Jogador especialista em defesa no vôlei, que usa camisa de cor diferente da dos companheiros."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Pelas regras da federação internacional, o líbero não pode bloquear nem atacar acima da altura da rede. Que outro fundamento ele também não pode executar?",
+    "resposta": "Sacar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball",
+        "situacao": "ok",
+        "texto": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the program at the Atlanta 1996 Summer Olympics. The adapted version of volleyball at the Su\n[…]\nAn international federation, the Fédération Internationale de Volleyball (FIVB), was founded in 1947, and the first World Championships were held in 1949 for men and 1952 for women. The sport is now popular in Brazil, Europe(where especially Italy, the Netherlands, and Eastern Europe have been major forces since the late 1980s), Russia, Asia including China, and the United States.\n[…]\nThe libero player was introduced internationally in 1998, and made its debut for NCAA competition in 2002. The libero is a player specialized in defensive skills: the libero must wear a contrasting jersey color from their teammates and cannot block or attack the ball when it is entirely above net height. When the ball is not in play, the libero can replace any back-row player, without prior notice to the officials.\n[…]\nUnder international FIVB rules, the libero is not allowed to serve. However, some volleyball organizaions, including USA volleyball and the NCA, allow the libero to serve in one rotational position per set. That is, the libero can only serve for one person, not for all of the people for whom they go in. That rule change was implemented in 2004 and applied to high school and junior high play soon after.\n[…]\nSnow volleyball: a variant of beach volleyball that is played on snow. The Fédération Internationale de Volleyball has announced its plans to make snow volleyball part of the future Winter Olympic Games programme.\n[…]\nFédération Internationale de Volleyball – FIVB"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nAs equipes são separadas por uma rede no meio da quadra. O jogo começa com um dos times que devem sacar. Logo depois do saque, a bola deve ultrapassar a rede e seguir ao campo do adversário onde os jogadores tentam evitar que a bola entre no seu campo usando qualquer parte do corpo (antes não era válido usar membros da cintura para baixo, mas as regras foram mudadas).\n[…]\nEm termos técnicos, os jogadores que ocupam as posições 1, 6 e 5 só podem acertar a bola acima da altura da rede em direção à quadra adversária se estiverem no \"fundo\" de sua própria quadra. Por esta razão, não só o bloqueio torna-se impossível, como restrições adicionais se aplicam ao ataque. Para atacar do fundo, o atleta deve saltar sem tocar com os pés na linha de três metros ou na área por ela delimitada; o contato posterior com a bola, contudo, pode ocorrer no espaço aéreo frontal.\n[…]\nO líbero deve utilizar uniforme diferente dos demais, antes não podia ser capitão mas desde de 2022 essa regra mudou, não pode atacar, bloquear ou sacar. Quando a bola não está em jogo, ele pode trocar de lugar com qualquer outro jogador sem notificação prévia aos árbitros, e suas substituições não contam para o limite que é concedido por set a cada técnico.\n[…]\nO jogador leva mais de oito segundos para sacar\n[…]\nExiste a denominada área de saque, que é constituída por duas pequenas linhas nas laterais da quadra, o jogador não pode sacar de fora desse limite.\n[…]\n«Sítio da Federação Portuguesa de Voleibol». www.fpvoleibol.pt",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Líbero",
+      "descricao": "Jogador especialista em defesa no vôlei, que usa camisa de cor diferente da dos companheiros."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Criada pela federação internacional em 1998, a posição do líbero estreou nos Jogos Olímpicos em que edição?",
+    "resposta": "Sydney 2000",
+    "distratores": [
+      "Atlanta 1996",
+      "Atenas 2004",
+      "Pequim 2008"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball_at_the_2000_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_at_the_2000_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "At the 2000 Summer Olympics, four volleyball events were contested – men's and women's indoor volleyball, and men's and women's beach volleyball."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2000",
+        "situacao": "ok",
+        "texto": "O voleibol nos Jogos Olímpicos de Verão de 2000 foi realizado na cidade de Sydney na Austrália, tendo como campeões a Iugoslávia no masculino e Cuba no feminino.\n[…]\nDois eventos da modalidade distribuíram medalhas nos Jogos:\n[…]\nFoi permitido para cada Comitê Olímpico Nacional (CON) competir com apenas um time em cada torneio (masculino e feminino). Como país-sede, a Austrália teve garantida uma vaga em cada um dos torneios.\n[…]\nA Iugoslávia foi campeã olímpico de voleibol masculino pela primeira vez, derrotando a Rússia na final. A Itália ganhou o bronze frente à Argentina. No feminino, Cuba superou as russas para ganhar a medalha de ouro e seu terceiro título consecutivo no torneio, enquanto a seleção do Brasil foi bronze ao derrotar os Estados Unidos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Manchete",
+      "descricao": "Fundamento do vôlei em que o jogador toca a bola com os antebraços unidos, usado sobretudo na recepção e na defesa."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fundamento do vôlei é feito com os antebraços unidos e esticados, e é o mais usado para receber o saque adversário?",
+    "resposta": "Manchete",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Voleibol"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nO fundamento \"passe\" envolve basicamente duas técnicas específicas: a \"manchete\", em que o jogador empurra a bola com a parte interna dos braços esticados, usualmente com as pernas flexionadas e abaixo da linha da cintura; e o \"toque\", em que a bola é manipulada com as pontas dos dedos acima da cabeça.\n[…]\nQuando, por uma falha de passe, a bola não permanece na quadra do jogador que está na recepção, mas atravessa por cima da rede em direção à quadra da equipe adversária, diz-se que esta pessoa recebeu uma \"bola de graça\".\n[…]\nManchete é um golpe executado por um jogador de voleibol, realizado com os antebraços unidos e com os braços estendidos para que a bola não toque no chão. O jogador tentará receber o saque adversário efetuando um passe para o levantador. Erros resultam em pontos para o adversário, a manchete tem grande influência no jogo, sendo ela responsável pela defesa do saque e de cortadas.\n[…]\nFoi o último dos fundamentos a ser adicionado ao jogo. Uma vez que o saque foi ficando mais potente, e o toque, não era mais tão eficaz, abriu-se espaço para a implantação da manchete. Quando a manchete é mal efetuada e o passe acaba indo para a equipe adversária, diz-se que houve \"bola de graça\".\n[…]\nA defesa consiste em um conjunto de técnicas que têm por objetivo evitar que a bola toque a quadra após o ataque adversário. Além da manchete e do toque, já discutidos nas seções relacionadas ao passe e ao levantamento, algumas das ações específicas que se aplicam a este fundamento são:"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Bloqueio",
+      "descricao": "Fundamento do vôlei em que jogadores junto à rede saltam com os braços erguidos para barrar o ataque adversário."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "No vôlei de quadra, só os jogadores da linha da frente podem bloquear. Quantos jogadores, no máximo, podem formar um mesmo bloqueio?",
+    "resposta": "Três",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball",
+        "situacao": "ok",
+        "texto": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the program at the Atlanta 1996 Summer Olympics. The adapted version of volleyball at the Su\n[…]\nMost often, the situation involves a team using a right-side player with a big block who must be subbed out in the back row because they are not able to effectively play backcourt defense. Similarly, a team might use a serving specialist to sub out a poor server.\n[…]\nBy aligning like positions opposite themselves in the rotation, there will always be one of each position in the front and back rows. After service, the players in the front row move into their assigned positions, so that the setter is always in the middle front. Alternatively, the setter moves into the right front and has both a middle and an outside attacker; the disadvantage here lies in the lack of an offside hitter, allowing one of the other team's blockers to \"cheat in\" on a middle block.\n[…]\nAnother aspect is to see the setter as an attacking force, albeit a weakened force, because when the setter is in the frontcourt they are able to 'tip' or 'dump', so when the ball is close to the net on the second touch, the setter may opt to hit the ball over with one hand. This means that the blocker who would otherwise not have to block the setter is engaged and may allow one of the hitters to have an easier attack.\n[…]\nThe big advantage of the system is that the setter always has 3 hitters with which to vary sets. If the setter performs well, the opponent's middle blocker may not have enough time to block with the outside blocker, increasing the chance for the attacking team to make a point."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nNo início de cada set, o jogador que ocupa a posição 1 realiza o saque, e, acerta a bola com a mão tencionando fazê-la atravessar o espaço aéreo delimitado pelas duas antenas e aterrissar na quadra adversária. Os oponentes devem então fazer a bola retornar tocando-a no máximo três vezes, e evitando que o mesmo jogador toque-a por duas vezes consecutivas.\n[…]\nEm termos técnicos, os jogadores que ocupam as posições 1, 6 e 5 só podem acertar a bola acima da altura da rede em direção à quadra adversária se estiverem no \"fundo\" de sua própria quadra. Por esta razão, não só o bloqueio torna-se impossível, como restrições adicionais se aplicam ao ataque. Para atacar do fundo, o atleta deve saltar sem tocar com os pés na linha de três metros ou na área por ela delimitada; o contato posterior com a bola, contudo, pode ocorrer no espaço aéreo frontal.\n[…]\nUm jogador que está no fundo da quadra pisa na linha de três metros ou na área frontal antes de fazer contato com a bola acima do bordo superior da rede (\"invasão do fundo\").\n[…]\nPostado dentro da zona de ataque da quadra ou tocando a linha de três metros, o líbero realiza um levantamento de toque que é posteriormente atacado acima da altura da rede.\n[…]\nAtaque do fundo: ataque realizado por um jogador que não se encontra na rede, ou seja, por um jogador que não ocupa as posições 2-4. O atacante não pode pisar na linha de três metros ou na parte frontal da quadra antes de tocar a bola, embora seja permitido que ele aterrisse nesta área após o ataque.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Sistema de pontuação por rali",
+      "descricao": "Regra do vôlei em que todo rali vale ponto, independentemente de quem sacou, adotada pela FIVB em 1999."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No vôlei de quadra, os quatro primeiros sets vão a vinte e cinco pontos. Até quantos pontos vai o quinto set, o tie-break?",
+    "resposta": "Quinze",
+    "distratores": [
+      "Onze",
+      "Dezoito",
+      "Vinte e um"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball",
+        "situacao": "ok",
+        "texto": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the program at the Atlanta 1996 Summer Olympics. The adapted version of volleyball at the Su\n[…]\nThe team that wins the rally is awarded a point and serves the ball to start the next rally. A few of the most common faults include:\n[…]\nBefore 1999, points could be scored only when a team had the serve (side-out scoring) and all sets went up to only 15 points. The FIVB changed the rules in 1999 (with the changes being compulsory in 2000) to use the current scoring system (formerly known as rally point system), primarily to make the length of the match more predictable and to make the game more spectator- and television-friendly. The final year of side-out scoring at the NCAA Division I Women's Volleyball Championship was 2000.\n[…]\nRally point scoring debuted in 2001, and games were played to 30 points through 2007. For the 2008 season, games were renamed \"sets\" and reduced to 25 points to win. Most high schools in the U.S. changed to rally scoring in 2003, and several states implemented it the previous year on an experimental basis.\n[…]\nA 'bounce' is a slang term for a very hard/loud spike that follows an almost straight trajectory steeply downward into the opponent's court and bounces very high into the air. A \"kill\" is the slang term for an attack that is not returned by the other team thus resulting in a point.\n[…]\nThe big advantage of the system is that the setter always has 3 hitters with which to vary sets. If the setter performs well, the opponent's middle blocker may not have enough time to block with the outside blocker, increasing the chance for the attacking team to make a point."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nAo contrário de muitos esportes, tais como o futebol ou o basquetebol, o voleibol é jogado por pontos, e não por tempo. Cada partida é dividida em sets que terminam quando uma das duas equipes conquista 25 pontos. Deve haver também uma diferença de no mínimo dois pontos com relação ao placar do adversário - caso contrário, a disputa prossegue até que tal diferença seja atingida. O vencedor será aquele que conquistar primeiramente três sets.\n[…]\nComo o jogo termina quando um time completa três sets vencidos, cada partida de voleibol dura no máximo cinco sets. Se isto ocorrer, o último recebe o nome de tie-break e termina quando um dos times atinge a marca de 15, e não 25 pontos. Como no caso dos demais, também é necessária uma diferença de dois pontos com relação ao placar do adversário.\n[…]\nExistem basicamente duas formas de marcar pontos no voleibol. A primeira consiste em fazer a bola aterrissar sobre a quadra adversária como resultado de um ataque, de um bloqueio bem sucedido ou, mais raramente, de um saque que não foi corretamente recebido. A segunda ocorre quando o time adversário comete um erro ou uma falta.\n[…]\nA arbitragem é composta pelo primeiro e segundo árbitros, dois ou quatro  juízes de linha e o apontador; Além disso, pode haver um assistente do escritor. A composição da equipe de arbitragem e a sua divisão de tarefas variam consoante o nível da liga e a natureza da competição.\n[…]\nCopa dos Campeões de Voleibol: a cada quatro anos, desde 1993",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Bola de vôlei",
+      "descricao": "Bola esférica usada no vôlei, com câmara de borracha e revestimento de couro ou material sintético."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nos primeiros jogos de vôlei, William Morgan achou a bola de basquete pesada demais. Que parte dela ele chegou a usar no lugar, por ser leve?",
+    "resposta": "A câmara de ar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball",
+      "https://en.wikipedia.org/wiki/Volleyball_(ball)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball",
+        "situacao": "ok",
+        "texto": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the program at the Atlanta 1996 Summer Olympics. The adapted version of volleyball at the Su\n[…]\nVolleyball was invented in 1895 by the American educator William G. Morgan, a YMCA physical education director in Holyoke, Massachusetts. Morgan intended the game, which he originally called \"mintonette\", to be an alternative to basketball that was less physically demanding. It spread rapidly through YMCA networks in the United States and abroad.\n[…]\nBeachball volleyball: A game of indoor volleyball played with a beach ball instead of a volleyball.\n[…]\nEcua-volley: A variant invented in Ecuador, with some significant variants, such as number of players, and a heavier ball.\n[…]\nNewcomb ball (sometimes spelled \"Nuke 'Em\"): In this game, the ball is caught and thrown instead of hit; it rivaled volleyball in popularity until the 1920s.\n[…]\nPrisoner Ball: Also played with volleyball court and a volleyball, prisoner ball is a variation of Newcomb ball where players are \"taken prisoner\" or released from \"prison\" instead of scoring points. This version is usually played by young children.\n[…]\nTowel volleyball: towel volleyball is a popular form of outdoor entertainment. The game takes place in a volleyball court, and players work in pairs, holding towels in their hands and attempting to throw the ball into the opponent's field. This version can also be played with blankets held by four people. There are several variations.\n[…]\nWallyball: A variation of volleyball played in a racquetball court with a rubber ball.\n[…]\nFédération Internationale de Volleyball – FIVB\n[…]\nUSA Volleyball\n[…]\nAmerican Volleyball Coaches Association"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_(ball)",
+        "situacao": "ok",
+        "texto": "A volleyball is a ball used to play indoor volleyball, beach volleyball, or other less common variations of the sport. Volleyballs are spherical in shape and typically comprise eighteen nearly rectangular panels made from synthetic or genuine leather. These panels are organized into six identical sections, each consisting of three panels. They are carefully wrapped around a bladder to form the com\n[…]\nIndoor volleyballs are specifically designed for the indoor version of the sport, while beach volleyballs are tailored for the beach game.\n[…]\nIndoor volleyballs come in either a solid white color or the brightest shade of yellow. They are produced in two variations: a youth version, slightly smaller and lighter than adult volleyballs, and a heavier \"medicine ball\" type designed for setters to enhance finger strength.\n[…]\nBeach volleyballs are slightly larger than standard indoor balls, featuring a coarser external texture and lower internal pressure. They come in vibrant colors or a solid white option. The earliest volleyballs were crafted using leather panels over a rubber carcass.\n[…]\nThere are several brands of competitive volleyballs in use, including, but not limited to:\n[…]\nNIVIA Volleyball\n[…]\nMikasa makes the official balls of the Fédération Internationale de Volleyball and the CEV - European Volleyball Confederation (beach and indoor).\n[…]\nMolten makes the official ball of USA Volleyball.\n[…]\nMolten makes the official ball of NCAA indoor volleyball.\n[…]\nWilson makes the official ball of the Association of Volleyball Professionals (beach) and NCAA beach volleyball.\n[…]\nIn 1895, the initial development of the Volleyball ball was made of a basket bladder according to William G. Morgan, the inventor of Volleyball.\n[…]\nOfficial ball supplier\n[…]\nCEV and Mikasa unveil new Champions League volleyball in Vienna\n[…]\nCEV Website - Confederation Europeenne de Volleyball"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nO vôlei foi criado em 9 de fevereiro de 1895 por William George Morgan nos Estados Unidos. O objetivo de Morgan, que trabalhava na \"Associação Cristã de Moços\" (ACM), era criar um esporte de equipes sem contato físico entre os adversários, de modo a minimizar os riscos de lesões. Inicialmente jogava-se com uma câmara de ar da bola de basquetebol e foi chamado Mintonette, mas rapidamente ganhou popularidade com o nome de volleyball.\n[…]\nO líbero deve utilizar uniforme diferente dos demais, antes não podia ser capitão mas desde de 2022 essa regra mudou, não pode atacar, bloquear ou sacar. Quando a bola não está em jogo, ele pode trocar de lugar com qualquer outro jogador sem notificação prévia aos árbitros, e suas substituições não contam para o limite que é concedido por set a cada técnico.\n[…]\nTambém chamado recepção, o passe é o primeiro contato com a bola por parte do time que não está sacando e consiste, em última análise, em tentativa de evitar que a bola toque a sua quadra, o que permitiria que o adversário marcasse um ponto. Além disso, o principal objetivo deste fundamento é controlar a bola de forma a fazê-la chegar rapidamente e em boas condições nas mãos do levantador, para que este seja capaz de preparar uma jogada ofensiva.\n[…]\nO levantamento é normalmente o segundo contato de um time com a bola. Seu principal objetivo consiste em posicioná-la de forma a permitir uma ação ofensiva por parte da equipe, ou seja, um ataque.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Federação Internacional de Voleibol",
+      "descricao": "Entidade que governa o vôlei de quadra e de praia no mundo, conhecida pela sigla FIVB."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Fundada em Paris em 1947, a federação internacional de vôlei transferiu sua sede nos anos oitenta para que cidade suíça?",
+    "resposta": "Lausanne",
+    "distratores": [
+      "Genebra",
+      "Zurique",
+      "Berna"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_Internationale_de_Volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_Internationale_de_Volleyball",
+        "situacao": "ok",
+        "texto": "The Fédération Internationale de Volleyball (French for 'International Volleyball Federation'), commonly known by the acronym FIVB, is the international governing body for all forms of volleyball. Its headquarters are located in Lausanne, Switzerland, and its current president is Fabio Azevedo of Brazil.\n[…]\nBefore the FIVB was founded volleyball was part of the International Amateur Handball Federation. The FIVB was founded in France in April 1947. In the late 1940s, some of the European national federations began to address the issue of creating an international governing body for the sport of volleyball. Initial discussions eventually lead to the installation of a Constitutive Congress in 1947.\n[…]\nFollowing Libaud's retirement and the election of Mexican Rubén Acosta Hernandez for the position of president in 1984, the FIVB moved its headquarters from Paris, France to Lausanne, Switzerland and intensified to an unprecedented level its policy of promoting volleyball on a worldwide basis.\n[…]\nIn response to the 2022 Russian invasion of Ukraine, the Fédération Internationale de Volleyball suspended all Russian national teams, clubs, and officials, as well as beach and snow volleyball athletes, from all events, and stripped Russia of the right to host the 2022 FIVB Volleyball Men's World Championship in August 2022, and relocated games that were to be in Russia in June and July.\n[…]\nThe FIVB is the ultimate international authority in volleyball, and judges (or is involved at least to some degree in the judgement) issues such as doping, regulation of player transfer, nationality changes and gender determination. It also publishes the FIVB World Rankings, used as basis for seeding in international competitions.\n[…]\nList of international sports federations\n[…]\nFIVB Sports Regulations - Volleyball"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Federa%C3%A7%C3%A3o_Internacional_de_Voleibol",
+        "situacao": "ok",
+        "texto": "Federação Internacional de Voleibol (FIVB) (francês: Fédération Internationale de Volleyball) é a instituição que coordena as atividades de voleibol em nível internacional cuja sede está localizada em Lausanne, Suíça.\n[…]\nA FIVB foi fundada em Paris, França\n[…]\nEm 1964, o COI endossou o acréscimo do voleibol ao programa de esportes dos Jogos Olímpicos. Nesta época, o número de federações filiadas à FIVB já havia pulado para 89 e cinco anos mais tarde, foi introduzido um novo evento internacional, a Copa do Mundo, o qual se tornaria em 1991 torneio qualificatório para as Olimpíadas.\n[…]\nApós a aposentadoria de Paul Libaud e a eleição do mexicano Rubén Acosta Hernández para o cargo de presidente em 1984, a FIVB mudou sua sede de Paris, França para Lausanne, Suíça e intensificou significativamente sua política de promover o esporte voleibol ao redor do mundo.\n[…]\nDiversas medidas foram tomadas neste sentido, como por exemplo: o estabelecimento de torneios internacionais anuais (para os homens, a Liga Mundial, em 1990, e para as mulheres, o Grand Prix, em 1993); a indicação do Voleibol de praia como esporte olímpico (1996); e uma série de mudanças nas regras do jogo com o objetivo de aumentar o interesse do público. Em 2020, a FIVB atinge o número de 222 federações filiadas.\n[…]\nA principal atividade da FIVB é o planejamento e a organização de eventos de voleibol, à vezes em parceria com outras instituições internacionais tais como o COI. Em linhas gerais, isto significa definir regras de qualificação e fórmulas de disputa para as competições, bem como detalhes mais específicos tais como restrições para convocação e substituição de jogadores, locais para as partidas e anfitriões para os torneios.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Vôlei sentado",
+      "descricao": "Variante do vôlei para pessoas com deficiência, jogada com os atletas sentados no chão."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No vôlei sentado paralímpico, a rede é bem mais baixa que no vôlei comum. Qual é a altura oficial da rede masculina?",
+    "resposta": "1,15 metro",
+    "distratores": [
+      "0,90 metro",
+      "1,30 metro",
+      "1,50 metro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sitting_volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sitting_volleyball",
+        "situacao": "ok",
+        "texto": "Sitting volleyball is a form of volleyball for athletes with a disability organized by World ParaVolley. As opposed to standing volleyball, sitting volleyball players must sit on the floor to play.\n[…]\nIn 1958, the first international sitting volleyball contact was held between Germany and Dutch club teams.\n[…]\nIn sitting volleyball, a 7-metre-long (23 ft), 0.8-metre-wide (2 ft 7 in) net is set at 1.15 metres (3.8 feet) high for men and 1.05 metres (3.4 feet) high for women. The court is 10 by 6 metres (33 by 20 feet) with a 2-metre (6.6-foot) attack line. The rules are the same as the original form of volleyball with the exceptions that players must have at least one buttock in contact with the floor whenever they make contact with the ball and it is also possible to block the serve.\n[…]\nSet – 1. The part of a match completed when one side has scored enough points to win a single contest. 2. To position the ball so a teammate can attack.\n[…]\nList of sitting volleyball national teams\n[…]\nWomen's European Sitting Volleyball Championships\n[…]\nMen's European Sitting Volleyball Championships\n[…]\nVolleyball variations\n[…]\nVolleyball at the Summer Paralympics\n[…]\nWorld Para Volleyball Championship\n[…]\n2022 Sitting Volleyball World Championships – Men's event\n[…]\n2022 Sitting Volleyball World Championships – Women's event\n[…]\n2023 Asia and Oceania Sitting Volleyball Championships\n[…]\nSitting volleyball at the Asian Para Games\n[…]\n2023 Sitting Volleyball World Cup – Men's event\n[…]\n2023 Sitting Volleyball World Cup – Women's event\n[…]\nSitting volleyball at the International Paralympic Committee\n[…]\nVolleySlide\n[…]\nBeijing 2008 Paralympic Sitting Volleyball Information with an Australian slant from accessibility.com.au at the Wayback Machine (archived 23 July 2008)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol_sentado",
+        "situacao": "ok",
+        "texto": "O voleibol sentado é uma modalidade de voleibol para atletas com deficiência — física ou relacionada à locomoção — organizada pela World ParaVolley. Ao contrário do voleibol em pé, os jogadores de voleibol sentado devem sentar no chão para jogar.\n[…]\nFoi criado como uma combinação de voleibol e sitzball, um esporte alemão sem rede e jogadores sentados. Em Paralimpíadas, o voleibol sentado apareceu pela primeira vez nos Jogos Paralímpicos de Toronto de 1976 como um esporte de demonstração para atletas com mobilidade reduzida, e, assim como o voleibol em pé, foi oficialmente incluído como esporte de medalha nos Jogos de Arnhem em 1980. O voleibol sentado feminino foi adicionado para as Paralimpíadas de Atenas de 2004.\n[…]\nNo voleibol sentado, uma rede de 7 metros de comprimento (23 pés) e 0,8 metros de largura (2 pés e 7 pol) é fixada a 1,15 metros (3,8 pés) de altura para homens e 1,05 metros (3,4 pés) de altura para mulheres. A quadra tem 10 por 6 metros (33 por 20 pés) com uma linha de ataque de 2 metros (6,6 pés).\n[…]\nJogador da primeira linha: No vôlei de quadra, qualquer um dos três jogadores posicionados mais próximos da rede.\n[…]\nZona frontal: No vôlei de quadra, a área entre a rede e a linha de ataque.\n[…]\nMintonette: O nome original do vôlei.\n[…]\nSet: 1. A parte de uma partida concluída quando um lado marca pontos suficientes para vencer uma única disputa. 2. Posicionar a bola para que um companheiro de equipe possa atacar.\n[…]\nO voleibol sentado foi demonstrado pela primeira vez nos Jogos Paralímpicos de Verão de 1976, apenas com a categoria masculino, tendo sido introduzido como um evento paralímpico com disputa de medalhas em Arnhem 1980. No entanto, a adição do evento feminino do voleibol sentado ocorreu nos Jogos de 2004.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Vôlei de praia",
+      "descricao": "Modalidade de vôlei disputada na areia por duplas."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O vôlei de praia jogado em duplas, como o das Olimpíadas, surgiu entre os anos vinte e trinta em que praia da Califórnia?",
+    "resposta": "Santa Monica",
+    "distratores": [
+      "Malibu",
+      "San Diego",
+      "Long Beach"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beach_volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beach_volleyball",
+        "situacao": "ok",
+        "texto": "Beach volleyball or beach volley for short, is a team sport played by two teams of two to six players each on a sand court divided by a net. Similar to indoor volleyball, the objective of the game is to send the ball over the net and to ground it on the opponent's side of the court. Each team also works together to prevent the opposing team from grounding the ball on their side of the court.\n[…]\nBeach volleyball was most likely originated in 1915 on Waikiki Beach in Hawaii, while the modern two-player game originated in Santa Monica, California, where the first volleyball courts were put up on the beach. It has been an Olympic sport since the 1996 Summer Olympics. The Fédération Internationale de Volleyball (FIVB) is the international governing body for the sport, and organizes the FIVB Beach Volleyball World Championships and the FIVB Beach Volleyball World Tour.\n[…]\nBeach volleyball is a variant of indoor volleyball, which was invented in 1895 by William G. Morgan. Beach volleyball most likely originated in 1915 on Waikiki Beach in Hawaii, at the Outrigger Canoe Club. According to a 1978 interview with an Outrigger Canoe Club member, George David \"Dad\" Center put a net up there, and the first recorded game of beach volleyball took place. In 1920, new jetties in Santa Monica, California created a large sandy area for public enjoyment.\n[…]\nBeach volleyball grew in popularity in the United States during the Great Depression in the 1930s as it was an inexpensive activity. The sport also began to appear in Europe during this time. By the 1940s, doubles tournaments were being played on the beaches of Santa Monica for trophies. In 1948 the first tournament to offer a prize was held in Los Angeles. It awarded the best teams with a case of Pepsi. In the 1960s, an attempt to start a professional volleyball league was made in Santa Monica.\n[…]\nList of American beach volleyball players"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol_de_praia",
+        "situacao": "ok",
+        "texto": "Voleibol de praia (chamado frequentemente no Brasil de vôlei de praia e em Portugal de vólei de praia) é um desporto praticado na areia da praia ou numa quadra de areia dividida em duas metades por uma rede. É praticado por duas equipes, cada uma composta de dois jogadores.\n[…]\nA equipe que vencer a disputa marca um ponto e fará o próximo saque, dando início à próxima disputa. Todos os quatro jogadores sacam. Os sacadores devem se alternar toda vez que sua equipe pontuar, após um ponto da equipe adversária. Tendo surgido na Califórnia e no Havaí (Estados Unidos), o voleibol de praia atingiu popularidade mundial.\n[…]\nO voleibol de praia evoluiu a partir dos jogos de voleibol disputados socialmente na praia de Santa Mónica na Califórnia, EUA, na década de 1920, tendo chegado à Europa na década seguinte.\n[…]\nNa década de 1940, disputavam-se dois torneios amadores na praia de Santa Mônica onde mais tarde tentou, sem sucesso, começar um campeonato profissional. Ainda em Santa Mónica, durante a década de 1970 começaram a realizar-se alguns torneios profissionais, patrocinados por empresas de cerveja e cigarros.\n[…]\nEm 1996, nos Jogos Olímpicos de Atlanta, o voleibol de praia passou a integrar o programa Jogos Olímpicos. Na categoria feminina, a primeira medalha de ouro na modalidade foi conquistada por uma dupla brasileira, Jacqueline Silva e Sandra Pires, tendo como vice-campeãs as também brasileiras Mônica Rodrigues e Adriana Samuel. A dupla de portugueses Miguel Maia e João Brenha conseguiu duas quartas posições consecutivas, nos jogos de 1996 e de 2000.\n[…]\nIsto é comum no voleibol de praia porque há menos jogadores, portanto áreas maiores ficam desprotegidas.\n[…]\nVoleibol de praia nos Jogos Olímpicos\n[…]\nMedalhistas olímpicos do voleibol de praia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Emanuel Rego",
+      "descricao": "Ex-jogador brasileiro de vôlei de praia, campeão olímpico com Ricardo em Atenas 2004."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Campeão olímpico com Ricardo em 2004, Emanuel voltou a uma final olímpica em Londres 2012 e ficou com a prata. Quem era seu parceiro?",
+    "resposta": "Alison Cerutti",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Emanuel_Rego",
+      "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Emanuel_Rego",
+        "situacao": "ok",
+        "texto": "Emanuel Fernando Sheffer Rego (born 15 April 1973) is a Brazilian male former beach volleyball player who competed in five consecutive Summer Olympics, starting in 1996. Rego partnered with José Loiola at the 2000 Summer Olympics in Sydney, though they did not medal. He won the gold medal in the men's beach team competition at the 2004 Summer Olympics in Athens, partnering with Ricardo Santos.\n[…]\nHe won the bronze medal at the 2008 Summer Olympics in Beijing and the silver medal at the 2012 Summer Olympics in London.\n[…]\nIn 2016, Rego was inducted into the International Volleyball Hall of Fame. He was the Brazilian flagbearer at the 2016 Summer Olympics in Rio de Janeiro.\n[…]\nRego famously offered his medal to his compatriot Vanderlei de Lima – who won the bronze in the men's marathon after being attacked by Neil Horan – a year later, though it was politely declined.\n[…]\nRego was born in Curitiba, and is married (2013) to volleyball Olympic medallist and Senator Leila Barros.\n[…]\nEmanuel Rego at FIVB.com\n[…]\nEmanuel Rego at the Beach Volleyball Database\n[…]\nEmanuel Rego at Olympedia\n[…]\nEmanuel Rego at Olympics.com Emanuel Rego at Olympic.org (archived)\n[…]\nEmanuel Rego at the Comitê Olímpico do Brasil  (in Portuguese)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+        "situacao": "ok",
+        "texto": "The men's beach volleyball tournament at the 2012 Olympic Games in London, United Kingdom, took place between 28 July and 9 August at Horse Guards Parade.\n[…]\nTwenty-four pairs were competing, including one from Great Britain as the host country, and a maximum of two from each nation. Sixteen qualified through positioning in the FIVB Beach Volleyball World Rankings as of 17 June 2012, five others earned their places at the 2010–12 Continental Beach Volleyball Cup, and the final three from the FIVB Beach Volleyball World Cup Olympic Qualification tournament.\n[…]\nThe composition of the preliminary rounds was announced confirmed on 19 July 2012 in a draw held in Klagenfurt, Austria.\n[…]\nBeach volleyball at the 2012 Summer Olympics – Women's tournament\n[…]\nOfficial website of the 2012 Olympic beach volleyball tournaments"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Emanuel_Rego",
+        "situacao": "ok",
+        "texto": "Emanuel Fernando Scheffer Rego (Curitiba, 15 de abril de 1973) é um ex-jogador brasileiro de vôlei de praia. Competiu em cinco Jogos Olímpicos seguidos, formando dupla com o jogador Ricardo em duas delas e com Alison Cerutti na última. Participou das Olimpíadas de Atlanta 1996, Sydney 2000, Atenas 2004, Pequim 2008 e Londres 2012.\n[…]\nEm junho de 2011, tornou-se pela terceira vez campeão mundial de vôlei de praia ao lado do parceiro Alison Cerutti, em Roma, derrotando os também brasileiros Márcio Araujo e Ricardo Santos.\n[…]\nEsteve presente nas cinco primeiras edições dos Jogos Olímpicos que contaram com o torneio de vôlei de praia (Atlanta 1996, Sydney 2000, Atenas 2004, Pequim 2008 e Londres 2012), conquistando ouro, bronze e prata, respectivamente, nas três últimas. Emanuel foi eleito pela Federação Internacional de Voleibol (FIVB) o melhor jogador da década de 1990. Em 2002, passou a atuar com Ricardo, com quem formou a mais vitoriosa parceria do país.\n[…]\nApós encerrar sua vitoriosa carreira no vôlei de praia, Emanuel Rego consolidou sua transição para a gestão esportiva com formação acadêmica em Educação Física e Administração com foco em Marketing. Entre 2017 e 2019, atuou como Diretor Executivo de Esportes Olímpicos do Fluminense Football Club.\n[…]\nEm 2004, Emanuel ofereceu publicamente a sua medalha de ouro para o maratonista Vanderlei Cordeiro de Lima, que recebeu apenas o bronze após ser atacado durante a prova de Atenas; contudo, este agradeceu e recusou o prêmio emocionado.\n[…]\nMedalha de ouro nos Jogos Olímpicos (2004)\n[…]\nMedalha de prata nos Jogos Olímpicos (2012)\n[…]\nEleito 'Melhor Jogador' dos Jogos Olímpicos (2004)\n[…]\nEleito 'Melhor Jogador' do Circuito Brasileiro (2003, 2004 e 2010)\n[…]\nEleito Prêmio Brasil Olímpico Vôlei de Praia (COB - 2003, 2004 e 2011)\n[…]\nRei da Praia (2004, 2005 e 2008)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Ricardo Santos",
+      "descricao": "Ex-jogador brasileiro de vôlei de praia, campeão olímpico com Emanuel em Atenas 2004."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Antes do ouro com Emanuel em Atenas, o baiano Ricardo Santos já tinha sido prata no vôlei de praia em Sydney 2000. Ao lado de quem?",
+    "resposta": "Zé Marco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ricardo_Santos",
+      "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2000_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ricardo_Santos",
+        "situacao": "desambiguacao",
+        "texto": "Ricardo Santos may refer to:\n\nRicardo Santos (beach volleyball) (born 1975), Brazilian beach volleyball player\nRicardo Santos (footballer, born 1987), Brazilian footballer\nRicardo Santos (golfer) (born 1982), Portuguese golfer\nRicardo Santos (sailor) (born 1980), Brazilian windsurfer\nRicardo Santos (footballer, born 1995), Portuguese footballer"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2000_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "At the 2000 Summer Olympics, four volleyball events were contested – men's and women's indoor volleyball, and men's and women's beach volleyball."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ricardo_Santos_%28desambigua%C3%A7%C3%A3o%29",
+        "situacao": "desambiguacao",
+        "texto": "Ricardo Santos pode referir-se a:\n\nRicardo Alex Costa Santos, voleibolista brasileiro.\nJosé Ricardo Cabral Santos, futebolista de salão brasileiro.\nRicardo Alexandre Almeida Santos, futebolista português.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Sandra Pires",
+      "descricao": "Ex-jogadora brasileira de vôlei de praia, campeã olímpica com Jacqueline Silva em 1996."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Campeã olímpica em Atlanta, Sandra Pires voltou ao pódio em Sydney 2000, com o bronze no vôlei de praia. Quem era sua parceira?",
+    "resposta": "Adriana Samuel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sandra_Pires",
+      "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2000_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sandra_Pires",
+        "situacao": "ok",
+        "texto": "Sandra Tavares Pires Nascimento (born 16 June 1973) is a Brazilian retired beach volleyball player. She won the gold medal in the inaugural women's beach volleyball tournament at the 1996 Summer Olympics in Atlanta, partnering with Jackie Silva.\n[…]\nPires also represented her native country at the 2000 Summer Olympics in Sydney, where she claimed the bronze medal, teaming up with Adriana Samuel. She was also the flagbearer at the opening ceremony.\n[…]\nPires was the flagbearer for the second time at the 2016 Summer Olympics in Rio de Janeiro.\n[…]\nIn her beach volleyball career, Pires won 23 tournaments and $800,000 in prizes.\n[…]\nIn 2014, Pires was inducted into the International Volleyball Hall of Fame.\n[…]\nSandra Pires at FIVB.com\n[…]\nSandra Pires at Beach Volleyball Database\n[…]\nSandra Pires at the Brazilian Olympic Committee (in Portuguese)\n[…]\nSandra Pires at Olympedia\n[…]\nSandra Pires at InterSportStats"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2000_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "At the 2000 Summer Olympics, four volleyball events were contested – men's and women's indoor volleyball, and men's and women's beach volleyball."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sandra_Pires",
+        "situacao": "ok",
+        "texto": "Sandra Pires Tavares (Rio de Janeiro, 16 de junho de 1973) é uma ex-voleibolista indoor e ex-jogadora de voleibol de praia brasileira.\n[…]\nDestacou-se no vôlei de praia e nesta modalidade conquistou a medalha de ouro no primeiro Campeonato Mundial de Vôlei de Praia em 1997 nos Estados Unidos, também foi medalhista de prata na edição de 2001 na Áustria; participou de três edições olímpicas, obtendo a primeira medalha de ouro nos Jogos Olímpicos de Verão de 1996, a medalha de bronze na edição de 2000 e participou dos Jogos Olímpicos de Atenas em 2004.Também foi medalhista de ouro no Goodwill Games de 2001 nos Estados Unidos.\n[…]\nÀquela altura, Jackie jogava vôlei de praia nos Estados Unidos. Quando o esporte foi oficializado como olímpico, o técnico de Jackie a aconselhou a procurar uma atleta brasileira para formar uma dupla. No Brasil, o treinador Wantuil Coelho lhe disse que havia uma atleta jovem e magra com potencial, tratava-se de Sandra.\n[…]\nE foi assim que, ainda em 1997, formou dupla com Adriana Samuel e com esta também competiu em 1998, conquistando o bicampeonato geral do Circuito Banco do Brasil, obtendo o vice-campeonato geral no referido circuito em 1999, nesta última temporada alcançou com Adriana Samuel o título da etapa de Belo Horizonte.\n[…]\nEm 2000, continuou ao lado de Adriana Samuel e obtiveram consecutivamente o vice-campeonato do Circuito Banco do Brasil e disputaram a edição dos Jogos Olímpicos de Sydney, elas conquistaram a medalha de bronze e foi a primeira mulher brasileira a ser porta-bandeira na cerimônia de abertura de uma edição dos jogos olímpicos na história da delegação brasileira.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Adriana Samuel",
+      "descricao": "Ex-jogadora brasileira de vôlei de praia, medalha de prata em Atlanta 1996 e de bronze em Sydney 2000."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na primeira final olímpica do vôlei de praia feminino, em Atlanta 1996, Adriana Samuel ficou com a prata. Quem era sua parceira de dupla?",
+    "resposta": "Mônica Rodrigues",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Adriana_Samuel",
+      "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_1996_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Adriana_Samuel",
+        "situacao": "ok",
+        "texto": "Adriana Samuel Ramos (born 12 April 1966) is a Brazilian volleyball and beach volleyball player who won the silver medal in the inaugural women's beach volleyball tournament at the 1996 Summer Olympics, partnering with Mônica Rodrigues.\n[…]\nSamuel begun her career with indoor volleyball, even becoming a part of Brazil women's national volleyball team. She competed at the 1984 FIVB Volleyball Women's U20 World Championship, the 1985 FIVB Volleyball Women's World Cup, and the 1986 FIVB Volleyball Women's World Championship. However, she left the court in 1992, moving into the beach by forming a partnership with Mônica Rodrigues.\n[…]\nSamuel also represented her native country at the 2000 Summer Olympics in Sydney, Australia, where she claimed the bronze medal, teaming up with Sandra Pires (who had defeated Samuel in Atlanta).\n[…]\nAdriana's brother, Alexandre \"Tande\" Samuel, is also a volleyball player. He won the gold medal in the 1992 Summer Olympics in Barcelona.\n[…]\nAdriana Samuel Ramos at FIVB.com\n[…]\nAdriana Samuel Ramos at the Beach Volleyball Database\n[…]\nAdriana Samuel Ramos at Olympics.comAdriana Samuel Ramos at Olympic.org (archived)\n[…]\nAdriana Samuel at Olympedia\n[…]\nAdriana Samuel at the Comitê Olímpico do Brasil  (in Portuguese)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_1996_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Volleyball at the 1996 Summer Olympics featured Men's and Women's beach volleyball for the first time as an official Olympic sport. Men's and Women's indoor volleyball tournaments also took place."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Adriana_Samuel",
+        "situacao": "ok",
+        "texto": "Adriana Samuel Del Negro Gonçalves (Resende, 12 de abril de 1966) é uma ex-jogadora de voleibol de praia brasileira, duas vezes medalhista olímpica. Atualmente, é empresária, palestrante e empreendedora social, sendo responsável pela fundação e gestão de diversos projetos de natureza socioesportiva.\n[…]\nUma das grandes pioneiras do vôlei de praia feminino no Brasil, Adriana entrou para a história ao conquistar a inédita Medalha de Prata na Olimpíada de Atlanta, em 1996, e a Medalha de Bronze na Olimpíada de Sydney, em 2000.\n[…]\nTransicionou, então, para o vôlei de praia, formando com Mônica Rodrigues uma das primeiras e mais consagradas parcerias da história da modalidade no Brasil. Já em 1993, a dupla formada com Mônica conquistou a Medalha de Ouro nos Jogos Mundiais, disputados naquele ano na cidade holandesa de Haia. Nesse mesmo ano, a dupla conquistou também o título do Circuito Brasileiro de Vôlei de Praia.\n[…]\nEm 1994, Adriana Samuel e Mônica Rodrigues foram a primeira dupla do Brasil, em ambos os sexos, a conquistar uma etapa do Circuito Mundial. Jogando em Santos, as brasileiras venceram a dupla norte-americana Liz Masakayan e Karolyn Kirby na partida final, coroando, assim, o ciclo vitorioso do ano como campeãs da temporada do Circuito Mundial de Voleibol de Praia.\n[…]\nNa Olimpíada de Atlanta, esta mesma parceria as levaria à grande final olímpica do vôlei de praia, enfrentando outra dupla brasileira, composta por Jackie Silva e Sandra Pires. Nesta feita, Adriana e Mônica subiriam ao pódio junto à dupla desafiante, ostentando a Medalha de Prata e consagrando-se, assim, como as primeiras mulheres do Brasil a conquistar medalhas na história das Olimpíadas.\n[…]\nPerfil de Adriana Samuel no Instagram\n[…]\nPágina de Adriana Samuel no LinkedIn",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Shelda Bede",
+      "descricao": "Ex-jogadora brasileira de vôlei de praia, medalha de prata olímpica em Sydney 2000 e Atenas 2004."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Shelda Bede, duas vezes prata olímpica no vôlei de praia ao lado de Adriana Behar, nasceu em que capital nordestina?",
+    "resposta": "Fortaleza",
+    "distratores": [
+      "Natal",
+      "Recife",
+      "João Pessoa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shelda_Bede"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shelda_Bede",
+        "situacao": "ok",
+        "texto": "Shelda Kelly Bruno Bede (born 1 January 1973) is a Brazilian retired beach volleyball player.\n[…]\nBede was born in Fortaleza.\n[…]\nBede won silver medals in beach volleyball at the 2000 Summer Olympics in Sydney and the 2004 Summer Olympics in Athens."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Shelda_Bed%C3%AA",
+        "situacao": "ok",
+        "texto": "Shelda Kelly Bruno Bedê (Fortaleza, 1 de janeiro de 1973) é uma ex-atleta do volei de praia, que se destacou nas areais e  figurou entre as  melhores jogadoras do mundo, sendo heptacampeã do Circuito Mundial de Vôlei de Praia, bicampeã mundial e detentora de mais duas medalhas em mundiais, ouro nos Jogos Pan-Americanos de 1999 e medalhista de prata nos Jogos Olímpicos de Sydney 2000 e Atenas 2004.\n[…]\nSua carreira começou aos 12 anos, no volei na quadra, realizando os treinamentos no Banco do Nordeste de Fortaleza. Chegou a jogar pela seleção cearense e foi convocada pela seleção juvenil de vôlei. Devido a sua baixa estatura para o vôlei de quadra, aos 19 anos Shelda passou a jogar no võlei de praia.\n[…]\nNesse mesmo ano ela e Adriana Behar disputam pela primeira vez uma edição de Jogos Olímpicos, Sydney 2000;  favoritas à medalha de ouro, chegaram à final mas nervosas não se encontraram em quadra e seu melhor volume de jogo não apareceu, deixando a dupla anfitriã Cook e Pottharst jogando sem pressão e ficando com a medalha de prata. Em contrapartida, Shelda/Adriana conquistam de forma consecutiva o tetra do Circuito Mundial de Vôlei de Praia do mesmo ano e o Circuito Brasileiro.\n[…]\nEm 2010, aos 37 anos, Shelda anunciou oficialmente sua aposentadoria como atleta no vôlei de praia. Integrou a lista dos  “Heróis Olímpicos” do Comitê Olímpico Internacional desde 2005 e foi eleita a Melhor Jogadora de 1999 a 2001, pelo COB-Comitê Olímpico Brasileiro.\n[…]\nAo lado de Adriana Behar,  Shelda constituiu uma das dupla femininas mais vitoriosas do volei de praia do Brasil, conquistando 1.101 vitórias e 114 títulos ao longo da carreira, o que levou a parceria ao Livro Guinness dos Recordes no ano de 2006. Elas também são a dupla feminina que mais participou de eventos de praia desde a criação do Circuito Mundial de Vôlei de Praia organizado pela  FIVB.\n[…]\n1999-Rainha da Praia\n[…]\nShelda-Perfil (pt)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Larissa França",
+      "descricao": "Jogadora brasileira de vôlei de praia, maior campeã de títulos da história do circuito mundial da FIVB."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em Londres 2012, Larissa conquistou sua medalha olímpica, um bronze no vôlei de praia, com a parceira de tantos títulos no circuito mundial. Quem?",
+    "resposta": "Juliana Silva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Larissa_Fran%C3%A7a",
+      "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Women%27s_tournament"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Larissa_Fran%C3%A7a",
+        "situacao": "ok",
+        "texto": "Larissa França Maestrini (born April 14, 1982) is a Brazilian beach volleyball player. She is the all-time leader of beach volleyball titles, with 57 FIVB career gold medals, including the 2011 Beach Volleyball World Championships with Juliana Felisberta and the 2015 FIVB Beach Volleyball World Tour with Talita Antunes.\n[…]\nWith Felisberta, França won two Pan American Games titles (in 2007 and 2011) and the bronze medal at the 2012 Summer Olympics. Four years prior, França had had to play the 2008 Summer Olympics with Ana Paula Connelly following an injury to Felisberta, finishing in fifth place. She also won the bronze medal at the 2003 Pan American Games in Santo Domingo, Dominican Republic, partnering Ana Richa.\n[…]\nAfter a brief two year retirement following the 2012 Olympics, França went back to activity in 2014 in a double with Talita Antunes. The duo went on to win the gold medal at the 2015 Swatch FIVB World Tour Finals and earn a spot into the 2016 Summer Olympics.\n[…]\nFrança was born in Cachoeiro de Itapemirim, Espírito Santo, and moved at a young age to the state of Pará. A sports enthusiast from her youth, she earned a volleyball scholarship in high school and went on to start her professional career at Tuna Luso Brasileira. She moved to beach volleyball in 2001, following an event held by the Brazilian Volleyball Confederation in Fortaleza.\n[…]\nIn August 2013, França married fellow female player Liliane Maestrini, about one month after they came out about their relationship.\n[…]\nLarissa França at FIVB.com\n[…]\nLarissa França at the Beach Volleyball Database\n[…]\nLarissa França at the Comitê Olímpico do Brasil  (in Portuguese)\n[…]\nLarissa França at Olympics.com\n[…]\nLarissa França at Olympedia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Women%27s_tournament",
+        "situacao": "ok",
+        "texto": "The women's beach volleyball tournament at the 2012 Olympic Games in London, United Kingdom, took place between July 28, 2012 and August 8, 2012 at Horse Guards Parade.\n[…]\nTwenty-four pairs of competitors were taking part, including one from Great Britain as the host country, and a maximum of two from each other nation. Sixteen qualified through positioning in the FIVB Beach Volleyball World Rankings as of 17 June 2012, five others earned their places at the 2010–12 Continental Beach Volleyball Cup, and the final three from the FIVB Beach Volleyball World Cup Olympic Qualification tournament.\n[…]\nThe composition of the preliminary rounds was announced confirmed on 19 July 2012 in a draw held in Klagenfurt, Austria.\n[…]\nBeach volleyball at the 2012 Summer Olympics – Men's tournament\n[…]\nOfficial website of the 2012 Olympic beach volleyball tournaments"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Larissa_Fran%C3%A7a",
+        "situacao": "ok",
+        "texto": "Larissa França Maestrini (Cachoeiro de Itapemirim, 14 de abril de 1982) é uma jogadora de voleibol de praia brasileira, que atua como defensora e atacante. Ao lado da parceira Juliana, conquistou os seus principais títulos como o heptacampeonato do Circuito Mundial, o bicampeonato nos Jogos Pan-Americanos e o título do Campeonato Mundial, em 2011.\n[…]\nEm 2001, mudou para o voleibol de praia ao visitar um projeto da CBV para formar novos jogadores de praia em Fortaleza, onde conheceu suas eventuais parceiras Ana Richa e Juliana Silva. No ano seguinte, formou uma dupla com Richa que fechou 2002 como terceira colocada no circuito brasileiro. Uma hérnia de disco forçou Larissa a entrar na fisioterapia em vez de disputar o mundial sub-21, mas após retornar ao vôlei venceu junto de Richa o bronze nos Jogos Pan-Americanos de 2003.\n[…]\nAo lado de Juliana, Larissa conquistou o Circuito Brasileiro e o Circuito Mundial em 2005. Ganharam também os mesmos torneios em 2006. Em 2007, Larissa levou, ao lado de Juliana, o ouro dos Jogos Pan-Americanos de 2007, na cidade do Rio de Janeiro. Ainda nesse ano, conquistou o título de rainha da praia. No Circuito Brasileiro de 2008 jogou algumas etapas com Vivian Cunha, conquistando o título da temporada de forma antecipada.\n[…]\nEm 2012, junto com sua parceira Juliana, perdeu a chance de disputar o inédito ouro nas Olimpíadas de Londres, ao perder na semifinal para Jennifer Kessy e April Ross, que as derrotaram no Mundial de 2009. Na disputa pelo bronze, venceram as chinesas Zhang e Xue de virada por 2 sets a 1, fazendo de Larissa a primeira cachoeirense a conquistar uma medalha olímpica.\n[…]\nMelhor Levantadora do Circuito Mundial de Vôlei de Praia de 2012\n[…]\nMelhor Jogadora Defensiva do Circuito Mundial de Vôlei de Praia de 2012\n[…]\nMelhor Levantadora do Circuito Mundial de Vôlei de Praia de 2006",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Paola Egonu",
+      "descricao": "Oposta italiana de vôlei, estrela da seleção da Itália."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A oposta Paola Egonu, estrela da seleção italiana de vôlei, nasceu na Itália, filha de imigrantes de que país africano?",
+    "resposta": "Nigéria",
+    "distratores": [
+      "Gana",
+      "Senegal",
+      "Camarões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paola_Egonu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paola_Egonu",
+        "situacao": "ok",
+        "texto": "Paola Ogechi Egonu (Italian: [ˈpaːola oˈɡɛːtʃi eˈɡɔːnu], ; born 18 December 1998) is an Italian professional volleyball player. She plays as an opposite for both the Italian Women's National Team, and the Italian Club, Vero Volley Milano in the A1 division of the Lega Volley Femminile.\n[…]\nEgonu was born in Cittadella, Veneto, to Nigerian parents. She has two siblings, Angela and Andrea. Her cousin, Terry Enweonwu, also plays volleyball.\n[…]\nIn 2022, Egonu and the Italian national team earned Italy's first-ever medal at the Volleyball Nations League, where they won gold. Egonu was the leading scorer of the finals, amassing a total of 83 points over three matches. She was named Most Valuable Player and Best Opposite of the tournament.\n[…]\nIn August 2024, a newly-unveiled mural of Egonu near to the Italian National Olympic Committee headquarters in Rome was defaced, with Egonu's skin repainted pink and an anti-racism message obscured.\n[…]\nAt the club level, Egonu has primarily played in Italian clubs; she played for Club Italia in 2015, AGIL Novara from 2017 to 2019, and Imoco Volley Conegliano from 2019 to 2022. She spent the 2022–2023 season playing for Turkish club VakifBank before returning to Italy to play for Vero Volley Milano in 2023. With AGIL Novara, Egonu earned a CEV Champions League title, two Italian Cups, and one Super Cup.\n[…]\n2025 Italian Super Cup – \"Most valuable player\"\n[…]\nPaola Egonu at FIVB.com\n[…]\nPaola Egonu at the European Volleyball Confederation\n[…]\nPaola Egonu at Lega Pallavolo Serie A Femminile (in Italian)\n[…]\nPaola Egonu at WorldofVolley\n[…]\nPaola Egonu at Volleybox\n[…]\nPaola Egonu at Olympics.com\n[…]\nPaola Egonu at the Italian National Olympic Committee (in Italian)\n[…]\nPaola Egonu at the CONI honored athlete website (in Italian)\n[…]\nPaola Egonu at Olympedia\n[…]\nPaola Egonu at InterSportStats"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Paola_Egonu",
+        "situacao": "ok",
+        "texto": "Paola Ogechi Egonu (Cittadella, 18 de dezembro de 1998) é uma jogadora italiana de voleibol, campeã olímpica, que joga na posição de oposta.\n[…]\nEm sua terceira participação olímpica, Egonu se consagrou campeã e MVP dos Jogos Olímpicos de 2024 com a seleção nacional feminina da Itália. Paola também detém três títulos da Liga das Nações, conquistados nas edições de 2022, 2024 e 2025, dos quais na edição de 2022 e 2024 se consagrou MVP. Também soma três medalhas em campeonatos mundiais, um bronze em 2022 e uma prata em 2018, e um ouro em 2025, competição na qual foi eleita melhor oposta na edição que conquistou o vice-campeonato.\n[…]\nAntes de alcançar a glória com o ouro em Paris, Egonu já tinha enfrentado ofensas racistas de torcedores italianos. Nascida em Cittadella, uma cidade não muito distante de Veneza, a jogadora é filha de pais nigerianos. Quando ainda tinha 16 anos e atuava pelo Treviso, viu a torcida rival imitar o som de macacos a cada vez que tocava na bola. Naquele dia, chorou, sem reagir.\n[…]\nQuando a seleção feminina de vôlei da Itália conquistou o ouro nas Olimpíadas de Paris, e aconteceu a inauguração de um mural em Roma, com homenagem a Paola Egonu. A pintura mostrava a atleta, eleita MVP do torneio olímpico, lançando uma bola, na qual se lia a mensagem “pare com o racismo, ódio, xenofobia e ignorância”. Um dia depois, no entanto, a imagem acabou vandalizada. Não é mais possível ler a frase, e a cor da pele de Egonu foi alterada.[3]\n[…]\nCopa Itália de Voleibol Feminino: 2024, 2025\n[…]\nSupercopa Italiana de Voleibol Feminino: 2017, 2019, 2020, 2021\n[…]\nSupercopa Italiana de Voleibol Feminino: 2018, 2023, 2024",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Vôlei feminino nos Jogos Olímpicos de 2024",
+      "descricao": "Torneio feminino de vôlei de quadra dos Jogos de Paris, em 2024."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "No torneio olímpico de vôlei feminino de Paris 2024, vencido pela Itália, que oposta italiana foi eleita a melhor jogadora da competição?",
+    "resposta": "Paola Egonu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball_at_the_2024_Summer_Olympics_%E2%80%93_Women%27s_tournament"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_at_the_2024_Summer_Olympics_%E2%80%93_Women%27s_tournament",
+        "situacao": "ok",
+        "texto": "The women's tournament in volleyball at the 2024 Summer Olympics was the 16th edition of the event at the Summer Olympics, organised by the world's governing body, the FIVB, in conjunction with the IOC. It was held in Paris, France from 28 July to 11 August 2024. This was the first time in the history competition, each team participating was entitled to include one non-competing (AP) athlete to re\n[…]\nThe match schedule was announced on 26 June 2024.\n[…]\nThe knockout stage followed the single-elimination format. The match-ups were determined by teams combined ranking system, #1 vs #8 (QF1), #2 vs #7 (QF2), #3 vs #6 (QF3), #4 vs #5 (QF4). The winners advanced to semifinals, QF1 vs QF4, QF3 vs QF2. The losers competed for bronze medals and the winners competed for gold medals.\n[…]\nThe twelve qualified teams were seeded according to their position in the FIVB World Ranking as of 17 June 2024. As the host team, France was seeded first and placed in the top position of Pool A. The two top ranked teams seeded second and third were placed at the top of Pools B and C respectively. The remaining nine teams were distributed across three bowls of three teams each based on their position in the World Ranking and drawn for their seed line by line applying the serpentine system.\n[…]\nThe draw took place on 19 June 2024. Rankings are shown in brackets except the hosts who ranked 19th.\n[…]\nThe awards were announced on 11 August 2024.\n[…]\nVolleyball at the 2024 Summer Olympics – Men's tournament\n[…]\nBeach volleyball at the 2024 Summer Olympics – Women's tournament\n[…]\nSitting volleyball at the 2024 Summer Paralympics - Women's tournament\n[…]\n2024 FIVB Women's Volleyball Nations League\n[…]\nCompetition page at FIVB"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2024_-_Feminino",
+        "situacao": "ok",
+        "texto": "O torneio feminino de voleibol nos Jogos Olímpicos de Verão de 2024 foi realizado entre 27 de julho e 10 de agosto com todas as partidas sendo disputadas na Arena 1 Paris Sul, situada no Paris Expo Porte de Versailles, centro de exposições e convenções localizado em Paris.\n[…]\nDoze equipes se classificaram para o torneio feminino de voleibol.\n[…]\nNuma mudança de formato com relação a edições anteriores dos Jogos Olímpicos, a competição se inicia com uma fase preliminar na qual as doze equipes foram divididas em três grupos de quatro equipes cada, e todas as equipes do grupo se enfrentam (entre 1972 e 2020 as equipes eram divididas em dois grupos de seis). As duas primeiras colocadas de cada grupo, juntamente com os dois melhores terceiros colocados, se classificam para a fase eliminatória, que segue o formato de eliminação simples.\n[…]\nOs vencedores das quartas de final avançam para as semifinais, enquanto os perdedores são eliminados. Os vencedores das semifinais disputam a medalha de ouro, e os perdedores competem pela medalha de bronze.\n[…]\nAs doze equipes qualificadas foram alocadas de acordo com sua posição no Ranking Mundial da FIVB de 24 de junho de 2024. Como equipe anfitriã, a França foi colocada como cabeça de chave do Grupo A. As duas equipes melhores colocadas do ranking foram colocadas no topo dos Grupos B e C, respectivamente. As nove equipes restantes foram distribuídas em três potes de três equipes cada, com base em sua posição no ranking e sorteadas linha por linha, aplicando o sistema serpentina.\n[…]\nO sorteio ocorreu em 26 de junho de 2024. Entre parêntesis estão a posição de cada seleção no ranking.\n[…]\nOs seguintes árbitros foram selecionados para a competição:\n[…]\n«Torneio olímpico na página oficial da Federação Internacional de Voleibol» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Wilfredo León",
+      "descricao": "Ponta de vôlei nascido em Cuba e naturalizado polonês."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Nascido em Cuba, o ponteiro Wilfredo León ganhou a medalha de prata olímpica em Paris 2024 defendendo que seleção?",
+    "resposta": "Polônia",
+    "distratores": [
+      "Itália",
+      "Rússia",
+      "Alemanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wilfredo_Le%C3%B3n",
+      "https://en.wikipedia.org/wiki/Volleyball_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wilfredo_Le%C3%B3n",
+        "situacao": "ok",
+        "texto": "Wilfredo León Venero (born 31 July 1993) is a professional volleyball player who plays as an outside hitter for the Polish PlusLiga club Bogdanka LUK Lublin and the Poland national team. He was born in Cuba, and was a member of his country of birth's national team from 2007 to 2012.\n[…]\nLeón was born in Santiago de Cuba, Cuba on 31 July 1993. He is the son of Wilfredo León Hechavarría and Alina Venero Boza (former volleyball player). He studied at Escuela Nacional del Voleibol Cubano. León lived in Poland for a while with his Polish girlfriend. On 24 June 2016, he married Małgorzata (born Gronkowska). They have three children: two daughters, born in May 2017 and June 2023, and a son, born in November 2019.\n[…]\nIn 2013, León left Cuba to play in a club outside of his homeland, losing the possibility of playing for the Cuban national team. He joined Russian club Zenit Kazan in 2014, where he won multiple CEV Champions League titles, national leagues, and cups. He also played part-time with Qatar club Al Rayyan in 2015 and 2016. In September 2018, León joined Italian team SIR Safety Perugia.\n[…]\nOn 10 August 2024, he won a silver medal at the 2024 Summer Olympic Games held in Paris.\n[…]\n2024–25 – with Bogdanka LUK Lublin\n[…]\n2024–25  Polish Championship, with Bogdanka LUK Lublin\n[…]\n2024:  Knight's Cross of Polonia Restituta\n[…]\nWilfredo Leon Venero at FIVB.com\n[…]\nWilfredo Leon Venero at the European Volleyball Confederation\n[…]\nWilfredo Leon Venero at LegaVolley.it (in Italian)\n[…]\nWilfredo León at Volleybox.net (archive)\n[…]\nWilfredo Leon at Olympics.com\n[…]\nWilfredo León at Olympedia\n[…]\nWilfredo León at InterSportStats\n[…]\nWilfredo Leon at the Polski Komitet Olimpijski (in Polish)\n[…]\nWilfredo León Venero on Instagram"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_at_the_2024_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+        "situacao": "ok",
+        "texto": "The men's tournament in volleyball at the 2024 Summer Olympics was the 16th edition of the event at the Summer Olympics, organised by the world's governing body, the FIVB, in conjunction with the IOC. It was held in Paris, France from 27 July to 10 August 2024. This was the first time in the history of the Olympic volleyball competition, each team participating was entitled to include one non-comp\n[…]\nThe match schedule was announced on 2 July 2024.\n[…]\nThe twelve qualified teams were seeded according to their position in the FIVB World Ranking as of 24 June 2024. As the host team, France was seeded first and placed in the top position of Pool A. The two top ranked teams seeded second and third were placed at the top of Pools B and C respectively. The remaining nine teams were distributed across three bowls of three teams each based on their position in the World Ranking and drawn for their seed line by line applying the serpentine system.\n[…]\nThe draw took place on 26 June 2024. Rankings are shown in brackets except the hosts who ranked seventh.\n[…]\nThe awards were announced on 10 August 2024.\n[…]\nVolleyball at the 2024 Summer Olympics – Women's tournament\n[…]\nBeach volleyball at the 2024 Summer Olympics – Men's tournament\n[…]\nSitting volleyball at the 2024 Summer Paralympics - Men's tournament\n[…]\n2024 FIVB Men's Volleyball Nations League"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wilfredo_Le%C3%B3n",
+        "situacao": "ok",
+        "texto": "Wilfredo León Venero (Santiago de Cuba, 31 de julho de 1993) é um jogador de voleibol cubano naturalizado polonês.\n[…]\nComeçou a jogar pela seleção nacional de Cuba aos 14 anos de idade no torneio de qualificação para os Jogos Olímpicos de Pequim. Já aos 17 anos foi eleito capitão da seleção cubana. Ele participou em 2010 dos Jogos Olímpicos da Juventude em Singapura, onde a equipe de Cuba conquistou o ouro.\n[…]\nLeon joga da na posição de ponteiro. Nos fundamentos ataque e bloqueio atinge 3,50 e 3,46 metros de altura respectivamente.\n[…]\nSantiago De Cuba\n[…]\n2015: Liga dos Campeões – MVP e melhor ponteiro\n[…]\n2015: Campeonato Mundial de Clubes – Melhor ponteiro\n[…]\n2016: Liga dos Campeões – MVP e melhor ponteiro\n[…]\n2016: Campeonato Mundial de Clubes – Melhor ponteiro\n[…]\n2017: Liga dos Campeões – Melhor ponteiro\n[…]\n2017: Campeonato Mundial de Clubes – Melhor ponteiro\n[…]\n2018: Liga dos Campeões – Melhor ponteiro\n[…]\n2019: Campeonato Europeu – Melhor ponteiro\n[…]\n2019: Copa do Mundo – Melhor ponteiro\n[…]\n2022: Campeonato Mundial de Clubes – Melhor ponteiro\n[…]\n2026: Campeonato Europeu – MVP e melhor ponteiro\n[…]\n«Wilfredo León» (em inglês)  na FIVB\n[…]\n«Wilfredo León»  no Volleybox\n[…]\nWilfredo León no Instagram\n[…]\nWilfredo León na Olympedia (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Seleção Italiana de Voleibol Masculino",
+      "descricao": "Seleção masculina de vôlei de quadra da Itália."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que feito nos Mundiais masculinos de vôlei a Itália dos anos noventa e o Brasil de 2002 a 2010 têm em comum?",
+    "resposta": "Três títulos mundiais seguidos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/FIVB_Volleyball_Men%27s_World_Championship"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/FIVB_Volleyball_Men%27s_World_Championship",
+        "situacao": "ok",
+        "texto": "%5B%5BWikipedia%3ATemplates+for+discussion%2FLog%2F2025+December+5%23Template%3ASeason+sidebar%5D%5D{{{CRITERION}}}\n[…]\nThe number of teams involved in the games has changed significantly over the years. Following volleyball's increase in popularity, they rose steadily to over 20 in the 1970s and part of the 1980s, were then cut short to 16 in the 1990s, and finally set up to 24 after 2002. Today, the World Championship is the most comprehensive of all events organized by the FIVB, and arguably the most important, alongside the Olympic Games.\n[…]\nIn the 2000s, Brazil became the leading force in the sport, also winning three consecutive editions (2002, 2006 and 2010), the first of which in Buenos Aires, Argentina, the same stage where the Brazilians had been runners-up in 1982. In 2014, hosts Poland defeated Brazil in four sets at the final, achieving their second gold medal and preventing what would have been a historic fourth title in a row. In 2018, Poland won a second consecutive title, again defeating Brazil in the final.\n[…]\n2002 –  Marcos Milinkovic (ARG)\n[…]\n2010 –  Murilo Endres (BRA)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Campeonato_Mundial_de_Voleibol_Masculino",
+        "situacao": "ok",
+        "texto": "A Copa do Mundo de Voleibol Masculino da FIVB (anteriormente, Campeonato Mundial de Voleibol Masculino) é uma competição de voleibol organizada pela Federação Internacional de Voleibol (FIVB) inicialmente a cada quatro anos e atualmente a cada dois anos. Foi a primeira competição internacional promovida por esta entidade.\n[…]\nO número de participantes do torneio mudou diversas vezes ao longo dos anos. Acompanhando o crescimento de popularidade do voleibol em escala mundial, ele aumentou em passo constante até superar a marca das vinte equipes na década de 1970 e em parte da década de 1980, foi reduzido então para apenas dezesseis na década de 1990, sendo em seguida fixado em vinte e quatro, a partir de 2002, e atualmente 32 seleções desde 2025.\n[…]\nNo início do século XXI, o Brasil tornou-se o maior expoente do voleibol mundial. Em 2002, os brasileiros retornaram à Argentina para reclamar o ouro que haviam perdido vinte anos antes como vice-campeões de 1982. Defensor do título, mostrou força no torneio seguinte em 2006 e conquistou o bicampeonato sobre a Polônia. Em 2010 conquistou seu terceiro título consecutivo com uma vitória sobre Cuba, igualando o feito da Itália na década anterior.\n[…]\nA sequência de títulos brasileiros foi quebrada em 2014, quando a Polônia aproveitou-se do fato de sediar a competição para vencer o torneio pela segunda vez, repetindo a vitória na final sobre os brasileiros em 2018.\n[…]\nAté hoje, foram disputadas 21 edições do Campeonato Mundial: dezessete foram vencidas por times europeus (União Soviética 6 vezes; Itália 5; Polônia 3; Checoslováquia 2; Alemanha Oriental, 1), e apenas quatro por times de outros continentes (Brasil três vezes e Estados Unidos uma).\n[…]\nCampeonato Mundial de Voleibol Feminino\n[…]\nFederação Internacional de Voleibol",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Vôlei masculino nos Jogos Olímpicos de 1992",
+      "descricao": "Torneio masculino de vôlei de quadra dos Jogos de Barcelona, vencido pelo Brasil."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na seleção brasileira campeã olímpica de vôlei em Barcelona 1992, cheia de jovens como Tande e Giovane, que central veterano era o capitão?",
+    "resposta": "Carlão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Brasileira_de_Voleibol_Masculino",
+      "https://en.wikipedia.org/wiki/Volleyball_at_the_1992_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Brasileira_de_Voleibol_Masculino",
+        "situacao": "ok",
+        "texto": "A seleção brasileira de voleibol masculino é a seleção nacional de voleibol adulta profissional brasileira, organizada e gerenciada pela Confederação Brasileira de Voleibol (CBV). Sua estreia em competições internacionais foi no Campeonato Sul-Americano de 1951, antes mesmo da fundação da CBV. Seus resultados esportivos começaram a aparecer de forma consistente na década de 1980, que configurou o \n[…]\nEsta revolução tática trazida pela Seleção resultaram no ouro nas Olimpíadas de Barcelona, em 1992. José Roberto Guimarães adotou um estilo de jogo com apenas um central de ofício em quadra, Paulão. Marcelo Negrão, o oposto, em duas passagens bloqueava no meio da rede. O time era tão versátil no ataque que Negrão atacava com a mesma facilidade bolas de primeiro tempo e as bolas de fundo, altas.\n[…]\nO ano de 2023 marcaria o agravamento da crise no voleibol masculino do Brasil. Na VNL, perdeu para a Polônia na casa dos maiores rivais nas quartas. No Campeonato Sul-Americano, a seleção perderia a sua hegemonia estabelecida desde 1951 para a Argentina, causando forte repercussão. Apesar de todos os problemas, a equipe conquistou a vaga para os Jogos Olímpicos de Verão de 2024 no pré-olímpico no Rio de Janeiro, fechando o torneio com apenas uma derrota, para a Alemanha.\n[…]\nA seleção brasileira já conquistou todos os principais campeonatos de voleibol. Nos Jogos Olímpicos, o Brasil possui seis medalhas: três de ouro conquistadas respectivamente em:\n[…]\nA seleção masculina de voleibol do Brasil possui os dois recordes mundiais de público na história do voleibol. Em 26 de julho de 1983, no estádio do Maracanã, no Rio de Janeiro, 95.887 pagantes viram O Grande Desafio de Vôlei – Brasil X URSS, uma partida amistosa na qual o Brasil derrotou a então campeã olímpica e mundial, União Soviética, por 3-1, num recorde absoluto da história do esporte.\n[…]\nGiovane\n[…]\nSeleção Brasileira de Voleibol Sentado Masculino"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_at_the_1992_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+        "situacao": "ok",
+        "texto": "The men's tournament in volleyball at the 1992 Summer Olympics was the 8th edition of the event at the Summer Olympics, organized by the world's governing body, the FIVB in conjunction with the IOC. It was held in Barcelona, Spain from 26 July to 9 August 1992.\n[…]\nVolleyball at the 1992 Summer Olympics\n[…]\nVolleyball at the 1992 Summer Olympics – Women's tournament"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Ricardinho",
+      "descricao": "Ricardo Garcia, ex-levantador brasileiro de vôlei, campeão olímpico em Atenas 2004."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em 2007, às vésperas do Pan do Rio, Bernardinho cortou da seleção o levantador titular do ouro olímpico de Atenas. Quem era ele?",
+    "resposta": "Ricardinho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ricardo_Garcia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ricardo_Garcia",
+        "situacao": "desambiguacao",
+        "texto": "Ricardo Garcia may refer to:\n\nRicardo García (attorney), Public Defender for Los Angeles County\nRicardo García (footballer) (1955–2007), Costa Rican footballer\nRicardo Garcia (Spanish musician), Spanish flamenco guitarist\nRicardo Garcia (volleyball) (born 1975), Brazilian volleyball player\nRicardo García (pentathlete) (1921–1981), Mexican modern pentathlete\nRicardo García (cyclist, born 1926) (192"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Bruninho",
+      "descricao": "Levantador brasileiro de vôlei, campeão olímpico nos Jogos do Rio em 2016."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Na cerimônia de abertura dos Jogos de Tóquio, ao lado da judoca Ketleyn Quadros, que jogador de vôlei carregou a bandeira do Brasil?",
+    "resposta": "Bruninho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_at_the_2020_Summer_Olympics",
+      "https://en.wikipedia.org/wiki/Bruno_Rezende"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazil_at_the_2020_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Brazil, the previous host of the 2016 Olympics at Rio de Janeiro, competed at the 2020 Summer Olympics in Tokyo. Originally scheduled to take place from 24 July to 9 August 2020, the Games were postponed to 23 July to 8 August 2021, because of the COVID-19 pandemic. It was the nation's twenty-third appearance at the Summer Olympics, having competed in all editions of the modern era from 1920 onwar\n[…]\nBrazil received one men's and one women's quota spot each for BMX at the Olympics, as a result of the nation's ninth-place finish for men and seventh for women in the UCI Olympic Ranking List of June 1, 2021. Two-time Olympian Renato Rezende and her Rio 2016 teammate Priscilla Carnaval were officially named on June 10, 2021.\n[…]\nBrazil qualified a squad of 13 judoka (seven men and six women) for each of the following weight classes at the Games by virtue of their top 18 finish in the IJF World Ranking List of 28 June 2021. The judo team was named to the Olympic roster on 16 June 2021, including Olympic bronze medalists Rafael Silva and Mayra Aguiar (London 2012 and Rio 2016) and Ketleyn Quadros (Beijing 2008).\n[…]\nFinn sailor and two-time Olympian Jorge Zarif and the Nacra 17 crew (Samuel Albrecht and his new partner Gabriela Nicolino de Sá) secured their places at the 2020 Copa Brasil, while Rio 2016 Olympians Bruno Bethlem and Henrique Haddad topped the sailing fleet at the national selection trials for the men's 470 to join the Tokyo 2020 roster.\n[…]\nHaving been directly entered into the singles, Monteiro opted to play with his partner Marcelo Demoliner in the men's doubles, following the eventual withdrawals of several tennis players, with Marcelo Melo and Bruno Soares teaming up for the third consecutive time at the Games by finishing among the world's top 20 in the ATP Doubles Rankings."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bruno_Rezende",
+        "situacao": "ok",
+        "texto": "Bruno Mossa de Rezende (born 2 July 1986) is a Brazilian professional volleyball player who is currently a member of the Brazilian club Volei Renata.\n[…]\nThe son of the legendary Brazilian coach Bernardo Rezende, he is one of the world's most accomplished setters and volleyball players.\n[…]\nIn the 2016 Rio Olympic Games, Brazil won a gold medal after the final match against Italy, and Bruno was named the best setter of the tournament.\n[…]\nFrom his father's second marriage to former volleyball player Fernanda Venturini, Bruno has two younger half-sisters, Júlia (born 2002) and Victória (born 2009). His maternal grandfather was an athlete in the 1960s and a former Brazilian 110 metres record holder.\n[…]\nBruno often faced accusations of nepotism when he first started playing for Brazil's national volleyball team, since his father, Bernardinho, was the team's coach from 2001 to 2017. However, he and his father vehemently defended themselves against the accusations and were always backed up by the other players, who said Bernardinho was tougher and more demanding of Bruno because of their family ties.\n[…]\nBruno is close friends with footballer Neymar.\n[…]\n2006 Superliga Brasileira – Best Setter\n[…]\n2007 Superliga Brasileira – Best Setter\n[…]\n2008 Superliga Brasileira – Best Setter\n[…]\n2009 Superliga Brasileira – Best Setter\n[…]\nBruno Rezende at FIVB.com\n[…]\nBruno Rezende at the European Volleyball Confederation\n[…]\nBruno Rezende at Olympedia\n[…]\nBruno Rezende at Olympics.com\n[…]\nBruno Rezende at the Comitê Olímpico do Brasil  (in Portuguese)\n[…]\nBruno Rezende on Instagram"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Brasil_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2020",
+        "situacao": "ok",
+        "texto": "O Brasil participou dos Jogos Olímpicos de Verão de 2020 em Tóquio que aconteceram de 23 de julho a 8 de agosto de 2021. O responsável pela equipa olímpica é o Comitê Olímpico do Brasil, bem como as federações desportivas nacionais da cada desporto com participação. Esta é a vigésima terceira participação nos Jogos Olímpicos de Verão, tendo competido em todas as edições da era moderna de 1920 em d\n[…]\nCom 7 ouros e 21 medalhas no total, este foi o desempenho de maior sucesso do país nos Jogos Olímpicos. O país bateu o recorde de medalhas em uma edição (21) e também foi a melhor colocação de todos os tempos no quadro de medalhas (12º lugar). Foi também a edição dos Jogos onde o Brasil conquistou medalhas em mais diferentes modalidades.\n[…]\nA despeito de ter conquistado o melhor desempenho de sua história nos Jogos Olímpicos de Verão, foi a primeira vez, desde que o voleibol de praia foi introduzido ao programa olímpico, em 1996, que o Brasil saiu sem nenhuma medalha neste esporte. Foi a primeira vez também desde 1996 que o país conseguiu menos de 2 medalhas somando todas as modalidades do voleibol.\n[…]\nA equipe masculina de futebol foi multada pelo COB por não ter usado o agasalho oficial da delegação brasileira nas Olimpíadas no pódio, já que os Jogos Olímpicos só permitem uma marca por país no pódio, mas a seleção usou uma camisa da Nike.\n[…]\nAo final dos jogos, Rayssa Leal ganhou o prêmio “Espírito Olímpico”, oferecido pelo Comitê Olímpico Internacional (COI), por ter comemorado o ouro de sua \"rival\" na disputa da prova, a japonesa Momiji Nishiya. Segundo o COI, este foi \"um dos momentos mais celebrados de Tóquio 2020, pois mostrou a essência dos jogos.\".\n[…]\nPredefinição:Rugby sevens nos Jogos Olímpicos de Verão de 2020 - Jogo 11L Feminino\n[…]\nBrasil nos Jogos Olímpicos de Verão\n[…]\nComitê Olímpico Brasileiro\n[…]\n«Site oficial do Comitê Olímpico Brasileiro»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Serginho",
+      "descricao": "Ex-jogador brasileiro de vôlei, campeão olímpico em Atenas 2004 e no Rio 2016, conhecido como Serginho Escadinha."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "De Atenas 2004 ao Rio 2016, o líbero Serginho subiu ao pódio olímpico com a seleção em todas as edições. Quantas medalhas olímpicas ele somou?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Duas",
+      "Três",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/S%C3%A9rgio_Dutra_Santos"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/S%C3%A9rgio_Dutra_Santos",
+        "situacao": "ok",
+        "texto": "Sérgio Dutra dos Santos, known as Serginho or Escadinha (born 15 October 1975) is a Brazilian former volleyball player and four-time Olympian. As a member of the Brazilian national volleyball team, he won gold medals at the 2004 and 2016 Olympics, and silver medals at the 2008 and 2012 Olympics.\n[…]\nAdditionally, Serginho is a two-time World Champion (2006, 2010), and a multimedalist of the World League, South American Championship, World Cup, and the Grand Champions Cup. In 2009, he became the first libero to be named Most Valuable Player in the history of the FIVB World League.\n[…]\nSerginho is widely regarded as one of the best liberos of all time and is unquestionably the best libero of the 2000s, with more awards than any other libero. Known for his outstanding service reception and digging capabilities, teams often attempt to avoid Sergio when serving. Beyond his defensive abilities, he is also capable of running the offense as a 'second setter' if the setter is forced to make the first contact.\n[…]\nIn 2004, Serginho became an Olympic Champion for the first time. However, in the next two Olympics, the Brazilian national volleyball team won silver medals only. Serginho semi-retired from the national team after the 2012 Olympics, and returned only for the 2015 World League. After that he declined to compete at the 2016 Rio Olympics, but was persuaded by Bernardinho to return.\n[…]\n2004 Olympic Games – Best Libero\n[…]\n2008 America's Cup – Best Libero\n[…]\n2016 Olympic Games – Best Libero\n[…]\nSérgio Santos at FIVB.com\n[…]\nSérgio Santos at the European Volleyball Confederation\n[…]\nSérgio Santos at Lega Pallavolo Serie A (in Italian)\n[…]\nSérgio Santos at WorldofVolley\n[…]\nSérgio Santos at Olympics.com\n[…]\nSérgio Santos at the Brazilian Olympic Committee (in Portuguese)\n[…]\nSérgio Santos at Olympedia\n[…]\nSérgio Santos at InterSportStats"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Dutra",
+        "situacao": "ok",
+        "texto": "Sérgio Dutra Santos, também conhecido como Serginho ou Escadinha (Diamante do Norte, 15 de outubro de 1975), é um ex-jogador de vôlei brasileiro, que atuou como líbero.\n[…]\nEm 2009, foi eleito o MVP da Liga Mundial daquele ano, tornando-se o único líbero da história a ter conquistado essa posição. É o único jogador da história a disputar quatro finais olímpicas consecutivas entre 2004 e 2016, mas entre as mulheres a Soviética Inna Ryskal também tem este feito entre 1964 e 1976. Bicampeão nos Jogos Olímpicos de Atenas (2004) e Rio de Janeiro (2016), onde foi eleito o MVP (Jogador Mais Valioso) do torneio masculino.\n[…]\nEle aguentou a dor e fizemos o procedimento”, afirmou Alvaro Chamecki, médico da seleção.\n[…]\nSerginho é amplamente considerado o melhor líbero de todos os tempos, e aquele com mais prêmios do que qualquer outro de sua posição. Conhecido por sua excelente capacidade de recepção e peixinhos, as equipes geralmente tentavam evitar Serginho ao servir. Além de suas habilidades defensivas, ele também era capaz ser uma espécie de 'segundo levantador', se o levantador fosse forçado a fazer a primeira recepção.\n[…]\nCampeão da Liga Mundial em 2001, 2003 (Melhor Defesa e Melhor Recepção), 2004, 2005, 2006 e 2007 (Melhor Líbero), 2009 (Melhor Jogador)\n[…]\nMedalha de Ouro nos Jogos Pan-Americanos de 2007\n[…]\nMedalha de Ouro nos Jogos Pan-Americanos de 2011\n[…]\nMedalha de Ouro nos Jogos Olímpicos de Verão de 2004\n[…]\nMedalha de Prata nos Jogos Olímpicos de Verão de 2008\n[…]\nMedalha de Prata nos Jogos Olímpicos de Verão de 2012\n[…]\nMedalha de Ouro nos Jogos Olímpicos de Verão de 2016\n[…]\nMedia relacionados com Sérgio Dutra no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Giba",
+      "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Giba, ponteiro campeão olímpico em Atenas e um dos maiores ídolos do vôlei brasileiro, nasceu em que cidade do norte do Paraná?",
+    "resposta": "Londrina",
+    "distratores": [
+      "Maringá",
+      "Cascavel",
+      "Ponta Grossa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giba"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giba",
+        "situacao": "ok",
+        "texto": "Gilberto Amauri de Godoy Filho (Brazilian Portuguese: [ʒiwˈbɛʁtu amawˈɾi dʒi ɡoˈdɔj ˈfiʎu]; born 23 December 1976), known as Giba (pronounced [ˈʒibɐ]), is a Brazilian former professional volleyball player who played as an outside hitter. For much of the 2000s, he was widely regarded as one of the best volleyball players in the world. During his professional career he played in Brazil, Italy, Russi\n[…]\nHis tremendous form continued during the next couple of seasons when in addition to winning titles, Giba was also awarded the MVP trophies for his performance at the 2006 World League, the 2006 World Championship and the 2007 World Cup. In that period he was considered by many to be the best volleyball player in the world. In 2006 he was given Prêmio Brasil Olímpico as the best Brazilian athlete of the year.\n[…]\nIn the 2000s Giba was a big part of Brazil's success.\n[…]\nGiba was born in Londrina, but raised in Curitiba. He works with children fighting leukemia. He was diagnosed with this disease when he was six months old.\n[…]\nThe Brazilian Olympic Committee produced a documentary under the title of Heróis Olímpicos for Giba. His autobiographic book titled Giba Neles! has been translated into two languages Polish and Italian.\n[…]\nGiba in 2016 selected as President of the FIVB Athletes Commission. The commission is made up of 10 athletes from nine different countries representing both volleyball and beach volleyball and will be officially launched at the Volleyball House in Rio during the 2016 Olympic Games in the presence of the IOC and the IOC Athletes' Commission.\n[…]\n2006 Prêmio Brasil Olímpico – Best athlete of the Year\n[…]\n2011 State of Parana – Medal for promotion of Sports\n[…]\n2016 RCI Brasil – Best Sports Active\n[…]\nGiba at the European Volleyball Confederation\n[…]\nGiba at Olympics.com\n[…]\nGiba at the Brazilian Olympic Committee (in Portuguese)\n[…]\nGiba at Olympedia\n[…]\nGiba at InterSportStats"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Giba_%28voleibolista%29",
+        "situacao": "ok",
+        "texto": "Gilberto Amauri Godoy Filho, conhecido como Giba (Londrina, 23 de dezembro de 1976), é um ex-voleibolista indoor brasileiro. Atuava na posição de atacante de ponta e conquistou os principais títulos pela Seleção Brasileira, desde as categorias de base à principal, sendo oito vezes medalha de ouro na Liga Mundial, tricampeão mundial e ouro olímpico em 2004 e prata em 2008 e 2012.\n[…]\nCom Giba na equipe, a Seleção Brasileira nunca ficou fora de um pódio em qualquer competição. Além dos três títulos mundiais, do ouro olímpico de Atenas 2004 e das duas pratas em Olimpíadas (Pequim 2008 e Londres 2012); ele conquistou dois ouros e dois bronzes em Copas do Mundo; três ouros em Copas dos Campeões; oito ouros, duas pratas e dois bronzes na Liga Mundial; um ouro, uma prata e um bronze em Jogos Pan-Americanos; e oito ouros em Sul-Americanos.\n[…]\nEm 2018, entrou para o Hall da Fama do vôlei. É considerado um dos maiores jogadores de vôlei de todos os tempos, em nível nacional e mundial.\n[…]\nDepois de duas temporadas pelo Pinheiros/Sky, em 2011 acertou a ida para o Cimed, time da cidade de Florianópolis e não disputou sequer uma partida por este time. Após os Jogos Olímpicos de Londres jogou no Drean/Bolívar da Argentina, e no segundo semestre de 2013 assinou com o Vôlei Taubaté. Também jogou, por um breve período, no Al Nasr de Dubai, nos Emirados Árabes.\n[…]\nEm 2017, Giba foi um dos 10 participantes famosos, de um total de 20 participantes (os outros 10 participantes eram anônimos) que participaram da primeira temporada do reality show de resistência física Exathlon Brasil então exibido pela Rede Bandeirantes. Após três semanas participando do reality show, ele desistiu da competição para estar ao lado da sua família, ficando em 17.° lugar nesta temporada do reality show.\n[…]\n1990: Canadá Country Club (Londrina-PR)\n[…]\nJogos Olímpicos de Atenas 2004\n[…]\nMVP na Jogos Olímpicos de Atenas 2004",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Vôlei masculino nos Jogos Olímpicos de 2004",
+      "descricao": "Torneio masculino de vôlei de quadra dos Jogos de Atenas, em 2004, vencido pelo Brasil."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "O Brasil ganhou o ouro no vôlei masculino de Atenas 2004. Que jogador brasileiro foi eleito o melhor do torneio olímpico?",
+    "resposta": "Giba",
+    "distratores": [
+      "Nalbert",
+      "Dante",
+      "Ricardinho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball_at_the_2004_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+      "https://en.wikipedia.org/wiki/Giba"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_at_the_2004_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+        "situacao": "ok",
+        "texto": "The men's tournament in volleyball at the 2004 Summer Olympics was the 11th edition of the event at the Summer Olympics, organized by the world's governing body, the FIVB in conjunction with the IOC. It was held in Athens, Greece from 15 to 29 August 2004.\n[…]\nTeams were seeded following the serpentine system according to their FIVB World Ranking as of January 2004. FIVB reserved the right to seed the hosts as head of pool A regardless of the World Ranking. Rankings are shown in brackets except the hosts.\n[…]\nVolleyball at the 2004 Summer Olympics – Women's tournament\n[…]\nBeach volleyball at the 2004 Summer Olympics – Men's tournament\n[…]\nSitting volleyball at the 2004 Summer Paralympics – Men's tournament"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Giba",
+        "situacao": "ok",
+        "texto": "Gilberto Amauri de Godoy Filho (Brazilian Portuguese: [ʒiwˈbɛʁtu amawˈɾi dʒi ɡoˈdɔj ˈfiʎu]; born 23 December 1976), known as Giba (pronounced [ˈʒibɐ]), is a Brazilian former professional volleyball player who played as an outside hitter. For much of the 2000s, he was widely regarded as one of the best volleyball players in the world. During his professional career he played in Brazil, Italy, Russi\n[…]\nAt the 2004 Summer Olympic Games in Athens, Giba was at his best helping Brazilian National Team to win its second gold medal in history and being voted the tournament's Most Valuable Player. On 29 August 2004, in front of 10,000 fans at the Peace and Friendship Stadium in Piraeus, the Brazilians overcame Italy 3:1 in the gold medal match.\n[…]\nHis tremendous form continued during the next couple of seasons when in addition to winning titles, Giba was also awarded the MVP trophies for his performance at the 2006 World League, the 2006 World Championship and the 2007 World Cup. In that period he was considered by many to be the best volleyball player in the world. In 2006 he was given Prêmio Brasil Olímpico as the best Brazilian athlete of the year.\n[…]\nIn 2003–2012 he was married to the Romanian-Brazilian former international volleyball player, Cristina Pîrv. They have 2 children together, a daughter Nicoll (born 2004) and a son Patrick (born 2009). In November 2012, Cristina filed for divorce. In 2013 he started dating with Maria Luiza Dautt. Giba is fluent in three languages; Portuguese, English and Italian.\n[…]\nThe Brazilian Olympic Committee produced a documentary under the title of Heróis Olímpicos for Giba. His autobiographic book titled Giba Neles! has been translated into two languages Polish and Italian.\n[…]\n2004  Olympic Games\n[…]\nGiba at the European Volleyball Confederation\n[…]\nGiba at Olympics.com\n[…]\nGiba at the Brazilian Olympic Committee (in Portuguese)\n[…]\nGiba at Olympedia\n[…]\nGiba at InterSportStats"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2004_-_Masculino",
+        "situacao": "ok",
+        "texto": "O torneio masculino de voleibol nos Jogos Olímpicos de Verão de 2004 foi realizado no Estádio da Paz e da Amizade, Atenas, entre 15 e 29 de agosto e organizado pela Federação Internacional de Voleibol (FIVB) em conjunto com o Comitê Olímpico Internacional (COI).\n[…]\nO Brasil foi campeão olímpico de voleibol, derrotando a Itália na final. A Rússia ganharam o bronze frente aos Estados Unidos.\n[…]\n↑1  O Segundo Qualificatório Mundial e o Torneio Pré-Olímpico Asiático foram disputados concomitantemente.\n[…]\nA distribuição das equipes pelos grupos é realizada pelo sistema de serpentina baseando-se na posição das equipes no ranking da FIVB em janeiro de 2004.\n[…]\nNa fase de grupos, as seleções jogaram entre si repartidas em dois grupos de seis equipas cada. Os quatro melhores apuraram-se para as quartas de final.\n[…]\nNa fase final as seleções disputaram, no máximo, mais três jogos (para as equipas que discutiram as medalhas), em formato de eliminatória.\n[…]\nEsta foi a classificação final do torneio:\n[…]\nEstes foram considerados os melhores jogadores do torneio, com a maioria de atletas da equipe campeã olímpica:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Vôlei masculino nos Jogos Olímpicos de 2012",
+      "descricao": "Torneio masculino de vôlei de quadra dos Jogos de Londres, em 2012."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Mesmo com a derrota do Brasil na final de Londres 2012, um ponteiro brasileiro foi eleito o melhor jogador do torneio olímpico. Quem?",
+    "resposta": "Murilo Endres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+      "https://en.wikipedia.org/wiki/Murilo_Endres"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_at_the_2012_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+        "situacao": "ok",
+        "texto": "The men's tournament in volleyball at the 2012 Summer Olympics was the 13th edition of the event at the Summer Olympics, organised by the world's governing body, the FIVB, in conjunction with the IOC. It was held in London, United Kingdom from 29 July to 12 August 2012.\n[…]\nTeams were seeded following the serpentine system according to their FIVB World Ranking as of 4 January 2012. FIVB reserved the right to seed the hosts as head of pool A regardless of the World Ranking. Rankings are shown in brackets except the hosts who ranked 92nd.\n[…]\nVolleyball at the 2012 Summer Olympics – Women's tournament\n[…]\nFinal Standing"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Murilo_Endres",
+        "situacao": "ok",
+        "texto": "Murilo Endres (born 3 May 1981) is a Brazilian volleyball player, member of Brazil men's national volleyball team and Brazilian club SESI São Paulo. He is a double silver medalist of the Olympic Games from Beijing 2008 and London 2012, World Champion (2006, 2010), silver medalist of the World Championship 2014, multimedalist of the World League, South American Championship, World Cup and the Grand\n[…]\nFrom 2006 up to the 2009 season Endres played in Italian League at the club Modena. He played as wing spiker for Sesi São Paulo for the 2010/2011 season, in Brazil.\n[…]\nWith the Brazil national team he won seven World Leagues (2003, 2004, 2005, 2006, 2007, 2009, 2010), one World Cup (2007) and two World Championships (2006, 2010). He was named the MVP of 2010 World Championship and 2010 World League. He competed at the 2008 Summer Olympics and at the 2012 Summer Olympics, winning the silver medal both times. Murilo won the silver medal and the \"Best receiver\" award at the 2011 FIVB World League. Murilo Endres star player national team in season 2012.\n[…]\nHe was also named the MVP of the 2012 Summer Olympics tournament. Murilo went through a shoulder surgery in 2013 and was out of the national team for the whole season. In 2014, the wing spiker got back to the national team and helped the team to achieve the silver medal in the FIVB World League. Murilo Endres in 2010 year he was given Prêmio Brasil Olímpico as the best Brazilian athlete of the year.\n[…]\nEndres served an eight-month competition ban during 2017 for an anti-doping rule violation for unintentional use of furosemide that he had ingested from a contaminated product.\n[…]\n2012  Olympic Games\n[…]\n2010 Prêmio Brasil Olímpico – Best athlete of the Year\n[…]\n2012 Olympic Games London - Most Valuable Player\n[…]\nMurilo Endres at FIVB.com\n[…]\nMurilo Endres at FIVB.org World League 2011\n[…]\nMurilo Endres at Olympedia\n[…]\nMurilo Endres at Olympics.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2012_-_Masculino",
+        "situacao": "ok",
+        "texto": "O torneio masculino de voleibol nos Jogos Olímpicos de Verão de 2012 foi realizado no Earls Court Exhibition Centre entre 27 de julho e 12 de agosto. As doze equipes participantes foram divididas igualmente em dois grupos de seis. Cada equipe jogou com todos as outros do grupo. As quatro melhores seleções de cada grupo passaram as quartas de finais, com as vencedoras se classificando as semifinais\n[…]\nNa final, o Brasil disputou o título pela terceira vez consecutiva, em uma partida contra a Rússia, que virou o jogo e venceu por 3 sets a 2.\n[…]\n↑1 ↑1  O Torneio Pré-Olímpico Mundial 1 e o Asiático foram disputados simultaneamente.\n[…]\nTodos as partidas seguem o horário de Londres (UTC+1).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Vôlei feminino nos Jogos Olímpicos de 2008",
+      "descricao": "Torneio feminino de vôlei de quadra dos Jogos de Pequim, em 2008, vencido pelo Brasil."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Na campanha do primeiro ouro olímpico do vôlei feminino brasileiro, em Pequim 2008, quem recebeu o prêmio de melhor jogadora do torneio?",
+    "resposta": "Paula Pequeno",
+    "distratores": [
+      "Sheilla Castro",
+      "Fofão",
+      "Mari Steinbrecher"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball_at_the_2008_Summer_Olympics_%E2%80%93_Women%27s_tournament",
+      "https://en.wikipedia.org/wiki/Paula_Pequeno"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_at_the_2008_Summer_Olympics_%E2%80%93_Women%27s_tournament",
+        "situacao": "ok",
+        "texto": "The women's tournament in volleyball at the 2008 Summer Olympics was held at Capital Indoor Stadium and Beijing Institute of Technology Gymnasium from 9 to 23 August 2008.\n[…]\nTeams were seeded following the Serpentine system according to their ranking as of January 2008.\n[…]\n21:50, 23 August 2008\n[…]\nBeijing 2008 at FIVB"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Paula_Pequeno",
+        "situacao": "ok",
+        "texto": "Paula Renata Marques Pequeno  (Brasília, January 22, 1982) is a Brazilian two-time Olympic gold medal winning volleyball player. She plays for Vôlei Bauru.\n[…]\nPequeno was part of the National Team which won the gold medal at the 2011 Pan American Games held in Guadalajara, Mexico.\n[…]\nPequeno played with Fenerbahçe in the 2012 FIVB Club World Championship held in Doha, Qatar and helped her team to win the bronze medal after defeating Puerto Rico's Lancheras de Cataño 3-0.\n[…]\nVôlei Futuro (2010–2012)\n[…]\nBrasília Vôlei (2013–2017)\n[…]\nVôlei Bauru (2017–2018)\n[…]\n2008 Summer Olympics – \"Most Valuable Player\"\n[…]\n2008–09 Brazilian Superliga –  Runner-up, with Finasa Osasco\n[…]\nPaula Pequeno at FIVB.com\n[…]\nPaula Pequeno at FIVB.org World Grand Prix 2009\n[…]\nPaula Pequeno at the European Volleyball Confederation\n[…]\nPaula Pequeno at Olympics.comPaula Pequeno at Olympic.org (archived)\n[…]\nPaula Pequeno at the Comitê Olímpico do Brasil  (in Portuguese)\n[…]\nPaula at Olympedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2008_-_Feminino",
+        "situacao": "ok",
+        "texto": "O torneio de voleibol nos Jogos Olímpicos de Verão de 2008 em quadra feminino realizou-se no Ginásio Indoor da Capital e Ginásio do Instituto de Tecnologia de Pequim entre 9 de Agosto a 23 de Agosto de 2008.\n[…]\nAs doze equipas classificadas foram divididas igualmente em dois grupos de seis equipes. Cada equipe jogou com todos as outras equipes do grupo. Cada vitória valia 2 pontos, e uma derrota 1 ponto. As quatro melhores seleções de cada grupo se classificaram para as quartas de final.\n[…]\nHorário de Pequim (UTC+8)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Karch Kiraly",
+      "descricao": "Ex-jogador americano de vôlei, campeão olímpico na quadra em 1984 e 1988 e na areia em 1996."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na virada do milênio, a federação internacional de vôlei elegeu o melhor jogador do século vinte, um americano campeão olímpico na quadra e na areia. Quem?",
+    "resposta": "Karch Kiraly",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Karch_Kiraly"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Karch_Kiraly",
+        "situacao": "ok",
+        "texto": "Charles Frederick \"Karch\" Kiraly ( KARCH kirr-EYE; born November 3, 1960) is an American volleyball player, coach, and broadcast announcer. He was a central part of the U.S National Team that won gold medals at the 1984 and 1988 Olympic Games. He went on to win the gold medal again at the 1996 Olympic Games, the first Olympic competition to feature beach volleyball. He is the only player (man or w\n[…]\nKiraly earned All-American honors all four years, and was awarded NCAA Volleyball Tournament Most Outstanding Player in 1981 and 1982.\n[…]\nGrowing up, Kiraly wanted to be a biochemist to follow in his father's footsteps, but that changed when he joined the US national team and led it to multiple gold medals. He was twice named the best player in the world by the international governing body. He was also named the best volleyball player of the 20th century along with Lorenzo Bernardi.\n[…]\nKiraly is the author of three books, Karch Kiraly's Championship Volleyball, co-authored with Jon Hastings and published by Simon and Schuster in 1996,  Beach Volleyball, co-authored with Byron Shewman and published by Human Kinetics in 1999, and Chasing Greatness, co-authored with Don Patterson and published by Total Sports LLC in 2023.\n[…]\nCouvillon, Arthur R. (January 19, 2008). Karch Kiraly: A Tribute to Excellence. Hermosa Beach, Calif: Information Guides. ISBN 978-0-938329-11-4.\n[…]\nKiraly, Karch; Hastings, Jon (June 13, 1996). Karch Kiraly's Championship Volleyball. New York: Touchstone. ISBN 978-0-684-81466-7.\n[…]\nKiraly, Karch; Shewman, Byron (1999). Beach Volleyball. Champaign, IL: Human Kinetics. ISBN 978-0-88011-836-1.\n[…]\nKarch Kiraly Volleyball Academy Archived November 26, 2020, at the Wayback Machine\n[…]\nKarch Kiraly at the Beach Volleyball Database\n[…]\nKarch Kiraly at the Team USA Hall of Fame (archive September 3, 2023)\n[…]\nKarch Kiraly at Olympics.com Karch Kiraly at Olympic.org (archived)\n[…]\nKarch Kiraly at Olympedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Karch_Kiraly",
+        "situacao": "ok",
+        "texto": "Charles Frederick \"Karch\" Kiraly (Jackson, Michigan, 3 de Novembro de 1960) é um ex-jogador de voleibol dos Estados Unidos da América. É o único jogador deste desporto - tanto masculino quanto feminino - a ter ganhado a medalha de ouro olímpica nas variantes indoor (quadra) e de praia. É tido por muitos admiradores e jogadores de voleibol como o maior jogador de todos os tempos. Não à toa, no ano \n[…]\nSua conquista no vôlei de praia foi lograda jogando em parceria com Kent Steffes. Após se aposentar como atleta, Kiraly dedicou-se à carreira de treinador. Como assistente-técnico, participou da campanha que levou a seleção feminina dos EUA à prata em Londres-2012 – derrotada pelo Brasil na final. Já como técnico do time, comandou a equipe no título mundial em 2014 e o olímpico em 2022, igualando a chinesa Lang Ping com ouro olímpico como atleta e treinador.\n[…]\nSeus pais fugiram da Hungria para os Estados Unidos em 1956, no ano da Invasão Soviética. A família montou acampamento em Jackson, no estado norte-americano de Michigan, e quatro anos depois nascia o filho Karch, forma húngara de dizer Charles.\n[…]\nBicampeão olímpico voleibol de quadra - Los Angeles 1984 e Seul 1988\n[…]\nCampeão olímpico Voleibol de praia - Atlanta 1996\n[…]\nPrimeiro - e por enquanto único - jogador de vôlei, tanto masculino quanto feminino, a ter ganhado a medalha de ouro olímpica nas variantes indoor (quadra) e de praia.\n[…]\n1998 - American Volleyball Professionals (AVP) Sportsman of the Year\n[…]\n1998 - American Volleyball Professionals (AVP) Most Valuable Player\n[…]\n2000 - Melhor jogador de voleibol do século XX pela FIVB.\n[…]\n2002 - American Volleyball Professionals (AVP) Best Defensive Player\n[…]\n2004 - American Volleyball Professionals (AVP) Outstanding Achievement Award\n[…]\n2009 - Induzido ao College Sports Information Directors of America (COSIDA) Academic All-America Hall of Fame.\n[…]\nLista de atletas com medalhas olímpicas em diferentes esportes",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Regla Torres",
+      "descricao": "Ex-jogadora cubana de vôlei, central tricampeã olímpica com Cuba em 1992, 1996 e 2000."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Que central das Morenas do Caribe, tricampeã olímpica, foi escolhida pela federação internacional como a melhor jogadora de vôlei do século vinte?",
+    "resposta": "Regla Torres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Regla_Torres"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Regla_Torres",
+        "situacao": "ok",
+        "texto": "Regla Torres Herrera (born 12 February 1975) is a Cuban former volleyball player who won three Olympic gold medals with the Cuban women's national volleyball team. Torres began playing on the international circuit at the age of 14. As a middle blocker, she was a key player in the dominance of the Cuban national team of the 1990s.\n[…]\nIn 2001, Torres was the recipient of the \"Best Player of the 20th Century\" award by the FIVB and was inducted into the International Volleyball Hall of Fame.\n[…]\nTorres won her first Olympic gold medal in 1992 in Barcelona at the age of 17. She helped her team to additional gold medals at the 1996 Olympics in Atlanta and the 2000 Olympics in Sydney, achieving the extraordinary feat of winning three Olympics in a row. She was selected as the best spiker at the Sydney Olympics.\n[…]\nTorres helped the Cuban team to the gold medal at the 1991 Pan American Games in Havana, at the age of 16. She won another gold medal with the national team at the 1995 Pan American Games in Mar del Plata.\n[…]\nTorres helped Cuba win gold medals at the 1991 and 1995 FIVB World Cup in Japan. She also helped Cuba win the 1994 FIVB World Championship in Brazil and the 1998 FIVB World Championship in Japan, and was selected as the MVP in both tournaments.\n[…]\nTorres won additional gold medals with the Cuban team at the 1993 and 2000 FIVB World Grand Prix in Japan.\n[…]\nInternational Volleyball Hall of Fame — 2001\n[…]\nRegla Torres at the International Volleyball Hall of Fame\n[…]\nRegla Torres at FIVB.org World Championships Women 2002\n[…]\nRegla Torres at Volleybox.net\n[…]\nRegla Torres at Olympics.com\n[…]\nRegla Torres at Olympedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Regla_Torres",
+        "situacao": "ok",
+        "texto": "Regla Torres Herrera (Havana, 12 de fevereiro de 1975) é uma ex-jogadora de voleibol cubana, tri-campeã olímpica em 1992, 1996 e 2000 e uma das maiores de todos os tempos neste esporte. Jogava como meio-de-rede, atuando como uma implacável bloqueadora que intimidava as equipes adversárias por sua técnica e pela excepcional altura do seu alcance de bola.\n[…]\nRegla Torres dedicou, praticamente, sua vida inteira ao voleibol, começando a praticar o esporte aos 8 anos de idade, por recomendação de sua mãe. Aos 14 anos, já jogava pelo clube Ciudad Habana e integrava a Seleção Cubana de Voleibol. Em 1991, aos 16 anos, conquistou com sua seleção a medalha de ouro nos Jogos Pan-Americanos, disputados na sua cidade natal.\n[…]\nEm Barcelona 1992, tornou-se a mais jovem das jogadoras de vôlei a conquistar o ouro olímpico. Torres seria campeã olímpica outras duas vezes. Também conquistou o Campeonato Mundial de Voleibol duas vezes - 1994 e 1998- e a Copa do Mundo em 1999.\n[…]\nApesar de seu comportamento muitas vezes polêmico, Regla Torres foi considerada pela Federação Internacional de Voleibol (FIVB) a melhor jogadora do século XX e, em 2001, passou a integrar o Hall da fama do voleibol.\n[…]\nApós as Olimpíadas de Sidney, a carreira de Regla Torres foi diluindo-se por problemas crônicos nos joelhos que dificultavam seu jogo. Finalmente em 2003, com 28 anos – ainda jovem – ela se aposenta oficialmente.\n[…]\nNo Panamericano sediado no Brasil Regla Torres se envolveu novamente em confusões, como durante um luta de judô feminino no ginásio alguns torcedores brasileiros que não concordaram com o resultado lançaram objetos e alguns alcançaram Regla Torres que estava presente na arquibancada. Fato que a irritou muito, causando uma enorme confusão na qual Regla gritava:\n[…]\n2000 - Melhor jogadora de voleibol do século XX\n[…]\nVoleibol nos Jogos Olímpicos de Verão de 2000",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Lang Ping",
+      "descricao": "Ex-jogadora e técnica chinesa de vôlei, campeã olímpica como atleta em 1984 e como treinadora em 2016."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Nos Jogos de Pequim, em 2008, a chinesa Lang Ping foi prata olímpica no vôlei feminino, jogando em casa, mas como técnica de outro país. Qual?",
+    "resposta": "Estados Unidos",
+    "distratores": [
+      "Japão",
+      "Itália",
+      "Rússia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lang_Ping"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lang_Ping",
+        "situacao": "ok",
+        "texto": "\"Jenny\" Lang Ping (Chinese: 郎平; pinyin: Láng Píng; born 10 December 1960) is a Chinese former volleyball player and coach. She is the former head coach of the Chinese women's national volleyball team and U.S. women's national volleyball team. As a player, Lang won the most valuable player award in women's volleyball at the 1984 Olympics.\n[…]\nIn 1995, Lang became the head coach of the Chinese national team and eventually guided the squad to the silver medal at the 1996 Summer Olympics in Atlanta and second place at the 1998 World Championships in Japan. Lang Ping resigned from the Chinese national team in 1998 for health reasons. In the following year, she took a head coaching position in the Italian professional volleyball league and enjoyed great success there, winning various honours and the coach of the year award multiple times.\n[…]\nShe became the coach of the US National Team in 2005. Lang guided the team to the 2008 Olympics, where the US team faced off with China in her home country. The US team defeated China 3–2. Then Chinese and US presidents, Hu Jintao and George W. Bush, attended the match. The match drew 250 million television viewers in China alone. The team went on to win the silver medal, losing to Brazil in the finals 3–1.\n[…]\nOn 21 August 2016, Lang Ping guided the Chinese national team to the gold medal at 2016 Rio Olympics. With this victory, Lang Ping became the first person in volleyball history, male or female, to win a gold medal at the Olympic Games as a player with the Chinese national team in Los Angeles 1984 and as the Chinese national team head coach in Rio 2016.\n[…]\n2008 Olympic Games Beijing -  Silver Medal\n[…]\nLang Ping at Olympics.com\n[…]\nOlympedia profile: Lang Ping\n[…]\nLang Ping: Iron Hammer Nailing Gold (FIVB)\n[…]\nLang Ping's profile at Chinese Olympic Committee (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lang_Ping",
+        "situacao": "ok",
+        "texto": "\"Jenny\" Lang Ping (em chinês: 郎 平; Pequim, 10 de dezembro de 1960) é uma ex-voleibolista chinesa e treinadora de voleibol. Como jogadora foi campeã olímpica com a seleção chinesa nos Jogos Olímpicos de Los Angeles, em 1984, e 32 anos depois foi técnica da seleção campeã nos Jogos Olímpicos do Rio de Janeiro.\n[…]\nNo mês de janeiro de  1995 concorreu ao cargo de treinadora Seleção dos Estados Unidos de Voleibol Feminino, no mês seguinte retornou a Pequim , começando sua carreira treinadora  com  a Seleção Chinesa Permanecendo no cargo até março de  1999, saindo  por motivos de saúde. Em  1996  levou a China a medalha de prata em Jogos Olímpicos de Verão de 1996 de Atlanta. Em julho do mesmo ano é contratada para ser treinadora  do Clube de Modena da  Itália.\n[…]\nLang Ping é   Michael Jordan  da China\" , pois para os chineses ela não representava apenas uma atleta de alto nível e sim um símbolo grandioso para seu povo.Após o 8º Lugar no Grand Prix de Voleibol de 2005  sua meta era classificar para o Jogos Olímpicos de Verão de 2008.Ainda em 2005 conquistou a prata na Copa dos Campeões de Voleibol Feminino de 2005 e o título do Campeonato Norseca de Voleibol Feminino de 2005 e em 2007 o vice-campeonato.\n[…]\nDisputou a  Copa do Mundo de Voleibol Feminino de 2007, no qual conquistou o bronze e a tão sonhada vaga para Olimpíada de Pequim.Em 19 de agosto de 2008 sua equipe da Itália fora eliminada nas quartas de final, mesmo assim seguiu firme conduzindo a Seleção dos Estados Unidos a medalha de prata,  perdendo para Seleção Brasileira de Voleibol Feminino por 3 x 1. Por mais de 15 anos vivendo nos  Estados Unidos manteve sua cidadania chinesa.\n[…]\nSeleção dos Estados Unidos de Voleibol Feminino\n[…]\nJogos Olímpicos\n[…]\nJogos Olímpicos\n[…]\n1996- Prata (Atlanta,  Estados Unidos)\n[…]\n1984-MVP dos Jogos Olímpicos de 1984",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Haikyu!!",
+      "descricao": "Mangá e anime japonês de Haruichi Furudate sobre um time colegial de vôlei."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No mangá e anime Haikyu, quem é o protagonista baixinho que compensa a altura com saltos enormes no time do colégio Karasuno?",
+    "resposta": "Shoyo Hinata",
+    "distratores": [
+      "Tobio Kageyama",
+      "Yu Nishinoya",
+      "Kei Tsukishima"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Haikyu!!"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Haikyu!!",
+        "situacao": "ok",
+        "texto": "Haikyu!! (ハイキュー!!, Haikyū!!; from the kanji 排球, 'volleyball') is a Japanese manga series written and illustrated by Haruichi Furudate. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from February 2012 to July 2020, with its chapters collected in 45 tankōbon volumes. The story follows Shoyo Hinata, a boy determined to become a great volleyball player despite his small stat\n[…]\nJunior high school student, Shoyo Hinata, becomes obsessed with volleyball after catching a glimpse of Karasuno High School playing in the Nationals on TV. Of short stature himself, Hinata is inspired by a player the commentators nickname 'The Little Giant', Karasuno's short but talented wing spiker. Though inexperienced, Hinata is athletic and has an impressive vertical jump.\n[…]\nA spin-off focused on Hinagarasu, the series' mascot character who is a parody of main protagonist, Shoyo Hinata, started in Shueisha's Saikyō Jump magazine on January 5, 2026.\n[…]\nA series of stage plays titled Hyper Projection Engeki: Haikyu!!, directed by Worry Kinoshita, began running in 2015, starring Kenta Suga as Hinata.\n[…]\nAt the 5th Crunchyroll Anime Awards, Shoyo Hinata was awarded \"Best Boy\" while he was nominated for \"Best Protagonist\". The fourth season's opening theme, \"Phoenix\" by Burnout Syndromes, was nominated for \"Best Opening Sequence\".\n[…]\nNoelle Ogawa of Crunchyroll praised it for its portrayal of personal growth, emphasizing its dependence on having the \"right people and the right environment to bloom in.\" Rebecca Silverman of Anime News Network commented on the development of non-players like Karasuno's team manager, Kiyoko, stating that \"her triumphant jump as she brings Hinata his lost sneakers is a beautiful statement of the fact that she's just as much a part of the team as any of the boys\".\n[…]\nOfficial manga website at Viz Media\n[…]\nHaikyu!! (manga) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Haikyu%21%21",
+        "situacao": "ok",
+        "texto": "Haikyū!! (ハイキュー!!, Haikyū!!; do kanji 排球 \"voleibol\") é uma série de mangá escrita e ilustrada por Haruichi Furudate. Foi serializada na revista Weekly Shōnen Jump, da Shueisha, de fevereiro de 2012 a julho de 2020, com seus capítulos compilados em 45 volumes tankōbon. O mangá foi licenciado na América do Norte pela Viz Media e no Brasil pela Editora JBC. A história acompanha Shoyo Hinata, um garot\n[…]\nO estudante do ensino médio Shōyō Hinata se apega ao voleibol após ver um jogo do campeonato nacional na televisão. Embora não seja muito alto, ele se determina a seguir os passos do ídolo do campeonato, apelidado \"Pequeno Gigante\", após ver os seus jogos. Ele cria um clube de voleibol e começa a praticar sozinho.\n[…]\nShōyō Hinata (日向 翔陽, Hinata Shōyō)\n[…]\nTobio é um estudante do primeiro ano do Liceu Karasuno. Ele é atualmente o levantador sendo referido como o \"Rei do Campo\" na escola secundária, sendo notório pelos seus talentos prodigiosos como jogador, mas a sua atitude arrogante impede de cooperar com os seus colegas da equipa. Após entrar para o Liceu Karasuno e para a equipa de voleibol, conhece Shōyō e a suas opiniões começam a mudar e ele começa a entender a importância do trabalho em equipa no desporto.\n[…]\nKei é um estudante do primeiro ano do Liceu Karasuno e um central. Ele desprezava Shōyō no início, afirmando que ele não devia confiar no seu salto. Tsukishima muitas vezes faz pouco dos seus companheiros de equipa e também provoca Tobio, chamando-o de \"O Rei\", que o irrita muito. Apesar da sua atitude negativa e vista irreverente no voleibol, Kei é um central muito analítico e inteligente, que dá a equipa uma grande vantagem.\n[…]\nShōyō Hinata apareceu no jogo eletrónico de luta J-Stars Victory Vs da Jump para as consolas PlayStation 3, PlayStation 4 e PlayStation Vita.\n[…]\nHaikyū!! Karasuno Kōkō VS Shiratorizawa Gakuen Kōkō (anime) na enciclopédia do Anime News Network (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Giovane Gávio",
+      "descricao": "Ex-jogador e técnico brasileiro de vôlei, campeão olímpico em Barcelona 1992."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Ao lado do levantador Maurício, que outro jogador esteve tanto no ouro olímpico de Barcelona 1992 quanto no de Atenas 2004?",
+    "resposta": "Giovane Gávio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giovane_G%C3%A1vio"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giovane_G%C3%A1vio",
+        "situacao": "ok",
+        "texto": "Giovane Farinazzo Gavio (born 7 September 1970), known as Giovane, is a Brazilian retired volleyball coach and former player who was a member of the Brazil men's national volleyball team that won the gold medal at the 1992 Summer Olympics in Barcelona by defeating the Netherlands (3-0) in the final.\n[…]\nPlaying as an outside hitter, Gavio competed in three consecutive Summer Olympics, starting in 1992. Later on he started a career in beach volleyball. He is the only Brazilian player (and second overall, after Javier Weber) to win the Superliga both as player and coach. After retiring from coaching national and club teams, Gavio became a sports executive, businessman and corporate speaker, and is the founder of the Instituto Giovane Gávio.\n[…]\nIn 2021, Gavio was inducted into the International Volleyball Hall of Fame.\n[…]\nSince retiring as an athlete, Gavio has worked as a corporate speaker, addressing themes such as leadership, purpose, daily excellence, innovation, growth mindset, business management and discipline, drawing on his sports career; his talks are often framed around the twelve years between his Olympic gold medals in Barcelona 1992 and Athens 2004. He is also a certified coach through the Sociedade Brasileira de Coaching.\n[…]\nHe is one of the athletes featured in the documentary film Ouro, Suor e Lágrimas (2015), directed by Helena Sroulevich, about the most successful decade of Brazilian volleyball (2001–2012).\n[…]\nGiovane Gávio at FIVB.com\n[…]\nGiovane Gávio at the European Volleyball Confederation\n[…]\nGiovane Gávio at Beach Volleyball Database\n[…]\nGiovane Gávio at Olympics.com\n[…]\nGiovane Gávio at the Brazilian Olympic Committee (in Portuguese)\n[…]\nGiovane Gávio at Olympedia\n[…]\nGiovane Gávio at InterSportStats\n[…]\nInstituto Giovane Gávio (in Portuguese)\n[…]\nMedia related to Giovane Gávio at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Giovane_G%C3%A1vio",
+        "situacao": "ok",
+        "texto": "Giovane Farinazzo Gávio, mais conhecido apenas como Giovane (Juiz de Fora, 7 de setembro de 1970), é um treinador, gestor esportivo e ex-jogador de voleibol brasileiro. Bicampeão olímpico como atleta, em Barcelona 1992 e Atenas 2004, após encerrar a carreira dentro de quadra destacou-se por idealizar e construir sucessivos projetos de voleibol masculino no país.\n[…]\nÉ também fundador do Instituto Giovane Gávio e palestrante corporativo.\n[…]\nGiovane é casado e tem quatro filhos, Giulia, Gianmarco, Filipe e Thiago. Giulia Gávio também é jogadora de voleibol, com passagem pela seleção brasileira infantil.\n[…]\nA passagem de Giovane de jogador para dirigente e treinador ocorreu em Santa Catarina. Após encerrar a carreira como atleta na Unisul, em 2005, permaneceu no projeto da universidade em novas funções. Entre 2005 e 2007 atuou como gestor da equipe Unisul/São José, que conquistou o Campeonato Catarinense de 2005 e o bronze na Superliga 2005–06.\n[…]\nGiovane fundou e idealizou em abril de 2000, em Juiz de Fora, o Instituto Giovane Gávio, organização sem fins lucrativos que usa o esporte como ferramenta de educação e inclusão social, atualmente sediada no Rio de Janeiro. A presidência executiva do instituto está, desde 2024, sob outra liderança, com Giovane mantendo o papel de fundador e referência institucional.\n[…]\nDesde o fim da carreira como atleta, Giovane atua como palestrante corporativo, abordando temas como liderança, propósito, excelência no trabalho diário, inovação, mindset de crescimento, gestão de negócios, superação e disciplina, sempre ancorados em vivências de sua carreira esportiva. Suas apresentações costumam ter como fio condutor um recorte específico de doze anos de sua trajetória: da conquista do ouro olímpico em Barcelona 1992 até o segundo ouro, em Atenas 2004.\n[…]\n«Giovane Gávio» (em inglês). em Sports Reference\n[…]\n«Instituto Giovane Gávio»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Fofão",
+      "descricao": "Levantadora brasileira de vôlei, campeã olímpica em Pequim 2008."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quando enfim ganhou o ouro olímpico, em Pequim 2008, a levantadora Fofão estava disputando sua edição de número quantos dos Jogos?",
+    "resposta": "Quinta",
+    "distratores": [
+      "Terceira",
+      "Quarta",
+      "Sexta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/H%C3%A9lia_Souza"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/H%C3%A9lia_Souza",
+        "situacao": "ok",
+        "texto": "Hélia Rogério de Souza (born 10 March 1970), nicknamed Fofão, is a Brazilian female retired volleyball player who competed for her country's national team in five consecutive Summer Olympics, starting in 1992. She won a gold medal in 2008 and twice won a bronze medal, in 1996 and 2000. She also claimed the gold medal at the 1999 Pan American Games.\n[…]\nFofão retired from the Brazil national team on 7 September 2008, after helping her country beat Dominican Republic 3-0 and won the Final Four competition. From 1991, when she played her first game for Brazil, to 2008, she played 340 games for the national team.\n[…]\nFofão won the bronze medal at the 2010–11 CEV Champions League with Fenerbahçe Acıbadem.\n[…]\nFofão won the silver medal at the 2013 Club World Championship playing with Unilever Vôlei.\n[…]\nDuring the 2015 FIVB Club World Championship, Fofão played with the Brazilian club Rexona Ades Rio and her team lost the bronze medal match to the Swiss Voléro Zürich. At age 45, this was Fofao's last match, after which she announced her retirement.\n[…]\nGrupo 2002 Murcia (2007–2008)\n[…]\nSão Caetano/Blausiegel (2008–2010)\n[…]\n2008 Final Four Cup \"Most Valuable Player\"\n[…]\n2008 Final Four Cup \"Best Setter\"\n[…]\n2008 Summer Olympics \"Best Setter\"\n[…]\nHelia Rogerio de Souza Pinto at the European Volleyball Confederation\n[…]\nHelia Rogerio de Souza Pinto at FIVB.com\n[…]\nFofão (Hélia Rogério de Souza) at FIVB.org (2008 Women's Volleyball Olympic Games)\n[…]\nFofão (Hélia Rogério de Souza) at Italian League at the Wayback Machine (archived 5 July 2011) (in Italian)\n[…]\nFofão (Hélia Rogério de Souza) at UOL at the Wayback Machine (archived 30 November 2005) (in Portuguese)\n[…]\nFofão (Hélia Rogério de Souza) at the Comitê Olímpico do Brasil  (in Portuguese)\n[…]\nFofão (Hélia Rogério de Souza) at Olympedia\n[…]\nHelia Souza at Olympics.com\n[…]\nHélia Souza (Fofão) at Volleybox.net"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fof%C3%A3o_%28voleibolista%29",
+        "situacao": "ok",
+        "texto": "Hélia Rogério de Souza Pinto, mais conhecida como Fofão (São Paulo, 10 de março de 1970), é uma ex-jogadora de voleibol brasileira que atuava como levantadora. Pela Seleção Brasileira, de 1991 a 2008, disputou 340 partidas e esteve presente em cinco edições consecutivas dos Jogos Olímpicos, iniciando em 1992. É uma das atletas mais vitoriosas do vôlei brasileiro e junto de Thaísa Daher uma das dua\n[…]\nA partir de 1999, com a aposentadoria de Fernanda da seleção brasileira, ganhou a posição de titular em definitivo, integrando o grupo que obteve a medalha de prata no Grand Prix de 1999, ouro no Panamericano de Winnipeg no mesmo ano e a medalha de bronze nas Olimpíadas de Sydney, sendo eleita a melhor levantadora nas três competições.\n[…]\nFofão disputou ainda o Grand Prix de 2004 e os Jogos Olímpicos de Atenas. Após o quarto lugar nesta última competição, decidiu - a exemplo de Fernanda Venturini e Virna Dias, deixar em definitivo a seleção brasileira. Porém, em 2006, Fofão recebeu um novo convite do técnico José Roberto Guimarães para vestir novamente a camisa amarela. Aceitou e uniu-se a um grupo renovado, composto de jovens jogadoras, com uma nova metodologia de jogo e ânimo renovado.\n[…]\nAssim Fofão foi capitã e uma das principais atletas em uma sequência vitoriosa da seleção, culminando no ouro olímpico nos Jogos Olímpicos de Pequim 2008, em vários torneios sendo eleita melhor levantadora. Fofão despediu-se da Seleção Brasileira Feminina de Vôlei em setembro de 2008 conquistando a medalha de ouro no Torneio de Voleibol Final Four, em Fortaleza (Brasil), vencendo a equipe da República Dominicana por 3 x 0. Este foi o seu 340° jogo defendendo a camisa verde e amarela.\n[…]\nJogos Olímpicos de Pequim, 2008, medalha de ouro (melhor levantadora)\n[…]\nMelhor Levantadora dos Jogos Olímpicos-Sydney 2000\n[…]\nMelhor Levantadora dos Jogos Olímpicos-Pequim 2008\n[…]\nMelhor Levantadora do Final Four-Fortaleza 2008",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Ana Moser",
+      "descricao": "Ex-jogadora brasileira de vôlei, medalha de bronze olímpica em Atlanta 1996."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Ana Moser, ponteira da seleção bronze em Atlanta 1996, nasceu em que cidade catarinense de forte colonização alemã?",
+    "resposta": "Blumenau",
+    "distratores": [
+      "Joinville",
+      "Pomerode",
+      "Jaraguá do Sul"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ana_Moser"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ana_Moser",
+        "situacao": "ok",
+        "texto": "Ana Beatriz Moser (born 14 August 1968) is a Brazilian former volleyball player and three-time Olympian who played as an outside hitter. She helped make the Brazilian women's national volleyball team a dominant force in the 1990s. From January to September 2023, she served as minister of Sport, and was the first woman to hold the office since its creation in 1995.\n[…]\nMoser was a member of the Brazilian national volleyball team for over a decade, serving as the team captain and winning silver medals at the 1994 FIVB World Championship and 1995 FIVB World Cup. She then won squad's first Olympic medal at the 1996 Summer Olympics in Atlanta with a bronze medal. She participated in the 1999 FIVB World Cup, helping Brazil win the bronze medal and qualify for the 2000 Summer Olympics in Sydney, and announced her retirement shortly after the Olympics.\n[…]\nIn 2009, Moser was inducted into the International Volleyball Hall of Fame.\n[…]\nAfter retirement, Moser was involved in various sports-related social projects. In 2022, it was announced she would become the Minister of Sports in the incoming government of Luiz Inácio Lula da Silva. In September 2023, she was dismissed by President Lula from her position to make room for the centrão.\n[…]\n1996–97 Brazilian Superliga – \"Best Scorer\"\n[…]\nAna Moser at Olympics.com\n[…]\nOlympedia profile: Ana Moser"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ana_Moser",
+        "situacao": "ok",
+        "texto": "Ana Beatriz Moser (Blumenau, 14 de agosto de 1968) é uma ex-voleibolista brasileira e ex-ministra do Esporte do Brasil, cargo que exerceu de janeiro a setembro de 2023 - foi a primeira mulher a exercer o cargo desde a criação da pasta em 1995. Atualmente, Ana Moser ocupa um cargo de membro titular do conselho fiscal do Serviço Social do Comércio (Sesc).\n[…]\nAna Moser serviu à seleção brasileira que trouxe a primeira medalha olímpica para o voleibol feminino, a medalha de bronze, em Atlanta, 1996. Ela fez parte de uma geração de grandes jogadoras, dentre elas Fofão e Leila, que foi tricampeã do Grand Prix de Vôlei, e abriu caminho para conquistas futuras no esporte, inclusive a medalha de ouro, ao motivar outras jogadoras .A maior parte do tempo que esteve em quadra, atuando pela seleção, Ana Moser ocupou o posto de capitã.\n[…]\nDe origem alemã, nascida em Blumenau (SC), Ana Moser começou a jogar vôlei aos 7 anos de idade e aos 16 transferiu-se para São Paulo, após ter sido convocada pela primeira vez para a seleção infanto-juvenil. Integrou a seleção adulta em 1987, e participou de três edições de Jogos Olímpicos: Seul, em 1988,  Barcelona em 1992, e Atlanta, 1996..\n[…]\nAna também marcou em sua carreira por possuir um temperamento forte, um fato conhecido da atleta exemplifica tal afirmação, pois liderou um boicote ao técnico Wadson Lima em 1992 que a deixou um ano afastada da seleção, e foi um dos principais pivôs das discussões com a equipe cubana que levaram à pancadaria generalizada que se sucedeu à derrota do Brasil nas semifinais das Olimpíadas de Atlanta.\n[…]\nVice-campeã do Campeonato Sul-Americano de Clubes:1996\n[…]\nVice campeã da Superliga Brasileira A: 1996-97\n[…]\nMaior Pontuadora do Liga Nacional de Voleibol Feminino de 1996\n[…]\nMVP do Campeonato Sul-Americano de Clubes de Voleibol Feminino de 1996",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Bebeto de Freitas",
+      "descricao": "Técnico brasileiro de vôlei que comandou a seleção masculina prata em Los Angeles 1984 e depois foi dirigente de futebol."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Em 1998, o brasileiro Bebeto de Freitas foi campeão mundial de vôlei masculino como técnico de que seleção europeia?",
+    "resposta": "Itália",
+    "distratores": [
+      "Holanda",
+      "Espanha",
+      "Portugal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bebeto_de_Freitas",
+      "https://en.wikipedia.org/wiki/1998_FIVB_Volleyball_Men%27s_World_Championship"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bebeto_de_Freitas",
+        "situacao": "ok",
+        "texto": "Paulo Roberto de Freitas, best known as Bebeto (January 15, 1950 – March 13, 2018), was a Brazilian volleyball coach and football manager. He was the president of Botafogo FR football club.\n[…]\nIn 2015, Bebeto was inducted into the International Volleyball Hall of Fame.\n[…]\nAs a volleyball player, Bebeto competed in the volleyball tournaments at the 1972 Summer Olympics in Munich and the 1976 Summer Olympics in Montreal.\n[…]\nBebeto coached several Brazilian and Italian volleyball teams; as coach of Brazil men's national team, he won a silver medal at the 1984 Summer Olympics in Los Angeles. He won the 1998 FIVB World Championship with the Italian men's national team.\n[…]\nBebeto began his career as football manager for Clube Atlético Mineiro, moving to Botafogo in 2002, bringing the team back to Campeonato Brasileiro Série A in 2003.\n[…]\nBebeto was born in Rio de Janeiro. He died on March 13, 2018, of a heart attack inside the Atlético Mineiro training center. He was 68.\n[…]\nBebeto de Freitas at Olympedia\n[…]\nBebeto de Freitas at InterSportStats"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1998_FIVB_Volleyball_Men%27s_World_Championship",
+        "situacao": "ok",
+        "texto": "The 1998 FIVB Men's World Championship was the fourteenth edition of the tournament, organised by the world's governing body, the FIVB. It was held from 13 to 29 November 1998 in Fukuoka, Kobe, Sendai, Sapporo, Kawasaki, Uozu, Hiroshima, Osaka, Chiba, Hamamatsu, and Tokyo, Japan."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bebeto_de_Freitas",
+        "situacao": "ok",
+        "texto": "Paulo Roberto de Freitas (Rio de Janeiro, 16 de janeiro de 1950 — Vespasiano, 13 de março de 2018), conhecido como Bebeto de Freitas, foi um jogador e treinador de voleibol brasileiro, sobrinho do jornalista e treinador de futebol João Saldanha e primo por parte de pai do jogador de futebol Heleno de Freitas.\n[…]\nNo início dos anos 80 passou a dirigir a Seleção Masculina de Voleibol, sendo um dos protagonistas na transformação e identidade tática e técnica do voleibol brasileiro.\n[…]\nBebeto de Freitas foi um dos mais importantes jogadores de vôlei do Botafogo, tendo conquistado onze campeonatos cariocas de vôlei consecutivos (de 1965 até 1975), além de ter defendido a seleção brasileira nos Jogos Olímpicos de 1972, em Munique e nos Jogos Olímpicos de 1976 em Montreal.\n[…]\nTeve uma passagem de grande sucesso pelo voleibol italiano, dirigindo de 1990 a 1995, o Maxicono Parma – atual  Pallavolo Parma, onde conquistou cinco títulos (Campeonato Italiano 1991-1992 e 1992-1993, Copa Itália 1991-1992 e Copa CEV 1991-1992 e 1994-1995[carece de fontes]?).\n[…]\nDevido a este sucesso, foi convidado a treinar a seleção italiana em 1997 e 1998, sendo campeão da Liga Mundial de Voleibol de 1997, em Moscou e do Campeonato Mundial de Voleibol Masculino de 1998, na final com a Iugoslávia em Tóquio, com o resultado de 3 sets a 0.\n[…]\nBebeto de Freitas teve duas passagens como manager do Clube Atlético Mineiro, em 1999 e 2001 . Trabalhou durante a gestão do então presidente Nélio Brant em parceria com o presidente do Conselho Deliberativo e diretor de futebol Alexandre Kalil. Durante estas duas passagens, o clube obteve resultados expressivos. Foi Campeão Mineiro e Vice-Campeão brasileiro em 1999 e chegou ao 4º lugar no Campeonato Brasileiro de 2001.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Vôlei de praia nos Jogos Olímpicos de 2016",
+      "descricao": "Torneios olímpicos de vôlei de praia disputados no Rio de Janeiro em 2016."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No Rio 2016, a seleção masculina venceu a Itália na final da quadra. Na final do vôlei de praia, Alison e Bruno Schmidt venceram uma dupla de que país?",
+    "resposta": "Itália",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+        "situacao": "ok",
+        "texto": "The men's beach volleyball tournament at the 2016 Olympic Games in Rio de Janeiro, Brazil, took place at the Copacabana Stadium. The competition was held from 6 to 18 August 2016. Twenty four teams with 48 athletes around the world competed for the gold medal.\n[…]\nTwenty four teams were drawn in six pools of four teams. The top six teams from the FIVB beach volleyball Olympic ranking as of 12 June 2016 were seeded at the first row of each pools from pool A to F. The seventh to ninth from the ranking were drawn first in pool F, E, or D. Then, the tenth to twelfth were drawn in pool C, B, or A. The drawing of lots number three belonged the thirteenth to seventeenth teams. They were drawn in pool A to E.\n[…]\nThe losers from the lucky loser playoffs were tied seventeenth. The knockout stage followed the single-elimination format. The losers in the round of sixteen were ranked ninth. The four quarter-final losers finished fifth. The winners of the semi-finals competed for gold medals and the losers played for bronze medals.\n[…]\nBeach volleyball at the 2016 Summer Olympics – Women's tournament"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol_de_praia_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2016_-_Masculino",
+        "situacao": "ok",
+        "texto": "O torneio masculino de voleibol de praia nos Jogos Olímpicos de Verão de 2016 foi realizado na Arena Copacabana, montada na praia de mesmo nome, entre 6 de agosto e 19 de agosto.\n[…]\nOs brasileiros Alison Cerutti e Bruno Schmidt reconquistaram o ouro para o país ao superarem os italianos Daniele Lupo e Paolo Nicolai na final. A dupla neerlandesa Alexander Brouwer e Robert Meeuwsen levou a melhor na disputa pelo bronze frente aos russos Viacheslav Krasilnikov e Konstantin Semenov.\n[…]\nVinte e quatro duplas participaram da competição, sendo que cada Comitê Olímpico Nacional poderia enviar um máximo de duas duplas. As duplas foram divididas em seis grupos de quatro equipes cada, com as duas primeiras de cada grupo avançando a fase final. As duas melhores duplas terceiro colocadas nos grupos também avançaram, e as quatro restantes disputaram uma fase extra de play-offs (lucky losers) para determinar mais dois classificados, totalizando as 16 duplas nas oitavas de final.\n[…]\nA partir dessa etapa a competição foi realizada em eliminatória direta, com as quartas de final, semifinal e finais.\n[…]\nNa primeira fase disputaram-se seis grupos de quatro duplas cada. As duas primeiras duplas de cada grupo e as duas melhores terceiras seguiram diretamente às oitavas de final, enquanto as restantes disputaram os play-offs (lucky losers).\n[…]\nDas seis duplas que finalizaram a fase de grupos em terceiro lugar, duas se classificaram diretamente as oitavas de final. As quatro restantes disputaram essa fase a fim de determinar as outras duas duplas classificadas.\n[…]\nEsta foi a classificação final oficial.\n[…]\n«Torneios de voleibol de praia Rio 2016 na página da FIVB» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Ace",
+      "descricao": "Ponto do vôlei conquistado diretamente no saque, sem que o adversário consiga devolver a bola."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "No vôlei, que nome em inglês recebe o ponto conquistado direto no saque, quando o adversário nem consegue tocar ou devolver a bola?",
+    "resposta": "Ace",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball",
+        "situacao": "ok",
+        "texto": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules. It has been part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the program at the Atlanta 1996 Summer Olympics. The adapted version of volleyball at the Su"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nO primeiro contato com a bola após o saque é denominado recepção ou passe, e seu objetivo primordial é evitar que ela atinja uma área válida do campo. Segue-se então usualmente o levantamento, que procura colocar a bola no ar de modo a permitir que um terceiro jogador realize o ataque, ou seja, acerte-a de forma a fazê-la aterrissar na quadra adversária, conquistando deste modo o ponto.\n[…]\nO jogador bloqueia o saque adversário.\n[…]\nO jogador está fora de posição no momento do saque.\n[…]\nManchete é um golpe executado por um jogador de voleibol, realizado com os antebraços unidos e com os braços estendidos para que a bola não toque no chão. O jogador tentará receber o saque adversário efetuando um passe para o levantador. Erros resultam em pontos para o adversário, a manchete tem grande influência no jogo, sendo ela responsável pela defesa do saque e de cortadas.\n[…]\nQuando o jogador não levanta a bola para ser atacada por um de seus companheiros de equipe, mas decide lançá-la diretamente em direção à quadra adversária numa tentativa de conquistar o ponto rapidamente, diz-se que esta é uma \"bola de segunda\".\n[…]\nO ataque é, em geral, o terceiro contato de um time com a bola. O objetivo deste fundamento é fazer a bola aterrissar na quadra adversária, conquistando deste modo o ponto em disputa. Para realizar o ataque, o jogador dá uma série de passos contados (\"passada\"), salta e então projeta seu corpo para a frente, transferindo deste modo seu peso para a bola no momento do contato.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Largada",
+      "descricao": "Ataque do vôlei em que o jogador, em vez de cortar com força, toca a bola de leve por cima ou ao lado do bloqueio."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "No vôlei, como se chama o ataque em que o jogador finge que vai cortar, mas apenas encosta na bola e a deixa cair logo atrás do bloqueio?",
+    "resposta": "Largada",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Voleibol"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol",
+        "situacao": "ok",
+        "texto": "Voleibol, também conhecido pelas formas reduzidas vôlei (português brasileiro) e vólei (português europeu), é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette, devido à sua semelhança com o Badminton. Ele também tem alguns elementos de tênis e handebol e até beisebol porq\n[…]\nO jogador bloqueia o saque adversário.\n[…]\nLargada: refere-se a um ataque em que jogador não acerta a bola com força, mas antes toca-a levemente, procurando direcioná-la para uma região da quadra adversária que não esteja bem coberta pela defesa.\n[…]\nO bloqueio refere-se às ações executadas pelos jogadores que ocupam a parte frontal da quadra (posições 2-3-4) e que têm por objetivo impedir ou dificultar o ataque da equipe adversária. Elas consistem, em geral, em estender os braços acima do nível da rede com o propósito de interceptar a trajetória ou diminuir a velocidade de uma bola que foi cortada pelo oponente.\n[…]\nDenomina-se \"bloqueio ofensivo\" à situação em que os jogadores têm por objetivo interceptar completamente o ataque, fazendo a bola permanecer na quadra adversária. Para isto, é necessário saltar, estender os braços para dentro do espaço aéreo acima da quadra adversária e manter as mãos viradas em torno de 45-60° em direção ao punho.\n[…]\nUm bloqueio é chamado, entretanto, \"defensivo\" se tem por objetivo apenas tocar a bola e deste modo diminuir a sua velocidade, de modo a que ela possa ser melhor defendida pelos jogadores que se situam no fundo da quadra. Para a execução do bloqueio defensivo, o jogador reduz o ângulo de penetração dos braços na quadra adversária, e procura manter as palmas das mãos voltadas em direção à sua própria quadra.\n[…]\nDurante uma partida, um jogador dá de sessenta a oitenta saltos entre os saques, ataques e bloqueios. Alguns podem chegar a cem saltos."
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Mikasa",
+      "descricao": "Fabricante japonesa de artigos esportivos, conhecida pelas bolas de vôlei usadas em competições olímpicas."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "No fim dos anos noventa, a bola oficial de vôlei deixou de ser toda branca e ganhou faixas amarelas e azuis. Qual foi o principal motivo?",
+    "resposta": "Melhorar a visibilidade",
+    "distratores": [
+      "Reduzir o peso",
+      "Aumentar a aderência",
+      "Homenagear o patrocinador"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mikasa_Sports",
+      "https://en.wikipedia.org/wiki/Volleyball_(ball)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mikasa_Sports",
+        "situacao": "ok",
+        "texto": "Mikasa Corporation (Japanese: 株式会社 ミカサ, Hepburn: Kabushiki Kaisha Mikasa) is a Japanese sports equipment and athletic goods company with its international corporate headquarters located in Nishi-ku, Hiroshima, Chūgoku. Specializing in equipment for ball games, the balls manufactured by Mikasa for sports football, Korfball, basketball, volleyball, waterpolo and handball are often used for official \n[…]\nMikasa was founded in 1917 as the Hiroshima Gomu Corporation (\"Hiroshima Rubber Corporation\"). The company began its life producing many different types of rubber products, such as flip-flops and dodgeballs. It began using the Mikasa brand name on its sports products in 1935, and in the early 1940s was consolidated with a number of rival rubber companies.\n[…]\nFollowing World War II, the company grew rapidly: Mikasa volleyballs made their Olympic debut at the 1964 Tokyo Olympics, and in the 1970s the company began to expand globally. Since 1980, Mikasa has also produced the official Olympic water polo ball.\n[…]\nThe ITUC argued that Mikasa succeeded in either forcing the resignation of most of the factory's union committee in an affront to the right of its employees to organize. The Thai Labor Campaign alleged that new Mikasa factory workers received only 173 baht per day. (equivalent to $4.36 per day in 2006)\n[…]\nMikasa makes many different types of balls, including goods for basketball, beach and indoor volleyball, football, rugby union, waterpolo, korfball, American football and rugby football (the last two are available solely in the United States).\n[…]\nSports sponsor factbook, Team Marketing Report, Inc., 1999, p. 623.\n[…]\nAmerican Commercial Inc. d/b/a Mikasa and Mikasa Licensing, Inc. v. Sports and Leisure International d/b/a Mikasa Sports, Civil Action No. 96–713LHM (U.S.D.C. C.D. Cal.)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_(ball)",
+        "situacao": "ok",
+        "texto": "A volleyball is a ball used to play indoor volleyball, beach volleyball, or other less common variations of the sport. Volleyballs are spherical in shape and typically comprise eighteen nearly rectangular panels made from synthetic or genuine leather. These panels are organized into six identical sections, each consisting of three panels. They are carefully wrapped around a bladder to form the com\n[…]\nIn a break from the traditional construction, in 2008, the FIVB adopted as its official indoor ball a new Mikasa with dimples and only eight panels for a softer touch and truer flight.\n[…]\nMikasa\n[…]\nMikasa makes the official balls of the Fédération Internationale de Volleyball and the CEV - European Volleyball Confederation (beach and indoor).\n[…]\nCEV and Mikasa unveil new Champions League volleyball in Vienna"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mikasa_Sports",
+        "situacao": "ok",
+        "texto": "Mikasa Corporation (株式会社 ミカサ, Kabushiki Kaisha Mikasa), é uma empresa japonesa de equipamentos esportivos e artigos esportivos com sede corporativa internacional localizada em Nishi-ku, Hiroshima, Chūgoku. Especializada em equipamentos para jogos com bola, as bolas fabricadas pela Mikasa para modalidades esportivas de futebol, corfebol, basquete, vôlei, polo aquático e handebol são frequentemente \n[…]\nMais notavelmente, as bolas de vôlei Mikasa são as bolas oficiais para todas as competições mundiais da Fédération Internationale de Volleyball (Federação Internacional de Voleibol) e várias ligas domésticas fora da América do Norte. A bola de vôlei Mikasa é a bola oficial das Olimpíadas . Atualmente, clubes, regiões, escolas secundárias, faculdades e torneios nos Estados Unidos usam as bolas de vôlei Mikasa.\n[…]\nApós a Segunda Guerra Mundial, a empresa cresceu rapidamente: as bolas de vôlei Mikasa fizeram sua estreia olímpica nas Olimpíadas de Tóquio em 1964 e, na década de 1970, a empresa começou a se expandir globalmente. Desde 1980, a Mikasa também produz a bola oficial de pólo aquático olímpico.\n[…]\nA Mikasa fabrica muitos tipos diferentes de bolas, incluindo produtos para basquete, vôlei de praia e de salão, futebol, rugby, waterpolo, korfball, futebol americano e rugby football . (Os dois últimos estão disponíveis apenas nos Estados Unidos )\n[…]\nA Mikasa tem sido fornecedora oficial de bolas para as seguintes ligas e associações, além de ter acordos de exclusividade com alguns atletas de destaque:\n[…]\nAmerican Commercial Inc. d/b/a Mikasa e Mikasa Licensing, Inc. v. Sports and Leisure International d/b/a Mikasa Sports, Ação Civil No. 96–713LHM (USDCCD Cal. ).\n[…]\nMikasa USA",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Vôlei masculino nos Jogos Olímpicos de 2000",
+      "descricao": "Torneio masculino de vôlei de quadra dos Jogos de Sydney, em 2000."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nos Jogos de Sydney, em 2000, o ouro do vôlei masculino ficou com uma seleção de um país que depois deixou de existir. Qual?",
+    "resposta": "Iugoslávia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volleyball_at_the_2000_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volleyball_at_the_2000_Summer_Olympics_%E2%80%93_Men%27s_tournament",
+        "situacao": "ok",
+        "texto": "The men's tournament in volleyball at the 2000 Summer Olympics was the 10th edition of the event at the Summer Olympics, organized by the world's governing body, the FIVB in conjunction with the IOC. It was held in Sydney, Australia from 17 September to 1 October 2000.\n[…]\nTeams were seeded following the serpentine system according to their FIVB World Ranking as of January 2000. FIVB reserved the right to seed the hosts as head of pool A regardless of the World Ranking. Rankings are shown in brackets except the hosts.\n[…]\nFinal Standing (1964–2000)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voleibol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2000_-_Masculino",
+        "situacao": "ok",
+        "texto": "O torneio masculino de voleibol nos Jogos Olímpicos de Verão de 2000 foi realizado no Sydney Entertainment Centre, Sydney, entre 17 de setembro e 1 de agosto e organizado pela Federação Internacional de Voleibol (FIVB) em conjunto com o Comitê Olímpico Internacional (COI).\n[…]\nA Iugoslávia foi campeã olímpica de voleibol, derrotando a Rússia na final. A Itália ganhou o bronze frente à Argentina.\n[…]\nA distribuição das equipes pelos grupos é realizada pelo sistema de serpentina baseando-se na posição das equipes no ranking da FIVB em janeiro de 2000.\n[…]\nNa fase final as seleções disputaram, no máximo, mais três jogos (para as equipas que discutiram as medalhas), em formato de eliminatória.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Liga Mundial de Voleibol",
+      "descricao": "Torneio anual de seleções masculinas de vôlei organizado pela federação internacional entre 1990 e 2017."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A Liga Mundial de vôlei masculino estreou em 1990, antes da era de ouro brasileira. Que seleção venceu essa primeira edição?",
+    "resposta": "Itália",
+    "distratores": [
+      "Cuba",
+      "Holanda",
+      "União Soviética"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/FIVB_Volleyball_World_League"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/FIVB_Volleyball_World_League",
+        "situacao": "ok",
+        "texto": "The FIVB Volleyball World League was an annual international men's volleyball competition. Created in 1990, it was the longest and richest of all the international events organized by the Fédération Internationale de Volleyball (FIVB). The women's version of the competition was called FIVB Volleyball World Grand Prix. This event should not be confused with the other international volleyball compet\n[…]\nFrom 2018, the World League and World Grand Prix was replaced by the men's and women's Nations League and men's and women's Challenger Cup.\n[…]\nThe World League was created in 1990 as part of the intensive marketing programme that would become a distinctive mark of the FIVB's activities near the end of the century. The idea was to promote the sport of volleyball by establishing an annual competition that would appeal to audiences all over the world.\n[…]\nIn the 1990s, the Italians dominated the World League, winning the first three tournaments in 1990, 1991 and 1992. Playing at home, Brazil, at the time the Olympic champions, managed to take the gold in 1993, but Italy regained the title in 1994 and 1995.\n[…]\nAs can be seen, Italy were clearly the dominant team in the first decade of the World League: from 1990 to 2000, the World League was played 11 times, and Italy took gold eight times, while the remaining three titles were won by three different teams.\n[…]\nItaly's supremacy in the World League began to wane in 2001, when Brazil won a second gold medal, beating the Italians in three straight sets. With further titles each year from 2003 to 2007, and winning another titles in 2009 and 2010, the Brazilians were the preeminent at the start of the 21st century, being also World and Olympic Champions.\n[…]\nBrazil and Italy are the only teams that participated in all editions of the World League.\n[…]\nFIVB Volleyball World League – official website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Liga_Mundial_de_Voleibol",
+        "situacao": "ok",
+        "texto": "A Liga Mundial de Voleibol foi uma competição anual de voleibol masculino. Criado em 1990, o torneio era o mais longo e mais rico dentre todos os eventos internacionais organizados pela FIVB. Em 2011, foram distribuídos vinte milhões de dólares entre os times participantes.\n[…]\nNos anos 1990, a Itália dominou completamente a Liga Mundial, vencendo logo as três primeiras edições do torneio: 1990, 1991 e 1992. Sediando a fase final, o Brasil - então campeão olímpico - conseguiu conquistar o ouro em 1993, mas os italianos retornaram ao lugar mais alto do pódio em 1994 e 1995.\n[…]\nOs números não deixam margem a dúvidas: entre 1990 e 2000, foram jogadas 11 edições da Liga Mundial. A Itália conquistou o ouro oito vezes, e cada uma das outras três edições do torneio foi conquistada por um time diferente.\n[…]\nA supremacia italiana na Liga Mundial começou a desvanecer em 2001, quando o Brasil conquistou pela segunda vez o torneio em sets diretos. Com mais sete títulos, em 2003, 2004, 2005, 2006, 2007, 2009 e 2010, os brasileiros despontaram como a nova força do século XXI.\n[…]\nApós a vitória da Polônia em 2012, que venceu a Liga Mundial pela única vez, Rússia e Brasil voltaram a realizar a final da competição em 2013 com nova vitória russa, totalizando o segundo título em três anos. Em 2014 o Brasil chegou a sua terceira final nas últimas quatro edições, mas foi novamente derrotado, dessa vez para os Estados Unidos que obtiveram seu segundo título.\n[…]\nA França ingressou no grupo de seleções campeãs ao derrotar a Sérvia e conquistar seu primeiro título da Liga Mundial em 2015, sendo a última vencedora da competição com o triunfo de 2017. Em 2016, após ter perdido o título em cinco oportunidades, a Sérvia conquistou sua única medalha de ouro.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Duda Lisboa",
+      "descricao": "Jogadora brasileira de vôlei de praia, campeã olímpica com Ana Patrícia em Paris 2024."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A campeã olímpica de vôlei de praia em Paris 2024 é conhecida como Duda. De que nome de batismo vem esse apelido?",
+    "resposta": "Eduarda",
+    "distratores": [
+      "Maria Eduarda",
+      "Daniela",
+      "Dulce"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Duda_Lisboa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Duda_Lisboa",
+        "situacao": "ok",
+        "texto": "Eduarda \"Duda\" dos Santos Lisboa (Brazilian Portuguese pronunciation: [eduˈaʁdɐ ˈdudɐ dus ˈsɐ̃tus lizˈboɐ]; born 1 August 1998) is a Brazilian beach volleyball player. She is the gold medalist at the 2024 Summer Olympics. She is also a two-time U21 World champion (2016, 2017) and three-time U19 World champion (2013, 2014, 2016). She has won four World Tour events and reached thirteen podiums in th\n[…]\nLisboa plays as a right-side defender.\n[…]\nMedia related to Eduarda Santos Lisboa at Wikimedia Commons\n[…]\nEduarda Santos Lisboa at FIVB.com\n[…]\nEduarda Santos Lisboa at Beach Volleyball Database\n[…]\nEduarda Santos Lisboa at Olympics.com\n[…]\nEduarda Santos Lisboa at the Brazilian Olympic Committee (in Portuguese)\n[…]\nEduarda Santos Lisboa at Olympedia\n[…]\nEduarda Santos Lisboa at InterSportStats\n[…]\nDuda at Confederação Brasileira de Voleibol (in Portuguese)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Duda_Lisboa",
+        "situacao": "ok",
+        "texto": "Eduarda dos Santos \"Duda\" Lisboa, (Aracaju, 1 de agosto de 1998) é uma voleibolista brasileira praticante da modalidade de vôlei de praia.\n[…]\nA trajetória de Duda no voleibol  de praia ocorreu precocemente, seguindo sua mãe Cida Lisboa, que disputou a modalidade e depois foi treinadora, e com apenas 9 anos entrou no esporte. Destacando-se na modalidade, sua mãe a inscreveu na décima sexta etapa de Aracaju  válida pelo Grupo 1 do Circuito Estadual de Vôlei de Praia em 2011, terminando na quinta colocação e  sua mãe em terceiro, sendo que Duda competiu na referida ocasião ao lado de Mônica Silva.\n[…]\nCom Elize Maia alcançou a quinta colocação na etapa de Campo Grande pelo Circuito Brasileiro de Vôlei de Praia Open 2016-17, no mesmo circuito alcançou a décima terceira posição com Tainá Bigi na etapa de Brasília e com esta atleta conquistou o bronze na etapa de Uberlândia, o quinto lugar na etapa de Curitiba; e visando o novo ciclo olímpico formou dupla com Ágatha Bednarczuk e tendo como técnica Letícia Pessoa na etapa de João Pessoa e nesta ocasião conquistou o título, foram vice-campeãs na etapa de Maceió e também em Aracaju e finalizando com o bronze na etapa de Vitória, juntas ainda sagraram-se campeãs da edição do Superpraia de 2017 em Niterói.\n[…]\nAo lado de Ágatha Bednarczuk iniciou a temporada 2017-18 do Circuito Brasileiro de Vôlei de Praia Open alcançando o quarto lugar na etapa de Campo Grande, vice-campeãs na etapa de Natal e o bronze na etapa de Itapema.\n[…]\nEm 2024, ao lado de Ana Patrícia, conquistou o ouro nos Jogos Olímpicos de Verão de 2024 em Paris.\n[…]\nDesafio Gigantes da Praia de 2017\n[…]\nDuda Lisboa em Olympics.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.94 — 2026-11-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **3 perguntas por âncora** em cada lote (2 até 2026-10-27), nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **8 perguntas por âncora** no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27), somando texto e figura, e no máximo **3 com figura** (2 até 2026-10-27). As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas. Essas perguntas têm um teto no jogo original (§9).
+- **Metade aberta, metade múltipla escolha** (desde 2026-10-27). O jogo original busca as duas formas na mesma proporção, em cada tema, para que um modo só de múltipla escolha tenha perguntas de todos os temas. Vale para texto e figura. Cada lote recebe a quantidade de `multipla` que aproxima o seu tema dessa meta (§17), e a pergunta segue a quantidade pedida, salvo quando a outra forma for claramente melhor.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **três perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master e Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 8 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- **Respostas que são um ano específico** ("1969", "800 a.C."), somando abertas e múltiplas: no máximo **9%** das perguntas do lote, e no máximo **uma** num lote de figuras, que tem 12 itens (desde 2026-10-30, só no jogo original). Para pedir a época, prefira o século, a década ou a ordem entre dois fatos. O registro descarta o que passar do teto; as perguntas que já estavam no banco ficam.
+- No máximo **3 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já tenham perguntas, a âncoras novas e obscuras (desde 2026-10-27; antes, "prefira âncoras novas"). O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para aprofundá-las com fatos e ângulos novos, sem repetir fatos.
+- **Tentar incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as centrais, para manter alguma variedade. Se for difícil achar uma assim, o lote fica sem: uma âncora nova obscura não vale a troca.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

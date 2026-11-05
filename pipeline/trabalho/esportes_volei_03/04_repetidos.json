@@ -1,0 +1,708 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Como técnico, entre Atlanta 1996 e o Rio 2016, Bernardinho levou seleções brasileiras ao pódio olímpico em quantas edições seguidas dos Jogos?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q01701",
+          "pergunta": "Antes de ser campeão olímpico como técnico, Bernardinho subiu ao pódio olímpico como levantador. Em que edição dos Jogos?",
+          "resposta": "Los Angeles 1984"
+        },
+        {
+          "id": "q07121",
+          "pergunta": "Antes de assumir a seleção masculina, Bernardinho conquistou duas medalhas de bronze olímpicas como técnico de que equipe?",
+          "resposta": "Seleção feminina brasileira"
+        },
+        {
+          "id": "q15376",
+          "pergunta": "Em que edição dos Jogos Olímpicos este técnico brasileiro conquistou seu primeiro ouro?",
+          "resposta": "Atenas 2004"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No vôlei de quadra adulto, a rede masculina fica a 2,43 metros do chão. Qual é a altura oficial da rede feminina?",
+        "resposta": "2,24 metros"
+      },
+      "existentes": [
+        {
+          "id": "q01727",
+          "pergunta": "Qual é a altura oficial da rede no vôlei de quadra masculino adulto?",
+          "resposta": "2,43 metros"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1895, para inventar o vôlei, William Morgan pegou emprestada a rede de outro esporte e a ergueu bem mais alto. Que esporte?",
+        "resposta": "Tênis"
+      },
+      "existentes": [
+        {
+          "id": "q01727",
+          "pergunta": "Qual é a altura oficial da rede no vôlei de quadra masculino adulto?",
+          "resposta": "2,43 metros"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Na quadra de vôlei, a linha que separa a zona de ataque da zona de defesa fica a quantos metros da rede?",
+        "resposta": "Três metros"
+      },
+      "existentes": [
+        {
+          "id": "q07112",
+          "pergunta": "A quadra oficial do vôlei mede dezoito metros de comprimento. Quantos metros ela tem de largura?",
+          "resposta": "Nove metros"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No rodízio do vôlei de quadra, o jogador que vai sacar é quem ocupa a posição um. Onde fica essa posição?",
+        "resposta": "No fundo, à direita"
+      },
+      "existentes": [
+        {
+          "id": "q07119",
+          "pergunta": "No vôlei de quadra, quando um time recupera o direito de sacar, seus jogadores giram de posição. Em que sentido?",
+          "resposta": "Horário"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Pelas regras da federação internacional, o líbero não pode bloquear nem atacar acima da altura da rede. Que outro fundamento ele também não pode executar?",
+        "resposta": "Sacar"
+      },
+      "existentes": [
+        {
+          "id": "q01686",
+          "pergunta": "O jogador de defesa que usa camisa de cor diferente no vôlei tem um nome vindo do italiano. O que essa palavra significa?",
+          "resposta": "Livre"
+        },
+        {
+          "id": "q01687",
+          "pergunta": "Em 1998, a federação internacional de vôlei criou a posição do líbero. Que mudança no jogo ela buscava?",
+          "resposta": "Ralis mais longos"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Criada pela federação internacional em 1998, a posição do líbero estreou nos Jogos Olímpicos em que edição?",
+        "resposta": "Sydney 2000"
+      },
+      "existentes": [
+        {
+          "id": "q01686",
+          "pergunta": "O jogador de defesa que usa camisa de cor diferente no vôlei tem um nome vindo do italiano. O que essa palavra significa?",
+          "resposta": "Livre"
+        },
+        {
+          "id": "q01687",
+          "pergunta": "Em 1998, a federação internacional de vôlei criou a posição do líbero. Que mudança no jogo ela buscava?",
+          "resposta": "Ralis mais longos"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No vôlei de quadra, os quatro primeiros sets vão a vinte e cinco pontos. Até quantos pontos vai o quinto set, o tie-break?",
+        "resposta": "Quinze"
+      },
+      "existentes": [
+        {
+          "id": "q01688",
+          "pergunta": "Até 1999, no vôlei, só pontuava quem estava sacando. Por que se passou a dar ponto em todo rali?",
+          "resposta": "Partidas com duração previsível para a TV"
+        },
+        {
+          "id": "q07111",
+          "pergunta": "Antes da pontuação por rali, adotada em 1999, um set comum de vôlei terminava quando um time chegava a quantos pontos?",
+          "resposta": "Quinze"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Fundada em Paris em 1947, a federação internacional de vôlei transferiu sua sede nos anos oitenta para que cidade suíça?",
+        "resposta": "Lausanne"
+      },
+      "existentes": [
+        {
+          "id": "q01725",
+          "pergunta": "A Federação Internacional de Vôlei foi fundada em 1947 em que capital europeia?",
+          "resposta": "Paris"
+        },
+        {
+          "id": "q07104",
+          "pergunta": "A sigla da federação internacional de vôlei, efe i vê bê, abrevia um nome escrito em que língua?",
+          "resposta": "Francês"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No vôlei sentado paralímpico, a rede é bem mais baixa que no vôlei comum. Qual é a altura oficial da rede masculina?",
+        "resposta": "1,15 metro"
+      },
+      "existentes": [
+        {
+          "id": "q01724",
+          "pergunta": "O vôlei sentado, jogado por atletas com deficiência e hoje paralímpico, surgiu em 1956 em que país europeu?",
+          "resposta": "Holanda"
+        },
+        {
+          "id": "q07096",
+          "pergunta": "Depois de uma demonstração em 1976, em que ano o vôlei sentado masculino passou a dar medalhas nos Jogos Paralímpicos?",
+          "resposta": "1980"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O vôlei de praia jogado em duplas, como o das Olimpíadas, surgiu entre os anos vinte e trinta em que praia da Califórnia?",
+        "resposta": "Santa Monica"
+      },
+      "existentes": [
+        {
+          "id": "q01690",
+          "pergunta": "No vôlei de praia, as duplas trocam de lado da quadra várias vezes durante cada set. Por quê?",
+          "resposta": "Equilibrar o efeito do vento e do sol"
+        },
+        {
+          "id": "q01691",
+          "pergunta": "No vôlei de praia, ao contrário do vôlei de quadra, que fundamento passa a contar como um dos três toques da equipe?",
+          "resposta": "Bloqueio"
+        },
+        {
+          "id": "q07113",
+          "pergunta": "No vôlei de praia, os dois primeiros sets de uma partida terminam quando uma dupla alcança quantos pontos?",
+          "resposta": "Vinte e um"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Campeão olímpico com Ricardo em 2004, Emanuel voltou a uma final olímpica em Londres 2012 e ficou com a prata. Quem era seu parceiro?",
+        "resposta": "Alison Cerutti"
+      },
+      "existentes": [
+        {
+          "id": "q07078",
+          "pergunta": "Campeão olímpico de vôlei de praia em Atenas 2004, Emanuel Rego é natural de que capital do Sul do país?",
+          "resposta": "Curitiba"
+        },
+        {
+          "id": "q17348",
+          "pergunta": "Que jogador brasileiro de vôlei de praia é este?",
+          "resposta": "Emanuel Rego"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Campeã olímpica em Atlanta, Sandra Pires voltou ao pódio em Sydney 2000, com o bronze no vôlei de praia. Quem era sua parceira?",
+        "resposta": "Adriana Samuel"
+      },
+      "existentes": [
+        {
+          "id": "q01705",
+          "pergunta": "Em Atlanta 1996, Jacqueline Silva e Sandra Pires conquistaram algo que nenhuma brasileira tinha conquistado antes. O quê?",
+          "resposta": "Medalha de ouro olímpica"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na primeira final olímpica do vôlei de praia feminino, em Atlanta 1996, Adriana Samuel ficou com a prata. Quem era sua parceira de dupla?",
+        "resposta": "Mônica Rodrigues"
+      },
+      "existentes": [
+        {
+          "id": "q01704",
+          "pergunta": "Adriana Samuel, prata no vôlei de praia em Atlanta 1996, é irmã de que campeão olímpico de vôlei de Barcelona 1992?",
+          "resposta": "Tande"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Shelda Bede, duas vezes prata olímpica no vôlei de praia ao lado de Adriana Behar, nasceu em que capital nordestina?",
+        "resposta": "Fortaleza"
+      },
+      "existentes": [
+        {
+          "id": "q07115",
+          "pergunta": "Ao lado de Shelda, que jogadora conquistou as medalhas de prata no vôlei de praia olímpico em Sydney 2000 e Atenas 2004?",
+          "resposta": "Adriana Behar"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em Londres 2012, Larissa conquistou sua medalha olímpica, um bronze no vôlei de praia, com a parceira de tantos títulos no circuito mundial. Quem?",
+        "resposta": "Juliana Silva"
+      },
+      "existentes": [
+        {
+          "id": "q09282",
+          "pergunta": "Que jogadora brasileira de vôlei de praia é esta?",
+          "resposta": "Larissa França"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "A oposta Paola Egonu, estrela da seleção italiana de vôlei, nasceu na Itália, filha de imigrantes de que país africano?",
+        "resposta": "Nigéria"
+      },
+      "existentes": [
+        {
+          "id": "q13939",
+          "pergunta": "Quem é esta jogadora italiana de vôlei?",
+          "resposta": "Paola Egonu"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "No torneio olímpico de vôlei feminino de Paris 2024, vencido pela Itália, que oposta italiana foi eleita a melhor jogadora da competição?",
+        "resposta": "Paola Egonu"
+      },
+      "existentes": [
+        {
+          "id": "q01710",
+          "pergunta": "Que país conquistou o ouro no vôlei feminino de quadra nos Jogos de Paris, em 2024?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Nascido em Cuba, o ponteiro Wilfredo León ganhou a medalha de prata olímpica em Paris 2024 defendendo que seleção?",
+        "resposta": "Polônia"
+      },
+      "existentes": [
+        {
+          "id": "q13976",
+          "pergunta": "Quem é este ponta de vôlei?",
+          "resposta": "Wilfredo León"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Que feito nos Mundiais masculinos de vôlei a Itália dos anos noventa e o Brasil de 2002 a 2010 têm em comum?",
+        "resposta": "Três títulos mundiais seguidos"
+      },
+      "existentes": [
+        {
+          "id": "q01708",
+          "pergunta": "Como ficou conhecida pela imprensa a seleção masculina da Itália que dominou o vôlei mundial nos anos noventa, sob o comando de Julio Velasco?",
+          "resposta": "Geração de Fenômenos"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Na cerimônia de abertura dos Jogos de Tóquio, ao lado da judoca Ketleyn Quadros, que jogador de vôlei carregou a bandeira do Brasil?",
+        "resposta": "Bruninho"
+      },
+      "existentes": [
+        {
+          "id": "q01700",
+          "pergunta": "Filho do técnico Bernardinho, o levantador Bruninho também é filho de que ex-jogadora da seleção feminina de vôlei?",
+          "resposta": "Vera Mossa"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "De Atenas 2004 ao Rio 2016, o líbero Serginho subiu ao pódio olímpico com a seleção em todas as edições. Quantas medalhas olímpicas ele somou?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q07117",
+          "pergunta": "Na Rio 2016, aos quarenta anos, Serginho foi eleito o melhor jogador do torneio olímpico de vôlei. Em que posição ele jogava?",
+          "resposta": "Líbero"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Giba, ponteiro campeão olímpico em Atenas e um dos maiores ídolos do vôlei brasileiro, nasceu em que cidade do norte do Paraná?",
+        "resposta": "Londrina"
+      },
+      "existentes": [
+        {
+          "id": "q01664",
+          "pergunta": "Este ex-ponteiro de vôlei foi campeão olímpico com a seleção brasileira em que ano?",
+          "resposta": "2004"
+        },
+        {
+          "id": "q15047",
+          "pergunta": "Quem é este ex-jogador de vôlei brasileiro?",
+          "resposta": "Giba"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Mesmo com a derrota do Brasil na final de Londres 2012, um ponteiro brasileiro foi eleito o melhor jogador do torneio olímpico. Quem?",
+        "resposta": "Murilo Endres"
+      },
+      "existentes": [
+        {
+          "id": "q07094",
+          "pergunta": "Na final olímpica de Londres, em 2012, o Brasil vencia por dois sets a zero e teve match points, mas levou a virada. De que seleção?",
+          "resposta": "Rússia"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Na virada do milênio, a federação internacional de vôlei elegeu o melhor jogador do século vinte, um americano campeão olímpico na quadra e na areia. Quem?",
+        "resposta": "Karch Kiraly"
+      },
+      "existentes": [
+        {
+          "id": "q01728",
+          "pergunta": "O americano Karch Kiraly foi campeão olímpico de vôlei de quadra em 1984 e 1988. Em 1996, voltou a ser campeão olímpico em que modalidade?",
+          "resposta": "Vôlei de praia"
+        },
+        {
+          "id": "q07098",
+          "pergunta": "Já como técnico, Karch Kiraly levou a seleção feminina de vôlei dos Estados Unidos ao seu primeiro ouro olímpico. Em que edição dos Jogos?",
+          "resposta": "Tóquio 2020"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Em Pequim 2008, jogando em casa, a chinesa Lang Ping foi técnica da seleção de outro país no vôlei feminino e levou a prata. Qual país?",
+        "resposta": "Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q01714",
+          "pergunta": "Pela potência de seu ataque, a chinesa Lang Ping, campeã olímpica de vôlei em 1984, ganhou que apelido?",
+          "resposta": "Martelo de Ferro"
+        },
+        {
+          "id": "q01715",
+          "pergunta": "Lang Ping foi campeã olímpica de vôlei como jogadora em 1984. Em que edição dos Jogos ela venceu como técnica da China?",
+          "resposta": "Rio 2016"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "No mangá e anime Haikyu, quem é o protagonista baixinho que compensa a altura com saltos enormes no time do colégio Karasuno?",
+        "resposta": "Shoyo Hinata"
+      },
+      "existentes": [
+        {
+          "id": "q07102",
+          "pergunta": "O título do mangá japonês Haikyu, sobre um time colegial que sonha com o campeonato nacional, é a palavra japonesa para que esporte?",
+          "resposta": "Vôlei"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Ao lado do levantador Maurício, que outro jogador esteve tanto no ouro olímpico de Barcelona 1992 quanto no de Atenas 2004?",
+        "resposta": "Giovane Gávio"
+      },
+      "existentes": [
+        {
+          "id": "q15486",
+          "pergunta": "Que ex-jogador brasileiro de vôlei, bicampeão olímpico, é este?",
+          "resposta": "Giovane Gávio"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Quando enfim ganhou o ouro olímpico, em Pequim 2008, a levantadora Fofão estava disputando sua edição de número quantos dos Jogos?",
+        "resposta": "Quinta"
+      },
+      "existentes": [
+        {
+          "id": "q01707",
+          "pergunta": "Por que apelido ficou conhecida a levantadora Hélia Souza, campeã olímpica com a seleção brasileira em Pequim 2008?",
+          "resposta": "Fofão"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Ana Moser, ponteira da seleção bronze em Atlanta 1996, nasceu em que cidade catarinense de forte colonização alemã?",
+        "resposta": "Blumenau"
+      },
+      "existentes": [
+        {
+          "id": "q01729",
+          "pergunta": "Ana Moser, bronze olímpico com a seleção feminina de vôlei em 1996, assumiu em 2023 que ministério do governo federal?",
+          "resposta": "Ministério do Esporte"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Em 1998, o brasileiro Bebeto de Freitas foi campeão mundial de vôlei masculino como técnico de que seleção europeia?",
+        "resposta": "Itália"
+      },
+      "existentes": [
+        {
+          "id": "q07107",
+          "pergunta": "Técnico da seleção masculina de vôlei que ganhou a prata em 1984, Bebeto de Freitas foi depois presidente de que clube carioca de futebol?",
+          "resposta": "Botafogo"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Na final do vôlei de praia masculino do Rio 2016, Alison e Bruno Schmidt venceram uma dupla de que país?",
+        "resposta": "Itália"
+      },
+      "existentes": [
+        {
+          "id": "q01719",
+          "pergunta": "Na Olimpíada do Rio, em 2016, em que praia carioca foi montada a arena do vôlei de praia?",
+          "resposta": "Copacabana"
+        },
+        {
+          "id": "q07106",
+          "pergunta": "Em Londres 2012 e no Rio 2016, duplas brasileiras perderam finais olímpicas de vôlei de praia para duplas do mesmo país. Qual?",
+          "resposta": "Alemanha"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "A Liga Mundial de vôlei masculino estreou em 1990, antes da era de ouro brasileira. Que seleção venceu essa primeira edição?",
+        "resposta": "Itália"
+      },
+      "existentes": [
+        {
+          "id": "q07099",
+          "pergunta": "A Liga Mundial, torneio anual de seleções masculinas de vôlei que marcou época na TV brasileira, teve sua primeira edição em que ano?",
+          "resposta": "1990"
+        },
+        {
+          "id": "q07100",
+          "pergunta": "A Liga Mundial de vôlei masculino deixou de existir em 2017. Quantas vezes o Brasil foi campeão dela?",
+          "resposta": "Nove"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Rede feminina é outro fato; a masculina é dada no enunciado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Esporte de origem da rede, outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Linha de ataque, não dimensões da quadra."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Posição do sacador, não sentido do rodízio."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Restrição do líbero, outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Estreia olímpica, outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tie-break de 15 é diferente do set comum antigo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sede atual, outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Altura da rede no vôlei sentado, outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Local de origem, outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Parceiro em 2012, outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Parceira no bronze em 2000, outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Parceira da prata, outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Naturalidade de Shelda, outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Parceira de Larissa, outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Origem dos pais, outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "MVP, não o campeão."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Seleção de León, outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Feito em comum, outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Porta-bandeira, outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Número de medalhas, outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Naturalidade, outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "MVP de 2012, outro fato."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Melhor do século, outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Lang Ping técnica dos EUA em 2008, outro fato."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Protagonista, outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Jogador em ambos os ouros; existente apenas pede identificação por imagem, mas resposta igual... fato diferente de reconhecimento."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Número da edição, outro fato."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Naturalidade, outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Técnico da Itália em 1998, outro fato."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Adversário da final de 2016, outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Campeão da primeira edição, outro fato."
+    }
+  ]
+}
