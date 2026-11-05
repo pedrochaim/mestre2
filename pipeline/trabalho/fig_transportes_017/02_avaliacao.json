@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A palavra POLICE e o lema aparecem escritos no carro e entregam a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Karmann Ghia reconhecível pelas linhas, sem texto que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década começou a ser produzido este cupê esportivo alemão?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1940",
+        "Década de 1960"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Volkswagen Karmann Ghia",
+        "descricao": "Família de cupês e conversíveis esportivos da Volkswagen, com design da Ghia e carroceria da Karmann, produzida de 1955 a 1975.",
+        "variantes": [
+          "Karmann Ghia",
+          "VW Karmann-Ghia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Helicóptero de ataque Mi-24 bem visível e reconhecível; só há um número de série na cauda.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fabricante soviético projetou este helicóptero de ataque?",
+      "resposta": "Mil",
+      "distratores": [
+        "Kamov",
+        "Sukhoi",
+        "Tupolev"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mil Mi-24",
+        "descricao": "Helicóptero de ataque soviético, conhecido pelo código da OTAN Hind, fabricado pela Mil e em serviço desde 1972.",
+        "variantes": [
+          "Mi-24",
+          "Hind",
+          "Mi-35"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto traseira, desfocada e genérica de um caminhão de lixo, sem uma pergunta de época que seja boa e justa."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Diablo GT claramente reconhecível. O '2000' na placa não entrega a marca.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fabricante italiano produziu este superesportivo?",
+      "resposta": "Lamborghini",
+      "distratores": [
+        "Ferrari",
+        "Maserati",
+        "Pagani"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lamborghini Diablo",
+        "descricao": "Superesportivo V12 de motor central produzido pela Lamborghini de 1990 a 2001.",
+        "variantes": [
+          "Diablo",
+          "Diablo GT"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tucker 48 inconfundível, com o farol central, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este carro foi produzido, antes de a fábrica fechar?",
+      "resposta": "1948",
+      "distratores": [
+        "1946",
+        "1950",
+        "1952"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tucker 48",
+        "descricao": "Automóvel americano idealizado por Preston Tucker, produzido em Chicago em 1948 (apenas 51 unidades).",
+        "variantes": [
+          "Tucker Torpedo",
+          "Tucker"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Navio de cruzeiro genérico, sem identidade única diante da imagem; a pergunta sobre o construtor não é justa."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O casco traz texto em russo, 50 лет Победы e Росатомфлот, que entrega o navio. Há também pessoas no gelo."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Simca Chambord reconhecível; a placa mostra apenas '1966' e não entrega o fabricante.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fabricante francês criou este sedã de luxo, depois produzido também no Brasil?",
+      "resposta": "Simca",
+      "distratores": [
+        "Renault",
+        "Peugeot",
+        "Citroën"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Simca Chambord",
+        "descricao": "Automóvel de luxo da Simca francesa, produzido de 1958 a 1961 e fabricado no Brasil sob licença até 1967.",
+        "variantes": [
+          "Chambord"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A placa dianteira traz a palavra PRIUS legível, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, sem um fato bom para perguntar sobre autoria; não é legível num celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Há pessoas em primeiro plano (piloto e equipe) e textos de marcas visíveis; foto de contexto comum."
+    }
+  ]
+}

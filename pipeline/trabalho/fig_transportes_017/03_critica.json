@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Produção começou em 1955, logo década de 1950. Enunciado não vaza e os distratores são décadas críveis, nenhuma também correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado (Mil). Sukhoi e Tupolev são fabricantes de aviões e não de helicópteros, então são distratores pouco críveis. Troquei por fabricantes de helicópteros soviéticos.",
+      "reescrita": {
+        "pergunta": "Que fabricante soviético projetou este helicóptero de ataque?",
+        "resposta": "Mil",
+        "distratores": [
+          "Kamov",
+          "Yakovlev",
+          "Sukhoi"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lamborghini produziu o Diablo, e o enunciado não nomeia a entidade. Os distratores são fabricantes italianos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A produção do Tucker não se limitou a 1948: protótipos são de 1947 e as 51 unidades foram feitas até 1949. A resposta 1948 é frágil e o 48 do nome a entrega. Resposta única duvidosa, sem conserto fácil.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O verbo 'criou' é impreciso: o projeto original veio da Ford norte-americana para a subsidiária francesa. Troquei por 'produziu', que o trecho sustenta.",
+      "reescrita": {
+        "pergunta": "Que fabricante francês produziu este sedã de luxo, fabricado depois também no Brasil?",
+        "resposta": "Simca",
+        "distratores": [
+          "Renault",
+          "Peugeot",
+          "Citroën"
+        ]
+      }
+    }
+  ]
+}
