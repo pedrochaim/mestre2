@@ -1,0 +1,634 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mexilhão",
+        "descricao": "Molusco bivalve marinho comestível da família Mytilidae, de casca alongada azul-escura.",
+        "variantes": [
+          "Mussel",
+          "Mexilhões"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mexilhao",
+          "nome": "Mexilhão",
+          "descricao": "Molusco bivalve marinho da família Mytilidae, de concha alongada escura, fixo ao substrato por filamentos do bisso.",
+          "variantes": [
+            "Mexilhões",
+            "Mytilidae"
+          ]
+        },
+        {
+          "id": "mousse",
+          "nome": "Mousse",
+          "descricao": "Preparo macio e aerado, doce ou salgado; aqui, de chocolate.",
+          "variantes": [
+            "Mousse de chocolate"
+          ]
+        },
+        {
+          "id": "mucarela",
+          "nome": "Muçarela",
+          "descricao": "Queijo fresco italiano de massa filada, originário do sul da Itália",
+          "variantes": [
+            "Mozzarella",
+            "Mussarela"
+          ]
+        },
+        {
+          "id": "musselina",
+          "nome": "Musselina",
+          "descricao": "Tecido de algodão leve e de trama fina, usado em vestidos, cortinas e fraldas",
+          "variantes": [
+            "Muslin",
+            "Mousseline"
+          ]
+        },
+        {
+          "id": "milho",
+          "nome": "Milho",
+          "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+          "variantes": [
+            "Zea mays",
+            "Maize",
+            "Maís"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cagaita",
+        "descricao": "Fruto amarelo da cagaiteira (Eugenia dysenterica), árvore nativa do Cerrado brasileiro.",
+        "variantes": [
+          "Cagaiteira",
+          "Eugenia dysenterica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agata",
+          "nome": "Ágata",
+          "descricao": "Variedade de calcedônia com bandas coloridas, comum em geodos de rochas vulcânicas.",
+          "variantes": [
+            "Agate"
+          ]
+        },
+        {
+          "id": "gaita",
+          "nome": "Gaita",
+          "descricao": "Instrumento de palhetas livres tocado com a boca, soprando e aspirando o ar.",
+          "variantes": [
+            "Gaita de boca",
+            "Harmônica",
+            "Harmonica"
+          ]
+        },
+        {
+          "id": "carlos_alberto_torres",
+          "nome": "Carlos Alberto Torres",
+          "descricao": "Lateral-direito brasileiro, capitão da seleção tricampeã mundial em 1970.",
+          "variantes": [
+            "Carlos Alberto",
+            "Capita",
+            "Capitão do Tri"
+          ]
+        },
+        {
+          "id": "agatha",
+          "nome": "Agatha",
+          "descricao": "Treinadora idosa especialista em pokémon fantasmas, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue.",
+          "variantes": [
+            "Kikuko"
+          ]
+        },
+        {
+          "id": "agatha_bednarczuk",
+          "nome": "Ágatha Bednarczuk",
+          "descricao": "Jogadora brasileira de vôlei de praia, medalha de prata nas Olimpíadas de 2016 com Bárbara Seixas.",
+          "variantes": [
+            "Ágatha",
+            "Agatha Bednarczuk Rippel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lagosta",
+        "descricao": "Crustáceo decápode marinho de grandes pinças, da família Nephropidae, muito apreciado na culinária.",
+        "variantes": [
+          "Lobster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagosta",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho de corpo alongado e cauda musculosa, muito apreciado na culinária.",
+          "variantes": [
+            "Lobster"
+          ]
+        },
+        {
+          "id": "lagosta_2",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode da família Nephropidae, de corpo longo e primeiro par de patas com grandes pinças.",
+          "variantes": [
+            "Lavagante",
+            "Homarus gammarus"
+          ]
+        },
+        {
+          "id": "lagosta_3",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho da família Nephropidae, de corpo alongado e grandes pinças, como a lagosta-europeia.",
+          "variantes": [
+            "Lavagante",
+            "Lagosta-europeia"
+          ]
+        },
+        {
+          "id": "lagoa_rodrigo_de_freitas",
+          "nome": "Lagoa Rodrigo de Freitas",
+          "descricao": "Lagoa na Zona Sul do Rio de Janeiro, ligada ao Atlântico por um canal.",
+          "variantes": [
+            "Lagoa"
+          ]
+        },
+        {
+          "id": "laguna_de_veneza",
+          "nome": "Laguna de Veneza",
+          "descricao": "Laguna rasa no Mar Adriático, no nordeste da Itália, onde fica a cidade de Veneza.",
+          "variantes": [
+            "Lagoa",
+            "Lagoa de Veneza",
+            "Laguna Veneta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Farfalle",
+        "descricao": "Massa italiana em formato de gravatinha-borboleta, de bordas serrilhadas.",
+        "variantes": [
+          "Gravatinha",
+          "Massa borboleta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate",
+            "Cravat"
+          ]
+        },
+        {
+          "id": "bromelia",
+          "nome": "Bromélia",
+          "descricao": "Planta da família Bromeliaceae, muitas vezes epífita, cujas folhas em roseta acumulam água.",
+          "variantes": [
+            "Bromeliaceae",
+            "Gravatá"
+          ]
+        },
+        {
+          "id": "giratina",
+          "nome": "Giratina",
+          "descricao": "Pokémon lendário dos tipos Fantasma e Dragão da quarta geração, mascote de Pokémon Platinum.",
+          "variantes": []
+        },
+        {
+          "id": "arale_norimaki",
+          "nome": "Arale Norimaki",
+          "descricao": "Menina robô protagonista do mangá Dr. Slump, de Akira Toriyama.",
+          "variantes": [
+            "Arale",
+            "Dr. Slump"
+          ]
+        },
+        {
+          "id": "nado_borboleta",
+          "nome": "Nado borboleta",
+          "descricao": "Estilo de natação com braços simétricos e pernas em golfinhada.",
+          "variantes": [
+            "Borboleta",
+            "Butterfly",
+            "Butterfly stroke"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Goji",
+        "descricao": "Fruto vermelho de arbustos do gênero Lycium, da família das solanáceas, originário da Ásia Oriental.",
+        "variantes": [
+          "Goji berry",
+          "Wolfberry",
+          "Lycium barbarum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "godzilla",
+          "nome": "Godzilla",
+          "descricao": "Monstro gigante criado pelo estúdio japonês Toho, que estreou no filme de 1954.",
+          "variantes": [
+            "Gojira"
+          ]
+        },
+        {
+          "id": "agojie",
+          "nome": "Agojie",
+          "descricao": "Regimento militar de elite do Reino do Daomé, na atual Benim, ativo do século dezessete ao dezenove.",
+          "variantes": [
+            "Amazonas do Daomé",
+            "Dahomey Amazons",
+            "Mino"
+          ]
+        },
+        {
+          "id": "deserto_de_gobi",
+          "nome": "Deserto de Gobi",
+          "descricao": "Grande deserto frio da Ásia Central",
+          "variantes": [
+            "Gobi"
+          ]
+        },
+        {
+          "id": "satoru_gojo",
+          "nome": "Satoru Gojo",
+          "descricao": "Feiticeiro de grau especial e professor da Escola Jujutsu de Tóquio em Jujutsu Kaisen.",
+          "variantes": [
+            "Gojo Satoru",
+            "Gojo"
+          ]
+        },
+        {
+          "id": "balsa",
+          "nome": "Balsa",
+          "descricao": "Embarcação que transporta passageiros e veículos de uma margem a outra.",
+          "variantes": [
+            "Ferry",
+            "Ferry-boat",
+            "Ferryboat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Carne moída",
+        "descricao": "Carne triturada em moedor ou picada em pedaços pequenos, usada em hambúrgueres, almôndegas e recheios.",
+        "variantes": [
+          "Carne picada",
+          "Ground meat",
+          "Mince"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "efeito_solo",
+          "nome": "Efeito solo",
+          "descricao": "Princípio aerodinâmico em que o formato do assoalho do carro cria uma sucção que o prende ao chão, explorado na Fórmula 1 a partir do fim dos anos setenta.",
+          "variantes": [
+            "Ground effect",
+            "Carro-asa"
+          ]
+        },
+        {
+          "id": "gelo",
+          "nome": "Gelo",
+          "descricao": "Água no estado sólido, menos densa que a água líquida.",
+          "variantes": [
+            "Ice",
+            "Água congelada"
+          ]
+        },
+        {
+          "id": "mickey_mouse",
+          "nome": "Mickey Mouse",
+          "descricao": "Camundongo criado por Walt Disney e Ub Iwerks em 1928, mascote da Disney.",
+          "variantes": [
+            "Mickey",
+            "Rato Mickey"
+          ]
+        },
+        {
+          "id": "pedra_pomes",
+          "nome": "Pedra-pomes",
+          "descricao": "Rocha vulcânica muito porosa e leve, formada por lava rica em gases que esfria rapidamente.",
+          "variantes": [
+            "Púmice",
+            "Pumice"
+          ]
+        },
+        {
+          "id": "joystick",
+          "nome": "Joystick",
+          "descricao": "Dispositivo de entrada com uma haste que pivota sobre uma base e informa a direção ao aparelho controlado, usado em videogames e aeronaves.",
+          "variantes": [
+            "Manche",
+            "Manípulo eletrônico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pão sírio",
+        "descricao": "Pão redondo de trigo fermentado, muitas vezes com bolsa interna, comum no Mediterrâneo e no Oriente Médio.",
+        "variantes": [
+          "Pita",
+          "Pão árabe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà",
+            "Pietà"
+          ]
+        },
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle",
+            "Delfos",
+            "Oráculo de Delphi"
+          ]
+        },
+        {
+          "id": "ptah",
+          "nome": "Ptah",
+          "descricao": "Deus criador egípcio cultuado em Mênfis, patrono dos artesãos e construtores",
+          "variantes": [
+            "Ptá"
+          ]
+        },
+        {
+          "id": "pinata",
+          "nome": "Piñata",
+          "descricao": "Recipiente enfeitado e cheio de doces que as crianças quebram de olhos vendados em festas mexicanas e latino-americanas.",
+          "variantes": [
+            "Pinhata",
+            "Pignatta"
+          ]
+        },
+        {
+          "id": "pirita",
+          "nome": "Pirita",
+          "descricao": "Mineral de sulfeto de ferro, de brilho metálico dourado.",
+          "variantes": [
+            "Pyrite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Alho negro",
+        "descricao": "Alho envelhecido em ambiente quente e úmido, de dentes pretos e sabor adocicado, de origem do Leste Asiático.",
+        "variantes": [
+          "Black garlic"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_negro_gramado",
+          "nome": "Lago Negro (Gramado)",
+          "descricao": "Lago artificial em Gramado, no Rio Grande do Sul, cercado por hortênsias e árvores.",
+          "variantes": [
+            "Lago Negro"
+          ]
+        },
+        {
+          "id": "antilope_negro",
+          "nome": "Antílope-negro",
+          "descricao": "Antílope de porte médio, nativo da Índia e do Nepal, cujo macho tem pelagem escura e chifres espiralados, Antilope cervicapra.",
+          "variantes": [
+            "Blackbuck",
+            "Antilope cervicapra",
+            "Antílope-cervicapra"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía",
+            "Negro River"
+          ]
+        },
+        {
+          "id": "mar_negro",
+          "nome": "Mar Negro",
+          "descricao": "Mar interior entre o sudeste da Europa e a Ásia Menor, ligado ao Mediterrâneo pelo Bósforo.",
+          "variantes": [
+            "Black Sea"
+          ]
+        },
+        {
+          "id": "black_jack",
+          "nome": "Black Jack",
+          "descricao": "Mangá de Osamu Tezuka sobre um cirurgião genial que opera sem licença.",
+          "variantes": [
+            "Black Jack (mangá)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Polvo",
+        "descricao": "Molusco cefalópode marinho de oito braços com ventosas, muito usado na culinária.",
+        "variantes": [
+          "Octopus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polvo",
+          "nome": "Polvo",
+          "descricao": "Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins.",
+          "variantes": [
+            "Octopus"
+          ]
+        },
+        {
+          "id": "hoquei_subaquatico",
+          "nome": "Hóquei subaquático",
+          "descricao": "Esporte de contato limitado jogado no fundo de uma piscina, com tacos curtos e um disco, sem equipamento de respiração.",
+          "variantes": [
+            "Underwater hockey",
+            "Octopush"
+          ]
+        },
+        {
+          "id": "polo",
+          "nome": "Polo",
+          "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+          "variantes": [
+            "Polo equestre"
+          ]
+        },
+        {
+          "id": "polvora",
+          "nome": "Pólvora",
+          "descricao": "Mistura explosiva de salitre, enxofre e carvão, a mais antiga conhecida.",
+          "variantes": [
+            "Pólvora negra",
+            "Gunpowder"
+          ]
+        },
+        {
+          "id": "volvo",
+          "nome": "Volvo",
+          "descricao": "Fabricante sueca de automóveis fundada em 1927 em Gotemburgo.",
+          "variantes": [
+            "Volvo Cars"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Uvaia",
+        "descricao": "Fruta amarela e ácida da uvaieira (Eugenia pyriformis), árvore nativa do Sul e Sudeste do Brasil.",
+        "variantes": [
+          "Uvalha",
+          "Eugenia pyriformis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "valhala",
+          "nome": "Valhala",
+          "descricao": "Salão de Odin, em Asgard, para onde vão os guerreiros mortos em combate na mitologia nórdica.",
+          "variantes": [
+            "Valhalla",
+            "Valhöll"
+          ]
+        },
+        {
+          "id": "navalha",
+          "nome": "Navalha",
+          "descricao": "Navalha de barbear com lâmina que se dobra para dentro do cabo.",
+          "variantes": [
+            "Navalha de barbear",
+            "Navalha de cabo"
+          ]
+        },
+        {
+          "id": "uva",
+          "nome": "Uva",
+          "descricao": "Fruto em cachos da videira (gênero Vitis), consumido fresco, seco ou usado na vinificação.",
+          "variantes": [
+            "Grape"
+          ]
+        },
+        {
+          "id": "vacina",
+          "nome": "Vacina",
+          "descricao": "Preparação que estimula o sistema imunológico a proteger contra uma doença.",
+          "variantes": [
+            "Vaccine",
+            "Imunizante"
+          ]
+        },
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "mexilhao",
+      "motivo": "Mesmo molusco bivalve Mytilidae."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cagaita é fruta; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "lagosta",
+      "motivo": "Mesmo crustáceo, lagosta culinária; descrição e variante Lobster equivalentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Farfalle é massa; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Goji é fruto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Carne moída não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pão sírio não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Alho negro não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "polvo",
+      "motivo": "Mesmo molusco cefalópode, Octopus."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Uvaia é fruta específica diferente de uva e demais candidatas."
+    }
+  ]
+}

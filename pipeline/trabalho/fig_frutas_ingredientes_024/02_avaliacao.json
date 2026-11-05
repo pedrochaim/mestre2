@@ -1,0 +1,253 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem traz a legenda 'MUTTON RIB CHOPS', que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mexilhões em grupo, bem reconhecíveis; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Na Bélgica, este molusco é servido tradicionalmente com qual acompanhamento?",
+      "resposta": "Batatas fritas",
+      "distratores": [
+        "Pão de alho",
+        "Arroz branco",
+        "Purê de batata"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mexilhão",
+        "descricao": "Molusco bivalve marinho comestível da família Mytilidae, de casca alongada azul-escura.",
+        "variantes": [
+          "Mussel",
+          "Mexilhões"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Frutos amarelos entre folhas, razoavelmente reconhecíveis; múltipla com frutas brasileiras parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta do Cerrado é esta?",
+      "resposta": "Cagaita",
+      "distratores": [
+        "Mangaba",
+        "Araçá",
+        "Guabiroba"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cagaita",
+        "descricao": "Fruto amarelo da cagaiteira (Eugenia dysenterica), árvore nativa do Cerrado brasileiro.",
+        "variantes": [
+          "Cagaiteira",
+          "Eugenia dysenterica"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Lagosta nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que crustáceo é este?",
+      "resposta": "Lagosta",
+      "distratores": [
+        "Lagostim",
+        "Camarão",
+        "Caranguejo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lagosta",
+        "descricao": "Crustáceo decápode marinho de grandes pinças, da família Nephropidae, muito apreciado na culinária.",
+        "variantes": [
+          "Lobster"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Massa em formato de gravatinha, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de massa italiana é este?",
+      "resposta": "Farfalle",
+      "distratores": [
+        "Fusilli",
+        "Conchiglie",
+        "Orecchiette"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Farfalle",
+        "descricao": "Massa italiana em formato de gravatinha-borboleta, de bordas serrilhadas.",
+        "variantes": [
+          "Gravatinha",
+          "Massa borboleta"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Frutinhas vermelhas alongadas no ramo, reconhecíveis como goji.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta frutinha vermelha pertence à mesma família botânica de qual destes alimentos?",
+      "resposta": "Tomate",
+      "distratores": [
+        "Cenoura",
+        "Pepino",
+        "Couve"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Goji",
+        "descricao": "Fruto vermelho de arbustos do gênero Lycium, da família das solanáceas, originário da Ásia Oriental.",
+        "variantes": [
+          "Goji berry",
+          "Wolfberry",
+          "Lycium barbarum"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Carne moída crua em prato, clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ingrediente é este?",
+      "resposta": "Carne moída",
+      "distratores": [
+        "Carne desfiada",
+        "Carne-seca",
+        "Bife picado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carne moída",
+        "descricao": "Carne triturada em moedor ou picada em pedaços pequenos, usada em hambúrgueres, almôndegas e recheios.",
+        "variantes": [
+          "Carne picada",
+          "Ground meat",
+          "Mince"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pães infláveis típicos, reconhecíveis como pita.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pão, comum no Oriente Médio, é este?",
+      "resposta": "Pão sírio",
+      "distratores": [
+        "Naan",
+        "Chapati",
+        "Tortilha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pão sírio",
+        "descricao": "Pão redondo de trigo fermentado, muitas vezes com bolsa interna, comum no Mediterrâneo e no Oriente Médio.",
+        "variantes": [
+          "Pita",
+          "Pão árabe"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bulbos e dentes inteiramente negros, bem característicos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ingrediente é este?",
+      "resposta": "Alho negro",
+      "distratores": [
+        "Alho assado",
+        "Cebola caramelizada",
+        "Alho defumado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alho negro",
+        "descricao": "Alho envelhecido em ambiente quente e úmido, de dentes pretos e sabor adocicado, de origem do Leste Asiático.",
+        "variantes": [
+          "Black garlic"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Braço de polvo com ventosas, em tigela com gelo; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que animal marinho é este tentáculo?",
+      "resposta": "Polvo",
+      "distratores": [
+        "Lula",
+        "Choco",
+        "Nautilo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Polvo",
+        "descricao": "Molusco cefalópode marinho de oito braços com ventosas, muito usado na culinária.",
+        "variantes": [
+          "Octopus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Ilustração botânica com texto visível ('Citrus', 'C. Limetta Risso') e marca d'água, que entregam a resposta; também mostra mais de uma espécie."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Frutos amarelos rugosos nítidos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fruta brasileira é esta?",
+      "resposta": "Uvaia",
+      "distratores": [
+        "Pitanga",
+        "Jabuticaba",
+        "Grumixama"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Uvaia",
+        "descricao": "Fruta amarela e ácida da uvaieira (Eugenia pyriformis), árvore nativa do Sul e Sudeste do Brasil.",
+        "variantes": [
+          "Uvalha",
+          "Eugenia pyriformis"
+        ]
+      }
+    }
+  ]
+}

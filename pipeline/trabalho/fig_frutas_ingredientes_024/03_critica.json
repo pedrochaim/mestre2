@@ -1,0 +1,98 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Moules-frites é o prato tradicional belga, amplamente documentado. O enunciado não nomeia o molusco e os distratores são plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cagaita é fruta amarela do Cerrado, confirmada nos trechos. O enunciado não vaza e os distratores são frutas de tipo parecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Lagostim é um nefropídeo, parecido com a lagosta e de grandes pinças (trecho pt). Pode ser defendido diante da imagem. Troquei o distrator.",
+      "reescrita": {
+        "pergunta": "Que crustáceo é este?",
+        "resposta": "Lagosta",
+        "distratores": [
+          "Camarão",
+          "Caranguejo",
+          "Siri"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto. Os distratores são massas de formato distinto e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O goji é da família Solanaceae, a mesma do tomate (trechos). Cenoura, pepino e couve são de outras famílias. O enunciado não nomeia a fruta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Bife picado é parecido com carne picada em pedaços pequenos, e a descrição inclui essa forma. Pode ser defendido como também correto. Troquei o distrator.",
+      "reescrita": {
+        "pergunta": "Que ingrediente é este?",
+        "resposta": "Carne moída",
+        "distratores": [
+          "Carne desfiada",
+          "Carne-seca",
+          "Linguiça calabresa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pão sírio é comum no Oriente Médio (trechos). A pista de região não entrega a resposta e os distratores são pães planos de outras regiões.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto do alho negro. Os distratores são preparos de alho ou cebola, visualmente distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O polvo tem braços, não tentáculos (trecho). Lula e choco também têm tentáculos, então o enunciado fica ambíguo. Reformulei para o animal.",
+      "reescrita": {
+        "pergunta": "Que cefalópode marinho é este?",
+        "resposta": "Polvo",
+        "distratores": [
+          "Lula",
+          "Choco",
+          "Nautilo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A uvaia é uma fruta amarela brasileira (trecho). O enunciado não vaza e os distratores são frutas brasileiras de aparência diferente.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na Bélgica, este molusco é servido tradicionalmente com qual acompanhamento?",
+        "resposta": "Batatas fritas"
+      },
+      "existentes": [
+        {
+          "id": "q07416",
+          "pergunta": "Que molusco bivalve, preso às rochas da costa, é este?",
+          "resposta": "Mexilhão"
+        },
+        {
+          "id": "q16825",
+          "pergunta": "Os moluscos em maior número nesta foto, de conchas escuras, pertencem a que grupo?",
+          "resposta": "Bivalves"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que crustáceo é este?",
+        "resposta": "Lagosta"
+      },
+      "existentes": [
+        {
+          "id": "q09600",
+          "pergunta": "Viva, a lagosta costuma ser escura, azulada ou esverdeada. Por que ela fica vermelha quando é cozida?",
+          "resposta": "O calor libera o pigmento astaxantina"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que cefalópode marinho é este?",
+        "resposta": "Polvo"
+      },
+      "existentes": [
+        {
+          "id": "q02529",
+          "pergunta": "Octopus, o nome do gênero do polvo, vem do grego e descreve o animal pela sua anatomia. O que essa palavra quer dizer?",
+          "resposta": "Oito pés"
+        },
+        {
+          "id": "q02530",
+          "pergunta": "O polvo tem um sistema circulatório bem diferente do nosso. Quantos corações ele tem?",
+          "resposta": "Três"
+        },
+        {
+          "id": "q08676",
+          "pergunta": "Que molusco marinho é este?",
+          "resposta": "Polvo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre acompanhamento belga, fato diferente de identificar o mexilhão ou o grupo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a lagosta em foto difere do fato sobre a cor ao cozinhar."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q08676",
+      "motivo": "Ambas pedem a identificação do polvo na imagem; mesma resposta."
+    }
+  ]
+}
