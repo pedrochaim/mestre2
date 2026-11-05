@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, resposta única e distratores do mesmo tipo e críveis. Trecho confirma a definição de queixo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "\"Em rosa\" não distingue a gengiva: língua e palato também são rosados e podem aparecer na mesma foto, então os distratores são defensáveis. A resposta não é única, e o conserto com uma pista funcional entregaria a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Usado em titulações\" entrega a resposta sem olhar a figura (a bureta é o instrumento clássico da titulação), então a figura vira enfeite. Tirei a pista e troquei o distrator Condensador por um de vidraria parecida.",
+      "reescrita": {
+        "pergunta": "Que instrumento de vidro de laboratório é este?",
+        "resposta": "Bureta",
+        "distratores": [
+          "Pipeta",
+          "Proveta",
+          "Balão volumétrico"
+        ]
+      }
+    }
+  ]
+}

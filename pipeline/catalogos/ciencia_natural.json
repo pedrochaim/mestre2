@@ -1552,7 +1552,7 @@
       "titulo": "en:Scoliosis",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Albinismo",
@@ -1676,6 +1676,286 @@
     {
       "nome": "Heterocromia",
       "titulo": "en:Heterochromia iridum",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Floco de neve",
+      "titulo": "en:Snowflake",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Proveta",
+      "titulo": "en:Graduated cylinder",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fóssil",
+      "titulo": "en:Fossil",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cicatriz",
+      "titulo": "en:Scar",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Hematoma",
+      "titulo": "en:Bruise",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Verruga",
+      "titulo": "en:Wart",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Varizes",
+      "titulo": "en:Varicose veins",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gengiva",
+      "titulo": "en:Gums",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pálpebra",
+      "titulo": "en:Eyelid",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tornozelo",
+      "titulo": "en:Ankle",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Queixo",
+      "titulo": "en:Chin",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Dente canino",
+      "titulo": "en:Canine tooth",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Acne (espinhas)",
+      "titulo": "en:Acne",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Feldspato",
+      "titulo": "en:Feldspar",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Basalto",
+      "titulo": "en:Basalt",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Geodo",
+      "titulo": "en:Geode",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Manganês",
+      "titulo": "en:Manganese",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rádio (elemento químico)",
+      "titulo": "en:Radium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bureta",
+      "titulo": "en:Burette",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Benzeno",
+      "titulo": "en:Benzene",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Córnea",
+      "titulo": "en:Cornea",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pregas vocais",
+      "titulo": "en:Vocal cords",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Hipófise",
+      "titulo": "en:Pituitary gland",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Linfonodo",
+      "titulo": "en:Lymph node",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Amonite",
+      "titulo": "en:Ammonoidea",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Célula vegetal",
+      "titulo": "en:Plant cell",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Arsênio",
+      "titulo": "en:Arsenic",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tântalo",
+      "titulo": "en:Tantalum",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Olivina",
+      "titulo": "en:Olivine",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Esfalerita",
+      "titulo": "en:Sphalerite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Celestina",
+      "titulo": "en:Celestine (mineral)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aragonita",
+      "titulo": "en:Aragonite",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Funil de Büchner",
+      "titulo": "en:Büchner funnel",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Timo",
+      "titulo": "en:Thymus",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Valva mitral",
+      "titulo": "en:Mitral valve",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Basófilo",
+      "titulo": "en:Basophil",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bastonete (célula da retina)",
+      "titulo": "en:Rod cell",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Astrócito",
+      "titulo": "en:Astrocyte",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Adipócito",
+      "titulo": "en:Adipocyte",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Candida albicans",
+      "titulo": "en:Candida albicans",
       "camada": 3,
       "destino": 2,
       "status": "reprovada"

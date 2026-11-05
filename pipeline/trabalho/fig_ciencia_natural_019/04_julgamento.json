@@ -1,0 +1,134 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Queixo",
+        "descricao": "Parte anterior e pontiaguda da mandíbula, abaixo do lábio inferior.",
+        "variantes": [
+          "Mento"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mentor_odisseia",
+          "nome": "Mentor (Odisseia)",
+          "descricao": "Personagem da Odisseia, velho amigo de Ulisses encarregado de cuidar de Telêmaco.",
+          "variantes": [
+            "Mentor"
+          ]
+        },
+        {
+          "id": "burro",
+          "nome": "Burro",
+          "descricao": "Equino doméstico descendente do asno-selvagem-africano, usado como animal de carga.",
+          "variantes": [
+            "Asno",
+            "Jumento",
+            "Equus asinus"
+          ]
+        },
+        {
+          "id": "queijo",
+          "nome": "Queijo",
+          "descricao": "Derivado do leite coagulado, aqui em várias peças e rodas curadas.",
+          "variantes": [
+            "Queijos"
+          ]
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter",
+            "Metro-padrão"
+          ]
+        },
+        {
+          "id": "manto_terrestre",
+          "nome": "Manto terrestre",
+          "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+          "variantes": [
+            "Manto da Terra",
+            "Manto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bureta",
+        "descricao": "Tubo de vidro graduado com torneira usado para dispensar volumes conhecidos de líquido, sobretudo em titulações.",
+        "variantes": [
+          "Büretta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paisley",
+          "nome": "Paisley",
+          "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+          "variantes": [
+            "Estampa paisley",
+            "Estampa caxemira",
+            "Buta"
+          ]
+        },
+        {
+          "id": "betamax",
+          "nome": "Betamax",
+          "descricao": "Formato de videocassete analógico doméstico criado pela Sony, rival do VHS.",
+          "variantes": [
+            "Beta",
+            "Betacam doméstico"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Queixo (parte da mandíbula) não corresponde a nenhuma candidata; nomes parecidos são entidades distintas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bureta (instrumento de laboratório) não aparece entre as candidatas, que são entidades diferentes."
+    }
+  ]
+}

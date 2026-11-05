@@ -1,0 +1,118 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Close-up nítido de queixo, sem texto e sem identificar a pessoa.",
+      "tipo": "multipla",
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que parte do rosto aparece em destaque nesta foto?",
+      "resposta": "Queixo",
+      "distratores": [
+        "Bochecha",
+        "Têmpora",
+        "Maçã do rosto"
+      ],
+      "ancora": {
+        "nome": "Queixo",
+        "descricao": "Parte anterior e pontiaguda da mandíbula, abaixo do lábio inferior.",
+        "variantes": [
+          "Mento"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Diagrama com legendas em inglês, incluindo 'Vocal fold', que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Micrografia de hifas e clamidósporos; não é reconhecível por leigos nem distinguível de outros fungos."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A etiqueta visível traz o nome da espécie e 'Ammonit', entregando a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Esqueleto curvado com bengala, em vitrine de museu; não mostra com clareza uma escoliose e a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Cristais arroxeados sem traço que permita reconhecer a aragonita; resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara da gengiva ao redor dos dentes, sem texto e sem rosto.",
+      "tipo": "multipla",
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que estrutura da boca aparece em rosa nesta foto?",
+      "resposta": "Gengiva",
+      "distratores": [
+        "Língua",
+        "Palato",
+        "Úvula"
+      ],
+      "ancora": {
+        "nome": "Gengiva",
+        "descricao": "Tecido mucoso que reveste a mandíbula e a maxila e envolve a base dos dentes.",
+        "variantes": [
+          "Gengivas"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bureta isolada, nítida e inconfundível, sem texto que entregue a resposta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que instrumento de laboratório é este, usado em titulações?",
+      "resposta": "Bureta",
+      "distratores": [
+        "Pipeta",
+        "Proveta",
+        "Condensador"
+      ],
+      "ancora": {
+        "nome": "Bureta",
+        "descricao": "Tubo de vidro graduado com torneira usado para dispensar volumes conhecidos de líquido, sobretudo em titulações.",
+        "variantes": [
+          "Büretta"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Cristal verde bruto não permite distinguir a olivina de outros minerais verdes; resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Resposta ambígua (hematoma, equimose, contusão) e a imagem mostra a pele de uma pessoa comum."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama pequeno, com muitas legendas em espanhol, ilegível no celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Texto visível 'Adipocytes' e 'Adipose Tissue' entrega a resposta; imagem é montagem com legendas."
+    }
+  ]
+}
