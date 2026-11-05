@@ -1,0 +1,92 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cidade histórica à beira-mar é esta?",
+        "resposta": "Paraty"
+      },
+      "existentes": [
+        {
+          "id": "q05726",
+          "pergunta": "Em que estado brasileiro fica esta cidade histórica à beira-mar?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano foi concluída a construção do atual edifício desta estação ferroviária paulistana?",
+        "resposta": "1901"
+      },
+      "existentes": [
+        {
+          "id": "q09299",
+          "pergunta": "Que arquiteto britânico projetou esta estação ferroviária paulistana, construída entre 1895 e 1901?",
+          "resposta": "Charles Henry Driver"
+        },
+        {
+          "id": "q09520",
+          "pergunta": "De que nacionalidade era o arquiteto que projetou esta estação ferroviária?",
+          "resposta": "Britânico"
+        },
+        {
+          "id": "q17152",
+          "pergunta": "Além de estação de trens, o prédio histórico da Estação da Luz, em São Paulo, abriga desde 2006 qual museu?",
+          "resposta": "Museu da Língua Portuguesa"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que década foi inaugurado este prédio da Cinelândia, no Rio de Janeiro?",
+        "resposta": "Década de 1910"
+      },
+      "existentes": [
+        {
+          "id": "q16734",
+          "pergunta": "Que prédio do centro do Rio de Janeiro é este?",
+          "resposta": "Biblioteca Nacional"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que santuário histórico, iniciado no século dezesseis, é este?",
+        "resposta": "Convento da Penha"
+      },
+      "existentes": [
+        {
+          "id": "q16903",
+          "pergunta": "Em que estado brasileiro fica este santuário, construído no alto de um penhasco?",
+          "resposta": "Espírito Santo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a cidade é diferente de perguntar o estado."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ano de conclusão é um fato distinto do arquiteto, nacionalidade ou museu."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Década de inauguração é fato diferente da identidade do prédio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o santuário difere de perguntar o estado onde fica."
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A assinatura 'Mestre Aleijadinho' aparece escrita na parte inferior da imagem e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico limpo e sem texto de um presidente. A pergunta pede a década em que assumiu.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década este presidente da República Velha assumiu o cargo?",
+      "resposta": "Década de 1910",
+      "distratores": [
+        "Década de 1890",
+        "Década de 1900",
+        "Década de 1920"
+      ],
+      "ancora": {
+        "nome": "Epitácio Pessoa",
+        "descricao": "Político e jurista paraibano, 11º presidente do Brasil, de 1919 a 1922.",
+        "variantes": [
+          "Epitácio Lindolfo da Silva Pessoa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico sem texto legível, de figura pública. Distratores são outros presidentes da mesma época.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este presidente da República Velha?",
+      "resposta": "Nilo Peçanha",
+      "distratores": [
+        "Afonso Pena",
+        "Epitácio Pessoa",
+        "Rodrigues Alves"
+      ],
+      "ancora": {
+        "nome": "Nilo Peçanha",
+        "descricao": "Político fluminense, 7º presidente do Brasil, de 1909 a 1910, após a morte de Afonso Pena.",
+        "variantes": [
+          "Nilo Procópio Peçanha"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista clara do centro histórico de Paraty, com a igreja de Santa Rita. Sem texto. Troquei para 'o que é', porque a fundação da cidade tem datas ambíguas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cidade histórica à beira-mar é esta?",
+      "resposta": "Paraty",
+      "distratores": [
+        "Olinda",
+        "Angra dos Reis",
+        "Ubatuba"
+      ],
+      "ancora": {
+        "nome": "Paraty",
+        "descricao": "Município histórico colonial no litoral sul do estado do Rio de Janeiro.",
+        "variantes": [
+          "Parati"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A placa de rua 'Rua do Catete' aparece na imagem e pode entregar o nome do palácio."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O retrato em litografia não permite reconhecer a pessoa pelo rosto. Perguntas sobre a menoridade de Pedro II ou sobre o cargo de regente se respondem sem a imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "A estação é inconfundível, com a torre do relógio. A placa 'Museu da Língua Portuguesa' não nomeia a estação. É a única pergunta do lote com resposta em ano.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurada esta estação ferroviária paulistana?",
+      "resposta": "1901",
+      "distratores": [
+        "1891",
+        "1906",
+        "1911"
+      ],
+      "ancora": {
+        "nome": "Estação da Luz",
+        "descricao": "Estação ferroviária no bairro do Bom Retiro, em São Paulo, construída entre 1895 e 1901 para a São Paulo Railway. Hoje abriga o Museu da Língua Portuguesa.",
+        "variantes": [
+          "Luz Station"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico sem texto. A pergunta exige reconhecer o presidente e ir além, para o estado de origem.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado era este presidente da República Velha?",
+      "resposta": "Minas Gerais",
+      "distratores": [
+        "São Paulo",
+        "Rio Grande do Sul",
+        "Bahia"
+      ],
+      "ancora": {
+        "nome": "Afonso Pena",
+        "descricao": "Político mineiro, 6º presidente do Brasil, de 1906 até sua morte, em 1909.",
+        "variantes": [
+          "Afonso Augusto Moreira Pena"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico sem texto, de estadista do Império. A múltipla escolha com distratores da mesma época o torna justo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é este estadista do Império?",
+      "resposta": "Visconde do Rio Branco",
+      "distratores": [
+        "Duque de Caxias",
+        "Marquês de Paraná",
+        "Barão de Mauá"
+      ],
+      "ancora": {
+        "nome": "Visconde do Rio Branco",
+        "descricao": "José Maria da Silva Paranhos, político e diplomata do Império, chefe do gabinete que aprovou a Lei do Ventre Livre, em 1871.",
+        "variantes": [
+          "José Maria da Silva Paranhos",
+          "Paranhos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida da fachada do prédio, sem texto que entregue a resposta.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi inaugurado este prédio da Cinelândia, no Rio de Janeiro?",
+      "resposta": "Década de 1910",
+      "distratores": [
+        "Década de 1880",
+        "Década de 1900",
+        "Década de 1920"
+      ],
+      "ancora": {
+        "nome": "Biblioteca Nacional do Brasil",
+        "descricao": "Biblioteca nacional brasileira, na Cinelândia, no Rio de Janeiro, em prédio neoclássico inaugurado em 1910.",
+        "variantes": [
+          "Fundação Biblioteca Nacional"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fotografia sem texto de figura pública. A pergunta segue para a origem da imperatriz, que só se obtém depois de reconhecê-la.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Antes de se casar com o imperador, esta imperatriz do Brasil era princesa de que reino?",
+      "resposta": "Reino das Duas Sicílias",
+      "distratores": [
+        "Reino da Sardenha",
+        "Império Austríaco",
+        "Reino de Portugal"
+      ],
+      "ancora": {
+        "nome": "Imperatriz Teresa Cristina",
+        "descricao": "Teresa Cristina de Bourbon-Duas Sicílias, imperatriz do Brasil e esposa de Dom Pedro II.",
+        "variantes": [
+          "Teresa Cristina de Bourbon-Duas Sicílias",
+          "Teresa Cristina do Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida do santuário branco sobre o penhasco, sem texto. Distratores são outros conventos e santuários coloniais.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que convento histórico é este?",
+      "resposta": "Convento da Penha",
+      "distratores": [
+        "Mosteiro de São Bento",
+        "Convento de Santo Antônio",
+        "Santuário do Caraça"
+      ],
+      "ancora": {
+        "nome": "Convento da Penha",
+        "descricao": "Santuário mariano no alto de um penhasco em Vila Velha, no Espírito Santo, iniciado em 1558.",
+        "variantes": [
+          "Santuário Nossa Senhora da Penha",
+          "Penha Convent"
+        ]
+      }
+    }
+  ]
+}

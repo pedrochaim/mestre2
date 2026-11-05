@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Assumiu em 1919, década de 1910; enunciado sem vazamento e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta; distratores são outros presidentes da República Velha, sem pista no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista genérica (histórica, litoral) não entrega a resposta; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A Wikipédia em português diz que a estação foi inaugurada em 1865; 1901 é o ano de conclusão do prédio atual. 'Inaugurada' fica ambíguo.",
+      "reescrita": {
+        "pergunta": "Em que ano foi concluída a construção do atual edifício desta estação ferroviária paulistana?",
+        "resposta": "1901",
+        "distratores": [
+          "1891",
+          "1906",
+          "1911"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Afonso Pena era mineiro, conforme os trechos; distratores plausíveis e do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação sem pista no enunciado; distratores são outros nomes do Império.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inauguração em 29 de outubro de 1910, década de 1910; distratores válidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasceu princesa do Reino das Duas Sicílias; o enunciado só se resolve vendo a imagem, pois o Brasil teve outras imperatrizes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado usa 'convento', palavra que aparece na resposta (Convento da Penha). Tira-se o vazamento sem trocá-lo por outra pista que entregue.",
+      "reescrita": {
+        "pergunta": "Que santuário histórico, iniciado no século dezesseis, é este?",
+        "resposta": "Convento da Penha",
+        "distratores": [
+          "Mosteiro de São Bento",
+          "Convento de Santo Antônio",
+          "Santuário do Caraça"
+        ]
+      }
+    }
+  ]
+}
