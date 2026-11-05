@@ -1,0 +1,708 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mosquito-palha",
+        "descricao": "Pequeno inseto hematófago da subfamília Phlebotominae, transmissor da leishmaniose.",
+        "variantes": [
+          "Flebotomíneo",
+          "Birigui",
+          "Tatuquira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tatuira",
+          "nome": "Tatuíra",
+          "descricao": "Pequeno crustáceo decápode do gênero Emerita, que se enterra na areia da zona de arrebentação e se alimenta por filtração.",
+          "variantes": [
+            "Emerita",
+            "Caranguejo-da-areia",
+            "Pulga-do-mar"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "mosquito",
+          "nome": "Mosquito",
+          "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+          "variantes": [
+            "Pernilongo",
+            "Muriçoca",
+            "Culicidae",
+            "Carapanã"
+          ]
+        },
+        {
+          "id": "de_havilland_mosquito",
+          "nome": "De Havilland Mosquito",
+          "descricao": "Bimotor britânico multifunção da Segunda Guerra Mundial, de estrutura quase toda de madeira.",
+          "variantes": [
+            "Mosquito",
+            "DH.98 Mosquito",
+            "Mossie"
+          ]
+        },
+        {
+          "id": "anopheles",
+          "nome": "Anopheles",
+          "descricao": "Gênero de mosquitos cujas fêmeas transmitem os parasitas da malária.",
+          "variantes": [
+            "Mosquito-prego",
+            "Anófele"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Barbeiro",
+        "descricao": "Inseto hematófago da subfamília Triatominae, transmissor do Trypanosoma cruzi.",
+        "variantes": [
+          "Triatomíneo",
+          "Chupão",
+          "Bicudo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barbeiro",
+          "nome": "Barbeiro",
+          "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas.",
+          "variantes": [
+            "Triatominae",
+            "triatomíneo",
+            "chupança",
+            "kissing bug"
+          ]
+        },
+        {
+          "id": "bicudo_do_algodoeiro",
+          "nome": "Bicudo-do-algodoeiro",
+          "descricao": "Besouro Anthonomus grandis, da família Curculionidae, grave praga do algodão.",
+          "variantes": [
+            "Boll weevil",
+            "Anthonomus grandis",
+            "Bicudo"
+          ]
+        },
+        {
+          "id": "qipao",
+          "nome": "Qipao",
+          "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+          "variantes": [
+            "Cheongsam",
+            "Chipao"
+          ]
+        },
+        {
+          "id": "cudo",
+          "nome": "Cudo",
+          "descricao": "Grande antílope de savanas arborizadas (Tragelaphus strepsiceros) do leste e do sul da África, com chifres espiralados.",
+          "variantes": [
+            "Cudo-maior",
+            "Greater kudu",
+            "Tragelaphus strepsiceros"
+          ]
+        },
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Formiga-feiticeira",
+        "descricao": "Vespa da família Mutillidae cuja fêmea, sem asas e peluda, parece uma formiga.",
+        "variantes": [
+          "Formiga-de-veludo",
+          "Mutilídeo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "formiga_pote_de_mel",
+          "nome": "Formiga-pote-de-mel",
+          "descricao": "Formiga cujas operárias repletas armazenam alimento líquido no abdômen enormemente inchado.",
+          "variantes": [
+            "Formiga-de-mel",
+            "Honeypot ant",
+            "Myrmecocystus"
+          ]
+        },
+        {
+          "id": "mexilhao",
+          "nome": "Mexilhão",
+          "descricao": "Molusco bivalve marinho da família Mytilidae, de concha alongada escura, fixo ao substrato por filamentos do bisso.",
+          "variantes": [
+            "Mexilhões",
+            "Mytilidae"
+          ]
+        },
+        {
+          "id": "formiga_lava_pes",
+          "nome": "Formiga-lava-pés",
+          "descricao": "Formiga-de-fogo (Solenopsis invicta) de picada ardida, nativa da América do Sul e invasora em outros continentes.",
+          "variantes": [
+            "Solenopsis invicta",
+            "formiga-de-fogo",
+            "red imported fire ant"
+          ]
+        },
+        {
+          "id": "peripato",
+          "nome": "Peripato",
+          "descricao": "Animal do filo Onychophora, de corpo mole e muitas patas curtas, que captura presas com jato de muco.",
+          "variantes": [
+            "Onicóforo",
+            "Verme-de-veludo",
+            "Velvet worm",
+            "Onychophora"
+          ]
+        },
+        {
+          "id": "formiga_tecela",
+          "nome": "Formiga-tecelã",
+          "descricao": "Formiga arbórea verde do gênero Oecophylla, que constrói ninhos unindo folhas com seda das larvas.",
+          "variantes": [
+            "Formiga-verde",
+            "Oecophylla",
+            "Weaver ant"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Aranha-teia-de-funil-de-sydney",
+        "descricao": "Aranha venenosa migalomorfa Atrax robustus, do leste da Austrália.",
+        "variantes": [
+          "Atrax robustus",
+          "Sydney funnel-web spider"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paranthropus_robustus",
+          "nome": "Paranthropus robustus",
+          "descricao": "Espécie extinta de australopitecino robusto do Pleistoceno inicial da África do Sul, descrita em 1938.",
+          "variantes": [
+            "Australopithecus robustus"
+          ]
+        },
+        {
+          "id": "caixa_toracica",
+          "nome": "Caixa torácica",
+          "descricao": "Estrutura óssea do tórax formada por costelas, esterno e vértebras torácicas, que protege coração e pulmões.",
+          "variantes": [
+            "Gaiola torácica",
+            "Tórax ósseo"
+          ]
+        },
+        {
+          "id": "cafe_robusta",
+          "nome": "Café robusta",
+          "descricao": "Espécie de cafeeiro Coffea canephora, cultivada no Brasil sobretudo na variedade conilon, de grão mais amargo e rico em cafeína.",
+          "variantes": [
+            "Conilon",
+            "Coffea canephora",
+            "Robusta"
+          ]
+        },
+        {
+          "id": "ultracriaturas",
+          "nome": "Ultracriaturas",
+          "descricao": "Pokémon misteriosos de Pokémon Sun e Moon, como Nihilego e Buzzwole, vindos de outra dimensão por fendas chamadas Ultra Wormholes.",
+          "variantes": [
+            "Ultra Beasts",
+            "UB"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Borboleta-folha",
+        "descricao": "Borboleta Kallima inachus, da Ásia tropical, que com as asas fechadas parece uma folha seca.",
+        "variantes": [
+          "Kallima inachus",
+          "Folha-seca-indiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "borboleta_coruja",
+          "nome": "Borboleta-coruja",
+          "descricao": "Borboleta grande do gênero Caligo, das florestas neotropicais, com grandes ocelos nas asas que lembram olhos de coruja.",
+          "variantes": [
+            "Caligo",
+            "Owl butterfly"
+          ]
+        },
+        {
+          "id": "borboleta_monarca",
+          "nome": "Borboleta-monarca",
+          "descricao": "Borboleta norte-americana (Danaus plexippus) de asas laranja, pretas e brancas, famosa pela migração anual.",
+          "variantes": [
+            "Monarca",
+            "Danaus plexippus"
+          ]
+        },
+        {
+          "id": "nado_borboleta",
+          "nome": "Nado borboleta",
+          "descricao": "Estilo de natação com braços simétricos e pernas em golfinhada.",
+          "variantes": [
+            "Borboleta",
+            "Butterfly",
+            "Butterfly stroke"
+          ]
+        },
+        {
+          "id": "borboleta",
+          "nome": "Borboleta",
+          "descricao": "Inseto alado da superfamília Papilionoidea, de asas grandes e coloridas; aqui, uma borboleta de asas alaranjadas e brancas, pousada numa folha.",
+          "variantes": [
+            "Borboletas",
+            "Butterfly"
+          ]
+        },
+        {
+          "id": "borboleta_88",
+          "nome": "Borboleta-88",
+          "descricao": "Borboleta neotropical do gênero Diaethria, cujas asas posteriores, por baixo, têm um desenho que lembra o número 88.",
+          "variantes": [
+            "Borboleta oitenta e oito",
+            "Eighty-eight",
+            "Diaethria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Caranguejo-uçá",
+        "descricao": "Caranguejo de manguezal Ucides cordatus, do Atlântico ocidental, importante na alimentação no Brasil.",
+        "variantes": [
+          "Uçá",
+          "Ucides cordatus",
+          "Caranguejo-verdadeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_violinista",
+          "nome": "Caranguejo-violinista",
+          "descricao": "Caranguejo do gênero Uca, cujos machos têm uma garra enorme.",
+          "variantes": [
+            "Uca",
+            "Fiddler crab",
+            "Chama-maré"
+          ]
+        },
+        {
+          "id": "cuca",
+          "nome": "Cuca",
+          "descricao": "Bruxa do folclore brasileiro que pega crianças desobedientes, popularizada pelo Sítio do Picapau Amarelo.",
+          "variantes": [
+            "Coca"
+          ]
+        },
+        {
+          "id": "morro_da_urca",
+          "nome": "Morro da Urca",
+          "descricao": "Morro do Rio de Janeiro, no bairro da Urca, primeira parada do bondinho que leva ao Pão de Açúcar.",
+          "variantes": [
+            "Urca"
+          ]
+        },
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "caranguejo",
+          "nome": "Caranguejo",
+          "descricao": "Crustáceo decápode da infraordem Brachyura, de carapaça larga e cauda curta dobrada sob o corpo.",
+          "variantes": [
+            "Brachyura",
+            "Crab"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Escorpião-imperador",
+        "descricao": "Grande escorpião negro Pandinus imperator, das florestas e savanas da África Ocidental.",
+        "variantes": [
+          "Pandinus imperator"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sagui_imperador",
+          "nome": "Sagui-imperador",
+          "descricao": "Pequeno primata amazônico (Saguinus imperator) de longo bigode branco.",
+          "variantes": [
+            "Saguinus imperator",
+            "Imperador-tamarino"
+          ]
+        },
+        {
+          "id": "tupandactylus",
+          "nome": "Tupandactylus",
+          "descricao": "Gênero de pterossauro tapejarídeo de grande crista, da Formação Crato, Cretáceo Inferior do Brasil.",
+          "variantes": [
+            "Tupandactylus imperator",
+            "Tapejara imperator"
+          ]
+        },
+        {
+          "id": "peixe_anjo_imperador",
+          "nome": "Peixe-anjo-imperador",
+          "descricao": "Peixe de recife Pomacanthus imperator, listrado de azul e amarelo, nativo dos oceanos Índico e Pacífico.",
+          "variantes": [
+            "Pomacanthus imperator",
+            "Emperor angelfish"
+          ]
+        },
+        {
+          "id": "pinguim_imperador",
+          "nome": "Pinguim-imperador",
+          "descricao": "Maior e mais pesado dos pinguins (Aptenodytes forsteri), endêmico da Antártida, com manchas amarelas nos lados da cabeça.",
+          "variantes": [
+            "Emperor penguin",
+            "Aptenodytes forsteri"
+          ]
+        },
+        {
+          "id": "escorpiao_amarelo",
+          "nome": "Escorpião-amarelo",
+          "descricao": "Escorpião brasileiro (Tityus serrulatus), de veneno perigoso e comum em áreas urbanas.",
+          "variantes": [
+            "Tityus serrulatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Vespa-caçadora-de-tarântulas",
+        "descricao": "Vespa parasitoide da família Pompilidae (gêneros Pepsis e Hemipepsis) que caça tarântulas.",
+        "variantes": [
+          "Tarantula hawk",
+          "Marimbondo-caçador-de-tarântulas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marimbondo_cavalo",
+          "nome": "Marimbondo-cavalo",
+          "descricao": "Vespa da família Pompilidae, dos gêneros Pepsis e Hemipepsis, que caça tarântulas.",
+          "variantes": [
+            "Tarantula hawk",
+            "Vespa-caçadora-de-tarântulas"
+          ]
+        },
+        {
+          "id": "aranha_caranguejeira",
+          "nome": "Aranha-caranguejeira",
+          "descricao": "Aranha grande e peluda da família Theraphosidae, popularmente chamada de tarântula.",
+          "variantes": [
+            "Tarântula",
+            "Theraphosidae"
+          ]
+        },
+        {
+          "id": "nebulosa_da_tarantula",
+          "nome": "Nebulosa da Tarântula",
+          "descricao": "Grande região H II, também chamada 30 Doradus, no canto sudeste da Grande Nuvem de Magalhães.",
+          "variantes": [
+            "30 Doradus",
+            "Tarantula Nebula"
+          ]
+        },
+        {
+          "id": "sakura_card_captors",
+          "nome": "Sakura Card Captors",
+          "descricao": "Mangá e anime sobre a menina Sakura, que precisa recuperar cartas mágicas.",
+          "variantes": [
+            "Cardcaptor Sakura",
+            "Sakura Caçadora de Cartas"
+          ]
+        },
+        {
+          "id": "tarountula",
+          "nome": "Tarountula",
+          "descricao": "Pokémon aranha de tipo inseto da nona geração, número 917 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lagostim",
+        "descricao": "Crustáceo da infraordem Astacidea, em geral de água doce, parente das lagostas.",
+        "variantes": [
+          "Crayfish",
+          "Lagostim-de-água-doce"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagosta",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho de corpo alongado e cauda musculosa, muito apreciado na culinária.",
+          "variantes": [
+            "Lobster"
+          ]
+        },
+        {
+          "id": "lagosta_2",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode da família Nephropidae, de corpo longo e primeiro par de patas com grandes pinças.",
+          "variantes": [
+            "Lavagante",
+            "Homarus gammarus"
+          ]
+        },
+        {
+          "id": "lagosta_3",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho da família Nephropidae, de corpo alongado e grandes pinças, como a lagosta-europeia.",
+          "variantes": [
+            "Lavagante",
+            "Lagosta-europeia"
+          ]
+        },
+        {
+          "id": "latim",
+          "nome": "Latim",
+          "descricao": "Língua indo-europeia da Roma antiga, ancestral das línguas românicas.",
+          "variantes": [
+            "Língua latina"
+          ]
+        },
+        {
+          "id": "cutia",
+          "nome": "Cutia",
+          "descricao": "Roedor do gênero Dasyprocta, comum nas florestas das Américas Central e do Sul.",
+          "variantes": [
+            "Dasyprocta",
+            "Agouti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Búzio",
+        "descricao": "Caramujo marinho da família Cypraeidae, cuja concha lisa e brilhante foi usada como moeda.",
+        "variantes": [
+          "Cauri",
+          "Cipreia",
+          "Cowrie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "buzio_cauri",
+          "nome": "Búzio-cauri",
+          "descricao": "Concha de pequenos moluscos do oceano Índico, usada como moeda em várias regiões da África.",
+          "variantes": [
+            "Cauri",
+            "Cowrie",
+            "Búzio"
+          ]
+        },
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        },
+        {
+          "id": "bugio",
+          "nome": "Bugio",
+          "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos.",
+          "variantes": [
+            "Guariba",
+            "Alouatta",
+            "Howler monkey",
+            "Barbado"
+          ]
+        },
+        {
+          "id": "caqui",
+          "nome": "Cáqui",
+          "descricao": "Cor bege-amarronzada adotada em uniformes militares a partir do exército britânico na Índia",
+          "variantes": [
+            "Khaki"
+          ]
+        },
+        {
+          "id": "persefone",
+          "nome": "Perséfone",
+          "descricao": "Deusa grega filha de Deméter, raptada por Hades e rainha do mundo dos mortos.",
+          "variantes": [
+            "Persephone",
+            "Prosérpina",
+            "Core"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Mandaçaia",
+        "descricao": "Abelha sem ferrão Melipona quadrifasciata, nativa do Sudeste e Sul do Brasil.",
+        "variantes": [
+          "Melipona quadrifasciata",
+          "Mandaçaia-grande"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mandacaru",
+          "nome": "Mandacaru",
+          "descricao": "Cacto Cereus jamacaru, típico da Caatinga e símbolo do sertão nordestino",
+          "variantes": [
+            "Cereus jamacaru"
+          ]
+        },
+        {
+          "id": "mancala",
+          "nome": "Mancala",
+          "descricao": "Família de jogos de tabuleiro para dois jogadores, com sementes ou pedras distribuídas em covas.",
+          "variantes": [
+            "Kalah",
+            "Manqala"
+          ]
+        },
+        {
+          "id": "garca_branca_grande",
+          "nome": "Garça-branca-grande",
+          "descricao": "Ardea alba, grande garça branca de bico amarelo, amplamente distribuída pelo mundo.",
+          "variantes": [
+            "Great egret",
+            "Ardea alba",
+            "Garça-grande"
+          ]
+        },
+        {
+          "id": "grande_canal_de_veneza",
+          "nome": "Grande Canal de Veneza",
+          "descricao": "Principal canal de Veneza, Itália, com formato de S invertido, cruzado pela Ponte de Rialto.",
+          "variantes": [
+            "Canal Grande",
+            "Canalazzo"
+          ]
+        },
+        {
+          "id": "anaca",
+          "nome": "Anacã",
+          "descricao": "Papagaio amazônico de cabeça marrom estriada e leque de penas vermelhas e azuis na nuca (Deroptyus accipitrinus).",
+          "variantes": [
+            "Papagaio-de-coleira",
+            "Deroptyus accipitrinus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Flebotomíneo é diferente de mosquito Culicidae e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "barbeiro",
+      "motivo": "Mesma entidade: insetos Triatominae transmissores da doença de Chagas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Vespa Mutillidae não corresponde a nenhuma formiga candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Atrax robustus é aranha; candidatas são entidades diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Kallima inachus é espécie específica, distinta das outras borboletas e da genérica."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ucides cordatus é espécie distinta das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pandinus imperator é um escorpião distinto das candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "marimbondo_cavalo",
+      "motivo": "Mesma vespa Pepsis/Hemipepsis caçadora de tarântulas, com variantes coincidentes."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Lagostim (Astacidea de água doce) é diferente de lagosta."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "buzio_cauri",
+      "motivo": "Búzio/cauri/cowrie, a concha-moeda de Cypraeidae, é a mesma entidade."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Abelha mandaçaia não corresponde a nenhuma candidata."
+    }
+  ]
+}

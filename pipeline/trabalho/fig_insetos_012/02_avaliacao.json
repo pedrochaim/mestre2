@@ -1,0 +1,295 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de flebotomíneo sugando sangue; reconhecível, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inseto minúsculo, de asas peludas e erguidas, é este?",
+      "resposta": "Mosquito-palha",
+      "distratores": [
+        "Pernilongo",
+        "Borrachudo",
+        "Maruim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosquito-palha",
+        "descricao": "Pequeno inseto hematófago da subfamília Phlebotominae, transmissor da leishmaniose.",
+        "variantes": [
+          "Flebotomíneo",
+          "Birigui",
+          "Tatuquira"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem pequena, mas o barbeiro é reconhecível pela forma e pelo padrão do abdome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que doença é transmitida pelas fezes deste inseto?",
+      "resposta": "Doença de Chagas",
+      "distratores": [
+        "Malária",
+        "Dengue",
+        "Febre amarela"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Barbeiro",
+        "descricao": "Inseto hematófago da subfamília Triatominae, transmissor do Trypanosoma cruzi.",
+        "variantes": [
+          "Triatomíneo",
+          "Chupão",
+          "Bicudo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de vespa mutilídea fêmea sem asas, vermelha e peluda; reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inseto de pelos vermelhos, com jeito de formiga, é este?",
+      "resposta": "Formiga-feiticeira",
+      "distratores": [
+        "Formiga-de-fogo",
+        "Formiga-cortadeira",
+        "Saúva-limão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Formiga-feiticeira",
+        "descricao": "Vespa da família Mutillidae cuja fêmea, sem asas e peluda, parece uma formiga.",
+        "variantes": [
+          "Formiga-de-veludo",
+          "Mutilídeo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de vespa social (amarela e preta); pergunta de grupo evita a espécie exata.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este inseto pertence à mesma ordem das abelhas e das formigas. Qual é essa ordem?",
+      "resposta": "Himenópteros",
+      "distratores": [
+        "Coleópteros",
+        "Dípteros",
+        "Lepidópteros"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vespa",
+        "descricao": "Inseto himenóptero de cintura fina que não é abelha nem formiga, como as vespas sociais amarelas e pretas.",
+        "variantes": [
+          "Marimbondo",
+          "Vespídeo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto legível de aranha-de-teia-em-funil em pose de ameaça; pergunta no grupo evita depender da espécie exata.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de aranha australiana, de picada perigosa, é esta?",
+      "resposta": "Aranha-teia-de-funil",
+      "distratores": [
+        "Viúva-negra",
+        "Aranha-armadeira",
+        "Aranha-lobo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aranha-teia-de-funil-de-sydney",
+        "descricao": "Aranha venenosa migalomorfa Atrax robustus, do leste da Austrália.",
+        "variantes": [
+          "Atrax robustus",
+          "Sydney funnel-web spider"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida da borboleta com asas fechadas imitando folha seca.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com as asas fechadas, esta borboleta imita que parte de uma planta?",
+      "resposta": "Folha seca",
+      "distratores": [
+        "Casca de árvore",
+        "Flor murcha",
+        "Galho seco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Borboleta-folha",
+        "descricao": "Borboleta Kallima inachus, da Ásia tropical, que com as asas fechadas parece uma folha seca.",
+        "variantes": [
+          "Kallima inachus",
+          "Folha-seca-indiana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Caranguejo de dorso azulado-claro e patas vermelhas, compatível com o uçá; algum risco de confusão com chama-maré, mitigado nos distratores.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que caranguejo de manguezal brasileiro é este?",
+      "resposta": "Uçá",
+      "distratores": [
+        "Guaiamum",
+        "Siri-azul",
+        "Aratu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-uçá",
+        "descricao": "Caranguejo de manguezal Ucides cordatus, do Atlântico ocidental, importante na alimentação no Brasil.",
+        "variantes": [
+          "Uçá",
+          "Ucides cordatus",
+          "Caranguejo-verdadeiro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível de escorpião-imperador negro; assinatura minúscula não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que continente é nativo este escorpião, um dos maiores do mundo?",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "Austrália",
+        "América do Sul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Escorpião-imperador",
+        "descricao": "Grande escorpião negro Pandinus imperator, das florestas e savanas da África Ocidental.",
+        "variantes": [
+          "Pandinus imperator"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vespa azul-metálica de asas alaranjadas, inconfundível; outra vespa ao fundo é pequena e não atrapalha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta vespa paralisa com a ferroada um tipo de presa para alimentar a larva. Qual?",
+      "resposta": "Tarântulas",
+      "distratores": [
+        "Escorpiões",
+        "Lagartas",
+        "Grilos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vespa-caçadora-de-tarântulas",
+        "descricao": "Vespa parasitoide da família Pompilidae (gêneros Pepsis e Hemipepsis) que caça tarântulas.",
+        "variantes": [
+          "Tarantula hawk",
+          "Marimbondo-caçador-de-tarântulas"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de crustáceo de água doce com pinças, reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que crustáceo é este?",
+      "resposta": "Lagostim",
+      "distratores": [
+        "Lagosta",
+        "Siri",
+        "Camarão-rosa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lagostim",
+        "descricao": "Crustáceo da infraordem Astacidea, em geral de água doce, parente das lagostas.",
+        "variantes": [
+          "Crayfish",
+          "Lagostim-de-água-doce"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto de ciprea viva com a concha pintada, reconhecível como búzio; um pouco escura, mas legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "As conchas deste molusco serviram em várias culturas como quê?",
+      "resposta": "Moeda",
+      "distratores": [
+        "Arma",
+        "Tinta",
+        "Bússola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Búzio",
+        "descricao": "Caramujo marinho da família Cypraeidae, cuja concha lisa e brilhante foi usada como moeda.",
+        "variantes": [
+          "Cauri",
+          "Cipreia",
+          "Cowrie"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Abelhas com faixas amarelas no abdome escuro, típicas da mandaçaia; crédito do fotógrafo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que abelha sem ferrão brasileira, de abdome listrado de amarelo, é esta?",
+      "resposta": "Mandaçaia",
+      "distratores": [
+        "Jataí",
+        "Uruçu",
+        "Tiúba"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mandaçaia",
+        "descricao": "Abelha sem ferrão Melipona quadrifasciata, nativa do Sudeste e Sul do Brasil.",
+        "variantes": [
+          "Melipona quadrifasciata",
+          "Mandaçaia-grande"
+        ]
+      }
+    }
+  ]
+}

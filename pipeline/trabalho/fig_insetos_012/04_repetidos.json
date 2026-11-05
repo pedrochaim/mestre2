@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que doença é transmitida por este inseto, que costuma picar à noite?",
+        "resposta": "Doença de Chagas"
+      },
+      "existentes": [
+        {
+          "id": "q02595",
+          "pergunta": "Que parte do corpo o inseto barbeiro costuma picar enquanto a pessoa dorme, o que explica seu apelido?",
+          "resposta": "O rosto"
+        },
+        {
+          "id": "q06945",
+          "pergunta": "Em 1909, que médico brasileiro identificou o Trypanosoma cruzi, parasita transmitido pelo inseto barbeiro, e descreveu a doença que ele causa?",
+          "resposta": "Carlos Chagas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta vespa paralisa com a ferroada um tipo de presa para alimentar a larva. Qual?",
+        "resposta": "Tarântulas"
+      },
+      "existentes": [
+        {
+          "id": "q08674",
+          "pergunta": "Em 1989, um estado americano escolheu uma espécie desta vespa como seu inseto oficial. Que estado?",
+          "resposta": "Novo México"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que molusco marinho, de concha lisa e brilhante, é este?",
+        "resposta": "Búzio"
+      },
+      "existentes": [
+        {
+          "id": "q08131",
+          "pergunta": "Que concha marinha, trazida do oceano Índico, serviu de moeda em grande parte da África Ocidental durante séculos?",
+          "resposta": "Búzio, ou cauri"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a doença transmitida pelo barbeiro. As existentes perguntam a parte do corpo picada e quem identificou o parasita. Quem soubesse o médico poderia saber a doença, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a presa paralisada pela vespa. A existente pergunta qual estado adotou a vespa como inseto oficial."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede para identificar o molusco de concha lisa e brilhante. A existente pergunta qual concha serviu de moeda na África. A resposta é parecida, mas os fatos são diferentes."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Asas levantadas e corpo com cerdas estão nos trechos; o enunciado não nomeia a resposta e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'pelas fezes' aponta direto para a doença de Chagas sem olhar a figura, que vira enfeite. A pista foi tirada.",
+      "reescrita": {
+        "pergunta": "Que doença é transmitida por este inseto, que costuma picar à noite?",
+        "resposta": "Doença de Chagas",
+        "distratores": [
+          "Malária",
+          "Dengue",
+          "Febre amarela"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado repete 'formiga', que está na resposta, e 'pelos vermelhos' nem sempre vale: o trecho diz que a cor pode ser preta, branca ou dourada. A pista foi trocada por fêmea sem asas e vistosa, que está nos trechos.",
+      "reescrita": {
+        "pergunta": "Que inseto de cores vistosas, cuja fêmea não tem asas e vaga pelo chão, é este?",
+        "resposta": "Formiga-feiticeira",
+        "distratores": [
+          "Formiga-de-fogo",
+          "Formiga-cortadeira",
+          "Vespa-de-papel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado já traz a pista 'mesma ordem das abelhas e das formigas', que entrega a resposta com a figura coberta. Além disso, 'vespa' genérica é um grupo parafilético, então a figura não ajuda.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Viúva-negra' é defensável: a viúva-de-dorso-vermelho (redback) é australiana e de picada perigosa. Foi trocado por um distrator claramente errado.",
+      "reescrita": {
+        "pergunta": "Que tipo de aranha australiana, de picada perigosa, é esta?",
+        "resposta": "Aranha-teia-de-funil",
+        "distratores": [
+          "Aranha-armadeira",
+          "Aranha-lobo",
+          "Caranguejeira"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Imita que parte de uma planta' deixa a resposta guessable sem a figura, e flor, casca e galho também aparecem como camuflagem. Passou a ser identificação da borboleta, com pista que não entrega.",
+      "reescrita": {
+        "pergunta": "Que borboleta da Ásia tropical, exemplo clássico de camuflagem, é esta?",
+        "resposta": "Borboleta-folha",
+        "distratores": [
+          "Borboleta-monarca",
+          "Borboleta-coruja",
+          "Rabo-de-andorinha"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta, com resposta sustentada pelos trechos; a figura decide entre os caranguejos de mangue.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nativo da África Ocidental e um dos maiores escorpiões do mundo, conforme os trechos. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que paralisa tarântulas com a ferroada para alimentar a larva. O enunciado não nomeia a presa.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação simples, sem vazamento; distratores do mesmo tipo e visualmente próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Moeda' não é a única resposta defensável: os trechos citam também joia, amuleto e jogo de dados. Passou a ser identificação do molusco, sem a pista do dinheiro.",
+      "reescrita": {
+        "pergunta": "Que molusco marinho, de concha lisa e brilhante, é este?",
+        "resposta": "Búzio",
+        "distratores": [
+          "Ostra",
+          "Mexilhão",
+          "Vieira"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Abelha sem ferrão do Brasil com faixas amarelas no abdome, como diz o trecho. A figura é necessária e os distratores são abelhas sem ferrão parecidas.",
+      "reescrita": null
+    }
+  ]
+}
