@@ -1,0 +1,413 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Catedral Metropolitana de Porto Alegre",
+        "descricao": "Catedral católica na Praça da Matriz, no Centro Histórico de Porto Alegre (RS).",
+        "variantes": [
+          "Igreja Matriz de Nossa Senhora da Madre de Deus",
+          "Catedral de Porto Alegre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_metropolitana_de_porto_alegre",
+          "nome": "Catedral Metropolitana de Porto Alegre",
+          "descricao": "Catedral da Praça da Matriz, no Centro Histórico de Porto Alegre, dedicada a Nossa Senhora da Madre de Deus.",
+          "variantes": [
+            "Igreja Matriz de Nossa Senhora da Madre de Deus"
+          ]
+        },
+        {
+          "id": "catedral_metropolitana_de_fortaleza",
+          "nome": "Catedral Metropolitana de Fortaleza",
+          "descricao": "Catedral católica neogótica de Fortaleza (CE), na Praça da Sé, inaugurada em 1978.",
+          "variantes": [
+            "Catedral da Sé de Fortaleza",
+            "Catedral de São José"
+          ]
+        },
+        {
+          "id": "sport_club_internacional",
+          "nome": "Sport Club Internacional",
+          "descricao": "Clube de futebol de Porto Alegre, no Rio Grande do Sul, fundado em 1909, conhecido como Colorado.",
+          "variantes": [
+            "Internacional",
+            "Inter",
+            "Inter de Porto Alegre",
+            "Internacional de Porto Alegre"
+          ]
+        },
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Parque das Esculturas Francisco Brennand",
+        "descricao": "Museu de arte a céu aberto no Recife (PE), com esculturas de Francisco Brennand e a Torre de Cristal.",
+        "variantes": [
+          "Marco Zero do Recife (Parque das Esculturas)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "centro_dragao_do_mar_de_arte_e_cultura",
+          "nome": "Centro Dragão do Mar de Arte e Cultura",
+          "descricao": "Centro cultural de Fortaleza, Ceará, com museus, planetário, teatro e cinemas.",
+          "variantes": [
+            "Dragão do Mar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ópera de Arame",
+        "descricao": "Teatro de estrutura tubular de aço cercado por lago, em Curitiba (PR), inaugurado em 1992.",
+        "variantes": [
+          "Ópera de Arame de Curitiba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House",
+            "Teatro Ópera de Arame"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "partida_da_opera",
+          "nome": "Partida da Ópera",
+          "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera.",
+          "variantes": [
+            "Opera Game",
+            "Jogo da Ópera"
+          ]
+        },
+        {
+          "id": "alinhamentos_de_carnac",
+          "nome": "Alinhamentos de Carnac",
+          "descricao": "Milhares de menires enfileirados perto de Carnac, na Bretanha, França.",
+          "variantes": [
+            "Pedras de Carnac",
+            "Carnac stones"
+          ]
+        },
+        {
+          "id": "paleta_de_narmer",
+          "nome": "Paleta de Narmer",
+          "descricao": "Placa de pedra entalhada do início da história egípcia que mostra o rei Narmer com as coroas do Alto e do Baixo Egito",
+          "variantes": [
+            "Narmer Palette"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Museu da Inconfidência",
+        "descricao": "Museu histórico e artístico instalado na antiga Casa de Câmara e Cadeia de Vila Rica, na Praça Tiradentes, em Ouro Preto (MG).",
+        "variantes": [
+          "Casa de Câmara e Cadeia de Vila Rica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_da_inconfidencia",
+          "nome": "Museu da Inconfidência",
+          "descricao": "Museu de história da Inconfidência Mineira, instalado na antiga Casa de Câmara e Cadeia, na Praça Tiradentes, em Ouro Preto.",
+          "variantes": [
+            "Casa de Câmara e Cadeia de Vila Rica"
+          ]
+        },
+        {
+          "id": "casa_da_opera_de_ouro_preto",
+          "nome": "Casa da Ópera de Ouro Preto",
+          "descricao": "Teatro colonial de Ouro Preto, em Minas Gerais, inaugurado em 1770, hoje Teatro Municipal da cidade.",
+          "variantes": [
+            "Casa da Ópera de Vila Rica",
+            "Teatro Municipal de Ouro Preto"
+          ]
+        },
+        {
+          "id": "brasao_da_indonesia",
+          "nome": "Brasão da Indonésia",
+          "descricao": "Brasão de armas da Indonésia, com a ave mitológica Garuda e escudo com cinco símbolos do Pancasila.",
+          "variantes": [
+            "Indonésia",
+            "Garuda Pancasila",
+            "Armas da Indonésia"
+          ]
+        },
+        {
+          "id": "museu_de_imagens_do_inconsciente",
+          "nome": "Museu de Imagens do Inconsciente",
+          "descricao": "Museu no Rio de Janeiro, criado em 1952, que reúne obras feitas por pacientes psiquiátricos.",
+          "variantes": []
+        },
+        {
+          "id": "conjuracao_baiana",
+          "nome": "Conjuração Baiana",
+          "descricao": "Movimento separatista e igualitário descoberto em Salvador, na Bahia, em 1798.",
+          "variantes": [
+            "Revolta dos Alfaiates",
+            "Revolta dos Búzios",
+            "Inconfidência Baiana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Centro Cultural Internacional Oscar Niemeyer",
+        "descricao": "Complexo cultural de linhas modernistas brancas em Avilés, na Espanha, inaugurado em 2011.",
+        "variantes": [
+          "Centro Niemeyer (Avilés)",
+          "Centro Niemeyer",
+          "Centro Niemeyer de Avilés"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oscar_niemeyer",
+          "nome": "Oscar Niemeyer",
+          "descricao": "Arquiteto brasileiro modernista (1907–2012), autor dos principais prédios públicos de Brasília.",
+          "variantes": [
+            "Oscar Ribeiro de Almeida Niemeyer Soares Filho"
+          ]
+        },
+        {
+          "id": "edificio_niemeyer_belo_horizonte",
+          "nome": "Edifício Niemeyer (Belo Horizonte)",
+          "descricao": "Edifício residencial de varandas onduladas na Praça da Liberdade, em Belo Horizonte, projetado por Oscar Niemeyer.",
+          "variantes": [
+            "Edifício Niemeyer",
+            "Niemeyer Building"
+          ]
+        },
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        },
+        {
+          "id": "cameron_anime",
+          "nome": "Cameron (anime)",
+          "descricao": "Treinador distraído de Unova, rival de Ash na série Preto e Branco do anime Pokémon, dono de um Riolu.",
+          "variantes": [
+            "Cameron",
+            "Kenyan"
+          ]
+        },
+        {
+          "id": "museu_oscar_niemeyer",
+          "nome": "Museu Oscar Niemeyer",
+          "descricao": "Museu de artes visuais, arquitetura e design em Curitiba, conhecido como Museu do Olho.",
+          "variantes": [
+            "Museu do Olho",
+            "MON"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Parque Ibirapuera",
+        "descricao": "Grande parque urbano de São Paulo, inaugurado em 1954, com pavilhões modernistas.",
+        "variantes": [
+          "Ibirapuera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_ibirapuera",
+          "nome": "Parque Ibirapuera",
+          "descricao": "Parque urbano de 158 hectares em São Paulo, inaugurado em 1954 e o mais visitado da América do Sul.",
+          "variantes": [
+            "Ibirapuera",
+            "Ibirapuera Park"
+          ]
+        },
+        {
+          "id": "auditorio_ibirapuera",
+          "nome": "Auditório Ibirapuera",
+          "descricao": "Auditório de concertos no Parque Ibirapuera, em São Paulo, de formas brancas e marquise vermelha.",
+          "variantes": [
+            "Auditório do Ibirapuera",
+            "Auditório Oscar Niemeyer"
+          ]
+        },
+        {
+          "id": "uirapuru",
+          "nome": "Uirapuru",
+          "descricao": "Pequena ave amazônica (Cyphorhinus arada) de canto melodioso, cercada de lendas de sorte e encantamento.",
+          "variantes": [
+            "Uirapuru-verdadeiro",
+            "Corneteiro",
+            "Cyphorhinus arada"
+          ]
+        },
+        {
+          "id": "irara",
+          "nome": "Irara",
+          "descricao": "Mustelídeo onívoro das Américas (Eira barbara), de corpo escuro e mancha clara no peito.",
+          "variantes": [
+            "Eira barbara",
+            "Tayra",
+            "Papa-mel"
+          ]
+        },
+        {
+          "id": "pau_brasil",
+          "nome": "Pau-brasil",
+          "descricao": "Árvore nativa da Mata Atlântica, cuja madeira avermelhada foi o primeiro produto explorado pelos portugueses no Brasil.",
+          "variantes": [
+            "Paubrasilia echinata",
+            "Caesalpinia echinata",
+            "ibirapitanga",
+            "pernambuco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Forte de Copacabana",
+        "descricao": "Forte militar e museu na ponta sul da praia de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Forte de Copacabana (Rio de Janeiro)",
+          "Fort Copacabana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forte_de_copacabana",
+          "nome": "Forte de Copacabana",
+          "descricao": "Fortificação militar na ponta sul da praia de Copacabana, no Rio de Janeiro.",
+          "variantes": [
+            "Forte de Copacabana e Museu Histórico do Exército"
+          ]
+        },
+        {
+          "id": "copacabana",
+          "nome": "Copacabana",
+          "descricao": "Bairro da zona sul do Rio de Janeiro, famoso pela praia e pela Avenida Atlântica.",
+          "variantes": [
+            "Copacabana (Rio de Janeiro)",
+            "Copacabana (bairro)"
+          ]
+        },
+        {
+          "id": "revolta_dos_18_do_forte_de_copacabana",
+          "nome": "Revolta dos 18 do Forte de Copacabana",
+          "descricao": "Primeira revolta do movimento tenentista, ocorrida no Rio de Janeiro em 5 de julho de 1922.",
+          "variantes": [
+            "Os 18 do Forte",
+            "Revolta do Forte de Copacabana"
+          ]
+        },
+        {
+          "id": "calcadao_de_copacabana",
+          "nome": "Calçadão de Copacabana",
+          "descricao": "Calçada à beira-mar da praia de Copacabana, no Rio de Janeiro, com desenho de ondas em pedra portuguesa.",
+          "variantes": [
+            "Calçadão da Avenida Atlântica"
+          ]
+        },
+        {
+          "id": "igreja_da_penha_rio_de_janeiro",
+          "nome": "Igreja da Penha (Rio de Janeiro)",
+          "descricao": "Basílica santuário de Nossa Senhora da Penha de França, no bairro da Penha, no Rio de Janeiro.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora da Penha de França",
+            "Igreja de Nossa Senhora da Penha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "catedral_metropolitana_de_porto_alegre",
+      "motivo": "Mesma catedral na Praça da Matriz, Porto Alegre."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Parque das Esculturas do Recife."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "opera_de_arame",
+      "motivo": "Mesmo teatro de estrutura tubular de aço cercado por lago (Curitiba)."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "museu_da_inconfidencia",
+      "motivo": "Mesmo museu na Casa de Câmara e Cadeia, Ouro Preto."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Centro Niemeyer de Avilés é distinto das candidatas (arquiteto, edifício BH, museu Curitiba)."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "parque_ibirapuera",
+      "motivo": "Mesmo parque de São Paulo inaugurado em 1954."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "forte_de_copacabana",
+      "motivo": "Mesma fortificação na ponta sul de Copacabana."
+    }
+  ]
+}

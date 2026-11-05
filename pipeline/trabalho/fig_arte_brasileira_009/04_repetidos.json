@@ -1,0 +1,108 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que catedral é esta?",
+        "resposta": "Catedral Metropolitana de Porto Alegre"
+      },
+      "existentes": [
+        {
+          "id": "q17734",
+          "pergunta": "Em que cidade fica esta catedral?",
+          "resposta": "Porto Alegre"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem projetou este teatro?",
+        "resposta": "Domingos Bongestabs"
+      },
+      "existentes": [
+        {
+          "id": "q02035",
+          "pergunta": "Em qual capital brasileira fica a Ópera de Arame, teatro de tubos de aço erguido numa antiga pedreira?",
+          "resposta": "Curitiba"
+        },
+        {
+          "id": "q16522",
+          "pergunta": "Que casa de espetáculos brasileira é esta?",
+          "resposta": "Ópera de Arame"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade mineira fica este museu?",
+        "resposta": "Ouro Preto"
+      },
+      "existentes": [
+        {
+          "id": "q17247",
+          "pergunta": "Em que cidade histórica de Minas Gerais fica este museu?",
+          "resposta": "Ouro Preto"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que parque é este?",
+        "resposta": "Parque Ibirapuera"
+      },
+      "existentes": [
+        {
+          "id": "q16617",
+          "pergunta": "Esta vista aérea mostra um grande parque de qual cidade?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que forte é este?",
+        "resposta": "Forte de Copacabana"
+      },
+      "existentes": [
+        {
+          "id": "q16895",
+          "pergunta": "Que construção é esta, na ponta da praia?",
+          "resposta": "Forte de Copacabana"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome da catedral, a outra a cidade onde fica; fatos diferentes, embora a resposta de uma contenha a cidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o arquiteto do teatro, fato diferente da cidade ou da identificação."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade mineira onde fica o museu, com a mesma resposta, Ouro Preto.",
+      "id_existente": "q17247"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pede o nome do parque; a existente pede a cidade da vista aérea."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do Forte de Copacabana a partir da imagem.",
+      "id_existente": "q16895"
+    }
+  ]
+}

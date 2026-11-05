@@ -782,7 +782,7 @@
       "titulo": "pt:Igreja de Santa Efigênia (Ouro Preto)",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Casa das Canoas",
@@ -950,7 +950,7 @@
       "titulo": "pt:Museu da Inconfidência",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Convento da Penha",
@@ -992,7 +992,7 @@
       "titulo": "pt:Pavilhão Ciccillo Matarazzo",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Estátua do Padre Cícero",
@@ -1006,7 +1006,7 @@
       "titulo": "en:Lina Bo Bardi",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Lasar Segall",
@@ -1062,7 +1062,7 @@
       "titulo": "pt:Catedral Metropolitana de Porto Alegre",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Casa do Baile",
@@ -1118,6 +1118,286 @@
       "titulo": "pt:Fala do Trono (Pedro Américo)",
       "camada": 3,
       "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio do Morumbi",
+      "titulo": "en:Estádio do Morumbi",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Farol da Barra",
+      "titulo": "pt:Farol da Barra",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Parque Ibirapuera",
+      "titulo": "en:Ibirapuera Park",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Jardim Botânico de Curitiba",
+      "titulo": "pt:Jardim Botânico de Curitiba",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ópera de Arame",
+      "titulo": "pt:Ópera de Arame",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Forte de Copacabana",
+      "titulo": "en:Fort Copacabana",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Nacional Mané Garrincha",
+      "titulo": "en:Estádio Nacional Mané Garrincha",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de Pedra (Canela)",
+      "titulo": "pt:Catedral de Pedra (Canela)",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Martírio de Tiradentes (Aurélio de Figueiredo)",
+      "titulo": "pt:Martírio de Tiradentes",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Viagem Pitoresca e Histórica ao Brasil (Debret)",
+      "titulo": "pt:Viagem Pitoresca e Histórica ao Brasil",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio do Supremo Tribunal Federal",
+      "titulo": "pt:Palácio do Supremo Tribunal Federal",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Basílica de Nossa Senhora de Nazaré",
+      "titulo": "pt:Basílica de Nossa Senhora de Nazaré",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estação das Docas",
+      "titulo": "pt:Estação das Docas",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Parque Lage",
+      "titulo": "pt:Parque Henrique Lage",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Confeitaria Colombo",
+      "titulo": "pt:Confeitaria Colombo",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Biblioteca Mário de Andrade",
+      "titulo": "pt:Biblioteca Mário de Andrade",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Igreja de Santa Rita (Paraty)",
+      "titulo": "pt:Igreja de Santa Rita (Paraty)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Parque das Esculturas Francisco Brennand",
+      "titulo": "pt:Parque das Esculturas Francisco Brennand",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Instituto Ricardo Brennand",
+      "titulo": "pt:Instituto Ricardo Brennand",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio Guanabara",
+      "titulo": "pt:Palácio Guanabara",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Maracanãzinho",
+      "titulo": "pt:Maracanãzinho",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo da Boa Vontade",
+      "titulo": "pt:Templo da Boa Vontade",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Catetinho",
+      "titulo": "pt:Catetinho",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Libertação dos Escravos (Pedro Américo)",
+      "titulo": "pt:Libertação dos Escravos",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eliseu Visconti",
+      "titulo": "en:Eliseu Visconti",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rodolfo Amoedo",
+      "titulo": "en:Rodolfo Amoedo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Benedito Calixto",
+      "titulo": "en:Benedito Calixto",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Antônio Parreiras",
+      "titulo": "en:Antônio Parreiras",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Belmiro de Almeida",
+      "titulo": "pt:Belmiro de Almeida",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedro Weingärtner",
+      "titulo": "en:Pedro Weingärtner",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Palácio Monroe",
+      "titulo": "pt:Palácio Monroe",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Serra Dourada",
+      "titulo": "en:Estádio Serra Dourada",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Centro Niemeyer (Avilés)",
+      "titulo": "en:Óscar Niemeyer International Cultural Centre",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Caminho Niemeyer",
+      "titulo": "pt:Caminho Niemeyer",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Memorial dos Povos Indígenas",
+      "titulo": "pt:Memorial dos Povos Indígenas",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mestre Valentim",
+      "titulo": "pt:Mestre Valentim",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Victor Brecheret",
+      "titulo": "en:Victor Brecheret",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rodolfo Bernardelli",
+      "titulo": "en:Rodolfo Bernardelli",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Solar do Unhão",
+      "titulo": "pt:Solar do Unhão",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Igreja de Nossa Senhora do Ó (Sabará)",
+      "titulo": "pt:Igreja de Nossa Senhora do Ó (Sabará)",
+      "camada": 3,
+      "destino": 1,
       "status": "nova"
     }
   ]

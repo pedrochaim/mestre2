@@ -1,0 +1,193 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada da catedral clara; o texto do mosaico não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que catedral é esta?",
+      "resposta": "Catedral Metropolitana de Porto Alegre",
+      "distratores": [
+        "Catedral de Campinas",
+        "Catedral Basílica de Salvador",
+        "Catedral da Sé paulistana"
+      ],
+      "ancora": {
+        "nome": "Catedral Metropolitana de Porto Alegre",
+        "descricao": "Catedral católica na Praça da Matriz, no Centro Histórico de Porto Alegre (RS).",
+        "variantes": [
+          "Igreja Matriz de Nossa Senhora da Madre de Deus",
+          "Catedral de Porto Alegre"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Há pessoas comuns em primeiro plano (criança correndo, pessoas nas bordas)."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Interior com garçom e clientes comuns em primeiro plano; difícil de reconhecer com resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Torre de Cristal e colunas ao fundo, reconhecíveis; pessoas minúsculas e distantes.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ano foi inaugurado este parque de esculturas?",
+      "resposta": "2000",
+      "distratores": [
+        "1998",
+        "1999",
+        "2002"
+      ],
+      "ancora": {
+        "nome": "Parque das Esculturas Francisco Brennand",
+        "descricao": "Museu de arte a céu aberto no Recife (PE), com esculturas de Francisco Brennand e a Torre de Cristal.",
+        "variantes": [
+          "Marco Zero do Recife (Parque das Esculturas)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco; o rosto não permite reconhecer a arquiteta com segurança e a imagem não mostra obra."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Interior com estrutura tubular e plateia de bancos de arame, característico, sem pessoas nem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem projetou este teatro?",
+      "resposta": "Domingos Bongestabs",
+      "distratores": [
+        "Oscar Niemeyer",
+        "Lina Bo Bardi",
+        "Vilanova Artigas"
+      ],
+      "ancora": {
+        "nome": "Ópera de Arame",
+        "descricao": "Teatro de estrutura tubular de aço cercado por lago, em Curitiba (PR), inaugurado em 1992.",
+        "variantes": [
+          "Ópera de Arame de Curitiba"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida do antigo prédio da Câmara e Cadeia, sem texto legível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade mineira fica este museu?",
+      "resposta": "Ouro Preto",
+      "distratores": [
+        "Mariana",
+        "Tiradentes",
+        "Diamantina"
+      ],
+      "ancora": {
+        "nome": "Museu da Inconfidência",
+        "descricao": "Museu histórico e artístico instalado na antiga Casa de Câmara e Cadeia de Vila Rica, na Praça Tiradentes, em Ouro Preto (MG).",
+        "variantes": [
+          "Casa de Câmara e Cadeia de Vila Rica"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cúpula branca, torre-mirante e mural amarelo: curvas modernistas reconhecíveis; sem texto nem pessoas em destaque.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que arquiteto projetou este centro cultural?",
+      "resposta": "Oscar Niemeyer",
+      "distratores": [
+        "Santiago Calatrava",
+        "Zaha Hadid",
+        "Frank Gehry"
+      ],
+      "ancora": {
+        "nome": "Centro Cultural Internacional Oscar Niemeyer",
+        "descricao": "Complexo cultural de linhas modernistas brancas em Avilés, na Espanha, inaugurado em 2011.",
+        "variantes": [
+          "Centro Niemeyer",
+          "Centro Niemeyer de Avilés"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea com o lago e os pavilhões do parque, sem texto nem pessoas; reconhecível com múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que parque é este?",
+      "resposta": "Parque Ibirapuera",
+      "distratores": [
+        "Aterro do Flamengo",
+        "Parque Villa-Lobos",
+        "Parque da Redenção"
+      ],
+      "ancora": {
+        "nome": "Parque Ibirapuera",
+        "descricao": "Grande parque urbano de São Paulo, inaugurado em 1954, com pavilhões modernistas.",
+        "variantes": [
+          "Ibirapuera"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Mulher fotografando em primeiro plano (pessoa comum) e data impressa na imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco; rosto não reconhecível pela imagem e sem obra do pintor."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea do forte na ponta entre Copacabana e Ipanema, sem texto; pessoas não aparecem.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que forte é este?",
+      "resposta": "Forte de Copacabana",
+      "distratores": [
+        "Forte de Santa Cruz",
+        "Forte do Leme",
+        "Forte de São João"
+      ],
+      "ancora": {
+        "nome": "Forte de Copacabana",
+        "descricao": "Forte militar e museu na ponta sul da praia de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Forte de Copacabana (Rio de Janeiro)",
+          "Fort Copacabana"
+        ]
+      }
+    }
+  ]
+}
