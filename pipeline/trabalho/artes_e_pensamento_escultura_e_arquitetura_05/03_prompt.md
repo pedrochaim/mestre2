@@ -1,0 +1,2038 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Escultura e Arquitetura** (tema **Artes e Pensamento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Coliseu",
+      "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome popular Coliseu, dado ao Anfiteatro Flávio, em Roma, vem de uma estátua colossal de bronze que ficava ao lado. Ela retratava que imperador?",
+    "resposta": "Nero",
+    "distratores": [
+      "Augusto",
+      "Vespasiano",
+      "Trajano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colosseum",
+      "https://en.wikipedia.org/wiki/Colossus_of_Nero"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Colosseum",
+        "situacao": "ok",
+        "texto": "The Colosseum ( KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]) is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is the largest standing amphitheatre in the world. Construction began under the Emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus \n[…]\nThe name Colosseum is believed to be derived from a colossal statue of Nero on the model of the Colossus of Rhodes. The giant bronze sculpture of Nero as a solar deity was moved to its position beside the amphitheatre by the emperor Hadrian (r. 117–138). The word colosseum is a neuter Latin noun formed from the adjective colosseus, meaning \"gigantic\" or \"colossean\". By the year 1000 the Latin name \"Colosseum\" had been coined to refer to the amphitheatre from the nearby \"Colossus Solis\".\n[…]\nHe built the grandiose Domus Aurea on the site, in front of which he created an artificial lake surrounded by pavilions, gardens and porticoes. The existing Aqua Claudia aqueduct was extended to supply water to the area and the gigantic bronze Colossus of Nero was set up nearby at the entrance to the Domus Aurea.\n[…]\nAlthough the Colossus was preserved, much of the Domus Aurea was torn down. The lake was filled in and the land reused as the location for the new Flavian Amphitheatre. Gladiatorial schools and other support buildings were constructed nearby within the former grounds of the Domus Aurea. Vespasian's decision to build the Colosseum on the site of Nero's lake can be seen as a populist gesture of returning to the people an area of the city which Nero had appropriated for his own use.\n[…]\nThe Los Angeles Memorial Coliseum entrance was inspired by the Colosseum.\n[…]\nNero Burning ROM's logo is inspired by the colosseum.\n[…]\n3D model of the past and present of the colosseum – The Only Progress is Human"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Colossus_of_Nero",
+        "situacao": "ok",
+        "texto": "The Colossus of Nero (Colossus Neronis) was a 30-metre (98 ft) bronze statue that the Emperor Nero (37–68 AD) created in the vestibule of his Domus Aurea, the imperial villa complex which spanned a large area from the north side of the Palatine Hill, across the Velian ridge to the Esquiline Hill in Rome. It was modified by Nero's successors into a statue of the sun god Sol.\n[…]\nThe statue was eventually moved to a spot outside the Flavian Amphitheatre, which (according to one of the more popular theories) became known, by its proximity to the Colossus, as the Colosseum.\n[…]\nShortly after Nero's death in AD 68, the Emperor Vespasian added a radiate crown and renamed it Colossus Solis, after the Roman sun god Sol. Around 128, Emperor Hadrian ordered the statue moved from the Domus Aurea to just northwest of the Colosseum in order to create space for the Temple of Venus and Roma. It was moved by the architect Decriannus with the use of 24 elephants.\n[…]\nThe last certain mention from antiquity of the statue is the reference in the Chronography of 354. Today, nothing remains of the Colossus of Nero save for the foundations of the pedestal at its second location near the Colosseum. It was possibly destroyed during the Sack of Rome in 410, or toppled in one of a series of fifth-century earthquakes, and its metal scavenged.\n[…]\nThe name of the Roman amphitheatre, the Colosseum, is derived from this statue.\n[…]\nThis is often mistranslated to refer to the Colosseum rather than the Colossus (as in, for instance, Byron's poem Childe Harold's Pilgrimage). However, at the time that Bede wrote, the masculine noun coliseus was applied to the statue rather than to what was still known as the Amphitheatre."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coliseu",
+        "situacao": "ok",
+        "texto": "Coliseu (em italiano:  Colosseo), também conhecido como Anfiteatro Flaviano (em latim: Amphitheatrum Flavium; em italiano:  Anfiteatro Flavio), é um anfiteatro oval localizado no centro da cidade de Roma, capital da Itália. Construído com tijolos revestidos de argamassa e areia, e originalmente cobertos com travertino é o maior anfiteatro já construído e está situado a leste do Fórum Romano.\n[…]\nO nome original do Coliseu de Roma era Anfiteatro Flávio ou Flaviano (em latim, Amphitheatrum Flavium), tendo sido construído no reinado dos imperadores da Dinastia Flaviana, após o governo do imperador Nero. Curiosamente, este nome não foi exclusivo do Coliseu, visto que Vespasiano e Tito haviam construído um anfiteatro que portou o mesmo nome, na cidade de Pozzuoli, na província de Nápoles.\n[…]\nO nome Anfiteatro Flavio é empregado ainda hoje, embora seja mais popularmente conhecido como Coliseu de Roma.\n[…]\nA sua designação de \"Coliseu\" começou a difundir-se a partir do século VIII, o qual se crê que tenha sido devido a uma grande estátua de Nero, que se encontrava perto do edifício, na Casa Dourada, conhecida popularmente como o Colosso de Nero. Este fato pode ter sido a razão pela qual o anfiteatro de Roma tenha adoptado o nome de Coliseu. Essa dita estátua foi destruída provavelmente para reciclagem do seu bronze.\n[…]\nDrenou-se o lago e o lugar foi designado para o Coliseu. Reclamando a terra da qual Nero se apropriou para o seu anfiteatro, Vespasiano conseguiu dois objectivos: por um lado realizava um gesto muito popular e por outro colocava um símbolo do seu poder no coração da cidade. Mais tarde foram construídos uma escola de gladiadores e outros edifícios de apoio dentro das antigas terras da Casa Dourada, a maior parte da qual havia sido derrubada.\n[…]\nO Coliseu é conhecido como o maior símbolo da cidade de Roma, e um dos melhores exemplos da engenharia e da arquitetura romana.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Casa Milà",
+      "descricao": "Edifício residencial projetado por Antoni Gaudí no Passeig de Gràcia, em Barcelona, com fachada ondulada de pedra."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Por causa da fachada ondulada de pedra bruta, que apelido popular a Casa Milà, de Gaudí, ganhou em Barcelona?",
+    "resposta": "La Pedrera",
+    "distratores": [
+      "Casa dos Ossos",
+      "La Montaña",
+      "El Castell"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Casa_Mil%C3%A0"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Casa_Mil%C3%A0",
+        "situacao": "ok",
+        "texto": "Casa Milà (Catalan: [ˈkazə miˈla], Spanish: [ˈkasa miˈla]), popularly known as La Pedrera (Catalan: [lə pəˈðɾeɾə], Spanish: [la peˈðɾeɾa]; \"the stone quarry\") in reference to its unconventional rough-hewn appearance, is a Modernista building in Barcelona, Catalonia, Spain. It was the last private residence designed by architect Antoni Gaudí and was built between 1906 and 1912.\n[…]\nThe building did not respect any rules of conventional style, for which Gaudí received much criticism. To begin with, the name \"La Pedrera\" is in fact a nickname assigned by the citizens who disapproved of its unusualness. The unique structure of the building and the relationship between the building's architect and Pere Milà became the object of ridicule for the people of Barcelona and many humorous publications of the time.\n[…]\nGaudí's work was designated a historic and artistic monument in 1969. Casa Milà was in poor condition in the early 1980s. In 1984, the building became part of a World Heritage Site encompassing some of Gaudí's works. In 1986 Caixa Catalunya bought La Pedrera. Restoration and cleaning of the façade began two months later.The renovated main floor opened in 1990 as part of the Cultural Olympiad of Barcelona. The floor became an exhibition room with an example of modernism in the Eixample.\n[…]\nCreated partly as a tenant’s unit, there were previous tenants including Alberto I. Gache, the consul of the Argentine Republic to Barcelona, Egyptian prince Ibrahim Hassan who even died at his residence in La Pedrera, and motor racing pioneer Paco Abadal, whose family was the first tenants of Casa Milà. As of 2026, the writer Ana Viladomiu is the building's sole remaining resident.\n[…]\nCasa Milà is part of the UNESCO World Heritage Site \"Works of Antoni Gaudí\". It was a predecessor of some buildings with a similar biomorphic appearance:\n[…]\nLa Pedrera Official Website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Casa_Mil%C3%A0",
+        "situacao": "ok",
+        "texto": "A Casa Milà, também conhecida como La Pedrera (em catalão:  A Pedreira), é um edifício desenhado pelo arquitecto catalão Antoni Gaudí e construída entre os anos 1905 e 1907. Está situada no número 92 do Passeig de Gràcia (passeig é catalão para \"promenade\" ou \"avenida\") no bairro  Eixample de Barcelona, Catalunha, Espanha.\n[…]\nFoi construída para Roger Segimon de Milà. É parte do Património mundial da UNESCO, juntamente com outras obras de Antoni Gaudí. Desde 2013, o proprietário do equipamento é a base Catalonia La Pedrera, que é responsável pela organização de exposições, actividades e visitas.\n[…]\nPode ser comparado com as pareces íngremes com que as tribos africanas constroem as suas habitações, semelhantes a cavernas. A fachada ondulada, com largos poros, lembra um praia ondulante de areia fina, formada, por exemplo, por uma duna. Os favos feitos por abelhas atarefadas também salta à ideia do observador que olha para os altos e baixos, semelhantes a cobras, que percorrem o edifício inteiro.\n[…]\nA Casa Milà foi o predecessor de alguns edifícios com uma aparência biomórfica semelhante:\n[…]\nA Casa Milà é o lar de Edmond Kirsch em A Origem, de Dan Brown.\n[…]\nAntoni Gaudí\n[…]\nObras de Antoni Gaudí\n[…]\nRainer Zervst. Gaudi, 1852-1926, Antoni Gaudi i Cornet - A Life Devoted to Architecture. Cologne: Benedikt Taschen Verlag GmbH & Co. KG., 1988. p176.\n[…]\nCasa Milà - La Pedrera – Site oficial",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Edifício Copan",
+      "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do Edifício Copan, prédio sinuoso de Niemeyer no centro de São Paulo, é a abreviação do nome de que empresa?",
+    "resposta": "Companhia Pan-Americana de Hotéis",
+    "distratores": [
+      "Companhia Paulista de Navegação",
+      "Construtora Pan-Nacional",
+      "Cooperativa Paulista de Arquitetos"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Edif%C3%ADcio_Copan",
+      "https://en.wikipedia.org/wiki/Copan_Building"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Edif%C3%ADcio_Copan",
+        "situacao": "ok",
+        "texto": "Edifício Copan, ou apenas Copan, é um dos mais importantes e emblemáticos edifícios da cidade de São Paulo, localizado no número 200 da Avenida Ipiranga, no centro da cidade, e foi inaugurado em 1966. É um dos símbolos da arquitetura moderna brasileira, concebido pelo arquiteto Oscar Niemeyer com projeto estrutural do engenheiro Joaquim Cardozo, visando às comemorações do Quarto Centenário da cida\n[…]\nO projeto escolhido foi o encomendado pela Companhia Pan-Americana de Hotéis e Turismo, criada por ocasião dos festejos do IV Centenário — daí o acrônimo do nome do edifício: Copan. O projeto previa um hotel vizinho e ainda mais grandioso, uma laje ligando os dois prédios e sustentando um restaurante, além de piscina, galeria de lojas, jardins suspensos e garagens subterrâneas. A obra foi truncada pela quebra do BNI, e a conclusão do edifício residencial levou quinze anos.\n[…]\nEm 2010, o Copan pretendia tornar-se o primeiro edifício de São Paulo com anúncio na fachada após a aprovação da Lei Cidade Limpa, que previa o uso de publicidade em \"melhorias urbanas, ambientais e paisagísticas\". Como a fachada nunca tinha passado por reparos desde a inauguração do prédio, em 2014 havia uma queda constante de pastilhas e blocos de concreto, que levou o condomínio a colocar uma rede de proteção.\n[…]\nO edifício Copan, como um símbolo da cidade de São Paulo é um marco da arquitetura modernista no Brasil. É a maior estrutura de concreto armado do país, com 115 metros de altura e 120 mil metros de área construída, bem como o maior edifício residencial do planeta. Com a utilização da liberdade formal, leveza, materiais curvilíneos, o modernismo deixa de seguir padrões europeus e norte americanos e passa a expressar sua própria cultura.\n[…]\nArca sem Noé - Histórias do Edifício Copan de Regina Rheda. 1a. Edição. São Paulo, Editora Pauliceia, 1994. Internet Archive.\n[…]\n«Sítio Sampacentro - Seção COPAN»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Copan_Building",
+        "situacao": "ok",
+        "texto": "The Edifício Copan (Copan Building), or just Copan, is one of the most important and emblematic buildings in the city of São Paulo, located at number 200 Avenida Ipiranga, in the city center, and was inaugurated in 1966. It is one of the symbols of modern Brazilian architecture, designed by architect Oscar Niemeyer with structural design by engineer Joaquim Cardozo, aiming to celebrate the Fourth \n[…]\nThe building was designed by Oscar Niemeyer's office in São Paulo; Niemeyer was personally responsible for the building's famous sinuous façade. The idea was a building open to a mixed cross-section of Brazilian society. The original project envisioned two buildings, the other being a hotel, but in the end only the residential building was built.\n[…]\nThe building's name is an acronym for its original developer, Companhia Pan-Americana de Hotéis e Turismo (Portuguese for \"Pan-American Hotels and Tourism Company\").\n[…]\nThe Copan Building has inspired writers, filmmakers, photographers, and other artists from all over the world. A short story collection titled Arca sem Noé - Histórias do Edifício Copan (\"Ark without Noah - Stories from the Copan Building\"), by Brazilian author Regina Rheda, was published in Portuguese in 1994 and won a 1995 Jabuti prize in Brazil.\n[…]\nList of Oscar Niemeyer works\n[…]\n\"Stories from the Copan Building\" in FIRST WORLD THIRD CLASS AND OTHER TALES OF THE GLOBAL MIX, by Regina Rheda. Austin: University of Texas Press, 2005.\n[…]\nArca sem Noé - Histórias do Edifício Copan, by Regina Rheda. Second edition. Rio: Record, 2010. Short stories in Portuguese.\n[…]\nEdifício Copan Administration's Web site (in Portuguese)\n[…]\nArca sem Noé - Histórias do Edifício Copan by Regina Rheda (in Portuguese, 1st Edition in the Internet Archive."
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Machu Picchu",
+      "descricao": "Cidadela inca do século quinze nos Andes peruanos."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na língua quíchua, falada pelos incas e por seus descendentes, o que significa o nome Machu Picchu?",
+    "resposta": "Montanha Velha",
+    "distratores": [
+      "Cidade Perdida",
+      "Pico do Sol",
+      "Ninho do Condor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Machu_Picchu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
+        "situacao": "ok",
+        "texto": "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern  Peru  on a mountain ridge at  2,430 meters (7,970 ft). It is situated in the Machupicchu District of Urubamba Province about 80 kilometers (50 miles) northwest of Cusco, above the Sacred Valley and along the Urubamba River, which forms a deep canyon with a subtropical mountain climate.\n[…]\nBeyond its historical significance, Machu Picchu houses a diverse range of species. Among them are the Andean fox, puma, vizcacha, spectacled bear, and white-tailed deer. The sanctuary is also a habitat for more than 420 bird species, such as the cock-of-the-rock and the Andean condor. The area hosts over 550 tree species across 74 families, including ferns, gymnosperms, and palms.\n[…]\nArchitecturally, Inti Mach'ay is often considered to be one of the most significant structures at Machu Picchu. Its entrances, walls, steps, and windows display some of the finest masonry in the Inca Empire. The cave also includes a tunnel-like window unique among Incan structures, designed so that sunlight enters the interior only for a few days around the December solstice.\n[…]\nThe section of the mountain where Machu Picchu was built provided various challenges that the Incas solved with local materials. One issue was the seismic activity due to two fault lines, which made mortar and similar building methods nearly useless.\n[…]\nMachu Picchu has appeared in several films, television programmes and music productions. The Paramount Pictures film Secret of the Incas (1954), starring Charlton Heston and Yma Sumac, was filmed on location at Machu Picchu and Cusco, marking the first time a major Hollywood studio shot on site. Werner Herzog's drama Aguirre, the Wrath of God (1972) opens with scenes shot in the Machu Picchu area and on the stone stairway of Huayna Picchu.\n[…]\nUNESCO – Machu Picchu (World Heritage)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Machu_Picchu",
+        "situacao": "ok",
+        "texto": "Machu Picchu  é uma cidadela inca do século XV localizada na Cordilheira Oriental do sul do Peru, em uma crista montanhosa a 2.430 metros de altura. Está situado no distrito de Machupicchu, na província de Urubamba, cerca de 80 quilômetros a noroeste de Cusco, acima do Vale Sagrado e ao longo do rio Urubamba, que forma um cânion profundo com um clima subtropical de montanha.\n[…]\nO sítio arqueológico fica em uma estreita passagem entre dois picos de montanha, Machu Picchu e Huayna Picchu. Em quéchua, machu significa 'velho' ou 'pessoa idosa' e wayna (escrito huayna (na ortografia espanhola padrão) significa 'jovem', enquanto pikchu refere-se a um 'cume', 'pico' ou 'pirâmide'. Assim, o nome do local é frequentemente traduzido como 'montanha velha' ou 'pico velho'.\n[…]\nNo topo da montanha, encontraram uma pequena cabana ocupada por um casal de quéchuas, Richarte e Alvarez, que cultivavam alguns dos terraços agrícolas originais de Machu Picchu que haviam desmatado quatro anos antes. O filho de Richarte, Pablito, de 11 anos, guiou Bingham ao longo da crista até as ruínas principais.\n[…]\nA cidade situa-se numa sela entre as duas montanhas, Machu Picchu e Huayna Picchu, com vista para dois vales e uma montanha quase intransponível atrás dela. O leito rochoso é predominantemente de granito, com ocorrências menores de granodiorito, além de diques locais de peridotito e serpentina. Os terraços agrícolas, que cobrem cerca de 4,9 hectares (12 acres), complementavam a arquitetura do local e protegiam contra o escoamento superficial e a erosão.\n[…]\nA seção da montanha onde Machu Picchu foi construída apresentou diversos desafios que os incas resolveram com materiais locais. Um dos problemas era a atividade sísmica causada por duas falhas geológicas, o que tornava a argamassa e outros métodos de construção semelhantes praticamente inúteis.\n[…]\nVale Sagrado dos Incas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Burj Khalifa",
+      "descricao": "Arranha-céu megaalto de Dubai, nos Emirados Árabes Unidos, a estrutura mais alta do mundo."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na inauguração, em 2010, o arranha-céu Burj Dubai foi rebatizado em homenagem ao xeque Khalifa, que ajudou Dubai na crise financeira. Ele governava que emirado vizinho?",
+    "resposta": "Abu Dhabi",
+    "distratores": [
+      "Sharjah",
+      "Ajman",
+      "Ras al-Khaimah"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Burj_Khalifa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Burj_Khalifa",
+        "situacao": "ok",
+        "texto": "The Burj Khalifa (previously known as Burj Dubai prior to inauguration) is a megatall skyscraper in Dubai, United Arab Emirates. Designed by Skidmore, Owings & Merrill, it is the world's tallest structure, with a total height of 829.8 m (2,722 ft, or just over half a mile) and a roof height (excluding the antenna, but including a 242.6 m spire) of 828 m (2,717 ft).\n[…]\nFor his support, Mohammed bin Rashid, Ruler of Dubai, changed the name from \"Burj Dubai\" to \"Burj Khalifa\" during inauguration.\n[…]\nWhen Burj Khalifa opened in 2010, much of the building was still unfinished internally. The inauguration was effectively completed when the last major planned facility of Burj Khalifa became operational on 23 January 2011, making the tower fully functional.\n[…]\nThe tower was known as Burj Dubai (\"Dubai Tower\") until its official opening in January 2010. It was renamed in honour of the ruler of Abu Dhabi, Khalifa bin Zayed Al Nahyan; Abu Dhabi and the federal government of UAE lent Dubai tens of billions of US dollars so that Dubai could pay its debts – Dubai borrowed at least $80 billion for construction projects.\n[…]\nMarch 2005: Structure of Burj Khalifa starts rising.\n[…]\n4 January 2010: Burj Khalifa's official launch ceremony is held and Burj Khalifa is opened. Burj Dubai was renamed Burj Khalifa in honour of the President of the UAE and ruler of Abu Dhabi, Sheikh Khalifa bin Zayed al Nahyan.\n[…]\nThe project's completion coincided with the Great Recession, and with vast overbuilding in the country, leading to high vacancies and foreclosures. With Dubai mired in debt from its huge ambitions, the government was forced to seek multibillion-dollar bailouts from its oil-rich neighbour Abu Dhabi. Subsequently, in a surprise move at its opening ceremony, the tower was renamed Burj Khalifa, said to honour the UAE President Khalifa bin Zayed Al Nahyan for his crucial support."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Burj_Khalifa",
+        "situacao": "ok",
+        "texto": "Burj Khalifa (em árabe: برج خليفة; \"Torre de Khalifa bin Zayed\" ou apenas Torre de Khalifa), anteriormente conhecido como Burj Dubai, é um arranha-céu localizado em Dubai, nos Emirados Árabes Unidos, sendo a mais alta estrutura e, consequentemente, o maior arranha-céu já construído pelo ser humano, com 828 metros de altura e 160 andares. Sua construção começou em 21 de setembro de 2004 e foi inaug\n[…]\nFoi rebatizado devido ao empréstimo feito por Khalifa bin Zayed al Nahyan, xeque do emirado de Abu Dhabi, depois que este emprestou dez bilhões de dólares para evitar que o emirado de Dubai desse um calote em investidores de uma de suas principais companhias, a Dubai World.\n[…]\nA inauguração do Burj Khalifa foi realizada no dia 4 de janeiro de 2010. A cerimônia contou com a queima de 10 mil fogos de artifício, feixes de luz projetados sobre e em torno da torre, além de som, luz e efeitos aquáticos. A iluminação da comemoração foi projetado pelos designers britânicos Speirs and Major.\n[…]\nO evento começou com um curta-metragem que mostrava a história da cidade de Dubai e da evolução do Burj Khalifa. Apresentações de som, luz, água e fogos de artifício vieram depois. A parte do espetáculo composta pelos diversos efeitos de iluminação, água e som, além de efeitos pirotécnicos, foi dividida em três.\n[…]\nNo dia 17 de janeiro de 2009 o Burj Dubai alcançou sua altura final de 828 metros acima do nível do solo e 844 metros acima do nível do mar (é a soma dos seus 828 metros mais 16 metros de altitude da própria cidade). O Burj Khalifa possui um posto de observação a 442 metros de altura.\n[…]\nVisto de cima, o Burj Khalifa forma uma Hymenocallis, sagrada no Oriente. A partir do topo do edifício, é possível se avistar até mesmo países vizinhos aos Emirados Árabes Unidos, tais como o Irã e o Omã.\n[…]\n«Emporis - Burj Dubai» (em inglês)\n[…]\n«estudos de vento para o Burj Dubai» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Ponte Golden Gate",
+      "descricao": "Ponte pênsil sobre o estreito de Golden Gate, em São Francisco, inaugurada em 1937."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A ponte Golden Gate, em São Francisco, é pintada de laranja e não tem nada de dourado. De onde vem o seu nome?",
+    "resposta": "Do estreito que ela atravessa",
+    "distratores": [
+      "Da Corrida do Ouro",
+      "Da pintura original",
+      "De uma mina vizinha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Golden_Gate",
+      "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Golden_Gate",
+        "situacao": "ok",
+        "texto": "The Golden Gate is a strait on the west coast of North America that connects San Francisco Bay and the Pacific Ocean. It is defined by the headlands of the San Francisco Peninsula and the Marin Peninsula, and, since 1937, has been spanned by the Golden Gate Bridge. The entire shoreline and adjacent waters throughout the strait are managed by the Golden Gate National Recreation Area.\n[…]\nAlthough there is no weather station on Golden Gate proper, the area has a mediterranean climate (Köppen Csb) with very narrow temperature fluctuations, cool summers and mild winters. For the nearest weather station see the weatherbox of San Francisco. The Golden Gate Bridge being nearer the ocean and at elevation indicate it being cooler during summer days. Nearer the San Francisco urban core, the temperatures resemble the official NOAA weather station instead.\n[…]\nIn 1933 construction began on the Golden Gate Bridge, a suspension bridge connecting the city of San Francisco on the northern tip of the San Francisco Peninsula to Marin County. Today it is part of both US Highway 101 and California Route 1.\n[…]\nFor navigational guidance, there are white and green lights on the center of the span of the Golden Gate Bridge. Lighthouses with beacons and foghorns provide alerts at Point Bonita, Point Diablo, Lime Point and Mile Rocks. Before the Golden Gate Bridge was built, a lighthouse protected the south side of the strait at Fort Point. Buoys and radar reflectors provide additional navigational aid at various locations throughout the strait.\n[…]\nGolden Gate Bridge, which extends across the Golden Gate strait\n[…]\nGolden Gate National Recreation Area, a national park in the San Francisco Bay Area\n[…]\nGolden Gate Park in San Francisco\n[…]\nDigitally Restored Panoramic Composited View of The Golden Gate, Fort Point, and San Francisco Bay as seen from \"Land's End\" near Sutro Heights, c. 1895."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+        "situacao": "ok",
+        "texto": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean in California, United States. The structure links San Francisco—the northern tip of the San Francisco Peninsula—to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait. It also carries pedestrian and bicycl\n[…]\nMost maps and signage mark the bridge as part of the concurrency between U.S. Route 101 and California State Route 1. Although part of the National Highway System, the bridge is not officially part of California's Highway System. For example, under the California Streets and Highways Code § 401, Route 101 ends at \"the approach to the Golden Gate Bridge\" and then resumes at \"a point in Marin County opposite San Francisco\".\n[…]\nIn June 2020 residents across San Francisco and Marin Counties began to notice a humming noise. The noise has been described as \"eerie\", \"a shrill screeching sound\", and for some evokes a feeling that \"something bad is about to happen.\" The Golden Gate Bridge Highway and Transportation District determined that the \"unsettling\" whistle is produced by new railing slats when a strong zephyr blows.\n[…]\nThe former elevated approach to the Golden Gate Bridge through the San Francisco Presidio, known as Doyle Drive, dated to 1933 and was named after Frank Pierce Doyle, a director of the California State Automobile Association. The highway carried about 91,000 vehicles each weekday between downtown San Francisco and the North Bay and points north.\n[…]\nGuthman, Edward (October 30, 2005). \"Lethal Beauty/the Allure: Beauty and an Easy Route to Death Have Long Made the Golden Gate Bridge a Magnet for Suicides\". San Francisco Chronicle. Archived from the original on February 17, 2006.\n[…]\n\"Images of the Golden Gate Bridge\". San Francisco Public Library's Historical Photograph database."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Golden_Gate",
+        "situacao": "ok",
+        "texto": "O Golden Gate (Portão de Ouro) é um estreito na costa oeste da América do Norte que liga a Baía de São Francisco ao Oceano Pacífico. É definida pelos promontórios da Península de São Francisco e da Península de Marin, e, desde 1937, tem sido atravessada pela Ponte Golden Gate. Toda a costa e as águas adjacentes ao longo do estreito são geridas pela Área de Recreação Nacional Golden Gate.\n[…]\nEmbora não haja nenhuma estação meteorológica em Golden Gate propriamente dita, a área tem um clima mediterrâneo (Köppen Csb) com flutuações de temperatura muito estreitas, verões frios e invernos amenos. Para a estação meteorológica mais próxima, veja a weatherbox de São Francisco. A ponte Golden Gate estar mais perto do oceano e em elevação indicam que ela está mais fria durante os dias de verão.\n[…]\nO estreito Golden Gate serve como o principal canal de acesso para a navegação de e para a Baía de São Francisco, um dos maiores portos de carga dos Estados Unidos. Os portos comerciais incluem o Porto de Oakland, o Porto de Richmond e o Porto de São Francisco. Navios de carga comerciais usam o Golden Gate para acessar a Baía de São Francisco, bem como barcaças, petroleiros, barcos de pesca, navios de cruzeiro e barcos de propriedade privada, incluindo windsurfistas e kite-boards.\n[…]\nPara orientação de navegação, há luzes brancas e verdes no centro do vão da Ponte Golden Gate. Faróis com balizas e foghorns fornecem alertas em Point Bonita, Point Diablo, Lime Point e Mile Rocks. Antes da ponte Golden Gate ser construída, um farol protegia o lado sul do estreito em Fort Point. Boias e refletores de radar fornecem auxílio adicional à navegação em vários locais ao longo do estreito.\n[…]\nImagem Golden Gate 360 (Java)\n[…]\nVista panorâmica composta digitalmente restaurada do Golden Gate, Fort Point e da Baía de São Francisco, vista de \"Land's End\" perto de Sutro Heights, c. 1895.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Arquitetura gótica",
+      "descricao": "Estilo arquitetônico europeu dos séculos doze a dezesseis, típico de catedrais como Notre-Dame de Paris e Chartres."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Críticos do Renascimento italiano deram ao estilo de Notre-Dame e Chartres o nome de um povo germânico, considerado bárbaro, para ofendê-lo. Que povo?",
+    "resposta": "Os godos",
+    "distratores": [
+      "Os vândalos",
+      "Os francos",
+      "Os lombardos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gothic_architecture"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gothic_architecture",
+        "situacao": "ok",
+        "texto": "Gothic architecture is an architectural style that was prevalent in Europe from the late 12th to the 16th century, during the High and Late Middle Ages, surviving into the 17th and 18th centuries in some areas. It evolved from Romanesque architecture and was succeeded by Renaissance architecture. The style is characterised by pointed arches, rib vaults, flying buttresses and large, traceried stain\n[…]\nIn the 16th century, as Renaissance architecture from Italy began to appear in France and other countries in Europe. The Gothic style began to be described as outdated, ugly and even barbaric. The term \"Gothic\" was first used as a pejorative description. Giorgio Vasari used the term \"barbarous German style\" in his 1550 Lives of the Artists to describe what is now considered the Gothic style.\n[…]\nThis method was used at Chartres Cathedral (1194–1220), Amiens Cathedral (begun 1220), and Reims Cathedral. The four-part vaults made it possible for taller buildings to be constructed. Notre-Dame, with sexpartite vaults, reached a height of 35 m (115 ft), while Amiens Cathedral, which used quadripartite vaults, rose to 42.3 m (139 ft).\n[…]\nIn French Gothic churches, the east end, or chevet, often had an apse, a semi-circular projection with a vaulted or domed roof. The chevet of large cathedrals frequently had a ring of radiating chapels, placed between the buttresses to get maximum light. There are three such chapels at Chartres Cathedral, seven at Notre Dame de Paris, Amiens Cathedral, Prague Cathedral and Cologne Cathedral, and nine at Basilica of Saint Anthony of Padua in Italy.\n[…]\nAlonso Ruiz, Begoña; Martínez de Aguirre, Javier (2011). \"Arquitectura en la Corona de Castilla en torno a 1412\". Artigrama (26): 103–147. doi:10.26754/ojs_artigrama/artigrama.2011267858. ISSN 0213-1498.\n[…]\nTonazzi, Pascal (2007) Florilège de Notre-Dame de Paris (anthologie), Editions Arléa, Paris, ISBN 2-86959-795-9"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arquitetura_g%C3%B3tica",
+        "situacao": "ok",
+        "texto": "A arquitetura gótica é um estilo arquitetónico que, precedida pela arquitetura românica e sucedida pela arquitetura renascentista, teve origem na primeira metade do século XII na Europa Ocidental, a partir da França do Norte e, mais particularmente, do centro dessa região — o domínio real delimitado pelos rios Sena, Marne, Aisne e Oise —, que se chamava a Francia propriamente dita e, mais tarde, Î\n[…]\nA associação do termo \"gótico\" aos Godos resultou de interpretações posteriores desenvolvidas durante a Renascença, quando autores italianos empregaram a designação de forma pejorativa para caracterizar a arquitetura medieval como uma arte \"bárbara\", atribuindo-a simbolicamente aos povos germânicos responsáveis pela queda do Império Romano do Ocidente.\n[…]\nGiorgio Vasari foi um dos que utilizou a expressão em 1530 (além de \"maneira bárbara alemã\" na sua Le vite de' più eccellenti pittori, scultori e architettori, 1550) para descrever aquilo que hoje é considerado o estilo gótico, e, na introdução das Vidas, atribui diversas características arquitetónicas aos Godos, que considerava responsáveis pela destruição dos edifícios antigos após o saque de Roma, bem como pela construção de novos edifícios neste estilo, fruto do esquecimento das técnicas e dos cânones estéticos greco-romanos.\n[…]\nEste estilo gótico original, austero e despojado, foi concebido como uma arquitetura combativa, uma importante arma da Igreja na sua luta contra a dissidência cátara.\n[…]\nNo século XVII, Molière também ridicularizou o estilo gótico no poema de 1669 La Gloire: «[...] o gosto insípido da ornamentação gótica, essas monstruosidades odiosas de uma época ignorante, produzidas pelas torrentes da barbárie [...]». Os estilos dominantes na Europa passaram a ser, sucessivamente, a arquitetura renascentista italiana, a arquitetura barroca e o grande classicismo do estilo Luís XIV.\n[…]\nArquitetura gótica na Itália",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Barroco",
+      "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, de formas dramáticas e ornamentadas, presente em Bernini e no barroco mineiro."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome barroco, estilo de Bernini e de Aleijadinho, vem de uma palavra portuguesa que designava que tipo de joia imperfeita?",
+    "resposta": "Pérola irregular",
+    "distratores": [
+      "Diamante bruto",
+      "Coral retorcido",
+      "Esmeralda rachada"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baroque",
+      "https://pt.wikipedia.org/wiki/Barroco"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Baroque",
+        "situacao": "ok",
+        "texto": "The Baroque (UK:  bə-ROK, US:  bə-ROHK, French: [baʁɔk]) is a Western style of architecture, music, dance, painting, sculpture, poetry, and other arts that flourished from the early 1600s until the 1750s. It followed Renaissance art and Mannerism and preceded the Rococo (in the past often referred to as \"late Baroque\") and Neoclassical styles.\n[…]\nThe word baroque was also associated with irregular pearls before the 18th century. The French baroque and Portuguese barroco were terms often associated with jewelry. An example from 1531 uses the term to describe pearls in an inventory of Charles V of France's treasures.\n[…]\nLater, the word appears in a 1694 edition of Le Dictionnaire de l'Académie Française, which describes baroque as \"only used for pearls that are imperfectly round.\" A 1728 Portuguese dictionary similarly describes barroco as relating to a \"coarse and uneven pearl\".\n[…]\nIn 1762 Le Dictionnaire de l'Académie Française recorded that the term could figuratively describe something \"irregular, bizarre or unequal\".\n[…]\nIn the mid to late 17th century the style reached its peak, later termed the High Baroque. Many monumental works were commissioned by Popes Urban VIII and Alexander VII. The sculptor and architect Gian Lorenzo Bernini designed a new quadruple colonnade around St. Peter's Square (1656 to 1667). The three galleries of columns in a giant ellipse balance the oversize dome and give the Church and square a unity and the feeling of a giant theatre.\n[…]\nThe style is closely associated with the works built for Louis XIV (reign 1643–1715), and because of this, it is also known as the Louis XIV style. Louis XIV invited the master of Baroque, Bernini, to submit a design for the new east wing of the Louvre, but rejected it in favor of a more classical design by Claude Perrault and Louis Le Vau.\n[…]\nThe baroque and rococo culture"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Barroco",
+        "situacao": "ok",
+        "texto": "Barroco é o estilo artístico que floresceu entre o final do século XVI e meados do século XVIII, inicialmente na Itália, difundindo-se em seguida pelos países católicos da Europa e da América, antes de atingir, em uma forma modificada, as áreas protestantes e alguns pontos do Oriente.\n[…]\nDepois de ensaios irregulares na Itália, o sistema acadêmico desabrochou na França no reinado de Luís XIV, onde foram criadas as primeiras academias de abrangência nacional para as várias modalidades da arte e ciências, das quais uma das mais notáveis e influentes foi a Academia Real de Pintura e Escultura.\n[…]\nUsualmente, considera-se que o termo \"barroco\" originalmente significaria \"pérola irregular ou imperfeita\", um termo cuja origem é obscura, pode derivar do português antigo, do espanhol, do francês ou do árabe. Segundo outras opiniões, porém, o termo tem origem em uma fórmula mnemotécnica usada pelos escolásticos para designar um dos modos do silogismo, o que daria ao termo um sentido pejorativo de raciocínio estranho, tortuoso, que confunde o falso com o verdadeiro.\n[…]\nA palavra rapidamente ganhou circulação nas línguas francesa e italiana, mas nas artes plásticas só foi usada no fim do período em questão, quando novos classicistas começaram a criticar excessos e irregularidades de um estilo já então visto como decadente e uma simples degeneração dos princípios clássicos.\n[…]\nEsse novo espírito requereu a criação de um vocabulário musical vastamente expandido e uma rápida evolução na técnica, especialmente a vocal. As origens do Barroco musical estão no contraste entre dois estilos nitidamente diferenciados, o chamado prima prattica, o estilo geral do século XVI, e o seconda prattica, derivado de inovações na música de teatro italiana."
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Ponte dos Suspiros",
+      "descricao": "Ponte de pedra coberta em Veneza que liga o Palácio Ducal às antigas prisões."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Segundo a explicação popularizada por Lord Byron, quem suspirava na Ponte dos Suspiros, em Veneza, ao ver a cidade pela última vez?",
+    "resposta": "Os prisioneiros",
+    "distratores": [
+      "Os namorados",
+      "Os gondoleiros",
+      "Os doges"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bridge_of_Sighs"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bridge_of_Sighs",
+        "situacao": "ok",
+        "texto": "The Bridge of Sighs (Italian: Ponte dei Sospiri, Venetian: Ponte de i Sospiri) is a bridge in Venice, Italy. It connects the Doge's Palace with the New Prison across Rio di Palazzo.\n[…]\nThe notion of the \"Bridge of Sighs\" or Ponte dei Sospiri is a Romantic creation of the 19th century. Although there was nothing romantic about it, the look from the bridge was imagined as the last view of the outside world that convicts saw before their imprisonment (and therefore sighing). The English name was bestowed by Lord Byron as a translation from the Italian.\n[…]\nNumerous other bridges around the world had their blueprint in form and function in the Ponte dei Sospiri, and have been nicknamed after it – see Bridge of Sighs (disambiguation). The American architect H. H. Richardson for example used the bridge as inspiration when designing part of the Allegheny County Jail complex in Pittsburgh. It was completed in 1888 and features a similar enclosed arched walkway that connects the courthouse and jail, therefore bearing the same name.\n[…]\nA Bridge of Sighs is mentioned in the opening line of “Itchycoo Park” by the Small Faces. It is mentioned also in \"A Song for Europe\" from Roxy Music's 1973 Album Stranded: \"Through silken waters my gondola glides, and the bridge – it sighs...\"\n[…]\nMarillion, an English progressive rock band, mentions the bridge in their song \"Jigsaw\", singing \"We are Renaissance children becalmed beneath the Bridge of Sighs\".\n[…]\nBridge of Lies\n[…]\nBridge of Sighs, Venice\n[…]\nBridge of Sighs at Structurae\n[…]\n\"Bridge of Sighs, The\" . The New Student's Reference Work . 1914.\n[…]\nBridge of Sighs travel guide from Wikivoyage"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ponte_dos_Suspiros",
+        "situacao": "ok",
+        "texto": "A Ponte dos Suspiros (em italiano:  Ponte dei Sospiri) é uma ponte característica de Veneza, situado perto da Piazza San Marco em direção da Riva degli Schiavoni, que liga o Palazzo Ducale às Prigioni Nuove, o primeiro edifício no mundo construído para ser uma prisão.\n[…]\nConhecido em todo o mundo, fotografado pelos turistas provenientes de todos os lugares, lhe foi atribuído esse nome porque a lenda diz que, em tempos remotos, os prisioneiros (atravessando-a) suspiravam na ocasião de ver pela última vez o mundo externo.\n[…]\nA Ponte dos Suspiros foi construída em Pedra de Istria (em italiano: Pietra D'Istria - um tipo de rocha calcária microcristalina compacta com baixa porosidade, que vem precisamente da península de Istria), em estilo barroco, no início do século XVII sob projeto do arquiteto Antonio Contin, filho de Bernardino Contin e neto de Antonio da Ponte: o construtor da Ponte Rialto, por ordem do doge Marino Grimani, cujo brasão está esculpido na própria ponte.\n[…]\nEsta característica ponte de Veneza, localizada a uma curta distância da Piazza San Marco, atravessa o rio di Palazzo conectando, com uma dupla passagem, o Palazzo Ducale ao Prigioni Nuove, o primeiro edifício do mundo construído para ser especificamente uma prisão. Serviu como passagem para os presos das prisões acima mencionadas para os escritórios dos Inquisidores do Estado para serem julgados.\n[…]\nA Ponte é citada no conto \"O Encontro Marcado\" de Edgar Allan Poe.[carece de fontes]?\n[…]\nExistem algumas cópias da Ponte dos suspiros em Cambridge e em Oxford, na Inglaterra. Curiosamente, as duas cópias pertencem a faculdades (college) chamadas St. John's.\n[…]\nPonte dei Sospiri, Venezia, Italy\n[…]\nBridge of Sighs, Venice\n[…]\nPonte dos Suspiros no Structurae",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "O Pensador",
+      "descricao": "Escultura de bronze de Auguste Rodin."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na primeira versão, a escultura de Rodin hoje chamada O Pensador se chamava O Poeta. Que poeta ela representava?",
+    "resposta": "Dante Alighieri",
+    "distratores": [
+      "Virgílio",
+      "Petrarca",
+      "Homero"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Thinker"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Thinker",
+        "situacao": "ok",
+        "texto": "The Thinker (French: Le Penseur), by Auguste Rodin, is a bronze sculpture depicting a nude male figure of heroic size, seated on a large rock, leaning forward, his right elbow placed upon his left thigh, with the back of his right hand supporting his chin in a posture evocative of deep thought and contemplation. This universally recognized expression of \"deep thought\" has made the sculpture one of\n[…]\nThe Thinker was initially named The Poet (French: Le Poète), and was part of a large commission begun in 1880 for a doorway surround called The Gates of Hell. Rodin based this on the early 14th century poem the Divine Comedy by Dante Alighieri, and most of the figures in the work represented the main characters in the poem with The Thinker at the center of the composition over the doorway and somewhat larger than most of the other figures.\n[…]\nSome critics believe that it was originally intended to depict Dante at the gates of Hell, pondering his great poem.\n[…]\nOther critics reject that theory, pointing out that the figure is naked while Dante is fully clothed throughout his poem, and that the sculpture's physique does not correspond to Dante's effete figure. The sculpture is nude, as Rodin wanted a heroic figure in the tradition of Michelangelo, to represent intellect as well as poetry. Other critics came to see the sculpture as a self-portrait.\n[…]\nThe tomb features a large rectangular base, which is adorned with intricate reliefs and two sculptures, Dusk and Dawn, that represent the cycle of life. The central figure on the tomb is a sculpture of the Duke, who is portrayed as a thinker with his face in shadow and his elbow resting on a money box with a similarly muscular, contemplative figure with his hand on his chin, though the figure is seated rather than standing like Rodin's \"The Thinker\".\n[…]\nRodin Museum\n[…]\nThe Thinker Inspiration, Analysis and Critical Reception"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Pensador",
+        "situacao": "ok",
+        "texto": "O Pensador (francês: Le Penseur) é uma das mais famosas esculturas de bronze do escultor francês Auguste Rodin. Retrata um homem em meditação soberba, lutando com uma poderosa força interna.\n[…]\nOriginalmente chamado de O Poeta, a peça era parte de uma comissão do Museu de Arte Decorativa em Paris para criar um portal monumental baseada na Divina Comédia, de Dante Alighieri. Cada uma das estátuas na peça representavam um dos personagens principais do poema épico. O Pensador originalmente procurava retratar Dante em frente dos Portões do Inferno, ponderando seu grande poema.\n[…]\nA escultura está nua porque Rodin queria uma figura heroica à la Michelangelo para representar o pensamento assim como a poesia.\n[…]\nRodin fez sua primeira versão por volta de 1880. A primeira estátua (O Pensador) em escala maior foi terminada em 1902, mas não foi apresentada ao público até 1904. Tornou-se propriedade da cidade de Paris graças a uma contribuição organizada pelos admiradores de Rodin e foi colocada em frente do Panteão em 1906. Em 1922, contudo, foi levada para o Hotel Biron, transformado no Musée Rodin. Mais de vinte cópias da escultura estão em museus em volta do mundo.\n[…]\nAlgumas destas cópias são versões ampliadas da obra original assim como as esculturas de diferentes proporções.\n[…]\nO Instituto Ricardo Brennand na cidade do Recife, Pernambuco, possui uma versão ampliada da obra original, exposta em seu acervo particular, na Galeria.\n[…]\nPorta do Inferno (escultura)\n[…]\nO PensadorMusée Rodin, Paris (english, français)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Ponte Rio-Niterói",
+      "descricao": "Ponte sobre a Baía de Guanabara que liga as cidades do Rio de Janeiro e de Niterói, inaugurada em 1974."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Oficialmente, a Ponte Rio-Niterói leva o nome de que presidente do regime militar, morto anos antes de ela ser inaugurada?",
+    "resposta": "Costa e Silva",
+    "distratores": [
+      "Castelo Branco",
+      "Emílio Médici",
+      "Ernesto Geisel"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ponte_Rio%E2%80%93Niter%C3%B3i",
+      "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ponte_Rio%E2%80%93Niter%C3%B3i",
+        "situacao": "ok",
+        "texto": "Ponte Presidente Costa e Silva, popularmente conhecida como Ponte Rio-Niterói, é uma ponte que atravessa a Baía de Guanabara, no estado do Rio de Janeiro, no Brasil. Ela conecta os municípios do Rio de Janeiro e Niterói. Seu nome é em homenagem a Artur da Costa e Silva, presidente durante a ditadura militar brasileira que deu a ordem para a construção da estrutura.\n[…]\nEntretanto, somente no século XX, em 1963, foi criado um grupo de trabalho para estudar um projeto para a construção de uma via rodoviária. Em 29 de dezembro de 1965, uma comissão executiva foi formada para cuidar do projeto definitivo de construção de uma ponte. O Presidente Costa e Silva assinou decreto em 23 de agosto de 1968, autorizando o projeto de construção da ponte, idealizado pelo ministro dos transportes, Mário Andreazza, sob a gestão de quem a ponte foi iniciada e concluída.\n[…]\nA apresentação oficial do projeto da Ponte Rio-Niterói aconteceu no dia 14 de novembro de 1968 na Escola de Engenharia da Universidade Católica de Petrópolis (UCP). Na cerimônia estavam presentes: o Presidente Costa e Silva, o Ministro Mário Andreazza, o engenheiro Eliseu Rezende, diretor do DNER e o Grão-Chanceler e Reitor da UCP, Dom José Fernandes Veloso.[carece de fontes]?\n[…]\nEm 30 de abril de 2025 foi inaugurado o Memorial Ponte Rio-Niterói, com a exposição Ponte Rio-Niterói: uma Ponte entre Histórias, celebrando os 50 anos da ponte, documentos, fotografias, registros de áudio e vídeo sobre os aspectos históricos, técnicos e os impactos econômicos da obra. O local funciona de terça a sábado, das 9h ao meio-dia, e das 14h às 17h, e seu endereço é: Rua Mário Neves, 1, Ilha da Conceição, em Niterói.\n[…]\nEcoPonte, concessionária responsável pela ponte\n[…]\nPonte Rio-Niterói no G1\n[…]\nPonte Rio-Niterói no OpenStreetMap"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge",
+        "situacao": "ok",
+        "texto": "The Rio–Niterói Bridge (in Portuguese: Ponte Rio-Niterói), officially the President Costa e Silva Bridge, is a box girder bridge spanning the Guanabara Bay, connecting the cities of Rio de Janeiro and Niterói in the State of Rio de Janeiro, Brazil. It is currently the second longest bridge in Latin America, after the Metro Line 1 bridge, and the  48th longest in the world in 2020.\n[…]\nIn 1963, a working group was created to study a bridge-building project. On 29 December 1965, an executive committee was formed to run the bridge-building program. President Artur da Costa e Silva signed a decree on 23 August 1968, authorizing the project for the bridge. The bridge program was run by Minister of Transport Mário Andreazza.\n[…]\nInitially, the bridge was constructed by a consortium of Brazilian companies led by Camargo Correa SA (for the concrete works) and by Cleveland Bridge & Engineering Company and Redpath Dorman Long in association with Montreal Engenharia of Brazil (for the steel navigation spans). On January 26, 1971, President Emílio Garrastazu Médici signed a decree taking control of the consortium.\n[…]\nThe bridge opened on 4 March 1974, on a Monday morning, with the official name of President Costa e Silva Bridge. \"Rio-Niterói\" started as a descriptive nickname that soon became better known than the official name. Today hardly anyone refers to it by its official name.\n[…]\nIn 2012 a bill was introduced to change its official name, President Costa e Silva Bridge - the second president of the Brazilian military dictatorship between 1964 and 1985 -  to Herbert de Souza Bridge, which has annoyed the Brazilian military.\n[…]\nOfficial website with live feed from the bridge's surveillance cameras: Ponte S.A. homepage"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Farol de Alexandria",
+      "descricao": "Torre de luz erguida no século três antes de Cristo na ilha de Faros, diante do porto de Alexandria, no Egito, uma das sete maravilhas do mundo antigo."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Uma das sete maravilhas antigas, a torre de luz do porto de Alexandria ficava numa ilha cujo nome deu origem a uma palavra portuguesa. Que ilha?",
+    "resposta": "Faros",
+    "distratores": [
+      "Elefantina",
+      "Filas",
+      "Canopo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+      "https://pt.wikipedia.org/wiki/Farol_de_Alexandria"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+        "situacao": "ok",
+        "texto": "The Pharos of Alexandria was a lighthouse built by the Ptolemaic Kingdom of Ancient Egypt, during the reign of Ptolemy II Philadelphus (280–247 BC). It has been estimated to have been at least 100 metres (330 ft) in overall height. One of the Seven Wonders of the Ancient World, for many centuries it was one of the world's tallest man-made structures.\n[…]\nIn 1994, a team of French archaeologists dived in the water of Alexandria's Eastern Harbour and discovered some remains of the lighthouse on the sea floor. In 2016, the Ministry of State of Antiquities in Egypt had plans to turn submerged ruins of ancient Alexandria, including those of the Pharos, into an underwater museum.\n[…]\nThe etymology of \"Pharos\" is uncertain. The word became generalised in modern Greek to mean \"lighthouse\" (φάρος 'fáros'), and was borrowed by many Romance languages such as Catalan or Romanian (far), French (phare), Italian and Spanish (faro) – and thence into Esperanto (faro), and Portuguese (farol), and even some Slavic languages like Bulgarian (far).\n[…]\nThe George Washington Masonic National Memorial, in Alexandria, Virginia, is fashioned after the ancient Lighthouse.\n[…]\nChugg, Andrew Michael (2024). The Pharos Lighthouse In Alexandria – Second Sun and Seventh Wonder of Antiquity. Routledge.\n[…]\nClarie, Thomas C. (2009). Pharos – A Lighthouse For Alexandria. Back Channel. ISBN 978-1-934-58212-1.\n[…]\nHiggins, Michael Denis (2023). \"A Reverse History of the Pharos Lighthouse of Alexandria: From the Underwater Remains to the First Structure\". The Ancient Near East Today. 11 (10).\n[…]\nThompson, Alice (2002). Pharos. London: Virago.\n[…]\nLighthouse of Alexandria—World History Encyclopedia\n[…]\nDescription of Alexandria and the Pharos in the Zhu fan zhi\n[…]\nA frightening vision: on plans to rebuild the Alexandria Lighthouse (Archived June 12, 2018, at the Wayback Machine)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Farol_de_Alexandria",
+        "situacao": "ok",
+        "texto": "Farol de Alexandria (em grego:  ὁ Φάρος της Ἀλεξανδρείας) foi um farol construído pelo Reino Ptolomaico entre 280 e 247 a.C. na cidade de Alexandria. Ele tinha entre 120 e 137 metros de altura e era uma das sete maravilhas do mundo antigo, sendo que por muitos séculos foi uma das estruturas mais altas no mundo. Danificado por três terremotos entre os anos de 956 e 1323, tornou-se uma ruína abandon\n[…]\nAté 1480, era a terceira maravilha antiga sobrevivente (depois do Mausoléu de Halicarnasso e da Grande Pirâmide de Gizé), quando então a última de suas pedras remanescentes foi usada para construir a Cidadela de Qaitbay no mesmo local. Em 1994, os arqueólogos franceses descobriram parte dos restos do farol no Porto Oriental de Alexandria.\n[…]\nEm 2015, o Ministério de Estado das Antiguidades do Egito planejou transformar as ruínas submersas da antiga Alexandria, incluindo as de Faros, em um museu subaquático. Em maio do mesmo ano, o Comitê Permanente do Egito para Antiguidades anunciou planos de reconstruir o monumento.\n[…]\nFaros era uma pequena ilha localizada na margem ocidental do Delta do Nilo. Em 332 a.C., Alexandre, o Grande fundou a cidade de Alexandria em um istmo oposto a Faros. Alexandria e Faros foram conectadas depois por um molhe que media mais de 1200 metros e era chamado de Heptastádio (\"sete estádios\" - um estádio era uma unidade de comprimento da Grécia Antiga que media aproximadamente 180 m).\n[…]\nA descrição mais completa do farol vem do viajante árabe Abou Haggag Youssef Ibn Mohammed el-Balawi el-Andaloussi, que visitou Alexandria em 1166.\n[…]\nMoedas romanas encontrado no mosteiro alexandrino mostram que uma estátua de um Tritão ficava posicionada em cada um dos quatro cantos do edifício. Uma estátua de Poseidon ou de Zeus ficava no topo do farol. Os blocos de alvenaria do Faros estavam interligados, selados com chumbo derretido, para resistir às ondas do mar."
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Taj Mahal",
+      "descricao": "Mausoléu de mármore branco mandado erguer pelo imperador mogol Shah Jahan às margens do rio Yamuna, em Agra, na Índia."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "O imperador mogol Shah Jahan mandou erguer o Taj Mahal, de mármore branco, como mausoléu para quem?",
+    "resposta": "Sua esposa Mumtaz Mahal",
+    "distratores": [
+      "Seu pai Jahangir",
+      "Sua mãe",
+      "Seu mestre espiritual"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taj_Mahal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+        "situacao": "ok",
+        "texto": "The Taj Mahal ( TAHJ mə-HAHL, TAHZH -⁠; Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658), to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.\n[…]\nConstruction of the mausoleum was completed in 1648, although work on other parts of the complex continued for another five years. The first ceremony held at the mausoleum was an observance by Shah Jahan, on 6 February 1643, of the 12th anniversary of the death of Mumtaz Mahal. The Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around ₹32 million, which in 2015 would be approximately ₹52.8 billion (US$827 million).\n[…]\nThe Taj Mahal was commissioned by Shah Jahan in 1631, to be built in the memory of his wife Mumtaz Mahal, who died on 17 June that year while giving birth to their 14th child, Gauhara Begum. Construction started in 1632, and the mausoleum was completed in 1648, while the surrounding buildings and garden were finished five years later.\n[…]\nWhen the structure was partially completed, the first ceremony was held at the mausoleum by Shah Jahan on 6 February 1643, of the 12th anniversary of the death of Mumtaz Mahal. Construction of the mausoleum was completed in 1648, but work continued on other phases of the project for another five years. The Taj Mahal complex is believed to have been completed in 1653 at a cost estimated at the time to be around ₹32 million, which in 2015 would be approximately ₹52.8 billion (US$827 million).\n[…]\nOfficial website of the Taj Mahal\n[…]\nProfile of the Taj Mahal at UNESCO\n[…]\n\"Outlying Buildings\". Taj Mahal. Archived from the original on 4 February 2015. Retrieved 7 February 2015."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Taj_Mahal",
+        "situacao": "ok",
+        "texto": "O Taj Mahal (em hindi: ताज महल) é um mausoléu situado em Agra, na Índia, sendo o mais conhecido dos monumentos do país. Encontra-se classificado pela UNESCO como Patrimônio da Humanidade. Foi anunciado em 2007 como uma das sete maravilhas do mundo moderno.\n[…]\nA obra foi feita entre 1632 e 1653 com a força de cerca de 20 mil homens, trazidos de várias cidades do Oriente, para trabalhar no suntuoso monumento de mármore branco que o imperador Shah Jahan mandou construir em memória de sua esposa favorita, Aryumand Banu Begam, a quem chamava de Mumtaz Mahal (\"A joia do palácio\"). Ela morreu após dar à luz o 14.º filho, tendo o Taj Mahal sido construído sobre seu túmulo, junto ao rio Yamuna.\n[…]\nMausoléu;\n[…]\nA tradição muçulmana proíbe a decoração elaborada das campas, pelo que os corpos de Mumtaz e Xá Jahan descansam numa câmara relativamente simples debaixo da sala principal do Taj Mahal. Estão sepultados segundo um eixo norte-sul, com os rostos inclinados para a direita, em direcção a Meca.[carece de fontes]?\n[…]\nA palavra \"Taj\" provém do persa, linguagem da corte mogol, e significa \"Coroa\", enquanto que \"Mahal\" é uma variante curta de Mumtaz Mahal, o nome formal na corte de Arjumand Banu Begum, cujo significado é \"Primeira dama do palácio\". Taj Mahal, então, refere-se à \"coroa de Mahal\", a amada esposa de Xá Jahan. Já em 1663 o viajante francês François Bernier mencionou o edifício como \"Tage Mehale\".\n[…]\nOs livros islâmicos descrevem a sepultura em ataúdes como \"um gasto inútil, que poderia ser melhor utilizado para alimentar o faminto ou ajudar o necessitado\". Segundo a visão de Aurangzeb, construir um mausoléu novo para Xá Jahan teria sido um desperdício. Por isso sepultou o seu pai junto a Mumtaz Mahal sem mais complicações.\n[…]\n«Fotos do Taj Mahal»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Taj Mahal",
+      "descricao": "Mausoléu de mármore branco mandado erguer pelo imperador mogol Shah Jahan às margens do rio Yamuna, em Agra, na Índia."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Erguido às margens do rio Yamuna, o Taj Mahal fica em que cidade indiana?",
+    "resposta": "Agra",
+    "distratores": [
+      "Nova Délhi",
+      "Jaipur",
+      "Lucknow"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taj_Mahal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+        "situacao": "ok",
+        "texto": "The Taj Mahal ( TAHJ mə-HAHL, TAHZH -⁠; Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658), to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.\n[…]\nIn the 18th century, the Jat rulers of Bharatpur attacked the Taj Mahal while invading Agra and took away two chandeliers, one of agate and another of silver, which had hung over the main cenotaph and the gold and silver screen. Kanbo, a Mughal historian, said the gold shield which covered the 4.6-metre-high (15 ft) finial at the top of the main dome was also removed during the Jat despoliation.\n[…]\nEver since its construction, the building has been the source of an admiration transcending culture and geography, and so personal and emotional responses have consistently eclipsed scholastic appraisals of the monument. A longstanding myth holds that Shah Jahan planned a mausoleum to be built in black marble as a Black Taj Mahal across the Yamuna river. The idea originates from fanciful writings of Jean-Baptiste Tavernier, a European traveler and gem merchant, who visited Agra in 1665.\n[…]\nNo evidence exists for claims that Lord William Bentinck, governor-general of India in the 1830s, supposedly planned to demolish the Taj Mahal and auction off the marble. Bentinck's biographer John Rosselli says that the story arose from Bentinck's fund-raising sale of discarded marble from Agra Fort. Another myth suggests that beating the silhouette of the finial will cause water to come forth. To this day, officials find broken bangles surrounding the silhouette.\n[…]\nProfile of the Taj Mahal at UNESCO\n[…]\n\"Outlying Buildings\". Taj Mahal. Archived from the original on 4 February 2015. Retrieved 7 February 2015."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Taj_Mahal",
+        "situacao": "ok",
+        "texto": "O Taj Mahal (em hindi: ताज महल) é um mausoléu situado em Agra, na Índia, sendo o mais conhecido dos monumentos do país. Encontra-se classificado pela UNESCO como Patrimônio da Humanidade. Foi anunciado em 2007 como uma das sete maravilhas do mundo moderno.\n[…]\nPara transportar o mármore e outros materiais desde Agra até ao local da edificação, construiu-se uma rampa de terra de 15 km de comprimento. De acordo com os registos da época, para o transporte dos grandes blocos utilizaram-se carreiras especialmente construídas, tiradas por carros de vinte ou trinta bois. Para colocar os blocos em posição foi necessário um elaborado sistema de roldanas montadas sobre postes e vigas de madeira, e a força de juntas de bois e mulas.[carece de fontes]?\n[…]\nOs cronistas europeus, especialmente durante o primeiro período do Raje britânico, sugeriram que alguns dos trabalhos do Taj Mahal tinham sido obra de artesãos europeus. A maioria destas suposições eram puramente especulativas, mas uma referência de 1640, segundo a carta de um frade espanhol que visitou Agra, menciona que Geronimo Veroneo, um aventureiro italiano na corte de Xá Jahan, foi o responsável principal do desenho.\n[…]\nDe acordo com John Rosselli, biógrafo de Bentinck, a história foi criada a partir de outros acontecimentos, de tipo diferente: a venda de mármore proveniente do forte de Agra e a de um famoso embora obsoleto canhão, em ambos casos com fins de beneficência.\n[…]\nEm 2000 a Supremo Tribunal de Justiça indeferiu as petições de Oak relativas à declaração de origem hindu do Taj Mahal, e condenou-o a pagar os custos judiciais. De acordo com Oak, a rejeição pelo governo indiano da sua petição é parte de uma conspiração contra o hinduísmo.\n[…]\n«Fotos do Taj Mahal»\n[…]\n«Taj Mahal em 3D»  no Google Earth",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Taj Mahal",
+      "descricao": "Mausoléu de mármore branco mandado erguer pelo imperador mogol Shah Jahan às margens do rio Yamuna, em Agra, na Índia."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O Taj Mahal, o mais famoso mausoléu do Império Mogol, foi construído em que século?",
+    "resposta": "Século dezessete",
+    "distratores": [
+      "Século quinze",
+      "Século dezesseis",
+      "Século dezoito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taj_Mahal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+        "situacao": "ok",
+        "texto": "The Taj Mahal ( TAHJ mə-HAHL, TAHZH -⁠; Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658), to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.\n[…]\nThe Taj Mahal was commissioned by Shah Jahan in 1631, to be built in the memory of his wife Mumtaz Mahal, who died on 17 June that year while giving birth to their 14th child, Gauhara Begum. Construction started in 1632, and the mausoleum was completed in 1648, while the surrounding buildings and garden were finished five years later.\n[…]\nWhen the structure was partially completed, the first ceremony was held at the mausoleum by Shah Jahan on 6 February 1643, of the 12th anniversary of the death of Mumtaz Mahal. Construction of the mausoleum was completed in 1648, but work continued on other phases of the project for another five years. The Taj Mahal complex is believed to have been completed in 1653 at a cost estimated at the time to be around ₹32 million, which in 2015 would be approximately ₹52.8 billion (US$827 million).\n[…]\nEver since its construction, the building has been the source of an admiration transcending culture and geography, and so personal and emotional responses have consistently eclipsed scholastic appraisals of the monument. A longstanding myth holds that Shah Jahan planned a mausoleum to be built in black marble as a Black Taj Mahal across the Yamuna river. The idea originates from fanciful writings of Jean-Baptiste Tavernier, a European traveler and gem merchant, who visited Agra in 1665.\n[…]\nOfficial website of the Taj Mahal\n[…]\nProfile of the Taj Mahal at UNESCO\n[…]\n\"Outlying Buildings\". Taj Mahal. Archived from the original on 4 February 2015. Retrieved 7 February 2015."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Taj_Mahal",
+        "situacao": "ok",
+        "texto": "O Taj Mahal (em hindi: ताज महल) é um mausoléu situado em Agra, na Índia, sendo o mais conhecido dos monumentos do país. Encontra-se classificado pela UNESCO como Patrimônio da Humanidade. Foi anunciado em 2007 como uma das sete maravilhas do mundo moderno.\n[…]\nMausoléu;\n[…]\nAs descrições mais antigas do jardim mencionam sua profunda vegetação, com abundância de rosas, narcisos e árvores frutíferas. Com a declinação do império mogol também decresceu o mantimento, e quando os britânicos assumem o controle do Taj Mahal, introduzem modificações paisagísticas para refletir melhor o estilo dos jardins de Londres. No entanto, os visitantes poderão admirar-se ao ver os jardineiros cortar a relva com uma máquina puxada por bois.\n[…]\nO Taj Mahal inclui, aliás, outros materiais trazidos de toda a Ásia. Mais mil elefantes transportaram materiais de construção dos confins do continente. O jaspe foi importado do Punjab, e o cristal e o jade, da China.\n[…]\nOs livros islâmicos descrevem a sepultura em ataúdes como \"um gasto inútil, que poderia ser melhor utilizado para alimentar o faminto ou ajudar o necessitado\". Segundo a visão de Aurangzeb, construir um mausoléu novo para Xá Jahan teria sido um desperdício. Por isso sepultou o seu pai junto a Mumtaz Mahal sem mais complicações.\n[…]\nUm sem-fim de histórias descrevem, muitas vezes com detalhes horripilantes, a morte, desmembramento e mutilação que Xá Jahan teria infligido a vários artesãos relacionados com a construção do mausoléu. Talvez a história mais repetida é a de que como o imperador teve à sua disposição os melhores arquitetos e decoradores, depois de completar o seu trabalho fazia-os cegar e cortar as mãos para que não pudessem voltar a construir um monumento que igualasse a superioridade do Taj Mahal.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Torre de Pisa",
+      "descricao": "Campanário inclinado da catedral de Pisa, na Itália."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A Torre de Pisa começou a se inclinar ainda durante a construção, no século doze. Qual foi a causa?",
+    "resposta": "Solo mole sob a fundação",
+    "distratores": [
+      "Um terremoto",
+      "Uma enchente do rio",
+      "O peso dos sinos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+        "situacao": "ok",
+        "texto": "The Leaning Tower of Pisa (Italian: torre pendente di Pisa [ˈtorre penˈdɛnte di ˈpiːza, - ˈpiːsa]), or simply the Tower of Pisa (torre di Pisa), is the campanile, or freestanding bell tower, of Pisa Cathedral. It is known for its nearly four-degree lean, the result of an unstable foundation. The tower is one of three structures in Pisa's Cathedral Square (Piazza del Duomo), which includes the cath\n[…]\nOn 23 February 1260, Guido Speziale, son of Giovanni Pisano, was elected to oversee the building of the tower. On 12 April 1264, the master builder Giovanni di Simone, architect of the Camposanto, and 23 workers went to the mountains close to Pisa to cut the required marble. The cut stones were given to Rainaldo Speziale, worker of St. Francesco. In 1272, construction resumed under Di Simone.\n[…]\nTwo German churches have challenged the tower's status as the world's most lopsided building: the 15th-century square Leaning Tower of Suurhusen and the 14th-century bell tower of the Oberkirche in the town of Bad Frankenhausen. Guinness World Records measured the Pisa and Suurhusen towers, finding Pisa's tilt to be 3.97 degrees.\n[…]\nIn June 2010, Guinness World Records certified the Capital Gate building in Abu Dhabi, UAE as the \"World's Furthest Leaning Man-made Tower\". It has an 18-degree slope, almost five times more than the Tower of Pisa, but was deliberately engineered to slant. The Leaning Tower of Wanaka in Wānaka, New Zealand, also deliberately built, leans at 53 degrees to the ground.\n[…]\nLeaning Temple of Huma\n[…]\nList of leaning towers\n[…]\nLeaning Tower of Niles, a replica of the Tower of Pisa\n[…]\nTorre delle Milizie, a tilting medieval tower in Rome\n[…]\nPiazza dei Miracoli digital media archive (Creative Commons – licensed photos, laser scans, panoramas), data from a University of Ferrara/CyArk research partnership, includes 3D scan data from the Leaning Tower of Pisa.\n[…]\nLeaning Tower of Pisa at Structurae"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Torre_de_Pisa",
+        "situacao": "ok",
+        "texto": "A torre inclinada de Pisa (em italiano Torre pendente di Pisa), ou simplesmente Torre de Pisa, é um campanário (campanile ou campanário autônomo) da catedral da cidade italiana de Pisa. Está situada atrás da catedral, e é a terceira mais antiga estrutura na praça da Catedral de Pisa (Campo dei Miracoli), depois da catedral e do baptistério.\n[…]\nEmbora destinada a ficar na vertical, a torre começou a inclinar-se para sudeste logo após o início da construção, em 1173, devido a uma fundação mal construída e a um solo de fundação mal consolidado, que permitiu à fundação ficar com assentamentos diferenciais. A torre atualmente se inclina para o sudoeste.\n[…]\nA torre começou a inclinar-se após a progressão de construção para o terceiro andar em 1178. Isto deveu-se a uma fundação de meros três metros sobre um subsolo fraco e instável, um projecto que falhou desde o início. A construção foi posteriormente paralisada por quase um século, porque o Pisanos estavam continuamente envolvidos em batalhas com Génova, Lucca e Florença. Este tempo permitiu ao solo subjacente ajustar-se. Caso contrário, a torre de Pisa quase certamente teria sido derrubada.\n[…]\nUma força-tarefa multinacional, composta por engenheiros, matemáticos e historiadores, reuniu-se nos Açores a fim de discutir os métodos de estabilização. Verificou-se que a inclinação foi aumentando por causa da fundação pouco consistente. Vários métodos foram propostos para estabilizar a torre, incluindo a adição de 800 toneladas de contrapesos.\n[…]\nApartamentos e casas no caminho da torre foram desocupados por segurança. A solução final para evitar o colapso da torre foi endireitá-la ligeiramente para um ângulo mais seguro, removendo 38 metros cúbicos do solo abaixo. A torre foi tracionada até 18 polegadas (45 centímetros), retornando para a posição exacta que ocupava em 1838.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Torre de Pisa",
+      "descricao": "Campanário inclinado da catedral de Pisa, na Itália."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Segundo um relato de seu discípulo, que cientista nascido em Pisa soltou objetos do alto da torre inclinada para estudar a queda dos corpos?",
+    "resposta": "Galileu Galilei",
+    "distratores": [
+      "Isaac Newton",
+      "Leonardo da Vinci",
+      "Evangelista Torricelli"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+      "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+        "situacao": "ok",
+        "texto": "Between 1589 and 1592, the Italian scientist Galileo Galilei (then professor of mathematics at the University of Pisa) is said to have dropped \"unequal weights of the same material\" from the Leaning Tower of Pisa to demonstrate that their time of descent was independent of their mass, according to a biography by Galileo's pupil Vincenzo Viviani, composed in 1654 and published in 1717. The basic pr\n[…]\nThough Viviani wrote that Galileo conducted \"repeated experiments made from the height of the Leaning Tower of Pisa in the presence of other professors and all the students,\" most historians consider it to have been a thought experiment rather than a physical test.\n[…]\nTwo years later, mathematician Giambattista Benedetti questioned why two balls, one made of iron and one of wood, would fall at the same speed. All of this preceded the 1564 birth of Galileo Galilei.\n[…]\nGalileo set out his ideas about falling bodies, and about projectiles in general, in his book Two New Sciences (1638). The two sciences were the science of motion, which became the foundation-stone of physics, and the science of materials and construction, an important contribution to engineering. Galileo arrived at his hypothesis by a famous thought experiment outlined in his book On Motion. He writes:\n[…]\nThe basic premise behind these experiments is now known as the (weak) equivalence principle. Galileo's hypothesis that inertial mass (resistance to acceleration) equals gravitational mass (weight) was extended by Albert Einstein to include special relativity and that combination became a key concept leading to the development of the modern theory of gravity, general relativity. Physical experiments following Galileo increased the precision of the equivalence to better than one part in a trillion.\n[…]\nDelft tower experiment\n[…]\nGalileo experiment on the Moon\n[…]\nGalileo and the Leaning Tower of Pisa"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+        "situacao": "ok",
+        "texto": "The Leaning Tower of Pisa (Italian: torre pendente di Pisa [ˈtorre penˈdɛnte di ˈpiːza, - ˈpiːsa]), or simply the Tower of Pisa (torre di Pisa), is the campanile, or freestanding bell tower, of Pisa Cathedral. It is known for its nearly four-degree lean, the result of an unstable foundation. The tower is one of three structures in Pisa's Cathedral Square (Piazza del Duomo), which includes the cath\n[…]\nBetween 1589 and 1592, Galileo Galilei, who lived in Pisa at the time, is said to have dropped two cannonballs of different masses from the tower to demonstrate that their speed of descent was independent of their mass, in keeping with the scientific law of free fall.\n[…]\nTwo German churches have challenged the tower's status as the world's most lopsided building: the 15th-century square Leaning Tower of Suurhusen and the 14th-century bell tower of the Oberkirche in the town of Bad Frankenhausen. Guinness World Records measured the Pisa and Suurhusen towers, finding Pisa's tilt to be 3.97 degrees.\n[…]\nIn June 2010, Guinness World Records certified the Capital Gate building in Abu Dhabi, UAE as the \"World's Furthest Leaning Man-made Tower\". It has an 18-degree slope, almost five times more than the Tower of Pisa, but was deliberately engineered to slant. The Leaning Tower of Wanaka in Wānaka, New Zealand, also deliberately built, leans at 53 degrees to the ground.\n[…]\nLeaning Temple of Huma\n[…]\nList of leaning towers\n[…]\nLeaning Tower of Niles, a replica of the Tower of Pisa\n[…]\nThe Greyfriars Tower, the remains of a Franciscan monastery in King's Lynn, nicknamed \"The Leaning Tower of Lynn\"\n[…]\nTorre delle Milizie, a tilting medieval tower in Rome\n[…]\nPiazza dei Miracoli digital media archive (Creative Commons – licensed photos, laser scans, panoramas), data from a University of Ferrara/CyArk research partnership, includes 3D scan data from the Leaning Tower of Pisa.\n[…]\nLeaning Tower of Pisa at Structurae"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Partenon",
+      "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Em 1687, durante uma guerra entre venezianos e otomanos, o Partenon, até então quase inteiro, foi em boa parte destruído. O que aconteceu?",
+    "resposta": "Explodiu a pólvora guardada nele",
+    "distratores": [
+      "Um terremoto",
+      "Um raio o atingiu",
+      "Foi desmontado pelos turcos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Parthenon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Parthenon",
+        "situacao": "ok",
+        "texto": "The Parthenon (; Ancient Greek: Παρθενών, romanised: Parthenōn [par.tʰe.nɔ̌ːn]; Greek: Παρθενώνας, romanised: Parthenónas [parθeˈnonas]) is a former temple on the Athenian Acropolis, Greece, that was dedicated to the goddess Athena. Its decorative sculptures are considered some of the high points of classical Greek art, and the Parthenon is considered an enduring symbol of ancient Greece, Western \n[…]\nThe experts discovered the metopes while processing 2,250 photos with modern photographic methods, as the white Pentelic marble they are made of differed from the other stone of the wall. It was previously presumed that the missing metopes were destroyed during the Morosini explosion of the Parthenon in 1687.\n[…]\nThe French artist Jacques Carrey in 1674 visited the Acropolis and sketched the Parthenon's sculptural decorations. Early in 1687, an engineer named Plantier sketched the Parthenon for the Frenchman Graviers d'Ortières. These depictions, particularly Carrey's, provide important, and sometimes the only, evidence of the condition of the Parthenon and its various sculptures prior to the devastation it suffered in late 1687 and the subsequent looting of its art objects.\n[…]\nAccounts written at the time conflict over whether this destruction was deliberate or accidental; one such account, written by the German officer Sobievolski, states that a Turkish deserter revealed to Morosini the use to which the Turks had put the Parthenon, expecting that the Venetians would not target a building of such historic importance. Morosini was said to have responded by directing his artillery to aim at the Parthenon.\n[…]\nToday it attracts millions of tourists every year, who travel up the path at the western end of the Acropolis, through the restored Propylaea, and up the Panathenaic Way to the Parthenon, which is surrounded by a low fence to prevent damage."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Partenon",
+        "situacao": "ok",
+        "texto": "Partenon (em grego antigo: Παρθενών, transl Parthenōn; em grego moderno Παρθενώνας, transl. Parthenónas) foi um templo dedicado à deusa grega Atena, construído no século V a.C.\n[…]\nEm 1456, Atenas foi tomada pelo Império Otomano e em 1458 o Partenon foi novamente convertido, desta vez em mesquita. Os otomanos não destruíram as antiguidades de Atenas, porém, não realizaram nenhum projeto de proteção e ainda usaram o templo, durante a guerra, como fortificação. Um minarete foi adicionado e sua base e escadas ainda estão lá, e o edifício não foi danificado.\n[…]\nO Partenon sofreu seu maior dano em 1687, quando os venezianos, liderados por Francesco Morosini, atacaram Atenas e os otomanos usaram a edificação como paiol de pólvora. No dia 26 de setembro, um canhão veneziano, disparando da colina de Filopapo, acertou no paiol e o edifício foi parcialmente destruído. A estrutura interna foi demolida, o telhado caiu e algumas colunas, particularmente do lado sul, foram decapitadas. As esculturas sofreram pesados danos.\n[…]\n1687 — Os venezianos atacam Atenas. O Partenon é usado pelos turcos como depósito de pólvora e, em 26 de setembro, é atingido por uma bala de canhão que demole sua estrutura interna\n[…]\nO estadista ateniense indica assim que o metal, obtido a partir de cunhagem contemporânea, poderia ser utilizado novamente sem qualquer impiedade. O Partenon deve, então, ser visto como um grande cenário para a estátua votiva de Fídias em vez de um local de culto. Diz-se em muitos escritos dos gregos que havia muitos tesouros guardados no interior do templo, como espadas persas e pequenas estátuas figurativas feitas de metais preciosos.\n[…]\nPartenon (Nashville)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Abu Simbel",
+      "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser"
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Nos anos sessenta, os templos de Abu Simbel, no Egito, foram cortados em blocos e remontados num terreno mais alto. Por quê?",
+    "resposta": "Inundação pela represa de Assuã",
+    "distratores": [
+      "Risco de terremotos",
+      "Erosão pela areia",
+      "Rachaduras na rocha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abu_Simbel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Abu_Simbel",
+        "situacao": "ok",
+        "texto": "Abu Simbel is a historic site comprising two massive rock-cut temples in the village of Abu Simbel (Arabic: أبو سمبل), Aswan Governorate, Upper Egypt, near the border with Sudan. It is located on the western bank of Lake Nasser, about 230 km (140 mi) southwest of Aswan (about 300 km (190 mi) by road).\n[…]\nMax McCullough a special assistant for educational and cultural affairs in the State Department, who was the American representative on the UNESCO committee stated, \"This means that for the first time we have a plan acceptable to everybody and, secondly that we are within striking distance of the money required for the project.\"\n[…]\nTwo international committees containing archaeologists, architects and engineers provided technical advice to the joint venture, while the Egyptian government interests was represented on site by their own resident engineer who was supported by archaeologists from the Department of Antiquities. By the spring of 1964 approximately 1,000 people were being employed by the project at Abu Simbel.\n[…]\nThe single entrance is flanked by four colossal, 20 m (66 ft) statues, each representing Ramesses II seated on a throne and wearing the double crown of Upper and Lower Egypt. The statue to the immediate left of the entrance was damaged in an earthquake, causing the head and torso to fall away; these fallen pieces were not restored to the statue during the relocation but placed at the statue's feet in the positions originally found.\n[…]\nThe rock-cut sanctuary and the two side chambers are connected to the transverse vestibule and are aligned with the axis of the temple. The bas-reliefs on the side walls of the small sanctuary represent scenes of offerings to various gods made either by the pharaoh or the queen.\n[…]\nof the first stage of the project for saving Abu Simbel"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Abul-Simbel",
+        "situacao": "ok",
+        "texto": "Os templos de Abul-Simbel são dois enormes templos esculpidos na rocha em Abu Simbel (em árabe: أبو سمبل), uma vila na província de Assuão, Alto Egito, perto da fronteira com o Sudão. Eles estão situados na margem oeste do Lago Nasser, cerca de 230 km sudoeste de Assuão (cerca de 300 km de carro). O complexo faz parte do Patrimônio Mundial da UNESCO conhecido como \"Monumentos Núbios\", que vão de A\n[…]\nAlgumas estruturas foram até salvas debaixo das águas do Lago Nasser. Hoje, algumas centenas de turistas visitam os templos diariamente. Muitos visitantes também chegam de avião a um campo de aviação que foi construído especialmente para o complexo do templo, ou por estrada saindo de Assuã, a cidade mais próxima.\n[…]\nA entrada única é ladeada por quatro colossais, 20 m estátuas, cada uma representando Ramessés II sentado em um trono e usando a coroa dupla do Alto e do Baixo Egito. A estátua imediatamente à esquerda da entrada foi danificada por um terremoto, fazendo com que a cabeça e o torso caíssem; esses pedaços caídos não foram restaurados na estátua durante a realocação, mas colocados aos pés da estátua nas posições originalmente encontradas.\n[…]\nO salão hipostilo (às vezes também chamado de pronau) tem 18 m de comprimento e 16,7 m de largura e é suportado por oito enormes pilares representando o deificado Ramessés ligado ao deus Osíris, o deus da fertilidade, agricultura, vida após a morte, os mortos, ressurreição, vida e vegetação, para indicar a natureza eterna do faraó. As estátuas colossais ao longo da parede esquerda exibem a coroa branca do Alto Egito, enquanto as do lado oposto usam a coroa dupla do Alto e do Baixo Egito.\n[…]\nAs estátuas, pouco mais de 10 m alto, são do rei e de sua rainha. Em cada lado do portal estão duas estátuas do rei, usando a coroa branca do Alto Egito (colosso do sul) e a coroa dupla (colosso do norte); estes são flanqueados por estátuas da rainha.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Museu de Arte de São Paulo",
+      "descricao": "Museu na Avenida Paulista, em São Paulo, cujo prédio é suspenso sobre um grande vão livre."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Por exigência de quem doou o terreno, o prédio do MASP, na Avenida Paulista, fica suspenso sobre um vão livre. O que a doação exigia preservar?",
+    "resposta": "A vista para o centro",
+    "distratores": [
+      "Uma árvore centenária",
+      "Um antigo coreto",
+      "Uma nascente d'água"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Museu_de_Arte_de_S%C3%A3o_Paulo",
+      "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Museum_of_Art"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Museu_de_Arte_de_S%C3%A3o_Paulo",
+        "situacao": "ok",
+        "texto": "Museu de Arte de São Paulo Assis Chateaubriand (mais conhecido pelo acrônimo MASP) é um museu de arte particular e sem fins lucrativos brasileiro fundado em 1947 pelo empresário e jornalista Assis Chateaubriand e localizado na cidade de São Paulo. É considerado um dos centros culturais mais importantes do Brasil e um dos museus mais visitado do país e do mundo, sendo frequentemente listado entre o\n[…]\nO terreno havia sido doado à prefeitura por Joaquim Eugênio de Lima, idealizador e construtor da avenida Paulista, com a condição de que a vista para o centro da cidade fosse preservada, através do vale da avenida Nove de Julho.\n[…]\nLina Bo Bardi concebeu arquitetonicamente esse edifício que foi sede única do MASP até 2025. Para preservar a vista exigida para o centro da cidade era necessário ou uma edificação subterrânea ou uma suspensa. A arquiteta optou por ambas as alternativas, concebendo um bloco subterrâneo e um elevado, suspenso a oito metros do piso.\n[…]\nA justificativa comumente utilizada para a criação do vão é a da exigência, no momento de concepção do projeto na década de 1950, de se construir um belvedere capaz de manter a visão do centro da cidade a partir da Avenida Paulista.\n[…]\nO uso cultural do espaço remonta ao início da história do museu. Em 1969, ano de inauguração do Museu de Arte de São Paulo (MASP) na Avenida Paulista, foi realizada no vão livre a mostra Playgrounds, exposição individual do artista Nelson Leirner que incluiu uma série de obras participativas dispostas no local, proposta que foi retomada pelo museu em 2016.\n[…]\nDe acordo com as demonstrações financeiras institucionais, em 2024 o MASP registrou 580.508 visitantes, cerca de 10% a mais que no ano anterior. No mesmo ano, foi apontado como o museu/centro cultural mais amado de São Paulo (Prêmio Veja Os Mais Amados) e obteve o 2º lugar no ranking global de museus do mais buscados no Google (Year in Search)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Museum_of_Art",
+        "situacao": "ok",
+        "texto": "The São Paulo Museum of Art (Portuguese: Museu de Arte de São Paulo, or MASP) is an art museum in São Paulo, Brazil. It is well known for the architectural significance of its headquarters, a 1968 concrete and glass structure designed by Lina Bo Bardi. It is considered a landmark of the city and a symbol of modern Brazilian architecture, and one of the most-visited art museums in the world.\n[…]\nThe museum was inaugurated and opened to the public  on 2 October 1947, displaying the first acquisitions, among them canvases by Picasso and Rembrandt. In these first years of activity, the museum was located on the upper floors of the Diarios Associados headquarters in the Centro neighborhood of São Paulo.\n[…]\nThe ground on Paulista Avenue had been donated to the City Hall with the condition that the view to the downtown area and the valley of the Nove de Julho Avenue be preserved.\n[…]\nThe new MASP building was the brainchild of Lina Bo Bardi. To preserve the required view of the downtown area, Bardi idealized a building suspended above ground, supported by four massive rectangular columns made of concrete. The construction is considered to be unique worldwide for its peculiarity: the main body of the building stands on four lateral supporting pillars, generating a free area of 74 meters underneath the sustained building.\n[…]\nConstruction on the present building of the museum began in 1957, and the building was inaugurated in 1968 and has 25 m high. MASP is famous for its remarkable Brazilian modern architecture structure, and it is considered one of the landmarks of city. It is located on the former site of Belvedere Trianon on Paulista Avenue, from which it was possible to see the Centro of São Paulo at that time and the Cantareira Mountains beyond.\n[…]\nMuseu Nacional de Belas Artes\n[…]\nPinacoteca do Estado de São Paulo\n[…]\nMedia related to Museu de Arte de São Paulo at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Parque Ibirapuera",
+      "descricao": "Parque urbano de 158 hectares em São Paulo, inaugurado em 1954 e o mais visitado da América do Sul."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Inaugurado em 1954, com prédios de Niemeyer como a Oca e a grande marquise, o Parque Ibirapuera foi criado para celebrar que data?",
+    "resposta": "Quarto centenário da cidade",
+    "distratores": [
+      "Centenário da Independência",
+      "Fim da Segunda Guerra",
+      "Fundação da USP"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Ibirapuera",
+      "https://en.wikipedia.org/wiki/Ibirapuera_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Ibirapuera",
+        "situacao": "ok",
+        "texto": "Parque Ibirapuera é um parque urbano localizado no município de São Paulo, Brasil. Em 2017, foi o parque mais visitado da América Latina, com aproximadamente 14 milhões de visitas, além de ser um dos locais mais fotografados do mundo.\n[…]\nFinalmente, em 1951, o então governador Lucas Nogueira Garcez instituiu uma comissão mista - composta por representantes dos poderes públicos e da iniciativa privada - para que o Parque Ibirapuera se tornasse o marco das comemorações do IV centenário da cidade. Coube a Oscar Niemeyer a responsabilidade pelo projeto arquitetônico, ao engenheiro calculista Joaquim Cardozo a responsabilidade pelos projetos estruturais e, a Roberto Burle Marx, o projeto paisagístico.\n[…]\nTrês anos depois, no entanto, o aniversário da cidade, em 25 de janeiro de 1954, não pôde contar com o parque inaugurado, pois este só ficaria concluído sete meses depois. A inauguração em agosto contou com 640 estandes montados por treze estados e dezenove países. No mesmo ano, em comemoração ao Quarto Centenário da cidade de São Paulo, foi erguido no parque o Pavilhão Japonês.\n[…]\nO Parque Ibirapuera fica na subprefeitura de Vila Mariana, na cidade de São Paulo. O parque é um quadrilátero formado pelas avenidas Quarto Centenário, República do Líbano e Pedro Álvares Cabral. A entrada para a enorme área verde, que fica aberta diariamente das 5h da manhã até à meia-noite, é gratuita desde a inauguração do parque. Por ser de extensão muito grande, conta com diversos portões que dão acesso à parte interna, variando entre os que são só para veículos, ou só para pedestres.\n[…]\nFazem parte das construções da época da inauguração do conjunto arquitetônico do Parque Ibirapuera:\n[…]\nParque Estadual do Jaraguá\n[…]\nParque Ibirapuera no TripAdvisor"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ibirapuera_Park",
+        "situacao": "ok",
+        "texto": "Ibirapuera Park (Portuguese: Parque Ibirapuera) is an urban park in São Paulo. It comprises 158 hectares (approx. 390 acres) between Av. República do Líbano, Av. Pedro Alvares Cabral, and Av. IV Centenário, and is the most visited park in South America, with 14.4 million visits in 2017.\n[…]\nIbirapuera Park was the first metropolitan park in São Paulo, designed along the lines of other great English landscape gardens built in the 20th century in major cities around the globe, but inspired on modern drafts from the landscape architect Roberto Burle Marx. It was inaugurated on 21 August 1954 for the 400th anniversary of the city of São Paulo with buildings designed by architect João Felipe Pereira and landscape by agronomist Otávio Augusto Teixeira Mendes.\n[…]\nIbirapuera is one of Latin America's largest urban parks, together with Chapultepec Park in Mexico City and Simón Bolívar Park in Bogotá, and its iconic importance to São Paulo is often internationally comparable to that of Central Park in New York City.\n[…]\nThe park has been managed for decades by the city of São Paulo, but the local government plans to concession all its parks' management to private hands, starting with Ibirapuera Park. Since 2014, the park also has the support of the Ibirapuera Park Conservancy (Parque Ibirapuera Conservação), a strong community nonprofit that supports park stewardship and conservation actions through a capital improvement plan, engagement projects and volunteer work.\n[…]\nAdmission to the park has been free since 1954, and it is open from 5am until midnight every day.\n[…]\nGinásio do Ibirapuera\n[…]\nIbirapuera at São Paulo Department of Parks and Green Areas\n[…]\nGeographic data related to Ibirapuera Park at OpenStreetMap"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Fonte dos Quatro Rios",
+      "descricao": "Fonte barroca de Gian Lorenzo Bernini na Piazza Navona, em Roma, de 1651."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Na Fonte dos Quatro Rios, de Bernini, a figura que representa o Nilo tem a cabeça coberta por um pano. Qual é a explicação dos historiadores?",
+    "resposta": "Sua nascente era desconhecida",
+    "distratores": [
+      "Desprezo por Borromini",
+      "Proteção contra o sol",
+      "Luto pelo papa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fontana_dei_Quattro_Fiumi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fontana_dei_Quattro_Fiumi",
+        "situacao": "ok",
+        "texto": "Fontana dei Quattro Fiumi (Fountain of the Four Rivers) is a fountain in the Piazza Navona in Rome, Italy. It was designed in 1651 by Gian Lorenzo Bernini for Pope Innocent X whose family palace, the Palazzo Pamphili, faced onto the piazza as did the church of Sant'Agnese in Agone of which Innocent was the sponsor.\n[…]\nEarlier Bernini fountains had been the Fountain of the Triton in Piazza Barberini, the Fountain of the Moor in the southern end of Piazza Navona erected during the Barberini papacy, and the Neptune and Triton for Villa Peretti Montalto, whose statuary now resides at Victoria and Albert Museum in London.\n[…]\nBernini's design was influenced by the design of the Monument of the Four Moors (Monumento dei Quattro mori) and it may have also been influenced by a fountain in Marino, Lazio which was constructed to commemorate the defeat of the Ottomans at Lepanto in 1571. This fountain served as an inspiration for Francesco Robba's (1698–1757) Robba fountain, which stands at Town Square in Ljubljana, the capital of Slovenia. It is one of the city's most recognisable symbols.\n[…]\nThe Fontana dei Quattro Fiumi was unveiled to the populace of Rome on 12 June 1651. According to a report from the time, an event was organised to draw people to the Piazza Navona. Beforehand, wooden scaffolding, overlaid with curtains, had hidden the fountain, though probably not the obelisk, which would have given people an idea that something was being built, but the precise details were unknown.\n[…]\nList of works by Gian Lorenzo Bernini\n[…]\nFontana dei Quattro Fiumi Video of the Fontana dei Quattro Fiumi in Piazza Navona at Christmas time.\n[…]\nVideo Introduction to Bernini Four Rivers Fountain and The Moor"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fontana_dei_Quattro_Fiumi",
+        "situacao": "ok",
+        "texto": "Fontana dei Quattro Fiumi (Fonte dos Quatro Rios), é uma fonte localizada na Praça de Navona, em Roma, em frente à Igreja de Santa Inês. Foi projetada por Gian Lorenzo Bernini, artista do barroco italiano, entre 1648 e 1651, por encomenda do Papa Inocêncio X, na época dono do Palácio Pamphili, também na Praça de Navona. Acima da fonte está o Obelisco Egípcio Agonal.\n[…]\nA base da fonte é uma bacia a partir do centro da qual se erguem rochas de márnore travertino para sustentar os quatro deuses do rio e acima deles, uma cópia de um obelisco egípcio encimado pelo emblema da família Pamphili de uma pomba com um ramo de oliveira. A fonte representa os quatro principais rios do mundo, um em cada continente — Rio Nilo, em África; Rio Ganges, na Ásia, Rio da Prata, na América e o Rio Danúbio, na Europa - através dos quais a autoridade papal se espalhou.\n[…]\nCada estátua da fonte tem animais e plantas que promovem sua identificação, e cada uma carrega consigo um certo número de alegorias e metáforas. O Ganges carrega um longo remo, representando a navegabilidade do rio. A cabeça do Nilo está coberta por um pedaço de pano solto, o que significa que ninguém naquela época sabia exatamente onde ficava a nascente do Nilo. O Danúbio toca o brasão pessoal do Papa, já que é o grande rio mais próximo de Roma.\n[…]\nO projeto de Bernini foi influenciado pelo desenho do Monumento dos Quatro Mouros (Monumento dei Quattro mori), em Livorno, e também pode ter sido influenciado por uma fonte em Marino, construída para comemorar a derrota dos otomanos em Lepanto, em 1571. Esta fonte foi a inspiração de Francesco Robba (1698–1757) para a Fonte Robba, que fica (desde 2006 como uma réplica) na Praça da Cidade, em Liubliana, capital da Eslovênia. É um dos símbolos mais conhecidos da cidade.\n[…]\n«Video Introduction to Bernini Four Rivers Fountain and The Moor»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Grande Buda de Kamakura",
+      "descricao": "Estátua monumental de bronze de Amitabha no templo Kōtoku-in, em Kamakura, Japão."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Desde o fim do século quinze, o Grande Buda de Kamakura, no Japão, fica ao ar livre. O que levou embora o templo que o abrigava?",
+    "resposta": "Um tsunami",
+    "distratores": [
+      "Um incêndio",
+      "Uma guerra civil",
+      "Um bombardeio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in",
+        "situacao": "ok",
+        "texto": "Kōtoku-in (高徳院) is a Buddhist temple of the Jōdo-shū sect in the city of Kamakura in Kanagawa Prefecture, Japan. Its mountain name is Daii-zan (大異山), and its common temple name is Shōjōsen-ji (清浄泉寺).\n[…]\nThe temple is renowned for The Great Buddha of Kamakura (鎌倉大仏, Kamakura Daibutsu), a monumental outdoor bronze statue of Amitābha, which is one of the most famous icons of Japan. It is also a designated National Treasure, and one of the twenty-two historic sites included in Kamakura's proposal for inclusion in UNESCO's World Heritage Sites.\n[…]\nThe Great Buddha of Kamakura (鎌倉大仏, Kamakura Daibutsu) is a large bronze statue of Amitābha, located on the temple grounds. Including the base, it measures 13.35 metres (43.8 ft) tall and weighs approximately 93 tonnes (103 tons). According to temple records, the statue dates from around 1252, during the Kamakura period, which it is named after.\n[…]\nThe hall was destroyed by a storm in 1334, was rebuilt, was damaged by yet another storm in 1369, and was rebuilt yet again. The last building housing the statue was washed away in the tsunami resulting from the Nankai earthquake of 20 September 1498, during the Muromachi period. Since then, the Great Buddha has stood in the open air. In the mid-Edo period, the monks Yūten and Yōkoku sponsored a restoration of the daibutsu with funds provided by Nojima Shinzaemon, a merchant from Asakusa.\n[…]\nUshiku Daibutsu – Japan's tallest statue of a Buddha in Ushiku, Ibaraki Prefecture, Japan\n[…]\nKamakura Today website Archived 7 June 2012 at the Wayback Machine \"Kotoku-in (The Great Buddha)\" page\n[…]\nKamakura Trip website \"Kamakura Daibutsu (Great Buddha of Kamakura)\" page (in English)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/K%C5%8Dtoku-in",
+        "situacao": "ok",
+        "texto": "O Kōtoku-in (高徳院) é um templo budista da seita Jōdo-shū na cidade de Kamakura, na província de Kanagawa, no Japão.\n[…]\nO templo é famoso por seu \"Grande Buda\" (大仏, Daibutsu), uma estátua de bronze monumental de Amitaba que é um dos mais famosos ícones do Japão.\n[…]\nO Grande Buda de Kamakura é uma estátua de bronze monumental ao ar livre do Amitaba localizada no templo Kōtoku-in, em Kamakura, em Kanagawa, no Japão. A estátua de bronze provavelmente data de 1252, no período Kamakura, de acordo com registros do templo. Ela foi precedida por um Buda gigante de madeira, que foi concluído em 1243 após dez anos de trabalho contínuo, sendo que os fundos foram recolhidos pela senhora Inada e o sacerdote budista Jōkō de Tōtōmi.\n[…]\nO salão foi destruído por uma tempestade em 1334, foi reconstruída e foi danificada por outra tempestade em 1369, e reconstruída novamente. O último edifício que abrigava a estátua foi arrastado por um tsunami em 20 de setembro de 1498, durante o período Muromachi. Desde então, o Grande Buda tem resistido ao ar livre.\n[…]\nEsta estátua é conhecida como \"O Buda de Kamakura\" em alguns versículos que servem de prefácio para os capítulos iniciais da novela \"Kim\" de Rudyard Kipling (1901). Os versículos foram retirados do poema de mesmo nome que o autor escreveu após visitar Kamakura em 1892. O poema aparece em sua totalidade em \"The Five Nations\" de 1903.\n[…]\nTian Tan Buddha - localizado em Hong Kong, maior estátua de Buda sentado.\n[…]\nTōdai-ji - templo em Nara que abriga a maior estátua de bronze de Buda no Japão.\n[…]\nUshiku Daibutsu - a mais alta estátua de Buda no mundo, em Ushiku, em Ibaraki, no Japão.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Basílica de São Pedro",
+      "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "No início do século dezesseis, a venda de indulgências para pagar a construção da nova Basílica de São Pedro provocou o protesto de que religioso?",
+    "resposta": "Martinho Lutero",
+    "distratores": [
+      "João Calvino",
+      "Ulrico Zuínglio",
+      "Jan Hus"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica",
+        "situacao": "ok",
+        "texto": "The Papal Basilica of Saint Peter in the Vatican (Italian: Basilica Papale di San Pietro in Vaticano), or simply St. Peter's Basilica (Latin: Basilica Sancti Petri; Italian: Basilica di San Pietro [baˈziːlika di sam ˈpjɛːtro]), is a church of the Italian Renaissance located in Vatican City, an independent microstate enclaved within the city of Rome, Italy. It was initially planned in the 15th cent\n[…]\nPeter's Basilica was constructed over this site.\n[…]\nPeter, though the tomb was \"smashed\" in 846 AD. It contained a very large number of burials and memorials, including those of most of the popes from St. Peter to the 15th century. Like all of the earliest churches in Rome, both this church and its successor had the entrance to the east and the apse at the west end of the building. Since the construction of the current basilica, the name Old St. Peter's Basilica has been used for its predecessor to distinguish the two buildings.\n[…]\nOne method employed to finance the building of St. Peter's Basilica was the granting of indulgences in return for contributions. A major promoter of this method of fund-raising was Albrecht, Archbishop of Mainz and Magdeburg, who had to clear debts owed to the Roman Curia by contributing to the rebuilding program. To facilitate this, he appointed the German Dominican preacher Johann Tetzel, whose salesmanship provoked a scandal and led to the Protestant Reformation.\n[…]\nTo the east of the basilica is the Piazza di San Pietro, (St. Peter's Square). The present arrangement, constructed between 1656 and 1667, is the Baroque inspiration of Bernini who inherited a location already occupied by an Egyptian obelisk which was centrally placed, (with some contrivance) to Maderno's facade.\n[…]\nList of Roman Catholic basilicas\n[…]\n360 Degree Photographs Inside Saint Peter's Basilica\n[…]\n\"Beggar's Rome\" - A self-directed virtual tour of St. Peter's Basilica and other Roman churches"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_de_S%C3%A3o_Pedro",
+        "situacao": "ok",
+        "texto": "Basílica de São Pedro (em latim: Basilica Sancti Petri, em italiano Basilica di San Pietro) é uma basílica do Alto Renascimento italiano, localizada no Estado do Vaticano, um microestado independente enclavado na cidade de Roma, Itália. Trata-se do maior e mais importante edifício religioso do catolicismo e um dos locais cristãos mais visitados do mundo. Cobre uma área de 23 000 m² ou 2,3 hectares\n[…]\nO agressivo marketing de Johann Tetzel em promover esta causa foi mal encarado por alguns eclesiásticos, até que um padre alemão agostiniano, Martinho Lutero, escreveu ao arcebispo Alberto, argumentando contra essa \"venda de indulgências\", incluindo porém a sua \"disputa de Martinho Lutero sobre o poder e eficácia das indulgências\", que veio a ser conhecido pelas \"95 Teses\" (Tetzel seria inclusive punido por Leão X pelos seus sermões, que iam muito além dos ensinamentos reais sobre as indulgências).\n[…]\nEmbora Lutero não negasse o direito do Papa ou da Igreja de conceder perdões e penitências, exigia no entanto, a correção de abusos na prática. Isto tornou-se um factor importante para o início da Reforma Protestante, com o nascimento do protestantismo.\n[…]\nO transepto norte estende-se até ao Palácio Apostólico e foi projetado e construído por Miguel Ângelo, que ampliou o deambulatório que os seus antecessores haviam projectado, acrescentando alguns altares constituídos por grandes janelas. No transepto a norte, existem três altares dedicados a São Venceslau (núm. 27), São Erasmo (núm. 29), e no centro o dos santos mártires Processo e Martiniano (núm. 28).\n[…]\nNo entanto, a cúpula de São Pedro tornou-se modelo para outras construções semelhantes. A tipologia das colunas germinadas do tambor foi retomada durante o século XVII, na cúpula da basílica romana de Sant'Andrea della Valle.\n[…]\nPraça de São Pedro\n[…]\nSão Pedro\n[…]\n«Visita virtual da Basílica de São Pedro». (em inglês) e italiano)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Conjunto Moderno da Pampulha",
+      "descricao": "Conjunto arquitetônico projetado por Oscar Niemeyer nos anos 1940 em torno da lagoa da Pampulha, com a Igreja de São Francisco de Assis."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Pronta nos anos quarenta, a igrejinha de São Francisco da Pampulha, de Niemeyer, só foi consagrada em 1959. Por quê?",
+    "resposta": "O clero rejeitou sua forma",
+    "distratores": [
+      "Falta de verba",
+      "Defeito na estrutura",
+      "Disputa pelo terreno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi_(Belo_Horizonte)",
+      "https://en.wikipedia.org/wiki/Pampulha_Modern_Ensemble"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi_(Belo_Horizonte)",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pampulha_Modern_Ensemble",
+        "situacao": "ok",
+        "texto": "The Pampulha Modern Ensemble (Portuguese: Conjunto Moderno da Pampulha) is an urban project in Belo Horizonte, Minas Gerais state of Brazil. It was designed around an artificial lake, Lake Pampulha, in the district of Pampulha and includes a casino (currently Pampulha Art Museum), a ballroom (Casa do Baile), the Golf Yacht Club (currently Iate Tênis Clube) and the Church of Saint Francis of Assisi\n[…]\nThe buildings were designed by the architect Oscar Niemeyer, in collaboration with the landscape architect Roberto Burle Marx, Brazilian Modernist artists, and structural engineer Joaquim Cardozo.\n[…]\nIn July 2016, the site was declared a UNESCO World Heritage Site because of its outstanding examples of modern architecture and its importance in the development of a Brazilian architectural identity.\n[…]\nExplore Pampulha Modern Ensemble in the UNESCO collection on Google Arts and Culture"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Templo de Ártemis",
+      "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Em 356 antes de Cristo, um homem chamado Heróstrato incendiou o Templo de Ártemis, em Éfeso. Segundo os antigos, qual era o objetivo dele?",
+    "resposta": "Ficar famoso",
+    "distratores": [
+      "Vingar-se dos sacerdotes",
+      "Roubar o tesouro",
+      "Agradar a um rei"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Herostratus",
+      "https://en.wikipedia.org/wiki/Temple_of_Artemis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Herostratus",
+        "situacao": "ok",
+        "texto": "Herostratus, or Eratostratus (fl. 356 BCE), was an arsonist who destroyed the Temple of Artemis in an attempt to achieve infamy. His name has become an eponym for someone who commits a crime solely to become famous.\n[…]\nHerostratus's life and background are almost entirely unknown. In 356 BCE, he burned down the Temple of Artemis at Ephesus, one of the Seven Wonders of the Ancient World. He was swiftly arrested and made to confess his intentions—to gain everlasting fame—under torture, and was thereafter executed. The arson prompted a damnatio memoriae law barring mention of his name, although many ancient writers, even one contemporary of the arson, documented him.\n[…]\nOn the day Alexander the Great was born in 356 BCE, a man burned the temple down; some historians claim he set its large wooden roof ablaze. The crime was attributed to an unknown man named Herostratus. Promptly arrested, he was tortured on the rack, where he confessed to having committed the arson to secure everlasting fame or notoriety. He was then executed. To thwart his ambition and harden his punishment, Ephesus passed a damnatio memoriae law forbidding anyone from mentioning his name.\n[…]\nEnlightenment writer Alessandro Verri published the first book-length fiction on Herostratus in 1815, La Vita di Erostrato (The Life of Herostratus). It tells the tale of a man seeking glory who, after constantly having his dreams shattered in failure, grows frustrated and burns the Temple of Artemis. On the other hand, Romantic and exoticist poetry tended to focus on Herostratus's supposed \"joy in destruction or self-destruction\" over his hunger for fame.\n[…]\nThe dictionary definition of herostratic fame at Wiktionary"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Temple_of_Artemis",
+        "situacao": "ok",
+        "texto": "The Temple of Artemis or Artemision, also known as the Temple of Diana, was a Greek temple dedicated to a localised form of the goddess Artemis (equated with the Roman goddess Diana). It was located in Ephesus, near modern-day Selçuk in Turkey and is considered one of the Seven Wonders of the Ancient World.\n[…]\nThe beginning of the history of the temple is unclear. It is known, however, that the earliest version of the temple was destroyed by a flood in the 7th century BC. A more elaborate reconstruction of the temple began around 550 BC under the leadership of the Greek architect from Crete Chersiphron, funded by Croesus of Lydia. This version of the temple lasted until 356 BC, when it was burned down by an arsonist, popularly identified as Herostratus.\n[…]\nIn 356 BC, the temple burned down. Various sources describe this as an act of arson by Herostratus, who set fire to the wooden roof-beams, seeking fame at any cost – thus the term herostratic fame.\n[…]\nFor this outrage, the Ephesians sentenced the perpetrator to death and forbade anyone from mentioning his name, although Theopompus later noted it. Aristotle describes the temple's conflagration, but not its cause. In Greek and Roman historical tradition, the temple's destruction coincided with the birth of Alexander the Great (around 20–21 July 356 BC). Plutarch remarks that Artemis was too preoccupied with Alexander's delivery to save her burning temple.\n[…]\nThe main primary sources for the Temple of Artemis at Ephesus are Pliny the Elder's Natural History,, writings by Pomponius Mela,and Plutarch's Life of Alexander.\n[…]\nList of Ancient Greek temples\n[…]\nWorld History Encyclopedia - Temple of Artemis at Ephesus\n[…]\nTemple of Artemis (Ephesos) objects at the British Museum website\n[…]\nJames Grout: Temple of Artemis, part of the Encyclopædia Romana"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Her%C3%B3strato",
+        "situacao": "ok",
+        "texto": "Heróstrato (em grego  Ἡρόστρατος) foi um incendiário grego, responsável pela destruição do templo de Ártemis em Éfeso, na atual Turquia, considerado uma das Sete Maravilhas da Antiguidade, na noite de 21 de julho do ano 356 a.C. com objetivo de ser lembrado pela posteridade.\n[…]\nDe acordo com a história, o único desejo de Heróstrato era conseguir fama a qualquer preço. Disse Valério Máximo: \"Descobriu-se que um homem havia planejado incendiar o templo de Ártemis em Éfeso, de maneira que pela destruição do mais belo dos monumentos, seu nome seria conhecido no mundo inteiro\". Longe de tentar furtar-se à responsabilidade de seu ato enlouquecido, Heróstrato alegou com orgulho o seu feito, para imortalizar seu nome na história.\n[…]\nPara que futuros aventureiros fossem desencorajados, as autoridades não apenas executaram Heróstrato como também o condenaram a uma posteridade obscura, mediante a proibição da menção ao seu nome pelas gerações futuras sob a ameaça da execução. Isso, porém, não impediu que Heróstrato atingisse sua meta, pois o historiador Teopompo veio a registrar o acontecimento, com o quê perpetuou o incendiário nos anais da história.\n[…]\nSíndrome de Heróstrato é um termo usado para descrever terroristas que perpetraram atos hediondos com o objetivo de ser lembrados. Alguns psicólogos identificam o desejo por grande infâmia como importante motivação nos discursos terroristas, como massacres nas escolas e jihads, e defendem a necessidade de dar menos visibilidade na mídia aos autores de genocídios para evitar novos casos.\n[…]\nBorowitz, Albert. Terrorism for Self-glorification: The Herostratos Syndrome. Ohio: Kent State University Press, 2005.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Panteão de Roma",
+      "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que pintor renascentista, autor do afresco A Escola de Atenas, está sepultado no Panteão de Roma?",
+    "resposta": "Rafael",
+    "distratores": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Ticiano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "situacao": "ok",
+        "texto": "The Pantheon (UK: , US: ; Latin: Pantheum, from Ancient Greek  Πάνθειον (Pantheion) '[temple] of all the gods') is an ancient Polytheist temple in Rome, Italy, originally built under Roman emperor Augustus (27 BC–AD 14) and reconstructed under Hadrian (117–138).\n[…]\nThe 1824 Henriette Wegner Pavilion in Oslo's famous Frogner Park features a painted miniature copy of the Pantheon dome. The architect Carl Ludvig Engel also took influences from the structure of the Pantheon for the 1837 Nokia Church. Other notable replicas, such as The Rotunda gallery that opened 1818 in New York City, have not survived.\n[…]\nThe Pantheon's dome was also an inspiration for the Volkshalle, an assembly hall planned but never built by the Nazi German architect Albert Speer for Adolf Hitler's intended rebuilding of Berlin as \"Germania\".\n[…]\nPanthéon, Paris\n[…]\nPantheon, Moscow (never built)\n[…]\n\"Beggar's Rome\" – A self-directed virtual tour of St. Maria ad Martyres (Pantheon) and other Roman churches\n[…]\nPantheon Live Webcam, Live streaming Video of the Pantheon\n[…]\nPantheon Rome, Virtual Panorama and photo gallery\n[…]\nPantheon, article in Platner's Topographical Dictionary of Ancient Rome\n[…]\nPantheon Rome vs Pantheon Paris. Archived 24 June 2019 at the Wayback Machine.\n[…]\nTomás García Salgado, \"The geometry of the Pantheon's vault\"\n[…]\nPantheon at Great Buildings/Architecture Week website (archived 15 March 2008)\n[…]\nArt & History Pantheon. Archived 2010-11-24 at the Wayback Machine.\n[…]\nSummer solstice at the Pantheon (archived 15 July 2011)\n[…]\nPantheon at Structurae\n[…]\nVideo Introduction to the Pantheon\n[…]\nPanoramic Virtual Tour inside the Pantheon Archived 11 July 2021 at the Wayback Machine\n[…]\nHigh-resolution 360° Panoramas and Images of Pantheon|Art Atlas Archived 1 January 2022 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pante%C3%A3o_%28Roma%29",
+        "situacao": "ok",
+        "texto": "Panteão (em latim: Pantheon) é um edifício em Roma, Itália, encomendado por Marco Vipsânio Agripa durante o reinado do imperador Augusto (r. 27 a.C.–14 d.C.) e reconstruído por Adriano (r. 117–138) por volta de 126.\n[…]\nDesde o Renascimento, o Panteão tem sido utilizado como túmulo e entre os sepultados ali estão os pintores Rafael e Annibale Carracci, o compositor Arcangelo Corelli e o arquiteto Baldassare Peruzzi. No século XV, muitas pinturas foram levadas para lá e a mais conhecida é uma \"Anunciação\" de Melozzo da Forlì. No início do século XVII, Urbano VIII Barberini  (r. 1623–1644) ordenou que o teto de bronze do pórtico do Panteão fosse derretido.\n[…]\nO terceiro nicho abriga os restos mortais do grande artista Rafael. Sua noiva (ela morreu antes do casamento), Maria Bibbiena, está enterrada à sua direita. O sarcófago foi doado pelo papa Gregório XVI (r. 1831–1846) e, na inscrição, lê-se: ILLE HIC EST RAPHAEL TIMUIT QUO SOSPITE VINCI / RERUM MAGNA PARENS ET MORIENTE MORI (\"Aqui jaz Rafael, por quem a mãe de todas as coisas [Natureza] temia ser ultrapassada enquanto ele vivia e, enquanto ele morria, temia morrer também\".\n[…]\nEste epitáfio foi escrito por Pietro Bembo. O atual arranjo da capela é de 1811, um projeto de Antonio Munoz. O busto de Rafael (1833), é de Giuseppe Fabris. As duas placas comemorativas celebram Maria Bibbiena e Annibale Carracci. Atrás do túmulo está um estátua conhecida como \"Madonna del Sasso\" (\"Madona das Rochas\"), pois a Virgem está com um pé num pedregulho na imagem, encomendada por Rafael e executada por Lorenzetto em 1524.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Fontana di Trevi",
+      "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em que filme de Federico Fellini, de 1960, a atriz Anita Ekberg entra de vestido na Fontana di Trevi, em plena noite?",
+    "resposta": "A Doce Vida",
+    "distratores": [
+      "Oito e Meio",
+      "Amarcord",
+      "Noites de Cabíria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trevi_Fountain",
+      "https://en.wikipedia.org/wiki/La_Dolce_Vita"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trevi_Fountain",
+        "situacao": "ok",
+        "texto": "The Trevi Fountain (Italian: Fontana di Trevi) is an 18th-century fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini in 1762. Standing 26.3 metres (86 ft) high and 49.15 metres (161.3 ft) wide, it is the largest Baroque fountain in the world and one of the most famous fountains in the world.\n[…]\nThe Acqua Vergine water aqueduct carries the water to the Trevi Fountain, after having collected it 10 km (6.2 mi) from the Italian capital. The aqueduct is still in use today, despite some interventions during which the fountain remained empty. Calcium-free water is thought to be one of the causes.\n[…]\nThe Trevi Fountain was finished in 1762 by Pannini, who substituted the present allegories for planned sculptures of Agrippa and Trivia, the Roman virgin. It was officially opened and inaugurated on 22 May by Pope Clement XIII. The majority of the piece is made from Travertine stone, quarried near Tivoli, about 35 kilometres (22 miles) east of Rome.\n[…]\nThe Trevi Fountain is depicted in the third movement, \"The Trevi Fountain at Noon\", of Ottorino Respighi's 1916 symphonic poem Fountains of Rome.\n[…]\nThe fountain has appeared in several films, including Roman Holiday (1953); Three Coins in the Fountain (1954); Federico Fellini's classic, La Dolce Vita (1960); Sabrina Goes to Rome (1998); and The Lizzie McGuire Movie (2003). In Federico Fellini's 1960 film La Dolce Vita, Anita Ekberg wades into the fountain with Marcello Mastroianni.\n[…]\nIn 1973, the Italian national postal service dedicated a postage stamp to the Trevi Fountain.\n[…]\nLego released a set based on the Trevi Fountain on March 1st 2025.\n[…]\nRoman Bookshelf – Trevi Fountain – Views from the 18th and 19th centuries\n[…]\nTrevi Fountain Live Cam\n[…]\nTrevi Fountain Virtual 360° panorama and photo gallery.\n[…]\nTurismoroma: Poli Palace – Trevi fountain"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/La_Dolce_Vita",
+        "situacao": "ok",
+        "texto": "La Dolce Vita (Italian: [la ˈdoltʃe ˈviːta]; Italian for 'the sweet life' or 'the good life') is a 1960 satirical comedy-drama film directed by Federico Fellini and written by Fellini, Ennio Flaiano, Tullio Pinelli, and Brunello Rondi. The film stars Marcello Mastroianni as Marcello Rubini, a tabloid journalist who, over seven days and nights, journeys through the \"sweet life\" of Rome in a fruitle\n[…]\nThe scene in the Trevi Fountain was shot over a week in winter: in March according to the BBC, in late January according to Anita Ekberg. Fellini claimed that Ekberg stood in the cold water in her dress for hours without any trouble while Mastroianni had to wear a wetsuit beneath his clothes - to no avail. It was only after the actor \"polished off a bottle of vodka\" and \"was completely pissed\" that Fellini could shoot the scene.\n[…]\nHis long, frustrating night with the Swedish - American actress Sylvia (Anita Ekberg) that ends in the Trevi fountain at dawn\n[…]\nIn Ettore Scola's movie We All Loved Each Other So Much (1974), the accidental meeting between former lovers Stefania Sandrelli and Nino Manfredi takes place during the filming of the Fontana di Trevi scene with Fellini and Mastroianni acting as themselves.\n[…]\n\"Tributes to Fellini in the \"Director's Cut\" of Cinema Paradiso (1988) include a helicopter suspending a statue of Jesus over the city and scenes in which the Trevi Fountain is used as a backdrop while Toto, the main character, grows up to be a famous film director.\n[…]\nFellini, Federico (1976). Fellini on Fellini. London: Eyre Methuen.\n[…]\n(in Italian) Fellini, Federico, and Joseph-Marie Lo Duca (1960). La Dolce Vita. Paris: Jean-Jacques Pauvert Editeur.\n[…]\n(in Italian) — (1960). 'La Dolce Vita' di Federico Fellini. Bologna: Cappelli editore, collana Fellini Federico: dal soggetto al Film, 1960.\n[…]\n(in Italian) — (1996). Su 'La Dolce Vita' con Federico Fellini. Venice: Marsilio."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fontana_di_Trevi",
+        "situacao": "ok",
+        "texto": "A Fontana di Trevi (em português Fontana di Trevi) é a maior (cerca de 26 metros de altura e 20 metros de largura) e mais ambiciosa construção de fontes barrocas da Itália e está localizada no rione Trevi, em Roma. A fonte está encostada na fachada do Palazzo Poli.\n[…]\nA Fontana di Trevi foi concluída em 1762 por Pannini, que substituiu pelas alegorias atuais as esculturas planejadas de Agripa e Trívia, a virgem romana. Foi oficialmente inaugurado e inaugurado em 22 de maio pelo Papa Clemente XIII.\n[…]\nOs trabalhos de restauração começaram em junho de 2014 e foram concluídos em novembro de 2015. A fonte foi reaberta com uma cerimônia oficial na noite de 3 de novembro de 2015. A restauração incluiu a instalação de mais de 100 luzes LED para melhorar a iluminação noturna do chafariz.\n[…]\nEstima-se que 3 000 euros sejam jogados na fonte todos os dias. Em 2016, cerca de € 1,4 milhão (US$ 1,5 milhão) foi jogado na fonte. O dinheiro foi usado para subsidiar um supermercado para os pobres de Roma; No entanto, há tentativas regulares de roubar moedas da fonte, mesmo que seja ilegal fazê-lo.\n[…]\nEm 1964, foi lançado o filme que leva seu nome Fontana di Trevi - filmado pelo diretor Carlo Campogalliani.\n[…]\nO monumento foi o cenário de uma das cenas mais famosas do cinema italiano: em La Dolce Vita de Federico Fellini, Anita Ekberg entra na água e convida Marcello Mastroianni a fazer o mesmo.\n[…]\nPrecedentemente, a fonte foi o cenário do filme estadunidense Three Coins in the Fountain, onde a fonte do título é a própria Fontana di Trevi.\n[…]\nEm Tototruffa 62, Totò tenta vender a fonte a um turista.\n[…]\nA fonte aparece como fundo principal no videoclipe da canção Thank You for Loving Me do grupo Bon Jovi.\n[…]\n«Trevi Fountain». Virtual 360° panorama and photo gallery.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Mosteiro dos Jerónimos",
+      "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "No Mosteiro dos Jerónimos, em Lisboa, o túmulo de Vasco da Gama fica perto do túmulo de que poeta, que cantou a sua viagem?",
+    "resposta": "Luís de Camões",
+    "distratores": [
+      "Gil Vicente",
+      "Bocage",
+      "Almeida Garrett"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jer%C3%B3nimos_Monastery"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jer%C3%B3nimos_Monastery",
+        "situacao": "ok",
+        "texto": "The Jerónimos Monastery or Hieronymites Monastery (Portuguese: Mosteiro dos Jerónimos, pronounced [muʃˈtɐjɾu ðu(ʒ) ʒɨˈɾɔnimuʃ]) is a former monastery of the Order of Saint Jerome near the Tagus river in the parish of Belém, in the Lisbon Municipality, Portugal. It became the necropolis of the Portuguese royal dynasty of Aviz in the 16th century but was secularized on 28 December 1833 by state decr\n[…]\nIn 1880, da Gama's remains and those of the poet Luís de Camões (who celebrated da Gama's first voyage in his 1572 epic poem The Lusiad), were moved to new carved tombs in the nave of the monastery's church, only a few meters away from the tombs of the kings Manuel I and John III, whom da Gama had served. In 1983, the Jerónimos Monastery was classified as a UNESCO World Heritage Site, along with the nearby Tower of Belém.\n[…]\nIn 1640, the prior Bento de Siqueira ordered construction of the monastery's library, where books owned by the Infante Luís (son of King Manuel I) and others linked to the religious order were deposited.\n[…]\nTo celebrate the 1898 fourth centenary of the arrival of Vasco da Gama in India, it was decided to restore the tomb of the explorer in 1894. The tombs of Vasco da Gama and Luís de Camões, carved by the sculptor Costa Mota, were placed in the southern lateral chapel. A year later the monastery received the remains of the poet João de Deus, later joined by the tombs of Almeida Garret (1902), Sidónio Pais (1918), Guerra Junqueiro (1923) and Teófilo Braga (1924).\n[…]\nWithin the church, in the lower choir, are the stone tombs of Vasco da Gama (1468–1523), and of the great poet and chronicler of the Age of Discoveries, Luís de Camões (1527–1580). Both tombs were sculpted by the 19th-century sculptor Costa Mota in a harmonious neo-Manueline style. The mortal remains of both were transferred to these tombs in 1880.\n[…]\nJerónimos Monastery on Google Arts & Culture"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mosteiro_dos_Jer%C3%B3nimos",
+        "situacao": "ok",
+        "texto": "O Mosteiro de Santa Maria de Belém, mais conhecido como Mosteiro dos Jerónimos, é um mosteiro português, mandado construir no final do século XV pelo rei D. Manuel I e estava entregue à Ordem de São Jerónimo. Situa-se na freguesia de Belém, na cidade e concelho de Lisboa. Tem, desde 2016, o estatuto de Panteão Nacional.\n[…]\nEm 1496, ainda antes da descoberta do caminho marítimo para a Índia por Vasco da Gama, D. Manuel I fez um pedido à Santa Sé para que lhe fosse concedida autorização para se erigir um grande mosteiro no lugar da velha ermida da Ordem de Cristo à entrada de Lisboa, junto às margens do Tejo. Tendo recebido essa autorização em 23 de Junho,do mesmo ano, pela bula \"Eximiae devotionis\" expedida pelo papa Alexandre VI.\n[…]\nNessa altura a Casa Pia abandonou a zona do claustro; os túmulos de Camões e Vasco da Gama foram transferidos do cruzeiro para o subcoro; foi reconstruída a galilé da portaria.\n[…]\nConcluído em 1993, o edifício do Centro Cultural de Belém, mais precisamente o seu módulo do lado este, obstrui parcialmente a vista desimpedida que existiu durante séculos entre o Mosteiro dos Jerónimos e a margem do rio Tejo.\n[…]\nNa capela à esquerda do transepto está sepultado o Cardeal-Rei D. Henrique e os dos filhos de D. Manuel I; na que se situa à direita encontra-se o túmulo de D. Sebastião e dos descendentes de D. João III. A igreja acolhe também os túmulos de Camões e Vasco da Gama, da autoria de Costa Mota, tio.\n[…]\nSobre a balaustrada do coro-alto ergue-se um 'Cristo Crucificado' (1550) do escultor flamengo Philippe de Vries (Filipe Brias); oferecido em 1551 pelo Infante D. Luís, é considerado um marco do triunfo do renascimento em Portugal. O conjunto de pinturas representando os apóstolos que integra o cadeiral é de autor desconhecido.\n[…]\nJerónimo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Empire State Building",
+      "descricao": "Arranha-céu art déco de 102 andares em Manhattan, Nova York, concluído em 1931."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "No clássico do cinema de 1933, que gorila gigante sobe ao topo do Empire State Building e enfrenta aviões?",
+    "resposta": "King Kong",
+    "distratores": [
+      "Godzilla",
+      "Mighty Joe Young",
+      "Konga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/King_Kong_(1933_film)",
+      "https://en.wikipedia.org/wiki/Empire_State_Building"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/King_Kong_(1933_film)",
+        "situacao": "ok",
+        "texto": "King Kong is a 1933 American Pre-Code adventure horror monster film directed and produced by Merian C. Cooper and Ernest B. Schoedsack, with special effects by Willis H. O'Brien and music by Max Steiner. Produced and distributed by RKO Radio Pictures, King Kong is the first film in the self-titled franchise, combining live-action sequences with stop-motion animation using rear-screen projection.\n[…]\nShackled in chains, Kong is taken to New York City and presented to a Broadway theatre audience as \"King Kong, the Eighth Wonder of the World!\" Ann and Jack join him on stage, surrounded by press photographers. The ensuing flash photography causes Kong to break loose as the audience flees in terror. Ann is whisked away to a high-floor hotel room, but Kong scales the building and reclaims her. He makes his way through the city with Ann in his grasp and begins climbing the Empire State Building.\n[…]\nWhile Cooper and Schoedsack insisted in contemporary interviews that there was no hidden meaning to King Kong, a posthumously published interview with Cooper revealed that his inspiration for the film was rooted in the image of a giant ape falling from the tallest building, which would represent how primitive people are doomed by modern civilization. This idea has been taken up in scholarly analysis of the film. In her analysis Erb focuses on the struggle between primitivism and civilization.\n[…]\nIn 2025, The Hollywood Reporter listed King Kong as having the best stunts of 1932 to 1933.\n[…]\nIn 2005, Universal Pictures released another remake of King Kong, co-written and directed by Peter Jackson, which is set in the 1930s, as in the original film. Legendary Pictures and Warner Bros. made Kong: Skull Island (2017), which serves as part of a cinematic universe, Monsterverse, followed by the sequels Godzilla vs. Kong (2021) and Godzilla x Kong: The New Empire (2024).\n[…]\nKing Kong at Rotten Tomatoes"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Empire_State_Building",
+        "situacao": "ok",
+        "texto": "The Empire State Building is a 102-story, supertall skyscraper in the Midtown South neighborhood of Manhattan, New York City, United States. The building was designed in the Art Deco style by Shreve, Lamb & Harmon and constructed between 1930 and 1931. Its name is derived from \"Empire State\", the nickname of New York state. The building has a roof height of 1,250 feet (380 m) and stands a total of\n[…]\nThe building's Art Deco architecture, height, and observation decks have made it a popular attraction. Around four million tourists from around the world annually visit the building's 86th- and 102nd-floor observatories; an additional indoor observatory on the 80th floor opened in 2019. The Empire State Building is an international cultural icon: it has been featured in more than 250 television series and films since the film King Kong was released in 1933.\n[…]\nIn 1932, the Fifth Avenue Association gave the building its 1931 \"gold medal\" for architectural excellence, signifying that the Empire State had been the best-designed building on Fifth Avenue to open in 1931. A year later, on March 2, 1933, the movie King Kong was released. The movie, which depicted a large stop motion ape named Kong climbing the Empire State Building, made the still-new building into a cinematic icon.\n[…]\nThe paperwork submitted to the city included the names of Fay Wray, the famous star of King Kong, and Willie Sutton, a notorious New York bank robber. The newspaper then transferred the deed back over to the legitimate owners, who at that time were Empire State Land Associates.\n[…]\nA year later, the film King Kong depicted Kong, a giant stop motion ape that climbs the Empire State Building during the film's climax, bringing the building into the popular imagination. Later movies such as An Affair to Remember (1957), Sleepless in Seattle (1993), and Independence Day (1996) also prominently featured the building."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/King_Kong_%28filme_de_1933%29",
+        "situacao": "ok",
+        "texto": "King Kong (prt/bra: King Kong) é um filme estadunidense  de 1933, dos gêneros aventura, suspense, fantasia e terror, dirigido por Merian C. Cooper e Ernest B. Schoedsack para a Radio Pictures, com roteiro de James Ashmore Creelman e Ruth Rose a partir de uma ideia concebida por Merian C. Cooper e Edgar Wallace.\n[…]\nOs modelos de dinossauros usados em King Kong foram construídos em princípio para as filmagens de Creation e algumas das cenas foram modificadas para se adequar ao roteiro de Kong.\n[…]\nKing Kong foi liquidado mediante com o título, ocorrendo cortes de algumas cenas diminuindo o filme de 125 para 100 minutos, as cenas deletadas foram aquelas que desaceleraram o ritmo ou desviaram a atenção de Kong. Provavelmente a cena deletada mais infame foi a que mais tarde se tornou conhecida como \"Spider Pit Sequence\", onde um número de marinheiros do Venture sobrevivem a uma queda de um barranco, apenas para ser comidos vivos por várias aranhas, insetos e outras criaturas gigantes.\n[…]\nA partitura era diferente de todas que vieram antes e marcou uma mudança significativa na história da música de cinema, sendo o primeiro grande filme de Hollywood a ter uma partitura temática em vez de uma música de fundo. A partitura de King Kong foi a primeira partitura musical de longa-metragem escrita para um filme \"talkie\" americano, a primeira a marcar o uso de uma orquestra de 46 peças e a primeira a ser gravada em três faixas separadas (sons de efeitos, diálogos e músicas).\n[…]\nMorton, Ray (2005). King Kong: The History of a Movie Icon from Fay Wray to Peter Jackson. New York, NY: Applause Theatre & Cinema Books. ISBN 1-55783-669-8",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Escadaria Selarón",
+      "descricao": "Escadaria entre os bairros da Lapa e de Santa Teresa, no Rio de Janeiro, coberta de azulejos coloridos."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em 2003, a Escadaria Selarón, no Rio, apareceu no clipe da música Beautiful, com Pharrell Williams. Que rapper americano canta essa música?",
+    "resposta": "Snoop Dogg",
+    "distratores": [
+      "Jay-Z",
+      "50 Cent",
+      "Dr. Dre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n",
+      "https://en.wikipedia.org/wiki/Beautiful_(Snoop_Dogg_song)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n",
+        "situacao": "ok",
+        "texto": "Escadaria Selarón, locally known as the 'Lapa Steps' (Escadaria da Lapa) for being situated at the \"Lapa\" neighborhood,  is a set of world-famous steps in Rio de Janeiro, Brazil. They are the work of Chilean-born artist Jorge Selarón who claimed it as \"my tribute to the Brazilian people\".\n[…]\nRunning from Joaquim Silva street and Pinto Martins street, officially known as Manuel Carneiro street, the steps straddle the Lapa and Santa Teresa neighbourhoods in Rio de Janeiro. There are 215 steps measuring 125 metres (135 yards) long, which are covered in over 2000 tiles collected from over 60 countries around the world. No sooner than one section of the steps was 'finished', Selarón started work on another section, constantly changing it so that it was an ever-evolving piece of art.\n[…]\nSelarón was found dead on January 10, 2013, on the famous Lapa steps. His body was found with burn marks.\n[…]\nIt is a tourist attraction of Rio de Janeiro. The work has featured in many magazines, newspapers, travel shows, documentaries and commercials, such as National Geographic Channel, American Express, Coca-Cola, Kellogg's Corn Flakes, Time and Playboy.\n[…]\nIt has also featured in numerous music videos, such as the second of two videos for Michael Jackson's \"They Don't Care About Us\" shot by Spike Lee in 1996, U2's \"Walk On\" in 2001 and Snoop Dogg's \"Beautiful\".\n[…]\nIn 2009 the steps were featured in Rio's 2016 Olympic bid video \"The Passion Unites Us\". The steps were also featured in the show The Amazing Race (the 18th American season, and later the fourth Latin American version, the second Norwegian season and the third Chinese celebrity season) where teams were tasked to find a tile resembling a route info sign."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Beautiful_(Snoop_Dogg_song)",
+        "situacao": "ok",
+        "texto": "\"Beautiful\" is a song by American rapper Snoop Dogg featuring American singers Pharrell Williams and Uncle Charlie Wilson. It was released on January 27, 2003, as the second single from Snoop Dogg's sixth studio album, Paid tha Cost to Be da Boss. The song was written by Snoop Dogg alongside producers the Neptunes (Williams and Chad Hugo). \"Beautiful\" reached number six on the US Billboard Hot 100\n[…]\nThe first video set took place in Escadaria Selarón, Lapa district, Rio de Janeiro. The Brazil-colored yellow-green-blue stairways were fabricated by Selarón who started to upgrade the 125 metre, 215-step upwards street in 1990 and it had not been finished until the very day of the shooting. This stairway links the Rua Joaquim Silva in Lapa to the Rua Pinto Martins in Santa Teresa.\n[…]\nThe second one is in Parque Lage in the grounds of a 1920s mansion between the Lagoa and the Botanic Gardens, at the base of the Corcovado. The scene features Brazilian actress/model, Michelle Martins as Snoop Dogg's love interest. Snoop is surrounded by a group of drummers, who play a long drum interlude that is not included in any radio, album or explicit edit of the song.\n[…]\nThe third scene is on the Copacabana where Snoop is surrounded by the massive crowd of his fans in one of the segments while in another he and his friends are leaning on to his car and observing the local girls passing by.\n[…]\nDuring the video, Snoop Dogg wears a #31 Priest Holmes Chiefs jersey and a Lance Alworth jersey number 19.\n[…]\n\"Beautiful\" (Radio Edit) (featuring Pharrell & Uncle Charlie Wilson) — 4:04\n[…]\nA solo remix with Charlie Wilson was a part of Snoop Dogg's 2003 Welcome 2 tha Chuuuch Mixtape Vol. 2.\n[…]\nA freestyle used by Rick Ross to Atlanta rapper T.I. It can be found on YouTube.\n[…]\nWritten by Calvin Broadus, Pharrell Williams, Chad Hugo\n[…]\nPharrell appears courtesy of Virgin Records\n[…]\nList of Billboard Hot 100 top 10 singles in 2003"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escadaria_Selar%C3%B3n",
+        "situacao": "ok",
+        "texto": "A Escadaria Selarón é uma obra arquitetônica localizada entre os bairros de Santa Teresa e Lapa, no Rio de Janeiro, Brasil, decorada pelo artista chileno radicado no Brasil de longa data, Jorge Selarón, que declarou-a como uma \"homenagem ao povo brasileiro\".\n[…]\nA Escadaria Selarón, também conhecida como Escadaria do Convento de Santa Teresa e oficialmente como Rua Manuel Carneiro, fica localizada entre os bairros de Santa Teresa e Lapa, na cidade do Rio de Janeiro. Fica a apenas 5 minutos dos Arcos da Lapa. Na escadaria, há duzentos e quinze degraus medindo 125 metros de comprimento, os quais são cobertos por cerca de cinco mil azulejos recolhidos de cerca de 120 países.\n[…]\nSelerón era visto de vez em quando na escadaria trabalhando ao dia e contava suas histórias em tom de piada à noite.\n[…]\nSelarón foi encontrado morto carbonizado, por razões desconhecidas, em 10 de janeiro de 2013, na famosa escadaria da Lapa, no centro do Rio de Janeiro.\n[…]\nA obra já foi mencionada em várias revistas famosas, jornais, programas de viagens, documentários e comerciais. National Geographic, American Express, Coca-Cola, Kellogg's, Time e Playboy são alguns dos meios de comunicação que a escadaria tem se destacado.[carece de fontes]? Serviu de cenário para vários clipes musicais, como \"Beautiful\", do cantor norte-americano de rap Snoop Dogg, além da banda irlandesa de rock U2 com seu \"Walk On\".\n[…]\nEm 2009, a escadaria apareceu no vídeo promocional apresentando à candidatura do Rio de Janeiro como sede dos Jogos Olímpicos de Verão de 2016, com a música tema \"A Paixão nos Une\". A escadaria foi mostrada na décima oitava temporada do reality show The Amazing Race, onde as equipes foram encarregadas a encontrar um azulejo parecido com um sinal de informação indicada.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Baldaquino de São Pedro",
+      "descricao": "Dossel monumental de bronze de Bernini sobre o altar-mor da Basílica de São Pedro, no Vaticano, feito de 1623 a 1634."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Segundo a tradição romana, parte do bronze do Baldaquino de São Pedro, de Bernini, foi arrancada do pórtico de que antigo templo da cidade?",
+    "resposta": "Panteão",
+    "distratores": [
+      "Coliseu",
+      "Templo de Vesta",
+      "Templo de Saturno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/St._Peter%27s_Baldachin",
+      "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/St._Peter%27s_Baldachin",
+        "situacao": "ok",
+        "texto": "St. Peter's Baldachin (Italian: Baldacchino di San Pietro, L'Altare di Bernini) is a large Baroque sculpted bronze canopy, technically called a ciborium or baldachin, over the high altar of St. Peter's Basilica in Vatican City, the city-state and papal enclave surrounded by Rome, Italy. The baldachin is at the center of the crossing, and directly under the dome of the basilica.\n[…]\nEight of the original twelve columns are now found in pairs halfway up the piers on either side of the baldachin.\n[…]\nThe bronze and gilded baldachin was the first of Bernini's works to combine sculpture and architecture and represents an important development in Baroque church interior design and furnishing. The canopy rests upon four helical columns each of which stands on a high marble plinth. The columns support a cornice which curves inwards in the middle of each side.\n[…]\nThe source of the bronze to make the structure was an issue of contemporary controversy as it was believed to have been taken from the roof or portico ceiling of the ancient Roman Pantheon, though Urban's accounts say that about ninety percent of the bronze from the Pantheon was used for a cannon, and that the bronze for the baldachin came from Venice.\n[…]\nWith his design for the Cathedra Petri or Chair of Saint Peter (1657–66) at the apsidal end of the chancel, Bernini completed his visual concetto or design idea; the congregation had a perspectivised view down the nave to the image framed by the baldachin which compressed the distance between the crossing and the Chair of Saint Peter in the chancel, reconciling the Prince of the Apostles' tomb, his implied presence on the chair and his legitimate successor officiating at the ceremonies.\n[…]\nList of works by Gian Lorenzo Bernini\n[…]\nMedia related to Baldachin of Saint Peter's Basilica at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "situacao": "ok",
+        "texto": "The Pantheon (UK: , US: ; Latin: Pantheum, from Ancient Greek  Πάνθειον (Pantheion) '[temple] of all the gods') is an ancient Polytheist temple in Rome, Italy, originally built under Roman emperor Augustus (27 BC–AD 14) and reconstructed under Hadrian (117–138).\n[…]\nPope Urban VIII (1623–1644) ordered extensive renovations to the Pantheon, most controversially the removal and melting down of the massive bronze trusses above the portico. Most of the bronze was used to make bombards for the fortification of Castel Sant'Angelo, with the rest used by the Apostolic Camera for other works. It is also said that the bronze was used by Bernini in creating his famous baldachin above the high altar of St.\n[…]\nPeter's Basilica, though the archaeologist Carlo Fea discovered from the Pope's accounts that about 90% of the bronze was used for the cannon, and that the bronze for the baldachin came from Venice. Concerning this, an anonymous contemporary Roman satirist quipped in a pasquinade (a publicly posted poem) that quod non fecerunt barbari fecerunt Barberini (\"What the barbarians did not do the Barberinis [Urban VIII's family name] did\").\n[…]\nIn the walls at the back of the Pantheon's portico are two huge niches, perhaps intended for statues of Augustus Caesar and Agrippa.\n[…]\nThe portico-and-dome form of the Pantheon can be detected in many buildings of the 19th and 20th centuries, including government and public buildings, city halls, university buildings, and public libraries. The Rotunda built in the 19th century as library at the University of Virginia was constructed so that students of architecture could learn from it. Thomas Jefferson relied on engraved illustrations to Andrea Palladio of the Pantheon."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Baldaquino_da_Bas%C3%ADlica_de_S%C3%A3o_Pedro",
+        "situacao": "ok",
+        "texto": "O Baldaquino é um cibório ou baldaquino monumental, no altar papal acima do túmulo de São Pedro situado dentro da Basílica de São Pedro, em Roma, e criado por Gian Lorenzo Bernini. Foi elaborado para o Papa Urbano VIII.\n[…]\nPara obter bronze suficiente o papa ordenou derreter bronzes antigos do Panteão, fazendo com isso o povo de Roma dizer: \"O que os bárbaros não conseguiram fazer, fizeram os Barberini\".\n[…]\nNessa época, a maioria das basílicas mais importantes de Roma possuíam baldaquinos permanentes. Era um conceito que se mantinha desde o habitual pálio dos antigos catafalcos e nos pálios com que eram exaltados os papas e os monarcas de Espanha. Neste contexto, na década de 1610 Carlo Maderno, antecessor de Bernini, foi contratado para desenhar um baldaquino permanente para São Pedro, no qual já incorporava colunas salomónicas.\n[…]\nA posição ocupada pelo baldaquino sob a cúpula obriga a que o altar-mor seja deslocado para o centro do transepto e não para a ábside, como corresponde à tradição cristã da época. Para recuperar a tradição, Bernini coloca um outro elemento capitel na abside, na posição que normalmente ocuparia o altar-mor. Trata-se da Cadeira de São Pedro, outra magnífica composição barroca do mesmo autor construída entre 1656 e 1665.\n[…]\nPara a execução do baldaquino, os bronze do pronaos do Panteão de Agripa foram extraídos, fundidos e reciclados, embora alguns autores indiquem que a maior parte dos O bronze veio de Veneza Tomando materiais \"emprestados\" como mármore, metais, pedras preciosas, etc. de algumas obras de arte para as utilizar noutras era uma prática comum em Roma Os canhões do Castello Sant'Angelo eram também fundidos com o bronze do Panteão.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Ópera Garnier",
+      "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que famoso romance de Gaston Leroux, de 1910, tem como cenário o teatro de Charles Garnier, em Paris, com seu lago subterrâneo?",
+    "resposta": "O Fantasma da Ópera",
+    "distratores": [
+      "Os Miseráveis",
+      "O Corcunda de Notre-Dame",
+      "A Dama das Camélias"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Palais_Garnier",
+      "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Palais_Garnier",
+        "situacao": "ok",
+        "texto": "The Palais Garnier (French: [palɛ ɡaʁnje] , \"Garnier Palace\"), also known as Opéra Garnier (French: [ɔpeʁa ɡaʁnje] , \"Garnier Opera\"), is a historic 1,979-seat opera house at the Place de l'Opéra in the 9th arrondissement of Paris, France. It was built for the Paris Opera from 1861 to 1875 at the behest of Emperor Napoleon III.\n[…]\nInitially referred to as le nouvel Opéra de Paris (the new Paris Opera), it soon became known as the Palais Garnier, \"in acknowledgment of its extraordinary opulence\" and the architect Charles Garnier's plans and designs, which are representative of the Napoleon III style. It was the primary theatre of the Paris Opera and its associated Paris Opera Ballet until 1989, when a new opera house, the Opéra Bastille, opened at the Place de la Bastille.\n[…]\nThe Palais Garnier has been called \"probably the most famous opera house in the world, a symbol of Paris like Notre Dame Cathedral, the Louvre, or the Sacré Coeur Basilica\". This is at least partly due to its use as the setting for Gaston Leroux's 1910 novel The Phantom of the Opera and, especially, the novel's subsequent adaptations in films and the popular 1986 musical.\n[…]\nA contract for its construction was signed on 20 June. Soon a persistent legend arose that the opera house was built over a subterranean lake, inspiring Gaston Leroux to incorporate the idea into his novel The Phantom of the Opera. On 21 July the cornerstone was laid at the southeast angle of the building's façade. In October the pumps were removed, the brick vault of the cuve was finished by 8 November, and the substructure was essentially complete by the end of the year.\n[…]\nL'Opéra Restaurant Archived 27 November 2011 at the Wayback Machine (in English)\n[…]\nUnused architectural drawings for the Opéra de Paris by Charles Rohault de Fleury"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera",
+        "situacao": "desambiguacao",
+        "texto": "The Phantom of the Opera may refer to:\n\n\n== Novel ==\nThe Phantom of the Opera (novel), 1910, by Gaston Leroux\n\n\n== Characters ==\nErik (The Phantom of the Opera), the title character of the novel and its adaptations\n\n\n== Theatre ==\nPhantom of the Opera (1976 musical), adapted by Ken Hill\nThe Phantom of the Opera (1986 musical), adapted by Andrew Lloyd Webber\nThe Phantom of the Opera (original Londo"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%93pera_Garnier",
+        "situacao": "ok",
+        "texto": "A Ópera Garnier ou Palais Garnier é uma casa de ópera localizada no IX arrondissement de Paris, França. O edifício é considerado uma das obras-primas da arquitetura de seu tempo. Construído em estilo neobarroco, é o 13º teatro a hospedar a Ópera de Paris, desde sua fundação por Luís XIV, em 1669. Sua capacidade é de 1979 espectadores sentados.\n[…]\nO palácio era comumente chamado apenas de Ópera de Paris, mas, após a inauguração da Ópera da Bastilha, em 1989, passou a ser chamado Ópera Garnier.\n[…]\nO projeto foi objeto de concurso público, em 1861, do qual foi vencedor o arquiteto Charles Garnier (1825-1898), que era então um profissional desconhecido, de 35 anos de idade, e que viria posteriormente a construir também a Ópera de Monte Carlo, em Mônaco.\n[…]\nA pedra angular da Ópera Garnier foi colocada em 1861 e a construção teve início no mesmo ano. Entretanto a obra foi interrompida por numerosos incidentes, incluindo a Guerra Franco-Prussiana, a queda do Império francês e a Comuna de Paris. Outro problema foi o próprio terreno, extremamente pantanoso, o que implicou contínuos bombeamentos de água durante oito meses, antes que as fundações pudessem ser lançadas.\n[…]\nDizia-se que existia um lago subterrâneo alimentado pelo rio Grange-Batelière - hipótese  sabiamente explorada pelo célebre romance de  Gaston Leroux, O Fantasma da Ópera. Na realidade, o rio corre um pouco mais longe.\n[…]\nO Palácio Garnier é um dos dois teatros que abrigam a Ópera Nacional de Paris, sendo o outro a Ópera da Bastilha.\n[…]\nO palácio é servido pela estação de metrô Opéra.\n[…]\nÓpera Nacional de Paris\n[…]\nBalé da Ópera de Paris\n[…]\nBeauvert, Thierry, Opera Houses of the World, The Vendome Press, New York, 1995. [ISBN 0-86565-978-8]\n[…]\nPágina oficial da Ópera Garnier (em francês)\n[…]\nLocalização da Ópera Garnier em Paris (em francês)\n[…]\nPara mais informações sobre a ópera",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Catedral Metropolitana do Rio de Janeiro",
+      "descricao": "Catedral cônica de concreto, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A Catedral Metropolitana do Rio de Janeiro, de concreto e em forma de cone, foi inspirada em que construções antigas da América?",
+    "resposta": "Pirâmides maias",
+    "distratores": [
+      "Templos incas",
+      "Ocas indígenas",
+      "Missões jesuíticas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Cathedral"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Cathedral",
+        "situacao": "ok",
+        "texto": "The Metropolitan Cathedral of Saint Sebastian (Portuguese: Catedral Metropolitana de São Sebastião), better known as the Metropolitan Cathedral of Rio de Janeiro (Catedral Metropolitana do Rio de Janeiro) or as the Cathedral of St. Sebastian of Rio de Janeiro (Catedral de São Sebastião do Rio de Janeiro), is a cathedral of the Catholic Church and the seat of the Archdiocese of Rio de Janeiro. The \n[…]\nThe church is dedicated to Saint Sebastian, the patron saint of Rio de Janeiro.\n[…]\nOld Cathedral of Rio de Janeiro"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Catedral_de_S%C3%A3o_Sebasti%C3%A3o_do_Rio_de_Janeiro",
+        "situacao": "ok",
+        "texto": "A Catedral de São Sebastião do Rio de Janeiro, também conhecida como Catedral Metropolitana do Rio de Janeiro, é uma catedral católica localizada no Centro da cidade do Rio de Janeiro, no Brasil. Foi inaugurada em 1979, substituindo, como catedral da cidade, a Igreja de Nossa Senhora do Carmo.\n[…]\nTendo sido criada em 1676, tanto no período em que foi Diocese, e depois, já na condição de Arquidiocese, o Rio de Janeiro nunca teve uma sede própria para sua Catedral, que sempre precisou servir-se de igrejas emprestadas, até 1972, quando pôde ser realizada a primeira missa na nova sede definitiva. Suas obras foram executadas entre 1964 e 1979.\n[…]\nA atual Catedral, feita em estilo moderno, apresenta formato cônico, com 106 metros de diâmetro, 75 metros de altura externa, 64 metros de altura interna e capacidade para 20 000 pessoas em pé. Um diferencial da edificação, de linhas retas e sóbrias, deve-se aos vitrais coloridos rasgados nas paredes até a cúpula. Seu projeto e execução foram coordenados pelo monsenhor Ivo Antônio Calliari (1918–2005).[carece de fontes]?\n[…]\nO projeto é do arquiteto Edgar de Oliveira da Fonseca: segundo alguns, inspirado nas naves do Projeto Apollo, como símbolo do futuro; segundo outros, inspirado nas pirâmides maias; com o diferencial de ter forma circular e cônica para significar \"a eqüidistância e proximidade das pessoas em relação a Deus. A porta principal é formada por relevos em bronze e tem, como tema, a fé. O interior da catedral foi projetado pelo padre Paulo Lachen Maier. As esculturas são de Humberto Cozzo.\n[…]\nSite da Catedral de São Sebastião do Rio de Janeiro\n[…]\nMapa dos arredores da Catedral de São Sebastião do Rio de Janeiro no OpenStreetMap\n[…]\nRádio oficial da catedral",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Pirâmide de Kukulcán",
+      "descricao": "Pirâmide escalonada no centro de Chichén Itzá, no México, também chamada El Castillo."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A grande pirâmide de Chichén Itzá homenageia Kukulcán, a serpente emplumada dos maias. Que deus asteca corresponde a ele?",
+    "resposta": "Quetzalcóatl",
+    "distratores": [
+      "Huitzilopochtli",
+      "Tláloc",
+      "Tezcatlipoca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kukulkan",
+      "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kukulkan",
+        "situacao": "ok",
+        "texto": "Kukulkan, also spelled K’uk’ulkan (; lit. 'Plumed Serpent', 'Amazing Serpent'), is the serpent deity of Maya mythology. It  is closely related to the deity Qʼuqʼumatz of the Kʼicheʼ people and to Quetzalcoatl of Aztec mythology. Prominent temples to Kukulkan are found at archaeological sites in the Yucatán Peninsula, such as Chichen Itza, Uxmal and Mayapan.\n[…]\nThe cult of Kukulkan/Quetzalcoatl was the first Mesoamerican religion to transcend the old Classic Period linguistic and ethnic divisions. This cult facilitated communication and peaceful trade among peoples of many different social and ethnic backgrounds. Although the cult was originally centred on the ancient city of Chichen Itza in the modern Mexican state of Yucatán, it spread as far as the Guatemalan Highlands and northern Belize.\n[…]\nKukulkan was a deity closely associated with the Itza state in the northern Yucatán Peninsula, where the religion formed the core of the Territorial religion. Although the worship of Kukulkan had its origins in earlier Maya traditions, the Itza worship of Kukulkan was heavily influenced by the Quetzalcoatl religion of central Mexico. This influence probably arrived via Putún Maya merchants from the Gulf Coast of Mexico.\n[…]\nAt Chichen Itza, Kukulkan ceased to be the Vision Serpent that served as a messenger between the king and the gods and came instead to symbolise the divinity of the territory.\n[…]\nEl Castillo, Chichen Itza served as a temple to Kukulkan. During the spring and fall equinoxes the shadow cast by the angle of the sun and edges of the nine steps of the pyramid combined with the northern stairway and the stone serpent head carvings create the illusion of a massive serpent descending the pyramid.\n[…]\nChichen Itza, a pre-Columbian Maya city\n[…]\nKukulcania,  a genus of crevice weaver spiders named in honor of this god."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza",
+        "situacao": "ok",
+        "texto": "El Castillo (Spanish pronunciation: [el kas'tiʎo], 'the Castle'), also known as the Temple of Kukulcan, is a Mesoamerican step-pyramid that dominates the center of the Chichen Itza archaeological site in the Mexican state of Yucatán. The temple building is more formally designated by archaeologists as Chichen Itza Structure 5B18.\n[…]\nBuilt by the pre-Columbian Maya civilization sometime between the 8th and 12th centuries CE, the building served as a temple to the deity Kukulcán, the Yucatec Maya Feathered Serpent deity closely related to Quetzalcoatl, a deity known to the Aztecs and other central Mexican cultures of the Postclassic period. It has a substructure that likely was constructed several centuries earlier for the same purpose.\n[…]\nJadeite was valuable economically and socially, and the acquisition and application of the material is indicative of the access Chichén Itzá had along its trade routes.\n[…]\nIn agreement with this pattern, detected both in the Maya Lowlands  and elsewhere in Mesoamerica, the north (and main) face of the temple of Kukulcán at Chichén Itzá has an azimuth of 111.72°, corresponding to sunsets on May 20 and July 24, separated by 65 and 300 days (multiples of 13 and 20). Significantly, the same dates are recorded by a similar temple at Tulum.\n[…]\nA handclap made near the foot of El Castillo's staircase returns as a brief descending frequency sweep. The sound has been compared with the call of the resplendent quetzal.\n[…]\nLubman suggested that the Maya may have noticed and exploited the acoustic effect in ceremonies, and speculated that the staircase was intentionally designed to imitate the quetzal's call.\n[…]\nDetermining the dates when these constructions happened will provide time periods of when Chichen Itza may have been significantly occupied."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kukulc%C3%A1n",
+        "situacao": "ok",
+        "texto": "Kukulkán era a versão maia do deus asteca Quetzalcóatl, a serpente emplumada.\n[…]\nPara os maias \"kukul\" significa sagrado ou divino e \"kan\" significa serpente.\n[…]\nEm todo caso sua origem é muito anterior aos maias e está presente em toda a América Central.\n[…]\nQuanto a suas diferenças com relação a Quetzalcóatl, parece que muitas delas se deviam às diferenças climáticas entre ambas regiões. Para os Astecas, Quetzalcoatl não só era o Senhor do Sol, mas o próprio Deus-Sol do país. Kukulkán, além disso, tem também atributos de um Deus-Trovão.\n[…]\nNo clima tropical de Yucatán e da Guatemala, o Sol ao meio-dia parece desenhar as nuvens de seu ao redor com formas serpenteantes; destas emanam o trovão, a luz e a chuva, por isso Kukulkán pareceria haver atraído aos maias mais como um deus do céu que como um deus da própria atmosfera, apesar de que muitas vezes as esteiras do Yucatán representem a Kukulkán com o ar saindo de sua boca, como muitas representações mexicanas de Quetzalcoatl.\n[…]\nEvidentemente é um deus do cultivo e herói, já que é representado plantando milho, levando ferramentas e continuando uma viagem, feito com que estabelece sua conexão solar.\n[…]\nSegundo as crônicas maias, Kukulkán, da mesma forma que Quetzalcóatl, é o conquistador que chegou em Yucatán pelo mar desde o Oeste, para finais do século XV, e se transformou em caudilho e fundador de sua civilização. Da fusão dos dois mitos, Kukulkán aparece como o senhor do vento porque rege e governa a nave que lhe conduziu a Yucatán e ao povo que fundou.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Petra (Al-Khazneh)",
+      "descricao": "Tumba nabateia esculpida na rocha, chamada de Tesouro, na cidade antiga de Petra, na Jordânia."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A fachada do Tesouro, em Petra, na Jordânia, aparece como entrada do templo do Santo Graal em que filme de Indiana Jones?",
+    "resposta": "A Última Cruzada",
+    "distratores": [
+      "Caçadores da Arca Perdida",
+      "O Templo da Perdição",
+      "A Caveira de Cristal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Al-Khazneh"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Al-Khazneh",
+        "situacao": "ok",
+        "texto": "Al-Khazneh (Arabic: الخزنة; IPA: [al.xaz.na], \"The Treasury\"), also known as Khaznat el-Far'oun (treasury of the pharaoh), is one of the most elaborate rock-cut tombs in Petra, a city of the Nabatean Kingdom inhabited by the Arabs in ancient times. As with most of the other buildings in this ancient town, including the Monastery (Arabic: Ad Deir), this structure was carved out of a sandstone rock \n[…]\nIt is one of the most popular tourist attractions in both Jordan and the region.\n[…]\nIn 1812, the city of Petra and Al-Khazneh were noted by Swiss explorer Burckhardt. As Western Europe continued to explore the Middle East, tourism became more common, and by the 1920s, a small hotel had opened near Petra. While Petra was not as popular as larger, more central cities, like Cairo, tourism started changing the economy and social structure of the nearby Bedouin people.\n[…]\nTourism is now a significant source of income in Jordan, comprising around 20% of the GDP. Hotels, souvenir shops, restaurants, and horse rental services are all found within a few-mile radius of Petra itself. While the economic effects have been largely positive, the site faces threats from increased tourism.\n[…]\nThe Treasury has appeared in many Hollywood films, gaining particular fame after being featured in climactic scenes in the 1989 film Indiana Jones and the Last Crusade, in which its façade is represented as the entrance to the final resting place of the Holy Grail. The interior scenes of the temple were filmed at Elstree Studios in England.\n[…]\nPBS's Nova specials Lost City of Stone and Ancient Megastructures: Petra, television series from PBS and National Geographic, were dedicated to the Khazneh, and the theories of Nabatean construction techniques and engineering.\n[…]\n\"Solving the Enigma of Petra and the Nabataeans\"—Biblical Archaeology Review"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Al_Khazneh",
+        "situacao": "ok",
+        "texto": "Al Khazneh (\"O tesouro\"; em árabe: الخزنة) é uma das inúmeras construções Romanas de templos na antiga Jordânia na cidade de Petra, uma tumba escavada na face do penhasco e que recebeu uma fachada helenística com pilares.\n[…]\nAl Khazneh foi originalmente construído pelos Romanos como um mausoléu e cripta no início do primeiro século, durante o reinado de Aretas IV, provavelmente como seu próprio mausoléu. Existe uma urna escavada acima da entrada que de acordo com a lenda dos beduínos, contém o tesouro de um faraó.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Laocoonte e seus filhos",
+      "descricao": "Escultura helenística em mármore que mostra o sacerdote troiano Laocoonte e seus filhos atacados por serpentes marinhas."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A célebre escultura dos Museus Vaticanos mostra Laocoonte, sacerdote atacado por serpentes depois de alertar seus conterrâneos contra que presente dos gregos?",
+    "resposta": "O Cavalo de Troia",
+    "distratores": [
+      "O pomo de ouro",
+      "A caixa de Pandora",
+      "O velocino de ouro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Laoco%C3%B6n",
+      "https://en.wikipedia.org/wiki/Laoco%C3%B6n_and_His_Sons"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Laoco%C3%B6n",
+        "situacao": "ok",
+        "texto": "Laocoön (; Ancient Greek: Λᾱοκόων, romanized: Lāokóōn) was a Trojan priest in Greek and Roman mythology. He is first attested in the 7th-century BC epic Iliupersis by Arctinus of Miletus, part of the Epic Cycle.\n[…]\nThe earliest surviving account of Laocoön's death appears in the summary of Arctinus of Miletus' lost epic Iliupersis (7th century BC), preserved in the Chrestomathy attributed to Proclus. When the Trojans debated whether to dedicate the wooden horse to Athena or push it from a cliff, two serpents emerged from the sea during the ensuing celebration and killed Laocoön and one of his two sons. Interpreting the event as a dire omen, Aeneas gathered his household and fled the city for Mount Ida.\n[…]\nTwo prominent Roman wall paintings from the mid-1st century AD were discovered in Pompeii. In the Casa di Laocoonte, a Fourth Style fresco portrays Laocoön in a chiton and wreath collapsing onto the steps of an altar while being constricted by a serpent; one son is trapped in coils and the other lies dead on the ground, with spectators and a sacrificial bull in the background.\n[…]\nIn 1766, Gotthold Ephraim Lessing published his aesthetic treatise Laokoon: An Essay on the Limits of Painting and Poetry. Lessing argued that visual art is bound to spatial representation and restraint of expression, whereas poetry operates in time and allows for raw emotional intensity, contrasting the stoic agony of the Vatican marble with the screams of Virgil's priest. Lessing's analysis stimulated responses from Johann Wolfgang von Goethe and Friedrich Schiller.\n[…]\n“Laocoön” by William Blake\n[…]\n\"Laocoon\". The Digital Sculpture Project. Archived from the original on 27 September 2013. Retrieved 24 September 2013."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Laoco%C3%B6n_and_His_Sons",
+        "situacao": "ok",
+        "texto": "The statue of Laocoön and His Sons, also called the Laocoön Group (Italian: Gruppo del Laocoonte), has been one of the most famous ancient sculptures since it was excavated in Rome in 1506 and put on public display in the Vatican Museums, where it remains today. The statue is very likely the same one praised in the highest terms by Pliny the Elder, the main Roman writer on art, who attributed it t\n[…]\nIn 1905, Ludwig Pollak, archaeologist, art dealer and director of the Museo Barracco, discovered a fragment of a marble arm in a builder's yard in Rome, close to where the group was found. Noting a stylistic similarity to the Laocoön group he presented it to the Vatican Museums: it remained in their storerooms for half a century. In 1957, the museum decided that this arm – bent, as Michelangelo had suggested – had originally belonged to this Laocoön, and replaced it.\n[…]\nFor whatever knowledge of the human frame there may be in the Laocoön, there is certainly none of the habits of serpents. The fixing of the snake's head in the side of the principal figure is as false to nature, as it is poor in composition of line.\n[…]\nA large serpent never wants to bite, it wants to hold, it seizes therefore always where it can hold best, by the extremities, or throat, it seizes once and forever, and that before it coils, following up the seizure with the twist of its body round the victim, as invisibly swift as the twist of a whip lash round any hard object it may strike, and then it holds fast, never moving the jaws or the body, if its prey has any power of struggling left, it throws round another coil, without quitting the hold with the jaws; if Laocoön had had to do with real serpents, instead of pieces of tape with heads to them, he would have been held still, and not allowed to throw his arms or legs about.\n[…]\nLaocoon photos\n[…]\nMedia related to Laocoon group at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Laocoonte",
+        "situacao": "ok",
+        "texto": "Laocoonte foi um personagem do ciclo épico sobre a guerra de Troia.\n[…]\nLaocoonte era filho de Acoetes e irmão de Anquises; foi um sacerdote de Apolo, mas, contra a vontade de Apolo, se casou e teve filhos, Antífantes e Timbreu. Quando Laocoonte estava fazendo um sacrifício a Netuno, Apolo enviou duas serpentes de Tênedos, que mataram o sacerdote e seus descendentes. Segundo os frígios, isso aconteceu porque Laocoonte havia arremessado sua lança contra o Cavalo de Troia.\n[…]\nUma das expressões mais importantes da Antiguidade, sobretudo do período helenístico, é a escultura que representa Laocoonte e seus filhos sendo atacados. A obra foi objeto de estudo por vários historiadores da arte após sua redescoberta no século XVI. De datação incerta, as estimativas variam entre 140 a.C. até 37 d.C. Winckelmann, Lessing e outros tentaram avaliar a importância da escultura na estética grega, além de considerar uma possível relação com a Eneida.\n[…]\nGrupo de Laocoonte (escultura)\n[…]\nBoris Pasternak em \"O Ano de 1905\" (1927), cita em um verso, Laocoonte fazendo uma comparação. [...tal como Laocoonte/A fumarada/Sobre a geada de rachar poedras,/Desnudando-se/Como um atleta,/Abraçará e derrubará as nuvens./ O dia, em fuga,/ Deslisará/Sobre os patins de ferro/Das redes telegrágficas/Que se escapam da mansarda.]",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Cristo Redentor",
+      "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O engenheiro Heitor da Silva Costa projetou a estrutura do Cristo Redentor, mas quem esculpiu a figura foi um artista francês. Quem?",
+    "resposta": "Paul Landowski",
+    "distratores": [
+      "Auguste Rodin",
+      "Antoine Bourdelle",
+      "Aristide Maillol"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+        "situacao": "ok",
+        "texto": "Christ the Redeemer (Portuguese: Cristo Redentor, standard Brazilian Portuguese: [ˈkɾistu ʁedẽˈtoʁ]) is an Art Deco statue of Jesus in Rio de Janeiro, Brazil, created by French-Polish sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot and Romanian sculptor Gheorghe Leonida who sculpted the face.\n[…]\nLocal engineer Heitor da Silva Costa and artist Carlos Oswald designed the statue. French sculptor Paul Landowski created the work.\n[…]\nIn 1922, Landowski commissioned fellow Parisian Romanian sculptor Gheorghe Leonida, who studied sculpture at the Fine Arts Conservatory in Bucharest and in Italy. A group of engineers and technicians studied Landowski's submissions, and they felt building the structure out of reinforced concrete (designed by Albert Caquot) instead of steel was more suitable for the cross-shaped statue. The concrete making up the base was supplied from Limhamn, Sweden.\n[…]\nCristo Redentore (Christ the Redeemer) of Maratea (21 m, 69 ft)\n[…]\nCristo Rey on the Cerro del Cubilete in Guanajuato, inspired by Rio's Christ the Redeemer (23 m, 75 ft)\n[…]\nSagrat Cor de Jesus (Sacred Heart of Jesus), Ibiza, inspired by Christ the Redeemer (23 m, 75 ft)\n[…]\nChrist of the Ozarks near Eureka Springs, Arkansas, inspired by Rio's Christ the Redeemer (20 m, 66 ft)\n[…]\nGiumbelli, Emerson (2008). \"A modernidade do Cristo Redentor\". Dados (in Portuguese). 51 (1): 75–105. doi:10.1590/S0011-52582008000100003. ISSN 0011-5258.\n[…]\nGiumbelli, Emerson & Bosisio, Izabella (2010). \"A Política de um Monumento: as Muitas Imagens do Cristo Redentor\". Debates do NER (in Portuguese). 2 (18): 173–192. doi:10.22456/1982-8136.17638. hdl:10183/187720. ISSN 1982-8136.\n[…]\nPoliakoff, Martyn. \"Soapstone @ Cristo Redentor\". The Periodic Table of Videos. University of Nottingham.\n[…]\nSanctuary of Christ the Redeemer at Google Cultural Institute"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cristo_Redentor",
+        "situacao": "ok",
+        "texto": "Cristo Redentor é uma estátua que retrata Jesus Cristo, localizada no topo do morro do Corcovado, a 709 metros acima do nível do mar, dentro do Parque Nacional da Tijuca. Tem vista para parte considerável da cidade brasileira do Rio de Janeiro, sendo a frente da estátua voltada para a Baía de Guanabara e as costas para a Floresta da Tijuca.\n[…]\nA ideia de construir uma grande estátua no alto do Corcovado foi sugerida pela primeira vez em meados do século XIX, mas foi o Círculo Católico do Rio de Janeiro que conseguiu as doações necessárias para colocar a ideia em prática no início do século XX. O monumento foi construído na França a partir de 1922 através de uma colaboração entre os brasileiros Heitor da Silva Costa e Carlos Oswald, os franceses Paul Landowski e Albert Caquot e o romeno Gheorghe Leonida.\n[…]\nA estátua do Cristo Redentor de braços abertos, um símbolo de paz, foi a escolhida. O engenheiro local Heitor da Silva Costa projetou a estátua, que foi esculpida por Paul Landowski, um escultor franco-polonês.\n[…]\nTornando-se famoso na França como retratista, ele foi incluído por Paul Landowski na equipe que começou a trabalhar no Cristo Redentor em 1922. Gheorghe Leonida contribuiu retratando o rosto de Jesus Cristo na estátua, fato que o tornou famoso.\n[…]\nOs direitos comerciais da estátua foram objetos de contenda pela família do escultor Paul Maximilian Landowski quando uma joalheria foi autorizada pela Arquidiocese de São Sebastião do Rio de Janeiro, que administra o monumento, a comercializar produtos que retratavam o Cristo Redentor. A família de Landowski moveu ação reivindicando direitos autorais sobre o uso da imagem do Cristo, mas a Justiça negou o pedido.\n[…]\nSantuário Nacional de Cristo Rei\n[…]\nCristo Redentor no Instagram\n[…]\nCristo Redentor no Facebook\n[…]\nCristo Redentor no YouTube\n[…]\n«Trem do Corcovado»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Cristo Redentor",
+      "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O Cristo Redentor, de concreto armado, é revestido por um mosaico de milhares de pequenos triângulos de que pedra?",
+    "resposta": "Pedra-sabão",
+    "distratores": [
+      "Mármore branco",
+      "Granito",
+      "Quartzito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+        "situacao": "ok",
+        "texto": "Christ the Redeemer (Portuguese: Cristo Redentor, standard Brazilian Portuguese: [ˈkɾistu ʁedẽˈtoʁ]) is an Art Deco statue of Jesus in Rio de Janeiro, Brazil, created by French-Polish sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot and Romanian sculptor Gheorghe Leonida who sculpted the face.\n[…]\nConstructed between 1922 and 1931, the statue is 30 metres (98 ft) high, excluding its 8-metre (26 ft) pedestal, and faces east. The arms stretch 28 metres (92 ft) wide. It is made of reinforced concrete and soapstone. Christ the Redeemer differs considerably from its original design, as the initial plan was a large Christ with a globe in one hand and a cross in the other.\n[…]\nCristo Redentore (Christ the Redeemer) of Maratea (21 m, 69 ft)\n[…]\nChrist the Redeemer of Malacca, on the Portuguese Settlement Square in Melaka (20 ft, 6.1 m)\n[…]\nCristo Rey on the Cerro del Cubilete in Guanajuato, inspired by Rio's Christ the Redeemer (23 m, 75 ft)\n[…]\nCristo Redentor in Barranca Province, Lima Region, Peru\n[…]\nCristo Rei (Christ the King) in Almada (28 m, 92 ft)\n[…]\nSagrat Cor de Jesus (Sacred Heart of Jesus), Ibiza, inspired by Christ the Redeemer (23 m, 75 ft)\n[…]\nChrist of the Ozarks near Eureka Springs, Arkansas, inspired by Rio's Christ the Redeemer (20 m, 66 ft)\n[…]\nGiumbelli, Emerson (2008). \"A modernidade do Cristo Redentor\". Dados (in Portuguese). 51 (1): 75–105. doi:10.1590/S0011-52582008000100003. ISSN 0011-5258.\n[…]\nGiumbelli, Emerson & Bosisio, Izabella (2010). \"A Política de um Monumento: as Muitas Imagens do Cristo Redentor\". Debates do NER (in Portuguese). 2 (18): 173–192. doi:10.22456/1982-8136.17638. hdl:10183/187720. ISSN 1982-8136.\n[…]\nPoliakoff, Martyn. \"Soapstone @ Cristo Redentor\". The Periodic Table of Videos. University of Nottingham.\n[…]\nSanctuary of Christ the Redeemer at Google Cultural Institute"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cristo_Redentor",
+        "situacao": "ok",
+        "texto": "Cristo Redentor é uma estátua que retrata Jesus Cristo, localizada no topo do morro do Corcovado, a 709 metros acima do nível do mar, dentro do Parque Nacional da Tijuca. Tem vista para parte considerável da cidade brasileira do Rio de Janeiro, sendo a frente da estátua voltada para a Baía de Guanabara e as costas para a Floresta da Tijuca.\n[…]\nFeito de concreto armado e pedra-sabão, tem trinta metros de altura (uma das maiores estátuas do mundo), sem contar os oito metros do pedestal, sendo a mais alta estátua do mundo no estilo Art Déco. Seus braços se esticam por 28 metros de largura e a estrutura pesa 1 145 toneladas.\n[…]\nUm grupo de engenheiros e técnicos estudou as apresentações de Landowski e tomou a decisão de construir a estrutura em concreto armado (projetado por Albert Caquot) em vez de aço, mais adequado para uma estátua em forma de cruz. As camadas exteriores são feitas de pedra-sabão, escolhida por suas qualidades duradouras e facilidade de uso. A construção durou nove anos (entre 1922 e 1931) e custou o equivalente a 250 mil dólares (ou 3,3 milhões de dólares em valores de 2014).\n[…]\nA estátua foi atingida por um raio durante uma violenta tempestade em 10 de fevereiro de 2008 e sofreu alguns danos nos dedos, cabeça e sobrancelhas. Um esforço de restauração foi posto em prática pelo governo do estado do Rio de Janeiro para substituir algumas das camadas de pedra-sabão exteriores e reparar os para-raios instalados na estátua. O monumento foi danificado novamente por um raio em 17 de janeiro de 2014, quando um dedo na mão direita foi destruído.\n[…]\nSantuário Nacional de Cristo Rei\n[…]\nCristo Redentor no Instagram\n[…]\nCristo Redentor no Facebook\n[…]\nCristo Redentor no YouTube\n[…]\n«Trem do Corcovado»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Palácio Gustavo Capanema",
+      "descricao": "Edifício modernista no centro do Rio de Janeiro, antiga sede do Ministério da Educação e Saúde."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Nos anos trinta, a equipe de Lúcio Costa e do jovem Niemeyer projetou o Palácio Gustavo Capanema, no Rio, com a consultoria de que mestre franco-suíço?",
+    "resposta": "Le Corbusier",
+    "distratores": [
+      "Walter Gropius",
+      "Mies van der Rohe",
+      "Alvar Aalto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gustavo_Capanema_Palace",
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Gustavo_Capanema"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gustavo_Capanema_Palace",
+        "situacao": "ok",
+        "texto": "The Gustavo Capanema Palace (Portuguese: Palácio Gustavo Capanema), also known architecturally as the Ministry of Education and Health Building,  is a government office building in downtown Rio de Janeiro, Brazil. As the first modernist project in Brazil, it is historically important to the architectural development of Modernism in the country and has been placed on Brazil's UNESCO tentative list.\n[…]\nThe building is named after author and educator Gustavo Capanema, who was the first Minister of Education of Brazil. It is located at Rua da Imprensa, 16, in the downtown Rio area of Castelo. Delighted with the shape of Guanabara Bay, Corbusier suggested that the building should be located next to the sea, instead of on an inner downtown street, but the government declined\n[…]\nThe Capanema Palace is also interesting and contradictory in political history. Le Corbusier and the European modernist architects formed various leftist schools of thought, and the Brazilian Modernist movement was also left-leaning, with some of its proponents, such as Oscar Niemeyer, active in the Communist Party of Brazil.\n[…]\nThe building, usually named as the 'Ministry of Education and Health Building,' has been a subject in numerous international architecture and landscape architecture survey and photo-centric books on Brazilian Modernism, and on the works of Lucio Costa, Roberto Burle Marx, and Oscar Niemeyer.\n[…]\nCosta, Lucio. Edificio do Ministério da Educação e Saude. AU-Arquitetura e Urbanismo. Rio de Janeiro. jul./ago. 1939: p. 543-551.\n[…]\nCosta, Lucio. Ministério, da participação de Baumgart à revelação de Niemeyer. Projeto. ago. 1987, n. 102: p. 158-160.\n[…]\nHarris, Elizabeth D. Le Corbusier: Riscos Brasileiros. São Paulo: Nobel, 1987.\n[…]\nRevista PDF Concurso de ante-projetos para o Ministério d Educação e Saúde Pública. Revista da Diretoria de Engenharia (PDF). set. 1935: p. 510."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Gustavo_Capanema",
+        "situacao": "ok",
+        "texto": "Atual Edifício Gustavo Capanema ou Palácio Capanema (também largamente conhecido pelo seu uso original, o Ministério da Educação e Saúde, ou ainda como MES) é um edifício público localizado no centro da cidade do Rio de Janeiro, à rua da Imprensa, número 16.\n[…]\nO edifício é considerado um marco no estabelecimento da Arquitetura moderna brasileira, tendo sido projetado por uma equipe composta por Lúcio Costa, Carlos Leão, Oscar Niemeyer, Affonso Eduardo Reidy, Ernâni Vasconcelos e Jorge Machado Moreira, com a consultoria do arquiteto franco-suíço Le Corbusier. O projeto do edifício, desta forma, ensaia a utilização da arquitetura funcionalista de matriz corbuseana no país, além de introduzir novos elementos.\n[…]\nTal projeto possuía caráter monumental e historicista, o que teria desagradado fortemente o ministro Capanema: este, mesmo legitimando o vencedor e pagando-lhe o prêmio do concurso, chamou o então ex-diretor da Escola Nacional de Belas Artes, o arquiteto Lucio Costa, para compor uma nova equipe e desenvolver um projeto com o caráter desejado de modernidade.\n[…]\nTal era a euforia da equipe (formada essencialmente por arquitetos jovens e desejosos de novas experiências arquitetônicas) em projetar algo novo, dado que poucos arquitetos modernistas em todo o mundo tinham-se visto em igual situação (a de projetar um edifício moderno para um Ministério), que Costa permitiu-se pedir a assessoria do franco-suíço Le Corbusier.\n[…]\nConcurso de ante-projetos para o Ministério da Educação e Saúde Pública. Revista da Diretoria de Engenharia (PDF), set. 1935: p. 510.\n[…]\nAs origens e influências do Palácio Gustavo Capanema\n[…]\nDiscurso do ministro Gilberto Gil no edifício Gustavo Capanema, marco da arquitetura brasileira e mundial"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Sagrada Família",
+      "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Questionado sobre a lentidão das obras da Sagrada Família, Gaudí costumava responder que seu cliente não tinha pressa. Quem era esse cliente?",
+    "resposta": "Deus",
+    "distratores": [
+      "O papa",
+      "O bispo de Barcelona",
+      "O rei da Espanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+        "situacao": "ok",
+        "texto": "Basílica i Temple Expiatori de la Sagrada Família, or simply Sagrada Família, is a Catholic Basilica in the Eixample district of Barcelona, Catalonia, Spain. Designed by the Catalan architect Antoni Gaudí, it is the tallest church\n[…]\nIn 1984, UNESCO granted World Heritage Site designations to three Gaudí buildings in Barcelona, though not yet including Sagrada Família, under the collective designation \"Works of Antoni Gaudí – No 320 bis\" (items 320-001 to 320-003), testifying \"to Gaudí's exceptional creative contribution to the development of architecture and building technology\", \"having represented el Modernisme of Catalonia\" and \"anticipated and influenced many of the forms and techniques that were relevant to the development of modern construction in the 20th century\".\n[…]\nIn 2005, UNESCO extended the inscription for Works of Antoni Gaudí – No 320 bis to include four additional buildings in Barcelona, with item 320-005 listed as two specific sections of Sagrada Família: the Crypt and the Nativity façade.\n[…]\nGiven the Sagrada Família was built elevated, the main entrance (Glory Façade) stands 5 metres (16 ft) taller than the street (C/ Mallorca). Although Gaudí's plans are disputed (given that he first designed star-shaped avenues leading to the basilica), the Construction Board asserts that Gaudi's last plans were to build a long 57 metres (187 ft) stairway passing over Carrer de Mallorca and leading into a 2-block avenue from the basilica to Diagonal Avenue.\n[…]\nList of Gaudí buildings\n[…]\nSagrada Família (Barcelona Metro)\n[…]\nPuig i Boada, Isidre (1952). El templo de la Sagrada Familia (in Spanish). Barcelona, Spain: Omega.\n[…]\nGaudí, Sagrada Família Archived 7 November 2014 at the Wayback Machine (video), Smarthistory"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Templo_Expiat%C3%B3rio_da_Sagrada_Fam%C3%ADlia",
+        "situacao": "ok",
+        "texto": "Templo Expiatório da Sagrada Família (em catalão: Temple Expiatori de la Sagrada Família), também conhecido simplesmente como Sagrada Família, é um grande templo católico da cidade de Barcelona, Catalunha, Espanha, desenhado pelo arquiteto catalão Antoni Gaudí, e considerado por muitos críticos como a sua obra-prima e expoente da arquitetura modernista catalã.\n[…]\nGaudí concebeu uma complexa iconografia que baseou exclusivamente na sua condição de templo católico e no culto religioso, adaptando todos os elementos aos ritos litúrgicos. Para isso inspirou-se nomeadamente em El Año Litúrgico de Prosper Guéranger, recompilação de todos os cultos e festividades religiosas produzidas ao cabo do ano, bem como no Missal Romano e o Cerimonial de bispos. Para Gaudí, a Sagrada Família era um hino de louvor a Deus, no qual cada pedra era uma estrofe.\n[…]\nGaudí concebeu um templo de grande verticalidade, para que fosse visível a partir de qualquer ponto de Barcelona e se destacasse sobre a mancha de edifícios. Para isso dotou o Templo da Sagrada Família com 18 torres, 12 dos apóstolos, 4 dos evangelistas, e as torres dos zimbórios dedicados a Jesus e à Virgem Maria.\n[…]\nA Sagrada Família conta com um espaço habilitado como museu, situado na cave do templo, na parte inferior correspondente ao cruzeiro, onde antigamente se situavam as oficinas. Inaugurado a 29 de junho de 1961, mostra planos e desenhos originais de Gaudí, maquetes do templo e diversos objetos relacionados com o projeto, destacando-se os móveis litúrgicos desenhados por Gaudí.\n[…]\nAlém das amostras referentes à Sagrada Família também se exibem diferentes objetos, planos, desenhos e fotografias sobre as diversas obras de Gaudí, bem como testemunhos biográficos do arquiteto. Também se realizam exposições temporárias dedicadas a diferentes aspetos do projeto de Gaudí.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Ópera de Sydney",
+      "descricao": "Casa de espetáculos de cobertura em forma de conchas brancas no porto de Sydney, na Austrália, inaugurada em 1973."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que arquiteto dinamarquês venceu o concurso da Ópera de Sydney, mas abandonou a obra em 1966 e nunca a viu pronta?",
+    "resposta": "Jørn Utzon",
+    "distratores": [
+      "Arne Jacobsen",
+      "Alvar Aalto",
+      "Bjarke Ingels"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+      "https://en.wikipedia.org/wiki/J%C3%B8rn_Utzon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+        "situacao": "ok",
+        "texto": "The Sydney Opera House is a multi-venue performing arts centre in Sydney, New South Wales, Australia. Located on the foreshore of Sydney Harbour, it is widely regarded as one of the world's most famous and distinctive buildings, and a masterpiece of 20th-century architecture.\n[…]\nIn the late 1990s, the Sydney Opera House Trust resumed communication with Utzon in an attempt to effect a reconciliation and to secure his involvement in future changes to the building. In 1999, he was appointed by the trust as a design consultant for future work.\n[…]\nAfter the resignation of Utzon, the Minister for Public Works, Davis Hughes, and the Government Architect, Ted Farmer, organised a team to bring the Sydney Opera House to completion. The architectural work was divided between three appointees who became the Hall, Todd, Littlemore partnership. David Littlemore would manage construction supervision, Lionel Todd contract documentation, while the crucial role of design became the responsibility of Peter Hall.\n[…]\nHall agreed to accept the role on the condition there was no possibility of Utzon returning. Even so, his appointment did not go down well with many of his fellow architects who considered that no one but Utzon should complete the Sydney Opera House. Upon Utzon's dismissal, a rally of protest had marched to Bennelong Point. A petition was also circulated, including in the Government Architects office.\n[…]\nRAIA Commemorative Award, Jørn Utzon – Sydney Opera House, 1992\n[…]\nCompetition drawings submitted by Jørn Utzon to the Opera House Committee\n[…]\n\"Sydney Opera House\". Dictionary of Sydney. Retrieved 8 October 2015. [CC-By-SA]. Includes 'Sydney Opera House' by Laila Ellmoos, 2008 and 'Utzon's Opera House' by Eoghan Lewis, 2014.\n[…]\nSydney Opera House at Google Cultural Institute"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/J%C3%B8rn_Utzon",
+        "situacao": "ok",
+        "texto": "Jørn Oberg Utzon (Danish: [ˈjɶɐ̯ˀn ˈut.sʌn]; 9 April 1918 – 29 November 2008) was a Danish architect. In 1957, he won an international design competition for his design of the Sydney Opera House in Australia. Utzon's revised design, which he completed in 1961, was the basis for the landmark, although it was not completed until 1973.\n[…]\nUtzon was bestowed an Honorary Fellowship of the American Institute of Architects (Hon. FAIA) in 1970 for his distinguished achievements as a foreign architect. On 17 May 1985, he was made an Honorary Companion of the Order of Australia (AC). He was given the Keys to the City of Sydney in 1998. He was involved in redesigning the Opera House, and in particular, the Reception Hall, beginning in 1999. In 2003, he received in his absence an honorary Doctor of Science degree in architecture (Hon.\n[…]\nIn March 2006, Queen Elizabeth II opened the western colonnade addition to the building designed by Utzon who had not returned to Australia since 1966. His son, Jan, took his place at the opening ceremony instead, saying his father was \"too old by now to take the long flight to Australia. But he lives and breathes the Opera House, and as its creator he just has to close his eyes to see it.\"\n[…]\nFollowing Utzon's death in 2008, on 25 March 2009, a state memorial and reconciliation concert was held in the Concert Hall at Sydney Opera House.\n[…]\nDaryl Dellora: Jørn Utzon and the Sydney Opera House. Penguin, Melbourne 2013. ISBN 9780143570806\n[…]\nFrançoise Fromonot: Jørn Utzon, The Sydney Opera House. Corte Madera, California: Gingko Press, 1998. ISBN 3-927258-72-5\n[…]\nKatarina Stübe and Jan Utzon, Sydney Opera House: A Tribute to Jørn Utzon. Reveal Books, 2009. ISBN 978-0-9806123-0-1\n[…]\nEoghan Lewis (2014). \"Utzon's Opera House\". Dictionary of Sydney. Dictionary of Sydney Trust. Retrieved 9 October 2015. [CC-By-SA]"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%93pera_de_Sydney",
+        "situacao": "ok",
+        "texto": "A casa da Ópera de Sydney (em inglês Sydney Opera House), também conhecida como Teatro de Sydney, é um dos edifícios de espetáculo mais marcantes em nível mundial, e um dos símbolos da Austrália, localizada na cidade de Sydney.\n[…]\nA construção, projetada por Jørn Utzon, começou em 1959 e está localizada sobre a Baía de Sydney. Apesar de o arquiteto ter abandonado o projeto em 1966, o edifício foi inaugurado em 20 de outubro de 1973.\n[…]\nUtzon ganhou o concurso internacional de arquitetura para a Ópera de Sydney em 1957, aos 38 anos. Havia 232 candidatos e terá sido o arquitecto finlandês Eero Saarinen, que fazia parte do júri, a apoiar o seu projeto. Fez a obra com o engenheiro anglo-dinamarquês Ove Arup e o edifício demorou anos a ser construído (de 1956 a 1973). A polemica instalou-se e, em 1966, quando Jorn Utzon abandonou a direção da obra e a Austrália, para onde se tinha mudado com a sua família.\n[…]\nAlguns pormenores da obra, nomeadamente no seu interior, não foram acabados segundo os seus planos. Utzon nunca chegou a visitar o edifício, mesmo depois de se ter reconciliado com a Fundação da Ópera de Sydney nos anos 1990 e mais tarde o seu filho Jan, também arquitecto, ter feito a renovação do interior do edifício, aproximando-o mais daquilo que o pai tinha projetado.\n[…]\nDuek-Cohen, Elias, Utzon and the Sydney Opera House, Morgan Publications, Sydney, 1967-1998.\n[…]\n\"Opera House an architectural 'tragedy\"', ABC News online, 28-4-2005.\n[…]\nWatson, Anne (editor): \"Building a Masterpiece: The Sydney Opera House\", 2006, Lund Humphries, ISBN 0-85331-941-3, ISBN 978-0-85331-941-2\n[…]\nThe Sydney Opera House mapygon\n[…]\nSitio web de arquitetura em Sydney\n[…]\nWebcamda Ópera de Sydney",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Aleijadinho",
+      "descricao": "Antônio Francisco Lisboa, escultor e arquiteto do barroco mineiro do século dezoito."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Aleijadinho nasceu na antiga Vila Rica, capital da capitania de Minas Gerais no século dezoito. Como essa cidade se chama hoje?",
+    "resposta": "Ouro Preto",
+    "distratores": [
+      "Mariana",
+      "Sabará",
+      "Diamantina"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Aleijadinho",
+      "https://en.wikipedia.org/wiki/Aleijadinho"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aleijadinho",
+        "situacao": "ok",
+        "texto": "Antônio Francisco Lisboa, mais conhecido como Aleijadinho, (Ouro Preto, c. 29 de agosto de 1730 ou, mais provavelmente, 1738 – Ouro Preto, 18 de novembro de 1814) foi um importante escultor, entalhador e arquiteto do Brasil colonial.\n[…]\nToda sua obra, com um estilo que incorpora elementos do Barroco e do Rococó, entre talhas, projetos arquitetônicos, relevos e estatuária, foi realizada em Minas Gerais, especialmente nas cidades de Ouro Preto, Sabará, São João del-Rei e Congonhas. Os principais monumentos que contêm suas obras são a Igreja de São Francisco de Assis de Ouro Preto e o Santuário do Bom Jesus de Matosinhos.\n[…]\nAntônio Francisco Lisboa, o Aleijadinho, era filho natural de um respeitado mestre de obras e arquiteto português, Manuel Francisco Lisboa, e de sua escrava africana, Isabel. Na certidão de batismo, invocada por Bretas, consta que Antônio, nascido escravo, fora batizado em 29 de agosto de 1730, na então chamada Vila Rica, atual Ouro Preto, na freguesia de Nossa Senhora da Conceição de Antônio Dias, tendo como padrinho Antônio dos Reis e sendo alforriado na ocasião, por seu pai e senhor.\n[…]\nO estilo tipicamente praticado em Minas Gerais teve seu centro principal na antiga Vila Rica, hoje Ouro Preto, fundada em 1711, mas também floresceu com vigor em Diamantina, Mariana, Tiradentes, Sabará, Cachoeira do Campo, São João del-Rei, Congonhas e uma série de outras cidades e vilas mineiras.\n[…]\n1771 — Ouro Preto: Risco para um açougue.\n[…]\n1789 — Ouro Preto: Pedras de ara para a Igreja de São Francisco.\n[…]\n1790–4 — Ouro Preto: Altar-mor da Igreja de São Francisco.\n[…]\n1794 — Ouro Preto: Inspeção de obras na Igreja de São Francisco.\n[…]\n1829 — Ouro Preto: Retábulos laterais para a Igreja de São Francisco, executados postumamente."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Aleijadinho",
+        "situacao": "ok",
+        "texto": "Antônio Francisco Lisboa (c. 29 August 1730 or 1738 – 18 November 1814), better known as Aleijadinho (Portuguese pronunciation: [aleiʒaˈdʒiɲu], lit. 'little cripple'), was a sculptor, carver and architect of Colonial Brazil, noted for his works on and in various churches of Brazil.\n[…]\nAntônio Francisco Lisboa was the son of a respected Portuguese master builder and architect, Manuel Francisco Lisboa, and his African slave, Isabel. In the baptismal certificate, cited by Bretas, it appears that Antônio, born a slave, was baptized on 29 August 1730, in what was then the town of Vila Rica (currently Ouro Preto) in the parish of Nossa Senhora da Conceição de Antônio Dias, with Antônio dos Reis as his godparent and being manumitted on the occasion by his father.\n[…]\nThe style typically practiced in Minas Gerais had its main center in the old Vila Rica, today Ouro Preto, founded in 1711, but it also flourished vigorously in Diamantina, Mariana, Tiradentes, Sabará, Cachoeira do Campo, São João del-Rei, Congonhas and a number of other mining towns and villages.\n[…]\n\"The project drawn up by Aleijadinho in 1774 for the facade of the church of Saint Francis of São João del-Rei, which is located on the same evolutionary line of Ouro Preto's Carmel, would have come to characterize, if executed, the most genuinely Rococo of the Minas Gerais religious facades... the project, fortunately preserved, a beautiful and meticulous pen and ink drawing with the volumes marked in shading, gives a very precise idea of the author's original thought.\n[…]\n1790–4 — Ouro Preto: Main altar of the Church of Saint Francis;\n[…]\n1794 — Ouro Preto: Inspection of works in the Church of Saint Francis;\n[…]\n1829 — Ouro Preto: Lateral altarpieces for the Church of Saint Francis, executed posthumously."
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Bauhaus",
+      "descricao": "Escola alemã de arte, design e arquitetura fundada por Walter Gropius em Weimar, em 1919."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1925, a escola Bauhaus deixou Weimar e se mudou para um prédio de vidro e concreto projetado por Gropius em que cidade alemã?",
+    "resposta": "Dessau",
+    "distratores": [
+      "Berlim",
+      "Munique",
+      "Stuttgart"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bauhaus",
+      "https://en.wikipedia.org/wiki/Bauhaus_Dessau"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bauhaus",
+        "situacao": "ok",
+        "texto": "The Staatliches Bauhaus (German: [ˈʃtaːtlɪçəs ˈbaʊˌhaʊs] ), commonly known as the Bauhaus (German for 'building house'), was a German art school operational from 1919 to 1933 that combined crafts and the fine arts. The school became famous for its approach to design, which attempted to unify individual artistic vision with the principles of mass production and emphasis on function.\n[…]\nThe school existed in three German cities—Weimar, from 1919 to 1925, Dessau, from 1925 to 1932, and Berlin, from 1932 to 1933. During this period, it had three architect-directors: Walter Gropius from 1919 to 1928; Hannes Meyer from 1928 to 1930; and Ludwig Mies van der Rohe from 1930 until 1933, when the school was closed by its own leadership under pressure from the Nazi regime, having been painted as a centre of communist intellectualism.\n[…]\nThe Bauhaus moved to Dessau in 1925 and new facilities there were inaugurated in late 1926. Gropius's design for the Dessau facilities was a return to the futuristic Gropius of 1914 that had more in common with the International style lines of the Fagus Factory than the stripped down Neo-classical of the Werkbund pavilion or the Völkisch Sommerfeld House. During the Dessau years, there was a remarkable change in direction for the school.\n[…]\nThe Bauhaus Museum Dessau also opened in September 2019, operated by the Bauhaus Dessau Foundation and funded by the State of Saxony-Anhalt and the German Federal government. It is set to be the permanent home of the second-largest Bauhaus collection at 49,000 objects, while paying homage to its strong influence in the city when the Bauhaus arrived in 1925.\n[…]\nKirsten Baumann (2007). Bauhaus Dessau: Architecture Design Concept. Berlin: JOVIS Verlag. ISBN 978-3-939633-11-2.\n[…]\nTorsten Blume / Burghard Duhm (Eds.) (2008). Bauhaus.Theatre.Dessau: Change of Scene. Berlin: JOVIS Verlag. ISBN 978-3-936314-81-6."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bauhaus_Dessau",
+        "situacao": "ok",
+        "texto": "Bauhaus Dessau, also Bauhaus-Building Dessau, is a building-complex in Dessau-Roßlau. It is considered the pinnacle of pre-war modern design in Europe and originated out of the dissolution of the Weimar School and the move by local politicians to reconcile the city's industrial character with its cultural past.\n[…]\nAfter the Bauhaus moved from Weimar to Dessau, the name of this part of the building was taken from the studio building of the same name in Weimar, which is named after its builder Louis Preller.\n[…]\nThe mayor of Dessau, Fritz Hesse, and his cultural advisor Ludwig Grote made it possible for Gropius to move the school to Dessau, where the Bauhaus was rebuilt between 1925 and 1926 according to Gropius' designs and recognized as the State University of Anhalt in 1926.\n[…]\nIn March 1925, Gropius' office was commissioned by the city of Dessau to design the community building for the Dessau School of Arts and Crafts (from 1926 onwards technical schools) and the Bauhaus. In September 1925, construction of the joint school building began. The topping-out ceremony was held on 21 March 1926, and the inauguration took place on 4 December 1926.\n[…]\nNear the Bauhaus (Ebertallee 65–71, 51.8432°N 12.2205°E﻿ / 51.8432; 12.2205), Walter Gropius built the masters' houses as accommodation for the masters of the Bauhaus. These also served as model houses for modern living. The client was the city of Dessau, and the Bauhaus masters lived there as tenants.\n[…]\nStiftung Bauhaus Dessau (Hrsg.): Neue Meisterhäuser in Dessau, 1925–2014. Debatten. Positionen. Kontexte (= Edition Bauhaus. 46). Spector Books, Leipzig 2017, ISBN 978-3-944669-61-8 (with photography from Heidi Specker and Armin Linke).\n[…]\nBauhaus Museum Dessau\n[…]\nBericht zur Ausstellung \"Bauhaus: Dessau, Chicago, New York\" and 2. Teil, 19 October 2000"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bauhaus",
+        "situacao": "ok",
+        "texto": "A Staatliches Bauhaus, comumente conhecida como Bauhaus, foi uma escola de arte vanguardista na Alemanha. A Bauhaus foi uma das maiores e mais importantes expressões do que é chamado Modernismo no design e na arquitetura, sendo a primeira escola de design do mundo.\n[…]\nA Bauhaus tinha sido grandemente subsidiada pela República de Weimar. Após uma mudança nos quadros do governo, em 1925 a escola mudou-se para Dessau, cujo governo municipal naquele momento era de esquerda. Uma nova mudança ocorre em 1932, para Berlim, devido à perseguição do recém-implantado governo nazista. Em 1933, após uma série de perseguições por parte do governo nazista, a Bauhaus é fechada, também por ordem do governo.\n[…]\nA escola Bauhaus também influenciou imensamente a América do Sul, tendo como seu principal representante o arquiteto Oscar Niemeyer. A jovem capital brasileira, Brasília, foi projetada em 1957 sob as tendências modernas e funcionalistas inauguradas pelo bauhasianismo.\n[…]\nEm 1919, após os atrasos causados ​​pela Primeira Guerra Mundial e um longo debate sobre quem deveria chefiar a instituição e os significados socioeconómicos de uma reconciliação das artes plásticas com as artes aplicadas (uma questão que permaneceu definidora ao longo da existência da escola), Gropius foi nomeado diretor de uma nova instituição que integra os dois, chamada Bauhaus.\n[…]\nA intenção inicial era que a Bauhaus fosse uma combinação de escola de arquitetura, escola de artesanato e academia de artes. O pintor suíço Johannes Itten, o pintor germano-americano Lyonel Feininger e o escultor alemão Gerhard Marcks, junto com Gropius, compunham o corpo docente da Bauhaus em 1919.\n[…]\nWalter Gropius\n[…]\nBauhaus e seus sítios em Weimar, Dessau e Bernau\n[…]\n«Museu Bauhaus em Weimar»\n[…]\n«fundação bauhaus dessau»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Abadia de Westminster",
+      "descricao": "Igreja anglicana gótica em Westminster, Londres, local das coroações dos monarcas ingleses."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Desde a coroação de Guilherme, o Conquistador, a Abadia de Westminster é o palco das coroações dos monarcas ingleses. Em que século essa tradição começou?",
+    "resposta": "Século onze",
+    "distratores": [
+      "Século dez",
+      "Século doze",
+      "Século treze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Westminster_Abbey"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+        "situacao": "ok",
+        "texto": "Westminster Abbey, formally titled the Collegiate Church of Saint Peter at Westminster, is an Anglican church in the City of Westminster, London, England. Since 1066, it has been the location of the coronations of 40 English and British monarchs and a burial site for 18 English, Scottish, and British monarchs. At least 16 royal weddings have taken place at the abbey since 1100.\n[…]\nFrom that date onwards, the building was simply a church, though it was still called an abbey. Elizabeth also re-founded Westminster School, providing for 40 students (the King's (or Queen's) Scholars) and their schoolmasters. The King's Scholars have the duty of shouting Vivat Rex or Vivat Regina (\"Long live the King/Queen\") during the coronation of a new monarch. In the modern day, the dean of Westminster Abbey remains the chair of the school governors.\n[…]\nThe abbey has strong connections with the royal family. It has been patronised by monarchs, been the location for coronations, royal weddings and funerals, and several monarchs have attended services there. One monarch was born and one died at Westminster Abbey. In 1413, Henry IV collapsed while praying at the shrine of Edward the Confessor. He was moved into the Jerusalem Chamber, and died shortly afterwards. Edward V was born in the abbot's house in 1470.\n[…]\nSince the coronation of William the Conqueror in 1066, 40 English and British monarchs have been crowned in Westminster Abbey (not counting Edward V, Lady Jane Grey, and Edward VIII, who were never crowned). In 1216, Henry III could not be crowned in the abbey because London was occupied by hostile forces at the time. Henry was crowned in Gloucester Cathedral, and had a second coronation at Westminster Abbey in 1220.\n[…]\nWestminster Abbey Choir School, also on the abbey grounds, educates the choirboys who sing for abbey services.\n[…]\nInformation for visitors to Westminster Abbey"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Abadia_de_Westminster",
+        "situacao": "ok",
+        "texto": "A Abadia de Westminster, formalmente denominada Igreja Colegiada de São Pedro em Westminster, é uma grande igreja em arquitetura predominantemente gótica na cidade de Westminster, Londres, Inglaterra, a oeste do Palácio de Westminster. É um dos edifícios religiosos mais notáveis do Reino Unido e o local tradicional de coroação e sepultamento dos monarcas ingleses e, posteriormente, britânicos. O e\n[…]\nDesde a coroação de Guilherme, o Conquistador, em 1066, todas as coroações de monarcas ingleses e britânicos aconteceram na Abadia de Westminster. Houve 16 casamentos reais na abadia desde 1100 d.C.\n[…]\nSeu sucessor, Haroldo II, provavelmente foi coroado na abadia, embora a primeira coroação documentada seja a de Guilherme, o Conquistador, no mesmo ano.\n[…]\nDesde as coroações em 1066, tanto do Rei Haroldo quanto de Guilherme, o Conquistador, todos os monarcas ingleses e britânicos (exceto Eduardo V e Eduardo VIII, que nunca tiveram cerimônia de coroação) foram coroados na Abadia de Westminster. Em 1216, Henrique III não pôde ser coroado em Londres quando subiu ao trono, porque o príncipe francês Luís VIII assumira o controle da cidade, e assim o rei foi coroado na Catedral de Gloucester.\n[…]\nA cadeira do Rei Eduardo (ou cadeira de Santo Eduardo), o trono no qual os soberanos ingleses e britânicos estavam sentados no momento da coroação, agora está abrigada dentro da Abadia na Capela de São Jorge, perto da Porta Ocidental, e tem sido usada em todas as coroações desde 1308.\n[…]\nA Abadia de Westminster é famosa por seu tradicional coral, e o repertório musical da Igreja Anglicana é ouvido no culto diário, particularmente a serviço do Coral Evensong.\n[…]\n«Abadia de Westminster - Encyclopdia Britannica» (em inglês)\n[…]\n«Imagens históricas da Abadia de Westminster» (em inglês)\n[…]\n«Keith Short - Escultor» (em inglês). - Imagens de escultura em pedra para a Abadia de Westminster\n[…]\n«Twitter da Abadia de Westminster»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Mesquita Azul",
+      "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete"
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No século dezessete, a Mesquita Azul, em Istambul, foi criticada por igualar a grande mesquita de Meca no número de minaretes. Quantos ela tem?",
+    "resposta": "Seis",
+    "distratores": [
+      "Quatro",
+      "Cinco",
+      "Oito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque",
+        "situacao": "ok",
+        "texto": "The Sultan Ahmed Mosque (Turkish: Sultanahmet Camii), popularly known as the Blue Mosque, is an Ottoman-era historical imperial mosque located in Istanbul, Turkey. It was constructed between 1609 and 1617 during the rule of Ahmed I. It attracts a large number of tourists and is one of the most iconic and popular monuments of Ottoman architecture.\n[…]\nDuring excavations in the early 20th century, some of the ancient seats were discovered in the mosque's courtyard. Given the mosque's location, size, and number of minarets, it is probable that Sultan Ahmed intended to create a monument that rivalled or surpassed the Hagia Sophia.\n[…]\nDespite the opposition, the sultan went ahead with the project. Construction started in 1609 and completed in 1617, when the opening ceremony was held, though the year 1616 is mentioned on some of the mosque's inscriptions. Ahmed I died around the same time or very soon afterwards in 1617.\n[…]\nIn the end, the mosque's grandeur, its luxurious decoration, and the elaborate public ceremonies that Ahmed I organized to celebrate the project appear to have swayed public opinion and overcome the initial controversy over its construction. It became one of the most popular mosques in the city. The mosque has left a major mark on the city and has given its name to the surrounding neighbourhood, now known as Sultanahmet.\n[…]\nOn the outside, the mosque has six minarets, ablutions facilities, and a large courtyard preceding the prayer hall.\n[…]\nAccording to folklore, an architect misheard the Sultan's request for \"altın minareler\" (gold minarets) as \"altı minare\" (six minarets), a feature supposedly then-unique to the mosque of the Ka'aba in Mecca. When criticized for his presumption, the legend says, the Sultan then ordered a seventh minaret to be built at the Mecca mosque. This story, although widely repeated, is apocryphal."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mesquita_Azul",
+        "situacao": "ok",
+        "texto": "A Mesquita do Sultão Ahmed (em turco: Sultanahmet Camii), também conhecida como Mesquita Azul, é uma mesquita otomana de Istambul, Turquia. Foi construída entre 1609 e 1616 e está situada na Praça Sultanahmet, no distrito de Fatih, em frente da Basílica de Santa Sofia, da qual se encontra separada por um espaço ajardinado. É uma das 5 mesquitas da Turquia que possui seis minaretes.\n[…]\nA Mesquita Azul é um triunfo em harmonia, proporção e elegância. Construída em um estilo clássico otomano, o seu magnífico exterior não faz sombra a seu suntuoso interior. Uma verdadeira sinfonia de belos azulejos azuis de İznik dão a este espaço uma atmosfera muito especial. A mesquita ocupa uma parte da área outrora ocupada pelo Grande Palácio de Constantinopla, a residência dos imperadores bizantinos entre 330 e 1081.\n[…]\nEm 1606 o sultão Amade I quis construir uma mesquita maior, mais imponente e mais bonita do que Santa Sofia. O edifício tem 43 metros de altura.\n[…]\nAs mesquitas geralmente eram construídas com um intuito de serviço público. A  külliye da Mesquita Azul inclui ou incluiu  uma madraça, um hamame, uma cozinha que fornecia sopa aos pobres e lojas (o Bazar Arasta), cujas rendas se destinam a financiar o complexo.\n[…]\nA mesquita foi revestida com azulejos sobretudo azuis e possui ricos vitrais também do mesmo tom. Não há figuras no interior da mesquita pois os muçulmanos não cultuam imagens. Ao entrar na mesquita é necessário tirar os sapatos. Calções, bermudas, minissaias ou camisetas sem mangas não são recomendados. Funcionários da mesquita fornecem uma espécie de canga para cobrir as partes do corpo que segundo as regras islâmicas não devem ser ser expostas num espaço sagrado.\n[…]\nGuia da Mesquita Azul. www.turismogrecia.info",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Estátua da Liberdade",
+      "descricao": "Estátua de cobre presenteada pela França, na Ilha da Liberdade, em Nova York."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantos raios pontiagudos formam a coroa da Estátua da Liberdade, em Nova York?",
+    "resposta": "Sete",
+    "distratores": [
+      "Cinco",
+      "Nove",
+      "Treze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+        "situacao": "ok",
+        "texto": "The Statue of Liberty (Liberty Enlightening the World, French: La Liberté éclairant le monde) is a colossal neoclassical sculpture of a robed and crowned woman located on Liberty Island, part of New York City, in New York Harbor. The copper-clad statue, a gift to the United States from the people of France, was designed by French sculptor Frédéric Auguste Bartholdi, and its metal framework built b\n[…]\nOn the sub-national level, the Statue of Liberty National Monument was added to the New Jersey Register of Historic Places in 1971, and was made a New York City designated landmark in 1976.\n[…]\nAs an American icon, the Statue of Liberty has been depicted on the country's coinage and stamps. It appeared on commemorative coins issued to mark its 1986 centennial, and on New York's 2001 entry in the state quarters series. An image of the statue was chosen for the American Eagle platinum bullion coins in 1997, and it was placed on the reverse, or tails, side of the Presidential Dollar series of circulating coins. Two images of the statue's torch appear on the current ten-dollar bill.\n[…]\nDepictions of the statue have been used by many regional institutions. Between 1986 and 2000, New York State issued license plates with an outline of the statue. The Women's National Basketball Association's New York Liberty use both the statue's name and its image in their logo, in which the torch's flame doubles as a basketball. The New York Rangers of the National Hockey League depicted the statue's head on their third jersey, beginning in 1997.\n[…]\nHistoric American Engineering Record (HAER) No. NY-138, \"Statue of Liberty, Liberty Island, Manhattan, New York City County, NY\", 404 photos, 59 color transparencies, 41 measured drawings, 10 data pages, 33 photo caption pages\n[…]\nThe Statue of Liberty, BBC Radio 4 discussion with Robert Gildea, Kathleen Burk & John Keane (In Our Time, February 14, 2008)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Est%C3%A1tua_da_Liberdade",
+        "situacao": "ok",
+        "texto": "Estátua da Liberdade (Liberdade Iluminando o Mundo; em francês: La Liberté éclairant le monde) é uma escultura neoclássica colossal na Ilha da Liberdade, no porto de Nova York, na cidade de Nova York, Estados Unidos. A estátua revestida de cobre, um presente do povo francês ao povo americano, foi projetada pelo escultor francês Frédéric Auguste Bartholdi e sua estrutura de metal foi construída por\n[…]\nA figura de Delacroix usa um píleo e Bartholdi inicialmente considerou colocar um em sua figura também. Em vez disso, ele usou um halo no topo de sua cabeça. Ao fazê-lo, ele evitou uma referência a Marianne, que invariavelmente usa um píleo. Muitos acreditavam que eles evocavam o Sol, os sete mares e os sete continentes, e representavam outro meio, além da tocha, pelo qual a Liberdade ilumina o mundo,  mas não há evidências disto.\n[…]\nUm novo e poderoso sistema de iluminação foi instalado antes do Bicentenário Americano em 1976. A estátua foi o ponto focal da Operação Vela, uma regata de navios altos de todo o mundo que entrou no porto de Nova York em 4 de julho de 1976 e navegou ao redor da Ilha da Liberdade. O dia terminou com uma espetacular exibição de fogos de artifício perto da estátua.\n[…]\nA estátua está situada na Baía de Nova York Superior, na Ilha da Liberdade, ao sul da Ilha Ellis, que juntas formam o Monumento Nacional da Estátua da Liberdade. Ambas as ilhas foram cedidas por Nova York ao governo federal em 1800. Conforme acordado em um pacto de 1834 entre Nova York e Nova Jersey, que definiu a fronteira do estado no ponto médio da baía, as ilhas originais continuam sendo território de Nova York, embora localizadas no lado de Nova Jersey da divisa do estado.\n[…]\nA nível subnacional, o Monumento Nacional da Estátua da Liberdade foi adicionado ao Registro de Lugares Históricos de Nova Jersey em 1971 e foi designado um marco da cidade de Nova Iorque em 1976.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Monte Rushmore",
+      "descricao": "Memorial nacional dos Estados Unidos com os rostos de quatro presidentes esculpidos na rocha de uma montanha."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Além de George Washington, Thomas Jefferson e Abraham Lincoln, que presidente tem o rosto esculpido no Monte Rushmore?",
+    "resposta": "Theodore Roosevelt",
+    "distratores": [
+      "Franklin Roosevelt",
+      "John Adams",
+      "Andrew Jackson"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Rushmore"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+        "situacao": "ok",
+        "texto": "The Mount Rushmore National Memorial is a national memorial  featuring a colossal sculpture carved into the granite face of Mount Rushmore (Lakota: Tȟuŋkášila Šákpe Pahá, or Six Grandfathers Mountain) in the Black Hills, about 2 mi (3 km) southwest of Keystone, South Dakota, United States. The sculptor, Gutzon Borglum, named it the Shrine of Democracy, and oversaw the execution from 1927 to 1941 w\n[…]\nThe sculpture features 60-foot-tall (18 m) depictions of the heads of four United States presidents: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln, respectively chosen to represent the nation's foundation, expansion, development, and preservation. Mount Rushmore attracts more than two million visitors annually to the memorial park which covers 1,278 acres (2.00 sq mi; 517 hectares).\n[…]\nBorglum rejected Robinson's original plan of depicting characters from the Old West, such as Lewis and Clark, Red Cloud, Sacagawea, John C. Fremont, and Crazy Horse, and instead decided to depict four U.S. presidents: George Washington, Thomas Jefferson, Abraham Lincoln, and Theodore Roosevelt.\n[…]\nBetween October 4, 1927, and October 31, 1941, Gutzon Borglum and 400 workers sculpted the colossal 60-foot-high (18 m) carvings of United States presidents George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln to represent the first 150 years of American history. These presidents were selected by Borglum because of their role in preserving the Republic and expanding its territory.\n[…]\nIn music, American composer Michael Daugherty's 2010 piece for chorus and orchestra, \"Mount Rushmore\", depicts each of the four presidents in separate movements. The piece sets texts by George Washington, William Billings, Thomas Jefferson, Maria Cosway, Theodore Roosevelt, and Abraham Lincoln.\n[…]\nLarner, Jesse (2002). Mount Rushmore: An Icon Reconsidered. New York: Nation Books."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Rushmore",
+        "situacao": "ok",
+        "texto": "O Monte Rushmore (em inglês:  Mount Rushmore; em dacota: Tȟuŋkášila Šákpe, Igmútȟaŋka Pahá) é um monumento que localiza-se em Keystone, no estado do Dakota do Sul, Estados Unidos.\n[…]\nÉ um monte onde estão esculpidos os rostos de quatro Presidentes dos Estados Unidos: George Washington, o primeiro presidente dos EUA, Thomas Jefferson, autor da declaração da independência, Theodore Roosevelt, que conquistou maior conhecimento e liberdade de expressão, e Abraham Lincoln, que lutou pela paz do país durante toda a Guerra Civil.\n[…]\nO monumento é uma das atrações turísticas mais conhecidas dos Estados Unidos, rendendo ao Estado de Dakota do Sul o cognome de The Mount Rushmore State. Os gigantescos rostos, de 15 a 21 metros de altura, de George Washington, Thomas Jefferson, Abraham Lincoln e Theodore Roosevelt foram construídos com antigos instrumentos de engenharia, marretas e martelos a 150 metros de altura, na região de Black Hills. Borglum morreu pouco tempo antes de completar o seu trabalho.\n[…]\nTerminada por seu filho, Lincoln, a obra foi inaugurada em 1941.\n[…]\nO monte foi designado, em 19 de outubro de 1966, um distrito do Registro Nacional de Lugares Históricos bem como, um Memorial Nacional.\n[…]\nA escultura no Monte Rushmore foi construída em terras que foram ilegalmente tomadas da Nação Sioux na década de 1870. Os Sioux continuam a exigir a devolução das terras e, em 1980, a Suprema Corte dos EUA decidiu no caso Estados Unidos v. Nação Sioux dos indígenas que a tomada das Black Hills exigia uma compensação justa e concedeu à tribo US$ 102 milhões. Os Sioux recusaram o dinheiro e exigem a devolução total das terras.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Oscar Niemeyer",
+      "descricao": "Arquiteto brasileiro modernista (1907–2012), autor dos principais prédios públicos de Brasília."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Niemeyer escreveu que não o atraía o ângulo reto, e sim algo que ele encontrava nas montanhas, nos rios e no corpo da mulher. O quê?",
+    "resposta": "A curva",
+    "distratores": [
+      "A cor branca",
+      "O concreto aparente",
+      "A luz natural"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oscar_Niemeyer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oscar_Niemeyer",
+        "situacao": "ok",
+        "texto": "Oscar Ribeiro de Almeida Niemeyer Soares Filho (15 December 1907 – 5 December 2012), known as Oscar Niemeyer (Brazilian Portuguese: [ˈoskaʁ ni.eˈmajeʁ]), was a Brazilian architect considered to be one of the key figures in the development of modern architecture. Niemeyer was best known for his design of civic buildings for Brasília, a planned city that became Brazil's capital in 1960, as well as h\n[…]\nNiemeyer was born in the city of Rio de Janeiro on 15 December 1907. Niemeyer spoke about it: \"my name ought to have been Oscar Ribeiro de Almeida de Niemeyer Soares, or simply Oscar de Almeida Soares, but the foreign surname prevailed and I am known simply as Oscar Niemeyer\". He spent his youth as a typical young Carioca of the time: bohemian and relatively unconcerned with his future.\n[…]\nOscar Niemeyer was a keen smoker of cigars, smoking more in later life. His architectural studio was a smoking zone.\n[…]\nDuring the homage to Oscar Niemeyer on 15 December 2012 (it would have been his 105th birthday), the citizens movement released \"Sentimiento Niemeyer\" at the Centro Niemeyer in Spain. The verses were written by different people through a Facebook event and put together by musicians.\n[…]\nList of Oscar Niemeyer works\n[…]\nNiemeyer, Oscar (2000). The Curves of Time: The Memoirs of Oscar Niemeyer. London: Phaidon. ISBN 0-7148-4007-6.\n[…]\nOscar Niemeyer, un architecte engagé dans le siècle (dir. Marc-Henri Wajnberg, 2001, 60 minutes)\n[…]\nAndreas, Paul; Flagge, Ingeborg (2013). Oscar Niemeyer: Eine Legende der Moderne / A Legend Of Modernism. Basel: Birkhäuser Verlag. ISBN 978-3-03821-448-9.\n[…]\nMay 2006 Interview with Niemeyer, age 98, in Metropolis Magazine\n[…]\nNiemeyer's Brasilia Photo Gallery: Year of Brazil at Queens College, CUNY Archived April 28, 2014, at the Wayback Machine\n[…]\nNiemeyer's Brasilia: A Photographic Tribute (2009)\n[…]\nTribute to Oscar Niemeyer by Sancar Seckiner\n[…]\nOscar Niemeyer Architecture on Google Maps"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oscar_Niemeyer",
+        "situacao": "ok",
+        "texto": "Oscar Ribeiro de Almeida Niemeyer Soares Filho (Rio de Janeiro, 15 de dezembro de 1907 – Rio de Janeiro, 5 de dezembro de 2012) foi um arquiteto brasileiro, considerado uma das figuras-chave no desenvolvimento da arquitetura moderna.\n[…]\nFilho de Oscar de Niemeyer Soares e Delfina Ribeiro de Almeida, Oscar Niemeyer nasceu no bairro de Laranjeiras, na rua Passos Manuel, que receberia no futuro o nome de seu avô Antônio Augusto Ribeiro de Almeida, ministro do Supremo Tribunal Federal. Niemeyer foi profundamente marcado pela lisura na vida pública do avô, que como herança os deixou apenas a casa em que morava e cuja regalia era uma missa em casa aos domingos, apesar de ateu desde jovem. Possuía ascendência portuguesa, árabe e alemã.\n[…]\nDar vida às formas desenhadas por Niemeyer foi um grande desafio conquistado pela engenharia. O conjunto abriga ao todo cinco edificações. O Palácio Tiradentes, sede do governo, é totalmente suspenso por cabos de aço, formando um vão livre de 147 metros no térreo. As secretarias foram alocadas em dois prédios idênticos com os nomes \"Minas\" e \"Gerais\", feitos em curva, com quinze andares cada um.\n[…]\nPoucos dias antes de completar 105 anos de idade, Oscar Niemeyer morreu no Rio de Janeiro, a 5 de dezembro de 2012, às 21h55, em decorrência de uma infecção respiratória. Estava internado desde 2 de novembro, no Hospital Samaritano, em Botafogo, na Zona Sul da cidade. Seu corpo encontra-se sepultado no Cemitério de São João Batista no Rio de Janeiro onde também encontra-se sepultada sua única filha Anna Maria Niemeyer, falecida também em 2012.\n[…]\n«Revista Veja - Cronologia de Oscar Niemeyer». visitado em 06/09/08\n[…]\nGaleria de fotos de os projetos de Oscar Niemeyer visitado em 5 de agosto de 2008",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Palácio do Planalto",
+      "descricao": "Sede do Poder Executivo e local de trabalho do presidente da República, na Praça dos Três Poderes, em Brasília, projetado por Oscar Niemeyer."
+    },
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Em Brasília, o presidente da República mora no Palácio da Alvorada. Em que outro palácio de Niemeyer fica o seu gabinete de trabalho?",
+    "resposta": "Palácio do Planalto",
+    "distratores": [
+      "Palácio do Jaburu",
+      "Palácio Itamaraty",
+      "Palácio da Justiça"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Planalto_Palace",
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Planalto"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Planalto_Palace",
+        "situacao": "ok",
+        "texto": "The Palácio do Planalto (Portuguese pronunciation: [paˈlasju du plaˈnawtu]) in Brasília is the official workplace of the president of Brazil. The building was designed by Oscar Niemeyer in 1958 and inaugurated on 21 April 1960. It has been the workplace of every Brazilian president since Juscelino Kubitschek. It is located at the Praça dos Três Poderes (Three Powers Plaza), to the east of the Nati\n[…]\nIt is one of the official palaces of the Presidency, along with the Palácio da Alvorada, the official residence. Besides the president, other high ranking government officials also work from the Planalto, including the Vice-President and the Chief of Staff; the other government ministry buildings are located on the Ministries Esplanade. As the seat of government, the term Planalto is often used as a metonym for the executive branch of the federal government.\n[…]\nThe presidential palace was a major feature of the plan for the newly established federal capital, Brasília. Oscar Niemeyer was chosen as the architect of the Palácio do Planalto and the building's construction, led by Construtora Rabello S.A., began on 10 July 1958. The Executive Office was temporarily headquartered at the Catetinho, on the outskirts of Brasília, during construction.\n[…]\nThe palace owes its name to the Brazilian Highlands (the term planalto meaning highland), specifically the Brazilian Central Plateau, where Brasília is located.\n[…]\nOn 8 January 2023, the Palácio do Planalto was stormed and vandalized by supporters of former president Jair Bolsonaro, who refused to accept the results of the 2022 Brazilian presidential election won by Luiz Inácio Lula da Silva. The attack took place simultaneously at the Planalto, the National Congress of Brazil and the Supreme Federal Court, all located at the Praça dos Três Poderes.\n[…]\nList of Oscar Niemeyer works"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Planalto",
+        "situacao": "ok",
+        "texto": "Palácio do Planalto é o local de trabalho da Presidência do Brasil. É onde está situado o Gabinete do Presidente da República. O prédio também abriga a Casa Civil, a Secretaria-Geral e o Gabinete de Segurança Institucional da Presidência da República. Concebido pelo arquiteto Oscar Niemeyer com projeto estrutural do engenheiro Joaquim Cardozo, é a sede do Poder Executivo Federal do Brasil.\n[…]\nLocalizado na Praça dos Três Poderes em Brasília, o Palácio do Planalto faz parte do projeto do Plano Piloto e foi um dos primeiros edifícios construídos na capital.\n[…]\nA construção do Palácio do Planalto foi iniciada em 10 de julho de 1958, obedecendo ao projeto de Niemeyer e Cardozo. O engenheiro-chefe da obra foi Fausto Amadeu Francisco Favale (1929-2014), pessoalmente designado para o desafio por Juscelino Kubitschek. Favale enfrentou o desafio de concretizar as ideias de Niemeyer a respeito das colunas curvas da fachada (conhecidas como \"velas\"), numa intermediação entre o projeto arquitetônico e o projeto estrutural.\n[…]\nAntes da construção do Palácio do Planalto e do Palácio da Alvorada, o Palácio do Catete, localizado na cidade do Rio de Janeiro, foi a sede do poder executivo brasileiro de 1897 a 1960. A partir desse ano, a sede do poder executivo foi transferida para a recém-inaugurada cidade de Brasília.\n[…]\nO palácio presidencial foi uma das principais características do plano de Lucio Costa para a recém-criada capital federal, Brasília. Oscar Niemeyer foi escolhido como arquiteto do Palácio do Planalto, e o projeto estrutural ficou a cargo do engenheiro Joaquim Cardozo. A construção do prédio, liderada pela Construtora Rabello S.A., começou em 10 de julho de 1958. A Diretoria foi temporariamente sede no Catetinho, nos arredores de Brasília, durante a construção.\n[…]\nMedia relacionados com Palácio do Planalto no Wikimedia Commons\n[…]\nPresidência da República: Palácio do Planalto"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.94 — 2026-11-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **3 perguntas por âncora** em cada lote (2 até 2026-10-27), nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **8 perguntas por âncora** no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27), somando texto e figura, e no máximo **3 com figura** (2 até 2026-10-27). As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas. Essas perguntas têm um teto no jogo original (§9).
+- **Metade aberta, metade múltipla escolha** (desde 2026-10-27). O jogo original busca as duas formas na mesma proporção, em cada tema, para que um modo só de múltipla escolha tenha perguntas de todos os temas. Vale para texto e figura. Cada lote recebe a quantidade de `multipla` que aproxima o seu tema dessa meta (§17), e a pergunta segue a quantidade pedida, salvo quando a outra forma for claramente melhor.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **três perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master e Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 8 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- **Respostas que são um ano específico** ("1969", "800 a.C."), somando abertas e múltiplas: no máximo **9%** das perguntas do lote, e no máximo **uma** num lote de figuras, que tem 12 itens (desde 2026-10-30, só no jogo original). Para pedir a época, prefira o século, a década ou a ordem entre dois fatos. O registro descarta o que passar do teto; as perguntas que já estavam no banco ficam.
+- No máximo **3 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já tenham perguntas, a âncoras novas e obscuras (desde 2026-10-27; antes, "prefira âncoras novas"). O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para aprofundá-las com fatos e ângulos novos, sem repetir fatos.
+- **Tentar incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as centrais, para manter alguma variedade. Se for difícil achar uma assim, o lote fica sem: uma âncora nova obscura não vale a troca.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

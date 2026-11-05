@@ -1,0 +1,1068 @@
+{
+  "itens": [
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "edificio_copan",
+        "nome": "Edifício Copan",
+        "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+        "variantes": [
+          "Copan"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Edif%C3%ADcio_Copan"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do Edifício Copan, prédio sinuoso de Niemeyer no centro de São Paulo, é a sigla do nome de que empresa?",
+      "resposta": "Companhia Pan-Americana de Hotéis e Turismo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Edif%C3%ADcio_Copan",
+        "https://en.wikipedia.org/wiki/Copan_Building"
+      ],
+      "distratores": [
+        "Companhia Paulista de Navegação",
+        "Construtora Pan-Nacional",
+        "Cooperativa Paulista de Arquitetos"
+      ],
+      "ancora": "edificio_copan"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "machu_picchu",
+        "nome": "Machu Picchu",
+        "descricao": "Cidadela inca do século quinze nos Andes peruanos.",
+        "variantes": [
+          "Machu Pichu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Machu_Picchu"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na língua quíchua, falada pelos incas e por seus descendentes, o que significa o nome Machu Picchu?",
+      "resposta": "Montanha Velha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Machu_Picchu"
+      ],
+      "distratores": [
+        "Cidade Perdida",
+        "Pico do Sol",
+        "Ninho do Condor"
+      ],
+      "ancora": "machu_picchu"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "burj_khalifa",
+        "nome": "Burj Khalifa",
+        "descricao": "Arranha-céu megaalto de Dubai, nos Emirados Árabes Unidos, a estrutura mais alta do mundo.",
+        "variantes": [
+          "Burj Dubai"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Burj_Khalifa"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na inauguração, em 2010, o arranha-céu Burj Dubai foi rebatizado em homenagem ao xeque Khalifa, que ajudou Dubai na crise financeira. Ele governava que emirado vizinho?",
+      "resposta": "Abu Dhabi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Burj_Khalifa"
+      ],
+      "distratores": [
+        "Sharjah",
+        "Ajman",
+        "Ras al-Khaimah"
+      ],
+      "ancora": "burj_khalifa"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "ponte_golden_gate",
+        "nome": "Ponte Golden Gate",
+        "descricao": "Ponte pênsil sobre o estreito de Golden Gate, em São Francisco, inaugurada em 1937.",
+        "variantes": [
+          "Golden Gate Bridge"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A ponte Golden Gate, em São Francisco, é pintada de laranja e não tem nada de dourado. De onde vem o seu nome?",
+      "resposta": "Do estreito que ela atravessa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Golden_Gate",
+        "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+      ],
+      "distratores": [
+        "Da Corrida do Ouro",
+        "Da pintura original",
+        "De uma mina vizinha"
+      ],
+      "ancora": "ponte_golden_gate"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "o_pensador",
+        "nome": "O Pensador",
+        "descricao": "Escultura de bronze de Auguste Rodin.",
+        "variantes": [
+          "Le Penseur",
+          "The Thinker"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Thinker"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A escultura de Rodin hoje chamada O Pensador se chamava originalmente O Poeta e, segundo muitos críticos, devia representar que poeta?",
+      "resposta": "Dante Alighieri",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Thinker"
+      ],
+      "distratores": [
+        "Virgílio",
+        "Petrarca",
+        "Homero"
+      ],
+      "ancora": "o_pensador"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Taj Mahal",
+        "descricao": "Mausoléu de mármore branco mandado erguer pelo imperador mogol Shah Jahan às margens do rio Yamuna, em Agra, na Índia.",
+        "variantes": [
+          "Tajmahal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taj_Mahal",
+          "https://pt.wikipedia.org/wiki/Taj_Mahal"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Erguido às margens do rio Yamuna, o Taj Mahal fica em que cidade indiana?",
+      "resposta": "Agra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taj_Mahal"
+      ],
+      "distratores": [
+        "Nova Délhi",
+        "Jaipur",
+        "Lucknow"
+      ],
+      "ancora": "taj_mahal"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Taj Mahal",
+        "descricao": "Mausoléu de mármore branco mandado erguer pelo imperador mogol Shah Jahan às margens do rio Yamuna, em Agra, na Índia.",
+        "variantes": [
+          "Tajmahal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taj_Mahal",
+          "https://pt.wikipedia.org/wiki/Taj_Mahal"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Taj Mahal, o mais famoso mausoléu do Império Mogol, foi construído em que século?",
+      "resposta": "Século dezessete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taj_Mahal"
+      ],
+      "distratores": [
+        "Século quinze",
+        "Século dezesseis",
+        "Século dezoito"
+      ],
+      "ancora": "taj_mahal"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "torre_de_pisa",
+        "nome": "Torre de Pisa",
+        "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+        "variantes": [
+          "Torre inclinada de Pisa",
+          "Leaning Tower of Pisa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Segundo um relato de seu discípulo, que cientista nascido em Pisa soltou objetos do alto da torre inclinada para estudar a queda dos corpos?",
+      "resposta": "Galileu Galilei",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment",
+        "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+      ],
+      "distratores": [
+        "Isaac Newton",
+        "Leonardo da Vinci",
+        "Evangelista Torricelli"
+      ],
+      "ancora": "torre_de_pisa"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "museu_de_arte_de_sao_paulo",
+        "nome": "Museu de Arte de São Paulo",
+        "descricao": "Museu na Avenida Paulista, em São Paulo, cujo prédio é suspenso sobre um grande vão livre.",
+        "variantes": [
+          "MASP",
+          "Museu de Arte de São Paulo Assis Chateaubriand"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Museu_de_Arte_de_S%C3%A3o_Paulo"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Por exigência de quem doou o terreno, o prédio do MASP, na Avenida Paulista, fica suspenso sobre um vão livre. O que a doação exigia preservar?",
+      "resposta": "A vista para o centro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Museu_de_Arte_de_S%C3%A3o_Paulo",
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Museum_of_Art"
+      ],
+      "distratores": [
+        "Uma árvore centenária",
+        "Um antigo coreto",
+        "Uma nascente d'água"
+      ],
+      "ancora": "museu_de_arte_de_sao_paulo"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "parque_ibirapuera",
+        "nome": "Parque Ibirapuera",
+        "descricao": "Parque urbano de 158 hectares em São Paulo, inaugurado em 1954 e o mais visitado da América do Sul.",
+        "variantes": [
+          "Ibirapuera"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Parque_Ibirapuera"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Inaugurado em 1954, com prédios de Niemeyer como a Oca e a grande marquise, o Parque Ibirapuera foi criado para celebrar que data?",
+      "resposta": "Quarto centenário da cidade",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Parque_Ibirapuera",
+        "https://en.wikipedia.org/wiki/Ibirapuera_Park"
+      ],
+      "distratores": [
+        "Centenário da Independência",
+        "Fim da Segunda Guerra",
+        "Fundação da USP"
+      ],
+      "ancora": "parque_ibirapuera"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "fonte_dos_quatro_rios",
+        "nome": "Fonte dos Quatro Rios",
+        "descricao": "Fonte barroca de Gian Lorenzo Bernini na Piazza Navona, em Roma, de 1651.",
+        "variantes": [
+          "Fontana dei Quattro Fiumi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fontana_dei_Quattro_Fiumi"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Na Fonte dos Quatro Rios, de Bernini, a figura que representa o Nilo tem a cabeça coberta por um pano. Qual é a explicação dos historiadores?",
+      "resposta": "Sua nascente era desconhecida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fontana_dei_Quattro_Fiumi"
+      ],
+      "distratores": [
+        "Desprezo por Borromini",
+        "Proteção contra o sol",
+        "Luto pelo papa"
+      ],
+      "ancora": "fonte_dos_quatro_rios"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "grande_buda_de_kamakura",
+        "nome": "Grande Buda de Kamakura",
+        "descricao": "Estátua monumental de bronze de Amitabha no templo Kōtoku-in, em Kamakura, Japão.",
+        "variantes": [
+          "Kamakura Daibutsu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Desde o fim do século quinze, o Grande Buda de Kamakura, no Japão, fica ao ar livre. O que levou embora o templo que o abrigava?",
+      "resposta": "Um tsunami",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in"
+      ],
+      "distratores": [
+        "Um incêndio",
+        "Uma guerra civil",
+        "Um bombardeio"
+      ],
+      "ancora": "grande_buda_de_kamakura"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "basilica_de_sao_pedro",
+        "nome": "Basílica de São Pedro",
+        "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+        "variantes": [
+          "St. Peter's Basilica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No início do século dezesseis, a venda de indulgências para pagar a construção da nova Basílica de São Pedro provocou o protesto de que religioso?",
+      "resposta": "Martinho Lutero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"
+      ],
+      "distratores": [
+        "João Calvino",
+        "Ulrico Zuínglio",
+        "Jan Hus"
+      ],
+      "ancora": "basilica_de_sao_pedro"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "conjunto_moderno_da_pampulha",
+        "nome": "Conjunto Moderno da Pampulha",
+        "descricao": "Conjunto arquitetônico projetado por Oscar Niemeyer nos anos 1940 em torno da lagoa da Pampulha, com a Igreja de São Francisco de Assis.",
+        "variantes": [
+          "Pampulha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pampulha_Modern_Ensemble"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Pronta nos anos quarenta, a igrejinha de São Francisco da Pampulha, de Niemeyer, só foi consagrada em 1959. Por quê?",
+      "resposta": "O clero rejeitou sua forma",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(Belo_Horizonte)"
+      ],
+      "distratores": [
+        "Falta de verba",
+        "Defeito na estrutura",
+        "Disputa pelo terreno"
+      ],
+      "ancora": "conjunto_moderno_da_pampulha"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "panteao_de_roma",
+        "nome": "Panteão de Roma",
+        "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+        "variantes": [
+          "Pantheon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que pintor renascentista, autor do afresco A Escola de Atenas, está sepultado no Panteão de Roma?",
+      "resposta": "Rafael",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+      ],
+      "distratores": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Ticiano"
+      ],
+      "ancora": "panteao_de_roma"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "fontana_di_trevi",
+        "nome": "Fontana di Trevi",
+        "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+        "variantes": [
+          "Fonte de Trevi",
+          "Trevi Fountain"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trevi_Fountain"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em que filme de Federico Fellini, de 1960, a atriz Anita Ekberg entra de vestido na Fontana di Trevi?",
+      "resposta": "A Doce Vida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trevi_Fountain",
+        "https://en.wikipedia.org/wiki/La_Dolce_Vita"
+      ],
+      "distratores": [
+        "Oito e Meio",
+        "Amarcord",
+        "Noites de Cabíria"
+      ],
+      "ancora": "fontana_di_trevi"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "empire_state_building",
+        "nome": "Empire State Building",
+        "descricao": "Arranha-céu art déco de 102 andares em Manhattan, Nova York, concluído em 1931.",
+        "variantes": [
+          "Empire State"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Empire_State_Building"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No clássico do cinema de 1933, que gorila gigante sobe ao topo do Empire State Building e enfrenta aviões?",
+      "resposta": "King Kong",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/King_Kong_(1933_film)",
+        "https://en.wikipedia.org/wiki/Empire_State_Building"
+      ],
+      "distratores": [
+        "Godzilla",
+        "Mighty Joe Young",
+        "Konga"
+      ],
+      "ancora": "empire_state_building"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "escadaria_selaron",
+        "nome": "Escadaria Selarón",
+        "descricao": "Escadaria entre os bairros da Lapa e de Santa Teresa, no Rio de Janeiro, coberta de azulejos coloridos.",
+        "variantes": [
+          "Escadaria do Convento de Santa Teresa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 2003, a Escadaria Selarón, no Rio, apareceu no clipe da música Beautiful, com Pharrell Williams. Que rapper americano canta essa música?",
+      "resposta": "Snoop Dogg",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n",
+        "https://en.wikipedia.org/wiki/Beautiful_(Snoop_Dogg_song)"
+      ],
+      "distratores": [
+        "Jay-Z",
+        "50 Cent",
+        "Dr. Dre"
+      ],
+      "ancora": "escadaria_selaron"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "baldaquino_de_sao_pedro",
+        "nome": "Baldaquino de São Pedro",
+        "descricao": "Dossel monumental de bronze de Bernini sobre o altar-mor da Basílica de São Pedro, no Vaticano, feito de 1623 a 1634.",
+        "variantes": [
+          "Baldacchino di San Pietro",
+          "St. Peter's Baldachin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/St._Peter%27s_Baldachin"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição romana, parte do bronze do Baldaquino de São Pedro, de Bernini, foi arrancada do pórtico de que antigo templo da cidade?",
+      "resposta": "Panteão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/St._Peter%27s_Baldachin",
+        "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+      ],
+      "distratores": [
+        "Coliseu",
+        "Templo de Vesta",
+        "Templo de Saturno"
+      ],
+      "ancora": "baldaquino_de_sao_pedro"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "piramide_de_kukulcan",
+        "nome": "Pirâmide de Kukulcán",
+        "descricao": "Pirâmide escalonada no centro de Chichén Itzá, no México, também chamada El Castillo.",
+        "variantes": [
+          "El Castillo",
+          "Templo de Kukulcán"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A grande pirâmide de Chichén Itzá homenageia Kukulcán, a serpente emplumada dos maias. Que deus asteca corresponde a ele?",
+      "resposta": "Quetzalcóatl",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kukulkan",
+        "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
+      ],
+      "distratores": [
+        "Huitzilopochtli",
+        "Tláloc",
+        "Tezcatlipoca"
+      ],
+      "ancora": "piramide_de_kukulcan"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "petra_al_khazneh",
+        "nome": "Petra (Al-Khazneh)",
+        "descricao": "Tumba nabateia esculpida na rocha, chamada de Tesouro, na cidade antiga de Petra, na Jordânia.",
+        "variantes": [
+          "Al-Khazneh",
+          "O Tesouro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Al-Khazneh"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A fachada do Tesouro, em Petra, na Jordânia, aparece como entrada do templo do Santo Graal em que filme de Indiana Jones?",
+      "resposta": "A Última Cruzada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Al-Khazneh"
+      ],
+      "distratores": [
+        "Caçadores da Arca Perdida",
+        "O Templo da Perdição",
+        "A Caveira de Cristal"
+      ],
+      "ancora": "petra_al_khazneh"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "laocoonte_e_seus_filhos",
+        "nome": "Laocoonte e seus filhos",
+        "descricao": "Escultura helenística em mármore que mostra o sacerdote troiano Laocoonte e seus filhos atacados por serpentes marinhas.",
+        "variantes": [
+          "Grupo de Laocoonte"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Laoco%C3%B6n_and_His_Sons"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A célebre escultura dos Museus Vaticanos mostra Laocoonte, sacerdote atacado por serpentes depois de alertar seus conterrâneos contra que presente dos gregos?",
+      "resposta": "O Cavalo de Troia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Laoco%C3%B6n",
+        "https://en.wikipedia.org/wiki/Laoco%C3%B6n_and_His_Sons"
+      ],
+      "distratores": [
+        "O pomo de ouro",
+        "A caixa de Pandora",
+        "O velocino de ouro"
+      ],
+      "ancora": "laocoonte_e_seus_filhos"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "palacio_gustavo_capanema",
+        "nome": "Palácio Gustavo Capanema",
+        "descricao": "Edifício modernista no centro do Rio de Janeiro, antiga sede do Ministério da Educação e Saúde.",
+        "variantes": [
+          "Edifício Gustavo Capanema",
+          "Ministério da Educação e Saúde"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gustavo_Capanema_Palace"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Nos anos trinta, a equipe de Lúcio Costa e do jovem Niemeyer projetou o Palácio Gustavo Capanema, no Rio, com a consultoria de que mestre franco-suíço?",
+      "resposta": "Le Corbusier",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gustavo_Capanema_Palace",
+        "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Gustavo_Capanema"
+      ],
+      "distratores": [
+        "Walter Gropius",
+        "Mies van der Rohe",
+        "Alvar Aalto"
+      ],
+      "ancora": "palacio_gustavo_capanema"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "aleijadinho",
+        "nome": "Aleijadinho",
+        "descricao": "Antônio Francisco Lisboa, escultor e arquiteto do barroco mineiro do século dezoito.",
+        "variantes": [
+          "Antônio Francisco Lisboa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Aleijadinho"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Aleijadinho nasceu na antiga Vila Rica, capital da capitania de Minas Gerais no século dezoito. Como essa cidade se chama hoje?",
+      "resposta": "Ouro Preto",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Aleijadinho",
+        "https://en.wikipedia.org/wiki/Aleijadinho"
+      ],
+      "distratores": [
+        "Mariana",
+        "Sabará",
+        "Diamantina"
+      ],
+      "ancora": "aleijadinho"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "bauhaus",
+        "nome": "Bauhaus",
+        "descricao": "Escola alemã de arte, design e arquitetura fundada por Walter Gropius em Weimar, em 1919.",
+        "variantes": [
+          "Staatliches Bauhaus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bauhaus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Depois de deixar Weimar em 1925, a escola Bauhaus inaugurou, em 1926, um prédio de vidro e concreto projetado por Gropius em que cidade alemã?",
+      "resposta": "Dessau",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bauhaus",
+        "https://en.wikipedia.org/wiki/Bauhaus_Dessau"
+      ],
+      "distratores": [
+        "Berlim",
+        "Munique",
+        "Stuttgart"
+      ],
+      "ancora": "bauhaus"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "abadia_de_westminster",
+        "nome": "Abadia de Westminster",
+        "descricao": "Igreja anglicana gótica em Westminster, Londres, local das coroações dos monarcas ingleses.",
+        "variantes": [
+          "Westminster Abbey"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Westminster_Abbey"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Desde a coroação de Guilherme, o Conquistador, a Abadia de Westminster é o palco das coroações dos monarcas ingleses. Em que século essa tradição começou?",
+      "resposta": "Século onze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Westminster_Abbey"
+      ],
+      "distratores": [
+        "Século dez",
+        "Século doze",
+        "Século treze"
+      ],
+      "ancora": "abadia_de_westminster"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "estatua_da_liberdade",
+        "nome": "Estátua da Liberdade",
+        "descricao": "Estátua de cobre presenteada pela França, na Ilha da Liberdade, em Nova York.",
+        "variantes": [
+          "Statue of Liberty",
+          "A Liberdade Iluminando o Mundo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantos raios pontiagudos formam a coroa da Estátua da Liberdade, em Nova York?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+      ],
+      "distratores": [
+        "Cinco",
+        "Nove",
+        "Treze"
+      ],
+      "ancora": "estatua_da_liberdade"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "oscar_niemeyer",
+        "nome": "Oscar Niemeyer",
+        "descricao": "Arquiteto brasileiro modernista (1907–2012), autor dos principais prédios públicos de Brasília.",
+        "variantes": [
+          "Oscar Ribeiro de Almeida Niemeyer Soares Filho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oscar_Niemeyer"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Niemeyer escreveu que não o atraía o ângulo reto, e sim algo que ele encontrava nas montanhas, nos rios e no corpo da mulher. O quê?",
+      "resposta": "A curva",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oscar_Niemeyer"
+      ],
+      "distratores": [
+        "A cor branca",
+        "O concreto aparente",
+        "A luz natural"
+      ],
+      "ancora": "oscar_niemeyer"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Palácio do Planalto",
+        "descricao": "Sede do Poder Executivo e local de trabalho do presidente da República, na Praça dos Três Poderes, em Brasília, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Planalto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Planalto_Palace",
+          "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Planalto"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em Brasília, o presidente da República mora no Palácio da Alvorada. Em que outro palácio de Niemeyer fica o seu gabinete de trabalho?",
+      "resposta": "Palácio do Planalto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Planalto_Palace",
+        "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Planalto"
+      ],
+      "distratores": [
+        "Palácio do Jaburu",
+        "Palácio Itamaraty",
+        "Palácio da Justiça"
+      ],
+      "ancora": "palacio_do_planalto"
+    }
+  ],
+  "ancoras_novas": [],
+  "variantes": {
+    "coliseu": [
+      "Coliseu",
+      "Anfiteatro Flávio",
+      "Colosseum"
+    ],
+    "casa_mila": [
+      "Casa Milà",
+      "La Pedrera"
+    ],
+    "edificio_copan": [
+      "Edifício Copan",
+      "Copan"
+    ],
+    "machu_picchu": [
+      "Machu Picchu",
+      "Machu Pichu"
+    ],
+    "burj_khalifa": [
+      "Burj Khalifa",
+      "Burj Dubai"
+    ],
+    "ponte_golden_gate": [
+      "Ponte Golden Gate",
+      "Golden Gate Bridge"
+    ],
+    "arquitetura_gotica": [
+      "Arquitetura gótica",
+      "Gótico"
+    ],
+    "ponte_dos_suspiros": [
+      "Ponte dos Suspiros",
+      "Ponte dei Sospiri",
+      "Bridge of Sighs"
+    ],
+    "o_pensador": [
+      "O Pensador",
+      "Le Penseur",
+      "The Thinker"
+    ],
+    "ponte_rio_niteroi": [
+      "Ponte Rio-Niterói",
+      "Ponte Presidente Costa e Silva"
+    ],
+    "torre_de_pisa": [
+      "Torre de Pisa",
+      "Torre inclinada de Pisa",
+      "Leaning Tower of Pisa"
+    ],
+    "partenon": [
+      "Partenon",
+      "Parthenon",
+      "Pártenon"
+    ],
+    "abu_simbel": [
+      "Abu Simbel",
+      "Templos de Abu Simbel"
+    ],
+    "museu_de_arte_de_sao_paulo": [
+      "Museu de Arte de São Paulo",
+      "MASP",
+      "Museu de Arte de São Paulo Assis Chateaubriand"
+    ],
+    "parque_ibirapuera": [
+      "Parque Ibirapuera",
+      "Ibirapuera"
+    ],
+    "fonte_dos_quatro_rios": [
+      "Fonte dos Quatro Rios",
+      "Fontana dei Quattro Fiumi"
+    ],
+    "grande_buda_de_kamakura": [
+      "Grande Buda de Kamakura",
+      "Kamakura Daibutsu"
+    ],
+    "basilica_de_sao_pedro": [
+      "Basílica de São Pedro",
+      "St. Peter's Basilica"
+    ],
+    "conjunto_moderno_da_pampulha": [
+      "Conjunto Moderno da Pampulha",
+      "Pampulha"
+    ],
+    "templo_de_artemis": [
+      "Templo de Ártemis",
+      "Artemísion",
+      "Temple of Artemis"
+    ],
+    "panteao_de_roma": [
+      "Panteão de Roma",
+      "Pantheon"
+    ],
+    "fontana_di_trevi": [
+      "Fontana di Trevi",
+      "Fonte de Trevi",
+      "Trevi Fountain"
+    ],
+    "mosteiro_dos_jeronimos": [
+      "Mosteiro dos Jerónimos",
+      "Mosteiro dos Jerônimos",
+      "Jerónimos Monastery"
+    ],
+    "empire_state_building": [
+      "Empire State Building",
+      "Empire State"
+    ],
+    "escadaria_selaron": [
+      "Escadaria Selarón",
+      "Escadaria do Convento de Santa Teresa"
+    ],
+    "baldaquino_de_sao_pedro": [
+      "Baldaquino de São Pedro",
+      "Baldacchino di San Pietro",
+      "St. Peter's Baldachin"
+    ],
+    "opera_garnier": [
+      "Ópera Garnier",
+      "Palais Garnier",
+      "Ópera de Paris"
+    ],
+    "piramide_de_kukulcan": [
+      "Pirâmide de Kukulcán",
+      "El Castillo",
+      "Templo de Kukulcán"
+    ],
+    "petra_al_khazneh": [
+      "Petra (Al-Khazneh)",
+      "Al-Khazneh",
+      "O Tesouro"
+    ],
+    "laocoonte_e_seus_filhos": [
+      "Laocoonte e seus filhos",
+      "Grupo de Laocoonte"
+    ],
+    "cristo_redentor": [
+      "Cristo Redentor",
+      "Cristo do Corcovado",
+      "Christ the Redeemer"
+    ],
+    "palacio_gustavo_capanema": [
+      "Palácio Gustavo Capanema",
+      "Edifício Gustavo Capanema",
+      "Ministério da Educação e Saúde"
+    ],
+    "aleijadinho": [
+      "Aleijadinho",
+      "Antônio Francisco Lisboa"
+    ],
+    "bauhaus": [
+      "Bauhaus",
+      "Staatliches Bauhaus"
+    ],
+    "abadia_de_westminster": [
+      "Abadia de Westminster",
+      "Westminster Abbey"
+    ],
+    "mesquita_azul": [
+      "Mesquita Azul",
+      "Mesquita do Sultão Ahmed",
+      "Sultan Ahmed Mosque"
+    ],
+    "estatua_da_liberdade": [
+      "Estátua da Liberdade",
+      "Statue of Liberty",
+      "A Liberdade Iluminando o Mundo"
+    ],
+    "monte_rushmore": [
+      "Monte Rushmore",
+      "Mount Rushmore"
+    ],
+    "oscar_niemeyer": [
+      "Oscar Niemeyer",
+      "Oscar Ribeiro de Almeida Niemeyer Soares Filho"
+    ],
+    "barroco": [
+      "Barroco",
+      "Baroque",
+      "Estilo barroco"
+    ],
+    "farol_de_alexandria": [
+      "Farol de Alexandria",
+      "Farol de Faros",
+      "Lighthouse of Alexandria",
+      "Pharos"
+    ],
+    "taj_mahal": [
+      "Taj Mahal",
+      "Tajmahal"
+    ],
+    "opera_de_sydney": [
+      "Ópera de Sydney",
+      "Sydney Opera House"
+    ],
+    "palacio_do_planalto": [
+      "Palácio do Planalto",
+      "Planalto"
+    ]
+  }
+}

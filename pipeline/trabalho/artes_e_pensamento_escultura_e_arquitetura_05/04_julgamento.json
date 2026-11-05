@@ -1,0 +1,323 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Barroco",
+        "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, de formas dramáticas e ornamentadas, presente em Bernini e no barroco mineiro.",
+        "variantes": [
+          "Baroque",
+          "Estilo barroco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca",
+            "Estilo barroco"
+          ]
+        },
+        {
+          "id": "musica_barroca",
+          "nome": "Música barroca",
+          "descricao": "Período da música europeia entre cerca de 1600 e 1750, de compositores como Bach, Vivaldi e Händel.",
+          "variantes": [
+            "Barroco musical",
+            "Barroco"
+          ]
+        },
+        {
+          "id": "auroque",
+          "nome": "Auroque",
+          "descricao": "Boi selvagem extinto (Bos primigenius) da Eurásia e do norte da África, ancestral do gado doméstico.",
+          "variantes": [
+            "Uro",
+            "Bos primigenius",
+            "Aurochs"
+          ]
+        },
+        {
+          "id": "roque",
+          "nome": "Roque",
+          "descricao": "Lance especial do xadrez em que o rei e uma torre se movem ao mesmo tempo.",
+          "variantes": [
+            "Castling",
+            "Roque (xadrez)"
+          ]
+        },
+        {
+          "id": "marrocos",
+          "nome": "Marrocos",
+          "descricao": "País do Norte da África, no Magrebe, com capital em Rabat.",
+          "variantes": [
+            "Reino de Marrocos",
+            "Morocco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Farol de Alexandria",
+        "descricao": "Torre de luz erguida no século três antes de Cristo na ilha de Faros, diante do porto de Alexandria, no Egito, uma das sete maravilhas do mundo antigo.",
+        "variantes": [
+          "Farol de Faros",
+          "Lighthouse of Alexandria",
+          "Pharos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "farol_de_alexandria",
+          "nome": "Farol de Alexandria",
+          "descricao": "Farol da Antiguidade na ilha de Faros, no Egito, uma das Sete Maravilhas do Mundo Antigo.",
+          "variantes": [
+            "Farol de Faros",
+            "Pharos de Alexandria",
+            "Lighthouse of Alexandria"
+          ]
+        },
+        {
+          "id": "ampharos",
+          "nome": "Ampharos",
+          "descricao": "Pokémon do tipo Elétrico da segunda geração, número 181 da Pokédex Nacional, de pescoço longo e esfera na cauda.",
+          "variantes": [
+            "Denryu"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        },
+        {
+          "id": "padrao_marco_dos_descobrimentos_portugueses",
+          "nome": "Padrão (marco dos descobrimentos portugueses)",
+          "descricao": "Pilar de pedra com cruz e armas reais, erguido por navegadores portugueses nos séculos quinze e dezesseis para marcar posse.",
+          "variantes": [
+            "Padrões",
+            "Padrão dos descobrimentos"
+          ]
+        },
+        {
+          "id": "hipatia",
+          "nome": "Hipátia",
+          "descricao": "Filósofa, astrônoma e matemática de Alexandria, assassinada no ano 415.",
+          "variantes": [
+            "Hipátia de Alexandria",
+            "Hypatia",
+            "Hipácia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Taj Mahal",
+        "descricao": "Mausoléu de mármore branco mandado erguer pelo imperador mogol Shah Jahan às margens do rio Yamuna, em Agra, na Índia.",
+        "variantes": [
+          "Tajmahal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taj_mahal",
+          "nome": "Taj Mahal",
+          "descricao": "Mausoléu de mármore branco em Agra, na Índia, construído no século dezessete.",
+          "variantes": [
+            "Tadj Mahal"
+          ]
+        },
+        {
+          "id": "tamal",
+          "nome": "Tamal",
+          "descricao": "Prato mesoamericano de massa de milho nixtamalizado, cozido no vapor em palha de milho ou folha de bananeira.",
+          "variantes": [
+            "Tamale",
+            "Tamales"
+          ]
+        },
+        {
+          "id": "hawa_mahal",
+          "nome": "Hawa Mahal",
+          "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+          "variantes": [
+            "Palácio dos Ventos",
+            "Palace of Winds"
+          ]
+        },
+        {
+          "id": "yamaha",
+          "nome": "Yamaha",
+          "descricao": "Marca japonesa fundada em 1887 por Torakusu Yamaha como fabricante de órgãos, presente em instrumentos musicais e motocicletas.",
+          "variantes": [
+            "Nippon Gakki"
+          ]
+        },
+        {
+          "id": "moca_iemen",
+          "nome": "Moca (Iêmen)",
+          "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+          "variantes": [
+            "Mocha",
+            "Mokha",
+            "Al-Makha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ópera de Sydney",
+        "descricao": "Casa de espetáculos de cobertura em forma de conchas brancas no porto de Sydney, na Austrália, inaugurada em 1973.",
+        "variantes": [
+          "Sydney Opera House"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_de_sydney",
+          "nome": "Ópera de Sydney",
+          "descricao": "Casa de espetáculos com cobertura em forma de velas no porto de Sydney, na Austrália.",
+          "variantes": [
+            "Sydney Opera House"
+          ]
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House",
+            "Teatro Ópera de Arame"
+          ]
+        },
+        {
+          "id": "opera_de_oslo",
+          "nome": "Ópera de Oslo",
+          "descricao": "Casa da Ópera e Balé Nacional da Noruega, edifício de mármore branco à beira do fiorde de Oslo.",
+          "variantes": [
+            "Oslo Opera House",
+            "Operahuset"
+          ]
+        },
+        {
+          "id": "royal_opera_house",
+          "nome": "Royal Opera House",
+          "descricao": "Teatro de ópera e balé no bairro de Covent Garden, em Londres, sede da Royal Opera e do Royal Ballet.",
+          "variantes": [
+            "Covent Garden",
+            "Royal Ballet and Opera"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Palácio do Planalto",
+        "descricao": "Sede do Poder Executivo e local de trabalho do presidente da República, na Praça dos Três Poderes, em Brasília, projetado por Oscar Niemeyer.",
+        "variantes": [
+          "Planalto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_do_planalto",
+          "nome": "Palácio do Planalto",
+          "descricao": "Sede do governo federal e local de trabalho do presidente do Brasil, em Brasília, projetado por Oscar Niemeyer.",
+          "variantes": [
+            "Planalto"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "hawa_mahal",
+          "nome": "Hawa Mahal",
+          "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+          "variantes": [
+            "Palácio dos Ventos",
+            "Palace of Winds"
+          ]
+        },
+        {
+          "id": "plancton",
+          "nome": "Plâncton",
+          "descricao": "Conjunto de organismos aquáticos, em geral minúsculos, que vivem à deriva levados pelas correntes.",
+          "variantes": [
+            "Plankton"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "barroco",
+      "motivo": "Mesmo estilo artístico e arquitetônico europeu; música barroca é entidade distinta."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "farol_de_alexandria",
+      "motivo": "Mesmo farol de Faros, maravilha do mundo antigo."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "taj_mahal",
+      "motivo": "Mesmo mausoléu em Agra, Índia."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "opera_de_sydney",
+      "motivo": "Mesma casa de espetáculos no porto de Sydney."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "palacio_do_planalto",
+      "motivo": "Mesmo palácio sede do governo em Brasília, projetado por Niemeyer."
+    }
+  ]
+}

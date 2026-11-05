@@ -1,0 +1,515 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelas fontes, enunciado preciso e distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pedra bruta' vaza a resposta (Pedrera); trocar a pista.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Os moradores de Barcelona deram à Casa Milà, de Gaudí, um apelido por sua aparência tosca e fora do comum. Qual é esse apelido?",
+        "resposta": "La Pedrera",
+        "distratores": [
+          "La Montaña",
+          "El Castell",
+          "La Colmena"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Casa_Mil%C3%A0"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta omite 'e Turismo' do nome da empresa.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome do Edifício Copan, prédio sinuoso de Niemeyer no centro de São Paulo, é a sigla do nome de que empresa?",
+        "resposta": "Companhia Pan-Americana de Hotéis e Turismo",
+        "distratores": [
+          "Companhia Paulista de Navegação",
+          "Construtora Pan-Nacional",
+          "Cooperativa Paulista de Arquitetos"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Edif%C3%ADcio_Copan",
+          "https://en.wikipedia.org/wiki/Copan_Building"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado do nome confirmado pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado: Khalifa governava Abu Dhabi; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ponte leva o nome do estreito Golden Gate, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem pejorativa do termo gótico confirmada; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A origem do termo é incerta; 'vem de' é forte demais.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome barroco, estilo de Bernini e de Aleijadinho, costuma ser derivado de um termo que designava que tipo de joia imperfeita?",
+        "resposta": "Pérola irregular",
+        "distratores": [
+          "Diamante bruto",
+          "Coral retorcido",
+          "Esmeralda rachada"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Baroque",
+          "https://pt.wikipedia.org/wiki/Barroco"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explicação atribuída a Byron confirmada e bem hedgeada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Que a figura representasse Dante é interpretação de críticos, não fato indiscutível.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A escultura de Rodin hoje chamada O Pensador se chamava originalmente O Poeta e, segundo muitos críticos, devia representar que poeta?",
+        "resposta": "Dante Alighieri",
+        "distratores": [
+          "Virgílio",
+          "Petrarca",
+          "Homero"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Thinker"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome oficial confirmado; Costa e Silva morreu em 1969, antes da inauguração em 1974.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Faros originou 'farol'; fato sustentado e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta longa destoa dos distratores e denuncia a opção certa; pedir o nome.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "O imperador mogol Shah Jahan mandou erguer o Taj Mahal, de mármore branco, em memória de sua esposa favorita. Como ela se chamava?",
+        "resposta": "Mumtaz Mahal",
+        "distratores": [
+          "Nur Jahan",
+          "Jodha Bai",
+          "Hamida Banu"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Taj_Mahal"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taj Mahal em Agra, confirmado; simples mas correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construído entre 1632 e 1653, século dezessete.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação instável sobre solo fraco, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Relato de Viviani bem hedgeado; Galileu nasceu em Pisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explosão do paiol de pólvora em 1687 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Realocação por causa da represa de Assuã e do Lago Nasser é fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Condição da doação do terreno confirmada nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parque criado para o IV Centenário de São Paulo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explicação tradicional do pano na cabeça do Nilo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tsunami de 1498 levou o salão; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Indulgências para financiar a basílica provocaram o protesto de Lutero.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte da igreja é inexistente; fato (recusa do clero em consagrar) é bem documentado, trocar a URL.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Pronta nos anos quarenta, a igrejinha de São Francisco da Pampulha, de Niemeyer, só foi consagrada em 1959. Por quê?",
+        "resposta": "O clero rejeitou sua forma",
+        "distratores": [
+          "Falta de verba",
+          "Defeito na estrutura",
+          "Disputa pelo terreno"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(Belo_Horizonte)"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Motivo de Heróstrato (fama) confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rafael sepultado no Panteão, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A cena ocorre ao amanhecer, não em plena noite.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Em que filme de Federico Fellini, de 1960, a atriz Anita Ekberg entra de vestido na Fontana di Trevi?",
+        "resposta": "A Doce Vida",
+        "distratores": [
+          "Oito e Meio",
+          "Amarcord",
+          "Noites de Cabíria"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Trevi_Fountain",
+          "https://en.wikipedia.org/wiki/La_Dolce_Vita"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Túmulos de Gama e Camões próximos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "King Kong de 1933 sobe o Empire State; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Clipe de Beautiful, de Snoop Dogg, gravado na escadaria.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tradição do bronze do Panteão confirmada e hedgeada.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em desambiguação; manter só a página da Ópera Garnier.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que famoso romance de Gaston Leroux, de 1910, tem como cenário o teatro de Charles Garnier, em Paris, com seu lago subterrâneo?",
+        "resposta": "O Fantasma da Ópera",
+        "distratores": [
+          "Os Miseráveis",
+          "O Corcunda de Notre-Dame",
+          "A Dama das Camélias"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Palais_Garnier"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que a inspiração é disputada (naves Apollo ou pirâmides maias); o enunciado a afirma sem ressalva.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kukulkan relacionado a Quetzalcóatl, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Al-Khazneh em A Última Cruzada, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Laocoonte e o cavalo de madeira, mito bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que Silva Costa projetou e construiu a estátua; 'projetou a estrutura' é impreciso, e Leonida esculpiu o rosto.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que escultor francês criou o Cristo Redentor, construído no Rio pelo engenheiro brasileiro Heitor da Silva Costa?",
+        "resposta": "Paul Landowski",
+        "distratores": [
+          "Auguste Rodin",
+          "Antoine Bourdelle",
+          "Aristide Maillol"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Revestimento de pedra-sabão confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Consultoria de Le Corbusier confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A frase atribuída a Gaudí não está nas fontes, é anedota incerta, e o ângulo autoria é inadequado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distrator Alvar Aalto é finlandês, o que o denuncia numa pergunta sobre dinamarquês.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que arquiteto dinamarquês venceu o concurso da Ópera de Sydney, mas abandonou a obra em 1966 e nunca a viu pronta?",
+        "resposta": "Jørn Utzon",
+        "distratores": [
+          "Arne Jacobsen",
+          "Henning Larsen",
+          "Bjarke Ingels"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+          "https://en.wikipedia.org/wiki/J%C3%B8rn_Utzon"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vila Rica é a atual Ouro Preto, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O prédio de Gropius só foi inaugurado em 1926; a escola mudou-se em 1925.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Depois de deixar Weimar em 1925, a escola Bauhaus inaugurou, em 1926, um prédio de vidro e concreto projetado por Gropius em que cidade alemã?",
+        "resposta": "Dessau",
+        "distratores": [
+          "Berlim",
+          "Munique",
+          "Stuttgart"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bauhaus",
+          "https://en.wikipedia.org/wiki/Bauhaus_Dessau"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coroação de 1066, século onze, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A crítica por igualar Meca é folclore não comprovado; perguntar só o número de minaretes.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Quantos minaretes tem a Mesquita Azul, de Istambul, construída no início do século dezessete?",
+        "resposta": "Seis",
+        "distratores": [
+          "Quatro",
+          "Cinco",
+          "Oito"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A coroa tem sete raios, fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Theodore Roosevelt confirmado; bom distrator Franklin Roosevelt.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Citação célebre de Niemeyer sobre a curva, bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Planalto é o local de trabalho do presidente, confirmado.",
+      "reescrita": null
+    }
+  ]
+}
