@@ -1,0 +1,1435 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "banana",
+        "nome": "Banana",
+        "descricao": "Fruto comestível das plantas do gênero Musa",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Banana"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Para a botânica, qual destas frutas é classificada como baga?",
+      "resposta": "Banana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Berry_(botany)",
+        "https://en.wikipedia.org/wiki/Banana"
+      ],
+      "distratores": [
+        "Morango",
+        "Framboesa",
+        "Amora"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "banana",
+        "nome": "Banana",
+        "descricao": "Fruto comestível das plantas do gênero Musa",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Banana"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A bananeira parece uma árvore, mas não tem tronco de madeira. Do que é formado o seu falso tronco?",
+      "resposta": "Bainhas das folhas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Banana"
+      ],
+      "distratores": [
+        "Raízes aéreas",
+        "Cipós entrelaçados",
+        "Fibras de casca"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "cacau",
+        "nome": "Cacau",
+        "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+        "variantes": [
+          "Cacaueiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Theobroma_cacao"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Como na jabuticabeira, as flores e os frutos do cacaueiro nascem num lugar curioso da planta. Onde?",
+      "resposta": "Direto no tronco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cauliflory",
+        "https://en.wikipedia.org/wiki/Theobroma_cacao"
+      ],
+      "distratores": [
+        "Nas pontas dos galhos",
+        "Debaixo da terra",
+        "Nas raízes aéreas"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "cacau",
+        "nome": "Cacau",
+        "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+        "variantes": [
+          "Cacaueiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Theobroma_cacao"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O chocolate branco não leva o pó escuro do cacau. Que produto tirado das sementes de cacau ele usa?",
+      "resposta": "Manteiga de cacau",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/White_chocolate"
+      ],
+      "distratores": [
+        "Polpa do fruto",
+        "Casca torrada",
+        "Mel de cacau"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "cafeeiro",
+        "nome": "Cafeeiro",
+        "descricao": "Planta do gênero Coffea, cujas sementes torradas dão o café",
+        "variantes": [
+          "Café"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coffea"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Por causa da cor vermelha quando maduro, o fruto do cafeeiro recebe que nome entre os produtores?",
+      "resposta": "Cereja",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coffee_bean"
+      ],
+      "distratores": [
+        "Pitanga",
+        "Groselha",
+        "Amora"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "cafeeiro",
+        "nome": "Cafeeiro",
+        "descricao": "Planta do gênero Coffea, cujas sementes torradas dão o café",
+        "variantes": [
+          "Café"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coffea"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes tipos de café tem grãos com o maior teor de cafeína?",
+      "resposta": "Robusta (conilon)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coffea_canephora"
+      ],
+      "distratores": [
+        "Arábica",
+        "Libérica",
+        "Bourbon"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "mandioca",
+        "nome": "Mandioca",
+        "descricao": "Raiz da planta Manihot esculenta, base alimentar indígena e ingrediente central da cozinha brasileira",
+        "variantes": [
+          "Aipim",
+          "Macaxeira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cassava"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que ingrediente, extraído da mandioca, é a base da massa do pão de queijo mineiro?",
+      "resposta": "Polvilho",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Polvilho",
+        "https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo"
+      ],
+      "distratores": [
+        "Fubá",
+        "Maisena",
+        "Farinha de trigo"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "milho",
+        "nome": "Milho",
+        "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+        "variantes": [
+          "Zea mays"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maize"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O milho descende do teosinto, um capim selvagem bem diferente dele, domesticado há cerca de nove mil anos em que país atual?",
+      "resposta": "México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maize",
+        "https://en.wikipedia.org/wiki/Teosinte"
+      ],
+      "distratores": [
+        "Peru",
+        "Guatemala",
+        "Colômbia"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "milho",
+        "nome": "Milho",
+        "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+        "variantes": [
+          "Zea mays"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maize"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Cada fio do cabelo do milho sai de uma flor feminina da espiga. Depois de polinizado, cada fio dá origem a quê?",
+      "resposta": "Um grão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maize"
+      ],
+      "distratores": [
+        "Uma espiga",
+        "Uma folha",
+        "Uma palha"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "abacaxi",
+        "nome": "Abacaxi",
+        "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+        "variantes": [
+          "Ananás"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pineapple"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O pé de abacaxi leva mais de um ano para frutificar. Cada caule da planta forma quantos abacaxis por vez?",
+      "resposta": "Um só",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pineapple"
+      ],
+      "distratores": [
+        "Dois",
+        "Cerca de seis",
+        "Cerca de doze"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "girassol",
+        "nome": "Girassol",
+        "descricao": "Planta Helianthus annuus, de grandes inflorescências amarelas e sementes comestíveis",
+        "variantes": [
+          "Helianthus annuus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Helianthus_annuus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O que parece ser uma única grande flor amarela no girassol é, na verdade, formado por quê?",
+      "resposta": "Centenas de florzinhas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Helianthus_annuus"
+      ],
+      "distratores": [
+        "Uma flor gigante",
+        "Folhas coloridas",
+        "Sementes com pétalas"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "girassol",
+        "nome": "Girassol",
+        "descricao": "Planta Helianthus annuus, de grandes inflorescências amarelas e sementes comestíveis",
+        "variantes": [
+          "Helianthus annuus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Helianthus_annuus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "As sementes no miolo do girassol formam espirais cujas quantidades seguem que famosa sequência da matemática?",
+      "resposta": "Sequência de Fibonacci",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fibonacci_sequence",
+        "https://en.wikipedia.org/wiki/Helianthus_annuus"
+      ],
+      "distratores": [
+        "Números primos",
+        "Potências de dois",
+        "Números triangulares"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "castanheira_do_para",
+        "nome": "Castanheira-do-pará",
+        "descricao": "Árvore amazônica Bertholletia excelsa, que produz a castanha-do-pará dentro de um ouriço duro",
+        "variantes": [
+          "Castanha-do-brasil",
+          "Bertholletia excelsa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_nut"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Castanheiras-do-pará plantadas longe da floresta produzem poucas castanhas. Isso acontece porque suas flores dependem de quais polinizadores?",
+      "resposta": "Abelhas grandes da mata",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_nut"
+      ],
+      "distratores": [
+        "Morcegos",
+        "Beija-flores",
+        "Mariposas"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "castanheira_do_para",
+        "nome": "Castanheira-do-pará",
+        "descricao": "Árvore amazônica Bertholletia excelsa, que produz a castanha-do-pará dentro de um ouriço duro",
+        "variantes": [
+          "Castanha-do-brasil",
+          "Bertholletia excelsa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_nut"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "A castanha-do-pará concentra tanto de um mineral que se recomenda comer só poucas por dia. Que mineral é esse?",
+      "resposta": "Selênio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_nut"
+      ],
+      "distratores": [
+        "Ferro",
+        "Zinco",
+        "Magnésio"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "dente_de_leao",
+        "nome": "Dente-de-leão",
+        "descricao": "Planta do gênero Taraxacum, de capítulo amarelo que depois vira bola de sementes.",
+        "variantes": [
+          "Taraxacum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taraxacum"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome dente-de-leão veio do francês. A que parte da planta ele se refere?",
+      "resposta": "Às folhas recortadas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taraxacum"
+      ],
+      "distratores": [
+        "Às sementes com pelos",
+        "À flor amarela",
+        "Às raízes"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "guarana",
+        "nome": "Guaraná",
+        "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+        "variantes": [
+          "Paullinia cupana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guarana"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas sementes tem a maior concentração de cafeína?",
+      "resposta": "Guaraná",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guarana"
+      ],
+      "distratores": [
+        "Café arábica",
+        "Cacau",
+        "Cupuaçu"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "vitoria_regia",
+        "nome": "Vitória-régia",
+        "descricao": "Planta aquática amazônica Victoria amazonica, de folhas circulares gigantes",
+        "variantes": [
+          "Victoria amazonica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Victoria_amazonica"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A face de baixo da folha gigante da vitória-régia é protegida contra peixes e outros herbívoros por quê?",
+      "resposta": "Espinhos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Victoria_amazonica"
+      ],
+      "distratores": [
+        "Pelos urticantes",
+        "Cera venenosa",
+        "Escamas duras"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "pau_brasil",
+        "nome": "Pau-brasil",
+        "descricao": "Árvore nativa da Mata Atlântica, cuja madeira avermelhada foi o primeiro produto explorado pelos portugueses no Brasil.",
+        "variantes": [
+          "Paubrasilia echinata",
+          "Pau-pernambuco"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pau-brasil"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Por uma lei federal de 1978, o pau-brasil recebeu que título oficial?",
+      "resposta": "Árvore nacional",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pau-brasil"
+      ],
+      "distratores": [
+        "Patrimônio da humanidade",
+        "Madeira imperial",
+        "Flor nacional"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "orquidea",
+        "nome": "Orquídea",
+        "descricao": "Planta da família Orchidaceae, uma das maiores famílias de plantas com flores",
+        "variantes": [
+          "Orchidaceae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Orchid"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "As sementes das orquídeas são finas como poeira e quase não têm reservas. Na natureza, para germinar, elas dependem de quê?",
+      "resposta": "De fungos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Orchid_mycorrhiza",
+        "https://en.wikipedia.org/wiki/Orchid"
+      ],
+      "distratores": [
+        "De fogo",
+        "De passar por aves",
+        "De luz intensa"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "maca",
+        "nome": "Maçã",
+        "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+        "variantes": [
+          "Malus domestica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apple"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas frutas pertence à mesma família botânica da rosa?",
+      "resposta": "Maçã",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rosaceae"
+      ],
+      "distratores": [
+        "Uva",
+        "Banana",
+        "Laranja"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "tulipomania",
+        "nome": "Tulipomania",
+        "descricao": "Bolha especulativa com bulbos de tulipa ocorrida nos Países Baixos",
+        "variantes": [
+          "Tulip mania",
+          "Febre das tulipas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tulip_mania"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Na tulipomania, as tulipas mais caras tinham pétalas rajadas, como chamas. O que causava essas listras?",
+      "resposta": "Um vírus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tulip_breaking_virus",
+        "https://en.wikipedia.org/wiki/Tulip_mania"
+      ],
+      "distratores": [
+        "Enxerto de bulbos",
+        "Adubo de cinzas",
+        "Cruzamento com íris"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "tulipa",
+        "nome": "Tulipa",
+        "descricao": "Gênero de plantas bulbosas de flores vistosas, Tulipa, nativo da Ásia Central e da Turquia",
+        "variantes": [
+          "Tulipa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tulip"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Antes de virar símbolo da Holanda, a tulipa era cultivada e admirada em que império, de onde chegou à Europa Ocidental no século dezesseis?",
+      "resposta": "Império Otomano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tulip"
+      ],
+      "distratores": [
+        "Império Russo",
+        "Império Mogol",
+        "Sacro Império Romano"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "bambu",
+        "nome": "Bambu",
+        "descricao": "Planta da subfamília Bambusoideae, gramínea de colmos lenhosos e articulados.",
+        "variantes": [
+          "Bambusoideae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bamboo"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Algumas espécies de bambu estão entre as plantas que crescem mais depressa. Em um só dia, quanto elas podem crescer?",
+      "resposta": "Quase um metro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bamboo"
+      ],
+      "distratores": [
+        "Um centímetro",
+        "Dez centímetros",
+        "Cinco metros"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "bambu",
+        "nome": "Bambu",
+        "descricao": "Planta da subfamília Bambusoideae, gramínea de colmos lenhosos e articulados.",
+        "variantes": [
+          "Bambusoideae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bamboo"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O que o bambu tem em comum com o arroz, o trigo e a cana-de-açúcar?",
+      "resposta": "São gramíneas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bamboo",
+        "https://en.wikipedia.org/wiki/Poaceae"
+      ],
+      "distratores": [
+        "São palmeiras",
+        "São leguminosas",
+        "São trepadeiras"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "baoba",
+        "nome": "Baobá",
+        "descricao": "Árvore do gênero Adansonia, de tronco muito largo, típica da África e de Madagascar",
+        "variantes": [
+          "Adansonia",
+          "Embondeiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Adansonia"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O tronco enorme e bojudo do baobá funciona como reservatório de quê, para a árvore atravessar a estação seca?",
+      "resposta": "Água",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adansonia"
+      ],
+      "distratores": [
+        "Açúcar",
+        "Ar",
+        "Resina"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "caju",
+        "nome": "Caju",
+        "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+        "variantes": [
+          "Cajueiro",
+          "Anacardium occidentale"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cashew"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A castanha-de-caju nunca é vendida crua dentro da casca, só depois de torrada ou processada. Por quê?",
+      "resposta": "Óleo cáustico na casca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cashew"
+      ],
+      "distratores": [
+        "Crua tem cianeto",
+        "Estraga em horas",
+        "Crua é amarga demais"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "manga",
+        "nome": "Manga",
+        "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+        "variantes": [
+          "Mangifera indica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mango"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas frutas tropicais tem o título de fruta nacional da Índia?",
+      "resposta": "Manga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mango"
+      ],
+      "distratores": [
+        "Banana",
+        "Jaca",
+        "Coco"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "morango",
+        "nome": "Morango",
+        "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+        "variantes": [
+          "Fragaria × ananassa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Garden_strawberry"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O morango cultivado hoje surgiu na França, no século dezoito, do cruzamento de uma espécie norte-americana com outra trazida de que país?",
+      "resposta": "Chile",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Garden_strawberry"
+      ],
+      "distratores": [
+        "Peru",
+        "Argentina",
+        "México"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "tomate",
+        "nome": "Tomate",
+        "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+        "variantes": [
+          "Solanum lycopersicum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tomato"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1893, numa disputa sobre impostos de importação, que instituição americana decidiu que o tomate seria tratado como hortaliça, e não como fruta?",
+      "resposta": "Suprema Corte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nix_v._Hedden"
+      ],
+      "distratores": [
+        "Congresso americano",
+        "Casa Branca",
+        "Departamento de Agricultura"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "batata",
+        "nome": "Batata",
+        "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+        "variantes": [
+          "Solanum tuberosum",
+          "Batata-inglesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Potato"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Batatas expostas à luz ficam esverdeadas e acumulam uma substância tóxica, por isso as partes verdes devem ser descartadas. Que substância é essa?",
+      "resposta": "Solanina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Solanine",
+        "https://en.wikipedia.org/wiki/Potato"
+      ],
+      "distratores": [
+        "Ricina",
+        "Nicotina",
+        "Capsaicina"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "batata",
+        "nome": "Batata",
+        "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+        "variantes": [
+          "Solanum tuberosum",
+          "Batata-inglesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Potato"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Botanicamente, qual destes alimentos que crescem debaixo da terra é um caule, e não uma raiz?",
+      "resposta": "Batata",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tuber",
+        "https://en.wikipedia.org/wiki/Potato"
+      ],
+      "distratores": [
+        "Cenoura",
+        "Mandioca",
+        "Beterraba"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "champignon",
+        "nome": "Champignon",
+        "descricao": "Cogumelo cultivado branco, Agaricus bisporus, o mais consumido no mundo.",
+        "variantes": [
+          "Agaricus bisporus",
+          "Cogumelo-de-paris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Agaricus_bisporus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O cogumelo portobello, grande e marrom, tem que relação com o champignon branco dos supermercados?",
+      "resposta": "Mesma espécie, mais madura",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Agaricus_bisporus"
+      ],
+      "distratores": [
+        "Parasita do champignon",
+        "Híbrido com shiitake",
+        "Parente venenoso"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "shiitake",
+        "nome": "Shiitake",
+        "descricao": "Cogumelo comestível marrom do Leste Asiático, Lentinula edodes.",
+        "variantes": [
+          "Lentinula edodes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shiitake"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em japonês, shiitake quer dizer cogumelo do shii. O que é o shii?",
+      "resposta": "Uma árvore",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shiitake"
+      ],
+      "distratores": [
+        "Uma montanha",
+        "Uma cidade",
+        "Um imperador"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "trufa",
+        "nome": "Trufa",
+        "descricao": "Corpo de frutificação subterrâneo de fungos do gênero Tuber, muito valorizado na culinária",
+        "variantes": [
+          "Tuber"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Truffle"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre as trufas, fungos subterrâneos de luxo, qual tipo costuma alcançar os preços mais altos?",
+      "resposta": "Trufa-branca de Alba",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tuber_magnatum"
+      ],
+      "distratores": [
+        "Trufa-negra do Périgord",
+        "Trufa-de-verão",
+        "Trufa-do-deserto"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "levedura_de_cerveja",
+        "nome": "Levedura de cerveja",
+        "descricao": "Fungo unicelular Saccharomyces cerevisiae, usado na fermentação do pão, do vinho e da cerveja",
+        "variantes": [
+          "Saccharomyces cerevisiae",
+          "Fermento biológico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Ao fermentar os açúcares da massa, a levedura libera um gás que forma bolhas e faz o pão crescer. Que gás é esse?",
+      "resposta": "Gás carbônico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+      ],
+      "distratores": [
+        "Oxigênio",
+        "Nitrogênio",
+        "Metano"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "dioneia",
+        "nome": "Dioneia",
+        "descricao": "Planta carnívora Dionaea muscipula, que captura insetos com folhas em forma de armadilha",
+        "variantes": [
+          "Dionaea muscipula",
+          "Papa-moscas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Venus_flytrap"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Na natureza, a dioneia só existe numa pequena região de pântanos e campos úmidos de que país?",
+      "resposta": "Estados Unidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Venus_flytrap"
+      ],
+      "distratores": [
+        "Brasil",
+        "Austrália",
+        "Indonésia"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "erva_mate",
+        "nome": "Erva-mate",
+        "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+        "variantes": [
+          "Ilex paraguariensis",
+          "Mate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yerba_mate"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A erva-mate do chimarrão é do mesmo gênero botânico de que arbusto de frutinhos vermelhos, usado na decoração de Natal?",
+      "resposta": "Azevinho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ilex",
+        "https://en.wikipedia.org/wiki/Yerba_mate"
+      ],
+      "distratores": [
+        "Visco",
+        "Bico-de-papagaio",
+        "Pinheiro"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Açaí",
+        "descricao": "Palmeira amazônica Euterpe oleracea, o açaizeiro, e seu fruto roxo-escuro consumido em polpa.",
+        "variantes": [
+          "Açaizeiro",
+          "Euterpe oleracea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Euterpe_oleracea",
+          "https://pt.wikipedia.org/wiki/A%C3%A7a%C3%AD"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Além do fruto roxo, o açaizeiro fornece outro alimento, tirado do miolo macio do topo do caule. Qual?",
+      "resposta": "Palmito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euterpe_oleracea"
+      ],
+      "distratores": [
+        "Pinhão",
+        "Coco verde",
+        "Polvilho"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Açaí",
+        "descricao": "Palmeira amazônica Euterpe oleracea, o açaizeiro, e seu fruto roxo-escuro consumido em polpa.",
+        "variantes": [
+          "Açaizeiro",
+          "Euterpe oleracea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Euterpe_oleracea",
+          "https://pt.wikipedia.org/wiki/A%C3%A7a%C3%AD"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Segundo a explicação mais citada, o nome açaí vem do tupi. O que ele significa?",
+      "resposta": "Fruta que chora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euterpe_oleracea"
+      ],
+      "distratores": [
+        "Fruta roxa",
+        "Palmeira do rio",
+        "Comida de guerreiro"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Abacate",
+        "descricao": "Fruto do abacateiro, Persea americana, árvore da família das lauráceas nativa do México e da América Central.",
+        "variantes": [
+          "Persea americana",
+          "Abacateiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avocado"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O abacate tem uma particularidade entre as frutas: ele só amadurece de verdade depois de quê?",
+      "resposta": "Ser colhido",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avocado"
+      ],
+      "distratores": [
+        "Cair sozinho",
+        "Pegar sol forte",
+        "Passar uma geada"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "araucaria",
+        "nome": "Araucária",
+        "descricao": "Árvore Araucaria angustifolia, o pinheiro-do-paraná, típica do Sul do Brasil",
+        "variantes": [
+          "Pinheiro-do-paraná",
+          "Araucaria angustifolia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Araucaria_angustifolia"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estas árvores brasileiras, qual é uma gimnosperma, que forma sementes sem produzir frutos?",
+      "resposta": "Araucária",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Araucaria_angustifolia",
+        "https://en.wikipedia.org/wiki/Gymnosperm"
+      ],
+      "distratores": [
+        "Ipê-amarelo",
+        "Jabuticabeira",
+        "Pau-brasil"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "araucaria",
+        "nome": "Araucária",
+        "descricao": "Árvore Araucaria angustifolia, o pinheiro-do-paraná, típica do Sul do Brasil",
+        "variantes": [
+          "Pinheiro-do-paraná",
+          "Araucaria angustifolia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Araucaria_angustifolia"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que ave, símbolo do Paraná, ajuda a espalhar a araucária ao enterrar pinhões e esquecer alguns deles?",
+      "resposta": "Gralha-azul",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gralha-azul"
+      ],
+      "distratores": [
+        "Sabiá-laranjeira",
+        "Tucano-toco",
+        "Quero-quero"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "lotus_2",
+        "nome": "Lótus",
+        "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+        "variantes": [
+          "Nelumbo nucifera",
+          "Flor-de-lótus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nelumbo_nucifera"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "As folhas do lótus continuam limpas mesmo crescendo na lama, propriedade imitada em tintas e tecidos. Que característica explica isso?",
+      "resposta": "Repelem água e sujeira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lotus_effect"
+      ],
+      "distratores": [
+        "Soltam óleo",
+        "Absorvem a lama",
+        "Trocam de pele"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "pimenta",
+        "nome": "Pimenta",
+        "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+        "variantes": [
+          "Capsicum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chili_pepper"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Ao contrário do que muita gente pensa, a maior parte da ardência da pimenta fica em qual parte do fruto?",
+      "resposta": "Placenta (parte branca)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Capsaicin"
+      ],
+      "distratores": [
+        "Sementes",
+        "Casca",
+        "Cabinho"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "pequi_2",
+        "nome": "Pequi",
+        "descricao": "Árvore do Cerrado Caryocar brasiliense, de flores com muitos estames e fruto comestível.",
+        "variantes": [
+          "Caryocar brasiliense",
+          "Piqui"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Caryocar_brasiliense"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Quem morde com força o caroço do pequi acaba se machucando. O que existe escondido sob a polpa?",
+      "resposta": "Espinhos finos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caryocar_brasiliense",
+        "https://pt.wikipedia.org/wiki/Pequi"
+      ],
+      "distratores": [
+        "Pelos urticantes",
+        "Seiva cáustica",
+        "Cristais de cálcio"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "mamao",
+        "nome": "Mamão",
+        "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+        "variantes": [
+          "Papaia",
+          "Carica papaya"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Papaya"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Alguns mamoeiros florescem a vida inteira e nunca dão um único fruto. Qual é o motivo?",
+      "resposta": "São plantas macho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Papaya"
+      ],
+      "distratores": [
+        "Falta de polinizadores",
+        "Excesso de adubo",
+        "Solo muito ácido"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "cupuacu",
+        "nome": "Cupuaçu",
+        "descricao": "Fruta amazônica de polpa branca e ácida, usada em sucos, doces e sorvetes",
+        "variantes": [
+          "Theobroma grandiflorum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Theobroma_grandiflorum"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O cupuaçu é do mesmo gênero botânico de qual planta, o que permite fazer com suas sementes um doce parecido com chocolate?",
+      "resposta": "Cacau",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Theobroma_grandiflorum"
+      ],
+      "distratores": [
+        "Guaraná",
+        "Açaí",
+        "Castanha-do-pará"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "acerola",
+        "nome": "Acerola",
+        "descricao": "Fruta pequena e vermelha da Malpighia emarginata, muito cultivada no Nordeste brasileiro.",
+        "variantes": [
+          "Malpighia emarginata",
+          "Cereja-das-antilhas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Malpighia_emarginata"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Comparando o mesmo peso de polpa, qual destas frutas tem, de longe, mais vitamina C?",
+      "resposta": "Acerola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Malpighia_emarginata"
+      ],
+      "distratores": [
+        "Laranja",
+        "Goiaba",
+        "Limão"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "cogumelo_ostra",
+        "nome": "Cogumelo-ostra",
+        "descricao": "Cogumelo comestível Pleurotus ostreatus, em forma de concha, que cresce em troncos.",
+        "variantes": [
+          "Pleurotus ostreatus",
+          "Shimeji"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pleurotus_ostreatus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O cogumelo-ostra, comestível, também é um caçador: seus filamentos paralisam e digerem que pequenos animais?",
+      "resposta": "Nematoides",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pleurotus_ostreatus"
+      ],
+      "distratores": [
+        "Formigas",
+        "Minhocas",
+        "Pulgões"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Chapéu-da-morte",
+        "descricao": "Cogumelo extremamente venenoso Amanita phalloides, de chapéu esverdeado, responsável pela maioria das mortes por envenenamento com cogumelos.",
+        "variantes": [
+          "Amanita phalloides",
+          "Cicuta-verde"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amanita_phalloides"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Plantas e Fungos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes cogumelos responde pela maioria das mortes por envenenamento com cogumelos no mundo?",
+      "resposta": "Chapéu-da-morte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amanita_phalloides"
+      ],
+      "distratores": [
+        "Amanita-mata-moscas",
+        "Cogumelo-mágico",
+        "Cogumelo-ostra"
+      ]
+    }
+  ]
+}

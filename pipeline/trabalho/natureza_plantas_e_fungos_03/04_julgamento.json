@@ -1,0 +1,199 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Açaí",
+        "descricao": "Palmeira amazônica Euterpe oleracea, o açaizeiro, e seu fruto roxo-escuro consumido em polpa.",
+        "variantes": [
+          "Açaizeiro",
+          "Euterpe oleracea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acai_na_tigela",
+          "nome": "Açaí na tigela",
+          "descricao": "Lanche brasileiro de polpa de açaí congelada e batida, servida em tigela com granola e banana.",
+          "variantes": [
+            "Açaí",
+            "Açaí bowl"
+          ]
+        },
+        {
+          "id": "acai",
+          "nome": "Açaí",
+          "descricao": "Palmeira amazônica Euterpe oleracea, cultivada pelo fruto roxo-escuro e pelo palmito.",
+          "variantes": [
+            "Açaizeiro",
+            "Euterpe oleracea",
+            "Açaí palm"
+          ]
+        },
+        {
+          "id": "acaro",
+          "nome": "Ácaro",
+          "descricao": "Pequeno aracnídeo de oito patas, geralmente com menos de um milímetro.",
+          "variantes": [
+            "Acari",
+            "Mite"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "gotcha_clipe",
+          "nome": "GOTCHA! (clipe)",
+          "descricao": "Clipe animado de 2020 que relembra as aventuras dos jogos Pokémon, embalado pela música Acacia.",
+          "variantes": [
+            "GOTCHA!",
+            "Acacia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Abacate",
+        "descricao": "Fruto do abacateiro, Persea americana, árvore da família das lauráceas nativa do México e da América Central.",
+        "variantes": [
+          "Persea americana",
+          "Abacateiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abacate",
+          "nome": "Abacate",
+          "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+          "variantes": [
+            "Persea americana"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "pika_americana",
+          "nome": "Pika-americana",
+          "descricao": "Pequeno lagomorfo herbívoro (Ochotona princeps) das montanhas do oeste da América do Norte.",
+          "variantes": [
+            "Ochotona princeps",
+            "American pika",
+            "Pica-americana"
+          ]
+        },
+        {
+          "id": "afoxe_instrumento",
+          "nome": "Afoxé (instrumento)",
+          "descricao": "Instrumento de percussão afro-brasileiro formado por uma cabaça envolta em rede de contas ou sementes.",
+          "variantes": [
+            "Afoxé",
+            "Cabaça",
+            "Cabaça afoxé"
+          ]
+        },
+        {
+          "id": "cabaca",
+          "nome": "Cabaça",
+          "descricao": "Fruto da trepadeira Lagenaria siceraria, cuja casca seca vira recipiente e instrumento musical.",
+          "variantes": [
+            "Porongo",
+            "Cuia",
+            "Lagenaria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Chapéu-da-morte",
+        "descricao": "Cogumelo extremamente venenoso Amanita phalloides, de chapéu esverdeado, responsável pela maioria das mortes por envenenamento com cogumelos.",
+        "variantes": [
+          "Amanita phalloides",
+          "Cicuta-verde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vale_da_morte",
+          "nome": "Vale da Morte",
+          "descricao": "Vale desértico do oeste dos Estados Unidos, conhecido pelo calor extremo",
+          "variantes": [
+            "Death Valley"
+          ]
+        },
+        {
+          "id": "death_note",
+          "nome": "Death Note",
+          "descricao": "Mangá e anime de Tsugumi Ohba e Takeshi Obata sobre um caderno que mata quem tem o nome escrito nele.",
+          "variantes": [
+            "Caderno da Morte"
+          ]
+        },
+        {
+          "id": "cha",
+          "nome": "Chá",
+          "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+          "variantes": [
+            "Chá preto",
+            "Chá verde"
+          ]
+        },
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "cabo_verde",
+          "nome": "Cabo Verde",
+          "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+          "variantes": [
+            "Cape Verde"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "acai",
+      "motivo": "Ambas descrevem a palmeira Euterpe oleracea e seu fruto, com mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "abacate",
+      "motivo": "Ambas são o fruto da Persea americana."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cogumelo Amanita phalloides."
+    }
+  ]
+}

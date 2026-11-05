@@ -1,0 +1,1109 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Para a botânica, qual destas frutas é classificada como baga?",
+        "resposta": "Banana"
+      },
+      "existentes": [
+        {
+          "id": "q02664",
+          "pergunta": "As bananas são levemente radioativas. Isso acontece por causa de qual elemento químico presente nelas?",
+          "resposta": "Potássio"
+        },
+        {
+          "id": "q04354",
+          "pergunta": "Do ponto de vista botânico, esta fruta é classificada como que tipo de fruto?",
+          "resposta": "Baga"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A bananeira parece uma árvore, mas não tem tronco de madeira. Do que é formado o seu falso tronco?",
+        "resposta": "Bainhas das folhas"
+      },
+      "existentes": [
+        {
+          "id": "q02664",
+          "pergunta": "As bananas são levemente radioativas. Isso acontece por causa de qual elemento químico presente nelas?",
+          "resposta": "Potássio"
+        },
+        {
+          "id": "q04354",
+          "pergunta": "Do ponto de vista botânico, esta fruta é classificada como que tipo de fruto?",
+          "resposta": "Baga"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Como na jabuticabeira, as flores e os frutos do cacaueiro nascem num lugar curioso da planta. Onde?",
+        "resposta": "Direto no tronco"
+      },
+      "existentes": [
+        {
+          "id": "q02659",
+          "pergunta": "Theobroma, o nome científico do cacau, significa em grego alimento de quem?",
+          "resposta": "Dos deuses"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O chocolate branco não leva o pó escuro do cacau. Que produto tirado das sementes de cacau ele usa?",
+        "resposta": "Manteiga de cacau"
+      },
+      "existentes": [
+        {
+          "id": "q02659",
+          "pergunta": "Theobroma, o nome científico do cacau, significa em grego alimento de quem?",
+          "resposta": "Dos deuses"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Por causa da cor vermelha quando maduro, o fruto do cafeeiro recebe que nome entre os produtores?",
+        "resposta": "Cereja"
+      },
+      "existentes": [
+        {
+          "id": "q02668",
+          "pergunta": "Por que o cafeeiro produz cafeína nas folhas e nas sementes?",
+          "resposta": "Para se defender de insetos"
+        },
+        {
+          "id": "q02669",
+          "pergunta": "Segundo a lenda, um pastor notou suas cabras agitadas depois de comerem frutos de café. Em que país africano isso teria acontecido?",
+          "resposta": "Etiópia"
+        },
+        {
+          "id": "q06075",
+          "pergunta": "Segundo a tradição, que militar trouxe da Guiana Francesa, em 1727, as primeiras mudas de café para o Brasil?",
+          "resposta": "Francisco de Melo Palheta"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Qual destes tipos de café tem grãos com o maior teor de cafeína?",
+        "resposta": "Robusta (conilon)"
+      },
+      "existentes": [
+        {
+          "id": "q02668",
+          "pergunta": "Por que o cafeeiro produz cafeína nas folhas e nas sementes?",
+          "resposta": "Para se defender de insetos"
+        },
+        {
+          "id": "q02669",
+          "pergunta": "Segundo a lenda, um pastor notou suas cabras agitadas depois de comerem frutos de café. Em que país africano isso teria acontecido?",
+          "resposta": "Etiópia"
+        },
+        {
+          "id": "q06075",
+          "pergunta": "Segundo a tradição, que militar trouxe da Guiana Francesa, em 1727, as primeiras mudas de café para o Brasil?",
+          "resposta": "Francisco de Melo Palheta"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que ingrediente, extraído da mandioca, é a base da massa do pão de queijo mineiro?",
+        "resposta": "Polvilho"
+      },
+      "existentes": [
+        {
+          "id": "q00190",
+          "pergunta": "No Rio de Janeiro ela é chamada de aipim. Que outro nome a mandioca recebe na maior parte do Nordeste?",
+          "resposta": "Macaxeira"
+        },
+        {
+          "id": "q02663",
+          "pergunta": "O que torna a mandioca-brava perigosa quando comida crua?",
+          "resposta": "Ela libera cianeto"
+        },
+        {
+          "id": "q06084",
+          "pergunta": "Segundo uma lenda tupi, o nome mandioca vem de uma menina indígena enterrada dentro da oca, onde a planta brotou. Como ela se chamava?",
+          "resposta": "Mani"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O milho descende do teosinto, um capim selvagem bem diferente dele, domesticado há cerca de nove mil anos em que país atual?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q04176",
+          "pergunta": "No topo desta gramínea cultivada pelos grãos, há uma estrutura que produz o pólen. Como ela se chama?",
+          "resposta": "Pendão"
+        },
+        {
+          "id": "q05981",
+          "pergunta": "Que planta cultivada é esta?",
+          "resposta": "Milho"
+        },
+        {
+          "id": "q08597",
+          "pergunta": "A partir de uma gramínea selvagem chamada teosinto, povos indígenas domesticaram o milho há cerca de nove mil anos em que país atual?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Cada fio do cabelo do milho sai de uma flor feminina da espiga. Depois de polinizado, cada fio dá origem a quê?",
+        "resposta": "Um grão"
+      },
+      "existentes": [
+        {
+          "id": "q04176",
+          "pergunta": "No topo desta gramínea cultivada pelos grãos, há uma estrutura que produz o pólen. Como ela se chama?",
+          "resposta": "Pendão"
+        },
+        {
+          "id": "q05981",
+          "pergunta": "Que planta cultivada é esta?",
+          "resposta": "Milho"
+        },
+        {
+          "id": "q08597",
+          "pergunta": "A partir de uma gramínea selvagem chamada teosinto, povos indígenas domesticaram o milho há cerca de nove mil anos em que país atual?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O que parece ser uma única grande flor amarela no girassol é, na verdade, formado por quê?",
+        "resposta": "Centenas de florzinhas"
+      },
+      "existentes": [
+        {
+          "id": "q02695",
+          "pergunta": "Os girassóis jovens acompanham o sol durante o dia, mas os adultos, já floridos, ficam virados para que ponto cardeal?",
+          "resposta": "Leste"
+        },
+        {
+          "id": "q03311",
+          "pergunta": "As espirais de sementes no miolo do girassol costumam aparecer em quantidades que pertencem a qual sequência numérica famosa?",
+          "resposta": "Fibonacci"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "As sementes no miolo do girassol formam espirais cujas quantidades seguem que famosa sequência da matemática?",
+        "resposta": "Sequência de Fibonacci"
+      },
+      "existentes": [
+        {
+          "id": "q02695",
+          "pergunta": "Os girassóis jovens acompanham o sol durante o dia, mas os adultos, já floridos, ficam virados para que ponto cardeal?",
+          "resposta": "Leste"
+        },
+        {
+          "id": "q03311",
+          "pergunta": "As espirais de sementes no miolo do girassol costumam aparecer em quantidades que pertencem a qual sequência numérica famosa?",
+          "resposta": "Fibonacci"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Castanheiras-do-pará plantadas longe da floresta produzem poucas castanhas. Isso acontece porque suas flores dependem de quais polinizadores?",
+        "resposta": "Abelhas grandes da mata"
+      },
+      "existentes": [
+        {
+          "id": "q06092",
+          "pergunta": "Que roedor amazônico consegue roer o duríssimo ouriço da castanheira-do-pará e, ao enterrar as sementes, acaba plantando novas árvores?",
+          "resposta": "Cutia"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "A castanha-do-pará concentra tanto de um mineral que se recomenda comer só poucas por dia. Que mineral é esse?",
+        "resposta": "Selênio"
+      },
+      "existentes": [
+        {
+          "id": "q06092",
+          "pergunta": "Que roedor amazônico consegue roer o duríssimo ouriço da castanheira-do-pará e, ao enterrar as sementes, acaba plantando novas árvores?",
+          "resposta": "Cutia"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Qual destas sementes tem a maior concentração de cafeína?",
+        "resposta": "Guaraná"
+      },
+      "existentes": [
+        {
+          "id": "q00228",
+          "pergunta": "O que a semente amazônica do guaraná tem em comum com o grão de café, e em concentração até maior?",
+          "resposta": "Cafeína"
+        },
+        {
+          "id": "q06096",
+          "pergunta": "Segundo a lenda dos Sateré-Mawé, o fruto do guaraná, vermelho com miolo preto e branco, nasceu de que parte do corpo de um menino morto?",
+          "resposta": "Dos olhos"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "A face de baixo da folha gigante da vitória-régia é protegida contra peixes e outros herbívoros por quê?",
+        "resposta": "Espinhos"
+      },
+      "existentes": [
+        {
+          "id": "q02676",
+          "pergunta": "Que famoso prédio de ferro e vidro, erguido em Londres em 1851, teve a estrutura inspirada nas nervuras da folha da vitória-régia?",
+          "resposta": "Palácio de Cristal"
+        },
+        {
+          "id": "q06099",
+          "pergunta": "A flor da vitória-régia se abre ao anoitecer, branca e perfumada. Na segunda noite, ela volta a se abrir com que cor?",
+          "resposta": "Rosa"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Por uma lei federal de 1978, o pau-brasil recebeu que título oficial?",
+        "resposta": "Árvore nacional"
+      },
+      "existentes": [
+        {
+          "id": "q00142",
+          "pergunta": "Uma das explicações para o nome da árvore pau-brasil diz que sua madeira tinha a cor de quê?",
+          "resposta": "Brasa"
+        },
+        {
+          "id": "q02651",
+          "pergunta": "A madeira do pau-brasil, chamada de pau-pernambuco entre músicos, é usada para fazer qual peça dos violinos e violoncelos?",
+          "resposta": "Os arcos"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "As sementes das orquídeas são finas como poeira e quase não têm reservas. Na natureza, para germinar, elas dependem de quê?",
+        "resposta": "De fungos"
+      },
+      "existentes": [
+        {
+          "id": "q02656",
+          "pergunta": "O nome orquídea vem de uma palavra grega ligada ao formato dos dois tubérculos de algumas orquídeas. O que ela significa?",
+          "resposta": "Testículo"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Qual destas frutas pertence à mesma família botânica da rosa?",
+        "resposta": "Maçã"
+      },
+      "existentes": [
+        {
+          "id": "q01851",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Maçã"
+        },
+        {
+          "id": "q15412",
+          "pergunta": "Em que região do mundo se originou a árvore desta fruta?",
+          "resposta": "Ásia Central"
+        },
+        {
+          "id": "q18122",
+          "pergunta": "Por que a maçã cortada fica escura depois de alguns minutos exposta ao ar?",
+          "resposta": "Oxidação por enzimas da fruta"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Na tulipomania, as tulipas mais caras tinham pétalas rajadas, como chamas. O que causava essas listras?",
+        "resposta": "Um vírus"
+      },
+      "existentes": [
+        {
+          "id": "q02691",
+          "pergunta": "A febre especulativa das tulipas na Holanda, lembrada como uma das primeiras bolhas financeiras da história, aconteceu em que século?",
+          "resposta": "Século dezessete"
+        },
+        {
+          "id": "q06842",
+          "pergunta": "Na década de 1630, os Países Baixos viveram uma bolha especulativa em que os bulbos de que flor chegaram a valer fortunas?",
+          "resposta": "Tulipa"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Antes de virar símbolo da Holanda, a tulipa era cultivada e admirada em que império, de onde chegou à Europa Ocidental no século dezesseis?",
+        "resposta": "Império Otomano"
+      },
+      "existentes": [
+        {
+          "id": "q02653",
+          "pergunta": "Segundo a explicação mais aceita, o nome tulipa chegou ao Ocidente pelo turco e vem de uma palavra persa para que peça usada na cabeça?",
+          "resposta": "Turbante"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Algumas espécies de bambu estão entre as plantas que crescem mais depressa. Num único dia, quanto a mais rápida delas chega a crescer?",
+        "resposta": "Quase um metro"
+      },
+      "existentes": [
+        {
+          "id": "q02839",
+          "pergunta": "Que planta é esta?",
+          "resposta": "Bambu"
+        },
+        {
+          "id": "q06100",
+          "pergunta": "O bambu japonês Phyllostachys bambusoides floresce ao mesmo tempo em vários países, em intervalos de cerca de quantos anos?",
+          "resposta": "Cento e vinte anos"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O que o bambu tem em comum com o arroz, o trigo e a cana-de-açúcar?",
+        "resposta": "São gramíneas"
+      },
+      "existentes": [
+        {
+          "id": "q02839",
+          "pergunta": "Que planta é esta?",
+          "resposta": "Bambu"
+        },
+        {
+          "id": "q06100",
+          "pergunta": "O bambu japonês Phyllostachys bambusoides floresce ao mesmo tempo em vários países, em intervalos de cerca de quantos anos?",
+          "resposta": "Cento e vinte anos"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "O tronco enorme e bojudo do baobá funciona como reservatório de quê, para a árvore atravessar a estação seca?",
+        "resposta": "Água"
+      },
+      "existentes": [
+        {
+          "id": "q02680",
+          "pergunta": "Em que livro francês o protagonista arranca brotos de baobá para que eles não destruam seu minúsculo asteroide?",
+          "resposta": "O Pequeno Príncipe"
+        },
+        {
+          "id": "q06065",
+          "pergunta": "A Avenida dos Baobás, uma estrada de terra com baobás gigantes enfileirados dos dois lados, é cartão-postal de que país?",
+          "resposta": "Madagascar"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "A castanha-de-caju nunca é vendida crua dentro da casca, só depois de torrada ou processada. Por quê?",
+        "resposta": "Óleo cáustico na casca"
+      },
+      "existentes": [
+        {
+          "id": "q01854",
+          "pergunta": "A árvore que dá esta fruta é originária de qual região do Brasil?",
+          "resposta": "Nordeste"
+        },
+        {
+          "id": "q02687",
+          "pergunta": "No caju, a parte suculenta é um pseudofruto. Qual parte é o verdadeiro fruto da planta?",
+          "resposta": "A castanha"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Qual destas frutas tropicais tem o título de fruta nacional da Índia?",
+        "resposta": "Manga"
+      },
+      "existentes": [
+        {
+          "id": "q01850",
+          "pergunta": "Que fruta tropical é esta, vendida nestas bacias?",
+          "resposta": "Manga"
+        },
+        {
+          "id": "q02679",
+          "pergunta": "A casca da manga pode causar alergia de pele porque contém uma substância também presente na hera venenosa. Que substância é essa?",
+          "resposta": "Urushiol"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "O morango cultivado hoje surgiu na França, no século dezoito, do cruzamento de uma espécie norte-americana com outra trazida de que país?",
+        "resposta": "Chile"
+      },
+      "existentes": [
+        {
+          "id": "q02688",
+          "pergunta": "Botanicamente, o que são os pontinhos na superfície do morango que parecem sementes?",
+          "resposta": "Os frutos verdadeiros, chamados aquênios"
+        },
+        {
+          "id": "q18099",
+          "pergunta": "O morango, a maçã e a pera pertencem à mesma família botânica de qual flor famosa?",
+          "resposta": "Rosa"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Em 1893, numa disputa sobre impostos de importação, que instituição americana decidiu que o tomate seria tratado como hortaliça, e não como fruta?",
+        "resposta": "Suprema Corte"
+      },
+      "existentes": [
+        {
+          "id": "q01853",
+          "pergunta": "Que fruta é esta, ainda presa ao pé?",
+          "resposta": "Tomate"
+        },
+        {
+          "id": "q06058",
+          "pergunta": "Na Itália, o tomate é chamado de pomodoro. O que essa palavra significa literalmente?",
+          "resposta": "Maçã de ouro"
+        },
+        {
+          "id": "q06134",
+          "pergunta": "Levado das Américas para a Europa, o tomate foi por muito tempo cultivado apenas como planta ornamental. Por que muitos europeus evitavam comê-lo?",
+          "resposta": "Achavam que era venenoso"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Batatas expostas à luz ficam esverdeadas e acumulam uma substância tóxica, por isso as partes verdes devem ser descartadas. Que substância é essa?",
+        "resposta": "Solanina"
+      },
+      "existentes": [
+        {
+          "id": "q02693",
+          "pergunta": "A batata, nativa dos Andes, foi levada para a Europa pelos espanhóis em que século?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q06107",
+          "pergunta": "Antes de conquistar a Europa, a batata foi domesticada há milhares de anos por povos de qual cordilheira sul-americana?",
+          "resposta": "Andes"
+        },
+        {
+          "id": "q18097",
+          "pergunta": "Na botânica, o que a batata, o tomate, a berinjela e o pimentão têm em comum?",
+          "resposta": "Família das solanáceas"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Botanicamente, qual destes alimentos que crescem debaixo da terra é um caule, e não uma raiz?",
+        "resposta": "Batata"
+      },
+      "existentes": [
+        {
+          "id": "q02693",
+          "pergunta": "A batata, nativa dos Andes, foi levada para a Europa pelos espanhóis em que século?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q06107",
+          "pergunta": "Antes de conquistar a Europa, a batata foi domesticada há milhares de anos por povos de qual cordilheira sul-americana?",
+          "resposta": "Andes"
+        },
+        {
+          "id": "q18097",
+          "pergunta": "Na botânica, o que a batata, o tomate, a berinjela e o pimentão têm em comum?",
+          "resposta": "Família das solanáceas"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "O cogumelo portobello, grande e marrom, tem que relação com o champignon branco dos supermercados?",
+        "resposta": "Mesma espécie, mais madura"
+      },
+      "existentes": [
+        {
+          "id": "q14664",
+          "pergunta": "Que cogumelo é este?",
+          "resposta": "Champignon"
+        },
+        {
+          "id": "q17595",
+          "pergunta": "Que cogumelo extremamente tóxico já foi confundido com este?",
+          "resposta": "Amanita phalloides (chapéu-da-morte)"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Em japonês, shiitake quer dizer cogumelo do shii. O que é o shii?",
+        "resposta": "Uma árvore"
+      },
+      "existentes": [
+        {
+          "id": "q14662",
+          "pergunta": "Os registros escritos mais antigos do cultivo deste cogumelo vêm de que país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q15268",
+          "pergunta": "Que cogumelo comestível é este?",
+          "resposta": "Shiitake"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Entre as trufas, fungos subterrâneos de luxo, qual tipo costuma alcançar os preços mais altos?",
+        "resposta": "Trufa-branca de Alba"
+      },
+      "existentes": [
+        {
+          "id": "q02673",
+          "pergunta": "Tradicionalmente, porcas farejam trufas debaixo da terra. As trufas têm um composto parecido com o feromônio sexual de qual animal?",
+          "resposta": "Javali"
+        },
+        {
+          "id": "q09719",
+          "pergunta": "A trufa cresce escondida debaixo da terra. Além de cães treinados, qual animal é tradicionalmente usado para farejá-la?",
+          "resposta": "Porco"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Ao fermentar os açúcares da massa, a levedura libera um gás que forma bolhas e faz o pão crescer. Que gás é esse?",
+        "resposta": "Gás carbônico"
+      },
+      "existentes": [
+        {
+          "id": "q06077",
+          "pergunta": "No século dezenove, que cientista francês demonstrou que a fermentação do vinho e da cerveja é obra de leveduras, fungos microscópicos vivos?",
+          "resposta": "Louis Pasteur"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Na natureza, a dioneia só existe numa pequena região de pântanos e campos úmidos de que país?",
+        "resposta": "Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q02666",
+          "pergunta": "A dioneia, planta carnívora, digere insetos para obter qual nutriente que falta no solo pantanoso onde vive?",
+          "resposta": "Nitrogênio"
+        },
+        {
+          "id": "q02667",
+          "pergunta": "Para a dioneia fechar a armadilha, quantos toques nos seus pelos sensores precisam acontecer em poucos segundos?",
+          "resposta": "Dois"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "A erva-mate do chimarrão é do mesmo gênero botânico de que arbusto de frutinhos vermelhos, usado na decoração de Natal?",
+        "resposta": "Azevinho"
+      },
+      "existentes": [
+        {
+          "id": "q02662",
+          "pergunta": "A palavra mate, da erva do chimarrão, vem do quíchua. O que ela designava originalmente?",
+          "resposta": "A cuia, o recipiente da bebida"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Além do fruto roxo, o açaizeiro fornece outro alimento, tirado do miolo macio do topo do caule. Qual?",
+        "resposta": "Palmito"
+      },
+      "existentes": [
+        {
+          "id": "q17731",
+          "pergunta": "Esta palmeira amazônica dá frutos de que cor, quando maduros?",
+          "resposta": "Roxo-escuro"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Segundo a explicação mais citada, o nome açaí vem do tupi. O que ele significa?",
+        "resposta": "Fruta que chora"
+      },
+      "existentes": [
+        {
+          "id": "q17731",
+          "pergunta": "Esta palmeira amazônica dá frutos de que cor, quando maduros?",
+          "resposta": "Roxo-escuro"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "O abacate tem uma particularidade entre as frutas: ele só amadurece de verdade depois de quê?",
+        "resposta": "Ser colhido"
+      },
+      "existentes": [
+        {
+          "id": "q02767",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Abacate"
+        },
+        {
+          "id": "q09728",
+          "pergunta": "Na botânica, o que o abacate e a canela têm em comum?",
+          "resposta": "Família das lauráceas"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Entre estas árvores brasileiras, qual é uma gimnosperma, que forma sementes sem produzir frutos?",
+        "resposta": "Araucária"
+      },
+      "existentes": [
+        {
+          "id": "q02690",
+          "pergunta": "Botanicamente, o pinhão, comido nas festas juninas do Sul, é que parte da araucária?",
+          "resposta": "A semente"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Que ave, símbolo do Paraná, ajuda a espalhar a araucária ao enterrar pinhões e esquecer alguns deles?",
+        "resposta": "Gralha-azul"
+      },
+      "existentes": [
+        {
+          "id": "q02690",
+          "pergunta": "Botanicamente, o pinhão, comido nas festas juninas do Sul, é que parte da araucária?",
+          "resposta": "A semente"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "As folhas do lótus continuam limpas mesmo crescendo na lama, propriedade imitada em tintas e tecidos. Que característica explica isso?",
+        "resposta": "Repelem água e sujeira"
+      },
+      "existentes": [
+        {
+          "id": "q04172",
+          "pergunta": "Que planta aquática é esta?",
+          "resposta": "Lótus"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Ao contrário do que muita gente pensa, a maior parte da ardência da pimenta fica em qual parte do fruto?",
+        "resposta": "Placenta (parte branca)"
+      },
+      "existentes": [
+        {
+          "id": "q00226",
+          "pergunta": "Que substância presente nas pimentas é responsável pela sensação de ardência na boca?",
+          "resposta": "Capsaicina"
+        },
+        {
+          "id": "q15231",
+          "pergunta": "Estes frutos, de uma planta da família das solanáceas, pertencem a que gênero botânico?",
+          "resposta": "Capsicum"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "Quem morde com força o caroço do pequi acaba se machucando. O que existe escondido sob a polpa?",
+        "resposta": "Espinhos finos"
+      },
+      "existentes": [
+        {
+          "id": "q15408",
+          "pergunta": "Que fruto brasileiro nasce desta flor?",
+          "resposta": "Pequi"
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "nova": {
+        "pergunta": "Alguns mamoeiros florescem a vida inteira e nunca dão um único fruto. Qual é o motivo?",
+        "resposta": "São plantas macho"
+      },
+      "existentes": [
+        {
+          "id": "q07301",
+          "pergunta": "Que fruta tropical é esta?",
+          "resposta": "Mamão"
+        },
+        {
+          "id": "q09177",
+          "pergunta": "Em que região da América foi domesticada pela primeira vez esta planta frutífera?",
+          "resposta": "Mesoamérica"
+        }
+      ]
+    },
+    {
+      "caso": 45,
+      "nova": {
+        "pergunta": "O cupuaçu é do mesmo gênero botânico de qual planta, o que permite fazer com suas sementes um doce parecido com chocolate?",
+        "resposta": "Cacau"
+      },
+      "existentes": [
+        {
+          "id": "q00227",
+          "pergunta": "Com as sementes do cupuaçu se faz um produto muito parecido com chocolate. Isso porque ele é parente próximo de qual planta?",
+          "resposta": "Cacau"
+        },
+        {
+          "id": "q15499",
+          "pergunta": "Que fruta amazônica, aberta ao meio, é esta?",
+          "resposta": "Cupuaçu"
+        }
+      ]
+    },
+    {
+      "caso": 46,
+      "nova": {
+        "pergunta": "Comparando o mesmo peso de polpa, qual destas frutas tem, de longe, mais vitamina C?",
+        "resposta": "Acerola"
+      },
+      "existentes": [
+        {
+          "id": "q09699",
+          "pergunta": "Qual destas frutas tem, de longe, a maior concentração de vitamina C?",
+          "resposta": "Acerola"
+        },
+        {
+          "id": "q17591",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Acerola"
+        }
+      ]
+    },
+    {
+      "caso": 47,
+      "nova": {
+        "pergunta": "O cogumelo-ostra, comestível, também é um caçador: seus filamentos paralisam e digerem que pequenos animais?",
+        "resposta": "Nematoides"
+      },
+      "existentes": [
+        {
+          "id": "q16432",
+          "pergunta": "Que cogumelo comestível, que cresce em troncos de árvores, é este?",
+          "resposta": "Cogumelo-ostra"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04354",
+      "motivo": "Banana é baga: mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Falso tronco é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Caulifloria é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Chocolate branco é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nome do fruto maduro é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Teor de cafeína por tipo é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Polvilho no pão de queijo é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q08597",
+      "motivo": "Mesma origem do milho no México."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cabelo do milho e grão é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Capítulo de florzinhas é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q03311",
+      "motivo": "Fibonacci nas espirais do girassol."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Polinizadores são outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Selênio é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Guaraná como semente com mais cafeína; existente pergunta o que guaraná e café têm em comum (cafeína), mas a resposta difere; fato próximo porém distinto."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Espinhos na folha são outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Título oficial é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Germinação é outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Família da rosa é outro fato; q18099 não está entre as da maçã."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Causa das listras é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Origem otomana é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Crescimento diário é outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Ser gramínea é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Tronco reservatório é outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Óleo cáustico é outro fato."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Fruta nacional da Índia é outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Origem do morango cultivado é outro fato."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Decisão da Suprema Corte é outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Solanina é outro fato."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Batata ser caule é outro fato."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Relação portobello e champignon é outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Significado do nome é outro fato."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Tipo mais caro é outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Gás da fermentação é outro fato."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Distribuição geográfica é outro fato."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Gênero botânico é outro fato."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Palmito é outro fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Etimologia é outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Amadurecimento é outro fato."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Gimnosperma é outro fato."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Dispersão pela gralha é outro fato."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Autolimpeza é outro fato."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Parte mais ardida é outro fato."
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Espinhos do pequi é outro fato."
+    },
+    {
+      "caso": 44,
+      "decisao": "nova",
+      "motivo": "Mamoeiro macho é outro fato."
+    },
+    {
+      "caso": 45,
+      "decisao": "repete",
+      "id_existente": "q00227",
+      "motivo": "Parente do cupuaçu é o cacau, mesmo fato."
+    },
+    {
+      "caso": 46,
+      "decisao": "repete",
+      "id_existente": "q09699",
+      "motivo": "Mesma pergunta sobre vitamina C."
+    },
+    {
+      "caso": 47,
+      "decisao": "nova",
+      "motivo": "Cogumelo carnívoro é outro fato."
+    }
+  ]
+}

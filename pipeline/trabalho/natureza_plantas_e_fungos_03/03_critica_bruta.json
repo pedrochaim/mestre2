@@ -1,0 +1,367 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Banana é baga botânica; morango, framboesa e amora não, conforme os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O pseudocaule da bananeira é formado por bainhas foliares sobrepostas, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caulifloria sustentada pela fonte; cacau e jabuticaba florescem no tronco.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chocolate branco usa manteiga de cacau e não leva o pó, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O fruto do cafeeiro é chamado de cereja, como mostra a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Robusta tem cerca de o dobro da cafeína do arábica; os distratores têm menos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pão de queijo é feito à base de polvilho, amido da mandioca.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Domesticação do milho no sul do México há cerca de 9 mil anos, sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cada fio fecunda um óvulo que vira um grão, conforme o artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fato trivial, sem apoio nos trechos e com distratores pouco críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O capítulo do girassol é formado por muitas florzinhas, o que é amplamente documentado e coerente com a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte descreve espirais com números sucessivos de Fibonacci.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Polinização por abelhas grandes da mata, conforme o artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Castanha-do-pará é riquíssima em selênio, como mostra a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A origem do nome é disputada (folhas, pétalas ou raiz) e os trechos não a sustentam.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sementes de guaraná chegam a 6% de cafeína, contra 1 a 3% do café.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A parte inferior das folhas tem espinhos contra peixes e herbívoros.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lei 6.607 de 1978 declarou o pau-brasil árvore nacional.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sementes de orquídea dependem de fungos micorrízicos para germinar.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A macieira é Rosaceae; uva, banana e laranja não são.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As listras vinham do vírus da quebra da tulipa.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As tulipas vieram do Império Otomano para a Europa Ocidental no século dezesseis, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Sem 'no máximo', distratores como dez centímetros também seriam defensáveis; o recorde é cerca de 91 cm por dia.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Algumas espécies de bambu estão entre as plantas que crescem mais depressa. Num único dia, quanto a mais rápida delas chega a crescer?",
+        "resposta": "Quase um metro",
+        "distratores": [
+          "Um centímetro",
+          "Dez centímetros",
+          "Cinco metros"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bamboo"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bambus são Poaceae, como arroz, trigo e cana.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O tronco do baobá armazena água para a estação seca.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A casca da castanha contém líquido cáustico irritante, perigoso no processamento manual.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A manga é a fruta nacional da Índia, conforme o artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cruzamento de F. virginiana com F. chiloensis, trazida do Chile, na Bretanha nos anos 1750.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nix v. Hedden, Suprema Corte, 1893, tarifas de importação.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A solanina se acumula em batatas expostas à luz e esverdeadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Batata é caule (tubérculo); cenoura, mandioca e beterraba são raízes.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Portobello é a versão mais madura da mesma espécie, Agaricus bisporus.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shii é a árvore Castanopsis cuspidata, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A trufa-branca italiana é a mais valiosa do mercado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O CO2 da fermentação é o agente de crescimento do pão.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A dioneia ocorre naturalmente só nas Carolinas, nos EUA.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Erva-mate e azevinho são do gênero Ilex.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O açaizeiro fornece palmito, como diz a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A etimologia tupi mais citada é 'fruta que chora' (ïwa'sai), e o enunciado ressalva que é a explicação mais citada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O abacate não amadurece na árvore, só depois de colhido; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A araucária é conífera (gimnosperma) e as outras são angiospermas.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A gralha-azul enterra pinhões e é a principal disseminadora da araucária.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Efeito de lótus: folhas super-hidrofóbicas que se autolimpam.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A maior concentração de capsaicina fica na placenta, a parte branca interna.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sob a polpa do pequi há finos espinhos que ferem quem morde.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mamoeiros machos florescem mas não frutificam; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cupuaçu é Theobroma, como o cacau, e seu chocolate é o cupulate.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A acerola tem mais de 1000 mg de vitamina C por 100 g, muito acima das demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O micélio do cogumelo-ostra mata e digere nematoides.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Amanita phalloides responde por cerca de 90% das mortes por cogumelos.",
+      "reescrita": null
+    }
+  ]
+}

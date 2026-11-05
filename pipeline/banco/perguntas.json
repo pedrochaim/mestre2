@@ -375249,5 +375249,789 @@
       "licenca": "CC BY 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q19016",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "banana",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A bananeira parece uma árvore, mas não tem tronco de madeira. Do que é formado o seu falso tronco?",
+    "resposta": "Bainhas das folhas",
+    "distratores": [
+      "Raízes aéreas",
+      "Cipós entrelaçados",
+      "Fibras de casca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Banana"
+    ]
+  },
+  {
+    "id": "q19017",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "cacau",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Como na jabuticabeira, as flores e os frutos do cacaueiro nascem num lugar curioso da planta. Onde?",
+    "resposta": "Direto no tronco",
+    "distratores": [
+      "Nas pontas dos galhos",
+      "Debaixo da terra",
+      "Nas raízes aéreas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cauliflory",
+      "https://en.wikipedia.org/wiki/Theobroma_cacao"
+    ]
+  },
+  {
+    "id": "q19018",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "cacau",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O chocolate branco não leva o pó escuro do cacau. Que produto tirado das sementes de cacau ele usa?",
+    "resposta": "Manteiga de cacau",
+    "distratores": [
+      "Polpa do fruto",
+      "Casca torrada",
+      "Mel de cacau"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White_chocolate"
+    ]
+  },
+  {
+    "id": "q19019",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "cafeeiro",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Por causa da cor vermelha quando maduro, o fruto do cafeeiro recebe que nome entre os produtores?",
+    "resposta": "Cereja",
+    "distratores": [
+      "Pitanga",
+      "Groselha",
+      "Amora"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coffee_bean"
+    ]
+  },
+  {
+    "id": "q19020",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "cafeeiro",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes tipos de café tem grãos com o maior teor de cafeína?",
+    "resposta": "Robusta (conilon)",
+    "distratores": [
+      "Arábica",
+      "Libérica",
+      "Bourbon"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coffea_canephora"
+    ]
+  },
+  {
+    "id": "q19021",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "mandioca",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que ingrediente, extraído da mandioca, é a base da massa do pão de queijo mineiro?",
+    "resposta": "Polvilho",
+    "distratores": [
+      "Fubá",
+      "Maisena",
+      "Farinha de trigo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Polvilho",
+      "https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo"
+    ]
+  },
+  {
+    "id": "q19022",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "milho",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Cada fio do cabelo do milho sai de uma flor feminina da espiga. Depois de polinizado, cada fio dá origem a quê?",
+    "resposta": "Um grão",
+    "distratores": [
+      "Uma espiga",
+      "Uma folha",
+      "Uma palha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maize"
+    ]
+  },
+  {
+    "id": "q19023",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "girassol",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O que parece ser uma única grande flor amarela no girassol é, na verdade, formado por quê?",
+    "resposta": "Centenas de florzinhas",
+    "distratores": [
+      "Uma flor gigante",
+      "Folhas coloridas",
+      "Sementes com pétalas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Helianthus_annuus"
+    ]
+  },
+  {
+    "id": "q19024",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "castanheira_do_para",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Castanheiras-do-pará plantadas longe da floresta produzem poucas castanhas. Isso acontece porque suas flores dependem de quais polinizadores?",
+    "resposta": "Abelhas grandes da mata",
+    "distratores": [
+      "Morcegos",
+      "Beija-flores",
+      "Mariposas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_nut"
+    ]
+  },
+  {
+    "id": "q19025",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "castanheira_do_para",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A castanha-do-pará concentra tanto de um mineral que se recomenda comer só poucas por dia. Que mineral é esse?",
+    "resposta": "Selênio",
+    "distratores": [
+      "Ferro",
+      "Zinco",
+      "Magnésio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_nut"
+    ]
+  },
+  {
+    "id": "q19026",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "guarana",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas sementes tem a maior concentração de cafeína?",
+    "resposta": "Guaraná",
+    "distratores": [
+      "Café arábica",
+      "Cacau",
+      "Cupuaçu"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Guarana"
+    ]
+  },
+  {
+    "id": "q19027",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "vitoria_regia",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A face de baixo da folha gigante da vitória-régia é protegida contra peixes e outros herbívoros por quê?",
+    "resposta": "Espinhos",
+    "distratores": [
+      "Pelos urticantes",
+      "Cera venenosa",
+      "Escamas duras"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Victoria_amazonica"
+    ]
+  },
+  {
+    "id": "q19028",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "pau_brasil",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Por uma lei federal de 1978, o pau-brasil recebeu que título oficial?",
+    "resposta": "Árvore nacional",
+    "distratores": [
+      "Patrimônio da humanidade",
+      "Madeira imperial",
+      "Flor nacional"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pau-brasil"
+    ]
+  },
+  {
+    "id": "q19029",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "orquidea",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "As sementes das orquídeas são finas como poeira e quase não têm reservas. Na natureza, para germinar, elas dependem de quê?",
+    "resposta": "De fungos",
+    "distratores": [
+      "De fogo",
+      "De passar por aves",
+      "De luz intensa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orchid_mycorrhiza",
+      "https://en.wikipedia.org/wiki/Orchid"
+    ]
+  },
+  {
+    "id": "q19030",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "maca",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas frutas pertence à mesma família botânica da rosa?",
+    "resposta": "Maçã",
+    "distratores": [
+      "Uva",
+      "Banana",
+      "Laranja"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rosaceae"
+    ]
+  },
+  {
+    "id": "q19031",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "tulipomania",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Na tulipomania, as tulipas mais caras tinham pétalas rajadas, como chamas. O que causava essas listras?",
+    "resposta": "Um vírus",
+    "distratores": [
+      "Enxerto de bulbos",
+      "Adubo de cinzas",
+      "Cruzamento com íris"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tulip_breaking_virus",
+      "https://en.wikipedia.org/wiki/Tulip_mania"
+    ]
+  },
+  {
+    "id": "q19032",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "tulipa",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Antes de virar símbolo da Holanda, a tulipa era cultivada e admirada em que império, de onde chegou à Europa Ocidental no século dezesseis?",
+    "resposta": "Império Otomano",
+    "distratores": [
+      "Império Russo",
+      "Império Mogol",
+      "Sacro Império Romano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tulip"
+    ]
+  },
+  {
+    "id": "q19033",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "bambu",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Algumas espécies de bambu estão entre as plantas que crescem mais depressa. Num único dia, quanto a mais rápida delas chega a crescer?",
+    "resposta": "Quase um metro",
+    "distratores": [
+      "Um centímetro",
+      "Dez centímetros",
+      "Cinco metros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bamboo"
+    ]
+  },
+  {
+    "id": "q19034",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "bambu",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O que o bambu tem em comum com o arroz, o trigo e a cana-de-açúcar?",
+    "resposta": "São gramíneas",
+    "distratores": [
+      "São palmeiras",
+      "São leguminosas",
+      "São trepadeiras"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bamboo",
+      "https://en.wikipedia.org/wiki/Poaceae"
+    ]
+  },
+  {
+    "id": "q19035",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "baoba",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "O tronco enorme e bojudo do baobá funciona como reservatório de quê, para a árvore atravessar a estação seca?",
+    "resposta": "Água",
+    "distratores": [
+      "Açúcar",
+      "Ar",
+      "Resina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Adansonia"
+    ]
+  },
+  {
+    "id": "q19036",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "caju",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A castanha-de-caju nunca é vendida crua dentro da casca, só depois de torrada ou processada. Por quê?",
+    "resposta": "Óleo cáustico na casca",
+    "distratores": [
+      "Crua tem cianeto",
+      "Estraga em horas",
+      "Crua é amarga demais"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cashew"
+    ]
+  },
+  {
+    "id": "q19037",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "manga",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas frutas tropicais tem o título de fruta nacional da Índia?",
+    "resposta": "Manga",
+    "distratores": [
+      "Banana",
+      "Jaca",
+      "Coco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mango"
+    ]
+  },
+  {
+    "id": "q19038",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "morango",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O morango cultivado hoje surgiu na França, no século dezoito, do cruzamento de uma espécie norte-americana com outra trazida de que país?",
+    "resposta": "Chile",
+    "distratores": [
+      "Peru",
+      "Argentina",
+      "México"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Garden_strawberry"
+    ]
+  },
+  {
+    "id": "q19039",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "tomate",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1893, numa disputa sobre impostos de importação, que instituição americana decidiu que o tomate seria tratado como hortaliça, e não como fruta?",
+    "resposta": "Suprema Corte",
+    "distratores": [
+      "Congresso americano",
+      "Casa Branca",
+      "Departamento de Agricultura"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nix_v._Hedden"
+    ]
+  },
+  {
+    "id": "q19040",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "batata",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Batatas expostas à luz ficam esverdeadas e acumulam uma substância tóxica, por isso as partes verdes devem ser descartadas. Que substância é essa?",
+    "resposta": "Solanina",
+    "distratores": [
+      "Ricina",
+      "Nicotina",
+      "Capsaicina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solanine",
+      "https://en.wikipedia.org/wiki/Potato"
+    ]
+  },
+  {
+    "id": "q19041",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "batata",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Botanicamente, qual destes alimentos que crescem debaixo da terra é um caule, e não uma raiz?",
+    "resposta": "Batata",
+    "distratores": [
+      "Cenoura",
+      "Mandioca",
+      "Beterraba"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tuber",
+      "https://en.wikipedia.org/wiki/Potato"
+    ]
+  },
+  {
+    "id": "q19042",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "champignon",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O cogumelo portobello, grande e marrom, tem que relação com o champignon branco dos supermercados?",
+    "resposta": "Mesma espécie, mais madura",
+    "distratores": [
+      "Parasita do champignon",
+      "Híbrido com shiitake",
+      "Parente venenoso"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Agaricus_bisporus"
+    ]
+  },
+  {
+    "id": "q19043",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "shiitake",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em japonês, shiitake quer dizer cogumelo do shii. O que é o shii?",
+    "resposta": "Uma árvore",
+    "distratores": [
+      "Uma montanha",
+      "Uma cidade",
+      "Um imperador"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shiitake"
+    ]
+  },
+  {
+    "id": "q19044",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "trufa",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre as trufas, fungos subterrâneos de luxo, qual tipo costuma alcançar os preços mais altos?",
+    "resposta": "Trufa-branca de Alba",
+    "distratores": [
+      "Trufa-negra do Périgord",
+      "Trufa-de-verão",
+      "Trufa-do-deserto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tuber_magnatum"
+    ]
+  },
+  {
+    "id": "q19045",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "levedura_de_cerveja",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Ao fermentar os açúcares da massa, a levedura libera um gás que forma bolhas e faz o pão crescer. Que gás é esse?",
+    "resposta": "Gás carbônico",
+    "distratores": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Metano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+    ]
+  },
+  {
+    "id": "q19046",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "dioneia",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Na natureza, a dioneia só existe numa pequena região de pântanos e campos úmidos de que país?",
+    "resposta": "Estados Unidos",
+    "distratores": [
+      "Brasil",
+      "Austrália",
+      "Indonésia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Venus_flytrap"
+    ]
+  },
+  {
+    "id": "q19047",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "erva_mate",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A erva-mate do chimarrão é do mesmo gênero botânico de que arbusto de frutinhos vermelhos, usado na decoração de Natal?",
+    "resposta": "Azevinho",
+    "distratores": [
+      "Visco",
+      "Bico-de-papagaio",
+      "Pinheiro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ilex",
+      "https://en.wikipedia.org/wiki/Yerba_mate"
+    ]
+  },
+  {
+    "id": "q19048",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "acai",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Além do fruto roxo, o açaizeiro fornece outro alimento, tirado do miolo macio do topo do caule. Qual?",
+    "resposta": "Palmito",
+    "distratores": [
+      "Pinhão",
+      "Coco verde",
+      "Polvilho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Euterpe_oleracea"
+    ]
+  },
+  {
+    "id": "q19049",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "acai",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Segundo a explicação mais citada, o nome açaí vem do tupi. O que ele significa?",
+    "resposta": "Fruta que chora",
+    "distratores": [
+      "Fruta roxa",
+      "Palmeira do rio",
+      "Comida de guerreiro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Euterpe_oleracea"
+    ]
+  },
+  {
+    "id": "q19050",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "abacate",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "O abacate tem uma particularidade entre as frutas: ele só amadurece de verdade depois de quê?",
+    "resposta": "Ser colhido",
+    "distratores": [
+      "Cair sozinho",
+      "Pegar sol forte",
+      "Passar uma geada"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Avocado"
+    ]
+  },
+  {
+    "id": "q19051",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "araucaria",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estas árvores brasileiras, qual é uma gimnosperma, que forma sementes sem produzir frutos?",
+    "resposta": "Araucária",
+    "distratores": [
+      "Ipê-amarelo",
+      "Jabuticabeira",
+      "Pau-brasil"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Araucaria_angustifolia",
+      "https://en.wikipedia.org/wiki/Gymnosperm"
+    ]
+  },
+  {
+    "id": "q19052",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "araucaria",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que ave, símbolo do Paraná, ajuda a espalhar a araucária ao enterrar pinhões e esquecer alguns deles?",
+    "resposta": "Gralha-azul",
+    "distratores": [
+      "Sabiá-laranjeira",
+      "Tucano-toco",
+      "Quero-quero"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gralha-azul"
+    ]
+  },
+  {
+    "id": "q19053",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "lotus_2",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "As folhas do lótus continuam limpas mesmo crescendo na lama, propriedade imitada em tintas e tecidos. Que característica explica isso?",
+    "resposta": "Repelem água e sujeira",
+    "distratores": [
+      "Soltam óleo",
+      "Absorvem a lama",
+      "Trocam de pele"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lotus_effect"
+    ]
+  },
+  {
+    "id": "q19054",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "pimenta",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Ao contrário do que muita gente pensa, a maior parte da ardência da pimenta fica em qual parte do fruto?",
+    "resposta": "Placenta (parte branca)",
+    "distratores": [
+      "Sementes",
+      "Casca",
+      "Cabinho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Capsaicin"
+    ]
+  },
+  {
+    "id": "q19055",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "pequi_2",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Quem morde com força o caroço do pequi acaba se machucando. O que existe escondido sob a polpa?",
+    "resposta": "Espinhos finos",
+    "distratores": [
+      "Pelos urticantes",
+      "Seiva cáustica",
+      "Cristais de cálcio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caryocar_brasiliense",
+      "https://pt.wikipedia.org/wiki/Pequi"
+    ]
+  },
+  {
+    "id": "q19056",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "mamao",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Alguns mamoeiros florescem a vida inteira e nunca dão um único fruto. Qual é o motivo?",
+    "resposta": "São plantas macho",
+    "distratores": [
+      "Falta de polinizadores",
+      "Excesso de adubo",
+      "Solo muito ácido"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Papaya"
+    ]
+  },
+  {
+    "id": "q19057",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "cogumelo_ostra",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "O cogumelo-ostra, comestível, também é um caçador: seus filamentos paralisam e digerem que pequenos animais?",
+    "resposta": "Nematoides",
+    "distratores": [
+      "Formigas",
+      "Minhocas",
+      "Pulgões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pleurotus_ostreatus"
+    ]
+  },
+  {
+    "id": "q19058",
+    "tema": "Natureza",
+    "subtema": "Plantas e Fungos",
+    "ancora": "chapeu_da_morte",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes cogumelos responde pela maioria das mortes por envenenamento com cogumelos no mundo?",
+    "resposta": "Chapéu-da-morte",
+    "distratores": [
+      "Amanita-mata-moscas",
+      "Cogumelo-mágico",
+      "Cogumelo-ostra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amanita_phalloides"
+    ]
   }
 ]
