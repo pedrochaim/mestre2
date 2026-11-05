@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta pintura de Victor Meirelles retrata uma personagem de que poema épico brasileiro do século dezoito?",
+        "resposta": "Caramuru"
+      },
+      "existentes": [
+        {
+          "id": "q06474",
+          "pergunta": "Que pintor brasileiro do século dezenove pintou este quadro?",
+          "resposta": "Victor Meirelles"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que palácio do centro do Rio de Janeiro é este?",
+        "resposta": "Palácio Tiradentes"
+      },
+      "existentes": [
+        {
+          "id": "q16014",
+          "pergunta": "Que palácio eclético do centro do Rio de Janeiro, inaugurado em 1926, é este?",
+          "resposta": "Palácio Tiradentes"
+        },
+        {
+          "id": "q18763",
+          "pergunta": "Este palácio do Rio de Janeiro abrigou, até 1960, qual órgão do Poder Legislativo federal?",
+          "resposta": "Câmara dos Deputados"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que conjunto barroco do centro histórico de Salvador é este?",
+        "resposta": "Igreja e Convento de São Francisco"
+      },
+      "existentes": [
+        {
+          "id": "q08468",
+          "pergunta": "No centro histórico de Salvador, a Igreja de São Francisco é famosa pelo interior de talhas de madeira revestidas de quê?",
+          "resposta": "Ouro"
+        },
+        {
+          "id": "q16012",
+          "pergunta": "Em que cidade brasileira fica esta igreja barroca com convento, erguida entre os séculos dezessete e dezoito?",
+          "resposta": "Salvador"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o poema épico (Caramuru), não sobre o autor do quadro."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar o palácio, mesma resposta que q16014.",
+      "id_existente": "q16014"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o conjunto pela imagem é fato diferente de ouro nas talhas ou da cidade (Salvador); a resposta não é dada por elas."
+    }
+  ]
+}

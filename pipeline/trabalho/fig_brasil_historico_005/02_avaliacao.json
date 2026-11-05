@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A pintura mostra '14 BIS' em letras grandes e a assinatura do pintor, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto oval antiga e granulada de um homem barbado; o personagem não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Montagem de várias vistas e edifícios, com um skyline que lembra Recife. A cidade não é reconhecível de forma única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Retrato antigo pequeno, sem elementos que permitam reconhecer Chiquinha Gonzaga pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pintura clara e de domínio público, sem texto. Dá para perguntar o poema épico ligado à obra.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta pintura de Victor Meirelles retrata uma personagem de que poema épico brasileiro do século dezoito?",
+      "resposta": "Caramuru",
+      "distratores": [
+        "O Uraguai",
+        "Os Timbiras",
+        "A Confederação dos Tamoios"
+      ],
+      "ancora": {
+        "nome": "Moema (pintura)",
+        "descricao": "Pintura a óleo de 1866 de Victor Meirelles que retrata a indígena Moema, personagem do poema Caramuru, morta nas águas.",
+        "variantes": [
+          "Moema",
+          "Moema, de Victor Meirelles"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A fachada traz 'THEATRO MUNICIPAL' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto pequena, em preto e branco e de baixa qualidade, com outras pessoas ao fundo. Não é reconhecível e não fica legível no celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida, sem texto, de um forte circular dentro do mar, que só pode ser este.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que forte colonial, construído sobre os arrecifes diante de uma capital, é este?",
+      "resposta": "Forte de São Marcelo",
+      "distratores": [
+        "Forte de Copacabana",
+        "Forte Tamandaré da Laje",
+        "Forte dos Reis Magos"
+      ],
+      "ancora": {
+        "nome": "Forte de São Marcelo",
+        "descricao": "Forte circular erguido sobre arrecifes na Baía de Todos os Santos, em frente ao centro histórico de Salvador, na Bahia.",
+        "variantes": [
+          "Forte do Mar",
+          "Forte de Nossa Senhora do Pópulo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, com a faixa presidencial e sem texto. Dutra é figura pública e o retrato é reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que presidente da República é este, retratado de uniforme militar com a faixa presidencial?",
+      "resposta": "Eurico Gaspar Dutra",
+      "distratores": [
+        "Castelo Branco",
+        "Costa e Silva",
+        "Café Filho"
+      ],
+      "ancora": {
+        "nome": "Eurico Gaspar Dutra",
+        "descricao": "Militar e político brasileiro, presidente do Brasil de 1946 a 1951, o primeiro da Quarta República.",
+        "variantes": [
+          "Dutra",
+          "General Dutra"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Retrato a óleo de um padre em estúdio, sem nada que permita reconhecer Bartolomeu de Gusmão. Qualquer pista no enunciado entregaria a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada nítida, sem texto legível que entregue o nome, com a estátua de Tiradentes à frente. É um edifício histórico reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que palácio do centro do Rio de Janeiro é este?",
+      "resposta": "Palácio Tiradentes",
+      "distratores": [
+        "Palácio Pedro Ernesto",
+        "Palácio Guanabara",
+        "Palácio Monroe"
+      ],
+      "ancora": {
+        "nome": "Palácio Tiradentes",
+        "descricao": "Edifício eclético inaugurado em 1926 no Centro do Rio de Janeiro, antiga sede da Câmara dos Deputados e hoje da Assembleia Legislativa estadual.",
+        "variantes": [
+          "Palácio Tiradentes (Rio de Janeiro)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida, sem texto, de um conjunto barroco característico de Salvador.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que conjunto barroco do centro histórico de Salvador, com fachada de duas torres, é este?",
+      "resposta": "Igreja e Convento de São Francisco",
+      "distratores": [
+        "Igreja do Bonfim",
+        "Catedral Basílica de Salvador",
+        "Igreja do Rosário dos Pretos"
+      ],
+      "ancora": {
+        "nome": "Igreja e Convento de São Francisco (Salvador)",
+        "descricao": "Conjunto barroco dos séculos XVII e XVIII no centro histórico de Salvador, na Bahia, famoso pela decoração interior dourada.",
+        "variantes": [
+          "Igreja de São Francisco de Salvador",
+          "Convento de São Francisco da Bahia"
+        ]
+      }
+    }
+  ]
+}

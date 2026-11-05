@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moema retrata personagem do poema Caramuru (1781, século dezoito). Enunciado não nomeia a pintura nem a resposta; distratores são outros poemas e nenhum retrata Moema.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Forte dos Reis Magos também fica sobre arrecifes diante de uma capital (Natal), então um distrator é defensável. Troquei esse distrator e especifiquei capital brasileira.",
+      "reescrita": {
+        "pergunta": "Que forte colonial, construído sobre arrecifes diante de uma capital brasileira, é este?",
+        "resposta": "Forte de São Marcelo",
+        "distratores": [
+          "Forte de Copacabana",
+          "Forte Tamandaré da Laje",
+          "Forte do Brum"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição 'de uniforme militar com a faixa presidencial' não consta em 'mostra' e não dá para confirmar que vale para esta foto. Removi a afirmação sobre a imagem sem acrescentar pista que entregue.",
+      "reescrita": {
+        "pergunta": "Que presidente da República do Brasil é este?",
+        "resposta": "Eurico Gaspar Dutra",
+        "distratores": [
+          "Castelo Branco",
+          "Costa e Silva",
+          "Café Filho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta curta, sem vazamento. O palácio fica no centro do Rio. Os distratores são palácios cariocas plausíveis e diferentes do mostrado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A afirmação 'fachada de duas torres' não consta nos trechos nem em 'mostra' e é duvidosa para esta fachada. Removi essa afirmação e evitei a pista 'dourado', que entregaria a resposta.",
+      "reescrita": {
+        "pergunta": "Que conjunto barroco do centro histórico de Salvador é este?",
+        "resposta": "Igreja e Convento de São Francisco",
+        "distratores": [
+          "Igreja do Bonfim",
+          "Catedral Basílica de Salvador",
+          "Igreja do Rosário dos Pretos"
+        ]
+      }
+    }
+  ]
+}
