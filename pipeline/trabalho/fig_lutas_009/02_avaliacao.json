@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Prancha com dois quadros e legendas em inglês ('Shin kick to...') que dão pistas; mostra chutes de canela de manual militar, sem resposta única para 'chute circular'."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, nítido, sem texto que entregue a resposta (só um 'LAX' parcial ao fundo). Pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que personagem de uma série de Star Wars esta lutadora de MMA interpretou?",
+      "resposta": "Cara Dune",
+      "distratores": [
+        "Fennec Shand",
+        "Bo-Katan Kryze",
+        "Greef Karga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gina Carano",
+        "descricao": "Lutadora americana de MMA e atriz, conhecida por Haywire e por The Mandalorian.",
+        "variantes": [
+          "Gina Joy Carano"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto escura e de baixa qualidade, com público de pessoas comuns ao fundo. A cena de luta com bastões não permite reconhecer com unicidade o jogo do pau e pode ser confundida com outras artes de bastão."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, com pessoas comuns em primeiro plano. A chave de estrangulamento tem pouca legibilidade no celular."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de um boxeador famoso, sem texto. Pergunta de segundo passo, depois de reconhecê-lo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que lutador tirou, em 1964, o título mundial dos pesos-pesados deste boxeador?",
+      "resposta": "Muhammad Ali (então Cassius Clay)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sonny Liston",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados de 1962 a 1964, apelidado de Big Bear.",
+        "variantes": [
+          "Charles Liston"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Praticante em postura de tiro com o yumi, arco assimétrico muito longo, inconfundível. A imagem é clara e sem texto. Praticante em ambiente de treino, sem foco na pessoa.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arte marcial japonesa é esta?",
+      "resposta": "Kyudo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kyudo",
+        "descricao": "Arte marcial japonesa do tiro com arco, praticada com o arco assimétrico yumi.",
+        "variantes": [
+          "Kyūdō",
+          "arco japonês"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto. Pergunta sobre a organização que ele preside.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que organização de MMA este empresário preside desde 2001?",
+      "resposta": "UFC",
+      "distratores": [
+        "Bellator",
+        "PFL",
+        "ONE Championship"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dana White",
+        "descricao": "Empresário americano, presidente do Ultimate Fighting Championship (UFC) desde 2001.",
+        "variantes": [
+          "Dana Frederick White Jr."
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Salão tradicional japonês de treino, com praticantes sentados ao fundo e armaduras de kendo nas bordas. A cena é clara e sem texto. As pessoas aparecem em grupo, pequenas, sem foco individual.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama este tipo de salão japonês?",
+      "resposta": "Dojô",
+      "destino": 0,
+      "ancora": {
+        "nome": "Dojô",
+        "descricao": "Salão tradicional japonês de treino de artes marciais e meditação.",
+        "variantes": [
+          "Dojo",
+          "dōjō"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura de gênero coreana, antiga e de domínio público, que mostra uma luta com pegada na cintura, no meio de espectadores. Sem texto. Boa para a família 'com o que se liga'.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta luta tradicional, retratada numa pintura antiga?",
+      "resposta": "Coreia",
+      "distratores": [
+        "Japão",
+        "China",
+        "Mongólia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ssireum",
+        "descricao": "Luta tradicional coreana em que os oponentes se seguram pelo cinto e vence quem derruba o outro acima do joelho.",
+        "variantes": [
+          "Ssirum",
+          "luta coreana"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto antiga e granulada de um homem em postura de karatê. Um kata não pode ser reconhecido por um quadro parado, e o praticante não é identificado. Não há resposta única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto relevante. Pergunta de segundo passo, sobre o cinema.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que franquia de filmes de ação com Sylvester Stallone este lutador de MMA atuou?",
+      "resposta": "Os Mercenários",
+      "distratores": [
+        "Duro de Matar",
+        "Missão Impossível",
+        "Transformers"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Randy Couture",
+        "descricao": "Lutador americano de MMA, múltiplo campeão do UFC em duas categorias de peso, também ator.",
+        "variantes": [
+          "Randy Duane Couture"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, com troféu. O texto ao fundo é ilegível e não entrega o nome. Pergunta de terceiro passo, sustentada pelo trecho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que outro astro do cinema de Hong Kong dividia com este ator o apelido de Irmão Mais Velho, até o filme Projeto A?",
+      "resposta": "Jackie Chan",
+      "distratores": [
+        "Jet Li",
+        "Yuen Biao",
+        "Chow Yun-fat"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sammo Hung",
+        "descricao": "Ator, artista marcial, diretor e coreógrafo de lutas de Hong Kong, figura da nova onda do cinema de ação.",
+        "variantes": [
+          "Hung Kam-bo",
+          "Sammo Hung Kam-bo"
+        ]
+      }
+    }
+  ]
+}
