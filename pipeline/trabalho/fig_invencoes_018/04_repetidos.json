@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década foi patenteado este objeto de costura?",
+        "resposta": "1840"
+      },
+      "existentes": [
+        {
+          "id": "q00887",
+          "pergunta": "Em 1849, o americano Walter Hunt criou o alfinete de segurança e logo vendeu a patente. Que problema pessoal ele queria resolver?",
+          "resposta": "Pagar uma dívida"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de medição é este?",
+        "resposta": "Cronômetro"
+      },
+      "existentes": [
+        {
+          "id": "q14431",
+          "pergunta": "Que instrumento de competições esportivas é este?",
+          "resposta": "Cronômetro"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que pioneiro da aviação construiu este pequeno monoplano?",
+        "resposta": "Santos-Dumont"
+      },
+      "existentes": [
+        {
+          "id": "q05641",
+          "pergunta": "Santos Dumont não patenteou seu pequeno monoplano e liberou os planos para quem quisesse construí-lo. Como esse avião ficou conhecido?",
+          "resposta": "Demoiselle"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que engenheiro alemão projetou este veículo de três rodas?",
+        "resposta": "Carl Benz"
+      },
+      "existentes": [
+        {
+          "id": "q01018",
+          "pergunta": "Quantas rodas tinha o automóvel patenteado por Karl Benz em 1886, considerado o primeiro carro moderno?",
+          "resposta": "Três"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Década da patente do alfinete vs. motivo pessoal de Hunt; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o mesmo objeto (cronômetro) com resposta idêntica."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o construtor (Santos-Dumont), a outra o nome do avião (Demoiselle); o enunciado existente já revela Santos Dumont mas não a resposta Demoiselle, fatos distintos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Quem projetou o veículo vs. número de rodas; fatos diferentes."
+    }
+  ]
+}

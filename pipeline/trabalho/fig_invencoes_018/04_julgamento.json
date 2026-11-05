@@ -1,0 +1,386 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Alfinete de segurança",
+        "descricao": "Alfinete com mola e fecho que cobre a ponta, patenteado por Walter Hunt.",
+        "variantes": [
+          "Alfinete de fralda",
+          "Safety pin",
+          "Alfinete de dama"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alfinete_de_seguranca",
+          "nome": "Alfinete de segurança",
+          "descricao": "Alfinete com mola e presilha que protege a ponta, patenteado pelo americano Walter Hunt em 1849.",
+          "variantes": [
+            "Alfinete de fralda",
+            "Safety pin"
+          ]
+        },
+        {
+          "id": "bicicleta_de_seguranca",
+          "nome": "Bicicleta de segurança",
+          "descricao": "Modelo de bicicleta com duas rodas do mesmo tamanho e transmissão por corrente, popularizado pela inglesa Rover em 1885, base da bicicleta moderna.",
+          "variantes": [
+            "Safety bicycle",
+            "Rover Safety Bicycle"
+          ]
+        },
+        {
+          "id": "chamine_de_fada",
+          "nome": "Chaminé de fada",
+          "descricao": "Pilar de rocha mole esculpido pela erosão, coberto por um bloco mais duro no topo.",
+          "variantes": [
+            "Hoodoo",
+            "Pirâmide de terra",
+            "Tent rock"
+          ]
+        },
+        {
+          "id": "leite",
+          "nome": "Leite",
+          "descricao": "Líquido branco produzido pelas glândulas mamárias de mamíferos, consumido como bebida e base de laticínios.",
+          "variantes": [
+            "Leite de vaca"
+          ]
+        },
+        {
+          "id": "fosforo_de_seguranca",
+          "nome": "Fósforo de segurança",
+          "descricao": "Palito de fósforo que só acende quando riscado na superfície própria da caixa.",
+          "variantes": [
+            "Safety match",
+            "Fósforo",
+            "Fósforo sueco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cronômetro",
+        "descricao": "Relógio que mede o intervalo de tempo entre o acionamento e a parada.",
+        "variantes": [
+          "Stopwatch",
+          "Cronógrafo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cronometro",
+          "nome": "Cronômetro",
+          "descricao": "Relógio que mede o tempo decorrido entre o acionamento e a parada, usado em competições esportivas.",
+          "variantes": [
+            "Cronômetro analógico"
+          ]
+        },
+        {
+          "id": "fonografo",
+          "nome": "Fonógrafo",
+          "descricao": "Aparelho de cilindro que grava e reproduz sons mecanicamente, inventado em 1877.",
+          "variantes": [
+            "Phonograph",
+            "Fonógrafo de Edison"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "nilometro",
+          "nome": "Nilômetro",
+          "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+          "variantes": [
+            "Nilometer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lâmpada de lava",
+        "descricao": "Lâmpada decorativa com cera e líquido que sobem e descem, inventada por Edward Craven Walker.",
+        "variantes": [
+          "Lava lamp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bola_de_plasma",
+          "nome": "Bola de plasma",
+          "descricao": "Esfera de vidro com gases nobres e um eletrodo central de alta tensão que forma filamentos de plasma luminosos.",
+          "variantes": [
+            "Globo de plasma",
+            "Lâmpada de plasma"
+          ]
+        },
+        {
+          "id": "lampada_de_davy",
+          "nome": "Lâmpada de Davy",
+          "descricao": "Lamparina de segurança para minas de carvão, criada por Humphry Davy em 1815.",
+          "variantes": [
+            "Lâmpada de segurança de Davy"
+          ]
+        },
+        {
+          "id": "lago_de_lava",
+          "nome": "Lago de lava",
+          "descricao": "Grande volume de lava fundida contido numa cratera ou depressão de um vulcão.",
+          "variantes": [
+            "Lava lake"
+          ]
+        },
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente",
+            "Lâmpada elétrica",
+            "Incandescent light bulb"
+          ]
+        },
+        {
+          "id": "armadura_de_placas",
+          "nome": "Armadura de placas",
+          "descricao": "Armadura de corpo inteiro feita de placas de aço articuladas, típica do fim da Idade Média e do Renascimento.",
+          "variantes": [
+            "Armadura completa",
+            "Plate armour"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Santos-Dumont Demoiselle",
+        "descricao": "Série de pequenos monoplanos esportivos construídos na França por Alberto Santos-Dumont.",
+        "variantes": [
+          "Demoiselle",
+          "Santos-Dumont Nº 20"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "demoiselle",
+          "nome": "Demoiselle",
+          "descricao": "Pequeno avião monoplano criado por Santos-Dumont entre 1907 e 1909, cujos planos foram divulgados livremente.",
+          "variantes": [
+            "Santos-Dumont Demoiselle"
+          ]
+        },
+        {
+          "id": "alberto_santos_dumont",
+          "nome": "Alberto Santos-Dumont",
+          "descricao": "Aviador e inventor brasileiro, pioneiro dos dirigíveis e do 14-bis.",
+          "variantes": [
+            "Santos Dumont",
+            "Pai da Aviação"
+          ]
+        },
+        {
+          "id": "cartier_santos",
+          "nome": "Cartier Santos",
+          "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador Alberto Santos-Dumont.",
+          "variantes": [
+            "Relógio Santos",
+            "Relógio Cartier Santos",
+            "Santos de Cartier",
+            "Relógio Santos, da Cartier",
+            "Santos-Dumont watch"
+          ]
+        },
+        {
+          "id": "hibisco_2",
+          "nome": "Hibisco",
+          "descricao": "Planta Hibiscus sabdariffa, da família das malváceas, cujos cálices são usados em chás e infusões.",
+          "variantes": [
+            "Hibiscus sabdariffa",
+            "Roselle",
+            "Vinagreira",
+            "Caruru-azedo"
+          ]
+        },
+        {
+          "id": "demostenes",
+          "nome": "Demóstenes",
+          "descricao": "Orador e político ateniense do século quatro a.C., famoso por seus discursos contra Filipe II da Macedônia.",
+          "variantes": [
+            "Demosthenes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Benz Patent-Motorwagen",
+        "descricao": "Triciclo motorizado de Carl Benz, considerado o primeiro automóvel prático.",
+        "variantes": [
+          "Motorwagen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "benz_patent_motorwagen",
+          "nome": "Benz Patent-Motorwagen",
+          "descricao": "Automóvel patenteado por Karl Benz em 1886, considerado o primeiro automóvel moderno.",
+          "variantes": [
+            "Motorwagen de Benz",
+            "Motorwagen"
+          ]
+        },
+        {
+          "id": "motown",
+          "nome": "Motown",
+          "descricao": "Gravadora americana de soul fundada em Detroit em 1959, lar de Stevie Wonder e das Supremes",
+          "variantes": [
+            "Motown Records",
+            "Tamla Motown"
+          ]
+        },
+        {
+          "id": "motor_wankel",
+          "nome": "Motor Wankel",
+          "descricao": "Motor de combustão interna rotativo com rotor triangular, desenvolvido por Felix Wankel.",
+          "variantes": [
+            "Motor de combustão interna",
+            "Motor rotativo",
+            "Wankel engine"
+          ]
+        },
+        {
+          "id": "outrage",
+          "nome": "Outrage",
+          "descricao": "Golpe de pokémon do tipo Dragão, da 2ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "michel_de_montaigne",
+          "nome": "Michel de Montaigne",
+          "descricao": "Filósofo e escritor francês do Renascimento (1533–1592), autor dos Ensaios.",
+          "variantes": [
+            "Montaigne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Desastre do Hindenburg",
+        "descricao": "Incêndio do dirigível LZ 129 Hindenburg em 6 de maio de 1937, em Lakehurst, Nova Jersey.",
+        "variantes": [
+          "Hindenburg",
+          "LZ 129 Hindenburg"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hindenburg",
+          "nome": "Hindenburg",
+          "descricao": "Dirigível alemão de passageiros destruído por um incêndio em Lakehurst, nos Estados Unidos, em 1937.",
+          "variantes": [
+            "LZ 129 Hindenburg",
+            "Desastre do Hindenburg",
+            "Dirigível Hindenburg"
+          ]
+        },
+        {
+          "id": "paul_von_hindenburg",
+          "nome": "Paul von Hindenburg",
+          "descricao": "Marechal alemão que comandou o exército na Primeira Guerra e foi presidente da Alemanha de 1925 a 1934.",
+          "variantes": [
+            "Hindenburg"
+          ]
+        },
+        {
+          "id": "desastre_do_onibus_espacial_challenger",
+          "nome": "Desastre do ônibus espacial Challenger",
+          "descricao": "Explosão do ônibus espacial Challenger logo após o lançamento, em janeiro de 1986, nos Estados Unidos.",
+          "variantes": [
+            "Space Shuttle Challenger disaster",
+            "Acidente do Challenger",
+            "Desastre do Challenger"
+          ]
+        },
+        {
+          "id": "werner_heisenberg",
+          "nome": "Werner Heisenberg",
+          "descricao": "Físico teórico alemão (1901–1976), autor do princípio da incerteza e Nobel de Física de 1932.",
+          "variantes": [
+            "Heisenberg"
+          ]
+        },
+        {
+          "id": "castelo_de_malbork",
+          "nome": "Castelo de Malbork",
+          "descricao": "Fortaleza de tijolos construída pela Ordem Teutônica a partir do século treze, às margens do rio Nogat.",
+          "variantes": [
+            "Marienburg",
+            "Malbork Castle"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "alfinete_de_seguranca",
+      "motivo": "Mesmo objeto, patenteado por Walter Hunt."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "cronometro",
+      "motivo": "Mesmo instrumento: relógio que mede intervalo entre acionamento e parada."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a lâmpada de lava."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "demoiselle",
+      "motivo": "Mesmo avião Demoiselle de Santos-Dumont, com variante igual."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "benz_patent_motorwagen",
+      "motivo": "Mesmo veículo de Benz de 1886."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A proposta é o evento (incêndio), enquanto a candidata 'Hindenburg' descreve o dirigível; evento e objeto são entidades distintas."
+    }
+  ]
+}

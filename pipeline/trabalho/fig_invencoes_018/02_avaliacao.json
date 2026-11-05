@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, objeto inconfundível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi patenteado este objeto de costura?",
+      "resposta": "1840",
+      "distratores": [
+        "1810",
+        "1870",
+        "1900"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alfinete de segurança",
+        "descricao": "Alfinete com mola e fecho que cobre a ponta, patenteado por Walter Hunt.",
+        "variantes": [
+          "Alfinete de fralda",
+          "Safety pin",
+          "Alfinete de dama"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A caixa mostra o logotipo e o texto 'apple II plus' e a tela tem texto; o nome aparece na imagem, e o modelo (II Plus) difere do Apple II original."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pode ser confundido com máquina de escrever elétrica ou outro modelo de teleimpressor; resposta pouco única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cronômetro mecânico nítido; a marca no mostrador não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de medição é este?",
+      "resposta": "Cronômetro",
+      "distratores": [
+        "Metrônomo",
+        "Barômetro",
+        "Taquímetro"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Cronômetro",
+        "descricao": "Relógio que mede o intervalo de tempo entre o acionamento e a parada.",
+        "variantes": [
+          "Stopwatch",
+          "Cronógrafo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lâmpada de lava nítida, sem texto, inconfundível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi inventado este objeto decorativo?",
+      "resposta": "1960",
+      "distratores": [
+        "1940",
+        "1950",
+        "1970"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lâmpada de lava",
+        "descricao": "Lâmpada decorativa com cera e líquido que sobem e descem, inventada por Edward Craven Walker.",
+        "variantes": [
+          "Lava lamp"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica mostra o monoplano com pilot sob a asa e cauda cruciforme; baixa resolução, mas legível e reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pioneiro da aviação construiu este pequeno monoplano?",
+      "resposta": "Santos-Dumont",
+      "distratores": [
+        "Louis Blériot",
+        "Irmãos Wright",
+        "Henri Farman"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Santos-Dumont Demoiselle",
+        "descricao": "Série de pequenos monoplanos esportivos construídos na França por Alberto Santos-Dumont.",
+        "variantes": [
+          "Demoiselle",
+          "Santos-Dumont Nº 20"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Mostra três tablets diferentes com os nomes 'iPad mini', 'iPad air' e 'iPad Pro' escritos na tela: texto entrega a resposta e há várias entidades."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto limpa, sem texto, veículo único e inconfundível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que engenheiro alemão projetou este veículo de três rodas?",
+      "resposta": "Carl Benz",
+      "distratores": [
+        "Gottlieb Daimler",
+        "Rudolf Diesel",
+        "Nikolaus Otto"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Benz Patent-Motorwagen",
+        "descricao": "Triciclo motorizado de Carl Benz, considerado o primeiro automóvel prático.",
+        "variantes": [
+          "Benz Patent Motorwagen",
+          "Motorwagen"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Diagrama de baixa resolução, pouco legível no celular e pouco reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto histórica famosa e inconfundível; o nome na fuselagem é quase ilegível e a pergunta não é sobre ele; pessoas ao fundo são pequenas.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresa alemã construiu este dirigível?",
+      "resposta": "Luftschiffbau Zeppelin",
+      "distratores": [
+        "Junkers",
+        "Krupp",
+        "Daimler-Benz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Desastre do Hindenburg",
+        "descricao": "Incêndio do dirigível LZ 129 Hindenburg em 6 de maio de 1937, em Lakehurst, Nova Jersey.",
+        "variantes": [
+          "Hindenburg",
+          "LZ 129 Hindenburg"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A placa mostra o logotipo e o texto 'Raspberry Pi 4 Model', entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pessoas comuns aparecem na imagem, inclusive uma em primeiro plano à esquerda."
+    }
+  ]
+}

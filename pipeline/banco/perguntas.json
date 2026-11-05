@@ -374871,5 +374871,105 @@
       "autor": "Web Summit",
       "licenca": "CC BY 2.0"
     }
+  },
+  {
+    "id": "q19002",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "alfinete_de_seguranca",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que década foi patenteado este objeto de costura?",
+    "resposta": "1840",
+    "distratores": [
+      "1810",
+      "1870",
+      "1900"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Safety_pin",
+      "https://pt.wikipedia.org/wiki/Alfinete_de_dama"
+    ],
+    "imagem": {
+      "arquivo": "q19002.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Safety_Pin.jpg",
+      "autor": "Haragayato",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19003",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "demoiselle",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que pioneiro da aviação construiu este pequeno monoplano?",
+    "resposta": "Santos-Dumont",
+    "distratores": [
+      "Louis Blériot",
+      "Irmãos Wright",
+      "Henri Farman"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Santos-Dumont_Demoiselle",
+      "https://pt.wikipedia.org/wiki/Santos-Dumont_Demoiselle"
+    ],
+    "imagem": {
+      "arquivo": "q19003.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Santos_Dumont_Demoiselle.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q19004",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "benz_patent_motorwagen",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que engenheiro alemão projetou este veículo de três rodas?",
+    "resposta": "Carl Benz",
+    "distratores": [
+      "Gottlieb Daimler",
+      "Rudolf Diesel",
+      "Nikolaus Otto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen",
+      "https://pt.wikipedia.org/wiki/Benz_Patent-Motorwagen"
+    ],
+    "imagem": {
+      "arquivo": "q19004.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Patent-Motorwagen_Nr.1_Benz_2.jpg",
+      "autor": "DaimlerChrysler AG",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19005",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "desastre_do_hindenburg",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que empresa alemã construiu este dirigível?",
+    "resposta": "Luftschiffbau Zeppelin",
+    "distratores": [
+      "Junkers",
+      "Krupp",
+      "Daimler-Benz"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hindenburg_disaster",
+      "https://pt.wikipedia.org/wiki/Desastre_do_Hindenburg"
+    ],
+    "imagem": {
+      "arquivo": "q19005.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hindenburg_disaster.jpg",
+      "autor": "Sam Shere",
+      "licenca": "Public domain"
+    }
   }
 ]
