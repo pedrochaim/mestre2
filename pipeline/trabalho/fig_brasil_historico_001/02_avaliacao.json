@@ -1,0 +1,230 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida; o lema faz parte do desenho e não nomeia o país. Pergunta sobre o acontecimento ligado à adoção.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta bandeira foi adotada poucos dias depois de que acontecimento?",
+      "resposta": "Proclamação da República",
+      "distratores": [
+        "Independência do Brasil",
+        "Abolição da escravatura",
+        "Fim da Guerra do Paraguai"
+      ],
+      "ancora": {
+        "nome": "Bandeira do Brasil",
+        "descricao": "Bandeira nacional do Brasil, adotada em 19 de novembro de 1889, com losango amarelo, disco azul e lema Ordem e Progresso.",
+        "variantes": [
+          "Bandeira nacional do Brasil",
+          "Auriverde"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Palácio rosa inconfundível, sem texto nem pessoas em primeiro plano. Pergunta pelo século do início da construção.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que século começou a ser construído este palácio, antiga residência de verão de um imperador brasileiro?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século dezessete",
+        "Século dezoito",
+        "Século vinte"
+      ],
+      "ancora": {
+        "nome": "Museu Imperial de Petrópolis",
+        "descricao": "Museu instalado no antigo Palácio Imperial de Petrópolis (RJ), residência de verão de Dom Pedro II, cuja construção começou em 1845.",
+        "variantes": [
+          "Palácio Imperial de Petrópolis",
+          "Museu Imperial"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O nome 'Real Gabinete Portuguez de Leitura' está escrito na fachada e entrega a resposta; há também pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato pintado, sem texto, de figura pública da Independência. Reconhecimento em múltipla escolha com distratores da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este homem, retratado numa pintura brasileira do século dezenove?",
+      "resposta": "José Bonifácio",
+      "distratores": [
+        "Gonçalves Ledo",
+        "Visconde de Cairu",
+        "Diogo Feijó"
+      ],
+      "ancora": {
+        "nome": "José Bonifácio",
+        "descricao": "José Bonifácio de Andrada e Silva (1763–1838), estadista, naturalista e mentor da Independência do Brasil.",
+        "variantes": [
+          "José Bonifácio de Andrada e Silva",
+          "Patriarca da Independência"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Escultura de granito nítida, sem texto, reconhecível. Pergunta pela década de conclusão.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década foi concluído este monumento, que homenageia expedições de desbravamento do interior?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1930",
+        "Década de 1960"
+      ],
+      "ancora": {
+        "nome": "Monumento às Bandeiras",
+        "descricao": "Grande escultura em granito de Victor Brecheret, na entrada do Parque Ibirapuera, em São Paulo, em homenagem aos bandeirantes.",
+        "variantes": [
+          "Monument to the Bandeiras"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro de presidente, sem texto. Pergunta sobre fato do seu governo, que só se alcança após reconhecê-lo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que revolta de 1904 aconteceu no Rio de Janeiro durante o governo deste presidente?",
+      "resposta": "Revolta da Vacina",
+      "distratores": [
+        "Revolta da Chibata",
+        "Revolta do Contestado",
+        "Guerra de Canudos"
+      ],
+      "ancora": {
+        "nome": "Rodrigues Alves",
+        "descricao": "Francisco de Paula Rodrigues Alves (1848–1919), quinto presidente do Brasil, de 1902 a 1906.",
+        "variantes": [
+          "Francisco de Paula Rodrigues Alves"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato pintado sem texto de figura pública; reconhecimento em múltipla escolha com distratores de mulheres da realeza luso-brasileira.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esta mulher da família real portuguesa, retratada numa pintura do início do século dezenove?",
+      "resposta": "Carlota Joaquina",
+      "distratores": [
+        "Dona Maria Primeira",
+        "Dona Leopoldina",
+        "Teresa Cristina"
+      ],
+      "ancora": {
+        "nome": "Carlota Joaquina",
+        "descricao": "Carlota Joaquina de Bourbon (1775–1830), infanta da Espanha e rainha de Portugal, esposa de Dom João Sexto.",
+        "variantes": [
+          "Carlota Joaquina de Bourbon",
+          "Carlota Joaquina da Espanha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto do cadáver de Antônio Conselheiro: imagem mórbida e a pessoa não é reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A legenda em português no quadro ('Retrato verdadeiro do V.P. Antonio Vieira...') entrega o nome e está visível; texto ilegível no celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, com faixa presidencial e sem texto. Reconhecimento com distratores de presidentes próximos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este presidente brasileiro?",
+      "resposta": "Fernando Henrique Cardoso",
+      "distratores": [
+        "Itamar Franco",
+        "Fernando Collor",
+        "José Sarney"
+      ],
+      "ancora": {
+        "nome": "Fernando Henrique Cardoso",
+        "descricao": "Sociólogo e político brasileiro, 34º presidente do Brasil de 1995 a 2003.",
+        "variantes": [
+          "FHC"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido e sem texto. Pergunta pela década do governo.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década este presidente governou o Brasil?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "ancora": {
+        "nome": "Ernesto Geisel",
+        "descricao": "General e político brasileiro, 29º presidente do Brasil (1974–1979), durante a ditadura militar.",
+        "variantes": [
+          "Ernesto Beckmann Geisel"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido de militar e presidente, sem texto. Pergunta sobre parentesco, que exige reconhecê-lo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este marechal, presidente do Brasil, era sobrinho de qual outro presidente?",
+      "resposta": "Deodoro da Fonseca",
+      "distratores": [
+        "Floriano Peixoto",
+        "Prudente de Morais",
+        "Campos Sales"
+      ],
+      "ancora": {
+        "nome": "Hermes da Fonseca",
+        "descricao": "Marechal e político brasileiro, oitavo presidente do Brasil (1910–1914), sobrinho de Deodoro da Fonseca.",
+        "variantes": [
+          "Hermes Rodrigues da Fonseca"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta bandeira foi adotada poucos dias depois de que acontecimento?",
+        "resposta": "Proclamação da República"
+      },
+      "existentes": [
+        {
+          "id": "q00597",
+          "pergunta": "As estrelas da bandeira brasileira reproduzem o céu visto de qual cidade na manhã de 15 de novembro de 1889?",
+          "resposta": "Rio de Janeiro"
+        },
+        {
+          "id": "q04952",
+          "pergunta": "Ao lado de Miguel Lemos, que líder positivista idealizou a bandeira republicana do Brasil, adotada em 1889?",
+          "resposta": "Raimundo Teixeira Mendes"
+        },
+        {
+          "id": "q13251",
+          "pergunta": "Na bandeira do Brasil, só uma estrela fica acima da faixa com o lema Ordem e Progresso. Que estado ela representa?",
+          "resposta": "Pará"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é este homem, brasileiro nascido no século dezoito?",
+        "resposta": "José Bonifácio"
+      },
+      "existentes": [
+        {
+          "id": "q15353",
+          "pergunta": "Que mineral foi batizado em homenagem a este naturalista brasileiro?",
+          "resposta": "Andradita"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que década foi concluído este monumento, que homenageia expedições de desbravamento do interior?",
+        "resposta": "Década de 1950"
+      },
+      "existentes": [
+        {
+          "id": "q03964",
+          "pergunta": "Que escultor, que expôs na Semana de Arte Moderna de 1922, criou o Monumento às Bandeiras, de granito, junto ao Parque Ibirapuera?",
+          "resposta": "Victor Brecheret"
+        },
+        {
+          "id": "q03965",
+          "pergunta": "Por causa das figuras que fazem força para arrastar uma canoa, o Monumento às Bandeiras, em São Paulo, ganhou que apelido popular?",
+          "resposta": "Empurra-empurra"
+        },
+        {
+          "id": "q16438",
+          "pergunta": "Que monumento é este?",
+          "resposta": "Monumento às Bandeiras"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o evento que precedeu a adoção da bandeira; as existentes tratam de estrelas, idealizador e estado do Pará."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a pessoa é outro fato que o mineral batizado em sua homenagem (andradita); a resposta de uma não dá a outra."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Década de conclusão do monumento é fato distinto de escultor, apelido ou nome do monumento."
+    }
+  ]
+}

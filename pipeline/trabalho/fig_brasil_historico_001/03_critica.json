@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Adoção em 19/11/1889, quatro dias após a Proclamação, confirmada nos trechos. Sem a figura não se sabe de qual bandeira se fala, e os distratores são errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro (1845), mas 'imperador brasileiro' já limita ao século dezenove, o único do Império. A figura vira enfeite e os distratores são implausíveis. Não há conserto simples sem vazar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Pintura brasileira do século dezenove' não está confirmada: não há informação sobre o tipo de imagem, e o retrato do Museu Paulista é de Oscar Pereira da Silva, provavelmente posterior. Troquei por um fato verificável (nascido no século dezoito, em 1763). Os distratores também nasceram no século dezoito e não são Bonifácio.",
+      "reescrita": {
+        "pergunta": "Quem é este homem, brasileiro nascido no século dezoito?",
+        "resposta": "José Bonifácio",
+        "distratores": [
+          "Gonçalves Ledo",
+          "Visconde de Cairu",
+          "Diogo Feijó"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurado em 1953 e concluído em 1954 segundo os trechos, ambos na década de 1950. O enunciado não entrega a década, e os distratores estão errados (encomenda de 1921, mas conclusão em 1953/54).",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com 'revolta de 1904 no Rio de Janeiro' dá para responder sem a figura (Revolta da Vacina). Tirei o ano e deixei o presidente como ponto de reconhecimento. O fato está nos trechos.",
+      "reescrita": {
+        "pergunta": "Que revolta popular no Rio de Janeiro marcou o governo deste presidente?",
+        "resposta": "Revolta da Vacina",
+        "distratores": [
+          "Revolta da Chibata",
+          "Revolta do Contestado",
+          "Guerra de Canudos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A 'pintura do início do século dezenove' não é verificável a partir de `mostra`. A pista 'família real portuguesa' é fraca, e qualquer pista melhor (esposa de Dom João, rainha) entrega a resposta ou deixa Dona Maria Primeira defensável.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Os distratores são presidentes brasileiros da mesma época e nenhum deles é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Governou de 1974 a 1979, portanto na década de 1970. É preciso reconhecer o presidente, e os distratores são décadas erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sobrinho de Deodoro da Fonseca, confirmado nos trechos. Sem a figura não se sabe quem é, e os distratores são outros presidentes que não são o tio.",
+      "reescrita": null
+    }
+  ]
+}

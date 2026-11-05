@@ -1,0 +1,432 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bandeira do Brasil",
+        "descricao": "Bandeira nacional do Brasil, adotada em 19 de novembro de 1889, com losango amarelo, disco azul e lema Ordem e Progresso.",
+        "variantes": [
+          "Bandeira nacional do Brasil",
+          "Auriverde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional",
+            "Auriverde",
+            "Bandeira Nacional"
+          ]
+        },
+        {
+          "id": "bandeira_do_ira",
+          "nome": "Bandeira do Irã",
+          "descricao": "Bandeira nacional do Irã, tricolor verde, branca e vermelha com emblema vermelho e inscrições nas bordas das faixas.",
+          "variantes": []
+        },
+        {
+          "id": "panair_do_brasil",
+          "nome": "Panair do Brasil",
+          "descricao": "Companhia aérea brasileira que operou de 1929 até ser fechada pelo governo militar em 1965.",
+          "variantes": [
+            "Panair"
+          ]
+        },
+        {
+          "id": "bandeira_do_para",
+          "nome": "Bandeira do Pará",
+          "descricao": "Bandeira do estado brasileiro do Pará, com faixa diagonal branca e estrela azul sobre fundo vermelho.",
+          "variantes": [
+            "Pará"
+          ]
+        },
+        {
+          "id": "bandeira_do_mali",
+          "nome": "Bandeira do Mali",
+          "descricao": "Bandeira atual do Mali: tricolor vertical verde, amarelo e vermelho, sem emblemas.",
+          "variantes": [
+            "Mali",
+            "Bandeira da República do Mali"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "José Bonifácio",
+        "descricao": "José Bonifácio de Andrada e Silva (1763–1838), estadista, naturalista e mentor da Independência do Brasil.",
+        "variantes": [
+          "José Bonifácio de Andrada e Silva",
+          "Patriarca da Independência"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jose_bonifacio_de_andrada_e_silva",
+          "nome": "José Bonifácio de Andrada e Silva",
+          "descricao": "Naturalista, estadista e poeta brasileiro, o Patriarca da Independência do Brasil.",
+          "variantes": [
+            "José Bonifácio",
+            "Patriarca da Independência"
+          ]
+        },
+        {
+          "id": "hino_da_independencia_do_brasil",
+          "nome": "Hino da Independência do Brasil",
+          "descricao": "Hino patriótico brasileiro com letra de Evaristo da Veiga, celebrando a independência de 1822.",
+          "variantes": [
+            "Hino da Independência"
+          ]
+        },
+        {
+          "id": "hino_da_independencia_do_brasil_2",
+          "nome": "Hino da Independência do Brasil",
+          "descricao": "Hino patriótico brasileiro com música de Dom Pedro Primeiro, que começa com os versos Já podeis, da Pátria filhos.",
+          "variantes": [
+            "Hino da Independência"
+          ]
+        },
+        {
+          "id": "grito_de_dolores",
+          "nome": "Grito de Dolores",
+          "descricao": "Chamado à revolta feito na cidade mexicana de Dolores em 16 de setembro de 1810, que iniciou a guerra de independência do México.",
+          "variantes": [
+            "Grito de Independencia",
+            "Cry of Dolores"
+          ]
+        },
+        {
+          "id": "independencia_da_india",
+          "nome": "Independência da Índia",
+          "descricao": "Fim do domínio britânico sobre a Índia, acompanhado da partição que criou o Paquistão.",
+          "variantes": [
+            "Partição da Índia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Monumento às Bandeiras",
+        "descricao": "Grande escultura em granito de Victor Brecheret, na entrada do Parque Ibirapuera, em São Paulo, em homenagem aos bandeirantes.",
+        "variantes": [
+          "Monument to the Bandeiras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monumento_as_bandeiras",
+          "nome": "Monumento às Bandeiras",
+          "descricao": "Grande escultura de granito de Victor Brecheret, junto ao Parque Ibirapuera, em São Paulo, que homenageia as bandeiras.",
+          "variantes": [
+            "Monumento aos Bandeirantes",
+            "Monumento às Bandeiras de São Paulo"
+          ]
+        },
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        },
+        {
+          "id": "monumento_nacional_aos_mortos_da_segunda_guerra_mundial",
+          "nome": "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+          "descricao": "Monumento no Rio de Janeiro, inaugurado em 1960, que guarda os restos mortais dos pracinhas brasileiros mortos na Itália.",
+          "variantes": [
+            "Monumento aos Pracinhas",
+            "Monumento aos Mortos da Segunda Guerra Mundial"
+          ]
+        },
+        {
+          "id": "manuel_bandeira",
+          "nome": "Manuel Bandeira",
+          "descricao": "Poeta modernista pernambucano (1886–1968), autor de Libertinagem.",
+          "variantes": []
+        },
+        {
+          "id": "estatua_equestre_de_d_pedro_i",
+          "nome": "Estátua equestre de D. Pedro I",
+          "descricao": "Monumento de bronze a D. Pedro I a cavalo, na Praça Tiradentes, no centro do Rio de Janeiro, primeira escultura pública do país.",
+          "variantes": [
+            "Monumento a D. Pedro I",
+            "Estátua equestre de Dom Pedro I"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Rodrigues Alves",
+        "descricao": "Francisco de Paula Rodrigues Alves (1848–1919), quinto presidente do Brasil, de 1902 a 1906.",
+        "variantes": [
+          "Francisco de Paula Rodrigues Alves"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "origem_das_aves",
+          "nome": "Origem das aves",
+          "descricao": "Questão científica sobre a ancestralidade evolutiva das aves, hoje explicada pela descendência de dinossauros terópodes.",
+          "variantes": [
+            "Origin of birds"
+          ]
+        },
+        {
+          "id": "daniel_alves",
+          "nome": "Daniel Alves",
+          "descricao": "Lateral-direito brasileiro, um dos jogadores mais premiados da história do futebol.",
+          "variantes": [
+            "Dani Alves",
+            "Daniel Alves da Silva"
+          ]
+        },
+        {
+          "id": "jair_rodrigues",
+          "nome": "Jair Rodrigues",
+          "descricao": "Cantor brasileiro (1939–2014), pai dos músicos Luciana Mello e Jair Oliveira.",
+          "variantes": [
+            "Jair Rodrigues de Oliveira"
+          ]
+        },
+        {
+          "id": "dani_lins",
+          "nome": "Dani Lins",
+          "descricao": "Levantadora brasileira de vôlei, campeã olímpica em 2012.",
+          "variantes": [
+            "Danielle Rodrigues Lins"
+          ]
+        },
+        {
+          "id": "rodrigo_pessoa",
+          "nome": "Rodrigo Pessoa",
+          "descricao": "Cavaleiro brasileiro de saltos, campeão olímpico em Atenas 2004 montando Baloubet du Rouet.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fernando Henrique Cardoso",
+        "descricao": "Sociólogo e político brasileiro, 34º presidente do Brasil de 1995 a 2003.",
+        "variantes": [
+          "FHC"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "enriquecimento_de_uranio",
+          "nome": "Enriquecimento de urânio",
+          "descricao": "Processo que aumenta a proporção do isótopo físsil urânio-235 no urânio, para uso como combustível nuclear.",
+          "variantes": [
+            "Urânio enriquecido"
+          ]
+        },
+        {
+          "id": "clorofluorcarboneto",
+          "nome": "Clorofluorcarboneto",
+          "descricao": "Classe de gases sintéticos com cloro, flúor e carbono, usados em geladeiras e aerossóis e depois banidos por destruírem o ozônio.",
+          "variantes": [
+            "CFC",
+            "Freon"
+          ]
+        },
+        {
+          "id": "grande_colisor_de_hadrons",
+          "nome": "Grande Colisor de Hádrons",
+          "descricao": "Acelerador de partículas do CERN, instalado num túnel circular subterrâneo perto de Genebra.",
+          "variantes": [
+            "LHC",
+            "Large Hadron Collider"
+          ]
+        },
+        {
+          "id": "nfc",
+          "nome": "NFC",
+          "descricao": "Tecnologia de comunicação sem fio por aproximação, de alcance de poucos centímetros, usada em pagamentos com celular e cartão.",
+          "variantes": [
+            "Near-field communication",
+            "Comunicação por campo de proximidade"
+          ]
+        },
+        {
+          "id": "casemiro",
+          "nome": "Casemiro",
+          "descricao": "Volante brasileiro, ex-Real Madrid, que joga na seleção brasileira.",
+          "variantes": [
+            "Carlos Henrique Casimiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ernesto Geisel",
+        "descricao": "General e político brasileiro, 29º presidente do Brasil (1974–1979), durante a ditadura militar.",
+        "variantes": [
+          "Ernesto Beckmann Geisel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "che_guevara",
+          "nome": "Che Guevara",
+          "descricao": "Ernesto Guevara, revolucionário argentino que foi um dos líderes da Revolução Cubana, morto na Bolívia em 1967.",
+          "variantes": [
+            "Ernesto Guevara",
+            "Che"
+          ]
+        },
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "ernst_haeckel",
+          "nome": "Ernst Haeckel",
+          "descricao": "Zoólogo, naturalista e filósofo alemão do século XIX que divulgou o darwinismo e criou termos como ecologia e filo.",
+          "variantes": [
+            "Ernst Heinrich Philipp August Haeckel"
+          ]
+        },
+        {
+          "id": "estados_gerais_de_1789",
+          "nome": "Estados Gerais de 1789",
+          "descricao": "Assembleia dos três estados da França convocada por Luís XVI em 1789, cuja reunião desencadeou a Revolução Francesa.",
+          "variantes": [
+            "Estates General of 1789",
+            "Estados Gerais"
+          ]
+        },
+        {
+          "id": "estadio_rei_balduino",
+          "nome": "Estádio Rei Balduíno",
+          "descricao": "Estádio multiuso em Bruxelas, Bélgica, no planalto de Heysel, conhecido como Heysel.",
+          "variantes": [
+            "Estádio Rei Balduíno (Heysel)",
+            "Heysel",
+            "Estádio Heysel",
+            "King Baudouin Stadium",
+            "Stade Roi Baudouin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Hermes da Fonseca",
+        "descricao": "Marechal e político brasileiro, oitavo presidente do Brasil (1910–1914), sobrinho de Deodoro da Fonseca.",
+        "variantes": [
+          "Hermes Rodrigues da Fonseca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marechal_deodoro_da_fonseca",
+          "nome": "Marechal Deodoro da Fonseca",
+          "descricao": "Militar alagoano que chefiou a Proclamação da República em 1889 e foi o primeiro presidente do Brasil.",
+          "variantes": [
+            "Deodoro da Fonseca",
+            "Manuel Deodoro da Fonseca"
+          ]
+        },
+        {
+          "id": "elza_soares",
+          "nome": "Elza Soares",
+          "descricao": "Cantora brasileira (1930-2022) de samba e MPB, eleita pela BBC a cantora brasileira do milênio.",
+          "variantes": [
+            "Elza Gomes da Conceição"
+          ]
+        },
+        {
+          "id": "hinamatsuri",
+          "nome": "Hinamatsuri",
+          "descricao": "Festa japonesa do Dia das Meninas, em que se expõem bonecas da corte imperial em degraus.",
+          "variantes": [
+            "Dia das Meninas",
+            "Festival das Bonecas",
+            "Hina Matsuri",
+            "Festa das Bonecas"
+          ]
+        },
+        {
+          "id": "segredos_da_selva",
+          "nome": "Segredos da Selva",
+          "descricao": "Vigésimo terceiro filme da franquia Pokémon, de 2020, sobre Koko, um menino criado por um Zarude na floresta.",
+          "variantes": [
+            "Secrets of the Jungle",
+            "Pokémon the Movie: Secrets of the Jungle",
+            "Koko"
+          ]
+        },
+        {
+          "id": "herbie",
+          "nome": "Herbie",
+          "descricao": "Carro com vontade própria, protagonista de uma série de filmes da Disney iniciada em 1968.",
+          "variantes": [
+            "Herbie, o Fusca",
+            "Se o Meu Fusca Falasse"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "bandeira_do_brasil",
+      "motivo": "Mesma bandeira nacional do Brasil, adotada em 1889; variante Auriverde coincide."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "jose_bonifacio_de_andrada_e_silva",
+      "motivo": "Mesma pessoa, Patriarca da Independência."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "monumento_as_bandeiras",
+      "motivo": "Mesma escultura de Brecheret em São Paulo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Rodrigues Alves, presidente do Brasil."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Fernando Henrique Cardoso."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ernesto Geisel; Che Guevara é outra pessoa."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Hermes da Fonseca é diferente de Deodoro da Fonseca (tio); nenhuma outra candidata corresponde."
+    }
+  ]
+}
