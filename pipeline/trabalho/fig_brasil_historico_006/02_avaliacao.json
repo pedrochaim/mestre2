@@ -1,0 +1,248 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; texto parcial no microfone não entrega nada.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que acontecimento levou este vice-presidente a assumir a presidência do Brasil?",
+      "resposta": "Impeachment de Collor",
+      "distratores": [
+        "Renúncia de Jânio Quadros",
+        "Morte de Tancredo Neves",
+        "Suicídio de Getúlio Vargas"
+      ],
+      "ancora": {
+        "nome": "Itamar Franco",
+        "descricao": "Político mineiro, vice de Collor e 33º presidente do Brasil (1992-1995).",
+        "variantes": [
+          "Itamar Augusto Cautiero Franco"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato legível; o cartaz ao fundo não tem nome nem entrega a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década este político foi eleito governador do Rio Grande do Sul?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "ancora": {
+        "nome": "Leonel Brizola",
+        "descricao": "Político trabalhista gaúcho, governador do Rio Grande do Sul e do Rio de Janeiro.",
+        "variantes": [
+          "Leonel de Moura Brizola"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco sem texto; figura pública pouco conhecida, mas a pergunta de ligação é justa com múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem substituiu este político na presidência do Brasil em novembro de 1955?",
+      "resposta": "Nereu Ramos",
+      "distratores": [
+        "Café Filho",
+        "Juscelino Kubitschek",
+        "Eurico Gaspar Dutra"
+      ],
+      "ancora": {
+        "nome": "Carlos Luz",
+        "descricao": "Presidente da Câmara dos Deputados que foi presidente interino do Brasil por três dias em 1955.",
+        "variantes": [
+          "Carlos Coimbra da Luz"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea clara da usina, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década começou a construção desta usina hidrelétrica?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "ancora": {
+        "nome": "Usina de Itaipu",
+        "descricao": "Usina hidrelétrica no rio Paraná, na fronteira entre Brasil e Paraguai.",
+        "variantes": [
+          "Itaipu Binacional",
+          "Barragem de Itaipu"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fotografia antiga nítida, figura famosa, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que revolta do sul do Brasil lutou este revolucionário italiano?",
+      "resposta": "Revolução Farroupilha",
+      "distratores": [
+        "Cabanagem",
+        "Sabinada",
+        "Balaiada"
+      ],
+      "ancora": {
+        "nome": "Giuseppe Garibaldi",
+        "descricao": "General e revolucionário italiano, herói da unificação da Itália, que também lutou na América do Sul.",
+        "variantes": [
+          "Garibaldi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco sem texto, de figura pública.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década este político e diplomata ganhou projeção nacional?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1910",
+        "Década de 1950",
+        "Década de 1960"
+      ],
+      "ancora": {
+        "nome": "Oswaldo Aranha",
+        "descricao": "Político e diplomata gaúcho, ministro de Vargas e presidente da Assembleia Geral da ONU em 1947.",
+        "variantes": [
+          "Oswaldo Euclides de Souza Aranha"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista clara e reconhecível da ponte, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que presidente dá nome oficial a esta ponte?",
+      "resposta": "Costa e Silva",
+      "distratores": [
+        "Castelo Branco",
+        "Médici",
+        "Geisel"
+      ],
+      "ancora": {
+        "nome": "Ponte Rio-Niterói",
+        "descricao": "Ponte sobre a Baía de Guanabara ligando Rio de Janeiro e Niterói, oficialmente Ponte Presidente Costa e Silva.",
+        "variantes": [
+          "Ponte Presidente Costa e Silva"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada de arcos reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ministério tem sede neste palácio?",
+      "resposta": "Ministério das Relações Exteriores",
+      "distratores": [
+        "Ministério da Justiça",
+        "Ministério da Fazenda",
+        "Ministério da Defesa"
+      ],
+      "ancora": {
+        "nome": "Palácio Itamaraty",
+        "descricao": "Palácio de Oscar Niemeyer em Brasília, sede do Ministério das Relações Exteriores.",
+        "variantes": [
+          "Palácio dos Arcos",
+          "Itamaraty"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem icônica sem texto legível; única pergunta do lote com ano.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que ano foi inaugurada esta catedral?",
+      "resposta": "1970",
+      "distratores": [
+        "1960",
+        "1964",
+        "1975"
+      ],
+      "ancora": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral metropolitana de Brasília projetada por Oscar Niemeyer, de colunas curvas.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Catedral Metropolitana Nossa Senhora Aparecida"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato pintado reconhecível; assinatura e placa minúsculas e ilegíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que guerra este governante morreu em combate?",
+      "resposta": "Guerra do Paraguai",
+      "distratores": [
+        "Guerra do Chaco",
+        "Guerra da Cisplatina",
+        "Guerra do Pacífico"
+      ],
+      "ancora": {
+        "nome": "Francisco Solano López",
+        "descricao": "Presidente do Paraguai (1862-1870), morto na Guerra do Paraguai.",
+        "variantes": [
+          "Solano López",
+          "Francisco Solano Lopez"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A fachada traz o texto 'THEATRO MUNICIPAL' bem visível, que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto mostra um oficial de uniforme naval de aspecto norte-americano, não um militar do Exército como Benjamin Constant; a identificação é duvidosa e a resposta não é segura diante da imagem."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década começou a construção desta usina hidrelétrica?",
+        "resposta": "Década de 1970"
+      },
+      "existentes": [
+        {
+          "id": "q02166",
+          "pergunta": "A usina de Itaipu, no rio Paraná, começou a gerar energia em que década do século vinte?",
+          "resposta": "Anos 1980"
+        },
+        {
+          "id": "q02415",
+          "pergunta": "Que famoso conjunto de cachoeiras do rio Paraná desapareceu em 1982, coberto pelas águas do lago da usina de Itaipu?",
+          "resposta": "Salto de Sete Quedas"
+        },
+        {
+          "id": "q02416",
+          "pergunta": "A usina hidrelétrica de Itaipu, no rio Paraná, é dividida meio a meio entre o Brasil e qual país vizinho?",
+          "resposta": "Paraguai"
+        },
+        {
+          "id": "q15437",
+          "pergunta": "Que usina hidrelétrica sul-americana é esta?",
+          "resposta": "Itaipu"
+        },
+        {
+          "id": "q17736",
+          "pergunta": "A usina de Itaipu, no rio Paraná, tem quantas unidades geradoras?",
+          "resposta": "Vinte"
+        },
+        {
+          "id": "q17737",
+          "pergunta": "Em tupi, o nome Itaipu, da usina binacional no rio Paraná, significa o quê?",
+          "resposta": "Pedra que canta"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que revolta brasileira lutou este revolucionário italiano?",
+        "resposta": "Revolução Farroupilha"
+      },
+      "existentes": [
+        {
+          "id": "q03915",
+          "pergunta": "Que ligação o herói da unificação italiana Giuseppe Garibaldi tem com a história do Brasil?",
+          "resposta": "Lutou na Revolução Farroupilha"
+        },
+        {
+          "id": "q04231",
+          "pergunta": "Em que ano morreu este general e revolucionário italiano?",
+          "resposta": "1882"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que presidente dá nome oficial a esta ponte?",
+        "resposta": "Costa e Silva"
+      },
+      "existentes": [
+        {
+          "id": "q04556",
+          "pergunta": "A ponte Rio-Niterói tem um nome oficial pouco usado, que homenageia um presidente do regime militar. Qual?",
+          "resposta": "Costa e Silva"
+        },
+        {
+          "id": "q05838",
+          "pergunta": "Atravessando a baía de Guanabara por mais de treze quilômetros, a ponte Rio-Niterói foi inaugurada em qual década?",
+          "resposta": "Década de 1970"
+        },
+        {
+          "id": "q16088",
+          "pergunta": "Que baía esta ponte atravessa?",
+          "resposta": "Baía de Guanabara"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que ministério tem sede neste palácio?",
+        "resposta": "Ministério das Relações Exteriores"
+      },
+      "existentes": [
+        {
+          "id": "q09123",
+          "pergunta": "Em Brasília, o Palácio Itamaraty, projetado por Niemeyer e cercado por um espelho d'água, também é conhecido por que outro nome?",
+          "resposta": "Palácio dos Arcos"
+        },
+        {
+          "id": "q16551",
+          "pergunta": "Que palácio de Brasília é este?",
+          "resposta": "Palácio do Itamaraty"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que ano foi inaugurada esta catedral?",
+        "resposta": "1970"
+      },
+      "existentes": [
+        {
+          "id": "q04694",
+          "pergunta": "Que arquiteto projetou esta catedral?",
+          "resposta": "Oscar Niemeyer"
+        },
+        {
+          "id": "q07513",
+          "pergunta": "Na entrada da Catedral de Brasília, quatro grandes estátuas de bronze de Alfredo Ceschiatti representam que personagens bíblicos?",
+          "resposta": "Os quatro evangelistas"
+        },
+        {
+          "id": "q07529",
+          "pergunta": "A Catedral de Brasília, de Niemeyer, lembra mãos erguidas ao céu. Quantas colunas curvas de concreto formam sua estrutura?",
+          "resposta": "Dezesseis"
+        },
+        {
+          "id": "q16439",
+          "pergunta": "Em que cidade fica esta catedral?",
+          "resposta": "Brasília"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Década do início da construção é fato diferente da década em que começou a gerar energia."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Garibaldi lutou na Revolução Farroupilha.",
+      "id_existente": "q03915"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: nome oficial da ponte homenageia Costa e Silva.",
+      "id_existente": "q04556"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ministério sediado no palácio é fato diferente do outro nome ou identificação do palácio."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ano de inauguração não é perguntado por nenhuma existente."
+    }
+  ]
+}
