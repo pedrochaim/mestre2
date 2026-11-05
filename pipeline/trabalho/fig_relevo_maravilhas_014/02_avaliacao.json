@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vista aérea urbana com canal e represa ao fundo; não dá para reconhecer a Guarapiranga com resposta única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pico piramidal nevado, reconhecível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem faz trilha até o acampamento-base de qual montanha vê esta montanha dominando o céu a leste?",
+      "resposta": "Monte Everest",
+      "distratores": [
+        "K2",
+        "Annapurna",
+        "Kangchenjunga"
+      ],
+      "ancora": {
+        "nome": "Ama Dablam",
+        "descricao": "Montanha de 6.812 metros no Himalaia oriental, no Nepal, vista na trilha para o acampamento-base do Everest.",
+        "variantes": [
+          "Ama Dablan"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Lago com barco e barqueiro em primeiro plano (pessoas comuns); paisagem genérica, difícil de reconhecer com resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cachoeira em degraus na escarpa do Drakensberg, reconhecível para quem conhece; múltipla com distratores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cachoeira é esta, que despenca em vários saltos de um paredão de rocha?",
+      "resposta": "Cataratas Tugela",
+      "distratores": [
+        "Salto Angel",
+        "Cataratas Kaieteur",
+        "Cataratas Yosemite"
+      ],
+      "ancora": {
+        "nome": "Cataratas Tugela",
+        "descricao": "Conjunto de cachoeiras sazonais nas montanhas Drakensberg, na África do Sul, entre as mais altas do mundo.",
+        "variantes": [
+          "Tugela Falls",
+          "Cachoeira Tugela"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Praia genérica com ondas e morros ao fundo; nada permite reconhecer a Lagoa de Araruama."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vale com lago turquesa e cascata larga, característico de Jiuzhaigou; pessoas minúsculas ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que reserva natural, famosa por lagos coloridos e cascatas, é esta?",
+      "resposta": "Jiuzhaigou",
+      "distratores": [
+        "Huanglong",
+        "Lagos de Plitvice",
+        "Parque Nacional Krka"
+      ],
+      "ancora": {
+        "nome": "Jiuzhaigou",
+        "descricao": "Reserva natural e parque nacional em Sichuan, na China, conhecido por lagos coloridos e cascatas em vale.",
+        "variantes": [
+          "Vale Jiuzhaigou",
+          "Jiuzhaigou Valley"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Falésias brancas de giz com as casas da guarda costeira; reconhecível, sem texto relevante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Estas falésias de giz terminam em qual promontório, perto de Eastbourne?",
+      "resposta": "Beachy Head",
+      "distratores": [
+        "Flamborough Head",
+        "Old Harry Rocks",
+        "South Foreland"
+      ],
+      "ancora": {
+        "nome": "Falésias Seven Sisters",
+        "descricao": "Série de falésias de giz no Canal da Mancha, em East Sussex, Inglaterra, entre o rio Cuckmere e Beachy Head.",
+        "variantes": [
+          "Seven Sisters",
+          "Sete Irmãs"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Encontro das águas barrentas e escuras perto de Manaus; reconhecível, o texto do barco não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade brasileira fica este trecho de rio, onde águas de cores diferentes correm lado a lado?",
+      "resposta": "Manaus",
+      "distratores": [
+        "Belém",
+        "Santarém",
+        "Porto Velho"
+      ],
+      "ancora": {
+        "nome": "Encontro das Águas (rio Negro e Solimões)",
+        "descricao": "Trecho próximo a Manaus onde as águas escuras do rio Negro correm lado a lado com as barrentas do Solimões.",
+        "variantes": [
+          "Encontro das Águas",
+          "Rio Solimões"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ponte romana e Mesquita-Catedral ao fundo identificam Córdoba e o Guadalquivir.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que rio espanhol é este, que passa sob esta ponte antiga?",
+      "resposta": "Guadalquivir",
+      "distratores": [
+        "Tejo",
+        "Ebro",
+        "Douro"
+      ],
+      "ancora": {
+        "nome": "Rio Guadalquivir",
+        "descricao": "Rio do sul da Espanha, o único grande rio navegável do país, que passa por Córdoba e Sevilha.",
+        "variantes": [
+          "Guadalquivir"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cascatas em degraus sobre lagoa turquesa em meio a colinas cársticas, reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que conjunto de cachoeiras, na fronteira entre dois países asiáticos, é este?",
+      "resposta": "Cataratas Ban Gioc",
+      "distratores": [
+        "Cataratas Kuang Si",
+        "Cataratas Erawan",
+        "Cataratas Pagsanjan"
+      ],
+      "ancora": {
+        "nome": "Cataratas Ban Gioc",
+        "descricao": "Conjunto de duas cachoeiras no rio Quây Sơn, na fronteira entre o Vietnã e a China.",
+        "variantes": [
+          "Ban Gioc–Detian",
+          "Cataratas Detian",
+          "Bản Giốc"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Ruínas e torres numa faixa de areia; imagem pouco legível e nada permite reconhecer o Atol das Rocas."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Lago azul entre montanhas áridas do Ladakh, parecido com outros lagos da região (como Tso Moriri); resposta não é única pela imagem."
+    }
+  ]
+}

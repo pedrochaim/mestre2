@@ -1,0 +1,54 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que reserva natural chinesa, famosa por lagos coloridos e cascatas, é esta?",
+        "resposta": "Jiuzhaigou"
+      },
+      "existentes": [
+        {
+          "id": "q18518",
+          "pergunta": "Que vale chinês, com cachoeiras e lagos coloridos, é este?",
+          "resposta": "Jiuzhaigou"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade do Amazonas fica este trecho de rio?",
+        "resposta": "Manaus"
+      },
+      "existentes": [
+        {
+          "id": "q02137",
+          "pergunta": "Perto de Manaus, as águas do rio Negro e do Solimões correm lado a lado por quilômetros sem se misturar. O que explica isso?",
+          "resposta": "Temperatura, velocidade e sedimentos"
+        },
+        {
+          "id": "q02442",
+          "pergunta": "Perto de Manaus, no Encontro das Águas, o escuro rio Negro corre lado a lado com qual rio de águas barrentas?",
+          "resposta": "Solimões"
+        },
+        {
+          "id": "q14265",
+          "pergunta": "Que fenômeno natural do Amazonas, perto de Manaus, aparece nesta imagem?",
+          "resposta": "Encontro das Águas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo lugar (Jiuzhaigou) a partir da imagem, com descrição equivalente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a cidade (Manaus) onde fica o trecho de rio; as existentes perguntam sobre o fenômeno, o rio Solimões ou a explicação, e a resposta Manaus já vem no enunciado. Fato diferente."
+    }
+  ]
+}

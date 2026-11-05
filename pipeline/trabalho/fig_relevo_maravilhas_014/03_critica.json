@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato está no trecho, mas a figura é enfeite: 'acampamento-base' já leva ao Everest sem ver a imagem. Pistas que identificariam a montanha (visível na trilha do Everest) não são únicas (Lhotse, Nuptse, Pumori).",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vários saltos de um paredão' também descreve Cataratas Yosemite (três quedas), um distrator defensável. Troquei a pista pelo país, que ajuda sem entregar, e usei distratores sul-africanos.",
+      "reescrita": {
+        "pergunta": "Que cachoeira sul-africana, formada por vários saltos, é esta?",
+        "resposta": "Cataratas Tugela",
+        "distratores": [
+          "Cataratas Augrabies",
+          "Cataratas Howick",
+          "Cataratas Mac-Mac"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Lagos coloridos e cascatas também descrevem Plitvice e Krka (distratores defensáveis). Acrescentar o país resolve e os distratores passam a ser chineses.",
+      "reescrita": {
+        "pergunta": "Que reserva natural chinesa, famosa por lagos coloridos e cascatas, é esta?",
+        "resposta": "Jiuzhaigou",
+        "distratores": [
+          "Zhangjiajie",
+          "Montanhas Huangshan",
+          "Floresta de Pedra"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Perto de Eastbourne' entrega Beachy Head sem ver a figura. Troquei por pista geral, que não identifica sozinha. O fato está no trecho.",
+      "reescrita": {
+        "pergunta": "Estas falésias de giz, no sul da Inglaterra, terminam em qual promontório?",
+        "resposta": "Beachy Head",
+        "distratores": [
+          "Flamborough Head",
+          "Old Harry Rocks",
+          "South Foreland"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Descrever as águas de cores diferentes lado a lado entrega o fenômeno famoso sem a figura. Santarém (encontro Tapajós–Amazonas) também seria defensável. Restringi ao Amazonas e tirei a descrição.",
+      "reescrita": {
+        "pergunta": "Em que cidade do Amazonas fica este trecho de rio?",
+        "resposta": "Manaus",
+        "distratores": [
+          "Parintins",
+          "Tefé",
+          "Itacoatiara"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Um trecho de rio é difícil de reconhecer só pela foto, e a 'ponte antiga' não está confirmada para esta imagem. Tejo, Douro e Ebro também são rios espanhóis com pontes antigas. Sem conserto confiável.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fronteira China–Vietnã e as duas quedas estão nos trechos. O enunciado não entrega o nome, e os distratores são cachoeiras asiáticas que não ficam em fronteira.",
+      "reescrita": null
+    }
+  ]
+}
