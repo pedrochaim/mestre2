@@ -1,0 +1,347 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nave Orion",
+        "descricao": "Cápsula espacial tripulada da NASA, com módulo de serviço europeu, usada no programa Artemis.",
+        "variantes": [
+          "Orion MPCV",
+          "Orion Multi-Purpose Crew Vehicle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "laranja_de_umbigo",
+          "nome": "Laranja-de-umbigo",
+          "descricao": "Variedade de laranja sem sementes, com um segundo fruto rudimentar na ponta, surgida no Brasil",
+          "variantes": [
+            "Laranja-baía",
+            "Laranja-da-baía",
+            "Washington navel",
+            "Navel orange"
+          ]
+        },
+        {
+          "id": "new_horizons",
+          "nome": "New Horizons",
+          "descricao": "Sonda da NASA lançada em 2006 que sobrevoou Plutão em 2015 e depois o objeto Arrokoth.",
+          "variantes": []
+        },
+        {
+          "id": "betelgeuse",
+          "nome": "Betelgeuse",
+          "descricao": "Estrela supergigante vermelha da constelação de Órion, que marca o ombro do caçador.",
+          "variantes": [
+            "Alfa de Órion",
+            "Betelgeuze"
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "WR 124",
+        "descricao": "Estrela Wolf-Rayet na constelação de Sagita, cercada pela nebulosa M1-67.",
+        "variantes": [
+          "QR Sagittae",
+          "QR Sge",
+          "Nebulosa M1-67"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "nebulosa_da_aguia",
+          "nome": "Nebulosa da Águia",
+          "descricao": "Nebulosa de formação de estrelas na constelação da Serpente, onde ficam os Pilares da Criação (Messier 16).",
+          "variantes": [
+            "Messier 16",
+            "M16",
+            "NGC 6611",
+            "Pilares da Criação"
+          ]
+        },
+        {
+          "id": "nebulosa_da_bolha",
+          "nome": "Nebulosa da Bolha",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, também chamada NGC 7635, em forma de bolha criada pelo vento de uma estrela massiva.",
+          "variantes": [
+            "NGC 7635",
+            "Sharpless 162",
+            "Caldwell 11",
+            "Bubble Nebula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Nebulosa do Anel do Sul",
+        "descricao": "Nebulosa planetária NGC 3132, na constelação de Vela, fotografada pelo telescópio James Webb.",
+        "variantes": [
+          "NGC 3132",
+          "Nebulosa das Oito Explosões",
+          "Caldwell 74"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_roseta",
+          "nome": "Nebulosa Roseta",
+          "descricao": "Região H II na constelação do Unicórnio, associada ao aglomerado aberto NGC 2244, com formato de rosa.",
+          "variantes": [
+            "Rosette Nebula",
+            "Caldwell 49",
+            "NGC 2237"
+          ]
+        },
+        {
+          "id": "centaurus_a",
+          "nome": "Centaurus A",
+          "descricao": "Galáxia ativa na constelação de Centaurus, com faixa escura de poeira e jatos, a rádio-galáxia mais próxima da Terra.",
+          "variantes": [
+            "NGC 5128",
+            "Caldwell 77"
+          ]
+        },
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        },
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sonda Rosetta",
+        "descricao": "Sonda espacial da Agência Espacial Europeia lançada em 2004 para estudar o cometa 67P/Churyumov–Gerasimenko.",
+        "variantes": [
+          "Rosetta",
+          "Missão Rosetta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "isetta",
+          "nome": "Isetta",
+          "descricao": "Microcarro em formato de ovo com porta frontal, projetado na Itália pela Iso e produzido sob licença em vários países.",
+          "variantes": [
+            "Romi-Isetta",
+            "Iso Isetta",
+            "BMW Isetta"
+          ]
+        },
+        {
+          "id": "roleta",
+          "nome": "Roleta",
+          "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
+          "variantes": [
+            "Roleta de cassino"
+          ]
+        },
+        {
+          "id": "rosa",
+          "nome": "Rosa",
+          "descricao": "Planta lenhosa do gênero Rosa, da família Rosaceae, ou a flor que ela produz.",
+          "variantes": [
+            "Roseira",
+            "Rosa silvestre",
+            "Rosa (gênero)"
+          ]
+        },
+        {
+          "id": "ronda_rousey",
+          "nome": "Ronda Rousey",
+          "descricao": "Lutadora americana, primeira campeã feminina do UFC e medalhista olímpica.",
+          "variantes": [
+            "Rowdy Ronda"
+          ]
+        },
+        {
+          "id": "cafe_robusta",
+          "nome": "Café robusta",
+          "descricao": "Espécie de cafeeiro Coffea canephora, cultivada no Brasil sobretudo na variedade conilon, de grão mais amargo e rico em cafeína.",
+          "variantes": [
+            "Conilon",
+            "Coffea canephora",
+            "Robusta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "NGC 1300",
+        "descricao": "Galáxia espiral barrada na constelação de Eridanus, a cerca de 69 milhões de anos-luz da Terra.",
+        "variantes": [
+          "NGC1300"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lockheed_c_130_hercules",
+          "nome": "Lockheed C-130 Hercules",
+          "descricao": "Avião militar de transporte turboélice quadrimotor americano, fabricado pela Lockheed.",
+          "variantes": [
+            "C-130",
+            "Hercules"
+          ]
+        },
+        {
+          "id": "galaxia_do_charuto",
+          "nome": "Galáxia do Charuto",
+          "descricao": "Galáxia starburst na Ursa Maior, também chamada Messier 82, membro do Grupo M81.",
+          "variantes": [
+            "Messier 82",
+            "M82",
+            "NGC 3034",
+            "Cigar Galaxy"
+          ]
+        },
+        {
+          "id": "nebulosa_da_borboleta",
+          "nome": "Nebulosa da Borboleta",
+          "descricao": "Nebulosa planetária bipolar NGC 6302, na constelação do Escorpião, com formato de asas de borboleta.",
+          "variantes": [
+            "NGC 6302",
+            "Nebulosa do Inseto",
+            "Caldwell 69"
+          ]
+        },
+        {
+          "id": "galaxia_do_escultor",
+          "nome": "Galáxia do Escultor",
+          "descricao": "Galáxia espiral intermediária com intensa formação de estrelas, na constelação do Escultor, também chamada NGC 253.",
+          "variantes": [
+            "NGC 253",
+            "Galáxia da Moeda de Prata",
+            "Caldwell 65"
+          ]
+        },
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nave Orion não consta entre as candidatas; nenhuma é a cápsula."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "WR 124 é uma estrela em Sagita, diferente das nebulosas candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "NGC 3132 em Vela não coincide com nenhuma candidata (NGC diferentes)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sonda Rosetta não consta entre as candidatas; apenas nomes parecidos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "NGC 1300 não consta entre as candidatas."
+    }
+  ]
+}

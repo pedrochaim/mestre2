@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Projetado para lançar' é ambíguo: o Ares I, do Constellation, também foi projetado para lançá-la. Fixar no primeiro voo, de 2022, que está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em novembro de dois mil e vinte e dois, que foguete lançou esta cápsula em seu primeiro voo rumo à Lua?",
+        "resposta": "Space Launch System (SLS)",
+        "distratores": [
+          "Saturn V",
+          "Falcon Heavy",
+          "Ariane 5"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos e o enunciado não entrega a constelação. Os distratores são constelações vizinhas e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A definição no enunciado (gás expelido por estrela moribunda) quase entrega 'planetária'. Também cabe a um remanescente de supernova. Retirar a pista.",
+      "reescrita": {
+        "pergunta": "Que tipo de nebulosa é esta, fotografada pelo telescópio espacial James Webb?",
+        "resposta": "Nebulosa planetária",
+        "distratores": [
+          "Nebulosa de reflexão",
+          "Nebulosa escura",
+          "Remanescente de supernova"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Desceu num cometa' junto com 'sonda europeia' permite responder sem a figura. Retirar a pista.",
+      "reescrita": {
+        "pergunta": "Que módulo de pouso viajou junto com esta sonda?",
+        "resposta": "Philae",
+        "distratores": [
+          "Huygens",
+          "Beagle 2",
+          "Schiaparelli"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estrutura alongada cortando o centro' descreve a barra e entrega 'barrada'. Trocar por uma pista neutra, a constelação.",
+      "reescrita": {
+        "pergunta": "Na constelação de Eridanus, que tipo de galáxia é esta?",
+        "resposta": "Espiral barrada",
+        "distratores": [
+          "Espiral normal",
+          "Lenticular",
+          "Elíptica"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cápsula Orion com módulo de serviço e painéis solares, sem texto que entregue a resposta. Operário pequeno ao fundo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que foguete foi projetado para lançar esta cápsula espacial?",
+      "resposta": "Space Launch System (SLS)",
+      "distratores": [
+        "Saturn V",
+        "Falcon Heavy",
+        "Ariane 5"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nave Orion",
+        "descricao": "Cápsula espacial tripulada da NASA, com módulo de serviço europeu, usada no programa Artemis.",
+        "variantes": [
+          "Orion MPCV",
+          "Orion Multi-Purpose Crew Vehicle"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Selo soviético com ilustração artística e texto em russo (Dia da Cosmonáutica, URSS, 1972). Não é uma imagem clara de Salyut 1 e a estação não é identificável."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble de WR 124 com a nebulosa M1-67, sem texto. Estrela central cercada por nebulosa alaranjada.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que constelação fica esta estrela, cercada por uma nebulosa de material expelido?",
+      "resposta": "Sagita",
+      "distratores": [
+        "Lira",
+        "Cisne",
+        "Golfinho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "WR 124",
+        "descricao": "Estrela Wolf-Rayet na constelação de Sagita, cercada pela nebulosa M1-67.",
+        "variantes": [
+          "QR Sagittae",
+          "QR Sge",
+          "Nebulosa M1-67"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem do JWST da Nebulosa do Anel do Sul, sem texto, de forma bem característica.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nebulosa é esta, formada pelas camadas de gás expelidas por uma estrela moribunda?",
+      "resposta": "Nebulosa planetária",
+      "distratores": [
+        "Nebulosa de reflexão",
+        "Nebulosa escura",
+        "Remanescente de supernova"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa do Anel do Sul",
+        "descricao": "Nebulosa planetária NGC 3132, na constelação de Vela, fotografada pelo telescópio James Webb.",
+        "variantes": [
+          "NGC 3132",
+          "Nebulosa das Oito Explosões",
+          "Caldwell 74"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Renderização limpa da sonda Rosetta com fundo branco e sem texto. Painéis solares longos e antena parabólica são característicos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que módulo de pouso acompanhava esta sonda europeia e desceu num cometa?",
+      "resposta": "Philae",
+      "distratores": [
+        "Huygens",
+        "Beagle 2",
+        "Schiaparelli"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sonda Rosetta",
+        "descricao": "Sonda espacial da Agência Espacial Europeia lançada em 2004 para estudar o cometa 67P/Churyumov–Gerasimenko.",
+        "variantes": [
+          "Rosetta",
+          "Missão Rosetta"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Corpo cinzento craterizado, parecido com outras luas geladas. A imagem não permite reconhecer Febe, e a figura viraria enfeite."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Astronauta de viseira espelhada ao lado da bandeira. A pessoa não é identificável pela imagem, e fotos assim existem de várias missões Apollo."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Renderização em 3D de um telescópio, pouco reconhecível. A resposta não seria única nem identificável pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clássica do Hubble de uma galáxia espiral barrada, sem texto. A forma permite classificar o tipo, mas não identificar com unicidade qual galáxia é, então a pergunta é sobre o tipo.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de galáxia é esta, com uma estrutura alongada de estrelas cortando o centro?",
+      "resposta": "Espiral barrada",
+      "distratores": [
+        "Espiral normal",
+        "Lenticular",
+        "Elíptica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "NGC 1300",
+        "descricao": "Galáxia espiral barrada na constelação de Eridanus, a cerca de 69 milhões de anos-luz da Terra.",
+        "variantes": [
+          "NGC1300"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Lua cinzenta craterizada, que pode ser confundida com Rea, Tétis e outras luas geladas de Saturno. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de turistas e de vários edifícios, com muitas pessoas comuns visíveis. O Jantar Mantar tem versões parecidas em outras cidades, então o reconhecimento não é único."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Cúpulas distantes numa paisagem vulcânica. Não dá para reconhecer o conjunto de Mauna Kea nem distinguir de outros observatórios em montanhas."
+    }
+  ]
+}
