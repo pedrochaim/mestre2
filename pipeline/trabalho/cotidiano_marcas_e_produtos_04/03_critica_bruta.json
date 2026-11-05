@@ -1,0 +1,436 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Bradham criou a bebida como Brad's Drink; o nome Pepsi-Cola só veio em 1898, então 'batizou a Pepsi' é impreciso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome Pepsi-Cola, adotado em 1898 pelo farmacêutico Caleb Bradham, remete a uma promessa da bebida. Ela supostamente ajudava em quê?",
+        "resposta": "Na digestão",
+        "distratores": [
+          "No sono",
+          "Na memória",
+          "Na respiração"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pepsi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A resposta 'Noz-de-cola' contém 'cola', palavra do próprio nome Coca-Cola citado no enunciado: vazamento parcial.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, enunciado preciso e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado confirmado na fonte em português; pergunta clara e justa.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome e ano de fundação confirmados; boa pergunta de nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado em latim confirmado ('eu rodo/rolo'); pergunta de nome sólida.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Raiz grega xeros = seco confirmada; Xerox deriva da xerografia.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Velours + crochet confirmado; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado (McConnell e Shakespeare), embora não apareça nos trechos; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Nunc est bibendum' (Horácio) confirmado; tradução correta e boa curiosidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Michele Ferrero criou o bombom, mas o fundador da empresa foi Pietro Ferrero; 'fundador' é impreciso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome do bombom Ferrero Rocher vem de uma gruta de qual santuário católico francês, venerado por seu criador, Michele Ferrero?",
+        "resposta": "Lourdes",
+        "distratores": [
+          "Lisieux",
+          "Chartres",
+          "Mont-Saint-Michel"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ferrero_Rocher"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mars & Murrie confirmado; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oito traços confirmado na fonte; curiosidade boa.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mitsu = três e hishi = losango confirmados; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Etiqueta dos dois cavalos é fato amplamente documentado; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cinco maçãs de altura é dado oficial da Sanrio, bem documentado; enunciado atribui à Sanrio.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Subúrbio de Londres confirmado; ângulo de lugar adequado e fato distinto da outra pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Máximo de três estrelas confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guia criado para motoristas e para promover o turismo de automóvel; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Os trechos dão preços de dois dólares ou mais para a Brownie e não sustentam 'um dólar'; fato duvidoso na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Versão original de quatro palitos lançada em 1935 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "915.103.765 combinações confirmado; 'cerca de novecentos milhões' correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Onze ervas e especiarias confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Slogan '1001 utilidades' confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma das fontes é inexistente; o fato é sustentado pela página da Bombril, então basta manter só ela.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que ator brasileiro, de jeito tímido e engraçado, foi por mais de três décadas o garoto-propaganda da Bombril?",
+        "resposta": "Carlos Moreno",
+        "distratores": [
+          "Tony Ramos",
+          "Marcos Caruso",
+          "Antônio Fagundes"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bombril"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rudolf e Adolf Dassler eram irmãos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bild Lilli, baseada em tirinha do jornal Bild, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ruth Handler criou a Barbie e cofundou a Mattel; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Declaração de Marilyn Monroe confirmada nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português liga o azul e branco à bandeira da Baviera.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chuck Taylor foi jogador de basquete ligado à Converse; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Os trechos citam moinhos de café, não de pimenta; a resposta não é única nem sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Toyoda Automatic Loom Works confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lamborghini Trattori confirmado; 'enriqueceu' é razoável pelo contexto.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Causa não sustentada pelos trechos e ambígua (signo de Touro, paixão por touradas); distratores fracos.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores como patrocínio de corridas podem ser defendidos; melhor pedir diretamente o produto original.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "A grife francesa Hermès, fundada em 1837, começou fabricando que equipamento para cavalos?",
+        "resposta": "Arreios",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Herm%C3%A8s"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'sobrenome batiza marca de carros esportivos' entrega a resposta e 'projetou' ignora o debate de autoria; trocar distratores.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Qual engenheiro chefiou a equipe que desenvolveu o Fusca da Volkswagen, nos anos trinta?",
+        "resposta": "Ferdinand Porsche",
+        "distratores": [
+          "Enzo Ferrari",
+          "Ettore Bugatti",
+          "Louis Renault"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+          "https://en.wikipedia.org/wiki/Ferdinand_Porsche"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Protesto da Peugeot confirmado; boa curiosidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Furo na tampa evita sufocamento, confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'concha' e a resposta 'conchas' (vazamento), e a fonte fala em conchas para colecionadores, não decorativas.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Antes do petróleo, o pai do fundador da Shell tinha uma loja em Londres. Que produto ele vendia, que inspirou o nome da empresa?",
+        "resposta": "Conchas marinhas",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Shell_plc"
+        ]
+      }
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bardana (burdock) e o cachorro confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Art Fry e o hinário confirmados na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fabbrica Italiana Automobili Torino confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundada em Curitiba em 1977 como farmácia de manipulação; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação em Genebra em 1783 (século dezoito) confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A empresa foi fundada como Blue Ribbon Sports e só depois virou Nike; 'fundou a Nike' é impreciso, e um distrator é fraco.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que empresário americano fundou, ao lado de seu antigo treinador de atletismo Bill Bowerman, a empresa que virou a Nike?",
+        "resposta": "Phil Knight",
+        "distratores": [
+          "Paul Fireman",
+          "Kevin Plank",
+          "Ralph Lauren"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Nike,_Inc."
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salgueiro e ácido salicílico confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sereia de duas caudas confirmada na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Terra, mar e ar confirmados na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Urso de Berna no logotipo confirmado.",
+      "reescrita": null
+    }
+  ]
+}

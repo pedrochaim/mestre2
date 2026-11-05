@@ -1,0 +1,824 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome Pepsi-Cola, adotado em 1898 pelo farmacêutico Caleb Bradham, remete a uma promessa da bebida. Ela supostamente ajudava em quê?",
+        "resposta": "Na digestão"
+      },
+      "existentes": [
+        {
+          "id": "q07046",
+          "pergunta": "Quem era o farmacêutico de New Bern, na Carolina do Norte, que inventou a Pepsi no fim do século dezenove?",
+          "resposta": "Caleb Bradham"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em alemão, o que significa o nome da montadora Volkswagen?",
+        "resposta": "Carro do povo"
+      },
+      "existentes": [
+        {
+          "id": "q13398",
+          "pergunta": "O Fusca, encomendado por Hitler nos anos trinta, foi o primeiro carro de uma montadora alemã. O que significa o nome dela?",
+          "resposta": "Carro do povo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Fundada em 1938, a sul-coreana Samsung tem um nome que, em coreano, significa o quê?",
+        "resposta": "Três estrelas"
+      },
+      "existentes": [
+        {
+          "id": "q06782",
+          "pergunta": "Em coreano, o que significa o nome Samsung?",
+          "resposta": "Três estrelas"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em latim, o que significa a palavra volvo, que dá nome à montadora sueca?",
+        "resposta": "Eu rolo"
+      },
+      "existentes": [
+        {
+          "id": "q00977",
+          "pergunta": "Em latim, o nome da montadora sueca Volvo significa o quê?",
+          "resposta": "Eu rolo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O nome Velcro junta duas palavras francesas: a palavra para veludo e a palavra para qual objeto?",
+        "resposta": "Gancho"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        },
+        {
+          "id": "q00933",
+          "pergunta": "O nome velcro junta duas palavras francesas: velours, que significa veludo, e qual outra, que significa gancho?",
+          "resposta": "Crochet"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O nome da Avon foi inspirado em Stratford-upon-Avon, cidade inglesa natal de qual escritor admirado pelo fundador?",
+        "resposta": "William Shakespeare"
+      },
+      "existentes": [
+        {
+          "id": "q11911",
+          "pergunta": "Qual destas empresas de cosméticos foi fundada primeiro?",
+          "resposta": "Avon"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O nome do Bibendum, mascote da Michelin, vem de um verso latino do poeta Horácio. O que esse verso quer dizer?",
+        "resposta": "Agora devemos beber"
+      },
+      "existentes": [
+        {
+          "id": "q07067",
+          "pergunta": "O Bibendum, mascote branco e gorducho da fabricante francesa Michelin, tem o corpo formado por pilhas de quê?",
+          "resposta": "Pneus"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Os dois emes do nome M&M's vêm dos sobrenomes de Forrest Mars e de qual sócio dele?",
+        "resposta": "Bruce Murrie"
+      },
+      "existentes": [
+        {
+          "id": "q03806",
+          "pergunta": "Forrest Mars teve a ideia dos confeitos M&M's ao ver soldados de qual guerra comendo chocolate com casquinha de açúcar?",
+          "resposta": "Guerra Civil Espanhola"
+        },
+        {
+          "id": "q13393",
+          "pergunta": "Lançados em 1941, os confeitos M&M's foram fornecidos aos soldados americanos na guerra por qual vantagem prática?",
+          "resposta": "Não derretiam no calor"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em japonês, a grafia Toyota foi preferida a Toyoda por ter um número de traços considerado de sorte. Quantos traços?",
+        "resposta": "Oito"
+      },
+      "existentes": [
+        {
+          "id": "q00976",
+          "pergunta": "A família que fundou a montadora se chamava Toyoda, mas a marca virou Toyota. Que superstição explica a troca?",
+          "resposta": "Oito traços, número da sorte"
+        },
+        {
+          "id": "q09395",
+          "pergunta": "Antes dos automóveis, a família japonesa que criou a Toyota prosperou fabricando outra máquina, inventada por Sakichi Toyoda. Que máquina era essa?",
+          "resposta": "Tear automático"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "A etiqueta de couro das calças Levi's mostra uma calça que não rasga mesmo puxada por quantos cavalos?",
+        "resposta": "Dois"
+      },
+      "existentes": [
+        {
+          "id": "q07069",
+          "pergunta": "Em 1873, Levi Strauss e o alfaiate Jacob Davis patentearam calças de trabalho reforçadas com o quê?",
+          "resposta": "Rebites de metal"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Segundo a Sanrio, a gatinha Hello Kitty tem a altura de quantas maçãs empilhadas?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q11903",
+          "pergunta": "Que parte do rosto a gatinha Hello Kitty, criada pela japonesa Sanrio em 1974, não tem nos desenhos?",
+          "resposta": "Boca"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Embora tenha sido criada no Japão, segundo a Sanrio a gatinha Hello Kitty nasceu e mora onde?",
+        "resposta": "Perto de Londres"
+      },
+      "existentes": [
+        {
+          "id": "q11903",
+          "pergunta": "Que parte do rosto a gatinha Hello Kitty, criada pela japonesa Sanrio em 1974, não tem nos desenhos?",
+          "resposta": "Boca"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Na avaliação de restaurantes do Guia Michelin, qual é o número máximo de estrelas que uma casa pode receber?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q00993",
+          "pergunta": "Em 1900, uma fabricante francesa de pneus lançou um guia com hotéis, oficinas e restaurantes. Qual era o objetivo?",
+          "resposta": "Incentivar viagens de carro"
+        },
+        {
+          "id": "q17131",
+          "pergunta": "Criado por uma fabricante de pneus, o Guia Michelin dá estrelas a restaurantes. Quantas estrelas, no máximo, um restaurante pode receber?",
+          "resposta": "Três"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 1900, por que uma fabricante de pneus, a Michelin, decidiu publicar um guia com hotéis e restaurantes?",
+        "resposta": "Para incentivar viagens de carro"
+      },
+      "existentes": [
+        {
+          "id": "q00993",
+          "pergunta": "Em 1900, uma fabricante francesa de pneus lançou um guia com hotéis, oficinas e restaurantes. Qual era o objetivo?",
+          "resposta": "Incentivar viagens de carro"
+        },
+        {
+          "id": "q17131",
+          "pergunta": "Criado por uma fabricante de pneus, o Guia Michelin dá estrelas a restaurantes. Quantas estrelas, no máximo, um restaurante pode receber?",
+          "resposta": "Três"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Seis tijolinhos Lego de dois por quatro pinos, todos da mesma cor, podem ser combinados de quantas maneiras?",
+        "resposta": "Cerca de novecentos milhões"
+      },
+      "existentes": [
+        {
+          "id": "q00876",
+          "pergunta": "O nome da fabricante de blocos de montar Lego vem de uma expressão em dinamarquês. O que ela significa?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03782",
+          "pergunta": "Em dinamarquês, a expressão que deu origem ao nome da marca de brinquedos Lego quer dizer o quê?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03783",
+          "pergunta": "Em 1932, qual carpinteiro dinamarquês fundou a pequena fábrica de brinquedos de madeira que viria a se chamar Lego?",
+          "resposta": "Ole Kirk Christiansen"
+        },
+        {
+          "id": "q07061",
+          "pergunta": "O tijolinho de plástico da Lego, com o sistema de encaixe usado até hoje, foi patenteado em que ano?",
+          "resposta": "1958"
+        },
+        {
+          "id": "q15700",
+          "pergunta": "Seis peças de Lego retangulares, do tipo dois por quatro e da mesma cor, podem ser encaixadas de quantas maneiras diferentes?",
+          "resposta": "Cerca de 915 milhões"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Segundo o slogan que marcou a marca no Brasil, a esponja de aço Bombril tem quantas utilidades?",
+        "resposta": "Mil e uma"
+      },
+      "existentes": [
+        {
+          "id": "q11898",
+          "pergunta": "A esponja Bombril, marca tão famosa que virou nome genérico no Brasil, é feita de lã de qual material?",
+          "resposta": "Aço"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Que ator brasileiro, de jeito tímido e engraçado, foi por mais de três décadas o garoto-propaganda da Bombril?",
+        "resposta": "Carlos Moreno"
+      },
+      "existentes": [
+        {
+          "id": "q11898",
+          "pergunta": "A esponja Bombril, marca tão famosa que virou nome genérico no Brasil, é feita de lã de qual material?",
+          "resposta": "Aço"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Que parentesco unia os fundadores das marcas esportivas alemãs Puma e Adidas, rivais desde os anos quarenta?",
+        "resposta": "Eram irmãos"
+      },
+      "existentes": [
+        {
+          "id": "q00946",
+          "pergunta": "Os fundadores das marcas esportivas alemãs Adidas e Puma tinham que parentesco?",
+          "resposta": "Eram irmãos"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "A Barbie foi inspirada em qual boneca alemã, baseada numa personagem de tirinha de jornal?",
+        "resposta": "Lilli"
+      },
+      "existentes": [
+        {
+          "id": "q00877",
+          "pergunta": "Lançada em 1959 pela Mattel, a boneca Barbie ganhou esse nome em homenagem a quem?",
+          "resposta": "Barbara, filha da criadora Ruth Handler"
+        },
+        {
+          "id": "q03820",
+          "pergunta": "Em que ano a boneca Barbie foi apresentada ao público numa feira de brinquedos em Nova York?",
+          "resposta": "1959"
+        },
+        {
+          "id": "q18557",
+          "pergunta": "Lançado pela Mattel em 1961, o boneco Ken, namorado da Barbie, leva o nome de quem?",
+          "resposta": "Filho da criadora da Barbie"
+        },
+        {
+          "id": "q18558",
+          "pergunta": "A Barbie foi inspirada em Bild Lilli, uma boneca baseada numa personagem de tirinhas de jornal. De que país era essa boneca?",
+          "resposta": "Alemanha"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Qual empresária americana, uma das fundadoras da Mattel, criou a boneca Barbie?",
+        "resposta": "Ruth Handler"
+      },
+      "existentes": [
+        {
+          "id": "q00877",
+          "pergunta": "Lançada em 1959 pela Mattel, a boneca Barbie ganhou esse nome em homenagem a quem?",
+          "resposta": "Barbara, filha da criadora Ruth Handler"
+        },
+        {
+          "id": "q03820",
+          "pergunta": "Em que ano a boneca Barbie foi apresentada ao público numa feira de brinquedos em Nova York?",
+          "resposta": "1959"
+        },
+        {
+          "id": "q18557",
+          "pergunta": "Lançado pela Mattel em 1961, o boneco Ken, namorado da Barbie, leva o nome de quem?",
+          "resposta": "Filho da criadora da Barbie"
+        },
+        {
+          "id": "q18558",
+          "pergunta": "A Barbie foi inspirada em Bild Lilli, uma boneca baseada numa personagem de tirinhas de jornal. De que país era essa boneca?",
+          "resposta": "Alemanha"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Que atriz de Hollywood contou a um repórter que, para dormir, vestia apenas algumas gotas de Chanel número cinco?",
+        "resposta": "Marilyn Monroe"
+      },
+      "existentes": [
+        {
+          "id": "q16386",
+          "pergunta": "Coco Chanel escolheu um perfume entre amostras numeradas do perfumista Ernest Beaux. Por que ele se chama Chanel número cinco?",
+          "resposta": "Era a quinta amostra"
+        },
+        {
+          "id": "q16399",
+          "pergunta": "Qual atriz de Hollywood, perguntada sobre o que vestia para dormir, respondeu que usava apenas algumas gotas de Chanel número cinco?",
+          "resposta": "Marilyn Monroe"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O nome Chuck Taylor, estampado no tênis All Star da Converse, é de um jogador e vendedor ligado a qual esporte?",
+        "resposta": "Basquete"
+      },
+      "existentes": [
+        {
+          "id": "q01767",
+          "pergunta": "O tênis All Star, da Converse, traz no tornozelo a assinatura de qual jogador e vendedor da marca?",
+          "resposta": "Chuck Taylor"
+        },
+        {
+          "id": "q07727",
+          "pergunta": "O tênis de lona Converse All Star foi criado originalmente para a prática de qual esporte?",
+          "resposta": "Basquete"
+        },
+        {
+          "id": "q16388",
+          "pergunta": "O tênis Converse All Star também leva o nome de Chuck Taylor, que o divulgou pelos Estados Unidos a partir dos anos vinte. Quem era ele?",
+          "resposta": "Jogador de basquete"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Antes de fazer carros, a empresa da família Toyoda, que deu origem à Toyota, era conhecida por fabricar qual máquina?",
+        "resposta": "Teares automáticos"
+      },
+      "existentes": [
+        {
+          "id": "q00976",
+          "pergunta": "A família que fundou a montadora se chamava Toyoda, mas a marca virou Toyota. Que superstição explica a troca?",
+          "resposta": "Oito traços, número da sorte"
+        },
+        {
+          "id": "q09395",
+          "pergunta": "Antes dos automóveis, a família japonesa que criou a Toyota prosperou fabricando outra máquina, inventada por Sakichi Toyoda. Que máquina era essa?",
+          "resposta": "Tear automático"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Antes de criar seus carros esportivos, o italiano Ferruccio Lamborghini enriqueceu fabricando qual tipo de veículo?",
+        "resposta": "Tratores"
+      },
+      "existentes": [
+        {
+          "id": "q01002",
+          "pergunta": "O nome Lamborghini aparece em carros esportivos e também em qual veículo, que seu fundador já fabricava antes?",
+          "resposta": "Tratores"
+        },
+        {
+          "id": "q17141",
+          "pergunta": "Miura, Diablo e Murciélago são carros da Lamborghini. Esses nomes homenageiam o quê?",
+          "resposta": "Touros de tourada"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "A grife francesa Hermès, fundada em 1837, começou fabricando que equipamento para cavalos?",
+        "resposta": "Arreios"
+      },
+      "existentes": [
+        {
+          "id": "q00964",
+          "pergunta": "Antes de virar grife de bolsas e lenços, a Hermès começou em Paris, em 1837, fabricando o quê?",
+          "resposta": "Arreios para cavalos"
+        },
+        {
+          "id": "q07710",
+          "pergunta": "Qual destas grifes de luxo foi fundada primeiro, ainda na primeira metade do século dezenove?",
+          "resposta": "Hermès"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Qual engenheiro chefiou a equipe que desenvolveu o Fusca da Volkswagen, nos anos trinta?",
+        "resposta": "Ferdinand Porsche"
+      },
+      "existentes": [
+        {
+          "id": "q05601",
+          "pergunta": "Em 1934, que engenheiro recebeu da associação alemã da indústria automobilística o contrato para desenvolver o carro do povo, que virou o Fusca?",
+          "resposta": "Ferdinand Porsche"
+        },
+        {
+          "id": "q17137",
+          "pergunta": "Na Alemanha, o Fusca ganhou o apelido de Käfer. Que bicho essa palavra alemã quer dizer?",
+          "resposta": "Besouro"
+        },
+        {
+          "id": "q17138",
+          "pergunta": "Em 2003, depois de mais de vinte milhões de unidades, o último Fusca original saiu de uma fábrica em qual país?",
+          "resposta": "México"
+        },
+        {
+          "id": "q17139",
+          "pergunta": "Em 1993, anos depois de sair de linha, o Fusca voltou a ser fabricado no Brasil a pedido de qual presidente?",
+          "resposta": "Itamar Franco"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "O Porsche 911 seria lançado como 901, mas mudou de nome porque qual montadora francesa usava números de três dígitos com zero no meio?",
+        "resposta": "Peugeot"
+      },
+      "existentes": [
+        {
+          "id": "q09397",
+          "pergunta": "O Fusca e as primeiras gerações do esportivo Porsche 911 tinham em comum o tipo de motor. Que característica era essa?",
+          "resposta": "Traseiro e refrigerado a ar"
+        },
+        {
+          "id": "q17159",
+          "pergunta": "O Porsche 911 seria lançado como 901, mas mudou de nome porque outra montadora reivindicava os números de três algarismos com zero no meio. Qual?",
+          "resposta": "Peugeot"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "O engenheiro suíço que inventou o velcro se inspirou nos frutos espinhosos de qual planta, que grudavam no pelo do seu cachorro?",
+        "resposta": "Bardana"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        },
+        {
+          "id": "q00933",
+          "pergunta": "O nome velcro junta duas palavras francesas: velours, que significa veludo, e qual outra, que significa gancho?",
+          "resposta": "Crochet"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Art Fry, da 3M, teve a ideia do Post-it porque queria marcadores que não caíssem de qual livro, no coral da igreja?",
+        "resposta": "Hinário"
+      },
+      "existentes": [
+        {
+          "id": "q00883",
+          "pergunta": "Art Fry, da empresa 3M, pensou no Post-it porque seus marcadores de página viviam caindo de um livro que ele usava no coral da igreja. Que livro?",
+          "resposta": "O hinário"
+        },
+        {
+          "id": "q07048",
+          "pergunta": "Que empresa americana de Minnesota, também conhecida pelas fitas adesivas, lançou os bloquinhos Post-it?",
+          "resposta": "3M"
+        },
+        {
+          "id": "q08741",
+          "pergunta": "Em 1968, o químico Spencer Silver tentava criar uma cola superforte, mas obteve a do futuro post-it. Que característica ela tinha?",
+          "resposta": "Colava fraco e descolava fácil"
+        },
+        {
+          "id": "q16862",
+          "pergunta": "A cola fraca do post-it foi criada em 1968, mas os bloquinhos só foram lançados em todos os Estados Unidos em que ano?",
+          "resposta": "1980"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "O nome Fiat é a sigla, em italiano, de Fábrica Italiana de Automóveis de qual cidade, onde a montadora foi fundada?",
+        "resposta": "Turim"
+      },
+      "existentes": [
+        {
+          "id": "q09392",
+          "pergunta": "A sigla Fiat inclui o nome da cidade italiana onde a fábrica foi fundada, em 1899. Que cidade é essa?",
+          "resposta": "Turim"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "O princípio ativo da Aspirina deriva de uma substância usada contra a dor desde a Antiguidade, tirada da casca de qual árvore?",
+        "resposta": "Salgueiro"
+      },
+      "existentes": [
+        {
+          "id": "q03146",
+          "pergunta": "Usada contra dor desde a Antiguidade, o que a casca do salgueiro tem a ver com a aspirina?",
+          "resposta": "É a origem do ácido salicílico"
+        },
+        {
+          "id": "q03819",
+          "pergunta": "Em que ano a empresa alemã Bayer registrou a marca Aspirina?",
+          "resposta": "1899"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Que figura mitológica de duas caudas aparece no logotipo verde da rede de cafeterias Starbucks?",
+        "resposta": "Sereia"
+      },
+      "existentes": [
+        {
+          "id": "q03800",
+          "pergunta": "Qual romance de Herman Melville inspirou o nome da rede de cafeterias Starbucks?",
+          "resposta": "Moby Dick"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "As três pontas da estrela da Mercedes-Benz simbolizam motores para a terra, para o mar e para onde?",
+        "resposta": "Para o ar"
+      },
+      "existentes": [
+        {
+          "id": "q03794",
+          "pergunta": "Os carros Mercedes, da fábrica Daimler, ganharam esse nome em homenagem à filha de qual empresário?",
+          "resposta": "Emil Jellinek"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "No desenho da montanha do logotipo do Toblerone há um animal escondido, símbolo da cidade de Berna. Que animal é esse?",
+        "resposta": "Urso"
+      },
+      "existentes": [
+        {
+          "id": "q03814",
+          "pergunta": "Em qual cidade suíça foi criado, em 1908, o chocolate Toblerone?",
+          "resposta": "Berna"
+        },
+        {
+          "id": "q11915",
+          "pergunta": "O nome do chocolate Toblerone junta o sobrenome do criador, Theodor Tobler, com o nome italiano de qual doce?",
+          "resposta": "Torrone"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a promessa de digestão, não sobre quem inventou."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: significado de Volkswagen."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo significado de Samsung."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo significado de Volvo."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: gancho/crochet no nome velcro.",
+      "id_existente": "q00933"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Escritor que inspirou o nome; existente trata de fundação."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. corpo de pneus."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Sócio Murrie é fato diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Oito traços como superstição da troca já perguntado.",
+      "id_existente": "q00976"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Etiqueta dos cavalos vs. rebites."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Altura vs. falta de boca."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Local de nascimento é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "motivo": "Mesmo máximo de estrelas.",
+      "id_existente": "q17131"
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesmo objetivo do guia.",
+      "id_existente": "q00993"
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesma combinação de seis peças.",
+      "id_existente": "q15700"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Slogan das mil e uma utilidades é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Garoto-propaganda é outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "motivo": "Mesmo parentesco.",
+      "id_existente": "q00946"
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Nome da boneca Lilli; existente pergunta o país."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Criadora como resposta; existente pergunta homenageada, resposta cita Ruth mas não é o fato perguntado."
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre Marilyn.",
+      "id_existente": "q16399"
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "motivo": "Esporte basquete já coberto.",
+      "id_existente": "q16388"
+    },
+    {
+      "caso": 23,
+      "decisao": "repete",
+      "motivo": "Mesma máquina, tear.",
+      "id_existente": "q09395"
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: tratores.",
+      "id_existente": "q01002"
+    },
+    {
+      "caso": 25,
+      "decisao": "repete",
+      "motivo": "Mesmo: arreios.",
+      "id_existente": "q00964"
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "motivo": "Mesmo engenheiro, Porsche.",
+      "id_existente": "q05601"
+    },
+    {
+      "caso": 27,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Peugeot.",
+      "id_existente": "q17159"
+    },
+    {
+      "caso": 28,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: bardana.",
+      "id_existente": "q00882"
+    },
+    {
+      "caso": 29,
+      "decisao": "repete",
+      "motivo": "Mesmo: hinário.",
+      "id_existente": "q00883"
+    },
+    {
+      "caso": 30,
+      "decisao": "repete",
+      "motivo": "Mesmo: cidade Turim.",
+      "id_existente": "q09392"
+    },
+    {
+      "caso": 31,
+      "decisao": "repete",
+      "motivo": "Casca do salgueiro já perguntada.",
+      "id_existente": "q03146"
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Logotipo vs. origem do nome."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Simbolismo da estrela vs. origem do nome."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Urso no logotipo é outro fato."
+    }
+  ]
+}

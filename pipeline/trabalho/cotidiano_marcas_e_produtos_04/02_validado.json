@@ -1,0 +1,1386 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "pepsi",
+        "nome": "Pepsi",
+        "descricao": "Refrigerante de cola criado em New Bern, na Carolina do Norte, no fim do século dezenove.",
+        "variantes": [
+          "Pepsi-Cola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pepsi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O farmacêutico Caleb Bradham batizou a Pepsi pensando numa promessa da bebida. Ela supostamente ajudava em quê?",
+      "resposta": "Na digestão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pepsi"
+      ],
+      "distratores": [
+        "No sono",
+        "Na memória",
+        "Na respiração"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "coca_cola",
+        "nome": "Coca-Cola",
+        "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+        "variantes": [
+          "Coca",
+          "Coke"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coca-Cola"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Coca-Cola vem de dois ingredientes da fórmula original: as folhas de coca e qual semente africana rica em cafeína?",
+      "resposta": "Noz-de-cola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coca-Cola"
+      ],
+      "distratores": [
+        "Semente de cacau",
+        "Grão de café",
+        "Semente de guaraná"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Nike",
+        "descricao": "Empresa americana de calçados e artigos esportivos fundada por Phil Knight e Bill Bowerman, dona do logotipo Swoosh.",
+        "variantes": [
+          "Nike, Inc.",
+          "Blue Ribbon Sports"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nike,_Inc."
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A marca esportiva Nike tem o nome de uma deusa grega. O que essa deusa personificava?",
+      "resposta": "A vitória",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nike,_Inc.",
+        "https://en.wikipedia.org/wiki/Nike_(mythology)"
+      ],
+      "distratores": [
+        "A sabedoria",
+        "A velocidade",
+        "A coragem"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Volkswagen",
+        "descricao": "Montadora alemã de automóveis fundada em 1937, sediada em Wolfsburg, fabricante do Fusca.",
+        "variantes": [
+          "VW"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volkswagen"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em alemão, o que significa o nome da montadora Volkswagen?",
+      "resposta": "Carro do povo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volkswagen"
+      ],
+      "distratores": [
+        "Carro de corrida",
+        "Carro do futuro",
+        "Carro da Alemanha"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Samsung",
+        "descricao": "Conglomerado sul-coreano fundado em 1938 por Lee Byung-chul, conhecido por eletrônicos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Samsung"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Fundada em 1938, a sul-coreana Samsung tem um nome que, em coreano, significa o quê?",
+      "resposta": "Três estrelas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Samsung"
+      ],
+      "distratores": [
+        "Sol nascente",
+        "Montanha sagrada",
+        "Dragão dourado"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Volvo",
+        "descricao": "Marca sueca de automóveis e veículos pesados, fundada em Gotemburgo em 1927.",
+        "variantes": [
+          "Volvo Cars"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volvo"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em latim, o que significa a palavra volvo, que dá nome à montadora sueca?",
+      "resposta": "Eu rolo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volvo"
+      ],
+      "distratores": [
+        "Eu voo",
+        "Eu corro",
+        "Eu venço"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Xerox",
+        "descricao": "Empresa americana de copiadoras, sediada originalmente em Rochester, cujo nome virou sinônimo de fotocópia.",
+        "variantes": [
+          "Xerox Corporation",
+          "Haloid"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Xerox"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Xerox, que no Brasil virou sinônimo de fotocópia, vem de uma palavra grega que significa o quê?",
+      "resposta": "Seco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Xerography",
+        "https://en.wikipedia.org/wiki/Xerox"
+      ],
+      "distratores": [
+        "Cópia",
+        "Luz",
+        "Rápido"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Velcro",
+        "descricao": "Marca de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral nos anos 1940.",
+        "variantes": [
+          "Fecho de velcro",
+          "Hook-and-loop"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Velcro junta duas palavras francesas: a palavra para veludo e a palavra para qual objeto?",
+      "resposta": "Gancho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+      ],
+      "distratores": [
+        "Botão",
+        "Laço",
+        "Agulha"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "avon",
+        "nome": "Avon",
+        "descricao": "Empresa de cosméticos de venda direta fundada em Nova York em 1886 por David McConnell.",
+        "variantes": [
+          "Avon Products"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avon_Products"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome da Avon foi inspirado em Stratford-upon-Avon, cidade inglesa natal de qual escritor admirado pelo fundador?",
+      "resposta": "William Shakespeare",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avon_Products"
+      ],
+      "distratores": [
+        "Charles Dickens",
+        "Jane Austen",
+        "Lord Byron"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "bibendum",
+        "nome": "Bibendum",
+        "descricao": "Mascote da fabricante francesa de pneus Michelin, criado em 1898.",
+        "variantes": [
+          "Boneco da Michelin",
+          "Michelin Man"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michelin_Man"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do Bibendum, mascote da Michelin, vem de um verso latino do poeta Horácio. O que esse verso quer dizer?",
+      "resposta": "Agora devemos beber",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michelin_Man"
+      ],
+      "distratores": [
+        "Agora devemos partir",
+        "Agora devemos correr",
+        "Agora devemos vencer"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Ferrero Rocher",
+        "descricao": "Bombom de chocolate com avelã e wafer da empresa italiana Ferrero, lançado em 1982.",
+        "variantes": [
+          "Rocher"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ferrero_Rocher"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do bombom Ferrero Rocher vem de uma gruta de qual santuário católico francês, venerado pelo fundador da empresa?",
+      "resposta": "Lourdes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ferrero_Rocher"
+      ],
+      "distratores": [
+        "Lisieux",
+        "Chartres",
+        "Mont-Saint-Michel"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "m_m_s",
+        "nome": "M&M's",
+        "descricao": "Confeitos de chocolate com cobertura de açúcar colorida, lançados pela Mars nos Estados Unidos em 1941.",
+        "variantes": [
+          "M and M's"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/M%26M%27s"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Os dois emes do nome M&M's vêm dos sobrenomes de Forrest Mars e de qual sócio dele?",
+      "resposta": "Bruce Murrie",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/M%26M%27s"
+      ],
+      "distratores": [
+        "Milton Hershey",
+        "John Mackintosh",
+        "William Wrigley"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Toyota",
+        "descricao": "Montadora japonesa de automóveis fundada em 1937 por Kiichiro Toyoda, sediada na cidade de Toyota.",
+        "variantes": [
+          "Toyota Motor Corporation"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toyota"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em japonês, a grafia Toyota foi preferida a Toyoda por ter um número de traços considerado de sorte. Quantos traços?",
+      "resposta": "Oito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toyota"
+      ],
+      "distratores": [
+        "Sete",
+        "Três",
+        "Nove"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Mitsubishi",
+        "descricao": "Grupo empresarial japonês fundado por Yataro Iwasaki em 1870, cujo logotipo vermelho é formado por losangos.",
+        "variantes": [
+          "Mitsubishi Group"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mitsubishi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em japonês, o nome Mitsubishi faz referência a quantos losangos, os mesmos que formam o logotipo vermelho da marca?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mitsubishi"
+      ],
+      "distratores": [
+        "Dois",
+        "Quatro",
+        "Cinco"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "levi_s",
+        "nome": "Levi's",
+        "descricao": "Fabricante americana de calças jeans fundada em São Francisco por Levi Strauss no século dezenove.",
+        "variantes": [
+          "Levi Strauss & Co."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co."
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A etiqueta de couro das calças Levi's mostra uma calça que não rasga mesmo puxada por quantos cavalos?",
+      "resposta": "Dois",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co."
+      ],
+      "distratores": [
+        "Um",
+        "Três",
+        "Quatro"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "hello_kitty",
+        "nome": "Hello Kitty",
+        "descricao": "Personagem de gatinha branca com laço criada em 1974 pela empresa japonesa Sanrio.",
+        "variantes": [
+          "Kitty White"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hello_Kitty"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Sanrio, a gatinha Hello Kitty tem a altura de quantas maçãs empilhadas?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hello_Kitty"
+      ],
+      "distratores": [
+        "Três",
+        "Sete",
+        "Dez"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "hello_kitty",
+        "nome": "Hello Kitty",
+        "descricao": "Personagem de gatinha branca com laço criada em 1974 pela empresa japonesa Sanrio.",
+        "variantes": [
+          "Kitty White"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hello_Kitty"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Embora tenha sido criada no Japão, segundo a Sanrio a gatinha Hello Kitty nasceu e mora onde?",
+      "resposta": "Perto de Londres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hello_Kitty"
+      ],
+      "distratores": [
+        "Perto de Paris",
+        "Perto de Tóquio",
+        "Perto de Nova York"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Guia Michelin",
+        "descricao": "Guia de viagem e de restaurantes publicado pela fabricante francesa de pneus Michelin desde 1900, famoso por suas estrelas.",
+        "variantes": [
+          "Michelin Guide",
+          "Guide Michelin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michelin_Guide"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na avaliação de restaurantes do Guia Michelin, qual é o número máximo de estrelas que uma casa pode receber?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michelin_Guide"
+      ],
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Sete"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Guia Michelin",
+        "descricao": "Guia de viagem e de restaurantes publicado pela fabricante francesa de pneus Michelin desde 1900, famoso por suas estrelas.",
+        "variantes": [
+          "Michelin Guide",
+          "Guide Michelin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michelin_Guide"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1900, por que uma fabricante de pneus, a Michelin, decidiu publicar um guia com hotéis e restaurantes?",
+      "resposta": "Para incentivar viagens de carro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michelin_Guide"
+      ],
+      "distratores": [
+        "Para vender comida",
+        "Para premiar chefs franceses",
+        "Para atrair turistas estrangeiros"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "kodak",
+        "nome": "Kodak",
+        "descricao": "Empresa americana de fotografia fundada por George Eastman, que lançou em 1888 a primeira câmera Kodak.",
+        "variantes": [
+          "Eastman Kodak"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kodak"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Lançada pela Kodak em 1900, a câmera Brownie popularizou a fotografia por custar quanto nos Estados Unidos?",
+      "resposta": "Um dólar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brownie_(camera)"
+      ],
+      "distratores": [
+        "Cinquenta centavos",
+        "Cinco dólares",
+        "Dez dólares"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "KitKat",
+        "descricao": "Chocolate de wafer coberto lançado em 1935 pela britânica Rowntree's, hoje da Nestlé.",
+        "variantes": [
+          "Kit Kat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kit_Kat"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Lançado em 1935 pela britânica Rowntree's, o chocolate que viria a se chamar KitKat tinha quantos palitos de wafer?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kit_Kat"
+      ],
+      "distratores": [
+        "Dois",
+        "Três",
+        "Seis"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "lego_2",
+        "nome": "Lego",
+        "descricao": "Marca dinamarquesa de brinquedos de blocos de montar plásticos.",
+        "variantes": [
+          "LEGO"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lego"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Seis tijolinhos Lego de dois por quatro pinos, todos da mesma cor, podem ser combinados de quantas maneiras?",
+      "resposta": "Cerca de novecentos milhões",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lego"
+      ],
+      "distratores": [
+        "Cerca de nove mil",
+        "Cerca de nove milhões",
+        "Cerca de noventa bilhões"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "KFC",
+        "descricao": "Rede americana de lanchonetes de frango frito fundada por Harland Sanders, o Coronel Sanders, em Kentucky.",
+        "variantes": [
+          "Kentucky Fried Chicken"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/KFC"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo a receita secreta do coronel Sanders, o frango frito original do KFC leva quantas ervas e especiarias?",
+      "resposta": "Onze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/KFC"
+      ],
+      "distratores": [
+        "Sete",
+        "Nove",
+        "Treze"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "bombril",
+        "nome": "Bombril",
+        "descricao": "Marca brasileira de esponjas de lã de aço para limpeza, cujo nome virou sinônimo do produto.",
+        "variantes": [
+          "Bom Bril"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bombril"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo o slogan que marcou a marca no Brasil, a esponja de aço Bombril tem quantas utilidades?",
+      "resposta": "Mil e uma",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bombril"
+      ],
+      "distratores": [
+        "Cem",
+        "Mil",
+        "Duas mil"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "bombril",
+        "nome": "Bombril",
+        "descricao": "Marca brasileira de esponjas de lã de aço para limpeza, cujo nome virou sinônimo do produto.",
+        "variantes": [
+          "Bom Bril"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bombril"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que ator brasileiro, de jeito tímido e engraçado, foi por mais de três décadas o garoto-propaganda da Bombril?",
+      "resposta": "Carlos Moreno",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Carlos_Moreno_(ator)",
+        "https://pt.wikipedia.org/wiki/Bombril"
+      ],
+      "distratores": [
+        "Tony Ramos",
+        "Marcos Caruso",
+        "Antônio Fagundes"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Puma",
+        "descricao": "Empresa alemã de calçados e artigos esportivos fundada em 1948 por Rudolf Dassler em Herzogenaurach.",
+        "variantes": [
+          "Puma SE"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Puma_(brand)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que parentesco unia os fundadores das marcas esportivas alemãs Puma e Adidas, rivais desde os anos quarenta?",
+      "resposta": "Eram irmãos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Puma_(brand)"
+      ],
+      "distratores": [
+        "Pai e filho",
+        "Primos",
+        "Cunhados"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "barbie",
+        "nome": "Barbie",
+        "descricao": "Boneca lançada pela empresa americana Mattel em 1959, criada por Ruth Handler.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Barbie"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A Barbie foi inspirada em qual boneca alemã, baseada numa personagem de tirinha de jornal?",
+      "resposta": "Lilli",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Barbie",
+        "https://en.wikipedia.org/wiki/Bild_Lilli_doll"
+      ],
+      "distratores": [
+        "Heidi",
+        "Gretel",
+        "Sindy"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "barbie",
+        "nome": "Barbie",
+        "descricao": "Boneca lançada pela empresa americana Mattel em 1959, criada por Ruth Handler.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Barbie"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Qual empresária americana, uma das fundadoras da Mattel, criou a boneca Barbie?",
+      "resposta": "Ruth Handler",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ruth_Handler"
+      ],
+      "distratores": [
+        "Mary Kay Ash",
+        "Estée Lauder",
+        "Beatrice Alexander"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Chanel número cinco",
+        "descricao": "Perfume da grife francesa Chanel lançado em 1921, criado pelo perfumista Ernest Beaux para Coco Chanel.",
+        "variantes": [
+          "Chanel No. 5",
+          "Chanel Nº 5"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chanel_No._5"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que atriz de Hollywood contou a um repórter que, para dormir, vestia apenas algumas gotas de Chanel número cinco?",
+      "resposta": "Marilyn Monroe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chanel_No._5"
+      ],
+      "distratores": [
+        "Audrey Hepburn",
+        "Grace Kelly",
+        "Elizabeth Taylor"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "BMW",
+        "descricao": "Montadora alemã de automóveis e motocicletas sediada em Munique, cujo logotipo é um círculo azul e branco.",
+        "variantes": [
+          "Bayerische Motoren Werke"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/BMW"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "As cores azul e branca do logotipo da BMW vêm da bandeira de qual estado alemão?",
+      "resposta": "Baviera",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/BMW"
+      ],
+      "distratores": [
+        "Saxônia",
+        "Hesse",
+        "Turíngia"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "All Star",
+        "descricao": "Modelo de tênis de lona da americana Converse, também chamado Chuck Taylor All Star, criado no início do século vinte.",
+        "variantes": [
+          "Chuck Taylor All Star",
+          "Converse All Star"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O nome Chuck Taylor, estampado no tênis All Star da Converse, é de um jogador e vendedor ligado a qual esporte?",
+      "resposta": "Basquete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+      ],
+      "distratores": [
+        "Beisebol",
+        "Tênis",
+        "Atletismo"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "peugeot",
+        "nome": "Peugeot",
+        "descricao": "Fabricante francesa de automóveis, originada de uma empresa familiar de produtos de aço do século dezenove.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Peugeot"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Antes dos automóveis, a família Peugeot já fabricava um utensílio de cozinha que leva a marca até hoje. Qual?",
+      "resposta": "Moedor de pimenta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Peugeot"
+      ],
+      "distratores": [
+        "Panela de pressão",
+        "Batedeira",
+        "Liquidificador"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Toyota",
+        "descricao": "Montadora japonesa de automóveis fundada em 1937 por Kiichiro Toyoda, sediada na cidade de Toyota.",
+        "variantes": [
+          "Toyota Motor Corporation"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toyota"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Antes de fazer carros, a empresa da família Toyoda, que deu origem à Toyota, era conhecida por fabricar qual máquina?",
+      "resposta": "Teares automáticos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toyota",
+        "https://en.wikipedia.org/wiki/Toyota_Industries"
+      ],
+      "distratores": [
+        "Máquinas de costura",
+        "Bicicletas",
+        "Motores de barco"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Lamborghini",
+        "descricao": "Fabricante italiana de carros esportivos fundada em 1963 por Ferruccio Lamborghini, perto de Bolonha.",
+        "variantes": [
+          "Automobili Lamborghini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lamborghini"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Antes de criar seus carros esportivos, o italiano Ferruccio Lamborghini enriqueceu fabricando qual tipo de veículo?",
+      "resposta": "Tratores",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ferruccio_Lamborghini",
+        "https://en.wikipedia.org/wiki/Lamborghini"
+      ],
+      "distratores": [
+        "Motocicletas",
+        "Caminhões",
+        "Ônibus"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Lamborghini",
+        "descricao": "Fabricante italiana de carros esportivos fundada em 1963 por Ferruccio Lamborghini, perto de Bolonha.",
+        "variantes": [
+          "Automobili Lamborghini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lamborghini"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Por que um touro bravo aparece no emblema da montadora italiana Lamborghini?",
+      "resposta": "Era o signo do fundador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lamborghini"
+      ],
+      "distratores": [
+        "Símbolo de Bolonha",
+        "Brasão da família",
+        "Mascote dos tratores"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Hermès",
+        "descricao": "Grife francesa de artigos de luxo fundada em Paris em 1837 por Thierry Hermès.",
+        "variantes": [
+          "Hermès International"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Herm%C3%A8s"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que ligação a grife francesa Hermès tem com os cavalos, que aparecem até no seu logotipo?",
+      "resposta": "Começou fabricando arreios",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Herm%C3%A8s"
+      ],
+      "distratores": [
+        "Patrocinava corridas de cavalo",
+        "O fundador era jóquei",
+        "Criava cavalos de raça"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Fusca",
+        "descricao": "Automóvel popular da Volkswagen, projetado na Alemanha nos anos 1930, conhecido no exterior como Beetle.",
+        "variantes": [
+          "Volkswagen Fusca",
+          "Volkswagen Beetle",
+          "Fusquinha",
+          "Käfer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Qual engenheiro austríaco, cujo sobrenome batiza uma marca de carros esportivos, projetou o Fusca da Volkswagen?",
+      "resposta": "Ferdinand Porsche",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+        "https://en.wikipedia.org/wiki/Ferdinand_Porsche"
+      ],
+      "distratores": [
+        "Enzo Ferrari",
+        "Gottlieb Daimler",
+        "Karl Benz"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Porsche 911",
+        "descricao": "Modelo de carro esportivo da montadora alemã Porsche, lançado em 1964.",
+        "variantes": [
+          "Porsche Nove Onze"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Porsche_911"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O Porsche 911 seria lançado como 901, mas mudou de nome porque qual montadora francesa usava números de três dígitos com zero no meio?",
+      "resposta": "Peugeot",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Porsche_911"
+      ],
+      "distratores": [
+        "Renault",
+        "Citroën",
+        "Bugatti"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Bic Cristal",
+        "descricao": "Caneta esferográfica de corpo transparente lançada em 1950 pela empresa francesa Bic, de Marcel Bich.",
+        "variantes": [
+          "Caneta Bic",
+          "Bic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bic_Cristal"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Por que a tampa da caneta Bic Cristal tem um pequeno furo na ponta?",
+      "resposta": "Evitar sufocamento se engolida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bic_Cristal"
+      ],
+      "distratores": [
+        "Economizar plástico",
+        "Indicar a cor da tinta",
+        "Prender no bolso"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Shell",
+        "descricao": "Empresa petrolífera anglo-holandesa cujo símbolo é uma concha amarela e vermelha.",
+        "variantes": [
+          "Shell plc",
+          "Royal Dutch Shell"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shell_plc"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Por que a petrolífera Shell, cujo nome significa concha em inglês, adotou esse símbolo?",
+      "resposta": "A família vendia conchas decorativas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shell_plc"
+      ],
+      "distratores": [
+        "O primeiro poço era na praia",
+        "Homenagem a pescadores",
+        "Era um brasão real"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Velcro",
+        "descricao": "Marca de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral nos anos 1940.",
+        "variantes": [
+          "Fecho de velcro",
+          "Hook-and-loop"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O engenheiro suíço que inventou o velcro se inspirou nos frutos espinhosos de qual planta, que grudavam no pelo do seu cachorro?",
+      "resposta": "Bardana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hook-and-loop_fastener",
+        "https://en.wikipedia.org/wiki/George_de_Mestral"
+      ],
+      "distratores": [
+        "Picão",
+        "Urtiga",
+        "Mamona"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "post_it",
+        "nome": "Post-it",
+        "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+        "variantes": [
+          "Post-it Note"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Post-it_Note"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Art Fry, da 3M, teve a ideia do Post-it porque queria marcadores que não caíssem de qual livro, no coral da igreja?",
+      "resposta": "Hinário",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Post-it_Note"
+      ],
+      "distratores": [
+        "Bíblia",
+        "Missal",
+        "Catecismo"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Fiat",
+        "descricao": "Montadora italiana de automóveis fundada em 1899, cujo nome é uma sigla em italiano.",
+        "variantes": [
+          "Fabbrica Italiana Automobili Torino",
+          "Fiat Automobiles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fiat_Automobiles"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O nome Fiat é a sigla, em italiano, de Fábrica Italiana de Automóveis de qual cidade, onde a montadora foi fundada?",
+      "resposta": "Turim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fiat_Automobiles"
+      ],
+      "distratores": [
+        "Milão",
+        "Gênova",
+        "Modena"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "O Boticário",
+        "descricao": "Empresa brasileira de perfumes e cosméticos fundada em 1977 pelo farmacêutico Miguel Krigsner.",
+        "variantes": [
+          "Boticário"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Botic%C3%A1rio"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A rede de cosméticos O Boticário nasceu em 1977 como uma pequena farmácia de manipulação em qual capital brasileira?",
+      "resposta": "Curitiba",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_Botic%C3%A1rio"
+      ],
+      "distratores": [
+        "Porto Alegre",
+        "Belo Horizonte",
+        "Florianópolis"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Schweppes",
+        "descricao": "Marca de água tônica e refrigerantes originada da fábrica de água gaseificada de Johann Jacob Schweppe.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Schweppes"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O relojoeiro Jacob Schweppe, que deu nome à marca Schweppes, começou a fabricar água com gás em Genebra em que século?",
+      "resposta": "Século dezoito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Schweppes"
+      ],
+      "distratores": [
+        "Século dezesseis",
+        "Século dezenove",
+        "Século vinte"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Nike",
+        "descricao": "Empresa americana de calçados e artigos esportivos fundada por Phil Knight e Bill Bowerman, dona do logotipo Swoosh.",
+        "variantes": [
+          "Nike, Inc.",
+          "Blue Ribbon Sports"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nike,_Inc."
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que empresário americano fundou a Nike ao lado do seu antigo treinador de atletismo, Bill Bowerman?",
+      "resposta": "Phil Knight",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nike,_Inc."
+      ],
+      "distratores": [
+        "Paul Fireman",
+        "Kevin Plank",
+        "Jim Davis"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "aspirina",
+        "nome": "Aspirina",
+        "descricao": "Medicamento à base de ácido acetilsalicílico, lançado pela Bayer em 1899, usado contra dor, febre e inflamação.",
+        "variantes": [
+          "Aspirin",
+          "Ácido acetilsalicílico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aspirin"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O princípio ativo da Aspirina deriva de uma substância usada contra a dor desde a Antiguidade, tirada da casca de qual árvore?",
+      "resposta": "Salgueiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aspirin"
+      ],
+      "distratores": [
+        "Eucalipto",
+        "Carvalho",
+        "Cedro"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "starbucks",
+        "nome": "Starbucks",
+        "descricao": "Rede americana de cafeterias fundada em Seattle em 1971.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Starbucks"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que figura mitológica de duas caudas aparece no logotipo verde da rede de cafeterias Starbucks?",
+      "resposta": "Sereia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Starbucks"
+      ],
+      "distratores": [
+        "Dragão marinho",
+        "Fênix",
+        "Medusa"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "mercedes_benz",
+        "nome": "Mercedes-Benz",
+        "descricao": "Marca alemã de automóveis cujo nome Mercedes surgiu nos carros da Daimler no início do século vinte.",
+        "variantes": [
+          "Mercedes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mercedes-Benz"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "As três pontas da estrela da Mercedes-Benz simbolizam motores para a terra, para o mar e para onde?",
+      "resposta": "Para o ar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mercedes-Benz"
+      ],
+      "distratores": [
+        "Para o espaço",
+        "Para os trilhos",
+        "Para as montanhas"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "toblerone",
+        "nome": "Toblerone",
+        "descricao": "Barra de chocolate suíça em formato de prismas triangulares, criada por Theodor Tobler em 1908.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toblerone"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Marcas e Produtos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No desenho da montanha do logotipo do Toblerone há um animal escondido, símbolo da cidade de Berna. Que animal é esse?",
+      "resposta": "Urso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toblerone"
+      ],
+      "distratores": [
+        "Águia",
+        "Leão",
+        "Cabra"
+      ]
+    }
+  ]
+}
