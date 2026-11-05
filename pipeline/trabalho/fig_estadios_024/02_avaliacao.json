@@ -1,0 +1,131 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Fachada traz 'BOSTON GARDEN' escrito em letras grandes, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Gramado, arquibancada, prédio ao fundo e o leão (símbolo do clube) sem texto; reconhecível para quem conhece, com múltipla escolha.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que clube paraense é o dono deste estádio?",
+      "resposta": "Clube do Remo",
+      "distratores": [
+        "Paysandu",
+        "Tuna Luso",
+        "Águia de Marabá"
+      ],
+      "ancora": {
+        "nome": "Estádio Baenão",
+        "descricao": "Estádio Evandro Almeida, em Belém do Pará, de propriedade do Clube do Remo.",
+        "variantes": [
+          "Estádio Evandro Almeida",
+          "Banpará Baenão",
+          "Baenão"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arquibancada moderna e distintiva, sem texto; resposta única pela cidade.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 2,
+      "pergunta": "Em que cidade fica este hipódromo?",
+      "resposta": "Paris",
+      "ancora": {
+        "nome": "Hipódromo de Longchamp",
+        "descricao": "Hipódromo no Bois de Boulogne, em Paris, palco do Prix de l'Arc de Triomphe.",
+        "variantes": [
+          "Longchamp",
+          "Longchamp Racecourse"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista panorâmica inconfundível, com montanhas ao fundo e pista de atletismo; sem texto legível que entregue a resposta. Torcida aparece como parte do estádio.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Em que cidade fica este estádio?",
+      "resposta": "Teerã",
+      "distratores": [
+        "Isfahan",
+        "Xiraz",
+        "Mashhad"
+      ],
+      "ancora": {
+        "nome": "Estádio Azadi",
+        "descricao": "Estádio de futebol em Teerã, Irã, inaugurado em 1971 como Aryamehr.",
+        "variantes": [
+          "Azadi Stadium",
+          "Estádio Aryamehr"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Letreiro 'EBBETS FIELD' na fachada, ainda que desfocado, entrega a resposta; há também multidão em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada azul ondulada característica, vista aérea, sem texto.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Esta arena recebeu a patinação artística de que edição dos Jogos Olímpicos?",
+      "resposta": "Sochi 2014",
+      "ancora": {
+        "nome": "Palácio de Patinação Iceberg",
+        "descricao": "Arena multiuso do Parque Olímpico de Sochi, Rússia, sede da patinação artística nos Jogos de Inverno de 2014.",
+        "variantes": [
+          "Iceberg Skating Palace",
+          "Ginásio Iceberg"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Letreiro 'Estadio OMNILIFE' bem visível na fachada."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Há logotipos e textos visíveis (Caxias do Sul no gramado, rádio Caxias, Brigada Militar) que entregam a cidade/clube; estádio pouco reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Texto 'EAGLES' no gramado e placas visíveis entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Letreiros visíveis (TMU, placas de rua Carlton/Church, lojas) e imagem de esquina urbana sem traços que permitam reconhecer o ginásio."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Faixa em cirílico com o nome do clube (Estrela Vermelha) visível no estádio, que entrega pistas da resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto noturna com pessoas comuns em primeiro plano, e estádio sem traços que permitam reconhecê-lo."
+    }
+  ]
+}
