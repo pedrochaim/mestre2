@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fruto jovem com flor amarela na planta, claro e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que hortaliça é esta, ainda presa à planta?",
+      "resposta": "Pepino",
+      "distratores": [
+        "Abobrinha",
+        "Chuchu",
+        "Quiabo"
+      ],
+      "ancora": {
+        "nome": "Pepino",
+        "descricao": "Cucumis sativus, planta rasteira da família das cucurbitáceas cujo fruto cilíndrico é usado como hortaliça.",
+        "variantes": [
+          "Cucumis sativus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Flores vermelho-alaranjadas nítidas, típicas de Impatiens; aceitável para nível 1.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que planta ornamental, muito comum em jardins e vasos, tem estas flores?",
+      "resposta": "Maria-sem-vergonha",
+      "distratores": [
+        "Petúnia",
+        "Hibisco",
+        "Azaleia"
+      ],
+      "ancora": {
+        "nome": "Maria-sem-vergonha",
+        "descricao": "Impatiens walleriana, planta ornamental de flores coloridas nativa do leste da África.",
+        "variantes": [
+          "Impatiens walleriana",
+          "beijinho",
+          "impatiens"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Close de uma flor minúscula e pouco característica; o mangue-vermelho não é reconhecível por esta imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Plantação de alface-americana, bem reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que hortaliça é cultivada nesta plantação?",
+      "resposta": "Alface",
+      "distratores": [
+        "Couve",
+        "Rúcula",
+        "Espinafre"
+      ],
+      "ancora": {
+        "nome": "Alface",
+        "descricao": "Lactuca sativa, planta anual da família das asteráceas cultivada como hortaliça de folhas.",
+        "variantes": [
+          "Lactuca sativa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Inflorescência com espata branca e espádice típica, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que planta, muito usada em vasos dentro de casa, tem esta flor?",
+      "resposta": "Lírio-da-paz",
+      "distratores": [
+        "Copo-de-leite",
+        "Antúrio",
+        "Costela-de-adão"
+      ],
+      "ancora": {
+        "nome": "Lírio-da-paz",
+        "descricao": "Spathiphyllum, planta ornamental de interior da família das aráceas, com espata branca ao redor do espádice.",
+        "variantes": [
+          "Spathiphyllum",
+          "espatifilo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Frutos vermelhos brilhantes em forma de pera, característicos do jambo-vermelho.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta tropical é esta?",
+      "resposta": "Jambo",
+      "distratores": [
+        "Pitanga",
+        "Acerola",
+        "Cereja"
+      ],
+      "ancora": {
+        "nome": "Jambo",
+        "descricao": "Syzygium malaccense, árvore tropical de frutos vermelhos comestíveis, também chamada jambo-vermelho.",
+        "variantes": [
+          "Jambo-vermelho",
+          "Syzygium malaccense"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Frutos roxos com cálice verde, característicos da berinjela.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que hortaliça é esta, ainda pendurada na planta?",
+      "resposta": "Berinjela",
+      "distratores": [
+        "Jiló",
+        "Beterraba",
+        "Pimentão"
+      ],
+      "ancora": {
+        "nome": "Berinjela",
+        "descricao": "Solanum melongena, planta da família das solanáceas cujo fruto, em geral roxo, é usado como hortaliça.",
+        "variantes": [
+          "Beringela",
+          "Solanum melongena"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tufo esférico de visco sobre galho de árvore, bem característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que festa do ano é tradicional pendurar ramos desta planta?",
+      "resposta": "Natal",
+      "distratores": [
+        "Páscoa",
+        "Carnaval",
+        "Halloween"
+      ],
+      "ancora": {
+        "nome": "Visco",
+        "descricao": "Viscum album, planta hemiparasita europeia que cresce sobre galhos de árvores e é símbolo de decoração natalina.",
+        "variantes": [
+          "Viscum album",
+          "visco-branco"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Flores brancas genéricas de Pereskia; sem frutos ou espinhos visíveis, não distingue de outras espécies do gênero nem é reconhecível pelo público."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ramo florido de pereira, com anteras escuras características, fundo preto limpo.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Estas flores brotam de que árvore frutífera?",
+      "resposta": "Pereira",
+      "distratores": [
+        "Macieira",
+        "Marmeleiro",
+        "Cerejeira"
+      ],
+      "ancora": {
+        "nome": "Pera",
+        "descricao": "Fruto das árvores do gênero Pyrus, da família das rosáceas; a pereira é a árvore que o produz.",
+        "variantes": [
+          "Pereira",
+          "Pyrus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É uma ilustração botânica antiga, não foto; a begônia pode ser fotografada, então ilustração não vale."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Flor de Physalis em close, sem o fruto com cálice; não reconhecível e confundível com outras espécies de Physalis ou solanáceas."
+    }
+  ]
+}

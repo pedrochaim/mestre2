@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem pista que entregue a resposta; distratores do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos sustentam 'popular em jardins e vasos'. O enunciado não entrega a resposta e os distratores são ornamentais de flor colorida.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples, sem vazamento. Distratores são folhosas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho sustenta o uso em interiores. A pista não entrega a resposta. Os distratores são aráceas ou plantas de interior parecidas, adequadas ao nível 2.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. Os trechos confirmam jambo como o fruto de Syzygium malaccense. Os distratores são frutas vermelhas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Beterraba é raiz e não fica pendurada na planta, então é um distrator pouco crível para 'pendurada na planta'. Troquei por outro fruto de planta.",
+      "reescrita": {
+        "pergunta": "Que hortaliça é esta, ainda pendurada na planta?",
+        "resposta": "Berinjela",
+        "distratores": [
+          "Jiló",
+          "Tomate",
+          "Pimentão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o visco é pendurado no Natal. O enunciado não nomeia a planta e os distratores não são corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Flores de pereira, macieira, marmeleiro e cerejeira são muito parecidas, então a resposta não é única nem reconhecível só pela figura. O 'mostra' descreve o fruto, e a pergunta fala em flores.",
+      "reescrita": null
+    }
+  ]
+}

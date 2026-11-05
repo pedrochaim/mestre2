@@ -1,0 +1,86 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que hortaliça é esta, ainda presa à planta?",
+        "resposta": "Pepino"
+      },
+      "existentes": [
+        {
+          "id": "q09276",
+          "pergunta": "Que hortaliça é esta, ainda na planta?",
+          "resposta": "Pepino"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que hortaliça é cultivada nesta plantação?",
+        "resposta": "Alface"
+      },
+      "existentes": [
+        {
+          "id": "q14366",
+          "pergunta": "Que hortaliça é cultivada nesta plantação?",
+          "resposta": "Alface"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que fruta tropical é esta?",
+        "resposta": "Jambo"
+      },
+      "existentes": [
+        {
+          "id": "q04353",
+          "pergunta": "Que fruta tropical vermelha e brilhante, de origem asiática, é esta?",
+          "resposta": "Jambo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que hortaliça é esta, ainda pendurada na planta?",
+        "resposta": "Berinjela"
+      },
+      "existentes": [
+        {
+          "id": "q14368",
+          "pergunta": "Que hortaliça é esta, ainda no pé?",
+          "resposta": "Berinjela"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar o pepino na planta, só com palavras diferentes.",
+      "id_existente": "q09276"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica com a mesma resposta (alface).",
+      "id_existente": "q14366"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem para identificar a fruta jambo pela imagem; a existente só acrescenta detalhes.",
+      "id_existente": "q04353"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar a berinjela na planta, com outras palavras.",
+      "id_existente": "q14368"
+    }
+  ]
+}
