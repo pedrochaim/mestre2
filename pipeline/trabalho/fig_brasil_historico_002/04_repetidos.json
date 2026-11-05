@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década morreu este sacerdote nordestino?",
+        "resposta": "Década de 1930"
+      },
+      "existentes": [
+        {
+          "id": "q00310",
+          "pergunta": "Todos os anos, multidões de romeiros nordestinos visitam a cidade cearense onde viveu o Padre Cícero. Que cidade é essa?",
+          "resposta": "Juazeiro do Norte"
+        },
+        {
+          "id": "q15998",
+          "pergunta": "Que apelido carinhoso os romeiros nordestinos dão ao sacerdote de Juazeiro do Norte, venerado como santo popular?",
+          "resposta": "Padim Ciço"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ideia racial do fim do século dezenove esta pintura retrata?",
+        "resposta": "Branqueamento"
+      },
+      "existentes": [
+        {
+          "id": "q07425",
+          "pergunta": "Quem pintou, em 1895, no Rio de Janeiro, este quadro que lhe rendeu medalha de ouro no Salão Nacional?",
+          "resposta": "Modesto Brocos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que acontecimento levou ao poder este presidente?",
+        "resposta": "Golpe de 1964"
+      },
+      "existentes": [
+        {
+          "id": "q05801",
+          "pergunta": "Que militar, oficial da Força Expedicionária Brasileira na Itália, tornou-se em 1964 o primeiro presidente do regime militar brasileiro?",
+          "resposta": "Castelo Branco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Década da morte do Padre Cícero é um fato diferente da cidade ou do apelido."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A ideia retratada (branqueamento) difere do autor do quadro."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O acontecimento que levou ao poder (golpe de 1964) difere de identificar o militar; a existente cita 1964 mas pergunta quem foi."
+    }
+  ]
+}

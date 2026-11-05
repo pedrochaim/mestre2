@@ -1,0 +1,230 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este político foi eleito vice-presidente na chapa de qual presidente eleito em 1985?",
+      "resposta": "Tancredo Neves",
+      "distratores": [
+        "Ulysses Guimarães",
+        "Juscelino Kubitschek",
+        "Leonel Brizola"
+      ],
+      "ancora": {
+        "nome": "José Sarney",
+        "descricao": "Político brasileiro, 31º presidente do Brasil, de 1985 a 1990.",
+        "variantes": [
+          "Sarney"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O brasão traz a faixa com 'República Federativa do Brasil' e '15 de Novembro de 1889', texto que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Ruínas e prédios de uma rua do Rio sem elemento que permita reconhecer o Cais do Valongo; imagem pouco identificável."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica de figura pública, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década morreu este sacerdote nordestino?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1910",
+        "Década de 1920",
+        "Década de 1940"
+      ],
+      "ancora": {
+        "nome": "Padre Cícero",
+        "descricao": "Sacerdote católico cearense (1844–1934), figura de devoção popular em Juazeiro do Norte.",
+        "variantes": [
+          "Padim Ciço",
+          "Cícero Romão Batista"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pintura famosa em domínio público; a assinatura no canto é pequena e não entrega a resposta pedida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ideia racial do fim do século dezenove esta pintura retrata?",
+      "resposta": "Branqueamento",
+      "distratores": [
+        "Abolição da escravatura",
+        "Êxodo rural",
+        "Ciclo da borracha"
+      ],
+      "ancora": {
+        "nome": "A Redenção de Cam",
+        "descricao": "Pintura a óleo de Modesto Brocos, de 1895, sobre o branqueamento da população por miscigenação.",
+        "variantes": [
+          "Ham's Redemption"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato histórico claro de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este presidente foi governador de que estado antes de chegar à Presidência da República?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Minas Gerais",
+        "Rio de Janeiro",
+        "Rio Grande do Sul"
+      ],
+      "ancora": {
+        "nome": "Washington Luís",
+        "descricao": "Político paulista, 13º presidente do Brasil e último da Primeira República, derrubado em 1930.",
+        "variantes": [
+          "Washington Luís Pereira de Sousa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato oficial com faixa presidencial, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década este presidente assumiu o cargo?",
+      "resposta": "Década de 1990",
+      "distratores": [
+        "Década de 1960",
+        "Década de 1970",
+        "Década de 1980"
+      ],
+      "ancora": {
+        "nome": "Fernando Collor",
+        "descricao": "Político brasileiro, 32º presidente do Brasil, de 1990 a 1992, quando renunciou.",
+        "variantes": [
+          "Fernando Collor de Mello"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato oficial com faixa presidencial, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que acontecimento levou ao poder este presidente?",
+      "resposta": "Golpe de 1964",
+      "distratores": [
+        "Estado Novo",
+        "Revolução de 1930",
+        "Proclamação da República"
+      ],
+      "ancora": {
+        "nome": "Castelo Branco",
+        "descricao": "Marechal Humberto de Alencar Castelo Branco, 26º presidente do Brasil e primeiro da ditadura militar.",
+        "variantes": [
+          "Humberto de Alencar Castelo Branco"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica de figura pública em uniforme, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que oficial da Marinha imperial brasileira é este?",
+      "resposta": "Almirante Tamandaré",
+      "distratores": [
+        "Almirante Barroso",
+        "Lorde Cochrane",
+        "Saldanha da Gama"
+      ],
+      "ancora": {
+        "nome": "Almirante Tamandaré",
+        "descricao": "Joaquim Marques Lisboa, marquês de Tamandaré, almirante da Marinha Imperial do Brasil (1807–1897).",
+        "variantes": [
+          "Joaquim Marques Lisboa",
+          "Marquês de Tamandaré"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico de figura pública, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década morreu este político, líder da oposição à ditadura?",
+      "resposta": "Década de 1990",
+      "distratores": [
+        "Década de 1970",
+        "Década de 1980",
+        "Década de 2000"
+      ],
+      "ancora": {
+        "nome": "Ulysses Guimarães",
+        "descricao": "Político e advogado paulista, presidente da Assembleia Constituinte de 1987–1988, morto em 1992.",
+        "variantes": [
+          "Ulysses Silveira Guimarães",
+          "Doutor Ulysses"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura em domínio público de figura histórica, sem texto relevante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta nobre foi amante de qual imperador do Brasil?",
+      "resposta": "Dom Pedro I",
+      "distratores": [
+        "Dom Pedro II",
+        "Dom João VI",
+        "Dom Miguel"
+      ],
+      "ancora": {
+        "nome": "Marquesa de Santos",
+        "descricao": "Domitila de Castro, nobre paulista, amante e favorita de Dom Pedro I.",
+        "variantes": [
+          "Domitila de Castro",
+          "Domitila de Castro Canto e Melo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Muralha genérica diante de um gramado; não permite reconhecer a Fortaleza de São José de Macapá com segurança e poderia ser outro forte."
+    }
+  ]
+}
