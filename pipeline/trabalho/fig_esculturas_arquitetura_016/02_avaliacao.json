@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arranha-céu reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou este arranha-céu de Nova York?",
+      "resposta": "David Childs",
+      "distratores": [
+        "Norman Foster",
+        "Renzo Piano",
+        "César Pelli"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "One World Trade Center",
+        "descricao": "Arranha-céu principal do novo complexo do World Trade Center, em Manhattan, Nova York.",
+        "variantes": [
+          "Freedom Tower",
+          "One WTC",
+          "Torre da Liberdade"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Castelo cilíndrico com anjos na ponte, reconhecível e sem texto que entregue.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que imperador romano mandou construir este edifício para ser o seu túmulo?",
+      "resposta": "Adriano",
+      "distratores": [
+        "Augusto",
+        "Trajano",
+        "Constantino"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castelo de Santo Ângelo",
+        "descricao": "Rotunda em Roma, antigo mausoléu do imperador Adriano, depois fortaleza papal e hoje museu.",
+        "variantes": [
+          "Castel Sant'Angelo",
+          "Mausoléu de Adriano",
+          "Castelo do Santo Anjo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada gótica nítida, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estilo arquitetônico predomina neste mosteiro português?",
+      "resposta": "Gótico",
+      "distratores": [
+        "Românico",
+        "Barroco",
+        "Renascentista"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosteiro da Batalha",
+        "descricao": "Mosteiro dominicano gótico em Batalha, Portugal, erguido após a Batalha de Aljubarrota.",
+        "variantes": [
+          "Mosteiro de Santa Maria da Vitória",
+          "Batalha Monastery"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Obelisco icônico, sem texto legível que entregue.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto argentino projetou este monumento?",
+      "resposta": "Alberto Prebisch",
+      "distratores": [
+        "Alejandro Bustillo",
+        "Francisco Salamone",
+        "Clorindo Testa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Obelisco de Buenos Aires",
+        "descricao": "Monumento de concreto na Plaza de la República, em Buenos Aires, erguido em 1936.",
+        "variantes": [
+          "Obelisco",
+          "El Obelisco"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Escultura emblemática, bem visível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A qual movimento artístico pertence esta escultura de Canova?",
+      "resposta": "Neoclassicismo",
+      "distratores": [
+        "Barroco",
+        "Rococó",
+        "Maneirismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Psiquê Reanimada pelo Beijo do Amor",
+        "descricao": "Escultura de mármore de Antonio Canova, no Louvre, que mostra Cupido e Psiquê.",
+        "variantes": [
+          "Amor e Psiquê",
+          "Psyché ranimée par le baiser de l'Amour",
+          "Cupido e Psiquê"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, com rochas e muros que não permitem reconhecer o Grande Zimbábue com segurança num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A placa 'Circolo Italiano' aparece na imagem e entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada nítida; bandeira argentina não entrega o teatro específico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que famoso teatro de ópera sul-americano é este?",
+      "resposta": "Teatro Colón",
+      "distratores": [
+        "Teatro Solís",
+        "Theatro Municipal do Rio",
+        "Teatro Municipal de Santiago"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Teatro Colón",
+        "descricao": "Casa de ópera histórica de Buenos Aires, Argentina, inaugurada em 1908.",
+        "variantes": [
+          "Colón Theatre"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Templo com varanda de madeira sobre palafitas, reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade japonesa fica este templo budista?",
+      "resposta": "Quioto",
+      "distratores": [
+        "Nara",
+        "Osaka",
+        "Nagoia"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Kiyomizu-dera",
+        "descricao": "Templo budista no leste de Quioto, Japão, famoso pela grande varanda de madeira.",
+        "variantes": [
+          "Templo Kiyomizu",
+          "Templo da Água Pura"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O letreiro 'Moulin Rouge' aparece na imagem e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vista distante, através do Bósforo, em que o palácio é pouco distinguível; reconhecimento incerto."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pirâmide de vidro bem visível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou esta pirâmide de vidro e metal?",
+      "resposta": "I. M. Pei",
+      "distratores": [
+        "Norman Foster",
+        "Renzo Piano",
+        "Frank Gehry"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pirâmide do Louvre",
+        "descricao": "Entrada de vidro e metal no pátio do Museu do Louvre, em Paris, concluída em 1989.",
+        "variantes": [
+          "Pyramide du Louvre",
+          "Louvre Pyramid"
+        ]
+      }
+    }
+  ]
+}

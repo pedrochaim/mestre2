@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "David Childs é citado como arquiteto principal; enunciado não entrega a torre; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Adriano encomendou o mausoléu para si; sem a imagem, 'túmulo de imperador' não identifica o edifício (há outros mausoléus imperiais).",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia o descreve como exemplar do Gótico flamejante; elementos manuelinos e renascentistas são secundários. Enunciado não entrega.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Alberto Prebisch projetou o obelisco; distratores são arquitetos argentinos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Citar Canova no enunciado permite responder 'Neoclassicismo' sem ver a figura. Sem Canova, a resposta fica ambígua, porque o trecho diz que a obra tem traços do Romantismo emergente.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teatro Colón é a principal casa de ópera de Buenos Aires; o enunciado não entrega a resposta; distratores são teatros sul-americanos com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Templo budista no leste de Quioto, confirmado pelos trechos; o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pirâmide de vidro e metal' descreve a própria estrutura, então dá para responder 'I. M. Pei' sem ver a figura. Tirei a descrição e deixei só o ano de conclusão (1989), que está nos trechos.",
+      "reescrita": {
+        "pergunta": "Que arquiteto projetou esta estrutura, concluída em 1989?",
+        "resposta": "I. M. Pei",
+        "distratores": [
+          "Norman Foster",
+          "Renzo Piano",
+          "Frank Gehry"
+        ]
+      }
+    }
+  ]
+}

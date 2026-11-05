@@ -1,0 +1,145 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arquiteto projetou este arranha-céu de Nova York?",
+        "resposta": "David Childs"
+      },
+      "existentes": [
+        {
+          "id": "q11603",
+          "pergunta": "A altura do One World Trade Center, em Nova York, medida em pés, é igual a qual ano marcante da história americana?",
+          "resposta": "1776"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que imperador romano mandou construir este edifício para ser o seu túmulo?",
+        "resposta": "Adriano"
+      },
+      "existentes": [
+        {
+          "id": "q03876",
+          "pergunta": "Que imperador romano mandou construir este edifício para ser o mausoléu de sua família?",
+          "resposta": "Adriano"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que estilo arquitetônico predomina neste mosteiro português?",
+        "resposta": "Gótico"
+      },
+      "existentes": [
+        {
+          "id": "q13204",
+          "pergunta": "O Mosteiro da Batalha, em Portugal, foi erguido por Dom João Primeiro como agradecimento por qual vitória de 1385 contra Castela?",
+          "resposta": "Batalha de Aljubarrota"
+        },
+        {
+          "id": "q14593",
+          "pergunta": "Que mosteiro português é este?",
+          "resposta": "Mosteiro da Batalha"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que arquiteto argentino projetou este monumento?",
+        "resposta": "Alberto Prebisch"
+      },
+      "existentes": [
+        {
+          "id": "q05453",
+          "pergunta": "O Obelisco de Buenos Aires foi erguido em 1936 para comemorar quantos anos da primeira fundação da cidade?",
+          "resposta": "Quatrocentos anos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que famoso teatro de ópera sul-americano é este?",
+        "resposta": "Teatro Colón"
+      },
+      "existentes": [
+        {
+          "id": "q04246",
+          "pergunta": "Em que capital sul-americana fica o Teatro Colón, casa de ópera inaugurada em 1908 e famosa pela acústica?",
+          "resposta": "Buenos Aires"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que cidade japonesa fica este templo budista?",
+        "resposta": "Quioto"
+      },
+      "existentes": [
+        {
+          "id": "q17960",
+          "pergunta": "Que templo budista japonês é este?",
+          "resposta": "Kiyomizu-dera"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que arquiteto projetou esta estrutura, concluída em 1989?",
+        "resposta": "I. M. Pei"
+      },
+      "existentes": [
+        {
+          "id": "q02029",
+          "pergunta": "Qual arquiteto sino-americano projetou a pirâmide de vidro que serve de entrada ao Museu do Louvre?",
+          "resposta": "I. M. Pei"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Arquiteto vs. altura/ano 1776; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q03876",
+      "motivo": "Mesmo fato: Adriano mandou construir o edifício como mausoléu/túmulo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Estilo arquitetônico é fato diferente da vitória ou do nome do mosteiro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Arquiteto do obelisco difere do motivo/data da construção."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o teatro pela imagem é diferente de perguntar a cidade onde fica; a resposta da existente está na pergunta nova, mas não o contrário."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cidade do templo é fato diferente do nome do templo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A estrutura de 1989 não é identificada de forma inequívoca; arquiteto igual, mas na dúvida é nova."
+    }
+  ]
+}

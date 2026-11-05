@@ -1,0 +1,456 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "One World Trade Center",
+        "descricao": "Arranha-céu principal do novo complexo do World Trade Center, em Manhattan, Nova York.",
+        "variantes": [
+          "Freedom Tower",
+          "One WTC",
+          "Torre da Liberdade"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "one_world_trade_center",
+          "nome": "One World Trade Center",
+          "descricao": "Arranha-céu principal do novo complexo do World Trade Center, em Manhattan, inaugurado em 2014.",
+          "variantes": [
+            "Freedom Tower",
+            "Torre da Liberdade",
+            "One WTC"
+          ]
+        },
+        {
+          "id": "barrete_frigio",
+          "nome": "Barrete frígio",
+          "descricao": "Gorro cônico macio com a ponta dobrada para a frente, usado na Antiguidade e depois símbolo de liberdade na Revolução Francesa.",
+          "variantes": [
+            "Gorro frígio",
+            "Barrete da liberdade",
+            "Phrygian cap"
+          ]
+        },
+        {
+          "id": "praca_da_liberdade_belo_horizonte",
+          "nome": "Praça da Liberdade (Belo Horizonte)",
+          "descricao": "Praça e conjunto arquitetônico na região da Savassi, em Belo Horizonte, ao redor do Palácio da Liberdade.",
+          "variantes": [
+            "Praça da Liberdade"
+          ]
+        },
+        {
+          "id": "hino_a_liberdade",
+          "nome": "Hino à Liberdade",
+          "descricao": "Hino nacional da Grécia e de Chipre, baseado num poema de Dionysios Solomos de 1823.",
+          "variantes": [
+            "Hymn to Liberty",
+            "Ýmnos eis tin Eleftherían"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Castelo de Santo Ângelo",
+        "descricao": "Rotunda em Roma, antigo mausoléu do imperador Adriano, depois fortaleza papal e hoje museu.",
+        "variantes": [
+          "Castel Sant'Angelo",
+          "Mausoléu de Adriano",
+          "Castelo do Santo Anjo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_santo_angelo",
+          "nome": "Castelo de Santo Ângelo",
+          "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+          "variantes": [
+            "Mausoléu de Adriano",
+            "Castel Sant'Angelo",
+            "Castelo do Santo Anjo"
+          ]
+        },
+        {
+          "id": "muralha_de_adriano",
+          "nome": "Muralha de Adriano",
+          "descricao": "Muralha defensiva romana construída a partir de 122 no norte da Britânia, por ordem do imperador Adriano.",
+          "variantes": [
+            "Hadrian's Wall"
+          ]
+        },
+        {
+          "id": "mausoleu_de_halicarnasso",
+          "nome": "Mausoléu de Halicarnasso",
+          "descricao": "Túmulo monumental do governante Mausolo, na antiga Halicarnasso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Mausoleum at Halicarnassus",
+            "Túmulo de Mausolo",
+            "Mausoléu de Mausolo"
+          ]
+        },
+        {
+          "id": "battle_chateau",
+          "nome": "Battle Château",
+          "descricao": "Castelo de batalhas da região de Kalos, nos jogos Pokémon X e Y, onde os treinadores sobem de posto a cada vitória.",
+          "variantes": [
+            "Castelo de Batalha"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mosteiro da Batalha",
+        "descricao": "Mosteiro dominicano gótico em Batalha, Portugal, erguido após a Batalha de Aljubarrota.",
+        "variantes": [
+          "Mosteiro de Santa Maria da Vitória",
+          "Batalha Monastery"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mosteiro_da_batalha",
+          "nome": "Mosteiro da Batalha",
+          "descricao": "Mosteiro gótico dominicano na vila da Batalha, em Portugal, mandado erguer por Dom João Primeiro.",
+          "variantes": [
+            "Mosteiro de Santa Maria da Vitória",
+            "Batalha Monastery"
+          ]
+        },
+        {
+          "id": "mosteiro_dos_jeronimos",
+          "nome": "Mosteiro dos Jerónimos",
+          "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama.",
+          "variantes": [
+            "Mosteiro de Santa Maria de Belém"
+          ]
+        },
+        {
+          "id": "mosteiro_de_rila",
+          "nome": "Mosteiro de Rila",
+          "descricao": "Maior mosteiro ortodoxo da Bulgária, nas montanhas de Rila, fundado no século dez.",
+          "variantes": [
+            "Mosteiro de São João de Rila",
+            "Rila Monastery",
+            "Rilski manastir"
+          ]
+        },
+        {
+          "id": "mosteiro_de_santa_catarina_sinai",
+          "nome": "Mosteiro de Santa Catarina (Sinai)",
+          "descricao": "Mosteiro ortodoxo do século seis aos pés do Monte Sinai, no Egito.",
+          "variantes": [
+            "Saint Catherine's Monastery",
+            "Mosteiro de Santa Catarina do Sinai"
+          ]
+        },
+        {
+          "id": "battle_chateau",
+          "nome": "Battle Château",
+          "descricao": "Castelo de batalhas da região de Kalos, nos jogos Pokémon X e Y, onde os treinadores sobem de posto a cada vitória.",
+          "variantes": [
+            "Castelo de Batalha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Obelisco de Buenos Aires",
+        "descricao": "Monumento de concreto na Plaza de la República, em Buenos Aires, erguido em 1936.",
+        "variantes": [
+          "Obelisco",
+          "El Obelisco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "obelisco",
+          "nome": "Obelisco",
+          "descricao": "Monumento egípcio de pedra, alto e de quatro faces, que termina em ponta piramidal",
+          "variantes": [
+            "Obelisk",
+            "Tekhenu"
+          ]
+        },
+        {
+          "id": "obelisco_de_buenos_aires",
+          "nome": "Obelisco de Buenos Aires",
+          "descricao": "Obelisco branco erguido em 1936 no cruzamento da Avenida 9 de Julho com a Avenida Corrientes, em Buenos Aires.",
+          "variantes": [
+            "El Obelisco"
+          ]
+        },
+        {
+          "id": "metro_de_buenos_aires",
+          "nome": "Metrô de Buenos Aires",
+          "descricao": "Sistema de metrô da capital argentina, inaugurado em 1913.",
+          "variantes": [
+            "Subte",
+            "Subterráneo de Buenos Aires"
+          ]
+        },
+        {
+          "id": "obelisco_tello",
+          "nome": "Obelisco Tello",
+          "descricao": "Obelisco de granito entalhado da cultura Chavín, achado em Chavín de Huántar, no Peru.",
+          "variantes": [
+            "Tello Obelisk",
+            "Obelisco de Tello"
+          ]
+        },
+        {
+          "id": "obelisco_de_luxor",
+          "nome": "Obelisco de Luxor",
+          "descricao": "Obelisco do tempo de Ramsés II que ficava na entrada do Templo de Luxor e foi levado para Paris no século dezenove",
+          "variantes": [
+            "Luxor Obelisk",
+            "Obélisque de Louxor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Teatro Colón",
+        "descricao": "Casa de ópera histórica de Buenos Aires, Argentina, inaugurada em 1908.",
+        "variantes": [
+          "Colón Theatre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_colon",
+          "nome": "Teatro Colón",
+          "descricao": "Casa de ópera de Buenos Aires, inaugurada em 1908 e famosa pela acústica.",
+          "variantes": []
+        },
+        {
+          "id": "teatro_bolshoi",
+          "nome": "Teatro Bolshoi",
+          "descricao": "Teatro histórico de ópera e balé em Moscou, sede da companhia Bolshoi.",
+          "variantes": [
+            "Bolshoi Theatre",
+            "Teatro Bolchoi"
+          ]
+        },
+        {
+          "id": "teatro_globe",
+          "nome": "Teatro Globe",
+          "descricao": "Teatro elisabetano de Londres, construído em 1599, onde a companhia de Shakespeare se apresentava.",
+          "variantes": [
+            "Globe Theatre",
+            "The Globe",
+            "Shakespeare's Globe"
+          ]
+        },
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        },
+        {
+          "id": "teatro_amazonas",
+          "nome": "Teatro Amazonas",
+          "descricao": "Casa de ópera de Manaus inaugurada em 1896.",
+          "variantes": [
+            "Amazon Theatre",
+            "Teatro Amazonas de Manaus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Kiyomizu-dera",
+        "descricao": "Templo budista no leste de Quioto, Japão, famoso pela grande varanda de madeira.",
+        "variantes": [
+          "Templo Kiyomizu",
+          "Templo da Água Pura"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kiyomizu_dera",
+          "nome": "Kiyomizu-dera",
+          "descricao": "Templo budista no leste de Quioto, no Japão, famoso pela grande varanda de madeira sobre a encosta.",
+          "variantes": [
+            "Templo Kiyomizu",
+            "Kiyomizudera"
+          ]
+        },
+        {
+          "id": "wat_arun",
+          "nome": "Wat Arun",
+          "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+          "variantes": [
+            "Templo do Amanhecer",
+            "Templo da Aurora",
+            "Wat Arun Ratchawararam"
+          ]
+        },
+        {
+          "id": "templo_i_de_tikal",
+          "nome": "Templo I de Tikal",
+          "descricao": "Pirâmide-templo maia de cerca de 732 d.C. na Grande Praça de Tikal, na Guatemala, também chamada Templo do Grande Jaguar.",
+          "variantes": [
+            "Templo do Grande Jaguar",
+            "Templo de Ah Cacao",
+            "Tikal Temple I"
+          ]
+        },
+        {
+          "id": "byodo_in",
+          "nome": "Byodo-in",
+          "descricao": "Templo budista do século onze em Uji, perto de Quioto, famoso pelo Pavilhão da Fênix.",
+          "variantes": [
+            "Templo Byodoin"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pirâmide do Louvre",
+        "descricao": "Entrada de vidro e metal no pátio do Museu do Louvre, em Paris, concluída em 1989.",
+        "variantes": [
+          "Pyramide du Louvre",
+          "Louvre Pyramid"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_do_louvre",
+          "nome": "Pirâmide do Louvre",
+          "descricao": "Pirâmide de vidro e metal no pátio do Museu do Louvre, em Paris, inaugurada em 1989.",
+          "variantes": [
+            "Louvre Pyramid",
+            "Pyramide du Louvre"
+          ]
+        },
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun",
+            "Pirámide del Sol"
+          ]
+        },
+        {
+          "id": "piramide_de_quefren",
+          "nome": "Pirâmide de Quéfren",
+          "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Khafre",
+            "Pyramid of Khafre",
+            "Pirâmide de Chefren"
+          ]
+        },
+        {
+          "id": "piramide_de_miquerinos",
+          "nome": "Pirâmide de Miquerinos",
+          "descricao": "Menor das três grandes pirâmides de Gizé, túmulo do faraó Miquerinos, da Quarta Dinastia",
+          "variantes": [
+            "Pirâmide de Menkaure",
+            "Pyramid of Menkaure"
+          ]
+        },
+        {
+          "id": "piramides_de_meroe",
+          "nome": "Pirâmides de Méroe",
+          "descricao": "Conjunto de pirâmides núbias erguidas pelos reis de Cuxe perto da antiga cidade de Méroe.",
+          "variantes": [
+            "Pirâmides núbias",
+            "Meroë pyramids"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "one_world_trade_center",
+      "motivo": "Mesmo arranha-céu, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_santo_angelo",
+      "motivo": "Mesmo edifício, antigo Mausoléu de Adriano em Roma."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "mosteiro_da_batalha",
+      "motivo": "Mesmo mosteiro em Batalha, Portugal."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "obelisco_de_buenos_aires",
+      "motivo": "Mesmo monumento de 1936 em Buenos Aires."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "teatro_colon",
+      "motivo": "Mesma casa de ópera de Buenos Aires, 1908."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "kiyomizu_dera",
+      "motivo": "Mesmo templo de Quioto."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "piramide_do_louvre",
+      "motivo": "Mesma pirâmide de vidro do Louvre, 1989."
+    }
+  ]
+}
