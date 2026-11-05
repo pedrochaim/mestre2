@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este vilão é inimigo de qual grupo de heroínas?",
+        "resposta": "As Meninas Superpoderosas"
+      },
+      "existentes": [
+        {
+          "id": "q08799",
+          "pergunta": "Qual é o nome deste vilão das Meninas Superpoderosas?",
+          "resposta": "Macaco Louco"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Bulbasaur"
+      },
+      "existentes": [
+        {
+          "id": "q01746",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Bulbasaur"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome do vilão (Macaco Louco); a nova pede o grupo de heroínas inimigo. Fatos diferentes, embora a existente cite as Meninas Superpoderosas no enunciado."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q01746",
+      "motivo": "Pergunta e resposta idênticas."
+    }
+  ]
+}

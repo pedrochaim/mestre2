@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura a pergunta não se responde; fato confirmado nos trechos; distratores corretos e do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vilão símio' entrega o personagem sem a figura, e 'As Tartarugas Ninja' e 'Kim Possible' não são grupos de heroínas. Tirei a pista e troquei os distratores.",
+      "reescrita": {
+        "pergunta": "Este vilão é inimigo de qual grupo de heroínas?",
+        "resposta": "As Meninas Superpoderosas",
+        "distratores": [
+          "Totally Spies",
+          "Winx Club",
+          "Sailor Moon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto com distratores do mesmo universo franco-belga; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta padrão de silhueta de pokémon; distratores parecidos e da mesma franquia, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta não vaza nada; distratores plausíveis (Madame Min, Hazel); a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jiji só aparece em Kiki, dirigido por Miyazaki (trechos); o enunciado não entrega a resposta; distratores são diretores japoneses de animação.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, distratores de desenhos (alienígenas e personagens parecidos), sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Criador confirmado nos trechos; o enunciado não nomeia o cão nem o desenho; distratores são criadores de desenhos animados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fiona é esposa de Shrek (trechos); sem a figura a pergunta não se responde; distratores não são corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Irmão adotivo de qual herói' quase entrega Loki, que é o caso famoso, e a figura vira enfeite. Troquei por uma pergunta sobre a mitologia em que ele se baseia, que a Wikipédia confirma.",
+      "reescrita": {
+        "pergunta": "Em qual mitologia se baseia este personagem da Marvel?",
+        "resposta": "Nórdica",
+        "distratores": [
+          "Grega",
+          "Egípcia",
+          "Celta"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autor do mangá confirmado nos trechos; o enunciado só diz 'cavaleiro', sem entregar a resposta; distratores são mangakás famosos.",
+      "reescrita": null
+    }
+  ]
+}

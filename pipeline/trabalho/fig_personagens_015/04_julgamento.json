@@ -1,0 +1,673 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Minnie Mouse",
+        "descricao": "Personagem de desenho animado criada por Walt Disney, namorada de Mickey Mouse, conhecida pelo laço de bolinhas.",
+        "variantes": [
+          "Minnie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mini_mark_i",
+          "nome": "Mini Mark I",
+          "descricao": "Primeira versão do carro compacto Mini da British Motor Corporation, produzida a partir de 1959.",
+          "variantes": [
+            "Mini",
+            "Austin Mini",
+            "Morris Mini",
+            "Mini Mk I",
+            "Morris Mini-Minor"
+          ]
+        },
+        {
+          "id": "mickey_mouse",
+          "nome": "Mickey Mouse",
+          "descricao": "Camundongo criado por Walt Disney e Ub Iwerks em 1928, mascote da Disney.",
+          "variantes": [
+            "Mickey",
+            "Rato Mickey"
+          ]
+        },
+        {
+          "id": "minun",
+          "nome": "Minun",
+          "descricao": "Pokémon do tipo Elétrico, número 312 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "carne_moida",
+          "nome": "Carne moída",
+          "descricao": "Carne triturada em moedor ou picada em pedaços pequenos, usada em hambúrgueres, almôndegas e recheios.",
+          "variantes": [
+            "Carne picada",
+            "Ground meat",
+            "Mince"
+          ]
+        },
+        {
+          "id": "dialeto_mineiro",
+          "nome": "Dialeto mineiro",
+          "descricao": "Falar típico de Minas Gerais, conhecido popularmente como mineirês",
+          "variantes": [
+            "Mineirês"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mojo Jojo",
+        "descricao": "Macaco cientista e principal vilão do desenho As Meninas Superpoderosas.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "macaco_louco",
+          "nome": "Macaco Louco",
+          "descricao": "Macaco de cérebro grande, capa roxa e fala redundante, principal vilão de As Meninas Superpoderosas.",
+          "variantes": [
+            "Mojo Jojo"
+          ]
+        },
+        {
+          "id": "boneco_de_madeira_mook_jong",
+          "nome": "Boneco de madeira (mook jong)",
+          "descricao": "Equipamento de treino do Wing Chun, um poste com braços e perna fixos.",
+          "variantes": [
+            "Mook jong",
+            "Muk yan jong",
+            "Mu ren zhuang"
+          ]
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        },
+        {
+          "id": "monjolo",
+          "nome": "Monjolo",
+          "descricao": "Máquina hidráulica rústica de pilão movido por uma gangorra com concha de água.",
+          "variantes": [
+            "Monjolo hidráulico"
+          ]
+        },
+        {
+          "id": "jotaro_kujo",
+          "nome": "Jotaro Kujo",
+          "descricao": "Protagonista da Parte 3 de JoJo's Bizarre Adventure, usuário do Stand Star Platinum.",
+          "variantes": [
+            "Jotaro",
+            "Kujo Jotaro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Spirou",
+        "descricao": "Groom ruivo de uniforme vermelho, protagonista dos quadrinhos franco-belgas Spirou e Fantasio.",
+        "variantes": [
+          "Spirou e Fantasio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "suspiro",
+          "nome": "Suspiro",
+          "descricao": "Doce leve e crocante feito de claras batidas com açúcar e assado em fogo baixo.",
+          "variantes": [
+            "Merengue",
+            "Meringue"
+          ]
+        },
+        {
+          "id": "sopro_das_baleias",
+          "nome": "Sopro das baleias",
+          "descricao": "Jato visível que os cetáceos soltam pelo espiráculo ao expirar na superfície.",
+          "variantes": [
+            "Borrifo",
+            "Spout"
+          ]
+        },
+        {
+          "id": "andrea_pirlo",
+          "nome": "Andrea Pirlo",
+          "descricao": "Ex-meio-campista italiano, campeão mundial em 2006 e vencedor da Liga dos Campeões pelo Milan.",
+          "variantes": [
+            "Pirlo"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "mar_caspio",
+          "nome": "Mar Cáspio",
+          "descricao": "Grande corpo de água salgada sem saída para o oceano, entre a Europa Oriental e a Ásia Central.",
+          "variantes": [
+            "Caspian Sea",
+            "Cáspio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bulbasaur",
+        "descricao": "Pokémon inicial de tipo Planta e Veneno da primeira geração, com um bulbo nas costas.",
+        "variantes": [
+          "Fushigidane"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bulbasaur",
+          "nome": "Bulbasaur",
+          "descricao": "Pokémon dos tipos Planta e Veneno, número 1 da Pokédex Nacional.",
+          "variantes": [
+            "Fushigidane"
+          ]
+        },
+        {
+          "id": "bulbasaur_de_ash",
+          "nome": "Bulbasaur de Ash",
+          "descricao": "Bulbasaur de Ash Ketchum no anime Pokémon, que vivia num vilarejo escondido de pokémon abandonados antes de seguir o treinador.",
+          "variantes": [
+            "Ash's Bulbasaur"
+          ]
+        },
+        {
+          "id": "pulsar",
+          "nome": "Pulsar",
+          "descricao": "Estrela de nêutrons em rotação rápida que emite feixes de radiação captados como pulsos regulares.",
+          "variantes": [
+            "Pulsares"
+          ]
+        },
+        {
+          "id": "bouillabaisse",
+          "nome": "Bouillabaisse",
+          "descricao": "Sopa de peixes e frutos do mar tradicional da Provença, originária de Marselha.",
+          "variantes": [
+            "Bullabesa",
+            "Bouillabaisse de Marselha"
+          ]
+        },
+        {
+          "id": "dango",
+          "nome": "Dango",
+          "descricao": "Bolinho japonês de farinha de arroz servido em espetos, aqui na versão tricolor.",
+          "variantes": [
+            "Hanami dango",
+            "Kushi-dango"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Maga Patalójika",
+        "descricao": "Feiticeira vilã dos quadrinhos do Tio Patinhas, criada por Carl Barks, que quer a moeda número um.",
+        "variantes": [
+          "Magica De Spell"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mara",
+          "nome": "Mara",
+          "descricao": "Roedor parecido com uma lebre de pernas longas, Dolichotis patagonum, da Argentina.",
+          "variantes": [
+            "Mara-da-patagônia",
+            "Dolichotis patagonum"
+          ]
+        },
+        {
+          "id": "tragedia_de_heysel",
+          "nome": "Tragédia de Heysel",
+          "descricao": "Desastre no estádio de Heysel, em Bruxelas, antes da final da Copa dos Campeões de 1985 entre Liverpool e Juventus, com 39 mortos.",
+          "variantes": [
+            "Desastre de Heysel",
+            "Heysel Stadium disaster"
+          ]
+        },
+        {
+          "id": "la_casa_de_papel",
+          "nome": "La Casa de Papel",
+          "descricao": "Série espanhola sobre um bando que, liderado pelo Professor, assalta a Casa da Moeda da Espanha.",
+          "variantes": [
+            "Money Heist",
+            "A Casa de Papel"
+          ]
+        },
+        {
+          "id": "altaria",
+          "nome": "Altaria",
+          "descricao": "Pokémon dos tipos Dragão e Voador, número 334 da Pokédex Nacional.",
+          "variantes": [
+            "Mega Altaria"
+          ]
+        },
+        {
+          "id": "tragedia_de_superga",
+          "nome": "Tragédia de Superga",
+          "descricao": "Queda do avião que levava o elenco do Torino, o Grande Torino, na colina de Superga, perto de Turim, em 4 de maio de 1949.",
+          "variantes": [
+            "Desastre aéreo de Superga",
+            "Superga air disaster",
+            "Tragedia di Superga"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Jiji",
+        "descricao": "Gato preto falante, companheiro da bruxa Kiki no filme Serviço de Entregas da Kiki.",
+        "variantes": [
+          "Jiji, o gato da Kiki"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_fiji",
+          "nome": "Bandeira de Fiji",
+          "descricao": "Bandeira de Fiji, azul-clara com a Union Jack no canto e o brasão nacional.",
+          "variantes": [
+            "Fiji",
+            "Bandeira das Ilhas Fiji"
+          ]
+        },
+        {
+          "id": "brasao_de_fiji",
+          "nome": "Brasão de Fiji",
+          "descricao": "Brasão de armas da República de Fiji, com um leão, cana-de-açúcar, coqueiro, pomba e banana, sustentado por dois guerreiros.",
+          "variantes": [
+            "Fiji",
+            "Brasão das Ilhas Fiji"
+          ]
+        },
+        {
+          "id": "baiji",
+          "nome": "Baiji",
+          "descricao": "Golfinho de água doce do rio Yangtzé, na China (Lipotes vexillifer), considerado funcionalmente extinto.",
+          "variantes": [
+            "Golfinho-do-yangtzé",
+            "Lipotes vexillifer",
+            "Golfinho-chinês-de-rio"
+          ]
+        },
+        {
+          "id": "tai_chi_chuan",
+          "nome": "Tai chi chuan",
+          "descricao": "Arte marcial chinesa praticada sobretudo como exercício de movimentos suaves e encadeados.",
+          "variantes": [
+            "Tai chi",
+            "Taiji",
+            "Taijiquan"
+          ]
+        },
+        {
+          "id": "jiboia",
+          "nome": "Jiboia",
+          "descricao": "Serpente constritora não venenosa da América tropical, Boa constrictor.",
+          "variantes": [
+            "Jiboia-constritora",
+            "Boa constrictor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Marvin, o Marciano",
+        "descricao": "Alienígena de capacete romano e saia verde, inimigo do Pernalonga nos desenhos Looney Tunes.",
+        "variantes": [
+          "Marvin the Martian"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "maria_maria",
+          "nome": "Maria, Maria",
+          "descricao": "Canção de Milton Nascimento e Fernando Brant, lançada em disco em 1978.",
+          "variantes": []
+        },
+        {
+          "id": "rocky_marciano",
+          "nome": "Rocky Marciano",
+          "descricao": "Boxeador americano, campeão dos pesos-pesados que se aposentou invicto em 1956.",
+          "variantes": [
+            "Rocco Francis Marchegiano"
+          ]
+        },
+        {
+          "id": "rio_maracana",
+          "nome": "Rio Maracanã",
+          "descricao": "Rio da Zona Norte do Rio de Janeiro que deu nome ao bairro e ao estádio do Maracanã",
+          "variantes": [
+            "Maracanã"
+          ]
+        },
+        {
+          "id": "arthur_nory",
+          "nome": "Arthur Nory",
+          "descricao": "Ginasta artístico brasileiro, medalhista de bronze olímpico no solo em 2016 e campeão mundial da barra fixa em 2019.",
+          "variantes": [
+            "Arthur Nory Mariano",
+            "Arthur Mariano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Coragem, o Cão Covarde",
+        "descricao": "Cachorro rosa medroso, protagonista do desenho animado Coragem, o Cão Covarde.",
+        "variantes": [
+          "Courage the Cowardly Dog",
+          "Coragem"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esporao_do_centeio",
+          "nome": "Esporão-do-centeio",
+          "descricao": "Fungo Claviceps purpurea, que parasita o centeio e outros cereais e causa o ergotismo",
+          "variantes": [
+            "Claviceps purpurea",
+            "cravagem",
+            "ergot"
+          ]
+        },
+        {
+          "id": "clone",
+          "nome": "Clone",
+          "descricao": "Organismo ou célula geneticamente idêntico a outro, obtido por reprodução assexuada ou por clonagem.",
+          "variantes": [
+            "Clonagem",
+            "Cloning"
+          ]
+        },
+        {
+          "id": "carruagem",
+          "nome": "Carruagem",
+          "descricao": "Veículo de duas ou quatro rodas puxado por cavalos, usado para transportar passageiros.",
+          "variantes": [
+            "Coche"
+          ]
+        },
+        {
+          "id": "rage",
+          "nome": "Rage",
+          "descricao": "Golpe de pokémon do tipo Normal, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "persefone",
+          "nome": "Perséfone",
+          "descricao": "Deusa grega filha de Deméter, raptada por Hades e rainha do mundo dos mortos.",
+          "variantes": [
+            "Persephone",
+            "Prosérpina",
+            "Core"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Princesa Fiona",
+        "descricao": "Princesa e ogra da franquia de animação Shrek, esposa de Shrek.",
+        "variantes": [
+          "Fiona",
+          "Princess Fiona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rosalina",
+          "nome": "Rosalina",
+          "descricao": "Princesa guardiã do cosmos e mãe adotiva dos Lumas na série Mario.",
+          "variantes": [
+            "Princesa Rosalina"
+          ]
+        },
+        {
+          "id": "princesa_isabel",
+          "nome": "Princesa Isabel",
+          "descricao": "Princesa Imperial do Brasil, filha de Pedro Segundo, que assinou a Lei Áurea em 1888.",
+          "variantes": [
+            "Isabel de Bragança",
+            "A Redentora"
+          ]
+        },
+        {
+          "id": "fohn",
+          "nome": "Föhn",
+          "descricao": "Vento quente e seco que desce as encostas a sotavento dos Alpes",
+          "variantes": [
+            "Foehn",
+            "Fön",
+            "Vento foehn"
+          ]
+        },
+        {
+          "id": "cafona",
+          "nome": "Cafona",
+          "descricao": "Adjetivo brasileiro para algo de mau gosto ou brega, vindo do italiano cafone",
+          "variantes": []
+        },
+        {
+          "id": "princesa_zelda",
+          "nome": "Princesa Zelda",
+          "descricao": "Princesa do reino de Hyrule na série The Legend of Zelda, da Nintendo.",
+          "variantes": [
+            "Princess Zelda",
+            "Zelda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Loki",
+        "descricao": "Deus da trapaça da Marvel, irmão adotivo de Thor e frequente vilão dos Vingadores.",
+        "variantes": [
+          "Loki Laufeyson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "loki",
+          "nome": "Loki",
+          "descricao": "Deus trapaceiro da mitologia nórdica, capaz de mudar de forma.",
+          "variantes": [
+            "Loke"
+          ]
+        },
+        {
+          "id": "lokix",
+          "nome": "Lokix",
+          "descricao": "Pokémon dos tipos Inseto e Sombrio, número 920 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "larry",
+          "nome": "Larry",
+          "descricao": "Líder do ginásio de tipo Normal de Medali e membro da Elite dos Quatro de Paldea, nos jogos Pokémon Scarlet e Violet.",
+          "variantes": [
+            "Aoki"
+          ]
+        },
+        {
+          "id": "lomekwi_3",
+          "nome": "Lomekwi 3",
+          "descricao": "Sítio arqueológico perto do lago Turkana, no Quênia, com ferramentas de pedra de cerca de 3,3 milhões de anos.",
+          "variantes": [
+            "Lomekwi",
+            "Ferramentas de Lomekwi"
+          ]
+        },
+        {
+          "id": "ocapi",
+          "nome": "Ocapi",
+          "descricao": "Mamífero das florestas do Congo com listras nas pernas, espécie Okapia johnstoni.",
+          "variantes": [
+            "Okapi",
+            "Okapia johnstoni"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Máscara da Morte de Câncer",
+        "descricao": "Cavaleiro de Ouro de Câncer em Os Cavaleiros do Zodíaco, de Masami Kurumada.",
+        "variantes": [
+          "Cancer Deathmask",
+          "Death Mask",
+          "Máscara da Morte"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "death_note",
+          "nome": "Death Note",
+          "descricao": "Mangá e anime de Tsugumi Ohba e Takeshi Obata sobre um caderno que mata quem tem o nome escrito nele.",
+          "variantes": [
+            "Caderno da Morte"
+          ]
+        },
+        {
+          "id": "mascara_de_medico_da_peste",
+          "nome": "Máscara de médico da peste",
+          "descricao": "Máscara de bico longo do Carnaval de Veneza, inspirada no traje dos médicos que tratavam a peste.",
+          "variantes": [
+            "Medico della peste",
+            "Máscara de bico"
+          ]
+        },
+        {
+          "id": "jupara",
+          "nome": "Jupará",
+          "descricao": "Mamífero arborícola e noturno da família dos procionídeos, da espécie Potos flavus.",
+          "variantes": [
+            "Potos flavus",
+            "Macaco-da-noite",
+            "Kinkajou"
+          ]
+        },
+        {
+          "id": "vale_da_morte",
+          "nome": "Vale da Morte",
+          "descricao": "Vale desértico do oeste dos Estados Unidos, conhecido pelo calor extremo",
+          "variantes": [
+            "Death Valley"
+          ]
+        },
+        {
+          "id": "christmas_cracker",
+          "nome": "Christmas cracker",
+          "descricao": "Tubo de papel enfeitado, típico da ceia de Natal britânica, que estoura quando duas pessoas o puxam e revela pequenos brindes.",
+          "variantes": [
+            "Cracker de Natal"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Minnie não está entre as candidatas; Mickey é outro personagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "macaco_louco",
+      "motivo": "Mojo Jojo é o Macaco Louco, vilão de As Meninas Superpoderosas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Spirou."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "bulbasaur",
+      "motivo": "Mesmo Pokémon, Bulbasaur, número 1 da Pokédex; o de Ash é um indivíduo específico."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Maga Patalójika."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Jiji, o gato, não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Marvin, o Marciano, não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde ao Coragem."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Fiona não está entre as candidatas; as outras princesas são personagens diferentes."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "O Loki da Marvel é distinto do deus da mitologia nórdica."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Máscara da Morte de Câncer."
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Minnie sozinha, de corpo inteiro; laço e orelhas dão silhueta reconhecível. Pergunta de conexão sem nomear a personagem.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta personagem animada é a namorada de qual outro personagem?",
+      "resposta": "Mickey Mouse",
+      "distratores": [
+        "Pateta",
+        "Donald Duck",
+        "Pluto"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Minnie Mouse",
+        "descricao": "Personagem de desenho animado criada por Walt Disney, namorada de Mickey Mouse, conhecida pelo laço de bolinhas.",
+        "variantes": [
+          "Minnie",
+          "Minnie Mouse"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arte clara do vilão, sem texto. A silhueta é uma massa com a capa e pouco contorno, então usa-se a imagem colorida.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este vilão símio é inimigo de qual grupo de heroínas?",
+      "resposta": "As Meninas Superpoderosas",
+      "distratores": [
+        "Totally Spies",
+        "Kim Possible",
+        "As Tartarugas Ninja"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Mojo Jojo",
+        "descricao": "Macaco cientista e principal vilão do desenho As Meninas Superpoderosas.",
+        "variantes": [
+          "Mojo Jojo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, com topete e uniforme de mensageiro que formam silhueta característica.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este personagem dos quadrinhos franco-belgas?",
+      "resposta": "Spirou",
+      "distratores": [
+        "Tintim",
+        "Gaston Lagaffe",
+        "Lucky Luke"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Spirou",
+        "descricao": "Groom ruivo de uniforme vermelho, protagonista dos quadrinhos franco-belgas Spirou e Fantasio.",
+        "variantes": [
+          "Spirou e Fantasio"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta reconhecível pelo corpo atarracado, orelhas e bulbo nas costas. Troquei a família para o nome, pois a evolução seria ambígua.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Bulbasaur",
+      "distratores": [
+        "Ivysaur",
+        "Venusaur",
+        "Oddish"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Bulbasaur",
+        "descricao": "Pokémon inicial de tipo Planta e Veneno da primeira geração, com um bulbo nas costas.",
+        "variantes": [
+          "Fushigidane"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arte nítida, sem texto, personagem reconhecível; distratores visualmente próximos do universo Disney.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que vilã dos quadrinhos Disney é esta?",
+      "resposta": "Maga Patalójika",
+      "distratores": [
+        "Madame Min",
+        "Bruxa Hazel",
+        "Margarida"
+      ],
+      "ancora": {
+        "nome": "Maga Patalójika",
+        "descricao": "Feiticeira vilã dos quadrinhos do Tio Patinhas, criada por Carl Barks, que quer a moeda número um.",
+        "variantes": [
+          "Magica De Spell",
+          "Maga Patalójika"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Quadro do filme sem texto, gato preto de olhos grandes reconhecível. O enunciado diz 'gato', pois Jiji é macho.",
+      "destino": 3,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu o filme de animação em que aparece este gato?",
+      "resposta": "Hayao Miyazaki",
+      "distratores": [
+        "Isao Takahata",
+        "Mamoru Hosoda",
+        "Makoto Shinkai"
+      ],
+      "ancora": {
+        "nome": "Jiji",
+        "descricao": "Gato preto falante, companheiro da bruxa Kiki no filme Serviço de Entregas da Kiki.",
+        "variantes": [
+          "Jiji, o gato da Kiki"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A arte é um recorte de busto com design incomum, pode ser confundida com outras criaturas de madeira ou de planta, e Groot não fica reconhecível com segurança."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta nítida: capacete com escova no topo, corpo magro e sapatos grandes. Personagem sozinho.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este personagem de desenho animado?",
+      "resposta": "Marvin, o Marciano",
+      "distratores": [
+        "Zim",
+        "Dexter",
+        "Gossamer"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Marvin, o Marciano",
+        "descricao": "Alienígena de capacete romano e saia verde, inimigo do Pernalonga nos desenhos Looney Tunes.",
+        "variantes": [
+          "Marvin the Martian",
+          "Marvin o Marciano"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta reconhecível: orelhas caídas, focinho longo e corpo em forma de feijão. Personagem sozinho.",
+      "destino": 2,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o desenho animado protagonizado por este cão?",
+      "resposta": "John R. Dilworth",
+      "distratores": [
+        "Craig McCracken",
+        "Genndy Tartakovsky",
+        "Seth MacFarlane"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Coragem, o Cão Covarde",
+        "descricao": "Cachorro rosa medroso, protagonista do desenho animado Coragem, o Cão Covarde.",
+        "variantes": [
+          "Courage the Cowardly Dog",
+          "Coragem"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "A silhueta é uma mulher de vestido longo genérica, sem contorno característico. Usa-se a imagem colorida, em que Fiona é clara.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta princesa é casada com qual personagem?",
+      "resposta": "Shrek",
+      "distratores": [
+        "Burro",
+        "Lord Farquaad",
+        "Gato de Botas"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Princesa Fiona",
+        "descricao": "Princesa e ogra da franquia de animação Shrek, esposa de Shrek.",
+        "variantes": [
+          "Fiona",
+          "Princess Fiona"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ilustração clara de Loki, com elmo de chifres, cetro e Tesseract, sem texto. Pergunta evita o parentesco biológico, que seria ambíguo.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este personagem da Marvel é irmão adotivo de qual herói?",
+      "resposta": "Thor",
+      "distratores": [
+        "Hulk",
+        "Capitão América",
+        "Homem de Ferro"
+      ],
+      "ancora": {
+        "nome": "Loki",
+        "descricao": "Deus da trapaça da Marvel, irmão adotivo de Thor e frequente vilão dos Vingadores.",
+        "variantes": [
+          "Loki Laufeyson"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte oficial de corpo inteiro, sem texto, com armadura dourada característica de Os Cavaleiros do Zodíaco. A pergunta sobre o criador não depende de distinguir o cavaleiro entre os outros.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece este cavaleiro?",
+      "resposta": "Masami Kurumada",
+      "distratores": [
+        "Akira Toriyama",
+        "Eiichiro Oda",
+        "Tite Kubo"
+      ],
+      "ancora": {
+        "nome": "Máscara da Morte de Câncer",
+        "descricao": "Cavaleiro de Ouro de Câncer em Os Cavaleiros do Zodíaco, de Masami Kurumada.",
+        "variantes": [
+          "Cancer Deathmask",
+          "Death Mask",
+          "Máscara da Morte"
+        ]
+      }
+    }
+  ]
+}
