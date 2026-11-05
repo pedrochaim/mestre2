@@ -1,0 +1,149 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A bola traz impresso 'Official Match Ball 2002 FIFA World Cup', o que entrega a edição e quase a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem é um retrato de Suzanne Lenglen, e não o troféu Coupe Suzanne-Lenglen. Não corresponde ao item."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Desenho claro de bumerangues, sem texto, assunto único.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que objeto de arremesso é este?",
+      "resposta": "Bumerangue",
+      "ancora": {
+        "nome": "Bumerangue",
+        "descricao": "Ferramenta de arremesso de origem aborígine australiana, em geral curva, que pode girar e voltar ao lançador.",
+        "variantes": [
+          "Boomerang"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de trenó puxado por cães na neve, sem texto; condutor pequeno e encapuzado.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que modalidade esportiva de inverno é esta?",
+      "resposta": "Corrida de trenó puxado por cães",
+      "distratores": [
+        "Esqui cross-country",
+        "Skijoring",
+        "Bobsled"
+      ],
+      "ancora": {
+        "nome": "Corrida de trenó puxado por cães",
+        "descricao": "Esporte e meio de transporte em que cães puxam um trenó sobre a neve, também chamado mushing.",
+        "variantes": [
+          "Mushing",
+          "Sled dog racing"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Dois praticantes comuns em um ginásio, em primeiro plano; a imagem não permite reconhecer a modalidade com unicidade (kickboxing, sanda e outras)."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É o afresco antigo do Mergulhador de Paestum, com um único saltador. Não mostra saltos ornamentais sincronizados e a imagem é ambígua para a modalidade."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Troféu muito distinto. O texto gravado diz apenas 'Deutscher Fussballmeister', e o cartão do Bayern no canto inferior deve ser cortado.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que troféu de futebol é este?",
+      "resposta": "Meisterschale (Salatschüssel)",
+      "ancora": {
+        "nome": "Meisterschale",
+        "descricao": "Troféu de prata entregue ao campeão alemão de futebol, a Bundesliga, apelidado de saladeira.",
+        "variantes": [
+          "Salatschüssel",
+          "Taça dos campeões alemães"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns em primeiro plano e faixas com texto visível (Chelsea, Bayern, patrocinadores); a cena é pequena e pouco legível no celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Escalador sobre bloco com colchões de queda, sem texto; escalador pequeno e distante.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que modalidade de escalada olímpica é esta?",
+      "resposta": "Boulder",
+      "distratores": [
+        "Escalada de velocidade",
+        "Escalada de dificuldade",
+        "Escalada de gelo"
+      ],
+      "ancora": {
+        "nome": "Boulder",
+        "descricao": "Modalidade de escalada em blocos de rocha ou paredes artificiais baixas, sem cordas e com colchões de proteção.",
+        "variantes": [
+          "Bouldering",
+          "Escalada em blocos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Praticante comum em primeiro plano, e a cena (sabre desembainhado, ajoelhada) pode ser confundida com outras artes de sabre japonesas, como o kenjutsu."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Desenho limpo, sem texto, de agachamento com barra em duas fases.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que exercício de musculação é este?",
+      "resposta": "Agachamento com barra",
+      "distratores": [
+        "Levantamento terra",
+        "Supino reto",
+        "Desenvolvimento militar"
+      ],
+      "ancora": {
+        "nome": "Agachamento",
+        "descricao": "Exercício de força em que a pessoa flexiona joelhos e quadris com uma barra apoiada nos ombros.",
+        "variantes": [
+          "Agachamento livre",
+          "Back squat",
+          "Squat"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A placa diz 'adidas Germany 2006 + Teamgeist' e a bola mostra 'Germany 2006', o que entrega a resposta."
+    }
+  ]
+}
