@@ -1,0 +1,173 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra um jogador de futebol com camisa do Liverpool, não um drible do basquete; a imagem não ilustra a entidade."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato de atleta pouco conhecida, sem elemento que permita reconhecê-la; a camisa só diz Brasil."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cena de bloqueio sob a cesta, com o defensor desviando a bola; o nome na camisa não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que jogada defensiva do basquete é esta?",
+      "resposta": "Toco (bloqueio)",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Toco",
+        "descricao": "Jogada do basquete em que o defensor desvia legalmente o arremesso do atacante.",
+        "variantes": [
+          "Bloqueio",
+          "Tocar a bola",
+          "Block"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Técnico famoso em foto nítida, sem texto que entregue o nome; múltipla com treinadores da NBA.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que técnico de basquete é este?",
+      "resposta": "Steve Kerr",
+      "distratores": [
+        "Gregg Popovich",
+        "Erik Spoelstra",
+        "Doc Rivers"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Steve Kerr",
+        "descricao": "Ex-jogador e técnico americano de basquete, campeão da NBA como jogador e como técnico do Golden State Warriors.",
+        "variantes": [
+          "Stephen Douglas Kerr"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Atleta de praia pouco reconhecível pelo rosto; só há USA e patrocinadores, e a resposta não seria justa."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Cena com vários jogadores e texto parcial no piso (Barce...); perguntar o esporte seria trivial e a imagem não tem foco único."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Jogadora famosa em foto nítida, sem nome visível; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que time da WNBA escolheu esta jogadora em primeiro lugar no draft de dois mil e oito?",
+      "resposta": "Los Angeles Sparks",
+      "distratores": [
+        "Chicago Sky",
+        "Phoenix Mercury",
+        "Seattle Storm"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Candace Parker",
+        "descricao": "Ex-jogadora americana de basquete, primeira escolha do draft da WNBA de 2008 e campeã com Sparks, Sky e Aces.",
+        "variantes": [
+          "Candace Nicole Parker"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto casual de pessoa pouco conhecida, sem elementos que permitam reconhecê-la."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Jogador famoso em foto clara, com camisa do Boston sem o nome dele.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogador é este?",
+      "resposta": "Paul Pierce",
+      "distratores": [
+        "Ray Allen",
+        "Kevin Garnett",
+        "Rajon Rondo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Paul Pierce",
+        "descricao": "Ex-ala americano de basquete, ídolo do Boston Celtics e campeão da NBA em 2008.",
+        "variantes": [
+          "Paul Anthony Pierce",
+          "The Truth"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Técnico pouco conhecido, sem pista visual que permita reconhecê-lo."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena clara de bloqueio coletivo junto à rede; nomes parciais nas camisas não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fundamento do vôlei as três jogadoras de azul estão executando junto à rede?",
+      "resposta": "Bloqueio",
+      "distratores": [
+        "Manchete",
+        "Levantamento",
+        "Saque"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Voleibol",
+        "descricao": "Esporte coletivo em que duas equipes separadas por uma rede tentam fazer a bola tocar o chão da quadra adversária.",
+        "variantes": [
+          "Vôlei",
+          "Volleyball"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Atleta olímpica famosa em foto nítida, sem nome visível; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quem foi a parceira desta jogadora nos ouros olímpicos de dois mil e quatro, dois mil e oito e dois mil e doze?",
+      "resposta": "Misty May-Treanor",
+      "distratores": [
+        "April Ross",
+        "Jennifer Kessy",
+        "Natalie Cook"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kerri Walsh Jennings",
+        "descricao": "Ex-jogadora americana de vôlei de praia, tricampeã olímpica ao lado de Misty May-Treanor.",
+        "variantes": [
+          "Kerri Walsh",
+          "Kerri Lee Walsh Jennings"
+        ]
+      }
+    }
+  ]
+}

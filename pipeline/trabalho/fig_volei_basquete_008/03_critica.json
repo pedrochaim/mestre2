@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem vazamento; o trecho define o toco como bloqueio legal do arremesso.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento por imagem, sem vazamento. Distratores são técnicos conhecidos e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado ('primeira escolha do draft de 2008') identifica a jogadora sozinho, e o time que escolheu o número um de 2008 se responde sem a figura. Reescrita com fato que exige reconhecê-la: treze temporadas em um só time, que está nos trechos.",
+      "reescrita": {
+        "pergunta": "Esta jogadora passou treze temporadas num único time da WNBA, a maior parte da carreira. Que time é esse?",
+        "resposta": "Los Angeles Sparks",
+        "distratores": [
+          "Chicago Sky",
+          "Phoenix Mercury",
+          "Seattle Storm"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento por imagem, sem vazamento. Os distratores são companheiros de Pierce nos Celtics, críveis, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado descreve uma cena específica (três jogadoras de azul junto à rede), mas `mostra` só traz a descrição genérica do esporte. Não dá para confirmar que a foto mostra um bloqueio, nem o número ou a cor das jogadoras. Além disso, 'bloqueio' é verificável apenas pela imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Misty May-Treanor como parceira nos ouros de 2004, 2008 e 2012. O enunciado não diz o esporte nem a nacionalidade, então a figura é necessária. Distratores são duplas reais, mas não correspondem a esses ouros.",
+      "reescrita": null
+    }
+  ]
+}
