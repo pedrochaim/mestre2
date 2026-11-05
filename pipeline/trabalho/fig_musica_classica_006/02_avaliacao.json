@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto antiga traz legenda legível na base (Curitiba em..., Teatro Guaíra, Avenida...) que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Saltério ornamentado, em vitrine, bem visível e sem texto. Os distratores evitam instrumentos de cordas percutidas parecidos, como o dulcimer.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que antigo instrumento de cordas dedilhadas, sem teclado, é este?",
+      "resposta": "Saltério",
+      "distratores": [
+        "Cravo",
+        "Clavicórdio",
+        "Harpa"
+      ],
+      "ancora": {
+        "nome": "Saltério",
+        "descricao": "Antigo instrumento de cordas dedilhadas, uma cítara de caixa trapezoidal, sem trastes.",
+        "variantes": [
+          "Psaltery",
+          "Salterio"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida do Gran Teatro de La Habana, sem texto e com carros antigos só como cenário. A pergunta de nível 3 vai da imagem ao balé nacional.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Projetado por um arquiteto belga, este teatro é a casa do balé nacional de qual país?",
+      "resposta": "Cuba",
+      "distratores": [
+        "México",
+        "Espanha",
+        "Argentina"
+      ],
+      "ancora": {
+        "nome": "Gran Teatro de La Habana",
+        "descricao": "Teatro e sala de espetáculos de Havana, em Cuba, sede do Balé Nacional de Cuba, inaugurado em 1914.",
+        "variantes": [
+          "Grande Teatro de Havana",
+          "Gran Teatro de La Habana Alicia Alonso"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida e inconfundível do Palácio de Belas Artes, com a cúpula amarela. Só há uma marca discreta de 500px que não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica este teatro e centro cultural?",
+      "resposta": "Cidade do México",
+      "distratores": [
+        "Buenos Aires",
+        "Havana",
+        "Bogotá"
+      ],
+      "ancora": {
+        "nome": "Palácio de Belas Artes (Cidade do México)",
+        "descricao": "Centro cultural e teatro de ópera de mármore, com cúpula colorida, no centro histórico da Cidade do México.",
+        "variantes": [
+          "Palacio de Bellas Artes"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "O instrumento domina a imagem, com teclas e tangentes bem visíveis. A pessoa aparece só de corpo parcial, sem rosto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento sueco de cordas friccionadas com arco, acionado por teclas, é este?",
+      "resposta": "Nyckelharpa",
+      "distratores": [
+        "Rabeca",
+        "Viela",
+        "Viola da gamba"
+      ],
+      "ancora": {
+        "nome": "Nyckelharpa",
+        "descricao": "Instrumento sueco de cordas friccionadas com arco e teclas que acionam tangentes ao longo do braço.",
+        "variantes": [
+          "Harpa de chaves",
+          "Keyed fiddle"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Edifício icônico de Calatrava, nítido, sem texto. Há só um pedestre pequeno.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade espanhola fica esta casa de ópera?",
+      "resposta": "Valência",
+      "distratores": [
+        "Barcelona",
+        "Madri",
+        "Bilbao"
+      ],
+      "ancora": {
+        "nome": "Palau de les Arts Reina Sofía",
+        "descricao": "Casa de ópera projetada por Santiago Calatrava na Cidade das Artes e das Ciências de Valência, na Espanha.",
+        "variantes": [
+          "Palácio das Artes Rainha Sofia",
+          "Palacio de las Artes Reina Sofía"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O nome ROYAL FESTIVAL HALL está escrito na fachada e entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida do instrumento sobre fundo neutro, com quatro válvulas rotativas e campana larga. A pergunta de nível 3 pede a obra para a qual foi encomendado.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este instrumento de metal foi encomendado por um compositor alemão para qual obra?",
+      "resposta": "O Anel do Nibelungo",
+      "distratores": [
+        "Parsifal",
+        "Tristão e Isolda",
+        "Lohengrin"
+      ],
+      "ancora": {
+        "nome": "Tuba wagneriana",
+        "descricao": "Instrumento de metal de quatro válvulas, parente da trompa, encomendado por Richard Wagner para o ciclo O Anel do Nibelungo.",
+        "variantes": [
+          "Trompa wagneriana",
+          "Wagner tuba",
+          "Wagnertuba"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandolim de fundo redondo sobre fundo branco, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de cordas dedilhadas com palheta, da família do alaúde, é este?",
+      "resposta": "Bandolim",
+      "distratores": [
+        "Cavaquinho",
+        "Bandurria",
+        "Banjo"
+      ],
+      "ancora": {
+        "nome": "Bandolim",
+        "descricao": "Instrumento de cordas duplas dedilhado com palheta, da família do alaúde, afinado como o violino.",
+        "variantes": [
+          "Mandolim",
+          "Mandolin"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fliscorne bem isolado, com três pistões e campana cônica larga. A pista sobre o som e os distratores de metais parecidos mantêm a resposta única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de metal, de som mais escuro e suave que o do trompete, é este?",
+      "resposta": "Fliscorne",
+      "distratores": [
+        "Trompete",
+        "Corneta",
+        "Trombone"
+      ],
+      "ancora": {
+        "nome": "Flugelhorn",
+        "descricao": "Instrumento de metal agudo, parecido com o trompete, de tubo cônico largo e som escuro e suave.",
+        "variantes": [
+          "Fliscorne",
+          "Flugelhorn",
+          "Flügelhorn"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem é uma renderização 3D, estreita e minúscula, que não fica legível num celular e dificilmente permite reconhecer a tromba marina."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto é de uma multidão de gaiteiros comuns, que aparecem em primeiro plano numa rua. Não são figuras públicas nem brincantes de festa pública, e há letreiros ao fundo."
+    }
+  ]
+}

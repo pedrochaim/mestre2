@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica este teatro e centro cultural?",
+        "resposta": "Cidade do México"
+      },
+      "existentes": [
+        {
+          "id": "q09521",
+          "pergunta": "Que arquiteto italiano iniciou a construção deste edifício em 1904?",
+          "resposta": "Adamo Boari"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de cordas é este?",
+        "resposta": "Bandolim"
+      },
+      "existentes": [
+        {
+          "id": "q16530",
+          "pergunta": "Que instrumento de cordas dedilhadas é este?",
+          "resposta": "Bandolim"
+        },
+        {
+          "id": "q17184",
+          "pergunta": "Quantas cordas tem o bandolim, o instrumento que Jacob do Bandolim consagrou no choro?",
+          "resposta": "Oito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Localização do teatro (Cidade do México) é fato diferente do arquiteto que iniciou a construção."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q16530",
+      "motivo": "Ambas pedem identificar o instrumento (bandolim) a partir da imagem; mesma resposta."
+    }
+  ]
+}

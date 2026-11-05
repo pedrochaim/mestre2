@@ -1,0 +1,503 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Saltério",
+        "descricao": "Antigo instrumento de cordas dedilhadas, uma cítara de caixa trapezoidal, sem trastes.",
+        "variantes": [
+          "Psaltery"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "livro_dos_salmos",
+          "nome": "Livro dos Salmos",
+          "descricao": "Livro da Bíblia formado por uma coleção de cânticos e orações, tradicionalmente associado ao rei Davi",
+          "variantes": [
+            "Salmos",
+            "Saltério"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "musculo_sartorio",
+          "nome": "Músculo sartório",
+          "descricao": "Músculo longo e fino que cruza a coxa em diagonal, do quadril até a face interna do joelho.",
+          "variantes": [
+            "Sartório",
+            "Sartorius"
+          ]
+        },
+        {
+          "id": "halter",
+          "nome": "Halter",
+          "descricao": "Equipamento de musculação com duas anilhas ligadas por uma barra curta, usado com uma mão.",
+          "variantes": [
+            "Haltere",
+            "Dumbbell"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Gran Teatro de La Habana",
+        "descricao": "Teatro e sala de espetáculos de Havana, em Cuba, sede do Balé Nacional de Cuba, inaugurado em 1914.",
+        "variantes": [
+          "Grande Teatro de Havana",
+          "Gran Teatro de La Habana Alicia Alonso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "la_fenice",
+          "nome": "La Fenice",
+          "descricao": "Teatro de ópera de Veneza, inaugurado em 1792 e reconstruído após incêndios, o último em 1996.",
+          "variantes": [
+            "Teatro La Fenice",
+            "Gran Teatro La Fenice"
+          ]
+        },
+        {
+          "id": "centro_nacional_de_artes_cenicas_de_pequim",
+          "nome": "Centro Nacional de Artes Cênicas de Pequim",
+          "descricao": "Complexo com casa de ópera em forma de cúpula elíptica de titânio e vidro, em Pequim, projetado por Paul Andreu.",
+          "variantes": [
+            "Grande Teatro Nacional",
+            "National Centre for the Performing Arts",
+            "Ovo"
+          ]
+        },
+        {
+          "id": "grand_teton",
+          "nome": "Grand Teton",
+          "descricao": "Pico mais alto da cordilheira Teton, no Parque Nacional Grand Teton, em Wyoming, nos Estados Unidos.",
+          "variantes": [
+            "Grande Teton",
+            "Tetons"
+          ]
+        },
+        {
+          "id": "buda_gigante_de_leshan",
+          "nome": "Buda Gigante de Leshan",
+          "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+          "variantes": [
+            "Grande Buda de Leshan"
+          ]
+        },
+        {
+          "id": "grande_cratera_de_paldea",
+          "nome": "Grande Cratera de Paldea",
+          "descricao": "Enorme cratera no centro da região de Paldea, nos jogos Pokémon Scarlet e Violet.",
+          "variantes": [
+            "Great Crater of Paldea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Palácio de Belas Artes (Cidade do México)",
+        "descricao": "Centro cultural e teatro de ópera de mármore, com cúpula colorida, no centro histórico da Cidade do México.",
+        "variantes": [
+          "Palacio de Bellas Artes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_belas_artes",
+          "nome": "Palácio de Belas Artes",
+          "descricao": "Centro cultural de mármore com cúpula colorida, no centro histórico da Cidade do México.",
+          "variantes": [
+            "Palacio de Bellas Artes"
+          ]
+        },
+        {
+          "id": "academia_imperial_de_belas_artes",
+          "nome": "Academia Imperial de Belas Artes",
+          "descricao": "Escola oficial de arte do Rio de Janeiro, criada a partir da Missão Artística Francesa e inaugurada em 1826.",
+          "variantes": [
+            "Imperial Academia de Belas Artes",
+            "Imperial Academy of Fine Arts"
+          ]
+        },
+        {
+          "id": "museu_nacional_de_belas_artes",
+          "nome": "Museu Nacional de Belas Artes",
+          "descricao": "Museu de arte no centro do Rio de Janeiro, instalado em prédio eclético de 1908.",
+          "variantes": [
+            "MNBA"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Nyckelharpa",
+        "descricao": "Instrumento sueco de cordas friccionadas com arco e teclas que acionam tangentes ao longo do braço.",
+        "variantes": [
+          "Harpa de chaves",
+          "Keyed fiddle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "harpa_de_pedais",
+          "nome": "Harpa de pedais",
+          "descricao": "Harpa de concerto usada nas orquestras, cujos pedais alteram a afinação das cordas.",
+          "variantes": [
+            "Harpa de concerto",
+            "Pedal harp"
+          ]
+        },
+        {
+          "id": "ana_de_cleves",
+          "nome": "Ana de Cleves",
+          "descricao": "Nobre alemã que foi a quarta esposa de Henrique VIII da Inglaterra, num casamento anulado em 1540.",
+          "variantes": [
+            "Anne of Cleves"
+          ]
+        },
+        {
+          "id": "mingau",
+          "nome": "Mingau",
+          "descricao": "Preparação semissólida de cereais cozidos em leite ou água, aqui de aveia com leite.",
+          "variantes": [
+            "Porridge",
+            "Papa de aveia"
+          ]
+        },
+        {
+          "id": "toque_blanche",
+          "nome": "Toque blanche",
+          "descricao": "Chapéu alto, branco e pregueado, usado tradicionalmente por chefs de cozinha.",
+          "variantes": [
+            "Toque",
+            "Chapéu de chef",
+            "Chapéu de cozinheiro"
+          ]
+        },
+        {
+          "id": "harpa",
+          "nome": "Harpa",
+          "descricao": "Instrumento de cordas dedilhadas, de formato triangular, com cordas em ângulo em relação à caixa de ressonância.",
+          "variantes": [
+            "Harpa de concerto",
+            "Harp"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Palau de les Arts Reina Sofía",
+        "descricao": "Casa de ópera projetada por Santiago Calatrava na Cidade das Artes e das Ciências de Valência, na Espanha.",
+        "variantes": [
+          "Palácio das Artes Rainha Sofia",
+          "Palacio de las Artes Reina Sofía"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_belas_artes",
+          "nome": "Palácio de Belas Artes",
+          "descricao": "Centro cultural de mármore com cúpula colorida, no centro histórico da Cidade do México.",
+          "variantes": [
+            "Palacio de Bellas Artes"
+          ]
+        },
+        {
+          "id": "ilha_fiscal",
+          "nome": "Ilha Fiscal",
+          "descricao": "Pequena ilha na baía de Guanabara, no Rio de Janeiro, onde fica um castelo neogótico da antiga alfândega.",
+          "variantes": [
+            "Ilha dos Ratos",
+            "Palácio da Ilha Fiscal"
+          ]
+        },
+        {
+          "id": "palacio_laranjeiras",
+          "nome": "Palácio Laranjeiras",
+          "descricao": "Palácio no bairro de Laranjeiras, no Rio de Janeiro, residência oficial do governador do estado.",
+          "variantes": [
+            "Palácio das Laranjeiras"
+          ]
+        },
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        },
+        {
+          "id": "palacio_de_peterhof",
+          "nome": "Palácio de Peterhof",
+          "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, na Rússia, mandado construir por Pedro, o Grande.",
+          "variantes": [
+            "Peterhof",
+            "Petergof"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tuba wagneriana",
+        "descricao": "Instrumento de metal de quatro válvulas, parente da trompa, encomendado por Richard Wagner para o ciclo O Anel do Nibelungo.",
+        "variantes": [
+          "Trompa wagneriana",
+          "Wagner tuba",
+          "Wagnertuba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wagner_moura",
+          "nome": "Wagner Moura",
+          "descricao": "Ator e cineasta brasileiro, protagonista de Tropa de Elite.",
+          "variantes": [
+            "Wagner Maniçoba de Moura"
+          ]
+        },
+        {
+          "id": "tuba_uterina",
+          "nome": "Tuba uterina",
+          "descricao": "Órgão tubular pareado que liga o ovário ao útero, em corte histológico com mucosa muito pregueada.",
+          "variantes": [
+            "Trompa de Falópio",
+            "Tuba de Falópio",
+            "Trompa uterina"
+          ]
+        },
+        {
+          "id": "richard_wagner",
+          "nome": "Richard Wagner",
+          "descricao": "Compositor alemão romântico (1813–1883), autor de dramas musicais como O Anel do Nibelungo.",
+          "variantes": [
+            "Wilhelm Richard Wagner",
+            "Wagner"
+          ]
+        },
+        {
+          "id": "trompa",
+          "nome": "Trompa",
+          "descricao": "Instrumento de metal de tubo enrolado em espiral, com grande campânula e válvulas rotativas.",
+          "variantes": [
+            "Trompa francesa",
+            "French horn"
+          ]
+        },
+        {
+          "id": "ferrovia_transiberiana",
+          "nome": "Ferrovia Transiberiana",
+          "descricao": "Rede ferroviária russa que liga Moscou ao Extremo Oriente russo, atravessando a Sibéria.",
+          "variantes": [
+            "Transiberiana",
+            "Trans-Siberian Railway"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bandolim",
+        "descricao": "Instrumento de cordas duplas dedilhado com palheta, da família do alaúde, afinado como o violino.",
+        "variantes": [
+          "Mandolim",
+          "Mandolin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandolim",
+          "nome": "Bandolim",
+          "descricao": "Instrumento de cordas dedilhadas da família do alaúde, com oito cordas em quatro ordens e caixa em forma de pera.",
+          "variantes": [
+            "Mandolin",
+            "Mandolino"
+          ]
+        },
+        {
+          "id": "mandolina_utensilio",
+          "nome": "Mandolina (utensílio)",
+          "descricao": "Utensílio de cozinha com lâmina fixa numa base, usado para fatiar legumes em lâminas finas.",
+          "variantes": [
+            "Mandolina",
+            "Mandoline",
+            "Fatiador de legumes"
+          ]
+        },
+        {
+          "id": "pangolim",
+          "nome": "Pangolim",
+          "descricao": "Mamífero da África e da Ásia coberto de escamas, ordem Pholidota.",
+          "variantes": [
+            "Pangolin"
+          ]
+        },
+        {
+          "id": "amendoim",
+          "nome": "Amendoim",
+          "descricao": "Planta leguminosa Arachis hypogaea, cujas sementes comestíveis se formam sob o solo",
+          "variantes": [
+            "Arachis hypogaea",
+            "peanut"
+          ]
+        },
+        {
+          "id": "mandarim",
+          "nome": "Mandarim",
+          "descricao": "Grupo de dialetos chineses do norte e do sudoeste da China, base do chinês padrão.",
+          "variantes": [
+            "Chinês mandarim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Flugelhorn",
+        "descricao": "Instrumento de metal agudo, parecido com o trompete, de tubo cônico largo e som escuro e suave.",
+        "variantes": [
+          "Fliscorne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bicorne",
+          "nome": "Bicorne",
+          "descricao": "Chapéu de feltro com a aba levantada na frente e atrás, usado por oficiais no fim do século dezoito e início do dezenove",
+          "variantes": [
+            "Bicórnio",
+            "Chapéu bicorne"
+          ]
+        },
+        {
+          "id": "gliscor",
+          "nome": "Gliscor",
+          "descricao": "Pokémon dos tipos Terrestre e Voador, número 472 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "scone",
+          "nome": "Scone",
+          "descricao": "Pãozinho assado tradicional britânico e irlandês, básico do chá da tarde.",
+          "variantes": []
+        },
+        {
+          "id": "tricornio",
+          "nome": "Tricórnio",
+          "descricao": "Chapéu de feltro com a aba virada para cima em três lados, formando um triângulo, popular na Europa no século dezoito.",
+          "variantes": [
+            "Tricorne",
+            "Chapéu de três pontas",
+            "Cocked hat"
+          ]
+        },
+        {
+          "id": "florenca",
+          "nome": "Florença",
+          "descricao": "Capital da Toscana, Itália, berço do Renascimento, cortada pelo rio Arno.",
+          "variantes": [
+            "Firenze",
+            "Florence"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Saltério instrumento difere do Livro dos Salmos (variante homônima)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Teatro de Havana não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_belas_artes",
+      "motivo": "Mesmo centro cultural da Cidade do México, mesma descrição e variante."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nyckelharpa é instrumento distinto de harpas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Casa de ópera de Valência, diferente das candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tuba wagneriana é instrumento distinto de Trompa, Wagner e tuba uterina."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "bandolim",
+      "motivo": "Mesmo instrumento (bandolim/mandolin), descrições compatíveis."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Flugelhorn não corresponde a nenhuma candidata."
+    }
+  ]
+}

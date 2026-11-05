@@ -460,7 +460,7 @@
       "titulo": "en:Palacio de Bellas Artes",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Teatro de Santa Isabel",
@@ -551,11 +551,291 @@
       "titulo": "en:Hungarian State Opera",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Ópera Margravial de Bayreuth",
       "titulo": "en:Margravial Opera House",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bandolim",
+      "titulo": "en:Mandolin",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Violão clássico",
+      "titulo": "en:Classical guitar",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gaita de foles",
+      "titulo": "en:Bagpipes",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Flauta de pã",
+      "titulo": "en:Pan flute",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sousafone",
+      "titulo": "en:Sousaphone",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carrilhão",
+      "titulo": "en:Carillon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Guaíra",
+      "titulo": "pt:Teatro Guaíra",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gran Teatro de La Habana",
+      "titulo": "en:Gran Teatro de La Habana",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Palau de les Arts Reina Sofía",
+      "titulo": "en:Palau de les Arts Reina Sofía",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Theatro Municipal de Niterói",
+      "titulo": "pt:Theatro Municipal de Niterói",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fortepiano",
+      "titulo": "en:Fortepiano",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Flugelhorn",
+      "titulo": "en:Flugelhorn",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Saltério",
+      "titulo": "en:Psaltery",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sala Cecília Meireles",
+      "titulo": "pt:Sala Cecília Meireles",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rudolfinum",
+      "titulo": "en:Rudolfinum",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Symphony Hall de Boston",
+      "titulo": "en:Symphony Hall, Boston",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Konzerthaus de Berlim",
+      "titulo": "en:Konzerthaus Berlin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Royal Festival Hall",
+      "titulo": "en:Royal Festival Hall",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ópera de Monte Carlo",
+      "titulo": "en:Opéra de Monte-Carlo",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Nacional de São Carlos",
+      "titulo": "en:Teatro Nacional de São Carlos",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera de Zurique",
+      "titulo": "en:Zurich Opera House",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera de Copenhague",
+      "titulo": "en:Copenhagen Opera House",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera Real Sueca",
+      "titulo": "en:Royal Swedish Opera",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Espineta",
+      "titulo": "en:Spinet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Oficleide",
+      "titulo": "en:Ophicleide",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tuba wagneriana",
+      "titulo": "en:Wagner tuba",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Corne di bassetto",
+      "titulo": "en:Basset horn",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nyckelharpa",
+      "titulo": "en:Nyckelharpa",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tromba marina",
+      "titulo": "en:Tromba marina",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Teatro Municipal de Santiago",
+      "titulo": "en:Municipal Theatre of Santiago",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Nacional da Costa Rica",
+      "titulo": "en:National Theatre of Costa Rica",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Regio de Parma",
+      "titulo": "en:Teatro Regio (Parma)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Carlo Felice",
+      "titulo": "en:Teatro Carlo Felice",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Grand Théâtre de Bordeaux",
+      "titulo": "en:Grand Théâtre de Bordeaux",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera Nacional da Letônia",
+      "titulo": "en:Latvian National Opera",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Theatro Sete de Abril",
+      "titulo": "pt:Theatro Sete de Abril",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Glyndebourne",
+      "titulo": "en:Glyndebourne",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro de Ópera e Balé de Tbilisi",
+      "titulo": "en:Tbilisi Opera and Ballet Theatre",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Santa Roza",
+      "titulo": "pt:Teatro Santa Roza",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Alberto Maranhão",
+      "titulo": "pt:Teatro Alberto Maranhão",
       "camada": 3,
       "destino": 1,
       "status": "nova"

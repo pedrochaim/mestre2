@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Harpa também é de cordas dedilhadas e sem teclado, então é defensável como resposta. Falta uma pista que a exclua sem entregar o saltério. A caixa trapezoidal é visível na foto e está nos trechos.",
+      "reescrita": {
+        "pergunta": "Que antigo instrumento europeu de cordas dedilhadas, de caixa trapezoidal, é este?",
+        "resposta": "Saltério",
+        "distratores": [
+          "Alaúde",
+          "Cravo",
+          "Rabeca"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O arquiteto belga Paul Belau e a sede do Balé Nacional de Cuba estão nos trechos. O enunciado não nomeia o teatro, e a pista sozinha não responde sem a figura. Os distratores são países críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples. O enunciado não vaza a cidade. Os distratores são capitais latino-americanas, e a localização está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição de um instrumento sueco, de arco e com teclas, já identifica a nyckelharpa sem olhar a figura, que virou enfeite. É melhor trocar por uma pista só de região.",
+      "reescrita": {
+        "pergunta": "Que instrumento de cordas, tradicional do norte da Europa, é este?",
+        "resposta": "Nyckelharpa",
+        "distratores": [
+          "Rabeca",
+          "Viela",
+          "Viola da gamba"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A localização em Valência está nos trechos. O enunciado não vaza a resposta, e os distratores são cidades espanholas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A encomenda de Wagner para O Anel do Nibelungo está nos trechos. O enunciado não nomeia o instrumento nem a obra. Os distratores são outras óperas de Wagner, que não foram a obra para a qual a tuba foi criada.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Bandurria e banjo também são tocados com palheta, e a bandurria é da família do alaúde. Esses distratores seriam defensáveis. Como é nível 1, basta pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que instrumento de cordas é este?",
+        "resposta": "Bandolim",
+        "distratores": [
+          "Cavaquinho",
+          "Banjo",
+          "Ukulele"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O nome mais usado no Brasil é flugelhorn, e a resposta só com fliscorne seria injusta. A pista deve apontar o tubo cônico largo, que separa o instrumento do trompete e da corneta.",
+      "reescrita": {
+        "pergunta": "Que instrumento de metal, parecido com o trompete, mas de tubo cônico largo e som mais escuro e suave, é este?",
+        "resposta": "Fliscorne (flugelhorn)",
+        "distratores": [
+          "Trompete",
+          "Trombone",
+          "Eufônio"
+        ]
+      }
+    }
+  ]
+}
