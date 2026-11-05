@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'cidade polonesa' + 'rio' já entrega o Vístula, o principal rio do país; a figura vira enfeite. Reescrita pede para reconhecer a cidade.",
+      "reescrita": {
+        "pergunta": "Que cidade polonesa é esta?",
+        "resposta": "Cracóvia",
+        "distratores": [
+          "Varsóvia",
+          "Breslávia",
+          "Gdańsk"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado; distratores canadenses/norte-americanos e visualmente plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a cidade nem a praça; a resposta depende de reconhecer a imagem. Distratores do mesmo tipo e errados para esta praça.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Igreja luterana em Reykjavík confirmada; a pista (luterana, torre escalonada) não entrega a capital. Distratores são capitais nórdicas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista; é preciso reconhecer a cidade. Santiago é capital do Chile, confirmado nos trechos. Distratores sul-americanos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de nível 1 sem vazamento; Mônaco é soberano e cidade-estado. Distratores são pequenos países mediterrâneos/europeus com nomes próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas 'cidadela medieval francesa restaurada no século dezenove' quase entrega Viollet-le-Duc sem a figura (e ele restaurou vários monumentos). Distratores pouco críveis (Eiffel, Haussmann, Mansart não restauraram medievais). Reescrita pede para reconhecer a cidade.",
+      "reescrita": {
+        "pergunta": "Que cidade francesa é esta?",
+        "resposta": "Carcassonne",
+        "distratores": [
+          "Avignon",
+          "Saint-Malo",
+          "Aigues-Mortes"
+        ]
+      }
+    }
+  ]
+}

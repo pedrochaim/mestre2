@@ -1,0 +1,192 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vista aérea genérica de uma cidade litorânea, sem monumento ou traço que permita reconhecer Porto Seguro."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea do Castelo de Wawel e da cidade velha, reconhecível, com o rio visível.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Esta cidade polonesa, com seu castelo na colina, fica às margens de qual rio?",
+      "resposta": "Vístula",
+      "distratores": [
+        "Oder",
+        "Elba",
+        "Danúbio"
+      ],
+      "ancora": {
+        "nome": "Cracóvia",
+        "descricao": "Cidade do sul da Polônia, antiga capital do país, às margens do rio Vístula, com o Castelo de Wawel.",
+        "variantes": [
+          "Kraków",
+          "Cracovia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O friso da fachada traz legível a inscrição com o nome Vittorio Emanuele II, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Skyline noturno com a CN Tower, inconfundível e sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Toronto",
+      "distratores": [
+        "Vancouver",
+        "Chicago",
+        "Montreal"
+      ],
+      "ancora": {
+        "nome": "Toronto",
+        "descricao": "Maior cidade do Canadá e capital da província de Ontário, na margem do Lago Ontário, com a CN Tower.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Montagem com o nome Pomerode escrito em placa e letreiros, entregando a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Orla fluvial genérica e de baixa resolução, sem traço que permita reconhecer Corumbá."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Praça com o Duomo e a entrada da Galleria, reconhecíveis; sem texto que entregue a cidade.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que cidade italiana fica esta praça?",
+      "resposta": "Milão",
+      "distratores": [
+        "Florença",
+        "Veneza",
+        "Turim"
+      ],
+      "ancora": {
+        "nome": "Praça do Duomo de Milão",
+        "descricao": "Praça central de Milão, onde ficam a catedral gótica de mármore e a entrada da Galleria Vittorio Emanuele II.",
+        "variantes": [
+          "Piazza del Duomo",
+          "Milão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Montagem de várias atrações da cidade, com texto visível (Mundo a Vapor) que entrega a pista."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto da Hallgrímskirkja, de silhueta única e inconfundível, sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que capital fica esta igreja luterana de torre escalonada?",
+      "resposta": "Reykjavík",
+      "distratores": [
+        "Oslo",
+        "Helsinque",
+        "Copenhague"
+      ],
+      "ancora": {
+        "nome": "Hallgrímskirkja",
+        "descricao": "Igreja luterana de Reykjavík, a maior da Islândia, com torre em forma de basalto escalonado, concluída em 1986.",
+        "variantes": [
+          "Igreja de Hallgrímur"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista de Santiago com a torre Costanera e os Andes, reconhecível; sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que país fica esta cidade?",
+      "resposta": "Chile",
+      "distratores": [
+        "Argentina",
+        "Peru",
+        "Colômbia"
+      ],
+      "ancora": {
+        "nome": "Santiago",
+        "descricao": "Capital e maior cidade do Chile, no Vale Central, com a torre Costanera Center.",
+        "variantes": [
+          "Santiago do Chile"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea do porto e do rochedo de Mônaco, reconhecível e sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que país é este?",
+      "resposta": "Mônaco",
+      "distratores": [
+        "Malta",
+        "Montenegro",
+        "San Marino"
+      ],
+      "ancora": {
+        "nome": "Mônaco",
+        "descricao": "Cidade-Estado e microestado da Riviera Francesa, no Mediterrâneo, com o porto de Monte Carlo.",
+        "variantes": [
+          "Principado de Mônaco",
+          "Monaco"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea da Cité de Carcassonne, cidadela medieval com muralhas duplas, sem texto.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que arquiteto restaurou no século dezenove esta cidadela medieval francesa?",
+      "resposta": "Viollet-le-Duc",
+      "distratores": [
+        "Gustave Eiffel",
+        "Georges Haussmann",
+        "Jules Hardouin-Mansart"
+      ],
+      "ancora": {
+        "nome": "Carcassonne",
+        "descricao": "Cidade francesa do departamento de Aude, famosa pela cidadela medieval fortificada, a Cité de Carcassonne.",
+        "variantes": [
+          "Cité de Carcassonne",
+          "Carcassona"
+        ]
+      }
+    }
+  ]
+}

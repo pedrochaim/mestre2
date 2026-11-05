@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país fica esta cidade?",
+        "resposta": "Chile"
+      },
+      "existentes": [
+        {
+          "id": "q04012",
+          "pergunta": "Em 1541, qual conquistador espanhol fundou Santiago, a capital chilena?",
+          "resposta": "Pedro de Valdivia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta quem fundou Santiago em 1541 (Pedro de Valdivia); a nova pergunta o país da cidade (Chile). Fatos diferentes, e saber um não leva ao outro."
+    }
+  ]
+}
