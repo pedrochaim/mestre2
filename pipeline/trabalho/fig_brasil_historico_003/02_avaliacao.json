@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A gravura traz o nome 'PEDRO ALVARES CABRAL' escrito na parte de baixo, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato oficial limpo, sem texto, de figura pública. A pergunta de época evita entregar a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década este presidente governou o Brasil?",
+      "resposta": "Década de 1960",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1950",
+        "Década de 1980"
+      ],
+      "ancora": {
+        "nome": "Artur da Costa e Silva",
+        "descricao": "Marechal do Exército e segundo presidente do regime militar brasileiro, que governou de 1967 a 1969.",
+        "variantes": [
+          "Costa e Silva",
+          "Artur da Costa e Silva"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem pequena, de baixa resolução, com um rosto pouco conhecido. O retrato não permite reconhecer Júlio Prestes, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "A foto mostra a ponte com clareza, sem texto, e ela é inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ponte brasileira é esta?",
+      "resposta": "Ponte Hercílio Luz",
+      "distratores": [
+        "Ponte Colombo Salles",
+        "Ponte Pedro Ivo Campos",
+        "Ponte Rio-Niterói"
+      ],
+      "ancora": {
+        "nome": "Ponte Hercílio Luz",
+        "descricao": "Ponte pênsil de Florianópolis, inaugurada em 1926, a primeira a ligar a Ilha de Santa Catarina ao continente.",
+        "variantes": [
+          "Hercílio Luz Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de figura pública, sem texto. A pergunta de data entregaria a resposta, então troquei por reconhecimento do nome com distratores de mulheres brasileiras de destaque.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esta brasileira, fotografada nos anos 1920?",
+      "resposta": "Bertha Lutz",
+      "distratores": [
+        "Carlota Pereira de Queirós",
+        "Chiquinha Gonzaga",
+        "Nísia Floresta"
+      ],
+      "ancora": {
+        "nome": "Bertha Lutz",
+        "descricao": "Zoóloga, política e diplomata brasileira, líder do movimento pelo voto feminino no Brasil.",
+        "variantes": [
+          "Bertha Maria Júlia Lutz"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O selo traz texto visível, com o nome 'Manuel da Nóbrega', 'Cidade de S. Paulo' e as datas. Além disso é um selo, e não uma imagem limpa."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada clara do palácio, sem texto, e reconhecível por quem conhece o prédio. A pergunta pede um segundo fato sobre o edifício.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que dinastia reinante residiu neste palácio no Rio de Janeiro?",
+      "resposta": "Casa de Bragança",
+      "distratores": [
+        "Casa de Hohenzollern",
+        "Casa Romanov",
+        "Casa Stuart"
+      ],
+      "ancora": {
+        "nome": "Museu Nacional (Paço de São Cristóvão)",
+        "descricao": "Palácio na Quinta da Boa Vista, no Rio de Janeiro, residência da família real e imperial e depois sede do Museu Nacional.",
+        "variantes": [
+          "Paço de São Cristóvão",
+          "Palácio de São Cristóvão",
+          "Museu Nacional do Rio de Janeiro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de laboratório de uma figura pública, sem texto que entregue o nome. Só há uma pequena assinatura de fotógrafo no canto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que doença este cientista brasileiro descreveu em 1909?",
+      "resposta": "Doença de Chagas",
+      "distratores": [
+        "Leishmaniose",
+        "Esquistossomose",
+        "Febre amarela"
+      ],
+      "ancora": {
+        "nome": "Carlos Chagas",
+        "descricao": "Médico sanitarista e cientista brasileiro que descobriu a tripanossomíase americana, a doença de Chagas.",
+        "variantes": [
+          "Carlos Justiniano Ribeiro Chagas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato oficial limpo, sem texto, de figura pública, com a faixa presidencial.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que presidente da República Velha é este?",
+      "resposta": "Artur Bernardes",
+      "distratores": [
+        "Washington Luís",
+        "Epitácio Pessoa",
+        "Venceslau Brás"
+      ],
+      "ancora": {
+        "nome": "Artur Bernardes",
+        "descricao": "Político mineiro, 12º presidente do Brasil, de 1922 a 1926.",
+        "variantes": [
+          "Artur da Silva Bernardes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de um monumento inconfundível. A pergunta de século não serve, porque a construção atual atravessa 1696–1702; troquei por reconhecimento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fortificação histórica brasileira é esta?",
+      "resposta": "Forte de Santo Antônio da Barra (Farol da Barra)",
+      "distratores": [
+        "Forte de Copacabana",
+        "Forte dos Reis Magos",
+        "Forte do Brum"
+      ],
+      "ancora": {
+        "nome": "Farol da Barra (Forte de Santo Antônio da Barra)",
+        "descricao": "Fortificação do século dezessete em Salvador, na Bahia, com o farol mais antigo das Américas.",
+        "variantes": [
+          "Forte de Santo Antônio da Barra",
+          "Farol da Barra"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto antiga com recorte apertado e sombra forte sobre o rosto. Não permite reconhecer Luís Carlos Prestes com segurança, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pintura de domínio público de um retratado ilustre, sem texto. O enunciado traz uma pista de ofício que ajuda sem entregar o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este engenheiro abolicionista do século dezenove, retratado neste quadro?",
+      "resposta": "André Rebouças",
+      "distratores": [
+        "José do Patrocínio",
+        "Luís Gama",
+        "Joaquim Nabuco"
+      ],
+      "ancora": {
+        "nome": "André Rebouças",
+        "descricao": "Engenheiro militar, abolicionista e inventor brasileiro do século dezenove, conselheiro de Pedro II.",
+        "variantes": [
+          "André Pinto Rebouças"
+        ]
+      }
+    }
+  ]
+}

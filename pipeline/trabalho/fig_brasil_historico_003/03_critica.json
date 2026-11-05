@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Governou de 1967 a 1969, década de 1960, confirmado nos trechos. Sem vazamento, resposta única e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pistas. Os distratores são pontes reais, duas delas na mesma cidade, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fotografada nos anos 1920' é uma afirmação sobre a foto que não consta em `mostra` e não dá para verificar. Removi a datação.",
+      "reescrita": {
+        "pergunta": "Quem é esta brasileira?",
+        "resposta": "Bertha Lutz",
+        "distratores": [
+          "Carlota Pereira de Queirós",
+          "Chiquinha Gonzaga",
+          "Nísia Floresta"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'dinastia reinante' + palácio no Rio de Janeiro leva a Bragança sem ver a figura, e os distratores são implausíveis. Passei a pedir o museu que funciona no palácio.",
+      "reescrita": {
+        "pergunta": "Que museu funciona neste palácio do Rio de Janeiro?",
+        "resposta": "Museu Nacional",
+        "distratores": [
+          "Museu Histórico Nacional",
+          "Museu de Arte do Rio",
+          "Museu Imperial"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'cientista brasileiro descreveu doença em 1909' se responde sem a figura, e a resposta contém o sobrenome dele. Passei a pedir o reconhecimento da pessoa.",
+      "reescrita": {
+        "pergunta": "Quem é este cientista brasileiro?",
+        "resposta": "Carlos Chagas",
+        "distratores": [
+          "Oswaldo Cruz",
+          "Vital Brazil",
+          "Adolfo Lutz"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Presidente de 1922 a 1926, na Primeira República. Distratores do mesmo período e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Forte de Santo Antônio da Barra, popularmente Farol da Barra, confirmado nos trechos. Enunciado neutro e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Engenheiro abolicionista' entrega a resposta, porque os distratores não são engenheiros. 'Quadro' não está em `mostra`. Mantive só a pista 'abolicionista', que não identifica sozinha, e removi 'quadro'.",
+      "reescrita": {
+        "pergunta": "Que abolicionista brasileiro do século dezenove é este?",
+        "resposta": "André Rebouças",
+        "distratores": [
+          "José do Patrocínio",
+          "Luís Gama",
+          "Joaquim Nabuco"
+        ]
+      }
+    }
+  ]
+}

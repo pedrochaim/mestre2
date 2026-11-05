@@ -1,0 +1,94 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ponte brasileira é esta?",
+        "resposta": "Ponte Hercílio Luz"
+      },
+      "existentes": [
+        {
+          "id": "q02036",
+          "pergunta": "Em Florianópolis, a Ponte Hercílio Luz, que liga a ilha ao continente, foi inaugurada em qual década?",
+          "resposta": "Anos 1920"
+        },
+        {
+          "id": "q08002",
+          "pergunta": "Inaugurada em 1926, que ponte pênsil, cartão-postal de Florianópolis, liga a Ilha de Santa Catarina ao continente?",
+          "resposta": "Ponte Hercílio Luz"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é esta brasileira?",
+        "resposta": "Bertha Lutz"
+      },
+      "existentes": [
+        {
+          "id": "q11464",
+          "pergunta": "Bertha Lutz, bióloga do Museu Nacional especialista em sapos e pererecas, liderou no Brasil a luta por qual direito?",
+          "resposta": "Voto feminino"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que museu funciona neste palácio do Rio de Janeiro?",
+        "resposta": "Museu Nacional"
+      },
+      "existentes": [
+        {
+          "id": "q17839",
+          "pergunta": "Em que ano um grande incêndio destruiu boa parte deste palácio?",
+          "resposta": "2018"
+        },
+        {
+          "id": "q18298",
+          "pergunta": "Que museu está instalado neste antigo palácio imperial?",
+          "resposta": "Museu Nacional"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Quem é este cientista brasileiro?",
+        "resposta": "Carlos Chagas"
+      },
+      "existentes": [
+        {
+          "id": "q00861",
+          "pergunta": "Que doença, descrita em 1909 por este médico brasileiro, leva o nome dele?",
+          "resposta": "Doença de Chagas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Identificar a ponte Hercílio Luz é o mesmo fato da q08002, cuja resposta é o nome da ponte.",
+      "id_existente": "q08002"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a pessoa pela imagem difere de perguntar o direito pelo qual lutou."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: qual museu funciona no palácio, resposta Museu Nacional.",
+      "id_existente": "q18298"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o cientista é diferente de perguntar a doença que leva seu nome."
+    }
+  ]
+}
