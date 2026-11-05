@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Desfiladeiro com rio, paisagem reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que rio corre por entre estes desfiladeiros famosos da China?",
+      "resposta": "Rio Yangtzé",
+      "distratores": [
+        "Rio Amarelo",
+        "Rio Mekong",
+        "Rio das Pérolas"
+      ],
+      "ancora": {
+        "nome": "Três Gargantas do Yangtzé",
+        "descricao": "Sequência de três desfiladeiros (Qutang, Wu e Xiling) no curso médio do rio Yangtzé, na China.",
+        "variantes": [
+          "Três Gargantas",
+          "Three Gorges"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Abertura natural na montanha com escadaria, muito característica; texto na muralha não entrega a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Perto de que cidade chinesa fica esta montanha com uma enorme abertura natural?",
+      "resposta": "Zhangjiajie",
+      "distratores": [
+        "Guilin",
+        "Chengdu",
+        "Xi'an"
+      ],
+      "ancora": {
+        "nome": "Montanha Tianmen",
+        "descricao": "Montanha na província de Hunan, China, famosa pela caverna natural chamada Portão do Céu.",
+        "variantes": [
+          "Tianmen Shan",
+          "Portão do Céu",
+          "Tianmen Mountain"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Rio com dunas e uma cidade ao fundo; não é reconhecível pela paisagem e poderia ser outro rio ou lagoa."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A foto mostra um pico granítico (tipo Serra dos Órgãos) com ipês; não permite identificar a Serra do Mar como resposta única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lago com o Palácio do Lago branco numa ilha, reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lago da Índia, com um palácio branco numa ilha, é este?",
+      "resposta": "Lago Pichola",
+      "distratores": [
+        "Lago Dal",
+        "Lago Pushkar",
+        "Lago Chilika"
+      ],
+      "ancora": {
+        "nome": "Lago Pichola",
+        "descricao": "Lago artificial de Udaipur, no Rajastão, Índia, com ilhas que abrigam palácios.",
+        "variantes": [
+          "Pichola",
+          "Lake Pichola"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cone isolado característico, sem texto; reconhecível para quem conhece o sertão potiguar, múltipla escolha deixa justo.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica este pico isolado, símbolo informal da região?",
+      "resposta": "Rio Grande do Norte",
+      "distratores": [
+        "Ceará",
+        "Paraíba",
+        "Pernambuco"
+      ],
+      "ancora": {
+        "nome": "Pico do Cabugi",
+        "descricao": "Formação rochosa de origem vulcânica em Angicos, no Rio Grande do Norte.",
+        "variantes": [
+          "Serra do Cabugi",
+          "Serrote da Itaretama"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Close do solo rachado sem as árvores mortas características; poderia ser qualquer salina ou pan do Namibe, sem resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Close de blocos de gelo sem contexto; não reconhecível como o fiorde de Ilulissat e parecido com qualquer iceberg."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de forma complexa, difícil de reconhecer e confundível com o Lago Powell; não funciona bem no celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea de lago turquesa alpino cercado por montanhas, reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cidade francesa, no começo do rio Thiou, dá nome a este lago alpino?",
+      "resposta": "Annecy",
+      "distratores": [
+        "Chambéry",
+        "Grenoble",
+        "Évian"
+      ],
+      "ancora": {
+        "nome": "Lago Annecy",
+        "descricao": "Lago perialpino na Alta Saboia, França, que dá nome à cidade de Annecy.",
+        "variantes": [
+          "Lago de Annecy",
+          "Lac d'Annecy",
+          "Lake Annecy"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Lago turquesa sob paredões nos Alpes suíços, muito fotografado e reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lago de montanha, nos Alpes suíços, é este?",
+      "resposta": "Lago Oeschinen",
+      "distratores": [
+        "Lago Braies",
+        "Lago Bled",
+        "Lago Brienz"
+      ],
+      "ancora": {
+        "nome": "Lago Oeschinen",
+        "descricao": "Lago de montanha no Oberland Bernês, Suíça, acima da vila de Kandersteg.",
+        "variantes": [
+          "Oeschinensee",
+          "Oeschinen Lake"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rochas douradas com arcos sobre o mar, típicas do Algarve; apenas assinatura do fotógrafo no canto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade portuguesa fica este conjunto de rochas douradas sobre o mar?",
+      "resposta": "Lagos",
+      "distratores": [
+        "Sagres",
+        "Albufeira",
+        "Cascais"
+      ],
+      "ancora": {
+        "nome": "Ponta da Piedade",
+        "descricao": "Promontório com formações rochosas douradas junto à cidade de Lagos, no Algarve, Portugal.",
+        "variantes": [
+          "Ponta da Piedade, Lagos"
+        ]
+      }
+    }
+  ]
+}

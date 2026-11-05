@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia nem entrega o rio; trecho confirma que as gargantas ficam no Yangtzé. Distratores são rios chineses críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que a montanha fica em Zhangjiajie. A pista da abertura natural não entrega a cidade. Distratores críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'palácio branco numa ilha' aponta para o famoso Lake Palace e quase entrega a resposta sem a figura. Além disso, 'branco' não consta nos trechos e o lago tem vários palácios em ilhas. Troca por um fato dos trechos: lago artificial criado em 1362, século quatorze.",
+      "reescrita": {
+        "pergunta": "Que lago artificial da Índia, criado no século quatorze, é este?",
+        "resposta": "Lago Pichola",
+        "distratores": [
+          "Lago Dal",
+          "Lago Pushkar",
+          "Lago Chilika"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma o Rio Grande do Norte e o papel de símbolo informal do estado. A pista não entrega a resposta. Distratores são estados vizinhos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, o enunciado (cidade no início do rio Thiou que dá nome ao lago) permite responder sem olhar a figura, e a resposta é o próprio nome do lago. Reescrita pede o reconhecimento do lago.",
+      "reescrita": {
+        "pergunta": "Que lago alpino da França é este?",
+        "resposta": "Lago Annecy",
+        "distratores": [
+          "Lago Bourget",
+          "Lago Serre-Ponçon",
+          "Lago Sainte-Croix"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1. O lago fica no Oberland Bernês, nos Alpes suíços. O enunciado não vaza o nome. Distratores são outros lagos europeus de montanha, e nenhum deles é o Oeschinen.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que a Ponta da Piedade fica em Lagos e que as rochas são amarelo-douradas. A pista não entrega a cidade. Distratores são cidades portuguesas costeiras críveis.",
+      "reescrita": null
+    }
+  ]
+}

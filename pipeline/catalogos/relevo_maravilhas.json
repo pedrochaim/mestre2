@@ -1202,7 +1202,7 @@
       "titulo": "pt:Pico do Cabugi",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Morro da Igreja",
@@ -1377,7 +1377,7 @@
       "titulo": "en:Oeschinen Lake",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lago di Carezza",
@@ -1399,6 +1399,286 @@
       "camada": 3,
       "destino": 1,
       "status": "reprovada"
+    },
+    {
+      "nome": "Costa Amalfitana",
+      "titulo": "en:Amalfi Coast",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cabo da Boa Esperança",
+      "titulo": "en:Cape of Good Hope",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Serra do Mar",
+      "titulo": "pt:Serra do Mar",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Serra dos Órgãos",
+      "titulo": "pt:Parque Nacional da Serra dos Órgãos",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Três Gargantas do Yangtzé",
+      "titulo": "en:Three Gorges",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Deadvlei",
+      "titulo": "en:Deadvlei",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lago Mead",
+      "titulo": "en:Lake Mead",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rio Parnaíba",
+      "titulo": "pt:Rio Parnaíba",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Maligne (Spirit Island)",
+      "titulo": "en:Maligne Lake",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Montserrat (montanha)",
+      "titulo": "en:Montserrat (mountain)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco de Cabo San Lucas",
+      "titulo": "en:El Arco de Cabo San Lucas",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ponta da Piedade",
+      "titulo": "en:Ponta da Piedade",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Costa Nā Pali",
+      "titulo": "en:Nā Pali Coast State Wilderness Park",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Hua",
+      "titulo": "en:Mount Hua",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Montanha Tianmen",
+      "titulo": "en:Tianmen Mountain",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cataratas Kuang Si",
+      "titulo": "en:Kuang Si Falls",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachoeira Hukou",
+      "titulo": "en:Hukou Waterfall",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Old Man of Storr",
+      "titulo": "en:Old Man of Storr",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fiorde de Ilulissat",
+      "titulo": "en:Ilulissat Icefjord",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lago Pichola",
+      "titulo": "en:Lake Pichola",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Lago Annecy",
+      "titulo": "en:Lake Annecy",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Lago Llanquihue",
+      "titulo": "en:Llanquihue Lake",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Kariba",
+      "titulo": "en:Lake Kariba",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Lugano",
+      "titulo": "en:Lake Lugano",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mar de Salton",
+      "titulo": "en:Salton Sea",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Emerald (Canadá)",
+      "titulo": "en:Emerald Lake (British Columbia)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Merapi",
+      "titulo": "en:Mount Merapi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alpamayo",
+      "titulo": "en:Alpamayo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pico do Fogo",
+      "titulo": "en:Mount Fogo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Serra do Cipó",
+      "titulo": "pt:Parque Nacional da Serra do Cipó",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra da Boca",
+      "titulo": "pt:Parque Estadual da Pedra da Boca",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eibsee",
+      "titulo": "en:Eibsee",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Sevan",
+      "titulo": "en:Lake Sevan",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Turkana",
+      "titulo": "en:Lake Turkana",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Assal",
+      "titulo": "en:Lake Assal (Djibouti)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Yamdrok",
+      "titulo": "en:Yamdrok Lake",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Igapó",
+      "titulo": "pt:Lago Igapó",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Lago Hévíz",
+      "titulo": "en:Lake Hévíz",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Preguiças",
+      "titulo": "pt:Rio Preguiças",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Wolfgangsee",
+      "titulo": "en:Wolfgangsee",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }
