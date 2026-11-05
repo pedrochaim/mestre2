@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que a peça aparece aberta e sem placa-mãe, mas `mostra` não confirma isso, então não dá para garantir que seja verdadeiro para a foto. Descrever a função (abrigar os componentes) entregaria a resposta. O distrator \"Rack de servidor\" também é um tipo de gabinete e pode ser defendido.",
+      "reescrita": {
+        "pergunta": "Que parte de um computador pessoal é esta?",
+        "resposta": "Gabinete",
+        "distratores": [
+          "Fonte de alimentação",
+          "Placa-mãe",
+          "Disco rígido"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"De alumínio\" não é confirmado para esta foto, já que `mostra` diz só \"metálica\" e o material poderia ser cobre. Fora isso, a resposta é única e os distratores servem.",
+      "reescrita": {
+        "pergunta": "Que peça metálica com aletas, comum em computadores, é esta?",
+        "resposta": "Dissipador de calor",
+        "distratores": [
+          "Fonte chaveada",
+          "Capacitor de potência",
+          "Placa de expansão"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"O primeiro motor deste tipo\" é duvidoso, porque havia motores a ar quente anteriores. O enunciado também descreve o ciclo fechado, o que aproxima a pergunta do vazamento. A patente de 1816 está no trecho, então a década de 1810 está certa.",
+      "reescrita": {
+        "pergunta": "Este tipo de motor, que funciona com ar quente, foi patenteado em que década?",
+        "resposta": "Década de 1810",
+        "distratores": [
+          "Década de 1760",
+          "Década de 1850",
+          "Década de 1890"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "\"Este tipo de máquina a vapor\" é ambíguo. Máquinas a vapor mais antigas, como as de Savery e Newcomen, vêm do fim do século dezessete e do começo do dezoito. A patente de Watt é de 1769, fato amplamente documentado. O distrator \"século dezesseis\" é pouco crível.",
+      "reescrita": {
+        "pergunta": "Em que século foi patenteada esta máquina a vapor de condensador separado?",
+        "resposta": "Século dezoito",
+        "distratores": [
+          "Século dezessete",
+          "Século dezenove",
+          "Século vinte"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é direta, de reconhecimento. Não vaza a resposta. Os distratores são outros tipos de microscópio, e nenhum descreve a figura.",
+      "reescrita": null
+    }
+  ]
+}

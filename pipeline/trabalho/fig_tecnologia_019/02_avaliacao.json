@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Gabinete aberto, vazio de placa-mãe, claro e sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça de computador é esta, mostrada aberta e ainda sem a placa-mãe?",
+      "resposta": "Gabinete",
+      "distratores": [
+        "Fonte de alimentação",
+        "Placa-mãe",
+        "Rack de servidor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gabinete de computador",
+        "descricao": "Caixa metálica que abriga os componentes internos de um computador pessoal.",
+        "variantes": [
+          "Case",
+          "Caixa do computador",
+          "Chassi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dissipadores de aluminio do mesmo tipo, claros; as medidas em mm não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça eletrônica de alumínio com aletas é esta?",
+      "resposta": "Dissipador de calor",
+      "distratores": [
+        "Fonte chaveada",
+        "Capacitor de potência",
+        "Placa de expansão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dissipador de calor",
+        "descricao": "Peça metálica aletada que dissipa o calor de componentes eletrônicos como processadores.",
+        "variantes": [
+          "Heatsink",
+          "Dissipador"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Motor Stirling de bancada bem visível; o texto HOG MOTOR não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi patenteado o primeiro motor deste tipo, movido por ar aquecido e resfriado em ciclo fechado?",
+      "resposta": "Década de 1810",
+      "distratores": [
+        "Década de 1760",
+        "Década de 1850",
+        "Década de 1890"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Motor Stirling",
+        "descricao": "Motor térmico de ciclo fechado e regenerativo, que converte calor em trabalho pela expansão e contração cíclica de um gás.",
+        "variantes": [
+          "Motor de ar quente Stirling"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Há pessoas comuns visíveis e placa legível ao fundo; a câmera em domo é pouco específica."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Máquina a vapor de balancim de Watt em museu, clara; o texto do mural não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século surgiu este tipo de máquina a vapor, que movimentou a Revolução Industrial?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezesseis",
+        "Século dezenove",
+        "Século vinte"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Máquina a vapor de Watt",
+        "descricao": "Máquina a vapor eficiente de balancim e condensador separado, desenvolvida por James Watt.",
+        "variantes": [
+          "Motor a vapor de Watt",
+          "Watt steam engine"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Roland e TR-808 escritos no painel entregam a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O rótulo traz texto como LEAD-ACID BATTERY e marca, entregando a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Máquina obscura, pouco reconhecível e confundível com outros computadores analógicos mecânicos; reflexo de pessoa no vidro."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Microscópio óptico claro; a marca Nikon não entrega o tipo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de microscópio é este?",
+      "resposta": "Microscópio óptico",
+      "distratores": [
+        "Microscópio eletrônico de varredura",
+        "Microscópio de força atômica",
+        "Microscópio de tunelamento"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Microscópio óptico",
+        "descricao": "Microscópio que usa luz visível e um sistema de lentes para ampliar objetos pequenos.",
+        "variantes": [
+          "Microscópio de luz",
+          "Microscópio ótico"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Projetor antigo de forma incomum, pouco reconhecível pela imagem; resposta não é única nem evidente."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Os nomes LYNX e ATARI aparecem no aparelho, entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto traseira com texto legível, inclusive UPS no aviso, que entrega a resposta; pouco reconhecível."
+    }
+  ]
+}

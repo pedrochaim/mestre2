@@ -230623,5 +230623,43 @@
       "https://en.wikipedia.org/wiki/Sala_S%C3%A3o_Paulo",
       "https://pt.wikipedia.org/wiki/Sala_S%C3%A3o_Paulo"
     ]
+  },
+  {
+    "id": "gabinete_de_computador",
+    "nome": "Gabinete de computador",
+    "descricao": "Caixa metálica que abriga os componentes internos de um computador pessoal.",
+    "variantes": [
+      "Case",
+      "Caixa do computador",
+      "Chassi"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Computer_case",
+      "https://pt.wikipedia.org/wiki/Gabinete_%28inform%C3%A1tica%29"
+    ]
+  },
+  {
+    "id": "dissipador_de_calor",
+    "nome": "Dissipador de calor",
+    "descricao": "Peça metálica aletada que dissipa o calor de componentes eletrônicos como processadores.",
+    "variantes": [
+      "Heatsink",
+      "Dissipador"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Heat_sink"
+    ]
+  },
+  {
+    "id": "maquina_a_vapor_de_watt",
+    "nome": "Máquina a vapor de Watt",
+    "descricao": "Máquina a vapor eficiente de balancim e condensador separado, desenvolvida por James Watt.",
+    "variantes": [
+      "Motor a vapor de Watt",
+      "Watt steam engine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Watt_steam_engine"
+    ]
   }
 ]

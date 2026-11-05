@@ -376183,5 +376183,103 @@
       "autor": "Paul R. Burley",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q19065",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "gabinete_de_computador",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que parte de um computador pessoal é esta?",
+    "resposta": "Gabinete",
+    "distratores": [
+      "Fonte de alimentação",
+      "Placa-mãe",
+      "Disco rígido"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Computer_case",
+      "https://pt.wikipedia.org/wiki/Gabinete_%28inform%C3%A1tica%29"
+    ],
+    "imagem": {
+      "arquivo": "q19065.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stripped-computer-case.JPG",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q19066",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "dissipador_de_calor",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que peça metálica com aletas, comum em computadores, é esta?",
+    "resposta": "Dissipador de calor",
+    "distratores": [
+      "Fonte chaveada",
+      "Capacitor de potência",
+      "Placa de expansão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Heat_sink"
+    ],
+    "imagem": {
+      "arquivo": "q19066.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Black_anodised_aluminium_heatsinks_6.5–35_mm_width_with_dimensions.jpg",
+      "autor": "Lucasbosch",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q19067",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "motor_stirling",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Este tipo de motor, que funciona com ar quente, foi patenteado em que década?",
+    "resposta": "Década de 1810",
+    "distratores": [
+      "Década de 1760",
+      "Década de 1850",
+      "Década de 1890"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stirling_engine",
+      "https://pt.wikipedia.org/wiki/Motor_Stirling"
+    ],
+    "imagem": {
+      "arquivo": "q19067.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stirlingmotor_3.jpg",
+      "autor": "Claudio Minonzio",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19068",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "maquina_a_vapor_de_watt",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que século foi patenteada esta máquina a vapor de condensador separado?",
+    "resposta": "Século dezoito",
+    "distratores": [
+      "Século dezessete",
+      "Século dezenove",
+      "Século vinte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Watt_steam_engine"
+    ],
+    "imagem": {
+      "arquivo": "q19068.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Maquina_vapor_Watt_ETSIIM.jpg",
+      "autor": "Nicolás Pérez",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

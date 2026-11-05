@@ -1,0 +1,328 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Gabinete de computador",
+        "descricao": "Caixa metálica que abriga os componentes internos de um computador pessoal.",
+        "variantes": [
+          "Case",
+          "Caixa do computador",
+          "Chassi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "crase",
+          "nome": "Crase",
+          "descricao": "Fusão de duas vogais iguais, como a preposição a com o artigo a, marcada pelo acento grave",
+          "variantes": []
+        },
+        {
+          "id": "cassio",
+          "nome": "Cássio",
+          "descricao": "Cássio Ramos, goleiro brasileiro ídolo do Corinthians, nascido em 1987.",
+          "variantes": [
+            "Cássio Ramos"
+          ]
+        },
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple",
+            "Anacardium occidentale",
+            "cajueiro",
+            "cashew"
+          ]
+        },
+        {
+          "id": "cassini_huygens",
+          "nome": "Cassini-Huygens",
+          "descricao": "Missão conjunta de NASA, ESA e ASI, cuja sonda Cassini orbitou Saturno de 2004 a 2017.",
+          "variantes": [
+            "Cassini",
+            "Sonda Cassini"
+          ]
+        },
+        {
+          "id": "cafeeiro",
+          "nome": "Cafeeiro",
+          "descricao": "Planta do gênero Coffea, cujas sementes torradas dão o café",
+          "variantes": [
+            "Coffea",
+            "pé de café",
+            "Coffea arabica",
+            "Café"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Dissipador de calor",
+        "descricao": "Peça metálica aletada que dissipa o calor de componentes eletrônicos como processadores.",
+        "variantes": [
+          "Heatsink",
+          "Dissipador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_fedor",
+          "nome": "Grande Fedor",
+          "descricao": "Episódio do verão de 1858 em que o mau cheiro do rio Tâmisa, poluído por esgoto, tomou conta de Londres.",
+          "variantes": [
+            "Great Stink",
+            "Grande Mau Cheiro"
+          ]
+        },
+        {
+          "id": "secador_de_cabelo",
+          "nome": "Secador de cabelo",
+          "descricao": "Aparelho elétrico portátil que sopra ar quente para secar e modelar os cabelos.",
+          "variantes": [
+            "Hair dryer",
+            "Blow dryer"
+          ]
+        },
+        {
+          "id": "copas_naipe",
+          "nome": "Copas (naipe)",
+          "descricao": "Naipe vermelho do baralho representado por corações, cujo nome em português vem do naipe de taças do baralho latino.",
+          "variantes": [
+            "Hearts",
+            "Naipe de copas"
+          ]
+        },
+        {
+          "id": "ilha_de_calor",
+          "nome": "Ilha de calor",
+          "descricao": "Fenômeno em que áreas urbanas ficam mais quentes que o campo ao redor",
+          "variantes": [
+            "Ilha de calor urbana",
+            "Urban heat island"
+          ]
+        },
+        {
+          "id": "ar_condicionado",
+          "nome": "Ar-condicionado",
+          "descricao": "Sistema de controle de temperatura e umidade do ar, cuja versão moderna foi criada por Willis Carrier em 1902.",
+          "variantes": [
+            "Air conditioning",
+            "Condicionador de ar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Motor Stirling",
+        "descricao": "Motor térmico de ciclo fechado e regenerativo, que converte calor em trabalho pela expansão e contração cíclica de um gás.",
+        "variantes": [
+          "Motor de ar quente Stirling"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "motor_stirling",
+          "nome": "Motor Stirling",
+          "descricao": "Motor térmico de ciclo fechado que opera pela expansão e contração cíclica de um gás aquecido externamente.",
+          "variantes": [
+            "Stirling engine",
+            "Motor a ar quente"
+          ]
+        },
+        {
+          "id": "doutor_estranho",
+          "nome": "Doutor Estranho",
+          "descricao": "Stephen Strange, cirurgião que vira Mago Supremo nos quadrinhos da Marvel, estreou em 1963",
+          "variantes": [
+            "Doctor Strange",
+            "Stephen Strange"
+          ]
+        },
+        {
+          "id": "libra_esterlina",
+          "nome": "Libra esterlina",
+          "descricao": "Moeda oficial do Reino Unido, representada por um L cortado.",
+          "variantes": [
+            "Pound sterling",
+            "Libra"
+          ]
+        },
+        {
+          "id": "doutor_destino",
+          "nome": "Doutor Destino",
+          "descricao": "Vilão da Marvel, Victor von Doom, inimigo do Quarteto Fantástico.",
+          "variantes": [
+            "Doctor Doom",
+            "Victor von Doom"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Máquina a vapor de Watt",
+        "descricao": "Máquina a vapor eficiente de balancim e condensador separado, desenvolvida por James Watt.",
+        "variantes": [
+          "Motor a vapor de Watt",
+          "Watt steam engine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "motor_stirling",
+          "nome": "Motor Stirling",
+          "descricao": "Motor térmico de ciclo fechado que opera pela expansão e contração cíclica de um gás aquecido externamente.",
+          "variantes": [
+            "Stirling engine",
+            "Motor a ar quente"
+          ]
+        },
+        {
+          "id": "motor_wankel",
+          "nome": "Motor Wankel",
+          "descricao": "Motor de combustão interna rotativo com rotor triangular, desenvolvido por Felix Wankel.",
+          "variantes": [
+            "Motor de combustão interna",
+            "Motor rotativo",
+            "Wankel engine"
+          ]
+        },
+        {
+          "id": "maquininha_de_cartao",
+          "nome": "Maquininha de cartão",
+          "descricao": "Terminal de pagamento que lê cartões de crédito e débito para fazer transferências eletrônicas de fundos.",
+          "variantes": [
+            "Máquina de cartão",
+            "Terminal de pagamento",
+            "Terminal POS",
+            "POS"
+          ]
+        },
+        {
+          "id": "maquina_de_waffle",
+          "nome": "Máquina de waffle",
+          "descricao": "Aparelho de cozinha com duas chapas quadriculadas articuladas, usado para assar waffles.",
+          "variantes": [
+            "Waffle iron",
+            "Waffleira"
+          ]
+        },
+        {
+          "id": "mecanismo_de_anticitera",
+          "nome": "Mecanismo de Anticítera",
+          "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+          "variantes": [
+            "Máquina de Anticítera",
+            "Antikythera mechanism"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Microscópio óptico",
+        "descricao": "Microscópio que usa luz visível e um sistema de lentes para ampliar objetos pequenos.",
+        "variantes": [
+          "Microscópio de luz",
+          "Microscópio ótico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "microscopio",
+          "nome": "Microscópio",
+          "descricao": "Instrumento de laboratório usado para examinar objetos pequenos demais para serem vistos a olho nu.",
+          "variantes": [
+            "Microscópio óptico",
+            "Microscope"
+          ]
+        },
+        {
+          "id": "microscopio_optico",
+          "nome": "Microscópio óptico",
+          "descricao": "Instrumento que usa luz visível e um sistema de lentes para ampliar imagens de objetos minúsculos.",
+          "variantes": [
+            "Microscópio de luz",
+            "Microscópio composto"
+          ]
+        },
+        {
+          "id": "microscopio_eletronico",
+          "nome": "Microscópio eletrônico",
+          "descricao": "Microscópio que usa um feixe de elétrons em vez de luz para formar imagens ampliadas.",
+          "variantes": [
+            "Microscópio eletrônico de transmissão",
+            "Electron microscope"
+          ]
+        },
+        {
+          "id": "giroscopio",
+          "nome": "Giroscópio",
+          "descricao": "Dispositivo com disco giratório que mantém a orientação do eixo, usado para medir ou manter orientação.",
+          "variantes": [
+            "Gyroscope"
+          ]
+        },
+        {
+          "id": "eletroscopio_de_folhas",
+          "nome": "Eletroscópio de folhas",
+          "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+          "variantes": [
+            "Eletroscópio",
+            "Eletroscópio de folha de ouro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é gabinete de computador."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Dissipador de calor é peça eletrônica distinta de todas as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "motor_stirling",
+      "motivo": "Mesma entidade: motor térmico Stirling de ciclo fechado."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Máquina a vapor de Watt é distinta do motor Stirling e das demais."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "microscopio_optico",
+      "motivo": "Mesma entidade: microscópio que usa luz visível e lentes."
+    }
+  ]
+}

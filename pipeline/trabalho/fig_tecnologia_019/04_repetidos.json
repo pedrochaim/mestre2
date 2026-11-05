@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este tipo de motor, que funciona com ar quente, foi patenteado em que década?",
+        "resposta": "Década de 1810"
+      },
+      "existentes": [
+        {
+          "id": "q02117",
+          "pergunta": "Que tipo de motor é este, com volante e uma chama sob o cilindro?",
+          "resposta": "Motor Stirling"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de microscópio é este?",
+        "resposta": "Microscópio óptico"
+      },
+      "existentes": [
+        {
+          "id": "q11761",
+          "pergunta": "Que instrumento de laboratório é este?",
+          "resposta": "Microscópio óptico"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a década da patente, fato diferente de identificar o tipo de motor."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem para identificar a mesma imagem, com a resposta Microscópio óptico."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Duplicado."
+    }
+  ]
+}
