@@ -1965,7 +1965,8 @@
       "Presépio de Natal",
       "Nativity scene",
       "Manjedoura",
-      "Cena da Natividade"
+      "Cena da Natividade",
+      "Lapinha"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Nativity_scene",
@@ -13267,7 +13268,8 @@
     "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
     "variantes": [
       "Goma de mascar",
-      "Chewing gum"
+      "Chewing gum",
+      "Chicle"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Chewing_gum"
@@ -13666,7 +13668,8 @@
     "descricao": "Formato de papel do padrão internacional ISO 216, obtido dividindo a folha A0 ao meio sucessivamente.",
     "variantes": [
       "ISO 216",
-      "Papel A4"
+      "Papel A4",
+      "A4"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/ISO_216"
@@ -105920,7 +105923,10 @@
       "wikidata": "Q2637631",
       "pt": 426,
       "en": 9412
-    }
+    },
+    "variantes": [
+      "Pirex"
+    ]
   },
   {
     "id": "isopor",
@@ -154614,7 +154620,10 @@
       "wikidata": "Q503592",
       "pt": 523,
       "en": 12397
-    }
+    },
+    "variantes": [
+      "Gilete"
+    ]
   },
   {
     "id": "crocs",
@@ -226059,6 +226068,71 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Charles_Messier",
       "https://pt.wikipedia.org/wiki/Charles_Messier"
+    ]
+  },
+  {
+    "id": "abajur",
+    "nome": "Abajur",
+    "descricao": "Luminária de mesa ou de chão com cúpula que suaviza e direciona a luz.",
+    "variantes": [
+      "Abat-jour"
+    ],
+    "fontes": [
+      "https://fr.wikipedia.org/wiki/Abat-jour"
+    ]
+  },
+  {
+    "id": "edredom",
+    "nome": "Edredom",
+    "descricao": "Coberta acolchoada e grossa, recheada de penas ou fibras, usada sobre a cama.",
+    "variantes": [
+      "Edredão",
+      "Duvet"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Duvet"
+    ]
+  },
+  {
+    "id": "reveillon",
+    "nome": "Réveillon",
+    "descricao": "Nome dado no Brasil à festa da passagem de ano, na noite de trinta e um de dezembro.",
+    "variantes": [
+      "Virada do ano"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/R%C3%A9veillon"
+    ]
+  },
+  {
+    "id": "oculos_escuros",
+    "nome": "Óculos escuros",
+    "descricao": "Óculos com lentes escurecidas que protegem os olhos da luz forte do sol.",
+    "variantes": [
+      "Óculos de sol"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sunglasses"
+    ]
+  },
+  {
+    "id": "dia_do_trabalho",
+    "nome": "Dia do Trabalho",
+    "descricao": "Data comemorativa de primeiro de maio que homenageia os trabalhadores, feriado no Brasil.",
+    "variantes": [
+      "Dia do Trabalhador",
+      "Primeiro de Maio"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Dia_do_Trabalhador"
+    ]
+  },
+  {
+    "id": "dia_das_maes",
+    "nome": "Dia das Mães",
+    "descricao": "Data comemorativa em homenagem às mães, celebrada no Brasil no segundo domingo de maio.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mother%27s_Day_(United_States)"
     ]
   }
 ]

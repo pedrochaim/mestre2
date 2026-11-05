@@ -1,0 +1,935 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A marca que deu origem à palavra gilete leva o sobrenome do fundador, cujo primeiro nome parecia um título de nobreza. Qual era esse nome?",
+        "resposta": "King"
+      },
+      "existentes": [
+        {
+          "id": "q11913",
+          "pergunta": "No começo do século vinte, qual foi a grande novidade do aparelho de barbear lançado pelo americano King Gillette?",
+          "resposta": "Lâminas descartáveis"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em inglês, o guarda-chuva se chama umbrella, palavra de origem latina. A que ideia essa raiz latina se refere?",
+        "resposta": "Sombra"
+      },
+      "existentes": [
+        {
+          "id": "q01150",
+          "pergunta": "Que objeto é este?",
+          "resposta": "Guarda-chuva"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O teclado usado em computadores do mundo todo é chamado de QWERTY. De onde vem esse nome?",
+        "resposta": "Primeiras letras da fileira superior"
+      },
+      "existentes": [
+        {
+          "id": "q03587",
+          "pergunta": "De onde vem o nome do teclado QWERTY, herdado das antigas máquinas de escrever?",
+          "resposta": "Das seis primeiras letras da fileira de cima"
+        },
+        {
+          "id": "q07332",
+          "pergunta": "Nos teclados de computador, as teclas F e J têm um pequeno relevo. Para que ele serve?",
+          "resposta": "Posicionar os dedos sem olhar"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O costume português de numerar os dias da semana, evitando nomes de deuses pagãos, é atribuído a qual bispo do século seis?",
+        "resposta": "Martinho de Dume (São Martinho de Braga)"
+      },
+      "existentes": [
+        {
+          "id": "q08505",
+          "pergunta": "Além do domingo, qual dia da semana em português não leva a palavra feira no nome?",
+          "resposta": "Sábado"
+        },
+        {
+          "id": "q08506",
+          "pergunta": "Em vez de homenagear deuses pagãos, os dias da semana em português são numerados. Que bispo de Braga, do século seis, é associado a essa mudança?",
+          "resposta": "São Martinho de Dume"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O mouse do computador ganhou esse nome, que quer dizer camundongo em inglês, porque o fio lembrava qual parte do bicho?",
+        "resposta": "O rabo"
+      },
+      "existentes": [
+        {
+          "id": "q00902",
+          "pergunta": "Que engenheiro americano apresentou o mouse ao público em 1968, numa demonstração que ficou conhecida como a mãe de todas as demos?",
+          "resposta": "Douglas Engelbart"
+        },
+        {
+          "id": "q03466",
+          "pergunta": "O primeiro protótipo de mouse de computador, criado por Douglas Engelbart nos anos sessenta, tinha a carcaça feita de quê?",
+          "resposta": "Madeira"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O nome Wi-Fi foi escolhido por uma agência de marcas em parte por soar parecido com qual expressão do mundo dos aparelhos de som?",
+        "resposta": "Hi-Fi"
+      },
+      "existentes": [
+        {
+          "id": "q00894",
+          "pergunta": "Que atriz de Hollywood coinventou, durante a Segunda Guerra, uma técnica de salto de frequência que mais tarde inspirou o Wi-Fi e o Bluetooth?",
+          "resposta": "Hedy Lamarr"
+        },
+        {
+          "id": "q15950",
+          "pergunta": "O nome Wi-Fi foi criado por uma agência de marketing como trocadilho com qual termo do mundo dos aparelhos de som?",
+          "resposta": "Hi-fi, alta fidelidade"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em Portugal, o zíper se chama fecho éclair, nome tirado de uma marca francesa. O que significa a palavra éclair?",
+        "resposta": "Relâmpago"
+      },
+      "existentes": [
+        {
+          "id": "q00932",
+          "pergunta": "Em 1923, a fabricante de pneus Goodrich criou o nome zipper ao usar o fecho deslizante em que tipo de calçado?",
+          "resposta": "Galochas de borracha"
+        },
+        {
+          "id": "q15899",
+          "pergunta": "Que inventor americano apresentou uma versão primitiva deste fecho na Feira Mundial de Chicago, em 1893?",
+          "resposta": "Whitcomb L. Judson"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Além do furo na tampa, a caneta BIC Cristal tem um furinho na lateral do corpo. Para que ele serve?",
+        "resposta": "Igualar a pressão do ar"
+      },
+      "existentes": [
+        {
+          "id": "q00888",
+          "pergunta": "A tampa da caneta BIC Cristal tem um pequeno furo na ponta. Para que serve esse furo?",
+          "resposta": "Evitar sufocamento se engolida"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Muitos lápis têm o corpo de seis lados, em vez de redondo. Que problema esse formato ajuda a evitar?",
+        "resposta": "Rolar da mesa"
+      },
+      "existentes": [
+        {
+          "id": "q05069",
+          "pergunta": "Que material forma o miolo deste objeto?",
+          "resposta": "Grafite"
+        },
+        {
+          "id": "q07342",
+          "pergunta": "No fim do século dezenove, muitos lápis passaram a ser pintados de amarelo, cor da realeza de um país de onde vinha grafite de qualidade. Que país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q08729",
+          "pergunta": "O miolo do lápis não tem chumbo: ele é feito de grafite misturado com qual material?",
+          "resposta": "Argila"
+        },
+        {
+          "id": "q15691",
+          "pergunta": "Em latim, a palavra lapis, que deu origem ao nome do lápis, significava o quê?",
+          "resposta": "Pedra"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1795, o francês Nicolas-Jacques Conté desenvolveu um método de fazer miolo de lápis misturando grafite em pó com o quê?",
+        "resposta": "Argila"
+      },
+      "existentes": [
+        {
+          "id": "q05069",
+          "pergunta": "Que material forma o miolo deste objeto?",
+          "resposta": "Grafite"
+        },
+        {
+          "id": "q07342",
+          "pergunta": "No fim do século dezenove, muitos lápis passaram a ser pintados de amarelo, cor da realeza de um país de onde vinha grafite de qualidade. Que país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q08729",
+          "pergunta": "O miolo do lápis não tem chumbo: ele é feito de grafite misturado com qual material?",
+          "resposta": "Argila"
+        },
+        {
+          "id": "q15691",
+          "pergunta": "Em latim, a palavra lapis, que deu origem ao nome do lápis, significava o quê?",
+          "resposta": "Pedra"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "A porta de vidro do micro-ondas tem uma tela metálica cheia de furinhos. O que essa tela impede?",
+        "resposta": "Que as micro-ondas escapem"
+      },
+      "existentes": [
+        {
+          "id": "q00881",
+          "pergunta": "Nos anos quarenta, o engenheiro Percy Spencer trabalhava perto de um equipamento de radar quando algo derreteu no seu bolso. O que era?",
+          "resposta": "Uma barra de chocolate"
+        },
+        {
+          "id": "q03602",
+          "pergunta": "O forno de micro-ondas nasceu nos anos quarenta, de pesquisas com que equipamento militar?",
+          "resposta": "Radar"
+        },
+        {
+          "id": "q15083",
+          "pergunta": "Que componente de radar, desenvolvido no Reino Unido, tornou possível a criação deste aparelho?",
+          "resposta": "Magnétron de cavidade"
+        },
+        {
+          "id": "q15541",
+          "pergunta": "O forno de micro-ondas esquenta a comida agitando principalmente as moléculas de que substância presente nos alimentos?",
+          "resposta": "Água"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No Brasil, o Dia dos Namorados cai em doze de junho por ser a véspera do dia de qual santo casamenteiro?",
+        "resposta": "Santo Antônio"
+      },
+      "existentes": [
+        {
+          "id": "q00331",
+          "pergunta": "No Brasil, o Dia dos Namorados é comemorado em 12 de junho, e não em fevereiro. Por que essa data foi escolhida?",
+          "resposta": "É a véspera de Santo Antônio"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Em 1949, para aquecer as vendas de junho no comércio paulista, que publicitário lançou o Dia dos Namorados no Brasil?",
+        "resposta": "João Doria (pai do ex-governador)"
+      },
+      "existentes": [
+        {
+          "id": "q00331",
+          "pergunta": "No Brasil, o Dia dos Namorados é comemorado em 12 de junho, e não em fevereiro. Por que essa data foi escolhida?",
+          "resposta": "É a véspera de Santo Antônio"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 1938, na DuPont, Roy Plunkett descobriu o teflon por acaso. Ele pesquisava gases para qual tipo de aparelho?",
+        "resposta": "Geladeiras"
+      },
+      "existentes": [
+        {
+          "id": "q03593",
+          "pergunta": "Em 1938, o químico Roy Plunkett descobriu o teflon por acaso, enquanto pesquisava novos gases para que tipo de aparelho?",
+          "resposta": "Geladeiras"
+        },
+        {
+          "id": "q05892",
+          "pergunta": "O Teflon, que reveste as frigideiras antiaderentes, foi descoberto por acaso durante pesquisas com gases de geladeira em que década?",
+          "resposta": "Década de 1930"
+        },
+        {
+          "id": "q07317",
+          "pergunta": "O teflon das panelas antiaderentes é um plástico formado por carbono e por qual outro elemento químico?",
+          "resposta": "Flúor"
+        },
+        {
+          "id": "q16848",
+          "pergunta": "A marca francesa de panelas Tefal, criada nos anos cinquenta, tem nome que junta teflon e que metal?",
+          "resposta": "Alumínio"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "A ideia do Pyrex surgiu quando a esposa de um cientista da Corning assou um bolo num recipiente de vidro serrado pelo marido. Que recipiente era?",
+        "resposta": "Pote de bateria"
+      },
+      "existentes": [
+        {
+          "id": "q07315",
+          "pergunta": "O vidro original das travessas Pyrex aguentava o calor do forno graças à adição de qual elemento químico?",
+          "resposta": "Boro"
+        },
+        {
+          "id": "q07316",
+          "pergunta": "A empresa americana Corning, que lançou o vidro Pyrex em 1915, também desenvolveu qual vidro resistente usado em telas de celular?",
+          "resposta": "Gorilla Glass"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Os potes Tupperware encalhavam nas lojas até que a vendedora Brownie Wise apostou num novo jeito de vendê-los. Qual?",
+        "resposta": "Reuniões de venda em casa"
+      },
+      "existentes": [
+        {
+          "id": "q07335",
+          "pergunta": "Os famosos potes plásticos Tupperware, lançados nos Estados Unidos em 1946, levam o sobrenome de quem?",
+          "resposta": "Earl Tupper"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "A cola fraca do Post-it foi criada em 1968 por Spencer Silver, químico da 3M, por acaso. O que ele tentava fazer?",
+        "resposta": "Uma cola superforte"
+      },
+      "existentes": [
+        {
+          "id": "q00883",
+          "pergunta": "Art Fry, da empresa 3M, pensou no Post-it porque seus marcadores de página viviam caindo de um livro que ele usava no coral da igreja. Que livro?",
+          "resposta": "O hinário"
+        },
+        {
+          "id": "q07048",
+          "pergunta": "Que empresa americana de Minnesota, também conhecida pelas fitas adesivas, lançou os bloquinhos Post-it?",
+          "resposta": "3M"
+        },
+        {
+          "id": "q08741",
+          "pergunta": "Em 1968, o químico Spencer Silver tentava criar uma cola superforte, mas obteve a do futuro post-it. Que característica ela tinha?",
+          "resposta": "Colava fraco e descolava fácil"
+        },
+        {
+          "id": "q16862",
+          "pergunta": "A cola fraca do post-it foi criada em 1968, mas os bloquinhos só foram lançados em todos os Estados Unidos em que ano?",
+          "resposta": "1980"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "No fim do século dezenove, Karl Elsener começou a fabricar na Suíça os canivetes que ficariam famosos. Para quem eram os primeiros?",
+        "resposta": "Soldados do Exército suíço"
+      },
+      "existentes": [
+        {
+          "id": "q00875",
+          "pergunta": "O nome Victorinox, fabricante do famoso canivete suíço, junta a palavra inox ao nome de qual pessoa da família do fundador?",
+          "resposta": "A mãe dele, Victoria"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Em 1752, segundo relatos da época, que americano empinou uma pipa numa tempestade para mostrar que o raio é eletricidade?",
+        "resposta": "Benjamin Franklin"
+      },
+      "existentes": [
+        {
+          "id": "q04496",
+          "pergunta": "Chamada de papagaio, arraia ou pandorga conforme a região do Brasil, a pipa foi inventada há mais de dois mil anos em qual país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q08395",
+          "pergunta": "Nos estados do Sul do Brasil, sobretudo no Rio Grande do Sul, a pipa costuma ser chamada por qual outro nome?",
+          "resposta": "Pandorga"
+        },
+        {
+          "id": "q08891",
+          "pergunta": "Que brinquedo de criança, muito popular no Brasil, é este?",
+          "resposta": "Pipa (também chamada papagaio ou pandorga)"
+        },
+        {
+          "id": "q16000",
+          "pergunta": "Que mistura de cola com vidro moído, perigosa e proibida em muitas cidades, é passada na linha da pipa para cortar a dos outros?",
+          "resposta": "Cerol"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Lançado pela Mattel em 1961, o boneco Ken, namorado da Barbie, leva o nome de quem?",
+        "resposta": "Filho da criadora da Barbie"
+      },
+      "existentes": [
+        {
+          "id": "q00877",
+          "pergunta": "Lançada em 1959 pela Mattel, a boneca Barbie ganhou esse nome em homenagem a quem?",
+          "resposta": "Barbara, filha da criadora Ruth Handler"
+        },
+        {
+          "id": "q03820",
+          "pergunta": "Em que ano a boneca Barbie foi apresentada ao público numa feira de brinquedos em Nova York?",
+          "resposta": "1959"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "A Barbie foi inspirada em Bild Lilli, uma boneca baseada numa personagem de tirinhas de jornal. De que país era essa boneca?",
+        "resposta": "Alemanha"
+      },
+      "existentes": [
+        {
+          "id": "q00877",
+          "pergunta": "Lançada em 1959 pela Mattel, a boneca Barbie ganhou esse nome em homenagem a quem?",
+          "resposta": "Barbara, filha da criadora Ruth Handler"
+        },
+        {
+          "id": "q03820",
+          "pergunta": "Em que ano a boneca Barbie foi apresentada ao público numa feira de brinquedos em Nova York?",
+          "resposta": "1959"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Em 1974, num supermercado de Ohio, o primeiro produto registrado no caixa pela leitura do código de barras foi um pacote de quê?",
+        "resposta": "Chiclete"
+      },
+      "existentes": [
+        {
+          "id": "q00893",
+          "pergunta": "Norman Woodland teve a ideia do código de barras na areia de uma praia de Miami, esticando para baixo os sinais de outro código. Qual?",
+          "resposta": "Código Morse"
+        },
+        {
+          "id": "q06775",
+          "pergunta": "A primeira compra com leitura de código de barras num caixa de supermercado americano foi um pacote de chiclete, em Ohio. Em que ano?",
+          "resposta": "1974"
+        },
+        {
+          "id": "q15702",
+          "pergunta": "Nos códigos de barras dos supermercados, os produtos registrados no Brasil costumam ter números que começam com qual sequência?",
+          "resposta": "789"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Em 1882, um sócio de qual inventor americano enfeitou a árvore de Natal de casa com lâmpadas elétricas, no lugar das velas?",
+        "resposta": "Thomas Edison"
+      },
+      "existentes": [
+        {
+          "id": "q04518",
+          "pergunta": "Em 1848, um jornal de Londres publicou uma gravura da família real britânica em volta de uma árvore de Natal, e a moda pegou. Quem era a rainha?",
+          "resposta": "Rainha Vitória"
+        },
+        {
+          "id": "q06633",
+          "pergunta": "Que príncipe alemão, marido da rainha Vitória, ajudou a popularizar a árvore de Natal na Inglaterra do século dezenove?",
+          "resposta": "Príncipe Albert"
+        },
+        {
+          "id": "q17653",
+          "pergunta": "Uma lenda alemã atribui a qual reformador protestante a ideia de pôr velas acesas num pinheiro, para imitar as estrelas da noite de Natal?",
+          "resposta": "Martinho Lutero"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "A melodia do Parabéns a Você vem de uma canção infantil americana de 1893, feita para saudar alunos na escola. Que canção era essa?",
+        "resposta": "Good Morning to All"
+      },
+      "existentes": [
+        {
+          "id": "q06614",
+          "pergunta": "A melodia do Parabéns a Você vem de uma canção infantil americana de 1893, atribuída a quais irmãs?",
+          "resposta": "Irmãs Hill"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Em 1942, num concurso promovido por uma rádio, quem escreveu a letra em português do Parabéns a Você?",
+        "resposta": "Bertha Celeste Homem de Mello"
+      },
+      "existentes": [
+        {
+          "id": "q06614",
+          "pergunta": "A melodia do Parabéns a Você vem de uma canção infantil americana de 1893, atribuída a quais irmãs?",
+          "resposta": "Irmãs Hill"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "O símbolo do Bluetooth junta as iniciais do rei Haroldo Dente Azul, escritas em qual sistema de escrita antigo?",
+        "resposta": "Runas nórdicas"
+      },
+      "existentes": [
+        {
+          "id": "q00871",
+          "pergunta": "O nome Bluetooth homenageia um rei do século dez, apelidado de Dente Azul, que uniu as tribos de qual país?",
+          "resposta": "Dinamarca"
+        },
+        {
+          "id": "q06778",
+          "pergunta": "O nome da tecnologia sem fio Bluetooth homenageia qual rei viquingue do século dez?",
+          "resposta": "Haroldo Dente-Azul"
+        },
+        {
+          "id": "q15937",
+          "pergunta": "O símbolo do Bluetooth junta as iniciais do rei Haroldo Dente-Azul escritas em qual tipo de alfabeto?",
+          "resposta": "Runas nórdicas"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Nos navios antigos, marinheiros jogavam ao mar uma tábua presa a uma corda e cronometravam com uma ampulheta. Que unidade de velocidade nasceu disso?",
+        "resposta": "Nó"
+      },
+      "existentes": [
+        {
+          "id": "q01353",
+          "pergunta": "Que instrumento antigo de medir o tempo é este?",
+          "resposta": "Ampulheta (relógio de areia)"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "O chicle, base dos primeiros chicletes industriais, é a seiva de qual árvore, que também dá uma fruta doce?",
+        "resposta": "Sapotizeiro (sapoti)"
+      },
+      "existentes": [
+        {
+          "id": "q00892",
+          "pergunta": "Que general mexicano, que comandou o ataque ao Álamo, apresentou ao americano Thomas Adams o chicle que deu origem ao chiclete moderno?",
+          "resposta": "Antonio López de Santa Anna"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Nos anos vinte, o ioiô virou febre nos Estados Unidos graças a Pedro Flores, imigrante de qual país asiático?",
+        "resposta": "Filipinas"
+      },
+      "existentes": [
+        {
+          "id": "q06445",
+          "pergunta": "Nos anos vinte, um imigrante chamado Pedro Flores transformou o ioiô em febre nos Estados Unidos. De que país ele vinha?",
+          "resposta": "Filipinas"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Os emojis desenhados em 1999 por Shigetaka Kurita, para uma operadora de celular japonesa, entraram para o acervo de qual museu?",
+        "resposta": "MoMA, de Nova York"
+      },
+      "existentes": [
+        {
+          "id": "q00878",
+          "pergunta": "Apesar da semelhança, a palavra emoji não tem relação com emoção. Ela junta duas palavras japonesas que significam o quê?",
+          "resposta": "Imagem e caractere"
+        },
+        {
+          "id": "q03428",
+          "pergunta": "Apesar de lembrar a palavra emoção, o termo emoji vem de qual língua?",
+          "resposta": "Japonês"
+        },
+        {
+          "id": "q15960",
+          "pergunta": "Em 2016, o conjunto original de emojis, criado para a operadora japonesa NTT Docomo, entrou no acervo de qual museu?",
+          "resposta": "MoMA, em Nova York"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "O Papai Noel se inspira em São Nicolau, bispo do século quatro na cidade de Mira. Em que país essa cidade fica hoje?",
+        "resposta": "Turquia"
+      },
+      "existentes": [
+        {
+          "id": "q03554",
+          "pergunta": "Que bispo cristão do século quatro, da cidade de Mira, na atual Turquia, inspirou a figura do Papai Noel?",
+          "resposta": "São Nicolau"
+        },
+        {
+          "id": "q06610",
+          "pergunta": "Que cartunista americano, nascido na Alemanha, ajudou a definir a imagem moderna do Papai Noel em desenhos publicados no século dezenove?",
+          "resposta": "Thomas Nast"
+        },
+        {
+          "id": "q17629",
+          "pergunta": "O nome americano Santa Claus, dado ao Papai Noel, deriva do nome holandês de qual santo?",
+          "resposta": "São Nicolau"
+        },
+        {
+          "id": "q17630",
+          "pergunta": "Que marca de refrigerante ajudou a fixar a imagem do Papai Noel gordo e sorridente, em anúncios pintados a partir dos anos trinta?",
+          "resposta": "Coca-Cola"
+        },
+        {
+          "id": "q17631",
+          "pergunta": "Que cidade finlandesa, cortada pelo Círculo Polar Ártico, abriga a Vila do Papai Noel, que recebe turistas o ano todo?",
+          "resposta": "Rovaniemi"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Em 1679, que físico francês inventou o digestor a vapor, uma panela vedada considerada ancestral da panela de pressão?",
+        "resposta": "Denis Papin"
+      },
+      "existentes": [
+        {
+          "id": "q02998",
+          "pergunta": "Por que a panela de pressão cozinha os alimentos mais depressa que uma panela comum?",
+          "resposta": "A água ferve acima de cem graus"
+        },
+        {
+          "id": "q02999",
+          "pergunta": "Que físico francês inventou, em 1679, o digestor a vapor, ancestral da panela de pressão?",
+          "resposta": "Denis Papin"
+        },
+        {
+          "id": "q03729",
+          "pergunta": "Que utensílio de cozinha é este?",
+          "resposta": "Panela de pressão"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Por volta do ano cento e cinco, que funcionário da corte chinesa é tradicionalmente creditado por criar o processo de fabricação do papel?",
+        "resposta": "Cai Lun"
+      },
+      "existentes": [
+        {
+          "id": "q03375",
+          "pergunta": "Na China da dinastia Han, por volta do ano cento e cinco, que funcionário da corte é tradicionalmente apontado como inventor do papel?",
+          "resposta": "Cai Lun"
+        },
+        {
+          "id": "q13792",
+          "pergunta": "Segundo os registros chineses, Cai Lun fez papel com casca de árvore, restos de cânhamo, trapos velhos e o quê?",
+          "resposta": "Redes de pesca"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Em 1223, na vila italiana de Greccio, que santo montou uma encenação do nascimento de Jesus que popularizou o presépio?",
+        "resposta": "São Francisco de Assis"
+      },
+      "existentes": [
+        {
+          "id": "q00111",
+          "pergunta": "Em 1223, na aldeia italiana de Greccio, que santo montou o que é considerado o primeiro presépio de Natal?",
+          "resposta": "São Francisco de Assis"
+        },
+        {
+          "id": "q14988",
+          "pergunta": "Que montagem tradicional de Natal é esta?",
+          "resposta": "Presépio"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "O tijolinho de Lego com tubos por dentro, que permite encaixar as peças com firmeza, teve o pedido de patente depositado em que ano?",
+        "resposta": "1958"
+      },
+      "existentes": [
+        {
+          "id": "q00876",
+          "pergunta": "O nome da fabricante de blocos de montar Lego vem de uma expressão em dinamarquês. O que ela significa?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03782",
+          "pergunta": "Em dinamarquês, a expressão que deu origem ao nome da marca de brinquedos Lego quer dizer o quê?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03783",
+          "pergunta": "Em 1932, qual carpinteiro dinamarquês fundou a pequena fábrica de brinquedos de madeira que viria a se chamar Lego?",
+          "resposta": "Ole Kirk Christiansen"
+        },
+        {
+          "id": "q07061",
+          "pergunta": "O tijolinho de plástico da Lego, com o sistema de encaixe usado até hoje, foi patenteado em que ano?",
+          "resposta": "1958"
+        },
+        {
+          "id": "q15700",
+          "pergunta": "Seis peças de Lego retangulares, do tipo dois por quatro e da mesma cor, podem ser encaixadas de quantas maneiras diferentes?",
+          "resposta": "Cerca de 915 milhões"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Entre estes formatos de papel, qual tem exatamente o dobro da área de uma folha A4?",
+        "resposta": "A3"
+      },
+      "existentes": [
+        {
+          "id": "q00914",
+          "pergunta": "A folha A4 é uma folha A0 cortada ao meio quatro vezes. Qual é a área exata da folha A0?",
+          "resposta": "Um metro quadrado"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o primeiro nome do fundador, não a novidade do aparelho."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Etimologia de umbrella, diferente de identificar o objeto."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma origem do nome QWERTY.",
+      "id_existente": "q03587"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo bispo associado à numeração dos dias.",
+      "id_existente": "q08506"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Origem do nome mouse, fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesma origem do nome Wi-Fi ligada a Hi-Fi.",
+      "id_existente": "q15950"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Significado de éclair, fato distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Furo lateral do corpo, diferente do furo da tampa."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Formato hexagonal, fato não coberto."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Miolo do lápis é grafite com argila; mesma resposta.",
+      "id_existente": "q08729"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Função da tela metálica, não coberta."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesma razão da data: véspera de Santo Antônio.",
+      "id_existente": "q00331"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Quem lançou a data, fato distinto."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta quase idêntica.",
+      "id_existente": "q03593"
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Origem da ideia do Pyrex, fato novo."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Método de venda, fato novo."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Spencer Silver tentava cola superforte; já coberto.",
+      "id_existente": "q08741"
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Primeiros clientes dos canivetes, fato novo."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Experimento de Franklin, não coberto."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Origem do nome Ken, fato distinto."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "País da Bild Lilli, fato novo."
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "motivo": "Primeiro produto era chiclete, já informado na existente.",
+      "id_existente": "q06775"
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Lâmpadas elétricas na árvore, fato novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Nome da canção original, não as irmãs."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Autora da letra em português, fato novo."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre alfabeto rúnico.",
+      "id_existente": "q15937"
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Origem da unidade nó, fato novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Árvore do chicle, fato distinto."
+    },
+    {
+      "caso": 29,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: país de Pedro Flores.",
+      "id_existente": "q06445"
+    },
+    {
+      "caso": 30,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: museu que acolheu os emojis.",
+      "id_existente": "q15960"
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "País atual de Mira; existente já cita Turquia mas pergunta o santo."
+    },
+    {
+      "caso": 32,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre Denis Papin.",
+      "id_existente": "q02999"
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre Cai Lun.",
+      "id_existente": "q03375"
+    },
+    {
+      "caso": 34,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre São Francisco em Greccio.",
+      "id_existente": "q00111"
+    },
+    {
+      "caso": 35,
+      "decisao": "repete",
+      "motivo": "Mesmo ano da patente do tijolinho.",
+      "id_existente": "q07061"
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Relação A3 e A4, fato distinto da área da A0."
+    }
+  ]
+}

@@ -1,0 +1,1228 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Gillette",
+        "descricao": "Marca americana de lâminas e aparelhos de barbear fundada por King Camp Gillette em 1901.",
+        "variantes": [
+          "Gilete"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gillette"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A marca que deu origem à palavra gilete leva o sobrenome do fundador, cujo primeiro nome parecia um título de nobreza. Qual era esse nome?",
+      "resposta": "King",
+      "distratores": [
+        "Duke",
+        "Prince",
+        "Lord"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/King_C._Gillette"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "guarda_chuva",
+        "nome": "Guarda-chuva",
+        "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol.",
+        "variantes": [
+          "Sombrinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Umbrella"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em inglês, o guarda-chuva se chama umbrella, palavra de origem latina. A que ideia essa raiz latina se refere?",
+      "resposta": "Sombra",
+      "distratores": [
+        "Chuva",
+        "Cobertura",
+        "Pequena casa"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Umbrella"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "guarda_chuva",
+        "nome": "Guarda-chuva",
+        "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol.",
+        "variantes": [
+          "Sombrinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Umbrella"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na Europa, antes das varetas de aço de meados do século dezenove, as varetas dos melhores guarda-chuvas eram feitas de quê?",
+      "resposta": "Barbatana de baleia",
+      "distratores": [
+        "Chifre de boi",
+        "Ferro fundido",
+        "Junco trançado"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Umbrella"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "teclado_qwerty",
+        "nome": "Teclado QWERTY",
+        "descricao": "Disposição de letras dos teclados criada para as máquinas de escrever de Christopher Sholes, no século dezenove.",
+        "variantes": [
+          "QWERTY"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/QWERTY"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O teclado usado em computadores do mundo todo é chamado de QWERTY. De onde vem esse nome?",
+      "resposta": "Primeiras letras da fileira superior",
+      "distratores": [
+        "Sigla do inventor",
+        "Nome da fábrica",
+        "Código do modelo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/QWERTY"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dias da semana em português",
+        "descricao": "Nomes dos dias da semana na língua portuguesa, numerados como feiras, de segunda a sexta, em vez de homenagear astros ou deuses.",
+        "variantes": [
+          "Feiras"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em segunda-feira e terça-feira, a palavra feira vem do latim feria. O que ela significava?",
+      "resposta": "Dia de festa",
+      "distratores": [
+        "Mercado",
+        "Dia de trabalho",
+        "Semana"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week",
+        "https://pt.wikipedia.org/wiki/Semana"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dias da semana em português",
+        "descricao": "Nomes dos dias da semana na língua portuguesa, numerados como feiras, de segunda a sexta, em vez de homenagear astros ou deuses.",
+        "variantes": [
+          "Feiras"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O costume português de numerar os dias da semana, evitando nomes de deuses pagãos, é atribuído a qual bispo do século seis?",
+      "resposta": "Martinho de Dume (São Martinho de Braga)",
+      "distratores": [
+        "Santo Agostinho",
+        "Isidoro de Sevilha",
+        "São Bento"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Martinho_de_Dume",
+        "https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Abajur",
+        "descricao": "Luminária de mesa ou de chão com cúpula que suaviza e direciona a luz.",
+        "variantes": [
+          "Abat-jour"
+        ],
+        "fontes": [
+          "https://fr.wikipedia.org/wiki/Abat-jour"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra abajur vem de uma expressão francesa. Ao pé da letra, o que ela quer dizer?",
+      "resposta": "Abaixa a luz",
+      "distratores": [
+        "Luz da noite",
+        "Guarda a chama",
+        "Pequena lâmpada"
+      ],
+      "fonte": [
+        "https://fr.wikipedia.org/wiki/Abat-jour",
+        "https://en.wikipedia.org/wiki/Lampshade"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Edredom",
+        "descricao": "Coberta acolchoada e grossa, recheada de penas ou fibras, usada sobre a cama.",
+        "variantes": [
+          "Edredão",
+          "Duvet"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Duvet"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra edredom vem do nome das penas macias de qual pato marinho do norte, usadas para encher cobertas?",
+      "resposta": "Êider",
+      "distratores": [
+        "Ganso-bravo",
+        "Marreco",
+        "Cisne"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eiderdown",
+        "https://en.wikipedia.org/wiki/Duvet"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mouse",
+        "nome": "Mouse",
+        "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+        "variantes": [
+          "Rato"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Computer_mouse"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O mouse do computador ganhou esse nome, que quer dizer camundongo em inglês, porque o fio lembrava qual parte do bicho?",
+      "resposta": "O rabo",
+      "distratores": [
+        "Os bigodes",
+        "As orelhas",
+        "O focinho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Computer_mouse"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "wi_fi",
+        "nome": "Wi-Fi",
+        "descricao": "Família de padrões de rede local sem fio usada para conectar aparelhos à internet.",
+        "variantes": [
+          "WiFi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wi-Fi"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Wi-Fi não abrevia nenhum termo técnico. Uma agência o criou como trocadilho com qual expressão do mundo dos aparelhos de som?",
+      "resposta": "Hi-Fi (alta-fidelidade)",
+      "distratores": [
+        "Estéreo",
+        "Dolby",
+        "Walkie-talkie"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wi-Fi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Zíper",
+        "descricao": "Fecho de dentes metálicos ou plásticos que se encaixam com um cursor, usado em roupas, bolsas e malas.",
+        "variantes": [
+          "Fecho éclair",
+          "Fecho de correr",
+          "Zipper"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zipper"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em Portugal, o zíper se chama fecho éclair, nome tirado de uma marca francesa. O que significa a palavra éclair?",
+      "resposta": "Relâmpago",
+      "distratores": [
+        "Rápido",
+        "Corrente",
+        "Dente"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Zipper",
+        "https://fr.wikipedia.org/wiki/Fermeture_%C3%A9clair"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Réveillon",
+        "descricao": "Nome dado no Brasil à festa da passagem de ano, na noite de trinta e um de dezembro.",
+        "variantes": [
+          "Virada do ano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/R%C3%A9veillon"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra réveillon, usada para a festa da virada do ano, vem de um verbo francês. O que esse verbo significa?",
+      "resposta": "Acordar (despertar)",
+      "distratores": [
+        "Celebrar",
+        "Renovar",
+        "Brindar"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/R%C3%A9veillon",
+        "https://pt.wikipedia.org/wiki/R%C3%A9veillon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Olho-de-boi (selo)",
+        "descricao": "Primeira série de selos postais do Brasil, lançada em 1843, com valores numéricos dentro de um desenho oval.",
+        "variantes": [
+          "Olhos-de-boi",
+          "Bull's Eye"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Olho-de-boi_(selo)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 1843, o Brasil lançou seus primeiros selos postais. Por causa do desenho em volta dos números, que apelido eles ganharam?",
+      "resposta": "Olho-de-boi",
+      "distratores": [
+        "Olho-de-gato",
+        "Rabo-de-galo",
+        "Pé-de-moleque"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Olho-de-boi_(selo)",
+        "https://en.wikipedia.org/wiki/Postage_stamps_and_postal_history_of_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bic_cristal",
+        "nome": "BIC Cristal",
+        "descricao": "Caneta esferográfica descartável de corpo transparente lançada pela empresa francesa BIC em 1950.",
+        "variantes": [
+          "Caneta BIC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bic_Cristal"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Além do furo na tampa, a caneta BIC Cristal tem um furinho na lateral do corpo. Para que ele serve?",
+      "resposta": "Igualar a pressão do ar",
+      "distratores": [
+        "Evitar sufocamento",
+        "Prender a carga",
+        "Esfriar a tinta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bic_Cristal"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lapis",
+        "nome": "Lápis",
+        "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pencil"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Muitos lápis têm o corpo de seis lados, em vez de redondo. Que problema esse formato ajuda a evitar?",
+      "resposta": "Rolar da mesa",
+      "distratores": [
+        "Quebrar o grafite",
+        "Empenar a madeira",
+        "Desbotar a tinta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pencil"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lapis",
+        "nome": "Lápis",
+        "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pencil"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No fim do século dezoito, o francês Nicolas-Jacques Conté criou o miolo do lápis moderno misturando o grafite com o quê?",
+      "resposta": "Argila",
+      "distratores": [
+        "Cera de abelha",
+        "Carvão vegetal",
+        "Chumbo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nicolas-Jacques_Cont%C3%A9",
+        "https://en.wikipedia.org/wiki/Pencil"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "forno_de_micro_ondas",
+        "nome": "Forno de micro-ondas",
+        "descricao": "Eletrodoméstico que aquece alimentos com radiação de micro-ondas, desenvolvido a partir da tecnologia de radar.",
+        "variantes": [
+          "Micro-ondas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microwave_oven"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A porta de vidro do micro-ondas tem uma tela metálica cheia de furinhos. O que essa tela impede?",
+      "resposta": "Que as micro-ondas escapem",
+      "distratores": [
+        "Que o vidro estoure",
+        "Que o vapor saia",
+        "Que a comida respingue"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Microwave_oven"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dia dos Namorados no Brasil",
+        "descricao": "Data comemorativa brasileira celebrada em doze de junho, criada em 1949 por iniciativa comercial.",
+        "variantes": [
+          "Dia dos Namorados"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dia_dos_Namorados"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No Brasil, o Dia dos Namorados cai em doze de junho por ser a véspera do dia de qual santo casamenteiro?",
+      "resposta": "Santo Antônio",
+      "distratores": [
+        "São João",
+        "São Pedro",
+        "São Valentim"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dia_dos_Namorados"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dia dos Namorados no Brasil",
+        "descricao": "Data comemorativa brasileira celebrada em doze de junho, criada em 1949 por iniciativa comercial.",
+        "variantes": [
+          "Dia dos Namorados"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dia_dos_Namorados"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1949, para animar as vendas de junho de uma loja de São Paulo, que publicitário criou o Dia dos Namorados no Brasil?",
+      "resposta": "João Doria (pai do ex-governador)",
+      "distratores": [
+        "Assis Chateaubriand",
+        "Roberto Marinho",
+        "Washington Olivetto"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dia_dos_Namorados"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "teflon",
+        "nome": "Teflon",
+        "descricao": "Nome comercial do politetrafluoretileno, plástico antiaderente descoberto por Roy Plunkett na DuPont em 1938.",
+        "variantes": [
+          "PTFE"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1938, na DuPont, Roy Plunkett descobriu o teflon por acaso. Ele pesquisava gases para qual tipo de aparelho?",
+      "resposta": "Geladeiras",
+      "distratores": [
+        "Aviões",
+        "Lâmpadas",
+        "Extintores"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roy_J._Plunkett",
+        "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pyrex",
+        "nome": "Pyrex",
+        "descricao": "Marca de vidro resistente ao calor para utensílios de cozinha, lançada pela americana Corning em 1915.",
+        "variantes": [
+          "Pirex"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pyrex"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A ideia do Pyrex surgiu quando a esposa de um cientista da Corning assou um bolo num recipiente de vidro serrado pelo marido. Que recipiente era?",
+      "resposta": "Pote de bateria",
+      "distratores": [
+        "Garrafa de leite",
+        "Tubo de ensaio",
+        "Vidro de lampião"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pyrex"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Saquinho de chá",
+        "descricao": "Pequeno saco poroso com folhas de chá, mergulhado em água quente para preparar a bebida.",
+        "variantes": [
+          "Sachê de chá",
+          "Tea bag"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tea_bag"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo a história, por volta de 1908 um comerciante de Nova York mandava amostras de chá em saquinhos de seda. O que os clientes passaram a fazer?",
+      "resposta": "Mergulhar o saquinho na água",
+      "distratores": [
+        "Comer o chá seco",
+        "Reaproveitar a seda",
+        "Usar como perfume"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tea_bag"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tupperware",
+        "nome": "Tupperware",
+        "descricao": "Marca americana de potes plásticos com tampa hermética, lançada em 1946.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tupperware_Brands"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Os potes Tupperware encalhavam nas lojas até que a vendedora Brownie Wise apostou num novo jeito de vendê-los. Qual?",
+      "resposta": "Reuniões de venda em casa",
+      "distratores": [
+        "Venda por catálogo",
+        "Comerciais de televisão",
+        "Brindes em supermercados"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brownie_Wise",
+        "https://en.wikipedia.org/wiki/Tupperware_Brands"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "post_it",
+        "nome": "Post-it",
+        "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Post-it_note"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A cola fraca do Post-it foi criada em 1968 por Spencer Silver, químico da 3M, por acaso. O que ele tentava fazer?",
+      "resposta": "Uma cola superforte",
+      "distratores": [
+        "Uma tinta lavável",
+        "Um papel impermeável",
+        "Uma fita isolante"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Post-it_note"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "post_it",
+        "nome": "Post-it",
+        "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Post-it_note"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que década o bloco de recados autoadesivo Post-it foi lançado no mercado americano com esse nome?",
+      "resposta": "Anos oitenta",
+      "distratores": [
+        "Anos cinquenta",
+        "Anos sessenta",
+        "Anos noventa"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Post-it_note"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "victorinox",
+        "nome": "Victorinox",
+        "descricao": "Empresa suíça fabricante do canivete suíço, fundada por Karl Elsener em 1884.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Victorinox"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No fim do século dezenove, Karl Elsener começou a fabricar na Suíça os canivetes que ficariam famosos. Para quem eram os primeiros?",
+      "resposta": "Soldados do Exército suíço",
+      "distratores": [
+        "Guias de montanha",
+        "Relojoeiros suíços",
+        "Cozinheiros de hotel"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Swiss_Army_knife",
+        "https://en.wikipedia.org/wiki/Victorinox"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sacola_plastica",
+        "nome": "Sacola plástica",
+        "descricao": "Saco leve de plástico com alças usado para carregar compras, criado pelo engenheiro sueco Sten Gustaf Thulin.",
+        "variantes": [
+          "Sacolinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Plastic_bag"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo a família, o sueco Sten Thulin criou a sacola plástica para ser reutilizada no lugar da de papel. O que ele queria poupar?",
+      "resposta": "Árvores",
+      "distratores": [
+        "Petróleo",
+        "Água",
+        "Dinheiro dos lojistas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sten_Gustaf_Thulin",
+        "https://en.wikipedia.org/wiki/Plastic_bag"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pipa",
+        "nome": "Pipa",
+        "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+        "variantes": [
+          "Papagaio",
+          "Pandorga"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kite"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1752, segundo relatos da época, que americano empinou uma pipa numa tempestade para mostrar que o raio é eletricidade?",
+      "resposta": "Benjamin Franklin",
+      "distratores": [
+        "Thomas Edison",
+        "Thomas Jefferson",
+        "Samuel Morse"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kite_experiment"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "barbie",
+        "nome": "Barbie",
+        "descricao": "Boneca lançada pela empresa americana Mattel em 1959, criada por Ruth Handler.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Barbie"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Lançado pela Mattel em 1961, o boneco Ken, namorado da Barbie, leva o nome de quem?",
+      "resposta": "Filho da criadora, Ruth Handler",
+      "distratores": [
+        "Marido da criadora",
+        "Fundador da Mattel",
+        "Um ator famoso"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ken_(doll)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "barbie",
+        "nome": "Barbie",
+        "descricao": "Boneca lançada pela empresa americana Mattel em 1959, criada por Ruth Handler.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Barbie"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A Barbie foi inspirada em Bild Lilli, uma boneca baseada numa personagem de tirinhas de jornal. De que país era essa boneca?",
+      "resposta": "Alemanha",
+      "distratores": [
+        "França",
+        "Suíça",
+        "Itália"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bild_Lilli_doll"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "codigo_de_barras",
+        "nome": "Código de barras",
+        "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Universal_Product_Code"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1974, num supermercado de Ohio, o primeiro produto registrado no caixa pela leitura do código de barras foi um pacote de quê?",
+      "resposta": "Chiclete",
+      "distratores": [
+        "Sabonete",
+        "Biscoito",
+        "Café"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Universal_Product_Code"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "arvore_de_natal",
+        "nome": "Árvore de Natal",
+        "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+        "variantes": [
+          "Pinheirinho de Natal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Christmas_tree"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1882, um sócio de qual inventor americano enfeitou a árvore de Natal de casa com lâmpadas elétricas, no lugar das velas?",
+      "resposta": "Thomas Edison",
+      "distratores": [
+        "Nikola Tesla",
+        "Graham Bell",
+        "George Westinghouse"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Christmas_lights"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Parabéns a Você",
+        "descricao": "Canção cantada nos aniversários no Brasil, versão em português da americana Happy Birthday to You.",
+        "variantes": [
+          "Happy Birthday to You"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Happy_Birthday_to_You"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A melodia do Parabéns a Você vem de uma canção infantil americana de 1893, feita para saudar alunos na escola. Que canção era essa?",
+      "resposta": "Good Morning to All",
+      "distratores": [
+        "Jingle Bells",
+        "Brilha, brilha estrelinha",
+        "Oh! Susanna"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Happy_Birthday_to_You"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Parabéns a Você",
+        "descricao": "Canção cantada nos aniversários no Brasil, versão em português da americana Happy Birthday to You.",
+        "variantes": [
+          "Happy Birthday to You"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Parab%C3%A9ns_a_Voc%C3%AA"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1942, num concurso promovido por uma rádio, quem escreveu a letra em português do Parabéns a Você?",
+      "resposta": "Bertha Celeste Homem de Mello",
+      "distratores": [
+        "Chiquinha Gonzaga",
+        "Cecília Meireles",
+        "Dolores Duran"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Parab%C3%A9ns_a_Voc%C3%AA"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "kleenex",
+        "nome": "Kleenex",
+        "descricao": "Marca de lenço de papel lançada nos Estados Unidos pela Kimberly-Clark em 1924.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kleenex"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O Kleenex nasceu do Cellucotton, material de celulose que, na Primeira Guerra Mundial, servia de filtro em quê?",
+      "resposta": "Máscaras de gás",
+      "distratores": [
+        "Cantis de soldado",
+        "Motores de avião",
+        "Rádios de campanha"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kleenex"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bluetooth",
+        "nome": "Bluetooth",
+        "descricao": "Padrão de comunicação sem fio de curto alcance entre aparelhos eletrônicos, criado nos anos noventa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bluetooth"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O símbolo do Bluetooth junta as iniciais do rei Haroldo Dente Azul, escritas em qual sistema de escrita antigo?",
+      "resposta": "Runas nórdicas",
+      "distratores": [
+        "Alfabeto grego",
+        "Alfabeto cirílico",
+        "Hieróglifos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bluetooth"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ampulheta",
+        "nome": "Ampulheta",
+        "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+        "variantes": [
+          "Relógio de areia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hourglass"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Nos navios antigos, marinheiros jogavam ao mar uma tábua presa a uma corda e cronometravam com uma ampulheta. Que unidade de velocidade nasceu disso?",
+      "resposta": "Nó",
+      "distratores": [
+        "Milha náutica",
+        "Légua",
+        "Braça"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chip_log",
+        "https://en.wikipedia.org/wiki/Knot_(unit)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Óculos escuros",
+        "descricao": "Óculos com lentes escurecidas que protegem os olhos da luz forte do sol.",
+        "variantes": [
+          "Óculos de sol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sunglasses"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na China medieval, lentes de quartzo esfumaçado, ancestrais dos óculos escuros, eram usadas para esconder a expressão do rosto. Por quem?",
+      "resposta": "Juízes",
+      "distratores": [
+        "Imperadores",
+        "Monges",
+        "Generais"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sunglasses"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lampada_incandescente",
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Incandescent_light_bulb"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Por volta de 1880, as lâmpadas de Thomas Edison passaram a usar um filamento carbonizado feito de qual planta?",
+      "resposta": "Bambu",
+      "distratores": [
+        "Algodão",
+        "Cânhamo",
+        "Junco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Incandescent_light_bulb"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chiclete",
+        "nome": "Chiclete",
+        "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+        "variantes": [
+          "Goma de mascar",
+          "Chicle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chewing_gum"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O chicle, base dos primeiros chicletes industriais, é a seiva de qual árvore, que também dá uma fruta doce?",
+      "resposta": "Sapotizeiro (sapoti)",
+      "distratores": [
+        "Seringueira",
+        "Mangueira",
+        "Cacaueiro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chicle",
+        "https://pt.wikipedia.org/wiki/Sapoti"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ioiô",
+        "descricao": "Brinquedo formado por dois discos unidos por um eixo, com um cordão enrolado que o faz subir e descer.",
+        "variantes": [
+          "Yo-yo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yo-yo"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Nos anos vinte, o ioiô virou febre nos Estados Unidos graças a Pedro Flores, imigrante de qual país asiático?",
+      "resposta": "Filipinas",
+      "distratores": [
+        "Japão",
+        "China",
+        "Indonésia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yo-yo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "emoji",
+        "nome": "Emoji",
+        "descricao": "Pictogramas usados em mensagens digitais, surgidos nos celulares japoneses no fim dos anos noventa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Emoji"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Os emojis desenhados em 1999 por Shigetaka Kurita, para uma operadora de celular japonesa, entraram para o acervo de qual museu?",
+      "resposta": "MoMA, de Nova York",
+      "distratores": [
+        "Louvre",
+        "Museu Britânico",
+        "Centro Pompidou"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emoji"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dia do Trabalho",
+        "descricao": "Data comemorativa de primeiro de maio que homenageia os trabalhadores, feriado no Brasil.",
+        "variantes": [
+          "Dia do Trabalhador",
+          "Primeiro de Maio"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dia_do_Trabalhador"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Dia do Trabalho, em primeiro de maio, lembra greves e uma revolta de operários ocorridas em 1886 em qual cidade americana?",
+      "resposta": "Chicago",
+      "distratores": [
+        "Nova York",
+        "Detroit",
+        "Filadélfia"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dia_do_Trabalhador",
+        "https://en.wikipedia.org/wiki/Haymarket_affair"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Papai Noel",
+        "descricao": "Personagem natalino de barba branca e roupa vermelha que traz presentes, inspirado em São Nicolau.",
+        "variantes": [
+          "Santa Claus",
+          "Bom Velhinho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pai_Natal"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Papai Noel se inspira em São Nicolau, bispo do século quatro na cidade de Mira. Em que país essa cidade fica hoje?",
+      "resposta": "Turquia",
+      "distratores": [
+        "Grécia",
+        "Itália",
+        "Rússia"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Nicolau_de_Mira",
+        "https://en.wikipedia.org/wiki/Saint_Nicholas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dia das Mães",
+        "descricao": "Data comemorativa em homenagem às mães, celebrada no Brasil no segundo domingo de maio.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mother%27s_Day_(United_States)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que americana criou o Dia das Mães, em 1908, em memória da própria mãe, e depois lutou contra o comércio em torno da data?",
+      "resposta": "Anna Jarvis",
+      "distratores": [
+        "Eleanor Roosevelt",
+        "Clara Barton",
+        "Harriet Beecher Stowe"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anna_Jarvis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "panela_de_pressao",
+        "nome": "Panela de pressão",
+        "descricao": "Panela vedada que cozinha alimentos sob pressão de vapor acima da atmosférica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pressure_cooking"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1679, que físico francês apresentou em Londres o digestor a vapor, uma panela vedada considerada a ancestral da panela de pressão?",
+      "resposta": "Denis Papin",
+      "distratores": [
+        "Blaise Pascal",
+        "Antoine Lavoisier",
+        "Nicolas Appert"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Denis_Papin",
+        "https://en.wikipedia.org/wiki/Pressure_cooking"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Papel",
+        "descricao": "Material fino feito de fibras vegetais prensadas, usado para escrever, imprimir e embalar, desenvolvido na China antiga.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paper"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Por volta do ano cento e cinco, que funcionário da corte chinesa é tradicionalmente creditado por criar o processo de fabricação do papel?",
+      "resposta": "Cai Lun",
+      "distratores": [
+        "Confúcio",
+        "Sun Tzu",
+        "Lao-Tsé"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cai_Lun",
+        "https://en.wikipedia.org/wiki/Cai_Lun"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Presépio",
+        "descricao": "Representação do nascimento de Jesus com figuras da Sagrada Família, pastores e animais, montada no Natal.",
+        "variantes": [
+          "Lapinha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pres%C3%A9pio"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1223, na vila italiana de Greccio, que santo montou uma encenação do nascimento de Jesus que popularizou o presépio?",
+      "resposta": "São Francisco de Assis",
+      "distratores": [
+        "Santo Antônio",
+        "São Bento",
+        "São Nicolau"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pres%C3%A9pio",
+        "https://en.wikipedia.org/wiki/Nativity_scene"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lego_2",
+        "nome": "Lego",
+        "descricao": "Marca dinamarquesa de brinquedos de blocos de montar plásticos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lego"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O tijolinho de Lego com tubos por dentro, que permite encaixar as peças com firmeza, foi patenteado em que ano?",
+      "resposta": "1958",
+      "distratores": [
+        "1949",
+        "1963",
+        "1972"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lego"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "folha_a4",
+        "nome": "Folha A4",
+        "descricao": "Formato de papel do padrão internacional ISO 216, obtido dividindo a folha A0 ao meio sucessivamente.",
+        "variantes": [
+          "A4"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ISO_216"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estes formatos de papel, qual tem exatamente o dobro do tamanho de uma folha A4?",
+      "resposta": "A3",
+      "distratores": [
+        "A5",
+        "A2",
+        "Ofício"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ISO_216"
+      ]
+    }
+  ]
+}
