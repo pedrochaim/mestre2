@@ -1,0 +1,443 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sambódromo do Anhembi",
+        "descricao": "Passarela do samba no bairro de Santana, na Zona Norte de São Paulo, onde desfilam as escolas de samba paulistas.",
+        "variantes": [
+          "Passarela Cultural",
+          "Polo Cultural e Esportivo Grande Otelo",
+          "Sambódromo de São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morro_de_sao_paulo",
+          "nome": "Morro de São Paulo",
+          "descricao": "Distrito turístico do município de Cairu, na Bahia, na ilha de Tinharé.",
+          "variantes": []
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "sambodromo_do_rio_de_janeiro",
+          "nome": "Sambódromo do Rio de Janeiro",
+          "descricao": "Passarela do desfile das escolas de samba no Rio de Janeiro, inaugurada em 1984.",
+          "variantes": [
+            "Sambódromo da Marquês de Sapucaí",
+            "Passarela Professor Darcy Ribeiro",
+            "Sambódromo do Rio",
+            "Passarela do Samba Darcy Ribeiro"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Praia de Botafogo",
+        "descricao": "Praia na enseada de Botafogo, no Rio de Janeiro, com vista para o Pão de Açúcar.",
+        "variantes": [
+          "Enseada de Botafogo",
+          "Botafogo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "botafogo",
+          "nome": "Botafogo",
+          "descricao": "Botafogo de Futebol e Regatas, clube carioca de camisa alvinegra e escudo com uma estrela.",
+          "variantes": [
+            "Botafogo de Futebol e Regatas",
+            "Fogão"
+          ]
+        },
+        {
+          "id": "pilha_de_botao",
+          "nome": "Pilha de botão",
+          "descricao": "Pequena bateria de uma única célula, em forma de cilindro achatado, usada em relógios e calculadoras.",
+          "variantes": [
+            "Bateria de botão",
+            "Pilha moeda",
+            "Bateria de moeda"
+          ]
+        },
+        {
+          "id": "lenda_do_boto",
+          "nome": "Lenda do boto",
+          "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas.",
+          "variantes": [
+            "Boto encantado",
+            "Encantado"
+          ]
+        },
+        {
+          "id": "formiga_lava_pes",
+          "nome": "Formiga-lava-pés",
+          "descricao": "Formiga-de-fogo (Solenopsis invicta) de picada ardida, nativa da América do Sul e invasora em outros continentes.",
+          "variantes": [
+            "Solenopsis invicta",
+            "formiga-de-fogo",
+            "red imported fire ant"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cristo Luz",
+        "descricao": "Estátua de Jesus Cristo de 33 metros em Balneário Camboriú, Santa Catarina, com um canhão de luz no braço.",
+        "variantes": [
+          "Cristo de Balneário Camboriú"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balneario_camboriu",
+          "nome": "Balneário Camboriú",
+          "descricao": "Cidade litorânea de Santa Catarina, conhecida por sua orla de arranha-céus na Avenida Atlântica.",
+          "variantes": [
+            "BC"
+          ]
+        },
+        {
+          "id": "cristal",
+          "nome": "Cristal",
+          "descricao": "Aglomerado de cristais prismáticos transparentes de quartzo (cristal de rocha).",
+          "variantes": [
+            "Cristal de rocha",
+            "Quartzo"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "estacao_da_luz",
+          "nome": "Estação da Luz",
+          "descricao": "Estação ferroviária no bairro da Luz, em São Paulo, construída entre 1895 e 1901 para a São Paulo Railway.",
+          "variantes": [
+            "Luz Station",
+            "Estação Luz"
+          ]
+        },
+        {
+          "id": "riolu",
+          "nome": "Riolu",
+          "descricao": "Pokémon do tipo Lutador da quarta geração, forma anterior de Lucario, número 447 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sala São Paulo",
+        "descricao": "Sala de concertos na antiga Estação Júlio Prestes, em São Paulo, sede da Orquestra Sinfônica do Estado de São Paulo.",
+        "variantes": [
+          "Centro Cultural Júlio Prestes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_julio_prestes",
+          "nome": "Estação Júlio Prestes",
+          "descricao": "Estação ferroviária no bairro dos Campos Elíseos, em São Paulo, que abriga a Sala São Paulo.",
+          "variantes": [
+            "Sala São Paulo"
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "sao_paulo_futebol_clube",
+          "nome": "São Paulo Futebol Clube",
+          "descricao": "Clube de futebol brasileiro sediado na cidade de São Paulo, com sede no Morumbi.",
+          "variantes": [
+            "São Paulo",
+            "São Paulo FC",
+            "Tricolor Paulista"
+          ]
+        },
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Arena Castelão",
+        "descricao": "Estádio de futebol em Fortaleza, Ceará, casa de Ceará e Fortaleza.",
+        "variantes": [
+          "Castelão",
+          "Estádio Governador Plácido Castelo",
+          "Gigante da Boa Vista"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_castelao",
+          "nome": "Arena Castelão",
+          "descricao": "Estádio de futebol de Fortaleza, Ceará, inaugurado em 1973 e casa do Ceará e do Fortaleza.",
+          "variantes": [
+            "Estádio Governador Plácido Castelo",
+            "Castelão",
+            "Gigante da Boa Vista"
+          ]
+        },
+        {
+          "id": "castelo_medieval",
+          "nome": "Castelo medieval",
+          "descricao": "Fortificação residencial de senhores e reis da Europa medieval, com muralhas, torres e fosso.",
+          "variantes": [
+            "Castelo"
+          ]
+        },
+        {
+          "id": "lingua_espanhola",
+          "nome": "Língua espanhola",
+          "descricao": "Língua românica originada em Castela, oficial na Espanha e em boa parte da América Latina",
+          "variantes": [
+            "Espanhol",
+            "Castelhano"
+          ]
+        },
+        {
+          "id": "kasutera",
+          "nome": "Kasutera",
+          "descricao": "Bolo esponjoso japonês de Nagasaki, derivado do pão de ló levado pelos portugueses.",
+          "variantes": [
+            "Castella",
+            "Pão de Castela"
+          ]
+        },
+        {
+          "id": "castelia",
+          "nome": "Castelia",
+          "descricao": "Grande cidade portuária de arranha-céus da região de Unova, nos jogos Pokémon Black e White.",
+          "variantes": [
+            "Castelia City",
+            "Cidade de Castelia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Palácio Tiradentes",
+        "descricao": "Edifício eclético inaugurado em 1926 no Centro do Rio de Janeiro, sede da Assembleia Legislativa do estado.",
+        "variantes": [
+          "Palácio Tiradentes (Rio de Janeiro)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_tiradentes",
+          "nome": "Palácio Tiradentes",
+          "descricao": "Palácio inaugurado em 1926 no centro do Rio de Janeiro, antigo prédio da Câmara dos Deputados e depois da Assembleia Legislativa do estado.",
+          "variantes": [
+            "Palácio Tiradentes do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "hawa_mahal",
+          "nome": "Hawa Mahal",
+          "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+          "variantes": [
+            "Palácio dos Ventos",
+            "Palace of Winds"
+          ]
+        },
+        {
+          "id": "tiradentes",
+          "nome": "Tiradentes",
+          "descricao": "Joaquim José da Silva Xavier, alferes e principal mártir da Inconfidência Mineira, executado em 1792.",
+          "variantes": [
+            "Joaquim José da Silva Xavier"
+          ]
+        },
+        {
+          "id": "tiradentes_2",
+          "nome": "Tiradentes",
+          "descricao": "Município histórico de Minas Gerais, antiga São José del Rei, com a Matriz de Santo Antônio.",
+          "variantes": [
+            "São José del Rei"
+          ]
+        },
+        {
+          "id": "palacio_dos_bandeirantes",
+          "nome": "Palácio dos Bandeirantes",
+          "descricao": "Edifício-sede do Governo do Estado de São Paulo, no bairro do Morumbi.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Auditório Ibirapuera",
+        "descricao": "Auditório de concertos projetado por Oscar Niemeyer no Parque Ibirapuera, em São Paulo.",
+        "variantes": [
+          "Auditório do Ibirapuera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "auditorio_ibirapuera",
+          "nome": "Auditório Ibirapuera",
+          "descricao": "Auditório de concertos no Parque Ibirapuera, em São Paulo, de formas brancas e marquise vermelha.",
+          "variantes": [
+            "Auditório do Ibirapuera",
+            "Auditório Oscar Niemeyer"
+          ]
+        },
+        {
+          "id": "obelisco_de_sao_paulo",
+          "nome": "Obelisco de São Paulo",
+          "descricao": "Monumento de 72 metros no Parque Ibirapuera, em São Paulo, símbolo da Revolução Constitucionalista de 1932.",
+          "variantes": [
+            "Obelisco do Ibirapuera",
+            "Obelisco Mausoléu aos Heróis de 32",
+            "Obelisk of São Paulo"
+          ]
+        },
+        {
+          "id": "parque_ibirapuera",
+          "nome": "Parque Ibirapuera",
+          "descricao": "Parque urbano de 158 hectares em São Paulo, inaugurado em 1954 e o mais visitado da América do Sul.",
+          "variantes": [
+            "Ibirapuera",
+            "Ibirapuera Park"
+          ]
+        },
+        {
+          "id": "bandeira_do_iraque",
+          "nome": "Bandeira do Iraque",
+          "descricao": "Bandeira nacional do Iraque, com listras vermelha, branca e preta e inscrição árabe verde.",
+          "variantes": [
+            "Iraque",
+            "Bandeira iraquiana"
+          ]
+        },
+        {
+          "id": "imperio_austriaco",
+          "nome": "Império Austríaco",
+          "descricao": "Império multinacional da Europa Central governado pelos Habsburgo entre 1804 e 1867.",
+          "variantes": [
+            "Império da Áustria",
+            "Áustria imperial"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sambódromo de São Paulo (Anhembi) é distinto do Sambódromo do Rio e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Praia de Botafogo é um lugar; a candidata 'Botafogo' é o clube de futebol."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Estátua Cristo Luz não corresponde a nenhuma candidata; Cristo Rei é outro monumento."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sala São Paulo é a sala de concertos; a Estação Júlio Prestes é o edifício ferroviário, entidade distinta, apesar da variante."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "arena_castelao",
+      "motivo": "Mesmo estádio em Fortaleza, mesmos nomes alternativos."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "palacio_tiradentes",
+      "motivo": "Mesmo palácio de 1926 no centro do Rio, sede da Alerj."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "auditorio_ibirapuera",
+      "motivo": "Mesmo auditório de Niemeyer no Parque Ibirapuera."
+    }
+  ]
+}

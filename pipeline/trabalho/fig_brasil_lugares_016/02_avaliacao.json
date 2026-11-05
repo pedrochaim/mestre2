@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Praça aberta com prédios genéricos e um pequeno monumento ao centro; não é reconhecível com resposta única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arcos de refletores característicos do Anhembi, sem texto nem pessoas.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta passarela?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Salvador",
+        "Recife"
+      ],
+      "ancora": {
+        "nome": "Sambódromo do Anhembi",
+        "descricao": "Passarela do samba no bairro de Santana, na Zona Norte de São Paulo, onde desfilam as escolas de samba paulistas.",
+        "variantes": [
+          "Passarela Cultural",
+          "Polo Cultural e Esportivo Grande Otelo",
+          "Sambódromo de São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Enseada de Botafogo com o Pão de Açúcar ao fundo, bem reconhecível e sem texto.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que clube de futebol leva o nome do bairro desta praia?",
+      "resposta": "Botafogo",
+      "distratores": [
+        "Vasco",
+        "Fluminense",
+        "Bangu"
+      ],
+      "ancora": {
+        "nome": "Praia de Botafogo",
+        "descricao": "Praia na enseada de Botafogo, no Rio de Janeiro, com vista para o Pão de Açúcar.",
+        "variantes": [
+          "Enseada de Botafogo",
+          "Botafogo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estátua com o refletor no braço, característica do Cristo Luz; pessoas minúsculas ao fundo.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que estátua é esta?",
+      "resposta": "Cristo Luz",
+      "distratores": [
+        "Cristo Redentor",
+        "Cristo Protetor",
+        "Cristo Rei"
+      ],
+      "ancora": {
+        "nome": "Cristo Luz",
+        "descricao": "Estátua de Jesus Cristo de 33 metros em Balneário Camboriú, Santa Catarina, com um canhão de luz no braço.",
+        "variantes": [
+          "Cristo de Balneário Camboriú"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Torre quadrada branca genérica; não permite reconhecer com segurança este farol entre outros do litoral brasileiro."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Interior característico, com teto de madeira ajustável e colunas, sem texto nem pessoas em destaque.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que sala de concertos é esta?",
+      "resposta": "Sala São Paulo",
+      "distratores": [
+        "Sala Minas Gerais",
+        "Cidade das Artes",
+        "Theatro Municipal"
+      ],
+      "ancora": {
+        "nome": "Sala São Paulo",
+        "descricao": "Sala de concertos na antiga Estação Júlio Prestes, em São Paulo, sede da Orquestra Sinfônica do Estado de São Paulo.",
+        "variantes": [
+          "Centro Cultural Júlio Prestes"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem parece mostrar a Fortaleza de São José de Macapá, e não o Forte do Presépio; inconsistente com o item."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea do estádio com cobertura e estrutura metálica características, sem texto legível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que estádio é este?",
+      "resposta": "Arena Castelão",
+      "distratores": [
+        "Arena Pernambuco",
+        "Arena Fonte Nova",
+        "Arena da Amazônia"
+      ],
+      "ancora": {
+        "nome": "Arena Castelão",
+        "descricao": "Estádio de futebol em Fortaleza, Ceará, casa de Ceará e Fortaleza.",
+        "variantes": [
+          "Castelão",
+          "Estádio Governador Plácido Castelo",
+          "Gigante da Boa Vista"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de dentro do estádio com torcedores em primeiro plano e patrocinadores visíveis nas camisas; entrega e mostra pessoas comuns."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada neoclássica eclética reconhecível, com estátua de Tiradentes à frente; pessoas pequenas e distantes.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que prédio histórico do Rio de Janeiro é este?",
+      "resposta": "Palácio Tiradentes",
+      "distratores": [
+        "Palácio Pedro Ernesto",
+        "Palácio Gustavo Capanema",
+        "Palácio Guanabara"
+      ],
+      "ancora": {
+        "nome": "Palácio Tiradentes",
+        "descricao": "Edifício eclético inaugurado em 1926 no Centro do Rio de Janeiro, sede da Assembleia Legislativa do estado.",
+        "variantes": [
+          "Palácio Tiradentes (Rio de Janeiro)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Marquise vermelha e volume branco inconfundíveis, sem texto nem pessoas.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Em que parque de São Paulo fica este edifício?",
+      "resposta": "Parque Ibirapuera",
+      "distratores": [
+        "Parque Villa-Lobos",
+        "Parque da Água Branca",
+        "Parque do Carmo"
+      ],
+      "ancora": {
+        "nome": "Auditório Ibirapuera",
+        "descricao": "Auditório de concertos projetado por Oscar Niemeyer no Parque Ibirapuera, em São Paulo.",
+        "variantes": [
+          "Auditório do Ibirapuera"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Cachoeira genérica em mata, sem traços que permitam reconhecer o Parque Nacional de Ubajara."
+    }
+  ]
+}

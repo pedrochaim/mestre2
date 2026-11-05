@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que estádio é este?",
+        "resposta": "Arena Castelão"
+      },
+      "existentes": [
+        {
+          "id": "q02833",
+          "pergunta": "Dois clubes da mesma cidade mandam seus jogos neste estádio. Quais são?",
+          "resposta": "Ceará e Fortaleza"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que prédio histórico do Rio de Janeiro é este?",
+        "resposta": "Palácio Tiradentes"
+      },
+      "existentes": [
+        {
+          "id": "q16014",
+          "pergunta": "Que palácio eclético do centro do Rio de Janeiro, inaugurado em 1926, é este?",
+          "resposta": "Palácio Tiradentes"
+        },
+        {
+          "id": "q18763",
+          "pergunta": "Este palácio do Rio de Janeiro abrigou, até 1960, qual órgão do Poder Legislativo federal?",
+          "resposta": "Câmara dos Deputados"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que parque de São Paulo fica este edifício?",
+        "resposta": "Parque Ibirapuera"
+      },
+      "existentes": [
+        {
+          "id": "q15875",
+          "pergunta": "Que arquiteto projetou esta construção?",
+          "resposta": "Oscar Niemeyer"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nova pede a identificação do estádio; a existente pergunta quais clubes mandam jogos nele. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q16014",
+      "motivo": "Ambas pedem a identificação do palácio, com a mesma resposta (Palácio Tiradentes)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nova pergunta o parque onde fica o edifício; a existente pergunta o arquiteto. Fatos diferentes."
+    }
+  ]
+}
