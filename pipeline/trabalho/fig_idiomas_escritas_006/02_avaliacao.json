@@ -1,0 +1,208 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto limpa de uma cítara, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que músico indiano levou este instrumento ao público do Ocidente a partir do fim dos anos mil novecentos e cinquenta?",
+      "resposta": "Ravi Shankar",
+      "distratores": [
+        "Zakir Hussain",
+        "Ali Akbar Khan",
+        "Bismillah Khan"
+      ],
+      "ancora": {
+        "nome": "Cítara indiana",
+        "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, originário do subcontinente indiano.",
+        "variantes": [
+          "Sitar"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A própria palavra \"Fraktur\" está escrita na imagem, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pátio afundado típico de moradia escavada, sem texto; pessoas só ao longe.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país é tradicional este tipo de moradia escavada na terra?",
+      "resposta": "China",
+      "distratores": [
+        "Mongólia",
+        "Japão",
+        "Vietnã"
+      ],
+      "ancora": {
+        "nome": "Yaodong",
+        "descricao": "Moradia tradicional escavada na terra do Planalto de Loess, no norte da China.",
+        "variantes": [
+          "Casa-caverna chinesa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Casa de toras com enfeites entalhados, sem texto legível que entregue a resposta.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é típica esta casa rural de toras de madeira?",
+      "resposta": "Rússia",
+      "distratores": [
+        "Canadá",
+        "Suécia",
+        "Alemanha"
+      ],
+      "ancora": {
+        "nome": "Isbá",
+        "descricao": "Casa rural tradicional russa, em geral de toras de madeira.",
+        "variantes": [
+          "Izba"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O título em escrita guzerate e as legendas em devanágari estão no quadro; é uma prancha cheia de texto."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Espada japonesa curva com guarda e empunhadura longa, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que classe guerreira do Japão feudal usava esta espada?",
+      "resposta": "Samurais",
+      "distratores": [
+        "Gueixas",
+        "Xoguns",
+        "Monges budistas"
+      ],
+      "ancora": {
+        "nome": "Catana",
+        "descricao": "Espada japonesa curva, de um só fio, usada pelos samurais.",
+        "variantes": [
+          "Katana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Charango em foto nítida, sem texto, reconhecível pela caixa pequena e pelo cravelhal.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento andino é este?",
+      "resposta": "Charango",
+      "distratores": [
+        "Cavaquinho",
+        "Ukulele",
+        "Bandolim"
+      ],
+      "ancora": {
+        "nome": "Charango",
+        "descricao": "Pequeno instrumento de cordas da família do alaúde, dos povos quéchua e aimará dos Andes.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Amostra de escrita N'Ko, sem tradução nem legenda, de forma característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que sistema de escrita é este?",
+      "resposta": "N'Ko",
+      "distratores": [
+        "Tifinague",
+        "Ge'ez",
+        "Hangul"
+      ],
+      "ancora": {
+        "nome": "Escrita N'Ko",
+        "descricao": "Alfabeto criado por Solomana Kanté em 1949 para as línguas mandingas da África Ocidental.",
+        "variantes": [
+          "Nko",
+          "Alfabeto N'Ko"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cuia com erva-mate e bomba, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bebida tradicional do Cone Sul se toma neste recipiente?",
+      "resposta": "Chimarrão",
+      "distratores": [
+        "Café",
+        "Cauim",
+        "Guaraná"
+      ],
+      "ancora": {
+        "nome": "Chimarrão",
+        "descricao": "Infusão de erva-mate tomada em cuia com bomba, típica do Cone Sul.",
+        "variantes": [
+          "Mate"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Chapéu de palha toquilla, sem texto; distratores incluem o Panamá como armadilha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que país é originário este chapéu de palha trançada?",
+      "resposta": "Equador",
+      "distratores": [
+        "Panamá",
+        "Cuba",
+        "México"
+      ],
+      "ancora": {
+        "nome": "Chapéu-panamá",
+        "descricao": "Chapéu de palha de toquilla, trançado tradicionalmente no Equador.",
+        "variantes": [
+          "Panama hat",
+          "Chapéu de toquilla"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Amostra confusa de sinais, sem forma característica; não dá para reconhecer como Linear A de modo único."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Há uma pessoa comum, uma criança, em primeiro plano ao lado do tipi."
+    }
+  ]
+}

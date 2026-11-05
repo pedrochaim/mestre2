@@ -1,0 +1,105 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que músico indiano levou este instrumento ao público do Ocidente a partir do fim dos anos mil novecentos e cinquenta?",
+        "resposta": "Ravi Shankar"
+      },
+      "existentes": [
+        {
+          "id": "q01832",
+          "pergunta": "Na canção Norwegian Wood, dos Beatles, qual integrante da banda tocou este instrumento?",
+          "resposta": "George Harrison"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que espada japonesa, curva e de um só fio, é esta?",
+        "resposta": "Catana"
+      },
+      "existentes": [
+        {
+          "id": "q15577",
+          "pergunta": "Que espada japonesa é esta?",
+          "resposta": "Katana"
+        },
+        {
+          "id": "q16486",
+          "pergunta": "Na katana, a espada dos samurais, como se chama a guarda de metal, geralmente redonda, que fica entre a lâmina e o cabo?",
+          "resposta": "Tsuba"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que bebida típica do Sul do Brasil é esta, servida em cuia?",
+        "resposta": "Chimarrão"
+      },
+      "existentes": [
+        {
+          "id": "q00208",
+          "pergunta": "No chimarrão, como se chama o canudo de metal com filtro na ponta usado para beber da cuia?",
+          "resposta": "Bomba"
+        },
+        {
+          "id": "q05183",
+          "pergunta": "Que bebida tradicional se toma com este utensílio?",
+          "resposta": "Chimarrão (ou mate)"
+        },
+        {
+          "id": "q15988",
+          "pergunta": "O nome do chimarrão vem da palavra espanhola cimarrón, usada na região do Prata. O que ela significava?",
+          "resposta": "Bravio, selvagem"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "De que país é originário este chapéu de palha trançada?",
+        "resposta": "Equador"
+      },
+      "existentes": [
+        {
+          "id": "q00908",
+          "pergunta": "Apesar do nome, o chapéu-panamá é tradicionalmente fabricado em qual país?",
+          "resposta": "Equador"
+        },
+        {
+          "id": "q16400",
+          "pergunta": "O chapéu-panamá ganhou ainda mais fama depois que qual presidente americano foi fotografado com ele, em 1906, visitando as obras do canal?",
+          "resposta": "Theodore Roosevelt"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre quem popularizou o sitar no Ocidente (Ravi Shankar), distinta de quem tocou em Norwegian Wood."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q15577",
+      "motivo": "Ambas pedem o nome da espada japonesa (katana) a partir da imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q05183",
+      "motivo": "Ambas pedem identificar o chimarrão a partir da imagem do utensílio/cuia."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q00908",
+      "motivo": "Ambas perguntam o país de origem/fabricação do chapéu-panamá: Equador."
+    }
+  ]
+}

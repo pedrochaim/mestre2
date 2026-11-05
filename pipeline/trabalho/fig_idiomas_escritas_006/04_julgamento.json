@@ -1,0 +1,504 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cítara indiana",
+        "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, originário do subcontinente indiano.",
+        "variantes": [
+          "Sitar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "citara_indiana",
+          "nome": "Cítara indiana",
+          "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, com pontes e trastes móveis.",
+          "variantes": [
+            "Sitar",
+            "Cítara"
+          ]
+        },
+        {
+          "id": "classe_star",
+          "nome": "Classe Star",
+          "descricao": "Veleiro de quilha de regata para duas pessoas, projetado em 1910, classe olímpica de 1932 a 2012.",
+          "variantes": [
+            "Star",
+            "Star (vela)"
+          ]
+        },
+        {
+          "id": "tabla",
+          "nome": "Tabla",
+          "descricao": "Par de tambores de mão do subcontinente indiano, usado na música clássica hindustani.",
+          "variantes": [
+            "Tabla indiana"
+          ]
+        },
+        {
+          "id": "iftar",
+          "nome": "Iftar",
+          "descricao": "Refeição que quebra o jejum diário do Ramadã, ao pôr do sol.",
+          "variantes": [
+            "Fitoor"
+          ]
+        },
+        {
+          "id": "ishtar",
+          "nome": "Ishtar",
+          "descricao": "Deusa mesopotâmica do amor, da fertilidade e da guerra, equivalente acádia da suméria Inanna.",
+          "variantes": [
+            "Inanna",
+            "Istar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Yaodong",
+        "descricao": "Moradia tradicional escavada na terra do Planalto de Loess, no norte da China.",
+        "variantes": [
+          "Casa-caverna chinesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "slowpoke",
+          "nome": "Slowpoke",
+          "descricao": "Pokémon da Água/Psíquico de primeira geração, número 79 da Pokédex Nacional, rosado e de cauda longa.",
+          "variantes": [
+            "Yadon"
+          ]
+        },
+        {
+          "id": "mao_tse_tung",
+          "nome": "Mao Tsé-Tung",
+          "descricao": "Revolucionário chinês que fundou a República Popular da China e a liderou de 1949 a 1976.",
+          "variantes": [
+            "Mao Zedong"
+          ]
+        },
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "byodo_in",
+          "nome": "Byodo-in",
+          "descricao": "Templo budista do século onze em Uji, perto de Quioto, famoso pelo Pavilhão da Fênix.",
+          "variantes": [
+            "Templo Byodoin"
+          ]
+        },
+        {
+          "id": "yao_ming",
+          "nome": "Yao Ming",
+          "descricao": "Pivô chinês de dois metros e vinte e nove que jogou na NBA pelo Houston Rockets de 2002 a 2011.",
+          "variantes": [
+            "Yao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Isbá",
+        "descricao": "Casa rural tradicional russa, em geral de toras de madeira.",
+        "variantes": [
+          "Izba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iza",
+          "nome": "Iza",
+          "descricao": "Cantora, compositora e dançarina brasileira nascida em 1990, que ficou famosa com covers no YouTube.",
+          "variantes": [
+            "Isabela Cristina Correia de Lima"
+          ]
+        },
+        {
+          "id": "lisboa",
+          "nome": "Lisboa",
+          "descricao": "Capital de Portugal, às margens do rio Tejo.",
+          "variantes": [
+            "Lisbon"
+          ]
+        },
+        {
+          "id": "giba",
+          "nome": "Giba",
+          "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+          "variantes": [
+            "Gilberto Amauri de Godoy Filho"
+          ]
+        },
+        {
+          "id": "choco",
+          "nome": "Choco",
+          "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+          "variantes": [
+            "Siba",
+            "Sépia",
+            "Cuttlefish"
+          ]
+        },
+        {
+          "id": "isla",
+          "nome": "Islã",
+          "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+          "variantes": [
+            "Islão",
+            "Islamismo",
+            "Islam"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Catana",
+        "descricao": "Espada japonesa curva, de um só fio, usada pelos samurais.",
+        "variantes": [
+          "Katana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "katana",
+          "nome": "Katana",
+          "descricao": "Espada japonesa de lâmina curva e um só gume, usada pelos samurais.",
+          "variantes": [
+            "Catana",
+            "Uchigatana"
+          ]
+        },
+        {
+          "id": "kartana",
+          "nome": "Kartana",
+          "descricao": "Pokémon dos tipos Planta e Aço, número 798 da Pokédex Nacional.",
+          "variantes": [
+            "Kamitsurugi"
+          ]
+        },
+        {
+          "id": "catan",
+          "nome": "Catan",
+          "descricao": "Jogo de tabuleiro moderno de colonização de uma ilha com troca de recursos, criado por Klaus Teuber em 1995.",
+          "variantes": [
+            "Colonizadores de Catan",
+            "Die Siedler von Catan",
+            "Settlers of Catan"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "lingua_catala",
+          "nome": "Língua catalã",
+          "descricao": "Língua românica falada na Catalunha, em Valência, nas Ilhas Baleares e em Andorra.",
+          "variantes": [
+            "Catalão",
+            "Català"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Charango",
+        "descricao": "Pequeno instrumento de cordas da família do alaúde, dos povos quéchua e aimará dos Andes.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "xango",
+          "nome": "Xangô",
+          "descricao": "Orixá da justiça, dos raios e do trovão, cultuado no candomblé e em outras religiões afro-brasileiras",
+          "variantes": [
+            "Shango",
+            "Changó",
+            "Sàngó"
+          ]
+        },
+        {
+          "id": "cartago",
+          "nome": "Cartago",
+          "descricao": "Antiga cidade fenícia do norte da África, rival de Roma nas Guerras Púnicas e destruída pelos romanos em 146 antes de Cristo.",
+          "variantes": [
+            "Carthago",
+            "Carthage"
+          ]
+        },
+        {
+          "id": "chang_e",
+          "nome": "Chang'e",
+          "descricao": "Deusa da Lua na mitologia chinesa, que vive no astro depois de tomar o elixir da imortalidade.",
+          "variantes": [
+            "Chang O"
+          ]
+        },
+        {
+          "id": "chaturanga",
+          "nome": "Chaturanga",
+          "descricao": "Jogo de estratégia da Índia antiga, surgido por volta do século seis, ancestral do xadrez.",
+          "variantes": [
+            "Caturanga"
+          ]
+        },
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Escrita N'Ko",
+        "descricao": "Alfabeto criado por Solomana Kanté em 1949 para as línguas mandingas da África Ocidental.",
+        "variantes": [
+          "Nko",
+          "Alfabeto N'Ko"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nocaute",
+          "nome": "Nocaute",
+          "descricao": "Fim de uma luta quando um lutador derrubado não se levanta antes do fim da contagem do árbitro.",
+          "variantes": [
+            "Knockout",
+            "KO"
+          ]
+        },
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        },
+        {
+          "id": "alfabeto_latino",
+          "nome": "Alfabeto latino",
+          "descricao": "Sistema de escrita derivado do usado pelos antigos romanos, base da escrita do português e de centenas de outras línguas.",
+          "variantes": [
+            "Alfabeto romano"
+          ]
+        },
+        {
+          "id": "escrita_mongol_tradicional",
+          "nome": "Escrita mongol tradicional",
+          "descricao": "Sistema de escrita do mongol derivado do alfabeto uigur antigo, ainda usado na Mongólia Interior, na China.",
+          "variantes": [
+            "Alfabeto mongol",
+            "Escrita uigur-mongol"
+          ]
+        },
+        {
+          "id": "alfabeto",
+          "nome": "Alfabeto",
+          "descricao": "Conjunto ordenado das letras usadas para escrever uma língua",
+          "variantes": [
+            "Abecedário"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Chimarrão",
+        "descricao": "Infusão de erva-mate tomada em cuia com bomba, típica do Cone Sul.",
+        "variantes": [
+          "Mate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "erva_mate",
+          "nome": "Erva-mate",
+          "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+          "variantes": [
+            "Ilex paraguariensis",
+            "mate",
+            "yerba mate"
+          ]
+        },
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "quimera_2",
+          "nome": "Quimera",
+          "descricao": "Peixe cartilaginoso da ordem Chimaeriformes, de águas profundas, também chamado tubarão-fantasma.",
+          "variantes": [
+            "Tubarão-fantasma",
+            "Peixe-rato",
+            "Chimaera"
+          ]
+        },
+        {
+          "id": "tomate",
+          "nome": "Tomate",
+          "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+          "variantes": [
+            "Tomate-cereja",
+            "Tomato",
+            "Solanum lycopersicum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Chapéu-panamá",
+        "descricao": "Chapéu de palha de toquilla, trançado tradicionalmente no Equador.",
+        "variantes": [
+          "Panama hat",
+          "Chapéu de toquilla"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapeu_panama",
+          "nome": "Chapéu-panamá",
+          "descricao": "Chapéu de aba trançado à mão com fibras da palha toquilla.",
+          "variantes": [
+            "Panama hat",
+            "Chapéu de palha toquilla",
+            "Sombrero de paja toquilla",
+            "Panamá"
+          ]
+        },
+        {
+          "id": "panama",
+          "nome": "Panamá",
+          "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+          "variantes": [
+            "República do Panamá"
+          ]
+        },
+        {
+          "id": "bandeira_do_panama",
+          "nome": "Bandeira do Panamá",
+          "descricao": "Bandeira nacional do Panamá, dividida em quatro quadrantes com uma estrela azul e uma vermelha.",
+          "variantes": [
+            "Panamá",
+            "Bandeira panamenha"
+          ]
+        },
+        {
+          "id": "brasao_do_panama",
+          "nome": "Brasão do Panamá",
+          "descricao": "Brasão de armas do Panamá, com uma harpia, bandeiras e um escudo dividido em cinco campos.",
+          "variantes": [
+            "Panamá",
+            "Escudo de Panamá"
+          ]
+        },
+        {
+          "id": "chapeu_palheta",
+          "nome": "Chapéu-palheta",
+          "descricao": "Chapéu de palha rígida, copa e aba planas, com fita, usado no verão.",
+          "variantes": [
+            "Canotier",
+            "Boater"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "citara_indiana",
+      "motivo": "Mesmo instrumento, sitar hindustani."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a moradia yaodong."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Casa rural russa não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "katana",
+      "motivo": "Mesma espada japonesa, Catana é variante."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Charango é instrumento andino, diferente das candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Alfabeto N'Ko é um sistema de escrita específico, distinto das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "chimarrao",
+      "motivo": "Mesma bebida, chimarrão."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "chapeu_panama",
+      "motivo": "Mesmo chapéu de palha toquilla."
+    }
+  ]
+}

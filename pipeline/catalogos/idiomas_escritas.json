@@ -12,7 +12,7 @@
       "titulo": "en:Tipi",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Oca",
@@ -355,7 +355,7 @@
       "titulo": "pt:Chimarrão",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Hashi",
@@ -551,11 +551,291 @@
       "titulo": "en:N'Ko script",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Disco de Festo",
       "titulo": "en:Phaistos Disc",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Samovar",
+      "titulo": "en:Samovar",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Narguilé",
+      "titulo": "en:Hookah",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Berimbau",
+      "titulo": "en:Berimbau",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ukulele",
+      "titulo": "en:Ukulele",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cítara indiana",
+      "titulo": "en:Sitar",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gôndola veneziana",
+      "titulo": "en:Gondola",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Catana",
+      "titulo": "en:Katana",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Chapéu cônico asiático",
+      "titulo": "en:Asian conical hat",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tatame",
+      "titulo": "en:Tatami",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Peteca",
+      "titulo": "en:Peteca",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Lederhosen",
+      "titulo": "en:Lederhosen",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Enxaimel",
+      "titulo": "pt:Enxaimel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pandeiro",
+      "titulo": "en:Pandeiro",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fraktur",
+      "titulo": "en:Fraktur",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Escrita em ossos oraculares",
+      "titulo": "en:Oracle bone script",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Símbolos adinkra",
+      "titulo": "en:Adinkra symbols",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quipu",
+      "titulo": "en:Quipu",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alfabeto Fonético Internacional",
+      "titulo": "en:International Phonetic Alphabet",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cerâmica marajoara",
+      "titulo": "pt:Cerâmica marajoara",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tipiti",
+      "titulo": "pt:Tipiti",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carranca",
+      "titulo": "pt:Carranca",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Junco chinês",
+      "titulo": "en:Junk (ship)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dhow",
+      "titulo": "en:Dhow",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Isbá",
+      "titulo": "en:Izba",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Charango",
+      "titulo": "en:Charango",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Chapéu-panamá",
+      "titulo": "en:Panama hat",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Escrita guzerate",
+      "titulo": "en:Gujarati script",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Escrita telugo",
+      "titulo": "en:Telugu script",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Escrita cingalesa",
+      "titulo": "en:Sinhala script",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Escrita laosiana",
+      "titulo": "en:Lao script",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alfabeto siríaco",
+      "titulo": "en:Syriac alphabet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alfabeto copta",
+      "titulo": "en:Coptic alphabet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alfabeto gótico",
+      "titulo": "en:Gothic alphabet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Thaana",
+      "titulo": "en:Thaana",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Escrita javanesa",
+      "titulo": "en:Javanese script",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Linear A",
+      "titulo": "en:Linear A",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nüshu",
+      "titulo": "en:Nüshu",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Escrita manchu",
+      "titulo": "en:Manchu alphabet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mudhif",
+      "titulo": "en:Mudhif",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Yaodong",
+      "titulo": "en:Yaodong",
       "camada": 3,
       "destino": 0,
       "status": "usada"

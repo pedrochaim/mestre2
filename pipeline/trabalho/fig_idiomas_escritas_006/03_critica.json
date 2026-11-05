@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Ravi Shankar popularizou o sitar no Ocidente a partir do fim dos anos 1950. O enunciado não nomeia o instrumento, então a figura é necessária. Os distratores são músicos indianos de outros instrumentos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o yaodong é uma moradia do norte da China. O enunciado não entrega o país, porque moradias escavadas existem em vários lugares, e a figura é necessária. Os distratores são países asiáticos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Casas de toras também são típicas do Canadá e da Suécia, então a resposta não é única e dois distratores são defensáveis. A reescrita pede o nome da casa, com a Rússia como pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Como se chama esta casa camponesa tradicional da Rússia?",
+        "resposta": "Isbá",
+        "distratores": [
+          "Dacha",
+          "Iurta",
+          "Terem"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, \"classe guerreira do Japão feudal\" entrega \"samurais\" sem olhar a figura. O distrator \"Xoguns\" também é defensável, pois xoguns eram samurais, e \"Gueixas\" não é crível. A reescrita pede o nome da espada, com distratores de outros tipos de espada.",
+      "reescrita": {
+        "pergunta": "Que espada japonesa, curva e de um só fio, é esta?",
+        "resposta": "Catana",
+        "distratores": [
+          "Cimitarra",
+          "Florete",
+          "Gládio"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O charango é um instrumento andino, e os trechos confirmam. \"Andino\" ajuda sem entregar a resposta. Os distratores são instrumentos de cordas pequenos e parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto. O enunciado não entrega o nome, e os distratores são outras escritas não latinas, nenhuma defensável.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Bebida tradicional do Cone Sul\" quase entrega o chimarrão sem a figura. O distrator \"Café\" não é crível como bebida tradicional do Cone Sul. A reescrita usa uma pista mais fraca, o Sul do Brasil, e distratores mais críveis.",
+      "reescrita": {
+        "pergunta": "Que bebida típica do Sul do Brasil é esta, servida em cuia?",
+        "resposta": "Chimarrão",
+        "distratores": [
+          "Quentão",
+          "Cauim",
+          "Café"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a origem equatoriana do chapéu. O enunciado não entrega a resposta. O Panamá é uma armadilha boa e não é correto, e os outros distratores são plausíveis.",
+      "reescrita": null
+    }
+  ]
+}
