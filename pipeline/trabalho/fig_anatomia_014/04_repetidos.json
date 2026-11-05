@@ -1,0 +1,73 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este inseto noturno encontra suas vítimas atraído principalmente por um gás que elas exalam. Que gás é esse?",
+        "resposta": "Gás carbônico"
+      },
+      "existentes": [
+        {
+          "id": "q15184",
+          "pergunta": "Este inseto se alimenta de sangue humano. Em que período do dia ele costuma picar?",
+          "resposta": "À noite"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que organismos microscópicos, comuns no plâncton, aparecem nesta foto?",
+        "resposta": "Diatomáceas"
+      },
+      "existentes": [
+        {
+          "id": "q08162",
+          "pergunta": "Que algas microscópicas formam este arranjo visto ao microscópio?",
+          "resposta": "Diatomáceas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que inseto sugador de sangue, comum na América do Sul, é este?",
+        "resposta": "Barbeiro"
+      },
+      "existentes": [
+        {
+          "id": "q02595",
+          "pergunta": "Que parte do corpo o inseto barbeiro costuma picar enquanto a pessoa dorme, o que explica seu apelido?",
+          "resposta": "O rosto"
+        },
+        {
+          "id": "q06945",
+          "pergunta": "Em 1909, que médico brasileiro identificou o Trypanosoma cruzi, parasita transmitido pelo inseto barbeiro, e descreveu a doença que ele causa?",
+          "resposta": "Carlos Chagas"
+        },
+        {
+          "id": "q18926",
+          "pergunta": "Que doença é transmitida por este inseto, que costuma picar à noite?",
+          "resposta": "Doença de Chagas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o gás que atrai o inseto, fato diferente do período do dia em que pica."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação dos mesmos organismos (diatomáceas) em imagem ao microscópio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o inseto como barbeiro é diferente das perguntas existentes sobre parte do corpo picada, descobridor da doença ou a doença transmitida."
+    }
+  ]
+}

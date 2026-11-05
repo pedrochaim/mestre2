@@ -1,0 +1,125 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, com lesões pouco nítidas num dedo; não é reconhecível com clareza num celular."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Modelo molecular abstrato, com complexo de proteína, DNA e RNA misturados; o RNA não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imunomarcação borrada; a micróglia não é distinguível de outras células gliais, como os astrócitos, e a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida do percevejo-de-cama sobre a pele, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este inseto noturno é um parasita. De que ele se alimenta?",
+      "resposta": "Sangue",
+      "distratores": [
+        "Seiva de plantas",
+        "Néctar",
+        "Madeira"
+      ],
+      "ancora": {
+        "nome": "Percevejo-de-cama",
+        "descricao": "Inseto da família Cimicidae, gênero Cimex, parasita hematófago que pica à noite.",
+        "variantes": [
+          "Cimex lectularius",
+          "Bed bug",
+          "Percevejo de cama"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Microfotografia de diatomáceas, nítida e sem texto; todas pertencem ao mesmo grupo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que organismos microscópicos, comuns no plâncton, aparecem nesta foto?",
+      "resposta": "Diatomáceas",
+      "distratores": [
+        "Radiolários",
+        "Dinoflagelados",
+        "Foraminíferos"
+      ],
+      "ancora": {
+        "nome": "Diatomáceas",
+        "descricao": "Algas unicelulares microscópicas com carapaça de sílica, componentes do fitoplâncton.",
+        "variantes": [
+          "Diatomácea",
+          "Diatomito",
+          "Diatom"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de texto, com a legenda 'Mitral Valve' que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida do barbeiro (triatomíneo), de cima, com régua sem nome; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que doença é transmitida pelas fezes deste inseto sugador de sangue?",
+      "resposta": "Doença de Chagas",
+      "distratores": [
+        "Malária",
+        "Leishmaniose",
+        "Febre amarela"
+      ],
+      "ancora": {
+        "nome": "Barbeiro",
+        "descricao": "Inseto hematófago da subfamília Triatominae, vetor do Trypanosoma cruzi, causador da doença de Chagas.",
+        "variantes": [
+          "Triatomíneo",
+          "Triatoma infestans",
+          "Bicho-barbeiro",
+          "Kissing bug"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Gravura pequena e ambígua de papilas; não permite reconhecer com segurança a papila gustativa e a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Rosto de uma pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem mostra hemácias, não a hemoglobina; a molécula não é reconhecível pela figura."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto desfocada e pouco clara, sem reconhecimento possível da espécie; resposta não única (outros mixomicetos parecidos)."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Rosto de uma criança comum em primeiro plano; a condição também não é inequívoca pela imagem."
+    }
+  ]
+}

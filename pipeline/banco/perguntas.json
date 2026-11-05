@@ -373437,5 +373437,55 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q18938",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "percevejo_de_cama",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este inseto noturno encontra suas vítimas atraído principalmente por um gás que elas exalam. Que gás é esse?",
+    "resposta": "Gás carbônico",
+    "distratores": [
+      "Hélio",
+      "Argônio",
+      "Hidrogênio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bed_bug",
+      "https://pt.wikipedia.org/wiki/Percevejos_de_cama"
+    ],
+    "imagem": {
+      "arquivo": "q18938.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bed_bug,_Cimex_lectularius.jpg",
+      "autor": "Content Providers(s): CDC/ Harvard University, Dr. Gary Alpert; Dr. Harold Harlan; Richard Pollack. Photo Credit: Piotr Naskrecki",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q18939",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "barbeiro",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que inseto sugador de sangue, comum na América do Sul, é este?",
+    "resposta": "Barbeiro",
+    "distratores": [
+      "Percevejo-de-cama",
+      "Pulga",
+      "Piolho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Triatoma_infestans",
+      "https://pt.wikipedia.org/wiki/Triatoma_infestans"
+    ],
+    "imagem": {
+      "arquivo": "q18939.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Triatoma_infestans_Individuo_adulto._Catálogo-de-triatominos-argentinos-2023.png",
+      "autor": "Fuente/Source: Centro Nacional de Diagnóstico e Investigación en Endemoepidemias. Centro de Estudios Parasitológicos y de Vectores (2023). Catálogo de triatominos argentinos. 1era edición. Ciudad Autó",
+      "licenca": "CC BY 4.0"
+    }
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'inseto noturno parasita' já entrega 'sangue' e os distratores (seiva, néctar, madeira) são absurdos para um parasita; a figura vira enfeite. Reescrita pede um fato do trecho que exige reconhecer o inseto: ele é atraído principalmente pelo gás carbônico.",
+      "reescrita": {
+        "pergunta": "Este inseto noturno encontra suas vítimas atraído principalmente por um gás que elas exalam. Que gás é esse?",
+        "resposta": "Gás carbônico",
+        "distratores": [
+          "Hélio",
+          "Argônio",
+          "Hidrogênio"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento. Os distratores são plânctons microscópicos visualmente distintos e não descrevem a imagem. Os trechos confirmam que diatomáceas são fitoplâncton.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'fezes' e 'sugador de sangue' levam sozinhos à doença de Chagas sem olhar a figura. A reescrita pede para reconhecer o inseto, com distratores também sugadores de sangue e visualmente diferentes.",
+      "reescrita": {
+        "pergunta": "Que inseto sugador de sangue, comum na América do Sul, é este?",
+        "resposta": "Barbeiro",
+        "distratores": [
+          "Percevejo-de-cama",
+          "Pulga",
+          "Piolho"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Percevejo-de-cama",
+        "descricao": "Inseto da família Cimicidae, gênero Cimex, parasita hematófago que pica à noite.",
+        "variantes": [
+          "Cimex lectularius",
+          "Bed bug"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "percevejo_de_cama",
+          "nome": "Percevejo-de-cama",
+          "descricao": "Inseto da família Cimicidae (Cimex lectularius) que se alimenta de sangue, geralmente à noite, e infesta camas.",
+          "variantes": [
+            "Bed bug",
+            "Cimex lectularius"
+          ]
+        },
+        {
+          "id": "maria_fedida",
+          "nome": "Maria-fedida",
+          "descricao": "Percevejo da família Pentatomidae, de corpo em forma de escudo, que libera odor forte quando incomodado.",
+          "variantes": [
+            "Percevejo-do-escudo",
+            "Pentatomidae",
+            "Stink bug",
+            "Shield bug",
+            "Percevejo-fedorento"
+          ]
+        },
+        {
+          "id": "red_bull",
+          "nome": "Red Bull",
+          "descricao": "Bebida energética austríaca lançada em 1987 por Dietrich Mateschitz.",
+          "variantes": []
+        },
+        {
+          "id": "iloveyou",
+          "nome": "ILOVEYOU",
+          "descricao": "Vírus de computador que se espalhou por e-mail em maio de 2000 e infectou milhões de máquinas.",
+          "variantes": [
+            "I Love You",
+            "Love Bug",
+            "Love Letter"
+          ]
+        },
+        {
+          "id": "dom_pedro_i",
+          "nome": "Dom Pedro I",
+          "descricao": "Primeiro imperador do Brasil, que proclamou a Independência em 1822 e depois foi rei de Portugal.",
+          "variantes": [
+            "Pedro I do Brasil",
+            "Pedro IV de Portugal",
+            "Pedro de Alcântara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Diatomáceas",
+        "descricao": "Algas unicelulares microscópicas com carapaça de sílica, componentes do fitoplâncton.",
+        "variantes": [
+          "Plâncton",
+          "Diatomácea",
+          "Diatomito",
+          "Diatom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diatomacea",
+          "nome": "Diatomácea",
+          "descricao": "Microalga unicelular com carapaça de sílica, abundante nos oceanos e nas águas doces.",
+          "variantes": [
+            "Diatomáceas",
+            "Diatomito"
+          ]
+        },
+        {
+          "id": "plancton",
+          "nome": "Plâncton",
+          "descricao": "Conjunto de organismos aquáticos, em geral minúsculos, que vivem à deriva levados pelas correntes.",
+          "variantes": [
+            "Plankton"
+          ]
+        },
+        {
+          "id": "plankton",
+          "nome": "Plankton",
+          "descricao": "Pequeno vilão de um olho só e antenas, dono do restaurante Balde de Lixo em Bob Esponja Calça Quadrada.",
+          "variantes": [
+            "Sheldon J. Plankton"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "astro_boy",
+          "nome": "Astro Boy",
+          "descricao": "Menino robô criado por Osamu Tezuka, protagonista do mangá Tetsuwan Atom.",
+          "variantes": [
+            "Tetsuwan Atom",
+            "Mighty Atom",
+            "Atom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Barbeiro",
+        "descricao": "Inseto hematófago da subfamília Triatominae, vetor do Trypanosoma cruzi, causador da doença de Chagas.",
+        "variantes": [
+          "Triatomíneo",
+          "Triatoma infestans",
+          "Bicho-barbeiro",
+          "Kissing bug"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barbeiro",
+          "nome": "Barbeiro",
+          "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas.",
+          "variantes": [
+            "Triatominae",
+            "triatomíneo",
+            "chupança",
+            "kissing bug"
+          ]
+        },
+        {
+          "id": "barbaro_termo_grego",
+          "nome": "Bárbaro (termo grego)",
+          "descricao": "Termo usado pelos gregos antigos para designar os povos estrangeiros que não falavam grego.",
+          "variantes": [
+            "Barbaros",
+            "Barbarian"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        },
+        {
+          "id": "herpes_zoster",
+          "nome": "Herpes-zóster",
+          "descricao": "Doença de pele dolorosa, popularmente chamada de cobreiro, causada pela reativação do vírus da catapora.",
+          "variantes": [
+            "Cobreiro",
+            "Zona",
+            "Shingles"
+          ]
+        },
+        {
+          "id": "crisopideo",
+          "nome": "Crisopídeo",
+          "descricao": "Inseto verde da família Chrysopidae, ordem Neuroptera, de asas transparentes com nervuras finas.",
+          "variantes": [
+            "Crisopa",
+            "Crisopídeos",
+            "Green lacewing",
+            "Bicho-lixeiro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "percevejo_de_cama",
+      "motivo": "Mesma espécie, Cimex lectularius, parasita de camas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "diatomacea",
+      "motivo": "Mesma entidade: microalga unicelular com carapaça de sílica; singular e plural."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "barbeiro",
+      "motivo": "Mesmo inseto triatomíneo, vetor da doença de Chagas."
+    }
+  ]
+}
