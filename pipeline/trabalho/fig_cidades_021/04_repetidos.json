@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este palácio do Rio de Janeiro abrigou, até 1960, qual órgão do Poder Legislativo federal?",
+        "resposta": "Câmara dos Deputados"
+      },
+      "existentes": [
+        {
+          "id": "q16014",
+          "pergunta": "Que palácio eclético do centro do Rio de Janeiro, inaugurado em 1926, é este?",
+          "resposta": "Palácio Tiradentes"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A que santo é dedicada esta igreja de Brasília?",
+        "resposta": "São João Bosco (Dom Bosco)"
+      },
+      "existentes": [
+        {
+          "id": "q15876",
+          "pergunta": "Em que cidade fica esta igreja católica?",
+          "resposta": "Brasília"
+        },
+        {
+          "id": "q17930",
+          "pergunta": "Segundo a tradição, o santo a quem é dedicada esta igreja previu em sonho a existência de qual cidade?",
+          "resposta": "Brasília"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o nome do palácio; a nova pergunta qual órgão legislativo ele abrigou até 1960. São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta a qual santo a igreja é dedicada. As existentes tratam da cidade onde fica a igreja e da cidade prevista em sonho, sem revelar o nome do santo."
+    }
+  ]
+}

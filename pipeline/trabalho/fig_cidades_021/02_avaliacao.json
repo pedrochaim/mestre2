@@ -1,0 +1,226 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada da Bolsa de Nova York com bandeira na Wall Street; reconhecível, sem texto que entregue a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que bolsa de valores funciona no prédio de colunas, com a grande bandeira, desta rua?",
+      "resposta": "Bolsa de Nova York",
+      "distratores": [
+        "Nasdaq",
+        "Bolsa de Londres",
+        "Bolsa de Chicago"
+      ],
+      "ancora": {
+        "nome": "Wall Street",
+        "descricao": "Rua do distrito financeiro de Manhattan, em Nova York, sede da Bolsa de Nova York.",
+        "variantes": [
+          "Wall St."
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada clara do palácio, sem texto; reconhecível em múltipla escolha.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este palácio é a sede do governo de que estado brasileiro?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Minas Gerais",
+        "Paraná"
+      ],
+      "ancora": {
+        "nome": "Palácio dos Bandeirantes",
+        "descricao": "Edifício-sede do Governo do Estado de São Paulo, no bairro do Morumbi.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada nítida do Palácio Tiradentes, sem texto que entregue; pessoas ao fundo, sem destaque.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este palácio do Rio de Janeiro abrigou, até 1960, qual casa do Congresso Nacional?",
+      "resposta": "Câmara dos Deputados",
+      "distratores": [
+        "Senado Federal",
+        "Supremo Tribunal Federal",
+        "Banco do Brasil"
+      ],
+      "ancora": {
+        "nome": "Palácio Tiradentes",
+        "descricao": "Palácio no centro do Rio de Janeiro, inaugurado em 1926, antiga sede da Câmara dos Deputados e da Assembleia Legislativa fluminense.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Arranha-céus art déco do Rockefeller Center com as torres da Catedral de São Patrício; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que conjunto de edifícios de Nova York é este?",
+      "resposta": "Rockefeller Center",
+      "distratores": [
+        "Chrysler Building",
+        "Empire State Building",
+        "Lincoln Center"
+      ],
+      "ancora": {
+        "nome": "Rockefeller Center",
+        "descricao": "Complexo de arranha-céus art déco em Midtown Manhattan, Nova York, construído pela família Rockefeller.",
+        "variantes": [
+          "30 Rock"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Torre inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta torre assumiu de qual outra a principal transmissão de televisão e rádio da região?",
+      "resposta": "Tokyo Tower",
+      "distratores": [
+        "Torre de Cantão",
+        "Torre CN",
+        "Torre de Osaka"
+      ],
+      "ancora": {
+        "nome": "Tokyo Skytree",
+        "descricao": "Torre de transmissão e observação de 634 metros em Sumida, Tóquio, inaugurada em 2012.",
+        "variantes": [
+          "Tokyo Sky Tree",
+          "Torre do Céu de Tóquio"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada de arcos ogivais característica, sem texto legível que entregue.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que santo é dedicada esta igreja de Brasília?",
+      "resposta": "São João Bosco (Dom Bosco)",
+      "distratores": [
+        "São Francisco de Assis",
+        "Santo Antônio",
+        "São José"
+      ],
+      "ancora": {
+        "nome": "Santuário Dom Bosco",
+        "descricao": "Igreja católica da Asa Sul, em Brasília, famosa pelos vitrais, dedicada a São João Bosco.",
+        "variantes": [
+          "Santuário São João Bosco",
+          "Igreja de Dom Bosco"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns em primeiro plano; a rua não é reconhecível sem a multidão e sem texto."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista do Grande Palácio sobre o rio ao pôr do sol; sem texto, reconhecível pelos telhados.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este palácio é residência oficial dos reis de que país desde 1782?",
+      "resposta": "Tailândia",
+      "distratores": [
+        "Camboja",
+        "Myanmar",
+        "Vietnã"
+      ],
+      "ancora": {
+        "nome": "Grande Palácio de Bangkok",
+        "descricao": "Complexo de palácios no centro de Bangkok, residência oficial dos reis do Sião e da Tailândia desde 1782.",
+        "variantes": [
+          "Grand Palace",
+          "Grande Palácio"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Vista aérea de cidade densa sem nenhum marco reconhecível; poderia ser qualquer cidade do sul da Ásia."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea clássica de La Rambla; sem texto que entregue.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rua arborizada, só para pedestres, é esta?",
+      "resposta": "La Rambla",
+      "distratores": [
+        "Passeig de Gràcia",
+        "Gran Vía",
+        "Champs-Élysées"
+      ],
+      "ancora": {
+        "nome": "La Rambla",
+        "descricao": "Rua arborizada para pedestres no centro de Barcelona, entre a Praça da Catalunha e o monumento a Colombo.",
+        "variantes": [
+          "Las Ramblas",
+          "Rambla de Barcelona"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome NYHAVN aparece escrito na fachada amarela, entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Píer de madeira sobre o mar, sem texto; reconhecível em múltipla escolha.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que capital brasileira fica este píer turístico?",
+      "resposta": "Fortaleza",
+      "distratores": [
+        "Recife",
+        "Salvador",
+        "Natal"
+      ],
+      "ancora": {
+        "nome": "Ponte dos Ingleses",
+        "descricao": "Píer e ponto turístico na Praia de Iracema, em Fortaleza, Ceará.",
+        "variantes": [
+          "Ponte Metálica"
+        ]
+      }
+    }
+  ]
+}

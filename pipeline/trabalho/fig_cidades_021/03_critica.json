@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o prédio (colunas, bandeira) em vez de exigir reconhecer a rua. A bolsa em prédio de colunas com bandeira é adivinhável sem a figura, e a descrição pode não valer para esta foto. Melhor pedir o nome da rua.",
+      "reescrita": {
+        "pergunta": "Que famosa rua do sul de Manhattan, em Nova York, é esta?",
+        "resposta": "Wall Street",
+        "distratores": [
+          "Broadway",
+          "Quinta Avenida",
+          "Park Avenue"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta. É preciso reconhecer o palácio, que é sede do governo paulista segundo o trecho. Os distratores são estados plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os fatos estão nos trechos (Câmara dos Deputados de 1926 a 1960). Os distratores Supremo Tribunal Federal e Banco do Brasil não são casas do Congresso, então são descartáveis pelo enunciado. Reformulei para distratores do mesmo tipo.",
+      "reescrita": {
+        "pergunta": "Este palácio do Rio de Janeiro abrigou, até 1960, qual órgão do Poder Legislativo federal?",
+        "resposta": "Câmara dos Deputados",
+        "distratores": [
+          "Senado Federal",
+          "Câmara Municipal do Rio",
+          "Assembleia Legislativa paulista"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta e a resposta estão corretas, mas os distratores Chrysler Building e Empire State Building são edifícios isolados, e a pergunta pede um conjunto de edifícios. Trocados por complexos.",
+      "reescrita": {
+        "pergunta": "Que conjunto de edifícios de Nova York é este?",
+        "resposta": "Rockefeller Center",
+        "distratores": [
+          "Lincoln Center",
+          "World Trade Center",
+          "Hudson Yards"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos. Os distratores (Cantão, CN) estão em outros países e são facilmente eliminados, pois a pergunta fala da região. Troquei por torres japonesas.",
+      "reescrita": {
+        "pergunta": "Esta torre assumiu de qual outra a principal transmissão de televisão e rádio da região?",
+        "resposta": "Tokyo Tower",
+        "distratores": [
+          "Tsutenkaku",
+          "Torre de Quioto",
+          "Torre de Nagoia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a igreja é dedicada a São João Bosco. O enunciado não vaza a resposta e os distratores são santos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os reis deixaram de morar no palácio por volta de 1925, então 'é residência oficial desde 1782' não é literalmente exato hoje. Reformulei para pedir o país, sem a imprecisão e sem pista que entregue.",
+      "reescrita": {
+        "pergunta": "Este palácio, cuja construção começou em 1782, fica na capital de que país?",
+        "resposta": "Tailândia",
+        "distratores": [
+          "Camboja",
+          "Myanmar",
+          "Vietnã"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos descrevem a rua como arborizada e de pedestres. O enunciado não entrega o nome e os distratores são ruas famosas, nenhuma delas correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Ponte dos Ingleses é um píer turístico em Fortaleza, segundo o trecho. A pergunta tem resposta única e os distratores são capitais nordestinas plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

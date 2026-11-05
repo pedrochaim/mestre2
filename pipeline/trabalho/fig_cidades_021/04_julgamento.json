@@ -1,0 +1,560 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Wall Street",
+        "descricao": "Rua do distrito financeiro de Manhattan, em Nova York, sede da Bolsa de Nova York.",
+        "variantes": [
+          "Wall St."
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "converse_all_star",
+          "nome": "Converse All Star",
+          "descricao": "Modelo de tênis de lona da Converse, criado para o basquete no início do século vinte.",
+          "variantes": [
+            "Chuck Taylor All-Star",
+            "Chuck Taylor All Star",
+            "All Star",
+            "Chuck Taylor"
+          ]
+        },
+        {
+          "id": "wall_e",
+          "nome": "WALL-E",
+          "descricao": "Robô protagonista do filme de animação da Pixar de 2008, deixado sozinho numa Terra abandonada.",
+          "variantes": []
+        },
+        {
+          "id": "touro_de_wall_street",
+          "nome": "Touro de Wall Street",
+          "descricao": "Escultura de bronze de um touro em posição de ataque, de Arturo Di Modica, no distrito financeiro de Nova York.",
+          "variantes": [
+            "Charging Bull",
+            "Touro de Bronze"
+          ]
+        },
+        {
+          "id": "will_smith",
+          "nome": "Will Smith",
+          "descricao": "Ator, rapper e produtor americano, o Príncipe de Bel-Air.",
+          "variantes": [
+            "Willard Carroll Smith II"
+          ]
+        },
+        {
+          "id": "vila_sesamo",
+          "nome": "Vila Sésamo",
+          "descricao": "Programa infantil educativo americano, Sesame Street, com bonecos como o Garibaldo e o Come-Come, que ganhou versões brasileiras.",
+          "variantes": [
+            "Sesame Street"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Palácio dos Bandeirantes",
+        "descricao": "Edifício-sede do Governo do Estado de São Paulo, no bairro do Morumbi.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "palacio_laranjeiras",
+          "nome": "Palácio Laranjeiras",
+          "descricao": "Palácio no bairro de Laranjeiras, no Rio de Janeiro, residência oficial do governador do estado.",
+          "variantes": [
+            "Palácio das Laranjeiras"
+          ]
+        },
+        {
+          "id": "hawa_mahal",
+          "nome": "Hawa Mahal",
+          "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+          "variantes": [
+            "Palácio dos Ventos",
+            "Palace of Winds"
+          ]
+        },
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_tiradentes",
+          "nome": "Palácio Tiradentes",
+          "descricao": "Palácio inaugurado em 1926 no centro do Rio de Janeiro, antigo prédio da Câmara dos Deputados e depois da Assembleia Legislativa do estado.",
+          "variantes": [
+            "Palácio Tiradentes do Rio de Janeiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Palácio Tiradentes",
+        "descricao": "Palácio no centro do Rio de Janeiro, inaugurado em 1926, antiga sede da Câmara dos Deputados e da Assembleia Legislativa fluminense.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "palacio_tiradentes",
+          "nome": "Palácio Tiradentes",
+          "descricao": "Palácio inaugurado em 1926 no centro do Rio de Janeiro, antigo prédio da Câmara dos Deputados e depois da Assembleia Legislativa do estado.",
+          "variantes": [
+            "Palácio Tiradentes do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "hawa_mahal",
+          "nome": "Hawa Mahal",
+          "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+          "variantes": [
+            "Palácio dos Ventos",
+            "Palace of Winds"
+          ]
+        },
+        {
+          "id": "tiradentes",
+          "nome": "Tiradentes",
+          "descricao": "Joaquim José da Silva Xavier, alferes e principal mártir da Inconfidência Mineira, executado em 1792.",
+          "variantes": [
+            "Joaquim José da Silva Xavier"
+          ]
+        },
+        {
+          "id": "tiradentes_2",
+          "nome": "Tiradentes",
+          "descricao": "Município histórico de Minas Gerais, antiga São José del Rei, com a Matriz de Santo Antônio.",
+          "variantes": [
+            "São José del Rei"
+          ]
+        },
+        {
+          "id": "palacio_piratini",
+          "nome": "Palácio Piratini",
+          "descricao": "Sede do Poder Executivo do estado do Rio Grande do Sul, na Praça Marechal Deodoro, em Porto Alegre.",
+          "variantes": [
+            "Piratini"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Rockefeller Center",
+        "descricao": "Complexo de arranha-céus art déco em Midtown Manhattan, Nova York, construído pela família Rockefeller.",
+        "variantes": [
+          "30 Rock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "rocky_um_lutador",
+          "nome": "Rocky, um Lutador",
+          "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+          "variantes": [
+            "Rocky",
+            "Rocky Balboa",
+            "Rocky (1976)"
+          ]
+        },
+        {
+          "id": "brock",
+          "nome": "Brock",
+          "descricao": "Líder de ginásio do tipo Pedra nos jogos Pokémon e companheiro de viagem de Ash no anime.",
+          "variantes": [
+            "Takeshi"
+          ]
+        },
+        {
+          "id": "dwayne_johnson_the_rock",
+          "nome": "Dwayne Johnson (The Rock)",
+          "descricao": "Ator norte-americano e ex-lutador de luta livre profissional da WWF/WWE.",
+          "variantes": [
+            "Dwayne Johnson",
+            "The Rock"
+          ]
+        },
+        {
+          "id": "pokemon_center_loja",
+          "nome": "Pokémon Center (loja)",
+          "descricao": "Rede de lojas oficiais dedicadas só a produtos da franquia Pokémon, aberta primeiro em Tóquio.",
+          "variantes": [
+            "Pokémon Center",
+            "Pokémon Center Store"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tokyo Skytree",
+        "descricao": "Torre de transmissão e observação de 634 metros em Sumida, Tóquio, inaugurada em 2012.",
+        "variantes": [
+          "Tokyo Sky Tree",
+          "Torre do Céu de Tóquio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_toquio",
+          "nome": "Torre de Tóquio",
+          "descricao": "Torre de transmissão de treliça de aço, pintada de branco e laranja, inaugurada em 1958 em Tóquio.",
+          "variantes": [
+            "Tokyo Tower"
+          ]
+        },
+        {
+          "id": "tokyo_dome",
+          "nome": "Tokyo Dome",
+          "descricao": "Estádio coberto de beisebol, com teto inflável, no distrito de Bunkyō, em Tóquio.",
+          "variantes": [
+            "Tōkyō Dōmu",
+            "Domo de Tóquio"
+          ]
+        },
+        {
+          "id": "era_uma_vez_em_toquio",
+          "nome": "Era Uma Vez em Tóquio",
+          "descricao": "Filme japonês de 1953 dirigido por Yasujirō Ozu, sobre um casal de idosos que visita os filhos em Tóquio.",
+          "variantes": [
+            "Tokyo Story",
+            "Tōkyō monogatari"
+          ]
+        },
+        {
+          "id": "destilacao_fracionada_do_petroleo",
+          "nome": "Destilação fracionada do petróleo",
+          "descricao": "Processo das refinarias que separa o petróleo em frações, como gás, gasolina, querosene, diesel e resíduos pesados, numa torre de destilação.",
+          "variantes": [
+            "Refino do petróleo",
+            "Torre de destilação"
+          ]
+        },
+        {
+          "id": "a_torre_de_babel_bruegel",
+          "nome": "A Torre de Babel (Bruegel)",
+          "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1563, em Viena, que mostra a construção da torre bíblica.",
+          "variantes": [
+            "Grande Torre de Babel",
+            "The Tower of Babel",
+            "Torre de Babel de Viena"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Santuário Dom Bosco",
+        "descricao": "Igreja católica da Asa Sul, em Brasília, famosa pelos vitrais, dedicada a São João Bosco.",
+        "variantes": [
+          "Santuário São João Bosco",
+          "Igreja de Dom Bosco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_dom_bosco",
+          "nome": "Santuário Dom Bosco",
+          "descricao": "Igreja católica de Brasília, na Asa Sul, famosa por seus vitrais e dedicada a São João Bosco.",
+          "variantes": [
+            "Santuário São João Bosco",
+            "Igreja Dom Bosco"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos",
+            "Oráculo de Delfos"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "santo_do_pau_oco",
+          "nome": "Santo do pau oco",
+          "descricao": "Expressão brasileira para uma pessoa dissimulada, que finge ser virtuosa",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Grande Palácio de Bangkok",
+        "descricao": "Complexo de palácios no centro de Bangkok, residência oficial dos reis do Sião e da Tailândia desde 1782.",
+        "variantes": [
+          "Grand Palace",
+          "Grande Palácio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grand_place_de_bruxelas",
+          "nome": "Grand-Place de Bruxelas",
+          "descricao": "Praça central de Bruxelas, cercada por casas de corporações barrocas e pela prefeitura gótica.",
+          "variantes": [
+            "Grand-Place",
+            "Grote Markt"
+          ]
+        },
+        {
+          "id": "bolshoy_ice_dome",
+          "nome": "Bolshoy Ice Dome",
+          "descricao": "Arena coberta no Parque Olímpico de Sóchi, na Rússia, construída para o hóquei dos Jogos de Inverno de 2014.",
+          "variantes": [
+            "Grande Palácio de Gelo",
+            "Domo de Gelo Bolshoi",
+            "Большой Ледовый дворец"
+          ]
+        },
+        {
+          "id": "grand_palais",
+          "nome": "Grand Palais",
+          "descricao": "Salão de exposições e museu de Paris, com grande cúpula de vidro e ferro, construído para a Exposição Universal de 1900.",
+          "variantes": [
+            "Grand Palais des Champs-Élysées"
+          ]
+        },
+        {
+          "id": "grand_canyon",
+          "nome": "Grand Canyon",
+          "descricao": "Grande desfiladeiro no estado do Arizona, nos Estados Unidos.",
+          "variantes": [
+            "Grande Cânion",
+            "Grand Canyon do Colorado"
+          ]
+        },
+        {
+          "id": "grand_slam_tenis",
+          "nome": "Grand Slam (tênis)",
+          "descricao": "Conjunto dos quatro maiores torneios do tênis, e também o feito de vencer os quatro no mesmo ano.",
+          "variantes": [
+            "Grand Slam"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "La Rambla",
+        "descricao": "Rua arborizada para pedestres no centro de Barcelona, entre a Praça da Catalunha e o monumento a Colombo.",
+        "variantes": [
+          "Las Ramblas",
+          "Rambla de Barcelona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carambola",
+          "nome": "Carambola",
+          "descricao": "Fruto amarelo da caramboleira (Averrhoa carambola), cujo corte transversal tem forma de estrela.",
+          "variantes": [
+            "Star fruit",
+            "Averrhoa carambola"
+          ]
+        },
+        {
+          "id": "sagrada_familia",
+          "nome": "Sagrada Família",
+          "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século.",
+          "variantes": [
+            "Templo Expiatório da Sagrada Família",
+            "Basílica da Sagrada Família",
+            "Sagrada Família de Barcelona"
+          ]
+        },
+        {
+          "id": "fallas_de_valencia",
+          "nome": "Fallas de Valência",
+          "descricao": "Festa de março em Valência, na Espanha, que termina com a queima de grandes esculturas satíricas.",
+          "variantes": [
+            "Falles",
+            "Las Fallas"
+          ]
+        },
+        {
+          "id": "giralda",
+          "nome": "Giralda",
+          "descricao": "Torre sineira da Catedral de Sevilha, na Espanha, coroada por um cata-vento em forma de estátua.",
+          "variantes": [
+            "La Giralda"
+          ]
+        },
+        {
+          "id": "club_america",
+          "nome": "Club América",
+          "descricao": "Clube de futebol da Cidade do México, apelidado Las Águilas, que joga no Estadio Azteca.",
+          "variantes": [
+            "América",
+            "Club de Fútbol América",
+            "Las Águilas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ponte dos Ingleses",
+        "descricao": "Píer e ponto turístico na Praia de Iracema, em Fortaleza, Ceará.",
+        "variantes": [
+          "Ponte Metálica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_estaiada",
+          "nome": "Ponte Estaiada",
+          "descricao": "Ponte estaiada com torre em forma de X sobre o Rio Pinheiros, em São Paulo, inaugurada em 2008.",
+          "variantes": [
+            "Ponte Octavio Frias de Oliveira",
+            "Ponte Octávio Frias de Oliveira"
+          ]
+        },
+        {
+          "id": "porta_dos_leoes_de_micenas",
+          "nome": "Porta dos Leões de Micenas",
+          "descricao": "Entrada principal da cidadela micênica da Idade do Bronze, com relevo de dois leões, na Grécia.",
+          "variantes": [
+            "Portão dos Leões",
+            "Lion Gate",
+            "Porta dos Leões"
+          ]
+        },
+        {
+          "id": "ponto_de_ebulicao",
+          "nome": "Ponto de ebulição",
+          "descricao": "Temperatura em que um líquido ferve, que depende da pressão exercida sobre ele.",
+          "variantes": [
+            "Temperatura de ebulição",
+            "Boiling point"
+          ]
+        },
+        {
+          "id": "a_ponte_de_langlois_em_arles",
+          "nome": "A Ponte de Langlois em Arles",
+          "descricao": "Série de pinturas de Van Gogh de 1888 que retratam a ponte levadiça de Langlois sobre um canal perto de Arles.",
+          "variantes": [
+            "A Ponte de Langlois em Arles (Van Gogh)",
+            "A Ponte de Langlois",
+            "Ponte de Arles",
+            "Langlois Bridge at Arles",
+            "Pont de Langlois"
+          ]
+        },
+        {
+          "id": "premier_league",
+          "nome": "Premier League",
+          "descricao": "Primeira divisão do futebol inglês, criada em 1992 no lugar da antiga First Division.",
+          "variantes": [
+            "Campeonato Inglês"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A rua Wall Street é diferente da escultura Touro de Wall Street e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O Palácio dos Bandeirantes é a sede do governo de SP e não aparece entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "palacio_tiradentes",
+      "motivo": "Mesmo palácio no Rio, inaugurado em 1926, antiga sede da Câmara e da Assembleia."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O Rockefeller Center não aparece entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A Tokyo Skytree (2012) é diferente da Torre de Tóquio (1958)."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "santuario_dom_bosco",
+      "motivo": "É a mesma igreja de Brasília, com vitrais e dedicada a São João Bosco."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O Grande Palácio de Bangkok não aparece entre as candidatas. Grand Palais e Bolshoy Ice Dome são outras entidades."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "A La Rambla não aparece entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A Ponte dos Ingleses, em Fortaleza, não aparece entre as candidatas."
+    }
+  ]
+}
