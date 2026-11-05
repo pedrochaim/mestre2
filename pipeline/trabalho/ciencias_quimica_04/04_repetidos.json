@@ -1,0 +1,924 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quando Mendeleev apresentou sua tabela periódica, em 1869, cerca de quantos elementos químicos eram conhecidos?",
+        "resposta": "Sessenta e três"
+      },
+      "existentes": [
+        {
+          "id": "q01423",
+          "pergunta": "Que elemento químico sintético leva o nome do cientista desta foto?",
+          "resposta": "Mendelévio"
+        },
+        {
+          "id": "q03138",
+          "pergunta": "Ao organizar sua tabela periódica, por que Mendeleev deixou alguns espaços vazios?",
+          "resposta": "Para elementos ainda não descobertos"
+        },
+        {
+          "id": "q03157",
+          "pergunta": "Em que década do século dezenove Mendeleev apresentou sua primeira tabela periódica?",
+          "resposta": "Década de 1860"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na escala de pH, uma solução com pH três é quantas vezes mais ácida que uma com pH quatro?",
+        "resposta": "Dez vezes"
+      },
+      "existentes": [
+        {
+          "id": "q05874",
+          "pergunta": "Em 1909, o químico dinamarquês que criou a escala de pH trabalhava no laboratório de que famosa cervejaria?",
+          "resposta": "Carlsberg"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Usado para datar madeira e ossos antigos, o carbono catorze leva cerca de quantos anos para perder metade de seus átomos?",
+        "resposta": "5.730 anos"
+      },
+      "existentes": [
+        {
+          "id": "q02733",
+          "pergunta": "Por que o método do carbono quatorze não serve para datar ossos de dinossauro?",
+          "resposta": "São antigos demais"
+        },
+        {
+          "id": "q09449",
+          "pergunta": "Que químico americano criou, no fim dos anos 1940, a datação por carbono catorze, que lhe rendeu o Nobel de Química de 1960?",
+          "resposta": "Willard Libby"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A molécula de fulereno, com sessenta átomos de carbono, tem o formato de uma bola de futebol. Quantos pentágonos ela tem?",
+        "resposta": "Doze"
+      },
+      "existentes": [
+        {
+          "id": "q05899",
+          "pergunta": "Descoberta em 1985, a molécula de sessenta carbonos em forma de bola de futebol tem nome em homenagem a que arquiteto americano?",
+          "resposta": "Buckminster Fuller"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O número de Avogadro, a quantidade de partículas em um mol, vale cerca de seis vezes dez elevado a quê?",
+        "resposta": "Vinte e três"
+      },
+      "existentes": [
+        {
+          "id": "q08139",
+          "pergunta": "Que cientista italiano é este?",
+          "resposta": "Amedeo Avogadro"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na escala de Mohs, que vai do talco, com nota um, ao diamante, com nota dez, que nota tem a unha humana?",
+        "resposta": "Cerca de dois e meio"
+      },
+      "existentes": [
+        {
+          "id": "q03163",
+          "pergunta": "Na escala de dureza de Mohs, que mineral ocupa o topo, com nota dez?",
+          "resposta": "Diamante"
+        },
+        {
+          "id": "q04330",
+          "pergunta": "Na escala de dureza de Mohs, que vai de um a dez, qual mineral ocupa o grau um, o mais macio?",
+          "resposta": "Talco"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em seu Tratado Elementar de Química, de 1789, Lavoisier fez uma lista das substâncias simples conhecidas. Quantas ela tinha?",
+        "resposta": "Trinta e três"
+      },
+      "existentes": [
+        {
+          "id": "q00870",
+          "pergunta": "Que elemento químico este cientista francês nomeou em 1778, ao entender seu papel na combustão?",
+          "resposta": "Oxigênio"
+        },
+        {
+          "id": "q03137",
+          "pergunta": "Durante o Terror da Revolução Francesa, em 1794, por que o químico Lavoisier foi guilhotinado?",
+          "resposta": "Era arrecadador de impostos do rei"
+        },
+        {
+          "id": "q03148",
+          "pergunta": "A que químico francês se atribui a frase na natureza nada se cria, nada se perde, tudo se transforma?",
+          "resposta": "Antoine Lavoisier"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No fundo de um lago congelado, fica a água mais densa. A água pura atinge sua maior densidade a quantos graus Celsius?",
+        "resposta": "Quatro graus"
+      },
+      "existentes": [
+        {
+          "id": "q05885",
+          "pergunta": "Vista por séculos como um dos quatro elementos, a água teve sua composição de hidrogênio e oxigênio demonstrada em que século?",
+          "resposta": "Século dezoito"
+        },
+        {
+          "id": "q09430",
+          "pergunta": "Ao contrário da maioria das substâncias, o que acontece com o volume da água quando ela congela?",
+          "resposta": "Aumenta, ela se expande"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na receita ideal da água régia, quantas partes de ácido clorídrico entram para cada parte de ácido nítrico?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q03167",
+          "pergunta": "Em 1940, para escondê-las dos nazistas, um químico húngaro dissolveu duas medalhas de ouro do Nobel em que mistura de ácidos?",
+          "resposta": "Água régia"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O nome oxigênio, criado por Lavoisier, nasceu de um engano: ele achava que esse elemento fazia parte de todos os quê?",
+        "resposta": "Ácidos"
+      },
+      "existentes": [
+        {
+          "id": "q09416",
+          "pergunta": "Presente em rochas, areia e argila, que elemento químico é o mais abundante na crosta terrestre?",
+          "resposta": "Oxigênio"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "A palavra diamante vem do grego adamas. Que qualidade esse nome atribuía à pedra?",
+        "resposta": "Indomável"
+      },
+      "existentes": [
+        {
+          "id": "q04294",
+          "pergunta": "A palavra diamante vem do grego adamas. O que esse termo grego significava?",
+          "resposta": "Inquebrável"
+        },
+        {
+          "id": "q15525",
+          "pergunta": "Qual destes materiais conduz melhor o calor?",
+          "resposta": "Diamante"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O tungstênio deve seu nome a uma expressão sueca usada para um mineral. O que ela significa?",
+        "resposta": "Pedra pesada"
+      },
+      "existentes": [
+        {
+          "id": "q03126",
+          "pergunta": "O símbolo químico do tungstênio é a letra W, que vem de outro nome do mesmo metal. Que nome é esse?",
+          "resposta": "Volfrâmio"
+        },
+        {
+          "id": "q09415",
+          "pergunta": "Entre todos os metais, qual é o que suporta as temperaturas mais altas antes de derreter?",
+          "resposta": "Tungstênio"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O símbolo do ouro vem do latim aurum, palavra que tem a mesma raiz do nome de que fenômeno do céu?",
+        "resposta": "Aurora"
+      },
+      "existentes": [
+        {
+          "id": "q04109",
+          "pergunta": "Que metal, em forma de cristais, é este?",
+          "resposta": "Ouro"
+        },
+        {
+          "id": "q09419",
+          "pergunta": "Batido em folhas finíssimas para revestir altares de igrejas barrocas, qual é o metal mais maleável que existe?",
+          "resposta": "Ouro"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na alquimia, cada metal era ligado a um planeta. Por isso, a intoxicação por chumbo recebeu que outro nome?",
+        "resposta": "Saturnismo"
+      },
+      "existentes": [
+        {
+          "id": "q03139",
+          "pergunta": "O que o símbolo químico do chumbo e a palavra inglesa plumber, que significa encanador, têm em comum?",
+          "resposta": "Vêm do latim plumbum"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Segundo uma lenda famosa, em 1888 um jornal francês publicou por engano o obituário de Alfred Nobel. Que apelido o texto dava a ele?",
+        "resposta": "O mercador da morte"
+      },
+      "existentes": [
+        {
+          "id": "q03594",
+          "pergunta": "Segundo uma história famosa, que erro de um jornal francês, em 1888, teria levado Alfred Nobel a repensar o próprio legado?",
+          "resposta": "Publicar o obituário dele por engano"
+        },
+        {
+          "id": "q03780",
+          "pergunta": "Em que cidade sueca nasceu este químico e engenheiro do século dezenove?",
+          "resposta": "Estocolmo"
+        },
+        {
+          "id": "q08749",
+          "pergunta": "Além de dar nome a um famoso prêmio, o inventor da dinamite também é homenageado por que elemento químico da tabela periódica?",
+          "resposta": "Nobélio"
+        },
+        {
+          "id": "q16839",
+          "pergunta": "Além da dinamite, o químico sueco Alfred Nobel registrou muitas outras invenções. Ao longo da vida, ele teve cerca de quantas patentes?",
+          "resposta": "Cerca de 350"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "A palavra vinagre chegou ao português vinda do francês antigo. Ao pé da letra, o que ela quer dizer?",
+        "resposta": "Vinho azedo"
+      },
+      "existentes": [
+        {
+          "id": "q09423",
+          "pergunta": "Formado pela fermentação do vinho e de outras bebidas, que ácido dá ao vinagre seu sabor azedo?",
+          "resposta": "Ácido acético"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "No século dezessete, o químico flamengo Jan van Helmont inventou a palavra gás, inspirado em que termo grego?",
+        "resposta": "Caos"
+      },
+      "existentes": [
+        {
+          "id": "q04619",
+          "pergunta": "No século dezessete, o químico flamengo Jan Baptista van Helmont inventou a palavra gás, inspirado em que palavra grega?",
+          "resposta": "Caos"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O símbolo químico da prata vem da mesma palavra latina que deu nome a que país sul-americano?",
+        "resposta": "Argentina"
+      },
+      "existentes": [
+        {
+          "id": "q05901",
+          "pergunta": "Na alquimia, cada um dos sete metais da Antiguidade era ligado a um astro, e o ouro era o Sol. Que metal correspondia à Lua?",
+          "resposta": "Prata"
+        },
+        {
+          "id": "q07287",
+          "pergunta": "Qual destes metais é o melhor condutor de eletricidade?",
+          "resposta": "Prata"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Em inglês, a ponta do lápis se chama lead, que quer dizer chumbo. O que o grafite tem a ver com esse metal?",
+        "resposta": "Já foi confundido com chumbo"
+      },
+      "existentes": [
+        {
+          "id": "q03142",
+          "pergunta": "O que o diamante e o grafite, mineral usado na ponta do lápis, têm em comum na composição?",
+          "resposta": "São formas de carbono"
+        },
+        {
+          "id": "q09436",
+          "pergunta": "Ao contrário do diamante, também feito de carbono, o grafite tem que propriedade elétrica?",
+          "resposta": "Conduz eletricidade"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "A escritora austríaca Bertha von Suttner foi a primeira mulher a ganhar o Nobel da Paz. Que relação ela teve com Alfred Nobel?",
+        "resposta": "Foi secretária dele"
+      },
+      "existentes": [
+        {
+          "id": "q03594",
+          "pergunta": "Segundo uma história famosa, que erro de um jornal francês, em 1888, teria levado Alfred Nobel a repensar o próprio legado?",
+          "resposta": "Publicar o obituário dele por engano"
+        },
+        {
+          "id": "q03780",
+          "pergunta": "Em que cidade sueca nasceu este químico e engenheiro do século dezenove?",
+          "resposta": "Estocolmo"
+        },
+        {
+          "id": "q08749",
+          "pergunta": "Além de dar nome a um famoso prêmio, o inventor da dinamite também é homenageado por que elemento químico da tabela periódica?",
+          "resposta": "Nobélio"
+        },
+        {
+          "id": "q16839",
+          "pergunta": "Além da dinamite, o químico sueco Alfred Nobel registrou muitas outras invenções. Ao longo da vida, ele teve cerca de quantas patentes?",
+          "resposta": "Cerca de 350"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Que política, futura primeira-ministra britânica, estudou química em Oxford e fez pesquisa sob orientação de Dorothy Hodgkin?",
+        "resposta": "Margaret Thatcher"
+      },
+      "existentes": [
+        {
+          "id": "q09268",
+          "pergunta": "Quem é esta química inglesa, ganhadora do Nobel?",
+          "resposta": "Dorothy Hodgkin"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O que a expressão inglesa louco como um chapeleiro tem a ver com o metal mercúrio?",
+        "resposta": "Chapeleiros se intoxicavam com ele"
+      },
+      "existentes": [
+        {
+          "id": "q09412",
+          "pergunta": "Usado nos termômetros antigos, que metal é o único que permanece líquido em temperatura ambiente?",
+          "resposta": "Mercúrio"
+        },
+        {
+          "id": "q09413",
+          "pergunta": "O símbolo químico do mercúrio, Hg, vem de uma palavra de origem grega, hidrargírio. O que ela significa?",
+          "resposta": "Prata líquida"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Descoberto em 1875, o gálio confirmou a previsão de que químico, que anos antes o descrevera com o nome de eka-alumínio?",
+        "resposta": "Dmitri Mendeleev"
+      },
+      "existentes": [
+        {
+          "id": "q03166",
+          "pergunta": "Que metal prateado, usado em truques de colheres que derretem na xícara de chá, funde a cerca de trinta graus?",
+          "resposta": "Gálio"
+        },
+        {
+          "id": "q09442",
+          "pergunta": "Descoberto em 1875 por Lecoq de Boisbaudran, o gálio recebeu o nome latino de que país, terra natal do descobridor?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Nos anos 1970, o químico Linus Pauling ficou famoso por defender doses altíssimas de que vitamina contra resfriados?",
+        "resposta": "Vitamina C"
+      },
+      "existentes": [
+        {
+          "id": "q05907",
+          "pergunta": "Que químico americano ganhou dois Prêmios Nobel sem dividi-los com ninguém, um de Química e outro da Paz?",
+          "resposta": "Linus Pauling"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Antes de chegar às frigideiras, o Teflon foi usado no projeto americano da bomba atômica, na Segunda Guerra. Para quê?",
+        "resposta": "Vedar peças contra gás corrosivo"
+      },
+      "existentes": [
+        {
+          "id": "q03593",
+          "pergunta": "Em 1938, o químico Roy Plunkett descobriu o teflon por acaso, enquanto pesquisava novos gases para que tipo de aparelho?",
+          "resposta": "Geladeiras"
+        },
+        {
+          "id": "q05892",
+          "pergunta": "O Teflon, que reveste as frigideiras antiaderentes, foi descoberto por acaso durante pesquisas com gases de geladeira em que década?",
+          "resposta": "Década de 1930"
+        },
+        {
+          "id": "q07317",
+          "pergunta": "O teflon das panelas antiaderentes é um plástico formado por carbono e por qual outro elemento químico?",
+          "resposta": "Flúor"
+        },
+        {
+          "id": "q16848",
+          "pergunta": "A marca francesa de panelas Tefal, criada nos anos cinquenta, tem nome que junta teflon e que metal?",
+          "resposta": "Alumínio"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Em 1987, em Goiânia, o que encantou as pessoas que manusearam o pó de césio retirado da cápsula?",
+        "resposta": "O brilho azul no escuro"
+      },
+      "existentes": [
+        {
+          "id": "q03156",
+          "pergunta": "Em 1987, uma cápsula de césio cento e trinta e sete, retirada de um aparelho abandonado, provocou um grave acidente radiológico em que cidade brasileira?",
+          "resposta": "Goiânia"
+        },
+        {
+          "id": "q04130",
+          "pergunta": "Em 1987, em Goiânia, que material radioativo, retirado de um aparelho de radioterapia abandonado, contaminou mais de duzentas pessoas?",
+          "resposta": "Césio-137"
+        },
+        {
+          "id": "q04131",
+          "pergunta": "No acidente radioativo de Goiânia, o pó retirado da cápsula atraiu curiosos porque brilhava no escuro com que cor?",
+          "resposta": "Azul"
+        },
+        {
+          "id": "q17760",
+          "pergunta": "Os rejeitos radioativos do acidente com césio em Goiânia ficam guardados num depósito em que município vizinho?",
+          "resposta": "Abadia de Goiás"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Mais de um século depois, por que os cadernos de laboratório de Marie Curie são guardados em caixas forradas de chumbo?",
+        "resposta": "Ainda são radioativos"
+      },
+      "existentes": [
+        {
+          "id": "q00868",
+          "pergunta": "Que elemento químico, batizado em homenagem à terra natal desta cientista, ela descobriu?",
+          "resposta": "Polônio"
+        },
+        {
+          "id": "q03158",
+          "pergunta": "Em que ano o casal Pierre e Marie Curie anunciou a descoberta do polônio e do rádio?",
+          "resposta": "1898"
+        },
+        {
+          "id": "q04400",
+          "pergunta": "Durante a Primeira Guerra, Marie Curie organizou ambulâncias equipadas com que tecnologia para examinar soldados feridos perto do front?",
+          "resposta": "Raios X"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Por que a voz fica fina e engraçada depois que alguém inspira o gás de um balão de hélio?",
+        "resposta": "O som viaja mais rápido nele"
+      },
+      "existentes": [
+        {
+          "id": "q03122",
+          "pergunta": "O nome do hélio vem da palavra grega helios. Que astro essa palavra designa?",
+          "resposta": "Sol"
+        },
+        {
+          "id": "q09414",
+          "pergunta": "Usado para resfriar os ímãs dos aparelhos de ressonância magnética, que elemento químico tem o ponto de ebulição mais baixo de todos?",
+          "resposta": "Hélio"
+        },
+        {
+          "id": "q15530",
+          "pergunta": "Qual é o único elemento químico que não se solidifica sob pressão normal, mesmo resfriado até perto do zero absoluto?",
+          "resposta": "Hélio"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Nos anos 1920, o químico alemão Fritz Haber tentou extrair ouro da água do mar. Com que objetivo?",
+        "resposta": "Pagar reparações de guerra"
+      },
+      "existentes": [
+        {
+          "id": "q03165",
+          "pergunta": "Que químico alemão, Nobel de Química de 1918 pela síntese da amônia, supervisionou o ataque com gás cloro em Ypres, em 1915?",
+          "resposta": "Fritz Haber"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Na natureza, para que plantas como o cafeeiro e o guaraná produzem cafeína?",
+        "resposta": "Defesa contra insetos"
+      },
+      "existentes": [
+        {
+          "id": "q05902",
+          "pergunta": "O que o escritor alemão Goethe tem a ver com a descoberta da cafeína, em 1819?",
+          "resposta": "Deu a Runge os grãos de café analisados"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Inaugurada com a cor avermelhada do cobre, por que a Estátua da Liberdade, em Nova York, hoje é verde?",
+        "resposta": "O cobre formou uma pátina"
+      },
+      "existentes": [
+        {
+          "id": "q04107",
+          "pergunta": "Que elemento químico metálico é este?",
+          "resposta": "Cobre"
+        },
+        {
+          "id": "q05897",
+          "pergunta": "O nome latino do cobre, cuprum, vem de uma ilha do Mediterrâneo que era grande fornecedora do metal na Antiguidade. Que ilha?",
+          "resposta": "Chipre"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Por que o gás de cozinha tem aquele cheiro forte e característico?",
+        "resposta": "Recebe aditivo contra vazamentos"
+      },
+      "existentes": [
+        {
+          "id": "q05485",
+          "pergunta": "Puro, o gás de cozinha não tem cheiro. Que substância de odor forte é adicionada a ele para denunciar vazamentos?",
+          "resposta": "Mercaptana"
+        },
+        {
+          "id": "q09427",
+          "pergunta": "O gás do botijão de cozinha é uma mistura de dois gases derivados do petróleo. Quais são eles?",
+          "resposta": "Propano e butano"
+        },
+        {
+          "id": "q17774",
+          "pergunta": "O botijão de gás de cozinha mais comum nas casas brasileiras guarda quantos quilos de gás?",
+          "resposta": "Treze quilos"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "O último conto de A Tabela Periódica, de Primo Levi, acompanha a longa viagem de um átomo. Que elemento dá nome a esse conto?",
+        "resposta": "Carbono"
+      },
+      "existentes": [
+        {
+          "id": "q09448",
+          "pergunta": "Que escritor italiano, químico e sobrevivente de Auschwitz, escreveu um livro de contos em que cada capítulo leva o nome de um elemento?",
+          "resposta": "Primo Levi"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Que metal, adicionado ao ferro, forma uma película protetora invisível e impede que o aço inoxidável enferruje?",
+        "resposta": "Cromo"
+      },
+      "existentes": [
+        {
+          "id": "q05881",
+          "pergunta": "Em 1913, o aço inoxidável foi desenvolvido numa cidade inglesa já famosa por suas facas e talheres. Que cidade?",
+          "resposta": "Sheffield"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Nos fogos de artifício, a cor verde costuma vir de sais de que elemento químico?",
+        "resposta": "Bário"
+      },
+      "existentes": [
+        {
+          "id": "q03161",
+          "pergunta": "Nos fogos de artifício, sais de que elemento, o mesmo das lâmpadas amareladas de rua, produzem a cor amarela?",
+          "resposta": "Sódio"
+        },
+        {
+          "id": "q07691",
+          "pergunta": "Na China antiga, bambus estourando no fogo e depois fogos de artifício eram usados em festas como o ano-novo. Com que objetivo?",
+          "resposta": "Espantar maus espíritos"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "No fósforo de segurança, o fósforo vermelho que ajuda a acender a chama não fica na cabeça do palito. Onde ele fica?",
+        "resposta": "Na lixa da caixa"
+      },
+      "existentes": [
+        {
+          "id": "q03155",
+          "pergunta": "O fósforo de segurança, que só acende riscado na lixa da caixa, foi desenvolvido no século dezenove em que país?",
+          "resposta": "Suécia"
+        },
+        {
+          "id": "q07314",
+          "pergunta": "No fósforo de segurança, o fósforo vermelho que ajuda a produzir a chama não fica na cabeça do palito. Onde ele fica?",
+          "resposta": "Na lixa da caixa"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Superando até o cobre dos fios elétricos, que metal é o melhor condutor de eletricidade?",
+        "resposta": "Prata"
+      },
+      "existentes": [
+        {
+          "id": "q05901",
+          "pergunta": "Na alquimia, cada um dos sete metais da Antiguidade era ligado a um astro, e o ouro era o Sol. Que metal correspondia à Lua?",
+          "resposta": "Prata"
+        },
+        {
+          "id": "q07287",
+          "pergunta": "Qual destes metais é o melhor condutor de eletricidade?",
+          "resposta": "Prata"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Em 1995, os restos mortais de Marie Curie e do marido, Pierre, foram transferidos para que monumento de Paris?",
+        "resposta": "Panteão"
+      },
+      "existentes": [
+        {
+          "id": "q00868",
+          "pergunta": "Que elemento químico, batizado em homenagem à terra natal desta cientista, ela descobriu?",
+          "resposta": "Polônio"
+        },
+        {
+          "id": "q03158",
+          "pergunta": "Em que ano o casal Pierre e Marie Curie anunciou a descoberta do polônio e do rádio?",
+          "resposta": "1898"
+        },
+        {
+          "id": "q04400",
+          "pergunta": "Durante a Primeira Guerra, Marie Curie organizou ambulâncias equipadas com que tecnologia para examinar soldados feridos perto do front?",
+          "resposta": "Raios X"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Número de elementos conhecidos é fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Meia-vida não é perguntada nas existentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pentágonos vs. homenageado."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Valor do número vs. identificação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Dureza da unha é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Número de substâncias simples é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Densidade máxima a 4 °C é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Proporção da mistura; existente pergunta o nome."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Origem do nome oxigênio, outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q04294",
+      "motivo": "Mesmo significado de adamas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Significado do nome tungstênio, distinto do símbolo W."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Etimologia de aurum/aurora, fato novo."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Saturnismo é fato distinto."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Apelido no obituário é detalhe diferente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Etimologia vs. ácido."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "id_existente": "q04619",
+      "motivo": "Pergunta idêntica."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Etimologia de Argentina, fato distinto."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Confusão com chumbo é fato novo."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Relação com Suttner é fato novo."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Fato distinto."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Chapeleiro é fato novo."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Previsão de Mendeleev é novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Vitamina C é novo."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Uso na bomba atômica é novo."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "id_existente": "q04131",
+      "motivo": "Brilho azul já perguntado."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Cadernos radioativos é novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Voz com hélio é novo."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Ouro do mar é novo."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Função da cafeína é nova."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Pátina é novo."
+    },
+    {
+      "caso": 32,
+      "decisao": "repete",
+      "id_existente": "q05485",
+      "motivo": "Cheiro vem de aditivo para vazamentos; mesmo fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Conto Carbono é novo."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Cromo é novo."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Cor verde é outro fato."
+    },
+    {
+      "caso": 36,
+      "decisao": "repete",
+      "id_existente": "q07314",
+      "motivo": "Pergunta idêntica."
+    },
+    {
+      "caso": 37,
+      "decisao": "repete",
+      "id_existente": "q07287",
+      "motivo": "Mesmo fato: melhor condutor."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Panteão é novo."
+    }
+  ]
+}

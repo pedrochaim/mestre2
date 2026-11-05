@@ -1,0 +1,438 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma 63 elementos em 1869; enunciado preciso e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Escala logarítmica: cada unidade de pH vale dez vezes; fato sólido e distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Meia-vida de cerca de 5.730 anos confirmada na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doze pentágonos e vinte hexágonos confirmados; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Valor 6,022×10^23 confirmado; pergunta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Unha tem dureza cerca de 2,5 na escala de Mohs, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Número de patentes é um detalhe arbitrário e pouco memorável, impossível de deduzir.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma 33 substâncias no Tratado de 1789.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Densidade máxima da água a cerca de 4 °C confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Proporção 1:3 de nítrico para clorídrico confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A contagem é ambígua (3 prêmios, 5 laureados) e as fontes divergem entre si.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lavoisier achava que o oxigênio estava em todos os ácidos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Resposta com duas palavras hesita entre sentidos; reduzir a uma só.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A palavra diamante vem do grego adamas. Que qualidade esse nome atribuía à pedra?",
+        "resposta": "Indomável",
+        "distratores": [
+          "Transparente",
+          "Luminosa",
+          "Gelada"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Diamond",
+          "https://pt.wikipedia.org/wiki/Diamante"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Azote significa sem vida, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Platina é diminutivo espanhol de plata; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tungstênio significa pedra pesada em sueco; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aurum e aurora compartilham a raiz indo-europeia, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Saturnismo é sinônimo de intoxicação por chumbo; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o obituário é história não verificada; enunciado precisa assumir isso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Segundo uma lenda famosa, em 1888 um jornal francês publicou por engano o obituário de Alfred Nobel. Que apelido o texto dava a ele?",
+        "resposta": "O mercador da morte",
+        "distratores": [
+          "O rei da pólvora",
+          "O pai das bombas",
+          "O químico do diabo"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Alfred_Nobel",
+          "https://pt.wikipedia.org/wiki/Alfred_Nobel"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vinagre vem de vinho azedo; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Chegou aos europeus via latim, a partir do árabe; pergunta ambígua. Perguntar a origem da palavra.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A palavra alquimia vem de al-kimiya, termo de que idioma?",
+        "resposta": "Árabe",
+        "distratores": [
+          "Grego",
+          "Latim",
+          "Hebraico"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Alchemy",
+          "https://pt.wikipedia.org/wiki/Alquimia"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gás derivado de khaos, segundo a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Theobroma significa alimento dos deuses, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ag e Argentina vêm de argentum; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grafite foi confundido com chumbo por aparência semelhante; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Suttner foi secretária de Nobel; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Thatcher foi aluna de Hodgkin em Oxford; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chapeleiros se intoxicavam com mercúrio na feltragem; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mendeleev previu o eka-alumínio, depois identificado como gálio.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pauling defendeu vitamina C em altas doses contra resfriados; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pista sobre a gravitação entrega Newton sozinha, e a alquimia vira enfeite.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Teflon vedou equipamentos com hexafluoreto de urânio no Projeto Manhattan; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Kalium e álcali vêm do árabe qali, cinzas de plantas; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, mas o ângulo correto é atributo, não causa.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Em 1987, em Goiânia, o que encantou as pessoas que manusearam o pó de césio retirado da cápsula?",
+        "resposta": "O brilho azul no escuro",
+        "distratores": [
+          "O cheiro adocicado",
+          "A cor dourada",
+          "O calor que emitia"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Acidente_radiol%C3%B3gico_de_Goi%C3%A2nia",
+          "https://en.wikipedia.org/wiki/Goi%C3%A2nia_accident"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Papéis radioativos guardados em caixas forradas de chumbo; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O som é mais rápido no hélio, elevando os formantes da voz; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Haber buscou ouro no mar para pagar as reparações alemãs; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cafeína atua como pesticida natural; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oxidação do cobre formou a pátina verde; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O GLP recebe odorizante (mercaptanas) para detectar vazamentos; fato certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cloraminas do cloro com suor e urina causam o cheiro; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Obteve pela primeira vez' é impreciso (síntese anterior, c. 1630); trocar por 'creditado com a descoberta'.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que químico sueco, também um dos descobridores do oxigênio, é creditado com a descoberta do gás cloro, em 1774?",
+        "resposta": "Carl Wilhelm Scheele",
+        "distratores": [
+          "Jöns Jacob Berzelius",
+          "Anders Celsius",
+          "Svante Arrhenius"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Chlorine",
+          "https://en.wikipedia.org/wiki/Carl_Wilhelm_Scheele"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O conto Carbono narra a história de um átomo e encerra o livro.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cromo forma a película passiva do inox; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sais de bário dão cor verde aos fogos; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fósforo vermelho fica na superfície de atrito da caixa; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prata tem a maior condutividade elétrica entre os metais; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ferro é o elemento mais abundante da Terra em massa; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; 2019 foi o Ano Internacional da Tabela Periódica, troco por artigo seguro.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Para marcar os cento e cinquenta anos da tabela de Mendeleev, a ONU proclamou o Ano Internacional da Tabela Periódica. Que ano foi esse?",
+        "resposta": "2019",
+        "distratores": [
+          "2009",
+          "2011",
+          "2016"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Periodic_table",
+          "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Restos de Marie e Pierre Curie foram para o Panteão em 1995; confirmado.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Diamante",
+        "descricao": "Forma cristalina do carbono, o mineral natural mais duro, usado como pedra preciosa e em ferramentas de corte.",
+        "variantes": [
+          "Diamond"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diamante",
+          "nome": "Diamante",
+          "descricao": "Mineral formado por carbono puro cristalizado, o mais duro da natureza, usado como gema.",
+          "variantes": [
+            "Diamond"
+          ]
+        },
+        {
+          "id": "ouros_naipe",
+          "nome": "Ouros (naipe)",
+          "descricao": "Naipe vermelho do baralho francês, representado por um losango.",
+          "variantes": [
+            "Ouros",
+            "Diamonds",
+            "Losango"
+          ]
+        },
+        {
+          "id": "diamantina",
+          "nome": "Diamantina",
+          "descricao": "Cidade histórica de Minas Gerais, antigo centro de mineração de diamantes no século dezoito.",
+          "variantes": [
+            "Arraial do Tijuco"
+          ]
+        },
+        {
+          "id": "dante_alighieri",
+          "nome": "Dante Alighieri",
+          "descricao": "Poeta florentino, autor da Divina Comédia.",
+          "variantes": [
+            "Dante"
+          ]
+        },
+        {
+          "id": "diamante_hope",
+          "nome": "Diamante Hope",
+          "descricao": "Diamante azul de 45,52 quilates, vindo da Índia, hoje no Smithsonian.",
+          "variantes": [
+            "Hope Diamond",
+            "Azul da França"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Nitrogênio",
+        "descricao": "Elemento químico gasoso de número atômico 7, o principal componente do ar.",
+        "variantes": [
+          "Azoto",
+          "Nitrogen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hidrogenio",
+          "nome": "Hidrogênio",
+          "descricao": "Elemento químico de número atômico 1, o mais leve de todos, que forma água ao se combinar com o oxigênio.",
+          "variantes": [
+            "Hydrogen"
+          ]
+        },
+        {
+          "id": "kazoo",
+          "nome": "Kazoo",
+          "descricao": "Instrumento que acrescenta um timbre zumbido à voz de quem vocaliza nele, por meio de uma membrana vibrante.",
+          "variantes": [
+            "Mirliton"
+          ]
+        },
+        {
+          "id": "nitroglicerina",
+          "nome": "Nitroglicerina",
+          "descricao": "Composto explosivo líquido e instável, criado em 1847, base da dinamite.",
+          "variantes": [
+            "Trinitrato de glicerina"
+          ]
+        },
+        {
+          "id": "chocolates_garoto",
+          "nome": "Chocolates Garoto",
+          "descricao": "Fabricante brasileira de chocolates fundada em 1929 em Vila Velha pelo imigrante alemão Heinrich Meyerfreund.",
+          "variantes": [
+            "Garoto"
+          ]
+        },
+        {
+          "id": "zigoto",
+          "nome": "Zigoto",
+          "descricao": "Célula diploide formada pela fusão de dois gametas na fecundação.",
+          "variantes": [
+            "Ovo fecundado",
+            "Célula-ovo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Platina",
+        "descricao": "Elemento químico metálico de número atômico 78, metal precioso branco-acinzentado, denso e resistente à corrosão.",
+        "variantes": [
+          "Platinum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "polaina",
+          "nome": "Polaina",
+          "descricao": "Acessório de feltro ou couro que cobre o peito do pé e o tornozelo, preso por botões.",
+          "variantes": [
+            "Spats",
+            "Polainas"
+          ]
+        },
+        {
+          "id": "michel_platini",
+          "nome": "Michel Platini",
+          "descricao": "Ex-meia francês, tricampeão seguido da Bola de Ouro (1983 a 1985) pela Juventus e ex-presidente da UEFA.",
+          "variantes": [
+            "Platini"
+          ]
+        },
+        {
+          "id": "gelatina",
+          "nome": "Gelatina",
+          "descricao": "Sobremesa feita com gelatina, que endurece e vira um gel macio e elástico.",
+          "variantes": [
+            "Gelatina colorida",
+            "Jelly",
+            "Jello"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Alquimia",
+        "descricao": "Tradição antiga e medieval que buscava transformar metais em ouro e criar o elixir da vida, precursora da química.",
+        "variantes": [
+          "Alchemy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_alquimista",
+          "nome": "O Alquimista",
+          "descricao": "Romance de Paulo Coelho publicado em 1988, sobre a viagem do pastor andaluz Santiago em busca de um tesouro.",
+          "variantes": [
+            "The Alchemist"
+          ]
+        },
+        {
+          "id": "valquirias",
+          "nome": "Valquírias",
+          "descricao": "Figuras femininas da mitologia nórdica que escolhem quais guerreiros morrem em batalha.",
+          "variantes": [
+            "Valkyries",
+            "Valkyrjur"
+          ]
+        },
+        {
+          "id": "quibla",
+          "nome": "Quibla",
+          "descricao": "Direção para a qual os muçulmanos se voltam ao rezar",
+          "variantes": [
+            "Qibla",
+            "Alquibla"
+          ]
+        },
+        {
+          "id": "alce",
+          "nome": "Alce",
+          "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+          "variantes": [
+            "Alces alces",
+            "Moose",
+            "Elk"
+          ]
+        },
+        {
+          "id": "aguia_legionaria",
+          "nome": "Águia legionária",
+          "descricao": "Estandarte de cada legião romana, encimado por uma águia, cuja perda era considerada grande desonra.",
+          "variantes": [
+            "Aquila"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gás",
+        "descricao": "Estado físico da matéria em que as partículas se espalham livremente e ocupam todo o recipiente, cujo nome foi criado por Jan Baptist van Helmont.",
+        "variantes": [
+          "Estado gasoso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gas",
+          "nome": "Gás",
+          "descricao": "Estado da matéria em que as partículas se movem livremente e ocupam todo o recipiente, cujo nome foi criado no século dezessete.",
+          "variantes": [
+            "Estado gasoso"
+          ]
+        },
+        {
+          "id": "as_carta_de_baralho",
+          "nome": "Ás (carta de baralho)",
+          "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+          "variantes": [
+            "Ás",
+            "Ace"
+          ]
+        },
+        {
+          "id": "carl_friedrich_gauss",
+          "nome": "Carl Friedrich Gauss",
+          "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+          "variantes": [
+            "Johann Carl Friedrich Gauss",
+            "Gauß",
+            "Gauss"
+          ]
+        },
+        {
+          "id": "vidro",
+          "nome": "Vidro",
+          "descricao": "Material sólido amorfo e transparente, feito principalmente de sílica, usado em janelas e garrafas.",
+          "variantes": [
+            "Glass"
+          ]
+        },
+        {
+          "id": "goias",
+          "nome": "Goiás",
+          "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+          "variantes": [
+            "Estado de Goiás"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Teobromina",
+        "descricao": "Substância estimulante amarga presente no cacau e no chocolate, parente da cafeína e tóxica para cães.",
+        "variantes": [
+          "Theobromine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bromo",
+          "nome": "Bromo",
+          "descricao": "Elemento químico de número atômico 35, um halogênio que é líquido castanho-avermelhado em temperatura ambiente.",
+          "variantes": [
+            "Bromine"
+          ]
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "heterocromia",
+          "nome": "Heterocromia",
+          "descricao": "Variação de coloração, em geral íris de cores diferentes nos dois olhos.",
+          "variantes": [
+            "Heterocromia da íris"
+          ]
+        },
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        },
+        {
+          "id": "heroina",
+          "nome": "Heroína",
+          "descricao": "Droga opioide derivada da morfina, a diacetilmorfina, comercializada originalmente como medicamento.",
+          "variantes": [
+            "Diacetilmorfina",
+            "Diamorfina",
+            "Heroin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Potássio",
+        "descricao": "Elemento químico de símbolo K e número atômico 19, metal alcalino macio e essencial ao organismo.",
+        "variantes": [
+          "Kalium",
+          "Potassium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kali",
+          "nome": "Kali",
+          "descricao": "Deusa hindu associada ao tempo, à morte e à destruição, representada em cor azul-escura.",
+          "variantes": [
+            "Kalika",
+            "Cáli"
+          ]
+        },
+        {
+          "id": "galio",
+          "nome": "Gálio",
+          "descricao": "Elemento químico metálico de número atômico 31, prateado, que funde a cerca de trinta graus Celsius.",
+          "variantes": [
+            "Gallium"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "pintassilgo_de_cabeca_preta",
+          "nome": "Pintassilgo-de-cabeça-preta",
+          "descricao": "Pequena ave Spinus magellanicus, de capuz preto e corpo amarelo, encontrada em quase toda a América do Sul.",
+          "variantes": [
+            "Pintassilgo",
+            "Hooded siskin",
+            "Spinus magellanicus"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cloro",
+        "descricao": "Elemento químico de número atômico 17, halogênio gasoso amarelo-esverdeado usado para desinfetar a água.",
+        "variantes": [
+          "Chlorine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corto_maltese",
+          "nome": "Corto Maltese",
+          "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+          "variantes": [
+            "Corto"
+          ]
+        },
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        },
+        {
+          "id": "chopine",
+          "nome": "Chopine",
+          "descricao": "Sapato feminino de plataforma altíssima usado na Europa entre os séculos quinze e dezessete",
+          "variantes": [
+            "Chopines",
+            "Chapins"
+          ]
+        },
+        {
+          "id": "folha_de_louro",
+          "nome": "Folha de louro",
+          "descricao": "Folha aromática do loureiro (Laurus nobilis), usada como tempero em cozidos.",
+          "variantes": [
+            "Louro",
+            "Folha de loureiro",
+            "Bay leaf"
+          ]
+        },
+        {
+          "id": "corvo",
+          "nome": "Corvo",
+          "descricao": "Grande ave negra da família dos corvídeos, Corvus corax, a mais difundida no Hemisfério Norte.",
+          "variantes": [
+            "Corvo-comum",
+            "Common raven",
+            "Corvus corax"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ferro",
+        "descricao": "Elemento químico de símbolo Fe e número atômico 26, metal base do aço e principal componente do núcleo da Terra.",
+        "variantes": [
+          "Iron",
+          "Ferrum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ferrugem",
+          "nome": "Ferrugem",
+          "descricao": "Óxido de ferro marrom-avermelhado formado pela reação do ferro com oxigênio na presença de água.",
+          "variantes": [
+            "Óxido de ferro"
+          ]
+        },
+        {
+          "id": "rum",
+          "nome": "Rum",
+          "descricao": "Bebida destilada de origem caribenha feita do melaço ou do caldo da cana-de-açúcar.",
+          "variantes": [
+            "Ron"
+          ]
+        },
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó",
+            "Forró pé de serra"
+          ]
+        },
+        {
+          "id": "fedro",
+          "nome": "Fedro",
+          "descricao": "Diálogo de Platão sobre o amor e a retórica, onde aparece a alegoria da alma como uma carruagem.",
+          "variantes": [
+            "Phaedrus"
+          ]
+        },
+        {
+          "id": "lairon",
+          "nome": "Lairon",
+          "descricao": "Pokémon dos tipos Aço e Pedra, número 305 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Tabela periódica",
+        "descricao": "Quadro que organiza os elementos químicos por número atômico, em linhas e colunas de propriedades semelhantes.",
+        "variantes": [
+          "Tabela periódica dos elementos",
+          "Periodic table"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_tabela_periodica",
+          "nome": "A Tabela Periódica",
+          "descricao": "Livro de contos de 1975 do escritor e químico italiano Primo Levi, com capítulos nomeados por elementos químicos.",
+          "variantes": [
+            "Il sistema periodico",
+            "The Periodic Table"
+          ]
+        },
+        {
+          "id": "cigarra_periodica",
+          "nome": "Cigarra-periódica",
+          "descricao": "Cigarras norte-americanas do gênero Magicicada, cujas ninfas emergem em massa em ciclos de treze ou dezessete anos.",
+          "variantes": [
+            "Magicicada",
+            "periodical cicada",
+            "Cigarras periódicas"
+          ]
+        },
+        {
+          "id": "tavola_redonda",
+          "nome": "Távola Redonda",
+          "descricao": "Mesa lendária em que o rei Artur reunia seus cavaleiros em Camelot.",
+          "variantes": [
+            "Mesa Redonda",
+            "Round Table",
+            "Cavaleiros da Távola Redonda"
+          ]
+        },
+        {
+          "id": "tabla",
+          "nome": "Tabla",
+          "descricao": "Par de tambores de mão do subcontinente indiano, usado na música clássica hindustani.",
+          "variantes": [
+            "Tabla indiana"
+          ]
+        },
+        {
+          "id": "peruca",
+          "nome": "Peruca",
+          "descricao": "Cabeleira postiça usada como adorno ou para cobrir a calvície, moda na corte europeia dos séculos dezessete e dezoito",
+          "variantes": [
+            "Wig",
+            "Cabeleira postiça"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "diamante",
+      "motivo": "Mesmo mineral, carbono cristalizado, mais duro da natureza."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o nitrogênio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Platina (elemento) não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Alquimia como tradição difere do romance O Alquimista."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "gas",
+      "motivo": "Mesmo estado da matéria, mesmo nome e variante, origem do termo no século XVII."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Teobromina não consta nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Potássio não consta nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Cloro não consta nas candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ferro (elemento) difere de ferrugem e das outras candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Tabela periódica dos elementos difere do livro de Primo Levi."
+    }
+  ]
+}

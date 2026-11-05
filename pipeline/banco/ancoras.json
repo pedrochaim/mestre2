@@ -12882,7 +12882,8 @@
     "nome": "Antoine Lavoisier",
     "descricao": "Químico francês do século dezoito, central na revolução química e na descoberta do papel do oxigênio na combustão.",
     "variantes": [
-      "Antoine-Laurent de Lavoisier"
+      "Antoine-Laurent de Lavoisier",
+      "Lavoisier"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Antoine_Lavoisier",
@@ -48019,7 +48020,8 @@
     "descricao": "Contaminação por césio-137 ocorrida em 1987, a partir de um aparelho de radioterapia abandonado.",
     "variantes": [
       "Acidente do césio-137",
-      "Goiânia accident"
+      "Goiânia accident",
+      "Acidente com o césio-137"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Acidente_radiol%C3%B3gico_de_Goi%C3%A2nia",
@@ -48056,7 +48058,8 @@
     "descricao": "Artefatos pirotécnicos que explodem em luzes coloridas, cujas cores vêm de sais metálicos.",
     "variantes": [
       "Fireworks",
-      "Rojões"
+      "Rojões",
+      "Pirotecnia"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Fireworks"
@@ -48073,7 +48076,8 @@
     "nome": "Escala de Mohs",
     "descricao": "Escala de dureza de minerais de um a dez, criada pelo mineralogista alemão Friedrich Mohs em 1812.",
     "variantes": [
-      "Mohs scale"
+      "Mohs scale",
+      "Escala de dureza de Mohs"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mohs_scale",
@@ -48098,7 +48102,10 @@
       "wikidata": "Q57075",
       "pt": 637,
       "en": 26972
-    }
+    },
+    "variantes": [
+      "Haber"
+    ]
   },
   {
     "id": "galio",
@@ -61616,7 +61623,8 @@
     "variantes": [
       "Cu",
       "Cobre nativo",
-      "Cuprum"
+      "Cuprum",
+      "Copper"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Copper",
@@ -61655,7 +61663,8 @@
     "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
     "variantes": [
       "Au",
-      "Gold"
+      "Gold",
+      "Aurum"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Gold",
@@ -86539,7 +86548,9 @@
     "nome": "Aço inoxidável",
     "descricao": "Liga de ferro com cromo que resiste à corrosão, desenvolvida por Harry Brearley em 1913.",
     "variantes": [
-      "Inox"
+      "Inox",
+      "Aço inox",
+      "Stainless steel"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Stainless_steel"
@@ -86833,7 +86844,8 @@
     "descricao": "Elemento químico de símbolo Ag e número atômico 47, metal branco e brilhante, um dos metais conhecidos desde a Antiguidade.",
     "variantes": [
       "Ag",
-      "Silver"
+      "Silver",
+      "Argentum"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Silver",
@@ -86859,7 +86871,10 @@
       "wikidata": "Q60235",
       "pt": 1363,
       "en": 49604
-    }
+    },
+    "variantes": [
+      "Caffeine"
+    ]
   },
   {
     "id": "vidro_de_murano",
@@ -116071,7 +116086,8 @@
     "nome": "Amedeo Avogadro",
     "descricao": "Cientista italiano que deu nome à lei e à constante de Avogadro.",
     "variantes": [
-      "Lorenzo Romano Amedeo Carlo Avogadro"
+      "Lorenzo Romano Amedeo Carlo Avogadro",
+      "Avogadro"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Amedeo_Avogadro",
@@ -131845,7 +131861,8 @@
     "descricao": "Elemento químico de número atômico 80, metal prateado que é líquido em temperatura ambiente.",
     "variantes": [
       "Mercúrio (elemento químico)",
-      "Hidrargírio"
+      "Hidrargírio",
+      "Mercury"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(elemento_qu%C3%ADmico)",
@@ -131871,7 +131888,10 @@
       "wikidata": "Q629",
       "pt": 1604,
       "en": 45491
-    }
+    },
+    "variantes": [
+      "Oxygen"
+    ]
   },
   {
     "id": "fluor",
@@ -131931,7 +131951,10 @@
       "wikidata": "Q41354",
       "pt": 782,
       "en": 27049
-    }
+    },
+    "variantes": [
+      "Vinegar"
+    ]
   },
   {
     "id": "porcelana",
@@ -226977,6 +227000,106 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Wall_cloud",
       "https://pt.wikipedia.org/wiki/Wall_Cloud"
+    ]
+  },
+  {
+    "id": "nitrogenio",
+    "nome": "Nitrogênio",
+    "descricao": "Elemento químico gasoso de número atômico 7, o principal componente do ar.",
+    "variantes": [
+      "Azoto",
+      "Nitrogen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nitrogen",
+      "https://pt.wikipedia.org/wiki/Nitrog%C3%AAnio"
+    ]
+  },
+  {
+    "id": "platina",
+    "nome": "Platina",
+    "descricao": "Elemento químico metálico de número atômico 78, metal precioso branco-acinzentado, denso e resistente à corrosão.",
+    "variantes": [
+      "Platinum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Platinum",
+      "https://pt.wikipedia.org/wiki/Platina"
+    ]
+  },
+  {
+    "id": "alquimia",
+    "nome": "Alquimia",
+    "descricao": "Tradição antiga e medieval que buscava transformar metais em ouro e criar o elixir da vida, precursora da química.",
+    "variantes": [
+      "Alchemy"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alchemy",
+      "https://pt.wikipedia.org/wiki/Alquimia"
+    ]
+  },
+  {
+    "id": "teobromina",
+    "nome": "Teobromina",
+    "descricao": "Substância estimulante amarga presente no cacau e no chocolate, parente da cafeína e tóxica para cães.",
+    "variantes": [
+      "Theobromine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Theobromine",
+      "https://pt.wikipedia.org/wiki/Teobromina"
+    ]
+  },
+  {
+    "id": "potassio",
+    "nome": "Potássio",
+    "descricao": "Elemento químico de símbolo K e número atômico 19, metal alcalino macio e essencial ao organismo.",
+    "variantes": [
+      "Kalium",
+      "Potassium"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Potassium",
+      "https://pt.wikipedia.org/wiki/Pot%C3%A1ssio"
+    ]
+  },
+  {
+    "id": "cloro",
+    "nome": "Cloro",
+    "descricao": "Elemento químico de número atômico 17, halogênio gasoso amarelo-esverdeado usado para desinfetar a água.",
+    "variantes": [
+      "Chlorine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chlorine",
+      "https://pt.wikipedia.org/wiki/Cloro"
+    ]
+  },
+  {
+    "id": "ferro",
+    "nome": "Ferro",
+    "descricao": "Elemento químico de símbolo Fe e número atômico 26, metal base do aço e principal componente do núcleo da Terra.",
+    "variantes": [
+      "Iron",
+      "Ferrum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Iron",
+      "https://pt.wikipedia.org/wiki/Ferro"
+    ]
+  },
+  {
+    "id": "tabela_periodica",
+    "nome": "Tabela periódica",
+    "descricao": "Quadro que organiza os elementos químicos por número atômico, em linhas e colunas de propriedades semelhantes.",
+    "variantes": [
+      "Tabela periódica dos elementos",
+      "Periodic table"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Periodic_table",
+      "https://pt.wikipedia.org/wiki/Tabela_peri%C3%B3dica"
     ]
   }
 ]
