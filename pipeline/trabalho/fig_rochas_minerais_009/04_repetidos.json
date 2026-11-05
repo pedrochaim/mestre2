@@ -1,0 +1,118 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que formação geológica das Filipinas é esta?",
+        "resposta": "Colinas de Chocolate"
+      },
+      "existentes": [
+        {
+          "id": "q18519",
+          "pergunta": "Em que país asiático ficam estas colinas?",
+          "resposta": "Filipinas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que montanha é esta?",
+        "resposta": "Matterhorn (Monte Cervino)"
+      },
+      "existentes": [
+        {
+          "id": "q03871",
+          "pergunta": "Que montanha dos Alpes é esta?",
+          "resposta": "Matterhorn"
+        },
+        {
+          "id": "q06709",
+          "pergunta": "Em 1865, que alpinista inglês liderou a primeira escalada do Matterhorn, que terminou com quatro mortes na descida?",
+          "resposta": "Edward Whymper"
+        },
+        {
+          "id": "q09619",
+          "pergunta": "Segundo os geólogos, as rochas do alto do Matterhorn vieram de um pedaço de crosta ligado a qual continente, empurrado contra a Europa?",
+          "resposta": "África"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que morro da Chapada Diamantina, na Bahia, é este?",
+        "resposta": "Morro do Pai Inácio"
+      },
+      "existentes": [
+        {
+          "id": "q02338",
+          "pergunta": "Em que estado brasileiro fica este morro?",
+          "resposta": "Bahia"
+        },
+        {
+          "id": "q16828",
+          "pergunta": "Que morro da Chapada Diamantina é este?",
+          "resposta": "Morro do Pai Inácio"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O que é esta estrutura, fotografada ao microscópio?",
+        "resposta": "Floco de neve"
+      },
+      "existentes": [
+        {
+          "id": "q08719",
+          "pergunta": "Por causa da forma como as moléculas de água se arrumam no gelo, quantas pontas costuma ter um floco de neve?",
+          "resposta": "Seis"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que tipo de rocha forma este rochedo?",
+        "resposta": "Calcário"
+      },
+      "existentes": [
+        {
+          "id": "q05318",
+          "pergunta": "Que marco natural europeu, de calcário, é este?",
+          "resposta": "Rochedo de Gibraltar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome da formação, a outra o país; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação da montanha Matterhorn a partir da imagem.",
+      "id_existente": "q03871"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar o Morro do Pai Inácio.",
+      "id_existente": "q16828"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar a estrutura como floco de neve é diferente de saber o número de pontas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome do marco; a nova pede o tipo de rocha. A existente menciona calcário no enunciado, mas o fato perguntado é outro."
+    }
+  ]
+}

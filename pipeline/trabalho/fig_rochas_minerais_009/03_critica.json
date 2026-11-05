@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A posição \"à direita\" não é verificável pelo texto e depende da foto. O enunciado também entrega o conjunto de três quedas, e o fato (a maior é a Ferradura) é respondido sem olhar a imagem. Dois distratores (Cataratas Americanas, Véu de Noiva) são quedas do próprio conjunto. Na dúvida, descarta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta e a resposta estão corretas e sustentadas pelos trechos. Mas \"Colinas de Waitomo\" e \"Colinas de Tsingy\" são formações inventadas ou mal nomeadas (Waitomo é de cavernas, Tsingy é um relevo de Madagascar). Troco por formações reais e visualmente plausíveis.",
+      "reescrita": {
+        "pergunta": "Que formação geológica das Filipinas é esta?",
+        "resposta": "Colinas de Chocolate",
+        "distratores": [
+          "Montes de Guilin",
+          "Baía de Ha Long",
+          "Cones da Capadócia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento. Resposta confirmada pelos trechos e distratores são montanhas famosas e críveis, nenhuma delas correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado situa a região sem entregar o nome. A resposta é única e confirmada pelos trechos. Os distratores são do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Cristal de gelo\" é praticamente a definição de floco de neve, o que vaza a resposta. Além disso, \"neve granulada\" e \"geada\" também são formas de gelo cristalino, o que enfraquece os distratores. Removo a pista e uso distratores claramente distintos.",
+      "reescrita": {
+        "pergunta": "O que é esta estrutura, fotografada ao microscópio?",
+        "resposta": "Floco de neve",
+        "distratores": [
+          "Granizo",
+          "Geada",
+          "Cristal de sal"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"domina a entrada do Mediterrâneo\" identifica o rochedo sem olhar a figura (teste da imagem coberta). O fato do calcário está nos trechos. Retiro a pista.",
+      "reescrita": {
+        "pergunta": "Que tipo de rocha forma este rochedo?",
+        "resposta": "Calcário",
+        "distratores": [
+          "Granito",
+          "Basalto",
+          "Arenito"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta e a resposta estão corretas e sustentadas pelos trechos. Mas a hematita também pode ser iridescente, então não é um distrator seguro. Troco por pirita.",
+      "reescrita": {
+        "pergunta": "Que mineral iridescente é este?",
+        "resposta": "Bornita",
+        "distratores": [
+          "Malaquita",
+          "Azurita",
+          "Pirita"
+        ]
+      }
+    }
+  ]
+}

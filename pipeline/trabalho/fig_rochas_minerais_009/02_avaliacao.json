@@ -1,0 +1,193 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Panorama claro das quedas, sem texto.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta vista mostra duas das três quedas de um mesmo conjunto. Qual é a maior, à direita?",
+      "resposta": "Horseshoe Falls (Ferradura)",
+      "distratores": [
+        "Cataratas Americanas",
+        "Véu de Noiva",
+        "Cataratas Kaieteur"
+      ],
+      "ancora": {
+        "nome": "Cataratas do Niágara",
+        "descricao": "Conjunto de três quedas no rio Niágara, na fronteira entre Canadá e Estados Unidos.",
+        "variantes": [
+          "Niagara Falls"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Fragmento translúcido segurado por dedos em primeiro plano; não é reconhecível como pedra da lua e a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Colinas cônicas reconhecíveis, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que formação geológica das Filipinas é esta?",
+      "resposta": "Colinas de Chocolate",
+      "distratores": [
+        "Montes de Guilin",
+        "Colinas de Waitomo",
+        "Colinas de Tsingy"
+      ],
+      "ancora": {
+        "nome": "Colinas de Chocolate",
+        "descricao": "Conjunto de mais de mil colinas cônicas cobertas de grama na ilha de Bohol, nas Filipinas.",
+        "variantes": [
+          "Chocolate Hills"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pedaços coloridos e irregulares sobre madeira; não se reconhece como giz de forma única, podendo parecer seixos ou argila."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mostra só a superfície alaranjada da borda da fonte, sem a vista característica; não é reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Fragmento bruto amarelo-esverdeado, minúsculo e de baixa resolução; não identificável como alexandrita."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta piramidal inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que montanha é esta?",
+      "resposta": "Matterhorn (Monte Cervino)",
+      "distratores": [
+        "Weisshorn",
+        "Ama Dablam",
+        "Fitz Roy"
+      ],
+      "ancora": {
+        "nome": "Matterhorn",
+        "descricao": "Montanha piramidal dos Alpes na fronteira entre Suíça e Itália.",
+        "variantes": [
+          "Monte Cervino",
+          "Cervino"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Morro de topo rochoso característico visto da estrada, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que morro da Chapada Diamantina, na Bahia, é este?",
+      "resposta": "Morro do Pai Inácio",
+      "distratores": [
+        "Morro do Camelo",
+        "Morro do Chapéu",
+        "Pico das Almas"
+      ],
+      "ancora": {
+        "nome": "Morro do Pai Inácio",
+        "descricao": "Morro de topo rochoso no município de Palmeiras, na Chapada Diamantina, Bahia.",
+        "variantes": [
+          "Pai Inácio"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Fatia de rocha clara sem traços distintivos, com escala escrita; não é reconhecível como itacolomito."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cristal de gelo em macrofoto nítida, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "O que é este cristal de gelo ampliado?",
+      "resposta": "Floco de neve",
+      "distratores": [
+        "Granizo",
+        "Geada",
+        "Neve granulada"
+      ],
+      "ancora": {
+        "nome": "Floco de neve",
+        "descricao": "Cristal de gelo que cai da atmosfera como neve.",
+        "variantes": [
+          "Snowflake"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Perfil reconhecível do rochedo, imagem pequena mas legível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de rocha forma este rochedo, que domina a entrada do Mediterrâneo?",
+      "resposta": "Calcário",
+      "distratores": [
+        "Granito",
+        "Basalto",
+        "Arenito"
+      ],
+      "ancora": {
+        "nome": "Rochedo de Gibraltar",
+        "descricao": "Monte monolítico de calcário de 426 metros no território britânico de Gibraltar.",
+        "variantes": [
+          "Rock of Gibraltar",
+          "Peñón de Gibraltar"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cristais iridescentes azul-esverdeados característicos, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral iridescente é este?",
+      "resposta": "Bornita",
+      "distratores": [
+        "Malaquita",
+        "Azurita",
+        "Hematita"
+      ],
+      "ancora": {
+        "nome": "Bornita",
+        "descricao": "Mineral sulfeto de cobre e ferro, importante minério de cobre, de cores iridescentes.",
+        "variantes": [
+          "Minério pavão",
+          "Bornite"
+        ]
+      }
+    }
+  ]
+}

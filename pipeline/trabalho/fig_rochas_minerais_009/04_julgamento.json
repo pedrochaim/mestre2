@@ -1,0 +1,388 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Colinas de Chocolate",
+        "descricao": "Conjunto de mais de mil colinas cônicas cobertas de grama na ilha de Bohol, nas Filipinas.",
+        "variantes": [
+          "Chocolate Hills"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "colinas_de_chocolate",
+          "nome": "Colinas de Chocolate",
+          "descricao": "Formação de mais de mil colinas cônicas cobertas de grama na província de Bohol, nas Filipinas.",
+          "variantes": [
+            "Chocolate Hills"
+          ]
+        },
+        {
+          "id": "profiterole",
+          "nome": "Profiterole",
+          "descricao": "Bolinha de massa choux recheada com creme ou sorvete, coberta com calda, de origem francesa.",
+          "variantes": [
+            "Profiteroles",
+            "Chou à la crème",
+            "Bomba de chocolate"
+          ]
+        },
+        {
+          "id": "mousse",
+          "nome": "Mousse",
+          "descricao": "Preparo macio e aerado, doce ou salgado; aqui, de chocolate.",
+          "variantes": [
+            "Mousse de chocolate"
+          ]
+        },
+        {
+          "id": "chocolate",
+          "nome": "Chocolate",
+          "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica.",
+          "variantes": [
+            "Xocolatl"
+          ]
+        },
+        {
+          "id": "cookie_com_gotas_de_chocolate",
+          "nome": "Cookie com gotas de chocolate",
+          "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+          "variantes": [
+            "Chocolate chip cookie",
+            "Toll House cookie",
+            "Cookie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Matterhorn",
+        "descricao": "Montanha piramidal dos Alpes na fronteira entre Suíça e Itália.",
+        "variantes": [
+          "Monte Cervino",
+          "Cervino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "matterhorn",
+          "nome": "Matterhorn",
+          "descricao": "Montanha piramidal dos Alpes na fronteira entre Suíça e Itália, com 4.478 metros.",
+          "variantes": [
+            "Cervino",
+            "Monte Cervino",
+            "Cervin"
+          ]
+        },
+        {
+          "id": "cerio",
+          "nome": "Cério",
+          "descricao": "Elemento químico do grupo das terras raras, de número atômico cinquenta e oito, descoberto em 1803.",
+          "variantes": [
+            "Cerium"
+          ]
+        },
+        {
+          "id": "cravo_da_india",
+          "nome": "Cravo-da-índia",
+          "descricao": "Botão floral seco da árvore Syzygium aromaticum, usado como tempero",
+          "variantes": [
+            "Syzygium aromaticum",
+            "cravinho",
+            "clove"
+          ]
+        },
+        {
+          "id": "montecristo",
+          "nome": "Montecristo",
+          "descricao": "Pequena ilha italiana do arquipélago Toscano, no mar Tirreno, hoje reserva natural.",
+          "variantes": [
+            "Ilha de Montecristo",
+            "Monte Cristo"
+          ]
+        },
+        {
+          "id": "monte_vesuvio",
+          "nome": "Monte Vesúvio",
+          "descricao": "Vulcão no golfo de Nápoles, na Itália, cuja erupção do ano 79 soterrou cidades romanas.",
+          "variantes": [
+            "Vesúvio",
+            "Vesuvius",
+            "Vesuvio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Morro do Pai Inácio",
+        "descricao": "Morro de topo rochoso no município de Palmeiras, na Chapada Diamantina, Bahia.",
+        "variantes": [
+          "Pai Inácio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morro_do_pai_inacio",
+          "nome": "Morro do Pai Inácio",
+          "descricao": "Elevação de topo plano no município de Palmeiras, na Chapada Diamantina, Bahia.",
+          "variantes": [
+            "Pai Inácio"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio",
+            "Pancrátion",
+            "Pancrácio grego"
+          ]
+        },
+        {
+          "id": "morro_dois_irmaos",
+          "nome": "Morro Dois Irmãos",
+          "descricao": "Morro de dois picos entre Leblon e Vidigal, na Zona Sul do Rio de Janeiro.",
+          "variantes": [
+            "Leblon",
+            "Dois Irmãos"
+          ]
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "bandeira_do_pais_basco",
+          "nome": "Bandeira do País Basco",
+          "descricao": "Ikurriña, bandeira da comunidade autônoma do País Basco, com cruz branca e verde sobre fundo vermelho.",
+          "variantes": [
+            "País Basco",
+            "Ikurriña",
+            "Euskadi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Floco de neve",
+        "descricao": "Cristal de gelo que cai da atmosfera como neve.",
+        "variantes": [
+          "Snowflake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "floco_de_neve",
+          "nome": "Floco de neve",
+          "descricao": "Cristal de gelo que se forma nas nuvens e cai como neve",
+          "variantes": [
+            "Snowflake"
+          ]
+        },
+        {
+          "id": "floco_de_neve_o_gorila_albino",
+          "nome": "Floco de Neve, o gorila albino",
+          "descricao": "Gorila-das-planícies-ocidentais de pelagem branca, único conhecido, que viveu no Zoológico de Barcelona até 2003.",
+          "variantes": [
+            "Floquet de Neu",
+            "Copito de Nieve",
+            "Snowflake"
+          ]
+        },
+        {
+          "id": "oculos_de_neve",
+          "nome": "Óculos de neve",
+          "descricao": "Óculos tradicionais de osso ou madeira com fendas estreitas, usados no Ártico contra o brilho da neve.",
+          "variantes": []
+        },
+        {
+          "id": "coco_do_mar",
+          "nome": "Coco-do-mar",
+          "descricao": "Palmeira Lodoicea maldivica, endêmica das Seicheles",
+          "variantes": [
+            "Lodoicea maldivica",
+            "Lodoicea",
+            "coco-de-mer"
+          ]
+        },
+        {
+          "id": "serpentes",
+          "nome": "Serpentes",
+          "descricao": "Subordem de répteis escamados sem patas (Serpentes), que inclui todas as cobras.",
+          "variantes": [
+            "Cobras",
+            "Ofídios",
+            "Snakes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Rochedo de Gibraltar",
+        "descricao": "Monte monolítico de calcário de 426 metros no território britânico de Gibraltar.",
+        "variantes": [
+          "Rock of Gibraltar",
+          "Peñón de Gibraltar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rochedo_de_gibraltar",
+          "nome": "Rochedo de Gibraltar",
+          "descricao": "Montanha monolítica de calcário de 426 metros, na entrada do Mediterrâneo, no território britânico de Gibraltar.",
+          "variantes": [
+            "Penhasco de Gibraltar",
+            "Peñón de Gibraltar",
+            "Rock of Gibraltar"
+          ]
+        },
+        {
+          "id": "gibraltar_1",
+          "nome": "Gibraltar 1",
+          "descricao": "Crânio de Neandertal achado em 1848 na pedreira Forbes, em Gibraltar, antes do fóssil do vale de Neander.",
+          "variantes": [
+            "Crânio de Gibraltar",
+            "Crânio da pedreira Forbes"
+          ]
+        },
+        {
+          "id": "estreito_de_gibraltar",
+          "nome": "Estreito de Gibraltar",
+          "descricao": "Estreito entre o sul da Espanha e o norte da África que liga o oceano Atlântico ao mar Mediterrâneo.",
+          "variantes": [
+            "Gibraltar"
+          ]
+        },
+        {
+          "id": "macaco_de_gibraltar",
+          "nome": "Macaco-de-gibraltar",
+          "descricao": "Macaco do Norte da África (Macaca sylvanus), com população introduzida em Gibraltar.",
+          "variantes": [
+            "Macaco-de-barbária",
+            "Magote",
+            "Macaca sylvanus"
+          ]
+        },
+        {
+          "id": "ponyta",
+          "nome": "Ponyta",
+          "descricao": "Pokémon do tipo Fogo da primeira geração, um pônei de crina e cauda em chamas, número 77 da Pokédex Nacional.",
+          "variantes": [
+            "Ponyta de Galar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bornita",
+        "descricao": "Mineral sulfeto de cobre e ferro, importante minério de cobre, de cores iridescentes.",
+        "variantes": [
+          "Minério pavão",
+          "Bornite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fortnite",
+          "nome": "Fortnite",
+          "descricao": "Jogo online da Epic Games, lançado em 2017, famoso pelo modo battle royale.",
+          "variantes": [
+            "Fortnite Battle Royale"
+          ]
+        },
+        {
+          "id": "borneu",
+          "nome": "Bornéu",
+          "descricao": "Grande ilha do Sudeste Asiático, a terceira maior do mundo.",
+          "variantes": [
+            "Borneo",
+            "Kalimantan"
+          ]
+        },
+        {
+          "id": "bonito",
+          "nome": "Bonito",
+          "descricao": "Município de Mato Grosso do Sul, na Serra da Bodoquena, famoso pelos rios de águas cristalinas.",
+          "variantes": [
+            "Bonito (Mato Grosso do Sul)"
+          ]
+        },
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        },
+        {
+          "id": "bonnie",
+          "nome": "Bonnie",
+          "descricao": "Irmã caçula de Clemont, que acompanha Ash pela região de Kalos na série Pokémon XY.",
+          "variantes": [
+            "Bonnie (anime)",
+            "Eureka"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "colinas_de_chocolate",
+      "motivo": "Mesma formação de colinas em Bohol, Filipinas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "matterhorn",
+      "motivo": "Mesma montanha alpina entre Suíça e Itália."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "morro_do_pai_inacio",
+      "motivo": "Mesmo morro em Palmeiras, Chapada Diamantina."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "floco_de_neve",
+      "motivo": "Mesmo conceito: cristal de gelo que cai como neve."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "rochedo_de_gibraltar",
+      "motivo": "Mesmo monte calcário de 426 m em Gibraltar."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o mineral bornita; apenas nomes parecidos."
+    }
+  ]
+}
