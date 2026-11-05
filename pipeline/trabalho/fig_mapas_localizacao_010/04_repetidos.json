@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Iêmen"
+      },
+      "existentes": [
+        {
+          "id": "q14796",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Iêmen"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que país dos Bálcãs está destacado neste mapa?",
+        "resposta": "Bósnia e Herzegovina"
+      },
+      "existentes": [
+        {
+          "id": "q13548",
+          "pergunta": "A Bósnia e Herzegovina reconhece três povos constituintes: os bósnios, os croatas e qual outro?",
+          "resposta": "Sérvios"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Lituânia"
+      },
+      "existentes": [
+        {
+          "id": "q14571",
+          "pergunta": "De que país europeu é esta bandeira?",
+          "resposta": "Lituânia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que país báltico está destacado neste mapa?",
+        "resposta": "Letônia"
+      },
+      "existentes": [
+        {
+          "id": "q05745",
+          "pergunta": "Que mar banha o país desta bandeira?",
+          "resposta": "Mar Báltico"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Papua-Nova Guiné"
+      },
+      "existentes": [
+        {
+          "id": "q13134",
+          "pergunta": "Com mais de oitocentas línguas, qual país tem o maior número de idiomas vivos do mundo?",
+          "resposta": "Papua-Nova Guiné"
+        },
+        {
+          "id": "q14799",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Papua-Nova Guiné"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Mapa e bandeira são identificações visuais distintas; saber a bandeira não garante reconhecer o mapa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre localização no mapa versus povos constituintes; fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mapa versus bandeira; identificações visuais diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mapa da Letônia versus mar que banha o país; fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Mapa difere de bandeira e do fato sobre número de idiomas."
+    }
+  ]
+}

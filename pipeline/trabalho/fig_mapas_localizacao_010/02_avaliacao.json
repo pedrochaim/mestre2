@@ -1,0 +1,271 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro com detalhe ampliado do contorno; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Kuwait",
+      "distratores": [
+        "Catar",
+        "Bahrein",
+        "Omã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kuwait",
+        "descricao": "País da Ásia Ocidental na cabeceira do Golfo Pérsico, entre o Iraque e a Arábia Saudita.",
+        "variantes": [
+          "Estado do Kuwait",
+          "Cuaite"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "País destacado em vermelho, bem visível e reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Mianmar",
+      "distratores": [
+        "Tailândia",
+        "Laos",
+        "Bangladesh"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mianmar",
+        "descricao": "País do sudeste asiático, antiga Birmânia, com capital em Naypyidaw.",
+        "variantes": [
+          "Myanmar",
+          "Birmânia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Ilhas marcadas por círculos vermelhos no oceano Índico, visíveis; resposta única.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país insular está destacado neste mapa?",
+      "resposta": "Maurícia",
+      "distratores": [
+        "Seychelles",
+        "Comores",
+        "Maldivas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Maurícia",
+        "descricao": "País insular do oceano Índico a leste de Madagascar, com capital em Port Louis.",
+        "variantes": [
+          "Mauritius",
+          "República da Maurícia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Sudão claramente destacado; pergunta pela capital, que exige reconhecer o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Cartum",
+      "distratores": [
+        "Juba",
+        "Asmara",
+        "N'Djamena"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sudão",
+        "descricao": "País do nordeste da África, com capital em Cartum, que faz fronteira com o Egito e o Mar Vermelho.",
+        "variantes": [
+          "Sudan",
+          "República do Sudão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "País em verde, bem visível na península Arábica; o tom mais claro é parte do território.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Iêmen",
+      "distratores": [
+        "Omã",
+        "Djibuti",
+        "Somália"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Iêmen",
+        "descricao": "País do sul da península Arábica, com capital em Sanaa.",
+        "variantes": [
+          "Yemen",
+          "Iémen"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arquipélago minúsculo, mas indicado por círculo verde na entrada do canal de Moçambique; resposta única em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país insular está dentro do círculo neste mapa?",
+      "resposta": "Comores",
+      "distratores": [
+        "Maurícia",
+        "Seychelles",
+        "Maldivas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Comores",
+        "descricao": "País arquipélago do oceano Índico, no norte do canal de Moçambique, com capital em Moroni.",
+        "variantes": [
+          "Comoros",
+          "União das Comores"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "País em vermelho no Caribe, em mapa nítido; vizinhos visíveis para distinção.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "República Dominicana",
+      "distratores": [
+        "Haiti",
+        "Cuba",
+        "Jamaica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "República Dominicana",
+        "descricao": "País caribenho que ocupa a parte leste da ilha de Hispaniola, com capital em Santo Domingo.",
+        "variantes": [
+          "Dominicana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mapa regional claro da Europa, país em vermelho, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país dos Bálcãs está destacado neste mapa?",
+      "resposta": "Bósnia e Herzegovina",
+      "distratores": [
+        "Croácia",
+        "Sérvia",
+        "Montenegro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bósnia e Herzegovina",
+        "descricao": "País dos Bálcãs com pequeno litoral no Adriático e capital em Sarajevo.",
+        "variantes": [
+          "Bósnia",
+          "Bosnia and Herzegovina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem minúscula (cerca de 250 px) com destaque quase invisível; ilegível no celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mapa da Europa com país em verde escuro, legível; vizinhos báltico visíveis.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Lituânia",
+      "distratores": [
+        "Letônia",
+        "Estônia",
+        "Polônia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lituânia",
+        "descricao": "País báltico da Europa, com capital em Vilnius, entre a Letônia e a Polônia.",
+        "variantes": [
+          "Lithuania"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mesmo mapa regional, com a Letônia em verde escuro; distingue-se dos vizinhos bálticos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país báltico está destacado neste mapa?",
+      "resposta": "Letônia",
+      "distratores": [
+        "Lituânia",
+        "Estônia",
+        "Finlândia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Letônia",
+        "descricao": "País báltico da Europa, com capital em Riga, entre a Estônia e a Lituânia.",
+        "variantes": [
+          "Latvia",
+          "Letónia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Metade leste da Nova Guiné e ilhas em verde, bem visível no mapa.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Papua-Nova Guiné",
+      "distratores": [
+        "Ilhas Salomão",
+        "Vanuatu",
+        "Fiji"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Papua-Nova Guiné",
+        "descricao": "País da Oceania que ocupa a metade leste da ilha de Nova Guiné e ilhas vizinhas, com capital em Port Moresby.",
+        "variantes": [
+          "Papua Nova Guiné",
+          "Papua New Guinea"
+        ]
+      }
+    }
+  ]
+}

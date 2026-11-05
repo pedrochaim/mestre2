@@ -1,0 +1,677 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Kuwait",
+        "descricao": "País da Ásia Ocidental na cabeceira do Golfo Pérsico, entre o Iraque e a Arábia Saudita.",
+        "variantes": [
+          "Estado do Kuwait",
+          "Cuaite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_kuwait",
+          "nome": "Bandeira do Kuwait",
+          "descricao": "Bandeira nacional do Kuwait, com listras verde, branca e vermelha e trapézio preto junto à haste.",
+          "variantes": [
+            "Kuwait",
+            "Bandeira kuwaitiana"
+          ]
+        },
+        {
+          "id": "piaui",
+          "nome": "Piauí",
+          "descricao": "Estado da Região Nordeste do Brasil, com o menor litoral do país e capital em Teresina.",
+          "variantes": [
+            "Estado do Piauí",
+            "PI"
+          ]
+        },
+        {
+          "id": "cianita",
+          "nome": "Cianita",
+          "descricao": "Mineral silicato de alumínio, tipicamente azul, em cristais laminares, presente em rochas metamórficas.",
+          "variantes": [
+            "Cianite",
+            "Distênio"
+          ]
+        },
+        {
+          "id": "calcita",
+          "nome": "Calcita",
+          "descricao": "Mineral de carbonato de cálcio (CaCO3), componente do calcário, de dureza 3 na escala de Mohs.",
+          "variantes": [
+            "Calcite"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mianmar",
+        "descricao": "País do sudeste asiático, antiga Birmânia, com capital em Naypyidaw.",
+        "variantes": [
+          "Myanmar",
+          "Birmânia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "yanma",
+          "nome": "Yanma",
+          "descricao": "Pokémon dos tipos Inseto e Voador, número 193 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "biryani",
+          "nome": "Biryani",
+          "descricao": "Prato de arroz misturado com carne, frutos do mar ou legumes temperados, muito popular no sul da Ásia.",
+          "variantes": [
+            "Biriyani",
+            "Briani"
+          ]
+        },
+        {
+          "id": "magmar",
+          "nome": "Magmar",
+          "descricao": "Pokémon do tipo Fogo, número 126 da Pokédex Nacional.",
+          "variantes": [
+            "Boober"
+          ]
+        },
+        {
+          "id": "ipanema",
+          "nome": "Ipanema",
+          "descricao": "Bairro da zona sul do Rio de Janeiro, à beira-mar, entre o Arpoador e o Leblon.",
+          "variantes": []
+        },
+        {
+          "id": "miranda",
+          "nome": "Miranda",
+          "descricao": "Menor e mais interna das cinco luas esféricas de Urano, de superfície com cânions e coroas, fotografada pela Voyager 2.",
+          "variantes": [
+            "Miranda (satélite)",
+            "Uranus V"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Maurícia",
+        "descricao": "País insular do oceano Índico a leste de Madagascar, com capital em Port Louis.",
+        "variantes": [
+          "Mauritius",
+          "República da Maurícia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "austria",
+          "nome": "Áustria",
+          "descricao": "País sem litoral da Europa Central, nos Alpes orientais, com capital em Viena.",
+          "variantes": [
+            "República da Áustria"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "namibia",
+          "nome": "Namíbia",
+          "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+          "variantes": [
+            "República da Namíbia"
+          ]
+        },
+        {
+          "id": "croacia",
+          "nome": "Croácia",
+          "descricao": "País da Europa Central e do Sudeste, no mar Adriático, com capital em Zagreb.",
+          "variantes": [
+            "República da Croácia"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sudão",
+        "descricao": "País do nordeste da África, com capital em Cartum, que faz fronteira com o Egito e o Mar Vermelho.",
+        "variantes": [
+          "Sudan",
+          "República do Sudão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sudan_rinoceronte",
+          "nome": "Sudan (rinoceronte)",
+          "descricao": "Último macho de rinoceronte-branco-do-norte, que viveu na reserva Ol Pejeta, no Quênia.",
+          "variantes": [
+            "Sudan"
+          ]
+        },
+        {
+          "id": "bandeira_do_sudao",
+          "nome": "Bandeira do Sudão",
+          "descricao": "Bandeira do Sudão, faixas vermelha, branca e preta com triângulo verde junto à haste.",
+          "variantes": [
+            "Sudão"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "sudao_do_sul",
+          "nome": "Sudão do Sul",
+          "descricao": "País da África Oriental, separado do Sudão, cuja capital é Juba.",
+          "variantes": [
+            "South Sudan",
+            "República do Sudão do Sul"
+          ]
+        },
+        {
+          "id": "suriname",
+          "nome": "Suriname",
+          "descricao": "País do norte da América do Sul, ex-colônia holandesa, com capital em Paramaribo.",
+          "variantes": [
+            "Surinam",
+            "República do Suriname"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Iêmen",
+        "descricao": "País do sul da península Arábica, com capital em Sanaa.",
+        "variantes": [
+          "Yemen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iemen",
+          "nome": "Iêmen",
+          "descricao": "País do sul da Península Arábica, com capital constitucional em Sanaa.",
+          "variantes": [
+            "Yemen",
+            "República do Iêmen"
+          ]
+        },
+        {
+          "id": "iene",
+          "nome": "Iene",
+          "descricao": "Moeda oficial do Japão.",
+          "variantes": [
+            "Yen",
+            "Iene japonês"
+          ]
+        },
+        {
+          "id": "otzi",
+          "nome": "Ötzi",
+          "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+          "variantes": [
+            "Homem do gelo",
+            "Iceman",
+            "Homem de Similaun",
+            "Oetzi"
+          ]
+        },
+        {
+          "id": "kimi_raikkonen",
+          "nome": "Kimi Räikkönen",
+          "descricao": "Piloto finlandês de Fórmula 1, campeão mundial em 2007 pela Ferrari.",
+          "variantes": [
+            "Iceman"
+          ]
+        },
+        {
+          "id": "homem_de_gelo",
+          "nome": "Homem de Gelo",
+          "descricao": "Bobby Drake, mutante da Marvel que controla o gelo, um dos cinco X-Men originais",
+          "variantes": [
+            "Iceman",
+            "Bobby Drake"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Comores",
+        "descricao": "País arquipélago do oceano Índico, no norte do canal de Moçambique, com capital em Moroni.",
+        "variantes": [
+          "Comoros",
+          "União das Comores"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_das_comores",
+          "nome": "Bandeira das Comores",
+          "descricao": "Bandeira nacional da União das Comores, com quatro faixas horizontais, triângulo verde, crescente e quatro estrelas.",
+          "variantes": [
+            "Comores",
+            "Bandeira de Comores"
+          ]
+        },
+        {
+          "id": "houston_comets",
+          "nome": "Houston Comets",
+          "descricao": "Time feminino de Houston que venceu as quatro primeiras temporadas da WNBA, de 1997 a 2000.",
+          "variantes": [
+            "Comets"
+          ]
+        },
+        {
+          "id": "comodo",
+          "nome": "Cômodo",
+          "descricao": "Imperador romano de 180 a 192, que se exibia como gladiador na arena.",
+          "variantes": [
+            "Commodus"
+          ]
+        },
+        {
+          "id": "acores",
+          "nome": "Açores",
+          "descricao": "Arquipélago português no meio do oceano Atlântico Norte, região autônoma de Portugal.",
+          "variantes": [
+            "Arquipélago dos Açores",
+            "Ilhas dos Açores",
+            "Azores"
+          ]
+        },
+        {
+          "id": "luis_de_camoes",
+          "nome": "Luís de Camões",
+          "descricao": "Poeta português do século dezesseis, autor de Os Lusíadas.",
+          "variantes": [
+            "Luís Vaz de Camões",
+            "Camões"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "República Dominicana",
+        "descricao": "País caribenho que ocupa a parte leste da ilha de Hispaniola, com capital em Santo Domingo.",
+        "variantes": [
+          "Dominicana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_dominica",
+          "nome": "Bandeira de Dominica",
+          "descricao": "Bandeira atual de Dominica, ilha caribenha: cruz de três cores sobre verde com disco vermelho e um papagaio sisserou.",
+          "variantes": [
+            "Dominica",
+            "Bandeira da Comunidade da Dominica"
+          ]
+        },
+        {
+          "id": "republica_romana",
+          "nome": "República Romana",
+          "descricao": "Período da história de Roma governado por magistrados eleitos e pelo Senado, entre a queda da monarquia e o início do Império.",
+          "variantes": [
+            "Roman Republic"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+          "variantes": [
+            "República Italiana"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bósnia e Herzegovina",
+        "descricao": "País dos Bálcãs com pequeno litoral no Adriático e capital em Sarajevo.",
+        "variantes": [
+          "Bósnia",
+          "Bosnia and Herzegovina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_bosnia_e_herzegovina",
+          "nome": "Bandeira da Bósnia e Herzegovina",
+          "descricao": "Bandeira nacional da Bósnia e Herzegovina, azul com triângulo amarelo e fileira de estrelas brancas.",
+          "variantes": [
+            "Bósnia e Herzegovina",
+            "Bandeira da Bósnia"
+          ]
+        },
+        {
+          "id": "bosnia_e_herzegovina",
+          "nome": "Bósnia e Herzegovina",
+          "descricao": "País dos Bálcãs, com capital em Sarajevo, surgido da antiga Iugoslávia.",
+          "variantes": [
+            "Bósnia"
+          ]
+        },
+        {
+          "id": "bornita",
+          "nome": "Bornita",
+          "descricao": "Mineral sulfeto de cobre e ferro, importante minério de cobre, de cores iridescentes.",
+          "variantes": [
+            "Minério pavão",
+            "Bornite"
+          ]
+        },
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "boson",
+          "nome": "Bóson",
+          "descricao": "Classe de partículas, como o fóton e o bóson de Higgs, cujo nome homenageia o físico indiano Satyendra Nath Bose.",
+          "variantes": [
+            "Bósons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lituânia",
+        "descricao": "País báltico da Europa, com capital em Vilnius, entre a Letônia e a Polônia.",
+        "variantes": [
+          "Lithuania"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lituania",
+          "nome": "Lituânia",
+          "descricao": "País báltico da Europa, com capital em Vilnius, cuja bandeira é um tricolor horizontal amarelo, verde e vermelho.",
+          "variantes": [
+            "Lithuania",
+            "República da Lituânia"
+          ]
+        },
+        {
+          "id": "rms_lusitania",
+          "nome": "RMS Lusitania",
+          "descricao": "Transatlântico britânico afundado por um submarino alemão na costa da Irlanda em maio de 1915.",
+          "variantes": [
+            "Lusitânia",
+            "Lusitania"
+          ]
+        },
+        {
+          "id": "lusitania",
+          "nome": "Lusitânia",
+          "descricao": "Província romana da Península Ibérica que abrangia boa parte do atual Portugal e parte da Espanha.",
+          "variantes": []
+        },
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Letônia",
+        "descricao": "País báltico da Europa, com capital em Riga, entre a Estônia e a Lituânia.",
+        "variantes": [
+          "Latvia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "letonia",
+          "nome": "Letônia",
+          "descricao": "País báltico do norte da Europa, entre a Estônia e a Lituânia, cuja capital é Riga.",
+          "variantes": [
+            "Latvia"
+          ]
+        },
+        {
+          "id": "bandeira_da_estonia",
+          "nome": "Bandeira da Estônia",
+          "descricao": "Bandeira nacional da Estônia, tricolor horizontal azul, preta e branca.",
+          "variantes": [
+            "Estônia",
+            "Bandeira estoniana"
+          ]
+        },
+        {
+          "id": "brasao_da_estonia",
+          "nome": "Brasão da Estônia",
+          "descricao": "Brasão de armas da Estônia, com três leões azuis sobre escudo dourado, ladeado por ramos de carvalho.",
+          "variantes": [
+            "Estônia",
+            "Escudo da Estônia"
+          ]
+        },
+        {
+          "id": "latias",
+          "nome": "Latias",
+          "descricao": "Pokémon lendário do tipo Dragão e Psíquico, número 380 da Pokédex Nacional, irmã de Latios.",
+          "variantes": []
+        },
+        {
+          "id": "leonidas_da_silva",
+          "nome": "Leônidas da Silva",
+          "descricao": "Atacante brasileiro dos anos 1930 e 1940, artilheiro da Copa do Mundo de 1938.",
+          "variantes": [
+            "Leônidas",
+            "Diamante Negro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Papua-Nova Guiné",
+        "descricao": "País da Oceania que ocupa a metade leste da ilha de Nova Guiné e ilhas vizinhas, com capital em Port Moresby.",
+        "variantes": [
+          "Papua New Guinea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "papua_nova_guine",
+          "nome": "Papua-Nova Guiné",
+          "descricao": "País da Oceania que ocupa a metade oriental da ilha da Nova Guiné.",
+          "variantes": [
+            "Papua New Guinea",
+            "Papuásia-Nova Guiné"
+          ]
+        },
+        {
+          "id": "nova_guine",
+          "nome": "Nova Guiné",
+          "descricao": "Grande ilha da Oceania, ao norte da Austrália, dividida entre a Indonésia e Papua-Nova Guiné.",
+          "variantes": [
+            "New Guinea",
+            "Papua"
+          ]
+        },
+        {
+          "id": "bandeira_de_papua_nova_guine",
+          "nome": "Bandeira de Papua-Nova Guiné",
+          "descricao": "Bandeira nacional de Papua-Nova Guiné, dividida na diagonal em preto com o Cruzeiro do Sul e vermelho com uma ave amarela.",
+          "variantes": [
+            "Bandeira da Papua-Nova Guiné"
+          ]
+        },
+        {
+          "id": "guine",
+          "nome": "Guiné",
+          "descricao": "País da África Ocidental cuja capital é Conacri, antiga Guiné Francesa.",
+          "variantes": [
+            "Guiné-Conacri",
+            "República da Guiné"
+          ]
+        },
+        {
+          "id": "cucaburra",
+          "nome": "Cucaburra",
+          "descricao": "Grande ave da família dos martins-pescadores (Dacelo novaeguineae), conhecida pelo canto que lembra uma risada, da Austrália.",
+          "variantes": [
+            "Cucaburra-grande",
+            "Dacelo novaeguineae",
+            "Laughing kookaburra"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "O país difere da bandeira; nenhuma candidata é o país."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o país Mianmar."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Maurícia."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O país Sudão difere do rinoceronte, da bandeira e do Sudão do Sul."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "iemen",
+      "motivo": "Mesmo país, com capital em Sanaa."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O país difere da bandeira das Comores."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a República Dominicana; Dominica é outra entidade."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "bosnia_e_herzegovina",
+      "motivo": "Mesmo país; a bandeira é outra entidade."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "lituania",
+      "motivo": "Mesmo país báltico com capital em Vilnius."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "letonia",
+      "motivo": "Mesmo país, com capital em Riga."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "papua_nova_guine",
+      "motivo": "Mesmo país; a ilha e a bandeira são outras entidades."
+    }
+  ]
+}
