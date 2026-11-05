@@ -1,0 +1,516 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pinkie",
+        "descricao": "Retrato de Sarah Moulton pintado por Thomas Lawrence em 1794, na Huntington Library.",
+        "variantes": [
+          "Pinkie (Lawrence)",
+          "Sarah Goodin Barrett Moulton: Pinkie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pignite",
+          "nome": "Pignite",
+          "descricao": "Pokémon porco de fogo e lutador da quinta geração, evolução de Tepig, número 499 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pikipek",
+          "nome": "Pikipek",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 731 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "t_e_lawrence",
+          "nome": "T. E. Lawrence",
+          "descricao": "Oficial e escritor britânico que atuou junto às forças árabes na revolta contra o Império Otomano durante a Primeira Guerra Mundial.",
+          "variantes": [
+            "Lawrence da Arábia",
+            "Thomas Edward Lawrence"
+          ]
+        },
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "spike_spiegel",
+          "nome": "Spike Spiegel",
+          "descricao": "Caçador de recompensas protagonista do anime Cowboy Bebop.",
+          "variantes": [
+            "Spike"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bonaparte Visitando os Pestilentos de Jaffa",
+        "descricao": "Pintura de Antoine-Jean Gros, de 1804, que mostra Napoleão visitando soldados doentes de peste em Jaffa.",
+        "variantes": [
+          "Bonaparte Visitando os Pestilentos de Jaffa (Gros)",
+          "Bonaparte visitando as vítimas da peste de Jafa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bonaparte_cruzando_os_alpes_delaroche",
+          "nome": "Bonaparte Cruzando os Alpes (Delaroche)",
+          "descricao": "Pintura de Paul Delaroche, de 1848-1850, que mostra Napoleão Bonaparte atravessando os Alpes numa mula.",
+          "variantes": [
+            "Napoleão Cruzando os Alpes (Delaroche)",
+            "Bonaparte Crossing the Alps"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Vênus, Cupido, a Loucura e o Tempo",
+        "descricao": "Pintura alegórica de Agnolo Bronzino, cerca de 1545, na National Gallery de Londres.",
+        "variantes": [
+          "Vênus, Cupido, a Loucura e o Tempo (Bronzino)",
+          "Alegoria de Vênus e Cupido",
+          "Venus, Cupid, Folly and Time"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bateria_de_ion_litio",
+          "nome": "Bateria de íon-lítio",
+          "descricao": "Tipo de bateria recarregável usada em celulares, notebooks e carros elétricos, cujo desenvolvimento ganhou o Nobel de Química de 2019.",
+          "variantes": [
+            "Bateria de lítio",
+            "Bateria de íons de lítio",
+            "Bateria de íon de lítio",
+            "Li-ion"
+          ]
+        },
+        {
+          "id": "alegoria_da_caverna",
+          "nome": "Alegoria da caverna",
+          "descricao": "Alegoria de Platão sobre prisioneiros acorrentados numa caverna que só conhecem sombras projetadas na parede.",
+          "variantes": [
+            "Mito da caverna",
+            "Allegory of the cave"
+          ]
+        },
+        {
+          "id": "bateria_de_chumbo_acido",
+          "nome": "Bateria de chumbo-ácido",
+          "descricao": "Bateria recarregável com placas de chumbo em ácido sulfúrico, usada para dar a partida em automóveis.",
+          "variantes": [
+            "Bateria automotiva",
+            "Acumulador de chumbo"
+          ]
+        },
+        {
+          "id": "divisao_fisico_especial",
+          "nome": "Divisão físico-especial",
+          "descricao": "Mudança introduzida em Pokémon Diamond e Pearl que passou a definir a categoria física ou especial de cada golpe individualmente.",
+          "variantes": [
+            "Physical/special split",
+            "Categoria de dano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Madona Benois",
+        "descricao": "Pintura de Leonardo da Vinci, c. 1478–1480, no Museu Hermitage, que mostra a Virgem com o Menino e uma flor.",
+        "variantes": [
+          "Madona Benois (Leonardo)",
+          "Virgem Benois",
+          "Madonna com flores",
+          "Benois Madonna"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "angiospermas",
+          "nome": "Angiospermas",
+          "descricao": "Grupo das plantas com flores e frutos, o mais diverso entre as plantas terrestres",
+          "variantes": [
+            "Plantas com flores",
+            "Magnoliophyta"
+          ]
+        },
+        {
+          "id": "madona_sistina",
+          "nome": "Madona Sistina",
+          "descricao": "Pintura a óleo de Rafael, de cerca de 1513, que mostra a Virgem com o Menino entre São Sisto e Santa Bárbara; está em Dresden.",
+          "variantes": [
+            "Madonna di San Sisto",
+            "Sistine Madonna",
+            "Madona de São Sisto"
+          ]
+        },
+        {
+          "id": "sao_joao_batista_leonardo",
+          "nome": "São João Batista (Leonardo)",
+          "descricao": "Pintura a óleo de Leonardo da Vinci, hoje no Louvre, que mostra são João Batista apontando para o alto.",
+          "variantes": [
+            "Saint John the Baptist",
+            "São João Batista de Leonardo da Vinci"
+          ]
+        },
+        {
+          "id": "maria_esther_bueno",
+          "nome": "Maria Esther Bueno",
+          "descricao": "Tenista brasileira (1939-2018), sete vezes campeã de simples em Grand Slams e número um do mundo em 1959 e 1960.",
+          "variantes": [
+            "Maria Bueno"
+          ]
+        },
+        {
+          "id": "madonna",
+          "nome": "Madonna",
+          "descricao": "Cantora, compositora e atriz americana conhecida como a Rainha do Pop.",
+          "variantes": [
+            "Madonna Louise Ciccone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Beata Beatrix",
+        "descricao": "Pintura pré-rafaelita de Dante Gabriel Rossetti, concluída em 1870, que representa Beatriz Portinari no momento da morte.",
+        "variantes": [
+          "Beata Beatrix (Rossetti)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ana_moser",
+          "nome": "Ana Moser",
+          "descricao": "Ex-jogadora brasileira de vôlei, medalha de bronze olímpica em Atlanta 1996.",
+          "variantes": [
+            "Ana Beatriz Moser"
+          ]
+        },
+        {
+          "id": "mata_hari",
+          "nome": "Mata Hari",
+          "descricao": "Dançarina holandesa, nascida Margaretha Zelle, executada na França em 1917 sob acusação de espionagem para a Alemanha.",
+          "variantes": [
+            "Margaretha Geertruida Zelle"
+          ]
+        },
+        {
+          "id": "bastao_de_tres_secoes",
+          "nome": "Bastão de três seções",
+          "descricao": "Arma chinesa de artes marciais formada por três varas de madeira ou metal ligadas por argolas ou corda.",
+          "variantes": [
+            "Sanjiegun",
+            "Sansetsukon",
+            "Bastão de três partes",
+            "Bastão triplo"
+          ]
+        },
+        {
+          "id": "matrix",
+          "nome": "Matrix",
+          "descricao": "Filme de ficção científica de 1999, das irmãs Wachowski, sobre um programador que descobre viver numa realidade simulada.",
+          "variantes": [
+            "The Matrix"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "São Jerônimo em seu Gabinete",
+        "descricao": "Gravura em cobre de Albrecht Dürer, de 1514, que mostra São Jerônimo estudando, com um leão e um cão.",
+        "variantes": [
+          "São Jerônimo em seu Gabinete (Dürer)",
+          "Saint Jerome in His Study",
+          "São Jerônimo no estúdio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_imperador_napoleao_em_seu_gabinete_nas_tulherias",
+          "nome": "O Imperador Napoleão em seu Gabinete nas Tulherias",
+          "descricao": "Retrato de Napoleão I pintado por Jacques-Louis David em 1812, hoje na National Gallery of Art, em Washington.",
+          "variantes": [
+            "Napoleão em seu Gabinete (David)",
+            "Napoleão em seu Gabinete",
+            "The Emperor Napoleon in His Study at the Tuileries"
+          ]
+        },
+        {
+          "id": "jardim_em_sainte_adresse",
+          "nome": "Jardim em Sainte-Adresse",
+          "descricao": "Pintura a óleo de Claude Monet que mostra um terraço florido diante do mar em Sainte-Adresse, hoje no Metropolitan Museum.",
+          "variantes": [
+            "Jardim em Sainte-Adresse (Monet)",
+            "O Jardim em Sainte-Adresse",
+            "Terraço em Sainte-Adresse",
+            "The Garden at Sainte-Adresse"
+          ]
+        },
+        {
+          "id": "sambodromo_do_rio_de_janeiro",
+          "nome": "Sambódromo do Rio de Janeiro",
+          "descricao": "Passarela do desfile das escolas de samba no Rio de Janeiro, inaugurada em 1984.",
+          "variantes": [
+            "Sambódromo da Marquês de Sapucaí",
+            "Passarela Professor Darcy Ribeiro",
+            "Sambódromo do Rio",
+            "Passarela do Samba Darcy Ribeiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ansiedade",
+        "descricao": "Pintura de Edvard Munch, de 1894, com pessoas sob um céu vermelho, parte do Friso da Vida.",
+        "variantes": [
+          "Ansiedade (Munch)",
+          "Angst",
+          "Anxiety"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "sandygast",
+          "nome": "Sandygast",
+          "descricao": "Pokémon dos tipos Fantasma e Terrestre, número 769 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "madonna_munch",
+          "nome": "Madonna (Munch)",
+          "descricao": "Composição de Edvard Munch, de 1892 a 1895, com figura feminina de busto nu, com várias versões em óleo e litografia.",
+          "variantes": [
+            "Madonna de Munch"
+          ]
+        },
+        {
+          "id": "mosca_ladra",
+          "nome": "Mosca-ladra",
+          "descricao": "Mosca predadora da família Asilidae, robusta e cerdosa, que caça outros insetos em emboscada.",
+          "variantes": [
+            "Asilídeos",
+            "Mosca-assassina",
+            "Asilidae"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Moça com Chapéu Vermelho",
+        "descricao": "Pequena pintura de Johannes Vermeer sobre painel de madeira, na National Gallery of Art, em Washington.",
+        "variantes": [
+          "Moça com Chapéu Vermelho (Vermeer)",
+          "Girl with a Red Hat",
+          "Menina com chapéu vermelho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jason_todd",
+          "nome": "Jason Todd",
+          "descricao": "Segundo jovem a usar o uniforme de Robin, parceiro do Batman",
+          "variantes": [
+            "Capuz Vermelho",
+            "Red Hood"
+          ]
+        },
+        {
+          "id": "moca_com_brinco_de_perola",
+          "nome": "Moça com Brinco de Pérola",
+          "descricao": "Quadro de Johannes Vermeer, de cerca de 1665.",
+          "variantes": [
+            "Girl with a Pearl Earring",
+            "Rapariga com Brinco de Pérola"
+          ]
+        },
+        {
+          "id": "erik_o_vermelho",
+          "nome": "Erik, o Vermelho",
+          "descricao": "Explorador nórdico do século dez que fundou a primeira colônia europeia na Groenlândia.",
+          "variantes": [
+            "Érico, o Vermelho",
+            "Erik the Red",
+            "Eiríkr rauði"
+          ]
+        },
+        {
+          "id": "char_aznable",
+          "nome": "Char Aznable",
+          "descricao": "Piloto mascarado rival de Amuro Ray em Mobile Suit Gundam, conhecido como o Cometa Vermelho.",
+          "variantes": [
+            "Cometa Vermelho"
+          ]
+        },
+        {
+          "id": "pimentao",
+          "nome": "Pimentão",
+          "descricao": "Fruto de Capsicum annuum do grupo Grossum, usado como hortaliça, aqui vermelho.",
+          "variantes": [
+            "Pimentão vermelho",
+            "Bell pepper"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "A Cartomante",
+        "descricao": "Pintura de Caravaggio, de c. 1594–1595, em que uma adivinha lê a mão de um jovem; há duas versões, em Roma e no Louvre.",
+        "variantes": [
+          "A Cartomante (Caravaggio)",
+          "A Adivinha",
+          "The Fortune Teller"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caronte",
+          "nome": "Caronte",
+          "descricao": "Maior lua de Plutão, de superfície cinzenta com um polo avermelhado, fotografada pela sonda New Horizons.",
+          "variantes": [
+            "Charon",
+            "Plutão I"
+          ]
+        },
+        {
+          "id": "baco_caravaggio",
+          "nome": "Baco (Caravaggio)",
+          "descricao": "Pintura a óleo de Caravaggio (c. 1596) que mostra um jovem Baco com uvas na cabeça e uma taça de vinho, na Galeria Uffizi.",
+          "variantes": [
+            "Bacchus",
+            "Baco",
+            "Bacco"
+          ]
+        },
+        {
+          "id": "caronte_2",
+          "nome": "Caronte",
+          "descricao": "Personagem da mitologia grega que levava as almas dos mortos através do rio do mundo inferior.",
+          "variantes": [
+            "Charon",
+            "Caron"
+          ]
+        },
+        {
+          "id": "rayssa_leal",
+          "nome": "Rayssa Leal",
+          "descricao": "Skatista brasileira, medalhista olímpica no skate street, conhecida como Fadinha.",
+          "variantes": [
+            "Fadinha",
+            "Rayssa Leal Mendes"
+          ]
+        },
+        {
+          "id": "amor_vincit_omnia_caravaggio",
+          "nome": "Amor Vincit Omnia (Caravaggio)",
+          "descricao": "Pintura de Caravaggio, de 1601-1602, que mostra um Cupido sorridente e vitorioso sobre instrumentos e armaduras.",
+          "variantes": [
+            "Amor Vitorioso",
+            "Cupido Vitorioso",
+            "Amor Victorious"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o retrato Pinkie."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Candidata é outra pintura (Delaroche), obra diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à pintura de Bronzino."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Madona Benois."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura Beata Beatrix."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Gravura de Dürer não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ansiedade de Munch é obra distinta de Madonna (Munch) e das demais."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Obra diferente de Moça com Brinco de Pérola."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é A Cartomante de Caravaggio; Baco e Amor Vincit Omnia são outras obras."
+    }
+  ]
+}

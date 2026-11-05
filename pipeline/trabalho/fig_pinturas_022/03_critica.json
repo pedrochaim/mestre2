@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Retrato de 1794 por Lawrence, inglês; década de 1790 confirmada. Enunciado não vaza e distratores são de décadas distintas.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a invasão francesa do Egito e da Síria. O enunciado não entrega a resposta e os distratores são campanhas napoleônicas ou guerras do século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A obra é de c. 1545 (século dezesseis), mas \"maneirista\" aponta para o século dezesseis e dá a pista que entrega a resposta sem olhar a figura. Retirar o termo.",
+      "reescrita": {
+        "pergunta": "Em que século um pintor florentino fez esta alegoria?",
+        "resposta": "Século dezesseis",
+        "distratores": [
+          "Século quinze",
+          "Século dezessete",
+          "Século dezoito"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Madona Benois mostra a Virgem com o Menino. O enunciado não vaza e os distratores são outros temas religiosos comuns.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Beata Beatrix, de Rossetti, 1870. Pista de época e grupo ajuda sem entregar, e os distratores são pré-rafaelitas críveis, nenhum autor da obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Estudando em seu gabinete\" repete o título da obra e sustenta a resposta sem a figura. Os trechos divergem sobre a data (1513 ou 1514), então é melhor evitá-la. Trocar por pista de época e país.",
+      "reescrita": {
+        "pergunta": "Que santo aparece nesta gravura alemã do século dezesseis?",
+        "resposta": "São Jerônimo",
+        "distratores": [
+          "Santo Agostinho",
+          "São Bento",
+          "São Francisco de Assis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anxiety (Ansiedade), 1894, de Munch. O enunciado não vaza e os distratores são títulos de Munch parecidos, mas nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Menina com chapéu vermelho, assinada por Vermeer, pintor holandês do século dezessete (c. 1669). Distratores holandeses críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a cena do quadro (jovem lendo a mão de um rapaz) e quase dá o título; sem a figura já se chega à obra. Georges de La Tour também pintou uma cartomante, então o distrator seria defensável. Trocar a descrição por pista de país e usar distratores italianos.",
+      "reescrita": {
+        "pergunta": "Que pintor italiano pintou este quadro barroco?",
+        "resposta": "Caravaggio",
+        "distratores": [
+          "Annibale Carracci",
+          "Guido Reni",
+          "Orazio Gentileschi"
+        ]
+      }
+    }
+  ]
+}

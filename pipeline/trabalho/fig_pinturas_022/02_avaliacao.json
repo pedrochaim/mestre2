@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi pintado este retrato de uma menina, obra de um pintor inglês?",
+      "resposta": "Década de 1790",
+      "distratores": [
+        "Década de 1750",
+        "Década de 1820",
+        "Década de 1850"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pinkie",
+        "descricao": "Retrato de Sarah Moulton pintado por Thomas Lawrence em 1794, na Huntington Library.",
+        "variantes": [
+          "Sarah Goodin Barrett Moulton: Pinkie"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena complexa mas de uma só obra, sem texto, obra reconhecível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este quadro francês retrata um episódio de qual campanha militar?",
+      "resposta": "Invasão francesa do Egito e da Síria",
+      "distratores": [
+        "Campanha da Rússia",
+        "Guerra da Crimeia",
+        "Guerra Peninsular"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bonaparte Visitando os Pestilentos de Jaffa",
+        "descricao": "Pintura de Antoine-Jean Gros, de 1804, que mostra Napoleão visitando soldados doentes de peste em Jaffa.",
+        "variantes": [
+          "Bonaparte visitando as vítimas da peste de Jafa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Obra sem texto, composição reconhecível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi pintada esta alegoria maneirista de Florença?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século quinze",
+        "Século dezessete",
+        "Século dezoito"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vênus, Cupido, a Loucura e o Tempo",
+        "descricao": "Pintura alegórica de Agnolo Bronzino, cerca de 1545, na National Gallery de Londres.",
+        "variantes": [
+          "Alegoria de Vênus e Cupido",
+          "Venus, Cupid, Folly and Time"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A assinatura 'Claude Monet' está visível no canto inferior e entrega o autor."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Obra sem texto, tema claro.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tema religioso clássico da pintura renascentista é este?",
+      "resposta": "Virgem com o Menino",
+      "distratores": [
+        "Pietà",
+        "Anunciação",
+        "Fuga para o Egito"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Madona Benois",
+        "descricao": "Pintura de Leonardo da Vinci, c. 1478–1480, no Museu Hermitage, que mostra a Virgem com o Menino e uma flor.",
+        "variantes": [
+          "Virgem Benois",
+          "Madonna com flores",
+          "Benois Madonna"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Obra sem texto legível, autor distinguível entre pré-rafaelitas.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor inglês do século dezenove, ligado aos pré-rafaelitas, pintou este quadro?",
+      "resposta": "Dante Gabriel Rossetti",
+      "distratores": [
+        "John Everett Millais",
+        "Edward Burne-Jones",
+        "William Holman Hunt"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Beata Beatrix",
+        "descricao": "Pintura pré-rafaelita de Dante Gabriel Rossetti, concluída em 1870, que representa Beatriz Portinari no momento da morte.",
+        "variantes": [
+          "Beata Beatrix (Rossetti)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Gravura sem texto, cena clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que santo, estudando em seu gabinete, aparece nesta gravura alemã?",
+      "resposta": "São Jerônimo",
+      "distratores": [
+        "Santo Agostinho",
+        "São Bento",
+        "São Francisco de Assis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "São Jerônimo em seu Gabinete",
+        "descricao": "Gravura em cobre de Albrecht Dürer, de 1514, que mostra São Jerônimo estudando, com um leão e um cão.",
+        "variantes": [
+          "Saint Jerome in His Study",
+          "São Jerônimo no estúdio"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Assinatura 'I Ver-Meer' e data visíveis, e a cena (globo celeste) pode ser confundida com O Astrônomo."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Texto visível na obra e na margem ('Angelus novus', 'Klee 1920') entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Obra sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual é o título desta pintura de um artista norueguês?",
+      "resposta": "Ansiedade",
+      "distratores": [
+        "O Grito",
+        "Desespero",
+        "Melancolia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ansiedade",
+        "descricao": "Pintura de Edvard Munch, de 1894, com pessoas sob um céu vermelho, parte do Friso da Vida.",
+        "variantes": [
+          "Angst",
+          "Anxiety"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Obra sem texto legível, reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor holandês do século dezessete pintou este quadro?",
+      "resposta": "Johannes Vermeer",
+      "distratores": [
+        "Frans Hals",
+        "Pieter de Hooch",
+        "Rembrandt"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Moça com Chapéu Vermelho",
+        "descricao": "Pequena pintura de Johannes Vermeer sobre painel de madeira, na National Gallery of Art, em Washington.",
+        "variantes": [
+          "Girl with a Red Hat",
+          "Menina com chapéu vermelho"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Obra sem texto, reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem pintou este quadro barroco, em que uma jovem lê a mão de um rapaz?",
+      "resposta": "Caravaggio",
+      "distratores": [
+        "Georges de La Tour",
+        "Diego Velázquez",
+        "Peter Paul Rubens"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Cartomante",
+        "descricao": "Pintura de Caravaggio, de c. 1594–1595, em que uma adivinha lê a mão de um jovem; há duas versões, em Roma e no Louvre.",
+        "variantes": [
+          "A Adivinha",
+          "The Fortune Teller"
+        ]
+      }
+    }
+  ]
+}
