@@ -1,0 +1,508 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Império Coreano",
+        "descricao": "Estado monárquico da Coreia proclamado em 1897 pelo rei Gojong e anexado pelo Japão em 1910.",
+        "variantes": [
+          "Império da Coreia",
+          "Taehan Cheguk",
+          "Korean Empire"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "imperio_etiope",
+          "nome": "Império Etíope",
+          "descricao": "Monarquia que governou a Etiópia até 1974 e resistiu à partilha colonial da África no fim do século dezenove.",
+          "variantes": [
+            "Abissínia",
+            "Império da Etiópia"
+          ]
+        },
+        {
+          "id": "imperio_austriaco",
+          "nome": "Império Austríaco",
+          "descricao": "Império multinacional da Europa Central governado pelos Habsburgo entre 1804 e 1867.",
+          "variantes": [
+            "Império da Áustria",
+            "Áustria imperial"
+          ]
+        },
+        {
+          "id": "imperio_mauria",
+          "nome": "Império Máuria",
+          "descricao": "Império da Índia antiga, dos séculos quatro a dois antes de Cristo, que teve Ashoka entre seus imperadores.",
+          "variantes": [
+            "Maurya Empire",
+            "Dinastia Máuria"
+          ]
+        },
+        {
+          "id": "dinastia_han",
+          "nome": "Dinastia Han",
+          "descricao": "Dinastia imperial chinesa que governou de 206 antes de Cristo a 220 depois de Cristo.",
+          "variantes": [
+            "Han dynasty",
+            "Império Han"
+          ]
+        },
+        {
+          "id": "imperio_mongol",
+          "nome": "Império Mongol",
+          "descricao": "Império fundado por Gengis Khan em 1206, que nos séculos treze e quatorze se estendeu da Coreia à Europa oriental.",
+          "variantes": [
+            "Mongol Empire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "República de Ragusa",
+        "descricao": "República marítima aristocrática centrada em Dubrovnik, na Dalmácia, que existiu de 1358 a 1808.",
+        "variantes": [
+          "República de Dubrovnik",
+          "Ragusa",
+          "Republic of Ragusa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dubrovnik",
+          "nome": "Dubrovnik",
+          "descricao": "Cidade murada da Dalmácia, na Croácia, à beira do Mar Adriático, também chamada Ragusa.",
+          "variantes": [
+            "Ragusa"
+          ]
+        },
+        {
+          "id": "paraguai",
+          "nome": "Paraguai",
+          "descricao": "País sem litoral da América do Sul, com capital em Assunção.",
+          "variantes": [
+            "Paraguay",
+            "República do Paraguai"
+          ]
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "austria",
+          "nome": "Áustria",
+          "descricao": "País sem litoral da Europa Central, nos Alpes orientais, com capital em Viena.",
+          "variantes": [
+            "República da Áustria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Segunda República Espanhola",
+        "descricao": "Regime democrático da Espanha de 1931 a 1939, derrubado ao fim da Guerra Civil Espanhola.",
+        "variantes": [
+          "Segunda República da Espanha",
+          "República Espanhola",
+          "Second Spanish Republic"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "lingua_espanhola",
+          "nome": "Língua espanhola",
+          "descricao": "Língua românica originada em Castela, oficial na Espanha e em boa parte da América Latina",
+          "variantes": [
+            "Espanhol",
+            "Castelhano"
+          ]
+        },
+        {
+          "id": "republica_romana",
+          "nome": "República Romana",
+          "descricao": "Período da história de Roma governado por magistrados eleitos e pelo Senado, entre a queda da monarquia e o início do Império.",
+          "variantes": [
+            "Roman Republic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Império Etíope",
+        "descricao": "Império da Etiópia e da Eritreia, de 1270 a 1974, cujo último imperador foi Haile Selassie.",
+        "variantes": [
+          "Etiópia imperial",
+          "Abissínia",
+          "Ethiopian Empire"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "etiopia",
+          "nome": "Etiópia",
+          "descricao": "País sem litoral do Chifre da África, com capital em Adis Abeba.",
+          "variantes": [
+            "Ethiopia",
+            "Abissínia"
+          ]
+        },
+        {
+          "id": "imperio_etiope",
+          "nome": "Império Etíope",
+          "descricao": "Monarquia que governou a Etiópia até 1974 e resistiu à partilha colonial da África no fim do século dezenove.",
+          "variantes": [
+            "Abissínia",
+            "Império da Etiópia"
+          ]
+        },
+        {
+          "id": "ira_pahlavi",
+          "nome": "Irã Pahlavi",
+          "descricao": "Estado imperial do Irã sob a dinastia Pahlavi, de 1925 a 1979, cuja bandeira tinha o leão e sol.",
+          "variantes": [
+            "Irã Imperial",
+            "Império do Irã",
+            "Pérsia Pahlavi"
+          ]
+        },
+        {
+          "id": "topazio_imperial",
+          "nome": "Topázio imperial",
+          "descricao": "Variedade de topázio de cor alaranjada a rosada, típica de Minas Gerais.",
+          "variantes": [
+            "Imperial topaz"
+          ]
+        },
+        {
+          "id": "topazio",
+          "nome": "Topázio",
+          "descricao": "Mineral silicato de alumínio e flúor usado como gema, em cristais prismáticos de cor amarelo-alaranjada ou incolor.",
+          "variantes": [
+            "Topázio imperial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sultanato do Egito",
+        "descricao": "Protetorado britânico no Egito, de 1914 a 1922, substituído pelo Reino do Egito.",
+        "variantes": [
+          "Sultanato Egípcio",
+          "Sultanate of Egypt"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ganso_do_nilo",
+          "nome": "Ganso-do-nilo",
+          "descricao": "Ave aquática de mancha marrom em volta do olho (Alopochen aegyptiaca), nativa da África.",
+          "variantes": [
+            "Ganso-do-egito",
+            "Alopochen aegyptiaca"
+          ]
+        },
+        {
+          "id": "mamelucos",
+          "nome": "Mamelucos",
+          "descricao": "Casta militar do mundo islâmico que governou o Egito e a Síria de 1250 a 1517.",
+          "variantes": [
+            "Mamluks",
+            "Sultanato Mameluco"
+          ]
+        },
+        {
+          "id": "azul_egipcio",
+          "nome": "Azul egípcio",
+          "descricao": "Pigmento azul artificial de silicato de cálcio e cobre, fabricado e usado na pintura do Egito Antigo",
+          "variantes": [
+            "Egyptian blue",
+            "Azul do Egito"
+          ]
+        },
+        {
+          "id": "varano_do_nilo",
+          "nome": "Varano-do-nilo",
+          "descricao": "Grande lagarto semiaquático da África subsaariana, Varanus niloticus.",
+          "variantes": [
+            "Lagarto-do-nilo",
+            "Varanus niloticus"
+          ]
+        },
+        {
+          "id": "planalto_tibetano",
+          "nome": "Planalto Tibetano",
+          "descricao": "Vasto planalto de grande altitude na Ásia Central, ao norte do Himalaia, que ocupa o Tibete e regiões vizinhas.",
+          "variantes": [
+            "Planalto do Tibete",
+            "Tibetan Plateau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Governo de Beiyang",
+        "descricao": "Governo da República da China sediado em Pequim, de 1912 a 1928, dominado pelos generais do Exército de Beiyang.",
+        "variantes": [
+          "Governo Beiyang",
+          "República da China (1912–1928)",
+          "Beiyang government"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "governo_geral_do_brasil",
+          "nome": "Governo-geral do Brasil",
+          "descricao": "Sistema administrativo centralizado criado pela Coroa portuguesa em 1548, com sede em Salvador, para governar a colônia.",
+          "variantes": [
+            "Governo-Geral"
+          ]
+        },
+        {
+          "id": "opera_de_pequim",
+          "nome": "Ópera de Pequim",
+          "descricao": "Forma tradicional de teatro musical chinês, que combina canto, mímica, acrobacia e maquiagem facial simbólica.",
+          "variantes": [
+            "Peking opera",
+            "Jingju",
+            "Ópera de Beijing"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Red Ensign canadense",
+        "descricao": "Pavilhão vermelho com a Union Jack e o escudo do Canadá, usado como bandeira civil e de fato do Canadá de 1892 a 1965.",
+        "variantes": [
+          "Canadian Red Ensign",
+          "Pavilhão Vermelho do Canadá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dia_de_acao_de_gracas_no_canada",
+          "nome": "Dia de Ação de Graças no Canadá",
+          "descricao": "Feriado canadense de agradecimento pela colheita, celebrado na segunda segunda-feira de outubro.",
+          "variantes": [
+            "Thanksgiving canadense",
+            "Thanksgiving (Canada)",
+            "Action de grâce"
+          ]
+        },
+        {
+          "id": "a_vinha_vermelha",
+          "nome": "A Vinha Vermelha",
+          "descricao": "Pintura a óleo de Vincent van Gogh de novembro de 1888 que mostra trabalhadores numa vinha perto de Arles, ao pôr do sol.",
+          "variantes": [
+            "A Vinha Vermelha (Van Gogh)",
+            "A Vinha Encarnada",
+            "The Red Vineyard",
+            "Les Vignes rouges"
+          ]
+        },
+        {
+          "id": "canoa_canoagem_de_velocidade",
+          "nome": "Canoa (canoagem de velocidade)",
+          "descricao": "Barco da canoagem de velocidade, também chamado canoa canadense, impulsionado por remo de uma só pá.",
+          "variantes": [
+            "Canoa canadense",
+            "C1"
+          ]
+        },
+        {
+          "id": "condensador_de_liebig",
+          "nome": "Condensador de Liebig",
+          "descricao": "Vidraria de laboratório formada por um tubo reto envolto por uma camisa de água, usada para condensar vapores.",
+          "variantes": [
+            "Condensador reto",
+            "Liebig condenser"
+          ]
+        },
+        {
+          "id": "pre_sal",
+          "nome": "Pré-sal",
+          "descricao": "Camada de rochas sob uma espessa camada de sal no litoral brasileiro, que guarda grandes reservas de petróleo.",
+          "variantes": [
+            "Camada pré-sal",
+            "Pre-salt layer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "República Corsa",
+        "descricao": "Estado de curta duração na ilha da Córsega, proclamado em 1755 por Pasquale Paoli contra a República de Gênova.",
+        "variantes": [
+          "Corsican Republic",
+          "Córsega independente"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "portugal",
+          "nome": "Portugal",
+          "descricao": "País do sudoeste da Europa, na Península Ibérica, de capital Lisboa.",
+          "variantes": [
+            "República Portuguesa"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "gabao",
+          "nome": "Gabão",
+          "descricao": "País da costa atlântica da África Central, atravessado pela linha do equador, com capital em Libreville.",
+          "variantes": [
+            "República Gabonesa"
+          ]
+        },
+        {
+          "id": "sudao",
+          "nome": "Sudão",
+          "descricao": "País do nordeste da África, com capital em Cartum, que faz fronteira com o Egito e o Mar Vermelho.",
+          "variantes": [
+            "Sudan",
+            "República do Sudão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Império Coreano é distinto de todas as candidatas (etíope, austríaco, máuria, Han, mongol)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A república marítima histórica é distinta da cidade de Dubrovnik, apesar de compartilharem o nome Ragusa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Regime histórico espanhol; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "imperio_etiope",
+      "motivo": "Mesma monarquia etíope até 1974 (Haile Selassie); variantes coincidem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sultanato do Egito (1914-1922) não corresponde a nenhuma candidata; mamelucos é outro período."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Governo de Beiyang é um governo histórico distinto da China atual e demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Bandeira Red Ensign não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "República Corsa histórica é distinta da França e demais países."
+    }
+  ]
+}

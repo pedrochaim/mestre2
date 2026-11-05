@@ -1,0 +1,262 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O escudo da bandeira traz a inscrição legível 'HONG KONG' na faixa, o que entrega a resposta; além disso o texto é minúsculo e não fica legível no celular."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira marcante e reconhecível, sem texto; pergunta de época com múltipla escolha.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década deixou de existir o Estado histórico desta bandeira?",
+      "resposta": "Década de 1910",
+      "distratores": [
+        "Década de 1890",
+        "Década de 1920",
+        "Década de 1940"
+      ],
+      "ancora": {
+        "nome": "Império Coreano",
+        "descricao": "Estado monárquico da Coreia proclamado em 1897 pelo rei Gojong e anexado pelo Japão em 1910.",
+        "variantes": [
+          "Império da Coreia",
+          "Taehan Cheguk",
+          "Korean Empire"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira distinta, com São Brás segurando a cidade; as letras S e B não revelam o nome do Estado. Aficionado, por isso múltipla escolha.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta bandeira era de uma república marítima do Adriático. Em que país atual ficava o seu território?",
+      "resposta": "Croácia",
+      "distratores": [
+        "Itália",
+        "Grécia",
+        "Albânia"
+      ],
+      "ancora": {
+        "nome": "República de Ragusa",
+        "descricao": "República marítima aristocrática centrada em Dubrovnik, na Dalmácia, que existiu de 1358 a 1808.",
+        "variantes": [
+          "República de Dubrovnik",
+          "Ragusa",
+          "Republic of Ragusa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tricolor vermelho, amarelo e roxo com escudo, inconfundível; o 'PLVS VLTRA' é minúsculo e não entrega a resposta. É a única pergunta do lote com ano.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi proclamada a república que usava esta bandeira?",
+      "resposta": "1931",
+      "distratores": [
+        "1923",
+        "1936",
+        "1939"
+      ],
+      "ancora": {
+        "nome": "Segunda República Espanhola",
+        "descricao": "Regime democrático da Espanha de 1931 a 1939, derrubado ao fim da Guerra Civil Espanhola.",
+        "variantes": [
+          "Segunda República da Espanha",
+          "República Espanhola",
+          "Second Spanish Republic"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Leão coroado sobre verde, amarelo e vermelho, reconhecível sem texto. A pergunta vai além do reconhecimento e não nomeia o Estado.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país europeu invadiu, em 1935, o Estado desta bandeira?",
+      "resposta": "Itália",
+      "distratores": [
+        "Alemanha",
+        "França",
+        "Espanha"
+      ],
+      "ancora": {
+        "nome": "Império Etíope",
+        "descricao": "Império da Etiópia e da Eritreia, de 1270 a 1974, cujo último imperador foi Haile Selassie.",
+        "variantes": [
+          "Etiópia imperial",
+          "Abissínia",
+          "Ethiopian Empire"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cruz de São Jorge e harpa irlandesa, sem texto e característica do período. Pergunta sem pista que entregue a resposta.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta bandeira foi usada no século dezessete por uma república. Em que país o rei foi executado para criá-la?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "França",
+        "Espanha",
+        "Países Baixos"
+      ],
+      "ancora": {
+        "nome": "Commonwealth da Inglaterra",
+        "descricao": "República que governou a Inglaterra, depois também a Escócia e a Irlanda, de 1649 a 1660, após a execução de Carlos I.",
+        "variantes": [
+          "Comunidade da Inglaterra",
+          "Commonwealth of England",
+          "Protetorado de Cromwell"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pavilhão vermelho com três crescentes e estrelas e a Union Jack, sem texto. Aficionado, em múltipla escolha. A bandeira é a do período do protetorado britânico.",
+      "destino": 2,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que guerra este Estado se tornou protetorado britânico?",
+      "resposta": "Primeira Guerra Mundial",
+      "distratores": [
+        "Segunda Guerra Mundial",
+        "Guerra da Crimeia",
+        "Guerra dos Bôeres"
+      ],
+      "ancora": {
+        "nome": "Sultanato do Egito",
+        "descricao": "Protetorado britânico no Egito, de 1914 a 1922, substituído pelo Reino do Egito.",
+        "variantes": [
+          "Sultanato Egípcio",
+          "Sultanate of Egypt"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira de cinco faixas horizontais, sem texto, característica da República da China de 1912 a 1928. Em múltipla escolha. Melhor destino é Idade Contemporânea.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que general dominou o governo chinês que usava esta bandeira?",
+      "resposta": "Yuan Shikai",
+      "distratores": [
+        "Chiang Kai-shek",
+        "Mao Zedong",
+        "Puyi"
+      ],
+      "ancora": {
+        "nome": "Governo de Beiyang",
+        "descricao": "Governo da República da China sediado em Pequim, de 1912 a 1928, dominado pelos generais do Exército de Beiyang.",
+        "variantes": [
+          "Governo Beiyang",
+          "República da China (1912–1928)",
+          "Beiyang government"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem é uma cruz preta simples sobre branco, parecida com uma cruz nórdica e com outras bandeiras. A resposta não é única, e a bandeira do Estado da Ordem Teutônica não é reconhecível por ela."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Red Ensign com o escudo do Canadá, sem texto e característico. Pergunta de época por década, sem entregar o país.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década esta bandeira deixou de ser usada como bandeira de fato do país?",
+      "resposta": "Década de 1960",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1940",
+        "Década de 1950"
+      ],
+      "ancora": {
+        "nome": "Red Ensign canadense",
+        "descricao": "Pavilhão vermelho com a Union Jack e o escudo do Canadá, usado como bandeira civil e de fato do Canadá de 1892 a 1965.",
+        "variantes": [
+          "Canadian Red Ensign",
+          "Pavilhão Vermelho do Canadá"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cabeça de mouro com faixa, bandeira marcante e sem texto. Para distinguir, o enunciado usa o líder; Napoleão serve de distrator por ser corso.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que líder proclamou, em meados do século dezoito, a república que usou esta bandeira?",
+      "resposta": "Pasquale Paoli",
+      "distratores": [
+        "Napoleão Bonaparte",
+        "Giuseppe Garibaldi",
+        "Camillo Cavour"
+      ],
+      "ancora": {
+        "nome": "República Corsa",
+        "descricao": "Estado de curta duração na ilha da Córsega, proclamado em 1755 por Pasquale Paoli contra a República de Gênova.",
+        "variantes": [
+          "Republica Corsa",
+          "Corsican Republic",
+          "Córsega independente"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Faixas laranja e brancas com o tricolor holandês no canto, sem texto. Pergunta de localização atual, sem entregar o Estado.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país atual ficava o território desta república bôer, derrotada pelos britânicos em 1902?",
+      "resposta": "África do Sul",
+      "distratores": [
+        "Namíbia",
+        "Botsuana",
+        "Moçambique"
+      ],
+      "ancora": {
+        "nome": "Estado Livre de Orange",
+        "descricao": "República bôer independente no sul da África, entre os rios Orange e Vaal, que deixou de existir em 1902 após a Segunda Guerra dos Bôeres.",
+        "variantes": [
+          "Estado Livre de Orange",
+          "Orange Free State",
+          "Oranje-Vrystaat"
+        ]
+      }
+    }
+  ]
+}

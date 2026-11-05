@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que país europeu invadiu, em 1935, o Estado desta bandeira?",
+        "resposta": "Itália"
+      },
+      "existentes": [
+        {
+          "id": "q13813",
+          "pergunta": "Por volta de 1914, no auge da partilha colonial, só dois países africanos continuavam independentes. Um era a Libéria. Qual era o outro?",
+          "resposta": "Etiópia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre qual país invadiu a Etiópia em 1935 (Itália); a existente pergunta qual país africano era independente além da Libéria. São fatos diferentes."
+    }
+  ]
+}
