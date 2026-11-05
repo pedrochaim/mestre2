@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista, definição confirmada nos trechos; distratores do mesmo tipo e errados para uma ilha.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Escavada entre paredões rochosos' é quase a definição de cânion e entrega a resposta sem olhar a figura. Troquei por uma pista de localização que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que forma de relevo, típica da Serra Geral no sul do Brasil, é esta?",
+        "resposta": "Cânion",
+        "distratores": [
+          "Chapada",
+          "Voçoroca",
+          "Dolina"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Rocha derretida que jorra na superfície' é a definição de lava e vaza a resposta. Magma como distrator é defensável, pois o termo é usado no dia a dia para o mesmo material. Troquei a pista e os distratores.",
+      "reescrita": {
+        "pergunta": "Que material vulcânico, visto durante uma erupção, é este?",
+        "resposta": "Lava",
+        "distratores": [
+          "Tefra",
+          "Obsidiana",
+          "Pedra-pomes"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ambiente alagado' entrega a pista, e mangue é defensável: o trecho da Wikipédia em português trata mangues como pântanos. Removi a pista e o distrator ambíguo.",
+      "reescrita": {
+        "pergunta": "Que tipo de ambiente natural é este?",
+        "resposta": "Pântano",
+        "distratores": [
+          "Restinga",
+          "Caatinga",
+          "Savana"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 3 correto: é preciso reconhecer a montanha para dar o país. O enunciado não a nomeia e os distratores são países africanos plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de nível 1 sem vazamento. Distratores são formas de relevo do mesmo tipo e errados diante da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Vale do Pati fica na Chapada Diamantina, conforme o trecho. O enunciado não nomeia o vale e os distratores são outras chapadas brasileiras onde ele não fica.",
+      "reescrita": null
+    }
+  ]
+}

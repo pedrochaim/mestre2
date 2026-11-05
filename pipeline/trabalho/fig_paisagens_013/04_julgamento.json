@@ -1,0 +1,434 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ilha",
+        "descricao": "Porção de terra menor que um continente, totalmente cercada de água.",
+        "variantes": [
+          "Ilhota"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bilhar_americano",
+          "nome": "Bilhar americano",
+          "descricao": "Grupo de jogos de taco (pool) disputados em mesa com seis caçapas e bolas numeradas, como o eight-ball e o nine-ball.",
+          "variantes": [
+            "Sinuca",
+            "Pool",
+            "Bilhar"
+          ]
+        },
+        {
+          "id": "pilcha",
+          "nome": "Pilcha",
+          "descricao": "Indumentária tradicional do gaúcho, com bombacha, botas, lenço e chapéu para os homens.",
+          "variantes": [
+            "Pilcha gaúcha"
+          ]
+        },
+        {
+          "id": "guilhotina",
+          "nome": "Guilhotina",
+          "descricao": "Aparelho de execução por decapitação, com lâmina suspensa numa estrutura vertical, famoso pelo uso na Revolução Francesa.",
+          "variantes": [
+            "Guillotine"
+          ]
+        },
+        {
+          "id": "isla",
+          "nome": "Islã",
+          "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+          "variantes": [
+            "Islão",
+            "Islamismo",
+            "Islam"
+          ]
+        },
+        {
+          "id": "anabel_anime",
+          "nome": "Anabel (anime)",
+          "descricao": "Cérebro da Frente de Batalha que comanda a Torre de Batalha no anime Pokémon, dona de um Espeon.",
+          "variantes": [
+            "Anabel",
+            "Lila",
+            "Salon Maiden"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cânions de Aparados da Serra",
+        "descricao": "Desfiladeiros de paredões verticais na Serra Geral, na divisa entre Rio Grande do Sul e Santa Catarina.",
+        "variantes": [
+          "Cânion Fortaleza",
+          "Cânion Itaimbezinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canion_itaimbezinho",
+          "nome": "Cânion Itaimbezinho",
+          "descricao": "Cânion do Parque Nacional de Aparados da Serra, na divisa entre o Rio Grande do Sul e Santa Catarina.",
+          "variantes": [
+            "Itaimbezinho",
+            "Canyon Itaimbezinho",
+            "Cânion do Itaimbezinho"
+          ]
+        },
+        {
+          "id": "fortaleza_esporte_clube",
+          "nome": "Fortaleza Esporte Clube",
+          "descricao": "Clube de futebol de Fortaleza, no Ceará, de uniforme tricolor listrado.",
+          "variantes": [
+            "Fortaleza",
+            "Fortaleza EC",
+            "Leão do Pici"
+          ]
+        },
+        {
+          "id": "fortaleza",
+          "nome": "Fortaleza",
+          "descricao": "Capital do estado do Ceará, no Nordeste do Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "cranios_rebocados_de_jerico",
+          "nome": "Crânios rebocados de Jericó",
+          "descricao": "Crânios humanos cobertos com camadas de reboco e modelados como rostos, do Neolítico pré-cerâmico B no Levante.",
+          "variantes": [
+            "Crânios modelados de Jericó",
+            "Plastered human skulls"
+          ]
+        },
+        {
+          "id": "cranios_de_paracas",
+          "nome": "Crânios de Paracas",
+          "descricao": "Crânios alongados encontrados nos sítios da cultura Paracas, no litoral sul do Peru.",
+          "variantes": [
+            "Paracas skulls"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lava",
+        "descricao": "Rocha fundida expelida por um vulcão sobre a superfície de um planeta.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lava",
+          "nome": "Lava",
+          "descricao": "Rocha derretida expelida por um vulcão durante uma erupção.",
+          "variantes": []
+        },
+        {
+          "id": "letonia",
+          "nome": "Letônia",
+          "descricao": "País báltico do norte da Europa, entre a Estônia e a Lituânia, cuja capital é Riga.",
+          "variantes": [
+            "Latvia"
+          ]
+        },
+        {
+          "id": "rio_moldava",
+          "nome": "Rio Moldava",
+          "descricao": "Rio mais longo da República Tcheca, que atravessa a cidade de Praga.",
+          "variantes": [
+            "Vltava",
+            "Moldau"
+          ]
+        },
+        {
+          "id": "java",
+          "nome": "Java",
+          "descricao": "Ilha da Indonésia onde fica a capital Jacarta, tradicional produtora de café.",
+          "variantes": [
+            "Jawa",
+            "Ilha de Java"
+          ]
+        },
+        {
+          "id": "java_linguagem_de_programacao",
+          "nome": "Java (linguagem de programação)",
+          "descricao": "Linguagem de programação orientada a objetos lançada em 1995.",
+          "variantes": [
+            "Java"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pântano",
+        "descricao": "Área úmida de floresta com solo encharcado ou alagado.",
+        "variantes": [
+          "Swamp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pantano",
+          "nome": "Pântano",
+          "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+          "variantes": [
+            "Swamp",
+            "Floresta alagada"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        },
+        {
+          "id": "panteao_de_paris",
+          "nome": "Panteão de Paris",
+          "descricao": "Edifício neoclássico no Quartier Latin, em Paris, que guarda os restos de grandes personalidades francesas.",
+          "variantes": [
+            "Panthéon",
+            "Panteão"
+          ]
+        },
+        {
+          "id": "pantanal_telenovela_de_1990",
+          "nome": "Pantanal (telenovela de 1990)",
+          "descricao": "Telenovela de Benedito Ruy Barbosa exibida em 1990, ambientada no Pantanal mato-grossense.",
+          "variantes": [
+            "Pantanal"
+          ]
+        },
+        {
+          "id": "sampa",
+          "nome": "Sampa",
+          "descricao": "Canção de Caetano Veloso de 1978, homenagem à cidade de São Paulo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Monte Quênia",
+        "descricao": "Segunda montanha mais alta da África, vulcão extinto próximo ao Equador.",
+        "variantes": [
+          "Mount Kenya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "mt_moon",
+          "nome": "Mt. Moon",
+          "descricao": "Montanha com cavernas entre Pewter e Cerulean, em Kanto, nos jogos Pokémon Red e Blue, famosa pelos Clefairy e pelos fósseis.",
+          "variantes": [
+            "Monte Lua",
+            "Mount Moon"
+          ]
+        },
+        {
+          "id": "monte_fuji",
+          "nome": "Monte Fuji",
+          "descricao": "Vulcão de forma cônica na ilha de Honshu, o ponto mais alto do Japão.",
+          "variantes": [
+            "Fuji",
+            "Fujisan",
+            "Fuji-san",
+            "Fujiyama"
+          ]
+        },
+        {
+          "id": "denali",
+          "nome": "Denali",
+          "descricao": "Montanha mais alta da América do Norte, na Cordilheira do Alasca.",
+          "variantes": [
+            "Monte McKinley",
+            "Mount McKinley"
+          ]
+        },
+        {
+          "id": "monte_kinabalu",
+          "nome": "Monte Kinabalu",
+          "descricao": "Montanha mais alta da Malásia, de 4.095 metros, em Sabah, na ilha de Bornéu.",
+          "variantes": [
+            "Gunung Kinabalu",
+            "Mount Kinabalu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Montanha",
+        "descricao": "Elevação natural do terreno, de encostas íngremes e bem mais alta que uma colina.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ostensorio",
+          "nome": "Ostensório",
+          "descricao": "Objeto litúrgico dourado usado para expor a hóstia consagrada na adoração eucarística.",
+          "variantes": [
+            "Custódia",
+            "Monstrância"
+          ]
+        },
+        {
+          "id": "montanhismo",
+          "nome": "Montanhismo",
+          "descricao": "Conjunto de atividades ao ar livre que envolvem a escalada de montanhas, também chamado de alpinismo.",
+          "variantes": [
+            "Alpinismo",
+            "Mountaineering"
+          ]
+        },
+        {
+          "id": "juno_moneta",
+          "nome": "Juno Moneta",
+          "descricao": "Epíteto da deusa Juno, em cujo templo no Capitólio funcionava a casa da moeda de Roma.",
+          "variantes": [
+            "Moneta"
+          ]
+        },
+        {
+          "id": "hortela",
+          "nome": "Hortelã",
+          "descricao": "Planta aromática do gênero Mentha, da família das lamiáceas.",
+          "variantes": [
+            "Menta",
+            "Mentha"
+          ]
+        },
+        {
+          "id": "tainha",
+          "nome": "Tainha",
+          "descricao": "Peixe costeiro prateado da família Mugilidae, Mugil cephalus, comum em estuários e litorais.",
+          "variantes": [
+            "Mugil cephalus",
+            "Muge",
+            "Striped mullet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Vale do Pati",
+        "descricao": "Vale formado pelo Rio Pati, no Parque Nacional da Chapada Diamantina, na Bahia.",
+        "variantes": [
+          "Chapada Diamantina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapada_diamantina",
+          "nome": "Chapada Diamantina",
+          "descricao": "Região montanhosa do estado da Bahia, na porção norte da Serra do Espinhaço.",
+          "variantes": []
+        },
+        {
+          "id": "parque_nacional_da_chapada_diamantina",
+          "nome": "Parque Nacional da Chapada Diamantina",
+          "descricao": "Parque nacional no centro da Bahia que abriga vales, serras e cachoeiras, como o Vale do Pati.",
+          "variantes": [
+            "Vale do Pati",
+            "Chapada Diamantina",
+            "PARNA Chapada Diamantina"
+          ]
+        },
+        {
+          "id": "arte_rupestre_do_vale_do_coa",
+          "nome": "Arte rupestre do Vale do Côa",
+          "descricao": "Conjunto de gravuras paleolíticas ao ar livre no vale do rio Côa, no norte de Portugal.",
+          "variantes": [
+            "Gravuras do Côa",
+            "Vale do Côa"
+          ]
+        },
+        {
+          "id": "coroa_imperial_do_brasil",
+          "nome": "Coroa Imperial do Brasil",
+          "descricao": "Coroa de ouro, diamantes e pérolas feita para Dom Pedro II, segundo imperador do Brasil.",
+          "variantes": [
+            "Coroa de Dom Pedro II",
+            "Coroa Diamantina"
+          ]
+        },
+        {
+          "id": "grande_vale_do_rift",
+          "nome": "Grande Vale do Rift",
+          "descricao": "Sistema de fendas tectônicas que corta o leste da África, onde o continente está se partindo.",
+          "variantes": [
+            "Vale do Rift",
+            "Rift do Leste Africano",
+            "Great Rift Valley",
+            "Rifte da África Oriental",
+            "East African Rift"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o conceito de ilha."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Conjunto de cânions é distinto do Cânion Itaimbezinho, que é apenas um deles."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "lava",
+      "motivo": "Mesmo conceito: rocha fundida expelida por vulcão."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "pantano",
+      "motivo": "Mesmo conceito de pântano, floresta alagada, com variante Swamp."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Monte Quênia não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Montanha como conceito difere de montanhismo e das demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Vale do Pati é um vale específico, distinto do parque e da região."
+    }
+  ]
+}

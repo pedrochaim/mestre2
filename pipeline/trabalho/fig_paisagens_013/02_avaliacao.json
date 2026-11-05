@@ -1,0 +1,187 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilhotas rochosas cercadas de mar, claras no celular.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de formação geográfica é esta?",
+      "resposta": "Ilha",
+      "distratores": [
+        "Península",
+        "Cabo",
+        "Istmo"
+      ],
+      "ancora": {
+        "nome": "Ilha",
+        "descricao": "Porção de terra menor que um continente, totalmente cercada de água.",
+        "variantes": [
+          "Ilhota"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Imagem pequena, com marca d'água no canto, e a cachoeira não é reconhecível com segurança como Paulo Afonso."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Desfiladeiro com paredões e araucárias, forma de relevo clara.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que forma de relevo é esta, escavada entre paredões rochosos?",
+      "resposta": "Cânion",
+      "distratores": [
+        "Chapada",
+        "Voçoroca",
+        "Dolina"
+      ],
+      "ancora": {
+        "nome": "Cânions de Aparados da Serra",
+        "descricao": "Desfiladeiros de paredões verticais na Serra Geral, na divisa entre Rio Grande do Sul e Santa Catarina.",
+        "variantes": [
+          "Cânion Itaimbezinho",
+          "Cânion Fortaleza"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Lago de lava em erupção, muito nítido.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama esta rocha derretida que jorra na superfície?",
+      "resposta": "Lava",
+      "distratores": [
+        "Magma",
+        "Tefra",
+        "Obsidiana"
+      ],
+      "ancora": {
+        "nome": "Lava",
+        "descricao": "Rocha fundida expelida por um vulcão sobre a superfície de um planeta.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Praia genérica com coqueiros e folhas na areia, sem elementos que a distingam de outras praias."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Língua de geleira genérica, não reconhecível como Vatnajökull nem como Islândia pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Floresta alagada com água parada, bem visível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de ambiente alagado é este?",
+      "resposta": "Pântano",
+      "distratores": [
+        "Mangue",
+        "Restinga",
+        "Caatinga"
+      ],
+      "ancora": {
+        "nome": "Pântano",
+        "descricao": "Área úmida de floresta com solo encharcado ou alagado.",
+        "variantes": [
+          "Swamp"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Cadeia nevada vista do alto, de baixa resolução, que poderia ser dos Alpes ou de outras cordilheiras; não é reconhecível como os Pirineus."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Picos nevados com lobélias gigantes, característicos do Monte Quênia.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país africano fica esta montanha?",
+      "resposta": "Quênia",
+      "distratores": [
+        "Tanzânia",
+        "Uganda",
+        "Etiópia"
+      ],
+      "ancora": {
+        "nome": "Monte Quênia",
+        "descricao": "Segunda montanha mais alta da África, vulcão extinto próximo ao Equador.",
+        "variantes": [
+          "Mount Kenya"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Montanha nevada clara e bem legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que forma de relevo é esta?",
+      "resposta": "Montanha",
+      "distratores": [
+        "Planalto",
+        "Colina",
+        "Planície"
+      ],
+      "ancora": {
+        "nome": "Montanha",
+        "descricao": "Elevação natural do terreno, de encostas íngremes e bem mais alta que uma colina.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama esquemático com texto em inglês que entrega a resposta (Caldera Collapse), não é uma paisagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vale verde entre paredões de arenito, típico da Chapada Diamantina.",
+      "destino": 3,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que chapada brasileira fica este vale?",
+      "resposta": "Chapada Diamantina",
+      "distratores": [
+        "Chapada dos Veadeiros",
+        "Chapada dos Guimarães",
+        "Chapada do Araripe"
+      ],
+      "ancora": {
+        "nome": "Vale do Pati",
+        "descricao": "Vale formado pelo Rio Pati, no Parque Nacional da Chapada Diamantina, na Bahia.",
+        "variantes": [
+          "Chapada Diamantina"
+        ]
+      }
+    }
+  ]
+}

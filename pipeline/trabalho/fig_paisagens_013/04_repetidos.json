@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que material vulcânico, visto durante uma erupção, é este?",
+        "resposta": "Lava"
+      },
+      "existentes": [
+        {
+          "id": "q08841",
+          "pergunta": "Ao sair de um vulcão, a lava basáltica costuma ter qual temperatura aproximada?",
+          "resposta": "Mil e cem graus"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de ambiente natural é este?",
+        "resposta": "Pântano"
+      },
+      "existentes": [
+        {
+          "id": "q14220",
+          "pergunta": "Que tipo de ambiente úmido é este?",
+          "resposta": "Pântano"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a temperatura da lava basáltica; a nova pede identificar a lava numa imagem. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem para identificar o mesmo ambiente (pântano) numa imagem, com resposta idêntica."
+    }
+  ]
+}
