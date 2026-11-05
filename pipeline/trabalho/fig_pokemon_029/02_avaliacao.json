@@ -1,0 +1,268 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta clara: corpo redondo, crista e pés de pintinho.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Torchic",
+      "distratores": [
+        "Natu",
+        "Rowlet",
+        "Pidove"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Torchic",
+        "descricao": "Pokémon do tipo Fogo da terceira geração, inicial de Hoenn, um pintinho.",
+        "variantes": [
+          "Achamo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com cauda longa curvada e corpo atarracado, razoavelmente reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Slowpoke",
+      "distratores": [
+        "Slowbro",
+        "Slowking",
+        "Lickitung"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Slowpoke",
+        "descricao": "Pokémon Água/Psíquico da primeira geração, de aspecto lento e cauda longa.",
+        "variantes": [
+          "Yadon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta característica: pescoço longo, folha no pescoço e colar de folhas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Bayleef",
+      "distratores": [
+        "Chikorita",
+        "Meganium",
+        "Grotle"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Bayleef",
+        "descricao": "Pokémon do tipo Planta da segunda geração, evolução intermediária de Chikorita.",
+        "variantes": [
+          "Bayleaf"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta achatada com cabeça arredondada e nadadeiras laterais; razoável, com distratores aquáticos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Stunfisk",
+      "distratores": [
+        "Barboach",
+        "Palpitoad",
+        "Seel"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Stunfisk",
+        "descricao": "Pokémon Elétrico/Terrestre da quinta geração, um peixe achatado.",
+        "variantes": [
+          "Marakacchi"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível: orelhas com pelagem, graveto na cauda.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Delphox",
+      "distratores": [
+        "Ninetales",
+        "Talonflame",
+        "Blaziken"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Braixen",
+        "descricao": "Pokémon do tipo Fogo da sexta geração, raposa que carrega um graveto na cauda.",
+        "variantes": [
+          "Tairenar"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Silhueta é uma mancha com asas e espinhos, parece um inseto; não lembra Corphish (pinças não aparecem) e pode ser confundida com outro pokémon.",
+      "ancora": {
+        "nome": "Corphish",
+        "descricao": "Pokémon Água da terceira geração, um lagostim.",
+        "variantes": [
+          "Heigani"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta com capacete de crânio e chifrinhos, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Cubone",
+      "distratores": [
+        "Marowak",
+        "Kangaskhan",
+        "Rhyhorn"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Cubone",
+        "descricao": "Pokémon Terrestre da primeira geração que usa um crânio como capacete.",
+        "variantes": [
+          "Karakara"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta clara: orelhas grandes, cauda com ponta em estrela.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Shinx",
+      "distratores": [
+        "Luxio",
+        "Pachirisu",
+        "Plusle"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Shinx",
+        "descricao": "Pokémon Elétrico da quarta geração, um filhote de leão.",
+        "variantes": [
+          "Kolink"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de orelhas longas e corpo rechonchudo com braço erguido; distinguível com distratores orelhudos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Spinda",
+      "distratores": [
+        "Buneary",
+        "Azumarill",
+        "Pachirisu"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Spinda",
+        "descricao": "Pokémon Normal da terceira geração, de aspecto de panda, com manchas únicas.",
+        "variantes": [
+          "Pucchiri"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta clara: nadadeiras nas orelhas, crista e cauda de sereia.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que pokémon este é a evolução?",
+      "resposta": "Eevee",
+      "distratores": [
+        "Poliwhirl",
+        "Shellder",
+        "Staryu"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Vaporeon",
+        "descricao": "Pokémon do tipo Água da primeira geração, evolução de Eevee.",
+        "variantes": [
+          "Showers"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de ovelha arredondada com pelo encaracolado e cauda em tufos, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Wooloo",
+      "distratores": [
+        "Mareep",
+        "Dubwool",
+        "Skiddo"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Wooloo",
+        "descricao": "Pokémon Normal da oitava geração, uma ovelha de lã encaracolada.",
+        "variantes": [
+          "Wooloo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Silhueta é uma mancha de espetos sem forma característica clara; fácil confundir com outros pokémon.",
+      "ancora": {
+        "nome": "Pupitar",
+        "descricao": "Pokémon Pedra/Terrestre da segunda geração, casulo intermediário de Larvitar.",
+        "variantes": [
+          "Sanagirasu"
+        ]
+      }
+    }
+  ]
+}

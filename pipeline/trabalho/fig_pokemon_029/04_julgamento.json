@@ -1,0 +1,604 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Torchic",
+        "descricao": "Pokémon do tipo Fogo da terceira geração, inicial de Hoenn, um pintinho.",
+        "variantes": [
+          "Achamo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torchic",
+          "nome": "Torchic",
+          "descricao": "Pokémon do tipo Fogo, número 255 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "machamp",
+          "nome": "Machamp",
+          "descricao": "Pokémon do tipo Lutador, número 68 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "orquidea",
+          "nome": "Orquídea",
+          "descricao": "Planta da família Orchidaceae, uma das maiores famílias de plantas com flores",
+          "variantes": [
+            "Orchidaceae",
+            "orquidácea",
+            "orchid"
+          ]
+        },
+        {
+          "id": "louis_armstrong",
+          "nome": "Louis Armstrong",
+          "descricao": "Músico e cantor americano de jazz, nascido em Nova Orleans, intérprete de What a Wonderful World",
+          "variantes": [
+            "Satchmo"
+          ]
+        },
+        {
+          "id": "pancham",
+          "nome": "Pancham",
+          "descricao": "Pokémon do tipo Lutador, número 674 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Slowpoke",
+        "descricao": "Pokémon Água/Psíquico da primeira geração, de aspecto lento e cauda longa.",
+        "variantes": [
+          "Yadon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "slowpoke",
+          "nome": "Slowpoke",
+          "descricao": "Pokémon da Água/Psíquico de primeira geração, número 79 da Pokédex Nacional, rosado e de cauda longa.",
+          "variantes": [
+            "Yadon"
+          ]
+        },
+        {
+          "id": "dna",
+          "nome": "DNA",
+          "descricao": "Molécula que carrega as informações genéticas dos seres vivos.",
+          "variantes": [
+            "ADN",
+            "Ácido desoxirribonucleico"
+          ]
+        },
+        {
+          "id": "yao_ming",
+          "nome": "Yao Ming",
+          "descricao": "Pivô chinês de dois metros e vinte e nove que jogou na NBA pelo Houston Rockets de 2002 a 2011.",
+          "variantes": [
+            "Yao"
+          ]
+        },
+        {
+          "id": "rhydon",
+          "nome": "Rhydon",
+          "descricao": "Pokémon dos tipos Terra e Pedra da primeira geração, com um chifre em forma de broca, evolução de Rhyhorn.",
+          "variantes": []
+        },
+        {
+          "id": "wyndon",
+          "nome": "Wyndon",
+          "descricao": "Metrópole do sul da região de Galar, nos jogos Pokémon Sword e Shield, onde acontece a final do torneio da Liga.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bayleef",
+        "descricao": "Pokémon do tipo Planta da segunda geração, evolução intermediária de Chikorita.",
+        "variantes": [
+          "Bayleaf"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bayleef",
+          "nome": "Bayleef",
+          "descricao": "Pokémon do tipo Planta número 153 da Pokédex Nacional, evolução de Chikorita.",
+          "variantes": []
+        },
+        {
+          "id": "folha_de_louro",
+          "nome": "Folha de louro",
+          "descricao": "Folha aromática do loureiro (Laurus nobilis), usada como tempero em cozidos.",
+          "variantes": [
+            "Louro",
+            "Folha de loureiro",
+            "Bay leaf"
+          ]
+        },
+        {
+          "id": "barbas_de_baleia",
+          "nome": "Barbas de baleia",
+          "descricao": "Placas filtradoras presas à mandíbula superior das baleias misticetas, usadas para reter krill e pequenos peixes.",
+          "variantes": [
+            "Barbatanas",
+            "Baleen"
+          ]
+        },
+        {
+          "id": "aleph",
+          "nome": "Aleph",
+          "descricao": "Primeira letra do alfabeto fenício, ancestral do alfa grego e da letra A latina.",
+          "variantes": [
+            "Álef",
+            "Alef",
+            "Aleph fenício"
+          ]
+        },
+        {
+          "id": "gareth_bale",
+          "nome": "Gareth Bale",
+          "descricao": "Ex-jogador galês de futebol, ponta do Tottenham, Real Madrid e da seleção de Gales.",
+          "variantes": [
+            "Bale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Stunfisk",
+        "descricao": "Pokémon Elétrico/Terrestre da quinta geração, um peixe achatado.",
+        "variantes": [
+          "Marakacchi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "stunfisk",
+          "nome": "Stunfisk",
+          "descricao": "Pokémon dos tipos Terrestre e Elétrico, número 618 da Pokédex Nacional.",
+          "variantes": [
+            "Stunfisk de Galar"
+          ]
+        },
+        {
+          "id": "mariachi",
+          "nome": "Mariachi",
+          "descricao": "Conjunto musical tradicional mexicano com violinos, trompetes, violão, vihuela e guitarrón, em trajes de charro.",
+          "variantes": [
+            "Mariachis"
+          ]
+        },
+        {
+          "id": "stunky",
+          "nome": "Stunky",
+          "descricao": "Pokémon dos tipos Venenoso e Sombrio, número 434 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "saturnalia",
+          "nome": "Saturnália",
+          "descricao": "Festa romana em honra do deus Saturno, com banquetes, presentes e inversão de papéis entre senhores e escravos.",
+          "variantes": [
+            "Saturnais"
+          ]
+        },
+        {
+          "id": "irmaos_graco",
+          "nome": "Irmãos Graco",
+          "descricao": "Tibério e Caio Graco, tribunos da plebe romana mortos no século dois antes de Cristo por defenderem reformas.",
+          "variantes": [
+            "Os Gracos",
+            "Gracchi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Braixen",
+        "descricao": "Pokémon do tipo Fogo da sexta geração, raposa que carrega um graveto na cauda.",
+        "variantes": [
+          "Tairenar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "braixen",
+          "nome": "Braixen",
+          "descricao": "Pokémon fogo da sexta geração, número 654 da Pokédex Nacional, forma intermediária entre Fennekin e Delphox, que carrega um galho na cauda.",
+          "variantes": [
+            "Tairenar"
+          ]
+        },
+        {
+          "id": "brain_virus_de_computador",
+          "nome": "Brain (vírus de computador)",
+          "descricao": "Vírus de computador de 1986 que infectava disquetes de computadores pessoais compatíveis com o IBM PC.",
+          "variantes": [
+            "Brain",
+            "Pakistani Brain"
+          ]
+        },
+        {
+          "id": "braille",
+          "nome": "Braille",
+          "descricao": "Sistema de escrita e leitura tátil para pessoas cegas, formado por pontos em relevo.",
+          "variantes": [
+            "Sistema braille",
+            "Braile",
+            "Sistema braile"
+          ]
+        },
+        {
+          "id": "raiden_mortal_kombat",
+          "nome": "Raiden (Mortal Kombat)",
+          "descricao": "Deus do trovão e protetor da Terra na série de jogos de luta Mortal Kombat.",
+          "variantes": [
+            "Raiden"
+          ]
+        },
+        {
+          "id": "tsareena",
+          "nome": "Tsareena",
+          "descricao": "Pokémon do tipo Planta, número 763 da Pokédex Nacional.",
+          "variantes": [
+            "Amajo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cubone",
+        "descricao": "Pokémon Terrestre da primeira geração que usa um crânio como capacete.",
+        "variantes": [
+          "Karakara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cubone",
+          "nome": "Cubone",
+          "descricao": "Pokémon do tipo Terra, número 104 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "pinha_cone_de_conifera",
+          "nome": "Pinha (cone de conífera)",
+          "descricao": "Estrutura lenhosa com escamas que carrega as sementes em pinheiros e outras coníferas.",
+          "variantes": [
+            "Cone",
+            "Estróbilo",
+            "Pine cone"
+          ]
+        },
+        {
+          "id": "cubo",
+          "nome": "Cubo",
+          "descricao": "Sólido geométrico de seis faces quadradas iguais, doze arestas e oito vértices, um dos sólidos de Platão.",
+          "variantes": [
+            "Hexaedro regular",
+            "Hexaedro"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Shinx",
+        "descricao": "Pokémon Elétrico da quarta geração, um filhote de leão.",
+        "variantes": [
+          "Kolink"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shinx",
+          "nome": "Shinx",
+          "descricao": "Pokémon filhote de leão do tipo Elétrico, número 403 da Pokédex Nacional, da quarta geração.",
+          "variantes": [
+            "Kolink"
+          ]
+        },
+        {
+          "id": "klinklang",
+          "nome": "Klinklang",
+          "descricao": "Pokémon do tipo Aço, número 601 da Pokédex Nacional.",
+          "variantes": [
+            "Klink",
+            "Klang"
+          ]
+        },
+        {
+          "id": "klink",
+          "nome": "Klink",
+          "descricao": "Pokémon do tipo Aço, número 599 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_brilhante",
+          "nome": "Pokémon brilhante",
+          "descricao": "Variação rara de cor de um pokémon, introduzida em Pokémon Gold e Silver, cobiçada por colecionadores.",
+          "variantes": [
+            "Shiny",
+            "Pokémon shiny",
+            "Pokémon Cromático"
+          ]
+        },
+        {
+          "id": "link",
+          "nome": "Link",
+          "descricao": "Jovem espadachim de roupa verde, protagonista da série de jogos The Legend of Zelda.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Spinda",
+        "descricao": "Pokémon Normal da terceira geração, de aspecto de panda, com manchas únicas.",
+        "variantes": [
+          "Pucchiri"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "spinda",
+          "nome": "Spinda",
+          "descricao": "Pokémon do tipo Normal número 327 da Pokédex Nacional, panda de olhos em espiral.",
+          "variantes": []
+        },
+        {
+          "id": "giacomo_puccini",
+          "nome": "Giacomo Puccini",
+          "descricao": "Compositor italiano de óperas como La bohème, Tosca e Madama Butterfly.",
+          "variantes": [
+            "Puccini"
+          ]
+        },
+        {
+          "id": "abobrinha",
+          "nome": "Abobrinha",
+          "descricao": "Fruto alongado e verde da abobrinha, Cucurbita pepo var. cylindrica, colhido imaturo.",
+          "variantes": [
+            "Abobrinha italiana",
+            "Zucchini",
+            "Courgette"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Vaporeon",
+        "descricao": "Pokémon do tipo Água da primeira geração, evolução de Eevee.",
+        "variantes": [
+          "Showers"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vaporeon",
+          "nome": "Vaporeon",
+          "descricao": "Evolução do Eevee do tipo Água, de primeira geração, número 134 da Pokédex Nacional.",
+          "variantes": [
+            "Showers"
+          ]
+        },
+        {
+          "id": "avental",
+          "nome": "Avental",
+          "descricao": "Peça que cobre a frente do corpo sobre a roupa; aqui, um avental tradicional bordado em ponto cruz.",
+          "variantes": [
+            "Apron"
+          ]
+        },
+        {
+          "id": "napoleao_bonaparte",
+          "nome": "Napoleão Bonaparte",
+          "descricao": "General e imperador dos franceses de 1804 a 1814, com breve retorno em 1815.",
+          "variantes": [
+            "Napoleão I",
+            "Napoleon Bonaparte",
+            "Napoleon"
+          ]
+        },
+        {
+          "id": "eva_peron",
+          "nome": "Eva Perón",
+          "descricao": "Atriz e política argentina, primeira-dama de 1946 a 1952 e esposa do presidente Juan Perón.",
+          "variantes": [
+            "Evita",
+            "María Eva Duarte de Perón"
+          ]
+        },
+        {
+          "id": "dwight_d_eisenhower",
+          "nome": "Dwight D. Eisenhower",
+          "descricao": "General americano que comandou as forças aliadas na Europa na Segunda Guerra e foi o 34º presidente dos Estados Unidos.",
+          "variantes": [
+            "Eisenhower",
+            "Ike"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Wooloo",
+        "descricao": "Pokémon Normal da oitava geração, uma ovelha de lã encaracolada.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "wooloo",
+          "nome": "Wooloo",
+          "descricao": "Pokémon ovelha do tipo Normal da oitava geração, número 831 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tatuzinho_de_jardim",
+          "nome": "Tatuzinho-de-jardim",
+          "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado.",
+          "variantes": [
+            "tatu-bola-de-jardim",
+            "Armadillidium vulgare",
+            "isópode terrestre",
+            "woodlouse",
+            "pill bug",
+            "Tatu-bola",
+            "Bicho-de-conta"
+          ]
+        },
+        {
+          "id": "colobo",
+          "nome": "Colobo",
+          "descricao": "Macaco africano de pelagem preta e branca (gênero Colobus), como o guereza.",
+          "variantes": [
+            "Colobus",
+            "Guereza",
+            "Colobo-preto-e-branco"
+          ]
+        },
+        {
+          "id": "chamine_de_fada",
+          "nome": "Chaminé de fada",
+          "descricao": "Pilar de rocha mole esculpido pela erosão, coberto por um bloco mais duro no topo.",
+          "variantes": [
+            "Hoodoo",
+            "Pirâmide de terra",
+            "Tent rock"
+          ]
+        },
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "torchic",
+      "motivo": "Mesmo Pokémon Torchic (Fogo, Hoenn, nº 255)."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "slowpoke",
+      "motivo": "Mesmo Pokémon Slowpoke, Água/Psíquico, 1ª geração, variante Yadon."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "bayleef",
+      "motivo": "Mesmo Pokémon Bayleef, evolução de Chikorita."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "stunfisk",
+      "motivo": "Mesmo Pokémon Stunfisk, Elétrico/Terrestre, 5ª geração."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "braixen",
+      "motivo": "Mesmo Pokémon Braixen, variante Tairenar."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "cubone",
+      "motivo": "Mesmo Pokémon Cubone, tipo Terra, 1ª geração."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "shinx",
+      "motivo": "Mesmo Pokémon Shinx, filhote de leão Elétrico, variante Kolink."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "spinda",
+      "motivo": "Mesmo Pokémon Spinda, Normal, panda."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "vaporeon",
+      "motivo": "Mesmo Pokémon Vaporeon, evolução de Eevee tipo Água."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "wooloo",
+      "motivo": "Mesmo Pokémon Wooloo, ovelha Normal da 8ª geração."
+    }
+  ]
+}
