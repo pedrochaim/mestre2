@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de percussão afro-brasileiro é este?",
+        "resposta": "Atabaque"
+      },
+      "existentes": [
+        {
+          "id": "q05180",
+          "pergunta": "Que instrumento de percussão brasileiro é este?",
+          "resposta": "Atabaque"
+        },
+        {
+          "id": "q05255",
+          "pergunta": "No candomblé, os três atabaques se chamam rum, rumpi e lé. Qual deles é o maior e de som mais grave?",
+          "resposta": "Rum"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este músico baiano foi vocalista e guitarrista de que grupo nos anos setenta?",
+        "resposta": "Novos Baianos"
+      },
+      "existentes": [
+        {
+          "id": "q18473",
+          "pergunta": "Que músico brasileiro é este?",
+          "resposta": "Moraes Moreira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05180",
+      "motivo": "Ambas mostram o instrumento e pedem identificá-lo; resposta idêntica: Atabaque."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome do músico (Moraes Moreira); a nova pede o grupo (Novos Baianos), fato diferente, embora a imagem possa ser a mesma."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, em recorte de vídeo; a pessoa não é reconhecível com segurança."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto que entregue a resposta (só 'RUN' parcial na camiseta).",
+      "pergunta": "Este rapper carioca cofundou qual banda?",
+      "tipo": "multipla",
+      "resposta": "Planet Hemp",
+      "distratores": [
+        "Charlie Brown Jr.",
+        "O Rappa",
+        "Raimundos"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Marcelo D2",
+        "descricao": "Rapper, cantor e compositor brasileiro, cofundador da banda Planet Hemp.",
+        "variantes": [
+          "Marcelo Maldonado Peixoto"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida, com cocar de palha e colar característicos, e sem texto.",
+      "pergunta": "Quem é este músico baiano?",
+      "tipo": "multipla",
+      "resposta": "Carlinhos Brown",
+      "distratores": [
+        "Seu Jorge",
+        "Lenine",
+        "Naná Vasconcelos"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Carlinhos Brown",
+        "descricao": "Cantor, percussionista e produtor brasileiro nascido em Salvador, Bahia.",
+        "variantes": [
+          "Antônio Carlos Santos de Freitas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, com o músico sentado e de longe; não é reconhecível num celular."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto; o chapéu e os óculos ajudam no reconhecimento.",
+      "pergunta": "Este sambista foi o cantor oficial dos desfiles de que escola de samba?",
+      "tipo": "multipla",
+      "resposta": "Mangueira",
+      "distratores": [
+        "Portela",
+        "Salgueiro",
+        "Beija-Flor"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Jamelão",
+        "descricao": "Cantor de samba brasileiro, puxador de sambas-enredo da Estação Primeira de Mangueira de 1949 a 2006.",
+        "variantes": [
+          "José Bispo Clementino dos Santos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto; os cabelos brancos e os colares coloridos ajudam a reconhecê-la.",
+      "pergunta": "Que cidade deu origem ao nome artístico desta cantora?",
+      "tipo": "multipla",
+      "resposta": "Belém",
+      "distratores": [
+        "Manaus",
+        "São Luís",
+        "Salvador"
+      ],
+      "familia": "o_que_e",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Fafá de Belém",
+        "descricao": "Cantora brasileira de MPB nascida em Belém do Pará, que tomou o nome artístico da cidade natal.",
+        "variantes": [
+          "Maria de Fátima Palha de Figueiredo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto antiga em preto e branco, com o rosto contorcido pelo riso; a cantora não é reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "O instrumento aparece com clareza e centralizado. A placa ao fundo é de uma loja e não entrega a resposta, e as pessoas ao fundo são pequenas e secundárias.",
+      "pergunta": "Que instrumento de percussão afro-brasileiro é este?",
+      "tipo": "multipla",
+      "resposta": "Atabaque",
+      "distratores": [
+        "Djembê",
+        "Tantã",
+        "Surdo"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Atabaque",
+        "descricao": "Tambor alto de madeira, afro-brasileiro, afinado por cordas e cunhas, tocado com as mãos.",
+        "variantes": [
+          "Atabaque de corda"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, com cabelo comprido, bigode e óculos escuros característicos, e sem texto.",
+      "pergunta": "Este músico baiano foi vocalista e guitarrista de que grupo nos anos setenta?",
+      "tipo": "multipla",
+      "resposta": "Novos Baianos",
+      "distratores": [
+        "Os Mutantes",
+        "Secos & Molhados",
+        "A Cor do Som"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Moraes Moreira",
+        "descricao": "Músico e compositor baiano, ex-integrante dos Novos Baianos e depois artista solo.",
+        "variantes": [
+          "Antônio Carlos Moreira Pires"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de show, nítida, com cabelo ruivo cacheado e óculos característicos, e sem texto.",
+      "pergunta": "Quem é este cantor pernambucano?",
+      "tipo": "multipla",
+      "resposta": "Reginaldo Rossi",
+      "distratores": [
+        "Waldick Soriano",
+        "Amado Batista",
+        "Odair José"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Reginaldo Rossi",
+        "descricao": "Cantor e compositor brasileiro de Recife, conhecido como o Rei do Brega.",
+        "variantes": [
+          "Reginaldo Rodrigues dos Santos"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem de baixa qualidade, parecida com um selfie ou quadro de vídeo, sem contexto; a cantora não é reconhecível com segurança."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Close lateral com o rosto parcialmente coberto pelo microfone e olhos fechados; a cantora não é reconhecível pela imagem."
+    }
+  ]
+}
