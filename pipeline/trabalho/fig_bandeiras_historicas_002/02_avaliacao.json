@@ -1,0 +1,259 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, reconhecível (listras vermelha, preta e verde com sol nascente).",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta bandeira foi de um Estado separatista, proclamado em 1967. De que país ele tentou se separar?",
+      "resposta": "Nigéria",
+      "distratores": [
+        "Camarões",
+        "Gana",
+        "Benin"
+      ],
+      "ancora": {
+        "nome": "Biafra",
+        "descricao": "Estado separatista não reconhecido, no leste da Nigéria, que existiu de 1967 a 1970.",
+        "variantes": [
+          "República de Biafra"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e sem texto, com faixa vertical verde e três listras horizontais (a Vierkleur sul-africana). Resposta única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta bandeira foi de uma república bôer, anexada pelos britânicos em 1902. Em que país atual ficava o território dela?",
+      "resposta": "África do Sul",
+      "distratores": [
+        "Namíbia",
+        "Zimbábue",
+        "Botsuana"
+      ],
+      "ancora": {
+        "nome": "República do Transvaal",
+        "descricao": "República bôer independente do sul da África, de 1852 a 1902, anexada pelo Império Britânico após a Segunda Guerra dos Bôeres.",
+        "variantes": [
+          "República Sul-Africana",
+          "Zuid-Afrikaansche Republiek",
+          "Transvaal"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira da Guanabara, sem texto, com brasão distintivo (esfera armilar, golfinhos) e cruz de Santo André azul. Reconhecível e única.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Em que ano deixou de existir o estado brasileiro desta bandeira?",
+      "resposta": "1975",
+      "distratores": [
+        "1972",
+        "1974",
+        "1977"
+      ],
+      "ancora": {
+        "nome": "Estado da Guanabara",
+        "descricao": "Estado brasileiro que existiu de 1960 a 1975 no território da cidade do Rio de Janeiro, antigo Distrito Federal.",
+        "variantes": [
+          "Guanabara",
+          "Estado da Guanabara (GB)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Cruz vermelha sobre fundo branco é também a bandeira da Inglaterra e de São Jorge; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira do dragão Qing, nítida, sem texto e marcante.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que século caiu o império que usava esta bandeira?",
+      "resposta": "Século vinte",
+      "distratores": [
+        "Século dezoito",
+        "Século dezenove",
+        "Século dezessete"
+      ],
+      "ancora": {
+        "nome": "Dinastia Qing",
+        "descricao": "Última dinastia imperial da China, de origem manchu, que governou de 1644 a 1912.",
+        "variantes": [
+          "Império Qing",
+          "Grande Qing",
+          "China Imperial"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira distintiva do Manchukuo, sem texto, legível no celular.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Esta bandeira foi de um Estado fantoche do Japão. Em que região da Ásia ele ficava?",
+      "resposta": "Manchúria",
+      "distratores": [
+        "Mongólia Interior",
+        "Tibete",
+        "Península Coreana"
+      ],
+      "ancora": {
+        "nome": "Manchukuo",
+        "descricao": "Estado fantoche do Império do Japão na Manchúria, existente de 1932 a 1945.",
+        "variantes": [
+          "Manchúkuo",
+          "Manchuguo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira com brasão da Coroa polonesa e do Grão-Ducado da Lituânia, sem texto, distintiva.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que século deixou de existir o Estado desta bandeira?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezessete",
+        "Século dezenove",
+        "Século dezesseis"
+      ],
+      "ancora": {
+        "nome": "República das Duas Nações (Polônia-Lituânia)",
+        "descricao": "União federativa entre o Reino da Polônia e o Grão-Ducado da Lituânia, existente de 1569 a 1795.",
+        "variantes": [
+          "Comunidade Polaco-Lituana",
+          "Polônia-Lituânia",
+          "Primeira República Polonesa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tricolor italiano com escudo de Saboia, sem texto; distingue-se da bandeira atual pelo escudo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que casa real é lembrada pelo escudo no centro desta bandeira?",
+      "resposta": "Casa de Saboia",
+      "distratores": [
+        "Casa de Habsburgo",
+        "Casa de Bourbon",
+        "Casa de Médici"
+      ],
+      "ancora": {
+        "nome": "Reino da Itália",
+        "descricao": "Estado unitário italiano governado pela Casa de Saboia, de 1861 a 1946.",
+        "variantes": [
+          "Reino da Itália (1861–1946)",
+          "Itália monárquica"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Bandeira com coroa e monograma sobre tricolor holandês; pode ser confundida com bandeiras da Companhia das Índias Ocidentais e de outras colônias holandesas, e o monograma é pouco legível. Resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto: cantão tricolor francês sobre fundo verde. Distintiva.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Esta bandeira foi de uma república efêmera, fundada em 1886 e nunca reconhecida. Que estado brasileiro abrigava parte do território dela?",
+      "resposta": "Amapá",
+      "distratores": [
+        "Pará",
+        "Roraima",
+        "Amazonas"
+      ],
+      "ancora": {
+        "nome": "República do Cunani",
+        "descricao": "Estado independentista proclamado em 1886 na região disputada entre o Amapá e a Guiana Francesa, nunca reconhecido.",
+        "variantes": [
+          "Cunani",
+          "Counani",
+          "República Independente da Guiana",
+          "Estado Livre de Cunani"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira tricolor com leão e sol, nítida e sem texto; associada ao Irã imperial.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que revolução derrubou o regime que usava esta bandeira?",
+      "resposta": "Revolução Iraniana",
+      "distratores": [
+        "Revolução Russa",
+        "Revolução Cubana",
+        "Revolução dos Cravos"
+      ],
+      "ancora": {
+        "nome": "Irã Pahlavi",
+        "descricao": "Estado imperial do Irã sob a dinastia Pahlavi, de 1925 a 1979, cuja bandeira tinha o leão e sol.",
+        "variantes": [
+          "Irã Imperial",
+          "Império do Irã",
+          "Pérsia Pahlavi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira verde-branco-verde com brasão da Rodésia; o lema em latim não revela o nome. Distinta da bandeira nigeriana pelo brasão.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país africano atual ocupa o território do Estado desta bandeira?",
+      "resposta": "Zimbábue",
+      "distratores": [
+        "Zâmbia",
+        "Botsuana",
+        "Moçambique"
+      ],
+      "ancora": {
+        "nome": "Rodésia",
+        "descricao": "Estado não reconhecido da África Austral, de maioria branca no poder, que existiu de 1965 a 1979 e deu origem ao Zimbábue.",
+        "variantes": [
+          "República da Rodésia",
+          "Rodésia do Sul"
+        ]
+      }
+    }
+  ]
+}

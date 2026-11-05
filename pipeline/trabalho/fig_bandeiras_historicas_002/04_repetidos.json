@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano deixou de existir o estado brasileiro desta bandeira?",
+        "resposta": "1975"
+      },
+      "existentes": [
+        {
+          "id": "q04545",
+          "pergunta": "Depois que a capital foi para Brasília, a cidade do Rio virou o estado da Guanabara. Em que década ele foi fundido ao estado do Rio de Janeiro?",
+          "resposta": "Década de 1970"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quando o estado da Guanabara foi fundido ao Rio de Janeiro (1975, década de 1970); quem soubesse o ano responderia a década.",
+      "id_existente": "q04545"
+    }
+  ]
+}

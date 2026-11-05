@@ -1,0 +1,627 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Biafra",
+        "descricao": "Estado separatista não reconhecido, no leste da Nigéria, que existiu de 1967 a 1970.",
+        "variantes": [
+          "República de Biafra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "cuba",
+          "nome": "Cuba",
+          "descricao": "País insular do Caribe, o maior da região em área, com capital em Havana.",
+          "variantes": [
+            "República de Cuba"
+          ]
+        },
+        {
+          "id": "singapura",
+          "nome": "Singapura",
+          "descricao": "Cidade-Estado insular do Sudeste Asiático, na ponta sul da Península Malaia.",
+          "variantes": [
+            "Singapore",
+            "República de Singapura",
+            "Cingapura"
+          ]
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "nauru",
+          "nome": "Nauru",
+          "descricao": "País insular e microestado do Pacífico Sul, na Micronésia, cuja capital de fato é Yaren.",
+          "variantes": [
+            "Naoero",
+            "República de Nauru"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "República do Transvaal",
+        "descricao": "República bôer independente do sul da África, de 1852 a 1902, anexada pelo Império Britânico após a Segunda Guerra dos Bôeres.",
+        "variantes": [
+          "República Sul-Africana",
+          "Zuid-Afrikaansche Republiek",
+          "Transvaal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panama",
+          "nome": "Panamá",
+          "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+          "variantes": [
+            "República do Panamá"
+          ]
+        },
+        {
+          "id": "bandeira_da_republica_centro_africana",
+          "nome": "Bandeira da República Centro-Africana",
+          "descricao": "Bandeira nacional da República Centro-Africana, com quatro faixas horizontais, faixa vermelha vertical e estrela amarela.",
+          "variantes": [
+            "República Centro-Africana",
+            "Bandeira da Centro-Africana"
+          ]
+        },
+        {
+          "id": "uniao_sul_africana",
+          "nome": "União Sul-Africana",
+          "descricao": "Estado criado em 1910 pela unificação de quatro colônias britânicas, antecessor da atual República da África do Sul.",
+          "variantes": [
+            "União da África do Sul"
+          ]
+        },
+        {
+          "id": "botsuana",
+          "nome": "Botsuana",
+          "descricao": "País sem litoral do sul da África, de capital Gaborone, em grande parte coberto pelo deserto do Kalahari.",
+          "variantes": [
+            "Botswana",
+            "República do Botsuana"
+          ]
+        },
+        {
+          "id": "placa_sul_americana",
+          "nome": "Placa Sul-Americana",
+          "descricao": "Placa tectônica que abrange a América do Sul e parte do oceano Atlântico Sul.",
+          "variantes": [
+            "South American Plate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Estado da Guanabara",
+        "descricao": "Estado brasileiro que existiu de 1960 a 1975 no território da cidade do Rio de Janeiro, antigo Distrito Federal.",
+        "variantes": [
+          "Guanabara",
+          "Estado da Guanabara (GB)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baia_de_guanabara",
+          "nome": "Baía de Guanabara",
+          "descricao": "Baía oceânica do estado do Rio de Janeiro, cercada pelas cidades do Rio de Janeiro e de Niterói.",
+          "variantes": [
+            "Guanabara Bay",
+            "Guanabara"
+          ]
+        },
+        {
+          "id": "estado_da_guanabara",
+          "nome": "Estado da Guanabara",
+          "descricao": "Antiga unidade da federação formada pelo território da cidade do Rio de Janeiro após a mudança da capital para Brasília.",
+          "variantes": [
+            "Guanabara"
+          ]
+        },
+        {
+          "id": "estadio_da_gavea",
+          "nome": "Estádio da Gávea",
+          "descricao": "Estádio José Bastos Padilha, na sede social do Flamengo, no Rio de Janeiro.",
+          "variantes": [
+            "Estádio José Bastos Padilha",
+            "Gávea"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "paraiba",
+          "nome": "Paraíba",
+          "descricao": "Estado do Nordeste brasileiro, cuja capital é João Pessoa.",
+          "variantes": [
+            "Estado da Paraíba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Dinastia Qing",
+        "descricao": "Última dinastia imperial da China, de origem manchu, que governou de 1644 a 1912.",
+        "variantes": [
+          "Império Qing",
+          "Grande Qing",
+          "China Imperial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dinastia_qin",
+          "nome": "Dinastia Qin",
+          "descricao": "Primeira dinastia imperial da China, de 221 a 206 antes de Cristo, fundada por Qin Shi Huang.",
+          "variantes": [
+            "Qin",
+            "Ch'in"
+          ]
+        },
+        {
+          "id": "imperio_inca",
+          "nome": "Império Inca",
+          "descricao": "Estado pré-colombiano andino, centrado em Cusco, que dominou boa parte da costa oeste da América do Sul nos séculos quinze e dezesseis.",
+          "variantes": [
+            "Tawantinsuyu",
+            "Tahuantinsuyo"
+          ]
+        },
+        {
+          "id": "petropolis",
+          "nome": "Petrópolis",
+          "descricao": "Cidade da serra fluminense, antiga residência de verão da família imperial brasileira.",
+          "variantes": [
+            "Cidade Imperial"
+          ]
+        },
+        {
+          "id": "dinastia_han",
+          "nome": "Dinastia Han",
+          "descricao": "Dinastia imperial chinesa que governou de 206 antes de Cristo a 220 depois de Cristo.",
+          "variantes": [
+            "Han dynasty",
+            "Império Han"
+          ]
+        },
+        {
+          "id": "imperio_songai",
+          "nome": "Império Songai",
+          "descricao": "Império da África Ocidental que dominou o Sahel nos séculos quinze e dezesseis, sucedendo o Império do Mali.",
+          "variantes": [
+            "Songhai",
+            "Império Songhai"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Manchukuo",
+        "descricao": "Estado fantoche do Império do Japão na Manchúria, existente de 1932 a 1945.",
+        "variantes": [
+          "Manchuguo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "manguezal",
+          "nome": "Manguezal",
+          "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais",
+          "variantes": [
+            "Mangue",
+            "Mangrove"
+          ]
+        },
+        {
+          "id": "machop",
+          "nome": "Machop",
+          "descricao": "Pokémon do tipo Lutador, número 66 da Pokédex Nacional, da primeira geração.",
+          "variantes": [
+            "Wanriky"
+          ]
+        },
+        {
+          "id": "joystick",
+          "nome": "Joystick",
+          "descricao": "Dispositivo de entrada com uma haste que pivota sobre uma base e informa a direção ao aparelho controlado, usado em videogames e aeronaves.",
+          "variantes": [
+            "Manche",
+            "Manípulo eletrônico"
+          ]
+        },
+        {
+          "id": "mangueirao",
+          "nome": "Mangueirão",
+          "descricao": "Estádio Estadual Jornalista Edgar Proença, estádio de Belém, Pará, inaugurado em 1978.",
+          "variantes": [
+            "Estádio Olímpico do Pará",
+            "Estádio Edgar Proença"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "República das Duas Nações (Polônia-Lituânia)",
+        "descricao": "União federativa entre o Reino da Polônia e o Grão-Ducado da Lituânia, existente de 1569 a 1795.",
+        "variantes": [
+          "Comunidade Polaco-Lituana",
+          "Polônia-Lituânia",
+          "Primeira República Polonesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lituania",
+          "nome": "Lituânia",
+          "descricao": "País báltico da Europa, com capital em Vilnius, cuja bandeira é um tricolor horizontal amarelo, verde e vermelho.",
+          "variantes": [
+            "Lithuania",
+            "República da Lituânia"
+          ]
+        },
+        {
+          "id": "eritreia_italiana",
+          "nome": "Eritreia italiana",
+          "descricao": "Colônia da Itália no litoral do mar Vermelho, de 1890 a 1941.",
+          "variantes": [
+            "Italian Eritrea",
+            "Colônia Eritreia"
+          ]
+        },
+        {
+          "id": "polonia",
+          "nome": "Polônia",
+          "descricao": "País da Europa Central, com capital em Varsóvia, cuja bandeira é bicolor, branca em cima e vermelha embaixo.",
+          "variantes": [
+            "Poland",
+            "República da Polônia"
+          ]
+        },
+        {
+          "id": "libano",
+          "nome": "Líbano",
+          "descricao": "País do Levante, na Ásia Ocidental, banhado pelo Mediterrâneo, cuja capital é Beirute.",
+          "variantes": [
+            "República Libanesa"
+          ]
+        },
+        {
+          "id": "primeira_exposicao_impressionista",
+          "nome": "Primeira Exposição Impressionista",
+          "descricao": "Mostra coletiva de Monet, Degas, Renoir, Pissarro e outros, realizada em Paris no antigo estúdio do fotógrafo Nadar, em 1874.",
+          "variantes": [
+            "Exposição de 1874"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Reino da Itália",
+        "descricao": "Estado unitário italiano governado pela Casa de Saboia, de 1861 a 1946.",
+        "variantes": [
+          "Reino da Itália (1861–1946)",
+          "Itália monárquica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tailandia",
+          "nome": "Tailândia",
+          "descricao": "País do Sudeste Asiático com capital em Bangkok, antes chamado Sião.",
+          "variantes": [
+            "Reino da Tailândia",
+            "Sião"
+          ]
+        },
+        {
+          "id": "imperio_do_mali",
+          "nome": "Império do Mali",
+          "descricao": "Império da África Ocidental que dominou o Sahel do século treze ao dezesseis, famoso pelo ouro e por Tombuctu.",
+          "variantes": [
+            "Mali Empire",
+            "Reino do Mali"
+          ]
+        },
+        {
+          "id": "reino_da_iugoslavia",
+          "nome": "Reino da Iugoslávia",
+          "descricao": "Estado criado em 1918 nos Bálcãs com o nome de Reino dos Sérvios, Croatas e Eslovenos, rebatizado em 1929.",
+          "variantes": [
+            "Reino dos Sérvios, Croatas e Eslovenos",
+            "Jugoslávia"
+          ]
+        },
+        {
+          "id": "il_canto_degli_italiani",
+          "nome": "Il Canto degli Italiani",
+          "descricao": "Hino nacional da Itália, escrito em 1847, com música de Michele Novaro.",
+          "variantes": [
+            "Hino de Mameli",
+            "Inno di Mameli",
+            "Fratelli d'Italia"
+          ]
+        },
+        {
+          "id": "suecia",
+          "nome": "Suécia",
+          "descricao": "País nórdico da Península Escandinava, cuja capital é Estocolmo.",
+          "variantes": [
+            "Reino da Suécia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "República do Cunani",
+        "descricao": "Estado independentista proclamado em 1886 na região disputada entre o Amapá e a Guiana Francesa, nunca reconhecido.",
+        "variantes": [
+          "Cunani",
+          "Counani",
+          "República Independente da Guiana",
+          "Estado Livre de Cunani"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "cuba",
+          "nome": "Cuba",
+          "descricao": "País insular do Caribe, o maior da região em área, com capital em Havana.",
+          "variantes": [
+            "República de Cuba"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        },
+        {
+          "id": "chade",
+          "nome": "Chade",
+          "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+          "variantes": [
+            "República do Chade"
+          ]
+        },
+        {
+          "id": "haiti",
+          "nome": "Haiti",
+          "descricao": "País caribenho na porção oeste da ilha de Hispaniola, com capital em Porto Príncipe.",
+          "variantes": [
+            "República do Haiti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Irã Pahlavi",
+        "descricao": "Estado imperial do Irã sob a dinastia Pahlavi, de 1925 a 1979, cuja bandeira tinha o leão e sol.",
+        "variantes": [
+          "Irã Imperial",
+          "Império do Irã",
+          "Pérsia Pahlavi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "imperio_do_mali",
+          "nome": "Império do Mali",
+          "descricao": "Império da África Ocidental que dominou o Sahel do século treze ao dezesseis, famoso pelo ouro e por Tombuctu.",
+          "variantes": [
+            "Mali Empire",
+            "Reino do Mali"
+          ]
+        },
+        {
+          "id": "imperio_de_gana",
+          "nome": "Império de Gana",
+          "descricao": "Império da África Ocidental, nas atuais Mauritânia e Mali, que prosperou com o comércio de ouro até o século treze.",
+          "variantes": [
+            "Ghana Empire",
+            "Império do Gana",
+            "Wagadu",
+            "Uagadu"
+          ]
+        },
+        {
+          "id": "bandeira_do_imperio_do_brasil",
+          "nome": "Bandeira do Império do Brasil",
+          "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial.",
+          "variantes": [
+            "Bandeira imperial do Brasil",
+            "Bandeira imperial"
+          ]
+        },
+        {
+          "id": "palmeira_imperial",
+          "nome": "Palmeira-imperial",
+          "descricao": "Palmeira alta do gênero Roystonea, de tronco liso e acinzentado, muito usada em jardins e avenidas.",
+          "variantes": [
+            "Roystonea",
+            "Palmeira-real",
+            "Royal palm"
+          ]
+        },
+        {
+          "id": "petropolis",
+          "nome": "Petrópolis",
+          "descricao": "Cidade da serra fluminense, antiga residência de verão da família imperial brasileira.",
+          "variantes": [
+            "Cidade Imperial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Rodésia",
+        "descricao": "Estado não reconhecido da África Austral, de maioria branca no poder, que existiu de 1965 a 1979 e deu origem ao Zimbábue.",
+        "variantes": [
+          "República da Rodésia",
+          "Rodésia do Sul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "croacia",
+          "nome": "Croácia",
+          "descricao": "País da Europa Central e do Sudeste, no mar Adriático, com capital em Zagreb.",
+          "variantes": [
+            "República da Croácia"
+          ]
+        },
+        {
+          "id": "armenia",
+          "nome": "Armênia",
+          "descricao": "País sem litoral do Cáucaso, na Ásia Ocidental, com capital em Yerevan.",
+          "variantes": [
+            "República da Armênia"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "moldavia",
+          "nome": "Moldávia",
+          "descricao": "País sem litoral do Leste Europeu entre a Romênia e a Ucrânia, com capital em Chisinau.",
+          "variantes": [
+            "Moldova",
+            "República da Moldávia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Biafra é um estado separatista distinto de todas as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "República do Transvaal é distinta da União Sul-Africana e dos demais."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "estado_da_guanabara",
+      "motivo": "Mesma unidade federativa extinta, o território do Rio de Janeiro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Dinastia Qing difere de Qin e Han."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Manchukuo não tem correspondente entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A Comunidade Polaco-Lituana é distinta da Polônia e da Lituânia atuais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Reino da Itália histórico não está entre as candidatas; o hino é outra entidade."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "República do Cunani não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Irã Pahlavi não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Rodésia não corresponde a nenhuma candidata."
+    }
+  ]
+}

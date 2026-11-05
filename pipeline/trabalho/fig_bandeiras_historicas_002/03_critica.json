@@ -1,0 +1,106 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estado separatista proclamado em 1967' permite responder sem a figura (teste da imagem coberta). Tirar a pista e deixar a bandeira identificar o Estado.",
+      "reescrita": {
+        "pergunta": "Esta bandeira foi de um Estado africano que existiu por poucos anos, no fim da década de sessenta. Em que país atual ficava o território dele?",
+        "resposta": "Nigéria",
+        "distratores": [
+          "Camarões",
+          "Gana",
+          "Benin"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'República bôer' entrega a resposta sem olhar a figura. Removi a pista e deixei só o reconhecimento da bandeira.",
+      "reescrita": {
+        "pergunta": "Esta bandeira foi de uma república que existiu no século dezenove. Em que país atual ficava o território dela?",
+        "resposta": "África do Sul",
+        "distratores": [
+          "Namíbia",
+          "Zimbábue",
+          "Botsuana"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o fim em 1975, com a fusão de março de 1975. Os distratores são anos críveis e o enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A queda foi em 1912, século vinte, como dizem os trechos. Os distratores são séculos e não há vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Manchukuo incluiu partes da Mongólia Interior, então esse distrator é defensável. Troquei por uma região claramente errada.",
+      "reescrita": {
+        "pergunta": "Esta bandeira foi de um Estado fantoche do Japão. Em que região da Ásia ele ficava?",
+        "resposta": "Manchúria",
+        "distratores": [
+          "Tibete",
+          "Península Coreana",
+          "Península de Shandong"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A extinção foi na Terceira Partição, em 1795, século dezoito. Os distratores são séculos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O escudo central da bandeira é o brasão da Casa de Saboia, que liderou a unificação. O enunciado não vaza a resposta e os distratores são casas reais críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Abrigava' é ambíguo: em 1886 a região pertencia ao Pará. A pergunta precisa pedir o estado atual.",
+      "reescrita": {
+        "pergunta": "Esta bandeira foi de uma república efêmera, fundada em 1886 e nunca reconhecida. Que estado brasileiro atual abriga parte do território dela?",
+        "resposta": "Amapá",
+        "distratores": [
+          "Pará",
+          "Roraima",
+          "Amazonas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Revolução Iraniana de 1979 derrubou o regime Pahlavi. O enunciado não nomeia o país e os distratores são revoluções críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Rodésia corresponde ao território do atual Zimbábue, como dizem os trechos. O enunciado não vaza a resposta e os distratores são países vizinhos.",
+      "reescrita": null
+    }
+  ]
+}
