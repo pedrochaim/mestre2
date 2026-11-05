@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que paradoxo lógico leva o nome deste matemático britânico?",
+        "resposta": "Paradoxo de Russell"
+      },
+      "existentes": [
+        {
+          "id": "q08211",
+          "pergunta": "Entre estes quatro filósofos, quem chegou à idade mais avançada?",
+          "resposta": "Bertrand Russell"
+        },
+        {
+          "id": "q08245",
+          "pergunta": "Já com 89 anos de idade, o filósofo Bertrand Russell passou uma semana preso por protestar contra quê?",
+          "resposta": "As armas nucleares"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova trata do paradoxo que leva o nome de Russell. As existentes tratam da longevidade de Russell e da prisão dele por protestar contra armas nucleares. São fatos diferentes."
+    }
+  ]
+}

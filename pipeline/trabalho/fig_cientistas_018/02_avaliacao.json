@@ -1,0 +1,202 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Gravura colorida sem texto, retrato claro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que matemático inglês do século dezenove é este?",
+      "resposta": "George Boole",
+      "distratores": [
+        "Augustus De Morgan",
+        "Charles Babbage",
+        "Arthur Cayley"
+      ],
+      "ancora": {
+        "nome": "George Boole",
+        "descricao": "Matemático e filósofo inglês do século XIX, criador da álgebra booleana.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A assinatura 'Laennec' e a legenda do litógrafo aparecem na imagem e entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cédula com o nome 'Augusto Ruschi' impresso, além de texto e de duas faces; entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto antiga sem texto, retrato nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que psiquiatra alemão é este?",
+      "resposta": "Alois Alzheimer",
+      "distratores": [
+        "Emil Kraepelin",
+        "Franz Nissl",
+        "Karl Jaspers"
+      ],
+      "ancora": {
+        "nome": "Alois Alzheimer",
+        "descricao": "Psiquiatra e neuropatologista alemão que descreveu o primeiro caso da doença que leva seu nome.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco sem texto, retrato claro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que físico e inventor americano do século vinte é este?",
+      "resposta": "Robert Goddard",
+      "distratores": [
+        "Robert Oppenheimer",
+        "Richard Feynman",
+        "Edwin Hubble"
+      ],
+      "ancora": {
+        "nome": "Robert Goddard",
+        "descricao": "Físico e engenheiro americano que construiu o primeiro foguete de combustível líquido.",
+        "variantes": [
+          "Robert Hutchings Goddard"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto antiga sem texto, retrato nítido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que aparelho de laboratório leva o nome deste químico alemão?",
+      "resposta": "Bico de Bunsen",
+      "distratores": [
+        "Placa de Petri",
+        "Frasco de Erlenmeyer",
+        "Funil de Büchner"
+      ],
+      "ancora": {
+        "nome": "Robert Bunsen",
+        "descricao": "Químico alemão do século XIX, codescobridor do césio e do rubídio e desenvolvedor do bico de Bunsen.",
+        "variantes": [
+          "Robert Wilhelm Bunsen"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; fragmentos do fundo não revelam nada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que empreendedor da internet é este?",
+      "resposta": "Jimmy Wales",
+      "distratores": [
+        "Tim Berners-Lee",
+        "Larry Page",
+        "Steve Wozniak"
+      ],
+      "ancora": {
+        "nome": "Jimmy Wales",
+        "descricao": "Empreendedor da internet americano e britânico, cofundador da Wikipédia.",
+        "variantes": [
+          "Jimmy Donal Wales"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Crachá com o nome 'Don Knuth' visível na camisa entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida sem texto de figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Que microbiologista francesa é esta?",
+      "resposta": "Emmanuelle Charpentier",
+      "distratores": [
+        "Jennifer Doudna",
+        "Françoise Barré-Sinoussi",
+        "Christiane Nüsslein-Volhard"
+      ],
+      "ancora": {
+        "nome": "Emmanuelle Charpentier",
+        "descricao": "Microbióloga e bioquímica francesa, Nobel de Química de 2020 pela edição de genoma com CRISPR.",
+        "variantes": [
+          "Emmanuelle Marie Charpentier"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato em pastel sem texto, claro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que catálogo celeste leva o nome deste astrônomo francês?",
+      "resposta": "Catálogo de Messier",
+      "distratores": [
+        "Catálogo Caldwell",
+        "Catálogo Henry Draper",
+        "Novo Catálogo Geral"
+      ],
+      "ancora": {
+        "nome": "Charles Messier",
+        "descricao": "Astrônomo francês do século XVIII que publicou o catálogo de nebulosas e aglomerados conhecidos como objetos Messier.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto oval em preto e branco sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que paradoxo lógico leva o nome deste matemático britânico?",
+      "resposta": "Paradoxo de Russell",
+      "distratores": [
+        "Paradoxo de Zenão",
+        "Paradoxo de Fermi",
+        "Paradoxo de Monty Hall"
+      ],
+      "ancora": {
+        "nome": "Bertrand Russell",
+        "descricao": "Matemático e filósofo britânico, fundador da filosofia analítica e autor do paradoxo da teoria dos conjuntos que leva seu nome.",
+        "variantes": [
+          "Bertrand Arthur William Russell"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A etiqueta 'MAE JEMISON' no uniforme e as inscrições do emblema da missão entregam a resposta."
+    }
+  ]
+}
