@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O uso mais antigo conhecido de metal aquecido para alisar roupas, como faz este objeto, ocorreu em que país?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q01153",
+          "pergunta": "Que tarefa doméstica se faz com este aparelho?",
+          "resposta": "Passar roupa"
+        },
+        {
+          "id": "q08650",
+          "pergunta": "Que aparelho doméstico é este, visto por baixo?",
+          "resposta": "Ferro de passar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta trata da origem histórica (país) do uso de metal aquecido para alisar roupas; as existentes perguntam a tarefa e o nome do aparelho. Fatos diferentes."
+    }
+  ]
+}

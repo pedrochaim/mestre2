@@ -1,0 +1,453 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ferro de passar",
+        "descricao": "Aparelho de metal aquecido, hoje elétrico, usado para alisar roupas.",
+        "variantes": [
+          "Tábua de passar roupa",
+          "Ferro de passar roupa",
+          "Ferro elétrico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ferro_de_passar",
+          "nome": "Ferro de passar",
+          "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+          "variantes": [
+            "Ferro elétrico",
+            "Ferro a vapor",
+            "Ferro de engomar"
+          ]
+        },
+        {
+          "id": "tabua_de_lavar_roupa",
+          "nome": "Tábua de lavar roupa",
+          "descricao": "Tábua com superfície ondulada, de vidro ou metal, usada para esfregar roupas ao lavá-las à mão.",
+          "variantes": [
+            "Tábua de lavar",
+            "Washboard"
+          ]
+        },
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico",
+            "Trio"
+          ]
+        },
+        {
+          "id": "cerro_rico_de_potosi",
+          "nome": "Cerro Rico de Potosí",
+          "descricao": "Montanha rica em prata nos Andes, explorada pelos espanhóis a partir de 1545, que enriqueceu o Império Espanhol.",
+          "variantes": [
+            "Cerro Rico",
+            "Potosí"
+          ]
+        },
+        {
+          "id": "e_mail",
+          "nome": "E-mail",
+          "descricao": "Sistema de troca de mensagens eletrônicas entre usuários de computadores em rede.",
+          "variantes": [
+            "Correio eletrônico",
+            "Email"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Sapato plataforma",
+        "descricao": "Sapato com sola grossa, em geral de 5 a 10 centímetros, às vezes com salto alto.",
+        "variantes": [
+          "Plataforma",
+          "Salto plataforma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "plataforma_nove_e_tres_quartos",
+          "nome": "Plataforma nove e três quartos",
+          "descricao": "Plataforma mágica de onde parte o Expresso de Hogwarts na saga Harry Potter.",
+          "variantes": [
+            "Plataforma 9¾",
+            "Platform 9¾"
+          ]
+        },
+        {
+          "id": "salto_anabela",
+          "nome": "Salto anabela",
+          "descricao": "Salto em forma de cunha que ocupa toda a parte de baixo do calçado, popularizado por Salvatore Ferragamo",
+          "variantes": [
+            "Salto plataforma em cunha",
+            "Wedge heel"
+          ]
+        },
+        {
+          "id": "hades",
+          "nome": "Hades",
+          "descricao": "Deus grego dos mortos e rei do mundo subterrâneo, irmão de Zeus e Poseidon.",
+          "variantes": [
+            "Plutão",
+            "Plutão (Roma)",
+            "Aides"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pena de escrever",
+        "descricao": "Instrumento de escrita feito de uma pena de ave, molhada em tinta.",
+        "variantes": [
+          "Pena",
+          "Pena de ave",
+          "Quill"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_de_escrever",
+          "nome": "Máquina de escrever",
+          "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta.",
+          "variantes": [
+            "Typewriter"
+          ]
+        },
+        {
+          "id": "cafeeiro",
+          "nome": "Cafeeiro",
+          "descricao": "Planta do gênero Coffea, cujas sementes torradas dão o café",
+          "variantes": [
+            "Coffea",
+            "pé de café",
+            "Coffea arabica",
+            "Café"
+          ]
+        },
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        },
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bota chelsea",
+        "descricao": "Bota de cano curto, com laterais elásticas e lingueta atrás para calçar.",
+        "variantes": [
+          "Chelsea boot",
+          "Botina chelsea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "charles_boycott",
+          "nome": "Charles Boycott",
+          "descricao": "Administrador de terras inglês na Irlanda que, em 1880, foi isolado pela comunidade local e deu origem à palavra boicote.",
+          "variantes": [
+            "Capitão Boycott"
+          ]
+        },
+        {
+          "id": "industria_acheulense",
+          "nome": "Indústria acheulense",
+          "descricao": "Tradição pré-histórica de ferramentas de pedra marcada por grandes machados de mão bifaciais, ligada ao Homo erectus.",
+          "variantes": [
+            "Acheulense",
+            "Acheulean"
+          ]
+        },
+        {
+          "id": "castanheira_do_para",
+          "nome": "Castanheira-do-pará",
+          "descricao": "Árvore amazônica Bertholletia excelsa, que produz a castanha-do-pará dentro de um ouriço duro",
+          "variantes": [
+            "Bertholletia excelsa",
+            "Castanha-do-brasil",
+            "Castanheira-do-brasil"
+          ]
+        },
+        {
+          "id": "castanha_do_para",
+          "nome": "Castanha-do-pará",
+          "descricao": "Semente da castanheira amazônica Bertholletia excelsa, vendida como fruto seco.",
+          "variantes": [
+            "Castanha-do-brasil",
+            "Brazil nut",
+            "Bertholletia excelsa"
+          ]
+        },
+        {
+          "id": "vassoura_de_bruxa",
+          "nome": "Vassoura-de-bruxa",
+          "descricao": "Doença do cacaueiro causada pelo fungo Moniliophthora perniciosa",
+          "variantes": [
+            "Moniliophthora perniciosa",
+            "Crinipellis perniciosa",
+            "witches' broom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Palito de dente",
+        "descricao": "Pequena haste fina de madeira, bambu ou plástico, com ponta, usada entre os dentes.",
+        "variantes": [
+          "Palito",
+          "Palito dental"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paolo_rossi",
+          "nome": "Paolo Rossi",
+          "descricao": "Atacante italiano, artilheiro e craque da Copa do Mundo de 1982.",
+          "variantes": [
+            "Pablito"
+          ]
+        },
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "contralto",
+          "nome": "Contralto",
+          "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
+          "variantes": [
+            "Contralto (voz)",
+            "Alto"
+          ]
+        },
+        {
+          "id": "palpitoad",
+          "nome": "Palpitoad",
+          "descricao": "Pokémon dos tipos Água e Terrestre, número 536 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "xerox_alto",
+          "nome": "Xerox Alto",
+          "descricao": "Computador desenvolvido no Xerox PARC nos anos 1970, pioneiro da interface gráfica e do mouse.",
+          "variantes": [
+            "Alto",
+            "Xerox Alto computer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tinteiro",
+        "descricao": "Pequeno recipiente, em geral de vidro, que guarda a tinta para molhar a pena ou a caneta.",
+        "variantes": [
+          "Frasco de tinta",
+          "Tinteiro de vidro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "inter_de_milao",
+          "nome": "Inter de Milão",
+          "descricao": "Football Club Internazionale Milano, clube de futebol de Milão, na Itália, fundado em 1908.",
+          "variantes": [
+            "Internazionale",
+            "Inter Milan",
+            "Inter"
+          ]
+        },
+        {
+          "id": "sport_club_internacional",
+          "nome": "Sport Club Internacional",
+          "descricao": "Clube de futebol de Porto Alegre, no Rio Grande do Sul, fundado em 1909, conhecido como Colorado.",
+          "variantes": [
+            "Internacional",
+            "Inter",
+            "Inter de Porto Alegre",
+            "Internacional de Porto Alegre"
+          ]
+        },
+        {
+          "id": "caneta_tinteiro",
+          "nome": "Caneta-tinteiro",
+          "descricao": "Instrumento de escrita com ponta metálica e reservatório interno de tinta.",
+          "variantes": [
+            "Pena-tinteiro"
+          ]
+        },
+        {
+          "id": "mineirao",
+          "nome": "Mineirão",
+          "descricao": "Estádio de Belo Horizonte, oficialmente Estádio Governador Magalhães Pinto.",
+          "variantes": []
+        },
+        {
+          "id": "cerco_de_tsingtao",
+          "nome": "Cerco de Tsingtao",
+          "descricao": "Ataque de 1914 em que forças japonesas e britânicas tomaram a colônia alemã de Tsingtao, na China.",
+          "variantes": [
+            "Cerco de Qingdao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Funil",
+        "descricao": "Utensílio largo em cima e estreito embaixo, usado para passar líquidos ou pós a recipientes de boca pequena.",
+        "variantes": [
+          "Funil de plástico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fungo",
+          "nome": "Fungo",
+          "descricao": "Reino de seres vivos que inclui cogumelos, bolores e leveduras.",
+          "variantes": [
+            "Fungi",
+            "Fungos"
+          ]
+        },
+        {
+          "id": "funil_de_separacao",
+          "nome": "Funil de separação",
+          "descricao": "Vidraria em forma de pera, com torneira, usada para separar líquidos imiscíveis de densidades diferentes.",
+          "variantes": [
+            "Funil separador",
+            "Funil de decantação"
+          ]
+        },
+        {
+          "id": "bambole",
+          "nome": "Bambolê",
+          "descricao": "Aro de plástico girado em volta da cintura, que virou febre nos Estados Unidos em 1958.",
+          "variantes": [
+            "Hula hoop",
+            "Bambolê de plástico"
+          ]
+        },
+        {
+          "id": "ilha_de_pascoa",
+          "nome": "Ilha de Páscoa",
+          "descricao": "Ilha chilena isolada no Pacífico Sul, famosa pelas estátuas moai.",
+          "variantes": [
+            "Rapa Nui",
+            "Easter Island",
+            "Isla de Pascua"
+          ]
+        },
+        {
+          "id": "monte_fuji",
+          "nome": "Monte Fuji",
+          "descricao": "Vulcão de forma cônica na ilha de Honshu, o ponto mais alto do Japão.",
+          "variantes": [
+            "Fuji",
+            "Fujisan",
+            "Fuji-san",
+            "Fujiyama"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "ferro_de_passar",
+      "motivo": "Mesmo aparelho para alisar roupas; nomes e variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Sapato plataforma (sola grossa) difere de salto anabela e salto alto; sem candidata equivalente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pena de escrever."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Bota chelsea não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é palito de dente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tinteiro (recipiente) é diferente de caneta-tinteiro."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Funil comum difere do funil de separação, vidraria de laboratório específica."
+    }
+  ]
+}

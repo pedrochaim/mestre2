@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "A imagem mostra um ferro de passar a vapor sobre uma camisa, e não a tábua. A âncora é o ferro. A marca é discreta e não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "O uso mais antigo conhecido de metal aquecido para alisar roupas, como faz este objeto, ocorreu em que país?",
+      "resposta": "China",
+      "distratores": [
+        "Egito",
+        "Índia",
+        "Grécia"
+      ],
+      "ancora": {
+        "nome": "Ferro de passar",
+        "descricao": "Aparelho de metal aquecido, hoje elétrico, usado para alisar roupas.",
+        "variantes": [
+          "Ferro de passar roupa",
+          "Ferro elétrico"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Sapato laranja de camurça com plataforma e salto alto, bem visível. As pessoas ao fundo estão desfocadas e não são o assunto. Os distratores não descrevem este sapato.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de sapato é este, com a sola elevada sob a frente do pé?",
+      "resposta": "Sapato plataforma",
+      "distratores": [
+        "Sapatilha",
+        "Mocassim",
+        "Sandália rasteira"
+      ],
+      "ancora": {
+        "nome": "Sapato plataforma",
+        "descricao": "Sapato com sola grossa, em geral de 5 a 10 centímetros, às vezes com salto alto.",
+        "variantes": [
+          "Plataforma",
+          "Salto plataforma"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A foto é um retrato pequeno e de baixa resolução, em que o rosto de uma pessoa domina. O barrete aparece pouco e não fica legível num celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mostra duas coisas, o pincel e o rolo, dentro da bandeja. A pergunta sobre o rolo fica ambígua e a foto é de baixa qualidade."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Detalhe de uma pintura antiga em domínio público, com a mão escrevendo com uma pena. A pena é o foco e a resposta é única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de escrita esta mão segura sobre o livro?",
+      "resposta": "Pena de escrever",
+      "distratores": [
+        "Caneta-tinteiro",
+        "Pincel",
+        "Lápis"
+      ],
+      "ancora": {
+        "nome": "Pena de escrever",
+        "descricao": "Instrumento de escrita feito de uma pena de ave, molhada em tinta.",
+        "variantes": [
+          "Pena",
+          "Pena de ave",
+          "Quill"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto lateral nítida de uma bota chelsea preta, com o elástico lateral e a lingueta. É inconfundível. A pergunta de nível 3 sobre o país é sustentada pelo trecho.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta bota, que vem da era vitoriana, virou ícone da moda dos anos sessenta, entre os mods, em que país?",
+      "resposta": "Reino Unido",
+      "distratores": [
+        "Estados Unidos",
+        "França",
+        "Itália"
+      ],
+      "ancora": {
+        "nome": "Bota chelsea",
+        "descricao": "Bota de cano curto, com laterais elásticas e lingueta atrás para calçar.",
+        "variantes": [
+          "Chelsea boot",
+          "Botina chelsea"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dois palitos de dente, um de madeira e um de bambu, sobre fundo branco. Mostram um só objeto, com clareza e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto é este, de madeira ou bambu, com ponta fina?",
+      "resposta": "Palito de dente",
+      "distratores": [
+        "Palito de fósforo",
+        "Palito de sorvete",
+        "Agulha de tricô"
+      ],
+      "ancora": {
+        "nome": "Palito de dente",
+        "descricao": "Pequena haste fina de madeira, bambu ou plástico, com ponta, usada entre os dentes.",
+        "variantes": [
+          "Palito",
+          "Palito dental"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Aparecem duas pessoas comuns de costas, em primeiro plano. A foto não é de figuras públicas nem de festa pública."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "O frasco de vidro com tampa é o foco, com uma pena ao lado. O tinteiro é reconhecível e a pergunta aponta para o frasco.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto é este frasco de vidro com tampa, ao lado de uma pena?",
+      "resposta": "Tinteiro",
+      "distratores": [
+        "Galheteiro",
+        "Frasco de perfume",
+        "Pote de geleia"
+      ],
+      "ancora": {
+        "nome": "Tinteiro",
+        "descricao": "Pequeno recipiente, em geral de vidro, que guarda a tinta para molhar a pena ou a caneta.",
+        "variantes": [
+          "Frasco de tinta",
+          "Tinteiro de vidro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma torradeira industrial de esteira, com marca visível. Não lembra a torradeira comum e pode ser confundida com um forno, então a resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Funil branco de plástico, isolado, nítido e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que utensílio é este?",
+      "resposta": "Funil",
+      "distratores": [
+        "Coador",
+        "Concha",
+        "Tigela"
+      ],
+      "ancora": {
+        "nome": "Funil",
+        "descricao": "Utensílio largo em cima e estreito embaixo, usado para passar líquidos ou pós a recipientes de boca pequena.",
+        "variantes": [
+          "Funil de plástico"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Jaqueta longa de gola alta, num manequim de museu, sem texto legível. A forma permite reconhecer o modelo, e o trecho sustenta o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este tipo de jaqueta leva o nome de qual líder indiano?",
+      "resposta": "Jawaharlal Nehru",
+      "distratores": [
+        "Mahatma Gandhi",
+        "Indira Gandhi",
+        "Muhammad Ali Jinnah"
+      ],
+      "ancora": {
+        "nome": "Jaqueta Nehru",
+        "descricao": "Casaco de comprimento até o quadril, com gola mandarim, inspirado no achkan indiano.",
+        "variantes": [
+          "Nehru jacket",
+          "Casaco Nehru"
+        ]
+      }
+    }
+  ]
+}

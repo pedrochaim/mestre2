@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia diz que o primeiro uso conhecido de metal aquecido para alisar roupas foi na China. O enunciado não entrega a resposta e os distratores são países críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sola elevada sob a frente do pé' descreve a resposta, então dá para responder sem a figura. Também é um detalhe que não vale para todo sapato plataforma. Basta perguntar o tipo de sapato.",
+      "reescrita": {
+        "pergunta": "Que tipo de sapato é este?",
+        "resposta": "Sapato plataforma",
+        "distratores": [
+          "Sapatilha",
+          "Mocassim",
+          "Sandália rasteira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Esta mão segura sobre o livro' é um detalhe que `mostra` não confirma. Simplifico o enunciado para só apontar a figura.",
+      "reescrita": {
+        "pergunta": "Que instrumento de escrita é este?",
+        "resposta": "Pena de escrever",
+        "distratores": [
+          "Caneta-tinteiro",
+          "Pincel",
+          "Lápis"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Era vitoriana e mods apontam direto para o Reino Unido, então a figura vira enfeite. Troco por um fato que exige reconhecer a bota: o nome vem de um bairro de Londres, o que o trecho sustenta.",
+      "reescrita": {
+        "pergunta": "Este tipo de bota, de laterais elásticas, tem nome de um bairro de qual cidade?",
+        "resposta": "Londres",
+        "distratores": [
+          "Nova York",
+          "Paris",
+          "Milão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede o nome do objeto e não o entrega. A pista de madeira ou bambu com ponta fina não identifica sozinha. Os distratores são plausíveis e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Frasco de vidro com tampa, ao lado de uma pena' são detalhes que `mostra` não confirma, e a pena ainda sugere a função. Simplifico o enunciado.",
+      "reescrita": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Tinteiro",
+        "distratores": [
+          "Galheteiro",
+          "Frasco de perfume",
+          "Pote de geleia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento de nível 1, sem vazamento. Os distratores são utensílios de cozinha do mesmo tipo e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Dá para responder sem a imagem: 'jaqueta que leva o nome de um líder indiano' já aponta para Nehru. Não vale reescrever porque as alternativas de pergunta exigiriam fatos pouco sustentados nos trechos.",
+      "reescrita": null
+    }
+  ]
+}
