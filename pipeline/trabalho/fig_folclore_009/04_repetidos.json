@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que músico nordestino do século vinte é este?",
+        "resposta": "Luiz Gonzaga"
+      },
+      "existentes": [
+        {
+          "id": "q05390",
+          "pergunta": "Em que cidade do sertão pernambucano nasceu Luiz Gonzaga, o Rei do Baião?",
+          "resposta": "Exu"
+        },
+        {
+          "id": "q05417",
+          "pergunta": "O chapéu de couro que Luiz Gonzaga usava nos shows foi inspirado no visual de qual cangaceiro?",
+          "resposta": "Lampião"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a identificação do músico (provavelmente por imagem ou dica), cuja resposta é o nome da âncora. As existentes perguntam sobre o local de nascimento e sobre o chapéu, fatos diferentes. Saber uma não leva a responder a outra."
+    }
+  ]
+}

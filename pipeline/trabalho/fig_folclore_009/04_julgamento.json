@@ -1,0 +1,133 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Escrava Anastácia",
+        "descricao": "Figura da devoção popular brasileira, venerada como santa popular, representada com máscara de ferro e olhos azuis.",
+        "variantes": [
+          "Anastácia",
+          "Santa Anastácia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canastra",
+          "nome": "Canastra",
+          "descricao": "Jogo de cartas da família do rummy, jogado com dois baralhos, criado em Montevidéu em 1939.",
+          "variantes": [
+            "Canasta"
+          ]
+        },
+        {
+          "id": "natalia_pereira",
+          "nome": "Natália Pereira",
+          "descricao": "Jogadora brasileira de vôlei, campeã olímpica em Londres 2012, nascida Natália Zilio Pereira.",
+          "variantes": [
+            "Natália Zilio Pereira",
+            "Natália"
+          ]
+        },
+        {
+          "id": "natacao",
+          "nome": "Natação",
+          "descricao": "Esporte aquático em que atletas competem nadando em piscina ou águas abertas, com os estilos crawl, costas, peito e borboleta.",
+          "variantes": [
+            "Natação esportiva",
+            "Natação competitiva"
+          ]
+        },
+        {
+          "id": "antartida",
+          "nome": "Antártida",
+          "descricao": "Continente gelado em torno do Polo Sul.",
+          "variantes": [
+            "Antártica",
+            "Antarctica"
+          ]
+        },
+        {
+          "id": "santa_lucia",
+          "nome": "Santa Lúcia",
+          "descricao": "País insular das Pequenas Antilhas, no Caribe, com capital em Castries.",
+          "variantes": [
+            "Saint Lucia",
+            "St. Lucia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Luiz Gonzaga",
+        "descricao": "Cantor, compositor e sanfoneiro pernambucano, o 'Rei do Baião', que difundiu a música nordestina pelo Brasil.",
+        "variantes": [
+          "Luís Gonzaga",
+          "Gonzagão",
+          "Rei do Baião"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luiz_gonzaga",
+          "nome": "Luiz Gonzaga",
+          "descricao": "Sanfoneiro, cantor e compositor pernambucano, chamado de Rei do Baião.",
+          "variantes": [
+            "Gonzagão",
+            "Rei do Baião"
+          ]
+        },
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "gongo",
+          "nome": "Gongo",
+          "descricao": "Instrumento de percussão de metal, circular e achatado, de origem no Sudeste Asiático, tocado com baqueta.",
+          "variantes": [
+            "Gong"
+          ]
+        },
+        {
+          "id": "luiz_gama",
+          "nome": "Luiz Gama",
+          "descricao": "Advogado, jornalista e abolicionista brasileiro do século dezenove, nascido livre e escravizado aos dez anos.",
+          "variantes": [
+            "Luís Gama",
+            "Luís Gonzaga Pinto da Gama"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata descreve a santa popular Escrava Anastácia."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "luiz_gonzaga",
+      "motivo": "Mesmo sanfoneiro pernambucano, Rei do Baião, com as mesmas variantes."
+    }
+  ]
+}

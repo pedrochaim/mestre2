@@ -1,0 +1,121 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "As camisetas mostram o texto 'OLODUN', que entrega a resposta, e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A estátua num santuário africano, com pano vermelho, não é reconhecível como Ogum só pela imagem, e a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Mostra pessoas comuns pulando amarelinha num contexto africano, com cartazes ao fundo. Não é uma figura do folclore brasileiro e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "A gravura, com a máscara e o colar de ferro, é a imagem tradicional da Escrava Anastácia e é reconhecível. Não tem texto. O enunciado não cita a máscara, para não entregar a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que personagem da devoção popular brasileira é esta?",
+      "resposta": "Escrava Anastácia",
+      "distratores": [
+        "Chica da Silva",
+        "Dandara",
+        "Zeferina"
+      ],
+      "ancora": {
+        "nome": "Escrava Anastácia",
+        "descricao": "Figura da devoção popular brasileira, venerada como santa popular, representada com máscara de ferro e olhos azuis.",
+        "variantes": [
+          "Anastácia",
+          "Santa Anastácia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O painel de madeira entalhada mostra uma figura com cabaças e um galo. Não permite reconhecer Exu com segurança e poderia ser outro orixá."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O cocar de penas num museu parece mexicano, e a imagem não indica que seja brasileiro. A resposta de lugar não é única, e a placa de restauração aparece na imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "A matraca de madeira aparece clara, sobre fundo liso, e só a mão aparece. A pergunta vai além do nome, pela Semana Santa, que o trecho sustenta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que período do calendário católico este instrumento substitui os sinos das igrejas?",
+      "resposta": "Semana Santa",
+      "distratores": [
+        "Natal",
+        "Festas juninas",
+        "Corpus Christi"
+      ],
+      "ancora": {
+        "nome": "Matraca",
+        "descricao": "Instrumento de madeira, de herança portuguesa, que produz estalos ao ser girado ou sacudido, usado em procissões e no carnaval.",
+        "variantes": [
+          "Matraca de madeira"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "É uma foto histórica de uma figura pública, tocando sanfona e usando chapéu de couro, sem texto. Foi escolhida a pergunta de identidade, porque a família 'onde' não rende uma boa pergunta para esta foto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que músico nordestino, famoso pelo baião, é este?",
+      "resposta": "Luiz Gonzaga",
+      "distratores": [
+        "Jackson do Pandeiro",
+        "Dominguinhos",
+        "Sivuca"
+      ],
+      "ancora": {
+        "nome": "Luiz Gonzaga",
+        "descricao": "Cantor, compositor e sanfoneiro pernambucano, o 'Rei do Baião', que difundiu a música nordestina pelo Brasil.",
+        "variantes": [
+          "Luís Gonzaga",
+          "Gonzagão",
+          "Rei do Baião"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mostra muitos espectadores comuns em primeiro plano, e a arquibancada vista de longe não identifica o local com segurança."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A gravura antiga mostra um homem de poncho, chapéu e botas. O local e o assunto são ambíguos (poncho, gaúcho ou outro vaqueiro), e a resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "São mulheres comuns dançando num salão, fora de uma festa pública brasileira, com um menino ao fundo. A foto não permite reconhecer a tradição brasileira."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "São crianças comuns, aparentemente na Índia, em primeiro plano. Não é folclore brasileiro, e fotos de pessoas comuns são proibidas."
+    }
+  ]
+}

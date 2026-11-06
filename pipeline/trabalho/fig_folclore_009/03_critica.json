@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só dá o grupo (devoção popular brasileira), sem nomear a entidade. Os distratores são mulheres históricas ligadas à escravidão, são críveis e nenhum está correto. Os trechos confirmam a máscara de ferro e os olhos azuis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato está no trecho (a matraca substitui os sinos na Semana Santa). Mas o enunciado se responde sem a figura: o silêncio dos sinos na Semana Santa é amplamente conhecido, então a imagem vira enfeite. Não há conserto simples que mantenha o nível 3 sem entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'famoso pelo baião' entrega o nome: pelo teste da imagem coberta, o Rei do Baião responde sozinho. Troquei por uma pista que só situa a região e a época.",
+      "reescrita": {
+        "pergunta": "Que músico nordestino do século vinte é este?",
+        "resposta": "Luiz Gonzaga",
+        "distratores": [
+          "Jackson do Pandeiro",
+          "Dominguinhos",
+          "Sivuca"
+        ]
+      }
+    }
+  ]
+}
