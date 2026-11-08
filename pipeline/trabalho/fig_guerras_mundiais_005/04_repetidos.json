@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que veículo militar aliado da Segunda Guerra é este?",
+        "resposta": "Jipe Willys"
+      },
+      "existentes": [
+        {
+          "id": "q02111",
+          "pergunta": "Em que ano começou a produção em série deste veículo militar americano?",
+          "resposta": "1941"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que capacete militar usado na Primeira Guerra é este?",
+        "resposta": "Stahlhelm"
+      },
+      "existentes": [
+        {
+          "id": "q11494",
+          "pergunta": "Em que ano o exército alemão começou a substituir o antigo capacete de couro por este tipo de capacete de aço?",
+          "resposta": "1916"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede a identidade do veículo; a outra, o ano de início da produção. São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome do capacete; a outra, o ano em que o exército alemão começou a substituir o capacete de couro. São fatos diferentes."
+    }
+  ]
+}

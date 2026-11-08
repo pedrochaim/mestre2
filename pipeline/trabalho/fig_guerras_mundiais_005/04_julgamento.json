@@ -1,0 +1,539 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jipe Willys MB",
+        "descricao": "Veículo militar leve 4x4 americano, produzido pela Willys e pela Ford na Segunda Guerra Mundial.",
+        "variantes": [
+          "Willys MB",
+          "Jeep Willys",
+          "Ford GPW",
+          "Jeep"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jeep_willys",
+          "nome": "Jeep Willys",
+          "descricao": "Veículo utilitário militar 4x4 leve americano (Willys MB), produzido em massa na Segunda Guerra Mundial.",
+          "variantes": [
+            "Willys MB",
+            "Jeep",
+            "Willys Jeep"
+          ]
+        },
+        {
+          "id": "veep",
+          "nome": "Veep",
+          "descricao": "Série de comédia da HBO exibida de 2012 a 2019, sobre a vice-presidente americana fictícia Selina Meyer.",
+          "variantes": []
+        },
+        {
+          "id": "ford_gt40",
+          "nome": "Ford GT40",
+          "descricao": "Carro de corrida da Ford que venceu as 24 Horas de Le Mans de 1966 a 1969.",
+          "variantes": [
+            "GT40"
+          ]
+        },
+        {
+          "id": "henry_ford",
+          "nome": "Henry Ford",
+          "descricao": "Industrial americano, fundador da Ford Motor Company e pioneiro da produção em massa de automóveis.",
+          "variantes": [
+            "Ford"
+          ]
+        },
+        {
+          "id": "pokemon_sleep",
+          "nome": "Pokémon Sleep",
+          "descricao": "Aplicativo da franquia Pokémon, lançado em 2023, que mede o sono do jogador e o transforma em jogo.",
+          "variantes": [
+            "Sleep"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bletchley Park",
+        "descricao": "Mansão e propriedade inglesa em Milton Keynes, centro de decifração de códigos dos Aliados na Segunda Guerra Mundial.",
+        "variantes": [
+          "Bletchley"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bleach",
+          "nome": "Bleach",
+          "descricao": "Mangá e anime de Tite Kubo sobre Ichigo Kurosaki, adolescente que se torna ceifador de almas.",
+          "variantes": [
+            "Bleach (mangá)"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "acossado",
+          "nome": "Acossado",
+          "descricao": "Filme francês de 1960 de Jean-Luc Godard, com Jean-Paul Belmondo e Jean Seberg, marco da Nouvelle Vague.",
+          "variantes": [
+            "À bout de souffle",
+            "Breathless"
+          ]
+        },
+        {
+          "id": "buraco_negro",
+          "nome": "Buraco negro",
+          "descricao": "Região do espaço em que a gravidade é tão intensa que nada, nem mesmo a luz, consegue escapar.",
+          "variantes": [
+            "Black hole"
+          ]
+        },
+        {
+          "id": "fletchling",
+          "nome": "Fletchling",
+          "descricao": "Pokémon passarinho de tipo normal e voador da sexta geração, número 661 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Erich Ludendorff",
+        "descricao": "General alemão que comandou de fato o esforço de guerra da Alemanha na Primeira Guerra Mundial.",
+        "variantes": [
+          "Ludendorff"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cluedo",
+          "nome": "Cluedo",
+          "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+          "variantes": [
+            "Clue",
+            "Detetive"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Memorial aos Judeus Assassinados da Europa",
+        "descricao": "Memorial em Berlim, projetado por Peter Eisenman, com 2.711 estelas de concreto, em homenagem às vítimas judias do Holocausto.",
+        "variantes": [
+          "Memorial do Holocausto de Berlim",
+          "Holocaust-Mahnmal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "holocausto",
+          "nome": "Holocausto",
+          "descricao": "Genocídio de cerca de seis milhões de judeus europeus promovido pela Alemanha nazista e seus colaboradores.",
+          "variantes": [
+            "Shoá",
+            "Shoah"
+          ]
+        },
+        {
+          "id": "cupula_da_bomba_atomica",
+          "nome": "Cúpula da Bomba Atômica",
+          "descricao": "Ruína de 1945 preservada como Memorial da Paz, no Japão.",
+          "variantes": [
+            "Genbaku Dome",
+            "Memorial da Paz de Hiroshima",
+            "Domo Genbaku"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_berlim",
+          "nome": "Estádio Olímpico de Berlim",
+          "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+          "variantes": [
+            "Olympiastadion Berlin",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "gato_de_pallas",
+          "nome": "Gato-de-pallas",
+          "descricao": "Pequeno felino selvagem da Ásia Central (Otocolobus manul), de pelo longo e denso e orelhas arredondadas.",
+          "variantes": [
+            "Manul",
+            "Otocolobus manul",
+            "Pallas's cat"
+          ]
+        },
+        {
+          "id": "torre_de_tv_de_berlim",
+          "nome": "Torre de TV de Berlim",
+          "descricao": "Torre de televisão com uma esfera no alto, na Alexanderplatz, construída pela Alemanha Oriental e inaugurada em 1969.",
+          "variantes": [
+            "Fernsehturm Berlin",
+            "Fernsehturm"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Katyusha",
+        "descricao": "Lançador múltiplo de foguetes soviético da Segunda Guerra Mundial, montado em caminhões, como o BM-13.",
+        "variantes": [
+          "Katiusha",
+          "BM-13",
+          "Órgão de Stalin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        },
+        {
+          "id": "hattusa",
+          "nome": "Hattusa",
+          "descricao": "Antiga capital do Império Hitita na Idade do Bronze, perto da atual Boğazkale, na Turquia; aqui, o Portão dos Leões.",
+          "variantes": [
+            "Hatusa",
+            "Hattusas"
+          ]
+        },
+        {
+          "id": "sinnoh",
+          "nome": "Sinnoh",
+          "descricao": "Região fictícia dos jogos Pokémon Diamond, Pearl e Platinum, da quarta geração.",
+          "variantes": [
+            "Região de Sinnoh"
+          ]
+        },
+        {
+          "id": "harmonio",
+          "nome": "Harmônio",
+          "descricao": "Órgão de palheta livre acionado por foles de pedal, popular em igrejas e lares no século dezenove.",
+          "variantes": [
+            "Órgão de palheta",
+            "Pump organ",
+            "Reed organ"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Capacete Stahlhelm",
+        "descricao": "Capacete de aço alemão em forma de balde de carvão, usado nas duas guerras mundiais.",
+        "variantes": [
+          "Stahlhelm",
+          "Capacete de aço alemão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "stahlhelm",
+          "nome": "Stahlhelm",
+          "descricao": "Capacete de aço alemão adotado a partir da Primeira Guerra Mundial.",
+          "variantes": [
+            "Stahlhelm (capacete alemão)",
+            "Capacete de aço alemão"
+          ]
+        },
+        {
+          "id": "pickelhaube",
+          "nome": "Pickelhaube",
+          "descricao": "Capacete de couro ou metal com um espigão no topo, usado por soldados prussianos e alemães nos séculos dezenove e vinte.",
+          "variantes": [
+            "Pickelhelm",
+            "Capacete prussiano",
+            "Capacete de ponta alemão"
+          ]
+        },
+        {
+          "id": "capacete_de_ciclismo",
+          "nome": "Capacete de ciclismo",
+          "descricao": "Capacete ventilado que protege a cabeça do ciclista em quedas e colisões.",
+          "variantes": [
+            "Capacete ciclístico",
+            "Capacete de bicicleta"
+          ]
+        },
+        {
+          "id": "sahel",
+          "nome": "Sahel",
+          "descricao": "Faixa semiárida da África que se estende de leste a oeste logo ao sul do Deserto do Saara",
+          "variantes": [
+            "Sael"
+          ]
+        },
+        {
+          "id": "capacete_de_futebol_americano",
+          "nome": "Capacete de futebol americano",
+          "descricao": "Capacete protetor de casco rígido e grade facial usado no futebol americano.",
+          "variantes": [
+            "Capacete de football"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Metralhadora Lewis",
+        "descricao": "Metralhadora leve da Primeira Guerra Mundial com tambor no topo e cano envolto em tubo de resfriamento.",
+        "variantes": [
+          "Lewis gun",
+          "Fuzil Lewis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carl_lewis",
+          "nome": "Carl Lewis",
+          "descricao": "Atleta americano, campeão de quatro provas nos Jogos de Los Angeles 1984.",
+          "variantes": [
+            "Frederick Carlton Lewis"
+          ]
+        },
+        {
+          "id": "leptis_magna",
+          "nome": "Léptis Magna",
+          "descricao": "Antiga cidade romana na costa da Líbia, terra natal do imperador Sétimo Severo.",
+          "variantes": [
+            "Lepcis Magna"
+          ]
+        },
+        {
+          "id": "canhao_de_paris",
+          "nome": "Canhão de Paris",
+          "descricao": "Canhão alemão de longuíssimo alcance usado em 1918 para bombardear Paris a partir de posições muito distantes da cidade.",
+          "variantes": [
+            "Paris-Geschütz",
+            "Paris Gun",
+            "Kaiser-Wilhelm-Geschütz"
+          ]
+        },
+        {
+          "id": "submetralhadora_thompson",
+          "nome": "Submetralhadora Thompson",
+          "descricao": "Submetralhadora americana criada por John T. Thompson em 1918, famosa nos anos 1920 e na Segunda Guerra Mundial.",
+          "variantes": [
+            "Thompson",
+            "Tommy gun",
+            "Thompson submachine gun"
+          ]
+        },
+        {
+          "id": "submetralhadora_mp_40",
+          "nome": "Submetralhadora MP 40",
+          "descricao": "Submetralhadora alemã de 9 mm (Maschinenpistole 40) usada na Segunda Guerra Mundial.",
+          "variantes": [
+            "MP 40",
+            "MP40",
+            "Maschinenpistole 40",
+            "Schmeisser"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Fuzil-metralhador Chauchat",
+        "descricao": "Fuzil-metralhador francês Modèle 1915 CSRG, arma leve padrão da França na Primeira Guerra Mundial.",
+        "variantes": [
+          "Chauchat",
+          "FM Chauchat",
+          "CSRG",
+          "Sho-Sho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hanukkah",
+          "nome": "Hanukkah",
+          "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+          "variantes": [
+            "Chanucá",
+            "Hanucá",
+            "Chanukah",
+            "Festa das Luzes"
+          ]
+        },
+        {
+          "id": "samosa",
+          "nome": "Samosa",
+          "descricao": "Salgado frito do subcontinente indiano, de massa em forma triangular, cone ou meia-lua, com recheio picante.",
+          "variantes": [
+            "Chamuça",
+            "Samossa",
+            "Shingara"
+          ]
+        },
+        {
+          "id": "hawlucha",
+          "nome": "Hawlucha",
+          "descricao": "Pokémon dos tipos Lutador e Voador, número 701 da Pokédex Nacional.",
+          "variantes": [
+            "Luchabull"
+          ]
+        },
+        {
+          "id": "hoothoot",
+          "nome": "Hoothoot",
+          "descricao": "Pokémon coruja de tipo normal e voador da segunda geração, número 163 da Pokédex Nacional.",
+          "variantes": [
+            "Hoho"
+          ]
+        },
+        {
+          "id": "o_sonho_henri_rousseau",
+          "nome": "O Sonho (Henri Rousseau)",
+          "descricao": "Pintura a óleo de Henri Rousseau, de 1910, com uma mulher nua num divã em meio a uma selva exuberante com leões e um flautista.",
+          "variantes": [
+            "Le Rêve",
+            "The Dream",
+            "O Sonho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Tanque A7V",
+        "descricao": "Tanque pesado alemão de 1918, o único modelo alemão produzido e usado em combate na Primeira Guerra Mundial.",
+        "variantes": [
+          "A7V",
+          "Sturmpanzerwagen A7V"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mark_i_tanque",
+          "nome": "Mark I (tanque)",
+          "descricao": "Primeiro tanque britânico usado em combate, estreado na Batalha do Somme em 1916.",
+          "variantes": [
+            "Tanque Mark I"
+          ]
+        },
+        {
+          "id": "panqueca",
+          "nome": "Panqueca",
+          "descricao": "Massa líquida de farinha, ovos e leite cozida em frigideira; aqui, a versão grossa e fofa em pilha.",
+          "variantes": [
+            "Pancake",
+            "Panqueca americana"
+          ]
+        },
+        {
+          "id": "drone",
+          "nome": "Drone",
+          "descricao": "Aeronave sem piloto a bordo, autônoma ou controlada remotamente; aqui, um modelo militar de grande porte.",
+          "variantes": [
+            "Veículo aéreo não tripulado",
+            "VANT",
+            "UAV"
+          ]
+        },
+        {
+          "id": "t_34",
+          "nome": "T-34",
+          "descricao": "Tanque médio soviético, peça central das forças blindadas do Exército Vermelho na Segunda Guerra Mundial.",
+          "variantes": [
+            "Tanque T-34"
+          ]
+        },
+        {
+          "id": "tanque_panther",
+          "nome": "Tanque Panther",
+          "descricao": "Tanque médio alemão Panzerkampfwagen V Panther, usado na Segunda Guerra Mundial a partir de 1943.",
+          "variantes": [
+            "Panzer V",
+            "Panzerkampfwagen V Panther",
+            "Pz.Kpfw. V"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "jeep_willys",
+      "motivo": "Mesmo veículo, Willys MB, jipe militar 4x4 da Segunda Guerra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Bletchley Park."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Candidata é um jogo de tabuleiro, sem relação."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O memorial de Berlim é distinto do Holocausto e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o lançador de foguetes Katyusha."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "stahlhelm",
+      "motivo": "Mesmo capacete de aço alemão Stahlhelm."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a metralhadora Lewis."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o fuzil-metralhador Chauchat."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "O A7V é distinto do Mark I e dos demais tanques candidatos."
+    }
+  ]
+}

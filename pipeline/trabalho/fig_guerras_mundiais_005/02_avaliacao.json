@@ -1,0 +1,238 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Jipe claro; as placas e a inscrição Bedford são do caminhão ao lado e não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que veículo militar aliado da Segunda Guerra é este?",
+      "resposta": "Jipe Willys",
+      "distratores": [
+        "Kübelwagen",
+        "Dodge WC-51",
+        "Humber Snipe"
+      ],
+      "ancora": {
+        "nome": "Jipe Willys MB",
+        "descricao": "Veículo militar leve 4x4 americano, produzido pela Willys e pela Ford na Segunda Guerra Mundial.",
+        "variantes": [
+          "Willys MB",
+          "Jeep Willys",
+          "Ford GPW",
+          "Jeep"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada da mansão reconhecível, sem texto; as pessoas aparecem pequenas e incidentais.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que propriedade inglesa é esta, famosa por seu papel na Segunda Guerra?",
+      "resposta": "Bletchley Park",
+      "distratores": [
+        "Highclere Castle",
+        "Hatfield House",
+        "Cliveden"
+      ],
+      "ancora": {
+        "nome": "Bletchley Park",
+        "descricao": "Mansão e propriedade inglesa em Milton Keynes, centro de decifração de códigos dos Aliados na Segunda Guerra Mundial.",
+        "variantes": [
+          "Bletchley"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico sem texto de figura pública; o general é reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que general alemão da Primeira Guerra é este?",
+      "resposta": "Erich Ludendorff",
+      "distratores": [
+        "Paul von Hindenburg",
+        "Helmuth von Moltke",
+        "Erich von Falkenhayn"
+      ],
+      "ancora": {
+        "nome": "Erich Ludendorff",
+        "descricao": "General alemão que comandou de fato o esforço de guerra da Alemanha na Primeira Guerra Mundial.",
+        "variantes": [
+          "Ludendorff"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Memorial inconfundível, sem texto; pessoas pequenas e incidentais. Usa a única pergunta de ano do lote.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ano foi inaugurado este memorial de Berlim?",
+      "resposta": "2005",
+      "distratores": [
+        "2002",
+        "2008",
+        "2010"
+      ],
+      "ancora": {
+        "nome": "Memorial aos Judeus Assassinados da Europa",
+        "descricao": "Memorial em Berlim, projetado por Peter Eisenman, com 2.711 estelas de concreto, em homenagem às vítimas judias do Holocausto.",
+        "variantes": [
+          "Memorial do Holocausto de Berlim",
+          "Holocaust-Mahnmal"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lançador de foguetes sobre caminhão ZIS, claro; o texto em cirílico ao fundo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que lançador múltiplo de foguetes soviético é este?",
+      "resposta": "Katyusha",
+      "distratores": [
+        "Nebelwerfer",
+        "Land Mattress",
+        "Calliope"
+      ],
+      "ancora": {
+        "nome": "Katyusha",
+        "descricao": "Lançador múltiplo de foguetes soviético da Segunda Guerra Mundial, montado em caminhões, como o BM-13.",
+        "variantes": [
+          "Katiusha",
+          "BM-13",
+          "Órgão de Stalin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Trecho genérico de rocha e casamatas, sem elemento que permita reconhecer o Forte de Douaumont; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dois capacetes do mesmo tipo (Stahlhelm das duas guerras), sem texto; assunto único.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que capacete alemão, usado nas duas guerras mundiais, é este?",
+      "resposta": "Stahlhelm",
+      "distratores": [
+        "Pickelhaube",
+        "Capacete Adrian",
+        "Capacete Brodie"
+      ],
+      "ancora": {
+        "nome": "Capacete Stahlhelm",
+        "descricao": "Capacete de aço alemão em forma de balde de carvão, usado nas duas guerras mundiais.",
+        "variantes": [
+          "Stahlhelm",
+          "Capacete de aço alemão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Metralhadora com tambor e tubo de resfriamento característicos, fundo limpo e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que metralhadora leve, usada pelos britânicos na Primeira Guerra, é esta?",
+      "resposta": "Metralhadora Lewis",
+      "distratores": [
+        "Madsen",
+        "Hotchkiss",
+        "MG 08/15"
+      ],
+      "ancora": {
+        "nome": "Metralhadora Lewis",
+        "descricao": "Metralhadora leve da Primeira Guerra Mundial com tambor no topo e cano envolto em tubo de resfriamento.",
+        "variantes": [
+          "Lewis gun",
+          "Fuzil Lewis"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fuzil-metralhador bem visível, sem texto; o formato com carregador em disco semicircular o distingue.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este fuzil-metralhador foi a arma leve padrão de qual exército na Primeira Guerra?",
+      "resposta": "Exército francês",
+      "distratores": [
+        "Exército alemão",
+        "Exército britânico",
+        "Exército russo"
+      ],
+      "ancora": {
+        "nome": "Fuzil-metralhador Chauchat",
+        "descricao": "Fuzil-metralhador francês Modèle 1915 CSRG, arma leve padrão da França na Primeira Guerra Mundial.",
+        "variantes": [
+          "Chauchat",
+          "FM Chauchat",
+          "CSRG",
+          "Sho-Sho"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O quadro traz a assinatura 'Joffre' e a data escrita no canto, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Réplica do A7V, inconfundível pela forma; o nome 'Schnuck' no casco não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "A Alemanha construiu este tanque depois de se assustar com a chegada de qual tanque aliado?",
+      "resposta": "Mark I",
+      "distratores": [
+        "Renault FT",
+        "Saint-Chamond",
+        "Schneider CA1"
+      ],
+      "ancora": {
+        "nome": "Tanque A7V",
+        "descricao": "Tanque pesado alemão de 1918, o único modelo alemão produzido e usado em combate na Primeira Guerra Mundial.",
+        "variantes": [
+          "A7V",
+          "Sturmpanzerwagen A7V"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Navio pequeno, distante e em foto antiga granulada, sem detalhes para reconhecer o Goeben; pode ser confundido com o irmão Moltke e não fica legível num celular."
+    }
+  ]
+}

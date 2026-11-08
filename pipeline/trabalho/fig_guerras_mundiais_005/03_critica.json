@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta, o enunciado não nomeia nem entrega o jipe, e os distratores são veículos militares plausíveis e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista é vaga (propriedade inglesa famosa na guerra) e não entrega a resposta sozinha. O fato está nos trechos e os distratores são casas históricas inglesas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de retrato, com pista só de nacionalidade e guerra. Os distratores são generais alemães da mesma guerra, e a figura decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurado em 10 de maio de 2005, segundo o trecho. É múltipla, como exige a regra de anos, e os distratores são anos próximos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Lançador múltiplo de foguetes soviético' descreve a resposta quase sozinho, então a figura virou enfeite. Os distratores (Nebelwerfer, Land Mattress, Calliope) não são soviéticos e saem por eliminação. A reescrita pede só 'arma soviética' e usa distratores soviéticos.",
+      "reescrita": {
+        "pergunta": "Que arma soviética da Segunda Guerra é esta?",
+        "resposta": "Katyusha",
+        "distratores": [
+          "ISU-152",
+          "PPSh-41",
+          "Mosin-Nagant"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Capacete alemão usado nas duas guerras' elimina Pickelhaube, Adrian e Brodie e entrega a resposta sem a figura. A reescrita tira a pista de nacionalidade e das duas guerras. Todos os distratores foram usados na Primeira Guerra.",
+      "reescrita": {
+        "pergunta": "Que capacete militar usado na Primeira Guerra é este?",
+        "resposta": "Stahlhelm",
+        "distratores": [
+          "Pickelhaube",
+          "Capacete Adrian",
+          "Capacete Brodie"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Lewis foi amplamente usada pelos britânicos na Primeira Guerra, conforme o trecho. O tambor no topo e o tubo de resfriamento da figura distinguem a arma de Madsen, Hotchkiss e MG 08/15.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a Chauchat foi o fuzil-metralhador padrão do exército francês na Primeira Guerra. O enunciado não nomeia a arma e os distratores são exércitos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o Mark I britânico, de 1916, motivou o programa alemão. O trecho em português fala em 'tanques da série Mark'. O enunciado não nomeia o A7V e os distratores são tanques franceses posteriores.",
+      "reescrita": null
+    }
+  ]
+}
