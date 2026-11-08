@@ -1,0 +1,393 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia confirmada pela fonte; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Etimologia de pau-brasil é disputada (francês, toscano, árabe ou brasa), então a resposta única não se sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma que alea remete ao jogo de dados e a tradução é 'o dado foi lançado'.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chiocciola significa caracol, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Feria como dia de festa, adotado pela Igreja para os dias da semana, é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português confirma a recitação do alfabeto terminando em 'and per se and'.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Verbo ibérico antigo' é impreciso; a fonte diz que vem de papiá, 'conversar', derivado de papear.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome da língua papiamento, falada em Aruba e Curaçau, vem do verbo papiá. O que esse verbo significa?",
+        "resposta": "Conversar",
+        "distratores": [
+          "Cantar",
+          "Negociar",
+          "Navegar"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Papiamento"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia grega 'que corre em sentido inverso' confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hypokrites significava ator, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Omnibus significa 'para todos', confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma as três marcas lembrando um rosto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A tradução 'casa de branco' é hoje considerada errada pelos linguistas, então a pergunta é enganosa.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Calendas não existiam no calendário grego, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Julgamento de Páris leva à Guerra de Troia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Castigo de rolar a pedra confirmado; distratores são outros castigos míticos.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte liga o telemarketing ao uso excessivo que estigmatizou o gerundismo, não à tradução em si; o exemplo do enunciado também entrega a resposta.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "O gerundismo, como em vou estar enviando um documento, ficou estigmatizado pelo uso excessivo por operadores de qual atividade?",
+        "resposta": "Telemarketing",
+        "distratores": [
+          "Balcão de farmácia",
+          "Recepção de hotel",
+          "Guichê de banco"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Gerundismo"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crase não ocorre antes de palavra masculina, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte em português diz que a ideia de que tomaram a baía por rio é equívoco; rios, sacos e baías não se distinguiam.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome Amazonas vem das guerreiras relatadas por Orellana, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Saque de Roma em 455 explica a fama dos vândalos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Modelo da Academia Francesa confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quarenta cadeiras confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Scrupulus e calculus são diminutivos latinos de pedra; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cereal vem de Ceres, deusa romana das colheitas; o planeta anão também leva o nome dela.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Senatus vem de senex, velho, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Algoritmo e algarismo derivam do nome de Al-Khwarizmi, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Jacaré, jabuti e jiboia são tupinismos, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pará, Paraná e Paraíba vêm do tupi pará, 'mar' ou rio grande; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Quarto planeta' entrega Marte e março lembra Marte, então a pergunta é fácil demais e sem graça.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Túmulos frente a frente em Alcobaça, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carta conservada no Arquivo Nacional da Torre do Tombo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "'Em se plantando, tudo dá' vem do trecho final da carta de Caminha; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sede da CPLP em Lisboa, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Esparta era a principal cidade da Lacônia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Línguas europeias' é impreciso; a fonte diz que o termo entrou no inglês pelo registro de Cook em 1777 em Tonga.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A palavra tabu entrou no inglês pelo registro do capitão James Cook, em 1777. Em qual arquipélago do Pacífico ele a ouviu?",
+        "resposta": "Tonga",
+        "distratores": [
+          "Havaí",
+          "Taiti",
+          "Fiji"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Taboo"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tomlinson escolheu o @ em 1971, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Petrarca popularizou o soneto com poemas a Laura, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frase da Eneida, de Virgílio, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alexandre cortou o nó górdio, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Contar letras de palavra enorme em voz alta é injusto, e a fonte trata a forma em -ose como a registrada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Número de partes do hino é detalhe arbitrário e pouco interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Domínio muçulmano começou em 711, século oito.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "R.U.R. é de 1920 (estreia em 1921), ambos na década de 1920.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato histórico de Macau, mal classificado em Língua Portuguesa e Expressões.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Só a esperança permaneceu na caixa, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vinagre vem de vinho mais acre, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pequeno-almoço é o termo do português europeu, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mentor foi conselheiro de Telêmaco, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Aipim é o nome predominante no Rio de Janeiro; a fonte lista aipim como sinônimo.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sequência AEOSR confirma E em segundo lugar.",
+      "reescrita": null
+    }
+  ]
+}

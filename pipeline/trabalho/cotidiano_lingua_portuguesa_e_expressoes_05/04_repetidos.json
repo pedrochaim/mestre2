@@ -1,0 +1,623 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A palavra capivara, nome do maior roedor do mundo, vem do tupi. O que ela significa?",
+        "resposta": "Comedor de capim"
+      },
+      "existentes": [
+        {
+          "id": "q08501",
+          "pergunta": "Qual destas palavras do português brasileiro vem do tupi?",
+          "resposta": "Pipoca"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na frase latina alea jacta est, traduzida como a sorte está lançada, a palavra alea designava qual objeto de jogo?",
+        "resposta": "Dado"
+      },
+      "existentes": [
+        {
+          "id": "q16792",
+          "pergunta": "Ao atravessar o rio Rubicão com suas tropas, em direção a Roma, que general teria dito a sorte está lançada?",
+          "resposta": "Júlio César"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em italiano, o símbolo arroba dos e-mails ganhou o apelido de chiocciola, por lembrar qual animal?",
+        "resposta": "Caracol"
+      },
+      "existentes": [
+        {
+          "id": "q00759",
+          "pergunta": "Muito antes do e-mail, arroba já era o nome de uma unidade de medida, usada até hoje na venda de gado. O que ela mede?",
+          "resposta": "Peso"
+        },
+        {
+          "id": "q04517",
+          "pergunta": "Em português, o símbolo dos endereços de e-mail tem o mesmo nome de uma antiga unidade de peso, usada até hoje para pesar gado. Que nome é esse?",
+          "resposta": "Arroba"
+        },
+        {
+          "id": "q15713",
+          "pergunta": "O engenheiro americano Ray Tomlinson escolheu a arroba para os endereços ao enviar o primeiro e-mail entre computadores da rede Arpanet. Em que ano?",
+          "resposta": "1971"
+        },
+        {
+          "id": "q16771",
+          "pergunta": "Antes de virar símbolo do e-mail, a arroba já era uma unidade de peso, ainda usada para gado. Ela equivale a cerca de quantos quilos?",
+          "resposta": "Quinze"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Segunda-feira e terça-feira vêm do latim da Igreja. O que significava originalmente a palavra latina feria?",
+        "resposta": "Dia de festa"
+      },
+      "existentes": [
+        {
+          "id": "q08505",
+          "pergunta": "Além do domingo, qual dia da semana em português não leva a palavra feira no nome?",
+          "resposta": "Sábado"
+        },
+        {
+          "id": "q08506",
+          "pergunta": "Em vez de homenagear deuses pagãos, os dias da semana em português são numerados. Que bispo de Braga, do século seis, é associado a essa mudança?",
+          "resposta": "São Martinho de Dume"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O nome inglês do e comercial, ampersand, vem de uma frase que as crianças recitavam ao terminar de dizer o quê?",
+        "resposta": "O alfabeto"
+      },
+      "existentes": [
+        {
+          "id": "q08502",
+          "pergunta": "O símbolo chamado e comercial, usado em nomes de empresas, surgiu da fusão de quais duas letras da palavra latina para e?",
+          "resposta": "E e T"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O nome da língua papiamento, falada em Aruba e Curaçau, vem do verbo papiá. O que esse verbo significa?",
+        "resposta": "Conversar"
+      },
+      "existentes": [
+        {
+          "id": "q00780",
+          "pergunta": "O papiamento, língua crioula com muito vocabulário de origem portuguesa e espanhola, é falado em quais ilhas do Caribe?",
+          "resposta": "Aruba, Curaçao e Bonaire"
+        },
+        {
+          "id": "q13551",
+          "pergunta": "O papiamento, falado em Aruba e em Curaçao, tem o vocabulário vindo sobretudo de quais duas línguas ibéricas?",
+          "resposta": "Português e espanhol"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A palavra palíndromo, usada para ovo, radar e arara, vem do grego. O que ela significa?",
+        "resposta": "Correr de volta"
+      },
+      "existentes": [
+        {
+          "id": "q08510",
+          "pergunta": "Como se chama a frase que pode ser lida igualmente de trás para frente, como socorram-me, subi no ônibus em Marrocos?",
+          "resposta": "Palíndromo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No mito do pomo da discórdia, Páris deu a maçã de ouro a Afrodite em troca do amor de Helena. Que conflito isso desencadeou?",
+        "resposta": "Guerra de Troia"
+      },
+      "existentes": [
+        {
+          "id": "q04773",
+          "pergunta": "No mito grego, que deusa lançou entre os convidados de um casamento o pomo da discórdia, uma maçã de ouro destinada à mais bela?",
+          "resposta": "Éris"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em andar a cavalo, o a fica sem o acento grave da crase. Que característica da palavra cavalo explica isso?",
+        "resposta": "É masculina"
+      },
+      "existentes": [
+        {
+          "id": "q04778",
+          "pergunta": "A palavra crase vem do grego e nomeia o encontro da preposição a com o artigo a. O que ela significa?",
+          "resposta": "Mistura"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No século dezesseis, espanhóis que desceram o grande rio da Amazônia relataram combates contra quem, o que inspirou o nome Amazonas?",
+        "resposta": "Mulheres guerreiras"
+      },
+      "existentes": [
+        {
+          "id": "q02123",
+          "pergunta": "O nome do rio Amazonas veio de relatos espanhóis sobre mulheres guerreiras, comparadas a figuras de qual mitologia?",
+          "resposta": "Mitologia grega"
+        },
+        {
+          "id": "q02124",
+          "pergunta": "Que explorador espanhol liderou, em 1542, a primeira navegação europeia do rio Amazonas até a foz no Atlântico?",
+          "resposta": "Francisco de Orellana"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "A Academia Brasileira de Letras seguiu o modelo de uma academia estrangeira, cujos membros também são chamados de imortais. De que país?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q04770",
+          "pergunta": "Fundada em 1897 para cultivar a língua e a literatura, a Academia Brasileira de Letras teve qual escritor como seu primeiro presidente?",
+          "resposta": "Machado de Assis"
+        },
+        {
+          "id": "q06031",
+          "pergunta": "A sede da Academia Brasileira de Letras, doada pela França, é uma réplica de um palacete do parque de Versalhes e leva o mesmo nome. Qual?",
+          "resposta": "Petit Trianon"
+        },
+        {
+          "id": "q06046",
+          "pergunta": "Seguindo o modelo da Academia Francesa, a Academia Brasileira de Letras tem quantas cadeiras de membros efetivos?",
+          "resposta": "Quarenta"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Quantas cadeiras tem a Academia Brasileira de Letras, cada uma ocupada por um membro vitalício?",
+        "resposta": "Quarenta"
+      },
+      "existentes": [
+        {
+          "id": "q04770",
+          "pergunta": "Fundada em 1897 para cultivar a língua e a literatura, a Academia Brasileira de Letras teve qual escritor como seu primeiro presidente?",
+          "resposta": "Machado de Assis"
+        },
+        {
+          "id": "q06031",
+          "pergunta": "A sede da Academia Brasileira de Letras, doada pela França, é uma réplica de um palacete do parque de Versalhes e leva o mesmo nome. Qual?",
+          "resposta": "Petit Trianon"
+        },
+        {
+          "id": "q06046",
+          "pergunta": "Seguindo o modelo da Academia Francesa, a Academia Brasileira de Letras tem quantas cadeiras de membros efetivos?",
+          "resposta": "Quarenta"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Que matemático persa do século nove deu origem, com seu nome, tanto à palavra algarismo quanto à palavra algoritmo?",
+        "resposta": "Al-Khwarizmi"
+      },
+      "existentes": [
+        {
+          "id": "q03306",
+          "pergunta": "As palavras algarismo e algoritmo vêm, ambas, do nome de qual matemático persa do século nove?",
+          "resposta": "Al-Khwarizmi"
+        },
+        {
+          "id": "q16371",
+          "pergunta": "Os algarismos de zero a nove chegaram à Europa trazidos pelos árabes, mas surgiram originalmente em que atual país?",
+          "resposta": "Índia"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Além de nomearem répteis, o que as palavras jacaré, jabuti e jiboia têm em comum?",
+        "resposta": "Vêm do tupi"
+      },
+      "existentes": [
+        {
+          "id": "q08501",
+          "pergunta": "Qual destas palavras do português brasileiro vem do tupi?",
+          "resposta": "Pipoca"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Os nomes dos estados do Pará, do Paraná e da Paraíba compartilham uma mesma palavra tupi. O que ela significa?",
+        "resposta": "Mar ou rio grande"
+      },
+      "existentes": [
+        {
+          "id": "q08504",
+          "pergunta": "Em nomes de origem tupi como Itaipu, Itaquera e Itatiaia, o que significa o pedaço ita?",
+          "resposta": "Pedra"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O manuscrito original da carta de Pero Vaz de Caminha está guardado em qual arquivo nacional de Lisboa?",
+        "resposta": "Torre do Tombo"
+      },
+      "existentes": [
+        {
+          "id": "q00180",
+          "pergunta": "Quem escreveu ao rei Dom Manuel a carta que narra a chegada da frota de Cabral ao Brasil, em 1500?",
+          "resposta": "Pero Vaz de Caminha"
+        },
+        {
+          "id": "q04764",
+          "pergunta": "Escrita em 1500, a carta de Pero Vaz de Caminha ficou inédita por muito tempo. Em que século ela foi publicada pela primeira vez?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "O dito popular de que nesta terra, em se plantando, tudo dá é uma versão simplificada de um trecho de qual documento histórico?",
+        "resposta": "Carta de Pero Vaz de Caminha"
+      },
+      "existentes": [
+        {
+          "id": "q00180",
+          "pergunta": "Quem escreveu ao rei Dom Manuel a carta que narra a chegada da frota de Cabral ao Brasil, em 1500?",
+          "resposta": "Pero Vaz de Caminha"
+        },
+        {
+          "id": "q04764",
+          "pergunta": "Escrita em 1500, a carta de Pero Vaz de Caminha ficou inédita por muito tempo. Em que século ela foi publicada pela primeira vez?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "A Comunidade dos Países de Língua Portuguesa tem sua sede em qual cidade?",
+        "resposta": "Lisboa"
+      },
+      "existentes": [
+        {
+          "id": "q04761",
+          "pergunta": "Em que ano foi criada, numa cúpula em Lisboa, a Comunidade dos Países de Língua Portuguesa?",
+          "resposta": "1996"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Em 1971, que engenheiro americano escolheu a arroba para separar o nome do usuário e o do computador nos endereços de e-mail?",
+        "resposta": "Ray Tomlinson"
+      },
+      "existentes": [
+        {
+          "id": "q00759",
+          "pergunta": "Muito antes do e-mail, arroba já era o nome de uma unidade de medida, usada até hoje na venda de gado. O que ela mede?",
+          "resposta": "Peso"
+        },
+        {
+          "id": "q04517",
+          "pergunta": "Em português, o símbolo dos endereços de e-mail tem o mesmo nome de uma antiga unidade de peso, usada até hoje para pesar gado. Que nome é esse?",
+          "resposta": "Arroba"
+        },
+        {
+          "id": "q15713",
+          "pergunta": "O engenheiro americano Ray Tomlinson escolheu a arroba para os endereços ao enviar o primeiro e-mail entre computadores da rede Arpanet. Em que ano?",
+          "resposta": "1971"
+        },
+        {
+          "id": "q16771",
+          "pergunta": "Antes de virar símbolo do e-mail, a arroba já era uma unidade de peso, ainda usada para gado. Ela equivale a cerca de quantos quilos?",
+          "resposta": "Quinze"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Antes de Camões, que poeta italiano do século quatorze consagrou o soneto com poemas dedicados à amada Laura?",
+        "resposta": "Francesco Petrarca"
+      },
+      "existentes": [
+        {
+          "id": "q08531",
+          "pergunta": "O soneto, forma poética consagrada por Camões e Bilac, tem quantos versos?",
+          "resposta": "Catorze"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "A frase temo os gregos, mesmo quando trazem presentes, dita sobre o cavalo de Troia, foi escrita por qual poeta romano?",
+        "resposta": "Virgílio"
+      },
+      "existentes": [
+        {
+          "id": "q04752",
+          "pergunta": "A expressão presente de grego lembra o cavalo de madeira que os gregos deixaram diante das muralhas de qual cidade?",
+          "resposta": "Troia"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Os arabismos entraram no português durante o domínio muçulmano na Península Ibérica. Em que século começou esse domínio?",
+        "resposta": "Século oito"
+      },
+      "existentes": [
+        {
+          "id": "q00777",
+          "pergunta": "Alface, algodão e almofada começam com al por herança do artigo definido de qual língua?",
+          "resposta": "Árabe"
+        },
+        {
+          "id": "q16794",
+          "pergunta": "Qual destas palavras da cozinha portuguesa veio do árabe?",
+          "resposta": "Azeite"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "No mito da caixa de Pandora, depois que todos os males escaparam pelo mundo, o que ficou guardado lá dentro?",
+        "resposta": "A esperança"
+      },
+      "existentes": [
+        {
+          "id": "q13172",
+          "pergunta": "No poema original de Hesíodo, a famosa caixa de Pandora era, na verdade, que tipo de recipiente?",
+          "resposta": "Um jarro"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Em Portugal, como se chama a primeira refeição do dia, que os brasileiros chamam de café da manhã?",
+        "resposta": "Pequeno-almoço"
+      },
+      "existentes": [
+        {
+          "id": "q00799",
+          "pergunta": "Em Portugal, como se chama o meio de transporte que os brasileiros chamam de trem?",
+          "resposta": "Comboio"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "A palavra mentor vem de um personagem da Odisseia, amigo de Ulisses. De quem ele foi conselheiro e guia?",
+        "resposta": "Telêmaco"
+      },
+      "existentes": [
+        {
+          "id": "q13142",
+          "pergunta": "Na Odisseia, Atena assume a forma de um velho amigo de Ulisses para orientar Telêmaco. Que palavra comum nasceu do nome desse amigo?",
+          "resposta": "Mentor"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "No Nordeste, a mandioca costuma ser chamada de macaxeira. Por qual nome ela é mais conhecida no Rio de Janeiro?",
+        "resposta": "Aipim"
+      },
+      "existentes": [
+        {
+          "id": "q00190",
+          "pergunta": "No Rio de Janeiro ela é chamada de aipim. Que outro nome a mandioca recebe na maior parte do Nordeste?",
+          "resposta": "Macaxeira"
+        },
+        {
+          "id": "q02663",
+          "pergunta": "O que torna a mandioca-brava perigosa quando comida crua?",
+          "resposta": "Ela libera cianeto"
+        },
+        {
+          "id": "q06084",
+          "pergunta": "Segundo uma lenda tupi, o nome mandioca vem de uma menina indígena enterrada dentro da oca, onde a planta brotou. Como ela se chamava?",
+          "resposta": "Mani"
+        },
+        {
+          "id": "q19021",
+          "pergunta": "Que ingrediente, extraído da mandioca, é a base da massa do pão de queijo mineiro?",
+          "resposta": "Polvilho"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Nos textos em português, a letra a é a mais frequente. Qual letra vem logo em segundo lugar?",
+        "resposta": "E"
+      },
+      "existentes": [
+        {
+          "id": "q00796",
+          "pergunta": "Qual é a letra mais frequente nos textos escritos em português?",
+          "resposta": "A"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Significado de capivara é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o significado de alea, não quem disse a frase."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Apelido italiano é fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado de feria é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Origem do nome ampersand difere da fusão de letras."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Significado do verbo papiá é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Etimologia difere do nome do termo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Conflito desencadeado difere de quem lançou a maçã."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Regra da crase diante de masculino difere do significado da palavra."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Quem foi combatido (mulheres guerreiras) difere de comparação com mitologia grega; resposta da nova está quase embutida mas fato perguntado é outro."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "País do modelo é diferente do número de cadeiras."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "id_existente": "q06046",
+      "motivo": "Mesmo fato: quarenta cadeiras."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q03306",
+      "motivo": "Mesma pergunta e resposta."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Fato diferente do exemplo de palavra tupi."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Significado de para é diferente de ita."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Local do manuscrito é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Origem do dito popular é outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Sede difere do ano de criação."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "id_existente": "q15713",
+      "motivo": "Q15713 já nomeia Tomlinson e escolha da arroba; a nova pede o nome dele, que a existente contém, mas o fato central é o mesmo (Tomlinson escolheu a arroba em 1971)."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Petrarca é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Autor da frase difere da cidade."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Século do domínio muçulmano é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "O que ficou na caixa difere do tipo de recipiente."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Palavra diferente (pequeno-almoço vs comboio)."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Quem Mentor aconselhou difere da palavra derivada."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "id_existente": "q00190",
+      "motivo": "Mesma equivalência aipim/macaxeira em direção oposta."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Segunda letra mais frequente é outro fato."
+    }
+  ]
+}
