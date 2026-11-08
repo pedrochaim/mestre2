@@ -1,0 +1,258 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de cerimônia com três pessoas em primeiro plano, faixa com texto ao fundo e certificado com o nome; a homenageada não se isola e as outras são pessoas comuns."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que químico alemão aparece neste retrato?",
+      "resposta": "Otto Hahn",
+      "distratores": [
+        "Fritz Haber",
+        "Walther Nernst",
+        "Max Born"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Otto Hahn",
+        "descricao": "Químico alemão, pioneiro da radioquímica e descobridor da fissão nuclear, Nobel de Química de 1944.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato antigo, nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que matemático alemão do século dezenove aparece neste retrato?",
+      "resposta": "Richard Dedekind",
+      "distratores": [
+        "Georg Cantor",
+        "Karl Weierstrass",
+        "Leopold Kronecker"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Richard Dedekind",
+        "descricao": "Matemático alemão do século dezenove, autor da definição dos números reais por cortes.",
+        "variantes": [
+          "Julius Wilhelm Richard Dedekind"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato de rosto, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este matemático inglês inventou qual autômato celular?",
+      "resposta": "Jogo da Vida",
+      "distratores": [
+        "Regra 110",
+        "Formiga de Langton",
+        "Autômato de von Neumann"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "John Horton Conway",
+        "descricao": "Matemático inglês, inventor do autômato celular Jogo da Vida.",
+        "variantes": [
+          "John Conway"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto dele dando aula, sem nome visível; só fórmulas no quadro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista da computação holandês aparece nesta foto?",
+      "resposta": "Edsger Dijkstra",
+      "distratores": [
+        "Niklaus Wirth",
+        "Donald Knuth",
+        "Tony Hoare"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Edsger Dijkstra",
+        "descricao": "Cientista da computação holandês, autor do algoritmo do caminho mais curto.",
+        "variantes": [
+          "Edsger Wybe Dijkstra"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, sem texto; as bandeiras não dão o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que feito este cosmonauta soviético realizou em 1965?",
+      "resposta": "Primeira caminhada espacial",
+      "distratores": [
+        "Primeiro voo orbital",
+        "Primeiro pouso lunar",
+        "Primeiro voo de uma mulher"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Alexei Leonov",
+        "descricao": "Cosmonauta soviético, primeira pessoa a realizar uma caminhada espacial, em 1965.",
+        "variantes": [
+          "Aleksei Leonov"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista da computação americano aparece neste retrato?",
+      "resposta": "Vint Cerf",
+      "distratores": [
+        "Robert Kahn",
+        "Tim Berners-Lee",
+        "Paul Baran"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Vint Cerf",
+        "descricao": "Cientista da computação americano, co-criador do TCP/IP e um dos pais da Internet.",
+        "variantes": [
+          "Vinton Cerf",
+          "Vinton Gray Cerf"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em 1925, a tese desta astrônoma sobre a composição das estrelas foi inicialmente rejeitada por qual astrofísico?",
+      "resposta": "Henry Norris Russell",
+      "distratores": [
+        "Arthur Eddington",
+        "Edwin Hubble",
+        "Harlow Shapley"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Cecilia Payne-Gaposchkin",
+        "descricao": "Astrônoma anglo-americana que mostrou que as estrelas são feitas principalmente de hidrogênio e hélio.",
+        "variantes": [
+          "Cecilia Payne",
+          "Cecilia Helena Payne"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; o texto do fundo é de um museu e não dá o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que inventor húngaro aparece nesta foto?",
+      "resposta": "Ernő Rubik",
+      "distratores": [
+        "László Bíró",
+        "Dennis Gabor",
+        "Ányos Jedlik"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Ernő Rubik",
+        "descricao": "Arquiteto e inventor húngaro, criador do Cubo de Rubik.",
+        "variantes": [
+          "Erno Rubik"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que linguagem de programação este programador holandês criou?",
+      "resposta": "Python",
+      "distratores": [
+        "Ruby",
+        "Perl",
+        "Lua"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Guido van Rossum",
+        "descricao": "Programador holandês, criador da linguagem Python.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gravura de retrato, nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que físico francês do século dezenove aparece nesta gravura?",
+      "resposta": "Léon Foucault",
+      "distratores": [
+        "Hippolyte Fizeau",
+        "André-Marie Ampère",
+        "Augustin Fresnel"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Léon Foucault",
+        "descricao": "Físico francês que inventou o pêndulo de Foucault e mediu a velocidade da luz.",
+        "variantes": [
+          "Jean Bernard Léon Foucault"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; só a marca do microfone aparece.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta geneticista brasileira é professora de qual universidade?",
+      "resposta": "Universidade de São Paulo",
+      "distratores": [
+        "Unicamp",
+        "UFRJ",
+        "UFMG"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Mayana Zatz",
+        "descricao": "Geneticista e bióloga molecular brasileira, professora da Universidade de São Paulo.",
+        "variantes": []
+      }
+    }
+  ]
+}

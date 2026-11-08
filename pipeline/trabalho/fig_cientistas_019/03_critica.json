@@ -1,0 +1,137 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Max Born é físico, então o próprio enunciado ('químico') o elimina. Troquei por um químico alemão da mesma época.",
+      "reescrita": {
+        "pergunta": "Que químico alemão aparece neste retrato?",
+        "resposta": "Otto Hahn",
+        "distratores": [
+          "Fritz Haber",
+          "Walther Nernst",
+          "Carl Bosch"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literalmente correto (Dedekind, alemão, 1831–1916). Os distratores são matemáticos alemães do século dezenove e nenhum é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta. 'Inventou autômato celular' remete direto ao Jogo da Vida, então a figura vira enfeite. Passei a pergunta para reconhecer a pessoa.",
+      "reescrita": {
+        "pergunta": "Que matemático inglês aparece nesta foto?",
+        "resposta": "John Horton Conway",
+        "distratores": [
+          "Alan Turing",
+          "Godfrey Hardy",
+          "Roger Penrose"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores (Wirth suíço, Knuth americano, Hoare britânico) são eliminados por 'holandês'. Tirei a nacionalidade e deixei uma pista de época.",
+      "reescrita": {
+        "pergunta": "Que cientista da computação do século vinte aparece nesta foto?",
+        "resposta": "Edsger Dijkstra",
+        "distratores": [
+          "Niklaus Wirth",
+          "Donald Knuth",
+          "Tony Hoare"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta. 'Cosmonauta soviético em 1965' já leva à caminhada espacial, e os distratores são eliminados pelas datas. Passei a pergunta para reconhecer o cosmonauta.",
+      "reescrita": {
+        "pergunta": "Que cosmonauta soviético aparece nesta foto?",
+        "resposta": "Alexei Leonov",
+        "distratores": [
+          "Yuri Gagarin",
+          "Gherman Titov",
+          "Valentina Tereshkova"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Berners-Lee é britânico, então 'americano' o elimina. Troquei por um pioneiro americano da rede.",
+      "reescrita": {
+        "pergunta": "Que cientista da computação americano aparece neste retrato?",
+        "resposta": "Vint Cerf",
+        "distratores": [
+          "Robert Kahn",
+          "Paul Baran",
+          "Jon Postel"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos sustentam que Russell desencorajou e rejeitou inicialmente a conclusão na tese de 1925. É preciso reconhecer a astrônoma para responder. Os distratores são críveis, e Shapley a apoiava.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rubik é inventor húngaro. A pergunta é de reconhecimento direto (nível 1), sem vazamento, e os distratores são inventores húngaros.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta. 'Programador holandês que criou uma linguagem' leva a Python sem olhar a foto. Passei a pergunta para reconhecer a pessoa, com distratores criadores de linguagens ou sistemas.",
+      "reescrita": {
+        "pergunta": "Que programador aparece nesta foto?",
+        "resposta": "Guido van Rossum",
+        "distratores": [
+          "Linus Torvalds",
+          "Larry Wall",
+          "Yukihiro Matsumoto"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gravura' não está confirmado em 'mostra' e pode ser falso para esta imagem. Troquei por 'imagem'.",
+      "reescrita": {
+        "pergunta": "Que físico francês do século dezenove aparece nesta imagem?",
+        "resposta": "Léon Foucault",
+        "distratores": [
+          "Hippolyte Fizeau",
+          "André-Marie Ampère",
+          "Augustin Fresnel"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ela é professora da USP. A pergunta exige reconhecê-la, a resposta é única e os distratores são universidades brasileiras.",
+      "reescrita": null
+    }
+  ]
+}
