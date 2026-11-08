@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de massa é este?",
+        "resposta": "Gravatinha (farfalle)"
+      },
+      "existentes": [
+        {
+          "id": "q18800",
+          "pergunta": "Que tipo de massa italiana é este?",
+          "resposta": "Farfalle"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q18800",
+      "motivo": "Ambas pedem o nome da massa mostrada (farfalle/gravatinha); mesmo fato, mesma resposta."
+    }
+  ]
+}

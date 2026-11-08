@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Smørrebrød é prato tradicional da Dinamarca, Noruega e Suécia (trecho). 'Escandinavo' ajuda sem entregar, e os distratores são italianos/franceses, não escandinavos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em forma de tubo' mais espinafre e queijo permite responder ricota sem ver a figura. Tirando o formato, o recheio de espinafre e ricota também serve a ravióli e outras massas, então a figura passa a ser necessária. O fato está nos trechos.",
+      "reescrita": {
+        "pergunta": "Esta massa italiana costuma ser recheada com espinafre e com que queijo?",
+        "resposta": "Ricota",
+        "distratores": [
+          "Gorgonzola",
+          "Provolone",
+          "Gruyère"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Massa avermelhada e cobertura branca' descreve o bolo e entrega a resposta com a imagem coberta. Troquei a pista visual por uma de origem, que ajuda sem entregar (popular nos EUA, segundo os trechos).",
+      "reescrita": {
+        "pergunta": "Que bolo em camadas, muito popular nos Estados Unidos, é este?",
+        "resposta": "Red velvet",
+        "distratores": [
+          "Floresta Negra",
+          "Bolo Sacher",
+          "Bolo de cenoura"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cupcake é distrator defensável: também é bolinho individual em forminha de papel, e o enunciado o descreve. Troquei o distrator por outro que não se confunde com a resposta.",
+      "reescrita": {
+        "pergunta": "Que bolinho individual, assado em forminha de papel, é este?",
+        "resposta": "Muffin",
+        "distratores": [
+          "Brownie",
+          "Madeleine",
+          "Financier"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. Farfalle também é chamada de gravatinha ou laço, e o parêntese evita injustiça. Os distratores são massas de outros formatos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Linguiça e chouriço são distratores visualmente parecidos com salsicha sobre purê, e as duas poderiam descrever a foto. A resposta não é única diante da imagem. Além disso, 'sobre o purê' não consta em `mostra` e não dá para conferir.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ciabatta é pão italiano branco, achatado e de miolo com buracos grandes (trechos). O enunciado só dá a nacionalidade. Os distratores são outros pães/produtos italianos que não descrevem a imagem.",
+      "reescrita": null
+    }
+  ]
+}

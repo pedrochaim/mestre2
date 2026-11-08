@@ -1,0 +1,395 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Smørrebrød",
+        "descricao": "Sanduíche aberto escandinavo sobre pão de centeio, com frios, peixe ou pastas por cima.",
+        "variantes": [
+          "Smorrebrod",
+          "Smørbrød",
+          "Sanduíche aberto dinamarquês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_dinamarca",
+          "nome": "Bandeira da Dinamarca",
+          "descricao": "Bandeira nacional atual da Dinamarca, vermelha com cruz escandinava branca, chamada Dannebrog.",
+          "variantes": [
+            "Dinamarca",
+            "Dannebrog",
+            "Bandeira dinamarquesa"
+          ]
+        },
+        {
+          "id": "sombrero",
+          "nome": "Sombrero",
+          "descricao": "Chapéu de aba larga e copa alta, tradicional do México, usado para proteger do sol.",
+          "variantes": [
+            "Sombrero de charro",
+            "Sombrero jarano"
+          ]
+        },
+        {
+          "id": "banh_mi",
+          "nome": "Bánh mì",
+          "descricao": "Sanduíche vietnamita em baguete curta, com carne, legumes em conserva e ervas.",
+          "variantes": [
+            "Bánh mỳ",
+            "Sanduíche vietnamita"
+          ]
+        },
+        {
+          "id": "capelo",
+          "nome": "Capelo",
+          "descricao": "Chapéu acadêmico de topo quadrado e borla, usado em cerimônias de formatura.",
+          "variantes": [
+            "Barrete de formatura",
+            "Chapéu de formatura",
+            "Mortarboard"
+          ]
+        },
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó",
+            "Forró pé de serra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Canelone",
+        "descricao": "Massa italiana em forma de tubo largo, recheada e assada com molho.",
+        "variantes": [
+          "Cannelloni",
+          "Canelones"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calzone",
+          "nome": "Calzone",
+          "descricao": "Pizza italiana dobrada em meia-lua e assada, recheada com presunto e queijo.",
+          "variantes": []
+        },
+        {
+          "id": "clone",
+          "nome": "Clone",
+          "descricao": "Organismo ou célula geneticamente idêntico a outro, obtido por reprodução assexuada ou por clonagem.",
+          "variantes": [
+            "Clonagem",
+            "Cloning"
+          ]
+        },
+        {
+          "id": "panetone",
+          "nome": "Panetone",
+          "descricao": "Pão doce italiano de massa fermentada com frutas cristalizadas e passas, tradicional no Natal.",
+          "variantes": [
+            "Panettone"
+          ]
+        },
+        {
+          "id": "caneleira",
+          "nome": "Caneleira",
+          "descricao": "Protetor usado sobre a canela para evitar lesões em esportes e lutas.",
+          "variantes": [
+            "Protetor de canela",
+            "Caneleiras"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bolo red velvet",
+        "descricao": "Bolo em camadas de massa vermelha com cobertura de cream cheese, popular nos Estados Unidos.",
+        "variantes": [
+          "Red velvet",
+          "Bolo veludo vermelho",
+          "Red velvet cake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cervo_vermelho",
+          "nome": "Cervo-vermelho",
+          "descricao": "Grande cervídeo (Cervus elaphus) da Europa e do oeste da Ásia; o macho tem galhada ramificada.",
+          "variantes": [
+            "Veado-vermelho",
+            "Cervus elaphus",
+            "Red deer"
+          ]
+        },
+        {
+          "id": "veludo",
+          "nome": "Veludo",
+          "descricao": "Tecido tecido com pelo denso e uniforme, de toque macio, historicamente feito de seda.",
+          "variantes": [
+            "Velvet"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        },
+        {
+          "id": "envelope_vermelho",
+          "nome": "Envelope vermelho",
+          "descricao": "Envelope vermelho com dinheiro, dado como presente em festas e ocasiões especiais na cultura chinesa.",
+          "variantes": [
+            "Hongbao",
+            "Ang pau",
+            "Lai see",
+            "Red packet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Muffin",
+        "descricao": "Bolinho individual assado em forma de copo, de origem norte-americana.",
+        "variantes": [
+          "Queque",
+          "Muffin de mirtilo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "macguffin",
+          "nome": "MacGuffin",
+          "descricao": "Recurso narrativo: objeto ou objetivo que move a trama, mas pouco importa em si mesmo.",
+          "variantes": [
+            "McGuffin"
+          ]
+        },
+        {
+          "id": "papagaio_do_mar",
+          "nome": "Papagaio-do-mar",
+          "descricao": "Ave marinha de bico colorido triangular do Atlântico Norte, Fratercula arctica.",
+          "variantes": [
+            "Fratercula arctica",
+            "Atlantic puffin",
+            "Fradinho",
+            "Puffin"
+          ]
+        },
+        {
+          "id": "alquerque",
+          "nome": "Alquerque",
+          "descricao": "Jogo de tabuleiro antigo de capturas, de provável origem no Oriente Médio, considerado ancestral das damas.",
+          "variantes": [
+            "Al-qirkat",
+            "Alquerque de doze"
+          ]
+        },
+        {
+          "id": "muflao",
+          "nome": "Muflão",
+          "descricao": "Carneiro selvagem (Ovis gmelini), considerado ancestral dos carneiros domésticos.",
+          "variantes": [
+            "Mufflon",
+            "Ovis gmelini",
+            "Mouflon"
+          ]
+        },
+        {
+          "id": "reco_reco",
+          "nome": "Reco-reco",
+          "descricao": "Instrumento de percussão raspado, de origem africana, usado na música brasileira, aqui no modelo de molas metálicas.",
+          "variantes": [
+            "Raspador",
+            "Caracaxá",
+            "Querequexé"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Macarrão gravatinha",
+        "descricao": "Massa italiana em forma de laço ou borboleta, de bordas onduladas.",
+        "variantes": [
+          "Farfalle",
+          "Macarrão borboleta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "farfalle",
+          "nome": "Farfalle",
+          "descricao": "Massa italiana em formato de gravatinha-borboleta, de bordas serrilhadas.",
+          "variantes": [
+            "Gravatinha",
+            "Massa borboleta"
+          ]
+        },
+        {
+          "id": "arale_norimaki",
+          "nome": "Arale Norimaki",
+          "descricao": "Menina robô protagonista do mangá Dr. Slump, de Akira Toriyama.",
+          "variantes": [
+            "Arale",
+            "Dr. Slump"
+          ]
+        },
+        {
+          "id": "nado_borboleta",
+          "nome": "Nado borboleta",
+          "descricao": "Estilo de natação com braços simétricos e pernas em golfinhada.",
+          "variantes": [
+            "Borboleta",
+            "Butterfly",
+            "Butterfly stroke"
+          ]
+        },
+        {
+          "id": "horsetail_fall",
+          "nome": "Horsetail Fall",
+          "descricao": "Cachoeira sazonal que desce pela face leste do El Capitan, no Vale de Yosemite, na Califórnia.",
+          "variantes": [
+            "Cachoeira Horsetail",
+            "Firefall"
+          ]
+        },
+        {
+          "id": "fallas_de_valencia",
+          "nome": "Fallas de Valência",
+          "descricao": "Festa de março em Valência, na Espanha, que termina com a queima de grandes esculturas satíricas.",
+          "variantes": [
+            "Falles",
+            "Las Fallas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ciabatta",
+        "descricao": "Pão italiano de massa muito hidratada, achatado e de miolo com grandes buracos.",
+        "variantes": [
+          "Pão ciabatta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        },
+        {
+          "id": "cuiaba",
+          "nome": "Cuiabá",
+          "descricao": "Capital do estado de Mato Grosso, às margens do rio Cuiabá.",
+          "variantes": []
+        },
+        {
+          "id": "afoxe_instrumento",
+          "nome": "Afoxé (instrumento)",
+          "descricao": "Instrumento de percussão afro-brasileiro formado por uma cabaça envolta em rede de contas ou sementes.",
+          "variantes": [
+            "Afoxé",
+            "Cabaça",
+            "Cabaça afoxé"
+          ]
+        },
+        {
+          "id": "cabaca",
+          "nome": "Cabaça",
+          "descricao": "Fruto da trepadeira Lagenaria siceraria, cuja casca seca vira recipiente e instrumento musical.",
+          "variantes": [
+            "Porongo",
+            "Cuia",
+            "Lagenaria"
+          ]
+        },
+        {
+          "id": "boitata",
+          "nome": "Boitatá",
+          "descricao": "Ser do folclore brasileiro em forma de serpente de fogo que protege os campos contra quem os incendeia.",
+          "variantes": [
+            "Baitatá",
+            "Mboitatá",
+            "Batatão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Smørrebrød não corresponde a nenhuma candidata; Bánh mì é outro sanduíche."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Canelone é massa; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bolo red velvet é um bolo específico; candidatas são entidades distintas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Muffin não está entre as candidatas, que são entidades diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "farfalle",
+      "motivo": "Ambas descrevem a massa em formato de gravatinha/borboleta; Farfalle é variante da proposta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ciabatta é um pão; nenhuma candidata corresponde."
+    }
+  ]
+}

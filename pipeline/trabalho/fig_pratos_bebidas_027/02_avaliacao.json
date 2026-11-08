@@ -1,0 +1,199 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Bebida rosada num copo com liquidificador: pode ser vitamina, smoothie, milkshake ou suco; a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Prateleiras de garrafas coloridas numa barraca, com caixa da Coca-Cola visível; não mostra com clareza uma batida e não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Dois sanduíches abertos sobre pão de centeio escuro, reconhecíveis e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que prato típico escandinavo é este?",
+      "resposta": "Smørrebrød",
+      "distratores": [
+        "Bruschetta",
+        "Tartine",
+        "Crostini"
+      ],
+      "ancora": {
+        "nome": "Smørrebrød",
+        "descricao": "Sanduíche aberto escandinavo sobre pão de centeio, com frios, peixe ou pastas por cima.",
+        "variantes": [
+          "Smorrebrod",
+          "Smørbrød",
+          "Sanduíche aberto dinamarquês"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tubos de massa seca, formato inconfundível do canelone, sem texto.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta massa em forma de tubo costuma ser recheada com espinafre e com que queijo?",
+      "resposta": "Ricota",
+      "distratores": [
+        "Gorgonzola",
+        "Provolone",
+        "Gruyère"
+      ],
+      "ancora": {
+        "nome": "Canelone",
+        "descricao": "Massa italiana em forma de tubo largo, recheada e assada com molho.",
+        "variantes": [
+          "Cannelloni",
+          "Canelones"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fatia em camadas de massa vermelho-escura e creme branco, compatível com red velvet; logotipo W pequeno não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que bolo em camadas, de massa avermelhada e cobertura branca, é este?",
+      "resposta": "Red velvet",
+      "distratores": [
+        "Floresta Negra",
+        "Bolo Sacher",
+        "Bolo de cenoura"
+      ],
+      "ancora": {
+        "nome": "Bolo red velvet",
+        "descricao": "Bolo em camadas de massa vermelha com cobertura de cream cheese, popular nos Estados Unidos.",
+        "variantes": [
+          "Red velvet",
+          "Bolo veludo vermelho",
+          "Red velvet cake"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Creme branco com ervas num prato com pão sírio: pode ser tzatziki, molho de iogurte, ranch ou outro; sem resposta única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Muffin de mirtilo isolado em fundo branco, claro e legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que bolinho individual, assado em forminha de papel, é este?",
+      "resposta": "Muffin",
+      "distratores": [
+        "Cupcake",
+        "Brownie",
+        "Madeleine"
+      ],
+      "ancora": {
+        "nome": "Muffin",
+        "descricao": "Bolinho individual assado em forma de copo, de origem norte-americana.",
+        "variantes": [
+          "Queque",
+          "Muffin de mirtilo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pilha de macarrão em forma de laço, inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de massa é este?",
+      "resposta": "Gravatinha (farfalle)",
+      "distratores": [
+        "Fusilli",
+        "Penne",
+        "Conchiglie"
+      ],
+      "ancora": {
+        "nome": "Macarrão gravatinha",
+        "descricao": "Massa italiana em forma de laço ou borboleta, de bordas onduladas.",
+        "variantes": [
+          "Farfalle",
+          "Farfalle",
+          "Macarrão borboleta"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Bola branca de queijo fresco com tomates: não se distingue de uma mozzarella; sem o interior à mostra, a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Salsichas sobre purê, com ketchup e cebola frita, claras e legíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que embutido está sobre o purê neste prato?",
+      "resposta": "Salsicha",
+      "distratores": [
+        "Linguiça",
+        "Mortadela",
+        "Chouriço"
+      ],
+      "ancora": {
+        "nome": "Salsicha",
+        "descricao": "Embutido cilíndrico de carne moída temperada, em tripa, servido cozido ou frito.",
+        "variantes": [
+          "Salsicha tipo hot dog",
+          "Sausage"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pão rústico com fatias de miolo cheio de buracos grandes, típico da ciabatta; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pão italiano é este?",
+      "resposta": "Ciabatta",
+      "distratores": [
+        "Focaccia",
+        "Michetta",
+        "Grissini"
+      ],
+      "ancora": {
+        "nome": "Ciabatta",
+        "descricao": "Pão italiano de massa muito hidratada, achatado e de miolo com grandes buracos.",
+        "variantes": [
+          "Pão ciabatta"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, ilegível num celular; as conchas de massa não se reconhecem como ovos moles."
+    }
+  ]
+}
