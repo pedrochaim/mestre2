@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Estas cataratas ficam na fronteira entre a China e qual outro país?",
+        "resposta": "Vietnã"
+      },
+      "existentes": [
+        {
+          "id": "q18747",
+          "pergunta": "Que conjunto de cachoeiras, na fronteira entre dois países asiáticos, é este?",
+          "resposta": "Cataratas Ban Gioc"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica esta cachoeira?",
+        "resposta": "Islândia"
+      },
+      "existentes": [
+        {
+          "id": "q07123",
+          "pergunta": "Em que país fica esta cachoeira?",
+          "resposta": "Islândia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que cachoeira é esta?",
+        "resposta": "Cataratas de Yosemite"
+      },
+      "existentes": [
+        {
+          "id": "q16678",
+          "pergunta": "Esta cachoeira americana despenca de uma parede de granito em que cadeia de montanhas?",
+          "resposta": "Sierra Nevada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome das cataratas; a nova pede o país vizinho da China. Fatos diferentes. Quem soubesse o nome não necessariamente saberia o país, e a pergunta existente nem diz que um dos países é a China."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q07123",
+      "motivo": "Enunciado e resposta idênticos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da cachoeira. A existente pede a cadeia de montanhas, que é outro fato."
+    }
+  ]
+}

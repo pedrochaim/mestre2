@@ -1,0 +1,444 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cataratas Ban Gioc–Detian",
+        "descricao": "Conjunto de cataratas no rio Quây Sơn, na fronteira entre a China e o Vietnã.",
+        "variantes": [
+          "Ban Gioc",
+          "Bản Giốc",
+          "Detian",
+          "Cataratas de Ban Gioc-Detian"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cataratas_ban_gioc",
+          "nome": "Cataratas Ban Gioc",
+          "descricao": "Conjunto de duas cachoeiras no rio Quây Sơn, na fronteira entre o Vietnã e a China.",
+          "variantes": [
+            "Ban Gioc–Detian",
+            "Cataratas Detian",
+            "Bản Giốc"
+          ]
+        },
+        {
+          "id": "cetitan",
+          "nome": "Cetitan",
+          "descricao": "Pokémon do tipo Gelo, número 975 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tita",
+          "nome": "Titã",
+          "descricao": "Maior lua de Saturno, com densa atmosfera alaranjada.",
+          "variantes": [
+            "Titan"
+          ]
+        },
+        {
+          "id": "deino",
+          "nome": "Deino",
+          "descricao": "Pokémon dos tipos Sombrio e Dragão, número 633 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "artemis",
+          "nome": "Ártemis",
+          "descricao": "Deusa grega da caça e da Lua, filha de Zeus e Leto.",
+          "variantes": [
+            "Diana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ilha de Bled",
+        "descricao": "Ilhota com uma igreja no meio do Lago Bled, nos Alpes Julianos, na Eslovênia.",
+        "variantes": [
+          "Ilha de Blejski Otok",
+          "Lago Bled",
+          "Bled Island"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_bled",
+          "nome": "Lago Bled",
+          "descricao": "Lago glacial dos Alpes Julianos, no noroeste da Eslovênia, com uma ilhota que abriga uma igreja.",
+          "variantes": [
+            "Lake Bled",
+            "Blejsko jezero"
+          ]
+        },
+        {
+          "id": "ilha_da_liberdade",
+          "nome": "Ilha da Liberdade",
+          "descricao": "Ilha da Upper New York Bay onde fica a Estátua da Liberdade, antes chamada Bedloe's Island.",
+          "variantes": [
+            "Liberty Island",
+            "Ilha de Bedloe"
+          ]
+        },
+        {
+          "id": "ilha_de_re",
+          "nome": "Ilha de Ré",
+          "descricao": "Ilha francesa do Atlântico, diante de La Rochelle.",
+          "variantes": [
+            "Île de Ré",
+            "Ile de Ré"
+          ]
+        },
+        {
+          "id": "lago_inle",
+          "nome": "Lago Inle",
+          "descricao": "Lago de água doce no estado de Shan, em Mianmar, famoso por suas aldeias sobre palafitas e jardins flutuantes.",
+          "variantes": [
+            "Inle Lake",
+            "Inlay"
+          ]
+        },
+        {
+          "id": "ilha_do_havai",
+          "nome": "Ilha do Havaí",
+          "descricao": "A maior ilha do arquipélago havaiano, conhecida como Big Island, onde ficam Mauna Kea, Mauna Loa e Kilauea.",
+          "variantes": [
+            "Big Island",
+            "Hawaii Island"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ilha de Man",
+        "descricao": "Ilha autogovernada, dependência da Coroa Britânica, no Mar da Irlanda.",
+        "variantes": [
+          "Isle of Man",
+          "Mann",
+          "Ellan Vannin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_ilha_de_man",
+          "nome": "Bandeira da Ilha de Man",
+          "descricao": "Bandeira da dependência da Coroa britânica Ilha de Man, com três pernas armadas em triskelion sobre fundo vermelho.",
+          "variantes": [
+            "Ilha de Man",
+            "Isle of Man",
+            "Mann"
+          ]
+        },
+        {
+          "id": "tourist_trophy_da_ilha_de_man",
+          "nome": "Tourist Trophy da Ilha de Man",
+          "descricao": "Corrida de motos disputada desde 1907 em estradas públicas da Ilha de Man.",
+          "variantes": [
+            "Isle of Man TT",
+            "TT da Ilha de Man"
+          ]
+        },
+        {
+          "id": "malta_2",
+          "nome": "Malta",
+          "descricao": "A maior e mais populosa ilha do arquipélago maltês, no Mediterrâneo, ao sul da Itália.",
+          "variantes": [
+            "Ilha de Malta"
+          ]
+        },
+        {
+          "id": "ilha_de_marajo",
+          "nome": "Ilha de Marajó",
+          "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+          "variantes": [
+            "Marajó",
+            "Marajó Island"
+          ]
+        },
+        {
+          "id": "burano",
+          "nome": "Burano",
+          "descricao": "Ilha da Lagoa de Veneza, na Itália, conhecida pelas casas coloridas e pelas rendas.",
+          "variantes": [
+            "Ilha de Burano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mar Adriático",
+        "descricao": "Braço do Mediterrâneo entre a península Itálica e a península Balcânica.",
+        "variantes": [
+          "Adriático",
+          "Adriatic Sea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        },
+        {
+          "id": "adriano",
+          "nome": "Adriano",
+          "descricao": "Imperador romano de 117 a 138, nascido em Itálica, na Hispânia.",
+          "variantes": [
+            "Hadrian",
+            "Públio Élio Adriano"
+          ]
+        },
+        {
+          "id": "mar_baltico",
+          "nome": "Mar Báltico",
+          "descricao": "Mar do norte da Europa cercado por países como Suécia, Finlândia, Polônia e Alemanha.",
+          "variantes": [
+            "Baltic Sea"
+          ]
+        },
+        {
+          "id": "arigato",
+          "nome": "Arigatō",
+          "descricao": "Palavra japonesa usada para agradecer, equivalente a obrigado",
+          "variantes": []
+        },
+        {
+          "id": "dracon",
+          "nome": "Drácon",
+          "descricao": "Legislador ateniense do século sete a.C., autor do primeiro código escrito de leis de Atenas.",
+          "variantes": [
+            "Draco",
+            "Drakon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gullfoss",
+        "descricao": "Cachoeira em dois degraus no cânion do rio Hvítá, no sudoeste da Islândia.",
+        "variantes": [
+          "Cataratas Douradas",
+          "Golden Falls"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        },
+        {
+          "id": "gol_de_ouro",
+          "nome": "Gol de ouro",
+          "descricao": "Regra de morte súbita na prorrogação, usada no futebol nos anos 1990 e 2000, em que o primeiro gol encerrava a partida.",
+          "variantes": [
+            "Golden goal",
+            "Morte súbita"
+          ]
+        },
+        {
+          "id": "cataratas_havasu",
+          "nome": "Cataratas Havasu",
+          "descricao": "Cachoeira de água turquesa no Havasu Creek, dentro do Grand Canyon, no Arizona.",
+          "variantes": [
+            "Havasu Falls"
+          ]
+        },
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls",
+            "Foz do Iguaçu"
+          ]
+        },
+        {
+          "id": "aguia_real",
+          "nome": "Águia-real",
+          "descricao": "Ave de rapina do Hemisfério Norte, Aquila chrysaetos, marrom escura com nuca dourada.",
+          "variantes": [
+            "Golden eagle",
+            "Aquila chrysaetos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Lago Toba",
+        "descricao": "Maior lago vulcânico do mundo, na caldeira de um supervulcão, no norte de Sumatra, Indonésia.",
+        "variantes": [
+          "Danau Toba",
+          "Lake Toba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_retba",
+          "nome": "Lago Retba",
+          "descricao": "Lago salgado de águas cor-de-rosa perto de Dacar, no Senegal.",
+          "variantes": [
+            "Lago Rosa",
+            "Lac Rose",
+            "Lake Retba"
+          ]
+        },
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        },
+        {
+          "id": "lagosta",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho de corpo alongado e cauda musculosa, muito apreciado na culinária.",
+          "variantes": [
+            "Lobster"
+          ]
+        },
+        {
+          "id": "lagosta_2",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode da família Nephropidae, de corpo longo e primeiro par de patas com grandes pinças.",
+          "variantes": [
+            "Lavagante",
+            "Homarus gammarus"
+          ]
+        },
+        {
+          "id": "lagosta_3",
+          "nome": "Lagosta",
+          "descricao": "Crustáceo decápode marinho da família Nephropidae, de corpo alongado e grandes pinças, como a lagosta-europeia.",
+          "variantes": [
+            "Lavagante",
+            "Lagosta-europeia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cataratas de Yosemite",
+        "descricao": "Cachoeira mais alta do Parque Nacional de Yosemite, na Califórnia, em duas quedas principais.",
+        "variantes": [
+          "Yosemite Falls"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cachoeira_de_yosemite",
+          "nome": "Cachoeira de Yosemite",
+          "descricao": "Cachoeira mais alta do Parque Nacional de Yosemite, na Califórnia, nos Estados Unidos.",
+          "variantes": [
+            "Yosemite Falls",
+            "Cataratas de Yosemite"
+          ]
+        },
+        {
+          "id": "cataratas_kaieteur",
+          "nome": "Cataratas Kaieteur",
+          "descricao": "Queda d'água de 226 metros no Rio Potaro, no Parque Nacional Kaieteur, na Guiana.",
+          "variantes": [
+            "Kaieteur Falls",
+            "Cataratas de Kaieteur"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yosemite",
+          "nome": "Parque Nacional de Yosemite",
+          "descricao": "Parque nacional na Serra Nevada da Califórnia, famoso por paredões de granito e cachoeiras.",
+          "variantes": [
+            "Yosemite",
+            "Yosemite National Park"
+          ]
+        },
+        {
+          "id": "cataratas_ban_gioc",
+          "nome": "Cataratas Ban Gioc",
+          "descricao": "Conjunto de duas cachoeiras no rio Quây Sơn, na fronteira entre o Vietnã e a China.",
+          "variantes": [
+            "Ban Gioc–Detian",
+            "Cataratas Detian",
+            "Bản Giốc"
+          ]
+        },
+        {
+          "id": "cataratas_do_reno",
+          "nome": "Cataratas do Reno",
+          "descricao": "Cachoeira no Alto Reno, na Suíça, entre os cantões de Schaffhausen e Zurique.",
+          "variantes": [
+            "Rheinfall",
+            "Rhine Falls"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "cataratas_ban_gioc",
+      "motivo": "Mesma cachoeira no rio Quây Sơn, na fronteira China-Vietnã; Ban Gioc–Detian é o mesmo conjunto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A ilhota de Bled é parte do lago, não o lago; entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A ilha/território é diferente da sua bandeira e da corrida TT."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Mar Adriático."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "gullfoss",
+      "motivo": "Mesma cachoeira Gullfoss no rio Hvítá, Islândia."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Lago Toba."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "cachoeira_de_yosemite",
+      "motivo": "Mesma cachoeira mais alta de Yosemite, Yosemite Falls."
+    }
+  ]
+}

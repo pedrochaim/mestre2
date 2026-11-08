@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de praia genérica, sem nada que permita reconhecer a Lagoa de Araruama."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cascatas em degraus sobre água turquesa, distintivas; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Estas cataratas ficam na fronteira entre a China e qual outro país?",
+      "resposta": "Vietnã",
+      "distratores": [
+        "Laos",
+        "Mianmar",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Cataratas Ban Gioc–Detian",
+        "descricao": "Conjunto de cataratas no rio Quây Sơn, na fronteira entre a China e o Vietnã.",
+        "variantes": [
+          "Ban Gioc",
+          "Bản Giốc",
+          "Detian",
+          "Cataratas de Ban Gioc-Detian"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea clássica do lago com a ilhota e a igreja, muito reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país europeu fica esta ilha, no meio de um lago alpino?",
+      "resposta": "Eslovênia",
+      "distratores": [
+        "Áustria",
+        "Croácia",
+        "Suíça"
+      ],
+      "ancora": {
+        "nome": "Ilha de Bled",
+        "descricao": "Ilhota com uma igreja no meio do Lago Bled, nos Alpes Julianos, na Eslovênia.",
+        "variantes": [
+          "Ilha de Blejski Otok",
+          "Lago Bled",
+          "Bled Island"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Paisagem rural nublada e distante; nada identifica a Ilha de Jeju."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a forma alongada da ilha, nítida e sem texto; resposta única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que mar fica esta ilha?",
+      "resposta": "Mar da Irlanda",
+      "distratores": [
+        "Mar do Norte",
+        "Mar Céltico",
+        "Canal da Mancha"
+      ],
+      "ancora": {
+        "nome": "Ilha de Man",
+        "descricao": "Ilha autogovernada, dependência da Coroa Britânica, no Mar da Irlanda.",
+        "variantes": [
+          "Isle of Man",
+          "Mann",
+          "Ellan Vannin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a bota da Itália e a costa dálmata cheia de ilhas; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que mar é este, visto do espaço?",
+      "resposta": "Mar Adriático",
+      "distratores": [
+        "Mar Tirreno",
+        "Mar Jônico",
+        "Mar Egeu"
+      ],
+      "ancora": {
+        "nome": "Mar Adriático",
+        "descricao": "Braço do Mediterrâneo entre a península Itálica e a península Balcânica.",
+        "variantes": [
+          "Adriático",
+          "Adriatic Sea"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vista larga de um rio com cidade ao fundo; nada permite reconhecer o São Lourenço com resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de um lago em deserto sem traço claramente distintivo; reconhecimento do Lago Mono não é confiável."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cachoeira em degraus em cânion verde com arco-íris; reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país fica esta cachoeira?",
+      "resposta": "Islândia",
+      "distratores": [
+        "Noruega",
+        "Ilhas Faroé",
+        "Groenlândia"
+      ],
+      "ancora": {
+        "nome": "Gullfoss",
+        "descricao": "Cachoeira em dois degraus no cânion do rio Hvítá, no sudoeste da Islândia.",
+        "variantes": [
+          "Cataratas Douradas",
+          "Golden Falls"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem de satélite do lago com a ilha Samosir ao centro, forma característica; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ilha fica este lago vulcânico, visto de satélite?",
+      "resposta": "Sumatra",
+      "distratores": [
+        "Bornéu",
+        "Java",
+        "Celebes"
+      ],
+      "ancora": {
+        "nome": "Lago Toba",
+        "descricao": "Maior lago vulcânico do mundo, na caldeira de um supervulcão, no norte de Sumatra, Indonésia.",
+        "variantes": [
+          "Danau Toba",
+          "Lake Toba"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Queda superior e inferior em paredão de granito, característica; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cachoeira é esta?",
+      "resposta": "Cataratas de Yosemite",
+      "distratores": [
+        "Cataratas Bridalveil",
+        "Cataratas Multnomah",
+        "Cataratas Shoshone"
+      ],
+      "ancora": {
+        "nome": "Cataratas de Yosemite",
+        "descricao": "Cachoeira mais alta do Parque Nacional de Yosemite, na Califórnia, em duas quedas principais.",
+        "variantes": [
+          "Yosemite Falls"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Canal arborizado com barco; muito parecido com outros canais franceses, sem resposta única pela imagem."
+    }
+  ]
+}
