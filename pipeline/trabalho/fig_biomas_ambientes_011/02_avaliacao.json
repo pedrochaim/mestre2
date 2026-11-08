@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Sul da Groenlândia vista do espaço, contorno e fiordes reconhecíveis, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Visto do espaço, este gelo cobre a maior parte de que ilha?",
+      "resposta": "Groenlândia",
+      "distratores": [
+        "Islândia",
+        "Terra Nova",
+        "Ilha de Baffin"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Manto de gelo da Groenlândia",
+        "descricao": "Calota de gelo que cobre cerca de 80% da Groenlândia, a segunda maior massa de gelo do mundo.",
+        "variantes": [
+          "Calota de gelo da Groenlândia",
+          "Greenland ice sheet"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Nuvem lisa em capuz sobre um cúmulo, claramente visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nome tem a fina nuvem lisa no topo desta nuvem?",
+      "resposta": "Píleo",
+      "distratores": [
+        "Arco",
+        "Incus",
+        "Mamma"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Píleo (nuvem)",
+        "descricao": "Pequena nuvem horizontal em forma de capuz que surge sobre um cúmulo ou cumulonimbo.",
+        "variantes": [
+          "Pileus",
+          "Nuvem-capuz",
+          "Nuvem capuz"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Panorama aéreo com o Morro do Pico, reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este arquipélago do Atlântico pertence a que estado brasileiro?",
+      "resposta": "Pernambuco",
+      "distratores": [
+        "Rio Grande do Norte",
+        "Ceará",
+        "Bahia"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Fernando de Noronha",
+        "descricao": "Arquipélago vulcânico no Atlântico, a cerca de 350 km da costa, pertencente a Pernambuco.",
+        "variantes": [
+          "Arquipélago de Fernando de Noronha"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Corais ramificados esbranquiçados, bem visíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno afeta os corais desta imagem?",
+      "resposta": "Branqueamento",
+      "distratores": [
+        "Maré vermelha",
+        "Ressurgência",
+        "Eutrofização"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Branqueamento de corais",
+        "descricao": "Perda das algas simbiontes e dos pigmentos dos corais, que os deixa brancos e vulneráveis.",
+        "variantes": [
+          "Branqueamento do coral",
+          "Coral bleaching"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rocha emergindo de um campo de gelo, formação típica de nunatak.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama esta rocha que emerge do gelo ao redor?",
+      "resposta": "Nunatak",
+      "distratores": [
+        "Morena",
+        "Sérac",
+        "Drumlin"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Nunatak",
+        "descricao": "Cume ou crista de montanha que se projeta acima de uma geleira ou campo de gelo.",
+        "variantes": [
+          "Nunataque",
+          "Nunataq"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Raios sob nuvem escura, claros e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de tempestade é esta?",
+      "resposta": "Trovoada",
+      "distratores": [
+        "Tornado",
+        "Nevasca",
+        "Tempestade de areia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Trovoada",
+        "descricao": "Tempestade com raios e trovões, formada em nuvens cumulonimbus.",
+        "variantes": [
+          "Tempestade elétrica",
+          "Tempestade com raios"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dunas alaranjadas com buritis e cerrado ao fundo, características do Jalapão.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que bioma brasileiro fica esta paisagem de dunas?",
+      "resposta": "Cerrado",
+      "distratores": [
+        "Caatinga",
+        "Pampa",
+        "Mata Atlântica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jalapão",
+        "descricao": "Região de cerrado com dunas e veredas no leste do Tocantins, onde fica o Parque Estadual do Jalapão.",
+        "variantes": [
+          "Parque Estadual do Jalapão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Nuvens tênues e de baixo contraste, difíceis de distinguir de altocúmulo; pouco legível no celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista clássica do Grand Canyon com o Rio Colorado, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado americano fica este cânion?",
+      "resposta": "Arizona",
+      "distratores": [
+        "Utah",
+        "Nevada",
+        "Colorado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grand Canyon",
+        "descricao": "Cânion escavado pelo Rio Colorado no Arizona, Estados Unidos.",
+        "variantes": [
+          "Grande Cânion",
+          "Grand Canyon do Colorado"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Superfície de água extensa sem elementos que identifiquem o Titicaca; poderia ser outro grande lago ou o mar."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Coluna escura de chuva sobre Paris, facilmente confundida com tornado ou outra coluna de precipitação; resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Crosta de sal, poças e vulcões ao fundo, característicos do Salar de Atacama.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este deserto de sal?",
+      "resposta": "Chile",
+      "distratores": [
+        "Bolívia",
+        "Argentina",
+        "Peru"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Salar de Atacama",
+        "descricao": "Maior salar do Chile, cercado por vulcões e pela Cordilheira de Domeyko, ao sul de San Pedro de Atacama.",
+        "variantes": [
+          "Salar de Atacama, Chile"
+        ]
+      }
+    }
+  ]
+}

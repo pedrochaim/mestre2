@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'gelo que cobre a maior parte de uma ilha' já entrega a Groenlândia sem ver a figura. Vista do espaço, a imagem também não distingue o manto de gelo de outros. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descrição fiel ao trecho (pequena nuvem horizontal sobre cúmulo ou cumulonimbo). O enunciado não nomeia a resposta e os distratores são outros termos de nuvem. Passa nos critérios.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o arquipélago pertence a Pernambuco. O enunciado não nomeia o arquipélago e precisa da figura para identificá-lo. Os distratores são estados nordestinos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. O enunciado não entrega a resposta e o fenômeno é sustentado pelos trechos. Os distratores são fenômenos marinhos plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Rocha que emerge do gelo ao redor' é a própria definição de nunatak, então dá para responder sem a figura. Troquei a definição pela origem do termo, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que termo de origem inuíte designa esta formação do relevo polar?",
+        "resposta": "Nunatak",
+        "distratores": [
+          "Morena",
+          "Sérac",
+          "Drumlin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, reconhecimento direto. O enunciado não vaza a resposta e os distratores são outros fenômenos, nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o cerrado e as dunas do Jalapão. O enunciado não nomeia o lugar e os distratores são outros biomas brasileiros. A figura é necessária para reconhecer a paisagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Grand Canyon fica no Arizona. O enunciado não nomeia o cânion e os distratores são estados vizinhos plausíveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Salar de Atacama fica no Chile. O enunciado não nomeia o lugar e os distratores são países andinos plausíveis, nenhum correto para esta imagem.",
+      "reescrita": null
+    }
+  ]
+}

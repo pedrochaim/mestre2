@@ -1,0 +1,130 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este arquipélago do Atlântico pertence a que estado brasileiro?",
+        "resposta": "Pernambuco"
+      },
+      "existentes": [
+        {
+          "id": "q02190",
+          "pergunta": "O arquipélago de Fernando de Noronha leva o nome de um comerciante de Lisboa que, no início do século dezesseis, arrendou da Coroa o comércio de qual madeira?",
+          "resposta": "Pau-brasil"
+        },
+        {
+          "id": "q02426",
+          "pergunta": "O arquipélago de Fernando de Noronha fica mais perto de Natal, mas pertence a qual estado brasileiro?",
+          "resposta": "Pernambuco"
+        },
+        {
+          "id": "q02427",
+          "pergunta": "Quantas ilhas, ilhotas e rochedos formam o arquipélago de Fernando de Noronha?",
+          "resposta": "Vinte e uma"
+        },
+        {
+          "id": "q16317",
+          "pergunta": "Que arquipélago brasileiro aparece nesta foto?",
+          "resposta": "Fernando de Noronha"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que fenômeno afeta os corais desta imagem?",
+        "resposta": "Branqueamento"
+      },
+      "existentes": [
+        {
+          "id": "q02201",
+          "pergunta": "No branqueamento, a água aquecida faz o coral expulsar quais algas microscópicas, que vivem nele e lhe dão cor e alimento?",
+          "resposta": "Zooxantelas"
+        },
+        {
+          "id": "q02539",
+          "pergunta": "Quando ficam brancos, os corais expulsaram as algas que viviam em seus tecidos. Qual é a principal causa desse branqueamento?",
+          "resposta": "Aquecimento da água do mar"
+        },
+        {
+          "id": "q14072",
+          "pergunta": "Que fenômeno está acontecendo neste recife?",
+          "resposta": "Branqueamento de corais"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que bioma brasileiro fica esta paisagem de dunas?",
+        "resposta": "Cerrado"
+      },
+      "existentes": [
+        {
+          "id": "q02087",
+          "pergunta": "Nos fervedouros do Jalapão, no Tocantins, os banhistas não afundam. O que os empurra para cima?",
+          "resposta": "A pressão da água"
+        },
+        {
+          "id": "q04547",
+          "pergunta": "Dunas alaranjadas, cachoeiras e os fervedouros, poços onde ninguém afunda, são atrações do Jalapão. Em que estado ele fica?",
+          "resposta": "Tocantins"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que estado americano fica este cânion?",
+        "resposta": "Arizona"
+      },
+      "existentes": [
+        {
+          "id": "q02076",
+          "pergunta": "Ao longo de milhões de anos, que rio escavou o Grand Canyon, no Arizona?",
+          "resposta": "Rio Colorado"
+        },
+        {
+          "id": "q06710",
+          "pergunta": "Em 1908, que presidente americano, caçador e conservacionista, protegeu o Grand Canyon ao declará-lo monumento nacional?",
+          "resposta": "Theodore Roosevelt"
+        },
+        {
+          "id": "q14028",
+          "pergunta": "Que cânion americano, escavado por um rio, é este?",
+          "resposta": "Grand Canyon"
+        },
+        {
+          "id": "q15677",
+          "pergunta": "Em que estado americano fica este cânion, escavado pelo rio que corre no fundo?",
+          "resposta": "Arizona"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02426",
+      "motivo": "Ambas perguntam a que estado pertence Fernando de Noronha: Pernambuco."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14072",
+      "motivo": "Ambas perguntam, a partir de imagem, que fenômeno afeta os corais: branqueamento."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bioma das dunas (Cerrado) é um fato diferente do estado ou dos fervedouros."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q15677",
+      "motivo": "Mesma pergunta sobre o estado do cânion, com resposta Arizona."
+    }
+  ]
+}
