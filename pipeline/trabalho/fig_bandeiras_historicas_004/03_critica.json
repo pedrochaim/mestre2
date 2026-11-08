@@ -1,0 +1,99 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos; o enunciado não nomeia a república e a figura é necessária. Distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1882 confirmado nos trechos; múltipla com anos próximos e críveis; o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anexação em 1951 confirmada; resposta em década pode ser múltipla; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Falha no teste da imagem coberta: Vitória, 1876 e Imperatriz da Índia se respondem sem a figura. Troco por um fato que exige reconhecer a bandeira (capital até 1911, amplamente documentado).",
+      "reescrita": {
+        "pergunta": "Que cidade foi a capital do Estado desta bandeira até 1911?",
+        "resposta": "Calcutá",
+        "distratores": [
+          "Délhi",
+          "Bombaim",
+          "Madras"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mengjiang na Mongólia Interior confirmado; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Canal com tropas britânicas na guerra se responde sem a figura (Suez), e os distratores são de outras regiões. Troco por pergunta que depende da bandeira, apoiada nos trechos (dinastia de Maomé Ali).",
+      "reescrita": {
+        "pergunta": "Que dinastia reinava no Estado desta bandeira, entre 1922 e 1953?",
+        "resposta": "Dinastia de Maomé Ali",
+        "distratores": [
+          "Dinastia Ptolomaica",
+          "Dinastia Fatímida",
+          "Dinastia Otomana"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado, com 1943, ocupação japonesa e Birmânia, permite responder sem a figura. Tiro o contexto que identifica o Estado e deixo a bandeira como pista. Ba Maw é confirmado nos trechos e é amplamente documentado como chefe de Estado.",
+      "reescrita": {
+        "pergunta": "Que líder birmanês chefiou o Estado desta bandeira?",
+        "resposta": "Ba Maw",
+        "distratores": [
+          "Aung San",
+          "U Nu",
+          "Ne Win"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capital no Rio de Janeiro em 1815 confirmada pelo trecho em português; Lisboa e os outros distratores não servem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A expressão 'dono pessoal' entrega Leopoldo II sem a figura. Troco por 'governava' e mantenho as datas como contexto, o que o trecho sustenta.",
+      "reescrita": {
+        "pergunta": "Entre 1885 e 1908, que monarca europeu governava o Estado desta bandeira?",
+        "resposta": "Leopoldo II",
+        "distratores": [
+          "Leopoldo I",
+          "Alberto I",
+          "Guilherme II"
+        ]
+      }
+    }
+  ]
+}

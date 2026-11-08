@@ -1,0 +1,235 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Leão alado de São Marcos, reconhecível; o texto do livro não nomeia o Estado.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual era a capital desta república marítima?",
+      "resposta": "Veneza",
+      "distratores": [
+        "Gênova",
+        "Pisa",
+        "Ragusa"
+      ],
+      "ancora": {
+        "nome": "República de Veneza",
+        "descricao": "Antiga república marítima italiana com capital em Veneza, existente de 697 a 1797.",
+        "variantes": [
+          "Sereníssima República de Veneza",
+          "La Serenissima"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O brasão real português da imagem era usado pelo reino de Portugal; a resposta não é única e não se distingue de outros Estados portugueses."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tricolor com grande brasão e manto, reconhecível pela águia bicéfala; pergunta sobre a elevação a reino.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano o Estado desta bandeira foi elevado a reino?",
+      "resposta": "1882",
+      "distratores": [
+        "1867",
+        "1878",
+        "1889"
+      ],
+      "ancora": {
+        "nome": "Reino da Sérvia",
+        "descricao": "Monarquia dos Bálcãs proclamada em 1882, que existiu até 1918 e depois integrou a Iugoslávia.",
+        "variantes": [
+          "Sérvia (reino)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Bandeira branca e vermelha idêntica à atual da Polônia (e parecida com as de Mônaco e Indonésia); a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira do leão das neves, bem marcante e reconhecível.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década o Estado desta bandeira foi incorporado pela China?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1940",
+        "Década de 1960"
+      ],
+      "ancora": {
+        "nome": "Tibete (1912–1951)",
+        "descricao": "Estado de fato independente nos Himalaias entre a queda da dinastia Qing, em 1912, e a anexação pela China, em 1951.",
+        "variantes": [
+          "Tibete independente",
+          "Estado do Tibete"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira vermelha com a Estrela da Índia; o lema em inglês não nomeia o Estado.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que título a rainha Vitória recebeu em 1876 como soberana do Estado desta bandeira?",
+      "resposta": "Imperatriz da Índia",
+      "distratores": [
+        "Imperatriz da China",
+        "Rainha do Egito",
+        "Imperatriz do Ceilão"
+      ],
+      "ancora": {
+        "nome": "Raj Britânico",
+        "descricao": "Domínio da Coroa britânica sobre o subcontinente indiano de 1858 a 1947.",
+        "variantes": [
+          "Índia Britânica",
+          "Império Indiano",
+          "British Raj"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira listrada de sete faixas, característica e sem texto; Estado obscuro, mas em múltipla escolha.",
+      "destino": 3,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que região da China ficava o Estado, sob domínio japonês, desta bandeira?",
+      "resposta": "Mongólia Interior",
+      "distratores": [
+        "Manchúria",
+        "Tibete",
+        "Xinjiang"
+      ],
+      "ancora": {
+        "nome": "Mengjiang",
+        "descricao": "Estado fantoche japonês na Mongólia Interior, criado em 1939 e extinto em 1945.",
+        "variantes": [
+          "Mengkiang",
+          "Governo Autônomo Unido de Mengjiang",
+          "Mongukuo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira verde com crescente e três estrelas, sem texto; reconhecível.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que canal, no território do Estado desta bandeira, manteve tropas britânicas durante a Segunda Guerra Mundial?",
+      "resposta": "Canal de Suez",
+      "distratores": [
+        "Canal do Panamá",
+        "Canal de Kiel",
+        "Canal de Corinto"
+      ],
+      "ancora": {
+        "nome": "Reino do Egito",
+        "descricao": "Monarquia egípcia da dinastia de Maomé Ali, independente de 1922 até a abolição da monarquia em 1953.",
+        "variantes": [
+          "Reino Egípcio",
+          "Egito monárquico"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pavão sobre faixas amarela, verde e vermelha, bem marcante e sem texto.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que líder birmanês chefiou o Estado desta bandeira, criado em 1943 sob ocupação japonesa?",
+      "resposta": "Ba Maw",
+      "distratores": [
+        "Aung San",
+        "U Nu",
+        "Ne Win"
+      ],
+      "ancora": {
+        "nome": "Estado da Birmânia",
+        "descricao": "Estado fantoche japonês criado em 1943 durante a ocupação da Birmânia na Segunda Guerra Mundial.",
+        "variantes": [
+          "Estado de Burma",
+          "State of Burma"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Coroa sobre esfera armilar e escudo português, sem texto; reconhecível.",
+      "destino": 4,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em 1815, que cidade era a capital do Estado com esta bandeira?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Lisboa",
+        "Salvador",
+        "Recife"
+      ],
+      "ancora": {
+        "nome": "Reino do Brasil",
+        "descricao": "Reino constituinte do Reino Unido de Portugal, Brasil e Algarves, criado em 1815 com capital no Rio de Janeiro.",
+        "variantes": [
+          "Reino Unido de Portugal, Brasil e Algarves"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Estrela dourada sobre fundo azul, sem texto; resposta única pelo período indicado.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Entre 1885 e 1908, que rei europeu era o dono pessoal do Estado desta bandeira?",
+      "resposta": "Leopoldo II",
+      "distratores": [
+        "Leopoldo I",
+        "Alberto I",
+        "Guilherme II"
+      ],
+      "ancora": {
+        "nome": "Estado Livre do Congo",
+        "descricao": "Estado na África Central de propriedade pessoal do rei Leopoldo II da Bélgica, de 1885 a 1908.",
+        "variantes": [
+          "Estado Independente do Congo",
+          "Congo Free State"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A bandeira traz texto visível (as letras TAP, sigla do nome do Estado), que entrega a resposta; sem texto seria um fundo vermelho liso."
+    }
+  ]
+}

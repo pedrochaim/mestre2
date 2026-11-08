@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Entre 1885 e 1908, que monarca europeu governava o Estado desta bandeira?",
+        "resposta": "Leopoldo II"
+      },
+      "existentes": [
+        {
+          "id": "q08094",
+          "pergunta": "Entre 1885 e 1908, o Estado Livre do Congo foi propriedade pessoal de que rei europeu?",
+          "resposta": "Leopoldo II da Bélgica"
+        },
+        {
+          "id": "q13843",
+          "pergunta": "No Estado Livre do Congo, mutilações e massacres eram usados para forçar os moradores a coletar que produto, cobiçado na era das bicicletas e dos primeiros automóveis?",
+          "resposta": "Borracha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q08094",
+      "motivo": "Ambas perguntam qual rei governava/possuía o Estado Livre do Congo entre 1885 e 1908; resposta Leopoldo II."
+    }
+  ]
+}
