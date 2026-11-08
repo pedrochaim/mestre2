@@ -1,0 +1,281 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Garuda vermelho e dourado, sem texto, marcante e legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país a que pertence este brasão?",
+      "resposta": "Bangkok",
+      "distratores": [
+        "Hanói",
+        "Phnom Penh",
+        "Vientiane"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Tailândia",
+        "descricao": "Brasão de armas nacional da Tailândia, que traz o garuda, ave mitológica.",
+        "variantes": [
+          "Garuda da Tailândia",
+          "Emblema da Tailândia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Brasão marcante com palmeira, canhões e bandeiras; o lema em francês não nomeia o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Com que outro país este país divide a sua ilha?",
+      "resposta": "República Dominicana",
+      "distratores": [
+        "Cuba",
+        "Jamaica",
+        "Bahamas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Haiti",
+        "descricao": "Brasão de armas nacional do Haiti, com palmeira, canhões e bandeiras.",
+        "variantes": [
+          "Armas do Haiti"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Dois tigres, crescente e estrela; sem nome do país no texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Malásia",
+      "distratores": [
+        "Singapura",
+        "Brunei",
+        "Indonésia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Malásia",
+        "descricao": "Brasão de armas nacional da Malásia, com dois tigres, crescente e estrela de catorze pontas.",
+        "variantes": [
+          "Jata Negara"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Crocodilo no escudo e cavalos; o lema não nomeia o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este país está inteiramente cercado por qual outro país?",
+      "resposta": "África do Sul",
+      "distratores": [
+        "Botsuana",
+        "Namíbia",
+        "Moçambique"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Lesoto",
+        "descricao": "Brasão de armas nacional do Lesoto, com um crocodilo no escudo e dois cavalos.",
+        "variantes": [
+          "Brasão de Lesotho"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Peixes-vela, tartaruga e coco-do-mar; lema em latim, sem nome do país.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país insular é este brasão?",
+      "resposta": "Seicheles",
+      "distratores": [
+        "Maurício",
+        "Maldivas",
+        "Comores"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão das Seicheles",
+        "descricao": "Brasão de armas nacional das Seicheles, com tartaruga gigante, coco-do-mar e dois peixes-vela.",
+        "variantes": [
+          "Brasão de Seychelles"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Brasão heráldico com manto e coroa, sem texto; distintivo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que dois países fazem fronteira com este país?",
+      "resposta": "Suíça e Áustria",
+      "distratores": [
+        "Alemanha e Suíça",
+        "Áustria e Itália",
+        "Suíça e Itália"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Liechtenstein",
+        "descricao": "Brasão de armas do principado do Liechtenstein, com manto de arminho e coroa principesca.",
+        "variantes": [
+          "Brasão de Liechtenstein"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Escudo azul com montanha e estrelas, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país deste brasão?",
+      "resposta": "Liubliana",
+      "distratores": [
+        "Zagreb",
+        "Bratislava",
+        "Belgrado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Eslovênia",
+        "descricao": "Brasão de armas nacional da Eslovênia, com o monte Triglav e três estrelas num escudo azul.",
+        "variantes": [
+          "Brasão da Slovenia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Marlim, flamingo e caravela; o lema em inglês não nomeia o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país deste brasão?",
+      "resposta": "Nassau",
+      "distratores": [
+        "Kingston",
+        "Havana",
+        "Porto Príncipe"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão das Bahamas",
+        "descricao": "Brasão de armas nacional das Bahamas, com um marlim e um flamingo sustentando o escudo.",
+        "variantes": [
+          "Brasão de Bahamas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cruz dupla sobre três montes, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este país já formou um só Estado com qual outro país?",
+      "resposta": "República Tcheca",
+      "distratores": [
+        "Hungria",
+        "Polônia",
+        "Áustria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Eslováquia",
+        "descricao": "Brasão de armas nacional da Eslováquia, com cruz dupla branca sobre três montes azuis em escudo vermelho.",
+        "variantes": [
+          "Brasão da Slováquia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Escudo, presas de elefante, homem e mulher; lema em suaíli sem nome do país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que montanha aparece aos pés do escudo neste brasão?",
+      "resposta": "Quilimanjaro",
+      "distratores": [
+        "Monte Quênia",
+        "Monte Elgon",
+        "Monte Stanley"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Tanzânia",
+        "descricao": "Brasão de armas nacional da Tanzânia, com escudo de guerreiro, presas de elefante e o Quilimanjaro na base.",
+        "variantes": [
+          "Brasão da Tanzania"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Quetzal, fuzis e sabres cruzados; o texto traz só lema e data, sem nome do país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a moeda do país deste brasão?",
+      "resposta": "Quetzal",
+      "distratores": [
+        "Lempira",
+        "Colón",
+        "Córdoba"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Guatemala",
+        "descricao": "Brasão de armas nacional da Guatemala, com um quetzal sobre um pergaminho e fuzis e sabres cruzados.",
+        "variantes": [
+          "Armas da Guatemala"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Íbis-escarlate, cocrico, beija-flores; lema em inglês sem nome do país.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é este brasão?",
+      "resposta": "Trinidad e Tobago",
+      "distratores": [
+        "Jamaica",
+        "Barbados",
+        "Bahamas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão de Trinidad e Tobago",
+        "descricao": "Brasão de armas nacional de Trinidad e Tobago, com íbis-escarlate e cocrico sustentando o escudo.",
+        "variantes": [
+          "Armas de Trinidad e Tobago"
+        ]
+      }
+    }
+  ]
+}

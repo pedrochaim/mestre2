@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Até o fim de mil novecentos e noventa e dois, este país e outro formavam um só Estado. Qual era o outro?",
+        "resposta": "República Tcheca"
+      },
+      "existentes": [
+        {
+          "id": "q18155",
+          "pergunta": "De que país é este brasão?",
+          "resposta": "Eslováquia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta de que país é o brasão (Eslováquia); a nova pergunta com qual país formava a Tchecoslováquia. Fatos diferentes."
+    }
+  ]
+}

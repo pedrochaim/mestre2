@@ -1,0 +1,748 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Brasão da Tailândia",
+        "descricao": "Brasão de armas nacional da Tailândia, que traz o garuda, ave mitológica.",
+        "variantes": [
+          "Tailândia",
+          "Garuda da Tailândia",
+          "Emblema da Tailândia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tailandia",
+          "nome": "Tailândia",
+          "descricao": "País do Sudeste Asiático com capital em Bangkok, antes chamado Sião.",
+          "variantes": [
+            "Reino da Tailândia",
+            "Sião"
+          ]
+        },
+        {
+          "id": "bandeira_da_tailandia",
+          "nome": "Bandeira da Tailândia",
+          "descricao": "Bandeira atual da Tailândia: cinco listras horizontais vermelha, branca, azul larga, branca e vermelha.",
+          "variantes": [
+            "Tailândia",
+            "Bandeira tailandesa"
+          ]
+        },
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        },
+        {
+          "id": "brasao_da_finlandia",
+          "nome": "Brasão da Finlândia",
+          "descricao": "Brasão de armas da Finlândia: leão coroado com espada sobre escudo vermelho com rosas.",
+          "variantes": [
+            "Finlândia",
+            "Brasão de armas da Finlândia"
+          ]
+        },
+        {
+          "id": "brasao_dos_paises_baixos",
+          "nome": "Brasão dos Países Baixos",
+          "descricao": "Brasão real de armas do Reino dos Países Baixos, com leão coroado, espada e flechas num escudo azul.",
+          "variantes": [
+            "Brasão da Holanda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Brasão do Haiti",
+        "descricao": "Brasão de armas nacional do Haiti, com palmeira, canhões e bandeiras.",
+        "variantes": [
+          "Armas do Haiti"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasao_do_chile",
+          "nome": "Brasão do Chile",
+          "descricao": "Brasão de armas do Chile, com condor e huemul coroados ao lado de um escudo azul e vermelho com estrela.",
+          "variantes": [
+            "Chile",
+            "Brasão de armas do Chile"
+          ]
+        },
+        {
+          "id": "brasao_do_chipre",
+          "nome": "Brasão do Chipre",
+          "descricao": "Brasão de armas da República de Chipre, com pomba carregando ramo de oliveira sobre escudo laranja e ramos de oliveira.",
+          "variantes": [
+            "Chipre",
+            "Armas de Chipre",
+            "Brasão de Chipre"
+          ]
+        },
+        {
+          "id": "brasao_de_fiji",
+          "nome": "Brasão de Fiji",
+          "descricao": "Brasão de armas da República de Fiji, com um leão, cana-de-açúcar, coqueiro, pomba e banana, sustentado por dois guerreiros.",
+          "variantes": [
+            "Fiji",
+            "Brasão das Ilhas Fiji"
+          ]
+        },
+        {
+          "id": "brasao_da_namibia",
+          "nome": "Brasão da Namíbia",
+          "descricao": "Brasão de armas da Namíbia, com dois órix, águia-pesqueira e escudo com sol e faixa diagonal.",
+          "variantes": [
+            "Namíbia",
+            "Brasão de armas da Namíbia"
+          ]
+        },
+        {
+          "id": "brasao_do_mexico",
+          "nome": "Brasão do México",
+          "descricao": "Brasão de armas nacional do México, com uma águia sobre um cacto devorando uma serpente.",
+          "variantes": [
+            "Escudo nacional do México",
+            "Coat of arms of Mexico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Brasão da Malásia",
+        "descricao": "Brasão de armas nacional da Malásia, com dois tigres, crescente e estrela de catorze pontas.",
+        "variantes": [
+          "Jata Negara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        },
+        {
+          "id": "brasao_da_austria",
+          "nome": "Brasão da Áustria",
+          "descricao": "Brasão de armas da Áustria: águia negra com coroa mural, foice, martelo, correntes partidas e escudo vermelho e branco.",
+          "variantes": [
+            "Áustria",
+            "Brasão de armas da Áustria"
+          ]
+        },
+        {
+          "id": "brasao_da_mongolia",
+          "nome": "Brasão da Mongólia",
+          "descricao": "Brasão de armas da Mongólia, com o símbolo Soyombo e um cavalo alado sobre fundo azul, cercado por um aro dourado.",
+          "variantes": [
+            "Mongólia",
+            "Emblema da Mongólia"
+          ]
+        },
+        {
+          "id": "brasao_da_moldavia",
+          "nome": "Brasão da Moldávia",
+          "descricao": "Brasão de armas da República da Moldávia, com águia segurando cruz, ramo e cetro, e escudo com cabeça de auroque.",
+          "variantes": [
+            "Moldávia",
+            "Brasão da Moldova"
+          ]
+        },
+        {
+          "id": "brasao_da_russia",
+          "nome": "Brasão da Rússia",
+          "descricao": "Brasão de armas da Federação Russa, com águia bicéfala dourada sobre fundo vermelho e São Jorge no escudo central.",
+          "variantes": [
+            "Escudo da Rússia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Brasão do Lesoto",
+        "descricao": "Brasão de armas nacional do Lesoto, com um crocodilo no escudo e dois cavalos.",
+        "variantes": [
+          "Brasão de Lesotho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasao_da_estonia",
+          "nome": "Brasão da Estônia",
+          "descricao": "Brasão de armas da Estônia, com três leões azuis sobre escudo dourado, ladeado por ramos de carvalho.",
+          "variantes": [
+            "Estônia",
+            "Escudo da Estônia"
+          ]
+        },
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        },
+        {
+          "id": "ratazana",
+          "nome": "Ratazana",
+          "descricao": "Roedor da espécie Rattus norvegicus, também chamado rato-marrom, comum em áreas urbanas do mundo todo.",
+          "variantes": [
+            "Rato-marrom",
+            "Rattus norvegicus",
+            "Rato-de-esgoto"
+          ]
+        },
+        {
+          "id": "brasao_do_chile",
+          "nome": "Brasão do Chile",
+          "descricao": "Brasão de armas do Chile, com condor e huemul coroados ao lado de um escudo azul e vermelho com estrela.",
+          "variantes": [
+            "Chile",
+            "Brasão de armas do Chile"
+          ]
+        },
+        {
+          "id": "brasao_do_mexico",
+          "nome": "Brasão do México",
+          "descricao": "Brasão de armas nacional do México, com uma águia sobre um cacto devorando uma serpente.",
+          "variantes": [
+            "Escudo nacional do México",
+            "Coat of arms of Mexico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Brasão das Seicheles",
+        "descricao": "Brasão de armas nacional das Seicheles, com tartaruga gigante, coco-do-mar e dois peixes-vela.",
+        "variantes": [
+          "Brasão de Seychelles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "seicheles",
+          "nome": "Seicheles",
+          "descricao": "País arquipelágico de 115 ilhas no Oceano Índico, a leste da África continental, cuja capital é Victoria.",
+          "variantes": [
+            "Seychelles",
+            "República das Seicheles"
+          ]
+        },
+        {
+          "id": "brasao_do_chile",
+          "nome": "Brasão do Chile",
+          "descricao": "Brasão de armas do Chile, com condor e huemul coroados ao lado de um escudo azul e vermelho com estrela.",
+          "variantes": [
+            "Chile",
+            "Brasão de armas do Chile"
+          ]
+        },
+        {
+          "id": "brasao_do_chipre",
+          "nome": "Brasão do Chipre",
+          "descricao": "Brasão de armas da República de Chipre, com pomba carregando ramo de oliveira sobre escudo laranja e ramos de oliveira.",
+          "variantes": [
+            "Chipre",
+            "Armas de Chipre",
+            "Brasão de Chipre"
+          ]
+        },
+        {
+          "id": "brasao_da_belgica",
+          "nome": "Brasão da Bélgica",
+          "descricao": "Brasão de armas grande do Reino da Bélgica, com o leão negro-dourado no escudo, dois leões laterais e manto real.",
+          "variantes": [
+            "Escudo da Bélgica"
+          ]
+        },
+        {
+          "id": "bastao_de_asclepio",
+          "nome": "Bastão de Asclépio",
+          "descricao": "Bastão com uma única serpente enrolada, símbolo tradicional da medicina.",
+          "variantes": [
+            "Bastão de Esculápio",
+            "Rod of Asclepius"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Brasão do Liechtenstein",
+        "descricao": "Brasão de armas do principado do Liechtenstein, com manto de arminho e coroa principesca.",
+        "variantes": [
+          "Liechtenstein",
+          "Brasão de Liechtenstein"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "liechtenstein",
+          "nome": "Liechtenstein",
+          "descricao": "Pequeno principado sem litoral nos Alpes, com capital em Vaduz.",
+          "variantes": [
+            "Principado de Liechtenstein"
+          ]
+        },
+        {
+          "id": "bandeira_de_liechtenstein",
+          "nome": "Bandeira de Liechtenstein",
+          "descricao": "Bandeira nacional de Liechtenstein, azul e vermelha com uma coroa dourada no canto.",
+          "variantes": [
+            "Liechtenstein",
+            "Bandeira liechtensteinense"
+          ]
+        },
+        {
+          "id": "hino_de_liechtenstein",
+          "nome": "Hino de Liechtenstein",
+          "descricao": "Hino nacional do Principado de Liechtenstein, intitulado Oben am jungen Rhein.",
+          "variantes": [
+            "Oben am jungen Rhein"
+          ]
+        },
+        {
+          "id": "ludwig_wittgenstein",
+          "nome": "Ludwig Wittgenstein",
+          "descricao": "Filósofo austríaco (1889–1951), autor do Tractatus Logico-Philosophicus.",
+          "variantes": [
+            "Wittgenstein"
+          ]
+        },
+        {
+          "id": "brasao_do_chile",
+          "nome": "Brasão do Chile",
+          "descricao": "Brasão de armas do Chile, com condor e huemul coroados ao lado de um escudo azul e vermelho com estrela.",
+          "variantes": [
+            "Chile",
+            "Brasão de armas do Chile"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Brasão da Eslovênia",
+        "descricao": "Brasão de armas nacional da Eslovênia, com o monte Triglav e três estrelas num escudo azul.",
+        "variantes": [
+          "Brasão da Slovenia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasao_da_estonia",
+          "nome": "Brasão da Estônia",
+          "descricao": "Brasão de armas da Estônia, com três leões azuis sobre escudo dourado, ladeado por ramos de carvalho.",
+          "variantes": [
+            "Estônia",
+            "Escudo da Estônia"
+          ]
+        },
+        {
+          "id": "brasao_da_eslovaquia",
+          "nome": "Brasão da Eslováquia",
+          "descricao": "Brasão de armas da Eslováquia, com cruz dupla branca sobre três colinas azuis em escudo vermelho.",
+          "variantes": [
+            "Eslováquia",
+            "Escudo da Eslováquia"
+          ]
+        },
+        {
+          "id": "brasao_da_romenia",
+          "nome": "Brasão da Romênia",
+          "descricao": "Brasão de armas da Romênia, uma águia dourada coroada que segura espada e maça, com escudo de cinco brasões regionais.",
+          "variantes": [
+            "Romênia",
+            "Armas da Romênia"
+          ]
+        },
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        },
+        {
+          "id": "brasao_da_armenia",
+          "nome": "Brasão da Armênia",
+          "descricao": "Brasão de armas da Armênia, com águia e leão sustentando escudo com o monte Ararate.",
+          "variantes": [
+            "Armênia",
+            "Armas da Armênia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Brasão das Bahamas",
+        "descricao": "Brasão de armas nacional das Bahamas, com um marlim e um flamingo sustentando o escudo.",
+        "variantes": [
+          "Brasão de Bahamas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_das_bahamas",
+          "nome": "Bandeira das Bahamas",
+          "descricao": "Bandeira nacional das Bahamas, com faixas azul-turquesa e amarela e triângulo preto à esquerda.",
+          "variantes": [
+            "Bahamas",
+            "Bandeira de Bahamas"
+          ]
+        },
+        {
+          "id": "brasao_do_panama",
+          "nome": "Brasão do Panamá",
+          "descricao": "Brasão de armas do Panamá, com uma harpia, bandeiras e um escudo dividido em cinco campos.",
+          "variantes": [
+            "Panamá",
+            "Escudo de Panamá"
+          ]
+        },
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        },
+        {
+          "id": "buraco_das_araras",
+          "nome": "Buraco das Araras",
+          "descricao": "Grande dolina de cerca de 500 metros de diâmetro, em reserva particular perto de Jardim, Mato Grosso do Sul.",
+          "variantes": [
+            "Reserva Particular do Patrimônio Natural Buraco das Araras"
+          ]
+        },
+        {
+          "id": "brasao_da_namibia",
+          "nome": "Brasão da Namíbia",
+          "descricao": "Brasão de armas da Namíbia, com dois órix, águia-pesqueira e escudo com sol e faixa diagonal.",
+          "variantes": [
+            "Namíbia",
+            "Brasão de armas da Namíbia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Brasão da Eslováquia",
+        "descricao": "Brasão de armas nacional da Eslováquia, com cruz dupla branca sobre três montes azuis em escudo vermelho.",
+        "variantes": [
+          "Brasão da Slováquia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasao_da_eslovaquia",
+          "nome": "Brasão da Eslováquia",
+          "descricao": "Brasão de armas da Eslováquia, com cruz dupla branca sobre três colinas azuis em escudo vermelho.",
+          "variantes": [
+            "Eslováquia",
+            "Escudo da Eslováquia"
+          ]
+        },
+        {
+          "id": "brasao_da_estonia",
+          "nome": "Brasão da Estônia",
+          "descricao": "Brasão de armas da Estônia, com três leões azuis sobre escudo dourado, ladeado por ramos de carvalho.",
+          "variantes": [
+            "Estônia",
+            "Escudo da Estônia"
+          ]
+        },
+        {
+          "id": "bandeira_da_eslovaquia",
+          "nome": "Bandeira da Eslováquia",
+          "descricao": "Bandeira da Eslováquia, tricolor branco, azul e vermelho com brasão de cruz dupla sobre três montes.",
+          "variantes": [
+            "Eslováquia"
+          ]
+        },
+        {
+          "id": "brasao_da_tchequia",
+          "nome": "Brasão da Tchéquia",
+          "descricao": "Brasão de armas da Tchéquia, em quatro quartéis com leões da Boêmia e águias da Morávia e da Silésia.",
+          "variantes": [
+            "Tchéquia",
+            "Brasão da República Tcheca",
+            "Brasão de armas da Chéquia"
+          ]
+        },
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Brasão da Tanzânia",
+        "descricao": "Brasão de armas nacional da Tanzânia, com escudo de guerreiro, presas de elefante e o Quilimanjaro na base.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        },
+        {
+          "id": "brasao_da_armenia",
+          "nome": "Brasão da Armênia",
+          "descricao": "Brasão de armas da Armênia, com águia e leão sustentando escudo com o monte Ararate.",
+          "variantes": [
+            "Armênia",
+            "Armas da Armênia"
+          ]
+        },
+        {
+          "id": "brasao_da_ucrania",
+          "nome": "Brasão da Ucrânia",
+          "descricao": "Brasão de armas da Ucrânia: tridente dourado sobre escudo azul, chamado tryzub.",
+          "variantes": [
+            "Tryzub",
+            "Tridente da Ucrânia"
+          ]
+        },
+        {
+          "id": "brasao_da_estonia",
+          "nome": "Brasão da Estônia",
+          "descricao": "Brasão de armas da Estônia, com três leões azuis sobre escudo dourado, ladeado por ramos de carvalho.",
+          "variantes": [
+            "Estônia",
+            "Escudo da Estônia"
+          ]
+        },
+        {
+          "id": "brasao_do_panama",
+          "nome": "Brasão do Panamá",
+          "descricao": "Brasão de armas do Panamá, com uma harpia, bandeiras e um escudo dividido em cinco campos.",
+          "variantes": [
+            "Panamá",
+            "Escudo de Panamá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Brasão da Guatemala",
+        "descricao": "Brasão de armas nacional da Guatemala, com um quetzal sobre um pergaminho e fuzis e sabres cruzados.",
+        "variantes": [
+          "Armas da Guatemala"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasao_da_alemanha",
+          "nome": "Brasão da Alemanha",
+          "descricao": "Brasão de armas da República Federal da Alemanha, com águia negra de garras vermelhas sobre escudo dourado.",
+          "variantes": [
+            "Alemanha",
+            "Armas da Alemanha",
+            "Bundesadler"
+          ]
+        },
+        {
+          "id": "brasao_da_inglaterra",
+          "nome": "Brasão da Inglaterra",
+          "descricao": "Brasão de armas da Inglaterra, um escudo vermelho com três leões dourados passantes.",
+          "variantes": [
+            "Inglaterra",
+            "Três leões da Inglaterra"
+          ]
+        },
+        {
+          "id": "brasao_da_dinamarca",
+          "nome": "Brasão da Dinamarca",
+          "descricao": "Brasão de armas do Reino da Dinamarca, com três leões azuis coroados e nove corações vermelhos sobre fundo dourado.",
+          "variantes": [
+            "Dinamarca",
+            "Armas da Dinamarca"
+          ]
+        },
+        {
+          "id": "guatemala",
+          "nome": "Guatemala",
+          "descricao": "País da América Central que faz fronteira com México, Belize, Honduras e El Salvador.",
+          "variantes": [
+            "República da Guatemala"
+          ]
+        },
+        {
+          "id": "brasao_da_albania",
+          "nome": "Brasão da Albânia",
+          "descricao": "Brasão de armas da Albânia, uma águia negra de duas cabeças sobre fundo vermelho, com o elmo de Skanderbeg.",
+          "variantes": [
+            "Albânia",
+            "Emblema da Albânia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Brasão de Trinidad e Tobago",
+        "descricao": "Brasão de armas nacional de Trinidad e Tobago, com íbis-escarlate e cocrico sustentando o escudo.",
+        "variantes": [
+          "Armas de Trinidad e Tobago"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_trinidad_e_tobago",
+          "nome": "Bandeira de Trinidad e Tobago",
+          "descricao": "Bandeira nacional de Trinidad e Tobago, vermelha com faixa diagonal preta bordada de branco.",
+          "variantes": [
+            "Trinidad e Tobago",
+            "Bandeira de Trindade e Tobago"
+          ]
+        },
+        {
+          "id": "emblema_da_etiopia",
+          "nome": "Emblema da Etiópia",
+          "descricao": "Emblema nacional da Etiópia, uma estrela amarela com raios sobre um círculo azul.",
+          "variantes": [
+            "Etiópia",
+            "Brasão da Etiópia"
+          ]
+        },
+        {
+          "id": "brasao_da_grecia",
+          "nome": "Brasão da Grécia",
+          "descricao": "Brasão de armas da Grécia: escudo azul com cruz branca cercado por ramos de louro.",
+          "variantes": [
+            "Grécia",
+            "Brasão de armas da Grécia"
+          ]
+        },
+        {
+          "id": "brasao_de_monaco",
+          "nome": "Brasão de Mônaco",
+          "descricao": "Brasão de armas do Principado de Mônaco, com escudo de losangos vermelhos e brancos sustentado por dois frades armados de espada.",
+          "variantes": [
+            "Mônaco",
+            "Armas de Mônaco"
+          ]
+        },
+        {
+          "id": "brasao_de_uganda",
+          "nome": "Brasão de Uganda",
+          "descricao": "Brasão de armas de Uganda, com cobo-de-orelha e grou-coroado ladeando um escudo com sol e tambor.",
+          "variantes": [
+            "Uganda",
+            "Brasão de armas de Uganda"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brasão da Tailândia; país e bandeira são entidades distintas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Não há brasão do Haiti entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Não há brasão da Malásia entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Candidata Lesoto é o país, não o brasão."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Candidata Seicheles é o país, não o brasão."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Candidatas são país, bandeira e hino, não o brasão."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Eslovênia difere de Eslováquia; sem brasão esloveno entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Bandeira das Bahamas é outra entidade; não há brasão."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "brasao_da_eslovaquia",
+      "motivo": "Mesmo brasão da Eslováquia: cruz dupla sobre três montes em escudo vermelho."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Não há brasão da Tanzânia entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Candidata Guatemala é o país; não há brasão guatemalteco."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Bandeira é entidade distinta; não há brasão de Trinidad e Tobago."
+    }
+  ]
+}
