@@ -1,0 +1,131 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bleach",
+        "descricao": "Mangá e anime de Tite Kubo sobre Ichigo Kurosaki, adolescente que se torna ceifador de almas.",
+        "variantes": [
+          "Bleach (mangá)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "johann_sebastian_bach",
+          "nome": "Johann Sebastian Bach",
+          "descricao": "Compositor e organista alemão do barroco (1685–1750).",
+          "variantes": [
+            "Bach",
+            "J. S. Bach"
+          ]
+        },
+        {
+          "id": "arraia_negra",
+          "nome": "Arraia Negra",
+          "descricao": "Vilão da DC Comics, de capacete com olhos vermelhos, arqui-inimigo do Aquaman, estreado em 1967.",
+          "variantes": [
+            "Black Manta"
+          ]
+        },
+        {
+          "id": "biscoito",
+          "nome": "Biscoito",
+          "descricao": "Pequeno alimento assado e seco de massa de farinha, doce ou salgado.",
+          "variantes": [
+            "Bolacha"
+          ]
+        },
+        {
+          "id": "princesa_peach",
+          "nome": "Princesa Peach",
+          "descricao": "Princesa dos jogos da série Super Mario, da Nintendo, frequentemente sequestrada por Bowser.",
+          "variantes": [
+            "Peach",
+            "Princesa Toadstool"
+          ]
+        },
+        {
+          "id": "banco_card_game_pokemon",
+          "nome": "Banco (card game Pokémon)",
+          "descricao": "Área da mesa no card game Pokémon onde ficam os pokémon do jogador que não estão na posição ativa.",
+          "variantes": [
+            "Bench",
+            "Banco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pokémon",
+        "descricao": "Franquia japonesa de jogos e anime criada por Satoshi Tajiri, sobre monstrinhos capturados e treinados por seus donos.",
+        "variantes": [
+          "Pocket Monsters",
+          "Pokemon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "cartas_gold_star",
+          "nome": "Cartas Gold Star",
+          "descricao": "Cartas raríssimas da era EX do card game Pokémon, com pokémon de cor rara e uma estrela ao lado do nome.",
+          "variantes": [
+            "Gold Star",
+            "Pokémon Star",
+            "Pokémon ☆"
+          ]
+        },
+        {
+          "id": "pokemon_xy_anime",
+          "nome": "Pokémon XY (anime)",
+          "descricao": "Série do anime Pokémon em que Ash viaja pela região de Kalos com Serena, Clemont e Bonnie, exibida no Japão a partir de 2013.",
+          "variantes": [
+            "Pokémon the Series: XY",
+            "Pocket Monsters XY",
+            "Pokémon XY"
+          ]
+        },
+        {
+          "id": "pokemon_blue_versao_japonesa",
+          "nome": "Pokémon Blue (versão japonesa)",
+          "descricao": "Edição especial japonesa de 1996 dos primeiros jogos Pokémon, com gráficos revistos, vendida inicialmente por encomenda pela revista CoroCoro Comic.",
+          "variantes": [
+            "Pocket Monsters Ao"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Bleach é mangá/anime; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "pokemon",
+      "motivo": "Mesma franquia japonesa criada por Satoshi Tajiri; o anime e outros itens são entidades parciais distintas."
+    }
+  ]
+}
