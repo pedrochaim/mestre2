@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto minúscula e de baixa resolução, rosto pouco legível no celular e sem como reconhecer o retratado."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que soprano espanhola é esta?",
+      "resposta": "Montserrat Caballé",
+      "distratores": [
+        "Maria Callas",
+        "Renata Tebaldi",
+        "Joan Sutherland"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Montserrat Caballé",
+        "descricao": "Soprano de ópera catalã (1933–2018), famosa pelo repertório de Verdi e do bel canto e pelo dueto Barcelona com Freddie Mercury.",
+        "variantes": [
+          "Montserrat Caballé i Folch"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, boa para reconhecimento com distratores barbados.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritor italiano é este?",
+      "resposta": "Umberto Eco",
+      "distratores": [
+        "Italo Calvino",
+        "Alberto Moravia",
+        "Primo Levi"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Umberto Eco",
+        "descricao": "Escritor, filósofo e semiólogo italiano (1932–2016), autor de O Nome da Rosa.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato antigo nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo alemão é este?",
+      "resposta": "Walter Benjamin",
+      "distratores": [
+        "Theodor Adorno",
+        "Ernst Bloch",
+        "Martin Buber"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Walter Benjamin",
+        "descricao": "Filósofo e crítico cultural alemão (1892–1940), da tradição marxista e da Escola de Frankfurt.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A inscrição na pintura traz o nome 'Antonio Vieira' e entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes romances foi escrito por esta autora brasileira?",
+      "resposta": "A República dos Sonhos",
+      "distratores": [
+        "Ponciá Vicêncio",
+        "Quarup",
+        "Dois Irmãos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nélida Piñon",
+        "descricao": "Escritora brasileira (1937–2022), autora de A República dos Sonhos e primeira mulher a presidir a Academia Brasileira de Letras.",
+        "variantes": [
+          "Nélida Pinõn"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual destes livros foi escrito por este autor brasileiro?",
+      "resposta": "Feliz Ano Velho",
+      "distratores": [
+        "Feliz Ano Novo",
+        "Memórias do Cárcere",
+        "Cidade de Deus"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marcelo Rubens Paiva",
+        "descricao": "Escritor, dramaturgo e jornalista brasileiro, nascido em 1959, autor de Feliz Ano Velho.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, de baixa resolução, com o retratado distante e de corpo inteiro; não legível no celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto legível de escritor em evento público; o desfoque ao fundo não atrapalha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual destes romances foi escrito por este autor baiano?",
+      "resposta": "Torto Arado",
+      "distratores": [
+        "Ponciá Vicêncio",
+        "Marrom e Amarelo",
+        "Um Defeito de Cor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Itamar Vieira Junior",
+        "descricao": "Escritor brasileiro nascido em Salvador em 1979, autor do romance Torto Arado.",
+        "variantes": [
+          "Itamar Vieira Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato clássico nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo alemão é este?",
+      "resposta": "Edmund Husserl",
+      "distratores": [
+        "Martin Heidegger",
+        "Wilhelm Dilthey",
+        "Karl Jaspers"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Edmund Husserl",
+        "descricao": "Filósofo e matemático austro-alemão (1859–1938), fundador da fenomenologia.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Rosto legível, sem texto, figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes livros foi escrito por esta filósofa brasileira?",
+      "resposta": "Pequeno Manual Antirracista",
+      "distratores": [
+        "Racismo Estrutural",
+        "Memórias da Plantação",
+        "Quarto de Despejo"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Djamila Ribeiro",
+        "descricao": "Filósofa, escritora e ativista brasileira nascida em 1980, conhecida por seus estudos sobre racismo e feminismo negro.",
+        "variantes": [
+          "Djamila Taís Ribeiro dos Santos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto antiga nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pianista brasileira é esta?",
+      "resposta": "Guiomar Novaes",
+      "distratores": [
+        "Magda Tagliaferro",
+        "Antonieta Rudge",
+        "Eudóxia de Barros"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Guiomar Novaes",
+        "descricao": "Pianista brasileira (1895–1979), conhecida pelo timbre individual e pelo fraseado cantante.",
+        "variantes": []
+      }
+    }
+  ]
+}
