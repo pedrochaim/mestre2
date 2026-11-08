@@ -1,0 +1,828 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Ainda menino, Edson pronunciava errado o nome do seu goleiro favorito, do Vasco da Gama, e daí nasceu o apelido Pelé. Qual era o nome desse goleiro?",
+        "resposta": "Bilé"
+      },
+      "existentes": [
+        {
+          "id": "q00532",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Pelé"
+        },
+        {
+          "id": "q09329",
+          "pergunta": "Edson Arantes do Nascimento, o Pelé, recebeu seu primeiro nome em homenagem a qual inventor americano?",
+          "resposta": "Thomas Edison"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1961, o governo brasileiro declarou Pelé tesouro nacional. Qual era o objetivo dessa medida?",
+        "resposta": "Impedir sua transferência para o exterior"
+      },
+      "existentes": [
+        {
+          "id": "q00532",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Pelé"
+        },
+        {
+          "id": "q09329",
+          "pergunta": "Edson Arantes do Nascimento, o Pelé, recebeu seu primeiro nome em homenagem a qual inventor americano?",
+          "resposta": "Thomas Edison"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Pelé foi campeão mundial na Suécia, em 1958, ainda adolescente. Com quantos anos ele conquistou essa Copa?",
+        "resposta": "Dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q00532",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Pelé"
+        },
+        {
+          "id": "q09329",
+          "pergunta": "Edson Arantes do Nascimento, o Pelé, recebeu seu primeiro nome em homenagem a qual inventor americano?",
+          "resposta": "Thomas Edison"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O apelido Dunga, dado por um tio ao capitão do tetra quando ele era criança, vem de um personagem de qual história?",
+        "resposta": "Branca de Neve e os Sete Anões"
+      },
+      "existentes": [
+        {
+          "id": "q06546",
+          "pergunta": "Quem é este ex-volante brasileiro?",
+          "resposta": "Dunga"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O capitão do penta, Marcos Evangelista de Morais, ganhou seu apelido por lembrar qual ponta-direita do Fluminense dos anos setenta?",
+        "resposta": "Cafuringa"
+      },
+      "existentes": [
+        {
+          "id": "q00710",
+          "pergunta": "Ao erguer a taça em 2002, o capitão Cafu exibiu na camisa uma homenagem a qual bairro paulistano onde cresceu?",
+          "resposta": "Jardim Irene"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Pela elegância e pela liderança em campo, Franz Beckenbauer ganhou na Alemanha um apelido que é um título de imperador. Qual?",
+        "resposta": "Kaiser"
+      },
+      "existentes": [
+        {
+          "id": "q08444",
+          "pergunta": "Em que Copa do Mundo este zagueiro alemão foi campeão como jogador?",
+          "resposta": "1974"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O nome Fuleco, do tatu-bola que foi mascote da Copa de 2014, junta a palavra futebol com qual outra?",
+        "resposta": "Ecologia"
+      },
+      "existentes": [
+        {
+          "id": "q09323",
+          "pergunta": "Quantas cidades brasileiras receberam jogos da Copa do Mundo de 2014?",
+          "resposta": "Doze"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Na final da Copa de 2014, no Maracanã, quem marcou na prorrogação o gol do título alemão contra a Argentina?",
+        "resposta": "Mario Götze"
+      },
+      "existentes": [
+        {
+          "id": "q09323",
+          "pergunta": "Quantas cidades brasileiras receberam jogos da Copa do Mundo de 2014?",
+          "resposta": "Doze"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1969, torcedores do Flamengo soltaram no Maracanã uma ave que os rivais usavam para provocá-los, e ela virou mascote do clube. Que ave?",
+        "resposta": "Urubu"
+      },
+      "existentes": [
+        {
+          "id": "q00058",
+          "pergunta": "Antes de ter um time de futebol, o Flamengo foi fundado em 1895 para disputar qual esporte?",
+          "resposta": "Remo"
+        },
+        {
+          "id": "q00741",
+          "pergunta": "Em 1911, o time de futebol do Flamengo foi formado por jogadores dissidentes de qual clube carioca, que virou seu grande rival?",
+          "resposta": "Fluminense"
+        },
+        {
+          "id": "q14684",
+          "pergunta": "De que time é este uniforme?",
+          "resposta": "Flamengo"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 2019, o Flamengo virou a final da Libertadores contra o River Plate nos minutos finais, com dois gols de Gabigol. Em que cidade foi o jogo?",
+        "resposta": "Lima"
+      },
+      "existentes": [
+        {
+          "id": "q00058",
+          "pergunta": "Antes de ter um time de futebol, o Flamengo foi fundado em 1895 para disputar qual esporte?",
+          "resposta": "Remo"
+        },
+        {
+          "id": "q00741",
+          "pergunta": "Em 1911, o time de futebol do Flamengo foi formado por jogadores dissidentes de qual clube carioca, que virou seu grande rival?",
+          "resposta": "Fluminense"
+        },
+        {
+          "id": "q14684",
+          "pergunta": "De que time é este uniforme?",
+          "resposta": "Flamengo"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Na Itália, Roberto Baggio era chamado de Divin Codino por causa de qual marca do seu visual?",
+        "resposta": "O rabo de cavalo"
+      },
+      "existentes": [
+        {
+          "id": "q14372",
+          "pergunta": "Em que ano este ex-jogador italiano ganhou a Bola de Ouro?",
+          "resposta": "1993"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que jogada do futebol brasileiro teria ganhado esse nome a partir de Charles, o primeiro nome de Charles Miller?",
+        "resposta": "Chaleira"
+      },
+      "existentes": [
+        {
+          "id": "q00720",
+          "pergunta": "Charles Miller, considerado o pai do futebol no Brasil, desembarcou em Santos com bolas e um livro de regras em que ano?",
+          "resposta": "1894"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Antes de trazer bolas e regras para o Brasil, Charles Miller estudou e aprendeu futebol em qual cidade inglesa?",
+        "resposta": "Southampton"
+      },
+      "existentes": [
+        {
+          "id": "q00720",
+          "pergunta": "Charles Miller, considerado o pai do futebol no Brasil, desembarcou em Santos com bolas e um livro de regras em que ano?",
+          "resposta": "1894"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Após o gol de mão contra a Inglaterra, em 1986, Maradona disse que o lance foi feito um pouco com sua cabeça e um pouco com a mão de quem?",
+        "resposta": "De Deus"
+      },
+      "existentes": [
+        {
+          "id": "q00718",
+          "pergunta": "Na Copa de 1986, em qual fase do torneio Maradona marcou contra a Inglaterra o famoso gol com a mão?",
+          "resposta": "Quartas de final"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Horas antes da final da Copa de 1998, contra a França, que problema de saúde Ronaldo sofreu na concentração da seleção?",
+        "resposta": "Uma convulsão"
+      },
+      "existentes": [
+        {
+          "id": "q00729",
+          "pergunta": "Na final da Copa de 1998, perto de Paris, quem marcou dois gols de cabeça na vitória francesa sobre o Brasil?",
+          "resposta": "Zinédine Zidane"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Campeão em 1930, o Uruguai não disputou a Copa seguinte, na Itália, em 1934. Por que a seleção uruguaia ficou de fora?",
+        "resposta": "Retaliação à ausência europeia"
+      },
+      "existentes": [
+        {
+          "id": "q09348",
+          "pergunta": "A camisa do Uruguai exibe quatro estrelas, embora o país tenha conquistado duas Copas do Mundo. Por quê?",
+          "resposta": "Conta também dois ouros olímpicos"
+        },
+        {
+          "id": "q14729",
+          "pergunta": "De que seleção é este uniforme?",
+          "resposta": "Uruguai"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "O Brasil enfrentou a Alemanha na semifinal de 2014 sem Neymar. Por que ele estava fora do jogo?",
+        "resposta": "Fraturou uma vértebra"
+      },
+      "existentes": [
+        {
+          "id": "q00056",
+          "pergunta": "Na semifinal da Copa de 2014, em Belo Horizonte, quantos gols a Alemanha marcou no Brasil ainda no primeiro tempo?",
+          "resposta": "Cinco"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em 2002, no Camp Nou, torcedores do Barcelona atiraram uma cabeça de porco em Luís Figo. O que motivou tanta raiva?",
+        "resposta": "Ele trocou o Barcelona pelo Real Madrid"
+      },
+      "existentes": [
+        {
+          "id": "q14403",
+          "pergunta": "Quem é este ex-jogador português?",
+          "resposta": "Luís Figo"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "A seleção da Holanda joga de laranja, uma cor que nem aparece na bandeira do país. Essa cor é uma homenagem a quê?",
+        "resposta": "A família real, Casa de Orange"
+      },
+      "existentes": [
+        {
+          "id": "q05122",
+          "pergunta": "A seleção holandesa de 1974 ganhou um apelido emprestado do título de um filme de Stanley Kubrick. Qual?",
+          "resposta": "Laranja Mecânica"
+        },
+        {
+          "id": "q17994",
+          "pergunta": "De que seleção europeia é este uniforme?",
+          "resposta": "Países Baixos"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Na Copa de 1994, nos Estados Unidos, por que Diego Maradona foi afastado do torneio pela FIFA?",
+        "resposta": "Exame antidoping positivo"
+      },
+      "existentes": [
+        {
+          "id": "q01672",
+          "pergunta": "Este craque argentino levou qual clube italiano ao primeiro título de campeão nacional?",
+          "resposta": "Napoli"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Nas Copas de 1986, 1998 e 2006, o Brasil caiu diante do mesmo adversário. Qual seleção foi essa?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q14707",
+          "pergunta": "De que seleção é este uniforme?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Que estádio recebeu o jogo decisivo da Copa de 1950 e, sessenta e quatro anos depois, a final da Copa de 2014?",
+        "resposta": "Maracanã"
+      },
+      "existentes": [
+        {
+          "id": "q00030",
+          "pergunta": "O Maracanã, no Rio de Janeiro, tem um nome oficial que homenageia qual jornalista esportivo?",
+          "resposta": "Mário Filho"
+        },
+        {
+          "id": "q00524",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Maracanã"
+        },
+        {
+          "id": "q05436",
+          "pergunta": "Inaugurado ainda com obras por terminar, o Estádio do Maracanã, no Rio de Janeiro, foi construído para receber qual Copa do Mundo?",
+          "resposta": "Copa do Mundo de 1950"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Na época da Copa de 1958, Garrincha, Didi e Nilton Santos, campeões na Suécia, defendiam o mesmo clube no Brasil. Qual?",
+        "resposta": "Botafogo"
+      },
+      "existentes": [
+        {
+          "id": "q05099",
+          "pergunta": "Que figura branca aparece no escudo preto do Botafogo e virou um dos apelidos do clube carioca?",
+          "resposta": "A Estrela Solitária"
+        },
+        {
+          "id": "q14612",
+          "pergunta": "De que time é este uniforme?",
+          "resposta": "Botafogo"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Quem da família de Ronaldinho Gaúcho jogou no Grêmio antes dele e depois virou seu empresário?",
+        "resposta": "Assis, seu irmão mais velho"
+      },
+      "existentes": [
+        {
+          "id": "q00711",
+          "pergunta": "Em 2005, Ronaldinho Gaúcho fez dois gols pelo Barcelona e foi aplaudido de pé pela torcida rival em qual estádio?",
+          "resposta": "Santiago Bernabéu"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Que parentesco ligava Ademir da Guia, ídolo do Palmeiras, a Domingos da Guia, zagueiro da seleção na Copa de 1938?",
+        "resposta": "Domingos era seu pai"
+      },
+      "existentes": [
+        {
+          "id": "q17347",
+          "pergunta": "Que ex-meia brasileiro é este?",
+          "resposta": "Ademir da Guia"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Paolo Maldini ergueu a taça europeia como capitão do Milan em 2003. Quem tinha feito exatamente o mesmo pelo clube em 1963?",
+        "resposta": "Cesare Maldini, seu pai"
+      },
+      "existentes": [
+        {
+          "id": "q14401",
+          "pergunta": "Quem é este ex-zagueiro?",
+          "resposta": "Paolo Maldini"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Antes de chegar ao Manchester United, em 2003, Cristiano Ronaldo jogava em qual clube de Lisboa?",
+        "resposta": "Sporting"
+      },
+      "existentes": [
+        {
+          "id": "q00713",
+          "pergunta": "Cristiano Ronaldo nasceu em Funchal, capital de qual arquipélago português no oceano Atlântico?",
+          "resposta": "Madeira"
+        },
+        {
+          "id": "q00714",
+          "pergunta": "O nome Ronaldo, de Cristiano Ronaldo, foi escolhido pelo pai em homenagem a qual ator que virou presidente dos Estados Unidos?",
+          "resposta": "Ronald Reagan"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Que técnico dirigiu a encantadora seleção brasileira de 1982 e, dez anos depois, o São Paulo campeão do mundo em Tóquio?",
+        "resposta": "Telê Santana"
+      },
+      "existentes": [
+        {
+          "id": "q14682",
+          "pergunta": "De que time é este uniforme?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Em 2006, no Japão, quem marcou o gol do Internacional na vitória por um a zero sobre o Barcelona de Ronaldinho?",
+        "resposta": "Adriano Gabiru"
+      },
+      "existentes": [
+        {
+          "id": "q14609",
+          "pergunta": "De que time é este uniforme?",
+          "resposta": "Internacional"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "A taça Jules Rimet, entregue aos campeões mundiais até 1970, trazia a figura alada de qual deusa grega?",
+        "resposta": "Nice, ou Nike"
+      },
+      "existentes": [
+        {
+          "id": "q00046",
+          "pergunta": "Em 1970, por que o Brasil ganhou a posse definitiva da taça Jules Rimet?",
+          "resposta": "Por ser o primeiro tricampeão mundial"
+        },
+        {
+          "id": "q00544",
+          "pergunta": "Que troféu é este?",
+          "resposta": "Taça Jules Rimet"
+        },
+        {
+          "id": "q00735",
+          "pergunta": "Em 1966, meses antes da Copa na Inglaterra, a taça Jules Rimet foi roubada em Londres. Quem a encontrou num jardim, dias depois?",
+          "resposta": "O cachorro Pickles"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Depois de ficar em definitivo com o Brasil, a taça Jules Rimet foi roubada da sede da CBF, no Rio de Janeiro. Em que década?",
+        "resposta": "Anos oitenta"
+      },
+      "existentes": [
+        {
+          "id": "q00046",
+          "pergunta": "Em 1970, por que o Brasil ganhou a posse definitiva da taça Jules Rimet?",
+          "resposta": "Por ser o primeiro tricampeão mundial"
+        },
+        {
+          "id": "q00544",
+          "pergunta": "Que troféu é este?",
+          "resposta": "Taça Jules Rimet"
+        },
+        {
+          "id": "q00735",
+          "pergunta": "Em 1966, meses antes da Copa na Inglaterra, a taça Jules Rimet foi roubada em Londres. Quem a encontrou num jardim, dias depois?",
+          "resposta": "O cachorro Pickles"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Zinédine Zidane nasceu em Marselha, filho de imigrantes vindos de qual país africano?",
+        "resposta": "Argélia"
+      },
+      "existentes": [
+        {
+          "id": "q07491",
+          "pergunta": "Quem é este ex-meio-campista francês, campeão mundial em 1998?",
+          "resposta": "Zinédine Zidane"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Revelado pelo Santos, Neymar nasceu em 1992 em qual cidade da Grande São Paulo?",
+        "resposta": "Mogi das Cruzes"
+      },
+      "existentes": [
+        {
+          "id": "q01663",
+          "pergunta": "Quem é este jogador de futebol, camisa da seleção brasileira?",
+          "resposta": "Neymar"
+        },
+        {
+          "id": "q15621",
+          "pergunta": "Este jogador conquistou o ouro olímpico com a seleção brasileira em que edição dos Jogos?",
+          "resposta": "Rio 2016"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "No jogo que decidiu a Copa de 1950, entre Brasil e Uruguai no Maracanã, cerca de quantas pessoas lotavam o estádio?",
+        "resposta": "Cerca de duzentas mil"
+      },
+      "existentes": [
+        {
+          "id": "q00725",
+          "pergunta": "No jogo que decidiu a Copa de 1950, no Maracanã, quem marcou o gol da virada uruguaia sobre o Brasil?",
+          "resposta": "Alcides Ghiggia"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Em 1953, em Wembley, a Hungria de Puskás impôs à Inglaterra sua primeira derrota em casa para uma seleção de fora das ilhas britânicas. Qual foi o placar?",
+        "resposta": "Seis a três"
+      },
+      "existentes": [
+        {
+          "id": "q09342",
+          "pergunta": "A Hungria de 1954 e a Holanda de 1974 chegaram às suas Copas como favoritas. Que destino as duas seleções tiveram em comum?",
+          "resposta": "Perderam a final para a Alemanha Ocidental"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Na Copa de 2002, o famoso ataque brasileiro dos três erres tinha Ronaldo, Rivaldo e quem?",
+        "resposta": "Ronaldinho Gaúcho"
+      },
+      "existentes": [
+        {
+          "id": "q00057",
+          "pergunta": "A Copa de 2002, a primeira disputada na Ásia, teve como sedes o Japão e qual outro país?",
+          "resposta": "Coreia do Sul"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Na seleção campeã de 1970, Pelé, Tostão, Gérson e Jairzinho tinham a companhia de qual meia canhoto, de bigode e chute fortíssimo?",
+        "resposta": "Rivellino"
+      },
+      "existentes": [
+        {
+          "id": "q05089",
+          "pergunta": "Na Copa de 1970, no México, qual jogador brasileiro marcou gol em todas as seis partidas da seleção?",
+          "resposta": "Jairzinho"
+        },
+        {
+          "id": "q05090",
+          "pergunta": "Em que ano, numa Copa disputada no México, os cartões amarelo e vermelho foram usados pela primeira vez?",
+          "resposta": "1970"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Em 2000, o primeiro compromisso do Barcelona com o menino Lionel Messi foi rabiscado em qual papel improvisado?",
+        "resposta": "Um guardanapo"
+      },
+      "existentes": [
+        {
+          "id": "q00745",
+          "pergunta": "Aos treze anos, Messi deixou a Argentina rumo ao Barcelona, que se comprometeu a pagar o tratamento de qual problema de saúde?",
+          "resposta": "Deficiência do hormônio do crescimento"
+        },
+        {
+          "id": "q09355",
+          "pergunta": "Lionel Messi nasceu na mesma cidade argentina que o revolucionário Che Guevara. Que cidade é essa?",
+          "resposta": "Rosário"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "origem do apelido, não identificação"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "apelido, não Copa"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "pergunta identificar o estádio por jogos; a existente 'Que estádio é este?' é de imagem, mas o fato difere (Copas sediadas vs. identificação visual)"
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "fato diferente"
+    }
+  ]
+}

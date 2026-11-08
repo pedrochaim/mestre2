@@ -1,0 +1,572 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Copa América",
+        "descricao": "Torneio de seleções da América do Sul organizado pela Conmebol, disputado desde 1916.",
+        "variantes": [
+          "Campeonato Sul-Americano de Seleções",
+          "Copa América de Futebol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "america_s_cup",
+          "nome": "America's Cup",
+          "descricao": "Troféu e competição de regatas de vela disputados desde 1851.",
+          "variantes": [
+            "Copa América de vela",
+            "Taça América"
+          ]
+        },
+        {
+          "id": "capitao_america",
+          "nome": "Capitão América",
+          "descricao": "Super-herói patriótico criado por Joe Simon e Jack Kirby, estreou em 1941",
+          "variantes": [
+            "Captain America",
+            "Steve Rogers"
+          ]
+        },
+        {
+          "id": "pika_americana",
+          "nome": "Pika-americana",
+          "descricao": "Pequeno lagomorfo herbívoro (Ochotona princeps) das montanhas do oeste da América do Norte.",
+          "variantes": [
+            "Ochotona princeps",
+            "American pika",
+            "Pica-americana"
+          ]
+        },
+        {
+          "id": "selecao_mexicana_de_futebol",
+          "nome": "Seleção Mexicana de Futebol",
+          "descricao": "Seleção nacional masculina de futebol do México.",
+          "variantes": [
+            "México",
+            "El Tri",
+            "Seleção do México"
+          ]
+        },
+        {
+          "id": "club_america",
+          "nome": "Club América",
+          "descricao": "Clube de futebol da Cidade do México, apelidado Las Águilas, que joga no Estadio Azteca.",
+          "variantes": [
+            "América",
+            "Club de Fútbol América",
+            "Las Águilas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Andrés Escobar",
+        "descricao": "Zagueiro colombiano (1967–1994), assassinado em Medellín após a Copa do Mundo de 1994.",
+        "variantes": [
+          "Andrés Escobar Saldarriaga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "andres_iniesta",
+          "nome": "Andrés Iniesta",
+          "descricao": "Ex-meio-campista espanhol do Barcelona, campeão mundial em 2010.",
+          "variantes": [
+            "Iniesta",
+            "Andrés Iniesta Luján"
+          ]
+        },
+        {
+          "id": "andre_vesalio",
+          "nome": "André Vesálio",
+          "descricao": "Anatomista flamengo autor de De humani corporis fabrica, tratado de anatomia humana publicado em 1543.",
+          "variantes": [
+            "Andreas Vesalius",
+            "Vesálio"
+          ]
+        },
+        {
+          "id": "grande_seca_de_1877",
+          "nome": "Grande Seca de 1877",
+          "descricao": "Seca de 1877 a 1879 que devastou o sertão nordestino, sobretudo o Ceará",
+          "variantes": [
+            "Grande Seca",
+            "Seca dos Dois Setes"
+          ]
+        },
+        {
+          "id": "koinobori",
+          "nome": "Koinobori",
+          "descricao": "Bandeiras em forma de carpa hasteadas no Japão para o Dia das Crianças, em cinco de maio.",
+          "variantes": [
+            "Bandeiras de carpa"
+          ]
+        },
+        {
+          "id": "panela_de_cobre",
+          "nome": "Panela de cobre",
+          "descricao": "Panela feita de cobre, valorizada na alta cozinha por distribuir o calor de forma rápida e uniforme.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Copa do Mundo FIFA de 1962",
+        "descricao": "Sétima Copa do Mundo, disputada no Chile e vencida pelo Brasil, seu segundo título mundial.",
+        "variantes": [
+          "Copa de 1962"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "copa_do_mundo_fifa_de_1958",
+          "nome": "Copa do Mundo FIFA de 1958",
+          "descricao": "Sexta Copa do Mundo, disputada na Suécia e vencida pelo Brasil, seu primeiro título mundial.",
+          "variantes": [
+            "Copa da Suécia",
+            "Copa de 1958"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1950",
+          "nome": "Copa do Mundo FIFA de 1950",
+          "descricao": "Quarta Copa do Mundo, disputada no Brasil e vencida pelo Uruguai.",
+          "variantes": [
+            "Copa de 1950"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1994",
+          "nome": "Copa do Mundo FIFA de 1994",
+          "descricao": "Copa do Mundo de futebol disputada nos Estados Unidos e vencida pelo Brasil, seu quarto título.",
+          "variantes": [
+            "Copa de 1994",
+            "Tetra"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1970",
+          "nome": "Copa do Mundo FIFA de 1970",
+          "descricao": "Nona Copa do Mundo, disputada no México e vencida pelo Brasil, seu terceiro título mundial.",
+          "variantes": [
+            "Copa de 1970",
+            "Mundial de 1970"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1930",
+          "nome": "Copa do Mundo FIFA de 1930",
+          "descricao": "Primeira Copa do Mundo, disputada no Uruguai e vencida pela seleção uruguaia.",
+          "variantes": [
+            "Copa de 1930",
+            "1930 FIFA World Cup"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Romário",
+        "descricao": "Romário de Souza Faria, atacante brasileiro campeão mundial e eleito melhor jogador da Copa de 1994.",
+        "variantes": [
+          "Romário de Souza Faria",
+          "Baixinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "romario",
+          "nome": "Romário",
+          "descricao": "Ex-atacante brasileiro, nascido em 1966, campeão mundial em 1994 e depois político, senador pelo Rio de Janeiro.",
+          "variantes": [
+            "Romário de Souza Faria"
+          ]
+        },
+        {
+          "id": "rosario",
+          "nome": "Rosário",
+          "descricao": "Devoção católica de orações contadas num cordão de contas, cuja forma reduzida é o terço",
+          "variantes": [
+            "Terço",
+            "Santo Rosário"
+          ]
+        },
+        {
+          "id": "rosario_2",
+          "nome": "Rosário",
+          "descricao": "Cordão de contas usado na Igreja Católica para contar as orações do Rosário, com um crucifixo na ponta.",
+          "variantes": [
+            "Terço",
+            "Rosary"
+          ]
+        },
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "New York Cosmos",
+        "descricao": "Clube de futebol de Nova York que disputou a liga norte-americana entre 1971 e 1985 e reuniu astros como Pelé.",
+        "variantes": [
+          "Cosmos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cosmog",
+          "nome": "Cosmog",
+          "descricao": "Pokémon lendário do tipo Psíquico da sétima geração, uma pequena nuvem cósmica que evolui até Solgaleo ou Lunala.",
+          "variantes": [
+            "Nebby"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos",
+            "Cnosso"
+          ]
+        },
+        {
+          "id": "cosmoem",
+          "nome": "Cosmoem",
+          "descricao": "Pokémon do tipo Psíquico, número 790 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_das_comores",
+          "nome": "Bandeira das Comores",
+          "descricao": "Bandeira nacional da União das Comores, com quatro faixas horizontais, triângulo verde, crescente e quatro estrelas.",
+          "variantes": [
+            "Comores",
+            "Bandeira de Comores"
+          ]
+        },
+        {
+          "id": "comores",
+          "nome": "Comores",
+          "descricao": "País arquipélago do oceano Índico, no norte do canal de Moçambique, com capital em Moroni.",
+          "variantes": [
+            "Comoros",
+            "União das Comores"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Carlos Alberto Parreira",
+        "descricao": "Treinador brasileiro, técnico da seleção campeã mundial em 1994.",
+        "variantes": [
+          "Parreira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carlos_alberto_torres",
+          "nome": "Carlos Alberto Torres",
+          "descricao": "Lateral-direito brasileiro, capitão da seleção tricampeã mundial em 1970.",
+          "variantes": [
+            "Carlos Alberto",
+            "Capita",
+            "Capitão do Tri"
+          ]
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "alcaparra",
+          "nome": "Alcaparra",
+          "descricao": "Capparis spinosa, arbusto mediterrâneo cujos botões florais são usados como tempero em conserva.",
+          "variantes": [
+            "Alcaparreira",
+            "Capparis spinosa",
+            "Caper"
+          ]
+        },
+        {
+          "id": "paineira",
+          "nome": "Paineira",
+          "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+          "variantes": [
+            "Ceiba speciosa",
+            "Barriguda",
+            "Paina-rosa",
+            "Árvore-de-paina"
+          ]
+        },
+        {
+          "id": "carlos_tevez",
+          "nome": "Carlos Tevez",
+          "descricao": "Atacante argentino, ex-Boca Juniors, Corinthians, Manchester United e Manchester City.",
+          "variantes": [
+            "Carlitos Tevez",
+            "Carlos Alberto Tevez"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Final da Copa do Mundo de 1966",
+        "descricao": "Partida final da Copa do Mundo FIFA de 1966, em Wembley, em que a Inglaterra venceu a Alemanha Ocidental por 4 a 2.",
+        "variantes": [
+          "Inglaterra x Alemanha Ocidental 1966"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "final_da_copa_do_mundo_de_1994",
+          "nome": "Final da Copa do Mundo de 1994",
+          "descricao": "Partida final da Copa do Mundo FIFA de 1994, entre Brasil e Itália, decidida nos pênaltis em Pasadena, nos Estados Unidos.",
+          "variantes": [
+            "Final de 1994",
+            "Brasil x Itália 1994"
+          ]
+        },
+        {
+          "id": "final_da_copa_do_mundo_de_1998",
+          "nome": "Final da Copa do Mundo de 1998",
+          "descricao": "Partida final da Copa do Mundo FIFA de 1998, em Saint-Denis, em que a França venceu o Brasil por 3 a 0.",
+          "variantes": [
+            "França 3 x 0 Brasil"
+          ]
+        },
+        {
+          "id": "final_da_copa_do_mundo_de_1970",
+          "nome": "Final da Copa do Mundo de 1970",
+          "descricao": "Partida final da Copa do Mundo FIFA de 1970, na Cidade do México, em que o Brasil venceu a Itália por 4 a 1.",
+          "variantes": [
+            "Brasil 4 x 1 Itália"
+          ]
+        },
+        {
+          "id": "final_da_copa_do_mundo_de_1930",
+          "nome": "Final da Copa do Mundo de 1930",
+          "descricao": "Partida final da primeira Copa do Mundo, em Montevidéu, em que o Uruguai venceu a Argentina por 4 a 2.",
+          "variantes": [
+            "Uruguai 4 x 2 Argentina"
+          ]
+        },
+        {
+          "id": "final_da_copa_do_mundo_de_1958",
+          "nome": "Final da Copa do Mundo de 1958",
+          "descricao": "Partida final da Copa do Mundo FIFA de 1958, em Solna, em que o Brasil venceu a Suécia por 5 a 2.",
+          "variantes": [
+            "Brasil 5 x 2 Suécia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Liga dos Campeões da UEFA",
+        "descricao": "Principal torneio de clubes da Europa, organizado pela UEFA, disputado desde 1955 como Copa dos Campeões Europeus.",
+        "variantes": [
+          "Champions League",
+          "Copa dos Campeões Europeus",
+          "Taça dos Clubes Campeões Europeus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taca_da_liga_dos_campeoes_da_uefa",
+          "nome": "Taça da Liga dos Campeões da UEFA",
+          "descricao": "Troféu prateado de grandes alças entregue ao campeão da Liga dos Campeões da Europa.",
+          "variantes": [
+            "European Champion Clubs' Cup",
+            "Orelhuda",
+            "La Orejona"
+          ]
+        },
+        {
+          "id": "meisterschale",
+          "nome": "Meisterschale",
+          "descricao": "Troféu de prata entregue ao campeão alemão de futebol, a Bundesliga, apelidado de saladeira.",
+          "variantes": [
+            "Salatschüssel",
+            "Taça dos campeões alemães"
+          ]
+        },
+        {
+          "id": "hino_da_liga_dos_campeoes",
+          "nome": "Hino da Liga dos Campeões",
+          "descricao": "Hino oficial da Liga dos Campeões da UEFA, composto por Tony Britten em 1992.",
+          "variantes": [
+            "UEFA Champions League Anthem"
+          ]
+        },
+        {
+          "id": "liga_hanseatica",
+          "nome": "Liga Hanseática",
+          "descricao": "Associação comercial de cidades mercantis do norte da Europa, liderada por Lübeck, entre os séculos treze e dezessete.",
+          "variantes": [
+            "Hansa",
+            "Hanse",
+            "Hanseatic League"
+          ]
+        },
+        {
+          "id": "cinturao_de_campeao",
+          "nome": "Cinturão de campeão",
+          "descricao": "Grande cinturão ornamentado entregue como prêmio ao campeão em esportes de combate como boxe, MMA e luta livre profissional.",
+          "variantes": [
+            "Cinturão",
+            "Championship belt",
+            "Cinto de campeão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Substituição (futebol)",
+        "descricao": "Troca de um jogador em campo por um reserva durante uma partida de futebol, prevista nas regras do jogo.",
+        "variantes": [
+          "Substituto",
+          "Substituição de jogadores"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bicicleta_futebol",
+          "nome": "Bicicleta (futebol)",
+          "descricao": "Golpe acrobático em que o jogador chuta a bola no ar, de costas, jogando o corpo para trás.",
+          "variantes": [
+            "Chilena",
+            "Voadora",
+            "Bicycle kick",
+            "Tesoura"
+          ]
+        },
+        {
+          "id": "cerquilha",
+          "nome": "Cerquilha",
+          "descricao": "O símbolo formado por duas linhas horizontais cruzadas por duas oblíquas, usado em teclados, telefones e hashtags.",
+          "variantes": [
+            "Hashtag",
+            "Jogo da velha (símbolo)",
+            "Sustenido"
+          ]
+        },
+        {
+          "id": "bastet",
+          "nome": "Bastet",
+          "descricao": "Deusa egípcia protetora do lar, cultuada sobretudo na cidade de Bubástis",
+          "variantes": [
+            "Bast",
+            "Bastit"
+          ]
+        },
+        {
+          "id": "ulna",
+          "nome": "Ulna",
+          "descricao": "Osso longo do antebraço, do lado do dedo mínimo, paralelo ao rádio.",
+          "variantes": [
+            "Cúbito",
+            "Osso ulnar"
+          ]
+        },
+        {
+          "id": "uss_constitution",
+          "nome": "USS Constitution",
+          "descricao": "Fragata de madeira de três mastros da Marinha dos Estados Unidos, lançada em 1797 e apelidada de Old Ironsides.",
+          "variantes": [
+            "Old Ironsides"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Torneio de seleções sul-americanas; nenhuma candidata é essa entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o zagueiro colombiano."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Copa de 1962 não está entre as candidatas, que são outras edições."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "romario",
+      "motivo": "Mesmo atacante brasileiro, campeão em 1994, nome completo idêntico."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Clube de futebol de Nova York, sem correspondente nas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Treinador Parreira não está entre as candidatas; Carlos Alberto Torres é outra pessoa."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Final de 1966 não consta; as candidatas são finais de outros anos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O torneio é diferente do troféu, do hino e das demais candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Regra de substituição no futebol não corresponde a nenhuma candidata."
+    }
+  ]
+}
