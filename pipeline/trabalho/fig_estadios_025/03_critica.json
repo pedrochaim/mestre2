@@ -1,0 +1,36 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelos trechos. O enunciado não vaza a resposta nem o nome do estádio, e os distratores são clubes alemães críveis que não jogam ali.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Split é confirmada pelos trechos. O enunciado diz só 'croata', que ajuda sem entregar. Os distratores são cidades croatas críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O estádio é o principal do complexo, em Jacarta. 'Indonésio' é só uma pista de país. O enunciado não vaza o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O apelido 'Caldeirão' (le chaudron) está no trecho, mas entrega a resposta no teste da imagem coberta. Reescrevi sem o apelido e deixei só o país como pista.",
+      "reescrita": {
+        "pergunta": "Que estádio francês é este?",
+        "resposta": "Estádio Geoffroy-Guichard",
+        "distratores": []
+      }
+    }
+  ]
+}

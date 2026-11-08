@@ -1,0 +1,136 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A placa 'Arena do Futuro' aparece na fachada; além disso, o prédio é um caixote sem traço marcante, pouco reconhecível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Teto de membrana em bolhas e as duas torres laterais identificam o estádio; sem texto legível que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube alemão manda seus jogos neste estádio?",
+      "resposta": "Eintracht Frankfurt",
+      "distratores": [
+        "Borussia Dortmund",
+        "Bayer Leverkusen",
+        "Werder Bremen"
+      ],
+      "ancora": {
+        "nome": "Deutsche Bank Park",
+        "descricao": "Estádio de futebol de Frankfurt, na Alemanha, antigo Waldstadion, com teto retrátil.",
+        "variantes": [
+          "Waldstadion",
+          "Waldstadion Frankfurt",
+          "Commerzbank-Arena"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Faixas visíveis com 'Bologna FC 1909' e patrocinadores entregam o clube e o estádio."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "'TEXANS' no gramado e 'Reliant Sta...' no placar entregam a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cobertura em conchas à beira de montanhas e mar é característica e sem nome do estádio escrito; pergunta pela cidade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade croata fica este estádio?",
+      "resposta": "Split",
+      "distratores": [
+        "Zagreb",
+        "Rijeka",
+        "Zadar"
+      ],
+      "ancora": {
+        "nome": "Estádio Poljud",
+        "descricao": "Estádio de futebol de Split, na Croácia, casa do Hajduk Split, inaugurado em 1979.",
+        "variantes": [
+          "Poljud",
+          "Stadion Poljud",
+          "Gradski stadion u Poljudu"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Placas 'Banco Pichincha' e outros textos entregam o estádio."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "'Mrsool Park' aparece escrito na arquibancada, entregando o estádio."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Placar com logotipo e anúncio 'Mets' entregam o time; estádio pouco reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea com o teto em anel e o skyline de Jacarta; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que grande estádio indonésio é este?",
+      "resposta": "Estádio Gelora Bung Karno",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estádio Gelora Bung Karno",
+        "descricao": "Estádio principal do complexo esportivo Gelora Bung Karno, em Jacarta, na Indonésia, inaugurado para os Jogos Asiáticos de 1962.",
+        "variantes": [
+          "Gelora Bung Karno",
+          "GBK",
+          "Stadion Utama Gelora Bung Karno"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "'GALATASARAY' escrito nas arquibancadas entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Sem nome do estádio escrito; arquibancadas verdes e a configuração do estádio o identificam, com pista do país.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que estádio francês, apelidado de Caldeirão, é este?",
+      "resposta": "Estádio Geoffroy-Guichard",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estádio Geoffroy-Guichard",
+        "descricao": "Estádio de futebol de Saint-Étienne, na França, casa do AS Saint-Étienne.",
+        "variantes": [
+          "Stade Geoffroy-Guichard",
+          "Geoffroy-Guichard",
+          "Le Chaudron"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "'GAMA' escrito nas arquibancadas entrega a resposta."
+    }
+  ]
+}
