@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado; distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. Enunciado só dá nacionalidade e profissão, sem entregar. Distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Alexander Graham Bell nasceu na Escócia e se radicou nos EUA, então também cabe no enunciado e a resposta não é única. Troquei a pista por uma época e substituí os distratores que também se encaixavam.",
+      "reescrita": {
+        "pergunta": "Que engenheiro e inventor da virada do século dezenove para o vinte é este?",
+        "resposta": "Nikola Tesla",
+        "distratores": [
+          "Guglielmo Marconi",
+          "Rudolf Diesel",
+          "George Westinghouse"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma que a pintura é do século dezessete, o que não está em 'mostra' nem nos trechos. Há retratos de Newton de épocas diferentes, então a afirmação não é verificável para esta imagem. Removi a datação e troquei Leibniz (alemão) por um cientista inglês.",
+      "reescrita": {
+        "pergunta": "Que cientista inglês é retratado nesta imagem?",
+        "resposta": "Isaac Newton",
+        "distratores": [
+          "Robert Hooke",
+          "Edmond Halley",
+          "Robert Boyle"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mugabe governou o Zimbábue de 1980 a 2017, o que sustenta 'por décadas'. A pergunta exige reconhecer a figura. Distratores são países vizinhos ou africanos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho da Wikipédia diz que Collor assumiu aos quarenta anos e sete meses, então 40 anos é correto. Exige reconhecer a figura e o enunciado não nomeia o presidente. Distratores numéricos são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jefferson foi Pai Fundador. Os distratores são outros fundadores, nenhum deles correto. Ele morreu em 1826, antes da fotografia, então 'pintura' é razoável para um retrato.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'General japonês, chefe de governo na Segunda Guerra' é pista quase identificadora: dá para responder sem a figura. Também não é única, porque Kuniaki Koiso foi general e primeiro-ministro em 1944-45. Troquei por uma pista de época e grupo.",
+      "reescrita": {
+        "pergunta": "Que militar japonês da Segunda Guerra Mundial é este?",
+        "resposta": "Hideki Tojo",
+        "distratores": [
+          "Isoroku Yamamoto",
+          "Tomoyuki Yamashita",
+          "Masaharu Homma"
+        ]
+      }
+    }
+  ]
+}

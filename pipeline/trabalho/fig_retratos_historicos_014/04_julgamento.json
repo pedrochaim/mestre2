@@ -1,0 +1,439 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "George W. Bush",
+        "descricao": "43º presidente dos Estados Unidos, de 2001 a 2009.",
+        "variantes": [
+          "George Walker Bush",
+          "Bush filho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "george_weah",
+          "nome": "George Weah",
+          "descricao": "Atacante liberiano, Bola de Ouro de 1995, que depois foi presidente da Libéria.",
+          "variantes": [
+            "George Manneh Oppong Weah"
+          ]
+        },
+        {
+          "id": "george_washington",
+          "nome": "George Washington",
+          "descricao": "Comandante do Exército Continental e primeiro presidente dos Estados Unidos, de 1789 a 1797.",
+          "variantes": [
+            "Washington"
+          ]
+        },
+        {
+          "id": "samurai",
+          "nome": "Samurai",
+          "descricao": "Classe de guerreiros nobres do Japão pré-moderno, a serviço de senhores feudais.",
+          "variantes": [
+            "Samurais",
+            "Bushi"
+          ]
+        },
+        {
+          "id": "jorge_v",
+          "nome": "Jorge V",
+          "descricao": "Rei do Reino Unido de 1910 a 1936, que reinou durante a Primeira Guerra Mundial.",
+          "variantes": [
+            "George V"
+          ]
+        },
+        {
+          "id": "george_gershwin",
+          "nome": "George Gershwin",
+          "descricao": "Compositor e pianista americano de Rhapsody in Blue e Porgy and Bess (1898–1937).",
+          "variantes": [
+            "Gershwin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Thomas Edison",
+        "descricao": "Inventor e empresário americano, conhecido pela lâmpada incandescente e pelo fonógrafo.",
+        "variantes": [
+          "Thomas Alva Edison"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "thomas_edison",
+          "nome": "Thomas Edison",
+          "descricao": "Inventor e empresário americano (1847–1931), conhecido pela lâmpada incandescente e pelo fonógrafo.",
+          "variantes": [
+            "Thomas Alva Edison"
+          ]
+        },
+        {
+          "id": "tom_waits",
+          "nome": "Tom Waits",
+          "descricao": "Cantor, compositor e ator americano de voz grave e rouca, nascido em 1949.",
+          "variantes": [
+            "Thomas Alan Waits"
+          ]
+        },
+        {
+          "id": "woodrow_wilson",
+          "nome": "Woodrow Wilson",
+          "descricao": "28º presidente dos Estados Unidos, de 1913 a 1921, que liderou o país na Primeira Guerra Mundial.",
+          "variantes": [
+            "Thomas Woodrow Wilson"
+          ]
+        },
+        {
+          "id": "thomas_hobbes",
+          "nome": "Thomas Hobbes",
+          "descricao": "Filósofo político inglês (1588–1679), autor de Leviatã.",
+          "variantes": [
+            "Hobbes"
+          ]
+        },
+        {
+          "id": "tomas_de_aquino",
+          "nome": "Tomás de Aquino",
+          "descricao": "Frade dominicano e filósofo italiano do século treze, autor da Suma Teológica.",
+          "variantes": [
+            "São Tomás de Aquino",
+            "Thomas Aquinas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Nikola Tesla",
+        "descricao": "Engenheiro e inventor sérvio-americano, conhecido pelo sistema de corrente alternada.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "nikola_tesla",
+          "nome": "Nikola Tesla",
+          "descricao": "Engenheiro e inventor sérvio-americano (1856–1943), pioneiro da corrente alternada.",
+          "variantes": [
+            "Tesla"
+          ]
+        },
+        {
+          "id": "elba",
+          "nome": "Elba",
+          "descricao": "Ilha italiana no mar Tirreno, entre a Toscana e a Córsega.",
+          "variantes": [
+            "Isola d'Elba",
+            "Ilha de Elba"
+          ]
+        },
+        {
+          "id": "nikolai_gogol",
+          "nome": "Nikolai Gógol",
+          "descricao": "Escritor russo de origem ucraniana, autor de O Capote e Almas Mortas.",
+          "variantes": [
+            "Nicolau Gógol"
+          ]
+        },
+        {
+          "id": "revolta_de_nika",
+          "nome": "Revolta de Nika",
+          "descricao": "Rebelião de 532 em Constantinopla, iniciada no Hipódromo, que quase derrubou o imperador Justiniano.",
+          "variantes": [
+            "Nika riots",
+            "Sedição de Nika"
+          ]
+        },
+        {
+          "id": "nicolas_flamel",
+          "nome": "Nicolas Flamel",
+          "descricao": "Escrivão e livreiro francês da Idade Média que a lenda transformou em alquimista capaz de criar a pedra filosofal.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Isaac Newton",
+        "descricao": "Matemático e físico inglês, autor dos Principia e da lei da gravitação universal.",
+        "variantes": [
+          "Sir Isaac Newton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "isaac_newton",
+          "nome": "Isaac Newton",
+          "descricao": "Polímata inglês, autor dos Principia e formulador da gravitação universal e da mecânica clássica.",
+          "variantes": [
+            "Sir Isaac Newton",
+            "Newton"
+          ]
+        },
+        {
+          "id": "disco_de_newton",
+          "nome": "Disco de Newton",
+          "descricao": "Disco pintado em fatias coloridas que parece branco quando gira rapidamente, demonstrando a composição da luz branca.",
+          "variantes": [
+            "Newton disc"
+          ]
+        },
+        {
+          "id": "leis_de_newton",
+          "nome": "Leis de Newton",
+          "descricao": "As três leis do movimento formuladas por Isaac Newton: inércia, princípio fundamental da dinâmica e ação e reação.",
+          "variantes": [
+            "Leis do movimento de Newton",
+            "Newton's laws of motion"
+          ]
+        },
+        {
+          "id": "sanhaco_cinzento",
+          "nome": "Sanhaço-cinzento",
+          "descricao": "Ave Thraupis sayaca, de corpo cinza-azulado e asas azul-esverdeadas, comum no Brasil e em países vizinhos.",
+          "variantes": [
+            "Sanhaçu-cinzento",
+            "Sayaca tanager",
+            "Thraupis sayaca"
+          ]
+        },
+        {
+          "id": "sada_e_turo",
+          "nome": "Sada e Turo",
+          "descricao": "Professores pokémon de Paldea: Sada aparece em Pokémon Scarlet e Turo em Pokémon Violet.",
+          "variantes": [
+            "Professora Sada",
+            "Professor Turo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Robert Mugabe",
+        "descricao": "Líder revolucionário que governou o Zimbábue de 1980 a 2017.",
+        "variantes": [
+          "Robert Gabriel Mugabe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bob_beamon",
+          "nome": "Bob Beamon",
+          "descricao": "Atleta americano, campeão olímpico do salto em distância nos Jogos da Cidade do México 1968.",
+          "variantes": [
+            "Robert Beamon"
+          ]
+        },
+        {
+          "id": "robert_bunsen",
+          "nome": "Robert Bunsen",
+          "descricao": "Químico alemão do século XIX, codescobridor do césio e do rubídio e desenvolvedor do bico de Bunsen.",
+          "variantes": [
+            "Robert Wilhelm Bunsen"
+          ]
+        },
+        {
+          "id": "j_k_rowling",
+          "nome": "J. K. Rowling",
+          "descricao": "Autora britânica da série Harry Potter.",
+          "variantes": [
+            "Joanne Rowling",
+            "Robert Galbraith"
+          ]
+        },
+        {
+          "id": "robert_goddard",
+          "nome": "Robert Goddard",
+          "descricao": "Físico e engenheiro americano que construiu o primeiro foguete de combustível líquido.",
+          "variantes": [
+            "Robert Hutchings Goddard"
+          ]
+        },
+        {
+          "id": "robert_schumann",
+          "nome": "Robert Schumann",
+          "descricao": "Compositor e crítico musical alemão do Romantismo (1810–1856), marido da pianista Clara Schumann.",
+          "variantes": [
+            "Schumann"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Fernando Collor",
+        "descricao": "Presidente do Brasil de 1990 a 1992, renunciou durante o processo de impeachment.",
+        "variantes": [
+          "Fernando Collor de Mello"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fernando_collor",
+          "nome": "Fernando Collor",
+          "descricao": "Político brasileiro, 32º presidente do Brasil, de 1990 a 1992, quando renunciou.",
+          "variantes": [
+            "Fernando Collor de Mello"
+          ]
+        },
+        {
+          "id": "fernando_alonso",
+          "nome": "Fernando Alonso",
+          "descricao": "Piloto espanhol de Fórmula 1, bicampeão mundial em 2005 e 2006.",
+          "variantes": [
+            "Fernando Alonso Díaz"
+          ]
+        },
+        {
+          "id": "fernanda_torres",
+          "nome": "Fernanda Torres",
+          "descricao": "Atriz e escritora brasileira, filha de Fernanda Montenegro, protagonista de Ainda Estou Aqui.",
+          "variantes": []
+        },
+        {
+          "id": "fernando_pessoa",
+          "nome": "Fernando Pessoa",
+          "descricao": "Poeta português (1888–1935), criador de heterônimos como Alberto Caeiro, Álvaro de Campos e Ricardo Reis.",
+          "variantes": [
+            "Fernando António Nogueira Pessoa"
+          ]
+        },
+        {
+          "id": "fernando_de_noronha",
+          "nome": "Fernando de Noronha",
+          "descricao": "Arquipélago brasileiro no oceano Atlântico, pertencente ao estado de Pernambuco.",
+          "variantes": [
+            "Arquipélago de Fernando de Noronha",
+            "Noronha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Thomas Jefferson",
+        "descricao": "Terceiro presidente dos Estados Unidos e principal autor da Declaração de Independência.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "thomas_edison",
+          "nome": "Thomas Edison",
+          "descricao": "Inventor e empresário americano (1847–1931), conhecido pela lâmpada incandescente e pelo fonógrafo.",
+          "variantes": [
+            "Thomas Alva Edison"
+          ]
+        },
+        {
+          "id": "tom_hanks",
+          "nome": "Tom Hanks",
+          "descricao": "Ator e cineasta americano, vencedor de dois Oscars de melhor ator.",
+          "variantes": [
+            "Thomas Jeffrey Hanks"
+          ]
+        },
+        {
+          "id": "thomas_hobbes",
+          "nome": "Thomas Hobbes",
+          "descricao": "Filósofo político inglês (1588–1679), autor de Leviatã.",
+          "variantes": [
+            "Hobbes"
+          ]
+        },
+        {
+          "id": "os_jetsons",
+          "nome": "Os Jetsons",
+          "descricao": "Desenho animado americano de 1962 sobre uma família que vive num futuro de carros voadores e robôs.",
+          "variantes": [
+            "The Jetsons"
+          ]
+        },
+        {
+          "id": "homem_de_ferro",
+          "nome": "Homem de Ferro",
+          "descricao": "Super-herói da Marvel, identidade do milionário Tony Stark, estreou em 1963",
+          "variantes": [
+            "Iron Man",
+            "Tony Stark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Hideki Tojo",
+        "descricao": "General e primeiro-ministro do Japão de 1941 a 1944, durante a Segunda Guerra Mundial.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_himeji",
+          "nome": "Castelo de Himeji",
+          "descricao": "Complexo de castelo feudal japonês de fachada branca, na cidade de Himeji, província de Hyōgo.",
+          "variantes": [
+            "Himeji-jō",
+            "Castelo da Garça Branca",
+            "Shirasagi-jō"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "George W. Bush não corresponde a nenhuma candidata; Washington e Weah são outras pessoas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "thomas_edison",
+      "motivo": "Mesmo inventor, descrição e variante idênticas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "nikola_tesla",
+      "motivo": "Mesmo engenheiro sérvio-americano da corrente alternada."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "isaac_newton",
+      "motivo": "Mesma pessoa; Leis de Newton e Disco são entidades distintas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Robert Mugabe."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "fernando_collor",
+      "motivo": "Mesmo presidente do Brasil de 1990 a 1992."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Thomas Jefferson não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Hideki Tojo é uma pessoa; a única candidata é um castelo."
+    }
+  ]
+}

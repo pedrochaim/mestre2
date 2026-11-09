@@ -1,0 +1,129 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que inventor americano é este?",
+        "resposta": "Thomas Edison"
+      },
+      "existentes": [
+        {
+          "id": "q01038",
+          "pergunta": "Que aparelho de gravar e reproduzir sons, criado em 1877, é invenção deste inventor americano?",
+          "resposta": "Fonógrafo"
+        },
+        {
+          "id": "q03588",
+          "pergunta": "Thomas Edison ficou conhecido por um apelido ligado ao nome da localidade de Nova Jersey onde instalou seu laboratório. Que apelido?",
+          "resposta": "O Mago de Menlo Park"
+        },
+        {
+          "id": "q03598",
+          "pergunta": "Depois da morte de Thomas Edison, um tubo de ensaio rotulado como seu último suspiro foi enviado a que industrial americano, amigo dele?",
+          "resposta": "Henry Ford"
+        },
+        {
+          "id": "q16832",
+          "pergunta": "Famoso pela lâmpada incandescente e pelo fonógrafo, Thomas Edison registrou nos Estados Unidos cerca de quantas patentes?",
+          "resposta": "Cerca de 1.100"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que engenheiro e inventor da virada do século dezenove para o vinte é este?",
+        "resposta": "Nikola Tesla"
+      },
+      "existentes": [
+        {
+          "id": "q01041",
+          "pergunta": "Quem é este engenheiro e inventor, pioneiro do sistema de energia elétrica em corrente alternada?",
+          "resposta": "Nikola Tesla"
+        },
+        {
+          "id": "q03599",
+          "pergunta": "Ao chegar a Nova York em 1884, Nikola Tesla foi trabalhar para que inventor, que depois se tornaria seu rival?",
+          "resposta": "Thomas Edison"
+        },
+        {
+          "id": "q16858",
+          "pergunta": "Nikola Tesla, filho de sérvios, nasceu em 1856 numa aldeia do Império Austríaco que hoje pertence a que país?",
+          "resposta": "Croácia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que cientista inglês é retratado nesta imagem?",
+        "resposta": "Isaac Newton"
+      },
+      "existentes": [
+        {
+          "id": "q00863",
+          "pergunta": "Qual obra de 1687 deste cientista inglês estabeleceu a mecânica clássica?",
+          "resposta": "Principia Mathematica"
+        },
+        {
+          "id": "q02990",
+          "pergunta": "Em 1665, Isaac Newton deixou Cambridge e foi para a fazenda da família, onde teria visto a famosa maçã cair. Por que ele saiu da universidade?",
+          "resposta": "A peste fechou a universidade"
+        },
+        {
+          "id": "q02991",
+          "pergunta": "Além da física, Isaac Newton dirigiu por décadas que instituição inglesa, onde chegou a perseguir falsificadores?",
+          "resposta": "Casa da Moeda Real"
+        },
+        {
+          "id": "q15094",
+          "pergunta": "Que cientista inglês é este?",
+          "resposta": "Isaac Newton"
+        },
+        {
+          "id": "q19379",
+          "pergunta": "Uma maçã de cerca de cem gramas pesa mais ou menos uma unidade de força do Sistema Internacional. Que nome tem essa unidade?",
+          "resposta": "Newton"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que idade tinha este presidente brasileiro ao tomar posse?",
+        "resposta": "40 anos"
+      },
+      "existentes": [
+        {
+          "id": "q18739",
+          "pergunta": "Em que década este presidente assumiu o cargo?",
+          "resposta": "Década de 1990"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta de identificação por imagem; nenhuma existente pergunta quem é o inventor com essa imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação de Nikola Tesla como engenheiro e inventor.",
+      "id_existente": "q01041"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar o cientista inglês Isaac Newton.",
+      "id_existente": "q15094"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Idade na posse é um fato diferente da década em que assumiu."
+    }
+  ]
+}

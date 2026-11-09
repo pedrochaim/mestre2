@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, sem texto; bandeira não entrega o nome.",
+      "destino": 5,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que presidente americano é este?",
+      "resposta": "George W. Bush",
+      "distratores": [
+        "Bill Clinton",
+        "Ronald Reagan",
+        "George H. W. Bush"
+      ],
+      "ancora": {
+        "nome": "George W. Bush",
+        "descricao": "43º presidente dos Estados Unidos, de 2001 a 2009.",
+        "variantes": [
+          "George Walker Bush",
+          "Bush filho"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A tapeçaria mostra o início do nome (VVIL) bordado ao lado da figura, o que entrega a resposta; a figura também é pouco reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Busto romano sem inscrição, parecido com outros retratos imperiais flavianos; resposta não é única nem reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto, rosto bem conhecido.",
+      "destino": 5,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que inventor americano é este?",
+      "resposta": "Thomas Edison",
+      "distratores": [
+        "Alexander Graham Bell",
+        "Henry Ford",
+        "Guglielmo Marconi"
+      ],
+      "ancora": {
+        "nome": "Thomas Edison",
+        "descricao": "Inventor e empresário americano, conhecido pela lâmpada incandescente e pelo fonógrafo.",
+        "variantes": [
+          "Thomas Alva Edison"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto; trocada para o_que_e para evitar pergunta de ano.",
+      "destino": 5,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que engenheiro e inventor, nascido na Europa e radicado nos Estados Unidos, é este?",
+      "resposta": "Nikola Tesla",
+      "distratores": [
+        "Guglielmo Marconi",
+        "Alexander Graham Bell",
+        "Werner von Siemens"
+      ],
+      "ancora": {
+        "nome": "Nikola Tesla",
+        "descricao": "Engenheiro e inventor sérvio-americano, conhecido pelo sistema de corrente alternada.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Gravura de busto com elmo, que pode ser confundida com outros estrategos gregos (como Péricles); identificação não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura de retrato nítida e famosa, sem texto.",
+      "destino": 4,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista inglês é retratado nesta pintura do século dezessete?",
+      "resposta": "Isaac Newton",
+      "distratores": [
+        "Gottfried Leibniz",
+        "Edmond Halley",
+        "Robert Boyle"
+      ],
+      "ancora": {
+        "nome": "Isaac Newton",
+        "descricao": "Matemático e físico inglês, autor dos Principia e da lei da gravitação universal.",
+        "variantes": [
+          "Sir Isaac Newton"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; pergunta sobre o país que governou, evitando ano.",
+      "destino": 9,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país africano este líder governou por décadas?",
+      "resposta": "Zimbábue",
+      "distratores": [
+        "Zâmbia",
+        "Malauí",
+        "Quênia"
+      ],
+      "ancora": {
+        "nome": "Robert Mugabe",
+        "descricao": "Líder revolucionário que governou o Zimbábue de 1980 a 2017.",
+        "variantes": [
+          "Robert Gabriel Mugabe"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Relevo egípcio sem inscrição legível; faraós do Reino Novo são representados de modo semelhante, então a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato oficial com faixa presidencial, sem texto.",
+      "destino": 8,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que idade tinha este presidente brasileiro ao tomar posse?",
+      "resposta": "40 anos",
+      "distratores": [
+        "36 anos",
+        "44 anos",
+        "48 anos"
+      ],
+      "ancora": {
+        "nome": "Fernando Collor",
+        "descricao": "Presidente do Brasil de 1990 a 1992, renunciou durante o processo de impeachment.",
+        "variantes": [
+          "Fernando Collor de Mello"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura de retrato nítida e conhecida, sem texto.",
+      "destino": 4,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fundador dos Estados Unidos é retratado nesta pintura?",
+      "resposta": "Thomas Jefferson",
+      "distratores": [
+        "Benjamin Franklin",
+        "John Adams",
+        "James Madison"
+      ],
+      "ancora": {
+        "nome": "Thomas Jefferson",
+        "descricao": "Terceiro presidente dos Estados Unidos e principal autor da Declaração de Independência.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto; rosto reconhecível.",
+      "destino": 7,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que general japonês, chefe de governo durante a Segunda Guerra, é este?",
+      "resposta": "Hideki Tojo",
+      "distratores": [
+        "Isoroku Yamamoto",
+        "Tomoyuki Yamashita",
+        "Masaharu Homma"
+      ],
+      "ancora": {
+        "nome": "Hideki Tojo",
+        "descricao": "General e primeiro-ministro do Japão de 1941 a 1944, durante a Segunda Guerra Mundial.",
+        "variantes": [
+          "Hideki Tōjō"
+        ]
+      }
+    }
+  ]
+}
