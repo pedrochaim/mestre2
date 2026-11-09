@@ -1,0 +1,88 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este canídeo sul-americano vive em que tipo de ambiente?",
+        "resposta": "Savana"
+      },
+      "existentes": [
+        {
+          "id": "q00245",
+          "pergunta": "Com pernas longas e pelagem alaranjada, qual é o maior canídeo da América do Sul?",
+          "resposta": "Lobo-guará"
+        },
+        {
+          "id": "q00246",
+          "pergunta": "Lançada em 2020, a cédula de duzentos reais traz a imagem de qual animal?",
+          "resposta": "Lobo-guará"
+        },
+        {
+          "id": "q17821",
+          "pergunta": "Segundo os biólogos, as pernas longuíssimas do lobo-guará são uma adaptação para quê?",
+          "resposta": "Ver por cima do capim"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que bioma vive este animal?",
+        "resposta": "Tundra"
+      },
+      "existentes": [
+        {
+          "id": "q14476",
+          "pergunta": "Em que região do planeta vive naturalmente esta raposa?",
+          "resposta": "Ártico"
+        },
+        {
+          "id": "q17824",
+          "pergunta": "No inverno, a raposa-do-ártico troca a pelagem marrom por uma toda branca. Qual é a principal vantagem dessa mudança de cor?",
+          "resposta": "Camuflagem na neve"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que planta aquática é esta?",
+        "resposta": "Vitória-régia"
+      },
+      "existentes": [
+        {
+          "id": "q02676",
+          "pergunta": "Que famoso prédio de ferro e vidro, erguido em Londres em 1851, teve a estrutura inspirada nas nervuras da folha da vitória-régia?",
+          "resposta": "Palácio de Cristal"
+        },
+        {
+          "id": "q06099",
+          "pergunta": "A flor da vitória-régia se abre ao anoitecer, branca e perfumada. Na segunda noite, ela volta a se abrir com que cor?",
+          "resposta": "Rosa"
+        },
+        {
+          "id": "q19027",
+          "pergunta": "A face de baixo da folha gigante da vitória-régia é protegida contra peixes e outros herbívoros por quê?",
+          "resposta": "Espinhos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Habitat (savana/cerrado) é um fato distinto; a pergunta sobre pernas longas para ver sobre o capim é outro fato, e não revela o ambiente diretamente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bioma (tundra) difere da região do planeta (Ártico); embora próximos, na dúvida decide nova."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar a planta pela imagem é um fato diferente de inspiração do Palácio de Cristal, cor da flor ou espinhos."
+    }
+  ]
+}

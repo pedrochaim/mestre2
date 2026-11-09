@@ -1,0 +1,219 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida do lobo-guará, inconfundível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este canídeo sul-americano vive em que tipo de ambiente?",
+      "resposta": "Savana",
+      "distratores": [
+        "Tundra",
+        "Taiga",
+        "Mangue"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lobo-guará",
+        "descricao": "Grande canídeo de pernas longas e pelagem avermelhada da América do Sul, Chrysocyon brachyurus.",
+        "variantes": [
+          "Chrysocyon brachyurus",
+          "Maned wolf"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Coluna de fogo em rotação bem visível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno é este?",
+      "resposta": "Redemoinho de fogo",
+      "distratores": [
+        "Tromba-d'água",
+        "Tempestade de areia",
+        "Fogo-fátuo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Redemoinho de fogo",
+        "descricao": "Turbilhão de ar induzido por um incêndio, composto em parte de chamas ou cinzas.",
+        "variantes": [
+          "Tornado de fogo",
+          "Firenado",
+          "Fire whirl"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Ponto verde sobre o horizonte do mar ao pôr do sol, característico do raio verde.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno óptico, durando poucos segundos, é este?",
+      "resposta": "Raio verde",
+      "distratores": [
+        "Aurora austral",
+        "Halo solar",
+        "Pilar solar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Raio verde",
+        "descricao": "Fenômeno óptico atmosférico em que surge um ponto verde acima do Sol no nascer ou no pôr do sol.",
+        "variantes": [
+          "Brilho verde",
+          "Green flash"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Raposa-do-ártico em vegetação de tundra, bem nítida; etiqueta numérica na orelha não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que bioma vive este animal?",
+      "resposta": "Tundra",
+      "distratores": [
+        "Savana",
+        "Mangue",
+        "Pampa"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Raposa-do-ártico",
+        "descricao": "Pequena raposa das regiões árticas, de pelagem que embranquece no inverno, Vulpes lagopus.",
+        "variantes": [
+          "Raposa-polar",
+          "Vulpes lagopus",
+          "Arctic fox"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Palmeiras em leque podem ser confundidas com outras espécies; a carnaúba não é reconhecível com segurança pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Paisagem de yardangs (kaluts) característica do deserto de Lut, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este deserto de formações erodidas pelo vento?",
+      "resposta": "Irã",
+      "distratores": [
+        "Omã",
+        "Arábia Saudita",
+        "Iraque"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Deserto de Lut",
+        "descricao": "Deserto do sudeste do Irã com salares e dunas, de superfície muito quente.",
+        "variantes": [
+          "Dasht-e Lut",
+          "Deserto de Lute",
+          "Lut Desert"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Flor branca de vitória-régia com borda da folha visível ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta aquática é esta?",
+      "resposta": "Vitória-régia",
+      "distratores": [
+        "Lótus-sagrado",
+        "Aguapé",
+        "Ninfeia-azul"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Vitória-régia",
+        "descricao": "Gigante planta aquática da bacia amazônica, de folhas enormes e flores brancas, Victoria amazonica.",
+        "variantes": [
+          "Victoria amazonica",
+          "Iaupê-jaçanã"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Descargas elétricas na coluna de cinzas de uma erupção, claras e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno elétrico é este?",
+      "resposta": "Raio vulcânico",
+      "distratores": [
+        "Raio globular",
+        "Fogo-de-santelmo",
+        "Relâmpago de calor"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Raio vulcânico",
+        "descricao": "Descarga elétrica causada por colisão de partículas de cinzas numa erupção vulcânica.",
+        "variantes": [
+          "Volcanic lightning",
+          "Tempestade suja"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Terraços de travertino em recorte fechado; poderiam ser confundidos com outros locais (como Pamukkale), sem resposta única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dromedário com filhote, corcova única bem visível, em ambiente árido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espécie de camelo é esta?",
+      "resposta": "Dromedário",
+      "distratores": [
+        "Camelo-bactriano",
+        "Lhama",
+        "Guanaco"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Dromedário",
+        "descricao": "Camelo de uma só corcova, Camelus dromedarius, adaptado a desertos.",
+        "variantes": [
+          "Camelus dromedarius",
+          "Camelo árabe"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vista aérea de calota de gelo e terra escura sem marcos reconhecíveis; poderia ser outra geleira (Noruega, Alasca), sem resposta única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de um lago sem elemento que permita reconhecê-lo; a entidade não é identificável pela imagem."
+    }
+  ]
+}

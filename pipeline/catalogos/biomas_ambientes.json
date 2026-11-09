@@ -950,7 +950,7 @@
       "titulo": "en:Green flash",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Llanos",
@@ -1111,11 +1111,291 @@
       "titulo": "en:Lut Desert",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lago Mono",
       "titulo": "en:Mono Lake",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sertão",
+      "titulo": "pt:Sertão",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mandacaru",
+      "titulo": "en:Cereus jamacaru",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Araucária",
+      "titulo": "en:Araucaria angustifolia",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Baobá",
+      "titulo": "en:Adansonia",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Kilimanjaro",
+      "titulo": "en:Mount Kilimanjaro",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lobo-guará",
+      "titulo": "en:Maned wolf",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Buriti",
+      "titulo": "en:Mauritia flexuosa",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vitória-régia",
+      "titulo": "en:Victoria amazonica",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Dromedário",
+      "titulo": "en:Dromedary",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Morsa",
+      "titulo": "en:Walrus",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Jacaré-do-pantanal",
+      "titulo": "en:Yacare caiman",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tuiuiú",
+      "titulo": "en:Jabiru",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Raposa-do-ártico",
+      "titulo": "en:Arctic fox",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Carnaúba",
+      "titulo": "en:Copernicia prunifera",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sol da meia-noite",
+      "titulo": "en:Midnight sun",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Relâmpago do Catatumbo",
+      "titulo": "en:Catatumbo lightning",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Redemoinho de fogo",
+      "titulo": "en:Fire whirl",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Deserto de Mojave",
+      "titulo": "en:Mojave Desert",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta de bambu de Arashiyama",
+      "titulo": "en:Sagano Bamboo Forest",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sequoia-gigante",
+      "titulo": "en:Sequoiadendron giganteum",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Raio vulcânico",
+      "titulo": "en:Volcanic lightning",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Strokkur",
+      "titulo": "en:Strokkur",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Etna",
+      "titulo": "en:Mount Etna",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Deadvlei",
+      "titulo": "en:Deadvlei",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Coruja-das-neves",
+      "titulo": "en:Snowy owl",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Iaque",
+      "titulo": "en:Domestic yak",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Eyjafjallajökull",
+      "titulo": "en:Eyjafjallajökull",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Campinarana",
+      "titulo": "pt:Campinarana",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cerradão",
+      "titulo": "pt:Cerradão",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem bandeira",
+      "titulo": "en:Banner cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Buraco de nuvem",
+      "titulo": "en:Fallstreak hole",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco circum-horizontal",
+      "titulo": "en:Circumhorizontal arc",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pó de diamante",
+      "titulo": "en:Diamond dust",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fly Geyser",
+      "titulo": "en:Fly Geyser",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Laguna Colorada",
+      "titulo": "en:Laguna Colorada",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Nyos",
+      "titulo": "en:Lake Nyos",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Manchado",
+      "titulo": "en:Spotted Lake",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mammoth Hot Springs",
+      "titulo": "en:Mammoth Hot Springs",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Boi-almiscarado",
+      "titulo": "en:Muskox",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Jökulsárlón",
+      "titulo": "en:Jökulsárlón",
       "camada": 3,
       "destino": 1,
       "status": "nova"
