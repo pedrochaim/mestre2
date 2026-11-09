@@ -1,0 +1,107 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cantor é este?",
+        "resposta": "Wesley Safadão"
+      },
+      "existentes": [
+        {
+          "id": "q16124",
+          "pergunta": "Com que banda de família este cantor nordestino começou a carreira profissional?",
+          "resposta": "Garota Safada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que cantor sertanejo é este?",
+        "resposta": "Luan Santana"
+      },
+      "existentes": [
+        {
+          "id": "q15196",
+          "pergunta": "Que cantor sertanejo é este?",
+          "resposta": "Luan Santana"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que personagem este cantor criou em 1972, ligado a um álbum seu?",
+        "resposta": "Ziggy Stardust"
+      },
+      "existentes": [
+        {
+          "id": "q16661",
+          "pergunta": "David Bowie nasceu David Jones e trocou de nome para não ser confundido com o cantor de que banda?",
+          "resposta": "The Monkees"
+        },
+        {
+          "id": "q16667",
+          "pergunta": "Os olhos de David Bowie pareciam ter cores diferentes porque uma pupila ficou sempre dilatada. O que causou isso?",
+          "resposta": "Um soco na adolescência"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que cantor e rapper é este?",
+        "resposta": "Criolo"
+      },
+      "existentes": [
+        {
+          "id": "q16129",
+          "pergunta": "Que álbum de 2011 deu fama mundial a este rapper paulistano?",
+          "resposta": "Nó na Orelha"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que música de 2011 projetou este cantor internacionalmente?",
+        "resposta": "Balada"
+      },
+      "existentes": [
+        {
+          "id": "q14860",
+          "pergunta": "Quem é este cantor sertanejo brasileiro?",
+          "resposta": "Gusttavo Lima"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o cantor pela imagem é diferente de perguntar a banda de início de carreira."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q15196",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Personagem Ziggy Stardust é fato diferente do nome de nascimento e da causa da pupila."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o rapper é diferente de perguntar o álbum de 2011; a resposta de uma não leva à outra necessariamente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A música de 2011 é um fato diferente de identificar o cantor pela imagem."
+    }
+  ]
+}

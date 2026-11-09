@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista; distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o Oscar de coadjuvante por O Franco-Atirador. O enunciado não entrega o ator. Os distratores são filmes dele, e Prenda-me se for capaz rendeu só indicação.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples. Distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Os distratores são cantores de R&B ou pop, plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o filme de 1985, dirigido por John Boorman, produção britânica, com a atriz aos catorze anos. O enunciado não nomeia a atriz. Os distratores são filmes de época próxima.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Henrique' é só metade de uma dupla (Henrique e Juliano) e não é um cantor solo comparável. Troquei por um cantor sertanejo solo.",
+      "reescrita": {
+        "pergunta": "Que cantor sertanejo é este?",
+        "resposta": "Luan Santana",
+        "distratores": [
+          "Michel Teló",
+          "Gusttavo Lima",
+          "Cristiano Araújo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Ziggy Stardust em 1972, ligado ao álbum The Rise and Fall of Ziggy Stardust. O enunciado não nomeia o cantor. Os distratores são personas de outros artistas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples. Distratores do mesmo meio, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que 'Balada', de 2011, o projetou internacionalmente. O enunciado não nomeia o cantor. Os distratores são outras músicas sertanejas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples. As distratoras são atrizes de perfil parecido, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Ratinho é pai do político Ratinho Júnior. O enunciado não nomeia o apresentador. A resposta é única e os distratores são políticos conhecidos.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, ator famoso reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que ator é este?",
+      "resposta": "Sylvester Stallone",
+      "distratores": [
+        "Arnold Schwarzenegger",
+        "Bruce Willis",
+        "Jason Statham"
+      ],
+      "ancora": {
+        "nome": "Sylvester Stallone",
+        "descricao": "Ator e cineasta americano, intérprete de Rocky Balboa e John Rambo.",
+        "variantes": [
+          "Sly Stallone"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; pergunta de nível 3 sustentada pelo trecho (Oscar por The Deer Hunter).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Este ator ganhou o Oscar de coadjuvante por qual filme?",
+      "resposta": "O Franco-Atirador",
+      "distratores": [
+        "Prenda-me se for capaz",
+        "Pulp Fiction",
+        "Rei de Nova York"
+      ],
+      "ancora": {
+        "nome": "Christopher Walken",
+        "descricao": "Ator americano, vencedor do Oscar de melhor ator coadjuvante por O Franco-Atirador.",
+        "variantes": [
+          "Chris Walken"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de show, sem texto, cantor reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cantor é este?",
+      "resposta": "Wesley Safadão",
+      "distratores": [
+        "Gusttavo Lima",
+        "Luan Santana",
+        "Xand Avião"
+      ],
+      "ancora": {
+        "nome": "Wesley Safadão",
+        "descricao": "Cantor e empresário cearense, líder da banda Garota Safada.",
+        "variantes": [
+          "Wesley Oliveira da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; traços característicos (cabelo, barba, óculos).",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cantor é este?",
+      "resposta": "The Weeknd",
+      "distratores": [
+        "Frank Ocean",
+        "Bruno Mars",
+        "Post Malone"
+      ],
+      "ancora": {
+        "nome": "The Weeknd",
+        "descricao": "Cantor, compositor e produtor canadense de R&B, nome artístico de Abel Tesfaye.",
+        "variantes": [
+          "Abel Tesfaye"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato claro; o texto parcial ao fundo (órgão público) não entrega a resposta. Pergunta de nível 3 sustentada pelo trecho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que filme britânico esta atriz brasileira estreou, em 1985?",
+      "resposta": "A Floresta das Esmeraldas",
+      "distratores": [
+        "A Missão",
+        "Fitzcarraldo",
+        "Greystoke"
+      ],
+      "ancora": {
+        "nome": "Dira Paes",
+        "descricao": "Atriz e apresentadora brasileira nascida em Abaetetuba, no Pará.",
+        "variantes": [
+          "Ecleidira Maria Fonseca Paes"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de show, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cantor sertanejo é este?",
+      "resposta": "Luan Santana",
+      "distratores": [
+        "Michel Teló",
+        "Gusttavo Lima",
+        "Henrique"
+      ],
+      "ancora": {
+        "nome": "Luan Santana",
+        "descricao": "Cantor e compositor sertanejo brasileiro nascido em Campo Grande em 1991.",
+        "variantes": [
+          "Luan Rafael Domingos Santana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto sem texto, pequena mas legível; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que personagem este cantor criou em 1972, ligado a um álbum seu?",
+      "resposta": "Ziggy Stardust",
+      "distratores": [
+        "Sasha Fierce",
+        "Slim Shady",
+        "Captain Fantastic"
+      ],
+      "ancora": {
+        "nome": "David Bowie",
+        "descricao": "Cantor, compositor e ator inglês de rock, criador do personagem Ziggy Stardust.",
+        "variantes": [
+          "David Robert Jones"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de show, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cantor e rapper é este?",
+      "resposta": "Criolo",
+      "distratores": [
+        "Emicida",
+        "Mano Brown",
+        "Projota"
+      ],
+      "ancora": {
+        "nome": "Criolo",
+        "descricao": "Cantor, rapper e compositor paulistano, nascido Kleber Cavalcante Gomes.",
+        "variantes": [
+          "Criolo Doido",
+          "Kleber Cavalcante Gomes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato legível; texto parcial ao fundo não identifica o cantor.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que música de 2011 projetou este cantor internacionalmente?",
+      "resposta": "Balada",
+      "distratores": [
+        "Inventor dos Amores",
+        "Cor de Ouro",
+        "Refém"
+      ],
+      "ancora": {
+        "nome": "Gusttavo Lima",
+        "descricao": "Cantor e compositor sertanejo brasileiro, conhecido pelo sucesso Balada.",
+        "variantes": [
+          "Nivaldo Batista Lima"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Close nítido, sem texto, atriz famosa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que atriz é esta?",
+      "resposta": "Nicole Kidman",
+      "distratores": [
+        "Naomi Watts",
+        "Reese Witherspoon",
+        "Charlize Theron"
+      ],
+      "ancora": {
+        "nome": "Nicole Kidman",
+        "descricao": "Atriz e produtora australiana e americana, vencedora do Oscar por As Horas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto muito escura, rosto quase todo oculto por sombra, chapéu de penas e olhos fechados; a artista não é reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato de corpo inteiro; o logotipo parcial ao fundo não nomeia o apresentador.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Este apresentador é pai de qual político?",
+      "resposta": "Ratinho Júnior",
+      "distratores": [
+        "Ciro Gomes",
+        "Flávio Bolsonaro",
+        "Eduardo Paes"
+      ],
+      "ancora": {
+        "nome": "Ratinho",
+        "descricao": "Apresentador de TV brasileiro, nascido Carlos Roberto Massa, fundador do Grupo Massa.",
+        "variantes": [
+          "Carlos Roberto Massa"
+        ]
+      }
+    }
+  ]
+}
