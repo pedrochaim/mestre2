@@ -1,0 +1,230 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de bastidor de um grupo com esqueleto e etiquetas de nome; não é cena reconhecível e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena icônica da escada no céu, reconhecível e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Peter Weir",
+      "distratores": [
+        "Barry Levinson",
+        "Terry Gilliam",
+        "Ron Howard"
+      ],
+      "ancora": {
+        "nome": "O Show de Truman",
+        "descricao": "Filme de 1998 em que um homem descobre que sua vida é um programa de TV, com Jim Carrey.",
+        "variantes": [
+          "The Truman Show",
+          "O Show de Truman: O Show da Vida"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Close em preto e branco de uma mulher algemada; não permite reconhecer o filme, e a década de lançamento seria um palpite (muda 1920 e 1930 não se distingue pela imagem)."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Quatro crianças com o coelho azul, claramente a Turma da Mônica; filme brasileiro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que filme brasileiro é esta cena?",
+      "resposta": "Turma da Mônica: Laços",
+      "distratores": [
+        "Cine Holliúdy",
+        "Xuxa e os Duendes",
+        "Tainá: Uma Aventura"
+      ],
+      "ancora": {
+        "nome": "Turma da Mônica: Laços",
+        "descricao": "Filme brasileiro de 2019, adaptação em live action da graphic novel da Turma da Mônica.",
+        "variantes": [
+          "Laços",
+          "Turma da Mônica Laços"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação com os três protagonistas, sem texto, de série famosa.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que década estreou a série desta imagem?",
+      "resposta": "Década de 2000",
+      "distratores": [
+        "Década de 1980",
+        "Década de 1990",
+        "Década de 2010"
+      ],
+      "ancora": {
+        "nome": "Dois Homens e Meio",
+        "descricao": "Série de comédia americana estreada em 2003 sobre um solteirão, seu irmão divorciado e o sobrinho.",
+        "variantes": [
+          "Two and a Half Men"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Close célebre da protagonista, em preto e branco, sem texto; cena emblemática do cinema mudo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "A Paixão de Joana d'Arc",
+      "distratores": [
+        "O Encouraçado Potemkin",
+        "Um Cão Andaluz",
+        "Intolerância"
+      ],
+      "ancora": {
+        "nome": "A Paixão de Joana d'Arc",
+        "descricao": "Filme mudo francês de 1928 dirigido por Carl Theodor Dreyer sobre o julgamento de Joana d'Arc.",
+        "variantes": [
+          "La Passion de Jeanne d'Arc",
+          "O Martírio de Joana D'Arc"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Freira de óculos escuros, reconhecível e sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década foi lançado o filme desta cena?",
+      "resposta": "Década de 1990",
+      "distratores": [
+        "Década de 1970",
+        "Década de 1980",
+        "Década de 2000"
+      ],
+      "ancora": {
+        "nome": "Mudança de Hábito",
+        "descricao": "Comédia americana de 1992 sobre uma cantora que se disfarça de freira num convento.",
+        "variantes": [
+          "Sister Act"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cena rural com menino, violão, acordeão e pai de chapéu; sem texto, filme brasileiro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que dupla sertaneja é retratada no filme desta cena?",
+      "resposta": "Zezé Di Camargo e Luciano",
+      "distratores": [
+        "Chitãozinho e Xororó",
+        "Leandro e Leonardo",
+        "João Paulo e Daniel"
+      ],
+      "ancora": {
+        "nome": "2 Filhos de Francisco",
+        "descricao": "Filme brasileiro de 2005 sobre a história de Francisco Camargo e dos filhos que formaram uma dupla sertaneja.",
+        "variantes": [
+          "Dois Filhos de Francisco"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto de elenco de uma única série, sem texto; reconhecível para quem conhece a série.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "De que série é este elenco?",
+      "resposta": "Arrested Development",
+      "distratores": [
+        "Modern Family",
+        "Parks and Recreation",
+        "Community"
+      ],
+      "ancora": {
+        "nome": "Arrested Development",
+        "descricao": "Série de comédia americana estreada em 2003 sobre uma família rica que perdeu a fortuna.",
+        "variantes": [
+          "Arrested Development: Trapaceiros"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cena inconfundível do personagem de rosto verde, chapéu e terno amarelos, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ator interpreta o personagem desta cena?",
+      "resposta": "Jim Carrey",
+      "distratores": [
+        "Robin Williams",
+        "Eddie Murphy",
+        "Mike Myers"
+      ],
+      "ancora": {
+        "nome": "O Máskara",
+        "descricao": "Comédia americana de 1994 em que um bancário ganha poderes ao usar uma máscara verde.",
+        "variantes": [
+          "The Mask"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É arte de divulgação no formato de pôster, com fundo branco e texto parcial de letreiro; não é cena."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fotograma de cenário expressionista característico, preto e branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "O Gabinete do Dr. Caligari",
+      "distratores": [
+        "Nosferatu",
+        "Metrópolis",
+        "O Golem"
+      ],
+      "ancora": {
+        "nome": "O Gabinete do Dr. Caligari",
+        "descricao": "Filme mudo alemão de 1920, marco do expressionismo, sobre um hipnotizador e seu sonâmbulo.",
+        "variantes": [
+          "Das Cabinet des Dr. Caligari",
+          "The Cabinet of Dr. Caligari"
+        ]
+      }
+    }
+  ]
+}

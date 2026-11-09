@@ -1160,7 +1160,7 @@
       "titulo": "tmdb:filme:Sister Act (1992) | en:Sister Act",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Uma Babá Quase Perfeita",
@@ -1230,7 +1230,7 @@
       "titulo": "tmdb:filme:The Truman Show (1998) | en:The Truman Show",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Os Bons Companheiros",
@@ -1251,7 +1251,7 @@
       "titulo": "tmdb:filme:2 Filhos de Francisco (2005) | pt:2 Filhos de Francisco",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Meu Nome Não É Johnny",
@@ -1307,14 +1307,14 @@
       "titulo": "tmdb:serie:Two and a Half Men (2003) | en:Two and a Half Men",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Limite (filme)",
       "titulo": "tmdb:filme:Limite (1931) | pt:Limite (filme)",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "São Paulo, Sociedade Anônima",
@@ -1363,7 +1363,7 @@
       "titulo": "tmdb:filme:Das Cabinet des Dr. Caligari (1920) | en:The Cabinet of Dr. Caligari",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Fargo (filme)",
@@ -1396,6 +1396,286 @@
     {
       "nome": "Arrested Development",
       "titulo": "tmdb:serie:Arrested Development (2003) | en:Arrested Development",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Os Cavaleiros do Zodíaco",
+      "titulo": "tmdb:serie:Saint Seiya (1986) | pt:Os Cavaleiros do Zodíaco",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "O Máskara",
+      "titulo": "tmdb:filme:The Mask (1994) | pt:O Máskara",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Jumanji (filme de 1995)",
+      "titulo": "tmdb:filme:Jumanji (1995) | pt:Jumanji",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Avatar (filme de 2009)",
+      "titulo": "tmdb:filme:Avatar (2009) | pt:Avatar (filme)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Era do Gelo",
+      "titulo": "tmdb:filme:Ice Age (2002) | pt:A Era do Gelo",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "De Pernas pro Ar",
+      "titulo": "tmdb:filme:De Pernas pro Ar (2010) | pt:De Pernas pro Ar",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Da Cor do Pecado",
+      "titulo": "tmdb:serie:Da Cor do Pecado (2004) | pt:Da Cor do Pecado",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Verdades Secretas",
+      "titulo": "tmdb:serie:Verdades Secretas (2015) | pt:Verdades Secretas",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pokémon (anime)",
+      "titulo": "tmdb:serie:Pokémon (1997) | pt:Pokémon (anime)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Homem de Ferro (filme de 2008)",
+      "titulo": "tmdb:filme:Iron Man (2008) | pt:Homem de Ferro (filme)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Casseta & Planeta, Urgente!",
+      "titulo": "tmdb:serie:Casseta & Planeta, Urgente! (1992) | pt:Casseta & Planeta, Urgente!",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mulan (filme de 1998)",
+      "titulo": "tmdb:filme:Mulan (1998) | pt:Mulan (filme de 1998)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Turma da Mônica: Laços",
+      "titulo": "tmdb:filme:Turma da Mônica: Laços (2019) | pt:Turma da Mônica: Laços",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "La La Land: Cantando Estações",
+      "titulo": "tmdb:filme:La La Land (2016) | pt:La La Land",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bastardos Inglórios",
+      "titulo": "tmdb:filme:Inglourious Basterds (2009) | pt:Inglourious Basterds",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cisne Negro",
+      "titulo": "tmdb:filme:Black Swan (2010) | en:Black Swan (film)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "O Grande Hotel Budapeste",
+      "titulo": "tmdb:filme:The Grand Budapest Hotel (2014) | en:The Grand Budapest Hotel",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corra!",
+      "titulo": "tmdb:filme:Get Out (2017) | en:Get Out",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sherlock (série)",
+      "titulo": "tmdb:serie:Sherlock (2010) | en:Sherlock (TV series)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "How I Met Your Mother",
+      "titulo": "tmdb:serie:How I Met Your Mother (2005) | pt:How I Met Your Mother",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cazuza – O Tempo Não Para",
+      "titulo": "tmdb:filme:Cazuza – O Tempo Não Para (2004) | pt:Cazuza - O Tempo Não Para",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Olga (filme)",
+      "titulo": "tmdb:filme:Olga (2004) | pt:Olga (filme)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cidade Invisível",
+      "titulo": "tmdb:serie:Cidade Invisível (2021) | pt:Cidade Invisível (série)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Os Dez Mandamentos (telenovela)",
+      "titulo": "tmdb:serie:Os Dez Mandamentos (2015) | pt:Os Dez Mandamentos (telenovela)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tudo Sobre Minha Mãe",
+      "titulo": "tmdb:filme:Todo sobre mi madre (1999) | pt:Todo sobre mi madre",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Coisa Mais Linda",
+      "titulo": "tmdb:serie:Coisa Mais Linda (2019) | pt:Coisa Mais Linda",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Narcos",
+      "titulo": "tmdb:serie:Narcos (2015) | pt:Narcos",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "A Hora da Estrela (filme)",
+      "titulo": "tmdb:filme:A Hora da Estrela (1985) | pt:A Hora da Estrela (filme)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aquarius (filme)",
+      "titulo": "tmdb:filme:Aquarius (2016) | pt:Aquarius (filme)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tatuagem (filme)",
+      "titulo": "tmdb:filme:Tatuagem (2013) | pt:Tatuagem (filme)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cronicamente Inviável",
+      "titulo": "tmdb:filme:Cronicamente Inviável (2000) | pt:Cronicamente Inviável",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Capitu (minissérie)",
+      "titulo": "tmdb:serie:Capitu (2008) | pt:Capitu (minissérie)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "A Paixão de Joana d'Arc",
+      "titulo": "tmdb:filme:La Passion de Jeanne d'Arc (1928) | pt:La Passion de Jeanne d'Arc",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Jeanne Dielman",
+      "titulo": "tmdb:filme:Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles (1975) | en:Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Andrei Rublev (filme)",
+      "titulo": "tmdb:filme:Andrei Rublev (1966) | pt:Andrei Rublev (filme)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Montanha Sagrada",
+      "titulo": "tmdb:filme:La montaña sagrada (1973) | en:The Holy Mountain (1973 film)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Close-Up (filme de 1990)",
+      "titulo": "tmdb:filme:Close-Up (1990) | en:Close-Up (1990 film)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Neon Genesis Evangelion",
+      "titulo": "tmdb:serie:Neon Genesis Evangelion (1995) | pt:Neon Genesis Evangelion",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mindhunter",
+      "titulo": "tmdb:serie:Mindhunter (2017) | en:Mindhunter (TV series)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "O Reino (série de 1994)",
+      "titulo": "tmdb:serie:Riget (1994) | en:The Kingdom (miniseries)",
       "camada": 3,
       "destino": 1,
       "status": "nova"
