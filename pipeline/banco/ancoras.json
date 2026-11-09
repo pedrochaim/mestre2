@@ -13429,7 +13429,8 @@
       "Frasco a vácuo",
       "Vacuum flask",
       "Thermos",
-      "Vaso de Dewar"
+      "Vaso de Dewar",
+      "Garrafa de Dewar"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Vacuum_flask"
@@ -21891,7 +21892,10 @@
       "wikidata": "Q8750",
       "pt": 1938,
       "en": 36420
-    }
+    },
+    "variantes": [
+      "Faraday"
+    ]
   },
   {
     "id": "alexander_graham_bell",
@@ -98010,7 +98014,8 @@
     "descricao": "Instrumento eletrônico que detecta e mede radiação ionizante usando um tubo Geiger-Müller.",
     "variantes": [
       "Contador Geiger-Müller",
-      "Detector Geiger"
+      "Detector Geiger",
+      "Geiger counter"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Geiger_counter",
@@ -105627,7 +105632,8 @@
     "nome": "Andrei Sakharov",
     "descricao": "Físico nuclear soviético (1921–1989), um dos criadores da bomba de hidrogênio soviética e Nobel da Paz de 1975.",
     "variantes": [
-      "Andrei Dmitrievich Sakharov"
+      "Andrei Dmitrievich Sakharov",
+      "Andrej Sakharov"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Andrei_Sakharov"
@@ -195766,7 +195772,8 @@
     "descricao": "Som de frequência acima do limite da audição humana, usado em exames médicos e na ecolocalização de animais.",
     "variantes": [
       "Ultra-som",
-      "Ultrasound"
+      "Ultrasound",
+      "Ultrassons"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Ultrasound",
@@ -233443,5 +233450,30 @@
       "pt": 129,
       "en": 3936
     }
+  },
+  {
+    "id": "entropia",
+    "nome": "Entropia",
+    "descricao": "Grandeza da termodinâmica, introduzida por Rudolf Clausius em 1865, associada à irreversibilidade dos processos e ao grau de desordem de um sistema.",
+    "variantes": [
+      "Entropy"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Entropia",
+      "https://en.wikipedia.org/wiki/Entropy"
+    ]
+  },
+  {
+    "id": "experimento_da_dupla_fenda",
+    "nome": "Experimento da dupla fenda",
+    "descricao": "Experimento em que a luz que passa por duas fendas forma faixas de interferência, mostrando seu comportamento ondulatório; feito pela primeira vez por Thomas Young no começo do século dezenove.",
+    "variantes": [
+      "Experiência da dupla fenda",
+      "Experimento de Young",
+      "Double-slit experiment"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Double-slit_experiment"
+    ]
   }
 ]
