@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gênero Ateles ocorre na América Central e do Sul (inclui Brasil), então 'sul-americano' é verdadeiro. Sem vazamento, distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma a análise proteômica de 2025 e a atribuição a denisovano; mandíbula do canal de Penghu, Taiwan. Resposta única e sem nomear a entidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista que entregue.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gelada vive apenas nas terras altas da Etiópia. Enunciado não entrega a espécie; distratores são países africanos incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples de babuíno (gênero Papio, África). Resposta genérica aceitável para o nível 1.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Aberta exige distinguir a espécie de saguis muito parecidos (tufo-preto, cara-branca), então a resposta não é única diante da imagem. Melhor múltipla escolha, sem repetir 'sagui' no enunciado.",
+      "reescrita": {
+        "pergunta": "Que pequeno macaco do Nordeste brasileiro é este?",
+        "resposta": "Sagui-de-tufo-branco",
+        "distratores": [
+          "Sagui-de-tufos-pretos",
+          "Sagui-de-cara-branca",
+          "Sagui-de-Wied"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Vazamento: o enunciado quase entrega 'Rh' sem olhar a figura, e a resposta deriva do nome do macaco. Distratores incluem sistemas, não fatores. Sem conserto limpo.",
+      "reescrita": null
+    }
+  ]
+}

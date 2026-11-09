@@ -1,0 +1,184 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Macaco-aranha claro, com cauda preênsil e membros longos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que macaco sul-americano é este?",
+      "resposta": "Macaco-aranha",
+      "distratores": [
+        "Bugio",
+        "Macaco-prego",
+        "Macaco-esquilo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-aranha",
+        "descricao": "Primata do gênero Ateles, macaco do Novo Mundo de membros longos e cauda preênsil.",
+        "variantes": [
+          "Ateles",
+          "Coatá"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Primata pendurado, de pelagem clara; pode ser confundido com gibão ou macaco-barrigudo. Não dá para afirmar que é muriqui."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mandíbula fóssil em vitrine de museu, sem texto; a pergunta pede o grupo a que pertence.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta mandíbula foi dragada do fundo do mar perto de Taiwan. Análises de proteínas mostraram que grupo humano extinto ela representa?",
+      "resposta": "Denisovanos",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Penghu 1",
+        "descricao": "Mandíbula fóssil de hominínio do gênero Homo, encontrada no canal de Penghu, em Taiwan, identificada como de um denisovano.",
+        "variantes": [
+          "Mandíbula de Penghu",
+          "Penghu"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Lêmure-de-cauda-anelada inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que lêmure é este?",
+      "resposta": "Lêmure-de-cauda-anelada",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lêmure-de-cauda-anelada",
+        "descricao": "Primata estrepsirrino de Madagascar, com cauda longa listrada de preto e branco (Lemur catta).",
+        "variantes": [
+          "Lemur catta",
+          "Maki",
+          "Lêmure-catta"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gelada macho com mancha vermelha no peito, bem visível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este primata só vive nas montanhas de um país africano. Qual?",
+      "resposta": "Etiópia",
+      "distratores": [
+        "Quênia",
+        "Tanzânia",
+        "Uganda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gelada",
+        "descricao": "Macaco do Velho Mundo (Theropithecus gelada), exclusivo das terras altas da Etiópia, com mancha vermelha no peito.",
+        "variantes": [
+          "Theropithecus gelada",
+          "Babuíno-gelada"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de babuíno-oliva.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que primata africano é este?",
+      "resposta": "Babuíno",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Babuíno",
+        "descricao": "Primata do gênero Papio, macaco do Velho Mundo de focinho longo; na foto, um babuíno-oliva.",
+        "variantes": [
+          "Papio",
+          "Babuíno-oliva"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Esqueleto fóssil de primata do Eoceno em vitrine, com reflexos; sem identificação segura, pode ser confundido com Smilodectes ou outro adapiforme."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Sagui de tufos brancos nas orelhas, nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que macaco brasileiro é este?",
+      "resposta": "Sagui-de-tufo-branco",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sagui-de-tufo-branco",
+        "descricao": "Pequeno primata do Nordeste brasileiro (Callithrix jacchus), com tufos brancos nas orelhas.",
+        "variantes": [
+          "Sagui-comum",
+          "Callithrix jacchus",
+          "Mico-estrela"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, com camiseta com texto visível; o propulsor é pouco visível."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem parece ser o crânio de Broken Hill (Kabwe 1), não o de Bodo; a âncora não bate com a imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Macaco-rhesus com filhote, bem visível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Um fator do sangue humano recebeu o nome deste macaco, usado em experimentos. Qual?",
+      "resposta": "Fator Rh",
+      "distratores": [
+        "Fator ABO",
+        "Sistema Kell",
+        "Sistema Duffy"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-rhesus",
+        "descricao": "Macaco do Velho Mundo (Macaca mulatta), de face rosada, nativo do sul e sudeste da Ásia.",
+        "variantes": [
+          "Macaca mulatta",
+          "Rhesus",
+          "Macaco-rhesus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Paisagem de deserto com rochas, sem elemento que a identifique como Tassili n'Ajjer; pode ser outra região do Saara. Pessoa e camelos em segundo plano."
+    }
+  ]
+}

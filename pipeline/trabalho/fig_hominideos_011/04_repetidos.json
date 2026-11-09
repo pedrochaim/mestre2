@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este primata só vive nas montanhas de um país africano. Qual?",
+        "resposta": "Etiópia"
+      },
+      "existentes": [
+        {
+          "id": "q05539",
+          "pergunta": "Que macaco africano é este?",
+          "resposta": "Gelada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pequeno macaco do Nordeste brasileiro é este?",
+        "resposta": "Sagui-de-tufo-branco"
+      },
+      "existentes": [
+        {
+          "id": "q06910",
+          "pergunta": "Em que região do Brasil este sagui vivia originalmente?",
+          "resposta": "Nordeste"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o país onde o primata vive (Etiópia); a existente pede o nome do macaco (gelada). Fatos diferentes, embora a resposta de uma possa ser a mesma espécie."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da espécie (sagui-de-tufo-branco); a existente pede a região do Brasil (Nordeste). Fatos diferentes."
+    }
+  ]
+}
