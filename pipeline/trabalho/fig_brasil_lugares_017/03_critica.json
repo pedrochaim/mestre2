@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; estado confirmado pelos trechos; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Um dos mais antigos em funcionamento' consta no trecho e não entrega a capital; distratores são capitais com teatros históricos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construída pela Companhia de Jesus conforme os trechos; enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arena é a casa do Athletico Paranaense; Coritiba é distrator crível e não joga lá.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Prédio de madeira' e 'primeiro local oficial de trabalho' descrevem o Catetinho e entregam a resposta sem a figura. Troca por pista de época; distratores ajustados.",
+      "reescrita": {
+        "pergunta": "Que presidente brasileiro da década de cinquenta usou este prédio como local de trabalho?",
+        "resposta": "Juscelino Kubitschek",
+        "distratores": [
+          "Getúlio Vargas",
+          "Eurico Gaspar Dutra",
+          "Castelo Branco"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Monumento aos mortos da Segunda Guerra; enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores Copan e Martinelli são de São Paulo e o enunciado já os exclui ao dizer 'Rio de Janeiro'. Troca por edifícios cariocas.",
+      "reescrita": {
+        "pergunta": "Que edifício modernista do Rio de Janeiro é este?",
+        "resposta": "Palácio Gustavo Capanema",
+        "distratores": [
+          "Edifício da ABI",
+          "Museu de Arte Moderna",
+          "Catedral Metropolitana"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que é a maior queda do rio São Francisco; a figura define qual cachoeira; distratores são rios mineiros ou grandes.",
+      "reescrita": null
+    }
+  ]
+}

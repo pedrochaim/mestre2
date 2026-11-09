@@ -1,0 +1,93 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ordem religiosa construiu esta catedral?",
+        "resposta": "Jesuítas"
+      },
+      "existentes": [
+        {
+          "id": "q16239",
+          "pergunta": "Que igreja é esta?",
+          "resposta": "Catedral Basílica de Salvador"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que clube manda seus jogos neste estádio de Curitiba?",
+        "resposta": "Athletico Paranaense"
+      },
+      "existentes": [
+        {
+          "id": "q04457",
+          "pergunta": "Que clube manda seus jogos neste estádio de Curitiba?",
+          "resposta": "Athletico Paranaense"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que guerra este monumento do Rio de Janeiro homenageia?",
+        "resposta": "Segunda Guerra Mundial"
+      },
+      "existentes": [
+        {
+          "id": "q05770",
+          "pergunta": "Os restos dos pracinhas mortos na Itália, antes enterrados em Pistoia, foram trazidos para um monumento em qual grande parque do Rio de Janeiro?",
+          "resposta": "Aterro do Flamengo (Parque Eduardo Gomes)"
+        },
+        {
+          "id": "q16730",
+          "pergunta": "Em que parque do Rio de Janeiro, à beira da baía de Guanabara, fica este monumento?",
+          "resposta": "Aterro do Flamengo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que edifício modernista do Rio de Janeiro é este?",
+        "resposta": "Palácio Gustavo Capanema"
+      },
+      "existentes": [
+        {
+          "id": "q15684",
+          "pergunta": "Em que década começou a construção deste edifício modernista do Rio de Janeiro?",
+          "resposta": "Década de 1930"
+        },
+        {
+          "id": "q18971",
+          "pergunta": "Nos anos trinta, a equipe de Lúcio Costa e do jovem Niemeyer projetou o Palácio Gustavo Capanema, no Rio, com a consultoria de que mestre franco-suíço?",
+          "resposta": "Le Corbusier"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a ordem construtora, fato diferente da identificação da igreja."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica.",
+      "id_existente": "q04457"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Guerra homenageada é fato diferente do parque onde fica."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o edifício difere da década de construção ou do consultor; a resposta não é dada por elas."
+    }
+  ]
+}

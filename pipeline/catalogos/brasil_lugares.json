@@ -1272,7 +1272,7 @@
       "titulo": "en:Cathedral Basilica of Salvador",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Igreja de Nossa Senhora do Rosário dos Pretos",
@@ -1643,7 +1643,7 @@
       "titulo": "pt:Bumbódromo",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Torre Digital de Brasília",
@@ -1671,7 +1671,7 @@
       "titulo": "pt:Estrada da Graciosa",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Praça São Francisco (São Cristóvão)",
@@ -1683,6 +1683,286 @@
     {
       "nome": "Farol do Cabo Branco",
       "titulo": "pt:Farol do Cabo Branco",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Salomão",
+      "titulo": "en:Temple of Solomon (São Paulo)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina Nuclear de Angra",
+      "titulo": "en:Angra Nuclear Power Plant",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Supremo Tribunal Federal (sede)",
+      "titulo": "en:Supreme Federal Court",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cristo Protetor",
+      "titulo": "en:Christ the Protector",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Beach Park",
+      "titulo": "pt:Beach Park",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena da Baixada",
+      "titulo": "en:Arena da Baixada",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Monumento aos Pracinhas",
+      "titulo": "en:Monument to the Dead of World War II",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Maresias",
+      "titulo": "pt:Maresias",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Guarapari",
+      "titulo": "en:Guarapari",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Igreja da Penha (Rio de Janeiro)",
+      "titulo": "pt:Igreja de Nossa Senhora da Penha (Rio de Janeiro)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio Guanabara",
+      "titulo": "en:Guanabara Palace",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Nova Jerusalém",
+      "titulo": "pt:Nova Jerusalém (teatro)",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Museu de Arte Moderna do Rio de Janeiro",
+      "titulo": "en:Museum of Modern Art, Rio de Janeiro",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Biblioteca Mário de Andrade",
+      "titulo": "en:Mário de Andrade Library",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caminho Niemeyer",
+      "titulo": "pt:Caminho Niemeyer",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rua 24 Horas",
+      "titulo": "pt:Rua 24 Horas",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Prédio Histórico da UFPR",
+      "titulo": "en:Federal University of Paraná",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Pantanal",
+      "titulo": "en:Arena Pantanal",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra do Telégrafo",
+      "titulo": "pt:Pedra do Telégrafo",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Cumbuco",
+      "titulo": "en:Cumbuco",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Conjunto Nacional",
+      "titulo": "pt:Conjunto Nacional",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Palácio Gustavo Capanema",
+      "titulo": "en:Gustavo Capanema Palace",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Forte de São Marcelo",
+      "titulo": "pt:Forte de São Marcelo",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Catetinho",
+      "titulo": "en:Catetinho",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Estádio Couto Pereira",
+      "titulo": "en:Estádio Couto Pereira",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapada das Mesas",
+      "titulo": "en:Chapada das Mesas National Park",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cais do Valongo",
+      "titulo": "en:Valongo Wharf",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fundação Iberê Camargo",
+      "titulo": "en:Iberê Camargo Foundation",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro de Santa Isabel",
+      "titulo": "pt:Teatro de Santa Isabel",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Arthur Azevedo",
+      "titulo": "pt:Teatro Arthur Azevedo",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Santuário do Caraça",
+      "titulo": "pt:Santuário do Caraça",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachoeira Casca d'Anta",
+      "titulo": "pt:Cachoeira Casca d'Anta",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ponte Binacional Franco-Brasileira",
+      "titulo": "en:Oyapock River Bridge",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio Araguaia",
+      "titulo": "pt:Palácio Araguaia",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vale do Amanhecer",
+      "titulo": "en:Vale do Amanhecer",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo Zu Lai",
+      "titulo": "en:Zu Lai Temple",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Parque Estadual da Guarita",
+      "titulo": "pt:Parque Estadual da Guarita",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lajedo de Pai Mateus",
+      "titulo": "pt:Lajedo de Pai Mateus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caverna do Diabo",
+      "titulo": "pt:Caverna do Diabo",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Torre Malakoff",
+      "titulo": "pt:Torre Malakoff",
       "camada": 3,
       "destino": 1,
       "status": "nova"

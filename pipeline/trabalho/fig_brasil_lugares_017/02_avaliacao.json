@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea da orla com enseada, pedras e prédios; reconhecível para quem conhece o litoral capixaba, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que estado fica esta cidade litorânea?",
+      "resposta": "Espírito Santo",
+      "distratores": [
+        "Bahia",
+        "Rio de Janeiro",
+        "Sergipe"
+      ],
+      "ancora": {
+        "nome": "Guarapari",
+        "descricao": "Cidade litorânea do Espírito Santo, famosa por suas praias e areias monazíticas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada rosa neoclássica inconfundível, sem texto legível; sem pessoas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que capital fica este teatro, um dos mais antigos do país ainda em funcionamento?",
+      "resposta": "São Luís",
+      "distratores": [
+        "Belém",
+        "Recife",
+        "Salvador"
+      ],
+      "ancora": {
+        "nome": "Teatro Arthur Azevedo",
+        "descricao": "Teatro neoclássico inaugurado em 1817 no centro histórico de São Luís, Maranhão.",
+        "variantes": [
+          "Teatro União"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida da catedral jesuítica de Salvador, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que ordem religiosa construiu esta catedral?",
+      "resposta": "Jesuítas",
+      "distratores": [
+        "Franciscanos",
+        "Beneditinos",
+        "Carmelitas"
+      ],
+      "ancora": {
+        "nome": "Catedral Basílica de Salvador",
+        "descricao": "Antiga igreja jesuítica no Terreiro de Jesus, em Salvador, hoje catedral primacial do Brasil.",
+        "variantes": [
+          "Catedral Basílica Primacial de São Salvador",
+          "Catedral da Sé de Salvador"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra um pórtico de pedra genérico, sem como reconhecer com segurança que é a Estrada da Graciosa; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea clara do estádio de teto retrátil em Curitiba, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que clube manda seus jogos neste estádio de Curitiba?",
+      "resposta": "Athletico Paranaense",
+      "distratores": [
+        "Coritiba",
+        "Paraná Clube",
+        "Figueirense"
+      ],
+      "ancora": {
+        "nome": "Arena da Baixada",
+        "descricao": "Estádio de Curitiba, casa do Athletico Paranaense, sede da Copa de 2014.",
+        "variantes": [
+          "Estádio Mario Celso Petraglia",
+          "Kyocera Arena",
+          "Ligga Arena"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Construção de madeira sobre palafitas, característica; sem texto, sem pessoas. Para aficionados, por isso múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que presidente usou este prédio de madeira como primeiro local oficial de trabalho?",
+      "resposta": "Juscelino Kubitschek",
+      "distratores": [
+        "Getúlio Vargas",
+        "Jânio Quadros",
+        "Eurico Gaspar Dutra"
+      ],
+      "ancora": {
+        "nome": "Catetinho",
+        "descricao": "Residência de madeira em Brasília, primeiro local oficial de trabalho do presidente Juscelino Kubitschek.",
+        "variantes": [
+          "Palácio de Tábuas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Interior de caverna com estalactites e estalagmites genéricas; muitas cavernas turísticas parecem iguais, sem resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Monumento inconfundível com pilar e estátuas dos três militares; texto de fundo irrelevante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que guerra este monumento do Rio de Janeiro homenageia?",
+      "resposta": "Segunda Guerra Mundial",
+      "distratores": [
+        "Primeira Guerra Mundial",
+        "Guerra do Paraguai",
+        "Revolução de 1932"
+      ],
+      "ancora": {
+        "nome": "Monumento aos Pracinhas",
+        "descricao": "Monumento no Aterro do Flamengo, Rio de Janeiro, aos mortos brasileiros da Segunda Guerra Mundial.",
+        "variantes": [
+          "Monumento Nacional aos Mortos da Segunda Guerra Mundial"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Edifício modernista com brise-soleil bem visível; placas de rua não entregam o nome; pessoas pequenas ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que edifício modernista do Rio de Janeiro é este?",
+      "resposta": "Palácio Gustavo Capanema",
+      "distratores": [
+        "Edifício Copan",
+        "Palácio Tiradentes",
+        "Edifício Martinelli"
+      ],
+      "ancora": {
+        "nome": "Palácio Gustavo Capanema",
+        "descricao": "Edifício modernista no centro do Rio de Janeiro, antiga sede do Ministério da Educação e Saúde.",
+        "variantes": [
+          "Edifício Gustavo Capanema",
+          "Ministério da Educação e Saúde"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Queda alta e estreita entre paredões, sem texto nem pessoas; reconhecível para aficionados, por isso múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta cachoeira mineira é a maior queda de que rio?",
+      "resposta": "Rio São Francisco",
+      "distratores": [
+        "Rio Doce",
+        "Rio Grande",
+        "Rio Paraná"
+      ],
+      "ancora": {
+        "nome": "Cachoeira Casca d'Anta",
+        "descricao": "Queda de cerca de 186 metros do rio São Francisco, na Serra da Canastra, em Minas Gerais.",
+        "variantes": [
+          "Casca D'Anta"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de rua com ônibus em primeiro plano e fachada parcial; não dá para ter certeza de que é o Conjunto Nacional nem reconhecê-lo com clareza."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Praia com morro ao fundo, sem elemento distintivo; muitas praias do litoral parecem iguais, sem resposta única."
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Guarapari",
+        "descricao": "Cidade litorânea do Espírito Santo, famosa por suas praias e areias monazíticas.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "caldo_de_cana",
+          "nome": "Caldo de cana",
+          "descricao": "Bebida feita do líquido extraído da cana-de-açúcar prensada.",
+          "variantes": [
+            "Garapa"
+          ]
+        },
+        {
+          "id": "guarana",
+          "nome": "Guaraná",
+          "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+          "variantes": [
+            "Paullinia cupana"
+          ]
+        },
+        {
+          "id": "lingua_guarani",
+          "nome": "Língua guarani",
+          "descricao": "Língua indígena da família tupi-guarani, oficial no Paraguai ao lado do espanhol",
+          "variantes": [
+            "Guarani",
+            "Avañe'ẽ"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        },
+        {
+          "id": "ganesha",
+          "nome": "Ganesha",
+          "descricao": "Deus hindu com cabeça de elefante, ligado à sabedoria e à remoção de obstáculos",
+          "variantes": [
+            "Ganesh",
+            "Ganapati"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Teatro Arthur Azevedo",
+        "descricao": "Teatro neoclássico inaugurado em 1817 no centro histórico de São Luís, Maranhão.",
+        "variantes": [
+          "Teatro União"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        },
+        {
+          "id": "theatro_municipal_do_rio_de_janeiro",
+          "nome": "Theatro Municipal do Rio de Janeiro",
+          "descricao": "Teatro na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
+          "variantes": [
+            "Teatro Municipal do Rio de Janeiro",
+            "Theatro Municipal (Rio de Janeiro)",
+            "Theatro Municipal"
+          ]
+        },
+        {
+          "id": "kabuki",
+          "nome": "Kabuki",
+          "descricao": "Forma tradicional de teatro japonês que combina canto, dança e atuação estilizada, surgida no início do século dezessete.",
+          "variantes": [
+            "Teatro kabuki"
+          ]
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter",
+            "Metro-padrão"
+          ]
+        },
+        {
+          "id": "teatro_di_san_carlo",
+          "nome": "Teatro di San Carlo",
+          "descricao": "Casa de ópera de Nápoles, na Itália, inaugurada em 1737.",
+          "variantes": [
+            "Teatro San Carlo",
+            "Teatro de São Carlos de Nápoles"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Catedral Basílica de Salvador",
+        "descricao": "Antiga igreja jesuítica no Terreiro de Jesus, em Salvador, hoje catedral primacial do Brasil.",
+        "variantes": [
+          "Catedral Basílica Primacial de São Salvador",
+          "Catedral da Sé de Salvador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_basilica_de_salvador",
+          "nome": "Catedral Basílica de Salvador",
+          "descricao": "Antiga igreja do colégio dos jesuítas, de estilo maneirista, catedral primacial de Salvador, na Bahia.",
+          "variantes": [
+            "Catedral-Basílica Primacial de São Salvador",
+            "Catedral Primacial do Brasil",
+            "Igreja do Colégio dos Jesuítas"
+          ]
+        },
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        },
+        {
+          "id": "catedral_metropolitana_de_fortaleza",
+          "nome": "Catedral Metropolitana de Fortaleza",
+          "descricao": "Catedral católica neogótica de Fortaleza (CE), na Praça da Sé, inaugurada em 1978.",
+          "variantes": [
+            "Catedral da Sé de Fortaleza",
+            "Catedral de São José"
+          ]
+        },
+        {
+          "id": "catedral_de_petropolis",
+          "nome": "Catedral de Petrópolis",
+          "descricao": "Catedral neogótica de São Pedro de Alcântara, com torre em flecha, em Petrópolis, no estado do Rio de Janeiro.",
+          "variantes": [
+            "Catedral de São Pedro de Alcântara",
+            "Cathedral of Petrópolis"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Arena da Baixada",
+        "descricao": "Estádio de Curitiba, casa do Athletico Paranaense, sede da Copa de 2014.",
+        "variantes": [
+          "Estádio Mario Celso Petraglia",
+          "Kyocera Arena",
+          "Ligga Arena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        },
+        {
+          "id": "laranja_de_umbigo",
+          "nome": "Laranja-de-umbigo",
+          "descricao": "Variedade de laranja sem sementes, com um segundo fruto rudimentar na ponta, surgida no Brasil",
+          "variantes": [
+            "Laranja-baía",
+            "Laranja-da-baía",
+            "Washington navel",
+            "Navel orange"
+          ]
+        },
+        {
+          "id": "volgograd_arena",
+          "nome": "Volgograd Arena",
+          "descricao": "Estádio de futebol em Volgogrado, Rússia, sede da Copa do Mundo de 2018.",
+          "variantes": [
+            "Arena Volgogrado",
+            "Estádio de Volgogrado"
+          ]
+        },
+        {
+          "id": "allianz_arena",
+          "nome": "Allianz Arena",
+          "descricao": "Estádio do Bayern de Munique, de fachada que muda de cor.",
+          "variantes": []
+        },
+        {
+          "id": "lingua_romena",
+          "nome": "Língua romena",
+          "descricao": "Língua românica oficial da Romênia e da Moldávia.",
+          "variantes": [
+            "Romeno"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Catetinho",
+        "descricao": "Residência de madeira em Brasília, primeiro local oficial de trabalho do presidente Juscelino Kubitschek.",
+        "variantes": [
+          "Palácio de Tábuas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        },
+        {
+          "id": "cateto",
+          "nome": "Cateto",
+          "descricao": "Pecari de colar das Américas (Dicotyles tajacu), mamífero da família Tayassuidae.",
+          "variantes": [
+            "Caititu",
+            "Javelina",
+            "Pecari-de-colar",
+            "Dicotyles tajacu"
+          ]
+        },
+        {
+          "id": "cafe",
+          "nome": "Café",
+          "descricao": "Bebida preparada com os grãos torrados e moídos do cafeeiro, originário da Etiópia.",
+          "variantes": [
+            "Cafezinho"
+          ]
+        },
+        {
+          "id": "palacio_do_jaburu",
+          "nome": "Palácio do Jaburu",
+          "descricao": "Residência oficial do vice-presidente do Brasil em Brasília, projetada por Oscar Niemeyer e inaugurada em 1977.",
+          "variantes": [
+            "Jaburu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Monumento aos Pracinhas",
+        "descricao": "Monumento no Aterro do Flamengo, Rio de Janeiro, aos mortos brasileiros da Segunda Guerra Mundial.",
+        "variantes": [
+          "Monumento Nacional aos Mortos da Segunda Guerra Mundial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monumento_nacional_aos_mortos_da_segunda_guerra_mundial",
+          "nome": "Monumento Nacional aos Mortos da Segunda Guerra Mundial",
+          "descricao": "Monumento no Rio de Janeiro, inaugurado em 1960, que guarda os restos mortais dos pracinhas brasileiros mortos na Itália.",
+          "variantes": [
+            "Monumento aos Pracinhas",
+            "Monumento aos Mortos da Segunda Guerra Mundial"
+          ]
+        },
+        {
+          "id": "monumento_a_independencia_do_brasil",
+          "nome": "Monumento à Independência do Brasil",
+          "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, em São Paulo, também chamado Altar da Pátria.",
+          "variantes": [
+            "Monumento do Ipiranga",
+            "Altar da Pátria"
+          ]
+        },
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        },
+        {
+          "id": "monumento_as_bandeiras",
+          "nome": "Monumento às Bandeiras",
+          "descricao": "Grande escultura de granito de Victor Brecheret, junto ao Parque Ibirapuera, em São Paulo, que homenageia as bandeiras.",
+          "variantes": [
+            "Monumento aos Bandeirantes",
+            "Monumento às Bandeiras de São Paulo"
+          ]
+        },
+        {
+          "id": "baixas_da_segunda_guerra_mundial",
+          "nome": "Baixas da Segunda Guerra Mundial",
+          "descricao": "Conjunto das mortes militares e civis causadas pela Segunda Guerra Mundial, estimadas entre 70 e 85 milhões.",
+          "variantes": [
+            "Mortos na Segunda Guerra Mundial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Palácio Gustavo Capanema",
+        "descricao": "Edifício modernista no centro do Rio de Janeiro, antiga sede do Ministério da Educação e Saúde.",
+        "variantes": [
+          "Edifício Gustavo Capanema",
+          "Ministério da Educação e Saúde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_gustavo_capanema",
+          "nome": "Palácio Gustavo Capanema",
+          "descricao": "Edifício modernista no centro do Rio de Janeiro, antiga sede do Ministério da Educação e Saúde.",
+          "variantes": [
+            "Edifício Gustavo Capanema",
+            "Ministério da Educação e Saúde"
+          ]
+        },
+        {
+          "id": "edificio_copan",
+          "nome": "Edifício Copan",
+          "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+          "variantes": [
+            "Copan"
+          ]
+        },
+        {
+          "id": "edificio_altino_arantes",
+          "nome": "Edifício Altino Arantes",
+          "descricao": "Arranha-céu art déco no centro de São Paulo, sede do antigo Banespa, também chamado Banespão.",
+          "variantes": [
+            "Edifício Altino Arantes (Banespa)",
+            "Banespão",
+            "Edifício Banespa",
+            "Altino Arantes Building"
+          ]
+        },
+        {
+          "id": "palacio_da_musica_catala",
+          "nome": "Palácio da Música Catalã",
+          "descricao": "Sala de concertos modernista de Barcelona, projetada por Lluís Domènech i Montaner e inaugurada em 1908.",
+          "variantes": [
+            "Palau de la Música Catalana"
+          ]
+        },
+        {
+          "id": "palacio_do_planalto",
+          "nome": "Palácio do Planalto",
+          "descricao": "Sede do governo federal e local de trabalho do presidente do Brasil, em Brasília, projetado por Oscar Niemeyer.",
+          "variantes": [
+            "Planalto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cachoeira Casca d'Anta",
+        "descricao": "Queda de cerca de 186 metros do rio São Francisco, na Serra da Canastra, em Minas Gerais.",
+        "variantes": [
+          "Casca D'Anta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casa_dancante",
+          "nome": "Casa Dançante",
+          "descricao": "Prédio de escritórios de linhas tortas à beira do rio Moldava, em Praga, inaugurado em 1996.",
+          "variantes": [
+            "Dancing House",
+            "Tančící dům",
+            "Fred e Ginger"
+          ]
+        },
+        {
+          "id": "flor_de_maio",
+          "nome": "Flor-de-maio",
+          "descricao": "Cacto epífito do gênero Schlumbergera, nativo da Mata Atlântica do Sudeste brasileiro",
+          "variantes": [
+            "Schlumbergera",
+            "Cacto-de-natal",
+            "Christmas cactus"
+          ]
+        },
+        {
+          "id": "carao",
+          "nome": "Carão",
+          "descricao": "Ave pernalta de áreas alagadas das Américas (Aramus guarauna), única da família Aramidae, que come caramujos.",
+          "variantes": [
+            "Aramus guarauna",
+            "Limpkin",
+            "Carão-do-pantanal"
+          ]
+        },
+        {
+          "id": "a_escola_de_atenas",
+          "nome": "A Escola de Atenas",
+          "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+          "variantes": [
+            "The School of Athens",
+            "Scuola di Atene",
+            "Escola de Atenas"
+          ]
+        },
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Guarapari é uma cidade; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Teatro de São Luís; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "catedral_basilica_de_salvador",
+      "motivo": "Mesma catedral, antiga igreja jesuítica de Salvador, catedral primacial."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "arena_da_baixada",
+      "motivo": "Mesmo estádio em Curitiba, casa do Athletico Paranaense, com as mesmas variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Catetinho é uma residência histórica em Brasília; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "monumento_nacional_aos_mortos_da_segunda_guerra_mundial",
+      "motivo": "Mesmo monumento no Rio de Janeiro; Monumento aos Pracinhas é variante cadastrada."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "palacio_gustavo_capanema",
+      "motivo": "Nome, descrição e variantes idênticos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Cachoeira em Minas Gerais; nenhuma candidata corresponde."
+    }
+  ]
+}
