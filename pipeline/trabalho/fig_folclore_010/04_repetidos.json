@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que brinquedo tradicional é este?",
+        "resposta": "Ioiô"
+      },
+      "existentes": [
+        {
+          "id": "q06445",
+          "pergunta": "Nos anos vinte, um imigrante chamado Pedro Flores transformou o ioiô em febre nos Estados Unidos. De que país ele vinha?",
+          "resposta": "Filipinas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do brinquedo (ioiô); a existente pergunta o país de origem de Pedro Flores (Filipinas). Fatos diferentes."
+    }
+  ]
+}

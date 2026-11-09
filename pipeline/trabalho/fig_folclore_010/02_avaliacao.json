@@ -1,0 +1,120 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Autômato de Pierrô com placa de texto na mesa e lamparina; não é claramente folclore brasileiro e a figura é ambígua."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Detalhe de varas e cordão no mato; não dá para reconhecer uma arapuca pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato de uma senhora com coroa e tambor; não identifica o cacuriá, e a pessoa não é reconhecível como figura pública."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Espantalho claro, de corpo inteiro, numa horta, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que figura rural é esta?",
+      "resposta": "Espantalho",
+      "distratores": [
+        "João-bobo",
+        "Boneco de Olinda",
+        "Mamulengo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Espantalho",
+        "descricao": "Boneco vestido com roupas velhas, colocado em plantações para afastar aves.",
+        "variantes": [
+          "Espantalhos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Fotografia de dois gibões, animais sem relação com o folclore; o nome 'gibão' só coincide com a peça de couro."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Crianças comuns em primeiro plano, fora de festa pública; sem contexto brasileiro."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Lamparina de barro que parece uma diya indiana; a resposta não é única nem folclore brasileiro claro."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Retrato fechado de cantora, não reconhecível com segurança como a pessoa pedida."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ioiô de madeira colorido, nítido, fundo limpo, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que brinquedo tradicional é este?",
+      "resposta": "Ioiô",
+      "distratores": [
+        "Pião",
+        "Bilboquê",
+        "Peteca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ioiô",
+        "descricao": "Brinquedo de dois discos unidos por um eixo, com um cordão enrolado, que sobe e desce.",
+        "variantes": [
+          "Yo-yo",
+          "Ioió"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Baixo-relevo escuro e pequeno, difícil de ler no celular e sem identificação segura de Omolu."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cuia com erva-mate e bomba, nítida e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que bebida se toma neste recipiente?",
+      "resposta": "Chimarrão",
+      "distratores": [
+        "Cauim",
+        "Aluá",
+        "Caldo de cana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cuia",
+        "descricao": "Vasilha feita do fruto da cuieira, usada para tomar chimarrão.",
+        "variantes": [
+          "Cuia de chimarrão",
+          "Porongo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Grupo de palco com tambores com texto parcial e muitas pessoas; o bloco não é reconhecível pela imagem."
+    }
+  ]
+}

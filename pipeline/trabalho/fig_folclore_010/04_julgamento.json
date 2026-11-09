@@ -1,0 +1,185 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Espantalho",
+        "descricao": "Boneco vestido com roupas velhas, colocado em plantações para afastar aves.",
+        "variantes": [
+          "Espantalhos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet",
+            "Corpete"
+          ]
+        },
+        {
+          "id": "lingua_espanhola",
+          "nome": "Língua espanhola",
+          "descricao": "Língua românica originada em Castela, oficial na Espanha e em boa parte da América Latina",
+          "variantes": [
+            "Espanhol",
+            "Castelhano"
+          ]
+        },
+        {
+          "id": "espartaco",
+          "nome": "Espártaco",
+          "descricao": "Gladiador trácio que liderou a maior revolta de escravos contra Roma, entre 73 e 71 antes de Cristo.",
+          "variantes": [
+            "Spartacus"
+          ]
+        },
+        {
+          "id": "esperanto",
+          "nome": "Esperanto",
+          "descricao": "Língua planejada para a comunicação internacional, publicada em 1887.",
+          "variantes": [
+            "Esperanto language"
+          ]
+        },
+        {
+          "id": "espanador",
+          "nome": "Espanador",
+          "descricao": "Utensílio de limpeza com cabo e tufo macio, usado para tirar o pó.",
+          "variantes": [
+            "Espanador de pó",
+            "Espanador de penas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ioiô",
+        "descricao": "Brinquedo de dois discos unidos por um eixo, com um cordão enrolado, que sobe e desce.",
+        "variantes": [
+          "Yo-yo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ioio",
+          "nome": "Ioiô",
+          "descricao": "Brinquedo formado por dois discos unidos por um eixo, com um cordão enrolado, que sobe e desce.",
+          "variantes": [
+            "Yo-yo"
+          ]
+        },
+        {
+          "id": "niobio",
+          "nome": "Nióbio",
+          "descricao": "Elemento químico metálico de número atômico 41, usado em ligas de aço e com grandes reservas no Brasil.",
+          "variantes": [
+            "Niobium",
+            "Colúmbio"
+          ]
+        },
+        {
+          "id": "iodo",
+          "nome": "Iodo",
+          "descricao": "Elemento químico de número atômico 53, halogênio sólido escuro que solta vapor violeta, adicionado ao sal de cozinha.",
+          "variantes": []
+        },
+        {
+          "id": "violino",
+          "nome": "Violino",
+          "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+          "variantes": [
+            "Rabeca"
+          ]
+        },
+        {
+          "id": "dioniso",
+          "nome": "Dioniso",
+          "descricao": "Deus grego do vinho, das festas e do teatro, filho de Zeus e da mortal Sêmele.",
+          "variantes": [
+            "Dionísio",
+            "Baco",
+            "Dionysus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cuia",
+        "descricao": "Vasilha feita do fruto da cuieira, usada para tomar chimarrão.",
+        "variantes": [
+          "Cuia de chimarrão",
+          "Porongo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cabaca",
+          "nome": "Cabaça",
+          "descricao": "Fruto da trepadeira Lagenaria siceraria, cuja casca seca vira recipiente e instrumento musical.",
+          "variantes": [
+            "Porongo",
+            "Cuia",
+            "Lagenaria"
+          ]
+        },
+        {
+          "id": "cutia",
+          "nome": "Cutia",
+          "descricao": "Roedor do gênero Dasyprocta, comum nas florestas das Américas Central e do Sul.",
+          "variantes": [
+            "Dasyprocta",
+            "Agouti"
+          ]
+        },
+        {
+          "id": "cuica",
+          "nome": "Cuíca",
+          "descricao": "Tambor de fricção usado no samba, com uma vareta presa ao centro do couro.",
+          "variantes": []
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "cuiaba",
+          "nome": "Cuiabá",
+          "descricao": "Capital do estado de Mato Grosso, às margens do rio Cuiabá.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Espantalho não corresponde a nenhuma candidata; são nomes apenas parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ioio",
+      "motivo": "Mesmo brinquedo, descrição e variantes equivalentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cuia (vasilha de chimarrão) é um objeto específico, distinto da cabaça (fruto da planta), embora compartilhem variantes; na dúvida, nova."
+    }
+  ]
+}

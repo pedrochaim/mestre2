@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia nem descreve a resposta de forma decisiva; espantalho é único para a imagem. Distratores são bonecos/figuras populares, críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista 'brinquedo tradicional' não entrega; ioiô é um dos mais antigos brinquedos. Distratores são brinquedos tradicionais parecidos e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho mostra que a cuia também serve para tererê, então a resposta não é única. Acrescentar o Sul do Brasil como pista de região distingue sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Que bebida típica do Sul do Brasil se toma neste recipiente?",
+        "resposta": "Chimarrão",
+        "distratores": [
+          "Cauim",
+          "Aluá",
+          "Caldo de cana"
+        ]
+      }
+    }
+  ]
+}

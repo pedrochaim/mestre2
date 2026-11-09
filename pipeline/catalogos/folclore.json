@@ -838,7 +838,7 @@
       "titulo": "pt:Cerâmica tapajônica",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Amarelinha",
@@ -866,7 +866,7 @@
       "titulo": "en:Scarecrow",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Sanfona",
@@ -999,7 +999,7 @@
       "titulo": "en:Ilê Aiyê",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Micareta",
@@ -1083,7 +1083,7 @@
       "titulo": "pt:Cacuriá",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Pau de fita",
@@ -1119,6 +1119,286 @@
       "camada": 3,
       "destino": 0,
       "status": "sem_imagem"
+    },
+    {
+      "nome": "Fogão a lenha",
+      "titulo": "pt:Fogão a lenha",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapéu de couro",
+      "titulo": "pt:Chapéu de couro",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cuia",
+      "titulo": "pt:Cuia",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Moringa",
+      "titulo": "pt:Moringa",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Panela de barro",
+      "titulo": "pt:Panela de barro",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pierrô",
+      "titulo": "en:Pierrot",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cama de gato",
+      "titulo": "en:Cat's cradle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pula-corda",
+      "titulo": "en:Skipping rope",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ioiô",
+      "titulo": "en:Yo-yo",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cabo de guerra",
+      "titulo": "en:Tug of war",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corrida de saco",
+      "titulo": "en:Sack race",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pega-varetas",
+      "titulo": "en:Mikado (game)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Confete",
+      "titulo": "en:Confetti",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Repente",
+      "titulo": "en:Repente",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xilogravura",
+      "titulo": "pt:Xilogravura",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gibão",
+      "titulo": "pt:Gibão",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Homem da Meia-Noite",
+      "titulo": "pt:Homem da Meia-Noite",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arapuca",
+      "titulo": "pt:Arapuca",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gamela",
+      "titulo": "pt:Gamela",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Benzedeira",
+      "titulo": "pt:Benzedeira",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Omolu",
+      "titulo": "en:Babalú-Ayé",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ariano Suassuna",
+      "titulo": "en:Ariano Suassuna",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Patativa do Assaré",
+      "titulo": "en:Patativa do Assaré",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jackson do Pandeiro",
+      "titulo": "en:Jackson do Pandeiro",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dominguinhos",
+      "titulo": "en:Dominguinhos",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Taco (bets)",
+      "titulo": "pt:Taco (jogo)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lamparina",
+      "titulo": "pt:Lamparina",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Zé Pereira",
+      "titulo": "pt:Zé Pereira",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monjolo",
+      "titulo": "pt:Monjolo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Santo do pau oco",
+      "titulo": "pt:Santo do pau oco",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pajelança",
+      "titulo": "pt:Pajelança",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nanã",
+      "titulo": "en:Nana Buluku",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Oxumaré",
+      "titulo": "en:Oshunmare",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ibeji",
+      "titulo": "en:Ibeji",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lia de Itamaracá",
+      "titulo": "pt:Lia de Itamaracá",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mestre Salustiano",
+      "titulo": "pt:Mestre Salustiano",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Moçambique (dança)",
+      "titulo": "pt:Moçambique (dança)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chiripá",
+      "titulo": "en:Chiripá",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guaiaca",
+      "titulo": "pt:Guaiaca",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Maxixe",
+      "titulo": "en:Maxixe (dance)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }
