@@ -1,0 +1,234 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara, bico amarelo, olho azul e manchas amarelas; espécie reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Qual destas aves é da mesma família da ave desta imagem, a dos icterídeos?",
+      "tipo": "multipla",
+      "resposta": "Corrupião",
+      "distratores": [
+        "Bem-te-vi",
+        "Sabiá-laranjeira",
+        "Pardal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Xexéu",
+        "descricao": "Ave preta com manchas amarelas e bico amarelo (Cacicus cela), da família Icteridae, que faz ninhos pendurados.",
+        "variantes": [
+          "Japu-xexéu",
+          "Cacicus cela",
+          "Yellow-rumped cacique"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pinguim de frente, nítido, com anel branco no olho; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "A terra que dá nome a este pinguim foi batizada em homenagem à esposa de que explorador francês?",
+      "tipo": "multipla",
+      "resposta": "Jules Dumont d'Urville",
+      "distratores": [
+        "Jacques Cousteau",
+        "Jean-Baptiste Charcot",
+        "Roald Amundsen"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pinguim-de-adélia",
+        "descricao": "Pinguim antártico de cabeça preta e anel branco no olho (Pygoscelis adeliae).",
+        "variantes": [
+          "Pinguim-de-adélie",
+          "Adélie penguin",
+          "Pygoscelis adeliae"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pica-pau malhado com pintas e malar vermelho; pode ser confundido com o pica-pau-de-peito-pintado, então a identificação e a pergunta de distribuição não ficam seguras."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Garça cinza com topete escuro, bem visível, em ambiente de alagado.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave pernalta sul-americana é esta?",
+      "tipo": "aberta",
+      "resposta": "Garça-moura",
+      "destino": 0,
+      "ancora": {
+        "nome": "Garça-moura",
+        "descricao": "Grande garça cinza e branca com topete preto (Ardea cocoi), da América do Sul.",
+        "variantes": [
+          "Maguari-cinza",
+          "Cocoi heron",
+          "Ardea cocoi"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de dois indivíduos da mesma espécie, cores inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave colorida australiana é esta?",
+      "tipo": "aberta",
+      "resposta": "Diamante-de-gould",
+      "destino": 0,
+      "ancora": {
+        "nome": "Diamante-de-gould",
+        "descricao": "Pequeno pássaro australiano de cabeça vermelha, peito roxo e ventre amarelo (Chloebia gouldiae).",
+        "variantes": [
+          "Gouldian finch",
+          "Chloebia gouldiae",
+          "Diamante-de-goulds"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Juruva visível, cores e cauda característicos; distratores de outros momotídeos e aves coloridas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que ave de cauda longa da América tropical é esta?",
+      "tipo": "multipla",
+      "resposta": "Juruva-ruiva",
+      "distratores": [
+        "Udu-de-coroa-azul",
+        "Surucuá-de-barriga-amarela",
+        "Ariramba-de-cauda-ruiva"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Juruva-ruiva",
+        "descricao": "Ave alaranjada de máscara preta e cauda longa (Baryphthengus martii), da família Momotidae.",
+        "variantes": [
+          "Juruva",
+          "Rufous motmot",
+          "Baryphthengus martii"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Periquito verde de cauda longa e bico vermelho, nítido; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Esta espécie de periquito é nativa da África tropical e de que outro continente?",
+      "tipo": "aberta",
+      "resposta": "Ásia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Periquito-de-colar",
+        "descricao": "Periquito verde de cauda longa (Psittacula krameri), nativo da África e do subcontinente indiano e introduzido em muitos países.",
+        "variantes": [
+          "Periquito-de-colar-rosado",
+          "Rose-ringed parakeet",
+          "Psittacula krameri"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ave marinha em voo, bico vermelho e longas penas da cauda bem visíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave marinha de cauda longa é esta?",
+      "tipo": "aberta",
+      "resposta": "Rabo-de-palha-de-bico-vermelho",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rabo-de-palha-de-bico-vermelho",
+        "descricao": "Ave marinha tropical branca, de bico vermelho e longas penas na cauda (Phaethon aethereus).",
+        "variantes": [
+          "Red-billed tropicbird",
+          "Phaethon aethereus",
+          "Rabo-de-palha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Ave escura com plumagem manchada de marrom, sem características claras; pode ser macho em muda, fêmea ou outro papa-capim, resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ave laranja e preta nítida, com mancha branca na asa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que ave canora laranja e preta do Nordeste brasileiro é esta?",
+      "tipo": "aberta",
+      "resposta": "Corrupião",
+      "destino": 0,
+      "ancora": {
+        "nome": "Corrupião",
+        "descricao": "Ave canora laranja e preta do Nordeste do Brasil (Icterus jamacaii).",
+        "variantes": [
+          "Campo troupial",
+          "Icterus jamacaii",
+          "Sofrê"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pombo de plumagem iridescente e penas longas no pescoço, inconfundível.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Em que região do mundo vive naturalmente este pombo?",
+      "tipo": "multipla",
+      "resposta": "Ilhas do Indo-Pacífico",
+      "distratores": [
+        "Ilhas do Caribe",
+        "Costa atlântica africana",
+        "Pampas sul-americanos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pombo-de-nicobar",
+        "descricao": "Pombo de plumagem verde-azulada iridescente e penas longas no pescoço (Caloenas nicobarica), de ilhas do Indo-Pacífico.",
+        "variantes": [
+          "Nicobar pigeon",
+          "Caloenas nicobarica"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ave toda preta, bico cinza, nítida; compatível com o sargento-chopi.",
+      "familia": "onde",
+      "nivel": 3,
+      "pergunta": "Esta ave negra ocorre ao sul de que grande floresta sul-americana?",
+      "tipo": "aberta",
+      "resposta": "Floresta Amazônica",
+      "destino": 0,
+      "ancora": {
+        "nome": "Graúna",
+        "descricao": "Ave de plumagem preta brilhante e bico cinza (Gnorimopsar chopi), do centro-sul da América do Sul.",
+        "variantes": [
+          "Sargento-chopi",
+          "Chopi blackbird",
+          "Gnorimopsar chopi",
+          "Pássaro-preto"
+        ]
+      }
+    }
+  ]
+}

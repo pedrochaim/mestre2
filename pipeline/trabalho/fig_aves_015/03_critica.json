@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O corrupião é icterídeo (documentado) e os distratores são de outras famílias; o enunciado não nomeia a ave.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Terra Adélia foi nomeada em homenagem a Adèle, esposa de Dumont d'Urville, conforme os trechos. Os distratores são plausíveis e não são corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só dá o grupo e a região, sem entregar o nome. A resposta é específica diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só dá país e tipo, sem entregar o nome. É uma pergunta de reconhecimento válida.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de distinção entre aves de cauda longa; a imagem separa a espécie. Os distratores são de grupos parecidos e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a origem africana e asiática; a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Existem outros rabos-de-palha de cauda longa, então a resposta aberta fica ambígua (basta dizer 'rabo-de-palha'). Em múltipla escolha, com espécies parecidas, a distinção fica justa.",
+      "reescrita": {
+        "pergunta": "Que espécie de ave marinha tropical, de longas penas na cauda, é esta?",
+        "resposta": "Rabo-de-palha-de-bico-vermelho",
+        "distratores": [
+          "Rabo-de-palha-de-bico-laranja",
+          "Rabo-de-palha-de-cauda-vermelha",
+          "Rabo-de-palha-de-cauda-branca"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ave canora laranja e preta do Nordeste' já entrega o corrupião sem olhar a figura (teste da imagem coberta). Tirar a pista regional e usar múltipla com aves parecidas.",
+      "reescrita": {
+        "pergunta": "Que ave brasileira de plumagem laranja e preta é esta?",
+        "resposta": "Corrupião",
+        "distratores": [
+          "Encontro",
+          "Xexéu",
+          "Sanhaçu-de-fogo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A distribuição nas ilhas do Indo-Pacífico (Nicobar a Salomão e Palau) está nos trechos. Os distratores são regiões claramente erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês diz que a espécie ocorre ao sul da floresta amazônica. A resposta é única e o enunciado não vaza.",
+      "reescrita": null
+    }
+  ]
+}
