@@ -1,0 +1,1157 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O mel que as abelhas guardam nos favos é feito principalmente de qual líquido açucarado que elas colhem nas flores?",
+        "resposta": "Néctar"
+      },
+      "existentes": [
+        {
+          "id": "q02459",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Abelha"
+        },
+        {
+          "id": "q02601",
+          "pergunta": "Por que a abelha operária costuma morrer depois de ferroar uma pessoa?",
+          "resposta": "Perde o ferrão e parte do abdômen"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Além dos dois grandes olhos compostos, a abelha tem pequenos olhos simples no alto da cabeça. Quantos olhos ela tem ao todo?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q02459",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Abelha"
+        },
+        {
+          "id": "q02601",
+          "pergunta": "Por que a abelha operária costuma morrer depois de ferroar uma pessoa?",
+          "resposta": "Perde o ferrão e parte do abdômen"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A seda das aranhas sai por pequenos órgãos na ponta do abdômen. Como se chamam esses órgãos?",
+        "resposta": "Fiandeiras"
+      },
+      "existentes": [
+        {
+          "id": "q06976",
+          "pergunta": "Quantos olhos tem a maioria das espécies de aranha?",
+          "resposta": "Oito"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Filhotes de muitas espécies de aranha viajam longas distâncias pelo ar, mesmo sem ter asas. Como eles fazem isso?",
+        "resposta": "Levados pelo vento em fios de seda"
+      },
+      "existentes": [
+        {
+          "id": "q06976",
+          "pergunta": "Quantos olhos tem a maioria das espécies de aranha?",
+          "resposta": "Oito"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Quando uma formiga acha comida, logo surge uma fila de companheiras seguindo o mesmo caminho. O que ela deixou marcado no trajeto?",
+        "resposta": "Uma trilha de feromônio"
+      },
+      "existentes": [
+        {
+          "id": "q08672",
+          "pergunta": "Que inseto social é este?",
+          "resposta": "Formiga"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na classificação científica dos insetos, as formigas pertencem à mesma ordem de quais destes?",
+        "resposta": "Abelhas e vespas"
+      },
+      "existentes": [
+        {
+          "id": "q08672",
+          "pergunta": "Que inseto social é este?",
+          "resposta": "Formiga"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Antes de pôr os ovos, a borboleta fêmea pousa numa folha e a tamborila para sentir o gosto da planta. Com que parte do corpo?",
+        "resposta": "Com as patas"
+      },
+      "existentes": [
+        {
+          "id": "q15188",
+          "pergunta": "Antes de virar adulto, a lagarta deste inseto passa por uma fase imóvel. Como se chama essa fase nas borboletas?",
+          "resposta": "Crisálida (pupa)"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O nome científico da ordem das borboletas e mariposas, lepidópteros, vem do grego e significa asas cobertas de quê?",
+        "resposta": "Escamas"
+      },
+      "existentes": [
+        {
+          "id": "q15188",
+          "pergunta": "Antes de virar adulto, a lagarta deste inseto passa por uma fase imóvel. Como se chama essa fase nas borboletas?",
+          "resposta": "Crisálida (pupa)"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O polvo tem sangue azul e um sistema circulatório bem diferente do nosso. Quantos corações ele tem?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q02529",
+          "pergunta": "Octopus, o nome do gênero do polvo, vem do grego e descreve o animal pela sua anatomia. O que essa palavra quer dizer?",
+          "resposta": "Oito pés"
+        },
+        {
+          "id": "q02530",
+          "pergunta": "O polvo tem um sistema circulatório bem diferente do nosso. Quantos corações ele tem?",
+          "resposta": "Três"
+        },
+        {
+          "id": "q08676",
+          "pergunta": "Que molusco marinho é este?",
+          "resposta": "Polvo"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No polvo, cerca de dois terços dos neurônios não ficam no cérebro. Em que parte do corpo eles estão?",
+        "resposta": "Nos braços"
+      },
+      "existentes": [
+        {
+          "id": "q02529",
+          "pergunta": "Octopus, o nome do gênero do polvo, vem do grego e descreve o animal pela sua anatomia. O que essa palavra quer dizer?",
+          "resposta": "Oito pés"
+        },
+        {
+          "id": "q02530",
+          "pergunta": "O polvo tem um sistema circulatório bem diferente do nosso. Quantos corações ele tem?",
+          "resposta": "Três"
+        },
+        {
+          "id": "q08676",
+          "pergunta": "Que molusco marinho é este?",
+          "resposta": "Polvo"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Os tardígrados, animais microscópicos quase indestrutíveis, caminham de um jeito desajeitado sobre quantas patas?",
+        "resposta": "Oito"
+      },
+      "existentes": [
+        {
+          "id": "q02597",
+          "pergunta": "Os tardígrados, animais microscópicos quase indestrutíveis, são conhecidos por um apelido que lembra um mamífero. Qual?",
+          "resposta": "Ursos-d'água"
+        },
+        {
+          "id": "q02843",
+          "pergunta": "Em 2007, tardígrados viajaram presos do lado de fora de uma cápsula em órbita, e muitos sobreviveram. A que condição extrema eles ficaram expostos?",
+          "resposta": "Vácuo e radiação do espaço"
+        },
+        {
+          "id": "q04794",
+          "pergunta": "No século dezoito, que naturalista italiano deu aos minúsculos ursos-d'água o nome de tardígrados?",
+          "resposta": "Lazzaro Spallanzani"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em 2007, num experimento europeu, tardígrados desidratados sobreviveram dez dias expostos a que ambiente extremo?",
+        "resposta": "O vácuo do espaço"
+      },
+      "existentes": [
+        {
+          "id": "q02597",
+          "pergunta": "Os tardígrados, animais microscópicos quase indestrutíveis, são conhecidos por um apelido que lembra um mamífero. Qual?",
+          "resposta": "Ursos-d'água"
+        },
+        {
+          "id": "q02843",
+          "pergunta": "Em 2007, tardígrados viajaram presos do lado de fora de uma cápsula em órbita, e muitos sobreviveram. A que condição extrema eles ficaram expostos?",
+          "resposta": "Vácuo e radiação do espaço"
+        },
+        {
+          "id": "q04794",
+          "pergunta": "No século dezoito, que naturalista italiano deu aos minúsculos ursos-d'água o nome de tardígrados?",
+          "resposta": "Lazzaro Spallanzani"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "No Brasil, que doença grave, causada por uma bactéria, é transmitida principalmente pela picada do carrapato-estrela?",
+        "resposta": "Febre maculosa"
+      },
+      "existentes": [
+        {
+          "id": "q02457",
+          "pergunta": "A que grupo de animais pertence este bicho?",
+          "resposta": "Aracnídeos"
+        },
+        {
+          "id": "q14950",
+          "pergunta": "Este parasita que se alimenta de sangue pertence à mesma classe de qual destes animais?",
+          "resposta": "Aranha"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Entre estes insetos cantores, qual costuma produzir seu som esfregando as patas traseiras contra as asas?",
+        "resposta": "Gafanhoto"
+      },
+      "existentes": [
+        {
+          "id": "q05083",
+          "pergunta": "Que tipo de inseto é este?",
+          "resposta": "Gafanhoto"
+        },
+        {
+          "id": "q06968",
+          "pergunta": "Segundo os Evangelhos, que profeta vivia no deserto se alimentando de gafanhotos e mel silvestre?",
+          "resposta": "João Batista"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O grilo escuta pelas patas dianteiras. Já o gafanhoto tem seus tímpanos em que parte do corpo?",
+        "resposta": "No abdômen"
+      },
+      "existentes": [
+        {
+          "id": "q05083",
+          "pergunta": "Que tipo de inseto é este?",
+          "resposta": "Gafanhoto"
+        },
+        {
+          "id": "q06968",
+          "pergunta": "Segundo os Evangelhos, que profeta vivia no deserto se alimentando de gafanhotos e mel silvestre?",
+          "resposta": "João Batista"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Quando ameaçada, a caranguejeira das Américas esfrega as patas traseiras no abdômen e lança contra o agressor parte do próprio corpo. O quê?",
+        "resposta": "Pelos urticantes"
+      },
+      "existentes": [
+        {
+          "id": "q15368",
+          "pergunta": "Que tipo de aranha é esta?",
+          "resposta": "Aranha-caranguejeira (tarântula)"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Na viúva-negra norte-americana, a mancha vermelha na parte de baixo do abdômen costuma ter o formato de qual objeto?",
+        "resposta": "Ampulheta"
+      },
+      "existentes": [
+        {
+          "id": "q02587",
+          "pergunta": "Às vezes, logo depois do acasalamento, a fêmea da viúva-negra faz algo com o parceiro que explica o nome da aranha. O quê?",
+          "resposta": "Devora o macho"
+        },
+        {
+          "id": "q08679",
+          "pergunta": "Que aranha é esta?",
+          "resposta": "Viúva-negra"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "A capa dura que cobre as costas dos besouros, formada pelos élitros, é na verdade uma modificação de que parte do corpo?",
+        "resposta": "Das asas dianteiras"
+      },
+      "existentes": [
+        {
+          "id": "q02633",
+          "pergunta": "Que grupo de insetos reúne o maior número de espécies já descritas pela ciência?",
+          "resposta": "Besouros"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "A luz do vaga-lume nasce de uma reação química entre o oxigênio e qual substância produzida pelo inseto?",
+        "resposta": "Luciferina"
+      },
+      "existentes": [
+        {
+          "id": "q05079",
+          "pergunta": "A que grupo de insetos pertence este animal?",
+          "resposta": "Besouros"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "A peça branca e porosa que muita gente pendura na gaiola de calopsitas e periquitos é a concha interna de qual molusco?",
+        "resposta": "Choco (siba)"
+      },
+      "existentes": [
+        {
+          "id": "q02553",
+          "pergunta": "A cor sépia, típica de fotografias antigas, tem o nome do gênero de um molusco cuja tinta servia de pigmento. Que molusco é esse?",
+          "resposta": "Choco"
+        },
+        {
+          "id": "q09580",
+          "pergunta": "O osso de siba, pendurado nas gaiolas de passarinhos, não é um osso de verdade. Que parte do choco ele é?",
+          "resposta": "A concha interna"
+        },
+        {
+          "id": "q16052",
+          "pergunta": "Este animal pertence a que classe de moluscos?",
+          "resposta": "Cefalópodes"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Uma pérola se forma quando a ostra envolve um grão irritante com camadas da mesma substância que reveste o interior da concha. Que substância?",
+        "resposta": "Nácar (madrepérola)"
+      },
+      "existentes": [
+        {
+          "id": "q02563",
+          "pergunta": "Quando um corpo estranho entra numa ostra, ela o envolve em camadas de que substância brilhante, formando uma pérola?",
+          "resposta": "Nácar"
+        },
+        {
+          "id": "q07746",
+          "pergunta": "Dentro de ostras e mexilhões, as pérolas naturais se formam como reação a quê?",
+          "resposta": "Um irritante que invade a concha"
+        },
+        {
+          "id": "q15422",
+          "pergunta": "Que gema, produzida por moluscos, é esta?",
+          "resposta": "Pérola"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Além das seis patas verdadeiras, a lagarta tem patinhas carnudas no abdômen, que desaparecem no adulto. Como elas se chamam?",
+        "resposta": "Falsas patas"
+      },
+      "existentes": [
+        {
+          "id": "q15612",
+          "pergunta": "Que fase da vida de uma mariposa ou borboleta é esta?",
+          "resposta": "Lagarta"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Em qual destes insetos sociais um rei vive ao lado da rainha por anos, ajudando a fundar e manter a colônia?",
+        "resposta": "Cupim"
+      },
+      "existentes": [
+        {
+          "id": "q02463",
+          "pergunta": "Estes insetos evoluíram a partir de qual outro grupo de insetos?",
+          "resposta": "Baratas"
+        },
+        {
+          "id": "q02609",
+          "pergunta": "Os cupins comem madeira, mas não conseguem digerir a celulose sozinhos. Quem faz esse trabalho por eles?",
+          "resposta": "Microrganismos do intestino"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Muitos bichinhos de jardim são chamados de insetos sem ser. Entre estes, qual é de fato um inseto?",
+        "resposta": "Tesourinha"
+      },
+      "existentes": [
+        {
+          "id": "q08677",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Tesourinha"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Entre estes bichos de muitas patas, qual tem dois pares de patas na maioria dos segmentos do corpo?",
+        "resposta": "Piolho-de-cobra"
+      },
+      "existentes": [
+        {
+          "id": "q02607",
+          "pergunta": "Macacos-prego já foram vistos esfregando piolhos-de-cobra no próprio pelo. O que eles ganham com isso?",
+          "resposta": "Proteção contra mosquitos"
+        },
+        {
+          "id": "q05086",
+          "pergunta": "Que animal é este?",
+          "resposta": "Piolho-de-cobra"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Qual destes invertebrados tem sangue vermelho, com um pigmento parecido com a hemoglobina humana?",
+        "resposta": "Minhoca"
+      },
+      "existentes": [
+        {
+          "id": "q05088",
+          "pergunta": "A que filo de animais pertence este?",
+          "resposta": "Anelídeos"
+        },
+        {
+          "id": "q06977",
+          "pergunta": "Na minhoca-comum, o sangue é bombeado por pares de vasos musculares que costumam ser chamados de corações. Quantos pares são?",
+          "resposta": "Cinco"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Entre os cefalópodes que vivem hoje nos mares, qual destes mora dentro de uma concha externa em espiral?",
+        "resposta": "Náutilo"
+      },
+      "existentes": [
+        {
+          "id": "q02054",
+          "pergunta": "A que classe de moluscos pertence este animal?",
+          "resposta": "Cefalópodes"
+        },
+        {
+          "id": "q02557",
+          "pergunta": "O submarino do Capitão Nemo, em Vinte Mil Léguas Submarinas, de Júlio Verne, tem o mesmo nome de que molusco de concha espiralada?",
+          "resposta": "Náutilo"
+        },
+        {
+          "id": "q15366",
+          "pergunta": "Que molusco marinho é este?",
+          "resposta": "Náutilo"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Qual destes insetos passa por metamorfose completa, com larva e pupa, antes de chegar à forma adulta?",
+        "resposta": "Joaninha"
+      },
+      "existentes": [
+        {
+          "id": "q02586",
+          "pergunta": "Em inglês, a joaninha é chamada de ladybird. A senhora homenageada nesse nome é qual figura religiosa?",
+          "resposta": "Virgem Maria"
+        },
+        {
+          "id": "q02627",
+          "pergunta": "Agricultores costumam ver as joaninhas como aliadas porque elas devoram grandes quantidades de qual praga?",
+          "resposta": "Pulgões"
+        },
+        {
+          "id": "q16205",
+          "pergunta": "Este inseto pertence a qual grupo?",
+          "resposta": "Besouros"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Qual destes insetos voa usando apenas um par de asas?",
+        "resposta": "Mosca"
+      },
+      "existentes": [
+        {
+          "id": "q05078",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Mosca"
+        },
+        {
+          "id": "q15010",
+          "pergunta": "Que espécie de mosca é esta?",
+          "resposta": "Mosca-doméstica"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Qual destes aracnídeos dá à luz filhotes já formados, em vez de pôr ovos?",
+        "resposta": "Escorpião"
+      },
+      "existentes": [
+        {
+          "id": "q02625",
+          "pergunta": "O que acontece com o corpo de um escorpião quando ele é iluminado por luz ultravioleta no escuro?",
+          "resposta": "Brilha, ficando fluorescente"
+        },
+        {
+          "id": "q15365",
+          "pergunta": "Qual destes animais pertence à mesma classe deste?",
+          "resposta": "Aranha"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Nós enxergamos as cores com três tipos de células receptoras nos olhos. Os olhos da tamarutaca têm até quantos tipos?",
+        "resposta": "Dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q02592",
+          "pergunta": "Por causa das patas dobradas de caça, o crustáceo tamarutaca é chamado em inglês e em outros idiomas pelo nome de qual inseto?",
+          "resposta": "Louva-a-deus"
+        },
+        {
+          "id": "q17728",
+          "pergunta": "Este crustáceo predador vive em tocas no fundo do mar. Em que tipo de águas vive a maioria das espécies?",
+          "resposta": "Águas tropicais e subtropicais"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "As monarcas que voam ao México no outono vivem muito mais que as das gerações de verão. Cerca de quanto tempo?",
+        "resposta": "Cerca de oito meses"
+      },
+      "existentes": [
+        {
+          "id": "q02462",
+          "pergunta": "Que borboleta é esta?",
+          "resposta": "Borboleta-monarca"
+        },
+        {
+          "id": "q02608",
+          "pergunta": "A borboleta-monarca é tóxica para as aves. De que planta, comida na fase de lagarta, vem esse veneno?",
+          "resposta": "Asclépia"
+        },
+        {
+          "id": "q02623",
+          "pergunta": "No outono, as monarcas do leste da América do Norte voam milhares de quilômetros para passar o inverno nas florestas de montanha de qual país?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Diferente do pernilongo comum, que ataca à noite, o mosquito da dengue costuma picar em que período?",
+        "resposta": "Durante o dia"
+      },
+      "existentes": [
+        {
+          "id": "q02588",
+          "pergunta": "O mosquito da dengue se chama cientificamente Aedes aegypti. A palavra grega Aedes, que dá nome ao gênero, significa o quê?",
+          "resposta": "Desagradável ou odioso"
+        },
+        {
+          "id": "q05366",
+          "pergunta": "Que mosquito é este, de pernas listradas de preto e branco?",
+          "resposta": "Aedes aegypti"
+        },
+        {
+          "id": "q18130",
+          "pergunta": "Este mosquito transmite qual destas doenças?",
+          "resposta": "Dengue"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Depois de milênios de domesticação, a mariposa adulta do bicho-da-seda perdeu uma capacidade que suas parentes selvagens têm. Qual?",
+        "resposta": "Voar"
+      },
+      "existentes": [
+        {
+          "id": "q02622",
+          "pergunta": "Há milhares de anos, em que país a mariposa do bicho-da-seda foi domesticada para a produção de tecidos?",
+          "resposta": "China"
+        },
+        {
+          "id": "q06955",
+          "pergunta": "Monges contrabandearam ovos de bicho-da-seda escondidos em bengalas ocas até Constantinopla, quebrando o segredo chinês da seda. Em que século?",
+          "resposta": "Século seis"
+        },
+        {
+          "id": "q13798",
+          "pergunta": "O bicho-da-seda, criado na China há milênios para produzir seda, alimenta-se das folhas de que árvore?",
+          "resposta": "Amoreira"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "O caranguejo-dos-coqueiros passa a fase de larva no mar. Mas o que acontece com o adulto se ficar muito tempo dentro da água?",
+        "resposta": "Morre afogado"
+      },
+      "existentes": [
+        {
+          "id": "q16200",
+          "pergunta": "Que animal é este?",
+          "resposta": "Caranguejo-dos-coqueiros"
+        },
+        {
+          "id": "q17409",
+          "pergunta": "Este gigante terrestre é, na verdade, uma espécie de qual crustáceo?",
+          "resposta": "Caranguejo-eremita"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Só a fêmea do mosquito pica, porque precisa de sangue para produzir os ovos. Do que se alimenta o macho?",
+        "resposta": "Néctar e seiva de plantas"
+      },
+      "existentes": [
+        {
+          "id": "q05085",
+          "pergunta": "Que tipo de inseto é este?",
+          "resposta": "Mosquito (pernilongo)"
+        },
+        {
+          "id": "q06961",
+          "pergunta": "A palavra mosquito, usada também em inglês, vem do espanhol e do português. O que ela significa ao pé da letra?",
+          "resposta": "Mosca pequena"
+        },
+        {
+          "id": "q06972",
+          "pergunta": "Que gás, liberado quando respiramos, ajuda as fêmeas de mosquito a encontrar suas vítimas?",
+          "resposta": "Gás carbônico"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Rainhas e operárias nascem de ovos iguais. O que faz uma larva fêmea de abelha se desenvolver como rainha?",
+        "resposta": "Ser alimentada com geleia real"
+      },
+      "existentes": [
+        {
+          "id": "q06980",
+          "pergunta": "Numa colmeia de abelhas-europeias, quem costuma viver por mais tempo: a rainha, as operárias ou os zangões?",
+          "resposta": "A rainha"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "O que acontece com o zangão logo depois de acasalar com a rainha, em pleno voo?",
+        "resposta": "Morre"
+      },
+      "existentes": [
+        {
+          "id": "q02634",
+          "pergunta": "Numa colmeia, entre rainha, operárias e zangões, quem nasce de ovos não fecundados?",
+          "resposta": "Os zangões"
+        },
+        {
+          "id": "q06969",
+          "pergunta": "Como o zangão tem mãe, mas não tem pai, sua árvore genealógica segue qual famosa sequência de números?",
+          "resposta": "Sequência de Fibonacci"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Abelhas japonesas matam a vespa-mandarina formando uma bola de centenas de operárias em volta dela. O que, dentro da bola, mata a vespa?",
+        "resposta": "Calor e excesso de gás carbônico"
+      },
+      "existentes": [
+        {
+          "id": "q15364",
+          "pergunta": "Que vespa é esta?",
+          "resposta": "Vespa-mandarina"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "As aranhas-saltadoras dão saltos longos sem ter músculos fortes para esticar as patas. O que faz as patas se estenderem no salto?",
+        "resposta": "Um aumento súbito da pressão do sangue"
+      },
+      "existentes": [
+        {
+          "id": "q08673",
+          "pergunta": "Que tipo de aranha é esta?",
+          "resposta": "Aranha-saltadora"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Viva, a lagosta costuma ser escura, azul-esverdeada. Por que ela fica vermelha quando é cozida?",
+        "resposta": "O calor libera o pigmento astaxantina"
+      },
+      "existentes": [
+        {
+          "id": "q16201",
+          "pergunta": "Que crustáceo de grandes pinças é este?",
+          "resposta": "Lagosta (lavagante)"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "A abelha operária perde o ferrão quando pica, mas as vespas conseguem ferroar várias vezes seguidas. Por quê?",
+        "resposta": "O ferrão delas é liso, sem farpas"
+      },
+      "existentes": [
+        {
+          "id": "q02616",
+          "pergunta": "Que material as vespas-de-papel raspam e mastigam para construir seus ninhos?",
+          "resposta": "Fibras de madeira"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "O nome científico da ordem das pulgas, sifonápteros, junta em grego a ideia de tubo e qual característica do inseto?",
+        "resposta": "Sem asas"
+      },
+      "existentes": [
+        {
+          "id": "q15181",
+          "pergunta": "De que se alimentam os adultos deste inseto?",
+          "resposta": "Sangue"
+        },
+        {
+          "id": "q15324",
+          "pergunta": "Que inseto, visto bem de perto, é este?",
+          "resposta": "Pulga"
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "nova": {
+        "pergunta": "No interior de São Paulo e de Minas, as rainhas aladas da saúva, que saem em revoada e são comidas fritas, são chamadas de quê?",
+        "resposta": "Tanajura"
+      },
+      "existentes": [
+        {
+          "id": "q02598",
+          "pergunta": "As saúvas carregam pedaços de folhas para dentro do formigueiro, mas não os comem. Para que servem essas folhas?",
+          "resposta": "Para cultivar o fungo que as alimenta"
+        }
+      ]
+    },
+    {
+      "caso": 45,
+      "nova": {
+        "pergunta": "O nome científico do louva-a-deus, Mantis, vem de uma palavra grega que significa o quê?",
+        "resposta": "Profeta (adivinho)"
+      },
+      "existentes": [
+        {
+          "id": "q02465",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Louva-a-deus"
+        },
+        {
+          "id": "q02596",
+          "pergunta": "O louva-a-deus deve seu nome ao jeito como mantém as patas dianteiras dobradas. Com o que essa posição se parece?",
+          "resposta": "Mãos em oração"
+        }
+      ]
+    },
+    {
+      "caso": 46,
+      "nova": {
+        "pergunta": "Na árvore genealógica dos insetos, o louva-a-deus divide um mesmo ramo com os cupins e com quais destes?",
+        "resposta": "Baratas"
+      },
+      "existentes": [
+        {
+          "id": "q02465",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Louva-a-deus"
+        },
+        {
+          "id": "q02596",
+          "pergunta": "O louva-a-deus deve seu nome ao jeito como mantém as patas dianteiras dobradas. Com o que essa posição se parece?",
+          "resposta": "Mãos em oração"
+        }
+      ]
+    },
+    {
+      "caso": 47,
+      "nova": {
+        "pergunta": "No Egito Antigo, o besouro rola-bosta empurrando sua bola inspirou a imagem de qual deus, que rolava o Sol pelo céu?",
+        "resposta": "Khepri (Quepri)"
+      },
+      "existentes": [
+        {
+          "id": "q02626",
+          "pergunta": "Certos besouros rola-bosta conseguem rolar sua bola em linha reta em noites sem lua. Eles se guiam por quê?",
+          "resposta": "Pela Via Láctea"
+        }
+      ]
+    },
+    {
+      "caso": 48,
+      "nova": {
+        "pergunta": "O veneno do polvo-de-anéis-azuis é a tetrodotoxina, a mesma toxina de qual peixe, servido como iguaria arriscada no Japão?",
+        "resposta": "Baiacu (fugu)"
+      },
+      "existentes": [
+        {
+          "id": "q05672",
+          "pergunta": "O pequeno polvo-de-anéis-azuis e o baiacu, peixe do prato japonês fugu, carregam o mesmo veneno potente. Que veneno é esse?",
+          "resposta": "Tetrodotoxina"
+        },
+        {
+          "id": "q09113",
+          "pergunta": "Que animal marinho é este?",
+          "resposta": "Polvo-de-anéis-azuis"
+        },
+        {
+          "id": "q16821",
+          "pergunta": "Que tipo de cefalópode marinho é este, pequeno e de pele amarelada?",
+          "resposta": "Polvo"
+        }
+      ]
+    },
+    {
+      "caso": 49,
+      "nova": {
+        "pergunta": "Que capital do Sul do Brasil ficou conhecida pela grande infestação de aranhas-marrons escondidas dentro das casas?",
+        "resposta": "Curitiba"
+      },
+      "existentes": [
+        {
+          "id": "q06963",
+          "pergunta": "Em Portugal, a aranha-marrom é chamada de aranha de qual instrumento musical, por causa de uma mancha escura no dorso?",
+          "resposta": "Violino"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente: origem do mel."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Número de olhos não consta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Fiandeiras, não olhos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Dispersão por seda, fato distinto."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Feromônio, fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Classificação, não identificação."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Gosto pelas patas, fato distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Etimologia de lepidópteros, distinta."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "id_existente": "q02530",
+      "motivo": "Mesmo fato: três corações."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Neurônios nos braços, fato distinto."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Número de patas não consta."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "id_existente": "q02843",
+      "motivo": "Mesmo experimento de 2007, exposição ao vácuo."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Doença transmitida, fato distinto."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Modo de produzir som, distinto."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Localização dos tímpanos, distinta."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Defesa com pelos, distinta."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Mancha em ampulheta, distinta."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Origem dos élitros, distinta."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Bioluminescência, distinta."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "id_existente": "q09580",
+      "motivo": "Osso de siba é a concha interna do choco."
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "id_existente": "q02563",
+      "motivo": "Mesma resposta: nácar envolve o irritante formando a pérola."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Falsas patas, distinto."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Rei do cupinzeiro, distinto."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Distinção inseto/não inseto, distinta da identificação."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Dois pares de patas por segmento, distinto."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Cor do sangue, distinto."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Concha externa do náutilo, distinta."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Metamorfose, distinta."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Um par de asas, distinto."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Reprodução, distinta."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Tipos de receptores de cor, distinto."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Longevidade, distinta."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Período de picada, distinto."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Perda do voo, distinto."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Afogamento do adulto, distinto."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Alimentação do macho, distinta."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Geleia real, distinta."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Morte do zangão, distinta."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Defesa contra a vespa, distinta."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Mecanismo do salto, distinto."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Cor ao cozinhar, distinta."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Ferrão liso, distinto."
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Etimologia, distinta."
+    },
+    {
+      "caso": 44,
+      "decisao": "nova",
+      "motivo": "Tanajura, distinta."
+    },
+    {
+      "caso": 45,
+      "decisao": "nova",
+      "motivo": "Etimologia de Mantis, distinta do nome popular."
+    },
+    {
+      "caso": 46,
+      "decisao": "nova",
+      "motivo": "Parentesco filogenético, distinto."
+    },
+    {
+      "caso": 47,
+      "decisao": "nova",
+      "motivo": "Khepri, distinto."
+    },
+    {
+      "caso": 48,
+      "decisao": "repete",
+      "id_existente": "q05672",
+      "motivo": "Mesmo fato: toxina compartilhada com o baiacu."
+    },
+    {
+      "caso": 49,
+      "decisao": "nova",
+      "motivo": "Infestação em Curitiba, distinta."
+    }
+  ]
+}

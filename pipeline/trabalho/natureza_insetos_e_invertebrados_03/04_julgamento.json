@@ -1,0 +1,66 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pérola",
+        "descricao": "Objeto duro e brilhante formado dentro de ostras e outros moluscos bivalves, usado como joia.",
+        "variantes": [
+          "Pearl"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "perola",
+          "nome": "Pérola",
+          "descricao": "Gema orgânica formada dentro de ostras e outros moluscos.",
+          "variantes": [
+            "Pearl"
+          ]
+        },
+        {
+          "id": "penarol",
+          "nome": "Peñarol",
+          "descricao": "Clube de futebol de Montevidéu, no Uruguai, de camisa listrada em preto e amarelo.",
+          "variantes": [
+            "Club Atlético Peñarol",
+            "Carbonero"
+          ]
+        },
+        {
+          "id": "petrolina",
+          "nome": "Petrolina",
+          "descricao": "Cidade do sertão de Pernambuco, polo de fruticultura irrigada, vizinha de Juazeiro, na Bahia.",
+          "variantes": []
+        },
+        {
+          "id": "supercola",
+          "nome": "Supercola",
+          "descricao": "Adesivo instantâneo de cianoacrilato, descoberto pelo americano Harry Coover nos anos quarenta.",
+          "variantes": [
+            "Cianoacrilato",
+            "Super Bonder"
+          ]
+        },
+        {
+          "id": "vaselina",
+          "nome": "Vaselina",
+          "descricao": "Marca de geleia de petróleo criada pelo químico americano Robert Chesebrough no século dezenove.",
+          "variantes": [
+            "Vaseline",
+            "Petrolato",
+            "Geleia de petróleo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "perola",
+      "motivo": "Ambas descrevem a pérola formada em ostras e moluscos; mesmo nome e variante."
+    }
+  ]
+}

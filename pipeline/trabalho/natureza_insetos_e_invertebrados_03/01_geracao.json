@@ -1,0 +1,1171 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "abelha",
+        "nome": "Abelha",
+        "descricao": "Abelha-europeia (Apis mellifera), inseto social produtor de mel e polinizador.",
+        "variantes": [
+          "Abelha-europeia",
+          "Apis mellifera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Western_honey_bee"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O mel que as abelhas guardam nos favos é feito principalmente de qual líquido açucarado que elas colhem nas flores?",
+      "resposta": "Néctar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Honey",
+        "https://pt.wikipedia.org/wiki/Mel"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abelha",
+        "nome": "Abelha",
+        "descricao": "Abelha-europeia (Apis mellifera), inseto social produtor de mel e polinizador.",
+        "variantes": [
+          "Abelha-europeia",
+          "Apis mellifera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Western_honey_bee"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Além dos dois grandes olhos compostos, a abelha tem pequenos olhos simples no alto da cabeça. Quantos olhos ela tem ao todo?",
+      "resposta": "Cinco",
+      "distratores": [
+        "Quatro",
+        "Seis",
+        "Oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Western_honey_bee",
+        "https://en.wikipedia.org/wiki/Simple_eye_in_invertebrates"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aranha",
+        "nome": "Aranha",
+        "descricao": "Aracnídeos da ordem Araneae, predadores de oito patas que produzem seda.",
+        "variantes": [
+          "Araneae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spider"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A seda das aranhas sai por pequenos órgãos na ponta do abdômen. Como se chamam esses órgãos?",
+      "resposta": "Fiandeiras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spinneret",
+        "https://en.wikipedia.org/wiki/Spider_silk"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aranha",
+        "nome": "Aranha",
+        "descricao": "Aracnídeos da ordem Araneae, predadores de oito patas que produzem seda.",
+        "variantes": [
+          "Araneae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spider"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Filhotes de muitas espécies de aranha viajam longas distâncias pelo ar, mesmo sem ter asas. Como eles fazem isso?",
+      "resposta": "Levados pelo vento em fios de seda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ballooning_(spider)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "formiga_2",
+        "nome": "Formiga",
+        "descricao": "Inseto social da família Formicidae, da ordem dos himenópteros.",
+        "variantes": [
+          "Formicidae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ant"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Quando uma formiga acha comida, logo surge uma fila de companheiras seguindo o mesmo caminho. O que ela deixou marcado no trajeto?",
+      "resposta": "Uma trilha de feromônio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ant",
+        "https://en.wikipedia.org/wiki/Pheromone"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "formiga_2",
+        "nome": "Formiga",
+        "descricao": "Inseto social da família Formicidae, da ordem dos himenópteros.",
+        "variantes": [
+          "Formicidae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ant"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na classificação científica dos insetos, as formigas pertencem à mesma ordem de quais destes?",
+      "resposta": "Abelhas e vespas",
+      "distratores": [
+        "Cupins",
+        "Baratas",
+        "Besouros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hymenoptera",
+        "https://en.wikipedia.org/wiki/Ant"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "borboleta",
+        "nome": "Borboleta",
+        "descricao": "Inseto alado da superfamília Papilionoidea, de asas grandes e coloridas.",
+        "variantes": [
+          "Papilionoidea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Butterfly"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Antes de pôr os ovos, a borboleta fêmea pousa numa folha e a tamborila para sentir o gosto da planta. Com que parte do corpo?",
+      "resposta": "Com as patas",
+      "distratores": [
+        "Com as antenas",
+        "Com a tromba",
+        "Com as asas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Butterfly"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "borboleta",
+        "nome": "Borboleta",
+        "descricao": "Inseto alado da superfamília Papilionoidea, de asas grandes e coloridas.",
+        "variantes": [
+          "Papilionoidea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Butterfly"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome científico da ordem das borboletas e mariposas, lepidópteros, vem do grego e significa asas cobertas de quê?",
+      "resposta": "Escamas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lepidoptera"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "polvo",
+        "nome": "Polvo",
+        "descricao": "Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins.",
+        "variantes": [
+          "Octopus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Octopus"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O polvo tem sangue azul e um sistema circulatório bem diferente do nosso. Quantos corações ele tem?",
+      "resposta": "Três",
+      "distratores": [
+        "Um",
+        "Dois",
+        "Oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Octopus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "polvo",
+        "nome": "Polvo",
+        "descricao": "Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins.",
+        "variantes": [
+          "Octopus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Octopus"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No polvo, cerca de dois terços dos neurônios não ficam no cérebro. Em que parte do corpo eles estão?",
+      "resposta": "Nos braços",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Octopus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tardigrado",
+        "nome": "Tardígrado",
+        "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+        "variantes": [
+          "Urso-d'água",
+          "Tardigrada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tardigrade"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Os tardígrados, animais microscópicos quase indestrutíveis, caminham de um jeito desajeitado sobre quantas patas?",
+      "resposta": "Oito",
+      "distratores": [
+        "Quatro",
+        "Seis",
+        "Dez"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tardigrade"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tardigrado",
+        "nome": "Tardígrado",
+        "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+        "variantes": [
+          "Urso-d'água",
+          "Tardigrada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tardigrade"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2007, num experimento europeu, tardígrados desidratados sobreviveram dez dias expostos a que ambiente extremo?",
+      "resposta": "O vácuo do espaço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tardigrade"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "carrapato",
+        "nome": "Carrapato",
+        "descricao": "Aracnídeo parasita da ordem Ixodida, que se alimenta de sangue de mamíferos, aves e outros vertebrados.",
+        "variantes": [
+          "Ixodida"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tick"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No Brasil, que doença grave, causada por uma bactéria, é transmitida principalmente pela picada do carrapato-estrela?",
+      "resposta": "Febre maculosa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Febre_maculosa",
+        "https://en.wikipedia.org/wiki/Rocky_Mountain_spotted_fever"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gafanhoto",
+        "nome": "Gafanhoto",
+        "descricao": "Inseto saltador herbívoro da subordem Caelifera, de antenas curtas.",
+        "variantes": [
+          "Caelifera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Grasshopper"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estes insetos cantores, qual costuma produzir seu som esfregando as patas traseiras contra as asas?",
+      "resposta": "Gafanhoto",
+      "distratores": [
+        "Grilo",
+        "Cigarra",
+        "Esperança"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Grasshopper",
+        "https://en.wikipedia.org/wiki/Stridulation"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gafanhoto",
+        "nome": "Gafanhoto",
+        "descricao": "Inseto saltador herbívoro da subordem Caelifera, de antenas curtas.",
+        "variantes": [
+          "Caelifera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Grasshopper"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O grilo escuta pelas patas dianteiras. Já o gafanhoto tem seus tímpanos em que parte do corpo?",
+      "resposta": "No abdômen",
+      "distratores": [
+        "Na cabeça",
+        "Nas antenas",
+        "Nas patas traseiras"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Grasshopper"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aranha_caranguejeira",
+        "nome": "Aranha-caranguejeira",
+        "descricao": "Aranha grande e peluda da família Theraphosidae, popularmente chamada de tarântula.",
+        "variantes": [
+          "Tarântula",
+          "Theraphosidae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tarantula"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Quando ameaçada, a caranguejeira das Américas esfrega as patas traseiras no abdômen e lança contra o agressor parte do próprio corpo. O quê?",
+      "resposta": "Pelos urticantes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Urticating_hair",
+        "https://en.wikipedia.org/wiki/Tarantula"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "viuva_negra",
+        "nome": "Viúva-negra",
+        "descricao": "Aranhas venenosas do gênero Latrodectus, de corpo negro e brilhante, muitas com uma mancha vermelha no abdômen.",
+        "variantes": [
+          "Latrodectus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Latrodectus"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na viúva-negra norte-americana, a mancha vermelha na parte de baixo do abdômen costuma ter o formato de qual objeto?",
+      "resposta": "Ampulheta",
+      "distratores": [
+        "Estrela",
+        "Cruz",
+        "Coração"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Latrodectus_mactans"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "besouro",
+        "nome": "Besouro",
+        "descricao": "Insetos da ordem Coleoptera, com o primeiro par de asas endurecido em forma de estojo.",
+        "variantes": [
+          "Coleoptera",
+          "Coleópteros"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beetle"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A capa dura que cobre as costas dos besouros, formada pelos élitros, é na verdade uma modificação de que parte do corpo?",
+      "resposta": "Das asas dianteiras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elytron",
+        "https://en.wikipedia.org/wiki/Beetle"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "vaga_lume",
+        "nome": "Vaga-lume",
+        "descricao": "Besouro da família Lampyridae, conhecido por emitir luz para atrair parceiros.",
+        "variantes": [
+          "Pirilampo",
+          "Lampyridae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Firefly"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A luz do vaga-lume nasce de uma reação química entre o oxigênio e qual substância produzida pelo inseto?",
+      "resposta": "Luciferina",
+      "distratores": [
+        "Clorofila",
+        "Melanina",
+        "Fósforo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Firefly",
+        "https://en.wikipedia.org/wiki/Luciferin"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "choco",
+        "nome": "Choco",
+        "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+        "variantes": [
+          "Siba",
+          "Sépia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cuttlefish"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A peça branca e porosa que muita gente pendura na gaiola de calopsitas e periquitos é a concha interna de qual molusco?",
+      "resposta": "Choco (siba)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cuttlebone"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pérola",
+        "descricao": "Objeto duro e brilhante formado dentro de ostras e outros moluscos bivalves, usado como joia.",
+        "variantes": [
+          "Pearl"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pérola",
+          "https://en.wikipedia.org/wiki/Pearl"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Uma pérola se forma quando a ostra envolve um grão irritante com camadas da mesma substância que reveste o interior da concha. Que substância?",
+      "resposta": "Nácar (madrepérola)",
+      "distratores": [
+        "Âmbar",
+        "Quitina",
+        "Queratina"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pearl",
+        "https://en.wikipedia.org/wiki/Nacre"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lagarta",
+        "nome": "Lagarta",
+        "descricao": "Fase larval de borboletas e mariposas (ordem Lepidoptera), de corpo alongado e que se alimenta de forma voraz.",
+        "variantes": [
+          "Larva de lepidóptero"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Caterpillar"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Além das seis patas verdadeiras, a lagarta tem patinhas carnudas no abdômen, que desaparecem no adulto. Como elas se chamam?",
+      "resposta": "Falsas patas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caterpillar",
+        "https://en.wikipedia.org/wiki/Proleg"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cupim",
+        "nome": "Cupim",
+        "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+        "variantes": [
+          "Térmita",
+          "Isoptera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Termite"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Em qual destes insetos sociais um rei vive ao lado da rainha por anos, ajudando a fundar e manter a colônia?",
+      "resposta": "Cupim",
+      "distratores": [
+        "Abelha",
+        "Formiga",
+        "Vespa"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Termite"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tesourinha",
+        "nome": "Tesourinha",
+        "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+        "variantes": [
+          "Lacrainha",
+          "Dermaptera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Earwig"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Muitos bichinhos de jardim são chamados de insetos sem ser. Entre estes, qual é de fato um inseto?",
+      "resposta": "Tesourinha",
+      "distratores": [
+        "Tatuzinho-de-jardim",
+        "Opilião",
+        "Lacraia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Earwig",
+        "https://en.wikipedia.org/wiki/Woodlouse"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tesourinha",
+        "nome": "Tesourinha",
+        "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+        "variantes": [
+          "Lacrainha",
+          "Dermaptera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Earwig"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em inglês, a tesourinha se chama earwig por causa de uma velha crença sobre onde ela entraria nas pessoas adormecidas. Onde?",
+      "resposta": "Nos ouvidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Earwig"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "piolho_de_cobra",
+        "nome": "Piolho-de-cobra",
+        "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+        "variantes": [
+          "Embuá",
+          "Gongolo",
+          "Diplopoda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Millipede"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Lacraias, piolhos-de-cobra e outros bichos têm muitas patas. Qual deles tem dois pares de patas em cada segmento do corpo?",
+      "resposta": "Piolho-de-cobra",
+      "distratores": [
+        "Lacraia",
+        "Escutigera",
+        "Tatuzinho-de-jardim"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Millipede",
+        "https://en.wikipedia.org/wiki/Centipede"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "minhoca",
+        "nome": "Minhoca",
+        "descricao": "Anelídeo terrestre da classe Oligochaeta que vive no solo.",
+        "variantes": [
+          "Oligochaeta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Earthworm"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes invertebrados tem sangue vermelho, com um pigmento parecido com a hemoglobina humana?",
+      "resposta": "Minhoca",
+      "distratores": [
+        "Polvo",
+        "Lagosta",
+        "Escorpião"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Erythrocruorin",
+        "https://en.wikipedia.org/wiki/Hemocyanin"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nautilo",
+        "nome": "Náutilo",
+        "descricao": "Cefalópode de concha externa espiralada e dividida em câmaras (Nautilus pompilius).",
+        "variantes": [
+          "Nautilus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nautilus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre os cefalópodes que vivem hoje nos mares, qual destes mora dentro de uma concha externa em espiral?",
+      "resposta": "Náutilo",
+      "distratores": [
+        "Lula",
+        "Polvo",
+        "Choco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nautilus",
+        "https://en.wikipedia.org/wiki/Cephalopod"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "joaninha",
+        "nome": "Joaninha",
+        "descricao": "Besouros da família Coccinellidae, pequenos, arredondados e geralmente vermelhos com pintas pretas.",
+        "variantes": [
+          "Coccinellidae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coccinellidae"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes insetos passa por metamorfose completa, com larva e pupa, antes de chegar à forma adulta?",
+      "resposta": "Joaninha",
+      "distratores": [
+        "Gafanhoto",
+        "Barata",
+        "Louva-a-deus"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Holometabolism",
+        "https://en.wikipedia.org/wiki/Coccinellidae"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mosca_domestica",
+        "nome": "Mosca-doméstica",
+        "descricao": "Mosca comum Musca domestica, cosmopolita, que convive com os humanos.",
+        "variantes": [
+          "Musca domestica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Housefly"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Abelhas, libélulas, borboletas e moscas voam, mas só uma delas usa apenas um par de asas. Qual?",
+      "resposta": "Mosca",
+      "distratores": [
+        "Abelha",
+        "Libélula",
+        "Borboleta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fly",
+        "https://en.wikipedia.org/wiki/Housefly"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "escorpiao",
+        "nome": "Escorpião",
+        "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+        "variantes": [
+          "Scorpiones"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Scorpion"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes aracnídeos dá à luz filhotes já formados, em vez de pôr ovos?",
+      "resposta": "Escorpião",
+      "distratores": [
+        "Aranha",
+        "Carrapato",
+        "Opilião"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Scorpion"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tamarutaca",
+        "nome": "Tamarutaca",
+        "descricao": "Crustáceos marinhos da ordem Stomatopoda, com patas raptoriais que golpeiam a presa com enorme velocidade.",
+        "variantes": [
+          "Camarão-louva-a-deus",
+          "Stomatopoda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mantis_shrimp"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Nós enxergamos as cores com três tipos de células receptoras nos olhos. Os olhos da tamarutaca têm até quantos tipos?",
+      "resposta": "Dezesseis",
+      "distratores": [
+        "Quatro",
+        "Seis",
+        "Cem"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mantis_shrimp"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "borboleta_monarca",
+        "nome": "Borboleta-monarca",
+        "descricao": "Borboleta norte-americana (Danaus plexippus) de asas laranja, pretas e brancas, famosa pela migração anual.",
+        "variantes": [
+          "Monarca",
+          "Danaus plexippus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monarch_butterfly"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "As monarcas que voam ao México no outono vivem muito mais que as das gerações de verão. Cerca de quanto tempo?",
+      "resposta": "Cerca de oito meses",
+      "distratores": [
+        "Cerca de duas semanas",
+        "Cerca de três anos",
+        "Cerca de dez anos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monarch_butterfly_migration",
+        "https://en.wikipedia.org/wiki/Monarch_butterfly"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aedes_aegypti",
+        "nome": "Aedes aegypti",
+        "descricao": "Mosquito de origem africana, transmissor da dengue, da zika, da chikungunya e da febre amarela urbana.",
+        "variantes": [
+          "Mosquito da dengue"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aedes_aegypti"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Diferente do pernilongo comum, que ataca à noite, o mosquito da dengue costuma picar em que período?",
+      "resposta": "Durante o dia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aedes_aegypti",
+        "https://pt.wikipedia.org/wiki/Aedes_aegypti"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bicho_da_seda",
+        "nome": "Bicho-da-seda",
+        "descricao": "Lagarta da mariposa domesticada Bombyx mori, que tece casulos de seda.",
+        "variantes": [
+          "Bombyx mori"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bombyx_mori"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Depois de milênios de domesticação, a mariposa adulta do bicho-da-seda perdeu uma capacidade que suas parentes selvagens têm. Qual?",
+      "resposta": "Voar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bombyx_mori"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "caranguejo_dos_coqueiros",
+        "nome": "Caranguejo-dos-coqueiros",
+        "descricao": "Maior artrópode terrestre, um caranguejo-eremita gigante (Birgus latro) das ilhas do Índico e do Pacífico.",
+        "variantes": [
+          "Birgus latro",
+          "Caranguejo-ladrão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coconut_crab"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O caranguejo-dos-coqueiros passa a fase de larva no mar. Mas o que acontece com o adulto se ficar muito tempo dentro da água?",
+      "resposta": "Morre afogado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coconut_crab"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mosquito",
+        "nome": "Mosquito",
+        "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+        "variantes": [
+          "Pernilongo",
+          "Culicidae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mosquito"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Só a fêmea do mosquito pica, porque precisa de sangue para produzir os ovos. Do que se alimenta o macho?",
+      "resposta": "Néctar e seiva de plantas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mosquito"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abelha_rainha",
+        "nome": "Abelha-rainha",
+        "descricao": "Fêmea fértil e reprodutora de uma colônia de abelhas-europeias.",
+        "variantes": [
+          "Rainha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Queen_bee"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Rainhas e operárias nascem de ovos iguais. O que faz uma larva fêmea de abelha se desenvolver como rainha?",
+      "resposta": "Ser alimentada com geleia real",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Royal_jelly",
+        "https://en.wikipedia.org/wiki/Queen_bee"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "zangao",
+        "nome": "Zangão",
+        "descricao": "Macho da abelha-europeia, cuja principal função é fecundar a rainha.",
+        "variantes": [
+          "Zângão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Drone_(bee)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O que acontece com o zangão logo depois de acasalar com a rainha, em pleno voo?",
+      "resposta": "Morre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Drone_(bee)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "vespa_mandarina",
+        "nome": "Vespa-mandarina",
+        "descricao": "Maior vespa do mundo, nativa do leste da Ásia (Vespa mandarinia).",
+        "variantes": [
+          "Vespa mandarinia",
+          "Vespa-gigante-asiática"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Asian_giant_hornet"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Abelhas japonesas matam a vespa-mandarina formando uma bola de centenas de operárias em volta dela. Do que a vespa morre?",
+      "resposta": "De calor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Japanese_honey_bee",
+        "https://en.wikipedia.org/wiki/Asian_giant_hornet"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aranha_saltadora",
+        "nome": "Aranha-saltadora",
+        "descricao": "Aranha da família Salticidae, de grandes olhos frontais e visão aguçada.",
+        "variantes": [
+          "Salticidae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jumping_spider"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "As aranhas-saltadoras dão saltos longos sem ter músculos fortes para esticar as patas. O que faz as patas se estenderem no salto?",
+      "resposta": "Um aumento súbito da pressão do sangue",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jumping_spider"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lagosta_2",
+        "nome": "Lagosta",
+        "descricao": "Crustáceo decápode da família Nephropidae, de corpo longo e primeiro par de patas com grandes pinças.",
+        "variantes": [
+          "Lavagante",
+          "Nephropidae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lobster"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Viva, a lagosta costuma ser escura, azul-esverdeada. Por que ela fica vermelha quando é cozida?",
+      "resposta": "O calor libera o pigmento astaxantina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Astaxanthin",
+        "https://en.wikipedia.org/wiki/Lobster"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "vespa_de_papel",
+        "nome": "Vespa-de-papel",
+        "descricao": "Vespas sociais, como as do gênero Polistes, que constroem ninhos de material parecido com papel.",
+        "variantes": [
+          "Polistes",
+          "Marimbondo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Polistes"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A abelha operária perde o ferrão quando pica, mas as vespas conseguem ferroar várias vezes seguidas. Por quê?",
+      "resposta": "O ferrão delas é liso, sem farpas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stinger",
+        "https://en.wikipedia.org/wiki/Wasp"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pulga",
+        "nome": "Pulga",
+        "descricao": "Inseto sem asas da ordem Siphonaptera, parasita externo de mamíferos e aves que se alimenta de sangue.",
+        "variantes": [
+          "Siphonaptera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flea"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome científico da ordem das pulgas, sifonápteros, junta em grego a ideia de tubo e qual característica do inseto?",
+      "resposta": "Sem asas",
+      "distratores": [
+        "Sem olhos",
+        "Pernas saltadoras",
+        "Corpo achatado"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flea"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sauva",
+        "nome": "Saúva",
+        "descricao": "Formigas cortadeiras do gênero Atta, que cortam folhas e as levam para o formigueiro.",
+        "variantes": [
+          "Atta",
+          "Formiga-cortadeira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Atta_(genus)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No interior de São Paulo e de Minas, as rainhas aladas da saúva, que saem em revoada e são comidas torradas, são chamadas de quê?",
+      "resposta": "Içá (tanajura)",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tanajura"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "louva_a_deus",
+        "nome": "Louva-a-deus",
+        "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+        "variantes": [
+          "Mantodea",
+          "Mantis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mantis"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome científico do louva-a-deus, Mantis, vem de uma palavra grega que significa o quê?",
+      "resposta": "Profeta (adivinho)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mantis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "louva_a_deus",
+        "nome": "Louva-a-deus",
+        "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+        "variantes": [
+          "Mantodea",
+          "Mantis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mantis"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na árvore genealógica dos insetos, o louva-a-deus divide um mesmo ramo com os cupins e com quais destes?",
+      "resposta": "Baratas",
+      "distratores": [
+        "Gafanhotos",
+        "Bichos-pau",
+        "Libélulas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dictyoptera",
+        "https://en.wikipedia.org/wiki/Mantis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rola_bosta",
+        "nome": "Rola-bosta",
+        "descricao": "Besouros escarabeídeos que se alimentam de fezes e as moldam em bolas para rolar e enterrar.",
+        "variantes": [
+          "Escaravelho",
+          "Besouro-de-esterco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dung_beetle"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No Egito Antigo, o besouro rola-bosta empurrando sua bola inspirou a imagem de qual deus, que rolava o Sol pelo céu?",
+      "resposta": "Khepri (Quepri)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Khepri",
+        "https://en.wikipedia.org/wiki/Scarab_(artifact)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "polvo_de_aneis_azuis",
+        "nome": "Polvo-de-anéis-azuis",
+        "descricao": "Pequeno polvo do gênero Hapalochlaena, do Indo-Pacífico, com anéis azuis brilhantes e veneno mortal.",
+        "variantes": [
+          "Hapalochlaena"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blue-ringed_octopus"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O veneno do polvo-de-anéis-azuis é a tetrodotoxina, a mesma toxina de qual peixe, servido como iguaria arriscada no Japão?",
+      "resposta": "Baiacu (fugu)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blue-ringed_octopus",
+        "https://en.wikipedia.org/wiki/Tetrodotoxin"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aranha_marrom",
+        "nome": "Aranha-marrom",
+        "descricao": "Aranhas do gênero Loxosceles, de veneno que causa necrose na pele, com uma mancha escura no dorso.",
+        "variantes": [
+          "Loxosceles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Loxosceles"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Que capital do Sul do Brasil ficou conhecida pela grande infestação de aranhas-marrons escondidas dentro das casas?",
+      "resposta": "Curitiba",
+      "distratores": [
+        "Porto Alegre",
+        "Florianópolis",
+        "São Paulo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Loxosceles_intermedia",
+        "https://pt.wikipedia.org/wiki/Loxosceles"
+      ]
+    }
+  ]
+}
