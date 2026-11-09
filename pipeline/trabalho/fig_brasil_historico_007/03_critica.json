@@ -1,0 +1,48 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Petrópolis e Curitiba também têm catedrais neogóticas, então \"neogótica\" torna a pergunta ambígua em vez de ajudar. Tirei o adjetivo e mantive os distratores.",
+      "reescrita": {
+        "pergunta": "Que catedral brasileira é esta?",
+        "resposta": "Catedral da Sé de São Paulo",
+        "distratores": [
+          "Catedral de Petrópolis",
+          "Catedral de Campinas",
+          "Catedral de Curitiba"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A torre de 1873 é a original, e a estrutura atual é de 1930. \"Inaugurado\" deixa a década de 1930 defensável. Especifiquei a primeira torre e troquei esse distrator.",
+      "reescrita": {
+        "pergunta": "Em que década foi inaugurada a primeira torre deste elevador urbano?",
+        "resposta": "Década de 1870",
+        "distratores": [
+          "Década de 1840",
+          "Década de 1900",
+          "Década de 1920"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o museu nem a resposta. O trecho confirma que o museu é dedicado à Inconfidência Mineira. Os distratores são movimentos do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Há estátuas de Arariboia em Niterói e em Vitória, e a resposta é a mesma nas duas. O enunciado não vaza o nome. Os distratores são chefes indígenas do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    }
+  ]
+}

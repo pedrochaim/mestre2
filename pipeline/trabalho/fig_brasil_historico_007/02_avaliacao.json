@@ -1,0 +1,138 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada neogótica clara, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que catedral neogótica é esta?",
+      "resposta": "Catedral da Sé de São Paulo",
+      "distratores": [
+        "Catedral de Petrópolis",
+        "Catedral de Campinas",
+        "Catedral de Curitiba"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Catedral da Sé de São Paulo",
+        "descricao": "Catedral metropolitana neogótica da arquidiocese de São Paulo, no centro da cidade.",
+        "variantes": [
+          "Catedral Metropolitana de São Paulo",
+          "Sé de São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O viaduto aparece de lado, ofuscado pelo grande edifício ao fundo; a entidade não é claramente reconhecível e há ambiguidade com outros viadutos."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pintura com dois bandeirantes e assinatura visível; não se sabe qual é Domingos Jorge Velho, resposta ambígua."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mostra o Palácio da Alvorada (colunas curvas características), e não o Palácio do Planalto."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Desenho minúsculo e de baixíssima resolução, ilegível no celular e sem reconhecimento possível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Retrato a óleo genérico de homem idoso de barba; sem elementos que permitam reconhecer Quintino Bocaiuva."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Torre do Elevador Lacerda com a Baía de Todos os Santos, inconfundível e sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi inaugurado este elevador urbano?",
+      "resposta": "Década de 1870",
+      "distratores": [
+        "Década de 1840",
+        "Década de 1900",
+        "Década de 1930"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador público de Salvador, na Bahia, que liga a Cidade Baixa à Cidade Alta.",
+        "variantes": [
+          "Elevador Lacerda de Salvador"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada nítida do antigo prédio da Casa de Câmara e Cadeia, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este museu preserva a memória de qual movimento histórico?",
+      "resposta": "Inconfidência Mineira",
+      "distratores": [
+        "Conjuração Baiana",
+        "Guerra dos Farrapos",
+        "Revolta da Cabanagem"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Museu da Inconfidência",
+        "descricao": "Museu histórico de Ouro Preto, Minas Gerais, instalado na antiga Casa de Câmara e Cadeia de Vila Rica.",
+        "variantes": [
+          "Museu da Inconfidência de Ouro Preto"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Estátua de corpo inteiro, nítida, de chefe indígena com cruz no pescoço; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que chefe indígena esta estátua homenageia?",
+      "resposta": "Arariboia",
+      "distratores": [
+        "Tibiriçá",
+        "Cunhambebe",
+        "Sepé Tiaraju"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arariboia",
+        "descricao": "Chefe temiminó aliado dos portugueses contra os franceses, fundador de Niterói.",
+        "variantes": [
+          "Araribóia",
+          "Ararigboya"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vista aérea ampla de Brasília mostrando Esplanada, Congresso e a praça ao mesmo tempo; a entidade não é clara nem a resposta única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Estátua dourada de busto sem elementos que permitam reconhecer Tomé de Sousa; resposta não identificável pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto antiga granulada de homem desconhecido do grande público; não é reconhecível e é pouco legível."
+    }
+  ]
+}

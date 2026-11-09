@@ -1,0 +1,247 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Catedral da Sé de São Paulo",
+        "descricao": "Catedral metropolitana neogótica da arquidiocese de São Paulo, no centro da cidade.",
+        "variantes": [
+          "Catedral Metropolitana de São Paulo",
+          "Sé de São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        },
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador público de Salvador, na Bahia, que liga a Cidade Baixa à Cidade Alta.",
+        "variantes": [
+          "Elevador Lacerda de Salvador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elevador_lacerda",
+          "nome": "Elevador Lacerda",
+          "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+          "variantes": [
+            "Elevador Hidráulico da Conceição"
+          ]
+        },
+        {
+          "id": "elevador_de_santa_justa",
+          "nome": "Elevador de Santa Justa",
+          "descricao": "Elevador vertical de ferro no centro histórico de Lisboa, ligando a Baixa ao Largo do Carmo.",
+          "variantes": [
+            "Elevador do Carmo",
+            "Santa Justa Lift"
+          ]
+        },
+        {
+          "id": "freio_de_seguranca_do_elevador",
+          "nome": "Freio de segurança do elevador",
+          "descricao": "Mecanismo que trava a cabine do elevador caso o cabo se rompa, demonstrado em 1854 em Nova York.",
+          "variantes": [
+            "Elevador de segurança"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "ojos_del_salado",
+          "nome": "Ojos del Salado",
+          "descricao": "Vulcão dos Andes na fronteira entre Argentina e Chile, com cerca de 6 900 metros de altitude.",
+          "variantes": [
+            "Nevado Ojos del Salado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Museu da Inconfidência",
+        "descricao": "Museu histórico de Ouro Preto, Minas Gerais, instalado na antiga Casa de Câmara e Cadeia de Vila Rica.",
+        "variantes": [
+          "Museu da Inconfidência de Ouro Preto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_da_inconfidencia",
+          "nome": "Museu da Inconfidência",
+          "descricao": "Museu de história da Inconfidência Mineira, instalado na antiga Casa de Câmara e Cadeia, na Praça Tiradentes, em Ouro Preto.",
+          "variantes": [
+            "Casa de Câmara e Cadeia de Vila Rica"
+          ]
+        },
+        {
+          "id": "casa_da_opera_de_ouro_preto",
+          "nome": "Casa da Ópera de Ouro Preto",
+          "descricao": "Teatro colonial de Ouro Preto, em Minas Gerais, inaugurado em 1770, hoje Teatro Municipal da cidade.",
+          "variantes": [
+            "Casa da Ópera de Vila Rica",
+            "Teatro Municipal de Ouro Preto"
+          ]
+        },
+        {
+          "id": "brasao_da_indonesia",
+          "nome": "Brasão da Indonésia",
+          "descricao": "Brasão de armas da Indonésia, com a ave mitológica Garuda e escudo com cinco símbolos do Pancasila.",
+          "variantes": [
+            "Indonésia",
+            "Garuda Pancasila",
+            "Armas da Indonésia"
+          ]
+        },
+        {
+          "id": "museu_de_imagens_do_inconsciente",
+          "nome": "Museu de Imagens do Inconsciente",
+          "descricao": "Museu no Rio de Janeiro, criado em 1952, que reúne obras feitas por pacientes psiquiátricos.",
+          "variantes": []
+        },
+        {
+          "id": "conjuracao_baiana",
+          "nome": "Conjuração Baiana",
+          "descricao": "Movimento separatista e igualitário descoberto em Salvador, na Bahia, em 1798.",
+          "variantes": [
+            "Revolta dos Alfaiates",
+            "Revolta dos Búzios",
+            "Inconfidência Baiana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Arariboia",
+        "descricao": "Chefe temiminó aliado dos portugueses contra os franceses, fundador de Niterói.",
+        "variantes": [
+          "Ararigboya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paraiba",
+          "nome": "Paraíba",
+          "descricao": "Estado do Nordeste brasileiro, cuja capital é João Pessoa.",
+          "variantes": [
+            "Estado da Paraíba"
+          ]
+        },
+        {
+          "id": "antena_parabolica",
+          "nome": "Antena parabólica",
+          "descricao": "Antena em forma de prato que recebe ou transmite sinais de rádio de ou para satélites de comunicação.",
+          "variantes": [
+            "Parabólica",
+            "Satellite dish",
+            "Prato de satélite"
+          ]
+        },
+        {
+          "id": "caribes",
+          "nome": "Caribes",
+          "descricao": "Povo indígena das Pequenas Antilhas, também chamado kalinago, que deu nome ao mar do Caribe.",
+          "variantes": [
+            "Kalinago",
+            "Caraíbas"
+          ]
+        },
+        {
+          "id": "arboliva",
+          "nome": "Arboliva",
+          "descricao": "Pokémon dos tipos Planta e Normal, número 930 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "parabola",
+          "nome": "Parábola",
+          "descricao": "Curva plana simétrica em forma de U, definida pelos pontos equidistantes de um foco e de uma reta diretriz.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "catedral_da_se_de_sao_paulo",
+      "motivo": "Mesma catedral neogótica da Sé em São Paulo."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "elevador_lacerda",
+      "motivo": "Mesmo elevador de Salvador ligando Cidade Baixa e Alta."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "museu_da_inconfidencia",
+      "motivo": "Mesmo museu de Ouro Preto na antiga Casa de Câmara e Cadeia."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o chefe temiminó Arariboia; só há nomes parecidos."
+    }
+  ]
+}

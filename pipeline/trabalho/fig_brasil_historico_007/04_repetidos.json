@@ -1,0 +1,84 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que catedral brasileira é esta?",
+        "resposta": "Catedral da Sé de São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q09518",
+          "pergunta": "Em que cidade brasileira fica esta catedral neogótica?",
+          "resposta": "São Paulo"
+        },
+        {
+          "id": "q14550",
+          "pergunta": "Que estilo arquitetônico predomina nesta catedral, com suas duas torres de agulhas?",
+          "resposta": "Neogótico"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que década foi inaugurada a primeira torre deste elevador urbano?",
+        "resposta": "Década de 1870"
+      },
+      "existentes": [
+        {
+          "id": "q04541",
+          "pergunta": "Em Salvador, o Elevador Lacerda liga a Cidade Baixa à Cidade Alta. Em que século ele foi inaugurado?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q05437",
+          "pergunta": "Ligando a Cidade Baixa à Cidade Alta de Salvador, o Elevador Lacerda transportou os primeiros passageiros no reinado de qual imperador?",
+          "resposta": "Dom Pedro II"
+        },
+        {
+          "id": "q14396",
+          "pergunta": "Em que ano foi inaugurado este elevador urbano?",
+          "resposta": "1873"
+        },
+        {
+          "id": "q17055",
+          "pergunta": "Em que cidade brasileira fica este elevador público?",
+          "resposta": "Salvador"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este museu preserva a memória de qual movimento histórico?",
+        "resposta": "Inconfidência Mineira"
+      },
+      "existentes": [
+        {
+          "id": "q17247",
+          "pergunta": "Em que cidade histórica de Minas Gerais fica este museu?",
+          "resposta": "Ouro Preto"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta identificar o nome da catedral; as existentes perguntam cidade e estilo. Fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14396",
+      "motivo": "Perguntar a década da inauguração (1870) é o mesmo fato do ano de inauguração (1873)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Movimento histórico lembrado pelo museu é fato diferente da cidade onde fica."
+    }
+  ]
+}

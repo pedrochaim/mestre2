@@ -385022,5 +385022,80 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream_(Mendelssohn)"
     ]
+  },
+  {
+    "id": "q19472",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "catedral_da_se_de_sao_paulo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que catedral brasileira é esta?",
+    "resposta": "Catedral da Sé de São Paulo",
+    "distratores": [
+      "Catedral de Petrópolis",
+      "Catedral de Campinas",
+      "Catedral de Curitiba"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Cathedral",
+      "https://pt.wikipedia.org/wiki/Catedral_Metropolitana_de_S%C3%A3o_Paulo"
+    ],
+    "imagem": {
+      "arquivo": "q19472.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_de_Sao_Paulo_1_Brasil.jpg",
+      "autor": "Morio",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19473",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "museu_da_inconfidencia",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este museu preserva a memória de qual movimento histórico?",
+    "resposta": "Inconfidência Mineira",
+    "distratores": [
+      "Conjuração Baiana",
+      "Guerra dos Farrapos",
+      "Revolta da Cabanagem"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Museu_da_Inconfid%C3%AAncia",
+      "https://en.wikipedia.org/wiki/Museu_da_Inconfid%C3%AAncia"
+    ],
+    "imagem": {
+      "arquivo": "q19473.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Museu_da_Inconfidência_(03).jpg",
+      "autor": "Ministério da Cultura",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q19474",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "arariboia",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que chefe indígena esta estátua homenageia?",
+    "resposta": "Arariboia",
+    "distratores": [
+      "Tibiriçá",
+      "Cunhambebe",
+      "Sepé Tiaraju"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arariboia",
+      "https://pt.wikipedia.org/wiki/Arariboia"
+    ],
+    "imagem": {
+      "arquivo": "q19474.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estátua_de_Arariboia_2.jpg",
+      "autor": "Junius",
+      "licenca": "Public domain"
+    }
   }
 ]
