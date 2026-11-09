@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta explosão de teste, a primeira de seu tipo, ocorreu em que estado americano?",
+        "resposta": "Novo México"
+      },
+      "existentes": [
+        {
+          "id": "q07255",
+          "pergunta": "Em julho de 1945, a primeira bomba atômica da história foi detonada num teste no deserto de que estado americano?",
+          "resposta": "Novo México"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q07255",
+      "motivo": "Ambas perguntam o estado americano (Novo México) do primeiro teste de bomba atômica; mesmo fato."
+    }
+  ]
+}

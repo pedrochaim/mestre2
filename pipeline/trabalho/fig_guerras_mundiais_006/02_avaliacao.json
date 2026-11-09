@@ -1,0 +1,185 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Submetralhadora PPSh-41 de lado, com carregador de tambor, nítida e sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta submetralhadora, fabricada aos milhões, foi uma das principais armas de infantaria de que exército na Segunda Guerra?",
+      "resposta": "Exército Vermelho (soviético)",
+      "distratores": [
+        "Exército Britânico",
+        "Wehrmacht alemã",
+        "Exército dos Estados Unidos"
+      ],
+      "ancora": {
+        "nome": "Submetralhadora PPSh-41",
+        "descricao": "Submetralhadora soviética de aço estampado, calibre 7,62×25mm, projetada por Georgy Shpagin e muito usada na Segunda Guerra Mundial.",
+        "variantes": [
+          "PPSh-41",
+          "PPSh",
+          "Pistolet-pulemyot Shpagina"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O número de casco 63 está bem visível no costado e entrega a identidade; o navio está em doca seca, com andaimes."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto em preto e branco de destroços e estruturas flutuantes, sem forma reconhecível do porto Mulberry; a resposta não é identificável pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "P-38 Lightning em voo, com a inconfundível configuração de dupla fuselagem, nítida.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresa americana fabricou este caça?",
+      "resposta": "Lockheed",
+      "distratores": [
+        "Republic",
+        "Grumman",
+        "North American"
+      ],
+      "ancora": {
+        "nome": "P-38 Lightning",
+        "descricao": "Caça americano bimotor de dupla fuselagem, fabricado pela Lockheed e usado na Segunda Guerra Mundial.",
+        "variantes": [
+          "Lockheed P-38 Lightning",
+          "P-38"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Ilustração em preto e branco de encouraçado; o Tirpitz é quase idêntico ao irmão Bismarck, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem pequena, de baixa resolução, com vários aviões em fila na neve; o modelo exato (D.III, D.V ou outro) não é reconhecível e não fica legível no celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Três granadas Mills de variantes diferentes, nítidas e sem texto; assunto único.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Estas granadas britânicas, usadas nas duas guerras mundiais, levam o sobrenome de que projetista?",
+      "resposta": "William Mills",
+      "distratores": [
+        "Henry Shrapnel",
+        "Hiram Maxim",
+        "Frank Barnwell"
+      ],
+      "ancora": {
+        "nome": "Granada Mills",
+        "descricao": "Série de granadas de mão britânicas de fragmentação, projetadas por William Mills e usadas nas duas guerras mundiais.",
+        "variantes": [
+          "Mills bomb",
+          "Granada de mão Mills",
+          "Mills No. 5"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tiger II em museu, em boa foto; o canhão longo e a torre inclinada o distinguem. Placa ilegível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tanque alemão da Segunda Guerra é este?",
+      "resposta": "Tiger II",
+      "distratores": [
+        "Tiger I",
+        "Panther",
+        "Panzer IV"
+      ],
+      "ancora": {
+        "nome": "Tanque Tiger II",
+        "descricao": "Tanque pesado alemão da Segunda Guerra Mundial, sucessor do Tiger I, armado com o canhão de 8,8 cm KwK 43.",
+        "variantes": [
+          "Tiger II",
+          "Königstiger",
+          "King Tiger",
+          "Tiger B",
+          "Panzerkampfwagen VI Tiger II"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bristol F.2 Fighter em voo, nítido; o número de série não entrega o nome.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este biplano britânico, criado na Primeira Guerra, continuou em serviço militar até que década?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1940",
+        "Década de 1950"
+      ],
+      "ancora": {
+        "nome": "Bristol F.2 Fighter",
+        "descricao": "Biplano britânico de dois lugares, caça e reconhecimento, da Primeira Guerra Mundial, projetado por Frank Barnwell.",
+        "variantes": [
+          "Bristol Fighter",
+          "Brisfit",
+          "Biff",
+          "Bristol F.2B"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto icônica da bola de fogo do teste Trinity, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta explosão de teste, em 1945, fez parte de que projeto americano?",
+      "resposta": "Projeto Manhattan",
+      "distratores": [
+        "Projeto Apollo",
+        "Operação Overlord",
+        "Projeto Gemini"
+      ],
+      "ancora": {
+        "nome": "Teste Trinity",
+        "descricao": "Primeira detonação de uma arma nuclear, realizada pelos Estados Unidos em 16 de julho de 1945 no Novo México.",
+        "variantes": [
+          "Trinity",
+          "Experiência Trinity"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É um diagrama de silhuetas com figuras humanas e um veículo vermelho de comparação, não uma foto; mostra vários elementos e não fica claro."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto histórica com oficiais e clérigos em primeiro plano e a estátua coberta por bandeira; o monumento não é claramente reconhecível e há pessoas no primeiro plano."
+    }
+  ]
+}

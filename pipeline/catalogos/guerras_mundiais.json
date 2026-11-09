@@ -166,7 +166,7 @@
       "titulo": "en:USS Missouri (BB-63)",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Bletchley Park",
@@ -194,7 +194,7 @@
       "titulo": "en:Albatros D.III",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Tanque A7V",
@@ -556,6 +556,286 @@
     {
       "nome": "Caminhão anfíbio DUKW",
       "titulo": "en:DUKW",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque Mark IV",
+      "titulo": "en:Mark IV tank",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Granada Mills",
+      "titulo": "en:Mills bomb",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Fuzil Lee-Enfield",
+      "titulo": "en:Lee–Enfield",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fokker D.VII",
+      "titulo": "en:Fokker D.VII",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fuzil Mauser Gewehr 98",
+      "titulo": "en:Gewehr 98",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Metralhadora Vickers",
+      "titulo": "en:Vickers machine gun",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque Mark V",
+      "titulo": "en:Mark V tank",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mercado de Tecidos de Ypres",
+      "titulo": "en:Cloth Hall, Ypres",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Encouraçado SMS Szent István",
+      "titulo": "en:SMS Szent István",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque Schneider CA1",
+      "titulo": "en:Schneider CA1",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Submetralhadora MP 18",
+      "titulo": "en:MP 18",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Airco DH.2",
+      "titulo": "en:Airco DH.2",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Royal Aircraft Factory S.E.5",
+      "titulo": "en:Royal Aircraft Factory S.E.5",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bombardeiro Caproni Ca.3",
+      "titulo": "en:Caproni Ca.3",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bristol F.2 Fighter",
+      "titulo": "en:Bristol F.2 Fighter",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Butte de Vauquois",
+      "titulo": "en:Butte de Vauquois",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Memorial Terra-Novense de Beaumont-Hamel",
+      "titulo": "en:Beaumont-Hamel Newfoundland Memorial",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Museu e Memorial Nacional da Primeira Guerra Mundial (Kansas City)",
+      "titulo": "en:National WWI Museum and Memorial",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carro blindado Rolls-Royce",
+      "titulo": "en:Rolls-Royce Armoured Car",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sopwith Pup",
+      "titulo": "en:Sopwith Pup",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Teste Trinity",
+      "titulo": "en:Trinity (nuclear test)",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Kübelwagen",
+      "titulo": "en:Volkswagen Kübelwagen",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fuzil Mauser Kar98k",
+      "titulo": "en:Karabiner 98k",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fuzil M1 Garand",
+      "titulo": "en:M1 Garand",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "P-38 Lightning",
+      "titulo": "en:Lockheed P-38 Lightning",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "F4U Corsair",
+      "titulo": "en:Vought F4U Corsair",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Douglas C-47 Skytrain",
+      "titulo": "en:Douglas C-47 Skytrain",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Submetralhadora PPSh-41",
+      "titulo": "en:PPSh-41",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Panzerfaust",
+      "titulo": "en:Panzerfaust",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque Tiger II",
+      "titulo": "en:Tiger II",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Focke-Wulf Fw 190",
+      "titulo": "en:Focke-Wulf Fw 190",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "B-24 Liberator",
+      "titulo": "en:Consolidated B-24 Liberator",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cruzador de batalha HMS Hood",
+      "titulo": "en:HMS Hood",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Encouraçado Tirpitz",
+      "titulo": "en:German battleship Tirpitz",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Metralhadora MG 42",
+      "titulo": "en:MG 42",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Canhão Schwerer Gustav",
+      "titulo": "en:Schwerer Gustav",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ponte de Remagen",
+      "titulo": "en:Ludendorff Bridge",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Porto Mulberry",
+      "titulo": "en:Mulberry harbour",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ilyushin Il-2 Shturmovik",
+      "titulo": "en:Ilyushin Il-2",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque Maus",
+      "titulo": "en:Panzer VIII Maus",
       "camada": 3,
       "destino": 1,
       "status": "nova"

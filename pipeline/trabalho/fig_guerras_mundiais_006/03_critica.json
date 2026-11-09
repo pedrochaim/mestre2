@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato amplamente documentado e coerente com os trechos (símbolo do soldado soviético, produzida em massa). O enunciado não nomeia a arma nem o país, e a figura é necessária. Distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Lockheed fabricou o P-38. O enunciado não vaza a resposta. Os distratores são fabricantes americanos de caças da época.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que as granadas foram projetadas por William Mills e usadas nas duas guerras. O enunciado não nomeia a granada e o reconhecimento pela figura continua necessário. Os distratores são nomes de engenheiros e inventores, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento. O enunciado é curto e não vaza a resposta. O Tiger I e o Panther são distratores visualmente parecidos e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos indicam serviço militar até a década de 1930 (RAF até 1932, Nova Zelândia até 1936). O enunciado é literalmente verdadeiro e não vaza a resposta. A resposta é uma década, não um ano, e a pergunta é múltipla.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'explosão de teste em 1945, projeto americano' já leva a Projeto Manhattan, então a figura vira enfeite. Os distratores (Apollo, Gemini) são anacrônicos demais. A reescrita pergunta o estado, que só se responde reconhecendo a imagem, e o Novo México está nos trechos.",
+      "reescrita": {
+        "pergunta": "Esta explosão de teste, a primeira de seu tipo, ocorreu em que estado americano?",
+        "resposta": "Novo México",
+        "distratores": [
+          "Nevada",
+          "Arizona",
+          "Utah"
+        ]
+      }
+    }
+  ]
+}
