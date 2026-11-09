@@ -1,0 +1,638 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Praça de São Marcos",
+        "descricao": "Principal praça pública de Veneza, na Itália, com a basílica e o campanário de São Marcos.",
+        "variantes": [
+          "Piazza San Marco",
+          "Praça San Marco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_sao_marcos",
+          "nome": "Basílica de São Marcos",
+          "descricao": "Catedral de estilo bizantino na Praça de São Marcos, em Veneza, na Itália.",
+          "variantes": [
+            "Basilica di San Marco"
+          ]
+        },
+        {
+          "id": "praca_de_sao_pedro",
+          "nome": "Praça de São Pedro",
+          "descricao": "Grande praça diante da Basílica de São Pedro, no Vaticano, cercada por uma colunata em semicírculo.",
+          "variantes": [
+            "Piazza San Pietro",
+            "St. Peter's Square"
+          ]
+        },
+        {
+          "id": "praca_de_maio",
+          "nome": "Praça de Maio",
+          "descricao": "Praça central de Buenos Aires, diante da Casa Rosada, palco de grandes manifestações políticas argentinas.",
+          "variantes": [
+            "Plaza de Mayo"
+          ]
+        },
+        {
+          "id": "praca_da_se",
+          "nome": "Praça da Sé",
+          "descricao": "Praça central da cidade de São Paulo, em frente à catedral, marco zero das distâncias rodoviárias.",
+          "variantes": [
+            "Praça da Sé (São Paulo)"
+          ]
+        },
+        {
+          "id": "brasao_de_san_marino",
+          "nome": "Brasão de San Marino",
+          "descricao": "Brasão de armas da República de San Marino, com três torres sobre três montes, coroa e o lema Libertas.",
+          "variantes": [
+            "San Marino",
+            "Armas de San Marino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Torre Pérola Oriental",
+        "descricao": "Torre de TV futurista no distrito de Lujiazui, em Xangai, na China.",
+        "variantes": [
+          "Oriental Pearl Tower",
+          "Torre da Pérola Oriental"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_vale_do_rift",
+          "nome": "Grande Vale do Rift",
+          "descricao": "Sistema de fendas tectônicas que corta o leste da África, onde o continente está se partindo.",
+          "variantes": [
+            "Vale do Rift",
+            "Rift do Leste Africano",
+            "Great Rift Valley",
+            "Rifte da África Oriental",
+            "East African Rift"
+          ]
+        },
+        {
+          "id": "pomerano",
+          "nome": "Pomerano",
+          "descricao": "Variedade do baixo-alemão da antiga Pomerânia, mantida por descendentes de imigrantes no Espírito Santo e no Sul do Brasil.",
+          "variantes": [
+            "Pomerano oriental",
+            "East Pomeranian",
+            "Língua pomerana"
+          ]
+        },
+        {
+          "id": "gorila",
+          "nome": "Gorila",
+          "descricao": "Grande primata africano de pelagem escura; na foto, um macho adulto de gorila-ocidental (Gorilla gorilla).",
+          "variantes": [
+            "Gorila-ocidental",
+            "Gorilla gorilla",
+            "Western gorilla",
+            "Gorilla"
+          ]
+        },
+        {
+          "id": "potencias_centrais",
+          "nome": "Potências Centrais",
+          "descricao": "Coalizão liderada pela Alemanha e pela Áustria-Hungria que lutou contra os Aliados na Primeira Guerra Mundial.",
+          "variantes": [
+            "Impérios Centrais",
+            "Central Powers"
+          ]
+        },
+        {
+          "id": "canhao_88_flak_88",
+          "nome": "Canhão 88 (Flak 88)",
+          "descricao": "Canhão alemão de 88 mm, antiaéreo e antitanque, usado na Segunda Guerra Mundial.",
+          "variantes": [
+            "Flak 88",
+            "8.8 cm Flak",
+            "Acht-acht",
+            "Oitenta e oito"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Palácio dos Leões",
+        "descricao": "Sede do governo do Maranhão, em São Luís, de frente para a Baía de São Marcos.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "hawa_mahal",
+          "nome": "Hawa Mahal",
+          "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+          "variantes": [
+            "Palácio dos Ventos",
+            "Palace of Winds"
+          ]
+        },
+        {
+          "id": "paleta_do_campo_de_batalha",
+          "nome": "Paleta do Campo de Batalha",
+          "descricao": "Paleta cosmética cerimonial egípcia do fim do período pré-dinástico, com cena de batalha, leão e abutres, dividida entre o Museu Britânico e o Ashmolean.",
+          "variantes": [
+            "Paleta dos Urubus",
+            "Paleta dos Abutres",
+            "Battlefield Palette",
+            "Paleta dos Leões"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "La Bombonera",
+        "descricao": "Estádio de futebol do Boca Juniors, no bairro de La Boca, em Buenos Aires.",
+        "variantes": [
+          "Estádio Alberto José Armando",
+          "Bombonera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "la_bombonera",
+          "nome": "La Bombonera",
+          "descricao": "Estádio do Boca Juniors, em Buenos Aires.",
+          "variantes": []
+        },
+        {
+          "id": "jaqueta_bomber",
+          "nome": "Jaqueta bomber",
+          "descricao": "Jaqueta curta de couro com gola de pelo e punhos e barra de malha, criada para pilotos e depois popularizada como moda.",
+          "variantes": [
+            "Bomber",
+            "Jaqueta de aviador",
+            "Flight jacket"
+          ]
+        },
+        {
+          "id": "abobora",
+          "nome": "Abóbora",
+          "descricao": "Fruto de plantas do gênero Cucurbita, de formas e cores variadas.",
+          "variantes": [
+            "Jerimum",
+            "Pumpkin"
+          ]
+        },
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "bombe",
+          "nome": "Bombe",
+          "descricao": "Dispositivo eletromecânico britânico usado em Bletchley Park para decifrar mensagens da máquina Enigma na Segunda Guerra Mundial.",
+          "variantes": [
+            "Bomba eletromecânica",
+            "Bombe britânica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ponte das Correntes",
+        "descricao": "Ponte pênsil de correntes sobre o Danúbio, entre Buda e Pest, em Budapeste.",
+        "variantes": [
+          "Ponte Széchenyi",
+          "Széchenyi Lánchíd",
+          "Ponte das Correntes Széchenyi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tower_bridge",
+          "nome": "Tower Bridge",
+          "descricao": "Ponte levadiça e pênsil sobre o rio Tâmisa, em Londres, com duas torres de estilo neogótico, ao lado da Torre de Londres.",
+          "variantes": [
+            "Ponte da Torre"
+          ]
+        },
+        {
+          "id": "guerra_das_correntes",
+          "nome": "Guerra das correntes",
+          "descricao": "Disputa comercial e técnica do fim do século dezenove entre os defensores da corrente contínua e da corrente alternada nos Estados Unidos.",
+          "variantes": [
+            "War of the currents",
+            "Batalha das correntes"
+          ]
+        },
+        {
+          "id": "ponte_vecchio",
+          "nome": "Ponte Vecchio",
+          "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, Itália, famosa pelas lojas construídas sobre ela.",
+          "variantes": [
+            "Ponte Velha",
+            "Old Bridge Florence"
+          ]
+        },
+        {
+          "id": "a_ponte_de_langlois_em_arles",
+          "nome": "A Ponte de Langlois em Arles",
+          "descricao": "Série de pinturas de Van Gogh de 1888 que retratam a ponte levadiça de Langlois sobre um canal perto de Arles.",
+          "variantes": [
+            "A Ponte de Langlois em Arles (Van Gogh)",
+            "A Ponte de Langlois",
+            "Ponte de Arles",
+            "Langlois Bridge at Arles",
+            "Pont de Langlois"
+          ]
+        },
+        {
+          "id": "kusarigama",
+          "nome": "Kusarigama",
+          "descricao": "Arma tradicional japonesa formada por uma foice (kama) ligada a uma corrente com um peso de ferro.",
+          "variantes": [
+            "Foice-corrente",
+            "Kusari-gama"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Viaduto Santa Ifigênia",
+        "descricao": "Viaduto de ferro para pedestres sobre o Vale do Anhangabaú, no centro de São Paulo, inaugurado em 1913.",
+        "variantes": [
+          "Viaduto de Santa Ifigênia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_de_santa_isabel",
+          "nome": "Teatro de Santa Isabel",
+          "descricao": "Teatro neoclássico do século dezenove no Recife, Pernambuco.",
+          "variantes": [
+            "Teatro Santa Isabel"
+          ]
+        },
+        {
+          "id": "voto_de_minerva",
+          "nome": "Voto de Minerva",
+          "descricao": "Expressão para o voto que desempata uma votação",
+          "variantes": [
+            "Voto de Atena"
+          ]
+        },
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        },
+        {
+          "id": "elevador_de_santa_justa",
+          "nome": "Elevador de Santa Justa",
+          "descricao": "Elevador vertical de ferro no centro histórico de Lisboa, ligando a Baixa ao Largo do Carmo.",
+          "variantes": [
+            "Elevador do Carmo",
+            "Santa Justa Lift"
+          ]
+        },
+        {
+          "id": "vitoria_de_samotracia",
+          "nome": "Vitória de Samotrácia",
+          "descricao": "Escultura grega helenística de mármore de uma deusa alada, exposta no Louvre.",
+          "variantes": [
+            "Nike de Samotrácia",
+            "Winged Victory of Samothrace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Manhattan",
+        "descricao": "Distrito mais densamente povoado da cidade de Nova York, localizado na ilha de Manhattan.",
+        "variantes": [
+          "Ilha de Manhattan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "manhattan",
+          "nome": "Manhattan",
+          "descricao": "Ilha e distrito central da cidade de Nova York, nos Estados Unidos.",
+          "variantes": [
+            "Ilha de Manhattan"
+          ]
+        },
+        {
+          "id": "malta_2",
+          "nome": "Malta",
+          "descricao": "A maior e mais populosa ilha do arquipélago maltês, no Mediterrâneo, ao sul da Itália.",
+          "variantes": [
+            "Ilha de Malta"
+          ]
+        },
+        {
+          "id": "bandeira_da_ilha_de_man",
+          "nome": "Bandeira da Ilha de Man",
+          "descricao": "Bandeira da dependência da Coroa britânica Ilha de Man, com três pernas armadas em triskelion sobre fundo vermelho.",
+          "variantes": [
+            "Ilha de Man",
+            "Isle of Man",
+            "Mann"
+          ]
+        },
+        {
+          "id": "ilha_de_man",
+          "nome": "Ilha de Man",
+          "descricao": "Ilha autogovernada, dependência da Coroa Britânica, no Mar da Irlanda.",
+          "variantes": [
+            "Isle of Man",
+            "Mann",
+            "Ellan Vannin"
+          ]
+        },
+        {
+          "id": "edmontossauro",
+          "nome": "Edmontossauro",
+          "descricao": "Gênero de dinossauro hadrossaurídeo (bico de pato) do Cretáceo Superior da América do Norte.",
+          "variantes": [
+            "Edmontosaurus",
+            "Anatotitan",
+            "Anatossauro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Palácio da Liberdade",
+        "descricao": "Palácio histórico do governo de Minas Gerais, no alto da Praça da Liberdade, em Belo Horizonte.",
+        "variantes": [
+          "Palácio Presidencial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_da_liberdade",
+          "nome": "Palácio da Liberdade",
+          "descricao": "Palácio histórico do governo de Minas Gerais, na Praça da Liberdade, em Belo Horizonte.",
+          "variantes": [
+            "Palácio Presidencial"
+          ]
+        },
+        {
+          "id": "praca_da_liberdade_belo_horizonte",
+          "nome": "Praça da Liberdade (Belo Horizonte)",
+          "descricao": "Praça e conjunto arquitetônico na região da Savassi, em Belo Horizonte, ao redor do Palácio da Liberdade.",
+          "variantes": [
+            "Praça da Liberdade"
+          ]
+        },
+        {
+          "id": "hino_a_liberdade",
+          "nome": "Hino à Liberdade",
+          "descricao": "Hino nacional da Grécia e de Chipre, baseado num poema de Dionysios Solomos de 1823.",
+          "variantes": [
+            "Hymn to Liberty",
+            "Ýmnos eis tin Eleftherían"
+          ]
+        },
+        {
+          "id": "palacio_da_alvorada",
+          "nome": "Palácio da Alvorada",
+          "descricao": "Palácio projetado por Oscar Niemeyer em Brasília, à beira do lago Paranoá, residência oficial do presidente da República.",
+          "variantes": [
+            "Alvorada"
+          ]
+        },
+        {
+          "id": "ilha_da_liberdade",
+          "nome": "Ilha da Liberdade",
+          "descricao": "Ilha da Upper New York Bay onde fica a Estátua da Liberdade, antes chamada Bedloe's Island.",
+          "variantes": [
+            "Liberty Island",
+            "Ilha de Bedloe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Jardim Botânico do Rio de Janeiro",
+        "descricao": "Jardim botânico fundado em 1808 na Zona Sul do Rio de Janeiro, com alameda de palmeiras-imperiais.",
+        "variantes": [
+          "Jardim Botânico do Rio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jardim_botanico_do_rio_de_janeiro",
+          "nome": "Jardim Botânico do Rio de Janeiro",
+          "descricao": "Jardim botânico e instituto de pesquisa fundado por Dom João no bairro carioca do Jardim Botânico",
+          "variantes": [
+            "Jardim Botânico do Rio",
+            "JBRJ"
+          ]
+        },
+        {
+          "id": "jardim_botanico_de_curitiba",
+          "nome": "Jardim Botânico de Curitiba",
+          "descricao": "Parque de Curitiba, inaugurado em 1991, com uma estufa de ferro e vidro que virou cartão-postal da cidade.",
+          "variantes": [
+            "Jardim Botânico Francisca Maria Garfunkel Rischbieter"
+          ]
+        },
+        {
+          "id": "jardim_botanico_de_padua",
+          "nome": "Jardim Botânico de Pádua",
+          "descricao": "Jardim botânico universitário da cidade italiana de Pádua, Patrimônio Mundial da Unesco",
+          "variantes": [
+            "Orto Botanico di Padova"
+          ]
+        },
+        {
+          "id": "passeio_publico_do_rio_de_janeiro",
+          "nome": "Passeio Público do Rio de Janeiro",
+          "descricao": "Jardim público no centro do Rio de Janeiro, construído no fim do século dezoito por ordem do vice-rei Luís de Vasconcelos.",
+          "variantes": [
+            "Passeio Público"
+          ]
+        },
+        {
+          "id": "sambodromo_do_rio_de_janeiro",
+          "nome": "Sambódromo do Rio de Janeiro",
+          "descricao": "Passarela do desfile das escolas de samba no Rio de Janeiro, inaugurada em 1984.",
+          "variantes": [
+            "Sambódromo da Marquês de Sapucaí",
+            "Passarela Professor Darcy Ribeiro",
+            "Sambódromo do Rio",
+            "Passarela do Samba Darcy Ribeiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Basílica de Notre-Dame de Montreal",
+        "descricao": "Basílica neogótica no centro histórico de Montreal, no Canadá, diante da Place d'Armes.",
+        "variantes": [
+          "Basílica de Nossa Senhora de Montreal",
+          "Notre-Dame Basilica of Montreal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_nossa_senhora_de_guadalupe",
+          "nome": "Basílica de Nossa Senhora de Guadalupe",
+          "descricao": "Basílica circular moderna ao pé do morro de Tepeyac, na Cidade do México, um dos santuários mais visitados do mundo.",
+          "variantes": [
+            "Basílica de Santa María de Guadalupe",
+            "Nova Basílica de Guadalupe"
+          ]
+        },
+        {
+          "id": "basilica_de_nossa_senhora_aparecida",
+          "nome": "Basílica de Nossa Senhora Aparecida",
+          "descricao": "Santuário nacional católico em Aparecida, São Paulo, dedicado à padroeira do Brasil.",
+          "variantes": [
+            "Basílica Nova de Aparecida",
+            "Santuário Nacional de Aparecida"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "catedral_de_maringa",
+          "nome": "Catedral de Maringá",
+          "descricao": "Catedral Basílica Menor de Nossa Senhora da Glória, templo católico em forma de cone em Maringá, Paraná.",
+          "variantes": [
+            "Catedral Basílica Menor Nossa Senhora da Glória"
+          ]
+        },
+        {
+          "id": "mosteiro_de_sao_bento_sao_paulo",
+          "nome": "Mosteiro de São Bento (São Paulo)",
+          "descricao": "Mosteiro beneditino no centro histórico de São Paulo, fundado em 1598, com basílica construída entre 1910 e 1914.",
+          "variantes": [
+            "Basílica Abacial de Nossa Senhora da Assunção",
+            "Mosteiro de São Bento de São Paulo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A praça é distinta da basílica e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Torre Pérola Oriental."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O Palácio dos Leões, em São Luís, não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "la_bombonera",
+      "motivo": "É o mesmo estádio do Boca Juniors em Buenos Aires."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A Ponte das Correntes de Budapeste não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Viaduto Santa Ifigênia."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "manhattan",
+      "motivo": "A proposta e a candidata são o mesmo distrito e ilha de Nova York."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "palacio_da_liberdade",
+      "motivo": "A descrição e as variantes coincidem: é o palácio do governo de Minas Gerais em Belo Horizonte."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "jardim_botanico_do_rio_de_janeiro",
+      "motivo": "É o mesmo jardim botânico, fundado por Dom João em 1808."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a basílica de Montreal."
+    }
+  ]
+}

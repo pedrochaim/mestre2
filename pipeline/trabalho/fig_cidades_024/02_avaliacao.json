@@ -1,0 +1,248 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista clara e emblemática da praça, com campanário e basílica; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que praça é esta?",
+      "resposta": "Praça de São Marcos",
+      "distratores": [
+        "Piazza Navona",
+        "Praça de São Pedro",
+        "Praça Vermelha"
+      ],
+      "ancora": {
+        "nome": "Praça de São Marcos",
+        "descricao": "Principal praça pública de Veneza, na Itália, com a basílica e o campanário de São Marcos.",
+        "variantes": [
+          "Piazza San Marco",
+          "Praça San Marco"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Torre inconfundível, sem texto que entregue a resposta; família trocada para 'onde', mais natural para esta imagem.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade fica esta torre de televisão?",
+      "resposta": "Xangai",
+      "distratores": [
+        "Pequim",
+        "Hong Kong",
+        "Cantão"
+      ],
+      "ancora": {
+        "nome": "Torre Pérola Oriental",
+        "descricao": "Torre de TV futurista no distrito de Lujiazui, em Xangai, na China.",
+        "variantes": [
+          "Oriental Pearl Tower",
+          "Torre da Pérola Oriental"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada branca clara do palácio, sem texto; múltipla com palácios estaduais como distratores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que palácio estadual brasileiro é este?",
+      "resposta": "Palácio dos Leões",
+      "distratores": [
+        "Palácio Piratini",
+        "Palácio Guanabara",
+        "Palácio Rio Branco"
+      ],
+      "ancora": {
+        "nome": "Palácio dos Leões",
+        "descricao": "Sede do governo do Maranhão, em São Luís, de frente para a Baía de São Marcos.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estádio muito característico em azul e amarelo; o escudo pequeno não é legível como texto que entregue.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube manda seus jogos neste estádio?",
+      "resposta": "Boca Juniors",
+      "distratores": [
+        "River Plate",
+        "Independiente",
+        "San Lorenzo"
+      ],
+      "ancora": {
+        "nome": "La Bombonera",
+        "descricao": "Estádio de futebol do Boca Juniors, no bairro de La Boca, em Buenos Aires.",
+        "variantes": [
+          "Estádio Alberto José Armando",
+          "Bombonera"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ponte de correntes reconhecível, com pilar de pedra; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que rio esta ponte atravessa?",
+      "resposta": "Danúbio",
+      "distratores": [
+        "Sena",
+        "Tâmisa",
+        "Reno"
+      ],
+      "ancora": {
+        "nome": "Ponte das Correntes",
+        "descricao": "Ponte pênsil de correntes sobre o Danúbio, entre Buda e Pest, em Budapeste.",
+        "variantes": [
+          "Ponte Széchenyi",
+          "Széchenyi Lánchíd",
+          "Ponte das Correntes Széchenyi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Viaduto de ferro dourado bem visível; pichações não entregam a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país foi fabricada toda a estrutura de ferro deste viaduto paulistano?",
+      "resposta": "Bélgica",
+      "distratores": [
+        "Alemanha",
+        "Inglaterra",
+        "França"
+      ],
+      "ancora": {
+        "nome": "Viaduto Santa Ifigênia",
+        "descricao": "Viaduto de ferro para pedestres sobre o Vale do Anhangabaú, no centro de São Paulo, inaugurado em 1913.",
+        "variantes": [
+          "Viaduto de Santa Ifigênia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea com Empire State e One World Trade Center, reconhecível como Manhattan.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que distrito de Nova York aparece nesta vista aérea?",
+      "resposta": "Manhattan",
+      "distratores": [
+        "Brooklyn",
+        "Queens",
+        "Bronx"
+      ],
+      "ancora": {
+        "nome": "Manhattan",
+        "descricao": "Distrito mais densamente povoado da cidade de Nova York, localizado na ilha de Manhattan.",
+        "variantes": [
+          "Ilha de Manhattan"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista aérea de cidade ribeirinha amazônica genérica; não é reconhecível pela imagem e a resposta não é justa."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada clara do palácio, sem texto; pergunta de lugar evita que o enunciado seja respondível sem a imagem.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que capital brasileira fica este palácio, sede do governo estadual?",
+      "resposta": "Belo Horizonte",
+      "distratores": [
+        "Curitiba",
+        "Goiânia",
+        "Salvador"
+      ],
+      "ancora": {
+        "nome": "Palácio da Liberdade",
+        "descricao": "Palácio histórico do governo de Minas Gerais, no alto da Praça da Liberdade, em Belo Horizonte.",
+        "variantes": [
+          "Palácio Presidencial"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fonte e palmeiras-imperiais com morro ao fundo, característicos do Jardim Botânico; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade brasileira fica este jardim botânico?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "São Paulo",
+        "Curitiba",
+        "Belém"
+      ],
+      "ancora": {
+        "nome": "Jardim Botânico do Rio de Janeiro",
+        "descricao": "Jardim botânico fundado em 1808 na Zona Sul do Rio de Janeiro, com alameda de palmeiras-imperiais.",
+        "variantes": [
+          "Jardim Botânico do Rio"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Panorama muito estreito (1280x216); fica ilegível num celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada gótica com duas torres, sem texto relevante; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que papa elevou esta igreja à condição de basílica menor?",
+      "resposta": "João Paulo Segundo",
+      "distratores": [
+        "Paulo Sexto",
+        "Bento Dezesseis",
+        "Pio Doze"
+      ],
+      "ancora": {
+        "nome": "Basílica de Notre-Dame de Montreal",
+        "descricao": "Basílica neogótica no centro histórico de Montreal, no Canadá, diante da Place d'Armes.",
+        "variantes": [
+          "Basílica de Nossa Senhora de Montreal",
+          "Notre-Dame Basilica of Montreal"
+        ]
+      }
+    }
+  ]
+}

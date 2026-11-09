@@ -390215,5 +390215,229 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q19684",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "praca_de_sao_marcos",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que praça é esta?",
+    "resposta": "Praça de São Marcos",
+    "distratores": [
+      "Piazza Navona",
+      "Praça de São Pedro",
+      "Praça Vermelha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piazza_San_Marco",
+      "https://pt.wikipedia.org/wiki/Pra%C3%A7a_de_S%C3%A3o_Marcos"
+    ],
+    "imagem": {
+      "arquivo": "q19684.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Piazza_San_Marco_(Venice)_at_night-msu-2021-6449-.jpg",
+      "autor": "Matthias Süßen",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q19685",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "torre_perola_oriental",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica esta torre de televisão?",
+    "resposta": "Xangai",
+    "distratores": [
+      "Pequim",
+      "Hong Kong",
+      "Cantão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oriental_Pearl_Tower",
+      "https://pt.wikipedia.org/wiki/Torre_P%C3%A9rola_Oriental"
+    ],
+    "imagem": {
+      "arquivo": "q19685.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_2012.jpg",
+      "autor": "Dottie Day",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q19686",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "palacio_dos_leoes",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que palácio estadual brasileiro é este?",
+    "resposta": "Palácio dos Leões",
+    "distratores": [
+      "Palácio Piratini",
+      "Palácio Guanabara",
+      "Palácio Rio Branco"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_dos_Le%C3%B5es"
+    ],
+    "imagem": {
+      "arquivo": "q19686.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SaoLuis-PalacioLeoes2.jpg",
+      "autor": "Léo Brégula from Campinas, Brasil",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q19687",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "la_bombonera",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que clube manda seus jogos neste estádio?",
+    "resposta": "Boca Juniors",
+    "distratores": [
+      "River Plate",
+      "Independiente",
+      "San Lorenzo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Bombonera",
+      "https://pt.wikipedia.org/wiki/La_Bombonera"
+    ],
+    "imagem": {
+      "arquivo": "q19687.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:La_Bombonera_2.jpg",
+      "autor": "Matibro",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q19688",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ponte_das_correntes",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que rio esta ponte atravessa?",
+    "resposta": "Danúbio",
+    "distratores": [
+      "Sena",
+      "Tâmisa",
+      "Reno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sz%C3%A9chenyi_Chain_Bridge",
+      "https://pt.wikipedia.org/wiki/Ponte_Sz%C3%A9chenyi_L%C3%A1nch%C3%ADd"
+    ],
+    "imagem": {
+      "arquivo": "q19688.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Budapest_-_Chain_Bridge_-_panoramio.jpg",
+      "autor": "Alireza Javaheri",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q19689",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "viaduto_santa_ifigenia",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em que país foi fabricada toda a estrutura de ferro deste viaduto paulistano?",
+    "resposta": "Bélgica",
+    "distratores": [
+      "Alemanha",
+      "Inglaterra",
+      "França"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Viaduto_Santa_Ifig%C3%AAnia",
+      "https://en.wikipedia.org/wiki/Santa_Ifig%C3%AAnia_Viaduct"
+    ],
+    "imagem": {
+      "arquivo": "q19689.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mercado_Municipal_de_Sao_Paulo_034.jpg",
+      "autor": "Wilfredor",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q19690",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "manhattan",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que distrito de Nova York aparece nesta vista aérea?",
+    "resposta": "Manhattan",
+    "distratores": [
+      "Brooklyn",
+      "Queens",
+      "Bronx"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Manhattan",
+      "https://pt.wikipedia.org/wiki/Manhattan"
+    ],
+    "imagem": {
+      "arquivo": "q19690.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Above_Gotham.jpg",
+      "autor": "Anthony Quintano",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q19691",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "jardim_botanico_do_rio_de_janeiro",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade brasileira fica este jardim botânico?",
+    "resposta": "Rio de Janeiro",
+    "distratores": [
+      "São Paulo",
+      "Curitiba",
+      "Belém"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Botanical_Garden",
+      "https://pt.wikipedia.org/wiki/Jardim_Bot%C3%A2nico_do_Rio_de_Janeiro"
+    ],
+    "imagem": {
+      "arquivo": "q19691.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:JdBotanico3-CCBY.jpg",
+      "autor": "tsc_traveler [2]",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q19692",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "basilica_de_notre_dame_de_montreal",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que papa elevou esta igreja à condição de basílica menor?",
+    "resposta": "João Paulo Segundo",
+    "distratores": [
+      "Paulo Sexto",
+      "Bento Dezesseis",
+      "Pio Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Notre-Dame_Basilica_%28Montreal%29",
+      "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_de_Notre-Dame_%28Montreal%29"
+    ],
+    "imagem": {
+      "arquivo": "q19692.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Basilique_Notre-Dame_de_Montreal_02.jpg",
+      "autor": "Jeangagnon",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

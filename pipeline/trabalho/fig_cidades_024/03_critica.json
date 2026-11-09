@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento; distratores são outras praças famosas, do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Torre de TV em Xangai confirmada pelos trechos; o enunciado não nomeia a torre e os distratores são cidades chinesas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O palácio é a sede do governo do Maranhão, como diz o trecho. O enunciado não vaza e os distratores são palácios estaduais.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O estádio do Boca Juniors é confirmado. O enunciado só faz sentido com a figura e os distratores são clubes argentinos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ponte atravessa o Danúbio, segundo os trechos. O enunciado não vaza e os distratores são rios europeus críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a estrutura foi totalmente fabricada na Bélgica. O fato vai além do reconhecimento e os distratores são países industriais da época.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento; distratores são os outros distritos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dizer que o palácio é hoje 'sede do governo estadual' não é literalmente verdadeiro nem atemporal. Os trechos dizem que ele foi construído para ser a sede e que hoje é um palácio histórico e espaço cultural.",
+      "reescrita": {
+        "pergunta": "Em que capital brasileira fica este palácio histórico, construído para ser a sede do governo estadual?",
+        "resposta": "Belo Horizonte",
+        "distratores": [
+          "Curitiba",
+          "Goiânia",
+          "Salvador"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O jardim fica na zona sul do Rio de Janeiro, como confirmam os trechos. O enunciado não vaza e os distratores são capitais brasileiras.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que João Paulo II elevou a igreja a basílica menor em 1982. A resposta é única e os distratores são papas do século vinte e o atual da época.",
+      "reescrita": null
+    }
+  ]
+}

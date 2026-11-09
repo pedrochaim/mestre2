@@ -1860,7 +1860,7 @@
       "titulo": "pt:Parintins",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Katmandu",
@@ -2042,7 +2042,7 @@
       "titulo": "en:Oriental Pearl Tower",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Piazza Navona",
@@ -2189,7 +2189,7 @@
       "titulo": "en:Notre-Dame Basilica (Montreal)",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Les Invalides",
@@ -2239,6 +2239,286 @@
       "camada": 3,
       "destino": 1,
       "status": "reprovada"
+    },
+    {
+      "nome": "Manhattan",
+      "titulo": "en:Manhattan",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Camp Nou",
+      "titulo": "en:Camp Nou",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vila Belmiro",
+      "titulo": "en:Estádio Urbano Caldeira",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Mané Garrincha",
+      "titulo": "en:Estádio Nacional Mané Garrincha",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Fonte Nova",
+      "titulo": "en:Arena Fonte Nova",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Praça de São Marcos",
+      "titulo": "en:Piazza San Marco",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Leblon",
+      "titulo": "en:Leblon",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Jardim Botânico do Rio de Janeiro",
+      "titulo": "en:Rio de Janeiro Botanical Garden",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Vale do Anhangabaú",
+      "titulo": "pt:Vale do Anhangabaú",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Montmartre",
+      "titulo": "en:Montmartre",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio de Wembley",
+      "titulo": "en:Wembley Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "La Bombonera",
+      "titulo": "en:La Bombonera",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Basílica de Nazaré",
+      "titulo": "pt:Basílica de Nossa Senhora de Nazaré",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco de Constantino",
+      "titulo": "en:Arch of Constantine",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio Real de Madri",
+      "titulo": "en:Royal Palace of Madrid",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Praça da Concórdia",
+      "titulo": "en:Place de la Concorde",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Merlion",
+      "titulo": "en:Merlion",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Santiago Bernabéu",
+      "titulo": "en:Santiago Bernabéu Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Parque Lage",
+      "titulo": "en:Parque Lage",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena do Grêmio",
+      "titulo": "en:Arena do Grêmio",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Praça do Comércio",
+      "titulo": "en:Praça do Comércio",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Castelo de Bran",
+      "titulo": "en:Bran Castle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ponte Alexandre III",
+      "titulo": "en:Pont Alexandre III",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre N de Seul",
+      "titulo": "en:N Seoul Tower",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia de Iracema",
+      "titulo": "pt:Praia de Iracema",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ponte das Correntes",
+      "titulo": "en:Széchenyi Chain Bridge",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Palácio de La Moneda",
+      "titulo": "en:La Moneda Palace",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Palacio Salvo",
+      "titulo": "en:Palacio Salvo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre del Oro",
+      "titulo": "en:Torre del Oro",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mesquita de Muhammad Ali",
+      "titulo": "en:Mosque of Muhammad Ali",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio Gyeongbokgung",
+      "titulo": "en:Gyeongbokgung",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Wat Pho",
+      "titulo": "en:Wat Pho",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Prefeitura de Estocolmo",
+      "titulo": "en:Stockholm City Hall",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mercado Adolpho Lisboa",
+      "titulo": "pt:Mercado Municipal Adolpho Lisboa",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio dos Leões",
+      "titulo": "pt:Palácio dos Leões",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Fortaleza de São José de Macapá",
+      "titulo": "pt:Fortaleza de São José de Macapá",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagoa do Abaeté",
+      "titulo": "pt:Lagoa do Abaeté",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rua do Bom Jesus",
+      "titulo": "pt:Rua do Bom Jesus",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio da Liberdade",
+      "titulo": "pt:Palácio da Liberdade",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Viaduto Santa Ifigênia",
+      "titulo": "pt:Viaduto Santa Ifigênia",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
     }
   ]
 }

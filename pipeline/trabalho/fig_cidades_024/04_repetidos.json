@@ -1,0 +1,83 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que clube manda seus jogos neste estádio?",
+        "resposta": "Boca Juniors"
+      },
+      "existentes": [
+        {
+          "id": "q00527",
+          "pergunta": "Que estádio é este?",
+          "resposta": "La Bombonera"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que distrito de Nova York aparece nesta vista aérea?",
+        "resposta": "Manhattan"
+      },
+      "existentes": [
+        {
+          "id": "q14241",
+          "pergunta": "Em que cidade americana fica esta ilha, vista do alto?",
+          "resposta": "Nova York"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que capital brasileira fica este palácio histórico, construído para ser a sede do governo estadual?",
+        "resposta": "Belo Horizonte"
+      },
+      "existentes": [
+        {
+          "id": "q16735",
+          "pergunta": "Em que cidade fica este palácio do governo estadual?",
+          "resposta": "Belo Horizonte"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica este jardim botânico?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q02692",
+          "pergunta": "Em que ano o príncipe regente Dom João criou o Jardim Botânico do Rio de Janeiro?",
+          "resposta": "1808"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Perguntar o clube que joga no estádio é diferente de identificar o estádio; embora relacionados, são fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Distrito (Manhattan) é diferente da cidade (Nova York)."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q16735",
+      "motivo": "Ambas perguntam em que cidade fica o palácio do governo estadual, com a mesma resposta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cidade onde fica o jardim botânico é diferente do ano de criação."
+    }
+  ]
+}
