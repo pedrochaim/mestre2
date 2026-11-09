@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década foi construído este palácio?",
+        "resposta": "Década de 1950"
+      },
+      "existentes": [
+        {
+          "id": "q07516",
+          "pergunta": "Projetado por Oscar Niemeyer à beira do lago Paranoá, que função tem o Palácio da Alvorada, em Brasília?",
+          "resposta": "Residência oficial do presidente"
+        },
+        {
+          "id": "q14591",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Palácio da Alvorada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que museu está esta pintura, que retrata um desembarque histórico?",
+        "resposta": "Museu Paulista (Museu do Ipiranga)"
+      },
+      "existentes": [
+        {
+          "id": "q14531",
+          "pergunta": "Em que ano ocorreu o desembarque retratado neste quadro de um pintor brasileiro?",
+          "resposta": "1500"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que praça do centro do Rio de Janeiro fica este prédio histórico?",
+        "resposta": "Praça XV de Novembro"
+      },
+      "existentes": [
+        {
+          "id": "q16727",
+          "pergunta": "Que edifício histórico é este?",
+          "resposta": "Paço Imperial"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual é o nome desta pintura brasileira do século dezenove?",
+        "resposta": "O Último Tamoio"
+      },
+      "existentes": [
+        {
+          "id": "q00456",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Rodolfo Amoedo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Década de construção é fato diferente da função do palácio ou do nome."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Museu onde está a pintura é diferente do ano do desembarque."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Localização (praça) é diferente da identificação do edifício."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Título da pintura é diferente do autor do quadro."
+    }
+  ]
+}

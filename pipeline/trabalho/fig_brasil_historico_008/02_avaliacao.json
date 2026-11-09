@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada inconfundível, sem texto; as emas não atrapalham.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi construído este palácio?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1940",
+        "Década de 1960"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palácio da Alvorada",
+        "descricao": "Residência oficial do presidente do Brasil em Brasília, projetada por Oscar Niemeyer e construída em 1957-1958.",
+        "variantes": [
+          "Alvorada"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pintura histórica clara, sem texto, de cena única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que museu está esta pintura, que retrata um desembarque histórico?",
+      "resposta": "Museu Paulista (Museu do Ipiranga)",
+      "distratores": [
+        "Museu Nacional de Belas Artes",
+        "Museu Histórico Nacional",
+        "Museu de Arte de São Paulo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Desembarque de Cabral em Porto Seguro (pintura)",
+        "descricao": "Pintura a óleo de Oscar Pereira da Silva, de 1900, que retrata o desembarque de Pedro Álvares Cabral em Porto Seguro em 1500.",
+        "variantes": [
+          "Desembarque de Pedro Álvares Cabral em Porto Seguro em 1500"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Casa de madeira vista de lado, sem traço que permita reconhecê-la; a entidade não é identificável pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de figura pública conhecida, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década morreu esta freira baiana?",
+      "resposta": "Década de 1990",
+      "distratores": [
+        "Década de 1960",
+        "Década de 1970",
+        "Década de 1980"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Irmã Dulce",
+        "descricao": "Freira baiana (1914-1992), fundadora de obras de caridade em Salvador, canonizada como Santa Dulce dos Pobres.",
+        "variantes": [
+          "Santa Dulce dos Pobres",
+          "Maria Rita de Sousa Brito Lopes Pontes"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem é um retrato idealizado e retocado, sem base em retrato real; a pessoa não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico antigo, sem texto; reconhecimento difícil, por isso múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este político brasileiro do século dezenove?",
+      "resposta": "Visconde de Ouro Preto",
+      "distratores": [
+        "Barão de Cotegipe",
+        "Visconde do Rio Branco",
+        "Marquês de Paraná"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Visconde de Ouro Preto",
+        "descricao": "Afonso Celso de Assis Figueiredo, último presidente do Conselho de Ministros do Império do Brasil.",
+        "variantes": [
+          "Afonso Celso de Assis Figueiredo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A placa 'Congresso Nacional' aparece na imagem e entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Edifício colonial claro; faixas dizem apenas 'Calder no Brasil', sem entregar o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que praça do centro do Rio de Janeiro fica este prédio histórico?",
+      "resposta": "Praça XV de Novembro",
+      "distratores": [
+        "Praça Mauá",
+        "Cinelândia",
+        "Largo da Carioca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paço Imperial",
+        "descricao": "Edifício colonial do século dezoito no centro do Rio de Janeiro, residência e sede do governo de reis e imperadores.",
+        "variantes": [
+          "Paço Real",
+          "Palácio dos Vice-Reis"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura histórica clara; a assinatura é ilegível no tamanho do celular.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é o nome desta pintura brasileira do século dezenove?",
+      "resposta": "O Último Tamoio",
+      "distratores": [
+        "Moema",
+        "Iracema",
+        "Batalha dos Guararapes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Último Tamoio (pintura)",
+        "descricao": "Óleo sobre tela de Rodolfo Amoedo, de 1883, que mostra o chefe tamoio Aimberê morto, amparado pelo padre José de Anchieta.",
+        "variantes": [
+          "O Último Tamoyo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A placa no canto inferior direito traz o nome 'Martim Afonso de Souza' e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta imperatriz do Brasil era neta de qual imperatriz dos franceses?",
+      "resposta": "Josefina de Beauharnais",
+      "distratores": [
+        "Maria Antonieta",
+        "Maria Luísa da Áustria",
+        "Eugênia de Montijo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Imperatriz Amélia de Leuchtenberg",
+        "descricao": "Segunda esposa de D. Pedro I e imperatriz do Brasil, neta de Josefina de Beauharnais.",
+        "variantes": [
+          "Amélia de Beauharnais",
+          "Amélie of Leuchtenberg",
+          "Amélia de Leuchtenberg"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, sem texto; a pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este presidente do Brasil assumiu o cargo logo após qual acontecimento?",
+      "resposta": "Suicídio de Getúlio Vargas",
+      "distratores": [
+        "Renúncia de Jânio Quadros",
+        "Golpe militar de 1964",
+        "Morte de Tancredo Neves"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Café Filho",
+        "descricao": "João Fernandes Campos Café Filho, vice-presidente que assumiu a presidência do Brasil em 1954, após a morte de Vargas.",
+        "variantes": [
+          "João Fernandes Campos Café Filho"
+        ]
+      }
+    }
+  ]
+}
