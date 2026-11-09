@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de teclado é este, muito usado na música barroca?",
+        "resposta": "Cravo"
+      },
+      "existentes": [
+        {
+          "id": "q08769",
+          "pergunta": "No cravo, instrumento de teclado do Barroco, as cordas não são golpeadas por martelos como no piano. O que acontece com elas?",
+          "resposta": "São beliscadas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este instrumento, comum em igrejas, pertence a qual família de instrumentos?",
+        "resposta": "Aerofones"
+      },
+      "existentes": [
+        {
+          "id": "q08773",
+          "pergunta": "Numa carta de 1777, Mozart deu ao órgão de tubos um título de nobreza que pegou como apelido. Qual?",
+          "resposta": "Rei dos instrumentos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que instrumento de percussão usado no Brasil, de origem africana, é este?",
+        "resposta": "Caxixi"
+      },
+      "existentes": [
+        {
+          "id": "q02639",
+          "pergunta": "Que instrumento de percussão, sacudido com a mão, é este?",
+          "resposta": "Caxixi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o instrumento (cravo) a partir de imagem; a existente pergunta como as cordas soam (beliscadas). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Família do instrumento (aerofones) é diferente do apelido dado por Mozart."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o instrumento de percussão caxixi; mesma resposta e mesmo fato.",
+      "id_existente": "q02639"
+    }
+  ]
+}

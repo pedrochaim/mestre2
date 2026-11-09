@@ -1,0 +1,262 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pinball",
+        "descricao": "Jogo em que uma bola de metal é lançada numa mesa inclinada e rebatida por flippers para marcar pontos.",
+        "variantes": [
+          "Fliperama de mesa",
+          "Flipper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "melindrosa",
+          "nome": "Melindrosa",
+          "descricao": "Jovem moderna de cabelo curto e vestido reto, símbolo da moda e dos costumes do pós-Primeira Guerra",
+          "variantes": [
+            "Flapper"
+          ]
+        },
+        {
+          "id": "pantufa",
+          "nome": "Pantufa",
+          "descricao": "Calçado leve e fechado na frente, feito para usar dentro de casa.",
+          "variantes": [
+            "Chinelo de quarto",
+            "Chinelo de casa",
+            "Slipper"
+          ]
+        },
+        {
+          "id": "pelipper",
+          "nome": "Pelipper",
+          "descricao": "Pokémon dos tipos Água e Voador, número 279 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "ziper",
+          "nome": "Zíper",
+          "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados",
+          "variantes": [
+            "Zipper",
+            "Fecho éclair",
+            "Fecho de correr",
+            "Fecho ecler"
+          ]
+        },
+        {
+          "id": "flapple",
+          "nome": "Flapple",
+          "descricao": "Pokémon dos tipos Planta e Dragão, número 841 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cravo",
+        "descricao": "Instrumento de teclado cujas cordas são dedilhadas por palhetas acionadas pelas teclas.",
+        "variantes": [
+          "Clavicêmbalo",
+          "Harpsichord"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cravo",
+          "nome": "Cravo",
+          "descricao": "Flor ornamental Dianthus caryophyllus, diferente do tempero cravo-da-índia",
+          "variantes": [
+            "Dianthus caryophyllus",
+            "Craveiro"
+          ]
+        },
+        {
+          "id": "cravo_2",
+          "nome": "Cravo",
+          "descricao": "Instrumento de teclado de cordas pinçadas, muito usado no período barroco, antecessor do piano.",
+          "variantes": [
+            "Clavicêmbalo",
+            "Harpsichord"
+          ]
+        },
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        },
+        {
+          "id": "corvo",
+          "nome": "Corvo",
+          "descricao": "Grande ave negra da família dos corvídeos, Corvus corax, a mais difundida no Hemisfério Norte.",
+          "variantes": [
+            "Corvo-comum",
+            "Common raven",
+            "Corvus corax"
+          ]
+        },
+        {
+          "id": "carao",
+          "nome": "Carão",
+          "descricao": "Ave pernalta de áreas alagadas das Américas (Aramus guarauna), única da família Aramidae, que come caramujos.",
+          "variantes": [
+            "Aramus guarauna",
+            "Limpkin",
+            "Carão-do-pantanal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Órgão de tubos",
+        "descricao": "Instrumento de teclado que produz som ao fazer passar ar pressurizado por tubos.",
+        "variantes": [
+          "Órgão",
+          "Pipe organ"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "orgao_de_tubos",
+          "nome": "Órgão de tubos",
+          "descricao": "Instrumento de teclado em que o som é produzido pela passagem de ar por tubos, tradicional em igrejas.",
+          "variantes": [
+            "Órgão"
+          ]
+        },
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        },
+        {
+          "id": "botafogo",
+          "nome": "Botafogo",
+          "descricao": "Botafogo de Futebol e Regatas, clube carioca de camisa alvinegra e escudo com uma estrela.",
+          "variantes": [
+            "Botafogo de Futebol e Regatas",
+            "Fogão"
+          ]
+        },
+        {
+          "id": "harmonio",
+          "nome": "Harmônio",
+          "descricao": "Órgão de palheta livre acionado por foles de pedal, popular em igrejas e lares no século dezenove.",
+          "variantes": [
+            "Órgão de palheta",
+            "Pump organ",
+            "Reed organ"
+          ]
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Caxixi",
+        "descricao": "Pequeno chocalho de cesto de palha trançada com base de cabaça, usado na capoeira junto ao berimbau.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "caxixi",
+          "nome": "Caxixi",
+          "descricao": "Pequeno chocalho de cesta de palha com fundo de cabaça, que acompanha o berimbau na capoeira.",
+          "variantes": [
+            "Caxixi de palha"
+          ]
+        },
+        {
+          "id": "caixa_clara",
+          "nome": "Caixa-clara",
+          "descricao": "Tambor de pele dupla com esteira de fios que produz som seco, usado em orquestras e bandas.",
+          "variantes": [
+            "Caixa",
+            "Snare drum",
+            "Tarol"
+          ]
+        },
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "cateto",
+          "nome": "Cateto",
+          "descricao": "Pecari de colar das Américas (Dicotyles tajacu), mamífero da família Tayassuidae.",
+          "variantes": [
+            "Caititu",
+            "Javelina",
+            "Pecari-de-colar",
+            "Dicotyles tajacu"
+          ]
+        },
+        {
+          "id": "abiu",
+          "nome": "Abiu",
+          "descricao": "Fruto amarelo do abieiro (Pouteria caimito), de polpa branca e gelatinosa, nativo da Amazônia.",
+          "variantes": [
+            "Caimito",
+            "Abieiro",
+            "Pouteria caimito"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pinball é um jogo; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "cravo_2",
+      "motivo": "Mesmo instrumento de teclado (cravo/clavicêmbalo); a candidata 'cravo' é a flor."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "orgao_de_tubos",
+      "motivo": "Mesmo instrumento: órgão de tubos de teclado com ar passando por tubos."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "caxixi",
+      "motivo": "Mesmo chocalho de palha com fundo de cabaça usado com o berimbau."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Palhetas para rebater a bola' descreve o flíper: com a imagem coberta já dá para responder. Troquei a pista por uma que só situa o tipo de jogo.",
+      "reescrita": {
+        "pergunta": "Que jogo, comum em salões de diversão, é esta máquina?",
+        "resposta": "Pinball",
+        "distratores": [
+          "Pebolim",
+          "Máquina de garra",
+          "Air hockey"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A pista 'música barroca' é verdadeira e não entrega a resposta, pois o clavicórdio e o órgão também eram usados. A imagem decide, e os distratores são do mesmo tipo e não descrevem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português classifica o órgão como aerofone de teclas. 'Comum em igrejas' não entrega a família, e os distratores são as outras famílias, todas erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Origem africana, feito de palha trançada' descreve o caxixi, então a figura vira enfeite. Troquei a pista pelo contexto de percussão brasileira, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que instrumento de percussão usado no Brasil, de origem africana, é este?",
+        "resposta": "Caxixi",
+        "distratores": [
+          "Ganzá",
+          "Afoxé",
+          "Pandeiro"
+        ]
+      }
+    }
+  ]
+}

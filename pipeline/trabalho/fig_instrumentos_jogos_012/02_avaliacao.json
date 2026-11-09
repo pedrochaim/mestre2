@@ -1,0 +1,137 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Máquina de pinball com flippers e pop bumpers, reconhecível; o texto visível (Olympics) não nomeia o tipo de jogo.",
+      "destino": 3,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de jogo é esta máquina, com palhetas para rebater a bola?",
+      "resposta": "Pinball",
+      "distratores": [
+        "Pebolim",
+        "Máquina de garra",
+        "Air hockey"
+      ],
+      "ancora": {
+        "nome": "Pinball",
+        "descricao": "Jogo em que uma bola de metal é lançada numa mesa inclinada e rebatida por flippers para marcar pontos.",
+        "variantes": [
+          "Fliperama de mesa",
+          "Flipper"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O cabeçote mostra 'Gibson' e 'Les Paul' escritos, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O console traz 'Phantom System' e 'gradiente' escritos em letras grandes, entregando a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O console traz 'Nintendo DS' escrito abaixo da tela, entregando a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cravo claro e inconfundível; as inscrições em latim não entregam a resposta.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de teclado é este, muito usado na música barroca?",
+      "resposta": "Cravo",
+      "distratores": [
+        "Clavicórdio",
+        "Piano de cauda",
+        "Órgão positivo"
+      ],
+      "ancora": {
+        "nome": "Cravo",
+        "descricao": "Instrumento de teclado cujas cordas são dedilhadas por palhetas acionadas pelas teclas.",
+        "variantes": [
+          "Clavicêmbalo",
+          "Harpsichord"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A luva traz 'POWER GLOVE' escrito, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É um teclado controlador/stage piano de marca Studiologic, com marca e modelo visíveis; não representa bem o teclado eletrônico genérico."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Órgão de tubos nítido, sem texto; reconhecível.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este instrumento, comum em igrejas, pertence a qual família de instrumentos?",
+      "resposta": "Aerofones",
+      "distratores": [
+        "Cordofones",
+        "Idiofones",
+        "Membranofones"
+      ],
+      "ancora": {
+        "nome": "Órgão de tubos",
+        "descricao": "Instrumento de teclado que produz som ao fazer passar ar pressurizado por tubos.",
+        "variantes": [
+          "Órgão",
+          "Pipe organ"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O console traz 'Jaguar' e 'Atari' escritos, entregando a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O objeto é um bilboquê atípico, com bola grande e tampa, num formato pouco reconhecível; a resposta não é clara pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O cabeçote mostra a marca 'Fender' escrita; além disso, a guitarra pode ser confundida com o Esquire."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Caxixi de palha trançada com alça, sem texto, reconhecível pela forma, embora a imagem seja pequena.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de origem africana, feito de palha trançada, é este?",
+      "resposta": "Caxixi",
+      "distratores": [
+        "Ganzá",
+        "Afoxé",
+        "Pandeiro"
+      ],
+      "ancora": {
+        "nome": "Caxixi",
+        "descricao": "Pequeno chocalho de cesto de palha trançada com base de cabaça, usado na capoeira junto ao berimbau.",
+        "variantes": []
+      }
+    }
+  ]
+}
