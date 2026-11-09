@@ -1,0 +1,129 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta: 'naturalista inglês' + 'viagem de volta ao mundo' já entrega Darwin e o Beagle sem a figura. Reescrita pede o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que naturalista inglês do século dezenove é este?",
+        "resposta": "Charles Darwin",
+        "distratores": [
+          "Alfred Wallace",
+          "Thomas Huxley",
+          "Joseph Hooker"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morte em 1945 confirmada nos trechos. Resposta é ano e a pergunta é múltipla. Enunciado sem vazamento e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Rei europeu dono de território africano como propriedade pessoal' identifica Leopoldo II sem a figura. Reescrita pede o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que rei dos belgas do século dezenove é este?",
+        "resposta": "Leopoldo II",
+        "distratores": [
+          "Leopoldo I",
+          "Alberto I",
+          "Balduíno I"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A descrição não diz que a imagem é um busto, então 'neste busto' pode ser falso para esta figura. Retirei a referência.",
+      "reescrita": {
+        "pergunta": "Que filósofo grego é este?",
+        "resposta": "Aristóteles",
+        "distratores": [
+          "Platão",
+          "Sócrates",
+          "Epicuro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morreu em 1642, século dezessete, conforme os trechos. O enunciado não entrega a resposta e os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Líder comunista que comandou os partisans' praticamente entrega Tito e a Iugoslávia sem a figura. Além disso, Grécia e Albânia também tiveram partisans. Reescrita pede o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que líder comunista europeu do século vinte é este?",
+        "resposta": "Josip Broz Tito",
+        "distratores": [
+          "Enver Hoxha",
+          "Nicolae Ceaușescu",
+          "Todor Jivkov"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são militares latino-americanos plausíveis e nenhum é o da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Quênia tornou-se independente em dezembro de 1963, década de 1960, e Kenyatta o presidiu. O enunciado não entrega a identidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Chinês' e 'guerra civil' com 'líder comunista rival' levam a Mao sem a figura, que vira enfeite. Reescrita pede o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que líder chinês do século vinte é este?",
+        "resposta": "Chiang Kai-shek",
+        "distratores": [
+          "Sun Yat-sen",
+          "Yuan Shikai",
+          "Wang Jingwei"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. Os distratores são monarcas europeus da mesma época.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O encontro em Ujiji identifica Livingstone sem a figura. Reescrita pede o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que missionário e explorador da África é este?",
+        "resposta": "David Livingstone",
+        "distratores": [
+          "Henry Morton Stanley",
+          "Richard Burton",
+          "John Speke"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto; Darwin reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este naturalista inglês fez uma célebre viagem de volta ao mundo a bordo de qual navio?",
+      "resposta": "HMS Beagle",
+      "distratores": [
+        "HMS Endeavour",
+        "HMS Bounty",
+        "HMS Challenger"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Charles Darwin",
+        "descricao": "Naturalista inglês do século dezenove, autor da teoria da evolução por seleção natural.",
+        "variantes": [
+          "Charles Robert Darwin"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano morreu este político alemão?",
+      "resposta": "1945",
+      "distratores": [
+        "1944",
+        "1946",
+        "1943"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Joseph Goebbels",
+        "descricao": "Político alemão, ministro da Propaganda do regime nazista de 1933 a 1945.",
+        "variantes": [
+          "Paul Joseph Goebbels"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fotografia histórica sem texto, barba e uniforme característicos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este rei europeu foi dono de que território africano, que governou como propriedade pessoal?",
+      "resposta": "Estado Livre do Congo",
+      "distratores": [
+        "Congo Francês",
+        "África Oriental Alemã",
+        "Moçambique"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Leopoldo II da Bélgica",
+        "descricao": "Rei dos belgas de 1865 a 1909 e soberano do Estado Livre do Congo.",
+        "variantes": [
+          "Leopold II"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Busto antigo famoso, sem texto, bem nítido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo grego é retratado neste busto?",
+      "resposta": "Aristóteles",
+      "distratores": [
+        "Platão",
+        "Sócrates",
+        "Epicuro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Aristóteles",
+        "descricao": "Filósofo grego do século quarto a.C., discípulo de Platão e fundador do Liceu.",
+        "variantes": [
+          "Aristotle"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pintura clara, sem texto; traje cardinalício.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século morreu este cardeal francês?",
+      "resposta": "Século dezessete",
+      "distratores": [
+        "Século dezesseis",
+        "Século dezoito",
+        "Século quinze"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Cardeal Richelieu",
+        "descricao": "Cardeal e estadista francês, primeiro-ministro de Luís XIII de 1624 a 1642.",
+        "variantes": [
+          "Armand Jean du Plessis de Richelieu",
+          "Richelieu"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este líder comunista comandou os partisans, a resistência armada, em que país durante a Segunda Guerra Mundial?",
+      "resposta": "Iugoslávia",
+      "distratores": [
+        "Grécia",
+        "Albânia",
+        "Polônia"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Josip Broz Tito",
+        "descricao": "Líder comunista iugoslavo, comandante dos partisans na Segunda Guerra e presidente da Iugoslávia até 1980.",
+        "variantes": [
+          "Tito",
+          "Josip Broz"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que militar latino-americano é este?",
+      "resposta": "Augusto Pinochet",
+      "distratores": [
+        "Jorge Videla",
+        "Alfredo Stroessner",
+        "Manuel Noriega"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Augusto Pinochet",
+        "descricao": "General chileno que governou o Chile como ditador de 1973 a 1990.",
+        "variantes": [
+          "Augusto José Ramón Pinochet Ugarte"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido sem texto; rosto parcial de outra pessoa na borda é periférico.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década o país que este homem presidiu se tornou independente?",
+      "resposta": "Década de 1960",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1970",
+        "Década de 1940"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Jomo Kenyatta",
+        "descricao": "Político queniano, primeiro presidente do Quênia independente, de 1964 a 1978.",
+        "variantes": [
+          "Kenyatta"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato de gala nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que líder comunista foi o grande rival deste chinês na guerra civil de seu país?",
+      "resposta": "Mao Tsé-Tung",
+      "distratores": [
+        "Sun Yat-sen",
+        "Zhou Enlai",
+        "Deng Xiaoping"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Chiang Kai-shek",
+        "descricao": "Líder militar e político chinês do Kuomintang, presidente da República da China, que se retirou para Taiwan em 1949.",
+        "variantes": [
+          "Jiang Jieshi",
+          "Chiang Kai-Shek"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto; bigode e condecorações característicos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que monarca europeu é este?",
+      "resposta": "Francisco José I da Áustria",
+      "distratores": [
+        "Guilherme II",
+        "Nicolau II",
+        "Jorge V"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Francisco José I da Áustria",
+        "descricao": "Imperador da Áustria e rei da Hungria de 1848 a 1916.",
+        "variantes": [
+          "Franz Joseph I",
+          "Francisco José I"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A pintura traz a inscrição 'Anna Bolina Vxor Henri Octa' no topo, que entrega o nome."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fotografia histórica nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este explorador ficou famoso por seu encontro, em Ujiji, com qual outro explorador?",
+      "resposta": "Henry Morton Stanley",
+      "distratores": [
+        "Richard Burton",
+        "John Speke",
+        "Mungo Park"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "David Livingstone",
+        "descricao": "Missionário e explorador escocês que percorreu a África central no século dezenove.",
+        "variantes": []
+      }
+    }
+  ]
+}

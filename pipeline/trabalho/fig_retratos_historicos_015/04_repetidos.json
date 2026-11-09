@@ -1,0 +1,109 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que naturalista inglês do século dezenove é este?",
+        "resposta": "Charles Darwin"
+      },
+      "existentes": [
+        {
+          "id": "q00866",
+          "pergunta": "Que naturalista é este?",
+          "resposta": "Charles Darwin"
+        },
+        {
+          "id": "q02813",
+          "pergunta": "O que o naturalista Charles Darwin e o presidente americano Abraham Lincoln têm em comum?",
+          "resposta": "Nasceram no mesmo dia"
+        },
+        {
+          "id": "q05031",
+          "pergunta": "Apesar da polêmica religiosa causada por suas ideias, onde Charles Darwin foi sepultado em 1882?",
+          "resposta": "Abadia de Westminster"
+        },
+        {
+          "id": "q18171",
+          "pergunta": "Quantos anos tinha Charles Darwin quando partiu na viagem do Beagle, no fim de 1831?",
+          "resposta": "Vinte e dois"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano morreu este político alemão?",
+        "resposta": "1945"
+      },
+      "existentes": [
+        {
+          "id": "q14338",
+          "pergunta": "Este homem foi, de 1933 até 1945, ministro de qual área no governo nazista?",
+          "resposta": "Propaganda"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que filósofo grego é este?",
+        "resposta": "Aristóteles"
+      },
+      "existentes": [
+        {
+          "id": "q03776",
+          "pergunta": "Que filósofo grego da Antiguidade este busto representa?",
+          "resposta": "Aristóteles"
+        },
+        {
+          "id": "q04738",
+          "pergunta": "Que filósofo grego, discípulo de Platão, foi chamado pelo rei Filipe da Macedônia para ser professor de seu filho Alexandre?",
+          "resposta": "Aristóteles"
+        },
+        {
+          "id": "q04746",
+          "pergunta": "Aristóteles entrou jovem na Academia de Platão e só saiu depois da morte do mestre. Por quanto tempo, aproximadamente, ele ficou lá?",
+          "resposta": "Cerca de vinte anos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que monarca europeu é este?",
+        "resposta": "Francisco José I da Áustria"
+      },
+      "existentes": [
+        {
+          "id": "q13896",
+          "pergunta": "No trono desde 1848, que imperador governava a Áustria-Hungria quando a guerra começou e morreu em 1916, em pleno conflito?",
+          "resposta": "Francisco José I"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00866",
+      "motivo": "Ambas pedem a identificação de Darwin a partir da imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ano da morte é fato diferente do cargo de ministro."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q03776",
+      "motivo": "Ambas pedem identificar Aristóteles pela imagem como filósofo grego."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova é identificação por imagem; a existente pergunta por descrição textual do imperador, com pistas que dão a resposta, mas o fato perguntado difere. Na dúvida, nova."
+    }
+  ]
+}
