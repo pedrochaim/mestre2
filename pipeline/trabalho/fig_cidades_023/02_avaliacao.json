@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bondinho e Pão de Açúcar nítidos, sem texto; pergunta vai além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que engenheiro idealizou este teleférico e criou a empresa que o administra?",
+      "resposta": "Augusto Ferreira Ramos",
+      "distratores": [
+        "Paulo de Frontin",
+        "Pereira Passos",
+        "Saturnino de Brito"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bondinho do Pão de Açúcar",
+        "descricao": "Teleférico do Rio de Janeiro que liga a Praia Vermelha ao Morro da Urca e ao Pão de Açúcar, inaugurado em 1912.",
+        "variantes": [
+          "Teleférico do Pão de Açúcar",
+          "Caminho Aéreo Pão de Açúcar"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vista genérica de uma orla com casas e morros; a ilha não é reconhecível pela imagem e a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bastião dos Pescadores reconhecível, sem texto; as duas pessoas ao fundo são pequenas, de costas, e não estão em primeiro plano.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este monumento oferece um panorama de uma cidade cortada por qual rio?",
+      "resposta": "Danúbio",
+      "distratores": [
+        "Reno",
+        "Vístula",
+        "Sena"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bastião dos Pescadores",
+        "descricao": "Terraço neorromânico com sete torres cônicas junto ao Castelo de Buda, em Budapeste, na Hungria.",
+        "variantes": [
+          "Halászbástya",
+          "Fisherman's Bastion"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Lagoa com a igrejinha de Niemeyer na margem; sem texto, legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que lagoa é esta?",
+      "resposta": "Lagoa da Pampulha",
+      "distratores": [
+        "Lagoa Rodrigo de Freitas",
+        "Lagoa Santa",
+        "Lagoa dos Patos"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lagoa da Pampulha",
+        "descricao": "Lagoa artificial em Belo Horizonte, Minas Gerais, cercada por obras de Oscar Niemeyer.",
+        "variantes": [
+          "Pampulha"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Castelo sobre a rocha, inconfundível; o letreiro do bar não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que formação rochosa se ergue esta fortaleza?",
+      "resposta": "Castle Rock",
+      "distratores": [
+        "Arthur's Seat",
+        "Calton Hill",
+        "Salisbury Crags"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castelo de Edimburgo",
+        "descricao": "Fortaleza histórica sobre Castle Rock, em Edimburgo, na Escócia.",
+        "variantes": [
+          "Edinburgh Castle"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea com a cúpula dourada característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que conjunto de edifícios parisiense, com esta cúpula dourada, é este?",
+      "resposta": "Les Invalides",
+      "distratores": [
+        "Panteão",
+        "Val-de-Grâce",
+        "Grand Palais"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Les Invalides",
+        "descricao": "Complexo militar e museu em Paris, com a capela de cúpula dourada onde está o túmulo de Napoleão.",
+        "variantes": [
+          "Hôtel des Invalides",
+          "Hotel des Invalides",
+          "Palácio dos Inválidos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Torre principal, fossos e muralhas de pedra reconhecíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que castelo japonês é este?",
+      "resposta": "Castelo de Osaka",
+      "distratores": [
+        "Castelo de Himeji",
+        "Castelo de Matsumoto",
+        "Castelo de Nagoia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castelo de Osaka",
+        "descricao": "Castelo japonês em Chūō-ku, Osaka, importante na unificação do Japão no século dezesseis.",
+        "variantes": [
+          "Osaka-jō",
+          "Osaka Castle"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada e torre com ornamentos característicos, sem texto; edifício pouco famoso, por isso múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que edifício é este?",
+      "resposta": "Palacio Barolo",
+      "distratores": [
+        "Palacio Salvo",
+        "Edifício Kavanagh",
+        "Palacio Paz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palacio Barolo",
+        "descricao": "Edifício de escritórios na Avenida de Mayo, em Buenos Aires, irmão gêmeo do Palacio Salvo de Montevidéu.",
+        "variantes": [
+          "Palácio Barolo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea com a catedral gótica no centro do complexo, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que catedral gótica fica dentro deste complexo?",
+      "resposta": "Catedral de São Vito",
+      "distratores": [
+        "Catedral de Colônia",
+        "Catedral de Estrasburgo",
+        "Catedral de Milão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castelo de Praga",
+        "descricao": "Complexo de castelo em Praga, na República Tcheca, sede da presidência do país.",
+        "variantes": [
+          "Pražský hrad",
+          "Prague Castle"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, com um homem fotografando em destaque."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada para a laguna bem nítida, sem texto; pessoas pequenas ao fundo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que autoridade eleita morava neste palácio?",
+      "resposta": "O doge",
+      "distratores": [
+        "O podestà",
+        "O gonfaloneiro",
+        "O cônsul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palácio Ducal de Veneza",
+        "descricao": "Palácio gótico veneziano, antiga sede do governo e residência do doge da República de Veneza.",
+        "variantes": [
+          "Palazzo Ducale",
+          "Doge's Palace"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Igreja azul com coreto, sem traço que permita reconhecer a cidade; resposta não é única diante da imagem."
+    }
+  ]
+}

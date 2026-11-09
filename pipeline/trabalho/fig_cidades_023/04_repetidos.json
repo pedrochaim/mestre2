@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que engenheiro idealizou este teleférico e criou a empresa que o administra?",
+        "resposta": "Augusto Ferreira Ramos"
+      },
+      "existentes": [
+        {
+          "id": "q00998",
+          "pergunta": "O bondinho do Pão de Açúcar começou a funcionar no mesmo ano em que afundou qual famoso transatlântico?",
+          "resposta": "Titanic"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que lagoa é esta?",
+        "resposta": "Lagoa da Pampulha"
+      },
+      "existentes": [
+        {
+          "id": "q09176",
+          "pergunta": "Nos anos 1940, que arquiteto projetou a igreja, o cassino e outros prédios modernos à beira da lagoa da Pampulha, em Belo Horizonte?",
+          "resposta": "Oscar Niemeyer"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que catedral gótica fica dentro deste complexo?",
+        "resposta": "Catedral de São Vito"
+      },
+      "existentes": [
+        {
+          "id": "q08997",
+          "pergunta": "Em que cidade europeia fica o castelo no centro desta vista aérea?",
+          "resposta": "Praga"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que autoridade eleita morava neste palácio?",
+        "resposta": "O doge"
+      },
+      "existentes": [
+        {
+          "id": "q07195",
+          "pergunta": "Em que cidade fica este palácio?",
+          "resposta": "Veneza"
+        },
+        {
+          "id": "q14535",
+          "pergunta": "Que estilo arquitetônico caracteriza este palácio?",
+          "resposta": "Gótico veneziano"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o idealizador, fato diferente do ano de início."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a lagoa é diferente de saber o arquiteto dos prédios."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Catedral dentro do complexo é fato diferente da cidade do castelo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Autoridade que morava no palácio difere de cidade e estilo."
+    }
+  ]
+}

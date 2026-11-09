@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos confirmam que Ramos idealizou o teleférico e criou a Companhia Caminho Aéreo. O enunciado não nomeia a entidade. Os distratores são engenheiros cariocas da época e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Bastião dá panorama de Budapeste e fica junto ao Danúbio. A cidade não é nomeada e os distratores são rios europeus errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1, sem vazamento. Os distratores são lagoas brasileiras críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O castelo se ergue sobre Castle Rock, segundo os trechos. Os distratores são elevações de Edimburgo, mas nenhuma é a base do castelo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'cúpula dourada' é uma marca muito famosa dos Invalides e quase entrega a resposta sem a figura. O trecho confirma a cúpula dourada, mas a pista deve sair.",
+      "reescrita": {
+        "pergunta": "Que conjunto de edifícios de Paris é este?",
+        "resposta": "Les Invalides",
+        "distratores": [
+          "Panteão",
+          "Val-de-Grâce",
+          "Grand Palais"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, nível 1. Os distratores são castelos japoneses famosos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são edifícios de Buenos Aires e Montevidéu, e o Salvo é parecido mas é outro prédio.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Catedral de São Vito, gótica, fica dentro do Castelo de Praga. Os distratores são catedrais góticas de outras cidades.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que o palácio foi residência do Doge, autoridade eleita da República de Veneza. O enunciado não nomeia o palácio e os distratores são cargos medievais italianos.",
+      "reescrita": null
+    }
+  ]
+}
