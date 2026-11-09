@@ -1,0 +1,114 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Distratores são de outros tipos e não descrevem a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam o original de Praxíteles no século quatro a.C. e falam das muitas cópias. O enunciado não nomeia a obra e os distratores são séculos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sátiro adormecido' é pista quase suficiente para identificar a estátua sem ver a figura. Além disso, Roma e Paris têm ligação real com a obra e a cópia. Troquei a pista pelo país e usei distratores alemães.",
+      "reescrita": {
+        "pergunta": "Em que cidade alemã fica hoje esta estátua antiga de mármore?",
+        "resposta": "Munique",
+        "distratores": [
+          "Berlim",
+          "Dresden",
+          "Colônia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o Efebo de Crítios é de cerca de 480 a.C., no início do período clássico, ou seja, século cinco a.C. Os trechos só dão o período. Os distratores são séculos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dinastia do sul da Índia famosa por bronzes' dá a resposta Chola sem olhar a figura, e Maurya, Gupta e Mogol se eliminam pelo 'sul'. Passei a pedir o nome da forma de Shiva, que exige reconhecer a imagem.",
+      "reescrita": {
+        "pergunta": "Que nome tem esta famosa forma do deus Shiva, em bronze?",
+        "resposta": "Nataraja",
+        "distratores": [
+          "Bhairava",
+          "Dakshinamurti",
+          "Ardhanarishvara"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Par de estátuas arcaicas achado em Delfos' basicamente entrega Cléobis e Bíton. Pedi um fato que vem depois do reconhecimento: a cidade dos irmãos, que está nos trechos (Argos).",
+      "reescrita": {
+        "pergunta": "Estas estátuas gregas arcaicas são ligadas a dois irmãos lendários. De que cidade eles eram?",
+        "resposta": "Argos",
+        "distratores": [
+          "Esparta",
+          "Atenas",
+          "Corinto"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cerco de uma cidade de Judá' mais 'relevos assírios' leva direto aos Relevos de Laquis, então a figura vira enfeite. Troquei a pista por uma que não entrega: época e palácio de Nínive.",
+      "reescrita": {
+        "pergunta": "Estes relevos assírios, de cerca de setecentos a.C., decoravam um palácio em Nínive. Em que museu estão hoje?",
+        "resposta": "Museu Britânico",
+        "distratores": [
+          "Louvre",
+          "Museu de Pérgamo",
+          "Museu do Iraque"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o relevo fica nas criptas do templo de Hator em Dendera. O enunciado não vaza a resposta e os distratores são templos egípcios plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que não se sabe a espécie dos ossos nem se foram levados à caverna por animais, então 'viveu na caverna' não é literalmente verdadeiro. O enunciado também descreve o objeto, e a resposta sai por conhecimento geral.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que 'crotalus' também designou o sistro, então o distrator 'Crótalo' é ambíguo. Troquei por um instrumento egípcio claramente distinto.",
+      "reescrita": {
+        "pergunta": "Que instrumento musical do Egito antigo é este?",
+        "resposta": "Sistro",
+        "distratores": [
+          "Harpa arqueada",
+          "Flauta dupla",
+          "Pandeiro"
+        ]
+      }
+    }
+  ]
+}

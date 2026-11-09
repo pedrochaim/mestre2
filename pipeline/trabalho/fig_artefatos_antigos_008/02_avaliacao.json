@@ -1,0 +1,256 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra a réplica do Parthenon de Nashville, não a estátua original; a pergunta sobre época ficaria ambígua diante desta imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Khopesh bem visível, forma característica, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que arma do Egito antigo é esta?",
+      "resposta": "Khopesh",
+      "distratores": [
+        "Falcata",
+        "Kopis",
+        "Machado de guerra"
+      ],
+      "ancora": {
+        "nome": "Khopesh",
+        "descricao": "Espada egípcia em forma de foice, de lâmina curva, usada principalmente no Novo Império.",
+        "variantes": [
+          "Khepesh",
+          "Cópis egípcia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cópia romana clara da Afrodite de Cnido (tipo Colonna, Vaticano), sem texto; pergunta sobre a época do original grego.",
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Esta estátua é cópia romana de uma obra grega famosa. Em que século foi criado o original?",
+      "resposta": "Século quatro a.C.",
+      "distratores": [
+        "Século seis a.C.",
+        "Século cinco a.C.",
+        "Século dois a.C."
+      ],
+      "ancora": {
+        "nome": "Afrodite de Cnido",
+        "descricao": "Estátua grega de Afrodite nua criada por Praxíteles no século quatro a.C., conhecida por cópias romanas.",
+        "variantes": [
+          "Afrodite Cnídia",
+          "Aphrodite of Knidos",
+          "Vênus de Cnido"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fauno Barberini bem visível, sem texto, fundo neutro.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Em que cidade fica hoje esta estátua de um sátiro adormecido?",
+      "resposta": "Munique",
+      "distratores": [
+        "Roma",
+        "Paris",
+        "Viena"
+      ],
+      "ancora": {
+        "nome": "Fauno Barberini",
+        "descricao": "Estátua de mármore antiga de um sátiro adormecido, restaurada em Roma no século dezessete e hoje na Gliptoteca de Munique.",
+        "variantes": [
+          "Sátiro Embriagado",
+          "Barberini Faun"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estátua nítida, sem texto, reconhecível pelo estilo de transição; pergunta pelo século.",
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Em que século foi esculpida esta estátua grega de mármore?",
+      "resposta": "Século cinco a.C.",
+      "distratores": [
+        "Século sete a.C.",
+        "Século quatro a.C.",
+        "Século três a.C."
+      ],
+      "ancora": {
+        "nome": "Efebo de Crítios",
+        "descricao": "Estátua de mármore do início do período clássico grego, achada na Acrópole de Atenas, primeira a usar o contraposto.",
+        "variantes": [
+          "Jovem de Crítios",
+          "Kritios Boy",
+          "Efebo de Crítio"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bronze de Shiva Nataraja nítido, sem texto.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 3,
+      "pergunta": "Que dinastia do sul da Índia ficou famosa por bronzes como este?",
+      "resposta": "Chola",
+      "distratores": [
+        "Maurya",
+        "Gupta",
+        "Mogol"
+      ],
+      "ancora": {
+        "nome": "Shiva Nataraja",
+        "descricao": "Representação em bronze do deus hindu Shiva como o dançarino cósmico, típica da arte Chola.",
+        "variantes": [
+          "Nataraja",
+          "Shiva dançante",
+          "Shiva Nataraj"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Par de kouroi de Delfos nítido, sem texto, resposta única.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que par de estátuas gregas arcaicas, achado em Delfos, é este?",
+      "resposta": "Cléobis e Bíton",
+      "distratores": [
+        "Harmódio e Aristogíton",
+        "Castor e Pólux",
+        "Rômulo e Remo"
+      ],
+      "ancora": {
+        "nome": "Cléobis e Bíton",
+        "descricao": "Par de estátuas kouros arcaicas, de cerca de 610 a.C., achado em Delfos e ligado a dois irmãos lendários de Argos.",
+        "variantes": [
+          "Cleobis e Bitão",
+          "Kleobis and Biton"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Sala do Museu Britânico com os relevos de Laquis, sem texto legível; pergunta pelo museu.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 3,
+      "pergunta": "Estes relevos assírios mostram o cerco de uma cidade de Judá. Em que museu estão hoje?",
+      "resposta": "Museu Britânico",
+      "distratores": [
+        "Louvre",
+        "Museu de Pérgamo",
+        "Museu do Iraque"
+      ],
+      "ancora": {
+        "nome": "Relevos de Laquis",
+        "descricao": "Conjunto de relevos assírios do palácio de Senaqueribe em Nínive que narram o cerco de Laquis em 701 a.C.",
+        "variantes": [
+          "Relevos de Lachish",
+          "Lachish reliefs"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Relevo famoso e nítido, sem placa legível que entregue a resposta.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Em que templo egípcio fica este relevo de cripta?",
+      "resposta": "Templo de Hator, em Dendera",
+      "distratores": [
+        "Templo de Karnak",
+        "Templo de Edfu",
+        "Templo de Abu Simbel"
+      ],
+      "ancora": {
+        "nome": "Luz de Dendera",
+        "descricao": "Relevo da cripta do templo de Hator em Dendera que mostra Harsomtus, em forma de serpente, saindo de uma flor de lótus.",
+        "variantes": [
+          "Lâmpada de Dendera",
+          "Dendera light"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Seixo nítido; a escala em centímetros não entrega a resposta.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 4,
+      "pergunta": "Este seixo de jaspe, com marcas que lembram um rosto, foi achado na África do Sul. Que hominídeo viveu na caverna onde ele apareceu?",
+      "resposta": "Australopithecus",
+      "distratores": [
+        "Homo erectus",
+        "Homo habilis",
+        "Neandertal"
+      ],
+      "ancora": {
+        "nome": "Seixo de Makapansgat",
+        "descricao": "Seixo de jaspe de cerca de três milhões de anos, com marcas que lembram um rosto, achado na caverna de Makapansgat, na África do Sul.",
+        "variantes": [
+          "Makapansgat pebble",
+          "Pedra de Makapansgat"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Sistro nítido em fundo neutro, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que instrumento musical do Egito antigo é este?",
+      "resposta": "Sistro",
+      "distratores": [
+        "Crótalo",
+        "Pandeiro",
+        "Harpa arqueada"
+      ],
+      "ancora": {
+        "nome": "Sistro",
+        "descricao": "Chocalho musical de metal, de moldura em U com barras e discos, usado no Egito antigo em rituais, sobretudo de Hator.",
+        "variantes": [
+          "Sistrum"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto histórica em preto e branco com várias pessoas comuns em primeiro plano; o banco não é reconhecível com clareza."
+    }
+  ]
+}

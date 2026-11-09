@@ -558,7 +558,7 @@
       "titulo": "en:Makapansgat pebble",
       "camada": 3,
       "destino": 4,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Nemés",
@@ -593,14 +593,14 @@
       "titulo": "en:Khopesh",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Sistro",
       "titulo": "en:Sistrum",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Papiro Ebers",
@@ -642,7 +642,7 @@
       "titulo": "en:Barberini Faun",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Efebo de Anticítera",
@@ -656,7 +656,7 @@
       "titulo": "en:Kritios Boy",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Kore do Peplo",
@@ -719,7 +719,7 @@
       "titulo": "en:Malinaltepec Mask",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Monumento de Las Limas",
@@ -839,6 +839,286 @@
       "camada": 3,
       "destino": 4,
       "status": "usada"
+    },
+    {
+      "nome": "Cabeça Verde de Berlim",
+      "titulo": "en:Berlin Green Head",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Busto de Ankhaf",
+      "titulo": "en:Bust of Ankhhaf",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estela de Nefertiabet",
+      "titulo": "en:Slab stela of Nefertiabet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tríades de Miquerinos",
+      "titulo": "en:Triads of Menkaure",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Luz de Dendera",
+      "titulo": "en:Dendera light",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Paleta Líbia",
+      "titulo": "en:Libyan Palette",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grande Esfinge de Tânis",
+      "titulo": "en:Great Sphinx of Tanis",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Paleta dos Caçadores",
+      "titulo": "en:Hunters Palette",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Atena Partenos",
+      "titulo": "en:Athena Parthenos",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Afrodite de Cnido",
+      "titulo": "en:Aphrodite of Knidos",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Cléobis e Bíton",
+      "titulo": "en:Kleobis and Biton",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Sol de Vergina",
+      "titulo": "en:Vergina Sun",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vaso dos Guerreiros",
+      "titulo": "en:Warrior Vase",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Taças de Vafio",
+      "titulo": "en:Vaphio cups",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dama de Auxerre",
+      "titulo": "en:Lady of Auxerre",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esfinge de Naxos",
+      "titulo": "en:Sphinx of Naxos",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Poporo Quimbaya",
+      "titulo": "en:Poporo Quimbaya",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Adolescente Huasteco",
+      "titulo": "en:Huastec Adolescent",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Teocalli da Guerra Sagrada",
+      "titulo": "en:Teocalli of the Sacred War",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Monólito Bennett",
+      "titulo": "en:Bennett Monolith",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Códice de Madri",
+      "titulo": "en:Madrid Codex",
+      "camada": 3,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Códice Boturini",
+      "titulo": "en:Codex Boturini",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Los Danzantes",
+      "titulo": "en:Los Danzantes",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Mictlantecuhtli",
+      "titulo": "en:Mictlantecuhtli",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Shiva Nataraja",
+      "titulo": "en:Nataraja",
+      "camada": 1,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Jogo Real de Ur",
+      "titulo": "en:Royal Game of Ur",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Leão da Babilônia",
+      "titulo": "en:Lion of Babylon",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Friso dos Arqueiros",
+      "titulo": "en:Frieze of Archers",
+      "camada": 2,
+      "destino": 3,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Relevos de Laquis",
+      "titulo": "en:Lachish reliefs",
+      "camada": 3,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Tesouro de Tell Asmar",
+      "titulo": "en:Tell Asmar Hoard",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Yakshi de Didarganj",
+      "titulo": "en:Didarganj Yakshi",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Disco bi de jade",
+      "titulo": "en:Bi (jade)",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Banco de Ouro axânti",
+      "titulo": "en:Golden Stool",
+      "camada": 2,
+      "destino": 4,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rainha Bangwa",
+      "titulo": "en:Bangwa Queen",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Bronzes de Tsoede",
+      "titulo": "en:Tsoede bronzes",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra de Ezana",
+      "titulo": "en:Ezana Stone",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Hawulti",
+      "titulo": "en:Hawulti",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Máscara D'mba",
+      "titulo": "en:D'mba",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Mbulu ngulu",
+      "titulo": "en:Mbulu ngulu",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Kuduo",
+      "titulo": "en:Kuduo",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
     }
   ]
 }

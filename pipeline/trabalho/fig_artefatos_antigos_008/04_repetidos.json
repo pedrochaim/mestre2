@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade alemã fica hoje esta estátua antiga de mármore?",
+        "resposta": "Munique"
+      },
+      "existentes": [
+        {
+          "id": "q08575",
+          "pergunta": "Que escultura antiga é esta?",
+          "resposta": "Fauno Barberini"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual é a escultura (identidade); a nova pergunta a cidade onde ela está hoje (Munique). Fatos diferentes."
+    }
+  ]
+}
