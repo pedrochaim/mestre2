@@ -1,0 +1,225 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Carro de F1 amarelo nítido em museu; o nome 99T não aparece. Pergunta de conexão com o piloto brasileiro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que piloto brasileiro venceu duas corridas em 1987 com este carro de Fórmula 1?",
+      "resposta": "Ayrton Senna",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lotus 99T",
+        "descricao": "Carro de Fórmula 1 da equipe Lotus, com motor Honda, usado na temporada de 1987.",
+        "variantes": [
+          "Lotus 99T Honda"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto aérea clara de um superspeedway tri-oval com o aeroporto ao lado, sem texto. Pergunta pelo estado americano.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que estado americano fica este autódromo?",
+      "resposta": "Alabama",
+      "destino": 0,
+      "ancora": {
+        "nome": "Talladega Superspeedway",
+        "descricao": "Autódromo tri-oval de NASCAR em Lincoln, no Alabama, EUA, inaugurado em 1969.",
+        "variantes": [
+          "Talladega",
+          "Alabama International Motor Speedway"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem nome visível; só logos de patrocinadores e da Audi.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este piloto dinamarquês de corridas de resistência?",
+      "resposta": "Tom Kristensen",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tom Kristensen",
+        "descricao": "Piloto dinamarquês, maior vencedor das 24 Horas de Le Mans, com nove vitórias.",
+        "variantes": [
+          "Kristensen"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida do Audi Quattro, placa borrada. Pergunta de conexão com o esporte em que ficou famoso.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que esporte a tração integral deste carro causou uma revolução nos anos oitenta?",
+      "resposta": "Rali",
+      "distratores": [
+        "Fórmula 1",
+        "Stock Car",
+        "Corrida de arrancada"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Audi Quattro",
+        "descricao": "Cupê esportivo da Audi, produzido de 1980 a 1991, pioneiro da tração integral no rali.",
+        "variantes": [
+          "Audi Ur-Quattro",
+          "Quattro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública sem nome legível (só patrocinadores). Pergunta de conexão com a prova que venceu.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que corrida americana este piloto japonês venceu em 2017 e em 2020?",
+      "resposta": "500 Milhas de Indianápolis",
+      "destino": 0,
+      "ancora": {
+        "nome": "Takuma Sato",
+        "descricao": "Piloto japonês, ex-F1, bicampeão das 500 Milhas de Indianápolis (2017 e 2020).",
+        "variantes": [
+          "Taku Sato"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto limpa do Ferrari 156 de nariz de tubarão, fundo branco, reconhecível. Pergunta de conexão com o campeão.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que piloto americano foi campeão mundial de Fórmula 1 com este carro?",
+      "resposta": "Phil Hill",
+      "distratores": [
+        "Dan Gurney",
+        "Richie Ginther",
+        "Mario Andretti"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ferrari 156 F1 (Sharknose)",
+        "descricao": "Carro de Fórmula 1 da Ferrari de 1961, conhecido pelo nariz de tubarão, com o qual Phil Hill foi campeão.",
+        "variantes": [
+          "Ferrari 156",
+          "Sharknose",
+          "Ferrari 156 F1"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem nome visível; pergunta de conexão sobre a estreia.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Por qual equipe este piloto argentino estreou na Fórmula 1?",
+      "resposta": "Williams",
+      "distratores": [
+        "Alpine",
+        "Haas",
+        "Red Bull"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Franco Colapinto",
+        "descricao": "Piloto argentino de Fórmula 1, nascido em 2003, que estreou em 2024.",
+        "variantes": [
+          "Colapinto"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Veículo a jato único e inconfundível, sem nome escrito.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que veículo britânico a jato é este?",
+      "resposta": "ThrustSSC",
+      "destino": 0,
+      "ancora": {
+        "nome": "ThrustSSC",
+        "descricao": "Carro a jato britânico que detém o recorde de velocidade em terra e quebrou a barreira do som em 1997.",
+        "variantes": [
+          "Thrust SSC",
+          "Thrust SuperSonic Car"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Carro de F1 nítido; o nome Senna na carenagem é minúsculo e não entrega a equipe pedida. Pergunta pela equipe.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que equipe de Fórmula 1 usava este carro em 1984?",
+      "resposta": "Toleman",
+      "distratores": [
+        "Tyrrell",
+        "Brabham",
+        "Arrows"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Toleman TG184",
+        "descricao": "Carro de Fórmula 1 da equipe Toleman, usado em 1984.",
+        "variantes": [
+          "TG184"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Diagrama do circuito com legendas visíveis (MSG Sphere, Las Vegas Boulevard, Harmon Avenue) que entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem mostra carros de Porsche Cup em pista; nada identifica o autódromo de Miami de forma única, e a resposta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto. Pergunta de conexão com a marca do título de 1982.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Por qual marca este piloto alemão de rali foi campeão mundial em 1982?",
+      "resposta": "Opel",
+      "distratores": [
+        "Lancia",
+        "Audi",
+        "Porsche"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Walter Röhrl",
+        "descricao": "Piloto alemão de rali, bicampeão mundial em 1980 e 1982.",
+        "variantes": [
+          "Röhrl",
+          "Walter Rohrl"
+        ]
+      }
+    }
+  ]
+}

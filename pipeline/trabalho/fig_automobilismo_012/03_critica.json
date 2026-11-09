@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com 'duas corridas em 1987' e 'brasileiro' dá para responder Senna sem a figura. Pergunta reescrita para depender de reconhecer o carro; Senna foi o único brasileiro da Lotus em 1987.",
+      "reescrita": {
+        "pergunta": "Que piloto brasileiro dirigiu este carro de Fórmula 1 na temporada de 1987?",
+        "resposta": "Ayrton Senna",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; o estado só se responde reconhecendo o autódromo. Fato confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com pista de nacionalidade e modalidade que ajuda sem entregar. Dados confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dá para responder 'rali' só com o enunciado (tração integral nos anos oitenta); a figura virou enfeite. Nova pergunta exige reconhecer o carro.",
+      "reescrita": {
+        "pergunta": "Que montadora alemã fabricou este cupê esportivo de tração integral, produzido de 1980 a 1991?",
+        "resposta": "Audi",
+        "distratores": [
+          "BMW",
+          "Opel",
+          "Porsche"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Japonês' mais 2017 e 2020 permite responder só com o enunciado; além disso a resposta é a corrida, não o que a figura mostra. Pergunta passa a pedir o reconhecimento do piloto sem entregar a pista.",
+      "reescrita": {
+        "pergunta": "Quem é este piloto japonês, que disputou a Fórmula 1 e depois venceu corridas nos Estados Unidos?",
+        "resposta": "Takuma Sato",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Phil Hill foi campeão de 1961 com o 156; sem a figura haveria ambiguidade com outro campeão americano (Andretti), então a imagem é necessária. Distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreou pela Williams no GP da Itália de 2024, confirmado nos trechos. Distratores do mesmo tipo e nenhum correto para a estreia.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento do veículo; pista de nacionalidade e jato não entrega o nome. Dados confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O TG184 foi usado pela Toleman em 1984, confirmado. Distratores são equipes da época.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Com 'alemão', 'rali' e 'campeão mundial em 1982', o enunciado praticamente identifica Röhrl e a marca (Opel) sem a figura; não há conserto simples sem trocar a pergunta por outra que também vaze.",
+      "reescrita": null
+    }
+  ]
+}
