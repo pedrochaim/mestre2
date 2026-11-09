@@ -1,0 +1,220 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Copo de líquido vermelho escuro sem contexto; pode ser suco de uva, vinho, outro suco ou refrigerante. Resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Três pães inflados, típicos de pita, reconhecíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pão achatado, que incha ao assar e forma um bolso, é este?",
+      "resposta": "Pão sírio",
+      "distratores": [
+        "Pão naan",
+        "Focaccia",
+        "Ciabatta"
+      ],
+      "ancora": {
+        "nome": "Pão sírio",
+        "descricao": "Pão redondo de trigo fermentado, comum no Mediterrâneo e no Oriente Médio, que forma um bolso interno.",
+        "variantes": [
+          "Pita",
+          "Pão árabe",
+          "Pão sírio"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Copo de bebida esbranquiçada que pode ser horchata, leite de arroz, vitamina de banana ou outra; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tablete de chiclete com embalagem de papel metálico, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que guloseima é esta?",
+      "resposta": "Chiclete",
+      "distratores": [
+        "Bala toffee",
+        "Biscoito wafer",
+        "Barra de nougat"
+      ],
+      "ancora": {
+        "nome": "Chiclete",
+        "descricao": "Goma de mascar, substância macia feita para ser mascada sem ser engolida.",
+        "variantes": [
+          "Goma de mascar",
+          "Chicle",
+          "Chewing gum"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "S'more claro: biscoito, marshmallow derretido e chocolate. A marca Hershey's no chocolate não entrega a resposta.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que biscoito serve de base a este doce?",
+      "resposta": "Biscoito graham",
+      "distratores": [
+        "Cream cracker",
+        "Biscoito maisena",
+        "Biscoito champanhe"
+      ],
+      "ancora": {
+        "nome": "S'more",
+        "descricao": "Doce americano de marshmallow tostado e chocolate entre biscoitos graham.",
+        "variantes": [
+          "Smore",
+          "S'mores",
+          "Smores"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Líquido amarelo num pote de vidro com pão e hortelã; pode ser kvass, cerveja, limonada ou suco. Não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Cortes de carne bovina crua; a resposta (bife) é genérica e a imagem não identifica um prato ou corte único."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pain au chocolat com forma retangular e chocolate visível, distinguível de outros folhados.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que massa folhada francesa, recheada, é esta?",
+      "resposta": "Pain au chocolat",
+      "distratores": [
+        "Croissant simples",
+        "Pain aux raisins",
+        "Brioche"
+      ],
+      "ancora": {
+        "nome": "Pain au chocolat",
+        "descricao": "Viennoiserie francesa de massa folhada fermentada, retangular, com chocolate no centro.",
+        "variantes": [
+          "Chocolatine",
+          "Croissant de chocolate",
+          "Couque au chocolat"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Xícara de chá com leite, com especiarias (cardamomo, cravo, canela, gengibre) ao lado; reconhecível como masala chai.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que país vem esta bebida?",
+      "resposta": "Índia",
+      "distratores": [
+        "Turquia",
+        "Marrocos",
+        "Japão"
+      ],
+      "ancora": {
+        "nome": "Masala chai",
+        "descricao": "Bebida indiana de chá preto com leite, açúcar e especiarias aromáticas.",
+        "variantes": [
+          "Chai",
+          "Chá masala",
+          "Chai latte"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Várias baguetes alinhadas, com cortes característicos; imagem pequena mas legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pão é este?",
+      "resposta": "Baguete",
+      "distratores": [
+        "Ciabatta",
+        "Pão de forma",
+        "Grissini"
+      ],
+      "ancora": {
+        "nome": "Baguete",
+        "descricao": "Pão longo e fino de massa simples e casca crocante, típico da França.",
+        "variantes": [
+          "Baguette"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Xícara pequena de café com pires decorado, água e doce turco numa bandeja, serviço típico.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de café é este, servido com um copo de água?",
+      "resposta": "Café turco",
+      "distratores": [
+        "Espresso",
+        "Cappuccino",
+        "Café filtrado"
+      ],
+      "ancora": {
+        "nome": "Café turco",
+        "descricao": "Café feito na cezve com pó finíssimo, sem filtrar.",
+        "variantes": [
+          "Turkish coffee",
+          "Türk kahvesi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Maços de macarrão marrom de seção quadrada, típico do soba.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que macarrão japonês é este?",
+      "resposta": "Soba",
+      "distratores": [
+        "Udon",
+        "Ramen",
+        "Somen"
+      ],
+      "ancora": {
+        "nome": "Soba",
+        "descricao": "Macarrão japonês feito de farinha de trigo-sarraceno.",
+        "variantes": [
+          "Macarrão de trigo-sarraceno",
+          "Sobá"
+        ]
+      }
+    }
+  ]
+}

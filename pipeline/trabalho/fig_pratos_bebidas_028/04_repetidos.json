@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que pão redondo, comum no Oriente Médio, é este?",
+        "resposta": "Pão sírio (pita)"
+      },
+      "existentes": [
+        {
+          "id": "q18803",
+          "pergunta": "Que pão, comum no Oriente Médio, é este?",
+          "resposta": "Pão sírio"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que guloseima é esta?",
+        "resposta": "Chiclete"
+      },
+      "existentes": [
+        {
+          "id": "q00892",
+          "pergunta": "Que general mexicano, que comandou o ataque ao Álamo, apresentou ao americano Thomas Adams o chicle que deu origem ao chiclete moderno?",
+          "resposta": "Antonio López de Santa Anna"
+        },
+        {
+          "id": "q18564",
+          "pergunta": "O chicle, base dos primeiros chicletes industriais, é a seiva de qual árvore, que também dá uma fruta doce?",
+          "resposta": "Sapotizeiro (sapoti)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o mesmo pão (pão sírio) a partir da imagem.",
+      "id_existente": "q18803"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o chiclete é um fato diferente de quem apresentou o chicle ou de qual árvore vem a seiva."
+    }
+  ]
+}

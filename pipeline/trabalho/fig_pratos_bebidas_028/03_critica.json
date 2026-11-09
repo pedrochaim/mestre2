@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'achatado, incha e forma um bolso' descreve a função do pão e entrega a resposta sem olhar a figura. Troquei por região, que ajuda sem entregar. O trecho sustenta o Oriente Médio.",
+      "reescrita": {
+        "pergunta": "Que pão redondo, comum no Oriente Médio, é este?",
+        "resposta": "Pão sírio (pita)",
+        "distratores": [
+          "Pão naan",
+          "Focaccia",
+          "Ciabatta"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, direto, sem pista nem vazamento. Os distratores são doces de outro tipo e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o doce, e a resposta (biscoito graham) vem dos trechos. Os distratores são biscoitos críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam massa folhada de viennoiserie, francesa, com recheio de chocolate. O enunciado não vaza. Os distratores são plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a origem na Índia. O enunciado não nomeia a bebida, e os distratores são países de outra tradição de chá, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. Os distratores são pães ou palitos de outro tipo e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Servido com um copo de água' não está nos trechos e não é exclusivo do café turco (o espresso também vem com água), além de depender de o copo aparecer na foto. Troquei por uma pista regional que ajuda sem entregar, sustentada pelos trechos.",
+      "reescrita": {
+        "pergunta": "Que café tradicional do Oriente Médio e dos Bálcãs é este?",
+        "resposta": "Café turco",
+        "distratores": [
+          "Espresso",
+          "Cappuccino",
+          "Café filtrado"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1. O enunciado só aponta 'macarrão japonês', o que não entrega a resposta, e os distratores são macarrões japoneses plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

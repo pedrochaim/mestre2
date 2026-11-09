@@ -1,0 +1,514 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pão sírio",
+        "descricao": "Pão redondo de trigo fermentado, comum no Mediterrâneo e no Oriente Médio, que forma um bolso interno.",
+        "variantes": [
+          "Pita",
+          "Pão árabe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_sirio",
+          "nome": "Pão sírio",
+          "descricao": "Pão redondo de trigo fermentado, muitas vezes com bolsa interna, comum no Mediterrâneo e no Oriente Médio.",
+          "variantes": [
+            "Pita",
+            "Pão árabe"
+          ]
+        },
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà",
+            "Pietà"
+          ]
+        },
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle",
+            "Delfos",
+            "Oráculo de Delphi"
+          ]
+        },
+        {
+          "id": "ptah",
+          "nome": "Ptah",
+          "descricao": "Deus criador egípcio cultuado em Mênfis, patrono dos artesãos e construtores",
+          "variantes": [
+            "Ptá"
+          ]
+        },
+        {
+          "id": "pinata",
+          "nome": "Piñata",
+          "descricao": "Recipiente enfeitado e cheio de doces que as crianças quebram de olhos vendados em festas mexicanas e latino-americanas.",
+          "variantes": [
+            "Pinhata",
+            "Pignatta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Chiclete",
+        "descricao": "Goma de mascar, substância macia feita para ser mascada sem ser engolida.",
+        "variantes": [
+          "Goma de mascar",
+          "Chicle",
+          "Chewing gum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum",
+            "Chicle"
+          ]
+        },
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        },
+        {
+          "id": "selecao_chilena_de_futebol",
+          "nome": "Seleção Chilena de Futebol",
+          "descricao": "Seleção masculina de futebol do Chile, apelidada La Roja.",
+          "variantes": [
+            "Chile",
+            "La Roja"
+          ]
+        },
+        {
+          "id": "brasao_do_chile",
+          "nome": "Brasão do Chile",
+          "descricao": "Brasão de armas do Chile, com condor e huemul coroados ao lado de um escudo azul e vermelho com estrela.",
+          "variantes": [
+            "Chile",
+            "Brasão de armas do Chile"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "S'more",
+        "descricao": "Doce americano de marshmallow tostado e chocolate entre biscoitos graham.",
+        "variantes": [
+          "Smore",
+          "S'mores",
+          "Smores"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morchella",
+          "nome": "Morchella",
+          "descricao": "Gênero de fungos comestíveis de chapéu alveolado, as morquelas.",
+          "variantes": [
+            "Morquela",
+            "Morel",
+            "Morchella esculenta"
+          ]
+        },
+        {
+          "id": "snore",
+          "nome": "Snore",
+          "descricao": "Golpe de pokémon do tipo Normal, da 2ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "codigo_morse",
+          "nome": "Código Morse",
+          "descricao": "Sistema que codifica letras e números em sequências de pontos e traços, usado na telegrafia.",
+          "variantes": [
+            "Morse",
+            "Alfabeto Morse"
+          ]
+        },
+        {
+          "id": "moltres",
+          "nome": "Moltres",
+          "descricao": "Pokémon lendário ave de fogo da primeira geração, número 146 da Pokédex Nacional.",
+          "variantes": [
+            "Fire",
+            "Moltres de Galar"
+          ]
+        },
+        {
+          "id": "bandeira_das_comores",
+          "nome": "Bandeira das Comores",
+          "descricao": "Bandeira nacional da União das Comores, com quatro faixas horizontais, triângulo verde, crescente e quatro estrelas.",
+          "variantes": [
+            "Comores",
+            "Bandeira de Comores"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pain au chocolat",
+        "descricao": "Viennoiserie francesa de massa folhada fermentada, retangular, com chocolate no centro.",
+        "variantes": [
+          "Chocolatine",
+          "Croissant de chocolate",
+          "Couque au chocolat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chocolate",
+          "nome": "Chocolate",
+          "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica.",
+          "variantes": [
+            "Xocolatl"
+          ]
+        },
+        {
+          "id": "colinas_de_chocolate",
+          "nome": "Colinas de Chocolate",
+          "descricao": "Formação de mais de mil colinas cônicas cobertas de grama na província de Bohol, nas Filipinas.",
+          "variantes": [
+            "Chocolate Hills"
+          ]
+        },
+        {
+          "id": "mousse",
+          "nome": "Mousse",
+          "descricao": "Preparo macio e aerado, doce ou salgado; aqui, de chocolate.",
+          "variantes": [
+            "Mousse de chocolate"
+          ]
+        },
+        {
+          "id": "profiterole",
+          "nome": "Profiterole",
+          "descricao": "Bolinha de massa choux recheada com creme ou sorvete, coberta com calda, de origem francesa.",
+          "variantes": [
+            "Profiteroles",
+            "Chou à la crème",
+            "Bomba de chocolate"
+          ]
+        },
+        {
+          "id": "chocolate_quente",
+          "nome": "Chocolate quente",
+          "descricao": "Bebida quente feita de chocolate ou cacau com leite ou água, muitas vezes coberta com chantilly.",
+          "variantes": [
+            "Chocolate quente com chantilly",
+            "Cacau quente"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Masala chai",
+        "descricao": "Bebida indiana de chá preto com leite, açúcar e especiarias aromáticas.",
+        "variantes": [
+          "Chai",
+          "Chá masala",
+          "Chai latte"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cha_palavra",
+          "nome": "Chá (palavra)",
+          "descricao": "Palavra portuguesa para a infusão de folhas de Camellia sinensis, de origem chinesa",
+          "variantes": [
+            "Chá"
+          ]
+        },
+        {
+          "id": "cha",
+          "nome": "Chá",
+          "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+          "variantes": [
+            "Chá preto",
+            "Chá verde"
+          ]
+        },
+        {
+          "id": "gabinete_de_computador",
+          "nome": "Gabinete de computador",
+          "descricao": "Caixa metálica que abriga os componentes internos de um computador pessoal.",
+          "variantes": [
+            "Case",
+            "Caixa do computador",
+            "Chassi"
+          ]
+        },
+        {
+          "id": "chaac",
+          "nome": "Chaac",
+          "descricao": "Deus maia da chuva e dos raios, ligado à agricultura.",
+          "variantes": [
+            "Chac",
+            "Chaak"
+          ]
+        },
+        {
+          "id": "acai_na_tigela",
+          "nome": "Açaí na tigela",
+          "descricao": "Lanche brasileiro de polpa de açaí congelada e batida, servida em tigela com granola e banana.",
+          "variantes": [
+            "Açaí",
+            "Açaí bowl"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Baguete",
+        "descricao": "Pão longo e fino de massa simples e casca crocante, típico da França.",
+        "variantes": [
+          "Baguette"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "banette",
+          "nome": "Banette",
+          "descricao": "Pokémon do tipo Fantasma, número 354 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "baquelite",
+          "nome": "Baquelite",
+          "descricao": "Um dos primeiros plásticos totalmente sintéticos, criado em 1907 pelo químico belga-americano Leo Baekeland.",
+          "variantes": [
+            "Bakelite"
+          ]
+        },
+        {
+          "id": "espaguete",
+          "nome": "Espaguete",
+          "descricao": "Massa italiana longa, fina e cilíndrica, feita de trigo.",
+          "variantes": [
+            "Spaghetti"
+          ]
+        },
+        {
+          "id": "saturn_v",
+          "nome": "Saturn V",
+          "descricao": "Foguete lunar de três estágios da NASA, usado no programa Apollo.",
+          "variantes": [
+            "Foguete",
+            "Saturno V",
+            "Saturn 5"
+          ]
+        },
+        {
+          "id": "bauxita",
+          "nome": "Bauxita",
+          "descricao": "Rocha sedimentar rica em óxidos de alumínio, principal minério desse metal.",
+          "variantes": [
+            "Bauxite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Café turco",
+        "descricao": "Café feito na cezve com pó finíssimo, sem filtrar.",
+        "variantes": [
+          "Turkish coffee",
+          "Türk kahvesi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_cafe_noturno",
+          "nome": "O Café Noturno",
+          "descricao": "Pintura a óleo de Vincent van Gogh, de setembro de 1888, com o interior do Café de la Gare, em Arles.",
+          "variantes": [
+            "O Café à Noite",
+            "The Night Café",
+            "Le Café de nuit"
+          ]
+        },
+        {
+          "id": "alfabeto_turco",
+          "nome": "Alfabeto turco",
+          "descricao": "Alfabeto latino adotado pela Turquia em 1928, nas reformas de Atatürk, no lugar da escrita árabe.",
+          "variantes": [
+            "Turkish alphabet",
+            "Reforma do alfabeto turco"
+          ]
+        },
+        {
+          "id": "cafeeiro",
+          "nome": "Cafeeiro",
+          "descricao": "Planta do gênero Coffea, cujas sementes torradas dão o café",
+          "variantes": [
+            "Coffea",
+            "pé de café",
+            "Coffea arabica",
+            "Café"
+          ]
+        },
+        {
+          "id": "ra_touro",
+          "nome": "Rã-touro",
+          "descricao": "Grande rã norte-americana Lithobates catesbeianus, da família Ranidae.",
+          "variantes": [
+            "Rã-touro-americana",
+            "Lithobates catesbeianus"
+          ]
+        },
+        {
+          "id": "cartucho",
+          "nome": "Cartucho",
+          "descricao": "Contorno oval que envolve os nomes reais nos hieróglifos egípcios",
+          "variantes": [
+            "Cartouche",
+            "Shenu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Soba",
+        "descricao": "Macarrão japonês feito de farinha de trigo-sarraceno.",
+        "variantes": [
+          "Macarrão de trigo-sarraceno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flint",
+          "nome": "Flint",
+          "descricao": "Membro da Elite dos Quatro de Sinnoh especialista em pokémon de fogo, nos jogos Pokémon Diamond, Pearl e Platinum.",
+          "variantes": [
+            "Ōba"
+          ]
+        },
+        {
+          "id": "soroba",
+          "nome": "Sorobã",
+          "descricao": "Ábaco japonês com uma conta acima e quatro abaixo em cada haste, derivado do suanpan chinês.",
+          "variantes": [
+            "Soroban",
+            "Ábaco japonês"
+          ]
+        },
+        {
+          "id": "choco",
+          "nome": "Choco",
+          "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+          "variantes": [
+            "Siba",
+            "Sépia",
+            "Cuttlefish"
+          ]
+        },
+        {
+          "id": "agua_com_gas",
+          "nome": "Água com gás",
+          "descricao": "Água em que se dissolveu gás carbônico sob pressão, base dos refrigerantes.",
+          "variantes": [
+            "Água gaseificada",
+            "Soda",
+            "Carbonated water",
+            "Água carbonatada"
+          ]
+        },
+        {
+          "id": "shabat",
+          "nome": "Shabat",
+          "descricao": "Dia semanal de descanso do judaísmo",
+          "variantes": [
+            "Shabbat",
+            "Sabá",
+            "Sabbath",
+            "Sábado judaico"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "pao_sirio",
+      "motivo": "Mesma entidade: pão sírio/pita, descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "chiclete",
+      "motivo": "Mesma entidade: goma de mascar."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o doce s'more."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pain au chocolat é uma viennoiserie, diferente das candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Masala chai é bebida específica, diferente do chá em geral."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a baguete."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Café turco não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o macarrão soba."
+    }
+  ]
+}
