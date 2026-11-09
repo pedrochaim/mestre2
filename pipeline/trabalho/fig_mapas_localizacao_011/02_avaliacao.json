@@ -1,0 +1,267 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro, Taiwan em vermelho, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Taipé",
+      "distratores": [
+        "Manila",
+        "Hanói",
+        "Hong Kong"
+      ],
+      "ancora": {
+        "nome": "Taiwan",
+        "descricao": "País insular do Leste Asiático, oficialmente República da China, com capital em Taipé.",
+        "variantes": [
+          "Formosa",
+          "República da China"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "País destacado em verde, bem visível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país africano está destacado neste mapa?",
+      "resposta": "República Centro-Africana",
+      "distratores": [
+        "Chade",
+        "Camarões",
+        "Sudão do Sul"
+      ],
+      "ancora": {
+        "nome": "República Centro-Africana",
+        "descricao": "País sem litoral da África Central, com capital em Bangui.",
+        "variantes": [
+          "Centro-Africana",
+          "CAR"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Kosovo em verde, pequeno mas visível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Pristina",
+      "distratores": [
+        "Skopje",
+        "Tirana",
+        "Podgorica"
+      ],
+      "ancora": {
+        "nome": "Kosovo",
+        "descricao": "País dos Bálcãs, sem litoral, com reconhecimento diplomático parcial e capital em Pristina.",
+        "variantes": [
+          "República do Kosovo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Malásia em verde, formato em duas partes reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Malásia",
+      "distratores": [
+        "Indonésia",
+        "Tailândia",
+        "Filipinas"
+      ],
+      "ancora": {
+        "nome": "Malásia",
+        "descricao": "País do Sudeste Asiático dividido entre a Península Malaia e a ilha de Bornéu, com capital em Kuala Lumpur.",
+        "variantes": [
+          "Malaysia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Benim destacado, com recorte ampliado, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país africano está destacado neste mapa?",
+      "resposta": "Benim",
+      "distratores": [
+        "Togo",
+        "Gana",
+        "Nigéria"
+      ],
+      "ancora": {
+        "nome": "Benim",
+        "descricao": "País da África Ocidental, antigo Daomé, com capital em Porto Novo.",
+        "variantes": [
+          "Benin",
+          "Daomé"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arquipélago circulado em vermelho, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Ilhas Salomão",
+      "distratores": [
+        "Vanuatu",
+        "Fiji",
+        "Kiribati"
+      ],
+      "ancora": {
+        "nome": "Ilhas Salomão",
+        "descricao": "País insular da Melanésia, a nordeste da Austrália, com capital em Honiara.",
+        "variantes": [
+          "Solomon Islands"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Mali em verde, forma característica, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país africano está destacado neste mapa?",
+      "resposta": "Mali",
+      "distratores": [
+        "Mauritânia",
+        "Níger",
+        "Argélia"
+      ],
+      "ancora": {
+        "nome": "Mali",
+        "descricao": "País sem litoral da África Ocidental, com capital em Bamako.",
+        "variantes": [
+          "República do Mali"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Uganda destacada, com o lago visível ao sul, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que grande lago africano banha o sul do país destacado neste mapa?",
+      "resposta": "Lago Vitória",
+      "distratores": [
+        "Lago Tanganica",
+        "Lago Niassa",
+        "Lago Chade"
+      ],
+      "ancora": {
+        "nome": "Uganda",
+        "descricao": "País sem litoral da África Oriental, com capital em Kampala.",
+        "variantes": [
+          "República de Uganda"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Burundi é minúsculo no mapa e quase indistinguível de Ruanda num celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bielorrússia em verde, nítida no mapa da Europa, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país europeu está destacado neste mapa?",
+      "resposta": "Bielorrússia",
+      "distratores": [
+        "Ucrânia",
+        "Lituânia",
+        "Polônia"
+      ],
+      "ancora": {
+        "nome": "Bielorrússia",
+        "descricao": "País sem litoral do Leste Europeu, com capital em Minsk.",
+        "variantes": [
+          "Belarus",
+          "Belarus (Bielorrússia)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Guiné em verde, claro e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Guiné",
+      "distratores": [
+        "Guiné-Bissau",
+        "Serra Leoa",
+        "Libéria"
+      ],
+      "ancora": {
+        "nome": "Guiné",
+        "descricao": "País costeiro da África Ocidental, com capital em Conacri.",
+        "variantes": [
+          "Guiné-Conacri",
+          "Guinea"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "País destacado com recorte ampliado mostrando continente e ilha, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país africano está destacado neste mapa?",
+      "resposta": "Guiné Equatorial",
+      "distratores": [
+        "Gabão",
+        "Camarões",
+        "São Tomé e Príncipe"
+      ],
+      "ancora": {
+        "nome": "Guiné Equatorial",
+        "descricao": "País da costa oeste da África Central, único de língua espanhola da África, formado por Rio Muni e ilhas como Bioko.",
+        "variantes": [
+          "Equatorial Guinea"
+        ]
+      }
+    }
+  ]
+}

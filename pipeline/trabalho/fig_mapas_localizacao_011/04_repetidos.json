@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Taipé"
+      },
+      "existentes": [
+        {
+          "id": "q05849",
+          "pergunta": "No século dezesseis, encantados com sua paisagem, navegadores portugueses deram qual nome à ilha de Taiwan?",
+          "resposta": "Ilha Formosa"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Pristina"
+      },
+      "existentes": [
+        {
+          "id": "q14795",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Kosovo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que país africano está destacado neste mapa?",
+        "resposta": "Benim"
+      },
+      "existentes": [
+        {
+          "id": "q08113",
+          "pergunta": "Que país da África Ocidental se chamava Daomé, nome herdado de um antigo reino, até mudar de nome em 1975?",
+          "resposta": "Benim"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Guiné"
+      },
+      "existentes": [
+        {
+          "id": "q14793",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Guiné (Guiné-Conacri)"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que país africano está destacado neste mapa?",
+        "resposta": "Guiné Equatorial"
+      },
+      "existentes": [
+        {
+          "id": "q00797",
+          "pergunta": "Que país africano, antiga colônia espanhola, adotou o português como uma de suas línguas oficiais no início da década de 2010?",
+          "resposta": "Guiné Equatorial"
+        },
+        {
+          "id": "q08128",
+          "pergunta": "Qual destes países africanos tem o espanhol como língua oficial, herança de sua colonização?",
+          "resposta": "Guiné Equatorial"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Capital de Taiwan é um fato diferente do antigo nome da ilha."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Capital de Kosovo é diferente de reconhecer a bandeira."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa é diferente de saber o antigo nome Daomé."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Reconhecer o país no mapa é diferente de reconhecer a bandeira."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa não é o mesmo fato que língua oficial ou colonização."
+    }
+  ]
+}

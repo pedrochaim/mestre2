@@ -1,0 +1,702 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Taiwan",
+        "descricao": "País insular do Leste Asiático, oficialmente República da China, com capital em Taipé.",
+        "variantes": [
+          "Formosa",
+          "República da China"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taiwan",
+          "nome": "Taiwan",
+          "descricao": "Ilha do leste da Ásia, separada da China continental pelo estreito de Taiwan.",
+          "variantes": [
+            "Formosa",
+            "Ilha Formosa"
+          ]
+        },
+        {
+          "id": "bandeira_de_taiwan",
+          "nome": "Bandeira de Taiwan",
+          "descricao": "Bandeira da República da China (Taiwan), vermelha com cantão azul e sol branco de doze raios.",
+          "variantes": [
+            "Taiwan",
+            "Bandeira da República da China"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "irlanda",
+          "nome": "Irlanda",
+          "descricao": "País da Europa Ocidental que ocupa a maior parte da ilha da Irlanda, com capital em Dublin, cuja bandeira é um tricolor vertical verde, branco e laranja.",
+          "variantes": [
+            "Ireland",
+            "República da Irlanda",
+            "Eire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "República Centro-Africana",
+        "descricao": "País sem litoral da África Central, com capital em Bangui.",
+        "variantes": [
+          "Centro-Africana",
+          "CAR"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_republica_centro_africana",
+          "nome": "Bandeira da República Centro-Africana",
+          "descricao": "Bandeira nacional da República Centro-Africana, com quatro faixas horizontais, faixa vermelha vertical e estrela amarela.",
+          "variantes": [
+            "República Centro-Africana",
+            "Bandeira da Centro-Africana"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "czar",
+          "nome": "Czar",
+          "descricao": "Título dos monarcas da Rússia e de outros Estados eslavos.",
+          "variantes": [
+            "Tsar",
+            "Tzar"
+          ]
+        },
+        {
+          "id": "scar",
+          "nome": "Scar",
+          "descricao": "Leão vilão, irmão de Mufasa, no filme O Rei Leão, da Disney (1994).",
+          "variantes": [
+            "Scar, o leão"
+          ]
+        },
+        {
+          "id": "republica_do_transvaal",
+          "nome": "República do Transvaal",
+          "descricao": "República bôer independente do sul da África, de 1852 a 1902, anexada pelo Império Britânico após a Segunda Guerra dos Bôeres.",
+          "variantes": [
+            "República Sul-Africana",
+            "Zuid-Afrikaansche Republiek",
+            "Transvaal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Kosovo",
+        "descricao": "País dos Bálcãs, sem litoral, com reconhecimento diplomático parcial e capital em Pristina.",
+        "variantes": [
+          "República do Kosovo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kosovo",
+          "nome": "Kosovo",
+          "descricao": "País dos Bálcãs, de reconhecimento diplomático parcial, com capital em Pristina.",
+          "variantes": [
+            "República do Kosovo",
+            "Kosova"
+          ]
+        },
+        {
+          "id": "bandeira_da_republica_do_congo",
+          "nome": "Bandeira da República do Congo",
+          "descricao": "Bandeira nacional da República do Congo, com faixa diagonal amarela entre verde e vermelho.",
+          "variantes": [
+            "República do Congo",
+            "Bandeira do Congo-Brazzaville"
+          ]
+        },
+        {
+          "id": "moscou",
+          "nome": "Moscou",
+          "descricao": "Capital da Rússia, com o Kremlin e a Praça Vermelha.",
+          "variantes": [
+            "Moscow",
+            "Moscovo"
+          ]
+        },
+        {
+          "id": "sudao",
+          "nome": "Sudão",
+          "descricao": "País do nordeste da África, com capital em Cartum, que faz fronteira com o Egito e o Mar Vermelho.",
+          "variantes": [
+            "Sudan",
+            "República do Sudão"
+          ]
+        },
+        {
+          "id": "botsuana",
+          "nome": "Botsuana",
+          "descricao": "País sem litoral do sul da África, de capital Gaborone, em grande parte coberto pelo deserto do Kalahari.",
+          "variantes": [
+            "Botswana",
+            "República do Botsuana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Malásia",
+        "descricao": "País do Sudeste Asiático dividido entre a Península Malaia e a ilha de Bornéu, com capital em Kuala Lumpur.",
+        "variantes": [
+          "Malaysia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        },
+        {
+          "id": "himalaia",
+          "nome": "Himalaia",
+          "descricao": "Cordilheira da Ásia que separa o subcontinente indiano do planalto do Tibete e reúne as montanhas mais altas do mundo.",
+          "variantes": [
+            "Himalaias",
+            "Himalayas",
+            "Himalaya",
+            "Cordilheira do Himalaia"
+          ]
+        },
+        {
+          "id": "malaca",
+          "nome": "Malaca",
+          "descricao": "Cidade portuária no estreito de Malaca, conquistada pelos portugueses de Afonso de Albuquerque em 1511.",
+          "variantes": [
+            "Malacca",
+            "Melaka"
+          ]
+        },
+        {
+          "id": "alfaia",
+          "nome": "Alfaia",
+          "descricao": "Tambor membranofone tocado com baquetas, típico do maracatu e usado também no coco e na ciranda, popular em Pernambuco.",
+          "variantes": [
+            "Bumbo de maracatu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Benim",
+        "descricao": "País da África Ocidental, antigo Daomé, com capital em Porto Novo.",
+        "variantes": [
+          "Benin",
+          "Daomé"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "benim",
+          "nome": "Benim",
+          "descricao": "País da África Ocidental, antiga colônia francesa, chamado Daomé até 1975.",
+          "variantes": [
+            "Benin",
+            "República do Benim"
+          ]
+        },
+        {
+          "id": "bandeira_do_benin",
+          "nome": "Bandeira do Benin",
+          "descricao": "Bandeira nacional do Benin, com faixa vertical verde à esquerda e faixas amarela e vermelha à direita.",
+          "variantes": [
+            "Benin",
+            "Bandeira do Benim"
+          ]
+        },
+        {
+          "id": "damian_lillard",
+          "nome": "Damian Lillard",
+          "descricao": "Armador americano de basquete, estrela do Portland Trail Blazers, conhecido como Dame Time.",
+          "variantes": [
+            "Dame",
+            "Dame Time"
+          ]
+        },
+        {
+          "id": "lenin",
+          "nome": "Lênin",
+          "descricao": "Vladimir Ilitch Ulianov, revolucionário russo e primeiro chefe de governo da Rússia soviética e da União Soviética.",
+          "variantes": [
+            "Vladimir Lenin",
+            "Vladimir Ilitch Ulianov",
+            "Vladimir Ilyich Ulyanov"
+          ]
+        },
+        {
+          "id": "denim",
+          "nome": "Denim",
+          "descricao": "Tecido de algodão resistente em sarja, geralmente azul, usado na confecção de jeans",
+          "variantes": [
+            "Brim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ilhas Salomão",
+        "descricao": "País insular da Melanésia, a nordeste da Austrália, com capital em Honiara.",
+        "variantes": [
+          "Solomon Islands"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilhas_seafoam",
+          "nome": "Ilhas Seafoam",
+          "descricao": "Arquipélago de cavernas geladas ao sul de Kanto, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Seafoam Islands"
+          ]
+        },
+        {
+          "id": "palm_jumeirah",
+          "nome": "Palm Jumeirah",
+          "descricao": "Arquipélago artificial em forma de palmeira na costa de Dubai, nos Emirados Árabes Unidos.",
+          "variantes": [
+            "Palmeira Jumeirah",
+            "Palm Islands",
+            "Ilhas Palmeira"
+          ]
+        },
+        {
+          "id": "dinastia_salomonica",
+          "nome": "Dinastia salomônica",
+          "descricao": "Casa imperial da Etiópia, que reinou de 1270 a 1974 e se dizia descendente do rei Salomão.",
+          "variantes": [
+            "Solomonic dynasty",
+            "Casa de Salomão"
+          ]
+        },
+        {
+          "id": "akala",
+          "nome": "Akala",
+          "descricao": "Segunda ilha da região de Alola, nos jogos Pokémon Sun e Moon, comandada pela kahuna Olivia.",
+          "variantes": [
+            "Ilha Akala",
+            "Akala Island"
+          ]
+        },
+        {
+          "id": "lindisfarne",
+          "nome": "Lindisfarne",
+          "descricao": "Ilha de maré no nordeste da Inglaterra, sede de um mosteiro saqueado pelos vikings em 793.",
+          "variantes": [
+            "Ilha Sagrada",
+            "Holy Island"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mali",
+        "descricao": "País sem litoral da África Ocidental, com capital em Bamako.",
+        "variantes": [
+          "República do Mali"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_mali",
+          "nome": "Bandeira do Mali",
+          "descricao": "Bandeira atual do Mali: tricolor vertical verde, amarelo e vermelho, sem emblemas.",
+          "variantes": [
+            "Mali",
+            "Bandeira da República do Mali"
+          ]
+        },
+        {
+          "id": "malawi",
+          "nome": "Malawi",
+          "descricao": "País sem litoral do sudeste da África, junto a um grande lago, cuja capital é Lilongwe.",
+          "variantes": [
+            "Maláui",
+            "República do Malawi"
+          ]
+        },
+        {
+          "id": "haiti",
+          "nome": "Haiti",
+          "descricao": "País caribenho na porção oeste da ilha de Hispaniola, com capital em Porto Príncipe.",
+          "variantes": [
+            "República do Haiti"
+          ]
+        },
+        {
+          "id": "zaire",
+          "nome": "Zaire",
+          "descricao": "Nome oficial da atual República Democrática do Congo de 1971 a 1997, sob o regime de Mobutu.",
+          "variantes": [
+            "República do Zaire"
+          ]
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Uganda",
+        "descricao": "País sem litoral da África Oriental, com capital em Kampala.",
+        "variantes": [
+          "República de Uganda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "brasao_de_uganda",
+          "nome": "Brasão de Uganda",
+          "descricao": "Brasão de armas de Uganda, com cobo-de-orelha e grou-coroado ladeando um escudo com sol e tambor.",
+          "variantes": [
+            "Uganda",
+            "Brasão de armas de Uganda"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "luanda",
+          "nome": "Luanda",
+          "descricao": "Capital de Angola, fundada pelos portugueses em 1576 e ocupada pelos holandeses de 1641 a 1648.",
+          "variantes": [
+            "São Paulo da Assunção de Loanda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bielorrússia",
+        "descricao": "País sem litoral do Leste Europeu, com capital em Minsk.",
+        "variantes": [
+          "Belarus",
+          "Belarus (Bielorrússia)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_bielorrussia",
+          "nome": "Bandeira da Bielorrússia",
+          "descricao": "Bandeira da Bielorrússia, vermelha e verde com ornamento bordado vermelho e branco junto à haste.",
+          "variantes": [
+            "Bielorrússia",
+            "Bandeira de Belarus"
+          ]
+        },
+        {
+          "id": "borussia_dortmund",
+          "nome": "Borussia Dortmund",
+          "descricao": "Clube de futebol de Dortmund, na Alemanha, fundado em 1909, de camisa amarela e short preto.",
+          "variantes": [
+            "Dortmund",
+            "BVB",
+            "Borussia"
+          ]
+        },
+        {
+          "id": "monte_elbrus",
+          "nome": "Monte Elbrus",
+          "descricao": "Vulcão adormecido de dois cumes na cordilheira do Cáucaso, no sul da Rússia.",
+          "variantes": [
+            "Elbrus",
+            "Elbrús"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "ebola",
+          "nome": "Ebola",
+          "descricao": "Vírus que causa febre hemorrágica grave, identificado em 1976 e batizado com o nome de um rio africano.",
+          "variantes": [
+            "Vírus ebola",
+            "Ebolavírus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Guiné",
+        "descricao": "País costeiro da África Ocidental, com capital em Conacri.",
+        "variantes": [
+          "Guiné-Conacri",
+          "Guinea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galinha_d_angola",
+          "nome": "Galinha-d'angola",
+          "descricao": "Ave galiforme africana domesticada (Numida meleagris), de plumagem cinza pintalgada de branco.",
+          "variantes": [
+            "Numida meleagris",
+            "Angolinha",
+            "Guiné",
+            "Capote",
+            "Tô-fraco"
+          ]
+        },
+        {
+          "id": "guine",
+          "nome": "Guiné",
+          "descricao": "País da África Ocidental cuja capital é Conacri, antiga Guiné Francesa.",
+          "variantes": [
+            "Guiné-Conacri",
+            "República da Guiné"
+          ]
+        },
+        {
+          "id": "guiana",
+          "nome": "Guiana",
+          "descricao": "País do norte da América do Sul, de língua oficial inglesa, cuja capital é Georgetown.",
+          "variantes": [
+            "Guyana",
+            "República Cooperativa da Guiana"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía",
+            "Negro River"
+          ]
+        },
+        {
+          "id": "guinness",
+          "nome": "Guinness",
+          "descricao": "Cerveja escura irlandesa produzida desde o século dezoito na cervejaria de St. James's Gate, em Dublin.",
+          "variantes": [
+            "Guinness Stout"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Guiné Equatorial",
+        "descricao": "País da costa oeste da África Central, único de língua espanhola da África, formado por Rio Muni e ilhas como Bioko.",
+        "variantes": [
+          "Equatorial Guinea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guine_equatorial",
+          "nome": "Guiné Equatorial",
+          "descricao": "País da África Central, antiga colônia espanhola, membro da Comunidade dos Países de Língua Portuguesa",
+          "variantes": [
+            "Guinea Ecuatorial",
+            "Equatorial Guinea"
+          ]
+        },
+        {
+          "id": "sequoia_gigante",
+          "nome": "Sequoia-gigante",
+          "descricao": "Sequoiadendron giganteum, conífera da Serra Nevada, na Califórnia, a maior árvore do mundo em volume.",
+          "variantes": [
+            "Sequoiadendron giganteum",
+            "Sequoia-da-sierra",
+            "Wellingtonia"
+          ]
+        },
+        {
+          "id": "quadrilha_junina",
+          "nome": "Quadrilha junina",
+          "descricao": "Dança coletiva típica das festas juninas, derivada de uma dança de salão europeia.",
+          "variantes": [
+            "Quadrilha",
+            "Quadrilha caipira"
+          ]
+        },
+        {
+          "id": "linha_do_equador",
+          "nome": "Linha do Equador",
+          "descricao": "Paralelo de latitude zero, que divide a Terra nos hemisférios Norte e Sul e atravessa o norte do Brasil.",
+          "variantes": [
+            "Equador (linha)"
+          ]
+        },
+        {
+          "id": "cristal_de_rocha",
+          "nome": "Cristal de rocha",
+          "descricao": "Quartzo incolor e transparente, conhecido desde a Antiguidade.",
+          "variantes": [
+            "Quartzo hialino",
+            "Rock crystal"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "taiwan",
+      "motivo": "Mesmo território/país Taiwan (Formosa); a candidata descreve a ilha, mas é a mesma entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Só há a bandeira, que é entidade distinta do país."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "kosovo",
+      "motivo": "Mesmo país, capital Pristina, reconhecimento parcial."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Candidata é a bandeira; o país não está cadastrado."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "benim",
+      "motivo": "Mesmo país, antigo Daomé."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é as Ilhas Salomão."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Só existe a bandeira do Mali; o país é distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Candidatas são bandeira e brasão, não o país."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Só a bandeira está cadastrada; o país é distinto."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "guine",
+      "motivo": "Mesmo país, Guiné com capital Conacri."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "guine_equatorial",
+      "motivo": "Mesmo país, Guiné Equatorial."
+    }
+  ]
+}
