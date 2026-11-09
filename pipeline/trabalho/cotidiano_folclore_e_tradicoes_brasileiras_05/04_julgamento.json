@@ -1,0 +1,437 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Forró",
+        "descricao": "Gênero musical e dança popular do Nordeste brasileiro, tocado tradicionalmente com sanfona, zabumba e triângulo.",
+        "variantes": [
+          "Forró pé de serra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó",
+            "Forró pé de serra"
+          ]
+        },
+        {
+          "id": "ferro",
+          "nome": "Ferro",
+          "descricao": "Elemento químico de símbolo Fe e número atômico 26, metal base do aço e principal componente do núcleo da Terra.",
+          "variantes": [
+            "Iron",
+            "Ferrum"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "roronoa_zoro",
+          "nome": "Roronoa Zoro",
+          "descricao": "Espadachim da tripulação de Luffy no mangá e anime One Piece.",
+          "variantes": [
+            "Zoro",
+            "Zolo"
+          ]
+        },
+        {
+          "id": "sporran",
+          "nome": "Sporran",
+          "descricao": "Bolsa tradicional escocesa de couro ou pele, usada pendurada na frente da cintura, que serve de bolso para o kilt.",
+          "variantes": [
+            "Sporrão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cuíca",
+        "descricao": "Tambor de fricção brasileiro, com uma haste presa no centro da pele, que produz o som de ronco característico do samba.",
+        "variantes": [
+          "Puíta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cuica",
+          "nome": "Cuíca",
+          "descricao": "Tambor de fricção usado no samba, com uma vareta presa ao centro do couro.",
+          "variantes": []
+        },
+        {
+          "id": "cuca",
+          "nome": "Cuca",
+          "descricao": "Bruxa do folclore brasileiro que pega crianças desobedientes, popularizada pelo Sítio do Picapau Amarelo.",
+          "variantes": [
+            "Coca"
+          ]
+        },
+        {
+          "id": "cica",
+          "nome": "Cica",
+          "descricao": "Cycas revoluta, gimnosperma ornamental originária do sul do Japão, de tronco fibroso e folhas pinadas.",
+          "variantes": [
+            "Cycas revoluta",
+            "Sagu-de-jardim",
+            "Palmeira-sagu"
+          ]
+        },
+        {
+          "id": "cabaca",
+          "nome": "Cabaça",
+          "descricao": "Fruto da trepadeira Lagenaria siceraria, cuja casca seca vira recipiente e instrumento musical.",
+          "variantes": [
+            "Porongo",
+            "Cuia",
+            "Lagenaria"
+          ]
+        },
+        {
+          "id": "pao_sirio",
+          "nome": "Pão sírio",
+          "descricao": "Pão redondo de trigo fermentado, muitas vezes com bolsa interna, comum no Mediterrâneo e no Oriente Médio.",
+          "variantes": [
+            "Pita",
+            "Pão árabe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Maria Bonita",
+        "descricao": "Maria Gomes de Oliveira, companheira de Lampião e a mais famosa mulher do cangaço, morta em 1938.",
+        "variantes": [
+          "Maria Gomes de Oliveira",
+          "Maria de Déa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maria_rita",
+          "nome": "Maria Rita",
+          "descricao": "Cantora brasileira de MPB e samba, filha de Elis Regina.",
+          "variantes": [
+            "Maria Rita Camargo Mariano"
+          ]
+        },
+        {
+          "id": "maria_antonieta",
+          "nome": "Maria Antonieta",
+          "descricao": "Rainha da França, esposa de Luís XVI, guilhotinada durante a Revolução Francesa.",
+          "variantes": [
+            "Marie Antoinette"
+          ]
+        },
+        {
+          "id": "maria_bethania",
+          "nome": "Maria Bethânia",
+          "descricao": "Cantora brasileira baiana, irmã de Caetano Veloso.",
+          "variantes": [
+            "Maria Bethânia Viana Teles Veloso"
+          ]
+        },
+        {
+          "id": "marionete",
+          "nome": "Marionete",
+          "descricao": "Boneco de teatro controlado por fios ou cordas a partir de cima.",
+          "variantes": [
+            "Marioneta",
+            "Boneco de fios"
+          ]
+        },
+        {
+          "id": "marisa_monte",
+          "nome": "Marisa Monte",
+          "descricao": "Cantora, compositora e produtora brasileira de MPB e samba, nascida em 1967.",
+          "variantes": [
+            "Marisa de Azevedo Monte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Panela de barro de Goiabeiras",
+        "descricao": "Panela de cerâmica escura modelada à mão pelas paneleiras do bairro de Goiabeiras, em Vitória, no Espírito Santo.",
+        "variantes": [
+          "Panela de barro capixaba",
+          "Paneleiras de Goiabeiras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_goias",
+          "nome": "Bandeira de Goiás",
+          "descricao": "Bandeira do estado brasileiro de Goiás, com faixas verdes e amarelas e canto azul com cinco estrelas.",
+          "variantes": [
+            "Goiás",
+            "Bandeira do estado de Goiás"
+          ]
+        },
+        {
+          "id": "bandeira_do_espirito_santo",
+          "nome": "Bandeira do Espírito Santo",
+          "descricao": "Bandeira do estado do Espírito Santo, com faixas azul, branca e rosa e um lema no centro.",
+          "variantes": [
+            "Bandeira capixaba"
+          ]
+        },
+        {
+          "id": "panela_de_cobre",
+          "nome": "Panela de cobre",
+          "descricao": "Panela feita de cobre, valorizada na alta cozinha por distribuir o calor de forma rápida e uniforme.",
+          "variantes": []
+        },
+        {
+          "id": "koinobori",
+          "nome": "Koinobori",
+          "descricao": "Bandeiras em forma de carpa hasteadas no Japão para o Dia das Crianças, em cinco de maio.",
+          "variantes": [
+            "Bandeiras de carpa"
+          ]
+        },
+        {
+          "id": "pincel_de_barbear",
+          "nome": "Pincel de barbear",
+          "descricao": "Pincel de cerdas macias usado para fazer espuma de sabão e aplicá-la no rosto ao se barbear.",
+          "variantes": [
+            "Blaireau",
+            "Pincel de barba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nossa Senhora Aparecida",
+        "descricao": "Imagem de Nossa Senhora da Conceição encontrada por pescadores no rio Paraíba do Sul, padroeira do Brasil venerada em Aparecida, São Paulo.",
+        "variantes": [
+          "Nossa Senhora da Conceição Aparecida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nossa_senhora_aparecida",
+          "nome": "Nossa Senhora Aparecida",
+          "descricao": "Imagem de Nossa Senhora da Conceição encontrada em 1717, padroeira do Brasil",
+          "variantes": [
+            "Nossa Senhora da Conceição Aparecida",
+            "Our Lady of Aparecida",
+            "Imagem de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "basilica_de_nossa_senhora_aparecida",
+          "nome": "Basílica de Nossa Senhora Aparecida",
+          "descricao": "Santuário nacional católico em Aparecida, São Paulo, dedicado à padroeira do Brasil.",
+          "variantes": [
+            "Basílica Nova de Aparecida",
+            "Santuário Nacional de Aparecida"
+          ]
+        },
+        {
+          "id": "maria_mae_de_jesus",
+          "nome": "Maria, mãe de Jesus",
+          "descricao": "Mãe de Jesus, venerada no cristianismo e no islã",
+          "variantes": [
+            "Virgem Maria",
+            "Nossa Senhora",
+            "Maryam"
+          ]
+        },
+        {
+          "id": "nossa_senhora_de_guadalupe",
+          "nome": "Nossa Senhora de Guadalupe",
+          "descricao": "Imagem venerada da Virgem Maria na tilma de Juan Diego, na Basílica de Guadalupe, na Cidade do México.",
+          "variantes": [
+            "Virgem de Guadalupe",
+            "Virgen de Guadalupe",
+            "La Virgen Morena"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Oxóssi",
+        "descricao": "Orixá da caça e das matas nas religiões afro-brasileiras, representado com arco e flecha.",
+        "variantes": [
+          "Oxossi",
+          "Ọṣọ́ọ̀sì"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oxossi",
+          "nome": "Oxóssi",
+          "descricao": "Orixá caçador, ligado às matas e à fartura, cultuado no candomblé e na umbanda",
+          "variantes": [
+            "Ochosi",
+            "Ọ̀ṣọ́ọ̀sì"
+          ]
+        },
+        {
+          "id": "solosis",
+          "nome": "Solosis",
+          "descricao": "Pokémon do tipo Psíquico, número 577 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "fossil",
+          "nome": "Fóssil",
+          "descricao": "Resto ou vestígio preservado de um ser vivo de épocas geológicas passadas.",
+          "variantes": [
+            "Fósseis"
+          ]
+        },
+        {
+          "id": "cerro_rico_de_potosi",
+          "nome": "Cerro Rico de Potosí",
+          "descricao": "Montanha rica em prata nos Andes, explorada pelos espanhóis a partir de 1545, que enriqueceu o Império Espanhol.",
+          "variantes": [
+            "Cerro Rico",
+            "Potosí"
+          ]
+        },
+        {
+          "id": "swoosh",
+          "nome": "Swoosh",
+          "descricao": "Logotipo em forma de traço curvo da Nike, desenhado por Carolyn Davidson em 1971.",
+          "variantes": [
+            "Símbolo da Nike"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nanã",
+        "descricao": "Orixá das religiões afro-brasileiras ligada à lama, aos pântanos e à morte, considerada a mais velha das divindades das águas.",
+        "variantes": [
+          "Nanã Buruquê",
+          "Nanã Buruku"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "naan",
+          "nome": "Naan",
+          "descricao": "Pão achatado fermentado, assado em forno tandoor ou frigideira, típico da Índia e da Ásia Central.",
+          "variantes": [
+            "Nan"
+          ]
+        },
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        },
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        },
+        {
+          "id": "ishtar",
+          "nome": "Ishtar",
+          "descricao": "Deusa mesopotâmica do amor, da fertilidade e da guerra, equivalente acádia da suméria Inanna.",
+          "variantes": [
+            "Inanna",
+            "Istar"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "forro",
+      "motivo": "Mesmo gênero musical e dança do Nordeste; variante idêntica."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "cuica",
+      "motivo": "Mesmo instrumento, tambor de fricção do samba."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Maria Bonita, a companheira de Lampião."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a panela de barro de Goiabeiras."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "nossa_senhora_aparecida",
+      "motivo": "Mesma imagem de Nossa Senhora Aparecida, padroeira do Brasil; a basílica é outra entidade."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "oxossi",
+      "motivo": "Mesmo orixá caçador das matas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o orixá Nanã."
+    }
+  ]
+}

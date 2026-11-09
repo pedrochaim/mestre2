@@ -1,0 +1,1276 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "curupira",
+        "nome": "Curupira",
+        "descricao": "Protetor das matas do folclore brasileiro, com cabelos vermelhos e os pés virados para trás.",
+        "variantes": [
+          "Currupira"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Curupira"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O registro escrito mais antigo do Curupira está numa carta do padre José de Anchieta. Em que século essa carta foi escrita?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século quinze",
+        "Século dezessete",
+        "Século dezoito"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Curupira"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "saci",
+        "nome": "Saci",
+        "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+        "variantes": [
+          "Saci-pererê"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Saci"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Além do menino de uma perna só, o nome saci também batiza um bicho brasileiro de canto difícil de localizar. Que tipo de bicho é esse?",
+      "resposta": "Um pássaro",
+      "distratores": [
+        "Um sapo",
+        "Um macaco",
+        "Um grilo"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Saci_(ave)",
+        "https://en.wikipedia.org/wiki/Striped_cuckoo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lenda_do_boto",
+        "nome": "Lenda do boto",
+        "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas.",
+        "variantes": [
+          "Boto-cor-de-rosa (lenda)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Boto_(folclore)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Na Amazônia, que situação da vida real a lenda do boto sedutor costuma servir para explicar?",
+      "resposta": "Filho de pai desconhecido",
+      "distratores": [
+        "Sumiço de pescadores",
+        "Enchentes dos rios",
+        "Desaparecimento de crianças"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Boto_(folclore)",
+        "https://en.wikipedia.org/wiki/Amazon_river_dolphin"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lenda_do_boto",
+        "nome": "Lenda do boto",
+        "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas.",
+        "variantes": [
+          "Boto-cor-de-rosa (lenda)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Boto_(folclore)"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a lenda, em que época de festas o boto costuma aparecer transformado em rapaz nos bailes das comunidades ribeirinhas?",
+      "resposta": "Festas juninas",
+      "distratores": [
+        "Carnaval",
+        "Natal",
+        "Semana Santa"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Boto_(folclore)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mula_sem_cabeca",
+        "nome": "Mula sem cabeça",
+        "descricao": "Assombração do folclore brasileiro: uma mulher transformada em mula que solta fogo pelo pescoço.",
+        "variantes": [
+          "Mula-sem-cabeça"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mula_sem_cabe%C3%A7a"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Segundo a lenda, para quebrar o encanto da mula sem cabeça, o que alguém precisa arrancar dela?",
+      "resposta": "O freio de ferro",
+      "distratores": [
+        "As ferraduras",
+        "A crina",
+        "O rabo"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mula_sem_cabe%C3%A7a"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cuca",
+        "nome": "Cuca",
+        "descricao": "Bruxa do folclore brasileiro que pega crianças desobedientes, popularizada pelo Sítio do Picapau Amarelo.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cuca"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A Cuca herdou o nome de uma figura das procissões portuguesas, uma espécie de dragão que assustava o povo. Como se chama essa figura?",
+      "resposta": "Coca",
+      "distratores": [
+        "Moura Torta",
+        "Papão",
+        "Bruxa de Évora"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cuca",
+        "https://en.wikipedia.org/wiki/Coco_(folklore)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "matinta_perera",
+        "nome": "Matinta Perera",
+        "descricao": "Figura do folclore amazônico, velha bruxa que se transforma em pássaro e assobia à noite.",
+        "variantes": [
+          "Matinta Pereira",
+          "Matintaperera"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Matinta_Pereira"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Para não ser perturbado pela Matinta Perera ou pela Caipora, o morador da mata costuma oferecer a elas o quê?",
+      "resposta": "Fumo",
+      "distratores": [
+        "Farinha de mandioca",
+        "Mel",
+        "Sal grosso"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Matinta_Pereira",
+        "https://pt.wikipedia.org/wiki/Caipora"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bumba_meu_boi",
+        "nome": "Bumba meu boi",
+        "descricao": "Folguedo popular brasileiro, muito forte no Maranhão, que encena a morte e a ressurreição de um boi.",
+        "variantes": [
+          "Bumba-meu-boi",
+          "Boi-bumbá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bumba_meu_boi"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No nome do folguedo bumba meu boi, a palavra bumba é uma interjeição que indica qual ação?",
+      "resposta": "Bater",
+      "distratores": [
+        "Dançar",
+        "Correr",
+        "Cantar"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bumba_meu_boi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "festa_junina",
+        "nome": "Festa junina",
+        "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+        "variantes": [
+          "Festas juninas",
+          "Festa de São João"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Festa_junina"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Antes de ganhar o nome ligado ao mês de junho, a festa junina era chamada de joanina. De onde vinha esse nome?",
+      "resposta": "De São João",
+      "distratores": [
+        "De Dom João Sexto",
+        "De Joana d'Arc",
+        "De São João del-Rei"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Festa_junina"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "festa_junina",
+        "nome": "Festa junina",
+        "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+        "variantes": [
+          "Festas juninas",
+          "Festa de São João"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Festa_junina"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Por que pratos de milho, como pamonha, canjica e curau, dominam as mesas das festas juninas no Nordeste?",
+      "resposta": "Junho é época da colheita",
+      "distratores": [
+        "Promessa a São João",
+        "Herança dos franceses",
+        "Proibição de carne"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Festa_junina"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "frevo",
+        "nome": "Frevo",
+        "descricao": "Ritmo e dança do carnaval de Pernambuco, com passos acrobáticos e sombrinhas coloridas.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Frevo"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O frevo tem três tipos principais. Qual deles é só instrumental, tocado pela orquestra para os passistas dançarem?",
+      "resposta": "Frevo de rua",
+      "distratores": [
+        "Frevo-canção",
+        "Frevo de bloco",
+        "Frevo de salão"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Frevo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "capoeira",
+        "nome": "Capoeira",
+        "descricao": "Arte marcial afro-brasileira que combina luta, dança, música e acrobacia.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Capoeira"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Como se chama o balanço contínuo do corpo, de um lado para o outro, que é o movimento básico da capoeira?",
+      "resposta": "Ginga",
+      "distratores": [
+        "Meia-lua",
+        "Rasteira",
+        "Aú"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Capoeira",
+        "https://en.wikipedia.org/wiki/Ginga_(capoeira)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "capoeira_regional",
+        "nome": "Capoeira regional",
+        "descricao": "Estilo de capoeira sistematizado na Bahia na década de 1930, com método de ensino próprio.",
+        "variantes": [
+          "Luta Regional Baiana"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Capoeira_Regional"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Comparada à capoeira regional de Mestre Bimba, qual estilo de capoeira é jogado de forma mais lenta e mais rente ao chão?",
+      "resposta": "Capoeira angola",
+      "distratores": [
+        "Capoeira contemporânea",
+        "Capoeira carioca",
+        "Capoeira de rua"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Capoeira_Angola",
+        "https://pt.wikipedia.org/wiki/Capoeira_Regional"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "berimbau",
+        "nome": "Berimbau",
+        "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Berimbau"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Muito antes da capoeira, o nome berimbau já designava em Portugal um pequeno instrumento de metal, tocado preso entre os dentes. Qual?",
+      "resposta": "Harpa de boca",
+      "distratores": [
+        "Gaita de foles",
+        "Flauta doce",
+        "Cavaquinho"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Berimbau_de_boca",
+        "https://pt.wikipedia.org/wiki/Berimbau"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lampiao",
+        "nome": "Lampião",
+        "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+        "variantes": [
+          "Virgulino Ferreira da Silva",
+          "Rei do Cangaço"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lampi%C3%A3o_(cangaceiro)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Depois da emboscada de 1938 na Grota de Angico, em Sergipe, o que as tropas fizeram com Lampião e os cangaceiros mortos?",
+      "resposta": "Cortaram suas cabeças",
+      "distratores": [
+        "Queimaram os corpos",
+        "Jogaram no rio",
+        "Enterraram em segredo"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lampi%C3%A3o_(cangaceiro)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "padre_cicero",
+        "nome": "Padre Cícero",
+        "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+        "variantes": [
+          "Cícero Romão Batista",
+          "Padim Ciço"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Padre_C%C3%ADcero"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1889, em Juazeiro, a fama de milagreiro do Padre Cícero explodiu quando a hóstia teria virado o quê na boca da beata Maria de Araújo?",
+      "resposta": "Sangue",
+      "distratores": [
+        "Água",
+        "Mel",
+        "Vinho"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Padre_C%C3%ADcero",
+        "https://en.wikipedia.org/wiki/C%C3%ADcero_Rom%C3%A3o_Batista"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "oxum",
+        "nome": "Oxum",
+        "descricao": "Orixá das águas doces, dos rios e cachoeiras, nas religiões afro-brasileiras.",
+        "variantes": [
+          "Oṣun",
+          "Oshun"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Oxum"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O culto à orixá Oxum nasceu às margens de um rio africano que leva o nome dela. Em que país fica esse rio?",
+      "resposta": "Nigéria",
+      "distratores": [
+        "Angola",
+        "Gana",
+        "Moçambique"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Oxum",
+        "https://en.wikipedia.org/wiki/Osun_River"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "oxala",
+        "nome": "Oxalá",
+        "descricao": "Orixá criador da humanidade nas religiões afro-brasileiras, associado ao branco e ao opaxorô.",
+        "variantes": [
+          "Obatalá",
+          "Oxalufã"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Oxal%C3%A1"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em homenagem a Oxalá, orixá associado à cor branca, muitos baianos se vestem de branco em qual dia da semana?",
+      "resposta": "Sexta-feira",
+      "distratores": [
+        "Segunda-feira",
+        "Quinta-feira",
+        "Domingo"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Oxal%C3%A1"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sao_jorge_no_rio_de_janeiro",
+        "nome": "São Jorge no Rio de Janeiro",
+        "descricao": "Devoção popular carioca ao santo guerreiro São Jorge, celebrado em 23 de abril e sincretizado com um orixá.",
+        "variantes": [
+          "São Jorge Guerreiro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jorge_da_Capad%C3%B3cia"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Segundo a crença popular brasileira, onde se pode ver São Jorge montado em seu cavalo, lutando contra o dragão?",
+      "resposta": "Na Lua",
+      "distratores": [
+        "No Cruzeiro do Sul",
+        "Nas nuvens",
+        "Nas chamas da fogueira"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Jorge_da_Capad%C3%B3cia"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "entrudo",
+        "nome": "Entrudo",
+        "descricao": "Festa popular de origem portuguesa, antecessora do carnaval brasileiro, em que se atiravam água, farinha e limões de cheiro.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Entrudo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome entrudo, antiga folia portuguesa que antecedeu o carnaval, vem da palavra latina introitus. O que ela significa?",
+      "resposta": "Entrada",
+      "distratores": [
+        "Festa",
+        "Despedida",
+        "Brincadeira"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Entrudo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "trio_eletrico",
+        "nome": "Trio elétrico",
+        "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Trio_el%C3%A9trico"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Que apelido tinha o velho Ford em que Dodô e Osmar saíram tocando pelas ruas de Salvador, dando origem ao trio elétrico?",
+      "resposta": "Fobica",
+      "distratores": [
+        "Calhambeque",
+        "Lambreta",
+        "Baratinha"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Trio_el%C3%A9trico",
+        "https://pt.wikipedia.org/wiki/Dod%C3%B4_e_Osmar"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chimarrao",
+        "nome": "Chimarrão",
+        "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+        "variantes": [
+          "Mate",
+          "Mate amargo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chimarr%C3%A3o"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Como se chama o canudo de metal, com um filtro na ponta, usado para sorver o chimarrão da cuia?",
+      "resposta": "Bomba",
+      "distratores": [
+        "Chaleira",
+        "Taquara",
+        "Térmica"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chimarr%C3%A3o"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chimarrao",
+        "nome": "Chimarrão",
+        "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+        "variantes": [
+          "Mate",
+          "Mate amargo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chimarr%C3%A3o"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Antes da chegada dos colonizadores europeus, que povo indígena já tomava a infusão de erva-mate que deu origem ao chimarrão?",
+      "resposta": "Guaranis",
+      "distratores": [
+        "Tupinambás",
+        "Xavantes",
+        "Pataxós"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chimarr%C3%A3o",
+        "https://pt.wikipedia.org/wiki/Erva-mate"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "semana_farroupilha",
+        "nome": "Semana Farroupilha",
+        "descricao": "Festa tradicionalista do Rio Grande do Sul, com desfiles e acampamentos gaúchos, que lembra a Revolução Farroupilha.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Semana_Farroupilha"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que fogo simbólico, aceso e levado a cavalo por todo o Rio Grande do Sul, abre os festejos da Semana Farroupilha?",
+      "resposta": "Chama Crioula",
+      "distratores": [
+        "Tocha Farrapa",
+        "Fogo de chão",
+        "Chama Gaúcha"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Semana_Farroupilha",
+        "https://pt.wikipedia.org/wiki/Chama_Crioula"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Forró",
+        "descricao": "Gênero musical e dança popular do Nordeste brasileiro, tocado tradicionalmente com sanfona, zabumba e triângulo.",
+        "variantes": [
+          "Forró pé de serra"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Forr%C3%B3",
+          "https://en.wikipedia.org/wiki/Forr%C3%B3"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Diz a lenda que o nome forró vem do inglês for all, mas os estudiosos apontam outra origem. De que palavra ele viria?",
+      "resposta": "Forrobodó",
+      "distratores": [
+        "Forrageira",
+        "Fuzuê",
+        "Fole"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Forr%C3%B3",
+        "https://en.wikipedia.org/wiki/Forr%C3%B3"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "luiz_gonzaga",
+        "nome": "Luiz Gonzaga",
+        "descricao": "Sanfoneiro, cantor e compositor pernambucano, chamado de Rei do Baião.",
+        "variantes": [
+          "Rei do Baião",
+          "Gonzagão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Luiz_Gonzaga"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Luiz Gonzaga, o Rei do Baião, nasceu numa fazenda do sertão pernambucano, perto de qual cidade?",
+      "resposta": "Exu",
+      "distratores": [
+        "Caruaru",
+        "Serra Talhada",
+        "Garanhuns"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Luiz_Gonzaga"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bonecos_de_olinda",
+        "nome": "Bonecos de Olinda",
+        "descricao": "Bonecos gigantes do carnaval de Olinda, em Pernambuco.",
+        "variantes": [
+          "Bonecos gigantes de Olinda"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Carnaval_de_Olinda"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que boneco gigante de Olinda, de fraque e cartola, criado em 1932, é considerado o grande símbolo do carnaval da cidade?",
+      "resposta": "Homem da Meia-Noite",
+      "distratores": [
+        "Mulher do Meio-Dia",
+        "Zé Pereira",
+        "Menino da Tarde"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Homem_da_Meia-Noite",
+        "https://pt.wikipedia.org/wiki/Carnaval_de_Olinda"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pipa",
+        "nome": "Pipa",
+        "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+        "variantes": [
+          "Papagaio",
+          "Pandorga",
+          "Arraia"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pipa_(brinquedo)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "As pipas, empinadas pelas crianças em todo o Brasil, teriam surgido há mais de dois mil anos em qual país?",
+      "resposta": "China",
+      "distratores": [
+        "Índia",
+        "Japão",
+        "Egito"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pipa_(brinquedo)",
+        "https://en.wikipedia.org/wiki/Kite"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "carrinho_de_rolima",
+        "nome": "Carrinho de rolimã",
+        "descricao": "Carrinho artesanal de madeira com rolamentos, usado em corridas ladeira abaixo.",
+        "variantes": [
+          "Carrinho de rolemã"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Carrinho_de_rolim%C3%A3"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra rolimã, que batiza o carrinho de madeira das corridas ladeira abaixo, é uma adaptação de um termo de qual língua?",
+      "resposta": "Francês",
+      "distratores": [
+        "Inglês",
+        "Italiano",
+        "Alemão"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Carrinho_de_rolim%C3%A3",
+        "https://pt.wiktionary.org/wiki/rolim%C3%A3"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chita",
+        "nome": "Chita",
+        "descricao": "Tecido barato de algodão com estampas florais coloridas, tradicional no Brasil",
+        "variantes": [
+          "Chitão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chita_(tecido)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A chita, tecido de flores coloridas das festas juninas, chegou ao Brasil com os portugueses, mas nasceu em qual país asiático?",
+      "resposta": "Índia",
+      "distratores": [
+        "China",
+        "Japão",
+        "Pérsia"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chita_(tecido)",
+        "https://en.wikipedia.org/wiki/Chintz"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "agogo",
+        "nome": "Agogô",
+        "descricao": "Instrumento de percussão de metal formado por dois sinos cônicos de alturas diferentes, de origem iorubá.",
+        "variantes": [
+          "Agogo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Agog%C3%B4"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O agogô, instrumento de metal das baterias de samba e dos terreiros, tem nome de origem iorubá. O que essa palavra significa?",
+      "resposta": "Sino",
+      "distratores": [
+        "Ferro",
+        "Chamado",
+        "Pássaro"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Agog%C3%B4",
+        "https://en.wikipedia.org/wiki/Agog%C3%B4"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "atabaque",
+        "nome": "Atabaque",
+        "descricao": "Tambor alto e de madeira, de origem afro-brasileira, afinado por cordas e cunhas.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Atabaque"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Apesar de o tambor estar ligado aos terreiros afro-brasileiros, a palavra atabaque chegou ao português vinda de qual língua?",
+      "resposta": "Árabe",
+      "distratores": [
+        "Iorubá",
+        "Quimbundo",
+        "Tupi"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Atabaque",
+        "https://en.wikipedia.org/wiki/Atabaque"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cuíca",
+        "descricao": "Tambor de fricção brasileiro, com uma haste presa no centro da pele, que produz o som de ronco característico do samba.",
+        "variantes": [
+          "Puíta"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cu%C3%ADca",
+          "https://en.wikipedia.org/wiki/Cu%C3%ADca"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Para fazer a cuíca roncar no samba, o músico esfrega com um pano úmido uma peça presa por dentro, no centro do couro. Que peça é essa?",
+      "resposta": "Uma vareta de bambu",
+      "distratores": [
+        "Um arame",
+        "Uma corda",
+        "Uma mola"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cu%C3%ADca",
+        "https://en.wikipedia.org/wiki/Cu%C3%ADca"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "viola_caipira",
+        "nome": "Viola caipira",
+        "descricao": "Instrumento de cordas símbolo da música sertaneja de raiz.",
+        "variantes": [
+          "Viola de dez cordas",
+          "Viola sertaneja"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Viola_caipira"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantas cordas tem a viola caipira, instrumento símbolo da música sertaneja de raiz?",
+      "resposta": "Dez",
+      "distratores": [
+        "Seis",
+        "Sete",
+        "Doze"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Viola_caipira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Maria Bonita",
+        "descricao": "Maria Gomes de Oliveira, companheira de Lampião e a mais famosa mulher do cangaço, morta em 1938.",
+        "variantes": [
+          "Maria Gomes de Oliveira",
+          "Maria de Déa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maria_Bonita"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Maria Bonita, companheira de Lampião no cangaço, nasceu em qual estado nordestino?",
+      "resposta": "Bahia",
+      "distratores": [
+        "Pernambuco",
+        "Sergipe",
+        "Alagoas"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maria_Bonita"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mamulengo",
+        "nome": "Mamulengo",
+        "descricao": "Teatro popular de bonecos de luva e vara do Nordeste, especialmente de Pernambuco.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mamulengo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No Rio Grande do Norte, o teatro popular de bonecos que os pernambucanos chamam de mamulengo recebe qual nome?",
+      "resposta": "João Redondo",
+      "distratores": [
+        "Babau",
+        "Cassimiro Coco",
+        "Briguela"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mamulengo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "muiraquita",
+        "nome": "Muiraquitã",
+        "descricao": "Amuleto de pedra verde, em geral em forma de sapo, produzido por povos antigos da Amazônia.",
+        "variantes": [
+          "Muiraquitan"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Muiraquit%C3%A3"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No romance Macunaíma, de Mário de Andrade, o herói passa boa parte da história tentando recuperar qual amuleto perdido?",
+      "resposta": "Muiraquitã",
+      "distratores": [
+        "Figa de guiné",
+        "Patuá",
+        "Olho de boto"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Macuna%C3%ADma_(livro)",
+        "https://pt.wikipedia.org/wiki/Muiraquit%C3%A3"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "muiraquita",
+        "nome": "Muiraquitã",
+        "descricao": "Amuleto de pedra verde, em geral em forma de sapo, produzido por povos antigos da Amazônia.",
+        "variantes": [
+          "Muiraquitan"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Muiraquit%C3%A3"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Segundo a lenda amazônica, quem dava os muiraquitãs de presente aos guerreiros que recebiam uma vez por ano?",
+      "resposta": "As icamiabas",
+      "distratores": [
+        "As mães-d'água",
+        "As cunhãs-poranga",
+        "Os pajés"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Muiraquit%C3%A3",
+        "https://pt.wikipedia.org/wiki/Icamiabas"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dia_do_folclore",
+        "nome": "Dia do Folclore",
+        "descricao": "Data comemorativa brasileira dedicada às tradições populares, instituída por decreto em 1965.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Folclore"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Por que o Dia do Folclore é comemorado justamente em 22 de agosto?",
+      "resposta": "Nasceu a palavra folklore",
+      "distratores": [
+        "Nascimento de Câmara Cascudo",
+        "Morte de Monteiro Lobato",
+        "Estreia do Sítio"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Folclore",
+        "https://en.wikipedia.org/wiki/William_Thoms"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "santo_antonio",
+        "nome": "Santo Antônio",
+        "descricao": "Santo Antônio de Lisboa ou de Pádua, frade franciscano celebrado em 13 de junho e conhecido como santo casamenteiro.",
+        "variantes": [
+          "Santo Antônio de Lisboa",
+          "Santo Antônio de Pádua"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ant%C3%B3nio_de_Lisboa"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O santo casamenteiro nasceu em Lisboa, mas morreu numa cidade italiana que também lhe dá nome. Que cidade é essa?",
+      "resposta": "Pádua",
+      "distratores": [
+        "Assis",
+        "Florença",
+        "Veneza"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ant%C3%B3nio_de_Lisboa",
+        "https://en.wikipedia.org/wiki/Anthony_of_Padua"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "santo_antonio",
+        "nome": "Santo Antônio",
+        "descricao": "Santo Antônio de Lisboa ou de Pádua, frade franciscano celebrado em 13 de junho e conhecido como santo casamenteiro.",
+        "variantes": [
+          "Santo Antônio de Lisboa",
+          "Santo Antônio de Pádua"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ant%C3%B3nio_de_Lisboa"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No dia de Santo Antônio, igrejas distribuem pãezinhos bentos. Segundo a crença, guardá-los na lata de mantimentos garante o quê?",
+      "resposta": "Que nunca falte comida",
+      "distratores": [
+        "Casamento no ano",
+        "Proteção contra raios",
+        "Sorte no jogo"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ant%C3%B3nio_de_Lisboa",
+        "https://en.wikipedia.org/wiki/Anthony_of_Padua"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "maracatu_rural",
+        "nome": "Maracatu rural",
+        "descricao": "Folguedo carnavalesco da Zona da Mata de Pernambuco, também chamado maracatu de baque solto.",
+        "variantes": [
+          "Maracatu de baque solto",
+          "Maracatu de orquestra"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maracatu_rural"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Que cidade da Zona da Mata Norte de Pernambuco, berço de muitos grupos de caboclos de lança, é conhecida como a terra do maracatu?",
+      "resposta": "Nazaré da Mata",
+      "distratores": [
+        "Goiana",
+        "Carpina",
+        "Vitória de Santo Antão"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Nazar%C3%A9_da_Mata",
+        "https://pt.wikipedia.org/wiki/Maracatu_rural"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Panela de barro de Goiabeiras",
+        "descricao": "Panela de cerâmica escura modelada à mão pelas paneleiras do bairro de Goiabeiras, em Vitória, no Espírito Santo.",
+        "variantes": [
+          "Panela de barro capixaba",
+          "Paneleiras de Goiabeiras"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Moqueca_capixaba"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em Vitória, as paneleiras de Goiabeiras modelam panelas de barro escuro consideradas indispensáveis para qual prato típico do Espírito Santo?",
+      "resposta": "Moqueca",
+      "distratores": [
+        "Feijoada",
+        "Bobó de camarão",
+        "Vatapá"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Moqueca_capixaba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nossa Senhora Aparecida",
+        "descricao": "Imagem de Nossa Senhora da Conceição encontrada por pescadores no rio Paraíba do Sul, padroeira do Brasil venerada em Aparecida, São Paulo.",
+        "variantes": [
+          "Nossa Senhora da Conceição Aparecida"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Nossa_Senhora_da_Concei%C3%A7%C3%A3o_Aparecida"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que século três pescadores encontraram, nas águas do rio Paraíba do Sul, a imagem de Nossa Senhora Aparecida?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezesseis",
+        "Século dezessete",
+        "Século dezenove"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Nossa_Senhora_da_Concei%C3%A7%C3%A3o_Aparecida"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "iansa",
+        "nome": "Iansã",
+        "descricao": "Orixá dos ventos, raios e tempestades nas religiões afro-brasileiras.",
+        "variantes": [
+          "Oiá",
+          "Oyá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ians%C3%A3"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Nas religiões afro-brasileiras, por qual outro nome de origem iorubá a orixá Iansã, senhora dos ventos, também é chamada?",
+      "resposta": "Oiá",
+      "distratores": [
+        "Obá",
+        "Ewá",
+        "Nanã"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ians%C3%A3",
+        "https://en.wikipedia.org/wiki/Oya"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Oxóssi",
+        "descricao": "Orixá da caça e das matas nas religiões afro-brasileiras, representado com arco e flecha.",
+        "variantes": [
+          "Oxossi",
+          "Ọṣọ́ọ̀sì"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ox%C3%B3ssi"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No Rio de Janeiro, o orixá caçador Oxóssi é associado a qual santo católico, padroeiro da cidade?",
+      "resposta": "São Sebastião",
+      "distratores": [
+        "São Jorge",
+        "São Jerônimo",
+        "São Lázaro"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ox%C3%B3ssi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "boi_de_mamao",
+        "nome": "Boi de mamão",
+        "descricao": "Folguedo popular do litoral do Sul do Brasil, com personagens como o boi, a bernúncia e a Maricota.",
+        "variantes": [
+          "Boi-de-mamão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Boi_de_mam%C3%A3o"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Com a bernúncia e a gigante Maricota, o boi de mamão de Santa Catarina é uma variante sulista de qual folguedo popular?",
+      "resposta": "Bumba meu boi",
+      "distratores": [
+        "Cavalhada",
+        "Folia de Reis",
+        "Congada"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Boi_de_mam%C3%A3o"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "maracatu_nacao",
+        "nome": "Maracatu nação",
+        "descricao": "Cortejo carnavalesco afro-brasileiro de Pernambuco, também chamado maracatu de baque virado, com rei, rainha e batuque.",
+        "variantes": [
+          "Maracatu de baque virado"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maracatu"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Nos anos noventa, que movimento musical do Recife, liderado por Chico Science, misturou os tambores do maracatu com rock e hip-hop?",
+      "resposta": "Manguebeat",
+      "distratores": [
+        "Tropicália",
+        "Axé music",
+        "Movimento Armorial"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Manguebeat"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jangada",
+        "nome": "Jangada",
+        "descricao": "Embarcação de pesca de madeira, com vela triangular, típica do litoral do Nordeste do Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jangada"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1942, que cineasta americano filmava a saga dos jangadeiros cearenses quando o líder deles, Jacaré, morreu afogado no Rio?",
+      "resposta": "Orson Welles",
+      "distratores": [
+        "Walt Disney",
+        "John Ford",
+        "Alfred Hitchcock"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/It%27s_All_True_(film)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nanã",
+        "descricao": "Orixá das religiões afro-brasileiras ligada à lama, aos pântanos e à morte, considerada a mais velha das divindades das águas.",
+        "variantes": [
+          "Nanã Buruquê",
+          "Nanã Buruku"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Nan%C3%A3"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Nanã, orixá anciã ligada à lama e aos pântanos, é associada no sincretismo a qual santa católica, avó de Jesus?",
+      "resposta": "Sant'Ana",
+      "distratores": [
+        "Santa Bárbara",
+        "Santa Luzia",
+        "Santa Rita"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Nan%C3%A3"
+      ]
+    }
+  ]
+}

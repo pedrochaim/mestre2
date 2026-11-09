@@ -1,0 +1,447 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anchieta, 1560, século XVI, confirmado pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta é só a categoria ('um pássaro'), e o 'canto difícil de localizar' não tem apoio nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato conhecido, mas a fonte da lenda é inexistente e a outra não o sustenta; troco por URL confiável.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Na Amazônia, que situação da vida real a lenda do boto sedutor costuma servir para explicar?",
+        "resposta": "Filho de pai desconhecido",
+        "distratores": [
+          "Sumiço de pescadores",
+          "Enchentes dos rios",
+          "Desaparecimento de crianças"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Boto-cor-de-rosa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato conhecido (boto nas festas juninas), mas a fonte é inexistente; troco por URL confiável.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Segundo a lenda, em que época de festas o boto costuma aparecer transformado em rapaz nos bailes das comunidades ribeirinhas?",
+        "resposta": "Festas juninas",
+        "distratores": [
+          "Carnaval",
+          "Natal",
+          "Semana Santa"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Boto-cor-de-rosa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não mostram o fato e as versões da lenda variam (freio, sangue), então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cascudo liga a Cuca à Coca das procissões do Minho; o trecho em inglês confirma o dragão.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Morador da mata' é impreciso: a Matinta assobia nas casas; reformulo.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "A Matinta Perera e a Caipora, figuras do folclore, costumam ser apaziguadas com o mesmo tipo de agrado. Qual?",
+        "resposta": "Fumo",
+        "distratores": [
+          "Farinha de mandioca",
+          "Mel",
+          "Sal grosso"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Matinta_Pereira",
+          "https://pt.wikipedia.org/wiki/Caipora"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bumba é interjeição de pancada, etimologia amplamente documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Joanina' já entrega João, e o distrator 'São João del-Rei' é confuso; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Junho é época de colheita do milho no Nordeste; explicação amplamente documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frevo de rua é o instrumental; os outros dois têm voz ou banda de pau e corda.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ginga é o movimento básico da capoeira, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angola é mais rasteira e de jogo baixo, em contraste com a regional.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Berimbau de boca é a harpa de boca, de metal.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os corpos foram decapitados e as cabeças expostas, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hóstia virou sangue na boca de Maria de Araújo em 1889.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O rio Oxum fica no sudoeste da Nigéria.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Domingo' também é dia de Oxalá velho, então pode ser defendido como correto.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em homenagem a Oxalá, orixá associado à cor branca, muitos baianos se vestem de branco em qual dia da semana?",
+        "resposta": "Sexta-feira",
+        "distratores": [
+          "Segunda-feira",
+          "Quarta-feira",
+          "Sábado"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Oxal%C3%A1"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A tradição das manchas da Lua como São Jorge é confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Introitus significa entrada, referindo-se à entrada da Quaresma.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fobica era o Ford 1929 de Dodô e Osmar.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A bomba é o canudo do chimarrão; o trecho a cita.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guaranis estão entre os primeiros usuários documentados; os distratores não incluem os caingangues.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chama Crioula, levada por cavaleiros às regiões tradicionalistas.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Forró vem de forrobodó, segundo Bechara e Cascudo.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasceu na Fazenda Caiçara, no município de Exu.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte do Homem da Meia-Noite é inexistente e o ano de criação (1932) é ambíguo nos trechos (fundado até 1931).",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Que boneco gigante de Olinda, de fraque e cartola, é o mais famoso símbolo do carnaval da cidade?",
+        "resposta": "Homem da Meia-Noite",
+        "distratores": [
+          "Mulher do Meio-Dia",
+          "Zé Pereira",
+          "Menino da Tarde"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Carnaval_de_Olinda"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As pipas surgiram na China antiga.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato vale (do francês roulement), mas uma das fontes é inexistente; mantenho só a da Wikipédia.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A palavra rolimã, que batiza o carrinho de madeira das corridas ladeira abaixo, é uma adaptação de um termo de qual língua?",
+        "resposta": "Francês",
+        "distratores": [
+          "Inglês",
+          "Italiano",
+          "Alemão"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Carrinho_de_rolim%C3%A3"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chita é originária da Índia, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Agogô significa sino em iorubá.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Atabaque vem do árabe al-tabaq.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A haste de bambu esfregada com pano úmido produz o ronco.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A viola caipira tem dez cordas em cinco pares; o trecho a chama de viola de dez cordas.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maria Bonita era baiana, de Santo Antônio da Glória.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "João Redondo é o nome potiguar do teatro de bonecos, bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A trama de Macunaíma gira em torno do muiraquitã perdido.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os que recebiam as icamiabas eram homens de outra tribo, não necessariamente 'guerreiros'; corrijo.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Segundo a lenda amazônica, quem dava muiraquitãs de presente aos homens que recebiam uma vez por ano?",
+        "resposta": "As icamiabas",
+        "distratores": [
+          "As mães-d'água",
+          "As cunhãs-poranga",
+          "Os pajés"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Muiraquit%C3%A3",
+          "https://pt.wikipedia.org/wiki/Icamiabas"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A resposta vaza o assunto (folklore) e os trechos divergem na data (1845 x 1846).",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasceu em Lisboa e morreu em Pádua.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os pães guardados na lata evitam a falta de alimento em casa.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nazaré da Mata é a Capital Estadual dos Maracatus.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A panela de Goiabeiras é associada à moqueca capixaba.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A imagem foi encontrada em 1717, século XVIII.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Iansã também é chamada Oiá; distratores são outras orixás.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "No centro-sul, Oxóssi é associado a São Sebastião.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta repete a palavra 'boi' do enunciado, o que praticamente entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Manguebeat, de Chico Science, une maracatu, rock e hip hop.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Welles filmava Jangadeiros em 1942 e Jacaré morreu afogado; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nanã é sincretizada com Sant'Ana, avó de Jesus.",
+      "reescrita": null
+    }
+  ]
+}
