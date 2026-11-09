@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Espetáculo típico da Espanha\" quase entrega a resposta no teste da imagem coberta; basta pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que espetáculo esta pintura retrata?",
+        "resposta": "Tourada",
+        "distratores": [
+          "Rodeio",
+          "Cavalhada",
+          "Vaquejada"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a arma (foice, japonesa) e a resposta é sua composição, então a figura vira enfeite. Melhor pedir o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que arma tradicional japonesa é esta?",
+        "resposta": "Kusarigama"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta com parênteses é desnecessária e restringe a modalidade sem necessidade. Deve ser direta.",
+      "reescrita": {
+        "pergunta": "Que modalidade esportiva é esta?",
+        "resposta": "Rodeio"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento, resposta única e apoiada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Lâmina curva em forma de garra\" descreve a arma e permite responder sem ver a figura. Basta manter a região como pista.",
+      "reescrita": {
+        "pergunta": "Que arma tradicional do Sudeste Asiático é esta?",
+        "resposta": "Karambit",
+        "distratores": [
+          "Kukri",
+          "Kris",
+          "Tanto"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta se responde pelo conhecimento da modalidade, e a resposta repete \"isca\" do enunciado. A isca costuma ser uma espécie de biruta, não uma lebre. Melhor pedir a raça de cães.",
+      "reescrita": {
+        "pergunta": "Que raça de cães corre nestas pistas?",
+        "resposta": "Galgo"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento por figura, sem vazamento, distratores do mesmo tipo e curtos, e nenhum deles descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

@@ -389761,5 +389761,132 @@
       "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
       "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
     }
+  },
+  {
+    "id": "q19666",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "kusarigama",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que arma tradicional japonesa é esta?",
+    "resposta": "Kusarigama",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kusarigama",
+      "https://pt.wikipedia.org/wiki/Kusarigama"
+    ],
+    "imagem": {
+      "arquivo": "q19666.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kusarigama_01.JPG",
+      "autor": "法雲寺",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19667",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "rodeio",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que modalidade esportiva é esta?",
+    "resposta": "Rodeio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rodeo",
+      "https://pt.wikipedia.org/wiki/Rodeio"
+    ],
+    "imagem": {
+      "arquivo": "q19667.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cavalo_de_fogo?_Ponya?_-pokemonGo_(32507097484).jpg",
+      "autor": "Fernando Cesar Nox from Jundiaí, Brasil",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q19668",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "voo_a_vela_planador",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de aeronave é esta?",
+    "resposta": "Planador",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gliding",
+      "https://pt.wikipedia.org/wiki/Voo_%C3%A0_vela"
+    ],
+    "imagem": {
+      "arquivo": "q19668.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:PZL_Bielsko_Glider,_Air_Show_Bielsko-Biała_(2009).JPG",
+      "autor": "Silar",
+      "licenca": "GFDL"
+    }
+  },
+  {
+    "id": "q19669",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "karambit",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que arma tradicional do Sudeste Asiático é esta?",
+    "resposta": "Karambit",
+    "distratores": [
+      "Kukri",
+      "Kris",
+      "Tanto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Karambit"
+    ],
+    "imagem": {
+      "arquivo": "q19669.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Karambit.jpg",
+      "autor": "Alexandre bigunas",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q19670",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "corrida_de_galgos",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que raça de cães corre nestas pistas?",
+    "resposta": "Galgo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greyhound_racing"
+    ],
+    "imagem": {
+      "arquivo": "q19670.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Greyhound_Racing_2_amk.jpg",
+      "autor": "AngMoKio",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19671",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "trote_atrelado",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de corrida de cavalos é esta?",
+    "resposta": "Trote atrelado",
+    "distratores": [
+      "Corrida de obstáculos",
+      "Galope em pista",
+      "Prova de enduro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harness_racing"
+    ],
+    "imagem": {
+      "arquivo": "q19671.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fidji_d'Ourville.jpg",
+      "autor": "Amélie Tsaag Valren",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

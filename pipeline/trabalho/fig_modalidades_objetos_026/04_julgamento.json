@@ -1,0 +1,451 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tourada",
+        "descricao": "Espetáculo em que um toureiro enfrenta um touro numa arena, típico da Espanha.",
+        "variantes": [
+          "Tauromaquia",
+          "Corrida de touros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tourada",
+          "nome": "Tourada",
+          "descricao": "Espetáculo em que um toureiro enfrenta um touro numa arena, tradicional na Espanha, em Portugal e em outros países.",
+          "variantes": [
+            "Corrida de touros",
+            "Tauromaquia"
+          ]
+        },
+        {
+          "id": "motovelocidade",
+          "nome": "Motovelocidade",
+          "descricao": "Modalidade de corrida de motocicletas em circuitos de asfalto.",
+          "variantes": [
+            "Motociclismo de velocidade",
+            "Corrida de motos",
+            "MotoGP"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kusarigama",
+        "descricao": "Arma tradicional japonesa formada por uma foice (kama) ligada a uma corrente com um peso de ferro.",
+        "variantes": [
+          "Foice-corrente",
+          "Kusari-gama"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kurama",
+          "nome": "Kurama",
+          "descricao": "A Raposa de Nove Caudas selada dentro de Naruto Uzumaki no mangá Naruto.",
+          "variantes": [
+            "Raposa de Nove Caudas",
+            "Kyuubi",
+            "Nine-Tailed Fox"
+          ]
+        },
+        {
+          "id": "sai",
+          "nome": "Sai",
+          "descricao": "Arma metálica de Okinawa com haste central pontiaguda e dois dentes laterais.",
+          "variantes": [
+            "Sai (arma)"
+          ]
+        },
+        {
+          "id": "saitama",
+          "nome": "Saitama",
+          "descricao": "Herói careca que derrota qualquer inimigo com um único soco, protagonista de One Punch Man.",
+          "variantes": [
+            "One Punch Man (personagem)"
+          ]
+        },
+        {
+          "id": "luiz_gama",
+          "nome": "Luiz Gama",
+          "descricao": "Advogado, jornalista e abolicionista brasileiro do século dezenove, nascido livre e escravizado aos dez anos.",
+          "variantes": [
+            "Luís Gama",
+            "Luís Gonzaga Pinto da Gama"
+          ]
+        },
+        {
+          "id": "drednaw",
+          "nome": "Drednaw",
+          "descricao": "Pokémon dos tipos Água e Pedra, número 834 da Pokédex Nacional.",
+          "variantes": [
+            "Kajirigame"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Rodeio",
+        "descricao": "Competição equestre de origem campeira em que peões montam cavalos e bois bravos.",
+        "variantes": [
+          "Montaria em cavalo",
+          "Rodeio de cavalo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cavalinha",
+          "nome": "Cavalinha",
+          "descricao": "Planta do gênero Equisetum, de caules verdes articulados, que se reproduz por esporos.",
+          "variantes": [
+            "Equisetum",
+            "Rabo-de-cavalo",
+            "Horsetail"
+          ]
+        },
+        {
+          "id": "odeao_de_herodes_atico",
+          "nome": "Odeão de Herodes Ático",
+          "descricao": "Teatro de pedra do ano 161 na encosta sudoeste da Acrópole de Atenas.",
+          "variantes": [
+            "Herodeion",
+            "Odeon de Herodes Atticus"
+          ]
+        },
+        {
+          "id": "rodizio",
+          "nome": "Rodízio",
+          "descricao": "Regra do vôlei de quadra que obriga os jogadores a mudar de posição sempre que o time recupera o saque.",
+          "variantes": [
+            "Rotação"
+          ]
+        },
+        {
+          "id": "rodesia",
+          "nome": "Rodésia",
+          "descricao": "Estado não reconhecido da África Austral, de maioria branca no poder, que existiu de 1965 a 1979 e deu origem ao Zimbábue.",
+          "variantes": [
+            "República da Rodésia",
+            "Rodésia do Sul"
+          ]
+        },
+        {
+          "id": "sodio",
+          "nome": "Sódio",
+          "descricao": "Elemento químico de número atômico 11, metal alcalino macio que reage violentamente com a água.",
+          "variantes": [
+            "Na",
+            "Natrium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Voo a vela (planador)",
+        "descricao": "Esporte aéreo praticado com aeronaves sem motor, que usam correntes de ar ascendentes.",
+        "variantes": [
+          "Planador",
+          "Voo livre de planador",
+          "Sailplane"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gerrideo",
+          "nome": "Gerrídeo",
+          "descricao": "Percevejos aquáticos da família Gerridae, de pernas longas e finas, que andam sobre a superfície da água.",
+          "variantes": [
+            "Gerridae",
+            "Alfaiate",
+            "Patinador"
+          ]
+        },
+        {
+          "id": "espanador",
+          "nome": "Espanador",
+          "descricao": "Utensílio de limpeza com cabo e tufo macio, usado para tirar o pó.",
+          "variantes": [
+            "Espanador de pó",
+            "Espanador de penas"
+          ]
+        },
+        {
+          "id": "pandora",
+          "nome": "Pandora",
+          "descricao": "Primeira mulher da mitologia grega, segundo Hesíodo, que libertou os males no mundo.",
+          "variantes": []
+        },
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Karambit",
+        "descricao": "Pequena faca curva em forma de garra, originária do Sudeste Asiático.",
+        "variantes": [
+          "Kerambit",
+          "Karambiak"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quilate_pureza_do_ouro",
+          "nome": "Quilate (pureza do ouro)",
+          "descricao": "Unidade que indica a proporção de ouro puro numa liga, em partes de vinte e quatro.",
+          "variantes": [
+            "Quilate",
+            "Karat",
+            "Quilatagem"
+          ]
+        },
+        {
+          "id": "kevlar",
+          "nome": "Kevlar",
+          "descricao": "Fibra sintética de altíssima resistência criada na DuPont, usada em coletes à prova de bala.",
+          "variantes": [
+            "Aramida"
+          ]
+        },
+        {
+          "id": "gambito",
+          "nome": "Gambito",
+          "descricao": "Abertura de xadrez em que um jogador sacrifica material, geralmente um peão, em troca de vantagem.",
+          "variantes": [
+            "Gambit"
+          ]
+        },
+        {
+          "id": "carate",
+          "nome": "Caratê",
+          "descricao": "Arte marcial de golpes de mãos e pés surgida em Okinawa, hoje parte do Japão.",
+          "variantes": [
+            "Karatê",
+            "Karate"
+          ]
+        },
+        {
+          "id": "caaba",
+          "nome": "Caaba",
+          "descricao": "Santuário em forma de cubo no centro da Grande Mesquita de Meca",
+          "variantes": [
+            "Kaaba",
+            "Kaba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Corrida de galgos",
+        "descricao": "Esporte em que galgos correm em pistas atrás de uma isca mecânica.",
+        "variantes": [
+          "Greyhound racing",
+          "Corrida de greyhounds"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "motovelocidade",
+          "nome": "Motovelocidade",
+          "descricao": "Modalidade de corrida de motocicletas em circuitos de asfalto.",
+          "variantes": [
+            "Motociclismo de velocidade",
+            "Corrida de motos",
+            "MotoGP"
+          ]
+        },
+        {
+          "id": "tourada",
+          "nome": "Tourada",
+          "descricao": "Espetáculo em que um toureiro enfrenta um touro numa arena, tradicional na Espanha, em Portugal e em outros países.",
+          "variantes": [
+            "Corrida de touros",
+            "Tauromaquia"
+          ]
+        },
+        {
+          "id": "honda_na_formula_1",
+          "nome": "Honda na Fórmula 1",
+          "descricao": "Participação da montadora japonesa Honda na Fórmula 1 como equipe e fornecedora de motores, desde 1964.",
+          "variantes": [
+            "Honda in Formula One",
+            "Honda Racing F1"
+          ]
+        },
+        {
+          "id": "pingo",
+          "nome": "Pingo",
+          "descricao": "Colina cônica com núcleo de gelo que se forma em regiões de permafrost no Ártico e subártico.",
+          "variantes": [
+            "Pingos",
+            "Colina de gelo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Trote atrelado",
+        "descricao": "Corrida de cavalos em que o animal trota ou anda de lado puxando um carrinho de duas rodas (sulky) com o condutor.",
+        "variantes": [
+          "Harness racing",
+          "Corrida de trote",
+          "Trote"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tourada",
+          "nome": "Tourada",
+          "descricao": "Espetáculo em que um toureiro enfrenta um touro numa arena, tradicional na Espanha, em Portugal e em outros países.",
+          "variantes": [
+            "Corrida de touros",
+            "Tauromaquia"
+          ]
+        },
+        {
+          "id": "motovelocidade",
+          "nome": "Motovelocidade",
+          "descricao": "Modalidade de corrida de motocicletas em circuitos de asfalto.",
+          "variantes": [
+            "Motociclismo de velocidade",
+            "Corrida de motos",
+            "MotoGP"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "poste_totemico",
+          "nome": "Poste totêmico",
+          "descricao": "Escultura monumental em madeira de cedro dos povos indígenas da Costa Noroeste do Pacífico.",
+          "variantes": [
+            "Totem",
+            "Totem pole"
+          ]
+        },
+        {
+          "id": "trompete",
+          "nome": "Trompete",
+          "descricao": "Instrumento de sopro da família dos metais, com três válvulas e som agudo e brilhante.",
+          "variantes": [
+            "Trumpet"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "tourada",
+      "motivo": "Mesma entidade: espetáculo de tourada/tauromaquia, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Kusarigama é uma arma japonesa; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Rodeio é uma competição equestre; candidatas têm só nomes parecidos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Voo a vela é um esporte aéreo; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Karambit é uma faca curva; candidatas são entidades distintas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Corrida de galgos é diferente de corrida de cavalos e das demais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Trote atrelado é modalidade distinta de corrida de cavalos; nenhuma candidata corresponde."
+    }
+  ]
+}

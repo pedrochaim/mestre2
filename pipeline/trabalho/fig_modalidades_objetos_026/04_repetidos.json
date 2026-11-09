@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que espetáculo esta pintura retrata?",
+        "resposta": "Tourada"
+      },
+      "existentes": [
+        {
+          "id": "q16246",
+          "pergunta": "Que espetáculo tradicional esta pintura retrata?",
+          "resposta": "Tourada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q16246",
+      "motivo": "Ambas perguntam qual espetáculo a pintura retrata, com a mesma resposta (Tourada); só muda o adjetivo 'tradicional'."
+    }
+  ]
+}

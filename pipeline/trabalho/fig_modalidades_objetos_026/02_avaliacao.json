@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pintura clássica sem texto, cena de tourada clara.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que espetáculo, típico da Espanha, esta pintura retrata?",
+      "resposta": "Tourada",
+      "distratores": [
+        "Rodeio",
+        "Cavalhada",
+        "Vaquejada"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Tourada",
+        "descricao": "Espetáculo em que um toureiro enfrenta um touro numa arena, típico da Espanha.",
+        "variantes": [
+          "Tauromaquia",
+          "Corrida de touros"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mostra cavaleiros galopando sem boi; poderia ser corrida de cavalos, a modalidade não é reconhecível e há pessoas comuns ao fundo."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Objeto nítido, sem texto, reconhecível pela foice com corrente e peso.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta arma tradicional japonesa combina uma foice com que outro elemento?",
+      "resposta": "Corrente com peso",
+      "destino": 2,
+      "ancora": {
+        "nome": "Kusarigama",
+        "descricao": "Arma tradicional japonesa formada por uma foice (kama) ligada a uma corrente com um peso de ferro.",
+        "variantes": [
+          "Foice-corrente",
+          "Kusari-gama"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A máquina traz o texto 'ergo_bike' visível, que sugere a resposta; o aparelho é genérico e a pergunta renderia pouco."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mostra pessoas comuns jogando bola na areia de uma praia; não é reconhecível como futebol de várzea e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, e a cena é de beach tennis ou raquetes de praia, não reconhecível como paddle tennis."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Montaria em cavalo bravo clara; faixas com nomes de patrocinadores não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade esportiva é esta?",
+      "resposta": "Rodeio (montaria em cavalo)",
+      "destino": 1,
+      "ancora": {
+        "nome": "Rodeio",
+        "descricao": "Competição equestre de origem campeira em que peões montam cavalos e bois bravos.",
+        "variantes": [
+          "Montaria em cavalo",
+          "Rodeio de cavalo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Planador em voo, forma inconfundível; matrícula não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de aeronave é esta?",
+      "resposta": "Planador",
+      "destino": 1,
+      "ancora": {
+        "nome": "Voo a vela (planador)",
+        "descricao": "Esporte aéreo praticado com aeronaves sem motor, que usam correntes de ar ascendentes.",
+        "variantes": [
+          "Planador",
+          "Voo livre de planador",
+          "Sailplane"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lâmina curva em forma de garra nítida, sem texto; distratores de armas brancas asiáticas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arma de lâmina curva em forma de garra, usada em artes marciais do Sudeste Asiático, é esta?",
+      "resposta": "Karambit",
+      "distratores": [
+        "Kukri",
+        "Kris",
+        "Tanto"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Karambit",
+        "descricao": "Pequena faca curva em forma de garra, originária do Sudeste Asiático.",
+        "variantes": [
+          "Kerambit",
+          "Karambiak"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, de costas e boiando; a imagem é de lazer, não de uma modalidade clara."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Galgo em plena corrida com focinheira e colete, sem texto identificador.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Nas pistas, que tipo de isca estes cães perseguem?",
+      "resposta": "Lebre artificial (isca mecânica)",
+      "destino": 1,
+      "ancora": {
+        "nome": "Corrida de galgos",
+        "descricao": "Esporte em que galgos correm em pistas atrás de uma isca mecânica.",
+        "variantes": [
+          "Greyhound racing",
+          "Corrida de greyhounds"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cavalo atrelado a sulky com condutor, característica nítida do trote atrelado.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de corrida de cavalos é esta?",
+      "resposta": "Trote atrelado",
+      "distratores": [
+        "Corrida de obstáculos",
+        "Galope em pista",
+        "Prova de enduro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Trote atrelado",
+        "descricao": "Corrida de cavalos em que o animal trota ou anda de lado puxando um carrinho de duas rodas (sulky) com o condutor.",
+        "variantes": [
+          "Harness racing",
+          "Corrida de trote",
+          "Trote"
+        ]
+      }
+    }
+  ]
+}
