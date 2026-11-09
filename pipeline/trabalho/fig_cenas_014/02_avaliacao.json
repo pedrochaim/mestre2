@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Carl e Russell com a casa e os balões, cena inconfundível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estúdio produziu o filme de animação desta cena?",
+      "resposta": "Pixar",
+      "distratores": [
+        "DreamWorks",
+        "Illumination",
+        "Blue Sky"
+      ],
+      "ancora": {
+        "nome": "Up: Altas Aventuras",
+        "descricao": "Filme de animação de 2009 da Pixar sobre o viúvo Carl e o escoteiro Russell, que voam numa casa erguida por balões.",
+        "variantes": [
+          "Up",
+          "Up: Altas Aventuras (2009)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena icônica da cidade dobrando-se sobre a equipe no terraço, sem texto. Troquei a família para quem_fez.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Christopher Nolan",
+      "distratores": [
+        "Denis Villeneuve",
+        "Ridley Scott",
+        "Darren Aronofsky"
+      ],
+      "ancora": {
+        "nome": "A Origem",
+        "descricao": "Filme de ficção científica de 2010 sobre ladrões que invadem sonhos para plantar uma ideia na mente de um alvo.",
+        "variantes": [
+          "Inception"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Montagem de uma única obra (André e Sílvia, rostos ampliados), sem texto que entregue o título; 'Banco Central' na cédula não revela a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade brasileira se passa o filme desta cena?",
+      "resposta": "Porto Alegre",
+      "distratores": [
+        "Recife",
+        "Belo Horizonte",
+        "Curitiba"
+      ],
+      "ancora": {
+        "nome": "O Homem Que Copiava",
+        "descricao": "Filme brasileiro de 2003, dirigido por Jorge Furtado, sobre um operador de fotocópias de Porto Alegre que precisa de dinheiro.",
+        "variantes": [
+          "O Homem que Copiava"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem sem texto, com o visual rosa e glitter inconfundível do filme.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que atriz interpreta a protagonista do filme desta cena?",
+      "resposta": "Margot Robbie",
+      "distratores": [
+        "Reese Witherspoon",
+        "Emma Stone",
+        "Amy Adams"
+      ],
+      "ancora": {
+        "nome": "Barbie (filme de 2023)",
+        "descricao": "Filme de 2023 dirigido por Greta Gerwig sobre uma boneca que sai de Barbieland para o mundo real.",
+        "variantes": [
+          "Barbie",
+          "Barbie (2023)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de elenco de uma única série, sem texto; o sofá e o grupo são reconhecíveis para o público brasileiro.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que década estreou a série de humor desta cena?",
+      "resposta": "Anos 2000",
+      "distratores": [
+        "Anos 1980",
+        "Anos 1990",
+        "Anos 2010"
+      ],
+      "ancora": {
+        "nome": "Toma Lá, Dá Cá",
+        "descricao": "Série de humor da TV Globo, estreada em 2007, sobre duas famílias que moram em apartamentos vizinhos.",
+        "variantes": [
+          "Toma Lá Dá Cá"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mulher deitada com um travesseiro, cena genérica sem elemento que permita reconhecer a minissérie."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Abraço de duas mulheres num jardim, cena genérica; a obra não é reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cena de guerrilheiros com armas e boinas, sem texto; reconhecível para quem conhece o filme. Troquei a família para quem_fez.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que diretor brasileiro fez o filme desta cena, sobre a luta armada contra a ditadura?",
+      "resposta": "Bruno Barreto",
+      "distratores": [
+        "Walter Salles",
+        "Fernando Meirelles",
+        "Hector Babenco"
+      ],
+      "ancora": {
+        "nome": "O Que É Isso, Companheiro?",
+        "descricao": "Filme brasileiro de 1997 sobre militantes que sequestram o embaixador dos Estados Unidos no fim dos anos 1960.",
+        "variantes": [
+          "O Que é Isso, Companheiro?",
+          "Four Days in September"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena marcante, sem texto, com a mulher de camiseta amarela e o reflexo na escada rolante. Troquei a família para quem_fez.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que diretor de Hong Kong fez o filme desta cena?",
+      "resposta": "Wong Kar-wai",
+      "distratores": [
+        "Ang Lee",
+        "John Woo",
+        "Tsui Hark"
+      ],
+      "ancora": {
+        "nome": "Amores Expressos",
+        "descricao": "Filme de Hong Kong de 1994, dirigido por Wong Kar-wai, sobre dois policiais e suas paixões.",
+        "variantes": [
+          "Chungking Express",
+          "重慶森林"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Montagem com a flâmula 'RYDELL HIGH' visível, texto que entrega o filme; tem cara de pôster."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Três rostos sobre fundo preto, sem texto, com os atores de Os Bons Companheiros; distratores escolhidos fora do trio.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ator interpreta Jimmy Conway no filme desta cena?",
+      "resposta": "Robert De Niro",
+      "distratores": [
+        "Al Pacino",
+        "Harvey Keitel",
+        "James Caan"
+      ],
+      "ancora": {
+        "nome": "Os Bons Companheiros",
+        "descricao": "Filme de 1990 dirigido por Martin Scorsese sobre a ascensão de Henry Hill na máfia de Nova York.",
+        "variantes": [
+          "Goodfellas"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco de Marcello Mastroianni, de óculos, sem texto; clássico reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cineasta italiano dirigiu o filme desta cena?",
+      "resposta": "Federico Fellini",
+      "distratores": [
+        "Michelangelo Antonioni",
+        "Luchino Visconti",
+        "Roberto Rossellini"
+      ],
+      "ancora": {
+        "nome": "Oito e Meio",
+        "descricao": "Filme italiano de 1963, em preto e branco, sobre um cineasta em crise criativa.",
+        "variantes": [
+          "8½",
+          "8 1/2",
+          "Otto e mezzo"
+        ]
+      }
+    }
+  ]
+}
