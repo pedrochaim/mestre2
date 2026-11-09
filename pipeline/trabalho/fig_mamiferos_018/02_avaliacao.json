@@ -1,0 +1,274 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de mico-leão-de-cara-dourada, cabeça dourada, corpo preto e mãos e cauda alaranjadas; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Na natureza, este primata só vive em fragmentos de floresta de qual estado brasileiro?",
+      "resposta": "Bahia",
+      "distratores": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Espírito Santo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mico-leão-de-cara-dourada",
+        "descricao": "Primata do gênero Leontopithecus (L. chrysomelas), endêmico das florestas do sul da Bahia, Brasil.",
+        "variantes": [
+          "Leontopithecus chrysomelas",
+          "Golden-headed lion tamarin",
+          "Mico-leão-da-cara-dourada"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma tupaia num galho, com focinho pontudo; reconhecível, mas pouco conhecida, então múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que pequeno mamífero do Sudeste Asiático é este?",
+      "resposta": "Tupaia",
+      "distratores": [
+        "Esquilo-de-árvore",
+        "Musaranho-elefante",
+        "Gerbo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tupaia",
+        "descricao": "Pequeno mamífero arborícola do Sudeste Asiático, da família Tupaiidae (Tupaia glis).",
+        "variantes": [
+          "Tupaia glis",
+          "Common treeshrew",
+          "Musaranho-arborícola"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Macho de gamo deitado, com chifres palmados e pelagem manchada; nítido e distintivo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cervídeo é este?",
+      "resposta": "Gamo",
+      "distratores": [
+        "Cervo-vermelho",
+        "Veado-sika",
+        "Cervo-axis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gamo",
+        "descricao": "Cervídeo europeu de chifres palmados e pelagem malhada (Dama dama).",
+        "variantes": [
+          "Dama dama",
+          "Fallow deer",
+          "Gamo-europeu"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Viscacha-da-planície com a listra facial característica, em boa foto; múltipla por ser pouco conhecida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que roedor sul-americano, que vive em tocas coletivas, é este?",
+      "resposta": "Viscacha",
+      "distratores": [
+        "Chinchila",
+        "Mara",
+        "Capivara"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Viscacha",
+        "descricao": "Roedor sul-americano da família Chinchillidae (Lagostomus maximus), que vive em tocas coletivas nos pampas.",
+        "variantes": [
+          "Viscacha-da-planície",
+          "Lagostomus maximus",
+          "Plains viscacha",
+          "Vizcacha"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto borrada e de baixa resolução, com o animal sobre uma luva; detalhes pouco legíveis no celular e espécie pouco distinguível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tenreque-listrado nítido, com espinhos amarelos e pretos e focinho comprido; muito característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mamífero espinhoso de Madagascar é este?",
+      "resposta": "Tenreque-listrado",
+      "distratores": [
+        "Ouriço-cacheiro",
+        "Equidna",
+        "Porco-espinho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tenreque-listrado",
+        "descricao": "Pequeno mamífero espinhoso de Madagascar, do gênero Hemicentetes, da família Tenrecidae.",
+        "variantes": [
+          "Hemicentetes semispinosus",
+          "Lowland streaked tenrec",
+          "Tenrec-listrado"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Chacal-dourado de perfil, nítido, com pelagem dourada e acinzentada típica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que canídeo da Eurásia e da África é este?",
+      "resposta": "Chacal-dourado",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chacal-dourado",
+        "descricao": "Canídeo de porte médio nativo da Eurásia (Canis aureus), de pelagem dourada a bege.",
+        "variantes": [
+          "Canis aureus",
+          "Golden jackal",
+          "Chacal-comum",
+          "Chacal"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Porco-vermelho-do-rio e filhote, nítidos, com pelagem ruiva, crista branca e orelhas com tufos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que porco selvagem africano é este?",
+      "resposta": "Porco-vermelho-do-rio",
+      "distratores": [
+        "Facócero",
+        "Javali",
+        "Babirusa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Porco-vermelho-do-rio",
+        "descricao": "Suíno selvagem de pelagem ruiva das florestas da África central e ocidental (Potamochoerus porcus).",
+        "variantes": [
+          "Potamochoerus porcus",
+          "Red river hog",
+          "Potamóquero"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Macho de palanca-negra de perfil, com grandes chifres curvos; nítido e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que antílope africano é este?",
+      "resposta": "Palanca-negra",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palanca-negra",
+        "descricao": "Grande antílope preto de chifres longos e curvos da savana arborizada africana (Hippotragus niger).",
+        "variantes": [
+          "Hippotragus niger",
+          "Sable antelope",
+          "Antílope-negro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Raposa-orelhuda olhando para trás, com orelhas enormes bem visíveis; nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que canídeo africano é este?",
+      "resposta": "Raposa-orelhuda",
+      "distratores": [
+        "Raposa-do-deserto",
+        "Raposa-do-cabo",
+        "Raposa-vermelha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Raposa-orelhuda",
+        "descricao": "Pequeno canídeo da savana africana de orelhas enormes (Otocyon megalotis).",
+        "variantes": [
+          "Otocyon megalotis",
+          "Bat-eared fox",
+          "Raposa-de-orelhas-de-morcego"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Musaranho-elefante nítido, com focinho alongado e móvel; a pergunta explora o parentesco inesperado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Apesar da aparência, este pequeno mamífero africano é parente mais próximo de qual destes animais?",
+      "resposta": "Elefante",
+      "distratores": [
+        "Musaranho",
+        "Ouriço",
+        "Ratazana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Musaranho-elefante",
+        "descricao": "Pequeno mamífero africano insetívoro de focinho alongado, da ordem Macroscelidea, aparentado aos elefantes.",
+        "variantes": [
+          "Sengi",
+          "Elephant shrew",
+          "Macroscelididae"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Macaco-de-cauda-de-leão nítido, com juba acinzentada e corpo preto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que macaco da Índia é este?",
+      "resposta": "Macaco-de-cauda-de-leão",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-de-cauda-de-leão",
+        "descricao": "Macaco de pelagem preta e juba cinzenta, endêmico dos Gates Ocidentais, no sul da Índia (Macaca silenus).",
+        "variantes": [
+          "Macaca silenus",
+          "Lion-tailed macaque",
+          "Wanderoo"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "'Só vive' em um estado é contraditado pelo trecho em português, que registra a espécie também no extremo nordeste de Minas Gerais. O mesmo trecho diz que é endêmico da Mata Atlântica do sul da Bahia.",
+      "reescrita": {
+        "pergunta": "Este primata é endêmico da Mata Atlântica do sul de qual estado brasileiro?",
+        "resposta": "Bahia",
+        "distratores": [
+          "Rio de Janeiro",
+          "São Paulo",
+          "Espírito Santo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Os distratores são do mesmo tipo e plausíveis, e a pista do Sudeste Asiático está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chifres palmados e pelagem malhada distinguem o gamo dos distratores. Não há vazamento, e os distratores são cervídeos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tocas coletivas' é uma pista marcante da viscacha, que enfraquece a figura. Outros roedores sul-americanos, como a mara, também fazem tocas comunitárias, então a pista é ambígua.",
+      "reescrita": {
+        "pergunta": "Que roedor sul-americano é este?",
+        "resposta": "Viscacha",
+        "distratores": [
+          "Chinchila",
+          "Mara",
+          "Capivara"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Madagascar e os espinhos aparecem nos trechos, e 'listrado' distingue a espécie. Não há vazamento, e os distratores são espinhosos e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "Os trechos dizem que o chacal-dourado é nativo da Eurásia e que os espécimes africanos foram reclassificados como outra espécie. 'Eurásia e África' é impreciso.",
+      "reescrita": {
+        "pergunta": "Que canídeo de porte médio, nativo da Eurásia, é este?",
+        "resposta": "Chacal-dourado"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é compatível com o trecho: porco selvagem das florestas da África central e ocidental. Não há vazamento, e nenhum distrator descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um antílope africano. Não há vazamento, e a figura é o que identifica a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Canídeo africano de orelhas enormes. A pista não entrega a resposta, e os distratores são raposas críveis, como a raposa-do-deserto, também de orelhas grandes.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Parente mais próximo' é forte demais, porque os trechos só dizem que o grupo é mais relacionado aos elefantes do que aos musaranhos verdadeiros (Afrotheria). 'Apesar da aparência' também sugere a resposta. A reescrita fica fiel ao trecho.",
+      "reescrita": {
+        "pergunta": "Estudos filogenéticos mostram que este pequeno mamífero africano é mais aparentado a qual destes animais?",
+        "resposta": "Elefante",
+        "distratores": [
+          "Musaranho",
+          "Ouriço",
+          "Ratazana"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento por juba cinzenta e pelagem preta. Não há vazamento, e a Índia está nos trechos.",
+      "reescrita": null
+    }
+  ]
+}
