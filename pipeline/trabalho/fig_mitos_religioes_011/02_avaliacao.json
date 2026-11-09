@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem é uma estampa com o texto dos mandamentos e a frase 'God spake all these words'; o texto entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A placa sobre a porta traz o nome do templo em caracteres chineses (少林寺, Shaolin), o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estátua de madeira com tambores, reconhecível como Raijin, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que divindade japonesa é esta?",
+      "resposta": "Raijin",
+      "distratores": [
+        "Fūjin",
+        "Hachiman",
+        "Susanoo"
+      ],
+      "ancora": {
+        "nome": "Raijin",
+        "descricao": "Deus do trovão na mitologia japonesa e no xintoísmo, representado com tambores.",
+        "variantes": [
+          "Kaminari-sama",
+          "Raiden"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura de Guido Reni com o arcanjo Miguel, sem texto; reconhecível pela espada, pelas asas e pelo demônio sob o pé.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arcanjo é este?",
+      "resposta": "Miguel",
+      "distratores": [
+        "Gabriel",
+        "Rafael",
+        "Uriel"
+      ],
+      "ancora": {
+        "nome": "Arcanjo Miguel",
+        "descricao": "Arcanjo guerreiro das tradições judaica, cristã e islâmica, aqui na pintura de Guido Reni que o mostra vencendo Satanás.",
+        "variantes": [
+          "São Miguel Arcanjo",
+          "Michael"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A pintura de figura feminina nua com um cupido não é reconhecível como Gaia; poderia ser Vênus, Nix ou outra figura, então a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração do Códice Telleriano-Remensis, de domínio público, com a divindade asteca com elmo de beija-flor; os fragmentos de texto nas bordas não entregam o nome.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que cidade tinha como deus protetor esta divindade asteca?",
+      "resposta": "Tenochtitlan",
+      "distratores": [
+        "Texcoco",
+        "Tlacopan",
+        "Cholula"
+      ],
+      "ancora": {
+        "nome": "Huitzilopochtli",
+        "descricao": "Deus asteca do sol e da guerra, patrono do povo mexica e de Tenochtitlan.",
+        "variantes": [
+          "Huichilobos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O afresco traz inscrição com o nome ('FRA CISCV'), o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Minarete de tijolo da Grande Mesquita de Cairuão, sem texto, forma bem característica.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de torre é esta, ligada a uma mesquita?",
+      "resposta": "Minarete",
+      "distratores": [
+        "Campanário",
+        "Zigurate",
+        "Farol"
+      ],
+      "ancora": {
+        "nome": "Minarete da Grande Mesquita de Cairuão",
+        "descricao": "Torre de tijolo da Grande Mesquita de Cairuão, na Tunísia, exemplo de minarete.",
+        "variantes": [
+          "Minarete"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura japonesa do bodisatva Jizō, com monge de auréola, bastão e joia, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que bodisatva budista é este?",
+      "resposta": "Jizō",
+      "distratores": [
+        "Kannon",
+        "Amida",
+        "Monju"
+      ],
+      "ancora": {
+        "nome": "Jizō",
+        "descricao": "Bodisatva budista Kṣitigarbha, venerado no Japão como guardião das crianças e dos viajantes.",
+        "variantes": [
+          "Kṣitigarbha",
+          "Dizang",
+          "Jizo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pintura de Edward Hicks mostrando a Arca de Noé com animais, sem texto, inequívoca.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que livro da Bíblia aparece a história da embarcação deste quadro?",
+      "resposta": "Gênesis",
+      "distratores": [
+        "Êxodo",
+        "Levítico",
+        "Números"
+      ],
+      "ancora": {
+        "nome": "Arca de Noé",
+        "descricao": "Embarcação do relato bíblico do dilúvio, na qual Noé abrigou sua família e casais de animais.",
+        "variantes": [
+          "Arca de Noe",
+          "Noah's Ark"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Leão guardião de bronze diante de um palácio chinês, sem texto, reconhecível pela forma típica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que criatura guardiã de entradas é esta?",
+      "resposta": "Leão guardião chinês",
+      "distratores": [
+        "Qilin",
+        "Pixiu",
+        "Dragão chinês"
+      ],
+      "ancora": {
+        "nome": "Leões guardiões chineses",
+        "descricao": "Par de estátuas de leões, tradicionalmente de pedra ou bronze, que protegem palácios, templos e tumbas na China.",
+        "variantes": [
+          "Shishi",
+          "Cães de Fo",
+          "Foo dogs"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Escultura de esqueleto encapuzado com foice, personificação clássica da Morte, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que figura mitológica é esta?",
+      "resposta": "Ceifador (a Morte)",
+      "distratores": [
+        "Peste",
+        "Fome",
+        "Guerra"
+      ],
+      "ancora": {
+        "nome": "Morte (Ceifador)",
+        "descricao": "Personificação da morte como esqueleto encapuzado que carrega uma foice.",
+        "variantes": [
+          "Grim Reaper",
+          "Ceifador",
+          "A Morte"
+        ]
+      }
+    }
+  ]
+}

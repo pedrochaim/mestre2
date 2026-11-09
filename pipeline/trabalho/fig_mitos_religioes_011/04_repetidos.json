@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cidade tinha como deus protetor esta divindade asteca?",
+        "resposta": "Tenochtitlan"
+      },
+      "existentes": [
+        {
+          "id": "q03489",
+          "pergunta": "Que pequena ave aparece no nome de Huitzilopochtli, o deus asteca da guerra?",
+          "resposta": "Beija-flor"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a cidade protegida pela divindade (Tenochtitlan); a existente é sobre a ave no nome do deus (beija-flor). São fatos diferentes."
+    }
+  ]
+}

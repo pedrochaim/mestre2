@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista, resposta única, distratores do mesmo tipo (irmãos e deuses japoneses) e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto do arcanjo na pintura de Reni. Distratores são arcanjos e nenhum deles é Miguel.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma Tenochtitlan como cidade-capital da qual Huitzilopochtli era patrono. O enunciado não vaza a resposta e os distratores são cidades astecas ou mesoamericanas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Torre ligada a uma mesquita' define a resposta e dispensa a figura. Tirei essa pista e deixei só a pista geográfica.",
+      "reescrita": {
+        "pergunta": "Esta torre de tijolo fica na Tunísia. Que tipo de torre é esta?",
+        "resposta": "Minarete",
+        "distratores": [
+          "Campanário",
+          "Zigurate",
+          "Farol"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Amida é um buda, não um bodisatva, então o distrator se elimina pelo tipo. Troquei por outro bodisatva.",
+      "reescrita": {
+        "pergunta": "Que bodisatva budista é este?",
+        "resposta": "Jizō",
+        "distratores": [
+          "Kannon",
+          "Monju",
+          "Fugen"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Embarcação' e 'Bíblia' quase entregam a história sem a imagem. Passei a pedir o episódio retratado, para o reconhecimento vir da figura.",
+      "reescrita": {
+        "pergunta": "Em que livro da Bíblia aparece o episódio retratado neste quadro?",
+        "resposta": "Gênesis",
+        "distratores": [
+          "Êxodo",
+          "Levítico",
+          "Números"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Guardiã de entradas' entrega a resposta, que já traz 'guardião'. Os distratores Qilin e Pixiu também são criaturas ligadas à guarda e à proteção. Refiz a pergunta para pedir o animal.",
+      "reescrita": {
+        "pergunta": "Que animal é representado nesta escultura tradicional chinesa?",
+        "resposta": "Leão",
+        "distratores": [
+          "Tigre",
+          "Elefante",
+          "Dragão"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento do Ceifador, com resposta e distratores coerentes (os outros cavaleiros do Apocalipse). O enunciado não dá pista.",
+      "reescrita": null
+    }
+  ]
+}
