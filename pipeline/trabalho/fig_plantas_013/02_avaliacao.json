@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Tronco velho e retorcido numa floresta; a espécie não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Umbela azul-lilás típica, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que flor de origem africana é esta?",
+      "resposta": "Agapanto",
+      "distratores": [],
+      "ancora": {
+        "nome": "Agapanto",
+        "descricao": "Gênero de plantas ornamentais sul-africanas de umbelas azul-lilás, também chamado lírio-do-nilo.",
+        "variantes": [
+          "Agapanthus",
+          "Lírio-africano",
+          "Lírio-do-nilo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pessoa em primeiro plano ao lado da planta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Frutos alaranjados na árvore, com folhas largas; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que fruta é esta, ainda na árvore?",
+      "resposta": "Caqui",
+      "distratores": [],
+      "ancora": {
+        "nome": "Caqui",
+        "descricao": "Fruto alaranjado do caquizeiro (Diospyros kaki), originário da China.",
+        "variantes": [
+          "Diospyros kaki",
+          "Caqui-japonês"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "É uma ilustração botânica, e ilustração só vale para o que não pode ser fotografado."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Casca multicolorida característica, única.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que árvore é esta casca?",
+      "resposta": "Eucalipto-arco-íris",
+      "distratores": [],
+      "ancora": {
+        "nome": "Eucalipto-arco-íris",
+        "descricao": "Árvore tropical Eucalyptus deglupta, de casca multicolorida, nativa das Filipinas, Indonésia e Papua-Nova Guiné.",
+        "variantes": [
+          "Eucalyptus deglupta",
+          "Eucalipto-de-mindanau"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Grãos secos e verdes reconhecíveis; múltipla com leguminosas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que leguminosa é esta, vista seca e ainda verde?",
+      "resposta": "Grão-de-bico",
+      "distratores": [
+        "Lentilha",
+        "Ervilha",
+        "Feijão-fradinho"
+      ],
+      "ancora": {
+        "nome": "Grão-de-bico",
+        "descricao": "Leguminosa Cicer arietinum, de sementes arredondadas e rugosas, cultivada para consumo.",
+        "variantes": [
+          "Cicer arietinum",
+          "Chickpea"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Flores brancas com centro amarelo, típicas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que flor tropical perfumada é esta?",
+      "resposta": "Jasmim-manga",
+      "distratores": [],
+      "ancora": {
+        "nome": "Jasmim-manga",
+        "descricao": "Árvore ornamental do gênero Plumeria, de flores brancas com centro amarelo.",
+        "variantes": [
+          "Plumeria",
+          "Frangipani",
+          "Jasmim-manga-branco"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Folhas palmadas grandes e caules ocos característicos; múltipla com plantas de folhas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que árvore pioneira das matas brasileiras é esta?",
+      "resposta": "Embaúba",
+      "distratores": [
+        "Mamoneira",
+        "Mandioca",
+        "Castanheira"
+      ],
+      "ancora": {
+        "nome": "Embaúba",
+        "descricao": "Árvore pioneira neotropical do gênero Cecropia, de folhas grandes palmadas.",
+        "variantes": [
+          "Imbaúba",
+          "Cecropia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Frutos roxo-avermelhados com cerosidade e folhas serrilhadas, compatíveis com ameixa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quando desidratada, esta fruta vira que produto?",
+      "resposta": "Ameixa-seca",
+      "distratores": [
+        "Uva-passa",
+        "Damasco seco",
+        "Tâmara"
+      ],
+      "ancora": {
+        "nome": "Ameixa",
+        "descricao": "Fruto de árvores do subgênero Prunus subg. Prunus, de caroço duro, comido fresco ou seco.",
+        "variantes": [
+          "Plum",
+          "Prunus domestica"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Flores em funil rosadas com nervuras, típicas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que flor de jardineira é esta?",
+      "resposta": "Petúnia",
+      "distratores": [],
+      "ancora": {
+        "nome": "Petúnia",
+        "descricao": "Planta ornamental do gênero Petunia, de flores em forma de funil, de origem sul-americana.",
+        "variantes": [
+          "Petunia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Filamentos acinzentados pendentes nas árvores, característicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que planta pendurada nas árvores é esta?",
+      "resposta": "Barba-de-velho",
+      "distratores": [
+        "Cipó-chumbo",
+        "Musgo-de-turfa",
+        "Barba-de-bode"
+      ],
+      "ancora": {
+        "nome": "Barba-de-velho",
+        "descricao": "Bromélia epífita Tillandsia usneoides, de filamentos acinzentados pendentes nas árvores.",
+        "variantes": [
+          "Tillandsia usneoides",
+          "Spanish moss",
+          "Musgo-espanhol"
+        ]
+      }
+    }
+  ]
+}

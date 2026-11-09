@@ -1,0 +1,510 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Agapanto",
+        "descricao": "Gênero de plantas ornamentais sul-africanas de umbelas azul-lilás, também chamado lírio-do-nilo.",
+        "variantes": [
+          "Agapanthus",
+          "Lírio-africano",
+          "Lírio-do-nilo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leao_o_africano",
+          "nome": "Leão, o Africano",
+          "descricao": "Diplomata e viajante do século dezesseis, autor de uma célebre descrição da África, nascido al-Hasan al-Wazzan.",
+          "variantes": [
+            "Leo Africanus",
+            "Hasan al-Wazzan",
+            "Leão Africano"
+          ]
+        },
+        {
+          "id": "varano_do_nilo",
+          "nome": "Varano-do-nilo",
+          "descricao": "Grande lagarto semiaquático da África subsaariana, Varanus niloticus.",
+          "variantes": [
+            "Lagarto-do-nilo",
+            "Varanus niloticus"
+          ]
+        },
+        {
+          "id": "leopardo",
+          "nome": "Leopardo",
+          "descricao": "Grande felino do gênero Panthera, de pelagem dourada com rosetas escuras (Panthera pardus).",
+          "variantes": [
+            "Panthera pardus",
+            "Leopardo-africano"
+          ]
+        },
+        {
+          "id": "lirio_do_vale",
+          "nome": "Lírio-do-vale",
+          "descricao": "Planta Convallaria majalis, de flores brancas em forma de sino e muito venenosa.",
+          "variantes": [
+            "Convallaria majalis",
+            "Muguet",
+            "Lily of the valley"
+          ]
+        },
+        {
+          "id": "rio_nilo",
+          "nome": "Rio Nilo",
+          "descricao": "Grande rio do nordeste da África que atravessa o Sudão e o Egito até o mar Mediterrâneo.",
+          "variantes": [
+            "Nilo",
+            "Nile"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Caqui",
+        "descricao": "Fruto alaranjado do caquizeiro (Diospyros kaki), originário da China.",
+        "variantes": [
+          "Diospyros kaki",
+          "Caqui-japonês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caqui",
+          "nome": "Cáqui",
+          "descricao": "Cor bege-amarronzada adotada em uniformes militares a partir do exército britânico na Índia",
+          "variantes": [
+            "Khaki"
+          ]
+        },
+        {
+          "id": "caqui_2",
+          "nome": "Caqui",
+          "descricao": "Fruta alaranjada da árvore Diospyros kaki, o caquizeiro.",
+          "variantes": [
+            "Caqui-fuyu",
+            "Diospyros kaki",
+            "Persimmon"
+          ]
+        },
+        {
+          "id": "buzio_cauri",
+          "nome": "Búzio-cauri",
+          "descricao": "Concha de pequenos moluscos do oceano Índico, usada como moeda em várias regiões da África.",
+          "variantes": [
+            "Cauri",
+            "Cowrie",
+            "Búzio"
+          ]
+        },
+        {
+          "id": "tabi",
+          "nome": "Tabi",
+          "descricao": "Meia tradicional japonesa com o dedão separado dos outros dedos, usada com calçados de tiras.",
+          "variantes": [
+            "Tabi japonês"
+          ]
+        },
+        {
+          "id": "haori",
+          "nome": "Haori",
+          "descricao": "Casaco tradicional japonês, curto e aberto na frente, usado sobre o quimono.",
+          "variantes": [
+            "Jaqueta japonesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Eucalipto-arco-íris",
+        "descricao": "Árvore tropical Eucalyptus deglupta, de casca multicolorida, nativa das Filipinas, Indonésia e Papua-Nova Guiné.",
+        "variantes": [
+          "Eucalyptus deglupta",
+          "Eucalipto-de-mindanau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cano_cristales",
+          "nome": "Caño Cristales",
+          "descricao": "Rio da serra de La Macarena, na Colômbia, conhecido como rio de cinco cores.",
+          "variantes": [
+            "Rio de Cinco Cores",
+            "Rio Arco-Íris"
+          ]
+        },
+        {
+          "id": "loris_arco_iris",
+          "nome": "Lóris-arco-íris",
+          "descricao": "Papagaio australiano (Trichoglossus moluccanus) de cabeça azul, peito laranja e dorso verde.",
+          "variantes": [
+            "Lóris-molucano",
+            "Trichoglossus moluccanus",
+            "Rainbow lorikeet"
+          ]
+        },
+        {
+          "id": "eucalipto",
+          "nome": "Eucalipto",
+          "descricao": "Árvore do gênero Eucalyptus, muito plantada no Brasil para produção de celulose e madeira",
+          "variantes": [
+            "Eucalyptus"
+          ]
+        },
+        {
+          "id": "rainbow_cloud_pokemon_snap",
+          "nome": "Rainbow Cloud (Pokémon Snap)",
+          "descricao": "Fase final e secreta de Pokémon Snap, uma nuvem de arco-íris onde Todd fotografa o mítico Mew.",
+          "variantes": [
+            "Rainbow Cloud",
+            "Nuvem Arco-Íris"
+          ]
+        },
+        {
+          "id": "caldo_de_cana",
+          "nome": "Caldo de cana",
+          "descricao": "Bebida feita do líquido extraído da cana-de-açúcar prensada.",
+          "variantes": [
+            "Garapa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Grão-de-bico",
+        "descricao": "Leguminosa Cicer arietinum, de sementes arredondadas e rugosas, cultivada para consumo.",
+        "variantes": [
+          "Cicer arietinum",
+          "Chickpea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grao_de_bico",
+          "nome": "Grão-de-bico",
+          "descricao": "Semente da leguminosa Cicer arietinum, usada no homus e no falafel.",
+          "variantes": [
+            "Chickpea",
+            "Garbanzo"
+          ]
+        },
+        {
+          "id": "mascara_de_medico_da_peste",
+          "nome": "Máscara de médico da peste",
+          "descricao": "Máscara de bico longo do Carnaval de Veneza, inspirada no traje dos médicos que tratavam a peste.",
+          "variantes": [
+            "Medico della peste",
+            "Máscara de bico"
+          ]
+        },
+        {
+          "id": "jogo_do_bicho",
+          "nome": "Jogo do bicho",
+          "descricao": "Jogo de apostas brasileiro baseado numa tabela de animais, criado em 1892 no Rio de Janeiro.",
+          "variantes": []
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        },
+        {
+          "id": "polen",
+          "nome": "Pólen",
+          "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+          "variantes": [
+            "Grão de pólen",
+            "Grãos de pólen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jasmim-manga",
+        "descricao": "Árvore ornamental do gênero Plumeria, de flores brancas com centro amarelo.",
+        "variantes": [
+          "Plumeria",
+          "Frangipani",
+          "Jasmim-manga-branco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "plumeria",
+          "nome": "Plumeria",
+          "descricao": "Administradora da Equipe Skull em Pokémon Sun e Moon, especialista em pokémon venenosos.",
+          "variantes": []
+        },
+        {
+          "id": "sumerios",
+          "nome": "Sumérios",
+          "descricao": "Povo da Baixa Mesopotâmia que desenvolveu a escrita cuneiforme.",
+          "variantes": [
+            "Suméria",
+            "Sumer"
+          ]
+        },
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Embaúba",
+        "descricao": "Árvore pioneira neotropical do gênero Cecropia, de folhas grandes palmadas.",
+        "variantes": [
+          "Imbaúba",
+          "Cecropia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pajuba",
+          "nome": "Pajubá",
+          "descricao": "Linguagem popular da comunidade LGBT brasileira, com muitas palavras de origem africana",
+          "variantes": [
+            "Bajubá"
+          ]
+        },
+        {
+          "id": "entropia",
+          "nome": "Entropia",
+          "descricao": "Grandeza da termodinâmica, introduzida por Rudolf Clausius em 1865, associada à irreversibilidade dos processos e ao grau de desordem de um sistema.",
+          "variantes": [
+            "Entropy"
+          ]
+        },
+        {
+          "id": "europa_lua",
+          "nome": "Europa (lua)",
+          "descricao": "Lua gelada de Júpiter, a menor das quatro luas galileanas, com superfície lisa e fissurada.",
+          "variantes": [
+            "Europa",
+            "Júpiter II"
+          ]
+        },
+        {
+          "id": "sinfonia_heroica",
+          "nome": "Sinfonia Heroica",
+          "descricao": "Terceira Sinfonia de Ludwig van Beethoven, de 1804, originalmente ligada a Napoleão.",
+          "variantes": [
+            "Sinfonia nº 3 de Beethoven",
+            "Eroica",
+            "Sinfonia n.º 3 de Beethoven",
+            "Terceira Sinfonia"
+          ]
+        },
+        {
+          "id": "morty",
+          "nome": "Morty",
+          "descricao": "Líder do ginásio de tipo Fantasma de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver.",
+          "variantes": [
+            "Matsuba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Petúnia",
+        "descricao": "Planta ornamental do gênero Petunia, de flores em forma de funil, de origem sul-americana.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "atum",
+          "nome": "Atum",
+          "descricao": "Peixe oceânico veloz da tribo Thunnini, de corpo fusiforme, muito usado na alimentação.",
+          "variantes": [
+            "Thunnus",
+            "Tuna"
+          ]
+        },
+        {
+          "id": "biscoito_de_polvilho",
+          "nome": "Biscoito de polvilho",
+          "descricao": "Biscoito típico brasileiro feito de polvilho, em forma de argola, como o Biscoito Globo.",
+          "variantes": [
+            "Avoador",
+            "Biscoito de goma",
+            "Biscoito de vento",
+            "Biscoito voador",
+            "Peta"
+          ]
+        },
+        {
+          "id": "pena_de_escrever",
+          "nome": "Pena de escrever",
+          "descricao": "Instrumento de escrita feito de uma pena de ave, molhada em tinta.",
+          "variantes": [
+            "Pena",
+            "Pena de ave",
+            "Quill"
+          ]
+        },
+        {
+          "id": "letonia",
+          "nome": "Letônia",
+          "descricao": "País báltico do norte da Europa, entre a Estônia e a Lituânia, cuja capital é Riga.",
+          "variantes": [
+            "Latvia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Barba-de-velho",
+        "descricao": "Bromélia epífita Tillandsia usneoides, de filamentos acinzentados pendentes nas árvores.",
+        "variantes": [
+          "Tillandsia usneoides",
+          "Spanish moss",
+          "Musgo-espanhol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barba_de_velho",
+          "nome": "Barba-de-velho",
+          "descricao": "Bromélia epífita (Tillandsia usneoides) que pende em longos filamentos acinzentados das árvores.",
+          "variantes": [
+            "Tillandsia usneoides",
+            "Barba-de-pau",
+            "Musgo-espanhol"
+          ]
+        },
+        {
+          "id": "praca_de_espanha",
+          "nome": "Praça de Espanha",
+          "descricao": "Praça de Roma, na Itália, famosa pela escadaria barroca que sobe até a igreja da Trinità dei Monti.",
+          "variantes": [
+            "Piazza di Spagna",
+            "Escadaria da Praça de Espanha",
+            "Spanish Steps"
+          ]
+        },
+        {
+          "id": "lingua_espanhola",
+          "nome": "Língua espanhola",
+          "descricao": "Língua românica originada em Castela, oficial na Espanha e em boa parte da América Latina",
+          "variantes": [
+            "Espanhol",
+            "Castelhano"
+          ]
+        },
+        {
+          "id": "barao_vermelho",
+          "nome": "Barão Vermelho",
+          "descricao": "Banda de rock carioca formada em 1981, que revelou o cantor Cazuza.",
+          "variantes": []
+        },
+        {
+          "id": "manfred_von_richthofen",
+          "nome": "Manfred von Richthofen",
+          "descricao": "Aviador de caça alemão da Primeira Guerra Mundial, o ás com mais vitórias aéreas creditadas no conflito, morto em combate em 1918.",
+          "variantes": [
+            "Barão Vermelho",
+            "Red Baron",
+            "Der Rote Baron"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Agapanto (planta) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "caqui_2",
+      "motivo": "Mesma fruta Diospyros kaki; 'caqui' é a cor."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Eucalyptus deglupta é espécie distinta do gênero Eucalipto genérico."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "grao_de_bico",
+      "motivo": "Mesma leguminosa Cicer arietinum."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Plumeria candidata é personagem de Pokémon; a proposta é planta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a árvore Cecropia."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a planta petúnia."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "barba_de_velho",
+      "motivo": "Mesma bromélia Tillandsia usneoides."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruta alaranjada de origem chinesa é esta?",
+        "resposta": "Caqui"
+      },
+      "existentes": [
+        {
+          "id": "q14364",
+          "pergunta": "Que fruta é esta, pendurada no pé?",
+          "resposta": "Caqui"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que leguminosa de sementes arredondadas e rugosas é esta?",
+        "resposta": "Grão-de-bico"
+      },
+      "existentes": [
+        {
+          "id": "q14623",
+          "pergunta": "Que grão é este?",
+          "resposta": "Grão-de-bico"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que planta de filamentos acinzentados, pendurada nas árvores, é esta?",
+        "resposta": "Barba-de-velho"
+      },
+      "existentes": [
+        {
+          "id": "q16431",
+          "pergunta": "Esta planta que pende dos galhos pertence à mesma família de que fruta?",
+          "resposta": "Abacaxi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14364",
+      "motivo": "Ambas pedem identificar a fruta pela imagem; resposta Caqui."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14623",
+      "motivo": "Ambas pedem identificar o grão pela imagem; resposta Grão-de-bico."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a família da planta (abacaxi); a nova pede identificar a planta (barba-de-velho). Fatos diferentes."
+    }
+  ]
+}

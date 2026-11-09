@@ -1,0 +1,94 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Agapanto é originário da África do Sul; a pista 'origem africana' não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ainda na árvore' é uma afirmação sobre a foto que 'mostra' não confirma; removida para o enunciado ser verdadeiro em qualquer foto do fruto.",
+      "reescrita": {
+        "pergunta": "Que fruta alaranjada de origem chinesa é esta?",
+        "resposta": "Caqui"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casca multicolorida é característica do eucalipto-arco-íris; o enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Vista seca e ainda verde' é inverídica para uma única foto e confusa para voz. Distratores adequados.",
+      "reescrita": {
+        "pergunta": "Que leguminosa de sementes arredondadas e rugosas é esta?",
+        "resposta": "Grão-de-bico",
+        "distratores": [
+          "Lentilha",
+          "Ervilha",
+          "Feijão-fradinho"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plumeria rubra é chamada de jasmim-manga no Brasil; a pista 'tropical perfumada' não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Mandioca não é árvore, então o distrator não é do mesmo tipo da resposta. Substituído por uma árvore.",
+      "reescrita": {
+        "pergunta": "Que árvore pioneira das matas brasileiras é esta?",
+        "resposta": "Embaúba",
+        "distratores": [
+          "Mamoneira",
+          "Castanheira",
+          "Paineira"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta 'ameixa-seca' é só o nome da fruta mais 'seca'. Quem reconhece a fruta acerta, então não há passo de conhecimento real, e a pergunta é fraca.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Petúnia é muito usada em jardineiras; a pista não identifica sozinha.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Barba-de-bode' é distrator duvidoso, porque há plantas e líquens com nomes populares parecidos. Substituído por uma planta que também vive pendurada em árvores.",
+      "reescrita": {
+        "pergunta": "Que planta de filamentos acinzentados, pendurada nas árvores, é esta?",
+        "resposta": "Barba-de-velho",
+        "distratores": [
+          "Cipó-chumbo",
+          "Musgo-de-turfa",
+          "Erva-de-passarinho"
+        ]
+      }
+    }
+  ]
+}
