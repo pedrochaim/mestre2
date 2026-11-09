@@ -1,0 +1,141 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Jaleco branco pendurado, claro e reconhecível; o texto parcial de hospital não entrega o nome. Troquei para o_que_e, multipla, nível 2.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça de roupa é esta, usada por profissionais de saúde e de laboratório para proteger a roupa de rua?",
+      "resposta": "Jaleco",
+      "distratores": [
+        "Blazer",
+        "Sobretudo",
+        "Casaco trench"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jaleco",
+        "descricao": "Casaco branco até o joelho usado por profissionais de saúde e de laboratório.",
+        "variantes": [
+          "Avental de laboratório",
+          "Guarda-pó",
+          "Bata branca"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "É um desenho a tinta de duas saias, de frente e de costas; ilustração não é aceita para peça que pode ser fotografada, e o traço é pouco reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tecidos com estampa ikat, todos do mesmo tipo de têxtil, sem texto; padrão reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "O nome desta técnica de tingimento dos fios antes da tecelagem vem do idioma de qual país?",
+      "resposta": "Indonésia",
+      "distratores": [
+        "Índia",
+        "Japão",
+        "Peru"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ikat",
+        "descricao": "Técnica de tecelagem em que os fios são tingidos por reserva antes de tecer, gerando estampas de contornos difusos.",
+        "variantes": [
+          "Tecido ikat"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Jaqueta jeans clara sobre uma mesa, nítida e sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país esta peça foi introduzida no fim do século dezenove?",
+      "resposta": "Estados Unidos",
+      "distratores": [
+        "Reino Unido",
+        "França",
+        "Itália"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jaqueta jeans",
+        "descricao": "Jaqueta feita de tecido denim, peça casual ícone da moda americana.",
+        "variantes": [
+          "Jaqueta de brim",
+          "Jean jacket",
+          "Trucker jacket"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Close do rosto de uma pessoa comum em primeiro plano, com outras pessoas refletidas nas lentes."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, num contexto que não é claramente festa pública; várias estampas e peças competem na imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Desenho a tinta de uma calça, de traço ambíguo; ilustração não aceita para peça fotografável e a peça não é inequívoca."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Retrato de uma pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Dois pares de botas macias de cano alto, nítidas e sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que região do mundo povos indígenas usam tradicionalmente estas botas macias de cano alto?",
+      "resposta": "Ártico",
+      "distratores": [
+        "Andes",
+        "Saara",
+        "Himalaia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mukluk",
+        "descricao": "Bota macia de cano alto, tradicionalmente de pele de rena ou foca, usada por povos indígenas do Ártico.",
+        "variantes": [
+          "Kamik",
+          "Kamiit"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto de modelo comercial, pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pessoa em primeiro plano com texto visível na camiseta; foto de uma artista pouco conhecida."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Desenho a tinta de uma gravata bolo, de traço denso; ilustração não aceita para objeto fotografável."
+    }
+  ]
+}

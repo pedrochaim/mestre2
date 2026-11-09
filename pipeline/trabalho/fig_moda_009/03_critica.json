@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a função da peça (proteger a roupa de rua em saúde e laboratório), o que permite responder 'jaleco' sem ver a figura. Removida a pista funcional.",
+      "reescrita": {
+        "pergunta": "Que peça de roupa, em geral de tecido branco, é esta?",
+        "resposta": "Jaleco",
+        "distratores": [
+          "Blazer",
+          "Sobretudo",
+          "Casaco trench"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem só que 'ikat' vem de línguas malaio-polinésias. O idioma malaio também é de Malásia e Brunei, e o indonésio deriva dele, então 'Indonésia' não é resposta única. O trecho não sustenta a resposta como país.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a jaqueta jeans foi introduzida nos Estados Unidos no fim do século dezenove. O enunciado não vaza a resposta, a resposta é única e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que os povos indígenas do Ártico usam tradicionalmente o mukluk. O enunciado não nomeia a peça nem a região, e a resposta é única. Os distratores são regiões do mesmo tipo.",
+      "reescrita": null
+    }
+  ]
+}

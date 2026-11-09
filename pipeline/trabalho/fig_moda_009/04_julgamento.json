@@ -1,0 +1,194 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jaleco",
+        "descricao": "Casaco branco até o joelho usado por profissionais de saúde e de laboratório.",
+        "variantes": [
+          "Avental de laboratório",
+          "Guarda-pó",
+          "Bata branca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barba_branca",
+          "nome": "Barba Branca",
+          "descricao": "Edward Newgate, lendário capitão pirata dos Piratas do Barba Branca em One Piece, um dos Quatro Imperadores.",
+          "variantes": [
+            "Edward Newgate",
+            "Whitebeard"
+          ]
+        },
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "asa_branca_2",
+          "nome": "Asa-branca",
+          "descricao": "Pomba sul-americana que abandona o sertão nordestino nas secas",
+          "variantes": [
+            "Pomba asa-branca",
+            "Patagioenas picazuro",
+            "Pombão"
+          ]
+        },
+        {
+          "id": "marreca_cabocla",
+          "nome": "Marreca-cabocla",
+          "descricao": "Marreca arborícola de bico rosa e ventre preto, Dendrocygna autumnalis.",
+          "variantes": [
+            "Asa-branca",
+            "Black-bellied whistling duck",
+            "Dendrocygna autumnalis"
+          ]
+        },
+        {
+          "id": "beluga",
+          "nome": "Beluga",
+          "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+          "variantes": [
+            "Baleia-branca",
+            "Delphinapterus leucas",
+            "Beluga whale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Jaqueta jeans",
+        "descricao": "Jaqueta feita de tecido denim, peça casual ícone da moda americana.",
+        "variantes": [
+          "Jaqueta de brim",
+          "Jean jacket",
+          "Trucker jacket"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "haori",
+          "nome": "Haori",
+          "descricao": "Casaco tradicional japonês, curto e aberto na frente, usado sobre o quimono.",
+          "variantes": [
+            "Jaqueta japonesa"
+          ]
+        },
+        {
+          "id": "jaqueta_bomber",
+          "nome": "Jaqueta bomber",
+          "descricao": "Jaqueta curta de couro com gola de pelo e punhos e barra de malha, criada para pilotos e depois popularizada como moda.",
+          "variantes": [
+            "Bomber",
+            "Jaqueta de aviador",
+            "Flight jacket"
+          ]
+        },
+        {
+          "id": "blazer",
+          "nome": "Blazer",
+          "descricao": "Casaco esportivo leve, tradicionalmente de lã ou linho, com botões metálicos, mais elegante que a jaqueta esportiva comum e menos formal que o paletó de terno.",
+          "variantes": [
+            "Blazer listrado",
+            "Boating jacket"
+          ]
+        },
+        {
+          "id": "queda_do_imperio_romano_do_ocidente",
+          "nome": "Queda do Império Romano do Ocidente",
+          "descricao": "Fim do poder imperial romano no Ocidente, marcado pela deposição de Rômulo Augusto pelo chefe germânico Odoacro.",
+          "variantes": [
+            "Queda de Roma",
+            "Fall of the Western Roman Empire"
+          ]
+        },
+        {
+          "id": "raquete_de_tenis",
+          "nome": "Raquete de tênis",
+          "descricao": "Instrumento com aro e cordas tensionadas usado para golpear a bola no tênis.",
+          "variantes": [
+            "Tennis racket",
+            "Raqueta de tênis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mukluk",
+        "descricao": "Bota macia de cano alto, tradicionalmente de pele de rena ou foca, usada por povos indígenas do Ártico.",
+        "variantes": [
+          "Kamik",
+          "Kamiit"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kamek",
+          "nome": "Kamek",
+          "descricao": "Magikoopa idoso, conselheiro de Bowser e arqui-inimigo de Yoshi na série Mario.",
+          "variantes": [
+            "Magikoopa Kamek"
+          ]
+        },
+        {
+          "id": "kamikaze",
+          "nome": "Kamikaze",
+          "descricao": "Pilotos japoneses que, no fim da Segunda Guerra, lançavam seus aviões carregados de explosivos contra navios aliados.",
+          "variantes": [
+            "Camicase",
+            "Tokkōtai"
+          ]
+        },
+        {
+          "id": "kamikaze_2",
+          "nome": "Kamikaze",
+          "descricao": "Nome japonês, que significa vento divino, dado aos tufões que dispersaram as frotas mongóis que tentaram invadir o Japão no século treze.",
+          "variantes": [
+            "Vento divino",
+            "Kamikaze (tufões)"
+          ]
+        },
+        {
+          "id": "wartortle",
+          "nome": "Wartortle",
+          "descricao": "Pokémon tartaruga de água da primeira geração, evolução de Squirtle, número 8 da Pokédex Nacional.",
+          "variantes": [
+            "Kameil"
+          ]
+        },
+        {
+          "id": "misty",
+          "nome": "Misty",
+          "descricao": "Líder de ginásio do tipo Água de Cerulean, nos jogos, e companheira de viagem de Ash no início do anime Pokémon.",
+          "variantes": [
+            "Kasumi"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Jaleco é uma peça de vestuário; nenhuma candidata é equivalente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Jaqueta jeans é uma peça distinta das outras jaquetas candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mukluk é uma bota ártica; candidatas têm só nomes parecidos e são entidades diferentes."
+    }
+  ]
+}
