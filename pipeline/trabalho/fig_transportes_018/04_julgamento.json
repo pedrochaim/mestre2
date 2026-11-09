@@ -1,0 +1,391 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Paraquedas",
+        "descricao": "Dispositivo que desacelera a queda de uma pessoa ou objeto na atmosfera por arrasto.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "paraquedas",
+          "nome": "Paraquedas",
+          "descricao": "Dispositivo que freia a descida de um objeto ou pessoa pela atmosfera, aqui sustentando uma cápsula espacial.",
+          "variantes": [
+            "Para-quedas"
+          ]
+        },
+        {
+          "id": "paraquedismo",
+          "nome": "Paraquedismo",
+          "descricao": "Esporte em que o praticante salta de uma aeronave, faz queda livre e abre um paraquedas para pousar.",
+          "variantes": [
+            "Skydiving",
+            "Paraquedismo esportivo"
+          ]
+        },
+        {
+          "id": "arqueias",
+          "nome": "Arqueias",
+          "descricao": "Domínio de microrganismos unicelulares, Archaea, distinto das bactérias e comum em ambientes extremos.",
+          "variantes": [
+            "Archaea",
+            "Arqueobactérias",
+            "Arqueia"
+          ]
+        },
+        {
+          "id": "ilha_de_paqueta",
+          "nome": "Ilha de Paquetá",
+          "descricao": "Ilha da baía de Guanabara, bairro da cidade do Rio de Janeiro, onde não circulam carros.",
+          "variantes": [
+            "Paquetá"
+          ]
+        },
+        {
+          "id": "lucas_paqueta",
+          "nome": "Lucas Paquetá",
+          "descricao": "Meio-campista brasileiro, ex-Flamengo, Milan, Lyon e West Ham.",
+          "variantes": [
+            "Paquetá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Quadriciclo",
+        "descricao": "Veículo todo-terreno de quatro rodas de baixa pressão, conduzido com o piloto montado como numa moto.",
+        "variantes": [
+          "ATV",
+          "Quad"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tv",
+          "nome": ".tv",
+          "descricao": "Domínio de internet de primeiro nível atribuído a um país do Pacífico e muito usado por serviços de vídeo.",
+          "variantes": [
+            "Ponto tv"
+          ]
+        },
+        {
+          "id": "quadrivium",
+          "nome": "Quadrivium",
+          "descricao": "Grupo das quatro artes liberais matemáticas do ensino medieval, estudadas depois do trivium.",
+          "variantes": [
+            "Quadrívio"
+          ]
+        },
+        {
+          "id": "kea",
+          "nome": "Kea",
+          "descricao": "Papagaio oliváceo de bico curvo, nativo dos Alpes da Ilha Sul da Nova Zelândia, Nestor notabilis.",
+          "variantes": [
+            "Nestor notabilis",
+            "Quia"
+          ]
+        },
+        {
+          "id": "triciclo",
+          "nome": "Triciclo",
+          "descricao": "Veículo de três rodas, movido por pedais, comum entre crianças.",
+          "variantes": [
+            "Velocípede de três rodas"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "F-117 Nighthawk",
+        "descricao": "Caça furtivo americano subsônico, o primeiro avião operacional projetado com tecnologia stealth.",
+        "variantes": [
+          "Lockheed F-117",
+          "F-117"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sr_71_blackbird",
+          "nome": "SR-71 Blackbird",
+          "descricao": "Avião de reconhecimento estratégico americano da Lockheed, capaz de voar acima de Mach 3.",
+          "variantes": [
+            "Lockheed SR-71",
+            "Blackbird",
+            "SR-71"
+          ]
+        },
+        {
+          "id": "falcoes_da_noite",
+          "nome": "Falcões da Noite",
+          "descricao": "Pintura americana de 1942 que mostra fregueses numa lanchonete iluminada de esquina, de madrugada.",
+          "variantes": [
+            "Nighthawks",
+            "Notívagos"
+          ]
+        },
+        {
+          "id": "little_boy",
+          "nome": "Little Boy",
+          "descricao": "Bomba atômica de fissão tipo canhão lançada sobre Hiroshima em 6 de agosto de 1945.",
+          "variantes": [
+            "Little Boy (bomba de Hiroshima)",
+            "L-11"
+          ]
+        },
+        {
+          "id": "ufc_157",
+          "nome": "UFC 157",
+          "descricao": "Evento do UFC de fevereiro de 2013 que teve a primeira luta feminina da organização, entre Ronda Rousey e Liz Carmouche.",
+          "variantes": [
+            "UFC 157: Rousey vs. Carmouche"
+          ]
+        },
+        {
+          "id": "f_14_tomcat",
+          "nome": "F-14 Tomcat",
+          "descricao": "Caça embarcado americano supersônico de dois motores e asas de geometria variável, usado pela Marinha dos EUA.",
+          "variantes": [
+            "Grumman F-14 Tomcat",
+            "F-14"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "V-22 Osprey",
+        "descricao": "Aeronave militar americana de transporte com rotores inclináveis, que decola como helicóptero e voa como avião.",
+        "variantes": [
+          "Bell Boeing V-22",
+          "CV-22 Osprey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "b_29_superfortress",
+          "nome": "B-29 Superfortress",
+          "descricao": "Bombardeiro pesado quadrimotor americano da Boeing, usado na Segunda Guerra Mundial, que lançou as bombas atômicas sobre o Japão.",
+          "variantes": [
+            "Boeing B-29",
+            "B-29",
+            "Superfortaleza"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lancia Stratos",
+        "descricao": "Carro esportivo italiano de motor central, projetado para rali, tricampeão mundial em 1974, 1975 e 1976.",
+        "variantes": [
+          "Lancia Stratos HF"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lancia_stratos",
+          "nome": "Lancia Stratos",
+          "descricao": "Carro esportivo de motor central da Lancia, projetado para ralis, tricampeão mundial de 1974 a 1976.",
+          "variantes": [
+            "Lancia Stratos HF",
+            "Stratos"
+          ]
+        },
+        {
+          "id": "balanca_de_roberval",
+          "nome": "Balança de Roberval",
+          "descricao": "Balança de dois pratos com mecanismo de paralelogramo articulado, apresentada em 1669.",
+          "variantes": [
+            "Balança de pratos",
+            "Roberval balance"
+          ]
+        },
+        {
+          "id": "esquilo_listrado",
+          "nome": "Esquilo-listrado",
+          "descricao": "Pequeno roedor Tamias striatus, de listras escuras nas costas, do leste da América do Norte.",
+          "variantes": [
+            "Tâmia",
+            "Tâmia-oriental",
+            "Tamias striatus"
+          ]
+        },
+        {
+          "id": "galaxias_dos_ratos",
+          "nome": "Galáxias dos Ratos",
+          "descricao": "Par de galáxias espirais em fusão na constelação Coma Berenices, com longas caudas de maré, catalogado como NGC 4676.",
+          "variantes": [
+            "NGC 4676",
+            "Mice Galaxies"
+          ]
+        },
+        {
+          "id": "lagoa_dos_patos",
+          "nome": "Lagoa dos Patos",
+          "descricao": "Grande laguna costeira do Rio Grande do Sul, ligada ao oceano pela barra junto à cidade de Rio Grande.",
+          "variantes": [
+            "Laguna dos Patos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Apache (helicóptero AH-64)",
+        "descricao": "Helicóptero de ataque americano bimotor, com cabine em tandem, desenvolvido pela Hughes.",
+        "variantes": [
+          "AH-64 Apache",
+          "Boeing AH-64 Apache"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pikachu_de_ash",
+          "nome": "Pikachu de Ash",
+          "descricao": "Pikachu parceiro de Ash Ketchum no anime Pokémon, recebido do Professor Carvalho no primeiro episódio.",
+          "variantes": [
+            "Ash's Pikachu"
+          ]
+        },
+        {
+          "id": "helicoptero",
+          "nome": "Helicóptero",
+          "descricao": "Aeronave de asas rotativas em que a sustentação e a propulsão vêm de rotores que giram na horizontal.",
+          "variantes": []
+        },
+        {
+          "id": "champanhe_no_podio",
+          "nome": "Champanhe no pódio",
+          "descricao": "Tradição de os vencedores de corridas espirrarem champanhe na comemoração do pódio.",
+          "variantes": [
+            "Banho de champanhe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Messerschmitt Bf 109",
+        "descricao": "Caça monoplano alemão, espinha dorsal da Luftwaffe na Segunda Guerra Mundial.",
+        "variantes": [
+          "Me 109",
+          "Bf 109"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "messerschmitt_bf_109",
+          "nome": "Messerschmitt Bf 109",
+          "descricao": "Caça monoplano alemão da Luftwaffe, espinha dorsal da força de caças alemã na Segunda Guerra Mundial.",
+          "variantes": [
+            "Me 109",
+            "Bf 109",
+            "Messerschmitt 109"
+          ]
+        },
+        {
+          "id": "embraer_bandeirante",
+          "nome": "Embraer Bandeirante",
+          "descricao": "Avião turboélice bimotor leve de transporte EMB 110, projetado pela Embraer e lançado no fim dos anos 1960.",
+          "variantes": [
+            "EMB 110",
+            "Embraer EMB 110 Bandeirante",
+            "EMB-110"
+          ]
+        },
+        {
+          "id": "mandibula_de_mauer",
+          "nome": "Mandíbula de Mauer",
+          "descricao": "Mandíbula Mauer 1, achada em 1907 numa pedreira de areia em Mauer e espécime-tipo do Homo heidelbergensis.",
+          "variantes": [
+            "Mauer 1",
+            "Homo heidelbergensis"
+          ]
+        },
+        {
+          "id": "galaxia_do_sombrero",
+          "nome": "Galáxia do Sombrero",
+          "descricao": "Galáxia Messier 104, nas fronteiras de Virgem e Corvo, vista quase de perfil.",
+          "variantes": [
+            "Galáxia do Sombreiro",
+            "Messier 104",
+            "M104",
+            "NGC 4594",
+            "Sombrero Galaxy"
+          ]
+        },
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120",
+            "Cochonilha",
+            "Ácido carmínico"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "paraquedas",
+      "motivo": "Mesmo dispositivo; a descrição existente apenas acrescenta contexto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um quadriciclo; Triciclo é outro veículo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "F-117 é uma aeronave distinta das candidatas (SR-71, F-14)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "V-22 Osprey é diferente do B-29."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "lancia_stratos",
+      "motivo": "Mesmo carro, mesmas variantes e descrição equivalente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O AH-64 Apache é um helicóptero específico; 'Helicóptero' é o conceito geral."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "messerschmitt_bf_109",
+      "motivo": "Mesmo caça alemão, mesmas variantes e descrição."
+    }
+  ]
+}

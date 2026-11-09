@@ -1,0 +1,70 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que equipamento é este?",
+        "resposta": "Paraquedas"
+      },
+      "existentes": [
+        {
+          "id": "q07633",
+          "pergunta": "Que equipamento é este?",
+          "resposta": "Paraquedas"
+        },
+        {
+          "id": "q19113",
+          "pergunta": "Em 1797, que francês saltou de um balão sobre Paris usando um paraquedas de seda, sem armação rígida, criado por ele mesmo?",
+          "resposta": "André-Jacques Garnerin"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano este carro de rali conquistou seu primeiro título mundial?",
+        "resposta": "1974"
+      },
+      "existentes": [
+        {
+          "id": "q16041",
+          "pergunta": "Que carro italiano de rali dos anos setenta é este?",
+          "resposta": "Lancia Stratos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que caça da Segunda Guerra Mundial é este?",
+        "resposta": "Messerschmitt Bf 109"
+      },
+      "existentes": [
+        {
+          "id": "q14311",
+          "pergunta": "Que caça alemão da Segunda Guerra Mundial é este?",
+          "resposta": "Messerschmitt Bf 109"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta (identificar o paraquedas pela imagem).",
+      "id_existente": "q07633"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o ano do primeiro título mundial, fato diferente de identificar o carro."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o Bf 109 pela imagem; mesma resposta e fato.",
+      "id_existente": "q14311"
+    }
+  ]
+}

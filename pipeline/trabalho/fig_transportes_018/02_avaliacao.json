@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Paraquedas bem visíveis, sem texto; nível 1 com múltipla porque o trecho não sustenta bem um nível 3.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que equipamento é este?",
+      "tipo": "multipla",
+      "resposta": "Paraquedas",
+      "distratores": [
+        "Balão de ar quente",
+        "Asa-delta",
+        "Vela de barco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paraquedas",
+        "descricao": "Dispositivo que desacelera a queda de uma pessoa ou objeto na atmosfera por arrasto.",
+        "variantes": [
+          "Paraquedas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Nome Lambretta escrito em letras cromadas na lateral da carenagem entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Nome NORMANDIE aparece escrito no casco, perto da proa."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Quadriciclo claro, só marca KTM visível, que não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que tipo de veículo é este?",
+      "tipo": "multipla",
+      "resposta": "Quadriciclo",
+      "distratores": [
+        "Triciclo",
+        "Buggy",
+        "Kart"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quadriciclo",
+        "descricao": "Veículo todo-terreno de quatro rodas de baixa pressão, conduzido com o piloto montado como numa moto.",
+        "variantes": [
+          "ATV",
+          "Quad"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "F-117 inconfundível pela forma facetada; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "pergunta": "Que empresa projetou esta aeronave?",
+      "tipo": "multipla",
+      "resposta": "Lockheed",
+      "distratores": [
+        "Northrop Grumman",
+        "Boeing",
+        "General Dynamics"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "F-117 Nighthawk",
+        "descricao": "Caça furtivo americano subsônico, o primeiro avião operacional projetado com tecnologia stealth.",
+        "variantes": [
+          "Lockheed F-117",
+          "F-117"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Texto 'Bugatti Type 35' parcialmente visível no chão, à esquerda; entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Provável réplica (adesivos, 428 cu.in, pintura Gulf), então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Osprey inconfundível, só matrícula USAF 0058 sem entregar o nome.",
+      "familia": "quando",
+      "nivel": 2,
+      "pergunta": "Em que década voou pela primeira vez esta aeronave?",
+      "tipo": "multipla",
+      "resposta": "Década de 1980",
+      "distratores": [
+        "Década de 1970",
+        "Década de 1990",
+        "Década de 2000"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "V-22 Osprey",
+        "descricao": "Aeronave militar americana de transporte com rotores inclináveis, que decola como helicóptero e voa como avião.",
+        "variantes": [
+          "Bell Boeing V-22",
+          "CV-22 Osprey"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Texto '737' e 'NQUIET737' visível nas naceles entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Stratos em primeiro plano, inconfundível pela cunha; sem texto que entregue.",
+      "familia": "quando",
+      "nivel": 2,
+      "pergunta": "Em que ano este carro de rali conquistou seu primeiro título mundial?",
+      "tipo": "multipla",
+      "resposta": "1974",
+      "distratores": [
+        "1973",
+        "1975",
+        "1976"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lancia Stratos",
+        "descricao": "Carro esportivo italiano de motor central, projetado para rali, tricampeão mundial em 1974, 1975 e 1976.",
+        "variantes": [
+          "Lancia Stratos HF"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Apache claro, sem texto que entregue.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "pergunta": "Que empresa adquiriu, em 1984, a fabricante original deste helicóptero de ataque?",
+      "tipo": "multipla",
+      "resposta": "McDonnell Douglas",
+      "distratores": [
+        "Boeing",
+        "Lockheed Martin",
+        "Bell"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Apache (helicóptero AH-64)",
+        "descricao": "Helicóptero de ataque americano bimotor, com cabine em tandem, desenvolvido pela Hughes.",
+        "variantes": [
+          "AH-64 Apache",
+          "Boeing AH-64 Apache"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bf 109 reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que caça da Segunda Guerra Mundial é este?",
+      "tipo": "multipla",
+      "resposta": "Messerschmitt Bf 109",
+      "distratores": [
+        "Focke-Wulf Fw 190",
+        "Supermarine Spitfire",
+        "P-51 Mustang"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Messerschmitt Bf 109",
+        "descricao": "Caça monoplano alemão, espinha dorsal da Luftwaffe na Segunda Guerra Mundial.",
+        "variantes": [
+          "Me 109",
+          "Bf 109"
+        ]
+      }
+    }
+  ]
+}
