@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que península islandesa fica esta montanha?",
+        "resposta": "Snæfellsnes"
+      },
+      "existentes": [
+        {
+          "id": "q16585",
+          "pergunta": "Esta montanha de quatrocentos e sessenta e três metros de altura fica em que país?",
+          "resposta": "Islândia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que formação rochosa da Serra da Mantiqueira é esta?",
+        "resposta": "Pedra do Baú"
+      },
+      "existentes": [
+        {
+          "id": "q16323",
+          "pergunta": "Em que estado fica este paredão de rocha, conhecido por escaladas?",
+          "resposta": "São Paulo"
+        },
+        {
+          "id": "q16900",
+          "pergunta": "Que formação rochosa da Serra da Mantiqueira é esta, famosa pela escalada?",
+          "resposta": "Pedra do Baú"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país insular do oceano Índico fica esta praia?",
+        "resposta": "Seicheles"
+      },
+      "existentes": [
+        {
+          "id": "q01291",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Seicheles"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Península específica é fato diferente do país da montanha."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q16900",
+      "motivo": "Mesma pergunta e resposta: Pedra do Baú na Serra da Mantiqueira."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar país da praia é diferente de identificar a bandeira, embora a resposta coincida; fatos distintos."
+    }
+  ]
+}

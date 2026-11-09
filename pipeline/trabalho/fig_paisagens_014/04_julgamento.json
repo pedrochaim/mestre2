@@ -1,0 +1,516 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Kirkjufell",
+        "descricao": "Montanha de 463 metros na costa norte da península de Snæfellsnes, na Islândia, famosa por ser muito fotografada.",
+        "variantes": [
+          "Monte Kirkjufell",
+          "Kirkjufellsfoss (cachoeira ao pé)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kirkjufell",
+          "nome": "Kirkjufell",
+          "descricao": "Montanha de 463 metros na costa norte da península de Snæfellsnes, na Islândia, junto à cidade de Grundarfjörður.",
+          "variantes": [
+            "Kirkjufellsfoss",
+            "Monte da Igreja"
+          ]
+        },
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        },
+        {
+          "id": "revolta_dos_marinheiros_de_kiel",
+          "nome": "Revolta dos marinheiros de Kiel",
+          "descricao": "Motim de marinheiros da frota alemã em novembro de 1918 que desencadeou a Revolução Alemã e a queda do kaiser.",
+          "variantes": [
+            "Motim de Kiel"
+          ]
+        },
+        {
+          "id": "monte_pyre",
+          "nome": "Monte Pyre",
+          "descricao": "Montanha da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, que serve de cemitério de pokémon e guarda as orbes de Groudon e Kyogre.",
+          "variantes": [
+            "Mt. Pyre"
+          ]
+        },
+        {
+          "id": "monte_rushmore",
+          "nome": "Monte Rushmore",
+          "descricao": "Memorial nacional dos Estados Unidos com os rostos de quatro presidentes esculpidos na rocha de uma montanha.",
+          "variantes": [
+            "Mount Rushmore",
+            "Memorial Nacional do Monte Rushmore"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Costa Amalfitana",
+        "descricao": "Trecho de litoral da região da Campânia, no sul da Itália, voltado para o mar Tirreno e o golfo de Salerno.",
+        "variantes": [
+          "Costiera Amalfitana",
+          "Costa d'Amalfi",
+          "Amalfi Coast"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_costa_do_marfim",
+          "nome": "Bandeira da Costa do Marfim",
+          "descricao": "Bandeira atual da Costa do Marfim: três faixas verticais laranja, branca e verde, com o laranja junto à haste.",
+          "variantes": [
+            "Costa do Marfim",
+            "Bandeira da Côte d'Ivoire"
+          ]
+        },
+        {
+          "id": "costa_do_marfim",
+          "nome": "Costa do Marfim",
+          "descricao": "País da costa sul da África Ocidental, com capital em Yamoussoukro e maior cidade em Abidjan.",
+          "variantes": [
+            "Côte d'Ivoire"
+          ]
+        },
+        {
+          "id": "cota_de_malha",
+          "nome": "Cota de malha",
+          "descricao": "Armadura feita de pequenos anéis de metal entrelaçados formando uma malha, usada em exércitos da Antiguidade ao século dezesseis.",
+          "variantes": [
+            "Malha",
+            "Chain mail",
+            "Loriga de malha",
+            "Hauberk"
+          ]
+        },
+        {
+          "id": "costela_de_adao",
+          "nome": "Costela-de-adão",
+          "descricao": "Planta trepadeira tropical, Monstera deliciosa, de folhas grandes com cortes e furos, muito usada como planta de vaso.",
+          "variantes": [
+            "Monstera",
+            "Monstera deliciosa",
+            "Swiss cheese plant"
+          ]
+        },
+        {
+          "id": "gal_costa",
+          "nome": "Gal Costa",
+          "descricao": "Cantora brasileira, figura central da Tropicália.",
+          "variantes": [
+            "Maria da Graça Costa Penna Burgos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pedra do Baú",
+        "descricao": "Complexo de rochas gnáissicas da Serra da Mantiqueira em São Bento do Sapucaí (SP), conhecido pela escalada.",
+        "variantes": [
+          "Complexo do Baú",
+          "Complexo da Pedra do Baú"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedra_do_bau",
+          "nome": "Pedra do Baú",
+          "descricao": "Conjunto de rochas gnáissicas da Serra da Mantiqueira em São Bento do Sapucaí, São Paulo, popular para escalada.",
+          "variantes": [
+            "Complexo do Baú"
+          ]
+        },
+        {
+          "id": "pedra_do_inga",
+          "nome": "Pedra do Ingá",
+          "descricao": "Rocha na Paraíba coberta de gravuras pré-históricas, também chamada Itacoatiara do Ingá.",
+          "variantes": [
+            "Itacoatiara do Ingá",
+            "Ingá Stone"
+          ]
+        },
+        {
+          "id": "pedra_da_agua",
+          "nome": "Pedra da Água",
+          "descricao": "Pedra evolutiva azul dos jogos Pokémon que faz evoluir pokémon como Staryu, Shellder, Poliwhirl e Eevee.",
+          "variantes": [
+            "Water Stone"
+          ]
+        },
+        {
+          "id": "pedra_do_sol_asteca",
+          "nome": "Pedra do Sol asteca",
+          "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+          "variantes": [
+            "Calendário Asteca",
+            "Piedra del Sol",
+            "Pedra do Sol"
+          ]
+        },
+        {
+          "id": "pedra_da_lua",
+          "nome": "Pedra da Lua",
+          "descricao": "Pedra evolutiva dos jogos Pokémon que faz evoluir pokémon como Clefairy, Jigglypuff, Nidorino e Nidorina.",
+          "variantes": [
+            "Moon Stone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lago Gentau",
+        "descricao": "Lago de altitude nos Pirineus franceses, aos pés do Pic du Midi d'Ossau.",
+        "variantes": [
+          "Lago",
+          "Lac de Gentau",
+          "Lago de Gentau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagoa_rodrigo_de_freitas",
+          "nome": "Lagoa Rodrigo de Freitas",
+          "descricao": "Lagoa na Zona Sul do Rio de Janeiro, ligada ao Atlântico por um canal.",
+          "variantes": [
+            "Lagoa"
+          ]
+        },
+        {
+          "id": "laguna_de_veneza",
+          "nome": "Laguna de Veneza",
+          "descricao": "Laguna rasa no Mar Adriático, no nordeste da Itália, onde fica a cidade de Veneza.",
+          "variantes": [
+            "Lagoa",
+            "Lagoa de Veneza",
+            "Laguna Veneta"
+          ]
+        },
+        {
+          "id": "giacomo_agostini",
+          "nome": "Giacomo Agostini",
+          "descricao": "Ex-piloto italiano de motovelocidade, com 15 títulos mundiais, o maior campeão da história do Mundial de motos.",
+          "variantes": [
+            "Ago"
+          ]
+        },
+        {
+          "id": "lago_de_genebra",
+          "nome": "Lago de Genebra",
+          "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+          "variantes": [
+            "Lago Léman",
+            "Lago Lemano",
+            "Lake Geneva",
+            "Lac Léman"
+          ]
+        },
+        {
+          "id": "lago_retba",
+          "nome": "Lago Retba",
+          "descricao": "Lago salgado de águas cor-de-rosa perto de Dacar, no Senegal.",
+          "variantes": [
+            "Lago Rosa",
+            "Lac Rose",
+            "Lake Retba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Huacachina",
+        "descricao": "Pequeno povoado construído num oásis cercado de dunas, a cerca de cinco quilômetros de Ica, no sudoeste do Peru.",
+        "variantes": [
+          "Oásis de Huacachina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gotcha_clipe",
+          "nome": "GOTCHA! (clipe)",
+          "descricao": "Clipe animado de 2020 que relembra as aventuras dos jogos Pokémon, embalado pela música Acacia.",
+          "variantes": [
+            "GOTCHA!",
+            "Acacia"
+          ]
+        },
+        {
+          "id": "viracocha",
+          "nome": "Viracocha",
+          "descricao": "Grande deus criador da religião inca e de outros povos andinos.",
+          "variantes": [
+            "Wiracocha",
+            "Huiracocha",
+            "Kon-Tiki Viracocha"
+          ]
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        },
+        {
+          "id": "sacarina",
+          "nome": "Sacarina",
+          "descricao": "Adoçante artificial descoberto em 1879 pelo químico Constantin Fahlberg, na Universidade Johns Hopkins.",
+          "variantes": [
+            "Saccharin",
+            "Sacarina sódica"
+          ]
+        },
+        {
+          "id": "abobrinha",
+          "nome": "Abobrinha",
+          "descricao": "Fruto alongado e verde da abobrinha, Cucurbita pepo var. cylindrica, colhido imaturo.",
+          "variantes": [
+            "Abobrinha italiana",
+            "Zucchini",
+            "Courgette"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pedra da Galinha Choca",
+        "descricao": "Monólito de Quixadá, no Ceará, que lembra uma galinha chocando, no Monumento Natural dos Monólitos de Quixadá.",
+        "variantes": [
+          "Galinha Choca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galinha",
+          "nome": "Galinha",
+          "descricao": "Ave doméstica (Gallus gallus domesticus), forma domesticada do galo-bankiva, criada para carne e ovos.",
+          "variantes": [
+            "Galo",
+            "Gallus gallus domesticus",
+            "Frango"
+          ]
+        },
+        {
+          "id": "galinha_d_angola",
+          "nome": "Galinha-d'angola",
+          "descricao": "Ave galiforme africana domesticada (Numida meleagris), de plumagem cinza pintalgada de branco.",
+          "variantes": [
+            "Numida meleagris",
+            "Angolinha",
+            "Guiné",
+            "Capote",
+            "Tô-fraco"
+          ]
+        },
+        {
+          "id": "pied_de_poule",
+          "nome": "Pied-de-poule",
+          "descricao": "Padrão têxtil de quadradinhos recortados em duas cores, geralmente preto e branco",
+          "variantes": [
+            "Houndstooth",
+            "Pé de galinha"
+          ]
+        },
+        {
+          "id": "gaita_de_fole",
+          "nome": "Gaita de fole",
+          "descricao": "Instrumento de sopro com palhetas alimentadas por uma bolsa de ar, típico da Escócia.",
+          "variantes": [
+            "Gaita escocesa",
+            "Bagpipe"
+          ]
+        },
+        {
+          "id": "pedra_da_gavea",
+          "nome": "Pedra da Gávea",
+          "descricao": "Montanha monolítica de granito e gnaisse, de 844 metros, na Floresta da Tijuca, no Rio de Janeiro.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Seicheles",
+        "descricao": "País arquipélago de 115 ilhas no oceano Índico, a leste da África continental.",
+        "variantes": [
+          "Seychelles",
+          "República das Seicheles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "seicheles",
+          "nome": "Seicheles",
+          "descricao": "País arquipelágico de 115 ilhas no Oceano Índico, a leste da África continental, cuja capital é Victoria.",
+          "variantes": [
+            "Seychelles",
+            "República das Seicheles"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "ceviche",
+          "nome": "Ceviche",
+          "descricao": "Prato frio de peixe ou frutos do mar crus marinados em suco cítrico, prato nacional do Peru.",
+          "variantes": [
+            "Cebiche",
+            "Seviche",
+            "Sebiche"
+          ]
+        },
+        {
+          "id": "brasao_das_seicheles",
+          "nome": "Brasão das Seicheles",
+          "descricao": "Brasão de armas nacional das Seicheles, com tartaruga gigante, coco-do-mar e dois peixes-vela.",
+          "variantes": [
+            "Brasão de Seychelles"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Licancabur",
+        "descricao": "Estratovulcão de 5.916 metros na fronteira entre Bolívia e Chile, com um lago na cratera.",
+        "variantes": [
+          "Vulcão Licancabur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alianca_de_casamento",
+          "nome": "Aliança de casamento",
+          "descricao": "Anel usado como símbolo do casamento, tradicionalmente no dedo anelar.",
+          "variantes": [
+            "Anel de casamento",
+            "Wedding ring",
+            "Aliança"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "cacau_2",
+          "nome": "Cacau",
+          "descricao": "Semente da árvore do cacau, domesticada na América e base do chocolate.",
+          "variantes": [
+            "Semente de cacau",
+            "Cocoa bean",
+            "Theobroma cacao"
+          ]
+        },
+        {
+          "id": "vulcao_villarrica",
+          "nome": "Vulcão Villarrica",
+          "descricao": "Vulcão ativo coberto de neve no sul do Chile, ao lado do lago e da cidade de mesmo nome.",
+          "variantes": [
+            "Villarrica",
+            "Rucapillán"
+          ]
+        },
+        {
+          "id": "vulcao_de_lama",
+          "nome": "Vulcão de lama",
+          "descricao": "Forma de relevo criada pela erupção de lama, água e gases, sem lava.",
+          "variantes": [
+            "Domo de lama",
+            "Mud volcano"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "kirkjufell",
+      "motivo": "Mesma montanha de 463 m em Snæfellsnes, Islândia."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Costa Amalfitana."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "pedra_do_bau",
+      "motivo": "Mesmo complexo rochoso em São Bento do Sapucaí."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Lago Gentau."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Huacachina."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o monólito de Quixadá."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "seicheles",
+      "motivo": "Mesmo país arquipélago; descrições coincidem."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o vulcão Licancabur."
+    }
+  ]
+}

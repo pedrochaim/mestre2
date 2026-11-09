@@ -1,0 +1,214 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Uma pessoa comum (espeleóloga) aparece em primeiro plano; além disso o tubo de lava não é reconhecível como 'caverna' genérica de forma única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Dezenas de banhistas comuns em primeiro plano; proibido pelas regras de pessoas."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Montanha cônica com a cachoeira Kirkjufellsfoss, muito reconhecível e sem texto.",
+      "nivel": 3,
+      "familia": "onde",
+      "tipo": "multipla",
+      "pergunta": "Em que península islandesa fica esta montanha?",
+      "resposta": "Snæfellsnes",
+      "distratores": [
+        "Reykjanes",
+        "Tröllaskagi",
+        "Vatnsnes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kirkjufell",
+        "descricao": "Montanha de 463 metros na costa norte da península de Snæfellsnes, na Islândia, famosa por ser muito fotografada.",
+        "variantes": [
+          "Monte Kirkjufell",
+          "Kirkjufellsfoss (cachoeira ao pé)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mostra a fissura tectônica de Þingvellir (Almannagjá), não um cânion típico; 'cânion' não é resposta única diante da imagem (poderia ser fenda, falha, desfiladeiro)."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista da costa de Ravello com terraços, vilas e o mar; reconhecível entre costas italianas parecidas com múltipla escolha.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que costa italiana, Patrimônio Mundial da UNESCO, é esta?",
+      "resposta": "Costa Amalfitana",
+      "distratores": [
+        "Cinque Terre",
+        "Costa Esmeralda",
+        "Riviera Ligure"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Costa Amalfitana",
+        "descricao": "Trecho de litoral da região da Campânia, no sul da Itália, voltado para o mar Tirreno e o golfo de Salerno.",
+        "variantes": [
+          "Costiera Amalfitana",
+          "Costa d'Amalfi",
+          "Amalfi Coast"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Paredão rochoso de topo achatado, com o Bauzinho à esquerda, sem texto e legível.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que formação rochosa da Serra da Mantiqueira é esta?",
+      "resposta": "Pedra do Baú",
+      "distratores": [
+        "Pedra Azul",
+        "Pedra da Gávea",
+        "Pedra do Segredo"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Pedra do Baú",
+        "descricao": "Complexo de rochas gnáissicas da Serra da Mantiqueira em São Bento do Sapucaí (SP), conhecido pela escalada.",
+        "variantes": [
+          "Complexo do Baú",
+          "Complexo da Pedra do Baú"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Lago de montanha com o Pic du Midi d'Ossau ao fundo, nos Pirineus; pessoas minúsculas e distantes, sem texto.",
+      "nivel": 2,
+      "familia": "onde",
+      "tipo": "multipla",
+      "pergunta": "Em que cordilheira europeia fica este lago?",
+      "resposta": "Pirineus",
+      "distratores": [
+        "Alpes",
+        "Cárpatos",
+        "Apeninos"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Gentau",
+        "descricao": "Lago de altitude nos Pirineus franceses, aos pés do Pic du Midi d'Ossau.",
+        "variantes": [
+          "Lac de Gentau",
+          "Lago de Gentau"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Panorama claro do oásis cercado de dunas, característico e sem texto.",
+      "nivel": 3,
+      "familia": "onde",
+      "tipo": "multipla",
+      "pergunta": "Este oásis cercado de dunas fica perto de qual cidade peruana?",
+      "resposta": "Ica",
+      "distratores": [
+        "Nazca",
+        "Arequipa",
+        "Cusco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Huacachina",
+        "descricao": "Pequeno povoado construído num oásis cercado de dunas, a cerca de cinco quilômetros de Ica, no sudoeste do Peru.",
+        "variantes": [
+          "Oásis de Huacachina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Formato de ave chocando nítido e característico, sem texto nem pessoas.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica esta formação rochosa?",
+      "resposta": "Ceará",
+      "distratores": [
+        "Paraíba",
+        "Rio Grande do Norte",
+        "Bahia"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Pedra da Galinha Choca",
+        "descricao": "Monólito de Quixadá, no Ceará, que lembra uma galinha chocando, no Monumento Natural dos Monólitos de Quixadá.",
+        "variantes": [
+          "Galinha Choca"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Penhasco litorâneo genérico, sem local identificável; 'falésia' não é resposta única (penhasco, escarpa) e a imagem não permite reconhecer a entidade."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Praia com blocos de granito e ilhas ao fundo, típica das Seicheles; sem texto e pessoas apenas minúsculas ao fundo.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "pergunta": "Em que país insular fica esta praia, famosa por grandes blocos de granito?",
+      "resposta": "Seicheles",
+      "distratores": [
+        "Maldivas",
+        "Maurício",
+        "Fiji"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Seicheles",
+        "descricao": "País arquipélago de 115 ilhas no oceano Índico, a leste da África continental.",
+        "variantes": [
+          "Seychelles",
+          "República das Seicheles"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cone vulcânico isolado e nítido, com a Laguna Verde em primeiro plano; sem texto nem pessoas.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "pergunta": "Que vulcão andino é este?",
+      "resposta": "Licancabur",
+      "distratores": [
+        "Parinacota",
+        "Llullaillaco",
+        "Misti"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Licancabur",
+        "descricao": "Estratovulcão de 5.916 metros na fronteira entre Bolívia e Chile, com um lago na cratera.",
+        "variantes": [
+          "Vulcão Licancabur"
+        ]
+      }
+    }
+  ]
+}

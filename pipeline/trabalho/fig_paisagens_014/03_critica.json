@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Península confirmada nos trechos; sem vazamento; distratores são penínsulas islandesas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'costa', palavra da resposta. Cinque Terre também é Patrimônio Mundial da UNESCO, então a pista de UNESCO não distingue a resposta de um distrator. A região (Campânia) distingue sem entregar.",
+      "reescrita": {
+        "pergunta": "Que trecho do litoral italiano, na região da Campânia, é este?",
+        "resposta": "Costa Amalfitana",
+        "distratores": [
+          "Cinque Terre",
+          "Costa Esmeralda",
+          "Riviera Ligure"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedra do Baú fica na Serra da Mantiqueira (trecho). O enunciado não nomeia a resposta e os distratores não ficam na Mantiqueira.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos são sobre 'lago' em geral e não sustentam o fato. O lago Gentau nos Pirineus franceses, aos pés do Pic du Midi d'Ossau, é fato documentado e consta em `mostra`. O enunciado não vaza, e os distratores são cordilheiras europeias que não estão corretas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam o oásis a cerca de cinco quilômetros de Ica. Os distratores são cidades peruanas e nenhuma é a correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a formação em Quixadá, no Ceará. Sem vazamento, e os distratores são estados nordestinos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Praia famosa por grandes blocos de granito' entrega Seicheles sem olhar a figura (teste da imagem coberta). Fiji, no Pacífico, é um distrator fraco. Troquei a pista por 'oceano Índico', que ajuda sem entregar, e o distrator Fiji por Comores.",
+      "reescrita": {
+        "pergunta": "Em que país insular do oceano Índico fica esta praia?",
+        "resposta": "Seicheles",
+        "distratores": [
+          "Maldivas",
+          "Maurício",
+          "Comores"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Licancabur é um vulcão andino (trecho). O enunciado não vaza, e os distratores são vulcões andinos distintos.",
+      "reescrita": null
+    }
+  ]
+}
