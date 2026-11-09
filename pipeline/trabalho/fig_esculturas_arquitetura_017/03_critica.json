@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anfiteatro romano confirmado pelos trechos; enunciado não vaza; distratores do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ponte sobre o Tejo está confirmada nos trechos; sem vazamento; distratores são rios portugueses plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taipei 101 fica em Taipé, conforme os trechos; enunciado não nomeia a cidade; distratores são cidades asiáticas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Isfahan, Irã, confirmado nos trechos; distratores são países de arquitetura islâmica comparável.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Santuário em Almada, Portugal, confirmado; Brasil é distrator crível (Cristo Redentor), mas não correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lisboa confirmada; a torre metálica é descrita nos trechos; distratores são cidades ibéricas plausíveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'da França', mas os três distratores (Portuno, Vesta, Panteão) ficam na Itália e são eliminados só pelo enunciado, sem olhar a figura. Tirar 'da França' deixa os distratores plausíveis e a figura decide.",
+      "reescrita": {
+        "pergunta": "Que templo romano da época de Augusto, muito bem conservado, é este?",
+        "resposta": "Maison Carrée",
+        "distratores": [
+          "Templo de Portuno",
+          "Templo de Vesta",
+          "Panteão de Roma"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Forte no Rio de Janeiro confirmado; distratores são cidades brasileiras costeiras com fortificações, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o templo foi construído no reinado de Hatshepsut; o enunciado não nomeia a resposta; distratores são faraós críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria de Bernini confirmada; 'barroca' exclui Michelangelo e Donatello, cujos Davis não são barrocos; distratores bons.",
+      "reescrita": null
+    }
+  ]
+}

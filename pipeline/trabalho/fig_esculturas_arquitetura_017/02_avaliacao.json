@@ -1,0 +1,253 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O letreiro 'Mès que un club' nas arquibancadas é visível e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome 'Allianz Arena' aparece escrito na fachada, legível, e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Anfiteatro romano bem reconhecível, sem texto que entregue a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de edifício da Roma Antiga é este?",
+      "resposta": "Anfiteatro",
+      "distratores": [
+        "Teatro",
+        "Circo",
+        "Basílica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano bem conservado no centro histórico de Verona, na Itália, hoje sede de temporadas de ópera.",
+        "variantes": [
+          "Verona Arena",
+          "Arena di Verona"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ponte suspensa vermelha com o Tejo e Lisboa ao fundo, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rio esta ponte atravessa?",
+      "resposta": "Tejo",
+      "distratores": [
+        "Douro",
+        "Guadiana",
+        "Mondego"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ponte 25 de Abril",
+        "descricao": "Ponte suspensa que liga Lisboa a Almada, sobre o rio Tejo, em Portugal.",
+        "variantes": [
+          "Ponte Salazar",
+          "25 de Abril Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arranha-céu inconfundível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este arranha-céu?",
+      "resposta": "Taipé",
+      "distratores": [
+        "Xangai",
+        "Hong Kong",
+        "Singapura"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Taipei 101",
+        "descricao": "Arranha-céu de 101 andares e 508 metros em Taipé, em Taiwan.",
+        "variantes": [
+          "Taipei World Financial Center",
+          "Taipé 101"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Mesquita de cúpula e portal azulejados na praça de Isfahan, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta mesquita?",
+      "resposta": "Irã",
+      "distratores": [
+        "Turquia",
+        "Uzbequistão",
+        "Egito"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mesquita do Xá (Isfahan)",
+        "descricao": "Mesquita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+        "variantes": [
+          "Mesquita do Imã",
+          "Mesquita Imam Khomeini",
+          "Shah Mosque"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Estátua de Cristo de braços abertos, com o Sagrado Coração, reconhecível e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta estátua?",
+      "resposta": "Portugal",
+      "distratores": [
+        "Brasil",
+        "Espanha",
+        "México"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cristo Rei (Almada)",
+        "descricao": "Santuário com estátua gigante de Cristo, inaugurado em 1959 em Almada, em frente a Lisboa.",
+        "variantes": [
+          "Santuário de Cristo Rei",
+          "Christ the King (Almada)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Torre de ferro neogótica característica, sem texto legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta torre de ferro?",
+      "resposta": "Lisboa",
+      "distratores": [
+        "Porto",
+        "Barcelona",
+        "Sevilha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Elevador de Santa Justa",
+        "descricao": "Elevador urbano de ferro, neogótico, que liga a Baixa ao Largo do Carmo, em Lisboa.",
+        "variantes": [
+          "Elevador do Carmo",
+          "Santa Justa Lift"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Templo romano com colunata coríntia, bem reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que templo romano da França é este?",
+      "resposta": "Maison Carrée",
+      "distratores": [
+        "Templo de Portuno",
+        "Templo de Vesta",
+        "Panteão de Roma"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Maison Carrée",
+        "descricao": "Templo romano augustano muito bem conservado em Nîmes, no sul da França.",
+        "variantes": [
+          "Maison carrée de Nîmes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea mostra o forte na ponta da praia com a paisagem característica do Rio, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este forte?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Salvador",
+        "Santos",
+        "Florianópolis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Forte de Copacabana",
+        "descricao": "Forte militar e museu do Exército na ponta sul da praia de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Fort Copacabana"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Terraços com colunatas de Deir el-Bahari, reconhecíveis, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que faraó mandou construir este templo?",
+      "resposta": "Hatshepsut",
+      "distratores": [
+        "Ramsés Segundo",
+        "Tutancâmon",
+        "Akhenaton"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Templo de Hatshepsut",
+        "descricao": "Templo mortuário em terraços de Hatshepsut em Deir el-Bahari, diante de Luxor, no Egito.",
+        "variantes": [
+          "Templo mortuário de Hatshepsut",
+          "Deir el-Bahari"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Escultura de mármore bem visível, sem texto; reconhecível pelo movimento barroco.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem esculpiu esta estátua barroca?",
+      "resposta": "Gian Lorenzo Bernini",
+      "distratores": [
+        "Michelangelo",
+        "Donatello",
+        "Antonio Canova"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Davi de Bernini",
+        "descricao": "Escultura de mármore em tamanho natural de Davi prestes a lançar a pedra, feita em 1623-1624 e hoje na Galeria Borghese, em Roma.",
+        "variantes": [
+          "David (Bernini)",
+          "Davide de Bernini"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de edifício da Roma Antiga é este?",
+        "resposta": "Anfiteatro"
+      },
+      "existentes": [
+        {
+          "id": "q06054",
+          "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+          "resposta": "Verona"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que rio esta ponte atravessa?",
+        "resposta": "Tejo"
+      },
+      "existentes": [
+        {
+          "id": "q02020",
+          "pergunta": "A Ponte 25 de Abril, sobre o Tejo, é pintada da mesma cor laranja de qual famosa ponte americana?",
+          "resposta": "Golden Gate"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica este arranha-céu?",
+        "resposta": "Taipé"
+      },
+      "existentes": [
+        {
+          "id": "q19093",
+          "pergunta": "Em que cidade fica este arranha-céu?",
+          "resposta": "Taipé"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que país fica esta estátua?",
+        "resposta": "Portugal"
+      },
+      "existentes": [
+        {
+          "id": "q02019",
+          "pergunta": "Em Almada, de frente para Lisboa, a grande estátua do Cristo Rei foi inspirada em qual monumento brasileiro?",
+          "resposta": "Cristo Redentor"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cidade fica esta torre de ferro?",
+        "resposta": "Lisboa"
+      },
+      "existentes": [
+        {
+          "id": "q17581",
+          "pergunta": "Que monumento de ferro, no centro de Lisboa, é este?",
+          "resposta": "Elevador de Santa Justa"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que templo romano da época de Augusto, muito bem conservado, é este?",
+        "resposta": "Maison Carrée"
+      },
+      "existentes": [
+        {
+          "id": "q07190",
+          "pergunta": "Que templo romano é este?",
+          "resposta": "Maison Carrée"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que cidade fica este forte?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q16895",
+          "pergunta": "Que construção é esta, na ponta da praia?",
+          "resposta": "Forte de Copacabana"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que faraó mandou construir este templo?",
+        "resposta": "Hatshepsut"
+      },
+      "existentes": [
+        {
+          "id": "q01925",
+          "pergunta": "Que templo egípcio do Novo Reino, em três terraços, é este?",
+          "resposta": "Templo de Hatshepsut"
+        },
+        {
+          "id": "q06378",
+          "pergunta": "O templo em terraços de Hatshepsut, em Deir el-Bahari, é tradicionalmente atribuído a qual arquiteto e alto funcionário da rainha?",
+          "resposta": "Senenmut"
+        },
+        {
+          "id": "q18906",
+          "pergunta": "Este templo mortuário fica na margem oeste do Nilo, em frente a Luxor. Em que local ele está?",
+          "resposta": "Deir el-Bahari"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tipo de edifício vs. cidade onde fica: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Rio atravessado pela ponte é outro fato; a existente pergunta a ponte americana de mesma cor."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q19093",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "País da estátua vs. monumento que a inspirou: fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cidade da torre vs. identificação do monumento; a resposta Lisboa já consta no enunciado existente, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q07190",
+      "motivo": "Ambas pedem a identificação do templo como Maison Carrée."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cidade do forte vs. nome da construção: fatos diferentes."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Quem mandou construir o templo é outro fato; a existente identifica o templo, o arquiteto ou o local."
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano bem conservado no centro histórico de Verona, na Itália, hoje sede de temporadas de ópera.",
+        "variantes": [
+          "Verona Arena",
+          "Arena di Verona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_de_verona",
+          "nome": "Arena de Verona",
+          "descricao": "Anfiteatro romano muito bem conservado, no centro de Verona, na Itália, usado para óperas e shows.",
+          "variantes": [
+            "Verona Arena",
+            "Arena di Verona"
+          ]
+        },
+        {
+          "id": "rod_laver_arena",
+          "nome": "Rod Laver Arena",
+          "descricao": "Quadra central do Aberto da Austrália, no complexo Melbourne Park, em Melbourne.",
+          "variantes": [
+            "Arena Rod Laver"
+          ]
+        },
+        {
+          "id": "carnaval_de_veneza",
+          "nome": "Carnaval de Veneza",
+          "descricao": "Festival anual de Veneza, na Itália, famoso por suas máscaras e fantasias elaboradas.",
+          "variantes": [
+            "Carnevale di Venezia",
+            "Carnival of Venice"
+          ]
+        },
+        {
+          "id": "maria_sem_vergonha",
+          "nome": "Maria-sem-vergonha",
+          "descricao": "Impatiens walleriana, planta ornamental de flores coloridas nativa do leste da África.",
+          "variantes": [
+            "Impatiens walleriana",
+            "beijinho",
+            "impatiens"
+          ]
+        },
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ponte 25 de Abril",
+        "descricao": "Ponte suspensa que liga Lisboa a Almada, sobre o rio Tejo, em Portugal.",
+        "variantes": [
+          "Ponte Salazar",
+          "25 de Abril Bridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "revolucao_dos_cravos",
+          "nome": "Revolução dos Cravos",
+          "descricao": "Golpe militar de 25 de abril de 1974 que derrubou a ditadura do Estado Novo em Portugal.",
+          "variantes": [
+            "25 de Abril",
+            "Carnation Revolution"
+          ]
+        },
+        {
+          "id": "a_ponte_de_langlois_em_arles",
+          "nome": "A Ponte de Langlois em Arles",
+          "descricao": "Série de pinturas de Van Gogh de 1888 que retratam a ponte levadiça de Langlois sobre um canal perto de Arles.",
+          "variantes": [
+            "A Ponte de Langlois em Arles (Van Gogh)",
+            "A Ponte de Langlois",
+            "Ponte de Arles",
+            "Langlois Bridge at Arles",
+            "Pont de Langlois"
+          ]
+        },
+        {
+          "id": "ponte_de_rialto",
+          "nome": "Ponte de Rialto",
+          "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+          "variantes": [
+            "Ponte di Rialto",
+            "Rialto Bridge"
+          ]
+        },
+        {
+          "id": "ponte_estaiada",
+          "nome": "Ponte Estaiada",
+          "descricao": "Ponte estaiada com torre em forma de X sobre o Rio Pinheiros, em São Paulo, inaugurada em 2008.",
+          "variantes": [
+            "Ponte Octavio Frias de Oliveira",
+            "Ponte Octávio Frias de Oliveira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Taipei 101",
+        "descricao": "Arranha-céu de 101 andares e 508 metros em Taipé, em Taiwan.",
+        "variantes": [
+          "Taipei World Financial Center",
+          "Taipé 101"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taipei_101",
+          "nome": "Taipei 101",
+          "descricao": "Arranha-céu de 101 andares e 508 metros em Taipé, Taiwan, inaugurado em 2004.",
+          "variantes": [
+            "Taipei World Financial Center",
+            "Taipé 101"
+          ]
+        },
+        {
+          "id": "piaggio_ape",
+          "nome": "Piaggio Ape",
+          "descricao": "Veículo comercial leve de três rodas fabricado pela Piaggio a partir da Vespa, desde 1948.",
+          "variantes": [
+            "Ape",
+            "Ape 50",
+            "Vespacar"
+          ]
+        },
+        {
+          "id": "one_world_trade_center",
+          "nome": "One World Trade Center",
+          "descricao": "Arranha-céu principal do novo complexo do World Trade Center, em Manhattan, inaugurado em 2014.",
+          "variantes": [
+            "Freedom Tower",
+            "Torre da Liberdade",
+            "One WTC"
+          ]
+        },
+        {
+          "id": "apple_i",
+          "nome": "Apple I",
+          "descricao": "Primeiro computador da Apple, projetado por Steve Wozniak e vendido a partir de 1976.",
+          "variantes": [
+            "Apple-1"
+          ]
+        },
+        {
+          "id": "galaxia_do_cata_vento_m101",
+          "nome": "Galáxia do Cata-Vento (M101)",
+          "descricao": "Galáxia espiral vista de frente, na constelação da Ursa Maior, a cerca de 21 milhões de anos-luz da Terra.",
+          "variantes": [
+            "Messier 101",
+            "M101",
+            "NGC 5457",
+            "Pinwheel Galaxy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mesquita do Xá (Isfahan)",
+        "descricao": "Mesquita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+        "variantes": [
+          "Mesquita do Imã",
+          "Mesquita Imam Khomeini",
+          "Shah Mosque"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_badshahi",
+          "nome": "Mesquita Badshahi",
+          "descricao": "Mesquita imperial mogol de arenito vermelho em Lahore, Paquistão, construída entre 1671 e 1673.",
+          "variantes": [
+            "Badshahi Mosque",
+            "Mesquita Real de Lahore"
+          ]
+        },
+        {
+          "id": "mesquita_de_suleymaniye",
+          "nome": "Mesquita de Süleymaniye",
+          "descricao": "Mesquita imperial otomana de Istambul, projetada por Mimar Sinan e concluída em 1557.",
+          "variantes": [
+            "Mesquita de Solimão",
+            "Süleymaniye Camii"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        },
+        {
+          "id": "mesquita_de_al_aqsa",
+          "nome": "Mesquita de Al-Aqsa",
+          "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+          "variantes": [
+            "Al-Aqsa",
+            "Mesquita Al-Aqsa"
+          ]
+        },
+        {
+          "id": "mesquita_azul",
+          "nome": "Mesquita Azul",
+          "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
+          "variantes": [
+            "Mesquita do Sultão Ahmed",
+            "Sultanahmet Camii",
+            "Sultan Ahmed Mosque",
+            "Blue Mosque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cristo Rei (Almada)",
+        "descricao": "Santuário com estátua gigante de Cristo, inaugurado em 1959 em Almada, em frente a Lisboa.",
+        "variantes": [
+          "Santuário de Cristo Rei",
+          "Christ the King (Almada)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "lamentacao_sobre_o_cristo_morto_mantegna",
+          "nome": "Lamentação sobre o Cristo Morto (Mantegna)",
+          "descricao": "Pintura de Andrea Mantegna, do século quinze, com o corpo de Cristo em escorço sobre uma laje, velado por três figuras, na Pinacoteca de Brera.",
+          "variantes": [
+            "O Cristo Morto",
+            "Lamentation of Christ",
+            "Cristo Morto de Mantegna",
+            "Lamentação de Cristo"
+          ]
+        },
+        {
+          "id": "santuario_de_lourdes",
+          "nome": "Santuário de Lourdes",
+          "descricao": "Santuário mariano católico em Lourdes, nos Pirenéus franceses, ao redor da gruta das aparições de 1858.",
+          "variantes": [
+            "Santuário de Nossa Senhora de Lourdes",
+            "Lourdes"
+          ]
+        },
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença",
+            "Florence Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Elevador de Santa Justa",
+        "descricao": "Elevador urbano de ferro, neogótico, que liga a Baixa ao Largo do Carmo, em Lisboa.",
+        "variantes": [
+          "Elevador do Carmo",
+          "Santa Justa Lift"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elevador_de_santa_justa",
+          "nome": "Elevador de Santa Justa",
+          "descricao": "Elevador vertical de ferro no centro histórico de Lisboa, ligando a Baixa ao Largo do Carmo.",
+          "variantes": [
+            "Elevador do Carmo",
+            "Santa Justa Lift"
+          ]
+        },
+        {
+          "id": "inundacao_da_varzea_do_carmo_benedito_calixto",
+          "nome": "Inundação da Várzea do Carmo (Benedito Calixto)",
+          "descricao": "Pintura a óleo de Benedito Calixto, de 1892, que mostra a cheia do Tamanduateí no centro de São Paulo.",
+          "variantes": [
+            "Inundação da Várzea do Carmo",
+            "Várzea do Carmo"
+          ]
+        },
+        {
+          "id": "freio_de_seguranca_do_elevador",
+          "nome": "Freio de segurança do elevador",
+          "descricao": "Mecanismo que trava a cabine do elevador caso o cabo se rompa, demonstrado em 1854 em Nova York.",
+          "variantes": [
+            "Elevador de segurança"
+          ]
+        },
+        {
+          "id": "elevador_lacerda",
+          "nome": "Elevador Lacerda",
+          "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+          "variantes": [
+            "Elevador Hidráulico da Conceição"
+          ]
+        },
+        {
+          "id": "selecao_marroquina_de_futebol",
+          "nome": "Seleção Marroquina de Futebol",
+          "descricao": "Seleção nacional de futebol do Marrocos, semifinalista da Copa do Mundo de 2022.",
+          "variantes": [
+            "Seleção do Marrocos",
+            "Leões do Atlas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Maison Carrée",
+        "descricao": "Templo romano augustano muito bem conservado em Nîmes, no sul da França.",
+        "variantes": [
+          "Maison carrée de Nîmes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maison_carree",
+          "nome": "Maison Carrée",
+          "descricao": "Templo romano augustano muito bem conservado em Nîmes, no sul da França.",
+          "variantes": [
+            "Maison Carrée de Nîmes"
+          ]
+        },
+        {
+          "id": "recife_da_amazonia",
+          "nome": "Recife da Amazônia",
+          "descricao": "Extenso sistema de recifes de corais, esponjas e algas calcárias sob as águas barrentas da foz do rio Amazonas, anunciado em 2016.",
+          "variantes": [
+            "Grande Recife da Amazônia",
+            "Amazon Reef"
+          ]
+        },
+        {
+          "id": "maionese",
+          "nome": "Maionese",
+          "descricao": "Molho cremoso emulsionado de óleo, gema de ovo e ácido (vinagre ou limão).",
+          "variantes": [
+            "Mayonnaise",
+            "Mayo"
+          ]
+        },
+        {
+          "id": "minarete_da_grande_mesquita_de_cairuao",
+          "nome": "Minarete da Grande Mesquita de Cairuão",
+          "descricao": "Torre de tijolo da Grande Mesquita de Cairuão, na Tunísia, exemplo de minarete.",
+          "variantes": [
+            "Minarete"
+          ]
+        },
+        {
+          "id": "marionete",
+          "nome": "Marionete",
+          "descricao": "Boneco de teatro controlado por fios ou cordas a partir de cima.",
+          "variantes": [
+            "Marioneta",
+            "Boneco de fios"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Forte de Copacabana",
+        "descricao": "Forte militar e museu do Exército na ponta sul da praia de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Fort Copacabana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forte_de_copacabana",
+          "nome": "Forte de Copacabana",
+          "descricao": "Fortificação militar na ponta sul da praia de Copacabana, no Rio de Janeiro.",
+          "variantes": [
+            "Forte de Copacabana e Museu Histórico do Exército"
+          ]
+        },
+        {
+          "id": "copacabana",
+          "nome": "Copacabana",
+          "descricao": "Bairro da zona sul do Rio de Janeiro, famoso pela praia e pela Avenida Atlântica.",
+          "variantes": [
+            "Copacabana (Rio de Janeiro)",
+            "Copacabana (bairro)"
+          ]
+        },
+        {
+          "id": "revolta_dos_18_do_forte_de_copacabana",
+          "nome": "Revolta dos 18 do Forte de Copacabana",
+          "descricao": "Primeira revolta do movimento tenentista, ocorrida no Rio de Janeiro em 5 de julho de 1922.",
+          "variantes": [
+            "Os 18 do Forte",
+            "Revolta do Forte de Copacabana"
+          ]
+        },
+        {
+          "id": "calcadao_de_copacabana",
+          "nome": "Calçadão de Copacabana",
+          "descricao": "Calçada à beira-mar da praia de Copacabana, no Rio de Janeiro, com desenho de ondas em pedra portuguesa.",
+          "variantes": [
+            "Calçadão da Avenida Atlântica"
+          ]
+        },
+        {
+          "id": "paineira",
+          "nome": "Paineira",
+          "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+          "variantes": [
+            "Ceiba speciosa",
+            "Barriguda",
+            "Paina-rosa",
+            "Árvore-de-paina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Templo de Hatshepsut",
+        "descricao": "Templo mortuário em terraços de Hatshepsut em Deir el-Bahari, diante de Luxor, no Egito.",
+        "variantes": [
+          "Templo mortuário de Hatshepsut",
+          "Deir el-Bahari"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_hatshepsut",
+          "nome": "Templo de Hatshepsut",
+          "descricao": "Templo mortuário em três terraços da faraó Hatshepsut, em Deir el-Bahari, perto de Luxor.",
+          "variantes": [
+            "Templo mortuário de Hatshepsut",
+            "Deir el-Bahari",
+            "Djeser-Djeseru",
+            "Mortuary Temple of Hatshepsut"
+          ]
+        },
+        {
+          "id": "templo_de_philae",
+          "nome": "Templo de Philae",
+          "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+          "variantes": [
+            "Templo de Filas",
+            "Templo de Ísis em Filas"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Davi de Bernini",
+        "descricao": "Escultura de mármore em tamanho natural de Davi prestes a lançar a pedra, feita em 1623-1624 e hoje na Galeria Borghese, em Roma.",
+        "variantes": [
+          "David (Bernini)",
+          "Davide de Bernini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baldaquino_de_sao_pedro",
+          "nome": "Baldaquino de São Pedro",
+          "descricao": "Dossel monumental de bronze de Bernini sobre o altar-mor da Basílica de São Pedro, no Vaticano, feito de 1623 a 1634.",
+          "variantes": [
+            "Baldacchino di San Pietro",
+            "Baldaquino de Bernini",
+            "St. Peter's Baldachin"
+          ]
+        },
+        {
+          "id": "david_hilbert",
+          "nome": "David Hilbert",
+          "descricao": "Matemático alemão que apresentou em 1900 uma lista de problemas que orientou a matemática do século vinte.",
+          "variantes": [
+            "Hilbert"
+          ]
+        },
+        {
+          "id": "mauveina",
+          "nome": "Mauveína",
+          "descricao": "Corante roxo sintético obtido por acaso pelo químico inglês William Perkin em 1856.",
+          "variantes": [
+            "Malva de Perkin",
+            "Mauveine",
+            "Mauve"
+          ]
+        },
+        {
+          "id": "david_bowie",
+          "nome": "David Bowie",
+          "descricao": "Cantor, compositor e ator britânico, criador do personagem Ziggy Stardust, morto em 2016",
+          "variantes": [
+            "David Jones",
+            "David Robert Jones"
+          ]
+        },
+        {
+          "id": "bandeira_do_benin",
+          "nome": "Bandeira do Benin",
+          "descricao": "Bandeira nacional do Benin, com faixa vertical verde à esquerda e faixas amarela e vermelha à direita.",
+          "variantes": [
+            "Benin",
+            "Bandeira do Benim"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "arena_de_verona",
+      "motivo": "Mesmo anfiteatro romano de Verona."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ponte_25_de_abril",
+      "motivo": "Mesma ponte sobre o Tejo Lisboa-Almada."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "taipei_101",
+      "motivo": "Mesmo arranha-céu em Taipé."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Mesquita do Xá de Isfahan."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "santuario_de_cristo_rei",
+      "motivo": "Mesmo santuário em Almada, inaugurado em 1959."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "elevador_de_santa_justa",
+      "motivo": "Mesmo elevador de Lisboa."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "maison_carree",
+      "motivo": "Mesmo templo romano de Nîmes."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "forte_de_copacabana",
+      "motivo": "Mesmo forte na ponta sul de Copacabana."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "templo_de_hatshepsut",
+      "motivo": "Mesmo templo mortuário em Deir el-Bahari."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a escultura Davi de Bernini."
+    }
+  ]
+}
