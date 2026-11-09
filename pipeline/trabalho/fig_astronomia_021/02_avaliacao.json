@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Render nítido da sonda dourada com duas antenas brancas e painéis solares, sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "pergunta": "Que tipo de missão espacial esta sonda cumpriu?",
+      "tipo": "multipla",
+      "resposta": "Retorno de amostras de asteroide",
+      "distratores": [
+        "Pouso em Marte",
+        "Estudo de um cometa",
+        "Desvio de asteroide"
+      ],
+      "ancora": {
+        "nome": "Hayabusa2",
+        "descricao": "Sonda espacial japonesa da JAXA que coletou amostras do asteroide Ryugu e as trouxe à Terra em 2020.",
+        "variantes": [
+          "Hayabusa 2",
+          "Hayabusa-2"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara do prato assimétrico característico, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "pergunta": "Que senador americano dá nome a este telescópio?",
+      "tipo": "multipla",
+      "resposta": "Robert C. Byrd",
+      "distratores": [
+        "Barry Goldwater",
+        "Strom Thurmond",
+        "Ted Kennedy"
+      ],
+      "ancora": {
+        "nome": "Telescópio de Green Bank",
+        "descricao": "Radiotelescópio de 100 metros em Green Bank, na Virgínia Ocidental (EUA), o maior totalmente móvel do mundo.",
+        "variantes": [
+          "Green Bank Telescope",
+          "GBT",
+          "Telescópio Robert C. Byrd"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Render isolado da sonda com longos painéis solares, sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "pergunta": "Que tipo de missão espacial esta nave cumpriu?",
+      "tipo": "multipla",
+      "resposta": "Teste de defesa planetária",
+      "distratores": [
+        "Retorno de amostras lunares",
+        "Estudo de um cometa",
+        "Observação do Sol"
+      ],
+      "ancora": {
+        "nome": "Missão DART",
+        "descricao": "Nave da NASA que se chocou com o asteroide Dimorphos em 2022 para testar o desvio de asteroides.",
+        "variantes": [
+          "DART",
+          "Double Asteroid Redirection Test"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Lua cinzenta craterada, facilmente confundível com Titânia e outras luas; não é única nem reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Prédio com cúpula genérico, sem elementos que permitam reconhecer o Observatório Nacional."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem icônica do Hubble, com cauda característica, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "pergunta": "Em que constelação fica esta galáxia?",
+      "tipo": "aberta",
+      "resposta": "Draco (Dragão)",
+      "ancora": {
+        "nome": "Galáxia do Girino",
+        "descricao": "Galáxia espiral barrada distorcida, com longa cauda de estrelas, na constelação de Draco.",
+        "variantes": [
+          "Tadpole Galaxy",
+          "UGC 10214",
+          "Arp 188"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Recorte em preto e branco de uma planície de gelo; o formato de coração não aparece e a imagem não é reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Close de nuvem de gás que lembra muitas outras nebulosas; não permite resposta única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Aparecem texto e logotipo (Boeing, Starliner) na cápsula, que entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Duas cúpulas brancas gêmeas, características, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "pergunta": "Estes observatórios gêmeos ficam no topo de que vulcão?",
+      "tipo": "multipla",
+      "resposta": "Mauna Kea",
+      "distratores": [
+        "Mauna Loa",
+        "Haleakalā",
+        "Kilauea"
+      ],
+      "ancora": {
+        "nome": "Observatório Keck",
+        "descricao": "Observatório com dois telescópios de 10 metros no topo do Mauna Kea, no Havaí.",
+        "variantes": [
+          "W. M. Keck Observatory",
+          "Observatório W. M. Keck",
+          "Keck"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O crachá no traje mostra 'MAE JEMISON', que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Eco de luz icônico do Hubble, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "pergunta": "Em que constelação fica esta estrela?",
+      "tipo": "multipla",
+      "resposta": "Monoceros (Unicórnio)",
+      "distratores": [
+        "Órion",
+        "Cão Maior",
+        "Hidra"
+      ],
+      "ancora": {
+        "nome": "V838 Monocerotis",
+        "descricao": "Estrela variável eruptiva da constelação de Monoceros, que explodiu em 2002 e gerou um famoso eco de luz.",
+        "variantes": [
+          "V838 Mon",
+          "Nova Monocerotis 2002"
+        ]
+      }
+    }
+  ]
+}
