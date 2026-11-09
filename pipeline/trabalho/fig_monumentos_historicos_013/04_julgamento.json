@@ -1,0 +1,575 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Portão de Brandemburgo",
+        "descricao": "Monumento neoclássico de Berlim, na Alemanha, coroado por uma quadriga de bronze, construído entre 1788 e 1791.",
+        "variantes": [
+          "Brandenburger Tor",
+          "Brandenburg Gate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "portao_de_brandemburgo",
+          "nome": "Portão de Brandemburgo",
+          "descricao": "Portal neoclássico do século dezoito no centro de Berlim, símbolo da reunificação alemã.",
+          "variantes": [
+            "Brandenburger Tor",
+            "Brandenburg Gate"
+          ]
+        },
+        {
+          "id": "noite_dos_cristais",
+          "nome": "Noite dos Cristais",
+          "descricao": "Onda de ataques organizados pelos nazistas contra judeus, suas lojas e sinagogas na Alemanha e na Áustria, em novembro de 1938.",
+          "variantes": [
+            "Kristallnacht",
+            "Pogrom de Novembro"
+          ]
+        },
+        {
+          "id": "aracy_de_carvalho",
+          "nome": "Aracy de Carvalho",
+          "descricao": "Funcionária do consulado brasileiro em Hamburgo que ajudou judeus a fugir do nazismo, reconhecida como Justa entre as Nações.",
+          "variantes": [
+            "Aracy de Carvalho Guimarães Rosa",
+            "Anjo de Hamburgo"
+          ]
+        },
+        {
+          "id": "moscoforo",
+          "nome": "Moscóforo",
+          "descricao": "Estátua grega arcaica de cerca de 560 a.C., em mármore, que representa um homem carregando um bezerro nos ombros, encontrada na Acrópole de Atenas.",
+          "variantes": [
+            "Moschophoros",
+            "Portador de bezerro",
+            "Calf Bearer"
+          ]
+        },
+        {
+          "id": "meteorito_do_bendego",
+          "nome": "Meteorito do Bendegó",
+          "descricao": "Meteorito de ferro de mais de cinco toneladas achado no sertão baiano em 1784 e exposto no Museu Nacional, no Rio de Janeiro.",
+          "variantes": [
+            "Bendegó",
+            "Meteorito de Bendegó"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Aït Benhaddou",
+        "descricao": "Ksar (povoado fortificado de barro) no Marrocos, antiga rota de caravanas entre o Saara e Marrakech, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Ait Ben Haddou",
+          "Aït-Ben-Haddou"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capitao_haddock",
+          "nome": "Capitão Haddock",
+          "descricao": "Capitão do mar beberrão e esbravejante, melhor amigo de Tintim",
+          "variantes": [
+            "Captain Haddock",
+            "Capitaine Haddock",
+            "Haddock"
+          ]
+        },
+        {
+          "id": "ratao_do_banhado",
+          "nome": "Ratão-do-banhado",
+          "descricao": "Roedor semiaquático sul-americano da espécie Myocastor coypus, introduzido em vários outros continentes.",
+          "variantes": [
+            "Nutria",
+            "Coipu",
+            "Myocastor coypus"
+          ]
+        },
+        {
+          "id": "maneki_neko",
+          "nome": "Maneki-neko",
+          "descricao": "Estatueta de gato com a pata levantada, usada como amuleto de sorte em lojas e restaurantes.",
+          "variantes": [
+            "Gato da sorte",
+            "Gato acenando"
+          ]
+        },
+        {
+          "id": "calvin_e_haroldo",
+          "nome": "Calvin e Haroldo",
+          "descricao": "Tira de jornal do americano Bill Watterson sobre um menino e seu tigre",
+          "variantes": [
+            "Calvin and Hobbes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Grande Mesquita de Kairouan",
+        "descricao": "Mesquita de Kairouan, na Tunísia, fundada por Uqba ibn Nafi por volta de 670, uma das mais antigas do Magreb.",
+        "variantes": [
+          "Mesquita de Uqba",
+          "Grande Mesquita de Cairuão",
+          "Great Mosque of Kairouan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_samarra",
+          "nome": "Grande Mesquita de Samarra",
+          "descricao": "Antiga mesquita abássida do século nove em Samarra, Iraque, famosa pelo minarete em espiral.",
+          "variantes": [
+            "Mesquita Al-Malwiya",
+            "Great Mosque of Samarra",
+            "Malwiya"
+          ]
+        },
+        {
+          "id": "minarete_da_grande_mesquita_de_cairuao",
+          "nome": "Minarete da Grande Mesquita de Cairuão",
+          "descricao": "Torre de tijolo da Grande Mesquita de Cairuão, na Tunísia, exemplo de minarete.",
+          "variantes": [
+            "Minarete"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "mesquita_de_al_aqsa",
+          "nome": "Mesquita de Al-Aqsa",
+          "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+          "variantes": [
+            "Al-Aqsa",
+            "Mesquita Al-Aqsa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Castelo de Chenonceau",
+        "descricao": "Castelo renascentista francês sobre o rio Cher, no Vale do Loire.",
+        "variantes": [
+          "Château de Chenonceau",
+          "Chenonceau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        },
+        {
+          "id": "castelo_de_n",
+          "nome": "Castelo de N",
+          "descricao": "Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história.",
+          "variantes": [
+            "N's Castle"
+          ]
+        },
+        {
+          "id": "fasil_ghebbi",
+          "nome": "Fasil Ghebbi",
+          "descricao": "Cidadela real em Gondar, Etiópia, fundada no século dezessete e residência de imperadores etíopes.",
+          "variantes": [
+            "Cidade-fortaleza de Fasil Ghebbi",
+            "Castelos de Gondar"
+          ]
+        },
+        {
+          "id": "castelo_de_osaka",
+          "nome": "Castelo de Osaka",
+          "descricao": "Castelo japonês em Chūō-ku, Osaka, importante na unificação do Japão no século dezesseis.",
+          "variantes": [
+            "Osaka-jō",
+            "Osaka Castle"
+          ]
+        },
+        {
+          "id": "georges_clemenceau",
+          "nome": "Georges Clemenceau",
+          "descricao": "Estadista francês, primeiro-ministro de 1917 a 1920, figura central do Tratado de Versalhes.",
+          "variantes": [
+            "Clemenceau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "El Tajín",
+        "descricao": "Sítio arqueológico pré-colombiano em Veracruz, no México, conhecido pela Pirâmide dos Nichos.",
+        "variantes": [
+          "Pirâmide dos Nichos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun",
+            "Pirámide del Sol"
+          ]
+        },
+        {
+          "id": "piramides_de_meroe",
+          "nome": "Pirâmides de Méroe",
+          "descricao": "Conjunto de pirâmides núbias erguidas pelos reis de Cuxe perto da antiga cidade de Méroe.",
+          "variantes": [
+            "Pirâmides núbias",
+            "Meroë pyramids"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_cholula",
+          "nome": "Grande Pirâmide de Cholula",
+          "descricao": "Enorme pirâmide pré-colombiana no estado mexicano de Puebla, hoje coberta de terra e com uma igreja no topo.",
+          "variantes": [
+            "Pirâmide de Cholula",
+            "Tlachihualtépetl"
+          ]
+        },
+        {
+          "id": "tajine",
+          "nome": "Tajine",
+          "descricao": "Panela de barro com tampa cônica e o ensopado marroquino preparado nela.",
+          "variantes": [
+            "Tagine",
+            "Tagin"
+          ]
+        },
+        {
+          "id": "meltan",
+          "nome": "Meltan",
+          "descricao": "Pokémon do tipo Aço, número 808 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Exército de Terracota",
+        "descricao": "Conjunto de esculturas de terracota enterrado com Qin Shi Huang, primeiro imperador da China, perto de Xi'an.",
+        "variantes": [
+          "Guerreiros de Terracota",
+          "Terracotta Army",
+          "Exército de terracota de Xi'an"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "exercito_de_terracota",
+          "nome": "Exército de Terracota",
+          "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian.",
+          "variantes": [
+            "Guerreiros de Terracota",
+            "Terracotta Army",
+            "Guerreiros de Xian"
+          ]
+        },
+        {
+          "id": "bronzes_de_riace",
+          "nome": "Bronzes de Riace",
+          "descricao": "Par de estátuas gregas de guerreiros em bronze, do século cinco a.C., encontradas em 1972 no mar perto de Riace, na Calábria.",
+          "variantes": [
+            "Guerreiros de Riace",
+            "Riace bronzes"
+          ]
+        },
+        {
+          "id": "experimento_de_rutherford",
+          "nome": "Experimento de Rutherford",
+          "descricao": "Experimentos de Geiger e Marsden, orientados por Ernest Rutherford a partir de 1909, que levaram à descoberta do núcleo atômico.",
+          "variantes": [
+            "Experimento da folha de ouro",
+            "Experimento de Geiger-Marsden",
+            "Geiger–Marsden experiments"
+          ]
+        },
+        {
+          "id": "guerrilheiro_heroico",
+          "nome": "Guerrilheiro Heroico",
+          "descricao": "Fotografia de Che Guevara de boina com estrela, tirada em Havana em 5 de março de 1960.",
+          "variantes": [
+            "Guerrillero Heroico"
+          ]
+        },
+        {
+          "id": "erupcao_minoica",
+          "nome": "Erupção minoica",
+          "descricao": "Grande erupção vulcânica de Thera, no mar Egeu, durante a Idade do Bronze.",
+          "variantes": [
+            "Erupção de Thera",
+            "Erupção de Santorini"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Meteora",
+        "descricao": "Formação rochosa na Tessália, na Grécia, com mosteiros ortodoxos construídos sobre pilares de pedra.",
+        "variantes": [
+          "Meteora, Grécia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "meteora",
+          "nome": "Meteora",
+          "descricao": "Conjunto de mosteiros ortodoxos construídos no alto de pilares de rocha, na Tessália",
+          "variantes": []
+        },
+        {
+          "id": "meteoro_bruno_giorgi",
+          "nome": "Meteoro (Bruno Giorgi)",
+          "descricao": "Escultura de mármore de Bruno Giorgi, de 1967-1968, no espelho d'água do Palácio Itamaraty, em Brasília.",
+          "variantes": [
+            "Meteoro",
+            "Meteoro do Itamaraty"
+          ]
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter",
+            "Metro-padrão"
+          ]
+        },
+        {
+          "id": "mentor_odisseia",
+          "nome": "Mentor (Odisseia)",
+          "descricao": "Personagem da Odisseia, velho amigo de Ulisses encarregado de cuidar de Telêmaco.",
+          "variantes": [
+            "Mentor",
+            "Mentor (personagem)"
+          ]
+        },
+        {
+          "id": "metecos",
+          "nome": "Metecos",
+          "descricao": "Estrangeiros livres que residiam em Atenas, pagavam imposto e serviam no exército, mas não tinham direitos políticos.",
+          "variantes": [
+            "Meteco",
+            "Metic",
+            "Métoikos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Jebel Barkal",
+        "descricao": "Montanha de topo plano perto de Karima, no Sudão, sagrada para o antigo reino de Cuxe e para os egípcios, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Gebel Barkal",
+          "Jebel Barcal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gabigol",
+          "nome": "Gabigol",
+          "descricao": "Gabriel Barbosa Almeida, atacante brasileiro de futebol, ídolo do Flamengo.",
+          "variantes": [
+            "Gabriel Barbosa",
+            "Gabi"
+          ]
+        },
+        {
+          "id": "lebre_artica",
+          "nome": "Lebre-ártica",
+          "descricao": "Espécie de lebre (Lepus arcticus) adaptada à tundra e ao frio extremo do Ártico.",
+          "variantes": [
+            "Lepus arcticus",
+            "Arctic hare"
+          ]
+        },
+        {
+          "id": "binturong",
+          "nome": "Binturong",
+          "descricao": "Viverrídeo arborícola do Sul e Sudeste da Ásia (Arctictis binturong), de pelagem escura e cauda preênsil.",
+          "variantes": [
+            "Arctictis binturong",
+            "Gato-urso",
+            "Bearcat"
+          ]
+        },
+        {
+          "id": "ze_carioca",
+          "nome": "Zé Carioca",
+          "descricao": "Papagaio brasileiro criado pelos estúdios Disney em 1942.",
+          "variantes": [
+            "José Carioca",
+            "Joe Carioca"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Sagrada Família",
+        "descricao": "Basílica de Barcelona, na Espanha, projetada por Antoni Gaudí e em construção desde 1882.",
+        "variantes": [
+          "Templo Expiatório da Sagrada Família",
+          "Basílica da Sagrada Família"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sagrada_familia",
+          "nome": "Sagrada Família",
+          "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século.",
+          "variantes": [
+            "Templo Expiatório da Sagrada Família",
+            "Basílica da Sagrada Família",
+            "Sagrada Família de Barcelona"
+          ]
+        },
+        {
+          "id": "a_grande_familia_2001",
+          "nome": "A Grande Família (2001)",
+          "descricao": "Série de humor da TV Globo, exibida de 2001 a 2014, sobre uma família do subúrbio carioca.",
+          "variantes": [
+            "A Grande Família"
+          ]
+        },
+        {
+          "id": "saira_militar",
+          "nome": "Saíra-militar",
+          "descricao": "Pequena ave de cabeça azul, garganta vermelha e corpo verde (Tangara cyanocephala).",
+          "variantes": [
+            "Saíra-de-chapéu-azul",
+            "Tangara cyanocephala"
+          ]
+        },
+        {
+          "id": "basilica_de_sacre_c_ur",
+          "nome": "Basílica de Sacré-Cœur",
+          "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
+          "variantes": [
+            "Sacré-Cœur",
+            "Basílica do Sagrado Coração de Montmartre",
+            "Basílica do Sagrado Coração"
+          ]
+        },
+        {
+          "id": "arca_da_alianca",
+          "nome": "Arca da Aliança",
+          "descricao": "Baú sagrado descrito na Bíblia hebraica, levado pelos israelitas no deserto e depois guardado no Templo de Jerusalém",
+          "variantes": [
+            "Arca do Testemunho",
+            "Arca da Lei"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "portao_de_brandemburgo",
+      "motivo": "Mesmo monumento neoclássico de Berlim."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o ksar marroquino."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A mesquita é distinta do minarete (parte) e das outras mesquitas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o castelo de Chenonceau."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "El Tajín é um sítio distinto das outras pirâmides e do tajine."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "exercito_de_terracota",
+      "motivo": "Mesmo conjunto de guerreiros de terracota de Qin Shi Huang."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "meteora",
+      "motivo": "Mesmos mosteiros/formação rochosa de Meteora na Tessália."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a montanha Jebel Barkal."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "sagrada_familia",
+      "motivo": "Mesma basílica de Gaudí em Barcelona."
+    }
+  ]
+}

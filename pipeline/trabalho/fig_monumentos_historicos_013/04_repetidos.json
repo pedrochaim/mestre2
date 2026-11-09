@@ -1,0 +1,123 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século foi construído este monumento neoclássico, hoje um dos símbolos de uma capital europeia?",
+        "resposta": "Século dezoito"
+      },
+      "existentes": [
+        {
+          "id": "q02023",
+          "pergunta": "O Portão de Brandemburgo, em Berlim, foi inspirado em qual portal monumental da Acrópole de Atenas?",
+          "resposta": "Os Propileus"
+        },
+        {
+          "id": "q03946",
+          "pergunta": "Que arquiteto projetou este portão neoclássico, construído no fim do século dezoito?",
+          "resposta": "Carl Gotthard Langhans"
+        },
+        {
+          "id": "q07514",
+          "pergunta": "Em 1806, Napoleão levou para Paris o carro de bronze puxado por quatro cavalos que coroa o Portão de Brandemburgo. Como se chama esse conjunto?",
+          "resposta": "Quadriga"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que século antes de Cristo foi enterrado este conjunto de estátuas guerreiras?",
+        "resposta": "Século três antes de Cristo"
+      },
+      "existentes": [
+        {
+          "id": "q03361",
+          "pergunta": "Por que milhares de soldados de barro foram enterrados junto ao túmulo do imperador chinês Qin Shi Huang?",
+          "resposta": "Para protegê-lo após a morte"
+        },
+        {
+          "id": "q03362",
+          "pergunta": "Em que década do século vinte agricultores chineses que cavavam um poço encontraram o Exército de Terracota?",
+          "resposta": "Década de 1970"
+        },
+        {
+          "id": "q03968",
+          "pergunta": "Os milhares de guerreiros de terracota de Xian foram feitos para guardar o túmulo de que imperador, o unificador da China?",
+          "resposta": "Qin Shi Huang"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que lugar da Grécia central é este?",
+        "resposta": "Meteora"
+      },
+      "existentes": [
+        {
+          "id": "q09494",
+          "pergunta": "Em que país ficam os mosteiros ortodoxos de Meteora, construídos no alto de enormes pilares de rocha?",
+          "resposta": "Grécia"
+        },
+        {
+          "id": "q16681",
+          "pergunta": "Em que região da Grécia fica este conjunto rochoso?",
+          "resposta": "Tessália"
+        },
+        {
+          "id": "q17967",
+          "pergunta": "Que lugar da Grécia é este?",
+          "resposta": "Meteora"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que arquiteto projetou esta basílica?",
+        "resposta": "Antoni Gaudí"
+      },
+      "existentes": [
+        {
+          "id": "q02037",
+          "pergunta": "Em Barcelona, as obras da basílica da Sagrada Família começaram em qual século?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q02519",
+          "pergunta": "Em que cidade fica esta basílica?",
+          "resposta": "Barcelona"
+        },
+        {
+          "id": "q03193",
+          "pergunta": "Em que ano foi lançada a pedra fundamental da Sagrada Família, em Barcelona?",
+          "resposta": "1882"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Século de construção do Portão não é perguntado nas existentes (apenas inspiração, arquiteto e quadriga). O arquiteto 'fim do século dezoito' dá a dica no enunciado, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O século do enterro não é perguntado nas existentes (motivo, descoberta, imperador)."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q17967",
+      "motivo": "Mesma pergunta e mesma resposta: qual é o lugar (Meteora)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O arquiteto é um fato diferente de século, cidade e ano da pedra fundamental."
+    }
+  ]
+}

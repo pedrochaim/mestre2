@@ -1,0 +1,257 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem nítida do portão, sem texto que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "pergunta": "Em que século foi construído este monumento neoclássico, hoje um dos símbolos de uma capital europeia?",
+      "tipo": "multipla",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezessete",
+        "Século dezenove",
+        "Século vinte"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Portão de Brandemburgo",
+        "descricao": "Monumento neoclássico de Berlim, na Alemanha, coroado por uma quadriga de bronze, construído entre 1788 e 1791.",
+        "variantes": [
+          "Brandenburger Tor",
+          "Brandenburg Gate"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea clara de um ksar de barro, sem texto; resposta única pela foto.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Em que país fica este povoado fortificado de barro, antiga parada de caravanas?",
+      "tipo": "multipla",
+      "resposta": "Marrocos",
+      "distratores": [
+        "Argélia",
+        "Mali",
+        "Tunísia"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Aït Benhaddou",
+        "descricao": "Ksar (povoado fortificado de barro) no Marrocos, antiga rota de caravanas entre o Saara e Marrakech, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Ait Ben Haddou",
+          "Aït-Ben-Haddou",
+          "Ait Benhaddou"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara da mesquita; só aparecem marcas comerciais pequenas e irrelevantes.",
+      "familia": "quando",
+      "nivel": 1,
+      "pergunta": "Em que século foi fundada esta mesquita, uma das mais antigas do mundo islâmico?",
+      "tipo": "multipla",
+      "resposta": "Século sete",
+      "distratores": [
+        "Século oito",
+        "Século nove",
+        "Século onze"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Grande Mesquita de Kairouan",
+        "descricao": "Mesquita de Kairouan, na Tunísia, fundada por Uqba ibn Nafi por volta de 670, uma das mais antigas do Magreb.",
+        "variantes": [
+          "Mesquita de Uqba",
+          "Grande Mesquita de Cairuão",
+          "Great Mosque of Kairouan"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida do castelo; sem texto. Enunciado sobre o rio é fato do castelo e não depende de ver a ponte.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Sobre que rio se estende este castelo renascentista francês?",
+      "tipo": "multipla",
+      "resposta": "Rio Cher",
+      "distratores": [
+        "Rio Loire",
+        "Rio Sena",
+        "Rio Ródano"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Castelo de Chenonceau",
+        "descricao": "Castelo renascentista francês sobre o rio Cher, no Vale do Loire.",
+        "variantes": [
+          "Château de Chenonceau",
+          "Chenonceau"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pirâmide dos Nichos bem visível e característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que sítio arqueológico mexicano é este?",
+      "tipo": "multipla",
+      "resposta": "El Tajín",
+      "distratores": [
+        "Chichén Itzá",
+        "Palenque",
+        "Teotihuacán"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "El Tajín",
+        "descricao": "Sítio arqueológico pré-colombiano em Veracruz, no México, conhecido pela Pirâmide dos Nichos.",
+        "variantes": [
+          "El Tajin",
+          "Pirâmide dos Nichos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto reconhecível da Fossa 1; só há pequenas placas numéricas, sem entregar a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "pergunta": "Em que século antes de Cristo foi enterrado este conjunto de estátuas guerreiras?",
+      "tipo": "multipla",
+      "resposta": "Século três antes de Cristo",
+      "distratores": [
+        "Século quatro antes de Cristo",
+        "Século dois antes de Cristo",
+        "Século um antes de Cristo"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Exército de Terracota",
+        "descricao": "Conjunto de esculturas de terracota enterrado com Qin Shi Huang, primeiro imperador da China, perto de Xi'an.",
+        "variantes": [
+          "Guerreiros de Terracota",
+          "Terracotta Army",
+          "Exército de terracota de Xi'an"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Paisagem característica dos rochedos com mosteiro; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que conjunto de mosteiros no alto de rochedos é este?",
+      "tipo": "multipla",
+      "resposta": "Meteora",
+      "distratores": [
+        "Monte Athos",
+        "Capadócia",
+        "Mont-Saint-Michel"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Meteora",
+        "descricao": "Formação rochosa na Tessália, na Grécia, com mosteiros ortodoxos construídos sobre pilares de pedra.",
+        "variantes": [
+          "Metéora",
+          "Meteora, Grécia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, mostrando só um trecho de muralha, sem traços que permitam reconhecer o forte; ilegível e ambígua num celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A fachada traz escrito 'Real Gabinete Portuguez de Leitura', entregando a resposta, e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista clara de Tulum com El Castillo; turistas pequenos e ao fundo, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "pergunta": "Que povo construiu esta cidade murada à beira do mar?",
+      "tipo": "multipla",
+      "resposta": "Maias",
+      "distratores": [
+        "Astecas",
+        "Incas",
+        "Olmecas"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Tulum",
+        "descricao": "Cidade maia murada sobre falésias do Caribe, em Quintana Roo, México.",
+        "variantes": [
+          "Zamá",
+          "Tulúm"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto clara da montanha de topo plano com o pináculo característico; sem texto; múltipla escolha compensa a dificuldade.",
+      "familia": "onde",
+      "nivel": 3,
+      "pergunta": "Em que país fica esta montanha, sagrada para antigos povos da Núbia?",
+      "tipo": "multipla",
+      "resposta": "Sudão",
+      "distratores": [
+        "Egito",
+        "Etiópia",
+        "Líbia"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Jebel Barkal",
+        "descricao": "Montanha de topo plano perto de Karima, no Sudão, sagrada para o antigo reino de Cuxe e para os egípcios, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Gebel Barkal",
+          "Jebel Barcal"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida da Sagrada Família, sem texto legível que entregue a resposta.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "pergunta": "Que arquiteto catalão projetou esta basílica, ainda em construção?",
+      "tipo": "multipla",
+      "resposta": "Antoni Gaudí",
+      "distratores": [
+        "Lluís Domènech i Montaner",
+        "Josep Puig i Cadafalch",
+        "Victor Horta"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Sagrada Família",
+        "descricao": "Basílica de Barcelona, na Espanha, projetada por Antoni Gaudí e em construção desde 1882.",
+        "variantes": [
+          "Templo Expiatório da Sagrada Família",
+          "Basílica da Sagrada Família"
+        ]
+      }
+    }
+  ]
+}

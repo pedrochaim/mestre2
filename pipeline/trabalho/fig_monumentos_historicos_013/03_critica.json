@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Século XVIII confirmado (1788-1791). Enunciado não entrega o nome; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marrocos confirmado nos trechos; a pista não entrega o sítio e os distratores são países críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação em 670, século sete; enunciado correto e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Castelo sobre o rio Cher, confirmado. Enunciado não entrega a resposta; distratores críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de El Tajín; distratores são sítios mexicanos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enterrado em 210-209 a.C., século três a.C.; distratores corretos como erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Conjunto de mosteiros no alto de rochedos' é a definição de Meteora: a imagem coberta já permite responder. Troquei por país e região, sem descrever a feição.",
+      "reescrita": {
+        "pergunta": "Que lugar da Grécia central é este?",
+        "resposta": "Meteora",
+        "distratores": [
+          "Delfos",
+          "Olímpia",
+          "Cabo Sounion"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A montanha era sagrada para Cuxe e para os egípcios ocupantes, não para 'povos da Núbia' em geral; a formulação é imprecisa. Ajustei conforme o trecho.",
+      "reescrita": {
+        "pergunta": "Em que país fica esta montanha de topo plano, sagrada para o antigo reino de Cuxe?",
+        "resposta": "Sudão",
+        "distratores": [
+          "Egito",
+          "Etiópia",
+          "Líbia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Basílica ainda em construção' com arquiteto catalão permite chegar à Sagrada Família sem ver a figura. Retirei a pista e troquei o distrator Horta (belga) por um do mesmo universo.",
+      "reescrita": {
+        "pergunta": "Que arquiteto projetou esta basílica?",
+        "resposta": "Antoni Gaudí",
+        "distratores": [
+          "Lluís Domènech i Montaner",
+          "Josep Puig i Cadafalch",
+          "Ricardo Bofill"
+        ]
+      }
+    }
+  ]
+}
