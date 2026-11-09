@@ -1,0 +1,435 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Chullo",
+        "descricao": "Gorro de lã com abas laterais, tradicional dos povos andinos.",
+        "variantes": [
+          "Ch'ullu",
+          "Lluch'u"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chullo",
+          "nome": "Chullo",
+          "descricao": "Gorro andino de lã com abas para as orelhas, feito de alpaca, lhama ou ovelha.",
+          "variantes": [
+            "Ch'ullu",
+            "Gorro andino"
+          ]
+        },
+        {
+          "id": "violoncelo",
+          "nome": "Violoncelo",
+          "descricao": "Instrumento de cordas friccionadas da família do violino, de som grave, tocado sentado e apoiado no chão por uma ponteira.",
+          "variantes": [
+            "Cello"
+          ]
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "churros",
+          "nome": "Churros",
+          "descricao": "Massa frita em formato de bastão sulcado, polvilhada de açúcar e canela, de origem ibérica.",
+          "variantes": [
+            "Churro"
+          ]
+        },
+        {
+          "id": "chumbo",
+          "nome": "Chumbo",
+          "descricao": "Elemento químico metálico de número atômico 82, pesado e maleável, usado pelos romanos em encanamentos.",
+          "variantes": [
+            "Lead",
+            "Plumbum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Alfabeto gótico",
+        "descricao": "Alfabeto criado no século IV por Ulfilas para escrever a língua gótica e traduzir a Bíblia.",
+        "variantes": [
+          "Escrita gótica de Ulfilas",
+          "Gothic alphabet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alfabeto_turco",
+          "nome": "Alfabeto turco",
+          "descricao": "Alfabeto latino adotado pela Turquia em 1928, nas reformas de Atatürk, no lugar da escrita árabe.",
+          "variantes": [
+            "Turkish alphabet",
+            "Reforma do alfabeto turco"
+          ]
+        },
+        {
+          "id": "alfabeto_latino",
+          "nome": "Alfabeto latino",
+          "descricao": "Sistema de escrita derivado do usado pelos antigos romanos, base da escrita do português e de centenas de outras línguas.",
+          "variantes": [
+            "Alfabeto romano"
+          ]
+        },
+        {
+          "id": "escrita_ge_ez",
+          "nome": "Escrita ge'ez",
+          "descricao": "Abugida da Etiópia e da Eritreia, usada na liturgia e para escrever amárico e tigrínia.",
+          "variantes": [
+            "Ge'ez",
+            "Alfabeto etíope",
+            "Fidäl"
+          ]
+        },
+        {
+          "id": "alfabeto_georgiano",
+          "nome": "Alfabeto georgiano",
+          "descricao": "Sistema de escrita do idioma georgiano, com as três versões Asomtavruli, Nuskhuri e Mkhedruli.",
+          "variantes": [
+            "Escrita georgiana",
+            "Mkhedruli"
+          ]
+        },
+        {
+          "id": "alfabeto_fenicio",
+          "nome": "Alfabeto fenício",
+          "descricao": "Sistema de escrita dos fenícios, ancestral dos alfabetos grego e latino.",
+          "variantes": [
+            "Phoenician alphabet",
+            "Escrita fenícia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Samovar",
+        "descricao": "Recipiente metálico tradicional da Rússia para ferver água, usado no preparo do chá.",
+        "variantes": [
+          "Самовар"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samovar",
+          "nome": "Samovar",
+          "descricao": "Recipiente de metal de origem russa, tradicionalmente usado para aquecer e ferver água para o chá.",
+          "variantes": []
+        },
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        },
+        {
+          "id": "samosa",
+          "nome": "Samosa",
+          "descricao": "Salgado frito do subcontinente indiano, de massa em forma triangular, cone ou meia-lua, com recheio picante.",
+          "variantes": [
+            "Chamuça",
+            "Samossa",
+            "Shingara"
+          ]
+        },
+        {
+          "id": "salvador",
+          "nome": "Salvador",
+          "descricao": "Capital da Bahia, primeira capital do Brasil.",
+          "variantes": [
+            "São Salvador da Bahia de Todos os Santos"
+          ]
+        },
+        {
+          "id": "sampa",
+          "nome": "Sampa",
+          "descricao": "Canção de Caetano Veloso de 1978, homenagem à cidade de São Paulo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Alfabeto Fonético Internacional",
+        "descricao": "Sistema de notação fonética baseado no alfabeto latino, usado para representar os sons da fala.",
+        "variantes": [
+          "AFI",
+          "IPA",
+          "International Phonetic Alphabet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "quipa",
+          "nome": "Quipá",
+          "descricao": "Pequeno chapéu redondo sem aba usado por judeus para cobrir a cabeça.",
+          "variantes": [
+            "Kippah",
+            "Yarmulke",
+            "Kipá"
+          ]
+        },
+        {
+          "id": "praia_da_pipa",
+          "nome": "Praia da Pipa",
+          "descricao": "Famosa praia de Tibau do Sul, no litoral sul do Rio Grande do Norte, a cerca de 85 km de Natal.",
+          "variantes": [
+            "Praia de Pipa",
+            "Pipa"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "oia",
+          "nome": "Oia",
+          "descricao": "Vila na ilha de Santorini, nas Cíclades, Grécia, famosa pelo casario branco sobre a caldeira.",
+          "variantes": [
+            "Ia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Rondavel",
+        "descricao": "Cabana africana de planta circular e teto cônico de palha, com paredes cilíndricas.",
+        "variantes": [
+          "Rondawel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ronda",
+          "nome": "Ronda",
+          "descricao": "Samba-canção paulistano composto por Paulo Vanzolini, sobre uma mulher que procura o amado pela noite de São Paulo.",
+          "variantes": []
+        },
+        {
+          "id": "rod_laver",
+          "nome": "Rod Laver",
+          "descricao": "Ex-tenista australiano, único homem a vencer o Grand Slam duas vezes, em 1962 e 1969.",
+          "variantes": [
+            "Rodney George Laver"
+          ]
+        },
+        {
+          "id": "touro_indomavel",
+          "nome": "Touro Indomável",
+          "descricao": "Filme americano de 1980 sobre o boxeador Jake LaMotta, estrelado por Robert De Niro.",
+          "variantes": [
+            "Raging Bull"
+          ]
+        },
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Enxaimel",
+        "descricao": "Técnica de construção com vigas de madeira aparentes, cujos vãos são preenchidos com tijolos, pedra ou barro.",
+        "variantes": [
+          "Fachwerk",
+          "Estrutura de madeira aparente"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "archer",
+          "nome": "Archer",
+          "descricao": "Executivo da Equipe Rocket que comanda o grupo na ausência de Giovanni em Pokémon HeartGold e SoulSilver.",
+          "variantes": [
+            "Apollo"
+          ]
+        },
+        {
+          "id": "estrada_de_ferro_madeira_mamore",
+          "nome": "Estrada de Ferro Madeira-Mamoré",
+          "descricao": "Ferrovia construída em Rondônia no início do século vinte, conhecida como Ferrovia do Diabo.",
+          "variantes": [
+            "Madeira-Mamoré",
+            "Ferrovia do Diabo"
+          ]
+        },
+        {
+          "id": "bordo",
+          "nome": "Bordo",
+          "descricao": "Árvore do gênero Acer, de folhas palmadas e frutos alados, de cuja seiva se faz xarope.",
+          "variantes": [
+            "Acer",
+            "Maple"
+          ]
+        },
+        {
+          "id": "estatua_equestre_de_marco_aurelio",
+          "nome": "Estátua equestre de Marco Aurélio",
+          "descricao": "Estátua romana de bronze do imperador Marco Aurélio a cavalo, exposta nos Museus Capitolinos, em Roma.",
+          "variantes": [
+            "Equus Marci Aurelii",
+            "Estátua de Marco Aurélio"
+          ]
+        },
+        {
+          "id": "sistema_sexagesimal",
+          "nome": "Sistema sexagesimal",
+          "descricao": "Sistema de numeração de base sessenta, criado na Mesopotâmia antiga.",
+          "variantes": [
+            "Base sessenta",
+            "Sexagesimal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Dhow",
+        "descricao": "Embarcação tradicional a vela, de uma ou mais velas latinas, usada no mar Vermelho e no oceano Índico.",
+        "variantes": [
+          "Dau",
+          "Dhau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hau",
+          "nome": "Hau",
+          "descricao": "Rival e amigo do jogador em Pokémon Sun e Moon, neto do kahuna Hala.",
+          "variantes": []
+        },
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold",
+            "Aurum"
+          ]
+        },
+        {
+          "id": "rio_danubio",
+          "nome": "Rio Danúbio",
+          "descricao": "Rio da Europa Central e Oriental que nasce na Alemanha e deságua no mar Negro.",
+          "variantes": [
+            "Danúbio",
+            "Danube",
+            "Donau"
+          ]
+        },
+        {
+          "id": "doha",
+          "nome": "Doha",
+          "descricao": "Capital e maior cidade do Catar, no litoral do Golfo Pérsico.",
+          "variantes": [
+            "Ad-Dawha"
+          ]
+        },
+        {
+          "id": "emirados_arabes_unidos",
+          "nome": "Emirados Árabes Unidos",
+          "descricao": "Federação de emirados na Península Arábica cuja capital é Abu Dhabi.",
+          "variantes": [
+            "EAU",
+            "United Arab Emirates",
+            "UAE"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "chullo",
+      "motivo": "Mesmo gorro andino com abas; variante Ch'ullu coincide."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Alfabeto gótico de Ulfilas não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "samovar",
+      "motivo": "Mesmo recipiente russo para ferver água do chá."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Alfabeto Fonético Internacional não está entre as candidatas; nomes parecidos (Pipa) são outras entidades."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Rondavel (cabana africana) é diferente de todas as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Técnica construtiva enxaimel não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Dhow (embarcação) não consta entre as candidatas."
+    }
+  ]
+}

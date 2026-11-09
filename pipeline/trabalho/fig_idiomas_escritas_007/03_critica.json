@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pela descrição (gorro de lã com abas, povos indígenas) e distratores todos fora das Américas, a resposta sai sem olhar a figura. Reescrita tira a pista de lã e usa distratores americanos.",
+      "reescrita": {
+        "pergunta": "Este gorro com abas é tradicional dos povos indígenas de qual cordilheira?",
+        "resposta": "Andes",
+        "distratores": [
+          "Rochosas",
+          "Sierra Madre",
+          "Himalaia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Tradução da Bíblia no século quatro entrega o gótico sem a figura, e a resposta repete o nome da escrita. Melhor perguntar a época, apoiada nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que século foi criada esta escrita?",
+        "resposta": "Século quatro",
+        "distratores": [
+          "Século dois",
+          "Século seis",
+          "Século oito"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento, distratores do mesmo tipo (recipientes para bebida quente).",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista; distratores são outros sistemas de escrita e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Tukul também é cabana africana circular de teto cônico, então é distrator defensável. Troca por distratores claramente incorretos e restringe ao sul da África, conforme os trechos.",
+      "reescrita": {
+        "pergunta": "Que tipo de habitação circular, comum no sul da África, é esta?",
+        "resposta": "Rondavel",
+        "distratores": [
+          "Iurta",
+          "Oca",
+          "Iglu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho diz que a técnica não tem origem determinada (os etruscos já a usavam); 'origem germânica' não é literalmente verdadeiro. Reescrita usa o fato documentado dos imigrantes alemães no Brasil.",
+      "reescrita": {
+        "pergunta": "Que técnica de construção, levada por imigrantes alemães ao sul do Brasil, é esta?",
+        "resposta": "Enxaimel",
+        "distratores": [
+          "Taipa de pilão",
+          "Estuque",
+          "Concreto armado"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro segundo os trechos, não nomeia a resposta e os distratores são embarcações de outras tradições.",
+      "reescrita": null
+    }
+  ]
+}

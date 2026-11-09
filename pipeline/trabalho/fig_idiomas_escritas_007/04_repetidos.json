@@ -1,0 +1,56 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este gorro com abas é tradicional dos povos indígenas de qual cordilheira?",
+        "resposta": "Andes"
+      },
+      "existentes": [
+        {
+          "id": "q09676",
+          "pergunta": "Que gorro tradicional é este?",
+          "resposta": "Chullo"
+        },
+        {
+          "id": "q15492",
+          "pergunta": "De que cadeia de montanhas vem este gorro com orelheiras, tecido em lã?",
+          "resposta": "Andes"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que objeto tradicional russo é este?",
+        "resposta": "Samovar"
+      },
+      "existentes": [
+        {
+          "id": "q08086",
+          "pergunta": "Como se chama este recipiente de metal usado tradicionalmente para esquentar a água do chá?",
+          "resposta": "Samovar"
+        },
+        {
+          "id": "q17634",
+          "pergunta": "O samovar, usado pelos russos para esquentar a água do chá, tem um nome que significa literalmente o quê?",
+          "resposta": "Que ferve sozinho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15492",
+      "motivo": "Ambas perguntam a cordilheira (Andes) de origem do gorro com orelheiras; mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q08086",
+      "motivo": "Ambas pedem o nome do objeto, samovar, a partir da imagem; mesma resposta e mesmo fato."
+    }
+  ]
+}

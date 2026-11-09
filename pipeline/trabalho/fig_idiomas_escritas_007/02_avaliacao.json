@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Gondoleiros e turistas aparecem em primeiro plano, bem visíveis; são pessoas comuns."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Gorro de lã com abas e desenhos de lhamas, claro, sem texto, fundo neutro.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cordilheira este gorro com abas, de lã, é tradicional entre os povos indígenas?",
+      "resposta": "Andes",
+      "distratores": [
+        "Himalaia",
+        "Alpes",
+        "Cáucaso"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chullo",
+        "descricao": "Gorro de lã com abas laterais, tradicional dos povos andinos.",
+        "variantes": [
+          "Ch'ullu",
+          "Lluch'u"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Amostra de escrita gótica sem tradução; letras de aspecto grego, distintas e legíveis. Pergunta pela língua escrita.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Criada no século quatro para traduzir a Bíblia, esta escrita serve para registrar que língua germânica?",
+      "resposta": "Gótico",
+      "distratores": [
+        "Nórdico antigo",
+        "Anglo-saxão",
+        "Alto-alemão antigo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alfabeto gótico",
+        "descricao": "Alfabeto criado no século IV por Ulfilas para escrever a língua gótica e traduzir a Bíblia.",
+        "variantes": [
+          "Escrita gótica de Ulfilas",
+          "Gothic alphabet"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É uma ilustração a traço de três objetos (bumerangues e varas de arremesso), e o objeto poderia ser fotografado; resposta pouco clara."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Prancha com mais de cem símbolos, título 'ADINKRA SYMBOLS' e legendas com os nomes; o texto entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Montagem com várias escritas (siríaca, mandaica, árabe) e linhas em árabe; não há uma escrita única e a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Samovar isolado, nítido, fundo branco; o 'MADE IN USSR' gravado é minúsculo e não dá o nome do objeto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que objeto tradicional russo é este?",
+      "resposta": "Samovar",
+      "distratores": [
+        "Dallah",
+        "Tetsubin",
+        "Moka"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Samovar",
+        "descricao": "Recipiente metálico tradicional da Rússia para ferver água, usado no preparo do chá.",
+        "variantes": [
+          "Самовар"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Transcrição fonética em símbolos IPA, sem legenda; grande e legível. Reconhecível pelos símbolos próprios.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que sistema de escrita é este?",
+      "resposta": "Alfabeto Fonético Internacional",
+      "distratores": [
+        "Alfabeto cirílico",
+        "Alfabeto Shaviano",
+        "Alfabeto grego"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alfabeto Fonético Internacional",
+        "descricao": "Sistema de notação fonética baseado no alfabeto latino, usado para representar os sons da fala.",
+        "variantes": [
+          "AFI",
+          "IPA",
+          "International Phonetic Alphabet"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Conjunto de cabanas circulares de teto cônico de palha, sem pessoas e sem texto; reconhecível como rondavel.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de habitação tradicional africana é esta?",
+      "resposta": "Rondavel",
+      "distratores": [
+        "Tukul",
+        "Iurta",
+        "Oca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rondavel",
+        "descricao": "Cabana africana de planta circular e teto cônico de palha, com paredes cilíndricas.",
+        "variantes": [
+          "Rondawel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Parede de estrutura de madeira com preenchimento, nítida e sem pessoas; só uma letra solta no canto, que não entrega nada. A técnica é reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que técnica de construção, de origem germânica, é esta?",
+      "resposta": "Enxaimel",
+      "distratores": [
+        "Taipa de pilão",
+        "Estuque",
+        "Concreto armado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Enxaimel",
+        "descricao": "Técnica de construção com vigas de madeira aparentes, cujos vãos são preenchidos com tijolos, pedra ou barro.",
+        "variantes": [
+          "Fachwerk",
+          "Estrutura de madeira aparente"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Veleiro tradicional com vela latina, foto nítida; pessoas pequenas e distantes, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de embarcação tradicional a vela, do oceano Índico, é esta?",
+      "resposta": "Dhow",
+      "distratores": [
+        "Jangada",
+        "Junco",
+        "Catamarã polinésio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dhow",
+        "descricao": "Embarcação tradicional a vela, de uma ou mais velas latinas, usada no mar Vermelho e no oceano Índico.",
+        "variantes": [
+          "Dau",
+          "Dhau"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Tabela com títulos e legendas em telugo, inclusive o título 'తెలుగు లిపి' (escrita telugo), que nomeia a escrita; é um quadro com texto, não uma amostra simples."
+    }
+  ]
+}
