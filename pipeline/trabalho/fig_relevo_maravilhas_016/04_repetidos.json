@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cidade deu nome a esta costa italiana?",
+        "resposta": "Amalfi"
+      },
+      "existentes": [
+        {
+          "id": "q19347",
+          "pergunta": "Que trecho do litoral italiano, na região da Campânia, é este?",
+          "resposta": "Costa Amalfitana"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que cabo é este, na ponta sul da África?",
+        "resposta": "Cabo da Boa Esperança"
+      },
+      "existentes": [
+        {
+          "id": "q03652",
+          "pergunta": "Bartolomeu Dias chamou um cabo do sul da África de Cabo das Tormentas. Que nome o rei dom João Segundo deu a ele depois?",
+          "resposta": "Cabo da Boa Esperança"
+        },
+        {
+          "id": "q05845",
+          "pergunta": "Em 1488, que navegador português dobrou o cabo da Boa Esperança, no sul da África, abrindo caminho para a rota marítima até a Índia?",
+          "resposta": "Bartolomeu Dias"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a cidade que deu nome à costa (Amalfi); a existente pede identificar o trecho do litoral (Costa Amalfitana). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "A nova pede identificar o Cabo da Boa Esperança, que é a resposta da q03652 (mesmo fato: o cabo no sul da África com esse nome).",
+      "id_existente": "q03652"
+    }
+  ]
+}

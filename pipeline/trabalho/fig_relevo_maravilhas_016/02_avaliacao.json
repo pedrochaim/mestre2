@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista de socalcos e mar da costa italiana, aceitável.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cidade deu nome a esta costa italiana?",
+      "resposta": "Amalfi",
+      "distratores": [
+        "Salerno",
+        "Sorrento",
+        "Nápoles"
+      ],
+      "ancora": {
+        "nome": "Costa Amalfitana",
+        "descricao": "Trecho de litoral da Campânia, no sul da Itália, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Costa d'Amalfi",
+          "Costiera Amalfitana"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cascata em degraus com piscinas turquesa, característica.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país do Sudeste Asiático fica esta cachoeira de águas turquesa?",
+      "resposta": "Laos",
+      "distratores": [
+        "Tailândia",
+        "Vietnã",
+        "Camboja"
+      ],
+      "ancora": {
+        "nome": "Cataratas Kuang Si",
+        "descricao": "Cachoeira em degraus perto de Luang Prabang, no Laos.",
+        "variantes": [
+          "Kuang Si Falls",
+          "Tat Kuang Si"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cone vulcânico isolado sobre lava, reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país insular africano fica este vulcão?",
+      "resposta": "Cabo Verde",
+      "distratores": [
+        "São Tomé e Príncipe",
+        "Comores",
+        "Maurício"
+      ],
+      "ancora": {
+        "nome": "Pico do Fogo",
+        "descricao": "Vulcão ativo da ilha do Fogo, em Cabo Verde.",
+        "variantes": [
+          "Fogo Volcano"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Picos agudos característicos, incluindo o Dedo de Deus ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que serra fluminense de picos pontiagudos é esta?",
+      "resposta": "Serra dos Órgãos",
+      "distratores": [
+        "Serra da Mantiqueira",
+        "Serra da Canastra",
+        "Serra do Espinhaço"
+      ],
+      "ancora": {
+        "nome": "Serra dos Órgãos",
+        "descricao": "Maciço montanhoso do Rio de Janeiro com picos como o Dedo de Deus.",
+        "variantes": [
+          "Parque Nacional da Serra dos Órgãos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Lago e montanha genéricos das Rochosas; não identifica um lugar único."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Gêiser colorido muito peculiar.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que estado americano fica este gêiser colorido?",
+      "resposta": "Nevada",
+      "distratores": [
+        "Wyoming",
+        "Utah",
+        "Califórnia"
+      ],
+      "ancora": {
+        "nome": "Fly Geyser",
+        "descricao": "Gêiser geotérmico colorido no deserto de Black Rock, em Nevada.",
+        "variantes": [
+          "Fly Ranch Geyser"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Spirit Island é uma vista muito fotografada.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que parque nacional canadense fica este lago?",
+      "resposta": "Jasper",
+      "distratores": [
+        "Banff",
+        "Yoho",
+        "Glacier"
+      ],
+      "ancora": {
+        "nome": "Lago Maligne",
+        "descricao": "Lago de águas azuladas no Parque Nacional de Jasper, em Alberta, Canadá.",
+        "variantes": [
+          "Maligne Lake",
+          "Spirit Island"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A foto mostra a encosta do Storr de longe, sem o pináculo Old Man; pouco reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Colina com radar e estrada, sem traço que permita reconhecer o morro."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Promontório rochoso com praia, aceitável com múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cabo sul-africano famoso é este?",
+      "resposta": "Cabo da Boa Esperança",
+      "distratores": [
+        "Cabo Horn",
+        "Cabo São Vicente",
+        "Cabo Finisterra"
+      ],
+      "ancora": {
+        "nome": "Cabo da Boa Esperança",
+        "descricao": "Promontório rochoso na costa atlântica da Península do Cabo, na África do Sul.",
+        "variantes": [
+          "Cape of Good Hope"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Mostra o vulcão Osorno sobre um lago; não é claro que seja o Llanquihue, resposta ambígua."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Caverna iluminada com reflexo, bem característica.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica esta caverna de iluminação colorida?",
+      "resposta": "China",
+      "distratores": [
+        "Vietnã",
+        "Eslovênia",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Caverna da Flauta de Junco",
+        "descricao": "Caverna calcária iluminada em Guilin, Guangxi, China.",
+        "variantes": [
+          "Reed Flute Cave"
+        ]
+      }
+    }
+  ]
+}

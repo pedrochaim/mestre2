@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Costa de Amalfi (nome alternativo nos trechos) recebeu o nome da cidade de Amalfi; fato bem documentado. Enunciado não vaza e distratores são cidades da região.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Laos; enunciado não nomeia a cachoeira e distratores são países vizinhos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Cabo Verde; distratores são países insulares africanos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Serra no estado do Rio de Janeiro com picos que lembram tubos de órgão; 'fluminense' e 'pontiagudos' ajudam sem entregar o nome. Distratores são serras brasileiras.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma Washoe County, Nevada. Enunciado não vaza e distratores são estados críveis com atividade geotérmica.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam o Parque Nacional Jasper; distratores são parques canadenses, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cabo sul-africano famoso' entrega a resposta sem a figura (teste da imagem coberta) e deixa os distratores, que não são sul-africanos, obviamente errados. Tirar a pista e usar distratores do mesmo tipo, incluindo o vizinho Cabo das Agulhas.",
+      "reescrita": {
+        "pergunta": "Que cabo é este, na ponta sul da África?",
+        "resposta": "Cabo da Boa Esperança",
+        "distratores": [
+          "Cabo das Agulhas",
+          "Cabo Horn",
+          "Cabo São Vicente"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma Guilin, China, e a iluminação multicolorida. Distratores são países com cavernas turísticas, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}
