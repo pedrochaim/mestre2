@@ -1,0 +1,1293 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Tosca",
+        "descricao": "Ópera de Giacomo Puccini, estreada em Roma em 1900, sobre a cantora Floria Tosca, o pintor Cavaradossi e o chefe de polícia Scarpia.",
+        "variantes": [
+          "Tosca (ópera)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tosca",
+          "https://pt.wikipedia.org/wiki/Tosca"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "No final da ópera Tosca, de Puccini, a heroína se atira do alto de que monumento de Roma?",
+      "resposta": "Castelo de Santo Ângelo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tosca"
+      ],
+      "distratores": [
+        "Palácio Farnese",
+        "Coliseu",
+        "Monte Palatino"
+      ],
+      "ancora": "tosca"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "giacomo_puccini",
+        "nome": "Giacomo Puccini",
+        "descricao": "Compositor italiano de óperas como La bohème, Tosca e Madama Butterfly.",
+        "variantes": [
+          "Puccini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giacomo_Puccini"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Giacomo Puccini, autor de Tosca e Turandot, nasceu em que cidade da Toscana, cercada por muralhas renascentistas?",
+      "resposta": "Lucca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giacomo_Puccini"
+      ],
+      "distratores": [
+        "Florença",
+        "Siena",
+        "Pisa"
+      ],
+      "ancora": "giacomo_puccini"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "placido_domingo",
+        "nome": "Plácido Domingo",
+        "descricao": "Cantor de ópera, regente e administrador espanhol nascido em 1941.",
+        "variantes": [
+          "Placido Domingo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pl%C3%A1cido_Domingo"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Nascido em Madri, Plácido Domingo se mudou criança com os pais, cantores de zarzuela, e começou a carreira em que país?",
+      "resposta": "México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pl%C3%A1cido_Domingo"
+      ],
+      "distratores": [
+        "Argentina",
+        "Cuba",
+        "Estados Unidos"
+      ],
+      "ancora": "placido_domingo"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "os_tres_tenores",
+        "nome": "Os Três Tenores",
+        "descricao": "Trio formado pelos tenores Luciano Pavarotti, Plácido Domingo e José Carreras, que se apresentou em grandes concertos a partir de 1990.",
+        "variantes": [
+          "The Three Tenors"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Three_Tenors"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O primeiro concerto dos Três Tenores, em Roma, em 1990, aconteceu ao ar livre em que ruína da Antiguidade?",
+      "resposta": "Termas de Caracala",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Three_Tenors"
+      ],
+      "distratores": [
+        "Coliseu",
+        "Circo Máximo",
+        "Fórum Romano"
+      ],
+      "ancora": "os_tres_tenores"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "carmen_opera",
+        "nome": "Carmen (ópera)",
+        "descricao": "Ópera de Georges Bizet, estreada em Paris em 1875, sobre uma cigana sedutora.",
+        "variantes": [
+          "Carmen"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carmen"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Antes de virar ópera de Bizet, a cigana Carmen nasceu numa novela de 1845. Que escritor francês a escreveu?",
+      "resposta": "Prosper Mérimée",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carmen",
+        "https://en.wikipedia.org/wiki/Carmen_(novella)"
+      ],
+      "distratores": [
+        "Victor Hugo",
+        "Alexandre Dumas",
+        "Gustave Flaubert"
+      ],
+      "ancora": "carmen_opera"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "maria_callas",
+        "nome": "Maria Callas",
+        "descricao": "Soprano greco-americana (1923–1977), uma das cantoras de ópera mais célebres do século vinte.",
+        "variantes": [
+          "La Callas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maria_Callas"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No fim dos anos 1960, Maria Callas foi trocada pelo amante, um magnata grego que se casou com Jacqueline Kennedy. Quem era ele?",
+      "resposta": "Aristóteles Onassis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maria_Callas"
+      ],
+      "distratores": [
+        "Stavros Niarchos",
+        "Giovanni Battista Meneghini",
+        "Gianni Agnelli"
+      ],
+      "ancora": "maria_callas"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "teatro_amazonas",
+        "nome": "Teatro Amazonas",
+        "descricao": "Casa de ópera de Manaus inaugurada em 1896.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Teatro_Amazonas"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que filme de Werner Herzog, de 1982, sobre um aventureiro que sonha levar a ópera à selva, tem cenas no Teatro Amazonas?",
+      "resposta": "Fitzcarraldo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fitzcarraldo"
+      ],
+      "distratores": [
+        "Aguirre",
+        "Cobra Verde",
+        "Nosferatu"
+      ],
+      "ancora": "teatro_amazonas"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "edipo_rei",
+        "nome": "Édipo Rei",
+        "descricao": "Tragédia de Sófocles sobre o rei de Tebas que descobre ter matado o pai e se casado com a mãe.",
+        "variantes": [
+          "Oedipus Rex"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oedipus_Rex"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que pai da psicanálise usou o herói de Sófocles para batizar o desejo infantil pela mãe e a rivalidade com o pai?",
+      "resposta": "Sigmund Freud",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oedipus_complex"
+      ],
+      "distratores": [
+        "Carl Jung",
+        "Jacques Lacan",
+        "Alfred Adler"
+      ],
+      "ancora": "edipo_rei"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "samuel_beckett",
+        "nome": "Samuel Beckett",
+        "descricao": "Dramaturgo, romancista e poeta irlandês (1906–1989), autor de Esperando Godot e Nobel de Literatura de 1969.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Samuel_Beckett"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No interior da França, Samuel Beckett levava de caminhonete à escola um menino gigante que viraria lutador famoso. Quem era ele?",
+      "resposta": "André the Giant",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Andr%C3%A9_the_Giant"
+      ],
+      "distratores": [
+        "Hulk Hogan",
+        "Big Show",
+        "Giant Baba"
+      ],
+      "ancora": "samuel_beckett"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "carlos_gomes",
+        "nome": "Carlos Gomes",
+        "descricao": "Compositor brasileiro de óperas (1836–1896), autor de O Guarani.",
+        "variantes": [
+          "Antônio Carlos Gomes"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Carlos_Gomes"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A abertura da ópera O Guarani, de Carlos Gomes, é tocada há décadas no início de que programa de rádio?",
+      "resposta": "A Voz do Brasil",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/A_Voz_do_Brasil"
+      ],
+      "distratores": [
+        "Repórter Esso",
+        "Jornal da Manhã",
+        "Balança Mas Não Cai"
+      ],
+      "ancora": "carlos_gomes"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "a_flauta_magica",
+        "nome": "A Flauta Mágica",
+        "descricao": "Ópera de Mozart, com libreto de Emanuel Schikaneder, estreada em Viena em 1791.",
+        "variantes": [
+          "Die Zauberflöte"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Magic_Flute"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Mozart e o libretista Schikaneder encheram A Flauta Mágica de símbolos de que sociedade secreta, da qual os dois faziam parte?",
+      "resposta": "Maçonaria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Magic_Flute"
+      ],
+      "distratores": [
+        "Rosa-Cruz",
+        "Illuminati",
+        "Templários"
+      ],
+      "ancora": "a_flauta_magica"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "henrik_ibsen",
+        "nome": "Henrik Ibsen",
+        "descricao": "Dramaturgo norueguês (1828–1906), chamado de pai do drama moderno, autor de Casa de Bonecas e Peer Gynt.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Henrik_Ibsen"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Para a peça Peer Gynt, de Ibsen, que compositor norueguês criou a música de cena, incluindo Na Gruta do Rei da Montanha?",
+      "resposta": "Edvard Grieg",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Peer_Gynt_(Grieg)"
+      ],
+      "distratores": [
+        "Johan Svendsen",
+        "Christian Sinding",
+        "Johan Halvorsen"
+      ],
+      "ancora": "henrik_ibsen"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "as_bodas_de_figaro",
+        "nome": "As Bodas de Fígaro",
+        "descricao": "Ópera cômica de Mozart, de 1786, com libreto de Lorenzo Da Ponte.",
+        "variantes": [
+          "Le nozze di Figaro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Marriage_of_Figaro"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Cheia de intrigas e disfarces, a ação inteira de As Bodas de Fígaro, ópera de Mozart, se passa em quanto tempo?",
+      "resposta": "Um único dia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Marriage_of_Figaro",
+        "https://en.wikipedia.org/wiki/The_Marriage_of_Figaro_(play)"
+      ],
+      "distratores": [
+        "Uma semana",
+        "Três dias",
+        "Um mês"
+      ],
+      "ancora": "as_bodas_de_figaro"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "gioachino_rossini",
+        "nome": "Gioachino Rossini",
+        "descricao": "Compositor italiano de óperas (1792–1868), autor de O Barbeiro de Sevilha e Guilherme Tell.",
+        "variantes": [
+          "Rossini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gioachino_Rossini"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Depois de Guilherme Tell, Rossini abandonou as óperas e viveu quase quarenta anos sem compor outra. Com que idade ele parou?",
+      "resposta": "37 anos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gioachino_Rossini"
+      ],
+      "distratores": [
+        "25 anos",
+        "50 anos",
+        "62 anos"
+      ],
+      "ancora": "gioachino_rossini"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "luciano_pavarotti",
+        "nome": "Luciano Pavarotti",
+        "descricao": "Tenor lírico italiano (1935–2007), um dos Três Tenores.",
+        "variantes": [
+          "Pavarotti"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Luciano_Pavarotti"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 1972, no Metropolitan de Nova York, Pavarotti ficou famoso na ária Ah, mes amis, de A Filha do Regimento, por cantar quantos dós agudos?",
+      "resposta": "Nove",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Luciano_Pavarotti",
+        "https://en.wikipedia.org/wiki/La_fille_du_r%C3%A9giment"
+      ],
+      "distratores": [
+        "Três",
+        "Cinco",
+        "Doze"
+      ],
+      "ancora": "luciano_pavarotti"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "rent_musical",
+        "nome": "Rent (musical)",
+        "descricao": "Musical da Broadway de Jonathan Larson, de 1996, sobre jovens artistas em Nova York na época da epidemia de aids.",
+        "variantes": [
+          "Rent"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rent_(musical)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na canção Seasons of Love, do musical Rent, um ano é medido em minutos. Quantos?",
+      "resposta": "525 mil e seiscentos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Seasons_of_Love"
+      ],
+      "distratores": [
+        "365 mil",
+        "480 mil e duzentos",
+        "600 mil"
+      ],
+      "ancora": "rent_musical"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "william_shakespeare",
+        "nome": "William Shakespeare",
+        "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+        "variantes": [
+          "Shakespeare"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/William_Shakespeare"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 1609 foi publicada uma coletânea com sonetos de Shakespeare. Quantos sonetos ela reúne?",
+      "resposta": "154",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets"
+      ],
+      "distratores": [
+        "88",
+        "100",
+        "220"
+      ],
+      "ancora": "william_shakespeare"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Romeu e Julieta",
+        "descricao": "Tragédia de William Shakespeare sobre dois jovens apaixonados de famílias rivais de Verona.",
+        "variantes": [
+          "Romeo and Juliet"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Romeu_e_Julieta",
+          "https://en.wikipedia.org/wiki/Romeo_and_Juliet"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na tragédia de Shakespeare, quantos anos tem Julieta quando conhece Romeu?",
+      "resposta": "Treze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Juliet"
+      ],
+      "distratores": [
+        "Quinze",
+        "Dezesseis",
+        "Dezoito"
+      ],
+      "ancora": "romeu_e_julieta_2"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "sofocles",
+        "nome": "Sófocles",
+        "descricao": "Tragediógrafo grego de Atenas do século cinco antes de Cristo, autor de Édipo Rei e Antígona.",
+        "variantes": [
+          "Sophocles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sophocles"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Sófocles escreveu mais de cem peças, mas quantas chegaram completas até os nossos dias?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sophocles"
+      ],
+      "distratores": [
+        "Três",
+        "Doze",
+        "Vinte"
+      ],
+      "ancora": "sofocles"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "a_flauta_magica",
+        "nome": "A Flauta Mágica",
+        "descricao": "Ópera de Mozart, com libreto de Emanuel Schikaneder, estreada em Viena em 1791.",
+        "variantes": [
+          "Die Zauberflöte"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Magic_Flute"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em A Flauta Mágica, que número se repete nas damas da rainha, nos meninos que guiam o herói e nos acordes solenes da abertura?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Magic_Flute"
+      ],
+      "distratores": [
+        "Quatro",
+        "Sete",
+        "Doze"
+      ],
+      "ancora": "a_flauta_magica"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "nabucco",
+        "nome": "Nabucco",
+        "descricao": "Ópera de Giuseppe Verdi, estreada em Milão em 1842, sobre o rei babilônico Nabucodonosor e o exílio dos hebreus.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nabucco"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O título da ópera Nabucco, de Verdi, é a forma abreviada do nome de que rei da Babilônia?",
+      "resposta": "Nabucodonosor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nabucco"
+      ],
+      "distratores": [
+        "Hamurabi",
+        "Baltazar",
+        "Sargão"
+      ],
+      "ancora": "nabucco"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "o_fantasma_da_opera_romance",
+        "nome": "O Fantasma da Ópera (romance)",
+        "descricao": "Romance francês de Gaston Leroux, publicado em 1909 e 1910, sobre um gênio mascarado que vive sob a Ópera de Paris.",
+        "variantes": [
+          "Le Fantôme de l'Opéra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No romance de Gaston Leroux, como se chama o gênio deformado conhecido como o Fantasma da Ópera?",
+      "resposta": "Erik",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Erik_(The_Phantom_of_the_Opera)"
+      ],
+      "distratores": [
+        "Raoul",
+        "Gaston",
+        "Christian"
+      ],
+      "ancora": "o_fantasma_da_opera_romance"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "william_shakespeare",
+        "nome": "William Shakespeare",
+        "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+        "variantes": [
+          "Shakespeare"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/William_Shakespeare"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em referência ao rio que banha sua cidade natal, Shakespeare ganhou o apelido de Bardo de quê?",
+      "resposta": "Avon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/William_Shakespeare"
+      ],
+      "distratores": [
+        "Tâmisa",
+        "Severn",
+        "Mersey"
+      ],
+      "ancora": "william_shakespeare"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "otelo",
+        "nome": "Otelo",
+        "descricao": "Tragédia de William Shakespeare sobre um general mouro a serviço de Veneza, levado ao ciúme contra a esposa Desdêmona.",
+        "variantes": [
+          "Othello"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Othello"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em Otelo, Iago chama o ciúme de monstro de olhos de que cor, expressão que virou proverbial em inglês?",
+      "resposta": "Verdes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Othello"
+      ],
+      "distratores": [
+        "Vermelhos",
+        "Amarelos",
+        "Negros"
+      ],
+      "ancora": "otelo"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "polichinelo",
+        "nome": "Polichinelo",
+        "descricao": "Personagem clássico da commedia dell'arte, de origem napolitana, com meia-máscara negra, traje branco e chapéu cônico.",
+        "variantes": [
+          "Pulcinella"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pulcinella"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Polichinelo vem do italiano Pulcinella, nome ligado à palavra pulcino. O que pulcino significa?",
+      "resposta": "Pintinho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pulcinella"
+      ],
+      "distratores": [
+        "Palhaço",
+        "Pulga",
+        "Porquinho"
+      ],
+      "ancora": "polichinelo"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "edipo_rei",
+        "nome": "Édipo Rei",
+        "descricao": "Tragédia de Sófocles sobre o rei de Tebas que descobre ter matado o pai e se casado com a mãe.",
+        "variantes": [
+          "Oedipus Rex"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oedipus_Rex"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Ainda bebê, Édipo foi abandonado com os tornozelos furados. Por isso, o que significa o nome dele em grego?",
+      "resposta": "Pés inchados",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oedipus"
+      ],
+      "distratores": [
+        "Olhos cegos",
+        "Mãos atadas",
+        "Filho do rei"
+      ],
+      "ancora": "edipo_rei"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "lisistrata",
+        "nome": "Lisístrata",
+        "descricao": "Comédia grega de 411 a.C. em que as mulheres fazem greve de sexo para acabar com a Guerra do Peloponeso.",
+        "variantes": [
+          "Lysistrata"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lysistrata"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Lisístrata, heroína de Aristófanes que lidera a greve das mulheres, significa em grego aquela que faz o quê?",
+      "resposta": "Dissolve exércitos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lysistrata"
+      ],
+      "distratores": [
+        "Conquista cidades",
+        "Governa os homens",
+        "Seduz soldados"
+      ],
+      "ancora": "lisistrata"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "nelson_rodrigues",
+        "nome": "Nelson Rodrigues",
+        "descricao": "Dramaturgo, jornalista e cronista brasileiro (1912–1980), autor de Vestido de Noiva.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Nelson_Rodrigues"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Que título tem a biografia de Nelson Rodrigues escrita por Ruy Castro?",
+      "resposta": "O Anjo Pornográfico",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Nelson_Rodrigues"
+      ],
+      "distratores": [
+        "O Velho Safado",
+        "O Reacionário Sentimental",
+        "O Cronista da Vida"
+      ],
+      "ancora": "nelson_rodrigues"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "a_cantora_careca",
+        "nome": "A Cantora Careca",
+        "descricao": "Peça de Eugène Ionesco, estreada em Paris em 1950, marco do teatro do absurdo.",
+        "variantes": [
+          "La Cantatrice chauve"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Bald_Soprano"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O título A Cantora Careca, de Eugène Ionesco, nasceu por acaso. De onde ele veio?",
+      "resposta": "De um erro num ensaio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Bald_Soprano"
+      ],
+      "distratores": [
+        "De um sonho",
+        "De uma manchete",
+        "De uma vizinha"
+      ],
+      "ancora": "a_cantora_careca"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "andrea_bocelli",
+        "nome": "Andrea Bocelli",
+        "descricao": "Tenor italiano de ópera e música pop, famoso desde 1994.",
+        "variantes": [
+          "Bocelli"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Andrea_Bocelli"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Andrea Bocelli, que nasceu com glaucoma, ficou totalmente cego aos doze anos depois de quê?",
+      "resposta": "Uma bolada no futebol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Andrea_Bocelli"
+      ],
+      "distratores": [
+        "Acidente de carro",
+        "Queda de cavalo",
+        "Uma cirurgia malsucedida"
+      ],
+      "ancora": "andrea_bocelli"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "la_fenice",
+        "nome": "La Fenice",
+        "descricao": "Teatro de ópera de Veneza, inaugurado em 1792 e reconstruído após incêndios, o último em 1996.",
+        "variantes": [
+          "Teatro La Fenice"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/La_Fenice"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O incêndio que destruiu o teatro La Fenice, em Veneza, em 1996, foi criminoso. Quem pôs fogo no teatro?",
+      "resposta": "Eletricistas da reforma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/La_Fenice"
+      ],
+      "distratores": [
+        "A máfia siciliana",
+        "Um tenor demitido",
+        "Um fã ciumento"
+      ],
+      "ancora": "la_fenice"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "don_giovanni",
+        "nome": "Don Giovanni",
+        "descricao": "Ópera de Mozart, de 1787, sobre o sedutor Don Juan e seu criado Leporello.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Don_Giovanni"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No final de Don Giovanni, de Mozart, quem aceita o convite para jantar e arrasta o sedutor para o inferno?",
+      "resposta": "A estátua do Comendador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Don_Giovanni"
+      ],
+      "distratores": [
+        "O diabo em pessoa",
+        "O criado Leporello",
+        "Dona Ana disfarçada"
+      ],
+      "ancora": "don_giovanni"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "opera_garnier",
+        "nome": "Ópera Garnier",
+        "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+        "variantes": [
+          "Palais Garnier"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Palais_Garnier"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em 1964, que pintor modernista de origem russa pintou o novo teto da sala de espetáculos da Ópera Garnier, em Paris?",
+      "resposta": "Marc Chagall",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Palais_Garnier"
+      ],
+      "distratores": [
+        "Pablo Picasso",
+        "Henri Matisse",
+        "Wassily Kandinsky"
+      ],
+      "ancora": "opera_garnier"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "cats_musical",
+        "nome": "Cats (musical)",
+        "descricao": "Musical de Andrew Lloyd Webber, estreado em Londres em 1981, sobre uma tribo de gatos.",
+        "variantes": [
+          "Cats"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cats_(musical)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que canção do musical Cats, cantada pela velha gata Grizabella, se tornou o maior sucesso do espetáculo?",
+      "resposta": "Memory",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Memory_(Cats_song)"
+      ],
+      "distratores": [
+        "Macavity",
+        "Mr. Mistoffelees",
+        "Skimbleshanks"
+      ],
+      "ancora": "cats_musical"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "vestido_de_noiva",
+        "nome": "Vestido de Noiva",
+        "descricao": "Peça de Nelson Rodrigues estreada em 1943, marco do teatro moderno brasileiro.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vestido_de_Noiva"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Vestido de Noiva, de Nelson Rodrigues, alterna em cena três planos: o da realidade, o da memória e qual outro?",
+      "resposta": "O da alucinação",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Nelson_Rodrigues"
+      ],
+      "distratores": [
+        "O do futuro",
+        "O da morte",
+        "O do céu"
+      ],
+      "ancora": "vestido_de_noiva"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "west_side_story",
+        "nome": "West Side Story",
+        "descricao": "Musical da Broadway de 1957, com música de Leonard Bernstein, sobre gangues rivais em Nova York.",
+        "variantes": [
+          "Amor, Sublime Amor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/West_Side_Story"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "As letras das canções de West Side Story foram a estreia na Broadway de um futuro mestre do musical americano. Quem?",
+      "resposta": "Stephen Sondheim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/West_Side_Story",
+        "https://en.wikipedia.org/wiki/Stephen_Sondheim"
+      ],
+      "distratores": [
+        "Oscar Hammerstein",
+        "Cole Porter",
+        "Andrew Lloyd Webber"
+      ],
+      "ancora": "west_side_story"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "anton_tchekhov",
+        "nome": "Anton Tchekhov",
+        "descricao": "Dramaturgo, contista e médico russo, autor de A Gaivota e Tio Vânia.",
+        "variantes": [
+          "Anton Chekhov"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anton_Chekhov"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O médico e dramaturgo Anton Tchekhov dizia que a medicina era sua esposa legítima. E o que era a literatura?",
+      "resposta": "Sua amante",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anton_Chekhov"
+      ],
+      "distratores": [
+        "Sua filha",
+        "Sua mãe",
+        "Sua religião"
+      ],
+      "ancora": "anton_tchekhov"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "aida",
+        "nome": "Aida",
+        "descricao": "Ópera de Giuseppe Verdi, ambientada no Egito antigo, estreada em 1871.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aida"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Na ópera de Verdi, Aida é uma princesa escravizada no Egito, apaixonada pelo general Radamés. De que reino ela vem?",
+      "resposta": "Etiópia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aida"
+      ],
+      "distratores": [
+        "Assíria",
+        "Babilônia",
+        "Pérsia"
+      ],
+      "ancora": "aida"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "sonho_de_uma_noite_de_verao",
+        "nome": "Sonho de uma Noite de Verão",
+        "descricao": "Comédia de William Shakespeare sobre amantes, fadas e artesãos atenienses perdidos num bosque.",
+        "variantes": [
+          "A Midsummer Night's Dream"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Teatro e Ópera",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "A famosa marcha nupcial de Mendelssohn, tocada na saída dos noivos, foi composta como música de cena para que comédia de Shakespeare?",
+      "resposta": "Sonho de uma Noite de Verão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream_(Mendelssohn)"
+      ],
+      "distratores": [
+        "A Tempestade",
+        "Noite de Reis",
+        "Muito Barulho por Nada"
+      ],
+      "ancora": "sonho_de_uma_noite_de_verao"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "tosca",
+      "nome": "Tosca",
+      "descricao": "Ópera de Giacomo Puccini, estreada em Roma em 1900, sobre a cantora Floria Tosca, o pintor Cavaradossi e o chefe de polícia Scarpia.",
+      "variantes": [
+        "Tosca (ópera)"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Tosca",
+        "https://pt.wikipedia.org/wiki/Tosca"
+      ]
+    }
+  ],
+  "variantes": {
+    "giacomo_puccini": [
+      "Giacomo Puccini",
+      "Puccini"
+    ],
+    "placido_domingo": [
+      "Plácido Domingo",
+      "Placido Domingo"
+    ],
+    "os_tres_tenores": [
+      "Os Três Tenores",
+      "The Three Tenors"
+    ],
+    "carmen_opera": [
+      "Carmen (ópera)",
+      "Carmen"
+    ],
+    "maria_callas": [
+      "Maria Callas",
+      "La Callas"
+    ],
+    "teatro_amazonas": [
+      "Teatro Amazonas"
+    ],
+    "hamlet": [
+      "Hamlet"
+    ],
+    "edipo_rei": [
+      "Édipo Rei",
+      "Oedipus Rex"
+    ],
+    "samuel_beckett": [
+      "Samuel Beckett"
+    ],
+    "carlos_gomes": [
+      "Carlos Gomes",
+      "Antônio Carlos Gomes"
+    ],
+    "a_flauta_magica": [
+      "A Flauta Mágica",
+      "Die Zauberflöte"
+    ],
+    "henrik_ibsen": [
+      "Henrik Ibsen"
+    ],
+    "as_bodas_de_figaro": [
+      "As Bodas de Fígaro",
+      "Le nozze di Figaro"
+    ],
+    "gioachino_rossini": [
+      "Gioachino Rossini",
+      "Rossini"
+    ],
+    "luciano_pavarotti": [
+      "Luciano Pavarotti",
+      "Pavarotti"
+    ],
+    "rent_musical": [
+      "Rent (musical)",
+      "Rent"
+    ],
+    "william_shakespeare": [
+      "William Shakespeare",
+      "Shakespeare"
+    ],
+    "sofocles": [
+      "Sófocles",
+      "Sophocles"
+    ],
+    "nabucco": [
+      "Nabucco"
+    ],
+    "giuseppe_verdi": [
+      "Giuseppe Verdi",
+      "Verdi"
+    ],
+    "o_fantasma_da_opera_romance": [
+      "O Fantasma da Ópera (romance)",
+      "Le Fantôme de l'Opéra"
+    ],
+    "otelo": [
+      "Otelo",
+      "Othello"
+    ],
+    "polichinelo": [
+      "Polichinelo",
+      "Pulcinella"
+    ],
+    "lisistrata": [
+      "Lisístrata",
+      "Lysistrata"
+    ],
+    "nelson_rodrigues": [
+      "Nelson Rodrigues"
+    ],
+    "a_cantora_careca": [
+      "A Cantora Careca",
+      "La Cantatrice chauve"
+    ],
+    "turandot": [
+      "Turandot"
+    ],
+    "andrea_bocelli": [
+      "Andrea Bocelli",
+      "Bocelli"
+    ],
+    "esquilo": [
+      "Ésquilo",
+      "Aeschylus"
+    ],
+    "la_fenice": [
+      "La Fenice",
+      "Teatro La Fenice"
+    ],
+    "don_giovanni": [
+      "Don Giovanni"
+    ],
+    "opera_garnier": [
+      "Ópera Garnier",
+      "Palais Garnier"
+    ],
+    "cats_musical": [
+      "Cats (musical)",
+      "Cats"
+    ],
+    "vestido_de_noiva": [
+      "Vestido de Noiva"
+    ],
+    "west_side_story": [
+      "West Side Story",
+      "Amor, Sublime Amor"
+    ],
+    "opera_de_sydney": [
+      "Ópera de Sydney",
+      "Sydney Opera House"
+    ],
+    "anton_tchekhov": [
+      "Anton Tchekhov",
+      "Anton Chekhov"
+    ],
+    "aida": [
+      "Aida"
+    ],
+    "sonho_de_uma_noite_de_verao": [
+      "Sonho de uma Noite de Verão",
+      "A Midsummer Night's Dream"
+    ],
+    "theatro_municipal_do_rio_de_janeiro": [
+      "Theatro Municipal do Rio de Janeiro",
+      "Teatro Municipal do Rio de Janeiro"
+    ],
+    "romeu_e_julieta_2": [
+      "Romeu e Julieta",
+      "Romeo and Juliet"
+    ]
+  }
+}

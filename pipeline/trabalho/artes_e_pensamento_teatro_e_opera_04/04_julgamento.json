@@ -1,0 +1,190 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tosca",
+        "descricao": "Ópera de Giacomo Puccini, estreada em Roma em 1900, sobre a cantora Floria Tosca, o pintor Cavaradossi e o chefe de polícia Scarpia.",
+        "variantes": [
+          "Tosca (ópera)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oscar",
+          "nome": "Oscar",
+          "descricao": "Prêmio anual da Academia de Artes e Ciências Cinematográficas dos Estados Unidos.",
+          "variantes": [
+            "Academy Awards",
+            "Prêmios da Academia",
+            "Prêmio da Academia"
+          ]
+        },
+        {
+          "id": "mosca_domestica",
+          "nome": "Mosca-doméstica",
+          "descricao": "Mosca comum Musca domestica, cosmopolita, que convive com os humanos.",
+          "variantes": [
+            "Musca domestica",
+            "Mosca"
+          ]
+        },
+        {
+          "id": "gorro_de_la",
+          "nome": "Gorro de lã",
+          "descricao": "Touca de tricô que cobre a cabeça, usada para aquecer em tempo frio.",
+          "variantes": [
+            "Touca de lã",
+            "Beanie",
+            "Touca"
+          ]
+        },
+        {
+          "id": "oca",
+          "nome": "Oca",
+          "descricao": "Habitação coletiva tradicional de povos indígenas do Brasil, de estrutura de madeira coberta de palha.",
+          "variantes": [
+            "Oka"
+          ]
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Theatro Municipal do Rio de Janeiro",
+        "descricao": "Teatro de ópera, balé e concertos na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
+        "variantes": [
+          "Teatro Municipal do Rio de Janeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "theatro_municipal_do_rio_de_janeiro",
+          "nome": "Theatro Municipal do Rio de Janeiro",
+          "descricao": "Teatro na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
+          "variantes": [
+            "Teatro Municipal do Rio de Janeiro",
+            "Theatro Municipal (Rio de Janeiro)",
+            "Theatro Municipal"
+          ]
+        },
+        {
+          "id": "museu_nacional_quinta_da_boa_vista",
+          "nome": "Museu Nacional (Quinta da Boa Vista)",
+          "descricao": "Antigo Paço de São Cristóvão, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional, a mais antiga instituição científica do Brasil.",
+          "variantes": [
+            "Paço de São Cristóvão",
+            "Museu Nacional do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "passeio_publico_do_rio_de_janeiro",
+          "nome": "Passeio Público do Rio de Janeiro",
+          "descricao": "Jardim público no centro do Rio de Janeiro, construído no fim do século dezoito por ordem do vice-rei Luís de Vasconcelos.",
+          "variantes": [
+            "Passeio Público"
+          ]
+        },
+        {
+          "id": "aeroporto_internacional_do_galeao",
+          "nome": "Aeroporto Internacional do Galeão",
+          "descricao": "Principal aeroporto internacional do Rio de Janeiro, na Ilha do Governador.",
+          "variantes": [
+            "Aeroporto Internacional do Rio de Janeiro",
+            "Galeão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Romeu e Julieta",
+        "descricao": "Tragédia de William Shakespeare sobre dois jovens apaixonados de famílias rivais de Verona.",
+        "variantes": [
+          "Romeo and Juliet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "romeu_e_julieta",
+          "nome": "Romeu e Julieta",
+          "descricao": "Sobremesa brasileira que combina queijo com um doce de fruta em pasta",
+          "variantes": []
+        },
+        {
+          "id": "romeu_e_julieta_2",
+          "nome": "Romeu e Julieta",
+          "descricao": "Tragédia de William Shakespeare sobre dois jovens apaixonados de famílias inimigas.",
+          "variantes": [
+            "Romeo and Juliet"
+          ]
+        },
+        {
+          "id": "cajado_e_mangual",
+          "nome": "Cajado e mangual",
+          "descricao": "Par de cetros cruzados no peito que simbolizavam o poder do faraó e eram atributos do deus Osíris",
+          "variantes": [
+            "Heka e nekhakha",
+            "Crook and flail"
+          ]
+        },
+        {
+          "id": "orgulho_e_preconceito",
+          "nome": "Orgulho e Preconceito",
+          "descricao": "Romance de Jane Austen, publicado em 1813, sobre Elizabeth Bennet e o senhor Darcy.",
+          "variantes": [
+            "Pride and Prejudice"
+          ]
+        },
+        {
+          "id": "conjunto_de_julia",
+          "nome": "Conjunto de Julia",
+          "descricao": "Conjunto fractal da dinâmica complexa, definido pela iteração de uma função no plano complexo.",
+          "variantes": [
+            "Julia set",
+            "Fractal de Julia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ópera Tosca."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "theatro_municipal_do_rio_de_janeiro",
+      "motivo": "Mesmo teatro na Cinelândia, inaugurado em 1909."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "romeu_e_julieta_2",
+      "motivo": "Mesma tragédia de Shakespeare; a outra homônima é uma sobremesa."
+    }
+  ]
+}

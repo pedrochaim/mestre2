@@ -1,0 +1,460 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nas fontes, distratores romanos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nascimento em Lucca confirmado; distratores toscanos bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mudança para o México e carreira lá confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Termas de Caracala confirmadas; distratores romanos bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A peça não nomeia Taperoá explicitamente e a fonte não sustenta; resposta contestável.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Novela de Mérimée de 1845 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Onassis deixou Callas por Jacqueline Kennedy em 1968.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fitzcarraldo tem cenas no Teatro Amazonas; distratores são outros filmes de Herzog.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "As fontes dizem que o projeto, e não a fachada, foi inspirado na Ópera de Paris.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Inaugurado em 1909, o Theatro Municipal do Rio de Janeiro teve o projeto inspirado em que teatro europeu?",
+        "resposta": "Ópera Garnier",
+        "distratores": [
+          "Teatro alla Scala",
+          "Ópera de Viena",
+          "Teatro Bolshoi"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro",
+          "https://en.wikipedia.org/wiki/Theatro_Municipal_(Rio_de_Janeiro)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspiração em Hamlet confirmada; distratores da Disney.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Freud nomeou o complexo de Édipo; fato confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Beckett levava André Roussimoff à escola; fato amplamente documentado e memorável.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Âncora é a peça, mas o fato é do filme; e o filme ganhou vários prêmios, deixando a pergunta ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tema de abertura de A Voz do Brasil confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mozart e Schikaneder eram maçons; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz norueguês, mas dois distratores não são noruegueses; troca por noruegueses.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Para a peça Peer Gynt, de Ibsen, que compositor norueguês criou a música de cena, incluindo Na Gruta do Rei da Montanha?",
+        "resposta": "Edvard Grieg",
+        "distratores": [
+          "Johan Svendsen",
+          "Christian Sinding",
+          "Johan Halvorsen"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Peer_Gynt_(Grieg)"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A ação de As Bodas de Fígaro ocorre em um só dia (La folle journée); amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nascido em 1792, Rossini tinha 37 anos ao estrear Guilherme Tell em 1829.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A ária escreve oito dós; os nove são a façanha de Pavarotti, então 'exige' é impreciso.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Em 1972, no Metropolitan de Nova York, Pavarotti ficou famoso na ária Ah, mes amis, de A Filha do Regimento, por cantar quantos dós agudos?",
+        "resposta": "Nove",
+        "distratores": [
+          "Três",
+          "Cinco",
+          "Doze"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Luciano_Pavarotti",
+          "https://en.wikipedia.org/wiki/La_fille_du_r%C3%A9giment"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "525.600 minutos confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A publicação de 1609 provavelmente não foi feita por Shakespeare; 'publicou' é impreciso.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Em 1609 foi publicada uma coletânea com sonetos de Shakespeare. Quantos sonetos ela reúne?",
+        "resposta": "154",
+        "distratores": [
+          "88",
+          "100",
+          "220"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Julieta tem treze anos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sete peças completas sobreviveram; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato fraco e pouco interessante, adivinhável entre poucas opções.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Três damas, três meninos e três acordes: o número três é recorrente na ópera.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nabucco é abreviação de Nabucodonosor; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Viva Verdi como acrônimo de Vittorio Emanuele Re D'Italia; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Erik é o nome do Fantasma no romance.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bardo de Avon confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Iago chama o ciúme de monstro de olhos verdes no Ato III.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem em pulcino (pintinho) confirmada como teoria plausível; enunciado diz apenas 'ligado'.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oidípous significa pés inchados; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lisístrata significa 'que dissolve o exército'.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Apelido' é duvidoso e a fonte não menciona; melhor perguntar o título da biografia de Ruy Castro.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Que título tem a biografia de Nelson Rodrigues escrita por Ruy Castro?",
+        "resposta": "O Anjo Pornográfico",
+        "distratores": [
+          "O Velho Safado",
+          "O Reacionário Sentimental",
+          "O Cronista da Vida"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Nelson_Rodrigues"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Título nasceu de um erro do ator no ensaio; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Toscanini parou porque Puccini morrera; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cegueira total após golpe numa partida de futebol aos doze anos, segundo a Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte em português fala em amarelo, não verde; a tradição varia e a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda da tartaruga confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Incêndio criminoso provocado por eletricistas que trabalhavam no teatro.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estátua do Comendador leva Don Giovanni ao inferno; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teto de Chagall de 1964 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Memory é a canção mais conhecida de Cats.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (realidade, memória, alucinação), mas a fonte aponta para o artigo errado, sobre o traje.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Vestido de Noiva, de Nelson Rodrigues, alterna em cena três planos: o da realidade, o da memória e qual outro?",
+        "resposta": "O da alucinação",
+        "distratores": [
+          "O do futuro",
+          "O da morte",
+          "O do céu"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Nelson_Rodrigues"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cúpula nas cores da bandeira brasileira; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "West Side Story marcou a estreia de Sondheim na Broadway.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado diz dinamarquês, mas dois distratores não são dinamarqueses; troca por dinamarqueses.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "A Ópera de Sydney foi projetada por um arquiteto dinamarquês que abandonou a obra antes do fim e nunca a viu pronta. Quem?",
+        "resposta": "Jørn Utzon",
+        "distratores": [
+          "Arne Jacobsen",
+          "Henning Larsen",
+          "Bjarke Ingels"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+        ]
+      }
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Citação de Tchekhov confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Núbia como distrator é defensável para a origem de Aida; troca para evitar ambiguidade.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Na ópera de Verdi, Aida é uma princesa escravizada no Egito, apaixonada pelo general Radamés. De que reino ela vem?",
+        "resposta": "Etiópia",
+        "distratores": [
+          "Assíria",
+          "Babilônia",
+          "Pérsia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Aida"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marcha nupcial faz parte da música incidental de Mendelssohn para Sonho de uma Noite de Verão.",
+      "reescrita": null
+    }
+  ]
+}
