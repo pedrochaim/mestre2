@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato oficial pintado, sem texto, rosto claro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que líder de um país asiático é este?",
+      "resposta": "Kim Jong-il",
+      "distratores": [
+        "Kim Il-sung",
+        "Kim Jong-un",
+        "Deng Xiaoping"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Kim Jong-il",
+        "descricao": "Segundo líder supremo da Coreia do Norte, de 1994 a 2011.",
+        "variantes": [
+          "Kim Jong Il"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pintura a óleo clara; a assinatura do pintor não entrega o retratado.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década este homem assumiu a presidência dos Estados Unidos?",
+      "resposta": "1860",
+      "distratores": [
+        "1850",
+        "1870",
+        "1880"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Ulysses S. Grant",
+        "descricao": "18º presidente dos Estados Unidos e comandante do Exército da União na Guerra Civil.",
+        "variantes": [
+          "Ulysses Grant",
+          "Hiram Ulysses Grant"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O busto de bronze de Herculano é apenas tradicionalmente chamado de Cipião; a identificação é incerta, então não há resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto do cadáver, sem rosto reconhecível e imprópria como retrato de reconhecimento."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco, sem texto, rosto nítido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que navio deste explorador, na expedição de 1914, foi esmagado pelo gelo?",
+      "resposta": "Endurance",
+      "distratores": [
+        "Fram",
+        "Terra Nova",
+        "Belgica"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Ernest Shackleton",
+        "descricao": "Explorador antártico anglo-irlandês da Era Heroica da exploração polar.",
+        "variantes": [
+          "Ernest Henry Shackleton"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A inscrição em latim no topo da pintura nomeia o retratado (Laurentius Medices Petri filius)."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto sem texto, rosto claro e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este homem?",
+      "resposta": "Osama bin Laden",
+      "distratores": [
+        "Ayman al-Zawahiri",
+        "Abu Bakr al-Baghdadi",
+        "Mulá Omar"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Osama bin Laden",
+        "descricao": "Fundador da al-Qaeda, mentor dos atentados de 11 de setembro de 2001.",
+        "variantes": [
+          "Usama bin Laden"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato oficial sem texto, rosto claro.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década este homem foi eleito presidente dos Estados Unidos?",
+      "resposta": "1970",
+      "distratores": [
+        "1960",
+        "1980",
+        "1990"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Jimmy Carter",
+        "descricao": "39º presidente dos Estados Unidos, de 1977 a 1981.",
+        "variantes": [
+          "James Earl Carter Jr."
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A inscrição no próprio quadro traz o nome do retratado (Antonio Vieira) e a legenda ocupa boa parte da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato oficial sem texto, rosto claro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que escândalo político encerrou o governo deste presidente americano?",
+      "resposta": "Watergate",
+      "distratores": [
+        "Irã-Contras",
+        "Teapot Dome",
+        "Whitewater"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Richard Nixon",
+        "descricao": "37º presidente dos Estados Unidos, que renunciou em 1974.",
+        "variantes": [
+          "Richard Milhous Nixon"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto oficial em preto e branco, sem texto, com a faixa presidencial argentina.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década este homem foi eleito presidente da Argentina pela primeira vez?",
+      "resposta": "1940",
+      "distratores": [
+        "1930",
+        "1950",
+        "1960"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Juan Perón",
+        "descricao": "Militar e político argentino, presidente da Argentina em 1946–1955 e 1973–1974.",
+        "variantes": [
+          "Juan Domingo Perón"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto, rosto e uniforme claros.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que famoso cartaz de recrutamento da Primeira Guerra Mundial usou a imagem deste marechal britânico?",
+      "resposta": "Your Country Needs You",
+      "distratores": [
+        "Uncle Sam Wants You",
+        "Keep Calm Carry On",
+        "Daddy, What Did You Do?"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Lorde Kitchener",
+        "descricao": "Marechal de campo britânico, Secretário de Estado da Guerra no início da Primeira Guerra Mundial.",
+        "variantes": [
+          "Herbert Kitchener",
+          "Horatio Herbert Kitchener"
+        ]
+      }
+    }
+  ]
+}

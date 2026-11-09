@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; a figura distingue Kim Jong-il dos outros líderes, e os distratores são líderes asiáticos críveis, todos com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grant assumiu em 1869, na década de 1860. A pergunta é verdadeira, não vaza e os distratores são décadas vizinhas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Endurance foi esmagado pelo gelo na expedição de 1914. O Aurora, outro navio da expedição, não foi. A resposta é única e os distratores são navios polares conhecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, sem pistas no enunciado. Os distratores são líderes jihadistas do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carter foi eleito em 1976, na década de 1970. A pergunta é precisa e não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nixon renunciou em 1974 após o escândalo de Watergate. A resposta é única e os distratores são outros escândalos americanos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A primeira presidência de Perón começou em 1946, na década de 1940. O enunciado é preciso e não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está confirmado nos trechos. O distrator \"Daddy, What Did You Do?\" tem 5 palavras, acima do limite de 4. Troquei-o por \"Remember Scarborough\", outro cartaz britânico da Primeira Guerra.",
+      "reescrita": {
+        "pergunta": "Que famoso cartaz de recrutamento da Primeira Guerra Mundial usou a imagem deste marechal britânico?",
+        "resposta": "Your Country Needs You",
+        "distratores": [
+          "Uncle Sam Wants You",
+          "Keep Calm Carry On",
+          "Remember Scarborough"
+        ]
+      }
+    }
+  ]
+}
