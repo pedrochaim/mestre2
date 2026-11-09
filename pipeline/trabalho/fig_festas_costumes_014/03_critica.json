@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A imagem mostra gigantes e cabeçudos, e o enunciado descreve 'cabeça enorme', que é o cabeçudo, mas a resposta é 'gigantes'. A resposta é ambígua. O enunciado também traz 'procissões', palavra que está na resposta. Não vale consertar.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Taças erguidas' define o brinde, então o enunciado entrega a resposta sem a figura. Sem essa pista, uma pintura de banquete admitiria outras respostas, como 'celebração' ou 'banquete'.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta: objetos budistas enfileirados num templo podem ser sinos, tambores ou moinhos. Os distratores são do mesmo tipo e nenhum está certo. A resposta é única e está apoiada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a tradição na classe trabalhadora de Londres. O enunciado não nomeia a entidade nem dá a resposta, e os distratores são cidades britânicas e irlandesas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'doce em forma de caveira' mais 'festa tradicional' já leva ao Dia dos Mortos sem a figura. A reescrita pede o reconhecimento do objeto e usa só o país como pista.",
+      "reescrita": {
+        "pergunta": "Que doce decorativo, típico do México, é este?",
+        "resposta": "Caveira de açúcar (calavera)",
+        "distratores": [
+          "Pão de morto",
+          "Cocada em barra",
+          "Marzipã de santo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Desfilada e queimada na véspera do Ano-Novo local' é pista que quase entrega Nyepi e Bali sem a figura. Além disso, o desfile também ocorre fora de Bali, em Lombok, por exemplo. A reescrita pede a ilha de origem da tradição e tira a pista.",
+      "reescrita": {
+        "pergunta": "Em que ilha da Indonésia surgiu esta tradição de esculturas gigantes de espíritos?",
+        "resposta": "Bali",
+        "distratores": [
+          "Java",
+          "Sumatra",
+          "Bornéu"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento e não vaza a resposta. Os distratores são trajes do mesmo tipo e nenhum descreve a figura. A resposta está apoiada nos trechos.",
+      "reescrita": null
+    }
+  ]
+}

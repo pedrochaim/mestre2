@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que objetos de devoção budista são estes, enfileirados ao longo de um templo?",
+        "resposta": "Moinhos de oração"
+      },
+      "existentes": [
+        {
+          "id": "q15821",
+          "pergunta": "Que objeto ritual budista é este?",
+          "resposta": "Roda de oração"
+        },
+        {
+          "id": "q16380",
+          "pergunta": "Em que religião se usam estas rodas, giradas pelos fiéis?",
+          "resposta": "Budismo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15821",
+      "motivo": "Ambas pedem a identificação do mesmo objeto budista (roda/moinho de oração), provavelmente com imagem; quem sabe uma sabe a outra."
+    }
+  ]
+}

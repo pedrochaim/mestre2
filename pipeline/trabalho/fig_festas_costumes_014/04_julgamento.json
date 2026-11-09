@@ -1,0 +1,297 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Moinho de oração",
+        "descricao": "Cilindro giratório budista, comum no Tibete, com mantras escritos ou guardados no interior.",
+        "variantes": [
+          "Roda de oração",
+          "Prayer wheel",
+          "Mani wheel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roda_de_oracao",
+          "nome": "Roda de oração",
+          "descricao": "Cilindro budista, comum no Tibete, que contém mantras e é girado como forma de recitação.",
+          "variantes": [
+            "Roda de mani",
+            "Mani wheel",
+            "Prayer wheel"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "moinho_de_vento",
+          "nome": "Moinho de vento",
+          "descricao": "Máquina de torre movida pela força do vento sobre pás ou velas, usada para moer grãos.",
+          "variantes": [
+            "Moinho de vento vertical",
+            "Windmill",
+            "Moinho eólico"
+          ]
+        },
+        {
+          "id": "hawk_eye",
+          "nome": "Hawk-Eye",
+          "descricao": "Sistema eletrônico de rastreamento da bola usado para revisar marcações de linha no tênis e em outros esportes.",
+          "variantes": [
+            "Olho de Falcão"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pearly kings and queens",
+        "descricao": "Tradição beneficente da classe trabalhadora de Londres, com trajes cobertos de botões de madrepérola.",
+        "variantes": [
+          "Reis e rainhas pérola",
+          "Pearlies"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "perola",
+          "nome": "Pérola",
+          "descricao": "Gema orgânica formada dentro de ostras e outros moluscos.",
+          "variantes": [
+            "Pearl"
+          ]
+        },
+        {
+          "id": "paris",
+          "nome": "Paris",
+          "descricao": "Capital da França, cortada pelo rio Sena e marcada pela Torre Eiffel.",
+          "variantes": []
+        },
+        {
+          "id": "pericles",
+          "nome": "Péricles",
+          "descricao": "Estadista e general ateniense do século cinco a.C., líder de Atenas no auge da democracia.",
+          "variantes": []
+        },
+        {
+          "id": "petalita",
+          "nome": "Petalita",
+          "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
+          "variantes": [
+            "Petalite",
+            "Castorita"
+          ]
+        },
+        {
+          "id": "parses",
+          "nome": "Parses",
+          "descricao": "Comunidade de seguidores do zoroastrismo que migrou da Pérsia para a Índia na Idade Média.",
+          "variantes": [
+            "Parsis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Caveira de açúcar",
+        "descricao": "Caveira decorativa de açúcar, a calavera, típica do Dia dos Mortos no México.",
+        "variantes": [
+          "Calavera",
+          "Alfeñique",
+          "Sugar skull"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "palenque",
+          "nome": "Palenque",
+          "descricao": "Antiga cidade-estado maia em Chiapas, no sul do México, com o Palácio e sua torre.",
+          "variantes": [
+            "Sítio arqueológico de Palenque",
+            "Lakamha"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "caverna_dos_cristais",
+          "nome": "Caverna dos Cristais",
+          "descricao": "Caverna na mina de Naica, no estado de Chihuahua, com cristais gigantes de gipsita e calor extremo.",
+          "variantes": [
+            "Cueva de los Cristales",
+            "Cave of the Crystals",
+            "Caverna dos Cristais de Naica",
+            "Caverna de Naica"
+          ]
+        },
+        {
+          "id": "calcadeira",
+          "nome": "Calçadeira",
+          "descricao": "Utensílio de cabo longo e ponta curva usado para ajudar o calcanhar a entrar no sapato.",
+          "variantes": [
+            "Calçador",
+            "Shoehorn"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Jūnihitoe",
+        "descricao": "Traje formal da corte japonesa, composto de várias túnicas sobrepostas, usado por damas nobres desde o período Heian.",
+        "variantes": [
+          "Doze camadas",
+          "Itsutsuginu-karaginu-mo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "doze_casas",
+          "nome": "Doze Casas",
+          "descricao": "Os doze templos do Santuário de Atena, guardados pelos cavaleiros de ouro em Os Cavaleiros do Zodíaco.",
+          "variantes": [
+            "Batalha das Doze Casas"
+          ]
+        },
+        {
+          "id": "pokemon_unite",
+          "nome": "Pokémon Unite",
+          "descricao": "Jogo de batalhas em equipe da franquia Pokémon, lançado em 2021, desenvolvido pelo TiMi Studio Group.",
+          "variantes": [
+            "Unite"
+          ]
+        },
+        {
+          "id": "o_canada",
+          "nome": "O Canada",
+          "descricao": "Hino nacional do Canadá, composto em 1880 por Calixa Lavallée.",
+          "variantes": [
+            "Hino nacional do Canadá"
+          ]
+        },
+        {
+          "id": "lei_das_doze_tabuas",
+          "nome": "Lei das Doze Tábuas",
+          "descricao": "Primeiro código de leis escrito de Roma, elaborado por volta de 450 antes de Cristo.",
+          "variantes": [
+            "Doze Tábuas",
+            "Twelve Tables",
+            "Lex Duodecim Tabularum"
+          ]
+        },
+        {
+          "id": "bowser_jr",
+          "nome": "Bowser Jr.",
+          "descricao": "Filho de Bowser e príncipe dos Koopas, vilão recorrente da franquia Mario.",
+          "variantes": [
+            "Junior",
+            "Bowser Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ogoh-ogoh",
+        "descricao": "Escultura gigante de um espírito maligno, desfilada em Bali na véspera do Nyepi e depois queimada.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "jogo_da_velha",
+          "nome": "Jogo da velha",
+          "descricao": "Jogo para dois em que se marcam xis e bolinhas numa grade de três por três, tentando alinhar três símbolos.",
+          "variantes": [
+            "Tic-tac-toe",
+            "Jogo do galo"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "rongorongo",
+          "nome": "Rongorongo",
+          "descricao": "Sistema de glifos encontrado em tábuas de madeira da Ilha de Páscoa, ainda não decifrado.",
+          "variantes": [
+            "Escrita rongorongo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "roda_de_oracao",
+      "motivo": "Mesma entidade: cilindro budista tibetano com mantras; variantes coincidem (Roda de oração, Prayer wheel, Mani wheel)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tradição londrina dos Pearly Kings and Queens; nenhuma candidata corresponde (pérola é gema)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Caveira de açúcar mexicana é um objeto cultural distinto do crânio anatômico e das demais candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Traje da corte japonesa; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Escultura balinesa Ogoh-ogoh; nenhuma candidata corresponde."
+    }
+  ]
+}

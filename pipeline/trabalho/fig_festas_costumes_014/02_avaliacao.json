@@ -1,0 +1,199 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, num contexto que não é festa pública claramente identificada, e com letreiros visíveis ao fundo."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Aquarela com assinatura visível e traje de aspecto balcânico/otomano; não fica claro que a peça é um cafetã, a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Casal de gigantes de procissão bem visível, sem texto; reconhecível pelas cabeças enormes e roupas de época.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Como se chamam estas figuras de procissões populares europeias, de cabeça enorme e corpo coberto por roupas?",
+      "resposta": "Gigantes de procissão (gigantones)",
+      "distratores": [
+        "Marionetes de sombra",
+        "Bonecos de ventríloquo",
+        "Fantoches de luva"
+      ],
+      "ancora": {
+        "nome": "Gigantes e cabeçudos",
+        "descricao": "Figuras fantasiadas de cabeça enorme carregadas em procissões e festas populares da Europa.",
+        "variantes": [
+          "Gigantes de procissão",
+          "Gigantones",
+          "Processional giants"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura de Krøyer com pessoas erguendo taças; o gesto é claro e a assinatura não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ritual de celebração, feito com taças erguidas, é retratado nesta pintura?",
+      "resposta": "Brinde",
+      "distratores": [
+        "Oração de graças",
+        "Bênção da mesa",
+        "Saudação militar"
+      ],
+      "ancora": {
+        "nome": "Brinde",
+        "descricao": "Ritual em que se ergue uma bebida em honra ou em boa vontade a alguém ou a algo.",
+        "variantes": [
+          "Toast"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fileira de moinhos de oração dourados, nítida e sem texto ocidental que entregue a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que objetos de devoção budista são estes, enfileirados ao longo de um templo?",
+      "resposta": "Moinhos de oração",
+      "distratores": [
+        "Sinos de templo",
+        "Tambores rituais",
+        "Lanternas votivas"
+      ],
+      "ancora": {
+        "nome": "Moinho de oração",
+        "descricao": "Cilindro giratório budista, comum no Tibete, com mantras escritos ou guardados no interior.",
+        "variantes": [
+          "Roda de oração",
+          "Prayer wheel",
+          "Mani wheel"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Casal com trajes cobertos de botões de madrepérola, inconfundíveis; são participantes de uma tradição pública londrina.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade surgiu esta tradição de trajes cobertos de botões?",
+      "resposta": "Londres",
+      "distratores": [
+        "Liverpool",
+        "Dublin",
+        "Edimburgo"
+      ],
+      "ancora": {
+        "nome": "Pearly kings and queens",
+        "descricao": "Tradição beneficente da classe trabalhadora de Londres, com trajes cobertos de botões de madrepérola.",
+        "variantes": [
+          "Reis e rainhas pérola",
+          "Pearlies"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Caveira de açúcar decorada, nítida, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que festa tradicional este doce em forma de caveira é oferecido e usado como enfeite?",
+      "resposta": "Dia dos Mortos (Día de los Muertos)",
+      "distratores": [
+        "Festa de Diwali",
+        "Ano-Novo Chinês",
+        "Carnaval de Veneza"
+      ],
+      "ancora": {
+        "nome": "Caveira de açúcar",
+        "descricao": "Caveira decorativa de açúcar, a calavera, típica do Dia dos Mortos no México.",
+        "variantes": [
+          "Calavera",
+          "Alfeñique",
+          "Sugar skull"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É um pôster com texto 'Feria de Sevilla' e data, que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fotografia histórica de figura pública (imperatriz) usando o traje cerimonial de múltiplas camadas, bem visível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que traje cerimonial da corte japonesa é este?",
+      "resposta": "Jūnihitoe",
+      "distratores": [
+        "Furisode",
+        "Yukata",
+        "Hanfu"
+      ],
+      "ancora": {
+        "nome": "Jūnihitoe",
+        "descricao": "Traje formal da corte japonesa, composto de várias túnicas sobrepostas, usado por damas nobres desde o período Heian.",
+        "variantes": [
+          "Junihitoe",
+          "Doze camadas",
+          "Itsutsuginu-karaginu-mo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano; a imagem mostra vários trajes diferentes, sem uma beca única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ogoh-ogoh em desfile público, brincantes de festa pública; o letreiro não entrega a ilha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha da Indonésia esta figura é desfilada e depois queimada, na véspera do Ano-Novo local?",
+      "resposta": "Bali",
+      "distratores": [
+        "Java",
+        "Sumatra",
+        "Bornéu"
+      ],
+      "ancora": {
+        "nome": "Ogoh-ogoh",
+        "descricao": "Escultura gigante de um espírito maligno, desfilada em Bali na véspera do Nyepi e depois queimada.",
+        "variantes": [
+          "Ogoh ogoh"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e letreiros de lojas visíveis; cena de rua genérica, sem resposta única."
+    }
+  ]
+}
