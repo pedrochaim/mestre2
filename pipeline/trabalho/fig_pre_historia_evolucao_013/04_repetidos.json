@@ -1,0 +1,143 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século antes de Cristo foi composto o texto gravado nesta estela?",
+        "resposta": "Século dezoito a.C."
+      },
+      "existentes": [
+        {
+          "id": "q03342",
+          "pergunta": "Levada como saque de guerra pelos elamitas, a estela do Código de Hamurábi foi encontrada em 1901 em que antiga cidade, hoje no Irã?",
+          "resposta": "Susa"
+        },
+        {
+          "id": "q07692",
+          "pergunta": "O princípio do olho por olho, dente por dente, presente no Código de Hamurábi, é conhecido por que nome?",
+          "resposta": "Lei de talião"
+        },
+        {
+          "id": "q13788",
+          "pergunta": "No relevo do alto da estela do Código de Hamurábi, o rei aparece diante de que deus, o do sol e da justiça?",
+          "resposta": "Shamash"
+        },
+        {
+          "id": "q17053",
+          "pergunta": "Que tipo de monumento de pedra é este?",
+          "resposta": "Estela"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que período da história do Egito antigo foi esculpida esta estátua?",
+        "resposta": "Reino Antigo"
+      },
+      "existentes": [
+        {
+          "id": "q00065",
+          "pergunta": "Os árabes apelidaram a Grande Esfinge de Gizé de Abul-Hol, que quer dizer pai de alguma coisa. Pai de quê?",
+          "resposta": "Do terror"
+        },
+        {
+          "id": "q06374",
+          "pergunta": "A maioria dos egiptólogos atribui a Grande Esfinge de Gizé a qual faraó da Quarta Dinastia, filho de Quéops?",
+          "resposta": "Quéfren"
+        },
+        {
+          "id": "q06925",
+          "pergunta": "Em que cidade egípcia, na margem oeste do Nilo, fica este monumento?",
+          "resposta": "Gizé"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que primata de Madagascar é este?",
+        "resposta": "Lêmure-de-cauda-anelada"
+      },
+      "existentes": [
+        {
+          "id": "q19493",
+          "pergunta": "Que lêmure é este?",
+          "resposta": "Lêmure-de-cauda-anelada"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que primata sul-americano é este?",
+        "resposta": "Macaco-prego"
+      },
+      "existentes": [
+        {
+          "id": "q05545",
+          "pergunta": "Que macaco é este?",
+          "resposta": "Macaco-prego"
+        },
+        {
+          "id": "q07915",
+          "pergunta": "Escavações mostraram que macacos-prego quebram castanhas com pedras há pelo menos três mil anos, num parque nacional do Piauí famoso por pinturas rupestres. Qual?",
+          "resposta": "Serra da Capivara"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que país fica este templo escavado na rocha?",
+        "resposta": "Egito"
+      },
+      "existentes": [
+        {
+          "id": "q00116",
+          "pergunta": "Nos anos sessenta, os templos de Abu Simbel foram cortados em blocos e remontados num terreno mais alto. Que obra os ameaçava?",
+          "resposta": "Alta Represa de Assuã"
+        },
+        {
+          "id": "q06390",
+          "pergunta": "O templo menor de Abu Simbel foi dedicado à deusa Hátor e também a uma rainha, a grande esposa de Ramsés Segundo. Qual?",
+          "resposta": "Nefertari"
+        },
+        {
+          "id": "q06920",
+          "pergunta": "Que templo egípcio escavado na rocha é este?",
+          "resposta": "Abu Simbel"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Século de composição é um fato diferente dos existentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Período histórico de criação da estátua não é perguntado em nenhuma existente."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q19493",
+      "motivo": "Ambas pedem identificar o lêmure-de-cauda-anelada pela imagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q05545",
+      "motivo": "Ambas pedem identificar o macaco-prego pela imagem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "País do templo é fato distinto; as existentes perguntam nome, represa e rainha."
+    }
+  ]
+}

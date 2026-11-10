@@ -401689,5 +401689,95 @@
       "autor": "Edrice Lewis",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q20221",
+    "tema": "História",
+    "subtema": "Pré-História e Idade do Bronze",
+    "ancora": "codigo_de_hamurabi",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que século antes de Cristo foi composto o texto gravado nesta estela?",
+    "resposta": "Século dezoito a.C.",
+    "distratores": [
+      "Século vinte e quatro a.C.",
+      "Século quinze a.C.",
+      "Século doze a.C."
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+      "https://pt.wikipedia.org/wiki/C%C3%B3digo_de_Hamurabi"
+    ],
+    "imagem": {
+      "arquivo": "q20221.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk-gradient.jpg",
+      "autor": "Mbzt",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q20222",
+    "tema": "História",
+    "subtema": "Pré-História e Idade do Bronze",
+    "ancora": "grande_esfinge_de_gize",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que período da história do Egito antigo foi esculpida esta estátua?",
+    "resposta": "Reino Antigo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza",
+      "https://pt.wikipedia.org/wiki/Grande_Esfinge_de_Giz%C3%A9"
+    ],
+    "imagem": {
+      "arquivo": "q20222.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza_May_2015.JPG",
+      "autor": "MusikAnimal",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20223",
+    "tema": "História",
+    "subtema": "Pré-História e Idade do Bronze",
+    "ancora": "dolmen_de_menga",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que dólmen neolítico espanhol é este?",
+    "resposta": "Dólmen de Menga",
+    "distratores": [
+      "Dólmen de Viera",
+      "Dólmen de Soto",
+      "Dólmen de Alberite"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dolmen_of_Menga",
+      "https://pt.wikipedia.org/wiki/Cova_da_Menga"
+    ],
+    "imagem": {
+      "arquivo": "q20223.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dolmen_de_Menga,_vista_exterior.jpg",
+      "autor": "Malopez 21",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20224",
+    "tema": "História",
+    "subtema": "Pré-História e Idade do Bronze",
+    "ancora": "abu_simbel",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país fica este templo escavado na rocha?",
+    "resposta": "Egito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abu_Simbel",
+      "https://pt.wikipedia.org/wiki/Abul-Simbel"
+    ],
+    "imagem": {
+      "arquivo": "q20224.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Großer_Tempel_(Abu_Simbel)_31.jpg",
+      "autor": "Olaf Tausch",
+      "licenca": "Public domain"
+    }
   }
 ]

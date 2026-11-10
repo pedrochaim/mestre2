@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estela de basalto reconhecível, sem texto legível que entregue a resposta.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século antes de Cristo foi composto o texto de leis gravado nesta estela de basalto?",
+      "resposta": "Século dezoito a.C.",
+      "distratores": [
+        "Século vinte e quatro a.C.",
+        "Século quinze a.C.",
+        "Século doze a.C."
+      ],
+      "ancora": {
+        "nome": "Código de Hamurábi",
+        "descricao": "Texto legal babilônico de cerca de 1753 a.C., gravado em uma estela de basalto hoje no Louvre.",
+        "variantes": [
+          "Código de Hamurabi",
+          "Estela de Hamurábi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga, granulada, de rosto sem contexto; não é reconhecível pela imagem e a resposta não é segura."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato de um homem numa estante de livros; não reconhecível, e as lombadas têm texto visível (Lucy, Hadar, Olduvai)."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Esfinge de Gizé em foto clara e inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que período da história do Egito antigo foi esculpida esta estátua?",
+      "resposta": "Reino Antigo",
+      "ancora": {
+        "nome": "Grande Esfinge de Gizé",
+        "descricao": "Estátua de calcário de uma esfinge, com corpo de leão e cabeça humana, no planalto de Gizé, no Egito.",
+        "variantes": [
+          "Esfinge de Gizé",
+          "Esfinge de Gizeh"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mostra um bonobo qualquer; não dá para reconhecer o indivíduo Kanzi pela imagem, então a âncora não é identificável."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Círculo de pedras na areia que parece ser a réplica no museu de Assuã, com muro ao fundo; pouco reconhecível e ambíguo diante de outros círculos megalíticos."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Lêmure de cauda anelada nítido, com a cauda listrada característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que primata de Madagascar é este?",
+      "resposta": "Lêmure-de-cauda-anelada",
+      "ancora": {
+        "nome": "Lêmure-de-cauda-anelada",
+        "descricao": "Primata estrepsirrino de Madagascar (Lemur catta), com cauda longa listrada de preto e branco.",
+        "variantes": [
+          "Lêmure-catta",
+          "Lemur catta",
+          "Maki"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Entrada do dólmen de Menga bem visível, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dólmen neolítico espanhol é este?",
+      "resposta": "Dólmen de Menga",
+      "distratores": [
+        "Dólmen de Viera",
+        "Dólmen de Soto",
+        "Dólmen de Alberite"
+      ],
+      "ancora": {
+        "nome": "Dólmen de Menga",
+        "descricao": "Grande sepulcro megalítico neolítico perto de Antequera, na Andaluzia, Espanha.",
+        "variantes": [
+          "Cova de Menga",
+          "Dolmen de Menga"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Assinatura legível com o nome e o local (Koenigswald, Bandoeng) entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Macaco-prego nítido, de corpo inteiro, com o topete escuro característico.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que primata sul-americano é este?",
+      "resposta": "Macaco-prego",
+      "ancora": {
+        "nome": "Macaco-prego",
+        "descricao": "Primata do gênero Sapajus, da América do Sul, de pelagem marrom e topete escuro.",
+        "variantes": [
+          "Sapajus apella",
+          "Capuchinho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Escavação com muitas pessoas no primeiro plano e sem característica que permita reconhecer a Gran Dolina."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada icônica de Abu Simbel, nítida e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este templo escavado na rocha?",
+      "resposta": "Egito",
+      "ancora": {
+        "nome": "Abu Simbel",
+        "descricao": "Complexo de dois templos escavados na rocha por Ramsés II, no sul do Egito, às margens do lago Nasser.",
+        "variantes": [
+          "Abul-Simbel",
+          "Templos de Abu Simbel"
+        ]
+      }
+    }
+  ]
+}
