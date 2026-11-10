@@ -1,0 +1,277 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cúpulas dos reatores e chaminé alta contra a serra; sem texto legível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que município fluminense fica esta usina nuclear?",
+      "resposta": "Angra dos Reis",
+      "distratores": [
+        "Paraty",
+        "Macaé",
+        "Cabo Frio"
+      ],
+      "ancora": {
+        "nome": "Usina Nuclear de Angra",
+        "descricao": "Complexo da Central Nuclear Almirante Álvaro Alberto, única usina nuclear do Brasil, na praia de Itaorna, em Angra dos Reis (RJ).",
+        "variantes": [
+          "Central Nuclear Almirante Álvaro Alberto",
+          "Angra 1 e Angra 2",
+          "Angra Nuclear Power Plant"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arquibancadas verdes e brancas características; anúncios pequenos não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que clube manda seus jogos neste estádio?",
+      "resposta": "Coritiba",
+      "distratores": [
+        "Palmeiras",
+        "Athletico Paranaense",
+        "Juventude"
+      ],
+      "ancora": {
+        "nome": "Estádio Couto Pereira",
+        "descricao": "Estádio Major Antônio Couto Pereira, casa do Coritiba Foot Ball Club, em Curitiba (PR).",
+        "variantes": [
+          "Couto Pereira",
+          "Estádio Major Antônio Couto Pereira"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Átrio rosa do antigo Hotel Majestic, muito característico; sem texto que entregue.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que poeta viveu durante anos no antigo hotel que hoje abriga este centro cultural?",
+      "resposta": "Mario Quintana",
+      "distratores": [
+        "Carlos Drummond de Andrade",
+        "Manuel Bandeira",
+        "Cecília Meireles"
+      ],
+      "ancora": {
+        "nome": "Casa de Cultura Mario Quintana",
+        "descricao": "Centro cultural de Porto Alegre (RS) instalado no antigo Hotel Majestic.",
+        "variantes": [
+          "Casa de Cultura Mário Quintana",
+          "CCMQ",
+          "Antigo Hotel Majestic"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pilares inclinados de concreto inconfundíveis do MAM carioca; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que museu é este?",
+      "resposta": "Museu de Arte Moderna do Rio",
+      "distratores": [
+        "MASP",
+        "Museu Oscar Niemeyer",
+        "Museu do Amanhã"
+      ],
+      "ancora": {
+        "nome": "Museu de Arte Moderna do Rio de Janeiro",
+        "descricao": "Museu de arte no Parque do Flamengo, no Rio de Janeiro, em prédio modernista de concreto aparente.",
+        "variantes": [
+          "MAM Rio",
+          "MAM-RJ",
+          "Museu de Arte Moderna do Rio de Janeiro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Queda dupla entre araucárias e paredão basáltico, típica do Caracol; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que município gaúcho fica esta cachoeira?",
+      "resposta": "Canela",
+      "distratores": [
+        "Gramado",
+        "São Francisco de Paula",
+        "Caxias do Sul"
+      ],
+      "ancora": {
+        "nome": "Cascata do Caracol",
+        "descricao": "Cachoeira de cerca de 130 metros no Parque Estadual do Caracol, em Canela, Rio Grande do Sul.",
+        "variantes": [
+          "Cachoeira do Caracol",
+          "Caracol Falls",
+          "Cascata do Caracol"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Prédio branco de concreto com rampas curvas, de forma singular; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "A obra de que pintor este museu de Porto Alegre preserva e divulga?",
+      "resposta": "Iberê Camargo",
+      "distratores": [
+        "Cândido Portinari",
+        "Di Cavalcanti",
+        "Alfredo Volpi"
+      ],
+      "ancora": {
+        "nome": "Fundação Iberê Camargo",
+        "descricao": "Museu e instituição cultural em Porto Alegre (RS) dedicada à obra do pintor Iberê Camargo, em prédio projetado por Álvaro Siza.",
+        "variantes": [
+          "Iberê Camargo Foundation",
+          "Museu Iberê Camargo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Igreja de duas torres sobre um rochedo, bem distinta; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quantos degraus tem a escadaria principal deste santuário, onde fiéis pagam promessas?",
+      "resposta": "382",
+      "distratores": [
+        "182",
+        "282",
+        "482"
+      ],
+      "ancora": {
+        "nome": "Igreja da Penha (Rio de Janeiro)",
+        "descricao": "Basílica Santuário de Nossa Senhora da Penha de França, no alto de uma pedra no bairro da Penha, no Rio de Janeiro.",
+        "variantes": [
+          "Basílica Santuário de Nossa Senhora da Penha de França",
+          "Igreja de Nossa Senhora da Penha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea do estádio circular de Brasília com colunas; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que estádio é este?",
+      "resposta": "Mané Garrincha",
+      "distratores": [
+        "Arena Pantanal",
+        "Arena Amazônia",
+        "Mineirão"
+      ],
+      "ancora": {
+        "nome": "Estádio Mané Garrincha",
+        "descricao": "Estádio nacional de Brasília (DF), reconstruído para a Copa de 2014.",
+        "variantes": [
+          "Arena Mané Garrincha",
+          "Estádio Nacional de Brasília"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Prédio de arcos de tijolo e friso em relevo, característico; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este palácio é a sede do governo de qual estado?",
+      "resposta": "Tocantins",
+      "distratores": [
+        "Piauí",
+        "Mato Grosso",
+        "Rondônia"
+      ],
+      "ancora": {
+        "nome": "Palácio Araguaia",
+        "descricao": "Sede do governo do estado do Tocantins, em Palmas.",
+        "variantes": [
+          "Palácio Araguaia Governador José Wilson Siqueira Campos",
+          "Araguaia Palace"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada com cúpulas de ardósia, característica; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que palácio do Rio de Janeiro é este?",
+      "resposta": "Palácio Guanabara",
+      "distratores": [
+        "Palácio Laranjeiras",
+        "Palácio Tiradentes",
+        "Palácio do Catete"
+      ],
+      "ancora": {
+        "nome": "Palácio Guanabara",
+        "descricao": "Sede oficial do governo do estado do Rio de Janeiro, em Laranjeiras.",
+        "variantes": [
+          "Guanabara Palace",
+          "Paço Isabel"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de maquete/painel com reflexos, pouco nítida e ilegível no celular; não permite reconhecer o lugar."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Templo de arquitetura chinesa com escadaria; pessoas pequenas e distantes, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que estado brasileiro fica este grande templo budista?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Paraná",
+        "Minas Gerais",
+        "Rio de Janeiro"
+      ],
+      "ancora": {
+        "nome": "Templo Zu Lai",
+        "descricao": "Templo budista em Cotia (SP), o maior da América do Sul, filial da ordem taiwanesa Fo Guang Shan.",
+        "variantes": [
+          "Zu Lai Temple",
+          "Templo Budista Zu Lai"
+        ]
+      }
+    }
+  ]
+}

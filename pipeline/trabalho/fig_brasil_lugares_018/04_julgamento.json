@@ -1,0 +1,633 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estádio Couto Pereira",
+        "descricao": "Estádio Major Antônio Couto Pereira, casa do Coritiba Foot Ball Club, em Curitiba (PR).",
+        "variantes": [
+          "Couto Pereira",
+          "Estádio Major Antônio Couto Pereira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_couto_pereira",
+          "nome": "Estádio Couto Pereira",
+          "descricao": "Estádio de futebol de Curitiba, Paraná, casa do Coritiba Foot Ball Club.",
+          "variantes": [
+            "Estádio Major Antônio Couto Pereira",
+            "Couto Pereira"
+          ]
+        },
+        {
+          "id": "thiago_pereira",
+          "nome": "Thiago Pereira",
+          "descricao": "Nadador brasileiro de medley, medalhista de prata nos 400 metros medley nos Jogos de Londres 2012.",
+          "variantes": [
+            "Thiago Machado Vilela Pereira"
+          ]
+        },
+        {
+          "id": "astronauta",
+          "nome": "Astronauta",
+          "descricao": "Astronauta Pereira, herói espacial brasileiro da Turma da Mônica, de Mauricio de Sousa.",
+          "variantes": [
+            "Astronauta (Turma da Mônica)",
+            "Astronauta Pereira",
+            "Astro"
+          ]
+        },
+        {
+          "id": "estadio_municipal_de_braga",
+          "nome": "Estádio Municipal de Braga",
+          "descricao": "Estádio de futebol de Braga, em Portugal, escavado numa pedreira e projetado por Souto de Moura para a Euro 2004.",
+          "variantes": [
+            "A Pedreira"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Casa de Cultura Mario Quintana",
+        "descricao": "Centro cultural de Porto Alegre (RS) instalado no antigo Hotel Majestic.",
+        "variantes": [
+          "CCMQ",
+          "Antigo Hotel Majestic"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camisa_de_bolinhas_do_tour_de_france",
+          "nome": "Camisa de bolinhas do Tour de France",
+          "descricao": "Camisa branca com bolinhas vermelhas vestida pelo líder da classificação de montanha do Tour de France.",
+          "variantes": [
+            "Maillot à pois",
+            "Camisa de rei da montanha"
+          ]
+        },
+        {
+          "id": "mario_quintana",
+          "nome": "Mário Quintana",
+          "descricao": "Poeta gaúcho (1906–1994), conhecido pelos poemas curtos e pelo humor delicado.",
+          "variantes": []
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "gato",
+          "nome": "Gato",
+          "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+          "variantes": [
+            "Gato-doméstico",
+            "Felis catus"
+          ]
+        },
+        {
+          "id": "camundongo",
+          "nome": "Camundongo",
+          "descricao": "Pequeno roedor da família Muridae (Mus musculus), comum perto de habitações e em laboratórios.",
+          "variantes": [
+            "Mus musculus",
+            "Rato-doméstico",
+            "House mouse"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Museu de Arte Moderna do Rio de Janeiro",
+        "descricao": "Museu de arte no Parque do Flamengo, no Rio de Janeiro, em prédio modernista de concreto aparente.",
+        "variantes": [
+          "MAM Rio",
+          "MAM-RJ"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_de_arte_moderna_do_rio_de_janeiro",
+          "nome": "Museu de Arte Moderna do Rio de Janeiro",
+          "descricao": "Museu modernista no Parque do Flamengo, no Rio de Janeiro, com estrutura de concreto aparente.",
+          "variantes": [
+            "MAM Rio",
+            "MAM-RJ"
+          ]
+        },
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "museu_nacional_quinta_da_boa_vista",
+          "nome": "Museu Nacional (Quinta da Boa Vista)",
+          "descricao": "Antigo Paço de São Cristóvão, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional, a mais antiga instituição científica do Brasil.",
+          "variantes": [
+            "Paço de São Cristóvão",
+            "Museu Nacional do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "romario",
+          "nome": "Romário",
+          "descricao": "Ex-atacante brasileiro, nascido em 1966, campeão mundial em 1994 e depois político, senador pelo Rio de Janeiro.",
+          "variantes": [
+            "Romário de Souza Faria",
+            "Baixinho"
+          ]
+        },
+        {
+          "id": "sambodromo_do_rio_de_janeiro",
+          "nome": "Sambódromo do Rio de Janeiro",
+          "descricao": "Passarela do desfile das escolas de samba no Rio de Janeiro, inaugurada em 1984.",
+          "variantes": [
+            "Sambódromo da Marquês de Sapucaí",
+            "Passarela Professor Darcy Ribeiro",
+            "Sambódromo do Rio",
+            "Passarela do Samba Darcy Ribeiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cascata do Caracol",
+        "descricao": "Cachoeira de cerca de 130 metros no Parque Estadual do Caracol, em Canela, Rio Grande do Sul.",
+        "variantes": [
+          "Cachoeira do Caracol",
+          "Caracol Falls"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cascata_do_caracol",
+          "nome": "Cascata do Caracol",
+          "descricao": "Queda d'água de cerca de 130 metros no Parque Estadual do Caracol, na serra gaúcha.",
+          "variantes": [
+            "Cachoeira do Caracol"
+          ]
+        },
+        {
+          "id": "cachoeira_do_tabuleiro",
+          "nome": "Cachoeira do Tabuleiro",
+          "descricao": "Queda-d'água de 273 metros na serra do Espinhaço, em Conceição do Mato Dentro, Minas Gerais.",
+          "variantes": [
+            "Tabuleiro"
+          ]
+        },
+        {
+          "id": "salto_de_sete_quedas",
+          "nome": "Salto de Sete Quedas",
+          "descricao": "Conjunto de cachoeiras do rio Paraná, na fronteira entre Brasil e Paraguai, submerso em 1982.",
+          "variantes": [
+            "Sete Quedas",
+            "Salto del Guairá",
+            "Guaíra Falls",
+            "Salto de Guaíra",
+            "Saltos del Guairá",
+            "Salto das Sete Quedas"
+          ]
+        },
+        {
+          "id": "castanheira_do_para",
+          "nome": "Castanheira-do-pará",
+          "descricao": "Árvore amazônica Bertholletia excelsa, que produz a castanha-do-pará dentro de um ouriço duro",
+          "variantes": [
+            "Bertholletia excelsa",
+            "Castanha-do-brasil",
+            "Castanheira-do-brasil"
+          ]
+        },
+        {
+          "id": "cachoeira_da_fumaca",
+          "nome": "Cachoeira da Fumaça",
+          "descricao": "Queda d'água da Chapada Diamantina, na Bahia, cuja água se dispersa em névoa antes de chegar ao chão.",
+          "variantes": [
+            "Cachoeira da Glass"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fundação Iberê Camargo",
+        "descricao": "Museu e instituição cultural em Porto Alegre (RS) dedicada à obra do pintor Iberê Camargo, em prédio projetado por Álvaro Siza.",
+        "variantes": [
+          "Iberê Camargo Foundation",
+          "Museu Iberê Camargo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hebe_camargo",
+          "nome": "Hebe Camargo",
+          "descricao": "Apresentadora, cantora e atriz brasileira, chamada de Rainha da Televisão Brasileira.",
+          "variantes": [
+            "Hebe Maria Monteiro de Camargo Ravagnani"
+          ]
+        },
+        {
+          "id": "fundacao_de_roma",
+          "nome": "Fundação de Roma",
+          "descricao": "Fundação lendária da cidade de Roma por Rômulo.",
+          "variantes": [
+            "Founding of Rome"
+          ]
+        },
+        {
+          "id": "biblioteca_nacional_do_brasil",
+          "nome": "Biblioteca Nacional do Brasil",
+          "descricao": "Maior biblioteca da América Latina, em prédio eclético na Cinelândia, no Rio de Janeiro.",
+          "variantes": [
+            "Biblioteca Nacional",
+            "Fundação Biblioteca Nacional"
+          ]
+        },
+        {
+          "id": "michel_telo",
+          "nome": "Michel Teló",
+          "descricao": "Cantor e compositor sertanejo brasileiro, autor de Ai Se Eu Te Pego.",
+          "variantes": [
+            "Michel Teló Camargo"
+          ]
+        },
+        {
+          "id": "uniao_iberica",
+          "nome": "União Ibérica",
+          "descricao": "Período de 1580 a 1640 em que Portugal e Espanha tiveram o mesmo rei, da dinastia dos Habsburgos.",
+          "variantes": [
+            "Iberian Union",
+            "Domínio filipino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Igreja da Penha (Rio de Janeiro)",
+        "descricao": "Basílica Santuário de Nossa Senhora da Penha de França, no alto de uma pedra no bairro da Penha, no Rio de Janeiro.",
+        "variantes": [
+          "Basílica Santuário de Nossa Senhora da Penha de França",
+          "Igreja de Nossa Senhora da Penha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_da_penha_rio_de_janeiro",
+          "nome": "Igreja da Penha (Rio de Janeiro)",
+          "descricao": "Basílica santuário de Nossa Senhora da Penha de França, no bairro da Penha, no Rio de Janeiro.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora da Penha de França",
+            "Igreja de Nossa Senhora da Penha"
+          ]
+        },
+        {
+          "id": "igreja_da_candelaria",
+          "nome": "Igreja da Candelária",
+          "descricao": "Igreja católica no centro do Rio de Janeiro, de fachada barroca portuguesa, construída a partir de 1775.",
+          "variantes": [
+            "Igreja de Nossa Senhora da Candelária"
+          ]
+        },
+        {
+          "id": "igrejinha_nossa_senhora_de_fatima",
+          "nome": "Igrejinha Nossa Senhora de Fátima",
+          "descricao": "Primeira igreja católica de alvenaria de Brasília, na quadra 307/308 Sul, inaugurada em 1958.",
+          "variantes": [
+            "Igrejinha da 307/308 Sul",
+            "Igreja Nossa Senhora de Fátima"
+          ]
+        },
+        {
+          "id": "igreja_de_nossa_senhora_do_carmo_ouro_preto",
+          "nome": "Igreja de Nossa Senhora do Carmo (Ouro Preto)",
+          "descricao": "Igreja rococó do século dezoito em Ouro Preto, Minas Gerais, tombada pelo IPHAN.",
+          "variantes": [
+            "Igreja do Carmo de Ouro Preto"
+          ]
+        },
+        {
+          "id": "mosteiro_de_sao_bento_sao_paulo",
+          "nome": "Mosteiro de São Bento (São Paulo)",
+          "descricao": "Mosteiro beneditino no centro histórico de São Paulo, fundado em 1598, com basílica construída entre 1910 e 1914.",
+          "variantes": [
+            "Basílica Abacial de Nossa Senhora da Assunção",
+            "Mosteiro de São Bento de São Paulo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Estádio Mané Garrincha",
+        "descricao": "Estádio nacional de Brasília (DF), reconstruído para a Copa de 2014.",
+        "variantes": [
+          "Arena Mané Garrincha",
+          "Estádio Nacional de Brasília"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "teatro_nacional_claudio_santoro",
+          "nome": "Teatro Nacional Cláudio Santoro",
+          "descricao": "Teatro de Brasília projetado por Oscar Niemeyer, com fachadas decoradas por Athos Bulcão.",
+          "variantes": [
+            "Teatro Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "garrincha",
+          "nome": "Garrincha",
+          "descricao": "Manuel Francisco dos Santos, ponta-direita do Botafogo e da seleção brasileira, bicampeão mundial em 1958 e 1962.",
+          "variantes": [
+            "Mané Garrincha",
+            "Manuel Francisco dos Santos",
+            "Manoel Francisco dos Santos"
+          ]
+        },
+        {
+          "id": "museu_nacional_da_republica",
+          "nome": "Museu Nacional da República",
+          "descricao": "Museu de cúpula branca projetado por Oscar Niemeyer, no Setor Cultural Sul de Brasília.",
+          "variantes": [
+            "Museu Nacional Honestino Guimarães",
+            "Museu Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "estadio_serra_dourada",
+          "nome": "Estádio Serra Dourada",
+          "descricao": "Estádio de futebol inaugurado em 1975 em Goiânia, Goiás, projetado por Paulo Mendes da Rocha.",
+          "variantes": [
+            "Serra Dourada",
+            "Estádio Mané Garrincha de Goiânia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Palácio Araguaia",
+        "descricao": "Sede do governo do estado do Tocantins, em Palmas.",
+        "variantes": [
+          "Palácio Araguaia Governador José Wilson Siqueira Campos",
+          "Araguaia Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_parfum",
+          "nome": "Palácio Parfum",
+          "descricao": "Palácio luxuoso com grandes jardins na região de Kalos, nos jogos Pokémon X e Y.",
+          "variantes": [
+            "Parfum Palace"
+          ]
+        },
+        {
+          "id": "rio_paraguai",
+          "nome": "Rio Paraguai",
+          "descricao": "Rio sul-americano que nasce em Mato Grosso, atravessa o Pantanal e deságua no rio Paraná.",
+          "variantes": [
+            "Paraguai",
+            "Paraguay River",
+            "Río Paraguay"
+          ]
+        },
+        {
+          "id": "palacio_piratini",
+          "nome": "Palácio Piratini",
+          "descricao": "Sede do Poder Executivo do estado do Rio Grande do Sul, na Praça Marechal Deodoro, em Porto Alegre.",
+          "variantes": [
+            "Piratini"
+          ]
+        },
+        {
+          "id": "palacio_da_alvorada",
+          "nome": "Palácio da Alvorada",
+          "descricao": "Palácio projetado por Oscar Niemeyer em Brasília, à beira do lago Paranoá, residência oficial do presidente da República.",
+          "variantes": [
+            "Alvorada"
+          ]
+        },
+        {
+          "id": "palacio_laranjeiras",
+          "nome": "Palácio Laranjeiras",
+          "descricao": "Palácio no bairro de Laranjeiras, no Rio de Janeiro, residência oficial do governador do estado.",
+          "variantes": [
+            "Palácio das Laranjeiras"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Palácio Guanabara",
+        "descricao": "Sede oficial do governo do estado do Rio de Janeiro, em Laranjeiras.",
+        "variantes": [
+          "Guanabara Palace",
+          "Paço Isabel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baia_de_guanabara",
+          "nome": "Baía de Guanabara",
+          "descricao": "Baía oceânica do estado do Rio de Janeiro, cercada pelas cidades do Rio de Janeiro e de Niterói.",
+          "variantes": [
+            "Guanabara Bay",
+            "Guanabara"
+          ]
+        },
+        {
+          "id": "estado_da_guanabara",
+          "nome": "Estado da Guanabara",
+          "descricao": "Antiga unidade da federação formada pelo território da cidade do Rio de Janeiro após a mudança da capital para Brasília.",
+          "variantes": [
+            "Guanabara"
+          ]
+        },
+        {
+          "id": "grande_palacio_de_bangkok",
+          "nome": "Grande Palácio de Bangkok",
+          "descricao": "Complexo de palácios no centro de Bangkok, residência oficial dos reis do Sião e da Tailândia desde 1782.",
+          "variantes": [
+            "Grand Palace",
+            "Grande Palácio"
+          ]
+        },
+        {
+          "id": "palacio_barolo",
+          "nome": "Palacio Barolo",
+          "descricao": "Edifício de escritórios na Avenida de Mayo, em Buenos Aires, irmão gêmeo do Palacio Salvo de Montevidéu.",
+          "variantes": []
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Templo Zu Lai",
+        "descricao": "Templo budista em Cotia (SP), o maior da América do Sul, filial da ordem taiwanesa Fo Guang Shan.",
+        "variantes": [
+          "Zu Lai Temple",
+          "Templo Budista Zu Lai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_philae",
+          "nome": "Templo de Philae",
+          "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+          "variantes": [
+            "Templo de Filas",
+            "Templo de Ísis em Filas"
+          ]
+        },
+        {
+          "id": "tempo_unix",
+          "nome": "Tempo Unix",
+          "descricao": "Sistema de contagem do tempo em segundos a partir de uma data de referência, usado em muitos computadores.",
+          "variantes": [
+            "Época Unix",
+            "Unix time"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "a_tempestade_giorgione",
+          "nome": "A Tempestade (Giorgione)",
+          "descricao": "Pintura renascentista de Giorgione, de cerca de 1506-1508, com um soldado, uma mulher amamentando e um raio sobre uma paisagem, na Galleria dell'Accademia de Veneza.",
+          "variantes": [
+            "La Tempesta",
+            "The Tempest",
+            "A Tempestade"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "estadio_couto_pereira",
+      "motivo": "Mesmo estádio do Coritiba em Curitiba."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Casa de Cultura Mario Quintana é um centro cultural, diferente do poeta."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "museu_de_arte_moderna_do_rio_de_janeiro",
+      "motivo": "Mesmo museu, mesmo nome e descrição."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "cascata_do_caracol",
+      "motivo": "Mesma cachoeira de 130 m no Parque do Caracol."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Fundação Iberê Camargo."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "igreja_da_penha_rio_de_janeiro",
+      "motivo": "Mesma basílica da Penha no Rio."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "estadio_mane_garrincha",
+      "motivo": "Mesmo estádio nacional de Brasília."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio Araguaia de Palmas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Palácio Guanabara é distinto da baía, do estado e das outras candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Templo Zu Lai."
+    }
+  ]
+}

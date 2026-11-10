@@ -1,0 +1,108 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que clube manda seus jogos neste estádio?",
+        "resposta": "Coritiba"
+      },
+      "existentes": [
+        {
+          "id": "q02831",
+          "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+          "resposta": "Coritiba"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que museu é este?",
+        "resposta": "Museu de Arte Moderna do Rio"
+      },
+      "existentes": [
+        {
+          "id": "q16011",
+          "pergunta": "Que arquiteto projetou este prédio de concreto aparente?",
+          "resposta": "Affonso Eduardo Reidy"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que município gaúcho fica esta cachoeira?",
+        "resposta": "Canela"
+      },
+      "existentes": [
+        {
+          "id": "q09635",
+          "pergunta": "Com cerca de cento e trinta metros de queda, a Cascata do Caracol é a grande atração natural de qual cidade da serra gaúcha?",
+          "resposta": "Canela"
+        },
+        {
+          "id": "q18002",
+          "pergunta": "Que cachoeira brasileira é esta?",
+          "resposta": "Cascata do Caracol"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Quantos degraus tem a escadaria principal deste santuário, onde fiéis pagam promessas?",
+        "resposta": "382"
+      },
+      "existentes": [
+        {
+          "id": "q17117",
+          "pergunta": "Em que cidade brasileira fica este santuário católico, erguido no alto de uma pedra?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que estádio é este?",
+        "resposta": "Mané Garrincha"
+      },
+      "existentes": [
+        {
+          "id": "q02175",
+          "pergunta": "Em que cidade fica este estádio?",
+          "resposta": "Brasília"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02831",
+      "motivo": "Mesmo fato: clube que manda jogos no estádio, mesma resposta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o museu é diferente de saber o arquiteto."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q09635",
+      "motivo": "Ambas perguntam o município (Canela) da cachoeira/Cascata do Caracol."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Número de degraus é fato diferente da cidade do santuário."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nome do estádio é diferente da cidade onde fica."
+    }
+  ]
+}

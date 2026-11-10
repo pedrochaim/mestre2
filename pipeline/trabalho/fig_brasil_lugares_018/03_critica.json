@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'usina nuclear' em município fluminense já entrega Angra dos Reis, pois é a única usina nuclear do Brasil. A figura vira enfeite e não há como tirar a pista sem perder a pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o estádio nem o clube. Resposta única, confirmada pelos trechos, e distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quintana viveu no Hotel Majestic entre 1968 e 1980, o que sustenta 'durante anos'. O enunciado não nomeia o centro. Resposta única, distratores poetas brasileiros.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem pista no enunciado. Distratores são museus brasileiros plausíveis e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cachoeira fica em Canela, segundo os trechos. O enunciado não entrega a resposta e os distratores são municípios gaúchos vizinhos e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a redação para voz está truncada ('A obra de que pintor este museu... preserva'), com a ordem confusa. Corrigi a sintaxe e troquei 'museu' por 'instituição', como no trecho.",
+      "reescrita": {
+        "pergunta": "A obra de que pintor é preservada e divulgada por esta instituição cultural de Porto Alegre?",
+        "resposta": "Iberê Camargo",
+        "distratores": [
+          "Cândido Portinari",
+          "Di Cavalcanti",
+          "Alfredo Volpi"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam 382 degraus e as promessas. O enunciado não nomeia o santuário e os distratores são números próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista. Os distratores são outros estádios da Copa de 2014 e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Palácio Araguaia é a sede do governo do Tocantins, segundo os trechos. O enunciado não nomeia o palácio nem o estado, e os distratores são estados plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. O Palácio das Laranjeiras é outro prédio, então o distrator não está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Templo Zu Lai fica em Cotia, em São Paulo, segundo os trechos. O enunciado só diz 'grande templo budista', o que não entrega o estado. Os distratores são estados plausíveis.",
+      "reescrita": null
+    }
+  ]
+}
