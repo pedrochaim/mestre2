@@ -1,0 +1,408 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Blinky acelera com poucas pastilhas (Cruise Elroy); fato conhecido, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a fonte da página Luigi é desambiguação; mantém só a fonte válida.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Em Super Mario Bros. 2, lançado nos Estados Unidos, qual dos quatro personagens jogáveis dá os pulos mais altos?",
+        "resposta": "Luigi",
+        "distratores": [
+          "Mario",
+          "Toad",
+          "Princesa Peach"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Super_Mario_Bros._2"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Só a peça I apaga quatro linhas de uma vez; fato amplamente conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português confirma o GameCube como primeiro console da Nintendo com discos ópticos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Snorlax (460 kg) pesa mais que Wailord, Gyarados e Onix; fonte inacessível mas fato firme.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado diz 'dos três' mas o distrator Latios não pertence ao trio; reformulado.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destes lendários de Hoenn tem o maior comprimento, segundo a Pokédex?",
+        "resposta": "Rayquaza",
+        "distratores": [
+          "Groudon",
+          "Kyogre",
+          "Latios"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)",
+          "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tipo Terrestre é imune a Elétrico; distratores são de outros tipos, sem imunidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chun-Li é a única mulher entre os oito lutadores selecionáveis do SF II original.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mewtwo e Charizard são os dois de Kanto com duas megaevoluções (X e Y).",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pikachu não é um dos três iniciais de Kanto, contradizendo o enunciado; reformulado como 'destes pokémon'.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destes pokémon de Kanto já tem dois tipos desde a sua primeira forma?",
+        "resposta": "Bulbasaur",
+        "distratores": [
+          "Charmander",
+          "Squirtle",
+          "Pikachu"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bulbasaur",
+          "https://pt.wikipedia.org/wiki/Bulbasaur"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Portal do Nether é feito de obsidiana, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Korobeiniki é canção russa do século dezenove e tema do Tetris do Game Boy.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Starman dá invencibilidade temporária a Mario; fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Donkey Kong joga barris no herói, confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pastilhas energéticas nos cantos deixam os fantasmas azuis.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sagat, tailandês de tapa-olho, é o quarto chefe; distratores não são chefes.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goro é o campeão e chefe do primeiro Mortal Kombat; distratores aparecem só em jogos posteriores.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O direcional central do controle do N64 é analógico, e o projeto foi pensado para Mario 64.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Nunchuk liga-se por cabo ao Wii Remote e tem direcional analógico.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pokédex e fonte em português apontam as bochechas como reserva de eletricidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O plumbob é o cristal verde dos Sims; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chocobos aparecem em quase todo Final Fantasy, geralmente como transporte.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Com pelo menos um anel Sonic sobrevive a um golpe; fonte em português confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zelda possui a Triforça da Sabedoria, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Buster Sword é a espada de Cloud; distratores são de outras obras ou da mesma série.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A habilidade de copiar poderes estreou em Kirby's Adventure.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Finais rápidos de Metroid revelam Samus como mulher.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pé de cabra é a arma-símbolo de Gordon Freeman.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hadouken é a bola de energia de Ryu; distratores são outros golpes.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Os ovos de Yoshi vêm dos jogos Yoshi's Island, não de 'vários jogos da série Mario' (em Super Mario World ele não bota ovos); enunciado corrigido.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Nos jogos de plataforma Yoshi's Island, o que Yoshi produz depois de engolir um inimigo com sua língua comprida?",
+        "resposta": "Um ovo",
+        "distratores": [
+          "Uma moeda",
+          "Uma estrela",
+          "Um casco"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Yoshi"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Creeper solta pólvora, ingrediente da dinamite; fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Puck Man era o título japonês, mudado por medo de vandalismo.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Segundo Teiyu Goto, o triângulo simboliza o ponto de vista.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Xbox veio de 'DirectX Box', confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crash era chamado 'Willie the Wombat' durante a produção.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Há duas explicações (último de Sakaguchi ou da Square) e o próprio Sakaguchi relativizou; resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fontes não mostram a explicação do nome e há mais de uma versão (jogador/jogo, passado/futuro); incerto.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Com as esmeraldas e 50 anéis Sonic vira Super Sonic desde Sonic 2.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Leon vai à Espanha resgatar Ashley Graham, filha do presidente.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português: os porcos roubaram os ovos dos pássaros.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O assistente da Microsoft herdou o nome Cortana, IA de Halo.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Game Boy vinha com Tetris na América do Norte e Europa.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gouken foi mestre de Ryu e Ken, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Niantic desenvolveu Ingress e Pokémon Go.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O primeiro episódio de Doom se passa na base em Fobos.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tectoy distribuiu e fabricou Sega e Mega Drive no Brasil.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sylveon (geração 6) é a mais recente entre as listadas; fato firme.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O joystick do Atari 2600 tem um único botão de ação.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Magikarp evolui no nível 20; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ash começa a jornada aos dez anos; fato bem documentado.",
+      "reescrita": null
+    }
+  ]
+}

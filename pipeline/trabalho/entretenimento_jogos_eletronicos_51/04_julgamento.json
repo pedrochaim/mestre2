@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "GameCube",
+        "descricao": "Console de mesa da Nintendo lançado em 2001, sucessor do Nintendo 64 e antecessor do Wii.",
+        "variantes": [
+          "Nintendo GameCube"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "game_boy",
+          "nome": "Game Boy",
+          "descricao": "Videogame portátil da Nintendo lançado em 1989.",
+          "variantes": [
+            "Nintendo Game Boy"
+          ]
+        },
+        {
+          "id": "cubo_d_agua",
+          "nome": "Cubo d'Água",
+          "descricao": "Centro Nacional de Natação de Pequim, com fachada de bolhas azuis, construído para os Jogos Olímpicos de 2008.",
+          "variantes": [
+            "Water Cube",
+            "Centro Aquático Nacional de Pequim"
+          ]
+        },
+        {
+          "id": "nintendo_64",
+          "nome": "Nintendo 64",
+          "descricao": "Console de mesa da Nintendo, de cartuchos, lançado em 1996, famoso por Super Mario 64.",
+          "variantes": [
+            "N64"
+          ]
+        },
+        {
+          "id": "nintendo",
+          "nome": "Nintendo",
+          "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+          "variantes": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Koppai"
+          ]
+        },
+        {
+          "id": "ganimedes",
+          "nome": "Ganimedes",
+          "descricao": "Lua de Júpiter descoberta por Galileu em 1610.",
+          "variantes": [
+            "Ganymede"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "O GameCube não consta entre as candidatas. Game Boy, Nintendo 64 e Nintendo são entidades diferentes, e as outras duas candidatas não têm relação com ele."
+    }
+  ]
+}

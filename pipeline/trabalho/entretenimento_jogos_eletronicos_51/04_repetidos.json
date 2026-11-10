@@ -1,0 +1,982 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No Pac-Man original, qual dos quatro fantasmas fica mais rápido à medida que o labirinto vai ficando com menos pastilhas?",
+        "resposta": "Blinky"
+      },
+      "existentes": [
+        {
+          "id": "q01318",
+          "pergunta": "Blinky, Pinky e Inky perseguem o Pac-Man pelo labirinto. Qual é o nome do quarto fantasma?",
+          "resposta": "Clyde"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Super Mario Bros. 2, lançado nos Estados Unidos, qual dos quatro personagens jogáveis dá os pulos mais altos?",
+        "resposta": "Luigi"
+      },
+      "existentes": [
+        {
+          "id": "q01311",
+          "pergunta": "O nome Luigi faz um trocadilho com a palavra japonesa ruiji. O que ela significa?",
+          "resposta": "Semelhante"
+        },
+        {
+          "id": "q07407",
+          "pergunta": "Por que a Nintendo criou Luigi, que estreou ao lado do irmão no fliperama Mario Bros., de 1983?",
+          "resposta": "Para ser o segundo jogador"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Das sete peças de Tetris, qual é a única capaz de apagar quatro linhas de uma vez só?",
+        "resposta": "A peça reta (peça I)"
+      },
+      "existentes": [
+        {
+          "id": "q01310",
+          "pergunta": "No Tetris, cada peça é formada por quatro quadradinhos. Quantos formatos diferentes de peça existem no jogo?",
+          "resposta": "Sete"
+        },
+        {
+          "id": "q07372",
+          "pergunta": "Em 1984, Alexey Pajitnov criou o Tetris num centro de computação da Academia de Ciências soviética, em qual cidade?",
+          "resposta": "Moscou"
+        },
+        {
+          "id": "q16160",
+          "pergunta": "O nome Tetris junta o prefixo grego tetra, das peças de quatro quadrados, com o nome de qual esporte favorito do seu criador?",
+          "resposta": "Tênis"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Segundo a Pokédex, qual destes pokémon grandalhões é o mais pesado?",
+        "resposta": "Snorlax"
+      },
+      "existentes": [
+        {
+          "id": "q18336",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Snorlax"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Entre os oito lutadores que podiam ser escolhidos no Street Fighter II original, de 1991, quem era a única mulher?",
+        "resposta": "Chun-Li"
+      },
+      "existentes": [
+        {
+          "id": "q14844",
+          "pergunta": "Quem é esta personagem?",
+          "resposta": "Chun-Li"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em Pokémon X e Y, além de Mewtwo, que outro pokémon de Kanto ganhou duas megaevoluções diferentes?",
+        "resposta": "Charizard"
+      },
+      "existentes": [
+        {
+          "id": "q01743",
+          "pergunta": "Que pokémon evolui diretamente para este?",
+          "resposta": "Charmeleon"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual destes pokémon de Kanto já tem dois tipos desde a sua primeira forma?",
+        "resposta": "Bulbasaur"
+      },
+      "existentes": [
+        {
+          "id": "q01746",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Bulbasaur"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em Minecraft, para montar o portal que leva ao Nether, o jogador empilha blocos de qual material?",
+        "resposta": "Obsidiana"
+      },
+      "existentes": [
+        {
+          "id": "q01333",
+          "pergunta": "Desde 2014, o que o Minecraft e o sistema Windows têm em comum?",
+          "resposta": "Pertencem à Microsoft"
+        },
+        {
+          "id": "q01334",
+          "pergunta": "Lançado em 2009, o Minecraft foi criado por qual programador sueco?",
+          "resposta": "Markus Persson, o Notch"
+        },
+        {
+          "id": "q16161",
+          "pergunta": "A Microsoft comprou a Mojang, o estúdio sueco criador de Minecraft, por cerca de dois bilhões e meio de dólares. Em que ano?",
+          "resposta": "2014"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que canção folclórica russa do século dezenove virou o tema musical mais famoso de Tetris, na versão do Game Boy?",
+        "resposta": "Korobeiniki"
+      },
+      "existentes": [
+        {
+          "id": "q01310",
+          "pergunta": "No Tetris, cada peça é formada por quatro quadradinhos. Quantos formatos diferentes de peça existem no jogo?",
+          "resposta": "Sete"
+        },
+        {
+          "id": "q07372",
+          "pergunta": "Em 1984, Alexey Pajitnov criou o Tetris num centro de computação da Academia de Ciências soviética, em qual cidade?",
+          "resposta": "Moscou"
+        },
+        {
+          "id": "q16160",
+          "pergunta": "O nome Tetris junta o prefixo grego tetra, das peças de quatro quadrados, com o nome de qual esporte favorito do seu criador?",
+          "resposta": "Tênis"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em Super Mario Bros., de 1985, que item deixa Mario piscando e invencível por alguns segundos?",
+        "resposta": "Estrela (Starman)"
+      },
+      "existentes": [
+        {
+          "id": "q01341",
+          "pergunta": "Quem compôs a famosa música tema de Super Mario Bros., um dos temas mais conhecidos dos videogames?",
+          "resposta": "Koji Kondo"
+        },
+        {
+          "id": "q01342",
+          "pergunta": "Super Mario Bros., clássico do Nintendinho, foi lançado no Japão em que ano?",
+          "resposta": "1985"
+        },
+        {
+          "id": "q16192",
+          "pergunta": "Em Super Mario Bros., de 1985, quantos mundos Mario atravessa até resgatar a princesa no castelo final?",
+          "resposta": "Oito"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No fliperama Donkey Kong, de 1981, o que o gorila arremessa rampa abaixo contra o herói?",
+        "resposta": "Barris"
+      },
+      "existentes": [
+        {
+          "id": "q01326",
+          "pergunta": "O fliperama Donkey Kong foi criado depois que a Nintendo não conseguiu a licença de qual personagem de desenho animado?",
+          "resposta": "Popeye"
+        },
+        {
+          "id": "q01327",
+          "pergunta": "No fliperama Donkey Kong, de 1981, qual era a profissão do personagem que depois ficou conhecido como Mario, antes de virar encanador?",
+          "resposta": "Carpinteiro"
+        },
+        {
+          "id": "q16177",
+          "pergunta": "Que jovem designer da Nintendo criou o fliperama Donkey Kong, de 1981, seu primeiro grande sucesso?",
+          "resposta": "Shigeru Miyamoto"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em Pac-Man, que item, perto dos cantos do labirinto, deixa os fantasmas azuis e vulneráveis por alguns segundos?",
+        "resposta": "Pastilha energética (power pellet)"
+      },
+      "existentes": [
+        {
+          "id": "q01317",
+          "pergunta": "No Japão, o jogo se chamava Puck-Man. Por que o nome mudou para Pac-Man ao chegar aos fliperamas americanos?",
+          "resposta": "Medo de vândalos trocarem o P por F"
+        },
+        {
+          "id": "q07379",
+          "pergunta": "Que designer japonês da Namco criou o Pac-Man, a bola amarela que come pastilhas num labirinto?",
+          "resposta": "Toru Iwatani"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Em Street Fighter II, os quatro chefes eram Balrog, Vega, M. Bison e qual lutador tailandês de tapa-olho?",
+        "resposta": "Sagat"
+      },
+      "existentes": [
+        {
+          "id": "q07414",
+          "pergunta": "No fliperama Street Fighter 2 original, de 1991, quantos lutadores o jogador podia escolher?",
+          "resposta": "Oito"
+        },
+        {
+          "id": "q16185",
+          "pergunta": "Os combos de Street Fighter II, em que golpes encadeados não deixam o adversário reagir, surgiram de que maneira?",
+          "resposta": "Falha descoberta por acaso"
+        },
+        {
+          "id": "q16186",
+          "pergunta": "Qual destes personagens estava entre os oito lutadores que podiam ser escolhidos no Street Fighter II original, de 1991?",
+          "resposta": "Dhalsim"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "No primeiro Mortal Kombat, de 1992, que chefe de quatro braços, meio humano e meio dragão, defendia o título de grande campeão?",
+        "resposta": "Goro"
+      },
+      "existentes": [
+        {
+          "id": "q01324",
+          "pergunta": "A polêmica sobre a violência de Mortal Kombat no Congresso americano levou à criação, em 1994, de qual órgão?",
+          "resposta": "ESRB, de classificação etária de jogos"
+        },
+        {
+          "id": "q16178",
+          "pergunta": "Mortal Kombat, de 1992, foi criado pelo artista John Tobias e por qual programador, que seguiu por décadas à frente da série?",
+          "resposta": "Ed Boon"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "No centro do controle do Nintendo 64, de três empunhaduras, havia um direcional essencial para Super Mario 64. De que tipo ele era?",
+        "resposta": "Analógico"
+      },
+      "existentes": [
+        {
+          "id": "q16162",
+          "pergunta": "O Nintendo 64, que estreou junto com Super Mario 64, chegou às lojas japonesas em que ano?",
+          "resposta": "1996"
+        },
+        {
+          "id": "q16163",
+          "pergunta": "Final Fantasy VII, que a Square planejava fazer para a Nintendo, acabou saindo no PlayStation. Que limitação do Nintendo 64 pesou nessa decisão?",
+          "resposta": "Cartuchos com pouco espaço"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Que acessório do Wii, ligado por fio ao controle principal e segurado na outra mão, trazia um direcional analógico?",
+        "resposta": "Nunchuk"
+      },
+      "existentes": [
+        {
+          "id": "q16183",
+          "pergunta": "Antes de ser batizado de Wii, o console da Nintendo de controles com sensor de movimento era conhecido por qual codinome?",
+          "resposta": "Revolution"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Segundo a Pokédex, em que parte do corpo Pikachu armazena a sua eletricidade?",
+        "resposta": "Nas bochechas"
+      },
+      "existentes": [
+        {
+          "id": "q01740",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Pikachu"
+        },
+        {
+          "id": "q02251",
+          "pergunta": "Em que pokémon este evolui?",
+          "resposta": "Raichu"
+        },
+        {
+          "id": "q07400",
+          "pergunta": "O nome Pikachu junta duas onomatopeias japonesas: pika, o estalo de uma faísca, e chu, que imita o som de qual animal?",
+          "resposta": "Rato"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em The Sims, como se chama o cristal verde que flutua sobre a cabeça do personagem controlado pelo jogador?",
+        "resposta": "Plumbob"
+      },
+      "existentes": [
+        {
+          "id": "q07384",
+          "pergunta": "Que designer americano, criador de SimCity, também idealizou o jogo The Sims, lançado em 2000?",
+          "resposta": "Will Wright"
+        },
+        {
+          "id": "q16191",
+          "pergunta": "Em The Sims, os personagens conversam numa língua inventada, sem palavras reconhecíveis. Como se chama essa língua?",
+          "resposta": "Simlish"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Que ave amarela, grande e veloz, aparece em quase todos os jogos da série Final Fantasy, muitas vezes como montaria?",
+        "resposta": "Chocobo"
+      },
+      "existentes": [
+        {
+          "id": "q07381",
+          "pergunta": "Que designer japonês da Square criou Final Fantasy, cujo primeiro jogo saiu em 1987?",
+          "resposta": "Hironobu Sakaguchi"
+        },
+        {
+          "id": "q07409",
+          "pergunta": "As séries rivais Final Fantasy e Dragon Quest passaram a pertencer à mesma empresa depois de uma fusão em 2003. Que empresa é essa?",
+          "resposta": "Square Enix"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Nos jogos de Sonic, enquanto o ouriço carrega ao menos um destes itens, sobrevive a um golpe. Que itens são esses?",
+        "resposta": "Anéis"
+      },
+      "existentes": [
+        {
+          "id": "q07391",
+          "pergunta": "O ouriço azul Sonic estreou em seu primeiro jogo, no Mega Drive, em que ano?",
+          "resposta": "1991"
+        },
+        {
+          "id": "q07403",
+          "pergunta": "Por que a Sega escolheu o azul como a cor do seu mascote, o ouriço Sonic?",
+          "resposta": "Para combinar com o logotipo da Sega"
+        },
+        {
+          "id": "q16151",
+          "pergunta": "No primeiro jogo de Sonic, de 1991, como se chama a primeira fase da aventura?",
+          "resposta": "Green Hill Zone"
+        },
+        {
+          "id": "q16152",
+          "pergunta": "Que artista da Sega desenhou o visual de Sonic, criado ao lado do programador Yuji Naka?",
+          "resposta": "Naoto Ohshima"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Na série Zelda, cada pedaço da Triforça representa uma virtude. Qual delas pertence à Princesa Zelda?",
+        "resposta": "Sabedoria"
+      },
+      "existentes": [
+        {
+          "id": "q01308",
+          "pergunta": "A princesa Zelda recebeu o nome em homenagem à esposa de qual escritor americano da Era do Jazz?",
+          "resposta": "F. Scott Fitzgerald"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Em Final Fantasy Sete, que espada gigantesca, quase do tamanho do dono, Cloud Strife carrega nas costas?",
+        "resposta": "Buster Sword (Espada Buster)"
+      },
+      "existentes": [
+        {
+          "id": "q14911",
+          "pergunta": "Quem é esse personagem?",
+          "resposta": "Cloud Strife"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Desde Kirby's Adventure, do Nintendinho, o que Kirby ganha ao engolir certos inimigos?",
+        "resposta": "Os poderes deles"
+      },
+      "existentes": [
+        {
+          "id": "q07385",
+          "pergunta": "Que designer japonês criou Kirby, a bolinha rosa da Nintendo, e depois a série de luta Super Smash Bros.?",
+          "resposta": "Masahiro Sakurai"
+        },
+        {
+          "id": "q07397",
+          "pergunta": "Kirby foi nomeado em parte em homenagem ao advogado John Kirby, que defendeu a Nintendo quando a Universal alegou que qual jogo infringia direitos de King Kong?",
+          "resposta": "Donkey Kong"
+        },
+        {
+          "id": "q16153",
+          "pergunta": "Kirby, o herói rosado da Nintendo, vive em Dream Land. Em que planeta fica essa terra?",
+          "resposta": "Pop Star"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "No primeiro Metroid, de 1986, o que o jogador descobria sobre Samus Aran ao terminar o jogo depressa?",
+        "resposta": "Que era uma mulher"
+      },
+      "existentes": [
+        {
+          "id": "q15598",
+          "pergunta": "Que série de jogos tem esta personagem como protagonista?",
+          "resposta": "Metroid"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Que ferramenta virou a arma-símbolo do cientista Gordon Freeman, da série Half-Life?",
+        "resposta": "Pé de cabra"
+      },
+      "existentes": [
+        {
+          "id": "q17524",
+          "pergunta": "Que empresa criou o jogo de estreia deste personagem?",
+          "resposta": "Valve"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Em Street Fighter, que golpe de Ryu dispara uma bola de energia lançada com as duas mãos?",
+        "resposta": "Hadouken"
+      },
+      "existentes": [
+        {
+          "id": "q15597",
+          "pergunta": "Que empresa criou a série de jogos de luta deste personagem?",
+          "resposta": "Capcom"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Nos jogos de plataforma Yoshi's Island, o que Yoshi produz depois de engolir um inimigo com sua língua comprida?",
+        "resposta": "Um ovo"
+      },
+      "existentes": [
+        {
+          "id": "q14841",
+          "pergunta": "Quem é esse personagem?",
+          "resposta": "Yoshi"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Em Minecraft, ao ser derrotado, o creeper deixa cair qual item, usado para fabricar a dinamite?",
+        "resposta": "Pólvora"
+      },
+      "existentes": [
+        {
+          "id": "q01323",
+          "pergunta": "O Creeper, monstro verde de Minecraft, nasceu de um erro de programação na criação de qual animal?",
+          "resposta": "Porco"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "No Japão, Pac-Man estreou com outro nome, trocado nos Estados Unidos por medo de vandalismo nas máquinas. Qual era?",
+        "resposta": "Puck-Man"
+      },
+      "existentes": [
+        {
+          "id": "q01317",
+          "pergunta": "No Japão, o jogo se chamava Puck-Man. Por que o nome mudou para Pac-Man ao chegar aos fliperamas americanos?",
+          "resposta": "Medo de vândalos trocarem o P por F"
+        },
+        {
+          "id": "q07379",
+          "pergunta": "Que designer japonês da Namco criou o Pac-Man, a bola amarela que come pastilhas num labirinto?",
+          "resposta": "Toru Iwatani"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "No controle do PlayStation, segundo seu designer, o botão quadrado lembra uma folha de papel. E o triângulo representa o quê?",
+        "resposta": "O ponto de vista"
+      },
+      "existentes": [
+        {
+          "id": "q01328",
+          "pergunta": "O PlayStation nasceu de um leitor de CD que a Sony desenvolvia em parceria com qual empresa, até o acordo ser desfeito?",
+          "resposta": "Nintendo"
+        },
+        {
+          "id": "q16176",
+          "pergunta": "Que engenheiro da Sony, chamado de pai do PlayStation, convenceu a empresa a entrar no mercado de videogames?",
+          "resposta": "Ken Kutaragi"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "O nome Xbox, do primeiro console da Microsoft, é a abreviação de qual expressão?",
+        "resposta": "DirectX Box"
+      },
+      "existentes": [
+        {
+          "id": "q07394",
+          "pergunta": "A Microsoft entrou no mercado de consoles com o primeiro Xbox, lançado nos Estados Unidos em que ano?",
+          "resposta": "2001"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Antes de ganhar o nome Crash, o marsupial laranja do primeiro PlayStation teve um nome provisório. Qual era?",
+        "resposta": "Willie the Wombat"
+      },
+      "existentes": [
+        {
+          "id": "q07386",
+          "pergunta": "Crash Bandicoot, estrela do primeiro PlayStation, foi criado pelo mesmo estúdio de The Last of Us. Que estúdio é esse?",
+          "resposta": "Naughty Dog"
+        },
+        {
+          "id": "q16158",
+          "pergunta": "Crash Bandicoot, o mascote laranja do primeiro PlayStation, vive num arquipélago fictício perto da costa de qual país?",
+          "resposta": "Austrália"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "A partir de Sonic 2, o que acontece quando Sonic reúne todas as Esmeraldas do Caos e junta cinquenta anéis?",
+        "resposta": "Vira Super Sonic"
+      },
+      "existentes": [
+        {
+          "id": "q07413",
+          "pergunta": "Nos jogos da Sega, quantas Esmeraldas do Caos Sonic precisa reunir para se transformar em Super Sonic?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Em Resident Evil 4, que missão leva o agente Leon Kennedy a um vilarejo rural da Espanha?",
+        "resposta": "Resgatar a filha do presidente"
+      },
+      "existentes": [
+        {
+          "id": "q07370",
+          "pergunta": "Em Resident Evil 4, de 2005, o agente Leon Kennedy tenta resgatar a filha do presidente americano numa região rural de qual país?",
+          "resposta": "Espanha"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Em Angry Birds, por que os pássaros se lançam com tanta raiva contra os porcos verdes?",
+        "resposta": "Os porcos roubaram seus ovos"
+      },
+      "existentes": [
+        {
+          "id": "q16169",
+          "pergunta": "Angry Birds, o jogo de celular em que pássaros são lançados com um estilingue contra porcos verdes, foi lançado em que ano?",
+          "resposta": "2009"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "O assistente virtual da Microsoft herdou o nome da inteligência artificial que acompanha Master Chief em Halo. Que nome é esse?",
+        "resposta": "Cortana"
+      },
+      "existentes": [
+        {
+          "id": "q14910",
+          "pergunta": "Que estúdio criou este personagem, que estreou em 2001?",
+          "resposta": "Bungie"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Que portátil da Nintendo vinha com Tetris na caixa nos Estados Unidos e na Europa, ajudando a tornar o jogo um fenômeno?",
+        "resposta": "Game Boy"
+      },
+      "existentes": [
+        {
+          "id": "q01310",
+          "pergunta": "No Tetris, cada peça é formada por quatro quadradinhos. Quantos formatos diferentes de peça existem no jogo?",
+          "resposta": "Sete"
+        },
+        {
+          "id": "q07372",
+          "pergunta": "Em 1984, Alexey Pajitnov criou o Tetris num centro de computação da Academia de Ciências soviética, em qual cidade?",
+          "resposta": "Moscou"
+        },
+        {
+          "id": "q16160",
+          "pergunta": "O nome Tetris junta o prefixo grego tetra, das peças de quatro quadrados, com o nome de qual esporte favorito do seu criador?",
+          "resposta": "Tênis"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Ryu e Ken, os amigos rivais de Street Fighter, aprenderam a lutar com o mesmo mestre. Quem é ele?",
+        "resposta": "Gouken"
+      },
+      "existentes": [
+        {
+          "id": "q17522",
+          "pergunta": "Quem é esse personagem?",
+          "resposta": "Ken Masters"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Em Doom, de 1993, o fuzileiro começa a luta contra os demônios numa base instalada em qual lua de Marte?",
+        "resposta": "Fobos"
+      },
+      "existentes": [
+        {
+          "id": "q07382",
+          "pergunta": "Doom, de 1993, marco dos jogos de tiro em primeira pessoa, foi criado por qual estúdio do Texas?",
+          "resposta": "id Software"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "No Brasil, que empresa representava a Sega e fabricava o Mega Drive?",
+        "resposta": "Tectoy"
+      },
+      "existentes": [
+        {
+          "id": "q07389",
+          "pergunta": "O Mega Drive, console de dezesseis bits da Sega, chegou às lojas japonesas em que ano?",
+          "resposta": "1988"
+        },
+        {
+          "id": "q07398",
+          "pergunta": "Por causa de uma disputa de marca, o Mega Drive da Sega foi vendido nos Estados Unidos com qual nome?",
+          "resposta": "Genesis"
+        },
+        {
+          "id": "q16150",
+          "pergunta": "Fora do Japão, em que país o Mega Drive fez tanto sucesso que seguiu sendo fabricado e vendido, em novas versões, até o século vinte e um?",
+          "resposta": "Brasil"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "O joystick clássico do Atari 2600, com sua alavanca preta, tinha quantos botões de ação?",
+        "resposta": "Um"
+      },
+      "existentes": [
+        {
+          "id": "q07390",
+          "pergunta": "O Atari 2600, console de cartuchos que levou os videogames para dentro de casa, foi lançado nos Estados Unidos em que ano?",
+          "resposta": "1977"
+        },
+        {
+          "id": "q16182",
+          "pergunta": "Quando chegou às lojas americanas, em 1977, o console que ficou famoso como Atari 2600 tinha outro nome. Qual era?",
+          "resposta": "Video Computer System"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "No começo do anime Pokémon, quantos anos Ash tem quando sai de casa para a sua primeira jornada?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q01316",
+          "pergunta": "No Japão, o protagonista do anime Pokémon, Ash Ketchum, tem o mesmo prenome do criador da franquia. Que nome é esse?",
+          "resposta": "Satoshi"
+        },
+        {
+          "id": "q15021",
+          "pergunta": "Que pokémon é o companheiro principal deste treinador?",
+          "resposta": "Pikachu"
+        },
+        {
+          "id": "q19144",
+          "pergunta": "No primeiro episódio do anime Pokémon, Ash sai de sua cidade natal para virar treinador com quantos anos de idade?",
+          "resposta": "Dez anos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Peça I vs número de formatos; diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Peso vs identificação."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Megaevolução vs pré-evolução."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tipos vs identificação."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Sagat como chefe, diferente de Dhalsim como lutador."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Espada vs identificação."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 29,
+      "decisao": "repete",
+      "id_existente": "q01317",
+      "motivo": "Mesmo fato: Puck-Man virou Pac-Man; a resposta está no enunciado da existente."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 34,
+      "decisao": "repete",
+      "id_existente": "q07370",
+      "motivo": "Mesma missão de resgatar a filha do presidente na Espanha."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Tectoy vs Brasil como país; fato diferente."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Fato diferente."
+    },
+    {
+      "caso": 42,
+      "decisao": "repete",
+      "id_existente": "q19144",
+      "motivo": "Mesma idade de Ash no começo."
+    }
+  ]
+}
