@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Portal monolítico com a figura central, bem nítido e único.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este portal monolítico de pedra fica perto de que grande lago sul-americano?",
+      "resposta": "Lago Titicaca",
+      "distratores": [
+        "Lago Poopó",
+        "Lago Maracaibo",
+        "Lago Nahuel Huapi"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Portal do Sol (Tiwanaku)",
+        "descricao": "Portal monolítico de pedra esculpida da cultura Tiwanaku, em Tiahuanaco, na Bolívia.",
+        "variantes": [
+          "Porta do Sol",
+          "Gate of the Sun",
+          "Portada del Sol"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Escadaria com cabeças de serpente esculpidas, característica do templo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que divindade mesoamericana é representada nas esculturas deste templo?",
+      "resposta": "Quetzalcóatl, a serpente emplumada",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo da Serpente Emplumada (Teotihuacan)",
+        "descricao": "Pirâmide de Teotihuacan, no México, decorada com cabeças de serpente emplumada.",
+        "variantes": [
+          "Templo de Quetzalcóatl",
+          "Temple of the Feathered Serpent"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Símbolo nítido, sem texto, resposta única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama este símbolo do Egito antigo?",
+      "resposta": "Ankh",
+      "distratores": [
+        "Olho de Hórus",
+        "Pilar djed",
+        "Cetro uas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ankh",
+        "descricao": "Símbolo hieroglífico egípcio em forma de cruz com laço, que representa a vida.",
+        "variantes": [
+          "Cruz ansata",
+          "Chave da vida"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pilone monumental e bem conservado, imagem clara.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este templo?",
+      "resposta": "Egito",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Edfu",
+        "descricao": "Templo ptolomaico dedicado a Hórus, na margem oeste do Nilo, no Egito.",
+        "variantes": [
+          "Templo de Hórus em Edfu",
+          "Temple of Edfu"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Peça inteira e reconhecível; cabeças de visitantes no canto são incidentais.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que povo esculpiu esta pedra?",
+      "resposta": "Astecas (mexicas)",
+      "distratores": [
+        "Maias",
+        "Incas",
+        "Olmecas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pedra do Sol (Calendário Asteca)",
+        "descricao": "Grande escultura circular mexica em basalto, guardada no Museu Nacional de Antropologia do México.",
+        "variantes": [
+          "Calendário Asteca",
+          "Piedra del Sol",
+          "Aztec sun stone"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Colunas dóricas genéricas em ruína; não identificáveis como Delos, parecidas com muitos sítios gregos."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Objeto isolado em fundo claro, único e nítido.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país foi encontrada esta peça da Idade do Bronze?",
+      "resposta": "Dinamarca",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Carruagem Solar de Trundholm",
+        "descricao": "Escultura nórdica da Idade do Bronze com cavalo e disco dourado sobre rodas, achada na Dinamarca.",
+        "variantes": [
+          "Carro solar de Trundholm",
+          "Trundholm sun chariot",
+          "Solvognen"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada inconfundível; pessoas pequenas e incidentais.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que bairro de Paris fica esta basílica?",
+      "resposta": "Montmartre",
+      "distratores": [
+        "Marais",
+        "Montparnasse",
+        "Belleville"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Basílica de Sacré-Cœur",
+        "descricao": "Basílica católica branca no alto da colina de Montmartre, em Paris, dedicada ao Sagrado Coração de Jesus.",
+        "variantes": [
+          "Sacré-Cœur",
+          "Basílica do Sagrado Coração de Montmartre"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pirâmide de degraus em Teotihuacan, forma distinta da Pirâmide do Sol; visitantes pequenos e incidentais.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pirâmide de Teotihuacan é esta?",
+      "resposta": "Pirâmide da Lua",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pirâmide da Lua",
+        "descricao": "Segunda maior pirâmide de Teotihuacan, no México, no fim da Avenida dos Mortos.",
+        "variantes": [
+          "Pyramid of the Moon"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pavilhão japonês genérico, difícil de distinguir de outros santuários xintoístas, e com várias pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada e cúpula inconfundíveis; inscrição pequena não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que artista renascentista projetou a cúpula desta basílica?",
+      "resposta": "Michelangelo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Basílica de São Pedro",
+        "descricao": "Basílica renascentista na Cidade do Vaticano, a maior igreja do mundo católico.",
+        "variantes": [
+          "St. Peter's Basilica",
+          "Basílica de São Pedro no Vaticano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista aérea de ruínas sem elementos que permitam reconhecer Dendera; resposta não é única nem justa."
+    }
+  ]
+}

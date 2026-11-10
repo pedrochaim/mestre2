@@ -1,0 +1,174 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este portal monolítico de pedra fica perto de que grande lago sul-americano?",
+        "resposta": "Lago Titicaca"
+      },
+      "existentes": [
+        {
+          "id": "q03478",
+          "pergunta": "Em que país fica este sítio arqueológico?",
+          "resposta": "Bolívia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Como se chama este símbolo do Egito antigo?",
+        "resposta": "Ankh"
+      },
+      "existentes": [
+        {
+          "id": "q06381",
+          "pergunta": "O ankh, a cruz com uma alça no alto que os deuses seguram nas pinturas egípcias, era o hieróglifo de qual palavra?",
+          "resposta": "Vida"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país fica este templo?",
+        "resposta": "Egito"
+      },
+      "existentes": [
+        {
+          "id": "q06357",
+          "pergunta": "O templo de Hórus em Edfu, um dos mais bem conservados do Egito, foi construído na época de qual dinastia?",
+          "resposta": "Dinastia ptolemaica"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que povo esculpiu esta pedra?",
+        "resposta": "Astecas (mexicas)"
+      },
+      "existentes": [
+        {
+          "id": "q03620",
+          "pergunta": "Que escultura asteca é esta?",
+          "resposta": "Pedra do Sol"
+        },
+        {
+          "id": "q08585",
+          "pergunta": "Enterrada depois da conquista espanhola, a Pedra do Sol asteca foi reencontrada na praça central da Cidade do México em que século?",
+          "resposta": "Século dezoito (em 1790)"
+        },
+        {
+          "id": "q17356",
+          "pergunta": "Em que cidade fica esta escultura circular de pedra, hoje exposta num museu?",
+          "resposta": "Cidade do México"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que país foi encontrada esta peça da Idade do Bronze?",
+        "resposta": "Dinamarca"
+      },
+      "existentes": [
+        {
+          "id": "q13995",
+          "pergunta": "Em que período da pré-história foi feito este objeto de metal, encontrado na Dinamarca?",
+          "resposta": "Idade do Bronze"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que bairro de Paris fica esta basílica?",
+        "resposta": "Montmartre"
+      },
+      "existentes": [
+        {
+          "id": "q05426",
+          "pergunta": "Com suas cúpulas brancas, a Basílica de Sacré-Cœur domina a paisagem de Paris do alto de qual colina?",
+          "resposta": "Montmartre"
+        },
+        {
+          "id": "q08475",
+          "pergunta": "Por que a Basílica de Sacré-Cœur, em Paris, continua branca mesmo com a poluição e o passar dos anos? Que substância a pedra libera?",
+          "resposta": "Calcita"
+        },
+        {
+          "id": "q08576",
+          "pergunta": "Que arquiteto projetou esta basílica?",
+          "resposta": "Paul Abadie"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que artista renascentista projetou a cúpula desta basílica?",
+        "resposta": "Michelangelo"
+      },
+      "existentes": [
+        {
+          "id": "q03969",
+          "pergunta": "Já com mais de setenta anos, que artista renascentista foi nomeado arquiteto da Basílica de São Pedro e projetou sua enorme cúpula?",
+          "resposta": "Michelangelo"
+        },
+        {
+          "id": "q07512",
+          "pergunta": "Sob a cúpula da Basílica de São Pedro, que grande estrutura de bronze com colunas torcidas, obra de Bernini, cobre o altar-mor?",
+          "resposta": "Baldaquino"
+        },
+        {
+          "id": "q07969",
+          "pergunta": "Que basílica é esta?",
+          "resposta": "Basílica de São Pedro"
+        },
+        {
+          "id": "q18961",
+          "pergunta": "No início do século dezesseis, a venda de indulgências para pagar a construção da nova Basílica de São Pedro provocou o protesto de que religioso?",
+          "resposta": "Martinho Lutero"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Lago próximo é um fato diferente do país onde fica o sítio."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "A existente já nomeia o ankh no enunciado; identificar o símbolo é o mesmo fato (nome do símbolo), e a resposta está contida nela."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "País do templo é fato distinto da dinastia de construção."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "A existente q03620 pergunta qual escultura asteca é esta; quem soubesse que é a Pedra do Sol saberia que foi esculpida pelos astecas, e o enunciado já informa isso."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "A existente já informa a Dinamarca no enunciado; a nova pergunta o país onde foi encontrada, que a existente revela. Mesmo fato de origem."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Bairro/colina Montmartre é a mesma resposta e o mesmo fato da q05426."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Michelangelo projetou a cúpula, mesmo fato da q03969."
+    }
+  ]
+}
