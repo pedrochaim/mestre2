@@ -400401,5 +400401,140 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q20167",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "juan_martin_del_potro",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é este tenista?",
+    "resposta": "Argentina",
+    "distratores": [
+      "Chile",
+      "Espanha",
+      "Croácia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Juan_Mart%C3%ADn_del_Potro",
+      "https://pt.wikipedia.org/wiki/Juan_Mart%C3%ADn_del_Potro"
+    ],
+    "imagem": {
+      "arquivo": "q20167.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Del_Potro_en_Indian_Wells_2018.jpg",
+      "autor": "Jay Calderón",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20168",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "juan_carlos_ferrero",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este tenista espanhol foi treinador de qual compatriota, campeão de Grand Slam?",
+    "resposta": "Carlos Alcaraz",
+    "distratores": [
+      "Rafael Nadal",
+      "Carlos Moyà",
+      "David Ferrer"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Juan_Carlos_Ferrero",
+      "https://pt.wikipedia.org/wiki/Juan_Carlos_Ferrero"
+    ],
+    "imagem": {
+      "arquivo": "q20168.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ferrero_June_2011_3.jpg",
+      "autor": "Sergio Ruiz",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q20169",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "helen_wills",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país era esta tenista, que dominou as quadras nos anos vinte e trinta?",
+    "resposta": "Estados Unidos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Helen_Wills",
+      "https://pt.wikipedia.org/wiki/Helen_Wills_Moody"
+    ],
+    "imagem": {
+      "arquivo": "q20169.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Helen_Wills_Moody_1932.jpg",
+      "autor": "Agence de presse Meurisse",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20170",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "garbine_muguruza",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que país nasceu esta tenista, que defende a Espanha?",
+    "resposta": "Venezuela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Garbi%C3%B1e_Muguruza",
+      "https://pt.wikipedia.org/wiki/Garbi%C3%B1e_Muguruza"
+    ],
+    "imagem": {
+      "arquivo": "q20170.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Garbiñe_Muguruza_-_240422_182724-2_(cropped).jpg",
+      "autor": "Barcex",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20171",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "lindsay_davenport",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é esta tenista americana?",
+    "resposta": "Lindsay Davenport",
+    "distratores": [
+      "Jennifer Capriati",
+      "Venus Williams",
+      "Mary Joe Fernandez"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lindsay_Davenport",
+      "https://pt.wikipedia.org/wiki/Lindsay_Davenport"
+    ],
+    "imagem": {
+      "arquivo": "q20171.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Davenport_Lindsay.jpg",
+      "autor": "Donna &amp; Keith",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q20172",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "andrey_rublev",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é este tenista?",
+    "resposta": "Rússia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Andrey_Rublev",
+      "https://pt.wikipedia.org/wiki/Andrey_Rublev_%28tenista%29"
+    ],
+    "imagem": {
+      "arquivo": "q20172.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Andrey_Rublev_(2023_US_Open)_12.jpg",
+      "autor": "Hameltion",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é este tenista?",
+        "resposta": "Argentina"
+      },
+      "existentes": [
+        {
+          "id": "q17386",
+          "pergunta": "Que tenista argentino é este?",
+          "resposta": "Juan Martín del Potro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer a nacionalidade do tenista; a existente quer o nome dele, e o enunciado dela já informa que é argentino. São fatos diferentes. Na dúvida, nova."
+    }
+  ]
+}
