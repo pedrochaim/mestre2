@@ -1,0 +1,43 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; a figura é a pergunta. Guindaste confirmado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento; distratores do mesmo tipo (aparelhos de tempo/som), curtos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta exige 'a querosene', o que a imagem não distingue de um lampião a óleo. Aceitar 'Lampião' com a observação entre parênteses evita injustiça.",
+      "reescrita": {
+        "pergunta": "Que objeto de iluminação é este?",
+        "resposta": "Lampião (a querosene)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só aponta para a figura; Little Boy é a bomba de Hiroshima, de formato distinto do Fat Man. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de categoria genérica ('aparelho de escritório') não entrega a resposta; impressora confirmada nos trechos.",
+      "reescrita": null
+    }
+  ]
+}

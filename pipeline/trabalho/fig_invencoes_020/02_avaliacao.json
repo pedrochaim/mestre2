@@ -1,0 +1,139 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Guindaste de torre nítido; a marca discreta não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que máquina é esta?",
+      "resposta": "Guindaste",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Guindaste",
+        "descricao": "Máquina que levanta e desloca cargas pesadas com lança, cabos e polias.",
+        "variantes": [
+          "Grua"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O console mostra o texto 'Nintendo Entertainment System' e 'Nintendo', que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O aparelho mostra 'amazonkindle' e o texto do livro, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É uma foto antiga de um moitão com gancho, com anotações manuscritas. Não deixa claro que é uma polia e pode ser confundido com um gancho de guindaste."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O fliperama mostra o texto 'OLYMPICS' e 'Gottlieb', além de objetos ao fundo. O texto entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Despertador clássico de dois sinos, nítido e sem texto. Mudei de 'quando' para 'o que é' porque a época só renderia pergunta de ano ou pergunta ambígua.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho é este?",
+      "resposta": "Despertador",
+      "distratores": [
+        "Metrônomo",
+        "Cronômetro",
+        "Relógio de cuco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Despertador",
+        "descricao": "Relógio com um mecanismo que toca num horário programado para acordar alguém.",
+        "variantes": [
+          "Relógio despertador"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Lampião de querosene vermelho nítido e sem texto. A autoria do lampião é ambígua (Gesner, Łukasiewicz), então usei 'o que é'.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto de iluminação é este?",
+      "resposta": "Lampião a querosene",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lampião a querosene",
+        "descricao": "Aparelho de iluminação que queima querosene num pavio protegido por um globo de vidro.",
+        "variantes": [
+          "Lâmpada de querosene",
+          "Lanterna a querosene"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É um desenho esquemático, com a medida '14 cm' escrita. Mostra três peças soltas que não identificam a entidade, e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mostra várias tesouras de tipos diferentes, e não uma entidade específica. A autoria da tesoura é difusa e não há resposta única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida da bomba de forma alongada, que só pode ser a Little Boy. Os números 431 não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que bomba atômica é esta?",
+      "resposta": "Little Boy",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Little Boy",
+        "descricao": "Bomba atômica de urânio, do tipo canhão, lançada sobre Hiroshima em 1945.",
+        "variantes": [
+          "Menino"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A gravura traz as legendas 'Élément Daniell', 'Cu', 'Zn' e 'Vase poreux'. O texto entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Impressora a jato de tinta nítida. A marca 'Canon S520' não entrega a resposta, que é a categoria do aparelho.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho de escritório é este?",
+      "resposta": "Impressora",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Impressora",
+        "descricao": "Aparelho que imprime texto ou imagens, em geral em papel.",
+        "variantes": [
+          "Impressora a jato de tinta"
+        ]
+      }
+    }
+  ]
+}

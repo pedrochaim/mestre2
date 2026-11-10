@@ -393998,5 +393998,70 @@
       "licenca": "CC BY-SA 2.5"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q19860",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "guindaste",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que máquina é esta?",
+    "resposta": "Guindaste",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crane_%28machine%29",
+      "https://pt.wikipedia.org/wiki/Guindaste"
+    ],
+    "imagem": {
+      "arquivo": "q19860.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Turmdrehkran-liebherr.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19861",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "despertador",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho é este?",
+    "resposta": "Despertador",
+    "distratores": [
+      "Metrônomo",
+      "Cronômetro",
+      "Relógio de cuco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alarm_clock",
+      "https://pt.wikipedia.org/wiki/Despertador"
+    ],
+    "imagem": {
+      "arquivo": "q19861.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2010-07-20_Black_windup_alarm_clock_face.jpg",
+      "autor": "Sun Ladder",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19862",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "impressora",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que aparelho de escritório é este?",
+    "resposta": "Impressora",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Printer_%28computing%29",
+      "https://pt.wikipedia.org/wiki/Impressora"
+    ],
+    "imagem": {
+      "arquivo": "q19862.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Canon_S520_ink_jet_printer.jpg",
+      "autor": "André Karwath aka Aka",
+      "licenca": "CC BY-SA 2.5"
+    }
   }
 ]

@@ -1,0 +1,317 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Guindaste",
+        "descricao": "Máquina que levanta e desloca cargas pesadas com lança, cabos e polias.",
+        "variantes": [
+          "Grua"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gru",
+          "nome": "Gru",
+          "descricao": "Ex-supervilão de careca e cachecol listrado, protagonista da franquia Meu Malvado Favorito.",
+          "variantes": [
+            "Felonius Gru",
+            "Felonious Gru"
+          ]
+        },
+        {
+          "id": "grauna",
+          "nome": "Graúna",
+          "descricao": "Personagem do cartunista Henfil, uma ave nordestina que vive na caatinga com Zeferino e o bode Orelana",
+          "variantes": []
+        },
+        {
+          "id": "grusha",
+          "nome": "Grusha",
+          "descricao": "Líder do ginásio de tipo Gelo de Paldea, ex-atleta de snowboard, nos jogos Pokémon Scarlet e Violet.",
+          "variantes": []
+        },
+        {
+          "id": "garuda",
+          "nome": "Garuda",
+          "descricao": "Criatura alada da mitologia hindu, rei das aves e montaria do deus Vishnu.",
+          "variantes": []
+        },
+        {
+          "id": "grauna_2",
+          "nome": "Graúna",
+          "descricao": "Ave de plumagem preta brilhante e bico cinza (Gnorimopsar chopi), do centro-sul da América do Sul.",
+          "variantes": [
+            "Sargento-chopi",
+            "Chopi blackbird",
+            "Gnorimopsar chopi",
+            "Pássaro-preto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Despertador",
+        "descricao": "Relógio com um mecanismo que toca num horário programado para acordar alguém.",
+        "variantes": [
+          "Relógio despertador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "despertador",
+          "nome": "Despertador",
+          "descricao": "Relógio que emite um som num horário programado para acordar quem dorme.",
+          "variantes": [
+            "Relógio despertador",
+            "Alarm clock"
+          ]
+        },
+        {
+          "id": "deserto",
+          "nome": "Deserto",
+          "descricao": "Tipo de região, quente ou fria, onde a precipitação é muito baixa",
+          "variantes": []
+        },
+        {
+          "id": "relogio_de_pendulo",
+          "nome": "Relógio de pêndulo",
+          "descricao": "Relógio que usa as oscilações regulares de um pêndulo para marcar o tempo, criado em 1656.",
+          "variantes": [
+            "Pendulum clock"
+          ]
+        },
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "relogio_de_xadrez",
+          "nome": "Relógio de xadrez",
+          "descricao": "Aparelho com dois relógios e botões alternados que controla o tempo de cada jogador em partidas.",
+          "variantes": [
+            "Relógio de jogo",
+            "Chess clock"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lampião a querosene",
+        "descricao": "Aparelho de iluminação que queima querosene num pavio protegido por um globo de vidro.",
+        "variantes": [
+          "Lâmpada de querosene",
+          "Lanterna a querosene"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lampiao_a_querosene",
+          "nome": "Lampião a querosene",
+          "descricao": "Lâmpada com pavio e chaminé de vidro que queima querosene para iluminar sem eletricidade.",
+          "variantes": [
+            "Lamparina a querosene",
+            "Lanterna a querosene",
+            "Lampião"
+          ]
+        },
+        {
+          "id": "lanterna_verde",
+          "nome": "Lanterna Verde",
+          "descricao": "Super-herói da DC Comics que usa um anel de poder; na versão clássica, o piloto Hal Jordan",
+          "variantes": [
+            "Green Lantern",
+            "Hal Jordan"
+          ]
+        },
+        {
+          "id": "luz_de_dendera",
+          "nome": "Luz de Dendera",
+          "descricao": "Relevo da cripta do templo de Hator em Dendera que mostra Harsomtus, em forma de serpente, saindo de uma flor de lótus.",
+          "variantes": [
+            "Lâmpada de Dendera",
+            "Dendera light"
+          ]
+        },
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente",
+            "Lâmpada elétrica",
+            "Incandescent light bulb"
+          ]
+        },
+        {
+          "id": "piramide_de_quefren",
+          "nome": "Pirâmide de Quéfren",
+          "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Khafre",
+            "Pyramid of Khafre",
+            "Pirâmide de Chefren"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Little Boy",
+        "descricao": "Bomba atômica de urânio, do tipo canhão, lançada sobre Hiroshima em 1945.",
+        "variantes": [
+          "Menino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "little_boy",
+          "nome": "Little Boy",
+          "descricao": "Bomba atômica de fissão tipo canhão lançada sobre Hiroshima em 6 de agosto de 1945.",
+          "variantes": [
+            "Little Boy (bomba de Hiroshima)",
+            "L-11"
+          ]
+        },
+        {
+          "id": "grogu",
+          "nome": "Grogu",
+          "descricao": "Pequeno foundling sensível à Força, da mesma espécie de Yoda, protegido de Din Djarin em The Mandalorian.",
+          "variantes": [
+            "O Menino",
+            "The Child",
+            "Baby Yoda",
+            "Din Grogu"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "agojie",
+          "nome": "Agojie",
+          "descricao": "Regimento militar de elite do Reino do Daomé, na atual Benim, ativo do século dezessete ao dezenove.",
+          "variantes": [
+            "Amazonas do Daomé",
+            "Dahomey Amazons",
+            "Mino"
+          ]
+        },
+        {
+          "id": "mocho_galego",
+          "nome": "Mocho-galego",
+          "descricao": "Pequena coruja (Athene noctua) da Europa, Ásia e norte da África, ligada à deusa Atena.",
+          "variantes": [
+            "Little owl",
+            "Athene noctua",
+            "Coruja-pequena"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Impressora",
+        "descricao": "Aparelho que imprime texto ou imagens, em geral em papel.",
+        "variantes": [
+          "Impressora a jato de tinta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estampagem",
+          "nome": "Estampagem",
+          "descricao": "Forma de aprendizado em que filhotes, logo após nascer, se ligam ao primeiro ser que veem e passam a segui-lo.",
+          "variantes": [
+            "Imprinting",
+            "Impressão"
+          ]
+        },
+        {
+          "id": "processo_urca",
+          "nome": "Processo Urca",
+          "descricao": "Processo de emissão de neutrinos que faz estrelas perderem energia, descrito por George Gamow e Mário Schenberg em 1940.",
+          "variantes": [
+            "Urca process"
+          ]
+        },
+        {
+          "id": "professor_carvalho",
+          "nome": "Professor Carvalho",
+          "descricao": "Pesquisador pokémon de Kanto, que entrega o primeiro pokémon ao jogador nos jogos Red e Blue e a Ash no anime.",
+          "variantes": [
+            "Professor Oak",
+            "Samuel Oak",
+            "Samuel Carvalho",
+            "Yukinari Okido"
+          ]
+        },
+        {
+          "id": "alain_prost",
+          "nome": "Alain Prost",
+          "descricao": "Ex-piloto francês de Fórmula 1, tetracampeão mundial.",
+          "variantes": [
+            "Alain Marie Pascal Prost",
+            "O Professor"
+          ]
+        },
+        {
+          "id": "cafe_expresso",
+          "nome": "Café expresso",
+          "descricao": "Café concentrado preparado forçando água quente sob alta pressão através do pó fino, de origem italiana.",
+          "variantes": [
+            "Espresso",
+            "Expresso"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Guindaste (máquina) não corresponde a nenhuma candidata; Gru é personagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "despertador",
+      "motivo": "Mesmo objeto: relógio que toca em horário programado; variantes coincidem."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "lampiao_a_querosene",
+      "motivo": "Mesmo aparelho de iluminação a querosene com pavio e vidro."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "little_boy",
+      "motivo": "Mesma bomba atômica lançada sobre Hiroshima em 1945."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Impressora (aparelho) não corresponde a nenhuma candidata."
+    }
+  ]
+}

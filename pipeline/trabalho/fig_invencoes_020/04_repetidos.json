@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que aparelho é este?",
+        "resposta": "Despertador"
+      },
+      "existentes": [
+        {
+          "id": "q04521",
+          "pergunta": "O despertador mecânico criado em 1787 pelo americano Levi Hutchins só conseguia tocar num horário, o que ele precisava para acordar. Qual era?",
+          "resposta": "Quatro da manhã"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que objeto de iluminação é este?",
+        "resposta": "Lampião (a querosene)"
+      },
+      "existentes": [
+        {
+          "id": "q09677",
+          "pergunta": "Que objeto antigo de iluminação é este?",
+          "resposta": "Lampião a querosene"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que bomba atômica é esta?",
+        "resposta": "Little Boy"
+      },
+      "existentes": [
+        {
+          "id": "q04283",
+          "pergunta": "Esta bomba atômica foi lançada em 1945 sobre qual cidade japonesa?",
+          "resposta": "Hiroshima"
+        },
+        {
+          "id": "q05797",
+          "pergunta": "Que apelido em inglês recebeu a bomba atômica lançada sobre Hiroshima?",
+          "resposta": "Little Boy"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do aparelho (despertador); a existente pergunta o horário do despertador de Hutchins. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo objeto por imagem, com a mesma resposta: lampião a querosene."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "A existente q05797 tem a mesma resposta, Little Boy, para a bomba lançada sobre Hiroshima. Quem soubesse uma saberia a outra."
+    }
+  ]
+}
