@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado verdadeiro (lago no deserto do Colorado, Califórnia) e sem vazamento; distratores são lagos americanos críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que a geleira fica nas encostas do maciço do Monte Branco; enunciado não vaza e os distratores são montanhas alpinas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta falha: 'formação com palmeiras e água junto às dunas' define o oásis. Além disso, 'Miragem' não é formação e o distrator é fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores Salto Ángel e Tugela não são peruanos e ficam eliminados pelo enunciado. A pista 'dois saltos' ajuda a responder sem a imagem. Reescrita com distratores peruanos e pista mais leve.",
+      "reescrita": {
+        "pergunta": "Que cachoeira da Amazônia peruana é esta?",
+        "resposta": "Gocta",
+        "distratores": [
+          "Yumbilla",
+          "Ahuashiyacu",
+          "Sipia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lago de Constança fica ao pé dos Alpes, no Reno; enunciado sem vazamento e distratores são grandes lagos alpinos erradas para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fiorde definido nos trechos; pergunta de nível 1 sem vazamento; distratores do mesmo tipo (formas costeiras) e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que o Haleakalā forma mais de 75% de Maui; enunciado preciso, sem vazamento, distratores são ilhas havaianas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho descreve Skellig Michael como rochedo de dois picos na Irlanda; pista ajuda sem entregar; distratores são ilhas irlandesas críveis.",
+      "reescrita": null
+    }
+  ]
+}

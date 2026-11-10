@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Água turva borbulhando com vapor, genérica: pode ser fonte termal, poço de lama ou gêiser; não permite reconhecer um lugar nem dá resposta única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com o lago escuro cercado de lavouras em quadrados, reconhecível pela forma.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que lago de um deserto americano é este, visto de satélite?",
+      "resposta": "Mar de Salton",
+      "distratores": [
+        "Lago Mono",
+        "Grande Lago Salgado",
+        "Lago Tahoe"
+      ],
+      "ancora": {
+        "nome": "Mar de Salton",
+        "descricao": "Lago salgado e raso no sul da Califórnia, nos condados de Riverside e Imperial, sobre a Falha de San Andreas.",
+        "variantes": [
+          "Salton Sea",
+          "Lago Salton"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Geleira de vale com morainas e paredões alpinos, reconhecível para quem conhece os Alpes; a pergunta é sobre o maciço.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta geleira alpina desce pelas encostas de que montanha?",
+      "resposta": "Monte Branco",
+      "distratores": [
+        "Matterhorn",
+        "Monte Rosa",
+        "Eiger"
+      ],
+      "ancora": {
+        "nome": "Mer de Glace",
+        "descricao": "Geleira de vale na vertente norte do maciço do Monte Branco, nos Alpes franceses, perto de Chamonix.",
+        "variantes": [
+          "Mar de Gelo",
+          "Mer de Glace"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Palmeiras e água diante de dunas, imagem clara de um oásis; legível no celular.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que formação é esta, com palmeiras e água junto às dunas?",
+      "resposta": "Oásis",
+      "distratores": [
+        "Uádi",
+        "Salar",
+        "Miragem"
+      ],
+      "ancora": {
+        "nome": "Oásis",
+        "descricao": "Área fértil dentro de um deserto, onde há água que sustenta vegetação e vida animal.",
+        "variantes": [
+          "Oasis"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Turistas de colete e capacete num barco ocupam o primeiro plano; são pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cachoeira de dois saltos em penhasco verde, característica e reconhecível para quem conhece as grandes quedas do mundo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cachoeira peruana de dois saltos é esta?",
+      "resposta": "Gocta",
+      "distratores": [
+        "Yumbilla",
+        "Salto Ángel",
+        "Tugela"
+      ],
+      "ancora": {
+        "nome": "Cataratas de Gocta",
+        "descricao": "Cachoeira de dois saltos na província de Bongará, na Amazonas peruana, revelada ao mundo em 2002.",
+        "variantes": [
+          "Gocta",
+          "Catarata del Gocta",
+          "Gocta Falls"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Paredão de gelo junto ao mar, sem referência: poderia ser geleira, iceberg ou plataforma de gelo; sem resposta única nem lugar reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com o formato característico do lago, com o braço do Untersee; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que grande lago alpino é este, visto de satélite?",
+      "resposta": "Lago de Constança",
+      "distratores": [
+        "Lago de Genebra",
+        "Lago Maggiore",
+        "Lago de Garda"
+      ],
+      "ancora": {
+        "nome": "Lago Constança",
+        "descricao": "Lago do norte dos Alpes, no Reno, entre Alemanha, Suíça e Áustria.",
+        "variantes": [
+          "Lago de Constança",
+          "Bodensee",
+          "Lake Constance"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Close de um pico nevado sem contexto; não é reconhecível e poderia ser qualquer montanha andina ou alpina."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vale glacial estreito inundado, com paredões íngremes e reflexo; paisagem típica de fiorde.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de acidente geográfico costeiro é este?",
+      "resposta": "Fiorde",
+      "distratores": [
+        "Ria",
+        "Estuário",
+        "Baía"
+      ],
+      "ancora": {
+        "nome": "Fiorde",
+        "descricao": "Braço de mar longo e estreito, de paredes íngremes, num vale escavado por uma antiga geleira e depois inundado.",
+        "variantes": [
+          "Fjord",
+          "Fiord"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cratera com cones vulcânicos coloridos e nuvens, característica do vulcão; reconhecível para quem conhece o Havaí.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este vulcão havaiano forma mais de três quartos de qual ilha?",
+      "resposta": "Maui",
+      "distratores": [
+        "Oahu",
+        "Kauai",
+        "Havaí (Ilha Grande)"
+      ],
+      "ancora": {
+        "nome": "Haleakalā",
+        "descricao": "Vulcão em escudo ativo que forma a maior parte da ilha de Maui, no Havaí, com uma enorme cratera no cume.",
+        "variantes": [
+          "Haleakala",
+          "Vulcão de Maui Leste"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ilhota rochosa de dois picos, silhueta característica, sem texto ou pessoas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ilha rochosa irlandesa de dois picos é esta?",
+      "resposta": "Skellig Michael",
+      "distratores": [
+        "Ilha de Achill",
+        "Grande Blasket",
+        "Ilha de Rathlin"
+      ],
+      "ancora": {
+        "nome": "Skellig Michael",
+        "descricao": "Ilhota rochosa de dois picos a oeste da península de Iveragh, no condado de Kerry, Irlanda, com um antigo mosteiro.",
+        "variantes": [
+          "Great Skellig",
+          "Sceilig Mhór",
+          "Sceilig Mhichíl"
+        ]
+      }
+    }
+  ]
+}

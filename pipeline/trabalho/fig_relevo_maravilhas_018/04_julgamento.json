@@ -1,0 +1,446 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mar de Salton",
+        "descricao": "Lago salgado e raso no sul da Califórnia, nos condados de Riverside e Imperial, sobre a Falha de San Andreas.",
+        "variantes": [
+          "Salton Sea",
+          "Lago Salton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_balaton",
+          "nome": "Lago Balaton",
+          "descricao": "Grande lago de água doce no oeste da Hungria, o maior da Europa Central.",
+          "variantes": [
+            "Balaton",
+            "Lake Balaton"
+          ]
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "lago_natron",
+          "nome": "Lago Natron",
+          "descricao": "Lago salgado e muito alcalino no norte da Tanzânia, local de reprodução de flamingos-pequenos.",
+          "variantes": [
+            "Lake Natron"
+          ]
+        },
+        {
+          "id": "base_jump",
+          "nome": "BASE jump",
+          "descricao": "Esporte radical de saltar de estruturas fixas, como penhascos, usando um paraquedas para descer.",
+          "variantes": [
+            "Base jumping",
+            "Salto BASE"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mer de Glace",
+        "descricao": "Geleira de vale na vertente norte do maciço do Monte Branco, nos Alpes franceses, perto de Chamonix.",
+        "variantes": [
+          "Mar de Gelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_mar_de_gelo",
+          "nome": "O Mar de Gelo",
+          "descricao": "Pintura a óleo de Caspar David Friedrich de 1823-1824 que mostra um navio naufragado entre blocos de gelo no Ártico.",
+          "variantes": [
+            "Das Eismeer",
+            "The Sea of Ice",
+            "O Naufrágio da Esperança",
+            "O Mar Glacial"
+          ]
+        },
+        {
+          "id": "pilar_de_luz",
+          "nome": "Pilar de luz",
+          "descricao": "Fenômeno óptico em que um feixe vertical de luz parece se estender de uma fonte luminosa, por reflexão em cristais de gelo.",
+          "variantes": [
+            "Pilar de gelo",
+            "Light pillar"
+          ]
+        },
+        {
+          "id": "homem_mascarado_pokemon_adventures",
+          "nome": "Homem Mascarado (Pokémon Adventures)",
+          "descricao": "Vilão mascarado do arco de Gold, Silver e Crystal do mangá Pokémon Adventures, que sequestra crianças e rouba pokémon em Johto.",
+          "variantes": [
+            "Masked Man",
+            "Mascarado de Gelo",
+            "Kamen no Otoko"
+          ]
+        },
+        {
+          "id": "homem_de_gelo",
+          "nome": "Homem de Gelo",
+          "descricao": "Bobby Drake, mutante da Marvel que controla o gelo, um dos cinco X-Men originais",
+          "variantes": [
+            "Iceman",
+            "Bobby Drake"
+          ]
+        },
+        {
+          "id": "mar_egeu",
+          "nome": "Mar Egeu",
+          "descricao": "Mar do Mediterrâneo entre a Grécia e a Turquia, com centenas de ilhas.",
+          "variantes": [
+            "Egeu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cataratas de Gocta",
+        "descricao": "Cachoeira de dois saltos na província de Bongará, na Amazonas peruana, revelada ao mundo em 2002.",
+        "variantes": [
+          "Gocta",
+          "Catarata del Gocta",
+          "Gocta Falls"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gota",
+          "nome": "Gota",
+          "descricao": "Doença inflamatória das articulações causada por depósitos de cristais, conhecida como doença dos reis.",
+          "variantes": [
+            "Artrite gotosa"
+          ]
+        },
+        {
+          "id": "cataratas_ban_gioc",
+          "nome": "Cataratas Ban Gioc",
+          "descricao": "Conjunto de duas cachoeiras no rio Quây Sơn, na fronteira entre o Vietnã e a China.",
+          "variantes": [
+            "Ban Gioc–Detian",
+            "Cataratas Detian",
+            "Bản Giốc"
+          ]
+        },
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls",
+            "Foz do Iguaçu"
+          ]
+        },
+        {
+          "id": "cachoeira_de_yosemite",
+          "nome": "Cachoeira de Yosemite",
+          "descricao": "Cachoeira mais alta do Parque Nacional de Yosemite, na Califórnia, nos Estados Unidos.",
+          "variantes": [
+            "Yosemite Falls",
+            "Cataratas de Yosemite"
+          ]
+        },
+        {
+          "id": "grand_theft_auto",
+          "nome": "Grand Theft Auto",
+          "descricao": "Série de jogos de mundo aberto da Rockstar Games, iniciada em 1997.",
+          "variantes": [
+            "GTA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lago Constança",
+        "descricao": "Lago do norte dos Alpes, no Reno, entre Alemanha, Suíça e Áustria.",
+        "variantes": [
+          "Lago de Constança",
+          "Bodensee",
+          "Lake Constance"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        },
+        {
+          "id": "arco_de_constantino",
+          "nome": "Arco de Constantino",
+          "descricao": "Arco do triunfo de Roma, entre o Coliseu e o monte Palatino, dedicado em 315.",
+          "variantes": [
+            "Arco di Costantino"
+          ]
+        },
+        {
+          "id": "lago_tanganica",
+          "nome": "Lago Tanganica",
+          "descricao": "Grande lago de água doce do Vale do Rift africano, dividido entre Tanzânia, República Democrática do Congo, Burundi e Zâmbia.",
+          "variantes": [
+            "Lake Tanganyika",
+            "Tanganyika"
+          ]
+        },
+        {
+          "id": "laguna",
+          "nome": "Laguna",
+          "descricao": "Corpo de água rasa separado de um corpo maior, como o mar, por uma faixa estreita de terra.",
+          "variantes": [
+            "Lagoon",
+            "Lagoa costeira"
+          ]
+        },
+        {
+          "id": "lago_annecy",
+          "nome": "Lago Annecy",
+          "descricao": "Lago perialpino na Alta Saboia, França, que dá nome à cidade de Annecy.",
+          "variantes": [
+            "Lago de Annecy",
+            "Lac d'Annecy",
+            "Lake Annecy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fiorde",
+        "descricao": "Braço de mar longo e estreito, de paredes íngremes, num vale escavado por uma antiga geleira e depois inundado.",
+        "variantes": [
+          "Fjord",
+          "Fiord"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fiorde",
+          "nome": "Fiorde",
+          "descricao": "Conceito geográfico: braço de mar longo, estreito e profundo entre encostas íngremes, comum na Noruega.",
+          "variantes": [
+            "Fjord"
+          ]
+        },
+        {
+          "id": "henry_ford",
+          "nome": "Henry Ford",
+          "descricao": "Industrial americano, fundador da Ford Motor Company e pioneiro da produção em massa de automóveis.",
+          "variantes": [
+            "Ford"
+          ]
+        },
+        {
+          "id": "moltres",
+          "nome": "Moltres",
+          "descricao": "Pokémon lendário ave de fogo da primeira geração, número 146 da Pokédex Nacional.",
+          "variantes": [
+            "Fire",
+            "Moltres de Galar"
+          ]
+        },
+        {
+          "id": "rio_jordao",
+          "nome": "Rio Jordão",
+          "descricao": "Rio do Oriente Médio que corre do mar da Galileia até o Mar Morto.",
+          "variantes": [
+            "Jordão",
+            "Jordan River"
+          ]
+        },
+        {
+          "id": "iftar",
+          "nome": "Iftar",
+          "descricao": "Refeição que quebra o jejum diário do Ramadã, ao pôr do sol.",
+          "variantes": [
+            "Fitoor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Haleakalā",
+        "descricao": "Vulcão em escudo ativo que forma a maior parte da ilha de Maui, no Havaí, com uma enorme cratera no cume.",
+        "variantes": [
+          "Vulcão de Maui Leste"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "akala",
+          "nome": "Akala",
+          "descricao": "Segunda ilha da região de Alola, nos jogos Pokémon Sun e Moon, comandada pela kahuna Olivia.",
+          "variantes": [
+            "Ilha Akala",
+            "Akala Island"
+          ]
+        },
+        {
+          "id": "alakazam",
+          "nome": "Alakazam",
+          "descricao": "Pokémon do tipo Psíquico, número 65 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "vulcao_de_lama",
+          "nome": "Vulcão de lama",
+          "descricao": "Forma de relevo criada pela erupção de lama, água e gases, sem lava.",
+          "variantes": [
+            "Domo de lama",
+            "Mud volcano"
+          ]
+        },
+        {
+          "id": "calcanhar_de_aquiles",
+          "nome": "Calcanhar de Aquiles",
+          "descricao": "Expressão para o ponto fraco de alguém ou de algo",
+          "variantes": []
+        },
+        {
+          "id": "tendao_de_aquiles",
+          "nome": "Tendão de Aquiles",
+          "descricao": "Tendão que liga os músculos da panturrilha ao osso do calcanhar.",
+          "variantes": [
+            "Tendão calcâneo",
+            "Achilles tendon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Skellig Michael",
+        "descricao": "Ilhota rochosa de dois picos a oeste da península de Iveragh, no condado de Kerry, Irlanda, com um antigo mosteiro.",
+        "variantes": [
+          "Great Skellig",
+          "Sceilig Mhór",
+          "Sceilig Mhichíl"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth",
+            "Great Bell"
+          ]
+        },
+        {
+          "id": "grande_nevoeiro_de_londres",
+          "nome": "Grande Nevoeiro de Londres",
+          "descricao": "Episódio de poluição atmosférica que cobriu Londres em dezembro de 1952 e causou milhares de mortes.",
+          "variantes": [
+            "Great Smog of London",
+            "Grande Smog de 1952",
+            "Grande Nevoeiro de 1952",
+            "Great Smog"
+          ]
+        },
+        {
+          "id": "great_tusk",
+          "nome": "Great Tusk",
+          "descricao": "Pokémon dos tipos Terrestre e Lutador, número 984 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "elmo_de_cavaleiro_great_helm",
+          "nome": "Elmo de cavaleiro (great helm)",
+          "descricao": "Elmo cilíndrico fechado usado por cavaleiros europeus entre os séculos doze e quatorze.",
+          "variantes": [
+            "Great helm",
+            "Heaume",
+            "Elmo de pote"
+          ]
+        },
+        {
+          "id": "bem_te_vi",
+          "nome": "Bem-te-vi",
+          "descricao": "Ave tiranídea de peito amarelo e faixa branca na cabeça, comum no Brasil, cujo canto lembra uma frase.",
+          "variantes": [
+            "Pitangus sulphuratus",
+            "Great kiskadee"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o lago Salton Sea da Califórnia."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Geleira alpina diferente da pintura 'O Mar de Gelo'."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cachoeira peruana não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Lago Constança não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "fiorde",
+      "motivo": "Mesmo conceito geográfico de fiorde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Vulcão havaiano sem correspondente nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ilhota irlandesa sem correspondente nas candidatas."
+    }
+  ]
+}

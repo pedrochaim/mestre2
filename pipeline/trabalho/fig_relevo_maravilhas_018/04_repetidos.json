@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de acidente geográfico costeiro é este?",
+        "resposta": "Fiorde"
+      },
+      "existentes": [
+        {
+          "id": "q13243",
+          "pergunta": "Os fiordes da Noruega são vales profundos invadidos pelo mar. O que escavou esses vales?",
+          "resposta": "Geleiras"
+        },
+        {
+          "id": "q14236",
+          "pergunta": "Que tipo de relevo costeiro é este?",
+          "resposta": "Fiorde"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14236",
+      "motivo": "Mesma pergunta (identificar o relevo costeiro como fiorde, provavelmente a partir da mesma imagem), com enunciado quase idêntico e a mesma resposta."
+    }
+  ]
+}
