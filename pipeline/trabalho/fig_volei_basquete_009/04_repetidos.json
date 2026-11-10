@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este treinador brasileiro de vôlei?",
+        "resposta": "José Roberto Guimarães (Zé Roberto)"
+      },
+      "existentes": [
+        {
+          "id": "q17496",
+          "pergunta": "Em que cidade este técnico brasileiro conquistou o primeiro ouro olímpico da carreira?",
+          "resposta": "Barcelona"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade do treinador; a existente pede a cidade do primeiro ouro olímpico (Barcelona). Fatos diferentes, e saber uma não leva a saber a outra."
+    }
+  ]
+}

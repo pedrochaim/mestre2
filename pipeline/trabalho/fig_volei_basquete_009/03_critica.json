@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (um ano em Memphis, primeira escolha de 2008). O enunciado não nomeia ninguém e só a figura identifica o jogador. Distratores plausíveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Em Oklahoma' vaza a resposta, Oklahoma City Thunder. 'Primeiro título de sua história' é impreciso, porque a franquia já foi campeã como Seattle SuperSonics. Qualquer fato de título ou time identifica o jogador sem a figura, e uma pergunta sobre o time atual não é atemporal.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os três Jogos Olímpicos citados (Barcelona, Pequim e Londres) identificam o técnico sem olhar a figura. Reescrita sem essa pista.",
+      "reescrita": {
+        "pergunta": "Quem é este treinador brasileiro de vôlei?",
+        "resposta": "José Roberto Guimarães (Zé Roberto)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Quem foi a primeira escolha da draft de 2004 é um fato que identifica o jogador, e o time da resposta sai direto. Reescrita com o apelido 'Superman', amplamente documentado e confirmado no trecho em inglês. O enunciado não nomeia o jogador e só a figura permite responder.",
+      "reescrita": {
+        "pergunta": "Que apelido este pivô americano recebeu por causa da sua força atlética?",
+        "resposta": "Superman",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'29 temporadas' e 'cinco títulos' identificam o técnico sem a figura. Reescrita sem as pistas, com distratores mantidos.",
+      "reescrita": {
+        "pergunta": "Que equipe da NBA este técnico americano dirigiu?",
+        "resposta": "San Antonio Spurs",
+        "distratores": [
+          "Utah Jazz",
+          "Chicago Bulls",
+          "Boston Celtics"
+        ]
+      }
+    }
+  ]
+}

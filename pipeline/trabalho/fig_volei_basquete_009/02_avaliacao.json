@@ -1,0 +1,141 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de Derrick Rose com a bola; a camisa mostra o time, não o nome. Pergunta sobre a universidade, que só se alcança depois de reconhecê-lo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Por qual universidade este jogador atuou um ano antes de ser escolhido em primeiro na draft da NBA?",
+      "resposta": "Universidade de Memphis",
+      "distratores": [
+        "Universidade de Kentucky",
+        "Universidade de Duke",
+        "Universidade de Kansas"
+      ],
+      "ancora": {
+        "nome": "Derrick Rose",
+        "descricao": "Armador americano de basquete, MVP da NBA em 2011 pelo Chicago Bulls.",
+        "variantes": [
+          "D-Rose"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Shai Gilgeous-Alexander. Não há nome na imagem; a camisa é dos Clippers, não do time da resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que time este armador canadense levou ao primeiro título da NBA de sua história em Oklahoma?",
+      "resposta": "Oklahoma City Thunder",
+      "ancora": {
+        "nome": "Shai Gilgeous-Alexander",
+        "descricao": "Armador canadense de basquete, bicampeão de MVP da NBA e campeão pelo Oklahoma City Thunder.",
+        "variantes": [
+          "SGA"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Close de rosto com boné de patrocinador; a jogadora não é reconhecível pela imagem e não há resposta única diante dela."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de Zé Roberto à beira da quadra, com agasalho da seleção brasileira. Sem nome visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é este técnico brasileiro de vôlei, campeão olímpico em Barcelona, Pequim e Londres?",
+      "resposta": "José Roberto Guimarães (Zé Roberto)",
+      "ancora": {
+        "nome": "José Roberto Guimarães",
+        "descricao": "Técnico brasileiro de vôlei, campeão olímpico com as seleções masculina e feminina.",
+        "variantes": [
+          "Zé Roberto",
+          "Zé Roberto Guimarães"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Vista aérea mostra três arenas coladas (Carioca 1, 2 e 3); não fica claro qual é a Arena Carioca 1, então a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Dwight Howard; a camiseta é dos Lakers, sem nome nem número.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Por qual time este pivô foi escolhido em primeiro lugar na draft de 2004?",
+      "resposta": "Orlando Magic",
+      "ancora": {
+        "nome": "Dwight Howard",
+        "descricao": "Pivô americano de basquete, três vezes melhor defensor da NBA, escolhido em primeiro na draft de 2004.",
+        "variantes": [
+          "Superman"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Jogadora sentada na arquibancada, em foto casual; não é reconhecível pela imagem e há um escudo de clube ao fundo."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Jogadora com a camisa da seleção, sem nenhum traço que a distinga de outras atletas do time; não é reconhecível, e o número 4 não é decisivo."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano numa vila e a tabela de basquete mal aparece; a imagem não mostra com clareza o basquete de rua."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto pequena e de baixa resolução, em ação, de uma levantadora; ela não é reconhecível e a resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto de Popovich ao microfone, com figuras públicas ao fundo; sem nome visível (só o brasão da presidência cortado).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que equipe da NBA este técnico dirigiu por quase três décadas, conquistando cinco títulos?",
+      "resposta": "San Antonio Spurs",
+      "distratores": [
+        "Utah Jazz",
+        "Chicago Bulls",
+        "Boston Celtics"
+      ],
+      "ancora": {
+        "nome": "Gregg Popovich",
+        "descricao": "Técnico americano de basquete, por 29 temporadas no comando do San Antonio Spurs.",
+        "variantes": [
+          "Coach Pop",
+          "Pop"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Jogador sem traços que o distingam, apenas com a camisa da seleção; não é reconhecível, e as passagens por times da NBA não dão resposta única."
+    }
+  ]
+}
