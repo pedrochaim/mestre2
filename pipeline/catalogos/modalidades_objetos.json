@@ -1923,7 +1923,7 @@
       "titulo": "pt:Biribol",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Corrida de orientação",
@@ -2259,7 +2259,7 @@
       "titulo": "en:Formula One",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Goleiro",
@@ -2357,7 +2357,7 @@
       "titulo": "en:Speed bag",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Manopla de foco",
@@ -2420,7 +2420,7 @@
       "titulo": "en:Flex-Foot Cheetah",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Adidas Teamgeist",
@@ -2526,6 +2526,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Patinação no gelo",
+      "titulo": "en:Ice skating",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Óculos de natação",
+      "titulo": "en:Goggles",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Capacete de motociclismo",
+      "titulo": "en:Motorcycle helmet",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Paraquedas",
+      "titulo": "en:Parachute",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Trenó",
+      "titulo": "en:Sled",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Patinete",
+      "titulo": "en:Kick scooter",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Piscina olímpica",
+      "titulo": "en:Olympic-size swimming pool",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pista de skate",
+      "titulo": "en:Skatepark",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Campo de futebol",
+      "titulo": "en:Football pitch",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Quadra de basquete",
+      "titulo": "en:Basketball court",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Campo de golfe",
+      "titulo": "en:Golf course",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Futebol de rua",
+      "titulo": "en:Street football",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Placar",
+      "titulo": "en:Scoreboard",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Arco recurvo",
+      "titulo": "en:Recurve bow",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Remo (pá)",
+      "titulo": "en:Oar",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sela",
+      "titulo": "en:Saddle",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Mosquetão",
+      "titulo": "en:Carabiner",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ciclismo de pista",
+      "titulo": "en:Track cycling",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corrida em trilha",
+      "titulo": "en:Trail running",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ultramaratona",
+      "titulo": "en:Ultramarathon",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Salto de penhasco",
+      "titulo": "en:Cliff diving",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caça submarina",
+      "titulo": "en:Spearfishing",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Futebol freestyle",
+      "titulo": "en:Freestyle football",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Impedimento",
+      "titulo": "en:Offside (association football)",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Grappling",
+      "titulo": "en:Grappling",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Deixadinha (drop shot)",
+      "titulo": "en:Drop shot",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Teqball",
+      "titulo": "en:Teqball",
+      "camada": 3,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Kin-Ball",
+      "titulo": "en:Kin-Ball",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tchoukball",
+      "titulo": "en:Tchoukball",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Canoa polo",
+      "titulo": "en:Canoe polo",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Yabusame",
+      "titulo": "en:Yabusame",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bokator",
+      "titulo": "en:Bokator",
+      "camada": 3,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Wakizashi",
+      "titulo": "en:Wakizashi",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Máscara de goleiro de hóquei",
+      "titulo": "en:Goaltender mask",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Piolet",
+      "titulo": "en:Ice axe",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esgrima em cadeira de rodas",
+      "titulo": "en:Wheelchair fencing",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Volteio equestre",
+      "titulo": "en:Equestrian vaulting",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Hóquei sobre patins",
+      "titulo": "en:Roller hockey (quad)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Grey Cup",
+      "titulo": "en:Grey Cup",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Platform tennis",
+      "titulo": "en:Platform tennis",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
     }
   ]
 }

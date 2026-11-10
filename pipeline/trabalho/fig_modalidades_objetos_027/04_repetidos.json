@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Trenó"
+      },
+      "existentes": [
+        {
+          "id": "q15581",
+          "pergunta": "Que veículo é este?",
+          "resposta": "Trenó"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que categoria do automobilismo é esta?",
+        "resposta": "Fórmula 1"
+      },
+      "existentes": [
+        {
+          "id": "q01565",
+          "pergunta": "No nome Fórmula 1, a palavra fórmula indica o quê?",
+          "resposta": "O conjunto de regras dos carros"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a imagem como trenó; mesma resposta e mesmo fato.",
+      "id_existente": "q15581"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a categoria (Fórmula 1); a existente pergunta o significado da palavra fórmula. Fatos diferentes."
+    }
+  ]
+}

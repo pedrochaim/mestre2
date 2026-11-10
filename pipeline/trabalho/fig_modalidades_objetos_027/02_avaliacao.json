@@ -1,0 +1,188 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Rosto de um jóquei desconhecido em primeiro plano (pessoa comum); os óculos são só parte da cena e a imagem é de equipamento de hipismo."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto histórica de um homem numa canoa com uma vara longa; não dá para reconhecer caça submarina (parece navegação com vara), e há uma pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mesa curva de teqball bem reconhecível, atletas em competição oficial; o texto visível (Hungary) não entrega a resposta.",
+      "pergunta": "Este esporte combina elementos do futebol com qual outro esporte?",
+      "tipo": "multipla",
+      "resposta": "Tênis de mesa",
+      "distratores": [
+        "Vôlei",
+        "Handebol",
+        "Badminton"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 3,
+      "ancora": {
+        "nome": "Teqball",
+        "descricao": "Esporte de bola jogado numa mesa curva com rede, que combina futebol e tênis de mesa, sem usar braços e mãos.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Trenó de madeira e metal, nítido, sem texto e com resposta única.",
+      "pergunta": "Que objeto é este?",
+      "tipo": "aberta",
+      "resposta": "Trenó",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Trenó",
+        "descricao": "Veículo com lâminas que desliza sobre gelo ou neve, usado para transporte ou recreação e competição.",
+        "variantes": [
+          "Sled",
+          "Sleigh"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Próteses de lâmina de fibra de carbono bem visíveis, sem rosto nem texto.",
+      "pergunta": "De que material leve são feitas estas próteses de corrida?",
+      "tipo": "multipla",
+      "resposta": "Fibra de carbono",
+      "distratores": [
+        "Titânio",
+        "Alumínio",
+        "Aço inoxidável"
+      ],
+      "familia": "que_tipo",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Prótese de corrida Flex-Foot Cheetah",
+        "descricao": "Prótese de lâmina em fibra de carbono usada por atletas amputados na corrida, criada por Van Phillips.",
+        "variantes": [
+          "Flex-Foot Cheetah",
+          "Cheetah blade"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Há texto visível que entrega a resposta (banner 'International Tchoukball Federation' e 'tchoukball promotion' no rebatedor)."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Placar eletrônico claro; o texto (nome de clube sueco) não entrega a resposta.",
+      "pergunta": "Que equipamento esportivo é este?",
+      "tipo": "aberta",
+      "resposta": "Placar eletrônico",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Placar",
+        "descricao": "Painel que exibe publicamente a pontuação, o tempo e outras estatísticas de uma partida esportiva.",
+        "variantes": [
+          "Placar eletrônico",
+          "Scoreboard"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Sela de hipismo sobre o cavalo, nítida e reconhecível; sem texto.",
+      "pergunta": "Que equipamento é este?",
+      "tipo": "aberta",
+      "resposta": "Sela",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Sela",
+        "descricao": "Estrutura de apoio para o cavaleiro, presa ao dorso do cavalo ou de outro animal de montaria.",
+        "variantes": [
+          "Sela de hipismo",
+          "Saddle"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Partida de vôlei de piscina com rede, reconhecível; o texto visível não cita o esporte nem a cidade.",
+      "pergunta": "Em que cidade paulista nasceu este esporte, na década de 1960?",
+      "tipo": "multipla",
+      "resposta": "Birigui",
+      "distratores": [
+        "Araçatuba",
+        "Bauru",
+        "Marília"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Biribol",
+        "descricao": "Esporte aquático semelhante ao voleibol, jogado em piscina rasa, criado em Birigui (SP) por Dario Miguel Pedro.",
+        "variantes": [
+          "Vôlei de piscina",
+          "Voleibol de piscina"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Capacete integral isolado em fundo branco, nítido; a marca visível não entrega a resposta.",
+      "pergunta": "Que equipamento de segurança é este?",
+      "tipo": "aberta",
+      "resposta": "Capacete de motociclismo",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Capacete de motociclismo",
+        "descricao": "Capacete de proteção usado por motociclistas, com casco rígido e forro que absorve impactos.",
+        "variantes": [
+          "Capacete de moto",
+          "Capacete integral"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Muhammad Ali domina a imagem e o saco é um saco pesado (não de velocidade), com 'Everlast' legível; a âncora não corresponde e a resposta fica ambígua."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Largada com carros de rodas expostas no circuito de Spielberg; logotipos de patrocinadores não entregam a categoria.",
+      "pergunta": "Que categoria do automobilismo é esta?",
+      "tipo": "aberta",
+      "resposta": "Fórmula 1",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Fórmula 1",
+        "descricao": "Principal categoria mundial do automobilismo, de monopostos de rodas expostas, organizada pela FIA.",
+        "variantes": [
+          "F1",
+          "Formula One"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o teqball combina futebol e tênis de mesa. O enunciado não nomeia o esporte e, sem a figura, há outros híbridos de futebol (como o futevôlei), então a imagem é necessária. Os distratores são plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, nível 1. Não há vazamento, a resposta é específica e os trechos descrevem o trenó.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, \"De que material leve são feitas próteses de corrida?\" se responde sem a figura. \"Próteses de corrida\" já descreve o que a imagem mostra e \"leve\" é pista extra, então a figura virou enfeite. O fato (fibra de carbono) está no trecho. Reescrevi sem a pista, de modo que só a figura define de qual prótese se fala.",
+      "reescrita": {
+        "pergunta": "De que material é feita esta prótese usada por atletas amputados?",
+        "resposta": "Fibra de carbono",
+        "distratores": [
+          "Titânio",
+          "Alumínio",
+          "Aço inoxidável"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, nível 1. O enunciado não vaza a resposta e os trechos sustentam o conceito de placar eletrônico.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de uma sela. O enunciado não vaza a resposta e os trechos sustentam a definição.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o biribol surgiu em Birigui (SP) na década de 1960 (1968). O enunciado não nomeia o esporte e a pista \"cidade paulista, década de 1960\" não entrega a resposta. Os distratores são cidades paulistas do interior, plausíveis e incorretas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, nível 1. \"Equipamento de segurança\" é uma pista genérica que não entrega a resposta, e os trechos sustentam o fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de categoria, nível 1. O enunciado não vaza a resposta e os trechos confirmam a Fórmula 1 como a principal categoria do automobilismo.",
+      "reescrita": null
+    }
+  ]
+}

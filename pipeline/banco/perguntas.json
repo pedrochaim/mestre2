@@ -401260,5 +401260,159 @@
       "autor": "Halley Pacheco de Oliveira",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q20203",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "teqball",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este esporte combina elementos do futebol com qual outro esporte?",
+    "resposta": "Tênis de mesa",
+    "distratores": [
+      "Vôlei",
+      "Handebol",
+      "Badminton"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Teqball",
+      "https://pt.wikipedia.org/wiki/Teqball"
+    ],
+    "imagem": {
+      "arquivo": "q20203.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Natalia_Guitler_en_Teqball.jpg",
+      "autor": "WynWork",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20204",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "protese_de_corrida_flex_foot_cheetah",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "De que material é feita esta prótese usada por atletas amputados?",
+    "resposta": "Fibra de carbono",
+    "distratores": [
+      "Titânio",
+      "Alumínio",
+      "Aço inoxidável"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flex-Foot_Cheetah"
+    ],
+    "imagem": {
+      "arquivo": "q20204.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oscar_Pistorius_at_International_Paralympic_Day,_Trafalgar_Square,_London_-_20110908.jpg",
+      "autor": "Nick Webb.",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q20205",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "placar",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que equipamento esportivo é este?",
+    "resposta": "Placar eletrônico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scoreboard",
+      "https://pt.wikipedia.org/wiki/Placar_eletr%C3%B4nico"
+    ],
+    "imagem": {
+      "arquivo": "q20205.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Södertälje-fotbollsarena-anzeigetafel-2006.jpg",
+      "autor": "BikeMike",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q20206",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "sela",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que equipamento é este?",
+    "resposta": "Sela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saddle",
+      "https://pt.wikipedia.org/wiki/Sela"
+    ],
+    "imagem": {
+      "arquivo": "q20206.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:English_saddle.jpg",
+      "autor": "Alex brollo",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20207",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "biribol",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade paulista nasceu este esporte, na década de 1960?",
+    "resposta": "Birigui",
+    "distratores": [
+      "Araçatuba",
+      "Bauru",
+      "Marília"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Biribol",
+      "https://en.wikipedia.org/wiki/Biribol"
+    ],
+    "imagem": {
+      "arquivo": "q20207.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Biriball.jpg",
+      "autor": "MaDDoX.br (talk · contribs)",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q20208",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "capacete_de_motociclismo",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que equipamento de segurança é este?",
+    "resposta": "Capacete de motociclismo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Motorcycle_helmet",
+      "https://pt.wikipedia.org/wiki/Capacete_motocicl%C3%ADstico"
+    ],
+    "imagem": {
+      "arquivo": "q20208.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Full-Face_Helmet_9274.jpg",
+      "autor": "Ashley Pomeroy",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20209",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "formula_1",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que categoria do automobilismo é esta?",
+    "resposta": "Fórmula 1",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Formula_One",
+      "https://pt.wikipedia.org/wiki/F%C3%B3rmula_1"
+    ],
+    "imagem": {
+      "arquivo": "q20209.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2018_Austrian_Grand_Prix_turn_1_(43147259711).jpg",
+      "autor": "https://www.flickr.com/photos/pedrik",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

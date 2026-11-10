@@ -1,0 +1,471 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Teqball",
+        "descricao": "Esporte de bola jogado numa mesa curva com rede, que combina futebol e tênis de mesa, sem usar braços e mãos.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bola_de_tenis",
+          "nome": "Bola de tênis",
+          "descricao": "Bola de borracha pressurizada e revestida de feltro usada no tênis.",
+          "variantes": [
+            "Tennis ball"
+          ]
+        },
+        {
+          "id": "tefal",
+          "nome": "Tefal",
+          "descricao": "Marca francesa de panelas e utensílios de cozinha, pioneira nas frigideiras antiaderentes.",
+          "variantes": [
+            "T-fal"
+          ]
+        },
+        {
+          "id": "bola_de_beisebol",
+          "nome": "Bola de beisebol",
+          "descricao": "Bola branca de couro com costura vermelha usada no esporte beisebol.",
+          "variantes": [
+            "Baseball"
+          ]
+        },
+        {
+          "id": "biblos",
+          "nome": "Biblos",
+          "descricao": "Antiga cidade fenícia no litoral do atual Líbano, importante centro do comércio de papiro",
+          "variantes": [
+            "Byblos",
+            "Jbeil",
+            "Gebal"
+          ]
+        },
+        {
+          "id": "master_ball",
+          "nome": "Master Ball",
+          "descricao": "Poké Bola roxa marcada com a letra M, a mais poderosa dos jogos Pokémon, fabricada pela Silph.",
+          "variantes": [
+            "Bola Mestra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Trenó",
+        "descricao": "Veículo com lâminas que desliza sobre gelo ou neve, usado para transporte ou recreação e competição.",
+        "variantes": [
+          "Sled",
+          "Sleigh"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luge",
+          "nome": "Luge",
+          "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+          "variantes": [
+            "Luge de pista natural",
+            "Trenó"
+          ]
+        },
+        {
+          "id": "treno",
+          "nome": "Trenó",
+          "descricao": "Veículo que desliza sobre gelo ou neve por meio de lâminas, puxado ou usado em descidas.",
+          "variantes": [
+            "Tobogã",
+            "Sled"
+          ]
+        },
+        {
+          "id": "led",
+          "nome": "LED",
+          "descricao": "Diodo emissor de luz, componente semicondutor que emite luz quando percorrido por corrente elétrica.",
+          "variantes": [
+            "Diodo emissor de luz",
+            "Light-emitting diode"
+          ]
+        },
+        {
+          "id": "taranto",
+          "nome": "Taranto",
+          "descricao": "Cidade do sul da Itália fundada no século oito a.C. por colonos gregos com o nome de Taras.",
+          "variantes": [
+            "Taras",
+            "Tarento"
+          ]
+        },
+        {
+          "id": "bobsled",
+          "nome": "Bobsled",
+          "descricao": "Esporte de inverno em que equipes descem uma pista de gelo num trenó.",
+          "variantes": [
+            "Bobsleigh",
+            "Bobe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Prótese de corrida Flex-Foot Cheetah",
+        "descricao": "Prótese de lâmina em fibra de carbono usada por atletas amputados na corrida, criada por Van Phillips.",
+        "variantes": [
+          "Flex-Foot Cheetah",
+          "Cheetah blade"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lager",
+          "nome": "Lager",
+          "descricao": "Família de cervejas de baixa fermentação, feitas com leveduras que trabalham a frio no fundo do tanque.",
+          "variantes": [
+            "Cerveja lager"
+          ]
+        },
+        {
+          "id": "masala_chai",
+          "nome": "Masala chai",
+          "descricao": "Bebida indiana de chá preto com leite, açúcar e especiarias aromáticas.",
+          "variantes": [
+            "Chai",
+            "Chá masala",
+            "Chai latte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Placar",
+        "descricao": "Painel que exibe publicamente a pontuação, o tempo e outras estatísticas de uma partida esportiva.",
+        "variantes": [
+          "Placar eletrônico",
+          "Scoreboard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "constituicao_brasileira_de_1937",
+          "nome": "Constituição brasileira de 1937",
+          "descricao": "Constituição outorgada por Getúlio Vargas em 1937, que instituiu o Estado Novo.",
+          "variantes": [
+            "Polaca",
+            "Constituição do Estado Novo"
+          ]
+        },
+        {
+          "id": "goma_laca",
+          "nome": "Goma-laca",
+          "descricao": "Resina secretada pela cochonilha-da-laca, usada como verniz e na fabricação de antigos discos de gramofone.",
+          "variantes": [
+            "Shellac",
+            "Laca"
+          ]
+        },
+        {
+          "id": "paca",
+          "nome": "Paca",
+          "descricao": "Roedor noturno das florestas da América tropical (Cuniculus paca), de pelagem escura com fileiras de manchas brancas.",
+          "variantes": [
+            "Cuniculus paca",
+            "Lowland paca"
+          ]
+        },
+        {
+          "id": "caixa_eletronico",
+          "nome": "Caixa eletrônico",
+          "descricao": "Máquina de autoatendimento bancário que permite sacar dinheiro sem passar pelo caixa humano.",
+          "variantes": [
+            "ATM",
+            "Caixa automático"
+          ]
+        },
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sela",
+        "descricao": "Estrutura de apoio para o cavaleiro, presa ao dorso do cavalo ou de outro animal de montaria.",
+        "variantes": [
+          "Sela de hipismo",
+          "Saddle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "selam",
+          "nome": "Selam",
+          "descricao": "Esqueleto fóssil de uma criança de Australopithecus afarensis, com cerca de 3,3 milhões de anos, achado em Dikika, na Etiópia.",
+          "variantes": [
+            "Criança de Dikika",
+            "DIK-1-1"
+          ]
+        },
+        {
+          "id": "sewaddle",
+          "nome": "Sewaddle",
+          "descricao": "Pokémon dos tipos Inseto e Planta, número 540 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "shelda_bede",
+          "nome": "Shelda Bede",
+          "descricao": "Ex-jogadora brasileira de vôlei de praia, medalha de prata olímpica em Sydney 2000 e Atenas 2004.",
+          "variantes": [
+            "Shelda Kelly Bruno Bede",
+            "Shelda"
+          ]
+        },
+        {
+          "id": "saudade",
+          "nome": "Saudade",
+          "descricao": "Palavra portuguesa para o sentimento de falta de alguém ou de algo distante",
+          "variantes": []
+        },
+        {
+          "id": "sandile",
+          "nome": "Sandile",
+          "descricao": "Pokémon do tipo Terra/Sombrio da quinta geração, número 551 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Biribol",
+        "descricao": "Esporte aquático semelhante ao voleibol, jogado em piscina rasa, criado em Birigui (SP) por Dario Miguel Pedro.",
+        "variantes": [
+          "Vôlei de piscina",
+          "Voleibol de piscina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volei_de_praia",
+          "nome": "Vôlei de praia",
+          "descricao": "Modalidade de vôlei disputada na areia por duplas.",
+          "variantes": [
+            "Voleibol de praia",
+            "Beach volleyball"
+          ]
+        },
+        {
+          "id": "biriba",
+          "nome": "Biribá",
+          "descricao": "Fruta da Annona mucosa, da família das anonáceas, de casca verde-amarelada coberta de projeções pontudas e polpa branca e doce.",
+          "variantes": [
+            "Annona mucosa",
+            "Rollinia mucosa",
+            "Fruta-torta"
+          ]
+        },
+        {
+          "id": "urso_negro_americano",
+          "nome": "Urso-negro-americano",
+          "descricao": "Urso de médio porte da América do Norte, Ursus americanus, de pelagem geralmente escura.",
+          "variantes": [
+            "Urso-negro",
+            "Baribal",
+            "Ursus americanus"
+          ]
+        },
+        {
+          "id": "paineira",
+          "nome": "Paineira",
+          "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+          "variantes": [
+            "Ceiba speciosa",
+            "Barriguda",
+            "Paina-rosa",
+            "Árvore-de-paina"
+          ]
+        },
+        {
+          "id": "torre_de_pisa",
+          "nome": "Torre de Pisa",
+          "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+          "variantes": [
+            "Torre Inclinada de Pisa",
+            "Leaning Tower of Pisa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Capacete de motociclismo",
+        "descricao": "Capacete de proteção usado por motociclistas, com casco rígido e forro que absorve impactos.",
+        "variantes": [
+          "Capacete de moto",
+          "Capacete integral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capacete_de_ciclismo",
+          "nome": "Capacete de ciclismo",
+          "descricao": "Capacete ventilado que protege a cabeça do ciclista em quedas e colisões.",
+          "variantes": [
+            "Capacete ciclístico",
+            "Capacete de bicicleta"
+          ]
+        },
+        {
+          "id": "capacete_de_futebol_americano",
+          "nome": "Capacete de futebol americano",
+          "descricao": "Capacete protetor de casco rígido e grade facial usado no futebol americano.",
+          "variantes": [
+            "Capacete de football"
+          ]
+        },
+        {
+          "id": "capacete_de_sutton_hoo",
+          "nome": "Capacete de Sutton Hoo",
+          "descricao": "Capacete anglo-saxão decorado, achado em 1939 no sepultamento em navio de Sutton Hoo, na Inglaterra, do início do século sete.",
+          "variantes": [
+            "Sutton Hoo helmet",
+            "Elmo de Sutton Hoo"
+          ]
+        },
+        {
+          "id": "stahlhelm",
+          "nome": "Stahlhelm",
+          "descricao": "Capacete de aço alemão adotado a partir da Primeira Guerra Mundial.",
+          "variantes": [
+            "Stahlhelm (capacete alemão)",
+            "Capacete de aço alemão"
+          ]
+        },
+        {
+          "id": "elmo_corintio",
+          "nome": "Elmo coríntio",
+          "descricao": "Elmo grego de bronze que cobre toda a cabeça e o pescoço, com fendas para olhos e boca, que leva o nome da cidade de Corinto.",
+          "variantes": [
+            "Corinthian helmet",
+            "Capacete coríntio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Fórmula 1",
+        "descricao": "Principal categoria mundial do automobilismo, de monopostos de rodas expostas, organizada pela FIA.",
+        "variantes": [
+          "F1",
+          "Formula One"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "formula_1",
+          "nome": "Fórmula 1",
+          "descricao": "Principal categoria de monopostos do automobilismo mundial, organizada pela FIA desde 1950.",
+          "variantes": [
+            "Formula One",
+            "F1"
+          ]
+        },
+        {
+          "id": "mclaren_f1",
+          "nome": "McLaren F1",
+          "descricao": "Carro esportivo de rua britânico da McLaren, com motor BMW V12, lançado nos anos 1990.",
+          "variantes": [
+            "F1"
+          ]
+        },
+        {
+          "id": "formula_e",
+          "nome": "Fórmula E",
+          "descricao": "Campeonato mundial de monopostos elétricos organizado pela FIA, disputado desde 2014.",
+          "variantes": [
+            "Campeonato Mundial de Fórmula E"
+          ]
+        },
+        {
+          "id": "honda_na_formula_1",
+          "nome": "Honda na Fórmula 1",
+          "descricao": "Participação da montadora japonesa Honda na Fórmula 1 como equipe e fornecedora de motores, desde 1964.",
+          "variantes": [
+            "Honda in Formula One",
+            "Honda Racing F1"
+          ]
+        },
+        {
+          "id": "diego_forlan",
+          "nome": "Diego Forlán",
+          "descricao": "Ex-atacante uruguaio, ídolo de Villarreal e Atlético de Madrid e treinador da seleção do Uruguai.",
+          "variantes": [
+            "Forlan"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Teqball é um esporte distinto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "treno",
+      "motivo": "Mesmo veículo trenó que desliza sobre gelo ou neve, variante Sled."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Prótese específica; candidatas são bebidas, sem relação."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Placar esportivo não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sela de montaria é diferente de todas as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Biribol é um esporte distinto do vôlei de praia e das demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Capacete de motociclismo é diferente dos outros capacetes listados."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "formula_1",
+      "motivo": "Mesma categoria, a Fórmula 1 da FIA."
+    }
+  ]
+}
