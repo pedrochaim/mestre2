@@ -1,0 +1,70 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estádio Único de La Plata",
+        "descricao": "Estádio multiuso inaugurado em 2003 em La Plata, Argentina, com cobertura em forma de disco, usado por Estudiantes e Gimnasia.",
+        "variantes": [
+          "Estadio Único Diego Armando Maradona",
+          "Estadio Ciudad de La Plata",
+          "Estádio Único Diego Armando Maradona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diego_maradona",
+          "nome": "Diego Maradona",
+          "descricao": "Craque argentino (1960-2020), campeão mundial em 1986 e ídolo do Napoli, conhecido como El Pibe de Oro.",
+          "variantes": [
+            "Diego Armando Maradona",
+            "Maradona",
+            "El Pibe de Oro"
+          ]
+        },
+        {
+          "id": "estadio_municipal_de_braga",
+          "nome": "Estádio Municipal de Braga",
+          "descricao": "Estádio de futebol de Braga, em Portugal, escavado numa pedreira e projetado por Souto de Moura para a Euro 2004.",
+          "variantes": [
+            "A Pedreira"
+          ]
+        },
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        },
+        {
+          "id": "sao_januario",
+          "nome": "São Januário",
+          "descricao": "Estádio do Club de Regatas Vasco da Gama, no bairro de São Cristóvão, Rio de Janeiro.",
+          "variantes": [
+            "Estádio Vasco da Gama"
+          ]
+        },
+        {
+          "id": "mangueirao",
+          "nome": "Mangueirão",
+          "descricao": "Estádio Estadual Jornalista Edgar Proença, estádio de Belém, Pará, inaugurado em 1978.",
+          "variantes": [
+            "Estádio Olímpico do Pará",
+            "Estádio Edgar Proença"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Estádio Único de La Plata; Diego Maradona é a pessoa homônima, e as outras são estádios ou lugares diferentes."
+    }
+  ]
+}

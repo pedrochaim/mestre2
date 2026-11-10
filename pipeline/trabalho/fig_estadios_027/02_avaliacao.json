@@ -1,0 +1,84 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Interior com torcida em primeiro plano e sem elemento que permita reconhecer o estádio; placas pequenas."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Texto visível nas arquibancadas (BLADES) e na bancada entrega o clube/estádio."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Logotipos Red Bull visíveis no teto entregam o nome do estádio."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Placa com o nome Estádio Milton de Souza Corrêa visível na tribuna."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Texto WERDER BREMEN nas arquibancadas entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Torcida de pessoas comuns em primeiro plano e estádio sem traço claro de reconhecimento."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Letreiro Richmond Olympic Oval e anéis olímpicos entregam a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Placas Circuit de Catalunya visíveis entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Muitos textos visíveis (LIGA, Campeón de América, patrocinadores) entregam o clube e o estádio."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns em primeiro plano; estádio não reconhecível por sua forma."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Faixa com texto (Forza vecchio cuore granata) entrega o clube; imagem escura e panorâmica pouco legível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea noturna com cobertura em forma de disco, inconfundível e sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que clube, cujo próprio estádio foi declarado inseguro em 2005, passou a mandar seus jogos neste estádio?",
+      "resposta": "Estudiantes de La Plata",
+      "distratores": [
+        "Vélez Sarsfield",
+        "Banfield",
+        "Lanús"
+      ],
+      "ancora": {
+        "nome": "Estádio Único de La Plata",
+        "descricao": "Estádio multiuso inaugurado em 2003 em La Plata, Argentina, com cobertura em forma de disco, usado por Estudiantes e Gimnasia.",
+        "variantes": [
+          "Estadio Único Diego Armando Maradona",
+          "Estadio Ciudad de La Plata",
+          "Estádio Único Diego Armando Maradona"
+        ]
+      }
+    }
+  ]
+}
