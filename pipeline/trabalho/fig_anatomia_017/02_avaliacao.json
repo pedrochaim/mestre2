@@ -1,0 +1,141 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de mosquito macho com antenas plumosas; pergunta sobre a parte do corpo.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Neste mosquito macho, que estrutura da cabeça, plumosa como uma pena, ele usa para ouvir o zumbido das fêmeas?",
+      "resposta": "Antenas",
+      "distratores": [
+        "Asas",
+        "Halteres",
+        "Olhos compostos"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pernilongo",
+        "descricao": "Mosquito do gênero Culex, comum e transmissor de doenças como filariose e febre do Nilo Ocidental.",
+        "variantes": [
+          "Culex",
+          "Mosquito comum",
+          "Muriçoca"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Diagrama com legendas em inglês (Myocardium, Endocardium etc.) que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Modelo 3D sem texto, músculo em vermelho nas laterais das costelas, reconhecível.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que osso se insere o músculo destacado em vermelho nesta vista de costas, puxando-o para a frente?",
+      "resposta": "Escápula",
+      "distratores": [
+        "Úmero",
+        "Clavícula",
+        "Esterno"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Músculo serrátil anterior",
+        "descricao": "Músculo do tórax que vai das costelas superiores à borda medial da escápula e a puxa para a frente.",
+        "variantes": [
+          "Serrátil magno",
+          "Serratus anterior"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Esfregaço corado com célula única ambígua; Leishmania não é reconhecível com segurança pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Legendas em russo visíveis, incluindo 'Миндалины' (amígdalas), que entregam a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Prancha com seis painéis e letras indicativas (P, N, V, M); várias imagens e dificilmente reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Diagrama com legendas em inglês, incluindo 'Vagus', que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem de baixa nitidez, uma mancha amorfa não reconhecível como Trichoplax."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto de microscópio de verme nematoide fino com cauda pontiaguda e escala; sem texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que verme parasita intestinal humano é este, visto ao microscópio?",
+      "resposta": "Oxiúro",
+      "distratores": [
+        "Lombriga",
+        "Tricuris",
+        "Ancilóstomo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Oxiúro",
+        "descricao": "Nematódeo parasita intestinal Enterobius vermicularis, comum em crianças, causador da enterobíase.",
+        "variantes": [
+          "Enterobius vermicularis",
+          "Pinworm"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Imagem borrada de célula flagelada; não se distingue com segurança de outros protozoários."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Micrografia eletrônica nítida de coccosfera com placas de calcário, sem texto identificador além da escala.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "As placas que revestem este organismo marinho microscópico são feitas de que material?",
+      "resposta": "Carbonato de cálcio",
+      "distratores": [
+        "Sílica",
+        "Quitina",
+        "Celulose"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cocolitóforo",
+        "descricao": "Alga unicelular marinha do fitoplâncton coberta por placas de carbonato de cálcio chamadas cocólitos.",
+        "variantes": [
+          "Coccolithophore",
+          "Coccolitoforídeo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Filamentos de cianobactéria de baixa resolução, indistinguíveis de outros gêneros filamentosos; resposta não única."
+    }
+  ]
+}

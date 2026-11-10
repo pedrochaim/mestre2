@@ -1,0 +1,48 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta falha: 'estrutura da cabeça, plumosa, usada para ouvir' entrega 'antenas' sem olhar a figura. Além disso, não há garantia de que a foto mostre um macho com antenas plumosas, e os trechos não sustentam o fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é sustentado pelos trechos (inserção na borda medial da escápula). Mas 'puxando-o para a frente' é pista desnecessária, e 'vista de costas' não está confirmado por `mostra`. Retirei os dois.",
+      "reescrita": {
+        "pergunta": "Em que osso se insere o músculo destacado em vermelho nesta figura?",
+        "resposta": "Escápula",
+        "distratores": [
+          "Úmero",
+          "Clavícula",
+          "Esterno"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O oxiúro é um nematódeo intestinal humano, e os distratores são parasitas do mesmo tipo e críveis. Mas 'visto ao microscópio' não está confirmado em `mostra`, então tirei a expressão.",
+      "reescrita": {
+        "pergunta": "Que verme parasita intestinal humano é este?",
+        "resposta": "Oxiúro",
+        "distratores": [
+          "Lombriga",
+          "Tricuris",
+          "Ancilóstomo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os cocólitos são de carbonato de cálcio. O enunciado não nomeia o organismo, e a resposta não está nele. Os distratores são materiais de revestimento críveis (sílica das diatomáceas, por exemplo) e nenhum está correto.",
+      "reescrita": null
+    }
+  ]
+}

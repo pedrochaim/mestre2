@@ -393293,5 +393293,80 @@
       "autor": "kallerna",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q19832",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "musculo_serratil_anterior",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Em que osso se insere o músculo destacado em vermelho nesta figura?",
+    "resposta": "Escápula",
+    "distratores": [
+      "Úmero",
+      "Clavícula",
+      "Esterno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Serratus_anterior_muscle",
+      "https://pt.wikipedia.org/wiki/M%C3%BAsculo_serr%C3%A1til_anterior"
+    ],
+    "imagem": {
+      "arquivo": "q19832.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Serratus_anterior_muscle_animation_small.gif",
+      "autor": "Anatomography",
+      "licenca": "CC BY-SA 2.1 jp"
+    }
+  },
+  {
+    "id": "q19833",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "oxiuro",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que verme parasita intestinal humano é este?",
+    "resposta": "Oxiúro",
+    "distratores": [
+      "Lombriga",
+      "Tricuris",
+      "Ancilóstomo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pinworm_%28parasite%29",
+      "https://pt.wikipedia.org/wiki/Oxi%C3%BAro"
+    ],
+    "imagem": {
+      "arquivo": "q19833.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Evermicularis_SC_posterior.jpg",
+      "autor": "Division of Parasitic Diseases and Malaria (DPDM) of the Centers for Disease Control and Prevention",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q19834",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "cocolitoforo",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "As placas que revestem este organismo marinho microscópico são feitas de que material?",
+    "resposta": "Carbonato de cálcio",
+    "distratores": [
+      "Sílica",
+      "Quitina",
+      "Celulose"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coccolithophore",
+      "https://pt.wikipedia.org/wiki/Cocolit%C3%B3foro"
+    ],
+    "imagem": {
+      "arquivo": "q19834.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gephyrocapsa_oceanica_color.jpg",
+      "autor": "Photo by NEON ja, colored by Richard Bartz",
+      "licenca": "CC BY-SA 2.5"
+    }
   }
 ]

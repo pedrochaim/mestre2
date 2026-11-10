@@ -1,0 +1,197 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Músculo serrátil anterior",
+        "descricao": "Músculo do tórax que vai das costelas superiores à borda medial da escápula e a puxa para a frente.",
+        "variantes": [
+          "Serrátil magno",
+          "Serratus anterior"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "musculo_sartorio",
+          "nome": "Músculo sartório",
+          "descricao": "Músculo longo e fino que cruza a coxa em diagonal, do quadril até a face interna do joelho.",
+          "variantes": [
+            "Sartório",
+            "Sartorius"
+          ]
+        },
+        {
+          "id": "homo_sapiens",
+          "nome": "Homo sapiens",
+          "descricao": "Espécie humana moderna, a única do gênero Homo ainda viva.",
+          "variantes": [
+            "Ser humano",
+            "Humano moderno",
+            "Human",
+            "Ser humano moderno"
+          ]
+        },
+        {
+          "id": "alberto_magno",
+          "nome": "Alberto Magno",
+          "descricao": "Frade dominicano alemão do século treze, filósofo, cientista e bispo, santo e doutor da Igreja.",
+          "variantes": [
+            "Santo Alberto Magno",
+            "Albertus Magnus",
+            "Alberto de Colônia"
+          ]
+        },
+        {
+          "id": "atila_iamarino",
+          "nome": "Átila Iamarino",
+          "descricao": "Biólogo e divulgador científico brasileiro, doutor em microbiologia, conhecido pelo canal Nerdologia.",
+          "variantes": []
+        },
+        {
+          "id": "musculo_gastrocnemio",
+          "nome": "Músculo gastrocnêmio",
+          "descricao": "Músculo superficial de duas cabeças na parte posterior da perna, que forma o volume da panturrilha.",
+          "variantes": [
+            "Gastrocnêmio",
+            "Músculo da panturrilha",
+            "Gêmeos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Oxiúro",
+        "descricao": "Nematódeo parasita intestinal Enterobius vermicularis, comum em crianças, causador da enterobíase.",
+        "variantes": [
+          "Enterobius vermicularis",
+          "Pinworm"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ofiuro",
+          "nome": "Ofiúro",
+          "descricao": "Equinoderma da classe Ophiuroidea, com disco central e cinco braços longos e flexíveis.",
+          "variantes": [
+            "Estrela-serpente",
+            "Ofiuroide",
+            "Brittle star",
+            "Serpent star"
+          ]
+        },
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold",
+            "Aurum"
+          ]
+        },
+        {
+          "id": "pindorama",
+          "nome": "Pindorama",
+          "descricao": "Nome de origem tupi tradicionalmente usado para se referir à terra que viria a ser o Brasil",
+          "variantes": []
+        },
+        {
+          "id": "rio_douro",
+          "nome": "Rio Douro",
+          "descricao": "Rio da Península Ibérica que nasce na Espanha e deságua no Atlântico entre Porto e Vila Nova de Gaia, em Portugal.",
+          "variantes": [
+            "Douro",
+            "Duero"
+          ]
+        },
+        {
+          "id": "folha_de_louro",
+          "nome": "Folha de louro",
+          "descricao": "Folha aromática do loureiro (Laurus nobilis), usada como tempero em cozidos.",
+          "variantes": [
+            "Louro",
+            "Folha de loureiro",
+            "Bay leaf"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cocolitóforo",
+        "descricao": "Alga unicelular marinha do fitoplâncton coberta por placas de carbonato de cálcio chamadas cocólitos.",
+        "variantes": [
+          "Coccolithophore",
+          "Coccolitoforídeo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mosca_varejeira",
+          "nome": "Mosca-varejeira",
+          "descricao": "Inseto díptero da família Calliphoridae, de corpo verde ou azul metálico.",
+          "variantes": [
+            "Califorídeos",
+            "Mosca-varejeira-verde",
+            "Calliphoridae"
+          ]
+        },
+        {
+          "id": "cromatoforo",
+          "nome": "Cromatóforo",
+          "descricao": "Célula da pele cheia de pigmento que permite a polvos, lulas e chocos mudar de cor rapidamente.",
+          "variantes": [
+            "Chromatophore"
+          ]
+        },
+        {
+          "id": "coprolito",
+          "nome": "Coprólito",
+          "descricao": "Fezes fossilizadas de animais, usadas para estudar a dieta de espécies extintas.",
+          "variantes": [
+            "Coprolite",
+            "Coprólitos"
+          ]
+        },
+        {
+          "id": "ctenoforo",
+          "nome": "Ctenóforo",
+          "descricao": "Animal marinho gelatinoso do filo Ctenophora, que nada com fileiras de cílios em forma de pente.",
+          "variantes": [
+            "Ctenophora",
+            "Água-viva-de-pente",
+            "Comb jelly"
+          ]
+        },
+        {
+          "id": "oreo",
+          "nome": "Oreo",
+          "descricao": "Biscoito de chocolate recheado com creme branco, lançado pela americana Nabisco em Nova York.",
+          "variantes": [
+            "Biscoito Oreo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Serrátil anterior é um músculo do tórax; nenhuma candidata é a mesma entidade (sartório e gastrocnêmio são outros músculos)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Oxiúro (nematódeo parasita) não corresponde a nenhuma candidata; só há semelhança de nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cocolitóforo (alga do fitoplâncton) é diferente de todas as candidatas."
+    }
+  ]
+}
