@@ -1,0 +1,143 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nebulosa do Homúnculo",
+        "descricao": "Nebulosa bipolar de emissão e reflexão ao redor do sistema estelar Eta Carinae, na Nebulosa da Carina.",
+        "variantes": [
+          "Homunculus Nebula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_do_coracao",
+          "nome": "Nebulosa do Coração",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, a cerca de 7.500 anos-luz da Terra.",
+          "variantes": [
+            "Heart Nebula",
+            "IC 1805",
+            "Sharpless 2-190"
+          ]
+        },
+        {
+          "id": "nebulosa_haltere",
+          "nome": "Nebulosa Haltere",
+          "descricao": "Nebulosa planetária na constelação da Raposa, também conhecida como Messier 27.",
+          "variantes": [
+            "Nebulosa do Haltere",
+            "Dumbbell Nebula",
+            "Messier 27",
+            "M27",
+            "NGC 6853"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cometa Shoemaker-Levy 9",
+        "descricao": "Cometa que se partiu em 1992 e colidiu com Júpiter em julho de 1994.",
+        "variantes": [
+          "Shoemaker–Levy 9",
+          "SL9"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cometa_halley",
+          "nome": "Cometa Halley",
+          "descricao": "Cometa periódico visível a olho nu que volta às proximidades da Terra em intervalos regulares.",
+          "variantes": [
+            "Halley",
+            "1P/Halley",
+            "Halley's Comet"
+          ]
+        },
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        },
+        {
+          "id": "curiosity",
+          "nome": "Curiosity",
+          "descricao": "Rover da NASA da missão Mars Science Laboratory, lançado em 2011 e pousado em Marte em 2012.",
+          "variantes": [
+            "Mars Science Laboratory",
+            "MSL"
+          ]
+        },
+        {
+          "id": "yves_saint_laurent",
+          "nome": "Yves Saint Laurent",
+          "descricao": "Estilista francês (1936–2008), fundador da grife que leva seu nome",
+          "variantes": [
+            "YSL"
+          ]
+        },
+        {
+          "id": "space_launch_system",
+          "nome": "Space Launch System",
+          "descricao": "Foguete superpesado americano da NASA, usado no programa Artemis, aqui em ilustração na plataforma de lançamento.",
+          "variantes": [
+            "SLS (Space Launch System)",
+            "SLS",
+            "Sistema de Lançamento Espacial"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nebulosa do Homúnculo (Eta Carinae) não corresponde a nenhuma candidata; são nebulosas diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cometa Shoemaker-Levy 9 é diferente do Halley e das demais candidatas."
+    }
+  ]
+}

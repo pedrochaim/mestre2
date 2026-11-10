@@ -1,0 +1,96 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Legenda 'Brief glimpse of space junk' entrega a resposta; imagem é só um risco de luz."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mostra um eclipse total com um traço rosado; não é um anel de diamante nítido nem se distingue de um eclipse total comum."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem pequena e borrada de uma lua irregular, confundível com Pan e outras luas de Saturno."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Fragmento de rocha sem traços reconhecíveis; parece qualquer meteorito."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem característica do Hubble, com os dois lóbulos bipolares.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nebulosa é esta, formada por gás expelido por uma estrela massiva?",
+      "resposta": "Nebulosa do Homúnculo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa do Homúnculo",
+        "descricao": "Nebulosa bipolar de emissão e reflexão ao redor do sistema estelar Eta Carinae, na Nebulosa da Carina.",
+        "variantes": [
+          "Homunculus Nebula"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Texto 'BLUE ORIGIN' visível no foguete e pessoas comuns ao fundo."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Campo largo em infravermelho, com outras estruturas (região próxima da Cabeça de Cavalo); resposta pouco única e difícil de reconhecer."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Texto em russo visível e mistura de itens; não é claramente reconhecível como comida espacial."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de texto, com nome e especificações do foguete."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Equipamento não reconhecível como banheiro espacial, com texto na imagem e reflexos de vitrine."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Nome 'LOVELL' legível na roupa, entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fileira de fragmentos do cometa, imagem do Hubble inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este cometa se fragmentou e, em 1994, colidiu com que planeta?",
+      "resposta": "Júpiter",
+      "distratores": [
+        "Saturno",
+        "Marte",
+        "Vênus"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cometa Shoemaker-Levy 9",
+        "descricao": "Cometa que se partiu em 1992 e colidiu com Júpiter em julho de 1994.",
+        "variantes": [
+          "Shoemaker–Levy 9",
+          "SL9"
+        ]
+      }
+    }
+  ]
+}

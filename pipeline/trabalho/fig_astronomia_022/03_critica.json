@@ -1,0 +1,26 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a nebulosa é formada por gás ejetado por Eta Carinae, estrela massiva. A pista é genérica, vale para várias nebulosas, e não entrega a resposta. A figura é necessária e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Na forma atual, a figura é enfeite. Quem ouve 'cometa fragmentado que colidiu em 1994 com um planeta' responde Júpiter sem ver a imagem, e a pergunta nem pede para reconhecer a figura. A reescrita pede o nome do cometa, com uma pista que ajuda sem entregar. O trecho confirma a descoberta em 1993 e que foi o primeiro cometa ativo observado em órbita de um planeta.",
+      "reescrita": {
+        "pergunta": "Descoberto em 1993, este foi o primeiro cometa ativo observado em órbita de um planeta. Que cometa é este?",
+        "resposta": "Shoemaker-Levy 9",
+        "distratores": [
+          "Halley",
+          "Hale-Bopp",
+          "Swift-Tuttle"
+        ]
+      }
+    }
+  ]
+}
