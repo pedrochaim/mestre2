@@ -1,0 +1,705 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Nado livre",
+        "descricao": "Categoria de provas da natação competitiva em que o nadador pode usar qualquer estilo.",
+        "variantes": [
+          "Freestyle",
+          "Estilo livre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nado_crawl",
+          "nome": "Nado crawl",
+          "descricao": "Estilo de natação de braçadas alternadas e pernas batendo, o mais rápido e o mais usado nas provas de nado livre.",
+          "variantes": [
+            "Crawl",
+            "Nado livre"
+          ]
+        },
+        {
+          "id": "tiro_livre",
+          "nome": "Tiro livre",
+          "descricao": "Cobrança de bola parada no futebol concedida após uma infração do adversário.",
+          "variantes": [
+            "Falta",
+            "Free kick"
+          ]
+        },
+        {
+          "id": "esqui_estilo_livre",
+          "nome": "Esqui estilo livre",
+          "descricao": "Modalidade de esqui com saltos, giros e manobras, olímpica, incluindo aerials, moguls, slopestyle e big air.",
+          "variantes": [
+            "Freestyle skiing",
+            "Esqui livre"
+          ]
+        },
+        {
+          "id": "mercado_livre",
+          "nome": "Mercado Livre",
+          "descricao": "Empresa de comércio eletrônico latino-americana fundada em 1999 por Marcos Galperin.",
+          "variantes": [
+            "MercadoLibre"
+          ]
+        },
+        {
+          "id": "franca_livre",
+          "nome": "França Livre",
+          "descricao": "Governo no exílio e forças armadas francesas que continuaram a lutar contra o Eixo a partir de 1940, sob a liderança de Charles de Gaulle.",
+          "variantes": [
+            "Forças Francesas Livres",
+            "France Libre"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mark Spitz",
+        "descricao": "Nadador americano que ganhou sete medalhas de ouro nos Jogos Olímpicos de Munique, em 1972.",
+        "variantes": [
+          "Mark Andrew Spitz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mark_spitz",
+          "nome": "Mark Spitz",
+          "descricao": "Nadador americano, nove vezes campeão olímpico, sete delas em Munique 1972.",
+          "variantes": [
+            "Mark Andrew Spitz"
+          ]
+        },
+        {
+          "id": "telescopio_lovell",
+          "nome": "Telescópio Lovell",
+          "descricao": "Radiotelescópio de 76 metros de diâmetro em Jodrell Bank, na Inglaterra, concluído em 1957.",
+          "variantes": [
+            "Lovell Telescope",
+            "Mark I",
+            "Radiotelescópio de Jodrell Bank"
+          ]
+        },
+        {
+          "id": "mar_caspio",
+          "nome": "Mar Cáspio",
+          "descricao": "Grande corpo de água salgada sem saída para o oceano, entre a Europa Oriental e a Ásia Central.",
+          "variantes": [
+            "Caspian Sea",
+            "Cáspio"
+          ]
+        },
+        {
+          "id": "spritz",
+          "nome": "Spritz",
+          "descricao": "Coquetel italiano à base de espumante prosecco, água com gás e um aperitivo amargo, servido como aperitivo.",
+          "variantes": [
+            "Spritz veneziano",
+            "Aperol spritz"
+          ]
+        },
+        {
+          "id": "terno_zhongshan",
+          "nome": "Terno Zhongshan",
+          "descricao": "Traje chinês de túnica com gola fechada, conhecido no Ocidente como terno Mao",
+          "variantes": [
+            "Terno Mao",
+            "Zhongshan suit",
+            "Mao suit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Adhemar Ferreira da Silva",
+        "descricao": "Atleta brasileiro do salto triplo, bicampeão olímpico em 1952 e 1956.",
+        "variantes": [
+          "Adhemar da Silva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "adhemar_ferreira_da_silva",
+          "nome": "Adhemar Ferreira da Silva",
+          "descricao": "Atleta brasileiro, bicampeão olímpico do salto triplo em 1952 e 1956.",
+          "variantes": [
+            "Adhemar da Silva"
+          ]
+        },
+        {
+          "id": "lucio",
+          "nome": "Lúcio",
+          "descricao": "Ex-zagueiro brasileiro (Lucimar Ferreira da Silva), campeão mundial em 2002, conhecido como O Cavalo.",
+          "variantes": [
+            "Lucimar Ferreira da Silva"
+          ]
+        },
+        {
+          "id": "anderson_silva",
+          "nome": "Anderson Silva",
+          "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+          "variantes": [
+            "Anderson da Silva",
+            "Spider"
+          ]
+        },
+        {
+          "id": "marta",
+          "nome": "Marta",
+          "descricao": "Marta Vieira da Silva, jogadora eleita seis vezes a melhor do mundo.",
+          "variantes": [
+            "Marta Vieira da Silva"
+          ]
+        },
+        {
+          "id": "ademir_da_guia",
+          "nome": "Ademir da Guia",
+          "descricao": "Ademir da Guia, meia brasileiro ídolo do Palmeiras nos anos 1960 e 1970.",
+          "variantes": [
+            "O Divino",
+            "Divino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Vanderlei Cordeiro de Lima",
+        "descricao": "Maratonista brasileiro, medalhista de bronze nos Jogos de Atenas 2004 após ser agarrado por um invasor durante a prova.",
+        "variantes": [
+          "Vanderlei de Lima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vanderlei_cordeiro_de_lima",
+          "nome": "Vanderlei Cordeiro de Lima",
+          "descricao": "Maratonista brasileiro, medalha de bronze na maratona dos Jogos de Atenas 2004.",
+          "variantes": [
+            "Vanderlei de Lima"
+          ]
+        },
+        {
+          "id": "bandeira_de_oma",
+          "nome": "Bandeira de Omã",
+          "descricao": "Bandeira nacional do Sultanato de Omã, com faixas branca, vermelha e verde e emblema de punhal e espadas.",
+          "variantes": [
+            "Omã",
+            "Bandeira de Oman"
+          ]
+        },
+        {
+          "id": "roberto_landell_de_moura",
+          "nome": "Roberto Landell de Moura",
+          "descricao": "Padre e inventor gaúcho (1861–1928), pioneiro na transmissão da voz por ondas de rádio.",
+          "variantes": [
+            "Padre Landell de Moura",
+            "Landell de Moura"
+          ]
+        },
+        {
+          "id": "lixa",
+          "nome": "Lixa",
+          "descricao": "Papel ou tecido coberto de grãos abrasivos usado para desbastar e alisar superfícies.",
+          "variantes": [
+            "Lixa d'água",
+            "Papel de lixa"
+          ]
+        },
+        {
+          "id": "grande_premio_de_monaco",
+          "nome": "Grande Prêmio de Mônaco",
+          "descricao": "Corrida de automóveis disputada desde 1929 nas ruas de Monte Carlo, uma das mais tradicionais da Fórmula 1.",
+          "variantes": [
+            "GP de Mônaco",
+            "Monaco Grand Prix"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nadia Comăneci",
+        "descricao": "Ginasta romena que recebeu a primeira nota dez da ginástica olímpica, nos Jogos de Montreal 1976.",
+        "variantes": [
+          "Nadia Comaneci"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nadia_comaneci",
+          "nome": "Nadia Comăneci",
+          "descricao": "Ginasta romena que recebeu a primeira nota dez da ginástica olímpica, em Montreal 1976.",
+          "variantes": []
+        },
+        {
+          "id": "auto_da_compadecida",
+          "nome": "Auto da Compadecida",
+          "descricao": "Peça teatral de Ariano Suassuna, de 1955, protagonizada por João Grilo e Chicó.",
+          "variantes": [
+            "O Auto da Compadecida"
+          ]
+        },
+        {
+          "id": "o_auto_da_compadecida_minisserie",
+          "nome": "O Auto da Compadecida (minissérie)",
+          "descricao": "Minissérie da Rede Globo de 1999, dirigida por Guel Arraes, sobre as aventuras de João Grilo e Chicó no sertão, depois lançada como filme.",
+          "variantes": [
+            "Auto da Compadecida"
+          ]
+        },
+        {
+          "id": "dia_do_saci",
+          "nome": "Dia do Saci",
+          "descricao": "Data comemorativa brasileira dedicada ao saci e ao folclore nacional, criada em contraposição ao Halloween.",
+          "variantes": []
+        },
+        {
+          "id": "garca_moura",
+          "nome": "Garça-moura",
+          "descricao": "Grande garça cinza e branca com topete preto (Ardea cocoi), da América do Sul.",
+          "variantes": [
+            "Maguari-cinza",
+            "Cocoi heron",
+            "Ardea cocoi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Duke Kahanamoku",
+        "descricao": "Atleta havaiano considerado o pai do surfe moderno, campeão olímpico nos anos 1910 e 1920.",
+        "variantes": [
+          "Duke Paoa Kahanamoku"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "duke_kahanamoku",
+          "nome": "Duke Kahanamoku",
+          "descricao": "Nadador havaiano, campeão olímpico dos 100 metros livre em 1912.",
+          "variantes": [
+            "Duke Paoa Kahanamoku"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Daniel Dias",
+        "descricao": "Nadador paralímpico brasileiro, multimedalhista entre 2008 e 2021.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "daniel_dias",
+          "nome": "Daniel Dias",
+          "descricao": "Nadador paralímpico brasileiro, multimedalhista entre 2008 e 2020.",
+          "variantes": []
+        },
+        {
+          "id": "daniel_alves",
+          "nome": "Daniel Alves",
+          "descricao": "Lateral-direito brasileiro, um dos jogadores mais premiados da história do futebol.",
+          "variantes": [
+            "Dani Alves",
+            "Daniel Alves da Silva"
+          ]
+        },
+        {
+          "id": "dancin_days",
+          "nome": "Dancin' Days",
+          "descricao": "Telenovela da Rede Globo de 1978, com Sônia Braga, que levou a moda das discotecas a todo o Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "dani_lins",
+          "nome": "Dani Lins",
+          "descricao": "Levantadora brasileira de vôlei, campeã olímpica em 2012.",
+          "variantes": [
+            "Danielle Rodrigues Lins"
+          ]
+        },
+        {
+          "id": "daniel_defoe",
+          "nome": "Daniel Defoe",
+          "descricao": "Escritor, jornalista e comerciante inglês, autor de Robinson Crusoé.",
+          "variantes": [
+            "Daniel Foe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Usain Bolt",
+        "descricao": "Velocista jamaicano, multicampeão olímpico dos cem e duzentos metros entre 2008 e 2016.",
+        "variantes": [
+          "Usain St. Leo Bolt"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usain_bolt",
+          "nome": "Usain Bolt",
+          "descricao": "Velocista jamaicano, recordista mundial dos 100 e 200 metros.",
+          "variantes": [
+            "Usain St. Leo Bolt"
+          ]
+        },
+        {
+          "id": "raging_bolt",
+          "nome": "Raging Bolt",
+          "descricao": "Pokémon dos tipos Elétrico e Dragão, número 1021 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        },
+        {
+          "id": "dust_bowl",
+          "nome": "Dust Bowl",
+          "descricao": "Período de secas e tempestades de poeira que devastou as Grandes Planícies dos Estados Unidos",
+          "variantes": [
+            "Tigela de Poeira"
+          ]
+        },
+        {
+          "id": "acai_na_tigela",
+          "nome": "Açaí na tigela",
+          "descricao": "Lanche brasileiro de polpa de açaí congelada e batida, servida em tigela com granola e banana.",
+          "variantes": [
+            "Açaí",
+            "Açaí bowl"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Pedra de curling",
+        "descricao": "Peça de granito polido, com alça, deslizada sobre o gelo no curling.",
+        "variantes": [
+          "Curling stone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "the_rolling_stones",
+          "nome": "The Rolling Stones",
+          "descricao": "Banda de rock britânica formada em Londres em 1962, de Mick Jagger e Keith Richards",
+          "variantes": [
+            "Rolling Stones",
+            "Os Rolling Stones"
+          ]
+        },
+        {
+          "id": "pedras_de_jelling",
+          "nome": "Pedras de Jelling",
+          "descricao": "Duas grandes pedras rúnicas do século dez em Jelling, na Dinamarca, erguidas pelo rei Gorm e por seu filho Harald Dente Azul.",
+          "variantes": [
+            "Jelling stones",
+            "Pedras rúnicas de Jelling"
+          ]
+        },
+        {
+          "id": "pedra_do_inga",
+          "nome": "Pedra do Ingá",
+          "descricao": "Rocha na Paraíba coberta de gravuras pré-históricas, também chamada Itacoatiara do Ingá.",
+          "variantes": [
+            "Itacoatiara do Ingá",
+            "Ingá Stone"
+          ]
+        },
+        {
+          "id": "alinhamentos_de_carnac",
+          "nome": "Alinhamentos de Carnac",
+          "descricao": "Milhares de menires enfileirados perto de Carnac, na Bretanha, França.",
+          "variantes": [
+            "Pedras de Carnac",
+            "Carnac stones"
+          ]
+        },
+        {
+          "id": "pedras_deslizantes_do_vale_da_morte",
+          "nome": "Pedras deslizantes do Vale da Morte",
+          "descricao": "Rochas que se deslocam sozinhas e deixam rastros no leito seco de Racetrack Playa, no Vale da Morte, na Califórnia.",
+          "variantes": [
+            "Sailing stones",
+            "Pedras velejadoras",
+            "Pedras de Racetrack Playa",
+            "Pedras deslizantes",
+            "Pedras andantes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Levantamento de peso olímpico",
+        "descricao": "Esporte olímpico em que o atleta ergue uma barra com anilhas acima da cabeça, em dois movimentos.",
+        "variantes": [
+          "Halterofilismo",
+          "Weightlifting"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arremesso_de_peso",
+          "nome": "Arremesso de peso",
+          "descricao": "Prova do atletismo em que o atleta arremessa uma bola metálica pesada o mais longe possível, a partir de um círculo.",
+          "variantes": [
+            "Lançamento de peso"
+          ]
+        },
+        {
+          "id": "tropicalia",
+          "nome": "Tropicália",
+          "descricao": "Movimento cultural brasileiro do fim dos anos 1960, liderado na música por Caetano Veloso e Gilberto Gil.",
+          "variantes": [
+            "Tropicalismo",
+            "Movimento tropicalista"
+          ]
+        },
+        {
+          "id": "revezamento_da_tocha_olimpica",
+          "nome": "Revezamento da tocha olímpica",
+          "descricao": "Percurso em que a chama olímpica é levada de Olímpia até a cidade-sede dos Jogos.",
+          "variantes": [
+            "Olympic torch relay"
+          ]
+        },
+        {
+          "id": "daltonismo",
+          "nome": "Daltonismo",
+          "descricao": "Deficiência na percepção de cores, em geral hereditária.",
+          "variantes": [
+            "Discromatopsia",
+            "Color blindness",
+            "Cegueira para cores"
+          ]
+        },
+        {
+          "id": "templo_de_zeus_olimpico",
+          "nome": "Templo de Zeus Olímpico",
+          "descricao": "Colossal templo em ruínas no centro de Atenas, concluído no reinado do imperador Adriano.",
+          "variantes": [
+            "Olimpeion",
+            "Olympieion",
+            "Templo de Zeus Olímpico (Atenas)",
+            "Olimpieion",
+            "Temple of Olympian Zeus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Salto triplo",
+        "descricao": "Prova do atletismo em que o atleta faz três impulsões seguidas antes de cair na caixa de areia.",
+        "variantes": [
+          "Triple jump"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bastao_de_tres_secoes",
+          "nome": "Bastão de três seções",
+          "descricao": "Arma chinesa de artes marciais formada por três varas de madeira ou metal ligadas por argolas ou corda.",
+          "variantes": [
+            "Sanjiegun",
+            "Sansetsukon",
+            "Bastão de três partes",
+            "Bastão triplo"
+          ]
+        },
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        },
+        {
+          "id": "gato_tricolor",
+          "nome": "Gato tricolor",
+          "descricao": "Gato doméstico com pelagem de três cores, branca, preta e laranja.",
+          "variantes": [
+            "Gato cálico",
+            "Calico cat"
+          ]
+        },
+        {
+          "id": "livro_dos_salmos",
+          "nome": "Livro dos Salmos",
+          "descricao": "Livro da Bíblia formado por uma coleção de cânticos e orações, tradicionalmente associado ao rei Davi",
+          "variantes": [
+            "Salmos",
+            "Saltério"
+          ]
+        },
+        {
+          "id": "musculo_sartorio",
+          "nome": "Músculo sartório",
+          "descricao": "Músculo longo e fino que cruza a coxa em diagonal, do quadril até a face interna do joelho.",
+          "variantes": [
+            "Sartório",
+            "Sartorius"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Natação artística",
+        "descricao": "Modalidade aquática em que atletas executam coreografias sincronizadas com música, antes chamada nado sincronizado.",
+        "variantes": [
+          "Nado sincronizado",
+          "Artistic swimming",
+          "Synchronized swimming"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nado_artistico",
+          "nome": "Nado artístico",
+          "descricao": "Esporte aquático em que nadadoras executam coreografias sincronizadas ao som de música.",
+          "variantes": [
+            "Natação sincronizada",
+            "Nado sincronizado"
+          ]
+        },
+        {
+          "id": "patinacao_artistica",
+          "nome": "Patinação artística",
+          "descricao": "Esporte em que atletas executam saltos, giros e passos de dança sobre o gelo.",
+          "variantes": [
+            "Patinação artística no gelo",
+            "Figure skating"
+          ]
+        },
+        {
+          "id": "ginastica_artistica",
+          "nome": "Ginástica artística",
+          "descricao": "Modalidade de ginástica disputada em aparelhos como solo, argolas, barras e trave.",
+          "variantes": [
+            "Ginástica olímpica"
+          ]
+        },
+        {
+          "id": "solo_ginastica_artistica",
+          "nome": "Solo (ginástica artística)",
+          "descricao": "Aparelho e prova da ginástica artística realizados num tablado acolchoado com molas.",
+          "variantes": [
+            "Floor exercise",
+            "Exercícios de solo"
+          ]
+        },
+        {
+          "id": "natacao",
+          "nome": "Natação",
+          "descricao": "Esporte aquático em que atletas competem nadando em piscina ou águas abertas, com os estilos crawl, costas, peito e borboleta.",
+          "variantes": [
+            "Natação esportiva",
+            "Natação competitiva"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nado livre é categoria de provas; crawl é um estilo específico, entidade distinta."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "mark_spitz",
+      "motivo": "Mesmo nadador americano de Munique 1972."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "adhemar_ferreira_da_silva",
+      "motivo": "Mesmo atleta do salto triplo, bicampeão olímpico."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "vanderlei_cordeiro_de_lima",
+      "motivo": "Mesmo maratonista, bronze em Atenas 2004."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "nadia_comaneci",
+      "motivo": "Mesma ginasta romena com a primeira nota dez."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "duke_kahanamoku",
+      "motivo": "Mesma pessoa, descrições compatíveis (nadador/surfista havaiano)."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "daniel_dias",
+      "motivo": "Mesmo nadador paralímpico brasileiro; diferença de ano é só detalhe."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "usain_bolt",
+      "motivo": "Mesmo velocista jamaicano."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pedra de curling."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o levantamento de peso."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a prova de salto triplo."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "nado_artistico",
+      "motivo": "Mesmo esporte; natação artística é o nome atual de nado sincronizado/artístico."
+    }
+  ]
+}

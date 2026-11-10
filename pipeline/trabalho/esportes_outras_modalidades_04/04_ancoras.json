@@ -1,0 +1,1149 @@
+{
+  "itens": [
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "tour_de_france",
+        "nome": "Tour de France",
+        "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+        "variantes": [
+          "Volta da França"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tour_de_France"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No Tour de France, o líder veste amarelo e o melhor escalador, bolinhas. Que cor tem a camisa do líder da classificação por pontos, a dos velocistas?",
+      "resposta": "Verde",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Points_classification_in_the_Tour_de_France"
+      ],
+      "distratores": [
+        "Azul",
+        "Branca",
+        "Laranja"
+      ],
+      "ancora": "tour_de_france"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "eddy_merckx",
+        "nome": "Eddy Merckx",
+        "descricao": "Ciclista belga, cinco vezes campeão do Tour de France, considerado um dos maiores da história.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eddy_Merckx"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1972, Eddy Merckx bateu o recorde da hora, pedalando sozinho por sessenta minutos numa pista de grande altitude. Em que cidade?",
+      "resposta": "Cidade do México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eddy_Merckx",
+        "https://en.wikipedia.org/wiki/Hour_record"
+      ],
+      "ancora": "eddy_merckx"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "jack_nicklaus",
+        "nome": "Jack Nicklaus",
+        "descricao": "Golfista americano aposentado, com recorde de 18 títulos de majors.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jack_Nicklaus"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O golfista americano Jack Nicklaus, recordista de títulos de majors, ficou conhecido por qual apelido que leva o nome de um animal?",
+      "resposta": "Urso Dourado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jack_Nicklaus"
+      ],
+      "ancora": "jack_nicklaus"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "masters_de_golfe",
+        "nome": "Masters de golfe",
+        "descricao": "Torneio principal de golfe disputado todo ano no Augusta National Golf Club, nos Estados Unidos.",
+        "variantes": [
+          "The Masters",
+          "Masters Tournament"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Masters_Tournament"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 2025, ao vencer o Masters de golfe, que jogador norte-irlandês completou o Grand Slam da carreira, com títulos nos quatro torneios principais?",
+      "resposta": "Rory McIlroy",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2025_Masters_Tournament",
+        "https://en.wikipedia.org/wiki/Rory_McIlroy"
+      ],
+      "ancora": "masters_de_golfe"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "ryder_cup",
+        "nome": "Ryder Cup",
+        "descricao": "Competição bienal de golfe por equipes entre os Estados Unidos e uma seleção europeia, disputada desde 1927.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ryder_Cup"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A Ryder Cup de golfe leva o nome do empresário inglês Samuel Ryder, que doou o troféu. Que produto ele vendia?",
+      "resposta": "Sementes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Samuel_Ryder"
+      ],
+      "distratores": [
+        "Uísque",
+        "Chá",
+        "Tecidos"
+      ],
+      "ancora": "ryder_cup"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "michael_phelps",
+        "nome": "Michael Phelps",
+        "descricao": "Nadador americano, maior medalhista da história dos Jogos Olímpicos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Phelps"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ainda criança, Michael Phelps encontrou na piscina uma forma de gastar energia. Que transtorno foi diagnosticado nele quando cursava a sexta série?",
+      "resposta": "TDAH (déficit de atenção e hiperatividade)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michael_Phelps"
+      ],
+      "ancora": "michael_phelps"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Nado livre",
+        "descricao": "Categoria de provas da natação competitiva em que o nadador pode usar qualquer estilo.",
+        "variantes": [
+          "Freestyle",
+          "Estilo livre"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Freestyle_swimming"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Nas provas de nado livre, o regulamento permite qualquer estilo. Qual estilo quase todos os nadadores escolhem, por ser o mais rápido?",
+      "resposta": "Crawl",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Freestyle_swimming"
+      ],
+      "ancora": "nado_livre"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "bob_beamon",
+        "nome": "Bob Beamon",
+        "descricao": "Atleta americano, campeão olímpico do salto em distância nos Jogos da Cidade do México 1968.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bob_Beamon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1968, o salto de Bob Beamon foi tão longo que passou do alcance do aparelho óptico de medição. Que instrumento os juízes tiveram de usar?",
+      "resposta": "Uma trena",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bob_Beamon"
+      ],
+      "ancora": "bob_beamon"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "decatlo",
+        "nome": "Decatlo",
+        "descricao": "Prova combinada do atletismo masculino, com dez provas disputadas em dois dias.",
+        "variantes": [
+          "Decathlon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Decathlon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Desde que um rei da Suécia elogiou Jim Thorpe em 1912, o campeão olímpico do decatlo costuma receber qual título informal?",
+      "resposta": "Maior atleta do mundo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Decathlon",
+        "https://en.wikipedia.org/wiki/Jim_Thorpe"
+      ],
+      "ancora": "decatlo"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "3000_metros_com_obstaculos",
+        "nome": "3000 metros com obstáculos",
+        "descricao": "Prova do atletismo em que os corredores saltam barreiras e um fosso com água ao longo de três mil metros.",
+        "variantes": [
+          "Steeplechase"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Steeplechase_(athletics)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na prova de três mil metros com obstáculos, os atletas saltam vinte e oito barreiras secas. E quantas vezes passam pelo fosso com água?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Steeplechase_(athletics)"
+      ],
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Dez"
+      ],
+      "ancora": "3000_metros_com_obstaculos"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "joao_do_pulo",
+        "nome": "João do Pulo",
+        "descricao": "João Carlos de Oliveira, atleta brasileiro do salto triplo, recordista mundial em 1975.",
+        "variantes": [
+          "João Carlos de Oliveira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jo%C3%A3o_Carlos_de_Oliveira"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Depois do acidente que encerrou sua carreira no salto triplo, João do Pulo entrou na política. Para que cargo foi eleito em São Paulo?",
+      "resposta": "Deputado estadual",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jo%C3%A3o_Carlos_de_Oliveira",
+        "https://pt.wikipedia.org/wiki/Jo%C3%A3o_do_Pulo"
+      ],
+      "distratores": [
+        "Vereador",
+        "Deputado federal",
+        "Senador"
+      ],
+      "ancora": "joao_do_pulo"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "maratona_de_boston",
+        "nome": "Maratona de Boston",
+        "descricao": "Maratona anual disputada em Boston, nos Estados Unidos, desde 1897.",
+        "variantes": [
+          "Boston Marathon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boston_Marathon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1967, Kathrine Switzer correu a Maratona de Boston com número de inscrição, e um organizador tentou tirá-la da prova à força. Por quê?",
+      "resposta": "Por ser mulher",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kathrine_Switzer"
+      ],
+      "ancora": "maratona_de_boston"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "corrida_de_sao_silvestre",
+        "nome": "Corrida de São Silvestre",
+        "descricao": "Corrida de rua disputada em São Paulo todo 31 de dezembro, desde 1925.",
+        "variantes": [
+          "Corrida Internacional de São Silvestre"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Corrida_Internacional_de_S%C3%A3o_Silvestre"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A Corrida de São Silvestre leva o nome do santo celebrado em trinta e um de dezembro. Quem foi São Silvestre?",
+      "resposta": "Um papa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pope_Sylvester_I",
+        "https://pt.wikipedia.org/wiki/Corrida_Internacional_de_S%C3%A3o_Silvestre"
+      ],
+      "distratores": [
+        "Um bispo de Paris",
+        "Um monge irlandês",
+        "Um soldado romano"
+      ],
+      "ancora": "corrida_de_sao_silvestre"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "daiane_dos_santos",
+        "nome": "Daiane dos Santos",
+        "descricao": "Ginasta artística brasileira, campeã mundial no solo em 2003.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Daiane_dos_Santos"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 2003, Daiane dos Santos fez a série que lhe deu o título mundial no solo ao som de qual choro de Waldir Azevedo?",
+      "resposta": "Brasileirinho",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Daiane_dos_Santos"
+      ],
+      "ancora": "daiane_dos_santos"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "italo_ferreira",
+        "nome": "Ítalo Ferreira",
+        "descricao": "Surfista brasileiro de Baía Formosa (RN), campeão mundial da WSL e campeão olímpico em 2020.",
+        "variantes": [
+          "Italo Ferreira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/%C3%8Dtalo_Ferreira"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Antes de ter uma prancha, o menino Ítalo Ferreira pegava as ondas de Baía Formosa deitado sobre um objeto improvisado. Qual?",
+      "resposta": "Tampa de caixa de isopor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/%C3%8Dtalo_Ferreira"
+      ],
+      "ancora": "italo_ferreira"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "rayssa_leal",
+        "nome": "Rayssa Leal",
+        "descricao": "Skatista brasileira, medalhista olímpica no skate street, conhecida como Fadinha.",
+        "variantes": [
+          "Fadinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rayssa_Leal"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Ao ganhar a prata no skate street em Tóquio, Rayssa Leal virou a medalhista olímpica mais jovem da história do Brasil. Que idade ela tinha?",
+      "resposta": "Treze anos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rayssa_Leal"
+      ],
+      "distratores": [
+        "Doze anos",
+        "Catorze anos",
+        "Quinze anos"
+      ],
+      "ancora": "rayssa_leal"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "tony_hawk",
+        "nome": "Tony Hawk",
+        "descricao": "Skatista profissional americano, um dos nomes mais famosos do skate vertical.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tony_Hawk"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Pioneiro do skate vertical e dono da marca Birdhouse, Tony Hawk é conhecido por qual apelido em inglês?",
+      "resposta": "Birdman",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tony_Hawk"
+      ],
+      "ancora": "tony_hawk"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "paris_roubaix",
+        "nome": "Paris-Roubaix",
+        "descricao": "Clássica de ciclismo de um dia no norte da França, famosa pelos trechos de calçamento de pedra.",
+        "variantes": [
+          "Paris–Roubaix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paris%E2%80%93Roubaix"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por causa das estradas de pedra e da devastação deixada pela Primeira Guerra na região, a clássica Paris-Roubaix ganhou que apelido sombrio?",
+      "resposta": "Inferno do Norte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paris%E2%80%93Roubaix"
+      ],
+      "ancora": "paris_roubaix"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "garry_kasparov",
+        "nome": "Garry Kasparov",
+        "descricao": "Enxadrista nascido em Baku em 1963, campeão mundial de xadrez de 1985 a 2000.",
+        "variantes": [
+          "Garri Kasparov"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Garry_Kasparov"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1997, o campeão mundial de xadrez Garry Kasparov perdeu um match para qual computador da IBM?",
+      "resposta": "Deep Blue",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"
+      ],
+      "ancora": "garry_kasparov"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "bobby_fischer",
+        "nome": "Bobby Fischer",
+        "descricao": "Enxadrista americano, campeão mundial de xadrez em 1972 após vencer o soviético Boris Spassky.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bobby_Fischer"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1972, em plena Guerra Fria, o americano Bobby Fischer derrotou o soviético Boris Spassky pelo título mundial de xadrez. Em que cidade?",
+      "resposta": "Reykjavík",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/World_Chess_Championship_1972"
+      ],
+      "distratores": [
+        "Helsinque",
+        "Oslo",
+        "Genebra"
+      ],
+      "ancora": "bobby_fischer"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "snooker",
+        "nome": "Snooker",
+        "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+        "variantes": [
+          "Sinuca inglesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Snooker"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No snooker, a chamada tacada máxima, em que o jogador encaçapa todas as bolas sem errar, vale quantos pontos?",
+      "resposta": "147",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maximum_break"
+      ],
+      "distratores": [
+        "120",
+        "150",
+        "180"
+      ],
+      "ancora": "snooker"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "ronnie_o_sullivan",
+        "nome": "Ronnie O'Sullivan",
+        "descricao": "Jogador inglês de sinuca (snooker), sete vezes campeão mundial.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ronnie_O%27Sullivan"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Pela velocidade com que joga, como o inglês Ronnie O'Sullivan é chamado pelos fãs de snooker?",
+      "resposta": "The Rocket",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ronnie_O%27Sullivan"
+      ],
+      "distratores": [
+        "The Whirlwind",
+        "The Hurricane",
+        "The Nugget"
+      ],
+      "ancora": "ronnie_o_sullivan"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "babe_ruth",
+        "nome": "Babe Ruth",
+        "descricao": "Jogador norte-americano de beisebol, lenda do New York Yankees, apelidado Bambino.",
+        "variantes": [
+          "George Herman Ruth"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Babe_Ruth"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Babe Ruth encerrou a carreira no beisebol com um total de home runs que só foi superado em 1974. Quantos foram?",
+      "resposta": "714",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Babe_Ruth"
+      ],
+      "distratores": [
+        "660",
+        "755",
+        "762"
+      ],
+      "ancora": "babe_ruth"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "tom_brady",
+        "nome": "Tom Brady",
+        "descricao": "Quarterback americano de futebol americano, campeão da NFL com os Patriots e os Buccaneers.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tom_Brady"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Aposentado em 2023, o quarterback Tom Brady venceu quantos Super Bowls ao longo da carreira?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tom_Brady"
+      ],
+      "distratores": [
+        "Cinco",
+        "Seis",
+        "Oito"
+      ],
+      "ancora": "tom_brady"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "criquete",
+        "nome": "Críquete",
+        "descricao": "Esporte de bastão e bola, muito popular na Inglaterra, na Índia e na Austrália.",
+        "variantes": [
+          "Cricket"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cricket"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No críquete, uma partida no formato teste, o mais tradicional entre seleções, é programada para durar até quantos dias?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Test_cricket"
+      ],
+      "distratores": [
+        "Dois",
+        "Três",
+        "Sete"
+      ],
+      "ancora": "criquete"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Usain Bolt",
+        "descricao": "Velocista jamaicano, multicampeão olímpico dos cem e duzentos metros entre 2008 e 2016.",
+        "variantes": [
+          "Usain St. Leo Bolt"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Usain_Bolt"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Usain Bolt perdeu um ouro olímpico por causa do doping de um companheiro de revezamento. Com quantas medalhas de ouro olímpicas ele ficou?",
+      "resposta": "Oito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Usain_Bolt"
+      ],
+      "distratores": [
+        "Sete",
+        "Nove",
+        "Dez"
+      ],
+      "ancora": "usain_bolt"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Usain Bolt",
+        "descricao": "Velocista jamaicano, multicampeão olímpico dos cem e duzentos metros entre 2008 e 2016.",
+        "variantes": [
+          "Usain St. Leo Bolt"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Usain_Bolt"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2018, já fora do atletismo, Usain Bolt marcou dois gols num amistoso durante um período de testes no Central Coast Mariners. Em que país fica esse clube?",
+      "resposta": "Austrália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Usain_Bolt"
+      ],
+      "ancora": "usain_bolt"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "bobsled",
+        "nome": "Bobsled",
+        "descricao": "Esporte de inverno em que equipes descem uma pista de gelo num trenó.",
+        "variantes": [
+          "Bobsleigh",
+          "Bobe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bobsleigh"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que país do Caribe estreou no bobsled nos Jogos de Inverno de Calgary, em 1988, numa história que virou filme da Disney?",
+      "resposta": "Jamaica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jamaica_national_bobsleigh_team",
+        "https://en.wikipedia.org/wiki/Cool_Runnings"
+      ],
+      "ancora": "bobsled"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Pedra de curling",
+        "descricao": "Peça de granito polido, com alça, deslizada sobre o gelo no curling.",
+        "variantes": [
+          "Curling stone"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Curling"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Boa parte das pedras de curling usadas em competições olímpicas é feita do granito de uma pequena ilha desabitada. De qual país?",
+      "resposta": "Escócia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ailsa_Craig",
+        "https://en.wikipedia.org/wiki/Curling"
+      ],
+      "distratores": [
+        "Noruega",
+        "Canadá",
+        "Islândia"
+      ],
+      "ancora": "pedra_de_curling"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "bungee_jump",
+        "nome": "Bungee jump",
+        "descricao": "Atividade radical em que a pessoa salta de uma grande altura presa a uma corda elástica.",
+        "variantes": [
+          "Bungee jumping"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bungee_jumping"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O bungee jump costuma ser associado a um antigo ritual de saltos de torres de madeira, com cipós presos aos tornozelos. Em que país do Pacífico?",
+      "resposta": "Vanuatu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Land_diving",
+        "https://en.wikipedia.org/wiki/Bungee_jumping"
+      ],
+      "distratores": [
+        "Fiji",
+        "Samoa",
+        "Papua-Nova Guiné"
+      ],
+      "ancora": "bungee_jump"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "futevolei",
+        "nome": "Futevôlei",
+        "descricao": "Esporte criado no Rio de Janeiro que mistura regras do vôlei de praia com os fundamentos do futebol.",
+        "variantes": [
+          "Footvolley"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Footvolley"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a história mais contada, o futevôlei nasceu em Copacabana como um jeito de driblar uma proibição da polícia. O que era proibido na areia?",
+      "resposta": "Jogar futebol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Footvolley"
+      ],
+      "ancora": "futevolei"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "lacrosse",
+        "nome": "Lacrosse",
+        "descricao": "Esporte de origem indígena norte-americana, jogado com bastões de rede.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lacrosse"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Duro e às vezes violento, o lacrosse servia de treino para o combate entre povos indígenas da América do Norte. Como alguns deles chamavam o jogo?",
+      "resposta": "Irmão menor da guerra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lacrosse"
+      ],
+      "ancora": "lacrosse"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Levantamento de peso olímpico",
+        "descricao": "Esporte olímpico em que o atleta ergue uma barra com anilhas acima da cabeça, em dois movimentos.",
+        "variantes": [
+          "Halterofilismo",
+          "Weightlifting"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympic_weightlifting"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No levantamento de peso olímpico, o resultado de cada atleta soma dois movimentos. Um deles é o arranco. Qual é o outro?",
+      "resposta": "Arremesso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympic_weightlifting"
+      ],
+      "distratores": [
+        "Supino",
+        "Agachamento",
+        "Levantamento terra"
+      ],
+      "ancora": "levantamento_de_peso_olimpico"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Salto triplo",
+        "descricao": "Prova do atletismo em que o atleta faz três impulsões seguidas antes de cair na caixa de areia.",
+        "variantes": [
+          "Triple jump"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Triple_jump"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No salto triplo, as três fases se chamam hop, step e jump. Ao fim da primeira, o atleta toca o chão com qual pé?",
+      "resposta": "O mesmo da impulsão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Triple_jump"
+      ],
+      "distratores": [
+        "O pé oposto",
+        "Os dois pés",
+        "Qualquer um"
+      ],
+      "ancora": "salto_triplo"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Natação artística",
+        "descricao": "Modalidade aquática em que atletas executam coreografias sincronizadas com música, antes chamada nado sincronizado.",
+        "variantes": [
+          "Nado sincronizado",
+          "Artistic swimming",
+          "Synchronized swimming"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Artistic_swimming"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 2017, a federação internacional de esportes aquáticos trocou o nome oficial do nado sincronizado. Qual nome passou a ser usado?",
+      "resposta": "Natação artística",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Artistic_swimming"
+      ],
+      "distratores": [
+        "Balé aquático",
+        "Dança aquática",
+        "Natação coreográfica"
+      ],
+      "ancora": "nado_artistico"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "tiger_woods",
+        "nome": "Tiger Woods",
+        "descricao": "Golfista americano, nascido Eldrick Tont Woods, um dos maiores vencedores de torneios principais.",
+        "variantes": [
+          "Eldrick Tont Woods"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tiger_Woods"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Aos dois anos, Tiger Woods apareceu num programa de TV americano disputando tacadas curtas com qual comediante famoso?",
+      "resposta": "Bob Hope",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tiger_Woods"
+      ],
+      "distratores": [
+        "Jerry Lewis",
+        "Johnny Carson",
+        "Bill Cosby"
+      ],
+      "ancora": "tiger_woods"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "nado_livre",
+      "nome": "Nado livre",
+      "descricao": "Categoria de provas da natação competitiva em que o nadador pode usar qualquer estilo.",
+      "variantes": [
+        "Freestyle",
+        "Estilo livre"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Freestyle_swimming"
+      ]
+    },
+    {
+      "id": "pedra_de_curling",
+      "nome": "Pedra de curling",
+      "descricao": "Peça de granito polido, com alça, deslizada sobre o gelo no curling.",
+      "variantes": [
+        "Curling stone"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Curling"
+      ]
+    },
+    {
+      "id": "levantamento_de_peso_olimpico",
+      "nome": "Levantamento de peso olímpico",
+      "descricao": "Esporte olímpico em que o atleta ergue uma barra com anilhas acima da cabeça, em dois movimentos.",
+      "variantes": [
+        "Halterofilismo",
+        "Weightlifting"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Olympic_weightlifting"
+      ]
+    },
+    {
+      "id": "salto_triplo",
+      "nome": "Salto triplo",
+      "descricao": "Prova do atletismo em que o atleta faz três impulsões seguidas antes de cair na caixa de areia.",
+      "variantes": [
+        "Triple jump"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Triple_jump"
+      ]
+    }
+  ],
+  "variantes": {
+    "maratona": [
+      "Maratona",
+      "Marathon"
+    ],
+    "tour_de_france": [
+      "Tour de France",
+      "Volta da França"
+    ],
+    "eddy_merckx": [
+      "Eddy Merckx"
+    ],
+    "jack_nicklaus": [
+      "Jack Nicklaus"
+    ],
+    "masters_de_golfe": [
+      "Masters de golfe",
+      "The Masters",
+      "Masters Tournament"
+    ],
+    "ryder_cup": [
+      "Ryder Cup"
+    ],
+    "michael_phelps": [
+      "Michael Phelps"
+    ],
+    "bob_beamon": [
+      "Bob Beamon"
+    ],
+    "jesse_owens": [
+      "Jesse Owens",
+      "James Cleveland Owens"
+    ],
+    "decatlo": [
+      "Decatlo",
+      "Decathlon"
+    ],
+    "3000_metros_com_obstaculos": [
+      "3000 metros com obstáculos",
+      "Steeplechase"
+    ],
+    "joao_do_pulo": [
+      "João do Pulo",
+      "João Carlos de Oliveira"
+    ],
+    "maratona_de_boston": [
+      "Maratona de Boston",
+      "Boston Marathon"
+    ],
+    "corrida_de_sao_silvestre": [
+      "Corrida de São Silvestre",
+      "Corrida Internacional de São Silvestre"
+    ],
+    "daiane_dos_santos": [
+      "Daiane dos Santos"
+    ],
+    "italo_ferreira": [
+      "Ítalo Ferreira",
+      "Italo Ferreira"
+    ],
+    "rayssa_leal": [
+      "Rayssa Leal",
+      "Fadinha"
+    ],
+    "tony_hawk": [
+      "Tony Hawk"
+    ],
+    "paris_roubaix": [
+      "Paris-Roubaix",
+      "Paris–Roubaix"
+    ],
+    "garry_kasparov": [
+      "Garry Kasparov",
+      "Garri Kasparov"
+    ],
+    "bobby_fischer": [
+      "Bobby Fischer"
+    ],
+    "snooker": [
+      "Snooker",
+      "Sinuca inglesa"
+    ],
+    "ronnie_o_sullivan": [
+      "Ronnie O'Sullivan"
+    ],
+    "babe_ruth": [
+      "Babe Ruth",
+      "George Herman Ruth"
+    ],
+    "tom_brady": [
+      "Tom Brady"
+    ],
+    "criquete": [
+      "Críquete",
+      "Cricket"
+    ],
+    "bobsled": [
+      "Bobsled",
+      "Bobsleigh",
+      "Bobe"
+    ],
+    "bungee_jump": [
+      "Bungee jump",
+      "Bungee jumping"
+    ],
+    "futevolei": [
+      "Futevôlei",
+      "Footvolley"
+    ],
+    "badminton": [
+      "Badminton"
+    ],
+    "lacrosse": [
+      "Lacrosse"
+    ],
+    "tiger_woods": [
+      "Tiger Woods",
+      "Eldrick Tont Woods"
+    ],
+    "mark_spitz": [
+      "Mark Spitz",
+      "Mark Andrew Spitz"
+    ],
+    "adhemar_ferreira_da_silva": [
+      "Adhemar Ferreira da Silva",
+      "Adhemar da Silva"
+    ],
+    "vanderlei_cordeiro_de_lima": [
+      "Vanderlei Cordeiro de Lima",
+      "Vanderlei de Lima"
+    ],
+    "nadia_comaneci": [
+      "Nadia Comăneci",
+      "Nadia Comaneci"
+    ],
+    "duke_kahanamoku": [
+      "Duke Kahanamoku",
+      "Duke Paoa Kahanamoku"
+    ],
+    "daniel_dias": [
+      "Daniel Dias"
+    ],
+    "usain_bolt": [
+      "Usain Bolt",
+      "Usain St. Leo Bolt"
+    ],
+    "nado_artistico": [
+      "Natação artística",
+      "Nado sincronizado",
+      "Artistic swimming",
+      "Synchronized swimming"
+    ]
+  }
+}
