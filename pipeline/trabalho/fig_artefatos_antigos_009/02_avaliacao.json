@@ -1,0 +1,297 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Esfinge de granito rosa, clara, sem texto legível.",
+      "familia": "quando",
+      "nivel": 3,
+      "pergunta": "A inscrição mais antiga que restou nesta esfinge menciona o reinado de um faraó de qual dinastia?",
+      "tipo": "multipla",
+      "resposta": "Décima segunda dinastia",
+      "distratores": [
+        "Terceira dinastia",
+        "Sexta dinastia",
+        "Décima oitava dinastia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grande Esfinge de Tânis",
+        "descricao": "Esfinge egípcia de granito rosa achada nas ruínas do templo de Amon-Rá em Tânis, hoje no Louvre.",
+        "variantes": [
+          "Esfinge de Tânis",
+          "Great Sphinx of Tanis"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Paleta em relevo, sem texto, legível; resposta única.",
+      "familia": "quando",
+      "nivel": 1,
+      "pergunta": "Em que milênio antes de Cristo foi feita esta paleta cosmética egípcia?",
+      "tipo": "multipla",
+      "resposta": "Quarto milênio a.C.",
+      "distratores": [
+        "Terceiro milênio a.C.",
+        "Segundo milênio a.C.",
+        "Primeiro milênio a.C."
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paleta dos Caçadores",
+        "descricao": "Paleta cosmética egípcia de cerca de 3100 a.C., período Naqada III, dividida entre o Museu Britânico e o Louvre.",
+        "variantes": [
+          "Paleta da Caça ao Leão",
+          "Hunters Palette",
+          "Lion Hunt Palette"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Conjunto de sinos de bronze claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que instrumento musical chinês antigo é este?",
+      "tipo": "multipla",
+      "resposta": "Bianzhong",
+      "distratores": [
+        "Bianqing",
+        "Yunluo",
+        "Guqin"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Bianzhong",
+        "descricao": "Antigo instrumento chinês formado por um conjunto de sinos de bronze pendurados num suporte e tocados com martelo.",
+        "variantes": [
+          "Sinos de carrilhão chineses",
+          "Chime bells",
+          "Pyeonjong"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estátua de pedra de divindade asteca, sem texto; reconhecível pelo rosto de caveira.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Este deus asteca era o rei de qual domínio?",
+      "tipo": "multipla",
+      "resposta": "Mictlan",
+      "distratores": [
+        "Tlalocan",
+        "Omeyocan",
+        "Tamoanchan"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Mictlantecuhtli",
+        "descricao": "Deus asteca da morte e senhor de Mictlan, a parte mais baixa do mundo dos mortos.",
+        "variantes": [
+          "Mictlāntēcutli",
+          "Senhor de Mictlan"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Monólito claro numa sala de museu; sem texto legível. Trecho não traz data, então a pergunta é de lugar.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Em que país está esta estátua monolítica de arenito avermelhado, a maior da região andina?",
+      "tipo": "multipla",
+      "resposta": "Bolívia",
+      "distratores": [
+        "Peru",
+        "Chile",
+        "Equador"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Monólito Bennett",
+        "descricao": "Estátua monolítica de arenito da civilização Tiwanaku, com cerca de 7 metros, no Museu de Tiwanaku, na Bolívia.",
+        "variantes": [
+          "Monólito Bennett de Tiwanaku",
+          "Estela 10",
+          "Bennett Monolith"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tríade em relevo, clara, sem legenda; o faraó central é único.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Que faraó da quarta dinastia aparece ao centro desta tríade, ladeado por duas figuras?",
+      "tipo": "multipla",
+      "resposta": "Miquerinos",
+      "distratores": [
+        "Quéops",
+        "Quéfren",
+        "Seneferu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tríades de Miquerinos",
+        "descricao": "Grupo de relevos de grauvaca que mostram o faraó Miquerinos ladeado por duas figuras, da quarta dinastia egípcia.",
+        "variantes": [
+          "Tríade de Miquerinos",
+          "Menkaure triads",
+          "Tríades de Menkaure"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Monólito com disco solar claro; a placa ao pé está ilegível e não entrega a cidade.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Em que cidade está este monólito asteca, que pode ter servido de trono a Montezuma Segundo?",
+      "tipo": "multipla",
+      "resposta": "Cidade do México",
+      "distratores": [
+        "Oaxaca",
+        "Puebla",
+        "Guadalajara"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Teocalli da Guerra Sagrada",
+        "descricao": "Miniatura monolítica de um templo asteca, hoje no Museu Nacional de Antropologia, na Cidade do México.",
+        "variantes": [
+          "Teocalli de la Guerra Sagrada",
+          "Teocalli of the Sacred War"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Peça de ouro bem iluminada e reconhecível; sem texto. Trecho não traz data, então pergunta de lugar.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Em que país este recipiente de ouro pré-colombiano é considerado um símbolo nacional?",
+      "tipo": "multipla",
+      "resposta": "Colômbia",
+      "distratores": [
+        "Peru",
+        "Equador",
+        "Panamá"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Poporo Quimbaya",
+        "descricao": "Recipiente de ouro da cultura Quimbaya para guardar cal usada ao mascar coca, exposto no Museu do Ouro, em Bogotá.",
+        "variantes": [
+          "Poporo Quimbaya de ouro",
+          "Quimbaya poporo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cabeça de terracota clara; o fundo é foto sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Em que país foi achada esta cabeça de terracota da Idade do Ferro africana?",
+      "tipo": "multipla",
+      "resposta": "África do Sul",
+      "distratores": [
+        "Zimbábue",
+        "Moçambique",
+        "Botsuana"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Cabeças de Lydenburg",
+        "descricao": "Sete cabeças de terracota de cerca de 500 d.C., achadas em Lydenburg, na África do Sul.",
+        "variantes": [
+          "Lydenburg Heads",
+          "Cabeças de Lydenburg"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Espada de bronze nítida; a inscrição na lâmina é ilegível e não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que espada de bronze chinesa, achada num túmulo, é esta?",
+      "tipo": "multipla",
+      "resposta": "Espada de Goujian",
+      "distratores": [
+        "Espada Moye",
+        "Espada Zhanlu",
+        "Espada Taie"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Espada de Goujian",
+        "descricao": "Espada jian de bronze do rei Goujian de Yue, achada em 1965 num túmulo em Hubei, conhecida pelo fio e pela resistência à corrosão.",
+        "variantes": [
+          "Sword of Goujian",
+          "Espada do rei Goujian"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Escultura de madeira em fundo neutro, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "pergunta": "Esta escultura, que retrata um rei sentado, vem de qual reino africano?",
+      "tipo": "multipla",
+      "resposta": "Reino Kuba",
+      "distratores": [
+        "Reino Ashanti",
+        "Reino do Daomé",
+        "Reino de Ifé"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Ndop",
+        "descricao": "Escultura figurativa em madeira que representa um rei (nyim) do reino Kuba, na África Central.",
+        "variantes": [
+          "Ndop Kuba",
+          "Estátua ndop",
+          "Ndop de Shyaam aMbul aNgoong"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua clara em fundo liso, sem texto. A datação é disputada, então a pergunta é de lugar.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Em que cidade indiana está, num museu, esta estátua de arenito polido?",
+      "tipo": "multipla",
+      "resposta": "Patna",
+      "distratores": [
+        "Varanasi",
+        "Calcutá",
+        "Nova Délhi"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Yakshi de Didarganj",
+        "descricao": "Estátua indiana de arenito polido de Chunar, achada em 1917 e hoje no Museu de Bihar, em Patna.",
+        "variantes": [
+          "Didarganj Yakshi",
+          "Didarganj Chauri Bearer"
+        ]
+      }
+    }
+  ]
+}

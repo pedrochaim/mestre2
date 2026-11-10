@@ -1,0 +1,667 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Grande Esfinge de Tânis",
+        "descricao": "Esfinge egípcia de granito rosa achada nas ruínas do templo de Amon-Rá em Tânis, hoje no Louvre.",
+        "variantes": [
+          "Esfinge de Tânis",
+          "Great Sphinx of Tanis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esfinge_de_tebas",
+          "nome": "Esfinge de Tebas",
+          "descricao": "Monstro da mitologia grega com corpo de leão e cabeça de mulher que propunha um enigma aos viajantes de Tebas.",
+          "variantes": [
+            "Esfinge grega"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "grande_estupa_de_sanchi",
+          "nome": "Grande Estupa de Sanchi",
+          "descricao": "Monumento budista em Madhya Pradesh, Índia, uma das mais antigas construções de pedra do país.",
+          "variantes": [
+            "Estupa de Sanchi",
+            "Sanchi Stupa",
+            "Great Stupa of Sanchi"
+          ]
+        },
+        {
+          "id": "sinal_de_mais",
+          "nome": "Sinal de mais",
+          "descricao": "Símbolo matemático em forma de cruz que indica a adição e os números positivos.",
+          "variantes": [
+            "Sinal de adição",
+            "Sinal positivo"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bianzhong",
+        "descricao": "Antigo instrumento chinês formado por um conjunto de sinos de bronze pendurados num suporte e tocados com martelo.",
+        "variantes": [
+          "Sinos de carrilhão chineses",
+          "Chime bells",
+          "Pyeonjong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "biatlo",
+          "nome": "Biatlo",
+          "descricao": "Esporte de inverno que combina esqui cross-country com tiro ao alvo.",
+          "variantes": [
+            "Biathlon"
+          ]
+        },
+        {
+          "id": "estacao_espacial_tiangong",
+          "nome": "Estação Espacial Tiangong",
+          "descricao": "Estação espacial permanente da China, em órbita baixa da Terra desde 2021.",
+          "variantes": [
+            "Tiangong",
+            "Estação Espacial Chinesa",
+            "China Space Station"
+          ]
+        },
+        {
+          "id": "bronzong",
+          "nome": "Bronzong",
+          "descricao": "Pokémon dos tipos Aço e Psíquico, número 437 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "sinos_tubulares",
+          "nome": "Sinos tubulares",
+          "descricao": "Instrumento de percussão formado por tubos de metal afinados, golpeados com martelo, que imita sinos de igreja.",
+          "variantes": [
+            "Tubular bells",
+            "Carrilhão de orquestra",
+            "Chimes"
+          ]
+        },
+        {
+          "id": "arquimedes",
+          "nome": "Arquimedes",
+          "descricao": "Matemático, físico e inventor grego de Siracusa, do século três antes de Cristo, autor do princípio do empuxo.",
+          "variantes": [
+            "Arquimedes de Siracusa",
+            "Archimedes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mictlantecuhtli",
+        "descricao": "Deus asteca da morte e senhor de Mictlan, a parte mais baixa do mundo dos mortos.",
+        "variantes": [
+          "Mictlāntēcutli",
+          "Senhor de Mictlan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "senhor_de_sipan",
+          "nome": "Senhor de Sipán",
+          "descricao": "Governante moche cuja tumba intacta, cheia de joias, foi descoberta em 1987 no norte do Peru.",
+          "variantes": [
+            "Lord of Sipán",
+            "Señor de Sipán"
+          ]
+        },
+        {
+          "id": "penacho_de_moctezuma",
+          "nome": "Penacho de Moctezuma",
+          "descricao": "Cocar asteca de plumas de quetzal e ouro, tradicionalmente atribuído a Moctezuma II, guardado num museu europeu.",
+          "variantes": [
+            "Penacho de Montezuma",
+            "Moctezuma's headdress"
+          ]
+        },
+        {
+          "id": "otzi",
+          "nome": "Ötzi",
+          "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+          "variantes": [
+            "Homem do gelo",
+            "Iceman",
+            "Homem de Similaun",
+            "Oetzi"
+          ]
+        },
+        {
+          "id": "edito_de_milao",
+          "nome": "Édito de Milão",
+          "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+          "variantes": [
+            "Edict of Milan"
+          ]
+        },
+        {
+          "id": "inter_de_milao",
+          "nome": "Inter de Milão",
+          "descricao": "Football Club Internazionale Milano, clube de futebol de Milão, na Itália, fundado em 1908.",
+          "variantes": [
+            "Internazionale",
+            "Inter Milan",
+            "Inter"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Monólito Bennett",
+        "descricao": "Estátua monolítica de arenito da civilização Tiwanaku, com cerca de 7 metros, no Museu de Tiwanaku, na Bolívia.",
+        "variantes": [
+          "Monólito Bennett de Tiwanaku",
+          "Estela 10",
+          "Bennett Monolith"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diesel_s10",
+          "nome": "Diesel S10",
+          "descricao": "Óleo diesel de baixo teor de enxofre, com no máximo dez partes por milhão, vendido no Brasil.",
+          "variantes": [
+            "Óleo diesel S10"
+          ]
+        },
+        {
+          "id": "estrela_polar",
+          "nome": "Estrela Polar",
+          "descricao": "Estrela muito próxima do polo norte celeste, usada há séculos para indicar o norte.",
+          "variantes": [
+            "Polaris",
+            "Alfa da Ursa Menor"
+          ]
+        },
+        {
+          "id": "shuriken",
+          "nome": "Shuriken",
+          "descricao": "Arma japonesa de arremesso, em geral uma lâmina em forma de estrela, associada aos ninjas.",
+          "variantes": [
+            "Estrela ninja",
+            "Shuriken de arremesso"
+          ]
+        },
+        {
+          "id": "crinoide",
+          "nome": "Crinoide",
+          "descricao": "Equinodermo marinho da classe Crinoidea, de braços plumosos, que inclui lírios-do-mar e estrelas-pluma.",
+          "variantes": [
+            "Lírio-do-mar",
+            "Crinoidea",
+            "Estrela-pluma",
+            "Comatulídeo"
+          ]
+        },
+        {
+          "id": "celesteela",
+          "nome": "Celesteela",
+          "descricao": "Pokémon dos tipos Aço e Voador, número 797 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tríades de Miquerinos",
+        "descricao": "Grupo de relevos de grauvaca que mostram o faraó Miquerinos ladeado por duas figuras, da quarta dinastia egípcia.",
+        "variantes": [
+          "Tríade de Miquerinos",
+          "Menkaure triads",
+          "Tríades de Menkaure"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_de_miquerinos",
+          "nome": "Pirâmide de Miquerinos",
+          "descricao": "Menor das três grandes pirâmides de Gizé, túmulo do faraó Miquerinos, da Quarta Dinastia",
+          "variantes": [
+            "Pirâmide de Menkaure",
+            "Pyramid of Menkaure"
+          ]
+        },
+        {
+          "id": "dia_dos_mortos",
+          "nome": "Dia dos Mortos",
+          "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+          "variantes": [
+            "Día de Muertos",
+            "Día de los Muertos"
+          ]
+        },
+        {
+          "id": "rachel_de_queiroz",
+          "nome": "Rachel de Queiroz",
+          "descricao": "Escritora cearense (1910–2003), autora de O Quinze.",
+          "variantes": [
+            "Raquel de Queirós",
+            "Raquel de Queiroz"
+          ]
+        },
+        {
+          "id": "piramides_de_meroe",
+          "nome": "Pirâmides de Méroe",
+          "descricao": "Conjunto de pirâmides núbias erguidas pelos reis de Cuxe perto da antiga cidade de Méroe.",
+          "variantes": [
+            "Pirâmides núbias",
+            "Meroë pyramids"
+          ]
+        },
+        {
+          "id": "cheesecake",
+          "nome": "Cheesecake",
+          "descricao": "Sobremesa de queijo fresco e açúcar, com base de biscoito.",
+          "variantes": [
+            "Torta de queijo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Teocalli da Guerra Sagrada",
+        "descricao": "Miniatura monolítica de um templo asteca, hoje no Museu Nacional de Antropologia, na Cidade do México.",
+        "variantes": [
+          "Teocalli de la Guerra Sagrada",
+          "Teocalli of the Sacred War"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "figueira_dos_pagodes",
+          "nome": "Figueira-dos-pagodes",
+          "descricao": "Árvore Ficus religiosa, nativa do subcontinente indiano, sagrada no budismo e no hinduísmo",
+          "variantes": [
+            "Ficus religiosa",
+            "Árvore Bodhi",
+            "Figueira-sagrada"
+          ]
+        },
+        {
+          "id": "arvore_bodhi",
+          "nome": "Árvore Bodhi",
+          "descricao": "Figueira sagrada sob a qual, segundo a tradição budista, Sidarta Gautama alcançou a iluminação.",
+          "variantes": [
+            "Bodhi Tree",
+            "Árvore da Iluminação",
+            "Árvore de Bodhi",
+            "Figueira sagrada"
+          ]
+        },
+        {
+          "id": "crocodilo_de_agua_salgada",
+          "nome": "Crocodilo-de-água-salgada",
+          "descricao": "Grande crocodiliano (Crocodylus porosus) de estuários e costas do leste da Índia, Sudeste Asiático e norte da Austrália.",
+          "variantes": [
+            "Crocodilo-marinho",
+            "Crocodylus porosus"
+          ]
+        },
+        {
+          "id": "a_megera_domada",
+          "nome": "A Megera Domada",
+          "descricao": "Comédia de William Shakespeare sobre a geniosa Catarina e seu pretendente Petrúquio.",
+          "variantes": [
+            "The Taming of the Shrew"
+          ]
+        },
+        {
+          "id": "teoria_da_terra",
+          "nome": "Teoria da Terra",
+          "descricao": "Obra do século dezoito de James Hutton que defendeu que a Terra é moldada por processos lentos ao longo de um tempo imenso.",
+          "variantes": [
+            "Theory of the Earth"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Poporo Quimbaya",
+        "descricao": "Recipiente de ouro da cultura Quimbaya para guardar cal usada ao mascar coca, exposto no Museu do Ouro, em Bogotá.",
+        "variantes": [
+          "Poporo Quimbaya de ouro",
+          "Quimbaya poporo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pepita_de_ouro",
+          "nome": "Pepita de ouro",
+          "descricao": "Pedaço natural de ouro nativo, comum em depósitos de aluvião.",
+          "variantes": [
+            "Pepita",
+            "Ouro nativo"
+          ]
+        },
+        {
+          "id": "torre_queimada",
+          "nome": "Torre Queimada",
+          "descricao": "Torre em ruínas da cidade de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver, antiga Torre de Bronze destruída por um incêndio.",
+          "variantes": [
+            "Burned Tower",
+            "Torre de Bronze",
+            "Brass Tower"
+          ]
+        },
+        {
+          "id": "razao_aurea",
+          "nome": "Razão áurea",
+          "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+          "variantes": [
+            "Proporção áurea",
+            "Número de ouro",
+            "Golden ratio"
+          ]
+        },
+        {
+          "id": "traje_de_luces",
+          "nome": "Traje de luces",
+          "descricao": "Traje bordado com fios de ouro ou prata usado pelos toureiros espanhóis na arena.",
+          "variantes": [
+            "Traje de luzes",
+            "Roupa de toureiro"
+          ]
+        },
+        {
+          "id": "tourada",
+          "nome": "Tourada",
+          "descricao": "Espetáculo em que um toureiro enfrenta um touro numa arena, tradicional na Espanha, em Portugal e em outros países.",
+          "variantes": [
+            "Corrida de touros",
+            "Tauromaquia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cabeças de Lydenburg",
+        "descricao": "Sete cabeças de terracota de cerca de 500 d.C., achadas em Lydenburg, na África do Sul.",
+        "variantes": [
+          "Lydenburg Heads"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cabeca_de_meroe",
+          "nome": "Cabeça de Méroe",
+          "descricao": "Cabeça de bronze de Augusto achada em Méroe, no atual Sudão, hoje no Museu Britânico.",
+          "variantes": [
+            "Cabeça de Augusto de Méroe",
+            "Meroë Head"
+          ]
+        },
+        {
+          "id": "bandeira_da_corsega",
+          "nome": "Bandeira da Córsega",
+          "descricao": "Bandeira da ilha francesa da Córsega, com a cabeça de mouro de bandana branca sobre fundo branco.",
+          "variantes": [
+            "Córsega",
+            "Cabeça de mouro",
+            "Corse"
+          ]
+        },
+        {
+          "id": "bico_de_sapato",
+          "nome": "Bico-de-sapato",
+          "descricao": "Grande ave pernalta de bico enorme em forma de sapato (Balaeniceps rex) dos pântanos da África.",
+          "variantes": [
+            "Balaeniceps rex",
+            "Cabeça-de-baleia"
+          ]
+        },
+        {
+          "id": "cabeca_de_ife",
+          "nome": "Cabeça de Ifé",
+          "descricao": "Cabeça de liga de cobre naturalista, atribuída a um rei iorubá, entre as dezoito peças achadas em Ifé, na Nigéria, em 1938.",
+          "variantes": [
+            "Ife Head",
+            "Cabeça de bronze de Ifé",
+            "Bronze Head from Ife"
+          ]
+        },
+        {
+          "id": "brasao_de_luxemburgo",
+          "nome": "Brasão de Luxemburgo",
+          "descricao": "Brasão de armas do Grão-Ducado de Luxemburgo, com leão vermelho sobre listras azuis e brancas, sustentado por dois leões sob manto e coroa.",
+          "variantes": [
+            "Luxemburgo",
+            "Armas do Grão-Ducado de Luxemburgo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Espada de Goujian",
+        "descricao": "Espada jian de bronze do rei Goujian de Yue, achada em 1965 num túmulo em Hubei, conhecida pelo fio e pela resistência à corrosão.",
+        "variantes": [
+          "Sword of Goujian",
+          "Espada do rei Goujian"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "espada_esgrima",
+          "nome": "Espada (esgrima)",
+          "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+          "variantes": [
+            "Épée",
+            "Espada de esgrima"
+          ]
+        },
+        {
+          "id": "goias",
+          "nome": "Goiás",
+          "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+          "variantes": [
+            "Estado de Goiás"
+          ]
+        },
+        {
+          "id": "senhor_de_sipan",
+          "nome": "Senhor de Sipán",
+          "descricao": "Governante moche cuja tumba intacta, cheia de joias, foi descoberta em 1987 no norte do Peru.",
+          "variantes": [
+            "Lord of Sipán",
+            "Señor de Sipán"
+          ]
+        },
+        {
+          "id": "espadachins_da_justica",
+          "nome": "Espadachins da Justiça",
+          "descricao": "Grupo de pokémon lendários de Unova formado por Cobalion, Terrakion e Virizion, ao qual se junta o mítico Keldeo.",
+          "variantes": [
+            "Swords of Justice"
+          ]
+        },
+        {
+          "id": "estatuas_de_gudea",
+          "nome": "Estátuas de Gudea",
+          "descricao": "Conjunto de cerca de vinte e sete estátuas do governante Gudea de Lagash, na Mesopotâmia, de cerca de 2144 a 2124 a.C.",
+          "variantes": [
+            "Estátua de Gudea",
+            "Statues of Gudea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ndop",
+        "descricao": "Escultura figurativa em madeira que representa um rei (nyim) do reino Kuba, na África Central.",
+        "variantes": [
+          "Ndop Kuba",
+          "Estátua ndop",
+          "Ndop de Shyaam aMbul aNgoong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kendo",
+          "nome": "Kendo",
+          "descricao": "Arte marcial japonesa de esgrima com espadas de bambu (shinai) e armadura (bōgu).",
+          "variantes": []
+        },
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        },
+        {
+          "id": "opus",
+          "nome": "Opus",
+          "descricao": "Palavra latina usada para numerar as obras de um compositor, geralmente na ordem de publicação.",
+          "variantes": [
+            "Op.",
+            "Número de opus"
+          ]
+        },
+        {
+          "id": "estatua_de_hachiko",
+          "nome": "Estátua de Hachiko",
+          "descricao": "Estátua de bronze do cão akita Hachiko, diante da estação de Shibuya, em Tóquio.",
+          "variantes": [
+            "Hachikō",
+            "Hachiko"
+          ]
+        },
+        {
+          "id": "honshu",
+          "nome": "Honshu",
+          "descricao": "A maior e mais populosa ilha do arquipélago japonês, onde ficam Tóquio, Quioto e Osaka.",
+          "variantes": [
+            "Hondo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Yakshi de Didarganj",
+        "descricao": "Estátua indiana de arenito polido de Chunar, achada em 1917 e hoje no Museu de Bihar, em Patna.",
+        "variantes": [
+          "Didarganj Yakshi",
+          "Didarganj Chauri Bearer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shiryu_de_dragao",
+          "nome": "Shiryu de Dragão",
+          "descricao": "Cavaleiro de bronze da constelação do Dragão em Os Cavaleiros do Zodíaco.",
+          "variantes": [
+            "Shiryu",
+            "Dragon Shiryu"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Esfinge de Tânis é distinta da Esfinge de Gizé e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bianzhong (sinos de bronze chineses) não corresponde a nenhuma candidata; sinos tubulares são outro instrumento."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Deus asteca da morte; nenhuma candidata é essa entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Monólito Bennett não tem correspondente entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tríades de Miquerinos são esculturas, diferentes da pirâmide de Miquerinos."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Teocalli asteca não tem correspondente entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Poporo Quimbaya é objeto específico sem correspondente nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Cabeças de Lydenburg são distintas das cabeças de Méroe e Ifé."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Espada de Goujian não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Ndop Kuba não tem correspondente entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Yakshi de Didarganj é estátua indiana, diferente de Shiryu de Dragão."
+    }
+  ]
+}
