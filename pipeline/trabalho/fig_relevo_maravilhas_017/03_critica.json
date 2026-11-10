@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma lago glacial na fronteira entre o sul da Suíça e o norte da Itália. Sem a figura o enunciado não identifica o lago (Genebra e Constança também são glaciais), e os distratores não valem para o Lugano.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shiprock é um monólito isolado no deserto do Novo México, como dizem os trechos. O enunciado não vaza o nome, a resposta é única e os distratores são formações rochosas americanas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Montanha serrilhada' mais 'abadia' quase identifica Montserrat sem a figura, e 'abadia' sugere beneditina diante de distratores mendicantes ou jesuítas. O fato é confirmado pelos trechos. Retirei as pistas e usei distratores monásticos mais críveis.",
+      "reescrita": {
+        "pergunta": "Nesta montanha da Espanha fica um famoso mosteiro. Que ordem religiosa o mantém?",
+        "resposta": "Beneditina",
+        "distratores": [
+          "Cisterciense",
+          "Cartuxa",
+          "Franciscana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. O enunciado não nomeia a entidade e os trechos confirmam que é um grupo famoso dos Dolomitas italianos. Os distratores são outros grupos dolomíticos, com no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mais de mil colinas cônicas cobertas de grama' descreve as Colinas de Chocolate e entrega a resposta com a imagem coberta. Os trechos confirmam o fato (Bohol, Filipinas). Troquei a pista por uma região, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Em que país do Sudeste Asiático fica esta paisagem de colinas?",
+        "resposta": "Filipinas",
+        "distratores": [
+          "Indonésia",
+          "Vietnã",
+          "Tailândia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o arco no extremo sul da Baja California, no México, onde o Pacífico encontra o Golfo da Califórnia. A pista da península não basta para responder sem a figura e os distratores são países plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cones vulcânicos' entrega a Islândia por eliminação entre os distratores. Além disso, a Groenlândia não é país, o que destoa de uma pergunta sobre país. O fato é confirmado pelos trechos. Usei 'nórdico' como pista e distratores que são países nórdicos.",
+      "reescrita": {
+        "pergunta": "Em que país nórdico fica este lago?",
+        "resposta": "Islândia",
+        "distratores": [
+          "Noruega",
+          "Finlândia",
+          "Suécia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Huangpu corta Xangai, como dizem os trechos. 'Atravessa uma das maiores metrópoles' vale também para os distratores: o Yangtzé passa por Wuhan e Chongqing, e o das Pérolas por Cantão. Fixei a cidade e troquei os distratores por rios que não estão em Xangai.",
+      "reescrita": {
+        "pergunta": "Que rio chinês aparece nesta vista da cidade de Xangai?",
+        "resposta": "Rio Huangpu",
+        "distratores": [
+          "Rio Amarelo",
+          "Rio das Pérolas",
+          "Rio Han"
+        ]
+      }
+    }
+  ]
+}

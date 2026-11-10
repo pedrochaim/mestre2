@@ -1,0 +1,224 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Trecho de rio sem marcos; nada na imagem permite reconhecer o Parnaíba entre outros rios."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista clássica de Lugano com o Monte San Salvatore e a cidade; reconhecível.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "pergunta": "Este lago de origem glacial fica na fronteira da Suíça com qual outro país?",
+      "resposta": "Itália",
+      "distratores": [
+        "França",
+        "Áustria",
+        "Alemanha"
+      ],
+      "ancora": {
+        "nome": "Lago Lugano",
+        "descricao": "Lago glacial na fronteira entre o sul da Suíça e o norte da Itália, junto à cidade de Lugano.",
+        "variantes": [
+          "Lago de Lugano",
+          "Lago di Lugano",
+          "Ceresio",
+          "Lake Lugano"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Monólito inconfundível, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que formação rochosa isolada no deserto do sudoeste dos Estados Unidos é esta?",
+      "resposta": "Shiprock",
+      "distratores": [
+        "Torre do Diabo",
+        "Chimney Rock",
+        "Half Dome"
+      ],
+      "ancora": {
+        "nome": "Shiprock",
+        "descricao": "Monólito vulcânico de cerca de 480 metros no deserto da Nação Navajo, no Novo México, EUA.",
+        "variantes": [
+          "Shiprock Peak",
+          "Tsé Bitʼaʼí",
+          "Rocha com Asas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Perfil serrilhado característico da montanha, sem texto.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Nesta montanha serrilhada da Espanha fica uma abadia. Que ordem religiosa a mantém?",
+      "resposta": "Beneditina",
+      "distratores": [
+        "Franciscana",
+        "Jesuíta",
+        "Dominicana"
+      ],
+      "ancora": {
+        "nome": "Montserrat (montanha)",
+        "descricao": "Cadeia montanhosa de picos serrilhados perto de Barcelona, na Catalunha, que abriga o mosteiro de Santa Maria de Montserrat.",
+        "variantes": [
+          "Monserrate",
+          "Montserrat",
+          "Montanha de Montserrat"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Três picos característicos, inconfundíveis para quem conhece os Alpes.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que famoso grupo de picos dos Dolomitas italianos é este?",
+      "resposta": "Tre Cime di Lavaredo",
+      "distratores": [
+        "Cinque Torri",
+        "Sassolungo",
+        "Pale di San Martino"
+      ],
+      "ancora": {
+        "nome": "Tre Cime di Lavaredo",
+        "descricao": "Grupo de três picos em forma de ameias nos Dolomitas de Sexten, no nordeste da Itália.",
+        "variantes": [
+          "Três Picos de Lavaredo",
+          "Drei Zinnen",
+          "Lavaredo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Colinas cônicas únicas, reconhecíveis.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que país fica este conjunto de mais de mil colinas cônicas cobertas de grama?",
+      "resposta": "Filipinas",
+      "distratores": [
+        "Indonésia",
+        "Vietnã",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Colinas de Chocolate",
+        "descricao": "Formação geológica com mais de mil colinas cônicas cobertas de grama na ilha de Bohol, nas Filipinas.",
+        "variantes": [
+          "Colinas do Chocolate",
+          "Chocolate Hills"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arco rochoso emblemático sobre o mar, sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Em que país fica este arco rochoso, no extremo sul de uma península banhada pelo Pacífico?",
+      "resposta": "México",
+      "distratores": [
+        "Estados Unidos",
+        "Chile",
+        "Peru"
+      ],
+      "ancora": {
+        "nome": "Arco de Cabo San Lucas",
+        "descricao": "Arco de granito no extremo sul da península da Baja California, no México, onde o Pacífico encontra o Golfo da Califórnia.",
+        "variantes": [
+          "El Arco",
+          "Arco de Los Cabos",
+          "Arch of Cabo San Lucas"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Lago alpino turquesa genérico; poderia ser da Suíça, Itália ou Alemanha, sem resposta única segura."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Parede de granito com névoa, sem contexto; pode ser confundida com outras montanhas (Huangshan, Yosemite)."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pseudocrateres vulcânicos no lago, característicos do Mývatn.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Em que país fica este lago, cercado por cones vulcânicos?",
+      "resposta": "Islândia",
+      "distratores": [
+        "Noruega",
+        "Groenlândia",
+        "Irlanda"
+      ],
+      "ancora": {
+        "nome": "Lago Mývatn",
+        "descricao": "Lago raso no norte da Islândia, em área de vulcanismo ativo, com pseudocrateres, perto do vulcão Krafla.",
+        "variantes": [
+          "Mývatn",
+          "Lago Myvatn",
+          "Myvatn"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea do rio com a margem do Bund, em Xangai; texto 'Aurora' no prédio não entrega a resposta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que rio, que atravessa uma das maiores metrópoles da China, aparece nesta vista?",
+      "resposta": "Rio Huangpu",
+      "distratores": [
+        "Rio Yangtzé",
+        "Rio Amarelo",
+        "Rio das Pérolas"
+      ],
+      "ancora": {
+        "nome": "Rio Huangpu",
+        "descricao": "Rio de 113 km que corta Xangai, na China, separando Puxi de Pudong, e deságua no estuário do Yangtzé.",
+        "variantes": [
+          "Huangpu",
+          "Whangpoo",
+          "Rio Huang Pu"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Margem de lago de montanha genérica, sem elementos que permitam reconhecer o Wanaka."
+    }
+  ]
+}

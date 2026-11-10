@@ -1,0 +1,71 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que famoso grupo de picos dos Dolomitas italianos é este?",
+        "resposta": "Tre Cime di Lavaredo"
+      },
+      "existentes": [
+        {
+          "id": "q17999",
+          "pergunta": "Que conjunto de picos das Dolomitas é este?",
+          "resposta": "Tre Cime di Lavaredo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país do Sudeste Asiático fica esta paisagem de colinas?",
+        "resposta": "Filipinas"
+      },
+      "existentes": [
+        {
+          "id": "q18519",
+          "pergunta": "Em que país asiático ficam estas colinas?",
+          "resposta": "Filipinas"
+        },
+        {
+          "id": "q18816",
+          "pergunta": "Que formação geológica das Filipinas é esta?",
+          "resposta": "Colinas de Chocolate"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que rio chinês aparece nesta vista da cidade de Xangai?",
+        "resposta": "Rio Huangpu"
+      },
+      "existentes": [
+        {
+          "id": "q18806",
+          "pergunta": "Que rio chinês é este?",
+          "resposta": "Rio Huangpu"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma resposta: identificar o grupo de picos como Tre Cime di Lavaredo.",
+      "id_existente": "q17999"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o país das colinas, Filipinas.",
+      "id_existente": "q18519"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem para identificar o rio chinês como Huangpu.",
+      "id_existente": "q18806"
+    }
+  ]
+}
