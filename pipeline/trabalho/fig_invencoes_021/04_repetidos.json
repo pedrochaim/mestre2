@@ -1,0 +1,92 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década o escocês John Dunlop patenteou a versão inflável deste objeto?",
+        "resposta": "Década de 1880"
+      },
+      "existentes": [
+        {
+          "id": "q05599",
+          "pergunta": "Em 1887, na Irlanda, um veterinário escocês desenvolveu um pneu prático cheio de ar para o triciclo do filho. Quem era ele?",
+          "resposta": "John Boyd Dunlop"
+        },
+        {
+          "id": "q09382",
+          "pergunta": "Os primeiros pneus eram claros. Que pó, misturado à borracha para deixá-la mais resistente, tornou os pneus pretos?",
+          "resposta": "Negro de fumo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que engenheiro alemão foi o diretor técnico do desenvolvimento deste foguete da Segunda Guerra Mundial?",
+        "resposta": "Wernher von Braun"
+      },
+      "existentes": [
+        {
+          "id": "q05799",
+          "pergunta": "O míssil nazista V-2 e o foguete Saturno V, que levou astronautas à Lua, foram desenvolvidos sob a liderança do mesmo engenheiro alemão. Quem?",
+          "resposta": "Wernher von Braun"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ano foi lançada sobre uma cidade japonesa a bomba deste modelo?",
+        "resposta": "1945"
+      },
+      "existentes": [
+        {
+          "id": "q06198",
+          "pergunta": "Qual era o nome desta bomba atômica?",
+          "resposta": "Fat Man"
+        },
+        {
+          "id": "q13380",
+          "pergunta": "A bomba atômica lançada sobre Nagasaki, apelidada de Fat Man, tinha como núcleo qual elemento químico?",
+          "resposta": "Plutônio"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que cientista alemão dá nome a este recipiente de laboratório?",
+        "resposta": "Julius Richard Petri"
+      },
+      "existentes": [
+        {
+          "id": "q15871",
+          "pergunta": "Que recipiente de laboratório é este?",
+          "resposta": "Placa de Petri"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a década da patente; a existente pergunta quem desenvolveu o pneu. Fatos diferentes, embora a data 1887 apareça no enunciado existente, a resposta pedida é outra."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem liderou o desenvolvimento do V-2: Wernher von Braun."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O ano do lançamento é um fato distinto do nome da bomba e do seu núcleo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é identificar o objeto; a outra é o cientista que lhe dá nome. Fatos diferentes."
+    }
+  ]
+}

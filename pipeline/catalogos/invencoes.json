@@ -733,7 +733,7 @@
       "titulo": "en:Pager",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Fita VHS",
@@ -1615,7 +1615,7 @@
       "titulo": "en:Cotton gin",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Aparelho de Kipp",
@@ -1678,7 +1678,7 @@
       "titulo": "en:Fat Man",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tesoura",
@@ -1692,7 +1692,7 @@
       "titulo": "en:Globe",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cadeado",
@@ -1853,7 +1853,7 @@
       "titulo": "en:SD card",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Lampião a querosene",
@@ -1959,6 +1959,286 @@
       "camada": 3,
       "destino": 0,
       "status": "nova"
+    },
+    {
+      "nome": "Avião",
+      "titulo": "en:Airplane",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hélice",
+      "titulo": "en:Propeller",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Engrenagem",
+      "titulo": "en:Gear",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Alavanca",
+      "titulo": "en:Lever",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Carrinho de mão",
+      "titulo": "en:Wheelbarrow",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Compasso",
+      "titulo": "en:Compass (drawing tool)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Transferidor",
+      "titulo": "en:Protractor",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caneta-tinteiro",
+      "titulo": "en:Fountain pen",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pilha alcalina",
+      "titulo": "en:Alkaline battery",
+      "camada": 1,
+      "destino": 3,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Walkie-talkie",
+      "titulo": "en:Walkie-talkie",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Trator",
+      "titulo": "en:Tractor",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pneu",
+      "titulo": "en:Tire",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lente de contato",
+      "titulo": "en:Contact lens",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cinto de segurança",
+      "titulo": "en:Seat belt",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Béquer",
+      "titulo": "en:Beaker (laboratory equipment)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Placa de Petri",
+      "titulo": "en:Petri dish",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Proveta",
+      "titulo": "en:Graduated cylinder",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Paquímetro",
+      "titulo": "en:Calipers",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Nível de bolha",
+      "titulo": "en:Spirit level",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Prensa hidráulica",
+      "titulo": "en:Hydraulic press",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Dinamômetro",
+      "titulo": "en:Spring scale",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Motor a jato",
+      "titulo": "en:Jet engine",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Fusível",
+      "titulo": "en:Fuse (electrical)",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Biruta",
+      "titulo": "en:Windsock",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Hidrômetro",
+      "titulo": "en:Water meter",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Master System",
+      "titulo": "en:Master System",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "iMac G3",
+      "titulo": "en:iMac G3",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Discman",
+      "titulo": "en:Discman",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Linotipo",
+      "titulo": "en:Linotype machine",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alambique",
+      "titulo": "en:Alembic",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Octante",
+      "titulo": "en:Octant (instrument)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Balestilha",
+      "titulo": "en:Jacob's staff",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Memória de núcleo magnético",
+      "titulo": "en:Magnetic-core memory",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Harvard Mark I",
+      "titulo": "en:Harvard Mark I",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Roda Pelton",
+      "titulo": "en:Pelton wheel",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Termopar",
+      "titulo": "en:Thermocouple",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Foguete V-2",
+      "titulo": "en:V-2 rocket",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Batiscafo Trieste",
+      "titulo": "en:Trieste (bathyscaphe)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Apple Lisa",
+      "titulo": "en:Apple Lisa",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Water frame de Arkwright",
+      "titulo": "en:Water frame",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
     }
   ]
 }

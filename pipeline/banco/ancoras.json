@@ -241759,5 +241759,53 @@
       "pt": 0,
       "en": 2268
     }
+  },
+  {
+    "id": "globo_terrestre",
+    "nome": "Globo terrestre",
+    "descricao": "Modelo esférico da Terra usado como representação cartográfica.",
+    "variantes": [
+      "Globo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Globe",
+      "https://pt.wikipedia.org/wiki/Globo_terrestre"
+    ]
+  },
+  {
+    "id": "helice",
+    "nome": "Hélice",
+    "descricao": "Propulsor de pás giratórias usado em navios e aviões.",
+    "variantes": [
+      "Propulsor helicoidal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Propeller",
+      "https://pt.wikipedia.org/wiki/H%C3%A9lice"
+    ]
+  },
+  {
+    "id": "descarocador_de_algodao",
+    "nome": "Descaroçador de algodão",
+    "descricao": "Máquina que separa as fibras de algodão das sementes.",
+    "variantes": [
+      "Cotton gin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cotton_gin",
+      "https://pt.wikipedia.org/wiki/Descaro%C3%A7ador_de_algod%C3%A3o"
+    ]
+  },
+  {
+    "id": "prensa_hidraulica",
+    "nome": "Prensa hidráulica",
+    "descricao": "Máquina que gera força de compressão com um cilindro hidráulico.",
+    "variantes": [
+      "Prensa de Bramah"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hydraulic_press",
+      "https://pt.wikipedia.org/wiki/Prensa_hidr%C3%A1ulica"
+    ]
   }
 ]

@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Globo antigo claro; texto do mapa é incidental e não entrega a pergunta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que século foi feito o exemplar mais antigo que se conservou deste objeto, criado por Martin Behaim?",
+      "resposta": "Século quinze",
+      "distratores": [
+        "Século treze",
+        "Século catorze",
+        "Século dezesseis"
+      ],
+      "ancora": {
+        "nome": "Globo terrestre",
+        "descricao": "Modelo esférico da Terra usado como representação cartográfica.",
+        "variantes": [
+          "Globo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Texto visível na imagem (SD HC, Transcend) entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pilha de pneus nítida, sem texto legível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década o escocês John Dunlop patenteou a versão inflável deste objeto?",
+      "resposta": "Década de 1880",
+      "distratores": [
+        "Década de 1860",
+        "Década de 1900",
+        "Década de 1920"
+      ],
+      "ancora": {
+        "nome": "Pneu",
+        "descricao": "Anel de borracha que reveste a roda de veículos.",
+        "variantes": [
+          "Pneumático"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Não há fato interessante e sustentado para a família quando; imagem com marcas de fabricantes e escalas."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foguete V-2 reconhecível pela pintura preto e branco, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que engenheiro alemão liderou o desenvolvimento deste foguete da Segunda Guerra Mundial?",
+      "resposta": "Wernher von Braun",
+      "ancora": {
+        "nome": "Foguete V-2",
+        "descricao": "Míssil balístico alemão da Segunda Guerra Mundial, também chamado A4.",
+        "variantes": [
+          "V-2",
+          "A4",
+          "Aggregat 4"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Hélice de navio em monumento, clara e sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que século este dispositivo de pás giratórias passou a impulsionar navios a vapor?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século dezessete",
+        "Século dezoito",
+        "Século vinte"
+      ],
+      "ancora": {
+        "nome": "Hélice",
+        "descricao": "Propulsor de pás giratórias usado em navios e aviões.",
+        "variantes": [
+          "Propulsor helicoidal"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, com texto no visor; ilegível no celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bomba Fat Man reconhecível pelo formato ovoide, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que ano foi lançada sobre uma cidade japonesa a bomba deste modelo?",
+      "resposta": "1945",
+      "distratores": [
+        "1944",
+        "1946",
+        "1943"
+      ],
+      "ancora": {
+        "nome": "Fat Man",
+        "descricao": "Bomba atômica de implosão de plutônio lançada sobre Nagasaki.",
+        "variantes": [
+          "Mark III"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Placas de Petri nítidas, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que bacteriologista alemão, assistente de Robert Koch, aperfeiçoou em 1887 este recipiente de laboratório?",
+      "resposta": "Julius Richard Petri",
+      "ancora": {
+        "nome": "Placa de Petri",
+        "descricao": "Recipiente raso, transparente e com tampa, usado para cultivar micro-organismos.",
+        "variantes": [
+          "Placa de cultura",
+          "Petri dish"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Modelo do descaroçador, com algodão visível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que inventor americano patenteou em 1794 esta máquina?",
+      "resposta": "Eli Whitney",
+      "distratores": [
+        "Cyrus McCormick",
+        "Robert Fulton",
+        "Samuel Morse"
+      ],
+      "ancora": {
+        "nome": "Descaroçador de algodão",
+        "descricao": "Máquina que separa as fibras de algodão das sementes.",
+        "variantes": [
+          "Cotton gin"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Prensa com cilindros visíveis; marcas de fabricante não entregam a resposta.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que inventor inglês patenteou em 1795 esta máquina de pistões?",
+      "resposta": "Joseph Bramah",
+      "ancora": {
+        "nome": "Prensa hidráulica",
+        "descricao": "Máquina que gera força de compressão com um cilindro hidráulico.",
+        "variantes": [
+          "Prensa de Bramah"
+        ]
+      }
+    }
+  ]
+}

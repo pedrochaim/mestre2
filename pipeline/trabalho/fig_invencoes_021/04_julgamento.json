@@ -1,0 +1,506 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Globo terrestre",
+        "descricao": "Modelo esférico da Terra usado como representação cartográfica.",
+        "variantes": [
+          "Globo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tv_globo",
+          "nome": "TV Globo",
+          "descricao": "Emissora de televisão brasileira fundada por Roberto Marinho, inaugurada no Rio de Janeiro e cabeça da Rede Globo.",
+          "variantes": [
+            "Rede Globo",
+            "Globo"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "lobo",
+          "nome": "Lobo",
+          "descricao": "Caçador de recompensas alienígena da DC Comics, estreou em Omega Men.",
+          "variantes": [
+            "Main Man"
+          ]
+        },
+        {
+          "id": "gloom",
+          "nome": "Gloom",
+          "descricao": "Pokémon de planta e veneno, número 44 da Pokédex Nacional, evolução de Oddish.",
+          "variantes": []
+        },
+        {
+          "id": "iglu",
+          "nome": "Iglu",
+          "descricao": "Abrigo em forma de cúpula feito de blocos de neve, tradicional entre os inuítes do Ártico central canadense.",
+          "variantes": [
+            "Igloo",
+            "Iglo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pneu",
+        "descricao": "Anel de borracha que reveste a roda de veículos.",
+        "variantes": [
+          "Pneumático"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pneu_pneumatico",
+          "nome": "Pneu pneumático",
+          "descricao": "Pneu cheio de ar que reveste a roda de veículos, desenvolvido de forma prática no fim do século dezenove.",
+          "variantes": [
+            "Pneu de ar",
+            "Pneumático",
+            "Pneu"
+          ]
+        },
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        },
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "descricao": "Ave galiforme domesticada (Meleagris gallopavo), nativa da América do Norte, tradicional nas ceias de fim de ano.",
+          "variantes": [
+            "Peru-doméstico",
+            "Meleagris gallopavo"
+          ]
+        },
+        {
+          "id": "piers",
+          "nome": "Piers",
+          "descricao": "Líder do ginásio de tipo Sombrio de Spikemuth, em Galar, cantor de rock, nos jogos Pokémon Sword e Shield.",
+          "variantes": [
+            "Nezu"
+          ]
+        },
+        {
+          "id": "selecao_peruana_de_futebol",
+          "nome": "Seleção Peruana de Futebol",
+          "descricao": "Seleção masculina de futebol do Peru, apelidada La Bicolor.",
+          "variantes": [
+            "Peru",
+            "La Bicolor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Foguete V-2",
+        "descricao": "Míssil balístico alemão da Segunda Guerra Mundial, também chamado A4.",
+        "variantes": [
+          "V-2",
+          "A4",
+          "Aggregat 4"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "folha_a4",
+          "nome": "Folha A4",
+          "descricao": "Formato de papel do padrão internacional ISO 216, obtido dividindo a folha A0 ao meio sucessivamente.",
+          "variantes": [
+            "ISO 216",
+            "Papel A4",
+            "A4"
+          ]
+        },
+        {
+          "id": "foguete_v_2",
+          "nome": "Foguete V-2",
+          "descricao": "Míssil balístico desenvolvido pela Alemanha nazista e usado contra Londres e Antuérpia a partir de 1944.",
+          "variantes": [
+            "V-2",
+            "Vergeltungswaffe 2",
+            "A-4"
+          ]
+        },
+        {
+          "id": "saturn_v",
+          "nome": "Saturn V",
+          "descricao": "Foguete lunar de três estágios da NASA, usado no programa Apollo.",
+          "variantes": [
+            "Foguete",
+            "Saturno V",
+            "Saturn 5"
+          ]
+        },
+        {
+          "id": "volkswagen_sp2",
+          "nome": "Volkswagen SP2",
+          "descricao": "Esportivo fabricado pela Volkswagen do Brasil de 1972 a 1975, baseado no chassi do Volkswagen Tipo 3.",
+          "variantes": [
+            "SP2",
+            "VW SP2"
+          ]
+        },
+        {
+          "id": "onibus_espacial_columbia",
+          "nome": "Ônibus espacial Columbia",
+          "descricao": "Primeiro ônibus espacial da NASA a ir ao espaço, em 1981, destruído na reentrada em 2003.",
+          "variantes": [
+            "Space Shuttle Columbia",
+            "Columbia",
+            "OV-102"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Hélice",
+        "descricao": "Propulsor de pás giratórias usado em navios e aviões.",
+        "variantes": [
+          "Propulsor helicoidal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "helio",
+          "nome": "Hélio",
+          "descricao": "Elemento químico gasoso de número atômico 2, o gás nobre mais leve, usado para encher balões.",
+          "variantes": [
+            "Helium"
+          ]
+        },
+        {
+          "id": "dhelmise",
+          "nome": "Dhelmise",
+          "descricao": "Pokémon dos tipos Fantasma e Planta, número 781 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "helicoptero",
+          "nome": "Helicóptero",
+          "descricao": "Aeronave de asas rotativas em que a sustentação e a propulsão vêm de rotores que giram na horizontal.",
+          "variantes": []
+        },
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum",
+            "Chicle"
+          ]
+        },
+        {
+          "id": "bandeira_de_belize",
+          "nome": "Bandeira de Belize",
+          "descricao": "Bandeira nacional atual de Belize, azul com faixas vermelhas no alto e embaixo e o brasão num disco branco central.",
+          "variantes": [
+            "Belize",
+            "Bandeira belizenha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fat Man",
+        "descricao": "Bomba atômica de implosão de plutônio lançada sobre Nagasaki.",
+        "variantes": [
+          "Mark III"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fat_man_bomba_de_nagasaki",
+          "nome": "Fat Man (bomba de Nagasaki)",
+          "descricao": "Bomba atômica de plutônio lançada pelos Estados Unidos sobre Nagasaki em 9 de agosto de 1945.",
+          "variantes": [
+            "Fat Man",
+            "Homem Gordo",
+            "Mark III"
+          ]
+        },
+        {
+          "id": "telescopio_lovell",
+          "nome": "Telescópio Lovell",
+          "descricao": "Radiotelescópio de 76 metros de diâmetro em Jodrell Bank, na Inglaterra, concluído em 1957.",
+          "variantes": [
+            "Lovell Telescope",
+            "Mark I",
+            "Radiotelescópio de Jodrell Bank"
+          ]
+        },
+        {
+          "id": "batman",
+          "nome": "Batman",
+          "descricao": "Super-herói da DC, identidade de Bruce Wayne, estreou em 1939",
+          "variantes": [
+            "Homem-Morcego",
+            "Bruce Wayne"
+          ]
+        },
+        {
+          "id": "vault_boy",
+          "nome": "Vault Boy",
+          "descricao": "Mascote da corporação fictícia Vault-Tec e símbolo da série de jogos Fallout.",
+          "variantes": [
+            "Vault-Man"
+          ]
+        },
+        {
+          "id": "pac_man",
+          "nome": "Pac-Man",
+          "descricao": "Jogo de fliperama da Namco lançado em 1980, em que uma bola amarela come pastilhas num labirinto.",
+          "variantes": [
+            "Puck-Man",
+            "Pacman"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Placa de Petri",
+        "descricao": "Recipiente raso, transparente e com tampa, usado para cultivar micro-organismos.",
+        "variantes": [
+          "Placa de cultura",
+          "Petri dish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "placa_de_petri",
+          "nome": "Placa de Petri",
+          "descricao": "Recipiente raso, transparente e com tampa, usado em laboratório para cultivar células e microrganismos.",
+          "variantes": [
+            "Placa de cultura",
+            "Petri dish"
+          ]
+        },
+        {
+          "id": "placa_de_pare",
+          "nome": "Placa de pare",
+          "descricao": "Placa de trânsito vermelha e octogonal que indica parada obrigatória.",
+          "variantes": [
+            "Placa de parada obrigatória",
+            "Stop sign"
+          ]
+        },
+        {
+          "id": "placa_da_pioneer",
+          "nome": "Placa da Pioneer",
+          "descricao": "Placa de alumínio anodizado a ouro com mensagem pictórica, fixada nas sondas Pioneer 10 e 11.",
+          "variantes": [
+            "Placa Pioneer",
+            "Pioneer plaque"
+          ]
+        },
+        {
+          "id": "palacio_de_peterhof",
+          "nome": "Palácio de Peterhof",
+          "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, na Rússia, mandado construir por Pedro, o Grande.",
+          "variantes": [
+            "Peterhof",
+            "Petergof"
+          ]
+        },
+        {
+          "id": "placa_de_video",
+          "nome": "Placa de vídeo",
+          "descricao": "Placa de expansão do computador que gera as imagens enviadas ao monitor, com uma unidade de processamento gráfico.",
+          "variantes": [
+            "Placa gráfica",
+            "Placa de vídeo dedicada",
+            "GPU",
+            "Video card"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Descaroçador de algodão",
+        "descricao": "Máquina que separa as fibras de algodão das sementes.",
+        "variantes": [
+          "Cotton gin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alagoas",
+          "nome": "Alagoas",
+          "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+          "variantes": [
+            "Estado de Alagoas"
+          ]
+        },
+        {
+          "id": "sagui_cabeca_de_algodao",
+          "nome": "Sagui-cabeça-de-algodão",
+          "descricao": "Pequeno primata colombiano (Saguinus oedipus) com longa crista branca da testa aos ombros.",
+          "variantes": [
+            "Saguim-cabeça-de-algodão",
+            "Saguinus oedipus",
+            "Cotton-top tamarin"
+          ]
+        },
+        {
+          "id": "cottonee",
+          "nome": "Cottonee",
+          "descricao": "Pokémon planta e fada da quinta geração, uma bola de algodão, número 546 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "cotonete",
+          "nome": "Cotonete",
+          "descricao": "Haste fina com algodão nas pontas, usada na higiene das orelhas, em primeiros socorros e em maquiagem.",
+          "variantes": [
+            "Haste flexível",
+            "Cotton swab"
+          ]
+        },
+        {
+          "id": "saltador_do_lodo",
+          "nome": "Saltador-do-lodo",
+          "descricao": "Peixe anfíbio da subfamília Oxudercinae, de olhos salientes, que anda sobre o lodo e rochas com as nadadeiras peitorais.",
+          "variantes": [
+            "Mudskipper",
+            "Peixe-saltador",
+            "Periophthalmus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Prensa hidráulica",
+        "descricao": "Máquina que gera força de compressão com um cilindro hidráulico.",
+        "variantes": [
+          "Prensa de Bramah"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "parafuso_de_arquimedes",
+          "nome": "Parafuso de Arquimedes",
+          "descricao": "Máquina hidráulica formada por um cilindro com uma hélice interna, usada para elevar água.",
+          "variantes": [
+            "Parafuso hidráulico",
+            "Archimedes' screw"
+          ]
+        },
+        {
+          "id": "torre_de_hanoi",
+          "nome": "Torre de Hanói",
+          "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+          "variantes": [
+            "Tower of Hanoi",
+            "Torre de Brahma"
+          ]
+        },
+        {
+          "id": "estado_da_birmania",
+          "nome": "Estado da Birmânia",
+          "descricao": "Estado fantoche japonês criado em 1943 durante a ocupação da Birmânia na Segunda Guerra Mundial.",
+          "variantes": [
+            "Estado de Burma",
+            "State of Burma"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Globo terrestre é modelo da Terra; TV Globo é emissora."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "pneu_pneumatico",
+      "motivo": "Mesmo objeto: pneu que reveste a roda, com variantes coincidentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "foguete_v_2",
+      "motivo": "Mesmo míssil alemão V-2/A4."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Hélice propulsora não corresponde a nenhuma candidata; helicóptero é outra aeronave."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "fat_man_bomba_de_nagasaki",
+      "motivo": "Mesma bomba lançada sobre Nagasaki, Mark III."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "placa_de_petri",
+      "motivo": "Mesmo recipiente de laboratório, mesmas variantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Máquina descaroçadora não existe entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Prensa hidráulica não está entre as candidatas; parafuso de Arquimedes é outra máquina."
+    }
+  ]
+}

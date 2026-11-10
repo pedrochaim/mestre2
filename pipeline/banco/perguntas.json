@@ -401942,5 +401942,170 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q20231",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "globo_terrestre",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que século foi feito o exemplar mais antigo que se conservou deste modelo da Terra?",
+    "resposta": "Século quinze",
+    "distratores": [
+      "Século treze",
+      "Século catorze",
+      "Século dezesseis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Globe",
+      "https://pt.wikipedia.org/wiki/Globo_terrestre"
+    ],
+    "imagem": {
+      "arquivo": "q20231.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Globe_terrestre_-_Dressé_par_J._Forest,_Géographe_-_btv1b10061789v_(01_of_14).jpg",
+      "autor": "Forest, Joseph (1865-1942). Cartographe",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20232",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "pneu_pneumatico",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que década o escocês John Dunlop patenteou a versão inflável deste objeto?",
+    "resposta": "Década de 1880",
+    "distratores": [
+      "Década de 1860",
+      "Década de 1900",
+      "Década de 1920"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tire",
+      "https://pt.wikipedia.org/wiki/Pneu"
+    ],
+    "imagem": {
+      "arquivo": "q20232.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gestapelte_Autoreifen_mit_farbigen_Markierungen.JPG",
+      "autor": "User:Mattes",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20233",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "helice",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que século este dispositivo de pás giratórias passou a impulsionar navios a vapor?",
+    "resposta": "Século dezenove",
+    "distratores": [
+      "Século dezessete",
+      "Século dezoito",
+      "Século vinte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Propeller",
+      "https://pt.wikipedia.org/wiki/H%C3%A9lice"
+    ],
+    "imagem": {
+      "arquivo": "q20233.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Screw-Konpira.jpg",
+      "autor": "Toto-tarou at Japanese Wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20234",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "fat_man_bomba_de_nagasaki",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano foi lançada sobre uma cidade japonesa a bomba deste modelo?",
+    "resposta": "1945",
+    "distratores": [
+      "1944",
+      "1946",
+      "1943"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fat_Man",
+      "https://pt.wikipedia.org/wiki/Fat_Man"
+    ],
+    "imagem": {
+      "arquivo": "q20234.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fat_Man_(replica_of_nuclear_bomb).jpg",
+      "autor": "U.S. Department of Defense",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20235",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "placa_de_petri",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que cientista alemão dá nome a este recipiente de laboratório?",
+    "resposta": "Julius Richard Petri",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Petri_dish",
+      "https://pt.wikipedia.org/wiki/Placa_de_Petri"
+    ],
+    "imagem": {
+      "arquivo": "q20235.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Agar_plates_different_types.jpg",
+      "autor": "Lilly_M",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20236",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "descarocador_de_algodao",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que inventor americano patenteou esta máquina?",
+    "resposta": "Eli Whitney",
+    "distratores": [
+      "Cyrus McCormick",
+      "Robert Fulton",
+      "Samuel Morse"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cotton_gin",
+      "https://pt.wikipedia.org/wiki/Descaro%C3%A7ador_de_algod%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q20236.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cotton_gin_EWM_2007.jpg",
+      "autor": "Tom Murphy VII",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20237",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "prensa_hidraulica",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que inventor inglês patenteou em 1795 esta máquina de pistões?",
+    "resposta": "Joseph Bramah",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hydraulic_press",
+      "https://pt.wikipedia.org/wiki/Prensa_hidr%C3%A1ulica"
+    ],
+    "imagem": {
+      "arquivo": "q20237.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SERVO_HYDRAULIC_COMPRESSION_MOLDING_PRESSES.jpg",
+      "autor": "Sam D. Wilbur",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

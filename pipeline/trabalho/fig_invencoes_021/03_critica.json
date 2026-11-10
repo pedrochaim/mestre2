@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz que o objeto foi 'criado por Martin Behaim', o que é falso para o globo em geral: só o exemplar mais antigo conservado (Erdapfel, 1492) é dele. Além disso, nomear Behaim entrega a pista. Os trechos confirmam século quinze.",
+      "reescrita": {
+        "pergunta": "Em que século foi feito o exemplar mais antigo que se conservou deste modelo da Terra?",
+        "resposta": "Século quinze",
+        "distratores": [
+          "Século treze",
+          "Século catorze",
+          "Século dezesseis"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a patente de Dunlop em 1888 (en) ou 1889 (pt), ambos na década de 1880. Resposta é uma década, então a multipla é adequada, e os distratores são coerentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Liderou o desenvolvimento' é impreciso: Walter Dornberger chefiava o programa militar, e os trechos chamam Von Braun de 'um dos principais desenvolvedores'. 'Diretor técnico' é amplamente documentado e deixa a resposta única.",
+      "reescrita": {
+        "pergunta": "Que engenheiro alemão foi o diretor técnico do desenvolvimento deste foguete da Segunda Guerra Mundial?",
+        "resposta": "Wernher von Braun"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A hélice de parafuso passou a mover navios a vapor no século dezenove (Stevens em 1802, Ericsson e Smith nos anos 1830-40, SS Archimedes em 1839). Os trechos não trazem a data, mas é fato amplamente documentado. Distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Fat Man foi lançada sobre Nagasaki em 9 de agosto de 1945. É o único uso do modelo em guerra, então a resposta é única, e o ano exige multipla, que foi usada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com 'bacteriologista alemão, assistente de Koch, 1887', dá para chegar em Petri sem olhar a figura, pois o recipiente leva o nome dele. Reescrito sem essas pistas, de modo que só a imagem identifica o recipiente. Fato confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Que cientista alemão dá nome a este recipiente de laboratório?",
+        "resposta": "Julius Richard Petri"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A patente de 1794 por Whitney está nos trechos, mas o ano somado a 'inventor americano' funciona como pista que permite adivinhar sem a imagem. Retirada a data, a figura passa a ser necessária.",
+      "reescrita": {
+        "pergunta": "Que inventor americano patenteou esta máquina?",
+        "resposta": "Eli Whitney",
+        "distratores": [
+          "Cyrus McCormick",
+          "Robert Fulton",
+          "Samuel Morse"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Joseph Bramah, inglês, patenteou a prensa hidráulica em 1795, conforme o trecho. O enunciado não nomeia a máquina nem entrega a resposta sem a figura, e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}
