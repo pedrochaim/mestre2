@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Felino de pelagem branca' com 'subespécie' entrega o tigre-branco sem olhar a figura. Tirar a cor do enunciado; o trecho confirma 'typically the Bengal tiger'.",
+      "reescrita": {
+        "pergunta": "A que subespécie costuma pertencer este felino?",
+        "resposta": "Tigre-de-bengala",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Pequeno carnívoro africano de cauda anelada' ajuda sem entregar, e a figura decide. A gineta é nativa da África e tem cauda anelada, segundo os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'esqueleto', mas 'mostra' descreve o animal coberto de pelo, então não dá para garantir que a foto é de esqueleto. Tirar essa afirmação. O Pleistoceno está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que época geológica viveu este animal extinto?",
+        "resposta": "Pleistoceno",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Costeletas brancas' é quase o nome da espécie ('white side-burned black langur'), então a pista entrega. Sem ela, 'primata asiático' fica amplo demais, com muitos langures pretos parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta. Os distratores são raças de gado plausíveis, têm até 4 palavras e nenhum é correto. O enunciado não traz pistas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Primata africano de face negra' ajuda sem entregar, e o trecho confirma a face negra. Resposta única diante da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Marsupial australiano menor que o canguru' é uma definição de wallaby, então a figura vira enfeite. Tirar a pista deixaria a pergunta ambígua, porque o animal pode ser lido como canguru, wallaroo ou quokka (que é um tipo de wallaby).",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a região, e o morcego branco é só a figura. O trecho confirma que vive na América Central.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pistas. Os distratores são caprinos de montanha plausíveis, com até 4 palavras, e nenhum descreve a figura.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que época geológica viveu este animal extinto?",
+        "resposta": "Pleistoceno"
+      },
+      "existentes": [
+        {
+          "id": "q04051",
+          "pergunta": "Em que época geológica viveu este animal?",
+          "resposta": "Pleistoceno"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04051",
+      "motivo": "Mesma âncora, mesma pergunta (época geológica do animal) e mesma resposta, Pleistoceno; só muda o adjetivo 'extinto'."
+    }
+  ]
+}

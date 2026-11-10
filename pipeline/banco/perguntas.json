@@ -403462,5 +403462,133 @@
       "autor": "Chipdawes",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q20303",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "tigre_branco",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A que subespécie costuma pertencer este felino?",
+    "resposta": "Tigre-de-bengala",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White_tiger"
+    ],
+    "imagem": {
+      "arquivo": "q20303.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:White-tiger-2407799_1280.jpg",
+      "autor": "SusuMa",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q20304",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "gineta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que pequeno carnívoro africano, de cauda anelada, é este?",
+    "resposta": "Gineta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Common_genet",
+      "https://pt.wikipedia.org/wiki/Gineta"
+    ],
+    "imagem": {
+      "arquivo": "q20304.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:A_female_common_genet_in_the_dining_room,_Satao_Camp_(cropped).jpg",
+      "autor": "Frédéric SALEIN",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q20305",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "gado_highland",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que raça de gado é esta?",
+    "resposta": "Gado Highland",
+    "distratores": [
+      "Gado Galloway",
+      "Texas Longhorn",
+      "Gado Angus"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Highland_cattle"
+    ],
+    "imagem": {
+      "arquivo": "q20305.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:HighlandCow.01.jpg",
+      "autor": "User:Hajor",
+      "licenca": "CC BY-SA 1.0"
+    }
+  },
+  {
+    "id": "q20306",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "drill",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que primata africano, de face negra, é este?",
+    "resposta": "Drill",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Drill_%28animal%29",
+      "https://pt.wikipedia.org/wiki/Mandrillus_leucophaeus"
+    ],
+    "imagem": {
+      "arquivo": "q20306.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Drill_Lincolnparkzoo.jpg",
+      "autor": "Grendelkhan",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20307",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "morcego_branco_de_honduras",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que região do mundo vive este morcego de pelo branco?",
+    "resposta": "América Central",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Honduran_white_bat",
+      "https://pt.wikipedia.org/wiki/Ectophylla_alba"
+    ],
+    "imagem": {
+      "arquivo": "q20307.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ectophylla_alba_Costa_Rica.jpg",
+      "autor": "Leyo",
+      "licenca": "CC BY-SA 2.5 ch"
+    }
+  },
+  {
+    "id": "q20308",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "carneiro_da_barbaria",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que animal é este?",
+    "resposta": "Carneiro-da-barbária",
+    "distratores": [
+      "Muflão-europeu",
+      "Cabra-montês",
+      "Argali"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barbary_sheep",
+      "https://pt.wikipedia.org/wiki/Ammotragus_lervia"
+    ],
+    "imagem": {
+      "arquivo": "q20308.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Two_Barbary_sheep.JPG",
+      "autor": "User:Laurita",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

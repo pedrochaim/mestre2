@@ -1,0 +1,202 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de tigre-branco, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este felino de pelagem branca costuma pertencer a qual subespécie?",
+      "resposta": "Tigre-de-bengala",
+      "ancora": {
+        "nome": "Tigre-branco",
+        "descricao": "Variação de cor leucística do tigre, de pelagem branca com listras escuras e olhos azuis.",
+        "variantes": [
+          "Tigre branco",
+          "Tigre-de-bengala branco"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto desfocada e coberta de areia; difícil separar o lobo-marinho de leões-marinhos e outras espécies de otarídeos. Resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara, cauda anelada e corpo pintado reconhecíveis; resposta no nível de gênero (gineta).",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pequeno carnívoro africano, de cauda anelada, é este?",
+      "resposta": "Gineta",
+      "ancora": {
+        "nome": "Gineta",
+        "descricao": "Pequeno carnívoro viverrídeo de corpo pintado e cauda anelada, do gênero Genetta.",
+        "variantes": [
+          "Genetta genetta",
+          "Gineta-comum"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A foto mostra um cavalo islandês; a resposta 'pônei' não é única (raça, cavalo ou pônei)."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Esqueleto montado, nítido, com chifres e corcova característicos, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que época geológica viveu o animal deste esqueleto?",
+      "resposta": "Pleistoceno",
+      "ancora": {
+        "nome": "Rinoceronte-lanudo",
+        "descricao": "Rinoceronte extinto (Coelodonta antiquitatis) do Pleistoceno do norte da Eurásia, coberto de pelo grosso.",
+        "variantes": [
+          "Coelodonta antiquitatis",
+          "Rinoceronte lanoso"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Primata preto de costeletas brancas visível, sem texto; um pouco desfocado, mas reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que primata asiático, de costeletas brancas, é este?",
+      "resposta": "Langur-de-françois",
+      "ancora": {
+        "nome": "Langur-de-françois",
+        "descricao": "Primata colobíneo preto de costeletas brancas (Trachypithecus francoisi), do sul da China e norte do Vietnã.",
+        "variantes": [
+          "Trachypithecus francoisi",
+          "Langur de Tonquim",
+          "Macaco-folha de François"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de boi Highland, pelo longo e chifres característicos.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que raça de gado é esta?",
+      "resposta": "Gado Highland",
+      "distratores": [
+        "Gado Galloway",
+        "Texas Longhorn",
+        "Gado Angus"
+      ],
+      "ancora": {
+        "nome": "Gado Highland",
+        "descricao": "Raça escocesa de gado de pelo longo e felpudo e chifres longos.",
+        "variantes": [
+          "Highland",
+          "Vaca das terras altas",
+          "Highland cattle"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida; face negra com crista nasal e sem as cores do mandril.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que primata africano, de face negra, é este?",
+      "resposta": "Drill",
+      "ancora": {
+        "nome": "Drill",
+        "descricao": "Primata africano (Mandrillus leucophaeus) de face negra, parente próximo do mandril.",
+        "variantes": [
+          "Mandrillus leucophaeus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É uma litografia antiga com duas vistas do animal; ilustração só vale para o que não pode ser fotografado, e há mistura de vistas."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de ualabi em corpo inteiro, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome se dá a este marsupial australiano, de porte menor que o canguru?",
+      "resposta": "Wallaby (ualabi)",
+      "ancora": {
+        "nome": "Wallaby",
+        "descricao": "Macropódeo de porte pequeno a médio da Austrália e Nova Guiné, parente menor do canguru.",
+        "variantes": [
+          "Ualabi",
+          "Wallaby-de-pescoço-vermelho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida do grupo de morcegos brancos numa folha-tenda, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que região do mundo vive este morcego de pelo branco?",
+      "resposta": "América Central",
+      "ancora": {
+        "nome": "Morcego-branco-de-honduras",
+        "descricao": "Morcego de pelo totalmente branco (Ectophylla alba) que faz tendas com folhas na América Central.",
+        "variantes": [
+          "Ectophylla alba",
+          "Morcego-branco-hondurenho"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto clara de dois carneiros-da-barbária; sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Carneiro-da-barbária",
+      "distratores": [
+        "Muflão-europeu",
+        "Cabra-montês",
+        "Argali"
+      ],
+      "ancora": {
+        "nome": "Carneiro-da-barbária",
+        "descricao": "Caprino de pelo castanho-claro e chifres curvos para trás (Ammotragus lervia), das montanhas do norte da África.",
+        "variantes": [
+          "Ammotragus lervia",
+          "Aoudad",
+          "Arruí"
+        ]
+      }
+    }
+  ]
+}
