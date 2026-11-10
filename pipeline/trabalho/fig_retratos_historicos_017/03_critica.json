@@ -1,0 +1,112 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Diana morreu em 1997, década de 1990. Enunciado não vaza e a figura é necessária. Distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maquiavel foi florentino do Renascimento. A pista não o entrega, pois muitos outros florentinos se encaixam, e a figura decide. Distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de Hess. Os distratores também são dirigentes nazistas, mas a imagem decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chávez foi presidente da Venezuela. Pergunta de reconhecimento sem vazamento, com distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, qualquer abolicionista americano viveu no século dezenove, então a figura virou enfeite. Reescrita pede o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que abolicionista americano, que fugiu da escravidão e virou orador famoso, é este?",
+        "resposta": "Frederick Douglass",
+        "distratores": [
+          "William Lloyd Garrison",
+          "John Brown",
+          "Martin Delany"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sem a figura, 'marechal brasileiro herói' já aponta para a Guerra do Paraguai. Caxias também seria herói dessa guerra, então a resposta não é única. Reescrita pede o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que marechal brasileiro do século dezenove é este?",
+        "resposta": "Manuel Luís Osório",
+        "distratores": [
+          "Duque de Caxias",
+          "Deodoro da Fonseca",
+          "Floriano Peixoto"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de Maria Bonita. A pista 'mulher do cangaço' ajuda sem entregar, e os distratores são cangaceiras.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Engels morreu em 1895, década de 1890. Só se responde reconhecendo a figura, e os distratores são décadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Brasil declarou guerra às Potências Centrais em 1917, no governo de Venceslau Brás. Sem a figura a pergunta é ambígua (o Brasil também entrou na Segunda Guerra), então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de Ben-Gurion, político do século vinte. Não há vazamento, e os distratores são líderes israelenses.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amundsen é explorador polar norueguês. Pergunta de reconhecimento com distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês diz que gerações de Carters foram fazendeiros de algodão, então o distrator 'Algodão' é defensável. A reescrita usa 'ficou famoso' e troca esse distrator.",
+      "reescrita": {
+        "pergunta": "Que produto ficou famoso na fazenda da família deste presidente americano, antes de ele entrar na política?",
+        "resposta": "Amendoim",
+        "distratores": [
+          "Tabaco",
+          "Milho",
+          "Arroz"
+        ]
+      }
+    }
+  ]
+}

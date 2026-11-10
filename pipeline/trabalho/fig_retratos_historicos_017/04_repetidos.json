@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é o homem deste retrato pintado, um florentino do Renascimento?",
+        "resposta": "Nicolau Maquiavel"
+      },
+      "existentes": [
+        {
+          "id": "q08241",
+          "pergunta": "Na guerra de Florença contra Pisa, Maquiavel e Leonardo da Vinci participaram de um plano para desviar que rio?",
+          "resposta": "Arno"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que mulher do cangaço é esta?",
+        "resposta": "Maria Bonita"
+      },
+      "existentes": [
+        {
+          "id": "q19641",
+          "pergunta": "Maria Bonita, companheira de Lampião no cangaço, nasceu em qual estado nordestino?",
+          "resposta": "Bahia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que década morreu este pensador alemão?",
+        "resposta": "Década de 1890"
+      },
+      "existentes": [
+        {
+          "id": "q08249",
+          "pergunta": "Friedrich Engels ajudou a sustentar Karl Marx com o que ganhava na fábrica têxtil da família, em que cidade inglesa?",
+          "resposta": "Manchester"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o retrato de Maquiavel é um fato diferente do rio desviado na guerra contra Pisa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar Maria Bonita por imagem difere de saber o estado onde ela nasceu."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A década da morte de Engels (ou Marx) não é a cidade da fábrica têxtil; fatos diferentes."
+    }
+  ]
+}

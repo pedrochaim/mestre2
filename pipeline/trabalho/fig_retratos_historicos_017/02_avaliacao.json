@@ -1,0 +1,286 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto sem texto, figura pública reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década morreu a mulher desta foto?",
+      "resposta": "Década de 1990",
+      "distratores": [
+        "Década de 1970",
+        "Década de 1980",
+        "Década de 2000"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Diana, Princesa de Gales",
+        "descricao": "Membro da família real britânica, primeira esposa do então príncipe Charles e mãe dos príncipes William e Harry.",
+        "variantes": [
+          "Princesa Diana",
+          "Lady Di",
+          "Diana Spencer"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato pintado icônico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é o homem deste retrato pintado, um florentino do Renascimento?",
+      "resposta": "Nicolau Maquiavel",
+      "distratores": [
+        "Lorenzo de Médici",
+        "Girolamo Savonarola",
+        "Américo Vespúcio"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Nicolau Maquiavel",
+        "descricao": "Diplomata, filósofo e historiador florentino do Renascimento, autor de O Príncipe.",
+        "variantes": [
+          "Niccolò Machiavelli",
+          "Machiavelli"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto histórica sem legenda, rosto reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dirigente nazista é este?",
+      "resposta": "Rudolf Hess",
+      "distratores": [
+        "Heinrich Himmler",
+        "Hermann Göring",
+        "Martin Bormann"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Rudolf Hess",
+        "descricao": "Dirigente nazista alemão, vice de Hitler no partido, que voou sozinho para a Escócia em 1941.",
+        "variantes": [
+          "Rudolf Heß"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; bandeira ao fundo não identifica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que presidente latino-americano é este?",
+      "resposta": "Hugo Chávez",
+      "distratores": [
+        "Evo Morales",
+        "Rafael Correa",
+        "Daniel Ortega"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Hugo Chávez",
+        "descricao": "Militar e político venezuelano, presidente da Venezuela de 1999 a 2013.",
+        "variantes": [
+          "Hugo Rafael Chávez Frías"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gravura do século dezenove, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século viveu este abolicionista americano?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século dezoito",
+        "Século vinte",
+        "Século dezessete"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Frederick Douglass",
+        "descricao": "Abolicionista, orador e escritor americano que fugiu da escravidão e se tornou líder do movimento antiescravagista.",
+        "variantes": [
+          "Frederick Augustus Washington Bailey"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato oval antigo, sem texto; legível, ainda que de aficionado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que guerra este marechal brasileiro se consagrou como herói?",
+      "resposta": "Guerra do Paraguai",
+      "distratores": [
+        "Guerra de Canudos",
+        "Guerra do Contestado",
+        "Guerra dos Emboabas"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "General Osório",
+        "descricao": "Manuel Luís Osório, marquês do Herval, marechal brasileiro do século dezenove e herói da Guerra do Paraguai.",
+        "variantes": [
+          "Manuel Luís Osório",
+          "Marquês do Herval"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto histórica icônica, figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que mulher do cangaço é esta?",
+      "resposta": "Maria Bonita",
+      "distratores": [
+        "Dadá",
+        "Sila",
+        "Inacinha"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Maria Bonita",
+        "descricao": "Maria Gomes de Oliveira, cangaceira brasileira, companheira de Lampião.",
+        "variantes": [
+          "Maria de Déa",
+          "Maria Gomes de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de estúdio do século dezenove, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década morreu este pensador alemão?",
+      "resposta": "Década de 1890",
+      "distratores": [
+        "Década de 1860",
+        "Década de 1870",
+        "Década de 1910"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Friedrich Engels",
+        "descricao": "Filósofo e teórico socialista alemão, parceiro de Karl Marx e coautor do Manifesto Comunista.",
+        "variantes": [
+          "Engels"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato oval antigo; só uma pequena marca do fotógrafo, que não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que guerra mundial o Brasil entrou durante o governo deste presidente?",
+      "resposta": "Primeira Guerra Mundial",
+      "distratores": [
+        "Segunda Guerra Mundial",
+        "Guerra do Paraguai",
+        "Guerra de Canudos"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Venceslau Brás",
+        "descricao": "Presidente do Brasil de 1914 a 1918, em cujo governo o país declarou guerra às Potências Centrais.",
+        "variantes": [
+          "Venceslau Brás Pereira Gomes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, rosto característico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é este político do século vinte?",
+      "resposta": "David Ben-Gurion",
+      "distratores": [
+        "Golda Meir",
+        "Yitzhak Rabin",
+        "Menachem Begin"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "David Ben-Gurion",
+        "descricao": "Principal fundador e primeiro-ministro de Israel, líder do país de 1948 a 1963 com uma pausa.",
+        "variantes": [
+          "Ben Gurion",
+          "David Grün"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto famosa com casaco de pele, sem texto; a sugerida (quando) só renderia pergunta que entrega a resposta, por isso troquei para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que explorador polar é este?",
+      "resposta": "Roald Amundsen",
+      "distratores": [
+        "Robert Falcon Scott",
+        "Ernest Shackleton",
+        "Fridtjof Nansen"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Roald Amundsen",
+        "descricao": "Explorador polar norueguês, líder da primeira expedição a chegar ao Polo Sul.",
+        "variantes": [
+          "Roald Engelbregt Gravning Amundsen"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto oficial nítida; bandeira ao fundo sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que produto cultivava a fazenda da família deste presidente americano?",
+      "resposta": "Amendoim",
+      "distratores": [
+        "Algodão",
+        "Tabaco",
+        "Milho"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Jimmy Carter",
+        "descricao": "39º presidente dos Estados Unidos, de 1977 a 1981, ex-governador da Geórgia.",
+        "variantes": [
+          "James Earl Carter Jr."
+        ]
+      }
+    }
+  ]
+}
