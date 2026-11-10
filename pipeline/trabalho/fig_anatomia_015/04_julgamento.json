@@ -1,0 +1,70 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Osso zigomático",
+        "descricao": "Osso par da face que forma a saliência da bochecha e parte da órbita.",
+        "variantes": [
+          "Zigomático",
+          "Osso malar",
+          "Osso da bochecha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maxila",
+          "nome": "Maxila",
+          "descricao": "Osso da mandíbula superior fixa, formado pela fusão de dois ossos maxilares, que inclui o palato duro.",
+          "variantes": [
+            "Osso maxilar",
+            "Maxilar superior"
+          ]
+        },
+        {
+          "id": "ulna",
+          "nome": "Ulna",
+          "descricao": "Osso longo do antebraço, do lado do dedo mínimo, paralelo ao rádio.",
+          "variantes": [
+            "Cúbito",
+            "Osso ulnar"
+          ]
+        },
+        {
+          "id": "arquitetura_gotica",
+          "nome": "Arquitetura gótica",
+          "descricao": "Estilo arquitetônico europeu dos séculos doze a dezesseis, típico de catedrais como Notre-Dame de Paris e Chartres.",
+          "variantes": [
+            "Estilo gótico",
+            "Gothic architecture",
+            "Gótico"
+          ]
+        },
+        {
+          "id": "zigoto",
+          "nome": "Zigoto",
+          "descricao": "Célula diploide formada pela fusão de dois gametas na fecundação.",
+          "variantes": [
+            "Ovo fecundado",
+            "Célula-ovo"
+          ]
+        },
+        {
+          "id": "tibia",
+          "nome": "Tíbia",
+          "descricao": "Osso longo da perna, entre o joelho e o tornozelo, que forma a canela.",
+          "variantes": [
+            "Osso da canela"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Osso zigomático é um osso distinto; nenhuma candidata (maxila, ulna, tíbia, zigoto, arquitetura gótica) corresponde."
+    }
+  ]
+}

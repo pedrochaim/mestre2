@@ -1,0 +1,102 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Corte histológico roxo genérico; leigo não distingue linfonodo de outros órgãos linfoides, resposta não única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Diagrama com legendas em alemão que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e borrada; ilegível no celular e célula não reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra a mão fóssil inteira (ossos do carpo, metacarpos e falanges), não só falanges; resposta ambígua."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Ilustração cheia de legendas em inglês, inclusive 'sudoriferous gland'."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Crânio 3D sem texto com o osso zigomático em verde, claro.",
+      "pergunta": "Que osso do crânio está destacado em verde nesta figura?",
+      "tipo": "multipla",
+      "resposta": "Osso zigomático",
+      "distratores": [
+        "Maxila",
+        "Osso temporal",
+        "Osso nasal"
+      ],
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Osso zigomático",
+        "descricao": "Osso par da face que forma a saliência da bochecha e parte da órbita.",
+        "variantes": [
+          "Zigomático",
+          "Osso malar",
+          "Osso da bochecha"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Não dá para distinguir Anopheles de outros mosquitos pela foto; a pergunta sobre doença não tem resposta única nem fica sem pista."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Ilustração com legendas 'Lacrimal Gland' que entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mosca espetada em alfinete, pouco nítida e não reconhecível como berne."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Ilustração com legendas 'right coronary artery' que entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Desenho antigo de Didinium com apenas letras de referência; proboscídeo e duas faixas de cílios característicos. Pergunta sobre a presa exige reconhecer o predador.",
+      "pergunta": "Qual é a principal presa deste ciliado predador de água doce?",
+      "tipo": "multipla",
+      "resposta": "Paramécio",
+      "distratores": [
+        "Ameba",
+        "Euglena",
+        "Vorticela"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Didinium",
+        "descricao": "Gênero de protozoários ciliados carnívoros de vida livre que se alimentam sobretudo de paramécios.",
+        "variantes": [
+          "Didinium nasutum"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Diagrama com a legenda 'Sclera' em destaque que entrega a resposta."
+    }
+  ]
+}

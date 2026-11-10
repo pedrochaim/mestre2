@@ -936,7 +936,7 @@
       "titulo": "en:Lymphatic system",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Músculo latíssimo do dorso",
@@ -1363,7 +1363,7 @@
       "titulo": "en:Nucleosome",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Cocolitóforo",
@@ -1399,6 +1399,286 @@
       "camada": 3,
       "destino": 1,
       "status": "reprovada"
+    },
+    {
+      "nome": "Artéria",
+      "titulo": "en:Artery",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Osso",
+      "titulo": "en:Bone",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Testículo",
+      "titulo": "en:Testicle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dente incisivo",
+      "titulo": "en:Incisor",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esclera",
+      "titulo": "en:Sclera",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Falange",
+      "titulo": "en:Phalanx bone",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Linfonodo",
+      "titulo": "en:Lymph node",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Veia jugular",
+      "titulo": "en:Jugular vein",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bicho-geográfico",
+      "titulo": "en:Cutaneous larva migrans",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pernilongo",
+      "titulo": "en:Culex",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mosquito-prego",
+      "titulo": "en:Anopheles",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Berne",
+      "titulo": "en:Dermatobia hominis",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Músculo cardíaco",
+      "titulo": "en:Cardiac muscle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Folículo piloso",
+      "titulo": "en:Hair follicle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Glândula sudorípara",
+      "titulo": "en:Sweat gland",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Glândula lacrimal",
+      "titulo": "en:Lacrimal gland",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nervo vago",
+      "titulo": "en:Vagus nerve",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Artéria coronária",
+      "titulo": "en:Coronary arteries",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Plasmídeo",
+      "titulo": "en:Plasmid",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Citoesqueleto",
+      "titulo": "en:Cytoskeleton",
+      "camada": 2,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Biofilme",
+      "titulo": "en:Biofilm",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pseudópode",
+      "titulo": "en:Pseudopodia",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Citocinese",
+      "titulo": "en:Cytokinesis",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Oxiúro",
+      "titulo": "en:Enterobius vermicularis",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ancilóstomo",
+      "titulo": "en:Hookworm",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Xilema",
+      "titulo": "en:Xylem",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Osso zigomático",
+      "titulo": "en:Zygomatic bone",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Músculo serrátil anterior",
+      "titulo": "en:Serratus anterior muscle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Basófilo",
+      "titulo": "en:Basophil",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mastócito",
+      "titulo": "en:Mast cell",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ósteon",
+      "titulo": "en:Osteon",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Célula caliciforme",
+      "titulo": "en:Goblet cell",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bastonete (retina)",
+      "titulo": "en:Rod cell",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Didinium",
+      "titulo": "en:Didinium",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Heliozoário",
+      "titulo": "en:Heliozoa",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Trichoplax",
+      "titulo": "en:Trichoplax",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Nostoc",
+      "titulo": "en:Nostoc",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Trichomonas vaginalis",
+      "titulo": "en:Trichomonas vaginalis",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Endósporo",
+      "titulo": "en:Endospore",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tilacoide",
+      "titulo": "en:Thylakoid",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
     }
   ]
 }
