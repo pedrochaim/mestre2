@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que empresa americana construiu este avião-foguete experimental?",
+        "resposta": "Bell Aircraft"
+      },
+      "existentes": [
+        {
+          "id": "q07267",
+          "pergunta": "Em que ano o piloto Chuck Yeager, a bordo do avião-foguete Bell X-1, voou oficialmente mais rápido que o som pela primeira vez?",
+          "resposta": "1947"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que equipe britânica de Fórmula 1 correu com este carro?",
+        "resposta": "McLaren"
+      },
+      "existentes": [
+        {
+          "id": "q01605",
+          "pergunta": "Em 1988, a McLaren de Senna e Prost venceu quantas das dezesseis corridas da temporada?",
+          "resposta": "Quinze"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fabricante do Bell X-1 é um fato diferente do ano do voo supersônico."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A equipe do carro (McLaren) é diferente do número de vitórias em 1988; a existente apenas cita a McLaren no enunciado."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Texto visível (Kran-Dienst, ADAC, placas) e operador, uma pessoa comum, em primeiro plano; pergunta de época sobre guincho seria fraca."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara e reconhecível, sem texto que entregue o modelo. Troquei a família para o_que_e porque a época de um modelo em geração recente é ambígua.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modelo de esportivo conversível japonês é este?",
+      "resposta": "Mazda MX-5 (Miata)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mazda MX-5 Miata",
+        "descricao": "Roadster biposto leve fabricado pela Mazda desde 1989.",
+        "variantes": [
+          "Mazda MX-5",
+          "Mazda Miata",
+          "Mazda Roadster",
+          "Eunos Roadster"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Caça em voo, nítido e reconhecível pela asa delta com canards, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que empresa francesa fabrica este caça?",
+      "resposta": "Dassault Aviation",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dassault Rafale",
+        "descricao": "Caça multifunção francês bimotor de asa delta com canards, fabricado pela Dassault Aviation.",
+        "variantes": [
+          "Rafale"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Texto visível (ski-doo, MXZ) que entrega a resposta e piloto comum em primeiro plano."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O nome Thunderbird aparece escrito na lateral do para-lama e emblemas, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida e inconfundível do avião-foguete; sem nome escrito, só o número de série. Troquei para quem_fez porque uma pergunta de época entregaria a resposta pelo feito famoso.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresa americana construiu este avião-foguete experimental?",
+      "resposta": "Bell Aircraft",
+      "distratores": [
+        "Douglas Aircraft",
+        "Northrop",
+        "Lockheed"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bell X-1",
+        "descricao": "Avião-foguete experimental americano, o primeiro avião tripulado a superar a velocidade do som em voo nivelado.",
+        "variantes": [
+          "XS-1",
+          "Glamorous Glennis"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fileira de carrinhos de golfe bem visível; o texto presente (aluguel e telefone) não entrega o nome. Troquei para o_que_e, pois a autoria é ambígua entre fabricantes.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que veículo é este?",
+      "resposta": "Carrinho de golfe",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carrinho de golfe",
+        "descricao": "Pequeno veículo motorizado para dois jogadores e seus tacos em campos de golfe.",
+        "variantes": [
+          "golf cart",
+          "buggy de golfe"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Trem suspenso inconfundível sobre o rio Wupper, sem texto que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurada a primeira linha deste trem suspenso alemão?",
+      "resposta": "1901",
+      "distratores": [
+        "1896",
+        "1908",
+        "1913"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monotrilho suspenso de Wuppertal",
+        "descricao": "Ferrovia suspensa elétrica da cidade alemã de Wuppertal, a mais antiga do mundo com vagões pendurados.",
+        "variantes": [
+          "Wuppertaler Schwebebahn",
+          "Schwebebahn de Wuppertal"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Aviadores, pessoas comuns, aparecem em primeiro plano na foto antiga."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Texto visível (BOMAG) e operador, uma pessoa comum, em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome QUEEN MARY está escrito na proa, o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Carro isolado em fundo branco, muito nítido; os patrocinadores visíveis não nomeiam a equipe. Troquei para quem_fez porque uma pergunta de ano pesaria no limite de anos do lote.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que equipe britânica de Fórmula 1 correu com este carro?",
+      "resposta": "McLaren",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "McLaren MP4/4",
+        "descricao": "Carro de Fórmula 1 da McLaren com motor Honda, dominante na temporada de 1988.",
+        "variantes": [
+          "McLaren-Honda MP4/4",
+          "MP4/4"
+        ]
+      }
+    }
+  ]
+}
