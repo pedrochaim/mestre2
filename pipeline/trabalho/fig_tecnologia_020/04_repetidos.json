@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quantas pás têm, em geral, as máquinas como esta nos parques comerciais?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q02112",
+          "pergunta": "Que equipamento é este, em primeiro plano na foto?",
+          "resposta": "Turbina eólica (aerogerador)"
+        },
+        {
+          "id": "q17771",
+          "pergunta": "A maioria das grandes turbinas eólicas modernas, de eixo horizontal, tem quantas pás?",
+          "resposta": "Três"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q17771",
+      "motivo": "Ambas perguntam quantas pás têm as grandes turbinas eólicas modernas; resposta igual (três)."
+    }
+  ]
+}

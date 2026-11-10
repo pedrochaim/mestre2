@@ -1,0 +1,145 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Três aparelhos na imagem e o nome e logotipo Android visíveis na tela; entrega a resposta e não tem assunto único."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Texto visível 'HP 40gs Graphing Calculator' entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Chip com janela de quartzo, reconhecível; o texto visível é só um código de peça e não revela o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de luz apaga os dados guardados neste chip de memória?",
+      "resposta": "Ultravioleta",
+      "distratores": [
+        "Infravermelha",
+        "Laser verde",
+        "Raios gama"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "EPROM",
+        "descricao": "Memória apagável e programável somente de leitura, que é apagada por luz ultravioleta através de uma janela de quartzo.",
+        "variantes": [
+          "Erasable Programmable Read-Only Memory",
+          "Memória EPROM"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto aérea nítida, sem texto, de turbina de três pás em parque eólico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quantas pás têm, em geral, as máquinas como esta nos parques comerciais?",
+      "resposta": "Três",
+      "destino": 1,
+      "ancora": {
+        "nome": "Turbina eólica",
+        "descricao": "Máquina de eixo horizontal que converte a energia cinética do vento em energia elétrica.",
+        "variantes": [
+          "Aerogerador",
+          "Gerador eólico"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O botão 'STEAM' está legível na frente do aparelho e entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Renderização clara de bobina com núcleo e polos S e N; as letras não entregam o nome. Risco pequeno de confusão com solenoide.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que metal costuma formar o núcleo deste dispositivo, para reforçar o campo magnético?",
+      "resposta": "Ferro",
+      "destino": 1,
+      "ancora": {
+        "nome": "Eletroímã",
+        "descricao": "Ímã em que o campo magnético é produzido por uma corrente elétrica numa bobina de fio, em geral enrolada num núcleo de ferro.",
+        "variantes": [
+          "Eletroima",
+          "Eletroímã de bobina"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Diagrama com texto 'MIRROR' e setas explicativas, além de rosto de pessoa."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Aparelho 2 em 1 com teclado, caneta e ícone de notebook na tela; resposta ambígua entre tablet e notebook."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O logotipo 'Wii U' está escrito no controle e no console."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Indicador verde circular reconhecível por quem conhece rádios antigos; imagem pequena, mas legível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em rádios antigos, que função tinha este indicador luminoso verde?",
+      "resposta": "Mostrar a sintonia da estação",
+      "distratores": [
+        "Medir a temperatura",
+        "Mostrar a hora",
+        "Avisar sobrecarga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Válvula olho mágico",
+        "descricao": "Válvula termiônica com mostrador luminoso circular, usada como indicador de sintonia em rádios antigos.",
+        "variantes": [
+          "Olho mágico",
+          "Magic eye",
+          "Indicador de sintonia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Placa traz o logotipo da framboesa e o texto 'Raspberry Pi 4 Model', que entregam a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto frontal de máquina de escrever elétrica cinza, sem texto legível; reconhecível pelo desenho com rolo fixo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modelo de máquina de escrever elétrica da IBM é este?",
+      "resposta": "IBM Selectric",
+      "destino": 0,
+      "ancora": {
+        "nome": "IBM Selectric",
+        "descricao": "Máquina de escrever elétrica da IBM lançada em 1961, com esfera de tipos giratória em vez de hastes.",
+        "variantes": [
+          "Selectric",
+          "IBM Selectric II"
+        ]
+      }
+    }
+  ]
+}

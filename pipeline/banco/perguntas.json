@@ -400536,5 +400536,74 @@
       "autor": "Hameltion",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q20173",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "eprom",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de luz apaga os dados guardados neste chip de memória?",
+    "resposta": "Ultravioleta",
+    "distratores": [
+      "Infravermelha",
+      "Laser verde",
+      "Raios gama"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/EPROM",
+      "https://pt.wikipedia.org/wiki/EPROM"
+    ],
+    "imagem": {
+      "arquivo": "q20173.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:EPROM_Intel_C1702A.jpg",
+      "autor": "Author : Poil 01:10, 17 Apr 2005 (UTC)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20174",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "valvula_olho_magico",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em rádios antigos, que função tinha este indicador luminoso verde?",
+    "resposta": "Mostrar a sintonia da estação",
+    "distratores": [
+      "Medir a temperatura",
+      "Mostrar a hora",
+      "Avisar sobrecarga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magic_eye_tube"
+    ],
+    "imagem": {
+      "arquivo": "q20174.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Em11-ani.gif",
+      "autor": "Stefan Riepl (Quark48)",
+      "licenca": "CC BY-SA 2.0 de"
+    }
+  },
+  {
+    "id": "q20175",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "ibm_selectric",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que modelo de máquina de escrever elétrica da IBM, com esfera de tipos giratória, é este?",
+    "resposta": "Selectric",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/IBM_Selectric",
+      "https://pt.wikipedia.org/wiki/IBM_Selectric"
+    ],
+    "imagem": {
+      "arquivo": "q20175.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:IBM_Selectric.jpg",
+      "autor": "Oliver Kurmis",
+      "licenca": "CC BY 2.5"
+    }
   }
 ]

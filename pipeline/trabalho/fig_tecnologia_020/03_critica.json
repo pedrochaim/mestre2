@@ -1,0 +1,43 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o EPROM é apagado por luz ultravioleta através da janela de quartzo. O enunciado não nomeia o chip. Os distratores são do mesmo tipo e plausíveis, e nenhum está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que as turbinas eólicas comerciais de eixo horizontal têm três pás. O trecho em português cita só a Vestas V164 como turbina de três lâminas. O enunciado não nomeia a máquina, e a resposta numérica é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "No teste da imagem coberta, 'metal do núcleo para reforçar o campo magnético' já leva a 'ferro' sem olhar a figura. Qualquer reescrita manteria essa pista, porque a resposta é o próprio núcleo ferromagnético. Há também ambiguidade com ferritas e outras ligas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o olho mágico serve como indicador de sintonia em receptores a válvula. O enunciado não nomeia a válvula. A resposta tem 4 palavras, e os distratores são curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'IBM Selectric' repete 'IBM', que já está no enunciado, e isso é vazamento parcial. A resposta deve ser só o modelo.",
+      "reescrita": {
+        "pergunta": "Que modelo de máquina de escrever elétrica da IBM, com esfera de tipos giratória, é este?",
+        "resposta": "Selectric",
+        "distratores": []
+      }
+    }
+  ]
+}

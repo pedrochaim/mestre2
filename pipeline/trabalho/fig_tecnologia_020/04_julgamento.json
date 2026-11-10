@@ -1,0 +1,255 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "EPROM",
+        "descricao": "Memória apagável e programável somente de leitura, que é apagada por luz ultravioleta através de uma janela de quartzo.",
+        "variantes": [
+          "Erasable Programmable Read-Only Memory",
+          "Memória EPROM"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "memoria_ram",
+          "nome": "Memória RAM",
+          "descricao": "Memória de acesso aleatório do computador, que guarda temporariamente os dados em uso e os perde ao ser desligada.",
+          "variantes": [
+            "RAM",
+            "Memória de acesso aleatório"
+          ]
+        },
+        {
+          "id": "povo_cigano",
+          "nome": "Povo cigano",
+          "descricao": "Povo romani, de origem no norte do subcontinente indiano, espalhado pela Europa e pelas Américas.",
+          "variantes": [
+            "Romani",
+            "Roma",
+            "Ciganos",
+            "Rom"
+          ]
+        },
+        {
+          "id": "memorias_postumas_de_bras_cubas",
+          "nome": "Memórias Póstumas de Brás Cubas",
+          "descricao": "Romance de Machado de Assis narrado por um defunto, lançado em livro em 1881.",
+          "variantes": [
+            "Memórias Póstumas"
+          ]
+        },
+        {
+          "id": "zekrom",
+          "nome": "Zekrom",
+          "descricao": "Pokémon dos tipos Dragão e Elétrico, número 644 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "memorial_de_vimy",
+          "nome": "Memorial de Vimy",
+          "descricao": "Memorial nacional canadense na França, dedicado aos soldados canadenses mortos na Primeira Guerra Mundial.",
+          "variantes": [
+            "Memorial Nacional Canadense de Vimy",
+            "Canadian National Vimy Memorial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Turbina eólica",
+        "descricao": "Máquina de eixo horizontal que converte a energia cinética do vento em energia elétrica.",
+        "variantes": [
+          "Aerogerador",
+          "Gerador eólico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "turbina_eolica",
+          "nome": "Turbina eólica",
+          "descricao": "Máquina de eixo horizontal com três pás que converte a energia cinética do vento em energia elétrica.",
+          "variantes": [
+            "Aerogerador",
+            "Gerador eólico"
+          ]
+        },
+        {
+          "id": "sao_petersburgo",
+          "nome": "São Petersburgo",
+          "descricao": "Cidade russa às margens do rio Neva, fundada em 1703 e capital do Império Russo por cerca de dois séculos.",
+          "variantes": [
+            "Saint Petersburg",
+            "Petrogrado",
+            "Leningrado"
+          ]
+        },
+        {
+          "id": "turbina_darrieus",
+          "nome": "Turbina Darrieus",
+          "descricao": "Turbina eólica de eixo vertical com pás curvas, patenteada pelo francês Georges Darrieus em 1926.",
+          "variantes": [
+            "Turbina eólica Darrieus",
+            "Darrieus wind turbine"
+          ]
+        },
+        {
+          "id": "arpoador",
+          "nome": "Arpoador",
+          "descricao": "Pequena península rochosa entre as praias de Ipanema e Copacabana, no Rio de Janeiro.",
+          "variantes": [
+            "Pedra do Arpoador",
+            "Praia do Arpoador"
+          ]
+        },
+        {
+          "id": "hovercraft",
+          "nome": "Hovercraft",
+          "descricao": "Veículo anfíbio que se sustenta sobre um colchão de ar produzido por ventiladores, também chamado de aerodeslizador.",
+          "variantes": [
+            "Aerodeslizador",
+            "Veículo sobre colchão de ar",
+            "Air-cushion vehicle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Válvula olho mágico",
+        "descricao": "Válvula termiônica com mostrador luminoso circular, usada como indicador de sintonia em rádios antigos.",
+        "variantes": [
+          "Olho mágico",
+          "Magic eye",
+          "Indicador de sintonia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cubo_magico",
+          "nome": "Cubo mágico",
+          "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+          "variantes": [
+            "Cubo de Rubik",
+            "Rubik's Cube"
+          ]
+        },
+        {
+          "id": "olho_humano",
+          "nome": "Olho humano",
+          "descricao": "Órgão sensorial da visão que reage à luz visível.",
+          "variantes": [
+            "Globo ocular"
+          ]
+        },
+        {
+          "id": "magic_the_gathering",
+          "nome": "Magic: The Gathering",
+          "descricao": "Jogo de cartas colecionáveis de fantasia lançado em 1993 pela Wizards of the Coast.",
+          "variantes": [
+            "Magic"
+          ]
+        },
+        {
+          "id": "molho_bechamel",
+          "nome": "Molho bechamel",
+          "descricao": "Molho branco francês de leite engrossado com manteiga e farinha, base de lasanhas e gratinados.",
+          "variantes": [
+            "Bechamel",
+            "Béchamel",
+            "Molho branco"
+          ]
+        },
+        {
+          "id": "polo_aquatico",
+          "nome": "Polo aquático",
+          "descricao": "Esporte coletivo disputado na piscina, com gols nas extremidades.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "IBM Selectric",
+        "descricao": "Máquina de escrever elétrica da IBM lançada em 1961, com esfera de tipos giratória em vez de hastes.",
+        "variantes": [
+          "Selectric",
+          "IBM Selectric II"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "electric_cancao_de_katy_perry",
+          "nome": "Electric (canção de Katy Perry)",
+          "descricao": "Canção lançada em 2021 pela cantora Katy Perry como parte do projeto musical dos 25 anos de Pokémon, com clipe ao lado de Pikachu.",
+          "variantes": [
+            "Electric"
+          ]
+        },
+        {
+          "id": "bonde",
+          "nome": "Bonde",
+          "descricao": "Veículo elétrico ou de tração animal que corre sobre trilhos nas ruas das cidades, nome usado no Brasil para o tram ou elétrico.",
+          "variantes": [
+            "Elétrico",
+            "Tram",
+            "Carril"
+          ]
+        },
+        {
+          "id": "electrike",
+          "nome": "Electrike",
+          "descricao": "Pokémon do tipo Elétrico, número 309 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        },
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico",
+            "Trio"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "EPROM é um tipo de memória distinto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "turbina_eolica",
+      "motivo": "Mesma máquina de eixo horizontal, mesmo nome e variantes idênticas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Válvula olho mágico é um componente eletrônico; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "IBM Selectric é uma máquina de escrever; nenhuma candidata corresponde."
+    }
+  ]
+}
