@@ -1,0 +1,172 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra biscoitos de gengibre em formatos de coração, estrela e boneco, numa caixa de casca de bétula. Não são pães de mel, e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "O formato de sino com abas é característico e reconhecível. Não há texto na imagem.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pimenta de formato curioso, de abas achatadas, é esta?",
+      "resposta": "Pimenta-cambuci",
+      "distratores": [
+        "Pimenta-biquinho",
+        "Pimenta-dedo-de-moça",
+        "Pimenta-malagueta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pimenta-cambuci",
+        "descricao": "Cultivar de pimenta (Capsicum baccatum var. pendulum) de formato achatado com três ou quatro abas, parecido com um chapéu de bispo.",
+        "variantes": [
+          "Chapéu de bispo",
+          "Pimenta chapéu-de-bispo",
+          "Bishop's crown"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "O chapéu alveolado em favo de mel é inconfundível, sem texto. Os distratores são fungos comestíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cogumelo, muito apreciado na cozinha francesa, é este?",
+      "resposta": "Morchella (morilha)",
+      "distratores": [
+        "Cantarelo",
+        "Trufa-negra",
+        "Shiitake"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Morchella",
+        "descricao": "Gênero de cogumelos comestíveis de chapéu alveolado, em forma de favo de mel, conhecidos como morilhas.",
+        "variantes": [
+          "Morilha",
+          "Morela",
+          "Morel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A foto mostra um pote aberto com um creme esbranquiçado. Poderia ser iogurte, coalhada, requeijão ou creme de leite, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "As ovas de salmão alaranjadas num cone de alga (temaki) são bem visíveis e legíveis no celular, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ingrediente da culinária japonesa recheia este cone de alga?",
+      "resposta": "Ikura",
+      "distratores": [
+        "Tobiko",
+        "Tarako",
+        "Uni"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ikura",
+        "descricao": "Ovas de salmão curadas, de cor vermelho-alaranjada, usadas na culinária japonesa.",
+        "variantes": [
+          "Caviar vermelho",
+          "Ova de salmão"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O pote com molho vermelho pode ser molho de tomate, ketchup, sopa ou gaspacho, então a resposta não é única diante da imagem. Também não permite uma pergunta de nível 3 limpa."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida da hortaliça de talos brancos largos e folhas verdes. Não há texto na imagem.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que hortaliça asiática, muito usada em refogados, é esta?",
+      "resposta": "Pak choi (bok choy)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pak choi",
+        "descricao": "Repolho chinês (Brassica rapa subsp. chinensis) de talos brancos e folhas verdes, usado como hortaliça.",
+        "variantes": [
+          "Bok choy",
+          "Pak choy",
+          "Couve-chinesa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É uma prancha botânica antiga de uma umbelífera. Ela se parece muito com outras apiáceas, como erva-doce, cominho e cenoura, e não é reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mostra um recipiente plástico com uma farofa amarela, que também poderia ser cuscuz. Há ainda mãos de uma pessoa comum e fundo caseiro. Não identifica a paçoca de carne com clareza."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cachos de frutinhas pretas brilhantes com folhas serrilhadas, bem legíveis. Os distratores são frutas escuras parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta, usada em geleias e licores, é esta?",
+      "resposta": "Cassis (groselha-preta)",
+      "distratores": [
+        "Mirtilo",
+        "Amora-preta",
+        "Aronia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cassis",
+        "descricao": "Fruta preta e brilhante do arbusto Ribes nigrum, usada em geleias, sucos e licores.",
+        "variantes": [
+          "Groselha-preta",
+          "Blackcurrant",
+          "Black currant"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É uma ilustração botânica antiga e pequena, com baixa legibilidade no celular. Não permite reconhecer a pimenta-longa nem distingui-la de outras Piper."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Close nítido da gema de um ovo cru, de fácil reconhecimento e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que parte do ovo aparece em destaque no centro desta foto?",
+      "resposta": "Gema",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gema de ovo",
+        "descricao": "Parte central e amarelo-alaranjada do ovo, que nutre o embrião.",
+        "variantes": [
+          "Gema",
+          "Vitelo"
+        ]
+      }
+    }
+  ]
+}

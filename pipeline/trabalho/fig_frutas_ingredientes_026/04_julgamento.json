@@ -1,0 +1,391 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pimenta-cambuci",
+        "descricao": "Cultivar de pimenta (Capsicum baccatum var. pendulum) de formato achatado com três ou quatro abas, parecido com um chapéu de bispo.",
+        "variantes": [
+          "Chapéu de bispo",
+          "Pimenta chapéu-de-bispo",
+          "Bishop's crown"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapeu_de_cauboi",
+          "nome": "Chapéu de caubói",
+          "descricao": "Chapéu de copa alta e aba larga associado aos vaqueiros do oeste americano",
+          "variantes": [
+            "Cowboy hat",
+            "Chapéu Stetson",
+            "Stetson"
+          ]
+        },
+        {
+          "id": "chapeu_de_castor",
+          "nome": "Chapéu de castor",
+          "descricao": "Chapéu de feltro feito com pelo de castor, muito valorizado na Europa entre os séculos dezessete e dezenove",
+          "variantes": [
+            "Beaver hat"
+          ]
+        },
+        {
+          "id": "chapeu_coco",
+          "nome": "Chapéu-coco",
+          "descricao": "Chapéu de feltro duro com copa arredondada, criado em Londres em 1849.",
+          "variantes": [
+            "Bowler hat",
+            "Derby",
+            "Chapéu-melão",
+            "Chapéu de coco"
+          ]
+        },
+        {
+          "id": "chapeu_de_festa",
+          "nome": "Chapéu de festa",
+          "descricao": "Chapéu cônico de papelão fino, com estampa e elástico sob o queixo, usado em comemorações.",
+          "variantes": [
+            "Chapéu de aniversário",
+            "Chapéu de aniversário de papel"
+          ]
+        },
+        {
+          "id": "baculo",
+          "nome": "Báculo",
+          "descricao": "Cajado cerimonial curvo, insígnia de bispos e abades.",
+          "variantes": [
+            "Bastão pastoral",
+            "Crozier",
+            "Cajado de bispo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Morchella",
+        "descricao": "Gênero de cogumelos comestíveis de chapéu alveolado, em forma de favo de mel, conhecidos como morilhas.",
+        "variantes": [
+          "Morilha",
+          "Morela",
+          "Morel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morchella",
+          "nome": "Morchella",
+          "descricao": "Gênero de fungos comestíveis de chapéu alveolado, as morquelas.",
+          "variantes": [
+            "Morquela",
+            "Morel",
+            "Morchella esculenta"
+          ]
+        },
+        {
+          "id": "moela",
+          "nome": "Moela",
+          "descricao": "Parte musculosa do estômago das aves que tritura o alimento, muitas vezes com a ajuda de pedrinhas engolidas.",
+          "variantes": [
+            "Gizzard",
+            "Ventrículo"
+          ]
+        },
+        {
+          "id": "moreia",
+          "nome": "Moreia",
+          "descricao": "Peixe alongado da família Muraenidae, sem nadadeiras peitorais, que vive em tocas nos recifes.",
+          "variantes": [
+            "Muraenidae",
+            "Moray eel"
+          ]
+        },
+        {
+          "id": "orelha",
+          "nome": "Orelha",
+          "descricao": "Órgão da audição e do equilíbrio dos vertebrados, aqui a orelha humana externa.",
+          "variantes": [
+            "Ouvido",
+            "Pavilhão auricular"
+          ]
+        },
+        {
+          "id": "requeima_da_batata",
+          "nome": "Requeima da batata",
+          "descricao": "Doença da batata e do tomate causada pelo oomiceto Phytophthora infestans",
+          "variantes": [
+            "Phytophthora infestans",
+            "mela",
+            "late blight"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ikura",
+        "descricao": "Ovas de salmão curadas, de cor vermelho-alaranjada, usadas na culinária japonesa.",
+        "variantes": [
+          "Caviar vermelho",
+          "Ova de salmão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caviar",
+          "nome": "Caviar",
+          "descricao": "Iguaria feita de ovas salgadas de esturjão e, por extensão, de outros peixes.",
+          "variantes": [
+            "Caviare",
+            "Ova de salmão"
+          ]
+        },
+        {
+          "id": "mar_vermelho",
+          "nome": "Mar Vermelho",
+          "descricao": "Braço do oceano Índico entre a península Arábica e o nordeste da África, ligado ao Mediterrâneo pelo canal de Suez.",
+          "variantes": [
+            "Red Sea"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "iurta",
+          "nome": "Iurta",
+          "descricao": "Tenda redonda portátil, coberta de feltro, usada por nômades das estepes da Ásia.",
+          "variantes": [
+            "Yurt",
+            "Ger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pak choi",
+        "descricao": "Repolho chinês (Brassica rapa subsp. chinensis) de talos brancos e folhas verdes, usado como hortaliça.",
+        "variantes": [
+          "Bok choy",
+          "Pak choy",
+          "Couve-chinesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "junco_chines",
+          "nome": "Junco chinês",
+          "descricao": "Tipo de navio à vela chinês com velas ripadas, leme central e casco de anteparas estanques.",
+          "variantes": [
+            "Junco",
+            "Junk"
+          ]
+        },
+        {
+          "id": "vista_chinesa",
+          "nome": "Vista Chinesa",
+          "descricao": "Mirante em estilo chinês na Floresta da Tijuca, no Alto da Boa Vista, Rio de Janeiro.",
+          "variantes": []
+        },
+        {
+          "id": "chave_inglesa",
+          "nome": "Chave inglesa",
+          "descricao": "Chave com mandíbula móvel que se ajusta a porcas e parafusos de vários tamanhos.",
+          "variantes": [
+            "Chave ajustável"
+          ]
+        },
+        {
+          "id": "kiwi_2",
+          "nome": "Kiwi",
+          "descricao": "Fruto comestível de trepadeiras do gênero Actinidia, nativo da China",
+          "variantes": [
+            "Kiwifruit",
+            "Actinidia deliciosa",
+            "groselha-chinesa"
+          ]
+        },
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cassis",
+        "descricao": "Fruta preta e brilhante do arbusto Ribes nigrum, usada em geleias, sucos e licores.",
+        "variantes": [
+          "Groselha-preta",
+          "Blackcurrant",
+          "Black currant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cassio",
+          "nome": "Cássio",
+          "descricao": "Cássio Ramos, goleiro brasileiro ídolo do Corinthians, nascido em 1987.",
+          "variantes": [
+            "Cássio Ramos"
+          ]
+        },
+        {
+          "id": "gabinete_de_computador",
+          "nome": "Gabinete de computador",
+          "descricao": "Caixa metálica que abriga os componentes internos de um computador pessoal.",
+          "variantes": [
+            "Case",
+            "Caixa do computador",
+            "Chassi"
+          ]
+        },
+        {
+          "id": "gato_preto",
+          "nome": "Gato preto",
+          "descricao": "Gato de pelagem preta, objeto de superstições opostas em diferentes países.",
+          "variantes": [
+            "Black cat"
+          ]
+        },
+        {
+          "id": "groselha",
+          "nome": "Groselha",
+          "descricao": "Pequeno fruto vermelho, translúcido, em cachos, do arbusto Ribes rubrum.",
+          "variantes": [
+            "Groselha-vermelha",
+            "Redcurrant"
+          ]
+        },
+        {
+          "id": "cassini_huygens",
+          "nome": "Cassini-Huygens",
+          "descricao": "Missão conjunta de NASA, ESA e ASI, cuja sonda Cassini orbitou Saturno de 2004 a 2017.",
+          "variantes": [
+            "Cassini",
+            "Sonda Cassini"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gema de ovo",
+        "descricao": "Parte central e amarelo-alaranjada do ovo, que nutre o embrião.",
+        "variantes": [
+          "Gema",
+          "Vitelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "ema_placa_votiva_xintoista",
+          "nome": "Ema (placa votiva xintoísta)",
+          "descricao": "Pequena placa de madeira em que fiéis japoneses escrevem pedidos e a deixam pendurada em santuários.",
+          "variantes": [
+            "Ema",
+            "Placas votivas japonesas"
+          ]
+        },
+        {
+          "id": "genoma",
+          "nome": "Genoma",
+          "descricao": "Conjunto completo do material genético de um organismo.",
+          "variantes": [
+            "Genome"
+          ]
+        },
+        {
+          "id": "geta",
+          "nome": "Geta",
+          "descricao": "Calçado tradicional japonês de madeira, com base plana elevada por dentes e preso ao pé por uma tira de tecido.",
+          "variantes": [
+            "Gueta",
+            "Sandália japonesa de madeira"
+          ]
+        },
+        {
+          "id": "alemanha",
+          "nome": "Alemanha",
+          "descricao": "País da Europa Central e Ocidental cuja capital é Berlim.",
+          "variantes": [
+            "República Federal da Alemanha",
+            "Germany",
+            "Deutschland"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pimenta cultivar não corresponde a nenhum chapéu ou báculo candidato."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "morchella",
+      "motivo": "Mesmo gênero de cogumelos comestíveis com chapéu alveolado (morel/morilha)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ikura (ova de salmão curada japonesa) é diferente de caviar (ovas de esturjão), apesar da variante em comum."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pak choi é hortaliça; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cassis (Ribes nigrum) difere da groselha vermelha (Ribes rubrum) e das demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Gema de ovo não corresponde a nenhuma candidata."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o formato distintivo (abas achatadas), que é a própria pista visual; a descrição quase entrega a resposta sem a figura. Basta pedir a variedade.",
+      "reescrita": {
+        "pergunta": "Que variedade de pimenta é esta?",
+        "resposta": "Pimenta-cambuci",
+        "distratores": [
+          "Pimenta-biquinho",
+          "Pimenta-dedo-de-moça",
+          "Pimenta-malagueta"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista da cozinha francesa é sustentada pela Wikipédia em português e não identifica sozinha (trufa e cantarelo também são apreciados). A figura é necessária e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a resposta e a figura é necessária. Outras ovas são distratores críveis, e o trecho confirma que ikura é ova de salmão da culinária japonesa.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A pista (hortaliça asiática, refogados) não entrega o nome e é verdadeira. A identidade vem do trecho. A resposta é única, com o sinônimo bok choy.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Geleia e licor constam nos trechos e não bastam para identificar a fruta sem a figura. Os distratores são frutas escuras críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A afirmação de que a parte aparece no centro da foto não é verificável pelo que se sabe da imagem e pode ser falsa. Basta perguntar de forma direta.",
+      "reescrita": {
+        "pergunta": "Que parte do ovo é esta, em destaque nesta foto?",
+        "resposta": "Gema",
+        "distratores": []
+      }
+    }
+  ]
+}

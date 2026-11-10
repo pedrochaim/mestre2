@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cogumelo, muito apreciado na cozinha francesa, é este?",
+        "resposta": "Morchella (morilha)"
+      },
+      "existentes": [
+        {
+          "id": "q02842",
+          "pergunta": "Que fungo comestível é este?",
+          "resposta": "Morchella"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02842",
+      "motivo": "Ambas pedem a identificação do mesmo cogumelo (Morchella) a partir da imagem; a resposta é a mesma."
+    }
+  ]
+}
