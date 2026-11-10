@@ -1,0 +1,122 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em qual bioma brasileiro vive sobretudo este jacaré?",
+        "resposta": "Pantanal"
+      },
+      "existentes": [
+        {
+          "id": "q14465",
+          "pergunta": "Que jacaré sul-americano é este?",
+          "resposta": "Jacaré-do-pantanal"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que bioma frio vive naturalmente este animal?",
+        "resposta": "Tundra ártica"
+      },
+      "existentes": [
+        {
+          "id": "q08202",
+          "pergunta": "Que animal do Ártico é este?",
+          "resposta": "Boi-almiscarado"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Estas árvores formam florestas típicas de qual região do Brasil?",
+        "resposta": "Sul"
+      },
+      "existentes": [
+        {
+          "id": "q02690",
+          "pergunta": "Botanicamente, o pinhão, comido nas festas juninas do Sul, é que parte da araucária?",
+          "resposta": "A semente"
+        },
+        {
+          "id": "q19051",
+          "pergunta": "Entre estas árvores brasileiras, qual é uma gimnosperma, que forma sementes sem produzir frutos?",
+          "resposta": "Araucária"
+        },
+        {
+          "id": "q19052",
+          "pergunta": "Que ave, símbolo do Paraná, ajuda a espalhar a araucária ao enterrar pinhões e esquecer alguns deles?",
+          "resposta": "Gralha-azul"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que país dos Andes fica esta lagoa salgada de águas avermelhadas?",
+        "resposta": "Bolívia"
+      },
+      "existentes": [
+        {
+          "id": "q14155",
+          "pergunta": "Em que país fica esta laguna salgada do altiplano andino?",
+          "resposta": "Bolívia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que país africano fica esta montanha de cume nevado?",
+        "resposta": "Tanzânia"
+      },
+      "existentes": [
+        {
+          "id": "q02105",
+          "pergunta": "O Kilimanjaro, ponto mais alto da África, não pertence a nenhuma cordilheira. Que tipo de montanha ele é?",
+          "resposta": "Um vulcão"
+        },
+        {
+          "id": "q06723",
+          "pergunta": "O Kilimanjaro, ponto mais alto da África, é formado por quantos cones vulcânicos?",
+          "resposta": "Três"
+        },
+        {
+          "id": "q09629",
+          "pergunta": "O cume mais alto do Kilimanjaro chama-se Uhuru, palavra suaíli escolhida para celebrar a independência da Tanganica. O que ela significa?",
+          "resposta": "Liberdade"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Bioma onde vive é fato diferente da identificação da espécie."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bioma é fato diferente da identificação do animal."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Região do Brasil das florestas de araucária é fato diferente de semente, gimnosperma ou gralha."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o país da laguna salgada, resposta Bolívia.",
+      "id_existente": "q14155"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "País do Kilimanjaro não é perguntado nas existentes."
+    }
+  ]
+}

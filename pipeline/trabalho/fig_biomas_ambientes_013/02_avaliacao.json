@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de jacaré-do-pantanal; pergunta de habitat sem nomear o animal.",
+      "nivel": 3,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este jacaré vive sobretudo em qual grande planície alagável da América do Sul?",
+      "resposta": "Pantanal",
+      "distratores": [
+        "Pampa",
+        "Caatinga",
+        "Mata Atlântica"
+      ],
+      "ancora": {
+        "nome": "Jacaré-do-pantanal",
+        "descricao": "Espécie de jacaré (Caiman yacare) da família Alligatoridae, típica das áreas alagadas do centro-sul da América do Sul.",
+        "variantes": [
+          "Yacare",
+          "Caiman yacare",
+          "Jacaré-paraguaio"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra um pôr ou nascer do sol comum sobre um lago; não é reconhecível como sol da meia-noite."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Boi-almiscarado bem visível e reconhecível; pergunta sobre o bioma onde vive.",
+      "nivel": 3,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que bioma frio vive naturalmente este animal?",
+      "resposta": "Tundra ártica",
+      "distratores": [
+        "Taiga",
+        "Savana",
+        "Pampa"
+      ],
+      "ancora": {
+        "nome": "Boi-almiscarado",
+        "descricao": "Mamífero bovídeo de pelagem espessa (Ovibos moschatus), nativo do Ártico.",
+        "variantes": [
+          "Muskox",
+          "Ovibos moschatus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Araucárias claramente visíveis em primeiro plano, com cânion ao fundo; reconhecíveis.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Estas árvores formam florestas típicas de qual região do Brasil?",
+      "resposta": "Sul",
+      "distratores": [
+        "Nordeste",
+        "Norte",
+        "Centro-Oeste"
+      ],
+      "ancora": {
+        "nome": "Araucária",
+        "descricao": "Conífera Araucaria angustifolia, o pinheiro-do-paraná, típica das florestas de altitude do Sul do Brasil.",
+        "variantes": [
+          "Pinheiro-do-paraná",
+          "Araucaria angustifolia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Céu encoberto com sol velado; não se distingue o altostrato de outras camadas de nuvens, resposta pouco única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Panorama da lagoa avermelhada com ilhas brancas de bórax, sem texto; distintiva, legível apesar de formato largo.",
+      "nivel": 3,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país dos Andes fica esta lagoa salgada de águas avermelhadas?",
+      "resposta": "Bolívia",
+      "distratores": [
+        "Chile",
+        "Peru",
+        "Argentina"
+      ],
+      "ancora": {
+        "nome": "Laguna Colorada",
+        "descricao": "Lago hipersalino raso e avermelhado no Altiplano boliviano, na Reserva Eduardo Avaroa.",
+        "variantes": [
+          "Laguna Colorada (Bolívia)",
+          "Lagoa Colorada"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Árvore frondosa de copa cheia; o tronco característico quase não aparece, não é reconhecível com segurança como baobá."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Rochas vermelhas e montanhas sem traço que identifique o Deserto de Mojave; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mapa com municípios destacados e sem legenda; não identifica o sertão com clareza."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Mostra prado com floresta de coníferas abaixo; ambígua para tundra alpina."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Planície alagada genérica, confundível com Pantanal, Pampa ou outras várzeas; não reconhecível como Llanos."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do Kilimanjaro com cume nevado acima das nuvens, sem texto.",
+      "nivel": 1,
+      "familia": "onde",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país africano fica esta montanha de cume nevado?",
+      "resposta": "Tanzânia",
+      "distratores": [
+        "Quênia",
+        "Uganda",
+        "Etiópia"
+      ],
+      "ancora": {
+        "nome": "Monte Kilimanjaro",
+        "descricao": "Vulcão adormecido na Tanzânia, a montanha mais alta da África, com 5 895 metros.",
+        "variantes": [
+          "Quilimanjaro",
+          "Mount Kilimanjaro"
+        ]
+      }
+    }
+  ]
+}
