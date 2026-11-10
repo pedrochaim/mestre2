@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "River Plate"
+      },
+      "existentes": [
+        {
+          "id": "q00040",
+          "pergunta": "O que River Plate e Boca Juniors, grandes rivais argentinos, têm em comum na sua origem?",
+          "resposta": "Ambos nasceram no bairro de La Boca"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Atlético de Madrid"
+      },
+      "existentes": [
+        {
+          "id": "q00043",
+          "pergunta": "Que ligação existe, na origem, entre o Atlético de Madrid e o Athletic Bilbao?",
+          "resposta": "O Atlético nasceu como filial do Athletic"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o time pelo uniforme; a existente trata da origem comum no bairro de La Boca. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o time pelo uniforme; a existente trata da ligação de origem com o Athletic Bilbao. Fatos diferentes."
+    }
+  ]
+}

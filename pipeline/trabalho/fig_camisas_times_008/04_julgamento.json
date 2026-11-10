@@ -1,0 +1,525 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Associação Portuguesa de Desportos",
+        "descricao": "Clube de futebol brasileiro do bairro do Pari, em São Paulo, fundado em 1920 pela comunidade portuguesa.",
+        "variantes": [
+          "Portuguesa",
+          "Lusa",
+          "Portuguesa de Desportos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lingua_portuguesa",
+          "nome": "Língua portuguesa",
+          "descricao": "Língua românica originada no noroeste da Península Ibérica, oficial em países de quatro continentes",
+          "variantes": [
+            "Português"
+          ]
+        },
+        {
+          "id": "a_portuguesa",
+          "nome": "A Portuguesa",
+          "descricao": "Hino nacional de Portugal, composto em 1890 por Alfredo Keil, com letra de Henrique Lopes de Mendonça.",
+          "variantes": [
+            "Hino de Portugal"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "lua_linguagem_de_programacao",
+          "nome": "Lua (linguagem de programação)",
+          "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos.",
+          "variantes": [
+            "Lua"
+          ]
+        },
+        {
+          "id": "cruz_da_ordem_de_cristo",
+          "nome": "Cruz da Ordem de Cristo",
+          "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+          "variantes": [
+            "Cruz de Cristo",
+            "Cruz Portuguesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Manchester United",
+        "descricao": "Clube de futebol inglês sediado em Old Trafford, Grande Manchester, apelidado de Red Devils.",
+        "variantes": [
+          "Manchester United F.C.",
+          "Man United",
+          "Red Devils"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "demolidor",
+          "nome": "Demolidor",
+          "descricao": "Super-herói cego da Marvel, identidade do advogado Matt Murdock",
+          "variantes": [
+            "Daredevil",
+            "Matt Murdock"
+          ]
+        },
+        {
+          "id": "renda_de_bilro",
+          "nome": "Renda de bilro",
+          "descricao": "Renda artesanal feita trançando fios presos a pequenos fusos sobre uma almofada, tradicional no litoral brasileiro",
+          "variantes": [
+            "Renda de bilros",
+            "Bobbin lace"
+          ]
+        },
+        {
+          "id": "redemoinho_de_poeira",
+          "nome": "Redemoinho de poeira",
+          "descricao": "Coluna giratória de ar que levanta poeira e folhas em dias quentes e secos",
+          "variantes": [
+            "Redemoinho de vento",
+            "Dust devil"
+          ]
+        },
+        {
+          "id": "rede_de_volei",
+          "nome": "Rede de vôlei",
+          "descricao": "Rede que divide a quadra de vôlei, com altura oficial diferente para homens e mulheres.",
+          "variantes": [
+            "Rede de voleibol"
+          ]
+        },
+        {
+          "id": "pokemon_unite",
+          "nome": "Pokémon Unite",
+          "descricao": "Jogo de batalhas em equipe da franquia Pokémon, lançado em 2021, desenvolvido pelo TiMi Studio Group.",
+          "variantes": [
+            "Unite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Seleção Sueca de Futebol",
+        "descricao": "Seleção masculina de futebol da Suécia, vice-campeã mundial em 1958.",
+        "variantes": [
+          "Suécia",
+          "Seleção da Suécia",
+          "Blågult"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "suecia",
+          "nome": "Suécia",
+          "descricao": "País nórdico da Península Escandinava, cuja capital é Estocolmo.",
+          "variantes": [
+            "Reino da Suécia"
+          ]
+        },
+        {
+          "id": "selecao_alema_de_futebol",
+          "nome": "Seleção Alemã de Futebol",
+          "descricao": "Equipe nacional masculina de futebol da Alemanha, de camisa branca com detalhes nas cores da bandeira.",
+          "variantes": [
+            "Alemanha",
+            "Seleção da Alemanha",
+            "Die Mannschaft"
+          ]
+        },
+        {
+          "id": "selecao_mexicana_de_futebol",
+          "nome": "Seleção Mexicana de Futebol",
+          "descricao": "Seleção nacional masculina de futebol do México.",
+          "variantes": [
+            "México",
+            "El Tri",
+            "Seleção do México"
+          ]
+        },
+        {
+          "id": "selecao_croata_de_futebol",
+          "nome": "Seleção Croata de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Vatreni",
+            "Seleção da Croácia"
+          ]
+        },
+        {
+          "id": "selecao_sul_coreana_de_futebol",
+          "nome": "Seleção Sul-Coreana de Futebol",
+          "descricao": "Seleção nacional de futebol da Coreia do Sul, semifinalista da Copa do Mundo de 2002, que sediou junto com o Japão.",
+          "variantes": [
+            "Seleção da Coreia do Sul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Criciúma Esporte Clube",
+        "descricao": "Clube de futebol brasileiro de Criciúma, Santa Catarina, campeão da Copa do Brasil de 1991.",
+        "variantes": [
+          "Criciúma",
+          "Criciúma EC",
+          "Tigre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tigre",
+          "nome": "Tigre",
+          "descricao": "Grande felino asiático do gênero Panthera, de pelagem laranja com listras pretas (Panthera tigris).",
+          "variantes": [
+            "Panthera tigris"
+          ]
+        },
+        {
+          "id": "curcuma",
+          "nome": "Cúrcuma",
+          "descricao": "Raiz alaranjada da planta Curcuma longa, usada como tempero e corante, também chamada açafrão-da-terra.",
+          "variantes": [
+            "Açafrão-da-terra",
+            "Curcuma longa",
+            "Turmeric"
+          ]
+        },
+        {
+          "id": "rio_tibre",
+          "nome": "Rio Tibre",
+          "descricao": "Rio da Itália central que atravessa Roma, aqui com o Castelo e a Ponte Sant'Angelo.",
+          "variantes": [
+            "Tibre",
+            "Tevere",
+            "Tiber"
+          ]
+        },
+        {
+          "id": "tanque_tiger_i",
+          "nome": "Tanque Tiger I",
+          "descricao": "Tanque pesado alemão da Segunda Guerra Mundial com canhão de 88 mm, em serviço a partir de 1942.",
+          "variantes": [
+            "Panzerkampfwagen VI Tiger",
+            "Tiger",
+            "Panzer VI"
+          ]
+        },
+        {
+          "id": "cruzeiro",
+          "nome": "Cruzeiro",
+          "descricao": "Cruzeiro Esporte Clube, clube de futebol de Belo Horizonte fundado em 1921 por imigrantes italianos.",
+          "variantes": [
+            "Cruzeiro Esporte Clube",
+            "Palestra Itália de Belo Horizonte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Seleção Camaronesa de Futebol",
+        "descricao": "Seleção masculina de futebol de Camarões, conhecida como Leões Indomáveis.",
+        "variantes": [
+          "Camarões",
+          "Seleção de Camarões",
+          "Leões Indomáveis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camaroes",
+          "nome": "Camarões",
+          "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses",
+          "variantes": [
+            "Cameroon",
+            "Cameroun"
+          ]
+        },
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "camarao",
+          "nome": "Camarão",
+          "descricao": "Crustáceo decápode de corpo alongado e nadador, como os da imagem, listrados e com longas antenas.",
+          "variantes": [
+            "Camarões"
+          ]
+        },
+        {
+          "id": "selecao_japonesa_de_futebol",
+          "nome": "Seleção Japonesa de Futebol",
+          "descricao": "Seleção masculina de futebol do Japão, apelidada Samurai Blue.",
+          "variantes": [
+            "Japão",
+            "Samurai Blue"
+          ]
+        },
+        {
+          "id": "selecao_marroquina_de_futebol",
+          "nome": "Seleção Marroquina de Futebol",
+          "descricao": "Seleção nacional de futebol do Marrocos, semifinalista da Copa do Mundo de 2022.",
+          "variantes": [
+            "Seleção do Marrocos",
+            "Leões do Atlas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Club Atlético River Plate",
+        "descricao": "Clube de futebol argentino de Buenos Aires, com estádio Monumental.",
+        "variantes": [
+          "River Plate",
+          "River",
+          "Los Millonarios"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        },
+        {
+          "id": "driver_golfe",
+          "nome": "Driver (golfe)",
+          "descricao": "Taco de golfe de cabeça grande, o chamado madeira um, usado nas tacadas de saída.",
+          "variantes": [
+            "Driver",
+            "Madeira 1",
+            "1-wood"
+          ]
+        },
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        },
+        {
+          "id": "prata",
+          "nome": "Prata",
+          "descricao": "Elemento químico de símbolo Ag e número atômico 47, metal branco e brilhante, um dos metais conhecidos desde a Antiguidade.",
+          "variantes": [
+            "Ag",
+            "Silver",
+            "Argentum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Atlético de Madrid",
+        "descricao": "Clube de futebol espanhol de Madri, de camisa listrada em vermelho e branco e calção azul.",
+        "variantes": [
+          "Atlético Madrid",
+          "Atleti",
+          "Club Atlético de Madrid"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atletico_de_madrid",
+          "nome": "Atlético de Madrid",
+          "descricao": "Club Atlético de Madrid, clube de futebol da capital espanhola fundado em 1903.",
+          "variantes": [
+            "Club Atlético de Madrid",
+            "Atlético Madrid",
+            "Athletic Club de Madrid",
+            "Atleti"
+          ]
+        },
+        {
+          "id": "penarol",
+          "nome": "Peñarol",
+          "descricao": "Clube de futebol de Montevidéu, no Uruguai, de camisa listrada em preto e amarelo.",
+          "variantes": [
+            "Club Atlético Peñarol",
+            "Carbonero"
+          ]
+        },
+        {
+          "id": "clube_atletico_mineiro",
+          "nome": "Clube Atlético Mineiro",
+          "descricao": "Clube de futebol de Belo Horizonte, em Minas Gerais, fundado em 1908, conhecido como Galo.",
+          "variantes": [
+            "Atlético Mineiro",
+            "Atlético-MG",
+            "Galo"
+          ]
+        },
+        {
+          "id": "athletico_paranaense",
+          "nome": "Athletico Paranaense",
+          "descricao": "Clube de futebol de Curitiba, no Paraná, de camisa preta com faixas diagonais vermelhas.",
+          "variantes": [
+            "Club Athletico Paranaense",
+            "Furacão",
+            "Athletico-PR"
+          ]
+        },
+        {
+          "id": "agulheta",
+          "nome": "Agulheta",
+          "descricao": "Ponteira de plástico ou metal que reveste a ponta do cadarço.",
+          "variantes": [
+            "Aglet",
+            "Ponteira do cadarço"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Rangers Football Club",
+        "descricao": "Clube de futebol de Glasgow, Escócia, que manda jogos no Ibrox Stadium e veste azul real.",
+        "variantes": [
+          "Rangers",
+          "Glasgow Rangers",
+          "Rangers F.C."
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_ranger",
+          "nome": "Pokémon Ranger",
+          "descricao": "Jogo derivado da franquia Pokémon, lançado em 2006 para Nintendo DS, em que o jogador é um guarda florestal que acalma pokémon selvagens.",
+          "variantes": [
+            "Ranger"
+          ]
+        },
+        {
+          "id": "vingadores",
+          "nome": "Vingadores",
+          "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1963",
+          "variantes": [
+            "Avengers"
+          ]
+        },
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "fluminense",
+          "nome": "Fluminense",
+          "descricao": "Fluminense Football Club, clube carioca fundado em 1902, conhecido como Tricolor das Laranjeiras.",
+          "variantes": [
+            "Fluminense Football Club",
+            "Flu",
+            "Tricolor das Laranjeiras"
+          ]
+        },
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Clube paulista não corresponde a nenhuma candidata (língua, hino, etc.)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o clube inglês."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Seleção de futebol é distinta do país Suécia; não há candidata da seleção."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Criciúma EC não está entre as candidatas; Cruzeiro é outro clube e Tigre é o animal."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Seleção é distinta do país, da bandeira e do crustáceo."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "river_plate",
+      "motivo": "Mesmo clube de Buenos Aires, Club Atlético River Plate."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "atletico_de_madrid",
+      "motivo": "Mesmo clube espanhol de Madri, Club Atlético de Madrid."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o clube escocês Rangers."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Listras horizontais vermelhas e verdes, desenho marcante e reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que bairro de São Paulo fica a sede do clube deste uniforme?",
+      "resposta": "Pari",
+      "distratores": [
+        "Mooca",
+        "Brás",
+        "Bom Retiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Associação Portuguesa de Desportos",
+        "descricao": "Clube de futebol brasileiro do bairro do Pari, em São Paulo, fundado em 1920 pela comunidade portuguesa.",
+        "variantes": [
+          "Portuguesa",
+          "Lusa",
+          "Portuguesa de Desportos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Camisa vermelha, calção branco e meias pretas, padrão inconfundível do clube; distratores sem as mesmas cores.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estádio é a casa do clube deste uniforme?",
+      "resposta": "Old Trafford",
+      "distratores": [
+        "Etihad Stadium",
+        "Stamford Bridge",
+        "St James' Park"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Manchester United",
+        "descricao": "Clube de futebol inglês sediado em Old Trafford, Grande Manchester, apelidado de Red Devils.",
+        "variantes": [
+          "Manchester United F.C.",
+          "Man United",
+          "Red Devils"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Camisa branca com faixas vermelha e preta, quase idêntica à do São Paulo; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Amarelo e azul reconhecível; como outras seleções usam as mesmas cores, a pergunta é de múltipla escolha com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que seleção é este uniforme?",
+      "resposta": "Suécia",
+      "distratores": [
+        "Dinamarca",
+        "Itália",
+        "Holanda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seleção Sueca de Futebol",
+        "descricao": "Seleção masculina de futebol da Suécia, vice-campeã mundial em 1958.",
+        "variantes": [
+          "Suécia",
+          "Seleção da Suécia",
+          "Blågult"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Faixas pretas e brancas com mangas amarelas, desenho característico; pergunta de múltipla escolha com estados distratores.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que estado fica a cidade do clube deste uniforme?",
+      "resposta": "Santa Catarina",
+      "distratores": [
+        "Paraná",
+        "Rio Grande do Sul",
+        "Minas Gerais"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Criciúma Esporte Clube",
+        "descricao": "Clube de futebol brasileiro de Criciúma, Santa Catarina, campeão da Copa do Brasil de 1991.",
+        "variantes": [
+          "Criciúma",
+          "Criciúma EC",
+          "Tigre"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Camisa grená lisa com calção branco; muitos clubes usam o mesmo desenho e as mesmas cores, sem característica que permita resposta única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Verde com calção vermelho e meias amarelas, padrão com leão visível; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que animal dá apelido à seleção deste uniforme?",
+      "resposta": "Leão",
+      "distratores": [
+        "Águia",
+        "Elefante",
+        "Camelo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seleção Camaronesa de Futebol",
+        "descricao": "Seleção masculina de futebol de Camarões, conhecida como Leões Indomáveis.",
+        "variantes": [
+          "Camarões",
+          "Seleção de Camarões",
+          "Leões Indomáveis"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Camisa branca com faixa diagonal vermelha e calção preto, muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "River Plate",
+      "destino": 0,
+      "ancora": {
+        "nome": "Club Atlético River Plate",
+        "descricao": "Clube de futebol argentino de Buenos Aires, com estádio Monumental.",
+        "variantes": [
+          "River Plate",
+          "River",
+          "Los Millonarios"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Amarelo, calção azul e meias vermelhas são idênticos ao uniforme do Equador; resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Uniforme todo roxo com logo Joma, igual em cores e estilo ao de outros clubes roxos (Anderlecht, por exemplo); resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Listras verticais vermelhas e brancas com calção azul, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Atlético de Madrid",
+      "destino": 0,
+      "ancora": {
+        "nome": "Atlético de Madrid",
+        "descricao": "Clube de futebol espanhol de Madri, de camisa listrada em vermelho e branco e calção azul.",
+        "variantes": [
+          "Atlético Madrid",
+          "Atleti",
+          "Club Atlético de Madrid"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Camisa azul real com fios claros, calção branco e meias vermelhas e pretas; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estádio é a casa do clube deste uniforme?",
+      "resposta": "Ibrox",
+      "distratores": [
+        "Celtic Park",
+        "Hampden Park",
+        "Tynecastle"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rangers Football Club",
+        "descricao": "Clube de futebol de Glasgow, Escócia, que manda jogos no Ibrox Stadium e veste azul real.",
+        "variantes": [
+          "Rangers",
+          "Glasgow Rangers",
+          "Rangers F.C."
+        ]
+      }
+    }
+  ]
+}
