@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas Manhattan não é asiática e é eliminada pelo enunciado. Troquei por distrator que cabe na região.",
+      "reescrita": {
+        "pergunta": "Que ilha asiática, vista do outro lado do porto, é esta?",
+        "resposta": "Ilha de Hong Kong",
+        "distratores": [
+          "Ilha de Lantau",
+          "Ilha de Singapura",
+          "Ilha de Penang"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a ilha. O trecho confirma que a Grã-Bretanha fica a leste, separada pelo Mar da Irlanda. Os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, resposta única e distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura não dá para saber qual ilha é. Os trechos confirmam que Sentosa fica em Singapura. Os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Atol das Rocas é um atol, não um arquipélago, e o enunciado já o elimina. Troquei por um arquipélago de verdade.",
+      "reescrita": {
+        "pergunta": "Que arquipélago brasileiro é este?",
+        "resposta": "Fernando de Noronha",
+        "distratores": [
+          "Abrolhos",
+          "São Pedro e São Paulo",
+          "Trindade e Martim Vaz"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os lagos Tahoe e Michigan não são represados, então o enunciado os elimina. Troquei por reservatórios americanos.",
+      "reescrita": {
+        "pergunta": "Que lago represado dos Estados Unidos, visto de satélite, é este?",
+        "resposta": "Lago Mead",
+        "distratores": [
+          "Lago Powell",
+          "Lago Roosevelt",
+          "Lago Shasta"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura não dá para saber qual baía é. Os trechos confirmam a Califórnia. Os distratores são plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

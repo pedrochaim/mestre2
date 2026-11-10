@@ -393593,5 +393593,155 @@
       "autor": "Biso",
       "licenca": "CC BY 3.0"
     }
+  },
+  {
+    "id": "q19845",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_de_hong_kong",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ilha asiática, vista do outro lado do porto, é esta?",
+    "resposta": "Ilha de Hong Kong",
+    "distratores": [
+      "Ilha de Lantau",
+      "Ilha de Singapura",
+      "Ilha de Penang"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hong_Kong_Island",
+      "https://pt.wikipedia.org/wiki/Ilha_de_Hong_Kong"
+    ],
+    "imagem": {
+      "arquivo": "q19845.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Island_Skyline_201108.jpg",
+      "autor": "momo from Hong Kong",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q19846",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_da_irlanda",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que mar separa esta ilha da Grã-Bretanha, a leste dela?",
+    "resposta": "Mar da Irlanda",
+    "distratores": [
+      "Mar do Norte",
+      "Canal da Mancha",
+      "Mar Báltico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ireland",
+      "https://pt.wikipedia.org/wiki/Irlanda_%28ilha%29"
+    ],
+    "imagem": {
+      "arquivo": "q19846.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ireland_(MODIS).jpg",
+      "autor": "Jeff Schmaltz",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q19847",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "long_island",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ilha norte-americana, vista de satélite, é esta?",
+    "resposta": "Long Island",
+    "distratores": [
+      "Ilha de Manhattan",
+      "Ilha de Vancouver",
+      "Terra Nova"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Long_Island",
+      "https://pt.wikipedia.org/wiki/Long_Island"
+    ],
+    "imagem": {
+      "arquivo": "q19847.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Long_Island_Landsat_Mosaic.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q19848",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "sentosa",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica esta ilha turística?",
+    "resposta": "Singapura",
+    "distratores": [
+      "Malásia",
+      "Indonésia",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sentosa",
+      "https://pt.wikipedia.org/wiki/Sentosa"
+    ],
+    "imagem": {
+      "arquivo": "q19848.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sentosa_viewed_from_the_Carlsberg_Sky_Tower,_Singapore_-_20060716-03.jpg",
+      "autor": "Terence Ong at the English Wikipedia.",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q19849",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_mead",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que lago represado dos Estados Unidos, visto de satélite, é este?",
+    "resposta": "Lago Mead",
+    "distratores": [
+      "Lago Powell",
+      "Lago Roosevelt",
+      "Lago Shasta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Mead",
+      "https://pt.wikipedia.org/wiki/Lago_Mead"
+    ],
+    "imagem": {
+      "arquivo": "q19849.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lake_Mead_in_July_2022_by_Landsat.jpg",
+      "autor": "NASA, USGS",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q19850",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "baia_de_sao_francisco",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que estado americano fica esta baía?",
+    "resposta": "Califórnia",
+    "distratores": [
+      "Oregon",
+      "Washington",
+      "Flórida"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/San_Francisco_Bay",
+      "https://pt.wikipedia.org/wiki/Ba%C3%ADa_de_S%C3%A3o_Francisco"
+    ],
+    "imagem": {
+      "arquivo": "q19850.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bay_Area_by_Sentinel-2,_2019-03-11_(small_version).jpg",
+      "autor": "Copernicus Sentinel-2, ESA",
+      "licenca": "CC BY-SA 3.0 igo"
+    }
   }
 ]

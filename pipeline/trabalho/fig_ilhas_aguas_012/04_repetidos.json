@@ -1,0 +1,41 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arquipélago brasileiro é este?",
+        "resposta": "Fernando de Noronha"
+      },
+      "existentes": [
+        {
+          "id": "q02190",
+          "pergunta": "O arquipélago de Fernando de Noronha leva o nome de um comerciante de Lisboa que, no início do século dezesseis, arrendou da Coroa o comércio de qual madeira?",
+          "resposta": "Pau-brasil"
+        },
+        {
+          "id": "q02426",
+          "pergunta": "O arquipélago de Fernando de Noronha fica mais perto de Natal, mas pertence a qual estado brasileiro?",
+          "resposta": "Pernambuco"
+        },
+        {
+          "id": "q02427",
+          "pergunta": "Quantas ilhas, ilhotas e rochedos formam o arquipélago de Fernando de Noronha?",
+          "resposta": "Vinte e uma"
+        },
+        {
+          "id": "q16317",
+          "pergunta": "Que arquipélago brasileiro aparece nesta foto?",
+          "resposta": "Fernando de Noronha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q16317",
+      "motivo": "Ambas pedem o nome do arquipélago brasileiro mostrado na imagem; resposta idêntica: Fernando de Noronha."
+    }
+  ]
+}

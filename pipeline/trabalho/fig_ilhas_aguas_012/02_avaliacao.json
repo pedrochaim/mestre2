@@ -1,0 +1,191 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra só um barco num lago com margem arborizada; não aparecem as esculturas de orixás nem nada que identifique o Dique do Tororó."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Praia de areia branca com coqueiros, parecida com muitas outras praias tropicais, e com marca d'água legível na base da foto (nome do fotógrafo)."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Skyline noturno do lado norte da Ilha de Hong Kong, visto do outro lado do porto. Reconhecível pelas torres e pela baía.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ilha asiática, vista do outro lado do porto, é esta?",
+      "resposta": "Ilha de Hong Kong",
+      "distratores": [
+        "Ilha de Manhattan",
+        "Ilha de Singapura",
+        "Ilha de Penang"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ilha de Hong Kong",
+        "descricao": "Ilha no sul de Hong Kong, onde ficam o distrito financeiro e a cidade de Victoria, cedida ao Reino Unido em 1842.",
+        "variantes": [
+          "Hong Kong Island"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Margem escura de floresta e água, sem nenhum traço que permita reconhecer Anavilhanas; poderia ser qualquer rio amazônico."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Vista distante de ilhas com flores amarelas em primeiro plano; a ilha não é reconhecível com segurança e pode ser confundida com Prócida, Ventotene ou outras do golfo."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com o contorno inconfundível da ilha da Irlanda.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que mar separa esta ilha da Grã-Bretanha, a leste dela?",
+      "resposta": "Mar da Irlanda",
+      "distratores": [
+        "Mar do Norte",
+        "Canal da Mancha",
+        "Mar Báltico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ilha da Irlanda",
+        "descricao": "Ilha do Atlântico Norte, no noroeste da Europa, dividida entre a República da Irlanda e a Irlanda do Norte.",
+        "variantes": [
+          "Irlanda (ilha)",
+          "Ireland"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a forma alongada de Long Island e a região de Nova York à esquerda.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ilha norte-americana, vista de satélite, é esta?",
+      "resposta": "Long Island",
+      "distratores": [
+        "Ilha de Manhattan",
+        "Ilha de Vancouver",
+        "Terra Nova"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Long Island",
+        "descricao": "Ilha densamente povoada no sudeste do estado de Nova York, que se estende para o Atlântico.",
+        "variantes": [
+          "Ilha Longa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea da ilha de Sentosa com a estátua do Merlion, símbolo reconhecível, sem texto legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta ilha turística?",
+      "resposta": "Singapura",
+      "distratores": [
+        "Malásia",
+        "Indonésia",
+        "Tailândia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sentosa",
+        "descricao": "Ilha turística ao sul da ilha principal de Singapura, com praias, parques e a estátua do Merlion.",
+        "variantes": [
+          "Ilha de Sentosa"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea panorâmica de Fernando de Noronha com o Morro do Pico; a imagem mostra o arquipélago, não só a Baía do Sancho, então a âncora é o arquipélago.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que arquipélago brasileiro é este?",
+      "resposta": "Fernando de Noronha",
+      "distratores": [
+        "Abrolhos",
+        "Atol das Rocas",
+        "Trindade e Martim Vaz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fernando de Noronha",
+        "descricao": "Arquipélago vulcânico brasileiro no Atlântico, no estado de Pernambuco, com 21 ilhas e o Morro do Pico.",
+        "variantes": [
+          "Arquipélago de Fernando de Noronha"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem de satélite do Lago Mead, com forma ramificada, a barragem e a região de Las Vegas à esquerda; distintivo para quem conhece.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lago represado dos Estados Unidos, visto de satélite, é este?",
+      "resposta": "Lago Mead",
+      "distratores": [
+        "Lago Powell",
+        "Lago Tahoe",
+        "Lago Michigan"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Mead",
+        "descricao": "Reservatório formado pela represa Hoover no rio Colorado, entre Nevada e Arizona, perto de Las Vegas.",
+        "variantes": [
+          "Lake Mead"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Lago escuro e alongado cercado de montanhas, sem traço distintivo; não dá para reconhecer o Lago Ohrid pela forma e há outros lagos parecidos."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a baía, o Golden Gate e o delta dos rios Sacramento e San Joaquin, claramente reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que estado americano fica esta baía?",
+      "resposta": "Califórnia",
+      "distratores": [
+        "Oregon",
+        "Washington",
+        "Flórida"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Baía de São Francisco",
+        "descricao": "Grande estuário de maré na Califórnia, ligado ao Pacífico pelo estreito do Golden Gate.",
+        "variantes": [
+          "San Francisco Bay"
+        ]
+      }
+    }
+  ]
+}

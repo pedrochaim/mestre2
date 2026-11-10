@@ -1,0 +1,434 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ilha de Hong Kong",
+        "descricao": "Ilha no sul de Hong Kong, onde ficam o distrito financeiro e a cidade de Victoria, cedida ao Reino Unido em 1842.",
+        "variantes": [
+          "Hong Kong Island"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_hong_kong",
+          "nome": "Bandeira de Hong Kong",
+          "descricao": "Bandeira da região administrativa especial de Hong Kong, com flor de bauhínia branca sobre fundo vermelho.",
+          "variantes": [
+            "Hong Kong"
+          ]
+        },
+        {
+          "id": "jackie_chan",
+          "nome": "Jackie Chan",
+          "descricao": "Ator, dublê e artista marcial de Hong Kong, famoso por filmes de ação com comédia.",
+          "variantes": [
+            "Chan Kong-sang"
+          ]
+        },
+        {
+          "id": "hong_kong",
+          "nome": "Hong Kong",
+          "descricao": "Região administrativa especial da China, no sul do país.",
+          "variantes": []
+        },
+        {
+          "id": "ilha_pinkan",
+          "nome": "Ilha Pinkan",
+          "descricao": "Ilha das Ilhas Laranja, no anime Pokémon, reserva protegida onde os pokémon selvagens são cor-de-rosa.",
+          "variantes": [
+            "Pinkan Island"
+          ]
+        },
+        {
+          "id": "buda_de_tian_tan",
+          "nome": "Buda de Tian Tan",
+          "descricao": "Grande estátua de bronze de Buda, concluída em 1993, na ilha de Lantau, em Hong Kong.",
+          "variantes": [
+            "Tian Tan Big Buddha",
+            "Grande Buda de Hong Kong"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ilha da Irlanda",
+        "descricao": "Ilha do Atlântico Norte, no noroeste da Europa, dividida entre a República da Irlanda e a Irlanda do Norte.",
+        "variantes": [
+          "Irlanda (ilha)",
+          "Ireland"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "irlanda",
+          "nome": "Irlanda",
+          "descricao": "País da Europa Ocidental que ocupa a maior parte da ilha da Irlanda, com capital em Dublin, cuja bandeira é um tricolor vertical verde, branco e laranja.",
+          "variantes": [
+            "Ireland",
+            "República da Irlanda",
+            "Eire"
+          ]
+        },
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "descricao": "País insular no Atlântico Norte, entre a Groenlândia e a Noruega, conhecido por vulcões e gêiseres.",
+          "variantes": [
+            "Iceland",
+            "Ísland"
+          ]
+        },
+        {
+          "id": "ilha_da_trindade",
+          "nome": "Ilha da Trindade",
+          "descricao": "Ilha brasileira isolada no Atlântico Sul, a cerca de mil e cem quilômetros da costa do Espírito Santo.",
+          "variantes": [
+            "Trindade",
+            "Trindade e Martim Vaz"
+          ]
+        },
+        {
+          "id": "trindade_e_martim_vaz",
+          "nome": "Trindade e Martim Vaz",
+          "descricao": "Arquipélago vulcânico brasileiro no meio do Atlântico Sul, a mais de mil quilômetros da costa.",
+          "variantes": [
+            "Ilha da Trindade"
+          ]
+        },
+        {
+          "id": "the_isle_of_armor",
+          "nome": "The Isle of Armor",
+          "descricao": "Primeira parte da expansão de Pokémon Sword e Shield, ambientada numa ilha de Galar onde o jogador treina num dojo com o lendário Kubfu.",
+          "variantes": [
+            "Ilha da Armadura"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Long Island",
+        "descricao": "Ilha densamente povoada no sudeste do estado de Nova York, que se estende para o Atlântico.",
+        "variantes": [
+          "Ilha Longa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong"
+          ]
+        },
+        {
+          "id": "ilhas_laranja",
+          "nome": "Ilhas Laranja",
+          "descricao": "Arquipélago exclusivo do anime Pokémon, visitado por Ash depois de Kanto, onde ele vence a Liga Laranja.",
+          "variantes": [
+            "Orange Islands",
+            "Arquipélago Laranja",
+            "Orange Archipelago"
+          ]
+        },
+        {
+          "id": "ilhas_salomao",
+          "nome": "Ilhas Salomão",
+          "descricao": "País insular da Melanésia, a nordeste da Austrália, com capital em Honiara.",
+          "variantes": [
+            "Solomon Islands"
+          ]
+        },
+        {
+          "id": "ilha_do_havai",
+          "nome": "Ilha do Havaí",
+          "descricao": "A maior ilha do arquipélago havaiano, conhecida como Big Island, onde ficam Mauna Kea, Mauna Loa e Kilauea.",
+          "variantes": [
+            "Big Island",
+            "Hawaii Island"
+          ]
+        },
+        {
+          "id": "ilha_robben",
+          "nome": "Ilha Robben",
+          "descricao": "Ilha na baía da Mesa, diante da Cidade do Cabo, que abrigou uma prisão de presos políticos.",
+          "variantes": [
+            "Robben Island"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sentosa",
+        "descricao": "Ilha turística ao sul da ilha principal de Singapura, com praias, parques e a estátua do Merlion.",
+        "variantes": [
+          "Ilha de Sentosa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "desentupidor",
+          "nome": "Desentupidor",
+          "descricao": "Ferramenta com ventosa de borracha presa a um cabo, usada para desobstruir ralos e vasos.",
+          "variantes": [
+            "Desentupidor de pia",
+            "Plunger",
+            "Ventosa"
+          ]
+        },
+        {
+          "id": "delos",
+          "nome": "Delos",
+          "descricao": "Pequena ilha grega das Cíclades, grande santuário de Apolo na Antiguidade e primeira sede da Liga de Delos.",
+          "variantes": [
+            "Ilha de Delos",
+            "Dílos"
+          ]
+        },
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        },
+        {
+          "id": "santos",
+          "nome": "Santos",
+          "descricao": "Cidade do litoral de São Paulo, sede do maior porto do Brasil.",
+          "variantes": [
+            "Santos (SP)"
+          ]
+        },
+        {
+          "id": "ilha_de_pascoa",
+          "nome": "Ilha de Páscoa",
+          "descricao": "Ilha chilena isolada no Pacífico Sul, famosa pelas estátuas moai.",
+          "variantes": [
+            "Rapa Nui",
+            "Easter Island",
+            "Isla de Pascua"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fernando de Noronha",
+        "descricao": "Arquipélago vulcânico brasileiro no Atlântico, no estado de Pernambuco, com 21 ilhas e o Morro do Pico.",
+        "variantes": [
+          "Baía do Sancho",
+          "Arquipélago de Fernando de Noronha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fernando_de_noronha",
+          "nome": "Fernando de Noronha",
+          "descricao": "Arquipélago brasileiro no oceano Atlântico, pertencente ao estado de Pernambuco.",
+          "variantes": [
+            "Arquipélago de Fernando de Noronha",
+            "Noronha"
+          ]
+        },
+        {
+          "id": "dia_do_senhor",
+          "nome": "Dia do Senhor",
+          "descricao": "O domingo como dia sagrado semanal dos cristãos",
+          "variantes": [
+            "Domingo cristão"
+          ]
+        },
+        {
+          "id": "dia_do_saci",
+          "nome": "Dia do Saci",
+          "descricao": "Data comemorativa brasileira dedicada ao saci e ao folclore nacional, criada em contraposição ao Halloween.",
+          "variantes": []
+        },
+        {
+          "id": "capitao_gancho",
+          "nome": "Capitão Gancho",
+          "descricao": "Pirata vilão do filme de animação Peter Pan, da Disney, de 1953, inimigo de Peter Pan.",
+          "variantes": [
+            "Capitão Hook",
+            "Captain Hook"
+          ]
+        },
+        {
+          "id": "daiane_dos_santos",
+          "nome": "Daiane dos Santos",
+          "descricao": "Ginasta artística brasileira, campeã mundial no solo em 2003.",
+          "variantes": [
+            "Daiane Garcia dos Santos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Lago Mead",
+        "descricao": "Reservatório formado pela represa Hoover no rio Colorado, entre Nevada e Arizona, perto de Las Vegas.",
+        "variantes": [
+          "Lake Mead"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_bled",
+          "nome": "Lago Bled",
+          "descricao": "Lago glacial dos Alpes Julianos, no noroeste da Eslovênia, com uma ilhota que abriga uma igreja.",
+          "variantes": [
+            "Lake Bled",
+            "Blejsko jezero"
+          ]
+        },
+        {
+          "id": "lago_chade",
+          "nome": "Lago Chade",
+          "descricao": "Lago de água doce no centro-oeste da África, na junção de Nigéria, Níger, Chade e Camarões, que encolheu muito desde 1960.",
+          "variantes": [
+            "Lago Tchad",
+            "Lake Chad"
+          ]
+        },
+        {
+          "id": "ilha_de_bled",
+          "nome": "Ilha de Bled",
+          "descricao": "Ilhota com uma igreja no meio do Lago Bled, nos Alpes Julianos, na Eslovênia.",
+          "variantes": [
+            "Ilha de Blejski Otok",
+            "Lago Bled",
+            "Bled Island"
+          ]
+        },
+        {
+          "id": "lago_de_genebra",
+          "nome": "Lago de Genebra",
+          "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+          "variantes": [
+            "Lago Léman",
+            "Lago Lemano",
+            "Lake Geneva",
+            "Lac Léman"
+          ]
+        },
+        {
+          "id": "lago_retba",
+          "nome": "Lago Retba",
+          "descricao": "Lago salgado de águas cor-de-rosa perto de Dacar, no Senegal.",
+          "variantes": [
+            "Lago Rosa",
+            "Lac Rose",
+            "Lake Retba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Baía de São Francisco",
+        "descricao": "Grande estuário de maré na Califórnia, ligado ao Pacífico pelo estreito do Golden Gate.",
+        "variantes": [
+          "San Francisco Bay"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_francisco",
+          "nome": "São Francisco",
+          "descricao": "Cidade da Califórnia, nos Estados Unidos, ligada à ponte Golden Gate.",
+          "variantes": [
+            "San Francisco"
+          ]
+        },
+        {
+          "id": "rio_sao_francisco",
+          "nome": "Rio São Francisco",
+          "descricao": "Rio brasileiro que nasce na Serra da Canastra e deságua no Atlântico entre Alagoas e Sergipe.",
+          "variantes": [
+            "Velho Chico",
+            "São Francisco River"
+          ]
+        },
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        },
+        {
+          "id": "aleijadinho",
+          "nome": "Aleijadinho",
+          "descricao": "Antônio Francisco Lisboa, escultor e arquiteto do barroco mineiro do século dezoito.",
+          "variantes": [
+            "Antônio Francisco Lisboa"
+          ]
+        },
+        {
+          "id": "a_batalha_de_san_romano_uccello",
+          "nome": "A Batalha de San Romano (Uccello)",
+          "descricao": "Conjunto de três painéis de Paolo Uccello sobre a batalha de 1432 entre Florença e Siena; a imagem mostra um deles, com cavaleiros e lanças em combate.",
+          "variantes": [
+            "Batalha de São Romano",
+            "The Battle of San Romano"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A ilha de Hong Kong é distinta da região administrativa Hong Kong e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A ilha da Irlanda é distinta do país Irlanda (República), que ocupa só parte dela."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Long Island, em Nova York."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Sentosa, em Singapura."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "fernando_de_noronha",
+      "motivo": "Mesmo arquipélago brasileiro de Fernando de Noronha, em Pernambuco."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O Lago Mead não consta entre as candidatas, que são outros lagos."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A baía é distinta da cidade de São Francisco."
+    }
+  ]
+}
