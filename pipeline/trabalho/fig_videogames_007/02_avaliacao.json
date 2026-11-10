@@ -1,0 +1,284 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Captura do jogo, personagem reconhecível pelo chapéu e casaco, sem texto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio criou o jogo em que aparece este personagem?",
+      "resposta": "Rockstar Games",
+      "distratores": [
+        "Naughty Dog",
+        "Bethesda",
+        "CD Projekt Red"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Arthur Morgan",
+        "descricao": "Protagonista de Red Dead Redemption 2, fora da lei da gangue de Dutch van der Linde.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida e emblemática; a silhueta é genérica (orelhas redondas e cauda) e pode ser confundida com outros moradores, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que empresa criou a série de jogos deste personagem?",
+      "resposta": "Nintendo",
+      "distratores": [
+        "Sega",
+        "Capcom",
+        "Sony"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Tom Nook",
+        "descricao": "Guaxinim (tanuki) comerciante e corretor de imóveis da série Animal Crossing.",
+        "variantes": [
+          "Tanukichi"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de Metal Sonic; a silhueta tem recortes confusos e lembra o Sonic, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quem construiu este robô, na história dos jogos?",
+      "resposta": "Doutor Eggman (Robotnik)",
+      "distratores": [
+        "Tails",
+        "Doutor Wily",
+        "Bowser"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Metal Sonic",
+        "descricao": "Robô rival de Sonic, construído como cópia dele pelo Doutor Eggman na série Sonic the Hedgehog.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem do jogo com o personagem em primeiro plano, camisa havaiana e colar de pérolas característicos, sem texto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que ator deu voz a este personagem no jogo?",
+      "resposta": "Ray Liotta",
+      "distratores": [
+        "Dennis Hopper",
+        "Burt Reynolds",
+        "Tom Sizemore"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Tommy Vercetti",
+        "descricao": "Protagonista de Grand Theft Auto: Vice City, criminoso italo-americano.",
+        "variantes": [
+          "Thomas Vercetti"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida; a silhueta é uma massa de nuvem pouco característica, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inimigo da série Mario é este?",
+      "resposta": "Lakitu",
+      "distratores": [
+        "Boo",
+        "Kamek",
+        "Koopa Paratroopa"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Lakitu",
+        "descricao": "Inimigo da série Super Mario que voa numa nuvem e joga espinhos.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cena do jogo com GLaDOS pendurada, olho laranja e cabos característicos, sem texto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio desenvolveu o jogo em que aparece esta personagem?",
+      "resposta": "Valve",
+      "distratores": [
+        "id Software",
+        "Epic Games",
+        "Naughty Dog"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "GLaDOS",
+        "descricao": "Inteligência artificial antagonista da série Portal, do Aperture Science.",
+        "variantes": [
+          "Genetic Lifeform and Disk Operating System"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte clara; o chapéu largo com ponta forma silhueta característica de personagem sozinho.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Doutor Neo Cortex",
+      "distratores": [
+        "Doutor N. Gin",
+        "Doutor Nitrus Brio",
+        "Doutor Eggman"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Doutor Neo Cortex",
+        "descricao": "Cientista maluco e principal vilão da série Crash Bandicoot.",
+        "variantes": [
+          "Dr. Neo Cortex",
+          "Neo Cortex"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida; a silhueta é razoável, mas a pergunta vai além do nome e a imagem colorida é mais justa.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que personagem é o irmão gêmeo desta assistente do prefeito?",
+      "resposta": "Digby",
+      "distratores": [
+        "Timmy",
+        "Tommy",
+        "K.K. Slider"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Isabelle",
+        "descricao": "Cadela shih tzu secretária do prefeito em Animal Crossing: New Leaf e New Horizons.",
+        "variantes": [
+          "Shizue"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte oficial clara; a silhueta alada poderia ser confundida com Dark Pit, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Pit",
+      "distratores": [
+        "Link",
+        "Marth",
+        "Ike"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Pit",
+        "descricao": "Anjo guerreiro de asas brancas, protagonista da série Kid Icarus.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte oficial clara; a silhueta de armadura volumosa é genérica e lembra outros soldados, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Doom Slayer (Doomguy)",
+      "distratores": [
+        "Master Chief",
+        "Marcus Fenix",
+        "Samus Aran"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Doom Slayer",
+        "descricao": "Protagonista de armadura verde da série de tiro Doom.",
+        "variantes": [
+          "Doomguy",
+          "Doom Guy"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida mostrando Ganondorf e sua forma demoníaca; a silhueta é uma mancha, então usa a imagem colorida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Ganondorf",
+      "distratores": [
+        "Bowser",
+        "Doutor Eggman",
+        "Sephiroth"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Ganondorf",
+        "descricao": "Rei dos Gerudo e principal vilão da série The Legend of Zelda.",
+        "variantes": [
+          "Ganon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de Dixie Kong, personagem única, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é essa personagem da série Donkey Kong?",
+      "resposta": "Dixie Kong",
+      "distratores": [
+        "Candy Kong",
+        "Tiny Kong",
+        "Kiddy Kong"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Dixie Kong",
+        "descricao": "Macaca de boina rosa e rabo de cavalo loiro da série Donkey Kong, parceira de Diddy Kong.",
+        "variantes": []
+      }
+    }
+  ]
+}
