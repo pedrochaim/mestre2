@@ -1,0 +1,155 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de dois militares comuns em primeiro plano, com marca d'água e número visíveis; a bermuda não é o foco."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem nítida de prendedores de gravata sobre uma gravata.",
+      "pergunta": "Como se chama este acessório metálico?",
+      "resposta": "Prendedor de gravata",
+      "tipo": "multipla",
+      "distratores": [
+        "Abotoadura",
+        "Alfinete de lapela",
+        "Fivela de cinto"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Prendedor de gravata",
+        "descricao": "Acessório de metal que prende a gravata à camisa para que ela fique reta.",
+        "variantes": [
+          "Presilha de gravata",
+          "Pregador de gravata",
+          "Tie clip"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Objeto nítido, sem texto, reconhecível pelos fios e pelo molde.",
+      "pergunta": "Que alimento cozido costuma ser fatiado neste utensílio de cozinha?",
+      "resposta": "Ovo",
+      "tipo": "multipla",
+      "distratores": [
+        "Batata",
+        "Presunto",
+        "Pão de forma"
+      ],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Cortador de ovo",
+        "descricao": "Utensílio de cozinha com fios de aço sobre um molde, usado para fatiar ovos cozidos.",
+        "variantes": [
+          "Fatiador de ovo",
+          "Egg slicer"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Peça com logotipo visível e ambígua (legging, calça de corrida, ciclista); resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara de vários bobes de cabelo, sem texto.",
+      "pergunta": "Como se chamam estes objetos encontrados em salões de beleza?",
+      "resposta": "Bobes",
+      "tipo": "multipla",
+      "distratores": [
+        "Piranhas",
+        "Escovas cilíndricas",
+        "Grampos de cabelo"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Bobes",
+        "descricao": "Pequenos tubos em que se enrola o cabelo para encaracolá-lo.",
+        "variantes": [
+          "Bobe",
+          "Rolinhos de cabelo",
+          "Hair rollers"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução com vários elementos (lacre, mancha e carimbo); o foco é ambíguo e pouco legível no celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Objeto nítido e inequívoco, sem texto.",
+      "pergunta": "Com que outro utensílio de limpeza esta pá costuma ser usada?",
+      "resposta": "Vassoura",
+      "tipo": "aberta",
+      "distratores": [],
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Pá de lixo",
+        "descricao": "Utensílio de limpeza em forma de pá rasa que recolhe a sujeira varrida.",
+        "variantes": [
+          "Pá de lixo",
+          "Pá de varrer",
+          "Dustpan"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Mulheres comuns de costas em primeiro plano, em foto de rua; não são figuras públicas."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de uma pessoa comum em primeiro plano (modelo), e o adereço aparece de forma pouco clara."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Calculadora com marca e texto visíveis; pergunta trivial e sem passo de conhecimento sustentado pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Níveis de bolha amarelos nítidos; o texto visível (marcas e medidas) não entrega o nome.",
+      "pergunta": "Que ferramenta é esta?",
+      "resposta": "Nível de bolha",
+      "tipo": "aberta",
+      "distratores": [],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Nível de bolha",
+        "descricao": "Instrumento com uma bolha de ar num tubo de líquido, que indica se uma superfície está nivelada ou a prumo.",
+        "variantes": [
+          "Nível",
+          "Nível de pedreiro",
+          "Spirit level"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Duas pessoas comuns em primeiro plano, com texto visível (nome e escola de culinária); a chaira aparece em segundo plano."
+    }
+  ]
+}

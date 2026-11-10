@@ -396856,5 +396856,117 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Clio"
     ]
+  },
+  {
+    "id": "q20016",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "prendedor_de_gravata",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Como se chama este acessório metálico?",
+    "resposta": "Prendedor de gravata",
+    "distratores": [
+      "Abotoadura",
+      "Alfinete de lapela",
+      "Fivela de cinto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tie_clip"
+    ],
+    "imagem": {
+      "arquivo": "q20016.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2_silver_tie_clips.JPG",
+      "autor": "Mauro Cateb",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20017",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "cortador_de_ovo",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em 1912, um inventor patenteou este utensílio de cozinha com fios de aço. De que nacionalidade ele era?",
+    "resposta": "Alemã",
+    "distratores": [
+      "Francesa",
+      "Americana",
+      "Holandesa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Egg_slicer"
+    ],
+    "imagem": {
+      "arquivo": "q20017.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Eierschneider.jpg",
+      "autor": "de:user:Rainer Zenz",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20018",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "bobes",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Como se chamam estes objetos encontrados em salões de beleza?",
+    "resposta": "Bobes",
+    "distratores": [
+      "Piranhas",
+      "Escovas cilíndricas",
+      "Grampos de cabelo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hair_roller",
+      "https://pt.wikipedia.org/wiki/Bobe"
+    ],
+    "imagem": {
+      "arquivo": "q20018.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lockenwickler.jpg",
+      "autor": "Slick",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q20019",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "pa_de_lixo",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que utensílio de limpeza é este?",
+    "resposta": "Pá de lixo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dustpan"
+    ],
+    "imagem": {
+      "arquivo": "q20019.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Shovelilo.jpg",
+      "autor": "Maksim (Wikimedia Commons)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20020",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "nivel_de_bolha",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que ferramenta é esta?",
+    "resposta": "Nível de bolha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spirit_level",
+      "https://pt.wikipedia.org/wiki/N%C3%ADvel"
+    ],
+    "imagem": {
+      "arquivo": "q20020.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Waterpass.jpg",
+      "autor": "Dmitry Makeev",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia nem entrega a resposta; o trecho confirma a função e o nome. Distratores do mesmo tipo (acessórios de vestuário), curtos e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Ovo' é o próprio nome do utensílio, e o enunciado se responde sem a figura. Distratores como presunto e batata também são fatiados em utensílios parecidos. Reescrita pede um fato além do reconhecimento, que consta no trecho (inventor alemão, 1912).",
+      "reescrita": {
+        "pergunta": "Em 1912, um inventor patenteou este utensílio de cozinha com fios de aço. De que nacionalidade ele era?",
+        "resposta": "Alemã",
+        "distratores": [
+          "Francesa",
+          "Americana",
+          "Holandesa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'salões de beleza' ajuda sem entregar o nome, e o trecho a confirma. Distratores do mesmo tipo (acessórios de cabelo) e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado já diz 'pá' e 'utensílio de limpeza', então a resposta 'vassoura' sai sem olhar a figura, e a figura vira enfeite. Reescrita pede para reconhecer o objeto.",
+      "reescrita": {
+        "pergunta": "Que utensílio de limpeza é este?",
+        "resposta": "Pá de lixo",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem pista que entregue a resposta. O trecho confirma o nome 'nível de bolha'.",
+      "reescrita": null
+    }
+  ]
+}
