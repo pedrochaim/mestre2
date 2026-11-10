@@ -1,0 +1,603 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lentilha-d'água",
+        "descricao": "Planta aquática flutuante de água doce do gênero Lemna, como a Lemna minor, da família das aráceas.",
+        "variantes": [
+          "Lemna minor",
+          "Lemna",
+          "Lentilha-de-água"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lesma",
+          "nome": "Lesma",
+          "descricao": "Molusco gastrópode terrestre sem concha aparente.",
+          "variantes": [
+            "Slug"
+          ]
+        },
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        },
+        {
+          "id": "alemanha",
+          "nome": "Alemanha",
+          "descricao": "País da Europa Central e Ocidental cuja capital é Berlim.",
+          "variantes": [
+            "República Federal da Alemanha",
+            "Germany",
+            "Deutschland"
+          ]
+        },
+        {
+          "id": "lixa",
+          "nome": "Lixa",
+          "descricao": "Papel ou tecido coberto de grãos abrasivos usado para desbastar e alisar superfícies.",
+          "variantes": [
+            "Lixa d'água",
+            "Papel de lixa"
+          ]
+        },
+        {
+          "id": "selecao_alema_de_futebol",
+          "nome": "Seleção Alemã de Futebol",
+          "descricao": "Equipe nacional masculina de futebol da Alemanha, de camisa branca com detalhes nas cores da bandeira.",
+          "variantes": [
+            "Alemanha",
+            "Seleção da Alemanha",
+            "Die Mannschaft"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Furacão",
+        "descricao": "Ciclone tropical forte, com ventos intensos e nuvens em espiral em torno de um olho central, que se forma no Atlântico ou no Pacífico nordeste.",
+        "variantes": [
+          "Ciclone tropical",
+          "Tufão",
+          "Hurricane"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ciclone_tropical",
+          "nome": "Ciclone tropical",
+          "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+          "variantes": [
+            "Furacão",
+            "Tufão"
+          ]
+        },
+        {
+          "id": "jairzinho",
+          "nome": "Jairzinho",
+          "descricao": "Ponta-direita brasileiro, o Furacão da Copa de 1970.",
+          "variantes": [
+            "Jair Ventura Filho",
+            "Furacão"
+          ]
+        },
+        {
+          "id": "hawker_hurricane",
+          "nome": "Hawker Hurricane",
+          "descricao": "Caça monoplano britânico da Hawker, usado pela RAF na Batalha da Inglaterra.",
+          "variantes": [
+            "Hurricane"
+          ]
+        },
+        {
+          "id": "athletico_paranaense",
+          "nome": "Athletico Paranaense",
+          "descricao": "Clube de futebol de Curitiba, no Paraná, de camisa preta com faixas diagonais vermelhas.",
+          "variantes": [
+            "Club Athletico Paranaense",
+            "Furacão",
+            "Athletico-PR"
+          ]
+        },
+        {
+          "id": "vocoroca",
+          "nome": "Voçoroca",
+          "descricao": "Grande buraco ou vala de erosão aberto pela água da chuva em solo sem cobertura vegetal.",
+          "variantes": [
+            "Boçoroca",
+            "Buracão",
+            "Ravina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Antelope Canyon",
+        "descricao": "Cânion de fenda (slot canyon) em arenito, em terras navajo perto de Page, no Arizona, Estados Unidos.",
+        "variantes": [
+          "Cânion do Antílope",
+          "Upper Antelope Canyon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "antelope_canyon",
+          "nome": "Antelope Canyon",
+          "descricao": "Cânion de fenda (slot canyon) em terras navajo, perto de Page, no Arizona.",
+          "variantes": [
+            "Upper Antelope Canyon"
+          ]
+        },
+        {
+          "id": "ganso_do_nilo",
+          "nome": "Ganso-do-nilo",
+          "descricao": "Ave aquática de mancha marrom em volta do olho (Alopochen aegyptiaca), nativa da África.",
+          "variantes": [
+            "Ganso-do-egito",
+            "Alopochen aegyptiaca"
+          ]
+        },
+        {
+          "id": "antilope_negro",
+          "nome": "Antílope-negro",
+          "descricao": "Antílope de porte médio, nativo da Índia e do Nepal, cujo macho tem pelagem escura e chifres espiralados, Antilope cervicapra.",
+          "variantes": [
+            "Blackbuck",
+            "Antilope cervicapra",
+            "Antílope-cervicapra"
+          ]
+        },
+        {
+          "id": "palanca_negra",
+          "nome": "Palanca-negra",
+          "descricao": "Grande antílope preto de chifres longos e curvos da savana arborizada africana (Hippotragus niger).",
+          "variantes": [
+            "Hippotragus niger",
+            "Sable antelope",
+            "Antílope-negro"
+          ]
+        },
+        {
+          "id": "varano_do_nilo",
+          "nome": "Varano-do-nilo",
+          "descricao": "Grande lagarto semiaquático da África subsaariana, Varanus niloticus.",
+          "variantes": [
+            "Lagarto-do-nilo",
+            "Varanus niloticus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Jaca",
+        "descricao": "Fruta grande e de casca espinhosa da árvore Artocarpus heterophyllus, da família das moráceas, nativa da Índia.",
+        "variantes": [
+          "Jaqueira",
+          "Jackfruit",
+          "Artocarpus heterophyllus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jaca",
+          "nome": "Jaca",
+          "descricao": "Enorme fruto da Artocarpus heterophyllus, nativa da Índia, que cresce no tronco da árvore.",
+          "variantes": [
+            "Artocarpus heterophyllus"
+          ]
+        },
+        {
+          "id": "arqueias",
+          "nome": "Arqueias",
+          "descricao": "Domínio de microrganismos unicelulares, Archaea, distinto das bactérias e comum em ambientes extremos.",
+          "variantes": [
+            "Archaea",
+            "Arqueobactérias",
+            "Arqueia"
+          ]
+        },
+        {
+          "id": "jacana",
+          "nome": "Jaçanã",
+          "descricao": "Ave pernalta (Jacana jacana) de corpo preto e avermelhado, crista vermelha e bico amarelo, que vive em áreas alagadas da América do Sul.",
+          "variantes": [
+            "Jacana jacana",
+            "Wattled jacana",
+            "Jaçanã-comum"
+          ]
+        },
+        {
+          "id": "ronaldo_jacare_souza",
+          "nome": "Ronaldo Jacaré Souza",
+          "descricao": "Lutador brasileiro de MMA e jiu-jitsu, ex-campeão peso-médio do Strikeforce.",
+          "variantes": [
+            "Jacaré",
+            "Ronaldo Souza",
+            "Ronaldo Souza dos Santos"
+          ]
+        },
+        {
+          "id": "jaqueline_carvalho",
+          "nome": "Jaqueline Carvalho",
+          "descricao": "Ex-jogadora brasileira de vôlei, campeã olímpica com a seleção em Pequim 2008 e Londres 2012.",
+          "variantes": [
+            "Jaqueline Maria Pereira de Carvalho",
+            "Jaque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Agulhão-vela",
+        "descricao": "Peixe marinho do gênero Istiophorus, da família dos marlins, com grande nadadeira dorsal em forma de vela e bico alongado.",
+        "variantes": [
+          "Sailfish",
+          "Espadarte-veleiro",
+          "Istiophorus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agulhao_vela",
+          "nome": "Agulhão-vela",
+          "descricao": "Peixe-de-bico do gênero Istiophorus, de grande nadadeira dorsal em forma de vela.",
+          "variantes": [
+            "Peixe-vela",
+            "Istiophorus",
+            "Sailfish"
+          ]
+        },
+        {
+          "id": "peixe_serra",
+          "nome": "Peixe-serra",
+          "descricao": "Raia de corpo alongado da família Pristidae, com um longo focinho achatado cheio de dentes nas laterais.",
+          "variantes": [
+            "Pristidae",
+            "Sawfish"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "qwilfish",
+          "nome": "Qwilfish",
+          "descricao": "Pokémon baiacu de água e veneno da segunda geração, número 211 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lingua_suaili",
+          "nome": "Língua suaíli",
+          "descricao": "Língua banta falada na costa e no interior da África Oriental, com forte influência do árabe.",
+          "variantes": [
+            "Suaíli",
+            "Swahili",
+            "Kiswahili",
+            "Suahíli",
+            "Suaíle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Glória (fenômeno óptico)",
+        "descricao": "Anel colorido concêntrico visto em torno da sombra do observador, causado pela luz interagindo com gotículas de névoa ou nuvem.",
+        "variantes": [
+          "Glória",
+          "Espectro de Brocken",
+          "Glory"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gorila",
+          "nome": "Gorila",
+          "descricao": "Grande primata africano de pelagem escura; na foto, um macho adulto de gorila-ocidental (Gorilla gorilla).",
+          "variantes": [
+            "Gorila-ocidental",
+            "Gorilla gorilla",
+            "Western gorilla",
+            "Gorilla"
+          ]
+        },
+        {
+          "id": "florianopolis",
+          "nome": "Florianópolis",
+          "descricao": "Capital do estado de Santa Catarina, situada em grande parte na Ilha de Santa Catarina.",
+          "variantes": [
+            "Desterro",
+            "Nossa Senhora do Desterro",
+            "Floripa"
+          ]
+        },
+        {
+          "id": "georgia_pais",
+          "nome": "Geórgia (país)",
+          "descricao": "País do Cáucaso, com capital em Tbilisi, cuja bandeira é uma grande cruz vermelha com quatro cruzes menores sobre fundo branco.",
+          "variantes": [
+            "Geórgia",
+            "Georgia",
+            "República da Geórgia",
+            "Sakartvelo"
+          ]
+        },
+        {
+          "id": "federico_garcia_lorca",
+          "nome": "Federico García Lorca",
+          "descricao": "Poeta e dramaturgo espanhol (1898–1936), autor de Bodas de Sangue.",
+          "variantes": [
+            "García Lorca",
+            "Lorca"
+          ]
+        },
+        {
+          "id": "goias",
+          "nome": "Goiás",
+          "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+          "variantes": [
+            "Estado de Goiás"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Raio",
+        "descricao": "Descarga eletrostática natural na atmosfera entre regiões eletricamente carregadas, que produz o trovão.",
+        "variantes": [
+          "Relâmpago",
+          "Lightning"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relampago",
+          "nome": "Relâmpago",
+          "descricao": "Descarga elétrica atmosférica visível como clarão, associada a tempestades.",
+          "variantes": [
+            "Raio"
+          ]
+        },
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "radio_osso",
+          "nome": "Rádio (osso)",
+          "descricao": "Osso do antebraço humano, do lado do polegar, paralelo à ulna.",
+          "variantes": [
+            "Rádio"
+          ]
+        },
+        {
+          "id": "rai",
+          "nome": "Raí",
+          "descricao": "Raí Souza Vieira de Oliveira, meia brasileiro ídolo do São Paulo e do Paris Saint-Germain, campeão mundial em 1994.",
+          "variantes": [
+            "Raí Souza Vieira de Oliveira"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tartaruga-de-pente",
+        "descricao": "Tartaruga marinha criticamente ameaçada, Eretmochelys imbricata, de bico pontudo e carapaça de bordas serrilhadas, típica de recifes de coral.",
+        "variantes": [
+          "Hawksbill",
+          "Eretmochelys imbricata",
+          "Tartaruga-verdadeira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_de_pente",
+          "nome": "Tartaruga-de-pente",
+          "descricao": "Tartaruga marinha tropical (Eretmochelys imbricata) com bico afilado e casco de bordas serrilhadas.",
+          "variantes": [
+            "Hawksbill sea turtle",
+            "Eretmochelys imbricata"
+          ]
+        },
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "garoupa",
+          "nome": "Garoupa",
+          "descricao": "Grande peixe costeiro da família Epinephelidae, de corpo robusto e boca larga.",
+          "variantes": [
+            "Epinephelus marginatus",
+            "Dusky grouper",
+            "Garoupa-verdadeira"
+          ]
+        },
+        {
+          "id": "tartaruga_mordedora",
+          "nome": "Tartaruga-mordedora",
+          "descricao": "Grande tartaruga de água doce norte-americana (Chelydra serpentina), de mandíbulas potentes em forma de bico.",
+          "variantes": [
+            "Tartaruga-mordedora-comum",
+            "Chelydra serpentina",
+            "Common snapping turtle"
+          ]
+        },
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lithops (pedra-viva)",
+        "descricao": "Gênero de plantas suculentas do sul da África, da família Aizoaceae, que imitam pedrinhas.",
+        "variantes": [
+          "Pedra-viva",
+          "Planta-pedra",
+          "Living stones"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "magnetita",
+          "nome": "Magnetita",
+          "descricao": "Mineral de óxido de ferro, naturalmente magnético, que forma os ímãs naturais conhecidos desde a Antiguidade.",
+          "variantes": [
+            "Magnetite",
+            "Pedra-ímã",
+            "Lodestone"
+          ]
+        },
+        {
+          "id": "pedras_deslizantes_do_vale_da_morte",
+          "nome": "Pedras deslizantes do Vale da Morte",
+          "descricao": "Rochas que se deslocam sozinhas e deixam rastros no leito seco de Racetrack Playa, no Vale da Morte, na Califórnia.",
+          "variantes": [
+            "Sailing stones",
+            "Pedras velejadoras",
+            "Pedras de Racetrack Playa",
+            "Pedras deslizantes",
+            "Pedras andantes"
+          ]
+        },
+        {
+          "id": "pedras_de_jelling",
+          "nome": "Pedras de Jelling",
+          "descricao": "Duas grandes pedras rúnicas do século dez em Jelling, na Dinamarca, erguidas pelo rei Gorm e por seu filho Harald Dente Azul.",
+          "variantes": [
+            "Jelling stones",
+            "Pedras rúnicas de Jelling"
+          ]
+        },
+        {
+          "id": "the_rolling_stones",
+          "nome": "The Rolling Stones",
+          "descricao": "Banda de rock britânica formada em Londres em 1962, de Mick Jagger e Keith Richards",
+          "variantes": [
+            "Rolling Stones",
+            "Os Rolling Stones"
+          ]
+        },
+        {
+          "id": "pedra_evolutiva",
+          "nome": "Pedra evolutiva",
+          "descricao": "Categoria de itens dos jogos Pokémon, como as pedras do Fogo, da Água e do Trovão, que fazem certos pokémon evoluir na hora.",
+          "variantes": [
+            "Evolution stone",
+            "Pedra de evolução"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a planta aquática Lemna."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ciclone_tropical",
+      "motivo": "Furacão é o ciclone tropical; mesma entidade conceitual, com variantes coincidentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "antelope_canyon",
+      "motivo": "Mesmo cânion de fenda perto de Page, Arizona."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "jaca",
+      "motivo": "Mesma fruta Artocarpus heterophyllus."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "agulhao_vela",
+      "motivo": "Mesmo peixe do gênero Istiophorus."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Fenômeno óptico glória não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "relampago",
+      "motivo": "Raio e relâmpago designam a mesma descarga elétrica atmosférica, e 'Raio' consta como variante da candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "tartaruga_de_pente",
+      "motivo": "Mesma espécie Eretmochelys imbricata."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Gênero Lithops não está entre as candidatas."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de sistema de tempestade é este, visto de cima?",
+        "resposta": "Ciclone tropical (furacão)"
+      },
+      "existentes": [
+        {
+          "id": "q02270",
+          "pergunta": "No Atlântico, ele se chama furacão. Como se chama o mesmo tipo de tempestade quando se forma no oeste do Pacífico, perto do Japão?",
+          "resposta": "Tufão"
+        },
+        {
+          "id": "q02271",
+          "pergunta": "Que efeito, ligado à rotação da Terra, faz os furacões girarem em sentidos opostos nos hemisférios norte e sul?",
+          "resposta": "Efeito Coriolis"
+        },
+        {
+          "id": "q08694",
+          "pergunta": "Como se chama a região central de um furacão, onde o vento é fraco e o céu costuma ficar limpo?",
+          "resposta": "Olho"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que estado americano, em terras navajo, fica este cânion estreito de arenito?",
+        "resposta": "Arizona"
+      },
+      "existentes": [
+        {
+          "id": "q03874",
+          "pergunta": "Que cânion é este?",
+          "resposta": "Antelope Canyon"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Esta fruta cresce presa ao tronco da árvore. De que país ela é originária?",
+        "resposta": "Índia"
+      },
+      "existentes": [
+        {
+          "id": "q02770",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Jaca"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que peixe marinho é este?",
+        "resposta": "Agulhão-vela"
+      },
+      "existentes": [
+        {
+          "id": "q18321",
+          "pergunta": "Que peixe de bico alongado é este?",
+          "resposta": "Agulhão-vela"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que fenômeno natural é este, fotografado durante uma tempestade?",
+        "resposta": "Raio (relâmpago)"
+      },
+      "existentes": [
+        {
+          "id": "q14159",
+          "pergunta": "Que fenômeno do tempo é este?",
+          "resposta": "Relâmpago (raio)"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que espécie de tartaruga marinha é esta?",
+        "resposta": "Tartaruga-de-pente"
+      },
+      "existentes": [
+        {
+          "id": "q02314",
+          "pergunta": "Que tartaruga marinha é esta?",
+          "resposta": "Tartaruga-de-pente"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o tipo de sistema (ciclone tropical) é um fato diferente de tufão, Coriolis ou olho."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estado onde fica o cânion é fato diferente do nome do cânion."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "País de origem da jaca é diferente de identificar a fruta."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo peixe, agulhão-vela.",
+      "id_existente": "q18321"
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o raio/relâmpago.",
+      "id_existente": "q14159"
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a tartaruga-de-pente.",
+      "id_existente": "q02314"
+    }
+  ]
+}

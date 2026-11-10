@@ -1,0 +1,240 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Prancha de ilustração de Haeckel com várias formas (cracas e um crustáceo parasita); não é foto e não mostra uma única entidade clara."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Close de plantas flutuantes verdes, reconhecível como lentilha-d'água; sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que planta aquática flutuante é esta?",
+      "resposta": "Lentilha-d'água",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lentilha-d'água",
+        "descricao": "Planta aquática flutuante de água doce do gênero Lemna, como a Lemna minor, da família das aráceas.",
+        "variantes": [
+          "Lemna minor",
+          "Lemna",
+          "Lentilha-de-água"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto de ciclone tropical visto da Estação Espacial, com olho nítido e espiral; reconhecível. Os painéis solares não entregam a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno atmosférico é este, fotografado do espaço?",
+      "resposta": "Furacão (ciclone tropical)",
+      "distratores": [
+        "Tornado",
+        "Tempestade de poeira",
+        "Frente fria"
+      ],
+      "ancora": {
+        "nome": "Furacão",
+        "descricao": "Ciclone tropical forte, com ventos intensos e nuvens em espiral em torno de um olho central, que se forma no Atlântico ou no Pacífico nordeste.",
+        "variantes": [
+          "Ciclone tropical",
+          "Tufão",
+          "Hurricane"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Interior do Antelope Canyon com feixe de luz, imagem icônica e única; sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que estado americano fica este cânion estreito de arenito, famoso pelos feixes de luz?",
+      "resposta": "Arizona",
+      "distratores": [
+        "Utah",
+        "Nevada",
+        "Novo México"
+      ],
+      "ancora": {
+        "nome": "Antelope Canyon",
+        "descricao": "Cânion de fenda (slot canyon) em arenito, em terras navajo perto de Page, no Arizona, Estados Unidos.",
+        "variantes": [
+          "Cânion do Antílope",
+          "Upper Antelope Canyon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Uma pessoa comum aparece em primeiro plano ao pé da planta, o que a regra de pessoas proíbe."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Jaca pendurada no tronco, bem nítida e inconfundível; sem texto.",
+      "destino": 2,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta fruta cresce presa ao tronco da árvore. De que país ela é originária?",
+      "resposta": "Índia",
+      "distratores": [
+        "Brasil",
+        "Tailândia",
+        "Madagascar"
+      ],
+      "ancora": {
+        "nome": "Jaca",
+        "descricao": "Fruta grande e de casca espinhosa da árvore Artocarpus heterophyllus, da família das moráceas, nativa da Índia.",
+        "variantes": [
+          "Jaqueira",
+          "Jackfruit",
+          "Artocarpus heterophyllus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Peixe com a grande nadadeira dorsal em forma de vela e o bico longo, sobre fundo branco; reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peixe marinho é este?",
+      "resposta": "Agulhão-vela",
+      "distratores": [],
+      "ancora": {
+        "nome": "Agulhão-vela",
+        "descricao": "Peixe marinho do gênero Istiophorus, da família dos marlins, com grande nadadeira dorsal em forma de vela e bico alongado.",
+        "variantes": [
+          "Sailfish",
+          "Espadarte-veleiro",
+          "Istiophorus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Glória com a sombra do observador no centro do anel colorido, em neblina de montanha; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno óptico é este, visto em meio à neblina na montanha?",
+      "resposta": "Glória",
+      "distratores": [
+        "Halo solar",
+        "Pilar de luz",
+        "Parélio"
+      ],
+      "ancora": {
+        "nome": "Glória (fenômeno óptico)",
+        "descricao": "Anel colorido concêntrico visto em torno da sombra do observador, causado pela luz interagindo com gotículas de névoa ou nuvem.",
+        "variantes": [
+          "Glória",
+          "Espectro de Brocken",
+          "Glory"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Raios nítidos numa tempestade noturna, sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno natural é este, fotografado durante uma tempestade?",
+      "resposta": "Raio",
+      "distratores": [],
+      "ancora": {
+        "nome": "Raio",
+        "descricao": "Descarga eletrostática natural na atmosfera entre regiões eletricamente carregadas, que produz o trovão.",
+        "variantes": [
+          "Relâmpago",
+          "Lightning"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Tartaruga-de-pente nadando sobre recife de coral, com bico pontudo visível; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que espécie de tartaruga marinha é esta?",
+      "resposta": "Tartaruga-de-pente",
+      "distratores": [],
+      "ancora": {
+        "nome": "Tartaruga-de-pente",
+        "descricao": "Tartaruga marinha criticamente ameaçada, Eretmochelys imbricata, de bico pontudo e carapaça de bordas serrilhadas, típica de recifes de coral.",
+        "variantes": [
+          "Hawksbill",
+          "Eretmochelys imbricata",
+          "Tartaruga-verdadeira"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Lithops em vaso, com flores amarelas e folhas em forma de pedra; reconhecível. A etiqueta no canto está em branco.",
+      "destino": 2,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta suculenta é esta?",
+      "resposta": "Lithops (pedra-viva)",
+      "distratores": [
+        "Echeveria",
+        "Haworthia",
+        "Aloe"
+      ],
+      "ancora": {
+        "nome": "Lithops (pedra-viva)",
+        "descricao": "Gênero de plantas suculentas do sul da África, da família Aizoaceae, que imitam pedrinhas.",
+        "variantes": [
+          "Pedra-viva",
+          "Planta-pedra",
+          "Living stones"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cratera com lava jorrando, nítida e legível; sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama este material incandescente que jorra da cratera?",
+      "resposta": "Lava",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lava",
+        "descricao": "Magma expelido do interior da Terra para a superfície, em erupções vulcânicas.",
+        "variantes": [
+          "Lava vulcânica"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento; 'planta aquática flutuante' é só categoria e não entrega o nome. Confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fotografado do espaço' não está confirmado em 'mostra'. Além disso, 'furacão' depende do oceano: no Pacífico oeste seria tufão. A resposta mais segura é ciclone tropical, com o furacão como observação.",
+      "reescrita": {
+        "pergunta": "Que tipo de sistema de tempestade é este, visto de cima?",
+        "resposta": "Ciclone tropical (furacão)",
+        "distratores": [
+          "Tornado",
+          "Tempestade de poeira",
+          "Frente fria"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Famoso pelos feixes de luz' identifica o Antelope Canyon sem olhar a figura (a figura virou enfeite) e não está nos trechos. Troquei por uma pista que ajuda sem entregar: as terras navajo, que cobrem mais de um estado.",
+      "reescrita": {
+        "pergunta": "Em que estado americano, em terras navajo, fica este cânion estreito de arenito?",
+        "resposta": "Arizona",
+        "distratores": [
+          "Utah",
+          "Nevada",
+          "Novo México"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem na Índia confirmada nos trechos. A pista do tronco não identifica a fruta sozinha (jabuticaba, cacau), então a figura é necessária. Distratores críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. O gênero Istiophorus tem nome comum equivalente, aceito pelo bom senso do questionador.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Na montanha' não está confirmado em 'mostra' e pode ser falso para esta foto (a glória também é vista de avião). Tirei a afirmação sobre o local.",
+      "reescrita": {
+        "pergunta": "Que fenômeno óptico é este?",
+        "resposta": "Glória",
+        "distratores": [
+          "Halo solar",
+          "Pilar de luz",
+          "Parélio"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Em português, 'relâmpago' é aceito de forma muito comum para o que a foto mostra, o que seria uma injustiça evidente. Inclui-se a observação na resposta.",
+      "reescrita": {
+        "pergunta": "Que fenômeno natural é este, fotografado durante uma tempestade?",
+        "resposta": "Raio (relâmpago)"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento da espécie, sem vazamento. Resposta única e confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista. Distratores são gêneros de suculentas, do mesmo tipo e críveis, e nenhum está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Material incandescente que jorra da cratera' descreve a lava: dá para responder sem a figura. Qualquer tirada da pista deixa a pergunta trivial ou ambígua com magma, então não tem conserto.",
+      "reescrita": null
+    }
+  ]
+}
