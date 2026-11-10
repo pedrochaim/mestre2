@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que foca das costas temperadas do hemisfério norte é esta?",
+        "resposta": "Foca-comum (ou foca-do-porto)"
+      },
+      "existentes": [
+        {
+          "id": "q14741",
+          "pergunta": "Em que oceanos esta foca é encontrada?",
+          "resposta": "Atlântico Norte e Pacífico Norte"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que peixe de recife do Atlântico tropical é este?",
+        "resposta": "Peixe-anjo-francês (paru ou peixe-frade)"
+      },
+      "existentes": [
+        {
+          "id": "q14442",
+          "pergunta": "Que peixe de recife, da família dos peixes-anjo, é este?",
+          "resposta": "Peixe-frade"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da espécie (foca-comum); a existente pede os oceanos onde ela vive. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo peixe de recife, e a resposta é peixe-frade/peixe-anjo-francês. Quem soubesse uma saberia a outra.",
+      "id_existente": "q14442"
+    }
+  ]
+}

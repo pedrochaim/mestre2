@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra um molusco de lado, com tentáculos, sem a forma de orelha nem a fileira de furos que identificam o abalone. Pode ser confundido com outros gastrópodes ou com um quíton, então não dá para reconhecer."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de caranguejo vermelho e laranja sobre rocha vulcânica, fácil de reconhecer.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que caranguejo de cores vivas, comum em costões rochosos, é este?",
+      "resposta": "Aratu-vermelho",
+      "ancora": {
+        "nome": "Aratu-vermelho",
+        "descricao": "Caranguejo costeiro de carapaça e patas vermelhas e alaranjadas, Grapsus grapsus, comum nas rochas do litoral do Pacífico americano.",
+        "variantes": [
+          "Grapsus grapsus",
+          "Sally Lightfoot",
+          "Caranguejo-das-pedras"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Água-viva deitada no fundo de areia, com apêndices azulados característicos, reconhecível. Os distratores são águas-vivas diferentes na aparência.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que água-viva é esta, que passa o tempo no fundo raso do mar?",
+      "resposta": "Água-viva-invertida",
+      "distratores": [
+        "Água-viva-lua",
+        "Água-viva-juba-de-leão",
+        "Água-viva-bola-de-canhão"
+      ],
+      "ancora": {
+        "nome": "Água-viva-invertida",
+        "descricao": "Água-viva do gênero Cassiopea, que vive no fundo raso de águas costeiras quentes e tem algas simbiontes.",
+        "variantes": [
+          "Cassiopea",
+          "Cassiopeia",
+          "Upside-down jellyfish"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma foca deitada na praia, com o rosto bem visível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta foca, a espécie de pinípede mais amplamente distribuída, vive nas costas do hemisfério norte. Que nome ela recebe em português?",
+      "resposta": "Foca-comum",
+      "ancora": {
+        "nome": "Foca-comum",
+        "descricao": "Foca verdadeira, Phoca vitulina, de ampla distribuição nas costas temperadas e árticas do hemisfério norte.",
+        "variantes": [
+          "Phoca vitulina",
+          "Foca-de-porto",
+          "Harbor seal"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "A cabeça arredondada e sem bico de um pequeno cetáceo é visível, e o contexto (cabeça fora d'água) é típico da toninha-comum.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pequeno cetáceo de cabeça arredondada, parente dos golfinhos, é este?",
+      "resposta": "Toninha-comum",
+      "ancora": {
+        "nome": "Toninha-comum",
+        "descricao": "Pequeno cetáceo costeiro do hemisfério norte, Phocoena phocoena, da família dos porpoises, de cabeça arredondada e sem bico.",
+        "variantes": [
+          "Boto-do-porto",
+          "Phocoena phocoena",
+          "Harbour porpoise"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem é pequena e de baixa resolução, e mostra um cetáceo saltando de longe. Não dá para ver os traços que distinguem a baleia-bicuda-de-cuvier de outros cetáceos parecidos, então a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É uma montagem de quatro fotos de espécies diferentes de lapas, o que o manifesto proíbe (vários assuntos). Também não há uma única entidade clara."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Os dois golfinhos saltando não mostram as manchas características do golfinho-pintado-do-atlântico. Poderiam ser outras espécies, como o golfinho-nariz-de-garrafa, então a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "A barriga branca e a barbatana dorsal arredondada são reconhecíveis, apesar da foto algo borrada. A pergunta vai além do nome, e o país é uma resposta única.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pequeno golfinho de barbatana dorsal arredondada só existe em águas de que país?",
+      "resposta": "Nova Zelândia",
+      "ancora": {
+        "nome": "Golfinho-de-hector",
+        "descricao": "Pequeno golfinho costeiro, Cephalorhynchus hectori, o único cetáceo endêmico da Nova Zelândia.",
+        "variantes": [
+          "Cephalorhynchus hectori",
+          "Hector's dolphin",
+          "Golfinho-de-héctor"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, de perto, com o padrão de escamas de bordas amarelas e o focinho branco típicos da espécie.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peixe de recife, do Atlântico tropical, é este?",
+      "resposta": "Peixe-anjo-francês",
+      "ancora": {
+        "nome": "Peixe-anjo-francês",
+        "descricao": "Peixe de recifes de coral do Atlântico ocidental tropical, Pomacanthus paru, de corpo escuro com escamas de bordas amarelas.",
+        "variantes": [
+          "Peixe-frade",
+          "Paru-frade",
+          "Pomacanthus paru",
+          "French angelfish"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "O corpo cilíndrico e marrom, o colar escuro e o olho grande são visíveis. O lápis dá noção de escala, e não há texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pequeno tubarão de águas profundas é este?",
+      "resposta": "Tubarão-charuto",
+      "distratores": [
+        "Tubarão-lanterna",
+        "Tubarão-da-groenlândia",
+        "Tubarão-lixa"
+      ],
+      "ancora": {
+        "nome": "Tubarão-charuto",
+        "descricao": "Pequeno tubarão de águas profundas, Isistius brasiliensis, que arranca pedaços redondos de animais maiores.",
+        "variantes": [
+          "Isistius brasiliensis",
+          "Cookiecutter shark",
+          "Tubarão-cortador-de-biscoito"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma estrela-do-mar grande, com muitos braços, que a distingue de outras.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estrela-do-mar de muitos braços, do Pacífico norte, é esta?",
+      "resposta": "Estrela-girassol",
+      "ancora": {
+        "nome": "Estrela-girassol",
+        "descricao": "Grande estrela-do-mar do Pacífico nordeste, Pycnopodia helianthoides, com 16 a 24 braços.",
+        "variantes": [
+          "Pycnopodia helianthoides",
+          "Sunflower sea star",
+          "Estrela-do-mar-girassol"
+        ]
+      }
+    }
+  ]
+}

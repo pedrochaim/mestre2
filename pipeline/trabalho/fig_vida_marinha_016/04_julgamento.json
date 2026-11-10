@@ -1,0 +1,473 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Água-viva-invertida",
+        "descricao": "Água-viva do gênero Cassiopea, que vive no fundo raso de águas costeiras quentes e tem algas simbiontes.",
+        "variantes": [
+          "Cassiopea",
+          "Cassiopeia",
+          "Upside-down jellyfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cassiopeia_a",
+          "nome": "Cassiopeia A",
+          "descricao": "Remanescente de supernova na constelação de Cassiopeia, a cerca de 11 mil anos-luz, e a fonte de rádio extrasolar mais brilhante do céu.",
+          "variantes": [
+            "Cas A"
+          ]
+        },
+        {
+          "id": "cassio",
+          "nome": "Cássio",
+          "descricao": "Cássio Ramos, goleiro brasileiro ídolo do Corinthians, nascido em 1987.",
+          "variantes": [
+            "Cássio Ramos"
+          ]
+        },
+        {
+          "id": "turritopsis_dohrnii",
+          "nome": "Turritopsis dohrnii",
+          "descricao": "Pequeno hidrozoário marinho conhecido como água-viva imortal por conseguir rejuvenescer.",
+          "variantes": [
+            "Água-viva imortal",
+            "Immortal jellyfish"
+          ]
+        },
+        {
+          "id": "caliope",
+          "nome": "Calíope",
+          "descricao": "Musa grega da poesia épica e da eloquência, mãe de Orfeu em algumas versões.",
+          "variantes": [
+            "Calliope",
+            "Kalliope"
+          ]
+        },
+        {
+          "id": "aequorea_victoria",
+          "nome": "Aequorea victoria",
+          "descricao": "Água-viva bioluminescente do Pacífico Norte, de onde foi isolada a proteína verde fluorescente.",
+          "variantes": [
+            "Água-viva-cristal",
+            "Crystal jelly"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Foca-comum",
+        "descricao": "Foca verdadeira, Phoca vitulina, de ampla distribuição nas costas temperadas e árticas do hemisfério norte.",
+        "variantes": [
+          "Phoca vitulina",
+          "Foca-de-porto",
+          "Harbor seal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "foca_comum",
+          "nome": "Foca-comum",
+          "descricao": "Foca verdadeira (Phoca vitulina) do hemisfério norte, o pinípede de maior distribuição.",
+          "variantes": [
+            "Phoca vitulina",
+            "Foca-do-porto"
+          ]
+        },
+        {
+          "id": "foca_harpa",
+          "nome": "Foca-harpa",
+          "descricao": "Foca verdadeira (Pagophilus groenlandicus) do Atlântico Norte e do Oceano Ártico, com mancha escura em forma de harpa nas costas.",
+          "variantes": [
+            "Foca-da-Groenlândia",
+            "Harp seal",
+            "Pagophilus groenlandicus"
+          ]
+        },
+        {
+          "id": "figo",
+          "nome": "Figo",
+          "descricao": "Fruto da figueira-comum (Ficus carica), nativa da região mediterrânea.",
+          "variantes": [
+            "Figo-comum",
+            "Ficus carica"
+          ]
+        },
+        {
+          "id": "folha_de_louro",
+          "nome": "Folha de louro",
+          "descricao": "Folha aromática do loureiro (Laurus nobilis), usada como tempero em cozidos.",
+          "variantes": [
+            "Louro",
+            "Folha de loureiro",
+            "Bay leaf"
+          ]
+        },
+        {
+          "id": "foca_de_capuz",
+          "nome": "Foca-de-capuz",
+          "descricao": "Grande foca Cystophora cristata do Atlântico Norte, de pelagem manchada e capuz nasal inflável.",
+          "variantes": [
+            "Foca-de-crista",
+            "Cystophora cristata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Toninha-comum",
+        "descricao": "Pequeno cetáceo costeiro do hemisfério norte, Phocoena phocoena, da família dos porpoises, de cabeça arredondada e sem bico.",
+        "variantes": [
+          "Boto-do-porto",
+          "Phocoena phocoena",
+          "Harbour porpoise"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estorninho_comum",
+          "nome": "Estorninho-comum",
+          "descricao": "Ave preta de brilho metálico e pintas claras (Sturnus vulgaris), nativa da Europa e introduzida em vários continentes.",
+          "variantes": [
+            "Estorninho-malhado",
+            "Sturnus vulgaris"
+          ]
+        },
+        {
+          "id": "foca_comum",
+          "nome": "Foca-comum",
+          "descricao": "Foca verdadeira (Phoca vitulina) do hemisfério norte, o pinípede de maior distribuição.",
+          "variantes": [
+            "Phoca vitulina",
+            "Foca-do-porto"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        },
+        {
+          "id": "vinho_do_porto",
+          "nome": "Vinho do Porto",
+          "descricao": "Vinho licoroso português produzido no vale do Douro e envelhecido em Vila Nova de Gaia.",
+          "variantes": [
+            "Porto",
+            "Port wine"
+          ]
+        },
+        {
+          "id": "mao_do_morto",
+          "nome": "Mão do morto",
+          "descricao": "Mão de pôquer com dois pares, de ases e de oitos pretos, associada à morte de um pistoleiro do Velho Oeste.",
+          "variantes": [
+            "Dead man's hand"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Golfinho-de-hector",
+        "descricao": "Pequeno golfinho costeiro, Cephalorhynchus hectori, o único cetáceo endêmico da Nova Zelândia.",
+        "variantes": [
+          "Cephalorhynchus hectori",
+          "Hector's dolphin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moinho_de_vento",
+          "nome": "Moinho de vento",
+          "descricao": "Máquina de torre movida pela força do vento sobre pás ou velas, usada para moer grãos.",
+          "variantes": [
+            "Moinho de vento vertical",
+            "Windmill",
+            "Moinho eólico"
+          ]
+        },
+        {
+          "id": "olho_de_horus",
+          "nome": "Olho de Hórus",
+          "descricao": "Símbolo egípcio do olho estilizado, o wedjat, que representa proteção, cura e bem-estar.",
+          "variantes": [
+            "Udjat",
+            "Wedjat",
+            "Eye of Horus",
+            "Olho de Udjat"
+          ]
+        },
+        {
+          "id": "golfinho_rotador",
+          "nome": "Golfinho-rotador",
+          "descricao": "Pequeno golfinho tropical (Stenella longirostris), famoso pelos saltos em que gira no ar.",
+          "variantes": [
+            "Stenella longirostris",
+            "Spinner dolphin",
+            "Golfinho-rotador-de-noronha"
+          ]
+        },
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        },
+        {
+          "id": "arara_azul_de_lear",
+          "nome": "Arara-azul-de-lear",
+          "descricao": "Arara azul ameaçada (Anodorhynchus leari) do Raso da Catarina, no sertão da Bahia.",
+          "variantes": [
+            "Anodorhynchus leari",
+            "Lear's macaw"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Peixe-anjo-francês",
+        "descricao": "Peixe de recifes de coral do Atlântico ocidental tropical, Pomacanthus paru, de corpo escuro com escamas de bordas amarelas.",
+        "variantes": [
+          "Peixe-frade",
+          "Paru-frade",
+          "Pomacanthus paru",
+          "French angelfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_frade",
+          "nome": "Peixe-frade",
+          "descricao": "Peixe-anjo de recifes do Atlântico (Pomacanthus paru), de corpo escuro com escamas de borda amarela.",
+          "variantes": [
+            "Pomacanthus paru",
+            "French angelfish",
+            "Paru-frade"
+          ]
+        },
+        {
+          "id": "peixe_cofre_amarelo",
+          "nome": "Peixe-cofre-amarelo",
+          "descricao": "Peixe de recife (Ostracion cubicum) de corpo em forma de caixa, amarelo com pintas escuras.",
+          "variantes": [
+            "Ostracion cubicum",
+            "Yellow boxfish",
+            "Peixe-cofre"
+          ]
+        },
+        {
+          "id": "peixe_anjo_imperador",
+          "nome": "Peixe-anjo-imperador",
+          "descricao": "Peixe de recife Pomacanthus imperator, listrado de azul e amarelo, nativo dos oceanos Índico e Pacífico.",
+          "variantes": [
+            "Pomacanthus imperator",
+            "Emperor angelfish"
+          ]
+        },
+        {
+          "id": "peixe_anjo_rainha",
+          "nome": "Peixe-anjo-rainha",
+          "descricao": "Peixe-anjo de recifes do Atlântico ocidental (Holacanthus ciliaris), azul e amarelo, com uma mancha em forma de coroa na testa.",
+          "variantes": [
+            "Holacanthus ciliaris",
+            "Queen angelfish",
+            "Peixe-anjo-azul"
+          ]
+        },
+        {
+          "id": "regaleco",
+          "nome": "Regaleco",
+          "descricao": "Peixe oceânico prateado em forma de fita (Regalecus glesne), o peixe ósseo mais comprido do mundo.",
+          "variantes": [
+            "Peixe-remo",
+            "Regalecus glesne",
+            "Giant oarfish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tubarão-charuto",
+        "descricao": "Pequeno tubarão de águas profundas, Isistius brasiliensis, que arranca pedaços redondos de animais maiores.",
+        "variantes": [
+          "Isistius brasiliensis",
+          "Cookiecutter shark",
+          "Tubarão-cortador-de-biscoito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_martelo",
+          "nome": "Tubarão-martelo",
+          "descricao": "Tubarão da família Sphyrnidae, com a cabeça achatada e alongada lateralmente em forma de T.",
+          "variantes": [
+            "Tubarão-martelo-recortado",
+            "Hammerhead shark",
+            "Sphyrnidae"
+          ]
+        },
+        {
+          "id": "grafico_de_barras",
+          "nome": "Gráfico de barras",
+          "descricao": "Gráfico que mostra dados categóricos por meio de barras retangulares de altura proporcional aos valores.",
+          "variantes": [
+            "Gráfico de colunas",
+            "Bar chart"
+          ]
+        },
+        {
+          "id": "tubarao_anjo",
+          "nome": "Tubarão-anjo",
+          "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+          "variantes": [
+            "Anjo-do-mar",
+            "Squatina",
+            "Angel shark"
+          ]
+        },
+        {
+          "id": "tubarao_mako",
+          "nome": "Tubarão-mako",
+          "descricao": "Isurus oxyrinchus, grande tubarão-cavala de corpo fusiforme, o mais rápido entre os tubarões conhecidos.",
+          "variantes": [
+            "Mako",
+            "Tubarão-anequim",
+            "Isurus oxyrinchus",
+            "Shortfin mako"
+          ]
+        },
+        {
+          "id": "tubarao_azul",
+          "nome": "Tubarão-azul",
+          "descricao": "Tubarão-azul (Prionace glauca), tubarão cestídeo de oceano aberto, de corpo esguio e peitorais longas.",
+          "variantes": [
+            "Cação-azul",
+            "Prionace glauca",
+            "Blue shark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Estrela-girassol",
+        "descricao": "Grande estrela-do-mar do Pacífico nordeste, Pycnopodia helianthoides, com 16 a 24 braços.",
+        "variantes": [
+          "Pycnopodia helianthoides",
+          "Sunflower sea star",
+          "Estrela-do-mar-girassol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "professor_girassol",
+          "nome": "Professor Girassol",
+          "descricao": "Cientista distraído e meio surdo das Aventuras de Tintim, de Hergé",
+          "variantes": [
+            "Trifólio Girassol",
+            "Professor Calculus",
+            "Professeur Tournesol"
+          ]
+        },
+        {
+          "id": "semente_de_girassol",
+          "nome": "Semente de girassol",
+          "descricao": "Semente do girassol (Helianthus annuus), comestível e usada para extrair óleo.",
+          "variantes": [
+            "Semente do girassol"
+          ]
+        },
+        {
+          "id": "os_girassois_van_gogh",
+          "nome": "Os Girassóis (Van Gogh)",
+          "descricao": "Série de naturezas-mortas de Vincent van Gogh, pintadas em Arles a partir de 1888, com girassóis num vaso.",
+          "variantes": [
+            "Sunflowers",
+            "Os Girassóis"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Gênero Cassiopea (água-viva) não corresponde a nenhuma candidata; Cassiopeia A é supernova."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "foca_comum",
+      "motivo": "Mesma espécie Phoca vitulina, mesmo nome e descrição."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Phocoena phocoena é um cetáceo, diferente de qualquer candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Golfinho-de-hector é espécie distinta do golfinho-rotador e demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "peixe_frade",
+      "motivo": "Pomacanthus paru, French angelfish: mesma espécie."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Isistius brasiliensis não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pycnopodia helianthoides é espécie específica, diferente da classe genérica Estrela-do-mar."
+    }
+  ]
+}
