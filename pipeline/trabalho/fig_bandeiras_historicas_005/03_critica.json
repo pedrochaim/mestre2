@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Década de 1860 correta (1864-1867); resposta única, distratores plausíveis, enunciado não entrega a bandeira.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com o enunciado coberto, 'companhia holandesa que ocupou terras no Brasil no século dezessete' já leva a Nordeste, então a figura é enfeite. Reescrita pede para reconhecer a bandeira.",
+      "reescrita": {
+        "pergunta": "Esta bandeira era de uma companhia comercial holandesa, fundada em 1621. Que companhia era essa?",
+        "resposta": "Companhia das Índias Ocidentais",
+        "distratores": [
+          "Companhia das Índias Orientais",
+          "Companhia do Levante",
+          "Companhia da Baía de Hudson"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capital Florença confirmada pelos trechos; é preciso reconhecer a bandeira para saber o Estado; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Controle de grandes partes da Índia confirmado. Sem a figura há ambiguidade (outras companhias), então a imagem é necessária; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Criado por cossacos' praticamente entrega Ucrânia sem a figura. Troquei por datas e ajustei o distrator Cazaquistão, pouco crível.",
+      "reescrita": {
+        "pergunta": "Em que país atual ficava a maior parte do território do Estado desta bandeira, que existiu de 1648 a 1764?",
+        "resposta": "Ucrânia",
+        "distratores": [
+          "Polônia",
+          "Lituânia",
+          "Romênia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Venizelos defendeu a entrada ao lado dos Aliados contra o rei Constantino, como mostram os trechos; é preciso reconhecer o Estado pela bandeira; distratores gregos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Declaração de independência da proteção francesa confirmada nos trechos; a figura é necessária para identificar o Estado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Deixou de existir' é impreciso: o Estado continuou e só mudou de nome em 1997. Reescrito de acordo com os trechos.",
+      "reescrita": {
+        "pergunta": "Em que ano o país desta bandeira, governado por Mobutu, voltou a se chamar República Democrática do Congo?",
+        "resposta": "1997",
+        "distratores": [
+          "1991",
+          "1994",
+          "2001"
+        ]
+      }
+    }
+  ]
+}

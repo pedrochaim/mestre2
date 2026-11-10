@@ -1,0 +1,219 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A bandeira é só um disco vermelho sobre fundo branco, praticamente igual à bandeira atual do Japão; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Brasão imperial mexicano com coroa e águia, reconhecível; o lema na fita é minúsculo e não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década esta bandeira estava em uso, no Estado que ela representava?",
+      "resposta": "Década de 1860",
+      "distratores": [
+        "Década de 1830",
+        "Década de 1880",
+        "Década de 1910"
+      ],
+      "ancora": {
+        "nome": "Segundo Império Mexicano",
+        "descricao": "Monarquia constitucional mexicana (1864-1867) sob Maximiliano de Habsburgo, apoiada pela França de Napoleão III.",
+        "variantes": [
+          "Império Mexicano",
+          "Segundo Império do México"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tricolor holandês com monograma, distintivo; o monograma não é legível como nome. Pergunta pede a região brasileira ocupada.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "No século dezessete, a companhia comercial holandesa dona desta bandeira ocupou terras em que região do Brasil?",
+      "resposta": "Nordeste",
+      "distratores": [
+        "Sul",
+        "Sudeste",
+        "Centro-Oeste"
+      ],
+      "ancora": {
+        "nome": "Companhia das Índias Ocidentais",
+        "descricao": "Companhia comercial holandesa fundada em 1621, com monopólio no Atlântico, que ocupou parte do Nordeste do Brasil.",
+        "variantes": [
+          "Companhia Holandesa das Índias Ocidentais",
+          "WIC",
+          "Dutch West India Company"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem é um tricolor vermelho, branco e azul-claro, igual à bandeira de Luxemburgo e parecida com a dos Países Baixos; não identifica de forma única a República das Sete Províncias Unidas."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira vermelha e branca com brasão dos Habsburgo-Lorena da Toscana, sem texto; aficionado, em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual era a capital do Estado italiano que usava esta bandeira?",
+      "resposta": "Florença",
+      "distratores": [
+        "Pisa",
+        "Siena",
+        "Milão"
+      ],
+      "ancora": {
+        "nome": "Grão-Ducado da Toscana",
+        "descricao": "Monarquia da Itália central (1569-1860), governada pelos Médici e depois pelos Habsburgo-Lorena, com capital em Florença.",
+        "variantes": [
+          "Toscana",
+          "Granducato di Toscana"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O tricolor branco, azul e vermelho é idêntico à bandeira atual da Rússia; a imagem não identifica o Império Russo de forma única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Listras vermelhas e brancas com a Union Jack no canto, sem texto; distintiva.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que país asiático acabou em grande parte controlado pela companhia comercial dona desta bandeira?",
+      "resposta": "Índia",
+      "distratores": [
+        "China",
+        "Japão",
+        "Indonésia"
+      ],
+      "ancora": {
+        "nome": "Companhia Britânica das Índias Orientais",
+        "descricao": "Companhia comercial inglesa e depois britânica, fundada em 1600, que dominou grande parte do subcontinente indiano.",
+        "variantes": [
+          "Companhia das Índias Orientais",
+          "East India Company",
+          "EIC"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira com cossaco armado em moldura barroca, sem texto; distintiva.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país atual ficava a maior parte do território do Estado desta bandeira, criado por cossacos?",
+      "resposta": "Ucrânia",
+      "distratores": [
+        "Polônia",
+        "Lituânia",
+        "Cazaquistão"
+      ],
+      "ancora": {
+        "nome": "Hetmanato Cossaco",
+        "descricao": "Estado cossaco que existiu entre 1648 e 1764, no centro da atual Ucrânia, também chamado Hoste Zaporoga.",
+        "variantes": [
+          "Hetmanato",
+          "Hetmanato Zaporoga",
+          "Cossack Hetmanate"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A cruz vermelha sobre fundo branco é a bandeira atual da Inglaterra e de São Jorge, usada por outras cidades e Estados; a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cruz branca sobre campo azul com coroa dourada, característica do Reino da Grécia; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Na Primeira Guerra, que primeiro-ministro do Estado desta bandeira defendeu a entrada ao lado dos Aliados, contra a vontade do rei?",
+      "resposta": "Eleftherios Venizelos",
+      "distratores": [
+        "Ioannis Metaxas",
+        "Ioannis Kapodistrias",
+        "Andreas Papandreou"
+      ],
+      "ancora": {
+        "nome": "Reino da Grécia",
+        "descricao": "Estado monárquico grego criado em 1832, que existiu, com interrupções, até 1973.",
+        "variantes": [
+          "Reino Helênico",
+          "Kingdom of Greece"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fundo amarelo com trigrama vermelho, distintiva e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Em 1945, o Estado desta bandeira declarou independência da proteção de que país europeu?",
+      "resposta": "França",
+      "distratores": [
+        "Reino Unido",
+        "Portugal",
+        "Países Baixos"
+      ],
+      "ancora": {
+        "nome": "Império do Vietnã",
+        "descricao": "Estado vassalo do Japão (março a agosto de 1945), governado por Bảo Đại, que declarou independência da proteção francesa.",
+        "variantes": [
+          "Império do Vietname",
+          "Đế quốc Việt Nam"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Tocha com chama sobre disco amarelo em campo verde, distintiva e sem texto. Única pergunta de ano do lote.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que ano o Estado desta bandeira deixou de existir, ao ser substituído pela República Democrática do Congo?",
+      "resposta": "1997",
+      "distratores": [
+        "1991",
+        "1994",
+        "2001"
+      ],
+      "ancora": {
+        "nome": "Zaire",
+        "descricao": "Estado da África Central governado por Mobutu Sese Seko, chamado Zaire de 1971 a 1997, atual República Democrática do Congo.",
+        "variantes": [
+          "República do Zaire",
+          "Zaïre"
+        ]
+      }
+    }
+  ]
+}

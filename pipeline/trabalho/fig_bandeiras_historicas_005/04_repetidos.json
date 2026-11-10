@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano o país desta bandeira, governado por Mobutu, voltou a se chamar República Democrática do Congo?",
+        "resposta": "1997"
+      },
+      "existentes": [
+        {
+          "id": "q04915",
+          "pergunta": "O nome Zaire, que o ditador Mobutu deu ao Congo, deriva de uma palavra da língua quicongo. O que ela significa?",
+          "resposta": "Rio"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o ano em que o país voltou a se chamar República Democrática do Congo (1997); a existente pede o significado de 'Zaire' em quicongo (rio). São fatos diferentes."
+    }
+  ]
+}

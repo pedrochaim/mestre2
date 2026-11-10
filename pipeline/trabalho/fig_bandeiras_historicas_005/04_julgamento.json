@@ -1,0 +1,518 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Segundo Império Mexicano",
+        "descricao": "Monarquia constitucional mexicana (1864-1867) sob Maximiliano de Habsburgo, apoiada pela França de Napoleão III.",
+        "variantes": [
+          "Império Mexicano",
+          "Segundo Império do México"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "imperio_inca",
+          "nome": "Império Inca",
+          "descricao": "Estado pré-colombiano andino, centrado em Cusco, que dominou boa parte da costa oeste da América do Sul nos séculos quinze e dezesseis.",
+          "variantes": [
+            "Tawantinsuyu",
+            "Tahuantinsuyo"
+          ]
+        },
+        {
+          "id": "imperio_coreano",
+          "nome": "Império Coreano",
+          "descricao": "Estado monárquico da Coreia proclamado em 1897 pelo rei Gojong e anexado pelo Japão em 1910.",
+          "variantes": [
+            "Império da Coreia",
+            "Taehan Cheguk",
+            "Korean Empire"
+          ]
+        },
+        {
+          "id": "raj_britanico",
+          "nome": "Raj Britânico",
+          "descricao": "Domínio da Coroa britânica sobre o subcontinente indiano de 1858 a 1947.",
+          "variantes": [
+            "Índia Britânica",
+            "Império Indiano",
+            "British Raj"
+          ]
+        },
+        {
+          "id": "dinastia_han",
+          "nome": "Dinastia Han",
+          "descricao": "Dinastia imperial chinesa que governou de 206 antes de Cristo a 220 depois de Cristo.",
+          "variantes": [
+            "Han dynasty",
+            "Império Han"
+          ]
+        },
+        {
+          "id": "imperio_mauria",
+          "nome": "Império Máuria",
+          "descricao": "Império da Índia antiga, dos séculos quatro a dois antes de Cristo, que teve Ashoka entre seus imperadores.",
+          "variantes": [
+            "Maurya Empire",
+            "Dinastia Máuria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Companhia das Índias Ocidentais",
+        "descricao": "Companhia comercial holandesa fundada em 1621, com monopólio no Atlântico, que ocupou parte do Nordeste do Brasil.",
+        "variantes": [
+          "Companhia Holandesa das Índias Ocidentais",
+          "WIC",
+          "Dutch West India Company"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "companhia_holandesa_das_indias_orientais",
+          "nome": "Companhia Holandesa das Índias Orientais",
+          "descricao": "Companhia comercial neerlandesa fundada em 1602, que dominou o comércio de especiarias na Ásia nos séculos dezessete e dezoito.",
+          "variantes": [
+            "VOC",
+            "Vereenigde Oostindische Compagnie",
+            "Dutch East India Company"
+          ]
+        },
+        {
+          "id": "bic_cristal",
+          "nome": "BIC Cristal",
+          "descricao": "Caneta esferográfica descartável de corpo transparente lançada pela empresa francesa BIC em 1950.",
+          "variantes": [
+            "Caneta BIC",
+            "Bic"
+          ]
+        },
+        {
+          "id": "peruca",
+          "nome": "Peruca",
+          "descricao": "Cabeleira postiça usada como adorno ou para cobrir a calvície, moda na corte europeia dos séculos dezessete e dezoito",
+          "variantes": [
+            "Wig",
+            "Cabeleira postiça"
+          ]
+        },
+        {
+          "id": "comite_olimpico_internacional",
+          "nome": "Comitê Olímpico Internacional",
+          "descricao": "Organização que comanda o movimento olímpico e escolhe as sedes dos Jogos Olímpicos.",
+          "variantes": [
+            "COI",
+            "International Olympic Committee",
+            "IOC"
+          ]
+        },
+        {
+          "id": "gelo",
+          "nome": "Gelo",
+          "descricao": "Água no estado sólido, menos densa que a água líquida.",
+          "variantes": [
+            "Ice",
+            "Água congelada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Grão-Ducado da Toscana",
+        "descricao": "Monarquia da Itália central (1569-1860), governada pelos Médici e depois pelos Habsburgo-Lorena, com capital em Florença.",
+        "variantes": [
+          "Toscana",
+          "Granducato di Toscana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tosca",
+          "nome": "Tosca",
+          "descricao": "Ópera de Giacomo Puccini, estreada em Roma em 1900, sobre a cantora Floria Tosca, o pintor Cavaradossi e o chefe de polícia Scarpia.",
+          "variantes": [
+            "Tosca (ópera)"
+          ]
+        },
+        {
+          "id": "tocandira",
+          "nome": "Tocandira",
+          "descricao": "Grande formiga amazônica (Paraponera clavata), conhecida como formiga-bala pela picada extremamente dolorosa.",
+          "variantes": [
+            "Paraponera clavata",
+            "formiga-bala",
+            "bullet ant",
+            "tucandeira"
+          ]
+        },
+        {
+          "id": "arturo_toscanini",
+          "nome": "Arturo Toscanini",
+          "descricao": "Maestro italiano, diretor do La Scala e da Orquestra Sinfônica da NBC.",
+          "variantes": [
+            "Toscanini"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "ocarina",
+          "nome": "Ocarina",
+          "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+          "variantes": [
+            "Okarina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Companhia Britânica das Índias Orientais",
+        "descricao": "Companhia comercial inglesa e depois britânica, fundada em 1600, que dominou grande parte do subcontinente indiano.",
+        "variantes": [
+          "Companhia das Índias Orientais",
+          "East India Company",
+          "EIC"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "companhia_holandesa_das_indias_orientais",
+          "nome": "Companhia Holandesa das Índias Orientais",
+          "descricao": "Companhia comercial neerlandesa fundada em 1602, que dominou o comércio de especiarias na Ásia nos séculos dezessete e dezoito.",
+          "variantes": [
+            "VOC",
+            "Vereenigde Oostindische Compagnie",
+            "Dutch East India Company"
+          ]
+        },
+        {
+          "id": "eniac",
+          "nome": "ENIAC",
+          "descricao": "Computador eletrônico digital de uso geral construído nos Estados Unidos e concluído em 1945.",
+          "variantes": [
+            "Electronic Numerical Integrator and Computer"
+          ]
+        },
+        {
+          "id": "metecos",
+          "nome": "Metecos",
+          "descricao": "Estrangeiros livres que residiam em Atenas, pagavam imposto e serviam no exército, mas não tinham direitos políticos.",
+          "variantes": [
+            "Meteco",
+            "Metic",
+            "Métoikos"
+          ]
+        },
+        {
+          "id": "estacao_espacial_internacional",
+          "nome": "Estação Espacial Internacional",
+          "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+          "variantes": [
+            "ISS",
+            "EEI",
+            "International Space Station"
+          ]
+        },
+        {
+          "id": "bic_cristal",
+          "nome": "BIC Cristal",
+          "descricao": "Caneta esferográfica descartável de corpo transparente lançada pela empresa francesa BIC em 1950.",
+          "variantes": [
+            "Caneta BIC",
+            "Bic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hetmanato Cossaco",
+        "descricao": "Estado cossaco que existiu entre 1648 e 1764, no centro da atual Ucrânia, também chamado Hoste Zaporoga.",
+        "variantes": [
+          "Hetmanato",
+          "Hetmanato Zaporoga",
+          "Cossack Hetmanate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "manto_terrestre",
+          "nome": "Manto terrestre",
+          "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+          "variantes": [
+            "Manto da Terra",
+            "Manto"
+          ]
+        },
+        {
+          "id": "deir_el_medina",
+          "nome": "Deir el-Medina",
+          "descricao": "Aldeia dos artesãos que escavavam e decoravam as tumbas reais do Vale dos Reis, na margem oeste de Tebas",
+          "variantes": [
+            "Deir el-Medineh",
+            "Set Maat"
+          ]
+        },
+        {
+          "id": "heptatlo",
+          "nome": "Heptatlo",
+          "descricao": "Prova combinada do atletismo feminino com sete provas disputadas em dois dias.",
+          "variantes": [
+            "Heptathlon"
+          ]
+        },
+        {
+          "id": "tomate",
+          "nome": "Tomate",
+          "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+          "variantes": [
+            "Tomate-cereja",
+            "Tomato",
+            "Solanum lycopersicum"
+          ]
+        },
+        {
+          "id": "peixe_boi_marinho",
+          "nome": "Peixe-boi-marinho",
+          "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+          "variantes": [
+            "Peixe-boi",
+            "Trichechus manatus",
+            "Manati"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Reino da Grécia",
+        "descricao": "Estado monárquico grego criado em 1832, que existiu, com interrupções, até 1973.",
+        "variantes": [
+          "Reino Helênico",
+          "Kingdom of Greece"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "suecia",
+          "nome": "Suécia",
+          "descricao": "País nórdico da Península Escandinava, cuja capital é Estocolmo.",
+          "variantes": [
+            "Reino da Suécia"
+          ]
+        },
+        {
+          "id": "reino_da_franca",
+          "nome": "Reino da França",
+          "descricao": "Monarquia francesa medieval e moderna, que existiu até 1848, simbolizada pelas flores-de-lis.",
+          "variantes": [
+            "Reino de França",
+            "Antigo Regime francês"
+          ]
+        },
+        {
+          "id": "reino_da_servia",
+          "nome": "Reino da Sérvia",
+          "descricao": "Monarquia dos Bálcãs proclamada em 1882, que existiu até 1918 e depois integrou a Iugoslávia.",
+          "variantes": [
+            "Sérvia (reino)"
+          ]
+        },
+        {
+          "id": "belgica",
+          "nome": "Bélgica",
+          "descricao": "Reino da Europa Ocidental, vizinho da Holanda, Alemanha, Luxemburgo e França.",
+          "variantes": [
+            "Belgium",
+            "Reino da Bélgica"
+          ]
+        },
+        {
+          "id": "brasao_da_grecia",
+          "nome": "Brasão da Grécia",
+          "descricao": "Brasão de armas da Grécia: escudo azul com cruz branca cercado por ramos de louro.",
+          "variantes": [
+            "Grécia",
+            "Brasão de armas da Grécia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Império do Vietnã",
+        "descricao": "Estado vassalo do Japão (março a agosto de 1945), governado por Bảo Đại, que declarou independência da proteção francesa.",
+        "variantes": [
+          "Império do Vietname",
+          "Đế quốc Việt Nam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ira_pahlavi",
+          "nome": "Irã Pahlavi",
+          "descricao": "Estado imperial do Irã sob a dinastia Pahlavi, de 1925 a 1979, cuja bandeira tinha o leão e sol.",
+          "variantes": [
+            "Irã Imperial",
+            "Império do Irã",
+            "Pérsia Pahlavi"
+          ]
+        },
+        {
+          "id": "imperio_de_gana",
+          "nome": "Império de Gana",
+          "descricao": "Império da África Ocidental, nas atuais Mauritânia e Mali, que prosperou com o comércio de ouro até o século treze.",
+          "variantes": [
+            "Ghana Empire",
+            "Império do Gana",
+            "Wagadu",
+            "Uagadu"
+          ]
+        },
+        {
+          "id": "imperio_inca",
+          "nome": "Império Inca",
+          "descricao": "Estado pré-colombiano andino, centrado em Cusco, que dominou boa parte da costa oeste da América do Sul nos séculos quinze e dezesseis.",
+          "variantes": [
+            "Tawantinsuyu",
+            "Tahuantinsuyo"
+          ]
+        },
+        {
+          "id": "imperio_do_mali",
+          "nome": "Império do Mali",
+          "descricao": "Império da África Ocidental que dominou o Sahel do século treze ao dezesseis, famoso pelo ouro e por Tombuctu.",
+          "variantes": [
+            "Mali Empire",
+            "Reino do Mali"
+          ]
+        },
+        {
+          "id": "imperio_etiope",
+          "nome": "Império Etíope",
+          "descricao": "Monarquia que governou a Etiópia até 1974 e resistiu à partilha colonial da África no fim do século dezenove.",
+          "variantes": [
+            "Abissínia",
+            "Império da Etiópia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Zaire",
+        "descricao": "Estado da África Central governado por Mobutu Sese Seko, chamado Zaire de 1971 a 1997, atual República Democrática do Congo.",
+        "variantes": [
+          "República do Zaire"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "zaire",
+          "nome": "Zaire",
+          "descricao": "Nome oficial da atual República Democrática do Congo de 1971 a 1997, sob o regime de Mobutu.",
+          "variantes": [
+            "República do Zaire"
+          ]
+        },
+        {
+          "id": "republica_democratica_do_congo",
+          "nome": "República Democrática do Congo",
+          "descricao": "País da África Central, antigo Zaire, cuja capital é Kinshasa.",
+          "variantes": [
+            "RD Congo",
+            "Congo-Kinshasa",
+            "Zaire",
+            "RDC"
+          ]
+        },
+        {
+          "id": "iraque",
+          "nome": "Iraque",
+          "descricao": "País da Ásia Ocidental, na antiga Mesopotâmia, com capital em Bagdá.",
+          "variantes": [
+            "República do Iraque"
+          ]
+        },
+        {
+          "id": "mali",
+          "nome": "Mali",
+          "descricao": "País sem litoral da África Ocidental, com capital em Bamako.",
+          "variantes": [
+            "República do Mali"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Segundo Império Mexicano."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A Companhia das Índias Ocidentais (WIC) é diferente da Companhia das Índias Orientais (VOC)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Grão-Ducado da Toscana."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A companhia britânica é diferente da holandesa (VOC)."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Hetmanato Cossaco."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O Reino da Grécia não é igual ao Brasão da Grécia nem a nenhuma outra candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Império do Vietnã."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "zaire",
+      "motivo": "A candidata 'zaire' descreve o mesmo Estado, o Zaire de Mobutu (1971-1997), com a mesma variante. A RDC atual é outra entidade."
+    }
+  ]
+}

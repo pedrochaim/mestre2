@@ -1235,9 +1235,10 @@
     "fig_objetos_trajes_018",
     "fig_mapas_localizacao_012",
     "fig_frutas_ingredientes_025",
-    "fig_transportes_019"
+    "fig_transportes_019",
+    "fig_bandeiras_historicas_005"
   ],
-  "maior_id": 20036,
+  "maior_id": 20044,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -2140,16 +2141,16 @@
     },
     "bandeiras_historicas": {
       "familias": {
-        "onde": 10,
-        "quando": 10,
-        "com_o_que_se_liga": 12
+        "onde": 13,
+        "quando": 12,
+        "com_o_que_se_liga": 15
       },
       "niveis": {
-        "1": 13,
-        "2": 13,
-        "3": 6
+        "1": 16,
+        "2": 17,
+        "3": 7
       },
-      "registradas": 32
+      "registradas": 40
     }
   },
   "rendimento": {
