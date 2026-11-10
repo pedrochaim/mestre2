@@ -391441,5 +391441,855 @@
       "autor": "Burkhard Mücke",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q19750",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "chaves",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano o seriado Chaves começou a ser exibido no Brasil pelo SBT?",
+    "resposta": "1984",
+    "distratores": [
+      "1979",
+      "1988",
+      "1991"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/El_Chavo_del_Ocho"
+    ]
+  },
+  {
+    "id": "q19751",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "lisa_simpson",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Matt Groening tirou da própria família os nomes dos Simpsons. A Lisa ganhou o nome de quem?",
+    "resposta": "Da irmã dele",
+    "distratores": [
+      "Da mãe dele",
+      "Da filha dele",
+      "Da avó dele"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lisa_Simpson"
+    ]
+  },
+  {
+    "id": "q19752",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "bob_esponja_calca_quadrada",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Bob Esponja quase se chamou SpongeBoy, mas o nome teve de mudar porque já era marca registrada de que produto?",
+    "resposta": "Um esfregão",
+    "distratores": [
+      "Uma esponja de banho",
+      "Um sabão em pó",
+      "Um detergente"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/SpongeBob_SquarePants_(character)",
+      "https://en.wikipedia.org/wiki/SpongeBob_SquarePants"
+    ]
+  },
+  {
+    "id": "q19753",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "breaking_bad",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em Breaking Bad, Walter White adota o codinome Heisenberg, sobrenome de um físico alemão famoso por qual princípio?",
+    "resposta": "Princípio da incerteza",
+    "distratores": [
+      "Princípio da exclusão",
+      "Princípio da relatividade",
+      "Princípio da equivalência"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Walter_White_(Breaking_Bad)",
+      "https://en.wikipedia.org/wiki/Uncertainty_principle"
+    ]
+  },
+  {
+    "id": "q19754",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "better_call_saul",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do advogado trapaceiro Saul Goodman soa, em inglês, como uma frase do dia a dia. O que ela significa?",
+    "resposta": "Está tudo bem, cara",
+    "distratores": [
+      "Chame o advogado",
+      "Sempre há uma saída",
+      "Liberdade para todos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saul_Goodman"
+    ]
+  },
+  {
+    "id": "q19755",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "a_familia_addams",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Wandinha Addams se chama Wednesday no original por causa de uma cantiga inglesa em que a criança nascida na quarta-feira é cheia de quê?",
+    "resposta": "Tristeza",
+    "distratores": [
+      "Graça",
+      "Alegria",
+      "Sorte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wednesday_Addams",
+      "https://en.wikipedia.org/wiki/Monday%27s_Child"
+    ]
+  },
+  {
+    "id": "q19756",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "black_mirror",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Segundo o criador Charlie Brooker, o espelho negro do título Black Mirror é o quê?",
+    "resposta": "A tela de um aparelho",
+    "distratores": [
+      "Um espelho mágico",
+      "Um buraco negro",
+      "Um quadro escuro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_Mirror",
+      "https://pt.wikipedia.org/wiki/Black_Mirror"
+    ]
+  },
+  {
+    "id": "q19757",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "todo_mundo_odeia_o_chris",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O título Todo Mundo Odeia o Chris é uma paródia do nome de qual outra sitcom americana?",
+    "resposta": "Todo Mundo Ama o Raymond",
+    "distratores": [
+      "Eu Amo a Lucy",
+      "Um Amor de Família",
+      "Malcolm"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Everybody_Hates_Chris"
+    ]
+  },
+  {
+    "id": "q19758",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "familia_dinossauros",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O sobrenome da Família Dinossauros, Sinclair, vem de uma empresa americana que tem um dinossauro na logomarca. De que ramo é essa empresa?",
+    "resposta": "Petróleo",
+    "distratores": [
+      "Cereais matinais",
+      "Brinquedos",
+      "Automóveis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dinosaurs_(TV_series)",
+      "https://en.wikipedia.org/wiki/Sinclair_Oil_Corporation"
+    ]
+  },
+  {
+    "id": "q19759",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "alf",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do extraterrestre ALF, que vive escondido com a família Tanner, é uma sigla em inglês. O que ela significa?",
+    "resposta": "Forma de vida alienígena",
+    "distratores": [
+      "Amigo lá de fora",
+      "Alienígena louco e feliz",
+      "Animal de longe"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/ALF_(TV_series)"
+    ]
+  },
+  {
+    "id": "q19760",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "os_simpsons",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A casa da família Simpson, em Springfield, fica na rua Evergreen Terrace. Em que número?",
+    "resposta": "742",
+    "distratores": [
+      "724",
+      "1313",
+      "221"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/742_Evergreen_Terrace"
+    ]
+  },
+  {
+    "id": "q19761",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "lost",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em Lost, os sobreviventes da ilha estavam a bordo do voo da companhia Oceanic de que número?",
+    "resposta": "815",
+    "distratores": [
+      "316",
+      "747",
+      "108"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oceanic_Flight_815"
+    ]
+  },
+  {
+    "id": "q19762",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "dark",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na série alemã Dark, os acontecimentos na cidade de Winden se repetem em ciclos de quantos anos?",
+    "resposta": "Trinta e três anos",
+    "distratores": [
+      "Vinte e sete anos",
+      "Quarenta anos",
+      "Cinquenta anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dark_(TV_series)"
+    ]
+  },
+  {
+    "id": "q19763",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "the_crown",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Ao longo das temporadas de The Crown, quantas atrizes diferentes interpretaram a rainha Elizabeth Segunda já adulta?",
+    "resposta": "Três",
+    "distratores": [
+      "Duas",
+      "Quatro",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Crown_(TV_series)"
+    ]
+  },
+  {
+    "id": "q19764",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "tom_e_jerry",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Antes de virarem clássicos da TV, os curtas de Tom e Jerry da MGM ganharam quantos Oscars de melhor curta de animação?",
+    "resposta": "Sete",
+    "distratores": [
+      "Dois",
+      "Quatro",
+      "Dez"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tom_and_Jerry"
+    ]
+  },
+  {
+    "id": "q19765",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "fawlty_towers",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Considerada uma das maiores comédias britânicas, Fawlty Towers, com John Cleese, teve quantos episódios ao todo?",
+    "resposta": "Doze",
+    "distratores": [
+      "Seis",
+      "Vinte e quatro",
+      "Quarenta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fawlty_Towers"
+    ]
+  },
+  {
+    "id": "q19766",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "o_prisioneiro",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na série O Prisioneiro, o agente preso na misteriosa Vila perde o nome e passa a ser chamado por um número. Qual?",
+    "resposta": "Seis",
+    "distratores": [
+      "Um",
+      "Dois",
+      "Sete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Prisoner",
+      "https://en.wikipedia.org/wiki/Number_Six_(The_Prisoner)"
+    ]
+  },
+  {
+    "id": "q19767",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "the_big_bang_theory",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em The Big Bang Theory, quando Sheldon bate à porta de Penny, ele bate e diz o nome dela quantas vezes seguidas?",
+    "resposta": "Três",
+    "distratores": [
+      "Duas",
+      "Quatro",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sheldon_Cooper"
+    ]
+  },
+  {
+    "id": "q19768",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "friends",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Logo depois do fim de Friends, em 2004, qual dos seis amigos ganhou uma série própria, passada em Los Angeles?",
+    "resposta": "Joey Tribbiani",
+    "distratores": [
+      "Chandler Bing",
+      "Phoebe Buffay",
+      "Ross Geller"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joey_(TV_series)"
+    ]
+  },
+  {
+    "id": "q19769",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "the_office_serie_americana",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A versão americana de The Office adapta uma série britânica criada e estrelada por qual comediante?",
+    "resposta": "Ricky Gervais",
+    "distratores": [
+      "Steve Carell",
+      "Rowan Atkinson",
+      "Sacha Baron Cohen"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Office_(British_TV_series)",
+      "https://en.wikipedia.org/wiki/The_Office_(American_TV_series)"
+    ]
+  },
+  {
+    "id": "q19770",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "os_flintstones",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O desenho Os Flintstones foi inspirado em qual sitcom americana dos anos cinquenta, sobre um motorista de ônibus e seu vizinho?",
+    "resposta": "The Honeymooners",
+    "distratores": [
+      "I Love Lucy",
+      "Papai Sabe Tudo",
+      "Leave It to Beaver"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Flintstones"
+    ]
+  },
+  {
+    "id": "q19771",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "monty_python",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A palavra spam, usada para mensagens indesejadas na internet, foi tirada de um quadro de que grupo de humor britânico?",
+    "resposta": "Monty Python",
+    "distratores": [
+      "The Goons",
+      "The Goodies",
+      "The Two Ronnies"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spam_(Monty_Python_sketch)",
+      "https://en.wikipedia.org/wiki/Spamming"
+    ]
+  },
+  {
+    "id": "q19772",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "power_rangers_mighty_morphin",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "As cenas de luta dos Power Rangers uniformizados foram aproveitadas de qual franquia japonesa de heróis?",
+    "resposta": "Super Sentai",
+    "distratores": [
+      "Ultraman",
+      "Kamen Rider",
+      "Jaspion"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers",
+      "https://en.wikipedia.org/wiki/Super_Sentai"
+    ]
+  },
+  {
+    "id": "q19773",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "the_last_of_us_serie",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que ator de origem chilena vive Joel na série The Last of Us e também o caçador de recompensas de The Mandalorian?",
+    "resposta": "Pedro Pascal",
+    "distratores": [
+      "Oscar Isaac",
+      "Diego Luna",
+      "Gael García Bernal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pedro_Pascal"
+    ]
+  },
+  {
+    "id": "q19774",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "manoel_carlos",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Nas novelas de Manoel Carlos, como Laços de Família e Mulheres Apaixonadas, a protagonista costuma ter sempre o mesmo nome. Qual?",
+    "resposta": "Helena",
+    "distratores": [
+      "Laura",
+      "Clara",
+      "Luísa"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Manoel_Carlos"
+    ]
+  },
+  {
+    "id": "q19775",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "william_bonner",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que jornalista dividiu com William Bonner a bancada do Jornal Nacional e também foi casada com ele?",
+    "resposta": "Fátima Bernardes",
+    "distratores": [
+      "Renata Vasconcellos",
+      "Patrícia Poeta",
+      "Sandra Annenberg"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/William_Bonner",
+      "https://pt.wikipedia.org/wiki/F%C3%A1tima_Bernardes"
+    ]
+  },
+  {
+    "id": "q19776",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "dona_florinda",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A atriz que viveu Dona Florinda, no seriado Chaves, foi por décadas companheira e depois esposa de quem?",
+    "resposta": "Roberto Gómez Bolaños",
+    "distratores": [
+      "Ramón Valdés",
+      "Carlos Villagrán",
+      "Rubén Aguirre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Florinda_Meza",
+      "https://pt.wikipedia.org/wiki/Florinda_Meza"
+    ]
+  },
+  {
+    "id": "q19777",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "jeannie_e_um_genio",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O ator que vivia o astronauta Tony Nelson, amo da gênia em Jeannie é um Gênio, depois virou o vilão J.R. em qual série?",
+    "resposta": "Dallas",
+    "distratores": [
+      "Dinastia",
+      "Falcon Crest",
+      "Bonanza"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Larry_Hagman",
+      "https://en.wikipedia.org/wiki/I_Dream_of_Jeannie"
+    ]
+  },
+  {
+    "id": "q19778",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "a_praca_e_nossa",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A Praça É Nossa retomou a antiga Praça da Alegria, criada nos anos cinquenta por que parente do apresentador Carlos Alberto de Nóbrega?",
+    "resposta": "O pai dele",
+    "distratores": [
+      "O avô dele",
+      "O tio dele",
+      "O irmão dele"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/A_Pra%C3%A7a_%C3%89_Nossa",
+      "https://pt.wikipedia.org/wiki/Carlos_Alberto_de_N%C3%B3brega"
+    ]
+  },
+  {
+    "id": "q19779",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "jaiminho_o_carteiro",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "No seriado Chaves, o carteiro Jaiminho, que evita a fadiga, vive lembrando que nasceu em qual cidade mexicana?",
+    "resposta": "Tangamandápio",
+    "distratores": [
+      "Guadalajara",
+      "Acapulco",
+      "Monterrey"
+    ],
+    "fonte": [
+      "https://es.wikipedia.org/wiki/Tangamandapio",
+      "https://en.wikipedia.org/wiki/Tangamandapio"
+    ]
+  },
+  {
+    "id": "q19780",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "coragem_o_cao_covarde",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O cão Coragem vive com o casal Muriel e Eustácio numa fazenda isolada, no meio do nada, em que estado americano?",
+    "resposta": "Kansas",
+    "distratores": [
+      "Texas",
+      "Nebraska",
+      "Oklahoma"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog"
+    ]
+  },
+  {
+    "id": "q19781",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "roque_santeiro",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A novela Roque Santeiro, com a Viúva Porcina e Sinhozinho Malta, se passa em que cidade fictícia?",
+    "resposta": "Asa Branca",
+    "distratores": [
+      "Sucupira",
+      "Santana do Agreste",
+      "Bole-Bole"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Roque_Santeiro"
+    ]
+  },
+  {
+    "id": "q19782",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "escrava_isaura_telenovela_de_1976",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Nos anos oitenta, a novela Escrava Isaura fez um sucesso gigantesco e tornou Lucélia Santos uma estrela em qual país asiático?",
+    "resposta": "China",
+    "distratores": [
+      "Japão",
+      "Índia",
+      "Coreia do Sul"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luc%C3%A9lia_Santos",
+      "https://pt.wikipedia.org/wiki/Escrava_Isaura_(telenovela_de_1976)"
+    ]
+  },
+  {
+    "id": "q19783",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "as_meninas_superpoderosas",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Além de açúcar, tempero e tudo que há de bom, que ingrediente o Professor Utônio derramou por acidente ao criar as Meninas Superpoderosas?",
+    "resposta": "Elemento X",
+    "distratores": [
+      "Elemento Z",
+      "Pó mágico",
+      "Raio gama"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Powerpuff_Girls"
+    ]
+  },
+  {
+    "id": "q19784",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "la_casa_de_papel",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Em La Casa de Papel, os assaltantes de macacão vermelho escondem o rosto com máscaras de qual pintor espanhol?",
+    "resposta": "Salvador Dalí",
+    "distratores": [
+      "Pablo Picasso",
+      "Joan Miró",
+      "Francisco de Goya"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Money_Heist"
+    ]
+  },
+  {
+    "id": "q19785",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "pantanal_telenovela_de_1990",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na primeira versão da novela Pantanal, em 1990, a selvagem Juma Marruá, que diziam virar onça, foi vivida por que atriz?",
+    "resposta": "Cristiana Oliveira",
+    "distratores": [
+      "Alanis Guillen",
+      "Ingra Lyberato",
+      "Luciana Braga"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pantanal_(telenovela_de_1990)",
+      "https://pt.wikipedia.org/wiki/Cristiana_Oliveira"
+    ]
+  },
+  {
+    "id": "q19786",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "sex_and_the_city",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A série Sex and the City nasceu de uma coluna de jornal, depois reunida em livro, de qual escritora americana?",
+    "resposta": "Candace Bushnell",
+    "distratores": [
+      "Sarah Jessica Parker",
+      "Helen Fielding",
+      "Lauren Weisberger"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Candace_Bushnell",
+      "https://en.wikipedia.org/wiki/Sex_and_the_City"
+    ]
+  },
+  {
+    "id": "q19787",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "pantera_cor_de_rosa",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que compositor americano criou o famoso tema musical de jazz que acompanha a Pantera Cor-de-Rosa?",
+    "resposta": "Henry Mancini",
+    "distratores": [
+      "John Williams",
+      "Quincy Jones",
+      "Burt Bacharach"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Pink_Panther_Theme"
+    ]
+  },
+  {
+    "id": "q19788",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "big_brother",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O formato Big Brother foi criado em 1999, na Holanda, pela produtora de qual empresário de televisão?",
+    "resposta": "John de Mol",
+    "distratores": [
+      "Simon Cowell",
+      "Mark Burnett",
+      "Charlie Parsons"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Big_Brother_(franchise)",
+      "https://en.wikipedia.org/wiki/John_de_Mol_Jr."
+    ]
+  },
+  {
+    "id": "q19789",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "pica_pau",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Conta a lenda que o Pica-Pau nasceu de um pássaro barulhento que bicava o telhado e atrapalhou que momento da vida de Walter Lantz?",
+    "resposta": "A lua de mel",
+    "distratores": [
+      "Uma gravação de rádio",
+      "A estreia de um filme",
+      "Um piquenique em família"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pica-Pau_%28personagem%29",
+      "https://en.wikipedia.org/wiki/Woody_Woodpecker"
+    ]
+  },
+  {
+    "id": "q19790",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "dana_scully",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Na segunda temporada de Arquivo X, a agente Scully é abduzida e some por alguns episódios. Que fato da vida real motivou esse enredo?",
+    "resposta": "A gravidez de Gillian Anderson",
+    "distratores": [
+      "Uma briga por salário",
+      "As filmagens de um filme",
+      "Uma cirurgia da atriz"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dana_Scully",
+      "https://en.wikipedia.org/wiki/Ascension_(The_X-Files)"
+    ]
+  },
+  {
+    "id": "q19791",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "big_brother_brasil_1",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Poucas semanas antes do primeiro Big Brother Brasil, qual reality show do SBT, com famosos confinados numa mansão, bateu recorde de audiência?",
+    "resposta": "Casa dos Artistas",
+    "distratores": [
+      "A Fazenda",
+      "No Limite",
+      "Hipertensão"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Casa_dos_Artistas",
+      "https://pt.wikipedia.org/wiki/Big_Brother_Brasil_1"
+    ]
+  },
+  {
+    "id": "q19792",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "doctor_who",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Em Doctor Who, a TARDIS, a nave que viaja no tempo, é por dentro enorme. Por fora, ela tem a aparência de quê?",
+    "resposta": "Uma cabine de polícia azul",
+    "distratores": [
+      "Uma cabine telefônica vermelha",
+      "Um ônibus de dois andares",
+      "Uma caixa de correio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/TARDIS"
+    ]
+  },
+  {
+    "id": "q19793",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "chacrinha",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que alimento o Chacrinha tinha o costume de atirar para a plateia nos seus programas de auditório?",
+    "resposta": "Bacalhau",
+    "distratores": [
+      "Pipoca",
+      "Pão francês",
+      "Linguiça"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Chacrinha"
+    ]
+  },
+  {
+    "id": "q19794",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "a_feiticeira",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Na série A Feiticeira, que gesto a bruxa Samantha faz para lançar seus feitiços?",
+    "resposta": "Mexe o nariz",
+    "distratores": [
+      "Pisca os olhos",
+      "Estala os dedos",
+      "Bate palmas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bewitched"
+    ]
+  },
+  {
+    "id": "q19795",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "bonanza",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Dos três filhos de Ben Cartwright, em Bonanza, qual era o gigante bonachão, o mais forte e corpulento?",
+    "resposta": "Hoss",
+    "distratores": [
+      "Adam",
+      "Little Joe",
+      "Candy"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bonanza",
+      "https://en.wikipedia.org/wiki/Dan_Blocker"
+    ]
   }
 ]

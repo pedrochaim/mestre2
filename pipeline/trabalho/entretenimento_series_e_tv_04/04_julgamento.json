@@ -1,0 +1,182 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Manoel Carlos",
+        "descricao": "Novelista brasileiro, autor de novelas da Globo como Laços de Família, Mulheres Apaixonadas e Viver a Vida.",
+        "variantes": [
+          "Maneco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mabeco",
+          "nome": "Mabeco",
+          "descricao": "Canídeo selvagem da África subsaariana (Lycaon pictus), de pelagem manchada em preto, amarelo e branco.",
+          "variantes": [
+            "Cão-selvagem-africano",
+            "Cão-pintado",
+            "Licaão",
+            "Lycaon pictus"
+          ]
+        },
+        {
+          "id": "romanesco",
+          "nome": "Romanesco",
+          "descricao": "Hortaliça verde-limão, cultivar de couve-flor (Brassica oleracea), de botões em forma de fractal.",
+          "variantes": [
+            "Brócolis romanesco",
+            "Couve-flor romanesca"
+          ]
+        },
+        {
+          "id": "magneto",
+          "nome": "Magneto",
+          "descricao": "Vilão mutante da Marvel, de capacete vermelho e roxo, que controla o magnetismo.",
+          "variantes": [
+            "Erik Lehnsherr",
+            "Erik Magnus Lensherr"
+          ]
+        },
+        {
+          "id": "tamanco",
+          "nome": "Tamanco",
+          "descricao": "Calçado de solado grosso e rígido, tradicionalmente de madeira, aqui com tira no tornozelo.",
+          "variantes": [
+            "Clog"
+          ]
+        },
+        {
+          "id": "ima",
+          "nome": "Ímã",
+          "descricao": "Objeto que produz um campo magnético e atrai materiais ferromagnéticos; aqui, um ímã em barra com polos marcados.",
+          "variantes": [
+            "Magneto",
+            "Magnete",
+            "Magnet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Jeannie é um Gênio",
+        "descricao": "Sitcom americana exibida de 1965 a 1970, sobre uma gênia saída de uma garrafa que passa a viver com um astronauta.",
+        "variantes": [
+          "I Dream of Jeannie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "lupa",
+          "nome": "Lupa",
+          "descricao": "Lente convexa montada em armação com cabo, usada para ampliar a imagem de objetos.",
+          "variantes": [
+            "Lente de aumento",
+            "Vidro de aumento"
+          ]
+        },
+        {
+          "id": "dream_eater",
+          "nome": "Dream Eater",
+          "descricao": "Golpe de pokémon do tipo Psíquico, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "canone_de_pachelbel",
+          "nome": "Cânone de Pachelbel",
+          "descricao": "Cânone em ré maior do compositor barroco alemão Johann Pachelbel, muito tocado em casamentos.",
+          "variantes": [
+            "Cânone em Ré",
+            "Canon in D",
+            "Cânone em ré maior"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "A Feiticeira",
+        "descricao": "Sitcom americana exibida de 1964 a 1972, Bewitched, sobre a bruxa Samantha, casada com um publicitário comum.",
+        "variantes": [
+          "Bewitched"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "formiga_feiticeira",
+          "nome": "Formiga-feiticeira",
+          "descricao": "Vespa da família Mutillidae cuja fêmea, sem asas e peluda, parece uma formiga.",
+          "variantes": [
+            "Formiga-de-veludo",
+            "Mutilídeo"
+          ]
+        },
+        {
+          "id": "the_witcher_serie_de_jogos",
+          "nome": "The Witcher (série de jogos)",
+          "descricao": "Série de jogos de RPG do estúdio polonês CD Projekt, protagonizada pelo caçador de monstros Geralt de Rívia.",
+          "variantes": [
+            "The Witcher",
+            "Wiedźmin"
+          ]
+        },
+        {
+          "id": "la_fenice",
+          "nome": "La Fenice",
+          "descricao": "Teatro de ópera de Veneza, inaugurado em 1792 e reconstruído após incêndios, o último em 1996.",
+          "variantes": [
+            "Teatro La Fenice",
+            "Gran Teatro La Fenice"
+          ]
+        },
+        {
+          "id": "bia_ferreira",
+          "nome": "Bia Ferreira",
+          "descricao": "Boxeadora brasileira, prata em Tóquio 2020 e bronze em Paris 2024 nos 60 kg.",
+          "variantes": [
+            "Beatriz Ferreira",
+            "Beatriz Iasmin Soares Ferreira"
+          ]
+        },
+        {
+          "id": "nintendo_switch",
+          "nome": "Nintendo Switch",
+          "descricao": "Console de videogame híbrido da Nintendo, lançado em 2017, que funciona como portátil ou conectado à TV.",
+          "variantes": [
+            "Switch"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o novelista Manoel Carlos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a sitcom Jeannie é um Gênio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a sitcom A Feiticeira."
+    }
+  ]
+}

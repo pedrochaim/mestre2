@@ -1,0 +1,422 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A origem do 'Ocho' é disputada (número do apartamento, canal 8 etc.) e os trechos não sustentam a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte era desambiguação e o ano 1984 não aparece nos trechos; troca de fonte e remoção do floreio.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que ano o seriado Chaves começou a ser exibido no Brasil pelo SBT?",
+        "resposta": "1984",
+        "distratores": [
+          "1979",
+          "1988",
+          "1991"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/El_Chavo_del_Ocho"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome de Lisa em homenagem à irmã de Groening, confirmado pelo artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado: SpongeBoy era marca de um esfregão.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Heisenberg e o princípio da incerteza, com distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Trocadilho com 'It's all good, man', amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cantiga 'Wednesday's child is full of woe' sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tela desligada' não é o que Brooker diz (tela fria e brilhante de TV, monitor, celular) e o distrator 'janela escura' confunde.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Segundo o criador Charlie Brooker, o espelho negro do título Black Mirror é o quê?",
+        "resposta": "A tela de um aparelho",
+        "distratores": [
+          "Um espelho mágico",
+          "Um buraco negro",
+          "Um quadro escuro"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Black_Mirror",
+          "https://pt.wikipedia.org/wiki/Black_Mirror"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paródia de Everybody Loves Raymond confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sinclair Oil e petróleo confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "ALF = Alien Life Form, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A história das lâminas nos bonés é teoria contestada; afirmar como fato é impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Artistas do Renascimento, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "742 Evergreen Terrace confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Voo Oceanic 815 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "O título Game of Thrones não diz o número de reinos; o enunciado é falso.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ciclos de 33 anos sustentados pelo artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Foy, Colman e Staunton: três atrizes adultas.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sete Oscars, confirmado no artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doze episódios confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Número Seis confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado confuso sobre o que se repete; esclarecer o gesto de bater e chamar.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Em The Big Bang Theory, quando Sheldon bate à porta de Penny, ele bate e diz o nome dela quantas vezes seguidas?",
+        "resposta": "Três",
+        "distratores": [
+          "Duas",
+          "Quatro",
+          "Cinco"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sheldon_Cooper"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Joey, spin-off em Los Angeles, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ricky Gervais criou e estrelou a versão britânica.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "The Honeymooners confirmado como inspiração.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem de spam no quadro do Monty Python confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Super Sentai confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedro Pascal, chileno-americano, Joel e Mandaloriano.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Helena confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fátima Bernardes, apresentadora do JN e ex-esposa de Bonner.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Florinda Meza e Gómez Bolaños, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Larry Hagman e Dallas confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Praça da Alegria de Manuel de Nóbrega, pai de Carlos Alberto.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tangamandápio confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kansas confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Asa Branca confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sucesso e prêmio na China confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Elemento X confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Máscaras de Dalí confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cristiana Oliveira como Juma em 1990 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Candace Bushnell confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Henry Mancini confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "John de Mol confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A história vem de um agente de imprensa, não de Lantz diretamente; atribuir como lenda.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Conta a lenda que o Pica-Pau nasceu de um pássaro barulhento que bicava o telhado e atrapalhou que momento da vida de Walter Lantz?",
+        "resposta": "A lua de mel",
+        "distratores": [
+          "Uma gravação de rádio",
+          "A estreia de um filme",
+          "Um piquenique em família"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pica-Pau_%28personagem%29",
+          "https://en.wikipedia.org/wiki/Woody_Woodpecker"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gravidez de Gillian Anderson confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Meses antes' é impreciso (terminou semanas antes) e 'casa' vaza o título.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Poucas semanas antes do primeiro Big Brother Brasil, qual reality show do SBT, com famosos confinados numa mansão, bateu recorde de audiência?",
+        "resposta": "Casa dos Artistas",
+        "distratores": [
+          "A Fazenda",
+          "No Limite",
+          "Hipertensão"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Casa_dos_Artistas",
+          "https://pt.wikipedia.org/wiki/Big_Brother_Brasil_1"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "TARDIS como cabine de polícia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bacalhau confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Torcidinha do nariz confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hoss, o gigante amável, confirmado.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,2026 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Séries e TV** (tema **Entretenimento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Chaves",
+      "descricao": "Seriado humorístico mexicano criado por Roberto Gómez Bolaños, sobre um menino que vive numa vila."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "No título original do seriado Chaves, El Chavo del Ocho, a palavra ocho se refere a quê?",
+    "resposta": "Ao Canal 8 da TV mexicana",
+    "distratores": [
+      "À idade do menino",
+      "Ao número do barril",
+      "Ao horário de exibição"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/El_Chavo_del_Ocho",
+      "https://pt.wikipedia.org/wiki/Chaves"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/El_Chavo_del_Ocho",
+        "situacao": "ok",
+        "texto": "El Chavo, originally and still often known as El Chavo del Ocho, is a Mexican television sitcom created by Roberto Gómez Bolaños and produced by Televisa. It premiered on February 26, 1973, and concluded on January 7, 1980, after 7 seasons and 312 episodes, and aired across Latin America and Spain.\n[…]\nRoberto Gómez Bolaños as El Chavo\n[…]\nRoberto Gómez Bolaños was the show's main creator and star. He first called Florinda Meza to act in the show; Chespirito and Meza later married. Vivar was the second actor chosen for the show. A mutual friend recommended Vivar to Gómez Bolaños when he started casting. Gómez Bolaños cited Vivar at Forum 8 at Telesistema Mexicano – where the shooting was taking place. Vivar showed up as a scene was shooting; he laughed, and the scene had to 'cut'.\n[…]\nOn January 8, 1973, Telesistema Mexicano and Televisión Independiente de México merged to become Televisa. After the merger, on February 26, 1973, El Chavo del Ocho premiered as a half-hour weekly television series.\n[…]\nÉdgar Vivar participated in the movie The Orphanage (2007) and the telenovela Para volver a amar (2010). Regarding his participation in El Chavo del 8, Vivar mentioned it gave him \"nostalgia and good feelings [..] to have met so many people, traveled to so many places\". Referencing the show's broadcast, he said: \"It is a luxury that not everyone has the opportunity to experience\".\n[…]\nIn El Salvador, the same character (Don Ramón) served as an image for a civil campaign in 2010, which promoted Salvadorians not to pay extortion to gang members to guarantee their safety. In mid-2012, the character of Jaimito el Cartero was recognized with a bronze statue in the Mexican municipality of Tangamandapio, Michoacán, where the character was from in El Chavo del 8.\n[…]\nEl Chavo del Ocho at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chaves",
+        "situacao": "desambiguacao",
+        "texto": "Chaves pode referir-se a:\nPlural de chave\n\n\n== Portugal ==\nChaves (Portugal) — cidade e município no distrito de Vila Real\nDiocese de Águas Flávias — diocese titular católica sediada em Chaves\nGrupo Desportivo de Chaves\n\n\n== Brasil ==\nChaves (Pará) — município\n\n\n== Ficção ==\nEl Chavo del Ocho — série de televisão mexicana intitulada Chaves no Brasil e em Angola\nEl Chavo (personagem) — personagem d"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Chaves",
+      "descricao": "Seriado humorístico mexicano criado por Roberto Gómez Bolaños, sobre um menino que vive numa vila."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Campeão de reprises, o seriado Chaves começou a ser exibido no Brasil pelo SBT em que ano?",
+    "resposta": "1984",
+    "distratores": [
+      "1979",
+      "1988",
+      "1991"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Chaves"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chaves",
+        "situacao": "desambiguacao",
+        "texto": "Chaves pode referir-se a:\nPlural de chave\n\n\n== Portugal ==\nChaves (Portugal) — cidade e município no distrito de Vila Real\nDiocese de Águas Flávias — diocese titular católica sediada em Chaves\nGrupo Desportivo de Chaves\n\n\n== Brasil ==\nChaves (Pará) — município\n\n\n== Ficção ==\nEl Chavo del Ocho — série de televisão mexicana intitulada Chaves no Brasil e em Angola\nEl Chavo (personagem) — personagem d"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Lisa Simpson",
+      "descricao": "Filha do meio, inteligente e saxofonista, da família do desenho Os Simpsons."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Matt Groening tirou da própria família os nomes dos Simpsons. A Lisa ganhou o nome de quem?",
+    "resposta": "Da irmã dele",
+    "distratores": [
+      "Da mãe dele",
+      "Da filha dele",
+      "Da avó dele"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lisa_Simpson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lisa_Simpson",
+        "situacao": "ok",
+        "texto": "Lisa Marie Simpson is a fictional character and one of the main protagonists in the animated television sitcom series The Simpsons. She is the middle child of the Simpson family. Voiced by Yeardley Smith, Lisa was born as a character in The Tracey Ullman Show short \"Good Night\" on April 19, 1987. Cartoonist Matt Groening created and designed her while waiting to meet James L. Brooks.\n[…]\nBecause of her unusual, pointed hairstyle, many animators consider Lisa the most difficult Simpsons character to draw.\n[…]\nMatt Groening conceived Lisa and the rest of the Simpson family in 1986 in the lobby of producer James L. Brooks's office. Groening had been called in to pitch a series of animated shorts for The Tracey Ullman Show and had intended to present an adaptation of his Life in Hell comic strip.\n[…]\n\"If I had to be associated with one character in fiction,\" she said, \"I will always be thrilled that it was Lisa Simpson.\" Matt Groening has described Smith as being very similar to Lisa: \"Yeardley has strong moral views about her character.\n[…]\nOn April 9, 2009, the United States Postal Service unveiled a series of five 44-cent stamps featuring Lisa and the four other members of the nuclear Simpson family. They are the first characters from a television series to receive this recognition while still in production. The stamps, designed by Matt Groening, went on sale in May 2009.\n[…]\nGroening, Matt (October 28, 2010). Richmond, Ray; Gimple, Scott M.; McCann, Jessie L.; Seghers, Christine; Bates, James W. (eds.). Simpsons World: The Ultimate Episode Guide: Seasons 1–20 (1st ed.). HarperCollins. ISBN 9780061711282.\n[…]\nGroening, Matt (1991). The Simpsons Uncensored Family Album. HarperCollins. ISBN 978-0-06-096582-2.\n[…]\nGroening, Matt; Bill Morrison (2006). The Lisa Book. HarperCollins. ISBN 978-0-06-074823-4.\n[…]\nMedia related to Lisa Simpson at Wikimedia Commons\n[…]\nLisa Simpson on IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lisa_Simpson",
+        "situacao": "ok",
+        "texto": "Lisa Marie Simpson é uma personagem fictícia criada por Matt Groening para a série de televisão americana Os Simpsons. Seu nome é uma homenagem à irmã de Matt Groening, o criador do desenho. A voz original em inglês é de Yeardley Smith. No Brasil, foi dublada por Nair Amorim (primeira a sétima temporada), Priscila Amorim (oitava a décima quarta temporada) e Flávia Saddy (desde a décima quinta temp\n[…]\nLisa tem 8 anos, é a filha do meio de Homer Simpson e de Marge Bouvier, irmã de Maggie Simpson e de Bart Simpson. Seus avós são Mona Simpson, Abraham \"Abe\" Jebediah Simpson II (chamado de \"Vovô\"), Jackeline \"Jackie\" Bouvier e Clancy Bouvier.\n[…]\nAs convicções políticas de Lisa são geralmente liberais e contestadoras. Ela é vegetariana por motivos éticos (episódio “\"Lisa the Vegetarian\"”), feminista, ambientalista, apoia os direitos dos homossexuais e é uma defensora do movimento Tibete Livre. Lisa, assim como sua mãe, apoia o Partido Democrata. E embora frequente uma igreja cristã com a família, Lisa se converteu ao budismo no episódio \"She of Little Faith”.\n[…]\nLisa é muito inteligente e sensível, por isso se sente desconfortável dentro da família Simpson. Sua espiritualidade e compromisso com causas nobres muitas vezes ficam em desalinho com o resto da cidade. O conhecimento de Lisa abrange uma ampla gama de assuntos, da astronomia à literatura, e ela é notavelmente mais preocupada com assuntos do mundo do que a vida em Springfield. Lisa é uma amante da música, especialmente jazz.\n[…]\nA voz original de Lisa é feita por Yeardley Smith, enquanto a personagem foi dublada no Brasil por Nair Amorim da primeira temporada à sétima, Priscilla Amorim da oitava à décima terceira e desde esta temporada ao presente momento, por Flávia Saddy.\n[…]\nSite Oficial The Simpsons\n[…]\nOs Simpsons TV Oficial no Brasil\n[…]\nOs Simpson TV Oficial em Portugal",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Bob Esponja Calça Quadrada",
+      "descricao": "Série animada americana estreada em 1999, sobre uma esponja-do-mar amarela que trabalha numa lanchonete no fundo do mar."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Bob Esponja quase se chamou SpongeBoy, mas o nome teve de mudar porque já era marca registrada de que produto?",
+    "resposta": "Um esfregão",
+    "distratores": [
+      "Uma esponja de banho",
+      "Um sabão em pó",
+      "Um detergente"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/SpongeBob_SquarePants_(character)",
+      "https://en.wikipedia.org/wiki/SpongeBob_SquarePants"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants_(character)",
+        "situacao": "ok",
+        "texto": "SpongeBob SquarePants is a fictional character and the main protagonist of the Nickelodeon animated television series of the same name. He is characterized by his optimistic and childlike attitude. He lives in the fictional underwater city of Bikini Bottom, where he regularly gets into absurd and humorous situations. He is voiced by Tom Kenny.\n[…]\nSpongeBob is voiced by veteran voice actor Tom Kenny, who had worked previously with Hillenburg on Rocko's Modern Life. When Hillenburg created SpongeBob SquarePants, he approached Kenny to voice the character. Hillenburg used Kenny's and other people's personalities while creating SpongeBob's.\n[…]\nIn July 2009, the Madame Tussauds wax museum in New York City unveiled a wax sculpture of SpongeBob, the first fictional character to be featured there. In May 2011, a new species of mushroom, Spongiforma squarepantsii, named after SpongeBob, was described in the journal Mycologia.\n[…]\nIn Egypt's Tahrir Square, after the Egyptian Revolution of 2011, SpongeBob became a fashion phenomenon, appearing on various merchandise items from hijabs to boxer shorts. The phenomenon led to the creation of the Tumblr project called \"SpongeBob on the Nile\", founded by American students Andrew Leber and Elisabeth Jaquette, that attempts to document every appearance of SpongeBob in Egypt.\n[…]\nSpongeBob's translated well into related merchandise sales. In 2002, SpongeBob SquarePants dolls sold at a rate of 75,000 per week, which was faster than Tickle Me Elmo dolls were selling at the time. SpongeBob was popular in Japan, specifically with Japanese women. Nickelodeon's parent company Viacom purposefully targeted its marketing at women there as a way to build the SpongeBob SquarePants brand.\n[…]\nOn May 17, 2013, Build-A-Bear Workshop introduced a new SpongeBob SquarePants collection in stores and online in North America."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants",
+        "situacao": "ok",
+        "texto": "SpongeBob SquarePants, also known simply as SpongeBob, is an American animated comedy television series created by marine science educator and animator Stephen Hillenburg for Nickelodeon. It first aired as a sneak peek after the Kids' Choice Awards on May 1, 1999, and officially premiered on July 17, 1999. It follows the adventures of SpongeBob SquarePants, an anthropomorphic yellow sea sponge, an\n[…]\nIn 2026, the Universal Kids Resort in Frisco, Texas opened \"Nickelodeon's SpongeBob SquarePants Bikini Bottom\", a themed area with four rides.\n[…]\nMatt Schimkowitz, a senior editor for Know Your Meme, told Time magazine that a combination of factors make SpongeBob memes so popular. He speculated that nostalgia for the past, alongside the cartoon's young audience, contributed to SpongeBob SquarePants' outsized presence in Internet meme culture. Schimkowitz further added that memes derived from the series are exceptionally good at expressing emotions.\n[…]\nMichael Gold of The New York Times opined that because of the show's \"high episode count\" and that it was \"so ubiquitous at the beginning of the 21st century\", SpongeBob SquarePants became \"easy meme fodder\".\n[…]\nBanks, Steven (September 24, 2004). SpongeBob Exposed! The Insider's Guide to SpongeBob SquarePants. Schigiel, Gregg (Illustrator). Simon Spotlight/Nickelodeon. ISBN 978-0-689-86870-2.\n[…]\nBeck, Jerry (2013). The SpongeBob SquarePants Experience: A Deep Dive Into the World of Bikini Bottom. USA: Insight Editions. ISBN 978-1-4357-3248-3.\n[…]\nRhodes, Mina (February 6, 2008). \"SpongeBob SquarePants: To Love A Patty\". DVD Verdict. Archived from the original on February 8, 2008. Retrieved August 20, 2013.\n[…]\nZeus, Maxie (January 28, 2005). \"The Uncanny Brilliance of \"SpongeBob SquarePants\"\". Anime Superhero News. Archived from the original on July 24, 2020. Retrieved July 24, 2020.\n[…]\nSpongeBob SquarePants at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/SpongeBob_SquarePants_%28personagem%29",
+        "situacao": "ok",
+        "texto": "Bob Esponja Calça Quadrada (em inglês:SpongeBob SquarePants; Fenda do Biquíni, 14 de julho de 1986) é um personagem fictício e protagonista da série animada estadunidense homônima. O personagem é dublado em inglês pelo comediante Tom Kenny desde sua estreia juntamente com a série em 1 de maio de 1999.\n[…]\nLogo após o encerramento de Rocko's Modern Life, em 1996, Hilleburg passou a trabalhar no que mais tarde seria SpongeBob SquarePants. Seus primeiros esboços incluíam personagens previamente trabalhados, como estrelas do mar, crustáceos e a já relativamente famosa esponja. À época, Hillenburg percebeu que os programas de duplas cômicas estavam em alta tendência - a exemplo de The Ren & Stimpy Show - o que o levou a produzir algo centrado em um personagem único.\n[…]\nSegundo o próprio cartunista, o personagem principal é uma esponja por este ser o \"animal mais estranho\", desejando causar um impacto à época de seu lançamento. [carece de fontes]?\n[…]\nSegundo Stephen Hillenburg, criador da série, Bob Esponja nasceu em 14 de julho de 1986.\n[…]\nO primeiro esboço do personagem apresentava um chapéu vermelho e camisa branca com uma gravata. A aparência de SpongeBob evoluiu grandemente para calças cor caramelo que acabaram por eternizá-lo. SpongeBob foi concebido como um personagem de aparência infantil, inocente e alegre semelhante aos personagens interpretados por Jerry Lewis.\n[…]\nEm junho de 2020, a Nickelodeon publicou em seu Twitter uma mensagem celebrando o orgulho LGBT junto com imagens de alguns \"aliados\" dessa comunidade, entre os quais Bob Esponja. A especulação sobre a sexualidade de Bob Esponja já era antiga; em 2005, Stephen Hillenburg afirmara que Bob Esponja era assexual.\n[…]\nLista de personagens de SpongeBob SquarePants",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Breaking Bad",
+      "descricao": "Série americana criada por Vince Gilligan, sobre um professor de química que passa a produzir metanfetamina."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em Breaking Bad, Walter White adota o codinome Heisenberg, sobrenome de um físico alemão famoso por qual princípio?",
+    "resposta": "Princípio da incerteza",
+    "distratores": [
+      "Princípio da exclusão",
+      "Princípio da relatividade",
+      "Princípio da equivalência"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Walter_White_(Breaking_Bad)",
+      "https://en.wikipedia.org/wiki/Uncertainty_principle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Walter_White_(Breaking_Bad)",
+        "situacao": "ok",
+        "texto": "Walter Hartwell White, also known by his alias Heisenberg, is a fictional character and the protagonist of the American crime drama television series Breaking Bad. He is portrayed by Bryan Cranston.\n[…]\nWalter attempts to get back at her by making a pass at the principal at his school, who puts him on indefinite suspension.\n[…]\nIt's the same for us viewers: we get the neatness and the uncertainty, which shows a Heisenberg level of mastery.\" In their list for the \"Top 100 Villains\", IGN ranked Walter as #12, stating that \"Walter White is selfishness incarnate, and perhaps one of the greatest tragic figures to ever grace television, making his ultimate descent into villainy that much more compelling.\"\n[…]\nIn 2018, Paul MacInnes of The Guardian wrote: \"Despite all the Heisenberg T-shirts and mugs, Walter White didn't endure because of his villainy. If you were still on his side as he died, it was because of the humanity that poked out despite itself. In other words, it wasn't gunning down a load of white supremacists that made him cool, but being unwilling to shoot his long-suffering accomplice Jesse in the aftermath.\"\n[…]\nOver time Walter developed a cult following, spawning fan websites like \"Heisenberg Labs\", \"Walt's Wardrobe\", and \"Save Walter White\", which is an exact replica of the website Walter's son creates in the series to raise money to pay for his father's cancer treatments.\n[…]\nIn the Spanish-language remake of Breaking Bad, titled Metástasis, his character is renamed Walter Blanco (blanco being the Spanish translation of white) and is portrayed by Diego Trujillo. In 2024, he also appears in an anti-littering advertisement.\n[…]\nVICE – The Real Walter White\n[…]\nWalter White at AMC.com"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+        "situacao": "ok",
+        "texto": "The uncertainty principle, also known as Heisenberg's indeterminacy principle, is a fundamental concept in quantum mechanics. It states that there is a limit to the precision with which certain pairs of physical properties, such as position and momentum, can be simultaneously known. In other words, the more accurately one property is measured, the less accurately the other property can be known.\n[…]\nThe quantum entropic uncertainty principle is more restrictive than the Heisenberg uncertainty principle. From the inverse logarithmic Sobolev inequalities\n[…]\nHistorically, the uncertainty principle has been confused with a related effect in physics, called the observer effect, which notes that measurements of certain systems cannot be made without affecting the system, that is, without changing something in a system. Heisenberg used such an observer effect at the quantum level (see below) as a physical \"explanation\" of quantum uncertainty.\n[…]\nThe Copenhagen interpretation of quantum mechanics and Heisenberg's uncertainty principle were, in fact, initially seen as twin targets by detractors. According to the Copenhagen interpretation of quantum mechanics, there is no fundamental reality that the quantum state describes, just a prescription for calculating experimental results. There is no way to say what the state of a system fundamentally is, only what the result of observations might be.\n[…]\nSome scientists, including Arthur Compton and Martin Heisenberg, have suggested that the uncertainty principle, or at least the general probabilistic nature of quantum mechanics, could be evidence for the two-stage model of free will. One critique, however, is that apart from the basic role of quantum mechanics as a foundation for chemistry, nontrivial biological mechanisms requiring quantum mechanics are unlikely, due to the rapid decoherence time of quantum systems at room temperature."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Walter_White",
+        "situacao": "ok",
+        "texto": "Walter Hartwell White é um personagem fictício da série de televisão dramática norte-americana Breaking Bad. Foi criado por Vince Gilligan e é interpretado por Bryan Cranston. Walter era um químico promissor e um dos fundadores da bilionária empresa Gray Matter Technologies, porém logo saiu dela, vendendo suas partes nas ações por US$ 5 mil por razões pessoais, tornando-se um professor de química \n[…]\nDesesperado com o fato que sua família irá passar necessidades após sua morte, decide que fará qualquer coisa para que não sofram com isso. Impulsionado pelo desejo, adrenalina e medo de não oferecer dignidade a sua família, aproveita de suas habilidades e conhecimentos em química, a favor do crime. Com o decorrer da série, Walter gradualmente se torna sombrio e mais perverso, sofrendo uma significativa mudança psicológica em relação ao começo da série.\n[…]\nCom o tempo, Walter White desenvolveu um culto de seguidores, gerando sites de fãs como \"Heisenberg Labs\", \"Walt's Wardrobe\" e \"Save Walter White\", que é uma réplica exata do site criado por Walter White Jr. (filho de Mr. White), para arrecadar dinheiro para pagar pelos tratamentos contra o câncer de seu pai. Um videogame Breaking Bad estilo plataforma foi criado como uma homenagem a Walter White.\n[…]\nUm grupo de fãs de Breaking Bad colocou um obituário pago por Walter White no Jornal de Albuquerque em 4 de outubro de 2013. Em 19 de outubro de 2013, o ator Jackamoe Buzzell organizou uma procissão fúnebre simulada (incluindo um carro fúnebre e uma réplica do laboratório de metanfetamina de Walt RV) e serviço para o personagem foi realizada no cemitério de Sunset Memorial Park em Albuquerque.\n[…]\nWalter White em AMC.com\n[…]\nWalter White no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Better Call Saul",
+      "descricao": "Série americana de 2015, criada por Vince Gilligan e Peter Gould, sobre o advogado Jimmy McGill, que se torna Saul Goodman."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do advogado trapaceiro Saul Goodman soa, em inglês, como uma frase do dia a dia. O que ela significa?",
+    "resposta": "Está tudo bem, cara",
+    "distratores": [
+      "Chame o advogado",
+      "Sempre há uma saída",
+      "Liberdade para todos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saul_Goodman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Saul_Goodman",
+        "situacao": "ok",
+        "texto": "James Morgan McGill, better known by his alias Saul Goodman, is a fictional character created by Vince Gilligan and Peter Gould and portrayed by Bob Odenkirk in the Breaking Bad television franchise. He appears as a major character in Breaking Bad (2009–2013) and as the titular protagonist of its spin-offs Better Call Saul (2015–2022) and Slippin’ Jimmy (2022).\n[…]\nRhea Seehorn, who plays Kim Wexler, Jimmy's romantic interest in Better Call Saul, said that one aspect of Jimmy she incorporated into her acting was the spontaneity of Jimmy slipping into and out of the Saul Goodman character, or as Gould had described to her, \"right there at the moment\", a factor that for Kim and other associates of Jimmy can cause confusion and concern.\n[…]\nBreaking Bad established little of Saul's origins, but revealed that Saul Goodman was not his real name and that his real last name was McGill. This gave Gilligan, Gould, and Odenkirk a chance to flesh out more of Jimmy's backstory for Better Call Saul. Odenkirk and Gilligan set Jimmy's hometown as Chicagoland (specifically Cicero), in part as Odenkirk was from nearby Berwyn, as well as a homage to the notorious corruption in the political history of Chicago as inspiration for the character.\n[…]\nSaul continues to numbingly rake in the money as Walt's empire skyrockets.\n[…]\nJimmy is sent to a maximum security prison in Colorado, his sentence now 86 years. On the bus to prison, another inmate recognizes Jimmy as Saul Goodman and leads the other inmates in a chant of \"Better Call Saul\". Later, Kim visits Jimmy, who is now a cook in the prison kitchen, and they share a cigarette. He reveals that he has been giving legal advice to other inmates. In the prison yard, Jimmy gestures his signature finger guns at her as she leaves and silently stands in the prison yard.\n[…]\nSaul Goodman-Jimmy McGill at AMC"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Saul_Goodman",
+        "situacao": "ok",
+        "texto": "James Morgan McGill (também conhecido como Saul Goodman) é um personagem fictício na série de televisão americana Breaking Bad e no spin-off Better Call Saul na rede AMC. Saul (Bob Odenkirk) foi criado por Vince Gilligan e Peter Gould, um roterista da série. Durante a série, ele é o advogado e cumplice de Walter White e Jesse Pinkman. Seu nome é um jogo de palavras para melhor atrair clientes: \"[I\n[…]\nEle também é conhecido pelos seus comerciais de baixo orçamento na televisão e anúncios em Albuquerque, com seu slogan \"Better Call Saul\" (\"Melhor ligar pro Saul\").",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "A Família Addams",
+      "descricao": "Família macabra criada pelo cartunista Charles Addams, levada à TV em série de 1964 e depois ao cinema e ao streaming."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Wandinha Addams se chama Wednesday no original por causa de uma cantiga inglesa em que a criança nascida na quarta-feira é cheia de quê?",
+    "resposta": "Tristeza",
+    "distratores": [
+      "Graça",
+      "Alegria",
+      "Sorte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wednesday_Addams",
+      "https://en.wikipedia.org/wiki/Monday%27s_Child"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wednesday_Addams",
+        "situacao": "ok",
+        "texto": "Wednesday Friday Addams is a character from the Addams Family multimedia franchise created by American cartoonist Charles Addams. She is typically portrayed as a morbid and emotionally reserved child that is fascinated by the macabre, identified by her pale skin and black pigtails.\n[…]\nIn the web series Adult Wednesday Addams, Wednesday once more has the dark, sociopathic and sadistic nature of the 1991 and 1993 films (although, as with most versions of the character, any particularly brutal or horrific acts are only ever implied and off-camera) and her long braids, connecting with the events and the depiction of the films and the original cartoons. This Wednesday deals with being an adult after moving out of her family home.\n[…]\nMelissa Hunter: the web series Adult Wednesday Addams (2013–2015),\n[…]\nThe Addams Family (1991) and its sequel Addams Family Values (1993) depict a gloomier Wednesday, more akin to the original comics than the version originated in the 1960s television series. However, the films further develop Wednesday's character, depicting her as a considerably more macabre and sinister individual than the comics had previously established.\n[…]\nZoe Richardson appeared at the Birmingham Hippodrome as Wednesday Addams in a musical adaptation of The Addams Family on Ice in November 2007.\n[…]\nHowever, unlike previous incarnations, this Wednesday is also shown to possess supernatural abilities; with the series as a whole taking on more conventional fantasy elements than previous adaptations. Uniquely, Wednesday's family is also largely absent for much of the series, and in place of the close-knit familial bonds typical of the otherwise asocial character, instead interpersonal focus is placed upon newly formed friendships and a burgeoning love triangle."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Monday%27s_Child",
+        "situacao": "ok",
+        "texto": "\"Monday's Child\" is one of many fortune-telling songs, popular as nursery rhymes for children. It is supposed to tell a child's character or future from their day of birth and to help young children remember the seven days of the week. As with many such rhymes, there are several variants. It has a Roud Folk Song Index number of 19526.\n[…]\nUnlike modern versions in which \"Wednesday's child is full of woe\", an earlier incarnation of the rhyme appeared in a multi-part fictional story in a chapter appearing in Harper's Weekly on September 17, 1887, in which \"Friday's child is full of woe\", perhaps reflecting traditional superstitions associated with bad luck on Friday – as many Christians associated Friday with the Crucifixion.\n[…]\nIf a man-child was born on a Sunday it was believed that he would live without anxiety and be handsome. If born on a Monday he was certain to be killed. Those born on a Tuesday grew up sinful and perverse, while those born on a Wednesday were waspish in temper. A child born on Thursday, however, was sure to be of a peaceful and easy disposition, though averse to women.\n[…]\nAt the suggestion of a friend, Charles Addams named his \"child of woe\" Wednesday in his The Addams Family after the character in the original nursery rhyme.\n[…]\nWednesday's Child (disambiguation)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wednesday_Addams",
+        "situacao": "ok",
+        "texto": "Wednesday Friday Addams, conhecida no Brasil como Wandinha Addams, é uma personagem fictícia da franquia A Família Addams, criada pelo cartunista norte-americano Charles Addams. Costuma ser retratada como uma menina reservada, de pele pálida e cabelos pretos presos em duas tranças, fascinada pela morte e pelo macabro.\n[…]\nAo adaptar os personagens para a série de televisão de 1964, Charles Addams escolheu o nome Wednesday a partir de um verso da cantiga de roda inglesa \"Monday's Child\": \"Wednesday's child is full of woe\", que pode ser traduzido como \"A criança de quarta-feira é cheia de tristeza\". A sugestão partiu da atriz e poeta Joan Blake, conhecida do cartunista.\n[…]\nNa Espanha, a personagem se chama Miércoles Addams, tradução literal de Wednesday Addams. Nos países de língua espanhola da América Latina, é conhecida como Merlina Addams. No Brasil, recebeu o nome Wandinha, diminutivo de Wanda.\n[…]\nNa série original, seu segundo nome é Friday. Na série da Netflix, Wednesday afirma ter nascido em uma sexta-feira 13.\n[…]\nNo especial de Halloween Halloween with the New Addams Family, de 1977, Loring interpreta uma Wednesday já adulta, que entretém os convidados tocando flauta. Ela consegue ouvir e compreender pedidos de socorro em código enviados por familiares amarrados e providencia ajuda para libertá-los. Entre a série original e esse telefilme, Gomez e Mortícia tiveram mais dois filhos, parecidos com Wednesday e Pugsley quando crianças: Wednesday Jr. e Pugsley Jr.\n[…]\nEm Addams Family Values, Wednesday e Pugsley são enviados contra a vontade a um acampamento de verão para jovens de famílias privilegiadas, o acampamento Chippewa. Lá conhecem Joel Glicker, interpretado por David Krumholtz, um menino tímido e ansioso, com várias alergias e uma mãe superprotetora, que se apaixona por Wednesday.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Black Mirror",
+      "descricao": "Série britânica de antologia estreada em 2011, com histórias independentes sobre os efeitos sombrios da tecnologia."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Segundo o criador Charlie Brooker, o espelho negro do título Black Mirror é o quê?",
+    "resposta": "Uma tela desligada",
+    "distratores": [
+      "Um espelho mágico",
+      "Um buraco negro",
+      "Uma janela escura"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_Mirror"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Black_Mirror",
+        "situacao": "ok",
+        "texto": "Black Mirror is a British anthology television series created by Charlie Brooker. Most episodes are speculative fiction, set in near-future dystopias containing sci-fi technology. The series is inspired by The Twilight Zone and uses the themes of technology and media to comment on contemporary social issues. Most episodes are written by Brooker with involvement by the executive producer Annabel Jo\n[…]\nSome writers believe that Black Mirror episodes are set in a shared universe, due to the abundance of Easter eggs, or tonal and thematic connections across the programme as a whole. Fans and journalists have attempted to establish concrete chronologies between episodes. The series creator Charlie Brooker's comments on this topic changed over time. He initially described the programme's setting as an \"artistic universe\" or \"psychologically shared universe\".\n[…]\nThe series's inception was in 2010. Brooker and Jones had begun to work together on Charlie Brooker's Screenwipe, a television review programme which aired from 2006 to 2008. The first pitch for Black Mirror, to the head of comedy at Channel 4, was for eight half-hour episodes by different authors. Technology was a lesser focus, and the worlds were larger and more detailed, which Jones said was not possible to execute properly in the short runtime.\n[…]\nThe creators Reece Shearsmith and Steve Pemberton have a larger role in the show than Brooker does in Black Mirror, as they star in most episodes and direct some in addition to writing them.\n[…]\nIn June 2017, Brooker announced a series of prose stories based on Black Mirror. The first volume was to be published on 20 February 2018 and scheduled to be edited by Brooker; two further volumes were planned for later in 2018 and in 2019. Planned writers included the science fiction authors Cory Doctorow, Sylvain Neuvel and Catherine Webb, under the pseudonym Claire North.\n[…]\nBlack Mirror at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Black_Mirror",
+        "situacao": "ok",
+        "texto": "Black Mirror é uma série de televisão de antologia britânica criada por Charlie Brooker. A maioria dos episódios são do gênero de ficção especulativa, ambientados em distopias num futuro próximo com tecnologia de ficção científica. A série possui inspiração em The Twilight Zone e utiliza os temas da tecnologia e da mídia para comentar questões sociais contemporâneas. A maioria dos episódios é escr\n[…]\nCharlie Brooker expressou relutância em fazer uma sequência para o episódio \"San Junipero\", que foi bastante aclamado pela crítica.\n[…]\nCharlie Brooker explicou a abertura da série para o jornal The Guardian: \"Se tecnologia é uma droga — e parece ser uma droga — então quais são, precisamente, os efeitos colaterais?\" Esta área — entre prazer e desconforto — é onde Black Mirror, minha nova série dramática, se passa. O \"espelho negro\" da abertura é o espelho que você encontrará em cada parede, em cada mesa, na palma de cada mão: a tela fria e brilhante de uma TV, de um monitor, de um smartphone\".\n[…]\nNa segunda temporada, Black Mirror continuou recebendo aclamação. Em sua crítica do episódio \"Be Right Back\", Sameer Rahim, do The Telegraph, escreveu: \"A série tocou em ideias importantes — a falsa maneira que nós, às vezes, nos apresentamos online, e nosso crescente vício em vidas virtuais — mas também foi uma exploração tocante do sofrimento. Para mim, esta é a melhor coisa que Charlie Brooker já fez\".\n[…]\nEm junho de 2017, Charlie Brooker anunciou uma série de livros baseados em Black Mirror, que apresentarão \"histórias novas, originais e obscuramente satíricas, que atingem nosso desconforto coletivo em relação ao mundo moderno\". O primeiro livro foi lançado em 1 de novembro de 2018 no Reino Unido e em 20 de novembro de 2018 nos Estados Unidos, e conta com curtas histórias antológicas, escritas por diferentes autores.\n[…]\nBlack Mirror no Channel 4\n[…]\nBlack Mirror no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Todo Mundo Odeia o Chris",
+      "descricao": "Série de comédia americana (2005) sobre a adolescência de Chris Rock nos anos 1980 no Brooklyn."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O título Todo Mundo Odeia o Chris é uma paródia do nome de qual outra sitcom americana?",
+    "resposta": "Todo Mundo Ama o Raymond",
+    "distratores": [
+      "Eu Amo a Lucy",
+      "Um Amor de Família",
+      "Malcolm"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Everybody_Hates_Chris"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Everybody_Hates_Chris",
+        "situacao": "ok",
+        "texto": "Everybody Hates Chris is an American semi-autobiographical  sitcom created by Chris Rock and Ali LeRoi that originally aired on UPN from 2005 to 2006, and then on The CW until 2009. The series is based loosely on Rock's personal experiences as a teenager living in Bedford–Stuyvesant, Brooklyn, New York City from 1982 to 1987. However, Rock's real-life adolescence took place from 1978 to 1984, as h\n[…]\nThe series' title is a parody of the CBS sitcom Everybody Loves Raymond. It was originally developed to air on Fox before being passed over to UPN. The series was shown on UPN for its first season until it was moved to the CW, where it aired its remaining three seasons. In 2009, Rock announced that the series' ending suited his own past and he felt it was time to end the story.\n[…]\nVincent Martella as Greg Wuliger, Chris' schoolmate and friend\n[…]\nThe show is a family sitcom, patterned on Chris Rock's recollection of his teenage years growing up in the 1980s with a wholesome, tight-knit, African-American family, while living in drug-and-gang infested Bedford–Stuyvesant, a neighborhood of Brooklyn, New York, and also attending a cross-town, all-white public junior high school.\n[…]\nEverybody Hates Chris won NAACP Image Awards for Outstanding Writing in a Comedy Series (for Ali LeRoi), Outstanding Actress in a Comedy Series (for Tichina Arnold), and Outstanding Actor in a Comedy Series (for Tyler James Williams). It has also been nominated for a Golden Globe and three Emmy Awards. In December 2008, Entertainment Weekly listed the Kwanzaa episode from this show as seventh on the magazine's \"Must List: 10 Holiday Things We Love.\"\n[…]\nAll four seasons of Everybody Hates Chris were released on DVD by Paramount (under the label CBS DVD) in Region 1 and Region 2. The complete series was released on DVD on August 18, 2009.\n[…]\nChris Rock filmography\n[…]\nEverybody Loves Raymond\n[…]\nEverybody Hates Chris at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Everybody_Hates_Chris",
+        "situacao": "ok",
+        "texto": "Everybody Hates Chris (bra: Todo Mundo Odeia o Chris; prt: Todos Contra o Chris) é uma sitcom de autoparódia americana, criada por Chris Rock e Ali LeRoi, e transmitida originalmente pela CBS entre 22 de setembro de 2005\n[…]\nNota: \"Everybody Hates Chris\" deveria se passar nos anos 1970, pois a infância de Chris Rock foi nessa década, porém estava sendo exibida outra série de muito sucesso que se passava nos anos 70, que se chamava That '70s Show, então os produtores resolveram fazer uma mudança estratégica e trouxeram a série para os anos 1980. O título da série também é uma paródia da sitcom Everybody Loves Raymond.\n[…]\nNota: No último episódio (\"Todo Mundo Odeia Supletivo\") é revelado que no Tattaglia existe um limite de atrasos. Chris chegou 30 vezes atrasado e foi \"reprovado\" no 1° ano, então ele decide fazer o supletivo, onde precisa tirar 800 de 1000 para passar. Na última cena, quando Julius estaciona o caminhão, há uma câmera que filma o número 735 pintado em seu caminhão. Isto sugere a pontuação do supletivo de Chris, que, portanto, não passaria.\n[…]\nEverybody Hates Chris foi lançado em Região 1, 2 e 4. No Brasil, foi lançado um box com 4 discos, em 2013, chamado de \"O Melhor de Todo Mundo Odeia o Chris”, uma coletânea que traz os 20 episódios de maior sucesso das quatro temporadas.\n[…]\nA popularidade de Todo Mundo Odeia o Chris faz frequentemente o público interagir com os atores do programa através de comentários e memes nas redes sociais. O ator Tyler James Williams se mostrou irritado com o excesso de comentários de fãs brasileiros em suas fotos no Instagram em 2016, chegando a desativar os comentários de suas publicações.\n[…]\nEverybody Hates Chris no IMDb\n[…]\n«Blog Todo Mundo Odeia o Chris». no R7",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Família Dinossauros",
+      "descricao": "Sitcom americana de 1991 a 1994 sobre uma família de dinossauros, feita com bonecos animatrônicos."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O sobrenome da Família Dinossauros, Sinclair, vem de uma empresa americana que tem um dinossauro na logomarca. De que ramo é essa empresa?",
+    "resposta": "Petróleo",
+    "distratores": [
+      "Cereais matinais",
+      "Brinquedos",
+      "Automóveis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dinosaurs_(TV_series)",
+      "https://en.wikipedia.org/wiki/Sinclair_Oil_Corporation"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dinosaurs_(TV_series)",
+        "situacao": "ok",
+        "texto": "Dinosaurs is an American family sitcom television series that aired on ABC from April 26, 1991, to July 20, 1994. The show, about a family of anthropomorphic dinosaurs,  was produced by Michael Jacobs Productions and Jim Henson Productions in association with Walt Disney Television. The characters were designed by Henson team member Kirk Thatcher.\n[…]\nDinosaurs is initially set in 60,000,000 BC in Pangaea. The show centers on the Sinclair family: Earl Sneed Sinclair (father), Fran Sinclair (née Phillips – mother), their three children (Robbie, Charlene, and infant Baby Sinclair) and Fran's mother, Ethyl.\n[…]\nThe focus of the show's plot is the Sinclair family: Earl, Fran, Robbie, Charlene, Baby, and Ethyl. The family name is a reference to the Sinclair Oil Corporation, which had prominently featured a dinosaur as its logo and mascot for decades, under the belief that petroleum deposits were formed during the age of the dinosaurs. Other character and family names throughout the series often referred to rival petroleum companies: Phillips, Hess, B.P., Richfield, and Ethyl, among others.\n[…]\nThe Odd Job Dinosaur from the episode \"How to Pick Up Girls\".\n[…]\nThe 2-part episode \"Nuts to War\" was a satire of American involvement in the Gulf War, with two-legged dinosaurs going to war with four-legged dinosaurs over pistachios instead of oil.\n[…]\nCaptain Action Figure shows up in children's programming that Fran mistakes for a commercial. Whenever Captain Action Figure mentions a product, the screen flashes \"Tell Mommy I WANT THAT!\". Before the appearance of Georgie, Dinosaurs used a puppet reminiscent of Barney the Dinosaur named \"Blarney\" in two episodes. During his appearances, members of the Sinclair family commented on his annoying characteristics and failure to teach anything to children.\n[…]\nDinosaurs at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sinclair_Oil_Corporation",
+        "situacao": "ok",
+        "texto": "Sinclair Oil Corporation is an American petroleum corporation founded by Harry F. Sinclair on May 1, 1916. It is presently a subsidiary of HF Sinclair. The Sinclair Oil and Refining Corporation amalgamated the assets of 11 small petroleum companies. Originally a New York corporation, Sinclair Oil reincorporated in Wyoming in 1976. The corporate logo featured the silhouette of a large green Brontos\n[…]\nSinclair adopted the dinosaur as its mascot in 1930, using it as a symbol to emphasise the vast age of petroleum. Although this led to a widespread public misconception that oil came from dinosaurs, Sinclair's own literature stated that their lubricants were derived from Pennsylvania grade crudes that were \"mellowing in the ground during the Mesozoic era when dinosaurs populated the earth\", not that the oil itself came from dinosaur remains.\n[…]\nSinclair has long been a fixture on American roads with its dinosaur logo and mascot, a Brontosaurus.\n[…]\nAt the Chicago World's Fair of 1933–1934, Sinclair sponsored a dinosaur exhibit meant to play on the link between the formation of petroleum deposits and the time of dinosaurs, now a largely discredited misconception. The exhibit included a 2-ton animated model of a Brontosaurus. The exhibit proved so popular it inspired a promotional line of rubber brontosaurs at Sinclair stations, complete with wiggling heads and tails, and the eventual inclusion of the brontosaur logo.\n[…]\nAt the same time, Sinclair Oil was approached by the Italian fascist government. Benito Mussolini's government wanted to increase competition in the Italian oil market, which was controlled by the Italo-American Petroleum Society (SIAP), which in turn was fully dominated by Standard Oil.\n[…]\nThe TV series Dinosaurs featured several characters with names derived from fossil fuel companies. The main character and his family had the surname Sinclair.\n[…]\nSinclair Oil Corporation"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dinosaurs",
+        "situacao": "ok",
+        "texto": "Dinosaurs (Família Dinossauros no Brasil e Os Dinossauros em Portugal), é uma série de televisão americana. Apesar de ser concebida como um programa infantil, faz uma crítica bem humorada ao chamado \"american way of life\" e uma sátira da sociedade e dos costumes da classe média desse país.\n[…]\nProduzida pela Disney em parceria com a Jim Henson Productions - a qual concebeu os bonecos que representam os personagens - e a Michael Jacobs Productions, entre os anos de 1991 e 1994, a série trata das aventuras de uma família de dinossauros, a Família Silva Sauro (Sinclair, em inglês), que vive em uma sociedade dominada pelos grandes répteis, onde os humanos são animais selvagens.\n[…]\nA série se passa em 60.000.003 a.C. em Pangea e é centrada na família Silva Sauro (Sinclair no original): O pai Dino da Silva Sauro (Earl Sinclair no original), a mãe Fran da Silva Sauro, seus três filhos (Bob, Charlene e Baby) além da mãe de Fran, Zilda (Ethyl no original).\n[…]\nA série voltou a ser exibida no dia 30 de julho de 2007 pela Rede Bandeirantes, de segunda a sexta às 20:15. No dia 1º de outubro, em virtude deste horário ser ocupado pela novela Dance Dance Dance, Família Dinossauro mudou de horário para 21h. Para os padrões da emissora, foi um relativo sucesso de audiência.\n[…]\nABC (Antediluvian Broadcasting Company) - a ABC (American Broadcasting Company), emissora que exibiu a Família Dinossauro nos EUA, foi parodiada como uma das emissoras mais assistidas pelos dinos, a \"Companhia Antediluviana de Televisão\". No episódio \"Gênio da TV\", Dino se torna executivo e muda a programação da companhia para programas idiotas, que diminuem o QI dos telespectadores.\n[…]\nWay Too Complicated - paródia à série norte-americana \"The Brady Bunch\", mas com 14 pequenos dinossauros fantasmas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "ALF",
+      "descricao": "Sitcom americana exibida de 1986 a 1990 sobre um extraterrestre peludo do planeta Melmac que vive escondido com uma família."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do extraterrestre ALF, que vive escondido com a família Tanner, é uma sigla em inglês. O que ela significa?",
+    "resposta": "Forma de vida alienígena",
+    "distratores": [
+      "Amigo lá de fora",
+      "Alienígena louco e feliz",
+      "Animal de longe"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/ALF_(TV_series)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ALF_(TV_series)",
+        "situacao": "ok",
+        "texto": "ALF is an American television science fiction sitcom that aired on NBC from September 22, 1986, to March 24, 1990.\n[…]\nLucky is the Tanners' family cat, who ALF attempts to catch and eat. He dies in \"Live and Let Die\" (Season 4) and is succeeded by Lucky II.\n[…]\nNeal Tanner (portrayed by Jim J. Bullock) is Willie's younger brother and Brian, Lynn, and Eric's uncle. He briefly lived with the Tanner family after his wife Margaret left him before moving into his own apartment and getting a job as a handyman at the same apartment building. Neal learned of Alf's existence and befriended the alien, though he was often more confused by Alf's behavior than even Willie at times.\n[…]\nWillie was also stated to have a brother named \"Rodney\" in the episode La Cucaracha, and it is unknown if this was a third Tanner sibling or if the character was renamed to Neal, as \"Rodney\" was never seen on screen, leaving the matter ambiguous.\n[…]\nWhile a puppet was usually used for ALF, there were some shots of the tiny alien running or walking around. This was accomplished by the 2 feet 9 inches (84 cm) actor Michu Meszaros wearing an ALF costume. This can be seen in one of the series' intros, which concludes with the Tanner family getting their picture taken; ALF (played by Meszaros) walks over to be part of the photo.\n[…]\nAfter the end of the series, a made-for-television movie was produced, in 1996, intending to give the series a proper end. Project: ALF starts right after the series final episode but, especially because of the absence of the Tanners, it failed at obtaining success."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alf_%28teless%C3%A9rie%29",
+        "situacao": "ok",
+        "texto": "ALF (bra: Alf, O ETeimoso; prt: Alf, Uma Coisa do Outro Mundo) é uma série de televisão norte-americana, exibida pela NBC entre 22 de setembro de 1986 e 24 de março de 1990.\n[…]\nO nome ALF é um acrônimo da expressão inglesa Alien Life Form (\"forma de vida alienígena\").\n[…]\nSem saberem ao certo o que fazer, os Tanner levam ALF para casa e o escondem da Alien Task Force (um grupamento do exército que procura extraterrestres) e de seus vizinhos intrometidos Trevor e Raquel Ochmonek (John LaMotta e Liz Sheridan), até que ele possa reparar sua nave espacial. ALF geralmente fica escondido na cozinha. Ele torna-se um membro permanente da família, embora o choque cultural, a solidão e a saudade de casa frequentemente causem problemas aos Tanner.\n[…]\nGordon Shumway é um alienígena apelidado de ALF (de Alien Life Form) por William Tanner no primeiro episódio. ALF nasceu em 28 de Outubro de 1756, embora ele mencione seu aniversário em Agosto no episódio 7 (\"Help Me Rhonda\") no Leste do planeta Melmac. Este planeta localiza-se seis parsecs adiante da constelação Hidra-Centauro e tem um céu verde, grama azul e sol roxo.\n[…]\nKate é a dona de casa. Não gosta muito do que ALF faz, mas acaba o aceitando na família e o adotando como um filho. ALF várias vezes à chama de Mamãe. No primeiro episódio ela odiava o alienigena, mas quando um militar bateu em sua casa dizendo que iria torturá-lo até a morte, ela o protegeu.\n[…]\nLarry é um psicólogo que sabe da existência de ALF, porém o ajuda. Ele conhece ALF quando Willie pede para que ele o ajudasse a resolver problemas com o alienígena, principalmente no episódio em que o alien usa um boneco ventríloquo para desabafar seus problemas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Peaky Blinders",
+      "descricao": "Série britânica estreada em 2013 sobre a família Shelby e sua gangue, no período após a Primeira Guerra Mundial."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na série Peaky Blinders, a gangue dos Shelby deve o nome a objetos escondidos na aba dos bonés. Que objetos são esses?",
+    "resposta": "Lâminas de barbear",
+    "distratores": [
+      "Moedas de prata",
+      "Cacos de vidro",
+      "Pregos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peaky_Blinders",
+      "https://en.wikipedia.org/wiki/Peaky_Blinders_(TV_series)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peaky_Blinders",
+        "situacao": "ok",
+        "texto": "The Peaky Blinders were a street gang based in Birmingham, England, which operated from the 1880s until the 1920s. The group consisted largely of young criminals from lower- to working-class backgrounds. They engaged in robbery, violence, racketeering, illegal bookmaking, and control of gambling. By the 20th century, members wore signature outfits that typically included tailored jackets, lapelled\n[…]\nGangster Billy Kimber was a former Peaky Blinder.\n[…]\nOther elements such as education, discipline, and harsher policing and sentencing contributed to the decrease of the Blinders' influence and, by the 1920s, they had disappeared. As the specific gang known as the Peaky Blinders diminished, their name came to be used as generic term to describe violent street youth. The gang's activities lasted from the 1880s until the 1920s.\n[…]\nThe series developed into a movie: Peaky Blinders: The Immortal Man, directed by Tom Harper and written by Steven Knight. The film premiered on 2 March 2026 and aired on Netflix on 20 March 2026.\n[…]\nChinn, Carl (2019). Peaky Blinders: The Real Story: The new true history of Birmingham's most notorious gangs. London: John Blake Publishing Ltd. ISBN 9781789461725. OCLC 1136540063.\n[…]\nChinn, Carl (2020). Peaky Blinders : the legacy : the real story of Britain's most notorious 1920's gangs. London: John Blake Publishing Ltd. ISBN 9781789462937. OCLC 1291506049.\n[…]\nChinn, Carl (2021). Peaky Blinders : the aftermath : the real story behind the next generation of British gangsters. London: John Blake Publishing Ltd. ISBN 9781789464511. OCLC 1309300519.\n[…]\nBirmingham's real Peaky Blinders (BBC News, 2013-09-12)\n[…]\nBirmingham's Peaky Blinders – in fact... and fiction (Birmingham Mail, 2013-09-12)\n[…]\nCarrier, Dan (11 February 2021). \"Book review: Turf guys: the real Peaky Blinders\". Camden New Journal. Covering the turf wars of the Peaky Blinders, the Sabini gang, and the Camden Town gang"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Peaky_Blinders_(TV_series)",
+        "situacao": "ok",
+        "texto": "Peaky Blinders is a British historical crime drama television series created by Steven Knight. Set in Birmingham, it follows the exploits of the Peaky Blinders crime gang in the direct aftermath of the First World War. The fictional gang is loosely based on an urban youth gang active in the city from the 1880s to the 1920s.\n[…]\nJoe Cole as John \"Johnny\" Shelby (series 1–4), the third-youngest Shelby brother and a member of the Peaky Blinders.\n[…]\nAlfie Evans-Meese (recurring series 1) and Harry Kirton (series 6; recurring series 2–5) as Finn Shelby, the youngest Shelby brother and a member of the Peaky Blinders.\n[…]\nThe series has been considered a cult classic. According to the Office for National Statistics (ONS), Peaky Blinders has had a detectable cultural impact in the UK. In 2018, the name Arthur surged into the top 10 boys names for the first time since the 1920s, and Ada jumped into the girls' top 100 for the first time in a century as well. The assumption reached by the ONS is that the popularity of these names was inspired by the characters Arthur Shelby Jr. and Ada Thorne.\n[…]\nPeaky Blinders won the Returning Drama award at the 2022 National Television Awards ceremony, with Knight subsequently confirming during his acceptance speech that that film would begin production in mid-spring 2023, but would later be delayed. In June 2024, the Peaky Blinders film was confirmed by Netflix with Cillian Murphy reprising his role as Thomas Shelby. Production began in September 2024 under the title The Immortal Man.\n[…]\nIn September 2022, Rambert Dance presented a dance production based on the series titled Peaky Blinders: The Redemption of Thomas Shelby directed and choreographed by Benoit Swan Pouffer, written by Knight. It premiered at the Birmingham Hippodrome, before touring the UK and was filmed for the BBC."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Peaky_Blinders",
+        "situacao": "ok",
+        "texto": "Os Peaky Blinders foram uma organização criminosa, originalmente de Birmingham, Inglaterra, que operava no território das Midlands Ocidentais, desde o final do século XIX até aos anos 30 do século XX.\n[…]\nEm 2013, a história do gangue serviu de inspiração para a série de televisão da BBC, Peaky Blinders. Estrelada por Cillian Murphy, Sam Neill, Helen McCrory, Anabelle Wallis, Paul Anderson, Joe Cole e Tom Hardy, conta a história de uma família fictícia e dos seus crimes, em Birmingham, logo após a Primeira Guerra Mundial.\n[…]\nO autor britânico John Douglas, de Birmingham, afirmou que essa teoria o inspirou fortemente no seu romance A Walk Down Summer Lane (1977), onde membros de gangue usavam lâminas de barbear, costuradas nos seus bonés, para atacar os seus inimigos, potencialmente cegando-os, ou cortando-lhes a testa, causando o derramamento de sangue nos olhos dos inimigos e consequente cegueira temporária.\n[…]\nA série dramática de televisão da BBC Peaky Blinders, protagonizada por Cillian Murphy, Sam Neill e Helen McCrory, estreou em setembro de 2013. Inspirada nos eventos e história da associação criminosa de Birmingham, a série apresenta a história fictícia de vários elementos da família Shelby, enquanto disputavam, sem olhar a meios, pelo domínio da cidade de Birmingham contra os Birmingham Boys, o gangue Sabini e as forças da lei, após a Primeira Guerra Mundial.\n[…]\nAproveitando o sucesso da série de televisão, em 2014, Carl Chinn revelou no seu livro \"The Real Peaky Blinders: Billy Kimber, the Birmingham Gang and the Racecourse Wars of the 1920s\" a verdadeira história do grupo e as vidas dos seus principais elementos até à sua extinção pelo gangue Sabini.\n[…]\nPeaky Blinders Brasil",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Tartarugas Ninja",
+      "descricao": "Quatro tartarugas mutantes treinadas em artes marciais, criadas em quadrinhos por Kevin Eastman e Peter Laird em 1984"
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "As quatro Tartarugas Ninja receberam nomes de grandes artistas italianos de que período da história da arte?",
+    "resposta": "Renascimento",
+    "distratores": [
+      "Barroco",
+      "Romantismo",
+      "Impressionismo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles",
+        "situacao": "ok",
+        "texto": "Teenage Mutant Ninja Turtles (TMNT) is an American media franchise created by comic book artists Kevin Eastman and Peter Laird. It follows Leonardo, Donatello, Raphael and Michelangelo, four anthropomorphic turtle brothers trained in ninjutsu who fight evil in New York City. The franchise encompasses printed media, television series, feature films, video games, and merchandise.\n[…]\nIn 2016, Activision and PlatinumGames developed Teenage Mutant Ninja Turtles: Mutants in Manhattan for the PlayStation 4, PlayStation 3, Xbox One, Xbox 360, and PC. The game is described as a third-person, team-based brawler. The campaign is playable either single-player or co-op and has an original story written by Tom Waltz, IDW comic writer and editor. The art style is based on longtime TMNT comic artist Mateus Santolouco.\n[…]\nNickelodeon Universe at Mall of America in Bloomington, Minnesota, also contains rides themed to the TMNT franchise. These include Teenage Mutant Ninja Turtles Shell Shock, a roller coaster that opened in 2012, and Shredder's Mutant Masher, a pendulum ride that opened in 2015.\n[…]\nIn the Dream Island in Moscow, one of the nine zones is themed after Teenage Mutant Ninja Turtles, licensed from Paramount.\n[…]\nOnce the Turtles broke into the mainstream, parodies also proliferated in other media, such as in satire magazines Cracked and Mad and numerous TV series of the period. The satirical British television series Spitting Image featured a recurring sketch \"Teenage Mutant Ninja Turds\".\n[…]\nNASA let a logo with a Ninja Turtle be designed for the Multi-Purpose Logistics Module.\n[…]\nEastman, Kevin (2002). Kevin Eastman's Teenage Mutant Ninja Turtles Artobiography. Los Angeles: Heavy Metal. ISBN 1-882931-85-8.\n[…]\nWiater, Stanley (1991). The Official Teenage Mutant Ninja Turtles Treasury. New York: Villard. ISBN 0-679-73484-8.\n[…]\nTeenage Mutant Ninja Turtles at Don Markstein's Toonopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tartarugas_Ninja",
+        "situacao": "ok",
+        "texto": "As Tartarugas Ninja (Teenage Mutant Ninja Turtles, abreviado como TMNT) são quatro tartarugas antropomórficas batizadas com o nome de artistas italianos do Renascimento e treinadas na arte do ninjutsu por um rato sensei antropomórfico chamado Splinter. A partir da sua casa, os esgotos de Nova Iorque, batalham contra criminosos, senhores demoníacos, criaturas mutantes e alienígenas invasores, enqua\n[…]\nEm julho de 2023, foi relatado que Tales of the Teenage Mutant Ninja Turtles, uma série de televisão animada em 2D de duas temporadas spin-off do filme Teenage Mutant Ninja Turtles: Mutant Mayhem, recebeu luz verde para a Paramount+. A produtora Point Grey, que produziu o filme, também produziu a série. A série estreou em 9 de agosto de 2024.\n[…]\nTeenage Mutant Ninja Turtles (2014), filme no qual as Tartarugas enfrentam o Clã do Pé e descobrem que este se aliou à corporação que criou o mutagênico, e agora planejam lançar um vírus mortal na cidade de Nova Iorque.\n[…]\nBatman vs. Teenage Mutant Ninja Turtles (2019), filme de animação que apresenta um crossover entre o Batman e as Tartarugas, feito pela DC Entertainment e pela Nickelodeon.\n[…]\nTeenage Mutant Ninja Turtles: Mutant Mayhem (2023), filme de animação produzido por Seth Rogen, onde as Tartarugas enfrentam um grupo de animais mutantes que planeja se vingar dos humanos.\n[…]\nA medida que a popularidade das tartarugas baixava, a Konami lançou em 1993 Teenage Mutant Ninja Turtles: Tournament Fighters, jogo de luta baseado em Street Fighter.\n[…]\nEm 2013, foi lançado  pela Activision o jogo Teenage Mutant Ninja Turtles: Out Of The Shadows, baseado na série animada exibida pela Nickelodeon.\n[…]\nEm 2022, a Dotemu lançou Teenage Mutant Ninja Turtles: Shredder's Revenge, um jogo inspirado nos dois arcades originais permitindo até seis jogadores simultâneos, já que além das Tartarugas tem April, Splinter e Casey como personagens jogáveis.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Os Simpsons",
+      "descricao": "Série animada americana criada por Matt Groening, sobre uma família da cidade fictícia de Springfield."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A casa da família Simpson, em Springfield, fica na rua Evergreen Terrace. Em que número?",
+    "resposta": "742",
+    "distratores": [
+      "724",
+      "1313",
+      "221"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/742_Evergreen_Terrace"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/742_Evergreen_Terrace",
+        "situacao": "ok",
+        "texto": "The Simpsons house is the residence of the Simpson family in the animated sitcom The Simpsons and its film adaptation The Simpsons Movie. The house's address is most frequently attributed as 742 Evergreen Terrace. In the series, the house is occupied by Homer and Marge Simpson and their three children: Bart, Lisa, and Maggie.\n[…]\nThe street name is in reference to series creator Matt Groening's childhood street in Portland, Oregon. The house's address was inconsistent in earlier seasons, with the address being given various numbers on Evergreen Terrace, and one address on a different street.\n[…]\nThe most commonly used address for the Simpsons' house is 742 Evergreen Terrace, however other addresses have been provided. Episodes \"Blood Feud\" and \"Bart the Lover\" give the address as 94 Evergreen Terrace, \"Mr. Lisa Goes to Washington\" gives it as 59 Evergreen Terrace, \"Homer the Vigilante\" as 723 Evergreen Terrace, \"New Kid On the Block\" as 1094 Evergreen Terrace, and \"Kamp Krusty\" as 430 Spalding Way (theorised to be a reference to actor and playwright Spalding Gray).\n[…]\nThe Simpsons House was designed by Kaufman and Broad homebuilders. The idea for a replica of the Simpsons house was first conceived when game designers were working on 3D visualizations at Fox Interactive for the 1997 video game The Simpsons: Virtual Springfield.\n[…]\nWhen it was constructed the four-bedroom, two-story house was painted bright yellow and baby blue on its exterior, to resemble the exterior of 742 Evergreen Terrace. The house included exterior details from The Simpsons such as Bart's treehouse, a swing set, and a back yard barbecue. The 2,200-square-foot (200 m2) house also has two bathrooms, and two front bay windows, again mimicking the cartoon house."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/742_Evergreen_Terrace",
+        "situacao": "ok",
+        "texto": "742 Evergreen Terrace (ou a Casa dos Simpsons) é o endereço fictício na qual reside a família Simpson (Homer, Marge, Bart, Lisa e Maggie), do seriado animado The Simpsons, localizado na cidade de Springfield, nos Estados Unidos. No endereço, localiza-se uma típica residência de classe média baixa estadunidense, no subúrbio da cidade; seus principais vizinhos são a família Flanders.\n[…]\nO nome da rua é uma referência ao Evergreen State College, localizado em Olympia, Washington, onde o criador do programa Matt Groening formou-se. No programa, o endereço do domicílio apresentava erros constantes. Em 1997, uma réplica da casa foi construída em 712 Red Bark Lane na cidade de Henderson, Nevada, e foi cedida como um grande prêmio num concurso.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Lost",
+      "descricao": "Série americana exibida de 2004 a 2010, sobre um grupo de pessoas presas numa ilha misteriosa do Pacífico."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em Lost, os sobreviventes da ilha estavam a bordo do voo da companhia Oceanic de que número?",
+    "resposta": "815",
+    "distratores": [
+      "316",
+      "747",
+      "108"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oceanic_Flight_815"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oceanic_Flight_815",
+        "situacao": "ok",
+        "texto": "Oceanic Airlines, and less frequently, Oceanic Airways, is the name of a fictional airline used in several films and television programs—typically works that feature plane crashes and other aviation disasters, with which a real airline would prefer not to be associated. Columnist Daryna Tobey compared its prevalence to that of 555 telephone numbers on television.\n[…]\nOceanic Airlines first appeared in the 1965 two-part episode \"The Ditching\" of the television series Flipper. It later appeared in the 1996 film Executive Decision, and footage of the Oceanic Airlines plane in that film was reused as stock footage for several works. Appearances since include the 2004–2010 television series Lost, the 2011 video game Dead Island, and a number of others.\n[…]\nThe fictional airline typically appears in works that feature plane crashes and other aviation disasters, with which a real airline would prefer not to be associated. In the 2004–2010 television series Lost, Oceanic Airlines Flight 815 crashes on an island in the Pacific Ocean.\n[…]\nIt stayed there retired after the filming, painted in Oceanic Airlines colors (with a dark hole painted on the fuselage), marked with the fake registration number N707CK; its actual registration numbers during service were N754PA, LX-FCV, and F-GIMJ.\n[…]\nFictional company\n[…]\nNudd, Tim (18 November 2004). \"Oceanic's unfriendly skies\". Adweek. Archived from the original on 8 December 2018. Retrieved 12 April 2025.\n[…]\nA fake Oceanic Airlines webpage with an announcement of the discontinued service"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oceanic_Airlines",
+        "situacao": "ok",
+        "texto": "Lost (Perdidos, em Portugal) é  uma série de televisão norte-americana de drama, fantasia e ficção científica que seguiu a vida dos sobreviventes de um acidente aéreo numa misteriosa ilha tropical, após o avião que viajava de Sydney, Austrália para Los Angeles, Estados Unidos cair em algum lugar do Oceano Pacífico.\n[…]\nLost.\n[…]\nO voo 815 da companhia aérea Oceanic Airlines, cai na costa do que aparenta ser uma ilha tropical \"deserta\", forçando o grupo de estranhos a trabalhar em conjunto para se manterem vivos.\n[…]\nO público conheceu mais sobre a Iniciativa Dharma e sua ligação com os \"Outros\". O mundo destas pessoas que viviam na ilha antes da queda do voo 815 e seus mistérios é explorado. Outros temas recorrentes são o poder de clarividência desenvolvido por Desmond (envolvendo frequentemente a morte de Charlie) e uma possibilidade real de resgate para os sobreviventes.\n[…]\nA trama da sexta e última temporada de Lost contém 18 episódios e se baseia no confronto final entre o bem e o mal, representados pelas figuras de Jacob e de seu nêmesis, um ser que adotou a forma do falecido irmão gêmeo de Jacob e que tem a capacidade de se transformar na \"Fumaça Negra\". Os agora poucos sobreviventes da queda do voo Oceanic 815 e aliados são diretamente influenciados à tomarem partido nesta batalha iminente que vai definir o futuro da ilha.\n[…]\nVárias das mais comuns teorias criadas por fãs foram discutidas e rejeitadas pelos criadores da série, as mais comuns sendo que os sobreviventes do Voo 815 estão mortos ou no purgatório. Esta foi expressamente negada por J. J. Abrams. Além disso, Damon Lindelof rejeitou especulações de que naves espaciais ou aliens estavam influenciando os acontecimentos na ilha, ou que tudo não passava de um delírio coletivo.\n[…]\nLost Recaps na ABC.com\n[…]\nLost no IMDb\n[…]\n«Lost» (em inglês). no TV.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Game of Thrones",
+      "descricao": "Série de fantasia da HBO, exibida de 2011 a 2019, sobre a disputa pelo Trono de Ferro em Westeros."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em Game of Thrones, o rei que ocupa o Trono de Ferro governa, segundo o próprio título, quantos reinos?",
+    "resposta": "Sete",
+    "distratores": [
+      "Cinco",
+      "Nove",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/World_of_A_Song_of_Ice_and_Fire",
+      "https://pt.wikipedia.org/wiki/Game_of_Thrones"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/World_of_A_Song_of_Ice_and_Fire",
+        "situacao": "ok",
+        "texto": "The fictional world in which the A Song of Ice and Fire novels by George R. R. Martin take place is divided into several continents, known collectively as The Known World.\n[…]\nIt is a common belief that one who cuts himself on the throne has been \"rejected\" by the throne and is therefore not fit to rule.\n[…]\nUntil the Doom of Valyria, Ibben was ruled by a God-King. Now power is held by the Shadow Council, which is made up of nobles, priests, and wealthy guild members. Ibben is first mentioned in A Game of Thrones, where Tyrion talks of rumors that mammoths \"roam the cold wastes beyond the Port of Ibben\". In 2002, Martin said the narrative would \"probably not\" take readers to Ibben, which he described as a \"cold, mountainous, Iceland-sized island\" (i.e.\n[…]\nAsshai and the Shadow Lands are mysterious locations in the Ice and Fire world. They are first mentioned in A Game of Thrones and were first mapped in The Lands of Ice and Fire, lying on the far east of the known world. Martin is unsure if the books will ever take the readers to Asshai, but said that readers may learn more through the POV character Melisandre (who originates from Asshai) or through the memories and mentions of other characters.\n[…]\nThe empire is first mentioned in A Game of Thrones, talking of rumors that \"basilisks infested the jungles of Yi Ti\". Sailor stories presented in A Feast for Crows mention that a grey plague has hit Yi Ti. The god of the people of Yi Ti is called the Lion of Night. Daenerys sees people of Yi Ti as bright-eyed men in monkey-tail hats in the markets of Vaes Dothrak.\n[…]\nMartin, George R. R. (1996). A Game of Thrones (US paperback ed.). Bantam Books. ISBN 0553573403."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Game_of_Thrones",
+        "situacao": "ok",
+        "texto": "Game of Thrones é uma série de televisão norte-americana criada por David Benioff e D. B. Weiss, baseada na série de livros A Song of Ice and Fire de George R. R. Martin. Eleita  como a melhor série de TV do século XXI em 2020, numa votação popular feita pela revista Digital Spy, Game of Thrones foi transmitida originalmente pelo canal HBO entre 17 de abril de 2011 a 19 de maio de 2019.\n[…]\nSituada nos continentes fictícios de Westeros e Essos, a série apresenta um enredo de alianças e conflitos entre famílias nobres dinásticas dos Sete Reinos, que competem para reivindicar o imperioso Trono de Ferro ou lutam para não serem governados por quem o possui. Para adaptar os cenários fictícios da saga A Song of Ice and Fire, a série foi filmada em nove países, sendo eles: Canadá, Croácia, Escócia, Espanha, Estados Unidos, Irlanda do Norte, Islândia, Malta, e Marrocos.\n[…]\nO desentendimento entre Daenerys e Jon pela coroa se torna evidente; no entanto, para que possam conquistar o Trono de Ferro, os dois se unem com o objetivo de derrotar o Rei da Noite e, posteriormente, Cersei, e assim decidir o destino dos Sete Reinos.\n[…]\nO restante do elenco da primeira temporada foi preenchido no segundo semestre de 2009.\n[…]\nMartin contou que o conceito do projeto estava sendo trabalhado em duas frentes distintas: de um lado, a HBO avalia a história como uma possível série dramática. Do outro, a Warner Bros. enxergava potencial para um filme de grande orçamento, com ambição visual e narrativa comparável à franquia Duna. O projeto foi pensado para focar na conquista de Aegon I Targaryen, lorde que uniu a maior parte dos Sete Reinos, tornando-se o primeiro rei do Trono de Ferro a 300 anos antes de Game of Thrones.\n[…]\nA série se concentra na conquista de Aegon Targaryen dos Sete Reinos de Westeros.\n[…]\nGame of Thrones no IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Dark",
+      "descricao": "Série alemã de ficção científica da Netflix, lançada em 2017, sobre viagens no tempo e quatro famílias."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na série alemã Dark, os acontecimentos na cidade de Winden se repetem em ciclos de quantos anos?",
+    "resposta": "Trinta e três anos",
+    "distratores": [
+      "Vinte e sete anos",
+      "Quarenta anos",
+      "Cinquenta anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dark_(TV_series)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dark_(TV_series)",
+        "situacao": "ok",
+        "texto": "Dark is a German science-fiction mystery thriller television series created by Baran bo Odar and Jantje Friese. It ran for three seasons from 2017 to 2020. The story primarily follows four families from the fictional town of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance, unraveling a sinister time travel conspiracy that spans several generations.\n[…]\nChildren start vanishing from the German town of Winden, bringing to light the fractured relationships, double lives, and dark pasts of four families living there and unfurling a mystery that spans four generations.\n[…]\nThe tension between each of these conflicting ideas is so interwoven, making it hard to discern where one ends and the other begins. And so Dark concludes not with a hard endpoint on a line, but by elegantly and satisfyingly circling back into itself.\"\n[…]\n[...] [It] manages to neatly tie up all of its loose ends to finally find the one true \"origin,\" so, at last, the town of Winden can free itself from the trappings of time and fate.\" GameSpot listed it as one of the year's ten best TV shows, with one of its writers Mike Rougeau stating, \"what really impressed us about Season 3 is how it wrapped things up, even while continuing the tradition of adding yet another new dimension (so to speak) to the show's tangled timelines.\n[…]\nThe series was nominated for the Goldene Kamera TV awards 2018 in three categories: best series; best actress for Karoline Eichhorn as Charlotte Doppler; and best actor for Oliver Masucci as Ulrich Nielsen. None of these nominations resulted in awards, but Louis Hofmann received the \"Best Newcomer\" award in recognition of his lead role in Dark as well as his performances in several films.\n[…]\nDark matter\n[…]\nDark – The Official Guide\n[…]\nDark at IMDb\n[…]\nDark at Metacritic\n[…]\nDark at Rotten Tomatoes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dark",
+        "situacao": "ok",
+        "texto": "Dark (estilizado como D A R K ou D A Я K) é uma aclamada e premiada série alemã de drama, suspense e ficção científica criada  por Baran bo Odar e Jantje Friese e eleita em votação popular no site Rotten Tomatoes como a melhor série original Netflix.\n[…]\nA trama da série se passa na fictícia cidade alemã de Winden, quando quatro famílias iniciam uma busca desesperada por respostas após o desaparecimento de duas crianças que aparenta estar relacionado a um outro desaparecimento ocorrido 33 anos antes. Aos poucos, segredos familiares passam a ser expostos e um complexo mistério envolvendo três gerações começa a se revelar.\n[…]\nÉ a primeira série original alemã da Netflix, tendo estreado sua primeira temporada completa no dia 1º de dezembro de 2017. Após críticas positivas, Dark foi renovada para uma segunda temporada, lançada no dia 21 de junho de 2019. No trailer de lançamento da segunda temporada, a série foi anunciada como uma história contada em três 'ciclos' - cujo final ocorreu na sua terceira e última temporada, lançada no dia 27 de junho de 2020.\n[…]\nDark também ganhou o prémio Grimme-Preis, o mais importante da televisão alemã.\n[…]\nO desaparecimento recente de crianças na pequena cidade alemã de Winden remete a acontecimentos idênticos ocorridos há 33 anos e 66 anos e coloca quatro famílias no centro de uma teia de mistérios envolvendo uma misteriosa caverna, uma usina nuclear suspeita e um estranho homem recém-chegado na cidade.\n[…]\nNo trailer de lançamento da segunda temporada, lançado em maio de 2019, a série foi anunciada como uma trilogia, uma história contada em três \"ciclos\". Assim, a trilogia se encerrou na terceira temporada, que foi lançada no dia 27 de junho de 2020 - outra data que marca um grande evento na trama da série.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "The Crown",
+      "descricao": "Série dramática da Netflix, estreada em 2016, sobre o reinado da rainha Elizabeth II."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Ao longo das temporadas de The Crown, quantas atrizes diferentes interpretaram a rainha Elizabeth Segunda já adulta?",
+    "resposta": "Três",
+    "distratores": [
+      "Duas",
+      "Quatro",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Crown_(TV_series)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Crown_(TV_series)",
+        "situacao": "ok",
+        "texto": "The Crown is a historical drama television series about the reign of Queen Elizabeth II, created and principally written by Peter Morgan and produced by Left Bank Pictures and Sony Pictures Television for Netflix. Morgan developed the series from his film The Queen (2006) and his stage play The Audience (2013), which also focused on Elizabeth.\n[…]\nThe Crown portrays the life of Queen Elizabeth II from her wedding in 1947 to Philip Mountbatten, until the early 21st century:\n[…]\nThe sixth season has a rating of 54% on Rotten Tomatoes from 87 reviews and an average rating of 6.1/10; the critical consensus reads, \"Elizabeth Debicki's haunting portrayal does right by the Princess of Wales, but The Crown's final season often feels like a reign extended past its prime.\" On Metacritic, the season holds a score of 61 out of 100 based on 29 critics.\n[…]\nCostumes from both The Crown and The Queen's Gambit were displayed by Brooklyn Museum as part of its virtual exhibition The Queen and the Crown.\n[…]\nCostumes and props from The Crown were exhibited at the auctioneers Bonhams in Mayfair from January to 4 February 2024 ahead of a live sale on 7 February.\n[…]\nIn April 2022, it was reported that Netflix and Left Bank were having preliminary conversations about a prequel. It is believed that the series will span a period of nearly 50 years, starting with the death of Queen Victoria in 1901 and ending around the wedding of Princess Elizabeth in 1947, covering the reigns of Edward VII, George V, Edward VIII, and George VI. In April 2026 the prequel was confirmed, with Morgan expected to return.\n[…]\nThe Crown\n[…]\nThe Crown on Netflix\n[…]\nThe Crown Timeline on Netflix\n[…]\nThe Crown at IMDb\n[…]\nThe Crown at epguides.com\n[…]\nThe Crown on Instagram\n[…]\nThe Crown on X\n[…]\nThe Crown at Metacritic\n[…]\nThe Crown at Rotten Tomatoes\n[…]\n\"The Crown: Masterclass\". BAFTA Guru. 28 February 2018."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Crown",
+        "situacao": "ok",
+        "texto": "The Crown é uma série de televisão via streaming de origem britânica-americana do gênero drama biográfico, criada e escrita por Peter Morgan para a Netflix. A série conta a trajetória da rainha Elizabeth II do Reino Unido, desde o seu casamento em 1947 ao inicio dos anos 2000.\n[…]\nThe Crown recebeu aclamação da crítica pelas atuações, direção, roteiro, fotografia e a precisão histórica dos eventos ocorridos durante o reinado da rainha Elizabeth II. A cada duas temporadas, novos atores são escolhidos para interpretar os personagens principais. Claire Foy retrata a rainha nas duas primeiras temporadas, ao lado de Matt Smith como o príncipe Philip e Vanessa Kirby como a princesa Margaret.\n[…]\nEm janeiro de 2020, Imelda Staunton foi anunciada como sucessora de Colman como a Rainha para quinta e sexta temporadas. Em julho de 2020, Lesley Manville foi anunciado como interpretando a princesa Margaret nas duas temporadas finais, e no mês seguinte, Jonathan Pryce e Elizabeth Debicki foram escalados como o príncipe Phillip e Diana, Princesa de Gales, respectivamente para as duas últimas temporadas. Em outubro de 2020, Dominic West estava em negociações para interpretar o príncipe Charles.\n[…]\nA pausa do ano nas filmagens entre o final da quarta temporada e o início da quinta temporada foi incluída na programação de produção da série e não estava relacionada a Pandemia de Covid-19. Em 16 de fevereiro de 2022, itens anteriormente usados ​​na produção da série no valor de £ 150.000 foram roubados de três veículos, a maioria dos quais foram descritos como tendo \"valor limitado para revenda\", mas \"são valiosos como peças para a indústria cinematográfica do Reino Unido\".\n[…]\nThe Crown no Twitter\n[…]\nThe Crown no Rotten Tomatoes\n[…]\n«The Crown: Masterclass». BAFTA Guru. 28 de fevereiro de 2018",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Tom e Jerry",
+      "descricao": "Dupla de desenhos animados formada por um gato e um rato, criada por William Hanna e Joseph Barbera na MGM em 1940."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Antes de virarem clássicos da TV, os curtas de Tom e Jerry da MGM ganharam quantos Oscars de melhor curta de animação?",
+    "resposta": "Sete",
+    "distratores": [
+      "Dois",
+      "Quatro",
+      "Dez"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tom_and_Jerry"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tom_and_Jerry",
+        "situacao": "ok",
+        "texto": "Tom and Jerry (also known as Tom & Jerry) is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films produced by Metro-Goldwyn-Mayer, the series centers on the rivalry between a cat named Tom and a mouse named Jerry. Many shorts also feature several recurring characters.\n[…]\nIn April 2004, Warner Home Video released Tom and Jerry: The Classic Collection in Regions 2 and 4; a six disc double-sided DVD box-set in the United Kingdom, and 12 single-layer individual DVD volumes issued throughout Western Europe and Australia. The set includes almost every single Tom and Jerry cartoon released between 1940 and 1967 in chronological order; with the exceptions of The Million Dollar Cat and Busy Buddies, which were not included for unexplained reasons.\n[…]\nAlso the CinemaScope cartoons were presented in 4:3 pan and scan, with the exceptions of The Egg and Jerry, Tops with Pops and Feedin' the Kiddie which were released in non-anamorphic widescreen as seen on The Art of Tom and Jerry laserdiscs. The Classic Collection also contained no bonus material. Unlike the U.S. DVDs however, Mouse Cleaning and Casanova Cat were included on these sets and were presented uncut.\n[…]\nOn June 23, 2009, Warner Home Video released the Tom and Jerry: The Chuck Jones Collection DVD, which contains all thirty-four shorts as well as special features. Prior to 2015, the Gene Deitch-era Tom and Jerry shorts saw limited availability on home media, with the most notable release being on the U.K. Classic Collection box-set. The Gene Deitch-era Tom and Jerry shorts were released in a one-disc set titled Tom and Jerry: The Gene Deitch Collection in June 2015.\n[…]\nTom and Jerry Tales § Episodes\n[…]\nAdams, T.R. (1991). Tom and Jerry: Fifty Years of Cat and Mouse. Crescent Books. ISBN 0-517-05688-7."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tom_%26_Jerry",
+        "situacao": "ok",
+        "texto": "Tom and Jerry (prt/bra: Tom e Jerry ou Tom & Jerry) é uma popular série de filmes de curtas-metragens americana criado por William Hanna e Joseph Barbera, produzida entre 10 de fevereiro de 1940 e 7 de setembro de 1967 para a Metro-Goldwyn-Mayer.\n[…]\nQuando a MGM Cartoon Studio (local onde os desenhos eram produzidos) foi fechada, causou o fim do desenho original. O último dos 114 episódios foi lançado em 1958. A série original foi indicada 13 vezes ao Oscar de melhor curta de animação entre 1943 e 1954, e ganhou sete.\n[…]\nEm 1975, Tom e Jerry se reuniram com Hanna e Barbera, que produziram novos desenhos animados de Tom e Jerry para as manhãs de sábado. Estes 48 curtas de sete minutos foram pareados com João Grandão e Rabugento, para criar o Tom & Jerry/Grape Ape Show, The Tom e Jerry /Grape Ape/Mumbly Show, e The Tom e Jerry/Mumbly Show, todos os quais inicialmente foram exibidos no ABC Saturday Morning entre 6 de setembro de 1975 e 3 de setembro de 1977.\n[…]\nO diretor e animador, Spike Brandt foi indicado ao prêmio Annie de melhor animação dos personagens. O curta estreou no Cartoon Network em 27 de janeiro de 2006.\n[…]\nEm 2013, o Cartoon Network do Brasil retirou 27 curtas clássicas de \"Tom and Jerry\" e de \"Patolino e Pernalonga em Milan\" do ar por serem \"politicamente incorretas\". O canal analisou o conteúdo e descreveu como violento e impunível e por isso decidiram censurar os episódios de modo a enquadrar o público-alvo e as novas séries do canal. A notícia foi oficialmente dada e fãs clássicos do canal reagiram com protestos pelas censuras, achando-as desnecessárias.\n[…]\n«Jogos Tom and Jerry» (em inglês)\n[…]\n«Perfil Tom and Jerry no The Cartoon Scrapbook» (em inglês)  Arquivado em 26 de setembro de  2011, no Wayback Machine.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Fawlty Towers",
+      "descricao": "Série de comédia britânica de 1975 sobre o hoteleiro Basil Fawlty e seu hotel em Torquay."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Considerada uma das maiores comédias britânicas, Fawlty Towers, com John Cleese, teve quantos episódios ao todo?",
+    "resposta": "Doze",
+    "distratores": [
+      "Seis",
+      "Vinte e quatro",
+      "Quarenta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fawlty_Towers"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fawlty_Towers",
+        "situacao": "ok",
+        "texto": "Fawlty Towers is a British television sitcom written by John Cleese and Connie Booth, originally broadcast on BBC Two in 1975 and 1979. Two series of six episodes each were made. Set in Fawlty Towers, a dysfunctional hotel in the English seaside town of Torquay in Devon, the series was inspired by the Gleneagles Hotel in Torquay, where Cleese and the rest of the Monty Python group stayed in 1970.\n[…]\nIn 2009, Tiger Aspect Productions produced a two-part documentary for the digital comedy channel Gold, called Fawlty Towers: Re-Opened. The documentary features interviews with all four main cast members, including Connie Booth, who had refused to talk about the series for 30 years. John Cleese said at the 30-year reunion in May 2009 that they would never make another episode of the comedy because they are \"too old and tired\" and expectations would be too high.\n[…]\nThe first CD release of the audio versions was in a box set in 2003, titled Fawlty Towers – The Collector's Edition, which included spoken introductions to each episode by Cleese, and an interview with Scales and Sachs.\n[…]\nSeries one was released on UMD Video for PSP. In July 2009, BBC America announced a DVD reissue, released on 20 October 2009. Titled Fawlty Towers Remastered: Special Edition, contains commentary by Cleese on every episode as well as remastered video and audio. All episodes have been made available for digital purchase on platforms such as Amazon Prime Video and iTunes in the UK. In 2021, all episodes were made available on the BBC iPlayer.\n[…]\nOn 9 October 2025, Fawlty Towers: Fawlts and All: My Favourite Moments, authored by John Cleese, was released to mark the show's 50th anniversary, published by Headline Publishing Group.\n[…]\nCleese, John; Connie Booth (1988). The Complete Fawlty Towers. London: Methuen. ISBN 0-413-18390-4.\n[…]\nFawlty Towers at IMDb\n[…]\nFawlty Towers – All Episodes edited together at Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fawlty_Towers",
+        "situacao": "ok",
+        "texto": "Fawlty Towers (pt: A Grande Barraca ou Fawlty Towers) foi uma série de televisão britânica feita pela BBC e emitida pela primeira vez em 1975 pela BBC Two. Foram produzidos apenas doze episódios, mas a série foi um marco da comédia dos anos setenta e influenciou várias outras produções posteriores. A primeira temporada foi produzida e dirigida por John Howard Davies e a segunda, de 1979, foi produ\n[…]\nO enredo desenrola-se num hotel fictício chamado \"Fawlty Towers\" na cidade de Torquay, no litoral sul inglês. A série foi escrita por John Cleese e Connie Booth, ambos também intérpretes.\n[…]\nA lista de \"Cem melhores programas da televisão britânica\" elaborada pelo \"Instituto de Cinema Britânico\" em 2000 traz Fawlty Towers em primeiro lugar.. A série também foi votada como a quinta melhor na enquete Britain's Best Sitcom, promovida pela BBC em 2004.\n[…]\nNum hotel ficcional chamado Fawlty Towers, situado em Torquay, na região do Devon, centrando-se no seu infame proprietário Basil Fawlty (John Cleese), a sua dominadora mulher Sybil (Prunella Scales), o cozinheiro espanhol Manuel (Andrew Sachs) e a empregada Polly (Connie Booth). O irascível Basil passa a vida a insultar os clientes, assim como a sua mulher e empregados, gerando gargalhadas constantes pelo seu mau humor e modos pouco simpáticos.\n[…]\nBasil Fawlty\n[…]\nJohn Cleese interpreta o proprietário do hotel, de personalidade esnobe, mesquinha, xenófoba e paranóica, sempre em busca de transparecer pertencer à classe alta\n[…]\nSybil Fawlty\n[…]\nTrês BAFTAs foram concedidos para a série. Ambas temporadas venceram na categoria \"Best Situation Comedy\", dado ao diretor e produtor de cada uma delas. John Cleese ainda ganhou um prêmio individual na categoria \"Best Light Entertainment Performance\" por sua atuação como Basil Fawlty na segunda temporada.\n[…]\nFawlty Towers no IMDb\n[…]\nFawlty Towers no website da BBC",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "O Prisioneiro",
+      "descricao": "Série britânica de 1967 estrelada por Patrick McGoohan, sobre um agente preso numa vila misteriosa."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na série O Prisioneiro, o agente preso na misteriosa Vila perde o nome e passa a ser chamado por um número. Qual?",
+    "resposta": "Seis",
+    "distratores": [
+      "Um",
+      "Dois",
+      "Sete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Prisoner",
+      "https://en.wikipedia.org/wiki/Number_Six_(The_Prisoner)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Prisoner",
+        "situacao": "ok",
+        "texto": "The Prisoner is a British television series created by Patrick McGoohan, who stars as Number Six, a nameless British intelligence agent who is abducted and imprisoned in a mysterious coastal village after resigning from his position. The allegorical plotlines of the series contain elements of science fiction, psychological drama, and spy fiction. It was produced by Everyman Films for distribution \n[…]\nThe finale of The Prisoner left numerous open-ended questions, generating controversy and letters of outrage. Following the final episode, McGoohan \"claimed he had to go into hiding for a while\".\n[…]\nNumerous editions of The Prisoner were released in the UK by companies such as Carlton, the copyright holder of the TV series. The first VHS and Betamax releases were through Precision Video in 1982 from 16mm original prints. They released four tapes, each with two episodes edited together: \"The Arrival\"/\"The Schizoid Man\", \"Many Happy Returns\"/\"A. B. and C.\", \"Checkmate\"/\"Free For All\", and \"The General\"/\"The Chimes of Big Ben\", thus omitting the final storyline.\n[…]\nFairlough, Robert, ed. (1 February 2006). The Prisoner: The Original Scripts. Vol. 2. Foreword by Roger Parkes. Reynolds & Hearn. ISBN 978-1-903111-81-9. OCLC 61145235.\n[…]\nWhite, Matthew; Ali, Jaffer (1988). The Official Prisoner Companion. New York: Warner Books. ISBN 978-0-446-38744-6.\n[…]\nThe Prisoner at IMDb\n[…]\nThe Prisoner at Rotten Tomatoes\n[…]\nThe Prisoner Puzzle—1976 companion book of a television show discussing theories about the series]\n[…]\n\"In pictures: The Prisoner at 50\"—BBC News article\n[…]\nSix ways cult show The Prisoner prepared us for the modern world – BFI article\n[…]\n\"Prisoner, The (1967–68)\"—Article at British Film Institute Screen Online\n[…]\n\"Why The Prisoner Endures\" by John Fund, The Wall Street Journal, 2009-01-20\n[…]\nSix of One, the appreciation society for The Prisoner series"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Number_Six_(The_Prisoner)",
+        "situacao": "ok",
+        "texto": "Number Six is the central character in the 1967–1968 television series The Prisoner. The unnamed character in the original TV series was played by series co-creator Patrick McGoohan. For one episode, \"Do Not Forsake Me Oh My Darling\", Number Six was portrayed by Nigel Stock due to McGoohan being away filming the movie Ice Station Zebra.\n[…]\nIn the late 1980s, DC Comics published Shattered Visage, a four-issue comic book based on The Prisoner, with events taking place twenty years after the television series. The  first official follow-up to the TV show, it was illustrated by Mister X creator Dean Motter and co-written with Mark Askwith.\n[…]\nHowever, script editor George Markstein, who co-created the series with McGoohan, always claimed that Number Six is John Drake. According to Markstein, he conceived The Prisoner as a sequel of Danger Man when McGoohan resigned from the role.\n[…]\nWhile John Drake and Number Six look identical and have the same moral integrity, profession, skills, and mannerisms, some differences are noteworthy. Drake is a less emotional, more restrained character, while Number Six has a tendency to act out in anger. Drake is also a regular smoker and drinker, while Number Six smokes only twice in The Prisoner and claims to rarely drink.\n[…]\nThe Simpsons episode \"The Computer Wore Menace Shoes\", parodies The Prisoner, with McGoohan reprising his role as Number Six and Homer Simpson as Number Five.\n[…]\nSeveral Iron Maiden songs allude to the original series. In the song, \"The Prisoner\", lines from the original series are played at the beginning of the song. The Village is also the setting of their song \"Back in the Village.\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Prisoner_%28s%C3%A9rie_de_TV%29",
+        "situacao": "ok",
+        "texto": "The Prisoner é uma série de televisão britânica criada por Patrick McGoohan, com possíveis contribuições de George Markstein. McGoohan interpreta o Número Seis, um agente da inteligência britânica que é sequestrado e aprisionado em um misterioso vilarejo costeiro após renunciar ao seu cargo. As tramas alegóricas da série contêm elementos de ficção científica, thriller psicológico e Spy-Fi. Foi pro\n[…]\nUm dos principais temas da série é o conflito entre o individualismo, representado pelo Número Seis, e o coletivismo, representado pela Vila. De acordo com McGoohan, o objetivo da série era demonstrar um equilíbrio entre as duas ideologias.\n[…]\nEm 1988, a DC Comics lançou Shattered Visage, a primeira parte de uma série de quatro partes de histórias em quadrinhos baseadas nos personagens da série de TV. Em 2018, a Titan Comics relançou Shattered Visage, além de lançar The Prisoner: The Uncertainty Machine, outra série de quadrinhos em quatro partes sobre outro espião que retorna à Vila. Embora o Número Seis de Patrick McGoohan seja retratado nas capas da série de 2018, o personagem não desempenha nenhum papel direto na história.\n[…]\nEm 2009, o programa foi refeito como uma minissérie, também intitulada The Prisoner, que foi ao ar nos EUA pela AMC. A minissérie é estrelada por Jim Caviezel como o Número Seis e Ian McKellen como o Número Dois, e foi filmada em locações na Namíbia e na África do Sul. A nova série recebeu principalmente críticas desfavoráveis no Metacritic, com uma classificação de 45/100 por 21 críticos e 3,6/10 por 82 usuários em julho de 2018.\n[…]\nEm 5 de janeiro de 2015, a Big Finish Productions, mais conhecida por sua longa série de dramas em áudio licenciados pela BBC baseados em Doctor Who, anunciou que estaria produzindo dramas em áudio licenciados baseados em The Prisoner, com o primeiro lançamento programado para 2016, e que Mark Elstob interpretaria o Número Seis.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "The Big Bang Theory",
+      "descricao": "Sitcom americana exibida de 2007 a 2019, sobre um grupo de jovens cientistas de Pasadena, na Califórnia."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em The Big Bang Theory, Sheldon bate na porta de Penny e chama o nome dela repetindo a sequência quantas vezes?",
+    "resposta": "Três",
+    "distratores": [
+      "Duas",
+      "Quatro",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sheldon_Cooper"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sheldon_Cooper",
+        "situacao": "ok",
+        "texto": "Sheldon Lee Cooper, BS, MS, MA, PhD, ScD, is a fictional character and one of the main protagonists in the 2007–2019 CBS television series The Big Bang Theory and the titular main protagonist of its 2017–2024 spin-off series Young Sheldon, portrayed by actors Jim Parsons and Iain Armitage respectively (with Parsons as the latter series' narrator).\n[…]\nThe adult Sheldon has stated that both Missy and George Jr. beat up Sheldon during their childhoods, and their mother describes them to be \"dumb as soup\". In the pilot episode of The Big Bang Theory, Sheldon tells Leonard that DNA is not a guarantee of an intelligent offspring as he himself is a theoretical physicist and his twin sister is a hostess at Fuddruckers: in the series finale of Young Sheldon, he has a similar conversation with Amy regarding their children.\n[…]\nIn the Young Sheldon episode \"Vanilla Ice Cream, Gentleman Callers, and a Dinette Set\", it is revealed that Sheldon has children in the future, but this is never referenced or confirmed in The Big Bang Theory. In the Young Sheldon episode \"Graduation\" (season 4 episode 1), Sheldon mentions his son, Leonard Cooper. He says that he wanted to name him Leonard Nimoy Cooper, but his wife Amy objected.\n[…]\nIn The Big Bang Theory, Sheldon did express an interest in having children with Amy, albeit an unfeasibly large number in order to serve as subjects for social or behavioral experiments.\n[…]\nBoth the character and Parsons' portrayal have received widespread acclaim and are often cited as the main reason for the program's success by both critics and fans. James Chamberlin of IGN wrote: \"It's hard to imagine what The Big Bang Theory would be if it weren't for Jim Parsons' great portrayal of Sheldon Cooper\". Matt Roush of TV Guide stated that \"there's a spark of divine inspiration in Jim Parsons' uproarious Sheldon Cooper\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sheldon_Cooper",
+        "situacao": "ok",
+        "texto": "Sheldon Lee Cooper (com títulos de bacharel (BS), mestre (MS, MA), doutor (PhD) e doutor em ciências), é um personagem fictício e um dos principais protagonistas da série de televisão The Big Bang Theory (2007–2019), exibida pela CBS, além de protagonista titular da série spin-off Young Sheldon (2017–2024), interpretado pelos atores Jim Parsons e Iain Armitage, respectivamente (com Parsons atuando\n[…]\nNa fase adulta, Sheldon é um físico teórico sênior no Instituto de Tecnologia da Califórnia (Caltech) e, durante as dez primeiras temporadas de The Big Bang Theory, divide um apartamento com seu colega de trabalho e melhor amigo, Leonard Hofstadter (Johnny Galecki). Ambos mantêm uma amizade próxima e trabalham ao lado de Howard Wolowitz (Simon Helberg) e Rajesh Koothrappali (Kunal Nayyar).\n[…]\nCada vez que alguém faz algo que bate de frente com suas regras, como Penny fez na segunda temporada ao tocar em sua comida, a pessoa comete um \"strike\". Ao completar três \"strikes\", esta pessoa estará fora de seu grupo social por um ano ou a pessoa poderá preencher um relatório e assistir a uma aula sobre as regras de convivência, proferida por ele mesmo.\n[…]\nOs personagens de The Big Bang Theory acham também que Sheldon tem grande semelhança com Spock, o meio humano/meio vulcano, primeiro-oficial da Enterprise em Star Trek. Além de se parecerem fisicamente, ambos raciocinam com base na lógica. Um dos episódios mais emocionantes para Sheldon é quando Penny o presenteia com um guardanapo usado e autografado por Leonard Nimoy.\n[…]\nO personagem foi um dos grandes fatores de sucesso de The Big Bang Theory e até hoje é um ícone da cultura pop. A espécie de abelha Euglossa bazinga, descrita em 2012 e encontrada no Brasil, foi batizada em homenagem a Sheldon Cooper. O epíteto específico é uma referência ao bordão \"bazinga\" do personagem.\n[…]\nSheldon Cooper (em inglês) no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Friends",
+      "descricao": "Sitcom americana sobre seis amigos que vivem em Nova York, exibida de 1994 a 2004."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Logo depois do fim de Friends, em 2004, qual dos seis amigos ganhou uma série própria, passada em Los Angeles?",
+    "resposta": "Joey Tribbiani",
+    "distratores": [
+      "Chandler Bing",
+      "Phoebe Buffay",
+      "Ross Geller"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joey_(TV_series)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Joey_(TV_series)",
+        "situacao": "ok",
+        "texto": "Joey is an American sitcom created by Scott Silveri and Shana Goldberg-Meehan. It is a spin-off sequel to Friends, with Matt LeBlanc reprising his role as Joey Tribbiani. It premiered on NBC on September 9, 2004. Midway through the second season, the show was placed on hiatus but returned on March 7, 2006. Only one more episode aired on NBC, before the show was canceled due to low ratings in May 2\n[…]\nAfter the events of Friends, Joey Tribbiani has struck out on his own and moved to Hollywood, hoping to truly make it as an actor. After reuniting with his high-strung sister, Gina, a hairdresser, Joey moves in with his genius twenty-year-old nephew Michael, who is a rocket scientist. He begins a tentative romance with his superintendent, Alexis Garrett, and becomes close friends with fellow aspiring actor Zach Miller.\n[…]\nMatt LeBlanc as Joey Tribbiani, a struggling actor and food lover who becomes famous for his role on Days of Our Lives as Dr. Drake Ramoray. Joey is a womanizer with many girlfriends throughout the series, in keeping with his character on Friends. The series roughly picks up where Friends left off, with Joey at the beginning of the show making a move from New York to Los Angeles to proceed with his acting career. He is constantly talking about food or eating sandwiches or pizza.\n[…]\nBen Falcone as Howard Peckerman, Joey's friend and neighbor.\n[…]\nAdditionally, Robert Costanzo reprised his role as Joey's father, Joey Tribbiani Sr., who originated in the first season of Friends, in \"Joey and the Dad\", making Costanzo the only actor besides LeBlanc to play the same character in both series. Christina Ricci appears as Mary-Therese in \"Joey and the Fancy Sister\", taking over the role from Mimi Lieber, who (along with Gina, then played by K.J. Steinberg) first appeared in a third-season episode of Friends.\n[…]\nJoey at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Joey_%28s%C3%A9rie_de_televis%C3%A3o%29",
+        "situacao": "ok",
+        "texto": "Joey (No Brasil, Vida de Artista, e em Portugal, Joey) é uma sitcom estadunidense criada por Scott Silveri e Shana Goldberg-Meehan, que estreou na NBC em 9 de setembro de 2004, como um spin-off da série de televisão Friends. A série seguiu um dos personagens principais de Friends, Joey Tribbiani, enquanto ele se mudava para Hollywood com a esperança de se tornar um grande ator. Joey ficou no ar po\n[…]\nA série foi exibida também no Brasil em 2006 pelo SBT, em versão dublada e sendo exibida nas madrugadas da emissora. Na TV paga, foi exibida no canal Warner Channel, no áudio original com legendas.\n[…]\nApós o final da série Friends em 2004, Matt LeBlanc assinou um contrato para a possível realização de um spin-off. Os produtores de Friends, Marta Kauffman e David Crane, não estavam interessados nesse spin-off. O episódio piloto foi lançado em screener para um público teste e membros da indústria do entretenimento para uma prévia do show e angariação de negócios.\n[…]\nO screener foi posteriormente vazado na internet e, portanto, recebeu críticas muito mais amplas do que o inicialmente esperado e concebido. Houve poucas diferenças entre o episódio piloto vazado em screener e a versão que foi originalmente transmitida. A série teve um bom desempenho nas classificações da Nielsen Ratings em sua primeira temporada (2004–2005) e foi posteriormente renovada para uma segunda temporada (2005–2006).\n[…]\nJoey no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "The Office (série americana)",
+      "descricao": "Sitcom americana exibida de 2005 a 2013, em estilo de falso documentário, sobre os funcionários de uma filial da empresa de papel Dunder Mifflin."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A versão americana de The Office adapta uma série britânica criada e estrelada por qual comediante?",
+    "resposta": "Ricky Gervais",
+    "distratores": [
+      "Steve Carell",
+      "Rowan Atkinson",
+      "Sacha Baron Cohen"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Office_(British_TV_series)",
+      "https://en.wikipedia.org/wiki/The_Office_(American_TV_series)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Office_(British_TV_series)",
+        "situacao": "ok",
+        "texto": "The Office is a British mockumentary television sitcom first broadcast in the United Kingdom on BBC Two on 9 July 2001. Created, written, and directed by Ricky Gervais and Stephen Merchant, it follows the day-to-day lives of office employees in the Slough branch of the fictional Wernham Hogg paper company. Gervais also starred in the series as the central character, David Brent.\n[…]\nThe series is a mockumentary based in a branch of fictional British paper company Wernham Hogg (where \"life is stationery\") located in the Slough Trading Estate. The branch is headed by general manager David Brent (Ricky Gervais), aided by his team leader and Assistant to the Regional Manager Gareth Keenan (Mackenzie Crook). Much of the series's comedic success stems from Brent, who frequently makes attempts to win favour with his employees and peers with embarrassing or disastrous results.\n[…]\nRicky Gervais as David Brent, the general manager of the Slough branch of Wernham Hogg paper merchants. Immature and arrogant, he believes he is a lovable rogue in the business world and a Renaissance man, talented in philosophy, music and comedy. Although he thinks he is funny, caring, and respected, others perceive him as annoying, insensitive, and embarrassing.\n[…]\nThe Office's success led to a number of localised adaptations based on its basic story and themes, produced for the television markets of other nations, creating an international The Office franchise, including the successful and Primetime Emmy Award-winning American remake on NBC starring Steve Carell as David Brent's counterpart, Michael Scott, and on which Gervais and Merchant acted as executive producers.\n[…]\nThe Brent character also featured in the 2016 film David Brent: Life on the Road, this time with the contributions of Gervais but not Merchant.\n[…]\n\"Ricky Gervais\". Screen online.org.uk. Retrieved 27 January 2015.\n[…]\nThe Office at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Office_(American_TV_series)",
+        "situacao": "ok",
+        "texto": "The Office is an American mockumentary sitcom television series. It is based on the BBC series The Office created by Ricky Gervais and Stephen Merchant, and adapted for NBC by Greg Daniels. The show depicts the everyday work lives of office employees at the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company. It aired from March 24, 2005, to May 16, 2013, for a total of nin\n[…]\nSilverman offered the role to Ricky Gervais, who played David Brent in the British series, but he declined as he felt it would not make sense and did not want to move to the United States.\n[…]\nEntertainment Weekly writer Mark Harris echoed these sentiments a week later, stating, \"Thanks to the fearless Steve Carell, an ever-stronger supporting cast, and scripts that spew American corporate absurdist vernacular with perfect pitch, this undervalued remake does the near-impossible—it honors Ricky Gervais' original and works on its own terms.\" The A.V.\n[…]\nThe Office co-creator Ricky Gervais wrote in his blog, referring to \"Search Committee,\" particularly Warren Buffett's guest appearance, \"If you're going to jump a shark, jump a big one,\" and compared the episode to the Chris Martin episode of Gervais' other series, Extras (although he later said on his website, \"I fucking didn't [diss The Office], that's for sure\"). Some critics said the series should have ended after the departure of Steve Carell.\n[…]\nIn May 2024, Peacock announced a series order for the untitled follow-up series, which centers around the documentary crew from the original series finding a new subject in a dying Midwestern historic newspaper and the publisher trying to revive it with volunteer reporters. The follow-up has Daniels, Michael Koman, Howard Klein, Ben Silverman, Banijay Americas and the creatives behind the original British series (Ricky Gervais and Stephen Merchant) as executive producers.\n[…]\nThe Office at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Office_%28Reino_Unido%29",
+        "situacao": "ok",
+        "texto": "The Office (em Portugal intitulada The Office - A Empresa) é uma série britânica de humor televisivo. Foi transmitida pela primeira vez em 9 de Julho de 2001, pela rede de televisão BBC. A série foi criada e dirigida por Ricky Gervais e Stephen Merchant. Após o sucesso desta série, foi lançada uma versão norte-americana em 24 de Março de 2005, na NBC, também chamada The Office.\n[…]\nThe Office - Versão americana da comédia televisiva.\n[…]\nThe Office no IMDb\n[…]\n«The Office UK - BBC] - Página oficial da série inglesa (canal BBC)» (em inglês)\n[…]\n«The Office versus The Office] — Compara e constrasta as duas versões de The Office» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Os Flintstones",
+      "descricao": "Desenho animado americano de 1960 sobre uma família da Idade da Pedra."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O desenho Os Flintstones foi inspirado em qual sitcom americana dos anos cinquenta, sobre um motorista de ônibus e seu vizinho?",
+    "resposta": "The Honeymooners",
+    "distratores": [
+      "I Love Lucy",
+      "Papai Sabe Tudo",
+      "Leave It to Beaver"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Flintstones"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Flintstones",
+        "situacao": "ok",
+        "texto": "The Flintstones is an American animated sitcom by Hanna-Barbera Productions. It was originally broadcast on ABC from September 30, 1960, to April 1, 1966 as the first animated series with a prime-time slot on television, as well as the first animated sitcom.\n[…]\nHanna considered The Honeymooners to be one of the finest comedies on television.\n[…]\nFred Flintstone physically resembles both the first voice actor who played him, Alan Reed, and Jackie Gleason, whose series, The Honeymooners, inspired The Flintstones. The voice of Barney Rubble was provided by voice actor Mel Blanc, except for five episodes during the second season (the first, second, fifth, sixth, and ninth); Hanna-Barbera regular Daws Butler filled in and provided the voice of Barney while Blanc was incapacitated by a near-fatal car accident in 1961.\n[…]\nWilliam Hanna was honest about the inspiration, saying, \"At that time, The Honeymooners was the most popular show on the air, and for my bill, the funniest. The characters, I thought, were terrific. Now, that influenced greatly what we did with The Flintstones ...\n[…]\nJackie Gleason, creator of The Honeymooners, considered suing Hanna-Barbera Productions, but decided not to since he did not want to be known as \"the guy who yanked Fred Flintstone off the air\". The Bickersons creator Philip Rapp settled out of court with Gleason over The Honeymooners' similarities to his show. Another influence was noted during Hanna-Barbera's tenure at MGM, where they were in a friendly competition with fellow cartoon director Tex Avery.\n[…]\nDinosaurs (TV series), an American family sitcom television series that aired on ABC with a similar premise but is live-action and with anthropomorphic dinosaurs\n[…]\nThe Flintstones at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Os_Flintstones",
+        "situacao": "ok",
+        "texto": "Os Flintstones (em inglês: The Flintstones) é uma série de televisão animada que foi exibida de 1960 a 1966 e criada por William Hanna e Joseph Barbera. O desenho retrata o cotidiano de uma família de classe média da Idade da Pedra. Calcula-se que já foi assistido por 300 milhões de espectadores em 80 países, sendo dublado em 22 idiomas. A série estreou às 20:30 do dia 30 de setembro de 1960, no c\n[…]\nA série se baseou no seriado dos anos 50 The Honeymooners, embora a caracterização inicial da voz de Barney fosse a de Lou Costello. William Hanna admitiu que \"Naquela época, 'The Honeymooners' era o programa mais popular no ar, e para minha conta, foi o programa mais engraçado em exibição. Os personagens, eu pensei, foram ótimos. Agora, isso influenciou muito o que nós fizemos com os Flintstones...\n[…]\n'The Honeymooners' ​​estavam lá, e nós usamos isso como uma espécie de base para o conceito.\" No entanto, Joseph Barbera repudiou essas alegações em uma entrevista separada, afirmando que, \"eu não me lembro de mencionar The Honeymooners quando eu vendi a série. Mas se as pessoas quiserem comparar The Flintstones aos Honeymooners, então ótimo. É um elogio total.\n[…]\nThe Honeymooners foi um dos maiores shows já escritos.\" Jackie Gleason, criador de The Honeymooners, considerou processar a Hanna-Barbera Productions, mas decidiu que ele não queria ser conhecido como \"o cara que tirou Fred Flintstone do ar\". Outra influência foi notada durante o período da dupla Hanna-Barbera na MGM, onde participaram de uma competição amistosa com o diretor de animação Tex Avery.\n[…]\nO diretor Seth MacFarlane é quem vai comandar o remake do desenho The Flintstones, um dos maiores clássicos da Hanna-Barbera. Após anos de complicações, o acordo entre a Fox Entertainment Group e a Warner Bros, que possui os direitos da série, foi finalmente confirmado, resultando em uma produção conjunta entre os dois estúdios.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Monty Python",
+      "descricao": "Grupo de humoristas britânicos autor da série Monty Python's Flying Circus."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A palavra spam, usada para mensagens indesejadas na internet, foi tirada de um quadro de que grupo de humor britânico?",
+    "resposta": "Monty Python",
+    "distratores": [
+      "The Goons",
+      "The Goodies",
+      "The Two Ronnies"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spam_(Monty_Python_sketch)",
+      "https://en.wikipedia.org/wiki/Spamming"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spam_(Monty_Python_sketch)",
+        "situacao": "ok",
+        "texto": "\"Spam\" is a Monty Python sketch, first televised in 1970 on Monty Python's Flying Circus (series 2, episode 12, \"Spam\") and written by Terry Jones and Michael Palin. In the sketch, two customers are lowered by wires into a greasy-spoon café and try to order a breakfast from a menu that includes Spam in almost every dish, much to the consternation of one of the customers.\n[…]\nThe sketch premiered on 15 December 1970 as the final sketch of the 25th show of Monty Python's Flying Circus, and the end credits for the episode were changed so all members of the crew has either Spam or some other food item from the menu added to their names.\n[…]\nThis sketch has also been featured in several Monty Python videos including Parrot Sketch Not Included – 20 Years of Monty Python. A lead sheet for the song appears in Monty Python's Big Red Book. The DVD release of the episode contains a deliberate subtitling error.\n[…]\nEgg, bacon, sausage, and Spam\n[…]\nThe Python programming language, named after Monty Python, prefers to use spam, ham, and eggs as metasyntactic variables, instead of the traditional foo, bar and baz.\n[…]\nSpam makers Hormel, while concerned with the use of the word spam for junk email, have been supportive of Monty Python and their sketch (despite the connection). Hormel issued a special tin of Spam for the Broadway premiere of Eric Idle's musical Spamalot based on Monty Python and the Holy Grail.\n[…]\nIn 2007 the company decided that such publicity was part of their corporate image, and sponsored a game where their product is strongly associated with Monty Python, featuring a product with \"Stinky French Garlic\" as part of the promotion of Spamalot. For the company's 75th anniversary in 2012, they introduced Sir Can-A-Lot, a knight character, appearing on the product's packaging with the phrase \"Glorious SPAM®!\".\n[…]\nFull \"Spam!\" sketch from the official Monty Python on YouTube"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Spamming",
+        "situacao": "ok",
+        "texto": "Spamming is the use of messaging systems to send multiple unsolicited messages (spam) to large numbers of recipients for the purpose of commercial advertising, non-commercial proselytizing, or any prohibited purpose (especially phishing). It can also be repeatedly sending the same message to the same user. The most widely recognized form of spam is email spam.\n[…]\nSimilar abuses also occur in other media: instant messaging, Usenet newsgroup, Web search engines, blogs, wiki, online classified ads, mobile phone messaging, Internet forum,  fax transmissions, social spam, mobile apps, television advertising, and file sharing. It is named after Spam, a luncheon meat, by way of a Monty Python sketch about a restaurant that has Spam in almost every dish, in which Vikings annoyingly sing \"Spam\" repeatedly.\n[…]\nThe term spam is derived from the 1970 \"Spam\" sketch of the BBC sketch comedy television series Monty Python's Flying Circus. The sketch, set in a cafe, has a waitress reading out a menu where every item but one includes the Spam canned luncheon meat. As the waitress recites the Spam-filled menu, a chorus of Viking patrons drown out all conversations with a song, repeating \"Spam, Spam, Spam, Spam… Lovely Spam! Wonderful Spam!\".\n[…]\nIt later came to be used on Usenet to mean excessive multiple posting—the repeated posting of the same message. The unwanted message would appear in many, if not all newsgroups, just as Spam appeared in all the menu items in the Monty Python sketch. One of the earliest people to use \"spam\" in this sense was Joel Furr. This use had also become established—to \"spam\" Usenet was to flood newsgroups with junk messages.\n[…]\nBrunton, Finn (2013). Spam: A Shadow History of the Internet. Cambridge: The MIT Press. ISBN 978-0-262-31395-7.\n[…]\nReaction to the DEC Spam of 1978 Overview and text of the first known internet e-mail spam."
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Power Rangers (Mighty Morphin)",
+      "descricao": "Série americana de ação de 1993, Mighty Morphin Power Rangers, sobre adolescentes que viram heróis de uniformes coloridos."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "As cenas de luta dos Power Rangers uniformizados foram aproveitadas de qual franquia japonesa de heróis?",
+    "resposta": "Super Sentai",
+    "distratores": [
+      "Ultraman",
+      "Kamen Rider",
+      "Jaspion"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers",
+      "https://en.wikipedia.org/wiki/Super_Sentai"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers",
+        "situacao": "ok",
+        "texto": "Mighty Morphin Power Rangers (MMPR) is an American superhero television series produced by Saban Entertainment, which aired from August 28, 1993 to November 27, 1995, on the Fox Kids programming block, lasting three seasons. The series drew elements and stock footage from Super Sentai, a Japanese television series by Toei Company. Each season was inspired by Kyoryu Sentai Zyuranger, Gosei Sentai D\n[…]\nAccording to Levy, they \"shopped it around for at least five years, but nobody wanted it.\" Saban only found success in 1992, when he found a network executive familiar with Super Sentai, Fox Kids' Margaret Loesch, that during her time with Marvel Productions saw partner Stan Lee trying to sell the Sun Vulcan series to various television stations such as ABC, CBS, NBC, and HBO.\n[…]\nAs part of the initial licensing agreement between Saban and Toei Company, the producers of the Super Sentai, additional footage was filmed in the Greater Tokyo Area in Japan, and insert shots of the villain characters (particularly those played by Machiko Soga, Ami Kawai, and Hideaki Kusaka) were filmed in order to allow more in-depth, extensive scenes of the villains who would be unable to interact with the main cast due to the nature of the show.\n[…]\nMighty Morphin Power Rangers (Super Nintendo Entertainment System, Game Boy) (1994)\n[…]\nPower Rangers: Super Legends (PlayStation 2, Nintendo DS) (2007)\n[…]\nIn March 2016, BOOM! Studios released a new Mighty Morphin Power Rangers comic series, based on the original series but serves as a reboot taking place in the modern world. In July 2017, a second series titled Go Go Power Rangers was released and takes place before Tommy joins the team.\n[…]\nMighty Morphin Power Rangers: The Movie (1995)\n[…]\nPower Rangers (2017)\n[…]\nMighty Morphin Power Rangers: Once & Always (2023)\n[…]\nNinja Sentai Kakuranger\n[…]\nMighty Morphin Power Rangers at IMDb\n[…]\nMighty Morphin Power Rangers | Season 1 playlist on YouTube"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Super_Sentai",
+        "situacao": "ok",
+        "texto": "The Super Sentai Series (スーパー戦隊シリーズ, Sūpā Sentai Shirīzu; lit. \"Super Squadron Series\") is a Japanese superhero team media franchise consisting of multiple television series and films produced by Toei Company and aired by TV Asahi. The shows are of the tokusatsu genre, featuring live action characters and colorful special effects. Prior to its hiatus, beginning in 2026, Super Sentai aired alongsid\n[…]\nIn North America, the Super Sentai series is best known as the source material for the Power Rangers series.\n[…]\n1994: Super Sentai World\n[…]\nIn 1993, American production company Saban Entertainment adapted 1992's Kyōryū Sentai Zyuranger into Mighty Morphin Power Rangers for the Fox Kids programming block, combining the original Japanese action footage with new footage featuring American actors for the story sequences. Since then, nearly every Super Sentai series that followed became a new season of Power Rangers.\n[…]\nOn 1 May 2018, toy company Hasbro announced they had acquired the Power Rangers franchise from Saban Capital Group for $522 million. In 2023, Power Rangers Cosmic Fury was released on Netflix, and was the first Power Rangers series to not be a direct adaptation of a Super Sentai series. Instead, the production used mostly original costumes that were adapted from Kishiryu Sentai Ryusoulger, the basis of its previous season, Power Rangers Dino Fury.\n[…]\nIn the 2000s and early 2010s, Tooniverse (formerly Orion Cartoon Network), JEI-TV (Jaeneung Television), Champ TV/Anione TV (Daewon Broadcasting), Cartoon Network South Korea, and Nickelodeon South Korea have broadcast Super Sentai series a year following their original Japanese broadcast, but have changed the titles to \"Power Rangers\".\n[…]\nThe Thai television series Sport Ranger, another homage to Super Sentai, aired in 2006.\n[…]\nToei International Special Content: Super Sentai Series\n[…]\nShout! Factory's Official Super Sentai website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mighty_Morphin_Power_Rangers",
+        "situacao": "ok",
+        "texto": "Mighty Morphin Power Rangers (bra/prt: Power Rangers) é uma série de televisão infanto-juvenil de super-heróis norte-americana do gênero Super Sentai, que estreou em 28 de agosto de 1993, no bloco semanal Fox Kids. A série é sobre um grupo de adolescentes que foram escolhidos para proteger o mundo de um grupo de invasores alienígenas; e lhes foram dadas a capacidade de se \"transformar\" em super-po\n[…]\nEla foi adaptada e utilizada a partir da série de televisão japonesa Zyuranger, que foi a 16ª série Super Sentai da Toei Company. Tanto a série quanto a linha de produtos tornaram-se um grande êxito da noite para o dia, tornando-se um hit da década de 1990 e parte da cultura pop em poucos meses. A série original durou três anos, entre 1993 e 1995, gerando consequentemente o filme Mighty Morphin Power Rangers: The Movie.\n[…]\nEm 1996, a série foi estabelecida como o princípio da franquia Power Rangers, com cada nova temporada tendo um novo nome, começando com a minissérie Mighty Morphin Alien Rangers depois da temporada completa Power Rangers Zeo; e usando figurinos, adereços e imagens da subsequente série Super Sentai, bem como alterando a linha de elenco e história.\n[…]\nAo voltar para os EUA, Saban e o parceiro Shuki Levy começaram a trabalhar em um projeto chamado Bio-Man, que contava a história de cinco jovens que usam poderes espaciais para combater as forças do ser meio-humano e meio-robô, Zadar, apropriando das cenas de luta do Super Sentai homônimo.\n[…]\nRanger: Ranger Preto II\n[…]\nRanger: Ranger Amarela II\n[…]\nRanger: Ranger Rosa II\n[…]\nMetamorfoses do Poder (Morfadores): São os aparelhos que transformam os adolescentes em Rangers. Uma alusão ao termo japonês \"Henshin\", que significa transformação, usado quando os Super Sentai se transformam.\n[…]\nMighty Morphin Power Rangers (jogo eletrônico)\n[…]\nMighty Morphin Power Rangers: Rock Aventura\n[…]\n«Power Rangers Central» (em inglês)\n[…]\nMighty Morphin Power Rangers no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "The Last of Us (série)",
+      "descricao": "Série de 2023 da HBO, baseada no jogo, sobre Joel e Ellie num mundo pós-apocalíptico."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que ator de origem chilena vive Joel na série The Last of Us e também o caçador de recompensas de The Mandalorian?",
+    "resposta": "Pedro Pascal",
+    "distratores": [
+      "Oscar Isaac",
+      "Diego Luna",
+      "Gael García Bernal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pedro_Pascal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pedro_Pascal",
+        "situacao": "ok",
+        "texto": "José Pedro Balmaceda Pascal (Spanish: [xoˈse ˈpeðɾo‿βalmaˈseða pasˈkal]; born April 2, 1975) is a Chilean and American actor. Known for his portrayals of parental figures on screen and stage, he has received numerous accolades including an Actor Award, in addition to nominations for a Golden Globe Award and four Primetime Emmy Awards. Time magazine named him one of the 100 most influential people \n[…]\nMonisha Ravisetti was \"delightfully surprised when Pedro Pascal showed up in a burnt orange spacesuit\", and Dais Johnston retroactively compared the role to Pascal's future characters in The Mandalorian and The Last of Us, writing for Inverse, \"Pedro Pascal plays a gruff man who only looks out for himself until a child softens his heart\".\n[…]\nIn January 2024, he starred in Freaky Tales, directed by Anna Boden and Ryan Fleck. In June, musician Omar Apollo released his second studio album, God Said No, where Pascal features on the penultimate track, \"Pedro\", where he contributes a monologue about his heart being \"shattered by something\". In the animated feature The Wild Robot, he portrayed Fink, a fox who plays a parental role to a goose named Brightbill alongside Lupita Nyong'o's robot Roz.\n[…]\nIn May of 2025, while promoting his film \"Eddington\" at the Cannes Film Festival, Pascal was asked about recent deportations in the U.S.. Pascal said it was \"scary for an actor who participated in the movie to speak on issues like this\". The film Eddington is set during the COVID-19 pandemic and it depicts a standoff between a small town sheriff, (played by Joaquin Pheonix), and mayor (Pedro Pascal) in the fictional town of Eddington, New Mexico.\n[…]\nPascal stated \"I want people to be safe and protected...I am an immigrant. My parents are refugees from Chile. We fled a dictatorship and I was privileged enough to grow up in the United States after asylum in Denmark.\"\n[…]\nPedro Pascal at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pedro_Pascal",
+        "situacao": "ok",
+        "texto": "José Pedro Balmaceda Pascal (AFI: [xoˈse ˈpeðɾo βalmaˈseða pasˈkal] Santiago, 2 de abril de 1975) é um ator chileno-estadunidense. Começou sua carreira no teatro e com alguns papéis pequenos na televisão. Ficou conhecido internacionalmente no papel de Oberyn Martell na quarta temporada da série Game of Thrones da HBO, Javier Peña na série Narcos da Netflix, o Mandaloriano na primeira série live-ac\n[…]\nEm 2013, foi escalado como o príncipe Oberyn Martell na quarta temporada da série de tv americana da HBO, Game of Thrones. Pedro enviou seu teste e pediu ajuda a Paulson para que o material chegasse nas mãos dos produtores da série, já que a atriz é amiga de Amanda Peet, esposa de David Benioff, um dos co-criadores. Para a Variety, Benioff disse que a qualidade do vídeo era muito ruim e amadora, mas a atuação de Pascal era \"intensa, crível e certeira\".\n[…]\nEm 2022, co-estrelou com Nicholas Cage The Unbearable Weight of Massive Talent, interpretando Javi, um bilionário fã de Cage. Pascal também esteve na comédia satirica The Bubble, e em House Comes With a Bird, curta metragem da Miu Miu dirigido por Janicza Bravo como parte da série Women's Tales, que celebra mulheres diretoras. O projeto marca o segundo trabalho do chileno na moda, já que o ator foi rosto da Loewe em 2017 e 2020.\n[…]\nEm 2023, retornou a HBO como Joel, personagem principal da aguardada série The Last of Us, inspirada no premiado videogame de mesmo nome. Na produção, Pascal contracena com Bella Ramsey, também de Game of Thrones. Segundo divulgado na imprensa, o ator recebeu US$600.000 por episódio.\n[…]\nEm 2025, Pascal deve estrear no Universo Cinematográfico Marvel como Reed Richards / Senhor Fantástico no filme The Fantastic Four: First Steps. Pedro também foi confirmado para reaparecer como Senhor Fantástico no filme Avengers: Doomsday (2026).\n[…]\nPedro Pascal no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Manoel Carlos",
+      "descricao": "Novelista brasileiro, autor de novelas da Globo como Laços de Família, Mulheres Apaixonadas e Viver a Vida."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Nas novelas de Manoel Carlos, como Laços de Família e Mulheres Apaixonadas, a protagonista costuma ter sempre o mesmo nome. Qual?",
+    "resposta": "Helena",
+    "distratores": [
+      "Laura",
+      "Clara",
+      "Luísa"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Manoel_Carlos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manoel_Carlos",
+        "situacao": "ok",
+        "texto": "Manoel Carlos Gonçalves de Almeida OMC (São Paulo, 14 de março de 1933 – Rio de Janeiro, 10 de janeiro de 2026), também conhecido como Maneco, foi um autor de telenovelas, escritor, diretor e produtor brasileiro, tendo também atuado como ator no início da carreira. É pai da atriz Júlia Almeida e da roteirista Maria Carolina, sua colaboradora em diversas obras.\n[…]\nUma das principais marcas das novelas de Manoel Carlos foi o nome \"Helena\" em suas protagonistas. Segundo o autor, esta preferência não se deve a nenhuma mulher em especial com este nome em sua vida, mas sim pela admiração que ele tinha pela história mitológica de Helena de Troia, pela força e independência da personagem. Oficialmente, a primeira Helena que o autor credita como precursora de muitas que escreveria na sequência foi interpretada por Lílian Lemmertz em Baila Comigo (1981).\n[…]\nEm Em Família (2014), Júlia Lemmertz, filha da primeira Helena da teledramaturgia de Manoel Carlos, Lílian Lemmertz, encerrou o ciclo das Helenas. Na juventude, Helena (Júlia Lemmertz) era uma mulher independente, de personalidade forte, que não aceitava desaforos. A atriz que interpretou Helena na fase jovem foi Bruna Marquezine. Ela namorou o primo Laerte (Gabriel Braga Nunes), com quem viveu uma relação marcada por conflitos.\n[…]\nManeco, no entanto, já havia escrito outras duas protagonistas com o mesmo nome em novelas antes de Lílian Lemmertz: Jane Batista como a personagem-título em Helena (1952) e Nívea Maria como Maria Helena em Maria, Maria (1978), embora as duas nunca foram creditadas por ele como parte de seu ciclo — a primeira por não ser uma Helena original, mas uma adaptação do romance de mesmo título de Machado de Assis, enquanto a segunda, além de ser uma adaptação do romance Maria Dusá, de Lindolfo Rocha, é chamada na trama apenas de Maria.\n[…]\n«Manoel Carlos em Memória Globo»"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "William Bonner",
+      "descricao": "Jornalista e apresentador brasileiro, por 29 anos à frente do Jornal Nacional."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que jornalista dividiu com William Bonner a bancada do Jornal Nacional e também foi casada com ele?",
+    "resposta": "Fátima Bernardes",
+    "distratores": [
+      "Renata Vasconcellos",
+      "Patrícia Poeta",
+      "Sandra Annenberg"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/William_Bonner",
+      "https://pt.wikipedia.org/wiki/F%C3%A1tima_Bernardes"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/William_Bonner",
+        "situacao": "ok",
+        "texto": "William Bonemer Júnior (São Paulo, 16 de novembro de 1963), mais conhecido como William Bonner, é um jornalista, publicitário e apresentador de notícias brasileiro. Foi editor-chefe e o apresentador mais longevo do Jornal Nacional, da TV Globo, por 29 anos entre 1996 e 2025.\n[…]\nApresentou o Jornal da Globo entre 1989 e 1993, em São Paulo, ao lado de Fátima Bernardes, o Jornal Hoje, do qual foi editor-chefe entre 1994 e 1996. De abril de 1996 até 31 de outubro de 2025 apresentou o Jornal Nacional. Em 1999, Bonner também virou editor-chefe do JN. Em 2026 assume a apresentação do Globo Repórter ao lado de Sandra Annemberg.\n[…]\nEm setembro de 2009, William lançou o livro Jornal Nacional - Modo de Fazer, lançado em homenagem aos 40 anos do JN, onde ele mostra os bastidores da preparação das edições do telejornal. Apesar de assinado apenas por ele, o livro também traz Fátima Bernardes na capa, junto com Bonner. O apresentador doou todos os seus direitos de autor à Escola de Comunicações e Artes da Universidade de São Paulo (ECA/USP).\n[…]\nEm 1.º de setembro de 2025, durante as comemorações dos 56 anos do Jornal Nacional, a TV Globo anunciou a saída de William Bonner do telejornal, após 29 anos como apresentador e editor-chefe do programa, permanecendo no comando até o dia 3 de novembro de 2025, quando foi substituído por César Tralli. A partir de 2026, Bonner passaria a apresentar o Globo Repórter ao lado de Sandra Annenberg.\n[…]\nCasou-se com a também jornalista Fátima Bernardes em 1990, com quem teve os trigêmeos Vinícius, Laura e Beatriz, nascidos em 21 de outubro de 1997. O fim da relação com Fátima foi anunciado em 29 de agosto de 2016. Desde setembro de 2018 é casado com a fisioterapeuta Natasha Dantas, com quem começou a namorar em novembro de 2017."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/F%C3%A1tima_Bernardes",
+        "situacao": "ok",
+        "texto": "Fátima Gomes Bernardes Bonemer (Rio de Janeiro, 17 de setembro de 1962) é uma jornalista e apresentadora brasileira. Iniciou sua carreira em 1987 como repórter e ficou nacionalmente conhecida a partir de 1989 como apresentadora do Jornal da Globo.\n[…]\nPassou também pelo Fantástico, Jornal Hoje e Jornal Nacional, onde ficou de 1998 a 2011. Entre 2012 a 2022, apresentou um programa próprio durante as manhãs, o Encontro com Fátima Bernardes.\n[…]\nEm março de 1998, tornou-se âncora do Jornal Nacional, o principal telejornal da emissora, ao lado do então marido William Bonner, cargo que ocupou até 5 de dezembro de 2011. Neste cargo, destacou-se entre outras coisas por ser a enviada especial da TV Globo para a Copa do Mundo FIFA, sendo quatro no total. Fátima Bernardes é, também, recordista do prêmio cedido pelo programa Domingão do Faustão, Melhores do Ano, garantindo cinco estatuetas no decorrer dos anos de 2004, 2005, 2006, 2007 e 2011.\n[…]\nEm 1 de dezembro de 2011, a TV Globo anunciou em uma coletiva de imprensa mudanças na apresentação do Jornal Nacional. Após quase 14 anos, Fátima Bernardes deixou a bancada do telejornal em 5 de dezembro de 2011 para assumir um programa próprio. Quem entrou no Jornal Nacional para dividir a apresentação com William Bonner foi Patrícia Poeta que estava há cinco anos no Fantástico.\n[…]\nA saída de Fátima Bernardes da TV Globo foi marcada por uma transição planejada. Após décadas como jornalista e apresentadora — incluindo passagens pelo Jornal Nacional, Encontro e The Voice Brasil — ela passou a trabalhar por obra certa, um modelo mais flexível adotado pela emissora. Quando o The Voice chegou ao fim, Fátima entregou três propostas de novos programas, mas nenhuma foi aprovada até o encerramento do contrato."
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Dona Florinda",
+      "descricao": "Personagem do seriado Chaves, mãe do Quico, de bobes no cabelo."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A atriz que viveu Dona Florinda, no seriado Chaves, foi por décadas companheira e depois esposa de quem?",
+    "resposta": "Roberto Gómez Bolaños",
+    "distratores": [
+      "Ramón Valdés",
+      "Carlos Villagrán",
+      "Rubén Aguirre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Florinda_Meza",
+      "https://pt.wikipedia.org/wiki/Florinda_Meza"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Florinda_Meza",
+        "situacao": "ok",
+        "texto": "Florinda Meza García (born 8 February 1949) is a Mexican actress, comedian, television producer, and screenwriter. She is best known as Doña Florinda and Popis in El Chavo del Ocho, La Chimoltrufia in Chespirito, and other various roles in El Chapulín Colorado.\n[…]\nShe was cast by Roberto Gómez Bolaños to play Doña Florinda (and later Popis) in the Televisa sitcom El Chavo del Ocho, which would become a major international hit. The show would last from February 26, 1973, to January 7, 1980 (although the sketch would continue until 1992), during which she and Gómez Bolaños began a lifelong affair that never produced any children.\n[…]\nDuring her tenure on the Chespirito television series, she was also known to have played Édgar Vivar's character \"Botija\"'s wife \"María Expropiación Petronila Lascuráin y Torquemada\", famously known as \"La Chimoltrufia\" in the sketch \"Los Caquitos\" (alongside Gómez Bolaños who played the role of Chómpiras). Meza would also participate prominent roles in Chespirito's other main sitcom, El Chapulín Colorado.\n[…]\nAfter production of Chespirito ended in 1995, she and Gómez Bolaños began touring extensively. The couple would eventually get married in a civil ceremony on 19 November 2004 after a 27-year relationship.\n[…]\nIn 2025, Meza was portrayed in the series Chespirito: Not Really on Purpose by Bárbara López under the pseudonym Margarita Ruíz. Due to disagreements between producer Roberto Gómez Fernández and Florinda Meza over the storyline’s development and the alleged misuse of her likeness, they chose to remove her name and use “Margarita Ruiz” instead. The series portrays Meza's apparent relationship with Chespirito and other cast members.\n[…]\nFlorinda Meza at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Florinda_Meza",
+        "situacao": "ok",
+        "texto": "Florinda Meza García Gómez Bolaños (Juchipila, 8 de fevereiro de 1949) é uma atriz, empresária, roteirista, diretora, produtora e blogueira mexicana, mundialmente conhecida por interpretar diversas personagens nas obras de Roberto Gómez Bolaños, sendo Dona Florinda, Pópis – ambas do seriado Chaves – e Chimoltrúfia as mais conhecidas, além das diversas mocinhas e/ou vilãs em episódios de Chapolin C\n[…]\nComo escritora, Meza produziu as novelas Milagro y magia (1991) – na qual também atuou e foi dirigida por Bolaños – e produziu La dueña (1995) e Alguna vez tendramos alas (1997), ambas com direção de seu enteado, Roberto Gómez Fernández.\n[…]\nAo perceber seu grande talento, os professores passaram a enviar o nome dela para grandes empresas no ramo artístico e eis que em 1968 ela conhece o empresário e ator Roberto Gómez Bolaños, que lhe fez um inesperado convite: integrar-se à sua equipe de atores. Chespirito, como é conhecido, a convidou para trabalhar com ele em programas humorísticos que estava escrevendo. Atuar na TV com atores famosos seria um grande avanço na carreira de Florinda.\n[…]\nRoberto Gómez Bolaños deixou os direitos autorais da personagem Chimoltrúfia para a Florinda. Em 2016, Florinda criou um canal no youtube, onde fez vídeos como a personagem.\n[…]\nBoatos insinuaram que um dos motivos da briga entre Roberto Gómez Bolaños e Carlos Villagrán foi porque eles sentiam paixão pela mesma mulher, Florinda, sendo que ela tinha namorado com Villagrán no início da série. Fãs do seriado acreditam que isso pode ter influenciado na saída de Villagrán do programa, em 1979.\n[…]\nFlorinda Meza veio ao Brasil pela primeira vez em novembro de 1981, junto com Roberto Gómez Bolaños e o elenco de Chaves. Na época, eles estavam realizando uma turnê no Paraguai e aproveitaram para visitar a cidade de Foz do Iguaçu, na fronteira com o Brasil. Nessa viagem, eles conheceram as Cataratas do Iguaçu."
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Jeannie é um Gênio",
+      "descricao": "Sitcom americana exibida de 1965 a 1970, sobre uma gênia saída de uma garrafa que passa a viver com um astronauta."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O ator que vivia o astronauta Tony Nelson, amo da gênia em Jeannie é um Gênio, depois virou o vilão J.R. em qual série?",
+    "resposta": "Dallas",
+    "distratores": [
+      "Dinastia",
+      "Falcon Crest",
+      "Bonanza"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Larry_Hagman",
+      "https://en.wikipedia.org/wiki/I_Dream_of_Jeannie"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Larry_Hagman",
+        "situacao": "ok",
+        "texto": "Larry Martin Hagman (September 21, 1931 – November 23, 2012) was an American actor, best known for playing ruthless oil baron J. R. Ewing in the 1978–1991 primetime television soap opera Dallas, and the astronaut Major Anthony Nelson in the 1965–1970 sitcom I Dream of Jeannie. Hagman had supporting roles in numerous films, including Fail-Safe, Harry and Tonto, S.O.B.,  Nixon, and Primary Colors.\n[…]\nHagman and Eden reunited in March 2006 for a publicity tour in New York City to promote the first-season DVD of I Dream of Jeannie. He reunited once again with Eden on stage in the play Love Letters at the College of Staten Island in New York and the United States Military Academy, West Point, New York. The appearance marked the first time the two performers had acted together since Eden appeared with Hagman in a five-episode arc on Dallas in 1990.\n[…]\nIn 2010, Hagman was hired as a spokesman for SolarWorld, a German solar energy commercial enterprise. While the SolarWorld commercials specifically mention neither Dallas nor J. R. Ewing, Hagman essentially revisits the character (complete with a picture of Hagman as J. R.\n[…]\nActress Barbara Eden, a longtime friend of Hagman's, who played Jeannie on I Dream of Jeannie and Lee Ann de la Vega on Dallas, said: \"Larry was one of the most intelligent actors I ever worked with. He more than hit his marks. And when you're working with another actor, you know immediately if the ball isn't tossed back.\n[…]\nActor Patrick Duffy, who played Bobby Ewing on Dallas, was also at his bedside when he died. In a statement, he said: \"Friday, I lost one of the greatest friends ever to grace my life. The loneliness is only what is difficult, as Larry's peace and comfort is always what is important to me, now as when he was here. He was a fighter in the gentlest way, against his obstacles and for his friends. I wear his friendship with honor.\""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/I_Dream_of_Jeannie",
+        "situacao": "ok",
+        "texto": "I Dream of Jeannie is an American fantasy sitcom television series created by Sidney Sheldon and starring Barbara Eden as a beautiful but guileless 2,000-year-old genie and Larry Hagman as an astronaut with whom she falls in love and eventually marries. Produced by Screen Gems, the show originally aired for 139 episodes over five seasons, from September 18, 1965, to May 26, 1970, on NBC.\n[…]\nJeannie's magical mischief—and Tony's efforts to cover it up—constantly put him under the scrutiny of NASA's resident psychiatrist (and Tony's commanding officer), Colonel Dr. Alfred Bellows. A running theme throughout the series has Bellows as the only eyewitness to Jeannie's antics, while Tony (and sometimes his best friend and fellow astronaut, United States Army Captain Roger Healey) are also present.\n[…]\nLarry Hagman as Captain/Major Anthony \"Tony\" Nelson, an astronaut and U.S. Air Force officer who discovers Jeannie.\n[…]\nBill Daily as Captain/Major Roger Healey, Tony's best friend and fellow astronaut, and a U.S. Army officer, whom Tony entrusts with Jeannie's secret.\n[…]\nBarbara Eden starred in two made-for-television reunion films that portrayed Jeannie and Tony in the successive years. Larry Hagman did not reprise his role as Tony Nelson in either film. Bill Daily returned as Roger Healey for both films, while Hayden Rorke made a brief appearance in the first film. In 1985, Wayne Rogers played the role of retiring Colonel Anthony Nelson in I Dream of Jeannie... Fifteen Years Later.\n[…]\nIn 1991, I Still Dream of Jeannie was broadcast with Hagman's Dallas co-star Ken Kercheval essentially playing the role of Jeannie's \"master\". A third film was planned but never finalized.\n[…]\nBrewster, Dennis (1966). I Dream Of Jeannie (novel). Pocket Books.\n[…]\nI Dream of Jeannie at IMDb\n[…]\nAnthony (Tony) Nelson, fictitious astronaut – Encyclopedia Astronautica"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Larry_Hagman",
+        "situacao": "ok",
+        "texto": "Larry Martin Hagman (Fort Worth, 21 de setembro de 1931 — Dallas, 23 de novembro de 2012) foi um ator, diretor e produtor de cinema e televisão estadunidense, mais conhecido por interpretar o implacável barão do petróleo J.R. Ewing na telenovela Dallas (1978-1991), e o astronauta atrapalhado Major Anthony Nelson na sitcom I Dream of Jeannie (1965-1970).\n[…]\nComeçou sua carreira em Dallas, Texas, trabalhando como assistente de produção e agindo em pequenos papéis no teatro de Margo Jones.\n[…]\nNo fim de 1977, depois de recusar o papel do Dr. David (Bruce) Banner em O Incrível Hulk, Hagman optou por abandonar a imagem de bom rapaz e assumiu o papel do vilão J.R. Ewing em uma das séries de maior sucesso em audiência e repercussão de todos os tempos: Dallas, produzida de 1978 a 1991 (um recorde de tempo, quatorze anos).\n[…]\ntivesse relacionamento complexo de amor e ódio com sua família, Hagman desfrutavam de um descontraído e caloroso relacionamento com seus colegas de elenco, frequentemente contando piadas para diminuir a tensão causada pelos apertados horários de filmagem e cenas altamente carregadas emocionalmente. Dallas consagrou-se como uma série nunca vista igualmente na televisão.\n[…]\nO ator morreu aos 81 anos, no dia 23 de novembro de 2012, em um hospital em Dallas, devido a complicações decorrentes de leucemia e de um câncer, diagnosticado em outubro do ano anterior.\n[…]\nLarry teve algumas participações especiais como em Desperate Housewives e tinha recentemente ingressado no elenco principal de Dallas, a continuação da mítica série dos anos '80, no papel do seu famoso vilão J.R. Ewing. Contrariamente ao esperado por alguns, a série obteve um grande sucesso logo desde os primeiros episódios da primeira temporada que foi encomendada uma segunda. Larry faleceu a meio das filmagens da segunda temporada.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "A Praça É Nossa",
+      "descricao": "Programa humorístico brasileiro de TV, estreado em 1987, ambientado em uma praça com um banco."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A Praça É Nossa retomou a antiga Praça da Alegria, criada nos anos cinquenta por que parente do apresentador Carlos Alberto de Nóbrega?",
+    "resposta": "O pai dele",
+    "distratores": [
+      "O avô dele",
+      "O tio dele",
+      "O irmão dele"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/A_Pra%C3%A7a_%C3%89_Nossa",
+      "https://pt.wikipedia.org/wiki/Carlos_Alberto_de_N%C3%B3brega"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Pra%C3%A7a_%C3%89_Nossa",
+        "situacao": "ok",
+        "texto": "A Praça É Nossa é um programa de televisão humorístico brasileiro transmitido pelo SBT.\n[…]\nEm 1987, o programa foi recriado na Rede Bandeirantes com o título Praça Brasil, apresentado pelo filho de Manuel, Carlos Alberto de Nóbrega. Após apenas quatro episódios, Carlos Alberto se transferiu para o SBT, onde montou um novo programa no mesmo formato, com o nome A Praça É Nossa. Na emissora de Silvio Santos, o humorístico estreou em 7 de maio de 1987, permanecendo até o presente momento.\n[…]\nO primeiro Praça da Alegria teve direção de Mário Lúcio Vaz, e os seguintes foram dirigidos por Carlos Alberto Loffler. Carlos Alberto de Nóbrega, filho de Manuel de Nóbrega, era o responsável pela redação final do programa.\n[…]\nA Praça da Alegria repetiu na TV Globo o sucesso dos tempos de Manuel de Nóbrega, mas saiu da programação em 1978. A partir de 1987, sob o comando de Carlos Alberto de Nóbrega, o programa estreou na Rede Bandeirantes, sob o nome de Praça Brasil, mas durou por pouco tempo. Depois, voltou a ser exibido pelo SBT, com o nome de A Praça é Nossa.\n[…]\nDesde os tempos de Manuel de Nóbrega, A Praça É Nossa se destaca por revelar novos talentos do humor. E agora, com um espírito de garimpeiro, Carlos Alberto encontra várias preciosidades do humor. Ao longo de sua história no SBT, o programa A Praça é Nossa contou com estrelas do humor brasileiro que marcaram época e deixaram saudades, como Ronald Golias, responsável pelos personagens Pacífico, Bronco, Profeta e Professor Bartolomeu.\n[…]\nMarcelo de Nóbrega - Diretor e filho de Carlos Alberto (Dono)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carlos_Alberto_de_N%C3%B3brega",
+        "situacao": "ok",
+        "texto": "Carlos Alberto de Nóbrega (Niterói, 12 de março de 1936) é um humorista, apresentador de televisão, roteirista, produtor, diretor executivo, ator, escritor e advogado brasileiro. Conhecido como um dos principais nomes do humor televisivo no Brasil e uma das figuras mais longevas da história da televisão nacional. Com uma carreira que se estende por mais de sete décadas, consolidou-se como referênc\n[…]\nFilho do também humorista Manuel de Nóbrega, iniciou sua trajetória artística como roteirista, participando da criação de programas humorísticos de grande repercussão. Escreveu programas humorísticos na TV Paulista, TV Rio e RecordTV. Escreveu dezenas de programas, entre eles Família Trapo e A Praça da Alegria, além de ter sido redator e integrante de elenco em Os Trapalhões. Desde 1987, apresenta o programa humorístico A Praça é Nossa, no SBT.\n[…]\nFoi casado com Marilda de Nóbrega por 34 anos, com quem teve quatro filhos: Carlos Alberto de Nóbrega Filho, Marcelo de Nóbrega, diretor do programa A Praça é Nossa, Vinícius de Nóbrega e Maurício de Nóbrega; um casal de gêmeos (Maria Fernanda de Nóbrega e João Vitor de Nóbrega) é fruto de seu casamento de 13 anos com Andréa de Nóbrega, de quem se separou em 2009. Em 2014, reatou o relacionamento cinco anos após a separação.\n[…]\nCasou-se pela terceira vez em 24 de maio de 2018 com a médica nutróloga Renata Domingues de Nobrega.\n[…]\nPassou então para a Rede Bandeirantes, onde apresentou o humorístico Praça Brasil, e pouco tempo depois para o SBT, atuando e escrevendo em A Praça É Nossa, na Escolinha do Golias, Maria Teresa Especial e SBT Palace Hotel. Em 1999, participou do humorístico Ô Coitado, também do SBT, e em 2011, do especial 30 Anos de Chaves, como o Professor Girafales.\n[…]\nCarlos Alberto de Nóbrega no IMDb\n[…]\nCanal de Carlos Alberto de Nóbrega no YouTube"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Jaiminho, o Carteiro",
+      "descricao": "Carteiro do seriado Chaves, interpretado por Raul Padilla."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "No seriado Chaves, o carteiro Jaiminho, que evita a fadiga, vive lembrando que nasceu em qual cidade mexicana?",
+    "resposta": "Tangamandápio",
+    "distratores": [
+      "Guadalajara",
+      "Acapulco",
+      "Monterrey"
+    ],
+    "fonte": [
+      "https://es.wikipedia.org/wiki/Tangamandapio",
+      "https://en.wikipedia.org/wiki/Tangamandapio"
+    ],
+    "trechos": [
+      {
+        "url": "https://es.wikipedia.org/wiki/Tangamandapio",
+        "situacao": "ok",
+        "texto": "Santiago Tangamandapio, conocida como Tangamandapio, es una localidad ubicada en la zona suroeste de México, en el estado de Michoacán, a 165 km al oeste de la capital del estado, Morelia. Sus coordenadas geográficas son: 19°57' de latitud norte y 102°26' longitud occidental. El nombre del pueblo es de origen purépecha y significa ‘tronco seco que se mantiene en pie’.\n[…]\nSu incorporación al cristianismo, después de realizada la conquista española, se debió al fraile Jacobo Daciano, quien mostró una actitud humanística hacia los indígenas y tuvo grandes polémicas con otros eclesiásticos por sostener el derecho que tenían los pobladores originarios para recibir el sacramento de la eucaristía. También se distinguió por ser el fundador del convento de Santiago Tangamandapio. Otro de los evangelizadores del lugar fue Francisco de Cerda.\n[…]\nEn 1822 se le asignó el nombre de Santiago, quedando como pueblo y vicaría de Jacona. El 10 de diciembre de 1831, al promulgarse la Ley de División Territorial del Estado, Tangamandapio fue elevado a la categoría de municipio perteneciente al partido de Zamora. En 1874 se convirtió en tenencia de Jacona, recuperando su categoría de cabecera de su propio municipio en 1879.\n[…]\nEn la serie de televisión mexicana El Chavo del 8 (1972-1980), el personaje Jaime Garabito, conocido como Jaimito el Cartero (interpretado por Raúl Chato Padilla), cita frecuentemente a Tangamandapio como su ciudad de origen.​ Debido a esto, el gobierno del municipio develó una estatua a nombre del personaje en 2012 ya que fue él quien «sacó del anonimato al municipio»,​ así como por promoción turística del lugar.​"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tangamandapio",
+        "situacao": "ok",
+        "texto": "Santiago Tangamandapio, known as Tangamandapio, is a municipality in the Mexican state of Michoacán. It is located 165 km from the state capital of Morelia. The geographic coordinates are: 19° 57' North latitude and 102° 26' West longitude. Tangamandapio Municipality also includes the community of Tarécuato.\n[…]\nThe municipality gained notoriety due to the Mexican television series El Chavo del Ocho (1973–80), in which the character Jaimito the Mailman (portrayed by Raúl Padilla) cites Tangamandapio as his birthplace. In commemoration, the municipal government erected a statue of the character in 2012.\n[…]\nTangamandapio has a monsoon-influenced humid subtropical climate (Cwa, according to the Köppen climate classification), with humid summers and dry winters."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tangamand%C3%A1pio",
+        "situacao": "ok",
+        "texto": "Tangamandápio (nome completo Santiago Tangamandapio) é uma pequena cidade localizada no noroeste do estado de Michoacán, no México, com 10.403 habitantes, localizada a 165 km de Morelia, a capital do estado. Situa-se a uma latitude 19º57' Norte e a uma longitude 102º26' Oeste.\n[…]\nTangamandápio tornou-se famosa nacional e internacionalmente devido ao seriado mexicano Chaves (El Chavo del Ocho), em que é citada como a cidade natal do personagem Jaiminho. Por consequência, uma estátua do personagem foi erguida na cidade em 2012.\n[…]\nSua incorporação ao cristianismo, após a conquista espanhola, deveu-se ao Frei Jacobo Dociano, que mostrou uma atitude humanística para com os indígenas e teve grandes conflitos com outros eclesiásticos, sustentando o direito que teriam os índios para receberem o sacramento da eucaristia. Também distinguiu-se por fundar o convento de Santiago Tangamandápio. Outro dos evangelizadores do lugar foi Francisco de Cerda.\n[…]\nEm 10 de dezembro de 1831, ao promulgar-se a Lei de Divisão Territorial do Estado, Tangamandápio é elevado à categoria de município pertencente à comarca de Zamora. Era conhecido então como Santiago Tangamandápio.\n[…]\nO município mexicano ficou muito conhecido mundialmente nas décadas de 70 e 80, quando no seriado Chaves fez representativa ao povoado, Jaiminho em diversas atuações citou a ilustre cidade.\n[…]\n1822 - Escolhido o nome de Santiago Tangamandápio, tornando-se povoado e vicariato de Jacona.\n[…]\n1979 - Na série Chaves, Chespirito criou um personagem, Jaiminho o carteiro, que teria nascido nessa cidade.\n[…]\n«Tangamandapio»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Coragem, o Cão Covarde",
+      "descricao": "Cachorro rosa medroso, protagonista do desenho animado Coragem, o Cão Covarde."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O cão Coragem vive com o casal Muriel e Eustácio numa fazenda isolada, no meio do nada, em que estado americano?",
+    "resposta": "Kansas",
+    "distratores": [
+      "Texas",
+      "Nebraska",
+      "Oklahoma"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Courage_the_Cowardly_Dog",
+        "situacao": "ok",
+        "texto": "Courage the Cowardly Dog is an American animated comedy horror television series created by John R. Dilworth for Cartoon Network. It follows an anthropomorphic dog named Courage, who lives with an elderly couple, Muriel and Eustace Bagge, in the middle of Nowhere, a fictional town in Kansas. In each episode, Courage and his owners are thrown into paranormal or supernatural adventures. The series i\n[…]\nIn the present, Courage lives in an isolated farmhouse in Kansas with Muriel and her husband Eustace Bagge (Lionel Wilson in episodes 1–33, Arthur Anderson in episodes 34–52), a cranky and greedy man who is jealous of Courage, refers to him as \"stupid dog\", and uses the \"Ooga Booga\" mask to scare him. The nearest town to the farmhouse is called Nowhere.\n[…]\nVHS editions of Scooby-Doo! and the Witch's Ghost and Scooby-Doo and the Alien Invaders each include an episode of Courage the Cowardly Dog as a bonus.\n[…]\nOn June 22, 2021, Warner Bros. Animation announced an animated direct-to-video crossover film with Scooby-Doo called Straight Outta Nowhere: Scooby-Doo! Meets Courage the Cowardly Dog. The film follows Scooby-Doo and his friends finding a suspicious object in Nowhere, Kansas, where Courage and his owners reside.\n[…]\nMarty Grabstein and Thea White reprise their roles as Courage and Muriel, while Eustace is voiced by Jeff Bergman because of the deaths of the character's former voice casts Lionel Wilson and Arthur Anderson in 2003 and 2016, respectively. The film was released on DVD and digital on September 14, 2021. The film also serves as a posthumous role for Thea White, who died in July 2021, around two months before the film's release date. Series creator John R.\n[…]\nCourage the Cowardly Dog—Cartoon Network Department of Cartoons (Archive)\n[…]\nCourage the Cowardly Dog at IMDb\n[…]\nMarkstein, Donald D. \"Courage the Cowardly Dog\". Toonopedia."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coragem%2C_o_C%C3%A3o_Covarde",
+        "situacao": "ok",
+        "texto": "Courage the Cowardly Dog (no Brasil e em Portugal: Coragem, o Cão Covarde) é uma série de desenho animado estadunidense produzida e exibida pelo Cartoon Network e criada por John R. Dilworth. Nos Estados Unidos a série é classificada como TV-Y7-FV.. Estreou no Brasil na televisão fechada em 10 de março de 2000 (versão dublada). Portugal teve a sua estreia em 12 de novembro de 1999 (versão original\n[…]\nCoragem, o Cão Covarde conta a história de Coragem, um cachorro facilmente assustado que vive em uma fazenda com Muriel e Eustácio (Eustace na versão portuguesa) Bagge, na cidade fictícia de Lugar Nenhum (Lado Nenhum na versão portuguesa), no Kansas. Abandonado quando filhote, Coragem foi encontrado em um beco por Muriel Bagge, uma mulher escocesa de natureza doce e seu marido Eustácio, um fazendeiro mal-humorado e ganancioso que gosta de assustá-lo.\n[…]\nCoragem é um cachorro lilás e medroso que vive em Lugar Nenhum, no Kansas. Quando filhote, seus pais foram raptados e mandados para o espaço (isso aparece no episódio \"Lembranças do Passado do Coragem\"), mas Coragem conseguiu fugir, então Muriel o achou e o levou para casa. Seu dono, Eustácio, diferentemente de Muriel, está sempre o maltratando e frequentemente chamando-o de \"cachorro idiota\".\n[…]\nMuriel Bagge é uma senhora escocesa que adotou Coragem quando ele era um filhote abandonado. Gosta de tomar chá e cuidar de seu jardim ou assistir TV, quando não está capturada pelos monstros misteriosos.\n[…]\nEustácio Bagge (Eustace Bagge na versão portuguesa) é um velho fazendeiro resmungão que vive maltratando, assustando e chamando Coragem de \"cachorro idiota\", e algumas vezes maltrata sua esposa Muriel.\n[…]\nSua personalidade insana é demonstrada quando Muriel e Eustácio descobrem a sua verdadeira façanha com o Coragem.\n[…]\n«Coragem, o Cão Covarde» (em inglês). no YouTube\n[…]\n«Coragem, o Cão Covarde». no TV Time",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Roque Santeiro",
+      "descricao": "Telenovela da Rede Globo escrita por Dias Gomes e Aguinaldo Silva, exibida em 1985."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A novela Roque Santeiro, com a Viúva Porcina e Sinhozinho Malta, se passa em que cidade fictícia?",
+    "resposta": "Asa Branca",
+    "distratores": [
+      "Sucupira",
+      "Santana do Agreste",
+      "Bole-Bole"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Roque_Santeiro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Roque_Santeiro",
+        "situacao": "ok",
+        "texto": "Roque Santeiro é uma telenovela brasileira produzida e exibida pela TV Globo de 24 de junho de 1985 a 21 de fevereiro de 1986, em 209 capítulos. Substituiu Corpo a Corpo e foi substituída por Selva de Pedra, sendo a 34.ª \"novela das oito\" exibida pela emissora.\n[…]\nA história desenrola-se na fictícia cidade de Asa Branca, no Nordeste do Brasil. Dezessete anos antes, o coroinha Luís Roque Duarte (José Wilker), conhecido como \"Roque Santeiro\" por esculpir imagens sacras, teria morrido ao defender a igreja dos capangas do bandido Navalhada (Oswaldo Loureiro), que havia invadido a localidade.\n[…]\nÀ frente daqueles que desejam revelar a verdade aos habitantes de Asa Branca está padre Albano (Cláudio Cavalcanti), que faz o contraponto com padre Hipólito, numa crítica a divisão da Igreja Católica entre os tradicionalistas e os adeptos da Teologia da Libertação. Progressista, padre Albano luta a favor dos trabalhadores de Asa Branca e faz de tudo para revelar que o mito de Roque Santeiro não passa de uma farsa.\n[…]\nO retorno de Roque a Asa Branca atinge também a vida da pudica Mocinha (Lucinha Lins), apaixonada por ele e que fora sua verdadeira noiva antes da invasão de Navalhada. Ela nunca se conformou com o desaparecimento dele, mantendo-se virgem à sua espera, mesmo pensando que ele estivesse morto. Mocinha guarda ressentimento em relação a Porcina por ela ter sido a suposta esposa de Roque Santeiro.\n[…]\nPor consideração aos artistas envolvidos no trabalho original, o mesmo elenco foi convidado a participar da nova versão da novela, com seus respectivos personagens. Porém, Francisco Cuoco e Betty Faria recusaram os papéis principais de Roque Santeiro e Viúva Porcina. Já Lima Duarte retornou à produção novamente como o inesquecível Sinhozinho Malta."
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Escrava Isaura (telenovela de 1976)",
+      "descricao": "Telenovela da Rede Globo baseada no romance de Bernardo Guimarães, com Lucélia Santos, vendida para dezenas de países."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Nos anos oitenta, a novela Escrava Isaura fez um sucesso gigantesco e tornou Lucélia Santos uma estrela em qual país asiático?",
+    "resposta": "China",
+    "distratores": [
+      "Japão",
+      "Índia",
+      "Coreia do Sul"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luc%C3%A9lia_Santos",
+      "https://pt.wikipedia.org/wiki/Escrava_Isaura_(telenovela_de_1976)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Luc%C3%A9lia_Santos",
+        "situacao": "ok",
+        "texto": "Maria Lucélia dos Santos (born 20 May 1957) is a Brazilian actress, director and producer. She received international acclaim for her leading role in the 1976 Rede Globo telenovela Isaura, The Slave Girl, broadcast in over 80 countries.\n[…]\nEscrava Isaura achieved worldwide success. It became the most popular program in the history of Polish television at the time of its original broadcast, reaching more than 81 percent of share. It was the first show starred by a non-Chinese leading actress broadcast in the People's Republic of China, in addition to being the first telenovela shown in the former Soviet Union, where it had a broad appeal.\n[…]\nIn 1990, Lucélia starred in SBT's Brasileiros e Brasileiras. She also took the lead in the network's Sangue do Meu Sangue in 1995. In 1996 she decided to take the lead role in SBT's controversial telenovela Dona Anja, about a brothel owner in a small Rio Grande do Sul town during the military dictatorship. In 1997 she directed the television documentary O ponto de Mutaçâo da China Hoje about life in current China, which was aired in Manchete.\n[…]\n1976: Já Não Se Faz Amor Como Antigamente\n[…]\n1976: Paranóia as Lúcia Riccelli\n[…]\n1976 Isaura, The Slave Girl (Rede Globo) as Isaura dos Anjos/Elvira\n[…]\n1976: Transe no Dezoito\n[…]\n1997: O ponto de Mutaçâo da China Hoje (television miniseries)\n[…]\nIn addition to becoming the first actress to receive the Golden Eagle Award for Best Foreign Actress in China, in 1985, Lucélia was honored with the Jewel of China medal in 2004 for her efforts in bringing together the Chinese and Brazilian cultures. She was in Fernando Henrique Cardoso's presidential entourage to China, where she was warmly greeted by Prime Minister Deng Xiaoping.\n[…]\nLucélia Santos at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escrava_Isaura_(telenovela_de_1976)",
+        "situacao": "ok",
+        "texto": "Escrava Isaura é uma telenovela brasileira produzida e exibida pela TV Globo de 11 de outubro de 1976 até 5 de fevereiro de 1977, em 100 capítulos. Substituiu O Feijão e o Sonho e foi substituída por À Sombra dos Laranjais, sendo a 10.ª \"novela das seis\" produzida pela emissora.\n[…]\nSondada para interpretar Isaura, a atriz Débora Duarte recusou o papel por estar no início de sua gravidez e para não deixar a cidade de São Paulo, onde morava. Gilberto Braga chegou a sugerir Louise Cardoso para o papel, mas Herval Rossano convidou Lucélia Santos para representar a protagonista após acompanhar seu desempenho no teatro.\n[…]\nNa China, Lucélia Santos, intérprete da protagonista Isaura, recebeu o Prêmio Águia de Ouro através do voto de 300 milhões de pessoas, sendo a primeira atriz estrangeira agraciada com a honraria no território, e na Polônia, uma emissora realizou concurso para escolher sósias de Lucélia e Rubens de Falco, protagonistas do folhetim.\n[…]\nEscrava Isaura é até então a novela mais reprisada da TV Globo. No entanto, curiosamente, ela nunca foi exibida no Vale a Pena Ver de Novo, o bloco de reprises mais tradicional da emissora.\n[…]\nFoi reprisada no Viva 70, a versão fast do canal Viva de 21 de maio a 7 de outubro de 2024, substituindo A Sucessora e sendo substituída por Pecado Capital. Com essa reprise, a trama havia empatado com A Viagem e Por Amor no ranking de novelas mais reexibidas da Globo (incluindo todas as plataformas, apesar de ser a mais reapresentada da emissora na TV aberta). No entanto, A Viagem ultrapassaria Por Amor e Escrava Isaura no ranking após a Globo ter decidido reprisar a novela em 2025.\n[…]\nEm abril de 2012, a Globo Marcas lançou Escrava Isaura em um box de cinco DVDs com os capítulos compactados.\n[…]\nEscrava Isaura no IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "As Meninas Superpoderosas",
+      "descricao": "Desenho animado americano do Cartoon Network, estreado em 1998, sobre três irmãs com superpoderes criadas pelo Professor Utônio."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Além de açúcar, tempero e tudo que há de bom, que ingrediente o Professor Utônio derramou por acidente ao criar as Meninas Superpoderosas?",
+    "resposta": "Elemento X",
+    "distratores": [
+      "Elemento Z",
+      "Pó mágico",
+      "Raio gama"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Powerpuff_Girls"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Powerpuff_Girls",
+        "situacao": "ok",
+        "texto": "The Powerpuff Girls is an American animated superhero television series created by Craig McCracken for Cartoon Network. The show centers on Blossom, Bubbles, and Buttercup, three kindergarten-aged girls with superpowers. They live in the fictional city of Townsville with their father and creator, a scientist named Professor Utonium, and are frequently called upon by the city's mayor to help fight \n[…]\nThe show revolves around the adventures of three kindergarten-aged girls with an array of various superpowers: Blossom (pink), Bubbles (blue), and Buttercup (green). As depicted in the opening sequence of each episode, the Powerpuff Girls were created by Professor Utonium in an attempt to create the \"perfect little girl\" using a mixture of sugar, spice, and everything nice.\n[…]\nThese include their nemesis Mojo Jojo, an evil chimpanzee with a large mutated brain and high intelligence, who was Professor Utonium's assistant before he was accidentally spilled with Chemical X—the same accident that created the Powerpuff Girls; Fuzzy Lumpkins, a pink, furry hillbilly monster; the Amoeba Boys, three dimwitted, single-celled gangsters; \"Him\", a sinister demon who often plays mind games on the girls with his powers; Princess Morbucks, the spoiled daughter of Townsville's richest man who hates and envies the girls; and the Rowdyruff Boys, the Powerpuff Girls' evil counterparts created by Mojo using a mixture of \"snips, snails, a puppy dog tail,\" and radioactive toilet water.\n[…]\nAs Cartoon Network executives did not allow McCracken to market the series with the word \"ass\", two of his friends came up separately with the name \"Powerpuff\", thus the title was changed from The Whoopass Girls to The Powerpuff Girls. In addition, the \"can of Whoopass\", which originally gave the girls their superpowers, was replaced with Chemical X. Seibert was impressed and began negotiations for a series pickup."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Powerpuff_Girls",
+        "situacao": "ok",
+        "texto": "The Powerpuff Girls (conhecido no Brasil como As Meninas SuperPoderosas) é uma série de desenho animado estadunidense criada e escrita por Craig McCracken. Sucesso em todo o mundo, a série foi considerada a nova mania dos Estados Unidos durante o fim da década de 90 e inicio dos anos 2000 e teve um reboot de mesmo nome no ano de 2016. As 4 primeiras temporadas foram produzidas pela Hanna-Barbera, \n[…]\nConta a história de três garotas com super poderes: Florzinha, Lindinha e Docinho. Elas foram criadas pelo Professor Utônio, que acidentalmente deixou derrubar o Elemento X na poção da \"Garotinha Perfeita\" (uma mistura de  açúcar, tempero e tudo o que há de bom). Sendo assim, o Elemento X deu a elas super poderes, e entre uma brincadeira e outra, elas tem que salvar a cidade fictícia norte-americana de Townsville de diversos monstros.\n[…]\nTal como é descrito na sequência de abertura de cada episódio, as Meninas Superpoderosas foram criadas pelo Professor Utônio em uma tentativa “para criar a garota perfeita”, usando uma mistura de “açúcar, tempero e tudo que há de bom”.\n[…]\nFlorzinha (dublada por Iara Riça no Brasil e por Paula Pais em Portugal) — É ruiva e usa um laço vermelho gigante no alto da cabeça e o cabelo preso,  com um vestido rosa. Confiante, orgulhosa, batalhadora e Alegre. Elemento: Tudo que há de bom (Everything Nice). Florzinha é a líder das Meninas Superpoderosas com uma perfeita combinação de inteligência, beleza e força!\n[…]\nLindinha (dublada por Cristiane Monteiro no Brasil e por Ana Luís Martins em Portugal) — É loira e usa duas maria-chiquinhas. Tem olhos azuis da mesma cor de seu vestido. Doce, sensível, corajosa (mas tem medo do escuro), inocente e observadora. A mais sensível do trio. Elemento: Açúcar (Sugar). É ela quem carrega a alma das Meninas Superpoderosas. Borboletas são as coisas mais lindas e fofas para ela, se bem que quase tudo que ela vê é fofo para ela.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "La Casa de Papel",
+      "descricao": "Série espanhola sobre um bando que, liderado pelo Professor, assalta a Casa da Moeda da Espanha."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Em La Casa de Papel, os assaltantes de macacão vermelho escondem o rosto com máscaras de qual pintor espanhol?",
+    "resposta": "Salvador Dalí",
+    "distratores": [
+      "Pablo Picasso",
+      "Joan Miró",
+      "Francisco de Goya"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Money_Heist"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Money_Heist",
+        "situacao": "ok",
+        "texto": "Money Heist (Spanish: La casa de papel, [la ˈkasa ðe paˈpel], lit. 'The House of Paper') is a Spanish heist crime drama television series created by Álex Pina. The series traces two long-prepared heists led by the Professor (Álvaro Morte), one on the Royal Mint of Spain, and one on the Bank of Spain, told from the perspective of one of the robbers, Tokyo (Úrsula Corberó).\n[…]\nSalvador Dalí was chosen as the robbers' mask design because of Dalí's recognisable visage that also serves as an iconic cultural reference to Spain; Don Quixote as an alternative mask design was discarded. This choice sparked criticism by the Gala-Salvador Dalí Foundation for not requesting the necessary permissions.\n[…]\nDressed in red jumpsuits and masks depicting artist Salvador Dalí, the robbers take 67 hostages as part of their plan to print and escape with €2.4 billion through a self-built escape tunnel. The Professor heads the heist from an external location.\n[…]\nNetflix dubbed the series and renamed it from La casa de papel to Money Heist for distribution in the English-speaking world, releasing the first part on 20 December 2017 without any promotion. The second part was made available for streaming on 6 April 2018. Pina assessed the viewer experience on Antena 3 versus Netflix as \"very different\", although the essence of the series remained the same.\n[…]\nThere have also been negative responses to the influence of the show. In numerous incidents, real heist men wore the show's red costumes and Dalì masks in their attacks or copied the fictional robbers' infiltration plans. The robbers' costumes were banned at the 2019 Limassol Carnival Festival as a security measure as a result. The series was used in an attack on YouTube, when hackers removed the most-played song in the platform's history, \"Despacito\", and left an image of the show instead.\n[…]\nMoney Heist at Rotten Tomatoes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/La_casa_de_papel",
+        "situacao": "ok",
+        "texto": "La Casa de Papel é uma série de televisão de drama policial espanhola criada por Álex Pina. A trama traça dois assaltos muito preparados liderados por um homem conhecido como O Professor (Álvaro Morte), na Casa da Moeda Real da Espanha e outro no Banco Central da Espanha. A série foi inicialmente planejada como uma minissérie de 15 episódios dividida em duas partes, a primeira com nove episódios e\n[…]\nVestido com macacões vermelhos com uma máscara do pintor espanhol Salvador Dalí, o grupo de ladrões força 67 reféns imprimirem €2.4 bilhões de euros, para depois fugirem em um túnel secreto. O Professor auxilia o grupo em local externo longe do alcance da polícia e da inspetora Raquel. Durante as partes 1 e 2, os ladrões têm dificuldades em seguir as regras predefinidas dentro da Casa da Moeda e enfrentam violência, isolamento, motim e uma crescente falta de sono.\n[…]\nLa Casa de Papel consolidou-se como uma franquia global de sucesso da Netflix, expandindo-se para além da série original espanhola. A marca inclui a série principal (2017-2021), o spin-off focado no personagem Berlim (2023) e o remake coreano La Casa de Papel: Coreia (2022).\n[…]\nEnquanto os usuários inundavam as redes sociais com mídia deles vestindo roupas dos ladrões, as fantasias dos ladrões foram usadas no Carnaval do Rio e as mascaras de Salvador Dalí foram exibidas em enormes faixas nos estádios de futebol da Arábia Saudita. As imagens reais desses eventos seriam mostradas mais tarde na Parte 3 como um tributo ao sucesso internacional da série.\n[…]\nTambém houve respostas negativas à influência do show. Em vários incidentes, homens reais usaram os trajes vermelhos do show e máscaras de Dalì em seus ataques ou copiaram os planos de infiltração dos ladrões fictícios. As fantasias dos ladrões foram proibidas no Festival de Carnaval de Limassol 2019 como uma medida de segurança como resultado.\n[…]\nLa casa de papel no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Pantanal (telenovela de 1990)",
+      "descricao": "Telenovela de Benedito Ruy Barbosa exibida em 1990, ambientada no Pantanal mato-grossense."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na primeira versão da novela Pantanal, em 1990, a selvagem Juma Marruá, que diziam virar onça, foi vivida por que atriz?",
+    "resposta": "Cristiana Oliveira",
+    "distratores": [
+      "Alanis Guillen",
+      "Ingra Lyberato",
+      "Luciana Braga"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pantanal_(telenovela_de_1990)",
+      "https://pt.wikipedia.org/wiki/Cristiana_Oliveira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pantanal_(telenovela_de_1990)",
+        "situacao": "ok",
+        "texto": "Pantanal é uma telenovela brasileira exibida pela Rede Manchete de 27 de março a 11 de dezembro de 1990 em 216 capítulos. Sucedeu Kananga do Japão e antecedeu A História de Ana Raio e Zé Trovão. Escrita por Benedito Ruy Barbosa, tem direção de Carlos Magalhães, Roberto Naar e Marcelo de Barreto e direção geral de Jayme Monjardim.\n[…]\nEm abril de 1990, durante uma externa à beira do Rio Negro, Sérgio Reis acabou ajudando Cristiana Oliveira a fugir do cerco de seis jacarés-de-papo-amarelo, que invadiram a gravação da telenovela.\n[…]\nEm 2020, a TV Globo confirmou que fará um remake de Pantanal para o ano de 2021, por conta dos focos de queimada na região, para o horário das 21h, com o próprio texto original da novela, mas com algumas adaptações, sob a autoria de Bruno Barbosa Luperi, seu neto, com quem já havia trabalhado na produção de Velho Chico em 2016; a nova versão contará com a direção artística de Rogério Gomes e com Marcos Palmeira, intérprete de Tadeu na versão original, como José Leôncio (papel de Cláudio Marzo em 1990), enquanto que a icônica personagem, Juma Marruá, que foi vivida por Cristiana Oliveira será interpretada na nova versão por Alanis Guillen.\n[…]\nSentindo-se rejeitado pelo pai, que acha que o filho é afeminado, e ridicularizado pelos peões por causa de seu jeito de moço da cidade, Jove decide retornar ao Rio, mas leva consigo Juma Marruá (Cristiana Oliveira), moça criada como selvagem pela mãe (Cássia Kis) até a morte dessa, assassinada por encomenda numa trama paralela de vingança entre posseiros de terras e vítimas de grilagem, fatos esses ocorridos no início da novela na cidade de Sarandi, no estado do Paraná.\n[…]\nCapa: Cristiana Oliveira\n[…]\n\"Pantanal\" (Primeira Versão) — Sagrado Coração da Terra\n[…]\nMelhor Novela\n[…]\nMelhor Novela\n[…]\nRevelação do Ano — Cristiana Oliveira\n[…]\n«Página oficial da novela no site do SBT»"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cristiana_Oliveira",
+        "situacao": "ok",
+        "texto": "Cristiana Barbosa da Silva de Oliveira (Rio de Janeiro, 15 de dezembro de 1963), é uma atriz e ex-modelo brasileira. Conhecida por seus papéis em telenovelas desde o final da década de 1980, ganhou maior notoriedade ao interpretar Juma em Pantanal. Ela é ganhadora de vários prêmios, incluindo um Prêmio APCA e um Troféu Imprensa, além de ter recebido indicação para um Prêmio Extra.\n[…]\nNascida e criada em Ipanema, Cristiana começou sua carreira de atriz na novela Kananga do Japão, da TV Manchete, no núcleo principal, após ter ficado conhecida por seu trabalho como modelo. Ela foi eleita como a revelação feminina do ano pelo Prêmio APCA por esse trabalho. Mas alcançou seu sucesso em 1990 como Juma Marruá em Pantanal.\n[…]\nCom esta novela ganhou o prêmio por unanimidade de atriz revelação pela APCA. Em 1990 Cristiana interpretou seu personagem de maior destaque, a protagonista Juma em Pantanal, que inicialmente seria para a atriz Glória Pires. A novela foi um grande sucesso, derrubando a audiência da TV Globo e virando um marco na teledramaturgia brasileira. Cristiana, com este trabalho, ganhou o Troféu Imprensa de \"Revelação do ano\".\n[…]\nEm 2022, realizou uma participação especial em um capítulo da nova versão de Pantanal, remake de seu primeiro grande sucesso, o qual protagonizou como Juma Marruá, em homenagem ao seu trabalho na primeira versão junto com outros atores do elenco da versão de 1990.\n[…]\nEm maio de 2022 publicou o livro \"Cristiana Oliveira: Versões de uma Vida\" pela Editora Letramento, em coautoria com a jornalista e escritora, Larissa Molina. O evento de lançamento aconteceu no Rio de Janeiro (RJ), em uma livraria do bairro Ipanema e contou com a presença de diversas celebridades.\n[…]\nEm 1990, Cristiana se casa pela segunda vez, dessa vez com o ator Fábio Assunção, a união entre os dois durou três anos.\n[…]\nCristiana Oliveira no IMDb\n[…]\nCristiana Oliveira no Instagram"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Sex and the City",
+      "descricao": "Série americana de TV de 1998 sobre quatro amigas em Nova York."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A série Sex and the City nasceu de uma coluna de jornal, depois reunida em livro, de qual escritora americana?",
+    "resposta": "Candace Bushnell",
+    "distratores": [
+      "Sarah Jessica Parker",
+      "Helen Fielding",
+      "Lauren Weisberger"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Candace_Bushnell",
+      "https://en.wikipedia.org/wiki/Sex_and_the_City"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Candace_Bushnell",
+        "situacao": "ok",
+        "texto": "Candace Bushnell (born December 1, 1958) is an American author, journalist, and television producer. She wrote a column for The New York Observer (1994–96) that was adapted into the bestselling Sex and the City anthology. The book was the basis for the HBO hit series Sex and the City (1998–2004) and two subsequent movies.\n[…]\nBushnell's 2005 novel Lipstick Jungle was adapted for television and aired on NBC in 2008. The series Lipstick Jungle starred Brooke Shields and ran for 20 episodes. In 2009, Bushnell wrote articles for Meredith's More magazine.\n[…]\nIn 2008, HarperCollins contracted Bushnell to write two books for young adults about Carrie Bradshaw's high school years. The first of these, The Carrie Diaries, was published in 2010. The other, Summer and the City (Carrie Diaries Series #2), was published in 2011. The Carrie Diaries was a number one New York Times Bestseller.\n[…]\nIn 2012, Bushnell was sued in federal court by her former friend and manager Clifford Streit (who inspired the Sex and the City character Stanford Blatch), who claimed that Bushnell reneged on a settlement in which she agreed to pay him 7.5% of anything she earned from the Sex and the City TV series and the two Sex and the City movies, an amount Streit estimated was at least $150,000.\n[…]\nFrom 2002 to 2011, Bushnell was married to Charles Askegard, a principal dancer with the New York City Ballet who was ten years her junior, and whom she had met eight weeks before. They divorced in 2011. She found the experience disorienting, telling The Guardian, \"When I got divorced, I couldn’t get a mortgage; I didn’t fit into a computer model. All of a sudden, I was invited to no more couple things. Being single is hard and there’s something a bit heroic about it.\"\n[…]\nCandace Bushnell at IMDb\n[…]\nLimited online archive of Bushnell's column in The Observer"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sex_and_the_City",
+        "situacao": "ok",
+        "texto": "Sex and the City is an American romantic comedy-drama television series created by Darren Star for HBO, based on the newspaper column and 1996 book by Candace Bushnell. It premiered in the United States on June 6, 1998, and concluded on February 22, 2004, with 94 episodes broadcast over six seasons.\n[…]\nThe show is based on writer Candace Bushnell's column \"Sex and the City\" published in The New York Observer, which was later compiled into a book of the same name. Bushnell has said in several interviews that the Carrie Bradshaw in her columns is her alter ego; when she started the column she wrote from her first-person perspective, but later invented Carrie, who was introduced as Bushnell's friend, so her parents would not be aware that they were reading about her sex life.\n[…]\nBushnell and the television version of Carrie (who had no last name in the column) have the same initials, a flourish emphasizing their connection. Moreover, like Bushnell, Carrie writes columns for the fictional New York Star which are also compiled into a book later in the series, and later becomes a writer for Vogue.\n[…]\nBushnell worked with television producer Darren Star, whom she had met while profiling him for Vogue, to adapt the columns for television. HBO and ABC were interested in the series, but Star decided to offer it to HBO for more creative freedom. Star wrote the pilot with Parker in mind as Carrie. According to Parker, \"I was flattered but didn't want to do it.\n[…]\nThe Carrie Diaries is a prequel to the original series, based on the book of the same name by Candace Bushnell. The series premiered on The CW on January 14, 2013. AnnaSophia Robb plays the role of young Carrie Bradshaw. On May 8, 2014, The CW cancelled The Carrie Diaries after two seasons.\n[…]\nSex and the City at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Candace_Bushnell",
+        "situacao": "ok",
+        "texto": "Candace Bushnell (Glastonbury, 1 de dezembro de 1959) é uma jornalista norte-americana.\n[…]\nVive em Nova Iorque e é conhecida pela sua coluna de sexo que se tornou na inspiração da série O Sexo e a Cidade.\n[…]\nEm 1994, o editor do jornal onde trabalhava pediu-lhe que tentasse escrever uma coluna para o jornal. Candace baseou-se nas aventuras que ouvia das suas amigas e chamou-a Sex and the City.\n[…]\nEm 1998, HBO começou a transmitir a série, O Sexo e a Cidade, baseada na coluna de Candace, mas não exatamente fiel. A série aumentou o seu prestígio, tornando o seu nome conhecido também por pessoas que não tinham lido o livro. A série tornou-se de culto e terminou em 2004.\n[…]\nMuitos escritores compararam a personagem de Carrie Bradshaw na série com Candace, porque Carrie, tal como Candace é uma colunista de sexo e adora a vida noturna de Nova Iorque.\n[…]\n(1996) O Sexo e a Cidade - no original Sex and the City\n[…]\n(2011) O verão e a cidade - no original Summer and the City",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Pantera Cor-de-Rosa",
+      "descricao": "Personagem animado de felino rosa, surgido na abertura do filme A Pantera Cor-de-Rosa, de 1963, e depois estrela de desenhos na TV."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que compositor americano criou o famoso tema musical de jazz que acompanha a Pantera Cor-de-Rosa?",
+    "resposta": "Henry Mancini",
+    "distratores": [
+      "John Williams",
+      "Quincy Jones",
+      "Burt Bacharach"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Pink_Panther_Theme"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Pink_Panther_Theme",
+        "situacao": "ok",
+        "texto": "\"The Pink Panther Theme\" is a jazz composition by Henry Mancini written as the theme for the 1963 film The Pink Panther and subsequently nominated for the Academy Award for Best Original Score at the 37th Academy Awards but lost to the Sherman Brothers for Mary Poppins. The eponymous cartoon character created for the film's opening credits by David DePatie and Friz Freleng was animated in time to \n[…]\nVarious recordings of the composition appeared in the opening credits of all The Pink Panther films except A Shot in the Dark and Inspector Clouseau. It has also been used in theatrical shorts, television cartoons, commercials and other works in which the animated Pink Panther appears.\n[…]\n\"The Pink Panther Theme\" is composed in the key of E minor, temporarily moves to the key of G minor for a bridge, and finishes back in the original key.\n[…]\nIn his autobiography Did They Mention the Music?, Mancini talked about how he composed the theme music:\n[…]\nThe theme and variations thereof were used in the Pink Panther theatrical shorts, composed by William Lava and Walter Greene, as well as for the television series The Pink Panther Show, The New Pink Panther Show, and The All New Pink Panther Show, the former two composed by Doug Goodwin and the latter composed by Steve DePatie, David's son.\n[…]\nA 1990s pop-style arrangement of the theme by Jared Faber is featured in the soundtrack of the 1996 computer game The Pink Panther: Passport to Peril as the game's opening theme.\n[…]\nChristophe Beck rearranged the music for various uses in the 2006 reboot and its sequel, The Pink Panther 2—DJ Paul Oakenfold remixed the theme song for the 2006 film. Mancini is given a posthumous credit in the opening titles for the theme.\n[…]\nA rearranged rock-styled electric-guitar version of Henry Mancini's \"Pink Panther Theme\", composed by David Ricard, was used for the short-lived Pink Panther and Pals series in 2010."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Pink_Panther_Theme",
+        "situacao": "ok",
+        "texto": "\"The Pink Panther Theme\" é um jazz composto por Henry Mancini, música criada especialmente para ser tema do filme A Pantera Cor-de-rosa (1963) e posteriormente indicada ao Oscar de Melhor Trilha Sonora Original no Oscar 1965, tendo perdido para os Sherman Brothers em Mary Poppins. O personagem do desenho homônimo – criado para os créditos de abertura do filme por David DePatie e Friz Freleng – foi\n[…]\n\"O Tema da Pantera Cor de Rosa\", composto na tonalidade de mi menor, é incomum pelo uso extensivo de cromatismo por Mancini.\n[…]\nEm sua autobiografia Did They Mention the Music?, Mancini falou sobre como compôs a música tema:\n[…]\nNo filme Revenge of the Pink Panther de 1978, o tema — e grande parte da trilha sonora desta entrada na série — foi fortemente inspirado na música disco do final dos anos 1970. O tema em si foi retrabalhado para incluir uma linha de baixo mais dançante, teclado elétrico e um solo de guitarra. Um tratamento semelhante foi dado a Curse of the Pink Panther de 1983 , onde a música apresentava consideravelmente mais elementos sintetizados.\n[…]\nNo filme Son of the Pink Panther de 1993, o tema foi rearranjado e executado por Bobby McFerrin nos créditos de abertura, a única versão do tema a ser executada em estilo a cappella . Os créditos apresentaram o tema no estilo tradicional, semelhante à sua aparência em Return of the Pink Panther, com uma linha de baixo de teclado elétrico.\n[…]\nChristophe Beck rearranjou a música para vários usos no reboot de 2006 e sua sequência, The Pink Panther 2 — o DJ Paul Oakenfold remixou a música tema do filme de 2006. Mancini recebe um crédito póstumo nos títulos de abertura do tema.\n[…]\nO tema foi apresentado no filme The Life and Death of Peter Sellers (2004).\n[…]\nUma versão rearranjada para guitarra do \"Tema da Pantera Cor de Rosa\" de Henry Mancini, composta por David Ricard, foi usada na curta série Pink Panther and Pals em 2010.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Big Brother",
+      "descricao": "Franquia internacional de reality show criada na Holanda em 1999, em que participantes confinados numa casa são filmados o tempo todo."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O formato Big Brother foi criado em 1999, na Holanda, pela produtora de qual empresário de televisão?",
+    "resposta": "John de Mol",
+    "distratores": [
+      "Simon Cowell",
+      "Mark Burnett",
+      "Charlie Parsons"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Big_Brother_(franchise)",
+      "https://en.wikipedia.org/wiki/John_de_Mol_Jr."
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Big_Brother_(franchise)",
+        "situacao": "ok",
+        "texto": "Big Brother is a reality competition television franchise created by John de Mol Jr., first broadcast in the Netherlands in 1999 and subsequently syndicated internationally beginning in 2000. The show features contestants called \"housemates\" or \"HouseGuests\" who live together in a specially constructed house that is isolated from the outside world. The show has been cited as having had widespread \n[…]\nOn 5 May 2020, Endemol Shine Group announced that an official Big Brother mobile game named Big Brother: The Game was being developed by Irish gaming company 9th Impact, with a worldwide release expected later that year. The game uses the American format, with competitions determining the Head of Household and Power of Veto holders, with an eviction cycle occurring each day. Players must form alliances with one another to stay in the game and advance to the next tier.\n[…]\nIn April 2000, Castaway, an independent production company, filed a lawsuit against John de Mol and Endemol for stealing the concepts of their own show called Survive!, a reality television show where contestants are placed on a deserted island and have to take care of themselves alone. These contestants were also filmed by cameras around them. The court later dismissed the lawsuit filed by Castaway against de Mol and Endemol. The Survive! reality television format was later turned into Survivor.\n[…]\nAdditionally, an incident of sexual assault occurred in the Australian Big Brother house in 2006, during the show's sixth season. Contestant Michael \"John\" Bric held down fellow contestant Camilla Severi in her bed while a second man, Michael \"Ashley\" Cox, \"slapped\" her in the face with his penis, an indecent act illegal under Australian law. The incident was shown on the 'Adults-only' late-night segment, Big Brother: Adults Only, leading to the show's cancellation."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/John_de_Mol_Jr.",
+        "situacao": "ok",
+        "texto": "Johannes Hendrikus Hubert \"John\" de Mol Jr. (born 24 April 1955) is a Dutch media proprietor. De Mol is one of the men behind production companies Endemol and Talpa. He created the reality television formats Big Brother, Star Academy and The Voice, and the game shows Fear Factor, Deal or No Deal and The Floor.\n[…]\nDe Mol acquired his fortune producing television programmes. From 1997 to 1999, he developed the popular reality television series Big Brother with his production company, John de Mol Produkties. In 1994, his company merged with Joop van den Ende TV-Producties into Endemol, but it still functioned on its own. He produced Fear Factor, Love Letters, 1 vs. 100 and Deal or No Deal (Miljoenenjacht) for Endemol.\n[…]\nAfter the episode went online, De Mol was accused of victim-blaming, particularly by his company's female employees. A page-wide advertisement published on Algemeen Dagblad stated the following: \"Dear John, It’s not the women. Greetings, the women in your company″.\n[…]\nDe Mol is the son of John de Mol Sr., who was the general manager of Dutch station Radio Noordzee and was known as the Dutch Frank Sinatra. John's sister, broadcaster and actress Linda de Mol, presents or appears in some of Endemol's programmes, including the original Dutch version of Deal or No Deal, Miljoenenjacht (Hunt for Millions).\n[…]\nDe Mol Jr. was formerly married to singer and actress Willeke Alberti. The actor Johnny de Mol is their son. From 1980 to 1984, Luv' singer Marga Scheide was his partner. Outside of television, De Mol controls a large private equity fund which, at one time, owned significant shares of car manufacturer Spyker Cars and telecommunications company Versatel."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Big_Brother_%28reality_show%29",
+        "situacao": "ok",
+        "texto": "Big Brother é uma franquia de reality show neerlandesa criada por John de Mol. Foi transmitida pela primeira vez nos Países Baixos em 1999 e posteriormente distribuída internacionalmente. O programa apresenta concorrentes que moram juntos em uma casa especialmente construída e isolada do mundo exterior. Desde 5 de agosto de  2023 (2023 -08-05), já foram feitas versões do Big Brother em mais de 63 \n[…]\nEm abril de 2000, a Castaway, uma produtora independente, entrou com uma ação judicial contra John de Mol e Endemol por roubarem os conceitos de seu próprio programa chamado Survive!, um reality show onde os competidores são colocados em uma ilha deserta e precisam cuidar de si mesmos sozinhos. Esses competidores também eram filmados por câmeras ao seu redor. Posteriormente, o tribunal rejeitou a ação movida por Castaway contra de Mol e Endemol.\n[…]\nEm 2000, o espólio de George Orwell processou a CBS Television e a Endemol por violação de direitos autorais e marca registrada, alegando que o programa infringia o romance 1984 e suas marcas registradas. Após uma série de decisões judiciais adversas aos réus (CBS e Endemol), o caso foi resolvido por uma quantia não revelada na noite do julgamento.\n[…]\nNo Big Brother Brasil, muitos telespectadores relataram que assistiram a um participante supostamente abusar de uma colega de casa enquanto ela estava desmaiada e bêbada após uma \"festa com bebidas alcoólicas\". Logo em seguida, a Polícia Federal entrou na casa e prendeu o infrator, que posteriormente foi proibido de aparecer novamente no programa.\n[…]\nAlém disso, um incidente de agressão sexual ocorreu no Big Brother Australia em 2006, durante a sexta temporada do programa. O competidor Michael \"John\" Bric segurou a colega Camilla Severi em sua cama enquanto um segundo homem, Michael \"Ashley\" Cox, \"deu um tapa\" no rosto dela com seu pênis, um ato indecente ilegal sob a lei australiana.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Pica-Pau",
+      "descricao": "Pássaro de desenho animado, de risada característica, que estreou nos cinemas em 1940 e fez sucesso na TV."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Segundo Walter Lantz, o Pica-Pau foi inspirado num pássaro barulhento que bicava o telhado e atrapalhou que momento da vida dele?",
+    "resposta": "A lua de mel",
+    "distratores": [
+      "Uma gravação de rádio",
+      "A estreia de um filme",
+      "Um piquenique em família"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Woody_Woodpecker"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Woody_Woodpecker",
+        "situacao": "ok",
+        "texto": "Woody Woodpecker is a cartoon character created by American animators Walter Lantz and Ben \"Bugs\" Hardaway. He appeared in theatrical short films produced by Walter Lantz Productions and Universal Pictures' animation studio from 1940 until 1972.\n[…]\nWoody Woodpecker's debut also marked a change in directing style for Walter Lantz studio, since the character was heavily inspired by Tex Avery-created Looney Tunes character Daffy Duck at Warner Bros, and thus Woody's cartoons tended to have a hint of Tex Avery's style and influence in terms of humor, and that's what gave Walter Lantz studio its fame. Avery himself never directed a Woody Woodpecker short while at the Walter Lantz studio.\n[…]\nIn 2007, Universal Pictures Home Entertainment released The Woody Woodpecker and Friends Classic Cartoon Collection, a three-disc DVD boxed set compilation of Walter Lantz \"Cartunes\". The first forty-five Woody Woodpecker shorts from Knock Knock to The Great Who-Dood-It were presented in the box set in chronological order of release, with various Chilly Willy, Andy Panda, Swing Symphonies, and other Lantz shorts also included.\n[…]\nWoody was the star of a number of comic book series published in the U.S. and around the world. The main title, Walter Lantz Woody Woodpecker, ran from 1952 to 1983.\n[…]\nWalter Lantz Woody Woodpecker became an independent comic book (starting with issue #16 to reflect the earlier appearances in Four Color) in Dec. 1952-Jan. 1953. It ran for 201 issues, published by Dell and then Western Publishing (Whitman/Gold Key), lasting until 1983.\n[…]\nWoody Woodpecker profile at the Walter Lantz Cartune Encyclopedia\n[…]\nWatch Woody Woodpecker in the public domain Pantry Panic (1941)\n[…]\nWoody Woodpecker on the Internet Movie Database"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pica-Pau_%28personagem%29",
+        "situacao": "ok",
+        "texto": "Pica-Pau (no original em inglês Woody Woodpecker e denominada em Portugal O Pica-Pau) é um personagem da série estadunidense de mesmo nome, um pica-pau antropomórfico (animal com corpo e características humanas), que estrelou vários curta-metragens de animação produzidos pelo estúdio de Walter Lantz e distribuídos pela Universal Pictures.\n[…]\nDe acordo com um agente de imprensa de Walter Lantz, a ideia de criar o personagem surgiu durante a lua de mel do desenhista com Grace Stafford em June Lake, Califórnia, quando um pica-pau barulhento passou a noite inteira bicando o telhado do chalé que haviam alugado, impedindo o casal de dormir. Quando o pássaro foi embora, eles descobriram que o pica-pau havia feito um monte de buracos no telhado, por onde a chuva começou a entrar, arruinando de uma vez a noite.\n[…]\nWalter Lantz estava em lua-de-mel quando teve a ideia de criar o Pica-Pau, por conta de um exemplar do pássaro que o atormentou e o divertiu na noite de núpcias.\n[…]\nA animação de alguns curtas também decaiu um pouco perto do fim da vida do estúdio de Walter Lantz, durante os anos 60 até o início dos 70, quando Lantz os produzia direto para a televisão no programa \"The Woody Woodpecker Show\" (na mesma época da animação limitada para a TV, muito usada também pela Hanna Barbera).\n[…]\nEm 2007, a Universal Studios Home Entertainment lançou The Woody Woodpecker and Friends Classic Cartoon Collection, um DVD de três discos em uma compilação de Walter Lantz \"Cartunes\". Os primeiros quarenta e cinco curtas do Pica-Pau - de Knock Knock a The Great Who-Dood-It - foram apresentados na caixa em ordem cronológica de lançamento, com vários curtas de Picolino, Andy Panda, Swing Symphonies e outros curtas de Lantz também incluídos.\n[…]\nWoody Woodpecker (2018- )\n[…]\nWalter Lantz\n[…]\nPica-Pau no Facebook\n[…]\n«Woody Woodpecker» (em inglês)  no Cartoon Scrapbook",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Dana Scully",
+      "descricao": "Agente do FBI cética da série Arquivo X, parceira de Fox Mulder, interpretada por Gillian Anderson."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Na segunda temporada de Arquivo X, a agente Scully é abduzida e some por alguns episódios. Que fato da vida real motivou esse enredo?",
+    "resposta": "A gravidez de Gillian Anderson",
+    "distratores": [
+      "Uma briga por salário",
+      "As filmagens de um filme",
+      "Uma cirurgia da atriz"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dana_Scully",
+      "https://en.wikipedia.org/wiki/Ascension_(The_X-Files)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dana_Scully",
+        "situacao": "ok",
+        "texto": "Dana Katherine Scully, M.D., is one of the two protagonists in the Fox science-fiction, supernatural television series The X-Files. The character, played by Gillian Anderson, is a Federal Bureau of Investigation (FBI) Special Agent and a medical doctor (MD). She investigates unsolved criminal cases labeled X-Files, which are often revealed to be supernatural or extraterrestrial in nature.\n[…]\nThe casting for Scully caused a conflict between Carter and the Fox network. Carter had chosen 24-year-old Gillian Anderson, whom Carter felt was perfect for the role.\n[…]\nMaura Isles of Rizzoli & Isles, Olivia Benson of Law and Order: SVU, Joan Watson of Elementary, Sydney Bristow of Alias, Abbie Mills of Sleepy Hollow, Zoë Washburne of Firefly, Stella Gibson (another character portrayed by Anderson) of The Fall and Olivia Dunham of Fringe. Jade Bastién wrote: \"Do all the characters Scully has influenced live up to her? Definitely not. Gillian Anderson's performance and her chemistry with David Duchovny aren't exactly elements that can be replicated.\n[…]\nIndiewire's Liz Shannon Miller ranked Scully as the No. 1 most important character of The X-Files, writing: \"Scully's legacy is so important in so many ways, from giving us the gift of Gillian Anderson's acting, to inspiring an entire generation of young women to pursue careers in STEM. Intelligent, loyal, flawed and brave, Scully was the show's beating heart and saving grace even in its lowest years. As Chris Carter himself has said: 'It's Scully's show'.\"\n[…]\nAt the 2013 San Diego Comic-Con, Anderson noted that she has long been aware of \"The Scully Effect\" and stated: \"We got a lot of letters all the time, and I was told quite frequently by girls who were going into the medical world or the science world or the FBI world or other worlds that I reigned, that they were pursuing those pursuits because of the character of Scully."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ascension_(The_X-Files)",
+        "situacao": "ok",
+        "texto": "\"Ascension\" is the sixth episode of the second season of the American science fiction television series The X-Files. It premiered on the Fox network on October 21, 1994. It was written by Paul Brown, directed by Michael Lange, and featured guest appearances by Steve Railsback, Nicholas Lea, Steven Williams and Sheila Larken. The episode helped explore the series' overarching mythology.\n[…]\nThe show centers on FBI special agents Fox Mulder (David Duchovny) and Dana Scully (Gillian Anderson) who work on cases linked to the paranormal, called X-Files. However, the events of \"Ascension\" are a continuation of the plot of the preceding episode, \"Duane Barry\". Following the kidnapping of Scully by an unhinged alien abductee Duane Barry (Steve Railsback), Mulder races to track her down.\n[…]\nUpon hearing Dana Scully's (Gillian Anderson) kidnapping by Duane Barry as she leaves a message on his answering machine, Fox Mulder (David Duchovny) heads to her apartment and surveys the crime scene. He meets with her mother, Margaret, who has had a dream about Scully being taken away. The next morning, Assistant Director Walter Skinner tells Mulder that he is \"too close\" to the case to be involved, and orders Alex Krycek (Nicholas Lea) to escort him home.\n[…]\nThe idea to have Scully abducted originated when Gillian Anderson became pregnant in the middle of the first season. While initially upset, those in charge of the show never considered dropping the actress from the show. Ideas such as having Scully give birth to an alien baby were dismissed. Ultimately, the writers decided to work around the pregnancy by closing the X-Files, separating the agents, and eventually having Scully be abducted.\n[…]\nCritical Myth gave this episode 9/10, stating \"[a]s convoluted and bastardized as that plot thread would become, at this stage of the game, it was one of the best episodes of the series to date.\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dana_Scully",
+        "situacao": "ok",
+        "texto": "The X-Files (bra: Arquivo X; palop/prt: Ficheiros Secretos ou The X-Files: Ficheiros Secretos) é uma série de televisão norte-americana de ficção científica criada por Chris Carter. A série foi exibida originalmente entre 10 de setembro de 1993 e 19 de maio de 2002, no canal norte-americano Fox, e em um reavivamento de duas temporadas adicionais exibidas entre 24 de janeiro de 2016 e 21 de março d\n[…]\nNa série, os agentes especiais do FBI, Fox Mulder (David Duchovny) e Dana Scully (Gillian Anderson), investigam os Arquivos-x: casos não solucionados envolvendo fenômenos paranormais. Mulder acredita na existência de extraterrestres e em paranormalidade, enquanto Scully, uma médica cética, é designada para fazer análises científicas das descobertas de Mulder e propor alternativas racionais ao seu trabalho.\n[…]\nEm sua primeira exibição, a série totalizou 202 episódios divididos em nove temporadas. Em Março de 2015, foi anunciado o retorno da série no formato de uma minissérie, com as filmagens começando em meados de 2015. Chris Carter retornaria como produtor executivo e escritor. David Duchovny, Gillian Anderson e Mitch Pileggi foram confirmados na atuação de seus personagens. A estreia foi em 24 de Janeiro de 2016.\n[…]\nApós testes, escolheram para interpretar os protagonistas David Duchovny, que gostara do roteiro mas pensou que o piloto seria apenas um serviço antes de participar de mais filmes, e a desconhecida Gillian Anderson, que só tinha um trabalho na TV até o momento e fez o teste querendo mais visibilidade para conseguir novos papéis. O piloto de Arquivo X foi filmado ao longo de duas semanas em março de 1993, e dois meses depois foi aprovado pelos executivos da Fox.\n[…]\n*-Duchovny aparece apenas em dois episódios da nona temporada.\n[…]\n1997: Melhor atriz em série dramática — Gillian Anderson\n[…]\n1998: Melhor série dramática — Arquivo X",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Big Brother Brasil 1",
+      "descricao": "Primeira edição do reality show Big Brother Brasil, exibida pela Rede Globo em 2002."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Meses antes da estreia do primeiro Big Brother Brasil, o SBT saiu na frente com qual reality show de famosos confinados numa casa?",
+    "resposta": "Casa dos Artistas",
+    "distratores": [
+      "A Fazenda",
+      "No Limite",
+      "Hipertensão"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Casa_dos_Artistas",
+      "https://pt.wikipedia.org/wiki/Big_Brother_Brasil_1"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Casa_dos_Artistas",
+        "situacao": "ok",
+        "texto": "Casa dos Artistas foi um reality show brasileiro exibido pelo SBT entre 2001 e 2004, composto por um grupo de celebridades disputando o prêmio principal. O final da primeira temporada, exibido em 16 de dezembro de 2001, rendeu a maior audiência da história do SBT, com média de 47 pontos e picos de 55, contra 18 pontos da Rede Globo.\n[…]\nO reality reunia 12 celebridades confinados em uma mansão, ao lado da casa do Silvio Santos.\n[…]\nA Casa dos Artistas contou com 53 participantes oficiais. O estado de São Paulo possui o maior número de participantes, com 23 participantes. Seguido por Rio de Janeiro com 11, Minas Gerais com 7, Rio Grande do Sul e Santa Catarina com três, Paraná com dois, e Ceará, Distrito Federal, Goiás e Pernambuco com apenas um.\n[…]\nEstreou no dia 15 de agosto de 2004, e teve sua final exibida em  17 de outubro de 2004, após 64 dias. No programa, 14 aspirantes à atores ficaram confinados na Casa dos Artistas (que virou uma escola de dramaturgia) recebendo aulas de interpretação, canto e dança e sendo testados por grandes nomes da teledramaturgia Brasileira. O objetivo do programa era encontrar um protagonista para uma telenovela do SBT.\n[…]\nEm 2007, foi a vez do finalista Eduardo Paiva, o ator deu vida ao personagem Felipe na novela Maria Esperança, ao lado de Bárbara Paz, protagonista da novela e vencedora da primeira edição da Casa dos Artistas. Paola Rodrigues foi aproveitada no humorístico A Praça É Nossa. Bianca Soares, tornou-se atriz pornô atuando em filmes adultos ao lado de Alexandre Frota, um dos participantes mais polêmicos da primeira edição do reality.\n[…]\nAlém de participarem da Casa dos Artistas, alguns dos participantes passaram a competir em outros reality, game ou talent shows.\n[…]\n«Página da primeira edição no portal terra»"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Big_Brother_Brasil_1",
+        "situacao": "ok",
+        "texto": "A primeira temporada do reality show Big Brother Brasil foi exibida pela TV Globo de 29 de janeiro a 2 de abril de 2002. Foi apresentada por Pedro Bial e Marisa Orth – a única edição com Orth como apresentadora e também a ter uma apresentadora feminina – com direção geral de José Bonifácio Brasil de Oliveira, o Boninho, e Carlos Magalhães. Foi a mais curta edição da história do BBB, com 64 dias de\n[…]\nO BBB1 foi lançado poucas semanas depois de concluída a primeira temporada da Casa dos Artistas, sucesso do SBT, e tinha como diferencial a proposta de elevar pessoas \"comuns\" a celebridades. Ainda que nenhum dos participantes do BBB1 fosse familiar do grande público, não demoraram a surgir questionamentos sobre os critérios de seleção dos participantes.\n[…]\nJá a segunda, que aconteceu no dia seguinte, a apresentadora anunciou o eliminado da semana (Caetano) antes da hora prevista. Para não desaparecer repentinamente do programa, Marisa Orth aparecia no telão da casa todas as sextas-feiras para conversar com os competidores, como uma espécie de psicóloga, tirando algumas confidências dos confinados.\n[…]\nBig Brother Brasil foi a primeira trilha sonora do reality show Big Brother Brasil, lançada em 2002, durante a exibição da primeira edição, em formato CD, pela gravadora Som Livre. A capa apresenta o logotipo do programa.\n[…]\nCoincidentemente, a trilha sonora de Big Brother Brasil tem três músicas que tocaram no reality show Casa dos Artistas, do SBT: \"I Will Survive\", \"Noite do Prazer\" e \"Erva Venenosa (Poison Ivy)\", embora as duas últimas tenham sido regravações de outros artistas.\n[…]\nBig Brother Brasil 1 contou ainda com as seguintes canções:\n[…]\nEm 2008, Adriano se candidatou a vereador na cidade de Salvador, Bahia, pelo Democratas (DEM), com o nome de urna de Didi Brother. Recebeu 557 votos, insuficientes para a sua eleição.\n[…]\n«Big Brother Brasil 1»\n[…]\n«Terra: BBB1»"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Doctor Who",
+      "descricao": "Série britânica de ficção científica da BBC, sobre um alienígena viajante do tempo chamado Doutor."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Em Doctor Who, a TARDIS, a nave que viaja no tempo, é por dentro enorme. Por fora, ela tem a aparência de quê?",
+    "resposta": "Uma cabine de polícia azul",
+    "distratores": [
+      "Uma cabine telefônica vermelha",
+      "Um ônibus de dois andares",
+      "Uma caixa de correio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/TARDIS"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/TARDIS",
+        "situacao": "ok",
+        "texto": "The TARDIS (; acronym for \"Time And Relative Dimension(s) In Space\") is a fictional hybrid of a time machine and spacecraft that has, since 1963, appeared in the British science fiction television series Doctor Who and its various spin-offs. While a TARDIS is capable of disguising itself, the exterior appearance of the Doctor's TARDIS typically mimics a police box, an obsolete type of telephone ki\n[…]\nWith the 2005 series revival, a variety of TARDIS-shaped merchandise has been produced, including a TARDIS coin box, TARDIS figure toy set, a TARDIS that detects the ring signal from a mobile phone and flashes when an incoming call is detected, TARDIS-shaped wardrobes and DVD cabinets, and a USB hub in the shape of the TARDIS. The complete 2005 season DVD box set, released in November 2005, was issued in packaging that resembled the TARDIS.\n[…]\nIn music, The KLF (performing as \"The Timelords\") released a novelty pop single in 1988 entitled \"Doctorin' the Tardis\". The record reached number one in the UK Singles Chart and had chart success worldwide. It was a reworking of several songs (principally Gary Glitter's \"Rock and Roll Part 2\", The Sweet's \"Block Buster!\" and the Doctor Who theme music) with lyrics referencing Doctor Who, specifically the TARDIS.\n[…]\nTo promote the Barbie film released in July 2023, a pink TARDIS was unveiled next to Tower Bridge in London on 11 July, as Ncuti Gatwa would appear in both Barbie as a Ken and in Doctor Who as the Fifteenth Doctor.\n[…]\nOther references to the TARDIS have included a $2 silver commemorative coin depicting the TARDIS, issued on Niue Island in the South Pacific Ocean by the Perth Mint to mark the 50th anniversary of the Doctor Who television show; and Tardis Environmental, a British sewage company, in reference to the similarity of their portable toilets to a police box.\n[…]\n\"Everything You Need to Know About the TARDIS\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/TARDIS",
+        "situacao": "ok",
+        "texto": "TARDIS (acrônimo de Time and Relative Dimension(s) in Space) (em português: Tempo e Dimensão Relativas no Espaço) é a nave espacial, personagem e máquina do tempo do seriado de ficção científica da BBC, Doctor Who. A TARDIS pode levar seus passageiros para qualquer lugar no tempo e espaço.\n[…]\nA TARDIS que O Doutor pilota é um modelo antigo do tipo 40. Ela foi produzida pelos Senhores do Tempo e depois roubada pelo Primeiro Doutor em Gallifrey (planeta natal dele e dos Senhores do Tempo). Ela é muitas vezes chamada de \"A TARDIS\", pois é a única no universo devido a extinção dos Senhores do Tempo.\n[…]\nUma das principais características da TARDIS é que o interior existe em uma dimensão diferente da do exterior, fazendo com que seja \"maior por dentro do que por fora\" (bigger on the inside).\n[…]\nEsta ideia foi secundada quando o Doutor entrou na TARDIS do Monge e mudou sua aparência de um pilar de pedra para uma caixa de polícia idêntica a sua própria TARDIS.\n[…]\nDevido ao nível de complexidade em sua construção, a TARDIS tinha um grau de inteligência, e poderia agir de forma independente, como quando a TARDIS do Doutor ressuscitou Grace Holloway e Chang Lee, ou quando alguém olha para o coração da TARDIS.\n[…]\nTARDIS muitas vezes “lamentam” a morte de seu dono, chegando a cometer suicídio por voar em um sol ou arremessando-se no Vortex do Tempo. O Quinto Doutor alegou que havia “um cemitério de elefantes” de TARDISes em algum lugar no fim dos tempos.\n[…]\nPor ter essas características orgânicas, O Doutor considera sua TARDIS como um ser vivo. Ele fala e acaricia partes da TARDIS quando a opera e utiliza de condições médicas para falar de problemas mecânicos, por exemplo “indigestão”. Uma vez ele comentou que a TARDIS era “mais como uma pessoa”.\n[…]\nDoctor Who\n[…]\nSenhores do Tempo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Chacrinha",
+      "descricao": "Apresentador e comunicador brasileiro de rádio e TV, nascido José Abelardo Barbosa de Medeiros."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que alimento o Chacrinha tinha o costume de atirar para a plateia nos seus programas de auditório?",
+    "resposta": "Bacalhau",
+    "distratores": [
+      "Pipoca",
+      "Pão francês",
+      "Linguiça"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Chacrinha"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chacrinha",
+        "situacao": "ok",
+        "texto": "José Abelardo Barbosa de Medeiros (Surubim, 30 de setembro de 1917 – Rio de Janeiro, 30 de junho de 1988), mais conhecido como Chacrinha ou simplesmente Abelardo Barbosa, foi um comunicador de rádio e televisão brasileiro, apresentador de programas de auditório de grande sucesso das décadas de 1950 a 1980.\n[…]\nEm 1943, lança na Rádio Clube Fluminense um programa de marchinhas de carnaval chamado Rei Momo na Chacrinha, que faz muito sucesso. Passa então a ser conhecido como Abelardo \"Chacrinha\" Barbosa. Nos anos 1950, comandaria o programa Cassino da Chacrinha, no qual viria a lançar vários sucessos da música popular brasileira como \"Estúpido Cupido\", da cantora paulista Celly Campelo, e \"Coração de Luto\", do artista gaúcho Teixeirinha.\n[…]\nQuando o bacalhau encalhou nas Casas da Banha, seu patrocinador na TV Tupi, Chacrinha arrumou um jeito de reverter a situação. Durante o programa, virava-se para o auditório: \"Vocês querem bacalhau?\", e atirava o peixe para o auditório, onde a plateia disputava a tapa o produto. As vendas explodiram e ele explicou: \"brasileiro adora ganhar um presentinho\".[carece de fontes]? E com o tempo, outros produtos alimentícios também passaram a fazer parte da brincadeira.\n[…]\nAlcançou grande popularidade com os seus programas de calouros, nos quais apresentava-se com roupas engraçadas e espalhafatosas, acionando uma buzina de mão para desclassificar os calouros e empregando um humor debochado, utilizando bordões e expressões que se tornariam populares, como \"Teresinha!\", \"Vocês querem bacalhau?\", \"Eu vim para confundir, não para explicar!\" e \"Quem não se comunica, se trumbica!\".[carece de fontes]?\n[…]\nChacrinha no IMDb\n[…]\n«Adeus a Chacrinha reúne 30 mil no Rio (2/07/1988) - Banco de Dados - Folha de S.Paulo»"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "A Feiticeira",
+      "descricao": "Sitcom americana exibida de 1964 a 1972, Bewitched, sobre a bruxa Samantha, casada com um publicitário comum."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Na série A Feiticeira, que gesto a bruxa Samantha faz para lançar seus feitiços?",
+    "resposta": "Mexe o nariz",
+    "distratores": [
+      "Pisca os olhos",
+      "Estala os dedos",
+      "Bate palmas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bewitched"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bewitched",
+        "situacao": "ok",
+        "texto": "Bewitched is an American fantasy sitcom television series that originally aired for eight seasons on ABC from September 17, 1964, to March 25, 1972. It is about a witch who marries an ordinary mortal man and vows to lead the life of a typical suburban housewife. The show was popular, finishing as the second-highest-rated show in America during its debut season, staying in the top 10 for its first \n[…]\nFirst-season producer and head writer Danny Arnold set the initial style and tone of the series, and he also helped to develop supporting characters such as Larry Tate and the Kravitzes. Arnold, who wrote for McHale's Navy and other shows, thought of Bewitched essentially as a romantic comedy about a mixed marriage; his episodes kept the magic element to a minimum. One or two magical acts drove the plot, but Samantha often solved problems without magic.\n[…]\nBewitched inspired a 2005 film starring Nicole Kidman and Will Ferrell, distributed by Columbia Pictures. The film, departing from the show's family-oriented tone, is not a remake, but takes a metafictional approach, with the action focused on arrogant, failing Hollywood actor Jack Wyatt (Ferrell), who is offered a career comeback playing Darrin in a remake of Bewitched. The role is contingent upon him finding the perfect woman to play Samantha.\n[…]\nOn June 8, 2023, it was announced Sony Pictures Television Kids would be producing an animated Bewitched series that was to center on Samantha and Darrin's daughter Tabitha as a teenager. The series was previewed at MIPJunior on October 3, 2023. On February 14, 2024, Judalina Neira was announced to be writing and executive producing the reboot series.\n[…]\nRogers, Kasey (November 1, 1995). The Official Bewitched Cookbook: Magic in the Kitchen. Kensington Books. ISBN 978-1-57566-095-0.\n[…]\nSpencer, Beth (June 25, 2005). \"Samantha every witch way but lose\". The Age.\n[…]\nBewitched at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bewitched_%28s%C3%A9rie_de_televis%C3%A3o%29",
+        "situacao": "ok",
+        "texto": "Bewitched é uma série de televisão americana transmitida de 1964 a 1972 pela rede de televisão norte-americana ABC. Sucesso internacional em dezenas de países onde foi exibida, foi criada por Sol Saks e estrelada por Elizabeth Montgomery, Agnes Moorehead, Dick York (1964–1969) e Dick Sargent (1969-1972).\n[…]\n\"Samantha\" e \"James\" seriam um típico casal americano se não houvesse um detalhe inusitado: Samantha tem o poder de fazer mágica com uma simples torcidinha do nariz. E o marido James, um publicitário atrapalhado, também tem características incomuns, apesar de não ter nenhum poder excepcional. Quando descobre os dons da jovem esposa prefere ignorá-los, sem jamais contar com eles na solução dos seus problemas.\n[…]\nA abertura de A Feiticeira é uma animação produzida pelos estúdios Hanna-Barbera. A produtora detinha os direitos sobre a série para produzir um desenho animado, mas o projeto nunca foi adiante, apesar de Samantha e James Stephens terem participado de um episódio de Os Flintstones. A abertura mostrava Samantha, caracterizada com roupa e chapéu de bruxa, sobrevoando com uma vassoura o céu estrelado e escrevendo o nome \"Bewitched\" em letras estilizadas.\n[…]\nApós uma pequena mexidinha no nariz, ela surge na cozinha onde transforma-se em uma gata após ser beijada por James; depois de pular no colo de James retorna à forma humana, momento em que surge da panela no fogão uma enorme fumaça em que é creditado o nome de Agnes Moorehead como Endora.\n[…]\nEm Setembro de 2007, A Feiticeira foi exibida diariamente pela Rede Brasil de Televisão, na época, em 3 horários: 12h30, 19h30 e 23h30. Em 2008 chegou a ser exibida 10h e 18h e em meados do mesmo ano, às 15h de Segunda a Sábado. Sendo que nos anos seguintes, a série era exibida em horários e dias inconstantes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Bonanza",
+      "descricao": "Série americana de faroeste exibida de 1959 a 1973, sobre a família Cartwright e sua fazenda Ponderosa."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Dos três filhos de Ben Cartwright, em Bonanza, qual era o gigante bonachão, o mais forte e corpulento?",
+    "resposta": "Hoss",
+    "distratores": [
+      "Adam",
+      "Little Joe",
+      "Candy"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bonanza",
+      "https://en.wikipedia.org/wiki/Dan_Blocker"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bonanza",
+        "situacao": "ok",
+        "texto": "Bonanza is an American Western television series that ran on NBC from September 12, 1959, to January 16, 1973. Lasting 14 seasons and 431 episodes, Bonanza is NBC's longest-running Western, the second-longest-running Western series on American network television (behind CBS's Gunsmoke), and one of the longest-running, live-action American series. The show continues to air in syndication.\n[…]\nThe show chronicles the weekly adventures of the Cartwright family, headed by the thrice-widowed patriarch Ben Cartwright (Lorne Greene). He had three sons, each by a different wife: the eldest was the urbane architect Adam Cartwright (Pernell Roberts), who built the ranch house; the second was the warm and lovable giant Eric \"Hoss\" Cartwright (Dan Blocker); and the youngest was the hotheaded and impetuous Joseph, or \"Little Joe\" (Michael Landon).\n[…]\nHoss Cartwright: White shirt, brown suede vest, brown pants, large beige flat-brimmed, ten-gallon hat.\n[…]\nIn the episode \"The Wish\", directed by Michael Landon, Hoss protects an African-American former slave's family when confronted with racism after the American Civil War. In \"The Fear Merchants\", discrimination against Chinese immigrants who attempt to assimilate in American society is addressed. \"The Lonely Man\" presents the controversial interracial marriage between the Cartwrights' longtime Chinese chef (Hop Sing) and a white woman (Missy).\n[…]\nIn 2001, there was an attempt to revive the Bonanza concept with a prequel, The Ponderosa—not to be confused with the 1972 summer reruns under the title Ponderosa—with a pilot directed by Simon Wincer and filmed in Australia. Covering the time when the Cartwrights first arrived at the Ponderosa, when Adam and Hoss were teenagers and Joe a little boy, the series lasted 20 episodes and featured less gunfire and brawling than the original.\n[…]\nBonanza at IMDb\n[…]\nBonanza: Scenery of The Ponderosa"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Dan_Blocker",
+        "situacao": "ok",
+        "texto": "Bobby Dan Davis Blocker (December 10, 1928 – May 13, 1972) was an American television actor and Korean War veteran, who played Hoss Cartwright in the NBC Western television series Bonanza.\n[…]\nBlocker's big break came in 1959, when he was cast as Eric \"Hoss\" Cartwright on the NBC television series Bonanza, playing that role for over 400 episodes until his death. Blocker said he portrayed the gentle-natured Hoss character with a Stephen Grellet statement in mind: \"We shall pass this way on Earth but once, if there is any kindness we can show, or good act we can do, let us do it now, for we will never pass this way again.\"\n[…]\nAlso in 1963, Blocker started and received partial ownership in a successful chain of Bonanza Steakhouse restaurants, in exchange for serving, in character as Hoss, as their commercial spokesman, and making personal appearances at franchises.\n[…]\nThe writers of Bonanza took the unusual step of referencing a major character's death in the show's storyline that autumn. A 2011 report added that \"this was to be the first time in television history that a show had dealt with, or even mentioned, the death of one of its characters\". Specifics as to the death were not discussed in the series, but some years later, in the sequel series Bonanza: The Next Generation, one character stated that \"Hoss drowned trying to save another's life\".\n[…]\nBonanza lasted another season without Hoss, and the 14th and final season ended on January 16, 1973. That season was \"by far the least popular and least requested season in the show's rerun package\". Bonanza co-star Michael Landon said years later that whenever he needed to cry for a scene, he would think of Dan Blocker's death."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bonanza",
+        "situacao": "ok",
+        "texto": "Bonanza é uma série de TV, do gênero western, exibida originalmente na emissora de televisão americana NBC, de 12 de setembro de 1959 a 16 de janeiro de 1973.\n[…]\nO seriado narra a saga do rancheiro viúvo Ben Cartwright (Lorne Greene), um homem de propósitos, e de seus três filhos de mães diferentes, na defesa de seu rancho Ponderosa, em Nevada. Além de Greene, outro ator da série que fez bastante sucesso foi Michael Landon, que depois estrelou os seriados Os pioneiros e O Homem que veio do céu. Lorne Greene também apareceria em outras séries, como Battlestar Galactica.\n[…]\nAs histórias baseam-se nas aventuras da família Cartwright, constituída pelo viúvo Ben Cartwright e de seus três filhos: Adam Cartwright, o arquiteto da casa onde eles moram; o amável e gigantesco Eric, mais conhecido pelo apelido de \"Hoss\"; e o caçula impetuoso Joseph ou \"Little Joe\". A família tem como cozinheiro o imigrante chinês Hop Sing.\n[…]\nBen Cartwright (Lorne Greene): Garcia Neto\n[…]\nAdam Cartwright (Pernell Roberts): Carlos Campanile\n[…]\nEric Cartwright \"Hoss\" (Dan Blocker): Carlos Alberto Vaccari\n[…]\nJoseph Cartwright \"Little Joe\" (Michael Landon): Rodney Gomes\n[…]\nBen Cartwright (Lorne Greene): Miguel Rosenberg / Gualter de França / Ribeiro Santos\n[…]\nAdam Cartwright (Pernell Roberts): Isaac Bardavid\n[…]\nEric Cartwright \"Hoss\" (Dan Blocker): Luís Motta / Milton Gonçalves\n[…]\nJoseph Cartwright \"Little Joe\" (Michael Landon): Rodney Gomes\n[…]\nBonanza no IMDb\n[…]\nBonanza na Rede NGT (em português)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.94 — 2026-11-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **3 perguntas por âncora** em cada lote (2 até 2026-10-27), nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **8 perguntas por âncora** no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27), somando texto e figura, e no máximo **3 com figura** (2 até 2026-10-27). As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas. Essas perguntas têm um teto no jogo original (§9).
+- **Metade aberta, metade múltipla escolha** (desde 2026-10-27). O jogo original busca as duas formas na mesma proporção, em cada tema, para que um modo só de múltipla escolha tenha perguntas de todos os temas. Vale para texto e figura. Cada lote recebe a quantidade de `multipla` que aproxima o seu tema dessa meta (§17), e a pergunta segue a quantidade pedida, salvo quando a outra forma for claramente melhor.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **três perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master e Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 8 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- **Respostas que são um ano específico** ("1969", "800 a.C."), somando abertas e múltiplas: no máximo **9%** das perguntas do lote, e no máximo **uma** num lote de figuras, que tem 12 itens (desde 2026-10-30, só no jogo original). Para pedir a época, prefira o século, a década ou a ordem entre dois fatos. O registro descarta o que passar do teto; as perguntas que já estavam no banco ficam.
+- No máximo **3 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já tenham perguntas, a âncoras novas e obscuras (desde 2026-10-27; antes, "prefira âncoras novas"). O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para aprofundá-las com fatos e ângulos novos, sem repetir fatos.
+- **Tentar incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as centrais, para manter alguma variedade. Se for difícil achar uma assim, o lote fica sem: uma âncora nova obscura não vale a troca.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
