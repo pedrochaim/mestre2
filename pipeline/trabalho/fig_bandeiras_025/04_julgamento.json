@@ -1,0 +1,675 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Suriname",
+        "descricao": "País da costa norte da América do Sul, com capital em Paramaribo.",
+        "variantes": [
+          "República do Suriname"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "suriname",
+          "nome": "Suriname",
+          "descricao": "País do norte da América do Sul, ex-colônia holandesa, com capital em Paramaribo.",
+          "variantes": [
+            "Surinam",
+            "República do Suriname"
+          ]
+        },
+        {
+          "id": "guine",
+          "nome": "Guiné",
+          "descricao": "País da África Ocidental cuja capital é Conacri, antiga Guiné Francesa.",
+          "variantes": [
+            "Guiné-Conacri",
+            "República da Guiné"
+          ]
+        },
+        {
+          "id": "iemen",
+          "nome": "Iêmen",
+          "descricao": "País do sul da Península Arábica, com capital constitucional em Sanaa.",
+          "variantes": [
+            "Yemen",
+            "República do Iêmen"
+          ]
+        },
+        {
+          "id": "sudao",
+          "nome": "Sudão",
+          "descricao": "País do nordeste da África, com capital em Cartum, que faz fronteira com o Egito e o Mar Vermelho.",
+          "variantes": [
+            "Sudan",
+            "República do Sudão"
+          ]
+        },
+        {
+          "id": "botsuana",
+          "nome": "Botsuana",
+          "descricao": "País sem litoral do sul da África, de capital Gaborone, em grande parte coberto pelo deserto do Kalahari.",
+          "variantes": [
+            "Botswana",
+            "República do Botsuana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Montenegro",
+        "descricao": "País dos Bálcãs, no Adriático, com capital em Podgorica.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "montenegro",
+          "nome": "Montenegro",
+          "descricao": "País dos Bálcãs, na costa do Mar Adriático, com capital em Podgorica.",
+          "variantes": [
+            "Montenegro (país)",
+            "Crna Gora"
+          ]
+        },
+        {
+          "id": "brasao_de_montenegro",
+          "nome": "Brasão de Montenegro",
+          "descricao": "Brasão de armas de Montenegro, com águia bicéfala dourada coroada e escudo com leão sobre fundo azul.",
+          "variantes": [
+            "Montenegro",
+            "Escudo de Montenegro"
+          ]
+        },
+        {
+          "id": "mole_poblano",
+          "nome": "Mole poblano",
+          "descricao": "Molho mexicano escuro de pimentas, especiarias, frutas, castanhas e chocolate, típico de Puebla.",
+          "variantes": [
+            "Mole",
+            "Mole negro"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "eiger",
+          "nome": "Eiger",
+          "descricao": "Montanha de 3.967 metros dos Alpes Berneses, na Suíça, famosa por sua imponente face norte.",
+          "variantes": [
+            "Monte Eiger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Camboja",
+        "descricao": "País do Sudeste Asiático com capital em Phnom Penh, cuja bandeira traz o templo de Angkor Wat.",
+        "variantes": [
+          "Reino do Camboja"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camboja",
+          "nome": "Camboja",
+          "descricao": "País do Sudeste Asiático, entre Tailândia, Laos e Vietnã, cuja capital é Phnom Penh.",
+          "variantes": [
+            "Reino do Camboja",
+            "Kampuchea"
+          ]
+        },
+        {
+          "id": "carambola",
+          "nome": "Carambola",
+          "descricao": "Fruto amarelo da caramboleira (Averrhoa carambola), cujo corte transversal tem forma de estrela.",
+          "variantes": [
+            "Star fruit",
+            "Averrhoa carambola"
+          ]
+        },
+        {
+          "id": "bandeira_do_camboja",
+          "nome": "Bandeira do Camboja",
+          "descricao": "Bandeira nacional do Camboja, azul e vermelha com o desenho branco de um templo no centro.",
+          "variantes": [
+            "Bandeira cambojana"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "reino_do_congo",
+          "nome": "Reino do Congo",
+          "descricao": "Reino da África Central, nos atuais Angola, República do Congo e República Democrática do Congo, aliado de Portugal a partir do fim do século quinze.",
+          "variantes": [
+            "Kingdom of Kongo",
+            "Reino do Kongo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bandeira da Rússia",
+        "descricao": "Bandeira nacional da Rússia, tricolor horizontal de branco, azul e vermelho.",
+        "variantes": [
+          "Bandeira russa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_uniao_sovietica",
+          "nome": "Bandeira da União Soviética",
+          "descricao": "Bandeira vermelha com foice e martelo dourados e uma estrela, símbolo da URSS e do comunismo.",
+          "variantes": [
+            "Bandeira da URSS",
+            "Bandeira Vermelha soviética",
+            "Flag of the Soviet Union"
+          ]
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        },
+        {
+          "id": "bandeira_da_turquia",
+          "nome": "Bandeira da Turquia",
+          "descricao": "Bandeira nacional da Turquia, vermelha com uma lua crescente e uma estrela brancas.",
+          "variantes": [
+            "Ay Yıldız"
+          ]
+        },
+        {
+          "id": "bandeira_da_bielorrussia",
+          "nome": "Bandeira da Bielorrússia",
+          "descricao": "Bandeira da Bielorrússia, vermelha e verde com ornamento bordado vermelho e branco junto à haste.",
+          "variantes": [
+            "Bielorrússia",
+            "Bandeira de Belarus"
+          ]
+        },
+        {
+          "id": "bandeira_da_suica",
+          "nome": "Bandeira da Suíça",
+          "descricao": "Bandeira nacional da Suíça, vermelha com uma cruz branca no centro.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nova Zelândia",
+        "descricao": "País insular do Pacífico sul, com capital em Wellington.",
+        "variantes": [
+          "Aotearoa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nova_zelandia",
+          "nome": "Nova Zelândia",
+          "descricao": "País insular da Oceania, no sudoeste do Pacífico, cuja capital é Wellington.",
+          "variantes": [
+            "New Zealand",
+            "Aotearoa"
+          ]
+        },
+        {
+          "id": "aotearoa",
+          "nome": "Aotearoa",
+          "descricao": "Nome em língua maori da Nova Zelândia.",
+          "variantes": []
+        },
+        {
+          "id": "nauru",
+          "nome": "Nauru",
+          "descricao": "País insular e microestado do Pacífico Sul, na Micronésia, cuja capital de fato é Yaren.",
+          "variantes": [
+            "Naoero",
+            "República de Nauru"
+          ]
+        },
+        {
+          "id": "jotaro_kujo",
+          "nome": "Jotaro Kujo",
+          "descricao": "Protagonista da Parte 3 de JoJo's Bizarre Adventure, usuário do Stand Star Platinum.",
+          "variantes": [
+            "Jotaro",
+            "Kujo Jotaro"
+          ]
+        },
+        {
+          "id": "barroco",
+          "nome": "Barroco",
+          "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação.",
+          "variantes": [
+            "Baroque",
+            "Arte barroca",
+            "Estilo barroco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Antígua e Barbuda",
+        "descricao": "País insular do Caribe formado por Antígua, Barbuda e ilhas menores.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_barbados",
+          "nome": "Bandeira de Barbados",
+          "descricao": "Bandeira nacional de Barbados, com faixas azul, amarela e azul e um tridente preto no centro.",
+          "variantes": [
+            "Flag of Barbados"
+          ]
+        },
+        {
+          "id": "comigo_ninguem_pode",
+          "nome": "Comigo-ninguém-pode",
+          "descricao": "Planta ornamental tóxica do gênero Dieffenbachia",
+          "variantes": [
+            "Dieffenbachia",
+            "dumb cane",
+            "aninga-do-pará"
+          ]
+        },
+        {
+          "id": "abutre_barbudo",
+          "nome": "Abutre-barbudo",
+          "descricao": "Grande ave de rapina de montanha, Gypaetus barbatus, que se alimenta sobretudo de ossos.",
+          "variantes": [
+            "Quebra-ossos",
+            "Bearded vulture",
+            "Lammergeier",
+            "Gypaetus barbatus"
+          ]
+        },
+        {
+          "id": "lata_de_bebida",
+          "nome": "Lata de bebida",
+          "descricao": "Embalagem cilíndrica de alumínio usada para refrigerantes e cervejas.",
+          "variantes": [
+            "Lata de refrigerante",
+            "Lata de alumínio"
+          ]
+        },
+        {
+          "id": "dragao_barbudo",
+          "nome": "Dragão-barbudo",
+          "descricao": "Pogona vitticeps, lagarto agamídeo australiano com bolsa espinhosa sob o queixo.",
+          "variantes": [
+            "Pogona",
+            "Pogona vitticeps",
+            "Dragão-barbudo-central"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Guiana",
+        "descricao": "País da América do Sul de língua inglesa, com capital em Georgetown.",
+        "variantes": [
+          "Guyana",
+          "República Cooperativa da Guiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guiana",
+          "nome": "Guiana",
+          "descricao": "País do norte da América do Sul, de língua oficial inglesa, cuja capital é Georgetown.",
+          "variantes": [
+            "Guyana",
+            "República Cooperativa da Guiana"
+          ]
+        },
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "curva_normal_distribuicao_gaussiana",
+          "nome": "Curva normal (distribuição gaussiana)",
+          "descricao": "Distribuição de probabilidade contínua simétrica em forma de sino, definida por média e variância.",
+          "variantes": [
+            "Distribuição normal",
+            "Gaussiana",
+            "Curva de sino"
+          ]
+        },
+        {
+          "id": "guarana",
+          "nome": "Guaraná",
+          "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+          "variantes": [
+            "Paullinia cupana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Namíbia",
+        "descricao": "País do sul da África com capital em Windhoek.",
+        "variantes": [
+          "República da Namíbia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "namibia",
+          "nome": "Namíbia",
+          "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+          "variantes": [
+            "República da Namíbia"
+          ]
+        },
+        {
+          "id": "brasao_da_namibia",
+          "nome": "Brasão da Namíbia",
+          "descricao": "Brasão de armas da Namíbia, com dois órix, águia-pesqueira e escudo com sol e faixa diagonal.",
+          "variantes": [
+            "Namíbia",
+            "Brasão de armas da Namíbia"
+          ]
+        },
+        {
+          "id": "zambia",
+          "nome": "Zâmbia",
+          "descricao": "País sem litoral da África Austral, com capital em Lusaka, cuja bandeira é verde com uma águia e faixas vermelha, preta e laranja.",
+          "variantes": [
+            "República da Zâmbia"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Mianmar",
+        "descricao": "País do Sudeste Asiático com capital em Naipidau, antes chamado Birmânia.",
+        "variantes": [
+          "Myanmar",
+          "Birmânia",
+          "Burma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mianmar",
+          "nome": "Mianmar",
+          "descricao": "País do sudeste asiático, antiga Birmânia, com capital em Naypyidaw.",
+          "variantes": [
+            "Myanmar",
+            "Birmânia"
+          ]
+        },
+        {
+          "id": "yanma",
+          "nome": "Yanma",
+          "descricao": "Pokémon dos tipos Inseto e Voador, número 193 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bulma",
+          "nome": "Bulma",
+          "descricao": "Cientista de cabelo azul, amiga de Goku desde o início de Dragon Ball e mãe de Trunks e Bra.",
+          "variantes": [
+            "ブルマ"
+          ]
+        },
+        {
+          "id": "burmy",
+          "nome": "Burmy",
+          "descricao": "Pokémon do tipo Inseto, número 412 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "biryani",
+          "nome": "Biryani",
+          "descricao": "Prato de arroz misturado com carne, frutos do mar ou legumes temperados, muito popular no sul da Ásia.",
+          "variantes": [
+            "Biriyani",
+            "Briani"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Somália",
+        "descricao": "País do Chifre da África, com capital em Mogadíscio.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "komala",
+          "nome": "Komala",
+          "descricao": "Pokémon do tipo Normal, número 775 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "japamala",
+          "nome": "Japamala",
+          "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+          "variantes": [
+            "Mala",
+            "Japa mala"
+          ]
+        },
+        {
+          "id": "bandeira_do_mali",
+          "nome": "Bandeira do Mali",
+          "descricao": "Bandeira atual do Mali: tricolor vertical verde, amarelo e vermelho, sem emblemas.",
+          "variantes": [
+            "Mali",
+            "Bandeira da República do Mali"
+          ]
+        },
+        {
+          "id": "saia",
+          "nome": "Saia",
+          "descricao": "Peça de vestuário que cobre o corpo da cintura para baixo, sem separar as pernas.",
+          "variantes": []
+        },
+        {
+          "id": "mali",
+          "nome": "Mali",
+          "descricao": "País sem litoral da África Ocidental, com capital em Bamako.",
+          "variantes": [
+            "República do Mali"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "São Cristóvão e Névis",
+        "descricao": "País insular do Caribe, o menor das Américas, com capital em Basseterre.",
+        "variantes": [
+          "Saint Kitts e Nevis",
+          "São Cristóvão e Neves"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camille_saint_saens",
+          "nome": "Camille Saint-Saëns",
+          "descricao": "Compositor, organista e pianista francês romântico (1835–1921), autor de O Carnaval dos Animais.",
+          "variantes": [
+            "Charles-Camille Saint-Saëns",
+            "Saint-Saens"
+          ]
+        },
+        {
+          "id": "adidas_stan_smith",
+          "nome": "Adidas Stan Smith",
+          "descricao": "Modelo de calçado esportivo da Adidas batizado em homenagem ao tenista americano Stan Smith.",
+          "variantes": [
+            "Stan Smith (calçado)",
+            "Stan Smith (tênis)"
+          ]
+        },
+        {
+          "id": "cano_cristales",
+          "nome": "Caño Cristales",
+          "descricao": "Rio da serra de La Macarena, na Colômbia, conhecido como rio de cinco cores.",
+          "variantes": [
+            "Rio de Cinco Cores",
+            "Rio Arco-Íris"
+          ]
+        },
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        },
+        {
+          "id": "museu_nacional_quinta_da_boa_vista",
+          "nome": "Museu Nacional (Quinta da Boa Vista)",
+          "descricao": "Antigo Paço de São Cristóvão, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional, a mais antiga instituição científica do Brasil.",
+          "variantes": [
+            "Paço de São Cristóvão",
+            "Museu Nacional do Rio de Janeiro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "suriname",
+      "motivo": "Mesmo país, Suriname, capital Paramaribo."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "montenegro",
+      "motivo": "Mesmo país dos Bálcãs com capital Podgorica; o brasão é outra entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "camboja",
+      "motivo": "Mesmo país, Camboja, capital Phnom Penh; a bandeira é outra entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira da Rússia."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "nova_zelandia",
+      "motivo": "Mesmo país, Nova Zelândia, capital Wellington; Aotearoa é variante."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Antígua e Barbuda."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "guiana",
+      "motivo": "Mesmo país, Guiana, capital Georgetown."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "namibia",
+      "motivo": "Mesmo país, Namíbia, capital Windhoek; o brasão é outra entidade."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "mianmar",
+      "motivo": "Mesmo país, Mianmar (antiga Birmânia)."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Somália."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o país São Cristóvão e Névis; as candidatas são o Paço de São Cristóvão e outros itens."
+    }
+  ]
+}

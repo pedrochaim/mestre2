@@ -1,0 +1,262 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Suriname",
+      "distratores": [
+        "Guiana",
+        "Bolívia",
+        "Camarões"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Suriname",
+        "descricao": "País da costa norte da América do Sul, com capital em Paramaribo.",
+        "variantes": [
+          "República do Suriname"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira com águia bicéfala, reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Montenegro",
+      "distratores": [
+        "Sérvia",
+        "Albânia",
+        "Croácia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Montenegro",
+        "descricao": "País dos Bálcãs, no Adriático, com capital em Podgorica.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra um fundo verde com duas estrelas brancas, que não é a bandeira atual do Togo (listras verdes e amarelas, cantão vermelho com estrela)."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira com o templo de Angkor Wat, nítida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que monumento aparece no centro desta bandeira?",
+      "resposta": "Angkor Wat",
+      "distratores": [
+        "Borobudur",
+        "Wat Arun",
+        "Pagode Shwedagon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Camboja",
+        "descricao": "País do Sudeste Asiático com capital em Phnom Penh, cuja bandeira traz o templo de Angkor Wat.",
+        "variantes": [
+          "Reino do Camboja"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tricolor branco, azul e vermelho, clara e reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tsar introduziu o desenho desta bandeira, em 1693?",
+      "resposta": "Pedro, o Grande",
+      "distratores": [
+        "Ivan, o Terrível",
+        "Nicolau Segundo",
+        "Alexandre Segundo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Rússia",
+        "descricao": "Bandeira nacional da Rússia, tricolor horizontal de branco, azul e vermelho.",
+        "variantes": [
+          "Bandeira russa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira nítida com Union Jack e Cruzeiro do Sul.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Nova Zelândia",
+      "distratores": [
+        "Austrália",
+        "Fiji",
+        "Tuvalu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nova Zelândia",
+        "descricao": "País insular do Pacífico sul, com capital em Wellington.",
+        "variantes": [
+          "Aotearoa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e distintiva, com sol nascente e V.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Antígua e Barbuda",
+      "distratores": [
+        "Dominica",
+        "Granada",
+        "Santa Lúcia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Antígua e Barbuda",
+        "descricao": "País insular do Caribe formado por Antígua, Barbuda e ilhas menores.",
+        "variantes": [
+          "Antigua e Barbuda"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira nítida em forma de seta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Guiana",
+      "distratores": [
+        "Suriname",
+        "Jamaica",
+        "Zimbábue"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Guiana",
+        "descricao": "País da América do Sul de língua inglesa, com capital em Georgetown.",
+        "variantes": [
+          "Guyana",
+          "República Cooperativa da Guiana"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira nítida com faixa diagonal e sol.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país africano é esta bandeira?",
+      "resposta": "Namíbia",
+      "distratores": [
+        "Tanzânia",
+        "Congo",
+        "Seicheles"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Namíbia",
+        "descricao": "País do sul da África com capital em Windhoek.",
+        "variantes": [
+          "República da Namíbia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que outro nome, oficial em inglês até 1989, tem o país desta bandeira?",
+      "resposta": "Birmânia",
+      "distratores": [
+        "Sião",
+        "Ceilão",
+        "Zaire"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mianmar",
+        "descricao": "País do Sudeste Asiático com capital em Naipidau, antes chamado Birmânia.",
+        "variantes": [
+          "Myanmar",
+          "Birmânia",
+          "Burma"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, azul-claro com estrela.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Somália",
+      "distratores": [
+        "Botsuana",
+        "Argentina",
+        "Bósnia e Herzegovina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Somália",
+        "descricao": "País do Chifre da África, com capital em Mogadíscio.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e única.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "São Cristóvão e Névis",
+      "distratores": [
+        "Trinidad e Tobago",
+        "Tanzânia",
+        "Jamaica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "São Cristóvão e Névis",
+        "descricao": "País insular do Caribe, o menor das Américas, com capital em Basseterre.",
+        "variantes": [
+          "Saint Kitts e Nevis",
+          "São Cristóvão e Neves"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Suriname"
+      },
+      "existentes": [
+        {
+          "id": "q04032",
+          "pergunta": "Em 1667, pelo Tratado de Breda, os holandeses ficaram com o Suriname e deixaram aos ingleses a colônia que viraria qual cidade?",
+          "resposta": "Nova York"
+        },
+        {
+          "id": "q04038",
+          "pergunta": "Vizinho do Brasil, o Suriname tem como língua oficial uma herança da colonização. Qual é essa língua?",
+          "resposta": "Neerlandês (holandês)"
+        },
+        {
+          "id": "q07530",
+          "pergunta": "Em área, qual é o menor país independente da América do Sul?",
+          "resposta": "Suriname"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Montenegro"
+      },
+      "existentes": [
+        {
+          "id": "q04008",
+          "pergunta": "Depois de um referendo, o Montenegro se separou da Sérvia e virou um país independente em que ano?",
+          "resposta": "2006"
+        },
+        {
+          "id": "q07552",
+          "pergunta": "Em 2002, mesmo sem acordo formal com a União Europeia, Montenegro passou a usar oficialmente qual moeda?",
+          "resposta": "Euro"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que monumento aparece no centro desta bandeira?",
+        "resposta": "Angkor Wat"
+      },
+      "existentes": [
+        {
+          "id": "q17857",
+          "pergunta": "Qual é a capital do país destacado neste mapa?",
+          "resposta": "Phnom Penh"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Nova Zelândia"
+      },
+      "existentes": [
+        {
+          "id": "q02364",
+          "pergunta": "Que ave que não voa, símbolo nacional da Nova Zelândia, virou o apelido dos próprios neozelandeses?",
+          "resposta": "Kiwi"
+        },
+        {
+          "id": "q05846",
+          "pergunta": "Em 1642, qual navegador holandês se tornou o primeiro europeu a chegar à Nova Zelândia?",
+          "resposta": "Abel Tasman"
+        },
+        {
+          "id": "q06207",
+          "pergunta": "Que país está destacado neste mapa?",
+          "resposta": "Nova Zelândia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Guiana"
+      },
+      "existentes": [
+        {
+          "id": "q06206",
+          "pergunta": "Que país está destacado neste mapa?",
+          "resposta": "Guiana"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "De que país africano é esta bandeira?",
+        "resposta": "Namíbia"
+      },
+      "existentes": [
+        {
+          "id": "q06209",
+          "pergunta": "Que país africano está destacado neste mapa?",
+          "resposta": "Namíbia"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que outro nome, oficial em inglês até 1989, tem o país desta bandeira?",
+        "resposta": "Birmânia"
+      },
+      "existentes": [
+        {
+          "id": "q18870",
+          "pergunta": "Que país está destacado neste mapa?",
+          "resposta": "Mianmar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a bandeira do Suriname é outro fato; nenhuma existente pergunta isso (a q07530 trata de área)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Reconhecer a bandeira de Montenegro difere de independência e moeda."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Monumento na bandeira do Camboja não é o mesmo fato que a capital."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Reconhecer a bandeira difere de reconhecer o país no mapa; são conhecimentos visuais distintos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Bandeira da Guiana e mapa da Guiana são fatos visuais diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Bandeira da Namíbia e mapa da Namíbia são fatos visuais diferentes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pergunta o nome alternativo (Birmânia) a partir da bandeira; a existente pede identificar o país no mapa."
+    }
+  ]
+}

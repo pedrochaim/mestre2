@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta de reconhecimento direta, sem pista no enunciado. Distratores plausíveis, de bandeiras parecidas, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento puro. Distratores são países vizinhos e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma Angkor Wat na bandeira do Camboja. O enunciado não nomeia nem entrega a resposta, e os distratores são monumentos asiáticos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A origem da bandeira com Pedro, o Grande é incerta: o trecho em inglês diz 1693, e o em português trata como lenda popular e cita 1699. Como as fontes divergem, a data e a autoria ficam frágeis. A reescrita usa o fato bem documentado: Nicolau Segundo a oficializou em 1896.",
+      "reescrita": {
+        "pergunta": "Em 1896, que imperador russo oficializou esta bandeira como a única bandeira nacional?",
+        "resposta": "Nicolau Segundo",
+        "distratores": [
+          "Pedro, o Grande",
+          "Alexandre Segundo",
+          "Ivan, o Terrível"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto. Distratores (Austrália, Fiji, Tuvalu) têm bandeiras parecidas e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta direta, sem vazamento. Distratores são países caribenhos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto. Suriname é um distrator crível, e nenhum distrator é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A pista \"africano\" ajuda sem entregar. Os distratores são países africanos e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Burma foi o nome oficial em inglês até 1989. Sem a figura não dá para saber de qual país se trata. Os distratores são antigos nomes de outros países e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto. Distratores com bandeiras azuis ou com estrela são críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta direta, sem pista. Os distratores são países caribenhos ou africanos de bandeira parecida e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}
