@@ -1,0 +1,187 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Adelaide Oval",
+        "descricao": "Estádio de futebol australiano e críquete em North Adelaide, Austrália do Sul.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        },
+        {
+          "id": "bandeira_de_oma",
+          "nome": "Bandeira de Omã",
+          "descricao": "Bandeira nacional do Sultanato de Omã, com faixas branca, vermelha e verde e emblema de punhal e espadas.",
+          "variantes": [
+            "Omã",
+            "Bandeira de Oman"
+          ]
+        },
+        {
+          "id": "bala_de_goma",
+          "nome": "Bala de goma",
+          "descricao": "Doce de gelatina mastigável em forma de ursinho, como os da Haribo.",
+          "variantes": [
+            "Ursinho de goma",
+            "Gummy bear",
+            "Gummibärchen"
+          ]
+        },
+        {
+          "id": "lada_riva",
+          "nome": "Lada Riva",
+          "descricao": "Sedã compacto soviético da série Zhiguli, derivado do Fiat 124 e produzido pela AvtoVAZ a partir de 1979, vendido em alguns mercados como Lada Riva ou Laika.",
+          "variantes": [
+            "Lada Laika",
+            "Lada 2107",
+            "VAZ-2107",
+            "Lada Nova",
+            "Lada Classic"
+          ]
+        },
+        {
+          "id": "balanca_de_roberval",
+          "nome": "Balança de Roberval",
+          "descricao": "Balança de dois pratos com mecanismo de paralelogramo articulado, apresentada em 1669.",
+          "variantes": [
+            "Balança de pratos",
+            "Roberval balance"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lanxess Arena",
+        "descricao": "Arena coberta em Colônia, Alemanha, com grande arco de aço sobre o teto, antes chamada Kölnarena.",
+        "variantes": [
+          "Kölnarena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_das_dunas",
+          "nome": "Arena das Dunas",
+          "descricao": "Estádio de Natal, Rio Grande do Norte, sede de jogos da Copa do Mundo de 2014.",
+          "variantes": [
+            "Dunes Arena"
+          ]
+        },
+        {
+          "id": "vulcao_arenal",
+          "nome": "Vulcão Arenal",
+          "descricao": "Estratovulcão cônico e ativo no noroeste da Costa Rica, na região de La Fortuna.",
+          "variantes": [
+            "Volcán Arenal",
+            "Arenal Volcano"
+          ]
+        },
+        {
+          "id": "karen",
+          "nome": "Karen",
+          "descricao": "Treinadora da Elite dos Quatro de Johto nos jogos Pokémon Gold, Silver e Crystal, última a ser enfrentada antes do campeão.",
+          "variantes": [
+            "Karin"
+          ]
+        },
+        {
+          "id": "the_o2_arena",
+          "nome": "The O2 Arena",
+          "descricao": "Arena coberta na Península de Greenwich, em Londres, instalada no antigo Millennium Dome.",
+          "variantes": [
+            "The O2",
+            "O2 Arena",
+            "Millennium Dome"
+          ]
+        },
+        {
+          "id": "allianz_arena",
+          "nome": "Allianz Arena",
+          "descricao": "Estádio do Bayern de Munique, de fachada que muda de cor.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Red Bull Ring",
+        "descricao": "Autódromo em Spielberg, Estíria, Áustria, antes chamado Österreichring e A1-Ring.",
+        "variantes": [
+          "Österreichring",
+          "A1-Ring",
+          "Spielberg"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "red_bull_ring",
+          "nome": "Red Bull Ring",
+          "descricao": "Circuito de automobilismo em Spielberg, na Áustria, sede do Grande Prêmio da Áustria.",
+          "variantes": [
+            "A1-Ring",
+            "Österreichring"
+          ]
+        },
+        {
+          "id": "red_bull",
+          "nome": "Red Bull",
+          "descricao": "Bebida energética austríaca lançada em 1987 por Dietrich Mateschitz.",
+          "variantes": []
+        },
+        {
+          "id": "iceberg",
+          "nome": "Iceberg",
+          "descricao": "Grande bloco de gelo de água doce desprendido de uma geleira ou plataforma de gelo, que flutua no mar.",
+          "variantes": []
+        },
+        {
+          "id": "althing",
+          "nome": "Althing",
+          "descricao": "Assembleia nacional da Islândia, criada pelos colonos nórdicos em 930 em Þingvellir.",
+          "variantes": [
+            "Alþingi",
+            "Althingi"
+          ]
+        },
+        {
+          "id": "hering",
+          "nome": "Hering",
+          "descricao": "Empresa têxtil brasileira fundada em 1880 em Blumenau pelos irmãos alemães Hermann e Bruno Hering.",
+          "variantes": [
+            "Cia. Hering",
+            "Companhia Hering"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o estádio Adelaide Oval."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Lanxess Arena em Colônia não corresponde a nenhuma candidata; The O2 Arena é outra arena, em Londres."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "red_bull_ring",
+      "motivo": "Mesmo circuito em Spielberg, Áustria, com as mesmas variantes A1-Ring e Österreichring."
+    }
+  ]
+}

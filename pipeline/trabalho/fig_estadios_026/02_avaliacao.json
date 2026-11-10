@@ -1,0 +1,134 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O nome 'Hill Dickinson Stadium' está escrito na fachada e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome 'Citi Field' aparece no placar e há muitos letreiros; entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto escura do interior, sem traço que permita reconhecer a arena. Há patrocinadores (Smart) visíveis e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, com texto na arquibancada superior. O estádio não é reconhecível pela imagem, só pelas cores do clube."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O interior é genérico (oval com cobertura), parecido com outros estádios australianos. Há 'Optus Stadium' escrito nas placas do gramado."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Interior de arena de tênis (final da Copa Davis) sem traço que identifique o local. Os placares mostram texto (França, Bélgica), e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O nome 'Centre Bell' está escrito na fachada e entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea de um oval com cobertura em velas brancas, sem texto. É reconhecível e a cidade é única.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que cidade australiana fica este estádio, visto de cima?",
+      "resposta": "Adelaide",
+      "distratores": [
+        "Perth",
+        "Melbourne",
+        "Brisbane"
+      ],
+      "ancora": {
+        "nome": "Adelaide Oval",
+        "descricao": "Estádio de futebol australiano e críquete em North Adelaide, Austrália do Sul.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea noturna sem texto, com a pista de corrida e o rio ao lado. Boa pergunta de ligação.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que rio corre ao lado desta pista de corridas de cavalos, em São Paulo?",
+      "resposta": "Rio Pinheiros",
+      "distratores": [],
+      "ancora": {
+        "nome": "Hipódromo de Cidade Jardim",
+        "descricao": "Hipódromo do Jockey Club de São Paulo, inaugurado em 1941, na zona oeste da capital paulista.",
+        "variantes": [
+          "Jockey Club de São Paulo",
+          "Hipódromo Cidade Jardim"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "O arco de aço e o teto vermelho são característicos. Não há o nome da arena, só cartazes de shows.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que time de hóquei no gelo manda seus jogos nesta arena alemã?",
+      "resposta": "Kölner Haie",
+      "distratores": [
+        "Eisbären Berlin",
+        "Adler Mannheim",
+        "Düsseldorfer EG"
+      ],
+      "ancora": {
+        "nome": "Lanxess Arena",
+        "descricao": "Arena coberta em Colônia, Alemanha, com grande arco de aço sobre o teto, antes chamada Kölnarena.",
+        "variantes": [
+          "LANXESS arena",
+          "Kölnarena"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "'SEAHAWKS' está escrito no gramado e entrega o time e a cidade."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Largada de uma corrida com zebras nas cores vermelho, branco e verde, sem o nome da pista no enquadramento. É reconhecível pelas zebras, e a resposta é o país.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que país fica este circuito de corridas, com zebras pintadas de vermelho e branco?",
+      "resposta": "Áustria",
+      "distratores": [
+        "Suíça",
+        "Alemanha",
+        "Polônia"
+      ],
+      "ancora": {
+        "nome": "Red Bull Ring",
+        "descricao": "Autódromo em Spielberg, Estíria, Áustria, antes chamado Österreichring e A1-Ring.",
+        "variantes": [
+          "Österreichring",
+          "A1-Ring",
+          "Spielberg"
+        ]
+      }
+    }
+  ]
+}

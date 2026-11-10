@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país fica este circuito de corridas, com zebras pintadas de vermelho e branco?",
+        "resposta": "Áustria"
+      },
+      "existentes": [
+        {
+          "id": "q16874",
+          "pergunta": "Entre 1997 e 2003, este circuito austríaco recebeu o Grande Prêmio da Áustria com outro nome. Que nome era esse?",
+          "resposta": "A1-Ring"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o país do circuito (Áustria); a existente pede o nome antigo (A1-Ring). Embora a existente mencione 'austríaco', são fatos diferentes e a resposta de uma não dá a outra."
+    }
+  ]
+}
