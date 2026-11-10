@@ -1,0 +1,266 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clássica, sem texto, bem reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década este líder lakota foi morto?",
+      "resposta": "Década de 1890",
+      "distratores": [
+        "Década de 1860",
+        "Década de 1870",
+        "Década de 1880"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Touro Sentado",
+        "descricao": "Líder dos Hunkpapa Lakota que resistiu à política do governo dos Estados Unidos no século dezenove.",
+        "variantes": [
+          "Sitting Bull",
+          "Tȟatȟáŋka Íyotake"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto sem texto, com insígnia de cinco estrelas; reconhecível por quem conhece a Guerra do Pacífico. Múltipla ajuda.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este almirante americano assinou, em nome dos Estados Unidos, a rendição do Japão a bordo de que navio?",
+      "resposta": "USS Missouri",
+      "distratores": [
+        "USS Enterprise",
+        "USS Arizona",
+        "USS Yorktown"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Chester Nimitz",
+        "descricao": "Almirante da Marinha dos Estados Unidos, comandante da Frota do Pacífico na Segunda Guerra Mundial.",
+        "variantes": [
+          "Chester W. Nimitz"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A gravura traz legenda com o nome ATTILA, que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato a óleo sem texto, uniforme do Exército Continental; múltipla para distinguir.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este nobre francês voluntário comandou tropas em 1781 no cerco decisivo de que cidade americana?",
+      "resposta": "Yorktown",
+      "distratores": [
+        "Saratoga",
+        "Trenton",
+        "Bunker Hill"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Marquês de Lafayette",
+        "descricao": "Oficial e político francês que serviu no Exército Continental na Guerra de Independência dos EUA e na Revolução Francesa.",
+        "variantes": [
+          "Lafayette",
+          "Gilbert du Motier"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pintura de Trumbull sem texto, corpo inteiro; trocada para família com_o_que_se_liga para evitar ano.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este estadista americano morreu em 1804 depois de um duelo com qual político?",
+      "resposta": "Aaron Burr",
+      "distratores": [
+        "Thomas Jefferson",
+        "James Madison",
+        "John Jay"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Alexander Hamilton",
+        "descricao": "Estadista americano, primeiro secretário do Tesouro dos Estados Unidos e um dos Pais Fundadores.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto legível; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prêmio internacional este religioso sul-africano recebeu em 1984?",
+      "resposta": "Nobel da Paz",
+      "distratores": [
+        "Nobel de Literatura",
+        "Prêmio Pulitzer",
+        "Prêmio Sakharov"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Desmond Tutu",
+        "descricao": "Bispo anglicano sul-africano e ativista contra o apartheid, arcebispo da Cidade do Cabo.",
+        "variantes": [
+          "Desmond Mpilo Tutu"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em 1868, o poder foi restituído a este imperador japonês, num processo conhecido como quê?",
+      "resposta": "Restauração Meiji",
+      "distratores": [
+        "Reforma Taika",
+        "Restauração Kenmu",
+        "Xogunato Tokugawa"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Imperador Meiji",
+        "descricao": "Imperador do Japão de 1867 a 1912, cujo reinado modernizou o país.",
+        "variantes": [
+          "Mutsuhito",
+          "Meiji"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto famosa sem texto; pergunta por década para evitar ano.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década morreu esta abolicionista americana?",
+      "resposta": "Década de 1910",
+      "distratores": [
+        "Década de 1890",
+        "Década de 1900",
+        "Década de 1920"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Harriet Tubman",
+        "descricao": "Abolicionista americana que escapou da escravidão e conduziu escravizados à liberdade pela Underground Railroad.",
+        "variantes": [
+          "Araminta Ross"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato a óleo sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jornal da Revolução Francesa este homem publicava?",
+      "resposta": "L'Ami du peuple (O Amigo do Povo)",
+      "distratores": [
+        "Le Père Duchesne",
+        "Le Moniteur Universel",
+        "Le Vieux Cordelier"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Jean-Paul Marat",
+        "descricao": "Jornalista, médico e político radical da Revolução Francesa, assassinado em 1793.",
+        "variantes": [
+          "Marat"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato a óleo sem texto, bandeira ao fundo; múltipla com próceres vizinhos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que general sul-americano da independência é este?",
+      "resposta": "José de San Martín",
+      "distratores": [
+        "Simón Bolívar",
+        "Bernardo O'Higgins",
+        "Antonio José de Sucre"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "José de San Martín",
+        "descricao": "General argentino, libertador da Argentina, do Chile e do Peru.",
+        "variantes": [
+          "San Martín"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Estatueta de marfim única, sem texto, resposta única.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta estatueta de marfim representa um faraó que reinou em que século antes de Cristo?",
+      "resposta": "Século vinte e seis a.C.",
+      "distratores": [
+        "Século trinta e um a.C.",
+        "Século vinte e oito a.C.",
+        "Século vinte e dois a.C."
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quéops",
+        "descricao": "Faraó da quarta dinastia do Egito, ligado à Grande Pirâmide de Gizé.",
+        "variantes": [
+          "Khufu",
+          "Cheops"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua sem texto, atributos de Júpiter; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este imperador romano herdou o nome e a fortuna de qual ditador, por testamento?",
+      "resposta": "Júlio César",
+      "distratores": [
+        "Marco Antônio",
+        "Pompeu",
+        "Cícero"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Augusto",
+        "descricao": "Primeiro imperador de Roma, nascido Otávio, herdeiro de Júlio César.",
+        "variantes": [
+          "Otaviano",
+          "Otávio",
+          "Augustus"
+        ]
+      }
+    }
+  ]
+}
