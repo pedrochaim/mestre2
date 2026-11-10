@@ -1,0 +1,224 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem nome visível (só patrocinadores).",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que atacante brasileiro é este?",
+      "resposta": "Pedro",
+      "distratores": [
+        "Gabigol",
+        "Hulk",
+        "Vitor Roque"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pedro (Pedro Guilherme)",
+        "descricao": "Atacante brasileiro nascido em 1997, do Flamengo e da seleção brasileira.",
+        "variantes": [
+          "Pedro Guilherme Abreu dos Santos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rosto e cabelo característicos, sem nome visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que zagueiro espanhol é este?",
+      "resposta": "Carles Puyol",
+      "distratores": [
+        "Gerard Piqué",
+        "Sergio Ramos",
+        "Carlos Marchena"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carles Puyol",
+        "descricao": "Zagueiro espanhol que jogou toda a carreira no Barcelona e foi campeão mundial em 2010.",
+        "variantes": [
+          "Puyi",
+          "El Tiburón"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rosto claro; texto de fundo parcial não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em quantas categorias de peso este pugilista mexicano foi campeão mundial?",
+      "resposta": "Três",
+      "distratores": [],
+      "destino": 6,
+      "ancora": {
+        "nome": "Julio César Chávez",
+        "descricao": "Ex-pugilista mexicano, campeão mundial em três categorias de peso.",
+        "variantes": [
+          "Julio Cesar Chavez Sr."
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, fundo só com patrocinadores.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este treinador de futebol?",
+      "resposta": "Pep Guardiola",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pep Guardiola",
+        "descricao": "Treinador catalão de futebol, ex-meio-campista do Barcelona.",
+        "variantes": [
+          "Josep Guardiola"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Jogador em quadra, reconhecível; camisa mostra só time e número, sem nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogador de basquete é este?",
+      "resposta": "Ray Allen",
+      "distratores": [
+        "Paul Pierce",
+        "Kevin Garnett",
+        "Rajon Rondo"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Ray Allen",
+        "descricao": "Ex-ala-armador americano da NBA, grande arremessador de três pontos.",
+        "variantes": [
+          "Walter Ray Allen Jr."
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto casual, sem uniforme nem contexto; pouco reconhecível e com outras pessoas ao lado."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de jogador muito jovem, em evento promocional cheio de logotipos; pouco reconhecível pelo rosto."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Rosto reconhecível, agasalho do Bayern sem nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que clube inglês este ponta holandês defendeu?",
+      "resposta": "Chelsea",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arjen Robben",
+        "descricao": "Ex-ponta holandês, que jogou no Chelsea, Real Madrid e Bayern de Munique.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, texto de fundo ilegível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este ex-corredor britânico presidiu o comitê organizador de que Olimpíada?",
+      "resposta": "Londres 2012",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Sebastian Coe",
+        "descricao": "Ex-corredor britânico de meio-fundo, bicampeão olímpico dos 1500 metros e dirigente esportivo.",
+        "variantes": [
+          "Seb Coe",
+          "Lord Coe"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato histórico em preto e branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que enxadrista é este?",
+      "resposta": "Bobby Fischer",
+      "distratores": [
+        "Boris Spassky",
+        "Anatoly Karpov",
+        "Mikhail Tal"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Bobby Fischer",
+        "descricao": "Enxadrista americano, campeão mundial de xadrez em 1972.",
+        "variantes": [
+          "Robert James Fischer"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; só um emblema da Força Aérea, sem nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que duas provas do atletismo esta atleta americana foi campeã olímpica?",
+      "resposta": "Heptatlo e salto em distância",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Jackie Joyner-Kersee",
+        "descricao": "Ex-atleta americana, campeã olímpica no heptatlo e no salto em distância.",
+        "variantes": [
+          "Jacqueline Joyner-Kersee"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; rosto de figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que atacante dos anos noventa é este?",
+      "resposta": "Hristo Stoichkov",
+      "distratores": [
+        "Romário",
+        "Gheorghe Hagi",
+        "Gabriel Batistuta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hristo Stoichkov",
+        "descricao": "Ex-atacante búlgaro, Bola de Ouro de 1994 e estrela do Barcelona.",
+        "variantes": [
+          "Hristo Stoitchkov"
+        ]
+      }
+    }
+  ]
+}

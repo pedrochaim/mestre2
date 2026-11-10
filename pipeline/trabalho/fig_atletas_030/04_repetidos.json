@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que enxadrista é este?",
+        "resposta": "Bobby Fischer"
+      },
+      "existentes": [
+        {
+          "id": "q08409",
+          "pergunta": "Bobby Fischer, campeão mundial de xadrez em 1972, recebeu cidadania no fim da vida e está enterrado em qual país?",
+          "resposta": "Islândia"
+        },
+        {
+          "id": "q18078",
+          "pergunta": "Que ator, famoso por viver o Homem-Aranha no cinema, interpretou Bobby Fischer num filme sobre o duelo dele com Spassky?",
+          "resposta": "Tobey Maguire"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o enxadrista (Bobby Fischer) por imagem; as existentes perguntam o país do sepultamento e o ator que o interpretou no cinema, fatos diferentes."
+    }
+  ]
+}
