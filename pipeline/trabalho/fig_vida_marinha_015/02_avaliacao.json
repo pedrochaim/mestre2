@@ -1,0 +1,185 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Peixe nítido, de corpo inteiro, cabeça e cores típicas; só uma mão aparece, sem rosto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em inglês, este peixe tem o mesmo nome comum de qual mamífero marinho?",
+      "resposta": "Golfinho (dolphin)",
+      "ancora": {
+        "nome": "Dourado-do-mar",
+        "descricao": "Peixe pelágico de águas tropicais, Coryphaena hippurus, também chamado mahi-mahi.",
+        "variantes": [
+          "Mahi-mahi",
+          "Dolphinfish",
+          "Dorado",
+          "Coryphaena hippurus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida; a mancha branca sobre o olho e o bico laranja identificam a espécie.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pinguim é este?",
+      "resposta": "Pinguim-papua",
+      "distratores": [
+        "Pinguim-de-adélia",
+        "Pinguim-de-barbicha",
+        "Pinguim-macaroni"
+      ],
+      "ancora": {
+        "nome": "Pinguim-papua",
+        "descricao": "Pinguim do gênero Pygoscelis, com mancha branca sobre os olhos e bico alaranjado.",
+        "variantes": [
+          "Pinguim-gentoo",
+          "Gentoo",
+          "Pygoscelis papua"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Dugongo nítido, focinho voltado para baixo e cauda típica de sirênio; peixes ao lado não atrapalham.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "O parente moderno mais próximo deste mamífero marinho foi caçado até a extinção no século dezoito. Que animal era esse?",
+      "resposta": "Vaca-marinha-de-Steller",
+      "ancora": {
+        "nome": "Dugongo",
+        "descricao": "Mamífero marinho herbívoro da ordem Sirenia, Dugong dugon, do Indo-Pacífico.",
+        "variantes": [
+          "Dugong dugon",
+          "Dugong"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, de frente, com o anel branco no olho característico, fundo limpo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pinguim é este?",
+      "resposta": "Pinguim-de-adélia",
+      "distratores": [
+        "Pinguim-papua",
+        "Pinguim-de-barbicha",
+        "Pinguim-macaroni"
+      ],
+      "ancora": {
+        "nome": "Pinguim-de-adélia",
+        "descricao": "Pinguim antártico de cabeça preta e anel branco em volta do olho, Pygoscelis adeliae.",
+        "variantes": [
+          "Pinguim-de-adélie",
+          "Adélie penguin",
+          "Pygoscelis adeliae"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O peixe está tão camuflado de filamentos que parece só um aglomerado de algas; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Caranguejo pequeno nítido, carregando uma anêmona em cada garra; resposta única.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que caranguejo é este?",
+      "resposta": "Caranguejo-boxeador",
+      "ancora": {
+        "nome": "Caranguejo-boxeador",
+        "descricao": "Pequeno caranguejo do Indo-Pacífico, Lybia tessellata, que carrega uma anêmona em cada garra.",
+        "variantes": [
+          "Caranguejo-pompom",
+          "Caranguejo-pom-pom",
+          "Boxer crab",
+          "Lybia tessellata"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Peixe nítido de lado, com espinhos e manchas claras; reconhecível em múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe é este?",
+      "resposta": "Baiacu-de-espinho",
+      "distratores": [
+        "Peixe-cofre",
+        "Peixe-leão",
+        "Peixe-pedra"
+      ],
+      "ancora": {
+        "nome": "Baiacu-de-espinho",
+        "descricao": "Peixe da família Diodontidae, de corpo coberto de espinhos que se eriçam quando infla.",
+        "variantes": [
+          "Peixe-porco-espinho",
+          "Diodontidae",
+          "Porcupinefish"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A gravura traz texto visível que entrega a resposta: 'Caa'ing Whale (Globicephalus melas)' e 'Plate XIX'. Além disso, é ilustração de animal que pode ser fotografado."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Só aparece a cabeça escura do animal saindo da água; não é reconhecível e pode ser confundida com baleia-piloto ou outros golfinhos."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Muitas águas-vivas da mesma espécie, com os quatro anéis típicos; assunto único e legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que água-viva é esta?",
+      "resposta": "Água-viva-da-lua",
+      "ancora": {
+        "nome": "Água-viva-da-lua",
+        "descricao": "Água-viva translúcida com quatro anéis gonadais visíveis, Aurelia aurita.",
+        "variantes": [
+          "Medusa-da-lua",
+          "Moon jellyfish",
+          "Aurelia aurita"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É um desenho esquemático, e o animal poderia ser fotografado; a política só aceita ilustração para o que não se fotografa. Pouco reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O crocodilo pode ser confundido com outras espécies de crocodilo; a resposta não é única pela imagem. Também é réptil, mais próprio de Aves, Répteis e Anfíbios que de Vida Marinha."
+    }
+  ]
+}

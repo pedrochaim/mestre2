@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que pinguim é este?",
+        "resposta": "Pinguim-de-adélia"
+      },
+      "existentes": [
+        {
+          "id": "q19579",
+          "pergunta": "A terra que dá nome a este pinguim foi batizada em homenagem à esposa de que explorador francês?",
+          "resposta": "Jules Dumont d'Urville"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação da espécie de pinguim (Adélia); a existente pergunta quem é o explorador cuja esposa deu nome à Terra Adélia. Fatos diferentes."
+    }
+  ]
+}

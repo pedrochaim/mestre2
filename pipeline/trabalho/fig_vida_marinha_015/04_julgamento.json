@@ -1,0 +1,405 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Dourado-do-mar",
+        "descricao": "Peixe pelágico de águas tropicais, Coryphaena hippurus, também chamado mahi-mahi.",
+        "variantes": [
+          "Mahi-mahi",
+          "Dolphinfish",
+          "Dorado",
+          "Coryphaena hippurus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eldorado",
+          "nome": "Eldorado",
+          "descricao": "Lenda de uma terra riquíssima em ouro, nascida de um ritual dos muíscas, na atual Colômbia.",
+          "variantes": [
+            "El Dorado"
+          ]
+        },
+        {
+          "id": "francisco_jose_do_nascimento",
+          "nome": "Francisco José do Nascimento",
+          "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+          "variantes": [
+            "Dragão do Mar",
+            "Chico da Matilde"
+          ]
+        },
+        {
+          "id": "ourico_do_mar",
+          "nome": "Ouriço-do-mar",
+          "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+          "variantes": [
+            "Ouriço",
+            "Sea urchin"
+          ]
+        },
+        {
+          "id": "centro_dragao_do_mar_de_arte_e_cultura",
+          "nome": "Centro Dragão do Mar de Arte e Cultura",
+          "descricao": "Centro cultural de Fortaleza, Ceará, com museus, planetário, teatro e cinemas.",
+          "variantes": [
+            "Dragão do Mar"
+          ]
+        },
+        {
+          "id": "dado",
+          "nome": "Dado",
+          "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+          "variantes": [
+            "Dice",
+            "Dado de seis faces"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pinguim-papua",
+        "descricao": "Pinguim do gênero Pygoscelis, com mancha branca sobre os olhos e bico alaranjado.",
+        "variantes": [
+          "Pinguim-gentoo",
+          "Gentoo",
+          "Pygoscelis papua"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinguim_de_adelia",
+          "nome": "Pinguim-de-adélia",
+          "descricao": "Pinguim antártico de cabeça preta e anel branco no olho (Pygoscelis adeliae).",
+          "variantes": [
+            "Pinguim-de-adélie",
+            "Adélie penguin",
+            "Pygoscelis adeliae"
+          ]
+        },
+        {
+          "id": "invasoes_mongois_do_japao",
+          "nome": "Invasões mongóis do Japão",
+          "descricao": "Duas tentativas de invasão do Japão pela dinastia Yuan de Kublai Khan, em 1274 e 1281.",
+          "variantes": [
+            "Invasões mongóis ao Japão",
+            "Mongol invasions of Japan",
+            "Genkō"
+          ]
+        },
+        {
+          "id": "queixo",
+          "nome": "Queixo",
+          "descricao": "Parte anterior e pontiaguda da mandíbula, abaixo do lábio inferior.",
+          "variantes": [
+            "Mento"
+          ]
+        },
+        {
+          "id": "pinguim_rei",
+          "nome": "Pinguim-rei",
+          "descricao": "Segunda maior espécie de pinguim, Aptenodytes patagonicus, de manchas laranja na cabeça e no peito.",
+          "variantes": [
+            "Aptenodytes patagonicus",
+            "King penguin"
+          ]
+        },
+        {
+          "id": "pinguim_de_barbicha",
+          "nome": "Pinguim-de-barbicha",
+          "descricao": "Pinguim antártico Pygoscelis antarcticus, com uma estreita faixa preta sob a cabeça.",
+          "variantes": [
+            "Pygoscelis antarcticus",
+            "Chinstrap penguin",
+            "Pinguim-antártico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pinguim-de-adélia",
+        "descricao": "Pinguim antártico de cabeça preta e anel branco em volta do olho, Pygoscelis adeliae.",
+        "variantes": [
+          "Pinguim-de-adélie",
+          "Adélie penguin",
+          "Pygoscelis adeliae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinguim_de_adelia",
+          "nome": "Pinguim-de-adélia",
+          "descricao": "Pinguim antártico de cabeça preta e anel branco no olho (Pygoscelis adeliae).",
+          "variantes": [
+            "Pinguim-de-adélie",
+            "Adélie penguin",
+            "Pygoscelis adeliae"
+          ]
+        },
+        {
+          "id": "pinguim_de_barbicha",
+          "nome": "Pinguim-de-barbicha",
+          "descricao": "Pinguim antártico Pygoscelis antarcticus, com uma estreita faixa preta sob a cabeça.",
+          "variantes": [
+            "Pygoscelis antarcticus",
+            "Chinstrap penguin",
+            "Pinguim-antártico"
+          ]
+        },
+        {
+          "id": "pinguim_de_galapagos",
+          "nome": "Pinguim-de-galápagos",
+          "descricao": "Pinguim Spheniscus mendiculus, endêmico do arquipélago de Galápagos, no Equador.",
+          "variantes": [
+            "Spheniscus mendiculus",
+            "Galápagos penguin"
+          ]
+        },
+        {
+          "id": "pinguim_de_magalhaes",
+          "nome": "Pinguim-de-magalhães",
+          "descricao": "Pinguim sul-americano, Spheniscus magellanicus, que se reproduz na Patagônia e migra para o norte no inverno.",
+          "variantes": [
+            "Spheniscus magellanicus",
+            "Magellanic penguin"
+          ]
+        },
+        {
+          "id": "pinguim_rei",
+          "nome": "Pinguim-rei",
+          "descricao": "Segunda maior espécie de pinguim, Aptenodytes patagonicus, de manchas laranja na cabeça e no peito.",
+          "variantes": [
+            "Aptenodytes patagonicus",
+            "King penguin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Caranguejo-boxeador",
+        "descricao": "Pequeno caranguejo do Indo-Pacífico, Lybia tessellata, que carrega uma anêmona em cada garra.",
+        "variantes": [
+          "Caranguejo-pompom",
+          "Caranguejo-pom-pom",
+          "Boxer crab",
+          "Lybia tessellata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_dos_coqueiros",
+          "nome": "Caranguejo-dos-coqueiros",
+          "descricao": "Maior artrópode terrestre, um caranguejo-eremita gigante (Birgus latro) das ilhas do Índico e do Pacífico.",
+          "variantes": [
+            "Caranguejo-ladrão",
+            "Birgus latro"
+          ]
+        },
+        {
+          "id": "limulo",
+          "nome": "Límulo",
+          "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul.",
+          "variantes": [
+            "caranguejo-ferradura",
+            "horseshoe crab",
+            "Limulus polyphemus"
+          ]
+        },
+        {
+          "id": "caranguejo_uca",
+          "nome": "Caranguejo-uçá",
+          "descricao": "Caranguejo de manguezal Ucides cordatus, do Atlântico ocidental, importante na alimentação no Brasil.",
+          "variantes": [
+            "Uçá",
+            "Ucides cordatus",
+            "Caranguejo-verdadeiro"
+          ]
+        },
+        {
+          "id": "caranguejo_fantasma",
+          "nome": "Caranguejo-fantasma",
+          "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+          "variantes": [
+            "Caranguejo",
+            "Maria-farinha",
+            "Ocypode"
+          ]
+        },
+        {
+          "id": "caranguejo",
+          "nome": "Caranguejo",
+          "descricao": "Crustáceo decápode da infraordem Brachyura, de carapaça larga e cauda curta dobrada sob o corpo.",
+          "variantes": [
+            "Brachyura",
+            "Crab"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Baiacu-de-espinho",
+        "descricao": "Peixe da família Diodontidae, de corpo coberto de espinhos que se eriçam quando infla.",
+        "variantes": [
+          "Peixe-porco-espinho",
+          "Diodontidae",
+          "Porcupinefish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ourico_cacheiro",
+          "nome": "Ouriço-cacheiro",
+          "descricao": "Roedor arborícola sul-americano de espinhos e cauda preênsil, da espécie Coendou prehensilis.",
+          "variantes": [
+            "Coendou prehensilis",
+            "Porco-espinho-brasileiro",
+            "Porco-espinho"
+          ]
+        },
+        {
+          "id": "porco_espinho",
+          "nome": "Porco-espinho",
+          "descricao": "Roedor da espécie Hystrix cristata, o porco-espinho-de-crista, com espinhos longos no dorso.",
+          "variantes": [
+            "Porco-espinho-de-crista",
+            "Hystrix cristata",
+            "Porco-espinho-crestado"
+          ]
+        },
+        {
+          "id": "peixe_picasso",
+          "nome": "Peixe-picasso",
+          "descricao": "Peixe-picasso (Rhinecanthus aculeatus), peixe-porco do Indo-Pacífico de padrão colorido listrado.",
+          "variantes": [
+            "Peixe-gatilho-picasso",
+            "Lagoon triggerfish",
+            "Rhinecanthus aculeatus",
+            "Peixe-porco-picasso"
+          ]
+        },
+        {
+          "id": "morcego_vampiro",
+          "nome": "Morcego-vampiro",
+          "descricao": "Morcegos da subfamília Desmodontinae, que se alimentam de sangue.",
+          "variantes": [
+            "Desmodontinae",
+            "Vampire bat",
+            "Desmodus rotundus"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Água-viva-da-lua",
+        "descricao": "Água-viva translúcida com quatro anéis gonadais visíveis, Aurelia aurita.",
+        "variantes": [
+          "Medusa-da-lua",
+          "Moon jellyfish",
+          "Aurelia aurita"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedra_da_lua",
+          "nome": "Pedra da Lua",
+          "descricao": "Pedra evolutiva dos jogos Pokémon que faz evoluir pokémon como Clefairy, Jigglypuff, Nidorino e Nidorina.",
+          "variantes": [
+            "Moon Stone"
+          ]
+        },
+        {
+          "id": "agua_viva",
+          "nome": "Água-viva",
+          "descricao": "Forma nadadora, em geral gelatinosa e em forma de sino, de diversos cnidários marinhos.",
+          "variantes": [
+            "Medusa",
+            "Alforreca",
+            "Jellyfish"
+          ]
+        },
+        {
+          "id": "urutau",
+          "nome": "Urutau",
+          "descricao": "Ave noturna Nyctibius griseus, de plumagem camuflada que imita um toco de árvore, de olhos grandes amarelos.",
+          "variantes": [
+            "Urutau-comum",
+            "Mãe-da-lua",
+            "Common potoo",
+            "Nyctibius griseus"
+          ]
+        },
+        {
+          "id": "turritopsis_dohrnii",
+          "nome": "Turritopsis dohrnii",
+          "descricao": "Pequeno hidrozoário marinho conhecido como água-viva imortal por conseguir rejuvenescer.",
+          "variantes": [
+            "Água-viva imortal",
+            "Immortal jellyfish"
+          ]
+        },
+        {
+          "id": "maria_rita",
+          "nome": "Maria Rita",
+          "descricao": "Cantora brasileira de MPB e samba, filha de Elis Regina.",
+          "variantes": [
+            "Maria Rita Camargo Mariano"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Dourado-do-mar (Coryphaena hippurus) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pinguim-papua (Pygoscelis papua) é espécie distinta das candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "pinguim_de_adelia",
+      "motivo": "Mesmo nome, mesma espécie Pygoscelis adeliae e mesmas variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Lybia tessellata é espécie distinta das candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Diodontidae é família distinta de Tetraodontidae (Baiacu) e dos demais."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Aurelia aurita é espécie específica, diferente de Água-viva genérica e de Turritopsis."
+    }
+  ]
+}

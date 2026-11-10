@@ -1,0 +1,53 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que \"dolphin\" é nome tradicional e comum do mahi-mahi em inglês. A figura é necessária para saber qual peixe é. A resposta é única e o enunciado é curto e não nomeia a entidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista que entregue a resposta. Os distratores são pinguins do mesmo tipo e nenhum descreve a imagem. São visualmente parecidos e ficam dentro do limite de palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato está correto e consta do trecho. Mas a pista \"parente mais próximo... caçado até a extinção no século dezoito\" identifica a vaca-marinha-de-Steller sem olhar a figura. Trocar por outra pista (como a ordem Sirenia) também entregaria a resposta. Não há conserto simples, então descarto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado. Os distratores são pinguins distintos, críveis, curtos, e nenhum é também correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 e aberta, sem vazamento. O trecho confirma que \"boxer crab\" é o nome comum e que o caranguejo carrega anêmonas nas garras, o que o torna reconhecível. A resposta é específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que baiacu-de-espinho é o nome popular dos diodontídeos, de corpo coberto de espinhos. Os distratores são peixes recifais críveis, curtos, e nenhum é também correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aurelia aurita é a água-viva-da-lua (moon jelly), e os trechos confirmam as quatro gônadas visíveis. O enunciado é curto e não dá pista, e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}
