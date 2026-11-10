@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Cidade em encosta com neblina, sem elemento que a torne reconhecível; resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mapa limpo, sem texto, com o oceano em destaque azul ao redor da Antártida.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que oceano aparece destacado em azul neste mapa?",
+      "resposta": "Oceano Antártico",
+      "distratores": [
+        "Oceano Ártico",
+        "Oceano Índico",
+        "Oceano Pacífico"
+      ],
+      "ancora": {
+        "nome": "Oceano Antártico",
+        "descricao": "Oceano que cerca a Antártida, ao sul do paralelo 60 sul, também chamado Oceano Austral.",
+        "variantes": [
+          "Oceano Austral",
+          "Southern Ocean",
+          "Antarctic Ocean"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Formação de travertino branco imitando cascata, sem texto; reconhecível por aficionados, melhor em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta formação de rocha branca, no México, parece uma cachoeira congelada. Que lugar é este?",
+      "resposta": "Hierve el Agua",
+      "distratores": [
+        "Pamukkale",
+        "Huanglong",
+        "Mammoth Hot Springs"
+      ],
+      "ancora": {
+        "nome": "Hierve el Agua",
+        "descricao": "Conjunto de formações de travertino que lembram cascatas, em Oaxaca, México.",
+        "variantes": [
+          "Hierve el Agua, Oaxaca"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Enseada com costa verde genérica; não permite identificar Búzios com segurança e se parece com outras do litoral brasileiro."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto aérea clara de rio sinuoso, com curvas bem visíveis; 'onde' não é possível, então troca para 'o que é'.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Como se chama cada uma destas curvas sinuosas formadas por este rio?",
+      "resposta": "Meandro",
+      "distratores": [
+        "Delta",
+        "Estuário",
+        "Cânion"
+      ],
+      "ancora": {
+        "nome": "Meandro",
+        "descricao": "Curva sinuosa do leito de um rio, formada por erosão na margem externa e deposição na interna.",
+        "variantes": [
+          "Meandros",
+          "Meander"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Praia de lago com rochas e céu; nada distingue o Lago Malawi de outros lagos ou do mar."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Orla urbana de canal com morros ao fundo, sem marco reconhecível; resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Praia genérica com jangada e dunas ao fundo, sem característica distintiva (falésias) visível; não reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Montanha nevada nítida, sem texto; reconhecível por aficionados, melhor em múltipla com picos do Himalaia.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que montanha do Himalaia é esta?",
+      "resposta": "Kangchenjunga",
+      "distratores": [
+        "Lhotse",
+        "Makalu",
+        "Annapurna"
+      ],
+      "ancora": {
+        "nome": "Kangchenjunga",
+        "descricao": "Terceira montanha mais alta do mundo, na fronteira entre Nepal e Índia, no Himalaia.",
+        "variantes": [
+          "Kanchenjunga",
+          "Kangchenjunga"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A placa legível 'Geographic South Pole' entrega a resposta, além de nomes e datas."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Costa com vinhedos em terraços sobre o mar, característica da Cinque Terre; sem texto nem pessoas.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que região italiana fica esta costa de vilarejos e vinhedos em terraços?",
+      "resposta": "Ligúria",
+      "distratores": [
+        "Toscana",
+        "Campânia",
+        "Sardenha"
+      ],
+      "ancora": {
+        "nome": "Cinque Terre",
+        "descricao": "Área costeira da Ligúria, na Itália, com cinco vilarejos e encostas com terraços sobre o Mar da Ligúria.",
+        "variantes": [
+          "Cinco Terras"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Praia genérica com duas pessoas comuns em primeiro plano; não identificável e sem entidade específica."
+    }
+  ]
+}

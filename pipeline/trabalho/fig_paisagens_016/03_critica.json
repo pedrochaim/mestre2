@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em azul' é uma afirmação sobre a imagem que não dá para conferir em 'mostra'. Retirei esse detalhe. O resto é preciso: o oceano cerca a Antártida e também se chama Austral.",
+      "reescrita": {
+        "pergunta": "Que oceano aparece destacado neste mapa?",
+        "resposta": "Oceano Antártico",
+        "distratores": [
+          "Oceano Ártico",
+          "Oceano Índico",
+          "Oceano Pacífico"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'no México', e os três distratores ficam em outros países. Assim a pista elimina os distratores sem a figura. Tirei o país para a escolha depender de reconhecer a imagem. Os distratores são sítios de travertino parecidos.",
+      "reescrita": {
+        "pergunta": "Esta formação de rocha branca parece uma cachoeira congelada. Que lugar é este?",
+        "resposta": "Hierve el Agua",
+        "distratores": [
+          "Pamukkale",
+          "Huanglong",
+          "Mammoth Hot Springs"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Curvas sinuosas formadas por este rio' é quase a definição de meandro. Dá para responder sem ver a figura. Troquei por um enunciado que depende de reconhecer a feição na imagem.",
+      "reescrita": {
+        "pergunta": "Este trecho de rio, visto do alto, mostra uma feição típica de planícies. Como se chama essa feição?",
+        "resposta": "Meandro",
+        "distratores": [
+          "Delta",
+          "Estuário",
+          "Cânion"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é curto e só dá a pista 'Himalaia', que não entrega a resposta. Os distratores são picos do Himalaia, do mesmo tipo e críveis. Os trechos confirmam que Kangchenjunga fica no Himalaia.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Ligúria é confirmada nos trechos, e os terraços com uvas e oliveiras também. O enunciado não nomeia o lugar. Campânia (Costa Amalfitana) é um distrator crível, e Toscana e Sardenha também servem. Só a figura permite decidir.",
+      "reescrita": null
+    }
+  ]
+}
