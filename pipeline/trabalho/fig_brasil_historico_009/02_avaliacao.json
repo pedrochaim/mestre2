@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de multidão com muitas pessoas comuns em primeiro plano (crianças, populares); o acontecimento não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Locomotiva clara, sem texto que entregue o nome (só 'Nº 1'). Múltipla com nomes de locomotivas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que locomotiva a vapor histórica, exposta em um museu ferroviário brasileiro, é esta?",
+      "resposta": "Baroneza",
+      "distratores": [
+        "Fluminense",
+        "Condessa",
+        "Duquesa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Locomotiva Baroneza",
+        "descricao": "Primeira locomotiva a vapor do Brasil, de 1852, tombada pelo IPHAN.",
+        "variantes": [
+          "Baroneza (locomotiva)"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato conhecido, sem texto; múltipla com poetas românticos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que poeta romântico brasileiro é este?",
+      "resposta": "Castro Alves",
+      "distratores": [
+        "Álvares de Azevedo",
+        "Gonçalves Dias",
+        "Casimiro de Abreu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castro Alves",
+        "descricao": "Poeta brasileiro do século dezenove, autor de Espumas Flutuantes e conhecido como o Poeta dos Escravos.",
+        "variantes": [
+          "Antônio Frederico de Castro Alves"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada clara; só aparece 'BRAZIL' pequeno, que não entrega o nome. Pergunta vai além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este palácio do Rio de Janeiro foi construído primeiro em outra cidade, para uma exposição universal. Que cidade foi essa?",
+      "resposta": "Saint Louis",
+      "distratores": [
+        "Chicago",
+        "Paris",
+        "Filadélfia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palácio Monroe",
+        "descricao": "Antigo palácio do Rio de Janeiro, construído como pavilhão brasileiro na Exposição de Saint Louis de 1904 e remontado em 1906.",
+        "variantes": [
+          "Palácio Monroe (Rio de Janeiro)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato de figura pouco conhecida, não reconhecível pelo rosto; a imagem não permite resposta justa."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato reconhecível, sem texto. Pergunta vai além do nome, com distratores de obras de outros autores.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a obra mais conhecida deste pensador brasileiro?",
+      "resposta": "Pedagogia do Oprimido",
+      "distratores": [
+        "Casa-Grande e Senzala",
+        "Os Sertões",
+        "Raízes do Brasil"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paulo Freire",
+        "descricao": "Educador e filósofo brasileiro (1921–1997), autor de Pedagogia do Oprimido.",
+        "variantes": [
+          "Paulo Reglus Neves Freire"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto em que ele é o foco, sem texto; múltipla com religiosos brasileiros do mesmo período.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que religioso brasileiro é este?",
+      "resposta": "Dom Hélder Câmara",
+      "distratores": [
+        "Dom Paulo Evaristo Arns",
+        "Dom Pedro Casaldáliga",
+        "Dom Aloísio Lorscheider"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dom Hélder Câmara",
+        "descricao": "Arcebispo de Olinda e Recife de 1964 a 1985, defensor dos pobres e dos direitos humanos na ditadura militar.",
+        "variantes": [
+          "Hélder Pessoa Câmara"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ruínas coloniais claras, sem texto; pergunta de época com séculos como alternativas.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi construída esta fortaleza colonial no litoral catarinense?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezesseis",
+        "Século dezessete",
+        "Século dezenove"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fortaleza de Anhatomirim",
+        "descricao": "Fortaleza colonial na ilha de Anhatomirim, em Governador Celso Ramos, Santa Catarina.",
+        "variantes": [
+          "Fortaleza de Santa Cruz de Anhatomirim"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Soldados com equipamento norte-americano sobre um veículo: não é claramente identificável como FEB, e há pessoas em primeiro plano."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Galpão abandonado com caixa d'água, genérico: não é reconhecível como Fordlândia nem tem resposta única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Via urbana em trincheira, sem elementos que identifiquem a Transamazônica; a imagem não corresponde ao assunto."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada nítida e sem texto; pergunta sobre a ordem religiosa, que não se responde sem a imagem.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que ordem religiosa pertence este mosteiro histórico do Rio de Janeiro?",
+      "resposta": "Ordem Beneditina",
+      "distratores": [
+        "Ordem Franciscana",
+        "Companhia de Jesus",
+        "Ordem Carmelita"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosteiro de São Bento (Rio de Janeiro)",
+        "descricao": "Mosteiro beneditino colonial no Morro de São Bento, no centro do Rio de Janeiro.",
+        "variantes": [
+          "Mosteiro de São Bento do Rio de Janeiro"
+        ]
+      }
+    }
+  ]
+}

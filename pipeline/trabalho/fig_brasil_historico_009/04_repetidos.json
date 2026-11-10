@@ -1,0 +1,55 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que poeta romântico brasileiro é este?",
+        "resposta": "Castro Alves"
+      },
+      "existentes": [
+        {
+          "id": "q02909",
+          "pergunta": "Em 1868, um tiro acidental de espingarda durante uma caçada levou à amputação de que parte do corpo do poeta Castro Alves?",
+          "resposta": "O pé esquerdo"
+        },
+        {
+          "id": "q04188",
+          "pergunta": "Que poeta brasileiro do século dezenove aparece nesta foto?",
+          "resposta": "Castro Alves"
+        },
+        {
+          "id": "q06032",
+          "pergunta": "Por seus versos contra a escravidão, como em O Navio Negreiro, Castro Alves ficou conhecido por que apelido?",
+          "resposta": "Poeta dos Escravos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é a obra mais conhecida deste pensador brasileiro?",
+        "resposta": "Pedagogia do Oprimido"
+      },
+      "existentes": [
+        {
+          "id": "q07361",
+          "pergunta": "Quem é este pensador brasileiro do século vinte?",
+          "resposta": "Paulo Freire"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04188",
+      "motivo": "Ambas pedem identificar Castro Alves a partir da foto, com resposta idêntica."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta pela obra mais conhecida, fato diferente de identificar o pensador."
+    }
+  ]
+}
