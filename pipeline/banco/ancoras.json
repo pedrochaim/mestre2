@@ -15848,7 +15848,8 @@
     "descricao": "Matemática inglesa (1815–1852), considerada a primeira programadora de computadores.",
     "variantes": [
       "Augusta Ada King",
-      "Condessa de Lovelace"
+      "Condessa de Lovelace",
+      "Augusta Ada King, condessa de Lovelace"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Ada_Lovelace",
@@ -23210,7 +23211,9 @@
     "descricao": "Versão digital do jogo de cartas Paciência incluída pela Microsoft no Windows a partir de 1990.",
     "variantes": [
       "Microsoft Solitaire",
-      "Solitaire"
+      "Solitaire",
+      "Paciência (Microsoft Solitaire)",
+      "Paciência"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Microsoft_Solitaire"
@@ -51789,7 +51792,8 @@
     "descricao": "Defeito ou falha num programa de computador que faz com que ele funcione errado.",
     "variantes": [
       "Bug de software",
-      "Software bug"
+      "Software bug",
+      "Bug"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Software_bug"
@@ -52056,7 +52060,10 @@
       "wikidata": "Q19837",
       "pt": 11457,
       "en": 360662
-    }
+    },
+    "variantes": [
+      "Steven Paul Jobs"
+    ]
   },
   {
     "id": "hal_9000",
@@ -98401,7 +98408,10 @@
       "wikidata": "Q131723",
       "pt": 5100,
       "en": 111397
-    }
+    },
+    "variantes": [
+      "BTC"
+    ]
   },
   {
     "id": "circuito_integrado",
@@ -238110,6 +238120,195 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Ivan_Turgenev",
       "https://pt.wikipedia.org/wiki/Ivan_Turgu%C3%AAniev"
+    ]
+  },
+  {
+    "id": "byte",
+    "nome": "Byte",
+    "descricao": "Unidade de informação digital formada, por padrão, por oito bits.",
+    "variantes": [
+      "Octeto"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Byte",
+      "https://pt.wikipedia.org/wiki/Byte"
+    ]
+  },
+  {
+    "id": "bit",
+    "nome": "Bit",
+    "descricao": "Menor unidade de informação da computação, que pode valer zero ou um.",
+    "variantes": [
+      "Dígito binário"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bit",
+      "https://pt.wikipedia.org/wiki/Bit"
+    ]
+  },
+  {
+    "id": "intel",
+    "nome": "Intel",
+    "descricao": "Fabricante americana de processadores e chips fundada em 1968 por Gordon Moore e Robert Noyce.",
+    "variantes": [
+      "Intel Corporation"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Intel",
+      "https://pt.wikipedia.org/wiki/Intel"
+    ]
+  },
+  {
+    "id": "grace_hopper",
+    "nome": "Grace Hopper",
+    "descricao": "Cientista da computação e oficial da Marinha americana (1906–1992), pioneira das linguagens de programação.",
+    "variantes": [
+      "Grace Brewster Murray Hopper"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Grace_Hopper",
+      "https://pt.wikipedia.org/wiki/Grace_Hopper"
+    ]
+  },
+  {
+    "id": "whatsapp",
+    "nome": "WhatsApp",
+    "descricao": "Aplicativo de mensagens para celular criado em 2009 por Jan Koum e Brian Acton, comprado pelo Facebook em 2014.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/WhatsApp",
+      "https://pt.wikipedia.org/wiki/WhatsApp"
+    ]
+  },
+  {
+    "id": "icq",
+    "nome": "ICQ",
+    "descricao": "Programa de mensagens instantâneas lançado em 1996 pela empresa israelense Mirabilis.",
+    "variantes": [
+      "I seek you"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/ICQ",
+      "https://pt.wikipedia.org/wiki/ICQ"
+    ]
+  },
+  {
+    "id": "steve_wozniak",
+    "nome": "Steve Wozniak",
+    "descricao": "Engenheiro americano, cofundador da Apple e projetista dos computadores Apple I e Apple II.",
+    "variantes": [
+      "Woz"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Steve_Wozniak",
+      "https://pt.wikipedia.org/wiki/Steve_Wozniak"
+    ]
+  },
+  {
+    "id": "programa_ola_mundo",
+    "nome": "Programa Olá Mundo",
+    "descricao": "Programa simples que exibe a frase olá, mundo, usado tradicionalmente como primeiro exercício de programação.",
+    "variantes": [
+      "Hello, World!",
+      "Olá, Mundo!"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program",
+      "https://pt.wikipedia.org/wiki/Programa_Ol%C3%A1_Mundo"
+    ]
+  },
+  {
+    "id": "msn_messenger",
+    "nome": "MSN Messenger",
+    "descricao": "Programa de mensagens instantâneas da Microsoft, lançado em 1999 e depois chamado Windows Live Messenger, encerrado em 2013.",
+    "variantes": [
+      "Windows Live Messenger",
+      "MSN"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Windows_Live_Messenger",
+      "https://pt.wikipedia.org/wiki/Windows_Live_Messenger"
+    ]
+  },
+  {
+    "id": "gps",
+    "nome": "GPS",
+    "descricao": "Sistema americano de navegação por satélite que permite determinar a posição de um receptor em qualquer lugar da Terra.",
+    "variantes": [
+      "Sistema de Posicionamento Global",
+      "Global Positioning System"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Global_Positioning_System",
+      "https://pt.wikipedia.org/wiki/Sistema_de_posicionamento_global"
+    ]
+  },
+  {
+    "id": "c_linguagem_de_programacao",
+    "nome": "C (linguagem de programação)",
+    "descricao": "Linguagem de programação criada por Dennis Ritchie nos Laboratórios Bell no início dos anos 1970.",
+    "variantes": [
+      "Linguagem C"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/C_(programming_language)",
+      "https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)"
+    ]
+  },
+  {
+    "id": "mercado_livre",
+    "nome": "Mercado Livre",
+    "descricao": "Empresa de comércio eletrônico latino-americana fundada em 1999 por Marcos Galperin.",
+    "variantes": [
+      "MercadoLibre"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/MercadoLibre",
+      "https://pt.wikipedia.org/wiki/Mercado_Livre"
+    ]
+  },
+  {
+    "id": "patinho_feio_computador",
+    "nome": "Patinho Feio (computador)",
+    "descricao": "Computador construído em 1972 na Escola Politécnica da USP, um dos primeiros desenvolvidos no Brasil.",
+    "variantes": [
+      "Patinho Feio"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Patinho_Feio_(computador)",
+      "https://en.wikipedia.org/wiki/Patinho_Feio"
+    ]
+  },
+  {
+    "id": "vhs",
+    "nome": "VHS",
+    "descricao": "Formato de videocassete doméstico lançado nos anos 1970, que venceu a disputa de mercado contra o Betamax.",
+    "variantes": [
+      "Video Home System"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/VHS",
+      "https://pt.wikipedia.org/wiki/VHS"
+    ]
+  },
+  {
+    "id": "pix",
+    "nome": "Pix",
+    "descricao": "Sistema brasileiro de pagamentos instantâneos criado pelo Banco Central do Brasil.",
+    "variantes": [
+      "Pix (sistema de pagamentos)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pix_(payment_system)",
+      "https://www.bcb.gov.br/estabilidadefinanceira/pix"
+    ]
+  },
+  {
+    "id": "eliza",
+    "nome": "ELIZA",
+    "descricao": "Um dos primeiros programas de conversa por texto, criado por Joseph Weizenbaum no MIT nos anos 1960.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/ELIZA",
+      "https://pt.wikipedia.org/wiki/ELIZA"
     ]
   }
 ]

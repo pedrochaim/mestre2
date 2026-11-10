@@ -1,0 +1,661 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Ao fundar sua empresa em 1939, como Bill Hewlett e David Packard decidiram a ordem dos sobrenomes no nome dela?",
+        "resposta": "No cara ou coroa"
+      },
+      "existentes": [
+        {
+          "id": "q06763",
+          "pergunta": "Em 1939, Bill Hewlett e David Packard fundaram a HP numa garagem que hoje é considerada o berço do Vale do Silício. Em qual cidade californiana?",
+          "resposta": "Palo Alto"
+        },
+        {
+          "id": "q15954",
+          "pergunta": "Uma das primeiras clientes da HP, a Disney, comprou osciladores de áudio da empresa para preparar o som de qual filme?",
+          "resposta": "Fantasia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O nome da Atari, pioneira dos videogames fundada em 1972, é um termo de qual jogo de tabuleiro oriental?",
+        "resposta": "Go"
+      },
+      "existentes": [
+        {
+          "id": "q01309",
+          "pergunta": "O nome Atari, escolhido para a empresa americana de videogames, vem de um termo de qual jogo de tabuleiro asiático?",
+          "resposta": "Go"
+        },
+        {
+          "id": "q07408",
+          "pergunta": "Antes de fundar a Apple, o jovem Steve Jobs foi contratado como técnico, em 1974, por qual empresa de videogames?",
+          "resposta": "Atari"
+        },
+        {
+          "id": "q16146",
+          "pergunta": "A Atari, empresa de Nolan Bushnell que popularizou os videogames nos anos setenta, foi fundada em qual estado americano?",
+          "resposta": "Califórnia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O nome do computador de xadrez Deep Blue faz trocadilho com qual apelido da sua fabricante, a IBM?",
+        "resposta": "Big Blue"
+      },
+      "existentes": [
+        {
+          "id": "q03461",
+          "pergunta": "Em que ano o computador Deep Blue, da IBM, derrotou o campeão mundial Garry Kasparov num confronto completo de xadrez?",
+          "resposta": "1997"
+        },
+        {
+          "id": "q06429",
+          "pergunta": "Em 1997, o computador Deep Blue derrotou o campeão mundial Garry Kasparov num match de xadrez. Que empresa o construiu?",
+          "resposta": "IBM"
+        },
+        {
+          "id": "q18069",
+          "pergunta": "O nome do computador de xadrez Deep Blue faz trocadilho com qual apelido da empresa que o construiu?",
+          "resposta": "Big Blue"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1997, a revanche entre o campeão Garry Kasparov e o computador Deep Blue foi disputada em quantas partidas?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q03461",
+          "pergunta": "Em que ano o computador Deep Blue, da IBM, derrotou o campeão mundial Garry Kasparov num confronto completo de xadrez?",
+          "resposta": "1997"
+        },
+        {
+          "id": "q06429",
+          "pergunta": "Em 1997, o computador Deep Blue derrotou o campeão mundial Garry Kasparov num match de xadrez. Que empresa o construiu?",
+          "resposta": "IBM"
+        },
+        {
+          "id": "q18069",
+          "pergunta": "O nome do computador de xadrez Deep Blue faz trocadilho com qual apelido da empresa que o construiu?",
+          "resposta": "Big Blue"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em homenagem ao criador pseudônimo da moeda, que nome recebe a menor fração de um bitcoin, um centésimo de milionésimo dele?",
+        "resposta": "Satoshi"
+      },
+      "existentes": [
+        {
+          "id": "q06760",
+          "pergunta": "Qual pseudônimo assina o artigo de 2008 que descreveu a criptomoeda Bitcoin?",
+          "resposta": "Satoshi Nakamoto"
+        },
+        {
+          "id": "q06793",
+          "pergunta": "Em 2010, numa das primeiras compras conhecidas com a moeda, um programador americano pagou duas pizzas com quantos bitcoins?",
+          "resposta": "Dez mil"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "As regras do Bitcoin limitam o total de moedas que poderão existir a cerca de quantas?",
+        "resposta": "21 milhões"
+      },
+      "existentes": [
+        {
+          "id": "q06760",
+          "pergunta": "Qual pseudônimo assina o artigo de 2008 que descreveu a criptomoeda Bitcoin?",
+          "resposta": "Satoshi Nakamoto"
+        },
+        {
+          "id": "q06793",
+          "pergunta": "Em 2010, numa das primeiras compras conhecidas com a moeda, um programador americano pagou duas pizzas com quantos bitcoins?",
+          "resposta": "Dez mil"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Bill Gates e Mark Zuckerberg têm em comum terem abandonado os estudos em qual universidade americana?",
+        "resposta": "Harvard"
+      },
+      "existentes": [
+        {
+          "id": "q06219",
+          "pergunta": "Que empresário americano é este?",
+          "resposta": "Bill Gates"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Steve Jobs foi adotado logo depois de nascer. Em que país nasceu seu pai biológico?",
+        "resposta": "Síria"
+      },
+      "existentes": [
+        {
+          "id": "q03445",
+          "pergunta": "Afastado da Apple em 1985, Steve Jobs comprou no ano seguinte a divisão de computação gráfica da Lucasfilm, que virou qual estúdio?",
+          "resposta": "Pixar"
+        },
+        {
+          "id": "q04525",
+          "pergunta": "Quem é este empresário americano?",
+          "resposta": "Steve Jobs"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A Apple de Steve Jobs travou longas disputas pelo uso do nome com a Apple Corps, empresa fundada por qual banda?",
+        "resposta": "Beatles"
+      },
+      "existentes": [
+        {
+          "id": "q03452",
+          "pergunta": "A Apple foi fundada em 1976 por Steve Jobs, Steve Wozniak e um terceiro sócio, que vendeu sua parte poucos dias depois. Quem?",
+          "resposta": "Ronald Wayne"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O primeiro logotipo da Apple, de 1976, era um desenho que mostrava qual cientista sentado sob uma árvore?",
+        "resposta": "Isaac Newton"
+      },
+      "existentes": [
+        {
+          "id": "q03452",
+          "pergunta": "A Apple foi fundada em 1976 por Steve Jobs, Steve Wozniak e um terceiro sócio, que vendeu sua parte poucos dias depois. Quem?",
+          "resposta": "Ronald Wayne"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No filme 2001, Uma Odisseia no Espaço, enquanto é desligado, o computador HAL canta qual canção, que um computador da IBM cantou em 1961?",
+        "resposta": "Daisy Bell"
+      },
+      "existentes": [
+        {
+          "id": "q03447",
+          "pergunta": "No filme 2001, Uma Odisseia no Espaço, trocando cada letra do computador HAL pela seguinte do alfabeto, obtém-se a sigla de qual empresa?",
+          "resposta": "IBM"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em 1952, o computador UNIVAC ficou famoso na TV americana ao prever corretamente a vitória de qual candidato à presidência?",
+        "resposta": "Dwight Eisenhower"
+      },
+      "existentes": [
+        {
+          "id": "q19830",
+          "pergunta": "Este computador foi entregue ao Departamento do Censo dos Estados Unidos em que ano?",
+          "resposta": "1951"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O ENIAC, um dos primeiros computadores eletrônicos, foi encomendado pelo Exército americano para calcular o quê?",
+        "resposta": "Tabelas de tiro de artilharia"
+      },
+      "existentes": [
+        {
+          "id": "q03462",
+          "pergunta": "O ENIAC, um dos primeiros computadores eletrônicos, concluído nos Estados Unidos em 1945, pesava aproximadamente quanto?",
+          "resposta": "Cerca de 27 toneladas"
+        },
+        {
+          "id": "q15934",
+          "pergunta": "Em vez de chips, o ENIAC, concluído em 1945, fazia seus cálculos com cerca de dezoito mil peças de quê?",
+          "resposta": "Válvulas eletrônicas"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em qual universidade americana foi construído o ENIAC, computador eletrônico concluído em 1945?",
+        "resposta": "Universidade da Pensilvânia"
+      },
+      "existentes": [
+        {
+          "id": "q03462",
+          "pergunta": "O ENIAC, um dos primeiros computadores eletrônicos, concluído nos Estados Unidos em 1945, pesava aproximadamente quanto?",
+          "resposta": "Cerca de 27 toneladas"
+        },
+        {
+          "id": "q15934",
+          "pergunta": "Em vez de chips, o ENIAC, concluído em 1945, fazia seus cálculos com cerca de dezoito mil peças de quê?",
+          "resposta": "Válvulas eletrônicas"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Além de distrair, o jogo de cartas Paciência foi incluído no Windows, em 1990, para ensinar os usuários a fazer o quê?",
+        "resposta": "Usar o mouse"
+      },
+      "existentes": [
+        {
+          "id": "q01513",
+          "pergunta": "Em 1990, a Microsoft incluiu o jogo Paciência no Windows com um objetivo prático, além de divertir. Qual era?",
+          "resposta": "Ensinar a usar o mouse"
+        },
+        {
+          "id": "q08413",
+          "pergunta": "Na Paciência do Windows, quantas colunas de cartas são montadas na mesa no começo de cada partida?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O disquete de três polegadas e meia, comum nos anos noventa, guardava quantos megabytes na sua versão mais usada?",
+        "resposta": "1,44 megabyte"
+      },
+      "existentes": [
+        {
+          "id": "q15696",
+          "pergunta": "Em muitos programas de computador, o ícone do botão salvar continua sendo o desenho de qual objeto antigo de guardar arquivos?",
+          "resposta": "Disquete"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Que antigo meio de armazenamento de dados continua aparecendo em muitos programas como o ícone do comando salvar?",
+        "resposta": "Disquete"
+      },
+      "existentes": [
+        {
+          "id": "q15696",
+          "pergunta": "Em muitos programas de computador, o ícone do botão salvar continua sendo o desenho de qual objeto antigo de guardar arquivos?",
+          "resposta": "Disquete"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O primeiro modelo do Walkman, lançado pela Sony em 1979, tinha quantas entradas para fone de ouvido?",
+        "resposta": "Duas"
+      },
+      "existentes": [
+        {
+          "id": "q04501",
+          "pergunta": "Muita gente associa o Walkman aos anos oitenta, mas a Sony lançou o tocador de fitas portátil antes. Em que ano?",
+          "resposta": "1979"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Ao lançar o iPod em 2001, a Apple prometia colocar no bolso do usuário quantas músicas?",
+        "resposta": "Mil"
+      },
+      "existentes": [
+        {
+          "id": "q15897",
+          "pergunta": "Em que ano foi lançada a primeira versão deste aparelho?",
+          "resposta": "2001"
+        },
+        {
+          "id": "q15929",
+          "pergunta": "Em ordem de lançamento, qual destes aparelhos da Apple veio antes dos outros?",
+          "resposta": "iPod"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Que arquiteta projetou, no início dos anos setenta, o orelhão, a cabine de telefone público que virou símbolo das cidades brasileiras?",
+        "resposta": "Chu Ming Silveira"
+      },
+      "existentes": [
+        {
+          "id": "q00897",
+          "pergunta": "Que arquiteta nascida em Xangai, na China, e radicada no Brasil projetou o orelhão no começo dos anos setenta?",
+          "resposta": "Chu Ming Silveira"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Qual destes formatos de gravação chegou ao mercado primeiro?",
+        "resposta": "Fita cassete"
+      },
+      "existentes": [
+        {
+          "id": "q01615",
+          "pergunta": "Que empresa criou este formato de fita magnética, lançado em mil novecentos e sessenta e três?",
+          "resposta": "Philips"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "De onde vem o nome do teclado QWERTY, o padrão da maioria dos computadores?",
+        "resposta": "Das primeiras letras da fileira superior"
+      },
+      "existentes": [
+        {
+          "id": "q03587",
+          "pergunta": "De onde vem o nome do teclado QWERTY, herdado das antigas máquinas de escrever?",
+          "resposta": "Das seis primeiras letras da fileira de cima"
+        },
+        {
+          "id": "q07332",
+          "pergunta": "Nos teclados de computador, as teclas F e J têm um pequeno relevo. Para que ele serve?",
+          "resposta": "Posicionar os dedos sem olhar"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "A disposição de teclas QWERTY, usada nos computadores, foi criada originalmente para máquinas de escrever em que século?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q03587",
+          "pergunta": "De onde vem o nome do teclado QWERTY, herdado das antigas máquinas de escrever?",
+          "resposta": "Das seis primeiras letras da fileira de cima"
+        },
+        {
+          "id": "q07332",
+          "pergunta": "Nos teclados de computador, as teclas F e J têm um pequeno relevo. Para que ele serve?",
+          "resposta": "Posicionar os dedos sem olhar"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "O mouse de computador ganhou esse nome porque o seu fio lembrava qual parte do animal?",
+        "resposta": "O rabo"
+      },
+      "existentes": [
+        {
+          "id": "q00902",
+          "pergunta": "Que engenheiro americano apresentou o mouse ao público em 1968, numa demonstração que ficou conhecida como a mãe de todas as demos?",
+          "resposta": "Douglas Engelbart"
+        },
+        {
+          "id": "q03466",
+          "pergunta": "O primeiro protótipo de mouse de computador, criado por Douglas Engelbart nos anos sessenta, tinha a carcaça feita de quê?",
+          "resposta": "Madeira"
+        },
+        {
+          "id": "q18546",
+          "pergunta": "O mouse do computador ganhou esse nome, que quer dizer camundongo em inglês, porque o fio lembrava qual parte do bicho?",
+          "resposta": "O rabo"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Na Universidade Stanford, o gabinete de um dos primeiros servidores do Google foi montado com peças de qual brinquedo?",
+        "resposta": "Lego"
+      },
+      "existentes": [
+        {
+          "id": "q03426",
+          "pergunta": "O nome Google é uma brincadeira com um termo matemático que designa qual número?",
+          "resposta": "Googol, um seguido de cem zeros"
+        },
+        {
+          "id": "q15959",
+          "pergunta": "Em que universidade americana o Google nasceu, como projeto de doutorado de Larry Page e Sergey Brin?",
+          "resposta": "Universidade Stanford"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Fundada em Quioto em 1889, muito antes dos videogames, a Nintendo fabricava inicialmente qual produto?",
+        "resposta": "Cartas de baralho"
+      },
+      "existentes": [
+        {
+          "id": "q01345",
+          "pergunta": "Em qual cidade japonesa, antiga capital imperial, a Nintendo foi fundada e mantém sua sede até hoje?",
+          "resposta": "Quioto"
+        },
+        {
+          "id": "q01346",
+          "pergunta": "Quando foi fundada, em 1889, muito antes dos videogames, a Nintendo fabricava qual produto?",
+          "resposta": "Cartas de baralho hanafuda"
+        },
+        {
+          "id": "q06798",
+          "pergunta": "Qual destas empresas de eletrônicos e videogames foi fundada primeiro?",
+          "resposta": "Nintendo"
+        },
+        {
+          "id": "q16174",
+          "pergunta": "A Nintendo foi fundada em Quioto, em 1889, como fabricante de cartas de baralho. Quem foi o seu fundador?",
+          "resposta": "Fusajiro Yamauchi"
+        },
+        {
+          "id": "q16175",
+          "pergunta": "O nome japonês Nintendo costuma ser traduzido como deixar a sorte a cargo de quem?",
+          "resposta": "Do céu"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Em 1947, técnicos do computador Mark II, em Harvard, colaram no diário de bordo um inseto encontrado num relé. Que inseto era?",
+        "resposta": "Uma mariposa"
+      },
+      "existentes": [
+        {
+          "id": "q03424",
+          "pergunta": "O termo bug, usado para falhas em programas de computador, significa literalmente o quê em inglês?",
+          "resposta": "Inseto"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Além das máquinas de calcular, o inglês Charles Babbage inventou qual peça instalada na frente das locomotivas?",
+        "resposta": "O limpa-trilhos"
+      },
+      "existentes": [
+        {
+          "id": "q01426",
+          "pergunta": "Quem é este matemático inglês do século dezenove?",
+          "resposta": "Charles Babbage"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ordem dos sobrenomes é fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: nome Atari vem do Go.",
+      "id_existente": "q01309"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: trocadilho Big Blue.",
+      "id_existente": "q18069"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Número de partidas é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Menor fração do bitcoin é fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Limite de moedas é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Abandono de Harvard é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "País do pai biológico é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Disputa com Apple Corps é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Logotipo original é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Canção cantada por HAL é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Previsão eleitoral é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Finalidade encomendada é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Local de construção é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Paciência ensinava a usar o mouse.",
+      "id_existente": "q01513"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Capacidade do disquete é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: ícone salvar é disquete.",
+      "id_existente": "q15696"
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Número de entradas de fone é outro fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Número de músicas prometidas é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "motivo": "Mesma arquiteta do orelhão.",
+      "id_existente": "q00897"
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Comparação de lançamento sem contexto claro; fato distinto."
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "motivo": "Mesma origem do nome QWERTY.",
+      "id_existente": "q03587"
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Século de criação é outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "motivo": "Mesma origem do nome mouse.",
+      "id_existente": "q18546"
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Servidor de Lego é outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "motivo": "Mesmo produto original da Nintendo.",
+      "id_existente": "q01346"
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Episódio da mariposa é distinto do significado de bug."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Invenção do limpa-trilhos é outro fato."
+    }
+  ]
+}

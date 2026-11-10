@@ -1,0 +1,397 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado (2 elevado a 8 = 256), distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome confirmada na fonte; resposta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma Integrated Electronics; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Comparação de data de fundação arbitrária, sem interesse e sem apoio nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moeda ao ar confirmada na fonte; curiosidade boa.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Atari é termo do Go; fonte menciona o contexto do Go e o fato é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trocadilho com Big Blue confirmado no artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma matches de seis partidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Sinal elétrico é mais lento que a luz; a distância de 30 cm corresponde à luz num nanossegundo.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "A programadora americana Grace Hopper distribuía fios de cerca de trinta centímetros, a distância que a luz percorre em quanto tempo?",
+        "resposta": "Um nanossegundo",
+        "distratores": [
+          "Um microssegundo",
+          "Um milissegundo",
+          "Um picossegundo"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Grace_Hopper"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Satoshi confirmado como menor unidade, nomeada em homenagem ao criador.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Limite de 21 milhões confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Trocadilho com What's up é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "Fonte diz que Koum e Acton se conheceram na Ernst & Young; o Yahoo foi onde trabalharam juntos.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Jan Koum e Brian Acton, que criaram o WhatsApp em 2009, trabalharam juntos por quase uma década em qual empresa de internet?",
+        "resposta": "Yahoo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Jan_Koum",
+          "https://en.wikipedia.org/wiki/WhatsApp"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem I Seek You confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mirabilis israelense confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos largaram Harvard; fato conhecido e conexão interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apple I: HP rejeitou o projeto, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pai biológico nascido na Síria, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Disputa com Apple Corps, dos Beatles, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro logo com Newton sob a macieira confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filha de Lord Byron, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "HAL canta Daisy Bell; IBM 1961 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "UNIVAC previu Eisenhower em 1952, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Livro de 1978 sobre C popularizou o Hello World.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tabelas de artilharia confirmadas no artigo em português; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construído na Universidade da Pensilvânia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Substituição pelo Skype em 2013 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais para voz; basta o essencial.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Além de distrair, o jogo de cartas Paciência foi incluído no Windows, em 1990, para ensinar os usuários a fazer o quê?",
+        "resposta": "Usar o mouse",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Microsoft_Solitaire"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Derrubada do voo KAL 007 motivou o anúncio, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "C criada para o Unix, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundado em Buenos Aires, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em português inexistente; manter apenas a fonte em inglês, que sustenta o fato.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "O Patinho Feio, um dos primeiros computadores feitos no Brasil, foi construído em 1972 em qual universidade?",
+        "resposta": "USP",
+        "distratores": [
+          "Unicamp",
+          "ITA",
+          "UFRJ"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Patinho_Feio"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1,44 MB como formato mais popular, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ícone de salvar como disquete, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Duas entradas no primeiro Walkman, confirmado em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Slogan de mil músicas no bolso é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "VHS criado pela JVC, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pix criado pelo Banco Central, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lançado em novembro de 2020, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Orelhão projetado por Chu Ming Silveira, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cassete (1963) precede disquete, VHS e CD; curiosidade razoável.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome vem das seis primeiras teclas da fileira superior.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Layout de 1868 a 1874, século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nome pelo fio parecido com rabo é documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Gabinete de Lego do servidor de Stanford é fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato fraco e impreciso: o Micro QR tem só um marcador, e a resposta é trivial.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cartas hanafuda, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "ELIZA simulava psicoterapeuta (script DOCTOR).",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mariposa no Mark II em 1947, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Babbage inventou o limpa-trilhos em 1838, confirmado.",
+      "reescrita": null
+    }
+  ]
+}
