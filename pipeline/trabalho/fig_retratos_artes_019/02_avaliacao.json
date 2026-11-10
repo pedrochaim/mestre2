@@ -1,0 +1,229 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro, sem texto; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritor inglês do século dezoito aparece neste retrato?",
+      "resposta": "Daniel Defoe",
+      "distratores": [
+        "Jonathan Swift",
+        "Samuel Richardson",
+        "Henry Fielding"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Daniel Defoe",
+        "descricao": "Escritor, jornalista e comerciante inglês, autor de Robinson Crusoé.",
+        "variantes": [
+          "Daniel Foe"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato famoso de Kuznetsov, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que compositor russo aparece neste retrato?",
+      "resposta": "Piotr Ilitch Tchaikovsky",
+      "distratores": [
+        "Modest Mussorgsky",
+        "Nikolai Rimsky-Korsakov",
+        "Aleksandr Borodin"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Piotr Ilitch Tchaikovsky",
+        "descricao": "Compositor russo do Romantismo, autor de O Lago dos Cisnes e O Quebra-Nozes.",
+        "variantes": [
+          "Tchaikovski",
+          "Pyotr Ilyich Tchaikovsky",
+          "Tchaikovsky"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto em close nítida, sem texto; rosto característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este maestro italiano foi o primeiro diretor musical de qual orquestra americana, de rádio, a partir de 1937?",
+      "resposta": "Orquestra Sinfônica da NBC",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Arturo Toscanini",
+        "descricao": "Maestro italiano, diretor do La Scala e da Orquestra Sinfônica da NBC.",
+        "variantes": [
+          "Toscanini"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas obras foi escrita pelo autor deste retrato?",
+      "resposta": "As Viagens de Gulliver",
+      "distratores": [
+        "Robinson Crusoé",
+        "Tom Jones",
+        "Pamela"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Jonathan Swift",
+        "descricao": "Escritor satírico anglo-irlandês, autor de As Viagens de Gulliver.",
+        "variantes": [
+          "Dean Swift"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto legível; óculos redondos característicos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escritor de língua alemã é este?",
+      "resposta": "Hermann Hesse",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Hermann Hesse",
+        "descricao": "Escritor germano-suíço, autor de Sidarta e O Lobo da Estepe.",
+        "variantes": [
+          "Herman Hesse"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Daguerreótipo nítido, sem texto; cantora figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que apelido tinha esta soprano do século dezenove?",
+      "resposta": "Rouxinol Sueco",
+      "distratores": [
+        "Cotovia Sueca",
+        "Rainha do Norte",
+        "Rouxinol de Viena"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Jenny Lind",
+        "descricao": "Soprano sueca do século dezenove, famosa por sua turnê nos Estados Unidos.",
+        "variantes": [
+          "Johanna Maria Lind"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e granulada de um jovem; não reconhecível como C. S. Lewis nem legível no celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que obra infantil, com narrador e orquestra, foi composta por este russo?",
+      "resposta": "Pedro e o Lobo",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Sergei Prokofiev",
+        "descricao": "Compositor, pianista e maestro russo do século vinte.",
+        "variantes": [
+          "Serguei Prokofiev",
+          "Prokofiev"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Close nítido em preto e branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que compositor húngaro é este?",
+      "resposta": "Béla Bartók",
+      "distratores": [
+        "Zoltán Kodály",
+        "György Ligeti",
+        "Franz Liszt"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Béla Bartók",
+        "descricao": "Compositor, pianista e etnomusicólogo húngaro do século vinte.",
+        "variantes": [
+          "Bela Bartok"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto minúscula e de baixa resolução, informal; ator não reconhecível com segurança nem legível no celular."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto histórica pequena mas legível, sem texto; rosto reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Que escritor e poeta de origem libanesa é este?",
+      "resposta": "Khalil Gibran",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Khalil Gibran",
+        "descricao": "Escritor, poeta e artista libanês-americano, autor de O Profeta.",
+        "variantes": [
+          "Kahlil Gibran",
+          "Jubrān Khalīl Jubrān"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato de Repin nítido; a assinatura no canto é do pintor, não identifica o retratado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que romance de 1862 foi escrito por este autor russo?",
+      "resposta": "Pais e Filhos",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ivan Turguêniev",
+        "descricao": "Romancista russo do realismo, autor de Pais e Filhos.",
+        "variantes": [
+          "Ivan Turgenev",
+          "Turguenev"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento por retrato, enunciado sem vazamento. Defoe escreveu seus romances no século dezoito. Distratores plausíveis e nenhum deles é Defoe.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de nacionalidade apenas ajuda. Distratores são compositores russos do mesmo grupo e nenhum é Tchaikovsky.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A orquestra foi criada em 1937 para Toscanini, que foi seu primeiro diretor musical. O enunciado não nomeia o maestro nem a orquestra, e o trecho confirma 1937.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As Viagens de Gulliver é de Swift. Os distratores são de Defoe, Fielding e Richardson, sem ambiguidade. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, reconhecimento direto. A pista \"língua alemã\" só ajuda. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O apelido está nos trechos (Rouxinol Sueca/Swedish Nightingale). O enunciado não entrega a pista, e os distratores são apelidos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: \"obra infantil com narrador e orquestra\" de um russo entrega Pedro e o Lobo sem olhar a figura. A reescrita tira a pista e passa a múltipla escolha, em que a figura é necessária.",
+      "reescrita": {
+        "pergunta": "Qual destas obras foi composta pelo russo deste retrato?",
+        "resposta": "Pedro e o Lobo",
+        "distratores": [
+          "O Quebra-Nozes",
+          "Quadros de uma Exposição",
+          "Scheherazade"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são compositores húngaros e nenhum é Bartók. Reconhecimento direto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de origem libanesa apenas ajuda. Resposta única diante do retrato.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Romance russo de 1862\" quase entrega Pais e Filhos sem a imagem, então a figura vira enfeite. A reescrita tira o ano e passa a múltipla escolha com romances russos de outros autores.",
+      "reescrita": {
+        "pergunta": "Qual destes romances foi escrito pelo autor russo deste retrato?",
+        "resposta": "Pais e Filhos",
+        "distratores": [
+          "Os Irmãos Karamázov",
+          "Anna Kariênina",
+          "Almas Mortas"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Daniel Defoe",
+        "descricao": "Escritor, jornalista e comerciante inglês, autor de Robinson Crusoé.",
+        "variantes": [
+          "Daniel Foe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico",
+            "Anel de Fogo do Pacífico"
+          ]
+        },
+        {
+          "id": "daniel_alves",
+          "nome": "Daniel Alves",
+          "descricao": "Lateral-direito brasileiro, um dos jogadores mais premiados da história do futebol.",
+          "variantes": [
+            "Dani Alves",
+            "Daniel Alves da Silva"
+          ]
+        },
+        {
+          "id": "daniel_dias",
+          "nome": "Daniel Dias",
+          "descricao": "Nadador paralímpico brasileiro, multimedalhista entre 2008 e 2020.",
+          "variantes": []
+        },
+        {
+          "id": "daniel_radcliffe",
+          "nome": "Daniel Radcliffe",
+          "descricao": "Ator inglês nascido em 1989, famoso por interpretar Harry Potter no cinema.",
+          "variantes": []
+        },
+        {
+          "id": "panela_de_cobre",
+          "nome": "Panela de cobre",
+          "descricao": "Panela feita de cobre, valorizada na alta cozinha por distribuir o calor de forma rápida e uniforme.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Piotr Ilitch Tchaikovsky",
+        "descricao": "Compositor russo do Romantismo, autor de O Lago dos Cisnes e O Quebra-Nozes.",
+        "variantes": [
+          "Tchaikovski",
+          "Pyotr Ilyich Tchaikovsky",
+          "Tchaikovsky"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "konstantin_tsiolkovsky",
+          "nome": "Konstantin Tsiolkovsky",
+          "descricao": "Cientista russo, pioneiro da astronáutica e da teoria dos foguetes.",
+          "variantes": [
+            "Konstantin Tsiolkovski",
+            "Ciolkovski"
+          ]
+        },
+        {
+          "id": "takoyaki",
+          "nome": "Takoyaki",
+          "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+          "variantes": [
+            "Bolinho de polvo"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "estadio_krestovsky",
+          "nome": "Estádio Krestovsky",
+          "descricao": "Estádio de teto retrátil na ilha Krestovsky, em São Petersburgo, Rússia, casa do Zenit e sede da Copa de 2018.",
+          "variantes": [
+            "Krestovsky Stadium",
+            "Gazprom Arena",
+            "Estádio de São Petersburgo"
+          ]
+        },
+        {
+          "id": "konstantin_stanislavski",
+          "nome": "Konstantin Stanislavski",
+          "descricao": "Ator e diretor de teatro russo (1863–1938), criador do 'sistema' de preparação de atores e cofundador do Teatro de Arte de Moscou.",
+          "variantes": [
+            "Constantin Stanislavski",
+            "Stanislávski"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Arturo Toscanini",
+        "descricao": "Maestro italiano, diretor do La Scala e da Orquestra Sinfônica da NBC.",
+        "variantes": [
+          "Toscanini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_tocantins",
+          "nome": "Rio Tocantins",
+          "descricao": "Rio brasileiro que nasce em Goiás, atravessa o estado do Tocantins e deságua perto de Belém, no Pará.",
+          "variantes": [
+            "Tocantins",
+            "Tocantins River"
+          ]
+        },
+        {
+          "id": "tocantins",
+          "nome": "Tocantins",
+          "descricao": "Estado da Região Norte do Brasil, criado pela Constituição de 1988, com capital em Palmas.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_tocantins",
+          "nome": "Bandeira do Tocantins",
+          "descricao": "Bandeira do estado brasileiro do Tocantins, com faixas diagonais azul, branca e amarela e um sol amarelo ao centro.",
+          "variantes": [
+            "Tocantins"
+          ]
+        },
+        {
+          "id": "tosca",
+          "nome": "Tosca",
+          "descricao": "Ópera de Giacomo Puccini, estreada em Roma em 1900, sobre a cantora Floria Tosca, o pintor Cavaradossi e o chefe de polícia Scarpia.",
+          "variantes": [
+            "Tosca (ópera)"
+          ]
+        },
+        {
+          "id": "balaclava",
+          "nome": "Balaclava",
+          "descricao": "Gorro de lã que cobre a cabeça e o pescoço, deixando só o rosto ou os olhos de fora",
+          "variantes": [
+            "Balaclava (gorro)",
+            "Touca ninja"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Jonathan Swift",
+        "descricao": "Escritor satírico anglo-irlandês, autor de As Viagens de Gulliver.",
+        "variantes": [
+          "Dean Swift"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dana_white",
+          "nome": "Dana White",
+          "descricao": "Empresário americano, presidente do Ultimate Fighting Championship (UFC) desde 2001.",
+          "variantes": [
+            "Dana Frederick White Jr."
+          ]
+        },
+        {
+          "id": "jon_jones",
+          "nome": "Jon Jones",
+          "descricao": "Lutador americano de MMA, campeão dos meio-pesados e dos pesados do UFC.",
+          "variantes": [
+            "Jonathan Dwight Jones",
+            "Bones"
+          ]
+        },
+        {
+          "id": "swift",
+          "nome": "Swift",
+          "descricao": "Golpe de pokémon do tipo Normal, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "johnny_cage",
+          "nome": "Johnny Cage",
+          "descricao": "Ator e artista marcial de óculos escuros, lutador da série Mortal Kombat.",
+          "variantes": [
+            "Jonathan Carlton"
+          ]
+        },
+        {
+          "id": "terno_zhongshan",
+          "nome": "Terno Zhongshan",
+          "descricao": "Traje chinês de túnica com gola fechada, conhecido no Ocidente como terno Mao",
+          "variantes": [
+            "Terno Mao",
+            "Zhongshan suit",
+            "Mao suit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hermann Hesse",
+        "descricao": "Escritor germano-suíço, autor de Sidarta e O Lobo da Estepe.",
+        "variantes": [
+          "Herman Hesse"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "han",
+          "nome": "Han",
+          "descricao": "Grupo étnico majoritário da China, também presente em Taiwan e em comunidades pelo mundo.",
+          "variantes": [
+            "Chineses han",
+            "Etnia han",
+            "Han Chinese"
+          ]
+        },
+        {
+          "id": "hermes",
+          "nome": "Hermès",
+          "descricao": "Grife francesa de artigos de luxo fundada em Paris em 1837 por Thierry Hermès",
+          "variantes": [
+            "Hermès International"
+          ]
+        },
+        {
+          "id": "hermes_2",
+          "nome": "Hermes",
+          "descricao": "Deus grego mensageiro do Olimpo, protetor dos viajantes, dos comerciantes e dos ladrões.",
+          "variantes": [
+            "Mercúrio"
+          ]
+        },
+        {
+          "id": "herman_melville",
+          "nome": "Herman Melville",
+          "descricao": "Escritor americano do século dezenove, autor de Moby Dick.",
+          "variantes": [
+            "Melville"
+          ]
+        },
+        {
+          "id": "herman_hollerith",
+          "nome": "Herman Hollerith",
+          "descricao": "Inventor americano (1860–1929) das máquinas tabuladoras de cartões perfurados usadas no censo dos Estados Unidos de 1890.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Jenny Lind",
+        "descricao": "Soprano sueca do século dezenove, famosa por sua turnê nos Estados Unidos.",
+        "variantes": [
+          "Johanna Maria Lind"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hannah_arendt",
+          "nome": "Hannah Arendt",
+          "descricao": "Pensadora política alemã naturalizada americana (1906–1975), autora de Origens do Totalitarismo e Eichmann em Jerusalém.",
+          "variantes": [
+            "Johanna Arendt"
+          ]
+        },
+        {
+          "id": "lang_ping",
+          "nome": "Lang Ping",
+          "descricao": "Ex-jogadora e técnica chinesa de vôlei, campeã olímpica como atleta em 1984 e como treinadora em 2016.",
+          "variantes": [
+            "Jenny Lang Ping"
+          ]
+        },
+        {
+          "id": "maria_ii_de_portugal",
+          "nome": "Maria II de Portugal",
+          "descricao": "Rainha de Portugal no século dezenove, filha mais velha de Dom Pedro I e da imperatriz Leopoldina.",
+          "variantes": [
+            "Maria da Glória",
+            "Dona Maria II"
+          ]
+        },
+        {
+          "id": "joao_calvino",
+          "nome": "João Calvino",
+          "descricao": "Teólogo francês do século dezesseis, líder da Reforma Protestante e fundador do calvinismo.",
+          "variantes": [
+            "Jean Calvin",
+            "John Calvin",
+            "Calvino"
+          ]
+        },
+        {
+          "id": "jochen_rindt",
+          "nome": "Jochen Rindt",
+          "descricao": "Piloto austríaco da Lotus, campeão mundial de Fórmula 1 de 1970, morto em Monza naquele ano.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sergei Prokofiev",
+        "descricao": "Compositor, pianista e maestro russo do século vinte.",
+        "variantes": [
+          "Serguei Prokofiev",
+          "Prokofiev"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sergei_korolev",
+          "nome": "Sergei Korolev",
+          "descricao": "Engenheiro soviético de foguetes que liderou o programa espacial da União Soviética nos primeiros anos da corrida espacial.",
+          "variantes": [
+            "Sergei Koroliov",
+            "Sergey Korolyov"
+          ]
+        },
+        {
+          "id": "sergey_brin",
+          "nome": "Sergey Brin",
+          "descricao": "Cientista da computação e empresário americano nascido na Rússia, cofundador do Google com Larry Page.",
+          "variantes": [
+            "Sergey Mikhailovich Brin",
+            "Serguei Brin"
+          ]
+        },
+        {
+          "id": "sergio_perez",
+          "nome": "Sergio Pérez",
+          "descricao": "Piloto mexicano de Fórmula 1, vice-campeão mundial em 2023 pela Red Bull.",
+          "variantes": [
+            "Checo Pérez"
+          ]
+        },
+        {
+          "id": "procarionte",
+          "nome": "Procarionte",
+          "descricao": "Organismo unicelular sem núcleo delimitado por membrana, como bactérias e arqueias.",
+          "variantes": [
+            "Procarioto",
+            "Prokaryote"
+          ]
+        },
+        {
+          "id": "krookodile",
+          "nome": "Krookodile",
+          "descricao": "Pokémon dos tipos Terrestre e Sombrio, número 553 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Béla Bartók",
+        "descricao": "Compositor, pianista e etnomusicólogo húngaro do século vinte.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ulan_bator",
+          "nome": "Ulan Bator",
+          "descricao": "Capital e maior cidade da Mongólia.",
+          "variantes": [
+            "Ulaanbaatar",
+            "Ulã Bator",
+            "Urga"
+          ]
+        },
+        {
+          "id": "lima_barreto",
+          "nome": "Lima Barreto",
+          "descricao": "Romancista e cronista carioca (1881–1922), autor de Triste Fim de Policarpo Quaresma.",
+          "variantes": [
+            "Afonso Henriques de Lima Barreto"
+          ]
+        },
+        {
+          "id": "leila_barros",
+          "nome": "Leila Barros",
+          "descricao": "Ex-jogadora brasileira de vôlei de quadra e de praia, medalhista olímpica e depois política.",
+          "variantes": [
+            "Leila do Vôlei",
+            "Leila Gomes de Barros Rêgo"
+          ]
+        },
+        {
+          "id": "jebel_barkal",
+          "nome": "Jebel Barkal",
+          "descricao": "Montanha de topo plano perto de Karima, no Sudão, sagrada para o antigo reino de Cuxe e para os egípcios, Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Gebel Barkal",
+            "Jebel Barcal"
+          ]
+        },
+        {
+          "id": "stella_artois",
+          "nome": "Stella Artois",
+          "descricao": "Marca de cerveja belga originária da cidade de Leuven.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Khalil Gibran",
+        "descricao": "Escritor, poeta e artista libanês-americano, autor de O Profeta.",
+        "variantes": [
+          "Kahlil Gibran",
+          "Jubrān Khalīl Jubrān"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "beluga",
+          "nome": "Beluga",
+          "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+          "variantes": [
+            "Baleia-branca",
+            "Delphinapterus leucas",
+            "Beluga whale"
+          ]
+        },
+        {
+          "id": "charlie_brown",
+          "nome": "Charlie Brown",
+          "descricao": "Protagonista da tira de quadrinhos Peanuts, menino de camiseta amarela com zigue-zague preto.",
+          "variantes": [
+            "Charles Brown",
+            "Chuck",
+            "Carlinhos"
+          ]
+        },
+        {
+          "id": "o_guarani_2",
+          "nome": "O Guarani",
+          "descricao": "Ópera de Carlos Gomes baseada no romance de José de Alencar, estreada em 1870.",
+          "variantes": [
+            "Il Guarany",
+            "Il Guarani"
+          ]
+        },
+        {
+          "id": "lanterna_verde",
+          "nome": "Lanterna Verde",
+          "descricao": "Super-herói da DC Comics que usa um anel de poder; na versão clássica, o piloto Hal Jordan",
+          "variantes": [
+            "Green Lantern",
+            "Hal Jordan"
+          ]
+        },
+        {
+          "id": "mikhail_gorbachev",
+          "nome": "Mikhail Gorbachev",
+          "descricao": "Último líder da União Soviética, secretário-geral do Partido Comunista de 1985 a 1991.",
+          "variantes": [
+            "Mikhail Gorbatchov",
+            "Mikhail Sergeyevich Gorbachev"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ivan Turguêniev",
+        "descricao": "Romancista russo do realismo, autor de Pais e Filhos.",
+        "variantes": [
+          "Ivan Turgenev",
+          "Turguenev"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tuaregues",
+          "nome": "Tuaregues",
+          "descricao": "Povo berbere nômade do deserto do Saara e do Sahel.",
+          "variantes": [
+            "Tuareg",
+            "Tuaregs",
+            "Kel Tamasheq"
+          ]
+        },
+        {
+          "id": "ivan_o_terrivel",
+          "nome": "Ivan, o Terrível",
+          "descricao": "Ivan IV, grão-príncipe de Moscou a partir de 1533 e coroado czar de toda a Rússia em 1547.",
+          "variantes": [
+            "Ivan IV",
+            "Ivan Grozny"
+          ]
+        },
+        {
+          "id": "selecao_croata_de_futebol",
+          "nome": "Seleção Croata de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Vatreni",
+            "Seleção da Croácia"
+          ]
+        },
+        {
+          "id": "gola_rule",
+          "nome": "Gola rulê",
+          "descricao": "Gola alta e justa que se dobra e cobre o pescoço, comum em suéteres.",
+          "variantes": [
+            "Gola alta",
+            "Gola olímpica",
+            "Turtleneck",
+            "Polo neck"
+          ]
+        },
+        {
+          "id": "tyrogue",
+          "nome": "Tyrogue",
+          "descricao": "Pokémon do tipo Lutador, número 236 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Daniel Defoe."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tchaikovsky."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Toscanini."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Jonathan Swift."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Hermann Hesse."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Jenny Lind."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Prokofiev."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Béla Bartók."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Khalil Gibran."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Turguêniev."
+    }
+  ]
+}
