@@ -1,0 +1,107 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Polônia"
+      },
+      "existentes": [
+        {
+          "id": "q14573",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Varsóvia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que país da América Central está destacado neste mapa?",
+        "resposta": "Belize"
+      },
+      "existentes": [
+        {
+          "id": "q13573",
+          "pergunta": "Cercado de vizinhos que falam espanhol, Belize é o país da América Central com o inglês como língua oficial. Por quê?",
+          "resposta": "Foi colônia britânica"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Gaborone"
+      },
+      "existentes": [
+        {
+          "id": "q14797",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Gaborone"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Zâmbia"
+      },
+      "existentes": [
+        {
+          "id": "q14579",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Lusaka"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Victoria"
+      },
+      "existentes": [
+        {
+          "id": "q01291",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Seicheles"
+        },
+        {
+          "id": "q19351",
+          "pergunta": "Em que país insular do oceano Índico fica esta praia?",
+          "resposta": "Seicheles"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa é diferente de perguntar a capital pela bandeira."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar Belize no mapa é diferente de perguntar por que o inglês é a língua oficial."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q14797",
+      "motivo": "Ambas perguntam a capital de Botsuana (Gaborone), só muda a pista visual."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa é diferente de perguntar a capital pela bandeira."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A capital é um fato diferente de identificar a bandeira ou a praia."
+    }
+  ]
+}

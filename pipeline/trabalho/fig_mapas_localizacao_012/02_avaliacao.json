@@ -1,0 +1,249 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro, país em verde escuro, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Polônia",
+      "distratores": [
+        "Lituânia",
+        "Tchéquia",
+        "Ucrânia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Polônia",
+        "descricao": "País da Europa Central, com capital em Varsóvia.",
+        "variantes": [
+          "Polonia",
+          "República da Polônia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "País pequeno mas bem delimitado no mapa da Europa; capital é fato de segundo passo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Bratislava",
+      "distratores": [
+        "Praga",
+        "Budapeste",
+        "Liubliana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Eslováquia",
+        "descricao": "País sem litoral da Europa Central, vizinho da Polônia, Hungria e Áustria.",
+        "variantes": [
+          "Slovakia",
+          "República Eslovaca"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Brunei é minúsculo e só aparece dentro de um círculo vermelho sobre Bornéu; a área marcada cobre também a Malásia, então a resposta não é única nem legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Senegal bem visível no globo, com o recorte da Gâmbia reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país africano está destacado neste mapa?",
+      "resposta": "Senegal",
+      "distratores": [
+        "Mauritânia",
+        "Mali",
+        "Guiné"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Senegal",
+        "descricao": "País da África Ocidental, na costa atlântica, com capital em Dacar.",
+        "variantes": [
+          "República do Senegal"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Formato do Níger reconhecível no globo, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Níger",
+      "distratores": [
+        "Mali",
+        "Chade",
+        "Nigéria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Níger",
+        "descricao": "País sem litoral da África Ocidental, com capital em Niamei.",
+        "variantes": [
+          "Niger",
+          "República do Níger"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "País pequeno, mas o detalhe ampliado mostra o formato e a posição na América Central.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país da América Central está destacado neste mapa?",
+      "resposta": "Belize",
+      "distratores": [
+        "Guatemala",
+        "Honduras",
+        "El Salvador"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Belize",
+        "descricao": "País da costa caribenha da América Central, vizinho do México e da Guatemala.",
+        "variantes": [
+          "Belice"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Botsuana em verde, posição clara no sul da África; capital como segundo passo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Gaborone",
+      "distratores": [
+        "Windhoek",
+        "Lusaca",
+        "Harare"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Botsuana",
+        "descricao": "País sem litoral do sul da África, em grande parte coberto pelo deserto do Kalahari.",
+        "variantes": [
+          "Botswana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estônia com ilhas visíveis, localização báltica clara.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Estônia",
+      "distratores": [
+        "Letônia",
+        "Lituânia",
+        "Finlândia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estônia",
+        "descricao": "País báltico do norte da Europa, com capital em Tallinn.",
+        "variantes": [
+          "Estonia",
+          "República da Estônia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Arquipélago minúsculo, marcado por três círculos vermelhos no Pacífico; não é legível no celular e não se distingue de outras ilhas da Micronésia, então a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Zâmbia em vermelho, formato característico e bem legível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Zâmbia",
+      "distratores": [
+        "Zimbábue",
+        "Malaui",
+        "Angola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Zâmbia",
+        "descricao": "País sem litoral do sul da África, com capital em Lusaca.",
+        "variantes": [
+          "Zambia",
+          "República da Zâmbia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Romênia bem delimitada no mapa europeu, vizinhos parecidos como distratores.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país europeu está destacado neste mapa?",
+      "resposta": "Romênia",
+      "distratores": [
+        "Bulgária",
+        "Hungria",
+        "Ucrânia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Romênia",
+        "descricao": "País da Europa Central e Oriental banhado pelo mar Negro, com capital em Bucareste.",
+        "variantes": [
+          "Romania"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arquipélago no oceano Índico, mostrado em detalhe ampliado; a pergunta pela capital exige reconhecer o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Victoria",
+      "distratores": [
+        "Port Louis",
+        "Malé",
+        "Moroni"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seicheles",
+        "descricao": "País insular do oceano Índico, ao norte de Madagascar, formado por 115 ilhas.",
+        "variantes": [
+          "Seychelles"
+        ]
+      }
+    }
+  ]
+}

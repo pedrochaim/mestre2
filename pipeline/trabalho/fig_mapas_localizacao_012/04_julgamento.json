@@ -1,0 +1,606 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Polônia",
+        "descricao": "País da Europa Central, com capital em Varsóvia.",
+        "variantes": [
+          "República da Polônia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polonia",
+          "nome": "Polônia",
+          "descricao": "País da Europa Central, com capital em Varsóvia, cuja bandeira é bicolor, branca em cima e vermelha embaixo.",
+          "variantes": [
+            "Poland",
+            "República da Polônia"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "moldavia",
+          "nome": "Moldávia",
+          "descricao": "País sem litoral do Leste Europeu entre a Romênia e a Ucrânia, com capital em Chisinau.",
+          "variantes": [
+            "Moldova",
+            "República da Moldávia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Eslováquia",
+        "descricao": "País sem litoral da Europa Central, vizinho da Polônia, Hungria e Áustria.",
+        "variantes": [
+          "Slovakia",
+          "República Eslovaca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_eslovaquia",
+          "nome": "Bandeira da Eslováquia",
+          "descricao": "Bandeira da Eslováquia, tricolor branco, azul e vermelho com brasão de cruz dupla sobre três montes.",
+          "variantes": [
+            "Eslováquia"
+          ]
+        },
+        {
+          "id": "brasao_da_eslovaquia",
+          "nome": "Brasão da Eslováquia",
+          "descricao": "Brasão de armas da Eslováquia, com cruz dupla branca sobre três colinas azuis em escudo vermelho.",
+          "variantes": [
+            "Eslováquia",
+            "Escudo da Eslováquia"
+          ]
+        },
+        {
+          "id": "grecia",
+          "nome": "Grécia",
+          "descricao": "País do sul da Europa, na península Balcânica, com capital em Atenas.",
+          "variantes": [
+            "Greece",
+            "República Helênica"
+          ]
+        },
+        {
+          "id": "republica_tcheca",
+          "nome": "República Tcheca",
+          "descricao": "País sem litoral da Europa Central, antiga Boêmia, com capital em Praga.",
+          "variantes": [
+            "Tchéquia",
+            "Chéquia"
+          ]
+        },
+        {
+          "id": "republica_romana",
+          "nome": "República Romana",
+          "descricao": "Período da história de Roma governado por magistrados eleitos e pelo Senado, entre a queda da monarquia e o início do Império.",
+          "variantes": [
+            "Roman Republic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Senegal",
+        "descricao": "País da África Ocidental, na costa atlântica, com capital em Dacar.",
+        "variantes": [
+          "República do Senegal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_senegal",
+          "nome": "Bandeira do Senegal",
+          "descricao": "Bandeira nacional do Senegal, tricolor vertical verde, amarela e vermelha com estrela verde central.",
+          "variantes": [
+            "Senegal",
+            "Bandeira senegalesa"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "vietna_do_sul",
+          "nome": "Vietnã do Sul",
+          "descricao": "República do Vietnã, país do Sudeste Asiático aliado do Ocidente que existiu de 1955 a 1975.",
+          "variantes": [
+            "República do Vietnã",
+            "Vietname do Sul"
+          ]
+        },
+        {
+          "id": "republica_de_veneza",
+          "nome": "República de Veneza",
+          "descricao": "Antiga república marítima italiana com capital em Veneza, existente de 697 a 1797.",
+          "variantes": [
+            "Sereníssima República de Veneza",
+            "La Serenissima"
+          ]
+        },
+        {
+          "id": "mali",
+          "nome": "Mali",
+          "descricao": "País sem litoral da África Ocidental, com capital em Bamako.",
+          "variantes": [
+            "República do Mali"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Níger",
+        "descricao": "País sem litoral da África Ocidental, com capital em Niamei.",
+        "variantes": [
+          "República do Níger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_niger",
+          "nome": "Bandeira do Níger",
+          "descricao": "Bandeira atual do Níger: faixas horizontais laranja, branca e verde, com um círculo laranja no centro da faixa branca.",
+          "variantes": [
+            "Níger",
+            "Bandeira da República do Níger"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        },
+        {
+          "id": "nigeria",
+          "nome": "Nigéria",
+          "descricao": "País da África Ocidental, no golfo da Guiné, com capital em Abuja.",
+          "variantes": []
+        },
+        {
+          "id": "zaire",
+          "nome": "Zaire",
+          "descricao": "Nome oficial da atual República Democrática do Congo de 1971 a 1997, sob o regime de Mobutu.",
+          "variantes": [
+            "República do Zaire"
+          ]
+        },
+        {
+          "id": "benim",
+          "nome": "Benim",
+          "descricao": "País da África Ocidental, antiga colônia francesa, chamado Daomé até 1975.",
+          "variantes": [
+            "Benin",
+            "República do Benim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Belize",
+        "descricao": "País da costa caribenha da América Central, vizinho do México e da Guatemala.",
+        "variantes": [
+          "Belice"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_belize",
+          "nome": "Bandeira de Belize",
+          "descricao": "Bandeira nacional atual de Belize, azul com faixas vermelhas no alto e embaixo e o brasão num disco branco central.",
+          "variantes": [
+            "Belize",
+            "Bandeira belizenha"
+          ]
+        },
+        {
+          "id": "belize",
+          "nome": "Belize",
+          "descricao": "País da América Central, no litoral do Caribe, vizinho do México e da Guatemala.",
+          "variantes": [
+            "Honduras Britânicas"
+          ]
+        },
+        {
+          "id": "belgica",
+          "nome": "Bélgica",
+          "descricao": "Reino da Europa Ocidental, vizinho da Holanda, Alemanha, Luxemburgo e França.",
+          "variantes": [
+            "Belgium",
+            "Reino da Bélgica"
+          ]
+        },
+        {
+          "id": "boliche",
+          "nome": "Boliche",
+          "descricao": "Boliche de dez pinos, jogo em que se rola uma bola pesada por uma pista para derrubar dez pinos.",
+          "variantes": [
+            "Ten-pin bowling",
+            "Bowling"
+          ]
+        },
+        {
+          "id": "blitzle",
+          "nome": "Blitzle",
+          "descricao": "Pokémon do tipo Elétrico, número 522 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Botsuana",
+        "descricao": "País sem litoral do sul da África, em grande parte coberto pelo deserto do Kalahari.",
+        "variantes": [
+          "Botswana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "botsuana",
+          "nome": "Botsuana",
+          "descricao": "País sem litoral do sul da África, de capital Gaborone, em grande parte coberto pelo deserto do Kalahari.",
+          "variantes": [
+            "Botswana",
+            "República do Botsuana"
+          ]
+        },
+        {
+          "id": "boiuna",
+          "nome": "Boiuna",
+          "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+          "variantes": [
+            "Cobra Grande"
+          ]
+        },
+        {
+          "id": "swanna",
+          "nome": "Swanna",
+          "descricao": "Pokémon dos tipos Água e Voador, número 581 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "boitata",
+          "nome": "Boitatá",
+          "descricao": "Ser do folclore brasileiro em forma de serpente de fogo que protege os campos contra quem os incendeia.",
+          "variantes": [
+            "Baitatá",
+            "Mboitatá",
+            "Batatão"
+          ]
+        },
+        {
+          "id": "tsunami",
+          "nome": "Tsunami",
+          "descricao": "Série de ondas oceânicas gigantes provocadas por deslocamento súbito de água, em geral por terremotos submarinos.",
+          "variantes": [
+            "Maremoto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Estônia",
+        "descricao": "País báltico do norte da Europa, com capital em Tallinn.",
+        "variantes": [
+          "República da Estônia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_estonia",
+          "nome": "Bandeira da Estônia",
+          "descricao": "Bandeira nacional da Estônia, tricolor horizontal azul, preta e branca.",
+          "variantes": [
+            "Estônia",
+            "Bandeira estoniana"
+          ]
+        },
+        {
+          "id": "brasao_da_estonia",
+          "nome": "Brasão da Estônia",
+          "descricao": "Brasão de armas da Estônia, com três leões azuis sobre escudo dourado, ladeado por ramos de carvalho.",
+          "variantes": [
+            "Estônia",
+            "Escudo da Estônia"
+          ]
+        },
+        {
+          "id": "letonia",
+          "nome": "Letônia",
+          "descricao": "País báltico do norte da Europa, entre a Estônia e a Lituânia, cuja capital é Riga.",
+          "variantes": [
+            "Latvia"
+          ]
+        },
+        {
+          "id": "austria",
+          "nome": "Áustria",
+          "descricao": "País sem litoral da Europa Central, nos Alpes orientais, com capital em Viena.",
+          "variantes": [
+            "República da Áustria"
+          ]
+        },
+        {
+          "id": "georgia_pais",
+          "nome": "Geórgia (país)",
+          "descricao": "País do Cáucaso, com capital em Tbilisi, cuja bandeira é uma grande cruz vermelha com quatro cruzes menores sobre fundo branco.",
+          "variantes": [
+            "Geórgia",
+            "Georgia",
+            "República da Geórgia",
+            "Sakartvelo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Zâmbia",
+        "descricao": "País sem litoral do sul da África, com capital em Lusaca.",
+        "variantes": [
+          "República da Zâmbia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "zambia",
+          "nome": "Zâmbia",
+          "descricao": "País sem litoral da África Austral, com capital em Lusaka, cuja bandeira é verde com uma águia e faixas vermelha, preta e laranja.",
+          "variantes": [
+            "República da Zâmbia"
+          ]
+        },
+        {
+          "id": "namibia",
+          "nome": "Namíbia",
+          "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+          "variantes": [
+            "República da Namíbia"
+          ]
+        },
+        {
+          "id": "armenia",
+          "nome": "Armênia",
+          "descricao": "País sem litoral do Cáucaso, na Ásia Ocidental, com capital em Yerevan.",
+          "variantes": [
+            "República da Armênia"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Romênia",
+        "descricao": "País da Europa Central e Oriental banhado pelo mar Negro, com capital em Bucareste.",
+        "variantes": [
+          "Romania"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasao_da_romenia",
+          "nome": "Brasão da Romênia",
+          "descricao": "Brasão de armas da Romênia, uma águia dourada coroada que segura espada e maça, com escudo de cinco brasões regionais.",
+          "variantes": [
+            "Romênia",
+            "Armas da Romênia"
+          ]
+        },
+        {
+          "id": "povo_cigano",
+          "nome": "Povo cigano",
+          "descricao": "Povo romani, de origem no norte do subcontinente indiano, espalhado pela Europa e pelas Américas.",
+          "variantes": [
+            "Romani",
+            "Roma",
+            "Ciganos",
+            "Rom"
+          ]
+        },
+        {
+          "id": "bandeira_da_armenia",
+          "nome": "Bandeira da Armênia",
+          "descricao": "Bandeira nacional da Armênia, tricolor horizontal vermelha, azul e laranja.",
+          "variantes": [
+            "Armênia",
+            "Bandeira armênia"
+          ]
+        },
+        {
+          "id": "brasao_da_armenia",
+          "nome": "Brasão da Armênia",
+          "descricao": "Brasão de armas da Armênia, com águia e leão sustentando escudo com o monte Ararate.",
+          "variantes": [
+            "Armênia",
+            "Armas da Armênia"
+          ]
+        },
+        {
+          "id": "armenia",
+          "nome": "Armênia",
+          "descricao": "País sem litoral do Cáucaso, na Ásia Ocidental, com capital em Yerevan.",
+          "variantes": [
+            "República da Armênia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Seicheles",
+        "descricao": "País insular do oceano Índico, ao norte de Madagascar, formado por 115 ilhas.",
+        "variantes": [
+          "Seychelles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "seicheles",
+          "nome": "Seicheles",
+          "descricao": "País arquipelágico de 115 ilhas no Oceano Índico, a leste da África continental, cuja capital é Victoria.",
+          "variantes": [
+            "Seychelles",
+            "República das Seicheles"
+          ]
+        },
+        {
+          "id": "ceviche",
+          "nome": "Ceviche",
+          "descricao": "Prato frio de peixe ou frutos do mar crus marinados em suco cítrico, prato nacional do Peru.",
+          "variantes": [
+            "Cebiche",
+            "Seviche",
+            "Sebiche"
+          ]
+        },
+        {
+          "id": "ossiculos_do_ouvido_medio",
+          "nome": "Ossículos do ouvido médio",
+          "descricao": "Três pequenos ossos do ouvido médio que transmitem o som ao ouvido interno.",
+          "variantes": [
+            "Ossículos da audição",
+            "Ossicles"
+          ]
+        },
+        {
+          "id": "pericles",
+          "nome": "Péricles",
+          "descricao": "Estadista e general ateniense do século cinco a.C., líder de Atenas no auge da democracia.",
+          "variantes": []
+        },
+        {
+          "id": "shellos",
+          "nome": "Shellos",
+          "descricao": "Pokémon do tipo Água, número 422 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "polonia",
+      "motivo": "Mesmo país, Polônia, capital Varsóvia."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Candidatas são bandeira e brasão, não o país; nenhum país Eslováquia cadastrado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Só há a bandeira do Senegal, não o país."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Só há a bandeira do Níger; Nigéria é outro país."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "belize",
+      "motivo": "Mesmo país Belize, com mesma descrição."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "botsuana",
+      "motivo": "Mesmo país, Botsuana/Botswana."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Candidatas são bandeira e brasão; Letônia é outro país."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "zambia",
+      "motivo": "Mesmo país, Zâmbia, capital Lusaka."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Candidatas são brasão da Romênia e outras entidades; o país não está cadastrado."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "seicheles",
+      "motivo": "Mesmo país arquipélago no Índico."
+    }
+  ]
+}
