@@ -1,0 +1,173 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Batata assada aberta com bacon e milho, clara e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Como este prato é chamado no Reino Unido?",
+      "resposta": "Jacket potato",
+      "distratores": [
+        "Hasselback potato",
+        "Mashed potato",
+        "Bubble and squeak"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Batata assada",
+        "descricao": "Preparação de batata assada inteira com a casca, servida recheada ou com coberturas.",
+        "variantes": [
+          "Baked potato",
+          "Jacket potato"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Cilindros de carne grelhados com pimentas em conserva lembram ćevapi/mici balcânicos; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Caldo avermelhado com frango e abacate, sem o milho hominy visível; pode ser confundido com outras sopas mexicanas."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Sopa de frango com cenoura sem arroz visível; pode ser qualquer sopa de galinha, resposta não única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A placa 'Carne de sol maturada' entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Hotteok sendo prensado na chapa, reconhecível pelo preparo; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lanche doce de rua sul-coreano está sendo preparado nesta chapa?",
+      "resposta": "Hotteok",
+      "distratores": [
+        "Bungeoppang",
+        "Gyeranppang",
+        "Dorayaki"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hotteok",
+        "descricao": "Panqueca recheada, doce, típica da comida de rua da Coreia do Sul.",
+        "variantes": [
+          "Hoeddeok"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A placa 'Vin chaud' entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pão trançado que pode ser confundido com chalá ou outro pão de forma; resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Dosa enrolada com sambar e chutney, bem reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato indiano é este, servido com molhos?",
+      "resposta": "Dosa",
+      "distratores": [
+        "Uttapam",
+        "Paratha",
+        "Roti"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dosa",
+        "descricao": "Crepe fino e crocante de massa fermentada de arroz e lentilha, típico do sul da Índia.",
+        "variantes": [
+          "Thosai",
+          "Dosai"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Espiga de milho cozida em papel alumínio, nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que alimento é este?",
+      "resposta": "Milho",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Milho cozido",
+        "descricao": "Espiga de milho verde cozida ou assada, comida diretamente da espiga.",
+        "variantes": [
+          "Espiga de milho",
+          "Corn on the cob"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fatia com banana, caramelo e chantilly, característica da banoffee.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sobremesa inglesa é esta?",
+      "resposta": "Torta banoffee",
+      "distratores": [
+        "Torta de maçã",
+        "Cheesecake",
+        "Torta de limão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Torta banoffee",
+        "descricao": "Torta inglesa de banana, doce de leite ou caramelo e chantilly.",
+        "variantes": [
+          "Banoffee pie",
+          "Banoffi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Tigela de bebida leitosa; o texto coreano na tigela não nomeia a bebida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bebida alcoólica coreana é esta?",
+      "resposta": "Makgeolli",
+      "distratores": [
+        "Soju",
+        "Sikhye",
+        "Cheongju"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Makgeolli",
+        "descricao": "Vinho de arroz coreano, leitoso, levemente espumante e de baixo teor alcoólico.",
+        "variantes": [
+          "Makkoli",
+          "Dongdongju"
+        ]
+      }
+    }
+  ]
+}

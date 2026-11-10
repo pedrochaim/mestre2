@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que no Reino Unido a batata assada se chama jacket potato. O enunciado não vaza a resposta e os distratores são pratos de batata ou britânicos, nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o hotteok é um lanche doce de rua sul-coreano. Mas \"sendo preparado nesta chapa\" afirma algo sobre a foto que `mostra` não garante. Basta tirar essa parte do enunciado.",
+      "reescrita": {
+        "pergunta": "Que lanche doce de rua sul-coreano é este?",
+        "resposta": "Hotteok",
+        "distratores": [
+          "Bungeoppang",
+          "Gyeranppang",
+          "Dorayaki"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que o dosa é servido com chutney e sambar, então \"servido com molhos\" é verdadeiro. A pista não identifica o prato sozinha, e o aspecto de crepe fino na imagem o distingue do uttapam.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1 para reconhecer a espiga de milho. O enunciado não vaza a resposta e ela é específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a torta banoffee é uma sobremesa inglesa. \"Inglesa\" é uma pista que ajuda sem entregar, e os distratores são sobremesas parecidas que a imagem distingue.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o makgeolli é uma bebida alcoólica coreana, leitosa. O enunciado não entrega a resposta e os distratores são bebidas coreanas visualmente distintas.",
+      "reescrita": null
+    }
+  ]
+}

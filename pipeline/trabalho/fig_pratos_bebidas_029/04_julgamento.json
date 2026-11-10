@@ -1,0 +1,373 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Batata assada",
+        "descricao": "Preparação de batata assada inteira com a casca, servida recheada ou com coberturas.",
+        "variantes": [
+          "Baked potato",
+          "Jacket potato"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pure_de_batata",
+          "nome": "Purê de batata",
+          "descricao": "Prato feito de batatas cozidas e amassadas, com leite, manteiga e sal.",
+          "variantes": [
+            "Batata amassada",
+            "Mashed potatoes"
+          ]
+        },
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        },
+        {
+          "id": "brad_pitt",
+          "nome": "Brad Pitt",
+          "descricao": "Ator e produtor americano de Clube da Luta e Seven.",
+          "variantes": [
+            "William Bradley Pitt"
+          ]
+        },
+        {
+          "id": "take_that",
+          "nome": "Take That",
+          "descricao": "Boy band britânica formada em Manchester em 1990",
+          "variantes": []
+        },
+        {
+          "id": "lago_ontario",
+          "nome": "Lago Ontário",
+          "descricao": "O menor dos cinco Grandes Lagos da América do Norte, entre o Canadá e os Estados Unidos.",
+          "variantes": [
+            "Lake Ontario"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Hotteok",
+        "descricao": "Panqueca recheada, doce, típica da comida de rua da Coreia do Sul.",
+        "variantes": [
+          "Hoeddeok"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volante_badminton",
+          "nome": "Volante (badminton)",
+          "descricao": "Peteca de penas usada no badminton.",
+          "variantes": [
+            "Shuttlecock",
+            "Peteca de badminton"
+          ]
+        },
+        {
+          "id": "robert_hooke",
+          "nome": "Robert Hooke",
+          "descricao": "Cientista inglês do século dezessete, autor do livro Micrographia, sobre observações ao microscópio.",
+          "variantes": [
+            "Hooke"
+          ]
+        },
+        {
+          "id": "capitao_haddock",
+          "nome": "Capitão Haddock",
+          "descricao": "Capitão do mar beberrão e esbravejante, melhor amigo de Tintim",
+          "variantes": [
+            "Captain Haddock",
+            "Capitaine Haddock",
+            "Haddock"
+          ]
+        },
+        {
+          "id": "shotokan",
+          "nome": "Shotokan",
+          "descricao": "Um dos estilos de caratê mais difundidos no mundo, desenvolvido no Japão a partir dos anos 1920.",
+          "variantes": [
+            "Shotokan-ryu"
+          ]
+        },
+        {
+          "id": "otelo",
+          "nome": "Otelo",
+          "descricao": "Tragédia de William Shakespeare sobre um general mouro a serviço de Veneza, levado ao ciúme contra a esposa Desdêmona.",
+          "variantes": [
+            "Othello",
+            "Otelo, o Mouro de Veneza"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Dosa",
+        "descricao": "Crepe fino e crocante de massa fermentada de arroz e lentilha, típico do sul da Índia.",
+        "variantes": [
+          "Thosai",
+          "Dosai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dr_martens",
+          "nome": "Dr. Martens",
+          "descricao": "Marca de botas de couro com sola de amortecimento de ar, criada pelo médico alemão Klaus Märtens",
+          "variantes": [
+            "Doc Martens",
+            "Docs"
+          ]
+        },
+        {
+          "id": "rosa",
+          "nome": "Rosa",
+          "descricao": "Planta lenhosa do gênero Rosa, da família Rosaceae, ou a flor que ela produz.",
+          "variantes": [
+            "Roseira",
+            "Rosa silvestre",
+            "Rosa (gênero)"
+          ]
+        },
+        {
+          "id": "sai",
+          "nome": "Sai",
+          "descricao": "Arma metálica de Okinawa com haste central pontiaguda e dois dentes laterais.",
+          "variantes": [
+            "Sai (arma)"
+          ]
+        },
+        {
+          "id": "lingua_xhosa",
+          "nome": "Língua xhosa",
+          "descricao": "Língua banta da África do Sul, conhecida pelos sons de estalo, língua materna de Nelson Mandela.",
+          "variantes": [
+            "Xhosa",
+            "isiXhosa",
+            "Cosa"
+          ]
+        },
+        {
+          "id": "doha",
+          "nome": "Doha",
+          "descricao": "Capital e maior cidade do Catar, no litoral do Golfo Pérsico.",
+          "variantes": [
+            "Ad-Dawha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Milho cozido",
+        "descricao": "Espiga de milho verde cozida ou assada, comida diretamente da espiga.",
+        "variantes": [
+          "Espiga de milho",
+          "Corn on the cob"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "etanol_combustivel_nos_estados_unidos",
+          "nome": "Etanol combustível nos Estados Unidos",
+          "descricao": "Produção e uso de etanol como combustível automotivo nos Estados Unidos, misturado à gasolina.",
+          "variantes": [
+            "Etanol de milho"
+          ]
+        },
+        {
+          "id": "venus_de_milo",
+          "nome": "Vênus de Milo",
+          "descricao": "Estátua grega de mármore no Louvre.",
+          "variantes": [
+            "Afrodite de Milo",
+            "Afrodite de Milos"
+          ]
+        },
+        {
+          "id": "figa",
+          "nome": "Figa",
+          "descricao": "Gesto ou amuleto com o polegar entre dois dedos, usado na crença popular contra o mau-olhado.",
+          "variantes": [
+            "Figa de mão",
+            "Gesto da figa"
+          ]
+        },
+        {
+          "id": "edito_de_milao",
+          "nome": "Édito de Milão",
+          "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+          "variantes": [
+            "Edict of Milan"
+          ]
+        },
+        {
+          "id": "meia_de_nailon",
+          "nome": "Meia de náilon",
+          "descricao": "Meia feminina fina feita de náilon, lançada pela DuPont nos Estados Unidos",
+          "variantes": [
+            "Meias de nylon",
+            "Nylons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Torta banoffee",
+        "descricao": "Torta inglesa de banana, doce de leite ou caramelo e chantilly.",
+        "variantes": [
+          "Banoffee pie",
+          "Banoffi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "banjo",
+          "nome": "Banjo",
+          "descricao": "Instrumento de cordas com caixa circular coberta por uma membrana, de origem afro-americana.",
+          "variantes": [
+            "Banjo de cinco cordas"
+          ]
+        },
+        {
+          "id": "banco_card_game_pokemon",
+          "nome": "Banco (card game Pokémon)",
+          "descricao": "Área da mesa no card game Pokémon onde ficam os pokémon do jogador que não estão na posição ativa.",
+          "variantes": [
+            "Bench",
+            "Banco"
+          ]
+        },
+        {
+          "id": "leque",
+          "nome": "Leque",
+          "descricao": "Objeto de mão, plano e largo, agitado para criar fluxo de ar e refrescar.",
+          "variantes": [
+            "Abano",
+            "Leque de mão"
+          ]
+        },
+        {
+          "id": "banjo_2",
+          "nome": "Banjo",
+          "descricao": "Urso pardo de bermuda amarela e mochila azul, protagonista da série Banjo-Kazooie da Rareware.",
+          "variantes": [
+            "Banjo-Kazooie"
+          ]
+        },
+        {
+          "id": "bandolim",
+          "nome": "Bandolim",
+          "descricao": "Instrumento de cordas dedilhadas da família do alaúde, com oito cordas em quatro ordens e caixa em forma de pera.",
+          "variantes": [
+            "Mandolin",
+            "Mandolino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Makgeolli",
+        "descricao": "Vinho de arroz coreano, leitoso, levemente espumante e de baixo teor alcoólico.",
+        "variantes": [
+          "Makkoli",
+          "Dongdongju"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_mali",
+          "nome": "Bandeira do Mali",
+          "descricao": "Bandeira atual do Mali: tricolor vertical verde, amarelo e vermelho, sem emblemas.",
+          "variantes": [
+            "Mali",
+            "Bandeira da República do Mali"
+          ]
+        },
+        {
+          "id": "tubarao_mako",
+          "nome": "Tubarão-mako",
+          "descricao": "Isurus oxyrinchus, grande tubarão-cavala de corpo fusiforme, o mais rápido entre os tubarões conhecidos.",
+          "variantes": [
+            "Mako",
+            "Tubarão-anequim",
+            "Isurus oxyrinchus",
+            "Shortfin mako"
+          ]
+        },
+        {
+          "id": "lemure_de_cauda_anelada",
+          "nome": "Lêmure-de-cauda-anelada",
+          "descricao": "Primata estrepsirrino de Madagascar, com cauda longa listrada de preto e branco (Lemur catta).",
+          "variantes": [
+            "Lemur catta",
+            "Maki",
+            "Lêmure-catta"
+          ]
+        },
+        {
+          "id": "mali",
+          "nome": "Mali",
+          "descricao": "País sem litoral da África Ocidental, com capital em Bamako.",
+          "variantes": [
+            "República do Mali"
+          ]
+        },
+        {
+          "id": "magnolia",
+          "nome": "Magnólia",
+          "descricao": "Gênero de árvores e arbustos (Magnolia) de grandes flores perfumadas, da família das magnoliáceas.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Batata assada é um prato, diferente do tubérculo e do purê."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o hotteok; nomes só parecidos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Dosa é um crepe indiano, sem correspondência nas candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Milho cozido é um prato; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Torta banoffee é sobremesa; candidatas não relacionadas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Makgeolli é bebida coreana; candidatas são entidades distintas."
+    }
+  ]
+}
