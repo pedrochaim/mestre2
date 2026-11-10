@@ -1,0 +1,133 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Kiwano",
+        "descricao": "Fruta espinhosa de casca laranja quando madura e polpa verde gelatinosa, Cucumis metuliferus, nativa do sul da África.",
+        "variantes": [
+          "Melão-chifrudo",
+          "Pepino-africano-de-chifres",
+          "Cucumis metuliferus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kino",
+          "nome": "Kino",
+          "descricao": "Fruto espinhoso de Cucumis metuliferus, nativo da África, de polpa verde gelatinosa e casca alaranjada quando maduro.",
+          "variantes": [
+            "Kiwano",
+            "Melão-de-chifres",
+            "Pepino-africano"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        },
+        {
+          "id": "kilwa_kisiwani",
+          "nome": "Kilwa Kisiwani",
+          "descricao": "Ilha e ruínas de uma cidade-estado suaíli medieval na costa da África Oriental, Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Kilwa",
+            "Quíloa"
+          ]
+        },
+        {
+          "id": "kanto",
+          "nome": "Kanto",
+          "descricao": "Região fictícia dos primeiros jogos Pokémon, Red, Green e Blue, onde começa a jornada de Ash no anime.",
+          "variantes": [
+            "Região de Kanto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Salmão",
+        "descricao": "Peixe oleoso de carne alaranjada muito consumido na culinária, como filé, defumado ou cru.",
+        "variantes": [
+          "Salmão-do-atlântico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salmao",
+          "nome": "Salmão",
+          "descricao": "Peixe migratório da família Salmonidae que vive no mar e sobe os rios para desovar.",
+          "variantes": [
+            "Salmon"
+          ]
+        },
+        {
+          "id": "aipo",
+          "nome": "Aipo",
+          "descricao": "Hortaliça Apium graveolens, de talos fibrosos e crocantes usados em saladas, caldos e sucos.",
+          "variantes": [
+            "Salsão",
+            "Celery"
+          ]
+        },
+        {
+          "id": "livro_dos_salmos",
+          "nome": "Livro dos Salmos",
+          "descricao": "Livro da Bíblia formado por uma coleção de cânticos e orações, tradicionalmente associado ao rei Davi",
+          "variantes": [
+            "Salmos",
+            "Saltério"
+          ]
+        },
+        {
+          "id": "batalha_do_atlantico",
+          "nome": "Batalha do Atlântico",
+          "descricao": "Campanha naval de 1939 a 1945 entre os comboios aliados e os submarinos e navios alemães no Oceano Atlântico.",
+          "variantes": [
+            "Battle of the Atlantic"
+          ]
+        },
+        {
+          "id": "bacalhau_do_atlantico",
+          "nome": "Bacalhau-do-atlântico",
+          "descricao": "Peixe marinho do Atlântico Norte (Gadus morhua), base do bacalhau salgado da culinária portuguesa e brasileira.",
+          "variantes": [
+            "Bacalhau",
+            "Gadus morhua",
+            "Atlantic cod"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "kino",
+      "motivo": "Candidata 'Kino' tem a variante Kiwano e descreve o mesmo fruto, Cucumis metuliferus, com polpa verde gelatinosa e casca alaranjada."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "salmao",
+      "motivo": "Os dois são o peixe salmão. A proposta destaca o uso culinário e a existente a biologia, mas é a mesma entidade."
+    }
+  ]
+}

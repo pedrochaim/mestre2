@@ -1,0 +1,22 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta (cor da casca) pode ser lida direto na imagem, sem reconhecer a fruta, então a figura não é a pergunta. 'Fruta espinhosa' também serviria para outras frutas. Reescrita pede o continente de origem, que só se sabe depois de reconhecer o kiwano. Os trechos confirmam a origem no sul da África.",
+      "reescrita": {
+        "pergunta": "Esta fruta de casca espinhosa e polpa verde gelatinosa é nativa de qual continente?",
+        "resposta": "África",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 de reconhecimento. O enunciado não vaza a resposta e 'em filé' só descreve a foto. O salmão em filé é um assunto emblemático e bem documentado.",
+      "reescrita": null
+    }
+  ]
+}

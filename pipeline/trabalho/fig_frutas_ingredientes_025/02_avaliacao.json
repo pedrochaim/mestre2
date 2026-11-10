@@ -1,0 +1,92 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Bloco de queijo amarelo-claro que pode ser outro queijo duro (gouda, parmesão, prato); resposta não única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pó amarelo que se confunde com açafrão-da-terra (cúrcuma) e outras misturas; não reconhecível com unicidade."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fruta verde e espinhosa, bem característica e reconhecível; a pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quando madura, que cor tem a casca desta fruta espinhosa?",
+      "resposta": "Laranja",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kiwano",
+        "descricao": "Fruta espinhosa de casca laranja quando madura e polpa verde gelatinosa, Cucumis metuliferus, nativa do sul da África.",
+        "variantes": [
+          "Melão-chifrudo",
+          "Pepino-africano-de-chifres",
+          "Cucumis metuliferus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Cortes de carne crua sem contexto; a imagem não distingue bife, filé ou outro corte, e a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mostra a planta com flores azuis, não a semente; a linhaça não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Feijões marrom-avermelhados que podem ser confundidos com outros feijões ou leguminosas; resposta não única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução (300x200) com cardume pouco nítido, parecido com anchova ou arenque; não legível no celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Mostra um palmeiral à distância, sem fruto visível; o butiá não é reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Prancha botânica com número e legenda 'Pachyrhizus angulatus' visíveis, que entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Filé de salmão cozido com o padrão laranja e branco característico, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peixe é este, em filé?",
+      "resposta": "Salmão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Salmão",
+        "descricao": "Peixe oleoso de carne alaranjada muito consumido na culinária, como filé, defumado ou cru.",
+        "variantes": [
+          "Salmão-do-atlântico"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Fatia em contraluz muito vermelha, que se confunde com toranja rosada ou outra laranja; resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Palmeira em meio à folhagem com cacho verde pouco visível; a bacaba não é reconhecível e se confunde com outras palmeiras."
+    }
+  ]
+}

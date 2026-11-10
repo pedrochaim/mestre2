@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta fruta de casca espinhosa e polpa verde gelatinosa é nativa de qual continente?",
+        "resposta": "África"
+      },
+      "existentes": [
+        {
+          "id": "q14628",
+          "pergunta": "Que fruta africana é esta?",
+          "resposta": "Kino (kiwano)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que peixe é este, em filé?",
+        "resposta": "Salmão"
+      },
+      "existentes": [
+        {
+          "id": "q02544",
+          "pergunta": "A carne do salmão selvagem é alaranjada por causa de pigmentos que ele obtém comendo que tipo de animal?",
+          "resposta": "Crustáceos, como o krill"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas identificam a fruta africana (kiwano) pela imagem; a nova pergunta o continente de origem, mas a existente já traz 'africana' no enunciado, e saber que é africana responde à nova. Porém, identificar a fruta e dizer o continente é pouco diferente; considerando que a existente já revela a resposta, é o mesmo fato.",
+      "id_existente": "q14628"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pede identificar o peixe pela imagem (salmão); a outra pergunta sobre a dieta que causa a cor da carne. Fatos diferentes."
+    }
+  ]
+}
