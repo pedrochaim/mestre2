@@ -803,7 +803,7 @@
       "titulo": "pt:Cânion Guartelá",
       "camada": 3,
       "destino": 3,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Cenote Ik Kil",
@@ -1216,7 +1216,7 @@
       "titulo": "en:Natural arch",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Caldeira vulcânica",
@@ -1251,7 +1251,7 @@
       "titulo": "en:Tijuca Forest",
       "camada": 2,
       "destino": 3,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Cachoeira de Paulo Afonso",
@@ -1328,7 +1328,7 @@
       "titulo": "en:Mount Nyiragongo",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Monte Quênia",
@@ -1398,6 +1398,286 @@
       "titulo": "en:Hierve el Agua",
       "camada": 3,
       "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aurora polar",
+      "titulo": "en:Aurora",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Savana",
+      "titulo": "en:Savanna",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Floresta tropical",
+      "titulo": "en:Tropical rainforest",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Península",
+      "titulo": "en:Peninsula",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Oceano Índico",
+      "titulo": "en:Indian Ocean",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mar do Caribe",
+      "titulo": "en:Caribbean Sea",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Polo Sul",
+      "titulo": "en:South Pole",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Polo Norte",
+      "titulo": "en:North Pole",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Laguna",
+      "titulo": "en:Lagoon",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Armação dos Búzios",
+      "titulo": "pt:Armação dos Búzios",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Cabo Frio",
+      "titulo": "pt:Cabo Frio",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Angra dos Reis",
+      "titulo": "pt:Angra dos Reis",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Serengeti",
+      "titulo": "en:Serengeti",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Araguaia",
+      "titulo": "en:Araguaia River",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Uruguai",
+      "titulo": "en:Uruguay River",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rio Orinoco",
+      "titulo": "en:Orinoco",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Tahoe",
+      "titulo": "en:Lake Tahoe",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago de Garda",
+      "titulo": "en:Lake Garda",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lago de Hallstatt",
+      "titulo": "en:Hallstätter See",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta Negra",
+      "titulo": "en:Black Forest",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tundra",
+      "titulo": "en:Tundra",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Oceano Antártico",
+      "titulo": "en:Southern Ocean",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Mar do Norte",
+      "titulo": "en:North Sea",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Maragogi",
+      "titulo": "pt:Maragogi",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Canoa Quebrada",
+      "titulo": "pt:Canoa Quebrada",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha Sentinela do Norte",
+      "titulo": "en:North Sentinel Island",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Arquipélago de Anavilhanas",
+      "titulo": "en:Anavilhanas National Park",
+      "camada": 3,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Ilha de Santa Helena",
+      "titulo": "en:Saint Helena",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Kangchenjunga",
+      "titulo": "en:Kangchenjunga",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Machapuchare",
+      "titulo": "en:Machapuchare",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Huascarán",
+      "titulo": "en:Huascarán",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Erta Ale",
+      "titulo": "en:Erta Ale",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quebrada de Humahuaca",
+      "titulo": "en:Quebrada de Humahuaca",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ischigualasto",
+      "titulo": "en:Ischigualasto Provincial Park",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cânion do Rio Fish",
+      "titulo": "en:Fish River Canyon",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Malawi",
+      "titulo": "en:Lake Malawi",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Ohrid",
+      "titulo": "en:Lake Ohrid",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Moorea",
+      "titulo": "en:Moorea",
+      "camada": 3,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Ilha de Jeju",
+      "titulo": "en:Jeju Island",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Salto do Itiquira",
+      "titulo": "pt:Salto do Itiquira",
+      "camada": 3,
+      "destino": 3,
       "status": "nova"
     }
   ]

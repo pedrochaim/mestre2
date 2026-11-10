@@ -1,0 +1,36 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica esta pedra de topo plano, cercada de mata atlântica?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q05317",
+          "pergunta": "Em que cidade brasileira fica este monólito de granito?",
+          "resposta": "Rio de Janeiro"
+        },
+        {
+          "id": "q09626",
+          "pergunta": "Vista de certo ângulo, uma das faces da Pedra da Gávea, no Rio de Janeiro, tem uma forma que lembra o quê?",
+          "resposta": "Um rosto humano"
+        },
+        {
+          "id": "q14007",
+          "pergunta": "Que formação rochosa brasileira, à beira do mar, é esta?",
+          "resposta": "Pedra da Gávea"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05317",
+      "motivo": "Ambas perguntam em que cidade brasileira fica a pedra mostrada na imagem (resposta Rio de Janeiro); mesmo fato com outras palavras."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra uma árvore isolada num campo de trigo, com cara de paisagem agrícola europeia. Não é uma savana reconhecível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "É um arco de arenito (Delicate Arch) e a forma natural é clara. A pergunta pede o tipo de formação.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de formação rochosa, esculpida pela erosão, aparece nesta imagem?",
+      "resposta": "Arco natural",
+      "distratores": [
+        "Chaminé de fada",
+        "Mesa",
+        "Pilar rochoso"
+      ],
+      "ancora": {
+        "nome": "Arco natural",
+        "descricao": "Formação rochosa em que a erosão abriu uma passagem sob uma ponte de rocha, como o Delicate Arch, em Utah.",
+        "variantes": [
+          "Arco de pedra",
+          "Ponte natural",
+          "Natural arch"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "O lago de lava na cratera é muito característico e a foto é famosa. Os distratores são vulcões africanos próximos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que vulcão africano, com um grande lago de lava na cratera, aparece nesta imagem?",
+      "resposta": "Monte Nyiragongo",
+      "distratores": [
+        "Nyamuragira",
+        "Erta Ale",
+        "Ol Doinyo Lengai"
+      ],
+      "ancora": {
+        "nome": "Monte Nyiragongo",
+        "descricao": "Estratovulcão ativo do Parque Nacional de Virunga, na República Democrática do Congo, com um lago de lava na cratera.",
+        "variantes": [
+          "Nyiragongo",
+          "Niragongo",
+          "Mount Nyiragongo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É uma planície de gelo e céu sem nenhum elemento que identifique o Polo Norte. Não é reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "É uma enseada com ciprestes e barcos, sem nada que a distinga de outros lagos ou costas do Mediterrâneo. Não é reconhecível como o Lago de Garda."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "É uma vista aérea típica das ilhas fluviais do Rio Negro. A resposta (Rio Negro) vale para qualquer arquipélago fluvial da região, então é única.",
+      "destino": 3,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que rio da Amazônia fica este imenso arquipélago fluvial, visto do alto?",
+      "resposta": "Rio Negro",
+      "distratores": [
+        "Rio Solimões",
+        "Rio Tapajós",
+        "Rio Xingu"
+      ],
+      "ancora": {
+        "nome": "Arquipélago de Anavilhanas",
+        "descricao": "Grande arquipélago fluvial do Rio Negro, no Amazonas, protegido pelo Parque Nacional de Anavilhanas.",
+        "variantes": [
+          "Anavilhanas",
+          "Parque Nacional de Anavilhanas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "É uma imagem de satélite da Laguna de Veneza, com a água rasa separada do mar por faixas de areia. Serve para pedir o tipo de formação.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de formação costeira é a água roxa, separada do mar por faixas de areia, nesta imagem de satélite?",
+      "resposta": "Laguna",
+      "distratores": [
+        "Delta",
+        "Fiorde",
+        "Baía"
+      ],
+      "ancora": {
+        "nome": "Laguna",
+        "descricao": "Corpo de água rasa separado de um corpo maior, como o mar, por uma faixa estreita de terra.",
+        "variantes": [
+          "Lagoon",
+          "Lagoa costeira"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "A Pedra da Gávea, com o topo plano, aparece sobre a mata da Tijuca. A cidade é única e o lugar é emblemático.",
+      "destino": 3,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade brasileira fica esta pedra de topo plano, cercada de mata atlântica?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Petrópolis",
+        "Niterói",
+        "Teresópolis"
+      ],
+      "ancora": {
+        "nome": "Pedra da Gávea",
+        "descricao": "Monumental maciço de granito de topo plano no Parque Nacional da Tijuca, na cidade do Rio de Janeiro.",
+        "variantes": [
+          "Gávea",
+          "Pedra da Gávea (Rio de Janeiro)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É um vale fluvial genérico, com pouco que o distinga de outros cânions e vales do Sul do Brasil. Não dá para reconhecer o Guartelá."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O mapa traz o texto 'Indian Ocean' escrito, que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É um trecho de rio ou reservatório cercado de mata, sem nada que o identifique como o Rio Uruguai. Não é reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "A imagem de satélite mostra bem o contorno da Península Arábica, entre o Mar Vermelho e o Golfo Pérsico. Não há texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que grande península aparece nesta imagem de satélite?",
+      "resposta": "Península Arábica",
+      "distratores": [
+        "Península Ibérica",
+        "Península Indiana",
+        "Península do Sinai"
+      ],
+      "ancora": {
+        "nome": "Península Arábica",
+        "descricao": "Maior península do mundo, no sudoeste da Ásia, entre o Mar Vermelho e o Golfo Pérsico.",
+        "variantes": [
+          "Arábia",
+          "Península da Arábia",
+          "Arabian Peninsula"
+        ]
+      }
+    }
+  ]
+}

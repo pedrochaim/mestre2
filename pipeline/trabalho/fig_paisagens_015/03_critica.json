@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a formação, distratores são outras formas de erosão e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista do lago de lava na cratera também serve ao Erta Ale, e o distrator Erta Ale (e talvez o Nyamuragira) é defensável, então a resposta não é única. Tirei a pista e troquei os distratores por vulcões africanos sem lago de lava.",
+      "reescrita": {
+        "pergunta": "Que vulcão africano, com lava visível na cratera, aparece nesta imagem?",
+        "resposta": "Monte Nyiragongo",
+        "distratores": [
+          "Kilimanjaro",
+          "Monte Camarões",
+          "Ol Doinyo Lengai"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Visto do alto' é um detalhe da foto que a descrição não confirma. Tirei essa expressão. O fato, o Rio Negro, está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que rio da Amazônia fica este grande arquipélago fluvial?",
+        "resposta": "Rio Negro",
+        "distratores": [
+          "Rio Solimões",
+          "Rio Tapajós",
+          "Rio Xingu"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz a definição de laguna (água separada do mar por faixas de areia), então a figura vira enfeite. 'Água roxa' e 'imagem de satélite' também não estão confirmados em `mostra`. Tirei essas pistas.",
+      "reescrita": {
+        "pergunta": "Que tipo de formação costeira aparece nesta imagem?",
+        "resposta": "Laguna",
+        "distratores": [
+          "Delta",
+          "Fiorde",
+          "Baía"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pedra fica no Parque Nacional da Tijuca, no Rio de Janeiro. O enunciado não a nomeia e os distratores são cidades fluminenses plausíveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Península Arábica é a maior do mundo, segundo os trechos. O enunciado não vaza a resposta e os distratores são penínsulas distintas e erradas.",
+      "reescrita": null
+    }
+  ]
+}
