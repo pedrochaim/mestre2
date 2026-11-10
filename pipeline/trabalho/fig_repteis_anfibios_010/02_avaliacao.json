@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Cobra verde de cabeça pequena; 'cobra-verde' e 'cobra-cipó' são nomes compartilhados com outras espécies parecidas (Philodryas e outros gêneros), então a resposta não é única pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Víbora com chifres supraoculares nítidos sobre areia, reconhecível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que serpente é esta, de pequenos chifres sobre os olhos, que vive enterrada na areia?",
+      "resposta": "Víbora-chifruda",
+      "ancora": {
+        "nome": "Víbora-chifruda",
+        "descricao": "Serpente venenosa do gênero Cerastes (Cerastes cerastes), dos desertos do norte da África e da Península Arábica, com chifres sobre os olhos.",
+        "variantes": [
+          "Víbora-chifruda-do-Saara",
+          "Cerastes cerastes",
+          "Saharan horned viper"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rã verde-escura com pele rugosa que imita musgo, bem característica.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rã do sudeste asiático é esta, de pele rugosa e camuflada?",
+      "resposta": "Rã-musgo-vietnamita",
+      "distratores": [
+        "Rã-cornuda-asiática",
+        "Sapo-folha-africano",
+        "Rã-verrucosa-de-Borneo"
+      ],
+      "ancora": {
+        "nome": "Rã-musgo-vietnamita",
+        "descricao": "Rã arborícola do Vietnã, Laos e sul da China (Theloderma corticale), com pele rugosa verde-escura que lembra musgo.",
+        "variantes": [
+          "Theloderma corticale",
+          "Rã-musgosa",
+          "Mossy frog"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Lagarto verde com crista nucal e garganta clara, compatível com o dragão-d'água-chinês; pergunta de nível 3 sobre o hábito de dormir em galhos.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este lagarto do sudeste asiático passa a noite em galhos. Sobre que ambiente ele costuma dormir?",
+      "resposta": "Riachos",
+      "distratores": [
+        "Cavernas",
+        "Dunas de areia",
+        "Penhascos rochosos"
+      ],
+      "ancora": {
+        "nome": "Dragão-d'água-chinês",
+        "descricao": "Lagarto agamídeo verde semiarborícola do sul da China e sudeste asiático (Physignathus cocincinus).",
+        "variantes": [
+          "Physignathus cocincinus",
+          "Chinese water dragon",
+          "Dragão-d'água-verde"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rã rechonchuda coberta de areia, aspecto característico. A única marca é o crédito do fotógrafo, que não entrega a resposta (pode ser cortado).",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rã sul-africana, de aspecto rechonchudo e que vive na areia, é esta?",
+      "resposta": "Rã-da-chuva-do-deserto",
+      "ancora": {
+        "nome": "Rã-da-chuva-do-deserto",
+        "descricao": "Rã rechonchuda (Breviceps macrops) das dunas costeiras da Namíbia e da África do Sul.",
+        "variantes": [
+          "Breviceps macrops",
+          "Desert rain frog"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto turva: a tartaruga está quase submersa em água barrenta, não dá para reconhecer a espécie nem ler a imagem num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rã de cores fortes (preto, amarelo e azul), bem reconhecível como rã-dardo.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rã venenosa da Amazônia e das Guianas é esta?",
+      "resposta": "Rã-dardo-tintureira",
+      "ancora": {
+        "nome": "Rã-dardo-tintureira",
+        "descricao": "Rã venenosa de cores muito variáveis (Dendrobates tinctorius) das Guianas e do norte do Brasil.",
+        "variantes": [
+          "Dendrobates tinctorius",
+          "Rã-dardo-azul",
+          "Rã-flecha-tintureira",
+          "Dyeing poison dart frog"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem escura, através de vidro, com a cobra quase escondida entre galhos; o focinho e os tentáculos, que a identificam, não aparecem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O animal não mostra a grande vela dorsal que caracteriza a espécie; poderia ser outro agamídeo ou outra espécie de Hydrosaurus, e a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Sapo marrom verrugoso, com glândulas parótidas visíveis, em foto nítida.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sapo europeu é este?",
+      "resposta": "Sapo-comum",
+      "ancora": {
+        "nome": "Sapo-comum",
+        "descricao": "Sapo marrom e verrugoso (Bufo bufo), muito difundido na Europa.",
+        "variantes": [
+          "Bufo bufo",
+          "Sapo-europeu",
+          "Common toad"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cágado de pescoço longo e comprido, com faixa clara no rosto, nítido.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cágado sul-americano é este?",
+      "resposta": "Cágado-pescoço-de-cobra",
+      "distratores": [
+        "Mata-mata",
+        "Cágado-de-barbicha",
+        "Cágado-de-Hilaire"
+      ],
+      "ancora": {
+        "nome": "Cágado-pescoço-de-cobra",
+        "descricao": "Cágado de pescoço muito longo (Hydromedusa tectifera) do sul do Brasil, Uruguai, Paraguai e Argentina.",
+        "variantes": [
+          "Hydromedusa tectifera",
+          "Argentine snake-necked turtle"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Lagarto de escamas dorsais em fileiras e cauda anelada, sobre musgo, reconhecível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que lagarto asiático ameaçado é este?",
+      "resposta": "Lagarto-crocodilo-chinês",
+      "ancora": {
+        "nome": "Lagarto-crocodilo-chinês",
+        "descricao": "Lagarto semiaquático (Shinisaurus crocodilurus) do sudeste da China e nordeste do Vietnã.",
+        "variantes": [
+          "Shinisaurus crocodilurus",
+          "Chinese crocodile lizard"
+        ]
+      }
+    }
+  ]
+}

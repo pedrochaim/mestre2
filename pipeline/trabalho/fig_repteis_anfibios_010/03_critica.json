@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"chifres\" é palavra derivada da resposta (víbora-chifruda) e é a pista que entrega a resposta com a imagem coberta. Além disso, \"enterrada na areia\" não está nos trechos.",
+      "reescrita": {
+        "pergunta": "Que serpente venenosa dos desertos do norte da África é esta?",
+        "resposta": "Víbora-chifruda",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato e a resposta estão apoiados nos trechos, mas dois distratores parecem inventados (Sapo-folha-africano, Rã-verrucosa-de-Borneo) e um não é do sudeste asiático. Troquei por espécies asiáticas reais.",
+      "reescrita": {
+        "pergunta": "Que rã arborícola do sudeste asiático é esta, de pele rugosa e camuflada?",
+        "resposta": "Rã-musgo-vietnamita",
+        "distratores": [
+          "Rã-cornuda-malaia",
+          "Rã-voadora-de-Wallace",
+          "Rã-touro-asiática"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não sustentam o fato: só dizem que vive perto de corpos d'água. A resposta \"Riachos\" é vaga, pois rios, lagoas e água em geral também seriam defensáveis. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Rechonchuda\" e \"vive na areia\" servem para várias rãs-da-chuva (Breviceps), então a resposta não é única. Acrescentei o habitat das dunas costeiras da Namíbia e da África do Sul, que está no trecho e ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que rã rechonchuda, das dunas costeiras da Namíbia e da África do Sul, é esta?",
+        "resposta": "Rã-da-chuva-do-deserto",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "\"Rã venenosa da Amazônia e das Guianas\" serve para muitas espécies de rãs-dardo. O nome \"tintureira\" é pouco usado, já que o trecho em português chama a espécie de rã-venenosa-azul. A resposta não é única nem justa.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é curta e não vaza a resposta. O sapo-comum é um sapo europeu, e a imagem permite distingui-lo do sapo-corredor e do sapo-verde.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A espécie e seu nome popular estão nos trechos. Os distratores são cágados reais e do mesmo tipo, e a pergunta não vaza o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O lagarto é asiático (trecho). O status de ameaçado é amplamente documentado (em perigo, IUCN). O enunciado não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}
