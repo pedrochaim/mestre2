@@ -1,0 +1,116 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'E-DRIVE 100' na placa e 'RenewableEnergy' no poste de recarga."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'PlayStation 2', 'PS2' e 'Sony' aparecem no console."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'electric drive', 'Ladestation' e a placa de estacionamento para veículos elétricos."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Console do UNIVAC I em exposição, sem texto legível no celular. A pergunta de data é de múltipla escolha.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este computador foi entregue ao Departamento do Censo dos Estados Unidos em que ano?",
+      "resposta": "1951",
+      "distratores": [
+        "1946",
+        "1948",
+        "1954"
+      ],
+      "ancora": {
+        "nome": "UNIVAC I",
+        "descricao": "Primeiro computador eletrônico digital de uso geral para aplicações comerciais produzido nos Estados Unidos, projetado por Eckert e Mauchly.",
+        "variantes": [
+          "UNIVAC",
+          "Universal Automatic Computer I"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Isqueiro de metal aceso, sem texto, fácil de reconhecer. Pergunta direta de nível 1.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Isqueiro",
+      "ancora": {
+        "nome": "Isqueiro",
+        "descricao": "Dispositivo portátil que produz uma chama controlada para acender cigarros, velas e outros itens.",
+        "variantes": [
+          "Isqueiro de gasolina",
+          "Lighter"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É uma ilustração vetorial. O mimeógrafo pode ser fotografado, e o desenho simplificado não é reconhecível com segurança."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É uma prancha com várias figuras, legendas e texto em russo, que entrega a resposta (título 'Геліографъ'). Ela é ilegível no celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Motosserra em uso, sem texto e sem rostos. Troquei 'quem fez' por 'o que é', porque a autoria da motosserra é ambígua.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ferramenta é esta?",
+      "resposta": "Motosserra",
+      "distratores": [
+        "Serra tico-tico",
+        "Serra circular",
+        "Roçadeira"
+      ],
+      "ancora": {
+        "nome": "Motosserra",
+        "descricao": "Serra portátil motorizada que corta com uma corrente dentada girando em torno de uma barra-guia.",
+        "variantes": [
+          "Serra elétrica",
+          "Chainsaw"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'SEGWAY' aparece na bolsa e na haste."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O aparato de laboratório não é reconhecível pela imagem. Pode ser confundido com outros experimentos de metrologia e não permite uma resposta única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O disco óptico visto por trás não permite distinguir DVD de CD. Há texto pequeno ('Sony Music'), e a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O toroide enrolado pode ser um indutor ou um transformador. A resposta não é única, e a autoria do transformador é ambígua (Faraday, Stanley, Zipernowsky e outros)."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Isqueiro"
+      },
+      "existentes": [
+        {
+          "id": "q05074",
+          "pergunta": "Que objeto é este?",
+          "resposta": "Isqueiro"
+        },
+        {
+          "id": "q07347",
+          "pergunta": "O isqueiro criado em 1823 pelo químico alemão Döbereiner surgiu três anos antes de qual outro objeto de acender fogo?",
+          "resposta": "Fósforo de fricção"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05074",
+      "motivo": "Pergunta e resposta idênticas (Que objeto é este? Isqueiro), provavelmente com a mesma imagem."
+    }
+  ]
+}

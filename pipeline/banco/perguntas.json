@@ -393243,5 +393243,55 @@
       "licenca": "CC BY-SA 2.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q19830",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "univac_i",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Este computador foi entregue ao Departamento do Censo dos Estados Unidos em que ano?",
+    "resposta": "1951",
+    "distratores": [
+      "1946",
+      "1948",
+      "1954"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/UNIVAC_I",
+      "https://pt.wikipedia.org/wiki/UNIVAC_I"
+    ],
+    "imagem": {
+      "arquivo": "q19830.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Museum_of_Science,_Boston,_MA_-_IMG_3163.JPG",
+      "autor": "Daderot",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q19831",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "motosserra",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ferramenta é esta?",
+    "resposta": "Motosserra",
+    "distratores": [
+      "Serra tico-tico",
+      "Serra circular",
+      "Roçadeira"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chainsaw",
+      "https://pt.wikipedia.org/wiki/Motosserra"
+    ],
+    "imagem": {
+      "arquivo": "q19831.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chainsaw.JPG",
+      "autor": "kallerna",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

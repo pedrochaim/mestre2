@@ -1,0 +1,193 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "UNIVAC I",
+        "descricao": "Primeiro computador eletrônico digital de uso geral para aplicações comerciais produzido nos Estados Unidos, projetado por Eckert e Mauchly.",
+        "variantes": [
+          "UNIVAC",
+          "Universal Automatic Computer I"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eniac",
+          "nome": "ENIAC",
+          "descricao": "Computador eletrônico digital de uso geral construído nos Estados Unidos e concluído em 1945.",
+          "variantes": [
+            "Electronic Numerical Integrator and Computer"
+          ]
+        },
+        {
+          "id": "unova",
+          "nome": "Unova",
+          "descricao": "Região fictícia dos jogos Pokémon Black e White, da quinta geração.",
+          "variantes": [
+            "Região de Unova",
+            "Isshu"
+          ]
+        },
+        {
+          "id": "nivea",
+          "nome": "Nivea",
+          "descricao": "Marca alemã de cremes e cosméticos da Beiersdorf, lançada em 1911 com um creme em lata azul.",
+          "variantes": []
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "uva",
+          "nome": "Uva",
+          "descricao": "Fruto em cachos da videira (gênero Vitis), consumido fresco, seco ou usado na vinificação.",
+          "variantes": [
+            "Grape"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Isqueiro",
+        "descricao": "Dispositivo portátil que produz uma chama controlada para acender cigarros, velas e outros itens.",
+        "variantes": [
+          "Isqueiro de gasolina",
+          "Lighter"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "isqueiro",
+          "nome": "Isqueiro",
+          "descricao": "Aparelho portátil de combustível que produz uma chama controlada, aqui um modelo metálico de tampa articulada.",
+          "variantes": [
+            "Zippo"
+          ]
+        },
+        {
+          "id": "light_yagami",
+          "nome": "Light Yagami",
+          "descricao": "Estudante prodígio, protagonista de Death Note, que usa o caderno da morte para eliminar criminosos como Kira.",
+          "variantes": [
+            "Yagami Raito",
+            "Kira",
+            "Light"
+          ]
+        },
+        {
+          "id": "sabre_de_luz",
+          "nome": "Sabre de luz",
+          "descricao": "Arma de lâmina de energia usada pelos Jedi e Sith na franquia Star Wars.",
+          "variantes": [
+            "Lightsaber"
+          ]
+        },
+        {
+          "id": "gligar",
+          "nome": "Gligar",
+          "descricao": "Pokémon escorpião voador do tipo Terra/Voador, número 207 da Pokédex Nacional, da segunda geração.",
+          "variantes": [
+            "Gliger"
+          ]
+        },
+        {
+          "id": "chi_rho",
+          "nome": "Chi-Rho",
+          "descricao": "Cristograma formado pelas letras gregas chi e rô sobrepostas, as duas primeiras de Cristo.",
+          "variantes": [
+            "Crismón",
+            "Monograma de Cristo",
+            "Quirô"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Motosserra",
+        "descricao": "Serra portátil motorizada que corta com uma corrente dentada girando em torno de uma barra-guia.",
+        "variantes": [
+          "Serra elétrica",
+          "Chainsaw"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        },
+        {
+          "id": "chopine",
+          "nome": "Chopine",
+          "descricao": "Sapato feminino de plataforma altíssima usado na Europa entre os séculos quinze e dezessete",
+          "variantes": [
+            "Chopines",
+            "Chapins"
+          ]
+        },
+        {
+          "id": "ferro_de_passar",
+          "nome": "Ferro de passar",
+          "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+          "variantes": [
+            "Ferro elétrico",
+            "Ferro a vapor",
+            "Ferro de engomar"
+          ]
+        },
+        {
+          "id": "guitarra_eletrica",
+          "nome": "Guitarra elétrica",
+          "descricao": "Instrumento de cordas de corpo sólido que usa captadores e precisa de amplificação externa.",
+          "variantes": [
+            "Guitarra",
+            "Electric guitar",
+            "Stratocaster"
+          ]
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "UNIVAC I é um computador específico, diferente do ENIAC e das outras candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "isqueiro",
+      "motivo": "Mesmo objeto: isqueiro, aparelho portátil de chama controlada. A candidata só cita um modelo como exemplo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Motosserra é uma ferramenta diferente de todas as candidatas, que não têm relação com ela."
+    }
+  ]
+}
