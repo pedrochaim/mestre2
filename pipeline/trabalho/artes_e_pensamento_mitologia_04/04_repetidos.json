@@ -1,0 +1,958 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que minúsculo animal de água doce, capaz de regenerar partes cortadas do corpo, foi batizado com o nome do monstro de várias cabeças vencido por Hércules?",
+        "resposta": "Hidra"
+      },
+      "existentes": [
+        {
+          "id": "q13490",
+          "pergunta": "Na luta de Hércules contra a Hidra de Lerna, o que acontecia toda vez que ele cortava uma das cabeças do monstro?",
+          "resposta": "Nasciam duas no lugar"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em biologia, um organismo com células de dois indivíduos geneticamente diferentes leva o nome de qual monstro grego, mistura de leão, cabra e serpente?",
+        "resposta": "Quimera"
+      },
+      "existentes": [
+        {
+          "id": "q13453",
+          "pergunta": "A Quimera, monstro morto pelo herói Belerofonte, tinha a frente de leão, uma cabeça de cabra no meio e a cauda de que animal?",
+          "resposta": "Serpente"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que aparelho de alarme sonoro, usado em ambulâncias e viaturas de polícia, tem o nome das criaturas gregas que atraíam marinheiros com seu canto?",
+        "resposta": "Sirene"
+      },
+      "existentes": [
+        {
+          "id": "q13165",
+          "pergunta": "Na arte grega antiga, as sereias que cantaram para Ulisses eram retratadas com corpo de que animal?",
+          "resposta": "Ave"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No nórdico antigo, o que significa a palavra valquíria, nome das guerreiras mitológicas a serviço de Odin?",
+        "resposta": "Escolhedora dos mortos"
+      },
+      "existentes": [
+        {
+          "id": "q13169",
+          "pergunta": "Na mitologia nórdica, para que salão de Odin as valquírias levavam parte dos guerreiros mortos em combate?",
+          "resposta": "Valhala"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em inglês, que dia da semana homenageia Tyr, o deus nórdico que perdeu a mão direita para o lobo Fenrir?",
+        "resposta": "Terça-feira (Tuesday)"
+      },
+      "existentes": [
+        {
+          "id": "q13156",
+          "pergunta": "Na mitologia nórdica, que lobo gigante arrancou com uma mordida a mão direita do deus Tyr?",
+          "resposta": "Fenrir"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na Teogonia, Hesíodo diz que o nome de Afrodite vem de uma palavra grega ligada ao nascimento da deusa no mar. Que palavra é essa?",
+        "resposta": "Espuma"
+      },
+      "existentes": [
+        {
+          "id": "q14081",
+          "pergunta": "Que deusa grega esta escultura representa?",
+          "resposta": "Afrodite"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O Partenon, na Acrópole de Atenas, tem nome tirado de um título da deusa Atena. O que esse título significa em grego?",
+        "resposta": "Virgem"
+      },
+      "existentes": [
+        {
+          "id": "q13456",
+          "pergunta": "Que ave, até hoje usada como símbolo de sabedoria, acompanhava a deusa grega Atena?",
+          "resposta": "Coruja"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Na arte egípcia, Ísis costuma levar na cabeça o hieróglifo usado para escrever o nome dela. Que objeto esse sinal representa?",
+        "resposta": "Um trono"
+      },
+      "existentes": [
+        {
+          "id": "q13654",
+          "pergunta": "Nas pinturas egípcias, a deusa Ísis costuma levar sobre a cabeça o hieróglifo do próprio nome. Que objeto ele desenha?",
+          "resposta": "Um trono"
+        },
+        {
+          "id": "q14110",
+          "pergunta": "Que deus era irmão e marido desta deusa egípcia?",
+          "resposta": "Osíris"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O nome do deus asteca da guerra, Huitzilopochtli, começa com a palavra náuatle para qual ave?",
+        "resposta": "Beija-flor"
+      },
+      "existentes": [
+        {
+          "id": "q03489",
+          "pergunta": "Que pequena ave aparece no nome de Huitzilopochtli, o deus asteca da guerra?",
+          "resposta": "Beija-flor"
+        },
+        {
+          "id": "q19340",
+          "pergunta": "Que cidade tinha como deus protetor esta divindade asteca?",
+          "resposta": "Tenochtitlan"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Os gregos identificavam Thoth, o deus egípcio da escrita com cabeça de íbis, com qual deus do Olimpo?",
+        "resposta": "Hermes"
+      },
+      "existentes": [
+        {
+          "id": "q06392",
+          "pergunta": "Os gregos identificaram Thoth, o deus egípcio da escrita e da sabedoria, com qual deus do seu próprio panteão?",
+          "resposta": "Hermes"
+        },
+        {
+          "id": "q14102",
+          "pergunta": "Em que cidade do Egito ficava o principal templo deste deus?",
+          "resposta": "Hermópolis"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Segundo o mito egípcio, Anúbis, o deus de cabeça de chacal, ajudou a embalsamar o corpo de qual deus, tido como a primeira múmia?",
+        "resposta": "Osíris"
+      },
+      "existentes": [
+        {
+          "id": "q06397",
+          "pergunta": "Anúbis, o deus egípcio que protegia os mortos e presidia a mumificação, era representado com a cabeça de qual animal?",
+          "resposta": "Chacal"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No oásis de Siwa, no deserto egípcio, o oráculo do deus Amon saudou como filho do deus um conquistador estrangeiro. Quem era ele?",
+        "resposta": "Alexandre, o Grande"
+      },
+      "existentes": [
+        {
+          "id": "q13140",
+          "pergunta": "Que gás de cheiro forte deve seu nome a um deus egípcio, perto de cujo templo no deserto se coletava um sal?",
+          "resposta": "Amônia"
+        },
+        {
+          "id": "q13625",
+          "pergunta": "Os fósseis chamados amonites, de concha em espiral, devem o nome ao deus egípcio Amon. Qual animal sagrado do deus tinha chifres desse formato?",
+          "resposta": "Carneiro"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Numa carta de 1946, Tolkien descreveu um de seus personagens como um andarilho à maneira de Odin. Qual é o personagem?",
+        "resposta": "Gandalf"
+      },
+      "existentes": [
+        {
+          "id": "q13157",
+          "pergunta": "Na mitologia nórdica, Odin sacrificou um dos olhos para beber da fonte da sabedoria de qual ser?",
+          "resposta": "Mímir"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que princesa etíope, salva por Perseu de um monstro marinho e depois sua esposa, dá nome à grande galáxia vizinha da Via Láctea?",
+        "resposta": "Andrômeda"
+      },
+      "existentes": [
+        {
+          "id": "q17358",
+          "pergunta": "Que herói da mitologia grega está no centro deste quadro?",
+          "resposta": "Perseu"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Que escritor irlandês transpôs as aventuras de Ulisses para um único dia em Dublin, num romance que leva o nome latino do herói?",
+        "resposta": "James Joyce"
+      },
+      "existentes": [
+        {
+          "id": "q13420",
+          "pergunta": "Na Odisseia, Ulisses passa anos tentando voltar para casa. De que ilha grega ele era rei?",
+          "resposta": "Ítaca"
+        },
+        {
+          "id": "q13454",
+          "pergunta": "Somando a Guerra de Troia e a longa viagem de volta, quantos anos Ulisses passou longe de casa e da esposa, Penélope?",
+          "resposta": "Vinte"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Que escritor franco-argelino, Nobel de Literatura, usou o castigo eterno de Sísifo num ensaio sobre o absurdo da existência?",
+        "resposta": "Albert Camus"
+      },
+      "existentes": [
+        {
+          "id": "q13444",
+          "pergunta": "Na versão mais conhecida do mito, que ousadia fez Sísifo ser condenado a empurrar eternamente uma pedra morro acima?",
+          "resposta": "Enganar a morte"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Segundo a lenda adotada pelos romanos, que herói troiano escapou da cidade em chamas e se tornou ancestral de Rômulo e Remo?",
+        "resposta": "Eneias"
+      },
+      "existentes": [
+        {
+          "id": "q13419",
+          "pergunta": "Os arqueólogos identificam a Troia de Homero com ruínas na colina de Hisarlik, perto do estreito dos Dardanelos. Em que país fica esse sítio?",
+          "resposta": "Turquia"
+        },
+        {
+          "id": "q14207",
+          "pergunta": "Nas escavações de Troia, na Turquia, arqueólogos identificaram cerca de quantas camadas principais de cidades construídas umas sobre as outras?",
+          "resposta": "Nove"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Segundo a tradição xintoísta, que família japonesa descende da deusa do Sol, Amaterasu?",
+        "resposta": "A família imperial"
+      },
+      "existentes": [
+        {
+          "id": "q09486",
+          "pergunta": "Segundo a tradição xintoísta, a família imperial do Japão descende de que deusa do Sol?",
+          "resposta": "Amaterasu"
+        },
+        {
+          "id": "q13164",
+          "pergunta": "No mito japonês, por que o mundo ficou às escuras depois que a deusa do Sol, Amaterasu, se ofendeu com o irmão?",
+          "resposta": "Ela se escondeu numa caverna"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Segundo a lenda, o deus Huitzilopochtli mandou os astecas fundarem sua cidade onde vissem uma águia pousada num cacto. Que símbolo do México, no centro da bandeira, mostra essa cena?",
+        "resposta": "O brasão"
+      },
+      "existentes": [
+        {
+          "id": "q03489",
+          "pergunta": "Que pequena ave aparece no nome de Huitzilopochtli, o deus asteca da guerra?",
+          "resposta": "Beija-flor"
+        },
+        {
+          "id": "q19340",
+          "pergunta": "Que cidade tinha como deus protetor esta divindade asteca?",
+          "resposta": "Tenochtitlan"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Segundo uma lenda hindu, Ganesha usou a própria presa quebrada como pena para escrever, ditado pelo sábio Vyasa, qual grande épico?",
+        "resposta": "Mahabharata"
+      },
+      "existentes": [
+        {
+          "id": "q05589",
+          "pergunta": "Muitos deuses hindus têm um animal como montaria. Qual é a de Ganesha, o deus de cabeça de elefante?",
+          "resposta": "Rato"
+        },
+        {
+          "id": "q13158",
+          "pergunta": "Na versão mais conhecida do mito hindu, por que o deus Ganesha tem cabeça de elefante?",
+          "resposta": "Shiva o decapitou e trocou sua cabeça"
+        },
+        {
+          "id": "q13797",
+          "pergunta": "Ganesha, deus hindu da sabedoria e removedor de obstáculos, é representado com a cabeça de que animal?",
+          "resposta": "Elefante"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O titã Cronos engolia os filhos ao nascer, mas o caçula Zeus escapou e o obrigou a vomitá-los. Quantos irmãos Zeus libertou assim?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q13424",
+          "pergunta": "Para escapar do pai, o titã Cronos, que devorava os próprios filhos, o bebê Zeus foi criado escondido numa caverna de que ilha?",
+          "resposta": "Creta"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "A Odisseia e a Ilíada, de Homero, têm exatamente o mesmo número de cantos. Quantos cantos tem cada uma delas?",
+        "resposta": "Vinte e quatro"
+      },
+      "existentes": [
+        {
+          "id": "q02977",
+          "pergunta": "Na Odisseia, depois do fim da Guerra de Troia, quantos anos Ulisses leva para voltar para casa, em Ítaca?",
+          "resposta": "Dez anos"
+        },
+        {
+          "id": "q13466",
+          "pergunta": "Na Odisseia, quando Ulisses volta a Ítaca disfarçado de mendigo, que animal o reconhece e morre logo em seguida?",
+          "resposta": "O cão Argos"
+        },
+        {
+          "id": "q18446",
+          "pergunta": "Na Odisseia, para enganar o ciclope Polifemo, Ulisses diz ter um nome que depois confunde os outros ciclopes. Que nome falso é esse?",
+          "resposta": "Ninguém"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Segundo o relato do grego Plutarco, em quantos pedaços o deus Set cortou o corpo do irmão Osíris, espalhando-os pelo Egito?",
+        "resposta": "Catorze"
+      },
+      "existentes": [
+        {
+          "id": "q06369",
+          "pergunta": "No mito egípcio, Osíris foi assassinado e teve o corpo despedaçado e espalhado pelo Egito. Qual deus, seu próprio irmão, cometeu o crime?",
+          "resposta": "Set"
+        },
+        {
+          "id": "q13651",
+          "pergunta": "Segundo a tradição egípcia, a cabeça de Osíris estava enterrada numa cidade do Alto Egito, principal centro do seu culto e destino de peregrinações. Que cidade?",
+          "resposta": "Abidos"
+        },
+        {
+          "id": "q14087",
+          "pergunta": "Que deus egípcio é este?",
+          "resposta": "Osíris"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Para descobrir o segredo das runas, Odin ficou pendurado na árvore Yggdrasil, ferido pela própria lança, durante quantas noites?",
+        "resposta": "Nove"
+      },
+      "existentes": [
+        {
+          "id": "q13157",
+          "pergunta": "Na mitologia nórdica, Odin sacrificou um dos olhos para beber da fonte da sabedoria de qual ser?",
+          "resposta": "Mímir"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Na mitologia nórdica, Freya leva parte dos guerreiros mortos em batalha para o seu salão, e o restante vai para o Valhala. Que fração fica com ela?",
+        "resposta": "Metade"
+      },
+      "existentes": [
+        {
+          "id": "q13473",
+          "pergunta": "Na mitologia nórdica, a deusa Freya, ligada ao amor e à fertilidade, andava numa carruagem puxada por quais animais?",
+          "resposta": "Gatos"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Na tradição hindu, quantos são os avatares principais do deus Vishnu, na lista clássica que inclui Rama e Krishna?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q18331",
+          "pergunta": "Que divindade hindu é esta?",
+          "resposta": "Vishnu"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Na China imperial, quantas garras em cada pata tinha o dragão reservado como símbolo do imperador?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q14121",
+          "pergunta": "De que país vem esta criatura mitológica?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Segundo o historiador grego Heródoto, os sacerdotes egípcios contavam que a ave fênix só aparecia por lá a cada quantos anos?",
+        "resposta": "Quinhentos"
+      },
+      "existentes": [
+        {
+          "id": "q14105",
+          "pergunta": "Que criatura mítica é esta?",
+          "resposta": "Fênix"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Segundo a tradição grega, quantos deuses principais habitavam o monte Olimpo, entre eles Zeus, Hera, Atena e Apolo?",
+        "resposta": "Doze"
+      },
+      "existentes": [
+        {
+          "id": "q13461",
+          "pergunta": "Qual é a montanha mais alta da Grécia, onde os gregos antigos imaginavam a morada dos seus principais deuses?",
+          "resposta": "Monte Olimpo"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Atena e Poseidon disputaram o posto de protetor de uma cidade grega, cada um oferecendo um presente. Que presente deu a vitória a Atena?",
+        "resposta": "Uma oliveira"
+      },
+      "existentes": [
+        {
+          "id": "q13456",
+          "pergunta": "Que ave, até hoje usada como símbolo de sabedoria, acompanhava a deusa grega Atena?",
+          "resposta": "Coruja"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Na Odisseia, por que o deus Poseidon atrapalhou tanto a volta de Ulisses para casa?",
+        "resposta": "Ulisses cegou seu filho Polifemo"
+      },
+      "existentes": [
+        {
+          "id": "q14083",
+          "pergunta": "Que deus grego esta estátua representa?",
+          "resposta": "Poseidon"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Depois da morte de Aquiles, que decisão sobre as armas do herói levou o guerreiro Ájax a tirar a própria vida?",
+        "resposta": "Foram dadas a Ulisses"
+      },
+      "existentes": [
+        {
+          "id": "q13460",
+          "pergunta": "Na Ilíada, que herói grego de enorme estatura, que lutava com um escudo gigante, é descrito como o melhor guerreiro grego depois de Aquiles?",
+          "resposta": "Ájax"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Na versão mais conhecida da lenda da fundação de Roma, que provocação de Remo levou o irmão Rômulo a matá-lo?",
+        "resposta": "Pulou a muralha da nova cidade"
+      },
+      "existentes": [
+        {
+          "id": "q13498",
+          "pergunta": "Segundo a lenda da fundação de Roma, os gêmeos Rômulo e Remo foram abandonados ainda bebês num cesto às margens de qual rio?",
+          "resposta": "Tibre"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Que ousadia do herói Belerofonte irritou Zeus e o fez cair do cavalo alado Pégaso?",
+        "resposta": "Tentou voar até o Olimpo"
+      },
+      "existentes": [
+        {
+          "id": "q13175",
+          "pergunta": "Que cavalo alado da mitologia grega nasceu do pescoço da Medusa quando Perseu a decapitou?",
+          "resposta": "Pégaso"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Segundo Hesíodo, depois que Pandora abriu o jarro e espalhou os males pelo mundo, o que ficou preso lá dentro?",
+        "resposta": "A esperança"
+      },
+      "existentes": [
+        {
+          "id": "q13172",
+          "pergunta": "No poema original de Hesíodo, a famosa caixa de Pandora era, na verdade, que tipo de recipiente?",
+          "resposta": "Um jarro"
+        },
+        {
+          "id": "q19232",
+          "pergunta": "No mito da caixa de Pandora, depois que todos os males escaparam pelo mundo, o que ficou guardado lá dentro?",
+          "resposta": "A esperança"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "No Popol Vuh, livro sagrado dos maias quichés, os deuses fracassam ao fazer humanos de barro e de madeira. Com que alimento finalmente conseguem?",
+        "resposta": "Milho"
+      },
+      "existentes": [
+        {
+          "id": "q03524",
+          "pergunta": "No Popol Vuh, livro sagrado dos maias quichés, os deuses falham com barro e com madeira. De que material eles finalmente fazem os humanos?",
+          "resposta": "Milho"
+        },
+        {
+          "id": "q08603",
+          "pergunta": "O manuscrito mais antigo que se conhece do Popol Vuh, copiado por um frade no começo do século dezoito, está numa biblioteca de que cidade americana?",
+          "resposta": "Chicago"
+        },
+        {
+          "id": "q13428",
+          "pergunta": "Em que século o Popol Vuh, livro sagrado dos maias quichés, foi escrito com o alfabeto latino, depois da conquista espanhola?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Ainda bebê, no dia em que nasceu, o deus Hermes inventou a lira usando o casco de que animal?",
+        "resposta": "Tartaruga"
+      },
+      "existentes": [
+        {
+          "id": "q13449",
+          "pergunta": "Além de mensageiro, o grego Hermes tinha uma função em comum com o egípcio Anúbis. Que função era essa?",
+          "resposta": "Guiar as almas dos mortos"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "O enigma da Esfinge de Tebas perguntava que criatura anda com quatro pés de manhã, dois ao meio-dia e três à tarde. Qual era a resposta?",
+        "resposta": "O ser humano"
+      },
+      "existentes": [
+        {
+          "id": "q13434",
+          "pergunta": "Na mitologia grega, quem decifrou o enigma da Esfinge de Tebas, levando o monstro a se matar?",
+          "resposta": "Édipo"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Que objeto de Hades, forjado pelos ciclopes e usado por Perseu em sua missão contra a Medusa, tornava invisível quem o usasse?",
+        "resposta": "Um capacete"
+      },
+      "existentes": [
+        {
+          "id": "q14111",
+          "pergunta": "Que deus grego é este?",
+          "resposta": "Hades (Plutão)"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Segundo o mito mais conhecido, perseguida pelo ciúme de Hera, Leto deu à luz os gêmeos Ártemis e Apolo em que ilha do mar Egeu?",
+        "resposta": "Delos"
+      },
+      "existentes": [
+        {
+          "id": "q13146",
+          "pergunta": "A NASA batizou de Ártemis o programa lunar que sucedeu o Apolo. Na mitologia grega, que parentesco une essas duas divindades?",
+          "resposta": "São irmãos gêmeos"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Como castigo por ter dado o fogo aos humanos, o titã Prometeu foi acorrentado a um rochedo em que cordilheira?",
+        "resposta": "Cáucaso"
+      },
+      "existentes": [
+        {
+          "id": "q13151",
+          "pergunta": "Que titã grego aparece no subtítulo do romance Frankenstein, de Mary Shelley?",
+          "resposta": "Prometeu"
+        },
+        {
+          "id": "q13152",
+          "pergunta": "Como castigo por roubar o fogo dos deuses, que órgão de Prometeu era devorado todos os dias por uma águia?",
+          "resposta": "Fígado"
+        },
+        {
+          "id": "q13482",
+          "pergunta": "Em grego, qual é o significado do nome do titã Prometeu, que roubou o fogo dos deuses para os humanos?",
+          "resposta": "O que pensa antes"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Que herói grego matou a águia que atormentava Prometeu todos os dias e libertou o titã das correntes?",
+        "resposta": "Hércules"
+      },
+      "existentes": [
+        {
+          "id": "q13151",
+          "pergunta": "Que titã grego aparece no subtítulo do romance Frankenstein, de Mary Shelley?",
+          "resposta": "Prometeu"
+        },
+        {
+          "id": "q13152",
+          "pergunta": "Como castigo por roubar o fogo dos deuses, que órgão de Prometeu era devorado todos os dias por uma águia?",
+          "resposta": "Fígado"
+        },
+        {
+          "id": "q13482",
+          "pergunta": "Em grego, qual é o significado do nome do titã Prometeu, que roubou o fogo dos deuses para os humanos?",
+          "resposta": "O que pensa antes"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "Segundo o mito, que deus tomou posse do santuário de Delfos depois de matar a flechadas a serpente Píton, que guardava o lugar?",
+        "resposta": "Apolo"
+      },
+      "existentes": [
+        {
+          "id": "q03226",
+          "pergunta": "Segundo Platão, que santuário grego declarou que ninguém era mais sábio do que Sócrates?",
+          "resposta": "O Oráculo de Delfos"
+        },
+        {
+          "id": "q13418",
+          "pergunta": "O oráculo de Delfos, onde a sacerdotisa Pítia falava em nome de Apolo, ficava na encosta de qual monte?",
+          "resposta": "Monte Parnaso"
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "nova": {
+        "pergunta": "Das nove musas gregas, qual era a protetora da história, muitas vezes retratada segurando um pergaminho?",
+        "resposta": "Clio"
+      },
+      "existentes": [
+        {
+          "id": "q13139",
+          "pergunta": "Que tipo de instituição cultural tem um nome derivado das nove deusas gregas que inspiravam as artes e as ciências?",
+          "resposta": "Museu"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Animal hidra vs. o que ocorria ao cortar cabeças."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Termo biológico vs. cauda da Quimera."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Sirene aparelho vs. corpo de ave."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. salão."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Dia da semana vs. lobo Fenrir."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Etimologia vs. identificar estátua."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Significado de Partenon vs. coruja."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: hieróglifo de Ísis é um trono.",
+      "id_existente": "q13654"
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: beija-flor no nome de Huitzilopochtli.",
+      "id_existente": "q03489"
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Thoth identificado com Hermes.",
+      "id_existente": "q06392"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Osíris embalsamado vs. cabeça de chacal."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Alexandre no oráculo é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Tolkien/Gandalf vs. olho de Odin."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Andrômeda vs. identificar Perseu em quadro."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Joyce vs. ilha/anos."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Camus vs. motivo da condenação."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Eneias vs. localização/camadas de Troia."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "motivo": "Mesma relação Amaterasu e família imperial, em direção inversa.",
+      "id_existente": "q09486"
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Brasão do México vs. nome/cidade."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Escrita do Mahabharata é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Número de irmãos vs. ilha de Creta."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Número de cantos é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Número de pedaços vs. outros fatos."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Noites pendurado vs. olho."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Fração de guerreiros vs. carruagem de gatos."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Número de avatares vs. identificar imagem."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Garras vs. país da imagem."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Intervalo da fênix vs. imagem."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Doze deuses vs. montanha mais alta."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Oliveira vs. coruja."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Motivo da ira vs. identificar estátua."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Causa do suicídio vs. descrição de Ájax."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Morte de Remo vs. rio Tibre."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Queda de Belerofonte vs. nascimento de Pégaso."
+    },
+    {
+      "caso": 35,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: a esperança ficou no jarro.",
+      "id_existente": "q19232"
+    },
+    {
+      "caso": 36,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: humanos feitos de milho.",
+      "id_existente": "q03524"
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Lira de tartaruga vs. função psicopompo."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Resposta do enigma vs. quem decifrou."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Capacete de Hades vs. imagem."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Ilha de nascimento vs. parentesco."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Cordilheira vs. outros fatos."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Quem libertou Prometeu é outro fato."
+    },
+    {
+      "caso": 43,
+      "decisao": "nova",
+      "motivo": "Apolo e Píton vs. monte/Sócrates."
+    },
+    {
+      "caso": 44,
+      "decisao": "nova",
+      "motivo": "Musa da história vs. museu."
+    }
+  ]
+}

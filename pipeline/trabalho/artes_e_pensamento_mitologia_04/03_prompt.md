@@ -1,0 +1,1891 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Mitologia** (tema **Artes e Pensamento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Atlas (mitologia)",
+      "descricao": "Titã da mitologia grega condenado por Zeus a sustentar o céu nos ombros."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Condenado por Zeus a sustentar o céu nos ombros, um titã grego deu nome à primeira vértebra do pescoço, que sustenta o crânio. Que titã é esse?",
+    "resposta": "Atlas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atlas_(anatomy)",
+      "https://pt.wikipedia.org/wiki/Atlas_(mitologia)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Atlas_(anatomy)",
+        "situacao": "ok",
+        "texto": "In anatomy, the atlas (C1) is the most superior (first) cervical vertebra of the spine and is located in the neck.\n[…]\nThe bone is named after Atlas of Greek mythology, just as Atlas bore the weight of the heavens, the first cervical vertebra supports the head. However, the term atlas was first used by the ancient Romans for the seventh cervical vertebra (C7) due to its suitability for supporting burdens. In Greek mythology, Atlas was condemned to bear the weight of the heavens as punishment for rebelling against Zeus.\n[…]\nThe atlas is the topmost vertebra and the axis (the vertebra below it) forms the joint connecting the skull and spine. The atlas and axis are specialized to allow a greater range of motion than normal vertebrae. They are responsible for the nodding and rotation movements of the head.\n[…]\nThe atlanto-occipital joint allows the head to nod up and down on the vertebral column. The dens acts as a pivot that allows the atlas and attached head to rotate on the axis, side to side.\n[…]\nJust below the medial margin of each superior facet is a small tubercle, for the attachment of the transverse atlantal ligament which stretches across the ring of the atlas and divides the vertebral foramen into two unequal parts:\n[…]\nForamen arcuale or a bony bridge above the vertebral artery on the posterior arch of the atlas may be present. This foramen has an overall prevalence of 9.1%. Arch defects refer to the condition where a gap or cleft exists at the anterior arch or posterior arch of the atlas. The prevalence of the posterior arch defect and anterior arch defect was 0.95% and 0.087%, respectively."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Atlas_(mitologia)",
+        "situacao": "ok",
+        "texto": "Atlas (em grego:  Άτλας), também chamado Atlante, na mitologia grega, é um dos titãs condenado por Zeus a sustentar os céus para sempre. Era um rei da Mauritânia, correspondendo ao conhecido defensor da Terra que entrou na cultura popular; Este Atlas é um Titã de segunda geração e não deve ser confundido com o filho de Poseidon e Cleito mencionado nos diálogos de Platão, Timeu e Crítias. O \"Oceano\n[…]\nO nome de Atlântida mencionado no diálogo Timeu de Platão deriva de \"Atlantis nesos\" (grego antigo: Ἀτλαντὶς νῆσος), que significa literalmente \"Ilha de Atlas\".\n[…]\nPorém, para Atlas, deu-lhe o castigo de sustentar para sempre nos ombros o céu. Seu nome passou a significar \"portador\" ou \"sofredor\". Assim punido, passou a morar no país das hespérides, as três ninfas do Poente: Eagle, Eritia, Hesperatetusa.\n[…]\nAtlas passou a ser o guardião dos Pilares de Héracles, sobre os quais os céus foram colocados, e que também eram a passagem para o lar oceânico de Atlântida - o estreito de Gibraltar, e por isso toda a cordilheira do norte da África recebeu o nome de Cordilheira de Atlas. Tornou-se o primeiro rei de Atlântida, e por ser o senhor das águas distantes, além do mar Mediterrâneo, seu nome foi utilizado para designar o oceano Atlântico.\n[…]\nCasou-se com Pleione, tendo sete filhas, as Plêiades: Alcíone, Maia, Electra, Mérope, Taigete, Celeno e Astérope. Por conhecer o caminho das terras distantes, na cartografia passou a representar a coleção de mapas da Terra. E por ter sustentado o céu, deu-se o nome de Atlas à primeira vértebra da coluna cervical - uma referência ao peso gigantesco a que fora condenado a suportar.\n[…]\nO mito de Atlas representa o peso das dificuldades cotidianas que pesam sobre nossos ombros e, embora possamos considerar que sejam pesados demais, o que está sobre Atlas, a primeira vértebra da coluna cervical, é apenas a nossa cabeça, que guarda a nossa mente.\n[…]\nAtlante (coluna)"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Hidra de Lerna",
+      "descricao": "Serpente de muitas cabeças da mitologia grega, morta por Hércules num de seus doze trabalhos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que minúsculo animal de água doce, capaz de regenerar partes cortadas do corpo, foi batizado com o nome do monstro de várias cabeças vencido por Hércules?",
+    "resposta": "Hidra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hydra_(genus)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hydra_(genus)",
+        "situacao": "ok",
+        "texto": "Hydra ( HY-drə) is a genus of small freshwater hydrozoans in the phylum Cnidaria. They are solitary, carnivorous jellyfish-like animals, native to the temperate and tropical regions. The genus was named by Linnaeus in 1758 after the Hydra, the mythical many-headed beast that was defeated by Heracles, as when the animal has a part severed, it will regenerate much like the mythical Hydra's heads.\n[…]\nBiologists are especially interested in Hydra because of their regenerative ability; they do not appear to die of old age, or to age at all.\n[…]\nIf the Hydra is sliced into many segments, the middle slices form both a \"head\" and a \"foot\". The polarity of the regeneration is explained by two pairs of positional value gradients. There is both a head and foot activation and inhibition gradient. The head activation and inhibition works in an opposite direction of the pair of foot gradients. The evidence for these gradients was shown in the early 1900s with grafting experiments.\n[…]\nHydras are capable of regenerating from pieces of tissue from the body and additionally after tissue dissociation from reaggregates. This process takes place not only in the pieces of tissue excised from the body column, but also from re-aggregates of dissociated single cells. It was found that in these aggregates, cells initially distributed randomly undergo sorting and form two epithelial cell layers, in which the endodermal epithelial cells play more active roles in the process.\n[…]\nIn the video game Terra Invicta, the aliens attacking the Earth come to be nicknamed \"hydras\" due to their similarity to the real-world animal. They share a number of common traits, such as tentacles around their mouth, tissue regeneration, and lacking senescence."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hydra_%28g%C3%A9nero%29",
+        "situacao": "ok",
+        "texto": "A hidra (gênero Hydra) é uma espécies de animal cnidário de corpo cilíndrico e em forma de pólipo. Vive em água doce, preferencialmente em águas frias e limpas, presa por uma extremidade a um rocha ou à vegetação aquática. Tem cor verde, parda ou cinza. As hidras são animais vágeis, locomovendo-se ao longo das superfícies que ocupa.\n[…]\nA hidra faz parte do grupo de celenterados (metazoários celenterados).\n[…]\nOs celenterados são também chamados cnidários. A água-viva, a caravela, a hidra e os corais são alguns exemplos de celenterados. Eles são aquáticos e vivem principalmente no mar.\n[…]\nA hidra pode também reproduzir-se assexuadamente (gemiparidade ou brotamento): Neste caso da hydra, nasce um gomo na superfície da hidra, que cresce e, quando já está madura, separa-se da hidra-mãe. Em seguida, fixa-se em algum lugar e continua a desenvolver-se independentemente. A reprodução assexuada também possui capacidade de regeneração.\n[…]\nA hidra é um animal único no aspecto que ela nunca, jamais envelhece, podendo teoricamente viver para sempre. Na prática, é claro, em algum momento ela acaba morrendo devido a doença ou predadores.\n[…]\nDiferente da regeneração em planárias, a hidra se regenera sem proliferação celular. O que ocorre é a transformação das células e tecidos já existentes em novas estruturas por meio de desdiferenciação celular. Esse tipo de regeneração foi primeiramente descrita e denominada morfalaxia por Thomas Hunt Morgan, em 1901.\n[…]\nA partir dos anos 2000 foram encontradas diversas moléculas da cascata Wnt nas regiões terminais da hidra durante a regeneração da cabeça ou do disco pedal, como a HyWnt (molécula de sinalização Wnt específica ao gênero Hydra), a β-catenina e a TCF, todos responsáveis pela regulação da proliferação e reorganização celulares.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Hefesto",
+      "descricao": "Deus grego do fogo, da forja e dos metais, ferreiro dos deuses."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que fenômeno geológico tem nome derivado do deus romano equivalente a Hefesto, o deus grego do fogo e da forja?",
+    "resposta": "Vulcão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vulcan_(mythology)",
+      "https://en.wikipedia.org/wiki/Volcano"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vulcan_(mythology)",
+        "situacao": "ok",
+        "texto": "Vulcan (Latin: Vulcanus, in archaically retained spelling also Volcanus, both pronounced [wʊɫˈkaːnʊs]) is the god of fire including the fire of volcanoes, deserts, metalworking and the forge in ancient Roman religion and myth. He is often depicted with a blacksmith's hammer. The Vulcanalia was the annual festival held August 23 in his honor. His Greek counterpart is Hephaestus, the god of fire and\n[…]\nAt Ostia the cult of the god, as well as his sacerdos, was the most important of the town. The sacerdos was named pontifex Vulcani et aedium sacrarum: he had under his jurisdiction all the sacred buildings in town and could give or withhold the authorisation to erect new statues to Eastern divinities. He was chosen for life, perhaps by the council of the decuriones, and his position was the equivalent of the pontifex maximus in Rome.\n[…]\nThe Vulcan statue located in Birmingham, Alabama is the largest cast iron statue in the world.\n[…]\nVulcan is featured in the film The Adventures of Baron Munchausen by Terry Gilliam.\n[…]\nVulcan is a main character in the novel The Automation by B.L.A. and G.B. Gabbler. His role is often a \"deus ex machina\" one, but he and his wife (called Venus) are still essential to the overall plot.\n[…]\nVulcan is a character in the Starz TV series American Gods, based on the novel by Neil Gaiman. He is not a character in the novel and is now the \"god of guns\" in this version, using the forge at his ammunition factory as a symbolic representation of a volcano.\n[…]\nVulcan is a character in the John Prine song, \"The Lonesome Friends of Science\" from his last album, The Tree of Forgiveness released in 2018.\n[…]\nThe M61A1 20mm cannon fitted to many Western combat aircraft is named for Vulcan as the bringer of fire.\n[…]\nVulcan Iron Works\n[…]\nVulcanization\n[…]\nThe Warburg Institute Iconographic Database (images of Vulcan)\n[…]\nVulcanalia article in William Smith's Dictionary of Greek and Roman Antiquities"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Volcano",
+        "situacao": "ok",
+        "texto": "A volcano is a vent or fissure in the crust of a planetary-mass object that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface. On Earth, volcanoes are most often found where tectonic plates are diverging or converging, and because most of Earth's plate boundaries are underwater, most volcanoes are found underwater.\n[…]\nSome volcanoes can be low-relief landform features, with the potential to be hard to recognize as such and be obscured by geological processes.\n[…]\nThe USGS defines a dormant volcano as any volcano that is not showing any signs of unrest such as earthquake swarms, ground swelling, or excessive noxious gas emissions, but which shows signs that it could yet become active again. Many dormant volcanoes have not erupted for thousands of years, but have still shown signs that they may be likely to erupt again in the future. Technically, any volcano that is dormant is also considered to be geologically \"active\".\n[…]\nIn 1650, René Descartes proposed the core of Earth was incandescent and, by 1785, the works of Decartes and others were synthesized into geology by James Hutton in his writings about igneous intrusions of magma. Competing views existed in the geology academic mainstream by 1828 based on the heat in centre of the earth being transmitted to the surface by accidental vents or lava being a heated expansive elastic fluid.\n[…]\nLazzaro Spallanzani had demonstrated by 1794 that steam explosions could cause explosive eruptions and many geologists held this as the universal cause of explosive eruptions up to the 1886 eruption of Mount Tarawera which allowed in one event differentiation of the concurrent phreatomagmatic and hydrothermal eruptions from dry explosive eruption, of, as it turned out, a basalt dyke."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vulcano_%28mitologia%29",
+        "situacao": "ok",
+        "texto": "Vulcano era o deus romano do fogo original, mais tarde identificado com o artesão divino Hefesto da mitologia grega, filho de Júpiter e de Juno ou ainda, segundo alguns mitólogos, somente de Juno com o  auxílio do Vento.\n[…]\nFoi lançado aos mares devido ao orgulho de sua mãe pela sua beleza; foi, porém, recolhido por Tétis e Eurínome, filhas de Oceano. Noutras versões, a sua beleza era tal mesmo recém-nascido, que Júpiter o teria abraçado e elogiado. A esse facto se deveria a sua formosura, pois Vulcano era esbelto.\n[…]\nSua figura era representada como um ferreiro. Era ele quem forjava os raios, atributo de Júpiter. Este deus, o mais belo de todos, era o marido de Vénus (a Afrodite grega), a deusa da beleza e do amor, que, aliás, lhe era tremendamente fiel.\n[…]\nNo entanto, Vulcano forjou armas especiais para Eneias, filho de Vénus, de Anquises e de Troia, e para Aquiles quando este havia emprestado para Pátroclo,que por sua vez a perdeu para Heitor.\n[…]\nE também em certa altura, Vulcano preparou uma rede com que armadilhou a cama onde Vénus e Marte mantinham uma relação adúltera. Deste modo o deus ferreiro conseguiu demonstrar a infidelidade da sua esposa, que no entanto foi perdoada por Júpiter, Vulcano mais tarde se tornou consorte da deusa da primavera Maia Maiestas.\n[…]\nA obra retrata um encontro amoroso entre Vulcano, deus romano do fogo e da metalurgia, e Maia, antiga deusa itálica associada à primavera. A pintura, de Bartholomäus Spranger, foi realizada por volta de 1585 e encontra-se no Kunsthistorisches Museum, em Viena.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Quimera",
+      "descricao": "Monstro da mitologia grega que cuspia fogo, morto pelo herói Belerofonte."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em biologia, um organismo com células de dois indivíduos geneticamente diferentes leva o nome de qual monstro grego, mistura de leão, cabra e serpente?",
+    "resposta": "Quimera",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chimera_(genetics)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chimera_(genetics)",
+        "situacao": "ok",
+        "texto": "A genetic chimerism or chimera (en-US), also chimaerism or chimaera (en-UK), ( ky-MEER-ə, kih-) is a single organism composed of cells of different genotypes. Animal chimeras can be produced by the fusion of two (or more) embryos. In plants and some animal chimeras, mosaicism involves\n[…]\nChimerism has been found in some species of marine sponges. Four distinct genotypes have been found in a single individual, and there is potential for even greater genetic heterogeneity. Each genotype functions independently in terms of reproduction, but the different intra-organism genotypes behave as a single large individual in terms of ecological responses like growth.\n[…]\nGermline chimerism occurs when the germ cells (for example, sperm and egg cells) of an organism are not genetically identical to its own. It has been recently discovered that marmosets can carry the reproductive cells of their (fraternal) twin siblings due to placental fusion during development. (Marmosets almost always give birth to fraternal twins.)\n[…]\nThese are produced by grafting genetically different parents, different cultivars or different species (which may belong to different genera). The tissues may be partially fused together following grafting to form a single growing organism that preserves both types of tissue in a single shoot. Just as the constituent species are likely to differ in a wide range of features, so the behavior of their periclinal chimeras is like to be highly variable.\n[…]\nChimeric mice are important animals in biological research, as they allow for the investigation of a variety of biological questions in an animal that has two distinct genetic pools within it. These include insights into problems such as the tissue specific requirements of a gene, cell lineage, and cell potential."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quimerismo",
+        "situacao": "ok",
+        "texto": "Quimerismo genético, ou simplemente quimerismo, é quando duas ou mais populações de células geneticamente distintas com origem em zigotos diferentes; se as diferentes células surgiram a partir do mesmo zigoto, é o chamado mosaico. Atinge animais, plantas e humanos. O quimerismo é raro em seres humanos, há registro de apenas 30 casos.\n[…]\nQuimeras são formadas a partir de quatro células-mãe (ou dois ovos fertilizados) ou de três células-mãe (um ovo fertilizado se funde com um ovo infértil ou um ovo fertilizado se funde com um espermatozoide extra). Cada população de células mantém o seu próprio caráter e o animal é uma mistura das correspondidas partes.\n[…]\nO quimerismo em humanos acontece quando dois óvulos fecundados se fundem antes do quarto dia de gestação, misturando as informações genéticas sem que o indivíduo sofra grandes mutações. Se a fusão entre os óvulos ocorrer após o quarto dia, eles produzirão gêmeos xifópagos (siameses).\n[…]\nDe acordo com o segundo exame, os pais da mãe eram realmente os avós, mas o DNA correspondente a parte da mãe era igual a de seu irmão. Dada a impossibilidade de dois homens terem um mesmo filho, percebeu-se que havia algo incomum com a mãe. Após vários testes de DNA, foi comprovado que a mãe era uma quimera genética.\n[…]\nUma pessoa normalmente carrega 50% da informação genética da mãe e 50% da informação genética do pai; indivíduos que possuem quimerismo carregam 100% da informação genética de ambos e com informações genéticas diferentes em seu próprio corpo. No caso acima, a mulher possuía 100% do DNA de seu pai nos cabelos e nada do de sua mãe. Já em um amostra de pele, foi encontrado 100% do DNA da mãe e nenhum traço do DNA do pai.\n[…]\nA prova pericial: o quimerismo genético e suas implicações para o mundo do Direito. JurisWay.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Sereias (mitologia grega)",
+      "descricao": "Criaturas da mitologia grega que atraíam marinheiros para a morte com seu canto."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que aparelho de alarme sonoro, usado em ambulâncias e viaturas de polícia, tem o nome das criaturas gregas que atraíam marinheiros com seu canto?",
+    "resposta": "Sirene",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Siren_(alarm)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Siren_(alarm)",
+        "situacao": "ok",
+        "texto": "A siren is a noise-making warning device. There are two general types: mechanical sirens and electronic sirens. Civil defense sirens are mounted in fixed locations and used to warn of natural disasters or attacks. Sirens are used on emergency service vehicles such as ambulances, police cars, and fire engines.\n[…]\nBecause of its high current draw (100 amps when power is applied) its application is normally limited to fire apparatus, though it has seen increasing use on type IV ambulances and rescue-squad vehicles. Its distinct tone of urgency, high sound pressure level (123 dB at 10 feet) and square sound waves account for its effectiveness."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sirene",
+        "situacao": "ok",
+        "texto": "Uma sirene é um dispositivo sonoro utilizada para fazer soar alarmes sonoros. As sirenes de defesa civil são montadas em locais fixos e usadas para alertar sobre desastres naturais ou ataques. As sirenes são usadas em veículos de serviço de emergência, como ambulâncias, carros de polícia e carros de bombeiros. Há dois tipos gerais: mecânica e eletrônica.\n[…]\nEmbora já tenha sido utilizada como instrumento musical (por exemplo, George Gershwin na obra An American in Paris em 1928, ou Edgar Varèse na obra \"Ionization\" em 1931), a sirene geralmente não é vista como tal.\n[…]\nA sirene é constituída por um cilindro de baixa altura, perfurado nas suas duas faces planas, e por um disco rotativo, também ele perfurado, que se encontra no interior do cilindro. Esse disco é posto em rotação através de uma manivela, e a sucessiva interrupção do fluxo de ar entre os furos do cilindro e do disco provoca redemoinhos acústicos que vão provocar o característico “uivo” da sirene. A altura do som depende da velocidade da rotação.\n[…]\nComo instrumento musical, a sirene é considerada um aerofone livre de interrupção e de rotação.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Valquírias",
+      "descricao": "Figuras femininas da mitologia nórdica que escolhem quais guerreiros morrem em batalha."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "No nórdico antigo, o que significa a palavra valquíria, nome das guerreiras mitológicas a serviço de Odin?",
+    "resposta": "Escolhedora dos mortos",
+    "distratores": [
+      "Filha da tempestade",
+      "Senhora dos cisnes",
+      "Guardiã dos escudos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Valkyrie"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Valkyrie",
+        "situacao": "ok",
+        "texto": "In Norse mythology, a valkyrie ( VAL-kirr-ee or  val-KEER-ee; from Old Norse: valkyrja, lit. 'chooser of the slain') is one of a host of female figures who guide souls of the dead to the god Odin's hall Valhalla. There, the deceased warriors become einherjar ('single fighters' or 'once fighters'). When the einherjar are not preparing for the cataclysmic events of Ragnarök, the valkyries bear them \n[…]\nCommenting on the figure, archaeologist Mogens Bo Henriksen said that \"there can hardly be any doubt that the figure depicts one of Odin's valkyries as we know them from the sagas as well as from Swedish picture stones from the time around AD700\".\n[…]\nRegarding the dísir, Simek states that Old Norse dís appears commonly as simply a term for \"woman\", just as Old High German itis, Old Saxon idis and Old English ides, and may have also been used to denote a type of goddess. According to Simek, \"several of the Eddic sources might lead us to conclude that the dísir were valkyrie-like guardians of the dead, and indeed in Guðrúnarkviða I 19 the valkyries are even called Herjans dísir \"Odin's dísir\".\n[…]\nSimek says that this original concept was \"superseded by the shield girls—Irish female warriors who lived on like the einherjar in Valhall.\" Simek says that the valkyries were closely associated with Odin, and that this connection existed in an earlier role as \"demons of death\".\n[…]\nIn video games, valkyries are featured in Gauntlet (1985), the Valkyrie Profile series (1999–onwards), Age of Mythology (2002), Odin Sphere (2007; remake in 2016), God of War (2018) and God of War Ragnarök (2022), and Valkyrie Elysium (2022). The aforementioned Marvel character Valkyrie features in various video games based on Marvel comics and the Marvel Cinematic Universe, including Marvel Heroes and Lego Marvel's Avengers (see full list in the Valkyrie article)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Valqu%C3%ADrias",
+        "situacao": "ok",
+        "texto": "As valquírias ou valkirias (nórdico antigo: valkyrja, lit. \"a que escolhe os mortos\"), na mitologia nórdica, são dísir, deidades femininas menores que serviam Odin sob as ordens de Freya. O seu propósito era eleger os mais heróicos guerreiros mortos em batalha e conduzi-los ao salão dos mortos, Valhalla, regido por Odin, onde se convertiriam em einherjar.\n[…]\nA palavra valquíria deriva do nórdico antigo valkyrja (plural valkyrjur), que é composta por duas palavras; o substantivo valr (que se refere aos mortos em batalha) e o verbo kjósa (que significa \"escolher\"). Juntos, significam \"escolher os mortos\". O nórdico antigo valkyrja é um cognato do inglês antigo wælcyrge. Outros termos para valquírias incluem óskmey (nórdico antigo \"serva desejada\"), surgem no poema Oddrúnargrátr e  Óðins meyjar (nórdico antigo \"serva de Odin\"), aparece em Nafnaþulur.\n[…]\nÓskmey talvez esteja relacionado com o nome de Odin Óski (nórdico antigo, que significa aprox. \"desejo do ocumpridor\"), referindo-se ao facto de Odin acolher guerreiros mortos em Valhalla.\n[…]\nElas trazem a bebida e cuidam da mesa e das taças de cerveja.\" Em seguida, Hár cita uma estrofe do poema Grímnismál que contém uma lista de valquírias e acrescenta: \"estas mulheres são chamadas valquírias, e são enviadas por Odin a todas as batalhas, onde escolhem quais os homens que devem morrer e determinam quem obtém a vitória\".\n[…]\nHár refere ainda que Gunnr (\"guerra\"), Róta e Skuld — esta última a quem ele se refere como \"a norna mais jovem\" — \"cavalgam sempre para escolher os mortos e decidir o desfecho da batalha\". No capítulo 49, Hár descreve que quando Odin e a sua esposa Frigg chegaram ao funeral do seu filho assassinado, Baldr, foram acompanhados pelas valquírias e também pelos corvos de Odin.\n[…]\nMulheres guerreiras na cultura\n[…]\nOperação Valquíria",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Ragnarök",
+      "descricao": "Na mitologia nórdica, a batalha final e a destruição do mundo, em que morrem muitos deuses."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na mitologia nórdica, a batalha final que destrói o mundo se chama Ragnarök. O que esse nome significa literalmente?",
+    "resposta": "Destino dos deuses",
+    "distratores": [
+      "Fúria dos gigantes",
+      "Noite dos lobos",
+      "Queda da árvore"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ragnarök"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ragnarök",
+        "situacao": "ok",
+        "texto": "In Norse mythology, Ragnarök (also Ragnarok;   RAG-nə-rok or  RAHG-; Old Norse: Ragnarǫk [ˈrɑɣnɑˌrɒk]) is a foretold series of impending events, including a great battle in which numerous great Norse mythological figures will perish (including the gods Odin, Thor, Týr, Freyr, Heimdall, and Loki); it will entail a catastrophic series of natural disasters, including the burning of the world, and cul\n[…]\nZoëga treats the two forms as two separate compounds, glossing ragnarök as 'the doom or destruction of the gods' and ragnarøkkr as 'the twilight of the gods.' The plural noun rök has several meanings, including 'development', 'origin', 'cause', 'relation', 'fate.' The word ragnarök as a whole is then usually interpreted as the 'final destiny of the gods.'\n[…]\nThe Christian thought of the Last Judgment as it is presented in the Book of Revelation is similar to the apocalyptic story of Ragnarök, which features imagery of a final cosmic conflict, devastation, and eventual renewal. Key elements, such as the role of a savior figure and the contrast between divine forces and evil, may mirror Christian theological concepts brought during the conversion of Scandinavia.\n[…]\nThe myth is central to the 2017 Marvel Cinematic Universe film Thor: Ragnarok, at whose climax the demon Surtur destroys Asgard as its people flee into space under the guidance of Thor, Valkyrie, Loki, Heimdall, Hulk, and Korg.\n[…]\nNorse mythology and climate change inspired the eponymous TV series Ragnarok. The town of Edda in Western Norway is plagued by climate change and industrial pollution caused by the factories owned by the Jutul family, a group of jötunn. They are challenged by a teenage boy, Magne, the reincarnation of Thor. Thus begins the event Ragnarok (\"twilight of the gods\"), the fight against those who are destroying the planet.\n[…]\nGuide of Norse Mythology Characters related to Ragnarök"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ragnar%C3%B6k",
+        "situacao": "ok",
+        "texto": "Na mitologia nórdica, Ragnarök (em português:  destino final dos deuses), representa a escatologia nórdica, marcado por uma série de eventos que conduziriam ao fim do mundo.\n[…]\nNo Edda em prosa e em um único poema no Edda poética, o evento é conhecido como Ragnarökr ou Ragnarökkr (nórdico antigo: \"Destino dos Deuses\" e \"Crepúsculo dos Deuses\", respectivamente), um termo popularizado no século XIX pelo compositor Richard Wagner por ser o título da última ópera da tetralogia Der Ring des Nibelungen, Götterdämmerung.\n[…]\nA palavra do nórdico antigo \"ragnarök\" é um composto de duas palavras. A primeira palavra do composto, ragna, é o plural genitivo de regin (\"deuses\" ou \"poderes dominantes\"), derivado do termo proto-germânico reconstruído ragenō. A segunda palavra, rök, tem vários significados, tais como \"desenvolvimento, origem, causa, relação, destino, final.\" A interpretação tradicional é que, antes da fusão de /ǫ/ e /ø/ (ca. 1200) a palavra era rök, derivada da proto-germânica rakō.\n[…]\nA palavra ragnarök como um todo é, então, geralmente interpretada como o \"destino final dos deuses.\" Em 2007, Haraldur Bernharðsson propôs que a forma original da segunda palavra no composto é røk, levando a uma reconstrução proto-germânica da rekwa e abrindo outras possibilidades de semânticas.\n[…]\nRégis Boyer nota uma possível confusão entre o Ragnarök, uma batalha final onde os principais deuses nórdicos e guerreiros morrem, e a batalha eterna onde deuses pagãos nórdicos não morrem, apenas os guerreiros arriscam a morte, mas retomam a vida após o combate para comemorar. É um texto muito antigo que é encontrado em vários documentos como o Hjadninga vig.\n[…]\nMitologia nórdica",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Tyr",
+      "descricao": "Deus nórdico da guerra e da justiça."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em inglês, que dia da semana homenageia Tyr, o deus nórdico que perdeu a mão direita para o lobo Fenrir?",
+    "resposta": "Terça-feira (Tuesday)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tuesday",
+      "https://en.wikipedia.org/wiki/Týr"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tuesday",
+        "situacao": "ok",
+        "texto": "Tuesday  is the day of the week between Monday and Wednesday. According to international standard ISO 8601, Monday is the first day of the week; thus, Tuesday is the second day of the week. According to many traditional calendars, however, Sunday is the first day of the week, so Tuesday is the third day of the week. In some Muslim countries, Saturday is the first day of the week and thus Tuesday i\n[…]\nIn the folk rhyme Monday's Child, \"Tuesday's child is full of grace\".\n[…]\nIn astrology, Tuesday is aligned by the planet Mars and the astrological signs of Aries and Scorpio.\n[…]\nBlack Tuesday, in the United States, refers to Tuesday, October 29, 1929, part of the great Stock Market Crash of 1929. This was the Tuesday after Black Thursday.\n[…]\nEaster Tuesday is the Tuesday within the Octave of Easter.\n[…]\nHoly Tuesday is the Tuesday of Holy Week, preceding Easter. It commemorates the return of Jesus to Jerusalem from Bethany and the Cursing of the fig tree.\n[…]\nPatch Tuesday is the second Tuesday of every month when Microsoft releases patches for their products. Some system administrators call this day Black Tuesday.\n[…]\nShrove Tuesday (also called Mardi Gras – Fat Tuesday) precedes the first day of Lent in the Western Christian calendar.\n[…]\nSuper Tuesday is the day many American states hold their presidential primary elections.\n[…]\nTwosday (portmanteau of two and Tuesday) is the name given to Tuesday, February 22, 2022, and an unofficial one-time secular observance held on that day.\n[…]\nTravel Tuesday is an unofficial observance occurring the Tuesday after Thanksgiving.\n[…]\nGiving Tuesday, or #GivingTuesday, is a day encouraging people to do good and a global movement to promote generosity. It takes place on the Tuesday following Black Friday and was launched in 2012 in the United States.\n[…]\nMedia related to Tuesday at Wikimedia Commons\n[…]\nQuotations related to Tuesday at Wikiquote\n[…]\nThe dictionary definition of Tuesday at Wiktionary"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Týr",
+        "situacao": "ok",
+        "texto": "Týr (; Old Norse: Týr, pronounced [tyːr]) is a god in Germanic mythology and member of the Æsir. In Norse mythology, which provides most of the surviving narratives about gods among the Germanic peoples, Týr sacrifices his right hand to the monstrous wolf Fenrir, who bites it off when he realizes the gods have bound him. Týr is foretold of being consumed by the similarly monstrous dog Garmr during\n[…]\nBy way of the opposite process of interpretatio germanica, Tuesday is named after Týr ('Týr's day'), rather than Mars, in English and other Germanic languages.\n[…]\nThe modern English weekday name Tuesday comes from the Old English tīwesdæg, meaning 'day of Tīw'. It is cognate with Old Norse Týsdagr, Old Frisian Tīesdi, and Old High German Ziostag (Middle High German Zīstac). All of them stem from Late Proto-Germanic *Tiwasdag ('Day of *Tīwaz'), a calque of Latin Martis dies ('Day of Mars'; cf. modern Italian martedì, French mardi, Spanish martes). This attests to an early Germanic identification of *Tīwaz with Mars.\n[…]\nGermanic weekday names for Tuesday that do not transparently extend from the above lineage may also ultimately refer to the deity, including Middle Dutch Dinxendach and Dingsdag, Middle Low German Dingesdach, and Old High German Dingesdag (modern Dienstag). These forms may refer to the god's association with the thing (*þingsaz), a traditional legal assembly common among the ancient Germanic peoples with which the god is associated.\n[…]\nThe Latin deity Mars was occasionally glossed by Old English writers by the name Tīw or Tīg. The genitive tīwes also appears in the name for Tuesday, tīwesdæg.\n[…]\nA Viking Age hogback in Sockburn, County Durham, England may depict Týr and Fenrir. In a similar fashion, a silver button was found in Hornsherred, Denmark, during 2019 that is interpreted to portray Týr fighting against the wolf Fenrir."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ter%C3%A7a-feira",
+        "situacao": "ok",
+        "texto": "A terça-feira ou terça é um dia útil considerado o terceiro dia da semana, seguindo a segunda-feira e precedendo a quarta-feira.\n[…]\nDias da semana\n[…]\nPor ordenação de trabalho e lazer e pela normalização ISO, a terça-feira é considerada o segundo dia da semana, sendo assim na maioria dos calendários em todo o mundo.\n[…]\nA palavra é originária do latim Tertia Feria, que significa \"terça feira\", e de mesma acepção existe em galego (terza feira / terceira feira), mirandês (terça) e tétum (loron-tersa).\n[…]\nPovos pagãos antigos reverenciavam seus deuses dedicando este dia ao astro Marte, o que originou outras denominações, em português antigo martes,[carece de fontes]? em espanhol diz-se martes, no italiano martedì e em francês mardi, com os significados de \"Marte\" e \"dia de Marte\". Em inglês diz-se Tuesday, \"dia de Tiw\", e em alemão Dienstag, \"dia de Tiwaz\".\n[…]\nOs nomes dos dias da semana em português têm a sua origem na liturgia católica. Na maior parte das outras línguas românicas, a sua origem são nomes de deuses pagãos romanos aos quais os dias eram dedicados, neste caso a terça-feira era dedicada a divindade romana Marte (este por sua vez inspirado no deus grego Ares).\n[…]\nNo caso de muitas línguas germânicas, como o inglês, houve um processo de interpretações germânicas do significado do termo em latim \"Martes dies\" (\"dia de Marte\") que levou o deus germânico Týr ser equiparado a Marte. Em japonês, a palavra para terça-feira é 火曜日 (ka youbi), que significa 'dia de fogo' e está associada a 火星 (kasei): Marte, que significa literalmente \"estrela do fogo\".\n[…]\nSemana\n[…]\nDias da semana",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Afrodite",
+      "descricao": "Deusa grega do amor e da beleza."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Teogonia, Hesíodo diz que o nome de Afrodite vem de uma palavra grega ligada ao nascimento da deusa no mar. Que palavra é essa?",
+    "resposta": "Espuma",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aphrodite"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aphrodite",
+        "situacao": "ok",
+        "texto": "Aphrodite ( ) is an ancient Greek goddess associated with love and beauty. Aphrodite's main cult centers were Cythera, Cyprus, Corinth, and Athens. In Athens, she was celebrated annually during the Aphrodisia festival. In Laconia, Aphrodite was worshipped as a warrior goddess. She was the patron goddess of prostitutes, an association which led early scholars to propose the concept of sacred prosti\n[…]\n1534, which he called the Venus of Urbino, although the painting contains none of Aphrodite/Venus's traditional iconography, and the woman is in a contemporary setting.\n[…]\nExamples of such works of literature include the novel The Tinted Venus: A Farcical Romance (1885) by Thomas Anstey Guthrie and the short story The Venus of Ille (1887) by Prosper Mérimée, both of which are about statues of Aphrodite that come to life. Another noteworthy example is Aphrodite in Aulis by the Anglo-Irish writer George Moore, which revolves around an ancient Greek family who moves to Aulis.\n[…]\nThe French writer Pierre Louÿs titled his erotic historical novel Aphrodite: mœurs antiques (1896) after the Greek goddess. The novel enjoyed widespread commercial success, but scandalized French audiences due to its sensuality and its decadent portrayal of Greek society. In European literature, her name (including as 'Venus') was metonymic for sex.\n[…]\nIn cinema, the symbolism of the goddess of love has been central to William A. Seiter's 1948 film One Touch of Venus starring Ava Gardner, and to Woody Allen's 1995 film Mighty Aphrodite.\n[…]\nArscott, Caroline; Scott, Katie, eds. (2000), Manifestations of Venus: Art and Sexuality, Critical Perspectives in Art History, Manchester University Press, ISBN 978-0-7190-5522-5\n[…]\nFlemberg, Johan, Venus Armata. Studien zur bewaffneten Aphrodite in der griechisch-römischen Kunst, Stockholm, Paul Aströms Förlag, 1991. ISBN 978-91-7916-022-7."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Afrodite",
+        "situacao": "ok",
+        "texto": "Afrodite (em grego:  Αφροδίτη, transl.: Aphrodítē) é a deusa do amor, da beleza e da sexualidade na antiga religião grega. Responsável pela perpetuação da vida, prazer e alegria. Historicamente, seu culto na Grécia Antiga foi importado da Ásia, influenciado pelo culto de Astarte, na Fenícia, e de sua cognata, a deusa Ishtar dos acádios. Ambas eram deusas do amor, e seus atributos e rituais foram i\n[…]\nNa mitologia grega, a versão mais famosa do seu nascimento contada por Hesíodo, ela nasceu quando Cronos cortou os órgãos genitais de Urano e arremessou-os no mar; da espuma (aphros) surgida ergueu-se Afrodite. No entanto para Homero, anterior a Hesíodo, ela era filha de Zeus e Dione.\n[…]\nNa versão mais famosa do seu nascimento narrada por Hesíodo, ela teria surgido através de uma castração: Cronos teria cortado os órgãos genitais de seu pai Urano e os arremessado para dentro no mar. A espuma surgida da queda dos genitais na água, que alguns autores identificaram como sendo esperma, teriam fecundado Tálassa, personificação do mar, e dessa espuma originou-se Afrodite e outros seres como as Meliádes e Erínias.\n[…]\nNas palavras de Hesíodo, \"o pênis (...) aí muito boiou na planície, ao redor branca espuma da imortal carne ejaculava-se, dela uma virgem criou-se.\" Esta virgem se tornou Afrodite, flutuando até as margens sobre uma concha de vieira.\n[…]\nA Afrodite de Cnido feita por Praxíteles, que representa a deusa depois do nascimento, é uma das esculturas mais famosas da Antiguidade, e sua fama já era grande naquela época, dizia Plínio: \"De todas as partes da terra, navega-se em direção a Cnido, para contemplar a estátua de Afrodite.\" A estátua causou fascínio e assombro. Nos períodos arcaico e clássico da história grega, não se tinha o hábito de representar Afrodite no instante em que sai da espuma do mar, ou seja, inteiramente nua.\n[…]\n«Theoi» (em inglês). Site completo sobre mitologia grega",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Atena",
+      "descricao": "Deusa grega da sabedoria, da estratégia na guerra e dos ofícios, padroeira de Atenas."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O Partenon, na Acrópole de Atenas, tem nome tirado de um título da deusa Atena. O que esse título significa em grego?",
+    "resposta": "Virgem",
+    "distratores": [
+      "Sábia",
+      "Guerreira",
+      "Protetora"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Parthenon",
+      "https://pt.wikipedia.org/wiki/Partenon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Parthenon",
+        "situacao": "ok",
+        "texto": "The Parthenon (; Ancient Greek: Παρθενών, romanised: Parthenōn [par.tʰe.nɔ̌ːn]; Greek: Παρθενώνας, romanised: Parthenónas [parθeˈnonas]) is a former temple on the Athenian Acropolis, Greece, that was dedicated to the goddess Athena. Its decorative sculptures are considered some of the high points of classical Greek art, and the Parthenon is considered an enduring symbol of ancient Greece, Western \n[…]\nThe anterior portion was revealed by Ross in 1835 and is now held in the Acropolis Museum of Athens.\n[…]\nDuring the Greek War of Independence (1821–1833) which ended the 355-year Ottoman rule of Athens, the Acropolis was besieged twice, first by the Greeks in 1821–22 and then by the Ottoman forces in 1826–27. During the first siege, the besieged Ottoman forces attempted to melt the lead in the columns of the Parthenon to cast bullets. During the second siege, the Parthenon was significantly damaged by Ottoman artillery fire.\n[…]\nAn archaeological committee thoroughly documented every artefact remaining on the site, and architects assisted with computer models to determine their original locations. Particularly important and fragile sculptures were transferred to the Acropolis Museum.\n[…]\nThe last remaining slabs from the western section of the Parthenon frieze were removed from the monument in 1993 for fear of further damage. They have now been transported to the new Acropolis Museum. Until cleaning of the remaining sculptures was completed in 2005, black crusts and coatings were present on the marble surface.\n[…]\nBetween 20 January and the end of March 2008, 4200 items (sculptures, inscriptions small terracotta objects), including some 80 artefacts dismantled from the monuments in recent years, were removed from the old museum on the Acropolis to the new Acropolis Museum."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Partenon",
+        "situacao": "ok",
+        "texto": "Partenon (em grego antigo: Παρθενών, transl Parthenōn; em grego moderno Παρθενώνας, transl. Parthenónas) foi um templo dedicado à deusa grega Atena, construído no século V a.C.\n[…]\nna Acrópole de Atenas, na Grécia Antiga, por iniciativa de Péricles, governante da cidade, projetado pelos arquitetos Calícrates e Ictinos e decorado em sua maior parte pela oficina do escultor Fídias, que também executou a estátua criselefantina (feita de marfim e ouro) da deusa patrona da cidade, Atena Partenos, presente no interior do templo naquela época.\n[…]\nChristopher Pelling afirma que a Atena Partenos um culto dedicado a Atena, porém discreto, intimamente conectado, mas não idêntico, ao de Atena Polias (\"Atena da cidade\"). De acordo com esta teoria, o nome Partenon significa \"o templo da deusa virgem\" e refere-se ao culto de Atena Partenos que era associado ao templo.\n[…]\nO epíteto parthénos (παρθένος) não tem origem clara  podendo significar \"donzela, menina\", mas também \"virgem, mulher solteira\" e era especialmente usado em relação a Artemis, a deusa dos animais selvagens, da caça e vegetação, e para Atena, a deusa da estratégia e da tática, artesanato e artes, e da razão prática. É também sugerido que o nome do templo alude às donzelas (parthenoi), cujo sacríficio garantia a segurança da cidade de Atenas.\n[…]\nPausânias, o viajante do século II, que visitou a Acrópole e viu o Partenon, descreveu os frontões. O frontão do lado leste representa o nascimento de Atena saída da cabeça de Zeus, enquanto o do oeste apresenta a disputa entre ela e Poseidon pela cidade de Atenas. Esses trabalhos datam de 438−432 a.C.\n[…]\nAcrópole de Atenas\n[…]\nPartenon (Nashville)\n[…]\nAcrópole de Atenas"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Ísis",
+      "descricao": "Deusa egípcia da magia e da maternidade, esposa de Osíris e mãe de Hórus."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na arte egípcia, Ísis costuma levar na cabeça o hieróglifo usado para escrever o nome dela. Que objeto esse sinal representa?",
+    "resposta": "Um trono",
+    "distratores": [
+      "Uma pena",
+      "Um escaravelho",
+      "Uma serpente"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Isis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Isis",
+        "situacao": "ok",
+        "texto": "Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. Isis was first mentioned in the Old Kingdom (c. 2686 – c. 2181 BCE) as one of the main characters of the Osiris myth, in which she resurrects her slain brother and husband, the divine king Osiris, and produces and protects his heir, Horus.\n[…]\nFigurines of a woman wearing an elaborate headdress and exposing her genitals may represent Isis-Aphrodite.\n[…]\nThe diverse imagery sprang from her varied roles; as Robert Steven Bianchi says, \"Isis could represent anything to anyone and could be represented in any way imaginable.\"\n[…]\nIt consisted of an elaborate procession, including Isiac priests and devotees with a wide variety of costumes and sacred emblems, carrying a model ship from the local Isis temple to the sea or to a nearby river. The other was the Isia in late October and early November. Like its Egyptian forerunner, the Khoiak festival, the Isia included a ritual reenactment of Isis's search for Osiris, followed by jubilation when the god's body was found.\n[…]\nIsis represented nature as the mother of all things, as a set of truths waiting to be unveiled by science, as a symbol of the pantheist concept of an anonymous, enigmatic deity who was immanent within nature, or as an awe-inspiring sublime power that could be experienced through ecstatic mystery rites.\n[…]\nIn the dechristianization of France during the French Revolution, she served as an alternative to traditional Christianity: a symbol that could represent nature, modern scientific wisdom, and a link to the pre-Christian past. For these reasons, Isis's image appeared in artwork sponsored by the revolutionary government, such as the Fontaine de la Régénération, and by the First French Empire. The metaphor of Isis's veil continued to circulate through the nineteenth century."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%8Dsis",
+        "situacao": "ok",
+        "texto": "Ísis (em egípcio:  Aset; em grego clássico: Ἶσις) foi uma das principais divindades na religião do Antigo Egito cuja veneração espalhou-se também para o mundo greco-romano. Ela foi mencionada pela primeira vez no Império Antigo como uma das personagens principais do mito de Osíris, em que ressuscita seu marido, o rei Osíris, e produz e protege seu herdeiro, Hórus.\n[…]\nÍsis era retratada artisticamente como uma mulher humana usando um hieroglifo no formato de trono em sua cabeça. Ela assumiu no Império Novo os traços que originalmente pertenciam a Hator, uma deusa importante durante o período antigo, passando assim a ser retratada usando a touca de Hator: um disco solar entre os chifres de uma vaca.\n[…]\nMuitos acadêmicos focaram-se no nome de Ísis em uma tentativa de determinar suas origens. Seu nome egípcio era ꜣst ou Aset, que deu origem a forma copta ⲎⲤⲈ (Ēse) e seu nome grego Ἰσις (Ísis), do qual seu nome moderno é baseado. O nome em hieroglifo incorpora o sinal de um trono, que ela também usa em sua cabeça como sinal de sua identidade. O símbolo serve como fonograma, grafando o som st, porém é possível que tenha representado uma ligação com tronos reais.\n[…]\nKuhlmann discordaram por causa de dissimilaridades entre o nome de Ísis e a palavra para trono e a falta de evidências de que o trono já foi deificado.\n[…]\nÍsis era comumente representada na arte egípcia como uma mulher usando um vestido de bainha, um cajado de papiro em uma mão e um símbolo de ankh na outra. Seu adereço de cabeça original era o símbolo de trono usado em seu nome escrito. Ela e Néftis apareciam frequentemente juntas, particularmente ao lamentarem a morte de Osíris, apoiando em seu trono ou protegendo os sarcófagos dos mortos.\n[…]\nEstatuetas de uma mulher com um adereço de cabeça elaborado e expondo seus genitais pode representar Ísis-Afrodite.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Huitzilopochtli",
+      "descricao": "Deus asteca da guerra e do sol, patrono dos mexicas de Tenochtitlan."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do deus asteca da guerra, Huitzilopochtli, começa com a palavra náuatle para qual ave?",
+    "resposta": "Beija-flor",
+    "distratores": [
+      "Águia",
+      "Quetzal",
+      "Coruja"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Huitzilopochtli"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Huitzilopochtli",
+        "situacao": "ok",
+        "texto": "Huitzilopochtli (Classical Nahuatl: Huītzilōpōchtli, IPA: [wiːt͡siloːˈpoːt͡ʃt͡ɬi] ) is the solar and war deity of sacrifice in Aztec religion. He was also the patron god of the Aztecs and their capital city, Tenochtitlan. He wielded Xiuhcoatl, the fire serpent, as a weapon, thus also associating Huitzilopochtli with fire.\n[…]\nThe leader of one group, Huitzilopochtli, defeats the warriors of a woman leader, Coyolxauh, and tears open their breasts and eats their hearts. Both versions tell of the origin of human sacrifice at the sacred place, Coatepec, during the rise of the Aztec nation and at the foundation of Tenochtitlan.\n[…]\nHe always had a blue-green hummingbird helmet in any of the depictions found. In fact, his hummingbird helmet was the one item that consistently defined him as Huitzilopochtli, the sun god, in artistic renderings. He is usually depicted as holding a shield adorned with balls of eagle feathers, a homage to his mother and the story of his birth. He also holds the blue snake, Xiuhcoatl, in his hand in the form of an atlatl.\n[…]\nDiego Durán described the festivities for Huitzilopochtli. Panquetzaliztli (November 9 to November 28) was the Aztec month dedicated to Huitzilopochtli. People decorated their homes and trees with paper flags; there were ritual races, processions, dances, songs, prayers, and finally human sacrifices. This was one of the more important Aztec festivals, and the people prepared for the whole month.\n[…]\nFor the reconsecration of Great Pyramid of Tenochtitlan in 1487, dedicated to Tlaloc and Huitzilopochtli, the Aztecs reported that they sacrificed about 20,400 prisoners over the course of four days. While accepted by some scholars, this claim also has been considered Aztec propaganda. There were 19 altars in the city of Tenochtitlan."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Huitzilopochtli",
+        "situacao": "ok",
+        "texto": "Huitzlopochtli (Náuatle clássico: Huītzilōpōchtli; traduzido por \"Beija-flor Azul\" ou \"Beija-flor Canhoto\" ou ainda \"Beija-flor do Sul\") era o deus do Estado e da guerra da religião asteca. Era o padroeiro da cidade de Tenochtitlán, capital da confederação asteca. Ele empunhava Xiuhcoatl, a serpente de fogo, como arma, associando assim Huitzilopochtli ao fogo.\n[…]\nHuitzilopochtli era uma divindade totalmente asteca sem nenhuma conexão  com outra civilização mesoamericana diferentemente de outros deuses do panteão asteca. E era o principal deus cultuado na capital do império Tenochtitlán. Comumente representado com seus membros pintados de azul com penas de beija-flor em sua perna esquerda além de uma lança cerimonial. A guerra e a morte estão bem entrelaçadas em suas manifestações rituais.\n[…]\nOs beija-flores, na cultura asteca e a ele associado em seu nome, eram considerados como sendo a alma de guerreiros perecidos que acompanhavam o Sol (Huitzilopochtli) em sua ronda diária pelo céu.\n[…]\nTenochtitlán a capital do império tem sua origem diretamente ligada ao culto de Huitzilopochtli. De acordo com relatos semi-históricos, o próprio deus teria indicado o caminho aos seus adoradores, futuros astecas, em direção ao Lago Texcoco atribuindo-lhes instruções e referências.\n[…]\nQuando então seus seguidores chegaram diante de uma águia empoleirada (que simboliza o Sol e o próprio Huitzilopochtli) sobre um cacto com frutos vermelhos (que simbolizavam o coração humano), novamente a divindade falou advertindo-os com as seguintes palavras: Oh, mexicas, serás aqui! Era exatamente o local onde a capital do futuro império asteca Tenochtitlán (Local do fruto do Cacto) seria enfim fundada.\n[…]\nMitologia Asteca",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Ares",
+      "descricao": "Deus grego da guerra, filho de Zeus e Hera, equivalente ao romano Marte."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "As luas de Marte, Fobos e Deimos, levam nomes de personagens gregos que personificavam o medo e o terror. Que parentesco eles têm com Ares?",
+    "resposta": "São filhos de Ares",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phobos_(mythology)",
+      "https://en.wikipedia.org/wiki/Deimos_(deity)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Phobos_(mythology)",
+        "situacao": "ok",
+        "texto": "Phobos (Ancient Greek: Φόβος, lit. 'flight, fright', pronounced [pʰóbos], Latin: Phobus) is the god and personification of fear and panic in Greek mythology. Phobos was the son of Ares and Aphrodite, and the brother of Deimos. He does not have a major role in mythology outside of being his father's attendant.\n[…]\nIn Hesiod's Theogony, Phobos is the son of Ares and Aphrodite, and the sibling of Deimos and Harmonia. He mainly appears in an assistant role to his father and causes disorder in battle. In the Iliad, he accompanied his father into battle along with the goddess Eris (discord) and his brother Deimos (Dread). In Hesiod's Shield of Herakles, Phobos and Deimos accompany Ares into battle and remove him from the field once he is injured by Herakles.\n[…]\nIn Nonnus's Dionysiaca, Zeus arms Phobos with lightning and Deimos with thunder to frighten Typhon. Later in the work, Phobos and Deimos act as Ares's charioteers to battle the god Dionysus during his war against the Indians.\n[…]\nIn the Seven Against Thebes by Aeschylus, the seven warriors slaughter a bull over a black shield and then \"...touching the bull's gore with their hands they swore an oath by Ares, by Enyo, and by Rout [Phobos]\". According to Stesichorus, Ares's son, Kyknos, \"...beheaded strangers who came along in order to build a temple to Phobos (fear) from the skulls.\"\n[…]\nHomer, Iliad 15. 119 ff:\"So he [Ares] spoke, and ordered Deimos (Dread) and Phobos (Fear) to harness his horses, and himself got into his shining armour.\"\n[…]\nIn 1877, the American astronomer Asaph Hall discovered the two satellites of the planet Mars. Hall named the two moons Phobos and Deimos after the Greek mythological figures. Phobos is the larger of the two satellites."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Deimos_(deity)",
+        "situacao": "ok",
+        "texto": "In Greek mythology, Deimos  (Ancient Greek: Δεῖμος, lit. 'fear' , and δειμός (deimós, “terror, dread”) pronounced [dêːmos]) is the personification of dread and terror. He is the son of Ares and Aphrodite, and the brother of Phobos.\n[…]\nIn Ancient Greek mythology, Deimos represented the terror and dread before the arrival of war.\n[…]\nIn Hesiod's Theogony, Deimos is the son of Ares and Cytherea (Aphrodite), and the sibling of Phobos and Harmonia. According to the Greek antiquarian Semus of Delos, Deimos is the father of the monster Scylla.\n[…]\nDeimos mainly appears in an assistant role to his father, who causes disorder in armies. In the Iliad, he accompanied his father, Ares, into battle with the Goddess of Discord, Eris, and his brother Phobos (fear). Deimos is also depicted on Agamemnon's shield alongside his brother Phobos. In the Shield of Heracles, Phobos and Deimos accompany Ares into battle and remove him from the field once Heracles injures him.\n[…]\nThe poet Antimachus, in a misrepresentation of Homer's account, portrays Deimos and Phobos as the horses of Ares. In Nonnus's Dionysiaca, Zeus arms Phobos with lightning and Deimos with thunder to frighten Typhon. Later in the work, Phobos and Deimos act as Ares's charioteers to battle Dionysus during his war against the Indians.\n[…]\nIn 1877, the American astronomer Asaph Hall discovered the two satellites of the planet Mars. Hall named the two moons Phobos and Deimos. Deimos is the smaller of the two satellites."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fobos_%28mitologia%29",
+        "situacao": "ok",
+        "texto": "Fobos (em grego:  φόβος, medo) é o deus do medo na mitologia grega, filho de Ares e Afrodite. Irmão gêmeo de Deimos (terror), simboliza o temor e acompanha o pai nos campos de batalha, injetando nos corações dos combatentes inimigos a covardia e o medo que os fazia fugir, como se estivem diante de um fantasma. Deu origem a palavra fobia.\n[…]\nNa mitologia grega clássica, Fobos é mais uma personificação do medo trazido pela guerra e não aparece como um personagem em nenhum mito. Timor ou Tímoro é seu equivalente romano na mitologia romana, ele também foi referido como Pavor.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Thoth",
+      "descricao": "Deus egípcio da escrita, da sabedoria e da lua, representado com cabeça de íbis."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Os gregos identificavam Thoth, o deus egípcio da escrita com cabeça de íbis, com qual deus do Olimpo?",
+    "resposta": "Hermes",
+    "distratores": [
+      "Apolo",
+      "Atena",
+      "Hefesto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thoth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thoth",
+        "situacao": "ok",
+        "texto": "Thoth (from Koine Greek: Θώθ Thṓth, borrowed from Coptic: Ⲑⲱⲟⲩⲧ Thōout, Ancient Egyptian: Ḏḥwtj, the reflex of ḏḥwtj \"[he] is like the ibis\") is an ancient Egyptian deity. In art, he was often depicted as a man with the head of an ibis or a baboon, animals sacred to him. His feminine counterpart is Seshat, and his wife is Ma'at. He is the god of the Moon, wisdom, knowledge, writing, hieroglyphs, s\n[…]\nIn addition, Thoth was also known by specific aspects of himself, for instance the Moon god Iah-Djehuty (j3ḥ-ḏḥw.ty), representing the Moon for the entire month. The Greeks related Thoth to their god Hermes due to his similar attributes and functions. One of Thoth's titles, \"Thrice great\", was translated to the Greek τρισμέγιστος (trismégistos), making Hermes Trismegistus.\n[…]\nThoth's qualities also led to him being identified by the Greeks with their closest matching god Hermes, with whom Thoth was eventually combined as Hermes Trismegistus, leading to the Greeks' naming Thoth's cult center as Hermopolis, meaning city of Hermes.\n[…]\nArtapanus of Alexandria, an Egyptian Jew who lived in the third or second century BC, euhemerized Thoth-Hermes as a historical human being and claimed he was the same person as Moses, based primarily on their shared roles as authors of texts and creators of laws. Artapanus's biography of Moses conflates traditions about Moses and Thoth and invents many details.\n[…]\nMany later authors, from late antiquity to the Renaissance, either identified Hermes Trismegistus with Moses or regarded them as contemporaries who expounded similar beliefs.\n[…]\nIn Neil Gaiman's 2001 novel American Gods and its 2017–2021 TV adaptation, Thoth is portrayed as Mr. Ibis, who runs a funeral parlor alongside Anubis, known as Mr. Jacquel.\n[…]\nThoth appears in Mike Maihack's graphic novel Cleopatra in Space: Queen of the Nile (2020), taking the form of a gorilla rather than an ibis-headed man."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tote",
+        "situacao": "ok",
+        "texto": "Tote, também grafado como Thoth, Tot, Toth ou Thot (em grego clássico: Θώθ; romaniz.: Thóth; ou Djeuti em egípcio: Dḥwtj), é o deus egípcio da lua, do conhecimento, da sabedoria, da escrita, da música e da magia. O seu principal centro de culto situava-se em Khmunu (renomeada posteriormente como Hermópolis Magna pelos gregos).\n[…]\nComo deus da lua, o ciclo lunar estava associado à medição do tempo. Tote era considerado o criador do calendário egípcio. Num mito famoso, a deusa do céu, Nut, foi amaldiçoada por Rá a não ter filhos em nenhum dia do ano civil (que tinha 360 dias). Tote, num jogo de dados (ou senet) contra o deus da lua (Quespisiquis), ganhou uma fração da sua luz, criando assim cinco dias adicionais (os chamados dias epagômenos).\n[…]\nNo submundo (Duat), o papel de Tote era crucial. Durante a cerimônia descrita no Livro dos Mortos, conhecida como a \"Pesagem do Coração\", Tote (frequentemente em sua forma de babuíno, Aani, ou como o escriba com cabeça de íbis) permanecia junto à balança de Osíris.\n[…]\nCom a chegada dos gregos ao Egito após as conquistas de Alexandre, o Grande, houve uma intensa fusão cultural. Os gregos identificaram Tote com o seu próprio deus mensageiro, Hermes. Dessa fusão nasceu a figura de Hermes Trismegisto (Hermes, o Três Vezes Grande).\n[…]\nOs gregos ptolomaicos declararam Tote/Hermes como o inventor da astronomia, astrologia, ciência dos números, matemática, geometria, topografia, medicina, botânica, teologia, governo civilizado, alfabeto, leitura, escrita e oratória. Eles afirmavam que ele era o verdadeiro autor de todas as obras de todos os ramos do conhecimento, tanto humano quanto divino. Este sincretismo deu origem a uma tradição filosófica e esotérica duradoura conhecida como Hermetismo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Anúbis",
+      "descricao": "Deus egípcio com cabeça de chacal, ligado à mumificação e à proteção dos mortos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Segundo o mito egípcio, Anúbis, o deus de cabeça de chacal, ajudou a embalsamar o corpo de qual deus, tido como a primeira múmia?",
+    "resposta": "Osíris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Anubis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Anubis",
+        "situacao": "ok",
+        "texto": "Anubis ( ; Ancient Greek: Ἄνουβις), also known as Inpu, Inpw, Jnpw, or Anpu in Ancient Egyptian (Coptic: ⲁⲛⲟⲩⲡ, romanized: Anoup), is the god of funerary rites, protector of graves, and guide to the underworld in ancient Egyptian religion, usually depicted as a canine or a man with a canine head.\n[…]\n\"Anubis\" is a Greek rendering of this god's Egyptian name. Before the Greeks arrived in Egypt, around the 7th century BC, the god was known as Anpu or Inpu.\n[…]\nIn the Osiris myth, Anubis helped Isis to embalm Osiris. Indeed, when the Osiris myth emerged, it was said that after Osiris had been killed by Set, Osiris's organs were given to Anubis as a gift. With this connection, Anubis became the patron god of embalmers; during the rites of mummification, illustrations from the Book of the Dead often show a wolf-mask-wearing priest supporting the upright mummy.\n[…]\nThe Jumilhac papyrus recounts another tale where Anubis protected the body of Osiris from Set. Set attempted to attack the body of Osiris by transforming himself into a leopard. Anubis stopped and subdued Set, however, and he branded Set's skin with a hot iron rod. Anubis then flayed Set and wore his skin as a warning against evil-doers who would desecrate the tombs of the dead. Priests who attended to the dead wore leopard skin in order to commemorate Anubis's victory over Set.\n[…]\nGreek writers from the Roman period of Egyptian history designated that role as that of \"psychopomp\", a Greek term meaning \"guide of souls\" that they used to refer to their own god Hermes, who also played that role in Greek religion. Funerary art from that period represents Anubis guiding either men or women dressed in Greek clothes into the presence of Osiris, who by then had long replaced Anubis as ruler of the underworld."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/An%C3%BAbis",
+        "situacao": "ok",
+        "texto": "Anúbis (pronúncia em português: [a'nubis]; em grego clássico: Ἄνουβις) ou Anupo é, no panteão do Antigo Egito, o deus dos mortos e moribundos, que guiava e conduzia as almas ao mundo dos mortos. É representado com cabeça de chacal, embora os egiptólogos mais conservadores afirmem que não há como saber com certeza o animal que o representa.\n[…]\nNa época, Anúbis era o deus dos mortos mais importante, porém durante o Império Médio, Osíris passou a ter a função de deus primordial dos mortos, enquanto que Anúbis tinha funções menores como por exemplo o preparo do corpo e embalsamento dos mortos, além disso era o protetor do processo de mumificação.\n[…]\nA esposa de Anúbis é a deusa Anput, seu aspecto feminino, e a sua filha é a deusa Kebechet.\n[…]\nApós ser despedaçado pelo irmão, Seti, Osíris tem seu corpo embalsamado por Anúbis, tornando-o a primeira múmia, e fazendo com que se torne o deus do embalsamento.\n[…]\nOs sacerdotes de Anúbis, chamados stm, usavam máscaras de chacais durante os rituais de mumificação. Anúbis é uma das mais antigas divindades da mitologia egípcia e seu papel mudou à medida que os mitos amadureciam, passando de principal deus do mundo inferior a juiz dos mortos, depois que Osíris assumiu aquele papel.\n[…]\nO papel funerário de Anúbis é muito importante, pois depois da mumificação os egípcios acreditavam que o coração era entregue ao deus Anúbis; ele pesava-o em conjunto com a Pena da Verdade: se o coração fosse mais pesado que a pena, era pesado de maldade e Ammit, o deus-leão, comia-o; mas se fosse leve de bondade, Anúbis levava-o num barco a atravessar o rio Nilo para ir ter com o deus Osíris, deus da morte e do submundo, ao mundo dos mortos, para viver a \"vida depois da morte\"\n[…]\nA sua mãe é Néftis, que durante uma briga com o marido Seti passou-se por Ísis e teve relações com Osíris.[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Amon",
+      "descricao": "Deus egípcio associado ao poder oculto e, depois, fundido ao deus solar como Amon-Rá."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No oásis de Siwa, no deserto egípcio, o oráculo do deus Amon saudou como filho do deus um conquistador estrangeiro. Quem era ele?",
+    "resposta": "Alexandre, o Grande",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Siwa_Oasis",
+      "https://en.wikipedia.org/wiki/Amun"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Siwa_Oasis",
+        "situacao": "ok",
+        "texto": "The Siwa Oasis (Arabic: واحة سيوة Wāḥat Sīwah [ˈwæːħet ˈsiːwæ]) is an urban oasis in Egypt. It is situated between the Qattara Depression and the Great Sand Sea in the Western Desert, 50 kilometres (31 mi) east of the Egypt–Libya border and 560 kilometres (350 mi) from the Egyptian capital city of Cairo.\n[…]\nDuring his campaign to conquer the Persian Empire, Alexander the Great reached the oasis, supposedly by following birds across the desert. The oracle, Alexander's court historians alleged, confirmed him as both a divine personage and the legitimate Pharaoh of Egypt, though Alexander's motives in making the excursion, following his founding of Alexandria, remain to some extent inscrutable and contested.\n[…]\nThe traditional culture of Siwa shows many unique elements, some reflecting its longstanding links with the isolated oasis life and the fact that the inhabitants are Siwi Berbers. There are 10 tribes in Siwa that speak an eastern Berber language (Siwi). These tribes have their own cultures and ideals. Until a tarmac road was built to the Mediterranean coast in the 1980s Siwa's only links with the outside world were by arduous camel tracks through the desert.\n[…]\nIn 1995, Greek archaeologist Liana Souvaltzi announced that she had identified the tomb of Alexander the Great in the oasis of Siwa. She made the following statement to the Greek media:\n[…]\nIn late 2013, an announcement was made regarding the apparent archaeoastronomy discovery of precise spring and fall equinox sunrise alignments over the Aghurmi mound/Amun Oracle when viewed from Timasirayn temple in the Western Desert, 12 km away across Lake Siwa. The first known recent public viewing of this event occurred on March 21, 2014, during the spring equinox.\n[…]\nSiwawi.com The guide for visiting Siwa Oasis.\n[…]\nSiwa Oasis Photo Gallery."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Amun",
+        "situacao": "ok",
+        "texto": "Amun was a major ancient Egyptian deity who appears as a member of the Hermopolitan Ogdoad. Amun was attested from the Old Kingdom together with his wife Amunet. His oracle in Siwa Oasis, located in Western Egypt near the Libyan Desert, remained the only oracle of Amun throughout. With the 11th Dynasty (c. 21st century BC), Amun rose to the position of patron deity of Thebes by replacing Montu.\n[…]\nIn Siwa Oasis, located in Western Egypt, there remained a solitary oracle of Amun near the Libyan Desert. The worship of Ammon was introduced into Greece at an early period, probably through the medium of the Greek colony in Cyrene, which must have formed a connection with the great oracle of Ammon in the Oasis soon after its establishment. Iarbas, a mythological king of Libya, was also considered a son of Hammon.\n[…]\nAmun is mentioned in the Hebrew Bible as אמון מנא Amon of No in Jeremiah 46:25 (also translated the horde of No and the horde of Alexandria), and Thebes possibly is called נא אמון No-Amon in Nahum 3:8 (also translated populous Alexandria). These texts were presumably written in the 7th century BC.\n[…]\nWhen Alexander the Great occupied Egypt in late 332 BC, he was regarded as a liberator, thus conquering Egypt without a fight. He was pronounced son of Amun by the oracle at Siwa. Amun was identified as a form of Zeus and Alexander often referred to Zeus-Ammon as his true father, and after his death, currency depicted him adorned with the Horns of Ammon as a symbol of his divinity.\n[…]\nThe tradition of depicting Alexander the Great with the horns of Amun continued for centuries, with someone who was possibly Alexander being referred to in the Quran as \"Dhu al-Qarnayn\" (The Two-Horned One), a reference to his depiction on Middle Eastern coins and statuary as having horns of Ammon.\n[…]\nAmun with features of Tutankhamun (statue, c. 1332–1292 BC, Penn Museum)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O%C3%A1sis_de_Siu%C3%A1",
+        "situacao": "ok",
+        "texto": "O Oásis de Siuá ou de Siua (ou Siwa; em árabe: واحة سيوة‎; romaniz.: Wāḥat Sīwah, do berbere Siwa, \"ave de rapina\", pássaro protetor do deus do Sol, Amon-Rá) é um oásis no Deserto da Líbia a cerca de 50 km (30 mi) leste da fronteira Líbia e 560 km (348 mi) do Cairo.\n[…]\nDepois de ter conquistado o Egito aos Persas, Alexandre Magno dirigiu-se ao oásis de Siuá para consultar o oráculo, tendo sido confirmado não só como filho de Zeus, mas do deus egípcio Ámon. Este acto é interpretado como uma manobra de propaganda que visava legitimar o poder de um estrangeiro sobre o Egito.\n[…]\nO primeiro europeu a visitar o oásis nos tempos modernos foi William George Browne em 1792 (de fato, o primeiro europeu a visitar o oásis teria sido Alexandre, o Grande em 330 a.C.). Teve que o fazer disfarçado de árabe, dado que os habitantes eram hostis a estrangeiros. Em 1820 o oásis foi conquistado por Mehmet Ali, governador do Egito (na altura parte do Império Otomano). Nos anos 80 foi construída uma estrada de asfalto que liga o oásis a Marsa Matruh, quebrando-se assim o isolamento.\n[…]\nOs alimentos para o festival são comprados coletivamente, com fundos reunidos pelas mesquitas do oásis. As comemorações duram três dias Qamari e, no início da manhã do quarto dia, os homens siwanos formam uma grande marcha, segurando bandeiras e cantando músicas espirituais. A marcha começa em Gabal El - Dakrour e termina na praça Sidi Solayman - no centro de Siwa - declarando o fim dos festivais e o início de um novo ano sem ódio ou rancor, com amor, respeito e reconciliação.\n[…]\nTradicionalmente, as crianças Siwi também comemoravam a Ashura acendendo tochas, cantando e trocando doces. A comemoração dos adultos se limitava à preparação de uma grande refeição.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Odin",
+      "descricao": "Deus principal da mitologia nórdica, senhor de Asgard, da sabedoria e da guerra."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Numa carta, Tolkien descreveu um de seus personagens como um andarilho inspirado em Odin, de barba, chapéu largo e cajado. Que personagem é esse?",
+    "resposta": "Gandalf",
+    "distratores": [
+      "Saruman",
+      "Radagast",
+      "Bilbo Bolseiro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gandalf"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gandalf",
+        "situacao": "ok",
+        "texto": "Gandalf, in longer form Gandalf the Grey and later Gandalf the White, is a protagonist in J. R. R. Tolkien's novels The Hobbit and The Lord of the Rings. He is a wizard, one of the Istari order, and the leader of the Company of the Ring. Tolkien took the name \"Gandalf\" from the Old Norse list Dvergatal (\"Catalogue of Dwarves\") in the Völuspá.\n[…]\nTolkien once described Gandalf as an angel incarnate; later, both he and other scholars have likened Gandalf to the Norse god Odin in his \"Wanderer\" guise. Others have described Gandalf as a guide-figure who assists the protagonists, comparable to the Cumaean Sibyl who assisted Aeneas in Virgil's The Aeneid, or to the figure of Virgil in Dante's Inferno.\n[…]\nTolkien explicitly links Gandalf to the element fire later in the same essay:\n[…]\nThe name \"Gandolf\" occurs as a character in William Morris' 1896 fantasy novel The Well at the World's End, along with the horse \"Silverfax\", adapted by Tolkien as Gandalf's horse \"Shadowfax\". Morris' book, inspired by Norse myth, is set in a pseudo-medieval landscape; it deeply influenced Tolkien. The wizard that became Gandalf was originally named Bladorthin.\n[…]\nIn a 1946 letter, Tolkien stated that he thought of Gandalf as an \"Odinic wanderer\". Other commentators have similarly compared Gandalf to the Norse god Odin in his \"Wanderer\" guise—an old man with one eye, a long white beard, a wide brimmed hat, and a staff, or likened him to Merlin of Arthurian legend or the Jungian archetype of the \"wise old man\".\n[…]\nMcKellen stated that he enjoyed Tolkien's letters and readings from the novels. \"I am encouraged by the theatricality of his readings full of rhythm and humour and characterisation. Without question Gandalf is like Tolkien but then so, I suspect, are Frodo and Aragorn.\"\n[…]\nTolkien, J. R. R. (1937). The  Hobbit. United Kingdom: George Allen & Unwin."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gandalf",
+        "situacao": "ok",
+        "texto": "Gandalf ([ˈɡændɑːlf]), por vezes Gandalf o Cinzento ou Gandalf o Branco é um personagem fictício das obras do autor, professor e filólogo britânico J. R. R. Tolkien. Gandalf é um Mago Istari, pertencente à raça dos Maiar, espírito angelical do mundo tolkienano, e costumava andar com Nienna com quem aprendeu a paciência e a compaixão (Silmarillion), mas diz-se que era conselheiro de Irmo Lórien.\n[…]\nO Mago Branco é, por excelência, o líder da ordem dos Istari, os magos. O antigo Mago Branco, Saruman, senhor de Orthanc, foi corrompido pelo desejo de possuir o Um anel. Em Orthanc, na companhia do rei Théoden de Rohan, Gandalf, o Branco, quebrou o cajado de Saruman, impedindo-o de usar seus poderes.\n[…]\nNas dramatizações da BBC Radio, Gandalf foi dublado por Norman Shelley em O Senhor dos Anéis (1955-1956), Carvic Heron em O Hobbit, de 1968, Bernard Mayes em O Senhor dos Anéis (1979) e Sir Michael Hordern em O Senhor dos Anéis, de 1981.\n[…]\nIan McKellen interpretou Gandalf na trilogia cinematográfica O Senhor dos Anéis (2001-2003) dirigida por Peter Jackson, embora Sean Connery também tivesse sido escalado para o papel e McKellen nunca tinha lido nenhum dos trabalhos de Tolkien. A maquiagem e figurinos foram baseados em desenhos de John Howe e Alan Lee. De acordo com Jackson, McKellen personificou Tolkien no papel.\n[…]\nOuvimos gravações de áudio de Tolkien lendo trechos de O Senhor dos Anéis. Vimos algumas entrevistas da BBC com ele — há algumas entrevistas com Tolkien —, e Ian baseou seu desempenho em uma imitação de Tolkien. Ele estava literalmente baseando Gandalf no autor. Ele parece o mesmo, ele usa os padrões de fala e seus maneirismos nascem da mesma rugosidade da filmagem de Tolkien. Assim, Tolkien seria reconhecido no desempenho de Ian.\n[…]\nGandalf faz uma aparição na animação de 2014 The Lego Movie, dublado por Todd Hansen.\n[…]\nAs Cartas de J. R. R. Tolkien\n[…]\nGandalf (em inglês) no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Perseu",
+      "descricao": "Herói da mitologia grega, filho de Zeus e Dânae, que decapitou Medusa."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que princesa etíope, salva por Perseu de um monstro marinho e depois sua esposa, dá nome à grande galáxia vizinha da Via Láctea?",
+    "resposta": "Andrômeda",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Andromeda_(mythology)",
+      "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Andromeda_(mythology)",
+        "situacao": "ok",
+        "texto": "In Greek mythology, Andromeda (; Ancient Greek: Ἀνδρομέδα, romanized: Androméda or Ἀνδρομέδη, Andromédē) is the daughter of Cepheus, the king of Aethiopia, and his wife, Cassiopeia. When Cassiopeia boasts that she (or Andromeda) is more beautiful than the Nereids, Poseidon sends the sea monster Cetus to ravage the coast of Aethiopia as divine punishment. Queen Cassiopeia understands that chaining \n[…]\nIn the 1851 novel Moby-Dick, Herman Melville's narrator Ishmael discusses the Perseus and Andromeda myth in two chapters. Chapter 55, \"Of the Monstrous Pictures of Whales,\" mentions depictions of Perseus rescuing Andromeda from Cetus in artwork by Guido Reni and William Hogarth. In Chapter 82, \"The Honor and Glory of Whaling,\" Ishmael recounts the myth and says that the Romans found a giant whale skeleton in Joppa that they believed to be the skeleton of Cetus.\n[…]\nThe legend of Saint George and the Dragon, in which a courageous knight rescues a princess from a monster (with clear parallels to the Andromeda myth), became a popular subject for art in the Late Middle Ages, and artists drew from both traditions. One result is that Perseus is often shown with the flying horse Pegasus when fighting the sea monster, even though classical sources consistently state that he flew using winged sandals.\n[…]\nShe is depicted naturalistically, exemplifying the painter's rejection of idealized beauty. Frederic, Lord Leighton's Gothic style 1891 Perseus and Andromeda painting presents the white body of Andromeda in pure and untouched innocence, indicating an unfair sacrifice for a divine punishment that was not directed towards her, but to her mother. Pegasus and Perseus are surrounded by a halo of light that connects them visually to the white body of the princess.\n[…]\nWhether we are to assume that this is also how Andromeda came to be born pale in the first place is unclear."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+        "situacao": "ok",
+        "texto": "The Andromeda Galaxy is a barred spiral galaxy and is the nearest major galaxy to the Milky Way. It was originally named the Andromeda Nebula and is cataloged as Messier 31, M31, and NGC 224. Andromeda has a D25 isophotal diameter of about 46.56 kiloparsecs (152,000 light-years) and is approximately 765 kpc (2.5 million light-years) from Earth.\n[…]\nThe galaxy's name stems from the area of Earth's sky in which it appears, the constellation of Andromeda, which itself is named after the princess who was the wife of Perseus in Greek mythology.\n[…]\nAndromeda Galaxy's tangential or sideways velocity concerning the Milky Way is uncertain, but estimated to be smaller than the approaching velocity. After the sideways velocity was first measured, Andromeda was predicted to collide directly with the Milky Way in about 4 billion years. However, later calculations, including a higher sideways velocity measurement from the Gaia spacecraft and the effect of other Local Group galaxies found a much lower probability of a merger.\n[…]\nA likely outcome of the collision would be that the galaxies will merge to form a giant elliptical galaxy or possibly large disc galaxy. Such events are frequent among the galaxies in galaxy groups. The fate of Earth and the Solar System in the event of a collision is currently unknown. Before the galaxies merge, there is a small chance that the Solar System could be ejected from the Milky Way or join the Andromeda Galaxy.\n[…]\nFrom the Southern Hemisphere the Andromeda Galaxy is visible between October and December, best viewed from as far north as possible. Binoculars can reveal some larger structures of the galaxy and its two brightest satellite galaxies, M32 and M110.\n[…]\nThan, Ker (23 January 2006). \"Strange Setup: Andromeda's Satellite Galaxies All Lined Up\". Space.com.\n[…]\nInfrared-Radio Image of the Andromeda Galaxy (M31)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Andr%C3%B4meda_%28mitologia%29",
+        "situacao": "ok",
+        "texto": "Andrômeda (português brasileiro) ou Andrómeda (português europeu), na mitologia grega, foi uma princesa da Etiópia, oferecida como sacrifício a um monstro marinho. Foi salva por Perseu, que a tomou como esposa.\n[…]\nAndrômeda era filha de Cefeu, rei da Etiópia, e de Cassiopeia.\n[…]\nSeu marido, Perseu, era filho de Dânae e Zeus (ou de Preto, tio de Dânae).\n[…]\nA mãe de Andrômeda disse que a sua beleza excedia a beleza das nereidas, e Poseidon exigiu que ela fosse sacrificada a Ceto (mitologia), um monstro marinho. Perseu, porém, voando com sandálias aladas de Hermes, libertou-a do perigo. Quando Perseu quis se casar com Andrômeda, Cefeu e Agenor, noivo da princesa, tiveram um plano para matá-lo, mas Perseu usou a cabeça da Medusa para transformá-los em pedra.\n[…]\nFênix aproveitou a chance dada pelo futuro sogro e levou Andrômeda em seu navio decorado com uma baleia, chamado de Cetus. Andrômeda, acreditando estar sendo raptada, gritou por socorro, o que chamou a atenção de Perseu. O herói pulou para o barco com tal fúria que deixou os marinheiros petrificados e levou Andrômeda consigo para Argos.\n[…]\nDepois que Perseu voltou com Andrômeda, Polidecto, vendo a coragem de Perseu, tentou matá-lo a traição, porém também foi transformado em pedra.\n[…]\nPerseu e Andrômeda tiveram vários filhos: Perses, que nasceu antes de Perseu chegar à Grécia, foi deixado com Cefeu, e se tornou o antepassado dos persas, e, em Micenas, nasceram Alceu, Estênelo, Heleu, Mestor, Electrião e a filha Gorgófona, que se casou com Perieres.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Ulisses",
+      "descricao": "Herói grego da Guerra de Troia e protagonista da Odisseia de Homero."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que escritor irlandês transpôs as aventuras de Ulisses para um único dia em Dublin, num romance que leva o nome latino do herói?",
+    "resposta": "James Joyce",
+    "distratores": [
+      "Oscar Wilde",
+      "Samuel Beckett",
+      "William Butler Yeats"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ulysses_(novel)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ulysses_(novel)",
+        "situacao": "ok",
+        "texto": "Ulysses is a modernist novel by the Irish writer James Joyce. Partially serialised in the American journal The Little Review from March 1918 to December 1920, the entire work was published in Paris by Sylvia Beach on 2 February 1922, Joyce's fortieth birthday. It is considered one of the most important works of modernist literature and a classic of the genre, having been called \"a demonstration an\n[…]\nJoyce scholars have drawn upon both to identify and explain the parallels between Ulysses and The Odyssey.\n[…]\nKidd's James Joyce Research Center at Boston University published this \"Inquiry into Ulysses: The Corrected Text\" the next year in book format and on floppy disk.\n[…]\nIn 1992, W. W. Norton announced that it would publish Kidd's much-anticipated edition of Ulysses as part of \"The Dublin Edition of the Works of James Joyce\" series. This book had to be withdrawn when the Joyce estate objected. For a period thereafter the estate refused to authorise any further editions of Joyce's work. This ended when it agreed to allow Wordsworth Editions to bring out a bargain version (a reprint of the 1932 Odyssey Press edition) in 2010, ahead of copyright expiration in 2012.\n[…]\nIn 1988, the episode \"James Joyce's Ulysses\" of the documentary series The Modern World: Ten Great Writers was shown on Channel 4. Some of the novel's scenes were dramatised. David Suchet played Leopold Bloom.\n[…]\nIn September 2022, the episode \"James Joyce's Ulysses\" of the documentary series Arena, was shown on BBC.\n[…]\nThe James Joyce Society in Dublin released the album Classical Ulysses for the Bloomsday100 celebrations in 2004. It contains recordings of the classical music mentioned in the book.\n[…]\nJoyce Trail, a set of bronze plaques set into the streets of Dublin which follow Bloom's route from Chapter 8, 'Lestrygonians'\n[…]\nJames Joyce reading from Ulysses: James Joyce reading an excerpt from the Aeolus episode. Recorded in 1924."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ulisses_%28James_Joyce%29",
+        "situacao": "ok",
+        "texto": "Ulisses (Ulysses no original) é um romance do escritor irlandês James Joyce. Foi composto entre 1914 e 1921 em Trieste, Zurique e Paris, e publicado no ano seguinte nesta cidade. Por descrever, em diversos pontos, aspectos da fisiologia humana então considerados impublicáveis, o livro foi censurado em diversos países, como nos Estados Unidos e no Reino Unido.\n[…]\nUlisses adapta a Odisseia de Homero condensando a viagem aventurosa de Odisseu pelo mundo helênico no regresso da Guerra de Troia à ilha de que era rei, Ítaca, e onde havia ficado a sua esposa, a rainha Penélope, em 18 horas da \"viagem\" por Dublin do agente de publicidade Leopold Bloom no dia 16 de junho de 1904 e início da madrugada do dia seguinte. É a obra prima de James Joyce.\n[…]\nJoyce disse a Frank Budgen que considerava Ulisses o único personagem completo da literatura. Inicialmente Joyce pensou em intitular a coleção de contos Gente de Dublin (1914) de Ulysses in Dublin, mas a ideia dele evoluiu e de um conto escrito em 1906 para Dubliners, passou a seguir para um \"livro pequeno\" em 1907 e finalmente para o vasto romance que ele começou em 1914.\n[…]\nOs três primeiros episódios de Ulisses correspondem à Telemaquia da Odisseia e fazem a ligação entre Retrato do Artista quando Jovem e as aventuras de Leopold Bloom no dia 16 de Junho de 1904, o que foi esclarecido pelo esquema que o próprio James Joyce elaborou em 1920 para ajudar o seu amigo Carlo Linati na leitura da obra, o qual desde então se designa por Esquema de Linati para Ulisses.\n[…]\nNo Bloomsday de 1982, no centenário do nascimento de James Joyce, a RTÉ Radio 1, a emissora nacional da Irlanda, emitiu a leitura ininterrupta de Ulisses com representação por actores das partes dramáticas, emissão que durou ininterruptamente 29 horas e 45 minutos.\n[…]\n«Ulisses, de James Joyce, com as últimas 50 páginas sem pontuação»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Sísifo",
+      "descricao": "Rei de Corinto da mitologia grega condenado a rolar eternamente uma pedra morro acima."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que escritor franco-argelino, Nobel de Literatura, usou o castigo eterno de Sísifo num ensaio sobre o absurdo da existência?",
+    "resposta": "Albert Camus",
+    "distratores": [
+      "Jean-Paul Sartre",
+      "André Gide",
+      "Simone de Beauvoir"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus",
+        "situacao": "ok",
+        "texto": "The Myth of Sisyphus (French: Le mythe de Sisyphe, pronounced [lə mit də sizif]) is a 1942 philosophical work by Albert Camus. Influenced by philosophers such as Søren Kierkegaard, Arthur Schopenhauer, and Friedrich Nietzsche, Camus introduces his philosophy of the absurd. The absurd lies in the juxtaposition between the fundamental human need to attribute meaning to life and the \"unreasonable sil\n[…]\nCamus wrote The Myth of Sisyphus against the backdrop of early twentieth-century European philosophy, particularly existentialism and phenomenology. Although often grouped with existentialist thinkers, Camus consistently rejected the existentialist label, insisting that his philosophy of the absurd was distinct from both Kierkegaard's leap of faith and Heidegger's ontology of Being.\n[…]\nCamus presents Sisyphus's ceaseless and pointless toil as a metaphor for modern lives spent working at futile jobs in factories and offices. \"The workman of today works every day in his life at the same tasks, and this fate is no less absurd. But it is tragic only at the rare moments when it becomes conscious.\"\n[…]\nHe does not have hope, but \"there is no fate that cannot be surmounted by scorn.\" Acknowledging the truth will conquer it; Sisyphus, just like the absurd man, continues pushing. Camus claims that when Sisyphus acknowledges the futility of his task and the certainty of his fate, he is freed to realize the absurdity of his situation and to reach a state of contented acceptance.\n[…]\nTheatre of the Absurd\n[…]\nThe Plague, The Fall, Exile and the Kingdom, and Selected Essays, Albert Camus, Alfred A. Knopf 2004, ISBN 1-4000-4255-0\n[…]\nCamus, Albert (1955). The Myth of Sisyphus and Other Essays. New York: Alfred A. Knopf. ISBN 0-679-73373-6. {{cite book}}: ISBN / Date incompatibility (help)\n[…]\nChapter 4 of the essay The Myth of Sisyphus, by Albert Camus\n[…]\nSparkNotes on The Myth of Sisyphus"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Mito_de_S%C3%ADsifo",
+        "situacao": "ok",
+        "texto": "O mito de Sísifo é um ensaio filosófico escrito por Albert Camus em 1942. Influenciado por filósofos como Søren Kierkegaard, Arthur Schopenhauer e Friedrich Nietzsche, Camus introduz sua filosofia do absurdo. O absurdo reside na justaposição entre a necessidade humana fundamental de atribuir sentido à vida e o \"silêncio irracional\" do universo em resposta.\n[…]\nCamus escreveu O Mito de Sísifo tendo como pano de fundo a filosofia europeia do início do século XX, particularmente o existencialismo e a fenomenologia. Embora frequentemente agrupado com pensadores existencialistas, Camus rejeitou consistentemente o rótulo de existencialista, insistindo que sua filosofia do absurdo era distinta tanto do salto de fé de Kierkegaard quanto da ontologia do Ser de Heidegger.\n[…]\nEm interpretações posteriores, filósofos como Thomas Nagel e Ronald Aronson destacaram como o conceito de absurdo de Camus continua a moldar debates na ética existencial, no humanismo moderno e na filosofia do sentido.\n[…]\nCamus compromete-se a responder o que ele considera ser a única causa da filosofia em questão: Será que a realização da plenitude e absurdo da vida exigem suicídio?\n[…]\nCamus apresenta o mito para trabalhar uma metáfora sobre a vida moderna, como trabalhadores em empregos fúteis em fábricas e escritórios. \"O operário de hoje trabalha todos os dias em sua vida, faz as mesmas tarefas. Esse destino não é menos absurdo, mas é trágico quando apenas em raros momentos ele se torna consciente\".\n[…]\nO ensaio contém um apêndice intitulado \"A esperança e o absurdo na obra de Franz Kafka\". Embora Camus reconheça que o trabalho de Kafka representa uma descrição requintada da condição absurda, ele sustenta que Kafka falha como escritor absurdo porque seu trabalho retém um vislumbre de esperança.\n[…]\nExistencialismo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Troia",
+      "descricao": "Cidade lendária da Guerra de Troia, identificada com o sítio arqueológico de Hisarlik, na Anatólia."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Segundo a lenda adotada pelos romanos, que príncipe troiano escapou da cidade em chamas e se tornou ancestral de Rômulo e Remo?",
+    "resposta": "Eneias",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aeneas",
+      "https://pt.wikipedia.org/wiki/Eneias"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aeneas",
+        "situacao": "ok",
+        "texto": "Aeneas ( in-EE-əs; Classical Latin: [ae̯ˈneːaːs]; from Ancient Greek: Αἰνείας, romanized: Aineías) was a Trojan hero in Greco-Roman mythology, the son of the Trojan prince Anchises and the Greek goddess Aphrodite (equivalent to the Roman Venus). His father was a first cousin of King Priam of Troy (both being great-grandsons of Tros, founder of Troy), making Aeneas a second cousin to Priam's childr\n[…]\nDespite its many dramatic elements, Aeneas's story has generated little interest from the film industry. Ronald Lewis portrayed Aeneas in Helen of Troy, directed by Robert Wise, as a supporting character, who is a member of the Trojan Royal family, and a close and loyal friend to Paris, and escapes at the end of the film. Portrayed by Steve Reeves, he was the main character in the 1961 sword and sandal film Guerra di Troia (The Trojan War).\n[…]\nGiulio Brogi, portrayed as Aeneas in the 1971 Italian TV miniseries series called Eneide, which gives the whole story of the Aeneid, from Aeneas escape from Troy, to his meeting of Dido, his arrival in Italy, and his duel with Turnus.\n[…]\nin the action game Warriors: Legends of Troy, Aeneas is a playable character. The game ends with him and the Aeneans fleeing Troy's destruction and, spurned by the words of a prophetess thought crazed, goes to a new country (Italy) where he will start an empire greater than Greece and Troy combined that shall rule the world for 1000 years, never to be outdone in the tale of men (the Roman Empire).\n[…]\nIn the 2018 TV miniseries Troy: Fall of a City, Aeneas is portrayed by Alfred Enoch. He also featured as an Epic Fighter of the Dardania faction in the Total War Saga: Troy in 2020.\n[…]\nGrillo, L. \"Leaving Troy and Creusa: Reflections on Aeneas' Flight.\" The Classical Journal, vol. 106, no. 1, 2010, pp. 43–68. doi:10.5184/classicalj.106.1.0043. JSTOR 10.5184/classicalj.106.1.0043."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Eneias",
+        "situacao": "ok",
+        "texto": "Eneias ou Enéas (do latim Æneas, por sua vez do grego antigo Αἰνείας) é um personagem da mitologia greco-romana que aparece na Ilíada, de Homero, mas sua importância épica principal vem da Eneida, de Virgílio.\n[…]\nDiz-se que Eneias abdicou ao trono a favor do filho e voltou para a pátria, para reconstruir Troia. Após a morte de Eneias, seu filho Iulo, ou Ascânio (conforme a versão), fundou Alba Longa, da qual seus descendentes serão reis sucessivos. Em 753 a.C., é fundada Roma, a segunda Troia, pelos gêmeos Rómulo e Remo, descendentes maternos de Eneias, mas filhos diretos do deus Marte.\n[…]\nQuando os gregos, utilizando o estratagema do cavalo, capturaram Troia, Eneias conseguiu abandonar a cidade. Tornou-se o líder dos troianos sobreviventes e conduziu-os em busca de um novo lar. As fontes antigas descrevem a salvação de Eneias de formas diferentes. Segundo Virgílio, no pânico geral, Eneias conseguiu carregar aos ombros para fora da cidade o seu idoso pai Anquises, bem como o seu filho Iulo. A sua esposa Creusa ficou para trás e pereceu na Troia em chamas.\n[…]\nTambém foi profetizado a Eneias que a cidade seria fundada onde ele visse uma porca branca com trinta leitões, e também onde os troianos comessem as suas próprias mesas.\n[…]\nO culto de Eneias parece ter sido adotado pelos romanos através dos seus vizinhos etruscos. A lenda da participação de Eneias na fundação de Roma pode ser rastreada até às obras perdidas de Helânico (um contemporâneo de Heródoto). Foi atualizada nos anos da luta da República Romana contra Cartago, pois sublinhava as antigas raízes do confronto entre estas cidades, bem como a origem comum dos romanos com os etruscos por eles conquistados.\n[…]\nHistórias de Eneias (Carracci)"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Amaterasu",
+      "descricao": "Deusa do Sol na mitologia e no xintoísmo japoneses."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição xintoísta, que família japonesa descende da deusa do Sol, Amaterasu?",
+    "resposta": "A família imperial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amaterasu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amaterasu",
+        "situacao": "ok",
+        "texto": "Amaterasu Ōmikami (天照大（御）神; Japanese pronunciation: [aꜜmateɾasɯ oːmʲiꜜkamʲi]), often called Amaterasu for short, also known as Amateru Kami (天照神) and Ōhirume no Muchi (大日孁貴), is the goddess of the sun in Japanese mythology. Often considered the chief deity (kami) of the Shinto pantheon, she is also portrayed in Japan's earliest literary texts, the Kojiki (c.\n[…]\nAmaterasu Ōhirume no Mikoto (天照大日孁尊)\n[…]\nAs the ancestress of the imperial line, the epithet Sume(ra)-Ō(mi)kami (皇大神, lit. 'great imperial deity'; also read as Kōtaijin) is also applied to Amaterasu in names such as Amaterasu Sume(ra) Ō(mi)kami (天照皇大神, also read as 'Tenshō Kōtaijin') and 'Amaterashimasu-Sume(ra)-Ōmikami' (天照坐皇大御神).\n[…]\nThe name Amaterasu Ōmikami has been translated into English in different ways.\n[…]\nSeveral figures and noble clans claim descent from Amaterasu most notably the Japanese imperial family through Emperor Jimmu who descended from her grandson Ninigi.\n[…]\nWorship of Amaterasu within Buddhist contexts was further intensified by her close connection to the imperial house. Buddhist theorists, by linking her to Dainichi or other buddhas, reinforced the legitimacy of the imperial order within a universal Buddhist cosmology. Court-sponsored rituals blended Buddhist and kami-centered elements, and pilgrimage to Ise developed as a practice compatible with Buddhist soteriological aims.\n[…]\nMedieval narratives, such as those found in shrine-origin texts (engi), frequently emphasize that Amaterasu protects the state precisely because she is an expedient manifestation of a higher Buddhist power. In these accounts, the prosperity of the realm and the stability of the imperial lineage were understood as outcomes of the harmonious integration of Buddhist principle and kami manifestation.\n[…]\nAmaterasu particle\n[…]\nŌkami Amaterasu\n[…]\nMedia related to Amaterasu Ōmikami at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Amaterasu",
+        "situacao": "ok",
+        "texto": "Amaterasu (天照), Amaterasu-ōmikami (天照大神／天照大御神) ou Ōhirume-no-muchi-no-kami (大日孁貴神) é uma parte do círculo mitológico japonês e domina o panteão da religião xintoísta. Ela é a deusa do sol, mas também do universo. O nome Amaterasu é derivado de Amateru que significa \"que brilha no céu.\" O sentido do seu nome completo, Amaterasu-ōmikami, é \"a Grande Deusa Augusta que ilumina o céu\". O Imperador do J\n[…]\nSusanoo, infeliz com o feito, arremessou um cavalo celestial morto sobre os teares das criadas tecelãs. Amedrontadas, elas se estranharam, e uma delas morreu, perfurada por sua própria lançadeira. A deusa Amaterasu não gostou da brincadeira.\n[…]\nEstava tão divertida que os deuses caíram na gargalhada... Curiosa, Amaterasu não aguentou: entreabriu a pedra que fechava a gruta, ela viu a deusa dançando e fazendo caretas e soltou sua primeira gargalhada, e os deuses lhe direcionaram um espelho onde ela viu uma mulher esplêndida. Surpresa, ela se adiantou. Então os deuses agarraram-na e Amaterasu saiu para sempre de sua caverna celestial. O mundo estava salvo.\"\n[…]\nNo video game Ōkami, Amaterasu é representada como sendo um loba branca, cuja representação é válida no Taoísmo e remete à essência da reencarnação da deusa Amaterasu ressaltando a necessidade de vir como mestre e guia espiritual.\n[…]\nNo otome game Kamigami No Asobi, Amaterasu é um homem com feições femininas, o que causou contradições e polêmicas no jogo e com o público, é renomeado como \"Akira\" (Sol) pela protagonista Kusanagi Yui, ele aparece como personagem secundário no primeiro jogo e como um dos principais no segundo, ganhando uma rota, porém não aparece na adaptação em anime.\n[…]\nNo clipe da música \"I'm Not Yours\", da cantora taiwanesa Jolin Tsai em parceria com a cantora japonesa Namie Amuro, Amaterasu serve como inspiração.\n[…]\nPrimeira deusa do panteão japonês no jogo Smite.\n[…]\nAparece como Amaterasu-ōmikami no mangá Noragami",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Huitzilopochtli",
+      "descricao": "Deus asteca da guerra e do sol, patrono dos mexicas de Tenochtitlan."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Segundo a lenda, Huitzilopochtli mandou os astecas fundarem sua cidade onde vissem uma águia, pousada num cacto, devorando uma serpente. Que símbolo nacional atual mostra essa cena?",
+    "resposta": "A bandeira do México",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coat_of_arms_of_Mexico"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Mexico",
+        "situacao": "ok",
+        "texto": "The coat of arms of Mexico (Spanish: Escudo Nacional de México, lit. \"national shield of Mexico\") is a national symbol of Mexico and depicts a Mexican (golden) eagle perched on a prickly pear cactus devouring a rattlesnake. The design is rooted in the legend that the Aztec people would know where to build their city once they saw an eagle eating a snake on top of a lake. The image has been an impo\n[…]\nThe coat of arms recalls the founding of Mexico City, then Tenochtitlan. The legend of Tenochtitlan, as shown in the original Aztec codices, paintings, and post-Cortesian codices, does not include a snake.\n[…]\nIn 1960, the Mexican ornithologist Rafael Martín del Campo identified the eagle in the pre-Hispanic codex as the crested caracara or \"quebrantahuesos\" (bonebreaker), a species common in Mexico (although the name \"eagle\" is taxonomically incorrect, as the caracara is in the falcon family). The golden eagle is considered the official bird of Mexico. When Father Durán introduced the snake, it was originally an aquatic serpent.\n[…]\nThe emblem shows an eagle devouring a serpent, which actually conflicts with Mesoamerican beliefs. The eagle is a symbol of the sun and a representation of the victorious god Huitzilopochtli, in which form, according to legend, he bowed to the arriving Aztecs.\n[…]\nThe seal of New Mexico includes the eagle, snake, and cactus of the Mexican seal, sheltered or dominated by a larger bald eagle, representing New Mexico's history as part of Mexico and its later status as part of the United States.\n[…]\nAfter the territory of New Mexico was admitted to the Union in 1912, a commission examining the new state's symbols recommended that both the \"American\" and \"Mexican\" eagles be North American golden eagles, but instead it uses an American bald eagle for the United States and a harpy eagle for Mexico.\n[…]\nFlag of Mexico\n[…]\nNational symbols of Mexico\n[…]\nSeal of New Mexico"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bras%C3%A3o_de_armas_do_M%C3%A9xico",
+        "situacao": "ok",
+        "texto": "A figura do brasão do México provém de uma arte divinatória utilizada pelos antigos Astecas, a Apantomancia, que consiste na adivinhação feita através de qualquer objeto que apresente presságio, assim como encontros estranhos entre animais em geral. Adivinhos dessa antiga civilização, teriam visto uma águia voando de uma planta de cactos carregando uma serpente viva. Isso é representado no brasão \n[…]\nAs ramas carregadas de frutos tenros que adornam o brasão na parte inferior em forma de crescente para cima rodeando-o, uma de azinheira à esquerda e outra de louro à direita - representando o Martírio e a Vitória dos que deram a vida pela pátria mexicana, são enlaçadas por uma faixa listrada com as três cores da Bandeira do México.\n[…]\nO brasão de armas lembra a fundação da Cidade do México, então chamada Tenochtitlan. A lenda de Tenochtitlan, como mostrado nos códigos originais astecas, pinturas e códigos pós-cortesianos, não inclui uma cobra.\n[…]\nFolhas de carvalho e louro circundando o aglomerado de águias; amarrado com uma fita com as cores da bandeira mexicana\n[…]\nO emblema mostra uma águia devorando uma serpente, que na verdade está em conflito com a crença mesoamericana. A águia é um símbolo do sol e uma representação do deus vitorioso Huitzilopochtli, em que forma, segundo a lenda, se curvava aos astecas que chegavam.\n[…]\nO selo do Novo México inclui a águia, a cobra e o cacto do selo mexicano, abrigados ou dominados por uma águia careca maior, representando a história do Novo México como parte do México e seu status posterior como parte dos Estados Unidos.\n[…]\nDepois que o território do Novo México foi admitido na União em 1912, uma comissão que examinava os símbolos do novo estado recomendou que as águias \"americana\" e \"mexicana\" fossem águias douradas americanas, mas, em vez disso, usa uma águia americana americana para os Estados Unidos. e uma harpia para o México.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Ganesha",
+      "descricao": "Deus hindu com cabeça de elefante, ligado à sabedoria e à remoção de obstáculos."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Segundo uma lenda hindu, Ganesha usou a própria presa quebrada como pena para escrever, ditado pelo sábio Vyasa, qual grande épico?",
+    "resposta": "Mahabharata",
+    "distratores": [
+      "Ramayana",
+      "Rigveda",
+      "Upanishads"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ganesha"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ganesha",
+        "situacao": "ok",
+        "texto": "Ganesha, or Ganesh (Sanskrit: गणेश, IAST: Gaṇeśa, IPA: [ɡɐˈɳeːɕɐ]), also known as Ganapati, Vinayaka and Pillaiyar, is one of the best-known and most revered and worshipped deities in the Hindu pantheon and is the Supreme god in the Ganapatya sect. His depictions are found throughout India. Hindu denominations worship him regardless of affiliations. Ganesha also holds the Title of \"Pratham Pujya\" \n[…]\nOne of the most famous mantras associated with Ganesha is Om Gaṃ Ganapataye Namah (Om, Gaṃ, Salutation to the Lord of Hosts).\n[…]\nGanesha does not appear in the Indian epic literature that is dated to the Vedic period. A late interpolation to the epic poem Mahabharata (1.1.75–79) says that the sage Vyasa (Vyāsa) asked Ganesha to serve as his scribe to transcribe the poem as he dictated it to him. Ganesha agreed but only on the condition that Vyasa recites the poem uninterrupted, that is, without pausing.\n[…]\nThe sage agreed but found that to get any rest he needed to recite very complex passages so Ganesha would have to ask for clarifications. The story is not accepted as part of the original text by the editors of the critical edition of the Mahabharata, in which the twenty-line story is relegated to a footnote in an appendix. The story of Ganesha acting as the scribe occurs in 37 of the 59 manuscripts consulted during the preparation of the critical edition.\n[…]\nGanesha's association with mental agility and learning is one reason he is shown as scribe for Vyāsa's dictation of the Mahabharata in this interpolation. Richard L. Brown dates the story to the 8th century, and Moriz Winternitz concludes that it was known as early as c. 900, but it was not added to the Mahabharata some 150 years later. Winternitz also notes that a distinctive feature in South Indian manuscripts of the Mahabharata is their omission of this Ganesha legend.\n[…]\nThirty-two forms of Ganesha – 32 forms of Hindu god Ganesha"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ganesha",
+        "situacao": "ok",
+        "texto": "Ganesha (em sânscrito: गणेश), também aportuguesado como Ganexa, é um dos mais conhecidos e venerados deuses do hinduísmo. Este epíteto é composto das palavras gaṇa (sânscrito: गण = tropas, grupos, exércitos) + īśa (sânscrito: ईश = senhor), as quais, por acomodação eufônica formam Gaṇeśa. É o primeiro filho de Xiva e Pārvatī, irmão de Escanda, e o esposo de Budhi (Aprendizado) e Siddhi (Realização)\n[…]\nA presa quebrada de Ganesha, como descrita acima, simboliza inicialmente sua habilidade de superar ou \"quebrar\" as ilusões da dualidade. Porém, existem muitos outros sentidos que têm sido associados a este símbolo.\n[…]\nNa primeira parte do poema épico Mahabharata, está escrito que o sábio Vyāsa pediu para Ganesha que transcrevesse o poema enquanto ele ditava. Ganesha concordou, mas somente na condição de que o sábio Vyāsa recitasse o poema sem interrupções ou pausas. O sábio, por sua vez, colocou a condição que Ganesha não teria somente que escrever, mas também entender tudo o que ele escutasse antes de escrever.\n[…]\nDessa forma, Vyāsa se recuperaria um pouco de seu falatório cansativo ao simplesmente recitando um verso bem difícil que Ganesha não conseguisse entender rapidamente. Começou o ditado, mas no corre-corre de escrever, a caneta de Ganesha se quebrou. Então ele quebrou uma de suas presas e a usou como caneta, só assim a transcrição pôde prosseguir sem interrupções, permitindo a ele manter sua palavra.\n[…]\nConsequentemente, seu passo era muito devagar e isso foi uma grande desvantagem. Dali a pouco apareceu a sua frente o sábio Narada (filho de Brahma), que perguntou a ele aonde estava indo. Ganesha estava muito aborrecido e entrou em fúria porque é considerado um sinal de má-sorte encontrar um Brahmin solitário no começo de uma viagem. Mesmo que Narada seja o maior dos Brahmins, filho do próprio Brahma, isso ainda era um mau presságio.\n[…]\nEkadanta: \"O Senhor que tem apenas uma presa\"",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Zeus",
+      "descricao": "Rei dos deuses do Olimpo na mitologia grega, senhor do céu e do raio."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O titã Cronos engolia os filhos ao nascer, mas o caçula Zeus escapou e o obrigou a vomitá-los. Quantos irmãos Zeus libertou assim?",
+    "resposta": "Cinco",
+    "distratores": [
+      "Três",
+      "Quatro",
+      "Seis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cronus",
+      "https://pt.wikipedia.org/wiki/Zeus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cronus",
+        "situacao": "ok",
+        "texto": "In ancient Greek religion and mythology, Cronus, Cronos, or Kronos ( or ; Ancient Greek: Κρόνος) was the leader and youngest of the Titans, the children of Gaia (Earth) and Uranus (Sky). Cronus castrated and overthrew his father and then ruled during the mythological Golden Age until he himself was overthrown by his son, Zeus, and imprisoned in Tartarus. An alternate genealogy is presented by Plat\n[…]\nIn Hesiod's Theogony, and Homer's Iliad, Cronus and his Titan brothers are confined to Tartarus, apparently forever, but in other traditions Cronus and the other imprisoned Titans are eventually set free by the mercy of Zeus.\n[…]\nIn one version of Typhon's origins, after the defeat of the Giants, Gaia in anger slandered Zeus to Hera, and she went to Cronus. Cronus gave his daughter two eggs smeared with his own semen and told her to bury them underground, so that they would produce a creature capable of dethroning Zeus. Hera did so, and thus Typhon came to be.\n[…]\nIn the dialogue, Cronus rejects the Hesiodic tradition of him eating his children and then being overthrown, and instead claims that he peacefully abdicated the throne in favour of his youngest son Zeus, although he still resumes rulership for seven days each year (his festival) in order to remind humanity of the plenteous, toil-free and luxuriant life they enjoyed under his reign before the Olympians took over.\n[…]\nWhile the Greeks considered Cronus a cruel and tempestuous force of chaos and disorder, believing the Olympian gods had brought an era of peace and order by seizing power from the crude and malicious Titans, the Romans took a more positive and innocuous view of the deity, by conflating their indigenous deity Saturn with Cronus. Consequently, while the Greeks considered Cronus merely an intermediary stage between Uranus and Zeus, he was a larger aspect of Roman religion."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zeus",
+        "situacao": "ok",
+        "texto": "Zeus (em grego antigo: Ζεύς; transl. Zeús; em grego moderno: Δίας, transl. Días) é o pai dos deuses (πατὴρ ἀνδρῶν τε θεῶν τε, patēr andrōn te theōn te), que exercia a autoridade sobre os deuses olímpicos na antiga religião grega. É o deus dos céus, raios, relâmpagos que mantêm a ordem e justiça na mitologia grega. Seu equivalente romano é Júpiter, enquanto seu equivalente etrusco é Tinia; alguns a\n[…]\nFilho do titã Cronos e de Reia, Zeus é o mais novo de seus irmãos; na maior parte das tradições é casado, primeiro com Métis, gerando a deusa Atena e, depois, com Hera, embora no oráculo de Dodona, sua esposa seja Dione, com quem, de acordo com a Ilíada, ele teria gerado Afrodite.\n[…]\nCronos teve diversos filhos com Reia: Héstia, Deméter, Hera, Hades e Posídon, porém engoliu-os (menos Posídon, Hades e Hera) assim que nasceram, após ouvir de Gaia e Urano que ele estava destinado a ser deposto por seu filho, da mesma maneira que ele havia deposto seu próprio pai — um oráculo do qual Reia tomou conhecimento e pôde evitar.\n[…]\nQuando Zeus estava prestes a nascer, Reia procurou Gaia e concebeu um plano para salvá-lo, para que Cronos fosse punido por suas ações contra Urano e seus próprios filhos. Reia deu à luz Zeus na ilha de Creta, e entregou a Cronos uma pedra enrolada em roupas de bebê, que ele prontamente engoliu.\n[…]\nApós chegar à idade adulta, Zeus forçou Cronos a vomitar primeiro a pedra que lhe havia sido dada em seu lugar — em Pito, sob os vales do monte Parnaso, como um sinal para os mortais: o Ônfalo, \"umbigo\" — e em seguida seus irmãos, de acordo com a ordem em que haviam sido engolidos. Em algumas versões, Métis deu a Cronos um emético para forçá-lo a vomitar os bebês, enquanto noutra o próprio Zeus teria aberto com um corte a barriga de Cronos.\n[…]\nOs gregos identificavam a entidade Baal como uma das manifestações de Zeus ou Hércules, enquanto os romanos a identificavam como Júpiter."
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Odisseia",
+      "descricao": "Poema épico grego atribuído a Homero, sobre o retorno de Ulisses a Ítaca."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A Odisseia e a Ilíada, de Homero, têm exatamente o mesmo número de cantos. Quantos cantos tem cada uma delas?",
+    "resposta": "Vinte e quatro",
+    "distratores": [
+      "Doze",
+      "Dezoito",
+      "Trinta e seis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Odyssey",
+      "https://en.wikipedia.org/wiki/Iliad"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Odyssey",
+        "situacao": "ok",
+        "texto": "The Odyssey (, ODD-iss-ee; Ancient Greek: Ὀδύσσεια, romanized: Odýsseia [odyˈsːeːˌja]) is one of two major epics of ancient Greek literature attributed to Homer. It is one of the oldest surviving works of literature and remains popular with modern audiences. Like the Iliad, the Odyssey is divided into 24 books. It follows the heroic king of Ithaca, Odysseus (also known by the Latin variant Ulysses\n[…]\nJorge Rivera-Herrans' sung-through work Epic: The Musical tells the story of the Odyssey over the course of nine \"sagas\", beginning with the end of the Trojan War and carrying through to Odysseus's homecoming to Ithaca.\n[…]\nPsychiatrist Jonathan Shay wrote two books, Achilles in Vietnam: Combat Trauma and the Undoing of Character (1994) and Odysseus in America: Combat Trauma and the Trials of Homecoming (2002), which relate the Iliad and the Odyssey to posttraumatic stress disorder and moral injury as seen in the rehabilitation histories of combat veteran patients.\n[…]\nThe Odyssey (in Ancient Greek) on Perseus Project\n[…]\nOdyssey: the Greek text presented with the translation by Butler and vocabulary, notes, and analysis of difficult grammatical forms\n[…]\nThe Odyssey, translated by William Cullen Bryant at Standard Ebooks\n[…]\nThe Odysseys of Homer, together with the shorter poems by Homer, trans. by George Chapman at Project Gutenberg\n[…]\nThe Odyssey, trans. by Alexander Pope at Project Gutenberg\n[…]\nThe Odyssey, trans. by William Cowper at Project Gutenberg\n[…]\nThe Odyssey, trans. by Samuel H. Butcher and Andrew Lang at Project Gutenberg\n[…]\nThe Odyssey, trans. by Samuel Butler at Project Gutenberg\n[…]\nThe Odyssey public domain audiobook at LibriVox\n[…]\nThe Odyssey Comix—A detailed retelling and explanation of Homer's Odyssey in comic-strip format by Greek Myth Comix\n[…]\nThe Odyssey—Annotated text and analyses aligned to Common Core Standards\n[…]\n\"Homer's Odyssey: A Commentary\" by Denton Jaques Snider on Project Gutenberg"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Iliad",
+        "situacao": "ok",
+        "texto": "The Iliad (  ILL-ee-əd; Ancient Greek: Ἰλιάς, romanized: Iliás [iːliás]; lit. '[a poem] about Ilion (Troy)') is one of two major surviving ancient Greek epic poems, along with the Odyssey, attributed to Homer. It is one of the oldest extant works of literature still widely read by modern readers. Like the Odyssey, the poem is divided into 24 books and was written in dactylic hexameter. It contains\n[…]\nThe 1954 Broadway musical The Golden Apple, by librettist John Treville Latouche and composer Jerome Moross, was freely adapted from the Iliad and the Odyssey, resetting the action to America's Washington state in the years after the Spanish–American War, with events inspired by the Iliad in Act One and events inspired by the Odyssey in Act Two.\n[…]\nPsychiatrist Jonathan Shay wrote two books, Achilles in Vietnam: Combat Trauma and the Undoing of Character (1994) and Odysseus in America: Combat Trauma and the Trials of Homecoming (2002), which relate the Iliad and the Odyssey to posttraumatic stress disorder and moral injury as seen in the rehabilitation histories of combat veteran patients.\n[…]\nAfter a discussion of the metres employed by previous translators, Arnold argues for a poetical dialect hexameter translation of the Iliad, like the original. \"Laborious as this meter was, there were at least half a dozen attempts to translate the entire Iliad or Odyssey in hexameters; the last in 1945. Perhaps the most fluent of them was by J.\n[…]\nRichmond Lattimore's version (1951) is \"a free six-beat\" line-for-line rendering in often unidiomatic, often archaic English. Robert Fitzgerald's version (Oxford World's Classics, 1974) uses shorter, mostly iambic lines and numerous allusions to earlier English poetry.\n[…]\nParallels between Virgil's Aeneid and Homer's Iliad and Odyssey"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Odisseia",
+        "situacao": "ok",
+        "texto": "Odisseia (em grego clássico: Οδύσσεια; romaniz.: Odýsseia) é uma das duas principais epopeias da literatura grega antiga atribuídas a Homero. É uma das obras literárias mais antigas que sobreviveram e continua popular entre o público moderno. Como a Ilíada, a Odisseia é dividida em 24 livros. Ela segue o rei herói de Ítaca, Odisseu, também conhecido pela variante latina Ulisses, e sua jornada de r\n[…]\nComo a Ilíada, a Odisseia é dividida em vinte e quatro partes. Estudiosos antigos sugeriram que estas correspondem às 24 letras do alfabeto grego, mas isso é amplamente considerado não histórico. A divisão foi provavelmente feita muito depois da composição do poema, mas agora é geralmente aceita como parte da estrutura moderna do poema. Existem muitas teorias sobre como elas surgiram. Alguns sugerem que eram uma parte autêntica da tradição oral ou inventadas por estudiosos alexandrinos.\n[…]\nO romance modernista do escritor irlandês James Joyce, Ulisses (1922), foi significativamente influenciado pela Odisseia. Joyce havia encontrado a figura de Odisseu em As Aventuras de Ulisses, de Charles Lamb, uma adaptação do poema épico para crianças, que parece ter estabelecido o nome latino na mente de Joyce. Ulisses, uma releitura da Odisseia ambientada em Dublin, é dividido em dezoito seções (\"episódios\") que podem ser mapeadas aproximadamente nos vinte e quatro livros da Odisseia.\n[…]\nA segunda sinfonia de Robert W. Smith para banda de concerto, A Odisseia, narra quatro dos principais destaques da história nos quatro movimentos da peça: \"A Ilíada\", \"Os Ventos de Poseidon\", \"A Ilha de Calipso\" e \"Ítaca\".\n[…]\nO balé Ulysse, de Jean-Claude Gallota, baseado tanto na Odisseia quanto em Ulisses, de James Joyce.\n[…]\nOdisseia em português traduzida por Odorico Mendes.\n[…]\nAS MULHERES DE ODISSEU: A Ilíada e a Odisseia contadas pelas personagens femininas. Recriação apoiada pela Bolsa Funarte de Criação Literária.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Helena de Troia",
+      "descricao": "Rainha de Esparta, filha de Zeus e Leda, cuja fuga com Páris desencadeou a Guerra de Troia."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Num verso famoso do dramaturgo inglês Christopher Marlowe, Helena de Troia é o rosto que lançou ao mar quantos navios?",
+    "resposta": "Mil",
+    "distratores": [
+      "Cem",
+      "Quinhentos",
+      "Dez mil"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Helen_of_Troy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Helen_of_Troy",
+        "situacao": "ok",
+        "texto": "Helen (Ancient Greek: Ἑλένη, romanized: Helénē; Latin: Helena), commonly known as Helen of Troy  and sometimes as Helen of Sparta, is a figure in Greek mythology said to have been the most beautiful woman in the world. She was believed to have been the daughter of Zeus by Leda or Nemesis, and the sister of Clytemnestra, Castor, Pollux, Philonoe, Phoebe and Timandra.\n[…]\nIn 1881, Oscar Wilde published a poem entitled \"The New Helen\", in which he declared his friend Lillie Langtry to be the reincarnation of Helen of Troy. Wilde portrays this new Helen as the antithesis of the Virgin Mary, but endows her with the characteristics of Jesus Christ himself. The Irish poet William Butler Yeats compared Helen to his muse, Maude Gonne, in his poems \"No Second Troy\" (1916) and \"A Man Young and Old\" (1928). The anthology The Dark Tower by C. S.\n[…]\nMinor planet 101 Helena discovered by James Craig Watson in 1868, is named after Helen of Troy.\n[…]\nThe 1951 Swedish film Sköna Helena is an adapted version of Offenbach's operetta, starring Max Hansen and Eva Dahlbeck. In 1956, a Franco-British epic titled Helen of Troy was released, directed by Oscar-winning director Robert Wise and starring Italian actress Rossana Podestà in the title role. It was filmed in Italy, and featured well-known British character actors such as Harry Andrews, Cedric Hardwicke, and Torin Thatcher in supporting roles.\n[…]\nInspired by the line, \"Was this the face that launched a thousand ships...?\" from Marlowe's Faustus, Isaac Asimov jocularly coined the unit \"millihelen\" to mean the amount of beauty that can launch one ship. Canadian novelist and poet Margaret Atwood re-envisioned the myth of Helen in modern, feminist guise in her poem \"Helen of Troy Does Countertop Dancing\".\n[…]\nHelen of Troy:history and facial reconstruction on Royalty Now Studios\n[…]\n\"Helen\" . The American Cyclopædia. 1879."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Helena_de_Troia",
+        "situacao": "ok",
+        "texto": "Na mitologia grega, Helena (em grego: Ἑλένη, transl. Helénē) era filha de Zeus e da rainha Leda, irmã gêmea da rainha Clitemnestra de Micenas, irmã de Castor e de Pólux e esposa do rei Menelau de Esparta.\n[…]\nNa versão mais difundida, porém, Helena segue para Tróia com Páris e permanece na cidade todo o curso da guerra. Após reunir um grande número de návios, mais de mil segundo Homero, os gregos mandam uma embaixada a Tróia para pedir a devolução de Helena e do tesouro (possivelmente o dote de Helena) que tinha sido levado para Tróia. Os troianos recusaram e assim teve início a guerra.\n[…]\nNo canto III, vemos Helena ao lado de Príamo nas muralhas de Tróia. Ao vê-la, o grupo de anciãos que aconselhava o rei Príamo, se refere a rainha de Esparta com termos que revelam a fascinação que ela despertava:\n[…]\nEnfim, Helena reaparece no último Canto da Ilíada. Quando o corpo de Hector é trazido para Tróia, depois de ser morto por Aquiles, ela lamenta a morte dele que era a pessoa que a defendia em Tróia.\n[…]\n-Helena após a Ilíada:\n[…]\nA guerra continua e ela só vai terminar graças a armadilha do Cavalo de Tróia. Um dia, os troianos percebem que o acampamento de seus inimigos está vazio, e imaginam que finalmente abandonaram a guerra.\n[…]\nDurante o saque, Menelau vai até a casa em que Helena e Deifobo moravam. Ele mata Deifobo e recupera Helena. Em seguida, Menelau tem uma disputa com seu irmão Agamemnon, já que este pretende ficar ainda Tróia e fazer sacrifícios a deusa Atena para proteger o retorno das naus, mas Menelau quer partir imediatamente. Ele será atingido por uma tempestade e vai para nas costas do Egito com apenas cinco návios. Ele e Helena vão viver anos ali incapazes de retornar para Esparta.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Osíris",
+      "descricao": "Deus egípcio dos mortos e do além, marido de Ísis e pai de Hórus."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Segundo o relato do grego Plutarco, em quantos pedaços o deus Set cortou o corpo do irmão Osíris, espalhando-os pelo Egito?",
+    "resposta": "Catorze",
+    "distratores": [
+      "Sete",
+      "Nove",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Osiris_myth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Osiris_myth",
+        "situacao": "ok",
+        "texto": "The Osiris myth is the most elaborate and influential story in ancient Egyptian mythology. It concerns the murder of the god Osiris, a primeval king of Egypt, and its consequences. Osiris's murderer, his brother Set, usurps his throne. Meanwhile, Osiris's wife Isis restores her husband's body, allowing him to posthumously beget their son, Horus.\n[…]\nIn Egyptian accounts, however, the penis of Osiris is found intact, and the only close parallel with this part of Plutarch's story is in \"The Tale of Two Brothers\", a folk tale from the New Kingdom with similarities to the Osiris myth.\n[…]\nA final difference in Plutarch's account is Horus's birth. The form of Horus that avenges his father has been conceived and born before Osiris's death. It is a premature and weak second child, Harpocrates, who is born from Osiris's posthumous union with Isis. Here, two of the separate forms of Horus that exist in Egyptian tradition have been given distinct positions within Plutarch's version of the myth.\n[…]\nIsis's Greek and Roman devotees, like the Egyptians, believed that she protected the dead in the afterlife as she had done for Osiris, and they said that undergoing the initiation guaranteed to them a blessed afterlife. It was to a Greek priestess of Isis that Plutarch wrote his account of the myth of Osiris.\n[…]\nThrough the work of classical writers such as Plutarch, knowledge of the Osiris myth was preserved even after the middle of the first millennium AD, when Egyptian religion ceased to exist and knowledge of the writing systems that were originally used to record the myth were lost. The myth remained a major part of Western impressions of ancient Egypt.\n[…]\nPlutarch: Isis and Osiris, on LacusCurtius. Full text of On Isis and Osiris as translated by Frank Cole Babbitt."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mito_de_Os%C3%ADris",
+        "situacao": "ok",
+        "texto": "O Mito de Osíris é a mais elaborada e influente história da mitologia do antigo Egito. A história trata do assassinato do deus Osíris, um primitivo rei do Egito, e das suas consequências. O assassino de Osíris, o seu irmão Set, usurpou o seu trono. Entretanto, a esposa de Osíris, Ísis reconstituiu o corpo do seu marido permitindo, deste modo, a concepção póstuma de um filho com ela.\n[…]\nO resto da história concentra-se em Hórus o resultado da união entre Ísis e Osíris que, de início, é uma criança vulnerável e protegida pela sua mãe e que, posteriormente, se torna rival de Set na pretensão ao trono. Do eterno conflito entre os dois rivais, resulta a vitória de Hórus, que repõe a ordem no Egito, depois de um reinado injusto de Set, e completa o processo de ressurreição de Osíris.\n[…]\nO mito de Osíris foi concebido por volta do século XXIV a.C., ou mesmo antes. Muitos dos seus elementos tiveram origem em ideias religiosas, mas o conflito entre Hórus e Set poderá ter sido parcialmente inspirado por lutas regionais durante a história ou pré-história do Egito. Os historiadores tentaram decifrar a natureza exata dos eventos que terão dado origem à história, mas sem chegar a conclusões concretas.\n[…]\nAlgumas partes do mito surgem numa vasta variedade de textos egípcios, textos funerários, feitiços e pequenos contos. Desta forma, o mito de Osíris é mais detalhado e coerente do que outros mitos antigos. No entanto, não existe nenhuma fonte que dê um relato completo do mito, e as fontes existentes variam muito nas suas versões dos acontecimentos.\n[…]\nGriffiths, J. Gwyn (1980). The Origins of Osiris and His Cult. [S.l.]: E.J. Brill. ISBN 9004060960\n[…]\nSmith, Mark (2008). Dieleman, Jacco; Wendrich, Willeke, eds. «Osiris and the Deceased». UCLA Encyclopedia of Egyptology. Department of Near Eastern Languages and Cultures, UC Los Angeles. Consultado em 5 de junho de 2012",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Odin",
+      "descricao": "Deus principal da mitologia nórdica, senhor de Asgard, da sabedoria e da guerra."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Para descobrir o segredo das runas, Odin ficou pendurado na árvore Yggdrasil, ferido pela própria lança, durante quantas noites?",
+    "resposta": "Nove",
+    "distratores": [
+      "Três",
+      "Sete",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Odin",
+      "https://en.wikipedia.org/wiki/Hávamál"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Odin",
+        "situacao": "ok",
+        "texto": "Odin (; from Old Norse: Óðinn) is a widely revered god in Norse mythology and Germanic paganism. Most surviving information on Odin comes from Norse mythology, but he figures prominently in the recorded history of Northern Europe. This includes the Roman Empire's partial occupation of Germania (c. 2 BCE), the Migration Period (4th–6th centuries CE) and the Viking Age (8th–11th centuries CE). Conse\n[…]\nWriting in the mid-7th century, Jonas of Bobbio wrote that earlier that century the Irish missionary Columbanus disrupted an offering of beer to Odin (vodano) \"(whom others called Mercury)\" in Swabia. A few centuries later, 9th-century document from what is now Mainz, Germany, known as the Old Saxon Baptismal Vow records the names of three Old Saxon gods, UUôden ('Woden'), Saxnôte, and Thunaer ('Thor'), whom pagan converts were to renounce as demons.\n[…]\nThe poem Hávamál (Old Norse 'Sayings of the High One') consists entirely of wisdom verse attributed to Odin.\n[…]\nWhile the name of the tree is not provided in the poem and other trees exist in Norse mythology, the tree is near universally accepted as the cosmic tree Yggdrasil, and if the tree is Yggdrasil, then the name Yggdrasil (Old Norse 'Ygg's steed') directly relates to this story. Odin is associated with hanging and gallows; John Lindow comments that \"the hanged 'ride' the gallows\".\n[…]\nThe god Odin has been a source of inspiration for artists working in fine art, literature, and music.\n[…]\nKrausse, the painting Odin (around 1880) by Edward Burne-Jones, the drawing Thor und Magni (1883) by K. Ehrenberg, the marble statue Wodan (around 1887) by H. Natter, the oil painting Odin und Brunhilde (1890) by Konrad Dielitz, the graphic drawing Odin als Kriegsgott (1896) by Hans Thoma, the painting Odin and Fenris (around 1900) by Dorothy Hardy, the oil painting Wotan und Brünhilde (1914) by Koloman Moser, the painting The Road to Walhall by S."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hávamál",
+        "situacao": "ok",
+        "texto": "Hávamál ('Words of Hávi [the High One]' in Old Norse) is presented as a single poem in the Codex Regius, a collection of Old Norse poems from the Viking age. A scholarly estimate of Hávamál's age dates the poem to between 900 and 1000 AD. The poem, itself a combination of numerous shorter poems, is largely gnomic, presenting advice for living, proper conduct and wisdom. It is considered an importa\n[…]\nthe Rúnatal (stanzas 139–146), an account of how Odin won the runes, introductory to the Ljóðatal\n[…]\nIn stanzas 139 and 140, Odin describes his sacrifice of himself to himself:\n[…]\nThe \"windy tree\" from which the victim hangs is often identified with the world tree Yggdrasil by commentators. The entire scene, the sacrifice of a god to himself, the execution method by hanging the victim on a tree, and the wound inflicted on the victim by a spear, is often compared to the crucifixion of Christ as narrated in the gospels.\n[…]\nThe parallelism of Odin and Christ during the period of open co-existence of Christianity and Norse paganism in Scandinavia from the 9th to 12th centuries, corresponding with the assumed horizon of the poem's composition, also appears in other sources. To what extent this parallelism is an incidental similarity of the mode of human sacrifice offered to Odin and the crucifixion, and to what extent a Pagan influence on Christianity, has been discussed by scholars such as Sophus Bugge.\n[…]\nThe persistence of Odin's self-sacrifice in Scandinavian folk tradition was documented by Bugge (1889) in a poem from Unst on the Shetland Islands:\n[…]\nthe twelfth song (stanza 158), which takes up the motif of Odin hanging on the tree and its association with runes:\n[…]\nThe opera Gunlöd by Peter Cornelius takes its plot from the Hávamál; detailing Odin's theft of the mead of poetry.\n[…]\nParallel versions of Odin's Rune Song with the Bellows, Hollander, Larrington and Orchard translations"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Odin",
+        "situacao": "ok",
+        "texto": "Odin ou Ódin (em nórdico antigo: Óðinn; em protogermânico comum: Wōdanaz) é o rei dos deuses e a divindade principal do clã dos Æsir, o clã mais importante de deuses da mitologia nórdica e nas crenças das religiões neopagãs germânicas. Também é conhecido como \"Pai de Todos\"  e o  deus nórdico  da cura, da vida e da morte\n[…]\nOdin morava em Asgard, no palácio de Valaskjálf, que ele construiu para si, e onde se encontra seu trono, o Hliðskjálf, onde podia observar o que acontecia em cada um dos nove mundos, graças aos seus dois corvos Hugin e Munin. Durante o combate brandia sua lança, chamada Gungnir, e montava seu cavalo de oito patas, chamado Sleipnir.\n[…]\nNo momento em que Ymir foi morto por Odin, causou a criação de uma lágrima de realidade, que chamou a atenção de Odin. Depois de sofrer um ataque de existencialismo, ele percebeu que há muito mais neles do que os Nove Reinos. Com essa percepção, ele iniciou um enorme projeto de pesquisa para descobrir os segredos da ruptura da realidade.\n[…]\nUma vez, Odin realizou um ritual empalando-se com sua própria lança e enforcando-se nos galhos de Yggdrasil, e sangrando no Poço do Destino, onde passou nove dias como um deus morto, vagou pelo reino dos mortos e saqueou o segredos da Árvore do Mundo até atingir seu limite, enviando Odin de volta à terra dos vivos, para sua raiva e loucura.\n[…]\nO aposto de “pai da magia”, constante do Baldrs Draumar, confirmado no seu próprio depoimento do Hávamál (parte IV), descreve o seu próprio sacrifício: feriu-se com a lança e suspendeu-se numa árvore, onde permaneceu nove dias agitado pelos ventos; esta árvore é Yggdrasill, o freixo do mundo. Tudo isso visando à iniciação na sabedoria das runas, tendo até criado algumas delas, tornando-se senhor do hidromel da poesia, licor mágico que profere vaticínios.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Freya",
+      "descricao": "Deusa nórdica do amor, da beleza e da fertilidade."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na mitologia nórdica, Freya leva parte dos guerreiros mortos em batalha para o seu salão, e o restante vai para o Valhala. Que fração fica com ela?",
+    "resposta": "Metade",
+    "distratores": [
+      "Um terço",
+      "Um quarto",
+      "Dois terços"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fólkvangr",
+      "https://en.wikipedia.org/wiki/Freyja"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fólkvangr",
+        "situacao": "ok",
+        "texto": "Fólkvangr (Old Norse \"field of the host\" or \"people-field\" or \"army-field\") is a meadow or field ruled over by the goddess Freyja where half of those that die in combat go upon death, whilst the other half go to the god Odin in Valhalla. Others were also brought to Fólkvangr after their death; Egils Saga, for example, has a world-weary female character declare that she will never taste food again \n[…]\nJohn Lindow says that if the Fólk- element of Fólkvangr is to be understood as \"army\", then Fólkvangr appears as an alternative to Valhalla. Lindow adds that, like Odin, Freyja has an association with warriors in that she presides over the eternal combat of Hjaðningavíg.\n[…]\nAccording to Hilda Ellis Davidson, Valhalla \"is well known because it plays so large a part in images of warfare and death,\" yet the significance of other halls in Norse mythology such as Ýdalir, where the god Ullr dwells, and Freyja's Fólkvangr have been lost.\n[…]\nIn a 2012 paper, Joseph S. Hopkins and Haukur Þorgeirsson propose a connection between Fólkvangr, Sessrúmnir, and numerous stone ships found throughout Scandinavia. According to Hopkins and Haukur, Fólkvangr and Sessrumir together paint an image of a ship and a field, which has broader implications and may connect Freyja to the \"Isis\" of the Suebi:\n[…]\nEvidence involving ships from the pre-Christian period and from folklore may be similarly re-examined with this potential in mind. For example, if Freyja is taken as a possessor of a ship, then this ship iconography may lend support to positions arguing for a connection between a Vanir goddess and the \"Isis\" of the Suebi, who is associated with ship symbolism in Tacitus’s Germania.\n[…]\nValfreyja, a name appearing in Njáls saga as a kenning meaning 'lady of the slain' or 'Freyja of the slain'"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Freyja",
+        "situacao": "ok",
+        "texto": "In Norse mythology, Freyja (Old Norse '(the) Lady') is a goddess associated with love, beauty, fertility, war, gold, and seiðr (magic for seeing and influencing the future). Freyja is the owner of the necklace Brísingamen, rides a chariot pulled by two cats, is accompanied by the boar Hildisvíni, and possesses a cloak of falcon feathers to allow her to shift into falcon hamr. By her husband Óðr, s\n[…]\nIn chapter 17, the jötunn Hrungnir finds himself in Asgard, the realm of the gods, and becomes very drunk. Hrungnir boasts that he will move Valhalla to Jötunheimr, bury Asgard, and kill all of the gods—with the exception of the goddesses Freyja and Sif, who he says he will take home with him. Freyja is the only one of them that dares to bring him more to drink. Hrungnir says that he will drink all of their ale. After a while, the gods grow bored of Hrungnir's antics and invoke the name of Thor.\n[…]\nMany Asatru practitioners today mostly honor Freyja as a goddess of fertility, abundance and beauty. A common rite for modern Freya worshippers is to bake foods that have some connection to love in one way or another, such as chocolate. Freyja is also called upon for protection, usually when it comes to a domestic violence situation.\n[…]\nThe pendant may represent Freyja herself.\n[…]\nNäsström notes that, just like Odin, Freyja receives slain heroes who have died on the battlefield, and that her house is Sessrumnir (which she translates as \"filled with many seats\"), a dwelling that Näsström posits likely fills the same function as Valhalla. Näsström comments that \"still, we must ask why there are two heroic paradises in the Old Norse view of afterlife.\n[…]\nThe 19th century German composer Richard Wagner's Der Ring des Nibelungen opera cycle features Freia, the goddess Freyja combined with the apple-bearing goddess Iðunn.\n[…]\nMedia related to Freyja at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/F%C3%B3lkvangr",
+        "situacao": "ok",
+        "texto": "Na mitologia nórdica Fólkvangr (\"Campo do Anfitrião\" ou \"Exército\" Ou ainda em Nórdico arcaico \"Campo do Povo\" ou \"Campo dos Exércitos\") refere-se ao palácio de Freyja, local onde metade dos guerreiros vikings eram recebidos após terem morrido, com honra, em batalha.\n[…]\nMetade das almas dos guerreiros passariam, então, os seus dias a treinar-se em combates, desfrutando de grandes banquetes. A condição imposta seria a de proteger o castelo. Eles formariam um exército, invencível até ao advento do Ragnarǫk, quando combateriam ao lado de Freyja. A outra metade seguia para Valhala, palácio de Odin.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Vishnu",
+      "descricao": "Deus hindu preservador do universo, que desce à Terra em encarnações chamadas avatares."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na tradição hindu, quantos são os avatares principais do deus Vishnu, na lista clássica que inclui Rama e Krishna?",
+    "resposta": "Dez",
+    "distratores": [
+      "Três",
+      "Sete",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dashavatara"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dashavatara",
+        "situacao": "ok",
+        "texto": "The Dashavatara (Sanskrit: दशावतार, IAST: daśāvatāra) are the ten primary avatars of Vishnu, a principal Hindu god. Vishnu is said to descend in the form of an avatar to restore cosmic order. The word Dashavatara derives from daśa, meaning \"ten\", and avatāra, roughly equivalent to \"incarnation\".\n[…]\nIn Maharashtra and Goa, Vithoba's image replaces Buddha as the ninth avatar of Vishnu in some temple sculptures and Hindu astrological almanacs.\n[…]\nThese similarities may have contributed to the assimilation of the Buddha as an avatar of Vishnu.\n[…]\nThe adoption of Buddha as an avatar in Bhagavatism was a catalyzing factor in Buddhism's assimilation into Vaishnavism's mythic hierarchy. By the 8th century CE, the Buddha was included as an avatar of Vishnu in several Puranas. This assimilation is indicative of the Hindu ambivalence toward the Buddha and Buddhism, and there is also a tradition that there were two Buddhas. According to this tradition, the first was the ninth avatar of Vishnu, while the second was the historical Buddha.\n[…]\nJayadeva, in his Pralaya Payodhi Jale from the Gita Govinda, includes Balarama and Buddha where Krishna is equated with Vishnu and the source of all avatars. The words from the poem describing ten avataras (translated) are as follows:\n[…]\nRama - an ideal hero, physically perfect, befriends a speaking vanara deity Hanuman\n[…]\nKrishna - Vishnu incarnating as a God\n[…]\nSome Vaishnava Hindus reject this \"Avataric Evolutionism\" concept. For example, Prakashanand states that this apologeticism degrades the divine status of Rama and Krishna, unduly sequences Rama as inferior to Krishna and both to the Buddha. Rama and Krishna are supremely divine, each right and perfect for the circumstances they appeared in, states Prakashanand.\n[…]\nAvatars (Incarnations or Descents) of Vishnu"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Dragão chinês",
+      "descricao": "Criatura lendária da mitologia chinesa, serpentina com quatro patas, símbolo de poder e controle das águas."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na China imperial, quantas garras em cada pata tinha o dragão reservado como símbolo do imperador?",
+    "resposta": "Cinco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chinese_dragon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chinese_dragon",
+        "situacao": "ok",
+        "texto": "The Chinese dragon, known as long or loong (/lʊŋ/ LUUNG), is a legendary creature in Chinese mythology, Chinese folklore, and Chinese culture generally. Chinese dragons have many animal-like forms, such as turtles and fish, but are most commonly depicted as snake-like with four legs. Academics have identified four reliable theories on the origin of the Chinese dragon: snakes, Chinese alligators, t\n[…]\nHistorically, the Chinese dragon was associated with the emperor of China and used as a symbol to represent imperial power. Liu Bang, the founder of the Han dynasty, claimed that he was conceived after his mother dreamt of a dragon. During the Tang dynasty, emperors wore robes with dragon motif as an imperial symbol, and high officials might also be presented with dragon robes.\n[…]\nIn works of art that left the imperial collection, either as gifts or through pilfering by court eunuchs (a long-standing problem), where practicable, one claw was removed from each set, as in several pieces of carved lacquerware, for example the Chinese lacquerware table in the Victoria and Albert Museum in London.\n[…]\nThe elm cultivar Ulmus pumila 'Pendula', from northern China, called 'weeping Chinese elm' in the West, is known locally as Lung chao yü shu ('Dragon's-claw elm') owing to its branching.\n[…]\nA number of Chinese proverbs and idioms feature references to a dragon, such as \"Hoping one's child will become a dragon\" (simplified Chinese: 望子成龙; traditional Chinese: 望子成龍; pinyin: wàng zǐ chéng lóng; Jyutping: mong6 zi2 sing4 lung4).\n[…]\nAs a part of traditional folklore, dragons appear in a variety of mythological fiction. Chinese dragons appear in innumerable media across popular culture today, including but not at all limited to: Japanese anime and tokusatsu films and television shows, manga, and in Western political cartoons as a personification of the People's Republic of China."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Drag%C3%A3o_chin%C3%AAs",
+        "situacao": "ok",
+        "texto": "Dragão (long em chinês, yong ou ryong em coreano, e ryu em japonês) segundo a mitologia chinesa, foi um dos quatro animais sagrados convocados por Pan Ku (o deus criador) para participarem na criação do mundo. É enormemente diferente do ocidental, sendo um misto de vários animais místicos: olhos de tigre, corpo de serpente, patas de águia, chifres de veado, orelhas de boi, bigodes de carpa e etc.\n[…]\nO dragão, principalmente os dragões amarelos ou dourados com as cinco garras em cada pé, eram um símbolo para o imperador em muitas dinastias chinesas. O trono imperial foi chamado de trono do dragão. Durante a tardia Dinastia Qing, o dragão foi adotado mesmo como a bandeira nacional. Era uma ofensa grave para que os cidadãos usarem roupas com um símbolo do dragão. O dragão é caracterizado nas esculturas das escadarias de palácios e de túmulos imperiais, tais como a cidade proibida em Pequim.\n[…]\nNota-se às vezes que os dragões chineses têm cinco dedos em cada pé, dragões coreanos tem quatro, quando os dragões japoneses tem três. Para explicar este fenômeno, a lenda chinesa indica que todos os dragões imperiais se originaram na China, e, além disso, longe da China um dragão foi poucos dedos do pé que teve. Os dragões existem somente na China, na Coréia, e no Japão porque se viajarem além não teriam nenhum dedo do pé para continuar. A lenda japonesa tem uma história similar à chinesa.\n[…]\nEntretanto, os registros históricos mostram que os dragões chineses comuns tiveram quatro dedos do pé, mas o dragão imperial teve cinco (como nos cinco elementos  da filosofia chinesa). o dragão de Quatro garras era reservado para príncipes e determinados oficiais de maior patente. O dragão com três garras foi usado pelo público geral (visto extensamente em vários bens chineses no Dinastia Ming).\n[…]\nFonte Livro Yantu Kare sec X da bliblioteca imperial chinesa\n[…]\nDragão coreano\n[…]\nHong (dragão arco-íris)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Fênix",
+      "descricao": "Ave lendária imortal que renasce das próprias cinzas."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Segundo o historiador grego Heródoto, os sacerdotes egípcios contavam que a ave fênix só aparecia por lá a cada quantos anos?",
+    "resposta": "Quinhentos",
+    "distratores": [
+      "Cem",
+      "Mil",
+      "Trezentos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phoenix_(mythology)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Phoenix_(mythology)",
+        "situacao": "ok",
+        "texto": "The phoenix is a legendary immortal bird that cyclically regenerates or is otherwise born again. Originating in Greek mythology, it has analogues in many cultures, such as Egyptian and Persian mythology. Associated with the Sun, a phoenix obtains new life by rising from the ashes of its predecessor. Some legends say it dies in a show of flames and combustion, while others say that it simply burns \n[…]\nThe modern English word phoenix entered the English language from Latin, later reinforced by French. The word first entered the English language by way of a borrowing of Latin phoenīx into Old English (fenix). This borrowing was later reinforced by French influence, which had also borrowed the Latin noun.\n[…]\nClassical discourse attributes a potential origin of the phoenix to Ancient Egypt. Herodotus, writing in the 5th century BC, provides the following account of the phoenix:\n[…]\nThe phoenix came to be associated with specific colours over time. Although the phoenix was generally believed to be colourful and vibrant, sources provide no clear consensus about its exact colouration. Tacitus says that its color made it stand out from all other birds. Some said that the bird had peacock-like colouring, and Herodotus's claim of the Phoenix being red and yellow is popular in many versions of the story on record.\n[…]\nHerodotus, Pliny, Solinus, and Philostratus describe the phoenix as similar in size to an eagle, but Lactantius and Ezekiel the Dramatist both claim that the phoenix was larger, with Lactantius declaring that it was even larger than an ostrich.\n[…]\nAccording to Claudian's poem \"The Phoenix\",\n[…]\nIn the 19th-century novel Sartor Resartus by Thomas Carlyle, Diogenes Teufelsdröckh uses the phoenix as a metaphor for the cyclical pattern of history, remarking upon the \"burning of a World-Phoenix\" and the \"Palingenesia, or Newbirth of Society\" from its ashes:\n[…]\nPhenex, a demon depicted as a phoenix"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/F%C3%A9nix",
+        "situacao": "ok",
+        "texto": "A fénix (português europeu) ou fênix, fênice (português brasileiro) (em grego clássico: ϕοῖνιξ) é um pássaro da mitologia grega que, quando morria, entrava em auto-combustão e, passado algum tempo, ressurgia das próprias cinzas. Outra característica da fénix é sua força, que lhe permite carregar cargas muito pesadas enquanto voa, havendo lendas nas quais chega a carregar elefantes. Finalmente, pod\n[…]\nTeria penas brilhantes, douradas, e vermelho-arroxeadas, e seria de tamanho igual ou maior do que uma águia. Segundo alguns escritores gregos, a fénix viveria exactamente quinhentos anos. Outros acreditavam que o seu ciclo de vida era de 97 200 anos. No final de cada ciclo de vida, a fénix imolava-se numa pira funerária. A longa vida da fénix e o seu dramático renascimento das próprias cinzas transformaram-na em símbolo da imortalidade e do renascimento espiritual.\n[…]\nCuriosamente, o seu nome pode dever-se a um equívoco de Heródoto, historiador grego do século V a.C. Na sua descrição da ave, ele pode tê-la erroneamente designado por fénix (Phoenix), a palmeira (Phoenix em grego) sobre a qual a ave era nessa época representada.\n[…]\n\"Aconteceu alguma vez a alguém deste mundo renascer depois da morte? Mesmo que te fosse concedida uma vida tão longa quanto a da fénix, terias de morrer quando a medida de tua vida fosse preenchida. A fénix permaneceu por mil anos completamente só, no lamento e na dor, sem companheira nem progenitora.\n[…]\nEm X-Men Jean Grey ou Fénix e também garota Marvel é uma personagem das histórias em quadrinhos do Universo Marvel, produzidos pela Marvel Comics.\n[…]\nE na sexta temporada da Serie Supernatural no episódio 18 Sam e Dean Winchester voltam para o velho oeste para caçar e pegar as cinzas de uma Fênix que aparece mesclada como humano.\n[…]\nNo jogo League of Legends existe uma personagem que é uma fénix porém de gelo, Anivia a criofenix .\n[…]\nEm Legacies Landon Kirby é uma Fênix.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Monte Olimpo",
+      "descricao": "Montanha mais alta da Grécia, considerada pelos gregos antigos a morada dos deuses olímpicos."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição grega, quantos deuses principais habitavam o monte Olimpo, entre eles Zeus, Hera, Atena e Apolo?",
+    "resposta": "Doze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Twelve_Olympians"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Twelve_Olympians",
+        "situacao": "ok",
+        "texto": "In ancient Greek religion and mythology, the twelve Olympians are the major deities of the Greek pantheon, commonly considered to be Zeus, Poseidon, Hera, Demeter, Aphrodite, Athena, Artemis, Apollo, Ares, Hephaestus, Hermes, and either Hestia or Dionysus. They were called Olympians because, according to tradition, they resided on Mount Olympus.\n[…]\nThe Olympians are a race of deities, primarily consisting of a third and fourth generation of immortal beings, worshipped as the principal gods of the Greek pantheon and so named because of their residency atop Mount Olympus. They gained their supremacy in a ten-year-long war of gods, in which Zeus led his siblings to victory over the previous generation of ruling immortal beings, the Titans, children of the primordial deities Gaia and Uranus.\n[…]\nThey were a family of gods, the most important consisting of the first generation of Olympians, offspring of the Titans Cronus and Rhea: Zeus, Poseidon, Hera, Demeter and Hestia, along with the principal offspring of Zeus: Aphrodite, Athena, Artemis, Apollo, Ares, Hephaestus, Hermes and Dionysus.\n[…]\nFor example, Herodorus of Heraclea identified the six pairs of gods at Olympia as: Zeus and Poseidon, Hera and Athena, Hermes and Apollo, the Graces and Dionysus, Artemis and Alpheus, and Cronus and Rhea.\n[…]\nThus, while this list includes the eight Olympians: Zeus, Poseidon, Hera, Athena, Hermes, Apollo, Artemis, and Dionysus, it also contains three clear non-Olympians: the Titan parents of the first generation of Olympians, Cronus and Rhea, and the river god Alpheus, with the status of the Graces (here apparently counted as one god) being unclear."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deuses_ol%C3%ADmpicos",
+        "situacao": "ok",
+        "texto": "Os doze deuses olímpicos, também conhecidos como o dodecateão (em grego: Δωδεκάθεον < δώδεκα; romaniz.: Dodekatheon, dōdeka, \"doze\" + θεοί, theoi, \"deuses\"), na religião helênica, eram os principais deuses do panteão grego, residentes no topo do monte Olimpo.\n[…]\nA primeira referência antiga a cerimónias religiosas em sua honra encontra-se no Hino homérico dedicado a Hermes. A composição clássica dos doze deuses olímpicos (o doze canónico da arte e da poesia) inclui os seguintes deuses: Zeus, Hera, Poseidon, Atena, Ares, Deméter, Apolo, Ártemis, Hefesto, Afrodite, Hermes e Dioniso. Os doze deuses romanos correspondentes eram Júpiter, Juno, Neptuno, Minerva, Marte, Ceres, Febo, Diana, Vulcano, Vénus, Mercúrio e Baco.\n[…]\nA composição do grupo dos doze olímpicos, contudo, varia substancialmente entre os autores da antiguidade. Heinrich Wilhelm Stoll considera, mesmo, que a limitação ao número de doze é uma ideia relativamente moderna Por volta de 400 a.C., Heródoto incluía na sua composição do Dodekatheon as seguintes divindades: Zeus, Hera, Posidão, Hermes, Atena,  Apolo, Alfeu, Cronos, Reia e as graças. Wilamowitz concorda com a versão de Heródoto.\n[…]\nOs doze olímpicos obtiveram a sua supremacia no mundo dos deuses, depois de Zeus ter conduzido os seus irmãos, Hera, Posidão, Deméter e Héstia, à vitória na guerra com os titãs. Ares, Hermes, Hefesto, Afrodite, Atena, Apolo, Ártemis, as graças, Hércules, Dioniso, Hebe e Perséfone eram, por sua vez, filhos de Zeus, ainda que algumas versões dos mitos sustentem que Hefesto era filho apenas de Hera e que Afrodite era filha de Urano.\n[…]\nOs catorze deuses e deusas mais frequentemente listados como pertencendo aos doze olímpicos.\n[…]\n«Os deuses olímpicos». no Portal Graecia Antiqua",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Atena",
+      "descricao": "Deusa grega da sabedoria, da estratégia na guerra e dos ofícios, padroeira de Atenas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Atena e Poseidon disputaram o posto de protetor de uma cidade grega, cada um oferecendo um presente. Que presente deu a vitória a Atena?",
+    "resposta": "Uma oliveira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Athena"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Athena",
+        "situacao": "ok",
+        "texto": "Athena or Athene, often given the epithet Pallas, is an ancient Greek goddess associated with wisdom, warfare, and handicraft who was later syncretised with the Roman goddess Minerva and Etruscan Menrva. Athena was regarded as the patron and protectress of various cities across Greece, particularly the city of Athens, from which she most likely received her name. Her major symbols include owls, ol\n[…]\nAccording to Ovid, one day as the mortal maiden Corone was walking by the seashore, Poseidon saw her and attempted to seduce her. When his efforts failed, he attempted to rape her instead. However, Corone fled from his rapacious advances, crying out to men and gods. While no man heard her, \"the virgin goddess feels pity for a virgin\"; Athena saved her by transforming her into a crow.\n[…]\nAthena Polias is also represented in a Neo-Attic relief now held in the Virginia Museum of Fine Arts, which depicts her holding an owl in her hand and wearing her characteristic Corinthian helmet while resting her shield against a nearby herma. The Roman goddess Minerva adopted most of Athena's Greek iconographical associations, but was also integrated into the Capitoline Triad.\n[…]\nAndrea Mantegna's 1502 painting Minerva Expelling the Vices from the Garden of Virtue uses Athena as the personification of Graeco-Roman learning chasing the vices of medievalism from the garden of modern scholarship. Athena is also used as the personification of wisdom in Bartholomeus Spranger's 1591 painting The Triumph of Wisdom or Minerva Victorious over Ignorance.\n[…]\nDuring the sixteenth and seventeenth centuries, Athena was used as a symbol for female rulers. In his book A Revelation of the True Minerva (1582), Thomas Blennerhassett portrays Queen Elizabeth I of England as a \"new Minerva\" and \"the greatest goddesse nowe on earth\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Atena",
+        "situacao": "ok",
+        "texto": "Atena ou Atená (em grego:  Αθηνά, transl.: Athēná, ver seção Nome), também conhecida como Palas Atena (em grego:  Παλλάς Αθηνά, transl.: Pallás Athēná) ou grafada como Atene, é, na mitologia grega, a deusa da civilização, da sabedoria, da estratégia em batalha, das artes, da justiça e da habilidade.\n[…]\nNa vasta região em que Atena foi cultuada recebeu uma variedade de epítetos.\n[…]\nPseudo-Apolodoro narrou que quando Cécrops tornou-se rei da Ática os deuses olímpicos decidiram repartir o reino a fim de estabelecerem seus cultos nas várias cidades. Posídon chegou primeiro à capital recém-fundada e com seu tridente feriu o solo da Acrópole, de onde brotou uma fonte de água salgada. Atena apareceu depois dele, mas reivindicou a posse da cidade plantando ali a primeira oliveira. Ambos iniciaram uma disputa, e Zeus designou como árbitros os olímpicos.\n[…]\nTendo como um de seus símbolos a oliveira, que oferecera como seu presente à cidade de Atenas em sua fundação, Atena era uma imagem da perenidade e vitalidade da pólis, e protetora de um dos seus produtos agrícolas mais importantes, o óleo de oliva, e tornou-se uma poderosa imagem de esperança e renovação para os gregos especialmente depois da guerra com os persas, quando a antiga oliveira sagrada da acrópole, incendiada no saque da cidade pelos inimigos, voltou a brotar.\n[…]\nMesmo que possa ter havido uma ligação com a Atena Higieia, houve uma mudança na ênfase: enquanto que Atena Higieia é uma protetora estática da saúde, Minerva se tornou uma curadora ativa, uma médica.\"\n[…]\n(Thompson refere que a coruja de Atena é uma espécie definida, o mocho-galego, mas na bibliografia consagrou-se a denominação genérica de coruja). Podem estar presentes também ramos ou um tronco de oliveira, a árvore que lhe era consagrada.\n[…]\nMitologia Grega",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Poseidon",
+      "descricao": "Deus grego do mar, dos terremotos e dos cavalos, que porta um tridente."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na Odisseia, por que o deus Poseidon atrapalhou tanto a volta de Ulisses para casa?",
+    "resposta": "Ulisses cegou seu filho Polifemo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Polyphemus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Polyphemus",
+        "situacao": "ok",
+        "texto": "Polyphemus ( ; Ancient Greek: Πολύφημος, romanized: Polúphēmos, Epic Greek: [polypʰɛːmos]; Latin: Polyphēmus [pɔlʏˈpʰeːmʊs]) is the one-eyed giant son of Poseidon and Thoosa in Greek mythology, one of the Cyclopes described in Homer's Odyssey. His name can mean either \"abounding in songs and legends\", \"many-voiced\", or \"very famous\".\n[…]\nIn Italy Giovanni Bononcini composed the one-act opera Polifemo (1703). Shortly afterwards George Frideric Handel worked in that country and composed the cantata Aci, Galatea e Polifemo (1708), laying as much emphasis on the part of Polifemo as on the lovers. Written in Italian, Polifemo's deep bass solo \"Fra l'ombre e gl'orrori\" (From horrid shades) establishes his character from the start.\n[…]\nHandel's rival for a while on the London scene, Nicola Porpora, also made the story the subject of his opera Polifemo (1735).\n[…]\nThe work was first performed in Dresden in 1801 and its plot was made more complicated by giving Polifemo a companion, Orgonte. There were also two other lovers, Dorinda and Lisia, with Orgonte Lisia's rival for Dorinda's love.\n[…]\nThere have also been two Spanish musical items that reference Polyphemus's name. Reginald Smith Brindle's four fragments for guitar, El Polifemo de Oro (1956), takes its title from Federico García Lorca's poem, \"The riddle of the guitar\". That speaks of six dancing maidens (the guitar strings) entranced by 'a golden Polyphemus' (the one-eyed sound-hole). The Spanish composer Andres Valero Castells takes the inspiration for his Polifemo i Galatea from Gongora's work.\n[…]\nGalatea Acis e Polifemo, Pietro Dandini, c. 1630, at Art Value Archived 2 February 2014 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Polifemo",
+        "situacao": "ok",
+        "texto": "Polifemo, na mitologia grega, era um ciclope, filho de Poseídon (também são aceitas as grafias Poseidon, Posidão, Posêidon ou Possêidon), e da ninfa Teosa, vivia uma existência solitária em uma caverna próxima à Sicília (junto ao Etna), cuidando de ovelhas.\n[…]\nSua vida é interrompida quando Odisseu (Ulisses, na mitologia romana) e seus homens desembarcam na terra dos ciclopes procurando comida durante a viagem de Troia de volta para casa. Odisseu e os seus companheiros entraram no antro de Polifemo procurando comida e bebidas, não sabendo que se tratava do local onde o ciclope dormia e guardava as suas ovelhas.\n[…]\nQuando Polifemo adormece devido à bebida, Odisseu e seus homens afiam uma vara e a espetam no olho do cíclope, cegando-o.\n[…]\nJá em seu navio Odisseu zomba de Polifemo e revela seu nome (grita que não tinha sido \"Ninguém\" a feri-lo, mas sim Odisseu). Polifemo, furioso, atira grandes rochas ao acaso para o mar, que quase atingem a embarcação.\n[…]\nO texto atribuído a Díctis de Creta apresenta uma versão racionalizada do mito. Os irmãos Cíclope e Laestrygon trataram a tripulação de Odisseu com indignidade, e Polifemo e Antiphates, filhos de Cíclope, mataram vários deles; o rei Polifemo, porém, acabou se apiedando deles e aceitou uma trégua. Porém, os companheiros de Odisseu tentaram levar Arene, filha de Polifemo, por quem Alphenor havia se apaixonado, e eles foram expulsos.\n[…]\nSegundo Ovídio, antes do encontro com Odisseu, Polifemo havia se apaixonado por Galateia, uma nereida que vivia na Sicília. Galateia rejeitou o amor de Polifemo em favor de um jovem pastor, Ácis, filho de Fauno e da ninfa Symaethis. Quando eles foram apanhados juntos por Polifemo, este cheio de ciúmes esmagou Ácis com uma grande pedra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Ájax",
+      "descricao": "Herói grego da Guerra de Troia, filho de Télamon, famoso pela força e pelo escudo enorme."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Depois da morte de Aquiles, que decisão sobre as armas do herói levou o guerreiro Ájax a tirar a própria vida?",
+    "resposta": "Foram dadas a Ulisses",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ajax_the_Great"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ajax_the_Great",
+        "situacao": "ok",
+        "texto": "Ajax ( AY-jaks) or Aias ( EYE-uhs; Ancient Greek: Αἴας, romanized: Aíās [aí̯.aːs], gen. Αἴαντος Aíantos) is a Greek mythological hero, the son of King Telamon and Periboea, and the half-brother of Teucer. He plays an important role in the Trojan War, and is portrayed as a towering figure and a warrior of great courage in Homer's Iliad and in the Epic Cycle, a series of epic poems about the Trojan \n[…]\nHe is also referred to as \"Telamonian Ajax\" (Αἴας ὁ Τελαμώνιος, in Etruscan recorded as Aivas Tlamunus), \"Greater Ajax\", or \"Ajax the Great\", which distinguishes him from Ajax, son of Oileus, also known as Ajax the Lesser.\n[…]\nAjax is the son of Telamon, the son of Aeacus and grandson of Zeus, and his first wife Periboea. By Telamon, he is also the elder half-brother of Teucer. Through his uncle Peleus (Telamon's brother), he is the cousin of Achilles.\n[…]\nMany illustrious Athenians, including Cimon, Miltiades, Alcibiades and the historian Thucydides, traced their descent from Ajax. On an Etruscan tomb dedicated to Racvi Satlnei in Bologna (5th century BC), there is an inscription that says aivastelmunsl, which means \"[family] of Telamonian Ajax\".\n[…]\nKnown as the \"bulwark of the Achaeans\", he was trained by the centaur Chiron (who had trained Ajax's father Telamon and Achilles' father Peleus and later died of an accidental wound inflicted by a poison arrow belonging to Heracles). He was described as fearless, strong, and powerful but also with a very high level of combat intelligence. Ajax commands his army wielding a huge shield made of seven cowhides with a layer of bronze.\n[…]\nA translation of the debate and Ajax's death. http://classics.mit.edu/Ovid/metam.13.thirteenth.html\n[…]\nPaphitis, Nicholas (2006-03-30). \"Archaeologist links palace to legendary Ajax\". NBC News. Archived from the original on May 31, 2014. Retrieved 2006-03-31."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ajaz",
+        "situacao": "ok",
+        "texto": "Ajaz (em grego clássico: Αἴας; romaniz.: Aias) é um dos personagens da mitologia grega, participante da Guerra de Troia. Frequentemente é referido como Ajaz, o Grande, para distingui-lo do homônimo Ájax, filho de Ileu. De acordo com Homero, na obra Ilíada, Ajaz era \"o mais valente e o mais belo de todos os Dânaos guerreiros, se excetuarmos, apenas, o herói impecável, Aquiles.\"\n[…]\nTelamon fugiu para Salamina, para a corte de Cicreu, filho de Poseidon e Salamina, filha de Asopo; quando Cicreu morreu sem filhos, o reino passou para Telamon.\n[…]\nO filho de Telamon e Peribeia ganhou o nome Ajaz porque Héracles rezou para que eles tivessem um filho homem, e neste momento apareceu uma águia  (aietos). Telamon também teve um filho com Hesíone, filha de Laomedonte, que ele recebeu como espólio da guerra que Héracles fez contra Troia; o filho de Hesíone foi Teucro.\n[…]\nAjaz era filho de Telamon (rei de Salamina) e, ao lado de Diomedes, tido como um dos mais fortes e habilidosos guerreiros gregos depois de Aquiles. Meio-irmão de Teucro, era praticamente imbatível e graças a ele os gregos conquistaram várias vitórias contra os troianos. Ao lado de Ajaz, lutava outro Ajaz, o lócrio. Quando ambos lutavam juntos somente os deuses podiam resistir à sua investida. Ájax também era conhecido como Ajaz de Salamina.\n[…]\nHomero descreveu Ajaz como uma muralha, muito mais alto do que os outros homens, com um escudo na forma de torre e uma lança comprida. Utilizava pedras colossais para combater seus oponentes. Quando Aquiles se retirou da luta, Ajaz enfrentou Heitor em um único combate. Os dois heróis lutaram o dia inteiro e só Heitor sofreu pequenos ferimentos. Após a morte de Aquiles, Ajaz disputou com Odisseu a armadura do herói morto. Odisseu provou ser melhor orador e ganhou o prêmio.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Rômulo e Remo",
+      "descricao": "Irmãos gêmeos da lenda da fundação de Roma, amamentados por uma loba."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na versão mais conhecida da lenda da fundação de Roma, que provocação de Remo levou o irmão Rômulo a matá-lo?",
+    "resposta": "Pulou a muralha da nova cidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Romulus_and_Remus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Romulus_and_Remus",
+        "situacao": "ok",
+        "texto": "In Roman mythology, Romulus and Remus (Latin: [ˈroːmʊlʊs], [ˈrɛmʊs]) are twin brothers whose story tells of the events that led to the founding of the city of Rome and the Roman Kingdom by Romulus, following his fratricide of Remus. The image of a she-wolf suckling the twins in their infancy has been a symbol of the city of Rome and the ancient Romans since at least the 3rd century BC.\n[…]\nCurrent scholarship offers little evidence to support any particular version of the Roman foundation myth, including a historical Romulus or Remus. Starting with Fabius Pictor, the written accounts must have reflected the commonly held history of the city to some degree.\n[…]\nThe archaeologist Andrea Carandini is one of very few modern scholars who accept Romulus and Remus as historical figures, and dates an ancient wall on the north slope of the Palatine Hill to the mid-8th century BC and names it the Murus Romuli.\n[…]\nThe Franks Casket, an Anglo-Saxon ivory box (early 7th century AD), shows Romulus and Remus in an unusual setting, two wolves instead of one, a grove instead of one tree or a cave, four kneeling warriors instead of one or two gesticulating shepherds. According to one interpretation, and as the runic inscription (\"far from home\") indicates, the twins are cited here as the Dioscuri, helpers at voyages such as Castor and Polydeuces.\n[…]\nAlien: Romulus, a 2024 horror science fiction film drawing on the mythology of Romulus and Remus.\n[…]\nTennant, PMW (1988). \"The Lupercalia and the Romulus and Remus Legend\" (PDF). Acta Classical. XXXI: 81–93. ISSN 0065-1141. Archived from the original (PDF) on 10 May 2017. Retrieved 19 November 2016.\n[…]\nPlutarch, the Life of Romulus\n[…]\nRomulus and Remus (Romwalus and Reumwalus) and two wolves on the Franks Casket: Franks Casket, Helpers on the way to war\n[…]\nRomulous and Remus on the Ara Pacis Augustae"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/R%C3%B4mulo_e_Remo",
+        "situacao": "ok",
+        "texto": "Rômulo (português brasileiro) ou Rómulo (português europeu) e Remo são, segundo a mitologia romana, dois irmãos gêmeos, um dos quais, Rômulo, foi o fundador da cidade de Roma e seu primeiro rei. Segundo a lenda, eram filhos de Marte e de Reia Sílvia.\n[…]\nRômulo e Remo crescem junto com os pastores da região, praticando caça, corrida e exercícios físicos. Também saqueavam as caravanas que passavam pela região. Em um dos assaltos, Remo é capturado e levado a Alba Longa. Fáustulo, então, revela a Rômulo a história de sua origem. Este parte para a cidade de seus antepassados, liberta seu irmão, mata Amúlio, devolve a Numitor o trono e todas as honrarias que lhe eram devidas.\n[…]\nPercebendo que não teriam futuro na cidade, os gêmeos decidem partir junto com todos os indesejáveis, para fundarem uma nova cidade, no local onde haviam sido abandonados. Rômulo queria chamá-la Roma e edificá-la no Palatino, enquanto Remo desejava nomeá-la Remora e fundá-la sobre o Aventino. Como forma de decidir foi estabelecido que se deveria indicar, através dos auspícios, quem seria escolhido para dar o nome à nova cidade e reinar depois da fundação.\n[…]\nUma versão alternativa afirma que, para surpreender o Rômulo, Remo teria escalado o recém-construído pomério quadrangular da cidade, após o que, tomado pela fúria, Rômulo teria assassinado o irmão. Segundo a tradição, Remo foi sepultado em uma região ao sul do Aventino, conhecida como Remoria, sendo  também comemorada em 9 de maio a festa chamada Remúria (ou Lemúria), em sua homenagem.\n[…]\nExiste muita divergência, tanto entre autores antigos quanto modernos, sobre as datas em que ocorreram os principais eventos na vida de Rômulo e Remo. O quadro abaixo é uma síntese das datas propostas por diferentes autores.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Pégaso",
+      "descricao": "Cavalo alado da mitologia grega, montado pelo herói Belerofonte."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o herói Belerofonte caiu do cavalo alado Pégaso e nunca mais conseguiu montá-lo?",
+    "resposta": "Tentou voar até o Olimpo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bellerophon",
+      "https://en.wikipedia.org/wiki/Pegasus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bellerophon",
+        "situacao": "ok",
+        "texto": "Bellerophon or Bellerophontes (Ancient Greek: Βελλεροφῶν; Βελλεροφόντης, lit. 'slayer of Belleros') or Hipponous (Ancient Greek: Ἱππόνοος, lit. 'horse-knower'), was a divine Corinthian hero of Greek mythology, the son of Poseidon and Eurynome, and the foster son of Glaukos. He was \"the greatest hero and slayer of monsters, alongside Cadmus and Perseus, before the days of Heracles\".\n[…]\nOther accounts say that Athena brings Pegasus already tamed and bridled, or that Poseidon the horse-tamer, secretly the father of Bellerophon, brings Pegasus, as Pausanias understood.\n[…]\nBellerophon takes his vengeance on Stheneboea and Proetus as well. After returning to the royal couple following the Chimera's death, he pretends to reciprocate Stheneboea's love. He promises to take her away to Caria, and she enthusiastically follows him on Pegasus.\n[…]\nAs Bellerophon's fame grows, so does his hubris. Bellerophon feels that because of his victory over the Chimera, he deserves to fly to Mount Olympus, the home of the gods. This act angers Zeus and he sends a gadfly to sting Pegasus, causing Bellerophon to fall back to Earth and die. Pegasus completes the flight to Olympus, where Zeus uses him as a pack horse for his thunderbolts.\n[…]\nEnough fragments of Euripides's lost tragedy Bellerophon remain (as about thirty quotations in surviving texts) to give scholars a basis for assessing its theme: the tragic outcome of his attempt to storm Olympus on Pegasus. An outspoken passage in which Bellerophon seems to doubt the gods' existence, due to the contrast between the wicked and impious, who live lives of ease, with the suffering of the good is apparently the basis for Aristophanes's imputation of \"atheism\" to the poet."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pegasus",
+        "situacao": "ok",
+        "texto": "Pegasus (Ancient Greek: Πήγασος, romanized: Pḗgasos; Latin: Pegasus, Pegasos) is a winged horse in Greek mythology, usually depicted as a white stallion. He was sired by Poseidon, in his role as horse-god, and foaled by Medusa, one of three Gorgon sisters. Pegasus was the brother of Chrysaor, both born from Medusa's blood when their mother was decapitated by Perseus.\n[…]\nIn 2015 it was announced that the units of 16 Air Assault Brigade would once again use the Pegasus insignia after a 15-year hiatus.\n[…]\nThe Pegasus has been a symbol of Tuscany ever since Benvenuto Cellini incorporated it in a coin made in 1537 to honor Cardinal Pietro Bembo.\n[…]\nThe Tuscan Committee of National Liberation during the German occupation of Italy also had a Pegasus as its emblem. The winged horse is still featured on the Tuscan flag and coat of arms.\n[…]\nThe winged horse has provided an instantly recognizable corporate logo or emblem of inspiration. Ecuador launched its weather satellite, named Pegaso (pronounced [peˈɣaso], Pegasus in Spanish), on 26 April 2013 but it was damaged by Russian space debris. Pegasus Airlines (Turkish: Pegasus Hava Taşımacılığı A.Ş.) is a low-cost airline headquartered in the Kurtköy area of Pendik, Istanbul, Turkey.\n[…]\nMobil Oil has had a Pegasus as its company logo since its affiliation with Magnolia Petroleum Company in the 1930s. TriStar Pictures famously uses a winged horse in their logo.\n[…]\nFrey, Alexandra, \"Pegasus (1)\", in Brill's New Pauly: Encyclopaedia of the Ancient World. Antiquity, Volume 10, Obl – Phe, edited by Hubert Cancik and Helmuth Schneider, Leiden, Brill, 2007. ISBN 9789004142152.\n[…]\nThe Warburg Institute Iconographic Database (images of Pegasus)\n[…]\nMedia related to Pegasus at Wikimedia Commons\n[…]\nChisholm, Hugh, ed. (1911). \"Pegasus\" . Encyclopædia Britannica (11th ed.). Cambridge University Press."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Belerofonte",
+        "situacao": "ok",
+        "texto": "Belerofonte (em grego clássico: βελλεροφῶν ou βελλεροφόντης), na mitologia grega, foi um herói, venerado na Lídia e em Corinto, filho de Posídon, adotado por Glauco, filho de Sísifo, da casa governante de Corinto, dono do cavalo alado Pégaso, que encontrou junto à fonte de Pirene, a qual teria nascido de um coice seu e da qual se dizia que, quem dela bebesse, tornar-se-ia poeta, como é referido n'\n[…]\nConsiderado impuro devido a esta morte, teve de abandonar a cidade e procurar refúgio na corte do rei Preto, que o acolheu e o \"purificou\". A mulher do rei, Estenebeia ou Antheia, como a designa Homero, tentou seduzi-lo, mas, sendo repudiada, queixou-se a Preto que, agravado pela suposta afronta, o enviou para a corte de Ióbates, rei da Lícia, seu sogro, com o pedido de que o matasse.\n[…]\nIóbates encarregou-o, então, de várias empreitadas arriscadas, tentando em vão que este fosse morto: envia-o em luta contra o povo guerreiro dos Sólimos, que derrota; depois, contra as amazonas, que também chacina em grande número. Desesperado, Ióbates organiza uma emboscada com alguns dos mais corajosos dos lídios, que perecem, contudo, perante a bravura de Belerofonte.\n[…]\nPreto fica convencido, então, de que Belerofonte só pode ter origem divina e, justificando-se com a carta do seu genro, dá-lhe a mão da sua filha, Filonoé ou Anticleia, de quem teria os filhos Isendro e Hipóloco, bem como Laodamia, mãe de Sarpedão.\n[…]\nOrgulhoso dos seus feitos, decidiu voar até o Olimpo montando Pégaso, mas Zeus, ofendido, enviou uma vespa para picar Pégaso e ele caiu no chão, que por mando de Atena tornou-se macio, portanto Belerofonte não morreu com a queda, mas sim como um mendigo aleijado procurando Pégaso.\n[…]\nExistem várias versões sobre o mito de Belerofonte, variando conforme o autor.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Caixa de Pandora",
+      "descricao": "Recipiente do mito grego que, ao ser aberto por Pandora, libertou os males no mundo."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Segundo Hesíodo, depois que Pandora abriu o jarro e espalhou os males pelo mundo, o que ficou preso lá dentro?",
+    "resposta": "A esperança",
+    "distratores": [
+      "A morte",
+      "A sabedoria",
+      "O amor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pandora%27s_box"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pandora%27s_box",
+        "situacao": "ok",
+        "texto": "Pandora's box is an artefact in Greek mythology connected with the myth of Pandora in Hesiod's c. 700 B.C. poem Works and Days. Hesiod related that curiosity led her to open a container left in the care of her husband, thus releasing various deadly evils upon humanity, such as brutal toil and terrible illnesses. Later depictions of the story have been varied, with some literary and artistic treatm\n[…]\nAccording to Hesiod, when Prometheus stole fire from heaven, Zeus, the king of the gods, took vengeance by presenting Pandora to Prometheus' brother Epimetheus. Pandora opened a jar left in her care containing \"harsh toil\" and \"grievous sicknesses\", and many other unspecified evils which were then released into the world.\n[…]\nBeall, E. \"The Contents of Hesiod's Pandora Jar: Erga 94–98\", Hermes 117 (1989) 227–230.\n[…]\nLamberton, Robert, Hesiod, New Haven: Yale University Press, 1988. ISBN 0-300-04068-7. Cf. Chapter II, \"The Theogony\", and Chapter III, \"The Works and Days\", especially pp. 96–103 for a side-by-side comparison and analysis of the Pandora story.\n[…]\nPanofsky, Dora and Erwin. Pandora's Box. The Changing Aspects of a Mythical Symbol (New York: Pantheon, Bollingen series) 1956.\n[…]\nSchlegel, Catherine and Henry Weinfield, \"Introduction to Hesiod\" in Hesiod / Theogony and Works and Days, University of Michigan Press, 2006. ISBN 978-0-472-06932-3.\n[…]\nVerdenius, Willem Jacob, A Commentary on Hesiod Works and Days vv 1–382 (Leiden: E.J. Brill, 1985). ISBN 90-04-07465-1. This work has a very in-depth discussion and synthesis of the various theories and speculations about the Pandora story and the jar. Cf. pp. 62 & 63 and onwards.\n[…]\nWest, M. L. (1978), Hesiod: Works and Days, Clarendon Press Oxford, 1978. ISBN 0-19-814005-3.\n[…]\nWest, M. L. (1988), Hesiod: Theogony and Works and Days, Oxford University Press. ISBN 978-0-19-953831-7.\n[…]\nMedia related to Pandora's box at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caixa_de_Pandora",
+        "situacao": "ok",
+        "texto": "Caixa de Pandora é um objeto da mitologia grega, peça central do mito de Pandora, a primeira mulher criada por Zeus, um dos mais conhecidos dentre as histórias míticas. Embora popularizado como uma \"caixa\" nas versões primitivas do mito tem-se que o recipiente seria um jarro.\n[…]\nNa versão mais conhecida conta-se que Pandora fora criada por Hefesto a mando de Zeus como forma de se vingar da humanidade após o titã Prometeu haver dado aos homens o segredo do fogo; enviada à terra para se casar com Epimeteu, irmão de Prometeu, levava consigo uma caixa com a recomendação de que jamais fosse aberta mas ela, sem conter a curiosidade, abre-a e com isso liberta de seu interior todos os males até então desconhecidos pelos homens (doenças, guerra, mentira, ódio, etc.); Pandora então tenta fechar a caixa mas mantém em seu interior apenas a esperança.\n[…]\nNo resumo de um dicionário enciclopédico: “Primeira mulher, segundo Hesíodo. Criada por Atena e Hefesto com todas as perfeições, Hermes fê-la curiosa e enganadora. Zeus entregou-lhe uma vasilha fechada, que Pandora destapou e todos os males que ela continha se espalharam pelo mundo”.\n[…]\nSua menção mais antiga está na obra Os Trabalhos e os Dias, de Hesíodo.\n[…]\nSegundo Pierre Grimal, Pandora é um \"mito hesiódico, a primeira mulher, criada por Hefesto e por Atena, com o auxílio de todos os outros deuses, por ordem de Zeus. Cada um deles lhe atribuiu um dom: recebeu assim a beleza, a graça, a destreza manual, a capacidade de persuadir e outras qualidades. Mas Hermes colocou no seu coração a mentira e a astúcia. Hefesto fê-la à imagem das deusas imortais, e Zeus destinou-a à punição da raça humana, à qual Prometeu tinha acabado de dar o fogo divino.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Popol Vuh",
+      "descricao": "Livro que reúne os mitos de criação e a história dos maias quichés, da Guatemala."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No Popol Vuh, livro sagrado dos maias quichés, os deuses fracassam ao fazer humanos de barro e de madeira. Com que alimento finalmente conseguem?",
+    "resposta": "Milho",
+    "distratores": [
+      "Cacau",
+      "Feijão",
+      "Mandioca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Popol_Vuh"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Popol_Vuh",
+        "situacao": "ok",
+        "texto": "Popol Vuh (also  Popul Vuh or Pop Vuj) is a text recounting the mythology and history of the Kʼicheʼ people of Guatemala, one of the Maya peoples who also inhabit the Mexican states of Chiapas, Campeche, Yucatan and Quintana Roo, as well as areas of Belize, Honduras and El Salvador.\n[…]\nQuotes from the Popol Vuh are used in \"Live Gloriously\", the main theme for the video game Civilization VII.\n[…]\nFollowing the Twin Hero narrative, mankind is fashioned from white and yellow corn, demonstrating the crop's transcendent importance in Maya culture. To the Maya of the Classic period, Hun Hunahpu may have represented the maize god. Although in the Popol Vuh his severed head is unequivocally stated to have become a calabash, some scholars believe the calabash to be interchangeable with a cacao pod or an ear of corn.\n[…]\n2018. The Popol Vuh: A New Verse Translation. Bazzett, Michael (trans.). Seedbank Books. 2018. ISBN 978-1-5713-1468-0.{{cite book}}:  CS1 maint: others (link)\n[…]\nPopol Wuj Archives, sponsored by the Department of Spanish and Portuguese at The Ohio State University, Columbus, Ohio, and the Center for Latin American Studies at OSU.\n[…]\nA facsimile of the earliest preserved manuscript, in Quiché and Spanish, hosted at The Ohio State University Libraries. Learn more about this project by reading \"Decolonial Information Practices: Repatriating and Stewarding the Popol Vuh Online.\"\n[…]\nde los Monteros, Pamela Espinosa (2019-10-25). \"Decolonial Information Practices: Repatriating and Stewarding the Popol Vuh Online\". Preservation, Digital Technology & Culture. 48 (3–4): 107–119. doi:10.1515/pdtc-2019-0009. ISSN 2195-2965.\n[…]\nThe original Quiché text with line-by-line English translation Allen J. Christenson edition"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Popol_Vuh",
+        "situacao": "ok",
+        "texto": "O termo Popol Vuh, comumente traduzido do idioma quiché como \"livro da comunidade\", é um registro documental da cultura maia, produzido no século XVI, e que tem como tema a concepção de criação do mundo deste povo. Popol é interpretado como \"comunidade\" ou \"conselho\", e dá a ideia de algo que é de propriedade comum; e vuh ou wuj, em quiché moderno, significa \"livro\".\n[…]\nNo segundo momento da criação, os deuses consultaram os adivinhos Ixpiyacoc e Ixmucané, que lançaram a sorte com grãos de milho e orientaram que o novo homem fosse feito de madeira. Assim os deuses fizeram. Os homens de madeira se multiplicaram e dispersaram, porém, assim como o homem de lodo, não foram capazes de invocar seus criadores, sendo também destruídos num dilúvio de resina. Os sobreviventes tornaram-se macacos.\n[…]\nNa quarta e última idade abordada pelo Popol Vuh, uma nova tentativa de criação ocorre - dessa vez utilizando milho como matéria prima. Os homens feitos de milho tomaram ciência de si e então deram graças aos seus deuses criadores. Essa é a explicação da origem da atual humanidade  e  da criação dos povos que habitavam a Mesoamérica.\n[…]\nCriação dos homens de milho, que se tornaram a atual humanidade.\n[…]\nPor fim, a criação dos homens de milho é entendida como consagração da centralidade agrícola na sociedade maia. O milho, considerado sagrado, constitui a essência da humanidade e garante a sobrevivência coletiva. Nesse ponto, a narrativa aproxima-se de outros mitos de origem mesoamericanos, reforçando a importância do ciclo agrícola e da reciprocidade entre humanos, natureza e divindades.\n[…]\nIxpiyacol e Ixmucané são interpretados como adivinhos e guias espirituais dos maias. Consultados para a segunda criação dos homens, sugerem que estes sejam feitos de madeira, após lançarem a sorte com grãos de milho.\n[…]\nThe Popol Vuh. Tradução ao inglês, acessado em 09 de junho de 2012.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Hermes",
+      "descricao": "Deus grego mensageiro do Olimpo, protetor dos viajantes, dos comerciantes e dos ladrões."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Ainda bebê, no dia em que nasceu, o deus Hermes inventou a lira usando o casco de que animal?",
+    "resposta": "Tartaruga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Homeric_Hymn_to_Hermes",
+      "https://en.wikipedia.org/wiki/Hermes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Homeric_Hymn_to_Hermes",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hermes",
+        "situacao": "ok",
+        "texto": "Hermes (; Ancient Greek: Ἑρμῆς) is an Olympian deity in ancient Greek religion and mythology considered the herald of the gods. He is also widely considered the protector of human heralds, travelers, thieves, merchants, and orators. He is able to move quickly and freely between the worlds of the mortal and the divine aided by his winged sandals. Hermes plays the role of the psychopomp or \"soul gui\n[…]\nTradition holds that his first temple was built by Lycaon. From there, the Hermes cult would have been taken to Athens, from which it radiated to the whole of Greece. In the Roman period, additional temples to Hermes (Mercury) were constructed across the Empire, including several in modern-day Tunisia. Mercury's temple in Rome was situated in the Circus Maximus, between the Aventine and Palatine hills, and was built in 495 BC.\n[…]\nIn addition to the chelys lyre, Hermes was believed to have invented many types of racing and the sport of wrestling, and therefore was a patron of athletes.\n[…]\nIn the Odyssey, Hermes helps the protagonist Odysseus by informing him about the fate of his companions, who were turned into animals by the power of Circe. Hermes instructed Odysseus to protect himself by chewing a magic herb; he also told Calypso of Zeus's order to free Odysseus from her island to allow him to continue his journey back home. When Odysseus killed the suitors of his wife, Hermes led their souls to Hades.\n[…]\nCrocus was said to be a beloved of Hermes and was accidentally killed by the god in a game of discus when he unexpectedly stood up; as the unfortunate youth's blood dripped on the soil, the saffron flower came to be. Perseus received the divine items (talaria, petasos, and the helm of darkness) from Hermes because he loved him. And Daphnis, a Sicilian shepherd who was said to be the inventor of pastoral poetry, is said to be a son or sometimes eromenos of Hermes.\n[…]\nHermes Trismegistus"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Esfinge de Tebas",
+      "descricao": "Monstro da mitologia grega com corpo de leão e cabeça de mulher que propunha um enigma aos viajantes de Tebas."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O enigma da Esfinge de Tebas perguntava que criatura anda com quatro pés de manhã, dois ao meio-dia e três à tarde. Qual era a resposta?",
+    "resposta": "O ser humano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sphinx",
+      "https://en.wikipedia.org/wiki/Oedipus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sphinx",
+        "situacao": "ok",
+        "texto": "A sphinx ( SFINKS; Ancient Greek: σφίγξ, pronounced [spʰíŋks]; pl. sphinxes or sphinges ) is a mythical creature with the head of a human, the body of a lion, and the wings of an eagle.\n[…]\nThe Sphinx motif present within the novel is established through the enigmatic creature of Murakami's design, Oshima: a mysterious, omnipotent being who has the protagonist grapple with the concept of a meaningless existence in turn of searching for authenticity by disconnecting from societal conventions of wealth and status. He tests the durability of character of the novel's protagonists through a series of tests that may challenge their perception of truth regarding their existence."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oedipus",
+        "situacao": "ok",
+        "texto": "Oedipus (UK: , also US:  ; Ancient Greek: Οἰδίπους Oidípous, lit. 'swollen foot') was a mythical Greek king of Thebes. A tragic hero in Greek mythology, Oedipus unwittingly fulfilled a prophecy that he would end up killing his father and marrying his mother, thereby bringing disaster to his city and family. The story of Oedipus is the subject of Sophocles's tragedy Oedipus Rex, which is followed i"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Esfinge",
+        "situacao": "ok",
+        "texto": "Esfinge é uma imagem icônica de um leão estendido com a cabeça de um falcão ou de uma pessoa, presente tanto na mitologia grega, quanto na arquitetura egípcia.\n[…]\nA esfinge egípcia é uma antiga criatura mística usualmente tida como um leão estendido — animal com associações solares sacras — com uma cabeça humana, geralmente a de um faraó.\n[…]\nQue nome ou nomes os construtores deram às estátuas é desconhecido. A inscrição em uma estela na esfinge de Gizé a data de mil anos após a esfinge ser esculpida, dá três nomes do sol: Kheperi - Re - Atum. O nome arábico da esfinge de Gizé, Abu al-Hôl, traduz como Pai do Terror. O nome grego esfinge foi aplicado a ela na antiguidade. Mas ela tem a cabeça de um homem, não de uma mulher.[carece de fontes]?\n[…]\nHera ou Ares mandaram a esfinge de sua casa na Etiópia (os gregos lembraram a origem estrangeira da esfinge) para Tebas e, em Édipo Rei de Sófocles, pergunta a todos que passam o quebra-cabeça mais famoso da história, conhecido como o \"enigma da esfinge\", decifra-me ou devoro-te: Que criatura pela manhã tem quatro pés, ao meio-dia tem dois, e à tarde tem três? Ela estrangulava qualquer inábil a responder, daí a origem do nome esfinge, que deriva do grego  σφίγξ, transl.\n[…]\nÉdipo resolveu o quebra-cabeça: O homem — engatinha como bebê, anda sobre dois pés na idade adulta, e usa um arrimo (bengala) quando é ancião. Furiosa com tal resposta, a esfinge teria cometido suicídio, atirando-se de um precipício. O quebra-cabeça exato perguntado pela esfinge não foi especificado por vários contadores da história e não foi padronizado como o dado sobre até muito mais tarde na história grega.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Hades",
+      "descricao": "Deus grego dos mortos e rei do mundo subterrâneo, irmão de Zeus e Poseidon."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que objeto mágico de Hades, forjado pelos ciclopes e usado por Perseu contra a Medusa, tornava invisível quem o usasse?",
+    "resposta": "Um capacete",
+    "distratores": [
+      "Um anel",
+      "Um colar",
+      "Um cajado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cap_of_invisibility"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cap_of_invisibility",
+        "situacao": "ok",
+        "texto": "In classical mythology, the Cap of Invisibility (Ἅϊδος κυνέη (H)aïdos kyneē in Greek, lit. dog-skin of Hades) is a helmet or cap that can turn the wearer invisible, also known as the Cap of Hades or Helm of Hades. Wearers of the cap in Greek myths include Athena, the goddess of wisdom, the messenger god Hermes, and the hero Perseus. Those wearing the Cap become invisible to other supernatural enti\n[…]\nIn classical mythology the helmet is regularly said to belong to the god of the underworld. Rabelais calls it the Helmet of Pluto, and Erasmus the Helmet of Orcus. The helmet becomes proverbial for those who conceal their true nature by a cunning device: \"the helmet of Pluto, which maketh the politic man go invisible, is secrecy in the counsel, and celerity in the execution.\"\n[…]\nAs the name implies, Hades owned the helmet. It was forged for him by Elder Cyclopes after he and his brothers Zeus and Poseidon freed them from Tartarus. He then used this helmet to great effect during the Titanomachy and was instrumental in routing the Titans.\n[…]\nAthena, the goddess of wisdom, battle, and handicrafts, wore the Cap of Invisibility in one instance during the Trojan War. She used it to become invisible to Ares when she aided Diomedes, his enemy. Her assistance even enabled Diomedes to injure the god of war with a spear.\n[…]\nIn some stories, Perseus received the Cap of Invisibility (along with the Winged Sandals) from Athena when he went to slay the Gorgon Medusa, which helped him escape her sisters. In other myths, however, Perseus obtained these items from the Stygian nymphs. The Cap of Invisibility was not used to avoid the Gorgons' petrifying gazes, but rather to escape from the immortal Stheno and Euryale later on after he had decapitated Medusa.\n[…]\nBident – another mystical object associated with Hades\n[…]\nCloak of invisibility"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Elmo_de_Hades",
+        "situacao": "ok",
+        "texto": "Na mitologia clássica, o Elmo de Hades ou Elmo da Invisibilidade (Ἅϊδος κυνέη (H)aïdos kyneē em grego, literalmente pele de cão de Hades) é um capacete ou gorro que pode tornar o usuário invisível. Os usuários do elmo nos mitos gregos incluem Atena, a deusa da sabedoria, o deus mensageiro Hermes e o herói Perseu. Aqueles que usam o gorro tornam-se invisíveis para outras entidades sobrenaturais, se\n[…]\nUma fonte antiga que atribui um capacete especial ao governante do submundo é a Biblioteca (século II/I a.C.), na qual os Ciclopes de Urano dão a Zeus o raio, a Posídon o tridente e a Hades (ou Plutão) um capacete (kyneê) em sua guerra contra os Titãs.\n[…]\nNa mitologia clássica, costuma-se dizer que o capacete pertence ao deus do submundo. Rabelais chama-lhe o Elmo de Plutão,  e Erasmo o Elmo de Orco. O capacete torna-se proverbial para aqueles que ocultam a sua verdadeira natureza por meio de um artifício astuto: “o elmo de Plutão, que torna o homem político invisível, é o segredo no conselho e a celeridade na execução.”\n[…]\nBidente – outro objeto místico associado a Hades",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Bifröst",
+      "descricao": "Na mitologia nórdica, a ponte que liga Asgard, a morada dos deuses, a Midgard, o mundo dos humanos."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na mitologia nórdica, Asgard, a morada dos deuses, se liga ao mundo dos humanos pela ponte Bifröst. Que fenômeno do céu é essa ponte?",
+    "resposta": "O arco-íris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bifröst"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bifröst",
+        "situacao": "ok",
+        "texto": "In Norse mythology, Bifrost ( ; Old Norse: Bifrǫst [ˈbiv.rɔst], Icelandic: Bifröst or Bilröst) is a burning bridge that reaches between Midgard (Earth) and Asgard, the realm of the gods. The bridge is attested as Bilröst in the Poetic Edda, compiled in the 13th century from earlier traditional sources; as Bifröst in the Prose Edda, written in the 13th century by Snorri Sturluson; and in the poetry\n[…]\nScholar Andy Orchard suggests that Bifröst may mean \"shimmering path\". He notes that the first element of Bilröst—bil (meaning \"a moment\")—\"suggests the fleeting nature of the rainbow\", which he connects to the first element of Bifröst—the Old Norse verb bifa (meaning \"to shimmer\" or \"to shake\")—noting that the element evokes notions of the \"lustrous sheen\" of the bridge.\n[…]\nAustrian Germanist Rudolf Simek says that Bifröst either means \"the swaying road to heaven\" (also citing bifa) or, if Bilröst is the original form of the two (which Simek says is likely), \"the fleetingly glimpsed rainbow\" (possibly connected to bil, perhaps meaning \"moment, weak point\").\n[…]\nIn the Prose Edda book Skáldskaparmál, the bridge receives a single mention. In chapter 16, a work by the 10th century skald Úlfr Uggason is provided, where Bifröst is referred to as \"the powers' way\".\n[…]\nBifröst appears in comic books associated with the Marvel Comics character Thor and in subsequent adaptations of those comic books. In the Marvel Cinematic Universe film Thor, Jane Foster describes the Bifröst as an Einstein–Rosen bridge, which functions as a means of transportation across space in a short period of time.\n[…]\nBifröst has also appeared in games such as Hotline Miami 2: Wrong Number during The Son's last level in which he is under the influence of drugs and thus hallucinates Bifröst.\n[…]\nMedia related to Bifröst at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bifrost",
+        "situacao": "ok",
+        "texto": "Na mitologia nórdica, Bifröst (ou Asbru) é a ponte que estabelece a ligação entre o domínio dos deuses, Asgard e Midgard em que é o território dos mortais. Os deuses viajavam diariamente para realizar seus conselhos sob a sombra da árvore Yggdrasil. A ponte era representada por um enorme arco-íris e seu guardião era Heimdall. A cor vermelha do arco-íris era formada por um fogo flamejante, que serv",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Ártemis",
+      "descricao": "Deusa grega da caça e da Lua, filha de Zeus e Leto."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Segundo o mito mais conhecido, perseguida pelo ciúme de Hera, Leto deu à luz os gêmeos Ártemis e Apolo em que ilha do mar Egeu?",
+    "resposta": "Delos",
+    "distratores": [
+      "Creta",
+      "Rodes",
+      "Naxos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Delos",
+      "https://en.wikipedia.org/wiki/Leto"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Delos",
+        "situacao": "ok",
+        "texto": "Delos or Dilos (; Greek: Δήλος [ˈðilos]; Attic Greek: Δῆλος Dêlos, Doric Greek: Δᾶλος Dâlos), is a small Greek island near Mykonos, close to the centre of the Cyclades archipelago. Though only 3.43 km2 (1.32 sq mi) in area, it is one of the most important mythological, historical, and archaeological sites in Greece.\n[…]\nDelos had a position as a holy sanctuary for a millennium before Olympian Greek mythology made it the birthplace of Apollo and Artemis. From its Sacred Harbour are visible the three conical mounds that have identified landscapes sacred to a goddess (presumably Athena). Another site, retaining its Pre-Greek name Mount Cynthus, is crowned with a sanctuary of Zeus.\n[…]\nInvestigation of ancient stone huts found on the island indicate that it has been inhabited since the third millennium BC. Thucydides claims that the original inhabitants were piratical Carians who were eventually expelled by King Minos of Crete. By the writing of the Odyssey, the island was already famous as the birthplace of the twin gods Apollo and Artemis (although some confusion seems to exist of Artemis' birthplace being either Delos or the island of Ortygia).\n[…]\nBetween 900 BC and 100 AD, Delos was a major cult centre, where the gods Dionysus and Leto, mother of the twin deities Apollo and Artemis, were revered. Eventually acquiring Panhellenic religious significance, Delos was initially a religious pilgrimage for the Ionians.\n[…]\nHellenic Ministry of Culture site: Delos\n[…]\nDelos UNESCO Collection on Google Arts and Culture\n[…]\nEfA website with history of the Delos Archaeological site (in French)\n[…]\nEnglish translations of inscriptions from Delos\n[…]\nDelos Island on WikiMapia\n[…]\nThe Barrington Atlas Directory notes: Delos GRE\n[…]\n\"Delos\" . Encyclopædia Britannica. Vol. VII (9th ed.). 1878. p. 51."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Leto",
+        "situacao": "ok",
+        "texto": "In ancient Greek religion and mythology, Leto (; Ancient Greek: Λητώ, romanized: Lētṓ, pronounced [lεːˈtɔː]) is the mother of Apollo and Artemis. She is the daughter of the Titans Coeus and Phoebe, and the sister of Asteria.\n[…]\nHe later urged his mother to go to Delos, who used to Leto's sister Asteria. Delos was the only place on earth willing to receive Leto when she went into labour, defying Hera's orders. Callimachus wrote that it is remarkable that Leto brought forth Artemis, the elder twin, without travail despite her exhausting journey.\n[…]\nAccording to Hyginus, when Hera discovered that Leto was pregnant by Zeus, she banned Leto from giving birth on \"terra firma\", the mainland, any island at sea, or any place under the sun. But Zeus then sent Boreas, the god of the north wind, to Leto, who brought her to Poseidon. Poseidon then raised high waves above Ortygia, shielding it from the light of the sun with a water dome; it was later called the island of Delos.\n[…]\nAccording to the Homeric Hymn and the Orphic Hymn 35 to Leto, Artemis was born on the island of Ortygia before Apollo was on Delos. Stephanus of Byzantium also states that Artemis was born before Apollo, however he claims that she was born at Coressus.\n[…]\nLeto was usually not worshipped on her own account, but in conjunction with her children, especially in the island Delos, her chief center of worship and birthplace of her son Apollo as well as his sacred island, where she was represented in temple by a shapeless wooden image, in a Letoum situated in a plain. Sacrifices to Artemis and Apollo were also made in Leto's name as well. Poseidon agreed with Leto that she would have Delos, while he got to keep the island of Kelauria."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Delos",
+        "situacao": "ok",
+        "texto": "A pequena ilha de Delos ou Delo (grego: Δήλος, Dilos), com apenas 3,14 km², situa-se no centro de um grupo de ilhas, chamadas Cíclades, no sul do Mar Egeu, tendo sido um dos principais portos em importância da região durante o período helenístico. Além disso, a ilha também foi o berço de nascimento de duas divindades do panteão grego, sendo elas o deus Apolo e a deusa Ártemis.\n[…]\nA ilha é rochosa e contém pequenas colinas, separadas por pequenas áreas planas. O Monte Cinto é o ponto mais alto de Delos e alcança 112 metros. Delos continha um rio intermitente conhecido como Inopos, serviu como principal curso de água na ilha e, por isso, foi sujeito a diversas obras para seu aproveitamento.\n[…]\nA história do nascimento de Apolo e Ártemis, em Delos, propiciou a criação de uma forte identificação local religiosa como o lugar de nascimento destes deuses. A importância regional da ilha, que ficou conhecida como o centro das ilhas Cíclades, relaciona-se com o seu lugar na mitologia e a criação do Santuário de Apolo, o qual serviu como apoio para a população da ilha e hospedou diversas atividades, além de ter atraído incontáveis visitantes e peregrinos devotos de Apolo.\n[…]\nA narrativa do nascimento pode ser encontrada no Hino Homérico a Apolo, que descreve a procura intensa de Leto por um lugar para dar à luz, bem como o diálogo entre a deusa e a ilha de Delos, que aceita sediar o parto, com a promessa por parte de Leto de que, com a construção de um templo ao seu filho, a ilha receberia muitos visitantes e hecatombes.\n[…]\nNa súplica de Leto, nota-se a descrição de características físicas de Delos, ressaltando a pobreza do solo e a impossibilidade de constituir bons pastos. Além disso, ela destaca que a prosperidade na ilha, a alimentação de seus habitantes, proveria dos estrangeiros.\"Delos, prouvera quereres tornar-te um assento a meu filho,\n[…]\nMuseu Arqueológico de Delos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Prometeu",
+      "descricao": "Titã grego que roubou o fogo dos deuses para dá-lo aos humanos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Como castigo por ter dado o fogo aos humanos, o titã Prometeu foi acorrentado a um rochedo em que cordilheira?",
+    "resposta": "Cáucaso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Prometheus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Prometheus",
+        "situacao": "ok",
+        "texto": "In Greek mythology, Prometheus (; Ancient Greek: Προμηθεύς [promɛːtʰěu̯s]) is a Titan who is responsible for creating and aiding humanity in its earliest days. He defied the Olympian gods by stealing fire from them and giving it to humanity.\n[…]\nAccording to several major versions of the myth, most notably that of Hesiod, Prometheus was eventually freed by the hero Heracles. The struggle of Prometheus is located by some at either Mount Elbrus or Mount Kazbek, two volcanic promontories in the Caucasus Mountains beyond which, according to the ancient Greeks, lay the realm of the barbari.\n[…]\nAlthough the classical tradition is that Hephaestus split Zeus's head to allow Athena's birth, that story has also been told of Prometheus. A variant tradition makes Prometheus the son of Hera like Hephaestus. According to that version, the Giant Eurymedon raped Hera when she was young, and she had Prometheus. After Zeus married Hera, he threw Eurymedon into Tartarus and punished Prometheus in Caucasus, using the theft of fire as an excuse.\n[…]\n\"Variants of legends containing the Prometheus motif are widespread in the Caucasus\" region, reports Hunt, who gave ten stories related to Prometheus from ethno-linguistic groups in the region.\n[…]\nIn Georgian mythology, Amirani is a cultural hero who challenged the chief god and, like Prometheus, was chained on the Caucasian mountains where birds would eat his organs. This aspect of the myth had a significant influence on the Greek imagination. It is recognisable from a Greek gem roughly dated to the time of the Hesiod poems, which show Prometheus with hands bound behind his body and crouching before a bird with long wings.\n[…]\nPrometheism\n[…]\nThe Warburg Institute Iconographic Database (images of Prometheus)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Prometeu",
+        "situacao": "ok",
+        "texto": "Prometeu (em grego:  Προμηθεύς, transl.: Promēthéus, \"antevisão\"), na mitologia grega, é um titã (da segunda geração), filho de Jápeto (filho de Urano; um incesto entre Urano e Gaia) e irmão de Atlas, Epimeteu e Menoécio. Algumas fontes citam sua mãe como sendo Tétis, enquanto outras, como Pseudo-Apolodoro, apontam para Ásia oriental, também chamada de Clímene, filha de Oceano.\n[…]\nEste então roubou o fogo dos deuses e deu-o aos homens. Isto assegurou a superioridade dos homens sobre os outros animais. Todavia o fogo era exclusivo dos deuses. Como castigo a Prometeu, Zeus ordenou a Hefesto que o acorrentasse no cume do monte Cáucaso, onde todos os dias uma águia (ou abutre) dilacerava seu fígado que, todos os dias, regenerava-se. Esse castigo devia durar 30 000 anos.\n[…]\nPrometeu foi libertado do seu sofrimento por Hércules que, havendo concluído os seus doze trabalhos, se dedicou a aventuras. No lugar de Prometeu, o centauro Quíron deixou-se acorrentar no Cáucaso, pois a substituição de Prometeu era uma exigência para assegurar a sua libertação.\n[…]\nPrometeu por sua vez, como castigo eterno, foi acorrentado a uma rocha no Cáucaso, onde seu fígado era devorado cotidianamente por uma águia, apenas para vê-lo regenerar-se durante a noite, segundo a lenda, devido à sua imortalidade. Anos mais tarde, o herói grego Héracles (ou Hércules romano) abateria a águia e libertaria Prometeu de seus grilhões.\n[…]\nNo diálogo Protágoras, o personagem-título afirma que os deuses criaram os humanos e todos os outros animais, porém coube a Prometeu e seu irmão, Epimeteu, dar a cada um deles as características definitivas. Como nenhuma característica física ainda existia quando chegou a vez dos humanos, Prometeu decidiu lhes dar o fogo e outras artes da civilização.\n[…]\nEm homenagem ao personagem mitológico, deu-se o nome de Prometeu a um dos 56 satélites de Saturno (ver Prometeu).\n[…]\nPrometeísmo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Prometeu",
+      "descricao": "Titã grego que roubou o fogo dos deuses para dá-lo aos humanos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que herói grego matou a águia que atormentava Prometeu todos os dias e libertou o titã das correntes?",
+    "resposta": "Hércules",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Prometheus",
+      "https://pt.wikipedia.org/wiki/Prometeu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Prometheus",
+        "situacao": "ok",
+        "texto": "In Greek mythology, Prometheus (; Ancient Greek: Προμηθεύς [promɛːtʰěu̯s]) is a Titan who is responsible for creating and aiding humanity in its earliest days. He defied the Olympian gods by stealing fire from them and giving it to humanity.\n[…]\nAmerican Prometheus is a book released in 2005 about J. Robert Oppenheimer, the \"father of the atomic bomb\".\n[…]\nPrometheus has been depicted in a number of well-known artworks, including Mexican muralist José Clemente Orozco's Prometheus fresco at Pomona College and Paul Manship's bronze sculpture Prometheus at Rockefeller Center in Manhattan.\n[…]\nAn adaptation of Goethe's poetic version of the myth was composed by Hugo Wolf, Prometheus (Bedecke deinen Himmel, Zeus, 1889), as part of his Goethe-lieder for voice and piano, later transcribed for orchestra and voice. An opera of the myth was composed by Carl Orff titled Prometheus (1968), using Aeschylus's Greek language Prometheia. A tradition has of course grown among critics of finding allusions to Prometheus Bound in Richard Wagner's Ring cycle.\n[…]\nRudolf Wagner-Régeny composed the Prometheus in 1959. Another work inspired by the myth, Prometeo (Prometheus), was composed by Luigi Nono between 1981 and 1984 and can be considered a sequence of nine cantatas. The libretto in Italian was written by Massimo Cacciari, and selects from texts by such varied authors as Aeschylus, Walter Benjamin and Rainer Maria Rilke and presents the different versions of the myth of Prometheus without telling any version literally.\n[…]\nJason Reza Jorjani, a philosopher who has also labelled his movement \"Prometheism\", which is something different from the geopolical concept mentioned above\n[…]\nPrometheism\n[…]\nThe Warburg Institute Iconographic Database (images of Prometheus)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Prometeu",
+        "situacao": "ok",
+        "texto": "Prometeu (em grego:  Προμηθεύς, transl.: Promēthéus, \"antevisão\"), na mitologia grega, é um titã (da segunda geração), filho de Jápeto (filho de Urano; um incesto entre Urano e Gaia) e irmão de Atlas, Epimeteu e Menoécio. Algumas fontes citam sua mãe como sendo Tétis, enquanto outras, como Pseudo-Apolodoro, apontam para Ásia oriental, também chamada de Clímene, filha de Oceano.\n[…]\nEste então roubou o fogo dos deuses e deu-o aos homens. Isto assegurou a superioridade dos homens sobre os outros animais. Todavia o fogo era exclusivo dos deuses. Como castigo a Prometeu, Zeus ordenou a Hefesto que o acorrentasse no cume do monte Cáucaso, onde todos os dias uma águia (ou abutre) dilacerava seu fígado que, todos os dias, regenerava-se. Esse castigo devia durar 30 000 anos.\n[…]\nPrometeu foi libertado do seu sofrimento por Hércules que, havendo concluído os seus doze trabalhos, se dedicou a aventuras. No lugar de Prometeu, o centauro Quíron deixou-se acorrentar no Cáucaso, pois a substituição de Prometeu era uma exigência para assegurar a sua libertação.\n[…]\nPrometeu por sua vez, como castigo eterno, foi acorrentado a uma rocha no Cáucaso, onde seu fígado era devorado cotidianamente por uma águia, apenas para vê-lo regenerar-se durante a noite, segundo a lenda, devido à sua imortalidade. Anos mais tarde, o herói grego Héracles (ou Hércules romano) abateria a águia e libertaria Prometeu de seus grilhões.\n[…]\nOutros detalhes menores ligados ao mito incluem: a duração do tormento de Prometeu, que varia de 30 a 30.000 anos; a origem da águia que comia o fígado do titã (descrita em Apolodoro e Higino); o casamento de Pandora com Epimeteu (em Apolodoro); os mitos em torno da vida do filho de Prometeu, Deucalião (em Ovídio e Apolônio de Rodes); e o papel secundário de Prometeu no mito de Jasão e os Argonautas (em Apolônio de Rodes e Valério Flaco).\n[…]\nPrometeísmo"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Oráculo de Delfos",
+      "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Segundo o mito, que deus tomou posse do santuário de Delfos depois de matar a flechadas a serpente Píton, que guardava o lugar?",
+    "resposta": "Apolo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Python_(mythology)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Python_(mythology)",
+        "situacao": "ok",
+        "texto": "In Greek mythology, Python (Ancient Greek: Πύθων; gen. Πύθωνος) was the serpent, sometimes represented as a medieval-style dragon, living at the center of the Earth, believed by the ancient Greeks to be at Delphi. He was killed by the god Apollo.\n[…]\nHe slew the serpent and declared himself as the owner of the Oracular shrine.\n[…]\nThus, when Apollo was born and was four days old he pursued Python, making his way straight for Mount Parnassus where the serpent dwelled and chased it to the oracle of Gaia at Delphi; there he dared to penetrate the sacred precinct and kill it with his arrows beside the rock cleft where the priestess sat on her tripod. Robert Graves, who habitually read into primitive myths a retelling of archaic political and social turmoil, saw in this the capture by Hellenes of a pre-Hellenic shrine.\n[…]\nThe priestess of the oracle at Delphi became known as the Pythia, after the place-name Pytho, which Greeks explained as named after the rotting (πύθειν) of the slain serpent's corpse in the strength of Hyperion (day) or Helios (the sun).\n[…]\nKarl Kerenyi notes that in some early accounts Python is conflated with Typhon, the serpentine monster against whom Zeus fought. Other sources confuse him with the female dragon Delphyne; in these accounts, the dragon is said to be dissolved by the sun after its death.\n[…]\nSerpent (symbolism)\n[…]\nDeane, John Bathurst, The Worship of the Serpent, 1833. Cf. Chapter V., p. 329. [1] [2]\n[…]\nOgden, Daniel (2013). Drakon: Dragon Myth and Serpent Cult in the Greek and Roman Worlds. Oxford University Press. ISBN 978-0-19-955732-5."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/P%C3%ADton_%28mitologia%29",
+        "situacao": "ok",
+        "texto": "Píton, na mitologia grega, é uma serpente gigantesca, que nasceu do lodo na Terra após o grande dilúvio. Foi mandada por Hera para perseguir Leto. A serpente foi morta a flechadas por Apolo e seu corpo foi dividido.\n[…]\nO nome Pythia deriva de Pytho, o qual na mitologia foi o nome original de Delfos. O nome foi derivado do verbo pythein (πύθειν), originário da decomposição do corpo da serpente monstro Píton depois que ela foi morta por Apolo e teve seu corpo dividido.\n[…]\nNa juventude, Apolo matou a serpente Píton, que vivia em Delfos e tomava conta do oráculo de Têmis, e tomou o oráculo para si. Segundo outros autores, a terrível serpente Píton vivia perto da Fonte Castalian, e Apolo a matou porque Píton tinha tentado violar Leto quando se encontrava grávida de Apolo e Ártemis. Esta era a fonte que emitia os vapores que permitiam ao oráculo de Delfos realizar as profecias. Apolo matou Píton, mas teve que ser punido por isso, dado que Píton era filha de Gaia.\n[…]\nO altar dedicado a Apolo provavelmente foi dedicado originalmente a Gaia e depois a Posídon. O oráculo nesse tempo predizia o futuro baseado na água ondulante e no sussurro das folhas das árvores.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Musas",
+      "descricao": "As nove deusas gregas, filhas de Zeus e Mnemósine, inspiradoras das artes e das ciências."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Das nove musas gregas, qual era a protetora da história, muitas vezes retratada segurando um pergaminho?",
+    "resposta": "Clio",
+    "distratores": [
+      "Calíope",
+      "Tália",
+      "Urânia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Clio"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Clio",
+        "situacao": "ok",
+        "texto": "In Greek mythology, Clio (traditionally , but now more frequently ; Greek: Κλειώ), also spelled Kleio, Cleio, or Cleo, is the Muse of history, or in a few mythological accounts, the Muse of lyre-playing.\n[…]\nShe had one son, Hyacinth, with one of several kings, in various myths—with Pierus or with king Oebalus of Sparta, or with king Amyclas, progenitor of the people of Amyclae, dwellers about Sparta. In a scholium to Euripides' Rhesus, she is also the mother of Hymenaeus and Rhesus. According to Apollodorus, Clio was made to fall in love with Pierus by Aphrodite, for Clio had derided her for her love affair with Adonis.\n[…]\nOther accounts credit her as the mother of Linus by Magnes, a poet who was buried at Argos, although Linus has a number of differing parents depending upon the account, including several accounts in which he is the son of Clio's sisters Urania or Calliope.\n[…]\nIn her capacity as \"the proclaimer, glorifier and celebrator of history, great deeds and accomplishments\" Clio is used in the name of various modern brands, including the Clio Awards for excellence in advertising.\n[…]\nThe Cambridge University History Society is informally referred to as Clio; the Cleo of Alpha Chi society at Trinity College, Connecticut, is named after the muse. Likewise, the undergraduate student outreach group for the Penn Museum at the University of Pennsylvania is known as the Clio Society, and the first sorority founded at SUNY Geneseo, Phi Kappa Pi, began as the Alpha Clionian literary society.\n[…]\n\"Clio\" also represents history in some coined words in academic usage: cliometrics, cliodynamics.\n[…]\nClio Bay in Antarctica is named after the muse, as is the city of Clio, Michigan."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Clio",
+        "situacao": "ok",
+        "texto": "Clio' (em grego:  Κλειώ, transl.: Kleiō; \"a que faz famoso\") é uma das nove musas, e, junto com as irmãs, habita monte Hélicon. Eram filhas de Zeus e Mnemósine, a deusa da memória. As musas reúnem-se, sob a assistência de Apolo, junto à fonte Hipocrene, presidindo às artes e às ciências, com o dom de inspirar os governantes e restabelecer a paz entre os homens.\n[…]\nClio é a musa da história e da criatividade, aquela que divulga e celebra as realizações. Preside a eloquência, sendo a fiadora das relações políticas entre homens e nações. É representada como uma jovem coroada de louros, trazendo na mão esquerda uma trombeta e, na direita, um livro intitulado \"Thucydide\" (ver Tucídides). Outras representações apresentam-na segurando um rolo de pergaminho e uma pena, atributos que, às vezes, também acompanham Calíope.\n[…]\nEm algumas de suas estátuas traz esse instrumento em uma das mãos e, na outra, um plectro (palheta). Um dos nove livros de Heródoto leva o nome de Clio, em homenagem à sua vida\n[…]\nEm uma das versões do mito de Jacinto, Clio é a sua mãe, com o mortal Piero. Afrodite fez Clio se apaixonar por um mortal por vingança, porque Clio havia criticado o romance da deusa com Adônis.\n[…]\nO nome Clio significa “Proclamadora”. Ela é a grande deusa da História para os Historiadores. Embora seja uma referência ilustrativa, possui a capacidade de chamar para uma reflexão nos múltiplos domínios da História. Se considerarmos o livro que carrega em suas mãos, de Tucídides, nos remetemos a escrita da História, ou seja, nos atentamos para a historiografia e como se dá o relato das realizações. Por outro lado, há o outro objeto que Clio porta em suas mãos, que é a trombeta.\n[…]\nEste sim é o responsável pela anunciação, o que pode-se entender como a fama do acontecimento, a fama da História.\n[…]\nTheoi.com - Clio",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.94 — 2026-11-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **3 perguntas por âncora** em cada lote (2 até 2026-10-27), nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **8 perguntas por âncora** no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27), somando texto e figura, e no máximo **3 com figura** (2 até 2026-10-27). As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas. Essas perguntas têm um teto no jogo original (§9).
+- **Metade aberta, metade múltipla escolha** (desde 2026-10-27). O jogo original busca as duas formas na mesma proporção, em cada tema, para que um modo só de múltipla escolha tenha perguntas de todos os temas. Vale para texto e figura. Cada lote recebe a quantidade de `multipla` que aproxima o seu tema dessa meta (§17), e a pergunta segue a quantidade pedida, salvo quando a outra forma for claramente melhor.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **três perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master e Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 8 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- **Respostas que são um ano específico** ("1969", "800 a.C."), somando abertas e múltiplas: no máximo **9%** das perguntas do lote, e no máximo **uma** num lote de figuras, que tem 12 itens (desde 2026-10-30, só no jogo original). Para pedir a época, prefira o século, a década ou a ordem entre dois fatos. O registro descarta o que passar do teto; as perguntas que já estavam no banco ficam.
+- No máximo **3 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já tenham perguntas, a âncoras novas e obscuras (desde 2026-10-27; antes, "prefira âncoras novas"). O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para aprofundá-las com fatos e ângulos novos, sem repetir fatos.
+- **Tentar incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as centrais, para manter alguma variedade. Se for difícil achar uma assim, o lote fica sem: uma âncora nova obscura não vale a troca.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

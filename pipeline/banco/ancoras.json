@@ -160433,7 +160433,8 @@
     "descricao": "Criaturas da mitologia grega que atraíam marinheiros para a morte com seu canto.",
     "variantes": [
       "Sirens",
-      "Sirenas"
+      "Sirenas",
+      "Sirenes"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Siren_(mythology)"
@@ -160505,7 +160506,8 @@
     "descricao": "Figuras femininas da mitologia nórdica que escolhem quais guerreiros morrem em batalha.",
     "variantes": [
       "Valkyries",
-      "Valkyrjur"
+      "Valkyrjur",
+      "Valkyrja"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Valkyrie"
@@ -163857,7 +163859,8 @@
     "descricao": "Herói grego da Guerra de Troia e protagonista da Odisseia de Homero.",
     "variantes": [
       "Odisseu",
-      "Odysseus"
+      "Odysseus",
+      "Ulysses"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Odysseus",
@@ -163919,7 +163922,10 @@
       "wikidata": "Q34201",
       "pt": 6994,
       "en": 111184
-    }
+    },
+    "variantes": [
+      "Júpiter"
+    ]
   },
   {
     "id": "iliada",
@@ -164033,7 +164039,8 @@
     "nome": "Esfinge de Tebas",
     "descricao": "Monstro da mitologia grega com corpo de leão e cabeça de mulher que propunha um enigma aos viajantes de Tebas.",
     "variantes": [
-      "Esfinge grega"
+      "Esfinge grega",
+      "Esfinge"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sphinx"
@@ -238830,6 +238837,67 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Jimmy_Carter",
       "https://pt.wikipedia.org/wiki/Jimmy_Carter"
+    ]
+  },
+  {
+    "id": "atlas_mitologia",
+    "nome": "Atlas (mitologia)",
+    "descricao": "Titã da mitologia grega condenado por Zeus a sustentar o céu nos ombros.",
+    "variantes": [
+      "Atlas",
+      "Atlante"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Atlas_(mitologia)",
+      "https://en.wikipedia.org/wiki/Atlas_(mythology)"
+    ]
+  },
+  {
+    "id": "ragnarok",
+    "nome": "Ragnarök",
+    "descricao": "Na mitologia nórdica, a batalha final e a destruição do mundo, em que morrem muitos deuses.",
+    "variantes": [
+      "Ragnarøkkr"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ragnarök",
+      "https://pt.wikipedia.org/wiki/Ragnarök"
+    ]
+  },
+  {
+    "id": "ares",
+    "nome": "Ares",
+    "descricao": "Deus grego da guerra, filho de Zeus e Hera, equivalente ao romano Marte.",
+    "variantes": [
+      "Marte"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ares",
+      "https://en.wikipedia.org/wiki/Ares"
+    ]
+  },
+  {
+    "id": "helena_de_troia",
+    "nome": "Helena de Troia",
+    "descricao": "Rainha de Esparta, filha de Zeus e Leda, cuja fuga com Páris desencadeou a Guerra de Troia.",
+    "variantes": [
+      "Helena",
+      "Helen of Troy"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Helena_de_Troia",
+      "https://en.wikipedia.org/wiki/Helen_of_Troy"
+    ]
+  },
+  {
+    "id": "bifrost",
+    "nome": "Bifröst",
+    "descricao": "Na mitologia nórdica, a ponte que liga Asgard, a morada dos deuses, a Midgard, o mundo dos humanos.",
+    "variantes": [
+      "Bilröst"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bifröst"
     ]
   }
 ]

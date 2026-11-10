@@ -1,0 +1,415 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelas fontes, enunciado literalmente correto e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gênero Hydra nomeado por Lineu em alusão à Hidra; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fato fraco e óbvio (Vulcano→vulcão), sem apoio nos trechos e repete o molde 'palavra tem nome de figura mítica' dos itens 1, 2, 4 e 5.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Etimologia de quimera amplamente documentada; enunciado correto e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sirene vem das Sereias gregas; fato conhecido e enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado de valkyrja confirmado; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado literal 'destino dos deuses' sustentado; distratores sem ambiguidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tuesday vem de Týr, e a mão perdida para Fenrir confere com a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hesíodo liga Afrodite a aphros (espuma); resposta específica e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parthenos significa virgem; fonte pt sustenta; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hieróglifo de trono no nome e na cabeça de Ísis confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Huitzilopochtli significa beija-flor (huitzilin); fonte pt confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fobos e Deimos são filhos de Ares, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gregos identificaram Thoth com Hermes; distratores do mesmo grupo.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anúbis embalsamou Osíris, a primeira múmia, segundo as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oráculo de Siwa declarou Alexandre filho de Amon.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Tolkien só escreveu 'andarilho odínico'; barba, chapéu e cajado vêm de comentaristas, não da carta.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Numa carta de 1946, Tolkien descreveu um de seus personagens como um andarilho à maneira de Odin. Qual é o personagem?",
+        "resposta": "Gandalf",
+        "distratores": [
+          "Saruman",
+          "Radagast",
+          "Bilbo Bolseiro"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Gandalf"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Andrômeda, salva e esposa de Perseu, dá nome à constelação e à galáxia.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ulysses de Joyce confirmado; distratores irlandeses críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O mito de Sísifo, de Camus, confirmado; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Eneias era herói troiano, parente de Príamo, não propriamente príncipe; troca por 'herói'.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Segundo a lenda adotada pelos romanos, que herói troiano escapou da cidade em chamas e se tornou ancestral de Rômulo e Remo?",
+        "resposta": "Eneias",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Aeneas",
+          "https://pt.wikipedia.org/wiki/Eneias"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A família imperial japonesa descende de Amaterasu, segundo a tradição.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A cena aparece no brasão (no centro da bandeira), não é a bandeira em si; a serpente não está na lenda original e 'atual' deve sair.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Segundo a lenda, o deus Huitzilopochtli mandou os astecas fundarem sua cidade onde vissem uma águia pousada num cacto. Que símbolo do México, no centro da bandeira, mostra essa cena?",
+        "resposta": "O brasão",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Coat_of_arms_of_Mexico"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ganesha como escriba do Mahabharata ditado por Vyasa confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cinco irmãos (Héstia, Deméter, Hera, Hades, Poseidon) vomitados por Cronos.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambas as epopeias têm 24 livros, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Verso de Marlowe sobre mil navios confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Plutarco fala em catorze pedaços; fato bem documentado, trechos não o mostram.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Odin pendurado nove noites na árvore, ferido pela lança, para obter as runas.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Metade dos mortos em combate vai para Fólkvangr, de Freyja.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dashavatara: dez avatares principais de Vishnu.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dragão imperial chinês de cinco garras confirmado na fonte pt.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Heródoto: fênix aparece a cada quinhentos anos; fonte pt confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doze olímpicos residiam no Olimpo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Atena venceu Poseidon com a oliveira, segundo a fonte pt.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Poseidon persegue Ulisses por ter cegado Polifemo, seu filho.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ájax se matou após a armadura de Aquiles ir para Odisseu; trechos confirmam a disputa.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Remo pulando a muralha é a versão mais conhecida (Lívio); resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Zeus enviou uma mutuca para picar Pégaso; 'por que caiu' admite duas respostas, então a pergunta passa a ser sobre a ousadia.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Que ousadia do herói Belerofonte irritou Zeus e o fez cair do cavalo alado Pégaso?",
+        "resposta": "Tentou voar até o Olimpo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bellerophon",
+          "https://pt.wikipedia.org/wiki/Belerofonte"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A esperança ficou no jarro, segundo Hesíodo e a fonte pt.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Homens de barro e madeira fracassam; os de milho dão certo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (lira de casco de tartaruga), mas uma fonte é inexistente; troca por URLs seguras.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Ainda bebê, no dia em que nasceu, o deus Hermes inventou a lira usando o casco de que animal?",
+        "resposta": "Tartaruga",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hermes",
+          "https://pt.wikipedia.org/wiki/Hermes"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enigma da Esfinge e resposta 'o homem' confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perseu usou o elmo para escapar das Górgonas depois de matar Medusa, não contra ela; ajusta o enunciado.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Que objeto de Hades, forjado pelos ciclopes e usado por Perseu em sua missão contra a Medusa, tornava invisível quem o usasse?",
+        "resposta": "Um capacete",
+        "distratores": [
+          "Um anel",
+          "Um colar",
+          "Um cajado"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cap_of_invisibility"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bifröst é o arco-íris que liga Asgard a Midgard.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Delos como local do nascimento dos gêmeos, com ressalva 'mito mais conhecido'.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prometeu acorrentado no Cáucaso, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hércules libertou Prometeu e matou a águia, segundo a fonte pt.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apolo matou Píton e tomou o oráculo de Delfos.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Clio é a musa da história, com pergaminho; distratores são outras musas.",
+      "reescrita": null
+    }
+  ]
+}
