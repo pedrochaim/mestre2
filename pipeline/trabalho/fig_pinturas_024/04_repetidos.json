@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que acontecimento do século dezesseis, mostrado nas janelas ao fundo, este retrato de uma rainha inglesa celebra?",
+        "resposta": "Derrota da Armada Espanhola"
+      },
+      "existentes": [
+        {
+          "id": "q09365",
+          "pergunta": "Em que ano ocorreu o acontecimento naval que este retrato da rainha celebra, mostrado nas cenas ao fundo?",
+          "resposta": "1588"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede qual foi o acontecimento (derrota da Armada Espanhola); a existente pede o ano (1588). Os fatos são diferentes, embora relacionados. Saber o ano não implica saber o nome do acontecimento, e o contrário também vale."
+    }
+  ]
+}

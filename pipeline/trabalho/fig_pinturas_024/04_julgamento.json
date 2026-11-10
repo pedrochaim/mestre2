@@ -1,0 +1,583 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "A Feira de Cavalos",
+        "descricao": "Pintura a óleo de Rosa Bonheur, exibida no Salão de Paris de 1853, que retrata o mercado de cavalos do Boulevard de l'Hôpital.",
+        "variantes": [
+          "A Feira de Cavalos (Rosa Bonheur)",
+          "The Horse Fair",
+          "Le marché aux chevaux"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cavalinha",
+          "nome": "Cavalinha",
+          "descricao": "Planta do gênero Equisetum, de caules verdes articulados, que se reproduz por esporos.",
+          "variantes": [
+            "Equisetum",
+            "Rabo-de-cavalo",
+            "Horsetail"
+          ]
+        },
+        {
+          "id": "aracy_de_carvalho",
+          "nome": "Aracy de Carvalho",
+          "descricao": "Funcionária do consulado brasileiro em Hamburgo que ajudou judeus a fugir do nazismo, reconhecida como Justa entre as Nações.",
+          "variantes": [
+            "Aracy de Carvalho Guimarães Rosa",
+            "Anjo de Hamburgo"
+          ]
+        },
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "rodeio",
+          "nome": "Rodeio",
+          "descricao": "Competição equestre de origem campeira em que peões montam cavalos e bois bravos.",
+          "variantes": [
+            "Montaria em cavalo",
+            "Rodeio de cavalo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Menino com Cesta de Frutas",
+        "descricao": "Pintura barroca a óleo atribuída a Caravaggio, de cerca de 1593, na Galleria Borghese, em Roma.",
+        "variantes": [
+          "Menino com Cesta de Frutas (Caravaggio)",
+          "Boy with a Basket of Fruit",
+          "Rapaz com Cesto de Frutas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cesta_de_frutas",
+          "nome": "Cesta de Frutas",
+          "descricao": "Natureza-morta de Caravaggio, c. 1599, na Biblioteca Ambrosiana.",
+          "variantes": [
+            "Cesta de Frutas (Caravaggio)",
+            "Canestra di frutta",
+            "Basket of Fruit"
+          ]
+        },
+        {
+          "id": "bebeto_de_freitas",
+          "nome": "Bebeto de Freitas",
+          "descricao": "Técnico brasileiro de vôlei que comandou a seleção masculina prata em Los Angeles 1984 e depois foi dirigente de futebol.",
+          "variantes": [
+            "Paulo Roberto de Freitas"
+          ]
+        },
+        {
+          "id": "a_ceia_em_emaus_caravaggio_londres",
+          "nome": "A Ceia em Emaús (Caravaggio, Londres)",
+          "descricao": "Pintura de Caravaggio de 1601, na National Gallery de Londres, que mostra Jesus ressuscitado revelando-se aos discípulos em Emaús.",
+          "variantes": [
+            "A Ceia em Emaús (Caravaggio)",
+            "Ceia em Emaús",
+            "Supper at Emmaus",
+            "Cena de Emaús"
+          ]
+        },
+        {
+          "id": "medusa_caravaggio",
+          "nome": "Medusa (Caravaggio)",
+          "descricao": "Pintura de Caravaggio, feita em um escudo, que mostra a cabeça decepada da Medusa; está na Galeria Uffizi, em Florença.",
+          "variantes": [
+            "Medusa de Caravaggio",
+            "Escudo com a cabeça da Medusa"
+          ]
+        },
+        {
+          "id": "moca_com_brinco_de_perola",
+          "nome": "Moça com Brinco de Pérola",
+          "descricao": "Quadro de Johannes Vermeer, de cerca de 1665.",
+          "variantes": [
+            "Girl with a Pearl Earring",
+            "Rapariga com Brinco de Pérola"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "La Scapigliata",
+        "descricao": "Pintura inacabada atribuída a Leonardo da Vinci, de cerca de 1506–1508, que mostra a cabeça de uma mulher de cabelos desgrenhados.",
+        "variantes": [
+          "La Scapigliata (Leonardo)",
+          "A Scapigliata",
+          "Cabeça de Mulher",
+          "The Lady with Dishevelled Hair"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cabeca_de_meroe",
+          "nome": "Cabeça de Méroe",
+          "descricao": "Cabeça de bronze de Augusto achada em Méroe, no atual Sudão, hoje no Museu Britânico.",
+          "variantes": [
+            "Cabeça de Augusto de Méroe",
+            "Meroë Head"
+          ]
+        },
+        {
+          "id": "bandeira_da_corsega",
+          "nome": "Bandeira da Córsega",
+          "descricao": "Bandeira da ilha francesa da Córsega, com a cabeça de mouro de bandana branca sobre fundo branco.",
+          "variantes": [
+            "Córsega",
+            "Cabeça de mouro",
+            "Corse"
+          ]
+        },
+        {
+          "id": "cabeca_de_ife",
+          "nome": "Cabeça de Ifé",
+          "descricao": "Cabeça de liga de cobre naturalista, atribuída a um rei iorubá, entre as dezoito peças achadas em Ifé, na Nigéria, em 1938.",
+          "variantes": [
+            "Ife Head",
+            "Cabeça de bronze de Ifé",
+            "Bronze Head from Ife"
+          ]
+        },
+        {
+          "id": "bico_de_sapato",
+          "nome": "Bico-de-sapato",
+          "descricao": "Grande ave pernalta de bico enorme em forma de sapato (Balaeniceps rex) dos pântanos da África.",
+          "variantes": [
+            "Balaeniceps rex",
+            "Cabeça-de-baleia"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Agnus Dei (Zurbarán)",
+        "descricao": "Pintura barroca de Francisco de Zurbarán, de cerca de 1635–1640, no Museu do Prado, que mostra um cordeiro de patas atadas.",
+        "variantes": [
+          "Agnus Dei",
+          "Cordeiro de Deus",
+          "Lamb of God"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dedo_de_deus",
+          "nome": "Dedo de Deus",
+          "descricao": "Pico de granito em forma de dedo na Serra dos Órgãos, em Teresópolis, Rio de Janeiro.",
+          "variantes": [
+            "Pico Dedo de Deus"
+          ]
+        },
+        {
+          "id": "cidade_de_deus",
+          "nome": "Cidade de Deus",
+          "descricao": "Filme brasileiro de 2002 dirigido por Fernando Meirelles, sobre jovens numa favela do Rio de Janeiro.",
+          "variantes": [
+            "City of God"
+          ]
+        },
+        {
+          "id": "cidade_de_deus_2",
+          "nome": "Cidade de Deus",
+          "descricao": "Romance de Paulo Lins publicado em 1997, sobre a violência no conjunto habitacional carioca de mesmo nome, adaptado ao cinema em 2002.",
+          "variantes": [
+            "Cidade de Deus (livro)"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "cordilheira_dos_andes",
+          "nome": "Cordilheira dos Andes",
+          "descricao": "Cadeia de montanhas que percorre todo o oeste da América do Sul, da Venezuela à Patagônia.",
+          "variantes": [
+            "Andes",
+            "Cordillera de los Andes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Retrato da Armada",
+        "descricao": "Retrato alegórico de Elizabeth I da Inglaterra, com cenas da derrota da Armada Espanhola em 1588 ao fundo.",
+        "variantes": [
+          "Retrato da Armada (Elizabeth I)",
+          "Armada Portrait",
+          "Retrato da Armada de Elizabeth I"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "retrato_da_armada_de_elizabeth_i",
+          "nome": "Retrato da Armada de Elizabeth I",
+          "descricao": "Pintura alegórica inglesa do fim do século dezesseis que retrata Elizabeth I com cenas da derrota da Armada Espanhola ao fundo.",
+          "variantes": [
+            "Armada Portrait",
+            "Retrato da Armada"
+          ]
+        },
+        {
+          "id": "retrato_de_madame_x",
+          "nome": "Retrato de Madame X",
+          "descricao": "Retrato de 1884 de Virginie Gautreau, pintado por John Singer Sargent.",
+          "variantes": [
+            "Madame X",
+            "Portrait of Madame X"
+          ]
+        },
+        {
+          "id": "hoplitodromo",
+          "nome": "Hoplitódromo",
+          "descricao": "Corrida dos Jogos Olímpicos da Antiguidade em que os atletas corriam com equipamento de soldado.",
+          "variantes": [
+            "Hoplitodromos",
+            "Corrida armada"
+          ]
+        },
+        {
+          "id": "retrato_chandos",
+          "nome": "Retrato Chandos",
+          "descricao": "Retrato a óleo da National Portrait Gallery de Londres, pintado entre 1600 e 1610, que supostamente mostra William Shakespeare.",
+          "variantes": [
+            "Retrato Chandos (Shakespeare)",
+            "Retrato de Chandos",
+            "Chandos portrait"
+          ]
+        },
+        {
+          "id": "paraiba",
+          "nome": "Paraíba",
+          "descricao": "Estado do Nordeste brasileiro, cuja capital é João Pessoa.",
+          "variantes": [
+            "Estado da Paraíba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "O Concerto",
+        "descricao": "Pintura de Johannes Vermeer, de cerca de 1664, roubada do Museu Isabella Stewart Gardner, em Boston, em 1990.",
+        "variantes": [
+          "O Concerto (Vermeer)",
+          "The Concert",
+          "Het concert"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "sambaqui",
+          "nome": "Sambaqui",
+          "descricao": "Monte artificial pré-histórico de conchas e restos, comum no litoral brasileiro.",
+          "variantes": [
+            "Sambaquis",
+            "Concheiro"
+          ]
+        },
+        {
+          "id": "o_cortico",
+          "nome": "O Cortiço",
+          "descricao": "Romance naturalista de Aluísio Azevedo publicado em 1890, sobre os moradores de uma habitação coletiva no Rio de Janeiro.",
+          "variantes": []
+        },
+        {
+          "id": "o_cangaceiro",
+          "nome": "O Cangaceiro",
+          "descricao": "Filme brasileiro de 1953 dirigido por Lima Barreto, sobre um bando de cangaceiros no sertão nordestino.",
+          "variantes": [
+            "The Bandit"
+          ]
+        },
+        {
+          "id": "show_no_telhado_dos_beatles",
+          "nome": "Show no telhado dos Beatles",
+          "descricao": "Apresentação improvisada dos Beatles em 30 de janeiro de 1969 no alto do prédio da Apple, em Londres",
+          "variantes": [
+            "Rooftop concert"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "A Pega",
+        "descricao": "Paisagem de neve a óleo de Claude Monet, pintada em 1868–1869 perto de Étretat, na Normandia.",
+        "variantes": [
+          "A Pega (Monet)",
+          "The Magpie",
+          "La Pie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà",
+            "Pietà"
+          ]
+        },
+        {
+          "id": "carlos_valderrama",
+          "nome": "Carlos Valderrama",
+          "descricao": "Meio-campista colombiano conhecido como El Pibe, craque da seleção da Colômbia nos anos 1990.",
+          "variantes": [
+            "El Pibe",
+            "Pibe Valderrama"
+          ]
+        },
+        {
+          "id": "os_maias",
+          "nome": "Os Maias",
+          "descricao": "Romance de Eça de Queirós, publicado em 1888, sobre a decadência de uma família rica de Lisboa.",
+          "variantes": [
+            "The Maias"
+          ]
+        },
+        {
+          "id": "lapis",
+          "nome": "Lápis",
+          "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+          "variantes": [
+            "Lápis grafite"
+          ]
+        },
+        {
+          "id": "a_flauta_magica",
+          "nome": "A Flauta Mágica",
+          "descricao": "Ópera de Mozart, com libreto de Emanuel Schikaneder, estreada em Viena em 1791.",
+          "variantes": [
+            "Die Zauberflöte",
+            "The Magic Flute"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "O Rapto das Filhas de Leucipo",
+        "descricao": "Pintura barroca de 1618 de Peter Paul Rubens, na Alte Pinakothek de Munique, com cena do mito dos Dióscuros.",
+        "variantes": [
+          "O Rapto das Filhas de Leucipo (Rubens)",
+          "The Rape of the Daughters of Leucippus",
+          "Rapto das Leucípides"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rapto_das_sabinas",
+          "nome": "Rapto das Sabinas",
+          "descricao": "Episódio lendário dos primeiros anos de Roma em que os homens de Rômulo raptaram mulheres do povo sabino.",
+          "variantes": [
+            "Rapto das mulheres sabinas",
+            "The Rape of the Sabine Women"
+          ]
+        },
+        {
+          "id": "batalha_de_leuctra",
+          "nome": "Batalha de Leuctra",
+          "descricao": "Batalha de 371 a.C. em que os tebanos, comandados por Epaminondas, derrotaram o exército de Esparta.",
+          "variantes": [
+            "Batalha de Leuctros",
+            "Battle of Leuctra"
+          ]
+        },
+        {
+          "id": "lagoa_das_sete_cidades",
+          "nome": "Lagoa das Sete Cidades",
+          "descricao": "Lago gêmeo na cratera de um vulcão adormecido na ilha de São Miguel, nos Açores.",
+          "variantes": [
+            "Sete Cidades"
+          ]
+        },
+        {
+          "id": "moais_da_ilha_de_pascoa",
+          "nome": "Moais da Ilha de Páscoa",
+          "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+          "variantes": [
+            "Moai",
+            "Estátuas da Ilha de Páscoa",
+            "Moais"
+          ]
+        },
+        {
+          "id": "o_espirito_das_leis",
+          "nome": "O Espírito das Leis",
+          "descricao": "Tratado de teoria política publicado por Montesquieu em 1748.",
+          "variantes": [
+            "De l'esprit des lois",
+            "The Spirit of the Laws",
+            "The Spirit of Law",
+            "Do Espírito das Leis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "A Ronda dos Prisioneiros",
+        "descricao": "Pintura a óleo de Vincent van Gogh, de fevereiro de 1890, inspirada numa gravura de Gustave Doré do pátio da prisão de Newgate.",
+        "variantes": [
+          "A Ronda dos Prisioneiros (Van Gogh)",
+          "Prisoners' Round",
+          "O Pátio da Prisão",
+          "Prisioneiros Exercitando"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panteao_da_patria_e_da_liberdade",
+          "nome": "Panteão da Pátria e da Liberdade",
+          "descricao": "Memorial cívico na Praça dos Três Poderes, em Brasília, que homenageia heróis nacionais, Tiradentes e Tancredo Neves.",
+          "variantes": [
+            "Panteão da Pátria e da Liberdade Tancredo Neves",
+            "Panteão da Pátria"
+          ]
+        },
+        {
+          "id": "o_prisioneiro",
+          "nome": "O Prisioneiro",
+          "descricao": "Série britânica de 1967 estrelada por Patrick McGoohan, sobre um agente preso numa vila misteriosa.",
+          "variantes": [
+            "The Prisoner"
+          ]
+        },
+        {
+          "id": "trio_da_criacao",
+          "nome": "Trio da criação",
+          "descricao": "Trio de pokémon lendários de Sinnoh formado por Dialga, Palkia e Giratina, ligados ao tempo, ao espaço e ao mundo paralelo.",
+          "variantes": [
+            "Creation trio"
+          ]
+        },
+        {
+          "id": "revolta_da_chibata",
+          "nome": "Revolta da Chibata",
+          "descricao": "Rebelião de marinheiros da Marinha do Brasil no Rio de Janeiro, em novembro de 1910, contra os castigos físicos.",
+          "variantes": [
+            "Revolta dos Marinheiros"
+          ]
+        },
+        {
+          "id": "partida_da_opera",
+          "nome": "Partida da Ópera",
+          "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera.",
+          "variantes": [
+            "Opera Game",
+            "Jogo da Ópera"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pintura de Rosa Bonheur; nenhuma candidata é essa obra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Menino com Cesta de Frutas é distinta de Cesta de Frutas (Ambrosiana)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pintura de Leonardo; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Agnus Dei de Zurbarán não consta nas candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "retrato_da_armada_de_elizabeth_i",
+      "motivo": "Mesma pintura alegórica de Elizabeth I com a Armada ao fundo; variantes coincidem."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pintura de Vermeer roubada; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pintura de Monet; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pintura de Rubens; Rapto das Sabinas é outro episódio."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pintura de Van Gogh; nenhuma candidata corresponde."
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara; assinatura minúscula, ilegível no celular. Troquei 'quando' (ano exigiria múltipla e a data está na assinatura) por 'onde'.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Esta pintura do século dezenove mostra um mercado de cavalos numa capital europeia. Que cidade é essa?",
+      "resposta": "Paris",
+      "ancora": {
+        "nome": "A Feira de Cavalos",
+        "descricao": "Pintura a óleo de Rosa Bonheur, exibida no Salão de Paris de 1853, que retrata o mercado de cavalos do Boulevard de l'Hôpital.",
+        "variantes": [
+          "The Horse Fair",
+          "Le marché aux chevaux"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena clara e inconfundível, sem texto. Troquei 'que_tipo' por 'quem_fez', que rende pergunta melhor e sem ambiguidade (a fonte de luz seria ambígua: vela e lua).",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pintor inglês do século dezoito fez esta cena iluminada à luz de velas, em que um experimento científico é mostrado a uma plateia?",
+      "resposta": "Joseph Wright of Derby",
+      "distratores": [
+        "Thomas Gainsborough",
+        "Joshua Reynolds",
+        "William Hogarth"
+      ],
+      "ancora": {
+        "nome": "Experiência com um Pássaro na Bomba de Ar",
+        "descricao": "Pintura de 1768 de Joseph Wright of Derby, na National Gallery de Londres, que mostra um experimento com bomba de ar à luz de velas.",
+        "variantes": [
+          "An Experiment on a Bird in the Air Pump"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara e emblemática. A data é aproximada ('c. 1593'), então troquei 'quando' por 'quem_fez'.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem pintou este quadro de um rapaz carregando uma cesta?",
+      "resposta": "Caravaggio",
+      "ancora": {
+        "nome": "Menino com Cesta de Frutas",
+        "descricao": "Pintura barroca a óleo atribuída a Caravaggio, de cerca de 1593, na Galleria Borghese, em Roma.",
+        "variantes": [
+          "Boy with a Basket of Fruit",
+          "Rapaz com Cesto de Frutas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, reconhecível por quem conhece a obra. Pergunta pelo nome da obra.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Qual é o nome desta pintura inacabada, atribuída a Leonardo da Vinci, de uma mulher de cabelos soltos e olhar baixo?",
+      "resposta": "A Scapigliata (Cabeça de Mulher)",
+      "ancora": {
+        "nome": "La Scapigliata",
+        "descricao": "Pintura inacabada atribuída a Leonardo da Vinci, de cerca de 1506–1508, que mostra a cabeça de uma mulher de cabelos desgrenhados.",
+        "variantes": [
+          "A Scapigliata",
+          "Cabeça de Mulher",
+          "The Lady with Dishevelled Hair"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara. A data é um intervalo (1635–1640), então troquei 'quando' por 'quem_fez' em múltipla escolha.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pintor espanhol do século dezessete fez este quadro de um cordeiro de patas amarradas?",
+      "resposta": "Francisco de Zurbarán",
+      "distratores": [
+        "Bartolomé Murillo",
+        "Diego Velázquez",
+        "José de Ribera"
+      ],
+      "ancora": {
+        "nome": "Agnus Dei (Zurbarán)",
+        "descricao": "Pintura barroca de Francisco de Zurbarán, de cerca de 1635–1640, no Museu do Prado, que mostra um cordeiro de patas atadas.",
+        "variantes": [
+          "Agnus Dei",
+          "Cordeiro de Deus",
+          "Lamb of God"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem clara e sem texto; as cenas das janelas sustentam a pergunta sobre o acontecimento.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que acontecimento, mostrado nas duas janelas ao fundo, este retrato de uma rainha inglesa celebra?",
+      "resposta": "Derrota da Armada Espanhola",
+      "distratores": [
+        "Batalha de Trafalgar",
+        "Batalha de Lepanto",
+        "Grande Incêndio de Londres"
+      ],
+      "ancora": {
+        "nome": "Retrato da Armada",
+        "descricao": "Retrato alegórico de Elizabeth I da Inglaterra, com cenas da derrota da Armada Espanhola em 1588 ao fundo.",
+        "variantes": [
+          "Armada Portrait",
+          "Retrato da Armada de Elizabeth I"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A assinatura 'EAKINS' com a data aparece legível na mesa cirúrgica e entrega o pintor, e a cena é muito sangrenta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. A data é aproximada (c. 1664), então troquei 'quando' por 'quem_fez'.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pintor holandês do século dezessete fez esta cena de três pessoas fazendo música numa sala de piso quadriculado?",
+      "resposta": "Johannes Vermeer",
+      "distratores": [
+        "Pieter de Hooch",
+        "Gerard ter Borch",
+        "Frans van Mieris"
+      ],
+      "ancora": {
+        "nome": "O Concerto",
+        "descricao": "Pintura de Johannes Vermeer, de cerca de 1664, roubada do Museu Isabella Stewart Gardner, em Boston, em 1990.",
+        "variantes": [
+          "The Concert",
+          "Het concert"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clara; a assinatura é pequena e a pergunta não é sobre o autor. Sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ave, pousada numa cerca, dá nome a esta paisagem de neve pintada por um impressionista francês?",
+      "resposta": "Pega",
+      "ancora": {
+        "nome": "A Pega",
+        "descricao": "Paisagem de neve a óleo de Claude Monet, pintada em 1868–1869 perto de Étretat, na Normandia.",
+        "variantes": [
+          "The Magpie",
+          "La Pie"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; o estilo barroco é reconhecível, com distratores de períodos próximos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estilo artístico, do século dezessete, marca esta cena de movimento, com corpos volumosos e cavalos empinados?",
+      "resposta": "Barroco",
+      "distratores": [
+        "Rococó",
+        "Neoclassicismo",
+        "Romantismo"
+      ],
+      "ancora": {
+        "nome": "O Rapto das Filhas de Leucipo",
+        "descricao": "Pintura barroca de 1618 de Peter Paul Rubens, na Alte Pinakothek de Munique, com cena do mito dos Dióscuros.",
+        "variantes": [
+          "The Rape of the Daughters of Leucippus",
+          "Rapto das Leucípides"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "A imagem não é o quadro de Veronese (é de outro pintor, um banquete menor), mas retrata claramente as Bodas de Caná. Perguntei sobre o episódio, que vale para esta imagem.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que episódio do Evangelho esta pintura retrata, com um homem servindo vinho de uma jarra e grandes talhas no primeiro plano?",
+      "resposta": "Bodas de Caná",
+      "distratores": [
+        "Última Ceia",
+        "Multiplicação dos pães",
+        "Ressurreição de Lázaro"
+      ],
+      "ancora": {
+        "nome": "Bodas de Caná",
+        "descricao": "Episódio do Evangelho de João em que Jesus transforma água em vinho numa festa de casamento na Galileia.",
+        "variantes": [
+          "Casamento em Caná",
+          "Wedding at Cana"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, estilo inconfundível de Van Gogh. Troquei 'o_que_e' por 'quem_fez'.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem pintou este quadro de prisioneiros caminhando em círculo num pátio de paredes de tijolo?",
+      "resposta": "Vincent van Gogh",
+      "ancora": {
+        "nome": "A Ronda dos Prisioneiros",
+        "descricao": "Pintura a óleo de Vincent van Gogh, de fevereiro de 1890, inspirada numa gravura de Gustave Doré do pátio da prisão de Newgate.",
+        "variantes": [
+          "Prisoners' Round",
+          "O Pátio da Prisão",
+          "Prisioneiros Exercitando"
+        ]
+      }
+    }
+  ]
+}

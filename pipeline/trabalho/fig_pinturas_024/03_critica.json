@@ -1,0 +1,116 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o mercado de cavalos do Boulevard de l'Hôpital, em Paris, e a exposição no Salão de 1853. O enunciado não nomeia a cidade e não a entrega, porque 'capital europeia' não leva a Paris sem reconhecer a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cena à luz de velas com experimento científico' descreve o traço famoso de Wright of Derby. Pelo teste da imagem coberta, dá para responder sem ver a figura. Tirei a pista de conteúdo e mantive a nacionalidade e o século.",
+      "reescrita": {
+        "pergunta": "Que pintor inglês do século dezoito fez este quadro?",
+        "resposta": "Joseph Wright of Derby",
+        "distratores": [
+          "Thomas Gainsborough",
+          "Joshua Reynolds",
+          "William Hogarth"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A atribuição a Caravaggio é a geralmente aceita nos trechos. O enunciado descreve a cena sem entregar o autor.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cabelos soltos' traduz o nome 'Scapigliata' (cabelos desgrenhados) e vaza a resposta. 'Olhar baixo' não está nos trechos. A pergunta passa a pedir o apelido famoso, sem a pista.",
+      "reescrita": {
+        "pergunta": "Esta pintura inacabada, atribuída a Leonardo da Vinci, não tem título formal, mas é conhecida por um apelido italiano. Qual é?",
+        "resposta": "La Scapigliata"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cordeiro de patas amarradas' é uma pista que permite identificar o quadro (Agnus Dei) e o pintor sem ver a figura. Retirei a descrição e mantive o país e o século.",
+      "reescrita": {
+        "pergunta": "Que pintor espanhol do século dezessete fez este quadro?",
+        "resposta": "Francisco de Zurbarán",
+        "distratores": [
+          "Bartolomé Murillo",
+          "Diego Velázquez",
+          "José de Ribera"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos. Os distratores Trafalgar e Grande Incêndio de Londres são posteriores e implausíveis para um retrato de uma rainha do século dezesseis. Incluí o século no enunciado e troquei por distratores críveis.",
+      "reescrita": {
+        "pergunta": "Que acontecimento do século dezesseis, mostrado nas janelas ao fundo, este retrato de uma rainha inglesa celebra?",
+        "resposta": "Derrota da Armada Espanhola",
+        "distratores": [
+          "Batalha de Lepanto",
+          "Batalha de Bosworth",
+          "Coroação de Elizabeth"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vermeer, c. 1664, um homem e duas mulheres tocando. A descrição não entrega o autor, e os distratores são pintores holandeses da mesma época que também pintaram interiores.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a pega pousada numa cerca, a paisagem de neve e o impressionista francês. É preciso ver a figura para saber qual ave aparece.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Século dezessete, movimento, corpos volumosos, cavalos empinados' leva a Barroco sem ver a figura, e os distratores são fáceis. Troquei por uma pergunta que exige reconhecer a cena do mito, que os trechos descrevem (Castor e Pólux raptando as filhas de Leucipo).",
+      "reescrita": {
+        "pergunta": "Que dupla de irmãos gêmeos da mitologia grega rapta as duas mulheres nesta cena?",
+        "resposta": "Castor e Pólux",
+        "distratores": [
+          "Rômulo e Remo",
+          "Apolo e Ártemis",
+          "Heitor e Páris"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Homem servindo vinho de jarra e talhas no primeiro plano' entrega o episódio pela descrição. Os detalhes da imagem não estão confirmados em 'mostra', que traz o episódio e não uma obra específica. Sem os detalhes, a pergunta fica ambígua com a Última Ceia.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a obra de Van Gogh, de 1890, e os prisioneiros caminhando em círculo entre muros altos. O enunciado não entrega o pintor.",
+      "reescrita": null
+    }
+  ]
+}
