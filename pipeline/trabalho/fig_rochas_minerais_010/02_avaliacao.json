@@ -1,0 +1,228 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vulcão nevado acima das nuvens, foto aérea nítida; a resposta (vulcão) vale para qualquer candidato.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de relevo é esta montanha de topo nevado, que emerge acima das nuvens?",
+      "resposta": "Vulcão adormecido",
+      "distratores": [
+        "Dobramento antigo",
+        "Domo de granito",
+        "Planalto erodido"
+      ],
+      "ancora": {
+        "nome": "Monte Kilimanjaro",
+        "descricao": "Estratovulcão adormecido na Tanzânia, a montanha mais alta da África.",
+        "variantes": [
+          "Quilimanjaro",
+          "Kilimanjaro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cristal metálico nítido; a escala em milímetros não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que metal precioso forma este cristal em forma de arbusto?",
+      "resposta": "Prata",
+      "distratores": [
+        "Ouro",
+        "Cobre",
+        "Bismuto"
+      ],
+      "ancora": {
+        "nome": "Prata nativa",
+        "descricao": "Prata em estado metálico puro, que ocorre na natureza como cristais ramificados.",
+        "variantes": [
+          "Prata",
+          "Silver"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Planície branca de crosta poligonal, clara e legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que mineral forma a crosta branca e rachada desta planície?",
+      "resposta": "Sal (halita)",
+      "ancora": {
+        "nome": "Salar de Uyuni",
+        "descricao": "Maior planície de sal do mundo, no sudoeste da Bolívia.",
+        "variantes": [
+          "Uyuni"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pilares rochosos com mosteiro, imagem clara e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que formação rochosa grega é esta, com um mosteiro no alto do penhasco?",
+      "resposta": "Meteora",
+      "distratores": [
+        "Monte Athos",
+        "Capadócia",
+        "Montserrat"
+      ],
+      "ancora": {
+        "nome": "Meteora",
+        "descricao": "Conjunto de pilares rochosos na Tessália, Grécia, com mosteiros ortodoxos no topo.",
+        "variantes": [
+          "Metéora"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Cristais rosados muito parecidos com rodocrosita; resposta não é única pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bloco de gelo isolado no mar, claro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que formação de gelo é esta, que flutua nos mares polares?",
+      "resposta": "Iceberg",
+      "ancora": {
+        "nome": "Iceberg",
+        "descricao": "Grande bloco de gelo de água doce desprendido de uma geleira e à deriva no mar.",
+        "variantes": [
+          "Iceberg",
+          "Monte de gelo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dolina com lago em vista de cima; pessoas pequenas e não são o foco.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta depressão se formou pela dissolução de que tipo de rocha?",
+      "resposta": "Calcário",
+      "distratores": [
+        "Granito",
+        "Basalto",
+        "Arenito"
+      ],
+      "ancora": {
+        "nome": "Dolina",
+        "descricao": "Depressão circular formada pelo colapso ou dissolução de rochas carbonáticas, como a de Bimmah, em Omã.",
+        "variantes": [
+          "Sumidouro",
+          "Sinkhole",
+          "Dolina de Bimmah"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Lago turquesa de cratera com gases sulfurosos, imagem legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que substância é extraída à mão em volta deste lago de cratera na Indonésia?",
+      "resposta": "Enxofre",
+      "ancora": {
+        "nome": "Vulcão Ijen",
+        "descricao": "Complexo vulcânico de Java Oriental, na Indonésia, conhecido pelo lago ácido e pela mineração de enxofre.",
+        "variantes": [
+          "Ijen",
+          "Kawah Ijen"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Paredão rochoso sobre o mar, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que forma de relevo costeiro é esta?",
+      "resposta": "Falésia",
+      "distratores": [
+        "Fiorde",
+        "Duna",
+        "Restinga"
+      ],
+      "ancora": {
+        "nome": "Falésia",
+        "descricao": "Paredão rochoso vertical ou quase vertical à beira-mar.",
+        "variantes": [
+          "Penhasco",
+          "Escarpa costeira"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ilhotas de calcário em baía, imagem legível e característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que baía vietnamita é esta, com ilhotas rochosas que emergem da água?",
+      "resposta": "Baía de Ha Long",
+      "ancora": {
+        "nome": "Baía de Ha Long",
+        "descricao": "Baía no nordeste do Vietnã com milhares de ilhotas de calcário, patrimônio da UNESCO.",
+        "variantes": [
+          "Halong Bay",
+          "Baía de Halong"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Camadas vermelhas e cinza nítidas, afloramento característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que rocha sedimentar de camadas vermelhas e cinzentas alternadas é esta, formada há mais de dois bilhões de anos?",
+      "resposta": "Formação ferrífera bandada",
+      "ancora": {
+        "nome": "Formação ferrífera bandada",
+        "descricao": "Rocha sedimentar pré-cambriana de camadas alternadas de óxidos de ferro e sílex.",
+        "variantes": [
+          "BIF",
+          "Banded iron formation"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem escura e de baixo contraste; a cratera mal se destaca e o local é ambíguo."
+    }
+  ]
+}

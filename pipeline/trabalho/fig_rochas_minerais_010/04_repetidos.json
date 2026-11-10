@@ -1,0 +1,159 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de relevo é esta montanha de topo nevado, que emerge acima das nuvens?",
+        "resposta": "Vulcão adormecido"
+      },
+      "existentes": [
+        {
+          "id": "q02105",
+          "pergunta": "O Kilimanjaro, ponto mais alto da África, não pertence a nenhuma cordilheira. Que tipo de montanha ele é?",
+          "resposta": "Um vulcão"
+        },
+        {
+          "id": "q06723",
+          "pergunta": "O Kilimanjaro, ponto mais alto da África, é formado por quantos cones vulcânicos?",
+          "resposta": "Três"
+        },
+        {
+          "id": "q09629",
+          "pergunta": "O cume mais alto do Kilimanjaro chama-se Uhuru, palavra suaíli escolhida para celebrar a independência da Tanganica. O que ela significa?",
+          "resposta": "Liberdade"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que formação rochosa grega é esta?",
+        "resposta": "Meteora"
+      },
+      "existentes": [
+        {
+          "id": "q09494",
+          "pergunta": "Em que país ficam os mosteiros ortodoxos de Meteora, construídos no alto de enormes pilares de rocha?",
+          "resposta": "Grécia"
+        },
+        {
+          "id": "q16681",
+          "pergunta": "Em que região da Grécia fica este conjunto rochoso?",
+          "resposta": "Tessália"
+        },
+        {
+          "id": "q17967",
+          "pergunta": "Que lugar da Grécia é este?",
+          "resposta": "Meteora"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que formação de gelo é esta?",
+        "resposta": "Iceberg"
+      },
+      "existentes": [
+        {
+          "id": "q09218",
+          "pergunta": "Que parte de um iceberg costuma ficar escondida debaixo d'água?",
+          "resposta": "Cerca de nove décimos"
+        },
+        {
+          "id": "q15395",
+          "pergunta": "Que tipo de massa de gelo é esta?",
+          "resposta": "Iceberg"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que forma de relevo é esta, num terreno rochoso de Omã?",
+        "resposta": "Dolina"
+      },
+      "existentes": [
+        {
+          "id": "q16429",
+          "pergunta": "Que tipo de formação geológica é esta?",
+          "resposta": "Dolina"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que vulcão de Java Oriental é este?",
+        "resposta": "Ijen"
+      },
+      "existentes": [
+        {
+          "id": "q09220",
+          "pergunta": "O vulcão Ijen, onde mineiros extraem enxofre e o gás em chamas forma um fogo azul à noite, fica em que país?",
+          "resposta": "Indonésia"
+        },
+        {
+          "id": "q09632",
+          "pergunta": "À noite, a cratera do vulcão Ijen, na Indonésia, brilha com chamas azuis. Que substância, ao queimar, produz esse fogo?",
+          "resposta": "Enxofre"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que baía asiática é esta?",
+        "resposta": "Baía de Ha Long"
+      },
+      "existentes": [
+        {
+          "id": "q02072",
+          "pergunta": "Em vietnamita, o nome da Baía de Ha Long indica o lugar onde desceu qual criatura lendária?",
+          "resposta": "Dragão"
+        },
+        {
+          "id": "q09622",
+          "pergunta": "As milhares de ilhotas e torres de pedra que saem do mar na Baía de Ha Long, no Vietnã, são feitas de qual rocha?",
+          "resposta": "Calcário"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Pergunta sobre o tipo de montanha (vulcão); mesmo fato de q02105, ainda que a imagem seja de montanha nevada.",
+      "id_existente": "q02105"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Identificar o lugar como Meteora, mesma resposta de q17967.",
+      "id_existente": "q17967"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Identificar a massa de gelo como iceberg, igual a q15395.",
+      "id_existente": "q15395"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Identificar a formação como dolina, igual a q16429.",
+      "id_existente": "q16429"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o vulcão como Ijen é um fato diferente de país ou substância do fogo azul."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar a baía é diferente de significado do nome ou rocha."
+    }
+  ]
+}

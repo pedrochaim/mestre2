@@ -400183,5 +400183,115 @@
       "autor": "Jebulon",
       "licenca": "CC0"
     }
+  },
+  {
+    "id": "q20160",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "prata_nativa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que metal precioso forma este cristal em forma de arbusto?",
+    "resposta": "Prata",
+    "distratores": [
+      "Ouro",
+      "Cobre",
+      "Bismuto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silver",
+      "https://pt.wikipedia.org/wiki/Prata"
+    ],
+    "imagem": {
+      "arquivo": "q20160.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Silver_crystal.jpg",
+      "autor": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q20161",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "ijen",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que vulcão de Java Oriental é este?",
+    "resposta": "Ijen",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ijen",
+      "https://pt.wikipedia.org/wiki/Ijen"
+    ],
+    "imagem": {
+      "arquivo": "q20161.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ijen_volcano.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20162",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "falesia",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que forma de relevo costeiro é esta?",
+    "resposta": "Falésia",
+    "distratores": [
+      "Fiorde",
+      "Duna",
+      "Restinga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cliff",
+      "https://pt.wikipedia.org/wiki/Fal%C3%A9sia"
+    ],
+    "imagem": {
+      "arquivo": "q20162.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Isla_de_Mona,_Puerto_Rico.jpg",
+      "autor": "R Torres",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q20163",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "baia_de_ha_long",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que baía asiática é esta?",
+    "resposta": "Baía de Ha Long",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/H%E1%BA%A1_Long_Bay",
+      "https://pt.wikipedia.org/wiki/Ba%C3%ADa_de_Ha_Long"
+    ],
+    "imagem": {
+      "arquivo": "q20163.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Halong_Bay_in_Vietnam.jpg",
+      "autor": "Thomas Hirsch / User:Ravn",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20164",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "formacao_ferrifera_bandada",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que rocha sedimentar pré-cambriana é esta?",
+    "resposta": "Formação ferrífera bandada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Banded_iron_formation",
+      "https://pt.wikipedia.org/wiki/Forma%C3%A7%C3%B5es_ferr%C3%ADferas_bandadas"
+    ],
+    "imagem": {
+      "arquivo": "q20164.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Banded_iron_formation_Dales_Gorge.jpg",
+      "autor": "Graeme Churchard from Bristol, UK",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

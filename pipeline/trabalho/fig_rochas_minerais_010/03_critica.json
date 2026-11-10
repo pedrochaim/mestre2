@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que é um estratovulcão dormente. O enunciado não nomeia a montanha, e topo nevado e nuvens não bastam para dar a resposta. Os distratores são do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a prata nativa em forma dendrítica, e a cor na imagem a separa do ouro. A pergunta pede reconhecer o metal a partir da figura, e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Por 'crosta branca e rachada de uma planície', o sal já sai sem ver a imagem, então a figura vira enfeite. Pedir o nome do salar não tem conserto, porque outros salares parecem iguais na foto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Formação rochosa grega com mosteiro no alto' entrega Meteora sem a imagem. Tirei a pista e troquei os distratores por locais gregos, já que Capadócia e Montserrat nem são da Grécia.",
+      "reescrita": {
+        "pergunta": "Que formação rochosa grega é esta?",
+        "resposta": "Meteora",
+        "distratores": [
+          "Monte Athos",
+          "Monte Olimpo",
+          "Garganta de Vikos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Flutua nos mares polares' define o iceberg e entrega a resposta. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que formação de gelo é esta?",
+        "resposta": "Iceberg"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dissolução de rocha' já leva a calcário sem a imagem, e a figura vira enfeite. Passei a pergunta para reconhecer o tipo de relevo.",
+      "reescrita": {
+        "pergunta": "Que forma de relevo é esta, num terreno rochoso de Omã?",
+        "resposta": "Dolina",
+        "distratores": [
+          "Caldeira vulcânica",
+          "Cratera de meteorito",
+          "Vale glacial"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Lago de cratera na Indonésia com extração manual entrega o enxofre sem a imagem. Passei a pergunta para reconhecer o vulcão, em múltipla escolha com outros vulcões javaneses.",
+      "reescrita": {
+        "pergunta": "Que vulcão de Java Oriental é este?",
+        "resposta": "Ijen",
+        "distratores": [
+          "Bromo",
+          "Semeru",
+          "Merapi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento sem vazamento. A falésia é um paredão à beira-mar, e os distratores são formas costeiras que não descrevem a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Baía vietnamita com ilhotas rochosas' entrega Ha Long só pelo texto. Deixei uma pista mais geral.",
+      "reescrita": {
+        "pergunta": "Que baía asiática é esta?",
+        "resposta": "Baía de Ha Long"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Camadas alternadas' quase repete o nome da rocha. A idade 'mais de dois bilhões de anos' não vale para todas as formações ferríferas, já que há também neoproterozoicas, de cerca de 750 milhões de anos. Deixei só o 'pré-cambriano', que os trechos confirmam.",
+      "reescrita": {
+        "pergunta": "Que rocha sedimentar pré-cambriana é esta?",
+        "resposta": "Formação ferrífera bandada"
+      }
+    }
+  ]
+}
