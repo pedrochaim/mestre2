@@ -1,0 +1,284 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto limpa da arma; o texto em alemão (Achtung! Feuerstrahl!) não entrega o nome.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que década esta arma foi desenvolvida?",
+      "resposta": "Década de 1940",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1930",
+        "Década de 1950"
+      ],
+      "ancora": {
+        "nome": "Panzerfaust",
+        "descricao": "Arma antitanque alemã descartável, de disparo único, usada na Segunda Guerra Mundial.",
+        "variantes": [
+          "Panzerfäuste"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto, reconhecível pelo rosto e pelas condecorações.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em 1939, este marechal soviético venceu forças japonesas em qual batalha?",
+      "resposta": "Batalha de Khalkhin Gol",
+      "distratores": [
+        "Batalha de Mukden",
+        "Batalha de Tsushima",
+        "Batalha de Port Arthur"
+      ],
+      "ancora": {
+        "nome": "Gueorgui Júkov",
+        "descricao": "Marechal da União Soviética, um dos principais comandantes do Exército Vermelho na Segunda Guerra Mundial.",
+        "variantes": [
+          "Georgy Zhukov",
+          "Georgi Zhukov",
+          "Zhukov"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Aviões Il-2 claramente visíveis; o texto em cirílico (Mstitel, 25) não entrega o nome do modelo.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que guerra estes aviões foram produzidos em massa?",
+      "resposta": "Segunda Guerra Mundial",
+      "distratores": [
+        "Primeira Guerra Mundial",
+        "Guerra da Coreia",
+        "Guerra do Vietnã"
+      ],
+      "ancora": {
+        "nome": "Ilyushin Il-2 Shturmovik",
+        "descricao": "Avião soviético de ataque ao solo da Segunda Guerra Mundial, o mais produzido da história da aviação militar.",
+        "variantes": [
+          "Il-2",
+          "Ilyushin Il-2",
+          "Sturmovik",
+          "Stormovik"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Duas vistas nítidas do fuzil, sem texto, forma característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que fuzil substituiu este como arma padrão do exército americano em 1958?",
+      "resposta": "M14",
+      "distratores": [
+        "M16",
+        "M1903 Springfield",
+        "M60"
+      ],
+      "ancora": {
+        "nome": "Fuzil M1 Garand",
+        "descricao": "Fuzil semiautomático padrão do exército e dos fuzileiros navais dos EUA na Segunda Guerra Mundial e na Guerra da Coreia.",
+        "variantes": [
+          "M1 Garand",
+          "Garand",
+          "M1 rifle"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Edifício gótico inteiro, bem visível; o letreiro minúsculo não entrega Ypres.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que guerra este edifício belga foi arrasado pela artilharia?",
+      "resposta": "Primeira Guerra Mundial",
+      "distratores": [
+        "Segunda Guerra Mundial",
+        "Guerra dos Trinta Anos",
+        "Guerra Franco-Prussiana"
+      ],
+      "ancora": {
+        "nome": "Mercado de Tecidos de Ypres",
+        "descricao": "Grande edifício gótico medieval de Ypres, na Bélgica, destruído na Primeira Guerra Mundial e reconstruído depois.",
+        "variantes": [
+          "Cloth Hall",
+          "Lakenhalle",
+          "Halles aux Draps de Ypres"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A placa do museu ao lado do carro traz 'Armoured Car Rolls-Royce 1920 Mk1', entregando a resposta; além disso há manequins e outros veículos ao fundo."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Duas vistas nítidas do fuzil, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que década este fuzil foi adotado como arma padrão do exército alemão?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1900",
+        "Década de 1910",
+        "Década de 1920"
+      ],
+      "ancora": {
+        "nome": "Fuzil Mauser Kar98k",
+        "descricao": "Fuzil de ferrolho alemão Karabiner 98 kurz, arma padrão da infantaria alemã na Segunda Guerra Mundial.",
+        "variantes": [
+          "Karabiner 98k",
+          "Kar98k",
+          "K98k",
+          "Mauser 98k"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica limpa do navio, sem texto, perfil característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que navio de guerra alemão afundou este cruzador de batalha britânico em 1941?",
+      "resposta": "Bismarck",
+      "distratores": [
+        "Tirpitz",
+        "Graf Spee",
+        "Scharnhorst"
+      ],
+      "ancora": {
+        "nome": "Cruzador de batalha HMS Hood",
+        "descricao": "Cruzador de batalha da Marinha Real Britânica, o maior navio de guerra do mundo por cerca de vinte anos, afundado em 1941.",
+        "variantes": [
+          "HMS Hood",
+          "Hood"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica do tanque francês, sem legendas; os soldados são figurantes históricos pequenos.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que ano este tanque francês entrou em combate pela primeira vez?",
+      "resposta": "1917",
+      "distratores": [
+        "1915",
+        "1916",
+        "1918"
+      ],
+      "ancora": {
+        "nome": "Tanque Schneider CA1",
+        "descricao": "Primeiro tanque francês, desenvolvido na Primeira Guerra Mundial e fabricado pela SOMUA.",
+        "variantes": [
+          "Schneider CA 1",
+          "Schneider Char d'Assaut",
+          "Schneider CA"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Duas vistas nítidas do fuzil, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cartucho este fuzil usava?",
+      "resposta": ".303 British",
+      "distratores": [
+        "7,92 por 57 Mauser",
+        ".30-06 Springfield",
+        "7,62 por 54 R"
+      ],
+      "ancora": {
+        "nome": "Fuzil Lee-Enfield",
+        "descricao": "Fuzil britânico de ferrolho, arma principal das forças do Império Britânico e da Commonwealth nas duas guerras mundiais.",
+        "variantes": [
+          "Lee–Enfield",
+          "SMLE",
+          "Short Magazine Lee-Enfield"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida e reconhecível do caça; as marcações (cruz, suástica, número 14) não entregam o modelo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que outro caça foi, ao lado deste, a espinha dorsal da Luftwaffe?",
+      "resposta": "Messerschmitt Bf 109",
+      "distratores": [
+        "Messerschmitt Me 262",
+        "Heinkel He 112",
+        "Focke-Wulf Ta 152"
+      ],
+      "ancora": {
+        "nome": "Focke-Wulf Fw 190",
+        "descricao": "Caça alemão monomotor de um lugar da Segunda Guerra Mundial, projetado por Kurt Tank.",
+        "variantes": [
+          "Fw 190",
+          "Würger",
+          "Focke-Wulf 190"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida do avião, silhueta característica; o texto 'D-Day Doll' não nomeia o modelo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que avião de passageiros deu origem a esta aeronave de transporte militar?",
+      "resposta": "Douglas DC-3",
+      "distratores": [
+        "Boeing 247",
+        "Lockheed Vega",
+        "Ford Trimotor"
+      ],
+      "ancora": {
+        "nome": "Douglas C-47 Skytrain",
+        "descricao": "Avião militar de transporte derivado do DC-3, muito usado pelos Aliados na Segunda Guerra Mundial.",
+        "variantes": [
+          "C-47",
+          "Skytrain",
+          "Dakota",
+          "Douglas C-47"
+        ]
+      }
+    }
+  ]
+}
