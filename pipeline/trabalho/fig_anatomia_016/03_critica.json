@@ -1,0 +1,21 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado entrega a resposta sem a figura: estrutura de resistência dentro de bactérias leva direto a endósporo. Além disso, 'brilhante' não é sustentado pelos trechos e 'cada uma destas' é uma afirmação sobre a foto que não dá para checar. Qualquer reescrita sem a pista deixa a resposta ambígua, porque pode ser outra inclusão ou estrutura celular. Na dúvida, descartar.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos, mas 'projeções em forma de dedo' é a definição literal de vilosidade. Com a imagem coberta já dá para responder, então a figura vira enfeite. Reescrita sem a definição, mantendo só a pista do órgão digestório e do microscópio.",
+      "reescrita": {
+        "pergunta": "Como se chamam estas estruturas microscópicas vistas na parede de um órgão do sistema digestório?",
+        "resposta": "Vilosidades intestinais"
+      }
+    }
+  ]
+}

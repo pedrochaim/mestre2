@@ -1,0 +1,71 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Vilosidade intestinal",
+        "descricao": "Projeção em forma de dedo da mucosa do intestino delgado que aumenta a superfície de absorção de nutrientes.",
+        "variantes": [
+          "Vilosidades",
+          "Vilo intestinal",
+          "Intestinal villus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "habilidade_pokemon",
+          "nome": "Habilidade (Pokémon)",
+          "descricao": "Efeito passivo próprio de cada pokémon nas batalhas, como Intimidate ou Levitate, introduzido nos jogos da terceira geração.",
+          "variantes": [
+            "Ability",
+            "Habilidades"
+          ]
+        },
+        {
+          "id": "a_internacional",
+          "nome": "A Internacional",
+          "descricao": "Hino do movimento socialista e operário, com letra francesa de Eugène Pottier, de 1871.",
+          "variantes": [
+            "L'Internationale",
+            "The Internationale"
+          ]
+        },
+        {
+          "id": "aranha_lobo",
+          "nome": "Aranha-lobo",
+          "descricao": "Aranha caçadora da família Lycosidae, que em geral não faz teia e carrega o saco de ovos preso às fiandeiras.",
+          "variantes": [
+            "Licosídeos",
+            "Lycosidae"
+          ]
+        },
+        {
+          "id": "mosca_de_olhos_pedunculados",
+          "nome": "Mosca-de-olhos-pedunculados",
+          "descricao": "Mosca da família Diopsidae, com os olhos nas pontas de projeções laterais da cabeça.",
+          "variantes": [
+            "Diopsidae",
+            "Stalk-eyed fly"
+          ]
+        },
+        {
+          "id": "giardia",
+          "nome": "Giárdia",
+          "descricao": "Protozoário flagelado parasita do intestino delgado, causador da giardíase.",
+          "variantes": [
+            "Giardia lamblia",
+            "Giardia duodenalis",
+            "Giardia intestinalis"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata descreve a vilosidade intestinal; Giárdia é um parasita, as demais são assuntos não relacionados."
+    }
+  ]
+}
