@@ -1,0 +1,481 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Capitão Nascimento",
+        "descricao": "Personagem do BOPE, interpretado por Wagner Moura em Tropa de Elite.",
+        "variantes": [
+          "Roberto Nascimento"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "milton_nascimento",
+          "nome": "Milton Nascimento",
+          "descricao": "Cantor e compositor nascido no Rio de Janeiro e criado em Minas Gerais, líder do Clube da Esquina.",
+          "variantes": [
+            "Bituca"
+          ]
+        },
+        {
+          "id": "capitao_nemo",
+          "nome": "Capitão Nemo",
+          "descricao": "Comandante do submarino Nautilus nos romances de Júlio Verne, como Vinte Mil Léguas Submarinas.",
+          "variantes": [
+            "Captain Nemo",
+            "Capitaine Nemo"
+          ]
+        },
+        {
+          "id": "robert_bunsen",
+          "nome": "Robert Bunsen",
+          "descricao": "Químico alemão do século XIX, codescobridor do césio e do rubídio e desenvolvedor do bico de Bunsen.",
+          "variantes": [
+            "Robert Wilhelm Bunsen"
+          ]
+        },
+        {
+          "id": "roberto_baggio",
+          "nome": "Roberto Baggio",
+          "descricao": "Roberto Baggio, ex-meia e atacante italiano, Bola de Ouro e melhor do mundo da FIFA em 1993.",
+          "variantes": [
+            "Il Divin Codino"
+          ]
+        },
+        {
+          "id": "capitao_gancho",
+          "nome": "Capitão Gancho",
+          "descricao": "Pirata vilão do filme de animação Peter Pan, da Disney, de 1953, inimigo de Peter Pan.",
+          "variantes": [
+            "Capitão Hook",
+            "Captain Hook"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Shinji Ikari",
+        "descricao": "Protagonista de Neon Genesis Evangelion, piloto da Unidade 01.",
+        "variantes": [
+          "Ikari Shinji"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fushimi_inari_taisha",
+          "nome": "Fushimi Inari-taisha",
+          "descricao": "Santuário xintoísta principal da divindade Inari, em Fushimi, Kyoto, famoso pelos milhares de torii.",
+          "variantes": [
+            "Santuário Fushimi Inari",
+            "Fushimi Inari"
+          ]
+        },
+        {
+          "id": "yoshinori_sakai",
+          "nome": "Yoshinori Sakai",
+          "descricao": "Atleta japonês que acendeu a pira olímpica dos Jogos de Tóquio 1964.",
+          "variantes": []
+        },
+        {
+          "id": "chiaki_ishii",
+          "nome": "Chiaki Ishii",
+          "descricao": "Judoca nascido no Japão e naturalizado brasileiro, primeiro medalhista olímpico do judô do Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "paul",
+          "nome": "Paul",
+          "descricao": "Treinador frio e exigente, rival de Ash Ketchum na série Diamante e Pérola do anime Pokémon, chamado Shinji no Japão.",
+          "variantes": [
+            "Shinji"
+          ]
+        },
+        {
+          "id": "dawn",
+          "nome": "Dawn",
+          "descricao": "Coordenadora pokémon, companheira de viagem de Ash na série Diamante e Pérola do anime, chamada Hikari no Japão.",
+          "variantes": [
+            "Hikari"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mike Wazowski",
+        "descricao": "Monstro verde de um olho só, de Monstros S.A. e Universidade Monstros.",
+        "variantes": [
+          "Mike"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dwight_d_eisenhower",
+          "nome": "Dwight D. Eisenhower",
+          "descricao": "General americano que comandou as forças aliadas na Europa na Segunda Guerra e foi o 34º presidente dos Estados Unidos.",
+          "variantes": [
+            "Eisenhower",
+            "Ike"
+          ]
+        },
+        {
+          "id": "mickey_mouse",
+          "nome": "Mickey Mouse",
+          "descricao": "Camundongo criado por Walt Disney e Ub Iwerks em 1928, mascote da Disney.",
+          "variantes": [
+            "Mickey",
+            "Rato Mickey"
+          ]
+        },
+        {
+          "id": "bicicleta",
+          "nome": "Bicicleta",
+          "descricao": "Veículo de duas rodas, movido por pedais, inventado na Europa no século dezenove.",
+          "variantes": [
+            "Bike"
+          ]
+        },
+        {
+          "id": "bicicleta_pokemon",
+          "nome": "Bicicleta (Pokémon)",
+          "descricao": "Meio de transporte do jogador nos jogos Pokémon, que permite andar mais rápido que a pé.",
+          "variantes": [
+            "Bicycle",
+            "Bike"
+          ]
+        },
+        {
+          "id": "ikea",
+          "nome": "Ikea",
+          "descricao": "Rede sueca de lojas de móveis fundada em 1943 por Ingvar Kamprad.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Coiote",
+        "descricao": "Coiote dos Looney Tunes, eterno perseguidor do Papa-Léguas.",
+        "variantes": [
+          "Wile E. Coyote",
+          "Coiote Wile E."
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coiote",
+          "nome": "Coiote",
+          "descricao": "Canídeo da América do Norte (Canis latrans), menor que o lobo-cinzento.",
+          "variantes": [
+            "Canis latrans"
+          ]
+        },
+        {
+          "id": "chicote",
+          "nome": "Chicote",
+          "descricao": "Instrumento flexível de couro ou corda cujo estalo é um pequeno estrondo sônico.",
+          "variantes": [
+            "Whip"
+          ]
+        },
+        {
+          "id": "boicote",
+          "nome": "Boicote",
+          "descricao": "Recusa organizada de comprar, usar ou negociar com alguém, como forma de protesto",
+          "variantes": [
+            "Boycott"
+          ]
+        },
+        {
+          "id": "crocoita",
+          "nome": "Crocoíta",
+          "descricao": "Mineral de cromato de chumbo, PbCrO4, de cristais prismáticos vermelho-alaranjados.",
+          "variantes": [
+            "Crocoite"
+          ]
+        },
+        {
+          "id": "cotonete",
+          "nome": "Cotonete",
+          "descricao": "Haste fina com algodão nas pontas, usada na higiene das orelhas, em primeiros socorros e em maquiagem.",
+          "variantes": [
+            "Haste flexível",
+            "Cotton swab"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hera Venenosa",
+        "descricao": "Vilã da DC Comics, Pamela Isley, que controla plantas.",
+        "variantes": [
+          "Poison Ivy",
+          "Pamela Isley"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paisley",
+          "nome": "Paisley",
+          "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+          "variantes": [
+            "Estampa paisley",
+            "Estampa caxemira",
+            "Buta"
+          ]
+        },
+        {
+          "id": "bratislava",
+          "nome": "Bratislava",
+          "descricao": "Capital e maior cidade da Eslováquia, às margens do Danúbio.",
+          "variantes": [
+            "Pressburg",
+            "Pozsony"
+          ]
+        },
+        {
+          "id": "poison_jab",
+          "nome": "Poison Jab",
+          "descricao": "Golpe de pokémon do tipo Venenoso, da 4ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "professora_ivy",
+          "nome": "Professora Ivy",
+          "descricao": "Pesquisadora pokémon da ilha Valencia, nas Ilhas Laranja, no anime Pokémon, que estuda as variações regionais dos pokémon.",
+          "variantes": [
+            "Professor Ivy"
+          ]
+        },
+        {
+          "id": "ras_dardo_venenosas",
+          "nome": "Rãs-dardo-venenosas",
+          "descricao": "Pequenas rãs de cores vivas da família Dendrobatidae, das florestas tropicais da América Central e do Sul, com pele tóxica.",
+          "variantes": [
+            "Rãs-flecha",
+            "Dendrobatídeos",
+            "Poison dart frogs"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tempestade",
+        "descricao": "Ororo Munroe, heroína da Marvel com poder de controlar o clima.",
+        "variantes": [
+          "Storm",
+          "Ororo Munroe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_tempestade_giorgione",
+          "nome": "A Tempestade (Giorgione)",
+          "descricao": "Pintura renascentista de Giorgione, de cerca de 1506-1508, com um soldado, uma mulher amamentando e um raio sobre uma paisagem, na Galleria dell'Accademia de Veneza.",
+          "variantes": [
+            "La Tempesta",
+            "The Tempest",
+            "A Tempestade"
+          ]
+        },
+        {
+          "id": "a_tempestade",
+          "nome": "A Tempestade",
+          "descricao": "Peça de William Shakespeare sobre o mago Próspero, exilado numa ilha com a filha Miranda.",
+          "variantes": [
+            "The Tempest"
+          ]
+        },
+        {
+          "id": "virga",
+          "nome": "Virga",
+          "descricao": "Faixa de precipitação que evapora ou sublima antes de chegar ao solo.",
+          "variantes": [
+            "Virgas",
+            "Tempestade seca"
+          ]
+        },
+        {
+          "id": "raio_vulcanico",
+          "nome": "Raio vulcânico",
+          "descricao": "Descarga elétrica causada por colisão de partículas de cinzas numa erupção vulcânica.",
+          "variantes": [
+            "Volcanic lightning",
+            "Tempestade suja"
+          ]
+        },
+        {
+          "id": "castform",
+          "nome": "Castform",
+          "descricao": "Pokémon do clima, tipo Normal na forma normal, da terceira geração, número 351 da Pokédex Nacional.",
+          "variantes": [
+            "Castform normal",
+            "Powalen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nimbus",
+        "descricao": "Personagem da Turma da Mônica, irmão do Do Contra, amigo do Cascão e fã de mágica.",
+        "variantes": [
+          "Nimbus Hiromashi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onibus",
+          "nome": "Ônibus",
+          "descricao": "Veículo rodoviário de grande porte para o transporte coletivo de passageiros.",
+          "variantes": [
+            "Autocarro",
+            "Omnibus"
+          ]
+        },
+        {
+          "id": "onibus_palavra",
+          "nome": "Ônibus (palavra)",
+          "descricao": "Palavra para o veículo de transporte coletivo, vinda do latim omnibus",
+          "variantes": [
+            "Omnibus"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        },
+        {
+          "id": "marina_bay_sands",
+          "nome": "Marina Bay Sands",
+          "descricao": "Complexo de resort com três torres unidas por um deque no topo, na baía da Marina, em Singapura.",
+          "variantes": [
+            "MBS"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Zé Bonitinho",
+        "descricao": "Personagem galanteador criado e interpretado por Jorge Loredo, do humor brasileiro.",
+        "variantes": [
+          "O Bonitinho, mas Ordinário"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ze_gotinha",
+          "nome": "Zé Gotinha",
+          "descricao": "Personagem em forma de gota criado em 1986 como mascote das campanhas de vacinação do Ministério da Saúde do Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "teleferico",
+          "nome": "Teleférico",
+          "descricao": "Meio de transporte com cabines suspensas por cabos de aço, usado para vencer desníveis.",
+          "variantes": [
+            "Bondinho",
+            "Gôndola aérea",
+            "Cable car"
+          ]
+        },
+        {
+          "id": "bonito",
+          "nome": "Bonito",
+          "descricao": "Município de Mato Grosso do Sul, na Serra da Bodoquena, famoso pelos rios de águas cristalinas.",
+          "variantes": [
+            "Bonito (Mato Grosso do Sul)"
+          ]
+        },
+        {
+          "id": "leon_trotski",
+          "nome": "Leon Trótski",
+          "descricao": "Revolucionário russo, líder do Exército Vermelho, exilado por Stálin e assassinado em 1940.",
+          "variantes": [
+            "Leon Trotsky",
+            "Lev Davidovich Bronstein",
+            "Lev Bronstein"
+          ]
+        },
+        {
+          "id": "el_nino",
+          "nome": "El Niño",
+          "descricao": "Fenômeno de aquecimento anormal das águas do Oceano Pacífico equatorial",
+          "variantes": [
+            "El Niño–Oscilação Sul"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Personagem de Tropa de Elite; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Shinji Ikari de Evangelion é diferente de Paul (Shinji no Pokémon)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mike Wazowski não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Coiote personagem de desenho difere do animal Canis latrans."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Hera Venenosa (DC) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tempestade (Marvel) é diferente de obras, fenômenos ou Pokémon."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nimbus da Turma da Mônica não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Zé Bonitinho não corresponde a nenhuma candidata."
+    }
+  ]
+}

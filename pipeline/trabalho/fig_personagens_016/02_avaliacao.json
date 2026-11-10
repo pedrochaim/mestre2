@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto do personagem de farda do BOPE, sem texto que entregue a resposta.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este policial de boina preta é personagem de que filme brasileiro?",
+      "resposta": "Tropa de Elite",
+      "distratores": [
+        "Cidade de Deus",
+        "Carandiru",
+        "Ônibus 174"
+      ],
+      "ancora": {
+        "nome": "Capitão Nascimento",
+        "descricao": "Personagem do BOPE, interpretado por Wagner Moura em Tropa de Elite.",
+        "variantes": [
+          "Roberto Nascimento"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, silhueta com cabelo e bolsa reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Shinji Ikari",
+      "distratores": [
+        "Kaworu Nagisa",
+        "Toji Suzuhara",
+        "Kensuke Aida"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Shinji Ikari",
+        "descricao": "Protagonista de Neon Genesis Evangelion, piloto da Unidade 01.",
+        "variantes": [
+          "Ikari Shinji"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta redonda, com microfone, ambígua; usar a imagem colorida.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em Monstros S.A., qual é o melhor amigo e parceiro de trabalho deste personagem?",
+      "resposta": "Sulley",
+      "distratores": [
+        "Randall Boggs",
+        "Roz",
+        "Fungus"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Mike Wazowski",
+        "descricao": "Monstro verde de um olho só, de Monstros S.A. e Universidade Monstros.",
+        "variantes": [
+          "Mike"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem é a vinheta do programa, com o nome escrito; não mostra o personagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta nítida e característica (orelhas, cauda), personagem sozinho.",
+      "destino": 2,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou este personagem, junto com Michael Maltese?",
+      "resposta": "Chuck Jones",
+      "distratores": [
+        "Tex Avery",
+        "Friz Freleng",
+        "Bob Clampett"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Coiote",
+        "descricao": "Coiote dos Looney Tunes, eterno perseguidor do Papa-Léguas.",
+        "variantes": [
+          "Wile E. Coyote",
+          "Coiote Wile E."
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arte clara da personagem, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta vilã é inimiga recorrente de qual herói?",
+      "resposta": "Batman",
+      "distratores": [
+        "Superman",
+        "Flash",
+        "Mulher-Maravilha"
+      ],
+      "ancora": {
+        "nome": "Hera Venenosa",
+        "descricao": "Vilã da DC Comics, Pamela Isley, que controla plantas.",
+        "variantes": [
+          "Poison Ivy",
+          "Pamela Isley"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem é a vinheta com o título Tieta escrito; não mostra a personagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto de uma menina em rede, sem como reconhecer a personagem; resposta não identificável pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte com cabelo branco e raios, reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta personagem?",
+      "resposta": "Tempestade",
+      "distratores": [
+        "Vampira",
+        "Jean Grey",
+        "Psylocke"
+      ],
+      "ancora": {
+        "nome": "Tempestade",
+        "descricao": "Ororo Munroe, heroína da Marvel com poder de controlar o clima.",
+        "variantes": [
+          "Storm",
+          "Ororo Munroe"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte clara do personagem da Turma da Mônica, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que personagem da Turma da Mônica é este?",
+      "resposta": "Nimbus",
+      "distratores": [
+        "Do Contra",
+        "Nimbão",
+        "Quinzinho"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Nimbus",
+        "descricao": "Personagem da Turma da Mônica, irmão do Do Contra, amigo do Cascão e fã de mágica.",
+        "variantes": [
+          "Nimbus Hiromashi"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pôster com título e créditos escritos, que entregam a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato do humorista caracterizado, gravata borboleta e topete inconfundíveis; sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem humorístico?",
+      "resposta": "Zé Bonitinho",
+      "distratores": [
+        "Bento Carneiro",
+        "Coronel Limoeiro",
+        "Seu Peru"
+      ],
+      "ancora": {
+        "nome": "Zé Bonitinho",
+        "descricao": "Personagem galanteador criado e interpretado por Jorge Loredo, do humor brasileiro.",
+        "variantes": [
+          "O Bonitinho, mas Ordinário"
+        ]
+      }
+    }
+  ]
+}

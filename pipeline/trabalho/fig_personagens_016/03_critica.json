@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O personagem protagoniza dois filmes (Tropa de Elite e Tropa de Elite 2), então a pergunta admite mais de uma resposta. Incluir o ano de 2007 deixa a resposta única, e nenhum distrator é de 2007.",
+      "reescrita": {
+        "pergunta": "Este policial de boina preta é protagonista de qual filme brasileiro de dois mil e sete?",
+        "resposta": "Tropa de Elite",
+        "distratores": [
+          "Cidade de Deus",
+          "Carandiru",
+          "Ônibus 174"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem vazamento. Os distratores são personagens da mesma franquia e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sem olhar a figura dá para responder Sulley, porque é o parceiro óbvio em Monstros S.A. e nenhum distrator é o próprio Mike, que seria a outra opção. A figura vira enfeite. Troquei por um fato que exige reconhecer o personagem.",
+      "reescrita": {
+        "pergunta": "Em Monstros S.A., que ator americano deu a voz original a este personagem?",
+        "resposta": "Billy Crystal",
+        "distratores": [
+          "John Goodman",
+          "Steve Buscemi",
+          "Eddie Murphy"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Chuck Jones e Michael Maltese criaram o Coiote. O enunciado não nomeia o personagem e os distratores são animadores plausíveis da Warner.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Hera Venenosa é uma das inimigas mais duradouras do Batman. O enunciado não revela quem é a vilã, e os distratores não são inimigos recorrentes dela.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta e sem vazamento. Os distratores são outras X-Men, e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento, com distratores da mesma turma e nenhum correto. Os trechos confirmam o personagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. O trecho confirma o personagem, e os distratores são outros personagens do humor brasileiro.",
+      "reescrita": null
+    }
+  ]
+}
