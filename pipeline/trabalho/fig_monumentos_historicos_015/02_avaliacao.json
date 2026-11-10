@@ -1,0 +1,271 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Templo com torres de faces reconhecível; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "pergunta": "Que rei mandou construir este templo budista khmer como seu templo estatal?",
+      "tipo": "multipla",
+      "resposta": "Jayavarman VII",
+      "distratores": [
+        "Suryavarman II",
+        "Jayavarman II",
+        "Indravarman I"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Bayon",
+        "descricao": "Templo budista khmer decorado com torres de faces, em Angkor Thom, Camboja.",
+        "variantes": [
+          "Templo Bayon",
+          "Prasat Bayon"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do recinto murado; sem texto; aficionado, em múltipla.",
+      "familia": "quando",
+      "nivel": 1,
+      "pergunta": "Em que século antes de Cristo foi construído este templo funerário egípcio?",
+      "tipo": "multipla",
+      "resposta": "Século doze a.C.",
+      "distratores": [
+        "Século quinze a.C.",
+        "Século treze a.C.",
+        "Século nove a.C."
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Medinet Habu",
+        "descricao": "Templo funerário de Ramsés III na margem oeste do Nilo, em frente a Luxor, Egito.",
+        "variantes": [
+          "Templo de Ramsés III",
+          "Medinet Habu"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Castelo sobre a rocha reconhecível; o letreiro visível não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "pergunta": "Desde que século existe um castelo real sobre esta rocha?",
+      "tipo": "multipla",
+      "resposta": "Século onze",
+      "distratores": [
+        "Século nove",
+        "Século treze",
+        "Século quinze"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Castelo de Edimburgo",
+        "descricao": "Castelo histórico sobre a Castle Rock, em Edimburgo, Escócia.",
+        "variantes": [
+          "Edinburgh Castle"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estátuas budistas esculpidas na rocha, reconhecíveis para quem conhece o sítio; múltipla com distrator parecido.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Perto de que cidade chinesa ficam estas grutas budistas?",
+      "tipo": "multipla",
+      "resposta": "Luoyang",
+      "distratores": [
+        "Datong",
+        "Xi'an",
+        "Dunhuang"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Grutas de Longmen",
+        "descricao": "Conjunto de grutas budistas com milhares de estátuas esculpidas na rocha, perto de Luoyang, China.",
+        "variantes": [
+          "Longmen Grottoes",
+          "Grutas do Portão do Dragão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fachada gótica com grande rosácea, reconhecível; sem texto que entregue.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "pergunta": "Que rei francês do século treze mandou construir esta capela?",
+      "tipo": "multipla",
+      "resposta": "Luís IX",
+      "distratores": [
+        "Filipe Augusto",
+        "Carlos Magno",
+        "Luís XIV"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Sainte-Chapelle",
+        "descricao": "Capela real gótica na Île de la Cité, em Paris, construída para guardar relíquias da Paixão.",
+        "variantes": [
+          "Santa Capela",
+          "Sainte Chapelle"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Templos de torre curvilínea reconhecíveis; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "pergunta": "Que dinastia indiana construiu a maior parte destes templos?",
+      "tipo": "multipla",
+      "resposta": "Chandela",
+      "distratores": [
+        "Gupta",
+        "Maurya",
+        "Mogol"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Templos de Khajuraho",
+        "descricao": "Conjunto de templos hindus e jainistas em Madhya Pradesh, Índia, famoso por suas esculturas.",
+        "variantes": [
+          "Khajuraho",
+          "Conjunto monumental de Khajuraho"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Muralhas e ameias sobre rochedos, bem característico; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que castelo medieval português é este?",
+      "tipo": "multipla",
+      "resposta": "Castelo dos Mouros",
+      "distratores": [
+        "Castelo de São Jorge",
+        "Castelo de Óbidos",
+        "Castelo de Silves"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Castelo dos Mouros",
+        "descricao": "Castelo medieval no alto da serra de Sintra, Portugal, construído pelos mouros.",
+        "variantes": [
+          "Castle of the Moors"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ruínas de pedra andinas; aficionado, mas em múltipla é justa.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "pergunta": "Que cultura pré-inca construiu este centro cerimonial nos Andes peruanos?",
+      "tipo": "multipla",
+      "resposta": "Chavín",
+      "distratores": [
+        "Nazca",
+        "Moche",
+        "Tiwanaku"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Chavín de Huántar",
+        "descricao": "Sítio arqueológico e centro cerimonial da cultura Chavín, nos Andes do Peru.",
+        "variantes": [
+          "Chavin de Huantar"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mostra um monte cônico com estátuas minúsculas ao longe; pouco reconhecível e confundível com outros túmulos ou colinas."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Menires altos e finos em paisagem aberta; múltipla com distratores de outras regiões escocesas.",
+      "familia": "onde",
+      "nivel": 3,
+      "pergunta": "Em que ilhas escocesas fica este círculo de pedras neolítico?",
+      "tipo": "multipla",
+      "resposta": "Órcades",
+      "distratores": [
+        "Shetland",
+        "Hébridas Exteriores",
+        "Ilha de Skye"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Anel de Brodgar",
+        "descricao": "Círculo de pedras neolítico com henge na ilha principal das Órcades, Escócia.",
+        "variantes": [
+          "Ring of Brodgar",
+          "Círculo de Brodgar"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Estupa dourada com andaime de bambu, bem característica; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Em que país fica este pagode dourado?",
+      "tipo": "multipla",
+      "resposta": "Mianmar",
+      "distratores": [
+        "Tailândia",
+        "Camboja",
+        "Laos"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Pagode Shwedagon",
+        "descricao": "Estupa dourada de 112 metros, o pagode budista mais sagrado de Mianmar, em Yangon.",
+        "variantes": [
+          "Shwedagon",
+          "Pagode Dourado",
+          "Grande Pagode Dagon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Colunata dórica em promontório, característica; sem texto que entregue.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que templo grego em ruínas é este?",
+      "tipo": "multipla",
+      "resposta": "Templo de Poseidon em Sunião",
+      "distratores": [
+        "Templo de Hefesto",
+        "Templo de Zeus Olímpico",
+        "Templo de Hera"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Templo de Poseidon em Sunião",
+        "descricao": "Templo dórico grego dedicado a Poseidon, no cabo Sunião, na Ática, Grécia.",
+        "variantes": [
+          "Templo de Poseidon",
+          "Temple of Poseidon, Sounion"
+        ]
+      }
+    }
+  ]
+}

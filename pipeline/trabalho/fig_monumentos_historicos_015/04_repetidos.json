@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Desde que século existe um castelo real sobre esta rocha?",
+        "resposta": "Século onze"
+      },
+      "existentes": [
+        {
+          "id": "q19415",
+          "pergunta": "Em que formação rochosa se ergue esta fortaleza?",
+          "resposta": "Castle Rock"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica este pagode dourado?",
+        "resposta": "Mianmar"
+      },
+      "existentes": [
+        {
+          "id": "q07970",
+          "pergunta": "Em que país fica este pagode dourado?",
+          "resposta": "Mianmar"
+        },
+        {
+          "id": "q11582",
+          "pergunta": "Em que cidade fica este templo budista dourado?",
+          "resposta": "Yangon"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que templo grego em ruínas é este?",
+        "resposta": "Templo de Poseidon em Sunião"
+      },
+      "existentes": [
+        {
+          "id": "q16099",
+          "pergunta": "A que deus grego era dedicado este templo?",
+          "resposta": "Poseidon"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta desde que século existe castelo real; a existente pergunta o nome da formação rochosa. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q07970",
+      "motivo": "Pergunta idêntica sobre o país do pagode, mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o templo (Poseidon em Sunião) é um fato diferente de a que deus era dedicado, embora a resposta da nova contenha Poseidon; na dúvida, nova."
+    }
+  ]
+}

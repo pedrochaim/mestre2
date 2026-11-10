@@ -1,0 +1,706 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bayon",
+        "descricao": "Templo budista khmer decorado com torres de faces, em Angkor Thom, Camboja.",
+        "variantes": [
+          "Templo Bayon",
+          "Prasat Bayon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "byodo_in",
+          "nome": "Byodo-in",
+          "descricao": "Templo budista do século onze em Uji, perto de Quioto, famoso pelo Pavilhão da Fênix.",
+          "variantes": [
+            "Templo Byodoin"
+          ]
+        },
+        {
+          "id": "babilonia",
+          "nome": "Babilônia",
+          "descricao": "Antiga cidade da Mesopotâmia, às margens do rio Eufrates, capital de Hamurábi e de Nabucodonosor segundo.",
+          "variantes": [
+            "Babylon"
+          ]
+        },
+        {
+          "id": "templo_mayor",
+          "nome": "Templo Mayor",
+          "descricao": "Principal templo dos mexicas em Tenochtitlan, cujas ruínas ficam no centro da Cidade do México.",
+          "variantes": [
+            "Huey Teocalli",
+            "Grande Templo de Tenochtitlan"
+          ]
+        },
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "lord_byron",
+          "nome": "Lord Byron",
+          "descricao": "Poeta romântico inglês (1788–1824), autor de Don Juan e A Peregrinação de Childe Harold.",
+          "variantes": [
+            "George Gordon Byron",
+            "Byron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Medinet Habu",
+        "descricao": "Templo funerário de Ramsés III na margem oeste do Nilo, em frente a Luxor, Egito.",
+        "variantes": [
+          "Templo de Ramsés III"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jovem_memnon",
+          "nome": "Jovem Mêmnon",
+          "descricao": "Estátua colossal de granito de Ramsés II, do Ramesseum de Tebas, cujo busto está no Museu Britânico.",
+          "variantes": [
+            "Younger Memnon",
+            "Busto de Ramsés II"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "id": "templo_de_hatshepsut",
+          "nome": "Templo de Hatshepsut",
+          "descricao": "Templo mortuário em três terraços da faraó Hatshepsut, em Deir el-Bahari, perto de Luxor.",
+          "variantes": [
+            "Templo mortuário de Hatshepsut",
+            "Deir el-Bahari",
+            "Djeser-Djeseru",
+            "Mortuary Temple of Hatshepsut"
+          ]
+        },
+        {
+          "id": "templo_de_atena_nice",
+          "nome": "Templo de Atena Nice",
+          "descricao": "Pequeno templo jônico do século cinco a.C. na Acrópole de Atenas, dedicado a Atena Nice.",
+          "variantes": [
+            "Templo de Atena Nike",
+            "Temple of Athena Nike"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Castelo de Edimburgo",
+        "descricao": "Castelo histórico sobre a Castle Rock, em Edimburgo, Escócia.",
+        "variantes": [
+          "Edinburgh Castle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_edimburgo",
+          "nome": "Castelo de Edimburgo",
+          "descricao": "Fortaleza histórica sobre Castle Rock, em Edimburgo, na Escócia.",
+          "variantes": [
+            "Edinburgh Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_malbork",
+          "nome": "Castelo de Malbork",
+          "descricao": "Fortaleza de tijolos construída pela Ordem Teutônica a partir do século treze, às margens do rio Nogat.",
+          "variantes": [
+            "Marienburg",
+            "Malbork Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_praga",
+          "nome": "Castelo de Praga",
+          "descricao": "Complexo de castelo em Praga, na República Tcheca, sede de reis da Boêmia e hoje residência oficial do presidente.",
+          "variantes": [
+            "Pražský hrad",
+            "Prague Castle"
+          ]
+        },
+        {
+          "id": "edimburgo",
+          "nome": "Edimburgo",
+          "descricao": "Capital da Escócia, com castelo sobre uma rocha vulcânica.",
+          "variantes": [
+            "Edinburgh"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Grutas de Longmen",
+        "descricao": "Conjunto de grutas budistas com milhares de estátuas esculpidas na rocha, perto de Luoyang, China.",
+        "variantes": [
+          "Longmen Grottoes",
+          "Grutas do Portão do Dragão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polen",
+          "nome": "Pólen",
+          "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+          "variantes": [
+            "Grão de pólen",
+            "Grãos de pólen"
+          ]
+        },
+        {
+          "id": "grutas_de_waitomo",
+          "nome": "Grutas de Waitomo",
+          "descricao": "Grutas calcárias famosas pelas larvas luminosas de Arachnocampa luminosa no teto.",
+          "variantes": [
+            "Waitomo Glowworm Caves",
+            "Waitomo"
+          ]
+        },
+        {
+          "id": "gruta_de_fingal",
+          "nome": "Gruta de Fingal",
+          "descricao": "Caverna marinha de colunas de basalto na ilha desabitada de Staffa, nas Hébridas Interiores, na Escócia.",
+          "variantes": [
+            "Fingal's Cave"
+          ]
+        },
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon",
+            "A Fúria do Dragão"
+          ]
+        },
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sainte-Chapelle",
+        "descricao": "Capela real gótica na Île de la Cité, em Paris, construída para guardar relíquias da Paixão.",
+        "variantes": [
+          "Santa Capela"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "papai_noel",
+          "nome": "Papai Noel",
+          "descricao": "Personagem lendário que traz presentes no Natal",
+          "variantes": [
+            "Santa Claus",
+            "Pai Natal",
+            "Bom Velhinho"
+          ]
+        },
+        {
+          "id": "capela_sistina",
+          "nome": "Capela Sistina",
+          "descricao": "Capela do Palácio Apostólico, no Vaticano, mandada construir pelo papa Sisto IV e famosa pelos afrescos de Michelangelo.",
+          "variantes": [
+            "Sistine Chapel",
+            "Cappella Sistina"
+          ]
+        },
+        {
+          "id": "1o_grupo_de_aviacao_de_caca",
+          "nome": "1º Grupo de Aviação de Caça",
+          "descricao": "Unidade de caça da Força Aérea Brasileira que combateu na Itália em 1944 e 1945, cujo grito de guerra era Senta a Pua.",
+          "variantes": [
+            "Senta a Pua",
+            "1st Brazilian Fighter Squadron",
+            "1º GAvCa"
+          ]
+        },
+        {
+          "id": "santa_maria_nau_de_colombo",
+          "nome": "Santa Maria (nau de Colombo)",
+          "descricao": "Nau capitânia da primeira viagem de Cristóvão Colombo à América, em 1492, que naufragou no Haiti no Natal daquele ano.",
+          "variantes": [
+            "Santa María",
+            "La Gallega"
+          ]
+        },
+        {
+          "id": "anta_malaia",
+          "nome": "Anta-malaia",
+          "descricao": "Anta asiática de corpo preto e branco (Tapirus indicus), a única do grupo fora das Américas.",
+          "variantes": [
+            "Anta-asiática",
+            "Tapirus indicus",
+            "Malayan tapir"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Templos de Khajuraho",
+        "descricao": "Conjunto de templos hindus e jainistas em Madhya Pradesh, Índia, famoso por suas esculturas.",
+        "variantes": [
+          "Khajuraho",
+          "Conjunto monumental de Khajuraho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "templo_de_saturno",
+          "nome": "Templo de Saturno",
+          "descricao": "Templo romano dedicado ao deus Saturno, cujas ruínas ficam no Fórum Romano.",
+          "variantes": [
+            "Templum Saturni",
+            "Tempio di Saturno"
+          ]
+        },
+        {
+          "id": "wat_arun",
+          "nome": "Wat Arun",
+          "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+          "variantes": [
+            "Templo do Amanhecer",
+            "Templo da Aurora",
+            "Wat Arun Ratchawararam"
+          ]
+        },
+        {
+          "id": "ggantija",
+          "nome": "Ġgantija",
+          "descricao": "Complexo de templos megalíticos neolíticos na ilha de Gozo, em Malta.",
+          "variantes": [
+            "Templos de Ġgantija"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Castelo dos Mouros",
+        "descricao": "Castelo medieval no alto da serra de Sintra, Portugal, construído pelos mouros.",
+        "variantes": [
+          "Castle of the Moors"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pan_de_muerto",
+          "nome": "Pan de muerto",
+          "descricao": "Pão doce mexicano preparado para o Dia dos Mortos, enfeitado com tiras de massa.",
+          "variantes": [
+            "Pão dos mortos"
+          ]
+        },
+        {
+          "id": "castelo_de_edimburgo",
+          "nome": "Castelo de Edimburgo",
+          "descricao": "Fortaleza histórica sobre Castle Rock, em Edimburgo, na Escócia.",
+          "variantes": [
+            "Edinburgh Castle"
+          ]
+        },
+        {
+          "id": "o_castelo_no_ceu",
+          "nome": "O Castelo no Céu",
+          "descricao": "Filme de animação de 1986 de Hayao Miyazaki, também chamado Laputa.",
+          "variantes": [
+            "Laputa: Castle in the Sky",
+            "Tenkū no Shiro Rapyuta",
+            "Laputa",
+            "Castle in the Sky"
+          ]
+        },
+        {
+          "id": "castelo_de_malbork",
+          "nome": "Castelo de Malbork",
+          "descricao": "Fortaleza de tijolos construída pela Ordem Teutônica a partir do século treze, às margens do rio Nogat.",
+          "variantes": [
+            "Marienburg",
+            "Malbork Castle"
+          ]
+        },
+        {
+          "id": "livro_dos_mortos",
+          "nome": "Livro dos Mortos",
+          "descricao": "Coletânea egípcia de fórmulas mágicas escritas em papiro e postas nas tumbas para guiar o morto no além",
+          "variantes": [
+            "Book of the Dead",
+            "Livro egípcio dos mortos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Chavín de Huántar",
+        "descricao": "Sítio arqueológico e centro cerimonial da cultura Chavín, nos Andes do Peru.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "caverna_de_shanidar",
+          "nome": "Caverna de Shanidar",
+          "descricao": "Caverna nos montes Zagros onde foram achados esqueletos de Neandertais, alguns com sinais de sepultamento.",
+          "variantes": [
+            "Shanidar"
+          ]
+        },
+        {
+          "id": "chamine_de_fada",
+          "nome": "Chaminé de fada",
+          "descricao": "Pilar de rocha mole esculpido pela erosão, coberto por um bloco mais duro no topo.",
+          "variantes": [
+            "Hoodoo",
+            "Pirâmide de terra",
+            "Tent rock"
+          ]
+        },
+        {
+          "id": "caminho_de_santiago",
+          "nome": "Caminho de Santiago",
+          "descricao": "Rede de rotas de peregrinação medievais até o túmulo atribuído ao apóstolo Tiago, em Santiago de Compostela, na Galiza.",
+          "variantes": [
+            "Camino de Santiago",
+            "Caminho de Compostela"
+          ]
+        },
+        {
+          "id": "calvin_e_haroldo",
+          "nome": "Calvin e Haroldo",
+          "descricao": "Tira de jornal do americano Bill Watterson sobre um menino e seu tigre",
+          "variantes": [
+            "Calvin and Hobbes"
+          ]
+        },
+        {
+          "id": "caverna_de_altamira",
+          "nome": "Caverna de Altamira",
+          "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+          "variantes": [
+            "Altamira",
+            "Cueva de Altamira",
+            "Cave of Altamira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Anel de Brodgar",
+        "descricao": "Círculo de pedras neolítico com henge na ilha principal das Órcades, Escócia.",
+        "variantes": [
+          "Ring of Brodgar",
+          "Círculo de Brodgar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circulo_de_pedras",
+          "nome": "Círculo de pedras",
+          "descricao": "Anel de pedras eretas megalíticas, típico do Neolítico tardio e da Idade do Bronze inicial na Europa.",
+          "variantes": [
+            "Stone circle",
+            "Cromlech"
+          ]
+        },
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico",
+            "Anel de Fogo do Pacífico"
+          ]
+        },
+        {
+          "id": "martinho_de_dume",
+          "nome": "Martinho de Dume",
+          "descricao": "Bispo de Dume e de Braga no século seis, que evangelizou os suevos na Galécia.",
+          "variantes": [
+            "São Martinho de Braga",
+            "Martin of Braga"
+          ]
+        },
+        {
+          "id": "avebury",
+          "nome": "Avebury",
+          "descricao": "Vila inglesa em Wiltshire construída em parte dentro de um grande círculo de pedras neolítico.",
+          "variantes": [
+            "Círculo de Avebury"
+          ]
+        },
+        {
+          "id": "sanfona_de_roda",
+          "nome": "Sanfona de roda",
+          "descricao": "Instrumento de cordas friccionadas por uma roda girada com manivela e tocado por teclas.",
+          "variantes": [
+            "Hurdy-gurdy",
+            "Viela de roda",
+            "Sanfona"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Pagode Shwedagon",
+        "descricao": "Estupa dourada de 112 metros, o pagode budista mais sagrado de Mianmar, em Yangon.",
+        "variantes": [
+          "Shwedagon",
+          "Pagode Dourado",
+          "Grande Pagode Dagon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pagode_shwedagon",
+          "nome": "Pagode Shwedagon",
+          "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+          "variantes": [
+            "Shwedagon Pagoda",
+            "Pagode Dourado",
+            "Grande Pagode Dagon"
+          ]
+        },
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "shelgon",
+          "nome": "Shelgon",
+          "descricao": "Pokémon do tipo Dragão, número 372 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "arroz_dourado",
+          "nome": "Arroz dourado",
+          "descricao": "Variedade de arroz geneticamente modificada para produzir betacaroteno nos grãos.",
+          "variantes": [
+            "Golden rice"
+          ]
+        },
+        {
+          "id": "kinkaku_ji_pavilhao_dourado",
+          "nome": "Kinkaku-ji (Pavilhão Dourado)",
+          "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+          "variantes": [
+            "Pavilhão Dourado",
+            "Rokuon-ji",
+            "Kinkakuji",
+            "Kinkaku-ji",
+            "Templo do Pavilhão Dourado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Templo de Poseidon em Sunião",
+        "descricao": "Templo dórico grego dedicado a Poseidon, no cabo Sunião, na Ática, Grécia.",
+        "variantes": [
+          "Templo de Poseidon",
+          "Temple of Poseidon, Sounion"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_poseidon_em_suniao",
+          "nome": "Templo de Poseidon em Sunião",
+          "descricao": "Templo grego dórico do século cinco a.C. no cabo Sunião, na Grécia, dedicado a Poseidon.",
+          "variantes": [
+            "Templo de Poseidon",
+            "Cabo Sunião",
+            "Sounion"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "templo_de_debod",
+          "nome": "Templo de Debod",
+          "descricao": "Templo egípcio antigo da Núbia doado pelo Egito à Espanha e remontado num parque de Madri",
+          "variantes": [
+            "Temple of Debod"
+          ]
+        },
+        {
+          "id": "pokemon_theme",
+          "nome": "Pokémon Theme",
+          "descricao": "Primeira abertura da versão americana do anime Pokémon, que começa com os versos I wanna be the very best.",
+          "variantes": [
+            "Tema de Pokémon",
+            "Gotta Catch 'Em All (canção)"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Bayon é templo khmer no Camboja; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Medinet Habu é distinto do Templo de Hatshepsut e das demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_edimburgo",
+      "motivo": "Mesmo castelo sobre Castle Rock em Edimburgo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Grutas de Longmen na China não correspondem a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sainte-Chapelle em Paris é diferente das candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Khajuraho não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Castelo dos Mouros em Sintra não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Chavín de Huántar não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Anel de Brodgar é um monumento específico; círculo de pedras é conceito genérico e Avebury é outro local."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "pagode_shwedagon",
+      "motivo": "Mesmo pagode em Yangon, com variantes idênticas."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "templo_de_poseidon_em_suniao",
+      "motivo": "Mesmo templo dórico de Poseidon no cabo Sunião."
+    }
+  ]
+}
