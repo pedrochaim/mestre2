@@ -1,0 +1,429 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nas duas fontes e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A dançarina Micheline Bernardini está na fonte e a recusa das modelos é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Croatas na Guerra dos Trinta Anos confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cardigan liderou a Carga da Brigada Ligeira, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome vindo do charuto favorito de Schott está na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estampa também é chamada caxemira no Brasil, confirmado pela Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O nome vem do sobrenome dos chapeleiros Bowler, e não de 'chapeleiros que o fabricaram'; resposta imprecisa.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Em inglês, o chapéu-coco se chama bowler. Esse nome vem de quê?",
+        "resposta": "Sobrenome dos chapeleiros criadores",
+        "distratores": [
+          "Jogadores de críquete",
+          "Jogadores de boliche",
+          "Formato de tigela"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bowler_hat"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Significado literal ambíguo (quem sua ou o que faz suar) e fonte etimológica inacessível.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem polonesa do nome poulaine confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado por Carmel Snow, mas a URL de New Look não existe; trocar por URL correta.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome New Look nasceu da exclamação de uma editora ao ver a primeira coleção de Christian Dior, em 1947. De qual revista?",
+        "resposta": "Harper's Bazaar",
+        "distratores": [
+          "Vogue",
+          "Vanity Fair",
+          "Life"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/New_Look",
+          "https://en.wikipedia.org/wiki/Carmel_Snow"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato conhecido (protestos contra o excesso de tecido), mas a fonte é inexistente; trocar a URL.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1947, com a Europa ainda sob racionamento, o New Look de Dior foi alvo de protestos por causa de quê?",
+        "resposta": "O excesso de tecido",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/New_Look"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fonte só cita a baixa estatura, não o talento; fora do foco de moda e redundante com a outra pergunta da âncora.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasceu em Portugal, confirmado; pergunta clara e surpreendente.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mortes por fogo em saias com crinolina confirmadas na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Technicolor de três cores não era novidade em 1939; trocar por 'processo de filmagem'.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "No filme O Mágico de Oz, de 1939, os sapatos de Dorothy, prateados no livro, ficaram vermelhos para aproveitar qual processo de filmagem em cores?",
+        "resposta": "Technicolor",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ruby_slippers"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carrapichos de bardana no pelo do cachorro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os tumultos do náilon estão na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Forro laranja do MA-1 serve para sinalizar o piloto no resgate; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do Google Imagens confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Brummell fugiu para a França por dívidas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta repete a palavra 'rainha' do enunciado (vazamento parcial); encurtar para o nome.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "O costume do vestido de noiva branco se popularizou no Ocidente depois do casamento de qual rainha britânica, em 1840?",
+        "resposta": "Vitória",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Wedding_dress",
+          "https://en.wikipedia.org/wiki/Wedding_dress_of_Queen_Victoria"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Âncora é o chinelo de dedo, mas o fato é sobre a marca Havaianas; textura de arroz não está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Poole fez o paletó para o Príncipe de Gales, futuro Eduardo VII.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é sobre Lauren Weisberger, não sobre a âncora Vogue; âncora errada.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "YSL, aos 21 anos, sucessor de Dior, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dior abriu uma galeria de arte antes da moda, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A influência de Pierre Cardin nos ternos sem gola dos Beatles é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Indiana Jones popularizou o fedora; pergunta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lincoln popularizou a cartola tipo chaminé, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Picasso usava a marinière, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Luiz Gonzaga adotou o traje de vaqueiro de couro; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Burberry vestiu Amundsen em 1911, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cartier criou o relógio para Santos-Dumont, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chapéu-panamá é do Equador, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frígia fica na atual Turquia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ovos de bicho-da-seda levados a Justiniano, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rebites de cobre na patente de 1873, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Denim tingido com índigo extraído de plantas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A sgian-dubh vai no alto da meia do kilt, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira camisa aloha feita com tecido de quimono, confirmado em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mohair vem da cabra angorá, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte principal situa a moda na Europa no início do século dezessete.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fundação da Guarda Suíça não tem relação com moda e vestuário; mal classificada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta é uma categoria ('o comandante'); pedir o nome específico, Jules Répond.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "O uniforme listrado da Guarda Suíça costuma ser atribuído a Michelangelo, mas foi desenhado no século vinte. Que comandante da guarda o criou?",
+        "resposta": "Jules Répond",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Swiss_Guard",
+          "https://pt.wikipedia.org/wiki/Guarda_Su%C3%AD%C3%A7a"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lycra criada em 1958 pela DuPont, anos cinquenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Worth introduziu etiquetas nas peças, confirmado em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em inglês data a coleção em 1993 e a em português diz só fim dos anos oitenta; usar época vaga e segura.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Qual estilista americano levou a moda grunge à passarela da grife Perry Ellis, no início dos anos noventa, e acabou demitido?",
+        "resposta": "Marc Jacobs",
+        "distratores": [
+          "Tom Ford",
+          "Calvin Klein",
+          "Michael Kors"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Marc_Jacobs",
+          "https://en.wikipedia.org/wiki/Grunge_fashion"
+        ]
+      }
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "J. Carlos é conhecido como criador e popularizador da melindrosa.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chanel nasceu em 1883, tinha cerca de setenta anos em 1954, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cetim tem face brilhante e verso fosco; distratores corretos.",
+      "reescrita": null
+    }
+  ]
+}
