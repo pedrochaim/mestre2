@@ -1,0 +1,193 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cúpula bem visível, sem texto; astronauta pequeno atrás da janela, figura pública a bordo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que módulo da Estação Espacial Internacional, com janelas voltadas para o espaço, é este?",
+      "resposta": "Cúpula (Cupola)",
+      "distratores": [
+        "Destiny",
+        "Columbus",
+        "Zvezda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cúpula da Estação Espacial Internacional",
+        "descricao": "Módulo de observação com sete janelas da ISS, construído pela ESA e lançado em 2010.",
+        "variantes": [
+          "Cupola",
+          "Cúpula da ISS"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Um ponto minúsculo no Sol: não se distingue de trânsito de Vênus nem de mancha solar; resposta não é única e fica ilegível no celular."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara da nebulosa de emissão vermelha com a forma característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nebulosa de emissão da constelação de Perseu é esta?",
+      "resposta": "Nebulosa Califórnia",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa Califórnia",
+        "descricao": "Nebulosa de emissão na constelação de Perseu, também chamada NGC 1499.",
+        "variantes": [
+          "NGC 1499",
+          "Sh 2-220",
+          "California Nebula"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Os pedestais trazem texto visível com o nome 'Meteorito do Bendegó' e o ano da descoberta, entregando a resposta; há também pessoas ao fundo."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble, nítida e icônica, sem texto; duas galáxias em interação, resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que constelação fica este par de galáxias em interação?",
+      "resposta": "Andrômeda",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arp 273",
+        "descricao": "Par de galáxias espirais em interação na constelação de Andrômeda, catalogado no Atlas de Galáxias Peculiares de Halton Arp.",
+        "variantes": [
+          "UGC 1810 e UGC 1813",
+          "Galáxias Rosa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto célebre de astronauta com mochila de propulsão; o 'NASA' no traje não entrega o nome do equipamento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que equipamento, usado em 1984, permitiu a este astronauta flutuar livre, sem cabos, longe do ônibus espacial?",
+      "resposta": "Unidade de Manobra Tripulada",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Unidade de Manobra Tripulada",
+        "descricao": "Mochila de propulsão a jato nitrogênio usada pela NASA em três missões do ônibus espacial em 1984.",
+        "variantes": [
+          "MMU",
+          "Manned Maneuvering Unit"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Anel de Einstein nítido, sem texto; a pergunta vai além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que teoria de Albert Einstein explica a formação deste anel de luz azul?",
+      "resposta": "Relatividade geral",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lente gravitacional",
+        "descricao": "Efeito em que a gravidade de uma massa curva a luz de uma fonte distante, produzindo imagens deformadas como anéis.",
+        "variantes": [
+          "Anel de Einstein",
+          "Gravitational lens"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Núcleo de cometa em imagem da sonda, sem texto; múltipla com núcleos de aspecto parecido.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cometa é este, fotografado de perto por uma sonda?",
+      "resposta": "Tempel 1",
+      "distratores": [
+        "Wild 2",
+        "Hartley 2",
+        "Churyumov–Gerasimenko"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cometa Tempel 1",
+        "descricao": "Cometa da família de Júpiter descoberto em 1867, alvo da missão Deep Impact.",
+        "variantes": [
+          "9P/Tempel",
+          "Tempel 1"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ilustração clara da sonda pousada em Marte com sismógrafo; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno esta sonda, pousada em Marte, detectou no interior do planeta?",
+      "resposta": "Terremotos marcianos",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "InSight",
+        "descricao": "Sonda robótica da NASA que pousou em Marte em 2018 para estudar o interior do planeta.",
+        "variantes": [
+          "Mars InSight",
+          "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Sala de controle cheia de monitores, com pessoas comuns; nada nela permite reconhecer o LIGO."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem azul borrada e de baixa definição; a mancha não é reconhecível pela figura e pode ser confundida com outras estruturas planetárias."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida da nebulosa, sem texto; resposta única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nebulosa de emissão da constelação do Cisne é esta?",
+      "resposta": "Nebulosa Pelicano",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa Pelicano",
+        "descricao": "Região H II na constelação do Cisne, vizinha da Nebulosa da América do Norte, também chamada IC 5070.",
+        "variantes": [
+          "IC 5070",
+          "Pelican Nebula"
+        ]
+      }
+    }
+  ]
+}

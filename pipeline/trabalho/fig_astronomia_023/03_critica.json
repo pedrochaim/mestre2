@@ -1,0 +1,88 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Janelas voltadas para o espaço' é impreciso (as janelas servem para observar a Terra, os acoplamentos e experimentos) e a pista 'janelas' quase entrega o módulo. Tirar a pista e deixar a figura decidir.",
+      "reescrita": {
+        "pergunta": "Que módulo da Estação Espacial Internacional é este?",
+        "resposta": "Cúpula",
+        "distratores": [
+          "Destiny",
+          "Columbus",
+          "Zvezda"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos. A constelação ajuda sem entregar o nome, e a resposta não aparece no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A constelação não pode ser deduzida da imagem de um par de galáxias obscuro. A figura vira enfeite e a pergunta é impossível de responder visualmente.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Flutuar livre, sem cabos, longe do ônibus espacial' descreve a função do equipamento e entrega a resposta sem olhar a figura. Tirar a descrição de função.",
+      "reescrita": {
+        "pergunta": "Que equipamento da NASA, usado por astronautas do ônibus espacial, aparece nesta foto?",
+        "resposta": "Unidade de Manobra Tripulada (MMU)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Anel de luz azul' não é confirmado por 'mostra', e 'Einstein' mais 'teoria' deixa a resposta ambígua (relatividade restrita ou geral). Passar para múltipla com distratores de outras teorias e trabalhos de Einstein, sem descrever o efeito.",
+      "reescrita": {
+        "pergunta": "Que teoria de Albert Einstein explica o fenômeno mostrado nesta imagem?",
+        "resposta": "Relatividade geral",
+        "distratores": [
+          "Relatividade restrita",
+          "Efeito fotoelétrico",
+          "Movimento browniano"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tempel 1 foi fotografado de perto pelas sondas Deep Impact e Stardust. A pista não entrega a resposta, e os distratores são cometas também visitados por sondas, de mesmo tipo e com no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede um fato (o que a sonda detectou) com a resposta quase dedutível do enunciado ('interior do planeta') e sem exigir reconhecer a figura. Passar a pedir a identidade da sonda, em múltipla.",
+      "reescrita": {
+        "pergunta": "Que sonda da NASA, pousada em Marte, é esta?",
+        "resposta": "InSight",
+        "distratores": [
+          "Phoenix",
+          "Viking 1",
+          "Mars Pathfinder"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pelicano é uma região H II na constelação do Cisne, conforme o trecho. O enunciado não nomeia a resposta e a figura decide entre as nebulosas da região.",
+      "reescrita": null
+    }
+  ]
+}
