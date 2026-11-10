@@ -1,0 +1,228 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Sacré-Cœur reconhecível no alto da colina, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Em que colina de Paris fica esta basílica de cúpulas brancas?",
+      "resposta": "Montmartre",
+      "distratores": [
+        "Montparnasse",
+        "Belleville",
+        "Ménilmontant"
+      ],
+      "ancora": {
+        "nome": "Montmartre",
+        "descricao": "Colina no 18º distrito de Paris, coroada pela Basílica do Sacré-Cœur.",
+        "variantes": [
+          "Butte Montmartre"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível do Congresso e da praça em Brasília, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que praça brasileira, vista do alto, aparece nesta foto?",
+      "resposta": "Praça dos Três Poderes",
+      "distratores": [
+        "Praça da Liberdade",
+        "Praça Mauá",
+        "Praça da Sé"
+      ],
+      "ancora": {
+        "nome": "Praça dos Três Poderes",
+        "descricao": "Praça de Brasília cercada pelo Planalto, pelo Congresso Nacional e pelo Supremo Tribunal Federal.",
+        "variantes": [
+          "Praça dos 3 Poderes"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Igreja colonial de formato octogonal característico, sem texto, reconhecível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que igreja colonial do Rio de Janeiro é esta?",
+      "resposta": "Igreja da Glória do Outeiro",
+      "distratores": [
+        "Igreja da Candelária",
+        "Igreja da Penha",
+        "Mosteiro de São Bento"
+      ],
+      "ancora": {
+        "nome": "Igreja do Outeiro da Glória",
+        "descricao": "Igreja colonial do século XVIII no alto do Outeiro da Glória, no Rio de Janeiro.",
+        "variantes": [
+          "Igreja de Nossa Senhora da Glória do Outeiro",
+          "Igreja da Glória"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Basílica reconhecível; o texto em latim na fachada não entrega o nome.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que basílica brasileira é esta?",
+      "resposta": "Basílica de Nazaré",
+      "distratores": [
+        "Basílica de Aparecida",
+        "Basílica do Bonfim",
+        "Basílica da Candelária"
+      ],
+      "ancora": {
+        "nome": "Basílica de Nazaré",
+        "descricao": "Basílica católica de Belém do Pará, ponto de chegada da procissão do Círio de Nazaré.",
+        "variantes": [
+          "Basílica Santuário de Nossa Senhora de Nazaré"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estátua do Merlion nítida, sem texto legível.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "De que país esta estátua é o mascote oficial?",
+      "resposta": "Singapura",
+      "distratores": [
+        "Malásia",
+        "Indonésia",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Merlion",
+        "descricao": "Estátua-símbolo de Singapura com cabeça de leão e corpo de peixe.",
+        "variantes": [
+          "Merlião"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Torre dodecagonal inconfundível, sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Em que cidade espanhola fica esta torre de vigia medieval?",
+      "resposta": "Sevilha",
+      "distratores": [
+        "Granada",
+        "Córdoba",
+        "Toledo"
+      ],
+      "ancora": {
+        "nome": "Torre del Oro",
+        "descricao": "Torre de vigia dodecagonal do século XIII, às margens do Guadalquivir, em Sevilha.",
+        "variantes": [
+          "Torre do Ouro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O letreiro 'Itaipava Arena Fonte Nova' é legível na fachada e entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Castelo de Bran nítido, sem texto.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que personagem de romance o turismo associa a este castelo?",
+      "resposta": "Drácula",
+      "distratores": [
+        "Frankenstein",
+        "Dr. Jekyll",
+        "Fantasma da Ópera"
+      ],
+      "ancora": {
+        "nome": "Castelo de Bran",
+        "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o castelo do Drácula.",
+        "variantes": [
+          "Bran Castle",
+          "Castelo do Drácula"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Castelo no morro e centro histórico de Liubliana, reconhecível; sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que capital europeia é esta, com um castelo sobre o morro?",
+      "resposta": "Liubliana",
+      "distratores": [
+        "Zagreb",
+        "Bratislava",
+        "Budapeste"
+      ],
+      "ancora": {
+        "nome": "Liubliana",
+        "descricao": "Capital e maior cidade da Eslovênia.",
+        "variantes": [
+          "Ljubljana"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Panorama de praça paulistana sem marco inequívoco; não é reconhecível e há pessoas na cena."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ponte com pilares de estátuas douradas reconhecível, sem texto.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que czar russo dá nome a esta ponte sobre o Sena?",
+      "resposta": "Alexandre III",
+      "distratores": [
+        "Alexandre II",
+        "Nicolau II",
+        "Pedro, o Grande"
+      ],
+      "ancora": {
+        "nome": "Ponte Alexandre III",
+        "descricao": "Ponte em arco ornamentada sobre o Sena, em Paris, com pilares encimados por estátuas douradas.",
+        "variantes": [
+          "Pont Alexandre III"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Montagem de seis fotos com placa e marca visíveis (Honda), sem marco claro; cidade não reconhecível."
+    }
+  ]
+}

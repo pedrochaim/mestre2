@@ -1,0 +1,560 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Montmartre",
+        "descricao": "Colina no 18º distrito de Paris, coroada pela Basílica do Sacré-Cœur.",
+        "variantes": [
+          "Butte Montmartre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_amazonas",
+          "nome": "Teatro Amazonas",
+          "descricao": "Casa de ópera de Manaus inaugurada em 1896.",
+          "variantes": [
+            "Amazon Theatre",
+            "Teatro Amazonas de Manaus"
+          ]
+        },
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "minarete_da_grande_mesquita_de_cairuao",
+          "nome": "Minarete da Grande Mesquita de Cairuão",
+          "descricao": "Torre de tijolo da Grande Mesquita de Cairuão, na Tunísia, exemplo de minarete.",
+          "variantes": [
+            "Minarete"
+          ]
+        },
+        {
+          "id": "ares",
+          "nome": "Ares",
+          "descricao": "Deus grego da guerra, filho de Zeus e Hera, equivalente ao romano Marte.",
+          "variantes": [
+            "Marte"
+          ]
+        },
+        {
+          "id": "monte_ararat",
+          "nome": "Monte Ararat",
+          "descricao": "Vulcão adormecido no leste da Turquia, perto das fronteiras com a Armênia e o Irã.",
+          "variantes": [
+            "Ararat",
+            "Ağrı Dağı",
+            "Mount Ararat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Praça dos Três Poderes",
+        "descricao": "Praça de Brasília cercada pelo Planalto, pelo Congresso Nacional e pelo Supremo Tribunal Federal.",
+        "variantes": [
+          "Praça dos 3 Poderes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "plano_piloto_de_brasilia_2",
+          "nome": "Plano Piloto de Brasília",
+          "descricao": "Área central planejada de Brasília, com o Eixo Monumental, a Esplanada dos Ministérios e o Congresso Nacional.",
+          "variantes": [
+            "Praça dos Três Poderes",
+            "Brasília",
+            "Esplanada dos Ministérios"
+          ]
+        },
+        {
+          "id": "praca_dos_tres_poderes",
+          "nome": "Praça dos Três Poderes",
+          "descricao": "Praça de Brasília cercada pelo Planalto, pelo Congresso Nacional e pelo Supremo Tribunal Federal, projetada por Lúcio Costa e Oscar Niemeyer.",
+          "variantes": [
+            "Praça dos 3 Poderes"
+          ]
+        },
+        {
+          "id": "batalha_de_alcacer_quibir",
+          "nome": "Batalha de Alcácer-Quibir",
+          "descricao": "Batalha de 1578 no Marrocos, em que o exército português foi derrotado e o rei Dom Sebastião desapareceu.",
+          "variantes": [
+            "Batalha dos Três Reis",
+            "Battle of Alcácer Quibir"
+          ]
+        },
+        {
+          "id": "danza_de_los_voladores",
+          "nome": "Danza de los Voladores",
+          "descricao": "Ritual mesoamericano em que homens se lançam amarrados por cordas de um mastro de cerca de trinta metros.",
+          "variantes": [
+            "Dança dos Voladores",
+            "Palo Volador",
+            "Voladores de Papantla"
+          ]
+        },
+        {
+          "id": "a_adoracao_dos_magos_leonardo",
+          "nome": "A Adoração dos Magos (Leonardo)",
+          "descricao": "Pintura inacabada de Leonardo da Vinci, encomendada em 1481 pelos monges de San Donato in Scopeto e hoje na Galeria Uffizi, em Florença.",
+          "variantes": [
+            "Adoration of the Magi",
+            "Adoração dos Reis Magos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Igreja do Outeiro da Glória",
+        "descricao": "Igreja colonial do século XVIII no alto do Outeiro da Glória, no Rio de Janeiro.",
+        "variantes": [
+          "Igreja de Nossa Senhora da Glória do Outeiro",
+          "Igreja da Glória"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_anglicana",
+          "nome": "Igreja Anglicana",
+          "descricao": "Igreja da Inglaterra, separada de Roma no reinado de Henrique VIII",
+          "variantes": [
+            "Igreja da Inglaterra",
+            "Church of England"
+          ]
+        },
+        {
+          "id": "igreja_da_candelaria",
+          "nome": "Igreja da Candelária",
+          "descricao": "Igreja católica no centro do Rio de Janeiro, de fachada barroca portuguesa, construída a partir de 1775.",
+          "variantes": [
+            "Igreja de Nossa Senhora da Candelária"
+          ]
+        },
+        {
+          "id": "maria_ii_de_portugal",
+          "nome": "Maria II de Portugal",
+          "descricao": "Rainha de Portugal no século dezenove, filha mais velha de Dom Pedro I e da imperatriz Leopoldina.",
+          "variantes": [
+            "Maria da Glória",
+            "Dona Maria II"
+          ]
+        },
+        {
+          "id": "igreja_de_nossa_senhora_do_carmo_ouro_preto",
+          "nome": "Igreja de Nossa Senhora do Carmo (Ouro Preto)",
+          "descricao": "Igreja rococó do século dezoito em Ouro Preto, Minas Gerais, tombada pelo IPHAN.",
+          "variantes": [
+            "Igreja do Carmo de Ouro Preto"
+          ]
+        },
+        {
+          "id": "cientologia",
+          "nome": "Cientologia",
+          "descricao": "Movimento religioso criado nos Estados Unidos nos anos 1950",
+          "variantes": [
+            "Igreja da Cientologia",
+            "Scientology"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Basílica de Nazaré",
+        "descricao": "Basílica católica de Belém do Pará, ponto de chegada da procissão do Círio de Nazaré.",
+        "variantes": [
+          "Basílica Santuário de Nossa Senhora de Nazaré"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_da_penha_rio_de_janeiro",
+          "nome": "Igreja da Penha (Rio de Janeiro)",
+          "descricao": "Basílica santuário de Nossa Senhora da Penha de França, no bairro da Penha, no Rio de Janeiro.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora da Penha de França",
+            "Igreja de Nossa Senhora da Penha"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "santuario_de_fatima",
+          "nome": "Santuário de Fátima",
+          "descricao": "Conjunto de edifícios católicos em Fátima, Portugal, dedicado às aparições marianas de 1917.",
+          "variantes": [
+            "Santuário de Nossa Senhora de Fátima",
+            "Cova da Iria"
+          ]
+        },
+        {
+          "id": "santuario_de_lourdes",
+          "nome": "Santuário de Lourdes",
+          "descricao": "Santuário mariano católico em Lourdes, nos Pirenéus franceses, ao redor da gruta das aparições de 1858.",
+          "variantes": [
+            "Santuário de Nossa Senhora de Lourdes",
+            "Lourdes"
+          ]
+        },
+        {
+          "id": "basilica_de_notre_dame_de_montreal",
+          "nome": "Basílica de Notre-Dame de Montreal",
+          "descricao": "Basílica neogótica no centro histórico de Montreal, no Canadá, diante da Place d'Armes.",
+          "variantes": [
+            "Basílica de Nossa Senhora de Montreal",
+            "Notre-Dame Basilica of Montreal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Merlion",
+        "descricao": "Estátua-símbolo de Singapura com cabeça de leão e corpo de peixe.",
+        "variantes": [
+          "Merlião"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "tamerlao",
+          "nome": "Tamerlão",
+          "descricao": "Timur, conquistador turco-mongol do século quatorze, fundador do Império Timúrida, com capital em Samarcanda.",
+          "variantes": [
+            "Timur",
+            "Tamerlane",
+            "Timur Lenk"
+          ]
+        },
+        {
+          "id": "kazoo",
+          "nome": "Kazoo",
+          "descricao": "Instrumento que acrescenta um timbre zumbido à voz de quem vocaliza nele, por meio de uma membrana vibrante.",
+          "variantes": [
+            "Mirliton"
+          ]
+        },
+        {
+          "id": "berlim",
+          "nome": "Berlim",
+          "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+          "variantes": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Torre del Oro",
+        "descricao": "Torre de vigia dodecagonal do século XIII, às margens do Guadalquivir, em Sevilha.",
+        "variantes": [
+          "Torre do Ouro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_do_cairo",
+          "nome": "Torre do Cairo",
+          "descricao": "Torre de concreto de 187 metros na ilha de Gezira, no rio Nilo, no Cairo, Egito.",
+          "variantes": [
+            "Cairo Tower",
+            "Borg El-Qahira"
+          ]
+        },
+        {
+          "id": "torre_de_toquio",
+          "nome": "Torre de Tóquio",
+          "descricao": "Torre de transmissão de treliça de aço, pintada de branco e laranja, inaugurada em 1958 em Tóquio.",
+          "variantes": [
+            "Tokyo Tower"
+          ]
+        },
+        {
+          "id": "torre_queimada",
+          "nome": "Torre Queimada",
+          "descricao": "Torre em ruínas da cidade de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver, antiga Torre de Bronze destruída por um incêndio.",
+          "variantes": [
+            "Burned Tower",
+            "Torre de Bronze",
+            "Brass Tower"
+          ]
+        },
+        {
+          "id": "torre_de_londres",
+          "nome": "Torre de Londres",
+          "descricao": "Fortaleza medieval à beira do Tâmisa, em Londres, que já foi palácio real e prisão e guarda as Joias da Coroa.",
+          "variantes": [
+            "Tower of London"
+          ]
+        },
+        {
+          "id": "torre_branca_torre_de_londres",
+          "nome": "Torre Branca (Torre de Londres)",
+          "descricao": "Torre de menagem de pedra no centro da Torre de Londres, mandada erguer por Guilherme, o Conquistador.",
+          "variantes": [
+            "White Tower",
+            "Torre de Londres"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Castelo de Bran",
+        "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o castelo do Drácula.",
+        "variantes": [
+          "Bran Castle",
+          "Castelo do Drácula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_n",
+          "nome": "Castelo de N",
+          "descricao": "Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história.",
+          "variantes": [
+            "N's Castle"
+          ]
+        },
+        {
+          "id": "justiceiro",
+          "nome": "Justiceiro",
+          "descricao": "Frank Castle, anti-herói da Marvel que combate o crime com armas e usa uma caveira no peito",
+          "variantes": [
+            "The Punisher",
+            "Frank Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_praga",
+          "nome": "Castelo de Praga",
+          "descricao": "Complexo de castelo em Praga, na República Tcheca, sede de reis da Boêmia e hoje residência oficial do presidente.",
+          "variantes": [
+            "Pražský hrad",
+            "Prague Castle"
+          ]
+        },
+        {
+          "id": "humberto_de_alencar_castelo_branco",
+          "nome": "Humberto de Alencar Castelo Branco",
+          "descricao": "Militar brasileiro, oficial da FEB na Itália, que foi o primeiro presidente do regime militar, de 1964 a 1967.",
+          "variantes": [
+            "Castelo Branco",
+            "Castello Branco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Liubliana",
+        "descricao": "Capital e maior cidade da Eslovênia.",
+        "variantes": [
+          "Ljubljana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dragao_de_liubliana",
+          "nome": "Dragão de Liubliana",
+          "descricao": "Escultura de dragão de bronze esverdeado da Ponte do Dragão, símbolo da capital eslovena.",
+          "variantes": [
+            "Dragão europeu",
+            "Ponte do Dragão",
+            "Dragon Bridge",
+            "Ljubljana dragon"
+          ]
+        },
+        {
+          "id": "lyuba",
+          "nome": "Lyuba",
+          "descricao": "Filhote de mamute-lanoso encontrado quase intacto em 2007 na península de Iamal, na Rússia.",
+          "variantes": [
+            "Liuba"
+          ]
+        },
+        {
+          "id": "bandeira_da_libia",
+          "nome": "Bandeira da Líbia",
+          "descricao": "Bandeira nacional da Líbia, com listras vermelha, preta e verde e crescente com estrela brancos.",
+          "variantes": [
+            "Líbia",
+            "Bandeira líbia"
+          ]
+        },
+        {
+          "id": "libia",
+          "nome": "Líbia",
+          "descricao": "País do norte da África, no Mediterrâneo, cuja capital é Trípoli.",
+          "variantes": [
+            "Estado da Líbia"
+          ]
+        },
+        {
+          "id": "limusine",
+          "nome": "Limusine",
+          "descricao": "Carro de luxo de entre-eixos longo, dirigido por chofer, aqui um sedã Mercedes alongado.",
+          "variantes": [
+            "Limusina",
+            "Limousine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ponte Alexandre III",
+        "descricao": "Ponte em arco ornamentada sobre o Sena, em Paris, com pilares encimados por estátuas douradas.",
+        "variantes": [
+          "Pont Alexandre III"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "farol_de_alexandria",
+          "nome": "Farol de Alexandria",
+          "descricao": "Farol da Antiguidade na ilha de Faros, no Egito, uma das Sete Maravilhas do Mundo Antigo.",
+          "variantes": [
+            "Farol de Faros",
+            "Pharos de Alexandria",
+            "Lighthouse of Alexandria",
+            "Pharos"
+          ]
+        },
+        {
+          "id": "ponte_aerea",
+          "nome": "Ponte aérea",
+          "descricao": "Jogada de basquete em que um jogador lança a bola perto do aro e um companheiro a pega no ar e a enterra.",
+          "variantes": [
+            "Alley-oop"
+          ]
+        },
+        {
+          "id": "alexandre_pires",
+          "nome": "Alexandre Pires",
+          "descricao": "Cantor e compositor brasileiro, ex-vocalista do grupo Só Pra Contrariar.",
+          "variantes": []
+        },
+        {
+          "id": "hipatia",
+          "nome": "Hipátia",
+          "descricao": "Filósofa, astrônoma e matemática de Alexandria, assassinada no ano 415.",
+          "variantes": [
+            "Hipátia de Alexandria",
+            "Hypatia",
+            "Hipácia"
+          ]
+        },
+        {
+          "id": "alexandria",
+          "nome": "Alexandria",
+          "descricao": "Cidade portuária no litoral mediterrâneo do Egito, fundada por Alexandre, o Grande, e capital da dinastia ptolemaica",
+          "variantes": [
+            "Alexandria (Egito)"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Montmartre não consta entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "praca_dos_tres_poderes",
+      "motivo": "Mesma praça de Brasília, mesma descrição e variante. O Plano Piloto é uma área maior."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Igreja do Outeiro da Glória. A Candelária é outra igreja do Rio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A Basílica de Nazaré é distinta do Círio de Nazaré, que é a procissão, e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O Merlion não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A Torre del Oro de Sevilha não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_bran",
+      "motivo": "Mesmo castelo, com nome e descrição idênticos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "A cidade de Liubliana é distinta do Dragão de Liubliana, que é uma escultura."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A Ponte Alexandre III não consta entre as candidatas."
+    }
+  ]
+}

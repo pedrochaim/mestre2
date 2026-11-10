@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que praça brasileira é esta?",
+        "resposta": "Praça dos Três Poderes"
+      },
+      "existentes": [
+        {
+          "id": "q17304",
+          "pergunta": "Em que década foi inaugurada a cidade onde fica este conjunto de prédios?",
+          "resposta": "Década de 1960"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que personagem de romance o turismo associa a este castelo?",
+        "resposta": "Drácula"
+      },
+      "existentes": [
+        {
+          "id": "q03881",
+          "pergunta": "Em que região histórica da Romênia fica este castelo medieval?",
+          "resposta": "Transilvânia"
+        },
+        {
+          "id": "q17870",
+          "pergunta": "Em que país fica este castelo medieval, construído no século catorze perto de Brașov?",
+          "resposta": "Romênia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da praça; a existente pede a década de inauguração da cidade. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o personagem de romance associado ao castelo; as existentes pedem a região e o país. Fatos diferentes."
+    }
+  ]
+}

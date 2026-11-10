@@ -1,0 +1,99 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Basílica de cúpulas brancas' em Paris quase identifica o Sacré-Cœur e, portanto, a colina; o teste da imagem coberta falha. Pedir a colina a partir da figura, sem a pista.",
+      "reescrita": {
+        "pergunta": "Que colina de Paris é esta?",
+        "resposta": "Montmartre",
+        "distratores": [
+          "Montparnasse",
+          "Belleville",
+          "Ménilmontant"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vista do alto' não está confirmado em `mostra`; o enunciado pode ser falso para esta foto. Removida a afirmação.",
+      "reescrita": {
+        "pergunta": "Que praça brasileira é esta?",
+        "resposta": "Praça dos Três Poderes",
+        "distratores": [
+          "Praça da Liberdade",
+          "Praça Mauá",
+          "Praça da Sé"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Igreja colonial no Rio, resposta única, distratores plausíveis e errados, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem pista; distratores do mesmo tipo e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Merlion é o mascote oficial de Singapura (trecho). O enunciado não entrega a resposta sem a figura; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Torre de vigia do século XIII em Sevilha; o enunciado é verdadeiro e não entrega a cidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que o castelo é promovido como residência do Drácula de Stoker; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Castelo sobre o morro' não é confirmado em `mostra` para esta foto e também descreve Bratislava e Budapeste (distratores). Pista inútil; melhor pedir só o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que capital europeia é esta?",
+        "resposta": "Liubliana",
+        "distratores": [
+          "Zagreb",
+          "Bratislava",
+          "Budapeste"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'czar russo' e 'ponte sobre o Sena' bastam para responder, e a resposta é o nome da própria ponte. A figura vira enfeite. Reescrita pede a ponte.",
+      "reescrita": {
+        "pergunta": "Que ponte ornamentada sobre o Sena, em Paris, é esta?",
+        "resposta": "Pont Alexandre III",
+        "distratores": [
+          "Pont Neuf",
+          "Pont des Arts",
+          "Pont de l'Alma"
+        ]
+      }
+    }
+  ]
+}
