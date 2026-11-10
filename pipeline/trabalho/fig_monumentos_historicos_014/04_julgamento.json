@@ -1,0 +1,683 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Torre Eiffel",
+        "descricao": "Torre de ferro em treliça no Champ de Mars, em Paris, construída para a Exposição Universal de 1889.",
+        "variantes": [
+          "Tour Eiffel",
+          "Eiffel Tower"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_eiffel",
+          "nome": "Torre Eiffel",
+          "descricao": "Torre de ferro forjado no Campo de Marte, em Paris, inaugurada em 1889.",
+          "variantes": [
+            "Tour Eiffel",
+            "Eiffel Tower"
+          ]
+        },
+        {
+          "id": "torre_do_diabo",
+          "nome": "Torre do Diabo",
+          "descricao": "Grande rochedo de colunas de rocha ígnea no nordeste do Wyoming, nos Estados Unidos.",
+          "variantes": [
+            "Devils Tower"
+          ]
+        },
+        {
+          "id": "turffield",
+          "nome": "Turffield",
+          "descricao": "Vilarejo rural da região de Galar, nos jogos Pokémon Sword e Shield, onde fica o ginásio de Planta de Milo e um grande desenho antigo num morro.",
+          "variantes": []
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "torre_wardenclyffe",
+          "nome": "Torre Wardenclyffe",
+          "descricao": "Estação experimental de transmissão sem fio construída em Shoreham, Nova York, entre 1901 e 1902, e demolida em 1917.",
+          "variantes": [
+            "Wardenclyffe Tower",
+            "Torre Tesla"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Termas Romanas de Bath",
+        "descricao": "Complexo de banhos públicos romanos preservado na cidade de Bath, na Inglaterra, antiga Aquae Sulis.",
+        "variantes": [
+          "Roman Baths",
+          "Termas de Bath",
+          "Aquae Sulis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "senado_romano",
+          "nome": "Senado romano",
+          "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+          "variantes": [
+            "Senatus",
+            "Roman Senate"
+          ]
+        },
+        {
+          "id": "termas_de_caracalla",
+          "nome": "Termas de Caracalla",
+          "descricao": "Segundo maior complexo de banhos públicos da Roma antiga, construído no início do século três.",
+          "variantes": [
+            "Termas de Caracala",
+            "Baths of Caracalla",
+            "Terme di Caracalla"
+          ]
+        },
+        {
+          "id": "queima_de_sutias",
+          "nome": "Queima de sutiãs",
+          "descricao": "Expressão nascida do protesto feminista contra o concurso Miss América de 1968, em Atlantic City",
+          "variantes": [
+            "Bra-burning",
+            "Queima dos sutiãs"
+          ]
+        },
+        {
+          "id": "lapras_de_ash",
+          "nome": "Lapras de Ash",
+          "descricao": "Lapras que acompanha Ash Ketchum nas Ilhas Laranja, no anime Pokémon, carregando o grupo pelo mar entre as ilhas.",
+          "variantes": [
+            "Ash's Lapras"
+          ]
+        },
+        {
+          "id": "heracross_de_ash",
+          "nome": "Heracross de Ash",
+          "descricao": "Heracross de Ash Ketchum no anime Pokémon, primeiro pokémon que ele capturou em Johto.",
+          "variantes": [
+            "Ash's Heracross"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Palmira",
+        "descricao": "Antiga cidade caravaneira no deserto da Síria central, com ruínas romanas como o teatro e a Grande Colunata.",
+        "variantes": [
+          "Palmyra",
+          "Tadmor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão",
+            "Palestra Itália"
+          ]
+        },
+        {
+          "id": "caverna_de_altamira",
+          "nome": "Caverna de Altamira",
+          "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+          "variantes": [
+            "Altamira",
+            "Cueva de Altamira",
+            "Cave of Altamira"
+          ]
+        },
+        {
+          "id": "monte_tambora",
+          "nome": "Monte Tambora",
+          "descricao": "Vulcão na ilha de Sumbawa, na Indonésia, cuja erupção de 1815 foi a maior da história registrada.",
+          "variantes": [
+            "Tambora",
+            "Mount Tambora"
+          ]
+        },
+        {
+          "id": "palmas",
+          "nome": "Palmas",
+          "descricao": "Capital do estado do Tocantins, cidade planejada às margens do rio Tocantins.",
+          "variantes": [
+            "Palmas (Tocantins)"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Igreja do Santo Sepulcro",
+        "descricao": "Igreja na Cidade Velha de Jerusalém, tida como local da crucificação e do sepulcro de Jesus.",
+        "variantes": [
+          "Church of the Holy Sepulchre",
+          "Igreja da Ressurreição"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_do_santo_sepulcro",
+          "nome": "Igreja do Santo Sepulcro",
+          "descricao": "Igreja de Jerusalém erguida sobre os locais tradicionais da crucificação e do túmulo de Jesus",
+          "variantes": [
+            "Basílica do Santo Sepulcro"
+          ]
+        },
+        {
+          "id": "igreja_anglicana",
+          "nome": "Igreja Anglicana",
+          "descricao": "Igreja da Inglaterra, separada de Roma no reinado de Henrique VIII",
+          "variantes": [
+            "Igreja da Inglaterra",
+            "Church of England"
+          ]
+        },
+        {
+          "id": "coroa_de_santo_eduardo",
+          "nome": "Coroa de Santo Eduardo",
+          "descricao": "Coroa de coroação das joias da Coroa britânica, feita em 1661 para Carlos II.",
+          "variantes": [
+            "St Edward's Crown"
+          ]
+        },
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        },
+        {
+          "id": "guerra_do_banco_de_ouro",
+          "nome": "Guerra do Banco de Ouro",
+          "descricao": "Levante axânti contra os britânicos em 1900, na atual Gana, também chamado de Guerra de Yaa Asantewaa.",
+          "variantes": [
+            "War of the Golden Stool",
+            "Guerra de Yaa Asantewaa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bagan",
+        "descricao": "Sítio arqueológico medieval em Mianmar com milhares de templos e pagodes budistas, antiga capital do Reino de Pagã.",
+        "variantes": [
+          "Pagan",
+          "Pagã"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "praga",
+          "nome": "Praga",
+          "descricao": "Capital da República Tcheca, às margens do rio Moldava.",
+          "variantes": [
+            "Prague"
+          ]
+        },
+        {
+          "id": "h_letra",
+          "nome": "H (letra)",
+          "descricao": "Oitava letra do alfabeto latino, que no português não tem som próprio no início das palavras",
+          "variantes": [
+            "Agá",
+            "Letra H"
+          ]
+        },
+        {
+          "id": "pangeia",
+          "nome": "Pangeia",
+          "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+          "variantes": [
+            "Pangea",
+            "Pangaea"
+          ]
+        },
+        {
+          "id": "bagon",
+          "nome": "Bagon",
+          "descricao": "Pokémon do tipo Dragão, número 371 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "niccolo_paganini",
+          "nome": "Niccolò Paganini",
+          "descricao": "Violinista virtuose e compositor italiano (1782–1840), autor dos 24 Caprichos para violino solo.",
+          "variantes": [
+            "Paganini"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Templo Dourado de Amritsar",
+        "descricao": "Gurdwara dourado em Amritsar, no Punjab indiano, o local mais sagrado do siquismo.",
+        "variantes": [
+          "Harmandir Sahib",
+          "Golden Temple",
+          "Darbar Sahib"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "aguia_real",
+          "nome": "Águia-real",
+          "descricao": "Ave de rapina do Hemisfério Norte, Aquila chrysaetos, marrom escura com nuca dourada.",
+          "variantes": [
+            "Golden eagle",
+            "Aquila chrysaetos"
+          ]
+        },
+        {
+          "id": "ponte_golden_gate",
+          "nome": "Ponte Golden Gate",
+          "descricao": "Ponte pênsil sobre o estreito de Golden Gate, em São Francisco, inaugurada em 1937.",
+          "variantes": [
+            "Golden Gate Bridge",
+            "Golden Gate"
+          ]
+        },
+        {
+          "id": "banco_de_ouro",
+          "nome": "Banco de Ouro",
+          "descricao": "Trono sagrado do povo axânti, em Gana, símbolo da unidade e da alma da nação axânti.",
+          "variantes": [
+            "Golden Stool",
+            "Sika Dwa Kofi"
+          ]
+        },
+        {
+          "id": "mantela_dourada",
+          "nome": "Mantela-dourada",
+          "descricao": "Pequena rã terrestre amarelo-alaranjada (Mantella aurantiaca), endêmica de uma área restrita de Madagascar.",
+          "variantes": [
+            "Mantella aurantiaca",
+            "Golden mantella"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Castelo de Guimarães",
+        "descricao": "Castelo medieval em Guimarães, no norte de Portugal, erguido no século dez.",
+        "variantes": [
+          "Castle of Guimarães"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_himeji",
+          "nome": "Castelo de Himeji",
+          "descricao": "Complexo de castelo feudal japonês de fachada branca, na cidade de Himeji, província de Hyōgo.",
+          "variantes": [
+            "Himeji-jō",
+            "Castelo da Garça Branca",
+            "Shirasagi-jō"
+          ]
+        },
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "fasil_ghebbi",
+          "nome": "Fasil Ghebbi",
+          "descricao": "Cidadela real em Gondar, Etiópia, fundada no século dezessete e residência de imperadores etíopes.",
+          "variantes": [
+            "Cidade-fortaleza de Fasil Ghebbi",
+            "Castelos de Gondar"
+          ]
+        },
+        {
+          "id": "castelo_de_malbork",
+          "nome": "Castelo de Malbork",
+          "descricao": "Fortaleza de tijolos construída pela Ordem Teutônica a partir do século treze, às margens do rio Nogat.",
+          "variantes": [
+            "Marienburg",
+            "Malbork Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_praga",
+          "nome": "Castelo de Praga",
+          "descricao": "Complexo de castelo em Praga, na República Tcheca, sede de reis da Boêmia e hoje residência oficial do presidente.",
+          "variantes": [
+            "Pražský hrad",
+            "Prague Castle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Chan Chan",
+        "descricao": "Cidade de adobe, capital do reino Chimor, sítio arqueológico no norte do Peru, perto de Trujillo.",
+        "variantes": [
+          "Chimor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chan_chan",
+          "nome": "Chan Chan",
+          "descricao": "Grande cidade de adobe no litoral norte do Peru, perto de Trujillo, antiga capital do reino Chimu.",
+          "variantes": []
+        },
+        {
+          "id": "chang_an",
+          "nome": "Chang'an",
+          "descricao": "Antiga capital chinesa das dinastias Han e Tang, extremo oriental da Rota da Seda, onde hoje fica Xian.",
+          "variantes": [
+            "Changan"
+          ]
+        },
+        {
+          "id": "shin_chan",
+          "nome": "Shin-chan",
+          "descricao": "Menino de cinco anos travesso, protagonista do mangá e anime Crayon Shin-chan.",
+          "variantes": [
+            "Shinnosuke Nohara",
+            "Shinchan"
+          ]
+        },
+        {
+          "id": "quimera",
+          "nome": "Quimera",
+          "descricao": "Monstro da mitologia grega que cuspia fogo, morto pelo herói Belerofonte.",
+          "variantes": [
+            "Chimera"
+          ]
+        },
+        {
+          "id": "hanukkah",
+          "nome": "Hanukkah",
+          "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+          "variantes": [
+            "Chanucá",
+            "Hanucá",
+            "Chanukah",
+            "Festa das Luzes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Massada",
+        "descricao": "Fortaleza no topo de um platô no deserto da Judeia, junto ao Mar Morto, em Israel.",
+        "variantes": [
+          "Masada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "massalia",
+          "nome": "Massália",
+          "descricao": "Colônia grega fundada por colonos da Foceia por volta de 600 a.C. no sul da Gália, origem da cidade de Marselha.",
+          "variantes": [
+            "Massilia"
+          ]
+        },
+        {
+          "id": "mafalda",
+          "nome": "Mafalda",
+          "descricao": "Menina contestadora criada pelo cartunista argentino Quino",
+          "variantes": []
+        },
+        {
+          "id": "masais",
+          "nome": "Masais",
+          "descricao": "Povo nilótico de pastores seminômades da África Oriental, conhecido pelas vestes vermelhas.",
+          "variantes": [
+            "Maasai",
+            "Massai",
+            "Masai"
+          ]
+        },
+        {
+          "id": "mastaba",
+          "nome": "Mastaba",
+          "descricao": "Tipo de tumba egípcia retangular, de teto plano e paredes inclinadas, anterior às pirâmides",
+          "variantes": []
+        },
+        {
+          "id": "cassoulet",
+          "nome": "Cassoulet",
+          "descricao": "Ensopado do sul da França de feijão branco, linguiça e carnes, originário de Castelnaudary.",
+          "variantes": [
+            "Cassolada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Templo Mahabodhi",
+        "descricao": "Templo budista em Bodh Gaya, na Índia, onde Buda teria alcançado a iluminação.",
+        "variantes": [
+          "Mahabodhi Temple",
+          "Templo de Mahabodhi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_mahabodhi",
+          "nome": "Templo Mahabodhi",
+          "descricao": "Templo budista restaurado em Bodh Gaya, na Índia, que marca o local onde Buda teria alcançado a iluminação.",
+          "variantes": [
+            "Templo de Mahabodhi",
+            "Mahabodhi Mahavihara"
+          ]
+        },
+        {
+          "id": "templo_de_debod",
+          "nome": "Templo de Debod",
+          "descricao": "Templo egípcio antigo da Núbia doado pelo Egito à Espanha e remontado num parque de Madri",
+          "variantes": [
+            "Temple of Debod"
+          ]
+        },
+        {
+          "id": "templo_i_de_tikal",
+          "nome": "Templo I de Tikal",
+          "descricao": "Pirâmide-templo maia de cerca de 732 d.C. na Grande Praça de Tikal, na Guatemala, também chamada Templo do Grande Jaguar.",
+          "variantes": [
+            "Templo do Grande Jaguar",
+            "Templo de Ah Cacao",
+            "Tikal Temple I"
+          ]
+        },
+        {
+          "id": "templo_de_meenakshi",
+          "nome": "Templo de Meenakshi",
+          "descricao": "Templo hindu histórico em Madurai, Tamil Nadu, Índia, dedicado a Meenakshi e Sundareswarar.",
+          "variantes": [
+            "Meenakshi Amman",
+            "Templo Meenakshi Sundareswarar"
+          ]
+        },
+        {
+          "id": "byodo_in",
+          "nome": "Byodo-in",
+          "descricao": "Templo budista do século onze em Uji, perto de Quioto, famoso pelo Pavilhão da Fênix.",
+          "variantes": [
+            "Templo Byodoin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Forte de Copacabana",
+        "descricao": "Forte militar e museu na ponta de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Museu Histórico do Exército",
+          "Fort Copacabana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forte_de_copacabana",
+          "nome": "Forte de Copacabana",
+          "descricao": "Fortificação militar na ponta sul da praia de Copacabana, no Rio de Janeiro.",
+          "variantes": [
+            "Forte de Copacabana e Museu Histórico do Exército"
+          ]
+        },
+        {
+          "id": "copacabana",
+          "nome": "Copacabana",
+          "descricao": "Bairro da zona sul do Rio de Janeiro, famoso pela praia e pela Avenida Atlântica.",
+          "variantes": [
+            "Copacabana (Rio de Janeiro)",
+            "Copacabana (bairro)"
+          ]
+        },
+        {
+          "id": "revolta_dos_18_do_forte_de_copacabana",
+          "nome": "Revolta dos 18 do Forte de Copacabana",
+          "descricao": "Primeira revolta do movimento tenentista, ocorrida no Rio de Janeiro em 5 de julho de 1922.",
+          "variantes": [
+            "Os 18 do Forte",
+            "Revolta do Forte de Copacabana"
+          ]
+        },
+        {
+          "id": "calcadao_de_copacabana",
+          "nome": "Calçadão de Copacabana",
+          "descricao": "Calçada à beira-mar da praia de Copacabana, no Rio de Janeiro, com desenho de ondas em pedra portuguesa.",
+          "variantes": [
+            "Calçadão da Avenida Atlântica"
+          ]
+        },
+        {
+          "id": "paineira",
+          "nome": "Paineira",
+          "descricao": "Árvore decídua sul-americana Ceiba speciosa, de flores rosadas e tronco bojudo com espinhos.",
+          "variantes": [
+            "Ceiba speciosa",
+            "Barriguda",
+            "Paina-rosa",
+            "Árvore-de-paina"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "torre_eiffel",
+      "motivo": "Mesma torre de Paris, 1889."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Termas de Bath não constam; Caracalla é outra em Roma."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Palmira síria não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "igreja_do_santo_sepulcro",
+      "motivo": "Mesma igreja de Jerusalém."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Bagan em Mianmar não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "templo_dourado",
+      "motivo": "Harmandir Sahib, mesmo santuário sikh."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Castelo de Guimarães não está cadastrado."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "chan_chan",
+      "motivo": "Mesma cidade de adobe no Peru perto de Trujillo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Massada não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "templo_mahabodhi",
+      "motivo": "Mesmo templo em Bodh Gaya."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "forte_de_copacabana",
+      "motivo": "Mesmo forte/museu em Copacabana."
+    }
+  ]
+}

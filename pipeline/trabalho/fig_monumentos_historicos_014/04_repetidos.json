@@ -1,0 +1,142 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi concluída a construção desta torre?",
+        "resposta": "1889"
+      },
+      "existentes": [
+        {
+          "id": "q02010",
+          "pergunta": "Em 1889, ano do centenário da Revolução Francesa, a Torre Eiffel foi erguida para servir de entrada a qual evento?",
+          "resposta": "A Exposição Universal de Paris"
+        },
+        {
+          "id": "q02516",
+          "pergunta": "Que monumento francês é este?",
+          "resposta": "Torre Eiffel"
+        },
+        {
+          "id": "q03174",
+          "pergunta": "A Torre Eiffel foi erguida para uma Exposição Universal que marcava o centenário de que acontecimento histórico?",
+          "resposta": "Revolução Francesa"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que século foi erguida a primeira igreja neste local?",
+        "resposta": "Século quarto"
+      },
+      "existentes": [
+        {
+          "id": "q05588",
+          "pergunta": "Há séculos, as chaves da Igreja do Santo Sepulcro, em Jerusalém, ficam sob a guarda de famílias de que religião?",
+          "resposta": "Muçulmana"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que guru sikh mandou construir este templo, no fim do século dezesseis?",
+        "resposta": "Guru Arjan"
+      },
+      "existentes": [
+        {
+          "id": "q03558",
+          "pergunta": "Em que cidade indiana fica o Templo Dourado, principal santuário do sikhismo?",
+          "resposta": "Amritsar"
+        },
+        {
+          "id": "q14585",
+          "pergunta": "Para que religião este templo é o local mais sagrado?",
+          "resposta": "Sikhismo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que cultura pré-colombiana construiu esta cidade de adobe?",
+        "resposta": "Chimú"
+      },
+      "existentes": [
+        {
+          "id": "q08605",
+          "pergunta": "Chan Chan, a enorme cidade de barro perto de Trujillo, no litoral norte do Peru, foi erguida como capital por que povo, antes do domínio inca?",
+          "resposta": "Chimus"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que imperador indiano é associado à construção do primeiro templo neste local?",
+        "resposta": "Ashoka"
+      },
+      "existentes": [
+        {
+          "id": "q15822",
+          "pergunta": "Em que cidade da Índia fica este templo budista?",
+          "resposta": "Bodh Gaya"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que forte militar da cidade do Rio de Janeiro é este?",
+        "resposta": "Forte de Copacabana"
+      },
+      "existentes": [
+        {
+          "id": "q16895",
+          "pergunta": "Que construção é esta, na ponta da praia?",
+          "resposta": "Forte de Copacabana"
+        },
+        {
+          "id": "q19409",
+          "pergunta": "Em que cidade fica este forte?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ano de conclusão da torre é um fato distinto; o 1889 aparece no enunciado de q02010, mas lá se pergunta o evento."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Século da primeira igreja é fato diferente da religião das famílias guardiãs das chaves."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Quem mandou construir o templo é fato diferente de cidade ou religião."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q08605",
+      "motivo": "Ambas perguntam qual povo/cultura (Chimú) construiu Chan Chan."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Imperador associado à construção é diferente da cidade onde fica o templo."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q16895",
+      "motivo": "Ambas pedem a identificação do forte, com resposta Forte de Copacabana."
+    }
+  ]
+}

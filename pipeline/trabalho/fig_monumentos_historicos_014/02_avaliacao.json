@@ -1,0 +1,272 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Torre Eiffel nítida, sem texto; pergunta de ano em múltipla escolha, a única de ano do lote.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Em que ano foi concluída a construção desta torre?",
+      "resposta": "1889",
+      "distratores": [
+        "1879",
+        "1885",
+        "1894"
+      ],
+      "ancora": {
+        "nome": "Torre Eiffel",
+        "descricao": "Torre de ferro em treliça no Champ de Mars, em Paris, construída para a Exposição Universal de 1889.",
+        "variantes": [
+          "Tour Eiffel",
+          "Eiffel Tower"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem clara das termas com a abadia ao fundo; monumento reconhecível e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que povo antigo construiu o complexo de banhos que aparece nesta imagem?",
+      "resposta": "Romanos",
+      "distratores": [
+        "Gregos",
+        "Saxões",
+        "Vikings"
+      ],
+      "ancora": {
+        "nome": "Termas Romanas de Bath",
+        "descricao": "Complexo de banhos públicos romanos preservado na cidade de Bath, na Inglaterra, antiga Aquae Sulis.",
+        "variantes": [
+          "Roman Baths",
+          "Termas de Bath",
+          "Aquae Sulis"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Teatro romano de Palmira bem visível, sem texto; reconhecível com distratores de ruínas romanas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que cidade antiga tem este teatro romano?",
+      "resposta": "Palmira",
+      "distratores": [
+        "Bosra",
+        "Jerash",
+        "Leptis Magna"
+      ],
+      "ancora": {
+        "nome": "Palmira",
+        "descricao": "Antiga cidade caravaneira no deserto da Síria central, com ruínas romanas como o teatro e a Grande Colunata.",
+        "variantes": [
+          "Palmyra",
+          "Tadmor"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada e pátio da igreja, sem texto; pergunta de século de fundação, com ajuste de destino para Roma Antiga.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Em que século foi erguida a primeira igreja neste local?",
+      "resposta": "Século quarto",
+      "distratores": [
+        "Século sexto",
+        "Século nono",
+        "Século décimo segundo"
+      ],
+      "ancora": {
+        "nome": "Igreja do Santo Sepulcro",
+        "descricao": "Igreja na Cidade Velha de Jerusalém, tida como local da crucificação e do sepulcro de Jesus.",
+        "variantes": [
+          "Church of the Holy Sepulchre",
+          "Igreja da Ressurreição"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Planície de templos de tijolo de Bagan, característica e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que reino medieval construiu os milhares de templos desta planície?",
+      "resposta": "Reino de Pagã",
+      "distratores": [
+        "Império Khmer",
+        "Reino de Sukhothai",
+        "Reino de Ayutthaya"
+      ],
+      "ancora": {
+        "nome": "Bagan",
+        "descricao": "Sítio arqueológico medieval em Mianmar com milhares de templos e pagodes budistas, antiga capital do Reino de Pagã.",
+        "variantes": [
+          "Pagan",
+          "Pagã"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pátio de terra com muro e pequeno pavilhão pouco característicos; sítio não reconhecível pela imagem, e há inscrição na base do monumento."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Templo Dourado muito reconhecível, sem texto; pergunta de autoria no nível 3.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que guru sikh mandou construir este templo, no fim do século dezesseis?",
+      "resposta": "Guru Arjan",
+      "distratores": [
+        "Guru Nanak",
+        "Guru Gobind Singh",
+        "Guru Tegh Bahadur"
+      ],
+      "ancora": {
+        "nome": "Templo Dourado de Amritsar",
+        "descricao": "Gurdwara dourado em Amritsar, no Punjab indiano, o local mais sagrado do siquismo.",
+        "variantes": [
+          "Harmandir Sahib",
+          "Golden Temple",
+          "Darbar Sahib"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Castelo de Guimarães nítido, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Quem mandou construir este castelo medieval, no século dez, para proteger um mosteiro?",
+      "resposta": "Mumadona Dias",
+      "distratores": [
+        "Dona Teresa",
+        "Afonso Henriques",
+        "Dona Urraca"
+      ],
+      "ancora": {
+        "nome": "Castelo de Guimarães",
+        "descricao": "Castelo medieval em Guimarães, no norte de Portugal, erguido no século dez.",
+        "variantes": [
+          "Castle of Guimarães"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Muros de adobe com frisos de Chan Chan; característico para quem conhece, sem texto; múltipla escolha ajuda.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Que cultura pré-colombiana construiu esta cidade de adobe?",
+      "resposta": "Chimú",
+      "distratores": [
+        "Moche",
+        "Nazca",
+        "Inca"
+      ],
+      "ancora": {
+        "nome": "Chan Chan",
+        "descricao": "Cidade de adobe, capital do reino Chimor, sítio arqueológico no norte do Peru, perto de Trujillo.",
+        "variantes": [
+          "Chimor"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea característica de Massada, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que rei da Judeia construiu palácios no topo desta fortaleza?",
+      "resposta": "Herodes, o Grande",
+      "distratores": [
+        "Davi",
+        "Salomão",
+        "Nabucodonosor"
+      ],
+      "ancora": {
+        "nome": "Massada",
+        "descricao": "Fortaleza no topo de um platô no deserto da Judeia, junto ao Mar Morto, em Israel.",
+        "variantes": [
+          "Masada"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Torre piramidal do Mahabodhi bem visível; monges aparecem de costas e pequenos, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que imperador indiano é associado à construção do primeiro templo neste local?",
+      "resposta": "Ashoka",
+      "distratores": [
+        "Akbar",
+        "Shah Jahan",
+        "Harsha"
+      ],
+      "ancora": {
+        "nome": "Templo Mahabodhi",
+        "descricao": "Templo budista em Bodh Gaya, na Índia, onde Buda teria alcançado a iluminação.",
+        "variantes": [
+          "Mahabodhi Temple",
+          "Templo de Mahabodhi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea da ponta de Copacabana com o forte visível; sem texto; reconhecível pelo contexto do Rio.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 8,
+      "pergunta": "Que forte militar fica nesta ponta, no fim da praia?",
+      "resposta": "Forte de Copacabana",
+      "distratores": [
+        "Forte do Leme",
+        "Forte de Santa Cruz",
+        "Forte São João"
+      ],
+      "ancora": {
+        "nome": "Forte de Copacabana",
+        "descricao": "Forte militar e museu na ponta de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Museu Histórico do Exército",
+          "Fort Copacabana"
+        ]
+      }
+    }
+  ]
+}

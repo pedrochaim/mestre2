@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Torre concluída em 1889, confirmado pelos trechos. Resposta é ano em múltipla escolha, distratores próximos e críveis, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'banhos antigos' já leva a 'Romanos', a figura vira enfeite. Passa a pedir a cidade, que exige reconhecer a imagem.",
+      "reescrita": {
+        "pergunta": "Em que cidade inglesa fica este complexo de banhos antigos?",
+        "resposta": "Bath",
+        "distratores": [
+          "Oxford",
+          "Canterbury",
+          "Cambridge"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Teatro romano de Palmira, na Síria. Distratores são cidades com teatros romanos conhecidos, então a figura é necessária. Nenhum deles é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos descrevem uma igreja do século quarto. O enunciado não vaza a resposta e os distratores são séculos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bagan foi capital do Reino de Pagã e a maior parte dos templos é dos séculos onze a treze. Distratores são reinos do Sudeste Asiático.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o Harmandir Sahib foi construído sob o Guru Arjan, com pedra fundamental em 1588. Os distratores não são defensáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'século dez, proteger um mosteiro' é um fato único do castelo e permite responder sem a imagem. Retirei a pista do mosteiro e usei só o país e a época.",
+      "reescrita": {
+        "pergunta": "Quem mandou erguer este castelo medieval do norte de Portugal, no século dez?",
+        "resposta": "Mumadona Dias",
+        "distratores": [
+          "Dona Teresa",
+          "Afonso Henriques",
+          "Dona Urraca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chan Chan foi capital do reino Chimor, construída pelos Chimú. Moche é plausível, mas não é correto. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Herodes, o Grande, construiu dois palácios em Massada. Os distratores não construíram nem foram reis da Judeia nessa época.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês diz que Ashoka construiu o templo por volta de 260 a.C. 'Associado' deixa o enunciado correto, e os distratores são imperadores indianos de outras épocas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Nesta ponta, no fim da praia' repete quase literalmente o trecho e é ambíguo, pois o Forte do Leme fica no outro extremo da praia. Passa a pedir o reconhecimento direto.",
+      "reescrita": {
+        "pergunta": "Que forte militar da cidade do Rio de Janeiro é este?",
+        "resposta": "Forte de Copacabana",
+        "distratores": [
+          "Forte do Leme",
+          "Forte de Santa Cruz",
+          "Forte São João"
+        ]
+      }
+    }
+  ]
+}
