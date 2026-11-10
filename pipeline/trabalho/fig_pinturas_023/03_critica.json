@@ -1,0 +1,99 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho dá c. 1645-1650, logo século dezessete. O enunciado não nomeia o quadro e os distratores são séculos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado define a técnica ('pequenos toques de cor lado a lado'), o que entrega a resposta. A definição também serve ao pontilhismo, então a resposta não é única. Os trechos confirmam o divisionismo. Passa a ser múltipla, sem a definição.",
+      "reescrita": {
+        "pergunta": "Este quadro italiano, concluído em mil novecentos e um, segue que estilo de pintura?",
+        "resposta": "Divisionismo",
+        "distratores": [
+          "Futurismo",
+          "Macchiaioli",
+          "Impressionismo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autor e época confirmados. 'Corpo estendido num túmulo' não entrega o pintor e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O título é confirmado. Os distratores são outras obras de Vrubel, nenhuma delas correta. O enunciado não vaza o título.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Que rende uma única cópia' define monotipia, e o prefixo 'mono' ajuda a adivinhar, então a pista entrega a resposta. A técnica é confirmada pelo trecho. Passa a múltipla, sem a pista.",
+      "reescrita": {
+        "pergunta": "Que técnica de impressão o poeta e pintor inglês William Blake usou nesta obra de mil setecentos e noventa e cinco?",
+        "resposta": "Monotipia",
+        "distratores": [
+          "Xilogravura",
+          "Água-forte",
+          "Litografia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O quadro pertence ao Museu do Prado, em Madri, segundo o trecho em português. A pergunta pede o museu, não o quadro.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintura de Vermeer no Rijksmuseum, em que a mulher de azul lê uma carta. Os distratores são outras obras de Vermeer e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é confirmado pelos trechos. O distrator 'Terremoto de Lisboa' é de 1755 e já está excluído pelo 'Antiguidade romana' do enunciado, então não é crível.",
+      "reescrita": {
+        "pergunta": "Que acontecimento da Antiguidade romana este quadro russo do século dezenove retrata?",
+        "resposta": "Erupção do Vesúvio",
+        "distratores": [
+          "Incêndio de Roma",
+          "Batalha de Áccio",
+          "Destruição de Cartago"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos dão 1600 a 1610, então 'por volta de 1600' é impreciso. Nada indica que o autor seja inglês. Reescrito com a época e sem a nacionalidade do autor.",
+      "reescrita": {
+        "pergunta": "Quem este retrato pintado no início do século dezessete, de autor desconhecido, supostamente mostra?",
+        "resposta": "William Shakespeare",
+        "distratores": [
+          "Christopher Marlowe",
+          "Ben Jonson",
+          "John Donne"
+        ]
+      }
+    }
+  ]
+}

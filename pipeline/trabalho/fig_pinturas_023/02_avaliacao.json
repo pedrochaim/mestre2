@@ -1,0 +1,220 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; obra reconhecível.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século este quadro de gênero, de um pintor espanhol, foi pintado?",
+      "resposta": "Século dezessete",
+      "distratores": [
+        "Século dezesseis",
+        "Século dezoito",
+        "Século dezenove"
+      ],
+      "ancora": {
+        "nome": "O Jovem Mendigo",
+        "descricao": "Pintura a óleo de Bartolomé Esteban Murillo, c. 1645-1650, hoje no Louvre, que mostra um menino catando piolhos.",
+        "variantes": [
+          "O Menino Piolhento",
+          "The Young Beggar",
+          "Le Jeune Mendiant"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem nítida, sem texto, obra emblemática.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que técnica de pintura, baseada em pequenos toques de cor lado a lado, este pintor italiano usou nesta obra?",
+      "resposta": "Divisionismo",
+      "ancora": {
+        "nome": "O Quarto Estado",
+        "descricao": "Pintura a óleo de Giuseppe Pellizza da Volpedo (1898-1901) que mostra trabalhadores em greve caminhando à frente da multidão.",
+        "variantes": [
+          "Il quarto stato",
+          "The Fourth Estate"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto que entregue a resposta; formato alongado mas legível.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor alemão do Renascimento pintou este quadro de um corpo estendido num túmulo?",
+      "resposta": "Hans Holbein, o Jovem",
+      "ancora": {
+        "nome": "O Corpo de Cristo Morto no Túmulo",
+        "descricao": "Pintura de Hans Holbein, o Jovem (1520-1522), em Basileia, que mostra o corpo magro de Cristo morto deitado no túmulo.",
+        "variantes": [
+          "Cristo Morto",
+          "The Body of the Dead Christ in the Tomb",
+          "Dead Christ"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem nítida, sem texto, estilo inconfundível de Vrubel.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é o título deste quadro simbolista do pintor russo Mikhail Vrubel?",
+      "resposta": "Demônio Sentado",
+      "distratores": [
+        "Demônio Derrotado",
+        "A Princesa Cisne",
+        "Pã"
+      ],
+      "ancora": {
+        "nome": "Demônio Sentado",
+        "descricao": "Pintura simbolista de Mikhail Vrubel (1890) que mostra um demônio de torso nu sentado diante de um pôr do sol escarlate.",
+        "variantes": [
+          "O Demônio Sentado",
+          "The Demon Seated",
+          "Демон сидящий"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; obra reconhecível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que técnica de impressão, que rende uma única cópia, William Blake usou nesta obra?",
+      "resposta": "Monotipia",
+      "ancora": {
+        "nome": "Newton",
+        "descricao": "Monotipia colorida de William Blake (1795, retrabalhada em 1805) que mostra Isaac Newton nu, agachado, desenhando com um compasso.",
+        "variantes": [
+          "Newton (Blake)",
+          "Newton de William Blake"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem nítida; a inscrição INRI não entrega a pergunta sobre o museu. Resposta é ano, então troquei para família onde.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que museu de Madri fica este quadro de Velázquez?",
+      "resposta": "Museu do Prado",
+      "ancora": {
+        "nome": "Cristo Crucificado (Velázquez)",
+        "descricao": "Pintura de Diego Velázquez (1632) que mostra Cristo sozinho na cruz sobre fundo escuro, hoje no Museu do Prado.",
+        "variantes": [
+          "Cristo de São Plácido",
+          "Cristo Crucificado",
+          "Christ Crucified"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem nítida, sem texto; Vermeer reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é o título deste quadro do pintor holandês Johannes Vermeer?",
+      "resposta": "Mulher de Azul Lendo uma Carta",
+      "distratores": [
+        "Mulher com Jarra",
+        "Mulher com Alaúde",
+        "A Carta de Amor"
+      ],
+      "ancora": {
+        "nome": "Mulher de Azul Lendo uma Carta",
+        "descricao": "Pintura de Johannes Vermeer (c. 1663), no Rijksmuseum, que mostra uma mulher de casaco azul lendo uma carta diante de um mapa.",
+        "variantes": [
+          "Mulher Lendo uma Carta",
+          "Woman Reading a Letter",
+          "Brieflezende vrouw"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A assinatura 'John S. Sargent 1882' está visível no canto inferior direito e entrega autor e ano."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem nítida, sem texto; obra emblemática.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que acontecimento da Antiguidade romana este quadro russo do século dezenove retrata?",
+      "resposta": "Erupção do Vesúvio",
+      "distratores": [
+        "Incêndio de Roma",
+        "Terremoto de Lisboa",
+        "Destruição de Cartago"
+      ],
+      "ancora": {
+        "nome": "O Último Dia de Pompeia",
+        "descricao": "Grande pintura histórica de Karl Bryullov (1830-1833) sobre a erupção do Vesúvio que destruiu Pompeia em 79 d.C.",
+        "variantes": [
+          "O Último Dia de Pompéia",
+          "The Last Day of Pompeii"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A assinatura 'Mary Cassatt' está legível no canto inferior esquerdo e entrega o autor."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A assinatura 'G. Courbet' está visível no canto inferior esquerdo; também há ambiguidade de estilo (realismo) para a pergunta sugerida."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; imagem muito difundida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem este retrato inglês, de autoria incerta e pintado por volta de 1600, supostamente mostra?",
+      "resposta": "William Shakespeare",
+      "distratores": [
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "John Donne"
+      ],
+      "ancora": {
+        "nome": "Retrato Chandos",
+        "descricao": "Retrato a óleo da National Portrait Gallery de Londres, pintado entre 1600 e 1610, que supostamente mostra William Shakespeare.",
+        "variantes": [
+          "Retrato de Chandos",
+          "Chandos portrait"
+        ]
+      }
+    }
+  ]
+}

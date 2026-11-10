@@ -1,0 +1,585 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "O Jovem Mendigo",
+        "descricao": "Pintura a óleo de Bartolomé Esteban Murillo, c. 1645-1650, hoje no Louvre, que mostra um menino catando piolhos.",
+        "variantes": [
+          "O Jovem Mendigo (Murillo)",
+          "O Menino Piolhento",
+          "The Young Beggar",
+          "Le Jeune Mendiant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jovem_memnon",
+          "nome": "Jovem Mêmnon",
+          "descricao": "Estátua colossal de granito de Ramsés II, do Ramesseum de Tebas, cujo busto está no Museu Britânico.",
+          "variantes": [
+            "Younger Memnon",
+            "Busto de Ramsés II"
+          ]
+        },
+        {
+          "id": "pupila",
+          "nome": "Pupila",
+          "descricao": "Abertura escura no centro da íris, por onde a luz entra no olho.",
+          "variantes": [
+            "Menina dos olhos",
+            "Pupil"
+          ]
+        },
+        {
+          "id": "seneca",
+          "nome": "Sêneca",
+          "descricao": "Filósofo estoico e dramaturgo romano (c. 4 a.C.–65 d.C.), tutor do imperador Nero.",
+          "variantes": [
+            "Lúcio Aneu Sêneca",
+            "Seneca the Younger",
+            "Sêneca, o Jovem"
+          ]
+        },
+        {
+          "id": "jackie_stewart",
+          "nome": "Jackie Stewart",
+          "descricao": "Ex-piloto escocês de Fórmula 1, tricampeão mundial pela Tyrrell, apelidado de Flying Scot.",
+          "variantes": [
+            "Sir Jackie Stewart",
+            "John Young Stewart"
+          ]
+        },
+        {
+          "id": "o_garoto_azul_gainsborough",
+          "nome": "O Garoto Azul (Gainsborough)",
+          "descricao": "Retrato de corpo inteiro de um jovem em traje de cetim azul, pintado por Thomas Gainsborough por volta de 1770 e guardado na Huntington, na Califórnia.",
+          "variantes": [
+            "O Menino Azul",
+            "The Blue Boy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "O Quarto Estado",
+        "descricao": "Pintura a óleo de Giuseppe Pellizza da Volpedo (1898-1901) que mostra trabalhadores em greve caminhando à frente da multidão.",
+        "variantes": [
+          "O Quarto Estado (Pellizza da Volpedo)",
+          "Il quarto stato",
+          "The Fourth Estate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "delaware",
+          "nome": "Delaware",
+          "descricao": "Estado da costa leste dos Estados Unidos, antiga colônia britânica, apelidado de Primeiro Estado.",
+          "variantes": [
+            "The First State"
+          ]
+        },
+        {
+          "id": "as_quatro_estacoes",
+          "nome": "As Quatro Estações",
+          "descricao": "Conjunto de quatro concertos para violino de Antonio Vivaldi, publicado em 1725.",
+          "variantes": [
+            "Le quattro stagioni",
+            "The Four Seasons"
+          ]
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "medley_individual",
+          "nome": "Medley individual",
+          "descricao": "Prova de natação em que um mesmo nadador percorre os quatro estilos em sequência.",
+          "variantes": [
+            "Individual medley",
+            "Quatro estilos"
+          ]
+        },
+        {
+          "id": "terceiro_estado",
+          "nome": "Terceiro Estado",
+          "descricao": "Ordem da sociedade francesa do Antigo Regime que reunia todos os que não eram clero nem nobreza.",
+          "variantes": [
+            "Tiers état",
+            "Third Estate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "O Corpo de Cristo Morto no Túmulo",
+        "descricao": "Pintura de Hans Holbein, o Jovem (1520-1522), em Basileia, que mostra o corpo magro de Cristo morto deitado no túmulo.",
+        "variantes": [
+          "O Corpo de Cristo Morto no Túmulo (Holbein)",
+          "Cristo Morto",
+          "The Body of the Dead Christ in the Tomb",
+          "Dead Christ"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lamentacao_sobre_o_cristo_morto_mantegna",
+          "nome": "Lamentação sobre o Cristo Morto (Mantegna)",
+          "descricao": "Pintura de Andrea Mantegna, do século quinze, com o corpo de Cristo em escorço sobre uma laje, velado por três figuras, na Pinacoteca de Brera.",
+          "variantes": [
+            "O Cristo Morto",
+            "Lamentation of Christ",
+            "Cristo Morto de Mantegna",
+            "Lamentação de Cristo"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "ordem_de_cristo",
+          "nome": "Ordem de Cristo",
+          "descricao": "Ordem militar portuguesa criada em 1319 para receber os bens e membros dos templários em Portugal.",
+          "variantes": [
+            "Ordem Militar de Cristo",
+            "Order of Christ"
+          ]
+        },
+        {
+          "id": "cristovao_colombo",
+          "nome": "Cristóvão Colombo",
+          "descricao": "Navegador genovês a serviço da Espanha, que cruzou o Atlântico em 1492 e abriu a colonização europeia das Américas.",
+          "variantes": [
+            "Christopher Columbus",
+            "Cristoforo Colombo",
+            "Cristóbal Colón"
+          ]
+        },
+        {
+          "id": "cristo_redentor",
+          "nome": "Cristo Redentor",
+          "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+          "variantes": [
+            "Christ the Redeemer",
+            "Cristo do Corcovado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Demônio Sentado",
+        "descricao": "Pintura simbolista de Mikhail Vrubel (1890) que mostra um demônio de torso nu sentado diante de um pôr do sol escarlate.",
+        "variantes": [
+          "Demônio Sentado (Vrubel)",
+          "O Demônio Sentado",
+          "The Demon Seated",
+          "Демон сидящий"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volei_sentado",
+          "nome": "Vôlei sentado",
+          "descricao": "Variante do vôlei para pessoas com deficiência, jogada com os atletas sentados no chão.",
+          "variantes": [
+            "Voleibol sentado",
+            "Sitting volleyball"
+          ]
+        },
+        {
+          "id": "os_infiltrados",
+          "nome": "Os Infiltrados",
+          "descricao": "Filme policial americano de 2006 dirigido por Martin Scorsese, com Leonardo DiCaprio e Matt Damon, vencedor do Oscar de melhor filme.",
+          "variantes": [
+            "The Departed"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "cinto_de_seguranca_de_tres_pontos",
+          "nome": "Cinto de segurança de três pontos",
+          "descricao": "Cinto de segurança que prende o tronco e o quadril, introduzido pela Volvo em 1959.",
+          "variantes": [
+            "Cinto de três pontos",
+            "Three-point seatbelt"
+          ]
+        },
+        {
+          "id": "o_segundo_sexo",
+          "nome": "O Segundo Sexo",
+          "descricao": "Ensaio de Simone de Beauvoir publicado em 1949, marco do pensamento feminista.",
+          "variantes": [
+            "Le Deuxième Sexe",
+            "The Second Sex"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Newton",
+        "descricao": "Monotipia colorida de William Blake (1795, retrabalhada em 1805) que mostra Isaac Newton nu, agachado, desenhando com um compasso.",
+        "variantes": [
+          "Newton (William Blake)",
+          "Newton (Blake)",
+          "Newton de William Blake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "isaac_newton",
+          "nome": "Isaac Newton",
+          "descricao": "Polímata inglês, autor dos Principia e formulador da gravitação universal e da mecânica clássica.",
+          "variantes": [
+            "Sir Isaac Newton",
+            "Newton"
+          ]
+        },
+        {
+          "id": "neonio",
+          "nome": "Neônio",
+          "descricao": "Elemento químico gasoso de número atômico 10, um gás nobre famoso pelos letreiros luminosos.",
+          "variantes": [
+            "Néon",
+            "Neon"
+          ]
+        },
+        {
+          "id": "neutron",
+          "nome": "Nêutron",
+          "descricao": "Partícula subatômica sem carga elétrica que, com os prótons, forma o núcleo dos átomos; descoberta por James Chadwick em 1932.",
+          "variantes": [
+            "Neutrão"
+          ]
+        },
+        {
+          "id": "lago_peyto",
+          "nome": "Lago Peyto",
+          "descricao": "Lago glacial de cor turquesa no Parque Nacional Banff, em Alberta, Canadá.",
+          "variantes": [
+            "Peyto Lake"
+          ]
+        },
+        {
+          "id": "panetone",
+          "nome": "Panetone",
+          "descricao": "Pão doce italiano de massa fermentada com frutas cristalizadas e passas, tradicional no Natal.",
+          "variantes": [
+            "Panettone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cristo Crucificado (Velázquez)",
+        "descricao": "Pintura de Diego Velázquez (1632) que mostra Cristo sozinho na cruz sobre fundo escuro, hoje no Museu do Prado.",
+        "variantes": [
+          "Cristo de São Plácido",
+          "Cristo Crucificado",
+          "Christ Crucified"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tregua_de_natal",
+          "nome": "Trégua de Natal",
+          "descricao": "Série de cessar-fogos informais entre soldados britânicos e alemães na Frente Ocidental no Natal de 1914.",
+          "variantes": [
+            "Christmas truce",
+            "Trégua de Natal de 1914"
+          ]
+        },
+        {
+          "id": "cristo_redentor",
+          "nome": "Cristo Redentor",
+          "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+          "variantes": [
+            "Christ the Redeemer",
+            "Cristo do Corcovado"
+          ]
+        },
+        {
+          "id": "dia_de_sao_patricio",
+          "nome": "Dia de São Patrício",
+          "descricao": "Festa irlandesa de 17 de março em honra do padroeiro da Irlanda, celebrada com desfiles e a cor verde.",
+          "variantes": [
+            "Saint Patrick's Day",
+            "St. Patrick's Day"
+          ]
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "conversao_de_paulo",
+          "nome": "Conversão de Paulo",
+          "descricao": "Episódio em que Saulo de Tarso se converteu ao cristianismo no caminho de Damasco, celebrado em 25 de janeiro",
+          "variantes": [
+            "Conversão de São Paulo",
+            "Conversão de Paulo de Tarso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mulher de Azul Lendo uma Carta",
+        "descricao": "Pintura de Johannes Vermeer (c. 1663), no Rijksmuseum, que mostra uma mulher de casaco azul lendo uma carta diante de um mapa.",
+        "variantes": [
+          "Mulher de Azul Lendo uma Carta (Vermeer)",
+          "Mulher Lendo uma Carta",
+          "Woman Reading a Letter",
+          "Brieflezende vrouw"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moca_lendo_uma_carta_a_janela_vermeer",
+          "nome": "Moça Lendo uma Carta à Janela (Vermeer)",
+          "descricao": "Pintura de Johannes Vermeer, na Gemäldegalerie de Dresden, que mostra uma jovem lendo uma carta diante de uma janela aberta.",
+          "variantes": [
+            "Girl Reading a Letter at an Open Window",
+            "Mulher lendo uma carta à janela"
+          ]
+        },
+        {
+          "id": "mulher_segurando_uma_balanca_vermeer",
+          "nome": "Mulher Segurando uma Balança (Vermeer)",
+          "descricao": "Pintura de Johannes Vermeer, c. 1662-1663, na National Gallery of Art, em Washington.",
+          "variantes": [
+            "Woman Holding a Balance",
+            "Mulher pesando ouro",
+            "Vrouw met weegschaal"
+          ]
+        },
+        {
+          "id": "venus_de_willendorf",
+          "nome": "Vênus de Willendorf",
+          "descricao": "Estatueta paleolítica de uma figura feminina, esculpida em calcário.",
+          "variantes": [
+            "Venus of Willendorf",
+            "Mulher de Willendorf"
+          ]
+        },
+        {
+          "id": "luzia",
+          "nome": "Luzia",
+          "descricao": "Esqueleto humano pré-histórico de mulher, com cerca de 11 mil anos, achado na Lapa Vermelha, em Lagoa Santa, Minas Gerais.",
+          "variantes": [
+            "Mulher de Luzia",
+            "Luzia Woman",
+            "Luzia (fóssil)",
+            "Mulher de Lagoa Santa"
+          ]
+        },
+        {
+          "id": "mulher_sentada_de_catalhoyuk",
+          "nome": "Mulher Sentada de Çatalhöyük",
+          "descricao": "Estatueta neolítica de argila de uma mulher sentada entre braços de felinos, achada em Çatalhöyük, na Turquia.",
+          "variantes": [
+            "Seated Woman of Çatalhöyük",
+            "Deusa de Çatalhöyük"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "O Último Dia de Pompeia",
+        "descricao": "Grande pintura histórica de Karl Bryullov (1830-1833) sobre a erupção do Vesúvio que destruiu Pompeia em 79 d.C.",
+        "variantes": [
+          "O Último Dia de Pompeia (Bryullov)",
+          "The Last Day of Pompeii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_de_pompeu",
+          "nome": "Teatro de Pompeu",
+          "descricao": "Primeiro teatro permanente de pedra de Roma, inaugurado em 55 antes de Cristo.",
+          "variantes": [
+            "Theatre of Pompey"
+          ]
+        },
+        {
+          "id": "o_auto_da_compadecida_filme",
+          "nome": "O Auto da Compadecida (filme)",
+          "descricao": "Filme brasileiro de 2000 dirigido por Guel Arraes, baseado na peça de Ariano Suassuna, com João Grilo e Chicó.",
+          "variantes": [
+            "O Auto da Compadecida"
+          ]
+        },
+        {
+          "id": "auto_da_compadecida",
+          "nome": "Auto da Compadecida",
+          "descricao": "Peça teatral de Ariano Suassuna, de 1955, protagonizada por João Grilo e Chicó.",
+          "variantes": [
+            "O Auto da Compadecida"
+          ]
+        },
+        {
+          "id": "a_cesta_de_macas",
+          "nome": "A Cesta de Maçãs",
+          "descricao": "Natureza-morta a óleo de Paul Cézanne, c. 1893, com uma cesta de maçãs, uma garrafa e biscoitos sobre uma mesa, no Art Institute of Chicago.",
+          "variantes": [
+            "A Cesta de Maçãs (Cézanne)",
+            "Le panier de pommes",
+            "The Basket of Apples",
+            "A Cesta de Maçãs de Cézanne"
+          ]
+        },
+        {
+          "id": "the_last_of_us_serie",
+          "nome": "The Last of Us (série)",
+          "descricao": "Série de 2023 da HBO, baseada no jogo, sobre Joel e Ellie num mundo pós-apocalíptico.",
+          "variantes": [
+            "The Last of Us"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Retrato Chandos",
+        "descricao": "Retrato a óleo da National Portrait Gallery de Londres, pintado entre 1600 e 1610, que supostamente mostra William Shakespeare.",
+        "variantes": [
+          "Retrato Chandos (Shakespeare)",
+          "Retrato de Chandos",
+          "Chandos portrait"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "retrato_lansdowne_de_george_washington",
+          "nome": "Retrato Lansdowne de George Washington",
+          "descricao": "Retrato de corpo inteiro de George Washington, pintado por Gilbert Stuart em 1796.",
+          "variantes": [
+            "Lansdowne Portrait",
+            "Retrato Lansdowne"
+          ]
+        },
+        {
+          "id": "guerra_de_canudos",
+          "nome": "Guerra de Canudos",
+          "descricao": "Conflito entre o Exército brasileiro e a comunidade liderada por Antônio Conselheiro no sertão da Bahia, entre 1896 e 1897.",
+          "variantes": [
+            "Campanha de Canudos"
+          ]
+        },
+        {
+          "id": "candido_portinari",
+          "nome": "Candido Portinari",
+          "descricao": "Pintor brasileiro, nascido em Brodowski em 1903 e morto em 1962, autor de Os Retirantes e dos painéis Guerra e Paz.",
+          "variantes": [
+            "Portinari"
+          ]
+        },
+        {
+          "id": "aspendos",
+          "nome": "Aspendos",
+          "descricao": "Antiga cidade greco-romana na província de Antalya, na Turquia, famosa pelo teatro romano bem conservado.",
+          "variantes": [
+            "Aspendus",
+            "Teatro de Aspendos"
+          ]
+        },
+        {
+          "id": "teatro_de_aspendos",
+          "nome": "Teatro de Aspendos",
+          "descricao": "Teatro romano bem conservado da antiga cidade de Aspendos, perto de Antália, na Turquia.",
+          "variantes": [
+            "Aspendus",
+            "Teatro de Aspendo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pintura de Murillo no Louvre; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pintura de Pellizza da Volpedo; Terceiro Estado e outras são entidades diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pintura de Holbein; a de Mantegna é obra distinta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pintura de Vrubel; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Obra de Blake sobre Newton, diferente da pessoa Isaac Newton."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pintura de Velázquez; Cristo Redentor é uma estátua diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pintura do Rijksmuseum, diferente da de Dresden e das demais obras de Vermeer."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pintura de Bryullov; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Retrato Chandos é obra distinta das candidatas."
+    }
+  ]
+}
