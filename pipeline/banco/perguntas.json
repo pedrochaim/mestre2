@@ -392680,5 +392680,125 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q19807",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "cicatriz",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que proteína é o principal componente do tecido que forma esta marca na pele?",
+    "resposta": "Colágeno",
+    "distratores": [
+      "Queratina",
+      "Elastina",
+      "Melanina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scar",
+      "https://pt.wikipedia.org/wiki/Cicatriz"
+    ],
+    "imagem": {
+      "arquivo": "q19807.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Scar_(xndr).jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19808",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "amonite",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A concha fóssil desta imagem pertenceu a um molusco extinto. A que grupo de moluscos ele pertencia?",
+    "resposta": "Cefalópodes",
+    "distratores": [
+      "Gastrópodes",
+      "Bivalves",
+      "Escafópodes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ammonoidea",
+      "https://pt.wikipedia.org/wiki/Ammonoidea"
+    ],
+    "imagem": {
+      "arquivo": "q19808.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:(MHNT)_Costidiscus_recticostatus_and_Heteroceras_emericianus_-_Alpes-de-Haute-Provence,_France.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q19809",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "estaurolita",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Este mineral escuro é um silicato de alumínio e de qual metal?",
+    "resposta": "Ferro",
+    "distratores": [
+      "Cobre",
+      "Chumbo",
+      "Estanho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Staurolite",
+      "https://pt.wikipedia.org/wiki/Estaurolita"
+    ],
+    "imagem": {
+      "arquivo": "q19809.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Staurolite-37001.jpg",
+      "autor": "Robert M. Lavinsky",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q19810",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "esfalerita",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que mineral é este?",
+    "resposta": "Esfalerita",
+    "distratores": [
+      "Galena",
+      "Magnetita",
+      "Turmalina negra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sphalerite",
+      "https://pt.wikipedia.org/wiki/Esfalerita"
+    ],
+    "imagem": {
+      "arquivo": "q19810.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sphalerite_-_Iron_Cap_mine,_Graham,_Arizona,_USA.jpg",
+      "autor": "Ivar Leidus",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q19811",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "calcopirita",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Este mineral de brilho metálico amarelo é o principal minério de qual metal?",
+    "resposta": "Cobre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chalcopyrite",
+      "https://pt.wikipedia.org/wiki/Calcopirita"
+    ],
+    "imagem": {
+      "arquivo": "q19811.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chalkopyrite.jpg",
+      "autor": "VikSl Exhibit from my own collection ( V.Slyotov, http://mindraw.web.ru/ )",
+      "licenca": "CC BY 3.0"
+    }
   }
 ]

@@ -1,0 +1,42 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o tecido cicatricial é feito de colágeno. O enunciado não nomeia a cicatriz, e 'marca na pele' é vago o bastante para exigir a figura. Os distratores são proteínas críveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os amonoides são moluscos cefalópodes extintos. O enunciado não nomeia o animal e a figura é necessária para reconhecer a concha enrolada. Os distratores são outros grupos de moluscos e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fórmula no trecho (Fe2Al9...) confirma que a estaurolita é um silicato de ferro e alumínio. Magnésio e zinco só substituem o ferro em parte. O enunciado não entrega o mineral, e os distratores são metais errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta (nível 2). O enunciado não vaza nada. Os distratores são minerais escuros ou metálicos e parecidos, e nenhum descreve a esfalerita. Os trechos sustentam a identidade e as características do mineral.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'metal vermelho usado em fios elétricos' entrega 'cobre' sem a figura, então a imagem virou enfeite. O fato de que a calcopirita é o principal minério de cobre está nos trechos. Reescrevi pedindo o metal a partir do reconhecimento do mineral, sem a pista sobre o metal.",
+      "reescrita": {
+        "pergunta": "Este mineral de brilho metálico amarelo é o principal minério de qual metal?",
+        "resposta": "Cobre"
+      }
+    }
+  ]
+}

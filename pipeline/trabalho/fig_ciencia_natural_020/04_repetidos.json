@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A concha fóssil desta imagem pertenceu a um molusco extinto. A que grupo de moluscos ele pertencia?",
+        "resposta": "Cefalópodes"
+      },
+      "existentes": [
+        {
+          "id": "q02726",
+          "pergunta": "Famosos fósseis de moluscos marinhos em espiral têm nome inspirado nos chifres de carneiro de que deus egípcio?",
+          "resposta": "Amon"
+        },
+        {
+          "id": "q17174",
+          "pergunta": "Que animal extinto, comum em mares do Mesozoico, deixou este fóssil?",
+          "resposta": "Amonite"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer o grupo (cefalópodes) do molusco; as existentes pedem o deus egípcio (Amon) e o nome do animal (amonite). Saber um não implica saber o outro."
+    }
+  ]
+}

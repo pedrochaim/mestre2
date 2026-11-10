@@ -1,0 +1,154 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cicatriz bem visível no antebraço, sem texto, sem rosto.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que proteína é o principal componente do tecido que forma esta marca na pele?",
+      "resposta": "Colágeno",
+      "distratores": [
+        "Queratina",
+        "Elastina",
+        "Melanina"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cicatriz",
+        "descricao": "Área de tecido fibroso que substitui a pele normal após uma lesão.",
+        "variantes": [
+          "Tecido cicatricial"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fóssil de amonite claro, sem texto, fundo neutro, reconhecível pela concha espiralada.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A concha fóssil desta imagem pertenceu a um molusco extinto. A que grupo de moluscos ele pertencia?",
+      "resposta": "Cefalópodes",
+      "distratores": [
+        "Gastrópodes",
+        "Bivalves",
+        "Escafópodes"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Amonite",
+        "descricao": "Cefalópode extinto de concha enrolada, do subgrupo Ammonoidea, comum como fóssil.",
+        "variantes": [
+          "Amonoide",
+          "Amonóideo",
+          "Ammonoidea"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cristais escuros cruzados sobre matriz clara, sem texto; identificação difícil, por isso múltipla escolha.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este mineral escuro é um silicato de alumínio e de qual metal?",
+      "resposta": "Ferro",
+      "distratores": [
+        "Cobre",
+        "Chumbo",
+        "Estanho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estaurolita",
+        "descricao": "Mineral nesossilicato marrom-avermelhado a negro de ferro e alumínio, de cristais frequentemente geminados em cruz.",
+        "variantes": [
+          "Staurolite"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto íntima da boca de uma pessoa, com sangramento, vários dentes juntos e apinhados; o canino não é claramente destacado."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Gravura antiga de corte histológico com letras e números de legenda; diagrama difícil de ler no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Aglomerado de cristais escuros brilhantes, sem texto; reconhecimento difícil, por isso múltipla com distratores de aspecto parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este?",
+      "resposta": "Esfalerita",
+      "distratores": [
+        "Galena",
+        "Magnetita",
+        "Turmalina negra"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esfalerita",
+        "descricao": "Mineral sulfeto de zinco e ferro, o principal minério de zinco.",
+        "variantes": [
+          "Blenda",
+          "Sphalerite",
+          "Blenda de zinco"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, ilegível no celular; a lesão não é clara."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Massa mineral amarelo-latão, sem texto, com aspecto típico; risco de confusão com pirita é aceitável.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que metal vermelho, usado em fios elétricos, é extraído principalmente deste mineral amarelo?",
+      "resposta": "Cobre",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Calcopirita",
+        "descricao": "Mineral sulfeto de cobre e ferro, de cor amarelo-latão, principal minério de cobre.",
+        "variantes": [
+          "Chalcopyrite"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de microscópio desfocada; o animal não é reconhecível com clareza como tardígrado."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Close do olho de uma pessoa comum em primeiro plano; a pálpebra não é destacada de forma inequívoca."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Rocha cinza escura genérica, não distinguível de outras rochas escuras; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Peças de metal cinza prateado sem traço distintivo; indistinguível de outros metais (germânio, silício); não reconhecível."
+    }
+  ]
+}
