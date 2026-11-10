@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O letreiro 'Més que un club' nas arquibancadas é texto visível que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome 'Arena do Grêmio' aparece escrito na fachada."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada frontal clara e reconhecível; as bandeiras indicam só o país, não o palácio.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que palácio é este?",
+      "resposta": "Palácio de La Moneda",
+      "distratores": [
+        "Casa Rosada",
+        "Palácio de Miraflores",
+        "Palácio de Carondelet"
+      ],
+      "ancora": {
+        "nome": "Palácio de La Moneda",
+        "descricao": "Sede da presidência da República do Chile, no centro de Santiago.",
+        "variantes": [
+          "La Moneda",
+          "Palacio de La Moneda"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A vista aérea mostra Ipanema e Leblon juntos; o primeiro plano é ambíguo e a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Há uma pessoa comum em primeiro plano, e a fachada, de ruína genérica, não é muito reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Detalhe de templo tailandês que pode ser confundido com outros templos de Bangcoc, como o Grande Palácio ou o Wat Arun; resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de dentro do estádio, com pessoas comuns em primeiro plano e publicidade com texto; o estádio não é reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Muralha lisa e gramado, sem traços distintivos; pode ser confundida com outras fortificações, e não é reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "O grande arco é inconfundível e não há texto legível que entregue a resposta.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que seleção nacional manda os seus jogos neste estádio?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "Escócia",
+        "Alemanha",
+        "Holanda"
+      ],
+      "ancora": {
+        "nome": "Estádio de Wembley",
+        "descricao": "Estádio nacional de futebol da Inglaterra, em Wembley, Londres, inaugurado em 2007.",
+        "variantes": [
+          "Wembley Stadium",
+          "Wembley"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "A Frauenkirche e o Neues Rathaus na Marienplatz identificam a cidade; sem texto, pessoas pequenas e distantes.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Munique",
+      "distratores": [
+        "Viena",
+        "Praga",
+        "Nuremberg"
+      ],
+      "ancora": {
+        "nome": "Munique",
+        "descricao": "Capital da Baviera, na Alemanha; a vista mostra a Marienplatz, com a Frauenkirche e o Neues Rathaus.",
+        "variantes": [
+          "München",
+          "Munich"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Edifício único, de frente e sem texto; o passo adicional (o arquiteto também fez o Palacio Barolo) é sustentado pelo trecho.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "O arquiteto deste edifício usou um projeto parecido em qual palácio de Buenos Aires?",
+      "resposta": "Palacio Barolo",
+      "distratores": [
+        "Edifício Kavanagh",
+        "Casa Rosada",
+        "Teatro Colón"
+      ],
+      "ancora": {
+        "nome": "Palacio Salvo",
+        "descricao": "Arranha-céu eclético de 1928 na Plaza Independencia, em Montevidéu, projetado por Mario Palanti.",
+        "variantes": [
+          "Palácio Salvo",
+          "Salvo Palace"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "A vista aérea com a coroa de pilares é característica; os aros olímpicos no chão não entregam o nome.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que ex-jogador de futebol dá nome a este estádio?",
+      "resposta": "Garrincha (Mané Garrincha)",
+      "distratores": [
+        "Pelé",
+        "Zico",
+        "Tostão"
+      ],
+      "ancora": {
+        "nome": "Estádio Mané Garrincha",
+        "descricao": "Estádio nacional de futebol de Brasília, no Distrito Federal, reinaugurado em 2013.",
+        "variantes": [
+          "Arena Mané Garrincha",
+          "Estádio Nacional de Brasília"
+        ]
+      }
+    }
+  ]
+}

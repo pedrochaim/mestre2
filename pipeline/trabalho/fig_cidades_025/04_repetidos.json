@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que seleção nacional manda os seus jogos neste estádio?",
+        "resposta": "Inglaterra"
+      },
+      "existentes": [
+        {
+          "id": "q00528",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Wembley"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ex-jogador de futebol dá nome a este estádio?",
+        "resposta": "Garrincha (Mané Garrincha)"
+      },
+      "existentes": [
+        {
+          "id": "q02175",
+          "pergunta": "Em que cidade fica este estádio?",
+          "resposta": "Brasília"
+        },
+        {
+          "id": "q19957",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Mané Garrincha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta qual seleção joga no estádio; a existente pede o nome do estádio (Wembley). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q19957",
+      "motivo": "Quem sabe que o estádio é o Mané Garrincha sabe que o nome vem de Garrincha; mesmo fato (identidade/nome do estádio)."
+    }
+  ]
+}

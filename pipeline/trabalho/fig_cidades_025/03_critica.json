@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem vazamento; distratores são sedes presidenciais plausíveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wembley é o estádio nacional da Inglaterra e recebe a maioria dos jogos da seleção; o enunciado não nomeia o estádio e exige reconhecer a figura. Distratores são seleções críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Marienplatz com Frauenkirche e Neues Rathaus identifica Munique; enunciado sem pista, distratores são cidades germânicas/centro-europeias plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (Palanti usou projeto similar no Palacio Barolo). Porém os distratores Edifício Kavanagh e Teatro Colón não são palácios, então se eliminam pelo tipo. Troquei por palácios de Buenos Aires.",
+      "reescrita": {
+        "pergunta": "O arquiteto deste edifício usou um projeto parecido em qual palácio de Buenos Aires?",
+        "resposta": "Palacio Barolo",
+        "distratores": [
+          "Palacio Paz",
+          "Palacio San Martín",
+          "Palacio de Aguas Corrientes"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O estádio homenageia Mané Garrincha; o enunciado não entrega o nome e a figura é necessária. Distratores são ex-jogadores brasileiros famosos.",
+      "reescrita": null
+    }
+  ]
+}

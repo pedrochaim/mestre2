@@ -398282,5 +398282,105 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q20071",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "palacio_de_la_moneda",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que palácio é este?",
+    "resposta": "Palácio de La Moneda",
+    "distratores": [
+      "Casa Rosada",
+      "Palácio de Miraflores",
+      "Palácio de Carondelet"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Moneda_Palace",
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_La_Moneda"
+    ],
+    "imagem": {
+      "arquivo": "q20071.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Palacio_de_La_Moneda_-_miguelreflex.jpg",
+      "autor": "Miguel hernandez",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q20072",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "estadio_de_wembley",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que seleção nacional manda os seus jogos neste estádio?",
+    "resposta": "Inglaterra",
+    "distratores": [
+      "Escócia",
+      "Alemanha",
+      "Holanda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wembley_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_de_Wembley"
+    ],
+    "imagem": {
+      "arquivo": "q20072.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:London_Wembley.jpg",
+      "autor": "Arne Müseler",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q20073",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "munique",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que cidade é esta?",
+    "resposta": "Munique",
+    "distratores": [
+      "Viena",
+      "Praga",
+      "Nuremberg"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Munich",
+      "https://pt.wikipedia.org/wiki/Munique"
+    ],
+    "imagem": {
+      "arquivo": "q20073.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stadtbild_München.jpg",
+      "autor": "Thomas Wolf, www.foto-tw.de",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q20074",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "palacio_salvo",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O arquiteto deste edifício usou um projeto parecido em qual palácio de Buenos Aires?",
+    "resposta": "Palacio Barolo",
+    "distratores": [
+      "Palacio Paz",
+      "Palacio San Martín",
+      "Palacio de Aguas Corrientes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Palacio_Salvo",
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Salvo"
+    ],
+    "imagem": {
+      "arquivo": "q20074.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Palaciosalvouruguay.jpg",
+      "autor": "Coolcaesar",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
