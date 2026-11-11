@@ -1,0 +1,691 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Casa Branca",
+        "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+        "variantes": [
+          "White House"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        },
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "asa_branca_2",
+          "nome": "Asa-branca",
+          "descricao": "Pomba sul-americana que abandona o sertão nordestino nas secas",
+          "variantes": [
+            "Pomba asa-branca",
+            "Patagioenas picazuro",
+            "Pombão"
+          ]
+        },
+        {
+          "id": "marreca_cabocla",
+          "nome": "Marreca-cabocla",
+          "descricao": "Marreca arborícola de bico rosa e ventre preto, Dendrocygna autumnalis.",
+          "variantes": [
+            "Asa-branca",
+            "Black-bellied whistling duck",
+            "Dendrocygna autumnalis"
+          ]
+        },
+        {
+          "id": "casablanca_filme",
+          "nome": "Casablanca (filme)",
+          "descricao": "Filme americano de 1942 dirigido por Michael Curtiz, com Humphrey Bogart e Ingrid Bergman, passado no Marrocos durante a Segunda Guerra.",
+          "variantes": [
+            "Casablanca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Palazzo Vecchio",
+        "descricao": "Palácio-sede da prefeitura de Florença, na Piazza della Signoria, com sua torre de Arnolfo.",
+        "variantes": [
+          "Palácio Velho",
+          "Palazzo della Signoria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_salvo",
+          "nome": "Palacio Salvo",
+          "descricao": "Arranha-céu eclético de 1928 na Plaza Independencia, em Montevidéu, projetado por Mario Palanti.",
+          "variantes": [
+            "Salvo Palace"
+          ]
+        },
+        {
+          "id": "plinio_o_velho",
+          "nome": "Plínio, o Velho",
+          "descricao": "Naturalista e comandante naval romano, autor da História Natural, morto no ano 79.",
+          "variantes": [
+            "Caio Plínio Segundo",
+            "Pliny the Elder"
+          ]
+        },
+        {
+          "id": "palacio_barolo",
+          "nome": "Palacio Barolo",
+          "descricao": "Edifício de escritórios na Avenida de Mayo, em Buenos Aires, irmão gêmeo do Palacio Salvo de Montevidéu.",
+          "variantes": []
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        },
+        {
+          "id": "palazzetto_dello_sport",
+          "nome": "Palazzetto dello Sport",
+          "descricao": "Ginásio coberto em forma de cúpula em Roma, construído para os Jogos Olímpicos de 1960.",
+          "variantes": [
+            "PalaFlaminio",
+            "PalaTiziano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Naqsh-e Rustam",
+        "descricao": "Necrópole aquemênida com túmulos rupestres e relevos, perto de Persépolis, no Irã.",
+        "variantes": [
+          "Naqsh-e Rostam",
+          "Naqsh-i Rustam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vash_o_estouro",
+          "nome": "Vash, o Estouro",
+          "descricao": "Pistoleiro de casaco vermelho e cabelo espetado, protagonista do mangá e anime Trigun.",
+          "variantes": [
+            "Vash the Stampede"
+          ]
+        },
+        {
+          "id": "paixao_de_cristo_de_nova_jerusalem",
+          "nome": "Paixão de Cristo de Nova Jerusalém",
+          "descricao": "Espetáculo da Paixão de Cristo encenado anualmente na Semana Santa numa cidade-teatro ao ar livre em Brejo da Madre de Deus.",
+          "variantes": [
+            "Nova Jerusalém"
+          ]
+        },
+        {
+          "id": "deserto_de_lut",
+          "nome": "Deserto de Lut",
+          "descricao": "Deserto do sudeste do Irã com salares e dunas, de superfície muito quente.",
+          "variantes": [
+            "Dasht-e Lut",
+            "Deserto de Lute",
+            "Lut Desert"
+          ]
+        },
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        },
+        {
+          "id": "njinga_mbandi",
+          "nome": "Njinga Mbandi",
+          "descricao": "Rainha dos reinos de Ndongo e Matamba, no atual território de Angola, que resistiu aos portugueses no século dezessete.",
+          "variantes": [
+            "Rainha Ginga",
+            "Nzinga",
+            "Rainha Jinga",
+            "Ana de Sousa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Capitólio dos Estados Unidos",
+        "descricao": "Sede do Congresso dos Estados Unidos, em Capitol Hill, Washington, D.C.",
+        "variantes": [
+          "U.S. Capitol",
+          "Capitólio de Washington"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capitolio_dos_estados_unidos",
+          "nome": "Capitólio dos Estados Unidos",
+          "descricao": "Edifício neoclássico em Washington, sede do Congresso dos Estados Unidos.",
+          "variantes": [
+            "Capitólio",
+            "United States Capitol"
+          ]
+        },
+        {
+          "id": "us_open",
+          "nome": "US Open",
+          "descricao": "Torneio de Grand Slam de tênis disputado em Nova York, o último da temporada.",
+          "variantes": [
+            "Aberto dos Estados Unidos"
+          ]
+        },
+        {
+          "id": "the_star_spangled_banner",
+          "nome": "The Star-Spangled Banner",
+          "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814.",
+          "variantes": [
+            "Hino dos Estados Unidos",
+            "A Bandeira Estrelada"
+          ]
+        },
+        {
+          "id": "bandeira_dos_estados_unidos",
+          "nome": "Bandeira dos Estados Unidos",
+          "descricao": "Bandeira nacional dos Estados Unidos, com listras vermelhas e brancas e um retângulo azul com estrelas.",
+          "variantes": [
+            "Stars and Stripes",
+            "Old Glory"
+          ]
+        },
+        {
+          "id": "lei_seca_dos_estados_unidos",
+          "nome": "Lei Seca dos Estados Unidos",
+          "descricao": "Proibição nacional da produção, do transporte e da venda de bebidas alcoólicas nos Estados Unidos, de 1920 a 1933.",
+          "variantes": [
+            "Prohibition",
+            "Proibição"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Palácio do Catete",
+        "descricao": "Palácio no bairro do Catete, Rio de Janeiro, antiga sede da presidência da República, hoje Museu da República.",
+        "variantes": [
+          "Museu da República",
+          "Catete Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_do_catete",
+          "nome": "Palácio do Catete",
+          "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+          "variantes": [
+            "Catete Palace",
+            "Palácio Nova Friburgo"
+          ]
+        },
+        {
+          "id": "museu_nacional_da_republica",
+          "nome": "Museu Nacional da República",
+          "descricao": "Museu de cúpula branca projetado por Oscar Niemeyer, no Setor Cultural Sul de Brasília.",
+          "variantes": [
+            "Museu Nacional Honestino Guimarães",
+            "Museu Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "palacio_do_supremo_tribunal_federal",
+          "nome": "Palácio do Supremo Tribunal Federal",
+          "descricao": "Sede do Supremo Tribunal Federal na Praça dos Três Poderes, em Brasília, projetada por Oscar Niemeyer.",
+          "variantes": [
+            "Palácio do STF",
+            "Supremo Tribunal Federal"
+          ]
+        },
+        {
+          "id": "palacio_dos_leoes",
+          "nome": "Palácio dos Leões",
+          "descricao": "Sede do governo do Maranhão, em São Luís, de frente para a Baía de São Marcos.",
+          "variantes": []
+        },
+        {
+          "id": "a_republica",
+          "nome": "A República",
+          "descricao": "Diálogo de Platão, escrito por volta de 375 a.C., sobre a justiça e a cidade ideal.",
+          "variantes": [
+            "República",
+            "Politeia",
+            "The Republic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estupa de Sanchi",
+        "descricao": "Grande Estupa budista de Sanchi, em Madhya Pradesh, Índia, encomendada por Ashoka.",
+        "variantes": [
+          "Grande Estupa de Sanchi",
+          "Sanchi Stupa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_estupa_de_sanchi",
+          "nome": "Grande Estupa de Sanchi",
+          "descricao": "Monumento budista em Madhya Pradesh, Índia, uma das mais antigas construções de pedra do país.",
+          "variantes": [
+            "Estupa de Sanchi",
+            "Sanchi Stupa",
+            "Great Stupa of Sanchi"
+          ]
+        },
+        {
+          "id": "estatua_de_hachiko",
+          "nome": "Estátua de Hachiko",
+          "descricao": "Estátua de bronze do cão akita Hachiko, diante da estação de Shibuya, em Tóquio.",
+          "variantes": [
+            "Hachikō",
+            "Hachiko"
+          ]
+        },
+        {
+          "id": "buda_gigante_de_leshan",
+          "nome": "Buda Gigante de Leshan",
+          "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+          "variantes": [
+            "Grande Buda de Leshan"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Memorial a Lincoln",
+        "descricao": "Memorial em forma de templo dórico em homenagem a Abraham Lincoln, no National Mall, Washington, D.C.",
+        "variantes": [
+          "Lincoln Memorial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "memorial_de_lincoln",
+          "nome": "Memorial de Lincoln",
+          "descricao": "Memorial nacional em forma de templo clássico em Washington, D.C., em homenagem a Abraham Lincoln.",
+          "variantes": [
+            "Lincoln Memorial",
+            "Memorial a Lincoln"
+          ]
+        },
+        {
+          "id": "catedral_de_lincoln",
+          "nome": "Catedral de Lincoln",
+          "descricao": "Catedral gótica da cidade de Lincoln, na Inglaterra, cuja torre central foi concluída por volta de 1311.",
+          "variantes": [
+            "Lincoln Cathedral"
+          ]
+        },
+        {
+          "id": "lincoln_center",
+          "nome": "Lincoln Center",
+          "descricao": "Complexo de artes cênicas no Upper West Side, em Manhattan, que abriga a Metropolitan Opera e o New York City Ballet.",
+          "variantes": [
+            "Lincoln Center for the Performing Arts"
+          ]
+        },
+        {
+          "id": "memorial_de_vimy",
+          "nome": "Memorial de Vimy",
+          "descricao": "Memorial nacional canadense na França, dedicado aos soldados canadenses mortos na Primeira Guerra Mundial.",
+          "variantes": [
+            "Memorial Nacional Canadense de Vimy",
+            "Canadian National Vimy Memorial"
+          ]
+        },
+        {
+          "id": "vertebras_cervicais",
+          "nome": "Vértebras cervicais",
+          "descricao": "Vértebras que formam a coluna do pescoço.",
+          "variantes": [
+            "Cervical vertebrae",
+            "Coluna cervical"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Catedral de Santiago de Compostela",
+        "descricao": "Catedral românica na Galícia, Espanha, onde está o túmulo de São Tiago, fim do Caminho de Santiago.",
+        "variantes": [
+          "Catedral de Santiago",
+          "Santiago de Compostela Cathedral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_santiago_de_compostela",
+          "nome": "Catedral de Santiago de Compostela",
+          "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+          "variantes": [
+            "Catedral de Compostela",
+            "Santiago de Compostela Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_santo_isaac",
+          "nome": "Catedral de Santo Isaac",
+          "descricao": "Grande catedral de cúpula dourada em São Petersburgo, hoje museu.",
+          "variantes": [
+            "Catedral de São Isaac",
+            "Saint Isaac's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_cantuaria",
+          "nome": "Catedral de Cantuária",
+          "descricao": "Catedral da arquidiocese anglicana em Cantuária (Kent), na Inglaterra, sede espiritual da Igreja da Inglaterra.",
+          "variantes": [
+            "Catedral de Canterbury",
+            "Canterbury Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_metropolitana_do_rio_de_janeiro",
+          "nome": "Catedral Metropolitana do Rio de Janeiro",
+          "descricao": "Catedral cônica de concreto, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião.",
+          "variantes": [
+            "Catedral de São Sebastião do Rio de Janeiro",
+            "Catedral de São Sebastião"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Teatro de Marcelo",
+        "descricao": "Antigo teatro romano ao ar livre em Roma, concluído no fim da República e depois transformado em palácio.",
+        "variantes": [
+          "Theatrum Marcelli",
+          "Teatro di Marcello"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_de_marcelo",
+          "nome": "Teatro de Marcelo",
+          "descricao": "Teatro romano ao ar livre do fim da República, em Roma, depois convertido em palácio.",
+          "variantes": [
+            "Teatro di Marcello",
+            "Theatrum Marcelli"
+          ]
+        },
+        {
+          "id": "mamulengo",
+          "nome": "Mamulengo",
+          "descricao": "Teatro popular de bonecos de luva e vara do Nordeste, especialmente de Pernambuco.",
+          "variantes": [
+            "Teatro de mamulengo"
+          ]
+        },
+        {
+          "id": "teatro_de_aspendos",
+          "nome": "Teatro de Aspendos",
+          "descricao": "Teatro romano bem conservado da antiga cidade de Aspendos, perto de Antália, na Turquia.",
+          "variantes": [
+            "Aspendus",
+            "Teatro de Aspendo"
+          ]
+        },
+        {
+          "id": "teatro_di_san_carlo",
+          "nome": "Teatro di San Carlo",
+          "descricao": "Casa de ópera de Nápoles, na Itália, inaugurada em 1737.",
+          "variantes": [
+            "Teatro San Carlo",
+            "Teatro de São Carlos de Nápoles"
+          ]
+        },
+        {
+          "id": "teatro_de_epidauro",
+          "nome": "Teatro de Epidauro",
+          "descricao": "Teatro grego antigo do século IV a.C. no santuário de Asclépio, em Epidauro, na Grécia.",
+          "variantes": [
+            "Teatro de Epidaurus",
+            "Epidauro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Palácio de Topkapı",
+        "descricao": "Antigo palácio dos sultões otomanos em Istambul, hoje museu.",
+        "variantes": [
+          "Palácio Topkapi",
+          "Topkapı Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        },
+        {
+          "id": "catetinho",
+          "nome": "Catetinho",
+          "descricao": "Residência de madeira em Brasília, primeiro local oficial de trabalho do presidente Juscelino Kubitschek.",
+          "variantes": [
+            "Palácio de Tábuas"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "palacio_de_peterhof",
+          "nome": "Palácio de Peterhof",
+          "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, na Rússia, mandado construir por Pedro, o Grande.",
+          "variantes": [
+            "Peterhof",
+            "Petergof"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Ruínas de Gedi",
+        "descricao": "Sítio arqueológico de cidade suaíli medieval de pedra coral, no litoral do Quênia.",
+        "variantes": [
+          "Gede",
+          "Gedi",
+          "Ruins of Gedi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gene",
+          "nome": "Gene",
+          "descricao": "Unidade básica da hereditariedade, um trecho do material genético que carrega uma informação herdável.",
+          "variantes": [
+            "Genes"
+          ]
+        },
+        {
+          "id": "geodude",
+          "nome": "Geodude",
+          "descricao": "Pokémon dos tipos Pedra e Terra, número 74 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "ruinas_de_alph",
+          "nome": "Ruínas de Alph",
+          "descricao": "Ruínas antigas da região de Johto, nos jogos Pokémon Gold e Silver, com câmaras de painéis de pedra e inscrições misteriosas.",
+          "variantes": [
+            "Ruins of Alph"
+          ]
+        },
+        {
+          "id": "risca_de_giz",
+          "nome": "Risca de giz",
+          "descricao": "Estampa de listras muito finas e paralelas, comum em tecidos de ternos.",
+          "variantes": [
+            "Pinstripe",
+            "Pinstripes",
+            "Listra fina"
+          ]
+        },
+        {
+          "id": "central_nuclear_almirante_alvaro_alberto",
+          "nome": "Central Nuclear Almirante Álvaro Alberto",
+          "descricao": "Complexo de usinas nucleares de Angra dos Reis, no estado do Rio de Janeiro.",
+          "variantes": [
+            "Usinas de Angra",
+            "Angra 1 e Angra 2",
+            "Central Nuclear de Angra",
+            "CNAAA"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "casa_branca",
+      "motivo": "Mesma residência oficial do presidente dos EUA."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palazzo Vecchio de Florença."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a necrópole de Naqsh-e Rustam."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "capitolio_dos_estados_unidos",
+      "motivo": "Mesmo edifício, sede do Congresso em Washington."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "palacio_do_catete",
+      "motivo": "Mesmo palácio do Catete no Rio de Janeiro."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "grande_estupa_de_sanchi",
+      "motivo": "Mesma Grande Estupa de Sanchi, em Madhya Pradesh."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "memorial_de_lincoln",
+      "motivo": "Mesmo Lincoln Memorial em Washington."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_santiago_de_compostela",
+      "motivo": "Mesma catedral da Galícia."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "teatro_de_marcelo",
+      "motivo": "Mesmo teatro romano em Roma."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio de Topkapı."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o sítio de Gedi no Quênia."
+    }
+  ]
+}

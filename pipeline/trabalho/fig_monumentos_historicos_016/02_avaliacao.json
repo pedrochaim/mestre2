@@ -1,0 +1,272 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida da fachada sul, sem texto; emblemático e inequívoco.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que edifício é este?",
+      "resposta": "Casa Branca",
+      "distratores": [
+        "Capitólio dos Estados Unidos",
+        "Monticello",
+        "Supremo Tribunal dos EUA"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Casa Branca",
+        "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+        "variantes": [
+          "White House"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem clara e reconhecível; torre e estátua equestre visíveis, sem texto legível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século começou a construção deste palácio de Florença?",
+      "resposta": "Século treze",
+      "distratores": [
+        "Século onze",
+        "Século quinze",
+        "Século dezessete"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Palazzo Vecchio",
+        "descricao": "Palácio-sede da prefeitura de Florença, na Piazza della Signoria, com sua torre de Arnolfo.",
+        "variantes": [
+          "Palácio Velho",
+          "Palazzo della Signoria"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mostra a necrópole com a tumba rupestre e a Kaaba de Zoroastro; sem texto, resposta única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que sítio arqueológico persa é este?",
+      "resposta": "Naqsh-e Rustam",
+      "distratores": [
+        "Persépolis",
+        "Pasárgada",
+        "Behistun"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Naqsh-e Rustam",
+        "descricao": "Necrópole aquemênida com túmulos rupestres e relevos, perto de Persépolis, no Irã.",
+        "variantes": [
+          "Naqsh-e Rostam",
+          "Naqsh-i Rustam"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista frontal clara, sem texto; icônico. Troquei para o_que_e para evitar pergunta de ano.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que edifício com cúpula é este?",
+      "resposta": "Capitólio dos Estados Unidos",
+      "distratores": [
+        "Capitólio de Havana",
+        "Reichstag de Berlim",
+        "Panteão de Paris"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Capitólio dos Estados Unidos",
+        "descricao": "Sede do Congresso dos Estados Unidos, em Capitol Hill, Washington, D.C.",
+        "variantes": [
+          "U.S. Capitol",
+          "Capitólio de Washington"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Palácio reconhecível pelas águias no telhado; placa de rua minúscula não legível. Pessoas ao fundo, pequenas.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década começou a construção deste palácio carioca?",
+      "resposta": "Década de 1850",
+      "distratores": [
+        "Década de 1830",
+        "Década de 1870",
+        "Década de 1890"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Palácio do Catete",
+        "descricao": "Palácio no bairro do Catete, Rio de Janeiro, antiga sede da presidência da República, hoje Museu da República.",
+        "variantes": [
+          "Museu da República",
+          "Catete Palace"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Grande Estupa com torana, sem texto; reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi encomendada esta estupa budista da Índia?",
+      "resposta": "Século três antes de Cristo",
+      "distratores": [
+        "Século seis antes de Cristo",
+        "Século um depois de Cristo",
+        "Século quatro depois de Cristo"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Estupa de Sanchi",
+        "descricao": "Grande Estupa budista de Sanchi, em Madhya Pradesh, Índia, encomendada por Ashoka.",
+        "variantes": [
+          "Grande Estupa de Sanchi",
+          "Sanchi Stupa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do templo dórico, sem texto legível; pessoas pequenas e anônimas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que memorial de Washington é este?",
+      "resposta": "Memorial a Lincoln",
+      "distratores": [
+        "Memorial a Jefferson",
+        "Templo de Hefesto",
+        "Partenon"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Memorial a Lincoln",
+        "descricao": "Memorial em forma de templo dórico em homenagem a Abraham Lincoln, no National Mall, Washington, D.C.",
+        "variantes": [
+          "Lincoln Memorial"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada do Obradoiro nítida, sem texto; inequívoca.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século começou a construção desta catedral espanhola?",
+      "resposta": "Século onze",
+      "distratores": [
+        "Século nove",
+        "Século treze",
+        "Século quinze"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Catedral de Santiago de Compostela",
+        "descricao": "Catedral românica na Galícia, Espanha, onde está o túmulo de São Tiago, fim do Caminho de Santiago.",
+        "variantes": [
+          "Catedral de Santiago",
+          "Santiago de Compostela Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Teatro e colunas do Templo de Apolo visíveis, sem texto; parece o Coliseu, bom para distinguir.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que monumento da Roma antiga é este?",
+      "resposta": "Teatro de Marcelo",
+      "distratores": [
+        "Coliseu",
+        "Arena de Verona",
+        "Teatro de Orange"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Teatro de Marcelo",
+        "descricao": "Antigo teatro romano ao ar livre em Roma, concluído no fim da República e depois transformado em palácio.",
+        "variantes": [
+          "Theatrum Marcelli",
+          "Teatro di Marcello"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista do Bósforo, palácio reconhecível pela torre e cúpulas, sem texto legível; um pouco distante, aceitável em nível 3.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que sultão mandou construir este palácio de Istambul?",
+      "resposta": "Mehmed II, o Conquistador",
+      "distratores": [
+        "Solimão, o Magnífico",
+        "Selim I",
+        "Abdulhamid II"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Palácio de Topkapı",
+        "descricao": "Antigo palácio dos sultões otomanos em Istambul, hoje museu.",
+        "variantes": [
+          "Palácio Topkapi",
+          "Topkapı Palace"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ruínas de pedra coral sem texto; sítio de aficionado, por isso múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ruínas da costa leste africana são estas?",
+      "resposta": "Ruínas de Gedi",
+      "distratores": [
+        "Kilwa Kisiwani",
+        "Great Zimbabwe",
+        "Ilha de Moçambique"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Ruínas de Gedi",
+        "descricao": "Sítio arqueológico de cidade suaíli medieval de pedra coral, no litoral do Quênia.",
+        "variantes": [
+          "Gede",
+          "Gedi",
+          "Ruins of Gedi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A fachada traz 'THEATRO MUNICIPAL' escrito em letras grandes, além de um banner, o que entrega a resposta."
+    }
+  ]
+}

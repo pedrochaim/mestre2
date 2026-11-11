@@ -1,0 +1,160 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que edifício é este?",
+        "resposta": "Casa Branca"
+      },
+      "existentes": [
+        {
+          "id": "q04691",
+          "pergunta": "Que estilo arquitetônico tem este edifício, projetado por um arquiteto irlandês?",
+          "resposta": "Neoclássico"
+        },
+        {
+          "id": "q08670",
+          "pergunta": "Que presidente americano foi o primeiro a morar neste edifício?",
+          "resposta": "John Adams"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que edifício com cúpula é este?",
+        "resposta": "Capitólio dos Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q06923",
+          "pergunta": "Que edifício neoclássico americano é este?",
+          "resposta": "Capitólio dos Estados Unidos"
+        },
+        {
+          "id": "q08666",
+          "pergunta": "Que instituição tem a sua sede neste edifício?",
+          "resposta": "Congresso dos Estados Unidos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que década começou a construção deste palácio carioca?",
+        "resposta": "Década de 1850"
+      },
+      "existentes": [
+        {
+          "id": "q08465",
+          "pergunta": "Sede da Presidência até 1960 e palco da morte de Getúlio Vargas, o Palácio do Catete, no Rio, foi transformado em qual museu?",
+          "resposta": "Museu da República"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que século foi encomendada esta estupa budista da Índia?",
+        "resposta": "Século três a.C."
+      },
+      "existentes": [
+        {
+          "id": "q17362",
+          "pergunta": "Que imperador encomendou originalmente o núcleo desta estupa, uma das mais antigas construções de pedra da Índia?",
+          "resposta": "Ashoka"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que memorial de Washington é este?",
+        "resposta": "Memorial a Lincoln"
+      },
+      "existentes": [
+        {
+          "id": "q05977",
+          "pergunta": "Que estilo arquitetônico tem este edifício?",
+          "resposta": "Neoclássico"
+        },
+        {
+          "id": "q08462",
+          "pergunta": "Numa das paredes do Memorial a Lincoln, em Washington, está gravado qual discurso do presidente, feito num cemitério militar em 1863?",
+          "resposta": "Discurso de Gettysburg"
+        },
+        {
+          "id": "q09131",
+          "pergunta": "Que templo da Acrópole de Atenas serviu de modelo para o memorial de Washington em cujos degraus Martin Luther King fez o discurso Eu tenho um sonho?",
+          "resposta": "Partenon"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que século começou a construção desta catedral espanhola?",
+        "resposta": "Século onze"
+      },
+      "existentes": [
+        {
+          "id": "q03544",
+          "pergunta": "Os peregrinos que caminham até a catedral de Compostela, na Galícia, vão em busca do túmulo atribuído a qual apóstolo?",
+          "resposta": "São Tiago Maior"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que monumento da Roma antiga é este?",
+        "resposta": "Teatro de Marcelo"
+      },
+      "existentes": [
+        {
+          "id": "q18278",
+          "pergunta": "Em que cidade fica este teatro da Antiguidade?",
+          "resposta": "Roma"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o edifício é um fato diferente de estilo ou primeiro morador."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do edifício como Capitólio dos Estados Unidos.",
+      "id_existente": "q06923"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Década de início da construção difere do museu em que foi transformado."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Século da encomenda difere de quem encomendou."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o memorial é diferente de estilo, discurso gravado ou modelo grego."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Século da construção difere do apóstolo cujo túmulo é buscado."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nome do monumento difere da cidade onde fica."
+    }
+  ]
+}

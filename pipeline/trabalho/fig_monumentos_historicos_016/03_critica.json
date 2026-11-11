@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho em português: construção começou em 1299, século treze. Enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sítio persa, resposta única; distratores do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento válida; distratores com cúpula, plausíveis e nenhum correto para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho em inglês: construção começou em 1858, década de 1850. Distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (século três a.C., Ashoka), mas dois distratores passam de 4 palavras. Encurtei as alternativas.",
+      "reescrita": {
+        "pergunta": "Em que século foi encomendada esta estupa budista da Índia?",
+        "resposta": "Século três a.C.",
+        "distratores": [
+          "Século seis a.C.",
+          "Século um d.C.",
+          "Século quatro d.C."
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado diz \"de Washington\", então Templo de Hefesto e Partenon ficam eliminados sem olhar a figura. Troquei por memoriais de Washington, D.C.",
+      "reescrita": {
+        "pergunta": "Que memorial de Washington é este?",
+        "resposta": "Memorial a Lincoln",
+        "distratores": [
+          "Memorial a Jefferson",
+          "Memorial a Roosevelt",
+          "Memorial a Martin Luther King"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obras da catedral românica começaram em 1075, século onze. Distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento válido; distratores são teatros ou anfiteatros romanos parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho: construção ordenada por Mehmed, o Conquistador, a partir de 1459. Distratores são sultões otomanos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta \"Ruínas de Gedi\" repete a palavra \"ruínas\" do enunciado. Great Zimbabwe é interior, não costeiro, e a Ilha de Moçambique não é ruína; os dois não são plausíveis. Troquei por sítios suaílis costeiros.",
+      "reescrita": {
+        "pergunta": "Que cidade suaíli medieval, hoje em ruínas, é esta?",
+        "resposta": "Gedi",
+        "distratores": [
+          "Kilwa Kisiwani",
+          "Songo Mnara",
+          "Kaole"
+        ]
+      }
+    }
+  ]
+}
