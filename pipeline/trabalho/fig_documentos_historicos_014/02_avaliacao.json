@@ -1,0 +1,162 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estátua da Liberdade nítida, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurada esta estátua, presente da França aos Estados Unidos?",
+      "resposta": "1886",
+      "distratores": [
+        "1876",
+        "1881",
+        "1893"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estátua da Liberdade",
+        "descricao": "Colossal estátua de cobre na Ilha da Liberdade, no porto de Nova York, presente da França aos Estados Unidos.",
+        "variantes": [
+          "Statue of Liberty",
+          "A Liberdade Iluminando o Mundo",
+          "Lady Liberty"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Canhão do Czar claro, sem legenda legível que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este enorme canhão de bronze, fundido no século dezesseis, nunca foi usado em guerra. Em que lugar de Moscou fica exposto?",
+      "resposta": "Kremlin",
+      "distratores": [
+        "Museu Hermitage",
+        "Catedral de São Basílio",
+        "Parque Gorki"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Canhão do Czar",
+        "descricao": "Grande bombarda de bronze fundida em 1586 por Andrey Chokhov, exposta no Kremlin de Moscou.",
+        "variantes": [
+          "Tsar Cannon",
+          "Tsar Pushka",
+          "Czar Pushka"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de painel com legendas em vários idiomas e título com o nome do mapa e da cidade; mapa com legendas."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Máscara de bico e chapéu reconhecíveis, sem texto; imagem pequena mas legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta máscara em forma de bico fazia parte da roupa de médicos europeus. Contra que doença eles tentavam se proteger?",
+      "resposta": "Peste bubônica",
+      "distratores": [
+        "Cólera",
+        "Varíola",
+        "Tuberculose"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Máscara de médico da peste",
+        "descricao": "Máscara em forma de bico de ave, parte da roupa usada por médicos que tratavam doentes de peste na Europa a partir do século dezessete.",
+        "variantes": [
+          "Plague doctor mask",
+          "Médico da peste",
+          "Máscara de bico"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A placa 'Babyfenster' entrega a resposta e a imagem mostra uma janela moderna, não uma roda dos expostos."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Esfera polida com quatro antenas, inconfundível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este objeto de metal polido foi lançado ao espaço em 1957. Que país o lançou?",
+      "resposta": "União Soviética",
+      "distratores": [
+        "Estados Unidos",
+        "Reino Unido",
+        "Alemanha"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Sputnik 1",
+        "descricao": "Primeiro satélite artificial da Terra, esfera metálica lançada pela União Soviética em 1957.",
+        "variantes": [
+          "Sputnik",
+          "Sputnik-1"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Mapa com muitas legendas em texto, incluindo nomes de lugares que entregam a identificação; não é legível num celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Torre Eiffel de frente, sem texto; fácil, mas boa para nível 1.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta torre de ferro foi erguida como entrada de qual grande evento de 1889?",
+      "resposta": "Exposição Universal de Paris",
+      "distratores": [
+        "Feira Mundial de Chicago",
+        "Exposição do Centenário",
+        "Exposição Universal de Londres"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Torre Eiffel",
+        "descricao": "Torre de ferro em treliça no Champ de Mars, em Paris, construída para a Exposição Universal de 1889.",
+        "variantes": [
+          "Eiffel Tower",
+          "Tour Eiffel"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O nome 'ENOLA GAY' está escrito na fuselagem e há pessoas comuns (tripulação) em primeiro plano."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto escura e enevoada de casco em museu, com texto visível ('transom', 'SGB'); pouco reconhecível e confundível com outros navios resgatados, como o Vasa."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A gravura é de uma pessoa escravizada anônima, atribuída a Anastácia só pela tradição popular; identificação imprecisa, sem resposta única segura."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto mostra uma réplica da pedra em Scone Palace, não a Pedra do Destino original; resposta ambígua diante da imagem."
+    }
+  ]
+}

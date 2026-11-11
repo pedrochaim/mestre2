@@ -1,0 +1,331 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estátua da Liberdade",
+        "descricao": "Colossal estátua de cobre na Ilha da Liberdade, no porto de Nova York, presente da França aos Estados Unidos.",
+        "variantes": [
+          "Statue of Liberty",
+          "A Liberdade Iluminando o Mundo",
+          "Lady Liberty"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_da_liberdade",
+          "nome": "Estátua da Liberdade",
+          "descricao": "Estátua de cobre presenteada pela França, na Ilha da Liberdade, em Nova York.",
+          "variantes": [
+            "Statue of Liberty",
+            "A Liberdade Iluminando o Mundo",
+            "Liberdade Iluminando o Mundo"
+          ]
+        },
+        {
+          "id": "praca_da_liberdade_belo_horizonte",
+          "nome": "Praça da Liberdade (Belo Horizonte)",
+          "descricao": "Praça e conjunto arquitetônico na região da Savassi, em Belo Horizonte, ao redor do Palácio da Liberdade.",
+          "variantes": [
+            "Praça da Liberdade"
+          ]
+        },
+        {
+          "id": "ilha_da_liberdade",
+          "nome": "Ilha da Liberdade",
+          "descricao": "Ilha da Upper New York Bay onde fica a Estátua da Liberdade, antes chamada Bedloe's Island.",
+          "variantes": [
+            "Liberty Island",
+            "Ilha de Bedloe"
+          ]
+        },
+        {
+          "id": "a_liberdade_guiando_o_povo",
+          "nome": "A Liberdade Guiando o Povo",
+          "descricao": "Quadro de Eugène Delacroix, de 1830.",
+          "variantes": [
+            "Liberty Leading the People",
+            "La Liberté guidant le peuple",
+            "Liberdade Guiando o Povo"
+          ]
+        },
+        {
+          "id": "barrete_frigio",
+          "nome": "Barrete frígio",
+          "descricao": "Gorro cônico macio com a ponta dobrada para a frente, usado na Antiguidade e depois símbolo de liberdade na Revolução Francesa.",
+          "variantes": [
+            "Gorro frígio",
+            "Barrete da liberdade",
+            "Phrygian cap"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Canhão do Czar",
+        "descricao": "Grande bombarda de bronze fundida em 1586 por Andrey Chokhov, exposta no Kremlin de Moscou.",
+        "variantes": [
+          "Tsar Cannon",
+          "Tsar Pushka",
+          "Czar Pushka"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canhao_de_paris",
+          "nome": "Canhão de Paris",
+          "descricao": "Canhão alemão de longuíssimo alcance usado em 1918 para bombardear Paris a partir de posições muito distantes da cidade.",
+          "variantes": [
+            "Paris-Geschütz",
+            "Paris Gun",
+            "Kaiser-Wilhelm-Geschütz"
+          ]
+        },
+        {
+          "id": "iemanja",
+          "nome": "Iemanjá",
+          "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+          "variantes": [
+            "Yemanjá",
+            "Janaína",
+            "Rainha do Mar"
+          ]
+        },
+        {
+          "id": "castanha_do_para",
+          "nome": "Castanha-do-pará",
+          "descricao": "Semente da castanheira amazônica Bertholletia excelsa, vendida como fruto seco.",
+          "variantes": [
+            "Castanha-do-brasil",
+            "Brazil nut",
+            "Bertholletia excelsa"
+          ]
+        },
+        {
+          "id": "tubarao_anjo",
+          "nome": "Tubarão-anjo",
+          "descricao": "Tubarão de corpo achatado do gênero Squatina, que vive no fundo arenoso e lembra uma raia.",
+          "variantes": [
+            "Anjo-do-mar",
+            "Squatina",
+            "Angel shark"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Máscara de médico da peste",
+        "descricao": "Máscara em forma de bico de ave, parte da roupa usada por médicos que tratavam doentes de peste na Europa a partir do século dezessete.",
+        "variantes": [
+          "Plague doctor mask",
+          "Médico da peste",
+          "Máscara de bico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mascara_de_medico_da_peste",
+          "nome": "Máscara de médico da peste",
+          "descricao": "Máscara de bico longo do Carnaval de Veneza, inspirada no traje dos médicos que tratavam a peste.",
+          "variantes": [
+            "Medico della peste",
+            "Máscara de bico"
+          ]
+        },
+        {
+          "id": "mascara_de_marfim_da_rainha_idia",
+          "nome": "Máscara de marfim da rainha Idia",
+          "descricao": "Máscara-pendente de marfim do século dezesseis que retrata Idia, primeira rainha-mãe (Iyoba) do Reino do Benin.",
+          "variantes": [
+            "Máscara de Idia",
+            "Benin ivory mask",
+            "Máscara de marfim do Benin"
+          ]
+        },
+        {
+          "id": "homem_mascarado_pokemon_adventures",
+          "nome": "Homem Mascarado (Pokémon Adventures)",
+          "descricao": "Vilão mascarado do arco de Gold, Silver e Crystal do mangá Pokémon Adventures, que sequestra crianças e rouba pokémon em Johto.",
+          "variantes": [
+            "Masked Man",
+            "Mascarado de Gelo",
+            "Kamen no Otoko"
+          ]
+        },
+        {
+          "id": "grao_de_bico",
+          "nome": "Grão-de-bico",
+          "descricao": "Semente da leguminosa Cicer arietinum, usada no homus e no falafel.",
+          "variantes": [
+            "Chickpea",
+            "Garbanzo"
+          ]
+        },
+        {
+          "id": "emilia",
+          "nome": "Emília",
+          "descricao": "Boneca de pano falante do Sítio do Picapau Amarelo, de Monteiro Lobato.",
+          "variantes": [
+            "Boneca Emília",
+            "Emília (personagem)",
+            "Marquesa de Rabicó"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sputnik 1",
+        "descricao": "Primeiro satélite artificial da Terra, esfera metálica lançada pela União Soviética em 1957.",
+        "variantes": [
+          "Sputnik"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sputnik_1",
+          "nome": "Sputnik 1",
+          "descricao": "Primeiro satélite artificial da Terra, lançado pela União Soviética em 1957.",
+          "variantes": [
+            "Sputnik"
+          ]
+        },
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "spike_spiegel",
+          "nome": "Spike Spiegel",
+          "descricao": "Caçador de recompensas protagonista do anime Cowboy Bebop.",
+          "variantes": [
+            "Spike"
+          ]
+        },
+        {
+          "id": "rasputin",
+          "nome": "Rasputin",
+          "descricao": "Místico russo que ganhou influência na corte do czar Nicolau II.",
+          "variantes": [
+            "Grigori Rasputin",
+            "Grigori Yefimovich Rasputin"
+          ]
+        },
+        {
+          "id": "sopro_das_baleias",
+          "nome": "Sopro das baleias",
+          "descricao": "Jato visível que os cetáceos soltam pelo espiráculo ao expirar na superfície.",
+          "variantes": [
+            "Borrifo",
+            "Spout"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Torre Eiffel",
+        "descricao": "Torre de ferro em treliça no Champ de Mars, em Paris, construída para a Exposição Universal de 1889.",
+        "variantes": [
+          "Eiffel Tower",
+          "Tour Eiffel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_eiffel",
+          "nome": "Torre Eiffel",
+          "descricao": "Torre de ferro forjado no Campo de Marte, em Paris, inaugurada em 1889.",
+          "variantes": [
+            "Tour Eiffel",
+            "Eiffel Tower"
+          ]
+        },
+        {
+          "id": "torre_do_diabo",
+          "nome": "Torre do Diabo",
+          "descricao": "Grande rochedo de colunas de rocha ígnea no nordeste do Wyoming, nos Estados Unidos.",
+          "variantes": [
+            "Devils Tower"
+          ]
+        },
+        {
+          "id": "turffield",
+          "nome": "Turffield",
+          "descricao": "Vilarejo rural da região de Galar, nos jogos Pokémon Sword e Shield, onde fica o ginásio de Planta de Milo e um grande desenho antigo num morro.",
+          "variantes": []
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "torre_wardenclyffe",
+          "nome": "Torre Wardenclyffe",
+          "descricao": "Estação experimental de transmissão sem fio construída em Shoreham, Nova York, entre 1901 e 1902, e demolida em 1917.",
+          "variantes": [
+            "Wardenclyffe Tower",
+            "Torre Tesla"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "estatua_da_liberdade",
+      "motivo": "Mesma estátua em Nova York, descrições e variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Canhão do Czar (bombarda de Moscou) não corresponde a nenhuma candidata; Canhão de Paris é outro objeto."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "mascara_de_medico_da_peste",
+      "motivo": "Mesma máscara de bico do médico da peste; nome e variantes iguais, descrição compatível."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "sputnik_1",
+      "motivo": "Mesmo primeiro satélite artificial soviético de 1957."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "torre_eiffel",
+      "motivo": "Mesma torre de ferro em Paris, inaugurada em 1889."
+    }
+  ]
+}

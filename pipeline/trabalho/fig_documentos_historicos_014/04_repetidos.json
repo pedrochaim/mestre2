@@ -1,0 +1,143 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi inaugurada esta colossal estátua de cobre?",
+        "resposta": "1886"
+      },
+      "existentes": [
+        {
+          "id": "q02008",
+          "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+          "resposta": "Oxidação do cobre"
+        },
+        {
+          "id": "q02018",
+          "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+          "resposta": "Torre Eiffel"
+        },
+        {
+          "id": "q07509",
+          "pergunta": "Na mão esquerda, a Estátua da Liberdade segura uma tábua com uma data gravada em algarismos romanos. Que data é essa?",
+          "resposta": "4 de julho de 1776"
+        },
+        {
+          "id": "q17587",
+          "pergunta": "Que escultor francês projetou esta estátua?",
+          "resposta": "Frédéric Auguste Bartholdi"
+        },
+        {
+          "id": "q18975",
+          "pergunta": "Quantos raios pontiagudos formam a coroa da Estátua da Liberdade, em Nova York?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta máscara fazia parte da roupa de médicos europeus no século dezessete. Contra que doença eles tentavam se proteger?",
+        "resposta": "Peste bubônica"
+      },
+      "existentes": [
+        {
+          "id": "q06635",
+          "pergunta": "No Carnaval de Veneza, uma das máscaras mais conhecidas tem um longo bico curvo. Ela imita o traje de qual profissional do século dezessete?",
+          "resposta": "Médico da peste"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este objeto esférico de metal polido foi lançado em órbita da Terra no século vinte. Que país o lançou?",
+        "resposta": "União Soviética"
+      },
+      "existentes": [
+        {
+          "id": "q00560",
+          "pergunta": "O primeiro satélite artificial, lançado pelos soviéticos, tem um nome russo que pode ser traduzido como o quê?",
+          "resposta": "Companheiro de viagem"
+        },
+        {
+          "id": "q00593",
+          "pergunta": "Em que ano a União Soviética lançou o Sputnik, o primeiro satélite artificial, dando início à corrida espacial?",
+          "resposta": "1957"
+        },
+        {
+          "id": "q03911",
+          "pergunta": "O lançamento do satélite soviético Sputnik, em 1957, levou os Estados Unidos a criar no ano seguinte qual agência espacial?",
+          "resposta": "Nasa"
+        },
+        {
+          "id": "q15804",
+          "pergunta": "Quem foi o engenheiro-chefe do programa que construiu este satélite?",
+          "resposta": "Sergei Korolev"
+        },
+        {
+          "id": "q16835",
+          "pergunta": "Lançado pela União Soviética em 1957, o Sputnik 1 era uma esfera metálica polida com quantas antenas compridas?",
+          "resposta": "Quatro"
+        },
+        {
+          "id": "q17285",
+          "pergunta": "O Sputnik 1 não tinha câmeras. O que ele fazia em órbita que radioamadores do mundo todo conseguiam captar?",
+          "resposta": "Emitia bipes de rádio"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Esta torre de ferro foi construída para uma grande feira mundial. Em que ano ela ficou pronta?",
+        "resposta": "1889"
+      },
+      "existentes": [
+        {
+          "id": "q02010",
+          "pergunta": "Em 1889, ano do centenário da Revolução Francesa, a Torre Eiffel foi erguida para servir de entrada a qual evento?",
+          "resposta": "A Exposição Universal de Paris"
+        },
+        {
+          "id": "q02516",
+          "pergunta": "Que monumento francês é este?",
+          "resposta": "Torre Eiffel"
+        },
+        {
+          "id": "q03174",
+          "pergunta": "A Torre Eiffel foi erguida para uma Exposição Universal que marcava o centenário de que acontecimento histórico?",
+          "resposta": "Revolução Francesa"
+        },
+        {
+          "id": "q19851",
+          "pergunta": "Em que ano foi concluída a construção desta torre?",
+          "resposta": "1889"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ano de inauguração da Estátua da Liberdade não é perguntado em nenhuma existente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Existente pergunta o profissional imitado pela máscara; nova pergunta a doença. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Existentes cobrem nome, ano, Nasa, engenheiro, antenas e bipes; país lançador só aparece no enunciado de outras perguntas, e não como o fato perguntado (quem responder a nenhuma delas saberia necessariamente). Fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q19851",
+      "motivo": "Ambas perguntam o ano de conclusão da Torre Eiffel: 1889."
+    }
+  ]
+}

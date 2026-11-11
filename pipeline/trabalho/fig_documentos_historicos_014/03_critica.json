@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'presente da França aos Estados Unidos' entrega a estátua sem olhar a figura. Inauguração em 28 de outubro de 1886 confirmada nos trechos. Distratores ok.",
+      "reescrita": {
+        "pergunta": "Em que ano foi inaugurada esta colossal estátua de cobre?",
+        "resposta": "1886",
+        "distratores": [
+          "1876",
+          "1881",
+          "1893"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Enorme canhão... nunca usado em guerra' é a descrição famosa do Canhão do Czar, então a figura vira enfeite. Além disso, o Hermitage fica em São Petersburgo, não em Moscou, e é distrator fraco. Fato do Kremlin confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Este canhão de bronze, fundido no século dezesseis, está exposto em Moscou. Em que lugar da cidade?",
+        "resposta": "Kremlin",
+        "distratores": [
+          "Catedral de São Basílio",
+          "Parque Gorki",
+          "Convento Novodevichy"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Máscara em forma de bico' de médicos europeus já entrega a peste sem ver a figura. Retirar a pista e situar na época (século dezessete, confirmado no trecho).",
+      "reescrita": {
+        "pergunta": "Esta máscara fazia parte da roupa de médicos europeus no século dezessete. Contra que doença eles tentavam se proteger?",
+        "resposta": "Peste bubônica",
+        "distratores": [
+          "Cólera",
+          "Varíola",
+          "Tuberculose"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Objeto lançado ao espaço em 1957' permite responder União Soviética sem a imagem (conhecimento geral do primeiro satélite). Retirar o ano.",
+      "reescrita": {
+        "pergunta": "Este objeto esférico de metal polido foi lançado em órbita da Terra no século vinte. Que país o lançou?",
+        "resposta": "União Soviética",
+        "distratores": [
+          "Estados Unidos",
+          "Reino Unido",
+          "Alemanha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Torre de ferro' e 'grande evento de 1889' permitem responder sem a imagem, e a resposta 'Exposição Universal de Paris' é ambígua (Paris sediou várias exposições). Mudar para o ano de conclusão, em múltipla escolha, sem a data no enunciado.",
+      "reescrita": {
+        "pergunta": "Esta torre de ferro foi construída para uma grande feira mundial. Em que ano ela ficou pronta?",
+        "resposta": "1889",
+        "distratores": [
+          "1867",
+          "1878",
+          "1900"
+        ]
+      }
+    }
+  ]
+}
