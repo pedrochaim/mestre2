@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que naipe do baralho é este?",
+        "resposta": "Espadas"
+      },
+      "existentes": [
+        {
+          "id": "q15448",
+          "pergunta": "Que naipe do baralho é este?",
+          "resposta": "Espadas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15448",
+      "motivo": "Pergunta e resposta idênticas: naipe de espadas."
+    }
+  ]
+}

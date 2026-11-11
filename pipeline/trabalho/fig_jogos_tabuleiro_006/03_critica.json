@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Com uma entrada e uma saída\" descreve o labirinto e dá a resposta sem olhar a figura. A pista precisa sair.",
+      "reescrita": {
+        "pergunta": "Que passatempo é este?",
+        "resposta": "Labirinto",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Pinos de marfim\" não está nos trechos e é um detalhe não verificado. Os pinos em furos ainda ajudam a restringir a resposta, mas o enunciado fica mais seguro só com o jogo de tabuleiro do Egito Antigo.",
+      "reescrita": {
+        "pergunta": "Que jogo de tabuleiro do Egito Antigo é este?",
+        "resposta": "Cães e chacais",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. Os distratores são os outros três naipes, do mesmo tipo e com poucas palavras. Nenhum deles também descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a carta. O número doze é confirmado pelos trechos, e os distratores são números vizinhos, críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma que a figura é uma pintura e que mostra uma jovem. Isso não consta em `mostra`, que só descreve o jogo, então não dá para confirmar. Na dúvida, descarta-se.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o jogo nem a obra, e o pôquer é confirmado pelos trechos. Os distratores são jogos de cartas críveis, e nenhum deles é o jogo da pintura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A naturalização francesa em 1978 está na Wikipédia em português. O enunciado não nomeia o enxadrista nem entrega a resposta. A figura continua necessária para reconhecê-lo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A posição 1.e4 c5 é a Defesa Siciliana, e o enunciado não nomeia a abertura. Para reconhecer a posição é preciso olhar a figura.",
+      "reescrita": null
+    }
+  ]
+}

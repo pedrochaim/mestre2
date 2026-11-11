@@ -12,7 +12,7 @@
       "titulo": "en:Spades (suit)",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ouros (naipe)",
@@ -166,7 +166,7 @@
       "titulo": "en:Knucklebones",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Baralho espanhol",
@@ -404,7 +404,7 @@
       "titulo": "en:The Magician (Tarot card)",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "A Roda da Fortuna (tarô)",
@@ -467,7 +467,7 @@
       "titulo": "en:Hounds and jackals",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Alquerque",
@@ -530,7 +530,7 @@
       "titulo": "en:Sicilian Defence",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "En passant",
@@ -556,6 +556,286 @@
     {
       "nome": "Minchiate",
       "titulo": "en:Minchiate",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Twister",
+      "titulo": "en:Twister (game)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jogo dos pontinhos",
+      "titulo": "en:Dots and boxes",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caça-palavras",
+      "titulo": "en:Word search",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rummikub",
+      "titulo": "en:Rummikub",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachorros jogando pôquer",
+      "titulo": "en:Dogs Playing Poker",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ligue os pontos",
+      "titulo": "en:Connect the dots",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Labirinto",
+      "titulo": "en:Maze",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Paciência (Klondike)",
+      "titulo": "en:Klondike (solitaire)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cubo mágico 2x2",
+      "titulo": "en:Pocket Cube",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "O Sol (tarô)",
+      "titulo": "en:The Sun (tarot card)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Lua (tarô)",
+      "titulo": "en:The Moon (tarot card)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Os Enamorados (tarô)",
+      "titulo": "en:The Lovers",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "O Enforcado (tarô)",
+      "titulo": "en:The Hanged Man (tarot card)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "A Estrela (tarô)",
+      "titulo": "en:The Star (tarot card)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "O Imperador (tarô)",
+      "titulo": "en:The Emperor (tarot card)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jogo do ganso",
+      "titulo": "en:Game of the Goose",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rapa-tudo",
+      "titulo": "en:Teetotum",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dados de pôquer",
+      "titulo": "en:Poker dice",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bacará",
+      "titulo": "en:Baccarat",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Os Jogadores de Cartas",
+      "titulo": "en:The Card Players",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "O Trapaceiro com o Ás de Ouros",
+      "titulo": "en:The Cheat with the Ace of Diamonds",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boris Spassky",
+      "titulo": "en:Boris Spassky",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Hikaru Nakamura",
+      "titulo": "en:Hikaru Nakamura",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cubo mágico 4x4",
+      "titulo": "en:Rubik's Revenge",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Os Trapaceiros (Caravaggio)",
+      "titulo": "en:The Cardsharps",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abalone",
+      "titulo": "en:Abalone (board game)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cribbage",
+      "titulo": "en:Cribbage",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Halma",
+      "titulo": "en:Halma",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bao",
+      "titulo": "en:Bao (game)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sic bo",
+      "titulo": "en:Sic bo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Shatranj",
+      "titulo": "en:Shatranj",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Livro dos Jogos de Afonso X",
+      "titulo": "en:Libro de los juegos",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ludus latrunculorum",
+      "titulo": "en:Ludus latrunculorum",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "The Landlord's Game",
+      "titulo": "en:The Landlord's Game",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Kriegsspiel",
+      "titulo": "en:Kriegsspiel",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Baralho alemão",
+      "titulo": "en:German-suited playing cards",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nonograma",
+      "titulo": "en:Nonogram",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Skewb",
+      "titulo": "en:Skewb",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Emanuel Lasker",
+      "titulo": "en:Emanuel Lasker",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mu tōrere",
+      "titulo": "en:Mu tōrere",
       "camada": 3,
       "destino": 0,
       "status": "nova"

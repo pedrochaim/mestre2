@@ -1,0 +1,417 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Labirinto",
+        "descricao": "Passatempo em que se busca um caminho entre paredes, da entrada até a saída.",
+        "variantes": [
+          "Maze",
+          "Labyrinth"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "orelha_interna",
+          "nome": "Orelha interna",
+          "descricao": "Parte mais profunda do ouvido humano, formada pela cóclea e pelo sistema vestibular.",
+          "variantes": [
+            "Ouvido interno",
+            "Labirinto"
+          ]
+        },
+        {
+          "id": "labirinto_de_creta",
+          "nome": "Labirinto de Creta",
+          "descricao": "Construção lendária do rei Minos, em Creta, onde vivia o Minotauro.",
+          "variantes": [
+            "Labirinto do Minotauro",
+            "Labyrinth"
+          ]
+        },
+        {
+          "id": "milho",
+          "nome": "Milho",
+          "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+          "variantes": [
+            "Zea mays",
+            "Maize",
+            "Maís"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "erva_mate",
+          "nome": "Erva-mate",
+          "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+          "variantes": [
+            "Ilex paraguariensis",
+            "mate",
+            "yerba mate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cães e chacais",
+        "descricao": "Antigo jogo de tabuleiro egípcio de 58 buracos, com peças em forma de pinos de cabeça de cão ou chacal.",
+        "variantes": [
+          "Hounds and Jackals",
+          "Cinquenta e oito buracos",
+          "58 buracos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vocoroca",
+          "nome": "Voçoroca",
+          "descricao": "Grande buraco ou vala de erosão aberto pela água da chuva em solo sem cobertura vegetal.",
+          "variantes": [
+            "Boçoroca",
+            "Buracão",
+            "Ravina"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "doenca_de_chagas",
+          "nome": "Doença de Chagas",
+          "descricao": "Doença parasitária causada pelo Trypanosoma cruzi, descrita por Carlos Chagas em 1909.",
+          "variantes": [
+            "Tripanossomíase americana",
+            "Chagas disease"
+          ]
+        },
+        {
+          "id": "carlos_chagas",
+          "nome": "Carlos Chagas",
+          "descricao": "Médico sanitarista e microbiologista brasileiro que descobriu a doença de Chagas em 1909.",
+          "variantes": [
+            "Carlos Justiniano Ribeiro Chagas"
+          ]
+        },
+        {
+          "id": "a_cesta_de_macas",
+          "nome": "A Cesta de Maçãs",
+          "descricao": "Natureza-morta a óleo de Paul Cézanne, c. 1893, com uma cesta de maçãs, uma garrafa e biscoitos sobre uma mesa, no Art Institute of Chicago.",
+          "variantes": [
+            "A Cesta de Maçãs (Cézanne)",
+            "Le panier de pommes",
+            "The Basket of Apples",
+            "A Cesta de Maçãs de Cézanne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Espadas (naipe)",
+        "descricao": "Naipe preto do baralho francês, em forma de ponta de lança invertida em coração.",
+        "variantes": [
+          "Spades",
+          "Piques"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "espadas_naipe",
+          "nome": "Espadas (naipe)",
+          "descricao": "Naipe preto do baralho francês, com símbolo em forma de coração invertido com haste.",
+          "variantes": [
+            "Pique",
+            "Espada"
+          ]
+        },
+        {
+          "id": "nelson_piquet",
+          "nome": "Nelson Piquet",
+          "descricao": "Piloto brasileiro tricampeão mundial de Fórmula 1, em 1981, 1983 e 1987.",
+          "variantes": [
+            "Nelson Piquet Souto Maior",
+            "Nelson Souto Maior",
+            "Piquet"
+          ]
+        },
+        {
+          "id": "sanduiche",
+          "nome": "Sanduíche",
+          "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+          "variantes": [
+            "Sanduba",
+            "Sandes",
+            "Sandwich",
+            "Sanduche"
+          ]
+        },
+        {
+          "id": "psique",
+          "nome": "Psiquê",
+          "descricao": "Jovem mortal da mitologia greco-romana que se casou com Eros, o deus do amor.",
+          "variantes": [
+            "Psyche"
+          ]
+        },
+        {
+          "id": "paus_naipe",
+          "nome": "Paus (naipe)",
+          "descricao": "Naipe preto do baralho francês, representado por um trevo de três folhas.",
+          "variantes": [
+            "Paus",
+            "Clubs",
+            "Trevo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "O Enforcado (tarô)",
+        "descricao": "Décima segunda carta dos arcanos maiores do tarô, que mostra um homem pendurado de cabeça para baixo.",
+        "variantes": [
+          "The Hanged Man",
+          "O Pendurado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sandman",
+          "nome": "Sandman",
+          "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989",
+          "variantes": [
+            "The Sandman"
+          ]
+        },
+        {
+          "id": "o_pensador",
+          "nome": "O Pensador",
+          "descricao": "Escultura de bronze de Auguste Rodin.",
+          "variantes": [
+            "Le Penseur",
+            "The Thinker"
+          ]
+        },
+        {
+          "id": "o_terceiro_homem",
+          "nome": "O Terceiro Homem",
+          "descricao": "Filme britânico de 1949 dirigido por Carol Reed, ambientado na Viena do pós-guerra, com Orson Welles.",
+          "variantes": [
+            "The Third Man"
+          ]
+        },
+        {
+          "id": "a_maja_desnuda",
+          "nome": "A Maja Desnuda",
+          "descricao": "Pintura a óleo de Francisco Goya, de cerca de 1797–1800, de uma mulher nua reclinada; está no Museu do Prado, em Madri.",
+          "variantes": [
+            "La maja desnuda",
+            "A Maja Nua",
+            "The Naked Maja"
+          ]
+        },
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cachorros jogando pôquer",
+        "descricao": "Série de pinturas a óleo de Cassius Marcellus Coolidge, de 1903, com cães antropomorfizados jogando cartas.",
+        "variantes": [
+          "Dogs Playing Poker",
+          "Cães jogando pôquer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cachorro_do_mato",
+          "nome": "Cachorro-do-mato",
+          "descricao": "Canídeo de porte médio (Cerdocyon thous) da América do Sul, que não é uma raposa verdadeira.",
+          "variantes": [
+            "Graxaim-do-mato",
+            "Raposa-do-mato",
+            "Crab-eating fox",
+            "Cerdocyon thous"
+          ]
+        },
+        {
+          "id": "rei_carta_de_baralho",
+          "nome": "Rei (carta de baralho)",
+          "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
+          "variantes": [
+            "King (playing card)",
+            "Rei de espadas",
+            "King"
+          ]
+        },
+        {
+          "id": "cachorro_quente",
+          "nome": "Cachorro-quente",
+          "descricao": "Lanche de salsicha grelhada, cozida ou fervida, servida num pão alongado aberto ao meio.",
+          "variantes": [
+            "Hot dog",
+            "Hotdog"
+          ]
+        },
+        {
+          "id": "castor_e_polux",
+          "nome": "Castor e Pólux",
+          "descricao": "Irmãos gêmeos da mitologia grega, filhos de Leda, conhecidos como Dióscuros.",
+          "variantes": [
+            "Dióscuros",
+            "Castor and Pollux"
+          ]
+        },
+        {
+          "id": "edgar_allan_poe",
+          "nome": "Edgar Allan Poe",
+          "descricao": "Escritor, poeta e crítico americano do Romantismo e da ficção gótica, pioneiro do conto policial.",
+          "variantes": [
+            "Edgar Poe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Boris Spassky",
+        "descricao": "Enxadrista soviético e depois francês, décimo campeão mundial de xadrez, derrotado por Bobby Fischer em 1972.",
+        "variantes": [
+          "Boris Vasilyevich Spassky",
+          "Boris Spasski"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dois_papas",
+          "nome": "Dois Papas",
+          "descricao": "Filme de 2019 sobre os papas Bento dezesseis e Francisco, com Anthony Hopkins e Jonathan Pryce.",
+          "variantes": [
+            "The Two Popes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Defesa Siciliana",
+        "descricao": "Abertura de xadrez que começa com 1.e4 c5.",
+        "variantes": [
+          "Sicilian Defence",
+          "Siciliana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sicilia",
+          "nome": "Sicília",
+          "descricao": "Ilha italiana no centro do mar Mediterrâneo, separada da península pelo estreito de Messina.",
+          "variantes": []
+        },
+        {
+          "id": "sicilia_romana",
+          "nome": "Sicília romana",
+          "descricao": "Província romana criada na ilha da Sicília após a Primeira Guerra Púnica.",
+          "variantes": [
+            "Sicilia",
+            "Província da Sicília"
+          ]
+        },
+        {
+          "id": "bandeira_da_sicilia",
+          "nome": "Bandeira da Sicília",
+          "descricao": "Bandeira da região italiana da Sicília, amarela e vermelha, com a trinácria (cabeça com três pernas) no centro.",
+          "variantes": [
+            "Sicília",
+            "Trinácria",
+            "Sicilia"
+          ]
+        },
+        {
+          "id": "penicilina",
+          "nome": "Penicilina",
+          "descricao": "Primeiro antibiótico amplamente usado, obtido de fungos do gênero Penicillium.",
+          "variantes": [
+            "Penicillin"
+          ]
+        },
+        {
+          "id": "cilan",
+          "nome": "Cilan",
+          "descricao": "Líder de ginásio de Striaton e conhecedor pokémon, companheiro de viagem de Ash em Unova no anime.",
+          "variantes": [
+            "Dent"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Passatempo de labirinto difere da orelha interna e do labirinto lendário de Creta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Jogo egípcio sem correspondente entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "espadas_naipe",
+      "motivo": "Mesmo naipe de espadas do baralho francês."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Carta de tarô sem correspondente nas candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Série de pinturas de Coolidge, sem correspondente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Enxadrista sem correspondente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Abertura de xadrez, distinta da ilha, província ou bandeira."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Labirinto simples e claro, sem texto; baixa resolução mas traço grosso e legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de passatempo é este, com uma entrada e uma saída?",
+      "resposta": "Labirinto",
+      "ancora": {
+        "nome": "Labirinto",
+        "descricao": "Passatempo em que se busca um caminho entre paredes, da entrada até a saída.",
+        "variantes": [
+          "Maze",
+          "Labyrinth"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A carta traz a legenda 'LE BATELEUR' visível, que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Jogo egípcio de marfim bem fotografado, sem texto, peças características.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que jogo do Egito Antigo é este, com pinos de marfim em furos no tabuleiro?",
+      "resposta": "Cães e chacais",
+      "ancora": {
+        "nome": "Cães e chacais",
+        "descricao": "Antigo jogo de tabuleiro egípcio de 58 buracos, com peças em forma de pinos de cabeça de cão ou chacal.",
+        "variantes": [
+          "Hounds and Jackals",
+          "Cinquenta e oito buracos",
+          "58 buracos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Símbolo de espadas nítido, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que naipe do baralho é este?",
+      "resposta": "Espadas",
+      "distratores": [
+        "Paus",
+        "Copas",
+        "Ouros"
+      ],
+      "ancora": {
+        "nome": "Espadas (naipe)",
+        "descricao": "Naipe preto do baralho francês, em forma de ponta de lança invertida em coração.",
+        "variantes": [
+          "Spades",
+          "Piques"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Carta do Enforcado antiga, sem texto visível, reconhecível pela figura invertida.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que número tem esta carta entre os arcanos maiores do tarô?",
+      "resposta": "Doze",
+      "distratores": [
+        "Onze",
+        "Treze",
+        "Quatorze"
+      ],
+      "ancora": {
+        "nome": "O Enforcado (tarô)",
+        "descricao": "Décima segunda carta dos arcanos maiores do tarô, que mostra um homem pendurado de cabeça para baixo.",
+        "variantes": [
+          "The Hanged Man",
+          "O Pendurado"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A caixa mostra o título 'The Landlord's Game' e o nome de Elizabeth Magie, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura em domínio público de jovem lançando uma peça com outras sobre a mesa; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que brincadeira de destreza a jovem desta pintura está fazendo?",
+      "resposta": "Cinco Marias",
+      "distratores": [
+        "Pega-varetas",
+        "Bilboquê",
+        "Amarelinha"
+      ],
+      "ancora": {
+        "nome": "Cinco Marias",
+        "descricao": "Jogo de destreza em que se lança uma peça ao ar e se recolhem outras antes de pegá-la, antigamente com ossinhos de carneiro.",
+        "variantes": [
+          "Jogo da bugalha",
+          "Jacks",
+          "Knucklebones",
+          "Jogo dos ossinhos"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Peças de cerâmica vidrada que podem ser de vários jogos de xadrez antigos; sem pista segura, a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura de Coolidge em domínio público, sem texto legível, cena clara.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogo de cartas os personagens desta pintura disputam?",
+      "resposta": "Pôquer",
+      "distratores": [
+        "Bridge",
+        "Canastra",
+        "Truco"
+      ],
+      "ancora": {
+        "nome": "Cachorros jogando pôquer",
+        "descricao": "Série de pinturas a óleo de Cassius Marcellus Coolidge, de 1903, com cães antropomorfizados jogando cartas.",
+        "variantes": [
+          "Dogs Playing Poker",
+          "Cães jogando pôquer"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública (campeão mundial de xadrez), sem texto; pergunta vai além do nome.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que país este campeão mundial de xadrez, nascido na União Soviética, se naturalizou em 1978?",
+      "resposta": "França",
+      "ancora": {
+        "nome": "Boris Spassky",
+        "descricao": "Enxadrista soviético e depois francês, décimo campeão mundial de xadrez, derrotado por Bobby Fischer em 1972.",
+        "variantes": [
+          "Boris Vasilyevich Spassky",
+          "Boris Spasski"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Diagrama de posição limpo após 1.e4 c5; só coordenadas, sem texto que entregue.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que abertura de xadrez surge nesta posição?",
+      "resposta": "Defesa Siciliana",
+      "ancora": {
+        "nome": "Defesa Siciliana",
+        "descricao": "Abertura de xadrez que começa com 1.e4 c5.",
+        "variantes": [
+          "Sicilian Defence",
+          "Siciliana"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem traz a legenda 'Word Search' e outras palavras escritas, que entregam a resposta."
+    }
+  ]
+}
