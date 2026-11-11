@@ -1,0 +1,161 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ponte de Avignon sobre o Ródano, foto clara e sem texto; o fato (nascente na Suíça) exige reconhecer o rio.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "O rio que passa diante desta ponte nasce num glaciar de que país?",
+      "resposta": "Suíça",
+      "distratores": [
+        "Itália",
+        "Áustria",
+        "Alemanha"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Rio Ródano",
+        "descricao": "Grande rio da Suíça e da França que nasce nos Alpes, cruza o Lago Léman e deságua no Mediterrâneo.",
+        "variantes": [
+          "Rhône",
+          "Rhône River"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea com colunas de basalto características de Staffa; fato sustentado pelo trecho (Abertura Hébridas, de Mendelssohn).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que compositor romântico se inspirou numa gruta desta ilha para escrever uma abertura?",
+      "resposta": "Felix Mendelssohn",
+      "distratores": [
+        "Robert Schumann",
+        "Frédéric Chopin",
+        "Franz Liszt"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Staffa",
+        "descricao": "Ilha das Hébridas Interiores, na Escócia, conhecida por suas colunas de basalto e pela Gruta de Fingal.",
+        "variantes": [
+          "Ilha de Staffa",
+          "Isle of Staffa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Porto e casario coloniais de Gorée, sem texto; pessoas pequenas e ao fundo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta ilha, em frente à capital?",
+      "resposta": "Senegal",
+      "distratores": [
+        "Gana",
+        "Costa do Marfim",
+        "Angola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ilha de Gorée",
+        "descricao": "Pequena ilha diante de Dacar, no Senegal, Patrimônio Mundial da UNESCO e símbolo do tráfico atlântico de escravizados.",
+        "variantes": [
+          "Gorée",
+          "Goreia",
+          "Île de Gorée"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com o estreito e a península de Galípoli, sem texto; reconhecível por quem conhece a região.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estreito é este, visto de satélite?",
+      "resposta": "Dardanelos",
+      "distratores": [
+        "Bósforo",
+        "Estreito de Messina",
+        "Estreito de Ormuz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estreito de Dardanelos",
+        "descricao": "Estreito no noroeste da Turquia que liga o Mar de Mármara ao Mar Egeu.",
+        "variantes": [
+          "Dardanelles",
+          "Estreito de Galípoli",
+          "Hellesponto"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Rio genérico com dunas e povoado; nada na imagem permite reconhecer o Preguiças."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea de planícies de maré e ilhotas sem traço distintivo; confundível com outras costas."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Satélite de toda a área metropolitana de Sydney, incluindo Botany Bay; resposta ambígua e difícil de reconhecer."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano no barco; lago pouco reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Montanhas costeiras genéricas; Maui não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Lago de montanha genérico, sem traço que o identifique."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Praia com falésias genérica, com banhistas; ilha não reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Panorama famoso de águas turquesa e bancos de areia nas Whitsunday, sem texto nem pessoas em destaque.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este arquipélago?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Fiji",
+        "Maldivas",
+        "Bahamas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ilhas Whitsunday",
+        "descricao": "Arquipélago de 74 ilhas continentais na costa central de Queensland, na Austrália, junto à Grande Barreira de Corais.",
+        "variantes": [
+          "Whitsunday Islands",
+          "Ilhas Whitsundays"
+        ]
+      }
+    }
+  ]
+}

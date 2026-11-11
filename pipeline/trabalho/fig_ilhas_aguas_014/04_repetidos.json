@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país fica esta ilha, em frente à capital?",
+        "resposta": "Senegal"
+      },
+      "existentes": [
+        {
+          "id": "q04940",
+          "pergunta": "A Ilha de Gorée, símbolo do tráfico atlântico de escravizados, fica em que país?",
+          "resposta": "Senegal"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04940",
+      "motivo": "Ambas perguntam em que país fica a Ilha de Gorée; a resposta é Senegal."
+    }
+  ]
+}

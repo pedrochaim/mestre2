@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Ródano nasce na geleira do Ródano, no Valais, Suíça (trecho pt.wikipedia). O enunciado não nomeia o rio, e é preciso reconhecê-lo na figura. Os distratores são do mesmo tipo e todos errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: uma gruta que inspirou uma abertura romântica leva direto à Gruta de Fingal e a Mendelssohn, sem olhar a figura. A pergunta passa a pedir o arquipélago, o que exige reconhecer a ilha. O trecho confirma que Staffa é uma ilha das Hébridas Interiores.",
+      "reescrita": {
+        "pergunta": "Esta ilha de colunas de basalto, na costa da Escócia, pertence a que arquipélago?",
+        "resposta": "Hébridas Interiores",
+        "distratores": [
+          "Órcades",
+          "Ilhas Shetland",
+          "Ilhas Anglo-Normandas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gorée fica em frente a Dacar, no Senegal (trechos). O enunciado não vaza a resposta, e os distratores são países africanos do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O estreito é o Dardanelos (trechos). O enunciado não vaza a resposta. O Bósforo é um distrator crível e visualmente distinto na vista de satélite, e os outros distratores são estreitos conhecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As ilhas Whitsunday ficam na costa de Queensland, Austrália (trechos). O enunciado é curto e não vaza a resposta. Os distratores são países insulares tropicais, do mesmo tipo e errados.",
+      "reescrita": null
+    }
+  ]
+}

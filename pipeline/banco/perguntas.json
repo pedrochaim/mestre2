@@ -404613,5 +404613,104 @@
       "autor": "Gerd Eichmann",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q20365",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_rodano",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O rio que passa diante desta ponte nasce num glaciar de que país?",
+    "resposta": "Suíça",
+    "distratores": [
+      "Itália",
+      "Áustria",
+      "Alemanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rh%C3%B4ne",
+      "https://pt.wikipedia.org/wiki/Rio_R%C3%B3dano"
+    ],
+    "imagem": {
+      "arquivo": "q20365.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Saint-benezet_in_southeastern_France.jpg",
+      "autor": "Chiugoran",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20366",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "staffa",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Esta ilha de colunas de basalto, na costa da Escócia, pertence a que arquipélago?",
+    "resposta": "Hébridas Interiores",
+    "distratores": [
+      "Órcades",
+      "Ilhas Shetland",
+      "Ilhas Anglo-Normandas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Staffa"
+    ],
+    "imagem": {
+      "arquivo": "q20366.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fingals_Cave,_Staffa_-_geograph.org.uk_-_30215.jpg",
+      "autor": "Keith Boardman",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q20367",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "estreito_de_dardanelos",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estreito é este, visto de satélite?",
+    "resposta": "Dardanelos",
+    "distratores": [
+      "Bósforo",
+      "Estreito de Messina",
+      "Estreito de Ormuz"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dardanelles",
+      "https://pt.wikipedia.org/wiki/Dardanelos"
+    ],
+    "imagem": {
+      "arquivo": "q20367.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dardanelles_landsat.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20368",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilhas_whitsunday",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este arquipélago?",
+    "resposta": "Austrália",
+    "distratores": [
+      "Fiji",
+      "Maldivas",
+      "Bahamas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Whitsunday_Islands",
+      "https://pt.wikipedia.org/wiki/Ilhas_Whitsunday"
+    ],
+    "imagem": {
+      "arquivo": "q20368.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:06._Whiteheaven_Beach.jpg",
+      "autor": "Elemaki",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
