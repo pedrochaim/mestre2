@@ -1,0 +1,56 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Como se chama este capacete alemão, símbolo do exército prussiano no século dezenove?",
+        "resposta": "Pickelhaube"
+      },
+      "existentes": [
+        {
+          "id": "q09367",
+          "pergunta": "Que capacete militar alemão é este?",
+          "resposta": "Pickelhaube"
+        },
+        {
+          "id": "q13892",
+          "pergunta": "Os soldados alemães começaram a guerra com um capacete de couro chamado Pickelhaube. Que característica marcante ele tinha no topo?",
+          "resposta": "Uma ponta de metal"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Como se chama esta camisa casual de botões, manga curta e tecido estampado, típica de roupa de verão?",
+        "resposta": "Camisa havaiana"
+      },
+      "existentes": [
+        {
+          "id": "q15624",
+          "pergunta": "Que tipo de camisa de manga curta e estampa colorida é esta?",
+          "resposta": "Camisa havaiana"
+        },
+        {
+          "id": "q20131",
+          "pergunta": "As primeiras camisas havaianas foram costuradas com tecidos estampados de qual traje, trazidos por imigrantes japoneses?",
+          "resposta": "Quimono"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q09367",
+      "motivo": "Ambas pedem o nome do capacete (imagem) com resposta Pickelhaube."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q15624",
+      "motivo": "Ambas pedem o nome da camisa de manga curta estampada, resposta Camisa havaiana."
+    }
+  ]
+}

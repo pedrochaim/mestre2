@@ -1,0 +1,204 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "É um desenho a tinta, e o manifesto só aceita ilustração para o que não pode ser fotografado. Um sutiã pode ser fotografado."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "A textura de cordões paralelos é característica e legível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tecido, de cordões paralelos em relevo, é este?",
+      "resposta": "Veludo cotelê",
+      "distratores": [
+        "Malha canelada",
+        "Sarja",
+        "Flanela"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Veludo cotelê",
+        "descricao": "Tecido com cordões ou nervuras paralelas em relevo, derivado do fustão e parente do veludo.",
+        "variantes": [
+          "Corduroy",
+          "Cotelê",
+          "Veludo de cordão"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida, fundo branco, par de zōri com palha e tira vermelha, bem reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sandália japonesa é esta?",
+      "resposta": "Zōri",
+      "distratores": [
+        "Waraji",
+        "Geta",
+        "Alpargata"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Zōri",
+        "descricao": "Sandália japonesa de tira entre os dedos, com sola de palha de arroz, tecido ou outros materiais.",
+        "variantes": [
+          "Zori"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Duas xuxinhas de crochê com contas, nitidamente reconhecíveis, mesma peça nas duas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que acessório de cabelo é este?",
+      "resposta": "Xuxinha",
+      "distratores": [
+        "Tiara",
+        "Piranha",
+        "Faixa de cabelo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Xuxinha",
+        "descricao": "Elástico de cabelo coberto por tecido franzido, usado para prender rabos de cavalo.",
+        "variantes": [
+          "Scrunchie",
+          "Xuxu"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tecido escuro com listras finas e claras, legível mesmo em baixa resolução.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estampa de tecido é esta?",
+      "resposta": "Risca de giz",
+      "distratores": [
+        "Xadrez tartan",
+        "Pied-de-poule",
+        "Estampa paisley"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Risca de giz",
+        "descricao": "Estampa de listras muito finas e paralelas, comum em tecidos de ternos.",
+        "variantes": [
+          "Pinstripe",
+          "Pinstripes",
+          "Listra fina"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida do capacete com espigão. O texto 'Treue' no brasão não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama este capacete de couro com espigão metálico, usado por soldados alemães?",
+      "resposta": "Pickelhaube",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pickelhaube",
+        "descricao": "Capacete de couro ou metal com espigão no topo, usado por soldados prussianos e alemães nos séculos dezenove e vinte.",
+        "variantes": [
+          "Pickelhelm",
+          "Capacete prussiano"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É o retrato pintado de uma pessoa, e o colar de penas é só um detalhe da cabeça. A entidade não fica clara nem a resposta, única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Camisas de estampas tropicais penduradas, com foco parcial. O assunto é um só e reconhecível pelas estampas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de camisa de estampas tropicais é este?",
+      "resposta": "Camisa havaiana",
+      "destino": 0,
+      "ancora": {
+        "nome": "Camisa havaiana",
+        "descricao": "Camisa de botões, manga curta e tecido estampado, originária do Havaí.",
+        "variantes": [
+          "Aloha shirt",
+          "Camisa aloha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Gravura de moda do século dezenove, de domínio público, em que o regalo de pele é bem visível e central.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama o acessório de pele que esta mulher carrega diante do corpo?",
+      "resposta": "Regalo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Regalo",
+        "descricao": "Acessório cilíndrico de pele ou tecido, aberto nas duas pontas, em que se enfiam as mãos para aquecê-las.",
+        "variantes": [
+          "Regalo de pele",
+          "Muff",
+          "Agasalho de mãos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma montagem com várias chuteiras e anos escritos. Mostra vários assuntos e tem texto."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O pano branco de linho com bainha aberta pode ser lenço, guardanapo ou toalhinha, então a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Manequim de museu com jaqueta longa de gola reta, bem visível. A gola é o traço distintivo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jaqueta de gola reta e em pé é esta?",
+      "resposta": "Jaqueta Nehru",
+      "distratores": [
+        "Blazer clássico",
+        "Jaqueta Harrington",
+        "Casaco Chesterfield"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jaqueta Nehru",
+        "descricao": "Casaco de corte reto e comprimento até o quadril, com gola mandarim, inspirado no achkan indiano.",
+        "variantes": [
+          "Casaco Nehru",
+          "Nehru jacket",
+          "Gola mandarim"
+        ]
+      }
+    }
+  ]
+}
