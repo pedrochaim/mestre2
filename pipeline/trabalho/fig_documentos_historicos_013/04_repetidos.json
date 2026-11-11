@@ -1,0 +1,156 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este instrumento de anéis metálicos, usado para representar o céu, aparece na bandeira de qual país?",
+        "resposta": "Portugal"
+      },
+      "existentes": [
+        {
+          "id": "q04997",
+          "pergunta": "Que instrumento astronômico, comum antes do telescópio, é este?",
+          "resposta": "Esfera armilar"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pintor holandês fez este quadro, concluído em 1642?",
+        "resposta": "Rembrandt"
+      },
+      "existentes": [
+        {
+          "id": "q00416",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Rembrandt"
+        },
+        {
+          "id": "q03033",
+          "pergunta": "A Ronda Noturna, de Rembrandt, mostra na verdade uma cena de dia. O que a fez parecer noturna e lhe rendeu esse nome?",
+          "resposta": "O verniz escurecido com o tempo"
+        },
+        {
+          "id": "q06583",
+          "pergunta": "Em 1715, A Ronda Noturna, de Rembrandt, teve faixas cortadas nas bordas. Qual foi o motivo?",
+          "resposta": "Caber numa parede da prefeitura de Amsterdã"
+        },
+        {
+          "id": "q17883",
+          "pergunta": "Na Ronda Noturna, de Rembrandt, uma menina iluminada leva presa à cintura uma ave morta, emblema da milícia retratada. Que ave é essa?",
+          "resposta": "Uma galinha"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que século foi pintado este mural renascentista?",
+        "resposta": "Século quinze"
+      },
+      "existentes": [
+        {
+          "id": "q00413",
+          "pergunta": "Qual é o nome desta pintura?",
+          "resposta": "A Última Ceia"
+        },
+        {
+          "id": "q03045",
+          "pergunta": "A Última Ceia, de Leonardo da Vinci, começou a descascar poucos anos depois de pronta. Por quê?",
+          "resposta": "Foi pintada na parede seca, e não em afresco"
+        },
+        {
+          "id": "q06559",
+          "pergunta": "A Última Ceia, de Leonardo da Vinci, foi pintada no fim de que século?",
+          "resposta": "Século quinze"
+        },
+        {
+          "id": "q16378",
+          "pergunta": "Em que cidade italiana fica esta pintura mural, feita na parede de um antigo refeitório?",
+          "resposta": "Milão"
+        },
+        {
+          "id": "q17882",
+          "pergunta": "Em 1652, abriram uma porta na parede onde está A Última Ceia, de Leonardo. Que parte da figura de Jesus se perdeu com isso?",
+          "resposta": "Os pés"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que cerimônia francesa este quadro de 1807 retrata?",
+        "resposta": "Coroação de Napoleão"
+      },
+      "existentes": [
+        {
+          "id": "q05957",
+          "pergunta": "Que estilo artístico marca esta pintura francesa do início do século dezenove?",
+          "resposta": "Neoclassicismo"
+        },
+        {
+          "id": "q17889",
+          "pergunta": "Na Coroação de Napoleão, de David, uma mulher aparece num lugar de honra, embora não tenha ido à cerimônia. Quem é ela?",
+          "resposta": "A mãe de Napoleão"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cidade fica este monumento neoclássico do século dezoito?",
+        "resposta": "Berlim"
+      },
+      "existentes": [
+        {
+          "id": "q02023",
+          "pergunta": "O Portão de Brandemburgo, em Berlim, foi inspirado em qual portal monumental da Acrópole de Atenas?",
+          "resposta": "Os Propileus"
+        },
+        {
+          "id": "q03946",
+          "pergunta": "Que arquiteto projetou este portão neoclássico, construído no fim do século dezoito?",
+          "resposta": "Carl Gotthard Langhans"
+        },
+        {
+          "id": "q07514",
+          "pergunta": "Em 1806, Napoleão levou para Paris o carro de bronze puxado por quatro cavalos que coroa o Portão de Brandemburgo. Como se chama esse conjunto?",
+          "resposta": "Quadriga"
+        },
+        {
+          "id": "q19570",
+          "pergunta": "Em que século foi construído este monumento neoclássico, hoje um dos símbolos de uma capital europeia?",
+          "resposta": "Século dezoito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o país da bandeira, fato diferente do nome do instrumento."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta quem pintou o quadro, mesma resposta de q00416."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Século da pintura da Última Ceia, mesmo fato de q06559."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta qual cerimônia o quadro retrata; as existentes tratam de estilo e da mãe de Napoleão."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cidade do monumento é um fato novo; Berlim só aparece no enunciado de q02023, que pergunta outra coisa."
+    }
+  ]
+}

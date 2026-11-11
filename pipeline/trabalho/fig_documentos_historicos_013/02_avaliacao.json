@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Gravura colorida nítida de uma esfera armilar; as legendas em francês são termos astronômicos e não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este instrumento de anéis metálicos, usado para representar o céu, aparece na bandeira de qual país?",
+      "resposta": "Portugal",
+      "distratores": [
+        "Espanha",
+        "Itália",
+        "Grécia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esfera armilar",
+        "descricao": "Instrumento astronômico formado por anéis que representam círculos da esfera celeste.",
+        "variantes": [
+          "Armilar",
+          "Astrolábio esférico"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Aparecem a marca Ford escrita, o nome Shirley Horton numa placa e pessoas comuns em primeiro plano e ao fundo."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A placa 'U.S. Army Checkpoint' e os cartazes entregam o nome, e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto limpa, sem texto, de um cruzador museu inconfundível no rio Neva.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este cruzador, hoje navio-museu, teria disparado o sinal para o assalto a qual palácio em 1917?",
+      "resposta": "Palácio de Inverno",
+      "distratores": [
+        "Palácio de Versalhes",
+        "Palácio de Buckingham",
+        "Palácio de Peterhof"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cruzador Aurora",
+        "descricao": "Cruzador russo preservado como navio-museu em São Petersburgo, ligado à Revolução de Outubro.",
+        "variantes": [
+          "Aurora",
+          "Avrora"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A vitrine traz o nome TIZONA escrito no topo, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto de soldados numa trincheira, cena clara de guerra de trincheiras.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de combate, com soldados entrincheirados, esta foto mostra?",
+      "resposta": "Guerra de trincheiras",
+      "distratores": [
+        "Guerra de guerrilha",
+        "Guerra relâmpago",
+        "Guerra naval"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Guerra de trincheiras",
+        "descricao": "Tipo de guerra terrestre em que os combatentes ocupam linhas de trincheiras, típico da Primeira Guerra Mundial.",
+        "variantes": [
+          "Guerra de trincheira"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Reprodução nítida e inconfundível da obra, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi concluída esta pintura holandesa de uma milícia civil?",
+      "resposta": "1642",
+      "distratores": [
+        "1632",
+        "1652",
+        "1662"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Ronda Noturna",
+        "descricao": "Pintura de Rembrandt de 1642 que retrata uma companhia da milícia civil de Amsterdã.",
+        "variantes": [
+          "De Nachtwacht",
+          "The Night Watch"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Uma bomba d'água preta numa rua qualquer de Londres não é reconhecível sozinha; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Obra emblemática, imagem nítida e sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi pintado este mural renascentista?",
+      "resposta": "Século quinze",
+      "distratores": [
+        "Século treze",
+        "Século catorze",
+        "Século dezesseis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Última Ceia",
+        "descricao": "Mural de Leonardo da Vinci no refeitório do convento de Santa Maria delle Grazie, em Milão.",
+        "variantes": [
+          "O Cenáculo",
+          "L'Ultima Cena",
+          "The Last Supper"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pintura nítida, sem texto legível, reconhecível pela composição.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que catedral de Paris se passa a cerimônia retratada nesta pintura de 1807?",
+      "resposta": "Notre-Dame",
+      "distratores": [
+        "Saint-Denis",
+        "Sainte-Chapelle",
+        "Catedral de Reims"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "A Coroação de Napoleão",
+        "descricao": "Pintura de Jacques-Louis David concluída em 1807, que retrata a coroação de Napoleão em Notre-Dame.",
+        "variantes": [
+          "Le Sacre de Napoléon",
+          "The Coronation of Napoleon"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O texto da carta, com Palestine, Lord Rothschild e a assinatura de Balfour, entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto e sem pessoas; monumento emblemático.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que muro dividiu, durante a Guerra Fria, a cidade onde fica este portão?",
+      "resposta": "Muro de Berlim",
+      "distratores": [
+        "Muro das Lamentações",
+        "Muralha da China",
+        "Muro de Adriano"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Portão de Brandemburgo",
+        "descricao": "Monumento neoclássico do século dezoito em Berlim, coroado por uma quadriga de bronze.",
+        "variantes": [
+          "Brandenburger Tor",
+          "Brandenburg Gate"
+        ]
+      }
+    }
+  ]
+}

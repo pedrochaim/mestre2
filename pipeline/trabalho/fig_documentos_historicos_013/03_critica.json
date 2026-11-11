@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a função sem nomear a esfera nem o país. Os trechos confirmam que ela está na bandeira de Portugal. Os distratores são países, e nenhum tem esfera armilar na bandeira.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sem a imagem dá para responder pelo enunciado: 'assalto a palácio em 1917' já remete ao Palácio de Inverno, então a figura é enfeite. Reescrito para pedir o reconhecimento do navio, sem a pista de 1917.",
+      "reescrita": {
+        "pergunta": "Que cruzador russo, hoje navio-museu em São Petersburgo, é este?",
+        "resposta": "Aurora",
+        "distratores": [
+          "Cruzador Varyag",
+          "Cruzador Askold",
+          "Cruzador Novik"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado vaza a resposta com 'entrincheirados', palavra derivada de trincheira. A foto pode mostrar trincheiras de várias guerras, e a pergunta fica genérica.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pintura holandesa de uma milícia civil' praticamente identifica a obra, então a figura vira enfeite. Reescrito para pedir o autor, o que exige reconhecer a pintura.",
+      "reescrita": {
+        "pergunta": "Que pintor holandês fez este quadro, concluído em 1642?",
+        "resposta": "Rembrandt",
+        "distratores": [
+          "Vermeer",
+          "Frans Hals",
+          "Jan Steen"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O mural é datado de c. 1495–1498, século quinze. O enunciado não nomeia a obra. Os distratores são séculos e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Catedral de Paris' já entrega Notre-Dame, e o distrator Reims fica fora de Paris. A figura vira enfeite. Reescrito para pedir o acontecimento retratado.",
+      "reescrita": {
+        "pergunta": "Que cerimônia francesa este quadro de 1807 retrata?",
+        "resposta": "Coroação de Napoleão",
+        "distratores": [
+          "Sagração de Carlos Magno",
+          "Batismo de Clóvis",
+          "Coroação de Luís Catorze"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Muro que dividiu a cidade na Guerra Fria' leva a Berlim sem ver a imagem. Reescrito para pedir a cidade a partir do monumento.",
+      "reescrita": {
+        "pergunta": "Em que cidade fica este monumento neoclássico do século dezoito?",
+        "resposta": "Berlim",
+        "distratores": [
+          "Viena",
+          "Munique",
+          "Dresden"
+        ]
+      }
+    }
+  ]
+}

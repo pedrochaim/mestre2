@@ -1,0 +1,386 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Esfera armilar",
+        "descricao": "Instrumento astronômico formado por anéis que representam círculos da esfera celeste.",
+        "variantes": [
+          "Armilar",
+          "Astrolábio esférico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esfera_armilar",
+          "nome": "Esfera armilar",
+          "descricao": "Modelo da esfera celeste formado por anéis metálicos que representam círculos astronômicos como a eclíptica.",
+          "variantes": [
+            "Armila",
+            "Astrolábio esférico"
+          ]
+        },
+        {
+          "id": "variola",
+          "nome": "Varíola",
+          "descricao": "Doença infecciosa causada pelo vírus variola, erradicada após campanha mundial de vacinação.",
+          "variantes": [
+            "Smallpox",
+            "Bexiga"
+          ]
+        },
+        {
+          "id": "kevlar",
+          "nome": "Kevlar",
+          "descricao": "Fibra sintética de altíssima resistência criada na DuPont, usada em coletes à prova de bala.",
+          "variantes": [
+            "Aramida"
+          ]
+        },
+        {
+          "id": "bandeira_da_armenia",
+          "nome": "Bandeira da Armênia",
+          "descricao": "Bandeira nacional da Armênia, tricolor horizontal vermelha, azul e laranja.",
+          "variantes": [
+            "Armênia",
+            "Bandeira armênia"
+          ]
+        },
+        {
+          "id": "capilar_sanguineo",
+          "nome": "Capilar sanguíneo",
+          "descricao": "Vaso sanguíneo microscópico onde ocorrem as trocas entre o sangue e os tecidos.",
+          "variantes": [
+            "Capilar",
+            "Vasos capilares"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cruzador Aurora",
+        "descricao": "Cruzador russo preservado como navio-museu em São Petersburgo, ligado à Revolução de Outubro.",
+        "variantes": [
+          "Aurora",
+          "Avrora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aurora_polar",
+          "nome": "Aurora polar",
+          "descricao": "Fenômeno luminoso no céu das regiões polares, chamado de aurora boreal no norte e de aurora austral no sul.",
+          "variantes": [
+            "Aurora boreal",
+            "Aurora austral",
+            "Aurora"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "aurorus",
+          "nome": "Aurorus",
+          "descricao": "Pokémon dos tipos Pedra e Gelo, número 699 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "aorta",
+          "nome": "Aorta",
+          "descricao": "Artéria principal do corpo, que sai do ventrículo esquerdo do coração.",
+          "variantes": []
+        },
+        {
+          "id": "agora",
+          "nome": "Ágora",
+          "descricao": "Praça pública central das cidades gregas antigas, lugar de mercado, reunião e vida política.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "A Ronda Noturna",
+        "descricao": "Pintura de Rembrandt de 1642 que retrata uma companhia da milícia civil de Amsterdã.",
+        "variantes": [
+          "De Nachtwacht",
+          "The Night Watch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_ronda_noturna",
+          "nome": "A Ronda Noturna",
+          "descricao": "Quadro de Rembrandt no Rijksmuseum.",
+          "variantes": [
+            "The Night Watch",
+            "De Nachtwacht"
+          ]
+        },
+        {
+          "id": "o_pesadelo_fussli",
+          "nome": "O Pesadelo (Füssli)",
+          "descricao": "Pintura a óleo de Henry Fuseli, de 1781, com uma mulher adormecida, um íncubo sobre o peito e um cavalo ao fundo.",
+          "variantes": [
+            "The Nightmare",
+            "Der Nachtmahr",
+            "O Pesadelo"
+          ]
+        },
+        {
+          "id": "o_cafe_noturno",
+          "nome": "O Café Noturno",
+          "descricao": "Pintura a óleo de Vincent van Gogh, de setembro de 1888, com o interior do Café de la Gare, em Arles.",
+          "variantes": [
+            "O Café à Noite",
+            "The Night Café",
+            "Le Café de nuit"
+          ]
+        },
+        {
+          "id": "canhao_88_flak_88",
+          "nome": "Canhão 88 (Flak 88)",
+          "descricao": "Canhão alemão de 88 mm, antiaéreo e antitanque, usado na Segunda Guerra Mundial.",
+          "variantes": [
+            "Flak 88",
+            "8.8 cm Flak",
+            "Acht-acht",
+            "Oitenta e oito"
+          ]
+        },
+        {
+          "id": "som",
+          "nome": "Som",
+          "descricao": "Onda mecânica de vibração que se propaga por um meio material, como o ar ou a água.",
+          "variantes": [
+            "Onda sonora",
+            "Sound"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "A Última Ceia",
+        "descricao": "Mural de Leonardo da Vinci no refeitório do convento de Santa Maria delle Grazie, em Milão.",
+        "variantes": [
+          "O Cenáculo",
+          "L'Ultima Cena",
+          "The Last Supper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_ultima_ceia",
+          "nome": "A Última Ceia",
+          "descricao": "Pintura mural de Leonardo da Vinci em Milão.",
+          "variantes": [
+            "The Last Supper",
+            "Il Cenacolo",
+            "L'Ultima Cena"
+          ]
+        },
+        {
+          "id": "ssireum",
+          "nome": "Ssireum",
+          "descricao": "Luta tradicional coreana em que os oponentes se seguram pelo cinto e vence quem derruba o outro acima do joelho.",
+          "variantes": [
+            "Ssirum",
+            "luta coreana"
+          ]
+        },
+        {
+          "id": "calculo",
+          "nome": "Cálculo",
+          "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
+          "variantes": [
+            "Cálculo diferencial e integral",
+            "Calculus",
+            "Cálculo infinitesimal"
+          ]
+        },
+        {
+          "id": "limao",
+          "nome": "Limão",
+          "descricao": "Fruto cítrico verde e ácido, aqui o limão taiti (Citrus × latifolia), usado como tempero e em bebidas.",
+          "variantes": [
+            "Limão-taiti",
+            "Lima ácida",
+            "Lime"
+          ]
+        },
+        {
+          "id": "masters_de_golfe",
+          "nome": "Masters de golfe",
+          "descricao": "Torneio principal de golfe disputado todo ano no Augusta National Golf Club, nos Estados Unidos.",
+          "variantes": [
+            "The Masters",
+            "Masters Tournament",
+            "Masters de Augusta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "A Coroação de Napoleão",
+        "descricao": "Pintura de Jacques-Louis David concluída em 1807, que retrata a coroação de Napoleão em Notre-Dame.",
+        "variantes": [
+          "Le Sacre de Napoléon",
+          "The Coronation of Napoleon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_coroacao_de_napoleao",
+          "nome": "A Coroação de Napoleão",
+          "descricao": "Pintura de Jacques-Louis David, de 1807, que retrata a coroação de Napoleão em Notre-Dame de Paris, guardada no Louvre.",
+          "variantes": [
+            "Le Sacre de Napoléon",
+            "The Coronation of Napoleon",
+            "A Sagração de Napoleão"
+          ]
+        },
+        {
+          "id": "a_criacao_de_adao",
+          "nome": "A Criação de Adão",
+          "descricao": "Afresco de Michelangelo no teto da Capela Sistina.",
+          "variantes": [
+            "The Creation of Adam"
+          ]
+        },
+        {
+          "id": "ricardo_coracao_de_leao",
+          "nome": "Ricardo Coração de Leão",
+          "descricao": "Ricardo Primeiro, rei da Inglaterra de 1189 a 1199, um dos líderes da Terceira Cruzada.",
+          "variantes": [
+            "Ricardo I de Inglaterra",
+            "Richard the Lionheart"
+          ]
+        },
+        {
+          "id": "teorema_de_napoleao",
+          "nome": "Teorema de Napoleão",
+          "descricao": "Teorema de geometria segundo o qual os centros de triângulos equiláteros construídos sobre os lados de um triângulo qualquer formam outro triângulo equilátero.",
+          "variantes": [
+            "Napoleon's theorem"
+          ]
+        },
+        {
+          "id": "a_carroca_de_feno",
+          "nome": "A Carroça de Feno",
+          "descricao": "Quadro de John Constable de 1821.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Portão de Brandemburgo",
+        "descricao": "Monumento neoclássico do século dezoito em Berlim, coroado por uma quadriga de bronze.",
+        "variantes": [
+          "Brandenburger Tor",
+          "Brandenburg Gate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "portao_de_brandemburgo",
+          "nome": "Portão de Brandemburgo",
+          "descricao": "Portal neoclássico do século dezoito no centro de Berlim, símbolo da reunificação alemã.",
+          "variantes": [
+            "Brandenburger Tor",
+            "Brandenburg Gate"
+          ]
+        },
+        {
+          "id": "noite_dos_cristais",
+          "nome": "Noite dos Cristais",
+          "descricao": "Onda de ataques organizados pelos nazistas contra judeus, suas lojas e sinagogas na Alemanha e na Áustria, em novembro de 1938.",
+          "variantes": [
+            "Kristallnacht",
+            "Pogrom de Novembro"
+          ]
+        },
+        {
+          "id": "aracy_de_carvalho",
+          "nome": "Aracy de Carvalho",
+          "descricao": "Funcionária do consulado brasileiro em Hamburgo que ajudou judeus a fugir do nazismo, reconhecida como Justa entre as Nações.",
+          "variantes": [
+            "Aracy de Carvalho Guimarães Rosa",
+            "Anjo de Hamburgo"
+          ]
+        },
+        {
+          "id": "moscoforo",
+          "nome": "Moscóforo",
+          "descricao": "Estátua grega arcaica de cerca de 560 a.C., em mármore, que representa um homem carregando um bezerro nos ombros, encontrada na Acrópole de Atenas.",
+          "variantes": [
+            "Moschophoros",
+            "Portador de bezerro",
+            "Calf Bearer"
+          ]
+        },
+        {
+          "id": "meteorito_do_bendego",
+          "nome": "Meteorito do Bendegó",
+          "descricao": "Meteorito de ferro de mais de cinco toneladas achado no sertão baiano em 1784 e exposto no Museu Nacional, no Rio de Janeiro.",
+          "variantes": [
+            "Bendegó",
+            "Meteorito de Bendegó"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "esfera_armilar",
+      "motivo": "Mesmo instrumento astronômico de anéis, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cruzador Aurora é um navio, diferente do fenômeno aurora polar e das demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "a_ronda_noturna",
+      "motivo": "Mesma pintura de Rembrandt, mesmas variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "a_ultima_ceia",
+      "motivo": "Mesmo mural de Leonardo da Vinci em Milão."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "a_coroacao_de_napoleao",
+      "motivo": "Mesma pintura de David de 1807."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "portao_de_brandemburgo",
+      "motivo": "Mesmo monumento neoclássico em Berlim."
+    }
+  ]
+}
