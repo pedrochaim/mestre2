@@ -409473,5 +409473,701 @@
       "autor": "Deror_avi",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q20604",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "socrates_2",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 399 antes de Cristo, Sócrates foi condenado em Atenas por não respeitar os deuses da cidade e por qual outra acusação?",
+    "resposta": "Corromper a juventude",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trial_of_Socrates"
+    ]
+  },
+  {
+    "id": "q20605",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "socrates_2",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Segundo Platão, as últimas palavras de Sócrates foram um pedido para pagarem um galo devido a que deus da medicina?",
+    "resposta": "Asclépio",
+    "distratores": [
+      "Hermes",
+      "Dioniso",
+      "Posídon"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phaedo",
+      "https://en.wikipedia.org/wiki/Asclepius"
+    ]
+  },
+  {
+    "id": "q20606",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "socrates_2",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quando foi condenado a beber cicuta, Sócrates já era um homem idoso. Com cerca de quantos anos ele estava?",
+    "resposta": "Setenta anos",
+    "distratores": [
+      "Cinquenta anos",
+      "Sessenta anos",
+      "Oitenta anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Socrates"
+    ]
+  },
+  {
+    "id": "q20607",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "platao",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Platão viajou mais de uma vez à Sicília para tentar aconselhar os tiranos Dionísio, pai e filho. Em que cidade eles governavam?",
+    "resposta": "Siracusa",
+    "distratores": [
+      "Agrigento",
+      "Palermo",
+      "Messina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Plato",
+      "https://en.wikipedia.org/wiki/Dionysius_II_of_Syracuse"
+    ]
+  },
+  {
+    "id": "q20608",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "platao",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em A República, Platão divide a alma humana em partes, sendo a razão a que deve governar as outras. Quantas são essas partes?",
+    "resposta": "Três",
+    "distratores": [
+      "Duas",
+      "Quatro",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Plato%27s_tripartite_theory_of_soul"
+    ]
+  },
+  {
+    "id": "q20609",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "liceu_aristoteles",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os alunos do Liceu de Aristóteles eram chamados de peripatéticos. Segundo a tradição, o nome vem de que hábito do mestre ao dar aula?",
+    "resposta": "Ensinar caminhando",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peripatetic_school"
+    ]
+  },
+  {
+    "id": "q20610",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "diogenes_de_sinope",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Diógenes ganhou um apelido que acabou dando nome à sua escola, a dos cínicos. Que animal esse apelido evocava?",
+    "resposta": "O cão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cynicism_(philosophy)",
+      "https://en.wikipedia.org/wiki/Diogenes"
+    ]
+  },
+  {
+    "id": "q20611",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "rene_descartes",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No gelado inverno de Estocolmo, a rainha Cristina exigia de Descartes aulas de filosofia bem cedo. A que horas da manhã elas começavam?",
+    "resposta": "Cinco horas",
+    "distratores": [
+      "Três horas",
+      "Sete horas",
+      "Nove horas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+      "https://en.wikipedia.org/wiki/Christina,_Queen_of_Sweden"
+    ]
+  },
+  {
+    "id": "q20612",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "imperativo_categorico",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que nome Kant deu ao princípio moral de agir apenas segundo regras que você aceitaria ver transformadas em lei para todos?",
+    "resposta": "Imperativo categórico",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Imperativo_categ%C3%B3rico",
+      "https://en.wikipedia.org/wiki/Categorical_imperative"
+    ]
+  },
+  {
+    "id": "q20613",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "deus_esta_morto",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A frase Deus está morto, de Nietzsche, aparece pela primeira vez num livro dele de 1882. Qual?",
+    "resposta": "A Gaia Ciência",
+    "distratores": [
+      "Além do Bem e do Mal",
+      "Crepúsculo dos Ídolos",
+      "O Anticristo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/God_is_dead",
+      "https://en.wikipedia.org/wiki/The_Gay_Science"
+    ]
+  },
+  {
+    "id": "q20614",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "a_religiao_e_o_opio_do_povo",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que pensador alemão do século dezenove escreveu que a religião é o ópio do povo?",
+    "resposta": "Karl Marx",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Opium_of_the_people"
+    ]
+  },
+  {
+    "id": "q20615",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "ludwig_feuerbach",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Os filósofos só interpretaram o mundo, a questão é transformá-lo, escreveu Marx em teses de crítica a que filósofo alemão?",
+    "resposta": "Ludwig Feuerbach",
+    "distratores": [
+      "Hegel",
+      "Immanuel Kant",
+      "Johann Fichte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theses_on_Feuerbach"
+    ]
+  },
+  {
+    "id": "q20616",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "jean_jacques_rousseau",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Rousseau também era compositor. Sua ópera O Adivinho da Aldeia estreou em 1752, em Fontainebleau, diante de que rei francês?",
+    "resposta": "Luís quinze",
+    "distratores": [
+      "Luís treze",
+      "Luís quatorze",
+      "Luís dezesseis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Le_devin_du_village"
+    ]
+  },
+  {
+    "id": "q20617",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "john_locke",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Para John Locke, todo ser humano tem direitos naturais à vida, à liberdade e a quê?",
+    "resposta": "Propriedade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/John_Locke"
+    ]
+  },
+  {
+    "id": "q20618",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "baruch_spinoza",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Para se sustentar, Spinoza exercia um ofício manual de precisão, útil para telescópios e microscópios. Que ofício era esse?",
+    "resposta": "Polir lentes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baruch_Spinoza"
+    ]
+  },
+  {
+    "id": "q20619",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "baruch_spinoza",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1656, aos 23 anos, Spinoza sofreu que punição da comunidade judaica de Amsterdã por causa de suas ideias?",
+    "resposta": "Excomunhão (chérem)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baruch_Spinoza",
+      "https://en.wikipedia.org/wiki/Herem_(censure)"
+    ]
+  },
+  {
+    "id": "q20620",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "buda",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Buda ensinou que o fim do sofrimento passa por um nobre caminho, com práticas como a fala correta e a ação correta. Quantas são essas práticas?",
+    "resposta": "Oito",
+    "distratores": [
+      "Quatro",
+      "Seis",
+      "Dez"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Noble_Eightfold_Path"
+    ]
+  },
+  {
+    "id": "q20621",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "zenao_de_citio",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar filósofo, Zenão de Cítio era mercador. Segundo a tradição, que acidente o levou a Atenas e à filosofia?",
+    "resposta": "Um naufrágio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zeno_of_Citium"
+    ]
+  },
+  {
+    "id": "q20622",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "marco_aurelio",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "No filme Gladiador, de 2000, que ator interpreta o imperador filósofo Marco Aurélio?",
+    "resposta": "Richard Harris",
+    "distratores": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Oliver Reed"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+    ]
+  },
+  {
+    "id": "q20623",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "heraclito",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por escrever de forma enigmática e cheia de paradoxos, Heráclito de Éfeso ganhou na Antiguidade que apelido?",
+    "resposta": "O Obscuro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Heraclitus"
+    ]
+  },
+  {
+    "id": "q20624",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "democrito",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Demócrito dizia que tudo é feito de partículas minúsculas chamadas átomos. Em grego, o que quer dizer a palavra átomo?",
+    "resposta": "Indivisível",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Democritus",
+      "https://en.wikipedia.org/wiki/Atomism"
+    ]
+  },
+  {
+    "id": "q20625",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "hipatia",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "No filme de Alejandro Amenábar sobre a filósofa Hipátia, lançado em 2009, que atriz interpreta a protagonista?",
+    "resposta": "Rachel Weisz",
+    "distratores": [
+      "Natalie Portman",
+      "Kate Winslet",
+      "Keira Knightley"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Agora_(film)"
+    ]
+  },
+  {
+    "id": "q20626",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "santo_agostinho",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que famosa cidade praiana da Califórnia leva o nome da mãe de Santo Agostinho?",
+    "resposta": "Santa Mônica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Santa_Monica,_California",
+      "https://en.wikipedia.org/wiki/Saint_Monica"
+    ]
+  },
+  {
+    "id": "q20627",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "tomas_de_aquino",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na Suma Teológica, Tomás de Aquino apresenta quantas vias, ou argumentos, para provar a existência de Deus?",
+    "resposta": "Cinco",
+    "distratores": [
+      "Três",
+      "Sete",
+      "Dez"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Five_Ways_(Aquinas)"
+    ]
+  },
+  {
+    "id": "q20628",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "candido",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Depois de uma série de desgraças pelo mundo, com que conselho o protagonista encerra a novela Cândido, de Voltaire?",
+    "resposta": "Cultivar nosso jardim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Candide"
+    ]
+  },
+  {
+    "id": "q20629",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "john_stuart_mill",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "John Stuart Mill foi escolhido como padrinho, sem cerimônia religiosa, de que futuro filósofo e lógico britânico, nascido um ano antes da morte dele?",
+    "resposta": "Bertrand Russell",
+    "distratores": [
+      "George Edward Moore",
+      "Alfred North Whitehead",
+      "John Maynard Keynes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bertrand_Russell",
+      "https://en.wikipedia.org/wiki/John_Stuart_Mill"
+    ]
+  },
+  {
+    "id": "q20630",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "martin_heidegger",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1933, mesmo ano em que se filiou ao Partido Nazista, Martin Heidegger assumiu a reitoria da universidade de que cidade alemã?",
+    "resposta": "Friburgo",
+    "distratores": [
+      "Marburgo",
+      "Heidelberg",
+      "Göttingen"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Martin_Heidegger"
+    ]
+  },
+  {
+    "id": "q20631",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "jean_paul_sartre",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em 1960, Sartre e Simone de Beauvoir passaram cerca de dois meses no Brasil, ciceroneados por que escritor brasileiro?",
+    "resposta": "Jorge Amado",
+    "distratores": [
+      "Erico Verissimo",
+      "Guimarães Rosa",
+      "Carlos Drummond de Andrade"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jean-Paul_Sartre",
+      "https://pt.wikipedia.org/wiki/Jorge_Amado"
+    ]
+  },
+  {
+    "id": "q20632",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "jean_paul_sartre",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ao recusar o Prêmio Nobel de Literatura, Sartre explicou que um escritor não deve se deixar transformar em quê?",
+    "resposta": "Numa instituição",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jean-Paul_Sartre"
+    ]
+  },
+  {
+    "id": "q20633",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "simone_de_beauvoir",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por um trocadilho entre o sobrenome Beauvoir e uma palavra inglesa, os amigos, entre eles Sartre, chamavam Simone pelo nome de que animal?",
+    "resposta": "Castor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Simone_de_Beauvoir"
+    ]
+  },
+  {
+    "id": "q20634",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "s_ren_kierkegaard",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O sobrenome do filósofo dinamarquês Søren Kierkegaard, apropriado para um pensador da angústia e da morte, significa o quê?",
+    "resposta": "Cemitério (adro de igreja)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard"
+    ]
+  },
+  {
+    "id": "q20635",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "blaise_pascal",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ainda jovem, Blaise Pascal inventou uma calculadora mecânica para ajudar o pai num trabalho cheio de contas. Que trabalho era esse?",
+    "resposta": "Cobrança de impostos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+    ]
+  },
+  {
+    "id": "q20636",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "blaise_pascal",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Pascal escreveu que, se o nariz de uma certa rainha fosse mais curto, toda a face da Terra teria mudado. De que rainha ele falava?",
+    "resposta": "Cleópatra",
+    "distratores": [
+      "Nefertiti",
+      "Rainha de Sabá",
+      "Helena de Troia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pens%C3%A9es",
+      "https://fr.wikipedia.org/wiki/Nez_de_Cl%C3%A9op%C3%A2tre"
+    ]
+  },
+  {
+    "id": "q20637",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "michel_de_montaigne",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Montaigne explicou sua grande amizade com um jovem escritor dizendo: porque era ele, porque era eu. Quem era esse amigo?",
+    "resposta": "Étienne de La Boétie",
+    "distratores": [
+      "François Rabelais",
+      "Pierre de Ronsard",
+      "Joachim du Bellay"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/%C3%89tienne_de_La_Bo%C3%A9tie"
+    ]
+  },
+  {
+    "id": "q20638",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "michel_de_montaigne",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Por decisão do pai, Michel de Montaigne foi criado falando desde bebê não o francês, mas que outra língua?",
+    "resposta": "Latim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Michel_de_Montaigne"
+    ]
+  },
+  {
+    "id": "q20639",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "giordano_bruno",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Desde 1889, uma estátua de Giordano Bruno se ergue na praça de Roma onde ele foi queimado pela Inquisição. Que praça é essa?",
+    "resposta": "Campo de' Fiori",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Campo_de%27_Fiori",
+      "https://en.wikipedia.org/wiki/Giordano_Bruno"
+    ]
+  },
+  {
+    "id": "q20640",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "antonio_gramsci",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Antonio Gramsci escreveu os Cadernos do Cárcere enquanto cumpria pena imposta pelo regime de que ditador italiano?",
+    "resposta": "Benito Mussolini",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Antonio_Gramsci",
+      "https://en.wikipedia.org/wiki/Prison_Notebooks"
+    ]
+  },
+  {
+    "id": "q20641",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "vigiar_e_punir",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que filósofo francês usou o panóptico de Bentham como símbolo da sociedade disciplinar no livro Vigiar e Punir, de 1975?",
+    "resposta": "Michel Foucault",
+    "distratores": [
+      "Jacques Derrida",
+      "Gilles Deleuze",
+      "Jean Baudrillard"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Discipline_and_Punish"
+    ]
+  },
+  {
+    "id": "q20642",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "a_republica",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A República, o diálogo de Platão sobre a justiça e a cidade ideal, é tradicionalmente dividida em quantos livros?",
+    "resposta": "Dez",
+    "distratores": [
+      "Três",
+      "Sete",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Republic_(Plato)"
+    ]
+  },
+  {
+    "id": "q20643",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "navalha_de_ockham",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O princípio de preferir a explicação mais simples, conhecido como navalha, leva o nome de que frade e filósofo inglês do século quatorze?",
+    "resposta": "Guilherme de Ockham",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Occam%27s_razor"
+    ]
+  },
+  {
+    "id": "q20644",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "cicero",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do orador e filósofo romano Cícero vem da palavra latina para que leguminosa?",
+    "resposta": "Grão-de-bico",
+    "distratores": [
+      "Lentilha",
+      "Fava",
+      "Ervilha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cicero"
+    ]
+  },
+  {
+    "id": "q20645",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "henry_david_thoreau",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Para viver com simplicidade, Thoreau morou numa cabana que ele mesmo construiu à beira do lago Walden. Por quanto tempo, aproximadamente?",
+    "resposta": "Dois anos",
+    "distratores": [
+      "Seis meses",
+      "Cinco anos",
+      "Dez anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Walden"
+    ]
+  },
+  {
+    "id": "q20646",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "o_mundo_de_sofia",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O Mundo de Sofia começa quando a menina acha na caixa de correio um primeiro bilhete misterioso com uma pergunta curta. Que pergunta?",
+    "resposta": "Quem é você?",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sophie%27s_World"
+    ]
+  },
+  {
+    "id": "q20647",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "academia_de_platao",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O imperador bizantino Justiniano fechou as escolas de filosofia pagã de Atenas, herdeiras da Academia de Platão, em que ano?",
+    "resposta": "529",
+    "distratores": [
+      "527",
+      "533",
+      "541"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Platonic_Academy"
+    ]
   }
 ]
