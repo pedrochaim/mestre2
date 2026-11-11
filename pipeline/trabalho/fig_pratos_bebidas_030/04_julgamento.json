@@ -1,0 +1,363 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Kimbap",
+        "descricao": "Prato coreano de arroz, legumes e ovo enrolados em alga seca e servido em fatias.",
+        "variantes": [
+          "Gimbap",
+          "Kimbab"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "giba",
+          "nome": "Giba",
+          "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+          "variantes": [
+            "Gilberto Amauri de Godoy Filho"
+          ]
+        },
+        {
+          "id": "embauba",
+          "nome": "Embaúba",
+          "descricao": "Árvore pioneira neotropical do gênero Cecropia, de folhas grandes palmadas.",
+          "variantes": [
+            "Imbaúba",
+            "Cecropia"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "akihabara",
+          "nome": "Akihabara",
+          "descricao": "Bairro de Tóquio conhecido por lojas de eletrônicos, anime, mangá e games.",
+          "variantes": [
+            "Akiba",
+            "Akihabara Electric Town"
+          ]
+        },
+        {
+          "id": "simba",
+          "nome": "Simba",
+          "descricao": "Leão protagonista da animação O Rei Leão, da Disney, filho de Mufasa.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Café da manhã inglês",
+        "descricao": "Refeição matinal britânica e irlandesa com bacon, salsicha, ovos, feijão, tomate e torrada.",
+        "variantes": [
+          "Full English",
+          "Full breakfast",
+          "Fry-up"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "copa_da_inglaterra",
+          "nome": "Copa da Inglaterra",
+          "descricao": "Torneio eliminatório de clubes de futebol da Inglaterra, disputado desde a temporada de 1871 e 1872.",
+          "variantes": [
+            "FA Cup",
+            "Taça da Inglaterra"
+          ]
+        },
+        {
+          "id": "para_elisa",
+          "nome": "Para Elisa",
+          "descricao": "Peça para piano de Ludwig van Beethoven, a Bagatela em lá menor, publicada postumamente em 1867.",
+          "variantes": [
+            "Für Elise",
+            "Bagatela em lá menor"
+          ]
+        },
+        {
+          "id": "ryder_cup",
+          "nome": "Ryder Cup",
+          "descricao": "Competição bienal de golfe por equipes entre os Estados Unidos e uma seleção europeia, disputada desde 1927.",
+          "variantes": [
+            "Copa Ryder"
+          ]
+        },
+        {
+          "id": "ryu",
+          "nome": "Ryu",
+          "descricao": "Lutador de artes marciais e protagonista emblemático da série Street Fighter.",
+          "variantes": []
+        },
+        {
+          "id": "frigideira",
+          "nome": "Frigideira",
+          "descricao": "Utensílio de cozinha de fundo plano, bordas baixas e cabo longo, usado para fritar e dourar alimentos.",
+          "variantes": [
+            "Frypan",
+            "Skillet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Yakitori",
+        "descricao": "Espetos japoneses de pedaços de frango grelhados na brasa, temperados com sal ou molho tare.",
+        "variantes": [
+          "Yakitori de frango"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "matori",
+          "nome": "Matori",
+          "descricao": "Secretária de Giovanni na Equipe Rocket nas séries Sol e Lua e Jornadas do anime Pokémon.",
+          "variantes": []
+        },
+        {
+          "id": "salandit",
+          "nome": "Salandit",
+          "descricao": "Pokémon lagarto de veneno e fogo da sétima geração, número 757 da Pokédex Nacional.",
+          "variantes": [
+            "Yatoumori"
+          ]
+        },
+        {
+          "id": "tour_de_france",
+          "nome": "Tour de France",
+          "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+          "variantes": [
+            "Volta da França"
+          ]
+        },
+        {
+          "id": "divisao_fisico_especial",
+          "nome": "Divisão físico-especial",
+          "descricao": "Mudança introduzida em Pokémon Diamond e Pearl que passou a definir a categoria física ou especial de cada golpe individualmente.",
+          "variantes": [
+            "Physical/special split",
+            "Categoria de dano"
+          ]
+        },
+        {
+          "id": "taca_jules_rimet",
+          "nome": "Taça Jules Rimet",
+          "descricao": "Troféu da Copa do Mundo FIFA entre 1930 e 1970, entregue em definitivo ao Brasil e roubado no Rio de Janeiro em 1983.",
+          "variantes": [
+            "Jules Rimet",
+            "Copa Jules Rimet",
+            "Jules Rimet Trophy",
+            "Vitória"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ovo escocês",
+        "descricao": "Ovo cozido envolvido em carne de linguiça, empanado e frito ou assado.",
+        "variantes": [
+          "Scotch egg",
+          "Bolovo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fita_scotch",
+          "nome": "Fita Scotch",
+          "descricao": "Marca de fita adesiva da empresa americana 3M, criada por Richard Drew nos anos vinte.",
+          "variantes": [
+            "Scotch Tape"
+          ]
+        },
+        {
+          "id": "sangue",
+          "nome": "Sangue",
+          "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes.",
+          "variantes": [
+            "Blood"
+          ]
+        },
+        {
+          "id": "volvo",
+          "nome": "Volvo",
+          "descricao": "Fabricante sueca de automóveis fundada em 1927 em Gotemburgo.",
+          "variantes": [
+            "Volvo Cars"
+          ]
+        },
+        {
+          "id": "polvo",
+          "nome": "Polvo",
+          "descricao": "Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins.",
+          "variantes": [
+            "Octopus"
+          ]
+        },
+        {
+          "id": "kilt",
+          "nome": "Kilt",
+          "descricao": "Peça de vestuário tradicional escocesa, semelhante a uma saia até o joelho, de lã em padrão tartan e com pregas.",
+          "variantes": [
+            "Kilt escocês",
+            "Saiote escocês",
+            "Saia escocesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bengala doce",
+        "descricao": "Bala dura em forma de bengala, branca com listras vermelhas, associada ao Natal.",
+        "variantes": [
+          "Candy cane",
+          "Bengala de Natal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tregua_de_natal",
+          "nome": "Trégua de Natal",
+          "descricao": "Série de cessar-fogos informais entre soldados britânicos e alemães na Frente Ocidental no Natal de 1914.",
+          "variantes": [
+            "Christmas truce",
+            "Trégua de Natal de 1914"
+          ]
+        },
+        {
+          "id": "meia_de_natal",
+          "nome": "Meia de Natal",
+          "descricao": "Meia ou bolsa em forma de meia, pendurada na lareira na véspera de Natal para receber pequenos presentes.",
+          "variantes": [
+            "Christmas stocking",
+            "Meia natalina"
+          ]
+        },
+        {
+          "id": "chan_chan",
+          "nome": "Chan Chan",
+          "descricao": "Grande cidade de adobe no litoral norte do Peru, perto de Trujillo, antiga capital do reino Chimu.",
+          "variantes": []
+        },
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        },
+        {
+          "id": "candace",
+          "nome": "Candace",
+          "descricao": "Título das rainhas e rainhas-mães do antigo reino de Cuxe, na Núbia.",
+          "variantes": [
+            "Kandake",
+            "Kentake"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Paris-Brest",
+        "descricao": "Doce francês de massa choux em anel, recheado de creme de praliné e coberto de amêndoas laminadas.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "paris_saint_germain",
+          "nome": "Paris Saint-Germain",
+          "descricao": "Clube de futebol de Paris, na França, fundado em 1970.",
+          "variantes": [
+            "PSG",
+            "Paris SG"
+          ]
+        },
+        {
+          "id": "paris_texas",
+          "nome": "Paris, Texas",
+          "descricao": "Filme de 1984 dirigido por Wim Wenders, sobre um homem que reaparece do deserto sem memória.",
+          "variantes": [
+            "Paris, Texas (filme)"
+          ]
+        },
+        {
+          "id": "canhao_de_paris",
+          "nome": "Canhão de Paris",
+          "descricao": "Canhão alemão de longuíssimo alcance usado em 1918 para bombardear Paris a partir de posições muito distantes da cidade.",
+          "variantes": [
+            "Paris-Geschütz",
+            "Paris Gun",
+            "Kaiser-Wilhelm-Geschütz"
+          ]
+        },
+        {
+          "id": "parses",
+          "nome": "Parses",
+          "descricao": "Comunidade de seguidores do zoroastrismo que migrou da Pérsia para a Índia na Idade Média.",
+          "variantes": [
+            "Parsis"
+          ]
+        },
+        {
+          "id": "prison_break",
+          "nome": "Prison Break",
+          "descricao": "Série americana de 2005 sobre o engenheiro Michael Scofield, que planeja uma fuga de dentro de uma penitenciária.",
+          "variantes": [
+            "Prison Break: Em Busca da Verdade"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Prato coreano; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Refeição; candidatas são entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Prato japonês; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Prato; candidatas não correspondem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Bala natalina; candidatas são outros itens de Natal ou entidades distintas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Doce francês; nenhuma candidata é o doce."
+    }
+  ]
+}

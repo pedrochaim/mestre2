@@ -1,0 +1,191 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tigela de cereal em foco, sem texto que entregue a resposta; pergunta sobre a fruta que o enfeita.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que fruta vermelha enfeita o alimento nesta tigela amarela?",
+      "resposta": "Framboesa",
+      "ancora": {
+        "nome": "Cereal matinal",
+        "descricao": "Alimento industrializado de grãos processados, comido no café da manhã, em geral com leite.",
+        "variantes": [
+          "Cereal",
+          "Flocos de cereal",
+          "Breakfast cereal"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bonecos de biscoito de gengibre bem reconhecíveis; a pergunta pede o ingrediente que dá nome ao biscoito.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ingrediente dá nome a este biscoito em forma de boneco?",
+      "resposta": "Gengibre",
+      "distratores": [
+        "Canela",
+        "Cravo",
+        "Noz-moscada"
+      ],
+      "ancora": {
+        "nome": "Boneco de gengibre",
+        "descricao": "Biscoito de gengibre em forma de figura humana estilizada, típico do Natal.",
+        "variantes": [
+          "Homem-biscoito",
+          "Gingerbread man"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rolos fatiados de kimbap nítidos, sem texto; pergunta sobre a alga que envolve.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que alga escura envolve o arroz e o recheio de cada fatia deste prato?",
+      "resposta": "Nori (gim)",
+      "ancora": {
+        "nome": "Kimbap",
+        "descricao": "Prato coreano de arroz, legumes e ovo enrolados em alga seca e servido em fatias.",
+        "variantes": [
+          "Gimbap",
+          "Kimbab"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Vitrine de confeitaria com vários doces variados, plaquinhas de texto (Apfel, Lemon, Vanille) e reflexos; o sonho não é claro nem único."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Prato claro de bacon, salsicha, ovos, feijão e tomate; texto da marca é irrelevante.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que café da manhã é este?",
+      "resposta": "Café da manhã inglês",
+      "distratores": [
+        "Café da manhã continental",
+        "Café da manhã japonês",
+        "Brunch de domingo"
+      ],
+      "ancora": {
+        "nome": "Café da manhã inglês",
+        "descricao": "Refeição matinal britânica e irlandesa com bacon, salsicha, ovos, feijão, tomate e torrada.",
+        "variantes": [
+          "Full English",
+          "Full breakfast",
+          "Fry-up"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Bolo amarelo de milho parecido com outros pratos (bolo de milho, cuscuz); a sopa paraguaia não é reconhecível com unicidade."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Sopa genérica com tofu, coentro e cogumelos, sem traços que a identifiquem; resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Espetos de frango na grelha, claros; pessoas aparecem só parcialmente (mãos e tronco).",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que carne está sendo grelhada nestes espetos?",
+      "resposta": "Frango",
+      "ancora": {
+        "nome": "Yakitori",
+        "descricao": "Espetos japoneses de pedaços de frango grelhados na brasa, temperados com sal ou molho tare.",
+        "variantes": [
+          "Yakitori de frango"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ovo escocês cortado ao meio, bem visível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que prato é este, com um ovo cozido no centro?",
+      "resposta": "Ovo escocês",
+      "ancora": {
+        "nome": "Ovo escocês",
+        "descricao": "Ovo cozido envolvido em carne de linguiça, empanado e frito ou assado.",
+        "variantes": [
+          "Scotch egg",
+          "Bolovo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bengala doce isolada em fundo branco, nítida.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que sabor é o mais típico deste doce?",
+      "resposta": "Hortelã-pimenta",
+      "distratores": [
+        "Canela",
+        "Anis",
+        "Gengibre"
+      ],
+      "ancora": {
+        "nome": "Bengala doce",
+        "descricao": "Bala dura em forma de bengala, branca com listras vermelhas, associada ao Natal.",
+        "variantes": [
+          "Candy cane",
+          "Bengala de Natal"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Xícara com arte de leite parece cappuccino, cortado ou flat white; o macchiato não é distinguível, resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Paris-Brest nítido, em foto próxima, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que doce é este, em forma de anel recheado de creme?",
+      "resposta": "Paris-Brest",
+      "ancora": {
+        "nome": "Paris-Brest",
+        "descricao": "Doce francês de massa choux em anel, recheado de creme de praliné e coberto de amêndoas laminadas.",
+        "variantes": [
+          "Paris–Brest"
+        ]
+      }
+    }
+  ]
+}

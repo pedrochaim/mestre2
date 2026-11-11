@@ -409344,5 +409344,134 @@
       "autor": "Museum Rotterdam",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q20598",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "kimbap",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que prato coreano é este?",
+    "resposta": "Kimbap (gimbap)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gimbap",
+      "https://pt.wikipedia.org/wiki/Gimbap"
+    ],
+    "imagem": {
+      "arquivo": "q20598.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gimbap_(pixabay).jpg",
+      "autor": "changupn",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q20599",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cafe_da_manha_ingles",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que café da manhã é este?",
+    "resposta": "Café da manhã inglês",
+    "distratores": [
+      "Café da manhã continental",
+      "Café da manhã japonês",
+      "Brunch de domingo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Full_breakfast"
+    ],
+    "imagem": {
+      "arquivo": "q20599.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Desayuno_inglés.jpg",
+      "autor": "Rafax",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20600",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "yakitori",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que carne está sendo grelhada nestes espetos?",
+    "resposta": "Frango",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yakitori",
+      "https://pt.wikipedia.org/wiki/Yakitori"
+    ],
+    "imagem": {
+      "arquivo": "q20600.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cooking_yakitori.jpg",
+      "autor": "竹麦魚(Searobin)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20601",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "ovo_escoces",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que petisco britânico é este?",
+    "resposta": "Ovo escocês (bolovo)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scotch_egg",
+      "https://pt.wikipedia.org/wiki/Bolovo"
+    ],
+    "imagem": {
+      "arquivo": "q20601.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Scotch_Eggs.jpg",
+      "autor": "Natus",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20602",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bengala_doce",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que sabor é o mais típico deste doce?",
+    "resposta": "Hortelã-pimenta",
+    "distratores": [
+      "Canela",
+      "Anis",
+      "Gengibre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Candy_cane",
+      "https://pt.wikipedia.org/wiki/Bengala_doce"
+    ],
+    "imagem": {
+      "arquivo": "q20602.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Candy-Cane-Classic.jpg",
+      "autor": "Evan-Amos",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20603",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "paris_brest",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que doce é este, em forma de anel recheado de creme?",
+    "resposta": "Paris-Brest",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paris%E2%80%93Brest",
+      "https://pt.wikipedia.org/wiki/Paris%E2%80%93Brest"
+    ],
+    "imagem": {
+      "arquivo": "q20603.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Paris-Brest_IMG_0876.JPG",
+      "autor": "Deror_avi",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]
