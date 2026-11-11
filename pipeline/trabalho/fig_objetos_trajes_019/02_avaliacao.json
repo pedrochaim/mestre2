@@ -1,0 +1,168 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Filtro de barro com vela e torneira, claro e inconfundível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que estado brasileiro foi criado este utensílio, no início do século vinte?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Minas Gerais",
+        "Rio de Janeiro",
+        "Paraná"
+      ],
+      "ancora": {
+        "nome": "Filtro de barro",
+        "descricao": "Utensílio doméstico brasileiro de cerâmica, com velas filtrantes e torneira, para filtrar água potável.",
+        "variantes": [
+          "Filtro de cerâmica",
+          "Filtro São João"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bolsa de água quente de borracha azul, nítida e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto doméstico é este?",
+      "resposta": "Bolsa de água quente",
+      "distratores": [
+        "Bolsa de soro",
+        "Garrafa térmica",
+        "Bolsa de colostomia"
+      ],
+      "ancora": {
+        "nome": "Bolsa de água quente",
+        "descricao": "Recipiente de borracha com tampa, cheio de água quente, usado para aquecer a cama ou uma parte do corpo.",
+        "variantes": [
+          "Bolsa térmica de água"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Peça pendurada com penas e tecido listrado, sem forma clara de rebozo; não é reconhecível com segurança e há pessoas ao fundo."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Toalhas penduradas em varal com pregadores coloridos, nítido; a pergunta parte do pregador visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pequena peça prende estas toalhas ao fio esticado?",
+      "resposta": "Pregador de roupa",
+      "distratores": [
+        "Gancho de cabide",
+        "Alfinete de segurança",
+        "Velcro"
+      ],
+      "ancora": {
+        "nome": "Varal",
+        "descricao": "Fio ou corda esticada entre dois pontos, onde se pendura roupa lavada para secar.",
+        "variantes": [
+          "Corda de roupa",
+          "Estendal"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Luminária de lava clássica, bem visível e inconfundível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país foi inventado este objeto decorativo, em 1963?",
+      "resposta": "Reino Unido",
+      "distratores": [
+        "Estados Unidos",
+        "Alemanha",
+        "França"
+      ],
+      "ancora": {
+        "nome": "Luminária de lava",
+        "descricao": "Lâmpada decorativa com cera colorida que sobe e desce num líquido, inventada em 1963 por Edward Craven Walker.",
+        "variantes": [
+          "Lâmpada de lava",
+          "Lava lamp"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Lornhão de prata em fundo neutro, claro e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que acessório elegante é este, que as damas do século dezenove levavam à ópera?",
+      "resposta": "Lornhão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lornhão",
+        "descricao": "Par de óculos preso a um cabo, segurado diante dos olhos em vez de apoiado nas orelhas ou no nariz.",
+        "variantes": [
+          "Lorgnette"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Mostra três peças diferentes (capas de fralda e uma calça de lã); a resposta não é única nem clara, com marca e etiqueta visíveis."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É um desenho a nanquim, esboço pouco nítido; a gargantilha é fotografável e o traço é ambíguo."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Texto visível 'Made in Turkey' no objeto entrega a origem e a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ioiô de madeira colorido, nítido e reconhecível.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este brinquedo já é documentado desde o ano quatrocentos e quarenta antes de Cristo. De que século antes de Cristo?",
+      "resposta": "Século quinto a.C.",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ioiô",
+        "descricao": "Brinquedo formado por dois discos ligados por um eixo, com um cordão que se enrola e desenrola.",
+        "variantes": [
+          "Yo-yo",
+          "Ioió"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Três mulheres comuns em primeiro plano, em contexto de rua; pessoas comuns não são permitidas."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Homem em primeiro plano sem identificação como figura pública; a roupa pode ser confundida com agbada, então a resposta não é única."
+    }
+  ]
+}

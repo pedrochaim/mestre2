@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado brasileiro foi criado este utensílio, no início do século vinte?",
+        "resposta": "São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q06901",
+          "pergunta": "Este utensílio doméstico de cerâmica foi criado no início do século vinte em que estado brasileiro?",
+          "resposta": "São Paulo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q06901",
+      "motivo": "Ambas perguntam em que estado brasileiro o utensílio foi criado no início do século XX; mesma resposta (São Paulo)."
+    }
+  ]
+}

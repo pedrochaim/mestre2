@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho da Wikipédia confirma criação no interior de São Paulo, início do século XX. Enunciado não vaza e distratores são estados plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; enunciado não vaza nada e a resposta é única. Distratores são objetos parecidos e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A pergunta pede o pregador, que não é o assunto da imagem (varal). A função descrita, prender toalhas ao fio, já entrega a resposta sem a figura. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma invenção em 1963 pelo britânico Edward Craven Walker. O enunciado não vaza e os distratores são países plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta aberta não é única: 'binóculo de ópera' seria defensável pelo enunciado. A pista de ópera também é forte. Em múltipla escolha, com distratores de acessórios ópticos, a pergunta fica justa. Os trechos sustentam o uso no século XIX.",
+      "reescrita": {
+        "pergunta": "Que acessório óptico elegante do século dezenove é este?",
+        "resposta": "Lornhão",
+        "distratores": [
+          "Pincenê",
+          "Monóculo",
+          "Binóculo de teatro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O ano 440 a.C. vem no enunciado e a resposta, século quinto, é só aritmética. Não depende da figura nem pede conhecimento do brinquedo.",
+      "reescrita": null
+    }
+  ]
+}

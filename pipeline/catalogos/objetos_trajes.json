@@ -1447,7 +1447,7 @@
       "titulo": "en:Clothes line",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Abridor de garrafas",
@@ -1531,7 +1531,7 @@
       "titulo": "en:Hot water bottle",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Penico",
@@ -1679,6 +1679,286 @@
       "camada": 3,
       "destino": 2,
       "status": "nova"
+    },
+    {
+      "nome": "Travesseiro",
+      "titulo": "en:Pillow",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sofá",
+      "titulo": "en:Couch",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mala de viagem",
+      "titulo": "en:Suitcase",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bússola",
+      "titulo": "en:Compass",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Disco de vinil",
+      "titulo": "en:Phonograph record",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carrinho de mão",
+      "titulo": "en:Wheelbarrow",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ioiô",
+      "titulo": "en:Yo-yo",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Globo terrestre",
+      "titulo": "en:Globe",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Filtro de barro",
+      "titulo": "pt:Filtro de barro",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Machado",
+      "titulo": "en:Axe",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pulseira",
+      "titulo": "en:Bracelet",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vestido",
+      "titulo": "en:Dress",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fralda",
+      "titulo": "en:Diaper",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Luminária de lava",
+      "titulo": "en:Lava lamp",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Relógio de sol",
+      "titulo": "en:Sundial",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tear",
+      "titulo": "en:Loom",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gramofone",
+      "titulo": "en:Phonograph",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Wok",
+      "titulo": "en:Wok",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pager",
+      "titulo": "en:Pager",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gargantilha",
+      "titulo": "en:Choker",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Óculos de aviador",
+      "titulo": "en:Aviator sunglasses",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sobretudo",
+      "titulo": "en:Overcoat",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bota Ugg",
+      "titulo": "en:Ugg boots",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pareô",
+      "titulo": "en:Pareo",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapéu tirolês",
+      "titulo": "en:Tyrolean hat",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Chador",
+      "titulo": "en:Chador",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pilcha",
+      "titulo": "pt:Pilcha",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Sextante",
+      "titulo": "en:Sextant",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mimeógrafo",
+      "titulo": "en:Mimeograph",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cezve",
+      "titulo": "en:Cezve",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sopeira",
+      "titulo": "en:Tureen",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Plaina",
+      "titulo": "en:Hand plane",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Camafeu",
+      "titulo": "en:Cameo (carving)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lenço de bolso",
+      "titulo": "en:Pocket square",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Faixa de smoking",
+      "titulo": "en:Cummerbund",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lornhão",
+      "titulo": "en:Lorgnette",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Tefilin",
+      "titulo": "en:Tefillin",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Rebozo",
+      "titulo": "en:Rebozo",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Longyi",
+      "titulo": "en:Longyi",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bubu",
+      "titulo": "en:Boubou (clothing)",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
     }
   ]
 }

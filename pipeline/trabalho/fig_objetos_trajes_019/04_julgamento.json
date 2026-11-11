@@ -1,0 +1,266 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Filtro de barro",
+        "descricao": "Utensílio doméstico brasileiro de cerâmica, com velas filtrantes e torneira, para filtrar água potável.",
+        "variantes": [
+          "Filtro de cerâmica",
+          "Filtro São João"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "filtro_de_barro",
+          "nome": "Filtro de barro",
+          "descricao": "Utensílio doméstico de cerâmica com velas filtrantes para purificar a água.",
+          "variantes": [
+            "Filtro de cerâmica",
+            "Filtro São João"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "filtro_de_papel_para_cafe",
+          "nome": "Filtro de papel para café",
+          "descricao": "Filtro descartável de papel para coar café, patenteado pela alemã Melitta Bentz em 1908.",
+          "variantes": [
+            "Filtro Melitta",
+            "Coffee filter"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina",
+            "Festa de São João"
+          ]
+        },
+        {
+          "id": "farol_de_alexandria",
+          "nome": "Farol de Alexandria",
+          "descricao": "Farol da Antiguidade na ilha de Faros, no Egito, uma das Sete Maravilhas do Mundo Antigo.",
+          "variantes": [
+            "Farol de Faros",
+            "Pharos de Alexandria",
+            "Lighthouse of Alexandria",
+            "Pharos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bolsa de água quente",
+        "descricao": "Recipiente de borracha com tampa, cheio de água quente, usado para aquecer a cama ou uma parte do corpo.",
+        "variantes": [
+          "Bolsa térmica de água"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bola_de_basquete",
+          "nome": "Bola de basquete",
+          "descricao": "Bola esférica alaranjada com gomos pretos usada no basquete.",
+          "variantes": [
+            "Basketball",
+            "Bola de basquetebol",
+            "Basketball (ball)"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "balonismo",
+          "nome": "Balonismo",
+          "descricao": "Esporte e aventura de voar em balões de ar quente.",
+          "variantes": [
+            "Balão de ar quente",
+            "Hot air ballooning"
+          ]
+        },
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        },
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Luminária de lava",
+        "descricao": "Lâmpada decorativa com cera colorida que sobe e desce num líquido, inventada em 1963 por Edward Craven Walker.",
+        "variantes": [
+          "Lâmpada de lava",
+          "Lava lamp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bola_de_plasma",
+          "nome": "Bola de plasma",
+          "descricao": "Esfera de vidro com gases nobres e um eletrodo central de alta tensão que forma filamentos de plasma luminosos.",
+          "variantes": [
+            "Globo de plasma",
+            "Lâmpada de plasma"
+          ]
+        },
+        {
+          "id": "lampada_de_davy",
+          "nome": "Lâmpada de Davy",
+          "descricao": "Lamparina de segurança para minas de carvão, criada por Humphry Davy em 1815.",
+          "variantes": [
+            "Lâmpada de segurança de Davy"
+          ]
+        },
+        {
+          "id": "lago_de_lava",
+          "nome": "Lago de lava",
+          "descricao": "Grande volume de lava fundida contido numa cratera ou depressão de um vulcão.",
+          "variantes": [
+            "Lava lake"
+          ]
+        },
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente",
+            "Lâmpada elétrica",
+            "Incandescent light bulb"
+          ]
+        },
+        {
+          "id": "armadura_de_placas",
+          "nome": "Armadura de placas",
+          "descricao": "Armadura de corpo inteiro feita de placas de aço articuladas, típica do fim da Idade Média e do Renascimento.",
+          "variantes": [
+            "Armadura completa",
+            "Plate armour"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lornhão",
+        "descricao": "Par de óculos preso a um cabo, segurado diante dos olhos em vez de apoiado nas orelhas ou no nariz.",
+        "variantes": [
+          "Lorgnette"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abobrinha",
+          "nome": "Abobrinha",
+          "descricao": "Fruto alongado e verde da abobrinha, Cucurbita pepo var. cylindrica, colhido imaturo.",
+          "variantes": [
+            "Abobrinha italiana",
+            "Zucchini",
+            "Courgette"
+          ]
+        },
+        {
+          "id": "floette",
+          "nome": "Floette",
+          "descricao": "Pokémon do tipo Fada, número 670 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "orelhao",
+          "nome": "Orelhão",
+          "descricao": "Cabine de telefone público em forma de concha, símbolo das ruas brasileiras desde os anos setenta.",
+          "variantes": [
+            "Chu I",
+            "Chu II"
+          ]
+        },
+        {
+          "id": "fernando_de_noronha",
+          "nome": "Fernando de Noronha",
+          "descricao": "Arquipélago brasileiro no oceano Atlântico, pertencente ao estado de Pernambuco.",
+          "variantes": [
+            "Arquipélago de Fernando de Noronha",
+            "Noronha"
+          ]
+        },
+        {
+          "id": "alcorao",
+          "nome": "Alcorão",
+          "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+          "variantes": [
+            "Corão",
+            "Qur'an",
+            "Quran"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "filtro_de_barro",
+      "motivo": "Mesmo utensílio de cerâmica com velas filtrantes, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é bolsa de água quente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a luminária de lava."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o lornhão (óculos de cabo)."
+    }
+  ]
+}

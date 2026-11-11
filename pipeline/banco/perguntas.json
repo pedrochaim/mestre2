@@ -409275,5 +409275,74 @@
       "autor": "Frederick Sandys",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q20595",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "bolsa_de_agua_quente",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que objeto doméstico é este?",
+    "resposta": "Bolsa de água quente",
+    "distratores": [
+      "Bolsa de soro",
+      "Garrafa térmica",
+      "Bolsa de colostomia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hot_water_bottle"
+    ],
+    "imagem": {
+      "arquivo": "q20595.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hot_Water_Bottle.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20596",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "luminaria_de_lava",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país foi inventado este objeto decorativo, em 1963?",
+    "resposta": "Reino Unido",
+    "distratores": [
+      "Estados Unidos",
+      "Alemanha",
+      "França"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lava_lamp",
+      "https://pt.wikipedia.org/wiki/L%C3%A2mpada_de_lava"
+    ],
+    "imagem": {
+      "arquivo": "q20596.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lavalampe.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20597",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "lornhao",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que acessório óptico elegante do século dezenove é este?",
+    "resposta": "Lornhão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lorgnette",
+      "https://pt.wikipedia.org/wiki/Lornh%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q20597.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Springlorgnet_van_zilverkleurig_metaal,_kort_driehoekig_handvat_met_Art_Deco_decoratie_met_grijsgroene_bekleding,_objectnr_71168.JPG",
+      "autor": "Museum Rotterdam",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
