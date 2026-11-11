@@ -1,0 +1,83 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que igreja construiu este templo?",
+        "resposta": "Igreja Universal do Reino de Deus"
+      },
+      "existentes": [
+        {
+          "id": "q15820",
+          "pergunta": "Em que cidade brasileira fica este grande templo religioso?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que forte brasileiro é este?",
+        "resposta": "Forte de São Marcelo"
+      },
+      "existentes": [
+        {
+          "id": "q18986",
+          "pergunta": "Que forte colonial, construído sobre arrecifes diante de uma capital brasileira, é este?",
+          "resposta": "Forte de São Marcelo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que instituição brasileira funciona neste prédio?",
+        "resposta": "Supremo Tribunal Federal"
+      },
+      "existentes": [
+        {
+          "id": "q20380",
+          "pergunta": "Que escultor fez a estátua sentada que fica em frente a este prédio?",
+          "resposta": "Alfredo Ceschiatti"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que estádio da Copa do Mundo de 2014 é este?",
+        "resposta": "Arena Pantanal"
+      },
+      "existentes": [
+        {
+          "id": "q02830",
+          "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+          "resposta": "Cuiabá"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a igreja construtora, não a cidade onde fica."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q18986",
+      "motivo": "Ambas pedem a identificação do Forte de São Marcelo; mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Instituição que funciona no prédio é fato diferente do escultor da estátua."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o estádio é diferente de saber qual clube joga nele."
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Beach Park",
+        "descricao": "Parque aquático e complexo turístico na praia de Porto das Dunas, em Aquiraz, perto de Fortaleza, no Ceará.",
+        "variantes": [
+          "Beach Park Aquiraz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bletchley_park",
+          "nome": "Bletchley Park",
+          "descricao": "Mansão e propriedade inglesa em Milton Keynes, centro de decifração de códigos dos Aliados na Segunda Guerra Mundial.",
+          "variantes": [
+            "Bletchley"
+          ]
+        },
+        {
+          "id": "mochila",
+          "nome": "Mochila",
+          "descricao": "Saco de tecido carregado nas costas por duas alças, aqui uma mochila grande de trilha.",
+          "variantes": [
+            "Mochila de trilha",
+            "Backpack"
+          ]
+        },
+        {
+          "id": "noctiluca_scintillans",
+          "nome": "Noctiluca scintillans",
+          "descricao": "Dinoflagelado marinho bioluminescente que faz as ondas brilharem em azul à noite.",
+          "variantes": [
+            "Noctiluca",
+            "Faísca-do-mar",
+            "Sea sparkle"
+          ]
+        },
+        {
+          "id": "pal_park",
+          "nome": "Pal Park",
+          "descricao": "Parque de Sinnoh, em Pokémon Diamond, Pearl e Platinum, que recebe pokémon transferidos dos jogos de Game Boy Advance.",
+          "variantes": [
+            "Parque Amigo"
+          ]
+        },
+        {
+          "id": "supino",
+          "nome": "Supino",
+          "descricao": "Exercício de musculação em que se empurra uma barra para cima deitado num banco horizontal.",
+          "variantes": [
+            "Supino reto",
+            "Bench press"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Rua 24 Horas",
+        "descricao": "Rua comercial coberta por 32 arcos, no centro de Curitiba, inaugurada em 1991.",
+        "variantes": [
+          "Rua Vinte e Quatro Horas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "patins",
+          "nome": "Patins",
+          "descricao": "Calçado com rodas fixadas sob a sola, usado para deslizar em superfícies duras; o modelo mostrado tem duas rodas em cada eixo (quad).",
+          "variantes": [
+            "Patins quad",
+            "Patins de quatro rodas"
+          ]
+        },
+        {
+          "id": "guine_equatorial",
+          "nome": "Guiné Equatorial",
+          "descricao": "País da África Central, antiga colônia espanhola, membro da Comunidade dos Países de Língua Portuguesa",
+          "variantes": [
+            "Guinea Ecuatorial",
+            "Equatorial Guinea"
+          ]
+        },
+        {
+          "id": "fonte_dos_quatro_rios",
+          "nome": "Fonte dos Quatro Rios",
+          "descricao": "Fonte barroca de Gian Lorenzo Bernini na Piazza Navona, em Roma, de 1651.",
+          "variantes": [
+            "Fontana dei Quattro Fiumi"
+          ]
+        },
+        {
+          "id": "teoria_dos_quatro_humores",
+          "nome": "Teoria dos quatro humores",
+          "descricao": "Doutrina da medicina grega, associada a Hipócrates, segundo a qual a saúde depende do equilíbrio entre sangue, fleuma, bile amarela e bile negra.",
+          "variantes": [
+            "Humorismo",
+            "Teoria humoral",
+            "Humorism"
+          ]
+        },
+        {
+          "id": "biriba",
+          "nome": "Biribá",
+          "descricao": "Fruta da Annona mucosa, da família das anonáceas, de casca verde-amarelada coberta de projeções pontudas e polpa branca e doce.",
+          "variantes": [
+            "Annona mucosa",
+            "Rollinia mucosa",
+            "Fruta-torta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Farol do Cabo Branco",
+        "descricao": "Farol sobre uma falésia em João Pessoa, Paraíba, de forma triangular única no país.",
+        "variantes": [
+          "Farol de Cabo Branco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barao_do_rio_branco",
+          "nome": "Barão do Rio Branco",
+          "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+          "variantes": [
+            "José Maria da Silva Paranhos Júnior",
+            "Rio Branco"
+          ]
+        },
+        {
+          "id": "arco_de_cabo_san_lucas",
+          "nome": "Arco de Cabo San Lucas",
+          "descricao": "Arco de granito no extremo sul da península da Baja California, no México, onde o Pacífico encontra o Golfo da Califórnia.",
+          "variantes": [
+            "El Arco",
+            "Arco de Los Cabos",
+            "Arch of Cabo San Lucas"
+          ]
+        },
+        {
+          "id": "farol_da_barra_forte_de_santo_antonio_da_barra",
+          "nome": "Farol da Barra (Forte de Santo Antônio da Barra)",
+          "descricao": "Fortificação do século dezessete em Salvador, na Bahia, com o farol mais antigo das Américas.",
+          "variantes": [
+            "Forte de Santo Antônio da Barra",
+            "Farol da Barra"
+          ]
+        },
+        {
+          "id": "gibao_de_maos_brancas",
+          "nome": "Gibão-de-mãos-brancas",
+          "descricao": "Primata da família dos gibões, Hylobates lar, do Sudeste Asiático.",
+          "variantes": [
+            "Gibão-lar",
+            "Hylobates lar"
+          ]
+        },
+        {
+          "id": "cervo_de_cauda_branca",
+          "nome": "Cervo-de-cauda-branca",
+          "descricao": "Cervo de porte médio (Odocoileus virginianus) nativo das Américas.",
+          "variantes": [
+            "Cariacu",
+            "Veado-de-cauda-branca",
+            "Odocoileus virginianus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Templo de Salomão",
+        "descricao": "Templo da Igreja Universal do Reino de Deus em São Paulo, réplica do antigo templo de Jerusalém.",
+        "variantes": [
+          "Templo de Salomão de São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        },
+        {
+          "id": "templo_de_salomao_sao_paulo",
+          "nome": "Templo de Salomão (São Paulo)",
+          "descricao": "Templo da Igreja Universal do Reino de Deus em São Paulo, construído como réplica do Templo de Salomão de Jerusalém.",
+          "variantes": [
+            "Templo de Salomão da Igreja Universal"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "templo_de_saturno",
+          "nome": "Templo de Saturno",
+          "descricao": "Templo romano dedicado ao deus Saturno, cujas ruínas ficam no Fórum Romano.",
+          "variantes": [
+            "Templum Saturni",
+            "Tempio di Saturno"
+          ]
+        },
+        {
+          "id": "templo_de_luxor",
+          "nome": "Templo de Luxor",
+          "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+          "variantes": [
+            "Luxor Temple"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Forte de São Marcelo",
+        "descricao": "Forte circular erguido sobre recifes na baía de Todos os Santos, em frente ao centro histórico de Salvador.",
+        "variantes": [
+          "Forte do Mar",
+          "Forte de Nossa Senhora do Pópulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forte_de_sao_marcelo",
+          "nome": "Forte de São Marcelo",
+          "descricao": "Forte circular erguido sobre arrecifes na Baía de Todos os Santos, em frente ao centro histórico de Salvador, na Bahia.",
+          "variantes": [
+            "Forte do Mar",
+            "Forte de Nossa Senhora do Pópulo"
+          ]
+        },
+        {
+          "id": "assassinato_de_jean_paul_marat",
+          "nome": "Assassinato de Jean-Paul Marat",
+          "descricao": "Morte do jornalista revolucionário francês Jean-Paul Marat, esfaqueado na banheira em 13 de julho de 1793.",
+          "variantes": [
+            "Morte de Marat"
+          ]
+        },
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        },
+        {
+          "id": "ourico_do_mar",
+          "nome": "Ouriço-do-mar",
+          "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+          "variantes": [
+            "Ouriço",
+            "Sea urchin"
+          ]
+        },
+        {
+          "id": "ovelha_do_mar",
+          "nome": "Ovelha-do-mar",
+          "descricao": "Lesma-do-mar Costasiella kuroshimae, minúscula, com projeções que lembram orelhas de ovelha, que faz fotossíntese por cleptoplastia.",
+          "variantes": [
+            "Costasiella kuroshimae",
+            "Ovelha-folha",
+            "Leaf sheep"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Torre Malakoff",
+        "descricao": "Torre com relógio e observatório no Recife Antigo, batizada em referência a uma torre da fortaleza de Sebastopol.",
+        "variantes": [
+          "Torre de Malakoff"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_galata",
+          "nome": "Torre de Gálata",
+          "descricao": "Torre medieval de pedra no bairro de Gálata, em Istambul, construída pelos genoveses no século catorze.",
+          "variantes": [
+            "Galata Tower",
+            "Galata Kulesi"
+          ]
+        },
+        {
+          "id": "torre_de_hanoi",
+          "nome": "Torre de Hanói",
+          "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+          "variantes": [
+            "Tower of Hanoi",
+            "Torre de Brahma"
+          ]
+        },
+        {
+          "id": "torre_de_radio_de_goldenrod",
+          "nome": "Torre de Rádio de Goldenrod",
+          "descricao": "Prédio da emissora de rádio de Goldenrod, em Johto, invadido pela Equipe Rocket em Pokémon Gold e Silver.",
+          "variantes": [
+            "Goldenrod Radio Tower",
+            "Torre de Rádio"
+          ]
+        },
+        {
+          "id": "torre_de_babel",
+          "nome": "Torre de Babel",
+          "descricao": "Torre narrada no livro do Gênesis, cuja história explica a diversidade das línguas",
+          "variantes": [
+            "Babel"
+          ]
+        },
+        {
+          "id": "linha_de_transmissao",
+          "nome": "Linha de transmissão",
+          "descricao": "Linha aérea de condutores suspensos por torres que leva energia elétrica por longas distâncias.",
+          "variantes": [
+            "Torre de transmissão",
+            "Linha de alta tensão",
+            "Torre de alta tensão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Supremo Tribunal Federal (sede)",
+        "descricao": "Edifício projetado por Oscar Niemeyer, na Praça dos Três Poderes em Brasília, sede do Supremo Tribunal Federal.",
+        "variantes": [
+          "Palácio do Supremo Tribunal Federal",
+          "STF"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_do_supremo_tribunal_federal",
+          "nome": "Palácio do Supremo Tribunal Federal",
+          "descricao": "Sede do Supremo Tribunal Federal na Praça dos Três Poderes, em Brasília, projetada por Oscar Niemeyer.",
+          "variantes": [
+            "Palácio do STF",
+            "Supremo Tribunal Federal"
+          ]
+        },
+        {
+          "id": "telescopio_espacial_spitzer",
+          "nome": "Telescópio Espacial Spitzer",
+          "descricao": "Telescópio espacial infravermelho da NASA ativo entre 2003 e 2020.",
+          "variantes": [
+            "Spitzer",
+            "Spitzer Space Telescope",
+            "SIRTF"
+          ]
+        },
+        {
+          "id": "telescopio_espacial_hubble",
+          "nome": "Telescópio Espacial Hubble",
+          "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+          "variantes": [
+            "Hubble",
+            "HST",
+            "Hubble Space Telescope"
+          ]
+        },
+        {
+          "id": "onibus_espacial",
+          "nome": "Ônibus espacial",
+          "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+          "variantes": [
+            "Space Shuttle",
+            "Space Transportation System",
+            "STS",
+            "Shuttle"
+          ]
+        },
+        {
+          "id": "sbt",
+          "nome": "SBT",
+          "descricao": "Sistema Brasileiro de Televisão, rede de TV fundada pelo apresentador e empresário Silvio Santos.",
+          "variantes": [
+            "Sistema Brasileiro de Televisão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cais do Valongo",
+        "descricao": "Antigo cais na zona portuária do Rio de Janeiro, por onde desembarcaram africanos escravizados, Patrimônio Mundial da Unesco.",
+        "variantes": [
+          "Valongo Wharf",
+          "Cais da Imperatriz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong"
+          ]
+        },
+        {
+          "id": "dinastia_salomonica",
+          "nome": "Dinastia salomônica",
+          "descricao": "Casa imperial da Etiópia, que reinou de 1270 a 1974 e se dizia descendente do rei Salomão.",
+          "variantes": [
+            "Solomonic dynasty",
+            "Casa de Salomão"
+          ]
+        },
+        {
+          "id": "petropolis",
+          "nome": "Petrópolis",
+          "descricao": "Cidade da serra fluminense, antiga residência de verão da família imperial brasileira.",
+          "variantes": [
+            "Cidade Imperial"
+          ]
+        },
+        {
+          "id": "cao_da_pradaria",
+          "nome": "Cão-da-pradaria",
+          "descricao": "Roedor da família dos esquilos (Cynomys ludovicianus) que vive nas pradarias da América do Norte.",
+          "variantes": [
+            "Cão-da-pradaria-de-cauda-preta",
+            "Cachorro-da-pradaria",
+            "Black-tailed prairie dog"
+          ]
+        },
+        {
+          "id": "sagui_imperador",
+          "nome": "Sagui-imperador",
+          "descricao": "Pequeno primata amazônico (Saguinus imperator) de longo bigode branco.",
+          "variantes": [
+            "Saguinus imperator",
+            "Imperador-tamarino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Arena Pantanal",
+        "descricao": "Estádio de Cuiabá, Mato Grosso, sede de jogos da Copa do Mundo de 2014.",
+        "variantes": [
+          "Estádio Governador José Fragelli"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_pantanal",
+          "nome": "Arena Pantanal",
+          "descricao": "Estádio de futebol em Cuiabá, Mato Grosso, sede de jogos da Copa do Mundo de 2014 e casa do Cuiabá Esporte Clube.",
+          "variantes": [
+            "Estádio José Fragelli",
+            "Arena Pantanal (Cuiabá)"
+          ]
+        },
+        {
+          "id": "carao",
+          "nome": "Carão",
+          "descricao": "Ave pernalta de áreas alagadas das Américas (Aramus guarauna), única da família Aramidae, que come caramujos.",
+          "variantes": [
+            "Aramus guarauna",
+            "Limpkin",
+            "Carão-do-pantanal"
+          ]
+        },
+        {
+          "id": "jacare_do_pantanal",
+          "nome": "Jacaré-do-pantanal",
+          "descricao": "Jacaré Caiman yacare, de marrom com manchas escuras, nativo da Argentina, Bolívia, Brasil e Paraguai.",
+          "variantes": [
+            "Caiman yacare",
+            "Jacaré-paraguaio",
+            "Yacare caiman"
+          ]
+        },
+        {
+          "id": "pantanal_telenovela_de_1990",
+          "nome": "Pantanal (telenovela de 1990)",
+          "descricao": "Telenovela de Benedito Ruy Barbosa exibida em 1990, ambientada no Pantanal mato-grossense.",
+          "variantes": [
+            "Pantanal"
+          ]
+        },
+        {
+          "id": "pantanal",
+          "nome": "Pantanal",
+          "descricao": "Bioma de planície alagável no Mato Grosso, no Mato Grosso do Sul, na Bolívia e no Paraguai",
+          "variantes": [
+            "Pantanal Mato-Grossense"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Santuário do Caraça",
+        "descricao": "Complexo religioso com igreja neogótica e convento na Serra do Caraça, em Catas Altas, Minas Gerais.",
+        "variantes": [
+          "Caraça",
+          "Igreja Nossa Senhora Mãe dos Homens"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caracal",
+          "nome": "Caracal",
+          "descricao": "Felino selvagem de pelagem castanho-avermelhada e longas orelhas com tufos pretos (Caracal caracal).",
+          "variantes": [
+            "Caracal caracal",
+            "Lince-do-deserto"
+          ]
+        },
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        },
+        {
+          "id": "reco_reco",
+          "nome": "Reco-reco",
+          "descricao": "Instrumento de percussão raspado, de origem africana, usado na música brasileira, aqui no modelo de molas metálicas.",
+          "variantes": [
+            "Raspador",
+            "Caracaxá",
+            "Querequexé"
+          ]
+        },
+        {
+          "id": "white_tie",
+          "nome": "White tie",
+          "descricao": "Código de traje de gala noturno que exige casaca e gravata-borboleta branca",
+          "variantes": [
+            "Traje a rigor",
+            "Casaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Biblioteca Mário de Andrade",
+        "descricao": "Maior biblioteca pública da cidade de São Paulo, em edifício art déco no centro histórico.",
+        "variantes": [
+          "BMA"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maranhao",
+          "nome": "Maranhão",
+          "descricao": "Estado do Nordeste do Brasil, cuja capital é São Luís.",
+          "variantes": [
+            "MA"
+          ]
+        },
+        {
+          "id": "bulma",
+          "nome": "Bulma",
+          "descricao": "Cientista de cabelo azul, amiga de Goku desde o início de Dragon Ball e mãe de Trunks e Bra.",
+          "variantes": [
+            "ブルマ"
+          ]
+        },
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "mario_de_andrade",
+          "nome": "Mário de Andrade",
+          "descricao": "Escritor e musicólogo paulista (1893–1945), líder do Modernismo e autor de Macunaíma.",
+          "variantes": [
+            "Mário Raul de Morais Andrade"
+          ]
+        },
+        {
+          "id": "biblioteca_nacional_do_brasil",
+          "nome": "Biblioteca Nacional do Brasil",
+          "descricao": "Maior biblioteca da América Latina, em prédio eclético na Cinelândia, no Rio de Janeiro.",
+          "variantes": [
+            "Biblioteca Nacional",
+            "Fundação Biblioteca Nacional"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o parque aquático Beach Park."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Rua 24 Horas de Curitiba."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O Farol do Cabo Branco em João Pessoa não está entre as candidatas; o Farol da Barra é outro."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "templo_de_salomao_sao_paulo",
+      "motivo": "Mesmo templo da Igreja Universal em São Paulo."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "forte_de_sao_marcelo",
+      "motivo": "Mesmo forte, com descrição e variantes idênticas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Torre Malakoff do Recife."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "palacio_do_supremo_tribunal_federal",
+      "motivo": "Mesmo edifício sede do STF, projetado por Niemeyer."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Cais do Valongo."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "arena_pantanal",
+      "motivo": "Mesmo estádio de Cuiabá."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Santuário do Caraça."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "A Biblioteca Mário de Andrade não está entre as candidatas; o escritor e a Biblioteca Nacional são entidades distintas."
+    }
+  ]
+}

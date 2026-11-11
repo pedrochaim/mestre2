@@ -1,0 +1,266 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista do alto de um tobogã gigante do parque aquático entre coqueiros, sem texto; reconhecível com múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que parque aquático do litoral brasileiro é este?",
+      "resposta": "Beach Park",
+      "distratores": [
+        "Hot Park",
+        "Thermas dos Laranjais",
+        "Wet'n Wild"
+      ],
+      "ancora": {
+        "nome": "Beach Park",
+        "descricao": "Parque aquático e complexo turístico na praia de Porto das Dunas, em Aquiraz, perto de Fortaleza, no Ceará.",
+        "variantes": [
+          "Beach Park Aquiraz"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Passagem coberta com arcos e relógio de 24 horas, sem texto que entregue o prefeito; imagem clara.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que prefeito inaugurou, em 1991, esta rua coberta?",
+      "resposta": "Jaime Lerner",
+      "distratores": [
+        "Cássio Taniguchi",
+        "Rafael Greca",
+        "Beto Richa"
+      ],
+      "ancora": {
+        "nome": "Rua 24 Horas",
+        "descricao": "Rua comercial coberta por 32 arcos, no centro de Curitiba, inaugurada em 1991.",
+        "variantes": [
+          "Rua Vinte e Quatro Horas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Farol de forma triangular única, muito característico, sem texto legível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que farol brasileiro é este?",
+      "resposta": "Farol do Cabo Branco",
+      "distratores": [
+        "Farol da Barra",
+        "Farol de Itapuã",
+        "Farol de Santa Marta"
+      ],
+      "ancora": {
+        "nome": "Farol do Cabo Branco",
+        "descricao": "Farol sobre uma falésia em João Pessoa, Paraíba, de forma triangular única no país.",
+        "variantes": [
+          "Farol de Cabo Branco"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada nítida da réplica do templo, sem texto, única diante da imagem.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que igreja construiu este templo?",
+      "resposta": "Igreja Universal do Reino de Deus",
+      "distratores": [
+        "Assembleia de Deus",
+        "Congregação Cristã no Brasil",
+        "Igreja Batista da Lagoinha"
+      ],
+      "ancora": {
+        "nome": "Templo de Salomão",
+        "descricao": "Templo da Igreja Universal do Reino de Deus em São Paulo, réplica do antigo templo de Jerusalém.",
+        "variantes": [
+          "Templo de Salomão de São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto aérea clara do forte circular dentro do mar, inconfundível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que forte brasileiro é este?",
+      "resposta": "Forte de São Marcelo",
+      "distratores": [
+        "Forte Tamandaré da Laje",
+        "Forte de Copacabana",
+        "Forte dos Reis Magos"
+      ],
+      "ancora": {
+        "nome": "Forte de São Marcelo",
+        "descricao": "Forte circular erguido sobre recifes na baía de Todos os Santos, em frente ao centro histórico de Salvador.",
+        "variantes": [
+          "Forte do Mar",
+          "Forte de Nossa Senhora do Pópulo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Torre com relógio bem visível; faixa com texto é pequena e ilegível no celular, não entrega a guerra.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que guerra do século dezenove vem o nome desta torre do Recife?",
+      "resposta": "Guerra da Crimeia",
+      "distratores": [
+        "Guerra do Paraguai",
+        "Guerra dos Farrapos",
+        "Guerra Franco-Prussiana"
+      ],
+      "ancora": {
+        "nome": "Torre Malakoff",
+        "descricao": "Torre com relógio e observatório no Recife Antigo, batizada em referência a uma torre da fortaleza de Sebastopol.",
+        "variantes": [
+          "Torre de Malakoff"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Prédio icônico de Niemeyer em Brasília, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que instituição brasileira funciona neste prédio?",
+      "resposta": "Supremo Tribunal Federal",
+      "distratores": [
+        "Superior Tribunal de Justiça",
+        "Tribunal Superior Eleitoral",
+        "Congresso Nacional"
+      ],
+      "ancora": {
+        "nome": "Supremo Tribunal Federal (sede)",
+        "descricao": "Edifício projetado por Oscar Niemeyer, na Praça dos Três Poderes em Brasília, sede do Supremo Tribunal Federal.",
+        "variantes": [
+          "Palácio do Supremo Tribunal Federal",
+          "STF"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A inscrição 'Universidade do Paraná' no frontão e a faixa em primeiro plano entregam a resposta; há também pessoas ao fundo."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Sítio arqueológico com pedras e coluna, sem texto; obscuro, por isso múltipla escolha.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que sítio arqueológico carioca é este?",
+      "resposta": "Cais do Valongo",
+      "distratores": [
+        "Pedra do Sal",
+        "Cemitério dos Pretos Novos",
+        "Largo do Paço"
+      ],
+      "ancora": {
+        "nome": "Cais do Valongo",
+        "descricao": "Antigo cais na zona portuária do Rio de Janeiro, por onde desembarcaram africanos escravizados, Patrimônio Mundial da Unesco.",
+        "variantes": [
+          "Valongo Wharf",
+          "Cais da Imperatriz"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto aérea nítida do estádio, sem texto, com características próprias.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio da Copa do Mundo de 2014 é este?",
+      "resposta": "Arena Pantanal",
+      "distratores": [
+        "Arena da Amazônia",
+        "Arena das Dunas",
+        "Arena Pernambuco"
+      ],
+      "ancora": {
+        "nome": "Arena Pantanal",
+        "descricao": "Estádio de Cuiabá, Mato Grosso, sede de jogos da Copa do Mundo de 2014.",
+        "variantes": [
+          "Estádio Governador José Fragelli"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Igreja neogótica e convento claramente visíveis, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que estado fica este santuário, entre as montanhas?",
+      "resposta": "Minas Gerais",
+      "distratores": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Bahia"
+      ],
+      "ancora": {
+        "nome": "Santuário do Caraça",
+        "descricao": "Complexo religioso com igreja neogótica e convento na Serra do Caraça, em Catas Altas, Minas Gerais.",
+        "variantes": [
+          "Caraça",
+          "Igreja Nossa Senhora Mãe dos Homens"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Prédio art déco legível; placas pequenas não entregam o patrono; múltipla escolha.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A que escritor deve o nome esta biblioteca pública?",
+      "resposta": "Mário de Andrade",
+      "distratores": [
+        "Oswald de Andrade",
+        "Monteiro Lobato",
+        "Manuel Bandeira"
+      ],
+      "ancora": {
+        "nome": "Biblioteca Mário de Andrade",
+        "descricao": "Maior biblioteca pública da cidade de São Paulo, em edifício art déco no centro histórico.",
+        "variantes": [
+          "BMA"
+        ]
+      }
+    }
+  ]
+}
