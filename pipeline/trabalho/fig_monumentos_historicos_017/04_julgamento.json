@@ -1,0 +1,768 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Monte Rushmore",
+        "descricao": "Memorial nacional nos EUA com os rostos de quatro presidentes esculpidos no granito, em Dakota do Sul.",
+        "variantes": [
+          "Mount Rushmore",
+          "Memorial Nacional do Monte Rushmore"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_rushmore",
+          "nome": "Monte Rushmore",
+          "descricao": "Memorial nacional dos Estados Unidos com os rostos de quatro presidentes esculpidos na rocha de uma montanha.",
+          "variantes": [
+            "Mount Rushmore",
+            "Memorial Nacional do Monte Rushmore"
+          ]
+        },
+        {
+          "id": "monte_ngauruhoe",
+          "nome": "Monte Ngauruhoe",
+          "descricao": "Cone vulcânico ativo no Parque Nacional de Tongariro, na Ilha Norte da Nova Zelândia.",
+          "variantes": [
+            "Ngauruhoe"
+          ]
+        },
+        {
+          "id": "monte_bromo",
+          "nome": "Monte Bromo",
+          "descricao": "Vulcão ativo da montanhas Tengger, em Java Oriental, Indonésia.",
+          "variantes": [
+            "Bromo",
+            "Gunung Bromo"
+          ]
+        },
+        {
+          "id": "sapatilha_de_ponta",
+          "nome": "Sapatilha de ponta",
+          "descricao": "Sapatilha de ballet com ponta reforçada, que permite dançar sobre a ponta dos pés.",
+          "variantes": [
+            "Sapatilha de ballet",
+            "Pointe shoe"
+          ]
+        },
+        {
+          "id": "sapato_monk",
+          "nome": "Sapato monk",
+          "descricao": "Sapato social sem cadarço, fechado por uma ou mais fivelas e tiras.",
+          "variantes": [
+            "Monk strap",
+            "Monk shoe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ponte Carlos",
+        "descricao": "Ponte medieval de pedra sobre o rio Vltava, em Praga, iniciada em 1357.",
+        "variantes": [
+          "Charles Bridge",
+          "Karlův most"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_carlos",
+          "nome": "Ponte Carlos",
+          "descricao": "Ponte medieval de pedra sobre o rio Moldava, em Praga, ladeada por estátuas barrocas.",
+          "variantes": [
+            "Karlův most",
+            "Charles Bridge",
+            "Ponte Carlos IV"
+          ]
+        },
+        {
+          "id": "carlos_i_da_inglaterra",
+          "nome": "Carlos I da Inglaterra",
+          "descricao": "Rei da Inglaterra, Escócia e Irlanda de 1625 a 1649, derrotado na Guerra Civil Inglesa e executado.",
+          "variantes": [
+            "Charles I",
+            "Carlos Primeiro"
+          ]
+        },
+        {
+          "id": "a_ponte_de_langlois_em_arles",
+          "nome": "A Ponte de Langlois em Arles",
+          "descricao": "Série de pinturas de Van Gogh de 1888 que retratam a ponte levadiça de Langlois sobre um canal perto de Arles.",
+          "variantes": [
+            "A Ponte de Langlois em Arles (Van Gogh)",
+            "A Ponte de Langlois",
+            "Ponte de Arles",
+            "Langlois Bridge at Arles",
+            "Pont de Langlois"
+          ]
+        },
+        {
+          "id": "charles_babbage",
+          "nome": "Charles Babbage",
+          "descricao": "Matemático e engenheiro inglês que concebeu a máquina diferencial e a máquina analítica, precursoras do computador.",
+          "variantes": []
+        },
+        {
+          "id": "charles_barkley",
+          "nome": "Charles Barkley",
+          "descricao": "Ex-ala-pivô americano de basquete, MVP da NBA em 1993 e hoje comentarista de TV.",
+          "variantes": [
+            "Sir Charles",
+            "Chuck"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Prambanan",
+        "descricao": "Complexo de templos hindus do século nove perto de Yogyakarta, na ilha de Java, Indonésia.",
+        "variantes": [
+          "Candi Prambanan",
+          "Rara Jonggrang"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "prambanan",
+          "nome": "Prambanan",
+          "descricao": "Complexo de templos hindus do século nove perto de Yogyakarta, em Java, Indonésia.",
+          "variantes": [
+            "Candi Prambanan",
+            "Rara Jonggrang"
+          ]
+        },
+        {
+          "id": "srinivasa_ramanujan",
+          "nome": "Srinivasa Ramanujan",
+          "descricao": "Matemático indiano do início do século vinte, autodidata, com contribuições à teoria dos números e às séries infinitas.",
+          "variantes": [
+            "Srinivasa Ramanujan Iyengar",
+            "Ramanujan"
+          ]
+        },
+        {
+          "id": "bandeira_da_paraiba",
+          "nome": "Bandeira da Paraíba",
+          "descricao": "Bandeira do estado da Paraíba, vermelha e preta com a palavra Nego em branco.",
+          "variantes": [
+            "Bandeira paraibana"
+          ]
+        },
+        {
+          "id": "banana_cavendish",
+          "nome": "Banana Cavendish",
+          "descricao": "Grupo de cultivares de banana de mesa, conhecido no Brasil como nanica, propagado por clonagem.",
+          "variantes": [
+            "Banana-nanica",
+            "Cavendish banana"
+          ]
+        },
+        {
+          "id": "rambuta",
+          "nome": "Rambutã",
+          "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+          "variantes": [
+            "Rambutão",
+            "Rambutan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Basílica de Sacré-Cœur",
+        "descricao": "Basílica católica branca no alto da colina de Montmartre, em Paris.",
+        "variantes": [
+          "Sacré-Cœur",
+          "Basílica do Sagrado Coração de Montmartre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_sacre_c_ur",
+          "nome": "Basílica de Sacré-Cœur",
+          "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
+          "variantes": [
+            "Sacré-Cœur",
+            "Basílica do Sagrado Coração de Montmartre",
+            "Basílica do Sagrado Coração"
+          ]
+        },
+        {
+          "id": "basilica_de_nazare",
+          "nome": "Basílica de Nazaré",
+          "descricao": "Basílica católica de Belém do Pará, ponto de chegada da procissão do Círio de Nazaré.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "arquibasilica_de_sao_joao_de_latrao",
+          "nome": "Arquibasílica de São João de Latrão",
+          "descricao": "Catedral da Diocese de Roma, sede do papa como bispo de Roma.",
+          "variantes": [
+            "São João de Latrão",
+            "Basílica de Latrão",
+            "Archbasilica of Saint John Lateran"
+          ]
+        },
+        {
+          "id": "jacare_acu",
+          "nome": "Jacaré-açu",
+          "descricao": "Grande jacaré de pele escura (Melanosuchus niger) dos rios e lagos da Bacia Amazônica.",
+          "variantes": [
+            "Melanosuchus niger",
+            "Jacaré-negro"
+          ]
+        },
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ta Prohm",
+        "descricao": "Templo khmer do fim do século doze, perto de Angkor Thom, no Camboja, famoso pelas raízes de árvores sobre as ruínas.",
+        "variantes": [
+          "Rajavihara",
+          "Templo de Tomb Raider"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "id": "templo_de_atena_nice",
+          "nome": "Templo de Atena Nice",
+          "descricao": "Pequeno templo jônico do século cinco a.C. na Acrópole de Atenas, dedicado a Atena Nice.",
+          "variantes": [
+            "Templo de Atena Nike",
+            "Temple of Athena Nike"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Timgad",
+        "descricao": "Cidade romana em ruínas nas montanhas Aurès, na Argélia, fundada pelo imperador Trajano por volta de 100 d.C.",
+        "variantes": [
+          "Thamugadi",
+          "Tingade"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_da_trindade",
+          "nome": "Ilha da Trindade",
+          "descricao": "Ilha brasileira isolada no Atlântico Sul, a cerca de mil e cem quilômetros da costa do Espírito Santo.",
+          "variantes": [
+            "Trindade",
+            "Trindade e Martim Vaz"
+          ]
+        },
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "taiga",
+          "nome": "Taiga",
+          "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte",
+          "variantes": [
+            "Floresta boreal"
+          ]
+        },
+        {
+          "id": "timao",
+          "nome": "Timão",
+          "descricao": "Personagem tagarela de O Rei Leão, da Disney, inseparável amigo do javali Pumba.",
+          "variantes": [
+            "Timon"
+          ]
+        },
+        {
+          "id": "tina",
+          "nome": "Tina",
+          "descricao": "Jovem jornalista de óculos e lenço roxo, protagonista da Turma da Tina, de Mauricio de Sousa.",
+          "variantes": [
+            "Cristina Lima e Sousa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Igreja dos Clérigos",
+        "descricao": "Igreja barroca do Porto, em Portugal, cuja torre de 75 metros é um dos símbolos da cidade.",
+        "variantes": [
+          "Torre dos Clérigos",
+          "Clérigos Church"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_do_cairo",
+          "nome": "Torre do Cairo",
+          "descricao": "Torre de concreto de 187 metros na ilha de Gezira, no rio Nilo, no Cairo, Egito.",
+          "variantes": [
+            "Cairo Tower",
+            "Borg El-Qahira"
+          ]
+        },
+        {
+          "id": "torre_do_silencio",
+          "nome": "Torre do Silêncio",
+          "descricao": "Estrutura circular elevada usada pelos zoroastristas para expor os mortos às aves de rapina.",
+          "variantes": [
+            "Dakhma",
+            "Tower of Silence"
+          ]
+        },
+        {
+          "id": "torre_del_oro",
+          "nome": "Torre del Oro",
+          "descricao": "Torre de vigia dodecagonal do século XIII, às margens do Guadalquivir, em Sevilha.",
+          "variantes": [
+            "Torre do Ouro"
+          ]
+        },
+        {
+          "id": "burj_al_arab",
+          "nome": "Burj Al Arab",
+          "descricao": "Hotel de luxo erguido numa ilha artificial na costa de Dubai, nos Emirados Árabes Unidos, inaugurado em 1999.",
+          "variantes": [
+            "Torre dos Árabes"
+          ]
+        },
+        {
+          "id": "galette_des_rois",
+          "nome": "Galette des rois",
+          "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+          "variantes": [
+            "Bolo-rei francês",
+            "Torta dos reis",
+            "Bolo de Reis francês"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Moray",
+        "descricao": "Sítio arqueológico inca com terraços circulares concêntricos, perto de Cusco, no Peru.",
+        "variantes": [
+          "Muray"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "andy_murray",
+          "nome": "Andy Murray",
+          "descricao": "Tenista britânico, ex-número 1 do mundo, campeão de Wimbledon em 2013 e 2016.",
+          "variantes": [
+            "Andrew Murray",
+            "Murray"
+          ]
+        },
+        {
+          "id": "mudbray",
+          "nome": "Mudbray",
+          "descricao": "Pokémon burro do tipo Terrestre da sétima geração, número 749 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "morty",
+          "nome": "Morty",
+          "descricao": "Líder do ginásio de tipo Fantasma de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver.",
+          "variantes": [
+            "Matsuba"
+          ]
+        },
+        {
+          "id": "amora_preta",
+          "nome": "Amora-preta",
+          "descricao": "Fruto escuro e composto de plantas do gênero Rubus, a blackberry.",
+          "variantes": [
+            "Amora",
+            "Blackberry"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Museu Nacional (Palácio de São Cristóvão)",
+        "descricao": "Antigo palácio da família real e imperial, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional.",
+        "variantes": [
+          "Paço de São Cristóvão",
+          "Museu Nacional do Rio de Janeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        },
+        {
+          "id": "museu_nacional_quinta_da_boa_vista",
+          "nome": "Museu Nacional (Quinta da Boa Vista)",
+          "descricao": "Antigo Paço de São Cristóvão, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional, a mais antiga instituição científica do Brasil.",
+          "variantes": [
+            "Paço de São Cristóvão",
+            "Museu Nacional do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "aeroporto_internacional_do_galeao",
+          "nome": "Aeroporto Internacional do Galeão",
+          "descricao": "Principal aeroporto internacional do Rio de Janeiro, na Ilha do Governador.",
+          "variantes": [
+            "Aeroporto Internacional do Rio de Janeiro",
+            "Galeão"
+          ]
+        },
+        {
+          "id": "theatro_municipal_do_rio_de_janeiro",
+          "nome": "Theatro Municipal do Rio de Janeiro",
+          "descricao": "Teatro na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
+          "variantes": [
+            "Teatro Municipal do Rio de Janeiro",
+            "Theatro Municipal (Rio de Janeiro)",
+            "Theatro Municipal"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Arco de Tito",
+        "descricao": "Arco honorífico romano do século um, na Via Sacra, ao lado do Fórum Romano, em Roma.",
+        "variantes": [
+          "Arch of Titus",
+          "Arco di Tito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arco_de_tito",
+          "nome": "Arco de Tito",
+          "descricao": "Arco triunfal romano do século primeiro, no Fórum Romano, que celebra a tomada de Jerusalém pelo imperador Tito.",
+          "variantes": [
+            "Arch of Titus"
+          ]
+        },
+        {
+          "id": "cerco_de_tsingtao",
+          "nome": "Cerco de Tsingtao",
+          "descricao": "Ataque de 1914 em que forças japonesas e britânicas tomaram a colônia alemã de Tsingtao, na China.",
+          "variantes": [
+            "Cerco de Qingdao"
+          ]
+        },
+        {
+          "id": "arco_do_triunfo_de_paris",
+          "nome": "Arco do Triunfo de Paris",
+          "descricao": "Arco monumental na Praça Charles de Gaulle, no alto da Champs-Élysées, encomendado por Napoleão.",
+          "variantes": [
+            "Arc de Triomphe",
+            "Arco do Triunfo",
+            "Arc de Triomphe de l'Étoile"
+          ]
+        },
+        {
+          "id": "arco_instrumento_musical",
+          "nome": "Arco (instrumento musical)",
+          "descricao": "Vara de madeira com fios esticados usada para friccionar as cordas do violino, da viola, do violoncelo e do contrabaixo.",
+          "variantes": [
+            "Arco de violino"
+          ]
+        },
+        {
+          "id": "tinteiro",
+          "nome": "Tinteiro",
+          "descricao": "Pequeno recipiente, em geral de vidro, que guarda a tinta para molhar a pena ou a caneta.",
+          "variantes": [
+            "Frasco de tinta",
+            "Tinteiro de vidro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Grutas de Ellora",
+        "descricao": "Complexo de templos e mosteiros escavados na rocha, em Aurangabad, na Índia, incluindo o templo de Kailasa.",
+        "variantes": [
+          "Ellora Caves",
+          "Templo de Kailasa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_philae",
+          "nome": "Templo de Philae",
+          "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+          "variantes": [
+            "Templo de Filas",
+            "Templo de Ísis em Filas"
+          ]
+        },
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "id": "templo_i_de_tikal",
+          "nome": "Templo I de Tikal",
+          "descricao": "Pirâmide-templo maia de cerca de 732 d.C. na Grande Praça de Tikal, na Guatemala, também chamada Templo do Grande Jaguar.",
+          "variantes": [
+            "Templo do Grande Jaguar",
+            "Templo de Ah Cacao",
+            "Tikal Temple I"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Ponte Hercílio Luz",
+        "descricao": "Ponte pênsil de 1926 que liga a ilha de Santa Catarina ao continente, em Florianópolis.",
+        "variantes": [
+          "Hercílio Luz Bridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_hercilio_luz",
+          "nome": "Ponte Hercílio Luz",
+          "descricao": "Ponte pênsil que liga a Ilha de Santa Catarina ao continente, em Florianópolis.",
+          "variantes": [
+            "Hercílio Luz Bridge"
+          ]
+        },
+        {
+          "id": "ponte_de_rialto",
+          "nome": "Ponte de Rialto",
+          "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+          "variantes": [
+            "Ponte di Rialto",
+            "Rialto Bridge"
+          ]
+        },
+        {
+          "id": "ponte_rio_negro",
+          "nome": "Ponte Rio Negro",
+          "descricao": "Ponte estaiada sobre o Rio Negro que liga Manaus a Iranduba, no Amazonas.",
+          "variantes": [
+            "Ponte Jornalista Phelippe Daou",
+            "Rio Negro Bridge"
+          ]
+        },
+        {
+          "id": "ponte_luis_i",
+          "nome": "Ponte Luís I",
+          "descricao": "Ponte metálica em arco sobre o rio Douro, ligando o Porto a Vila Nova de Gaia, inaugurada em 1886.",
+          "variantes": [
+            "Ponte Dom Luís I",
+            "Dom Luís I Bridge"
+          ]
+        },
+        {
+          "id": "ponte_carlos",
+          "nome": "Ponte Carlos",
+          "descricao": "Ponte medieval de pedra sobre o rio Moldava, em Praga, ladeada por estátuas barrocas.",
+          "variantes": [
+            "Karlův most",
+            "Charles Bridge",
+            "Ponte Carlos IV"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "monte_rushmore",
+      "motivo": "Mesmo memorial."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ponte_carlos",
+      "motivo": "Mesma ponte de Praga (Vltava = Moldava)."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "prambanan",
+      "motivo": "Mesmo complexo de templos."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "basilica_de_sacre_c_ur",
+      "motivo": "Mesma basílica de Paris."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ta Prohm."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Timgad."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Igreja dos Clérigos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o sítio inca de Moray."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "museu_nacional_quinta_da_boa_vista",
+      "motivo": "Mesmo palácio/museu na Quinta da Boa Vista."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "arco_de_tito",
+      "motivo": "Mesmo arco romano."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ellora."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "ponte_hercilio_luz",
+      "motivo": "Mesma ponte de Florianópolis."
+    }
+  ]
+}

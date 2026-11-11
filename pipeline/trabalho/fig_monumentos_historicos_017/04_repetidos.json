@@ -1,0 +1,181 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década começou a ser esculpido este monumento nas Black Hills?",
+        "resposta": "Década de 1920"
+      },
+      "existentes": [
+        {
+          "id": "q03959",
+          "pergunta": "Os rostos de quatro presidentes americanos esculpidos na rocha do Monte Rushmore ficam em que estado dos Estados Unidos?",
+          "resposta": "Dakota do Sul"
+        },
+        {
+          "id": "q05452",
+          "pergunta": "Além de Washington, Jefferson e Lincoln, qual presidente americano tem o rosto esculpido na rocha do Monte Rushmore?",
+          "resposta": "Theodore Roosevelt"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ponte medieval de pedra é esta?",
+        "resposta": "Ponte Carlos"
+      },
+      "existentes": [
+        {
+          "id": "q11611",
+          "pergunta": "Em que século começou a construção da Ponte Carlos, que cruza o rio Moldava, em Praga?",
+          "resposta": "Século quatorze"
+        },
+        {
+          "id": "q14589",
+          "pergunta": "Que ponte medieval é esta?",
+          "resposta": "Ponte Carlos"
+        },
+        {
+          "id": "q17054",
+          "pergunta": "Esta ponte medieval de pedra foi iniciada no século quatorze por qual rei?",
+          "resposta": "Carlos IV"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que século foi construído este complexo de templos hindus?",
+        "resposta": "Século nove"
+      },
+      "existentes": [
+        {
+          "id": "q05973",
+          "pergunta": "Qual é a religião a que se dedica este complexo de templos na ilha de Java?",
+          "resposta": "Hinduísmo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que basílica, no alto de uma colina, é esta?",
+        "resposta": "Basílica de Sacré-Cœur"
+      },
+      "existentes": [
+        {
+          "id": "q05426",
+          "pergunta": "Com suas cúpulas brancas, a Basílica de Sacré-Cœur domina a paisagem de Paris do alto de qual colina?",
+          "resposta": "Montmartre"
+        },
+        {
+          "id": "q08475",
+          "pergunta": "Por que a Basílica de Sacré-Cœur, em Paris, continua branca mesmo com a poluição e o passar dos anos? Que substância a pedra libera?",
+          "resposta": "Calcita"
+        },
+        {
+          "id": "q08576",
+          "pergunta": "Que arquiteto projetou esta basílica?",
+          "resposta": "Paul Abadie"
+        },
+        {
+          "id": "q20589",
+          "pergunta": "Em que cidade fica esta basílica?",
+          "resposta": "Paris"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que palácio carioca é este?",
+        "resposta": "Palácio de São Cristóvão"
+      },
+      "existentes": [
+        {
+          "id": "q17839",
+          "pergunta": "Em que ano um grande incêndio destruiu boa parte deste palácio?",
+          "resposta": "2018"
+        },
+        {
+          "id": "q18298",
+          "pergunta": "Que museu está instalado neste antigo palácio imperial?",
+          "resposta": "Museu Nacional"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que imperador romano mandou erguer este arco, depois da morte do irmão?",
+        "resposta": "Domiciano"
+      },
+      "existentes": [
+        {
+          "id": "q09127",
+          "pergunta": "Que arco da Roma antiga, que comemora a tomada de Jerusalém, serviu de inspiração para o Arco do Triunfo de Paris?",
+          "resposta": "Arco de Tito"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica esta ponte pênsil?",
+        "resposta": "Florianópolis"
+      },
+      "existentes": [
+        {
+          "id": "q02036",
+          "pergunta": "Em Florianópolis, a Ponte Hercílio Luz, que liga a ilha ao continente, foi inaugurada em qual década?",
+          "resposta": "Anos 1920"
+        },
+        {
+          "id": "q08002",
+          "pergunta": "Inaugurada em 1926, que ponte pênsil, cartão-postal de Florianópolis, liga a Ilha de Santa Catarina ao continente?",
+          "resposta": "Ponte Hercílio Luz"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Década de início da escultura é um fato diferente de estado ou presidentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14589",
+      "motivo": "Mesma pergunta de identificar a ponte, com a mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Século de construção difere da religião do complexo."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q05426",
+      "motivo": "Identificar a basílica tem resposta que já aparece nos enunciados existentes; porém a existente q05426 nomeia a basílica no enunciado, e a nova pergunta pede o nome. Ainda assim, q08576 e q20589 também são de identificação visual; a mais próxima é q05426."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o palácio é diferente de ano do incêndio ou museu instalado, embora a resposta Museu Nacional seja outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Quem mandou erguer o arco difere de qual arco inspirou o de Paris."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A cidade da ponte não é perguntada nas existentes; apenas aparece no enunciado, e não como fato pedido."
+    }
+  ]
+}

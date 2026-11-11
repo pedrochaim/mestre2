@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escultura executada de 1927 a 1941, logo começou na década de 1920. Sem vazamento e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ponte medieval de pedra em Praga. Os distratores são pontes medievais de pedra parecidas e a resposta é única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam templo hindu do século IX. Sem vazamento, distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Basílica no topo da colina de Montmartre. A pista da colina não identifica sozinha. Fourvière é um distrator visualmente parecido e plausível.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que foi fundado pelo rei Jayavarman VII. A pergunta exige reconhecer o templo e dar um passo adiante. Os distratores são reis khmer.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cidade romana em ruínas no norte da África. Os distratores são sítios romanos do Magrebe e da Líbia, plausíveis. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A igreja foi construída de 1732 a 1750 e a torre em 1763, tudo no século XVIII. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos indicam que os terraços de Moray são incas. A pergunta é de nível 1 e a resposta é única. Distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta está correta (Paço ou Palácio de São Cristóvão), mas o distrator Palácio Imperial de Petrópolis fica fora do Rio e é eliminado pelo enunciado. Troquei por um palácio carioca.",
+      "reescrita": {
+        "pergunta": "Que palácio carioca é este?",
+        "resposta": "Palácio de São Cristóvão",
+        "distratores": [
+          "Palácio Guanabara",
+          "Palácio do Catete",
+          "Palácio Tiradentes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Domiciano construiu o arco logo após a morte do irmão Tito. A pista do irmão não entrega a resposta sem a figura. Vespasiano, o pai, é um bom distrator.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As grutas de Ellora ficam na Índia, segundo os trechos. A pergunta é simples e adequada ao nível 1.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ponte pênsil fica em Florianópolis, segundo os trechos. O enunciado é verdadeiro e os distratores são capitais costeiras.",
+      "reescrita": null
+    }
+  ]
+}

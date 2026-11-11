@@ -412365,5 +412365,255 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q20746",
+    "tema": "História",
+    "subtema": "Idade Moderna",
+    "ancora": "monte_rushmore",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que década começou a ser esculpido este monumento nas Black Hills?",
+    "resposta": "Década de 1920",
+    "distratores": [
+      "Década de 1910",
+      "Década de 1930",
+      "Década de 1940"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Rushmore",
+      "https://pt.wikipedia.org/wiki/Monte_Rushmore"
+    ],
+    "imagem": {
+      "arquivo": "q20746.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mount_Rushmore_detail_view_(100MP).jpg",
+      "autor": "Thomas Wolf, www.foto-tw.de",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20747",
+    "tema": "História",
+    "subtema": "Antigas Civilizações do Oriente",
+    "ancora": "prambanan",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que século foi construído este complexo de templos hindus?",
+    "resposta": "Século nove",
+    "distratores": [
+      "Século sete",
+      "Século onze",
+      "Século treze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Prambanan",
+      "https://pt.wikipedia.org/wiki/Prambanan"
+    ],
+    "imagem": {
+      "arquivo": "q20747.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Prambanan_Complex_1.jpg",
+      "autor": "Gunawan Kartapranata",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20748",
+    "tema": "História",
+    "subtema": "Antigas Civilizações do Oriente",
+    "ancora": "ta_prohm",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que rei khmer fundou este templo cambojano, tomado por raízes de árvores?",
+    "resposta": "Jayavarman VII",
+    "distratores": [
+      "Suryavarman II",
+      "Jayavarman II",
+      "Indravarman I"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ta_Prohm",
+      "https://pt.wikipedia.org/wiki/Ta_Prohm"
+    ],
+    "imagem": {
+      "arquivo": "q20748.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ta_Prohm.JPG",
+      "autor": "Dmitry A. Mottl",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20749",
+    "tema": "História",
+    "subtema": "Roma Antiga",
+    "ancora": "timgad",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que cidade romana em ruínas, no norte da África, é esta?",
+    "resposta": "Timgad",
+    "distratores": [
+      "Leptis Magna",
+      "Volubilis",
+      "Dougga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Timgad",
+      "https://pt.wikipedia.org/wiki/Tingade"
+    ],
+    "imagem": {
+      "arquivo": "q20749.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Timgad_Ruins_Panorama.jpg",
+      "autor": "Hamza-sia",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20750",
+    "tema": "História",
+    "subtema": "Idade Moderna",
+    "ancora": "igreja_dos_clerigos",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que século foi construída esta igreja portuguesa?",
+    "resposta": "Século dezoito",
+    "distratores": [
+      "Século dezesseis",
+      "Século dezessete",
+      "Século dezenove"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cl%C3%A9rigos_Church",
+      "https://pt.wikipedia.org/wiki/Igreja_e_Torre_dos_Cl%C3%A9rigos"
+    ],
+    "imagem": {
+      "arquivo": "q20750.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Igreja_dos_Clerigos_in_Porto_(1).jpg",
+      "autor": "Krzysztof Golik",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20751",
+    "tema": "História",
+    "subtema": "Américas Pré-Colombianas",
+    "ancora": "moray",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que povo construiu estes terraços circulares nos Andes?",
+    "resposta": "Incas",
+    "distratores": [
+      "Maias",
+      "Astecas",
+      "Tiwanaku"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moray_%28Inca_ruin%29",
+      "https://pt.wikipedia.org/wiki/S%C3%ADtio_Arqueol%C3%B3gico_de_Moray"
+    ],
+    "imagem": {
+      "arquivo": "q20751.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Moray,_2023_(13).jpg",
+      "autor": "Draceane",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20752",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "museu_nacional_quinta_da_boa_vista",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que palácio carioca é este?",
+    "resposta": "Palácio de São Cristóvão",
+    "distratores": [
+      "Palácio Guanabara",
+      "Palácio do Catete",
+      "Palácio Tiradentes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/National_Museum_of_Brazil",
+      "https://pt.wikipedia.org/wiki/Museu_Nacional_%28Rio_de_Janeiro%29"
+    ],
+    "imagem": {
+      "arquivo": "q20752.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Palácio_de_São_Cristóvão.jpg",
+      "autor": "Halley Pacheco de Oliveira",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20753",
+    "tema": "História",
+    "subtema": "Roma Antiga",
+    "ancora": "arco_de_tito",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que imperador romano mandou erguer este arco, depois da morte do irmão?",
+    "resposta": "Domiciano",
+    "distratores": [
+      "Vespasiano",
+      "Trajano",
+      "Nero"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arch_of_Titus",
+      "https://pt.wikipedia.org/wiki/Arco_de_Tito"
+    ],
+    "imagem": {
+      "arquivo": "q20753.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Arch_Titus,_Forum_Romanum,_Rome,_Italy.jpg",
+      "autor": "Jebulon",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q20754",
+    "tema": "História",
+    "subtema": "Antigas Civilizações do Oriente",
+    "ancora": "grutas_de_ellora",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este templo escavado na rocha?",
+    "resposta": "Índia",
+    "distratores": [
+      "Nepal",
+      "Sri Lanka",
+      "Camboja"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ellora_Caves",
+      "https://pt.wikipedia.org/wiki/Grutas_de_Ellora"
+    ],
+    "imagem": {
+      "arquivo": "q20754.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ellora_Caves,_India,_Kailasanatha_Temple_2.jpg",
+      "autor": "Vyacheslav Argenberg",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q20755",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "ponte_hercilio_luz",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade brasileira fica esta ponte pênsil?",
+    "resposta": "Florianópolis",
+    "distratores": [
+      "Vitória",
+      "Recife",
+      "Porto Alegre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Herc%C3%ADlio_Luz_Bridge",
+      "https://pt.wikipedia.org/wiki/Ponte_Herc%C3%ADlio_Luz"
+    ],
+    "imagem": {
+      "arquivo": "q20755.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ponte_Hercílio_Luz_Florianopolis-edit.jpg",
+      "autor": "Rodrigo Soldon from Rio de Janeiro, Brazil",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

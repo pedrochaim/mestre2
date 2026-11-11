@@ -1,0 +1,290 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Em que década começou a ser esculpido este monumento nas Black Hills?",
+      "resposta": "Década de 1920",
+      "distratores": [
+        "Década de 1910",
+        "Década de 1930",
+        "Década de 1940"
+      ],
+      "ancora": {
+        "nome": "Monte Rushmore",
+        "descricao": "Memorial nacional nos EUA com os rostos de quatro presidentes esculpidos no granito, em Dakota do Sul.",
+        "variantes": [
+          "Mount Rushmore",
+          "Memorial Nacional do Monte Rushmore"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea clara da ponte com a torre, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Que ponte medieval de pedra é esta?",
+      "resposta": "Ponte Carlos",
+      "distratores": [
+        "Ponte Vecchio",
+        "Ponte Rialto",
+        "Ponte Valentré"
+      ],
+      "ancora": {
+        "nome": "Ponte Carlos",
+        "descricao": "Ponte medieval de pedra sobre o rio Vltava, em Praga, iniciada em 1357.",
+        "variantes": [
+          "Charles Bridge",
+          "Karlův most"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Torres características do complexo, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Em que século foi construído este complexo de templos hindus?",
+      "resposta": "Século nove",
+      "distratores": [
+        "Século sete",
+        "Século onze",
+        "Século treze"
+      ],
+      "ancora": {
+        "nome": "Prambanan",
+        "descricao": "Complexo de templos hindus do século nove perto de Yogyakarta, na ilha de Java, Indonésia.",
+        "variantes": [
+          "Candi Prambanan",
+          "Rara Jonggrang"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada e cúpulas brancas nítidas; pessoas pequenas e incidentais.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que basílica, no alto de uma colina, é esta?",
+      "resposta": "Basílica de Sacré-Cœur",
+      "distratores": [
+        "Panteão de Paris",
+        "Basílica de Fourvière",
+        "Catedral de Marselha"
+      ],
+      "ancora": {
+        "nome": "Basílica de Sacré-Cœur",
+        "descricao": "Basílica católica branca no alto da colina de Montmartre, em Paris.",
+        "variantes": [
+          "Sacré-Cœur",
+          "Basílica do Sagrado Coração de Montmartre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Árvore sobre as ruínas, característica; templo reconhecível, resposta única pelo fundador.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que rei khmer fundou este templo cambojano, tomado por raízes de árvores?",
+      "resposta": "Jayavarman VII",
+      "distratores": [
+        "Suryavarman II",
+        "Jayavarman II",
+        "Indravarman I"
+      ],
+      "ancora": {
+        "nome": "Ta Prohm",
+        "descricao": "Templo khmer do fim do século doze, perto de Angkor Thom, no Camboja, famoso pelas raízes de árvores sobre as ruínas.",
+        "variantes": [
+          "Rajavihara",
+          "Templo de Tomb Raider"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Panorama das ruínas com o arco; sem texto. Reconhecível com opções.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que cidade romana em ruínas, no norte da África, é esta?",
+      "resposta": "Timgad",
+      "distratores": [
+        "Leptis Magna",
+        "Volubilis",
+        "Dougga"
+      ],
+      "ancora": {
+        "nome": "Timgad",
+        "descricao": "Cidade romana em ruínas nas montanhas Aurès, na Argélia, fundada pelo imperador Trajano por volta de 100 d.C.",
+        "variantes": [
+          "Thamugadi",
+          "Tingade"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada barroca nítida, sem texto; a igreja é a mesma da torre.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Em que século foi construída esta igreja portuguesa?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezesseis",
+        "Século dezessete",
+        "Século dezenove"
+      ],
+      "ancora": {
+        "nome": "Igreja dos Clérigos",
+        "descricao": "Igreja barroca do Porto, em Portugal, cuja torre de 75 metros é um dos símbolos da cidade.",
+        "variantes": [
+          "Torre dos Clérigos",
+          "Clérigos Church"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Terraços circulares característicos, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Que povo construiu estes terraços circulares nos Andes?",
+      "resposta": "Incas",
+      "distratores": [
+        "Maias",
+        "Astecas",
+        "Tiwanaku"
+      ],
+      "ancora": {
+        "nome": "Moray",
+        "descricao": "Sítio arqueológico inca com terraços circulares concêntricos, perto de Cusco, no Peru.",
+        "variantes": [
+          "Muray"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada frontal clara do palácio, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 8,
+      "pergunta": "Que palácio carioca é este?",
+      "resposta": "Palácio de São Cristóvão",
+      "distratores": [
+        "Palácio Guanabara",
+        "Palácio do Catete",
+        "Palácio Imperial de Petrópolis"
+      ],
+      "ancora": {
+        "nome": "Museu Nacional (Palácio de São Cristóvão)",
+        "descricao": "Antigo palácio da família real e imperial, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional.",
+        "variantes": [
+          "Paço de São Cristóvão",
+          "Museu Nacional do Rio de Janeiro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arco nítido; a inscrição visível é a da restauração papal e não nomeia Tito.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que imperador romano mandou erguer este arco, depois da morte do irmão?",
+      "resposta": "Domiciano",
+      "distratores": [
+        "Vespasiano",
+        "Trajano",
+        "Nero"
+      ],
+      "ancora": {
+        "nome": "Arco de Tito",
+        "descricao": "Arco honorífico romano do século um, na Via Sacra, ao lado do Fórum Romano, em Roma.",
+        "variantes": [
+          "Arch of Titus",
+          "Arco di Tito"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Templo escavado na rocha reconhecível; duas pessoas pequenas, incidentais.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Em que país fica este templo escavado na rocha?",
+      "resposta": "Índia",
+      "distratores": [
+        "Nepal",
+        "Sri Lanka",
+        "Camboja"
+      ],
+      "ancora": {
+        "nome": "Grutas de Ellora",
+        "descricao": "Complexo de templos e mosteiros escavados na rocha, em Aurangabad, na Índia, incluindo o templo de Kailasa.",
+        "variantes": [
+          "Ellora Caves",
+          "Templo de Kailasa"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ponte pênsil nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 8,
+      "pergunta": "Em que cidade brasileira fica esta ponte pênsil?",
+      "resposta": "Florianópolis",
+      "distratores": [
+        "Vitória",
+        "Recife",
+        "Porto Alegre"
+      ],
+      "ancora": {
+        "nome": "Ponte Hercílio Luz",
+        "descricao": "Ponte pênsil de 1926 que liga a ilha de Santa Catarina ao continente, em Florianópolis.",
+        "variantes": [
+          "Hercílio Luz Bridge"
+        ]
+      }
+    }
+  ]
+}
