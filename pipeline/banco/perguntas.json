@@ -404612,7 +404612,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Ghorepani-Tadapani-34-Machhapuchhre-2013-gje.jpg",
       "autor": "Gerd Eichmann",
       "licenca": "CC BY-SA 4.0"
-    }
+    },
+    "dificuldade": 5
   },
   {
     "id": "q20365",
@@ -404637,7 +404638,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Saint-benezet_in_southeastern_France.jpg",
       "autor": "Chiugoran",
       "licenca": "CC BY-SA 3.0"
-    }
+    },
+    "dificuldade": 4
   },
   {
     "id": "q20366",
@@ -404661,7 +404663,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Fingals_Cave,_Staffa_-_geograph.org.uk_-_30215.jpg",
       "autor": "Keith Boardman",
       "licenca": "CC BY-SA 2.0"
-    }
+    },
+    "dificuldade": 5
   },
   {
     "id": "q20367",
@@ -404686,7 +404689,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Dardanelles_landsat.jpg",
       "autor": "NASA",
       "licenca": "Public domain"
-    }
+    },
+    "dificuldade": 4
   },
   {
     "id": "q20368",
@@ -404711,7 +404715,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:06._Whiteheaven_Beach.jpg",
       "autor": "Elemaki",
       "licenca": "CC BY-SA 3.0"
-    }
+    },
+    "dificuldade": 5
   },
   {
     "id": "q20369",
@@ -404736,7 +404741,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Papst_Benedikt_XVI_in_Berlin_2011.jpg",
       "autor": "WDKrause",
       "licenca": "CC BY-SA 3.0"
-    }
+    },
+    "dificuldade": 2
   },
   {
     "id": "q20370",
@@ -404761,7 +404767,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Kim_Il_Sung_Portrait-3.jpg",
       "autor": "Jesse Charlie",
       "licenca": "CC0"
-    }
+    },
+    "dificuldade": 3
   },
   {
     "id": "q20371",
@@ -404786,7 +404793,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Javier_Milei_en_el_Salón_Blanco_2_(cropped).jpg",
       "autor": "Cancillería Argentina",
       "licenca": "CC BY 2.0"
-    }
+    },
+    "dificuldade": 2
   },
   {
     "id": "q20372",
@@ -404811,7 +404819,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Golda_Meir_03265u-2_(cropped).jpg",
       "autor": "Talmoryair (talk) after Marion S. Trikosko",
       "licenca": "Public domain"
-    }
+    },
+    "dificuldade": 3
   },
   {
     "id": "q20373",
@@ -404836,7 +404845,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Xi_Jinping_on_August_18,_2026_(cropped).jpg",
       "autor": "Presidencia de la República del Ecuador",
       "licenca": "Public domain"
-    }
+    },
+    "dificuldade": 2
   },
   {
     "id": "q20374",
@@ -404861,7 +404871,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:The_Ci-Xi_Imperial_Dowager_Empress_(9.2).PNG",
       "autor": "John Yu Shuinling",
       "licenca": "Public domain"
-    }
+    },
+    "dificuldade": 4
   },
   {
     "id": "q20375",
@@ -404886,7 +404897,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Juan_de_Flandes_-_Isabel_la_Católica_(Palacio_Real,_Madrid,_1500-04._Óleo_sobre_tabla,_63_x_55_cm).jpg",
       "autor": "Juan de Flandes",
       "licenca": "Public domain"
-    }
+    },
+    "dificuldade": 3
   },
   {
     "id": "q20376",
@@ -404911,7 +404923,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Kim_Jong-un_and_Vladimir_Putin_(2023-09-13)_12_(cropped).jpg",
       "autor": "Владимир Смирнов / ТАСС",
       "licenca": "CC BY 4.0"
-    }
+    },
+    "dificuldade": 2
   },
   {
     "id": "q20377",
@@ -404936,7 +404949,8 @@
       "origem": "https://commons.wikimedia.org/wiki/File:Robert_Edward_Lee.jpg",
       "autor": "Julian Vannerson",
       "licenca": "Public domain"
-    }
+    },
+    "dificuldade": 3
   },
   {
     "id": "q20378",
@@ -404961,6 +404975,96 @@
       "origem": "https://commons.wikimedia.org/wiki/File:CecilRhodes.jpg",
       "autor": "Autor desconhecido",
       "licenca": "Public domain"
-    }
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q20379",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "torre_digital_de_brasilia",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano foi inaugurada esta torre de Niemeyer?",
+    "resposta": "2012",
+    "distratores": [
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bras%C3%ADlia_Digital_TV_Tower",
+      "https://pt.wikipedia.org/wiki/Torre_de_TV_Digital_de_Bras%C3%ADlia"
+    ],
+    "imagem": {
+      "arquivo": "q20379.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Torre_de_TV_Digital.JPG",
+      "autor": "Matheusgf78",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q20380",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "palacio_do_supremo_tribunal_federal",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que escultor fez a estátua sentada que fica em frente a este prédio?",
+    "resposta": "Alfredo Ceschiatti",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Supremo_Tribunal_Federal",
+      "https://en.wikipedia.org/wiki/Supreme_Federal_Court_Palace"
+    ],
+    "imagem": {
+      "arquivo": "q20380.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Brasilia_Cour_Suprême.jpg",
+      "autor": "LecomteB",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q20381",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "capela_dourada",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade brasileira fica esta capela?",
+    "resposta": "Recife",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Capela_Dourada",
+      "https://en.wikipedia.org/wiki/Capela_Dourada"
+    ],
+    "imagem": {
+      "arquivo": "q20381.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Capela_Dourada,_Recife,_Pernambuco,_Brasil.jpg",
+      "autor": "Wilfredor",
+      "licenca": "CC0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q20382",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "estatua_do_padre_cicero",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é retratado nesta estátua gigante?",
+    "resposta": "Padre Cícero",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Est%C3%A1tua_do_Padre_C%C3%ADcero_na_colina_do_Horto",
+      "https://en.wikipedia.org/wiki/Statue_of_Father_C%C3%ADcero"
+    ],
+    "imagem": {
+      "arquivo": "q20382.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:PadreCicero1.jpg",
+      "autor": "Original uploader was Lourenço Torres at pt.wikipedia",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
   }
 ]

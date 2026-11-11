@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi inaugurada esta torre de Niemeyer?",
+        "resposta": "2012"
+      },
+      "existentes": [
+        {
+          "id": "q18294",
+          "pergunta": "Em que cidade fica esta torre de televisão?",
+          "resposta": "Brasília"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica este estádio?",
+        "resposta": "Brasília"
+      },
+      "existentes": [
+        {
+          "id": "q02175",
+          "pergunta": "Em que cidade fica este estádio?",
+          "resposta": "Brasília"
+        },
+        {
+          "id": "q19957",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Mané Garrincha"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é retratado nesta estátua gigante?",
+        "resposta": "Padre Cícero"
+      },
+      "existentes": [
+        {
+          "id": "q17401",
+          "pergunta": "Em que cidade do Ceará fica esta enorme estátua?",
+          "resposta": "Juazeiro do Norte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ano de inauguração é um fato diferente da cidade onde fica a torre."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta que q02175.",
+      "id_existente": "q02175"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Quem é retratado é um fato diferente da cidade onde fica a estátua."
+    }
+  ]
+}

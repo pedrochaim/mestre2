@@ -1,0 +1,319 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Torre de TV Digital de Brasília",
+        "descricao": "Torre de transmissão projetada por Oscar Niemeyer em Brasília, conhecida como Flor do Cerrado.",
+        "variantes": [
+          "Flor do Cerrado",
+          "Torre de TV Digital"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_digital_de_brasilia",
+          "nome": "Torre Digital de Brasília",
+          "descricao": "Torre de TV digital de Brasília, de Oscar Niemeyer, conhecida como Flor do Cerrado.",
+          "variantes": [
+            "Torre de TV Digital de Brasília",
+            "Flor do Cerrado"
+          ]
+        },
+        {
+          "id": "torre_de_tv_de_brasilia",
+          "nome": "Torre de TV de Brasília",
+          "descricao": "Torre de transmissão de rádio e TV de 224 metros no Eixo Monumental de Brasília, com mirante.",
+          "variantes": [
+            "Torre de Televisão de Brasília"
+          ]
+        },
+        {
+          "id": "torre_de_tv_de_berlim",
+          "nome": "Torre de TV de Berlim",
+          "descricao": "Torre de televisão com uma esfera no alto, na Alexanderplatz, construída pela Alemanha Oriental e inaugurada em 1969.",
+          "variantes": [
+            "Fernsehturm Berlin",
+            "Fernsehturm"
+          ]
+        },
+        {
+          "id": "torre_de_galata",
+          "nome": "Torre de Gálata",
+          "descricao": "Torre medieval de pedra no bairro de Gálata, em Istambul, construída pelos genoveses no século catorze.",
+          "variantes": [
+            "Galata Tower",
+            "Galata Kulesi"
+          ]
+        },
+        {
+          "id": "torre_de_pisa",
+          "nome": "Torre de Pisa",
+          "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+          "variantes": [
+            "Torre Inclinada de Pisa",
+            "Leaning Tower of Pisa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Estádio Nacional Mané Garrincha",
+        "descricao": "Estádio de futebol em Brasília, reconstruído para a Copa de 2014.",
+        "variantes": [
+          "Arena Mané Garrincha",
+          "Estádio Nacional de Brasília"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "teatro_nacional_claudio_santoro",
+          "nome": "Teatro Nacional Cláudio Santoro",
+          "descricao": "Teatro de Brasília projetado por Oscar Niemeyer, com fachadas decoradas por Athos Bulcão.",
+          "variantes": [
+            "Teatro Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "garrincha",
+          "nome": "Garrincha",
+          "descricao": "Manuel Francisco dos Santos, ponta-direita do Botafogo e da seleção brasileira, bicampeão mundial em 1958 e 1962.",
+          "variantes": [
+            "Mané Garrincha",
+            "Manuel Francisco dos Santos",
+            "Manoel Francisco dos Santos"
+          ]
+        },
+        {
+          "id": "museu_nacional_da_republica",
+          "nome": "Museu Nacional da República",
+          "descricao": "Museu de cúpula branca projetado por Oscar Niemeyer, no Setor Cultural Sul de Brasília.",
+          "variantes": [
+            "Museu Nacional Honestino Guimarães",
+            "Museu Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "estadio_nacional_do_japao",
+          "nome": "Estádio Nacional do Japão",
+          "descricao": "Estádio de Tóquio inaugurado em 2019, palco da abertura dos Jogos Olímpicos de 2020.",
+          "variantes": [
+            "Japan National Stadium",
+            "Novo Estádio Nacional",
+            "MUFG Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Palácio do Supremo Tribunal Federal",
+        "descricao": "Sede do Supremo Tribunal Federal na Praça dos Três Poderes, em Brasília, projetada por Oscar Niemeyer.",
+        "variantes": [
+          "Palácio do STF",
+          "Supremo Tribunal Federal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "palacio_do_catete",
+          "nome": "Palácio do Catete",
+          "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+          "variantes": [
+            "Catete Palace",
+            "Palácio Nova Friburgo"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_dos_leoes",
+          "nome": "Palácio dos Leões",
+          "descricao": "Sede do governo do Maranhão, em São Luís, de frente para a Baía de São Marcos.",
+          "variantes": []
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Capela Dourada",
+        "descricao": "Capela dos Noviços da Ordem Terceira de São Francisco, em Recife, inteiramente decorada em estilo barroco.",
+        "variantes": [
+          "Capela dos Noviços da Ordem Terceira de São Francisco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "domus_aurea",
+          "nome": "Domus Áurea",
+          "descricao": "Palácio monumental mandado construir por Nero em Roma depois do grande incêndio de 64.",
+          "variantes": [
+            "Casa Dourada"
+          ]
+        },
+        {
+          "id": "mantela_dourada",
+          "nome": "Mantela-dourada",
+          "descricao": "Pequena rã terrestre amarelo-alaranjada (Mantella aurantiaca), endêmica de uma área restrita de Madagascar.",
+          "variantes": [
+            "Mantella aurantiaca",
+            "Golden mantella"
+          ]
+        },
+        {
+          "id": "bula_de_ouro_de_1356",
+          "nome": "Bula de Ouro de 1356",
+          "descricao": "Decreto do imperador Carlos Quarto que fixou as regras de eleição do rei e imperador do Sacro Império Romano-Germânico.",
+          "variantes": [
+            "Golden Bull of 1356",
+            "Bula Dourada"
+          ]
+        },
+        {
+          "id": "rabanada",
+          "nome": "Rabanada",
+          "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela.",
+          "variantes": [
+            "Fatia dourada",
+            "Torrada francesa",
+            "French toast"
+          ]
+        },
+        {
+          "id": "estadio_serra_dourada",
+          "nome": "Estádio Serra Dourada",
+          "descricao": "Estádio de futebol inaugurado em 1975 em Goiânia, Goiás, projetado por Paulo Mendes da Rocha.",
+          "variantes": [
+            "Serra Dourada",
+            "Estádio Mané Garrincha de Goiânia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Estátua do Padre Cícero",
+        "descricao": "Monumento de 27 metros em Juazeiro do Norte, no Ceará, em homenagem a Padre Cícero.",
+        "variantes": [
+          "Estátua de Padre Cícero na Colina do Horto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_do_padre_cicero",
+          "nome": "Estátua do Padre Cícero",
+          "descricao": "Estátua de 30 metros na Colina do Horto, em Juazeiro do Norte, Ceará.",
+          "variantes": [
+            "Estátua do Padre Cícero na Colina do Horto"
+          ]
+        },
+        {
+          "id": "estatua_de_coatlicue",
+          "nome": "Estátua de Coatlicue",
+          "descricao": "Monumental escultura asteca de pedra da deusa mãe Coatlicue, a da saia de serpentes, no Museu Nacional de Antropologia do México.",
+          "variantes": [
+            "Coatlicue",
+            "Coatlicue Mayor"
+          ]
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "estatua_de_hachiko",
+          "nome": "Estátua de Hachiko",
+          "descricao": "Estátua de bronze do cão akita Hachiko, diante da estação de Shibuya, em Tóquio.",
+          "variantes": [
+            "Hachikō",
+            "Hachiko"
+          ]
+        },
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "torre_digital_de_brasilia",
+      "motivo": "Mesma torre de TV digital de Niemeyer, Flor do Cerrado."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "estadio_mane_garrincha",
+      "motivo": "Mesmo estádio de Brasília reformado para a Copa de 2014."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o prédio do STF."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Capela Dourada do Recife."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "estatua_do_padre_cicero",
+      "motivo": "Mesma estátua em Juazeiro do Norte; a diferença de altura é só imprecisão da descrição."
+    }
+  ]
+}

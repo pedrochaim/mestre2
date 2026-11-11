@@ -1,0 +1,43 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português diz que a inauguração foi em 21 de abril de 2012. Os distratores são anos próximos e críveis, e 2010 era a data prevista. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o estádio fica em Brasília. O enunciado não nomeia o estádio. Os distratores são outras cidades-sede da Copa de 2014, do mesmo tipo da resposta, e nenhum está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que A Justiça, de Alfredo Ceschiatti, fica em frente ao STF. A estátua é sentada, o que é amplamente documentado. O verbo 'aparece' supõe que a estátua esteja na foto, e isso não consta em `mostra`. Troquei por 'fica', que é literalmente verdadeiro. Sem a imagem, o enunciado não entrega a resposta.",
+      "reescrita": {
+        "pergunta": "Que escultor fez a estátua sentada que fica em frente a este prédio?",
+        "resposta": "Alfredo Ceschiatti",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos confirmam que a Capela Dourada fica em Recife. A pergunta é de nível 1, tem resposta única e o enunciado não vaza nada.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a estátua de Juazeiro do Norte homenageia Padre Cícero. A pergunta de reconhecimento é simples, tem resposta única e o enunciado não vaza o nome.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Torre inconfundível, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ano foi inaugurada esta torre de Niemeyer?",
+      "resposta": "2012",
+      "distratores": [
+        "2010",
+        "2011",
+        "2013"
+      ],
+      "ancora": {
+        "nome": "Torre de TV Digital de Brasília",
+        "descricao": "Torre de transmissão projetada por Oscar Niemeyer em Brasília, conhecida como Flor do Cerrado.",
+        "variantes": [
+          "Flor do Cerrado",
+          "Torre de TV Digital"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O busto traz inscrições com o nome (Valentim da Fonseca, Mestre Valentim), que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível do estádio, sem texto legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica este estádio?",
+      "resposta": "Brasília",
+      "distratores": [
+        "Manaus",
+        "Cuiabá",
+        "Fortaleza"
+      ],
+      "ancora": {
+        "nome": "Estádio Nacional Mané Garrincha",
+        "descricao": "Estádio de futebol em Brasília, reconstruído para a Copa de 2014.",
+        "variantes": [
+          "Arena Mané Garrincha",
+          "Estádio Nacional de Brasília"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Fachada lateral de casa de madeira pouco reconhecível; a resposta não é única nem identificável pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Retrato antigo de pessoa pouco conhecida; não reconhecível pela imagem e a pergunta de lugar não se sustenta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Prédio reconhecível com a escultura A Justiça à frente; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que escultor fez a estátua sentada que aparece em frente a este prédio?",
+      "resposta": "Alfredo Ceschiatti",
+      "distratores": [],
+      "ancora": {
+        "nome": "Palácio do Supremo Tribunal Federal",
+        "descricao": "Sede do Supremo Tribunal Federal na Praça dos Três Poderes, em Brasília, projetada por Oscar Niemeyer.",
+        "variantes": [
+          "Palácio do STF",
+          "Supremo Tribunal Federal"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Retrato de pintor, não uma obra dele; pessoa não reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Placa de rua visível na imagem (Rua do Catete) e pessoas em primeiro plano; pode entregar a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Interior barroco dourado muito característico, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Em que cidade brasileira fica esta capela?",
+      "resposta": "Recife",
+      "distratores": [],
+      "ancora": {
+        "nome": "Capela Dourada",
+        "descricao": "Capela dos Noviços da Ordem Terceira de São Francisco, em Recife, inteiramente decorada em estilo barroco.",
+        "variantes": [
+          "Capela dos Noviços da Ordem Terceira de São Francisco"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, camisas com texto; prédio pouco reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Igrejinha colonial genérica, sem traços que permitam reconhecê-la; resposta de autoria não sustentada."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua gigante clara, sem texto; figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem é retratado nesta estátua gigante?",
+      "resposta": "Padre Cícero",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estátua do Padre Cícero",
+        "descricao": "Monumento de 27 metros em Juazeiro do Norte, no Ceará, em homenagem a Padre Cícero.",
+        "variantes": [
+          "Estátua de Padre Cícero na Colina do Horto"
+        ]
+      }
+    }
+  ]
+}
