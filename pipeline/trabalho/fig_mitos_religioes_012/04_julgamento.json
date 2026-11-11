@@ -1,0 +1,585 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Templos de Abu Simbel",
+        "descricao": "Dois templos escavados na rocha por Ramsés II, no sul do Egito, perto da fronteira com o Sudão.",
+        "variantes": [
+          "Abu Simbel",
+          "Abul-Simbel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abu_simbel",
+          "nome": "Abu Simbel",
+          "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser",
+          "variantes": [
+            "Templos de Abu Simbel",
+            "Abu Simbel temples"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "templo_de_atena_nice",
+          "nome": "Templo de Atena Nice",
+          "descricao": "Pequeno templo jônico do século cinco a.C. na Acrópole de Atenas, dedicado a Atena Nice.",
+          "variantes": [
+            "Templo de Atena Nike",
+            "Temple of Athena Nike"
+          ]
+        },
+        {
+          "id": "arroba_simbolo",
+          "nome": "Arroba (símbolo)",
+          "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
+          "variantes": [
+            "@",
+            "At sign",
+            "Arroba"
+          ]
+        },
+        {
+          "id": "templo_de_kom_ombo",
+          "nome": "Templo de Kom Ombo",
+          "descricao": "Templo duplo de época ptolomaica em Kom Ombo, na província de Assuã, no Alto Egito.",
+          "variantes": [
+            "Templo de Com Ombo",
+            "Temple of Kom Ombo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Templo do Buda de Esmeralda",
+        "descricao": "Wat Phra Kaew, o templo budista mais sagrado da Tailândia, dentro do Grande Palácio em Bangkok.",
+        "variantes": [
+          "Wat Phra Kaew",
+          "Wat Phra Kaeo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "id": "vespa_joia",
+          "nome": "Vespa-joia",
+          "descricao": "Vespa solitária metálica verde e azul (Ampulex compressa) que parasita baratas para criar suas larvas.",
+          "variantes": [
+            "Ampulex compressa",
+            "Vespa-esmeralda",
+            "Emerald cockroach wasp",
+            "Jewel wasp"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Basílica de Sacré-Cœur",
+        "descricao": "Basílica católica de cúpulas brancas no alto da colina de Montmartre, em Paris.",
+        "variantes": [
+          "Sacré-Cœur",
+          "Basílica do Sagrado Coração de Montmartre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_sacre_c_ur",
+          "nome": "Basílica de Sacré-Cœur",
+          "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
+          "variantes": [
+            "Sacré-Cœur",
+            "Basílica do Sagrado Coração de Montmartre",
+            "Basílica do Sagrado Coração"
+          ]
+        },
+        {
+          "id": "basilica_de_nazare",
+          "nome": "Basílica de Nazaré",
+          "descricao": "Basílica católica de Belém do Pará, ponto de chegada da procissão do Círio de Nazaré.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "arquibasilica_de_sao_joao_de_latrao",
+          "nome": "Arquibasílica de São João de Latrão",
+          "descricao": "Catedral da Diocese de Roma, sede do papa como bispo de Roma.",
+          "variantes": [
+            "São João de Latrão",
+            "Basílica de Latrão",
+            "Archbasilica of Saint John Lateran"
+          ]
+        },
+        {
+          "id": "jacare_acu",
+          "nome": "Jacaré-açu",
+          "descricao": "Grande jacaré de pele escura (Melanosuchus niger) dos rios e lagos da Bacia Amazônica.",
+          "variantes": [
+            "Melanosuchus niger",
+            "Jacaré-negro"
+          ]
+        },
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Brahma",
+        "descricao": "Deus hindu criador, representado com quatro cabeças e quatro braços.",
+        "variantes": [
+          "Brama"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rama",
+          "nome": "Rama",
+          "descricao": "Herói do épico indiano Ramayana, venerado no hinduísmo como encarnação de Vishnu.",
+          "variantes": [
+            "Ramachandra",
+            "Ram"
+          ]
+        },
+        {
+          "id": "johannes_brahms",
+          "nome": "Johannes Brahms",
+          "descricao": "Compositor, pianista e regente alemão do Romantismo (1833–1897).",
+          "variantes": [
+            "Brahms"
+          ]
+        },
+        {
+          "id": "ibm_350",
+          "nome": "IBM 350",
+          "descricao": "Primeira unidade comercial de disco rígido, lançada pela IBM em 1956 como parte do sistema RAMAC.",
+          "variantes": [
+            "IBM 350 Disk Storage Unit",
+            "RAMAC"
+          ]
+        },
+        {
+          "id": "brabham",
+          "nome": "Brabham",
+          "descricao": "Equipe britânica de Fórmula 1 fundada por Jack Brabham e Ron Tauranac, que competiu de 1962 a 1992.",
+          "variantes": [
+            "Brabham Racing Organisation",
+            "Motor Racing Developments"
+          ]
+        },
+        {
+          "id": "abraao",
+          "nome": "Abraão",
+          "descricao": "Patriarca bíblico considerado ancestral espiritual do judaísmo, do cristianismo e do islã",
+          "variantes": [
+            "Abraham",
+            "Ibrahim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Merlin",
+        "descricao": "Mago e profeta da lenda do rei Arthur, enfeitiçado por Nimue na pintura de Burne-Jones.",
+        "variantes": [
+          "Myrddin",
+          "Merlim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "merlion",
+          "nome": "Merlion",
+          "descricao": "Estátua-símbolo de Singapura com cabeça de leão e corpo de peixe.",
+          "variantes": [
+            "Merlião"
+          ]
+        },
+        {
+          "id": "berlim",
+          "nome": "Berlim",
+          "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+          "variantes": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "bolinha_de_gude",
+          "nome": "Bolinha de gude",
+          "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+          "variantes": [
+            "Bola de gude",
+            "Berlinde",
+            "Bolita",
+            "Búlica"
+          ]
+        },
+        {
+          "id": "deerling",
+          "nome": "Deerling",
+          "descricao": "Pokémon cervo dos tipos Normal e Planta da quinta geração, que evolui para Sawsbuck e tem formas sazonais.",
+          "variantes": [
+            "Shikijika"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mesquita Omíada",
+        "descricao": "Grande mesquita do século oito, na cidade velha de Damasco, uma das mais antigas ainda em uso.",
+        "variantes": [
+          "Grande Mesquita de Damasco",
+          "Mesquita dos Omíadas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_mesquita_de_samarra",
+          "nome": "Grande Mesquita de Samarra",
+          "descricao": "Antiga mesquita abássida do século nove em Samarra, Iraque, famosa pelo minarete em espiral.",
+          "variantes": [
+            "Mesquita Al-Malwiya",
+            "Great Mosque of Samarra",
+            "Malwiya"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_kairouan",
+          "nome": "Grande Mesquita de Kairouan",
+          "descricao": "Mesquita de Kairouan, na Tunísia, fundada por Uqba ibn Nafi por volta de 670, uma das mais antigas do Magreb.",
+          "variantes": [
+            "Mesquita de Uqba",
+            "Grande Mesquita de Cairuão",
+            "Great Mosque of Kairouan"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "mesquita_do_xa_isfahan",
+          "nome": "Mesquita do Xá (Isfahan)",
+          "descricao": "Mesquita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+          "variantes": [
+            "Mesquita do Imã",
+            "Mesquita Imam Khomeini",
+            "Shah Mosque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Partenon",
+        "descricao": "Templo grego do século cinco a.C. na Acrópole de Atenas, dedicado à deusa Atena.",
+        "variantes": [
+          "Parthenon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "partenon",
+          "nome": "Partenon",
+          "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+          "variantes": [
+            "Parthenon"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        },
+        {
+          "id": "panteao_de_paris",
+          "nome": "Panteão de Paris",
+          "descricao": "Edifício neoclássico no Quartier Latin, em Paris, que guarda os restos de grandes personalidades francesas.",
+          "variantes": [
+            "Panthéon",
+            "Panteão"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "george_s_patton",
+          "nome": "George S. Patton",
+          "descricao": "General do Exército dos Estados Unidos que comandou o Sétimo e o Terceiro Exércitos na Segunda Guerra Mundial.",
+          "variantes": [
+            "George Smith Patton Jr.",
+            "Patton"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Medeia",
+        "descricao": "Feiticeira da mitologia grega, filha do rei da Cólquida e esposa de Jasão, retratada na pintura de Frederick Sandys.",
+        "variantes": [
+          "Medea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gabriel_medina",
+          "nome": "Gabriel Medina",
+          "descricao": "Surfista brasileiro tricampeão mundial e bronze olímpico em Paris 2024.",
+          "variantes": [
+            "Medina"
+          ]
+        },
+        {
+          "id": "meia",
+          "nome": "Meia",
+          "descricao": "Peça de vestuário que cobre o pé e, muitas vezes, parte da perna.",
+          "variantes": [
+            "Meias",
+            "Meia de tricô"
+          ]
+        },
+        {
+          "id": "rio_madeira",
+          "nome": "Rio Madeira",
+          "descricao": "Grande afluente da margem direita do rio Amazonas, que banha Porto Velho, em Rondônia.",
+          "variantes": [
+            "Madeira",
+            "Madeira River"
+          ]
+        },
+        {
+          "id": "madeira",
+          "nome": "Madeira",
+          "descricao": "Arquipélago português no oceano Atlântico, região autônoma cuja capital é Funchal, na ilha da Madeira.",
+          "variantes": [
+            "Arquipélago da Madeira",
+            "Região Autónoma da Madeira"
+          ]
+        },
+        {
+          "id": "amendoeira",
+          "nome": "Amendoeira",
+          "descricao": "Árvore Prunus dulcis, da família das rosáceas, cuja semente é a amêndoa.",
+          "variantes": [
+            "Amêndoa",
+            "Prunus dulcis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Vitória de Samotrácia",
+        "descricao": "Estátua helenística de mármore da deusa Nice sobre uma proa de navio, hoje no Louvre.",
+        "variantes": [
+          "Nice de Samotrácia",
+          "Winged Victory of Samothrace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vitoria_de_samotracia",
+          "nome": "Vitória de Samotrácia",
+          "descricao": "Escultura grega helenística de mármore de uma deusa alada, exposta no Louvre.",
+          "variantes": [
+            "Nike de Samotrácia",
+            "Winged Victory of Samothrace"
+          ]
+        },
+        {
+          "id": "torta_de_maca",
+          "nome": "Torta de maçã",
+          "descricao": "Torta de frutas cujo recheio principal é maçã, com massa quebradiça embaixo e em cima.",
+          "variantes": [
+            "Apple pie"
+          ]
+        },
+        {
+          "id": "hipotese_gaia",
+          "nome": "Hipótese Gaia",
+          "descricao": "Hipótese segundo a qual os seres vivos e o ambiente da Terra formam um sistema que se autorregula.",
+          "variantes": [
+            "Hipótese de Gaia",
+            "Teoria de Gaia",
+            "Gaia hypothesis"
+          ]
+        },
+        {
+          "id": "pitagoras",
+          "nome": "Pitágoras",
+          "descricao": "Filósofo e matemático grego do século seis a.C., nascido em Samos, fundador da escola pitagórica.",
+          "variantes": [
+            "Pythagoras",
+            "Pitágoras de Samos"
+          ]
+        },
+        {
+          "id": "jodhpur",
+          "nome": "Jodhpur",
+          "descricao": "Calça de montaria larga nas coxas e justa da panturrilha ao tornozelo",
+          "variantes": [
+            "Jodhpurs",
+            "Culote de montaria"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "abu_simbel",
+      "motivo": "Mesmos templos de Ramsés II em Abu Simbel; variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Wat Phra Kaew em Bangkok não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "basilica_de_sacre_c_ur",
+      "motivo": "Mesma basílica de Sacré-Cœur em Paris."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Brahma, deus hindu, não consta; Rama é outra divindade."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Mago Merlin não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Mesquita Omíada de Damasco não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "partenon",
+      "motivo": "Mesmo templo de Atena na Acrópole."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Medeia da mitologia não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "vitoria_de_samotracia",
+      "motivo": "Mesma escultura helenística no Louvre."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1968, este templo foi desmontado e transferido para não ficar debaixo das águas de qual lago?",
+        "resposta": "Lago Nasser"
+      },
+      "existentes": [
+        {
+          "id": "q00116",
+          "pergunta": "Nos anos sessenta, os templos de Abu Simbel foram cortados em blocos e remontados num terreno mais alto. Que obra os ameaçava?",
+          "resposta": "Alta Represa de Assuã"
+        },
+        {
+          "id": "q06390",
+          "pergunta": "O templo menor de Abu Simbel foi dedicado à deusa Hátor e também a uma rainha, a grande esposa de Ramsés Segundo. Qual?",
+          "resposta": "Nefertari"
+        },
+        {
+          "id": "q06920",
+          "pergunta": "Que templo egípcio escavado na rocha é este?",
+          "resposta": "Abu Simbel"
+        },
+        {
+          "id": "q20224",
+          "pergunta": "Em que país fica este templo escavado na rocha?",
+          "resposta": "Egito"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica esta basílica?",
+        "resposta": "Paris"
+      },
+      "existentes": [
+        {
+          "id": "q05426",
+          "pergunta": "Com suas cúpulas brancas, a Basílica de Sacré-Cœur domina a paisagem de Paris do alto de qual colina?",
+          "resposta": "Montmartre"
+        },
+        {
+          "id": "q08475",
+          "pergunta": "Por que a Basílica de Sacré-Cœur, em Paris, continua branca mesmo com a poluição e o passar dos anos? Que substância a pedra libera?",
+          "resposta": "Calcita"
+        },
+        {
+          "id": "q08576",
+          "pergunta": "Que arquiteto projetou esta basílica?",
+          "resposta": "Paul Abadie"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A qual deusa este templo grego era dedicado?",
+        "resposta": "Atena"
+      },
+      "existentes": [
+        {
+          "id": "q02454",
+          "pergunta": "Em que século antes de Cristo foi construído este templo de Atenas?",
+          "resposta": "Quinto século a.C."
+        },
+        {
+          "id": "q03170",
+          "pergunta": "O nome Partenon vem de um título da deusa Atena. O que esse título significa?",
+          "resposta": "Virgem"
+        },
+        {
+          "id": "q03220",
+          "pergunta": "Em 1687, quando os venezianos cercaram Atenas, uma explosão destruiu boa parte do Partenon. O que os otomanos guardavam lá dentro?",
+          "resposta": "Pólvora"
+        },
+        {
+          "id": "q16908",
+          "pergunta": "Que templo grego é este?",
+          "resposta": "Partenon"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que deusa grega esta estátua helenística, hoje no Louvre, representa?",
+        "resposta": "Nice (a Vitória)"
+      },
+      "existentes": [
+        {
+          "id": "q03184",
+          "pergunta": "O que a escultura Vitória de Samotrácia, no Louvre, tem em comum com uma famosa marca esportiva americana?",
+          "resposta": "A deusa Nike"
+        },
+        {
+          "id": "q09561",
+          "pergunta": "A Vitória de Samotrácia, estátua alada exposta no Louvre, foi esculpida pousando sobre que tipo de base?",
+          "resposta": "A proa de um navio"
+        },
+        {
+          "id": "q16613",
+          "pergunta": "Em que museu fica esta escultura grega?",
+          "resposta": "Louvre"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Pergunta a ameaça das águas (Assuã/Lago Nasser) que motivou a transferência; q00116 cobre o mesmo fato (represa que formou o lago).",
+      "id_existente": "q00116"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade da basílica é fato distinto; q05426 menciona Paris no enunciado, mas pergunta a colina."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A deusa a que o templo era dedicado não é perguntada diretamente; o título 'Virgem' é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Quem sabe que a estátua representa a deusa Nike responde a nova; q03184 tem a resposta Nike.",
+      "id_existente": "q03184"
+    }
+  ]
+}

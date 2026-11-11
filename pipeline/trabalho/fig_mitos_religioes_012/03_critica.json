@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos: realocação em 1968 para evitar submersão pelo Lago Nasser. O enunciado não nomeia o templo; distratores são lagos africanos e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta falha: 'budista, de influência grega' mais 'entre Paquistão e Afeganistão' já entrega Gandara. Além disso, a arte greco-budista também ocorreu na Báctria (distrator), então a resposta não é única. Os trechos tratam só de auréolas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o conjunto fica dentro do Grande Palácio, no centro histórico de Bangkok. O enunciado não nomeia o templo nem o país, e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples, nível 1. Os trechos confirmam que a basílica fica em Paris, e o enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto do deus criador de quatro cabeças. Distratores são deuses hindus críveis, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "'Criatura de cabeça de crocodilo' praticamente entrega o Egito sem a figura. Há também ambiguidade: Sobek é outra divindade egípcia com cabeça de crocodilo, e o trecho em português contradiz a descrição da cabeça. Sem conserto seguro.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a lenda (mulher que prende o mago com o próprio feitiço) e dá a resposta Nimue sem olhar o quadro. 'Homem deitado' também não é verificável. Reescrito para pedir o personagem masculino retratado.",
+      "reescrita": {
+        "pergunta": "Que personagem masculino da lenda do rei Artur aparece neste quadro pré-rafaelita?",
+        "resposta": "Merlin",
+        "distratores": [
+          "Lancelote",
+          "Mordred",
+          "Percival"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a mesquita fica em Damasco, na Síria. Distratores são países vizinhos críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a dedicação à deusa Atena. O enunciado não nomeia o templo, e os distratores são deusas gregas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento da personagem pintada. O enunciado não vaza nada, e os distratores são mulheres da mitologia grega, nenhuma correta. A quadro de Sandys é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estátua alada' mais 'deusa grega' entrega Nice sem a imagem. Retirei 'alada' e usei época e localização atual, que ajudam sem entregar.",
+      "reescrita": {
+        "pergunta": "Que deusa grega esta estátua helenística, hoje no Louvre, representa?",
+        "resposta": "Nice (a Vitória)",
+        "distratores": [
+          "Atena",
+          "Hera",
+          "Ártemis"
+        ]
+      }
+    }
+  ]
+}

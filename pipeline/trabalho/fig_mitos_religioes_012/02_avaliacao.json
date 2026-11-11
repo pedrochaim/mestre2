@@ -1,0 +1,251 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada de Abu Simbel, nítida, sem texto, reconhecível.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em 1968, este templo foi desmontado e transferido para não ficar debaixo das águas de qual lago?",
+      "resposta": "Lago Nasser",
+      "distratores": [
+        "Lago Vitória",
+        "Lago Tana",
+        "Lago Turkana"
+      ],
+      "ancora": {
+        "nome": "Templos de Abu Simbel",
+        "descricao": "Dois templos escavados na rocha por Ramsés II, no sul do Egito, perto da fronteira com o Sudão.",
+        "variantes": [
+          "Abu Simbel",
+          "Abul-Simbel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Estátua de Buda de Gandara com auréola, nítida e sem texto. A âncora é a estátua, pois a pergunta sobre a auréola entregaria a resposta.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta estátua budista, de influência grega, vem de qual região antiga, hoje entre o Paquistão e o Afeganistão?",
+      "resposta": "Gandara",
+      "distratores": [
+        "Báctria",
+        "Sogdiana",
+        "Pártia"
+      ],
+      "ancora": {
+        "nome": "Buda de Gandara",
+        "descricao": "Estátua de Buda em pé, em xisto, da arte greco-budista de Gandara, com disco de auréola atrás da cabeça.",
+        "variantes": [
+          "Buda em pé de Gandara",
+          "Arte greco-budista"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Edifícios dourados e ornamentados do complexo do Wat Phra Kaew, nítidos e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este conjunto de templos budistas fica dentro de qual palácio real, no centro histórico da capital do seu país?",
+      "resposta": "Grande Palácio (Bangkok)",
+      "ancora": {
+        "nome": "Templo do Buda de Esmeralda",
+        "descricao": "Wat Phra Kaew, o templo budista mais sagrado da Tailândia, dentro do Grande Palácio em Bangkok.",
+        "variantes": [
+          "Wat Phra Kaew",
+          "Wat Phra Kaeo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Basílica nítida e inconfundível; pessoas só aparecem pequenas e incidentais.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica esta basílica?",
+      "resposta": "Paris",
+      "ancora": {
+        "nome": "Basílica de Sacré-Cœur",
+        "descricao": "Basílica católica de cúpulas brancas no alto da colina de Montmartre, em Paris.",
+        "variantes": [
+          "Sacré-Cœur",
+          "Basílica do Sagrado Coração de Montmartre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gravura colorida de Brahma com várias cabeças e quatro braços, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deus hindu é este?",
+      "resposta": "Brahma",
+      "distratores": [
+        "Vishnu",
+        "Shiva",
+        "Indra"
+      ],
+      "ancora": {
+        "nome": "Brahma",
+        "descricao": "Deus hindu criador, representado com quatro cabeças e quatro braços.",
+        "variantes": [
+          "Brama"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração clara da figura composta de crocodilo, leão e hipopótamo, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que civilização antiga vem esta criatura mitológica, de cabeça de crocodilo?",
+      "resposta": "Egito Antigo",
+      "ancora": {
+        "nome": "Ammit",
+        "descricao": "Deusa egípcia devoradora dos mortos, com cabeça de crocodilo, corpo de leão e traseiro de hipopótamo.",
+        "variantes": [
+          "Ammut",
+          "Ahemait",
+          "Devoradora dos Mortos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto escura de uma apresentação, com pessoas comuns em primeiro plano e sem forma reconhecível da Iara. Não dá resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pintura de Burne-Jones em domínio público, sem texto, que mostra Merlin enfeitiçado.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda arturiana, quem é a mulher deste quadro, que seduz o homem deitado e o prende com o próprio feitiço dele?",
+      "resposta": "Nimue (também chamada Viviane)",
+      "ancora": {
+        "nome": "Merlin",
+        "descricao": "Mago e profeta da lenda do rei Arthur, enfeitiçado por Nimue na pintura de Burne-Jones.",
+        "variantes": [
+          "Myrddin",
+          "Merlim"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada e pátio da mesquita, sem texto; pessoas pequenas e incidentais. Para aficionados, por isso múltipla.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta mesquita?",
+      "resposta": "Síria",
+      "distratores": [
+        "Turquia",
+        "Iraque",
+        "Jordânia"
+      ],
+      "ancora": {
+        "nome": "Mesquita Omíada",
+        "descricao": "Grande mesquita do século oito, na cidade velha de Damasco, uma das mais antigas ainda em uso.",
+        "variantes": [
+          "Grande Mesquita de Damasco",
+          "Mesquita dos Omíadas"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clássica do Partenon, nítida e sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A qual deusa este templo grego era dedicado?",
+      "resposta": "Atena",
+      "distratores": [
+        "Ártemis",
+        "Hera",
+        "Afrodite"
+      ],
+      "ancora": {
+        "nome": "Partenon",
+        "descricao": "Templo grego do século cinco a.C. na Acrópole de Atenas, dedicado à deusa Atena.",
+        "variantes": [
+          "Parthenon"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura de Sandys em domínio público, sem texto. Como pode ser confundida com outras feiticeiras, a pergunta é múltipla.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que personagem da mitologia grega é retratada neste quadro?",
+      "resposta": "Medeia",
+      "distratores": [
+        "Circe",
+        "Pandora",
+        "Ariadne"
+      ],
+      "ancora": {
+        "nome": "Medeia",
+        "descricao": "Feiticeira da mitologia grega, filha do rei da Cólquida e esposa de Jasão, retratada na pintura de Frederick Sandys.",
+        "variantes": [
+          "Medea"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida da estátua no Louvre, sem texto, inconfundível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deusa grega esta estátua alada representa?",
+      "resposta": "Nice (a Vitória)",
+      "distratores": [
+        "Atena",
+        "Hera",
+        "Ártemis"
+      ],
+      "ancora": {
+        "nome": "Vitória de Samotrácia",
+        "descricao": "Estátua helenística de mármore da deusa Nice sobre uma proa de navio, hoje no Louvre.",
+        "variantes": [
+          "Nice de Samotrácia",
+          "Winged Victory of Samothrace"
+        ]
+      }
+    }
+  ]
+}
