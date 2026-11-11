@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Ilustração com o nome 'Cássia Eller' escrito e uma frase em francês: o texto entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mostra vários tambores e muitas pessoas, com 'OLODUN' nas camisas; o texto entrega o grupo e o instrumento não fica isolado."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Tambor metálico sem contexto, que pode ser confundido com um surdo ou outro tambor médio; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Duas figuras públicas em apresentação; o texto 'Supercopa do Brasil' não entrega o nome da dupla.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dupla sertaneja de irmãs gêmeas é esta?",
+      "resposta": "Maiara & Maraisa",
+      "distratores": [
+        "Simone e Simaria",
+        "Day e Lara",
+        "Sandy e Junior"
+      ],
+      "ancora": {
+        "nome": "Maiara & Maraisa",
+        "descricao": "Dupla sertaneja brasileira formada pelas irmãs gêmeas Maiara e Maraisa.",
+        "variantes": [
+          "Maiara e Maraisa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de figura pública.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de cordas este sambista costuma tocar durante a maior parte dos shows?",
+      "resposta": "Cavaquinho",
+      "ancora": {
+        "nome": "Jorge Aragão",
+        "descricao": "Cantor, compositor e instrumentista brasileiro de samba e pagode, nascido no Rio de Janeiro em 1949.",
+        "variantes": [
+          "Jorge Aragão da Cruz"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; o texto cortado ao fundo não entrega o nome.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantora e compositora brasileira de samba é esta?",
+      "resposta": "Teresa Cristina",
+      "ancora": {
+        "nome": "Teresa Cristina",
+        "descricao": "Cantora e compositora brasileira de samba e MPB, nascida no Rio de Janeiro em 1968.",
+        "variantes": [
+          "Teresa Cristina Macedo Gomes"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Figura pública em foto nítida; o selo do Prêmio Multishow não entrega a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que programa infantil da TV Globo, nos anos oitenta, esta apresentadora e cantora comandou?",
+      "resposta": "Xou da Xuxa",
+      "distratores": [
+        "Balão Mágico",
+        "TV Colosso",
+        "Sítio do Picapau Amarelo"
+      ],
+      "ancora": {
+        "nome": "Xuxa",
+        "descricao": "Apresentadora de TV, atriz e cantora brasileira, conhecida como Rainha dos Baixinhos.",
+        "variantes": [
+          "Maria da Graça Meneghel",
+          "Xuxa Meneghel"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantora brasileira é esta?",
+      "resposta": "Wanderléa",
+      "ancora": {
+        "nome": "Wanderléa",
+        "descricao": "Cantora brasileira, apelidada de Ternurinha, que apresentou o programa Jovem Guarda.",
+        "variantes": [
+          "Wanderléa Charlup Boere Salim",
+          "Ternurinha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato legível, sem texto, de figura pública.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cantora gravou, em 1970, o primeiro grande sucesso deste compositor?",
+      "resposta": "Elis Regina",
+      "distratores": [
+        "Gal Costa",
+        "Maria Bethânia",
+        "Nara Leão"
+      ],
+      "ancora": {
+        "nome": "Ivan Lins",
+        "descricao": "Cantor e compositor brasileiro de MPB e jazz, nascido em 1945, autor de Madalena e Love Dance.",
+        "variantes": [
+          "Ivan Guimarães Lins"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, com violão, sem texto, de figura pública.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Com que poeta e compositor este violonista fez uma célebre parceria musical?",
+      "resposta": "Vinicius de Moraes",
+      "ancora": {
+        "nome": "Toquinho",
+        "descricao": "Cantor e violonista brasileiro nascido em 1946, parceiro de Vinicius de Moraes.",
+        "variantes": [
+          "Antônio Pecci Filho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Figura pública em show, sem texto que entregue a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que grupo paulistano de rap este cantor é fundador?",
+      "resposta": "Racionais MC's",
+      "ancora": {
+        "nome": "Mano Brown",
+        "descricao": "Rapper e produtor brasileiro, fundador e vocalista do grupo Racionais MC's.",
+        "variantes": [
+          "Pedro Paulo Soares Pereira"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública em show, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cantor brasileiro é este?",
+      "resposta": "Sidney Magal",
+      "distratores": [
+        "Reginaldo Rossi",
+        "Amado Batista",
+        "Agnaldo Timóteo"
+      ],
+      "ancora": {
+        "nome": "Sidney Magal",
+        "descricao": "Cantor, dançarino e ator brasileiro nascido no Rio de Janeiro em 1950.",
+        "variantes": [
+          "Sidney Magalhães"
+        ]
+      }
+    }
+  ]
+}

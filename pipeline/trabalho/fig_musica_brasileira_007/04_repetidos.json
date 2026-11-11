@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que programa infantil da TV Globo, nos anos oitenta, esta apresentadora e cantora comandou?",
+        "resposta": "Xou da Xuxa"
+      },
+      "existentes": [
+        {
+          "id": "q15335",
+          "pergunta": "Qual destes programas infantis esta apresentadora comandou?",
+          "resposta": "Clube da Criança"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Os fatos são diferentes: a nova pede o programa infantil da TV Globo nos anos 80 (Xou da Xuxa), e a existente tem como resposta o Clube da Criança, outro programa. Saber uma resposta não leva à outra."
+    }
+  ]
+}
