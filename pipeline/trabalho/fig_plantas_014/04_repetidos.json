@@ -1,0 +1,66 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Framboesa"
+      },
+      "existentes": [
+        {
+          "id": "q09279",
+          "pergunta": "Que frutinha vermelha é esta?",
+          "resposta": "Framboesa"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Mirtilo"
+      },
+      "existentes": [
+        {
+          "id": "q05983",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Mirtilo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que fruta tropical do Sudeste Asiático é esta?",
+        "resposta": "Rambutã"
+      },
+      "existentes": [
+        {
+          "id": "q01857",
+          "pergunta": "Que fruta asiática de casca peluda é esta?",
+          "resposta": "Rambutã"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas são identificação de imagem com resposta Framboesa; mesmo fato.",
+      "id_existente": "q09279"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas (Mirtilo).",
+      "id_existente": "q05983"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a imagem da fruta Rambutã; mesmo fato.",
+      "id_existente": "q01857"
+    }
+  ]
+}

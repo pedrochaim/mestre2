@@ -1,0 +1,575 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Feijão",
+        "descricao": "Planta leguminosa Phaseolus vulgaris, cujas sementes comestíveis crescem em vagens.",
+        "variantes": [
+          "Feijão-comum",
+          "Phaseolus vulgaris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cloud_gate",
+          "nome": "Cloud Gate",
+          "descricao": "Escultura de aço inoxidável espelhado de Anish Kapoor, no Millennium Park, em Chicago.",
+          "variantes": [
+            "The Bean",
+            "O Feijão"
+          ]
+        },
+        {
+          "id": "figo",
+          "nome": "Figo",
+          "descricao": "Fruto da figueira-comum (Ficus carica), nativa da região mediterrânea.",
+          "variantes": [
+            "Figo-comum",
+            "Ficus carica"
+          ]
+        },
+        {
+          "id": "aveia",
+          "nome": "Aveia",
+          "descricao": "Cereal (Avena sativa) de panícula solta com espiguetas pendentes, usado em farinhas e flocos.",
+          "variantes": [
+            "Aveia-comum",
+            "Avena sativa"
+          ]
+        },
+        {
+          "id": "luiz_felipe_scolari",
+          "nome": "Luiz Felipe Scolari",
+          "descricao": "Treinador brasileiro de futebol, campeão mundial com o Brasil em 2002.",
+          "variantes": [
+            "Luiz Felipe Scolari (Felipão)",
+            "Felipão",
+            "Scolari"
+          ]
+        },
+        {
+          "id": "baleia_comum",
+          "nome": "Baleia-comum",
+          "descricao": "Baleia de barbatanas esguia e veloz (Balaenoptera physalus), o segundo maior animal vivo.",
+          "variantes": [
+            "Baleia-fin",
+            "Rorqual-comum",
+            "Balaenoptera physalus",
+            "Fin whale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Camélia",
+        "descricao": "Arbusto ornamental Camellia japonica, da família do chá, de flores vistosas.",
+        "variantes": [
+          "Camellia japonica",
+          "Camélia-japonesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "sopwith_camel",
+          "nome": "Sopwith Camel",
+          "descricao": "Caça biplano britânico monoplace da Primeira Guerra Mundial, fabricado pela Sopwith Aviation Company.",
+          "variantes": [
+            "Camel",
+            "Sopwith F.1 Camel"
+          ]
+        },
+        {
+          "id": "castelia",
+          "nome": "Castelia",
+          "descricao": "Grande cidade portuária de arranha-céus da região de Unova, nos jogos Pokémon Black e White.",
+          "variantes": [
+            "Castelia City",
+            "Cidade de Castelia"
+          ]
+        },
+        {
+          "id": "lingua_japonesa",
+          "nome": "Língua japonesa",
+          "descricao": "Língua do Japão, escrita com kanji, hiragana e katakana.",
+          "variantes": [
+            "Japonês"
+          ]
+        },
+        {
+          "id": "canela",
+          "nome": "Canela",
+          "descricao": "Especiaria aromática obtida da casca interna de árvores do gênero Cinnamomum.",
+          "variantes": [
+            "Canela-do-ceilão",
+            "Cinnamomum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Beladona",
+        "descricao": "Planta venenosa Atropa belladonna, da família das solanáceas, de bagas pretas brilhantes.",
+        "variantes": [
+          "Atropa belladonna",
+          "Atropa bella-donna"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "celadon",
+          "nome": "Celadon",
+          "descricao": "Grande cidade da região de Kanto, nos jogos Pokémon Red e Blue, com loja de departamentos e o ginásio de tipo Planta de Erika.",
+          "variantes": [
+            "Celadon City",
+            "Cidade de Celadon"
+          ]
+        },
+        {
+          "id": "befana",
+          "nome": "Befana",
+          "descricao": "Velha bondosa do folclore italiano que voa numa vassoura e traz doces às crianças.",
+          "variantes": [
+            "La Befana"
+          ]
+        },
+        {
+          "id": "blanka",
+          "nome": "Blanka",
+          "descricao": "Lutador de pele verde da série Street Fighter, da Capcom, que solta descargas elétricas.",
+          "variantes": [
+            "Jimmy"
+          ]
+        },
+        {
+          "id": "gelada",
+          "nome": "Gelada",
+          "descricao": "Macaco do Velho Mundo das terras altas da Etiópia, Theropithecus gelada, com mancha vermelha no peito.",
+          "variantes": [
+            "Babuíno-gelada",
+            "Theropithecus gelada"
+          ]
+        },
+        {
+          "id": "lago_ladoga",
+          "nome": "Lago Ladoga",
+          "descricao": "Grande lago de água doce no noroeste da Rússia, perto de São Petersburgo.",
+          "variantes": [
+            "Lake Ladoga",
+            "Ladoga"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pinheiro-de-wollemi",
+        "descricao": "Conífera Wollemia nobilis, da família Araucariaceae, descoberta em 1994 na Austrália.",
+        "variantes": [
+          "Wollemia nobilis",
+          "Wollemi pine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wolverine",
+          "nome": "Wolverine",
+          "descricao": "Mutante canadense dos X-Men, com garras retráteis de adamantium, criado pela Marvel em 1974",
+          "variantes": [
+            "Logan",
+            "James Howlett"
+          ]
+        },
+        {
+          "id": "arvore_de_natal",
+          "nome": "Árvore de Natal",
+          "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+          "variantes": [
+            "Pinheirinho de Natal",
+            "Christmas tree"
+          ]
+        },
+        {
+          "id": "linha_de_wallace",
+          "nome": "Linha de Wallace",
+          "descricao": "Fronteira biogeográfica no arquipélago malaio que separa a fauna de origem asiática da fauna de origem australiana.",
+          "variantes": [
+            "Wallace Line"
+          ]
+        },
+        {
+          "id": "thomas_paine",
+          "nome": "Thomas Paine",
+          "descricao": "Filósofo político inglês-americano, autor de Senso Comum, panfleto da Revolução Americana.",
+          "variantes": [
+            "Tom Paine"
+          ]
+        },
+        {
+          "id": "carcaju",
+          "nome": "Carcaju",
+          "descricao": "Maior mustelídeo terrestre (Gulo gulo), carnívoro solitário do hemisfério norte.",
+          "variantes": [
+            "Glutão",
+            "Wolverine",
+            "Gulo gulo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Framboesa",
+        "descricao": "Fruto vermelho e composto de plantas do gênero Rubus, da família das rosáceas.",
+        "variantes": [
+          "Raspberry",
+          "Rubus idaeus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "framboesa",
+          "nome": "Framboesa",
+          "descricao": "Fruto vermelho do gênero Rubus (subgênero Idaeobatus), da família das rosáceas.",
+          "variantes": [
+            "Raspberry"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "taiwan",
+          "nome": "Taiwan",
+          "descricao": "Ilha do leste da Ásia, separada da China continental pelo estreito de Taiwan.",
+          "variantes": [
+            "Formosa",
+            "Ilha Formosa"
+          ]
+        },
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry",
+            "Fragaria × ananassa",
+            "Moranguinho"
+          ]
+        },
+        {
+          "id": "violino",
+          "nome": "Violino",
+          "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+          "variantes": [
+            "Rabeca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gardênia",
+        "descricao": "Arbusto Gardenia jasminoides, da família do café, de flores brancas muito perfumadas.",
+        "variantes": [
+          "Gardenia jasminoides",
+          "Jasmim-do-cabo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_armenia",
+          "nome": "Bandeira da Armênia",
+          "descricao": "Bandeira nacional da Armênia, tricolor horizontal vermelha, azul e laranja.",
+          "variantes": [
+            "Armênia",
+            "Bandeira armênia"
+          ]
+        },
+        {
+          "id": "giardia",
+          "nome": "Giárdia",
+          "descricao": "Protozoário flagelado parasita do intestino delgado, causador da giardíase.",
+          "variantes": [
+            "Giardia lamblia",
+            "Giardia duodenalis",
+            "Giardia intestinalis"
+          ]
+        },
+        {
+          "id": "brasao_da_armenia",
+          "nome": "Brasão da Armênia",
+          "descricao": "Brasão de armas da Armênia, com águia e leão sustentando escudo com o monte Ararate.",
+          "variantes": [
+            "Armênia",
+            "Armas da Armênia"
+          ]
+        },
+        {
+          "id": "armenia",
+          "nome": "Armênia",
+          "descricao": "País sem litoral do Cáucaso, na Ásia Ocidental, com capital em Yerevan.",
+          "variantes": [
+            "República da Armênia"
+          ]
+        },
+        {
+          "id": "greninja",
+          "nome": "Greninja",
+          "descricao": "Pokémon dos tipos Água e Sombrio, número 658 da Pokédex Nacional.",
+          "variantes": [
+            "Gekkouga"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mirtilo",
+        "descricao": "Fruto azul-arroxeado de arbustos do gênero Vaccinium, nativo da América do Norte.",
+        "variantes": [
+          "Blueberry",
+          "Vaccinium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mirtilo",
+          "nome": "Mirtilo",
+          "descricao": "Fruta pequena, azul-arroxeada, do gênero Vaccinium (Cyanococcus).",
+          "variantes": [
+            "Blueberry"
+          ]
+        },
+        {
+          "id": "murilo_endres",
+          "nome": "Murilo Endres",
+          "descricao": "Ponta brasileiro de vôlei, bicampeão mundial e duas vezes medalhista de prata olímpico.",
+          "variantes": [
+            "Murilo"
+          ]
+        },
+        {
+          "id": "vacina",
+          "nome": "Vacina",
+          "descricao": "Preparação que estimula o sistema imunológico a proteger contra uma doença.",
+          "variantes": [
+            "Vaccine",
+            "Imunizante"
+          ]
+        },
+        {
+          "id": "amora_preta",
+          "nome": "Amora-preta",
+          "descricao": "Fruto escuro e composto de plantas do gênero Rubus, a blackberry.",
+          "variantes": [
+            "Amora",
+            "Blackberry"
+          ]
+        },
+        {
+          "id": "martelo",
+          "nome": "Martelo",
+          "descricao": "Ferramenta de mão com cabeça pesada presa a um cabo, usada para bater, como o martelo de unha.",
+          "variantes": [
+            "Martelo de unha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Rambutã",
+        "descricao": "Fruto tropical Nephelium lappaceum, de casca vermelha peluda e polpa branca.",
+        "variantes": [
+          "Rambutan",
+          "Nephelium lappaceum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rambuta",
+          "nome": "Rambutã",
+          "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+          "variantes": [
+            "Rambutão",
+            "Rambutan"
+          ]
+        },
+        {
+          "id": "maimonides",
+          "nome": "Maimônides",
+          "descricao": "Filósofo, rabino e médico judeu (1138–1204), nascido em Córdoba, autor do Guia dos Perplexos.",
+          "variantes": [
+            "Moisés Maimônides",
+            "Rambam",
+            "Moshe ben Maimon"
+          ]
+        },
+        {
+          "id": "paisley",
+          "nome": "Paisley",
+          "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+          "variantes": [
+            "Estampa paisley",
+            "Estampa caxemira",
+            "Buta"
+          ]
+        },
+        {
+          "id": "rama",
+          "nome": "Rama",
+          "descricao": "Herói do épico indiano Ramayana, venerado no hinduísmo como encarnação de Vishnu.",
+          "variantes": [
+            "Ramachandra",
+            "Ram"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Flor-esqueleto",
+        "descricao": "Planta Diphylleia grayi, do Japão, cujas pétalas brancas ficam translúcidas na chuva.",
+        "variantes": [
+          "Diphylleia grayi",
+          "Skeleton flower",
+          "Sankayō"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sansao",
+          "nome": "Sansão",
+          "descricao": "Coelhinho de pelúcia azul da Mônica, na Turma da Mônica, usado por ela para dar coelhadas.",
+          "variantes": [
+            "Sansão da Mônica"
+          ]
+        },
+        {
+          "id": "ushanka",
+          "nome": "Ushanka",
+          "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+          "variantes": [
+            "Chapéu de pele russo",
+            "Shapka-ushanka",
+            "Chapka"
+          ]
+        },
+        {
+          "id": "pessanka",
+          "nome": "Pêssanka",
+          "descricao": "Ovo de Páscoa ucraniano decorado com desenhos tradicionais pela técnica de reserva com cera.",
+          "variantes": [
+            "Pysanka"
+          ]
+        },
+        {
+          "id": "jack_skellington",
+          "nome": "Jack Skellington",
+          "descricao": "Esqueleto de terno listrado, o Rei das Abóboras de O Estranho Mundo de Jack, de Tim Burton e Henry Selick.",
+          "variantes": [
+            "Jack Esqueleto",
+            "Rei das Abóboras"
+          ]
+        },
+        {
+          "id": "skeleton",
+          "nome": "Skeleton",
+          "descricao": "Esporte olímpico de inverno em que um atleta desce uma pista de gelo de bruços e de cabeça num pequeno trenó.",
+          "variantes": [
+            "Skeleton (esporte)"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Planta Phaseolus vulgaris; Cloud Gate é escultura, outras são plantas distintas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Camélia é arbusto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Beladona é planta venenosa; candidatas são entidades diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Conífera Wollemia nobilis; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "framboesa",
+      "motivo": "Mesmo fruto Rubus (framboesa/raspberry)."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Gardênia é planta; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "mirtilo",
+      "motivo": "Mesmo fruto Vaccinium, blueberry."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "rambuta",
+      "motivo": "Mesmo fruto Nephelium lappaceum."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Planta Diphylleia grayi; nenhuma candidata corresponde."
+    }
+  ]
+}

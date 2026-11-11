@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta; os trechos confirmam que o feijão produz sementes em vagens. O enunciado não nomeia nem entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie é nativa da China e do Japão. A pista ajuda sem entregar a resposta, porque muitas flores têm essa origem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a beladona é tóxica. Os distratores são plausíveis e visualmente parecidos, e a foto distingue a resposta. O enunciado não vaza o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A araucária-de-norfolk vem de um território australiano e é uma conífera, então pode ser defendida como resposta a 'conífera australiana'. A cicas nem é conífera. Troquei os distratores por coníferas parecidas e não australianas.",
+      "reescrita": {
+        "pergunta": "Que conífera australiana é esta?",
+        "resposta": "Pinheiro-de-wollemi",
+        "distratores": [
+          "Araucária-do-chile",
+          "Pinheiro-do-Paraná",
+          "Sequoia-gigante"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A flor-de-laranjeira também é branca e perfumada e vem de uma árvore, não de um arbusto, então fica ambígua diante do enunciado. Troquei-a por um arbusto de flores brancas visualmente parecido.",
+      "reescrita": {
+        "pergunta": "Que arbusto de flores brancas e perfumadas é este?",
+        "resposta": "Gardênia",
+        "distratores": [
+          "Camélia-branca",
+          "Azaleia-branca",
+          "Hortênsia-branca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A resposta não é única. A digitoxina também é um glicosídeo cardíaco da dedaleira (os trechos citam digitoxina e digoxina), e a digoxina vem principalmente da Digitalis lanata. Além disso, 'remédio para o coração' não identifica a planta, e não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o rambutã é um fruto tropical do Sudeste Asiático. A pista não entrega a resposta, e os distratores são parecidos ou da mesma região, mas distinguíveis pela imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a planta é nativa do Japão e que é conhecida como flor-esqueleto. A pista 'japonesa' ajuda sem entregar, e os distratores são flores brancas de bosque críveis.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vagens longas e folhas em coração de feijão-trepador, claras na foto.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que planta são estas vagens?",
+      "resposta": "Feijão",
+      "ancora": {
+        "nome": "Feijão",
+        "descricao": "Planta leguminosa Phaseolus vulgaris, cujas sementes comestíveis crescem em vagens.",
+        "variantes": [
+          "Feijão-comum",
+          "Phaseolus vulgaris"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arbusto com flores vermelhas e folhas lustrosas, reconhecível como camélia.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que flor, nativa da China e do Japão, aparece nesta foto?",
+      "resposta": "Camélia",
+      "ancora": {
+        "nome": "Camélia",
+        "descricao": "Arbusto ornamental Camellia japonica, da família do chá, de flores vistosas.",
+        "variantes": [
+          "Camellia japonica",
+          "Camélia-japonesa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Frutos pretos brilhantes com cálice em estrela, característicos da beladona.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que planta tóxica, de frutos escuros como estes, aparece na foto?",
+      "resposta": "Beladona",
+      "distratores": [
+        "Erva-moura",
+        "Jurubeba",
+        "Mandrágora"
+      ],
+      "ancora": {
+        "nome": "Beladona",
+        "descricao": "Planta venenosa Atropa belladonna, da família das solanáceas, de bagas pretas brilhantes.",
+        "variantes": [
+          "Atropa belladonna",
+          "Atropa bella-donna"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Há uma placa legível na imagem com o nome em inglês (leeks), que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem traz o texto 'Zinnia seeds' e está duplicada; além disso, sementes isoladas não são reconhecíveis."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Folhagem achatada em leque de pinheiro-de-wollemi jovem, sem texto; distintiva entre as coníferas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que conífera australiana é esta?",
+      "resposta": "Pinheiro-de-wollemi",
+      "distratores": [
+        "Araucária-de-norfolk",
+        "Pinheiro-do-Paraná",
+        "Cicas"
+      ],
+      "ancora": {
+        "nome": "Pinheiro-de-wollemi",
+        "descricao": "Conífera Wollemia nobilis, da família Araucariaceae, descoberta em 1994 na Austrália.",
+        "variantes": [
+          "Wollemia nobilis",
+          "Wollemi pine"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Close claro de framboesas, inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Framboesa",
+      "ancora": {
+        "nome": "Framboesa",
+        "descricao": "Fruto vermelho e composto de plantas do gênero Rubus, da família das rosáceas.",
+        "variantes": [
+          "Raspberry",
+          "Rubus idaeus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Arbusto de folhas brilhantes e flores brancas de gardênia, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que arbusto de flores brancas e perfumadas é este?",
+      "resposta": "Gardênia",
+      "distratores": [
+        "Camélia-branca",
+        "Azaleia-branca",
+        "Flor-de-laranjeira"
+      ],
+      "ancora": {
+        "nome": "Gardênia",
+        "descricao": "Arbusto Gardenia jasminoides, da família do café, de flores brancas muito perfumadas.",
+        "variantes": [
+          "Gardenia jasminoides",
+          "Jasmim-do-cabo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Espigas de flores em sino rosa, típicas da dedaleira; permite ir além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que substância usada em remédios para o coração é extraída desta planta?",
+      "resposta": "Digoxina",
+      "ancora": {
+        "nome": "Dedaleira",
+        "descricao": "Planta tóxica Digitalis purpurea, de espigas de flores rosa em forma de sino, fonte da digoxina.",
+        "variantes": [
+          "Digitalis purpurea",
+          "Digital",
+          "Foxglove"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mirtilos numa tigela, claros e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Mirtilo",
+      "ancora": {
+        "nome": "Mirtilo",
+        "descricao": "Fruto azul-arroxeado de arbustos do gênero Vaccinium, nativo da América do Norte.",
+        "variantes": [
+          "Blueberry",
+          "Vaccinium"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Frutos vermelhos peludos pendurados na árvore, inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta tropical do Sudeste Asiático é esta?",
+      "resposta": "Rambutã",
+      "distratores": [
+        "Lichia",
+        "Pitaia",
+        "Mangostão"
+      ],
+      "ancora": {
+        "nome": "Rambutã",
+        "descricao": "Fruto tropical Nephelium lappaceum, de casca vermelha peluda e polpa branca.",
+        "variantes": [
+          "Rambutan",
+          "Nephelium lappaceum"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Folhas grandes recortadas e flores brancas de pétalas veiadas; reconhecível só por aficionados, por isso em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que flor de mata japonesa é esta?",
+      "resposta": "Flor-esqueleto",
+      "distratores": [
+        "Sanguinária",
+        "Anêmona-do-bosque",
+        "Trílio"
+      ],
+      "ancora": {
+        "nome": "Flor-esqueleto",
+        "descricao": "Planta Diphylleia grayi, do Japão, cujas pétalas brancas ficam translúcidas na chuva.",
+        "variantes": [
+          "Diphylleia grayi",
+          "Skeleton flower",
+          "Sankayō"
+        ]
+      }
+    }
+  ]
+}
