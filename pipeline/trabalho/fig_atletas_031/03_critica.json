@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem pista no enunciado. Felipão é apelido documentado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Ser campeão do US Open de 2000 identifica Safin sem a imagem, então a figura vira enfeite. O enunciado fica só com nacionalidade e esporte, e os distratores continuam válidos.",
+      "reescrita": {
+        "pergunta": "Que tenista russo é este?",
+        "resposta": "Marat Safin",
+        "distratores": [
+          "Yevgeny Kafelnikov",
+          "Nikolay Davydenko",
+          "Dmitry Tursunov"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nedvěd ficou fora da final de 2003 por suspensão, então 'grande estrela na final' não é literalmente verdadeiro. Também jogou na Lazio, o que ameaça a resposta única. A pergunta passa a ser sobre o clube em que se aposentou em 2009, sem vazar.",
+      "reescrita": {
+        "pergunta": "Este meio-campista checo se aposentou em dois mil e nove. Por qual clube italiano ele jogava nessa época?",
+        "resposta": "Juventus",
+        "distratores": [
+          "Inter de Milão",
+          "Roma",
+          "Parma"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Lyon foi o clube francês antes do Newcastle. Os distratores são clubes franceses críveis e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, com pista só de país e esporte e sem entregar o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A média de triplo-duplo nos anos 60 é o feito marcante de Robertson e entrega a resposta sem olhar a figura. O enunciado fica com época e posição. Troquei Baylor, que era ala, por um armador.",
+      "reescrita": {
+        "pergunta": "Que armador norte-americano que brilhou na NBA nos anos sessenta é este?",
+        "resposta": "Oscar Robertson",
+        "distratores": [
+          "Jerry West",
+          "Bob Cousy",
+          "Lenny Wilkens"
+        ]
+      }
+    }
+  ]
+}
