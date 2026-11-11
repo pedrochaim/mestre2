@@ -1,0 +1,1160 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "espinossauro",
+        "nome": "Espinossauro",
+        "descricao": "Gênero de grande dinossauro terópode semiaquático do Cretáceo do norte da África, com uma vela nas costas.",
+        "variantes": [
+          "Spinosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spinosaurus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Do focinho à ponta da cauda, qual destes dinossauros carnívoros era o mais comprido?",
+      "resposta": "Espinossauro",
+      "distratores": [
+        "Tiranossauro",
+        "Alossauro",
+        "Ceratossauro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spinosaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "espinossauro",
+        "nome": "Espinossauro",
+        "descricao": "Gênero de grande dinossauro terópode semiaquático do Cretáceo do norte da África, com uma vela nas costas.",
+        "variantes": [
+          "Spinosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spinosaurus"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A vela nas costas do espinossauro era formada por pele esticada sobre que estruturas do esqueleto?",
+      "resposta": "Espinhos longos das vértebras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spinosaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "quetzalcoatlus",
+        "nome": "Quetzalcoatlus",
+        "descricao": "Gênero de pterossauro gigante do fim do Cretáceo da América do Norte.",
+        "variantes": [
+          "Quetzalcoatlo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quetzalcoatlus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "De ponta a ponta das asas, qual destes répteis voadores da era dos dinossauros era o maior?",
+      "resposta": "Quetzalcoatlus",
+      "distratores": [
+        "Pteranodonte",
+        "Dimorfodonte",
+        "Ranforrinco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quetzalcoatlus",
+        "https://en.wikipedia.org/wiki/Pteranodon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Argentinossauro",
+        "descricao": "Gênero de dinossauro titanossauro gigante do Cretáceo Superior da Patagônia argentina, um dos maiores animais terrestres conhecidos.",
+        "variantes": [
+          "Argentinosaurus",
+          "Argentinosaurus huinculensis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Argentinosaurus",
+          "https://pt.wikipedia.org/wiki/Argentinosaurus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Se fossem colocados numa balança, qual destes dinossauros de pescoço longo pesaria mais?",
+      "resposta": "Argentinossauro",
+      "distratores": [
+        "Diplodoco",
+        "Braquiossauro",
+        "Brontossauro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Argentinosaurus",
+        "https://en.wikipedia.org/wiki/Brachiosaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "paraceraterio",
+        "nome": "Paraceratério",
+        "descricao": "Gênero de rinocerontóides sem chifre do Oligoceno, um dos maiores mamíferos terrestres.",
+        "variantes": [
+          "Paraceratherium",
+          "Indricotherium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paraceratherium"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estes mamíferos extintos, qual era o maior?",
+      "resposta": "Paraceratério",
+      "distratores": [
+        "Mamute-lanoso",
+        "Megatério",
+        "Rinoceronte-lanoso"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paraceratherium",
+        "https://en.wikipedia.org/wiki/Woolly_mammoth"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "triceratops",
+        "nome": "Tricerátops",
+        "descricao": "Gênero de dinossauro ceratopsídeo herbívoro do fim do Cretáceo da América do Norte, com três chifres e colar ósseo.",
+        "variantes": [
+          "Triceratops"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Triceratops"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Dos três chifres do tricerátops, qual era o mais curto?",
+      "resposta": "O do focinho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Triceratops"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "triceratops",
+        "nome": "Tricerátops",
+        "descricao": "Gênero de dinossauro ceratopsídeo herbívoro do fim do Cretáceo da América do Norte, com três chifres e colar ósseo.",
+        "variantes": [
+          "Triceratops"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Triceratops"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A boca do tricerátops terminava num bico afiado, usado para cortar plantas duras. Ele lembrava o bico de que ave?",
+      "resposta": "Papagaio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Triceratops"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "extincao_do_cretaceo_paleogeno",
+        "nome": "Extinção do Cretáceo-Paleogeno",
+        "descricao": "Extinção em massa ocorrida no fim do Cretáceo, que eliminou os dinossauros não avianos.",
+        "variantes": [
+          "Extinção K-Pg",
+          "Extinção K-T"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes grupos de répteis sobreviveu à extinção que encerrou o Cretáceo e chegou aos dias de hoje?",
+      "resposta": "Crocodilianos",
+      "distratores": [
+        "Pterossauros",
+        "Mosassauros",
+        "Plesiossauros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "carnotauro",
+        "nome": "Carnotauro",
+        "descricao": "Gênero de dinossauro terópode abelissaurídeo do Cretáceo Superior da Argentina, com dois chifres sobre os olhos.",
+        "variantes": [
+          "Carnotaurus",
+          "Carnotaurus sastrei"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carnotaurus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Em proporção ao tamanho do corpo, como eram os braços do carnotauro comparados aos do tiranossauro?",
+      "resposta": "Ainda mais curtos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carnotaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "carnotauro",
+        "nome": "Carnotauro",
+        "descricao": "Gênero de dinossauro terópode abelissaurídeo do Cretáceo Superior da Argentina, com dois chifres sobre os olhos.",
+        "variantes": [
+          "Carnotaurus",
+          "Carnotaurus sastrei"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carnotaurus"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome carnotauro, dado a um predador argentino, significa touro carnívoro. Que característica do animal inspirou a parte do touro?",
+      "resposta": "Os chifres sobre os olhos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carnotaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pocos_de_piche_de_la_brea",
+        "nome": "Poços de piche de La Brea",
+        "descricao": "Conjunto de poças naturais de asfalto em Los Angeles, rico em fósseis de animais da era do gelo.",
+        "variantes": [
+          "La Brea Tar Pits",
+          "Rancho La Brea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/La_Brea_Tar_Pits"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes animais da era do gelo deixou o maior número de fósseis nos poços de piche de La Brea, em Los Angeles?",
+      "resposta": "Lobo-terrível",
+      "distratores": [
+        "Smilodon",
+        "Mamute-colombiano",
+        "Bisão-antigo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/La_Brea_Tar_Pits",
+        "https://en.wikipedia.org/wiki/Dire_wolf"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "homem_de_neandertal",
+        "nome": "Homem de Neandertal",
+        "descricao": "Espécie humana extinta que viveu na Europa e na Ásia Ocidental até cerca de 40 mil anos atrás.",
+        "variantes": [
+          "Neandertal",
+          "Homo neanderthalensis",
+          "Neanderthal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neanderthal"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Em média, como era o cérebro dos neandertais comparado ao dos humanos modernos?",
+      "resposta": "Um pouco maior",
+      "distratores": [
+        "Bem menor",
+        "Metade do nosso",
+        "Exatamente igual"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Neanderthal"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "anquilossauro",
+        "nome": "Anquilossauro",
+        "descricao": "Gênero de dinossauro herbívoro encouraçado do fim do Cretáceo da América do Norte.",
+        "variantes": [
+          "Ankylosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ankylosaurus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Muitos animais pré-históricos são chamados de dinossauros por engano. Qual destes era, de fato, um dinossauro?",
+      "resposta": "Anquilossauro",
+      "distratores": [
+        "Pteranodonte",
+        "Mosassauro",
+        "Plesiossauro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ankylosaurus",
+        "https://en.wikipedia.org/wiki/Pterosaur",
+        "https://en.wikipedia.org/wiki/Mosasaur"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dinossauro",
+        "nome": "Dinossauro",
+        "descricao": "Grupo de répteis arcossauros que dominou os ambientes terrestres na Era Mesozoica e do qual descendem as aves.",
+        "variantes": [
+          "Dinosauria"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dinosaur"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Os dinossauros costumam ser divididos em dois grandes grupos, conforme o formato de que parte do esqueleto?",
+      "resposta": "Quadril (bacia)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saurischia",
+        "https://en.wikipedia.org/wiki/Ornithischia"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dinossauro",
+        "nome": "Dinossauro",
+        "descricao": "Grupo de répteis arcossauros que dominou os ambientes terrestres na Era Mesozoica e do qual descendem as aves.",
+        "variantes": [
+          "Dinosauria"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dinosaur"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Pela classificação atual, as aves são dinossauros. Elas fazem parte de que grupo, o mesmo do tiranossauro e do velociraptor?",
+      "resposta": "Terópodes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Theropoda",
+        "https://en.wikipedia.org/wiki/Origin_of_birds"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hipotese_de_alvarez",
+        "nome": "Hipótese de Alvarez",
+        "descricao": "Proposta de 1980 segundo a qual o impacto de um asteroide causou a extinção em massa do fim do Cretáceo.",
+        "variantes": [
+          "Alvarez hypothesis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alvarez_hypothesis"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A hipótese de Alvarez se apoiou numa fina camada de argila do fim do Cretáceo, rica em que elemento químico raro na crosta terrestre?",
+      "resposta": "Irídio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alvarez_hypothesis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "periodo_jurassico",
+        "nome": "Período Jurássico",
+        "descricao": "Período do meio da Era Mesozoica, de cerca de 201 a 145 milhões de anos atrás.",
+        "variantes": [
+          "Jurássico",
+          "Jurassic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jurassic"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Apesar do nome do filme famoso, poucos dinossauros de Jurassic Park viveram no Jurássico. Qual destes viveu nesse período?",
+      "resposta": "Braquiossauro",
+      "distratores": [
+        "Tiranossauro",
+        "Tricerátops",
+        "Velociraptor"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brachiosaurus",
+        "https://en.wikipedia.org/wiki/Jurassic"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "velociraptor",
+        "nome": "Velociraptor",
+        "descricao": "Gênero de pequeno dinossauro terópode dromeossaurídeo do Cretáceo Superior da Mongólia.",
+        "variantes": [
+          "Velocirraptor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Velociraptor"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Pequenas saliências encontradas num osso do antebraço do velociraptor mostram que ele tinha o quê presas aos braços?",
+      "resposta": "Penas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Velociraptor",
+        "https://en.wikipedia.org/wiki/Quill_knob"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "estegossauro",
+        "nome": "Estegossauro",
+        "descricao": "Gênero de dinossauro herbívoro do Jurássico Superior com placas nas costas e espinhos na cauda.",
+        "variantes": [
+          "Stegosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stegosaurus"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Uma ideia antiga, hoje descartada, dizia que o estegossauro tinha um segundo cérebro. Em que região do corpo ele ficaria?",
+      "resposta": "No quadril",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stegosaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "estegossauro",
+        "nome": "Estegossauro",
+        "descricao": "Gênero de dinossauro herbívoro do Jurássico Superior com placas nas costas e espinhos na cauda.",
+        "variantes": [
+          "Stegosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stegosaurus"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantos espinhos pontudos o estegossauro tinha na ponta da cauda?",
+      "resposta": "Quatro",
+      "distratores": [
+        "Dois",
+        "Seis",
+        "Oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stegosaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "archaeopteryx",
+        "nome": "Archaeopteryx",
+        "descricao": "Gênero de dinossauro com penas do Jurássico Superior, encontrado no calcário de Solnhofen, na Alemanha.",
+        "variantes": [
+          "Arqueopterix",
+          "Arqueópterix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Archaeopteryx"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Diferente das aves atuais, o Archaeopteryx tinha dedos separados nas asas. Em que esses dedos terminavam?",
+      "resposta": "Garras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Archaeopteryx"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mosassauro",
+        "nome": "Mosassauro",
+        "descricao": "Gênero de grande réptil marinho do fim do Cretáceo, cujo primeiro fóssil foi achado perto de Maastricht, na Holanda.",
+        "variantes": [
+          "Mosasaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mosasaurus"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Além dos dentes nas mandíbulas, os mosassauros tinham uma fileira extra de dentes em que lugar da boca?",
+      "resposta": "No céu da boca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mosasaur",
+        "https://en.wikipedia.org/wiki/Mosasaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "o_mundo_perdido",
+        "nome": "O Mundo Perdido",
+        "descricao": "Romance de 1912 de Arthur Conan Doyle sobre uma expedição que encontra dinossauros num planalto da América do Sul.",
+        "variantes": [
+          "The Lost World"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Lost_World_(Conan_Doyle_novel)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No fim do romance O Mundo Perdido, os exploradores levam a Londres um animal pré-histórico vivo, que acaba fugindo. Que animal é esse?",
+      "resposta": "Um pterodáctilo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Lost_World_(Conan_Doyle_novel)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jurassic_park_romance",
+        "nome": "Jurassic Park (romance)",
+        "descricao": "Romance de ficção científica publicado em 1990 sobre um parque de dinossauros recriados a partir de DNA, que deu origem ao filme de 1993.",
+        "variantes": [
+          "Jurassic Park",
+          "O Parque dos Dinossauros"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jurassic_Park_(novel)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Jurassic Park, as falhas no DNA dos dinossauros recriados foram preenchidas com DNA de que animal atual?",
+      "resposta": "Rã",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jurassic_Park_(novel)",
+        "https://en.wikipedia.org/wiki/Jurassic_Park_(film)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jurassic_park_romance",
+        "nome": "Jurassic Park (romance)",
+        "descricao": "Romance de ficção científica publicado em 1990 sobre um parque de dinossauros recriados a partir de DNA, que deu origem ao filme de 1993.",
+        "variantes": [
+          "Jurassic Park",
+          "O Parque dos Dinossauros"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jurassic_Park_(novel)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Jurassic Park, o parque dos dinossauros fica numa ilha fictícia no oceano Pacífico, perto da costa de que país?",
+      "resposta": "Costa Rica",
+      "distratores": [
+        "Panamá",
+        "Honduras",
+        "Nicarágua"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isla_Nublar",
+        "https://en.wikipedia.org/wiki/Jurassic_Park_(novel)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "parassaurolofo",
+        "nome": "Parassaurolofo",
+        "descricao": "Gênero de dinossauro hadrossaurídeo de bico de pato, com crista tubular no crânio, do Cretáceo Superior da América do Norte.",
+        "variantes": [
+          "Parasaurolophus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Parasaurolophus"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A longa crista oca do parassaurolofo era percorrida por tubos ligados a que parte da cabeça?",
+      "resposta": "Às narinas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Parasaurolophus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hallucigenia",
+        "nome": "Hallucigenia",
+        "descricao": "Gênero de lobópode do Cambriano, conhecido do Folhelho de Burgess.",
+        "variantes": [
+          "Halucigênia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hallucigenia"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na primeira reconstrução da Hallucigenia, que a desenhou de cabeça para baixo, os espinhos das costas foram tomados por quê?",
+      "resposta": "Pernas",
+      "distratores": [
+        "Antenas",
+        "Nadadeiras",
+        "Brânquias"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hallucigenia"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tiranossauro",
+        "nome": "Tiranossauro",
+        "descricao": "Gênero de grande dinossauro terópode carnívoro do fim do Cretáceo da América do Norte.",
+        "variantes": [
+          "Tyrannosaurus",
+          "Tiranossauro rex",
+          "T. rex"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tyrannosaurus"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Pelo tamanho enorme da região do cérebro ligada a esse sentido, cientistas concluem que o tiranossauro tinha que sentido muito apurado?",
+      "resposta": "Olfato",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tyrannosaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "periodo_triassico",
+        "nome": "Período Triássico",
+        "descricao": "Primeiro período da Era Mesozoica, de cerca de 252 a 201 milhões de anos atrás, quando surgiram os dinossauros.",
+        "variantes": [
+          "Triássico",
+          "Triassic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Triassic"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No Triássico, quando surgiram os dinossauros, quase todas as terras do planeta estavam unidas num único supercontinente. Como ele se chama?",
+      "resposta": "Pangeia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Triassic",
+        "https://en.wikipedia.org/wiki/Pangaea"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "periodo_cretaceo",
+        "nome": "Período Cretáceo",
+        "descricao": "Último período da Era Mesozoica, de cerca de 145 a 66 milhões de anos atrás, encerrado pela extinção dos dinossauros não avianos.",
+        "variantes": [
+          "Cretáceo",
+          "Cretaceous"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cretaceous"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No Cretáceo, que grupo de plantas, hoje dominante, se diversificou e se espalhou pelo planeta, mudando as paisagens da era dos dinossauros?",
+      "resposta": "Plantas com flores (angiospermas)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cretaceous",
+        "https://en.wikipedia.org/wiki/Flowering_plant"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ictiossauro",
+        "nome": "Ictiossauro",
+        "descricao": "Grupo extinto de répteis marinhos da Era Mesozoica, com corpo hidrodinâmico semelhante ao de golfinhos.",
+        "variantes": [
+          "Ichthyosaurus",
+          "Ictiossauros"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ichthyosaur"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Fósseis de fêmeas com embriões dentro do corpo revelaram como os ictiossauros se reproduziam. De que forma?",
+      "resposta": "Davam à luz filhotes vivos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ichthyosaur"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tigre_da_tasmania",
+        "nome": "Tigre-da-tasmânia",
+        "descricao": "Marsupial carnívoro extinto, de listras nas costas, nativo da Tasmânia, da Austrália continental e da Nova Guiné.",
+        "variantes": [
+          "Tilacino",
+          "Thylacinus cynocephalus",
+          "Lobo-da-tasmânia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thylacine"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Num traço raro entre os marsupiais, no tigre-da-tasmânia até os machos tinham uma estrutura típica das fêmeas. Qual?",
+      "resposta": "Bolsa marsupial",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thylacine"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "microraptor",
+        "nome": "Microraptor",
+        "descricao": "Gênero de pequeno dinossauro dromeossaurídeo do Cretáceo Inferior da China, com penas de voo nos braços e nas pernas.",
+        "variantes": [
+          "Microraptor gui",
+          "Microraptor zhaoianus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microraptor"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em 2012, a análise dos pigmentos preservados nas penas fósseis revelou a cor do Microraptor. Como era sua plumagem?",
+      "resposta": "Preta e iridescente",
+      "distratores": [
+        "Vermelha e laranja",
+        "Verde-clara",
+        "Branca com manchas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Microraptor"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "trilobita",
+        "nome": "Trilobita",
+        "descricao": "Classe extinta de artrópodes marinhos que viveu do Cambriano ao Permiano.",
+        "variantes": [
+          "Trilobitas",
+          "Trilobite"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trilobite"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Para se proteger, muitos trilobitas faziam como o tatuzinho-de-jardim. O que eles faziam?",
+      "resposta": "Enrolavam-se como uma bola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trilobite"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chapada_do_araripe",
+        "nome": "Chapada do Araripe",
+        "descricao": "Planalto do Nordeste brasileiro, famoso por fósseis do Cretáceo, como peixes e pterossauros.",
+        "variantes": [
+          "Araripe"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chapada_do_Araripe"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Muitos peixes fósseis da Chapada do Araripe saem da rocha em três dimensões, guardados dentro de quê?",
+      "resposta": "Nódulos de calcário",
+      "distratores": [
+        "Blocos de âmbar",
+        "Camadas de carvão",
+        "Poças de piche"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Santana_Formation",
+        "https://pt.wikipedia.org/wiki/Chapada_do_Araripe"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mamute_lanoso",
+        "nome": "Mamute-lanoso",
+        "descricao": "Espécie extinta de mamute coberto de pelos que viveu nas regiões frias da Eurásia e da América do Norte.",
+        "variantes": [
+          "Mammuthus primigenius",
+          "Mamute"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Woolly_mammoth"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Estudos de DNA indicam que o parente vivo mais próximo do mamute-lanoso é qual animal?",
+      "resposta": "Elefante-asiático",
+      "distratores": [
+        "Elefante-africano",
+        "Peixe-boi",
+        "Rinoceronte-branco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Woolly_mammoth"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mamute_lanoso",
+        "nome": "Mamute-lanoso",
+        "descricao": "Espécie extinta de mamute coberto de pelos que viveu nas regiões frias da Eurásia e da América do Norte.",
+        "variantes": [
+          "Mammuthus primigenius",
+          "Mamute"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Woolly_mammoth"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que as orelhas do mamute-lanoso eram bem menores que as dos elefantes atuais?",
+      "resposta": "Para perder menos calor no frio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Woolly_mammoth"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "irritator",
+        "nome": "Irritator",
+        "descricao": "Gênero de dinossauro espinossaurídeo do Cretáceo Inferior encontrado na Chapada do Araripe, no Ceará.",
+        "variantes": [
+          "Irritator challengeri"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Irritator"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O nome da espécie do dinossauro cearense Irritator homenageia um personagem criado por Arthur Conan Doyle. Que personagem?",
+      "resposta": "Professor Challenger",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Irritator"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dodo",
+        "nome": "Dodô",
+        "descricao": "Ave não voadora extinta (Raphus cucullatus), endêmica da ilha Maurício, no Oceano Índico.",
+        "variantes": [
+          "Dodo",
+          "Raphus cucullatus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dodo"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Pesado e incapaz de voar, o dodô pertencia à mesma família de que aves muito comuns nas praças das cidades?",
+      "resposta": "Pombos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dodo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dimetrodonte",
+        "nome": "Dimetrodonte",
+        "descricao": "Gênero extinto de sinapsídeo do Permiano, com grande vela dorsal, não é dinossauro.",
+        "variantes": [
+          "Dimetrodon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dimetrodon"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Com sua vela nas costas, o dimetrodonte costuma ser confundido com um dinossauro. Na verdade, era parente mais próximo de que grupo?",
+      "resposta": "Mamíferos",
+      "distratores": [
+        "Dinossauros",
+        "Crocodilos",
+        "Lagartos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dimetrodon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "diprotodonte",
+        "nome": "Diprotodonte",
+        "descricao": "Gênero extinto do maior marsupial conhecido, do Pleistoceno da Austrália.",
+        "variantes": [
+          "Diprotodon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Diprotodon"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O diprotodonte, marsupial do tamanho de um hipopótamo que viveu na Austrália na era do gelo, tem como parentes vivos mais próximos quais animais?",
+      "resposta": "Vombates e coalas",
+      "distratores": [
+        "Cangurus e wallabies",
+        "Gambás e cuícas",
+        "Diabos-da-tasmânia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Diprotodon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "criolofossauro",
+        "nome": "Criolofossauro",
+        "descricao": "Grande dinossauro terópode de crista na testa, do Jurássico Inferior da Antártida.",
+        "variantes": [
+          "Cryolophosaurus",
+          "Cryolophosaurus ellioti"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cryolophosaurus"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por causa da crista na testa, parecida com um topete famoso, o criolofossauro da Antártida ganhou que apelido?",
+      "resposta": "Elvisaurus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cryolophosaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lucy",
+        "nome": "Lucy",
+        "descricao": "Esqueleto fóssil de Australopithecus afarensis com cerca de 3,2 milhões de anos, achado em Hadar, na Etiópia, em 1974.",
+        "variantes": [
+          "AL 288-1",
+          "Dinkinesh"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em 1974, na Etiópia, o fóssil Lucy ganhou esse apelido por causa de uma música tocada no acampamento dos cientistas. De que banda?",
+      "resposta": "Beatles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "arau_gigante",
+        "nome": "Arau-gigante",
+        "descricao": "Ave marinha não voadora do Atlântico Norte (Pinguinus impennis), extinta em 1844.",
+        "variantes": [
+          "Pinguinus impennis",
+          "Great auk"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_auk"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Antes de designar as aves do hemisfério sul, a palavra pinguim era usada para que ave do Atlântico Norte, extinta no século dezenove?",
+      "resposta": "Arau-gigante",
+      "distratores": [
+        "Pato-do-labrador",
+        "Dodô",
+        "Pombo-passageiro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_auk"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "megaterio",
+        "nome": "Megatério",
+        "descricao": "Gênero extinto de preguiça-terrestre gigante que viveu na América do Sul até o fim do Pleistoceno.",
+        "variantes": [
+          "Megatherium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Megatherium"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome megatério, dado pelo naturalista francês Georges Cuvier à preguiça gigante sul-americana, significa o quê?",
+      "resposta": "Grande besta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Megatherium"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cratera_de_chicxulub",
+        "nome": "Cratera de Chicxulub",
+        "descricao": "Cratera de impacto soterrada no México, associada à extinção em massa do fim do Cretáceo.",
+        "variantes": [
+          "Chicxulub crater"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chicxulub_crater"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A cratera de Chicxulub, deixada pelo asteroide que extinguiu os dinossauros, tem cerca de quantos quilômetros de diâmetro?",
+      "resposta": "Cento e oitenta",
+      "distratores": [
+        "Dezoito",
+        "Quarenta",
+        "Mil e oitocentos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chicxulub_crater"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "elasmossauro",
+        "nome": "Elasmossauro",
+        "descricao": "Gênero de plesiossauro de pescoço extremamente longo do Cretáceo Superior da América do Norte, descrito por Edward Cope em 1868.",
+        "variantes": [
+          "Elasmosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elasmosaurus"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O pescoço do elasmossauro, réptil marinho do Cretáceo, era formado por cerca de quantas vértebras?",
+      "resposta": "Setenta e duas",
+      "distratores": [
+        "Doze",
+        "Vinte e cinco",
+        "Cento e cinquenta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elasmosaurus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "datacao_por_radiocarbono",
+        "nome": "Datação por radiocarbono",
+        "descricao": "Método de datação de material orgânico baseado no decaimento do isótopo carbono-14.",
+        "variantes": [
+          "Datação por carbono-14",
+          "Carbono-14"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Radiocarbon_dating"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A datação por radiocarbono se baseia no carbono quatorze, que perde metade de sua quantidade a cada quantos anos, aproximadamente?",
+      "resposta": "Cinco mil setecentos e trinta",
+      "distratores": [
+        "Quinhentos e setenta",
+        "Cinquenta mil",
+        "Um milhão"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Radiocarbon_dating",
+        "https://en.wikipedia.org/wiki/Carbon-14"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "smilodon",
+        "nome": "Smilodon",
+        "descricao": "Gênero extinto de felino dentes-de-sabre das Américas, que viveu até o fim da última era do gelo.",
+        "variantes": [
+          "Tigre-dentes-de-sabre",
+          "Dentes-de-sabre"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Smilodon"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Smilodon populator, a maior espécie de tigre-dentes-de-sabre, vivia em que região das Américas?",
+      "resposta": "América do Sul",
+      "distratores": [
+        "América do Norte",
+        "América Central",
+        "Caribe"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Smilodon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "alossauro",
+        "nome": "Alossauro",
+        "descricao": "Gênero de dinossauro terópode carnívoro do Jurássico Superior, conhecido sobretudo da América do Norte.",
+        "variantes": [
+          "Allosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Allosaurus"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Um osso da cauda de um alossauro tem um furo que se encaixa perfeitamente no espinho da cauda de um herbívoro. Que dinossauro causou o ferimento?",
+      "resposta": "Estegossauro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Allosaurus"
+      ]
+    }
+  ]
+}

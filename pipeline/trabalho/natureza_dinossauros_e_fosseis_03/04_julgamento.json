@@ -1,0 +1,67 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Argentinossauro",
+        "descricao": "Gênero de dinossauro titanossauro gigante do Cretáceo Superior da Patagônia argentina, um dos maiores animais terrestres conhecidos.",
+        "variantes": [
+          "Argentinosaurus",
+          "Argentinosaurus huinculensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edmontossauro",
+          "nome": "Edmontossauro",
+          "descricao": "Gênero de dinossauro hadrossaurídeo (bico de pato) do Cretáceo Superior da América do Norte.",
+          "variantes": [
+            "Edmontosaurus",
+            "Anatotitan",
+            "Anatossauro"
+          ]
+        },
+        {
+          "id": "argentina",
+          "nome": "Argentina",
+          "descricao": "País da América do Sul cuja capital é Buenos Aires.",
+          "variantes": [
+            "República Argentina"
+          ]
+        },
+        {
+          "id": "selecao_argentina_de_futebol",
+          "nome": "Seleção Argentina de Futebol",
+          "descricao": "Seleção masculina de futebol da Argentina, a Albiceleste.",
+          "variantes": [
+            "Argentina",
+            "Albiceleste"
+          ]
+        },
+        {
+          "id": "brontossauro",
+          "nome": "Brontossauro",
+          "descricao": "Gênero de dinossauro saurópode de pescoço longo do Jurássico Superior da América do Norte, batizado em 1879.",
+          "variantes": [
+            "Brontosaurus"
+          ]
+        },
+        {
+          "id": "espinossauro",
+          "nome": "Espinossauro",
+          "descricao": "Gênero de grande dinossauro terópode semiaquático do Cretáceo do norte da África, com uma vela nas costas.",
+          "variantes": [
+            "Spinosaurus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Argentinossauro é um gênero distinto de dinossauro; nenhuma candidata é a mesma entidade (as demais são outros dinossauros, o país ou a seleção)."
+    }
+  ]
+}
