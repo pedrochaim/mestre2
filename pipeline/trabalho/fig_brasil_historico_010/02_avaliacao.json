@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Este arquiteto brasileiro colaborou no projeto da sede de qual organização internacional, em Nova York?",
+      "tipo": "multipla",
+      "resposta": "ONU (Nações Unidas)",
+      "distratores": [
+        "Banco Mundial",
+        "Fundo Monetário Internacional",
+        "Cruz Vermelha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Oscar Niemeyer",
+        "descricao": "Arquiteto brasileiro (1907–2012), autor dos principais edifícios de Brasília.",
+        "variantes": [
+          "Oscar Ribeiro de Almeida Niemeyer Soares Filho"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato pintado, sem texto, de figura pública histórica.",
+      "familia": "quando",
+      "nivel": 1,
+      "pergunta": "Em que ano esta rainha de Portugal subiu ao trono?",
+      "tipo": "multipla",
+      "resposta": "1777",
+      "distratores": [
+        "1750",
+        "1769",
+        "1789"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dona Maria I",
+        "descricao": "Rainha de Portugal de 1777 a 1816, primeira monarca do Brasil, conhecida como Maria, a Louca.",
+        "variantes": [
+          "Maria I de Portugal",
+          "Maria, a Louca",
+          "Maria, a Piedosa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A pintura traz uma assinatura/legenda legível no canto inferior esquerdo (A. F. Camarão), que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica de um grupo com trajes característicos do cangaço (chapéus de couro), sem texto; assunto único.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que grupo do sertão nordestino aparece nesta foto?",
+      "tipo": "multipla",
+      "resposta": "Cangaço (cangaceiros)",
+      "distratores": [
+        "Jagunços",
+        "Bandeirantes",
+        "Farroupilhas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cangaço",
+        "descricao": "Fenômeno de banditismo itinerante no sertão do Nordeste brasileiro entre o século XIX e meados do XX, associado a Lampião.",
+        "variantes": [
+          "Cangaceiros"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida do palácio, sem texto, com arquitetura característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que palácio carioca é este?",
+      "tipo": "multipla",
+      "resposta": "Palácio Guanabara",
+      "distratores": [
+        "Palácio Laranjeiras",
+        "Palácio do Catete",
+        "Palácio Tiradentes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palácio Guanabara",
+        "descricao": "Sede do governo do estado do Rio de Janeiro, no bairro de Laranjeiras, antigo Paço Isabel.",
+        "variantes": [
+          "Paço Isabel",
+          "Guanabara Palace"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto em preto e branco de um político pouco conhecido, sem elementos que permitam reconhecê-lo; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido e reconhecível de figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Quem é este ativista brasileiro do século vinte?",
+      "tipo": "multipla",
+      "resposta": "Chico Mendes",
+      "distratores": [
+        "Herbert de Souza",
+        "Francisco Julião",
+        "Plínio de Arruda Sampaio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chico Mendes",
+        "descricao": "Seringueiro, sindicalista e ambientalista brasileiro assassinado em 1988.",
+        "variantes": [
+          "Francisco Alves Mendes Filho"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Aquarela de casal indígena com abacaxi e tartaruga, sem identificação clara; não é possível garantir que seja Tupinambá, e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura de retrato com cenário de guerra ao fundo, sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "pergunta": "Esta enfermeira brasileira atuou como voluntária em qual guerra?",
+      "tipo": "multipla",
+      "resposta": "Guerra do Paraguai",
+      "distratores": [
+        "Guerra de Canudos",
+        "Guerra dos Farrapos",
+        "Guerra da Cisplatina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ana Néri",
+        "descricao": "Enfermeira brasileira do século XIX, considerada a primeira do país, voluntária na Guerra do Paraguai.",
+        "variantes": [
+          "Ana Justina Ferreira Néri"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, não fica legível num celular e o retrato não permite reconhecer o político."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto do Monumento às Bandeiras, sem texto, reconhecível pelo conjunto escultórico; a âncora é o monumento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que monumento de São Paulo é este?",
+      "tipo": "multipla",
+      "resposta": "Monumento às Bandeiras",
+      "distratores": [
+        "Monumento à Independência",
+        "Monumento aos Pracinhas",
+        "Obelisco da Constituição"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monumento às Bandeiras",
+        "descricao": "Conjunto escultórico de Victor Brecheret, no Parque Ibirapuera, em São Paulo, em homenagem aos bandeirantes.",
+        "variantes": [
+          "Monumento a las Bandeiras",
+          "Bandeirantes (monumento)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto aérea clara do forte na ponta de Copacabana, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "pergunta": "Que museu funciona dentro deste forte?",
+      "tipo": "multipla",
+      "resposta": "Museu Histórico do Exército",
+      "distratores": [
+        "Museu Naval",
+        "Museu Histórico Nacional",
+        "Museu da Aeronáutica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Forte de Copacabana",
+        "descricao": "Fortificação militar na ponta sul da praia de Copacabana, no Rio de Janeiro, que abriga o Museu Histórico do Exército.",
+        "variantes": [
+          "Fort Copacabana"
+        ]
+      }
+    }
+  ]
+}

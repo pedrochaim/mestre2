@@ -1,0 +1,158 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este arquiteto brasileiro colaborou no projeto da sede de qual organização internacional, em Nova York?",
+        "resposta": "ONU (Nações Unidas)"
+      },
+      "existentes": [
+        {
+          "id": "q17303",
+          "pergunta": "Em que ano morreu este arquiteto brasileiro?",
+          "resposta": "2012"
+        },
+        {
+          "id": "q18976",
+          "pergunta": "Niemeyer escreveu que não o atraía o ângulo reto, e sim algo que ele encontrava nas montanhas, nos rios e no corpo da mulher. O quê?",
+          "resposta": "A curva"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que palácio carioca é este?",
+        "resposta": "Palácio Guanabara"
+      },
+      "existentes": [
+        {
+          "id": "q19959",
+          "pergunta": "Que palácio do Rio de Janeiro é este?",
+          "resposta": "Palácio Guanabara"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é este ativista brasileiro do século vinte?",
+        "resposta": "Chico Mendes"
+      },
+      "existentes": [
+        {
+          "id": "q05456",
+          "pergunta": "Em dezembro de 1988, o líder seringueiro Chico Mendes foi assassinado em sua casa, em que cidade do Acre?",
+          "resposta": "Xapuri"
+        },
+        {
+          "id": "q17777",
+          "pergunta": "Em 1987, Chico Mendes recebeu um prêmio ambiental da ONU chamado Global e mais que número?",
+          "resposta": "Quinhentos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Esta enfermeira brasileira atuou como voluntária em qual guerra?",
+        "resposta": "Guerra do Paraguai"
+      },
+      "existentes": [
+        {
+          "id": "q06310",
+          "pergunta": "A baiana Ana Néri, patrona da enfermagem brasileira, cuidou de soldados feridos durante qual guerra do século dezenove?",
+          "resposta": "Guerra do Paraguai"
+        },
+        {
+          "id": "q20340",
+          "pergunta": "Já viúva e com cerca de cinquenta anos, Ana Néri se ofereceu como voluntária na Guerra do Paraguai para ficar perto de quem?",
+          "resposta": "Dos filhos, convocados para a guerra"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que monumento de São Paulo é este?",
+        "resposta": "Monumento às Bandeiras"
+      },
+      "existentes": [
+        {
+          "id": "q03964",
+          "pergunta": "Que escultor, que expôs na Semana de Arte Moderna de 1922, criou o Monumento às Bandeiras, de granito, junto ao Parque Ibirapuera?",
+          "resposta": "Victor Brecheret"
+        },
+        {
+          "id": "q03965",
+          "pergunta": "Por causa das figuras que fazem força para arrastar uma canoa, o Monumento às Bandeiras, em São Paulo, ganhou que apelido popular?",
+          "resposta": "Empurra-empurra"
+        },
+        {
+          "id": "q16438",
+          "pergunta": "Que monumento é este?",
+          "resposta": "Monumento às Bandeiras"
+        },
+        {
+          "id": "q18529",
+          "pergunta": "Em que década foi concluído este monumento, que homenageia expedições de desbravamento do interior?",
+          "resposta": "Década de 1950"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que museu funciona dentro deste forte?",
+        "resposta": "Museu Histórico do Exército"
+      },
+      "existentes": [
+        {
+          "id": "q16895",
+          "pergunta": "Que construção é esta, na ponta da praia?",
+          "resposta": "Forte de Copacabana"
+        },
+        {
+          "id": "q19409",
+          "pergunta": "Em que cidade fica este forte?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a ONU em Nova York, fato diferente de morte e curvas."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar o Palácio Guanabara, mesma resposta.",
+      "id_existente": "q19959"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar a pessoa é diferente de local da morte e prêmio; existentes revelam o nome no enunciado, não perguntam a identidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Pergunta a mesma guerra em que Ana Néri atuou, mesma resposta.",
+      "id_existente": "q06310"
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Identificar o Monumento às Bandeiras, mesma pergunta de q16438.",
+      "id_existente": "q16438"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Museu dentro do forte é fato diferente de identificação do forte e da cidade."
+    }
+  ]
+}
