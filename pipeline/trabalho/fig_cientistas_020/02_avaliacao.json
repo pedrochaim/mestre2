@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, figura pública.",
+      "destino": 6,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que primatóloga americana é esta?",
+      "resposta": "Dian Fossey",
+      "distratores": [
+        "Jane Goodall",
+        "Birutė Galdikas",
+        "Margaret Mead"
+      ],
+      "ancora": {
+        "nome": "Dian Fossey",
+        "descricao": "Primatóloga americana que estudou gorilas-das-montanhas em Ruanda.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; ao fundo uma explosão e um reator, sem legenda.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que físico nascido na Hungria, naturalizado americano, é este?",
+      "resposta": "Edward Teller",
+      "ancora": {
+        "nome": "Edward Teller",
+        "descricao": "Físico teórico húngaro-americano, conhecido como o pai da bomba de hidrogênio.",
+        "variantes": [
+          "Teller Ede"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Gravura com o inventor, o tear e os cartões perfurados; sem texto.",
+      "destino": 5,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este francês do início do século dezenove deu nome a que máquina têxtil programável?",
+      "resposta": "Tear de Jacquard",
+      "ancora": {
+        "nome": "Joseph-Marie Jacquard",
+        "descricao": "Tecelão e inventor francês cujo nome é dado ao tear programável por cartões perfurados.",
+        "variantes": [
+          "Joseph Marie Jacquard"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "destino": 6,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que geneticista americano é este?",
+      "resposta": "Craig Venter",
+      "distratores": [
+        "Francis Collins",
+        "James Watson",
+        "Kary Mullis"
+      ],
+      "ancora": {
+        "nome": "Craig Venter",
+        "descricao": "Geneticista e empresário americano que liderou um dos primeiros rascunhos do genoma humano.",
+        "variantes": [
+          "J. Craig Venter",
+          "John Craig Venter"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fotografia de época nítida, sem texto.",
+      "destino": 6,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que biólogo inglês do século dezenove é este?",
+      "resposta": "Thomas Henry Huxley",
+      "ancora": {
+        "nome": "Thomas Henry Huxley",
+        "descricao": "Biólogo e anatomista inglês, defensor da teoria da evolução de Darwin.",
+        "variantes": [
+          "T. H. Huxley"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública brasileira.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cirurgião cardíaco brasileiro é este?",
+      "resposta": "Adib Jatene",
+      "distratores": [
+        "Euryclides Zerbini",
+        "Ivo Pitanguy",
+        "Vital Brazil"
+      ],
+      "ancora": {
+        "nome": "Adib Jatene",
+        "descricao": "Cirurgião torácico brasileiro, criador da cirurgia de troca arterial.",
+        "variantes": [
+          "Adib Domingos Jatene"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato a óleo sem texto; a lâmpada de segurança aparece ao lado.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que lâmpada de segurança para mineiros, vista ao lado deste químico britânico, leva o nome dele?",
+      "resposta": "Lâmpada de Davy",
+      "ancora": {
+        "nome": "Humphry Davy",
+        "descricao": "Químico britânico que isolou sódio e potássio e inventou a lâmpada de segurança para mineiros.",
+        "variantes": [
+          "Sir Humphry Davy"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Litografia pequena, mas legível e sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que matemático norueguês do século dezenove é este?",
+      "resposta": "Niels Henrik Abel",
+      "ancora": {
+        "nome": "Niels Henrik Abel",
+        "descricao": "Matemático norueguês que provou a impossibilidade de resolver a equação geral de quinto grau por radicais.",
+        "variantes": [
+          "Abel"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A placa na mesa traz o nome 'Dr. Dimas Tadeu Covas', o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O remendo do traje traz o nome 'HADFIELD' legível, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A legenda 'Jöns Jacob Berzelius.' aparece sob a gravura e entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto de palestra sem traço que permita reconhecer a pessoa pela imagem; a entidade não é reconhecível."
+    }
+  ]
+}

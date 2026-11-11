@@ -1,0 +1,452 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Dian Fossey",
+        "descricao": "Primatóloga americana que estudou gorilas-das-montanhas em Ruanda.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "dian_fossey",
+          "nome": "Dian Fossey",
+          "descricao": "Primatóloga e conservacionista americana que estudou os gorilas-da-montanha em Ruanda.",
+          "variantes": []
+        },
+        {
+          "id": "daniel_defoe",
+          "nome": "Daniel Defoe",
+          "descricao": "Escritor, jornalista e comerciante inglês, autor de Robinson Crusoé.",
+          "variantes": [
+            "Daniel Foe"
+          ]
+        },
+        {
+          "id": "dilma_rousseff",
+          "nome": "Dilma Rousseff",
+          "descricao": "Economista e política brasileira, primeira mulher presidente do Brasil, de 2011 a 2016.",
+          "variantes": [
+            "Dilma Vana Rousseff"
+          ]
+        },
+        {
+          "id": "draisiana",
+          "nome": "Draisiana",
+          "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
+          "variantes": [
+            "Dandy horse",
+            "Laufmaschine",
+            "Máquina de correr"
+          ]
+        },
+        {
+          "id": "go_afoss",
+          "nome": "Goðafoss",
+          "descricao": "Cachoeira em forma de ferradura no rio Skjálfandafljót, no norte da Islândia.",
+          "variantes": [
+            "Godafoss",
+            "Cachoeira dos Deuses"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Edward Teller",
+        "descricao": "Físico teórico húngaro-americano, conhecido como o pai da bomba de hidrogênio.",
+        "variantes": [
+          "Teller Ede"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edward_elric",
+          "nome": "Edward Elric",
+          "descricao": "Alquimista de braço e perna mecânicos, protagonista de Fullmetal Alchemist.",
+          "variantes": [
+            "Ed Elric",
+            "Fullmetal Alchemist (personagem)"
+          ]
+        },
+        {
+          "id": "leonhard_euler",
+          "nome": "Leonhard Euler",
+          "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+          "variantes": [
+            "Euler"
+          ]
+        },
+        {
+          "id": "telomero",
+          "nome": "Telômero",
+          "descricao": "Sequência repetitiva de DNA que protege as pontas dos cromossomos.",
+          "variantes": [
+            "Telomere"
+          ]
+        },
+        {
+          "id": "barba_branca",
+          "nome": "Barba Branca",
+          "descricao": "Edward Newgate, lendário capitão pirata dos Piratas do Barba Branca em One Piece, um dos Quatro Imperadores.",
+          "variantes": [
+            "Edward Newgate",
+            "Whitebeard"
+          ]
+        },
+        {
+          "id": "estreito_de_dardanelos",
+          "nome": "Estreito de Dardanelos",
+          "descricao": "Estreito no noroeste da Turquia que liga o Mar de Mármara ao Mar Egeu.",
+          "variantes": [
+            "Dardanelles",
+            "Estreito de Galípoli",
+            "Hellesponto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Joseph-Marie Jacquard",
+        "descricao": "Tecelão e inventor francês cujo nome é dado ao tear programável por cartões perfurados.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tear_de_jacquard",
+          "nome": "Tear de Jacquard",
+          "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos.",
+          "variantes": [
+            "Máquina de Jacquard",
+            "Jacquard loom"
+          ]
+        },
+        {
+          "id": "maurice_ravel",
+          "nome": "Maurice Ravel",
+          "descricao": "Compositor francês (1875–1937), autor de Boléro.",
+          "variantes": [
+            "Joseph Maurice Ravel"
+          ]
+        },
+        {
+          "id": "jose_de_alencar",
+          "nome": "José de Alencar",
+          "descricao": "Romancista, dramaturgo e político brasileiro do Romantismo, expoente do Indianismo.",
+          "variantes": [
+            "José Martiniano de Alencar"
+          ]
+        },
+        {
+          "id": "joseph_fourier",
+          "nome": "Joseph Fourier",
+          "descricao": "Matemático e físico francês criador das séries de Fourier e da análise de condução do calor.",
+          "variantes": [
+            "Jean-Baptiste Joseph Fourier"
+          ]
+        },
+        {
+          "id": "eca_de_queiros",
+          "nome": "Eça de Queirós",
+          "descricao": "Escritor português do século dezenove, maior nome do realismo em Portugal.",
+          "variantes": [
+            "Eça de Queiroz",
+            "José Maria de Eça de Queiroz"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Craig Venter",
+        "descricao": "Geneticista e empresário americano que liderou um dos primeiros rascunhos do genoma humano.",
+        "variantes": [
+          "J. Craig Venter",
+          "John Craig Venter"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cartas_zener",
+          "nome": "Cartas Zener",
+          "descricao": "Baralho de cinco símbolos (círculo, cruz, ondas, quadrado e estrela) usado em experimentos de percepção extrassensorial.",
+          "variantes": [
+            "Cartas de Zener",
+            "Zener cards",
+            "Cartas ESP"
+          ]
+        },
+        {
+          "id": "joao_calvino",
+          "nome": "João Calvino",
+          "descricao": "Teólogo francês do século dezesseis, líder da Reforma Protestante e fundador do calvinismo.",
+          "variantes": [
+            "Jean Calvin",
+            "John Calvin",
+            "Calvino"
+          ]
+        },
+        {
+          "id": "john_napier",
+          "nome": "John Napier",
+          "descricao": "Matemático escocês do século dezesseis e dezessete, descobridor dos logaritmos.",
+          "variantes": [
+            "John Neper",
+            "Napier de Merchiston"
+          ]
+        },
+        {
+          "id": "johnny_cage",
+          "nome": "Johnny Cage",
+          "descricao": "Ator e artista marcial de óculos escuros, lutador da série Mortal Kombat.",
+          "variantes": [
+            "Jonathan Carlton"
+          ]
+        },
+        {
+          "id": "abridor_de_latas",
+          "nome": "Abridor de latas",
+          "descricao": "Utensílio de cozinha usado para abrir latas de conserva.",
+          "variantes": [
+            "Can opener",
+            "Abre-latas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Thomas Henry Huxley",
+        "descricao": "Biólogo e anatomista inglês, defensor da teoria da evolução de Darwin.",
+        "variantes": [
+          "T. H. Huxley"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "thomas_henry_huxley",
+          "nome": "Thomas Henry Huxley",
+          "descricao": "Biólogo inglês do século dezenove, grande defensor público da teoria da evolução de Darwin.",
+          "variantes": [
+            "Thomas Huxley",
+            "T. H. Huxley",
+            "Buldogue de Darwin"
+          ]
+        },
+        {
+          "id": "bell_uh_1_iroquois",
+          "nome": "Bell UH-1 Iroquois",
+          "descricao": "Helicóptero militar utilitário da Bell Helicopter, apelidado Huey, primeiro helicóptero a turbina em serviço nos Estados Unidos.",
+          "variantes": [
+            "Helicóptero Bell UH-1 Huey",
+            "Huey",
+            "UH-1 Huey",
+            "Bell UH-1",
+            "Bell 204",
+            "Bell 205"
+          ]
+        },
+        {
+          "id": "tom_hanks",
+          "nome": "Tom Hanks",
+          "descricao": "Ator e cineasta americano, vencedor de dois Oscars de melhor ator.",
+          "variantes": [
+            "Thomas Jeffrey Hanks"
+          ]
+        },
+        {
+          "id": "hades_hercules",
+          "nome": "Hades (Hércules)",
+          "descricao": "Deus do mundo dos mortos e vilão do filme de animação Hércules, da Disney, de 1997.",
+          "variantes": [
+            "Hades",
+            "Hades da Disney"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Adib Jatene",
+        "descricao": "Cirurgião torácico brasileiro, criador da cirurgia de troca arterial.",
+        "variantes": [
+          "Adib Domingos Jatene"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_escola_de_atenas",
+          "nome": "A Escola de Atenas",
+          "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+          "variantes": [
+            "The School of Athens",
+            "Scuola di Atene",
+            "Escola de Atenas"
+          ]
+        },
+        {
+          "id": "saint_domingue",
+          "nome": "Saint-Domingue",
+          "descricao": "Colônia francesa no oeste da ilha de Hispaniola, de 1697 a 1804, que se tornou o Haiti independente.",
+          "variantes": [
+            "São Domingos francês",
+            "Pérola das Antilhas"
+          ]
+        },
+        {
+          "id": "o_ateneu",
+          "nome": "O Ateneu",
+          "descricao": "Romance de Raul Pompeia publicado em 1888, com as memórias do menino Sérgio sobre o colégio dirigido por Aristarco.",
+          "variantes": []
+        },
+        {
+          "id": "tabi",
+          "nome": "Tabi",
+          "descricao": "Meia tradicional japonesa com o dedão separado dos outros dedos, usada com calçados de tiras.",
+          "variantes": [
+            "Tabi japonês"
+          ]
+        },
+        {
+          "id": "comigo_ninguem_pode",
+          "nome": "Comigo-ninguém-pode",
+          "descricao": "Planta ornamental tóxica do gênero Dieffenbachia",
+          "variantes": [
+            "Dieffenbachia",
+            "dumb cane",
+            "aninga-do-pará"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Humphry Davy",
+        "descricao": "Químico britânico que isolou sódio e potássio e inventou a lâmpada de segurança para mineiros.",
+        "variantes": [
+          "Sir Humphry Davy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sanfona_de_roda",
+          "nome": "Sanfona de roda",
+          "descricao": "Instrumento de cordas friccionadas por uma roda girada com manivela e tocado por teclas.",
+          "variantes": [
+            "Hurdy-gurdy",
+            "Viela de roda",
+            "Sanfona"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Niels Henrik Abel",
+        "descricao": "Matemático norueguês que provou a impossibilidade de resolver a equação geral de quinto grau por radicais.",
+        "variantes": [
+          "Abel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_babel",
+          "nome": "Torre de Babel",
+          "descricao": "Torre narrada no livro do Gênesis, cuja história explica a diversidade das línguas",
+          "variantes": [
+            "Babel"
+          ]
+        },
+        {
+          "id": "academia_brasileira_de_letras",
+          "nome": "Academia Brasileira de Letras",
+          "descricao": "Instituição fundada no Rio de Janeiro em 1897 para cultivar a língua e a literatura nacionais",
+          "variantes": [
+            "ABL"
+          ]
+        },
+        {
+          "id": "decibel",
+          "nome": "Decibel",
+          "descricao": "Unidade logarítmica usada para medir o nível de intensidade sonora, décima parte do bel.",
+          "variantes": [
+            "dB",
+            "Decibel (unidade)",
+            "Bel"
+          ]
+        },
+        {
+          "id": "cheren_e_bianca",
+          "nome": "Cheren e Bianca",
+          "descricao": "Amigos de infância e rivais do protagonista em Pokémon Black e White, da região de Unova.",
+          "variantes": [
+            "Cheren",
+            "Bianca",
+            "Bel"
+          ]
+        },
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "dian_fossey",
+      "motivo": "Mesma primatóloga americana que estudou gorilas em Ruanda."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Edward Teller."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O inventor é distinto do tear que leva seu nome."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Craig Venter."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "thomas_henry_huxley",
+      "motivo": "Mesmo biólogo inglês defensor de Darwin."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Adib Jatene."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A única candidata é um instrumento musical, sem relação."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o matemático Abel."
+    }
+  ]
+}

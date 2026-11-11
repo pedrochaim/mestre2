@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primatóloga americana confirmada nos trechos. Distratores são do mesmo tipo e nenhum corresponde à imagem. O enunciado não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nascido na Hungria e naturalizado americano é verdadeiro. Vários físicos húngaro-americanos existem, então a pista não entrega o nome sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'francês que deu nome a máquina têxtil programável' entrega Jacquard, e a resposta pedida repete o sobrenome. A figura virou enfeite. Reescrito como reconhecimento do inventor, com pista só de país e época.",
+      "reescrita": {
+        "pergunta": "Que inventor francês do início do século dezenove é este?",
+        "resposta": "Joseph-Marie Jacquard",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Geneticista americano confirmado. Os distratores são do mesmo tipo e só se distinguem pela imagem. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Biólogo inglês do século dezenove é literalmente verdadeiro (1825 a 1895). A pista é ampla e a figura resolve.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jatene foi cirurgião cardíaco/torácico brasileiro. Distratores plausíveis, de mesma categoria ou próximos, e a imagem os distingue. Não há vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Lâmpada de segurança para mineiros que leva o nome do químico' entrega Davy sem ver a imagem, e a resposta repete o nome. Além disso, 'vista ao lado' supõe uma lâmpada na imagem, o que `mostra` não confirma. Reescrito como reconhecimento com pista de país e época.",
+      "reescrita": {
+        "pergunta": "Que químico britânico do início do século dezenove é este?",
+        "resposta": "Humphry Davy",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Matemático norueguês do século dezenove (1802 a 1829) confirmado. A pista não entrega o nome e a figura resolve.",
+      "reescrita": null
+    }
+  ]
+}

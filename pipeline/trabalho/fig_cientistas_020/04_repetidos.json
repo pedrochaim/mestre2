@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que primatóloga americana é esta?",
+        "resposta": "Dian Fossey"
+      },
+      "existentes": [
+        {
+          "id": "q15149",
+          "pergunta": "Em que país africano esta primatóloga americana fundou seu centro de pesquisa de campo?",
+          "resposta": "Ruanda"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que biólogo inglês do século dezenove é este?",
+        "resposta": "Thomas Henry Huxley"
+      },
+      "existentes": [
+        {
+          "id": "q02792",
+          "pergunta": "Por defender com unhas e dentes a teoria da evolução no século dezenove, o biólogo inglês Thomas Huxley ganhou que apelido?",
+          "resposta": "Buldogue de Darwin"
+        },
+        {
+          "id": "q07480",
+          "pergunta": "Que parentesco ligava o biólogo Thomas Huxley, defensor de Darwin, ao escritor Aldous Huxley, autor de Admirável Mundo Novo?",
+          "resposta": "Era seu avô"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade da primatóloga (Dian Fossey); a existente pede o país do centro de pesquisa (Ruanda). São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome do biólogo (Huxley). As existentes pedem o apelido e o parentesco com Aldous Huxley, que são outros fatos."
+    }
+  ]
+}
