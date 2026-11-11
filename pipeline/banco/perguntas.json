@@ -412116,5 +412116,50 @@
       "autor": "Autor desconhecido",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q20736",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "funil_de_buchner",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peça de laboratório é esta?",
+    "resposta": "Funil de Büchner",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/B%C3%BCchner_funnel",
+      "https://pt.wikipedia.org/wiki/Funil_de_B%C3%BCchner"
+    ],
+    "imagem": {
+      "arquivo": "q20736.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Embudo_Büchner.jpeg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20737",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "cadinho",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que recipiente de laboratório é este?",
+    "resposta": "Cadinho",
+    "distratores": [
+      "Almofariz",
+      "Béquer",
+      "Cápsula de porcelana"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crucible",
+      "https://pt.wikipedia.org/wiki/Cadinho"
+    ],
+    "imagem": {
+      "arquivo": "q20737.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Graphite_crucibles.jpg",
+      "autor": "Skatebiker (Wikimedia Commons)",
+      "licenca": "Public domain"
+    }
   }
 ]

@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de pé e tornozelo de pessoa comum; o calcanhar domina o quadro, então a região é ambígua (tornozelo ou calcanhar)."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Metal acinzentado sem traço reconhecível; o zinco não se distingue de outros metais pela imagem, e há um cubo de outro tipo junto."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Funil de porcelana sobre kitassato, bem visível; a marca na porcelana é ilegível.",
+      "pergunta": "Que peça de laboratório, de porcelana, é esta?",
+      "resposta": "Funil de Büchner",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Funil de Büchner",
+        "descricao": "Funil de laboratório, tradicionalmente de porcelana e com placa perfurada, usado em filtração a vácuo.",
+        "variantes": [
+          "Funil de Buchner",
+          "Buchner funnel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de coxa de pessoa comum em roupa íntima; as varizes são pouco nítidas."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cabochão polido dourado com listras sedosas, característico do olho-de-tigre, sem texto.",
+      "pergunta": "Que pedra semipreciosa, de brilho sedoso, é esta?",
+      "resposta": "Olho-de-tigre",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Olho-de-tigre",
+        "descricao": "Gema de quartzo com fibras de anfibólio alteradas, dourada a marrom-avermelhada e de brilho sedoso.",
+        "variantes": [
+          "Olho de tigre",
+          "Tiger's eye"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cristal tabular laranja-avermelhado típico da wulfenita; distratores de cor parecida tornam a pergunta justa.",
+      "pergunta": "Que mineral é este, de cristais tabulares laranja?",
+      "resposta": "Wulfenita",
+      "tipo": "multipla",
+      "distratores": [
+        "Crocoíta",
+        "Realgar",
+        "Vanadinita"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Wulfenita",
+        "descricao": "Mineral de molibdato de chumbo (PbMoO4), em cristais tabulares laranja-avermelhados a amarelos.",
+        "variantes": [
+          "Wulfenite"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cristal de gelo de seis braços, muito nítido e sem texto.",
+      "pergunta": "Quantos braços principais tem este cristal?",
+      "resposta": "Seis",
+      "tipo": "multipla",
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Oito"
+      ],
+      "familia": "que_parte",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Floco de neve",
+        "descricao": "Cristal de gelo único, grande o bastante para cair da atmosfera como neve, com simetria hexagonal.",
+        "variantes": [
+          "Snowflake",
+          "Cristal de neve"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Diagrama esquemático de corte de osso sem legenda; as camadas (osso, medula vermelha e amarela) deixam a resposta ambígua."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vários cadinhos de argila e grafite, claros e reconhecíveis; sem texto legível.",
+      "pergunta": "Que recipientes são estes?",
+      "resposta": "Cadinhos",
+      "tipo": "multipla",
+      "distratores": [
+        "Almofarizes",
+        "Béqueres",
+        "Cápsulas de porcelana"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Cadinho",
+        "descricao": "Recipiente resistente a altas temperaturas, usado para fundir metais ou aquecer substâncias.",
+        "variantes": [
+          "Crucible",
+          "Cadinhos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Rosto de pessoa comum em primeiro plano, e as espinhas são pouco nítidas."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Fragmento metálico pequeno e sem traço distintivo; o rádio não é reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pedaço de metal acinzentado em tubo, não reconhecível como neodímio; muitos metais têm o mesmo aspecto."
+    }
+  ]
+}

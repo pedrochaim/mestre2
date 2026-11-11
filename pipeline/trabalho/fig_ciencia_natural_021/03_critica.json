@@ -1,0 +1,50 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"De porcelana\" não é necessariamente verdadeiro para esta foto: o funil também existe em vidro e plástico, e porcelana também descreve outras peças. Tirei a pista de material para a pergunta valer para qualquer foto do funil.",
+      "reescrita": {
+        "pergunta": "Que peça de laboratório é esta?",
+        "resposta": "Funil de Büchner"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O brilho sedoso está nos trechos e não entrega o nome. A pergunta não passa no teste da imagem coberta sem a figura, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os cristais tabulares laranja estão nos trechos. A pista ajuda sem entregar a resposta, e os distratores são minerais laranja ou avermelhados, do mesmo tipo e sem formato tabular típico.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "É respondível sem a imagem, porque todo mundo sabe que o floco tem seis braços, então a figura vira enfeite. O enunciado também diz \"cristal\", que quase entrega a resposta. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O plural \"estes recipientes\" não bate com `mostra`, que descreve um único cadinho. Passei para o singular e deixei os distratores de laboratório no singular, no mesmo formato da resposta.",
+      "reescrita": {
+        "pergunta": "Que recipiente de laboratório é este?",
+        "resposta": "Cadinho",
+        "distratores": [
+          "Almofariz",
+          "Béquer",
+          "Cápsula de porcelana"
+        ]
+      }
+    }
+  ]
+}

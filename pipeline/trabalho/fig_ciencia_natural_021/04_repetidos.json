@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que pedra semipreciosa, de brilho sedoso, é esta?",
+        "resposta": "Olho-de-tigre"
+      },
+      "existentes": [
+        {
+          "id": "q14032",
+          "pergunta": "Que pedra semipreciosa, de brilho sedoso em faixas douradas, é esta?",
+          "resposta": "Olho-de-tigre"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que mineral é este, de cristais tabulares laranja?",
+        "resposta": "Wulfenita"
+      },
+      "existentes": [
+        {
+          "id": "q13944",
+          "pergunta": "Que mineral é este, de cristal tabular alaranjado?",
+          "resposta": "Wulfenita"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar a pedra pela imagem, mesma resposta (Olho-de-tigre); só muda o detalhe descritivo.",
+      "id_existente": "q14032"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar o mineral pela imagem, mesma resposta (Wulfenita); descrição apenas reformulada.",
+      "id_existente": "q13944"
+    }
+  ]
+}
