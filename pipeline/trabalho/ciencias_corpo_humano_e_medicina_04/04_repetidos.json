@@ -1,0 +1,864 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Para que o sangue corra sempre num só sentido, o coração humano tem quantas valvas?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q06329",
+          "pergunta": "O coração humano tem quatro cavidades. Duas são os átrios. Como se chamam as outras duas?",
+          "resposta": "Ventrículos"
+        },
+        {
+          "id": "q08160",
+          "pergunta": "Que órgão do corpo humano é representado neste esquema?",
+          "resposta": "Coração"
+        },
+        {
+          "id": "q11847",
+          "pergunta": "Das quatro cavidades do coração, qual tem a parede mais grossa, por bombear o sangue para o corpo inteiro?",
+          "resposta": "Ventrículo esquerdo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O pulmão direito é dividido em três lobos. Quantos lobos tem o esquerdo, que divide espaço com o coração?",
+        "resposta": "Dois"
+      },
+      "existentes": [
+        {
+          "id": "q04102",
+          "pergunta": "Que órgão do corpo humano aparece nesta imagem de tomografia?",
+          "resposta": "Pulmões"
+        },
+        {
+          "id": "q11849",
+          "pergunta": "Nos pulmões, o oxigênio passa para o sangue através de milhões de saquinhos microscópicos. Como eles se chamam?",
+          "resposta": "Alvéolos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Na parte baixa das costas ficam as vértebras lombares, as maiores e mais robustas da coluna. Quantas são elas?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q11854",
+          "pergunta": "Na base da coluna, algumas vértebras fundidas formam um pequeno osso que é o resquício de uma cauda. Como ele se chama?",
+          "resposta": "Cóccix"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Depois de sair da medula óssea, uma hemácia circula pelo corpo por quanto tempo, em média, antes de ser destruída?",
+        "resposta": "Cerca de 120 dias"
+      },
+      "existentes": [
+        {
+          "id": "q01863",
+          "pergunta": "Que tipo de célula é esta?",
+          "resposta": "Hemácia (glóbulo vermelho)"
+        },
+        {
+          "id": "q06302",
+          "pergunta": "Num adulto, as hemácias, que dão cor ao sangue, são fabricadas principalmente em que parte do corpo?",
+          "resposta": "Medula óssea vermelha"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Olhar para cima, para os lados ou girar o olho depende de pequenos músculos presos ao globo ocular. Quantos movem cada olho?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q01865",
+          "pergunta": "Que órgão do corpo humano é este?",
+          "resposta": "Olho"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Dos doze pares de costelas, os últimos não se prendem ao esterno e são chamados de costelas flutuantes. Quantos pares são?",
+        "resposta": "Dois pares"
+      },
+      "existentes": [
+        {
+          "id": "q04105",
+          "pergunta": "Que ossos do corpo humano estão destacados em cores nesta ilustração?",
+          "resposta": "Costelas"
+        },
+        {
+          "id": "q11881",
+          "pergunta": "Ao contrário de uma crença antiga, homens e mulheres têm o mesmo número de costelas. Quantos pares são?",
+          "resposta": "12 pares"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Os outros dedos da mão têm três falanges cada. Quantas falanges tem o polegar?",
+        "resposta": "Duas"
+      },
+      "existentes": [
+        {
+          "id": "q15320",
+          "pergunta": "Este dedo da mão corresponde a qual dedo do pé?",
+          "resposta": "Hálux (dedão do pé)"
+        },
+        {
+          "id": "q17241",
+          "pergunta": "Que dedo da mão é este?",
+          "resposta": "Polegar"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Somando todas as veias, artérias e o coração, um adulto de porte médio tem cerca de quantos litros de sangue?",
+        "resposta": "Cerca de cinco litros"
+      },
+      "existentes": [
+        {
+          "id": "q00620",
+          "pergunta": "A cor vermelha do sangue vem de uma proteína que contém ferro e transporta oxigênio. Qual é essa proteína?",
+          "resposta": "Hemoglobina"
+        },
+        {
+          "id": "q06328",
+          "pergunta": "Mais da metade do volume do sangue é formada por uma parte líquida e amarelada. Como ela se chama?",
+          "resposta": "Plasma"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O nome latino da clavícula, clavicula, significa 'pequena' qual objeto, usado para abrir fechaduras?",
+        "resposta": "Chave"
+      },
+      "existentes": [
+        {
+          "id": "q08157",
+          "pergunta": "Que osso aparece destacado em vermelho neste esqueleto?",
+          "resposta": "Clavícula"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O nome retina, a camada sensível à luz no fundo do olho, vem de um objeto de pescador em latim. Que objeto?",
+        "resposta": "Rede"
+      },
+      "existentes": [
+        {
+          "id": "q11850",
+          "pergunta": "Na retina, as células que distinguem as cores são os cones. Como se chamam as outras, que funcionam com pouca luz?",
+          "resposta": "Bastonetes"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Por ter forma de triângulo, o músculo que arredonda o ombro recebeu um nome derivado de qual letra grega?",
+        "resposta": "Delta"
+      },
+      "existentes": [
+        {
+          "id": "q14827",
+          "pergunta": "Que músculo aparece colorido em vermelho, verde e azul nesta figura?",
+          "resposta": "Deltoide"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A palavra grega que deu origem ao nome diabetes vem de um verbo que significa o quê?",
+        "resposta": "Passar através"
+      },
+      "existentes": [
+        {
+          "id": "q11865",
+          "pergunta": "Na expressão diabetes mellitus, a palavra latina mellitus registra uma antiga observação sobre a urina dos doentes. Que observação era essa?",
+          "resposta": "Era doce, como mel"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "A tuba uterina, que liga o ovário ao útero, também é chamada de trompa de qual anatomista italiano do século dezesseis?",
+        "resposta": "Falópio"
+      },
+      "existentes": [
+        {
+          "id": "q15872",
+          "pergunta": "Este corte ao microscópio mostra qual órgão do aparelho reprodutor feminino?",
+          "resposta": "Tuba uterina"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Por fazer rondas noturnas entre os soldados feridos na Guerra da Crimeia, Florence Nightingale ganhou qual apelido?",
+        "resposta": "A Dama da Lâmpada"
+      },
+      "existentes": [
+        {
+          "id": "q06216",
+          "pergunta": "Em que hospital de Londres funciona um museu dedicado a esta inglesa?",
+          "resposta": "Hospital St Thomas"
+        },
+        {
+          "id": "q07129",
+          "pergunta": "Quem é esta mulher inglesa do século dezenove?",
+          "resposta": "Florence Nightingale"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "A pandemia de gripe de 1918 provavelmente não surgiu na Espanha. Por que, então, ficou conhecida como gripe espanhola?",
+        "resposta": "A imprensa espanhola noticiou sem censura"
+      },
+      "existentes": [
+        {
+          "id": "q04360",
+          "pergunta": "Por que a pandemia de 1918 ficou conhecida como gripe espanhola?",
+          "resposta": "A imprensa espanhola noticiava sem censura"
+        },
+        {
+          "id": "q06315",
+          "pergunta": "A gripe espanhola, uma das pandemias mais mortais da história, espalhou-se pelo mundo no final de qual guerra?",
+          "resposta": "Primeira Guerra Mundial"
+        },
+        {
+          "id": "q09034",
+          "pergunta": "Eleito em 1918 para um segundo mandato, que ex-presidente brasileiro morreu em 1919, de gripe espanhola segundo a versão tradicional, sem tomar posse?",
+          "resposta": "Rodrigues Alves"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O símbolo da medicina tem uma só serpente, mas muitos o confundem com o caduceu, que tem duas serpentes e asas. De que deus grego é o caduceu?",
+        "resposta": "Hermes"
+      },
+      "existentes": [
+        {
+          "id": "q06341",
+          "pergunta": "O símbolo tradicional da medicina, um bastão com uma única serpente enrolada, pertence a qual deus grego da cura?",
+          "resposta": "Asclépio (Esculápio para os romanos)"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Indignado porque seu jovem assistente ficou de fora do Nobel de 1923, Frederick Banting dividiu com ele o dinheiro do prêmio. Quem era esse assistente?",
+        "resposta": "Charles Best"
+      },
+      "existentes": [
+        {
+          "id": "q16703",
+          "pergunta": "Que médico e cientista canadense é este?",
+          "resposta": "Frederick Banting"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "A placa de Petri, usada nos laboratórios para cultivar bactérias, foi criada por um assistente de qual microbiologista alemão?",
+        "resposta": "Robert Koch"
+      },
+      "existentes": [
+        {
+          "id": "q01040",
+          "pergunta": "Por seus estudos de que doença este médico alemão ganhou o Nobel de Medicina de 1905?",
+          "resposta": "Tuberculose"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Que famosa marca de enxaguante bucal homenageia, no próprio nome, o cirurgião britânico que levou a antissepsia às salas de cirurgia?",
+        "resposta": "Listerine"
+      },
+      "existentes": [
+        {
+          "id": "q06319",
+          "pergunta": "Na década de 1860, qual cirurgião britânico passou a desinfetar feridas e instrumentos com ácido fênico, reduzindo muito as mortes por infecção?",
+          "resposta": "Joseph Lister"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Em 2023, a húngara Katalin Karikó dividiu o Nobel de Medicina, pelas pesquisas com RNA mensageiro, com qual cientista americano?",
+        "resposta": "Drew Weissman"
+      },
+      "existentes": [
+        {
+          "id": "q18139",
+          "pergunta": "Que bioquímica húngara é esta?",
+          "resposta": "Katalin Karikó"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O sangue O negativo é chamado de doador universal. Qual tipo é o seu oposto, o receptor universal, que pode receber hemácias de todos?",
+        "resposta": "AB positivo"
+      },
+      "existentes": [
+        {
+          "id": "q11859",
+          "pergunta": "Por poder ser transfundido em quase todas as pessoas, qual tipo de sangue é chamado de doador universal?",
+          "resposta": "O negativo"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O que o antibiótico descoberto por Alexander Fleming e as veias azuladas do queijo roquefort têm em comum?",
+        "resposta": "Fungos do gênero Penicillium"
+      },
+      "existentes": [
+        {
+          "id": "q00635",
+          "pergunta": "Um bolor que contaminou placas de bactérias esquecidas levou qual cientista escocês, em 1928, à descoberta da penicilina?",
+          "resposta": "Alexander Fleming"
+        },
+        {
+          "id": "q06314",
+          "pergunta": "Descoberta em 1928, a penicilina só passou a ser produzida em grande escala durante qual conflito mundial?",
+          "resposta": "Segunda Guerra Mundial"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Em 1904, a lei que tornou obrigatória a imunização contra a varíola, defendida por Oswaldo Cruz, provocou qual levante popular no Rio de Janeiro?",
+        "resposta": "Revolta da Vacina"
+      },
+      "existentes": [
+        {
+          "id": "q01428",
+          "pergunta": "Que fundação de pesquisa em saúde, com sede no Rio de Janeiro, leva o nome do médico desta foto?",
+          "resposta": "Fiocruz (Fundação Oswaldo Cruz)"
+        },
+        {
+          "id": "q08482",
+          "pergunta": "Que médico sanitarista brasileiro é este?",
+          "resposta": "Oswaldo Cruz"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "A peste negra, causada pela bactéria Yersinia pestis, era transmitida às pessoas principalmente pela picada de qual inseto?",
+        "resposta": "Pulga"
+      },
+      "existentes": [
+        {
+          "id": "q00101",
+          "pergunta": "No século quatorze, a peste negra matou milhões de europeus. Que inseto, parasita de ratos, é apontado como principal transmissor da bactéria causadora?",
+          "resposta": "Pulga"
+        },
+        {
+          "id": "q06308",
+          "pergunta": "A peste negra, que matou cerca de um terço dos europeus, devastou a Europa em que século?",
+          "resposta": "Século quatorze"
+        },
+        {
+          "id": "q13187",
+          "pergunta": "Segundo relatos da época, a peste negra chegou à Europa em 1347 em navios genoveses vindos de Caffa, porto de que península do mar Negro?",
+          "resposta": "Crimeia"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Já viúva e com cerca de cinquenta anos, Ana Néri se ofereceu como voluntária na Guerra do Paraguai para ficar perto de quem?",
+        "resposta": "Dos filhos, convocados para a guerra"
+      },
+      "existentes": [
+        {
+          "id": "q06310",
+          "pergunta": "A baiana Ana Néri, patrona da enfermagem brasileira, cuidou de soldados feridos durante qual guerra do século dezenove?",
+          "resposta": "Guerra do Paraguai"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Que parte transparente na frente do olho não tem vasos sanguíneos e, por isso, quase não rejeita transplantes?",
+        "resposta": "Córnea"
+      },
+      "existentes": [
+        {
+          "id": "q01865",
+          "pergunta": "Que órgão do corpo humano é este?",
+          "resposta": "Olho"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "O córtex cerebral se divide em lobos: frontal, parietal, temporal e um quarto, perto da nuca, responsável pela visão. Qual é esse lobo?",
+        "resposta": "Lobo occipital"
+      },
+      "existentes": [
+        {
+          "id": "q01861",
+          "pergunta": "Que órgão é este?",
+          "resposta": "Cérebro"
+        },
+        {
+          "id": "q11855",
+          "pergunta": "Que grande feixe de fibras nervosas liga o hemisfério esquerdo ao hemisfério direito do cérebro?",
+          "resposta": "Corpo caloso"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Que osso pequeno e arredondado, embutido num tendão da coxa, protege a frente do joelho?",
+        "resposta": "Patela (rótula)"
+      },
+      "existentes": [
+        {
+          "id": "q11841",
+          "pergunta": "Unindo o fêmur à tíbia, qual é a maior articulação do corpo humano?",
+          "resposta": "Joelho"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Quando nos cortamos, que fragmentos de células do sangue, sem núcleo, se juntam primeiro para tampar o vaso e estancar o sangramento?",
+        "resposta": "Plaquetas"
+      },
+      "existentes": [
+        {
+          "id": "q00620",
+          "pergunta": "A cor vermelha do sangue vem de uma proteína que contém ferro e transporta oxigênio. Qual é essa proteína?",
+          "resposta": "Hemoglobina"
+        },
+        {
+          "id": "q06328",
+          "pergunta": "Mais da metade do volume do sangue é formada por uma parte líquida e amarelada. Como ela se chama?",
+          "resposta": "Plasma"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Carlos Chagas descobriu a doença que leva seu nome trabalhando contra a malária numa pequena cidade às margens de uma ferrovia. Em que estado brasileiro?",
+        "resposta": "Minas Gerais (Lassance)"
+      },
+      "existentes": [
+        {
+          "id": "q00621",
+          "pergunta": "A doença de Chagas é transmitida por um inseto que costuma picar o rosto de quem está dormindo. Como ele é chamado no Brasil?",
+          "resposta": "Barbeiro"
+        },
+        {
+          "id": "q00638",
+          "pergunta": "Em 1909, qual médico brasileiro descreveu uma doença inteira, com seu agente causador, seu inseto transmissor e seus sintomas?",
+          "resposta": "Carlos Chagas"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Albert Sabin, criador da vacina em gotas contra a pólio, nasceu na cidade de Bialystok, que hoje pertence a qual país?",
+        "resposta": "Polônia"
+      },
+      "existentes": [
+        {
+          "id": "q08132",
+          "pergunta": "Quem é este cientista?",
+          "resposta": "Albert Sabin"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "O Dia Mundial de Combate à Tuberculose lembra a data em que Robert Koch anunciou, em 1882, a descoberta do bacilo da doença. Que dia é esse?",
+        "resposta": "24 de março"
+      },
+      "existentes": [
+        {
+          "id": "q01040",
+          "pergunta": "Por seus estudos de que doença este médico alemão ganhou o Nobel de Medicina de 1905?",
+          "resposta": "Tuberculose"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Em que ano Louis Pasteur aplicou sua vacina contra a raiva no menino Joseph Meister, mordido por um cão raivoso?",
+        "resposta": "1885"
+      },
+      "existentes": [
+        {
+          "id": "q01425",
+          "pergunta": "Que cientista é este, que desenvolveu as vacinas contra a raiva e o carbúnculo?",
+          "resposta": "Louis Pasteur"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Hipócrates, considerado o pai da medicina, nasceu na Grécia Antiga em que século antes de Cristo?",
+        "resposta": "Século quinto"
+      },
+      "existentes": [
+        {
+          "id": "q06298",
+          "pergunta": "Considerado o pai da medicina, o grego Hipócrates nasceu em qual ilha do mar Egeu?",
+          "resposta": "Cós"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "No início do século dezenove, que médico francês inventou o estetoscópio, inspirado num tubo de papel enrolado para ouvir o coração de uma paciente?",
+        "resposta": "René Laennec"
+      },
+      "existentes": [
+        {
+          "id": "q03590",
+          "pergunta": "Em 1816, o médico francês René Laennec inventou o estetoscópio para evitar que situação constrangedora?",
+          "resposta": "Encostar o ouvido no peito de uma paciente"
+        },
+        {
+          "id": "q05000",
+          "pergunta": "Que instrumento médico é este?",
+          "resposta": "Estetoscópio"
+        },
+        {
+          "id": "q16841",
+          "pergunta": "René Laennec batizou seu invento de estetoscópio. Em grego, o começo dessa palavra designa que parte do corpo?",
+          "resposta": "Peito"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Até hoje, na formatura, muitos estudantes de medicina fazem um juramento atribuído a qual médico grego da Antiguidade?",
+        "resposta": "Hipócrates"
+      },
+      "existentes": [
+        {
+          "id": "q03224",
+          "pergunta": "Que juramento, atribuído a um médico grego da ilha de Cós, muitos formandos de medicina ainda prestam hoje?",
+          "resposta": "Juramento de Hipócrates"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Contando a raiz escondida na gengiva, qual é o dente mais longo da boca humana?",
+        "resposta": "Canino"
+      },
+      "existentes": [
+        {
+          "id": "q11856",
+          "pergunta": "Sob o esmalte, que tecido duro e amarelado forma a maior parte de incisivos, caninos e molares?",
+          "resposta": "Dentina"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Com prolongamentos que podem ir da base da coluna até o dedão do pé, qual tipo de célula é a mais comprida do corpo humano?",
+        "resposta": "Neurônio"
+      },
+      "existentes": [
+        {
+          "id": "q01859",
+          "pergunta": "Que tipo de célula é esta, vista ao microscópio?",
+          "resposta": "Neurônio"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Louis Pasteur criou vacinas e revolucionou a medicina, mas nunca foi médico. Em que área da ciência ele fez carreira?",
+        "resposta": "Química"
+      },
+      "existentes": [
+        {
+          "id": "q01425",
+          "pergunta": "Que cientista é este, que desenvolveu as vacinas contra a raiva e o carbúnculo?",
+          "resposta": "Louis Pasteur"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Para que sua vacina em gotas contra a pólio ficasse barata e chegasse a todas as crianças, Albert Sabin abriu mão de quê?",
+        "resposta": "Da patente"
+      },
+      "existentes": [
+        {
+          "id": "q08132",
+          "pergunta": "Quem é este cientista?",
+          "resposta": "Albert Sabin"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Número de valvas é fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Lobos do pulmão esquerdo é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Número de lombares vs cóccix."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Vida útil da hemácia é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Músculos oculares, fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Costelas flutuantes (2 pares) difere dos 12 pares."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Falanges do polegar, fato distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Volume de sangue é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Etimologia da clavícula, não identificação."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Etimologia de retina, outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Etimologia do deltoide; existente pede identificar músculo."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Origem de diabetes vs mellitus."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Epônimo da trompa de Falópio é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Apelido é fato diferente."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "id_existente": "q04360",
+      "motivo": "Mesma pergunta sobre o motivo do nome gripe espanhola."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Caduceu/Hermes vs Asclépio."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Assistente que dividiu o prêmio, fato novo."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Placa de Petri vs Nobel."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Marca Listerine, outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Co-laureado, fato distinto."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Receptor universal vs doador universal."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Fungo em comum com roquefort, outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Revolta da Vacina é outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "id_existente": "q00101",
+      "motivo": "Ambas perguntam a pulga como transmissora."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Motivo da ida, não a guerra."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Córnea, fato distinto."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Lobo occipital, outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Patela vs articulação do joelho."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Plaquetas, fato distinto."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Local da descoberta é outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Local de nascimento."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Data do dia mundial."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Ano da vacina da raiva."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Século vs ilha de nascimento."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Quem inventou; existentes não perguntam o inventor."
+    },
+    {
+      "caso": 36,
+      "decisao": "repete",
+      "id_existente": "q03224",
+      "motivo": "Juramento de Hipócrates, mesmo fato invertido."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Dente mais longo, outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Célula mais comprida vs identificar imagem."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Área de carreira de Pasteur."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Patente, fato distinto."
+    }
+  ]
+}

@@ -1,0 +1,1391 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "coracao_humano",
+        "nome": "Coração humano",
+        "descricao": "Órgão muscular do tórax que bombeia o sangue por todo o corpo.",
+        "variantes": [
+          "Coração"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Heart"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Para que o sangue corra sempre num só sentido, o coração humano tem quantas valvas?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Heart_valve"
+      ],
+      "ancora": "coracao_humano"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "pulmao",
+        "nome": "Pulmão",
+        "descricao": "Órgão par do sistema respiratório responsável pelas trocas gasosas.",
+        "variantes": [
+          "Pulmões"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lung"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O pulmão direito é dividido em três lobos. Quantos lobos tem o esquerdo, que divide espaço com o coração?",
+      "resposta": "Dois",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lung"
+      ],
+      "ancora": "pulmao"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "coluna_vertebral",
+        "nome": "Coluna vertebral",
+        "descricao": "Eixo ósseo do corpo humano formado pelas vértebras, que protege a medula espinhal.",
+        "variantes": [
+          "Espinha dorsal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vertebral_column"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na parte baixa das costas ficam as vértebras lombares, as maiores e mais robustas da coluna. Quantas são elas?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lumbar_vertebrae"
+      ],
+      "distratores": [
+        "Três",
+        "Sete",
+        "Doze"
+      ],
+      "ancora": "coluna_vertebral"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "hemacia",
+        "nome": "Hemácia",
+        "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+        "variantes": [
+          "Glóbulo vermelho",
+          "Eritrócito"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Red_blood_cell"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Depois de sair da medula óssea, uma hemácia circula pelo corpo por quanto tempo, em média, antes de ser destruída?",
+      "resposta": "Cerca de 120 dias",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red_blood_cell"
+      ],
+      "distratores": [
+        "Cerca de dez dias",
+        "Cerca de trinta dias",
+        "Cerca de três anos"
+      ],
+      "ancora": "hemacia"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "olho_humano",
+        "nome": "Olho humano",
+        "descricao": "Órgão sensorial da visão que reage à luz visível.",
+        "variantes": [
+          "Olho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Human_eye"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Olhar para cima, para os lados ou girar o olho depende de pequenos músculos presos ao globo ocular. Quantos movem cada olho?",
+      "resposta": "Seis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Extraocular_muscles"
+      ],
+      "distratores": [
+        "Dois",
+        "Quatro",
+        "Dez"
+      ],
+      "ancora": "olho_humano"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Pé humano",
+        "descricao": "Extremidade do membro inferior humano, formada por tarso, metatarso e dedos, que sustenta o corpo.",
+        "variantes": [
+          "Pé"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Foot"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Somando tornozelo, sola e dedos, quantos ossos tem cada pé humano?",
+      "resposta": "26",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Foot"
+      ],
+      "distratores": [
+        "12",
+        "19",
+        "33"
+      ],
+      "ancora": "pe_humano"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "costela",
+        "nome": "Costela",
+        "descricao": "Osso longo e curvo que forma a caixa torácica e protege órgãos do tórax.",
+        "variantes": [
+          "Costelas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rib"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Dos doze pares de costelas, os últimos não se prendem ao esterno e são chamados de costelas flutuantes. Quantos pares são?",
+      "resposta": "Dois pares",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rib"
+      ],
+      "distratores": [
+        "Um par",
+        "Três pares",
+        "Cinco pares"
+      ],
+      "ancora": "costela"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "polegar",
+        "nome": "Polegar",
+        "descricao": "Primeiro dedo da mão, o mais afastado quando a palma está voltada para a frente.",
+        "variantes": [
+          "Dedão da mão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thumb"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Os outros dedos da mão têm três falanges cada. Quantas falanges tem o polegar?",
+      "resposta": "Duas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thumb"
+      ],
+      "ancora": "polegar"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "sangue",
+        "nome": "Sangue",
+        "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blood"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Somando todas as veias, artérias e o coração, um adulto de porte médio tem cerca de quantos litros de sangue?",
+      "resposta": "Cerca de cinco litros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blood_volume"
+      ],
+      "distratores": [
+        "Cerca de um litro",
+        "Cerca de doze litros",
+        "Cerca de vinte litros"
+      ],
+      "ancora": "sangue"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "clavicula",
+        "nome": "Clavícula",
+        "descricao": "Osso longo, em forma de S, que liga a escápula ao esterno e forma o ombro.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Clavicle"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome latino da clavícula, clavicula, significa 'pequena' qual objeto, usado para abrir fechaduras?",
+      "resposta": "Chave",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Clav%C3%ADcula"
+      ],
+      "ancora": "clavicula"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "retina",
+        "nome": "Retina",
+        "descricao": "Camada sensível à luz no fundo do olho, onde ficam as células fotorreceptoras.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Retina"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome retina, a camada sensível à luz no fundo do olho, vem de um objeto de pescador em latim. Que objeto?",
+      "resposta": "Rede",
+      "fonte": [
+        "https://www.etymonline.com/word/retina",
+        "https://en.wikipedia.org/wiki/Retina"
+      ],
+      "ancora": "retina"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Sacro",
+        "descricao": "Osso triangular na base da coluna vertebral, formado pela fusão de cinco vértebras, entre os dois ossos do quadril.",
+        "variantes": [
+          "Osso sacro",
+          "Os sacrum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sacrum"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O sacro, osso triangular na base da coluna, tem um nome latino de significado curioso. O que ele quer dizer?",
+      "resposta": "Osso sagrado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sacrum"
+      ],
+      "distratores": [
+        "Osso da cauda",
+        "Osso do assento",
+        "Osso escondido"
+      ],
+      "ancora": "sacro"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "musculo_deltoide",
+        "nome": "Músculo deltoide",
+        "descricao": "Músculo que forma o contorno arredondado do ombro humano, com três partes: clavicular, acromial e escapular.",
+        "variantes": [
+          "Deltoide"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Deltoid_muscle"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Por ter forma de triângulo, o músculo que arredonda o ombro recebeu um nome derivado de qual letra grega?",
+      "resposta": "Delta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deltoid_muscle"
+      ],
+      "distratores": [
+        "Alfa",
+        "Ômega",
+        "Lambda"
+      ],
+      "ancora": "musculo_deltoide"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "diabetes_mellitus",
+        "nome": "Diabetes mellitus",
+        "descricao": "Doença marcada pelo excesso de açúcar no sangue, ligada à falta ou à má ação da insulina.",
+        "variantes": [
+          "Diabetes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Diabetes"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra grega que deu origem ao nome diabetes vem de um verbo que significa o quê?",
+      "resposta": "Passar através",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Diabetes_mellitus"
+      ],
+      "distratores": [
+        "Doce como mel",
+        "Sangue espesso",
+        "Sede sem fim"
+      ],
+      "ancora": "diabetes_mellitus"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Amígdala cerebral",
+        "descricao": "Pequena estrutura em cada hemisfério do cérebro, ligada às emoções, especialmente ao medo.",
+        "variantes": [
+          "Amígdala",
+          "Corpo amigdaloide"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amygdala"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No cérebro, uma pequena estrutura ligada ao medo tem um nome grego que vem de qual fruto seco, por causa do formato?",
+      "resposta": "Amêndoa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amygdala"
+      ],
+      "distratores": [
+        "Noz",
+        "Avelã",
+        "Castanha"
+      ],
+      "ancora": "amigdala_cerebral"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "tuba_uterina",
+        "nome": "Tuba uterina",
+        "descricao": "Órgão tubular pareado que liga o ovário ao útero.",
+        "variantes": [
+          "Trompa de Falópio",
+          "Trompa uterina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fallopian_tube"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A tuba uterina, que liga o ovário ao útero, também é chamada de trompa de qual anatomista italiano do século dezesseis?",
+      "resposta": "Falópio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fallopian_tube",
+        "https://en.wikipedia.org/wiki/Gabriele_Falloppio"
+      ],
+      "distratores": [
+        "Eustáquio",
+        "Malpighi",
+        "Morgagni"
+      ],
+      "ancora": "tuba_uterina"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "florence_nightingale",
+        "nome": "Florence Nightingale",
+        "descricao": "Inglesa fundadora da enfermagem moderna e pioneira da estatística, famosa na Guerra da Crimeia.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Florence_Nightingale"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por fazer rondas noturnas entre os soldados feridos na Guerra da Crimeia, Florence Nightingale ganhou qual apelido?",
+      "resposta": "A Dama da Lâmpada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Florence_Nightingale"
+      ],
+      "ancora": "florence_nightingale"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "bastao_de_asclepio",
+        "nome": "Bastão de Asclépio",
+        "descricao": "Bastão com uma única serpente enrolada, símbolo tradicional da medicina.",
+        "variantes": [
+          "Bastão de Esculápio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rod_of_Asclepius"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O símbolo da medicina tem uma só serpente, mas muitos o confundem com o caduceu, que tem duas serpentes e asas. De que deus grego é o caduceu?",
+      "resposta": "Hermes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caduceus_as_a_symbol_of_medicine",
+        "https://en.wikipedia.org/wiki/Caduceus"
+      ],
+      "ancora": "bastao_de_asclepio"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Nise da Silveira",
+        "descricao": "Psiquiatra alagoana (1905–1999) que usou a arte no tratamento de pacientes e fundou o Museu de Imagens do Inconsciente.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Nise_da_Silveira",
+          "https://en.wikipedia.org/wiki/Nise_da_Silveira"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A psiquiatra Nise da Silveira trocou cartas com qual psiquiatra suíço, que se interessou pelas mandalas pintadas por seus pacientes?",
+      "resposta": "Carl Gustav Jung",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Nise_da_Silveira",
+        "https://en.wikipedia.org/wiki/Nise_da_Silveira"
+      ],
+      "distratores": [
+        "Eugen Bleuler",
+        "Hermann Rorschach",
+        "Jean Piaget"
+      ],
+      "ancora": "nise_da_silveira"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "frederick_banting",
+        "nome": "Frederick Banting",
+        "descricao": "Médico canadense que co-descobriu a insulina e ganhou o Nobel de Medicina de 1923.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Frederick_Banting"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Indignado porque seu jovem assistente ficou de fora do Nobel de 1923, Frederick Banting dividiu com ele o dinheiro do prêmio. Quem era esse assistente?",
+      "resposta": "Charles Best",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Frederick_Banting",
+        "https://en.wikipedia.org/wiki/Charles_Best_(medical_scientist)"
+      ],
+      "ancora": "frederick_banting"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "robert_koch",
+        "nome": "Robert Koch",
+        "descricao": "Médico e microbiologista alemão (1843–1910), Nobel de Medicina de 1905 por seus estudos sobre a tuberculose.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Robert_Koch"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A placa de Petri, usada nos laboratórios para cultivar bactérias, foi criada por um assistente de qual microbiologista alemão?",
+      "resposta": "Robert Koch",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Petri_dish",
+        "https://en.wikipedia.org/wiki/Julius_Richard_Petri"
+      ],
+      "ancora": "robert_koch"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "antissepsia_cirurgica",
+        "nome": "Antissepsia cirúrgica",
+        "descricao": "Uso de substâncias que matam micróbios em feridas, mãos e instrumentos para evitar infecções em cirurgias.",
+        "variantes": [
+          "Antissepsia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Antiseptic"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que famosa marca de enxaguante bucal homenageia, no próprio nome, o cirurgião britânico que levou a antissepsia às salas de cirurgia?",
+      "resposta": "Listerine",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Listerine"
+      ],
+      "ancora": "antissepsia_cirurgica"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "katalin_kariko",
+        "nome": "Katalin Karikó",
+        "descricao": "Bioquímica húngara, Nobel de Fisiologia ou Medicina em 2023 por seu trabalho com RNA mensageiro.",
+        "variantes": [
+          "Katalin Kariko"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 2023, a húngara Katalin Karikó dividiu o Nobel de Medicina, pelas pesquisas com RNA mensageiro, com qual cientista americano?",
+      "resposta": "Drew Weissman",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3",
+        "https://en.wikipedia.org/wiki/Drew_Weissman"
+      ],
+      "distratores": [
+        "Craig Venter",
+        "Robert Langer",
+        "Kary Mullis"
+      ],
+      "ancora": "katalin_kariko"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "sangue_tipo_o_negativo",
+        "nome": "Sangue tipo O negativo",
+        "descricao": "Tipo sanguíneo sem os antígenos A, B e Rh nas hemácias.",
+        "variantes": [
+          "O negativo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blood_type"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O sangue O negativo é chamado de doador universal. Qual tipo é o seu oposto, o receptor universal, que pode receber hemácias de todos?",
+      "resposta": "AB positivo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Blood_type"
+      ],
+      "ancora": "sangue_tipo_o_negativo"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "penicilina",
+        "nome": "Penicilina",
+        "descricao": "Primeiro antibiótico amplamente usado, obtido de fungos do gênero Penicillium.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penicillin"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o antibiótico descoberto por Alexander Fleming e as veias azuladas do queijo roquefort têm em comum?",
+      "resposta": "Fungos do gênero Penicillium",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Penicillium_roqueforti",
+        "https://en.wikipedia.org/wiki/Penicillium"
+      ],
+      "ancora": "penicilina"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Cálculo renal",
+        "descricao": "Pedra que se forma nos rins a partir de sais minerais da urina.",
+        "variantes": [
+          "Pedra nos rins",
+          "Nefrolitíase"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kidney_stone_disease"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que palavra nomeia tanto a pedra que se forma no rim quanto a conta matemática, porque os antigos romanos contavam com pedrinhas?",
+      "resposta": "Cálculo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Calculus",
+        "https://en.wikipedia.org/wiki/Kidney_stone_disease"
+      ],
+      "ancora": "calculo_renal"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "oswaldo_cruz",
+        "nome": "Oswaldo Cruz",
+        "descricao": "Médico sanitarista e bacteriologista brasileiro, fundador do Instituto Oswaldo Cruz.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Oswaldo_Cruz"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1904, a lei que tornou obrigatória a imunização contra a varíola, defendida por Oswaldo Cruz, provocou qual levante popular no Rio de Janeiro?",
+      "resposta": "Revolta da Vacina",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Revolta_da_Vacina"
+      ],
+      "ancora": "oswaldo_cruz"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "ana_neri",
+        "nome": "Ana Néri",
+        "descricao": "Enfermeira baiana do século dezenove, considerada a patrona da enfermagem no Brasil.",
+        "variantes": [
+          "Anna Nery"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ana_N%C3%A9ri"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Já viúva e com cerca de cinquenta anos, Ana Néri se ofereceu como voluntária na Guerra do Paraguai para ficar perto de quem?",
+      "resposta": "Dos filhos, convocados para a guerra",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ana_N%C3%A9ri"
+      ],
+      "ancora": "ana_neri"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Talidomida",
+        "descricao": "Medicamento sedativo receitado a gestantes nos anos 1950 e 1960, que causou malformações em milhares de bebês.",
+        "variantes": [
+          "Thalidomide"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thalidomide"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Receitada a grávidas contra enjoos nos anos cinquenta e sessenta, a talidomida deixou milhares de bebês com que tipo de malformação?",
+      "resposta": "Nos braços e pernas (focomelia)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thalidomide_scandal"
+      ],
+      "ancora": "talidomida"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "olho_humano",
+        "nome": "Olho humano",
+        "descricao": "Órgão sensorial da visão que reage à luz visível.",
+        "variantes": [
+          "Olho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Human_eye"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que parte transparente na frente do olho não tem vasos sanguíneos e, por isso, quase não rejeita transplantes?",
+      "resposta": "Córnea",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cornea"
+      ],
+      "ancora": "olho_humano"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "cerebro_humano",
+        "nome": "Cérebro humano",
+        "descricao": "Órgão central do sistema nervoso, dentro do crânio, formado por cérebro, tronco encefálico e cerebelo.",
+        "variantes": [
+          "Encéfalo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Human_brain"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O córtex cerebral se divide em lobos: frontal, parietal, temporal e um quarto, perto da nuca, responsável pela visão. Qual é esse lobo?",
+      "resposta": "Lobo occipital",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Occipital_lobe"
+      ],
+      "ancora": "cerebro_humano"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "joelho",
+        "nome": "Joelho",
+        "descricao": "Articulação da perna humana entre o fêmur e a tíbia, protegida pela patela.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Knee"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que osso pequeno e arredondado, embutido num tendão da coxa, protege a frente do joelho?",
+      "resposta": "Patela (rótula)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Patella"
+      ],
+      "ancora": "joelho"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "sangue",
+        "nome": "Sangue",
+        "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Blood"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Quando nos cortamos, que fragmentos de células do sangue, sem núcleo, se juntam primeiro para tampar o vaso e estancar o sangramento?",
+      "resposta": "Plaquetas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Platelet"
+      ],
+      "ancora": "sangue"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "doenca_de_chagas",
+        "nome": "Doença de Chagas",
+        "descricao": "Doença parasitária causada pelo Trypanosoma cruzi, descrita por Carlos Chagas em 1909.",
+        "variantes": [
+          "Tripanossomíase americana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chagas_disease"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Carlos Chagas descobriu a doença que leva seu nome trabalhando contra a malária numa pequena cidade às margens de uma ferrovia. Em que estado brasileiro?",
+      "resposta": "Minas Gerais (Lassance)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carlos_Chagas",
+        "https://pt.wikipedia.org/wiki/Carlos_Chagas"
+      ],
+      "ancora": "doenca_de_chagas"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "albert_sabin",
+        "nome": "Albert Sabin",
+        "descricao": "Médico pesquisador polonês-americano que desenvolveu a vacina oral contra a poliomielite.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Albert_Sabin"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Albert Sabin, criador da vacina em gotas contra a pólio, nasceu na cidade de Bialystok, que hoje pertence a qual país?",
+      "resposta": "Polônia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Albert_Sabin"
+      ],
+      "distratores": [
+        "Rússia",
+        "Lituânia",
+        "Ucrânia"
+      ],
+      "ancora": "albert_sabin"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Glândulas suprarrenais",
+        "descricao": "Par de glândulas endócrinas situadas sobre os rins, que produzem adrenalina e cortisol.",
+        "variantes": [
+          "Glândulas adrenais",
+          "Suprarrenal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Adrenal_gland"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "As glândulas que produzem adrenalina ficam, como pequenos chapéus, logo em cima de quais órgãos?",
+      "resposta": "Rins",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adrenal_gland"
+      ],
+      "ancora": "glandulas_suprarrenais"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "robert_koch",
+        "nome": "Robert Koch",
+        "descricao": "Médico e microbiologista alemão (1843–1910), Nobel de Medicina de 1905 por seus estudos sobre a tuberculose.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Robert_Koch"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Dia Mundial de Combate à Tuberculose lembra a data em que Robert Koch anunciou, em 1882, a descoberta do bacilo da doença. Que dia é esse?",
+      "resposta": "24 de março",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/World_Tuberculosis_Day"
+      ],
+      "distratores": [
+        "7 de abril",
+        "1º de dezembro",
+        "14 de novembro"
+      ],
+      "ancora": "robert_koch"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "louis_pasteur",
+        "nome": "Louis Pasteur",
+        "descricao": "Químico e microbiologista francês, criador das vacinas contra a raiva e o carbúnculo e da pasteurização.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Pasteur"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano Louis Pasteur aplicou sua vacina contra a raiva no menino Joseph Meister, mordido por um cão raivoso?",
+      "resposta": "1885",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Joseph_Meister",
+        "https://en.wikipedia.org/wiki/Louis_Pasteur"
+      ],
+      "distratores": [
+        "1865",
+        "1878",
+        "1895"
+      ],
+      "ancora": "louis_pasteur"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "hipocrates",
+        "nome": "Hipócrates",
+        "descricao": "Médico grego da Antiguidade (c. 460–370 a.C.), considerado o pai da medicina.",
+        "variantes": [
+          "Hipócrates de Cós"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hippocrates"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Hipócrates, considerado o pai da medicina, nasceu na Grécia Antiga em que século antes de Cristo?",
+      "resposta": "Século quinto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hippocrates"
+      ],
+      "distratores": [
+        "Século oitavo",
+        "Século terceiro",
+        "Século primeiro"
+      ],
+      "ancora": "hipocrates"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Estetoscópio",
+        "descricao": "Instrumento médico usado para ouvir os sons internos do corpo, como os batimentos do coração e a respiração.",
+        "variantes": [
+          "Estetoscópio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stethoscope"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "No início do século dezenove, que médico francês inventou o estetoscópio, inspirado num tubo de papel enrolado para ouvir o coração de uma paciente?",
+      "resposta": "René Laennec",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stethoscope",
+        "https://en.wikipedia.org/wiki/Ren%C3%A9_Laennec"
+      ],
+      "distratores": [
+        "Xavier Bichat",
+        "Claude Bernard",
+        "Ambroise Paré"
+      ],
+      "ancora": "estetoscopio"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Estação Carandiru",
+        "descricao": "Livro de 1999 de Drauzio Varella sobre seu trabalho como médico na Casa de Detenção de São Paulo, adaptado ao cinema por Hector Babenco.",
+        "variantes": [
+          "Carandiru"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Carandiru",
+          "https://en.wikipedia.org/wiki/Carandiru_(film)"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O filme Carandiru, de Hector Babenco, foi baseado no livro de qual médico, que atendeu presos durante anos naquele presídio paulista?",
+      "resposta": "Drauzio Varella",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carandiru_(film)"
+      ],
+      "ancora": "estacao_carandiru"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "dente_humano",
+        "nome": "Dente humano",
+        "descricao": "Estrutura dura da boca humana, formada por esmalte, dentina e polpa, usada para cortar e mastigar.",
+        "variantes": [
+          "Dente"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Human_tooth"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Contando a raiz escondida na gengiva, qual é o dente mais longo da boca humana?",
+      "resposta": "Canino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Canine_tooth",
+        "https://en.wikipedia.org/wiki/Maxillary_canine"
+      ],
+      "distratores": [
+        "Molar",
+        "Incisivo central",
+        "Pré-molar"
+      ],
+      "ancora": "dente_humano"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Neurônio",
+        "descricao": "Célula do sistema nervoso especializada em transmitir sinais elétricos e químicos.",
+        "variantes": [
+          "Célula nervosa",
+          "Neurónio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neuron"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Com prolongamentos que podem ir da base da coluna até o dedão do pé, qual tipo de célula é a mais comprida do corpo humano?",
+      "resposta": "Neurônio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Axon",
+        "https://en.wikipedia.org/wiki/Neuron"
+      ],
+      "distratores": [
+        "Fibra muscular",
+        "Óvulo",
+        "Hemácia"
+      ],
+      "ancora": "neuronio"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "louis_pasteur",
+        "nome": "Louis Pasteur",
+        "descricao": "Químico e microbiologista francês, criador das vacinas contra a raiva e o carbúnculo e da pasteurização.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Pasteur"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Louis Pasteur criou vacinas e revolucionou a medicina, mas nunca foi médico. Em que área da ciência ele fez carreira?",
+      "resposta": "Química",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Pasteur"
+      ],
+      "ancora": "louis_pasteur"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "albert_sabin",
+        "nome": "Albert Sabin",
+        "descricao": "Médico pesquisador polonês-americano que desenvolveu a vacina oral contra a poliomielite.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Albert_Sabin"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Corpo Humano e Medicina",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Para que sua vacina em gotas contra a pólio ficasse barata e chegasse a todas as crianças, Albert Sabin abriu mão de quê?",
+      "resposta": "Da patente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Albert_Sabin"
+      ],
+      "ancora": "albert_sabin"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "pe_humano",
+      "nome": "Pé humano",
+      "descricao": "Extremidade do membro inferior humano, formada por tarso, metatarso e dedos, que sustenta o corpo.",
+      "variantes": [
+        "Pé"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Foot"
+      ]
+    },
+    {
+      "id": "sacro",
+      "nome": "Sacro",
+      "descricao": "Osso triangular na base da coluna vertebral, formado pela fusão de cinco vértebras, entre os dois ossos do quadril.",
+      "variantes": [
+        "Osso sacro",
+        "Os sacrum"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Sacrum"
+      ]
+    },
+    {
+      "id": "amigdala_cerebral",
+      "nome": "Amígdala cerebral",
+      "descricao": "Pequena estrutura em cada hemisfério do cérebro, ligada às emoções, especialmente ao medo.",
+      "variantes": [
+        "Amígdala",
+        "Corpo amigdaloide"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Amygdala"
+      ]
+    },
+    {
+      "id": "nise_da_silveira",
+      "nome": "Nise da Silveira",
+      "descricao": "Psiquiatra alagoana (1905–1999) que usou a arte no tratamento de pacientes e fundou o Museu de Imagens do Inconsciente.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Nise_da_Silveira",
+        "https://en.wikipedia.org/wiki/Nise_da_Silveira"
+      ]
+    },
+    {
+      "id": "calculo_renal",
+      "nome": "Cálculo renal",
+      "descricao": "Pedra que se forma nos rins a partir de sais minerais da urina.",
+      "variantes": [
+        "Pedra nos rins",
+        "Nefrolitíase"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Kidney_stone_disease"
+      ]
+    },
+    {
+      "id": "talidomida",
+      "nome": "Talidomida",
+      "descricao": "Medicamento sedativo receitado a gestantes nos anos 1950 e 1960, que causou malformações em milhares de bebês.",
+      "variantes": [
+        "Thalidomide"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Thalidomide"
+      ]
+    },
+    {
+      "id": "glandulas_suprarrenais",
+      "nome": "Glândulas suprarrenais",
+      "descricao": "Par de glândulas endócrinas situadas sobre os rins, que produzem adrenalina e cortisol.",
+      "variantes": [
+        "Glândulas adrenais",
+        "Suprarrenal"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Adrenal_gland"
+      ]
+    },
+    {
+      "id": "estacao_carandiru",
+      "nome": "Estação Carandiru",
+      "descricao": "Livro de 1999 de Drauzio Varella sobre seu trabalho como médico na Casa de Detenção de São Paulo, adaptado ao cinema por Hector Babenco.",
+      "variantes": [
+        "Carandiru"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Carandiru",
+        "https://en.wikipedia.org/wiki/Carandiru_(film)"
+      ]
+    }
+  ],
+  "variantes": {
+    "coracao_humano": [
+      "Coração humano",
+      "Coração"
+    ],
+    "pulmao": [
+      "Pulmão",
+      "Pulmões"
+    ],
+    "coluna_vertebral": [
+      "Coluna vertebral",
+      "Espinha dorsal"
+    ],
+    "hemacia": [
+      "Hemácia",
+      "Glóbulo vermelho",
+      "Eritrócito"
+    ],
+    "olho_humano": [
+      "Olho humano",
+      "Olho"
+    ],
+    "costela": [
+      "Costela",
+      "Costelas"
+    ],
+    "polegar": [
+      "Polegar",
+      "Dedão da mão"
+    ],
+    "sangue": [
+      "Sangue"
+    ],
+    "clavicula": [
+      "Clavícula"
+    ],
+    "retina": [
+      "Retina"
+    ],
+    "musculo_deltoide": [
+      "Músculo deltoide",
+      "Deltoide"
+    ],
+    "diabetes_mellitus": [
+      "Diabetes mellitus",
+      "Diabetes"
+    ],
+    "tuba_uterina": [
+      "Tuba uterina",
+      "Trompa de Falópio",
+      "Trompa uterina"
+    ],
+    "florence_nightingale": [
+      "Florence Nightingale"
+    ],
+    "gripe_espanhola": [
+      "Gripe espanhola",
+      "Pandemia de gripe de 1918"
+    ],
+    "bastao_de_asclepio": [
+      "Bastão de Asclépio",
+      "Bastão de Esculápio"
+    ],
+    "frederick_banting": [
+      "Frederick Banting"
+    ],
+    "robert_koch": [
+      "Robert Koch"
+    ],
+    "antissepsia_cirurgica": [
+      "Antissepsia cirúrgica",
+      "Antissepsia"
+    ],
+    "katalin_kariko": [
+      "Katalin Karikó",
+      "Katalin Kariko"
+    ],
+    "sangue_tipo_o_negativo": [
+      "Sangue tipo O negativo",
+      "O negativo"
+    ],
+    "penicilina": [
+      "Penicilina"
+    ],
+    "oswaldo_cruz": [
+      "Oswaldo Cruz"
+    ],
+    "peste_negra": [
+      "Peste Negra",
+      "Morte Negra"
+    ],
+    "ana_neri": [
+      "Ana Néri",
+      "Anna Nery"
+    ],
+    "cerebro_humano": [
+      "Cérebro humano",
+      "Encéfalo"
+    ],
+    "joelho": [
+      "Joelho"
+    ],
+    "doenca_de_chagas": [
+      "Doença de Chagas",
+      "Tripanossomíase americana"
+    ],
+    "albert_sabin": [
+      "Albert Sabin"
+    ],
+    "louis_pasteur": [
+      "Louis Pasteur"
+    ],
+    "hipocrates": [
+      "Hipócrates",
+      "Hipócrates de Cós"
+    ],
+    "dente_humano": [
+      "Dente humano",
+      "Dente"
+    ],
+    "estetoscopio": [
+      "Estetoscópio"
+    ],
+    "juramento_de_hipocrates": [
+      "Juramento de Hipócrates",
+      "Juramento hipocrático"
+    ],
+    "neuronio": [
+      "Neurônio",
+      "Célula nervosa",
+      "Neurónio"
+    ]
+  }
+}

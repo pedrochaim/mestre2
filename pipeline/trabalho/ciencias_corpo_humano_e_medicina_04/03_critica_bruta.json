@@ -1,0 +1,459 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto, enunciado preciso e resposta específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três lobos à direita e dois à esquerda, confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cinco vértebras lombares; distratores críveis, de outras regiões da coluna.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte dá 100 a 120 dias, então 'cerca de 120 dias' é aceitável.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis músculos extraoculares movem o olho, confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pé tem 26 ossos; o distrator 33 (articulações) é um bom engano.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As costelas 11 e 12 são flutuantes, ou seja, dois pares.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O polegar tem duas falanges, fato bem documentado; o trecho só confirma parcialmente.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cerca de 5 litros é o valor corrente; o trecho em português dá 4,5 L para 60 kg.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'gira em torno do próprio eixo' é vaga e levaria a outros objetos; o significado literal é 'pequena chave'.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome latino da clavícula, clavicula, significa 'pequena' qual objeto, usado para abrir fechaduras?",
+        "resposta": "Chave",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Clav%C3%ADcula"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Retina vem do latim rete, 'rede', confirmado na Wikipédia.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sacrum significa 'osso sagrado'; a fonte em português confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O deltoide recebe esse nome pela forma da letra grega delta; os distratores são letras gregas.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado vaza a resposta: 'a água os atravessasse' equivale a 'passar através'.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A palavra grega que deu origem ao nome diabetes vem de um verbo que significa o quê?",
+        "resposta": "Passar através",
+        "distratores": [
+          "Doce como mel",
+          "Sangue espesso",
+          "Sede sem fim"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Diabetes_mellitus"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amígdala vem do grego para 'amêndoa', confirmado no artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Pomo' já significa maçã, então a resposta vaza no nome; a lenda também fala em caroço, e a resposta fica ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Falópio é o anatomista italiano do século dezesseis que dá nome à trompa; os distratores são anatomistas de outros períodos ou sem relação com ela.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O apelido é confirmado; a fonte em português usa 'Lamparina', mas 'Dama da Lâmpada' é a forma corrente.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A explicação sobre a imprensa espanhola sem censura de guerra é confirmada pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta é praticamente dada pelo próprio enunciado ('da Campanha'), então o fato é fraco demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O caduceu é o cetro de Hermes, com duas serpentes e asas; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nise escreveu a Jung em 1954 por causa das mandalas dos pacientes; distratores razoáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Banting dividiu o dinheiro do prêmio com Charles Best, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Petri era assistente de Koch e desenvolveu a placa; a fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Listerine foi batizada em homenagem a Joseph Lister, e o enunciado não vaza o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Karikó e Weissman dividiram o Nobel de 2023; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "AB positivo é o receptor universal de hemácias, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Penicilina' no enunciado é palavra derivada de Penicillium, o que vaza a resposta; basta não nomear o antibiótico.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O que o antibiótico descoberto por Alexander Fleming e as veias azuladas do queijo roquefort têm em comum?",
+        "resposta": "Fungos do gênero Penicillium",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Penicillium_roqueforti",
+          "https://en.wikipedia.org/wiki/Penicillium"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Calculus significa 'pedrinha' em latim, usada para contar; a fonte confirma o termo renal, e a origem romana é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado tem erro gramatical ('causou que levante'); a pergunta precisa ser reformulada.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1904, a lei que tornou obrigatória a imunização contra a varíola, defendida por Oswaldo Cruz, provocou qual levante popular no Rio de Janeiro?",
+        "resposta": "Revolta da Vacina",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Revolta_da_Vacina"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que a pulga humana pode ter sido o vetor principal, então 'dos ratos para as pessoas' é impreciso.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "A peste negra, causada pela bactéria Yersinia pestis, era transmitida às pessoas principalmente pela picada de qual inseto?",
+        "resposta": "Pulga",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Black_Death"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aos 51 anos, viu os filhos partirem para a guerra e se ofereceu como voluntária; motivação bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Gramática ruim ('causou que problema') e resposta pouco específica; vale pedir o tipo de malformação.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Receitada a grávidas contra enjoos nos anos cinquenta e sessenta, a talidomida deixou milhares de bebês com que tipo de malformação?",
+        "resposta": "Nos braços e pernas (focomelia)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Thalidomide_scandal"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte em português diz que o oxigênio vem do humor aquoso, o que contradiz 'diretamente do ar'; a ausência de vasos é confirmada.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Que parte transparente na frente do olho não tem vasos sanguíneos e, por isso, quase não rejeita transplantes?",
+        "resposta": "Córnea",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cornea"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O lobo occipital é o quarto lobo principal e processa a visão.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A patela (rótula) cobre e protege a frente do joelho.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plaquetas são fragmentos celulares sem núcleo que formam o coágulo.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chagas atuou em Lassance (MG), contra a malária entre trabalhadores da ferrovia.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Białystok fica hoje na Polônia; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As suprarrenais ficam acima dos rins e produzem adrenalina.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "24 de março, data do anúncio de Koch em 1882; resposta de data em múltipla escolha, com distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "'Pela primeira vez num ser humano' é contestado pela fonte, que diz que Pasteur tratou duas pessoas antes de Meister; basta tirar isso do enunciado.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que ano Louis Pasteur aplicou sua vacina contra a raiva no menino Joseph Meister, mordido por um cão raivoso?",
+        "resposta": "1885",
+        "distratores": [
+          "1865",
+          "1878",
+          "1895"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Joseph_Meister",
+          "https://en.wikipedia.org/wiki/Louis_Pasteur"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Hipócrates viveu entre c. 460 e 370 a.C., ou seja, nos séculos quinto e quarto; perguntar pelo nascimento torna a resposta única.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Hipócrates, considerado o pai da medicina, nasceu na Grécia Antiga em que século antes de Cristo?",
+        "resposta": "Século quinto",
+        "distratores": [
+          "Século oitavo",
+          "Século terceiro",
+          "Século primeiro"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hippocrates"
+        ]
+      }
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Laennec inventou o estetoscópio em 1816, a partir de papel enrolado; distratores são médicos franceses.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma das fontes é a página da estação de metrô, não a do livro ou do filme; mantenho só a fonte em inglês, que sustenta o fato.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "O filme Carandiru, de Hector Babenco, foi baseado no livro de qual médico, que atendeu presos durante anos naquele presídio paulista?",
+        "resposta": "Drauzio Varella",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Carandiru_(film)"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O juramento é atribuído a Hipócrates, e o enunciado não vaza o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O canino é o dente mais longo, com a raiva incluída; fato bem documentado, embora os trechos não o mostrem.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O axônio de um neurônio motor pode passar de um metro, da base da coluna ao dedo do pé.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Se formou' é impreciso para Pasteur; perguntar pela área em que fez carreira é literalmente verdadeiro.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Louis Pasteur criou vacinas e revolucionou a medicina, mas nunca foi médico. Em que área da ciência ele fez carreira?",
+        "resposta": "Química",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Louis_Pasteur"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sabin renunciou à patente para facilitar a difusão da vacina; a fonte em português confirma.",
+      "reescrita": null
+    }
+  ]
+}
