@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década este presidente governou o Brasil?",
+        "resposta": "Década de 1970"
+      },
+      "existentes": [
+        {
+          "id": "q18532",
+          "pergunta": "Em que década este presidente governou o Brasil?",
+          "resposta": "Década de 1970"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que estadista romano é retratado nesta figura?",
+        "resposta": "Cícero"
+      },
+      "existentes": [
+        {
+          "id": "q16208",
+          "pergunta": "Quem é este romano retratado no busto?",
+          "resposta": "Cícero"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas: década em que o presidente governou.",
+      "id_existente": "q18532"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identidade do romano retratado, com resposta Cícero.",
+      "id_existente": "q16208"
+    }
+  ]
+}

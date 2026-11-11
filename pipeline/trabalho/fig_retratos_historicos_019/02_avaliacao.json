@@ -1,0 +1,276 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este homem renunciou ao cargo que ocupava?",
+      "resposta": "2013",
+      "distratores": [
+        "2011",
+        "2012",
+        "2014"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Papa Bento XVI",
+        "descricao": "Joseph Ratzinger, papa da Igreja Católica de 2005 a 2013.",
+        "variantes": [
+          "Bento XVI",
+          "Joseph Ratzinger"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato oficial pintado, claro e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que filho deste líder o sucedeu no poder?",
+      "resposta": "Kim Jong-il",
+      "distratores": [
+        "Kim Jong-un",
+        "Kim Jong-nam",
+        "Kim Dae-jung"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Kim Il-sung",
+        "descricao": "Fundador e primeiro líder da Coreia do Norte, de 1948 a 1994.",
+        "variantes": [
+          "Kim Il Sung"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato oficial com faixa presidencial, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que década este presidente governou o Brasil?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Ernesto Geisel",
+        "descricao": "General e 29º presidente do Brasil, de 1974 a 1979, durante a ditadura militar.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto oficial clara, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que formação universitária tem este político?",
+      "resposta": "Economia",
+      "distratores": [
+        "Direito",
+        "Medicina",
+        "Engenharia"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Javier Milei",
+        "descricao": "Economista e político argentino, presidente da Argentina desde 2023.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido em preto e branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta mulher?",
+      "resposta": "Golda Meir",
+      "distratores": [
+        "Indira Gandhi",
+        "Margaret Thatcher",
+        "Eleanor Roosevelt"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Golda Meir",
+        "descricao": "Primeira-ministra de Israel de 1969 a 1974, única mulher nesse cargo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Busto famoso, bem enquadrado, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estadista romano é retratado neste busto?",
+      "resposta": "Cícero",
+      "distratores": [
+        "Júlio César",
+        "Pompeu",
+        "Sêneca"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Cícero",
+        "descricao": "Marco Túlio Cícero, orador, escritor e estadista da República Romana.",
+        "variantes": [
+          "Marco Túlio Cícero",
+          "Cicero"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida; a bandeira ao fundo não entrega a resposta pedida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Para que província rural este político foi enviado quando jovem, durante a Revolução Cultural?",
+      "resposta": "Shaanxi",
+      "distratores": [
+        "Yunnan",
+        "Sichuan",
+        "Hunan"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Xi Jinping",
+        "descricao": "Líder da China, secretário-geral do Partido Comunista Chinês e presidente desde 2012-2013.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida de corpo inteiro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta mulher?",
+      "resposta": "Imperatriz-viúva Cixi",
+      "distratores": [
+        "Imperatriz Wu Zetian",
+        "Imperatriz Ci'an",
+        "Imperatriz Wanrong"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Imperatriz-viúva Cixi",
+        "descricao": "Nobre manchu que controlou o governo da dinastia Qing como regente de 1861 a 1908.",
+        "variantes": [
+          "Cixi",
+          "Tzu-hsi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura em domínio público, clara e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com que rei esta rainha se casou, unindo dinasticamente a Espanha?",
+      "resposta": "Fernando II de Aragão",
+      "distratores": [
+        "Manuel I de Portugal",
+        "Filipe, o Belo",
+        "Henrique VII"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Isabel I de Castela",
+        "descricao": "Rainha de Castela e Leão de 1474 a 1504, uma das Reis Católicos.",
+        "variantes": [
+          "Isabel, a Católica",
+          "Isabella I"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem foi o avô deste líder, fundador do seu país?",
+      "resposta": "Kim Il-sung",
+      "distratores": [
+        "Mao Tsé-Tung",
+        "Ho Chi Minh",
+        "Syngman Rhee"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Kim Jong-un",
+        "descricao": "Líder supremo da Coreia do Norte desde 2011.",
+        "variantes": [
+          "Kim Jong Un"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, uniforme sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que general sulista da Guerra Civil Americana é este?",
+      "resposta": "Robert E. Lee",
+      "distratores": [
+        "Stonewall Jackson",
+        "James Longstreet",
+        "Joseph E. Johnston"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Robert E. Lee",
+        "descricao": "General confederado comandante do Exército da Virgínia do Norte na Guerra Civil Americana.",
+        "variantes": [
+          "Robert Edward Lee"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que território africano levou o nome deste magnata da mineração?",
+      "resposta": "Rodésia",
+      "distratores": [
+        "Tanganica",
+        "Niassalândia",
+        "Bechuanalândia"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Cecil Rhodes",
+        "descricao": "Magnata da mineração e político britânico, primeiro-ministro da Colônia do Cabo, fundador da Rodésia.",
+        "variantes": [
+          "Cecil John Rhodes"
+        ]
+      }
+    }
+  ]
+}
