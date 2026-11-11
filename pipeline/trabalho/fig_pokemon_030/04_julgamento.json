@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Dewott",
+        "descricao": "Pokémon do tipo Água da quinta geração, número 502 da Pokédex Nacional, forma intermediária de Oshawott.",
+        "variantes": [
+          "Futachimaru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dewott",
+          "nome": "Dewott",
+          "descricao": "Pokémon do tipo Água da quinta geração, número 502 da Pokédex Nacional, evolução de Oshawott.",
+          "variantes": [
+            "Futachimaru"
+          ]
+        },
+        {
+          "id": "pidgeotto",
+          "nome": "Pidgeotto",
+          "descricao": "Pokémon ave do tipo Normal/Voador da primeira geração, número 17 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "dot",
+          "nome": "Dot",
+          "descricao": "Personagem da série Pokémon Horizontes, menina reservada que vive a bordo do dirigível dos aventureiros e faz vídeos na internet.",
+          "variantes": [
+            "Nidothing",
+            "Gurumin"
+          ]
+        },
+        {
+          "id": "futhark",
+          "nome": "Futhark",
+          "descricao": "Alfabeto rúnico usado pelos antigos povos germânicos.",
+          "variantes": [
+            "Futhark antigo",
+            "Elder Futhark",
+            "Runas"
+          ]
+        },
+        {
+          "id": "orochimaru",
+          "nome": "Orochimaru",
+          "descricao": "Um dos Sannin lendários de Konoha, vilão de Naruto que busca a imortalidade.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "dewott",
+      "motivo": "Mesmo Pokémon: Dewott, tipo Água, nº 502 da Pokédex, evolução de Oshawott, mesma variante Futachimaru."
+    }
+  ]
+}
