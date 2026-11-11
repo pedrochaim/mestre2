@@ -1,0 +1,134 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Windsurfistas em primeiro plano, claramente reconhecíveis; sem texto que entregue a resposta. Resposta é década, então pode ser aberta.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que década esta modalidade entrou no programa dos Jogos Olímpicos?",
+      "resposta": "Década de 1980 (1984)",
+      "ancora": {
+        "nome": "Windsurfe",
+        "descricao": "Esporte aquático que combina vela e surfe, praticado em prancha com vela e entrou nos Jogos Olímpicos em 1984.",
+        "variantes": [
+          "Windsurf",
+          "Prancha a vela",
+          "Windsurfing"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto de pessoas comuns jogando flag football amador em primeiro plano; não são figuras públicas."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato de atleta não reconhecível pelo rosto; só patrocinadores aparecem, nada identifica Alison. Resposta de local também não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Duas pessoas na imagem; não fica claro quem é o Fernando Scherer, e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto antiga, granulada e de baixa resolução, com outras pessoas ao fundo; o boxeador não é reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto que entregue o nome. O 'onde' sugerido não tem resposta única (ouro em Londres e no Rio), então a pergunta passa a ser de identidade, em múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tenista é este?",
+      "resposta": "Andy Murray",
+      "distratores": [
+        "Novak Djokovic",
+        "Stan Wawrinka",
+        "Kei Nishikori"
+      ],
+      "ancora": {
+        "nome": "Andy Murray",
+        "descricao": "Tenista britânico, ex-número 1 do mundo e bicampeão olímpico de simples.",
+        "variantes": [
+          "Andrew Murray",
+          "Sir Andy Murray"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Nadador figura pública, reconhecível pelas tatuagens e pelo contexto; o boné com 'Gators' não entrega o nome nem a edição. Pergunta de nível 3 sobre a edição em que ganhou cinco ouros.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que edição dos Jogos Olímpicos este nadador conquistou cinco medalhas de ouro?",
+      "resposta": "Tóquio 2020",
+      "distratores": [
+        "Rio 2016",
+        "Londres 2012",
+        "Pequim 2008"
+      ],
+      "ancora": {
+        "nome": "Caeleb Dressel",
+        "descricao": "Nadador norte-americano, multicampeão olímpico e mundial em provas de velocidade e borboleta.",
+        "variantes": [
+          "Caeleb Remel Dressel"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Close de rosto com microfone e viseira de patrocinador; a atleta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Retrato de rosto sem contexto que permita reconhecer o jogador; só aparecem marcas de patrocinadores."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto antiga e granulada; a jaqueta traz o texto 'Guarulhos' e o atleta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena de críquete nítida, com o campo e o bowler em ação. O nome 'Dilshan' na camisa é pequeno e não entrega a modalidade.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte é este?",
+      "resposta": "Críquete",
+      "distratores": [
+        "Beisebol",
+        "Softbol",
+        "Rounders"
+      ],
+      "ancora": {
+        "nome": "Críquete",
+        "descricao": "Esporte de bastão e bola entre duas equipes de onze jogadores, disputado num campo com uma pista central e um wicket em cada ponta.",
+        "variantes": [
+          "Cricket"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A jaqueta traz o logotipo 'Michael Johnson Performance', texto que entrega o nome, e o retrato não mostra contexto olímpico."
+    }
+  ]
+}

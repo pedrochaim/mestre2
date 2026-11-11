@@ -413041,5 +413041,50 @@
       "autor": "Arte oficial dos detentores dos direitos, via superhero-api",
       "licenca": "Arte oficial; uso não comercial, sem licença livre"
     }
+  },
+  {
+    "id": "q20775",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "windsurfe",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década esta modalidade entrou no programa dos Jogos Olímpicos?",
+    "resposta": "Década de 1980",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Windsurfing",
+      "https://pt.wikipedia.org/wiki/Windsurfe"
+    ],
+    "imagem": {
+      "arquivo": "q20775.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hood_river_windsurfers_20060701_0759.jpeg",
+      "autor": "EncMstr",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20776",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "caeleb_dressel",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que edição dos Jogos Olímpicos este nadador conquistou cinco medalhas de ouro?",
+    "resposta": "Tóquio 2020",
+    "distratores": [
+      "Rio 2016",
+      "Londres 2012",
+      "Pequim 2008"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caeleb_Dressel",
+      "https://pt.wikipedia.org/wiki/Caeleb_Dressel"
+    ],
+    "imagem": {
+      "arquivo": "q20776.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Caeleb_Dressel_before_winning_100_fly_(42769914221)_(cropped).jpg",
+      "autor": "JD Lasica from Pleasanton, CA, US",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

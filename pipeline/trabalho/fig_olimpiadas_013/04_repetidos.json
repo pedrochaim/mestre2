@@ -1,0 +1,80 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década esta modalidade entrou no programa dos Jogos Olímpicos?",
+        "resposta": "Década de 1980"
+      },
+      "existentes": [
+        {
+          "id": "q14357",
+          "pergunta": "Que modalidade náutica praticam as duas pessoas em primeiro plano nesta foto?",
+          "resposta": "Windsurfe"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tenista é este?",
+        "resposta": "Andy Murray"
+      },
+      "existentes": [
+        {
+          "id": "q14997",
+          "pergunta": "Quem é este tenista britânico?",
+          "resposta": "Andy Murray"
+        },
+        {
+          "id": "q15670",
+          "pergunta": "Em que torneio de Grand Slam este tenista foi campeão em 2013 e em 2016?",
+          "resposta": "Wimbledon"
+        },
+        {
+          "id": "q16993",
+          "pergunta": "Andy Murray, campeão de Wimbledon pela Grã-Bretanha, nasceu em qual das nações do Reino Unido?",
+          "resposta": "Escócia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que esporte é este?",
+        "resposta": "Críquete"
+      },
+      "existentes": [
+        {
+          "id": "q00514",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Críquete"
+        },
+        {
+          "id": "q19941",
+          "pergunta": "No críquete, uma partida no formato teste, o mais tradicional entre seleções, é programada para durar até quantos dias?",
+          "resposta": "Cinco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Década de entrada nos Jogos Olímpicos é fato diferente de identificar a modalidade na foto."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14997",
+      "motivo": "Ambas pedem a identidade do tenista na imagem, com a mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q00514",
+      "motivo": "Pergunta idêntica, identificar o esporte (críquete) na imagem."
+    }
+  ]
+}
