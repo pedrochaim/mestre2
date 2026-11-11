@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este personagem aparece em que franquia de animação?",
+        "resposta": "Toy Story"
+      },
+      "existentes": [
+        {
+          "id": "q11910",
+          "pergunta": "Qual destes brinquedos americanos foi lançado primeiro?",
+          "resposta": "Senhor Cabeça de Batata"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer a franquia de animação do personagem (Toy Story); a existente pergunta qual brinquedo foi lançado primeiro. Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, imagem limpa e sem texto. A silhueta é uma massa sem contorno característico e pode ser confundida com outro personagem, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que estúdio criou este personagem?",
+      "resposta": "Warner Bros.",
+      "ancora": {
+        "nome": "Gaguinho",
+        "descricao": "Porquinho gago e de gravata-borboleta dos desenhos Looney Tunes e Merrie Melodies, da Warner Bros.",
+        "variantes": [
+          "Porky Pig",
+          "Porky"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "O dragão é o foco e reconhecível. O texto 'Capsule' no prédio não revela o nome do dragão.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Como se chama este dragão que concede desejos?",
+      "resposta": "Shenlong",
+      "distratores": [
+        "Porunga",
+        "Falkor",
+        "Haku"
+      ],
+      "ancora": {
+        "nome": "Shenlong",
+        "descricao": "Dragão místico de Dragon Ball, invocado com as esferas do dragão para realizar desejos.",
+        "variantes": [
+          "Shenron",
+          "Shen Long",
+          "Dragão Eterno"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, com boné e postura de braços abertos que dão contorno reconhecível na silhueta.",
+      "usar_silhueta": true,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem criou este personagem?",
+      "resposta": "Mauricio de Sousa",
+      "ancora": {
+        "nome": "Jeremias",
+        "descricao": "Menino de boné vermelho da Turma da Mônica, integrante da Turma do Bermudão, criado em 1960.",
+        "variantes": [
+          "Jerê"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cachorro sozinho, de corpo inteiro. A silhueta mostra focinho, orelha longa e cauda fina, e é reconhecível.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "De que personagem este cachorro é o animal de estimação?",
+      "resposta": "Mickey Mouse",
+      "ancora": {
+        "nome": "Pluto",
+        "descricao": "Cão de estimação amarelo do Mickey Mouse, nos desenhos da Disney.",
+        "variantes": [
+          "Pluto, o cachorro do Mickey"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Quadro de episódio com um único personagem em primeiro plano, bem reconhecível e sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que palhaço é este?",
+      "resposta": "Krusty, o Palhaço",
+      "distratores": [
+        "Bozo",
+        "Ronald McDonald",
+        "Pennywise"
+      ],
+      "ancora": {
+        "nome": "Krusty, o Palhaço",
+        "descricao": "Palhaço apresentador de TV de Os Simpsons, de cabelo verde e nariz vermelho.",
+        "variantes": [
+          "Krusty the Clown",
+          "Krusty"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto de divulgação do personagem, com figura pública caracterizada, em primeiro plano. O texto de jornais ao fundo não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que ator interpreta este personagem?",
+      "resposta": "Rainn Wilson",
+      "ancora": {
+        "nome": "Dwight Schrute",
+        "descricao": "Vendedor da Dunder Mifflin, de óculos e terno marrom, na série The Office.",
+        "variantes": [
+          "Dwight Kurt Schrute III"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro e sem texto do Flash original, com capacete alado, que o distingue de Barry Allen.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual é o nome civil deste herói da DC, criado em 1940?",
+      "resposta": "Jay Garrick",
+      "distratores": [
+        "Barry Allen",
+        "Wally West",
+        "Bart Allen"
+      ],
+      "ancora": {
+        "nome": "Flash (Jay Garrick)",
+        "descricao": "Primeiro Flash da DC Comics, de capacete metálico alado, estreado em Flash Comics #1, de 1940.",
+        "variantes": [
+          "Jay Garrick",
+          "Flash da Era de Ouro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, em fundo branco e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que quadrinista criou este personagem?",
+      "resposta": "Carl Barks",
+      "ancora": {
+        "nome": "Professor Pardal",
+        "descricao": "Pato inventor de óculos e chapéu amarelo, amigo do Donald e do Tio Patinhas nos quadrinhos Disney, criado em 1952.",
+        "variantes": [
+          "Gyro Gearloose"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Montagem de quatro pôsteres do filme S.C.O.O.B., com personagens diferentes e texto visível ('Zoinks!', 'Ruh-Roh!', título). Não mostra com clareza um único personagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cena de Toy Story com o Sr. Cabeça de Batata em primeiro plano. O texto 'Mr. Spee...' num brinquedo ao fundo não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Este personagem aparece em que franquia de animação?",
+      "resposta": "Toy Story",
+      "distratores": [
+        "Shrek",
+        "Carros",
+        "Procurando Nemo"
+      ],
+      "ancora": {
+        "nome": "Sr. Cabeça de Batata",
+        "descricao": "Brinquedo de batata com peças do rosto removíveis, personagem da franquia Toy Story, da Pixar.",
+        "variantes": [
+          "Mr. Potato Head"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Close claro do personagem, único, sem texto, com visual característico de Hunter x Hunter.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Gon Freecss",
+      "ancora": {
+        "nome": "Gon Freecss",
+        "descricao": "Garoto de cabelo espetado e roupa verde, protagonista de Hunter x Hunter, que busca o pai, Ging.",
+        "variantes": [
+          "Gon",
+          "Gon Freecs"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ilustração clara de Sinestro, com pele vermelha, cabelo com mecha branca e traje amarelo, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que dupla criou este vilão?",
+      "resposta": "John Broome e Gil Kane",
+      "distratores": [
+        "Bob Kane, Bill Finger",
+        "Gardner Fox, Julius Schwartz",
+        "Siegel e Shuster"
+      ],
+      "ancora": {
+        "nome": "Sinestro",
+        "descricao": "Thaal Sinestro, vilão da DC Comics, ex-Lanterna Verde de pele vermelha e anel amarelo.",
+        "variantes": [
+          "Thaal Sinestro"
+        ]
+      }
+    }
+  ]
+}
