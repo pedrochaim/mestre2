@@ -1,0 +1,903 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1913, que engenheiro nascido na Suécia e radicado nos Estados Unidos aperfeiçoou o fecho de dentes que deu origem ao zíper moderno?",
+        "resposta": "Gideon Sundback"
+      },
+      "existentes": [
+        {
+          "id": "q00932",
+          "pergunta": "Em 1923, a fabricante de pneus Goodrich criou o nome zipper ao usar o fecho deslizante em que tipo de calçado?",
+          "resposta": "Galochas de borracha"
+        },
+        {
+          "id": "q15899",
+          "pergunta": "Que inventor americano apresentou uma versão primitiva deste fecho na Feira Mundial de Chicago, em 1893?",
+          "resposta": "Whitcomb L. Judson"
+        },
+        {
+          "id": "q18547",
+          "pergunta": "Em Portugal, o zíper se chama fecho éclair, nome tirado de uma marca francesa. O que significa a palavra éclair?",
+          "resposta": "Relâmpago"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O fecho deslizante que o americano Whitcomb Judson apresentou em 1893, ancestral do zíper, foi pensado para fechar o quê?",
+        "resposta": "Sapatos e botas"
+      },
+      "existentes": [
+        {
+          "id": "q00932",
+          "pergunta": "Em 1923, a fabricante de pneus Goodrich criou o nome zipper ao usar o fecho deslizante em que tipo de calçado?",
+          "resposta": "Galochas de borracha"
+        },
+        {
+          "id": "q15899",
+          "pergunta": "Que inventor americano apresentou uma versão primitiva deste fecho na Feira Mundial de Chicago, em 1893?",
+          "resposta": "Whitcomb L. Judson"
+        },
+        {
+          "id": "q18547",
+          "pergunta": "Em Portugal, o zíper se chama fecho éclair, nome tirado de uma marca francesa. O que significa a palavra éclair?",
+          "resposta": "Relâmpago"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que químico inglês criou uma lâmpada incandescente na mesma época de Thomas Edison e depois se associou a ele numa empresa?",
+        "resposta": "Joseph Swan"
+      },
+      "existentes": [
+        {
+          "id": "q03730",
+          "pergunta": "Que tipo de lâmpada é esta?",
+          "resposta": "Incandescente"
+        },
+        {
+          "id": "q07319",
+          "pergunta": "Nas lâmpadas incandescentes comuns, o filamento que brilha ao esquentar é feito de qual metal, de altíssimo ponto de fusão?",
+          "resposta": "Tungstênio"
+        },
+        {
+          "id": "q08731",
+          "pergunta": "Por volta de 1880, Thomas Edison fez suas lâmpadas durarem muito mais com um filamento feito de que planta carbonizada?",
+          "resposta": "Bambu"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No século dezenove, antes da patente americana de Sholes, que padre paraibano construiu uma máquina de escrever premiada numa exposição nacional?",
+        "resposta": "Francisco João de Azevedo"
+      },
+      "existentes": [
+        {
+          "id": "q01611",
+          "pergunta": "Que máquina antiga de escritório é esta?",
+          "resposta": "Máquina de escrever"
+        },
+        {
+          "id": "q02115",
+          "pergunta": "Em que década foram lançadas as primeiras máquinas comerciais deste tipo?",
+          "resposta": "Década de 1870"
+        },
+        {
+          "id": "q03604",
+          "pergunta": "Em 1873, que fabricante americano de armas assumiu a produção da máquina de escrever de Christopher Sholes?",
+          "resposta": "Remington"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1795, com a França sem acesso ao grafite inglês, que inventor francês criou a mistura de grafite e argila usada até hoje nos lápis?",
+        "resposta": "Nicolas-Jacques Conté"
+      },
+      "existentes": [
+        {
+          "id": "q05069",
+          "pergunta": "Que material forma o miolo deste objeto?",
+          "resposta": "Grafite"
+        },
+        {
+          "id": "q07342",
+          "pergunta": "No fim do século dezenove, muitos lápis passaram a ser pintados de amarelo, cor da realeza de um país de onde vinha grafite de qualidade. Que país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q08729",
+          "pergunta": "O miolo do lápis não tem chumbo: ele é feito de grafite misturado com qual material?",
+          "resposta": "Argila"
+        },
+        {
+          "id": "q15691",
+          "pergunta": "Em latim, a palavra lapis, que deu origem ao nome do lápis, significava o quê?",
+          "resposta": "Pedra"
+        },
+        {
+          "id": "q18550",
+          "pergunta": "Muitos lápis têm o corpo de seis lados, em vez de redondo. Que problema esse formato ajuda a evitar?",
+          "resposta": "Rolar da mesa"
+        },
+        {
+          "id": "q19115",
+          "pergunta": "No século dezesseis, a descoberta de uma grande jazida de grafite puro levou à fabricação dos primeiros lápis. Em que país ela ficava?",
+          "resposta": "Inglaterra"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1679, em Londres, que físico francês apresentou o digestor a vapor, um caldeirão vedado considerado o ancestral da panela de pressão?",
+        "resposta": "Denis Papin"
+      },
+      "existentes": [
+        {
+          "id": "q02998",
+          "pergunta": "Por que a panela de pressão cozinha os alimentos mais depressa que uma panela comum?",
+          "resposta": "A água ferve acima de cem graus"
+        },
+        {
+          "id": "q02999",
+          "pergunta": "Que físico francês inventou, em 1679, o digestor a vapor, ancestral da panela de pressão?",
+          "resposta": "Denis Papin"
+        },
+        {
+          "id": "q03729",
+          "pergunta": "Que utensílio de cozinha é este?",
+          "resposta": "Panela de pressão"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em 1968, que químico da empresa 3M criou por acaso uma cola fraca que, anos depois, daria origem ao Post-it?",
+        "resposta": "Spencer Silver"
+      },
+      "existentes": [
+        {
+          "id": "q00883",
+          "pergunta": "Art Fry, da empresa 3M, pensou no Post-it porque seus marcadores de página viviam caindo de um livro que ele usava no coral da igreja. Que livro?",
+          "resposta": "O hinário"
+        },
+        {
+          "id": "q07048",
+          "pergunta": "Que empresa americana de Minnesota, também conhecida pelas fitas adesivas, lançou os bloquinhos Post-it?",
+          "resposta": "3M"
+        },
+        {
+          "id": "q08741",
+          "pergunta": "Em 1968, o químico Spencer Silver tentava criar uma cola superforte, mas obteve a do futuro post-it. Que característica ela tinha?",
+          "resposta": "Colava fraco e descolava fácil"
+        },
+        {
+          "id": "q16862",
+          "pergunta": "A cola fraca do post-it foi criada em 1968, mas os bloquinhos só foram lançados em todos os Estados Unidos em que ano?",
+          "resposta": "1980"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em 1999, que designer japonês criou, para uma operadora de celular, um conjunto de cento e setenta e seis emojis que hoje está no Museu de Arte Moderna de Nova York?",
+        "resposta": "Shigetaka Kurita"
+      },
+      "existentes": [
+        {
+          "id": "q00878",
+          "pergunta": "Apesar da semelhança, a palavra emoji não tem relação com emoção. Ela junta duas palavras japonesas que significam o quê?",
+          "resposta": "Imagem e caractere"
+        },
+        {
+          "id": "q03428",
+          "pergunta": "Apesar de lembrar a palavra emoção, o termo emoji vem de qual língua?",
+          "resposta": "Japonês"
+        },
+        {
+          "id": "q15960",
+          "pergunta": "Em 2016, o conjunto original de emojis, criado para a operadora japonesa NTT Docomo, entrou no acervo de qual museu?",
+          "resposta": "MoMA, em Nova York"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1896, a primeira escada rolante em funcionamento, uma esteira inclinada criada por Jesse Reno, foi instalada como atração em qual área de lazer de Nova York?",
+        "resposta": "Coney Island"
+      },
+      "existentes": [
+        {
+          "id": "q07336",
+          "pergunta": "A palavra inglesa escalator, para escada rolante, foi marca registrada até 1950. De qual empresa?",
+          "resposta": "Otis"
+        },
+        {
+          "id": "q07638",
+          "pergunta": "Que equipamento é este?",
+          "resposta": "Escada rolante"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em meados do século dezenove, os irmãos Lundström passaram a fabricar em massa o fósforo de segurança, que virou um grande produto de exportação de qual país?",
+        "resposta": "Suécia"
+      },
+      "existentes": [
+        {
+          "id": "q03155",
+          "pergunta": "O fósforo de segurança, que só acende riscado na lixa da caixa, foi desenvolvido no século dezenove em que país?",
+          "resposta": "Suécia"
+        },
+        {
+          "id": "q07314",
+          "pergunta": "No fósforo de segurança, o fósforo vermelho que ajuda a produzir a chama não fica na cabeça do palito. Onde ele fica?",
+          "resposta": "Na lixa da caixa"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Apesar do nome, a prensa francesa, no formato conhecido hoje, foi patenteada em 1929 por designers de qual país?",
+        "resposta": "Itália"
+      },
+      "existentes": [
+        {
+          "id": "q15853",
+          "pergunta": "Que utensílio é este?",
+          "resposta": "Prensa francesa"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Fundada em 1932 por um carpinteiro, a fabricante de brinquedos Lego tem sede até hoje em qual pequena cidade da Dinamarca?",
+        "resposta": "Billund"
+      },
+      "existentes": [
+        {
+          "id": "q00876",
+          "pergunta": "O nome da fabricante de blocos de montar Lego vem de uma expressão em dinamarquês. O que ela significa?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03782",
+          "pergunta": "Em dinamarquês, a expressão que deu origem ao nome da marca de brinquedos Lego quer dizer o quê?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03783",
+          "pergunta": "Em 1932, qual carpinteiro dinamarquês fundou a pequena fábrica de brinquedos de madeira que viria a se chamar Lego?",
+          "resposta": "Ole Kirk Christiansen"
+        },
+        {
+          "id": "q07061",
+          "pergunta": "O tijolinho de plástico da Lego, com o sistema de encaixe usado até hoje, foi patenteado em que ano?",
+          "resposta": "1958"
+        },
+        {
+          "id": "q15700",
+          "pergunta": "Seis peças de Lego retangulares, do tipo dois por quatro e da mesma cor, podem ser encaixadas de quantas maneiras diferentes?",
+          "resposta": "Cerca de 915 milhões"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Melitta Bentz patenteou o filtro de papel para café em 1908 e, no mesmo ano, fundou sua empresa em qual cidade alemã?",
+        "resposta": "Dresden"
+      },
+      "existentes": [
+        {
+          "id": "q00912",
+          "pergunta": "Em 1908, a alemã Melitta Bentz furou uma panela de latão e criou o filtro de café com um papel absorvente. De onde ela tirou esse papel?",
+          "resposta": "Do caderno escolar do filho"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em setembro de 1752, onze dias foram pulados quando qual país, junto com suas colônias na América, trocou o calendário juliano pelo gregoriano?",
+        "resposta": "Grã-Bretanha"
+      },
+      "existentes": [
+        {
+          "id": "q00913",
+          "pergunta": "Ao adotar o calendário gregoriano em outubro de 1582, países como Espanha, Portugal e Itália pularam alguns dias para acertar com as estações. Quantos?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "A Rússia só adotou o calendário gregoriano em 1918. Por isso, a Revolução de Outubro de 1917 aconteceu, pelo nosso calendário, em que mês?",
+        "resposta": "Novembro"
+      },
+      "existentes": [
+        {
+          "id": "q00913",
+          "pergunta": "Ao adotar o calendário gregoriano em outubro de 1582, países como Espanha, Portugal e Itália pularam alguns dias para acertar com as estações. Quantos?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em julho de 1946, o francês Louis Réard apresentou o biquíni ao público numa famosa piscina de qual cidade?",
+        "resposta": "Paris"
+      },
+      "existentes": [
+        {
+          "id": "q00873",
+          "pergunta": "O biquíni recebeu o nome de um atol do Oceano Pacífico que tinha virado notícia em 1946. O que os Estados Unidos faziam lá?",
+          "resposta": "Testes nucleares"
+        },
+        {
+          "id": "q04077",
+          "pergunta": "Em julho de 1946, numa piscina de Paris, qual engenheiro francês apresentou o traje de banho de duas peças chamado biquíni?",
+          "resposta": "Louis Réard"
+        },
+        {
+          "id": "q20104",
+          "pergunta": "Para apresentar o biquíni em 1946, Louis Réard contratou uma dançarina de cassino, porque as modelos profissionais fizeram o quê?",
+          "resposta": "Recusaram-se a usá-lo"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "O viajante inglês Thomas Coryat conheceu o garfo na Itália e foi ridicularizado ao usá-lo de volta à Inglaterra. Em que século isso aconteceu?",
+        "resposta": "Século dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q07349",
+          "pergunta": "No começo do século onze, uma princesa causou escândalo em Veneza ao comer com um garfo de ouro. De que império ela vinha?",
+          "resposta": "Império Bizantino"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "A ampulheta mais antiga retratada com segurança aparece num afresco do pintor italiano Ambrogio Lorenzetti. Em que século ele foi pintado?",
+        "resposta": "Século quatorze"
+      },
+      "existentes": [
+        {
+          "id": "q01353",
+          "pergunta": "Que instrumento antigo de medir o tempo é este?",
+          "resposta": "Ampulheta (relógio de areia)"
+        },
+        {
+          "id": "q18562",
+          "pergunta": "Nos navios antigos, marinheiros jogavam ao mar uma tábua presa a uma corda e cronometravam com uma ampulheta. Que unidade de velocidade nasceu disso?",
+          "resposta": "Nó"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Em Londres, o guarda-chuva era visto como coisa de mulher até que o inglês Jonas Hanway passou a usá-lo nas ruas. Em que século?",
+        "resposta": "Século dezoito"
+      },
+      "existentes": [
+        {
+          "id": "q01150",
+          "pergunta": "Que objeto é este?",
+          "resposta": "Guarda-chuva"
+        },
+        {
+          "id": "q18543",
+          "pergunta": "Em inglês, o guarda-chuva se chama umbrella, palavra de origem latina. A que ideia essa raiz latina se refere?",
+          "resposta": "Sombra"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "O nome Velcro junta o começo de duas palavras francesas que descrevem as duas faces do fecho. Que palavras são essas?",
+        "resposta": "Veludo e gancho (velours e crochet)"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        },
+        {
+          "id": "q00933",
+          "pergunta": "O nome velcro junta duas palavras francesas: velours, que significa veludo, e qual outra, que significa gancho?",
+          "resposta": "Crochet"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Na Argentina, a caneta esferográfica tem um apelido formado pelos sobrenomes do seu inventor húngaro e de um sócio dele. Que nome é esse?",
+        "resposta": "Birome"
+      },
+      "existentes": [
+        {
+          "id": "q00899",
+          "pergunta": "Que jornalista húngaro, que depois se mudou para a Argentina, patenteou em 1938 a caneta esferográfica moderna?",
+          "resposta": "László Bíró"
+        },
+        {
+          "id": "q08727",
+          "pergunta": "Entre estes instrumentos de escrita, qual foi o último a ser inventado?",
+          "resposta": "Caneta esferográfica"
+        },
+        {
+          "id": "q08728",
+          "pergunta": "Na década de 1940, o húngaro László Bíró começou a fabricar sua caneta esferográfica em que país sul-americano?",
+          "resposta": "Argentina"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O nome Tamagotchi junta a palavra japonesa para ovo com uma palavra de origem inglesa. Qual é ela?",
+        "resposta": "Watch (relógio)"
+      },
+      "existentes": [
+        {
+          "id": "q04504",
+          "pergunta": "O Tamagotchi, bichinho virtual em forma de ovo que precisava ser alimentado e limpo, foi lançado no Japão em que década?",
+          "resposta": "Anos noventa"
+        },
+        {
+          "id": "q07402",
+          "pergunta": "O nome do bichinho virtual Tamagotchi junta watch, relógio em inglês, com tamago, palavra japonesa que significa o quê?",
+          "resposta": "Ovo"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "John Shepherd-Barron, criador do caixa eletrônico, pensou em senhas de seis dígitos, mas adotou só quatro. Por quê?",
+        "resposta": "A esposa só lembrava quatro dígitos"
+      },
+      "existentes": [
+        {
+          "id": "q04499",
+          "pergunta": "Em 1967, a primeira máquina de saque de dinheiro, criada por uma equipe liderada por John Shepherd-Barron, foi instalada numa agência do banco Barclays em qual cidade?",
+          "resposta": "Londres"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Segundo a história oficial da Sony, o Walkman nasceu porque o cofundador Masaru Ibuka queria ouvir ópera com conforto numa situação específica. Qual?",
+        "resposta": "Em viagens de avião"
+      },
+      "existentes": [
+        {
+          "id": "q04501",
+          "pergunta": "Muita gente associa o Walkman aos anos oitenta, mas a Sony lançou o tocador de fitas portátil antes. Em que ano?",
+          "resposta": "1979"
+        },
+        {
+          "id": "q19901",
+          "pergunta": "O primeiro modelo do Walkman, lançado pela Sony em 1979, tinha quantas entradas para fone de ouvido?",
+          "resposta": "Duas"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Em 1959, o americano Ermal Fraze criou o anel de abrir latas depois de passar um aperto num piquenique. O que tinha acontecido?",
+        "resposta": "Esqueceu o abridor de latas"
+      },
+      "existentes": [
+        {
+          "id": "q15706",
+          "pergunta": "O fundo das latas de refrigerante é curvado para dentro, como uma cúpula. Que força esse formato ajuda a lata a aguentar?",
+          "resposta": "A pressão do gás"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "O primeiro mouse, criado na equipe de Douglas Engelbart nos anos sessenta, tinha a carcaça feita de qual material?",
+        "resposta": "Madeira"
+      },
+      "existentes": [
+        {
+          "id": "q00902",
+          "pergunta": "Que engenheiro americano apresentou o mouse ao público em 1968, numa demonstração que ficou conhecida como a mãe de todas as demos?",
+          "resposta": "Douglas Engelbart"
+        },
+        {
+          "id": "q03466",
+          "pergunta": "O primeiro protótipo de mouse de computador, criado por Douglas Engelbart nos anos sessenta, tinha a carcaça feita de quê?",
+          "resposta": "Madeira"
+        },
+        {
+          "id": "q18546",
+          "pergunta": "O mouse do computador ganhou esse nome, que quer dizer camundongo em inglês, porque o fio lembrava qual parte do bicho?",
+          "resposta": "O rabo"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Para ter a forma de concha e ser leve e resistente ao tempo, o orelhão projetado por Chu Ming Silveira é feito de qual material?",
+        "resposta": "Fibra de vidro"
+      },
+      "existentes": [
+        {
+          "id": "q00897",
+          "pergunta": "Que arquiteta nascida em Xangai, na China, e radicada no Brasil projetou o orelhão no começo dos anos setenta?",
+          "resposta": "Chu Ming Silveira"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Antes dos cartões telefônicos, os orelhões funcionavam com uma peça metálica parecida com uma moeda, comprada em bancas e lojas. Como ela se chamava?",
+        "resposta": "Ficha telefônica"
+      },
+      "existentes": [
+        {
+          "id": "q00897",
+          "pergunta": "Que arquiteta nascida em Xangai, na China, e radicada no Brasil projetou o orelhão no começo dos anos setenta?",
+          "resposta": "Chu Ming Silveira"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "O logotipo do Bluetooth junta duas runas, letras do antigo alfabeto nórdico. Elas são as iniciais de quem?",
+        "resposta": "Haroldo Dente Azul (Harald Blåtand)"
+      },
+      "existentes": [
+        {
+          "id": "q00871",
+          "pergunta": "O nome Bluetooth homenageia um rei do século dez, apelidado de Dente Azul, que uniu as tribos de qual país?",
+          "resposta": "Dinamarca"
+        },
+        {
+          "id": "q06778",
+          "pergunta": "O nome da tecnologia sem fio Bluetooth homenageia qual rei viquingue do século dez?",
+          "resposta": "Haroldo Dente-Azul"
+        },
+        {
+          "id": "q15937",
+          "pergunta": "O símbolo do Bluetooth junta as iniciais do rei Haroldo Dente-Azul escritas em qual tipo de alfabeto?",
+          "resposta": "Runas nórdicas"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Em 1500, que escrivão da frota de Cabral descreveu, numa carta ao rei de Portugal, as redes atadas a esteios em que os indígenas dormiam?",
+        "resposta": "Pero Vaz de Caminha"
+      },
+      "existentes": [
+        {
+          "id": "q00879",
+          "pergunta": "As palavras hammock, em inglês, e hamaca, em espanhol, que designam a rede de dormir, vieram da língua de qual povo indígena do Caribe?",
+          "resposta": "Taínos"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Em 1974, num supermercado do estado americano de Ohio, qual foi o primeiro produto passado num leitor de código de barras?",
+        "resposta": "Um pacote de chiclete"
+      },
+      "existentes": [
+        {
+          "id": "q00893",
+          "pergunta": "Norman Woodland teve a ideia do código de barras na areia de uma praia de Miami, esticando para baixo os sinais de outro código. Qual?",
+          "resposta": "Código Morse"
+        },
+        {
+          "id": "q06775",
+          "pergunta": "A primeira compra com leitura de código de barras num caixa de supermercado americano foi um pacote de chiclete, em Ohio. Em que ano?",
+          "resposta": "1974"
+        },
+        {
+          "id": "q15702",
+          "pergunta": "Nos códigos de barras dos supermercados, os produtos registrados no Brasil costumam ter números que começam com qual sequência?",
+          "resposta": "789"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Em 1973, ao fazer a primeira ligação de um celular portátil, Martin Cooper telefonou para o principal rival na Bell Labs. Qual era o nome dele?",
+        "resposta": "Joel Engel"
+      },
+      "existentes": [
+        {
+          "id": "q04507",
+          "pergunta": "Em 1973, numa calçada de Nova York, o engenheiro Martin Cooper fez a primeira ligação de um celular portátil. Em que empresa ele trabalhava?",
+          "resposta": "Motorola"
+        },
+        {
+          "id": "q04780",
+          "pergunta": "Um brasileiro em Lisboa quer comprar um celular. Que palavra ele vai encontrar nas lojas portuguesas para esse aparelho?",
+          "resposta": "Telemóvel"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Em 1963, Harvey Ball levou cerca de dez minutos para desenhar a carinha amarela sorridente. Quanto ele recebeu pelo trabalho?",
+        "resposta": "Quarenta e cinco dólares"
+      },
+      "existentes": [
+        {
+          "id": "q04515",
+          "pergunta": "Em 1963, o artista americano Harvey Ball desenhou a carinha amarela sorridente para levantar o ânimo dos funcionários de que tipo de empresa?",
+          "resposta": "Uma seguradora"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "No sistema braille, cada letra é formada a partir de uma cela com quantos pontos possíveis em relevo?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q04506",
+          "pergunta": "Em 1824, que jovem francês, cego desde a infância, criou um sistema de leitura e escrita com pontos em relevo?",
+          "resposta": "Louis Braille"
+        },
+        {
+          "id": "q13112",
+          "pergunta": "O braile foi inspirado numa escrita em relevo criada para que soldados pudessem fazer o quê?",
+          "resposta": "Ler mensagens no escuro"
+        },
+        {
+          "id": "q13529",
+          "pergunta": "No braile, cada letra é formada numa pequena célula de pontos em relevo. Quantos pontos tem essa célula?",
+          "resposta": "Seis"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "O primeiro disquete, lançado pela IBM no começo dos anos setenta, tinha quantas polegadas?",
+        "resposta": "Oito polegadas"
+      },
+      "existentes": [
+        {
+          "id": "q15696",
+          "pergunta": "Em muitos programas de computador, o ícone do botão salvar continua sendo o desenho de qual objeto antigo de guardar arquivos?",
+          "resposta": "Disquete"
+        },
+        {
+          "id": "q19900",
+          "pergunta": "O disquete de três polegadas e meia, comum nos anos noventa, guardava quantos megabytes na sua versão mais usada?",
+          "resposta": "1,44 megabyte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o aperfeiçoador (Sundback); outros fatos são Goodrich, Judson, éclair."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta a finalidade do fecho de Judson (sapatos), não o inventor nem o nome zipper."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Joseph Swan é fato diferente de tungstênio, bambu."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Padre paraibano é fato distinto."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Conté como inventor da mistura é fato distinto; argila no miolo pergunta o material, não o inventor."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q02999",
+      "motivo": "Mesmo fato: Denis Papin e o digestor a vapor de 1679."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pergunta quem criou a cola (Spencer Silver); existentes pedem característica da cola, etc., e o nome aparece só no enunciado."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pergunta o designer; MoMA é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Local da primeira escada rolante é fato novo."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q03155",
+      "motivo": "Mesma resposta e fato: país do fósforo de segurança, Suécia."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "País de patente da prensa francesa é fato novo."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Sede em Billund é fato novo."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Cidade da empresa é fato diferente da origem do papel."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Grã-Bretanha em 1752 é fato diferente."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Mês da Revolução de Outubro é fato diferente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Cidade da apresentação aparece no enunciado de q04077, mas a pergunta é sobre a cidade; quem soubesse Réard não necessariamente responderia Paris... porém q04077 revela Paris no enunciado; ainda assim, dúvida, nova."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Século de Coryat é fato diferente."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Século do afresco de Lorenzetti é fato novo."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Século de Hanway é fato novo."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "id_existente": "q00933",
+      "motivo": "Mesmo fato: etimologia de Velcro, velours e crochet."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Apelido Birome é fato distinto."
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "id_existente": "q07402",
+      "motivo": "Mesmo fato: Tamagotchi = tamago + watch; só muda a direção."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Motivo dos quatro dígitos é fato novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Origem do Walkman é fato novo."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Origem do anel de abrir é fato novo."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "id_existente": "q03466",
+      "motivo": "Mesmo fato: carcaça de madeira do primeiro mouse."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Material do orelhão é fato novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Ficha telefônica é fato novo."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Quem as runas representam é fato novo; q06778 pergunta o rei homenageado no nome e q15937 o tipo de alfabeto; pergunta próxima mas diferente."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Caminha e a carta é fato novo."
+    },
+    {
+      "caso": 31,
+      "decisao": "repete",
+      "id_existente": "q06775",
+      "motivo": "Mesmo fato: primeiro produto lido foi um pacote de chiclete."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Rival Joel Engel é fato novo."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Valor pago é fato novo."
+    },
+    {
+      "caso": 34,
+      "decisao": "repete",
+      "id_existente": "q13529",
+      "motivo": "Mesmo fato: seis pontos da cela braille."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Tamanho do primeiro disquete é fato diferente."
+    }
+  ]
+}

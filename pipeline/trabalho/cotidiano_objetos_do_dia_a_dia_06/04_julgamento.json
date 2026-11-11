@@ -1,0 +1,183 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Selo postal",
+        "descricao": "Pequeno pedaço de papel adesivo que comprova o pagamento antecipado do envio de uma correspondência pelo correio.",
+        "variantes": [
+          "Selo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sealeo",
+          "nome": "Sealeo",
+          "descricao": "Pokémon dos tipos Gelo e Água, número 364 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "sahel",
+          "nome": "Sahel",
+          "descricao": "Faixa semiárida da África que se estende de leste a oeste logo ao sul do Deserto do Saara",
+          "variantes": [
+            "Sael"
+          ]
+        },
+        {
+          "id": "oslo",
+          "nome": "Oslo",
+          "descricao": "Capital e maior cidade da Noruega.",
+          "variantes": [
+            "Cristiânia",
+            "Christiania",
+            "Kristiania"
+          ]
+        },
+        {
+          "id": "gelo",
+          "nome": "Gelo",
+          "descricao": "Água no estado sólido, menos densa que a água líquida.",
+          "variantes": [
+            "Ice",
+            "Água congelada"
+          ]
+        },
+        {
+          "id": "pelourinho",
+          "nome": "Pelourinho",
+          "descricao": "Centro histórico de Salvador, na Bahia, com casario colonial, Patrimônio da UNESCO.",
+          "variantes": [
+            "Pelourinho (Salvador)",
+            "Pelô"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Papel higiênico",
+        "descricao": "Papel macio, em geral vendido em rolos, usado para a higiene pessoal depois de ir ao banheiro.",
+        "variantes": [
+          "Toilet paper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oriole_park_at_camden_yards",
+          "nome": "Oriole Park at Camden Yards",
+          "descricao": "Estádio de beisebol de Baltimore, Maryland, casa do Baltimore Orioles, inaugurado em 1992.",
+          "variantes": [
+            "Camden Yards",
+            "Oriole Park"
+          ]
+        },
+        {
+          "id": "perfil_genetico",
+          "nome": "Perfil genético",
+          "descricao": "Técnica de identificação de pessoas pelo DNA, criada por Alec Jeffreys e usada em perícias e testes de paternidade.",
+          "variantes": [
+            "Impressão digital genética",
+            "DNA profiling",
+            "Exame de DNA"
+          ]
+        },
+        {
+          "id": "tonle_sap",
+          "nome": "Tonlé Sap",
+          "descricao": "Sistema de lago e rio no Camboja ligado ao rio Mekong, cuja correnteza muda de sentido conforme a estação.",
+          "variantes": [
+            "Lago Tonlé Sap"
+          ]
+        },
+        {
+          "id": "argonauta",
+          "nome": "Argonauta",
+          "descricao": "Gênero Argonauta, polvos pelágicos cujas fêmeas secretam uma concha fina e frágil para guardar os ovos.",
+          "variantes": [
+            "Náutilo-de-papel",
+            "Paper nautilus"
+          ]
+        },
+        {
+          "id": "poke_ride",
+          "nome": "Poké Ride",
+          "descricao": "Recurso de Pokémon Sun e Moon que substitui as Máquinas Ocultas, permitindo chamar pokémon para montar e atravessar obstáculos.",
+          "variantes": [
+            "Ride Pager",
+            "Pokémon Ride"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Telefone",
+        "descricao": "Aparelho que transmite a voz a distância por meio de sinais elétricos, patenteado por Alexander Graham Bell em 1876.",
+        "variantes": [
+          "Telefone fixo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telefone",
+          "nome": "Telefone",
+          "descricao": "Aparelho de telecomunicação que transmite a voz à distância, aqui um modelo antigo de disco.",
+          "variantes": [
+            "Telefone de disco"
+          ]
+        },
+        {
+          "id": "telefone_sem_fio",
+          "nome": "Telefone sem fio",
+          "descricao": "Telefone portátil que se conecta por rádio a uma base ligada à rede telefônica pública.",
+          "variantes": [
+            "Telefone cordless",
+            "Cordless"
+          ]
+        },
+        {
+          "id": "pelo_telefone",
+          "nome": "Pelo Telefone",
+          "descricao": "Samba registrado em 1916 e gravado em 1917, considerado o primeiro samba gravado.",
+          "variantes": []
+        },
+        {
+          "id": "inteleon",
+          "nome": "Inteleon",
+          "descricao": "Pokémon do tipo Água, número 818 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "telefone_de_disco",
+          "nome": "Telefone de disco",
+          "descricao": "Disco giratório de discagem de telefones antigos, que transmite o número por pulsos.",
+          "variantes": [
+            "Disco de discar",
+            "Disco rotativo",
+            "Rotary dial"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é selo postal; são Pokémon, região, cidade, gelo e bairro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é papel higiênico; todas são entidades sem relação."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A candidata 'telefone' descreve um modelo antigo de disco específico, enquanto a proposta é o aparelho em geral, patenteado por Bell. Na dúvida, nova."
+    }
+  ]
+}

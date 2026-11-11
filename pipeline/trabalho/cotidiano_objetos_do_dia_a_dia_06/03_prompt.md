@@ -1,0 +1,1933 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Objetos do Dia a Dia** (tema **Cotidiano**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Zíper",
+      "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1913, que engenheiro nascido na Suécia e radicado nos Estados Unidos aperfeiçoou o fecho de dentes que deu origem ao zíper moderno?",
+    "resposta": "Gideon Sundback",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gideon_Sundback",
+      "https://en.wikipedia.org/wiki/Zipper"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gideon_Sundback",
+        "situacao": "ok",
+        "texto": "Otto Fredrik Gideon Sundbäck (April 24, 1880 – June 21, 1954) was a Swedish-American electrical engineer, who is most commonly associated with his work in the development of the zipper.\n[…]\nOtto Fredrik Gideon Sundbäck was born on Sonarp farm in Ödestugu Parish, in Jönköping County, Småland, Sweden. He was the son of Jonas Otto Magnusson Sundbäck, a prosperous farmer, and his wife Kristina Karolina Klasdotter. After his studies in Sweden, Sundbäck moved to Germany, where he studied at the polytechnic school in Bingen am Rhein, graduating in engineering in 1903. In 1905, he emigrated to the United States.\n[…]\nOn June 5, 1909, Sundbäck married (Naomi) Elvira Aronson, daughter of the Swedish-born mechanic and inventor Peter Aron Aronsson, in Hoboken, New Jersey.\n[…]\nIn 2006, Sundbäck was honored by inclusion in the National Inventors Hall of Fame for his work on the development of the zipper. On April 24, 2012, the 132nd anniversary of Sundbäck’s birth, Google changed the Google logo on its homepage to a Google Doodle of the zipper, which when opened revealed the results of a search for Gideon Sundbäck.\n[…]\nSundbäck's U.S. patent 1,219,881 (filed in 1914, issued in 1917):\n[…]\nFriedel, Robert (1996) Zipper: An Exploration in Novelty (W. W. Norton and Company) ISBN 0-393-31365-4"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Zipper",
+        "situacao": "ok",
+        "texto": "A zipper (N. America), zip, zip fastener (UK), formerly known as a clasp locker, is a commonly used device for binding together two edges of fabric or other flexible material. Used in clothing (e.g., jackets and jeans), luggage and other bags, camping gear (e.g., tents and sleeping bags), and many other items, zippers come in a wide range of sizes, shapes, and colors. In 1892, Whitcomb L. Judson, \n[…]\nZippers may:\n[…]\nSundbäck redesigned the Judson fastener to create a more durable design, and the zipper first went on sale in 1913.\n[…]\nSundbäck increased the number of fastening elements from four per inch (about one every 6.4 mm) to ten or eleven (around every 2.5 mm), introduced two facing rows of teeth that pulled into a single piece by the slider and increased the opening for the teeth guided by the slider. The patent for the \"Separable Fastener\" was issued in 1917. Gideon Sundbäck also created the manufacturing machine for the new device.\n[…]\nThe popular North American term zipper (UK zip, or occasionally zip-fastener) came from the B. F. Goodrich Company in 1923. The company used Gideon Sundbäck's fastener on a new type of rubber boots (or galoshes) and referred to it as the zipper, and the name stuck. The two chief uses of the zipper in its early years were for closing boots and tobacco pouches. Zippers began being used for clothing in 1925 by Schott NYC on leather jackets.\n[…]\n29 April 1913 U.S. patent 1,060,378: \"Separable fastener\" (Gideon Sundback)\n[…]\n20 March 1917 U.S. patent 1,219,881: \"Separable fastener\" (Gideon Sundback)\n[…]\nFrom U.S. patent 1,219,881, the following mechanism of the zipper improved by Gideon Sundback in 1917 is explained:\n[…]\nZipper storage bag\n[…]\nHow Zippers Work by S. M. Blinder, the Wolfram Demonstrations Project\n[…]\nThe History of the Zipper Archived 28 April 2020 at the Wayback Machine\n[…]\nType of Zippers\n[…]\nPutting in a Zipper, ca. 1962, Archives of Ontario YouTube Channel"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gideon_Sundb%C3%A4ck",
+        "situacao": "ok",
+        "texto": "Otto Fredrik Gideon Sundbäck (Jönköping, 24 de abril de 1880 — Meadville, 21 de junho de 1954) foi um engenheiro e inventor sueco que imigrou para os Estados Unidos. É associado a pesquisas de desenvolvimento do zíper.\n[…]\nOtto Fredrik Gideon Sundbäck nasceu em uma fazenda em Sonarp, na paróquia de Ödestugu (Ödestugu  på gården Sonarp), no condado de Jönköping, Småland, Suécia. Ele era filho de Jonas Otto Magnusson Sundbäck, um próspero fazendeiro, e sua esposa Kristina Karolina Klasdotter. Após seus estudos na Suécia, Sundbäck mudou-se para a Alemanha, onde estudou na escola politécnica em Bingen am Rhein. Em 1903, Sundbäck prestou o exame para engenharia elétrica.\n[…]\nDois anos mais tarde se mudou para os Estados Unidos.\n[…]\nEm 1905, Gideon Sundbäck começou a trabalhar na Westinghouse Electric and Manufacturing Company em Pittsburgh. Em 1906,  Sundbäck foi contratado para trabalhar para a Universal Fastener Company em Hoboken. Em 1909, Sundbäck casou com Elvira Aronson, filha do gerente da fábrica Peter Aronsson, nascida na Suécia. Subsequentemente Sundbäck foi promovido à posição de chefe projetista da Universal Fastener.\n[…]\nEm 2006, Sundbäck foi honrado com a sua inclusão no National Inventors Hall of Fame dos Estados Unidos por seu trabalho no desenvolvimento do zíper. Em 24 de abril de 2012, no 132º aniversário de seu nascimento, o Google publicou um Google Doodle de um zíper que quando aberto revelava o resultado da pesquisa para Gideon Sundback.\n[…]\nA Sundbäck foi atribuída nos Estados Unidos patente Nr. 1.219.881 (pedida em 1914 e atribuída em 1917) pelo invento do ziper (fecho Éclair).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Zíper",
+      "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados"
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O fecho deslizante que o americano Whitcomb Judson apresentou em 1893, ancestral do zíper, foi pensado para fechar o quê?",
+    "resposta": "Sapatos e botas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zipper",
+      "https://en.wikipedia.org/wiki/Whitcomb_L._Judson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zipper",
+        "situacao": "ok",
+        "texto": "A zipper (N. America), zip, zip fastener (UK), formerly known as a clasp locker, is a commonly used device for binding together two edges of fabric or other flexible material. Used in clothing (e.g., jackets and jeans), luggage and other bags, camping gear (e.g., tents and sleeping bags), and many other items, zippers come in a wide range of sizes, shapes, and colors. In 1892, Whitcomb L. Judson, \n[…]\nForty-two years later, in 1893, Whitcomb L. Judson patented a \"Shoe-Fastening\". Judson decided to develop a new shoelace alternative which replaced the standard boot laces for men and women. Judson secured a second patent through his \"clasp-locker\" design on August 29th of 1893. The initial prototype functioned despite having mechanical problems that resulted in jamming occurrences. Judson along with his partner Lewis Walker had implemented the device directly into their own boots.\n[…]\nSundbäck redesigned the Judson fastener to create a more durable design, and the zipper first went on sale in 1913.\n[…]\nForbes reported in 2003 that although the zipper market in the 1960s was dominated by Talon Zipper (US) and Optilon (Germany), Japanese manufacturer YKK grew to become the industry giant by the 1980s. YKK held 45 percent of world market share, followed by Optilon (8 percent) and Talon Zipper (7 percent). YKK enters zipper historical records only following the significant contributions from Howe, Judson, Sundback and the B.F. Goodrich Company.\n[…]\nZippers have entered into urban legends. American folklorist Jan Brunvand noted that \"The zipper has been the subject of jokes and legends since... the 1920s\". Those stories reflect \"modern anxieties and desires\", emphasizing embarrassments and accidents, primarily involving the flies of men's trousers in stories such as \"The Unzipped Stranger\" and \"The Unzipped Fly\".\n[…]\nType of Zippers\n[…]\nPutting in a Zipper, ca. 1962, Archives of Ontario YouTube Channel"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Whitcomb_L._Judson",
+        "situacao": "ok",
+        "texto": "Whitcomb L. Judson (March 7, 1843 – December 7, 1909) was an American machine salesman, mechanical engineer and inventor. He received thirty patents over a sixteen-year career, fourteen of which were on pneumatic street railway innovations. Six of his patents had to do with a motor mechanism suspended beneath the rail-car that functioned with compressed air. He founded the Judson Pneumatic Street \n[…]\nIn 1893, Judson exhibited his new invention at the Chicago World's Fair where it had its debut. Judson launched the Universal Fastener Company to manufacture his new invention, together with Harry L. Earle and Lewis Walker. The Universal Fastener Company started out in Chicago and then moved to Elyria, Ohio. It then moved to Catasauqua, Pennsylvania, and then to Hoboken, New Jersey. The name changed eventually to Automatic Hook and Eye Company.\n[…]\nIn 1913, the zipper was improved by the Swedish American engineer, Gideon Sundback, and also by Catharina Kuhn-Moos of Europe. Sundback successfully redesigned Judson's fastener into a more streamlined and reliable form called \"Talon.\" Automatic Hook and Eye Company then changed its name to the Hookless Fastener Company. In 1937 the Hookless Fastener Company became Talon, Inc.\n[…]\nIn 1918, a textile company manufactured flying suits for the United States Navy with this fastener. Judson's company received an order for thousands of their \"clasp-locker\" fasteners. Soon thereafter they appeared on gloves and tobacco pouches. The B. F. Goodrich company in 1923 installed these fasteners in their rubber galoshes, calling the new design \"Zippers.\" This then became the name of the fastener itself.\n[…]\nFriedel, Robert, Zipper: An Exploration in Novelty,  W. W. Norton & Company, 1996, ISBN 0-393-31365-4\n[…]\nGale, Robert L., The Gay Nineties in America: A Cultural Dictionary of the 1890s, Greenwood Press (1992), ISBN 0-313-27819-9"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Z%C3%ADper",
+        "situacao": "ok",
+        "texto": "Um zíper, fecho éclair, fecho ecler, zíper ou fecho de correr [PT]   é um fecho utilizado em roupas e em artefatos de couro feito de dois cadarços com dentes plásticos ou metálicos, que se encaixam por ação de um cursor.\n[…]\nA história do zíper, fecho éclair ou simplesmente \"fecho\" começou em 1893 na Exposição Mundial de Chicago, nos EUA, onde este objeto deslizante para fechar e abrir roupas foi apresentado pela primeira vez. Tratava-se de uma versão primitiva do dispositivo, com minúsculos ganchos e argolas, desenvolvida pelo engenheiro americano Whitcomb L. Judson. Cansado de abrir e fechar todos os dias os cordões dos seus sapatos, ele teve a ideia de criar um artefato rudimentar, composto de ganchos e furos.\n[…]\nPorém, esse tipo de zíper não era muito eficiente: não fechava com facilidade e abria em horas impróprias.\n[…]\nEmbora Whitcomb L. Judson tenha sido o inventor e tenha montado uma fábrica para a criação desta nova invenção, ele também era obrigado a fabricar botões. O zíper só começou a se popularizar quando começou a ser usado em outras peças de roupa que não calçados, e quando foi inventada em 1912, pelo sueco-americano Gideon Sundbäck, a versão do zíper que é conhecida hoje, com dentes que se engancham, o que tornou o dispositivo mais prático.\n[…]\nO nome \"zíper\" vem da palavra zipper, em inglês. Este nome popularizou-se somente em 1923, vindo de um funcionário da empresa americana B. F. Goodrich, em que o termo foi usado para denominar o fecho da nova linha de galochas de borracha da fábrica, chamada Zipper Boots.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Lâmpada incandescente",
+      "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que químico inglês criou uma lâmpada incandescente na mesma época de Thomas Edison e depois se associou a ele numa empresa?",
+    "resposta": "Joseph Swan",
+    "distratores": [
+      "Michael Faraday",
+      "Humphry Davy",
+      "James Watt"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joseph_Swan",
+      "https://en.wikipedia.org/wiki/Incandescent_light_bulb"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Joseph_Swan",
+        "situacao": "ok",
+        "texto": "Sir Joseph Wilson Swan (31 October 1828 – 27 May 1914) was an English physicist, chemist, and inventor. He is known as an independent early developer of a successful incandescent light bulb, and is responsible for developing the first use of incandescent lights used to illuminate homes and public buildings, including the Savoy Theatre, London, in 1881.\n[…]\nNonetheless, Joseph Swan and Thomas Edison are later reported to have used the Sprengel pump to evacuate their carbon filament lamps.\n[…]\nSwan married firstly Frances \"Fanny\" White, third daughter of William White, of Liverpool, at Camberwell Chapel, London, on 31 July 1862. They had three surviving children: Cameron, Mary Edmonds, and Joseph Henry. Frances died on 9 January 1868 and he married secondly Hannah White, the younger sister of Frances, at Neuchâtel, Switzerland, on 3 October 1871. They had five children: Hilda, Frances Isobel, Kenneth Rayden, Percival, and Dorothy.\n[…]\nSir Kenneth Rayden Swan was a QC and an acknowledged authority on patent law.\n[…]\nIn 1945, the London Power Company commemorated Swan by naming a new 1,554 GRT coastal collier SS Sir Joseph Swan.\n[…]\nSwan, M. E.; Swan, K. R. (1929). Sir Joseph Wilson Swan FRS: inventor and scientist. London: Ernest Benn, reprinted with an appendix, Newcastle upon Tyne: Oriel Press, 1968. ISBN 978-0853620488.\n[…]\nClouth, D. E. (1979). Joseph Swan 1828–1914: A pictorial account of a North Eastern scientist's life and work. Gateshead: Gateshead Metropolitan Borough Council, Dept of Education. ISBN 978-0905977072.\n[…]\nTyne & Wear Archives Service Archived 5 April 2007 at the Wayback Machine Joseph Swan collection\n[…]\n\"Swan, Sir Joseph Wilson\" . Encyclopædia Britannica (11th ed.). 1911.\n[…]\nGilman, D. C.; Peck, H. T.; Colby, F. M., eds. (1905). \"Swan, Joseph Wilson\" . New International Encyclopedia (1st ed.). New York: Dodd, Mead."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
+        "situacao": "ok",
+        "texto": "An incandescent light bulb, also known as an incandescent lamp or incandescent light globe, is an electric light that produces illumination by Joule heating a filament until it glows. The filament is enclosed in a glass bulb that is either evacuated or filled with inert gas to protect the filament from oxidation. Electric current is supplied to the filament by terminals or wires embedded in the gl\n[…]\nHistorians Robert Friedel and Paul Israel list inventors of incandescent lamps prior to Joseph Swan and Thomas Edison of General Electric.\n[…]\nHowever, Joseph Swan's incandescent light bulb predated Edison's and was sufficiently practical that it was actually installed and in daily use in London in 1881.\n[…]\nJoseph Swan (1828–1914) was a British physicist and chemist. In 1850, he began working with carbonized paper filaments in an evacuated glass bulb. By 1860, he was able to demonstrate a working device but the lack of a good vacuum and an adequate supply of electricity resulted in a short lifetime for the bulb and an inefficient source of light. By the mid-1870s better pumps had become available, and Swan returned to his experiments.\n[…]\nIt was shown to 700 who attended a meeting of the Literary and Philosophical Society of Newcastle upon Tyne on 3 February 1879. The society's building was the first public building to be lit by electricity. The lamps Swan demonstrated used a carbon rod from an arc lamp rather than a slender filament.\n[…]\nIn Britain, the Edison and Swan companies merged into the Edison and Swan United Electric Company (later known as Ediswan, and ultimately incorporated into Thorn Lighting Limited). Edison was initially against this combination, but he was eventually forced to cooperate and the merger was made. Eventually, Edison acquired all of Swan's interest in the company. Swan sold his US patent rights to the Brush Electric Company in June 1882."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Joseph_Wilson_Swan",
+        "situacao": "ok",
+        "texto": "Sir John Anthony Pople (31 de outubro de 1925 – 15 de março de 2004) foi um químico teórico britânico que foi premiado com o Prêmio Nobel de Química com Walter Kohn em 1998 por seu desenvolvimento de métodos computacionais em química quântica.\n[…]\nEle foi fundamental no desenvolvimento de um dos pacotes de química computacional mais amplamente utilizados, o conjunto de programas Gaussian, incluindo a coautoria da primeira versão, Gaussian 70. Uma de suas contribuições originais mais importantes é o conceito de uma química modelo, pela qual um método é rigorosamente avaliado em uma variedade de moléculas. Seu grupo de pesquisa desenvolveu os métodos de composição de química quântica, como Gaussian-1 (G1) e Gaussian-2 (G2).\n[…]\nEm 1991, Pople parou de trabalhar no Gaussian e, vários anos depois, ele desenvolveu (com outros) o programa de química computacional Q-Chem. A partida do Prof. Pople do Gaussian, juntamente com a subsequente proibição de muitos cientistas proeminentes, inclusive ele mesmo, de usar o software, deu origem a uma controvérsia considerável entre a comunidade de química quântica.\n[…]\nPople recebeu o Prêmio Wolf de Química em 1992 e o Prêmio Nobel de Química em 1998. Ele foi eleito Membro da Royal Society (FRS) em 1961. Foi nomeado Cavaleiro Comandante (KBE) da Ordem do Império Britânico em 2003. Foi membro fundador da International Academy of Quantum Molecular Science.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Máquina de escrever",
+      "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "No século dezenove, antes da patente americana de Sholes, que padre paraibano construiu uma máquina de escrever premiada numa exposição nacional?",
+    "resposta": "Francisco João de Azevedo",
+    "distratores": [
+      "Roberto Landell de Moura",
+      "Bartolomeu de Gusmão",
+      "Diogo Antônio Feijó"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Francisco_João_de_Azevedo",
+      "https://pt.wikipedia.org/wiki/Máquina_de_escrever"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Francisco_João_de_Azevedo",
+        "situacao": "ok",
+        "texto": "Francisco João de Azevedo (Parahyba, 1814 — Parahyba, 26 de julho de 1880) foi um padre católico e inventor brasileiro, mais conhecido pela invenção de uma máquina taquigráfica e de um elipsógrafo.\n[…]\nEm 23 de novembro de 1861 saiu publicado no Jornal de Recife:  Expositor o Pe FRANCISCO JOÃO D’AZEVEDO No 67 – uma machina para escrever. Foi o mais procurado dos objetos da exposição, e certamente merece pelo engenho com que está organizada. Eis aqui a sua descripção resumidamente: “Representa e tem a configuração de uma espécie de piano pequenino, com um teclado contendo 16 teclas, oito à esquerda e 8 à direita.\n[…]\nPela invenção da máquina de estenografar, Azevedo foi premiado com uma medalha de ouro, entregue pelo próprio imperador d. Pedro II. Dos 1 136 expositores, que exibiam um total de 9 962 objetos, somente nove tiveram tal honraria.\n[…]\nNo dia 19 de agosto de 1879, achando-se mudo e paralítico do lado direito, Francisco João de Azevedo se retirou para a Paraíba à procura de tratamento. Ele faleceu no dia 26 de julho de 1880, aos 66 anos de idade, sendo sepultado numa catacumba da Irmandade da Santa Casa da Misericórdia no Cemitério da Boa Sentença, no bairro do Varadouro, em João Pessoa (PB).\n[…]\nAZEVEDO, Francisco João de. Esclarecimentos sobre a máquina taquigráfica levada à Exposição Nacional pelo seu inventor o Padre Francisco João de Azevedo no ano de 1861. Rio de Janeiro: Tipografia Nacional, 1861.\n[…]\nAZEVEDO, Francisco João de. Deus e pátria. Recife: Typ. do Jornal do Recife, 1875.\n[…]\nVISONI, Rodrigo Moura. Francisco João de Azevedo e a invenção da máquina de escrever. Rio de Janeiro: Editora Tamanduá, 2018."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Máquina_de_escrever",
+        "situacao": "ok",
+        "texto": "A máquina de escrever, máquina datilográfica ou máquina de datilografia é um equipamento mecânico, eletromecânico ou eletrônico equipado com teclas que, quando acionadas, movimentam tipos, que imprimem letras, números e símbolos no papel, facilitando e dando maior agilidade ao processo de escrita.\n[…]\nEm 1861, o padre Francisco João de Azevedo, então tipógrafo, criou no Recife criou uma máquina de escrever em madeira jacarandá, com 16 pedais e parecia com um piano. Ele apresento-a na Exposição Agrícola e Industrial de Pernambuco, sendo premiado com a Medalha de Ouro pelo Imperador D. Pedro II. Sua invenção também era para ter sido exposta na Feira Mundial de Londres, mas por causa de seu tamanho significativo, acabou não sendo embarcada.\n[…]\nMuitos brasileiros, assim como o governo federal brasileiro, reconhecem o Pe. Azevedo como o inventor da máquina de escrever, uma afirmação que tem sido objeto de alguma polêmica. Em 1865, John Jonathon Pratt, de Centre, Alabama, construiu uma máquina chamada Pterotype que apareceu em um artigo de 1867 na revista Scientific American.\n[…]\nA primeira máquina de escrever com sucesso comercial foi patenteada em 1868 pelos americanos Christopher Latham Sholes, Frank Haven Hall, Carlos Glidden e Samuel W. Soule em Milwaukee, Wisconsin. Contudo, pouco tempo depois Sholes logo repudiou a máquina e se recusou a usá-la ou mesmo recomendá-la. O protótipo funcional foi feito pelo relojoeiro e maquinista Matthias Schwalbach. Hall, Glidden e Soule venderam suas ações na patente para a empresa Densmore and Sholes, que fez um acordo com a E.\n[…]\nRemington and Sons, então famosa como fabricante de máquinas de costura, para comercializar a máquina como Sholes e Glidden Type-Writer. Essa foi a origem do termo máquina de escrever (typewriter).\n[…]\nFrancisco João de Azevedo"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Lápis",
+      "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1795, com a França sem acesso ao grafite inglês, que inventor francês criou a mistura de grafite e argila usada até hoje nos lápis?",
+    "resposta": "Nicolas-Jacques Conté",
+    "distratores": [
+      "Antoine Lavoisier",
+      "Kaspar Faber",
+      "Louis Daguerre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nicolas-Jacques_Conté",
+      "https://en.wikipedia.org/wiki/Pencil"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nicolas-Jacques_Conté",
+        "situacao": "ok",
+        "texto": "Nicolas-Jacques Conté (French pronunciation: [nikɔla ʒak kɔ̃te]; 4 August 1755 – 6 December 1805) was a French inventor of the modern pencil.\n[…]\nHowever, from that time he gave free rein to his passion for the mechanical arts and scientific studies. He attended the lectures of Jacques Charles, Louis Nicolas Vauquelin and J. B. Leroy, and exhibited before the French Academy of Sciences an hydraulic machine of his own invention of which the model was the subject of a flattering report, and was placed in Charles's collection.\n[…]\nConté invented the modern pencil lead at the request of Lazare Nicolas Marguerite Carnot. The French Republic was at that time under economic blockade and unable to import graphite from Great Britain, the main source of the material. Carnot asked Conté to create a pencil that did not rely on foreign imports. After several days of research, Conté had the idea of mixing powdered graphite with clay and pressing the material between two half-cylinders of wood. Thus was formed the modern pencil.\n[…]\nConté received a patent for the invention in 1795 and formed la Société Conté to make them. He also invented the conté crayon named after him, a hard pastel stick used by artists.\n[…]\nAt the 1798 Exposition des produits de l'industrie française Conté won an honorable distinction, the highest award, for his \"crayons of various colours\".\n[…]\nAround 1795, he was associated with Gaspard Monge and Claude Louis Berthollet in experiments in connexion with the inflation of military balloons. During one experiment he was leading to produce hydrogen gas, a flask exploded and he lost his left eye."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pencil",
+        "situacao": "ok",
+        "texto": "A pencil ( ) is a writing or drawing implement with a solid pigment core in a protective casing that reduces the risk of core breakage and keeps it from marking the user's hand.\n[…]\nIn 1795, Nicolas-Jacques Conté discovered a method of mixing powdered graphite with clay and forming the mixture into rods that were then fired in a kiln. By varying the ratio of graphite to clay, the hardness of the graphite rod could also be varied. This method of manufacture, which was discovered earlier by the Austrian Joseph Hardtmuth, the founder of Vienna's Koh-I-Noor company in 1790, remains in use.\n[…]\nIn England, pencils continued to be made from whole sawn graphite. Henry Bessemer's first successful invention (1838) was a method of compressing graphite powder into solid graphite, thus allowing the waste from sawing to be reused.\n[…]\nInvented by Harold Grossman for the Empire Pencil Company in 1967, plastic pencils were subsequently improved upon by Arthur D. Little for Empire from 1969 through the early 1970s; Empire commercialised the plastic pencil as the \"EPCON\" Pencil. These pencils were co-extruded, extruding a plasticised graphite mix within a wood-composite core.\n[…]\nNumbers as designations were first used by Conté and later by John Thoreau in the 19th century.\n[…]\nAlthough Conté/Thoreau's equivalence table is widely accepted, not all manufacturers follow it; for example, Faber-Castell uses a different equivalence table in its Grip 2001 pencils: 1 = 2B, 2 = B, 2½ = HB, 3 = H, 4 = 2H.\n[…]\nPetroski, Henry (1991). \"H. D. Thoreau, Engineer\". American Heritage of Invention and Technology. 5 (2): 8–16. doi:10.1215/00382876-90-1-39. ISSN 0038-2876. S2CID 257782890. Retrieved 3 June 2023."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nicolas-Jacques_Cont%C3%A9",
+        "situacao": "ok",
+        "texto": "Nicolas-Jacques Conté (4 de agosto de 1755 - 6 de dezembro de 1805) foi um pintor, balonista e oficial do exército francês, e o inventor do lápis moderno.\n[…]\nNasceu em Saint-Céneri-près-Sées (hoje Aunou-sur-Orne), na Normandia, e destacou-se por seu gênio mecânico, que foi de grande utilidade para o exército francês no Egito. Napoleão chamou-o de \"um homem universal com bom gosto, compreensão e gênio capaz de criar as artes da França no meio do deserto da Arábia\".\n[…]\nNo Egito, Conté foi chamado a usar seus conhecimentos sobre balões e foi convidado a preparar um voo para a celebração do ano novo francês em 22 de setembro de 1798, de acordo com o calendário revolucionário.\n[…]\nConté inventou o lápis moderno, a pedido de Lazare Nicolas Marguerite Carnot. A República Francesa estava naquele momento sob bloqueio econômico, e incapaz de importar grafite da Grã-Bretanha, a principal fonte do material. Carnot pediu que Conté criasse um lápis que não dependesse de importações estrangeiras. Após vários dias de pesquisa, Conté teve a ideia de misturar grafite em pó com argila, e pressionar o material entre dois semicilindros de madeira. Assim foi formado o lápis moderno.\n[…]\nConté recebeu uma patente para a invenção em 1795, e formou a Société Conté para fazê-las. Ele também inventou o \"crayon conté\" nomeado em sua homenagem, um bastão de pastel duro usado por artistas.\n[…]\nNa Exposition des produits de l'industrie française, de 1798, Conté ganhou uma distinção honrosa, o prêmio mais alto, por seus \"lápis multicolores\". ==Referências==",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Panela de pressão",
+      "descricao": "Panela vedada que cozinha alimentos sob pressão de vapor acima da atmosférica."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1679, em Londres, que físico francês apresentou o digestor a vapor, um caldeirão vedado considerado o ancestral da panela de pressão?",
+    "resposta": "Denis Papin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Denis_Papin",
+      "https://en.wikipedia.org/wiki/Pressure_cooking"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Denis_Papin",
+        "situacao": "ok",
+        "texto": "Denis Papin FRS (French pronunciation: [dəni papɛ̃]; 22 August 1647 – 26 August 1713) was a French Huguenot physicist, mathematician and inventor, best known for his pioneering invention of the steam digester, the forerunner of the pressure cooker, the steam engine, the centrifugal pump, and a submersible boat.\n[…]\nDue to increasing repression on the Huguenots in France, he first visited London in 1675, where he worked with Robert Boyle from 1676 to 1679, publishing an account of his work in Continuation of New Experiments (1680). During this period, Papin invented the steam digester, a type of pressure cooker with a safety valve. He first addressed the Royal Society in 1679 on the subject of his digester, and remained mostly in London.\n[…]\nBoulevard Denis Papin in Carcassonne is named after him as well as a street in Saint-Michel, Montreal. There is also a statue of Papin with his invention in Blois, at the top of the Escalier Denis Papin, a stairway.\n[…]\nPorezag, Karsten (August 2020). \"Denis Papin (1647-1713) in Marburg und Kassel - Erfinder des Prinzips der atmosphärischen Kolbendampfmaschine und des Dampfschiff-Antriebes\" [Denis Papin (1647-1713) in Marburg and Kassel - inventor of the principle of the atmospheric piston steam engine and the steamship propulsion]. Hessische Heimat, Zeitschrift für Kunst, Kultur und Denkmalpflege [Hessian homeland] (in German) (1/2 ed.). Gesellschaft für Kultur- und Denkmalpflege. ISSN 0178-3173.\n[…]\nQuotations related to Denis Papin at Wikiquote\n[…]\nMedia related to Denis Papin at Wikimedia Commons\n[…]\nO'Connor, John J.; Robertson, Edmund F., \"Denis Papin\", MacTutor History of Mathematics Archive, University of St Andrews\n[…]\nWorks by or about Denis Papin at Wikisource\n[…]\nWorks by Denis Papin at Project Gutenberg\n[…]\nWorks by Denis Papin at Open Library"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pressure_cooking",
+        "situacao": "ok",
+        "texto": "A pressure cooker is a sealed vessel used for cooking food with the use of high pressure steam and water or a water-based liquid, in a process called pressure cooking. The high pressure limits boiling and permits cooking at higher temperatures, allowing food to be cooked faster than at normal pressure.\n[…]\nThe prototype of the modern pressure cooker was the steam digester invented in the seventeenth century by the physicist Denis Papin. It works by expelling air from the vessel and trapping steam produced from the boiling liquid. This is used to raise the internal pressure to one atmosphere above ambient and gives higher cooking temperatures between 100–121 °C (212–250 °F).\n[…]\nIn 1679, French physicist Denis Papin, better known for his studies on steam, invented the steam digester in an attempt to reduce the cooking time of food. His airtight cooker used steam pressure to raise the water's boiling point, thus cooking food quicker. In 1681 Papin presented his invention to the Royal Society of London as a scientific study; he was later elected as a member.\n[…]\nHaving crossed the Peuquenes [Piuquenes], we descended into a mountainous country, intermediate between the two main ranges, and then took up our quarters for the night. We were now in the republic of Mendoza. The elevation was probably not under 11,000 feet (3,400 m) [...]. At the place where we slept water necessarily boiled, from the diminished pressure of the atmosphere, at a lower temperature than it does in a less lofty country; the case being the converse of that of a Papin's digester.\n[…]\nPressure cookers are considerably more expensive than conventional saucepans of the same size."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Denis_Papin",
+        "situacao": "ok",
+        "texto": "Denis Papin (Blois, 22 de agosto de 1647 — Londres (?) 1712) foi um físico e inventor francês.\n[…]\nDenis Papin foi o inventor da célebre Marmita de Papin (máquina a vapor), apresentada em 1679, que precedeu a invenção do autoclave e da panela de pressão.\n[…]\nMembro da sociedade real de ciências da Inglaterra, preparou um jantar com uma panela diferente, fechada, para impressionar seus futuros colegas. Papin sabia do perigo de aquecer água em um recipiente fechado, pois a força exercida pelo vapor aquecido poderia explodir o recipiente. Por isso, criou uma válvula de segurança, que permitia o escape de parte desse vapor, evitando que a pressão passasse de certo valor limite.\n[…]\nEra um sistema rudimentar, mas serviu de modelo para as panelas de pressão utilizadas atualmente.\n[…]\nNouvelle manière pour lever l'eau par la force du feu ... par m. D. Papin. A Cassel: pour Jacob Estienne libraire de la cour : par Jean Gaspard Voguel imprimeur. 1707",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Post-it",
+      "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1968, que químico da empresa 3M criou por acaso uma cola fraca que, anos depois, daria origem ao Post-it?",
+    "resposta": "Spencer Silver",
+    "distratores": [
+      "Richard Drew",
+      "Harry Coover",
+      "Roy Plunkett"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spencer_Silver",
+      "https://en.wikipedia.org/wiki/Post-it_Note"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spencer_Silver",
+        "situacao": "ok",
+        "texto": "Spencer Ferguson Silver III (February 6, 1941 – May 8, 2021) was an American chemist and inventor who specialized in adhesives. 3M credits him with having devised the adhesive that Arthur Fry used to create Post-it Notes.\n[…]\nSpencer Ferguson Silver III was born in San Antonio, Texas, on February 6, 1941, to Bernice (née Wendt) and Spencer Silver Jr. His father was an accountant while his mother was a secretary. He majored in chemistry at Arizona State University, earning a B.S. in 1962, then earned a doctorate in organic chemistry from the University of Colorado at Boulder in 1966, before taking a position as a Senior Chemist in 3M's Central Research Labs.\n[…]\nSilver started his career at 3M's central research laboratory as a senior chemist focused on developing pressure sensitive adhesives. He started working in 1968 on trying to create a strong adhesive that could be used for aircraft construction. However, he failed in that objective and ended up developing a \"low-tack\" adhesive made of tiny acrylic spheres that would stick only where they were tangent to a given surface, rather than flat up against it.\n[…]\nSilver received several awards for his work, including the 1998 American Chemical Society Award for Creative Invention and induction into the National Inventors Hall of Fame in 2011. A book of Post-it notes is held in the design collection of the Museum of Modern Art (MoMA) in New York City, and both Silver and Fry are credited as the artists.\n[…]\nSilver received a heart transplant in 1994. He died at his home in St. Paul, Minnesota, on May 8, 2021, from ventricular tachycardia. He was 80 years old.\n[…]\nSpencer Silver at the Museum of Modern Art"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Post-it_Note",
+        "situacao": "ok",
+        "texto": "A Post-it note (or sticky note) is a small piece of paper with a re-adherable strip of glue on its back, made for temporarily attaching notes to documents and other surfaces. A low-tack pressure-sensitive adhesive allows the notes to be easily attached, removed, and even re-posted elsewhere without leaving residue. The Post-it's signature adhesive was discovered accidentally by a scientist at 3M.\n[…]\nIn 1968, Spencer Silver, a scientist at 3M in the United States, attempted to develop a super-strong adhesive. Instead, he accidentally created a \"low-tack\", reusable, pressure-sensitive adhesive for the aerospace industry. For five years, Silver promoted his \"solution without a problem\" within 3M both informally and through seminars, but failed to gain adherents.\n[…]\nSilver and Fry both concluded their careers at 3M after achieving the highest accolades for their research and receiving numerous international engineering awards.\n[…]\nIn 2000, the 20th anniversary of Post-it notes was celebrated by having artists create artworks on the notes. One such work, by the artist R. B. Kitaj, sold for £640 in an auction, making it the most valuable Post-it note on record.\n[…]\nSidewalks Labs, a Google-owned company that focuses on urban innovation, opened a public workspace in Quayside, Toronto, that supports public engagement in the city-planning process. Plans are presented here and the public can freely share their ideas, opinions, and feedback on potential projects, often in the form of Post-it note annotations.\n[…]\nPost-it homepage\n[…]\n\"Sticking around – the Post-it note is 20\". BBC News. 2000-04-06.\n[…]\nBeato, Greg (2005-03-24). \"Twenty-Five Years of Post-it Notes\". The Rake. Archived from the original on 2008-04-15.\n[…]\nPost-it Note History by 3M\n[…]\nStavroula Karapapa, (2019). Post-it note. In Claudy Op den Kamp and Dan Hunter (eds.), A History of Intellectual Property in 50 Objects, Cambridge University Press."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Spencer_Silver",
+        "situacao": "ok",
+        "texto": "Spencer Ferguson Silver (San Antonio, 6 de fevereiro de 1941 - Saint Paul, 8 de maio de 2021) foi um químico e inventor norte-americano. Junto com Art Fry, inventou o Post-it na década de 1970. Silver tem mais de 37 patentes, mas a sua invenção mais importante é o Post-it.\n[…]\nEle se formou em química no Arizona State University, em seguida, obteve um doutorado em química orgânica pela \"Universidade de Colorado\"', em 1966, antes de trabalhar como químico sênior da 3M (empresa onde trabalhou até 1996).\n[…]\nEm 1968, desenvolveu um adesivo, inicialmente tentando utilizar na construção de aeronaves (sem sucesso), mas com pequenas alterações, o produto tornou-se  um adesivo não muito pegajoso e leve. Neste momento, sem uso comercial, mas que em 1974, o seu colega Art Fry utilizou o produto para incorporar em pedaços de papel que usava para marcar o seu livro de coleção de canções. Com a ideia de um, utilizando o produto do outro, foi lançado em 1977 o Post-it.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Emoji",
+      "descricao": "Pictogramas usados em mensagens digitais, surgidos nos celulares japoneses no fim dos anos noventa."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1999, que designer japonês criou, para uma operadora de celular, um conjunto de cento e setenta e seis emojis que hoje está no Museu de Arte Moderna de Nova York?",
+    "resposta": "Shigetaka Kurita",
+    "distratores": [
+      "Shigeru Miyamoto",
+      "Satoshi Tajiri",
+      "Hideo Kojima"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shigetaka_Kurita",
+      "https://en.wikipedia.org/wiki/Emoji"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shigetaka_Kurita",
+        "situacao": "ok",
+        "texto": "Shigetaka Kurita (栗田 穣崇; born May 9, 1972, Gifu Prefecture, Japan) is a Japanese interface designer often cited for his early work with emoji sets. Many refer to him as the creator of the emoji, a claim that has been corrected and clarified in recent years. He was part of the team that created one of the first emojis used solely for communication, a heart-shaped pictogram that appeared on an NTT D\n[…]\nThis development and the aftermath of its use led Kurita to design a set of 176 colored emojis. Many of the general-use emojis used today by Unicode can be traced back to Kurita's set. He now works for Dwango Co. Ltd., a Japanese game company owned by Kadokawa Dwango Corporation.\n[…]\nOne of the most notable changes to other telecom companies that had started experimenting with emojis was the use and diversity of color in the set. Aside from basic numbers and shapes, the majority of the 176 emoji set contained color. The famous DTT DoCoMo heart remained as part of the set and was red. General-use emojis, such as sports, actions and weather, can easily be traced back to Kurita's emoji set.\n[…]\nThe yellow-faced emojis commonly used today evolved from other emoticon sets and cannot be traced back to Kurita's work.\n[…]\nIn 2016, the original set of 176 emojis was added to the collection of the Museum of Modern Art (MoMA) and was exhibited in the exhibition Inbox: The Original Emoji, by Shigetaka Kurita. Kurita's designs are held in the collection of the M+ museum in Hong Kong, and were included in the 2018 exhibition Being Modern: MoMA in Paris at the Fondation Louis Vuitton.\n[…]\nIn 2025, Kurita's original DoCoMo emojis were included in the MoMA's Pirouette: Turning Points in Design, an exhibition featuring \"widely recognized design icons [...] highlighting pivotal moments in design history.\"\n[…]\nShigetaka Kurita at the Museum of Modern Art"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Emoji",
+        "situacao": "ok",
+        "texto": "An emoji ( i-MOH-jee or  ee-MOH-jee; plural emoji or emojis; Japanese: 絵文字, pronounced [emoꜜ(d)ʑi]) is a pictogram, logogram, or ideogram embedded in text and used in electronic messages and web pages. The primary function of modern emoji is to fill in emotional cues otherwise missing from typed conversation as well as to replace words as part of a logographic system.\n[…]\nThe more well-known DoCoMo emoji set was created by Shigetaka Kurita in 1999 for NTT DoCoMo's i-mode, used on its mobile platform. They were intended to help facilitate electronic communication and to serve as a distinguishing feature from other services. According to interviews, he took inspiration from iconographic conventions in Japanese manga, as well as Chinese characters and street sign and weather pictograms.\n[…]\nThe DoCoMo i-Mode set included facial expressions, such as smiley faces, derived from a Japanese visual style commonly found in manga and anime, combined with kaomoji and smiley elements. Kurita's work is displayed in the Museum of Modern Art in New York City.\n[…]\nKurita's 176 emoji were brightly colored, albeit with a single color per grapheme. General-use emoji, such as sports, actions, and weather, can readily be traced back to Kurita's emoji set. The yellow-faced emoji in current use evolved from other emoticon sets and cannot be traced back to Kurita's work. Elsewhere in the 1990s, Nokia phones began including preset pictograms in its text messaging app, which they defined as \"smileys and symbols\".\n[…]\nIn October 2016, the Museum of Modern Art acquired the original collection of emoji distributed by NTT DoCoMo in 1999.\n[…]\nHouston, Keith (2025). Face with Tears of Joy: A Natural History of Emoji (First (trade paperback) ed.). New York: W. W. Norton & Company. ISBN 978-1-324-07514-1. OCLC 1455397262.\n[…]\nEmojipedia – an online encyclopedia of emoji and their branded variations"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Shigetaka_Kurita",
+        "situacao": "ok",
+        "texto": "Shigetaka Kurita (japonês: 栗田穣崇) (Gifu, 9 de maio de 1972) é um designer japonês. É conhecido por ser um dos principais criadores do emoji. Recentemente vem sendo citado como o criador dos emojis. Ele fez parte da equipe que criou um dos primeiros emojis usados exclusivamente para comunicação, um pictograma em forma de coração que apareceu em um software NTT DoCoMo destinado a adolescentes.\n[…]\nEsse desenvolvimento e as consequências de seu uso levaram Kurita a projetar um conjunto de 176 emojis coloridos. Muitos dos emojis de uso geral usados hoje pelo Unicode fizeram parte do conjunto de Kurita. Atualmente ele trabalha na Dwango Co. Ltd., uma empresa japonesa de jogos de propriedade da Kadokawa Dwango Corporation.\n[…]\nO conjunto de emojis NTT DoCoMo que ele criou está agora em exibição no Museu de Arte Moderna (MoMA) em Nova York.\n[…]\nEm entrevista ao jornal britânico The Guardian, Kurita disse que essa experiência deixou ele e outros na NTT DoCoMo sabendo que os símbolos tinham que fazer parte de futuros serviços de mensagens de texto.\n[…]\nEmoji significa simplesmente “pictograma” ou “ícone” em japonês.\n[…]\nPara fazer o conjunto de emojis, Kurita se inspirou no mangá japonês, onde os personagens são frequentemente desenhados com representações simbólicas chamadas de 'manpu' (como uma gota de água em um rosto representando nervosismo ou confusão), bem como em pictogramas meteorológicos,caracteres chineses e placas de rua.\n[…]\nA ausência notável do conjunto foi o uso de pictogramas que demonstravam emoção. Os emojis de rosto amarelo comumente usados hoje evoluíram de outros conjuntos de emoticons e não podem ser rastreados até o trabalho de Kurita.\n[…]\nO Museu de Arte Moderna recentemente adicionou o conjunto original de emojis à sua coleção e está atualmente em exibição no museu da cidade de Nova York.\n[…]\nEmoji\n[…]\nShigetaka Kurita no Linkedin",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Dia das Mães",
+      "descricao": "Data comemorativa em homenagem às mães, celebrada no Brasil no segundo domingo de maio."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No Brasil, que presidente oficializou o Dia das Mães por decreto, em 1932, fixando a data no segundo domingo de maio?",
+    "resposta": "Getúlio Vargas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dia_das_Mães"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_das_Mães",
+        "situacao": "ok",
+        "texto": "Dia das Mães (português brasileiro) ou Dia da Mãe (português europeu) é uma data comemorativa que homenageia anualmente a figura familiar materna (mãe) e a maternidade. A data de comemoração varia de acordo com o país. Em Portugal e nos PALOP, é comemorado maioritariamente no primeiro domingo do mês de maio, embora muitas igrejas protestantes, em Portugal, o façam no segundo domingo do mesmo mês, \n[…]\nJá no Brasil, como também na Itália, por exemplo, é no segundo domingo do mês de maio que o dia é celebrado.\n[…]\nReconhecida como idealizadora do Dia das Mães na sua forma atual, a metodista Anna Jarvis, iniciou uma campanha para que o Dia das Mães fosse um feriado reconhecido. Ela obteve sucesso ao torná-lo reconhecido nos Estados Unidos em 8 de maio de 1914, quando a resolução Joint Resolution Designating the Second Sunday in May as Mother's Day foi aprovada pelo Congresso dos Estados Unidos, instaurando o segundo domingo do mês de maio como Dia das Mães.\n[…]\nAos poucos, a festividade foi se espalhando pelo país e, em 1932, o então presidente Getúlio Vargas, a pedido das feministas da Federação Brasileira pelo Progresso Feminino, oficializou a data no segundo domingo de maio. A iniciativa fazia parte da estratégia das feministas de valorizar a importância das mulheres na sociedade, animadas com as perspectivas que se abriram a partir da conquista do direito de votar, em fevereiro do mesmo ano.\n[…]\nEm 1947, Dom Jaime de Barros Câmara, Cardeal-Arcebispo do Rio de Janeiro, determinou que essa data fizesse parte também no calendário oficial da Igreja Católica.\n[…]\nNo Brasil e nos Estados Unidos o Dia das Mães é a segunda melhor data do comércio, depois do Natal. A National Retail Federation (Federação Nacional de Varejo norte-americana) estimou para 2012 que os gastos para o Dia das Mães devem ultrapassar $18,6 bilhões ($152 por pessoa) nos Estados Unidos."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Papai Noel",
+      "descricao": "Personagem lendário que traz presentes no Natal"
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "No século dezenove, que cartunista americano, em desenhos de Natal para a revista Harper's Weekly, ajudou a fixar a imagem moderna do Papai Noel?",
+    "resposta": "Thomas Nast",
+    "distratores": [
+      "Norman Rockwell",
+      "Haddon Sundblom",
+      "Charles Schulz"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomas_Nast",
+      "https://en.wikipedia.org/wiki/Santa_Claus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thomas_Nast",
+        "situacao": "ok",
+        "texto": "Thomas Nast (; German: [nast]; September 26, 1840 – December 7, 1902) was a German-born American caricaturist and editorial cartoonist often considered to be the \"Father of the American Cartoon\".\n[…]\nContrary to popular belief, Nast did not create Uncle Sam (the male personification of the United States Federal Government), Columbia (the female personification of American values), or the Democratic donkey, although he did popularize those symbols through his artwork. Nast was associated with the magazine Harper's Weekly from 1859 to 1860 and from 1862 until 1886. Nast's influence was so widespread that Theodore Roosevelt once said, \"Thomas Nast was our best teacher.\"\n[…]\nHuntzicker, William E. (2017). \"Thomas Nast, Harper's Weekly, and the Election of 1876\". In Sachsman, David B. (ed.). After the War: The Press in a Changing America, 1865–1900. Routledge. pp. 53–68.\n[…]\nJarman, Baird (2010). \"The Graphic Art of Thomas Nast: Politics and Propriety in Postbellum Publishing\". American Periodicals. 20 (2): 156–189.\n[…]\nOrr, Brooke Speer (2014). \"Crusading Cartoonist: Thomas Nast\". Reviews in American History. 42 (2): 292–295. — review of Halloran (2012)\n[…]\nPflueger, Lynda (2000). Thomas Nast: Political Cartoonist. Historical American Biographies. Berkeley Heights, NJ: Enslow Publishers, Inc. — for middle schools\n[…]\nHalloran, Fiona Deans (2012). Thomas Nast: The Father of Modern Political Cartoons. Chapel Hill, North Carolina: The University of North Carolina Press. ISBN 9780807835876.\n[…]\nThomas Nast Caricatures of the Civil War, Reconstruction, Santa Claus, Napoleon, Catholicism, Boss Tweed, Tammany Hall and more.\n[…]\n\"Nast, Thomas\" . Appletons' Cyclopædia of American Biography. 1900."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Santa_Claus",
+        "situacao": "ok",
+        "texto": "Santa Claus is a legendary figure originating in Western Christian culture who is said to bring gifts during the late evening and overnight hours on Christmas Eve. Christmas elves are said to make the gifts in Santa's workshop, while flying reindeer pull his sleigh through the air.\n[…]\nOdin's role during the Yuletide period has been theorised as having influenced concepts of Saint Nicholas and Santa Claus in a variety of facets, including his long white beard and his grey horse for nightly rides (compare Odin's horse Sleipnir) or his reindeer in North American tradition.\n[…]\nAs the years passed, Santa Claus evolved into a large, heavyset person. One of the first artists to define the modern image of Santa Claus was Thomas Nast, a German-born American cartoonist of the 19th century who immortalised Santa Claus with an illustration for the 3 January 1863 issue of Harper's Weekly in which Santa was dressed in an American flag, and had a puppet with the name \"Jeff\" written on it, reflecting its American Civil War context.\n[…]\nNast was inspired by the Belsnickel, part of the folklore in southwestern Germany, where he was born. In this drawing, Santa is also in a sleigh pulled by reindeer.\n[…]\nSanta is generally depicted as a portly, jolly, white-bearded man, often with glasses, wearing a red outfit consisting of jacket, trousers and hat all trimmed with white fur, accessorised with black leather belt and boots, and carrying a bag full of gifts for children. The 1823 poem \"A Visit from St. Nicholas\" popularised this image in North America during the 19th century. The caricaturist and political cartoonist Thomas Nast also played a role in the creation of Santa's image.\n[…]\nResearch guides for Thomas Nast and Santa Claus at The Morristown & Morris Township Public Library, NJ"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Thomas_Nast",
+        "situacao": "ok",
+        "texto": "Thomas Nast ([næst]; de; 26 de setembro de 1840 – 7 de dezembro de 1902) foi um caricaturista e cartunista editorial americano nascido na Alemanha, frequentemente considerado o \"Pai do Cartum Americano\".\n[…]\nAo contrário da crença popular, Nast não criou o Tio Sam (a personificação masculina do Governo Federal dos Estados Unidos), Columbia (a personificação feminina dos valores americanos) ou o burro Democrata, embora tenha popularizado esses símbolos através de sua arte. Nast foi associado à revista Harper's Weekly de 1859 a 1860 e de 1862 até 1886. A influência de Nast foi tão ampla que Theodore Roosevelt certa vez disse: \"Thomas Nast foi nosso melhor professor.\"\n[…]\nEm 1890, Nast publicou Thomas Nast's Christmas Drawings for the Human Race. Ele contribuiu com cartuns em várias publicações, notavelmente o Illustrated American, mas não conseguiu recuperar sua popularidade anterior. Seu modo de fazer cartuns passou a ser visto como ultrapassado, e um estilo mais relaxado exemplificado pelo trabalho de Joseph Keppler estava em voga. Problemas de saúde, que incluíam dores nas mãos que o incomodavam desde a década de 1870, afetavam sua capacidade de trabalhar.\n[…]\nO Prêmio Thomas Nast de cartum editorial tem sido concedido pela Fundação Thomas Nast (localizada no local de nascimento de Nast, Landau, Alemanha) desde 1978, quando foi concedido pela primeira vez a Jeff MacNelly. O prêmio é concedido periodicamente a um cartunista alemão e a um cartunista norte-americano. Os vencedores recebem 1.300 euros, uma viagem a Landau e a medalha Thomas Nast. O comitê consultivo americano inclui o descendente de Nast, Thomas Nast III, de Fort Worth, Texas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Selo postal",
+      "descricao": "Pequeno pedaço de papel adesivo que comprova o pagamento antecipado do envio de uma correspondência pelo correio."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1837, que reformador inglês propôs um selo adesivo pago pelo remetente, ideia que levou ao lançamento do Penny Black em 1840?",
+    "resposta": "Rowland Hill",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rowland_Hill_(postal_reformer)",
+      "https://en.wikipedia.org/wiki/Penny_Black"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rowland_Hill_(postal_reformer)",
+        "situacao": "ok",
+        "texto": "Sir Rowland Hill, KCB, FRS (3 December 1795 – 27 August 1879) was an English teacher, inventor and social reformer. He campaigned for a comprehensive reform of the postal system, based on the concept of Uniform Penny Post and his solution of pre-payment, facilitating the safe, speedy and cheap transfer of letters.\n[…]\nRowland Hill first started to take a serious interest in postal reforms in 1835. In 1836 Robert Wallace, MP, provided Hill with numerous books and documents, which Hill described as a \"half hundred weight of material\". Hill commenced a detailed study of these documents and this led him to publish, in early 1837, a pamphlet called Post Office Reform its Importance and Practicability. He submitted a copy of this to the Chancellor of the Exchequer, Thomas Spring Rice, on 4 January 1837.\n[…]\nPenny Blue\n[…]\nFarrugia, Jean (1979). Sir Rowland Hill: reformer extraordinary 1795–1879: Some notes on his life and work. London: National Postal Museum.\n[…]\nHill, H.W. (1940). Rowland Hill and the Fight for the Penny Post. London: Frederick Warne & Co.\n[…]\nHill, Rowland (1985) [1837]. Post Office Reform: its Importance and Practicability (microform ed.). London: C Knight. ISBN 9780665216176.\n[…]\nMuller, Charli (2024). \"The Capitalist and Colonial Logics of Rowland Hill's Postal Reforms: Terra Nullius, Uniform Pricing, and 'Conveyance at the Lowest Rate'\". Monde(s). 26 (2): 51–73. doi:10.3917/mond1.226.0051.\n[…]\nSmyth, Eleanor C (1907). Sir Rowland Hill, the story of a great reform. London: T. Fisher Unwin. (Eleanor Smyth was Hill's daughter.)\n[…]\nSmyth, Eleanor Caroline (1907). \"Biography of Sir Rowland Hill\". (Extract from Smyth's Sir Rowland Hill; the story of a great reform)\n[…]\n\"Rowland Hill's Postal Reforms\". The British Postal Museum & Archive. Archived from the original on 18 January 2009. Retrieved 24 July 2009."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Penny_Black",
+        "situacao": "ok",
+        "texto": "The Penny Black was the world's first adhesive postage stamp used in a public postal system. It was first issued in the United Kingdom on 1 May 1840 but was not valid for use until 6 May. The stamp features a profile of 21-year-old Queen Victoria.\n[…]\nIn 1837, British postal rates were high, complex, and anomalous. To simplify matters, Sir Rowland Hill proposed an adhesive stamp to indicate pre-payment of postage. At the time it was normal for the recipient to pay postage on delivery, charged by the sheet and on distance travelled. By contrast, the Penny Black allowed letters of up to 1⁄2 ounce (14 grams) to be delivered at a flat rate of one penny, regardless of distance.\n[…]\nOn 13 February 1837, Sir Rowland Hill proposed to a government enquiry both the idea of a pre-paid stamp and a pre-paid envelope, a separate sheet folded to form an enclosure for carrying letters. Hill was given a two-year contract to run the new system, and together with Henry Cole he announced a competition to design the stamps.\n[…]\nThe Penny Black plays a prominent role in the novel, The Sweetness at the Bottom of the Pie, by Alan Bradley.\n[…]\nMuir, Douglas N. Postal Reform and the Penny Black: A New Appreciation. London: National Postal Museum, 1990 ISBN 0-951594-80-X\n[…]\nMuller, Charli (2024). \"The Capitalist and Colonial Logics of Rowland Hill's Postal Reforms: Terra Nullius, Uniform Pricing, and 'Conveyance at the Lowest Rate'\". Monde(s). 26 (2): 51–73. doi:10.3917/mond1.226.0051.\n[…]\nProud, Edward B. Penny Black Plates. Heathfield, East Sussex: International Postal Museum, 2015.\n[…]\nRigo de Righi, A. G. The Story of the Penny Black and Its Contemporaries. London: National Postal Museum, 1980 ISBN 0-9500018-7-2\n[…]\nThe 1840 Penny Black at the American National Postal Museum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rowland_Hill",
+        "situacao": "ok",
+        "texto": "Sir Rowland Hill, KCB, FRS (3 de dezembro de 1795 – 27 de agosto de 1879) foi um professor, inventor e reformador social inglês. Ele fez campanha por uma reforma abrangente do sistema postal, baseada no conceito do Penny Post uniforme e em sua solução de pré-pagamento, facilitando a transferência segura, rápida e barata de cartas.\n[…]\nHill argumentou que, se as cartas fossem mais baratas para enviar, as pessoas, incluindo as classes mais pobres, enviariam mais delas, aumentando assim os lucros eventualmente. Ao propor um selo adesivo para indicar o pré-pagamento da postagem – sendo o primeiro o Penny Black –, em 1840, o primeiro ano do Penny Post, o número de cartas enviadas no Reino Unido mais que dobrou. Dentro de 10 anos, dobrou novamente.\n[…]\nRowland Hill começou a se interessar seriamente por reformas postais em 1835. Em 1836, Robert Wallace, MP, forneceu a Hill numerosos livros e documentos, que Hill descreveu como \"meia centena de material\". Hill começou um estudo detalhado desses documentos e isso o levou a publicar, no início de 1837, um panfleto chamado Post Office Reform its Importance and Practicability. Ele enviou uma cópia deste para o Chanceler do Tesouro, Thomas Spring Rice, em 4 de janeiro de 1837.\n[…]\nFarrugia, Jean (1979). Sir Rowland Hill: reformer extraordinary 1795–1879: Some notes on his life and work. London: National Postal Museum\n[…]\nHill, Rowland (1837). Post Office Reform: its Importance and Practicability. London: C Knight. ISBN 9780665216176\n[…]\nMuller, Charli (2024). «The Capitalist and Colonial Logics of Rowland Hill's Postal Reforms: Terra Nullius, Uniform Pricing, and 'Conveyance at the Lowest Rate'». Monde(s). 26 (2): 51-73\n[…]\n«Rowland Hill's Postal Reforms». The British Postal Museum & Archive. Consultado em 24 de julho de 2009. Cópia arquivada em 18 de janeiro de 2009",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Selo postal",
+      "descricao": "Pequeno pedaço de papel adesivo que comprova o pagamento antecipado do envio de uma correspondência pelo correio."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1843, o Brasil lançou seus primeiros selos postais, com números grandes dentro de uma moldura oval. Que apelido eles ganharam por causa desse desenho?",
+    "resposta": "Olho-de-boi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bull's_Eye_(stamp)",
+      "https://en.wikipedia.org/wiki/Postage_stamps_and_postal_history_of_Brazil"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bull's_Eye_(stamp)",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Postage_stamps_and_postal_history_of_Brazil",
+        "situacao": "ok",
+        "texto": "Brazil is the fifth largest country in the world. It was a colony of Portugal from 1500 until 1815.\n[…]\nThe first stamps of Brazil were issued on 1 August 1843 and are known as \"Bull's Eyes\" due to their distinctive appearance. On 1 July 1844 a new series was issued which is known as the slanted numeral series. Subsequent stamps were in a similar format until the first pictorial stamps were issued in 1866 depicting Emperor Dom Pedro II\n[…]\nFor many years stamps from Brazil had Brasil Correio displayed on them. However, starting from 1973 stamps show the country name and year, e.g. Brasil 2000.\n[…]\nMayer, Peter. Encyclopaedic catalogue of the stamps and postal history of Brazil: from the origins to 1890. 1999.\n[…]\nStudart, Marcelo Gladio da Costa. Catálogo Histórico dos Selos do Império do Brasil (1843-1889). 1991.\n[…]\nStudart, Marcelo Gladio da Costa. Falsificações e Fraudações na Filatelia Brasileira. 1991. Awarded the Alvaro Bonilla Lara Medal in 1995 by the FIAF.\n[…]\nTaveira, Walter Gonçalves. Brasil 1844–1846: \"Inclinados\": selos do império do Brasol (segunda estampa). Editora O Lutador. Belo Horizonte, MG. Brasil: Fundação Belgo-Mineira, 2001."
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Escada rolante",
+      "descricao": "Escada mecânica de degraus móveis que transporta pessoas entre andares."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1896, a primeira escada rolante em funcionamento, uma esteira inclinada criada por Jesse Reno, foi instalada como atração em qual área de lazer de Nova York?",
+    "resposta": "Coney Island",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Escalator",
+      "https://en.wikipedia.org/wiki/Jesse_W._Reno"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Escalator",
+        "situacao": "ok",
+        "texto": "An escalator is a moving staircase which carries people between floors of a building or structure. It consists of a motor-driven chain of individually linked steps on a track which cycle on a pair of tracks which keep the step tread horizontal.\n[…]\nOn March 15, 1892, Jesse W. Reno patented the \"Endless Conveyor or Elevator.\" A few months after Reno's patent was approved, George A. Wheeler patented his ideas for a more recognizable moving staircase, though it was never built. Wheeler's patents were bought by Charles Seeberger; some features of Wheeler's designs were incorporated in Seeberger's prototype that was built by the Otis Elevator Company in 1899.\n[…]\nReno produced the first working escalator (called the \"inclined elevator\") and installed it alongside the Old Iron Pier at Coney Island, New York City, in 1896. This particular device was little more than an inclined belt with cast-iron slats or cleats on the surface for traction, and traveled along a 25 degree incline. A few months later, the same prototype was used for a month-long trial period on the Manhattan side of the Brooklyn Bridge.\n[…]\nAlso on display at the Exposition were Reno's inclined elevator, a similar model by James M. Dodge and the Link Belt Machinery Co., and two different devices by the French manufacturers Hallé and Piat.\n[…]\nMacy's Herald Square department store upwards escalators, New York, U.S., opened 1920s.\n[…]\nJesse Reno also designed the first escalators installed in any underground subway system in the form of a helical escalator at Holloway Road tube station in London in 1906. The experimental device never saw public use and its remains are now in the London Transport Museum's depot in Acton."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jesse_W._Reno",
+        "situacao": "ok",
+        "texto": "Jesse Wilford Reno (August 4, 1861 – June 2, 1947) was an American inventor and engineer. He invented the first working escalator in 1891 (patented March 15, 1892) used at the Old Iron Pier, Coney Island, New York City. His invention was referred to as the \"inclined elevator.\"  An earlier escalator machine, termed \"revolving stairs\" by its inventor Nathan Ames, was patented March 9, 1859, but was \n[…]\nReno was born in 1861 in Fort Leavenworth, Kansas. He was the son of American Civil War notable Jesse L. Reno. He graduated from Lehigh University in 1883 with an engineering degree in mining, later a metallurgical degree, where he was a member of Chi Phi fraternity.\n[…]\nReno was buried in Oak Hill Cemetery.\n[…]\nIt has been said that Reno's inspiration for the escalator stemmed from his time as an undergraduate. Not only does Lehigh's campus feature the highest residence hall east of the Mississippi, but also there are approximately three hundred stairs that must be climbed to ascend 100+ meters from the lowest point on campus to the Chi Phi fraternity house on South Mountain.\n[…]\nPatent US673890 Inclined Elevator"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escada_rolante",
+        "situacao": "ok",
+        "texto": "Uma escada rolante é um método de transporte que consiste em uma escada inclinada cujos degraus movem-se para cima ou para baixo permanecendo numa posição horizontal. São usados para transportar confortavelmente e rapidamente um grande número de pessoas, entre andares dum dado edifício, especialmente em shopping centers.\n[…]\nNathan Ames, um advogado de patentes de Saugus, Massachusetts, é creditado com o patenteamento da primeira \"escada rolante\" em 1859, apesar do fato de que nenhum modelo funcional de seu design foi construído.\n[…]\nJesse Reno projetou as primeiras escadas rolantes instaladas num sistema de metrô subterrâneo sob a forma de uma escada rolante helicoidal na estação de metrô de Holloway Road, em Londres, em 1906. O dispositivo experimental nunca viu uso público e seus restos encontram-se agora no depósito do London Transport Museum em Acton.\n[…]\nEm Portugal, as primeiras escadas rolantes foram instaladas nos Armazéns Grandella, no Chiado em Lisboa. As primeiras escadas rolantes integradas em redes de transportes públicos do país foram inauguradas na estação Parque do Metropolitano de Lisboa, a 29 de dezembro de 1959.\n[…]\nCentral–Mid-Levels escalator, 790 m: em Hong Kong, dezenas de milhares de pessoas viajam todos os dias úteis entre os níveis central e médio — um bairro residencial — usando este sistema de escadas e esteiras rolantes. É o sistema de escadas rolantes ao ar livre mais longo do mundo (não há um único intervalo). Vai apenas um sentido de cada vez; a direção inverte-se dependendo da direção do tráfego na hora de pico.\n[…]\nAs escadas rolantes mais longas do mundo estão instaladas nas estações subterrâneas profundas do Metrô de São Petersburgo. As estações Ploshchad Lenina, Tchernichevskaia e Admiralteiskaia têm escadas rolantes de até 138 m de comprimento e 69 m de altura.\n[…]\nEsteira rolante",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Fósforo de segurança",
+      "descricao": "Palito de fósforo que só acende quando riscado na superfície própria da caixa."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em meados do século dezenove, os irmãos Lundström passaram a fabricar em massa o fósforo de segurança, que virou um grande produto de exportação de qual país?",
+    "resposta": "Suécia",
+    "distratores": [
+      "Noruega",
+      "Alemanha",
+      "Inglaterra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Match",
+      "https://en.wikipedia.org/wiki/Johan_Edvard_Lundström"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Match",
+        "situacao": "ok",
+        "texto": "A match is a tool for starting a fire. Typically, matches are made of small wooden sticks or stiff paper. One end is coated with a material that can be ignited by friction generated by striking the match against a suitable surface. Wooden matches are packaged in matchboxes, and paper matches are partially cut into rows and stapled into matchbooks. The coated end of a match, known as the match \"hea\n[…]\nBy 1851, his company was producing the substance by heating white phosphorus in a sealed pot at a specific temperature. He exhibited his red phosphorus at the 1851 Great Exhibition in The Crystal Palace in London. Johan Edvard Lundström and his younger brother Carl Frans Lundström (1823–1917) had started a large-scale match industry in Jönköping, Sweden around 1847, but the improved safety match was not introduced until the early 1850s.\n[…]\nThe Lundström brothers had obtained a sample of red phosphorus matches from Albright at the Great Exhibition, but had misplaced it and therefore they did not try the matches until just before the 1855 Universal Exhibition in Paris, when they found that the matches were still usable. In 1858 their company produced around 12 million matchboxes.\n[…]\nThe Swedes long held a virtual worldwide monopoly on safety matches, with the industry mainly situated in Jönköping, by 1903 called Jönköpings & Vulcans Tändsticksfabriks AB today Swedish Match. In France, they sold the rights to their safety match patent to Coigent Père & Fils of Lyon, but Coigent contested the payment in the French courts, on the basis that the invention was known in Vienna before the Lundström brothers patented it.\n[…]\nThe British match manufacturer Bryant and May visited Jönköping in 1858 to try to obtain a supply of safety matches, but was unsuccessful. In 1862 it established its own factory and bought the rights for the British safety match patent from the Lundström brothers."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Johan_Edvard_Lundström",
+        "situacao": "ok",
+        "texto": "Johan Edvard Lundström (1815–1888) was a Swedish industrialist and inventor who pioneered the commercial production of safety matches.\n[…]\nLundström was born in 1815 in the town of Jönköping, Sweden.\n[…]\nThe Lundström safety match got an award at the “World Exhibition” in Paris 1855. Alexander Lagerman (1836–1904), a Swedish engineer who was employed by the Lundström brothers, invented the first fully automatic match machine. The safety match combined with the advanced machines that the company developed themselves, soon made the company in Jönköping the largest match company in Scandinavia and one of the world's largest match production companies.\n[…]\nLundström left the match business in 1863. It was later renamed Jönköping, then in 1903 merged with other match companies to become Jönköpings Tändsticksfabriks AB, finally sold to Ivar Kreuger in 1917. Kreuger incorporated the business into the company Svenska Tändsticks AB, today known as Swedish Match.\n[…]\nLundström worked at his cellulose factory, Munksjö Cellulose, in Jönköping that he had founded in 1862 together with Lars Johan Hierta. In 1869 he left the Munksjö factory and founded Katrinefors cellulose industry in Mariestad, but left that business in 1875. He then worked as a government inspector in the match industry between 1875–77 in Sweden and was to a great extent involved in the work to prevent and forbid the use of the dangerous white phosphorus."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Palito_de_f%C3%B3sforo",
+        "situacao": "ok",
+        "texto": "O palito de fósforo (fósforo de fricção) fabricado atualmente é um artigo, curto, fino, feito de madeira, papelão ou barbante encerado e apresentando oxidantes, enxofre e cola em uma das extremidades e que quando entra em atrito com a lixa, da parte externa da caixa, fabricada com dextrina, fósforo e trissulfeto de antimônio III (Sb2S3) se decompõe e arde diante de baixas temperaturas e incendeia \n[…]\nFoi nos Estados Unidos que Alonzo D. Phillips de Springfield obteve, em 1836, uma patente para “fabricar fósforos de fricção” e os chamou “locofocos”. Mas o perigo ainda era grande e só foi resolvido após a descoberta do fósforo vermelho, em 1845. Foi o sueco Carl Lundström que introduziu em 1855 fósforos seguros, também chamados fósforos de segurança.\n[…]\nAlém de ser fabricado com fósforo vermelho, para uma maior segurança, seus ingredientes inflamáveis foram colocados em dois locais distintos: na cabeça do palito e do lado de fora da caixa, junto com o material abrasivo.\n[…]\nJoshua Pusey levou adiante uma ideia e em 1889 patenteou fósforos de papelão, mas oito anos se passaram antes que alguém mostrasse interesse por seu invento. Fato que ocorreu em 1897, quando a Companhia de Ópera Mendelsohn o procurou. Eles queriam algo de diferente para divulgar a abertura da estação nova-iorquina. Pusey então, utilizou fósforos de papel com o nome da companhia impresso. A partir daí, os fósforos de papelão começaram a vender com incrível rapidez.\n[…]\nNo Brasil, o comerciante curitibano Olivo Carnascialli fundou, em 1913, a Cia. Fabril Paranaense com a finalidade de explorar a indústria do palito de fósforo, sendo desta forma um dos precursores dessa indústria no país. A Cia Fabril Paranaense foi inaugurada no final da Avenida Visconde de Guarapuava, que na época era o setor industrial da capital paranaense.\n[…]\nUma fábrica de palitos de fósforo na Rússia: sortimento de produções (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Prensa francesa",
+      "descricao": "Utensílio de cozinha com êmbolo e filtro de malha, usado para preparar café por infusão."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Apesar do nome, a prensa francesa, no formato conhecido hoje, foi patenteada em 1929 por designers de qual país?",
+    "resposta": "Itália",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/French_press"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/French_press",
+        "situacao": "ok",
+        "texto": "A French press, also known as a cafetière, cafetière à piston, caffettiera a stantuffo, press pot, coffee press or coffee plunger is a coffee brewing device, although it can also be used for other tasks. As a method of coffee preparation based on steeping the coffee grounds for a few minutes in hot water, the French press is a very simple device which can deliver an excellent coffee taste. Since i\n[…]\nIn Italian, it is known as a caffettiera a stantuffo; in German as a Pressstempelkanne, Stempelkanne (\"stamp pot\"), Stabfilterkanne, Kaffeepresse (\"coffee press\") or Bistrokanne.\n[…]\nOver the years, the French press has undergone several design modifications. The first coffee press, which may have been made in France, was the modern coffee press in its rudimentary form – a metal or cheesecloth screen fitted to a rod that users would press into a pot of hot water and coffee grounds. In 1852, two Frenchmen, a Paris metalsmith and a merchant, Henri-Otto Mayer and Jacques-Victor Delforge, patented a forerunner of the French press, that did not create a seal around the filter.\n[…]\nIn 1928, a coffee press was created by Milanese designers Giulio Moneta and Attilio Calimani which had a spring to seal the filter, and patented it in the United States in 1929. It underwent several design modifications through Faliero Bondanini, who patented his own version in 1958 and manufactured it in French clarinet factory Martin SA under the brand name Melior.\n[…]\nOne variation also called \"French pull\" or \"reverse French press\" uses a pull-design: the coffee grounds are placed in a mesh basket, which is then pulled into the lid after brewing, trapping the grounds out of the coffee. Others produce a similar effect by having shutters that can be closed via the top of the press, sealing the grounds off from the coffee entirely. French presses are also sometimes used to make cold brew coffee."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Prensa_francesa",
+        "situacao": "ok",
+        "texto": "A prensa francesa ou cafeteira francesa (em italiano caffettiera francese / a stantuffo, em francês cafetière à piston, em inglês french press pot ou coffee plunger, em alemão kaffeepresse) é um dispositivo manual de preparo de café por infusão (também usado em outras tarefas), protótipo criado em 1852 por franceses Meyer e Delforge.\n[…]\nEm 1923 o italiano Ugo Paolini patenteou um separador de suco de tomate e, desenvolveu a ideia da cafeteira com prensa e filtro, mas atribuiu em 1928 ao designer italiano Attilio Calimani e Giulio Moneta (que a depositou em 1929).\n[…]\nAo longo dos anos, a prensa francesa sofreu várias tentativas de design. A primeira prensa de café, que pode ter sido feita na França, foi a prensa de café na forma rudimentar – uma tela de metal ou olhar presa a uma pressa que os usuários pressionaram em uma panela de água quente e borra de café. Dois inventores franceses, Mayer e Delforge, patentearam em 1852 um precursor da prensa francesa, um dispositivo de filtragem de café usando pistão.\n[…]\nUma patente foi registrada por um francês, Marcel-Pierre Paquet dit Jolbert, publicada oficialmente em 5 de agosto de 1924.\n[…]\nUma prensa de café foi patenteada nos Estados Unidos pelo designer milanês Attilio Calimani em 1929. Sofreu várias modificações de design através de Faliero Bondanini, que patenteou sua própria versão em 1958 e a fabricou na fábrica francesa de clarinetes Martin SA sob a marca Melior. Sua popularidade pode ter sido auxiliada em 1965 por seu uso no filme de Michael Caine, The Ipcress File. O dispositivo foi popularizado em toda a Europa pela empresa britânica Household Articles Ltd.\n[…]\nUma prensa francesa tudo-em-um consiste em um elemento de aquecimento que pode receber sua energia de uma fonte de alimentação de 12 volts.\n[…]\nA definição de dicionário de Prensa francesa no Wikcionário",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Lego",
+      "descricao": "Marca dinamarquesa de brinquedos de blocos de montar plásticos."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Fundada em 1932 por um carpinteiro, a fabricante de brinquedos Lego tem sede até hoje em qual pequena cidade da Dinamarca?",
+    "resposta": "Billund",
+    "distratores": [
+      "Odense",
+      "Aalborg",
+      "Esbjerg"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lego",
+      "https://en.wikipedia.org/wiki/Billund,_Denmark"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lego",
+        "situacao": "ok",
+        "texto": "Lego ( , LEG-oh; Danish: [ˈle̝ːko]) is a brand of plastic construction toys manufactured by the Lego Group, a privately held company based in Billund, Denmark. Lego consists of variously coloured interlocking plastic bricks made of acrylonitrile butadiene styrene (ABS) that accompany an array of gears, figurines called minifigures, and various other parts. Its pieces can be assembled and connected\n[…]\nThe Lego Group began in the workshop of Ole Kirk Christiansen (1891–1958), a carpenter from Billund, Denmark, who began making wooden toys in 1932. In 1934, his company came to be called \"Lego\", derived from the Danish phrase leg godt [lɑjˀ ˈkʌt], which means 'play well'. In 1947, Lego expanded to begin producing plastic toys. In 1949, the business began producing an early version of the now familiar interlocking bricks, calling them \"Automatic Binding Bricks\".\n[…]\nBy 1951, plastic toys accounted for half of the company's output, even though the Danish trade magazine Legetøjs-Tidende (\"Toy Times\"), visiting the Lego factory in Billund in the early 1950s, wrote that plastic would never be able to replace traditional wooden toys. Although a common sentiment, Lego toys seem to have become a significant exception to the dislike of plastic in children's toys, due in part to the high standards set by Ole Kirk.\n[…]\nManufacturing of Lego bricks occurs at several locations around the world. Moulding is done in Billund, Denmark; Nyíregyháza, Hungary; Enfield, Connecticut, United States (from 1975 to 2006), Monterrey, Mexico; and most recently in Jiaxing, China. Brick decorations and packaging are done at plants in the former three countries and in Kladno, Czech Republic. The Lego Group estimates that in five decades it has produced 400 billion Lego blocks.\n[…]\nMedia related to Lego at Wikimedia Commons\n[…]\nLego sets guide and database"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Billund,_Denmark",
+        "situacao": "ok",
+        "texto": "Billund (Danish pronunciation: [ˈpiˌlɔnˀ]) is a town in Jutland, Denmark. With a population of 7,446 (as of 1 January 2026), Billund is the second largest town in Billund Municipality, behind the municipal seat of Grindsted. It is located approximately 13 kilometers (8.1 miles) east of Grindsted and 27 kilometers (17 miles) west of Vejle.\n[…]\nIn 1924, after his house and workshop burned down, Kirk Christiansen built a house at Hovedgaden in Billund with two stone lions placed at the entrance. Due to the impact of the Great Depression, people in the town were unable to afford to build houses, so in 1932, he began producing utility items such as ironing boards, stepladders and miniature toys. The toys became the main product of the business and in 1934, he named the toy factory \"Lego\".\n[…]\nBetween 1970 and 2006, Billund's population rose sharply to 6,020, driven by production at the Lego factories and offices and by the increasing number of tourist hotels. Several companies in the aviation industry also opened.\n[…]\nSince it was founded in 1932, The Lego Group has been based in Billund. Its headquarters, offices and factory are all situated in the town, close to Legoland. Historically the prosperity of the town has been closely tied with the success of the company. When Godtfred Kirk Christiansen took over The Lego Group as managing director in 1957 due to his father's illness, the company experienced continued international and economic growth over several decades.\n[…]\nGodtfred Kirk Christiansen (1920 in Billund – 1995) the managing director of The Lego Group from 1957 to 1979\n[…]\nKjeld Kirk Kristiansen (born 1947 in Billund) the former president and CEO of The Lego Group (1979–2004) and the third richest Dane, with a net worth of $4.7 billion as of February 2020.\n[…]\nBillund travel guide from Wikivoyage"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lego",
+        "situacao": "ok",
+        "texto": "Lego ([ˈlɛɡu], Dinamarquês: [ˈle̝ːko]; estilizado como LEGO) é uma linha de brinquedos de construção de plástico fabricados pelo The Lego Group, uma empresa privada com sede em Billund, Dinamarca. Lego consiste em blocos de plástico interligados de várias cores, feitos de acrilonitrila butadieno estireno (ABS), que acompanham uma série de engrenagens, bonecos chamados minifiguras e diversas outras\n[…]\nO The Lego Group iniciou a fabricação dos blocos de brinquedo com encaixe em 1949. A moldagem é feita na Dinamarca, Hungria, México e China. A decoração e a embalagem dos blocos são feitas em fábricas nos três primeiros países e na República Tcheca. A produção anual média desses blocos é de aproximadamente 36 bilhões, ou cerca de 1.140 peças por segundo. Uma das maiores empresas da Europa, Lego é a maior fabricante de brinquedos do mundo em vendas.\n[…]\nO brinquedo surgiu numa pequena empresa familiar na década de 1930. Obteve sucesso na década de 1960, expandindo-se nas décadas seguintes. O criador fundiu duas palavras em dinamarquês para obter o nome \"LEGO\": leg godt que significa \"brincar bem\". Atualmente o grupo LEGO emprega mais de 10.000 pessoas em cerca de 140 países, ocupando a posição de líder mundial no segmento de brinquedos para crianças nas faixas dos três meses aos dezesseis anos de idade.\n[…]\nA 15 de dezembro de 1975, foi constituída a LEGO Portugal, com sede em Lisboa, por Lothar Bader (então diretor-geral da LEGO Espanha). A empresa passou a ser gerida pela LEGO Espanha a partir de 1 de janeiro de 1980.\n[…]\nViolência e Lego\n[…]\nHistória do Lego\n[…]\nVON ATZINGEN, Maria Cristina. A história dos brinquedos: para as crianças conhecerem e os adultos se lembrarem. São Paulo: Allegro, 2001. p. 153-154.\n[…]\nPatente estadunidense do Lego\n[…]\n(em inglês) LEGO\n[…]\n(em inglês) LEGO BIONICLE\n[…]\n(em inglês) LEGO CLICKITS\n[…]\n(em inglês) LEGO EXO-FORCE\n[…]\n(em inglês) LEGO MINDSTORMS",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Filtro de papel para café",
+      "descricao": "Filtro descartável de papel para coar café, patenteado pela alemã Melitta Bentz em 1908."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Melitta Bentz patenteou o filtro de papel para café em 1908 e, no mesmo ano, fundou sua empresa em qual cidade alemã?",
+    "resposta": "Dresden",
+    "distratores": [
+      "Munique",
+      "Hamburgo",
+      "Colônia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Melitta",
+      "https://en.wikipedia.org/wiki/Melitta_Bentz"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Melitta",
+        "situacao": "ok",
+        "texto": "Melitta () is a German company selling coffee, paper coffee filters, and coffee makers, part of the Melitta Group, which has branches in other countries. The company is headquartered in Minden, North Rhine-Westphalia.\n[…]\nIt is named after Melitta Bentz (1873–1950) who founded the company after she invented the drip brew paper coffee filter (German patent granted 8 July 1908). Bentz later ran the company as a family business.\n[…]\nIn 1908, Melitta Bentz, a 35-year-old woman from Dresden, Germany, invented the first coffee filter, receiving a patent registration for her \"Filter Top Device lined with Filter Paper\" from the Patent Office in Berlin on 8 July. She founded the company bearing her name the same year.\n[…]\nOesterreich, Hans-Günther [in German] (1958). Bentz, Horst Wolfgang (ed.). Geschichte und Geschichten um Melitta - geröstet, gemahlen und gefiltert - zum 50jährigen Bestehen der Melitta-Werke Bentz & Sohn in Minden [History and stories around Melitta - roasted, grinded and filtered - at the 50th anniversary of Melitta-Werke Bentz & Sohn in Minden] (in German) (1 ed.). Bremen, Germany: Melitta-Werke Bentz & Sohn / Druckerei Otto-Behrens.\n[…]\nHempe, Mechthild (2008). Melitta Unternehmensgruppe (ed.). 100 Jahre Melitta - Geschichte eines Markenunternehmens [100 years Melitta - History of a brand company] (in German) (1 ed.). Cologne, Germany: Geschichtsbüro Verlag / Geschichtsbüro Reder, Roeseling & Prüfer GbR. ISBN 978-3-940371-12-6. {{cite book}}: More than one of |location= and |publication-place= specified (help) (2+140+2 pages) (NB. There is also a French translation named 100 années Melitta - L'histoire d'une marque.\n[…]\nHomepage of Melitta, Germany with international links"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Melitta_Bentz",
+        "situacao": "ok",
+        "texto": "Amalie Auguste Melitta Bentz (née Liebscher, January 31, 1873 – June 29, 1950) was a German inventor and entrepreneur known for revolutionizing the process of coffee brewing with her invention of the coffee filter. Her company, Melitta, has long been a significant leader in the coffee industry. Her contributions enhanced coffee preparation methods and influenced coffee culture around the world.\n[…]\nMelitta Bentz (born Amalie Auguste Melitta Liebscher) was born in Dresden, Germany, on January 31, 1873. Her parents were Karl and Brigitte Liebscher, who were known as successful business owners. Her family was also largely composed of craftsmen, as her father was a publisher and her grandparents owned a brewery. She married Emil Hugo Bentz around 1898 or 1899. Hugo was also a small business owner, which proved quite valuable when Melitta began her own business.\n[…]\nIn Jun 1908, Bentz was granted a patent for her paper filter by The Imperial Patent Office in Berlin.\n[…]\nIn 1929, the company moved from its Dresden factory into Minden, where the plant is still in use to this day. In the 1930s, the company patented the paper filters that are also still used. In 1932, to protect the business further from imitators, the first Melitta lettering was introduced. This was changed slightly in 1937 and has remained the same since. Melitta Bentz and her husband stepped down from daily operations in 1932 and passed control over to their children.\n[…]\nMoses, Claire. (2018, September 5). Overlooked No More: Melitta Bentz, Who Invented the Coffee Filter. Nytimes.com; The New York Times. https://www.nytimes.com/2018/09/05/obituaries/melitta-bentz-overlooked.html\n[…]\n\"The invention of the coffee filters - Melitta Bentz, mother of filter coffee: Inventor and entrepreneur\". German Patent and Trade Mark Office (DPMA). 2023-01-27. Archived from the original on 2023-01-29. Retrieved 2023-01-29."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Melitta",
+        "situacao": "ok",
+        "texto": "Melitta é uma marca da Alemanha que desenvolve cafés embalados a vácuo, café solúvel, filtros para café e outros produtos relacionados à indústria cafeeira. Tem filiais em diversos países, e no Brasil se estabeleceu em 1968, fabricando principalmente os filtros de papel.\n[…]\nA dona de casa alemã  Melitta Bentz (1873-1950) inventou o primeiro filtro de papel em 1908 em sua casa em Dresden, leste da Alemanha. Ela e o marido resolveram comercializar o produto, que foi logo aceito pelo mercado. Horst Bentz, filho do casal, assumiu a pequena firma que se tornou uma grande empresa. Em 1929, a indústria se transferiu para Minden, onde está até hoje. Atualmente é uma das cem maiores indústrias da Alemanha, presente em mais de 100 países.\n[…]\nFabrica hoje mais de 160 itens ligados ao café, como filtros, cafeteiras, etc.\n[…]\nCafé (semente)\n[…]\nCafé de mistura\n[…]\nCafé em São Paulo\n[…]\nCafé solúvel\n[…]\nCafé expresso\n[…]\nFábrica da Melitta em Avaré, no WikiMapia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Palito de dente",
+      "descricao": "Pequena haste fina de madeira, bambu ou plástico, com ponta, usada entre os dentes."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, o americano Charles Forster decidiu fabricar palitos de dente em massa depois de vê-los em uso em qual país?",
+    "resposta": "Brasil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Toothpick"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Toothpick",
+        "situacao": "ok",
+        "texto": "A toothpick is a small thin stick of wood, plastic, bamboo, metal, bone or other substance with at least one and sometimes two pointed ends to insert between teeth to remove detritus, usually after a meal. Toothpicks are also used in food decoration  and tableware as cocktail skewers; they are used to hold or spear small appetizers (like cheese cubes or olives), and can be decorated with plastic f\n[…]\nToothpicks made of bronze have been found as burial objects in prehistoric graves in Northern Italy and in the East Alps. In 1986, researchers in Florida discovered the 7500-year-old remains of ancient Native Americans and discovered small grooves between many of the molar teeth. One of the researchers, Justin Martin of Concordia University Wisconsin, said, \"The enamel on teeth is quite tough, so they must have used the probes quite rigorously to make the grooves.\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Palito",
+        "situacao": "ok",
+        "texto": "Palitos são pequenos bastonetes, usualmente de madeira ou plástico, usados frequentemente para retirar detrito dos dentes, principalmente após as refeições. O palito habitualmente possui uma ou duas extremidades bruscamente afinadas para melhor inserir entre os dentes.\n[…]\nConhecido em todas as culturas, o palito não é apenas o mais antigo instrumento de limpeza dentária, mas é anterior à chegada dos primeiros humanos modernos, pois os crânios dos neandertais já apresentavam marcas de de palitos. Palitos de dente feitos de bronze foram encontrados como objetos de sepultamento em sepulturas pré-históricas no norte da Itália e no leste dos Alpes.\n[…]\nEm 1986, pesquisadores na Flórida descobriram os restos mortais de 7500 anos de antigos nativos americanos e descobriram pequenas ranhuras entre muitos dos dentes molares. Um dos pesquisadores, Justin Martin, da Concordia University Wisconsin, disse: \"O esmalte dos dentes é bastante duro, então eles devem ter usado os palitos com bastante rigor para fazer as ranhuras.\"\n[…]\nÉ relatado que Agátocles, déspota e tirano siciliano de Siracusa, morreu em 289 a.C. em conseqüência do veneno colocado nos palitos pelo seu escravo favorito.\n[…]\nExistem também palitos delicados e artísticos, feitos em prata, que datam da Idade Antiga.\n[…]\nNo século XVII, os palitos eram objetos de luxo, considerados itens de joalheria. Eram feitos de metais nobres e enfeitados com pedras preciosas.\n[…]\nEm 1872, Silas Noble e J. P. Cooley patentearam a primeira máquina de fabricar palitos.\n[…]\nNos dias atuais, com o advento da moderna dentística, o uso do palito é rejeitado, tendo sido substituído pelo fio dental e pela escova de dentes. Entretanto, apesar dos avanços e da tecnologia, o uso de palito permanece popular entre muitas pessoas.\n[…]\nPasta de dente",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Ursinho de pelúcia",
+      "descricao": "Brinquedo de pelúcia em forma de urso, surgido no início do século vinte."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Quase ao mesmo tempo que nos Estados Unidos, por volta de 1903, a fábrica de brinquedos Steiff passou a produzir ursinhos de pelúcia em qual país?",
+    "resposta": "Alemanha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Teddy_bear",
+      "https://en.wikipedia.org/wiki/Margarete_Steiff_GmbH"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Teddy_bear",
+        "situacao": "ok",
+        "texto": "A teddy bear, or simply a teddy, is a stuffed toy in the form of a bear. The teddy bear was named by Morris Michtom after the 26th president of the United States, Theodore Roosevelt; it was developed apparently simultaneously in the first decade of the 20th century by two toymakers: Richard Steiff in Germany and Michtom in the United States. It became a popular children's toy, and it has been cele\n[…]\nA little earlier in 1902 in Germany, the Steiff firm produced a stuffed bear from Richard Steiff's designs. Steiff exhibited the toy at the Leipzig Toy Fair in March 1903, where it was seen by Hermann Berg, a buyer for George Borgfeldt & Company in New York (and the brother of the composer Alban Berg). He ordered 3,000 to be sent to the United States.\n[…]\nThere are also companies, like Steiff, that sell handmade collectible bears that can be purchased in stores or over the Internet. The majority of teddy bears are manufactured in countries with low production costs, such as China and Indonesia. A few small, single-person producers in the United States make unique, non-mass-produced teddy bears. In the United Kingdom one small, traditional teddy bear company remains, Merrythought, which was established in 1930.\n[…]\nThe largest teddy bear measures 19.41 m (63 ft 8 in) in length and was constructed by Municipio de Xonacatlán, Ideas por México and Agrupación de Productores de Peluche (all Mexico), in Estado de México, on 28 April 2019. The bear was displayed at the local stadium in the city of Xonacatlán, and was made with the same materials as a commercially available teddy bear, including details such as a tiara, dress, eyes, and nose. The bear was dubbed Xonita, after the town.\n[…]\nTed bases its adult comedy on a teddy bear come to life.\n[…]\nNational Teddy Bear Day - September 9th, a day to celebrate teddy bears\n[…]\nThe great teddy bear shipwreck mystery"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Margarete_Steiff_GmbH",
+        "situacao": "ok",
+        "texto": "Steiff is a German-based plush toy company, founded in 1880, with headquarters in Giengen, Germany. The company claims to have made the world's first factory-made teddy bear.\n[…]\nIn 1893, Margarete's felt fabric factory was founded in Giengen, Germany. In 1895, the first Steiff products to be sold outside Germany were sold at Harrods in London, England.\n[…]\nIn 1903, a 3,000-piece order was placed by a buyer in America after the \"teddy bear\" craze began due to a popular cartoon of President Theodore \"Teddy\" Roosevelt and a young cub in The Washington Post in 1902.\n[…]\nIn 2008, Steiff launched a limited-edition Karl Lagerfeld teddy bear with a price of €1,000. In 2018, Steiff and Tiffany & Co. collaborated to offer a luxury teddy bear. The 10.5-inch, caramel-colored mohair teddy bear retailed for $375.\n[…]\nVintage Steiff teddy bears are prized by collectors, and depending on the type can bring significant sums at auction. In a 1994 auction, the Steiff \"Teddy Girl\" made in 1904 sold for a record $165,000.\n[…]\nIn 2000, a Steiff Louis Vuitton Teddy Bear, with eyes made of sapphire and diamonds, and with gold parts, sold at an auction in Monaco for $2.1 million.\n[…]\nIn May 2001, at a London Christie's auction of vintage teddy bears, a pair of Steiff teddy bears made in 1908 went for sale with an estimated value of about $20,000.\n[…]\nIn December 2002, \"Edwin\", a 5+1⁄2-inch Steiff teddy bear that accompanied a British soldier, Percy Kynnersley-Baddlely, killed in the Battle of the Somme in 1916, was sold for £4,230.\n[…]\nIn 2010, a 1925 Steiff Harlequin teddy bear sold at a London Christie's auction for £46,850.\n[…]\nSteiff USA Official Site\n[…]\nGerman Margarete Steiff Biographical TV movie at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Urso_de_pel%C3%BAcia",
+        "situacao": "ok",
+        "texto": "Urso de pelúcia (português brasileiro) ou urso de peluche (português europeu) é um brinquedo que se baseia no miniaturismo de um urso confeccionado em tecido, mais propriamente a peluche (pelúcia). É uma das mais populares variantes dos brinquedos de pelúcia.\n[…]\nSeu nome em língua inglesa, teddy bear, advém do ex-presidente dos Estados Unidos da América, Theodore Roosevelt, que era apelidado de \"Teddy\" (ainda que detestasse ser chamado como tal). O nome do brinquedo originou de um incidente em uma viagem de caça aos ursos, em novembro de 1902 no Mississippi, organizada pelo governador estadual Andrew Longino, que convidou o presidente Roosevelt. Havia diversos caçadores competindo, e a maioria deles já matara um animal selvagem.\n[…]\nO Teddy's bear (tradução literal: \"urso do Téo\") mais tarde serviria de inspiração a Morris Michtom, dono de uma loja de doces, para criar o brinquedo infantil. Michtom colocou sua criação ao lado da charge protagonizada por Roosevelt, o que popularizou o urso de pelúcia; Michtom então encerrou sua loja de doces e fundou a Ideal Toy Company no ramo de brinquedos.\n[…]\nO museu do urso de pelúcia foi fundado em 1984 e está localizado em Petersfield, Hampshire, na Inglaterra. \"Teddy Bear\" é o título de uma música cantada por Elvis Presley.\n[…]\nMedia relacionados com urso de pelúcia no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Papel higiênico",
+      "descricao": "Papel macio, em geral vendido em rolos, usado para a higiene pessoal depois de ir ao banheiro."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O registro mais antigo do uso de papel na higiene depois de ir ao banheiro, deixado por um estudioso no século seis, vem de qual país?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Toilet_paper"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Toilet_paper",
+        "situacao": "ok",
+        "texto": "Toilet paper (also referred to as toilet/bath/bathroom tissue or toilet roll) is a tissue paper product primarily used to clean the anus and surrounding region of feces (after defecation), and to clean the external genitalia and perineal area of urine (after urination).\n[…]\nThe use of paper for hygiene has been recorded in China in the 6th century AD, with specifically manufactured toilet paper being mass-produced in the 14th century. Modern commercial toilet paper originated in the 19th century, with a patent for roll-based dispensers being made in 1883.\n[…]\nAlthough paper had been known as a wrapping and padding material in China since the 2nd century BC, a reference to the use of toilet paper dates back as early as c. 589 when the scholar-official Yan Zhitui (531–591) wrote:\n[…]\nDuring the later Tang dynasty (618–907 AD), an Arab traveller to China in the year 851 AD remarked:\n[…]\nOne tree produces about 800 rolls (400 pounds (180 kg)) of toilet paper and about 83 million rolls are produced per day. Global toilet paper production consumes 27,000 trees daily.\n[…]\nToilet paper made from recycled paper avoids the direct environmental impact of cutting down trees, and is commercially available. Recycled newspaper can contain BPA, an endocrine disruptor.\n[…]\nToilet paper produced from bagasse, a byproduct of sugarcane, is commercially available, and avoids cutting down any plants because sugarcane is already grown for sugar production.\n[…]\nKnuth, Donald E. (October 1984), \"The Toilet Paper Problem\", The American Mathematical Monthly, 91 (8): 465–470, doi:10.2307/2322567, JSTOR 2322567\n[…]\nSmyth, Richard (2012). Bum Fodder: An Absorbing History of Toilet Paper. Souvenir Press Limited. ISBN 978-0-285-64120-4.\n[…]\nMedia related to Toilet paper at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Papel_higi%C3%AAnico",
+        "situacao": "ok",
+        "texto": "Papel higiênico (português brasileiro) ou papel higiénico (português europeu) é um tipo de papel fino e absorvente, que se desmancha em contato com a água, utilizado para uso sanitário e higiene pessoal. Seu uso é mais comum para a limpeza íntima após defecar ou urinar. Pode ser perfumado ou não, possuir folhas simples, duplas e até triplas e costuma ser vendido em rolos.\n[…]\nAntes de sua invenção, que data do século XIX, as pessoas costumavam fazer a sua limpeza com folhas de hortelã, água e por vezes sabugos de milho. Diz-se que o papel higiênico foi inventado na China, em 875, mas a invenção também já foi atribuída a Joseph Gayetty, de Nova Iorque, Estados Unidos, que a teria concebido em 1857.\n[…]\nEmbora o papel tenha sido utilizado como material para embalar e acolchoar na história chinesa desde o século II a.C., o primeiro uso de papel higiênico na história humana data do século VI, na China medieval. Em 589 o acadêmico e funcionário público Yan Zhitui (531–591) escreveu sobre o uso do papel higiénico:\n[…]\nDurante o fim da dinastia Tang (618–907 d.C.) um árabe muçulmano que visitou a China no ano 851 comentou:\n[…]\nNos registros do Gabinete Imperial de Mantimentos (Bao Chao Si) daquele mesmo ano, também se registrou que, somente para a família do imperador Hongwu, foram feitas 15.000 folhas de um papel especial, feito com tecido mais suave, no qual cada folha foi individualmente perfumada.\n[…]\nOs Irmãos Scott são citados frequentemente como os primeiros a vender papel higiénico em rolo e já perfurado; porém não foi registrada qualquer tipo de patente, e o início do papel higiénico da maneira como o conhecemos no século XXI se dá oficialmente com o americano Seth Wheeler, de Albany, Nova Iorque que obteve diversas patentes.\n[…]\nOrientação do papel higiênico",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Calendário gregoriano",
+      "descricao": "Calendário solar instituído pelo papa Gregório treze em 1582 e usado hoje na maior parte do mundo."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em setembro de 1752, onze dias foram pulados quando qual país, junto com suas colônias na América, trocou o calendário juliano pelo gregoriano?",
+    "resposta": "Grã-Bretanha (Reino Unido)",
+    "distratores": [
+      "Rússia",
+      "Grécia",
+      "Japão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Calendar_(New_Style)_Act_1750",
+      "https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Calendar_(New_Style)_Act_1750",
+        "situacao": "ok",
+        "texto": "The Calendar (New Style) Act 1750 (24 Geo. 2. c. 23), also known as Chesterfield's Act or (in American usage) the British Calendar Act of 1751, is an act of the Parliament of Great Britain. Its purpose was for Great Britain and the British Empire to adopt the Gregorian calendar (in effect). The act also changed the start of the legal year from 25 March to 1 January.\n[…]\nIt acknowledges that the Julian calendar still in use in Great Britain and its Dominions had been found to be inaccurate, and that most of Europe had already adopted an (unnamed) revised calendar. The Julian calendar was eleven days behind this 'New Style' calendar. With this Act, therefore, Britain implicitly adopted the Gregorian calendar. To do so, it ordered that eleven calendar days be skipped in September 1752 and that centennial years no longer be leap years unless divisible by 400.\n[…]\nAccording to Gregory's rule, the year 1600 was a leap year, but 1700 was not –  but it remained a leap year under the Julian calendar. This meant that when Britain reformed the calendar in the 1750s, the divergence between the calendars had reached eleven days. Section I of the act corrects this divergence by providing that Wednesday, 2 September 1752 be followed by Thursday, 14 September 1752.\n[…]\nThe Calendar (New Style) Act 1750 applied to Britain's American colonies: the north-eastern states of the present day United States and part of Canada. Some British law, including the 1750 act, is still applicable in some US states because when American independence was declared in 1776, it was not practical for these former colonies to create an entirely new body of American law to replace British law.\n[…]\nThere is no US federal calendar law.\n[…]\ncal (command)#Quirks (1752)\n[…]\nText of the Calendar Act 1751 as in force today (including any amendments) within the United Kingdom, from legislation.gov.uk."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar",
+        "situacao": "ok",
+        "texto": "The adoption of the Gregorian Calendar has taken place in the history of most cultures and societies around the world, marking a change from one of various traditional (or \"old style\") dating systems to the contemporary (or \"new style\") system –  the Gregorian Calendar –  which is widely used around the world today. Some polities adopted the new calendar in 1582, others not before the early twenti\n[…]\nIn these territories, Poland–Lithuania (ruled by Anna Jagiellon), and the Papal States, the Gregorian Calendar was implemented on the date that the bull prescribed, with Julian Thursday, 4 October 1582 being succeeded by Gregorian Friday, 15 October 1582; the Spanish and Portuguese colonies followed somewhat later de facto because of delay in communication of the change.\n[…]\nThe Armenian Apostolic Church adopted the Gregorian calendar in 1923, except in the Armenian Patriarchate of Jerusalem, where the old Julian calendar is still in use.\n[…]\nThe European colonies of the Americas adopted the change when their mother countries did. In North America, New France and New Spain adopted the new calendar in 1582. The Portuguese and Spanish colonies in South America also changed in 1582. The British colonies of Canada and the Thirteen Colonies followed suit in 1752, as legislated by the  British calendar act. Practice in the Caribbean followed that of their British, Dutch, French and Spanish colonists.\n[…]\nAlaska remained on the Julian calendar along with the rest of Russia until 1867, when the territory was sold to the United States. At noon on Saturday, 7 October 1867 (Julian), the date changed to Friday, 18 October 1867 (Gregorian). Although the Julian calendar was 12 days behind the Gregorian calendar, only 11 days were skipped because Alaska also moved from the Eurasian side of the International Date Line to the American side."
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Calendário gregoriano",
+      "descricao": "Calendário solar instituído pelo papa Gregório treze em 1582 e usado hoje na maior parte do mundo."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Rússia só adotou o calendário gregoriano em 1918. Por isso, a Revolução de Outubro de 1917 aconteceu, pelo nosso calendário, em que mês?",
+    "resposta": "Novembro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/October_Revolution",
+      "https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/October_Revolution",
+        "situacao": "ok",
+        "texto": "The October Revolution, also known as the Great October Socialist Revolution (in Soviet historiography), October coup, Bolshevik coup, or Bolshevik Revolution, was the second of two revolutions in Russia in 1917. It was led by Vladimir Lenin's Bolsheviks as part of the broader Russian Revolution of 1917–1923. It began through an insurrection in Petrograd (now Saint Petersburg) on 7 November 1917 [\n[…]\n8 November], they captured the Winter Palace — the seat of the Provisional government located in Petrograd, then capital of Russia.\n[…]\nDespite occurring in November of the Gregorian calendar, the event is most commonly known as the October Revolution (Октябрьская революция) because at the time Russia still used the Julian calendar. The event is sometimes known as the November Revolution, after the Soviet Union modernized its calendar in 1918. To avoid confusion, both O.S. and N.S. dates have been given for events. For more details see Old Style and New Style dates.\n[…]\nThe long-awaited Constituent Assembly elections were held on 12 November (O.S., 25 November, N.S.) 1917.\n[…]\nIn Estonia, two rival governments emerged: the Estonian Provincial Assembly, established in April 1917, proclaimed itself the supreme legal authority of Estonia on 28 November 1917 and issued the Declaration of Independence on 24 February 1918; but Soviet Russia recognized the executive committee of the Soviets of Estonia as the legal authority in the province, although the Soviets in Estonia controlled only the capital and a few other major towns.\n[…]\nThe date 7 November, the anniversary of the October Revolution according to the Gregorian Calendar, was the official national day of the Soviet Union from 1918 onward and still is a public holiday in Belarus and the breakaway territory of Transnistria. Communist parties both in and out of power celebrate 7 November as the date Marxist parties began to take power."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar",
+        "situacao": "ok",
+        "texto": "The adoption of the Gregorian Calendar has taken place in the history of most cultures and societies around the world, marking a change from one of various traditional (or \"old style\") dating systems to the contemporary (or \"new style\") system –  the Gregorian Calendar –  which is widely used around the world today. Some polities adopted the new calendar in 1582, others not before the early twenti\n[…]\nThe Russian Empire's 1809 conquest of Finland did not revert this, since autonomy was granted, but government documents in Finland were dated in both the Julian and Gregorian styles. This practice ended when independence was gained in 1917.\n[…]\nThe Ottoman Empire's Rumi calendar, used for fiscal purposes, was realigned from a Julian to a Gregorian basis starting on 16 February / 1 March 1917. The beginning of the year was reset to 1 January starting in 1918. The numbering of the years, though, remained uniquely Turkish until Turkey adopted the Gregorian calendar on 1 January 1926.\n[…]\nIn Russia, the Gregorian calendar was accepted after the October Revolution. On 24 January 1918, the Council of People's Commissars issued a decree that Wednesday, 31 January 1918, was to be followed by Thursday, 14 February 1918, thus dropping 13 days from the calendar. The decree required that the Julian date was to be written in parentheses after the Gregorian date, until 1 July 1918. With the change, the October Revolution itself, once converted, took place on 7 November.\n[…]\nArticles about the October Revolution that mention this date difference tend to do a full conversion to the dates from Julian to the Gregorian calendar. For example, in the article \"The October (November) Revolution\" the Encyclopædia Britannica uses the format of \"25 October (7 November, New Style)\" to describe the date of the start of the revolution.\n[…]\nWhat is the Gregorian calendar? with adoption dates for many countries and regions"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_de_Outubro",
+        "situacao": "ok",
+        "texto": "A Revolução de Outubro, também conhecida como a Revolução Bolchevique, Grande Revolução Socialista de Outubro,  Revolução Vermelha, Golpe de Outubro ou Golpe Bolchevique foi a segunda fase da Revolução Russa de 1917, após a Revolução de Fevereiro, segundo a historiografia oficial da antiga União Soviética e de acordo com alguns grupos comunistas. A data de 25 de outubro de 1917 corresponde ao cale\n[…]\nNo resto do mundo ocidental, sob o calendário gregoriano, os acontecimentos começaram a 7 de novembro de 1917.\n[…]\nApesar de ocorrer em novembro do calendário gregoriano, o evento é mais conhecido como a \"Revolução de Outubro\" (Октябрьская революция) porque na época a Rússia ainda utilizava o calendário juliano. O evento também foi conhecido como a \"Revolução de Novembro\" após a modernização do calendário na União Soviética. Para evitar confusão, são apresentadas as datas nos calendários antigo (O.A.) e novo (N.O.) para os eventos. Para mais detalhes, consulte Datas no Estilo Antigo e Novo Estilo.\n[…]\nNa Transcaucásia, a maioria dos líderes arménios, georgianos e azeri não aceitaram o novo governo. A 25 de novembro(jul.)/8 de dezembro(greg.) de 1917, o Comissariado Transcaucasiano foi constituído como um governo provisório até à convocação da Assembleia Constituinte Russa. Após a sua dissolução pelo governo bolchevique, a República Democrática Federativa Transcaucasiana foi criada a 22 de abril de 1918.\n[…]\nO governo de Lénine implementou rapidamente as primeiras medidas repressivas que marcariam profundamente o novo período após a tomada do poder. A 27 de outubro(jul.)/9 de novembro(greg.) de 1917, o Sovnarkom aprovou a sua primeira lei: a censura da imprensa, justificando isto como sendo parte da luta contra os inimigos, a contrarrevolução. Tanto o governo como a Comissão Militar Revolucionária utilizaram a força contra os opositores e os suspeitos de serem opositores.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Biquíni",
+      "descricao": "Traje de banho feminino de duas peças lançado pelo francês Louis Réard em 1946."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em julho de 1946, o francês Louis Réard apresentou o biquíni ao público numa famosa piscina de qual cidade?",
+    "resposta": "Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bikini",
+      "https://en.wikipedia.org/wiki/Louis_Réard"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bikini",
+        "situacao": "ok",
+        "texto": "A bikini is a women's two-piece swimsuit featuring a top piece covering the breasts, and a bottom piece covering the pelvis (usually excluding the navel) and some or all of the buttocks. The extent covered by both pieces can vary, from those that offer full coverage of the breasts, pelvis, and buttocks, to more revealing designs with thong or G-string bottoms that cover only the mons pubis and int\n[…]\nFrench automotive engineer Louis Réard then introduced a design he named the \"Bikini\" in Paris on July 5, 1946. Réard adopted the name from the Bikini Atoll in the Pacific Ocean, which was the colonial name the Germans gave to the atoll, borrowed from the Marshallese name for the island, Pikinni. Four days earlier, on 1 July 1946, the United States had initiated its first peacetime nuclear weapons test at Bikini Atoll as part of Operation Crossroads.\n[…]\nSoon after, Louis Réard created a competing two-piece swimsuit design, which he called the bikini. He noticed that women at the beach rolled up the edges of their swimsuit bottoms and tops to improve their tan. On 5 July, Réard introduced his design at a swimsuit review held at a popular Paris public pool, Piscine Molitor, four days after the first test of a US nuclear weapon at the Bikini Atoll. The newspapers were full of news about it and Réard hoped for the same with his design.\n[…]\nRéard's bikini undercut Heim's atome in its brevity. His design consisted of two side-by-side triangles of fabric forming a bra, and two front-and-back triangular pieces of fabric covering the mons pubis and the buttocks, respectively, connected by string. When he was unable to find a fashion model willing to showcase his revealing design, Réard hired Micheline Bernardini, an 18-year old nude dancer from the Casino de Paris.\n[…]\nBikini in popular culture\n[…]\nMetropolitan Museum of Art exhibition—The Bikini\n[…]\nTwo-Piece Be With You: LIFE Celebrates the Bikini"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Louis_Réard",
+        "situacao": "ok",
+        "texto": "Louis Réard (French pronunciation: [lwi ʁeaʁ]; 10 October 1896 – 16 September 1984) was a French automobile engineer and fashion designer who introduced the modern two-piece bikini in July 1946. He ran a swimsuit store in Paris where he sold bikinis for 40 years.\n[…]\nRéard was an automotive engineer who took over his mother's lingerie business in about 1940 and became a clothing designer near the Folies Bergère in Paris. While on beaches in Saint-Tropez, he noticed women rolling up the edges of their swimsuits to get a better tan, which inspired him to design a swimsuit with the midriff exposed.\n[…]\nRéard quickly produced his own swimsuit design, which was a string bikini consisting of four triangles made from only 30 square inches (194 cm2) of fabric printed with a newspaper pattern. When Réard sought a model to wear his design at its debut presentation, none of the usual models would wear the suit, so he hired 18-year-old nude dancer Micheline Bernardini from the Casino de Paris to model it.\n[…]\nHe introduced his new swimsuit, which he named the bikini, to the media and public in Paris on 5 July 1946 at Piscine Molitor, a popular public pool in Paris at the time. He introduced his design four days after the first test of a nuclear weapon at Bikini Atoll. The event received widespread coverage in the press, and Réard hoped for the same with his design. It was marketed with the slogan, \"The bikini, the first anatomical bomb\" (la première bombe anatomique).\n[…]\nRéard eventually opened a bikini shop in Paris and sold swimsuits for 40 years. In 1980, Réard moved with his wife, Marcelle Réard, from France to Lausanne, Switzerland. He died in Lausanne on 16 September 1984 at the age of 87.\n[…]\nLouis Réard at FMD"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Biqu%C3%ADni",
+        "situacao": "ok",
+        "texto": "O biquíni ou bikini é um conjunto de duas peças, derivadas do maiô, de tamanhos reduzidos, que cobrem o busto e a parte inferior do tronco. Seu nome deriva do atol de Bikini, um atol do Pacífico, usado para testes com bombas nucleares e em 5 de julho de 1946 ocorreu o seu lançamento, numa piscina de Paris. Assim, pretendia-se propor que a mulher de biquíni provocava, na época, o efeito de uma \"bom\n[…]\nO biquíni foi apresentado oficialmente em 5 de julho de 1946, na piscina pública Piscine Molitor, em Paris, poucos dias antes da temporada de desfiles de moda e durante o primeiro verão europeu após o fim da Segunda Guerra Mundial. O lançamento foi realizado por Louis Réard, engenheiro que passou a atuar na fábrica de lingeries de sua mãe no pós-guerra.\n[…]\nA criação do biquíni, contudo, é objeto de disputa. Ainda em 1946, Jacques Heim apresentou o modelo “Atome”, anunciado como “o menor maiô do mundo”. Semanas depois, Louis Réard lançou o “bikini”, promovido como “menor que o menor maiô do mundo”, o que lhe garantiu maior fama.\n[…]\nO primeiro biquíni moderno foi desfilado por Micheline Bernardini, então uma jovem dançarina do Cassino de Paris. A peça, confeccionada com cerca de 76 cm de tecido de algodão estampado com motivos que simulavam notícias de jornal, distinguia-se por suas dimensões reduzidas em relação aos trajes de banho da época. Sua escala era frequentemente destacada pela comparação com uma caixa de fósforos, utilizada como elemento cênico na apresentação.\n[…]\nO nome “biquíni” faz referência ao Atol de Bikini, local onde os Estados Unidos iniciaram testes nucleares poucos dias antes do lançamento da peça. A escolha do nome buscava sugerir o impacto e o caráter disruptivo do novo traje, em analogia ao contexto geopolítico do período.\n[…]\nPiscina\n[…]\nDeutsche Welle - 1946: O primeiro biquíni",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Dia do Trabalho",
+      "descricao": "Data comemorativa de primeiro de maio que homenageia os trabalhadores, feriado no Brasil."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Embora o primeiro de maio lembre greves ocorridas em Chicago, os Estados Unidos comemoram o seu próprio Dia do Trabalho em qual mês?",
+    "resposta": "Setembro",
+    "distratores": [
+      "Maio",
+      "Julho",
+      "Novembro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Labor_Day"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Labor_Day",
+        "situacao": "ok",
+        "texto": "Labour Day (or Labor Day) is an official public holiday in many countries. In most countries, Labour Day is synonymous with, or linked with, International Workers' Day, which happens on 1 May. It was originally chosen to commemorate the 1886 general strike which culminated in the Haymarket affair. In the United States and in Canada, it is a public holiday on the first Monday in September.\n[…]\nSome of the largest examples of this occurred during the Great Depression of the 1930s, when hundreds of thousands of workers marched in International Workers' Day parades in New York's Union Square, while cities like Chicago and Duluth saw large demonstrations organized by the Communist Party.\n[…]\nOn 1 May 2017, immigrants' rights advocates, labor unions and leftists held protests against the immigration and economic policies of President Donald Trump in cities throughout the US, Chicago and Los Angeles having some of the largest marches.\n[…]\nIn Macau, it is a public holiday and is officially known as Dia do Trabalhador (Portuguese for \"Workers' Day\").\n[…]\nIn Portugal, Workers' Day (Portuguese: Dia do Trabalhador) on 1 May was suppressed during the Estado Novo dictatorship. The first workers' day demonstration was held a week after the Carnation Revolution of 25 April 1974. It is still the largest demonstration in the history of Portugal. It is used as an opportunity for workers and workers' groups to voice their discontent over working conditions in demonstrations across Portugal, the largest being held in Lisbon. It is an official public holiday.\n[…]\nA more radical attitude to the holiday in 2009 was expressed by the head of the metropolitan branch of the Right Cause party, Igor Trunov: \"To be honest, I didn't really want to celebrate 1 May, because I don't stand in solidarity with the workers of Chicago, where this holiday came from\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_Internacional_dos_Trabalhadores",
+        "situacao": "ok",
+        "texto": "Dia do Trabalhador, Dia Internacional do Trabalhador ou Primeiro de Maio é uma data comemorativa internacional, dedicada aos trabalhadores, celebrada anualmente no dia 1 de maio em diversos países, sendo feriado em alguns deles.\n[…]\nNos Estados Unidos, durante o congresso de 1884, os sindicatos estabeleceram o prazo de dois anos para conseguir impor aos empregadores a limitação da jornada de trabalho para oito horas. Eles iniciaram a campanha em 1 de maio, quando muitas empresas começavam o seu ano contábil, os contratos de trabalho terminavam e os trabalhadores buscavam outros empregos.\n[…]\nNo dia 20 de junho de 1889, a segunda Internacional Socialista, reunida em Paris, decidiu convocar anualmente uma manifestação, com o objetivo de lutar pela jornada de 8 horas de trabalho. A data escolhida foi o primeiro dia de maio, como homenagem às lutas sindicais de Chicago. Em 1 de maio de 1891, uma manifestação no norte de França foi dispersada pela polícia, resultando na morte de dez manifestantes.\n[…]\nEm Portugal o Dia do Trabalhador é celebrado desde 1890. Durante a ditadura do Estado Novo, a comemoração era violentamente reprimida pela polícia. Só a partir de maio de 1974, após a Revolução dos Cravos, é que se voltou a comemorar livremente o Primeiro de Maio, que passou a ser feriado.\n[…]\nO dia foi comemorado na Suécia pela primeira vez em 1890, com manifestações e desfiles em 21 cidades.\n[…]\nNa Austrália o Dia do Trabalho varia de acordo com a região;\n[…]\nEstados Unidos e Canadá celebram o Dia do Trabalho na primeira segunda-feira de setembro. Alega-se que esta escolha nos Estados Unidos foi feita para evitar associar a festa do trabalho com o movimento socialista, então com alguma relevância no país.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Garfo",
+      "descricao": "Talher com dentes usado para espetar e levar a comida à boca."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O viajante inglês Thomas Coryat conheceu o garfo na Itália e foi ridicularizado ao usá-lo de volta à Inglaterra. Em que século isso aconteceu?",
+    "resposta": "Século dezessete",
+    "distratores": [
+      "Século quatorze",
+      "Século dezesseis",
+      "Século dezoito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomas_Coryat",
+      "https://en.wikipedia.org/wiki/Fork"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thomas_Coryat",
+        "situacao": "ok",
+        "texto": "Thomas Coryat (also Coryate) (c. 1577 – 1617) was an English traveller and writer of the late Elizabethan and early Jacobean age. He is principally remembered for two volumes of writings he left regarding his travels, often on foot, through Europe and parts of Asia. He is often credited with introducing the table fork to England, with \"Furcifer\" (Latin: fork-bearer, rascal) becoming one of his nic\n[…]\nLonely Planet founder Tony Wheeler spoke at the Australian Festival of Travel Writing about Thomas Coryat. Wheeler traced Coryate's (his spelling) journey as he observed the invention of leisure travel. He visited his supposed tomb at Rajgari near Surat in 2010.\n[…]\nIndian poet, writer and columnist Dom Moraes and architect Sarayu Srivatsa retraced aspects of Coryat's legendary route and intertwined Coryat's historical 17th-century biography with their own modern travel narrative titled \"The Long Strider: How Thomas Coryate Walked from England to India in the Year 1613\" published by Speaking Tiger Books in 2003.\n[…]\nChaney, Edward, \"Thomas Coryate\", The Grove-Macmillan Dictionary of Art.\n[…]\nChisholm, Hugh, ed. (1911). \"Coryate, Thomas\" . Encyclopædia Britannica. Vol. 7 (11th ed.). Cambridge University Press. p. 211.\n[…]\nMoraes, Dom and Sarayu Srivatsa. The Long Strider : How Thomas Coryate Walked From England to India in the Year 1613. New Delhi: Penguin, 2003. ISBN 0-670-04975-1.\n[…]\nPritchard, R.E. Odd Tom Coryate:  The English Marco Polo. Thrupp, Stroud, Gloucestershire:  Sutton, 2004. ISBN 0-7509-3416-6.\n[…]\nStrachan, Michael. The Life and Adventures of Thomas Coryate. London:  Oxford UP, 1962. LCCN 62-052512.\n[…]\nWhittaker, David (ed.) Most Glorious & Peerless Venice: Observations of Thomas Coryate (1608). Wavestone Press, Charlbury, 2013. 978-09545194-7-6 (Contains the Venice section of the 'Crudities', with photographs by the editor.)\n[…]\nCoryat's Crudities"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fork",
+        "situacao": "ok",
+        "texto": "In cutlery or kitchenware, a fork (from Latin: furca 'pitchfork') is a utensil, now usually made of metal, whose long handle terminates in a head that branches into several narrow and often slightly curved tines with which one can spear foods either to hold them to cut with a knife or to lift them to the mouth.\n[…]\nBy the 11th century, the table fork had become increasingly prevalent in the Italian Peninsula because of historical ties with the Eastern Roman Empire and, as pasta became a greater part of the Italian diet, continued to gain popularity, displacing the long wooden spike formerly used since the fork's three spikes proved better suited to gathering the noodles. By the 14th century the table fork had become commonplace in Italy, and by 1600 was almost universal among the merchant and upper classes.\n[…]\nAlthough in Portugal forks were first used around 1450 by Infanta Beatrice, Duchess of Viseu, King Manuel I of Portugal's mother, only by the 16th century, when they had become part of Italian etiquette, did forks enter into common use in southwestern Europe, gaining some currency in Spain, and gradually spreading to France. The rest of Europe did not adopt the fork until the 18th century.\n[…]\nThe fork's adoption in northern Europe was slower. Its use was first described in English by Thomas Coryat in a volume of writings on his Italian travels (1611), but for many years it was viewed as an unmanly Italian affectation. Some writers of the Roman Catholic Church expressly disapproved of its use; St. Peter Damian seeing it as \"excessive delicacy\"."
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Ampulheta",
+      "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A ampulheta mais antiga retratada com segurança aparece num afresco do pintor italiano Ambrogio Lorenzetti. Em que século ele foi pintado?",
+    "resposta": "Século quatorze",
+    "distratores": [
+      "Século doze",
+      "Século dezesseis",
+      "Século dezoito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hourglass"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hourglass",
+        "situacao": "ok",
+        "texto": "An hourglass (or sandglass, sand timer, or sand clock) is a device used to measure the passage of time. It comprises two glass bulbs connected vertically by a narrow neck that allows a regulated flow of a substance (historically sand) from the upper bulb to the lower one due to gravity. Typically, the upper and lower bulbs are symmetric.\n[…]\nThere are no records of the hourglass existing in Europe prior to the Late Middle Ages; the first documented example dates from the 14th century, a depiction in the 1338 fresco Allegory of Good Government by Ambrogio Lorenzetti.\n[…]\nas in a four-way Italian sandglass likely from the 17th century, in the collections of the Science Museum, in South Kensington, London, which could measure intervals of quarter, half, three-quarters, and one hour (and which were used in churches, for priests and ministers to measure lengths of sermons)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ampulheta",
+        "situacao": "ok",
+        "texto": "A ampulheta, também conhecida como relógio de areia, é um instrumento antigo usado para medir intervalos de tempo. É como o quadrante solar e a clepsidra, um dos objetos mais antigos de medir o tempo. Também é conhecida como relógio de areia. Sua invenção é atribuída ao século VIII, com um monge francês chamado Liutprand, que a teria apresentado na Catedral de Chartres .\n[…]\nDurante as Grandes Navegações, as ampulhetas se tornaram essenciais para medir a duração das viagens, sendo utilizadas em grande escala nos navios. Ao combinar a velocidade da embarcação com o tempo medido pela ampulheta, os navegadores podiam estimar a distância percorrida, auxiliando no planejamento das rotas e na localização aproximada da embarcação. .\n[…]\nAs ampulhetas eram usadas para marcar intervalos de tempo, geralmente de meia em meia hora, e o seu virar era acompanhado de um sinal sonoro, permitindo que a tripulação soubesse quando virar a embarcação e manter o rumo.\n[…]\nNa vida contemporânea, as ampulhetas transcenderam seu papel histórico como instrumentos de navegação e tornaram-se objetos multifuncionais, valorizados tanto por sua praticidade quanto por seu apelo estético. Em cozinhas, ampulhetas pequenas são frequentemente utilizadas como temporizadores digitais na cozinha, terapias de relaxamento, jogos de tabuleiro e até mesmo como objetos de decoração. .\n[…]\nmuitos profissionais e estudantes adotam as ampulhetas para apoiar técnicas de produtividade, como o método Pomodoro, dividindo as sessões de trabalho ou estudo em intervalos focados. O fluxo constante da areia proporciona um estímulo visual que ajuda os usuários a manterem a concentração e a organização, sem a interrupção de alarmes sonoros.\n[…]\nAs utilizações modernas reforçam a relevância contínua da ampulheta como objeto funcional e simbólico em um mundo cada vez mais digital.\n[…]\nRelógio",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Relógio de pulso",
+      "descricao": "Relógio portátil preso ao pulso por uma pulseira, que substituiu o relógio de bolso no dia a dia."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Por muito tempo visto como joia feminina, o relógio de pulso se popularizou entre os homens graças aos soldados de qual guerra?",
+    "resposta": "Primeira Guerra Mundial",
+    "distratores": [
+      "Guerra do Paraguai",
+      "Guerra Franco-Prussiana",
+      "Segunda Guerra Mundial"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Watch"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Watch",
+        "situacao": "ok",
+        "texto": "A watch is a timepiece carried or worn by a person. It is designed to maintain a consistent movement despite the motions caused by the person's activities. A wristwatch is worn around the wrist, attached by a watch strap or another type of bracelet, including metal bands or leather straps. A pocket watch is carried in a pocket, often attached to a chain. A stopwatch is a type of watch that measure\n[…]\nThese early wristwatches, known as 'wristlets', were exclusively tailored for women for around the first hundred years after their creation. Men's watches appeared only later in the late 19th century with the pocket watch still being the preferred masculine form. The reason early watches were feminine in the 1800s was likely due to women's expansion of their public lives, and the lack of pockets in female clothing, preventing their use of pocket watches.\n[…]\nWristwatches and antique pocket watches are often appreciated as jewelry or as collectible works of art rather than just as timepieces. This has created several different markets for wristwatches, ranging from very inexpensive but accurate watches (intended for no other purpose than telling the correct time) to extremely expensive watches that serve mainly as personal adornment or as examples of high achievement in miniaturization and precision mechanical engineering.\n[…]\nOn 12 April 1961, Gagarin wore a Shturmanskie (a transliteration of Штурманские which actually means \"navigator's\") wristwatch during his historic first flight into space. The Shturmanskie was manufactured at the First Moscow Factory. Since 1964, the watches of the First Moscow Factory have been marked by the trademark \"Полёт\", transliterated as \"POLJOT\", which means \"flight\" in Russian and is a tribute to the many space trips its watches have accomplished.\n[…]\nGrafton, Edward, Horology, a popular sketch of clock and watch making, London: Aylett and Jones, 1849"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Guarda-chuva",
+      "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em Londres, o guarda-chuva era visto como coisa de mulher até que o inglês Jonas Hanway passou a usá-lo nas ruas. Em que século?",
+    "resposta": "Século dezoito",
+    "distratores": [
+      "Século dezesseis",
+      "Século dezessete",
+      "Século dezenove"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jonas_Hanway",
+      "https://en.wikipedia.org/wiki/Umbrella"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jonas_Hanway",
+        "situacao": "ok",
+        "texto": "Jonas Hanway, FRSA (12 August 1712 – 5 September 1786), was an English merchant, writer and philanthropist. He was the first male Londoner to carry an umbrella and was a noted opponent of tea drinking. Hanway created seventy-four printed works, mostly pamphlets, on a wide variety of subjects. Of literary importance is the Historical Account of British Trade over the Caspian Sea, with a Journal of \n[…]\nHanway was the first male Londoner, it is said, to carry an umbrella, (following women who had been using umbrellas since 1705) and he lived to triumph over all the hackney coachmen who tried to hoot and hustle him down. He attacked vail-giving, or tipping, with some temporary success; by his onslaught upon tea drinking he became involved in controversy with Samuel Johnson and Oliver Goldsmith. His last efforts were on behalf of child chimney-sweeps.\n[…]\nJohnson did not dispute some of Hanway's attack, saying: \"I... shall therefore readily admit, that tea is a liquor not proper for the lower classes of the people, as it supplies no strength to labour, or relief to disease, but gratifies the taste without nourishing the body.\"\n[…]\nBased on This article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). \"Hanway, Jonas\". Encyclopædia Britannica. Vol. 12 (11th ed.). Cambridge University Press. p. 932.\n[…]\nRoland Everett Jayne, Jonas Hanway: Philanthropist, Politician, and Author (1712–1786), London: Epworth Press, J. Alfred Sharp, 1929.\n[…]\nOn his life, see also John Pugh, Remarkable Occurrences in the Life of Jonas Hanway (London, 1787); Gentleman's Magazine, vol. xxxii. p. 342; vol. lvi. pt. ii. pp. 812814, 1090, 1143-1144; vol. lxv. pt. ii. pp. 72 1722, 834-835; Notes and Queries, 1st series, i. 436, ii. 25; 3rd series, vii. 311; 4th series, viii. 416."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Umbrella",
+        "situacao": "ok",
+        "texto": "An umbrella (parasol or rarely parapluie) is a folding canopy supported by wooden or metal ribs that is mounted on a wooden, metal, or plastic pole. It is usually designed to protect a person against sun or rain. Initially, (in the early 1200s) they were used in warmer countries for shade from the sun, but later evolved to also be used for protection from rain. Etymologically, the term umbrella is\n[…]\nAbout the same time, umbrellas came into general use as people found their value and got over the shyness natural to its introduction. Jonas Hanway, the founder of the Magdalen Hospital, has the credit of being the first man who ventured to dare public reproach and ridicule by carrying one habitually in London. As he died in 1786, and he is said to have carried an umbrella for thirty years, the date of its first use by him may be set down at about 1750.\n[…]\nUmbrellas have also been fashioned into hats as early as 1880 and at least as recently as 1987.\n[…]\nPlayers use victory reward umbrellas to glide into the battle arena in the video game Fortnite Battle Royale.\n[…]\nThe song \"Umbrella\" by Rihanna references umbrellas extensively, with limited references to rain.\n[…]\nThe first umbrellas of this kind (Federal Garden Exhibition, Kassel, 1955) were fixed, Frei Otto constructed the first convertible large umbrellas for the Federal Garden Exhibition in Cologne 1971. In 1978 he built a group of ten convertible umbrellas for British rock group Pink Floyd's American tour. The great beauty of these lightweight structures inspired many subsequent projects built all over the world.\n[…]\nThe largest convertible umbrellas built until now were designed by Mahmoud Bodo Rasch and his team at SL-Rasch to provide shelter from sun and rain for the great mosques in Saudi Arabia.\n[…]\nCocktail umbrella\n[…]\nOil-paper umbrella\n[…]\nRoyal Nine-Tiered Umbrella\n[…]\nThe Umbrella Man (song)\n[…]\nUmbrella hat\n[…]\nUmbrella marketing\n[…]\nUmbrella stand\n[…]\nUmbrella (song)"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Dia das Crianças",
+      "descricao": "Data comemorativa brasileira dedicada às crianças, celebrada em doze de outubro."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O doze de outubro foi oficializado como Dia das Crianças no Brasil por um decreto que demorou décadas para pegar. Em que década saiu esse decreto?",
+    "resposta": "Anos vinte",
+    "distratores": [
+      "Anos quarenta",
+      "Anos sessenta",
+      "Anos oitenta"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dia_das_Crianças"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_das_Crianças",
+        "situacao": "ok",
+        "texto": "Dia das Crianças (português brasileiro) ou Dia da Criança (português europeu) é uma data comemorativa celebrada anualmente em homenagem às crianças, cujo dia efetivo varia de acordo com o país. Países como Angola, Portugal e Moçambique adotaram o dia 1 de junho. No Brasil é celebrado em 12 de outubro.\n[…]\nEm 1924, o deputado federal Galdino do Valle Filho lançou a ideia do Dia da Criança. Os deputados aprovaram e o dia 12 de outubro foi oficializado pelo presidente Arthur Bernardes, por meio do decreto nº 4867, de 5 de novembro de 1924.\n[…]\nNo ano seguinte, os fabricantes de brinquedos decidiram escolher um único dia para a promoção, e fizeram ressurgir o antigo decreto de 1924. A estratégia deu certo, pois desde então o dia das crianças é comemorado com muitos presentes.\n[…]\nEm Portugal, o Dia da Criança é festejado no dia 1 de junho.\n[…]\nOficialmente, o dia é assinalado pela Organização das Nações Unidas (ONU) a 20 de novembro, data em que no ano de 1959 foram aprovados pela Assembleia-Geral da ONU os Direitos da Criança. Na mesma data (20 de novembro), mas no ano de 1989, foi adotada pela Assembleia-Geral da ONU a Convenção dos Direitos da Criança, que Portugal ratificou em 21 de setembro de 1990.\n[…]\nNos Estados Unidos, o dia das crianças é festejado no primeiro domingo de junho, podendo a data variar de estado para estado em nível nacional. O Dia das Crianças e Juventude foi aprovado em 1994, quando o Legislativo do Havaí tornou-se o primeiro estado do país a aprovar uma lei para reconhecer o primeiro domingo de outubro como o \"Dia da Criança\". Nos Estados Unidos, o presidente Bill Clinton proclamou o dia das crianças em 8 de outubro de 2000.\n[…]\nO \"Dia Nacional da Criança\" foi proclamado pelo presidente George W. Bush em 3 de junho de 2001."
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Dia das Crianças",
+      "descricao": "Data comemorativa brasileira dedicada às crianças, celebrada em doze de outubro."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O Dia das Crianças só ganhou força no Brasil nos anos sessenta, graças a uma campanha de vendas de qual fábrica de brinquedos?",
+    "resposta": "Estrela",
+    "distratores": [
+      "Glasslite",
+      "Trol",
+      "Grow"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dia_das_Crianças"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_das_Crianças",
+        "situacao": "ok",
+        "texto": "Dia das Crianças (português brasileiro) ou Dia da Criança (português europeu) é uma data comemorativa celebrada anualmente em homenagem às crianças, cujo dia efetivo varia de acordo com o país. Países como Angola, Portugal e Moçambique adotaram o dia 1 de junho. No Brasil é celebrado em 12 de outubro.\n[…]\nO fato é que, por alguma razão, a data de 25 de março ficou apenas \"no papel\". Somente em 1960, quando a Fábrica de Brinquedos Estrela fez uma promoção conjunta com a Johnson & Johnson para lançar a \"Semana do Bebê Robusto\" e aumentar suas vendas, é que a data de 12 de outubro passou a integrar o calendário das festas comerciais. Logo depois, outras empresas decidiram criar a Semana da Criança, para aumentar as vendas.\n[…]\nNo ano seguinte, os fabricantes de brinquedos decidiram escolher um único dia para a promoção, e fizeram ressurgir o antigo decreto de 1924. A estratégia deu certo, pois desde então o dia das crianças é comemorado com muitos presentes.\n[…]\nOficialmente, o dia é assinalado pela Organização das Nações Unidas (ONU) a 20 de novembro, data em que no ano de 1959 foram aprovados pela Assembleia-Geral da ONU os Direitos da Criança. Na mesma data (20 de novembro), mas no ano de 1989, foi adotada pela Assembleia-Geral da ONU a Convenção dos Direitos da Criança, que Portugal ratificou em 21 de setembro de 1990.\n[…]\nO \"Dia Nacional da Criança\" foi proclamado pelo presidente George W. Bush em 3 de junho de 2001.\n[…]\nNo Paraguai, devido ao esforço do historiador Andrés Aguirre, o dia das crianças é comemorado em 16 de agosto, data da Batalha de Campo Grande (conhecida como \"Batalha de Los Niños\" pelos paraguaios), em homenagem às crianças-soldado recrutadas por Solano López devido à falta de homens no exército paraguaio e mortas no referido combate da Guerra do Paraguai."
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Garrafa térmica",
+      "descricao": "Recipiente de parede dupla com vácuo que conserva a temperatura de líquidos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A marca Thermos, que em vários países virou sinônimo de garrafa térmica, tem nome tirado de uma palavra grega. O que ela significa?",
+    "resposta": "Calor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thermos_L.L.C.",
+      "https://en.wikipedia.org/wiki/Vacuum_flask"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thermos_L.L.C.",
+        "situacao": "ok",
+        "texto": "Thermos LLC is a manufacturer of insulated food and beverage containers and other consumer products. The company was originally founded in Germany in 1904 and is now headquartered in the United States, under the ownership of the Japanese company Nippon Sanso.\n[…]\nThis part of Thermos had been located behind the \"Iron Curtain\" since 1945 but the German reunification encouraged foreign investments.\n[…]\nTogether, the citizens and the city raised $78,000. A contract was signed on February 14, 1912, it would make Norwich the home of the Thermos Plant and that Thermos would use Norwich's name on its advertising. Allyn L. Brown acted as attorney and provided counsel for the deal. Thermos products produced in Norwich bear a stamp \"Made in Norwich\".\n[…]\nIn 1955, the Thermos company, then named the American Thermos Bottle Company, acquired control of Hemp and Company, Inc., of Macomb, Illinois, manufacturers of the Little Brown Jug and other insulated jugs and chests, as well as Duncan Hines-branded outdoor grills. To reflect the growing diversity of products, the names of the North American companies were changed again in 1956; the US corporation became the American Thermos Products Company, while what had been the Canadian Thermos Bottle Co.\n[…]\nLtd. changed its name to Canadian Thermos Products Limited.\n[…]\nThermos products made a major impact in the 1950s and sold over 2 million units. In 2004, the Smithsonian Institution museum featured Thermos products as part of its \"Taking America to Lunch\" retrospective of lunch kits from the 1880s to the 1980s.\n[…]\nAmerican Thermos Bottle Company Laurel Hill Plant\n[…]\nFinding aid for the Thermos Company Collection at the University of Connecticut Archives and Special Collections"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Vacuum_flask",
+        "situacao": "ok",
+        "texto": "A vacuum flask (also known as a Dewar flask, Dewar bottle or thermos) is an insulating storage vessel that slows the rate at which its contents change in temperature. It greatly lengthens the time over which its contents remain hotter or cooler than the flask's surroundings by trying to be as adiabatic as possible. Invented by James Dewar in 1892, the vacuum flask consists of two flasks, placed on\n[…]\nThe Dewar flask design had never been patented but the German men who discovered the commercial use for the product named it Thermos, and subsequently claimed both the rights to the commercial product and the trademark to the name. In his subsequent attempt to claim the rights to the invention, Dewar instead lost a court case to the company.\n[…]\nThe manufacturing and performance of the Thermos bottle was significantly improved and refined by the Viennese inventor and merchant Gustav Robert Paalen, who designed various types for domestic use, which he also patented, and distributed widely, through the Thermos Bottle Companies in the United States, Canada and the UK, which bought licences for respective national markets.\n[…]\nThe American Thermos Bottle Company built up a mass production in Norwich, CT, which brought prices down and enabled the wide distribution of the product for at-home use. Over time, the company expanded the size, shapes and materials of these consumer products, primarily used for carrying coffee on the go and carrying liquids on camping trips to keep them either hot or cold. Eventually other manufacturers produced similar products for consumer use.\n[…]\nThe term \"thermos\" became a household name for vacuum flasks in general. As of 2023, Thermos and THERMOS remain a registered trademark in some countries, including the United States, but the lowercase \"thermos\" was declared a genericized trademark by court action in the United States in 1963."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Thermos",
+        "situacao": "ok",
+        "texto": "A Thermos LLC (Limited Liability Company) é fabricante de recipientes isolados para alimentos e bebidas e outros produtos de consumo. A empresa original foi fundada na Alemanha em 1904.\n[…]\nA palavra garrafa térmica é uma marca registrada genérica usada às vezes, desde o início do século XX, como um termo para qualquer frasco isolado a vácuo, independentemente do fabricante. Por volta de 1910 até 1922, a American Thermos Bottle Company buscou essa sinonímia, pois era considerada publicidade gratuita; o valor dessa publicidade foi estimado, em 1917, entre $ 3 e $ 4 milhões apenas em dólares americanos.\n[…]\nÀ medida que a empresa e o mercado de frascos a vácuo cresciam, ela tornou-se cada vez mais protetora de sua marca registrada, registrada em 1923, após uma vitória judicial apertada sobre o varejista de frascos W. T. Grant Company. A partir de 1935, Thermos empregou um serviço de clipping para encontrar usos não autorizados e protestou contra os editores de dicionários que incluíram garrafa térmica como uma palavra em vez de um nome próprio.\n[…]\nAladdin (ou qualquer empresa) poderia marcar suas garrafas com uma \"garrafa térmica\" minúscula, enquanto a empresa Thermos mantinha o uso de letras maiúsculas. Essa decisão tornou a marca parcialmente genérica no Segundo Circuito dos EUA (Nova York, Connecticut e Vermont), mas continua sendo uma marca registrada no restante dos EUA e em mais de 100 outros países.\n[…]\nEm 1906, a empresa Thermos GmbH foi formada por Burger com Albert Aschenbrenner e Gustav Robert Paalen. A produção de garrafas da marca Thermos nos Estados Unidos foi baseada na patente americana 13.093 de Burger e Aschenbrenner.\n[…]\nSite Oficial Thermos (inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Velcro",
+      "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Velcro junta o começo de duas palavras francesas que descrevem as duas faces do fecho. Que palavras são essas?",
+    "resposta": "Veludo e gancho (velours e crochet)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Velcro",
+      "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Velcro",
+        "situacao": "ok",
+        "texto": "Velcro is a brand of versatile fastening devices, known as hook-and-loop fasteners, hook-and-pile fasteners, or touch fasteners, that allow two surfaces to be repeatedly attached and detached with ease. A trademark of Velcro Companies, the brand name is often used generically to refer to this type of fastener. Invented in the mid-20th century, it is widely used in clothing, accessories, and variou\n[…]\nThe original hook-and-loop fastener was conceived in 1941 by Swiss engineer George de Mestral, which he named velcro. The word Velcro is a portmanteau of two French words: \"velours\" meaning velvet, and \"crochet\" meaning hook. The idea came to him one day after he returned from a hunting trip with his dog in the Alps. He took a close look at the burs of burdock that kept sticking to his clothes and his dog's fur.\n[…]\n1996 – In the John Frankenheimer film The Island of Dr. Moreau, Moreau's assistant jokingly claims that the doctor won his Nobel Prize for inventing Velcro.\n[…]\n2002 – The Star Trek: Enterprise episode \"Carbon Creek\" portrays Velcro as being introduced to human society by Vulcans in 1957. One of the Vulcans in the episode is named \"Mestral\", after the fastener's actual inventor and founder of the brand.\n[…]\n2004 – One of the characters in the film Garden State made a fictional vast fortune from inventing \"silent Velcro\".\n[…]\n2008 – In filming his mocumentary, Brüno (released in 2009), actor Sacha Baron Cohen stormed onto the catwalk at the Ágatha Ruiz de la Prada fashion show in Milan, with random large objects from backstage attached to his outfit, which was made largely of Velcro.\n[…]\n2016 – As an April Fools' Day joke Lexus introduced \"Variable Load Coupling Rear Orientation (V-LCRO)\" seats, technology that attaches the driver to the seat with Velcro to allow for more aggressive turns."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hook-and-loop_fastener",
+        "situacao": "ok",
+        "texto": "Velcro is a brand of versatile fastening devices, known as hook-and-loop fasteners, hook-and-pile fasteners, or touch fasteners, that allow two surfaces to be repeatedly attached and detached with ease. A trademark of Velcro Companies, the brand name is often used generically to refer to this type of fastener. Invented in the mid-20th century, it is widely used in clothing, accessories, and variou\n[…]\nThe original hook-and-loop fastener was conceived in 1941 by Swiss engineer George de Mestral, which he named velcro. The word Velcro is a portmanteau of two French words: \"velours\" meaning velvet, and \"crochet\" meaning hook. The idea came to him one day after he returned from a hunting trip with his dog in the Alps. He took a close look at the burs of burdock that kept sticking to his clothes and his dog's fur.\n[…]\n1996 – In the John Frankenheimer film The Island of Dr. Moreau, Moreau's assistant jokingly claims that the doctor won his Nobel Prize for inventing Velcro.\n[…]\n2002 – The Star Trek: Enterprise episode \"Carbon Creek\" portrays Velcro as being introduced to human society by Vulcans in 1957. One of the Vulcans in the episode is named \"Mestral\", after the fastener's actual inventor and founder of the brand.\n[…]\n2004 – One of the characters in the film Garden State made a fictional vast fortune from inventing \"silent Velcro\".\n[…]\n2008 – In filming his mocumentary, Brüno (released in 2009), actor Sacha Baron Cohen stormed onto the catwalk at the Ágatha Ruiz de la Prada fashion show in Milan, with random large objects from backstage attached to his outfit, which was made largely of Velcro.\n[…]\n2016 – As an April Fools' Day joke Lexus introduced \"Variable Load Coupling Rear Orientation (V-LCRO)\" seats, technology that attaches the driver to the seat with Velcro to allow for more aggressive turns."
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Caneta esferográfica",
+      "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Argentina, a caneta esferográfica tem um apelido formado pelos sobrenomes do seu inventor húngaro e de um sócio dele. Que nome é esse?",
+    "resposta": "Birome",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/László_Bíró",
+      "https://es.wikipedia.org/wiki/Birome"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/László_Bíró",
+        "situacao": "ok",
+        "texto": "László József Bíró (Hungarian: [ˈlaːsloː ˈjoːʒɛf ˈbiːroː]; né Schweiger; 29 September 1899 – 24 October 1985), Hispanicized as Ladislao José Biro, was an Argentine, Hungary-born inventor who patented the first commercially successful modern ballpoint pen. The first ballpoint pen had been invented roughly 50 years earlier by John J. Loud, but it was not a commercial success.\n[…]\nDuring World War II, Bíró fled the Nazis with his brother. They relocated to Argentina in 1943 at the invitation of the President of Argentina, Agustin Justo, who met the inventor in Yugoslavia while on vacation, noticing the unusual writing implement.\n[…]\nOn 17 June 1943, the brothers filed another patent, issued in the US as \"US Patent 2,390,636 Writing Instrument\" and formed Biro Pens of Argentina (in Argentina and Uruguay the ballpoint pen is known as birome, a portmanteau of the brothers' surname with that of their business partner, Juan Jorge Meyne). This new design was supposedly licensed for production in the United Kingdom for supply to Royal Air Force aircrew.\n[…]\nLászló Bíró died in Buenos Aires, Argentina, on October 24, 1985.\n[…]\nArgentina's Inventors' Day is celebrated on Bíró's birthday, 29 September. On 29 September 2016, the 117th anniversary of his birth, Google commemorated Bíró with a Google Doodle for \"his relentless, forward-thinking spirit\".\n[…]\nHargittai, Istvan; Hargittai, Balazs (2023). \"Ladislao José Biro\". Brilliance in Exile: The Diaspora of Hungarian Scientists from John von Neumann to Katalin Karikó. Central European University Press. pp. 154–156. doi:10.7829/j.ctv2vdbvm7. ISBN 978-963-386-625-2. JSTOR 10.7829/j.ctv2vdbvm7. Retrieved 25 December 2024."
+      },
+      {
+        "url": "https://es.wikipedia.org/wiki/Birome",
+        "situacao": "ok",
+        "texto": "Un bolígrafo (boli),​ esferográfica (esfero),​ birome,​ lapicero,​ lapicerito,​ lapicera,​lápiz pasta,​ lápiz tinta o pluma​ es un instrumento de escritura consistente en una punta de carga, que contiene una esfera, generalmente de acero o wolframio, que en contacto con el papel, va dosificando la tinta que tiene en el cartucho a medida que se la hace rodar, del mismo modo que un desodorante de bo\n[…]\nEn Argentina, Paraguay y Uruguay es conocido, además de como «lapicero», «lapicera» y «bolígrafo», por «birome»,​ que es el nombre comercial con el que se había creado en Argentina en 1943. En distintos países como México, el bolígrafo es conocido como «pluma», mientras que en Chile, el término «bolígrafo» se lo conoce informalmente también «lápiz pasta» y «lapicero»​ (lápiz pasta en Chile).\n[…]\nEsa solicitud estadounidense fue la que finalmente se aprobó y otorgó bajo el número 2,390,636 (\"Writing Instrument\").​Lanzaron el nuevo producto al mercado bajo el nombre comercial de Birome (acrónimo formado por las sílabas iniciales de Biro y Meyne).\n[…]\nEn 1944 vendió los derechos de fabricación en la entonces extraordinaria suma de 2.000.000 de dólares a la empresa de instrumentos de escritura Eversharp, de los Estados Unidos, que fue adquirida a su vez por la empresa Parker Pen Company, que instaló su planta de la Argentina y sus oficinas comerciales en las que ocupaba Birome. En 1950, Marcel Bich, de Francia, adquirió los derechos para el mercado europeo y modificó el diseño original para evitar las manchas de tinta y acelerar su secado.\n[…]\nEntre otros inventos Biro, diseñó un perfumero usando el mismo principio que el bolígrafo. Más tarde, con el mismo principio se creó el desodorante de bolilla, conocido en inglés como roll-on.​\n[…]\nLa Fundación Biró organizó la exposición en el marco del Día del Inventor argentino, que conmemora cada 29 de septiembre el nacimiento de Ladislao Biró.​​"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3",
+        "situacao": "ok",
+        "texto": "László József Bíró (em húngaro:  Bíró László József; em castelhano:  Ladislao José Biro) (Budapeste, 29 de setembro de 1899 – Buenos Aires, 24 de outubro de 1985) foi um inventor húngaro naturalizado argentino. Era judeu, tal como a restante família.\n[…]\nInventou a moderna caneta esferográfica.\n[…]\nBíró nasceu em Budapeste, Áustria-Hungria, em 1899. Apresentou sua primeira versão da caneta esferográfica na Feira Internacional de Budapeste, em 1931. Quando trabalhava como jornalista na Hungria, percebeu que a tinta usada na impressão de jornais secava rapidamente, deixando a folha impressa seca e sem manchas. Tentou usar a mesma tinta em uma caneta-tinteiro, percebendo que a tinta não fluía para a ponta da mesma, pois era muito viscosa.\n[…]\nTrabalhando juntamente com seu irmão Georg, um químico, desenvolveu uma nova ponta, consistindo de uma esfera que girava livremente na ponta da caneta, e assim que a mesma fosse colocada na posição de escrever a esfera era molhada na tinta de um cartucho, esfera esta que rotacionada devido ao atrito com uma folha de papel deixava uma trilha de tinta. Biró patenteou a invenção em Paris, em 1938.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Tamagotchi",
+      "descricao": "Bichinho virtual eletrônico em forma de ovo, criado pela empresa japonesa Bandai."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Tamagotchi junta a palavra japonesa para ovo com uma palavra de origem inglesa. Qual é ela?",
+    "resposta": "Watch (relógio)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tamagotchi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+        "situacao": "ok",
+        "texto": "Tamagotchi (Japanese: たまごっち; IPA: [tamaɡotꜜtɕi], \"Egg Watch\") is a brand of handheld digital pets marketed since 1996 by Japanese toymaker Bandai, a division of Bandai Namco Holdings. Most Tamagotchi are housed in a small egg-shaped handheld video game with an interface consisting of three buttons, with the goal of raising the pet as it goes through different life stages.\n[…]\nAccording to Bandai, the name is a portmanteau combining the two Japanese words tamago (たまご), which means \"egg\", and uotchi (ウオッチ) \"watch\". After the original English spelling of watch, the name is sometimes romanized as Tamagotch without the \"i\" in Japan. Most Tamagotchi characters' names end in tchi or chi (ち) in Japanese. \"Mametchi\", present since the original release, became a mascot of sorts for the series.\n[…]\nThe characters were first drawn in heta-uma, which was a popular style found in teen magazines, and were then converted to pixel art. They were worn like a wristwatch in the initial concept, hence the portmanteau name. The egg shape might have been chosen as it was meant to resemble a pocket watch. The characters are colorful creatures with simple designs based on animals, objects, or people. When releasing the Tamagotchi in Japan, Bandai initially marketed them exclusively to teenage girls.\n[…]\nAs of December 2005, over 15 million units of the Tamagotchi Connection/Plus had been sold. This number rose to 20 million by 2006.\n[…]\nBy 2010, after the release of newer Tamagotchi models, over 76 million Tamagotchis had been sold worldwide. By 2017, over 82 million units had been sold worldwide. By March 2021, Bandai Namco had sold 83.73 million Tamagotchi units. By June 2023, over 91 million units were sold worldwide. As of 2025, 98.1 million units have been sold worldwide.\n[…]\nTamagotchi effect – Development of emotional attachment to machines, robots or software agents"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tamagotchi",
+        "situacao": "ok",
+        "texto": "Tamagotchi (たまごっち, tamagocchi) é uma franquia de mídia japonesa que consiste em animais de estimação virtual, jogos eletrônicos, animações ​​e outras mídias relacionadas. A franquia se passa em um universo compartilhado no qual humanos coexistem com criaturas alienígenas, denominadas Tamagotchi, vindas de um planeta de mesmo nome. O público-alvo principal da franquia é o infantojuvenil, mas ficou \n[…]\nAo lançar o Tamagotchi no Japão, a Bandai inicialmente os comercializou exclusivamente para meninas adolescentes. Bandai e WiZ mais tarde criariam uma contraparte masculina para o Tamagotchi, o Digital Monster, que daria origem à franquia Digimon.\n[…]\nDia 08 de fevereiro de 2018 foi lançada finalmente a versão do jogo para Android, desenvolvido pela Bandai Namco. intitulado como \"My Tamagotchi Forever\" o app pode ser baixado pela Play store, porém ainda não está disponível para o Brasil. Até então, somente no Japão.\n[…]\nDurante o final da década de 1990, as crianças frequentemente levavam os bichinhos digitais Tamagotchi para a escola porque nos dois primeiros lançamentos (Geração 1 e Geração 2), um personagem poderia morrer em menos de meio dia se não recebesse os cuidados adequados. Os professores expressaram preocupação com a interrupção das aulas, bem como a distração geral dos trabalhos escolares e isso acabou levando muitas escolas a banir o produto.\n[…]\nAs crianças se emocionaram com a morte de seus Tamagotchi, levando os adolescentes a enviá-los para cemitérios para enterro e lendas urbanas de suicídio de adolescentes, como um suposto caso de uma adolescente se enforcando pela morte de seu Tamagotchi depois que seus pais o levaram embora. uma punição.\n[…]\nForam lançados os seguintes jogos eletrônicos de Tamagotchi:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Dia dos Namorados no Brasil",
+      "descricao": "Data comemorativa brasileira dos casais, celebrada em 12 de junho."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "No Brasil, o Dia dos Namorados cai em doze de junho porque é a véspera do dia de qual santo?",
+    "resposta": "Santo Antônio",
+    "distratores": [
+      "São João",
+      "São Pedro",
+      "São Valentim"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dia_dos_Namorados"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_dos_Namorados",
+        "situacao": "ok",
+        "texto": "O Dia dos Namorados, também conhecido em diversos países como Dia de São Valentim, é uma celebração anual comemorada a 14 de fevereiro que assinala a união amorosa, o romance e o afeto entre casais.\n[…]\nNo Brasil, a celebração ocorre a 12 de junho, tendo sido instituída por motivos comerciais na véspera do Dia de Santo António, conhecido popularmente como o santo casamenteiro, em detrimento do tradicional São Valentim.\n[…]\nO Dia dos Namorados foi criado pelo publicitário João Doria, que buscava uma data comemorativa para fomentar o comércio no mês de junho — considerado um mês com poucas vendas a época —, sendo comemorada no dia 12 de junho por ser véspera do 13 de junho, Dia de Santo Antônio, santo português com tradição de casamenteiro.\n[…]\nDoria trouxe a ideia do exterior e apresentou-a aos comerciantes paulistas, iniciando em junho de 1949 uma campanha com o lema \"não é só com beijos que se prova o amor\". A ideia se expandiu pelo Brasil, amparada pela correlação com o Dia de São Valentim — que nos países do hemisfério norte, ocorre em 14 de fevereiro e é utilizada para incentivar a troca de presentes entre o casal apaixonado.\n[…]\nOs registos mais antigos que restam de poemas de namorados em língua inglesa parecem ser os que constam nas Paston Letters, escritos em 1477 por Margery Brews para o seu futuro marido, John Paston, tratando-o por \"meu muito bem-amado Valentim\" (*\"my right well-beloved Valentine\"*).\n[…]\nSanto António\n[…]\n«Dia de São Valentim celebra santo que nunca existiu». , na Folha Online\n[…]\nO Doodle da Google para o Dia dos Namorados de 2025"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Caixa eletrônico",
+      "descricao": "Máquina de autoatendimento bancário que permite sacar dinheiro sem passar pelo caixa humano."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "John Shepherd-Barron, criador do caixa eletrônico, pensou em senhas de seis dígitos, mas adotou só quatro. Por quê?",
+    "resposta": "A esposa só lembrava quatro dígitos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/John_Shepherd-Barron"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/John_Shepherd-Barron",
+        "situacao": "ok",
+        "texto": "John Adrian Shepherd-Barron OBE (23 June 1925 – 15 May 2010) was an India-born British inventor, who led the team that installed the first cash machine, sometimes referred to as the automated teller machine or ATM.\n[…]\nJohn Adrian Shepherd-Barron was born on 23 June 1925 in Shillong (now Meghalaya), India, to British parents. His Scottish father, Wilfred Shepherd-Barron, was chief engineer of the Chittagong Port Commissioners in North Bengal, which was then part of the British Empire, then later Chief Engineer of the Port of London Authority, before becoming president of the Institution of Civil Engineers, whilst his mother Dorothy, was an Olympic tennis player and Wimbledon ladies doubles champion.\n[…]\nAs a result, four-digit PINs were chosen and as ATMs expanded across the globe, this became the world standard. Withdrawals from the first Barclaycash machines were limited to a maximum of £10, \"quite enough for a wild weekend\" according to Shepherd-Barron.\n[…]\nShepherd-Barron received the OBE in the 2005 New Year's Honours list for services to banking as \"inventor of the automatic cash dispenser\".\n[…]\nGoodfellow's PIN system resembled modern ATMs more than Shepherd-Barron's machine. However, Shepherd-Barron's machine was the first to be installed, if only for a few days.\n[…]\nIn 1953, he married Caroline Murray, the daughter of Sir Kenneth Murray, one-time chairman of the Royal Bank of Scotland. They had three sons. One, Nicholas Shepherd-Barron FRS, is professor of algebraic geometry at the King's College London.\n[…]\nJohn Adrian Shepherd-Barron died on 15 May 2010 after a brief illness at the age of 84 in Raigmore Hospital, Inverness, Scotland. He was survived by his wife and their three sons, and extended family."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/John_Sheperd-Barron",
+        "situacao": "ok",
+        "texto": "John Sheperd-Barron (Shillong, 15 de junho de 1925 – Inverness, 15 de maio de 2005) foi um trabalhador britânico da Sociedade De La Rue inventor do Bancomat, em 1967.\n[…]\nÉ por essa razão que em 2005 recebe a medalha de Cavaleiro da Ordem do Império Britânico. Sheperd-Barron faleceu Inverness, Escócia em 15 de maio de 2005. Seu filho Nicholas é professor de geometria algébrica na Universidade de Cambridge.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Walkman",
+      "descricao": "Tocador portátil de fitas cassete com fones de ouvido, lançado pela empresa japonesa Sony."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a história oficial da Sony, o Walkman nasceu porque o cofundador Masaru Ibuka queria ouvir ópera com conforto numa situação específica. Qual?",
+    "resposta": "Em viagens de avião",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Walkman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Walkman",
+        "situacao": "ok",
+        "texto": "Walkman (Japanese: ウォークマン, Hepburn: Wōkuman) is a brand of portable audio players manufactured by Sony since 1979. It was originally introduced as a portable cassette player and later expanded to include a range of portable audio products. Since 2011, the brand has referred exclusively to digital flash memory players.\n[…]\nIn March 1979, at the request of Masaru Ibuka, the audio department modified the small \"Pressman\" recorder used by journalists, into a smaller cassette player. After many people praised the good sound quality, Sony, under the leadership of Akio Morita, launched the Walkman in July 1979. Morita positioned Walkman in the youth market, emphasized youth, vitality, and fashion, and created a headset culture.\n[…]\nSony co-founder Masaru Ibuka used the company's bulky TC-D5 cassette recorder to listen to music while traveling for business. He asked the executive deputy president Norio Ohga to design a playback-only stereo version optimized for walking. The metal-cased blue-and-silver Walkman TPS-L2, the world's first low-cost personal stereo, went on sale in Japan on 1 July 1979, and was sold for around ¥33,000 (or $150.00).\n[…]\nSony also hired actors to pose with the Walkman around the streets of Tokyo as an additional form of promotion.\n[…]\nIn the early 2000s, Sony debuted Plato, a blue alien, as its mascot for the Walkman.\n[…]\nIn 2025, a cassette Walkman from 1979 (model TPS-L2 ) was included in Pirouette: Turning Points in Design, an exhibition at the Museum of Modern Art featuring \"widely recognized design icons [...] highlighting pivotal moments in design history.\"\n[…]\nSince 2017, Sony provided the Music Center for PC software on Microsoft Windows, designed for both content transfer and also playback for Walkman and other audio products.\n[…]\nList of Sony Walkman products\n[…]\nSony Watchman\n[…]\nWalkman effect\n[…]\nSony"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Walkman",
+        "situacao": "ok",
+        "texto": "Walkman® é uma marca popular de uma série de tocadores ou leitores de áudio portáteis pertencente à Sony. O termo Walkman também é utilizado para se referir a aparelhos portáteis similares de reprodução de áudio estéreo de outros fabricantes. Com sua chegada, costuma-se dizer que mudaram os hábitos musicais, uma vez que cada pessoa pode carregar e ouvir seus sons preferidos e, principalmente, sem \n[…]\nO Walkman original foi criado em 1979 no Japão e levava o nome de Soundabout, no exterior. Foi criado pelo coordenador do setor de áudio da Sony Nobutoshi Kihara para um dos sócios da empresa, Akio Morita, que queria escutar ópera durante seu trabalho desgastante. Morita odiou o nome Walkman e pediu para ser alterado. Mas uma campanha de divulgação com o nome Walkman já tinha sido iniciada e alterá-lo sairia demasiado caro.\n[…]\nÉ o único Walkman da história auto-reverso a usar dois motores e sistema de movimentação de disco similar para assegurar uma velocidade exata para os dois lados da fita cassete (somente um motor opera por momento, dependendo do lado da fita cassete que está sendo executado). O consumo de bateria também foi reduzido requerendo apenas uma pilha AA para funcionamento; adaptador para corrente contínua local opcional.\n[…]\nO primeiro Walkman baseado em CD foi lançado em 1984 e teve sua expansão mundial nos anos 1990: modelo D-50 (D-5 em alguns mercados). Foi oficialmente chamado Discman, nome, assim como Walkman, utilizado para se referir a outros tocadores do mesmo tipo. Nos últimos anos, a Sony deixou de lado a marca Discman e passou a nomear todos os tocadores pessoais com a marca Walkman.\n[…]\nEm junho de 2007 a Sony Ericsson afirmou que mais de 26,5 milhões aparelhos Walkman foram vendidos desde setembro de 2005.\n[…]\nSony Watchman\n[…]\nSony Style Walkman\n[…]\nSony Walkman Portugal\n[…]\nSony Walkman Oficial Brasil\n[…]\nSony Walkman Shop Amazon Walkman opslaan",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Lata de bebida",
+      "descricao": "Embalagem cilíndrica de alumínio usada para refrigerantes e cervejas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1959, o americano Ermal Fraze criou o anel de abrir latas depois de passar um aperto num piquenique. O que tinha acontecido?",
+    "resposta": "Esqueceu o abridor de latas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ermal_Fraze",
+      "https://en.wikipedia.org/wiki/Pull-tab"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ermal_Fraze",
+        "situacao": "ok",
+        "texto": "Ermal Cleon \"Ernie\" Fraze (September 16, 1913 – October 26, 1989) was an American engineer who invented the pull-tab opener used in beverage cans.\n[…]\nFraze was born on a farm near Muncie, Indiana, but later moved to Dayton, Ohio, where he assembled novelties for Cracker Jack boxes.\n[…]\nHe started his career in Ohio as a machine tool operator in the 1940s. Using a loan from his wife, Martha, he established the Dayton Reliable Tool & Manufacturing Company, his own machine tool business in 1949. The company produced tools such as improved gun barrels for war planes, including the NASA, General Electric, and Ford. Fraze patented many of his innovations later graduated from Kettering University.\n[…]\nIn 1959, while at a picnic with friends and family, Fraze discovered he had left his \"church key\" can opener at home, forcing him to use a car bumper to open cans of beer. Fraze decided to create an improved beverage opening method that would eliminate the need for a separate device, leading to his creation of the pull-tab opener.\n[…]\nFraze died in 1989 in Kettering, Ohio from a brain tumor, leaving an estate worth $41 million. Soon after his death, the family sold the Dayton Reliable Tool Company to business managers, but the business remained in Dayton. In 1992, the Fraze family fired the business managers over an unauthorised attempt to sell the company, and took over the running of the company. The Fraze Pavilion, a 4,300-seat amphitheater in Kettering, was named in his honor."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pull-tab",
+        "situacao": "ok",
+        "texto": "A pull-tab is a gambling ticket for a pull-tab game. Other names for the game include Break-Opens, Nevada Tickets, Cherry Bells, Lucky 7s, Pickle Cards, Pickle Tickets, Instant Bingo, Bowl Games, or Popp-Opens."
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Óculos escuros",
+      "descricao": "Óculos com lentes escurecidas que protegem os olhos da luz forte do sol."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Nos anos trinta, a empresa americana Bausch e Lomb criou os óculos que dariam origem ao modelo Aviador da Ray-Ban. Para quem eles foram feitos?",
+    "resposta": "Pilotos militares americanos",
+    "distratores": [
+      "Alpinistas",
+      "Atores de Hollywood",
+      "Jogadores de golfe"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ray-Ban",
+      "https://en.wikipedia.org/wiki/Aviator_sunglasses"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ray-Ban",
+        "situacao": "ok",
+        "texto": "Ray-Ban is an American Italian-owned brand of luxury sunglasses and standard glasses created in 1936 by Canadian international company Bausch & Lomb. The brand is most notable for its Wayfarer and Aviator lines of sunglasses. In 1999, Bausch & Lomb sold the brand to Italian eyewear conglomerate Luxottica Group for a reported $640 million.\n[…]\nIn 1929, US Army Air Corps Colonel John A. Macready worked with Bausch & Lomb, a Rochester, New York–based medical equipment manufacturer, to create aviation sunglasses that would reduce the distraction for pilots caused by the intense blue and white hues of the sky."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Aviator_sunglasses",
+        "situacao": "ok",
+        "texto": "Aviator sunglasses are a style of sunglasses that was developed by a group of American firms. The original Bausch & Lomb design is now commercially marketed as Ray-Ban Aviators, although other manufacturers also produce aviator-style sunglasses.\n[…]\nThe first aviator style sunglasses contracted by the US military in 1935 were the U.S. Army Air Corps D-1 Sunglasses made by American Optical. They have a conspicuous USAC engraving on the hinged bridge. The D-1 flying goggle assembly was standardized on 13 August 1935, and was actually a pair of sun glasses with a rigid frame and plastic insulated arms. The D-1 sunglasses were superseded by the more comfortable AN6531 flying sun glasses (comfort cable) in November 1941.\n[…]\nIn the second half of the 1930s and early 1940s, a group of American firms continued developing sunglasses. The military  \"flying sun glasses (comfort cable)\" were standardized in November 1941. They were produced in huge quantities (several million pieces) for pilots and sailors. The lenses were made to a joint standard shared by the U.S. Army Air Corps and the U.S. Navy. As a result, the lens carried an \"AN\" (Army/Navy) specification number: the AN6531. The U.S.\n[…]\n[which] necessitated a new kind of military demeanor and gave rise to new definitions of the heroic stance which was to have a profound influence on modern fashion.\" Eventually, the aviator sunglasses produced by Bausch & Lomb were trademarked as \"Ray-Bans\".\n[…]\nThe military HGU-4/P Aviator and the Modified HGU-4/P Apache spectacles intended for Apache attack helicopter aircrew are under regular review to determine their functionality."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ray-Ban",
+        "situacao": "ok",
+        "texto": "Ray-Ban é uma marca de óculos de sol e óculos de grau, fundada em 1937 pela companhia norte-americana Bausch & Lomb. O nome dos óculos Ray-Ban vem de banir o sol (Banir o Raio), uma vez que bania o sol quando usados por pilotos americanos. A marca tornou-se famosa por seus modelos de óculos de sol Wayfarer e Aviator. Em 1999, a Bausch & Lomb vendeu a marca para o grupo óptico italiano Luxottica, p\n[…]\nEm 1929, o Coronel do Corpo Aéreo do Exército dos Estados Unidos, John A. Macready, trabalhou com a Bausch & Lomb, uma fabricante de equipamentos médicos com sede em Nova York, para criar óculos de sol da aviação que reduzissem a distração causada nos pilotos ​​pelos intensos tons de azul e branco do céu. Especificamente, MacCready estava preocupado com a forma como os óculos dos pilotos embaçavam, reduzindo drasticamente sua visibilidade em grandes altitudes.\n[…]\nDe acordo com a BBC, os óculos usavam \"lentes Kalichrome projetadas para aprimorar os detalhes e minimizar a neblina, filtrando a luz azul, tornando-os ideais para condições enevoadas\".\n[…]\nEm 1999, a divisão Global Eyewear Division da Bausch & Lomb, incluindo a Ray-Ban, foi adquirida pelo grupo Luxottica por US$ 640 milhões.\n[…]\nOs óculos de sol mais populares da Ray-Ban são os modelos Wayfarer e Aviator. Durante a década de 1950, a Ray-Ban lançou o modelo Caravans, que tinha um armação mais quadrada. Em 1965, os modelos Olympian I e II foram introduzidos; eles tornaram-se popular quando Peter Fonda os usou no filme de 1969 Easy Rider.\n[…]\nA empresa também produziu modelos de edição especial, como o The General em 1987, que se assemelha aos Aviators originais usados ​​pelo general Douglas MacArthur durante a Segunda Guerra Mundial.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Mouse",
+      "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O primeiro mouse, criado na equipe de Douglas Engelbart nos anos sessenta, tinha a carcaça feita de qual material?",
+    "resposta": "Madeira",
+    "distratores": [
+      "Alumínio",
+      "Baquelite",
+      "Borracha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Computer_mouse"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Computer_mouse",
+        "situacao": "ok",
+        "texto": "A computer mouse (plural mice; rarely mouses) is a hand-held pointing device that detects two-dimensional motion relative to a surface. This motion is typically translated into the motion of the pointer (called a cursor) on a display, which allows a smooth control of the graphical user interface of a computer.\n[…]\nThe first public demonstration of a mouse controlling a computer system was done by Douglas Engelbart in 1968 as part of The Mother of All Demos. Mice originally used two separate wheels to directly track movement across a surface in each dimension. Later, the standard design shifted to use a ball rolling on a surface to detect motion, in turn connected to internal rollers. Most modern mice use optical movement detection with no moving parts.\n[…]\nDouglas Engelbart of the Stanford Research Institute (now SRI International) has been credited in published books by Thierry Bardini, Paul Ceruzzi, Howard Rheingold, and several others as the inventor of the computer mouse. Engelbart was also recognized as such in various obituary titles after his death in July 2013.\n[…]\nIn any event, the invention of the mouse was just a small part of Engelbart's much larger project of augmenting human intellect.\n[…]\nThe German company Telefunken published on their early ball mouse on 2 October 1968. Telefunken's mouse was sold as optional equipment for their computer systems. Bill English, builder of Engelbart's original mouse, created a ball mouse in 1972 while working for Xerox PARC.\n[…]\nEngelbart's original mouse did not require a mousepad; the mouse had two large wheels which could roll on virtually any surface. However, most subsequent mechanical mice starting with the steel roller ball mouse have required a mousepad for optimal performance.\n[…]\nDoug Engelbart Institute mouse resources page includes stories and links"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rato_%28inform%C3%A1tica%29",
+        "situacao": "ok",
+        "texto": "Na tecnologia, o mouse(pt-BR) ou rato(pt-PT?) é um periférico de entrada que junto ao teclado auxilia no processo de entrada de dados em programas com interface gráfica (um dispositivo para Interação homem-computador e entrada de dados) criado pela empresa Xerox (mas somente se tornou um produto comercializado com a Apple).\n[…]\nEngelbart apresentou este periférico pela primeira vez em 9 de dezembro de 1968 denominando-o de \"XY Position Indicator For A Display System\". Constituía-se então em uma pequena caixa de madeira com apenas um botão. O invento de Engelbart ficou sem muita utilização devido à falta de necessidade de tal dispositivo: afinal, a maioria dos computadores utilizava apenas textos sem cursores na tela.\n[…]\nNa época, Douglas Engelbart vendeu a patente do \"X-Y Position Indicator\" (rato/mouse) por 10 000 dólares estadunidenses.\n[…]\nCom o advento dos jogos em 3D, o jogo Doom foi o primeiro jogo a utilizar o mouse para controlar a câmera no eixo horizontal e o Marathon de 1994 foi o primeiro a utilizar o mouse para controlar os eixos horizontal e vertical. Em grande parte dos jogos em primeira e terceira pessoa, o mouse é utilizado para controlar a câmera, enquanto o teclado é utilizado para controlar os movimentos do personagens.\n[…]\nNos consoles, o console educacional VTech Socrates de 1988 foi o primeiro a vir com mouse, em 1992 a Nintendo lançou o Super NES Mouse para o SNES. No mesmo ano também foi lançado o Sega Mouse para o Sega CD e o mouse para o PC Engine. Em 1994, foi lançado o Shuttle Mouse para o Sega Saturn e o PlayStation Mouse para o PlayStation no dia do seu lançamento. Em 1999 foi lançado o Nintendo 64 Mouse para o 64DD. Em 2000, foi lançado o Dreamcast Mouse para o Dreamcast.\n[…]\nEm 2002 foi lançado um mouse junto com o kit Linux for PlayStation 2.\n[…]\nHow Stuff Works - Mouse",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Orelhão",
+      "descricao": "Cabine de telefone público em forma de concha, símbolo das ruas brasileiras desde os anos setenta."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Para ter a forma de concha e ser leve e resistente ao tempo, o orelhão projetado por Chu Ming Silveira é feito de qual material?",
+    "resposta": "Fibra de vidro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Orelhão",
+      "https://pt.wikipedia.org/wiki/Chu_Ming_Silveira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Orelhão",
+        "situacao": "ok",
+        "texto": "Orelhão, oficialmente Telefone de Uso Público (TUP) é o nome dado para protetores de telefones públicos, projetado pela arquiteta e designer sino-brasileira, Chu Ming Silveira. Lançado em 4 de abril de 1972, inicialmente nas cidades do Rio de Janeiro e São Paulo. Hoje, encontram-se orelhões instalados por todo o Brasil, em países da América Latina, como Peru, Colômbia e Paraguai, em países african\n[…]\nDos quase 100 milhões de habitantes do Brasil, 52 milhões viviam em áreas urbanas, segundo dados do IBGE. O resultado disso é que, em muitos locais, ouvir e ser ouvido a partir de um telefone público, instalado no meio da rua, representava um verdadeiro desafio. Como solução para o problema, a CTB desenvolveu cabines circulares de fibra de vidro e acrílico e, para testar a novidade, instalou 13 delas na cidade de São Paulo.\n[…]\nPara chegar a uma espécie de cabine feita em fibra de vidro, forte, levíssima, resistente ao sol, à chuva e ao fogo e, segundo jornais da época, \"barata\", Chu Ming Silveira partiu da forma do ovo, segundo ela \"a melhor forma acústica\". A curvatura da cúpula oferecia uma proteção acústica de 40 a 90 decibéis, desde que o usuário ficasse sob ela.\n[…]\nHoje, o orelhão e adaptações do projeto da arquiteta brasileira são encontrados em países da América Latina, como Peru, Colômbia, Paraguai, em outros países da África, como Angola, e até mesmo na China, lugar das raízes de sua idealizadora.\n[…]\nNovos totens em fibra de vidro foram lançados pela empresa, em 1999, mas o orelhão continuou pelas ruas, fazendo parte do cotidiano do Brasil. Atualmente, no estado de São Paulo, existem 210 mil deles, segundo a Telefônica. Mas, a tendência é que esse número diminua, em função da resolução da Anatel (Agência Nacional de Telecomunicações) que reduziu a exigência mínima de aparelhos, de seis para quatro a cada mil habitantes, nas cidades de todo o Brasil."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chu_Ming_Silveira",
+        "situacao": "ok",
+        "texto": "Chu Ming Silveira (Xangai, 4 de abril de 1941 – São Paulo, 18 de junho de 1997) foi uma arquiteta e designer sino-brasileira, criadora do orelhão.\n[…]\nEntre 1968 e 1972, chefiou o Departamento de Projetos da CTB. Em 1971, desenvolveu os projetos de protetores telefônicos Chu I e Chu II, popularmente conhecidos como Orelhinha e Orelhão, respectivamente. Em 1974, em continuidade a seu trabalho voltado ao mobiliário urbano, elaborou anteprojetos de banca de jornais e banca de flores, para serem construídos em fibra de vidro, a exemplo dos protetores telefônicos que a notabilizaram.\n[…]\nÀ época de seu lançamento foram denominados pela CTB, Chu I e Chu II, em homenagem à sua inventora. O modelo Chu I, em acrílico cor-de-laranja, foi idealizado para telefones públicos instalados em locais fechados, como estabelecimentos comerciais e repartições públicas, ao passo que o Chu II foi concebido para áreas externas, fabricado em fibra de vidro nas cores laranja e azul, resistente ao sol e à chuva, ao frio e às altas temperaturas brasileiras.\n[…]\nEm 1975, Chu Ming e Clóvis Silveira dedicaram-se a construir a casa de concreto e vidro localizada no bairro do Morumbi em São Paulo, onde a família moraria até os anos 1990.\n[…]\nEdificado em concreto aparente, o projeto de Chu Ming Silveira reúne elementos que revelam influência do Brutalismo, tendência arquitetônica que teve como expoentes no Brasil os arquitetos João Batista Vilanova Artigas, Hans Broos e Paulo Mendes da Rocha, representantes da chamada Escola Paulista, e que tem como  principal característica a exposição de materiais construtivos.\n[…]\nOrelhão"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Orelhão",
+      "descricao": "Cabine de telefone público em forma de concha, símbolo das ruas brasileiras desde os anos setenta."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes dos cartões telefônicos, os orelhões funcionavam com uma peça metálica parecida com uma moeda, comprada em bancas e lojas. Como ela se chamava?",
+    "resposta": "Ficha telefônica",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Orelhão",
+      "https://pt.wikipedia.org/wiki/Ficha_telefônica"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Orelhão",
+        "situacao": "ok",
+        "texto": "Orelhão, oficialmente Telefone de Uso Público (TUP) é o nome dado para protetores de telefones públicos, projetado pela arquiteta e designer sino-brasileira, Chu Ming Silveira. Lançado em 4 de abril de 1972, inicialmente nas cidades do Rio de Janeiro e São Paulo. Hoje, encontram-se orelhões instalados por todo o Brasil, em países da América Latina, como Peru, Colômbia e Paraguai, em países african\n[…]\nproteção ao telefone;\n[…]\nAs demandas consideradas por Chu Ming Silveira no processo de concepção do orelhão pareciam plenamente atendidas, segundo análise comparativa de pesquisas de mercado realizadas para a Telesp, nos anos de 1977 e 1978: o serviço de telefones públicos fora considerado ótimo por 18,8%, em 1977 e, no ano seguinte, por 20,4%. Bom para 36,4% em 77 e para 37,7%, em 78. Os orelhões, segundo a pesquisa, eram usados por 82% da população. 40% usavam-no pelo menos uma vez por semana.\n[…]\nEm 1982, a Telesp inaugurou o primeiro orelhão comunitário na favela da Vila Prudente, telefone público que recebia chamadas. A população criava vínculos cada vez mais fortes com o amigo orelhão, que viabilizava a comunicação a partir dos lugares mais distantes e até pouco prováveis. Um anúncio publicitário impresso, em 1984, trazia imagens de orelhões em diferentes cenários geográficos do Brasil: na praia, nas montanhas, na zona tipicamente rural, à margem de uma estrada.\n[…]\nEm 4 de outubro de 2019, foi sancionada a Lei nº 13.879, de 3 de outubro de 2019. A nova lei altera a antiga de Lei nº 9.472, de 16 de julho de 1997. Entre diversas mudanças abordadas pela nova lei, foi retirada das operadoras de telefonia a obrigação de seguir metas para universalizar a telefonia fixa, como a instalação e manutenção de orelhões. Em contrapartida, as empresas precisam cumprir alguns requisitos, como garantir a prestação de serviço em áreas sem concorrência.\n[…]\nCabina telefônica\n[…]\nTelefone celular\n[…]\nTelefone público"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ficha_telefônica",
+        "situacao": "ok",
+        "texto": "As fichas de telefone são fichas utilizadas para fazer ligações de telefones públicos.\n[…]\nElas surgiram no Brasil nos anos 60. Seu diâmetro variava de 20 mm a 30 mm e eram fabricadas com ferro, latão, cobre, zamac, entre outros. Elas levavam o nome de sua companhia e região no verso e cada uma delas funcionavam em um tipo específico de telefone público. Devido a esse problema, em 1970, a Companhia Telefônica Brasileira fez com que as fichas tivessem um padrão exclusivo para cada área de atendimento.\n[…]\nNo ano seguinte foram instituídos dois tipos diferentes de fichas para todo o território brasileiro: as de ligações interurbanas que só funcionavam em telefones públicos azuis, e as de ligações locais que funcionavam somente em telefones públicos vermelhos.\n[…]\nEm meados de 1992, devido aos custos altos para manutenção, recolhimento das fichas nos telefones e também o vandalismo, a empresa Telebrás junto ao seu centro de pesquisa instituiu o uso dos famosos cartões telefônicos. Isso diminuiu muito os custos de manutenção e reparo dos aparelhos e proporcionou maior comodidade aos usuários do serviço.\n[…]\nHélion de Mello e Oliveira: Fichas Telefonicas Brasileiras. Brazilian Telephone Tokens. Published by the author. Campinas 1999\n[…]\nCartão telefônico\n[…]\nTelefone público"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Bluetooth",
+      "descricao": "Padrão de comunicação sem fio de curto alcance entre aparelhos eletrônicos, criado nos anos noventa."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O logotipo do Bluetooth junta duas runas, letras do antigo alfabeto nórdico. Elas são as iniciais de quem?",
+    "resposta": "Haroldo Dente Azul (Harald Blåtand)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bluetooth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bluetooth",
+        "situacao": "ok",
+        "texto": "Bluetooth is a short-range wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances and building personal area networks (PANs). In the most widely used mode, transmission power is limited to 2.5 milliwatts, giving it a very short range of up to 10 metres (33 ft). It employs UHF radio waves in the ISM bands, from 2.402 GHz to 2.48 GHz.\n[…]\nThe name \"Bluetooth\" was proposed in 1997 by Jim Kardach of Intel, one of the founders of the Bluetooth SIG. The name was inspired by a conversation with Sven Mattisson, who related Scandinavian history through tales from Frans G. Bengtsson's The Long Ships, a historical novel about Vikings and the 10th-century Danish king Harald Bluetooth.\n[…]\nUpon discovering a picture of the runestone of Harald Bluetooth in the book A History of the Vikings by Gwyn Jones, Kardach proposed Bluetooth as the codename for the short-range wireless program.\n[…]\nBluetooth is the Anglicised version of the Scandinavian Blåtand/Blåtann (or in Old Norse blátǫnn). It was the epithet of King Harald Bluetooth, who united the disparate\n[…]\nThe Bluetooth logo is a bind rune merging the Younger Futhark runes  (ᚼ, Hagall) and  (ᛒ, Bjarkan), Harald's initials.\n[…]\nIn a single-mode implementation, only the low energy protocol stack is implemented. Dialog Semiconductor, STMicroelectronics, AMICCOM, CSR, Nordic Semiconductor and Texas Instruments have released single mode Bluetooth Low Energy solutions.\n[…]\nBluetooth LE Isochronous Parameter Update (IPU)\n[…]\nThe Bluetooth Innovation World Cup morphed into the Bluetooth Breakthrough Awards in 2013. Bluetooth SIG subsequently launched the Imagine Blue Award in 2016 at Bluetooth World. The Bluetooth Breakthrough Awards program highlights the most innovative products and applications available today, prototypes coming soon, and student-led projects in the making.\n[…]\nSpecifications at Bluetooth SIG"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bluetooth",
+        "situacao": "ok",
+        "texto": "Bluetooth é um padrão de tecnologia sem fio de curto alcance usado para troca de dados entre dispositivos fixos e móveis em distâncias curtas e construção de redes de área pessoal (PANs). No modo mais utilizado, a potência de transmissão é limitada a 2,5 miliwatts, proporcionando um alcance muito curto de até 10 metros (33 pés). Emprega ondas de rádio UHF nas bandas ISM, de 2,402 GHz a 2,48 GHz.\n[…]\nO nome \"Bluetooth\" foi proposto em 1997 por Jim Kardach da Intel, um dos fundadores do Bluetooth SIG. O nome foi inspirado por uma conversa com Sven Mattisson, que relatou a história escandinava por meio de contos de The Long Ships, de Frans G. Bengtsson, um romance histórico sobre vikings e o rei dinamarquês do século X, Harald Bluetooth.\n[…]\nAo descobrir uma imagem da pedra rúnica de Harald Bluetooth no livro A History of the Vikings de Gwyn Jones, Jim propôs Bluetooth como o codinome para o programa sem fio de curto alcance que agora é chamado de Bluetooth.\n[…]\nDe acordo com o site oficial do Bluetooth,\n[…]\nBluetooth é a versão anglicizada do escandinavo Blåtand / Blåtann (ou em nórdico antigo blátǫnn). Era o epíteto do rei Harald Bluetooth, que uniu as diferentes tribos dinamarquesas em um único reino; Kardach escolheu o nome para sugerir que o Bluetooth une protocolos de comunicação de maneira semelhante.\n[…]\nO logotipo Bluetooth  é uma runa vinculada que mescla as runas Younger Futhark  (ᚼ, Hagall) e  (ᛒ, Bjarkan), as iniciais de Harald.\n[…]\nO desenvolvimento da tecnologia de rádio \"short-link\", mais tarde denominada Bluetooth, foi iniciado em 1989 por Nils Rydbeck, CTO da Ericsson Mobile em Lund, Suécia. O objetivo era desenvolver fones de ouvido sem fio, de acordo com duas invenções de Johan Ullman. Nils Rydbeck encarregou Tord Wingren de especificar e o holandês Jaap Haartsen e Sven Mattisson de desenvolver. Ambos trabalhavam para a Ericsson em Lund.\n[…]\nWNews: Bluetooth? O que é isso, afinal?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Telefone",
+      "descricao": "Aparelho que transmite a voz a distância por meio de sinais elétricos, patenteado por Alexander Graham Bell em 1876."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1876, numa grande exposição na Filadélfia, que governante brasileiro testou o telefone de Graham Bell e, segundo o relato, exclamou espantado que aquilo falava?",
+    "resposta": "Dom Pedro segundo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pedro_II_of_Brazil",
+      "https://en.wikipedia.org/wiki/Centennial_Exposition"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pedro_II_of_Brazil",
+        "situacao": "ok",
+        "texto": "Dom Pedro II (Pedro de Alcântara João Carlos Leopoldo Salvador Bibiano Francisco Xavier de Paula Leocádio Miguel Gabriel Rafael Gonzaga; 2 December 1825 – 5 December 1891), known as \"the Magnanimous\" (Portuguese: O Magnânimo), was the second and final emperor of the Empire of Brazil. He reigned from 1831 until his deposition in the military coup of 1889, presiding over the longest and most stable \n[…]\nPedro II excluded Isabel from participation in government business and decisions.\n[…]\nOnce again, the Emperor traveled abroad, this time going to the United States for the Centennial Exposition of the Declaration of Independence. He was accompanied by his faithful servant Rafael, who had raised him from childhood. Pedro II arrived in New York City on 15 April 1876, and set out from there to travel throughout the country; going as far as San Francisco in the west, New Orleans in the south, Washington, D.C., and north to Toronto, Ontario, Canada.\n[…]\nIn a manner similar to methods which were used by republicans, historians point to the Emperor's virtues as an example to be followed, although none go so far as to advocate a restoration of the monarchy. Historian Richard Graham noted that \"[m]ost twentieth-century historians, moreover, have looked back on the period [of Pedro II's reign] nostalgically, using their descriptions of the Empire to criticize—sometimes subtly, sometimes not—Brazil's subsequent republican or dictatorial regimes.\"\n[…]\nThe Emperor's full style and title were \"His Imperial Majesty Dom Pedro II, by the Grace of God, and Unanimous Acclamation of the People, Constitutional Emperor and Perpetual Defender of Brazil\" (Sua Majestade Imperial, Dom Pedro II, Pela Graça de Deus, e Unânime Aclamação dos Povos, Imperador Constitucional e Defensor Perpétuo do Brasil).\n[…]\nMedia related to Pedro II do Brasil (category) at Wikimedia Commons\n[…]\nWorks by or about Pedro II of Brazil at Wikisource"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Centennial_Exposition",
+        "situacao": "ok",
+        "texto": "The Centennial International Exhibition, officially the International Exhibition of Arts, Manufactures, and Products of the Soil and Mine, was held in Philadelphia, Pennsylvania, from May 10 to November 10, 1876. It was the first official world's fair to be held in the United States and coincided with the centennial anniversary of the Declaration of Independence's adoption in Philadelphia on July \n[…]\nThe opening ceremony was attended by President Ulysses Grant and his wife as well as Emperor Pedro II of Brazil and his wife. Several musical works were commissioned for the occasion, including the American Centennial March by Richard Wagner (for which he was paid $5,000) and a cantata written by Dudley Buck with poetry by Sidney Lanier.\n[…]\nThe opening ceremony concluded in Machinery Hall, with Grant and Pedro II turning on the Corliss Steam Engine which powered most of the other machines at the exposition. The official number of first day attendees was 186,272 people, with 110,000 entering with free passes.\n[…]\nThe exposition also featured many well-known products including Alexander Graham Bell's first telephone, set up at opposite ends of Machinery Hall, Thomas Edison's automatic telegraph system, screw-cutting machines that dramatically improved the production of screws and bolts from 8,000 to 100,000 per day, and a universal grinding machine by the Brown & Sharpe Manufacturing Company.\n[…]\nAlexander Graham Bell's telephone\n[…]\n\"The Centennial Exhibition of 1876\". The Internet 1996 World Exposition. Retrieved October 15, 2017.\n[…]\nExpo 1876 Philadelphia at the Bureau International des Expositions\n[…]\nCentennial Exposition Described and Illustrated by J. S. Ingram; published by Hubbard Bros., Philadelphia, 1876 (Internet Archive)\n[…]\nHABS No. PA-1659, \"International Exposition of 1876, Memorial Hall, Belmont Avenue\", 35 photos, 4 color transparencies, 3 data pages, 6 photo caption pages"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pedro_II_do_Brasil",
+        "situacao": "ok",
+        "texto": "Pedro II (nome completo: Pedro de Alcântara João Carlos Leopoldo Salvador Bibiano Francisco Xavier de Paula Leocádio Miguel Gabriel Rafael Gonzaga; Rio de Janeiro, 2 de dezembro de 1825 – Paris, 5 de dezembro de 1891), cognominado \"o Magnânimo\", foi o segundo e último monarca do Império do Brasil, reinando por 58 anos (1831–1889). Filho mais novo do imperador Pedro I do Brasil e da imperatriz cons\n[…]\nAo deixar o país, o imperador Pedro I selecionou três pessoas para cuidarem de seu filho e das filhas remanescentes. A primeira foi José Bonifácio de Andrada, seu amigo e líder influente da independência brasileira, nomeado tutor. A segunda foi Mariana Carlota de Verna Magalhães Coutinho (depois Condessa de Belmonte), que detinha o cargo de aia desde o nascimento de Pedro II. Quando bebê, Pedro II a chamava de \"dadama\", pois não pronunciava corretamente a palavra \"dama\".\n[…]\nEm sua estadia nos Estados Unidos, Pedro II visitou o presidente Ulysses S. Grant; nesse mesmo período, abre, em Filadélfia, Pensilvânia, a primeira Exposição Mundial dos EUA, para comemorar o centenário da assinatura da declaração de independência que aconteceu em 1776, também em Filadélfia. O imperador conheceu Thomas Edison e Graham Bell, que havia inventado o que no futuro viria a ser o telefone, e junto ao inventor teria testado a nova invenção.\n[…]\nNa exposição, o experimento de Graham Bell era ignorado pelos observadores, porém tudo mudara com a aparição do imperador brasileiro. Separados por salas diferentes, ao ouvir a voz de Bell no aparelho, Pedro II profere sua célebre frase: \"Meu Deus, isto fala!\". Admirado com o mecanismo, Pedro fez questão de que o Brasil fosse um dos primeiros países do mundo a possuir um telefone – os primeiros modelos foram instalados no Rio de Janeiro e Petrópolis em 1877.\n[…]\n15 de novembro de 1889 - 5 de dezembro de 1891: Sua Majestade Imperial, o Imperador Dom Pedro II do Brasil.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Rede de dormir",
+      "descricao": "Leito de tecido ou fibras suspenso entre dois pontos, de origem indígena americana."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1500, que escrivão da frota de Cabral descreveu, numa carta ao rei de Portugal, as redes atadas a esteios em que os indígenas dormiam?",
+    "resposta": "Pero Vaz de Caminha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carta_de_Pero_Vaz_de_Caminha",
+      "https://pt.wikipedia.org/wiki/Rede_de_dormir"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carta_de_Pero_Vaz_de_Caminha",
+        "situacao": "ok",
+        "texto": "A Carta de Pero Vaz de Caminha é o documento no qual Pero Vaz de Caminha registrou as suas impressões sobre a terra que posteriormente viria a ser chamada de Brasil. É o primeiro documento escrito da história do Brasil. Costuma ser considerada marco inicial da obra literária brasileira, apesar de, formalmente, ser documento de mero registro, já que traz em suas linhas a escrita da época, o estilo;\n[…]\nEscrivão da frota de Pedro Álvares Cabral, Caminha enviou a carta para o rei D. Manuel I (1469-1521) para comunicar-lhe o descobrimento das novas terras. Datada de Porto Seguro (no litoral sul baiano da atual de acordo com Francisco Adolfo de Varnhagen), no dia 1 de maio de 1500, foi levada a Portugal por Gaspar de Lemos, comandante do navio de mantimentos da frota.\n[…]\nViu um deles umas contas de rosário, brancas; fez sinal que lhas dessem, e folgou muito com elas, e lançou-as ao pescoço; e depois tirou-as e meteu-as em volta do braço, e acenava para a terra e novamente para as contas e para o colar do Capitão, como se dariam ouro por aquilo.\"CAMINHA, Pero de Vaz.\n[…]\nAlém da Carta de Pero Vaz de Caminha, importante documento na historiografia do país, o primeiro texto impresso que se refere exclusivamente ao descobrimento do Brasil é o panfleto anônimo, escrito em italiano, \"Copia di una lettera del Re di Portogallo mandata al Re di Castella del viaggio & successo dell' India\" (Cópia de uma carta do Rei de Portugal mandada ao Rei de Castela acerca da viagem e sucesso da Índia), publicada inicialmente em Roma, em 23 de outubro de 1505, por mestre João de Basicken e logo a seguir em Milão, no mesmo ano:\n[…]\nCarta de Mestre João\n[…]\nA carta de Pero Vaz de Caminha\n[…]\nCarta de Pero Vaz de Caminha: História e análise do texto, em UOL Educação.\n[…]\n«Carta de Pêro Vaz de Caminha - Arquivo Nacional Torre do Tombo»\n[…]\n«Fac símile da Carta de Caminha»\n[…]\nFundação Pero Vaz de Caminha\n[…]\nUma Revisitação da Carta de Caminha"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rede_de_dormir",
+        "situacao": "ok",
+        "texto": "A rede de dormir, também conhecida como rede de descanso, cama de rede ou maca, é um utensílio doméstico constituído por um tecido retangular suspenso pelas extremidades a pontos de ancoragem, como armadores ou árvores. É historicamente utilizada para o sono e o repouso.\n[…]\nNo Brasil pré-colonial, os grupos indígenas utilizavam termos do tronco tupi-guarani para designar o leito suspenso, tais como ini, kisáua, maquira e kyçaba. A palavra rede foi adotada pelos colonizadores portugueses logo após os primeiros contatos, devido à semelhança visual entre as tramas abertas do leito indígena e as redes de pesca utilizadas na Europa.\n[…]\nA rede de dormir é uma invenção das populações ameríndias da bacia amazônica e das Américas Central e do Sul. Inicialmente, as redes apresentavam malhas rústicas tecidas de forma manual a partir de lianas, cipós e fibras de palmeiras, como o tucum e o buriti. O objeto oferecia utilidade prática no ambiente florestal, isolando os indivíduos do contato direto com o solo úmido e oferecendo proteção contra insetos e animais peçonhentos.\n[…]\nO primeiro registro documental da rede de dormir no Brasil foi feito por Pero Vaz de Caminha. Em carta de 27 de abril de 1500, o escrivão relatou que os indígenas dormiam em uma \"rede atada pelos cabos, alta\".\n[…]\nLaços de sangue e casamentos definem a organização das equipes de venda, a divisão de caminhões e o repasse de mercadorias em consignação, criando circuitos de ajuda mútua familiar que viabilizam o ofício ao longo de gerações em estados como o Maranhão e o Pará.\n[…]\nGONZÁLEZ, Juan Sebastián Restrepo. Ao vaivém do ócio: circulação e tradução da rede de dormir no comércio eletrônico. Dissertação (Mestrado em Lazer) - UFMG, Belo Horizonte, 2017."
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Código de barras",
+      "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em 1974, num supermercado do estado americano de Ohio, qual foi o primeiro produto passado num leitor de código de barras?",
+    "resposta": "Um pacote de chiclete",
+    "distratores": [
+      "Uma lata de refrigerante",
+      "Uma caixa de cereal",
+      "Um pacote de café"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barcode",
+      "https://en.wikipedia.org/wiki/Universal_Product_Code"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Barcode",
+        "situacao": "ok",
+        "texto": "A barcode or bar code is a method of representing data in a visual, machine-readable symbolic form. Initially, barcodes represented data by varying the widths, spacings and sizes of parallel lines. These barcodes, commonly referred to as linear or one-dimensional (1D), can be scanned by optical scanners known as barcode readers. Later, two-dimensional (2D) variants were developed, using rectangles\n[…]\nTheir use has spread to many other tasks that are generically referred to as automatic identification and data capture (AIDC). The first successful system using barcodes was in the UK supermarket group Sainsbury's in 1972 using shelf-mounted barcodes which were developed by Plessey. In June 1974, Marsh supermarket in Troy, Ohio used a scanner made by Photographic Sciences Corporation to scan the Universal Product Code (UPC) barcode on a pack of Wrigley's chewing gum.\n[…]\nThe Boston and Maine Railroad tested the KarTrak system on their gravel cars in 1961. The tests continued until 1967, when the Association of American Railroads (AAR) selected it as a standard, automatic car identification, across the entire North American fleet. The installations began on 10 October 1967. However, the economic downturn and rash of bankruptcies in the industry in the early 1970s greatly slowed the rollout, and it was not until 1974 that 95% of the fleet was labeled.\n[…]\nHowever, a linear code, like the one being developed by Woodland at IBM, was printed in the direction of the stripes, so extra ink would simply make the code \"taller\" while remaining readable. So on 3 April 1973, the IBM UPC was selected as the NAFC standard. IBM had designed five versions of UPC symbology for future industry requirements: UPC A, B, C, D, and E. NCR installed a testbed system at Marsh's Supermarket in Troy, Ohio, near the factory that was producing the equipment."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Universal_Product_Code",
+        "situacao": "ok",
+        "texto": "The Universal Product Code (UPC or UPC code) is a barcode symbology that is used worldwide for tracking trade items in stores.\n[…]\nThe first UPC-marked item ever to be scanned at a retail checkout was a 10-pack (50 sticks) of Wrigley's Juicy Fruit chewing gum, purchased at the Marsh supermarket in Troy, Ohio, at 8:01 a.m. on 26 June 1974. The NCR cash register rang up 67 cents.\n[…]\nThe shopping cart also contained other barcoded items but the gum was the first one picked up at the checkout. A facsimile of the gum packet went on display at the Smithsonian Institution's American history museum in Washington, D.C.\n[…]\nAround late 1969, IBM at Research Triangle Park (RTP) in North Carolina assigned George Laurer to determine how to make a supermarket scanner and label. In late 1970, Heard Baumeister provided equations to calculate characters-per-inch achievable by two IBM bar codes, Delta A and Delta B. In February 1971, Baumeister joined Laurer.\n[…]\nUS 3832686, Bilgutay, Ilhan M., \"Bar Code Font\", published 11 May 1972, issued 27 August 1974"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%B3digo_de_barras",
+        "situacao": "ok",
+        "texto": "Código de barras (em inglês: barcode) é um método de representação de dados de forma visual e legível por máquinas. Inicialmente, os códigos de barras eram representados pela variação das larguras e espaçamentos das linhas paralelas. Esses códigos, agora comumente chamados de lineares ou unidimensionais (1D), podem ser decodificados (lidos) por scanners ópticos especiais, chamados de leitores de c\n[…]\nEm meados dos anos 1970, a NAFC estabeleceu o Comitê para Supermercados dos Estados Unidos em Código Uniforme de Produto de Supermercado, que estabeleceu diretrizes para o desenvolvimento de códigos de barras e criou uma subcomissão para seleção de símbolo, para ajudar a padronizar a abordagem. Em cooperação com a empresa de consultoria McKinsey & Co., eles desenvolveram um código padronizado de 11 dígitos para identificar produtos.\n[…]\nA NCR havia instalado um sistema testbed no Supermercado da Marsh, em Troy, Ohio, perto da fábrica que estava produzindo o equipamento. Em 26 de junho de 1974, Clyde Dawson puxou um pacote de dez gomas de Wrigley Juicy Fruit fora de sua cesta; e este foi digitalizado por Sharon Buchanan às 8h01. O pacote de chicletes e da recepção estão agora em exposição na Smithsonian Institution. Essa foi a primeira aparição comercial da UPC.\n[…]\nO número 1293 é o código de barras dos cotonetes no Continente da Amadora. O leitor de código de barras do caixa da Amadora faz a leitura óptica dos códigos; e em frações de segundos, efectua os cálculos, chegando ao número 1293. Acedendo a uma lista de produtos, procura qual foi registado com esse número, registando o valor no cupom.\n[…]\nOs mais antigos e mais baratos scanners (leitores) de código de barras são construídos a partir de uma luz fixa e um único foto-sensor, que é passado manualmente em frente ao código de barras.\n[…]\nLista de códigos de país GS1\n[…]\nPesquisa de Informações de Produtos por Código",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Telefone celular",
+      "descricao": "Telefone portátil sem fio que se conecta a uma rede de antenas, cuja primeira ligação foi feita em 1973."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1973, ao fazer a primeira ligação de um celular portátil, o engenheiro Martin Cooper telefonou para provocar quem?",
+    "resposta": "Um rival da Bell Labs (Joel Engel)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)",
+        "situacao": "ok",
+        "texto": "Martin Cooper (born December 26, 1928) is an American inventor and electrical engineer. He is a pioneer in the wireless communications industry, especially in radio spectrum management, with 11 patents in the field. He is considered the \"father of the (handheld) cell phone\".\n[…]\nOn April 3, 1973, Cooper placed the first public call from a prototype handheld portable phone (distinct from the car phone) while working at Motorola, from a Manhattan sidewalk to his counterpart at competitor Bell Labs. This was made possible by an experimental radio base station built to transmit on the low-power localized cellular spectrum, as opposed to traditional mobile radio telephones.\n[…]\nThe call connected him to a base station Motorola had installed on the roof of the Burlington House (now the AllianceBernstein Building) and into the AT&T land-line telephone system. Reporters and onlookers watched as Cooper dialed the number of his chief competitor Dr. Joel S. Engel at AT&T. \"Joel, this is Marty. I'm calling you from a cell phone, a real handheld portable cell phone.\" That public demonstration landed the DynaTAC on the July 1973 cover of Popular Science Magazine.\n[…]\nThat first cell phone began a fundamental technology and communications market shift to making phone calls to a person instead of to a place. Bell Labs had introduced the idea of cellular communications in 1947, but their first systems were limited to car phones which required roughly 30 pounds (12 kg) of equipment in the trunk.\n[…]\nCooper joined the board of directors from 2015 to 2019.\n[…]\nMedia related to Martin Cooper at Wikimedia Commons\n[…]\nMarty Cooper interviewed on the TV show Triangulation on the TWiT.tv network"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Martin_Cooper",
+        "situacao": "ok",
+        "texto": "Martin Cooper (Chicago, 26 de dezembro de 1928) é um engenheiro eletrotécnico e designer norte-americano, considerado o \"pai\" do telefone celular(pt-BR) ou telemóvel(pt-PT?) - distinto do telefone veicular. Inspirado no seriado de TV Jornada nas Estrelas.\n[…]\nCooper é o CEO e fundador da ArrayComm, empresa que atua na pesquisa tecnológica da antena inteligente e no aperfeiçoamento de redes  wireless. Foi também diretor de Pesquisa e Desenvolvimento da Motorola.\n[…]\nNo meio da Sexta Avenida, no dia 03 de abril de 1973, em Nova Iorque, antes de entrar na coletiva de imprensa que faria o anúncio do primeiro celular, Cooper fez a chamada histórica usando o aparelho Motorola DynaTAC – um equipamento \"móvel\" que pesava quase 2,5 kg e tinha bateria com autonomia para apenas 20 minutos de chamada de voz.\n[…]\nMuitos anos depois, Cooper comentaria: \"O primeiro modelo de telefone celular pesava praticamente um quilo e você só podia falar 20 minutos nele antes que a bateria se esgotasse. Mas era tempo suficiente, porque você não aguentaria segurar o aparelho por mais tempo que isso\".\n[…]\n. ... 4.↑ Celular com o peso de 2,5 quilos e 20 minutos de chamada de voz.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Smiley",
+      "descricao": "Desenho de um rosto amarelo sorridente criado pelo artista americano Harvey Ball em 1963."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em 1963, Harvey Ball levou cerca de dez minutos para desenhar a carinha amarela sorridente. Quanto ele recebeu pelo trabalho?",
+    "resposta": "Quarenta e cinco dólares",
+    "distratores": [
+      "Cinco dólares",
+      "Quinhentos dólares",
+      "Mil dólares"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harvey_Ball",
+      "https://en.wikipedia.org/wiki/Smiley"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Harvey_Ball",
+        "situacao": "ok",
+        "texto": "Harvey Ross Ball (July 10, 1921 – April 12, 2001) was an American commercial artist. In 1963, he created a design for a pin back button, that played a pivotal role in the adoption of the modern day smiley face. Ball was approached by marketing director Joy Young of State Mutual Life Assurance Company in 1963, with the instructions to design \"a little smile\".\n[…]\nAfter World War II, Ball worked for a local advertising firm until he started his own business, Harvey Ball Advertising, in 1959. He designed the smiley in 1963. The State Mutual Life Assurance Company of Worcester, Massachusetts (now known as Hanover Insurance) had purchased Guarantee Mutual Company of Ohio. The merger resulted in low employee morale. In an attempt to solve this, Ball was employed in 1963 as a freelance artist, to come up with an image to increase morale.\n[…]\nStore Manager Ken Carson was quoted as saying Ball seemed amused to see it on the cover.\n[…]\nFollowing Ball's death, the American media lauded Ball as the creator of the smiley face, including Smithsonian. Many wrongly stated that his 1963 design was the first and therefore original. After those claims were made, some journalists pointed to the New York radio station WMCA which used a yellow and black design for its \"Good Guys!\" campaign in the early 1960s. The designs did appear on sweatshirts rather than buttons.\n[…]\nThe land that was owned by the Ball family, off Granite Street in Worcester, was purchased by the City of Worcester in June 2007, with help from Mass Audubon and a $500,000 grant from the state Executive Office of Environmental Affairs' Division of Conservation Services. This property links Mass Audubon's Broad Meadow Brook Sanctuary with the developing Blackstone River Bikeway. It is now known as the \"Harvey Ball Conservation Area\" and is home to the appropriately named \"Smiley Face Trail\"."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Smiley",
+        "situacao": "ok",
+        "texto": "A smiley, also known as a smiley face, is a basic ideogram representing a smiling face. Since the 1950s, it has become part of popular culture worldwide, used either as a standalone ideogram or as a form of communication, such as emoticons. The smiley began as two dots and a line representing eyes and a mouth. More elaborate designs emerged in the 1950s, featuring noses, eyebrows, and outlines.\n[…]\nNew York radio station WMCA used a yellow and black design for its \"Good Guys!\" campaign in the early 1960s. More yellow-and-black designs appeared in the 1960s and 1970s, including works by Harvey Ross Ball in 1963, and Franklin Loufrani in 1971. The Smiley Company, founded by Franklin Loufrani, claims to hold the rights to a version of the smiley face in over 100 countries. It has become one of the top 100 licensing companies globally.\n[…]\nYoung and Harvey Ball holding the design of the smiley and reported on September 11, 1971, that \"two affiliated insurance companies\" credited Harvey Ball with designing the symbol in 1963, while Bernard and Murray Spain claimed credit for introducing it to the market. This referred to the Worcester Mutual Fire Insurance Company of America and the Guarantee Mutual Assurance Company of America, whose 1963 \"Smile Power\" campaign first distributed smiley buttons to employees.\n[…]\nAccording to Worcester Historical Museum's documents, Young requested that Harvey Ball, a freelance artist, design \"a little smile to be used on buttons, desk cards and posters\". Ball completed the happy face in ten minutes and was paid $45 (equivalent to $473 in 2025). His rendition, with a bright yellow background, dark oval eyes, a full smile, and creases at the sides of the mouth, became familiar worldwide as the most iconic version of the smiley.\n[…]\nIn 2016, Walmart reintroduced the smiley face on its website, social media profiles, and in select stores."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Harvey_Ball",
+        "situacao": "ok",
+        "texto": "Harvey Ross Ball (Worcester, 10 de julho de 1921 – Worcester, 12 de abril de 2001) foi um artista comercial americano. Ele é reconhecido como o designer de uma imagem gráfica popular de um rosto sorridente, que se tornou um ícone internacional duradouro e notável. Ele nunca solicitou uma marca registrada para a icônica imagem sorridente e só recebeu $45 por seus esforços. Ball mais tarde fundou a \n[…]\nBall nasceu e foi criado em Worcester, por seus pais Ernest G. Ball e Christine (\"Kitty\") Ross Ball. Ball tinha cinco irmãos, três mais novos chamados Merrit, Virginia e Raymond, e dois mais velhos chamados Jessie e Ernest Jr. Durante seu tempo como estudante na Escola Comunitária South High de Worcester, ele se tornou aprendiz de um pintor de letreiros local e posteriormente frequentou a Escola de Arte do Worcester Art Museum, onde estudou belas artes.\n[…]\nApós a Segunda Guerra Mundial, Ball trabalhou para uma empresa local de publicidade até fundar seu próprio negócio, Harvey Ball Advertising, em 1959. Ele projetou o smiley face em 1963.[carece de fontes]?\n[…]\nBall começou com um círculo amarelo-ensolarado contendo um sorriso, no entanto, ele não ficou satisfeito porque poderia ser invertido para formar uma expressão triste. Ao adicionar dois olhos, ele criou um rosto sorridente. O desenho inteiro levou 10 minutos para ser concluído e rendeu a ele $45.\n[…]\nAgora é conhecida como \"Harvey Ball Conservation Area\" e abriga a trilha \"Smiley Face Trail\", nome apropriado.\n[…]\nUm smiley face de Harvey Ball pode ser identificado por três características distintivas: olhos ovais estreitos (sendo o da direita ligeiramente maior que o da esquerda), uma cor amarelo brilhante e ensolarada, e uma boca que não forma um arco perfeito, que tem sido comparada a um \"Mona Lisa Mouth\" (Boca da Mona Lisa).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Braille",
+      "descricao": "Sistema de escrita e leitura tátil para pessoas cegas, formado por pontos em relevo."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "No sistema braille, cada letra é formada a partir de uma cela com quantos pontos possíveis em relevo?",
+    "resposta": "Seis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Braille"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Braille",
+        "situacao": "ok",
+        "texto": "Braille ( BRAYL; French: [bʁaj] ) is a tactile writing system used by blind or visually impaired people. It can be read either on embossed paper or by using refreshable braille displays that connect to computers and smartphone devices. Braille can be written using a slate and stylus, a braille writer, an electronic braille notetaker or with the use of a computer connected to a braille embosser. Fo\n[…]\nHowever, some codes have quite different tactile versus visual interpretations and most are not even defined in Braille ASCII.)\n[…]\nThe Unicode standard encodes 6-dot and 8-dot braille glyphs according to their binary appearance, rather than following their assigned numeric order. Dot 1 corresponds to the least significant bit of the low byte of the Unicode scalar value, and dot 8 to the high bit of that byte.\n[…]\nThe Unicode block for braille is U+2800 ... U+28FF. The mapping of patterns to characters etc. is language dependent: even for English for example, see American Braille and English Braille.\n[…]\nEvery year on 4 January, World Braille Day is observed internationally to commemorate the birth of Louis Braille and to recognize his efforts. Although the event is not considered a public holiday, it has been recognized by the United Nations as an official day of celebration since 2019.\n[…]\nThe 200th anniversary of the launch of braille was celebrated in 2024. In the UK, the Royal National Institute of Blind People has held celebrations from September 2024 until August 2025.\n[…]\nThere is a variety of contemporary electronic devices that serve the needs of blind people that operate in Braille, such as refreshable braille displays and braille e-books that use different technologies for transmitting graphic information of different types (pictures, maps, graphs, texts, etc.).\n[…]\nBraille Part 1 Text To Speech For The Visually Impaired YouTube\n[…]\nBraille information and advice – Sense UK\n[…]\nBraille at Omniglot"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Braille",
+        "situacao": "ok",
+        "texto": "Braile ou braille é um sistema de escrita tátil utilizado por pessoas cegas ou com baixa visão. É tradicionalmente escrito em papel relevo. Os usuários do sistema Braille podem ler em telas de computadores e em outros suportes eletrônicos graças a um mostrador em braile atualizáveis. Eles podem escrever em braile com reglete e punção, máquina de escrever em braille, notetaker em braille ou computa\n[…]\nUma célula Braille completa inclui seis pontos dispostos em duas linhas verticais, cada uma com três pontos. As posições dos pontos são identificadas por números de um a seis. São 63 combinações possíveis para usar um ou mais pontos e 64 combinações possíveis considerando o espaço em branco. Uma única célula pode ser usada para representar uma letra do alfabeto, um número, um sinal de pontuação ou mesmo uma palavra inteira.\n[…]\nA solução de Braille foi usar células de 6 pontos e atribuir um padrão específico para cada letra do alfabeto. Inicialmente, o Braille era uma transliteração um–para–um da ortografia francesa, mas logo várias abreviaturas, contrações e até mesmo logogramas foram desenvolvidos. Isto criou um sistema muito mais parecido com a taquigrafia. O sistema inglês expandido chamado de Braille de grau 2 estava completo em 1905.\n[…]\nOs textos acadêmicos são às vezes escritos em um script de oito em vez de seis pontos por célula, permitindo-lhes codificar um maior número de símbolos. O Braille luxemburguês adotou células de oito pontos para uso geral. Por exemplo, adiciona um ponto abaixo de cada letra para derivar sua variante com letra maiúscula.\n[…]\nAs combinações restantes, ainda possíveis visto que 63 hipóteses de combinação dos pontos, são usadas para pontuação, contrações e abreviaturas especiais. Os exemplos abaixo referem-se ao braille de língua inglesa:\n[…]\nOs símbolos correspondentes, em braille de 6 pontos (Unicode \\u2800 a \\u283F), são:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Disquete",
+      "descricao": "Disco magnético flexível, protegido por uma capa plástica, usado para guardar arquivos de computador nas últimas décadas do século vinte."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O primeiro disquete, lançado pela IBM no começo dos anos setenta, tinha quantas polegadas?",
+    "resposta": "Oito polegadas",
+    "distratores": [
+      "Três polegadas e meia",
+      "Cinco polegadas e um quarto",
+      "Doze polegadas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Floppy_disk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Floppy_disk",
+        "situacao": "ok",
+        "texto": "A floppy disk, diskette, or floppy diskette is a type of disk storage made from a thin, flexible disk coated with a magnetic storage medium. It is enclosed in a square or nearly square plastic shell lined with fabric to help remove dust from the spinning disk. Floppy disks store digital data, which can be read or written when inserted into a floppy disk drive (FDD) connected to or built into a com\n[…]\nZip disk\n[…]\nMost home computers from that time have an elementary OS and BASIC stored in read-only memory (ROM), with the option of loading a more advanced OS from a floppy disk.\n[…]\nExternal USB-based floppy disk drives are still available, and many modern systems provide firmware support for booting from such drives.\n[…]\nFor more than two decades, the floppy disk was the primary external writable storage device used. Most small computing environments before the 1990s were non-networked, and floppy disks were the primary means to transfer data between such computers, a method known informally as sneakernet. Unlike hard disks, floppy disks were more commonly handled and seen, and typically novice users could identify a floppy disk.\n[…]\nBecause of these factors, a picture of a 3½-inch floppy disk became an interface metaphor for saving data. As of 2026, the floppy disk symbol is still used by software on user-interface elements related to saving files even though physical floppy disks are largely obsolete, making it a skeuomorph. Examples of such software include LibreOffice, Microsoft Paint, and WordPad.\n[…]\nX10 accelerated floppy drive – Floppy disk drive\n[…]\nWeyhrich, Steven (2005). \"The Disk II\": A detailed essay describing one of the first commercial floppy disk drives (from the Apple II History website).\n[…]\nHowStuffWorks: How Floppy Disk Drives Work\n[…]\nThe Floppy User Guide -historical technical material\n[…]\nSummary of Floppy Disk Types and Specifications Archived 17 September 2018 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Disquete",
+        "situacao": "ok",
+        "texto": "Disquete (do inglês: diskette ou floppy-disk) é um dispositivo obsoleto de armazenamento removível de dados usado no computador (ou dispositivo portátil de entrada e saída de dados, ou sistema de transferência de dados entre computadores) desenvolvido no final da década de 1960 e popular na década de 1990, que utiliza memória de disco magnético fino e flexível, com um formato achatado e quadrado, \n[…]\nOs disquetes inicialmente tinham o tamanho de 8 polegadas (200 milímetros), e posteriormente, seu tamanho foi reduzido para 5¼ polegadas (133 milímetros). Tão logo, os disquetes de 3½ polegadas (90 milímetros) se tornaram os mais comuns, amplamente utilizado em meados de 1970 até o começo dos anos 2000.\n[…]\nApesar de pouco usado atualmente, ele ainda continua ativo em alguns dispositivos antigos. A frota de Boeing 747-400 da British Airways, por exemplo, até sua aposentadoria em 2020, usava disquetes de 3,5 polegadas para carregar software de aviônicos. Embora a produção da nova mídia de disquete tenha cessado, estima-se que as vendas e usos dessa mídia a partir de estoques continuem até pelo menos 2026.\n[…]\nOs primeiros disquetes, desenvolvidos no final da década de 1960, eram de 8 polegadas, encontrados nos primeiros computadores da empresa IBM, computadores com o sistema operacional CP/M e TRS-80 Modelo II; eles se tornaram disponíveis comercialmente a partir de 1971, com o último formato (3½ polegadas EDS) a ser definitivamente adotado em 1993.\n[…]\nEm virtude a esses fatores, a imagem de um disquete de 3,5 polegadas se tornou uma metáfora para a gravação de dados virtuais. O símbolo do disquete continua a ser usado em interfaces de softwares (conhecidas como \"GUI\") quando se trata da ação de salvar dados, como é o caso do Microsoft Office 2013, mesmo com o disquete e os leitores de disquete já altamente obsoletos.\n[…]\nFotos dos diversos tipos de disquetes",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.94 — 2026-11-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **3 perguntas por âncora** em cada lote (2 até 2026-10-27), nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **8 perguntas por âncora** no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27), somando texto e figura, e no máximo **3 com figura** (2 até 2026-10-27). As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas. Essas perguntas têm um teto no jogo original (§9).
+- **Metade aberta, metade múltipla escolha** (desde 2026-10-27). O jogo original busca as duas formas na mesma proporção, em cada tema, para que um modo só de múltipla escolha tenha perguntas de todos os temas. Vale para texto e figura. Cada lote recebe a quantidade de `multipla` que aproxima o seu tema dessa meta (§17), e a pergunta segue a quantidade pedida, salvo quando a outra forma for claramente melhor.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **três perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master e Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 8 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- **Respostas que são um ano específico** ("1969", "800 a.C."), somando abertas e múltiplas: no máximo **9%** das perguntas do lote, e no máximo **uma** num lote de figuras, que tem 12 itens (desde 2026-10-30, só no jogo original). Para pedir a época, prefira o século, a década ou a ordem entre dois fatos. O registro descarta o que passar do teto; as perguntas que já estavam no banco ficam.
+- No máximo **3 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já tenham perguntas, a âncoras novas e obscuras (desde 2026-10-27; antes, "prefira âncoras novas"). O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para aprofundá-las com fatos e ângulos novos, sem repetir fatos.
+- **Tentar incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as centrais, para manter alguma variedade. Se for difícil achar uma assim, o lote fica sem: uma âncora nova obscura não vale a troca.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
