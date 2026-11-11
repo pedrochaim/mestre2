@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que guerra esta mulher serviu como voluntária?",
+        "resposta": "Guerra do Paraguai"
+      },
+      "existentes": [
+        {
+          "id": "q06310",
+          "pergunta": "A baiana Ana Néri, patrona da enfermagem brasileira, cuidou de soldados feridos durante qual guerra do século dezenove?",
+          "resposta": "Guerra do Paraguai"
+        },
+        {
+          "id": "q20340",
+          "pergunta": "Já viúva e com cerca de cinquenta anos, Ana Néri se ofereceu como voluntária na Guerra do Paraguai para ficar perto de quem?",
+          "resposta": "Dos filhos, convocados para a guerra"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instituição cultural brasileira teve este jurista entre os seus fundadores?",
+        "resposta": "Academia Brasileira de Letras"
+      },
+      "existentes": [
+        {
+          "id": "q11725",
+          "pergunta": "Por sua atuação na Conferência de Paz de 1907, na Holanda, Rui Barbosa ganhou qual apelido?",
+          "resposta": "Águia de Haia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que império africano medieval este governante levou ao auge?",
+        "resposta": "Império do Mali"
+      },
+      "existentes": [
+        {
+          "id": "q04918",
+          "pergunta": "Em 1324, a caminho de Meca, Mansa Musa gastou e doou tanto ouro no Cairo que provocou que efeito na economia da cidade?",
+          "resposta": "Queda do valor do ouro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q06310",
+      "motivo": "Ambas perguntam em qual guerra Ana Néri serviu/atuou; a resposta é Guerra do Paraguai."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fundação da Academia Brasileira de Letras é um fato diferente do apelido Águia de Haia."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O império que Mansa Musa levou ao auge é diferente do efeito do ouro no Cairo em 1324."
+    }
+  ]
+}

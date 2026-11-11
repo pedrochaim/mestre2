@@ -1,0 +1,289 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública reconhecível.",
+      "destino": 5,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano esta política assumiu o governo do seu país pela primeira vez?",
+      "resposta": "2005",
+      "distratores": [
+        "2001",
+        "2003",
+        "2009"
+      ],
+      "ancora": {
+        "nome": "Angela Merkel",
+        "descricao": "Política alemã, chanceler da Alemanha de 2005 a 2021.",
+        "variantes": [
+          "Angela Dorothea Merkel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro e sem texto, reconhecível pelo turbante e pela barba.",
+      "destino": 5,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década este líder religioso chegou ao poder no seu país, depois de uma revolução?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "ancora": {
+        "nome": "Aiatolá Khomeini",
+        "descricao": "Clérigo xiita e primeiro líder supremo do Irã, líder da Revolução Iraniana de 1979.",
+        "variantes": [
+          "Ruhollah Khomeini",
+          "Khomeini"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto; figura pública de reconhecimento moderado.",
+      "destino": 9,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que guerra tornou este político sul-africano famoso no mundo todo?",
+      "resposta": "Segunda Guerra dos Bôeres",
+      "distratores": [
+        "Guerra Anglo-Zulu",
+        "Guerra Mahdista",
+        "Guerra dos Mil Dias"
+      ],
+      "ancora": {
+        "nome": "Paul Kruger",
+        "descricao": "Político sul-africano, presidente da República Sul-Africana (Transvaal) de 1883 a 1900, apelidado Oom Paul.",
+        "variantes": [
+          "Oom Paul",
+          "Stephanus Johannes Paulus Kruger"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido; a bandeira ao fundo não identifica a pessoa.",
+      "destino": 5,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Sob que presidente este político serviu como vice-presidente?",
+      "resposta": "Barack Obama",
+      "distratores": [
+        "Bill Clinton",
+        "George W. Bush",
+        "Ronald Reagan"
+      ],
+      "ancora": {
+        "nome": "Joe Biden",
+        "descricao": "Político americano, 46º presidente dos Estados Unidos e vice-presidente de Barack Obama.",
+        "variantes": [
+          "Joseph Robinette Biden Jr."
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto histórica clara, sem texto, retrato famoso.",
+      "destino": 5,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que imperatriz do século dezenove é esta?",
+      "resposta": "Sissi (Isabel da Baviera)",
+      "distratores": [
+        "Eugênia de Montijo",
+        "Rainha Vitória",
+        "Alexandra Feodorovna"
+      ],
+      "ancora": {
+        "nome": "Imperatriz Sissi",
+        "descricao": "Elisabeth da Baviera, imperatriz da Áustria e rainha da Hungria, esposa de Francisco José I.",
+        "variantes": [
+          "Sisi",
+          "Elisabeth da Áustria",
+          "Isabel da Baviera"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica granulada, mas legível e sem texto; rosto reconhecível.",
+      "destino": 5,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que povo indígena pertencia este presidente mexicano do século dezenove?",
+      "resposta": "Zapoteca",
+      "distratores": [
+        "Maia",
+        "Asteca",
+        "Mixteca"
+      ],
+      "ancora": {
+        "nome": "Benito Juárez",
+        "descricao": "Político mexicano de origem zapoteca, presidente do México de 1858 a 1872.",
+        "variantes": [
+          "Benito Pablo Juárez García"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública.",
+      "destino": 5,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que série de TV este político interpretou um presidente fictício antes de chegar ao poder?",
+      "resposta": "Servo do Povo",
+      "distratores": [
+        "Borgen",
+        "Veep",
+        "House of Cards"
+      ],
+      "ancora": {
+        "nome": "Volodymyr Zelensky",
+        "descricao": "Político ucraniano, ex-comediante e ator, presidente da Ucrânia desde 2019.",
+        "variantes": [
+          "Volodymyr Zelenskyy",
+          "Vladimir Zelensky"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto; reconhecimento moderado.",
+      "destino": 7,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que política externa deste primeiro-ministro britânico ficou marcada na história?",
+      "resposta": "Apaziguamento",
+      "distratores": [
+        "Contenção",
+        "Isolacionismo",
+        "Distensão"
+      ],
+      "ancora": {
+        "nome": "Neville Chamberlain",
+        "descricao": "Primeiro-ministro do Reino Unido de 1937 a 1940, signatário do Acordo de Munique.",
+        "variantes": [
+          "Arthur Neville Chamberlain"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura conhecida da personagem, sem texto; figuras de fundo são pequenas e secundárias.",
+      "destino": 8,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que guerra esta mulher serviu como voluntária?",
+      "resposta": "Guerra do Paraguai",
+      "distratores": [
+        "Guerra de Canudos",
+        "Guerra da Cisplatina",
+        "Revolução Farroupilha"
+      ],
+      "ancora": {
+        "nome": "Ana Néri",
+        "descricao": "Enfermeira baiana voluntária na Guerra do Paraguai, pioneira da enfermagem no Brasil.",
+        "variantes": [
+          "Anna Nery",
+          "Anna Justina Ferreira Nery"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, figura pública muito reconhecível.",
+      "destino": 5,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual é o título religioso deste monge budista?",
+      "resposta": "Dalai Lama",
+      "distratores": [
+        "Panchen Lama",
+        "Karmapa",
+        "Sakya Trizin"
+      ],
+      "ancora": {
+        "nome": "Dalai Lama (Tenzin Gyatso)",
+        "descricao": "14º Dalai Lama, líder espiritual do budismo tibetano, nascido em 1935.",
+        "variantes": [
+          "Tenzin Gyatso",
+          "14º Dalai Lama"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto antiga legível; só uma pequena assinatura de fotógrafo, que não entrega a resposta.",
+      "destino": 8,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual instituição brasileira, criada em 1897, teve este jurista entre os fundadores?",
+      "resposta": "Academia Brasileira de Letras",
+      "distratores": [
+        "Academia Brasileira de Ciências",
+        "Instituto Oswaldo Cruz",
+        "Colégio Pedro Segundo"
+      ],
+      "ancora": {
+        "nome": "Rui Barbosa",
+        "descricao": "Jurista, político, escritor e diplomata brasileiro (1849–1923), fundador da Academia Brasileira de Letras.",
+        "variantes": [
+          "Ruy Barbosa",
+          "Ruy Barbosa de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Miniatura do Atlas Catalão nítida, só um governante coroado; texto ao fundo ilegível e sem entregar a resposta.",
+      "destino": 9,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que império africano medieval este governante levou ao auge?",
+      "resposta": "Império do Mali",
+      "distratores": [
+        "Império Songai",
+        "Império de Gana",
+        "Reino do Congo"
+      ],
+      "ancora": {
+        "nome": "Mansa Musa",
+        "descricao": "Nono mansa do Império do Mali (c. 1280–c. 1337), famoso por sua riqueza.",
+        "variantes": [
+          "Mansa Muçá",
+          "Musa I do Mali"
+        ]
+      }
+    }
+  ]
+}
