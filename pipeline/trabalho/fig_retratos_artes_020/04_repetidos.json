@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que comediante das chanchadas do cinema brasileiro aparece nesta foto?",
+        "resposta": "Oscarito"
+      },
+      "existentes": [
+        {
+          "id": "q01084",
+          "pergunta": "Em que país europeu nasceu o comediante Oscarito, grande astro das chanchadas brasileiras?",
+          "resposta": "Espanha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade do comediante na foto; a existente pergunta o país de nascimento (Espanha). Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato antigo sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 4,
+      "pergunta": "Que comediante das chanchadas do cinema brasileiro aparece nesta foto?",
+      "resposta": "Oscarito",
+      "ancora": {
+        "nome": "Oscarito",
+        "descricao": "Ator cômico espanhol naturalizado brasileiro, estrela das chanchadas (1906–1970).",
+        "variantes": [
+          "Oscar Lorenzo Jacinto de la Inmaculada Concepción Teresa Diaz"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato limpo, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Qual destas obras foi escrita por este sociólogo alemão?",
+      "resposta": "A Ética Protestante e o Espírito do Capitalismo",
+      "distratores": [
+        "O Suicídio",
+        "Da Divisão do Trabalho Social",
+        "O Capital"
+      ],
+      "ancora": {
+        "nome": "Max Weber",
+        "descricao": "Sociólogo, historiador e economista político alemão (1864–1920).",
+        "variantes": [
+          "Maximilian Weber"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato histórico sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que sociólogo francês é este?",
+      "resposta": "Émile Durkheim",
+      "ancora": {
+        "nome": "Émile Durkheim",
+        "descricao": "Sociólogo francês (1858–1917), fundador da sociologia acadêmica.",
+        "variantes": [
+          "Emile Durkheim",
+          "David Émile Durkheim"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Rosto claro, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que ator brasileiro nascido em Curitiba é este?",
+      "resposta": "Ary Fontoura",
+      "distratores": [
+        "Lima Duarte",
+        "Antônio Fagundes",
+        "Jorge Dória"
+      ],
+      "ancora": {
+        "nome": "Ary Fontoura",
+        "descricao": "Ator, diretor e apresentador brasileiro nascido em Curitiba em 1933.",
+        "variantes": [
+          "Ary Beira Fontoura"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O crachá visível na foto traz o nome Ana Maria Machado."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto muito borrada e de baixa resolução; não reconhecível num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Em que cidade do Rio Grande do Sul nasceu este historiador brasileiro?",
+      "resposta": "São Leopoldo",
+      "ancora": {
+        "nome": "Leandro Karnal",
+        "descricao": "Historiador, professor e escritor brasileiro nascido em São Leopoldo em 1963.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato claro sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Qual obra de 1928 deste compositor francês é baseada na repetição de um mesmo tema?",
+      "resposta": "Boléro",
+      "ancora": {
+        "nome": "Maurice Ravel",
+        "descricao": "Compositor francês (1875–1937), autor de Boléro.",
+        "variantes": [
+          "Joseph Maurice Ravel"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A gravura traz o nome GIOVANNI BOCCACCIO escrito embaixo."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A assinatura 'Chico Anysio' aparece ao fundo e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que compositor de trilhas sonoras de cinema é este?",
+      "resposta": "Hans Zimmer",
+      "distratores": [
+        "John Williams",
+        "Howard Shore",
+        "Ennio Morricone"
+      ],
+      "ancora": {
+        "nome": "Hans Zimmer",
+        "descricao": "Compositor alemão de trilhas sonoras de cinema, nascido em 1957.",
+        "variantes": [
+          "Hans Florian Zimmer"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato histórico claro sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que poema sinfônico deste compositor alemão abre o filme 2001: Uma Odisseia no Espaço?",
+      "resposta": "Assim Falou Zaratustra",
+      "ancora": {
+        "nome": "Richard Strauss",
+        "descricao": "Compositor e regente alemão (1864–1949), conhecido por poemas sinfônicos e óperas.",
+        "variantes": [
+          "Richard Georg Strauss"
+        ]
+      }
+    }
+  ]
+}

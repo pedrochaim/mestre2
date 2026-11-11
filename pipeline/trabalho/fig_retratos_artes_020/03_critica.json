@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oscarito é descrito como um dos humoristas mais populares das chanchadas. O enunciado só dá o gênero, que não entrega o nome, e a foto resolve a identificação.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Com 'sociólogo alemão' mais as alternativas, dá para responder sem ver a figura. 'O Capital', de Marx, também tem autor alemão, o que pode confundir. Reescrita sem a nacionalidade e com distratores de outros autores.",
+      "reescrita": {
+        "pergunta": "Qual destas obras foi escrita por este pensador?",
+        "resposta": "A Ética Protestante e o Espírito do Capitalismo",
+        "distratores": [
+          "O Suicídio",
+          "O Capital",
+          "Regras do Método Sociológico"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento. 'Sociólogo francês' ajuda sem entregar, porque há vários sociólogos franceses. Durkheim está confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Curitiba é a pista que, junto das alternativas, identifica Ary Fontoura sem a imagem. Outros atores também nasceram lá. Reescrita sem a naturalidade, com distratores de atores veteranos.",
+      "reescrita": {
+        "pergunta": "Que ator brasileiro é este?",
+        "resposta": "Ary Fontoura",
+        "distratores": [
+          "Lima Duarte",
+          "Antônio Fagundes",
+          "Jorge Dória"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cidade natal está nos trechos (São Leopoldo). O enunciado não nomeia Karnal e exige reconhecê-lo na foto antes de responder. É uma pergunta de nível 3.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O ano 1928 e a repetição do tema entregam o Boléro sem a imagem. O Boléro também tem mais de um tema. Reescrita em múltipla escolha, sem pista.",
+      "reescrita": {
+        "pergunta": "Qual destas obras foi composta por este compositor?",
+        "resposta": "Boléro",
+        "distratores": [
+          "Gymnopédies",
+          "Clair de Lune",
+          "O Carnaval dos Animais"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá só a categoria e não entrega o nome. Os distratores são compositores de cinema críveis e nenhum é Zimmer.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Quem sabe que Assim Falou Zaratustra abre 2001 responde sem a figura. Reescrita em múltipla escolha com poemas sinfônicos de outros compositores, sem a pista do filme.",
+      "reescrita": {
+        "pergunta": "Qual destes poemas sinfônicos foi composto por este compositor alemão?",
+        "resposta": "Assim Falou Zaratustra",
+        "distratores": [
+          "Os Prelúdios",
+          "Uma Noite no Monte Calvo",
+          "Finlândia"
+        ]
+      }
+    }
+  ]
+}
