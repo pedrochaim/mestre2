@@ -1,0 +1,102 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Mural com mapa e o texto 'Baía de Todos os Santos' bem visível; entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do lago alpino turquesa, sem texto, com a cidade na ponta norte.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este lago dos Alpes franceses dá o nome a uma cidade que fica na sua ponta norte. Que cidade é essa?",
+      "resposta": "Annecy",
+      "distratores": [
+        "Chambéry",
+        "Grenoble",
+        "Évian"
+      ],
+      "ancora": {
+        "nome": "Lago de Annecy",
+        "descricao": "Lago perialpino no departamento da Alta Saboia, na França, que dá nome à cidade de Annecy.",
+        "variantes": [
+          "Lac d'Annecy",
+          "Lake Annecy"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de balsa com o nome 'S. Bernardino' visível; o lago não é reconhecível pela paisagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a forma característica da ilha, Pearl Harbor e Honolulu visíveis, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Nesta ilha do Pacífico, vista do espaço, fica a capital de um estado americano. Que cidade é essa?",
+      "resposta": "Honolulu",
+      "distratores": [
+        "Hilo",
+        "Lahaina",
+        "Kailua"
+      ],
+      "ancora": {
+        "nome": "Oahu",
+        "descricao": "Terceira maior e mais populosa ilha do arquipélago do Havaí, onde fica Honolulu.",
+        "variantes": [
+          "Oʻahu",
+          "Ilha de Oahu"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Trecho de rio largo e marrom sem elementos característicos; não é reconhecível como o Pó."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto aérea de ilhas sem forma ou marco distintivo; não é possível reconhecer o arquipélago com resposta única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Enseada genérica do Adriático, sem nada que permita reconhecer Hvar."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista urbana com canal e reservatório ao fundo; ambígua, não mostra com clareza a represa."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Lago de montanha árido genérico; pouco reconhecível e confundível com outros lagos do Himalaia e do Tibete."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Barco anfíbio com o endereço 'www.jokulsarlon.is' visível; texto entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Praia tropical com coqueiros, genérica; não identifica a Ilha Saona."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Água aberta com canoas, sem marcos; não reconhecível como o Níger, e há data impressa na foto."
+    }
+  ]
+}

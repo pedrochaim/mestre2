@@ -1,0 +1,26 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado inverte a relação: segundo os trechos, o lago é que leva o nome da cidade de Annecy, e não o contrário. A cidade fica ao norte do lago (pt.wikipedia). Corrigida a redação; distratores continuam válidos.",
+      "reescrita": {
+        "pergunta": "Este lago dos Alpes franceses tem o nome de uma cidade que fica na sua ponta norte. Que cidade é essa?",
+        "resposta": "Annecy",
+        "distratores": [
+          "Chambéry",
+          "Grenoble",
+          "Évian"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Falha no teste da imagem coberta: uma ilha do Pacífico com a capital de um estado americano só pode ser Oahu e Honolulu, então a figura vira enfeite. Além disso, 'vista do espaço' não consta em mostra e não dá para confirmar. Sem conserto simples.",
+      "reescrita": null
+    }
+  ]
+}

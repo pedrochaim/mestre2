@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este lago dos Alpes franceses tem o nome de uma cidade que fica na sua ponta norte. Que cidade é essa?",
+        "resposta": "Annecy"
+      },
+      "existentes": [
+        {
+          "id": "q18982",
+          "pergunta": "Que lago alpino da França é este?",
+          "resposta": "Lago Annecy"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q18982",
+      "motivo": "Ambas têm como resposta Annecy: identificar o lago alpino francês e a cidade que lhe dá nome é o mesmo fato. Quem soubesse que o lago é o Annecy responderia a nova."
+    }
+  ]
+}

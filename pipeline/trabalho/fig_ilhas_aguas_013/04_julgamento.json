@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lago de Annecy",
+        "descricao": "Lago perialpino no departamento da Alta Saboia, na França, que dá nome à cidade de Annecy.",
+        "variantes": [
+          "Lac d'Annecy",
+          "Lake Annecy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_annecy",
+          "nome": "Lago Annecy",
+          "descricao": "Lago perialpino na Alta Saboia, França, que dá nome à cidade de Annecy.",
+          "variantes": [
+            "Lago de Annecy",
+            "Lac d'Annecy",
+            "Lake Annecy"
+          ]
+        },
+        {
+          "id": "lago_de_braies",
+          "nome": "Lago de Braies",
+          "descricao": "Lago alpino nas Dolomitas de Prags, no Tirol do Sul, Itália, conhecido como Pérola dos Alpes.",
+          "variantes": [
+            "Pragser Wildsee",
+            "Lago di Braies"
+          ]
+        },
+        {
+          "id": "lago_lugano",
+          "nome": "Lago Lugano",
+          "descricao": "Lago glacial na fronteira entre o sul da Suíça e o norte da Itália, junto à cidade de Lugano.",
+          "variantes": [
+            "Lago de Lugano",
+            "Lago di Lugano",
+            "Ceresio",
+            "Lake Lugano"
+          ]
+        },
+        {
+          "id": "lago_constanca",
+          "nome": "Lago Constança",
+          "descricao": "Lago do norte dos Alpes, no Reno, entre Alemanha, Suíça e Áustria.",
+          "variantes": [
+            "Lago de Constança",
+            "Bodensee",
+            "Lake Constance"
+          ]
+        },
+        {
+          "id": "lago_nyos",
+          "nome": "Lago Nyos",
+          "descricao": "Lago de cratera vulcânica no noroeste de Camarões, palco de uma tragédia em 1986.",
+          "variantes": [
+            "Nyos",
+            "Lake Nyos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "lago_annecy",
+      "motivo": "Mesmo lago perialpino na Alta Saboia, França; descrições e variantes coincidem."
+    }
+  ]
+}
