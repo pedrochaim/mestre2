@@ -406160,5 +406160,189 @@
       "autor": "Autor desconhecido",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q20444",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "pentagono",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que edifício é este, visto do alto?",
+    "resposta": "Pentágono",
+    "distratores": [
+      "Capitólio dos Estados Unidos",
+      "Casa Branca",
+      "Palácio de Westminster"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Pentagon",
+      "https://pt.wikipedia.org/wiki/O_Pent%C3%A1gono"
+    ],
+    "imagem": {
+      "arquivo": "q20444.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:The_Pentagon_January_2008.jpg",
+      "autor": "David B. Gleason from Chicago, IL",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q20445",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "the_shard",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que arquiteto italiano projetou este arranha-céu?",
+    "resposta": "Renzo Piano",
+    "distratores": [
+      "Norman Foster",
+      "Zaha Hadid",
+      "Jean Nouvel"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Shard",
+      "https://pt.wikipedia.org/wiki/The_Shard"
+    ],
+    "imagem": {
+      "arquivo": "q20445.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:The_Shard_from_the_Sky_Garden_2015.jpg",
+      "autor": "Colin",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20446",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "venus_vitoriosa_paolina_borghese",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que escultura neoclássica em mármore é esta?",
+    "resposta": "Paolina Borghese como Vênus Vitoriosa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Venus_Victrix_%28Canova%29",
+      "https://pt.wikipedia.org/wiki/Venus_Victrix_%28Canova%29"
+    ],
+    "imagem": {
+      "arquivo": "q20446.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Paolina_Borghese_(Canova).jpg",
+      "autor": "Antonio Canova",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20447",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "palacio_de_schonbrunn",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este palácio barroco?",
+    "resposta": "Viena",
+    "distratores": [
+      "Budapeste",
+      "Praga",
+      "Munique"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace",
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_Sch%C3%B6nbrunn"
+    ],
+    "imagem": {
+      "arquivo": "q20447.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Schönbrunn.JPG",
+      "autor": "C.Stadler/Bwag",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20448",
+    "tema": "Artes e Pensamento",
+    "subtema": "Religiões",
+    "ancora": "mesquita_nasir_al_mulk",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país fica esta mesquita?",
+    "resposta": "Irã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nasir-ol-Molk_Mosque"
+    ],
+    "imagem": {
+      "arquivo": "q20448.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nasr_ol_Molk_mosque2.jpg",
+      "autor": "dynamosquito",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q20449",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "bronzes_de_riace",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que par de estátuas gregas de bronze é este?",
+    "resposta": "Bronzes de Riace",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Riace_bronzes",
+      "https://pt.wikipedia.org/wiki/Bronzes_de_Riace"
+    ],
+    "imagem": {
+      "arquivo": "q20449.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Reggio_Calabria_-_Museo_archeologico_nazionale_-_Bronzi_di_Riace_-_11.jpg",
+      "autor": "Benjamin Smith",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20450",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "estacao_central_do_brasil",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que estilo arquitetônico marca esta estação ferroviária?",
+    "resposta": "Art déco",
+    "distratores": [
+      "Neogótico",
+      "Barroco",
+      "Brutalismo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Central_do_Brasil",
+      "https://en.wikipedia.org/wiki/Central_do_Brasil"
+    ],
+    "imagem": {
+      "arquivo": "q20450.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estação_Central_do_Brasil.jpg",
+      "autor": "Halley Pacheco de Oliveira",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20451",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "hawa_mahal",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que nome, em português, se dá a este palácio indiano de arenito rosa?",
+    "resposta": "Palácio dos Ventos",
+    "distratores": [
+      "Palácio das Águas",
+      "Palácio dos Espelhos",
+      "Palácio da Lua"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hawa_Mahal",
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_dos_Ventos"
+    ],
+    "imagem": {
+      "arquivo": "q20451.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+      "autor": "Chainwit.",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

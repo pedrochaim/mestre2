@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que edifício é este, visto do alto?",
+      "resposta": "Pentágono",
+      "distratores": [
+        "Capitólio dos Estados Unidos",
+        "Casa Branca",
+        "Palácio de Westminster"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pentágono",
+        "descricao": "Sede do Departamento de Defesa dos Estados Unidos, em Arlington, Virgínia, de planta pentagonal.",
+        "variantes": [
+          "The Pentagon",
+          "O Pentágono"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto italiano projetou este arranha-céu?",
+      "resposta": "Renzo Piano",
+      "distratores": [
+        "Norman Foster",
+        "Richard Rogers",
+        "Zaha Hadid"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "The Shard",
+        "descricao": "Arranha-céu piramidal de vidro em Southwark, Londres, o mais alto do Reino Unido.",
+        "variantes": [
+          "Shard London Bridge",
+          "London Bridge Tower",
+          "O Estilhaço"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura famosa, clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escultura neoclássica em mármore é esta?",
+      "resposta": "Paolina Borghese como Vênus Vitoriosa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vênus Vitoriosa (Paolina Borghese)",
+        "descricao": "Escultura neoclássica de Antonio Canova que retrata Paulina Bonaparte reclinada como Vênus, na Galleria Borghese.",
+        "variantes": [
+          "Paolina Borghese",
+          "Pauline Bonaparte as Venus Victrix",
+          "Venus Victrix"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A fachada traz o nome 'Estádio Municipal Paulo Machado de Carvalho' bem legível, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista clássica do palácio e dos jardins, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este palácio barroco?",
+      "resposta": "Viena",
+      "distratores": [
+        "Budapeste",
+        "Praga",
+        "Munique"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palácio de Schönbrunn",
+        "descricao": "Palácio barroco de verão dos Habsburgos, em Viena, na Áustria.",
+        "variantes": [
+          "Schönbrunn Palace",
+          "Schloss Schönbrunn"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pátio da mesquita, sem texto legível; reconhecível pelos azulejos e pelo tanque, melhor perguntar o país.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica esta mesquita?",
+      "resposta": "Irã",
+      "destino": 1,
+      "ancora": {
+        "nome": "Mesquita Nasir al-Mulk",
+        "descricao": "Mesquita da era Qajar em Shiraz, no Irã, conhecida como Mesquita Rosa pelos vitrais e azulejos.",
+        "variantes": [
+          "Mesquita Rosa",
+          "Nasir-ol-Molk Mosque",
+          "Pink Mosque"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem tem marca d'água de agência de imprensa (Gazeta Press), que não é permitida."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Figura pré-histórica icônica, fundo limpo, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estatueta pré-histórica é esta?",
+      "resposta": "Vênus de Willendorf",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vênus de Willendorf",
+        "descricao": "Estatueta paleolítica de calcário com cerca de 11 cm, encontrada em Willendorf, na Áustria.",
+        "variantes": [
+          "Venus of Willendorf",
+          "Mulher de Willendorf"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "As duas estátuas pertencem a uma mesma obra, sem texto; reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que par de estátuas gregas de bronze, achado no mar, é este?",
+      "resposta": "Bronzes de Riace",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bronzes de Riace",
+        "descricao": "Duas estátuas gregas de bronze do século V a.C., achadas no mar em Riace, na Itália, hoje em Reggio Calabria.",
+        "variantes": [
+          "Riace bronzes",
+          "Bronzi di Riace",
+          "Guerreiros de Riace"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Torre do relógio art déco reconhecível, sem texto que entregue a resposta.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estilo arquitetônico marca esta estação ferroviária?",
+      "resposta": "Art déco",
+      "distratores": [
+        "Neogótico",
+        "Barroco",
+        "Brutalismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estação Central do Brasil",
+        "descricao": "Estação ferroviária no Centro do Rio de Janeiro, com torre do relógio em art déco.",
+        "variantes": [
+          "Central do Brasil",
+          "Estação D. Pedro II"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea clara com a catedral de São Vito, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que complexo de castelo é este, com uma catedral gótica no centro?",
+      "resposta": "Castelo de Praga",
+      "destino": 0,
+      "ancora": {
+        "nome": "Castelo de Praga",
+        "descricao": "Complexo de castelo em Praga, na República Tcheca, sede da presidência e incluindo a catedral de São Vito.",
+        "variantes": [
+          "Prague Castle",
+          "Pražský hrad"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada inconfundível, sem texto relevante.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que nome, em português, se dá a este palácio indiano de arenito rosa?",
+      "resposta": "Palácio dos Ventos",
+      "distratores": [
+        "Palácio das Águas",
+        "Palácio dos Espelhos",
+        "Palácio da Lua"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hawa Mahal",
+        "descricao": "Palácio de arenito rosa em Jaipur, na Índia, famoso pela fachada com 953 janelinhas.",
+        "variantes": [
+          "Palácio dos Ventos",
+          "Palace of Winds"
+        ]
+      }
+    }
+  ]
+}

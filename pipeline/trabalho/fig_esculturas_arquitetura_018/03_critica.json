@@ -1,0 +1,88 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o edifício; a planta pentagonal é visível na figura. Distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Richard Rogers nasceu em Florença e foi parceiro de Piano, então pode ser defendido como arquiteto italiano. Troquei o distrator.",
+      "reescrita": {
+        "pergunta": "Que arquiteto italiano projetou este arranha-céu?",
+        "resposta": "Renzo Piano",
+        "distratores": [
+          "Norman Foster",
+          "Zaha Hadid",
+          "Jean Nouvel"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; a obra é neoclássica e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palácio em Viena, fato confirmado. O enunciado não entrega a resposta e os distratores são cidades críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A mesquita fica em Shiraz, no Irã. Enunciado sem vazamento e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de estatueta pré-histórica, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Achado no mar' junto com 'par de estátuas gregas de bronze' é uma definição que permite responder sem ver a figura. Tirei essa pista.",
+      "reescrita": {
+        "pergunta": "Que par de estátuas gregas de bronze é este?",
+        "resposta": "Bronzes de Riace"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estilo art déco confirmado nos trechos. Distratores de estilos distintos e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Complexo de castelo' repete a palavra 'castelo' da resposta, e a pista da catedral no centro é imprecisa. Reformulei.",
+      "reescrita": {
+        "pergunta": "Que complexo histórico europeu, com uma catedral gótica, é este?",
+        "resposta": "Castelo de Praga"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Palácio dos Ventos' é o nome em português confirmado no trecho. Enunciado sem vazamento e distratores do mesmo tipo.",
+      "reescrita": null
+    }
+  ]
+}

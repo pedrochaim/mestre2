@@ -1,0 +1,642 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pentágono",
+        "descricao": "Sede do Departamento de Defesa dos Estados Unidos, em Arlington, Virgínia, de planta pentagonal.",
+        "variantes": [
+          "The Pentagon",
+          "O Pentágono"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pantano",
+          "nome": "Pântano",
+          "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+          "variantes": [
+            "Swamp",
+            "Floresta alagada"
+          ]
+        },
+        {
+          "id": "pentatlo_antigo",
+          "nome": "Pentatlo antigo",
+          "descricao": "Prova combinada de cinco modalidades disputada nos Jogos Olímpicos da Antiguidade.",
+          "variantes": [
+            "Pentathlon",
+            "Pentatlo da Grécia Antiga",
+            "Ancient pentathlon"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_2002",
+          "nome": "Copa do Mundo FIFA de 2002",
+          "descricao": "Décima sétima Copa do Mundo, disputada no Japão e na Coreia do Sul e vencida pelo Brasil.",
+          "variantes": [
+            "Copa de 2002",
+            "2002 FIFA World Cup",
+            "Copa do Penta",
+            "Penta"
+          ]
+        },
+        {
+          "id": "pentatlo_moderno",
+          "nome": "Pentatlo moderno",
+          "descricao": "Modalidade olímpica criada por Pierre de Coubertin, que combina esgrima, natação, hipismo, tiro e corrida.",
+          "variantes": [
+            "Modern pentathlon",
+            "Pentatlo"
+          ]
+        },
+        {
+          "id": "pimentao",
+          "nome": "Pimentão",
+          "descricao": "Fruto de Capsicum annuum do grupo Grossum, usado como hortaliça, aqui vermelho.",
+          "variantes": [
+            "Pimentão vermelho",
+            "Bell pepper"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "The Shard",
+        "descricao": "Arranha-céu piramidal de vidro em Southwark, Londres, o mais alto do Reino Unido.",
+        "variantes": [
+          "Shard London Bridge",
+          "London Bridge Tower",
+          "O Estilhaço"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "james_harden",
+          "nome": "James Harden",
+          "descricao": "Armador americano de basquete da NBA, conhecido como 'the Beard', campeão olímpico em 2012.",
+          "variantes": [
+            "The Beard",
+            "James Edward Harden Jr."
+          ]
+        },
+        {
+          "id": "tubarao_baleia",
+          "nome": "Tubarão-baleia",
+          "descricao": "Grande tubarão filtrador (Rhincodon typus) de pele pintada, que se alimenta de plâncton.",
+          "variantes": [
+            "Rhincodon typus",
+            "Whale shark"
+          ]
+        },
+        {
+          "id": "os_lusiadas",
+          "nome": "Os Lusíadas",
+          "descricao": "Poema épico de Luís de Camões, publicado em 1572, sobre a viagem de Vasco da Gama à Índia.",
+          "variantes": [
+            "Lusíadas",
+            "The Lusiads"
+          ]
+        },
+        {
+          "id": "sandman",
+          "nome": "Sandman",
+          "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989",
+          "variantes": [
+            "The Sandman"
+          ]
+        },
+        {
+          "id": "o_palhaco",
+          "nome": "O Palhaço",
+          "descricao": "Filme brasileiro de 2011, dirigido por Selton Mello, sobre a dupla de palhaços Pangaré e Puro Sangue no Circo Esperança.",
+          "variantes": [
+            "O Palhaço (2011)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Vênus Vitoriosa (Paolina Borghese)",
+        "descricao": "Escultura neoclássica de Antonio Canova que retrata Paulina Bonaparte reclinada como Vênus, na Galleria Borghese.",
+        "variantes": [
+          "Paolina Borghese",
+          "Pauline Bonaparte as Venus Victrix",
+          "Venus Victrix"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hermafrodita_borghese",
+          "nome": "Hermafrodita Borghese",
+          "descricao": "Escultura romana em mármore de Hermafrodito adormecido, com colchão de Bernini, hoje no Louvre.",
+          "variantes": [
+            "Hermafrodita Dormindo",
+            "Sleeping Hermaphroditus",
+            "Borghese Hermaphrodite"
+          ]
+        },
+        {
+          "id": "campanha_v_de_vitoria",
+          "nome": "Campanha V de Vitória",
+          "descricao": "Campanha de propaganda aliada iniciada em 1941 que usava a letra V, o gesto com dois dedos e o código Morse como símbolo de vitória.",
+          "variantes": [
+            "V for Victory",
+            "V de Victoria"
+          ]
+        },
+        {
+          "id": "rainha_vitoria",
+          "nome": "Rainha Vitória",
+          "descricao": "Rainha do Reino Unido de 1837 a 1901, que deu nome à era vitoriana.",
+          "variantes": [
+            "Vitória do Reino Unido",
+            "Queen Victoria"
+          ]
+        },
+        {
+          "id": "baleia_da_groenlandia",
+          "nome": "Baleia-da-groenlândia",
+          "descricao": "Baleia de barbatanas do Ártico (Balaena mysticetus), de cabeça enorme e sem nadadeira dorsal.",
+          "variantes": [
+            "Baleia-franca-da-groenlândia",
+            "Baleia-boreal",
+            "Balaena mysticetus",
+            "Bowhead whale"
+          ]
+        },
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Palácio de Schönbrunn",
+        "descricao": "Palácio barroco de verão dos Habsburgos, em Viena, na Áustria.",
+        "variantes": [
+          "Schönbrunn Palace",
+          "Schloss Schönbrunn"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_schonbrunn",
+          "nome": "Palácio de Schönbrunn",
+          "descricao": "Palácio barroco de Viena, principal residência de verão dos Habsburgo, com 1.441 cômodos.",
+          "variantes": [
+            "Schönbrunn",
+            "Schloss Schönbrunn"
+          ]
+        },
+        {
+          "id": "palacio_do_jaburu",
+          "nome": "Palácio do Jaburu",
+          "descricao": "Residência oficial do vice-presidente do Brasil em Brasília, projetada por Oscar Niemeyer e inaugurada em 1977.",
+          "variantes": [
+            "Jaburu"
+          ]
+        },
+        {
+          "id": "palau_sant_jordi",
+          "nome": "Palau Sant Jordi",
+          "descricao": "Ginásio coberto do Anel Olímpico de Montjuïc, em Barcelona, projetado por Arata Isozaki.",
+          "variantes": [
+            "Palácio de São Jorge"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos",
+            "Cnosso"
+          ]
+        },
+        {
+          "id": "panela_de_cobre",
+          "nome": "Panela de cobre",
+          "descricao": "Panela feita de cobre, valorizada na alta cozinha por distribuir o calor de forma rápida e uniforme.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mesquita Nasir al-Mulk",
+        "descricao": "Mesquita da era Qajar em Shiraz, no Irã, conhecida como Mesquita Rosa pelos vitrais e azulejos.",
+        "variantes": [
+          "Mesquita Rosa",
+          "Nasir-ol-Molk Mosque",
+          "Pink Mosque"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_do_xa_isfahan",
+          "nome": "Mesquita do Xá (Isfahan)",
+          "descricao": "Mesquita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+          "variantes": [
+            "Mesquita do Imã",
+            "Mesquita Imam Khomeini",
+            "Shah Mosque"
+          ]
+        },
+        {
+          "id": "mesquita_azul",
+          "nome": "Mesquita Azul",
+          "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
+          "variantes": [
+            "Mesquita do Sultão Ahmed",
+            "Sultanahmet Camii",
+            "Sultan Ahmed Mosque",
+            "Blue Mosque"
+          ]
+        },
+        {
+          "id": "mesquita_de_al_aqsa",
+          "nome": "Mesquita de Al-Aqsa",
+          "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+          "variantes": [
+            "Al-Aqsa",
+            "Mesquita Al-Aqsa"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Vênus de Willendorf",
+        "descricao": "Estatueta paleolítica de calcário com cerca de 11 cm, encontrada em Willendorf, na Áustria.",
+        "variantes": [
+          "Venus of Willendorf",
+          "Mulher de Willendorf"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "venus_de_willendorf",
+          "nome": "Vênus de Willendorf",
+          "descricao": "Estatueta paleolítica de uma figura feminina, esculpida em calcário.",
+          "variantes": [
+            "Venus of Willendorf",
+            "Mulher de Willendorf"
+          ]
+        },
+        {
+          "id": "venus_de_milo",
+          "nome": "Vênus de Milo",
+          "descricao": "Estátua grega de mármore no Louvre.",
+          "variantes": [
+            "Afrodite de Milo",
+            "Afrodite de Milos"
+          ]
+        },
+        {
+          "id": "afrodite_de_cnido",
+          "nome": "Afrodite de Cnido",
+          "descricao": "Estátua grega de Afrodite nua criada por Praxíteles no século quatro a.C., conhecida por cópias romanas.",
+          "variantes": [
+            "Afrodite Cnídia",
+            "Aphrodite of Knidos",
+            "Vênus de Cnido"
+          ]
+        },
+        {
+          "id": "venus_de_urbino",
+          "nome": "Vênus de Urbino",
+          "descricao": "Quadro de Ticiano de 1538, na Galeria Uffizi.",
+          "variantes": []
+        },
+        {
+          "id": "casa_de_windsor",
+          "nome": "Casa de Windsor",
+          "descricao": "Casa real do Reino Unido, que adotou esse nome em 1917, no reinado de Jorge V.",
+          "variantes": [
+            "House of Windsor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bronzes de Riace",
+        "descricao": "Duas estátuas gregas de bronze do século V a.C., achadas no mar em Riace, na Itália, hoje em Reggio Calabria.",
+        "variantes": [
+          "Riace bronzes",
+          "Bronzi di Riace",
+          "Guerreiros de Riace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bronzes_de_riace",
+          "nome": "Bronzes de Riace",
+          "descricao": "Par de estátuas gregas de guerreiros em bronze, do século cinco a.C., encontradas em 1972 no mar perto de Riace, na Calábria.",
+          "variantes": [
+            "Guerreiros de Riace",
+            "Riace bronzes"
+          ]
+        },
+        {
+          "id": "exercito_de_terracota",
+          "nome": "Exército de Terracota",
+          "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian.",
+          "variantes": [
+            "Guerreiros de Terracota",
+            "Terracotta Army",
+            "Guerreiros de Xian"
+          ]
+        },
+        {
+          "id": "ossos_oraculares",
+          "nome": "Ossos oraculares",
+          "descricao": "Ossos e cascos de tartaruga usados para adivinhação na China antiga, com os textos mais antigos da escrita chinesa.",
+          "variantes": [
+            "Oracle bones",
+            "Jiaguwen"
+          ]
+        },
+        {
+          "id": "bronzes_de_benim",
+          "nome": "Bronzes de Benim",
+          "descricao": "Milhares de placas e esculturas de metal do Reino de Benim, na atual Nigéria, levadas pelos britânicos em 1897.",
+          "variantes": [
+            "Benin Bronzes",
+            "Bronzes do Benim"
+          ]
+        },
+        {
+          "id": "guerrilheiro_heroico",
+          "nome": "Guerrilheiro Heroico",
+          "descricao": "Fotografia de Che Guevara de boina com estrela, tirada em Havana em 5 de março de 1960.",
+          "variantes": [
+            "Guerrillero Heroico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Estação Central do Brasil",
+        "descricao": "Estação ferroviária no Centro do Rio de Janeiro, com torre do relógio em art déco.",
+        "variantes": [
+          "Central do Brasil",
+          "Estação D. Pedro II"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "grumixama",
+          "nome": "Grumixama",
+          "descricao": "Fruta roxo-escura da árvore Eugenia brasiliensis, nativa do sul do Brasil, de sabor doce semelhante à cereja.",
+          "variantes": [
+            "Grumichama",
+            "Cereja-do-Brasil",
+            "Eugenia brasiliensis"
+          ]
+        },
+        {
+          "id": "litoral_do_brasil",
+          "nome": "Litoral do Brasil",
+          "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul.",
+          "variantes": [
+            "Costa brasileira"
+          ]
+        },
+        {
+          "id": "carnaval",
+          "nome": "Carnaval",
+          "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+          "variantes": [
+            "Carnaval do Brasil"
+          ]
+        },
+        {
+          "id": "fronteiras_do_brasil",
+          "nome": "Fronteiras do Brasil",
+          "descricao": "Conjunto das fronteiras terrestres do Brasil com os países vizinhos da América do Sul.",
+          "variantes": [
+            "Borders of Brazil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Castelo de Praga",
+        "descricao": "Complexo de castelo em Praga, na República Tcheca, sede da presidência e incluindo a catedral de São Vito.",
+        "variantes": [
+          "Prague Castle",
+          "Pražský hrad"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_praga",
+          "nome": "Castelo de Praga",
+          "descricao": "Complexo de castelo em Praga, na República Tcheca, sede de reis da Boêmia e hoje residência oficial do presidente.",
+          "variantes": [
+            "Pražský hrad",
+            "Prague Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_osaka",
+          "nome": "Castelo de Osaka",
+          "descricao": "Castelo japonês em Chūō-ku, Osaka, importante na unificação do Japão no século dezesseis.",
+          "variantes": [
+            "Osaka-jō",
+            "Osaka Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_n",
+          "nome": "Castelo de N",
+          "descricao": "Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história.",
+          "variantes": [
+            "N's Castle"
+          ]
+        },
+        {
+          "id": "battle_chateau",
+          "nome": "Battle Château",
+          "descricao": "Castelo de batalhas da região de Kalos, nos jogos Pokémon X e Y, onde os treinadores sobem de posto a cada vitória.",
+          "variantes": [
+            "Castelo de Batalha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Hawa Mahal",
+        "descricao": "Palácio de arenito rosa em Jaipur, na Índia, famoso pela fachada com 953 janelinhas.",
+        "variantes": [
+          "Palácio dos Ventos",
+          "Palace of Winds"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hawa_mahal",
+          "nome": "Hawa Mahal",
+          "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+          "variantes": [
+            "Palácio dos Ventos",
+            "Palace of Winds"
+          ]
+        },
+        {
+          "id": "palacio_dos_leoes",
+          "nome": "Palácio dos Leões",
+          "descricao": "Sede do governo do Maranhão, em São Luís, de frente para a Baía de São Marcos.",
+          "variantes": []
+        },
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_de_inverno",
+          "nome": "Palácio de Inverno",
+          "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+          "variantes": [
+            "Winter Palace",
+            "Palácio de Inverno de São Petersburgo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o edifício do Pentágono."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o arranha-céu The Shard."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Escultura de Canova não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_schonbrunn",
+      "motivo": "Mesmo palácio de Viena, descrições compatíveis."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Mesquita Rosa de Shiraz não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "venus_de_willendorf",
+      "motivo": "Mesma estatueta paleolítica de Willendorf."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "bronzes_de_riace",
+      "motivo": "Mesmo par de estátuas gregas de Riace."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "A candidata Central do Brasil é o filme, não a estação."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_praga",
+      "motivo": "Mesmo complexo do castelo de Praga."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "hawa_mahal",
+      "motivo": "Mesmo palácio em Jaipur."
+    }
+  ]
+}

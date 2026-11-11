@@ -1,0 +1,118 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica este palácio barroco?",
+        "resposta": "Viena"
+      },
+      "existentes": [
+        {
+          "id": "q14608",
+          "pergunta": "Que dinastia imperial tinha este palácio barroco como principal residência de verão?",
+          "resposta": "Habsburgo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que estatueta pré-histórica é esta?",
+        "resposta": "Vênus de Willendorf"
+      },
+      "existentes": [
+        {
+          "id": "q03119",
+          "pergunta": "A Vênus de Willendorf, pequena estatueta de mulher com cerca de trinta mil anos, foi encontrada em que país?",
+          "resposta": "Áustria"
+        },
+        {
+          "id": "q14206",
+          "pergunta": "A Vênus de Willendorf, estatueta paleolítica que aparece em tantos livros de arte, tem cerca de que altura?",
+          "resposta": "Onze centímetros"
+        },
+        {
+          "id": "q15065",
+          "pergunta": "Que estatueta paleolítica de calcário é esta?",
+          "resposta": "Vênus de Willendorf"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que par de estátuas gregas de bronze é este?",
+        "resposta": "Bronzes de Riace"
+      },
+      "existentes": [
+        {
+          "id": "q09537",
+          "pergunta": "Em 1972, um mergulhador achou no mar duas grandes estátuas gregas de guerreiros em bronze, do século cinco antes de Cristo. Em que país?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que complexo histórico europeu, com uma catedral gótica, é este?",
+        "resposta": "Castelo de Praga"
+      },
+      "existentes": [
+        {
+          "id": "q08997",
+          "pergunta": "Em que cidade europeia fica o castelo no centro desta vista aérea?",
+          "resposta": "Praga"
+        },
+        {
+          "id": "q19419",
+          "pergunta": "Que catedral gótica fica dentro deste complexo?",
+          "resposta": "Catedral de São Vito"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que nome, em português, se dá a este palácio indiano de arenito rosa?",
+        "resposta": "Palácio dos Ventos"
+      },
+      "existentes": [
+        {
+          "id": "q17582",
+          "pergunta": "Em que cidade indiana fica este palácio?",
+          "resposta": "Jaipur"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade do palácio é fato diferente da dinastia que o usava como residência de verão."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q15065",
+      "motivo": "Ambas pedem a identificação da estatueta como Vênus de Willendorf a partir da imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o par de estátuas é diferente de perguntar o país onde foram achadas."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q08997",
+      "motivo": "Ambas pedem a identificação do complexo/castelo de Praga pela imagem; a cidade Praga e o Castelo de Praga são essencialmente a mesma resposta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nome do palácio é diferente da cidade onde fica."
+    }
+  ]
+}
