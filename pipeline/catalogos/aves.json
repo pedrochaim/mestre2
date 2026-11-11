@@ -1062,7 +1062,7 @@
       "titulo": "en:Brown booby",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Abelharuco-europeu",
@@ -1223,7 +1223,7 @@
       "titulo": "en:Striated heron",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Savacu",
@@ -1258,7 +1258,7 @@
       "titulo": "en:American kestrel",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estorninho-comum",
@@ -1286,7 +1286,7 @@
       "titulo": "en:Lilac-breasted roller",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cacatua-negra",
@@ -1356,7 +1356,7 @@
       "titulo": "en:Red-ruffed fruitcrow",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Saíra-militar",
@@ -1377,7 +1377,7 @@
       "titulo": "en:Rusty-margined guan",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mocho-galego",
@@ -1396,6 +1396,286 @@
     {
       "nome": "Rendeira",
       "titulo": "en:White-bearded manakin",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pato-de-pequim",
+      "titulo": "en:American Pekin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pinguim-rei",
+      "titulo": "en:King penguin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pica-pau-de-topete-vermelho",
+      "titulo": "en:Pileated woodpecker",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Calau-rinoceronte",
+      "titulo": "en:Rhinoceros hornbill",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jandaia-amarela",
+      "titulo": "en:Sun parakeet",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Galinha-sedosa",
+      "titulo": "en:Silkie",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bufo-real",
+      "titulo": "en:Eurasian eagle-owl",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pinguim-africano",
+      "titulo": "en:African penguin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bicudo",
+      "titulo": "en:Great-billed seed finch",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pombo-leque",
+      "titulo": "en:Fantail pigeon",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cacatua-das-palmeiras",
+      "titulo": "en:Palm cockatoo",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Japim",
+      "titulo": "en:Yellow-rumped cacique",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arara-militar",
+      "titulo": "en:Military macaw",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Condor-da-califórnia",
+      "titulo": "en:California condor",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Águia-filipina",
+      "titulo": "en:Philippine eagle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Melro",
+      "titulo": "en:Common blackbird",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mainá",
+      "titulo": "en:Common hill myna",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rosela",
+      "titulo": "en:Eastern rosella",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Manon",
+      "titulo": "en:Society finch",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pica-pau-de-cabeça-vermelha",
+      "titulo": "en:Red-headed woodpecker",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pássaro-martelo",
+      "titulo": "en:Hamerkop",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alfaiate",
+      "titulo": "en:Pied avocet",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pavão-verde",
+      "titulo": "en:Green peafowl",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Faisão-prateado",
+      "titulo": "en:Silver pheasant",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Mergulhão-de-crista",
+      "titulo": "en:Great crested grebe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gavião-asa-de-telha",
+      "titulo": "en:Harris's hawk",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pica-pau-bico-de-marfim",
+      "titulo": "en:Ivory-billed woodpecker",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pato-arlequim",
+      "titulo": "en:Harlequin duck",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Faisão-de-lady-amherst",
+      "titulo": "en:Lady Amherst's pheasant",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tragopã-de-temminck",
+      "titulo": "en:Temminck's tragopan",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pássaro-cetim",
+      "titulo": "en:Satin bowerbird",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ave-do-paraíso-de-wilson",
+      "titulo": "en:Wilson's bird-of-paradise",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Piru-piru",
+      "titulo": "en:American oystercatcher",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gaturamo-verdadeiro",
+      "titulo": "en:Violaceous euphonia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapim-real",
+      "titulo": "en:Great tit",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pica-pau-malhado-grande",
+      "titulo": "en:Great spotted woodpecker",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gralha-do-campo",
+      "titulo": "en:Curl-crested jay",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guaxe",
+      "titulo": "en:Red-rumped cacique",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gaio-comum",
+      "titulo": "en:Eurasian jay",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Águia-marcial",
+      "titulo": "en:Martial eagle",
       "camada": 3,
       "destino": 0,
       "status": "nova"

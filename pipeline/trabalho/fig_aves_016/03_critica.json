@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado e resposta corretos. O distrator 'Pombo-acrobata' não é um nome consagrado de raça (o termo usual é pombo-rolador), então foi trocado por uma raça real e visualmente distinta.",
+      "reescrita": {
+        "pergunta": "Que raça de pombo doméstico é esta?",
+        "resposta": "Pombo-leque",
+        "distratores": [
+          "Pombo-correio",
+          "Pombo-papo-de-vento",
+          "Pombo-capuchinho"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Floresta montanhosa e distribuição asiática estão no trecho, e 'em estado natural' exclui as populações introduzidas. O enunciado não entrega a espécie e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. 'Pequena ave de rapina' é verdadeiro e não identifica sozinho. Resposta específica e única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples. Os distratores são outros chapins e nenhum descreve a imagem (peito amarelo e bochechas brancas).",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro e sem vazamento. Resposta é o nome vernáculo técnico em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são outros atobás, do mesmo tipo e críveis. Nenhum descreve a imagem, que tem ventre branco e pés amarelos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Psitacídeo confirmado. O enunciado não vaza a resposta e a figura é necessária para reconhecer a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Savana africana e plumagem colorida estão corretas. Os distratores são outros rolieiros que a imagem distingue.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Aves canoras' é impreciso: o trecho diz 'one of the largest passerines in South America', e os cotingídeos não são aves canoras no sentido estrito. Reescrito com 'passeriformes', como no trecho.",
+      "reescrita": {
+        "pergunta": "Esta ave de floresta é um dos maiores passeriformes do continente onde vive. Em qual continente ela vive?",
+        "resposta": "América do Sul",
+        "distratores": []
+      }
+    }
+  ]
+}

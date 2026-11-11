@@ -1,0 +1,577 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pombo-leque",
+        "descricao": "Raça de pombo doméstico de cauda aberta em leque, com 30 a 40 penas.",
+        "variantes": [
+          "Pombo-de-leque",
+          "Pombo-pavão",
+          "Fantail"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fanta",
+          "nome": "Fanta",
+          "descricao": "Refrigerante criado na Alemanha em 1940 pela filial alemã da Coca-Cola.",
+          "variantes": []
+        },
+        {
+          "id": "pombo_passageiro",
+          "nome": "Pombo-passageiro",
+          "descricao": "Pombo norte-americano (Ectopistes migratorius) que formava bandos de bilhões e foi extinto pela caça.",
+          "variantes": [
+            "Pomba-passageira",
+            "Ectopistes migratorius"
+          ]
+        },
+        {
+          "id": "pe_de_moleque",
+          "nome": "Pé de moleque",
+          "descricao": "Doce brasileiro de amendoim torrado com rapadura ou açúcar caramelizado.",
+          "variantes": []
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "dolmen",
+          "nome": "Dólmen",
+          "descricao": "Monumento megalítico formado por pedras verticais que sustentam uma laje horizontal.",
+          "variantes": [
+            "Anta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Faisão-prateado",
+        "descricao": "Faisão (Lophura nycthemera) de macho preto e branco com face vermelha, nativo do Sudeste Asiático e da China.",
+        "variantes": [
+          "Silver pheasant",
+          "Lophura nycthemera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "faisao_dourado",
+          "nome": "Faisão-dourado",
+          "descricao": "Faisão colorido (Chrysolophus pictus), originário das montanhas da China.",
+          "variantes": [
+            "Chrysolophus pictus",
+            "Golden pheasant"
+          ]
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "silvio_santos",
+          "nome": "Silvio Santos",
+          "descricao": "Apresentador e empresário brasileiro, fundador e dono do SBT.",
+          "variantes": [
+            "Senor Abravanel"
+          ]
+        },
+        {
+          "id": "flechas_de_prata",
+          "nome": "Flechas de Prata",
+          "descricao": "Apelido dos carros de corrida prateados da Mercedes-Benz e da Auto Union nos Grandes Prêmios dos anos trinta, depois estendido aos carros da Mercedes.",
+          "variantes": [
+            "Silver Arrows",
+            "Silberpfeile"
+          ]
+        },
+        {
+          "id": "grauna_2",
+          "nome": "Graúna",
+          "descricao": "Ave de plumagem preta brilhante e bico cinza (Gnorimopsar chopi), do centro-sul da América do Sul.",
+          "variantes": [
+            "Sargento-chopi",
+            "Chopi blackbird",
+            "Gnorimopsar chopi",
+            "Pássaro-preto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Quiriquiri",
+        "descricao": "Menor e mais comum falcão das Américas (Falco sparverius).",
+        "variantes": [
+          "Falcão-americano",
+          "American kestrel",
+          "Falco sparverius"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "aligator",
+          "nome": "Aligátor",
+          "descricao": "Gênero de crocodilianos (Alligator) que inclui o aligátor-americano e o aligátor-chinês.",
+          "variantes": [
+            "Alligator",
+            "Jacaré-americano",
+            "Aligátor-americano"
+          ]
+        },
+        {
+          "id": "aligator_americano",
+          "nome": "Aligátor-americano",
+          "descricao": "Grande crocodiliano (Alligator mississippiensis) dos pântanos do sudeste dos Estados Unidos.",
+          "variantes": [
+            "Alligator mississippiensis",
+            "Jacaré-americano",
+            "American alligator"
+          ]
+        },
+        {
+          "id": "america_s_cup",
+          "nome": "America's Cup",
+          "descricao": "Troféu e competição de regatas de vela disputados desde 1851.",
+          "variantes": [
+            "Copa América de vela",
+            "Taça América"
+          ]
+        },
+        {
+          "id": "futebol_americano",
+          "nome": "Futebol americano",
+          "descricao": "Esporte coletivo de contato jogado com bola oval em campo com traves e linhas de jardas.",
+          "variantes": [
+            "Gridiron",
+            "Football americano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Chapim-real",
+        "descricao": "Pequena ave (Parus major) de cabeça preta, bochechas brancas e peito amarelo, comum na Europa e Ásia.",
+        "variantes": [
+          "Great tit",
+          "Parus major"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapim_azul",
+          "nome": "Chapim-azul",
+          "descricao": "Pequena ave europeia da família Paridae, de plumagem azul e amarela, Cyanistes caeruleus.",
+          "variantes": [
+            "Eurasian blue tit",
+            "Cyanistes caeruleus"
+          ]
+        },
+        {
+          "id": "grande_fedor",
+          "nome": "Grande Fedor",
+          "descricao": "Episódio do verão de 1858 em que o mau cheiro do rio Tâmisa, poluído por esgoto, tomou conta de Londres.",
+          "variantes": [
+            "Great Stink",
+            "Grande Mau Cheiro"
+          ]
+        },
+        {
+          "id": "beat_it",
+          "nome": "Beat It",
+          "descricao": "Canção de Michael Jackson do álbum Thriller, lançada como single em 1983",
+          "variantes": []
+        },
+        {
+          "id": "great_tusk",
+          "nome": "Great Tusk",
+          "descricao": "Pokémon dos tipos Terrestre e Lutador, número 984 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "grande_banho_de_mohenjo_daro",
+          "nome": "Grande Banho de Mohenjo-daro",
+          "descricao": "Grande tanque de tijolos da cidade de Mohenjo-daro, da civilização do Vale do Indo, provavelmente usado em rituais de purificação.",
+          "variantes": [
+            "Grande Banho",
+            "Great Bath"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Socozinho",
+        "descricao": "Pequena garça (Butorides striata) de boné preto e dorso cinza-esverdeado.",
+        "variantes": [
+          "Striated heron",
+          "Butorides striata",
+          "Garça-pequena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mocho_galego",
+          "nome": "Mocho-galego",
+          "descricao": "Pequena coruja (Athene noctua) da Europa, Ásia e norte da África, ligada à deusa Atena.",
+          "variantes": [
+            "Little owl",
+            "Athene noctua",
+            "Coruja-pequena"
+          ]
+        },
+        {
+          "id": "philippe_coutinho",
+          "nome": "Philippe Coutinho",
+          "descricao": "Meia brasileiro, ex-Vasco, Liverpool e Barcelona.",
+          "variantes": [
+            "Coutinho"
+          ]
+        },
+        {
+          "id": "triatlo",
+          "nome": "Triatlo",
+          "descricao": "Esporte olímpico que combina natação, ciclismo e corrida, disputados em sequência.",
+          "variantes": [
+            "Triathlon"
+          ]
+        },
+        {
+          "id": "garca_real",
+          "nome": "Garça-real",
+          "descricao": "Garça branca de boné preto e bico azul-claro (Pilherodius pileatus), do neotrópico.",
+          "variantes": [
+            "Pilherodius pileatus",
+            "Capped heron"
+          ]
+        },
+        {
+          "id": "paula_pequeno",
+          "nome": "Paula Pequeno",
+          "descricao": "Ponteira brasileira de vôlei, bicampeã olímpica em Pequim 2008 e Londres 2012.",
+          "variantes": [
+            "Paula Renata Marques Pequeno"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Atobá-marrom",
+        "descricao": "Ave marinha (Sula leucogaster) de dorso marrom e ventre branco, com pés amarelos.",
+        "variantes": [
+          "Atobá-pardo",
+          "Brown booby",
+          "Sula leucogaster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ratazana",
+          "nome": "Ratazana",
+          "descricao": "Roedor da espécie Rattus norvegicus, também chamado rato-marrom, comum em áreas urbanas do mundo todo.",
+          "variantes": [
+            "Rato-marrom",
+            "Rattus norvegicus",
+            "Rato-de-esgoto"
+          ]
+        },
+        {
+          "id": "aranha_marrom",
+          "nome": "Aranha-marrom",
+          "descricao": "Aranhas do gênero Loxosceles, de veneno que causa necrose na pele, com uma mancha escura no dorso.",
+          "variantes": [
+            "Loxosceles",
+            "Aranha-reclusa"
+          ]
+        },
+        {
+          "id": "urso_pardo",
+          "nome": "Urso-pardo",
+          "descricao": "Grande urso (Ursus arctos) de pelagem marrom, nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Urso-marrom",
+            "Grizzly",
+            "Ursus arctos"
+          ]
+        },
+        {
+          "id": "onibus",
+          "nome": "Ônibus",
+          "descricao": "Veículo rodoviário de grande porte para o transporte coletivo de passageiros.",
+          "variantes": [
+            "Autocarro",
+            "Omnibus"
+          ]
+        },
+        {
+          "id": "william_shakespeare",
+          "nome": "William Shakespeare",
+          "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+          "variantes": [
+            "Shakespeare",
+            "O Bardo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Jandaia-amarela",
+        "descricao": "Periquito (Aratinga solstitialis) de plumagem dourada e laranja, nativo do nordeste da América do Sul.",
+        "variantes": [
+          "Periquito-sol",
+          "Sun conure",
+          "Aratinga solstitialis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "periquito_australiano",
+          "nome": "Periquito-australiano",
+          "descricao": "Melopsittacus undulatus, pequeno papagaio australiano de cauda longa, popular como ave de estimação.",
+          "variantes": [
+            "Budgerigar",
+            "Periquito-comum",
+            "Melopsittacus undulatus"
+          ]
+        },
+        {
+          "id": "periquito_de_colar",
+          "nome": "Periquito-de-colar",
+          "descricao": "Periquito verde de cauda longa (Psittacula krameri), nativo da África e do subcontinente indiano e introduzido em muitos países.",
+          "variantes": [
+            "Periquito-de-colar-rosado",
+            "Rose-ringed parakeet",
+            "Psittacula krameri"
+          ]
+        },
+        {
+          "id": "a_casa_amarela",
+          "nome": "A Casa Amarela",
+          "descricao": "Pintura de 1888 de Vincent van Gogh que mostra a casa onde ele alugou quartos na Place Lamartine, em Arles.",
+          "variantes": [
+            "A Casa Amarela (Van Gogh)",
+            "The Yellow House",
+            "A Rua",
+            "Het gele huis"
+          ]
+        },
+        {
+          "id": "nespera",
+          "nome": "Nêspera",
+          "descricao": "Fruto amarelo-alaranjado da nespereira (Eriobotrya japonica), originária da China.",
+          "variantes": [
+            "Ameixa-amarela",
+            "Eriobotrya japonica"
+          ]
+        },
+        {
+          "id": "coral_sol",
+          "nome": "Coral-sol",
+          "descricao": "Coral invasor do gênero Tubastraea, nativo do Indo-Pacífico, que se espalhou pelo litoral brasileiro.",
+          "variantes": [
+            "Tubastraea coccinea",
+            "Sun coral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Rolieiro-de-peito-lilás",
+        "descricao": "Ave africana (Coracias caudatus) de peito lilás e corpo azul-turquesa, da família dos rolieiros.",
+        "variantes": [
+          "Lilac-breasted roller",
+          "Coracias caudatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urubu_de_cabeca_preta",
+          "nome": "Urubu-de-cabeça-preta",
+          "descricao": "Ave necrófaga das Américas (Coragyps atratus), toda preta e de cabeça nua cinza-escura, comum nas cidades brasileiras.",
+          "variantes": [
+            "Urubu",
+            "Urubu-comum",
+            "Coragyps atratus"
+          ]
+        },
+        {
+          "id": "flor_de_maio",
+          "nome": "Flor-de-maio",
+          "descricao": "Cacto epífito do gênero Schlumbergera, nativo da Mata Atlântica do Sudeste brasileiro",
+          "variantes": [
+            "Schlumbergera",
+            "Cacto-de-natal",
+            "Christmas cactus"
+          ]
+        },
+        {
+          "id": "cobras_e_escadas",
+          "nome": "Cobras e escadas",
+          "descricao": "Jogo de tabuleiro de corrida com dados, de origem indiana, em que escadas fazem subir e cobras fazem descer.",
+          "variantes": [
+            "Snakes and ladders",
+            "Moksha Patam"
+          ]
+        },
+        {
+          "id": "livro_de_kells",
+          "nome": "Livro de Kells",
+          "descricao": "Manuscrito iluminado celta dos quatro Evangelhos, criado por volta do ano 800 e hoje na biblioteca do Trinity College, em Dublin.",
+          "variantes": [
+            "Book of Kells",
+            "Codex Cenannensis"
+          ]
+        },
+        {
+          "id": "tubarao_mangona",
+          "nome": "Tubarão-mangona",
+          "descricao": "Tubarão Carcharias taurus, de focinho pontudo e dentes salientes, que vive em águas costeiras subtropicais e temperadas.",
+          "variantes": [
+            "Carcharias taurus",
+            "Sand tiger shark",
+            "Tubarão-lixa-de-dentes-grandes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Pavó",
+        "descricao": "Grande ave de floresta (Pyroderus scutatus), preta com garganta vermelha, da família Cotingidae.",
+        "variantes": [
+          "Red-ruffed fruitcrow",
+          "Pyroderus scutatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "ivan_pavlov",
+          "nome": "Ivan Pavlov",
+          "descricao": "Fisiologista russo, descobridor do condicionamento clássico e Nobel de Fisiologia ou Medicina de 1904.",
+          "variantes": [
+            "Ivan Petrovich Pavlov",
+            "Pavlov"
+          ]
+        },
+        {
+          "id": "piao",
+          "nome": "Pião",
+          "descricao": "Brinquedo de madeira com ponta metálica que gira sobre o próprio eixo, lançado com cordão.",
+          "variantes": [
+            "Carrapeta",
+            "Peão"
+          ]
+        },
+        {
+          "id": "peao_xadrez",
+          "nome": "Peão (xadrez)",
+          "descricao": "Peça mais numerosa do xadrez, oito para cada lado, que avança para a frente e captura na diagonal.",
+          "variantes": [
+            "Peão"
+          ]
+        },
+        {
+          "id": "avon",
+          "nome": "Avon",
+          "descricao": "Empresa de cosméticos de venda direta fundada em Nova York em 1886 por David McConnell.",
+          "variantes": [
+            "Avon Products",
+            "California Perfume Company"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Raça de pombo doméstico; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Faisão-prateado é espécie distinta do faisão-dourado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Quiriquiri (falcão) não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Chapim-real (Parus major) é espécie diferente do chapim-azul."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Socozinho é outra espécie, diferente da garça-real (Pilherodius)."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Atobá-marrom, ave marinha, não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Jandaia-amarela não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Rolieiro-de-peito-lilás não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pavó (Pyroderus scutatus) é espécie diferente do pavão."
+    }
+  ]
+}

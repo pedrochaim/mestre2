@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de pombos-leque com a cauda aberta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que raça de pombo doméstico é esta?",
+      "resposta": "Pombo-leque",
+      "distratores": [
+        "Pombo-correio",
+        "Pombo-papo-de-vento",
+        "Pombo-acrobata"
+      ],
+      "ancora": {
+        "nome": "Pombo-leque",
+        "descricao": "Raça de pombo doméstico de cauda aberta em leque, com 30 a 40 penas.",
+        "variantes": [
+          "Pombo-de-leque",
+          "Pombo-pavão",
+          "Fantail"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Casal nítido de faisão-prateado, macho e fêmea reconhecíveis.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que continente vive, em estado natural, esta ave de floresta montanhosa?",
+      "resposta": "Ásia",
+      "ancora": {
+        "nome": "Faisão-prateado",
+        "descricao": "Faisão (Lophura nycthemera) de macho preto e branco com face vermelha, nativo do Sudeste Asiático e da China.",
+        "variantes": [
+          "Silver pheasant",
+          "Lophura nycthemera"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Ave escura de garganta vermelha muito parecida com o jacuaçu e outros jacus; resposta não é única pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A coruja está camuflada e escondida entre galhos densos; pouco legível no celular."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Macho de quiriquiri nítido, com plumagem característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que pequena ave de rapina é esta?",
+      "resposta": "Quiriquiri",
+      "ancora": {
+        "nome": "Quiriquiri",
+        "descricao": "Menor e mais comum falcão das Américas (Falco sparverius).",
+        "variantes": [
+          "Falcão-americano",
+          "American kestrel",
+          "Falco sparverius"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível do chapim-real.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave é esta?",
+      "resposta": "Chapim-real",
+      "distratores": [
+        "Chapim-azul",
+        "Chapim-carvoeiro",
+        "Chapim-de-poupa"
+      ],
+      "ancora": {
+        "nome": "Chapim-real",
+        "descricao": "Pequena ave (Parus major) de cabeça preta, bochechas brancas e peito amarelo, comum na Europa e Ásia.",
+        "variantes": [
+          "Great tit",
+          "Parus major"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Duas aves em voo, borradas e vistas por baixo; plumagem característica não se reconhece."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto clara do socozinho caçando na grama.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que pequena garça é esta?",
+      "resposta": "Socozinho",
+      "ancora": {
+        "nome": "Socozinho",
+        "descricao": "Pequena garça (Butorides striata) de boné preto e dorso cinza-esverdeado.",
+        "variantes": [
+          "Striated heron",
+          "Butorides striata",
+          "Garça-pequena"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de atobá-marrom em pé na areia.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave marinha é esta?",
+      "resposta": "Atobá-marrom",
+      "distratores": [
+        "Atobá-de-pé-vermelho",
+        "Atobá-grande",
+        "Atobá-de-pé-azul"
+      ],
+      "ancora": {
+        "nome": "Atobá-marrom",
+        "descricao": "Ave marinha (Sula leucogaster) de dorso marrom e ventre branco, com pés amarelos.",
+        "variantes": [
+          "Atobá-pardo",
+          "Brown booby",
+          "Sula leucogaster"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Par de jandaias-amarelas nítido e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ave da família dos papagaios é esta?",
+      "resposta": "Jandaia-amarela",
+      "ancora": {
+        "nome": "Jandaia-amarela",
+        "descricao": "Periquito (Aratinga solstitialis) de plumagem dourada e laranja, nativo do nordeste da América do Sul.",
+        "variantes": [
+          "Periquito-sol",
+          "Sun conure",
+          "Aratinga solstitialis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida do rolieiro-de-peito-lilás.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave colorida da savana africana é esta?",
+      "resposta": "Rolieiro-de-peito-lilás",
+      "distratores": [
+        "Rolieiro-europeu",
+        "Rolieiro-abissínio",
+        "Rolieiro-de-cauda-raquete"
+      ],
+      "ancora": {
+        "nome": "Rolieiro-de-peito-lilás",
+        "descricao": "Ave africana (Coracias caudatus) de peito lilás e corpo azul-turquesa, da família dos rolieiros.",
+        "variantes": [
+          "Lilac-breasted roller",
+          "Coracias caudatus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ave preta de garganta vermelha nítida, reconhecível como pavó.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Esta ave é uma das maiores aves canoras do seu continente. Em qual continente ela vive?",
+      "resposta": "América do Sul",
+      "ancora": {
+        "nome": "Pavó",
+        "descricao": "Grande ave de floresta (Pyroderus scutatus), preta com garganta vermelha, da família Cotingidae.",
+        "variantes": [
+          "Red-ruffed fruitcrow",
+          "Pyroderus scutatus"
+        ]
+      }
+    }
+  ]
+}
