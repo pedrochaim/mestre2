@@ -411299,5 +411299,89 @@
       "licenca": "CC0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q20701",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "bumbo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento de percussão é este?",
+    "resposta": "Bumbo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bass_drum",
+      "https://pt.wikipedia.org/wiki/Bumbo"
+    ],
+    "imagem": {
+      "arquivo": "q20701.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mounted_concert_bass_drum.jpg",
+      "autor": "Yooperz",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20702",
+    "tema": "Entretenimento",
+    "subtema": "Música Brasileira",
+    "ancora": "sanfona_de_oito_baixos",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que acordeão de botões, tocado no forró pé-de-serra, é este?",
+    "resposta": "Sanfona de oito baixos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Diatonic_button_accordion"
+    ],
+    "imagem": {
+      "arquivo": "q20702.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Accordéon_diatonique.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20703",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "conga",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento de percussão, tocado com as mãos, é este?",
+    "resposta": "Conga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Conga",
+      "https://pt.wikipedia.org/wiki/Conga_%28instrumento_musical%29"
+    ],
+    "imagem": {
+      "arquivo": "q20703.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2006-06-03_Congas1.JPG",
+      "autor": "Stephan Czuratis (Jazz-face at de.wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20704",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "taiko",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tambores, tocados em grupo com grandes baquetas, são estes?",
+    "resposta": "Taiko",
+    "distratores": [
+      "Dhol",
+      "Janggu",
+      "Bombo legüero"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taiko",
+      "https://pt.wikipedia.org/wiki/Taiko"
+    ],
+    "imagem": {
+      "arquivo": "q20704.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:煮渕.jpg",
+      "autor": "Ohno.A",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

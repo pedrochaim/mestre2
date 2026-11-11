@@ -1,0 +1,127 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O nome 'Etch A Sketch' aparece escrito na moldura do brinquedo e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "As marcas 'NOKIA' e 'N-GAGE' estão visíveis no aparelho e entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Mostra mãos de pessoas comuns em primeiro plano e cartas com texto. O jogo da memória não fica claro."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Montagem de várias cartas com a palavra 'BARAJA' escrita. Os baralhos português e italiano têm naipes e figuras parecidos, então a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O nome 'moog' está escrito nos equipamentos, e há uma pessoa em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bumbo de orquestra bem visível. A marca Yamaha não entrega a resposta, e as pessoas ao fundo são pequenas e desfocadas.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Bumbo",
+      "ancora": {
+        "nome": "Bumbo",
+        "descricao": "Grande tambor de som grave, usado em orquestras e bandas.",
+        "variantes": [
+          "Bombo",
+          "Bumbo sinfônico",
+          "Bass drum"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É só um cilindro de madeira ou cacto, sem nada que o identifique como pau de chuva. Não dá para reconhecer o instrumento pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Acordeão diatônico de botões, com duas fileiras na melodia e oito botões de baixo. A marca Hohner não entrega o tipo.",
+      "nivel": 1,
+      "familia": "que_tipo",
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que tipo de acordeão, de botões e com poucos baixos, é este, comum no forró pé-de-serra?",
+      "resposta": "Sanfona de oito baixos",
+      "ancora": {
+        "nome": "Sanfona de oito baixos",
+        "descricao": "Acordeão diatônico de botões com oito baixos, usado na música regional brasileira.",
+        "variantes": [
+          "Gaita de oito baixos",
+          "Acordeão diatônico",
+          "Fole de oito baixos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "'Game Boy Advance SP' está escrito na moldura da tela e entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O tambor metálico pode ser surdo, caixa ou repique, então a resposta não é única. A marca também aparece escrita na pele."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Par de congas bem visível, sem texto que entregue a resposta (a marca é ilegível).",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que instrumento de percussão, tocado com as mãos, é este?",
+      "resposta": "Conga",
+      "ancora": {
+        "nome": "Conga",
+        "descricao": "Tambor alto e estreito, de origem cubana, tocado com as mãos.",
+        "variantes": [
+          "Tumbadora",
+          "Congas"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Conjunto de tambores taiko em apresentação pública no palco, sem texto. Os tambores são reconhecíveis.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tambores, tocados em grupo com grandes baquetas, são estes?",
+      "resposta": "Taiko",
+      "distratores": [
+        "Dhol",
+        "Janggu",
+        "Bombo legüero"
+      ],
+      "ancora": {
+        "nome": "Taiko",
+        "descricao": "Família de tambores japoneses, tocados em conjuntos chamados kumi-daiko.",
+        "variantes": [
+          "Wadaiko",
+          "Tambores taiko"
+        ]
+      }
+    }
+  ]
+}

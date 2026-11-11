@@ -244632,5 +244632,58 @@
       "pt": 522,
       "en": 16640
     }
+  },
+  {
+    "id": "bumbo",
+    "nome": "Bumbo",
+    "descricao": "Grande tambor de som grave, usado em orquestras e bandas.",
+    "variantes": [
+      "Bombo",
+      "Bumbo sinfônico",
+      "Bass drum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bass_drum",
+      "https://pt.wikipedia.org/wiki/Bumbo"
+    ]
+  },
+  {
+    "id": "sanfona_de_oito_baixos",
+    "nome": "Sanfona de oito baixos",
+    "descricao": "Acordeão diatônico de botões com oito baixos, usado na música regional brasileira.",
+    "variantes": [
+      "Gaita de oito baixos",
+      "Acordeão diatônico",
+      "Fole de oito baixos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Diatonic_button_accordion"
+    ]
+  },
+  {
+    "id": "conga",
+    "nome": "Conga",
+    "descricao": "Tambor alto e estreito, de origem cubana, tocado com as mãos.",
+    "variantes": [
+      "Tumbadora",
+      "Congas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Conga",
+      "https://pt.wikipedia.org/wiki/Conga_%28instrumento_musical%29"
+    ]
+  },
+  {
+    "id": "taiko",
+    "nome": "Taiko",
+    "descricao": "Família de tambores japoneses, tocados em conjuntos chamados kumi-daiko.",
+    "variantes": [
+      "Wadaiko",
+      "Tambores taiko"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Taiko",
+      "https://pt.wikipedia.org/wiki/Taiko"
+    ]
   }
 ]

@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem pista nem vazamento. Os trechos confirmam que o bumbo é um tambor grande de som grave.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá a pista \"poucos baixos\", e a resposta traz a palavra \"baixos\". Isso vaza a resposta. Além disso, \"acordeão diatônico\" seria uma resposta defensável numa pergunta aberta. Reescrita como múltipla escolha, sem a pista, com distratores de outros foles.",
+      "reescrita": {
+        "pergunta": "Que acordeão de botões, tocado no forró pé-de-serra, é este?",
+        "resposta": "Sanfona de oito baixos",
+        "distratores": [
+          "Acordeão de piano",
+          "Bandoneon",
+          "Concertina inglesa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples. \"Tocado com as mãos\" não entrega a resposta, porque vale para vários tambores. Os trechos confirmam que a conga é um tambor alto e estreito.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a resposta. Os distratores são tambores de outras tradições, com até 4 palavras, e nenhum descreve a imagem. Os trechos confirmam o taiko como tambores japoneses tocados em conjunto (kumi-daiko).",
+      "reescrita": null
+    }
+  ]
+}
