@@ -1,0 +1,165 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea clara; só os assentos com 'Eagles' sugerem o clube, sem dar o nome do estádio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estádio de Londres é este?",
+      "resposta": "Selhurst Park",
+      "distratores": [
+        "Craven Cottage",
+        "Loftus Road",
+        "Griffin Park"
+      ],
+      "ancora": {
+        "nome": "Selhurst Park",
+        "descricao": "Estádio de futebol em Croydon, Londres, casa do Crystal Palace, inaugurado em 1924.",
+        "variantes": [
+          "Selhurst Park Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Estádio inteiro visível, sem nome escrito; só faixas de torcida em italiano. Pergunta pela cidade.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade italiana fica este estádio?",
+      "resposta": "Palermo",
+      "distratores": [
+        "Catânia",
+        "Bari",
+        "Nápoles"
+      ],
+      "ancora": {
+        "nome": "Stadio Renzo Barbera",
+        "descricao": "Estádio de futebol de Palermo, na Itália, casa do Palermo FC, conhecido como La Favorita.",
+        "variantes": [
+          "La Favorita",
+          "Estádio Renzo Barbera",
+          "Stadio Michele Marrone"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O nome 'Raymond James Stadium' aparece escrito nos telhados da vista aérea e entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Campo de beisebol com o Gateway Arch ao fundo; imagem clara e o nome do estádio quase ilegível no celular.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que estádio de beisebol é este?",
+      "resposta": "Busch Stadium",
+      "distratores": [],
+      "ancora": {
+        "nome": "Busch Stadium",
+        "descricao": "Estádio de beisebol de St. Louis, Missouri, casa do St. Louis Cardinals, inaugurado em 2006.",
+        "variantes": [
+          "Busch Stadium III",
+          "New Busch Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estádio com pista de atletismo e sem texto que entregue a resposta; pergunta de nível 3 sobre a competição que o usa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que tradicional reunião de atletismo da Diamond League acontece neste estádio desde 1928?",
+      "resposta": "Weltklasse Zürich",
+      "distratores": [],
+      "ancora": {
+        "nome": "Letzigrund",
+        "descricao": "Estádio de Zurique, na Suíça, com pista de atletismo, casa de FC Zürich e Grasshopper e sede do Weltklasse Zürich.",
+        "variantes": [
+          "Estádio Letzigrund"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida, sem texto. Pergunta de nível 3 pelo clube mandante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+      "resposta": "Dinamo Zagreb",
+      "distratores": [
+        "Hajduk Split",
+        "Estrela Vermelha",
+        "Partizan"
+      ],
+      "ancora": {
+        "nome": "Estádio Maksimir",
+        "descricao": "Estádio multiúso de Zagreb, na Croácia, casa do Dinamo Zagreb, inaugurado em 1912.",
+        "variantes": [
+          "Stadion Maksimir",
+          "Maksimir Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "'Sunderland A.F.C.' aparece escrito na arquibancada e entrega o clube e, portanto, o estádio."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Panorama com torcedores (pessoas comuns) em primeiro plano."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A legenda da litografia traz 'place de l'hyppodrome' e 'mosquée de Sultan-Ahmed', o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A arquibancada traz o nome 'WOLVES' e o lobo do clube, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Multidão de torcedores (pessoas comuns) em primeiro plano; estádio pouco reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arquibancada com a palavra 'Carnegie', que não entrega o nome do estádio; sem pessoas em destaque.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que estádio inglês, que também abriga críquete, é este?",
+      "resposta": "Headingley",
+      "distratores": [],
+      "ancora": {
+        "nome": "Headingley",
+        "descricao": "Complexo esportivo de Leeds, na Inglaterra, com o campo de críquete do Yorkshire e o estádio de rúgbi do Leeds Rhinos.",
+        "variantes": [
+          "Headingley Stadium",
+          "Headingley Carnegie Stadium"
+        ]
+      }
+    }
+  ]
+}

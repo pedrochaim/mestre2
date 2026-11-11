@@ -1,0 +1,50 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Selhurst Park fica em Croydon, Londres. Os distratores são outros estádios londrinos, críveis, e nenhum deles é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Renzo Barbera fica em Palermo. O enunciado não vaza a resposta, e os distratores são cidades italianas, críveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto. O enunciado não vaza a resposta, e a figura mostra o Busch Stadium atual, casa dos Cardinals.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro, mas \"desde 1928\" é um feito único que permite responder sem olhar a figura. Tirando a data, a imagem passa a ser necessária.",
+      "reescrita": {
+        "pergunta": "Que tradicional reunião de atletismo da Diamond League acontece neste estádio?",
+        "resposta": "Weltklasse Zürich",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Dinamo Zagreb manda seus jogos no Maksimir. O enunciado não vaza a resposta. Os distratores são clubes do mesmo tipo e região, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Headingley abriga o críquete do Yorkshire e o rúgbi do Leeds Rhinos. A pista \"também abriga críquete\" não identifica sozinha, pois há vários estádios ingleses com críquete, então a figura é necessária.",
+      "reescrita": null
+    }
+  ]
+}
