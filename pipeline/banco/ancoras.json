@@ -24365,7 +24365,8 @@
     "nome": "Brabham",
     "descricao": "Equipe britânica de Fórmula 1 fundada por Jack Brabham e Ron Tauranac, que competiu de 1962 a 1992.",
     "variantes": [
-      "Brabham Racing Organisation"
+      "Brabham Racing Organisation",
+      "Motor Racing Developments"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Brabham"
@@ -149794,7 +149795,8 @@
     "nome": "Scuderia Ferrari",
     "descricao": "Equipe de corrida da Ferrari, fundada por Enzo Ferrari em 1929 e presente na Fórmula 1 desde 1950.",
     "variantes": [
-      "Ferrari (equipe de Fórmula 1)"
+      "Ferrari (equipe de Fórmula 1)",
+      "Ferrari"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Scuderia_Ferrari"
@@ -243383,5 +243385,54 @@
       "pt": 0,
       "en": 1160
     }
+  },
+  {
+    "id": "christian_fittipaldi",
+    "nome": "Christian Fittipaldi",
+    "descricao": "Piloto brasileiro que correu na Fórmula 1 de 1992 a 1994 e depois na Fórmula Indy e em provas de resistência, sobrinho de Emerson Fittipaldi.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Christian_Fittipaldi"
+    ]
+  },
+  {
+    "id": "grande_premio_da_europa_de_1993",
+    "nome": "Grande Prêmio da Europa de 1993",
+    "descricao": "Corrida de Fórmula 1 disputada sob chuva em abril de 1993, vencida por Ayrton Senna depois de uma primeira volta histórica.",
+    "variantes": [
+      "GP da Europa de 1993"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/1993_European_Grand_Prix"
+    ]
+  },
+  {
+    "id": "gilles_villeneuve",
+    "nome": "Gilles Villeneuve",
+    "descricao": "Piloto canadense de Fórmula 1 da Ferrari, morto num treino em 1982, pai do campeão Jacques Villeneuve.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gilles_Villeneuve"
+    ]
+  },
+  {
+    "id": "grande_premio_da_alemanha_de_2010",
+    "nome": "Grande Prêmio da Alemanha de 2010",
+    "descricao": "Corrida de Fórmula 1 em Hockenheim, em 2010, em que Felipe Massa cedeu a liderança ao companheiro de Ferrari após uma mensagem de rádio.",
+    "variantes": [
+      "GP da Alemanha de 2010"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/2010_German_Grand_Prix"
+    ]
+  },
+  {
+    "id": "instituto_ayrton_senna",
+    "nome": "Instituto Ayrton Senna",
+    "descricao": "Organização sem fins lucrativos brasileira dedicada à educação, criada em 1994 após a morte de Ayrton Senna.",
+    "variantes": [
+      "IAS"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Instituto_Ayrton_Senna"
+    ]
   }
 ]

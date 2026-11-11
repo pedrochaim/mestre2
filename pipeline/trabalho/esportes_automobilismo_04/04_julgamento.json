@@ -1,0 +1,342 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Christian Fittipaldi",
+        "descricao": "Piloto brasileiro que correu na Fórmula 1 de 1992 a 1994 e depois na Fórmula Indy e em provas de resistência, sobrinho de Emerson Fittipaldi.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "emerson_fittipaldi",
+          "nome": "Emerson Fittipaldi",
+          "descricao": "Piloto brasileiro bicampeão mundial de Fórmula 1, em 1972 e 1974, e bicampeão das 500 Milhas de Indianápolis.",
+          "variantes": [
+            "Emmo",
+            "Emerson",
+            "Rato"
+          ]
+        },
+        {
+          "id": "equipe_fittipaldi",
+          "nome": "Equipe Fittipaldi",
+          "descricao": "Equipe brasileira de Fórmula 1 criada pelos irmãos Wilson e Emerson Fittipaldi, que competiu de 1975 a 1982.",
+          "variantes": [
+            "Fittipaldi Automotive",
+            "Copersucar-Fittipaldi",
+            "Copersucar"
+          ]
+        },
+        {
+          "id": "oslo",
+          "nome": "Oslo",
+          "descricao": "Capital e maior cidade da Noruega.",
+          "variantes": [
+            "Cristiânia",
+            "Christiania",
+            "Kristiania"
+          ]
+        },
+        {
+          "id": "christian_dior",
+          "nome": "Christian Dior",
+          "descricao": "Estilista francês (1905–1957), fundador da maison que leva seu nome e criador do New Look",
+          "variantes": [
+            "Dior"
+          ]
+        },
+        {
+          "id": "cristiano_ronaldo",
+          "nome": "Cristiano Ronaldo",
+          "descricao": "Cristiano Ronaldo dos Santos Aveiro, atacante português ídolo do Manchester United e do Real Madrid.",
+          "variantes": [
+            "CR7",
+            "Cristiano Ronaldo dos Santos Aveiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Grande Prêmio da Europa de 1993",
+        "descricao": "Corrida de Fórmula 1 disputada sob chuva em abril de 1993, vencida por Ayrton Senna depois de uma primeira volta histórica.",
+        "variantes": [
+          "GP da Europa de 1993"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_premio_da_hungria_de_1986",
+          "nome": "Grande Prêmio da Hungria de 1986",
+          "descricao": "Primeira corrida de Fórmula 1 disputada num país do bloco comunista, no Hungaroring, perto de Budapeste.",
+          "variantes": [
+            "GP da Hungria de 1986"
+          ]
+        },
+        {
+          "id": "grande_premio_do_japao_de_1989",
+          "nome": "Grande Prêmio do Japão de 1989",
+          "descricao": "Corrida de Fórmula 1 em Suzuka em que Ayrton Senna e Alain Prost bateram, decidindo o título de 1989 a favor de Prost.",
+          "variantes": [
+            "GP do Japão de 1989",
+            "1989 Japanese Grand Prix"
+          ]
+        },
+        {
+          "id": "grande_premio_de_detroit_de_1986",
+          "nome": "Grande Prêmio de Detroit de 1986",
+          "descricao": "Corrida de Fórmula 1 vencida por Ayrton Senna nas ruas de Detroit, em junho de 1986.",
+          "variantes": [
+            "GP de Detroit de 1986"
+          ]
+        },
+        {
+          "id": "grande_premio_do_japao_de_1976",
+          "nome": "Grande Prêmio do Japão de 1976",
+          "descricao": "Última corrida da temporada de 1976 da Fórmula 1, disputada sob chuva forte, que deu o título a James Hunt sobre Niki Lauda.",
+          "variantes": [
+            "GP do Japão de 1976"
+          ]
+        },
+        {
+          "id": "grande_premio_da_austria_de_2002",
+          "nome": "Grande Prêmio da Áustria de 2002",
+          "descricao": "Corrida de Fórmula 1 em que Rubens Barrichello, da Ferrari, cedeu a vitória a Michael Schumacher na linha de chegada.",
+          "variantes": [
+            "GP da Áustria de 2002"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gilles Villeneuve",
+        "descricao": "Piloto canadense de Fórmula 1 da Ferrari, morto num treino em 1982, pai do campeão Jacques Villeneuve.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "circuito_gilles_villeneuve",
+          "nome": "Circuito Gilles Villeneuve",
+          "descricao": "Circuito de rua da Ilha Notre-Dame, em Montreal, sede do Grande Prêmio do Canadá.",
+          "variantes": [
+            "Circuit Gilles Villeneuve",
+            "Circuito de Montreal"
+          ]
+        },
+        {
+          "id": "jacques_villeneuve",
+          "nome": "Jacques Villeneuve",
+          "descricao": "Piloto canadense, filho de Gilles Villeneuve, campeão mundial de Fórmula 1 em 1997 pela Williams.",
+          "variantes": []
+        },
+        {
+          "id": "mil_folhas",
+          "nome": "Mil-folhas",
+          "descricao": "Doce francês de camadas de massa folhada intercaladas com creme de confeiteiro.",
+          "variantes": [
+            "Mille-feuille",
+            "Napoleão",
+            "Vanilla slice"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Senninha",
+        "descricao": "Personagem brasileiro de histórias em quadrinhos e desenhos, um menino piloto criado em 1994 em homenagem a Ayrton Senna.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "senninha",
+          "nome": "Senninha",
+          "descricao": "Personagem infantil de quadrinhos inspirado no piloto Ayrton Senna.",
+          "variantes": [
+            "Senna Júnior"
+          ]
+        },
+        {
+          "id": "senna",
+          "nome": "Senna",
+          "descricao": "Documentário britânico de 2010 sobre a vida e a carreira de Ayrton Senna, montado com imagens de arquivo.",
+          "variantes": [
+            "Senna, o documentário"
+          ]
+        },
+        {
+          "id": "mastermind",
+          "nome": "Mastermind",
+          "descricao": "Jogo de tabuleiro de lógica em que se tenta descobrir uma combinação secreta de pinos coloridos, chamado Senha no Brasil.",
+          "variantes": [
+            "Senha"
+          ]
+        },
+        {
+          "id": "siena",
+          "nome": "Siena",
+          "descricao": "Cidade da Toscana, na Itália, famosa pela Piazza del Campo e pela Torre del Mangia.",
+          "variantes": [
+            "Sienna"
+          ]
+        },
+        {
+          "id": "sannin",
+          "nome": "Sannin",
+          "descricao": "Trio de ninjas lendários de Konoha no mangá e anime Naruto.",
+          "variantes": [
+            "Densetsu no Sannin",
+            "Três Ninjas Lendários"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Grande Prêmio da Alemanha de 2010",
+        "descricao": "Corrida de Fórmula 1 em Hockenheim, em 2010, em que Felipe Massa cedeu a liderança ao companheiro de Ferrari após uma mensagem de rádio.",
+        "variantes": [
+          "GP da Alemanha de 2010"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_premio_da_austria_de_2002",
+          "nome": "Grande Prêmio da Áustria de 2002",
+          "descricao": "Corrida de Fórmula 1 em que Rubens Barrichello, da Ferrari, cedeu a vitória a Michael Schumacher na linha de chegada.",
+          "variantes": [
+            "GP da Áustria de 2002"
+          ]
+        },
+        {
+          "id": "grande_premio_do_brasil_de_2008",
+          "nome": "Grande Prêmio do Brasil de 2008",
+          "descricao": "Última corrida da temporada de 2008 da Fórmula 1, em Interlagos, vencida por Felipe Massa, em que Lewis Hamilton garantiu o título.",
+          "variantes": [
+            "GP do Brasil de 2008",
+            "2008 Brazilian Grand Prix"
+          ]
+        },
+        {
+          "id": "grande_premio_da_hungria_de_1986",
+          "nome": "Grande Prêmio da Hungria de 1986",
+          "descricao": "Primeira corrida de Fórmula 1 disputada num país do bloco comunista, no Hungaroring, perto de Budapeste.",
+          "variantes": [
+            "GP da Hungria de 1986"
+          ]
+        },
+        {
+          "id": "grande_premio_do_japao_de_1976",
+          "nome": "Grande Prêmio do Japão de 1976",
+          "descricao": "Última corrida da temporada de 1976 da Fórmula 1, disputada sob chuva forte, que deu o título a James Hunt sobre Niki Lauda.",
+          "variantes": [
+            "GP do Japão de 1976"
+          ]
+        },
+        {
+          "id": "grande_premio_do_japao_de_1989",
+          "nome": "Grande Prêmio do Japão de 1989",
+          "descricao": "Corrida de Fórmula 1 em Suzuka em que Ayrton Senna e Alain Prost bateram, decidindo o título de 1989 a favor de Prost.",
+          "variantes": [
+            "GP do Japão de 1989",
+            "1989 Japanese Grand Prix"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Instituto Ayrton Senna",
+        "descricao": "Organização sem fins lucrativos brasileira dedicada à educação, criada em 1994 após a morte de Ayrton Senna.",
+        "variantes": [
+          "IAS"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oia",
+          "nome": "Oia",
+          "descricao": "Vila na ilha de Santorini, nas Cíclades, Grécia, famosa pelo casario branco sobre a caldeira.",
+          "variantes": [
+            "Ia"
+          ]
+        },
+        {
+          "id": "as_carta_de_baralho",
+          "nome": "Ás (carta de baralho)",
+          "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+          "variantes": [
+            "Ás",
+            "Ace"
+          ]
+        },
+        {
+          "id": "ace",
+          "nome": "Ace",
+          "descricao": "Ponto do vôlei conquistado diretamente no saque, sem que o adversário consiga devolver a bola.",
+          "variantes": [
+            "Ás"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        },
+        {
+          "id": "titas",
+          "nome": "Titãs",
+          "descricao": "Banda de rock paulistana formada em 1982, autora de Sonífera Ilha e Comida.",
+          "variantes": [
+            "Titãs do Iê-Iê"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Christian Fittipaldi é uma pessoa distinta; nenhuma candidata o descreve (Emerson é o tio)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "GP da Europa de 1993 não consta entre as candidatas, que são outras corridas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Gilles Villeneuve, o piloto, difere do circuito e do filho Jacques."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "senninha",
+      "motivo": "Mesmo personagem de quadrinhos inspirado em Ayrton Senna, mesmo nome."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "GP da Alemanha de 2010 não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Instituto Ayrton Senna não corresponde a nenhuma candidata, que são entidades sem relação."
+    }
+  ]
+}

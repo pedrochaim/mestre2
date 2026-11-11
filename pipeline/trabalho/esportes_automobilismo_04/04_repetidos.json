@@ -1,0 +1,998 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Entre 1984 e 1994, quantos Grandes Prêmios de Fórmula 1 Ayrton Senna venceu?",
+        "resposta": "Quarenta e um"
+      },
+      "existentes": [
+        {
+          "id": "q00533",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Ayrton Senna"
+        },
+        {
+          "id": "q01562",
+          "pergunta": "Como Silva era um sobrenome comum demais, Ayrton Senna da Silva passou a usar nas pistas o sobrenome de qual parente?",
+          "resposta": "Da mãe, Neide Senna"
+        },
+        {
+          "id": "q01563",
+          "pergunta": "Em 1985, debaixo de chuva forte, Ayrton Senna venceu sua primeira corrida de Fórmula 1. Em que país foi essa vitória?",
+          "resposta": "Portugal"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Antes da fama, na família e entre os amigos de infância, Ayrton Senna era chamado por qual apelido?",
+        "resposta": "Beco"
+      },
+      "existentes": [
+        {
+          "id": "q00533",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Ayrton Senna"
+        },
+        {
+          "id": "q01562",
+          "pergunta": "Como Silva era um sobrenome comum demais, Ayrton Senna da Silva passou a usar nas pistas o sobrenome de qual parente?",
+          "resposta": "Da mãe, Neide Senna"
+        },
+        {
+          "id": "q01563",
+          "pergunta": "Em 1985, debaixo de chuva forte, Ayrton Senna venceu sua primeira corrida de Fórmula 1. Em que país foi essa vitória?",
+          "resposta": "Portugal"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ano Ayrton Senna conquistou o primeiro dos seus três títulos mundiais de Fórmula 1?",
+        "resposta": "1988"
+      },
+      "existentes": [
+        {
+          "id": "q00533",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Ayrton Senna"
+        },
+        {
+          "id": "q01562",
+          "pergunta": "Como Silva era um sobrenome comum demais, Ayrton Senna da Silva passou a usar nas pistas o sobrenome de qual parente?",
+          "resposta": "Da mãe, Neide Senna"
+        },
+        {
+          "id": "q01563",
+          "pergunta": "Em 1985, debaixo de chuva forte, Ayrton Senna venceu sua primeira corrida de Fórmula 1. Em que país foi essa vitória?",
+          "resposta": "Portugal"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Interlagos, a sequência de curvas logo depois da reta de largada, para a esquerda e para a direita, leva o nome de qual piloto?",
+        "resposta": "Ayrton Senna"
+      },
+      "existentes": [
+        {
+          "id": "q00548",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Interlagos"
+        },
+        {
+          "id": "q01560",
+          "pergunta": "O Autódromo de Interlagos leva oficialmente o nome de qual piloto brasileiro, morto num acidente aéreo em 1977?",
+          "resposta": "José Carlos Pace"
+        },
+        {
+          "id": "q01561",
+          "pergunta": "O autódromo de Interlagos fica entre quais duas grandes represas da cidade de São Paulo?",
+          "resposta": "Guarapiranga e Billings"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Diferente da maioria dos circuitos da Fórmula 1, em Interlagos os carros dão a volta na pista em que sentido?",
+        "resposta": "Anti-horário"
+      },
+      "existentes": [
+        {
+          "id": "q00548",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Interlagos"
+        },
+        {
+          "id": "q01560",
+          "pergunta": "O Autódromo de Interlagos leva oficialmente o nome de qual piloto brasileiro, morto num acidente aéreo em 1977?",
+          "resposta": "José Carlos Pace"
+        },
+        {
+          "id": "q01561",
+          "pergunta": "O autódromo de Interlagos fica entre quais duas grandes represas da cidade de São Paulo?",
+          "resposta": "Guarapiranga e Billings"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Muito antes de receber a Fórmula 1, o autódromo de Interlagos, em São Paulo, foi inaugurado em que década?",
+        "resposta": "Anos quarenta"
+      },
+      "existentes": [
+        {
+          "id": "q00548",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Interlagos"
+        },
+        {
+          "id": "q01560",
+          "pergunta": "O Autódromo de Interlagos leva oficialmente o nome de qual piloto brasileiro, morto num acidente aéreo em 1977?",
+          "resposta": "José Carlos Pace"
+        },
+        {
+          "id": "q01561",
+          "pergunta": "O autódromo de Interlagos fica entre quais duas grandes represas da cidade de São Paulo?",
+          "resposta": "Guarapiranga e Billings"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em 1972, Emerson Fittipaldi se tornou o campeão mundial de Fórmula 1 mais jovem até então. Com quantos anos?",
+        "resposta": "Vinte e cinco anos"
+      },
+      "existentes": [
+        {
+          "id": "q01574",
+          "pergunta": "Ao vencer a Indy 500 de 1993, Emerson Fittipaldi irritou o público ao trocar o tradicional leite por suco de laranja. Com que objetivo?",
+          "resposta": "Promover a indústria da laranja"
+        },
+        {
+          "id": "q01607",
+          "pergunta": "Qual destes pilotos brasileiros foi o primeiro a ser campeão mundial de Fórmula 1?",
+          "resposta": "Emerson Fittipaldi"
+        },
+        {
+          "id": "q06145",
+          "pergunta": "Em 1970, na sua quarta corrida de Fórmula 1, Emerson Fittipaldi venceu e garantiu o título póstumo de Jochen Rindt. Em que país foi essa vitória?",
+          "resposta": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em 1984, Niki Lauda conquistou seu terceiro título mundial derrotando o companheiro Alain Prost por qual diferença de pontos?",
+        "resposta": "Meio ponto"
+      },
+      "existentes": [
+        {
+          "id": "q06149",
+          "pergunta": "Em 1976, Niki Lauda ficou gravemente queimado quando seu carro pegou fogo em qual circuito alemão, cercado por florestas?",
+          "resposta": "Nürburgring"
+        },
+        {
+          "id": "q06150",
+          "pergunta": "Depois do acidente de 1976, Niki Lauda passou a aparecer quase sempre com um boné vermelho. Por quê?",
+          "resposta": "Para esconder as cicatrizes das queimaduras"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1992, a caminho do título pela Williams, Nigel Mansell venceu seguidas quantas das primeiras corridas da temporada?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q06190",
+          "pergunta": "Além de terem sido campeões mundiais de Fórmula 1, que outro título Emerson Fittipaldi e Nigel Mansell têm em comum?",
+          "resposta": "Campeões da Fórmula Indy"
+        },
+        {
+          "id": "q11553",
+          "pergunta": "Pela garra ao volante, os torcedores italianos da Ferrari deram a Nigel Mansell qual apelido?",
+          "resposta": "Il Leone (O Leão)"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1986, na última corrida do ano, na Austrália, Nigel Mansell estava a caminho do título quando perdeu a chance. O que aconteceu com seu carro?",
+        "resposta": "Um pneu estourou"
+      },
+      "existentes": [
+        {
+          "id": "q06190",
+          "pergunta": "Além de terem sido campeões mundiais de Fórmula 1, que outro título Emerson Fittipaldi e Nigel Mansell têm em comum?",
+          "resposta": "Campeões da Fórmula Indy"
+        },
+        {
+          "id": "q11553",
+          "pergunta": "Pela garra ao volante, os torcedores italianos da Ferrari deram a Nigel Mansell qual apelido?",
+          "resposta": "Il Leone (O Leão)"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Na carreira, o americano Richard Petty venceu quantas corridas na principal divisão da NASCAR?",
+        "resposta": "Duzentas"
+      },
+      "existentes": [
+        {
+          "id": "q18500",
+          "pergunta": "Qual era o apelido deste piloto americano de stock car, heptacampeão da NASCAR?",
+          "resposta": "O Rei (The King)"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Ex-piloto da Copersucar na Fórmula 1, Ingo Hoffmann foi campeão da Stock Car brasileira quantas vezes?",
+        "resposta": "Doze"
+      },
+      "existentes": [
+        {
+          "id": "q11530",
+          "pergunta": "Qual destes pilotos conquistou mais títulos da Stock Car brasileira?",
+          "resposta": "Ingo Hoffmann"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Quantas voltas no oval os pilotos precisam completar para terminar as 500 Milhas de Indianápolis?",
+        "resposta": "Duzentas"
+      },
+      "existentes": [
+        {
+          "id": "q01606",
+          "pergunta": "Entre estas corridas famosas, qual foi disputada pela primeira vez há mais tempo?",
+          "resposta": "500 Milhas de Indianápolis"
+        },
+        {
+          "id": "q11564",
+          "pergunta": "Tradicionalmente, quantos carros largam nas 500 Milhas de Indianápolis, alinhados em filas de três?",
+          "resposta": "Trinta e três"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Michael Schumacher encerrou a carreira, em 2012, com quantas vitórias em Grandes Prêmios de Fórmula 1?",
+        "resposta": "Noventa e uma"
+      },
+      "existentes": [
+        {
+          "id": "q01580",
+          "pergunta": "Michael Schumacher estreou na Fórmula 1 em 1991, pela Jordan, porque o piloto titular, Bertrand Gachot, estava em que situação?",
+          "resposta": "Preso por agredir um taxista"
+        },
+        {
+          "id": "q06152",
+          "pergunta": "Michael Schumacher conquistou seu primeiro título, em 1994, depois de uma batida polêmica com Damon Hill na última corrida. Em que país foi essa prova?",
+          "resposta": "Austrália"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Vestindo o vermelho da Ferrari, Michael Schumacher ganhou o apelido de um famoso aviador alemão da Primeira Guerra Mundial. Qual?",
+        "resposta": "Barão Vermelho"
+      },
+      "existentes": [
+        {
+          "id": "q01580",
+          "pergunta": "Michael Schumacher estreou na Fórmula 1 em 1991, pela Jordan, porque o piloto titular, Bertrand Gachot, estava em que situação?",
+          "resposta": "Preso por agredir um taxista"
+        },
+        {
+          "id": "q06152",
+          "pergunta": "Michael Schumacher conquistou seu primeiro título, em 1994, depois de uma batida polêmica com Damon Hill na última corrida. Em que país foi essa prova?",
+          "resposta": "Austrália"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Rubens Barrichello e Felipe Massa terminaram a carreira na Fórmula 1 com o mesmo número de vitórias. Quantas cada um?",
+        "resposta": "Onze"
+      },
+      "existentes": [
+        {
+          "id": "q06147",
+          "pergunta": "Em 2000, largando apenas em décimo oitavo, Rubens Barrichello conquistou sua primeira vitória na Fórmula 1. Em que país?",
+          "resposta": "Alemanha"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Qual destes pilotos brasileiros disputou mais Grandes Prêmios de Fórmula 1 na carreira?",
+        "resposta": "Rubens Barrichello"
+      },
+      "existentes": [
+        {
+          "id": "q06147",
+          "pergunta": "Em 2000, largando apenas em décimo oitavo, Rubens Barrichello conquistou sua primeira vitória na Fórmula 1. Em que país?",
+          "resposta": "Alemanha"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O pai de Lewis Hamilton escolheu o primeiro nome do filho em homenagem a qual velocista americano, campeão olímpico?",
+        "resposta": "Carl Lewis"
+      },
+      "existentes": [
+        {
+          "id": "q01609",
+          "pergunta": "Que piloto britânico, fã declarado de Ayrton Senna, recebeu em 2022 o título de cidadão honorário brasileiro?",
+          "resposta": "Lewis Hamilton"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Por causa das pernas arqueadas, o argentino Juan Manuel Fangio ganhou em seu país qual apelido em espanhol?",
+        "resposta": "El Chueco"
+      },
+      "existentes": [
+        {
+          "id": "q01575",
+          "pergunta": "Em 1958, o que impediu Juan Manuel Fangio de disputar o Grande Prêmio de Cuba, em Havana?",
+          "resposta": "Foi sequestrado por rebeldes cubanos"
+        },
+        {
+          "id": "q06180",
+          "pergunta": "Nos anos cinquenta, o argentino Juan Manuel Fangio conquistou seus cinco títulos mundiais de Fórmula 1 defendendo quantas equipes diferentes?",
+          "resposta": "Quatro"
+        },
+        {
+          "id": "q11527",
+          "pergunta": "Qual destes pilotos conquistou um título mundial de Fórmula 1 com a idade mais avançada?",
+          "resposta": "Juan Manuel Fangio"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "José Carlos Pace, o piloto que dá nome ao autódromo de Interlagos, era chamado pelos amigos e pela imprensa por qual apelido?",
+        "resposta": "Moco"
+      },
+      "existentes": [
+        {
+          "id": "q06158",
+          "pergunta": "Em que ano José Carlos Pace venceu sua única corrida de Fórmula 1, o Grande Prêmio do Brasil, com Emerson Fittipaldi em segundo lugar?",
+          "resposta": "1975"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Enzo Ferrari recebeu do governo italiano um título honorífico que acabou virando seu apelido. Qual?",
+        "resposta": "Il Commendatore"
+      },
+      "existentes": [
+        {
+          "id": "q01584",
+          "pergunta": "Antes de fabricar carros com o próprio nome, Enzo Ferrari foi piloto e depois comandou a equipe de corrida de qual montadora italiana?",
+          "resposta": "Alfa Romeo"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Nas corridas da NASCAR, a expressão inglesa stock car indicava, na origem, que os carros eram de que tipo?",
+        "resposta": "Carros de série, de fábrica"
+      },
+      "existentes": [
+        {
+          "id": "q01582",
+          "pergunta": "As corridas de stock car que deram origem à NASCAR nasceram de motoristas que, na época da Lei Seca americana, faziam qual atividade ilegal?",
+          "resposta": "Contrabando de bebida alcoólica"
+        },
+        {
+          "id": "q11550",
+          "pergunta": "Nas corridas da NASCAR em pistas ovais, os carros fazem todas as curvas para qual lado?",
+          "resposta": "Para a esquerda"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Nos nomes dos carros da McLaren a partir de 1981, como o MP4 de Senna, a letra M vinha originalmente de qual patrocinador?",
+        "resposta": "Marlboro"
+      },
+      "existentes": [
+        {
+          "id": "q06167",
+          "pergunta": "Que piloto neozelandês fundou, nos anos sessenta, a equipe inglesa pela qual Ayrton Senna foi tricampeão mundial?",
+          "resposta": "Bruce McLaren"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Nos nomes dos carros da Brabham, como o BT52 de Nelson Piquet, de onde vêm as letras B e T?",
+        "resposta": "Dos fundadores Brabham e Tauranac"
+      },
+      "existentes": [
+        {
+          "id": "q01585",
+          "pergunta": "Bernie Ecclestone foi dono de qual equipe de Fórmula 1, pela qual Nelson Piquet foi bicampeão mundial?",
+          "resposta": "Brabham"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Uma chicane de Monza leva o nome de um bicampeão mundial italiano que morreu ali, num teste, em 1955. Que piloto?",
+        "resposta": "Alberto Ascari"
+      },
+      "existentes": [
+        {
+          "id": "q00551",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Monza"
+        },
+        {
+          "id": "q06159",
+          "pergunta": "O Autódromo de Monza, perto de Milão, chamado de Templo da Velocidade, foi inaugurado em que década?",
+          "resposta": "Anos vinte (1922)"
+        },
+        {
+          "id": "q11552",
+          "pergunta": "A antiga curva Parabólica, a última do circuito de Monza, foi rebatizada em 2021 em homenagem a qual piloto italiano?",
+          "resposta": "Michele Alboreto"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Além dos títulos na Fórmula 1, Fernando Alonso venceu duas vezes as 24 Horas de Le Mans. Por qual montadora?",
+        "resposta": "Toyota"
+      },
+      "existentes": [
+        {
+          "id": "q05048",
+          "pergunta": "Que piloto espanhol de Fórmula 1 é este?",
+          "resposta": "Fernando Alonso"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Depois de deixar a Ferrari no fim de 2009, Kimi Räikkönen passou duas temporadas competindo em qual campeonato mundial?",
+        "resposta": "Mundial de Rali"
+      },
+      "existentes": [
+        {
+          "id": "q06175",
+          "pergunta": "Famoso pelo jeito frio e por falar pouco, o finlandês Kimi Räikkönen, campeão de 2007, ganhou qual apelido em inglês?",
+          "resposta": "Iceman, o Homem de Gelo"
+        },
+        {
+          "id": "q07494",
+          "pergunta": "Que piloto finlandês de Fórmula 1 é este?",
+          "resposta": "Kimi Räikkönen"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "O capacete azul-escuro com faixas brancas de Graham Hill, depois usado pelo filho Damon, trazia as cores de um clube londrino de qual esporte?",
+        "resposta": "Remo"
+      },
+      "existentes": [
+        {
+          "id": "q06173",
+          "pergunta": "Por ter vencido cinco vezes nas ruas do principado nos anos sessenta, o inglês Graham Hill ganhou qual apelido?",
+          "resposta": "Mr. Mônaco (Senhor Mônaco)"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "No filme Le Mans, de 1971, qual astro de Hollywood, também piloto amador, interpreta um corredor que guia um Porsche 917?",
+        "resposta": "Steve McQueen"
+      },
+      "existentes": [
+        {
+          "id": "q14968",
+          "pergunta": "Que modelo de carro de corrida alemão, da virada dos anos sessenta para os setenta, é este?",
+          "resposta": "Porsche 917"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Que nome a Porsche deu à versão do 911 com teto removível, em homenagem a uma corrida de estrada da Sicília em que fez sucesso?",
+        "resposta": "Targa"
+      },
+      "existentes": [
+        {
+          "id": "q06156",
+          "pergunta": "A Targa Florio, uma das corridas de automóveis mais antigas do mundo, criada em 1906, era disputada nas estradas de montanha de qual ilha?",
+          "resposta": "Sicília"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Que equipe de Fórmula 1 liga o bicampeonato de Emerson Fittipaldi, em 1974, aos três títulos de Ayrton Senna?",
+        "resposta": "McLaren"
+      },
+      "existentes": [
+        {
+          "id": "q06167",
+          "pergunta": "Que piloto neozelandês fundou, nos anos sessenta, a equipe inglesa pela qual Ayrton Senna foi tricampeão mundial?",
+          "resposta": "Bruce McLaren"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Em 1988, já tricampeão, Nelson Piquet foi para a Lotus ocupar a vaga deixada por qual piloto brasileiro?",
+        "resposta": "Ayrton Senna"
+      },
+      "existentes": [
+        {
+          "id": "q01573",
+          "pergunta": "Por que o jovem Nelson Souto Maior começou a correr usando o sobrenome da mãe, grafado Piket?",
+          "resposta": "Para esconder do pai que corria"
+        },
+        {
+          "id": "q06146",
+          "pergunta": "Em 1981, Nelson Piquet garantiu seu primeiro título mundial numa pista montada no estacionamento de um hotel-cassino. Em que cidade americana?",
+          "resposta": "Las Vegas"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Em 1973, já tricampeão, Jackie Stewart se aposentou sem disputar o que seria seu centésimo Grande Prêmio. Que fato o levou a isso?",
+        "resposta": "A morte do companheiro François Cevert"
+      },
+      "existentes": [
+        {
+          "id": "q14970",
+          "pergunta": "Em que país nasceu este ex-piloto de Fórmula 1?",
+          "resposta": "Escócia"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Nos anos sessenta, a Ford criou um programa para derrotar a Ferrari em Le Mans depois que Enzo Ferrari desistiu de qual negócio?",
+        "resposta": "Vender a Ferrari para a Ford"
+      },
+      "existentes": [
+        {
+          "id": "q01572",
+          "pergunta": "O Ford GT40, que venceu Le Mans nos anos sessenta, tem o número quarenta no nome por causa de qual medida do carro?",
+          "resposta": "Altura de quarenta polegadas"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Os carros de corrida da Ferrari são vermelhos porque, nas antigas corridas internacionais, essa cor identificava o quê?",
+        "resposta": "Os carros da Itália"
+      },
+      "existentes": [
+        {
+          "id": "q11528",
+          "pergunta": "Qual destas equipes de Fórmula 1 foi fundada há mais tempo?",
+          "resposta": "Ferrari"
+        },
+        {
+          "id": "q11529",
+          "pergunta": "No nome da equipe Scuderia Ferrari, a palavra italiana scuderia tem originalmente qual significado?",
+          "resposta": "Estrebaria (cavalariça)"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Em Interlagos, em 2008, Hamilton tirou o título de Massa ao ultrapassar, nas últimas curvas, um piloto alemão da Toyota. Quem?",
+        "resposta": "Timo Glock"
+      },
+      "existentes": [
+        {
+          "id": "q11566",
+          "pergunta": "Em 2008, Felipe Massa venceu a última corrida do ano, em Interlagos, mas perdeu o título para Lewis Hamilton. Por quantos pontos?",
+          "resposta": "Um ponto"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Em 2016, aos dezoito anos, logo na estreia pela Red Bull, Max Verstappen venceu sua primeira corrida de Fórmula 1. Em que país?",
+        "resposta": "Espanha"
+      },
+      "existentes": [
+        {
+          "id": "q01670",
+          "pergunta": "Este piloto holandês estreou na Fórmula 1 aos dezessete anos por qual equipe?",
+          "resposta": "Toro Rosso"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Mario Andretti nasceu em 1940 em Montona, na península da Ístria, então italiana. Hoje essa cidade pertence a qual país?",
+        "resposta": "Croácia"
+      },
+      "existentes": [
+        {
+          "id": "q14407",
+          "pergunta": "Quem é este ex-piloto?",
+          "resposta": "Mario Andretti"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Em 2001, o heptacampeão da NASCAR Dale Earnhardt morreu num acidente na última volta de qual corrida?",
+        "resposta": "Daytona 500"
+      },
+      "existentes": [
+        {
+          "id": "q18501",
+          "pergunta": "Que filho deste piloto da NASCAR, com o mesmo nome, também correu na categoria?",
+          "resposta": "Dale Earnhardt Jr."
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Que piloto finlandês, campeão mundial de Fórmula 1 em 1982, correu pela equipe brasileira dos Fittipaldi em 1980 e 1981?",
+        "resposta": "Keke Rosberg"
+      },
+      "existentes": [
+        {
+          "id": "q01564",
+          "pergunta": "A equipe brasileira de Fórmula 1 dos irmãos Fittipaldi correu anos com o nome de qual patrocinadora, uma cooperativa de usinas paulistas?",
+          "resposta": "Copersucar"
+        },
+        {
+          "id": "q06183",
+          "pergunta": "Em oito temporadas na Fórmula 1, entre 1975 e 1982, quantas corridas a equipe brasileira dos irmãos Fittipaldi venceu?",
+          "resposta": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "As quatro letras entrelaçadas no emblema da Lotus são as iniciais do nome completo de quem?",
+        "resposta": "Colin Chapman"
+      },
+      "existentes": [
+        {
+          "id": "q01590",
+          "pergunta": "Que equipe inglesa deu a Emerson Fittipaldi seu primeiro título mundial e a Ayrton Senna sua primeira vitória na Fórmula 1?",
+          "resposta": "Lotus"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Do antigo piso de tijolos que deu ao oval de Indianápolis o apelido de Brickyard, que parte continua à vista na pista?",
+        "resposta": "Uma faixa na linha de chegada"
+      },
+      "existentes": [
+        {
+          "id": "q01570",
+          "pergunta": "O oval de Indianápolis é chamado de Brickyard pelos americanos. De onde vem esse apelido?",
+          "resposta": "Da pista pavimentada com tijolos"
+        },
+        {
+          "id": "q02173",
+          "pergunta": "Em que estado dos Estados Unidos fica este circuito?",
+          "resposta": "Indiana"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "Que personagem brasileiro de gibi, um menino piloto lançado em 1994, foi criado em homenagem a um tricampeão de Fórmula 1?",
+        "resposta": "Senninha"
+      },
+      "existentes": [
+        {
+          "id": "q02247",
+          "pergunta": "Quem é este personagem infantil dos quadrinhos brasileiros?",
+          "resposta": "Senninha"
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "nova": {
+        "pergunta": "Em 1951, em Silverstone, que piloto argentino deu à Ferrari sua primeira vitória num Grande Prêmio do Mundial de Fórmula 1?",
+        "resposta": "José Froilán González"
+      },
+      "existentes": [
+        {
+          "id": "q11528",
+          "pergunta": "Qual destas equipes de Fórmula 1 foi fundada há mais tempo?",
+          "resposta": "Ferrari"
+        },
+        {
+          "id": "q11529",
+          "pergunta": "No nome da equipe Scuderia Ferrari, a palavra italiana scuderia tem originalmente qual significado?",
+          "resposta": "Estrebaria (cavalariça)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Número de vitórias é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Apelido de infância é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano do primeiro título é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Curva do Senna não consta nas existentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sentido da pista é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Década de inauguração é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Idade no título de 1972 é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Diferença de pontos em 1984 é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Vitórias em 1992 é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Evento de 1986 é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Número de vitórias de Petty é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "A existente pergunta quem tem mais títulos; a nova, o número de títulos de Ingo. Quem soubesse um não saberia necessariamente o outro."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Número de voltas é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Total de vitórias é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Apelido é outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Total de vitórias é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Mais GPs disputados é outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Origem do nome é outro fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Apelido é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Apelido é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Título honorífico é outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Significado de stock car é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Origem da letra M é outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Origem das letras é outro fato."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Chicane Ascari é outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Le Mans é outro fato."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Rali é outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Capacete é outro fato."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Filme é outro fato."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Nome Targa do 911 é outro fato, embora relacionado."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Equipe McLaren ligando dois pilotos; fato diferente de fundador."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Vaga na Lotus é outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Motivo da aposentadoria é outro fato."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Motivação da Ford é outro fato."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Cor vermelha é outro fato."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Piloto ultrapassado é outro fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Primeira vitória é outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Local de nascimento é outro fato."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Morte de Earnhardt é outro fato."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Piloto da equipe é outro fato."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Emblema é outro fato."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Parte dos tijolos é outro fato, embora relacionado ao apelido."
+    },
+    {
+      "caso": 43,
+      "decisao": "repete",
+      "id_existente": "q02247",
+      "motivo": "Ambas têm como resposta Senninha, o mesmo personagem."
+    },
+    {
+      "caso": 44,
+      "decisao": "nova",
+      "motivo": "Primeira vitória da Ferrari é outro fato."
+    }
+  ]
+}
