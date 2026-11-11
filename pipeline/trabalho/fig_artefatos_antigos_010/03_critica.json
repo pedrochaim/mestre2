@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado nomeia o que a figura mostra (disco de jade chinês) e a pergunta sobre o período se responde sem a imagem, então a figura virou enfeite. Reescrita para pedir o reconhecimento do objeto.",
+      "reescrita": {
+        "pergunta": "Que objeto ritual chinês de jade, com um furo no centro, é este?",
+        "resposta": "Bi",
+        "distratores": [
+          "Cong",
+          "Gui",
+          "Huang"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Naqada III ou Protodinástico, c. 3200 a 3000 a.C., confirmado pelos trechos. O enunciado não nomeia a paleta e os distratores são períodos claramente distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os tabuleiros de Woolley datam de cerca de 2600 a 2400 a.C., terceiro milênio. O enunciado é literalmente verdadeiro e os distratores são milênios distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vergina fica na Macedônia grega, conforme os trechos. O enunciado não nomeia o símbolo nem a resposta, e os distratores são regiões gregas.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cabeça está no Museu Egípcio de Berlim. O enunciado não cita o nome da cabeça e os distratores são cidades críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'boca larga' define a crátera e entrega a resposta. 'Duas alças' também serviria à ânfora. Troquei por uma pista contextual que não entrega: Schliemann, Micenas e os soldados.",
+      "reescrita": {
+        "pergunta": "Schliemann achou em Micenas este vaso decorado com um friso de soldados armados. Que tipo de vaso é este?",
+        "resposta": "Crátera",
+        "distratores": [
+          "Ânfora",
+          "Hídria",
+          "Lécito"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que Inanna foi sugerida e que a máscara provavelmente a representa. O enunciado usa 'costuma ser sugerida', que é prudente. Os distratores são divindades mesopotâmicas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A data da Contagem Longa equivale a março de 162 d.C., século dois. O enunciado é correto e os distratores são séculos distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O busto está no Museu de Belas Artes de Boston. O enunciado não cita a cidade e os distratores são cidades americanas com museus importantes.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O opon Ifá é uma bandeja de adivinhação usada pelos babalawo. O enunciado não entrega a função e os distratores são objetos plausíveis, nenhum também correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os fatos estão corretos: Ezana se converteu ao cristianismo. O distrator 'Islamismo' não é crível no século quatro, porque o islã só surgiu no século sete. Troquei por 'Maniqueísmo', religião do século três.",
+      "reescrita": {
+        "pergunta": "O rei que mandou gravar esta estela, no século quatro, converteu-se a que religião?",
+        "resposta": "Cristianismo",
+        "distratores": [
+          "Judaísmo",
+          "Zoroastrismo",
+          "Maniqueísmo"
+        ]
+      }
+    }
+  ]
+}

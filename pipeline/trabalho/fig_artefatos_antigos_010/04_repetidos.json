@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este tabuleiro mesopotâmico, achado numa tumba suméria, é de que milênio antes de Cristo?",
+        "resposta": "Terceiro milênio"
+      },
+      "existentes": [
+        {
+          "id": "q01523",
+          "pergunta": "O Jogo Real de Ur, com uns quatro mil e quinhentos anos, foi encontrado em tumbas reais no território de qual país atual?",
+          "resposta": "Iraque"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que divindade suméria costuma ser sugerida como a retratada nesta máscara de mármore?",
+        "resposta": "Inanna"
+      },
+      "existentes": [
+        {
+          "id": "q13980",
+          "pergunta": "Em que antiga cidade da Mesopotâmia foi encontrada esta máscara de mármore, de cerca de 3100 a.C.?",
+          "resposta": "Uruk"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a datação (milênio) do tabuleiro; a existente pergunta o país onde foi encontrado. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta a divindade retratada; a existente pergunta a cidade onde a máscara foi achada. Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Disco bi de jade",
+        "descricao": "Disco circular de jade com furo central, artefato ritual da China antiga, produzido desde o Neolítico.",
+        "variantes": [
+          "Bi",
+          "Bi de jade"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bismuto",
+          "nome": "Bismuto",
+          "descricao": "Elemento químico de símbolo Bi e número atômico 83, metal que forma cristais escalonados iridescentes.",
+          "variantes": [
+            "Bi"
+          ]
+        },
+        {
+          "id": "bic_cristal",
+          "nome": "BIC Cristal",
+          "descricao": "Caneta esferográfica descartável de corpo transparente lançada pela empresa francesa BIC em 1950.",
+          "variantes": [
+            "Caneta BIC",
+            "Bic"
+          ]
+        },
+        {
+          "id": "bic_empresa",
+          "nome": "BIC (empresa)",
+          "descricao": "Empresa francesa de canetas, isqueiros e lâminas de barbear fundada por Marcel Bich em 1945.",
+          "variantes": [
+            "Société Bic",
+            "Bic"
+          ]
+        },
+        {
+          "id": "obi",
+          "nome": "Obi",
+          "descricao": "Faixa usada na cintura com o quimono e outras vestes tradicionais japonesas.",
+          "variantes": [
+            "Faixa de quimono"
+          ]
+        },
+        {
+          "id": "bit",
+          "nome": "Bit",
+          "descricao": "Menor unidade de informação da computação, que pode valer zero ou um.",
+          "variantes": [
+            "Dígito binário"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Paleta Líbia",
+        "descricao": "Parte inferior de uma paleta cosmética egípcia de xisto, do período Naqada III, achada em Abidos e guardada no Museu Egípcio do Cairo.",
+        "variantes": [
+          "Paleta da Cidade",
+          "Paleta do Tributo Líbio",
+          "Libyan Palette"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponta_da_piedade",
+          "nome": "Ponta da Piedade",
+          "descricao": "Promontório com formações rochosas douradas junto à cidade de Lagos, no Algarve, Portugal.",
+          "variantes": [
+            "Ponta da Piedade, Lagos"
+          ]
+        },
+        {
+          "id": "palacio_da_liberdade",
+          "nome": "Palácio da Liberdade",
+          "descricao": "Palácio histórico do governo de Minas Gerais, na Praça da Liberdade, em Belo Horizonte.",
+          "variantes": [
+            "Palácio Presidencial"
+          ]
+        },
+        {
+          "id": "praca_da_liberdade_belo_horizonte",
+          "nome": "Praça da Liberdade (Belo Horizonte)",
+          "descricao": "Praça e conjunto arquitetônico na região da Savassi, em Belo Horizonte, ao redor do Palácio da Liberdade.",
+          "variantes": [
+            "Praça da Liberdade"
+          ]
+        },
+        {
+          "id": "petalita",
+          "nome": "Petalita",
+          "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
+          "variantes": [
+            "Petalite",
+            "Castorita"
+          ]
+        },
+        {
+          "id": "alfredo_di_stefano",
+          "nome": "Alfredo Di Stéfano",
+          "descricao": "Atacante argentino naturalizado espanhol, ídolo do Real Madrid nos anos 1950, apelidado Saeta Rubia.",
+          "variantes": [
+            "Alfredo Stéfano Di Stéfano Laulhé",
+            "Saeta Rubia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Jogo Real de Ur",
+        "descricao": "Antigo jogo de tabuleiro mesopotâmico de corrida, com tabuleiro incrustado do Museu Britânico, de cerca de 2600 a 2400 a.C.",
+        "variantes": [
+          "Royal Game of Ur",
+          "Jogo das Vinte Casas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jogo_real_de_ur",
+          "nome": "Jogo Real de Ur",
+          "descricao": "Jogo de tabuleiro da antiga Mesopotâmia, com cerca de quatro mil e quinhentos anos, encontrado no cemitério real de Ur.",
+          "variantes": [
+            "Royal Game of Ur",
+            "Jogo dos Vinte Quadrados"
+          ]
+        },
+        {
+          "id": "highland_games",
+          "nome": "Highland Games",
+          "descricao": "Competição escocesa de força, com provas como o arremesso de peso sobre a barra e o lançamento do tronco, além de gaita de foles e dança.",
+          "variantes": [
+            "Jogos das Terras Altas",
+            "Highland Gathering"
+          ]
+        },
+        {
+          "id": "gol_de_ouro",
+          "nome": "Gol de ouro",
+          "descricao": "Regra de morte súbita na prorrogação, usada no futebol nos anos 1990 e 2000, em que o primeiro gol encerrava a partida.",
+          "variantes": [
+            "Golden goal",
+            "Morte súbita"
+          ]
+        },
+        {
+          "id": "jogo_da_vida",
+          "nome": "Jogo da Vida",
+          "descricao": "Jogo de tabuleiro em que os jogadores percorrem etapas da vida, como carreira, casamento e aposentadoria.",
+          "variantes": [
+            "The Game of Life",
+            "The Checkered Game of Life"
+          ]
+        },
+        {
+          "id": "jogo_da_vida_2",
+          "nome": "Jogo da Vida",
+          "descricao": "Autômato celular criado em 1970, em que células de uma grade vivem ou morrem segundo regras simples.",
+          "variantes": [
+            "Conway's Game of Life",
+            "Game of Life"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sol de Vergina",
+        "descricao": "Símbolo solar de dezesseis raios da arte grega antiga, associado à dinastia argéada e achado numa arca de ouro em Vergina.",
+        "variantes": [
+          "Estrela de Vergina",
+          "Estrela Argéada",
+          "Vergina Sun"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estrela_amarela",
+          "nome": "Estrela amarela",
+          "descricao": "Distintivo em forma de estrela de seis pontas que os judeus eram obrigados a usar na Alemanha nazista e na Europa ocupada.",
+          "variantes": [
+            "Estrela de Davi amarela",
+            "Judenstern",
+            "Distintivo judaico",
+            "Yellow badge"
+          ]
+        },
+        {
+          "id": "estrela_de_davi",
+          "nome": "Estrela de Davi",
+          "descricao": "Hexagrama formado por dois triângulos equiláteros, símbolo da identidade judaica.",
+          "variantes": [
+            "Magen David",
+            "Escudo de Davi"
+          ]
+        },
+        {
+          "id": "estrela_da_terra",
+          "nome": "Estrela-da-terra",
+          "descricao": "Fungo do gênero Geastrum, cuja camada externa se abre em segmentos em forma de estrela ao redor do saco de esporos.",
+          "variantes": [
+            "Geastrum",
+            "Earthstar"
+          ]
+        },
+        {
+          "id": "venus",
+          "nome": "Vênus",
+          "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+          "variantes": [
+            "Estrela d'Alva"
+          ]
+        },
+        {
+          "id": "arena_de_verona",
+          "nome": "Arena de Verona",
+          "descricao": "Anfiteatro romano muito bem conservado, no centro de Verona, na Itália, usado para óperas e shows.",
+          "variantes": [
+            "Verona Arena",
+            "Arena di Verona"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cabeça Verde de Berlim",
+        "descricao": "Cabeça de estátua egípcia de xisto verde, dos períodos Tardio e Ptolemaico, no Museu Egípcio de Berlim.",
+        "variantes": [
+          "Berlin Green Head"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapeu_de_ouro_de_berlim",
+          "nome": "Chapéu de ouro de Berlim",
+          "descricao": "Cobertura cônica de folha de ouro da Idade do Bronze Final, encontrada na Europa Central e exposta no Neues Museum, em Berlim.",
+          "variantes": [
+            "Berliner Goldhut",
+            "Berlin Gold Hat",
+            "Chapéu dourado de Berlim"
+          ]
+        },
+        {
+          "id": "bico_de_sapato",
+          "nome": "Bico-de-sapato",
+          "descricao": "Grande ave pernalta de bico enorme em forma de sapato (Balaeniceps rex) dos pântanos da África.",
+          "variantes": [
+            "Balaeniceps rex",
+            "Cabeça-de-baleia"
+          ]
+        },
+        {
+          "id": "cabeca_de_ife",
+          "nome": "Cabeça de Ifé",
+          "descricao": "Cabeça de liga de cobre naturalista, atribuída a um rei iorubá, entre as dezoito peças achadas em Ifé, na Nigéria, em 1938.",
+          "variantes": [
+            "Ife Head",
+            "Cabeça de bronze de Ifé",
+            "Bronze Head from Ife"
+          ]
+        },
+        {
+          "id": "conferencia_de_berlim",
+          "nome": "Conferência de Berlim",
+          "descricao": "Reunião de potências em Berlim, entre 1884 e 1885, que estabeleceu regras para a ocupação colonial da África.",
+          "variantes": [
+            "Conferência do Congo",
+            "Berlin Conference"
+          ]
+        },
+        {
+          "id": "torre_de_tv_de_berlim",
+          "nome": "Torre de TV de Berlim",
+          "descricao": "Torre de televisão com uma esfera no alto, na Alexanderplatz, construída pela Alemanha Oriental e inaugurada em 1969.",
+          "variantes": [
+            "Fernsehturm Berlin",
+            "Fernsehturm"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Vaso dos Guerreiros",
+        "descricao": "Crátera micênica achada por Schliemann na acrópole de Micenas, decorada com um friso de soldados armados, hoje no Museu Arqueológico Nacional de Atenas.",
+        "variantes": [
+          "Vaso do Guerreiro",
+          "Warrior Vase"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "os_candangos",
+          "nome": "Os Candangos",
+          "descricao": "Escultura de bronze de Bruno Giorgi, oficialmente chamada Os Guerreiros, na Praça dos Três Poderes, em Brasília.",
+          "variantes": [
+            "Os Guerreiros"
+          ]
+        },
+        {
+          "id": "golden_state_warriors",
+          "nome": "Golden State Warriors",
+          "descricao": "Franquia da NBA sediada em San Francisco, na Califórnia, fundada em 1946 na Filadélfia.",
+          "variantes": [
+            "Warriors"
+          ]
+        },
+        {
+          "id": "sao_jorge_no_rio_de_janeiro",
+          "nome": "São Jorge no Rio de Janeiro",
+          "descricao": "Devoção popular carioca ao santo guerreiro São Jorge, celebrado em 23 de abril e sincretizado com um orixá.",
+          "variantes": [
+            "Festa de São Jorge",
+            "São Jorge Guerreiro"
+          ]
+        },
+        {
+          "id": "paolo_guerrero",
+          "nome": "Paolo Guerrero",
+          "descricao": "Atacante peruano nascido em 1984, autor do gol do título do Corinthians no Mundial de Clubes de 2012.",
+          "variantes": [
+            "José Paolo Guerrero",
+            "Guerrero"
+          ]
+        },
+        {
+          "id": "chacrinha",
+          "nome": "Chacrinha",
+          "descricao": "Apresentador e comunicador brasileiro de rádio e TV, nascido José Abelardo Barbosa de Medeiros.",
+          "variantes": [
+            "Abelardo Barbosa",
+            "José Abelardo Barbosa de Medeiros",
+            "Velho Guerreiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Máscara de Warka",
+        "descricao": "Rosto feminino de mármore branco de cerca de 3100 a.C., achado em Uruk e guardado no Museu Nacional do Iraque.",
+        "variantes": [
+          "Dama de Uruk",
+          "Mask of Warka",
+          "Lady of Uruk"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mascara_de_warka",
+          "nome": "Máscara de Warka",
+          "descricao": "Rosto feminino de mármore branco, de cerca de 3100 a.C., encontrado em Uruk e hoje no Museu Nacional do Iraque.",
+          "variantes": [
+            "Dama de Uruk",
+            "Mask of Warka"
+          ]
+        },
+        {
+          "id": "mascara_de_marfim_da_rainha_idia",
+          "nome": "Máscara de marfim da rainha Idia",
+          "descricao": "Máscara-pendente de marfim do século dezesseis que retrata Idia, primeira rainha-mãe (Iyoba) do Reino do Benin.",
+          "variantes": [
+            "Máscara de Idia",
+            "Benin ivory mask",
+            "Máscara de marfim do Benin"
+          ]
+        },
+        {
+          "id": "vaso_de_warka",
+          "nome": "Vaso de Warka",
+          "descricao": "Vaso de alabastro esculpido em relevo, de cerca de 3100 a.C., encontrado em Uruk, no atual Iraque.",
+          "variantes": [
+            "Vaso de Uruk",
+            "Warka Vase"
+          ]
+        },
+        {
+          "id": "mascara_de_agamenon",
+          "nome": "Máscara de Agamenon",
+          "descricao": "Máscara funerária de ouro encontrada em Micenas em 1876.",
+          "variantes": [
+            "Mask of Agamemnon"
+          ]
+        },
+        {
+          "id": "as_carta_de_baralho",
+          "nome": "Ás (carta de baralho)",
+          "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+          "variantes": [
+            "Ás",
+            "Ace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Estatueta de Tuxtla",
+        "descricao": "Pequena estatueta de jade com forma humana de bico de ave, gravada com glifos epi-olmecas e uma data da Contagem Longa, achada perto de San Andrés Tuxtla.",
+        "variantes": [
+          "Tuxtla Statuette"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatuas_de_gudea",
+          "nome": "Estátuas de Gudea",
+          "descricao": "Conjunto de cerca de vinte e sete estátuas do governante Gudea de Lagash, na Mesopotâmia, de cerca de 2144 a 2124 a.C.",
+          "variantes": [
+            "Estátua de Gudea",
+            "Statues of Gudea"
+          ]
+        },
+        {
+          "id": "resgate_de_atahualpa",
+          "nome": "Resgate de Atahualpa",
+          "descricao": "Grande quantidade de ouro e prata reunida pelos incas em Cajamarca, em 1532 e 1533, para libertar Atahualpa, preso por Pizarro.",
+          "variantes": [
+            "Quarto do Resgate",
+            "Cuarto del Rescate"
+          ]
+        },
+        {
+          "id": "estatua_de_coatlicue",
+          "nome": "Estátua de Coatlicue",
+          "descricao": "Monumental escultura asteca de pedra da deusa mãe Coatlicue, a da saia de serpentes, no Museu Nacional de Antropologia do México.",
+          "variantes": [
+            "Coatlicue",
+            "Coatlicue Mayor"
+          ]
+        },
+        {
+          "id": "estatua_de_hachiko",
+          "nome": "Estátua de Hachiko",
+          "descricao": "Estátua de bronze do cão akita Hachiko, diante da estação de Shibuya, em Tóquio.",
+          "variantes": [
+            "Hachikō",
+            "Hachiko"
+          ]
+        },
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Busto de Ankhaf",
+        "descricao": "Busto de calcário pintado do Reino Antigo egípcio, atribuído a um mestre, no Museu de Belas Artes de Boston.",
+        "variantes": [
+          "Busto de Ankhhaf",
+          "Bust of Ankhhaf"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "golfinho_nariz_de_garrafa",
+          "nome": "Golfinho-nariz-de-garrafa",
+          "descricao": "Golfinho oceânico do gênero Tursiops, de focinho curto e grosso, muito comum em águas costeiras.",
+          "variantes": [
+            "Tursiops truncatus",
+            "Boto-da-tainha",
+            "Bottlenose dolphin",
+            "Roaz",
+            "Tursiops"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        },
+        {
+          "id": "busto_de_nefertiti",
+          "nome": "Busto de Nefertiti",
+          "descricao": "Busto pintado de calcário e estuque que retrata a rainha Nefertiti, no Neues Museum de Berlim.",
+          "variantes": [
+            "Nefertiti Bust"
+          ]
+        },
+        {
+          "id": "mangusto_listrado",
+          "nome": "Mangusto-listrado",
+          "descricao": "Pequeno mangusto social (Mungos mungo) da savana africana, com listras nas costas.",
+          "variantes": [
+            "Mungos mungo",
+            "Mangusto-de-bandas"
+          ]
+        },
+        {
+          "id": "brasao_de_uganda",
+          "nome": "Brasão de Uganda",
+          "descricao": "Brasão de armas de Uganda, com cobo-de-orelha e grou-coroado ladeando um escudo com sol e tambor.",
+          "variantes": [
+            "Uganda",
+            "Brasão de armas de Uganda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Opon Ifá",
+        "descricao": "Bandeja de madeira entalhada usada pelos adivinhos (babalawo) na adivinhação do Ifá, na tradição iorubá.",
+        "variantes": [
+          "Àtẹ Ifá",
+          "Bandeja de Ifá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_goias",
+          "nome": "Bandeira de Goiás",
+          "descricao": "Bandeira do estado brasileiro de Goiás, com faixas verdes e amarelas e canto azul com cinco estrelas.",
+          "variantes": [
+            "Goiás",
+            "Bandeira do estado de Goiás"
+          ]
+        },
+        {
+          "id": "football_association",
+          "nome": "Football Association",
+          "descricao": "Federação inglesa de futebol, fundada em 1863, a mais antiga entidade nacional do esporte.",
+          "variantes": [
+            "The FA",
+            "Associação de Futebol da Inglaterra"
+          ]
+        },
+        {
+          "id": "bandeira_do_ira",
+          "nome": "Bandeira do Irã",
+          "descricao": "Bandeira nacional do Irã, tricolor verde, branca e vermelha com emblema vermelho e inscrições nas bordas das faixas.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_de_oma",
+          "nome": "Bandeira de Omã",
+          "descricao": "Bandeira nacional do Sultanato de Omã, com faixas branca, vermelha e verde e emblema de punhal e espadas.",
+          "variantes": [
+            "Omã",
+            "Bandeira de Oman"
+          ]
+        },
+        {
+          "id": "bandeira_de_israel",
+          "nome": "Bandeira de Israel",
+          "descricao": "Bandeira nacional de Israel, branca com duas faixas azuis horizontais e a Estrela de Davi.",
+          "variantes": [
+            "Flag of Israel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Pedra de Ezana",
+        "descricao": "Estela de Axum, na Etiópia, do século quatro, com inscrições trilíngues do rei Ezana sobre a sua conversão ao cristianismo e as suas conquistas.",
+        "variantes": [
+          "Estela de Ezana",
+          "Ezana Stone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alinhamentos_de_carnac",
+          "nome": "Alinhamentos de Carnac",
+          "descricao": "Milhares de menires enfileirados perto de Carnac, na Bretanha, França.",
+          "variantes": [
+            "Pedras de Carnac",
+            "Carnac stones"
+          ]
+        },
+        {
+          "id": "opera_de_viena",
+          "nome": "Ópera de Viena",
+          "descricao": "Casa de ópera inaugurada em 1869 na Ringstrasse de Viena, na Áustria.",
+          "variantes": [
+            "Ópera Estatal de Viena",
+            "Wiener Staatsoper"
+          ]
+        },
+        {
+          "id": "festa_de_iemanja",
+          "nome": "Festa de Iemanjá",
+          "descricao": "Celebração em homenagem ao orixá Iemanjá no bairro do Rio Vermelho, em Salvador",
+          "variantes": [
+            "Dois de Fevereiro",
+            "Festa do Rio Vermelho"
+          ]
+        },
+        {
+          "id": "everstone",
+          "nome": "Everstone",
+          "descricao": "Item dos jogos Pokémon que, segurado por um pokémon, impede sua evolução.",
+          "variantes": [
+            "Pedra Eterna"
+          ]
+        },
+        {
+          "id": "pedra_do_inga",
+          "nome": "Pedra do Ingá",
+          "descricao": "Rocha na Paraíba coberta de gravuras pré-históricas, também chamada Itacoatiara do Ingá.",
+          "variantes": [
+            "Itacoatiara do Ingá",
+            "Ingá Stone"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Disco de jade chinês; candidatas são entidades distintas (bismuto, BIC etc.)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Paleta egípcia; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "jogo_real_de_ur",
+      "motivo": "Mesmo jogo de tabuleiro mesopotâmico de Ur, mesmos nomes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Símbolo solar de Vergina, distinto das estrelas candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cabeça egípcia de xisto em Berlim; nenhuma candidata é a mesma."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Crátera micênica; candidatas não correspondem."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "mascara_de_warka",
+      "motivo": "Mesmo rosto de mármore de Uruk, mesmo museu e data."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Estatueta de jade epi-olmeca; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Busto de Ankhaf é distinto do busto de Nefertiti e demais."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Bandeja de adivinhação iorubá; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Estela de Axum; nenhuma candidata corresponde."
+    }
+  ]
+}

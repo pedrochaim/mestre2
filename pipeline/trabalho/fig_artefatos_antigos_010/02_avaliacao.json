@@ -1,0 +1,275 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Disco bi de jade nítido, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Os primeiros objetos como este disco de jade chinês foram feitos em que período?",
+      "resposta": "Neolítico",
+      "distratores": [
+        "Idade do Bronze",
+        "Dinastia Han",
+        "Dinastia Tang"
+      ],
+      "ancora": {
+        "nome": "Disco bi de jade",
+        "descricao": "Disco circular de jade com furo central, artefato ritual da China antiga, produzido desde o Neolítico.",
+        "variantes": [
+          "Bi",
+          "Bi de jade"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fragmento de paleta com animais e árvores, sem texto; identificável e resposta única.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta paleta de pedra egípcia, com fileiras de animais e árvores, é de que período?",
+      "resposta": "Período Protodinástico",
+      "distratores": [
+        "Reino Antigo",
+        "Reino Médio",
+        "Período Ptolemaico"
+      ],
+      "ancora": {
+        "nome": "Paleta Líbia",
+        "descricao": "Parte inferior de uma paleta cosmética egípcia de xisto, do período Naqada III, achada em Abidos e guardada no Museu Egípcio do Cairo.",
+        "variantes": [
+          "Paleta da Cidade",
+          "Paleta do Tributo Líbio",
+          "Libyan Palette"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tabuleiro com peças e dados bem visíveis; sem texto legível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Este tabuleiro mesopotâmico, achado numa tumba suméria, é de que milênio antes de Cristo?",
+      "resposta": "Terceiro milênio",
+      "distratores": [
+        "Quarto milênio",
+        "Segundo milênio",
+        "Primeiro milênio"
+      ],
+      "ancora": {
+        "nome": "Jogo Real de Ur",
+        "descricao": "Antigo jogo de tabuleiro mesopotâmico de corrida, com tabuleiro incrustado do Museu Britânico, de cerca de 2600 a 2400 a.C.",
+        "variantes": [
+          "Royal Game of Ur",
+          "Jogo das Vinte Casas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Símbolo de dezesseis raios claro e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que região da Grécia fica o sítio arqueológico que deu nome a este símbolo solar?",
+      "resposta": "Macedônia",
+      "distratores": [
+        "Tessália",
+        "Épiro",
+        "Peloponeso"
+      ],
+      "ancora": {
+        "nome": "Sol de Vergina",
+        "descricao": "Símbolo solar de dezesseis raios da arte grega antiga, associado à dinastia argéada e achado numa arca de ouro em Vergina.",
+        "variantes": [
+          "Estrela de Vergina",
+          "Estrela Argéada",
+          "Vergina Sun"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cabeça de pedra verde nítida, sem texto; reconhecível para aficionados, em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade fica o museu desta cabeça egípcia de pedra verde?",
+      "resposta": "Berlim",
+      "distratores": [
+        "Londres",
+        "Paris",
+        "Turim"
+      ],
+      "ancora": {
+        "nome": "Cabeça Verde de Berlim",
+        "descricao": "Cabeça de estátua egípcia de xisto verde, dos períodos Tardio e Ptolemaico, no Museu Egípcio de Berlim.",
+        "variantes": [
+          "Berlin Green Head"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vaso micênico com guerreiros, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de vaso grego é este, de boca larga e duas alças?",
+      "resposta": "Crátera",
+      "distratores": [
+        "Ânfora",
+        "Hídria",
+        "Lécito"
+      ],
+      "ancora": {
+        "nome": "Vaso dos Guerreiros",
+        "descricao": "Crátera micênica achada por Schliemann na acrópole de Micenas, decorada com um friso de soldados armados, hoje no Museu Arqueológico Nacional de Atenas.",
+        "variantes": [
+          "Vaso do Guerreiro",
+          "Warrior Vase"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rosto de mármore em foto em preto e branco, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que divindade suméria costuma ser sugerida como a retratada nesta máscara de mármore?",
+      "resposta": "Inanna",
+      "distratores": [
+        "Ereshkigal",
+        "Ninhursag",
+        "Tiamat"
+      ],
+      "ancora": {
+        "nome": "Máscara de Warka",
+        "descricao": "Rosto feminino de mármore branco de cerca de 3100 a.C., achado em Uruk e guardado no Museu Nacional do Iraque.",
+        "variantes": [
+          "Dama de Uruk",
+          "Mask of Warka",
+          "Lady of Uruk"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estatueta de jade verde com glifos, fundo preto, sem texto legível; reconhecível por aficionados.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Esta estatueta mesoamericana tem gravada uma data da Contagem Longa. Em que século depois de Cristo ela cai?",
+      "resposta": "Século dois",
+      "distratores": [
+        "Século um",
+        "Século quatro",
+        "Século seis"
+      ],
+      "ancora": {
+        "nome": "Estatueta de Tuxtla",
+        "descricao": "Pequena estatueta de jade com forma humana de bico de ave, gravada com glifos epi-olmecas e uma data da Contagem Longa, achada perto de San Andrés Tuxtla.",
+        "variantes": [
+          "Tuxtla Statuette"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mostra o interior de uma tumba de tolo, e não as taças de Vafio; a entidade do item não aparece e a tumba não é inequivocamente reconhecível (parece outros tolos micênicos)."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Busto de calcário pintado nítido; os cartões ao fundo são ilegíveis.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade dos Estados Unidos fica o museu onde está este busto egípcio do Reino Antigo?",
+      "resposta": "Boston",
+      "distratores": [
+        "Nova York",
+        "Filadélfia",
+        "Chicago"
+      ],
+      "ancora": {
+        "nome": "Busto de Ankhaf",
+        "descricao": "Busto de calcário pintado do Reino Antigo egípcio, atribuído a um mestre, no Museu de Belas Artes de Boston.",
+        "variantes": [
+          "Busto de Ankhhaf",
+          "Bust of Ankhhaf"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeja circular entalhada, sem texto, reconhecível pelas bordas esculpidas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que tipo de objeto da tradição iorubá é este, de madeira entalhada?",
+      "resposta": "Bandeja de adivinhação",
+      "distratores": [
+        "Tigela de oferendas",
+        "Escudo de guerra",
+        "Tambor cerimonial"
+      ],
+      "ancora": {
+        "nome": "Opon Ifá",
+        "descricao": "Bandeja de madeira entalhada usada pelos adivinhos (babalawo) na adivinhação do Ifá, na tradição iorubá.",
+        "variantes": [
+          "Àtẹ Ifá",
+          "Opon Ifa",
+          "Bandeja de Ifá"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estela inscrita em Axum; a placa visível só diz quem a achou, sem entregar o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "O rei que mandou gravar esta estela, no século quatro, converteu-se a que religião?",
+      "resposta": "Cristianismo",
+      "distratores": [
+        "Islamismo",
+        "Judaísmo",
+        "Zoroastrismo"
+      ],
+      "ancora": {
+        "nome": "Pedra de Ezana",
+        "descricao": "Estela de Axum, na Etiópia, do século quatro, com inscrições trilíngues do rei Ezana sobre a sua conversão ao cristianismo e as suas conquistas.",
+        "variantes": [
+          "Estela de Ezana",
+          "Ezana Stone"
+        ]
+      }
+    }
+  ]
+}
