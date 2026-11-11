@@ -1,0 +1,444 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tiara",
+        "descricao": "Adorno de cabeça semicircular decorado com pedras preciosas, usado por mulheres em ocasiões formais.",
+        "variantes": [
+          "Diadema"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tiara",
+          "nome": "Tiara",
+          "descricao": "Adorno de cabeça semicircular cravejado de diamantes, em exposição.",
+          "variantes": [
+            "Diadema"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        },
+        {
+          "id": "tarzan",
+          "nome": "Tarzan",
+          "descricao": "Personagem criado por Edgar Rice Burroughs em 1912, menino inglês criado por macacos na África.",
+          "variantes": [
+            "Tarzã",
+            "Lorde Greystoke"
+          ]
+        },
+        {
+          "id": "taranto",
+          "nome": "Taranto",
+          "descricao": "Cidade do sul da Itália fundada no século oito a.C. por colonos gregos com o nome de Taras.",
+          "variantes": [
+            "Taras",
+            "Tarento"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pés de lótus",
+        "descricao": "Antigo costume chinês de quebrar e atar os pés de meninas para alterar seu formato e tamanho.",
+        "variantes": [
+          "Atadura dos pés",
+          "Foot binding"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_lotus",
+          "nome": "Templo de Lótus",
+          "descricao": "Casa de adoração bahá'í em Nova Délhi, na Índia, em forma de flor de lótus com 27 pétalas de mármore.",
+          "variantes": [
+            "Lotus Temple",
+            "Casa de Adoração Bahá'í"
+          ]
+        },
+        {
+          "id": "lotus_2",
+          "nome": "Lótus",
+          "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+          "variantes": [
+            "Flor-de-lótus",
+            "Lótus-sagrado",
+            "Nelumbo nucifera"
+          ]
+        },
+        {
+          "id": "irma_dulce",
+          "nome": "Irmã Dulce",
+          "descricao": "Freira baiana (1914-1992), fundadora de obras de caridade em Salvador, canonizada como Santa Dulce dos Pobres.",
+          "variantes": [
+            "Santa Dulce dos Pobres",
+            "Maria Rita de Sousa Brito Lopes Pontes"
+          ]
+        },
+        {
+          "id": "galette_des_rois",
+          "nome": "Galette des rois",
+          "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+          "variantes": [
+            "Bolo-rei francês",
+            "Torta dos reis",
+            "Bolo de Reis francês"
+          ]
+        },
+        {
+          "id": "bandagem_de_boxe",
+          "nome": "Bandagem de boxe",
+          "descricao": "Faixa de tecido enrolada na mão e no pulso para protegê-los em lutas.",
+          "variantes": [
+            "Atadura de mão",
+            "Hand wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Theyyam",
+        "descricao": "Ritual hindu em que o performer, com maquiagem e adornos elaborados, encarna uma divindade, praticado no norte de Kerala.",
+        "variantes": [
+          "Kaliyattam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "borneu",
+          "nome": "Bornéu",
+          "descricao": "Grande ilha do Sudeste Asiático, a terceira maior do mundo.",
+          "variantes": [
+            "Borneo",
+            "Kalimantan"
+          ]
+        },
+        {
+          "id": "kalaripayattu",
+          "nome": "Kalaripayattu",
+          "descricao": "Arte marcial indiana originada no atual estado de Kerala, praticada com espadas, escudos e golpes acrobáticos.",
+          "variantes": [
+            "Kalari",
+            "Kalarippayattu"
+          ]
+        },
+        {
+          "id": "bugio",
+          "nome": "Bugio",
+          "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos.",
+          "variantes": [
+            "Guariba",
+            "Alouatta",
+            "Howler monkey",
+            "Barbado"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        },
+        {
+          "id": "jomo_kenyatta",
+          "nome": "Jomo Kenyatta",
+          "descricao": "Político queniano, primeiro presidente do Quênia independente, de 1964 a 1978.",
+          "variantes": [
+            "Kenyatta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Alebrije",
+        "descricao": "Escultura mexicana colorida de criatura fantástica, feita de papel machê ou madeira.",
+        "variantes": [
+          "Alebrijes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "valerie",
+          "nome": "Valerie",
+          "descricao": "Líder do ginásio de tipo Fada de Laverre, em Kalos, nos jogos Pokémon X e Y.",
+          "variantes": []
+        },
+        {
+          "id": "jalebi",
+          "nome": "Jalebi",
+          "descricao": "Doce do sul da Ásia feito de massa frita em espirais e embebida em calda de açúcar.",
+          "variantes": [
+            "Jilapi",
+            "Zalabia"
+          ]
+        },
+        {
+          "id": "ilhas_baleares",
+          "nome": "Ilhas Baleares",
+          "descricao": "Arquipélago espanhol no oeste do mar Mediterrâneo, formado por Maiorca, Menorca, Ibiza e Formentera.",
+          "variantes": [
+            "Baleares"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "lebron_james",
+          "nome": "LeBron James",
+          "descricao": "Astro americano do basquete da NBA, conhecido como King James.",
+          "variantes": [
+            "King James",
+            "LeBron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mărțișor",
+        "descricao": "Objeto tradicional romeno de fios entrelaçados vermelho e branco, usado a partir de 1º de março.",
+        "variantes": [
+          "Mărțișor romeno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "lt_surge",
+          "nome": "Lt. Surge",
+          "descricao": "Líder do ginásio do tipo Elétrico da cidade de Vermilion, em Kanto, nos jogos e no anime Pokémon.",
+          "variantes": [
+            "Tenente Surge",
+            "Matis"
+          ]
+        },
+        {
+          "id": "kart",
+          "nome": "Kart",
+          "descricao": "Pequeno veículo de competição de chassi tubular e motor simples, usado no kartismo.",
+          "variantes": [
+            "Go-kart",
+            "Kartismo"
+          ]
+        },
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        },
+        {
+          "id": "louva_a_deus",
+          "nome": "Louva-a-deus",
+          "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+          "variantes": [
+            "Mantodea",
+            "Mantis",
+            "Mantídeo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mikoshi",
+        "descricao": "Santuário xintoísta portátil que transporta uma divindade durante festivais no Japão.",
+        "variantes": [
+          "Omikoshi",
+          "Santuário portátil japonês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mykonos",
+          "nome": "Mykonos",
+          "descricao": "Ilha grega das Cíclades, conhecida pelas casas brancas e pela vida noturna.",
+          "variantes": [
+            "Míconos",
+            "Mikonos"
+          ]
+        },
+        {
+          "id": "meiose",
+          "nome": "Meiose",
+          "descricao": "Divisão celular que reduz pela metade o número de cromossomos e dá origem aos gametas.",
+          "variantes": [
+            "Meiosis"
+          ]
+        },
+        {
+          "id": "kokoshnik",
+          "nome": "Kokoshnik",
+          "descricao": "Tradicional adorno de cabeça russo usado por mulheres e meninas junto com o sarafã.",
+          "variantes": [
+            "Kokoshnik russo"
+          ]
+        },
+        {
+          "id": "domino",
+          "nome": "Dominó",
+          "descricao": "Jogo de peças retangulares divididas em duas metades marcadas com pontos de zero a seis.",
+          "variantes": [
+            "Dominós"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lehenga",
+        "descricao": "Saia longa bordada do subcontinente indiano, usada com blusa choli e dupatta em casamentos e festas.",
+        "variantes": [
+          "Lehnga",
+          "Ghagra",
+          "Lehenga choli"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gavial",
+          "nome": "Gavial",
+          "descricao": "Crocodiliano de focinho longo e fino (Gavialis gangeticus) dos rios do norte do subcontinente indiano.",
+          "variantes": [
+            "Gavialis gangeticus",
+            "Gharial",
+            "Gavial-do-ganges"
+          ]
+        },
+        {
+          "id": "jenga",
+          "nome": "Jenga",
+          "descricao": "Jogo de habilidade em que se retiram blocos de madeira de uma torre e se recolocam no topo sem derrubá-la.",
+          "variantes": []
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        },
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "tiara",
+      "motivo": "Mesmo adorno de cabeça semicircular com pedras, mesma variante Diadema."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Costume chinês de atar os pés; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Theyyam é ritual de Kerala, distinto de Kalaripayattu e demais candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Alebrije é escultura mexicana; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Mărțișor é objeto tradicional romeno; sem candidata equivalente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Mikoshi é santuário portátil japonês; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lehenga é peça de vestuário; nenhuma candidata corresponde."
+    }
+  ]
+}

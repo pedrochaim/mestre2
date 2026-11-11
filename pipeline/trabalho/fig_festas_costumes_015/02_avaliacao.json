@@ -1,0 +1,170 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tiara de diamantes em vitrine, nítida, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Esta joia de cabeça tem origem em qual antiga civilização?",
+      "tipo": "multipla",
+      "resposta": "Pérsia",
+      "distratores": [
+        "Império Inca",
+        "Dinastia Han",
+        "Reino Hitita"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Tiara",
+        "descricao": "Adorno de cabeça semicircular decorado com pedras preciosas, usado por mulheres em ocasiões formais.",
+        "variantes": [
+          "Diadema"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto histórica de um pé deformado, sem rosto, reconhecível pelo formato característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Esta prática chinesa se popularizou entre a elite em que dinastia?",
+      "tipo": "aberta",
+      "resposta": "Dinastia Song",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pés de lótus",
+        "descricao": "Antigo costume chinês de quebrar e atar os pés de meninas para alterar seu formato e tamanho.",
+        "variantes": [
+          "Atadura dos pés",
+          "Foot binding"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de performer de Theyyam com maquiagem e adornos característicos, em festa pública.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Em que estado da Índia é praticado principalmente este ritual?",
+      "tipo": "aberta",
+      "resposta": "Kerala",
+      "destino": 0,
+      "ancora": {
+        "nome": "Theyyam",
+        "descricao": "Ritual hindu em que o performer, com maquiagem e adornos elaborados, encarna uma divindade, praticado no norte de Kerala.",
+        "variantes": [
+          "Kaliyattam"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra pessoas comuns (mãe e bebê) em primeiro plano; além disso, o gesto é ambíguo quanto a costume."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Escultura colorida e fantástica, claramente um alebrije; a plaquinha 'No tocar' não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que tipo de arte popular mexicana é esta?",
+      "tipo": "aberta",
+      "resposta": "Alebrije",
+      "destino": 0,
+      "ancora": {
+        "nome": "Alebrije",
+        "descricao": "Escultura mexicana colorida de criatura fantástica, feita de papel machê ou madeira.",
+        "variantes": [
+          "Alebrijes"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fio vermelho e branco com campânula-branca, nítido e sem texto; resposta única na pergunta sobre o mês.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "pergunta": "Em que mês começa a tradição de usar este pequeno objeto de fios vermelho e branco?",
+      "tipo": "multipla",
+      "resposta": "Março",
+      "distratores": [
+        "Janeiro",
+        "Maio",
+        "Setembro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mărțișor",
+        "descricao": "Objeto tradicional romeno de fios entrelaçados vermelho e branco, usado a partir de 1º de março.",
+        "variantes": [
+          "Martisor",
+          "Mărțișor romeno"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Montagem com dezenas de lanternas diferentes numa exposição, com placa; assunto difuso e sem resposta única clara."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Ilustração estilizada de dançarinos eslavos diante de igreja; não permite reconhecer o costume (a água não aparece)."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A figura é um caixeiro-viajante entalhado e não um quebra-nozes claro, e a plaquinha em alemão traz texto legível; reconhecimento ambíguo."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mikoshi dourado com cordas e fênix no topo, claramente reconhecível apesar da foto noturna.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que objeto religioso japonês é este?",
+      "tipo": "aberta",
+      "resposta": "Mikoshi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mikoshi",
+        "descricao": "Santuário xintoísta portátil que transporta uma divindade durante festivais no Japão.",
+        "variantes": [
+          "Omikoshi",
+          "Santuário portátil japonês"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É um desenho a nanquim, e uma gola pode ser fotografada; a política só aceita ilustração para o que não pode ser fotografado."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Lehenga choli vermelho com bordados dourados e dupatta num manequim, nítido e reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "pergunta": "Este traje feminino é típico de que região da Ásia?",
+      "tipo": "aberta",
+      "resposta": "Subcontinente indiano",
+      "destino": 1,
+      "ancora": {
+        "nome": "Lehenga",
+        "descricao": "Saia longa bordada do subcontinente indiano, usada com blusa choli e dupatta em casamentos e festas.",
+        "variantes": [
+          "Lehnga",
+          "Ghagra",
+          "Lehenga choli"
+        ]
+      }
+    }
+  ]
+}

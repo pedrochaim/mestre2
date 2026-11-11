@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta joia de cabeça tem origem em qual antiga civilização?",
+        "resposta": "Pérsia"
+      },
+      "existentes": [
+        {
+          "id": "q15887",
+          "pergunta": "Que joia de cabeça é esta?",
+          "resposta": "Tiara"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual é a joia (tiara); a nova pergunta a civilização de origem (Pérsia). Fatos diferentes."
+    }
+  ]
+}
