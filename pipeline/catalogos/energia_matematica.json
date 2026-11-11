@@ -509,7 +509,7 @@
       "titulo": "en:Conic section",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Conjunto de Julia",
@@ -558,7 +558,7 @@
       "titulo": "en:Trefoil knot",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pilha de Volta",
@@ -621,7 +621,7 @@
       "titulo": "en:Solar cooker",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Usina nuclear de Zaporíjia",
@@ -670,7 +670,7 @@
       "titulo": "en:Electronic waste",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Compostagem",
@@ -705,7 +705,7 @@
       "titulo": "en:Pyramid (geometry)",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Esfera",
@@ -740,7 +740,7 @@
       "titulo": "en:Cuboid",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Gráfico de barras",
@@ -839,6 +839,286 @@
       "camada": 3,
       "destino": 1,
       "status": "sem_imagem"
+    },
+    {
+      "nome": "Navio petroleiro",
+      "titulo": "en:Oil tanker",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Carvão vegetal",
+      "titulo": "en:Charcoal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lenha",
+      "titulo": "en:Firewood",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Poste de energia",
+      "titulo": "en:Utility pole",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cisterna",
+      "titulo": "en:Cistern",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hidrômetro",
+      "titulo": "en:Water meter",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telhado verde",
+      "titulo": "en:Green roof",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Usina solar flutuante",
+      "titulo": "en:Floating solar",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cata-vento de bombeamento",
+      "titulo": "en:Windpump",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mina a céu aberto",
+      "titulo": "en:Open-pit mining",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Contador Geiger",
+      "titulo": "en:Geiger counter",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Poluição luminosa",
+      "titulo": "en:Light pollution",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina de Furnas",
+      "titulo": "en:Furnas Dam",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Radiação Cherenkov",
+      "titulo": "en:Cherenkov radiation",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Turbina Savonius",
+      "titulo": "en:Savonius wind turbine",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Yellowcake",
+      "titulo": "en:Yellowcake",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Areias betuminosas",
+      "titulo": "en:Oil sands",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina de Xingó",
+      "titulo": "en:Xingó Dam",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Turfa",
+      "titulo": "en:Peat",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Oleoduto Trans-Alasca",
+      "titulo": "en:Trans-Alaska Pipeline System",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quadrado",
+      "titulo": "en:Square",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Triângulo",
+      "titulo": "en:Triangle",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Elipse",
+      "titulo": "en:Ellipse",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Losango",
+      "titulo": "en:Rhombus",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Trapézio",
+      "titulo": "en:Trapezoid",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pentágono",
+      "titulo": "en:Pentagon",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tabuada",
+      "titulo": "en:Multiplication table",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Octógono",
+      "titulo": "en:Octagon",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Senoide",
+      "titulo": "en:Sine wave",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Histograma",
+      "titulo": "en:Histogram",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "HP-12C",
+      "titulo": "en:HP-12C",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Catenária",
+      "titulo": "en:Catenary",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Calculadora gráfica",
+      "titulo": "en:Graphing calculator",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cuboctaedro",
+      "titulo": "en:Cuboctahedron",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Stella octangula",
+      "titulo": "en:Stella octangula",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Tapete de Sierpinski",
+      "titulo": "en:Sierpiński carpet",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Anéis borromeanos",
+      "titulo": "en:Borromean rings",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Trombeta de Gabriel",
+      "titulo": "en:Gabriel's horn",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cicloide",
+      "titulo": "en:Cycloid",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Espiral de Ulam",
+      "titulo": "en:Ulam spiral",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

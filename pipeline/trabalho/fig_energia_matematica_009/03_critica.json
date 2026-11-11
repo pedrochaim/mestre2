@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o navio nem a carga. Os trechos confirmam que o petroleiro transporta petróleo a granel. Os distratores são outras cargas a granel e nenhum deles está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O efeito de reduzir as ilhas de calor urbanas dos telhados verdes é amplamente documentado. Os trechos mencionam o resfriamento do ambiente. Nenhum distrator se aplica, e o enunciado não entrega a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O nome trefoil vem da folha do trevo, o que é amplamente documentado. O enunciado não nomeia o nó, e os distratores são plantas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de nível 1 para reconhecer o sólido, e o enunciado não vaza a resposta. Os trechos sustentam a definição.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado vaza com 'luz do sol', que entrega 'solar' na resposta. O distrator 'Painel fotovoltaico' também usa a luz do sol, então é defensável. A reescrita tira a pista e troca esse distrator.",
+      "reescrita": {
+        "pergunta": "Que aparelho é este?",
+        "resposta": "Fogão solar",
+        "distratores": [
+          "Antena parabólica",
+          "Telescópio refletor",
+          "Forno elétrico"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o brilho azul característico de reatores como radiação Cherenkov. O enunciado não nomeia a resposta, e ela é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de nível 1 para reconhecer o tipo de gráfico, e o enunciado não vaza a resposta. Os trechos sustentam a definição.",
+      "reescrita": null
+    }
+  ]
+}

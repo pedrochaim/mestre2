@@ -1,0 +1,435 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Navio petroleiro",
+        "descricao": "Navio projetado para o transporte a granel de petróleo bruto ou de seus derivados.",
+        "variantes": [
+          "Petroleiro",
+          "Navio-tanque"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "petroleo",
+          "nome": "Petróleo",
+          "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+          "variantes": [
+            "Petroleum",
+            "Óleo cru"
+          ]
+        },
+        {
+          "id": "o_navio_negreiro",
+          "nome": "O Navio Negreiro",
+          "descricao": "Poema abolicionista de Castro Alves, de 1868, que cita a bandeira brasileira como auriverde pendão.",
+          "variantes": [
+            "Navio Negreiro",
+            "Tragédia no Mar"
+          ]
+        },
+        {
+          "id": "navio_negreiro",
+          "nome": "Navio negreiro",
+          "descricao": "Navio usado no tráfico atlântico para transportar africanos escravizados até as Américas.",
+          "variantes": [
+            "Tumbeiro"
+          ]
+        },
+        {
+          "id": "petrolina",
+          "nome": "Petrolina",
+          "descricao": "Cidade do sertão de Pernambuco, polo de fruticultura irrigada, vizinha de Juazeiro, na Bahia.",
+          "variantes": []
+        },
+        {
+          "id": "vaselina",
+          "nome": "Vaselina",
+          "descricao": "Marca de geleia de petróleo criada pelo químico americano Robert Chesebrough no século dezenove.",
+          "variantes": [
+            "Vaseline",
+            "Petrolato",
+            "Geleia de petróleo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Telhado verde",
+        "descricao": "Cobertura de edifício parcialmente ou totalmente coberta por vegetação sobre uma membrana impermeabilizante.",
+        "variantes": [
+          "Cobertura verde",
+          "Telhado vivo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caldo_verde",
+          "nome": "Caldo verde",
+          "descricao": "Sopa portuguesa de couve em tiras, batata e azeite, servida com rodelas de linguiça ou chouriço.",
+          "variantes": []
+        },
+        {
+          "id": "cha",
+          "nome": "Chá",
+          "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+          "variantes": [
+            "Chá preto",
+            "Chá verde"
+          ]
+        },
+        {
+          "id": "vagem",
+          "nome": "Vagem",
+          "descricao": "Fruto verde e imaturo do feijoeiro comum, comido com a casca como hortaliça.",
+          "variantes": [
+            "Feijão-verde",
+            "Vagem verde"
+          ]
+        },
+        {
+          "id": "raio_verde",
+          "nome": "Raio verde",
+          "descricao": "Fenômeno óptico atmosférico em que surge um ponto verde acima do Sol no nascer ou no pôr do sol.",
+          "variantes": [
+            "Brilho verde",
+            "Green flash"
+          ]
+        },
+        {
+          "id": "revolucao_verde",
+          "nome": "Revolução Verde",
+          "descricao": "Conjunto de inovações agrícolas de meados do século vinte, com sementes de alto rendimento, que multiplicou a produção de grãos",
+          "variantes": [
+            "Green Revolution"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Nó de trevo",
+        "descricao": "O nó não trivial mais simples da teoria dos nós, com três cruzamentos.",
+        "variantes": [
+          "Trefoil knot",
+          "Nó trifólio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fontana_di_trevi",
+          "nome": "Fontana di Trevi",
+          "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+          "variantes": [
+            "Fonte de Trevi",
+            "Trevi Fountain"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três",
+            "Arremesso de três pontos"
+          ]
+        },
+        {
+          "id": "couve_rabano",
+          "nome": "Couve-rábano",
+          "descricao": "Hortaliça (Brassica oleracea, grupo Gongylodes) de caule globoso engrossado e folhas de couve.",
+          "variantes": [
+            "Kohlrabi",
+            "Nabo-de-repolho"
+          ]
+        },
+        {
+          "id": "concilio_de_trento",
+          "nome": "Concílio de Trento",
+          "descricao": "Concílio ecumênico da Igreja Católica realizado entre 1545 e 1563",
+          "variantes": [
+            "Council of Trent",
+            "Concílio Tridentino"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pirâmide",
+        "descricao": "Poliedro formado por uma base poligonal e um ponto, o ápice, ligado a todos os vértices da base.",
+        "variantes": [
+          "Pirâmide de base quadrada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pride_fighting_championships",
+          "nome": "Pride Fighting Championships",
+          "descricao": "Organização japonesa de MMA que promoveu grandes eventos entre 1997 e 2007.",
+          "variantes": [
+            "Pride FC",
+            "Pride"
+          ]
+        },
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        },
+        {
+          "id": "raiden_mortal_kombat",
+          "nome": "Raiden (Mortal Kombat)",
+          "descricao": "Deus do trovão e protetor da Terra na série de jogos de luta Mortal Kombat.",
+          "variantes": [
+            "Raiden"
+          ]
+        },
+        {
+          "id": "chamine_de_fada",
+          "nome": "Chaminé de fada",
+          "descricao": "Pilar de rocha mole esculpido pela erosão, coberto por um bloco mais duro no topo.",
+          "variantes": [
+            "Hoodoo",
+            "Pirâmide de terra",
+            "Tent rock"
+          ]
+        },
+        {
+          "id": "raijin",
+          "nome": "Raijin",
+          "descricao": "Deus do trovão na mitologia japonesa e no xintoísmo, representado com tambores.",
+          "variantes": [
+            "Kaminari-sama",
+            "Raiden"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fogão solar",
+        "descricao": "Aparelho que usa a luz solar direta, concentrada por espelhos, para cozinhar ou aquecer alimentos.",
+        "variantes": [
+          "Forno solar",
+          "Cozinha solar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "halo_solar",
+          "nome": "Halo solar",
+          "descricao": "Anel luminoso em torno do Sol, produzido pela luz ao atravessar cristais de gelo na atmosfera.",
+          "variantes": [
+            "Halo",
+            "Halo de 22 graus"
+          ]
+        },
+        {
+          "id": "torre_solar",
+          "nome": "Torre solar",
+          "descricao": "Usina solar térmica em que um campo de espelhos móveis concentra a luz do sol no topo de uma torre central.",
+          "variantes": [
+            "Usina de torre central",
+            "Torre de energia solar"
+          ]
+        },
+        {
+          "id": "mancha_solar",
+          "nome": "Mancha solar",
+          "descricao": "Região temporária mais escura e fria na superfície do Sol, causada por concentrações de fluxo magnético.",
+          "variantes": [
+            "Manchas solares",
+            "Sunspot"
+          ]
+        },
+        {
+          "id": "gibao_de_maos_brancas",
+          "nome": "Gibão-de-mãos-brancas",
+          "descricao": "Primata da família dos gibões, Hylobates lar, do Sudeste Asiático.",
+          "variantes": [
+            "Gibão-lar",
+            "Hylobates lar"
+          ]
+        },
+        {
+          "id": "parelio",
+          "nome": "Parélio",
+          "descricao": "Fenômeno óptico em que pontos luminosos aparecem ao lado do Sol, causado por cristais de gelo.",
+          "variantes": [
+            "Sun dog",
+            "Falso sol",
+            "Cão-do-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Radiação Cherenkov",
+        "descricao": "Radiação eletromagnética emitida quando partículas carregadas atravessam um meio mais rápido que a luz nesse meio, vista como brilho azul em reatores nucleares.",
+        "variantes": [
+          "Efeito Tcherenkov",
+          "Cherenkov radiation"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "efeito_werther",
+          "nome": "Efeito Werther",
+          "descricao": "Nome dado ao aumento de suicídios por imitação depois de casos amplamente divulgados.",
+          "variantes": [
+            "Werther effect",
+            "Suicídio por imitação"
+          ]
+        },
+        {
+          "id": "explosao_cambriana",
+          "nome": "Explosão cambriana",
+          "descricao": "Rápida diversificação da vida animal no início do período Cambriano, quando surgiram muitos dos grandes grupos de animais.",
+          "variantes": [
+            "Cambrian explosion",
+            "Radiação cambriana"
+          ]
+        },
+        {
+          "id": "radioatividade",
+          "nome": "Radioatividade",
+          "descricao": "Emissão espontânea de radiação por núcleos atômicos instáveis, descoberta em 1896.",
+          "variantes": [
+            "Decaimento radioativo",
+            "Radioactivity"
+          ]
+        },
+        {
+          "id": "anton_tchekhov",
+          "nome": "Anton Tchekhov",
+          "descricao": "Dramaturgo, contista e médico russo, autor de A Gaivota e Tio Vânia.",
+          "variantes": [
+            "Anton Chekhov"
+          ]
+        },
+        {
+          "id": "rio_reno",
+          "nome": "Rio Reno",
+          "descricao": "Grande rio da Europa Ocidental que nasce nos Alpes suíços e deságua no mar do Norte, nos Países Baixos.",
+          "variantes": [
+            "Rhine",
+            "Rhein",
+            "Rhin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Histograma",
+        "descricao": "Gráfico de barras adjacentes que representa a distribuição de frequências de dados quantitativos em intervalos.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "instagram",
+          "nome": "Instagram",
+          "descricao": "Rede social de compartilhamento de fotos e vídeos lançada em 2010.",
+          "variantes": []
+        },
+        {
+          "id": "pangrama",
+          "nome": "Pangrama",
+          "descricao": "Frase que usa todas as letras do alfabeto",
+          "variantes": [
+            "Pantograma"
+          ]
+        },
+        {
+          "id": "granma",
+          "nome": "Granma",
+          "descricao": "Iate que levou Fidel Castro e 81 guerrilheiros do México a Cuba em 1956, dando início à Revolução Cubana.",
+          "variantes": [
+            "Iate Granma"
+          ]
+        },
+        {
+          "id": "esquistossomo",
+          "nome": "Esquistossomo",
+          "descricao": "Verme trematódeo parasita do gênero Schistosoma, com machos e fêmeas separados, vivendo nas veias do ser humano.",
+          "variantes": [
+            "Schistosoma mansoni",
+            "Schistosoma"
+          ]
+        },
+        {
+          "id": "autorama",
+          "nome": "Autorama",
+          "descricao": "Brinquedo e hobby de corrida de carrinhos elétricos em miniatura guiados por um sulco na pista (slot car).",
+          "variantes": [
+            "Slot car",
+            "Slot racing"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um navio petroleiro; petróleo e navio negreiro são entidades distintas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Telhado verde não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nó matemático sem candidata equivalente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pirâmide geométrica é diferente da Pirâmide de Djoser e das demais."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fogão solar é um aparelho distinto de torre solar e fenômenos solares."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Radiação Cherenkov é um fenômeno distinto de radioatividade e das demais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Histograma não tem equivalente entre as candidatas."
+    }
+  ]
+}

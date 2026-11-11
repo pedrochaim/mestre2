@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Petroleiro de perfil, claro, sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que carga este navio transporta em grandes quantidades?",
+      "resposta": "Petróleo",
+      "distratores": [
+        "Minério de ferro",
+        "Grãos",
+        "Carvão"
+      ],
+      "ancora": {
+        "nome": "Navio petroleiro",
+        "descricao": "Navio projetado para o transporte a granel de petróleo bruto ou de seus derivados.",
+        "variantes": [
+          "Petroleiro",
+          "Navio-tanque"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Telhado com vegetação visto de cima, claro e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este tipo de telhado ajuda a reduzir qual fenômeno das grandes cidades?",
+      "resposta": "Ilhas de calor",
+      "distratores": [
+        "Chuva ácida",
+        "Inversão térmica",
+        "Maré vermelha"
+      ],
+      "ancora": {
+        "nome": "Telhado verde",
+        "descricao": "Cobertura de edifício parcialmente ou totalmente coberta por vegetação sobre uma membrana impermeabilizante.",
+        "variantes": [
+          "Cobertura verde",
+          "Telhado vivo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Nó de trevo renderizado em 3D, claro e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este objeto da matemática leva o nome de qual planta?",
+      "resposta": "Trevo",
+      "distratores": [
+        "Lírio",
+        "Hera",
+        "Samambaia"
+      ],
+      "ancora": {
+        "nome": "Nó de trevo",
+        "descricao": "O nó não trivial mais simples da teoria dos nós, com três cruzamentos.",
+        "variantes": [
+          "Trefoil knot",
+          "Nó trifólio"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pirâmide de base quadrada clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que sólido geométrico é este?",
+      "resposta": "Pirâmide",
+      "ancora": {
+        "nome": "Pirâmide",
+        "descricao": "Poliedro formado por uma base poligonal e um ponto, o ápice, ligado a todos os vértices da base.",
+        "variantes": [
+          "Pirâmide de base quadrada"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Diagrama com fórmulas e eixos, sem mostrar uma senoide clara; cheio de texto."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem é só uma linha reta, sem cicloide."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O sólido desenhado é irregular, com faces não paralelas; não é reconhecível como paralelepípedo."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pilha de carregadores sem contexto de descarte; ambígua como lixo eletrônico e com marcas visíveis."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fogão solar parabólico com wok, reconhecível; pessoas só ao fundo e sem destaque.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que aparelho é este, que usa a luz do sol?",
+      "resposta": "Fogão solar",
+      "distratores": [
+        "Antena parabólica",
+        "Telescópio refletor",
+        "Painel fotovoltaico"
+      ],
+      "ancora": {
+        "nome": "Fogão solar",
+        "descricao": "Aparelho que usa a luz solar direta, concentrada por espelhos, para cozinhar ou aquecer alimentos.",
+        "variantes": [
+          "Forno solar",
+          "Cozinha solar"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Brilho azul característico em reator submerso, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que tipo de radiação produz este brilho azul?",
+      "resposta": "Radiação Cherenkov",
+      "ancora": {
+        "nome": "Radiação Cherenkov",
+        "descricao": "Radiação eletromagnética emitida quando partículas carregadas atravessam um meio mais rápido que a luz nesse meio, vista como brilho azul em reatores nucleares.",
+        "variantes": [
+          "Efeito Tcherenkov",
+          "Cherenkov radiation"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama com título e legendas em inglês e várias figuras; entrega texto."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Histograma claro, apenas números nos eixos, sem texto que entregue a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que tipo de gráfico é este?",
+      "resposta": "Histograma",
+      "ancora": {
+        "nome": "Histograma",
+        "descricao": "Gráfico de barras adjacentes que representa a distribuição de frequências de dados quantitativos em intervalos.",
+        "variantes": []
+      }
+    }
+  ]
+}

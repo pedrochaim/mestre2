@@ -411383,5 +411383,165 @@
       "autor": "Ohno.A",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q20705",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "navio_petroleiro",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que carga este navio transporta em grandes quantidades?",
+    "resposta": "Petróleo",
+    "distratores": [
+      "Minério de ferro",
+      "Grãos",
+      "Carvão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oil_tanker",
+      "https://pt.wikipedia.org/wiki/Navio-petroleiro"
+    ],
+    "imagem": {
+      "arquivo": "q20705.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Supertanker_AbQaiq.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20706",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "telhado_verde",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este tipo de telhado ajuda a reduzir qual fenômeno das grandes cidades?",
+    "resposta": "Ilhas de calor",
+    "distratores": [
+      "Chuva ácida",
+      "Inversão térmica",
+      "Maré vermelha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Green_roof",
+      "https://pt.wikipedia.org/wiki/Cobertura_verde"
+    ],
+    "imagem": {
+      "arquivo": "q20706.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:20080708_Chicago_City_Hall_Green_Roof.JPG",
+      "autor": "TonyTheTiger",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20707",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "no_de_trevo",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este objeto da matemática leva o nome de qual planta?",
+    "resposta": "Trevo",
+    "distratores": [
+      "Lírio",
+      "Hera",
+      "Samambaia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trefoil_knot",
+      "https://pt.wikipedia.org/wiki/N%C3%B3_de_trevo"
+    ],
+    "imagem": {
+      "arquivo": "q20707.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Blue_Trefoil_Knot.png",
+      "autor": "Jim.belk",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20708",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "piramide",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que sólido geométrico é este?",
+    "resposta": "Pirâmide",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyramid_%28geometry%29",
+      "https://pt.wikipedia.org/wiki/Pir%C3%A2mide"
+    ],
+    "imagem": {
+      "arquivo": "q20708.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Square_pyramid.png",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20709",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "fogao_solar",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho é este?",
+    "resposta": "Fogão solar",
+    "distratores": [
+      "Antena parabólica",
+      "Telescópio refletor",
+      "Forno elétrico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solar_cooker",
+      "https://pt.wikipedia.org/wiki/Forno_solar"
+    ],
+    "imagem": {
+      "arquivo": "q20709.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cuina_solar_paella.JPG",
+      "autor": "Avecendrell",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20710",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "radiacao_cherenkov",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de radiação produz este brilho azul?",
+    "resposta": "Radiação Cherenkov",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cherenkov_radiation",
+      "https://pt.wikipedia.org/wiki/Efeito_Tcherenkov"
+    ],
+    "imagem": {
+      "arquivo": "q20710.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cerenkov_Effect.jpg",
+      "autor": "United States Nuclear Regulatory Commission",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20711",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "histograma",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de gráfico é este?",
+    "resposta": "Histograma",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Histogram",
+      "https://pt.wikipedia.org/wiki/Histograma"
+    ],
+    "imagem": {
+      "arquivo": "q20711.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Histogramme_taille.svg",
+      "autor": "Romary (Wikimedia Commons)",
+      "licenca": "CC BY 2.5"
+    }
   }
 ]

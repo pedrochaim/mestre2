@@ -244685,5 +244685,91 @@
       "https://en.wikipedia.org/wiki/Taiko",
       "https://pt.wikipedia.org/wiki/Taiko"
     ]
+  },
+  {
+    "id": "navio_petroleiro",
+    "nome": "Navio petroleiro",
+    "descricao": "Navio projetado para o transporte a granel de petróleo bruto ou de seus derivados.",
+    "variantes": [
+      "Petroleiro",
+      "Navio-tanque"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Oil_tanker",
+      "https://pt.wikipedia.org/wiki/Navio-petroleiro"
+    ]
+  },
+  {
+    "id": "telhado_verde",
+    "nome": "Telhado verde",
+    "descricao": "Cobertura de edifício parcialmente ou totalmente coberta por vegetação sobre uma membrana impermeabilizante.",
+    "variantes": [
+      "Cobertura verde",
+      "Telhado vivo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Green_roof",
+      "https://pt.wikipedia.org/wiki/Cobertura_verde"
+    ]
+  },
+  {
+    "id": "no_de_trevo",
+    "nome": "Nó de trevo",
+    "descricao": "O nó não trivial mais simples da teoria dos nós, com três cruzamentos.",
+    "variantes": [
+      "Trefoil knot",
+      "Nó trifólio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trefoil_knot",
+      "https://pt.wikipedia.org/wiki/N%C3%B3_de_trevo"
+    ]
+  },
+  {
+    "id": "piramide",
+    "nome": "Pirâmide",
+    "descricao": "Poliedro formado por uma base poligonal e um ponto, o ápice, ligado a todos os vértices da base.",
+    "variantes": [
+      "Pirâmide de base quadrada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pyramid_%28geometry%29",
+      "https://pt.wikipedia.org/wiki/Pir%C3%A2mide"
+    ]
+  },
+  {
+    "id": "fogao_solar",
+    "nome": "Fogão solar",
+    "descricao": "Aparelho que usa a luz solar direta, concentrada por espelhos, para cozinhar ou aquecer alimentos.",
+    "variantes": [
+      "Forno solar",
+      "Cozinha solar"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Solar_cooker",
+      "https://pt.wikipedia.org/wiki/Forno_solar"
+    ]
+  },
+  {
+    "id": "radiacao_cherenkov",
+    "nome": "Radiação Cherenkov",
+    "descricao": "Radiação eletromagnética emitida quando partículas carregadas atravessam um meio mais rápido que a luz nesse meio, vista como brilho azul em reatores nucleares.",
+    "variantes": [
+      "Efeito Tcherenkov",
+      "Cherenkov radiation"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cherenkov_radiation",
+      "https://pt.wikipedia.org/wiki/Efeito_Tcherenkov"
+    ]
+  },
+  {
+    "id": "histograma",
+    "nome": "Histograma",
+    "descricao": "Gráfico de barras adjacentes que representa a distribuição de frequências de dados quantitativos em intervalos.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Histogram",
+      "https://pt.wikipedia.org/wiki/Histograma"
+    ]
   }
 ]
