@@ -1,0 +1,33 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'pico nunca escalado' é um traço famoso da montanha e identifica-a sem a figura. Além disso, aponta para o Butão, onde fica o Gangkhar Puensum, também nunca escalado, o que enfraquece a pergunta. Reescrita sem a pista, com o Himalaia como grupo que ajuda sem entregar. A resposta Nepal está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que país do Himalaia fica esta montanha?",
+        "resposta": "Nepal",
+        "distratores": [
+          "Butão",
+          "Índia",
+          "Paquistão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é curto e não vaza a resposta. A resposta é única e os distratores são fenômenos atmosféricos críveis e errados. Os trechos sustentam o fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento de nível 1, sem vazamento. A resposta é sustentada pelos trechos e os distratores são formações de água distintas de uma cachoeira.",
+      "reescrita": null
+    }
+  ]
+}

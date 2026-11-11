@@ -1,0 +1,56 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fenômeno natural é este?",
+        "resposta": "Aurora polar"
+      },
+      "existentes": [
+        {
+          "id": "q00558",
+          "pergunta": "O nome da aurora do hemisfério norte junta a deusa romana do amanhecer e qual deus grego do vento norte?",
+          "resposta": "Bóreas"
+        },
+        {
+          "id": "q00576",
+          "pergunta": "As auroras nascem de partículas vindas do Sol. Por que elas aparecem quase sempre perto dos polos da Terra?",
+          "resposta": "Campo magnético da Terra"
+        },
+        {
+          "id": "q15033",
+          "pergunta": "Que fenômeno luminoso é este, visto no céu noturno?",
+          "resposta": "Aurora polar (boreal ou austral)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que formação natural é esta?",
+        "resposta": "Cachoeira"
+      },
+      "existentes": [
+        {
+          "id": "q18485",
+          "pergunta": "Que elemento da paisagem é este?",
+          "resposta": "Cachoeira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15033",
+      "motivo": "Ambas são perguntas de identificação por imagem do mesmo fenômeno, com resposta aurora polar."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q18485",
+      "motivo": "Ambas pedem a identificação da mesma imagem, com resposta cachoeira."
+    }
+  ]
+}

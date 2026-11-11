@@ -1,0 +1,123 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Recife de coral genérico, sem elementos que o liguem ao Mar do Caribe; resposta não única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Lago alpino visto de cima, sem marca distintiva; poderia ser outro lago dos Alpes, então a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Paisagem de campo e colinas baixas, enevoada e sem característica reconhecível de Jeju."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Dossel de floresta tropical sem pistas de localização; pergunta de lugar ficaria ambígua."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Vista litorânea genérica, com casas e coqueiros, sem nada que identifique Maragogi."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pico em forma de rabo de peixe, característico e reconhecível; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta montanha, cujo pico mais alto nunca foi oficialmente escalado?",
+      "resposta": "Nepal",
+      "distratores": [
+        "Butão",
+        "Índia",
+        "Paquistão"
+      ],
+      "ancora": {
+        "nome": "Machapuchare",
+        "descricao": "Montanha do maciço do Annapurna, no Nepal, de pico em forma de cauda de peixe e nunca escalado oficialmente.",
+        "variantes": [
+          "Machhapuchhre",
+          "Machhapuchchhre",
+          "Fishtail"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Aurora verde sobre um fiorde, fenômeno inconfundível; sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno natural é este?",
+      "resposta": "Aurora polar",
+      "distratores": [
+        "Arco-íris",
+        "Halo solar",
+        "Relâmpago"
+      ],
+      "ancora": {
+        "nome": "Aurora polar",
+        "descricao": "Fenômeno luminoso da alta atmosfera causado por partículas do Sol que colidem com átomos, visto em regiões de alta latitude.",
+        "variantes": [
+          "Aurora boreal",
+          "Luzes do Norte",
+          "Aurora"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Ilhotas cársticas que lembram outros lugares (Palau, Filipinas, Tailândia), e há duas pessoas em um mirante em primeiro plano."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cachoeira larga, clara e sem texto nem pessoas.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que formação natural é esta?",
+      "resposta": "Cachoeira",
+      "distratores": [
+        "Gêiser",
+        "Corredeira",
+        "Nascente"
+      ],
+      "ancora": {
+        "nome": "Cachoeira",
+        "descricao": "Ponto de um rio em que a água cai de um desnível vertical ou de uma série de degraus.",
+        "variantes": [
+          "Queda d'água",
+          "Salto"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Margem de lago com pinheiros e montanhas ao fundo, sem nada que identifique o Lago Tahoe."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto aérea de uma ilha vulcânica sem contexto; difícil reconhecer Santa Helena e com resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Há turistas em primeiro plano, e baobás existem em outros países, então a resposta de lugar não é única."
+    }
+  ]
+}

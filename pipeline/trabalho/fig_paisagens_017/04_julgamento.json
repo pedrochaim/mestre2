@@ -1,0 +1,199 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Machapuchare",
+        "descricao": "Montanha do maciço do Annapurna, no Nepal, de pico em forma de cauda de peixe e nunca escalado oficialmente.",
+        "variantes": [
+          "Machhapuchhre",
+          "Machhapuchchhre",
+          "Fishtail"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mapuches",
+          "nome": "Mapuches",
+          "descricao": "Povo indígena do centro-sul do Chile e do sudoeste da Argentina.",
+          "variantes": [
+            "Mapuche",
+            "Araucanos"
+          ]
+        },
+        {
+          "id": "ismael",
+          "nome": "Ismael",
+          "descricao": "Filho de Abraão com Agar, personagem do Gênesis e da tradição islâmica",
+          "variantes": [
+            "Ismail"
+          ]
+        },
+        {
+          "id": "ishtar",
+          "nome": "Ishtar",
+          "descricao": "Deusa mesopotâmica do amor, da fertilidade e da guerra, equivalente acádia da suméria Inanna.",
+          "variantes": [
+            "Inanna",
+            "Istar"
+          ]
+        },
+        {
+          "id": "fuzil_metralhador_chauchat",
+          "nome": "Fuzil-metralhador Chauchat",
+          "descricao": "Fuzil-metralhador francês Modèle 1915 CSRG, arma leve padrão da França na Primeira Guerra Mundial.",
+          "variantes": [
+            "Chauchat",
+            "FM Chauchat",
+            "CSRG",
+            "Sho-Sho"
+          ]
+        },
+        {
+          "id": "acabou_chorare",
+          "nome": "Acabou Chorare",
+          "descricao": "Álbum dos Novos Baianos lançado em 1972.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Aurora polar",
+        "descricao": "Fenômeno luminoso da alta atmosfera causado por partículas do Sol que colidem com átomos, visto em regiões de alta latitude.",
+        "variantes": [
+          "Aurora boreal",
+          "Luzes do Norte",
+          "Aurora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aurora_polar",
+          "nome": "Aurora polar",
+          "descricao": "Fenômeno luminoso no céu das regiões polares, chamado de aurora boreal no norte e de aurora austral no sul.",
+          "variantes": [
+            "Aurora boreal",
+            "Aurora austral",
+            "Aurora"
+          ]
+        },
+        {
+          "id": "urso_polar",
+          "nome": "Urso-polar",
+          "descricao": "Urso das regiões árticas, espécie Ursus maritimus.",
+          "variantes": [
+            "Ursus maritimus",
+            "Polar bear",
+            "Urso-branco"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "aurorus",
+          "nome": "Aurorus",
+          "descricao": "Pokémon dos tipos Pedra e Gelo, número 699 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "raposa_do_artico",
+          "nome": "Raposa-do-ártico",
+          "descricao": "Pequena raposa (Vulpes lagopus) nativa da tundra ártica, de pelagem que muda com as estações.",
+          "variantes": [
+            "Raposa-polar",
+            "Vulpes lagopus",
+            "Arctic fox"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cachoeira",
+        "descricao": "Ponto de um rio em que a água cai de um desnível vertical ou de uma série de degraus.",
+        "variantes": [
+          "Queda d'água",
+          "Salto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "cachoeira",
+          "nome": "Cachoeira",
+          "descricao": "Ponto de um rio onde a água cai por um desnível vertical ou em degraus.",
+          "variantes": [
+            "Queda d'água",
+            "Waterfall"
+          ]
+        },
+        {
+          "id": "caxemira",
+          "nome": "Caxemira",
+          "descricao": "Lã fina e macia obtida do subpelo de cabras, também chamada cashmere",
+          "variantes": [
+            "Cashmere",
+            "Cachemira"
+          ]
+        },
+        {
+          "id": "contralto",
+          "nome": "Contralto",
+          "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
+          "variantes": [
+            "Contralto (voz)",
+            "Alto"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Montanha do Nepal; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "aurora_polar",
+      "motivo": "Mesmo fenômeno (aurora polar/boreal), descrições equivalentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "cachoeira",
+      "motivo": "Mesmo conceito de queda d'água em um rio."
+    }
+  ]
+}
