@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Quipu",
+        "descricao": "Instrumento de registro feito de cordas com nós, usado nos Andes, sobretudo pelo Império Inca, para guardar números e dados.",
+        "variantes": [
+          "Khipu",
+          "Quipo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "kiwi",
+          "nome": "Kiwi",
+          "descricao": "Ave não voadora e noturna da Nova Zelândia, do gênero Apteryx, de bico longo e fino.",
+          "variantes": [
+            "Apteryx",
+            "Quivi",
+            "Quiuí"
+          ]
+        },
+        {
+          "id": "qipao",
+          "nome": "Qipao",
+          "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+          "variantes": [
+            "Cheongsam",
+            "Chipao"
+          ]
+        },
+        {
+          "id": "quipa",
+          "nome": "Quipá",
+          "descricao": "Pequeno chapéu redondo sem aba usado por judeus para cobrir a cabeça.",
+          "variantes": [
+            "Kippah",
+            "Yarmulke",
+            "Kipá"
+          ]
+        },
+        {
+          "id": "chi_rho",
+          "nome": "Chi-Rho",
+          "descricao": "Cristograma formado pelas letras gregas chi e rô sobrepostas, as duas primeiras de Cristo.",
+          "variantes": [
+            "Crismón",
+            "Monograma de Cristo",
+            "Quirô"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "quipu",
+      "motivo": "Mesma entidade: sistema de cordas com nós usado pelos incas para registrar dados; nomes e variantes coincidem."
+    }
+  ]
+}

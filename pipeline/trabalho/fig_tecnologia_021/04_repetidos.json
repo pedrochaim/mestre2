@@ -1,0 +1,36 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que povo pré-colombiano usou amplamente este objeto na administração do seu império?",
+        "resposta": "Inca"
+      },
+      "existentes": [
+        {
+          "id": "q03341",
+          "pergunta": "Que sistema de cordões com nós os incas usavam para registrar números e informações?",
+          "resposta": "Quipu"
+        },
+        {
+          "id": "q03492",
+          "pergunta": "Os incas registravam números em cordões coloridos chamados quipus. O que a palavra quipu significa em quíchua?",
+          "resposta": "Nó"
+        },
+        {
+          "id": "q21264",
+          "pergunta": "Os maias contavam de vinte em vinte. Nos quipus dos incas, os nós registravam os números em que base?",
+          "resposta": "Dez"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03341",
+      "motivo": "A nova pergunta tem resposta Inca, e o objeto (quipu) é o mesmo da q03341, que já diz que os incas usavam o sistema de cordões com nós. Quem soubesse que os incas usavam o quipu acertaria a nova pergunta. Os fatos perguntados são o mesmo, só em direção inversa."
+    }
+  ]
+}

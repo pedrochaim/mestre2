@@ -1,0 +1,152 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A etiqueta visível 'Cordless Spotlight 5,000,000 Candle Power' é texto que nomeia o tipo de aparelho."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Switch de rede de 48 portas, reconhecível pelas fileiras de portas. Só a marca aparece, sem entregar a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de cabo se encaixa nestas entradas para ligar computadores a uma rede local?",
+      "resposta": "Cabo Ethernet",
+      "distratores": [
+        "Cabo HDMI",
+        "Cabo coaxial",
+        "Cabo VGA"
+      ],
+      "ancora": {
+        "nome": "Switch de rede",
+        "descricao": "Equipamento de rede que conecta dispositivos de uma rede local e encaminha os dados apenas ao destinatário.",
+        "variantes": [
+          "Comutador",
+          "Switch Ethernet",
+          "Switch"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A foto mostra uma tigela de cobre numa panela d'água, sem clareza. Não se reconhece uma clepsidra pela imagem, e a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Rádio transistorizado antigo, bem fotografado. Só aparece uma assinatura parcial, que não entrega a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que componente eletrônico permitiu miniaturizar este aparelho, a ponto de caber no bolso?",
+      "resposta": "Transistor",
+      "distratores": [],
+      "ancora": {
+        "nome": "Rádio transistorizado",
+        "descricao": "Pequeno receptor de rádio portátil com circuitos a transistor, popular a partir dos anos 1950, como o Regency TR-1.",
+        "variantes": [
+          "Radinho de pilha",
+          "Rádio portátil",
+          "Regency TR-1"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Aparecem 'SONY' e 'PS VITA' escritos no aparelho, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Aparecem 'JAGUAR' e 'ATARI' escritos no console, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É um modelo específico de telefone de escritório (Grundig LP-300), com a marca visível. Não representa bem o telefone de teclas, e a pergunta de época ficaria ambígua."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ferro de solda elétrico, sem texto e reconhecível pela ponta e pelo cabo.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que material esta ferramenta derrete para fixar componentes numa placa eletrônica?",
+      "resposta": "Solda (liga de estanho)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ferro de solda",
+        "descricao": "Ferramenta manual elétrica com ponta aquecida, usada para derreter solda e unir peças, sobretudo na eletrônica.",
+        "variantes": [
+          "Soldador elétrico",
+          "Soldador"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Aparecem 'SNK' e 'NEO·GEO' escritos no console, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ampulheta clássica de madeira e vidro, nítida e sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que força faz a areia descer de um bulbo para o outro neste instrumento?",
+      "resposta": "Gravidade",
+      "distratores": [
+        "Magnetismo",
+        "Empuxo",
+        "Força centrífuga"
+      ],
+      "ancora": {
+        "nome": "Ampulheta",
+        "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escoa areia.",
+        "variantes": [
+          "Relógio de areia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome 'iBook' está escrito acima da tela, o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Quipu fotografado sobre fundo escuro, com cordas e nós bem visíveis e sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que povo pré-colombiano usou amplamente este objeto na administração do seu império?",
+      "resposta": "Inca",
+      "distratores": [
+        "Asteca",
+        "Maia",
+        "Tolteca"
+      ],
+      "ancora": {
+        "nome": "Quipu",
+        "descricao": "Instrumento de registro feito de cordas com nós, usado nos Andes, sobretudo pelo Império Inca, para guardar números e dados.",
+        "variantes": [
+          "Khipu",
+          "Quipo"
+        ]
+      }
+    }
+  ]
+}
