@@ -46,8 +46,18 @@ img.mkdir(exist_ok=True)
 com_imagem = [p for p in saida if "imagem" in p]
 # A figura da pergunta e, se houver, a revelação mostrada depois da resposta (silhuetas de Pokémon).
 em_uso = {p["imagem"][k] for p in com_imagem for k in ("arquivo", "revelacao") if k in p["imagem"]}
+def copiar_se_mudou(origem, destino):
+    """Copia só o que mudou (tamanho ou data). Ler os metadados não baixa os arquivos que o Dropbox deixou
+    "só online"; copiar todos a cada exportação baixaria o banco de imagens inteiro e travaria o autopiloto."""
+    if destino.exists():
+        o, d = origem.stat(), destino.stat()
+        if o.st_size == d.st_size and int(o.st_mtime) == int(d.st_mtime):
+            return
+    shutil.copy2(origem, destino)
+
+
 for arquivo in em_uso:
-    shutil.copy2(BANCO / "imagens" / arquivo, img / arquivo)
+    copiar_se_mudou(BANCO / "imagens" / arquivo, img / arquivo)
 # Imagens de perguntas apagadas saem do site: senão continuariam publicadas, ainda que sem pergunta.
 orfas = [f for f in img.iterdir() if f.is_file() and f.name not in em_uso]
 for f in orfas:
@@ -59,7 +69,7 @@ pasta_audio.mkdir(exist_ok=True)
 com_audio = [p for p in saida if "audio" in p]
 audios_em_uso = {p["audio"]["arquivo"] for p in com_audio}
 for arquivo in audios_em_uso:
-    shutil.copy2(BANCO / "audios" / arquivo, pasta_audio / arquivo)
+    copiar_se_mudou(BANCO / "audios" / arquivo, pasta_audio / arquivo)
 for f in pasta_audio.iterdir():
     if f.is_file() and f.name not in audios_em_uso:
         f.unlink()
