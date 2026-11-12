@@ -1,0 +1,633 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sinfonia Júpiter",
+        "descricao": "Sinfonia número quarenta e um, em dó maior, a última sinfonia de Wolfgang Amadeus Mozart, de 1788.",
+        "variantes": [
+          "Sinfonia nº 41 de Mozart",
+          "Jupiter Symphony",
+          "K. 551"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sinfonia_surpresa",
+          "nome": "Sinfonia Surpresa",
+          "descricao": "Sinfonia número noventa e quatro de Joseph Haydn, de 1791, conhecida como Sinfonia Surpresa.",
+          "variantes": [
+            "Sinfonia nº 94 de Haydn",
+            "Surprise Symphony"
+          ]
+        },
+        {
+          "id": "sinfonia_do_adeus",
+          "nome": "Sinfonia do Adeus",
+          "descricao": "Sinfonia número quarenta e cinco de Joseph Haydn, de 1772, em que os músicos saem do palco aos poucos.",
+          "variantes": [
+            "Sinfonia nº 45 de Haydn",
+            "Farewell Symphony",
+            "Sinfonia da Despedida"
+          ]
+        },
+        {
+          "id": "sinfonia_do_novo_mundo",
+          "nome": "Sinfonia do Novo Mundo",
+          "descricao": "Nona sinfonia de Antonín Dvořák, composta nos Estados Unidos em 1893.",
+          "variantes": [
+            "Sinfonia nº 9 de Dvořák",
+            "From the New World"
+          ]
+        },
+        {
+          "id": "oitava_sinfonia_de_mahler",
+          "nome": "Oitava Sinfonia de Mahler",
+          "descricao": "Sinfonia número oito de Gustav Mahler, para orquestra, coros e solistas, estreada em Munique em 1910.",
+          "variantes": [
+            "Sinfonia número 8 de Mahler"
+          ]
+        },
+        {
+          "id": "sinfonia_pastoral",
+          "nome": "Sinfonia Pastoral",
+          "descricao": "Sexta Sinfonia de Ludwig van Beethoven, de 1808, inspirada na vida no campo.",
+          "variantes": [
+            "Sexta Sinfonia de Beethoven",
+            "Sinfonia n.º 6 de Beethoven"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "O Cravo Bem Temperado",
+        "descricao": "Coleção de prelúdios e fugas para teclado de Johann Sebastian Bach, em dois livros, com uma peça em cada tonalidade.",
+        "variantes": [
+          "Das wohltemperierte Klavier",
+          "The Well-Tempered Clavier",
+          "O Cravo Bem-Temperado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_cravo_e_a_rosa",
+          "nome": "O Cravo e a Rosa",
+          "descricao": "Novela brasileira da TV Globo, de 2000, inspirada em A Megera Domada, com Petruchio e Catarina.",
+          "variantes": []
+        },
+        {
+          "id": "o_bem_amado",
+          "nome": "O Bem-Amado",
+          "descricao": "Telenovela da Rede Globo de 1973, escrita por Dias Gomes, sobre o prefeito Odorico Paraguaçu.",
+          "variantes": []
+        },
+        {
+          "id": "o_bem_amado_2",
+          "nome": "O Bem-Amado",
+          "descricao": "Obra de Dias Gomes sobre o prefeito Odorico Paraguaçu, na cidade fictícia de Sucupira, levada ao teatro e à televisão.",
+          "variantes": [
+            "Odorico, o Bem-Amado"
+          ]
+        },
+        {
+          "id": "o_diabo_veste_prada",
+          "nome": "O Diabo Veste Prada",
+          "descricao": "Comédia dramática americana de 2006 sobre a assistente de uma editora de moda.",
+          "variantes": [
+            "The Devil Wears Prada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Concertos de Brandemburgo",
+        "descricao": "Conjunto de seis concertos instrumentais de Johann Sebastian Bach, apresentados em 1721 ao margrave Cristiano Luís de Brandemburgo-Schwedt.",
+        "variantes": [
+          "Brandenburg Concertos",
+          "Brandenburgische Konzerte"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "portao_de_brandemburgo",
+          "nome": "Portão de Brandemburgo",
+          "descricao": "Portal neoclássico do século dezoito no centro de Berlim, símbolo da reunificação alemã.",
+          "variantes": [
+            "Brandenburger Tor",
+            "Brandenburg Gate"
+          ]
+        },
+        {
+          "id": "os_contos_da_cantuaria",
+          "nome": "Os Contos da Cantuária",
+          "descricao": "Coletânea de histórias em versos de Geoffrey Chaucer, contadas por peregrinos a caminho da catedral de Canterbury.",
+          "variantes": [
+            "The Canterbury Tales",
+            "Contos de Canterbury",
+            "Contos da Cantuária"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "harpa_de_pedais",
+          "nome": "Harpa de pedais",
+          "descricao": "Harpa de concerto usada nas orquestras, cujos pedais alteram a afinação das cordas.",
+          "variantes": [
+            "Harpa de concerto",
+            "Pedal harp"
+          ]
+        },
+        {
+          "id": "harpa",
+          "nome": "Harpa",
+          "descricao": "Instrumento de cordas dedilhadas, de formato triangular, com cordas em ângulo em relação à caixa de ressonância.",
+          "variantes": [
+            "Harpa de concerto",
+            "Harp"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sonata ao Luar",
+        "descricao": "Sonata para piano número catorze, em dó sustenido menor, de Ludwig van Beethoven, de 1801.",
+        "variantes": [
+          "Moonlight Sonata",
+          "Sonata nº 14 de Beethoven",
+          "Mondscheinsonate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sinfonia_heroica",
+          "nome": "Sinfonia Heroica",
+          "descricao": "Terceira Sinfonia de Ludwig van Beethoven, de 1804, originalmente ligada a Napoleão.",
+          "variantes": [
+            "Sinfonia nº 3 de Beethoven",
+            "Eroica",
+            "Sinfonia n.º 3 de Beethoven",
+            "Terceira Sinfonia"
+          ]
+        },
+        {
+          "id": "nona_sinfonia_de_beethoven",
+          "nome": "Nona Sinfonia de Beethoven",
+          "descricao": "Última sinfonia de Ludwig van Beethoven, de 1824, que termina com a Ode à Alegria cantada por coro.",
+          "variantes": [
+            "Sinfonia nº 9 de Beethoven",
+            "Sinfonia Coral"
+          ]
+        },
+        {
+          "id": "quinta_sinfonia_de_beethoven",
+          "nome": "Quinta Sinfonia de Beethoven",
+          "descricao": "Sinfonia em dó menor de Ludwig van Beethoven, de 1808, famosa por seu motivo de quatro notas.",
+          "variantes": [
+            "Sinfonia nº 5 de Beethoven",
+            "Sinfonia do Destino"
+          ]
+        },
+        {
+          "id": "sinfonia_pastoral",
+          "nome": "Sinfonia Pastoral",
+          "descricao": "Sexta Sinfonia de Ludwig van Beethoven, de 1808, inspirada na vida no campo.",
+          "variantes": [
+            "Sexta Sinfonia de Beethoven",
+            "Sinfonia n.º 6 de Beethoven"
+          ]
+        },
+        {
+          "id": "1o_grupo_de_aviacao_de_caca",
+          "nome": "1º Grupo de Aviação de Caça",
+          "descricao": "Unidade de caça da Força Aérea Brasileira que combateu na Itália em 1944 e 1945, cujo grito de guerra era Senta a Pua.",
+          "variantes": [
+            "Senta a Pua",
+            "1st Brazilian Fighter Squadron",
+            "1º GAvCa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Carlos Gomes",
+        "descricao": "Compositor brasileiro de óperas (1836–1896), nascido em Campinas, autor de O Guarani e Lo Schiavo.",
+        "variantes": [
+          "Antônio Carlos Gomes",
+          "Tonico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carlos_gomes",
+          "nome": "Carlos Gomes",
+          "descricao": "Compositor brasileiro de óperas (1836–1896), autor de O Guarani.",
+          "variantes": [
+            "Antônio Carlos Gomes"
+          ]
+        },
+        {
+          "id": "tom_jobim",
+          "nome": "Tom Jobim",
+          "descricao": "Antônio Carlos Jobim, compositor, pianista e maestro carioca, um dos criadores da bossa nova.",
+          "variantes": [
+            "Antônio Carlos Jobim",
+            "Antonio Carlos Jobim"
+          ]
+        },
+        {
+          "id": "agua_tonica",
+          "nome": "Água tônica",
+          "descricao": "Refrigerante gaseificado e amargo, usado como mistura no gim-tônica.",
+          "variantes": [
+            "Tônica",
+            "Tonic water"
+          ]
+        },
+        {
+          "id": "mussum",
+          "nome": "Mussum",
+          "descricao": "Humorista e músico brasileiro Antônio Carlos Bernardes Gomes, integrante de Os Trapalhões.",
+          "variantes": [
+            "Antônio Carlos Bernardes Gomes"
+          ]
+        },
+        {
+          "id": "toco",
+          "nome": "Toco",
+          "descricao": "Jogada do basquete em que o defensor desvia legalmente o arremesso do atacante.",
+          "variantes": [
+            "Bloqueio",
+            "Tocar a bola",
+            "Block"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Fagote",
+        "descricao": "Instrumento de sopro de palheta dupla da família das madeiras, de registro grave, com tubo dobrado sobre si mesmo.",
+        "variantes": [
+          "Fagotto",
+          "Bassoon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fagote",
+          "nome": "Fagote",
+          "descricao": "Instrumento de sopro da família das madeiras, de palheta dupla, com tubo longo dobrado e registro grave.",
+          "variantes": [
+            "Fagot",
+            "Bassoon"
+          ]
+        },
+        {
+          "id": "macaco_de_gibraltar",
+          "nome": "Macaco-de-gibraltar",
+          "descricao": "Macaco do Norte da África (Macaca sylvanus), com população introduzida em Gibraltar.",
+          "variantes": [
+            "Macaco-de-barbária",
+            "Magote",
+            "Macaca sylvanus"
+          ]
+        },
+        {
+          "id": "bacteriofago",
+          "nome": "Bacteriófago",
+          "descricao": "Vírus que infecta e se replica dentro de bactérias, com cabeça icosaédrica e cauda.",
+          "variantes": [
+            "Fago",
+            "Phage",
+            "Bacteriophage"
+          ]
+        },
+        {
+          "id": "sonda_giotto",
+          "nome": "Sonda Giotto",
+          "descricao": "Sonda da Agência Espacial Europeia que passou perto do núcleo do cometa Halley em 1986.",
+          "variantes": [
+            "Giotto"
+          ]
+        },
+        {
+          "id": "bastiodon",
+          "nome": "Bastiodon",
+          "descricao": "Pokémon dos tipos Pedra e Aço, número 411 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Jean-Baptiste Lully",
+        "descricao": "Compositor franco-italiano do Barroco (1632–1687), músico da corte do rei Luís XIV da França.",
+        "variantes": [
+          "Lully",
+          "Giovanni Battista Lulli"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jean_baptiste_de_lamarck",
+          "nome": "Jean-Baptiste de Lamarck",
+          "descricao": "Naturalista francês, pioneiro da ideia de evolução biológica.",
+          "variantes": [
+            "Lamarck",
+            "Jean-Baptiste Lamarck"
+          ]
+        },
+        {
+          "id": "moliere",
+          "nome": "Molière",
+          "descricao": "Dramaturgo e ator francês do século dezessete, autor de Tartufo e O Avarento.",
+          "variantes": [
+            "Jean-Baptiste Poquelin"
+          ]
+        },
+        {
+          "id": "dana_scully",
+          "nome": "Dana Scully",
+          "descricao": "Agente do FBI cética da série Arquivo X, parceira de Fox Mulder, interpretada por Gillian Anderson.",
+          "variantes": [
+            "Scully"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        },
+        {
+          "id": "lucy",
+          "nome": "Lucy",
+          "descricao": "Esqueleto fóssil de Australopithecus afarensis com cerca de 3,2 milhões de anos, achado em Hadar, na Etiópia, em 1974.",
+          "variantes": [
+            "AL 288-1",
+            "Dinkinesh",
+            "Lucy (australopiteco)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Contralto",
+        "descricao": "Tipo de voz feminina de registro mais grave na classificação vocal da música erudita.",
+        "variantes": [
+          "Alto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "contralto",
+          "nome": "Contralto",
+          "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
+          "variantes": [
+            "Contralto (voz)",
+            "Alto"
+          ]
+        },
+        {
+          "id": "xerox_alto",
+          "nome": "Xerox Alto",
+          "descricao": "Computador desenvolvido no Xerox PARC nos anos 1970, pioneiro da interface gráfica e do mouse.",
+          "variantes": [
+            "Alto",
+            "Xerox Alto computer"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "rastro_de_condensacao",
+          "nome": "Rastro de condensação",
+          "descricao": "Nuvem em forma de linha produzida pelo escapamento ou pela pressão das aeronaves em grande altitude.",
+          "variantes": [
+            "Contrail",
+            "Rasto de condensação",
+            "Rastro de vapor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Marcha Radetzky",
+        "descricao": "Marcha de Johann Strauss pai, de 1848, que encerra tradicionalmente o Concerto de Ano Novo da Filarmônica de Viena.",
+        "variantes": [
+          "Radetzky-Marsch",
+          "Radetzky March"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marcha_real",
+          "nome": "Marcha Real",
+          "descricao": "Hino nacional da Espanha, uma das mais antigas marchas usadas como hino na Europa.",
+          "variantes": [
+            "Marcha Granadera",
+            "Hino da Espanha"
+          ]
+        },
+        {
+          "id": "fosforo_de_seguranca",
+          "nome": "Fósforo de segurança",
+          "descricao": "Palito de fósforo que só acende quando riscado na superfície própria da caixa.",
+          "variantes": [
+            "Safety match",
+            "Fósforo",
+            "Fósforo sueco"
+          ]
+        },
+        {
+          "id": "marcha_do_sal",
+          "nome": "Marcha do Sal",
+          "descricao": "Marcha de protesto não violento liderada por Gandhi em 1930, do seu ashram até o litoral de Dandi, na Índia.",
+          "variantes": [
+            "Satyagraha do Sal",
+            "Marcha de Dandi",
+            "Salt March"
+          ]
+        },
+        {
+          "id": "garca_branca_grande",
+          "nome": "Garça-branca-grande",
+          "descricao": "Ardea alba, grande garça branca de bico amarelo, amplamente distribuída pelo mundo.",
+          "variantes": [
+            "Great egret",
+            "Ardea alba",
+            "Garça-grande"
+          ]
+        },
+        {
+          "id": "marcha_atletica",
+          "nome": "Marcha atlética",
+          "descricao": "Prova de pedestrianismo do atletismo em que os atletas andam o mais rápido possível, sem correr.",
+          "variantes": [
+            "Racewalking",
+            "Marcha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Lá 440",
+        "descricao": "Padrão internacional de afinação que fixa a nota lá acima do dó central em quatrocentas e quarenta vibrações por segundo.",
+        "variantes": [
+          "A440",
+          "Diapasão normal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "curva_normal_distribuicao_gaussiana",
+          "nome": "Curva normal (distribuição gaussiana)",
+          "descricao": "Distribuição de probabilidade contínua simétrica em forma de sino, definida por média e variância.",
+          "variantes": [
+            "Distribuição normal",
+            "Gaussiana",
+            "Curva de sino"
+          ]
+        },
+        {
+          "id": "diapasao",
+          "nome": "Diapasão",
+          "descricao": "Ressonador acústico em forma de garfo de duas hastes que emite uma nota pura constante.",
+          "variantes": [
+            "Tuning fork"
+          ]
+        },
+        {
+          "id": "folha_a4",
+          "nome": "Folha A4",
+          "descricao": "Formato de papel do padrão internacional ISO 216, obtido dividindo a folha A0 ao meio sucessivamente.",
+          "variantes": [
+            "ISO 216",
+            "Papel A4",
+            "A4"
+          ]
+        },
+        {
+          "id": "foguete_v_2",
+          "nome": "Foguete V-2",
+          "descricao": "Míssil balístico desenvolvido pela Alemanha nazista e usado contra Londres e Antuérpia a partir de 1944.",
+          "variantes": [
+            "V-2",
+            "Vergeltungswaffe 2",
+            "A-4"
+          ]
+        },
+        {
+          "id": "castform",
+          "nome": "Castform",
+          "descricao": "Pokémon do clima, tipo Normal na forma normal, da terceira geração, número 351 da Pokédex Nacional.",
+          "variantes": [
+            "Castform normal",
+            "Powalen"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sinfonia de Mozart; nenhuma candidata é essa obra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Obra de Bach; candidatas são novelas/filme sem relação."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Concertos de Bach; Portão de Brandemburgo é outra entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sonata para piano; candidatas são sinfonias ou outra coisa."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "carlos_gomes",
+      "motivo": "Mesmo compositor de O Guarani (1836–1896)."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "fagote",
+      "motivo": "Mesmo instrumento musical, descrições equivalentes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lully é compositor distinto de Lamarck e Molière."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "contralto",
+      "motivo": "Mesmo tipo de voz feminina grave."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Marcha musical de Strauss; candidatas são outras entidades."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Padrão de afinação distinto do diapasão (objeto) e demais candidatas."
+    }
+  ]
+}

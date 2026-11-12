@@ -1,0 +1,397 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Versão em português confirma que aos cinco anos ele já passou à composição; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fatos conferem: filme premiado com o Oscar, rivalidade imaginada com Salieri, italiano em Viena.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Júpiter confirmado; enunciado preciso e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Il Cannone, Guarneri, legado a Gênova e apelido pela potência estão na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morreu em Paris em 1849 aos 39 anos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Relação com George Sand de 1838 a 1847 (cerca de nove anos), confirmada; pseudônimo masculino correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dois livros de 24 pares dão 48; fato confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome vem da dedicatória ao margrave de Brandemburgo-Schwedt, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A harpa de pedais tem tipicamente 47 cordas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bülow chamou a sinfonia de Décima de Beethoven, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Brahms escreveu quatro sinfonias; a primeira levou cerca de vinte anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cinco concertos numerados, o quinto é o Imperador; fato sólido.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Versão em português confirma origem flamenga, avô de Mechelen, e que o van não indicava nobreza.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Beethoven morreu em 1827; os demais já estavam mortos em 1822.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o Lago de Lucerna foi acréscimo de Lenz, então a afirmação precisa ser atribuída à versão tradicional.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Segundo a versão mais difundida, o apelido Sonata ao Luar surgiu depois da morte de Beethoven, quando um crítico comparou o primeiro movimento ao luar sobre qual lago?",
+        "resposta": "Lago de Lucerna",
+        "distratores": [
+          "Lago de Genebra",
+          "Lago de Constança",
+          "Lago de Como"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Piano_Sonata_No._14_(Beethoven)"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tchaikovsky regeu na inauguração do Carnegie Hall em 1891, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dizer 'de Moscou' torna dois distratores (Mariinsky, Mikhailovsky, de São Petersburgo) facilmente eliminados; 'morna' também suaviza o fracasso.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "O Lago dos Cisnes, de Tchaikovsky, estreou em 1877 e foi um fracasso inicial. Em qual teatro aconteceu a estreia?",
+        "resposta": "Teatro Bolshoi",
+        "distratores": [
+          "Teatro Mariinsky",
+          "Teatro Maly",
+          "Teatro Mikhailovsky"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Swan_Lake"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta hesitante ('provavelmente'); melhor a resposta específica, asma, com observação curta, apoiada pela fonte em português.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Pouco depois de ser ordenado padre, Vivaldi deixou de celebrar missas. Que problema de saúde ele alegava?",
+        "resposta": "Asma (um aperto no peito)",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Antonio_Vivaldi",
+          "https://en.wikipedia.org/wiki/Antonio_Vivaldi"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cada concerto acompanha um soneto ilustrativo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato amplamente documentado: Händel compôs o Messias em cerca de 24 dias, em 1741.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taylor operou a catarata de Bach e de Händel, ambos sem sucesso; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bach foi preso pelo duque em 1717 por insistir em pedir demissão; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A melodia de Haydn de 1797 é a música do hino da Alemanha; Áustria é um bom distrator.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Grande Onda é uma gravura em xilogravura, não uma pintura; 'primeira edição' também não é sustentado pela fonte.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "A capa da partitura impressa de O Mar, obra orquestral de Debussy, reproduzia a famosa gravura da grande onda de qual artista japonês?",
+        "resposta": "Katsushika Hokusai",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/La_mer_(Debussy)"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "No filme, a peça acompanha a evolução da vida até os dinossauros, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dom Pedro II patrocinou os estudos de Gomes na Itália, confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nair de Teffé, esposa de Hermes da Fonseca, tocou o Corta-Jaca no Catete em 1914.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O verso de All by Myself é baseado no segundo movimento do Segundo Concerto.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cosima deixou Hans von Bülow para viver e casar com Wagner, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Canto orfeônico de Villa-Lobos na era Vargas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tuhu é o apelido de infância de Villa-Lobos, amplamente documentado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fagotto vem de palavra que significa feixe de gravetos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hautbois significa madeira alta, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Spalla significa ombro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Si vem das iniciais de Sancte Iohannes, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lully bateu no próprio pé com o bastão de regência, confirmado pela versão em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maldição da nona sinfonia explica o subtítulo de Das Lied von der Erde.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte sobre o CD não menciona a Nona de Beethoven; a história é lenda sem sustentação na fonte e a âncora fica mal ajustada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aida estreou no Cairo em 1871, encomendada pelo governo egípcio.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carlos Gomes nasceu em Campinas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia de Toscanini como regente em Aida no Rio de Janeiro em 1886, aos dezenove anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A ária termina com Vincerò (vencerei), fato amplamente conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Peri e Ceci são os protagonistas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "L'Orfeo estreou em Mântua em 1607, século dezessete.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Don Giovanni (1787) é anterior a Barbeiro (1816), Aida (1871) e Carmen (1875).",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sibelius viveu 91 anos, mais que Verdi (87), Haydn (77) e Händel (74).",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Contralto é a voz feminina mais grave, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marcha Radetzky é de Johann Strauss pai, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A440 é o padrão ISO; distratores de 415 e 466 Hz são afinações históricas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Canto gregoriano é escrito em tetragrama, de quatro linhas.",
+      "reescrita": null
+    }
+  ]
+}

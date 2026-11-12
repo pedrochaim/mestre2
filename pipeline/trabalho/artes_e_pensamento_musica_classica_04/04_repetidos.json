@@ -1,0 +1,947 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Mozart foi uma criança prodígio. Segundo os relatos da família, com que idade ele já compunha suas primeiras peças para teclado?",
+        "resposta": "Cinco anos"
+      },
+      "existentes": [
+        {
+          "id": "q03253",
+          "pergunta": "O nome Amadeus, que ficou ligado a Mozart, vem do latim. O que ele significa?",
+          "resposta": "Amado por Deus"
+        },
+        {
+          "id": "q03629",
+          "pergunta": "Que compositor é este?",
+          "resposta": "Wolfgang Amadeus Mozart"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O filme Amadeus, vencedor do Oscar de melhor filme, imagina Mozart perseguido pela inveja de qual compositor italiano da corte de Viena?",
+        "resposta": "Antonio Salieri"
+      },
+      "existentes": [
+        {
+          "id": "q03253",
+          "pergunta": "O nome Amadeus, que ficou ligado a Mozart, vem do latim. O que ele significa?",
+          "resposta": "Amado por Deus"
+        },
+        {
+          "id": "q03629",
+          "pergunta": "Que compositor é este?",
+          "resposta": "Wolfgang Amadeus Mozart"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O violino favorito de Paganini, feito por Guarneri e hoje guardado em Gênova, ganhou um apelido pela potência do som. Qual?",
+        "resposta": "O Canhão"
+      },
+      "existentes": [
+        {
+          "id": "q08781",
+          "pergunta": "O virtuosismo assombroso do violinista italiano Niccolò Paganini alimentou, em sua época, qual boato sobre ele?",
+          "resposta": "Que fez pacto com o diabo"
+        },
+        {
+          "id": "q16919",
+          "pergunta": "Em que cidade italiana nasceu este violinista virtuose do século dezenove?",
+          "resposta": "Gênova"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Chopin passou a vida adulta com a saúde frágil e morreu em Paris, em 1849. Com quantos anos?",
+        "resposta": "Trinta e nove anos"
+      },
+      "existentes": [
+        {
+          "id": "q03284",
+          "pergunta": "Chopin foi enterrado em Paris, mas, a pedido dele, seu coração foi levado para qual cidade?",
+          "resposta": "Varsóvia"
+        },
+        {
+          "id": "q03630",
+          "pergunta": "Que compositor romântico é este?",
+          "resposta": "Frédéric Chopin"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Por cerca de nove anos, Chopin viveu um romance com qual escritora francesa, que assinava seus livros com um pseudônimo masculino?",
+        "resposta": "George Sand"
+      },
+      "existentes": [
+        {
+          "id": "q03284",
+          "pergunta": "Chopin foi enterrado em Paris, mas, a pedido dele, seu coração foi levado para qual cidade?",
+          "resposta": "Varsóvia"
+        },
+        {
+          "id": "q03630",
+          "pergunta": "Que compositor romântico é este?",
+          "resposta": "Frédéric Chopin"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "A grande harpa de concerto, usada nas orquestras sinfônicas, tem quantas cordas?",
+        "resposta": "Quarenta e sete"
+      },
+      "existentes": [
+        {
+          "id": "q03288",
+          "pergunta": "Quantos pedais tem a harpa de concerto usada nas orquestras?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O final da Primeira Sinfonia de Brahms tem um tema parecido com a Ode à Alegria. Por isso, o maestro Hans von Bülow a apelidou de quê?",
+        "resposta": "A Décima de Beethoven"
+      },
+      "existentes": [
+        {
+          "id": "q07701",
+          "pergunta": "Que compositor do século dezenove é este?",
+          "resposta": "Johannes Brahms"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Brahms levou cerca de vinte anos para concluir sua primeira sinfonia. Quantas sinfonias ele completou ao longo da vida?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q07701",
+          "pergunta": "Que compositor do século dezenove é este?",
+          "resposta": "Johannes Brahms"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O último concerto para piano de Beethoven ganhou o apelido de Imperador. Quantos concertos numerados para piano e orquestra ele deixou?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q03269",
+          "pergunta": "Na estreia da Nona Sinfonia, em 1824, uma cantora virou Beethoven de frente para a plateia. Por quê?",
+          "resposta": "Ele não ouvia os aplausos"
+        },
+        {
+          "id": "q05152",
+          "pergunta": "Beethoven passou quase toda a vida adulta em Viena, mas nasceu em qual cidade alemã às margens do Reno?",
+          "resposta": "Bonn"
+        },
+        {
+          "id": "q07708",
+          "pergunta": "Que compositor é este, retratado em pintura?",
+          "resposta": "Ludwig van Beethoven"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Diferente do von alemão, o van no nome de Beethoven não indicava nobreza. Ele revela a origem do avô em qual região europeia?",
+        "resposta": "Flandres, na atual Bélgica"
+      },
+      "existentes": [
+        {
+          "id": "q03269",
+          "pergunta": "Na estreia da Nona Sinfonia, em 1824, uma cantora virou Beethoven de frente para a plateia. Por quê?",
+          "resposta": "Ele não ouvia os aplausos"
+        },
+        {
+          "id": "q05152",
+          "pergunta": "Beethoven passou quase toda a vida adulta em Viena, mas nasceu em qual cidade alemã às margens do Reno?",
+          "resposta": "Bonn"
+        },
+        {
+          "id": "q07708",
+          "pergunta": "Que compositor é este, retratado em pintura?",
+          "resposta": "Ludwig van Beethoven"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em 1822, quando o Brasil proclamou a independência, qual destes grandes compositores ainda estava vivo?",
+        "resposta": "Ludwig van Beethoven"
+      },
+      "existentes": [
+        {
+          "id": "q03269",
+          "pergunta": "Na estreia da Nona Sinfonia, em 1824, uma cantora virou Beethoven de frente para a plateia. Por quê?",
+          "resposta": "Ele não ouvia os aplausos"
+        },
+        {
+          "id": "q05152",
+          "pergunta": "Beethoven passou quase toda a vida adulta em Viena, mas nasceu em qual cidade alemã às margens do Reno?",
+          "resposta": "Bonn"
+        },
+        {
+          "id": "q07708",
+          "pergunta": "Que compositor é este, retratado em pintura?",
+          "resposta": "Ludwig van Beethoven"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em 1891, Tchaikovsky viajou aos Estados Unidos para reger nos concertos de inauguração de qual sala de Nova York?",
+        "resposta": "Carnegie Hall"
+      },
+      "existentes": [
+        {
+          "id": "q19864",
+          "pergunta": "Que compositor russo aparece neste retrato?",
+          "resposta": "Piotr Ilitch Tchaikovsky"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O Lago dos Cisnes, de Tchaikovsky, estreou em 1877 e foi um fracasso inicial. Em qual teatro aconteceu a estreia?",
+        "resposta": "Teatro Bolshoi"
+      },
+      "existentes": [
+        {
+          "id": "q08779",
+          "pergunta": "Natalie Portman ganhou o Oscar como uma bailarina que ensaia o papel duplo de Odette e Odile. Que balé de Tchaikovsky é esse?",
+          "resposta": "O Lago dos Cisnes"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Pouco depois de ser ordenado padre, Vivaldi deixou de celebrar missas. Que problema de saúde ele alegava?",
+        "resposta": "Asma (um aperto no peito)"
+      },
+      "existentes": [
+        {
+          "id": "q02236",
+          "pergunta": "Qual destas obras foi composta por este músico barroco?",
+          "resposta": "As Quatro Estações"
+        },
+        {
+          "id": "q03254",
+          "pergunta": "Em Veneza, Vivaldi era conhecido pelo apelido il Prete Rosso. O que isso significa em português?",
+          "resposta": "O padre ruivo"
+        },
+        {
+          "id": "q05154",
+          "pergunta": "Vivaldi era de Veneza, mas morreu pobre em 1741, longe de casa. Em que cidade?",
+          "resposta": "Viena"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Cada concerto de As Quatro Estações, de Vivaldi, foi publicado junto com um poema que descreve as cenas da música. Que tipo de poema?",
+        "resposta": "Soneto"
+      },
+      "existentes": [
+        {
+          "id": "q05171",
+          "pergunta": "Qual estação do ano abre o ciclo de concertos As Quatro Estações, de Vivaldi?",
+          "resposta": "Primavera"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em 1741, Händel escreveu toda a partitura do oratório Messias num prazo curtíssimo. Quanto tempo ele levou?",
+        "resposta": "Vinte e quatro dias"
+      },
+      "existentes": [
+        {
+          "id": "q03267",
+          "pergunta": "Segundo a tradição, a plateia fica de pé no coro Aleluia, do Messias de Handel, porque um rei se levantou ali. Que rei?",
+          "resposta": "Jorge II da Grã-Bretanha"
+        },
+        {
+          "id": "q03268",
+          "pergunta": "Em 1742, em que cidade estreou o oratório Messias, de Handel?",
+          "resposta": "Dublin"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Bach e Händel nunca se conheceram, mas foram operados dos olhos pelo mesmo cirurgião inglês, sem sucesso. Que doença eles tinham em comum?",
+        "resposta": "Catarata"
+      },
+      "existentes": [
+        {
+          "id": "q03289",
+          "pergunta": "Handel e Bach nasceram na Alemanha com cerca de um mês de diferença. Em que ano?",
+          "resposta": "1685"
+        },
+        {
+          "id": "q05155",
+          "pergunta": "Nascido na Alemanha, Handel está sepultado em qual famosa igreja de Londres?",
+          "resposta": "Abadia de Westminster"
+        },
+        {
+          "id": "q08754",
+          "pergunta": "Entre estes grandes compositores do Barroco, qual foi o último a morrer?",
+          "resposta": "Georg Friedrich Händel"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em 1717, o duque de Weimar mandou prender Johann Sebastian Bach por quase um mês. Qual foi o motivo?",
+        "resposta": "Bach insistia em deixar o emprego"
+      },
+      "existentes": [
+        {
+          "id": "q03286",
+          "pergunta": "Somando os filhos de seus dois casamentos, quantos filhos teve Johann Sebastian Bach?",
+          "resposta": "Vinte"
+        },
+        {
+          "id": "q04196",
+          "pergunta": "Este compositor alemão do período barroco escreveu qual destas obras?",
+          "resposta": "Concertos de Brandemburgo"
+        },
+        {
+          "id": "q05153",
+          "pergunta": "Bach passou seus últimos vinte e sete anos como diretor musical da Igreja de São Tomás, em qual cidade alemã?",
+          "resposta": "Leipzig"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Uma melodia que Haydn compôs em 1797 em homenagem ao imperador austríaco é hoje a música do hino nacional de qual país?",
+        "resposta": "Alemanha"
+      },
+      "existentes": [
+        {
+          "id": "q03287",
+          "pergunta": "Chamado de pai da sinfonia, Joseph Haydn deixou quantas sinfonias numeradas?",
+          "resposta": "Cento e quatro"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "A capa da partitura impressa de O Mar, obra orquestral de Debussy, reproduzia a famosa gravura da grande onda de qual artista japonês?",
+        "resposta": "Katsushika Hokusai"
+      },
+      "existentes": [
+        {
+          "id": "q05495",
+          "pergunta": "Que compositor francês é este?",
+          "resposta": "Claude Debussy"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "No filme Fantasia, da Disney, de 1940, A Sagração da Primavera acompanha a história da Terra até o desaparecimento de quais animais?",
+        "resposta": "Dinossauros"
+      },
+      "existentes": [
+        {
+          "id": "q03293",
+          "pergunta": "Em 1913, em Paris, a estreia de qual balé de Stravinsky provocou vaias e tumulto na plateia?",
+          "resposta": "A Sagração da Primavera"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Em 1864, o jovem Carlos Gomes foi estudar música em Milão graças a uma bolsa concedida por qual governante brasileiro?",
+        "resposta": "Dom Pedro II"
+      },
+      "existentes": [
+        {
+          "id": "q02242",
+          "pergunta": "Que compositor brasileiro do século dezenove é este?",
+          "resposta": "Carlos Gomes"
+        },
+        {
+          "id": "q04249",
+          "pergunta": "Carlos Gomes, autor da ópera O Guarani, nasceu em 1836 em que cidade paulista?",
+          "resposta": "Campinas"
+        },
+        {
+          "id": "q19442",
+          "pergunta": "A abertura da ópera O Guarani, de Carlos Gomes, é tocada há décadas no início de que programa de rádio?",
+          "resposta": "A Voz do Brasil"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Em 1914, o maxixe Corta-Jaca, de Chiquinha Gonzaga, escandalizou a elite ao ser tocado no palácio presidencial pela esposa de qual presidente?",
+        "resposta": "Hermes da Fonseca"
+      },
+      "existentes": [
+        {
+          "id": "q04190",
+          "pergunta": "Que compositora e pianista brasileira, nascida no século dezenove, aparece nesta foto?",
+          "resposta": "Chiquinha Gonzaga"
+        },
+        {
+          "id": "q11412",
+          "pergunta": "Autora de Ó Abre Alas, Chiquinha Gonzaga foi a primeira mulher no Brasil a reger que tipo de conjunto?",
+          "resposta": "Orquestra popular"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "A balada All by Myself, sucesso de Eric Carmen e depois de Celine Dion, usa a melodia de qual obra de Rachmaninoff?",
+        "resposta": "Segundo Concerto para Piano"
+      },
+      "existentes": [
+        {
+          "id": "q04192",
+          "pergunta": "Que compositor e pianista russo aparece nesta foto?",
+          "resposta": "Sergei Rachmaninoff"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Cosima, filha do pianista Franz Liszt, deixou o primeiro marido para se casar com qual compositor alemão de óperas?",
+        "resposta": "Richard Wagner"
+      },
+      "existentes": [
+        {
+          "id": "q07367",
+          "pergunta": "Quem é este pianista virtuose do século dezenove?",
+          "resposta": "Franz Liszt"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "O canto orfeônico, programa de corais escolares liderado por Villa-Lobos, ganhou força durante o governo de qual presidente brasileiro?",
+        "resposta": "Getúlio Vargas"
+      },
+      "existentes": [
+        {
+          "id": "q05149",
+          "pergunta": "Em 1940, Villa-Lobos regeu um coral de cerca de quarenta mil estudantes em qual estádio do Rio de Janeiro?",
+          "resposta": "São Januário"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Na infância, no Rio de Janeiro, Heitor Villa-Lobos era chamado pela família por qual apelido?",
+        "resposta": "Tuhu"
+      },
+      "existentes": [
+        {
+          "id": "q03272",
+          "pergunta": "O que Villa-Lobos, Anita Malfatti e Mário de Andrade têm em comum no ano de 1922?",
+          "resposta": "Participaram da Semana de Arte Moderna"
+        },
+        {
+          "id": "q03633",
+          "pergunta": "Qual destas obras foi composta pelo músico desta foto?",
+          "resposta": "Bachianas Brasileiras"
+        },
+        {
+          "id": "q05174",
+          "pergunta": "Na infância, usando uma viola adaptada, Villa-Lobos aprendeu com o pai a tocar qual instrumento de orquestra?",
+          "resposta": "Violoncelo"
+        },
+        {
+          "id": "q15191",
+          "pergunta": "Que compositor brasileiro é este?",
+          "resposta": "Heitor Villa-Lobos"
+        },
+        {
+          "id": "q17190",
+          "pergunta": "Heitor Villa-Lobos misturou Bach e música brasileira numa série de peças chamadas Bachianas Brasileiras. Quantas são?",
+          "resposta": "Nove"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "O nome do fagote vem da palavra italiana fagotto. Segundo a explicação mais comum, o que ela significa?",
+        "resposta": "Feixe de gravetos"
+      },
+      "existentes": [
+        {
+          "id": "q05756",
+          "pergunta": "Que instrumento de sopro de orquestra é este?",
+          "resposta": "Fagote"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "O nome oboé deriva da palavra francesa hautbois. Traduzida literalmente, o que essa palavra quer dizer?",
+        "resposta": "Madeira alta"
+      },
+      "existentes": [
+        {
+          "id": "q03292",
+          "pergunta": "Antes de um concerto, qual instrumento de sopro dá a nota lá para a orquestra inteira afinar?",
+          "resposta": "Oboé"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "No Brasil, o primeiro violino de uma orquestra, que lidera os músicos e cumprimenta o maestro, é chamado de spalla. O que significa essa palavra italiana?",
+        "resposta": "Ombro"
+      },
+      "existentes": [
+        {
+          "id": "q08756",
+          "pergunta": "Numa orquestra sinfônica, qual família de instrumentos costuma reunir o maior número de músicos?",
+          "resposta": "Cordas"
+        },
+        {
+          "id": "q08759",
+          "pergunta": "As orquestras costumam agrupar seus instrumentos em quatro famílias: cordas, madeiras, percussão e qual outra?",
+          "resposta": "Metais"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "A nota si foi a última a ganhar nome, também tirada do hino medieval a São João. De onde vêm as duas letras dela?",
+        "resposta": "Das iniciais de Sancte Iohannes"
+      },
+      "existentes": [
+        {
+          "id": "q03258",
+          "pergunta": "Os nomes das notas ré, mi e fá vêm das sílabas iniciais dos versos de um hino medieval dedicado a qual santo?",
+          "resposta": "São João Batista"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Mahler evitou chamar de sinfonia A Canção da Terra, que compôs depois da Oitava. Que medo supersticioso o levou a isso?",
+        "resposta": "Morrer após compor a nona sinfonia"
+      },
+      "existentes": [
+        {
+          "id": "q05502",
+          "pergunta": "Qual destas sinfonias foi composta pelo homem deste retrato?",
+          "resposta": "Sinfonia da Ressurreição"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Autor da ópera O Guarani, o compositor Carlos Gomes nasceu em 1836 em qual cidade paulista?",
+        "resposta": "Campinas"
+      },
+      "existentes": [
+        {
+          "id": "q02242",
+          "pergunta": "Que compositor brasileiro do século dezenove é este?",
+          "resposta": "Carlos Gomes"
+        },
+        {
+          "id": "q04249",
+          "pergunta": "Carlos Gomes, autor da ópera O Guarani, nasceu em 1836 em que cidade paulista?",
+          "resposta": "Campinas"
+        },
+        {
+          "id": "q19442",
+          "pergunta": "A abertura da ópera O Guarani, de Carlos Gomes, é tocada há décadas no início de que programa de rádio?",
+          "resposta": "A Voz do Brasil"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Em 1886, aos dezenove anos, o violoncelista Arturo Toscanini assumiu de improviso a regência de Aida durante uma turnê. Em que cidade?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q19865",
+          "pergunta": "Este maestro italiano foi o primeiro diretor musical de qual orquestra americana, de rádio, a partir de 1937?",
+          "resposta": "Orquestra Sinfônica da NBC"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "A ária Nessun Dorma, de Puccini, termina com uma palavra italiana repetida, cantada em notas longas e agudas. O que ela significa?",
+        "resposta": "Vencerei"
+      },
+      "existentes": [
+        {
+          "id": "q05168",
+          "pergunta": "A ária Nessun Dorma, da ópera Turandot, ganhou fama popular como tema da cobertura da BBC em qual Copa do Mundo?",
+          "resposta": "Copa de 1990, na Itália"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Na ópera O Guarani, de Carlos Gomes, como se chama o herói indígena apaixonado pela jovem Ceci?",
+        "resposta": "Peri"
+      },
+      "existentes": [
+        {
+          "id": "q03270",
+          "pergunta": "Que programa de rádio do governo brasileiro tem como vinheta de abertura a protofonia de O Guarani, de Carlos Gomes?",
+          "resposta": "A Voz do Brasil"
+        },
+        {
+          "id": "q03271",
+          "pergunta": "Em 1870, a ópera O Guarani, do brasileiro Carlos Gomes, estreou em qual famoso teatro italiano?",
+          "resposta": "Teatro alla Scala, de Milão"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "L'Orfeo, de Claudio Monteverdi, uma das primeiras óperas ainda encenadas hoje, estreou na cidade italiana de Mântua em que século?",
+        "resposta": "Século dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q14519",
+          "pergunta": "Qual destas óperas foi composta pelo músico retratado nesta pintura?",
+          "resposta": "L'Orfeo"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Entre estas óperas famosas, qual foi a primeira a estrear?",
+        "resposta": "Don Giovanni"
+      },
+      "existentes": [
+        {
+          "id": "q03418",
+          "pergunta": "Na ária do catálogo de Don Giovanni, o criado Leporello enumera as conquistas do patrão. Quantas foram só na Espanha?",
+          "resposta": "Mil e três"
+        },
+        {
+          "id": "q05150",
+          "pergunta": "A ópera Don Giovanni, de Mozart, estreou em 1787 não em Viena, mas em qual cidade?",
+          "resposta": "Praga"
+        },
+        {
+          "id": "q19464",
+          "pergunta": "No final de Don Giovanni, de Mozart, quem aceita o convite para jantar e arrasta o sedutor para o inferno?",
+          "resposta": "A estátua do Comendador"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Qual destes compositores viveu mais anos?",
+        "resposta": "Jean Sibelius"
+      },
+      "existentes": [
+        {
+          "id": "q14492",
+          "pergunta": "Qual destas obras foi composta pelo músico desta foto?",
+          "resposta": "Finlândia"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Na classificação das vozes femininas usada na ópera e nos corais, qual é a voz mais grave?",
+        "resposta": "Contralto"
+      },
+      "existentes": [
+        {
+          "id": "q07810",
+          "pergunta": "Na ópera, entre as vozes femininas, qual é a mais grave?",
+          "resposta": "Contralto"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Diferente da pauta de cinco linhas usada hoje, o canto gregoriano costuma ser escrito numa pauta de quantas linhas?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q08771",
+          "pergunta": "Tradicional da liturgia católica desde a Idade Média, o canto gregoriano é cantado em qual língua?",
+          "resposta": "Latim"
+        },
+        {
+          "id": "q08776",
+          "pergunta": "Pela tradição, o canto litúrgico medieval chamado gregoriano deve seu nome a qual personagem histórico?",
+          "resposta": "Papa Gregório Magno"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Idade das primeiras composições é fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Rival Salieri no filme é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Apelido do violino é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Idade da morte difere do coração em Varsóvia."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Romance com George Sand é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Número de cordas difere de pedais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Apelido da Primeira Sinfonia é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Número de sinfonias é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Número de concertos para piano é novo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Origem do 'van' é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre estar vivo em 1822 é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Viagem aos EUA é fato distinto."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Teatro da estreia difere de identificar o balé."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Problema de saúde é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Tipo de poema difere da primeira estação."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Tempo de composição é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Doença nos olhos é outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Prisão em 1717 é outro fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Hino alemão é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Capa de O Mar é outro fato."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Fantasia é outro fato que a estreia de 1913."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Bolsa de estudos é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Corta-Jaca no palácio é outro fato."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "All by Myself é outro fato."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Casamento de Cosima é outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Governo do canto orfeônico difere do estádio."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Apelido de infância é outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Etimologia de fagote é outro fato."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Etimologia de oboé difere de afinação."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Significado de spalla é outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Origem do si difere de ré, mi, fá."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Superstição da nona é outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "id_existente": "q04249",
+      "motivo": "Mesma pergunta sobre nascimento em Campinas."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Regência no Rio é outro fato."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Palavra final difere da Copa de 1990."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Nome do herói é outro fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Século da estreia é outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Comparação de estreias é outro fato."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Longevidade é outro fato."
+    },
+    {
+      "caso": 40,
+      "decisao": "repete",
+      "id_existente": "q07810",
+      "motivo": "Mesma pergunta: voz feminina mais grave, contralto."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Número de linhas da pauta é outro fato."
+    }
+  ]
+}
