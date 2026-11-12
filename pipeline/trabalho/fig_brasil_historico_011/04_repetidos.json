@@ -1,0 +1,141 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi fundado este jardim carioca?",
+        "resposta": "1808"
+      },
+      "existentes": [
+        {
+          "id": "q02692",
+          "pergunta": "Em que ano o príncipe regente Dom João criou o Jardim Botânico do Rio de Janeiro?",
+          "resposta": "1808"
+        },
+        {
+          "id": "q19691",
+          "pergunta": "Em que cidade brasileira fica este jardim botânico?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que século este estadista português foi ministro do rei?",
+        "resposta": "Século dezoito"
+      },
+      "existentes": [
+        {
+          "id": "q04845",
+          "pergunta": "Quem é este ministro português do século dezoito?",
+          "resposta": "Marquês de Pombal"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que século foi fundado o mosteiro que abriga esta igreja?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q17504",
+          "pergunta": "Qual é o lema latino que orienta a vida dos monges deste mosteiro?",
+          "resposta": "Ora et labora"
+        },
+        {
+          "id": "q17841",
+          "pergunta": "Em que cidade fica este mosteiro?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que catedral é esta?",
+        "resposta": "Catedral de Petrópolis"
+      },
+      "existentes": [
+        {
+          "id": "q16244",
+          "pergunta": "Em que cidade fica esta catedral neogótica?",
+          "resposta": "Petrópolis"
+        },
+        {
+          "id": "q17925",
+          "pergunta": "A qual santo é dedicada esta catedral neogótica do Rio de Janeiro?",
+          "resposta": "São Pedro de Alcântara"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual é a obra mais famosa deste escritor e engenheiro?",
+        "resposta": "Os Sertões"
+      },
+      "existentes": [
+        {
+          "id": "q02899",
+          "pergunta": "Em 1909, Euclides da Cunha morreu num tiroteio depois de ir armado à casa do jovem militar Dilermando de Assis. Qual era o motivo?",
+          "resposta": "Dilermando era amante de sua esposa"
+        },
+        {
+          "id": "q06048",
+          "pergunta": "Em 1897, Euclides da Cunha acompanhou a Guerra de Canudos como correspondente de que jornal?",
+          "resposta": "O Estado de S. Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que personagem histórico aparece a cavalo no alto deste monumento?",
+        "resposta": "D. Pedro I"
+      },
+      "existentes": [
+        {
+          "id": "q16241",
+          "pergunta": "Em que cidade fica este monumento equestre?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02692",
+      "motivo": "Ambas perguntam o ano de criação do Jardim Botânico, 1808."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O século em que foi ministro é outro fato; a existente pede o nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Século de fundação difere do lema e da cidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pede o nome da catedral; as existentes pedem cidade e santo padroeiro, fatos distintos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A obra mais famosa é fato diferente do motivo da morte e do jornal."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Quem está no alto do monumento difere da cidade onde fica."
+    }
+  ]
+}

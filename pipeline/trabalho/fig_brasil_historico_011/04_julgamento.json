@@ -1,0 +1,376 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jardim Botânico do Rio de Janeiro",
+        "descricao": "Jardim botânico fundado em 1808 por D. João VI, na Zona Sul do Rio de Janeiro.",
+        "variantes": [
+          "Jardim Botânico do Rio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jardim_botanico_do_rio_de_janeiro",
+          "nome": "Jardim Botânico do Rio de Janeiro",
+          "descricao": "Jardim botânico e instituto de pesquisa fundado por Dom João no bairro carioca do Jardim Botânico",
+          "variantes": [
+            "Jardim Botânico do Rio",
+            "JBRJ"
+          ]
+        },
+        {
+          "id": "jardim_botanico_de_curitiba",
+          "nome": "Jardim Botânico de Curitiba",
+          "descricao": "Parque de Curitiba, inaugurado em 1991, com uma estufa de ferro e vidro que virou cartão-postal da cidade.",
+          "variantes": [
+            "Jardim Botânico Francisca Maria Garfunkel Rischbieter"
+          ]
+        },
+        {
+          "id": "jardim_botanico_de_padua",
+          "nome": "Jardim Botânico de Pádua",
+          "descricao": "Jardim botânico universitário da cidade italiana de Pádua, Patrimônio Mundial da Unesco",
+          "variantes": [
+            "Orto Botanico di Padova"
+          ]
+        },
+        {
+          "id": "passeio_publico_do_rio_de_janeiro",
+          "nome": "Passeio Público do Rio de Janeiro",
+          "descricao": "Jardim público no centro do Rio de Janeiro, construído no fim do século dezoito por ordem do vice-rei Luís de Vasconcelos.",
+          "variantes": [
+            "Passeio Público"
+          ]
+        },
+        {
+          "id": "sambodromo_do_rio_de_janeiro",
+          "nome": "Sambódromo do Rio de Janeiro",
+          "descricao": "Passarela do desfile das escolas de samba no Rio de Janeiro, inaugurada em 1984.",
+          "variantes": [
+            "Sambódromo da Marquês de Sapucaí",
+            "Passarela Professor Darcy Ribeiro",
+            "Sambódromo do Rio",
+            "Passarela do Samba Darcy Ribeiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Marquês de Pombal",
+        "descricao": "Sebastião José de Carvalho e Melo, ministro do rei D. José I de Portugal no século XVIII.",
+        "variantes": [
+          "Sebastião José de Carvalho e Melo",
+          "Conde de Oeiras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marques_de_pombal",
+          "nome": "Marquês de Pombal",
+          "descricao": "Sebastião José de Carvalho e Melo, principal ministro do rei José I de Portugal (1750-1777).",
+          "variantes": [
+            "Sebastião José de Carvalho e Melo",
+            "Conde de Oeiras"
+          ]
+        },
+        {
+          "id": "pierre_simon_laplace",
+          "nome": "Pierre-Simon Laplace",
+          "descricao": "Matemático, astrônomo e físico francês autor da Mecânica Celeste e da equação de Laplace.",
+          "variantes": [
+            "Marquês de Laplace",
+            "Pierre-Simon de Laplace"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        },
+        {
+          "id": "duque_de_caxias",
+          "nome": "Duque de Caxias",
+          "descricao": "Luís Alves de Lima e Silva, militar do Império do Brasil, o Pacificador, patrono do Exército.",
+          "variantes": [
+            "Luís Alves de Lima e Silva",
+            "Barão de Caxias",
+            "Marquês de Caxias"
+          ]
+        },
+        {
+          "id": "general_osorio",
+          "nome": "General Osório",
+          "descricao": "Manuel Luís Osório, marquês do Herval, marechal brasileiro do século dezenove e herói da Guerra do Paraguai.",
+          "variantes": [
+            "Manuel Luís Osório",
+            "Marquês do Herval"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mosteiro de São Bento (São Paulo)",
+        "descricao": "Mosteiro beneditino no centro histórico de São Paulo, fundado em 1598.",
+        "variantes": [
+          "Basílica de Nossa Senhora da Assunção"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mosteiro_de_sao_bento_sao_paulo",
+          "nome": "Mosteiro de São Bento (São Paulo)",
+          "descricao": "Mosteiro beneditino no centro histórico de São Paulo, fundado em 1598, com basílica construída entre 1910 e 1914.",
+          "variantes": [
+            "Basílica Abacial de Nossa Senhora da Assunção",
+            "Mosteiro de São Bento de São Paulo"
+          ]
+        },
+        {
+          "id": "basilica_de_nossa_senhora_de_guadalupe",
+          "nome": "Basílica de Nossa Senhora de Guadalupe",
+          "descricao": "Basílica circular moderna ao pé do morro de Tepeyac, na Cidade do México, um dos santuários mais visitados do mundo.",
+          "variantes": [
+            "Basílica de Santa María de Guadalupe",
+            "Nova Basílica de Guadalupe"
+          ]
+        },
+        {
+          "id": "basilica_de_nossa_senhora_aparecida",
+          "nome": "Basílica de Nossa Senhora Aparecida",
+          "descricao": "Santuário nacional católico em Aparecida, São Paulo, dedicado à padroeira do Brasil.",
+          "variantes": [
+            "Basílica Nova de Aparecida",
+            "Santuário Nacional de Aparecida"
+          ]
+        },
+        {
+          "id": "mosteiro_de_sao_bento_rio_de_janeiro",
+          "nome": "Mosteiro de São Bento (Rio de Janeiro)",
+          "descricao": "Mosteiro beneditino colonial no Morro de São Bento, no centro do Rio de Janeiro.",
+          "variantes": [
+            "Mosteiro de São Bento do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "basilica_de_notre_dame_de_montreal",
+          "nome": "Basílica de Notre-Dame de Montreal",
+          "descricao": "Basílica neogótica no centro histórico de Montreal, no Canadá, diante da Place d'Armes.",
+          "variantes": [
+            "Basílica de Nossa Senhora de Montreal",
+            "Notre-Dame Basilica of Montreal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Catedral de Petrópolis",
+        "descricao": "Catedral neogótica de São Pedro de Alcântara, em Petrópolis (RJ).",
+        "variantes": [
+          "Catedral de São Pedro de Alcântara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_petropolis",
+          "nome": "Catedral de Petrópolis",
+          "descricao": "Catedral neogótica de São Pedro de Alcântara, com torre em flecha, em Petrópolis, no estado do Rio de Janeiro.",
+          "variantes": [
+            "Catedral de São Pedro de Alcântara",
+            "Cathedral of Petrópolis"
+          ]
+        },
+        {
+          "id": "tratado_de_petropolis",
+          "nome": "Tratado de Petrópolis",
+          "descricao": "Acordo assinado em 1903 entre Brasil e Bolívia que incorporou o território do Acre ao Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Euclides da Cunha",
+        "descricao": "Escritor, jornalista e engenheiro brasileiro, autor de Os Sertões.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "euclides_da_cunha",
+          "nome": "Euclides da Cunha",
+          "descricao": "Escritor e engenheiro brasileiro (1866–1909), autor de Os Sertões.",
+          "variantes": []
+        },
+        {
+          "id": "eclipse_lunar",
+          "nome": "Eclipse lunar",
+          "descricao": "Fenômeno em que a Terra fica entre o Sol e a Lua, e sua sombra cobre a Lua.",
+          "variantes": [
+            "Eclipse da Lua",
+            "Lua de sangue"
+          ]
+        },
+        {
+          "id": "nucleo_celular",
+          "nome": "Núcleo celular",
+          "descricao": "Organela das células eucariontes, envolta por membrana, que guarda a maior parte do material genético.",
+          "variantes": [
+            "Núcleo da célula",
+            "Cell nucleus"
+          ]
+        },
+        {
+          "id": "euclides",
+          "nome": "Euclides",
+          "descricao": "Matemático grego que viveu em Alexandria por volta de 300 a.C., autor de Os Elementos.",
+          "variantes": [
+            "Euclides de Alexandria",
+            "Euclid"
+          ]
+        },
+        {
+          "id": "tristao_da_cunha",
+          "nome": "Tristão da Cunha",
+          "descricao": "Arquipélago britânico vulcânico no Atlântico Sul, entre a América do Sul e a África, com um único povoado.",
+          "variantes": [
+            "Tristan da Cunha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estátua equestre de D. Pedro I",
+        "descricao": "Monumento equestre na Praça Tiradentes, no Rio de Janeiro, primeira escultura pública do país.",
+        "variantes": [
+          "Monumento a D. Pedro I"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_equestre_de_d_pedro_i",
+          "nome": "Estátua equestre de D. Pedro I",
+          "descricao": "Monumento de bronze a D. Pedro I a cavalo, na Praça Tiradentes, no centro do Rio de Janeiro, primeira escultura pública do país.",
+          "variantes": [
+            "Monumento a D. Pedro I",
+            "Estátua equestre de Dom Pedro I"
+          ]
+        },
+        {
+          "id": "estatua_equestre_de_marco_aurelio",
+          "nome": "Estátua equestre de Marco Aurélio",
+          "descricao": "Estátua romana de bronze do imperador Marco Aurélio a cavalo, exposta nos Museus Capitolinos, em Roma.",
+          "variantes": [
+            "Equus Marci Aurelii",
+            "Estátua de Marco Aurélio"
+          ]
+        },
+        {
+          "id": "estatua_equestre_de_gattamelata",
+          "nome": "Estátua equestre de Gattamelata",
+          "descricao": "Estátua equestre em bronze do condottiere Gattamelata, feita por Donatello em 1453, na Piazza del Santo, em Pádua.",
+          "variantes": [
+            "Gattamelata",
+            "Monumento equestre a Gattamelata"
+          ]
+        },
+        {
+          "id": "monumento_as_bandeiras",
+          "nome": "Monumento às Bandeiras",
+          "descricao": "Grande escultura de granito de Victor Brecheret, junto ao Parque Ibirapuera, em São Paulo, que homenageia as bandeiras.",
+          "variantes": [
+            "Monumento aos Bandeirantes",
+            "Monumento às Bandeiras de São Paulo"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "jardim_botanico_do_rio_de_janeiro",
+      "motivo": "Mesmo jardim botânico fundado por D. João no Rio."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "marques_de_pombal",
+      "motivo": "Mesma pessoa, Sebastião José de Carvalho e Melo."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "mosteiro_de_sao_bento_sao_paulo",
+      "motivo": "Mesmo mosteiro beneditino de São Paulo, fundado em 1598."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_petropolis",
+      "motivo": "Mesma catedral neogótica de São Pedro de Alcântara em Petrópolis."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "euclides_da_cunha",
+      "motivo": "Mesmo escritor autor de Os Sertões."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "estatua_equestre_de_d_pedro_i",
+      "motivo": "Mesmo monumento na Praça Tiradentes, Rio."
+    }
+  ]
+}

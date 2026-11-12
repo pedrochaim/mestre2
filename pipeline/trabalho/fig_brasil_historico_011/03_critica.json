@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação em 1808 confirmada nos trechos. Resposta é ano em múltipla escolha, com distratores plausíveis e nenhum correto. O enunciado não nomeia o jardim.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Retratado diante da cidade que reconstruiu' entrega o homem (Pombal e Lisboa) sem olhar a figura. Também afirma algo sobre o cenário da imagem que 'mostra' não confirma. Os trechos confirmam o ministério de 1750 a 1777.",
+      "reescrita": {
+        "pergunta": "Em que século este estadista português foi ministro do rei?",
+        "resposta": "Século dezoito",
+        "distratores": [
+          "Século dezessete",
+          "Século dezenove",
+          "Século dezesseis"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação em 1598 (século dezesseis) está nos trechos. O enunciado não nomeia o mosteiro, e os distratores são séculos do mesmo formato e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de identidade direta, sem pista no enunciado. A resposta é única e os distratores são catedrais de nome parecido, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Os Sertões é a obra mais importante dele. 'Escritor e engenheiro' não entrega o nome, e os distratores são obras brasileiras conhecidas de outros autores.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam D. Pedro I a cavalo no monumento. O enunciado não nomeia o personagem, e os distratores são figuras históricas plausíveis, nenhuma correta.",
+      "reescrita": null
+    }
+  ]
+}

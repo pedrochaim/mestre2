@@ -1,0 +1,171 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Chafariz entre palmeiras-imperiais, típico do jardim; sem texto, legível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi fundado este jardim carioca?",
+      "resposta": "1808",
+      "distratores": [
+        "1792",
+        "1822",
+        "1831"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jardim Botânico do Rio de Janeiro",
+        "descricao": "Jardim botânico fundado em 1808 por D. João VI, na Zona Sul do Rio de Janeiro.",
+        "variantes": [
+          "Jardim Botânico do Rio"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco de figura pouco conhecida; não é reconhecível pelo rosto."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato de princesa pouco conhecida; não reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato célebre de Pombal diante de Lisboa; sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século atuou como ministro este homem, retratado diante da cidade que reconstruiu?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezessete",
+        "Século dezenove",
+        "Século dezesseis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marquês de Pombal",
+        "descricao": "Sebastião José de Carvalho e Melo, ministro do rei D. José I de Portugal no século XVIII.",
+        "variantes": [
+          "Sebastião José de Carvalho e Melo",
+          "Conde de Oeiras"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto antiga de encouraçado; pode ser confundida com o gêmeo São Paulo ou com outros dreadnoughts."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea clara do conjunto, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi fundado o mosteiro que abriga esta igreja?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século dezessete",
+        "Século dezoito",
+        "Século dezenove"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosteiro de São Bento (São Paulo)",
+        "descricao": "Mosteiro beneditino no centro histórico de São Paulo, fundado em 1598.",
+        "variantes": [
+          "Basílica de Nossa Senhora da Assunção"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Catedral neogótica com flecha característica; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que catedral é esta?",
+      "resposta": "Catedral de Petrópolis",
+      "distratores": [
+        "Catedral da Sé",
+        "Catedral de Campinas",
+        "Catedral de Teresópolis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Catedral de Petrópolis",
+        "descricao": "Catedral neogótica de São Pedro de Alcântara, em Petrópolis (RJ).",
+        "variantes": [
+          "Catedral de São Pedro de Alcântara"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Retrato antigo sem elementos que permitam reconhecer a pessoa; pergunta sem boa opção."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Manuscrito com texto manuscrito e legendas com nomes dos capitães, várias naus; não legível no celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a obra mais famosa deste escritor e engenheiro?",
+      "resposta": "Os Sertões",
+      "distratores": [
+        "Grande Sertão: Veredas",
+        "Vidas Secas",
+        "Casa-Grande & Senzala"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Euclides da Cunha",
+        "descricao": "Escritor, jornalista e engenheiro brasileiro, autor de Os Sertões.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato de presidente pouco conhecido; não reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Monumento claro e característico, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que personagem histórico aparece a cavalo no alto deste monumento?",
+      "resposta": "D. Pedro I",
+      "distratores": [
+        "Duque de Caxias",
+        "D. João VI",
+        "D. Pedro II"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estátua equestre de D. Pedro I",
+        "descricao": "Monumento equestre na Praça Tiradentes, no Rio de Janeiro, primeira escultura pública do país.",
+        "variantes": [
+          "Monumento a D. Pedro I"
+        ]
+      }
+    }
+  ]
+}
