@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que região histórica da Turquia é esta?",
+        "resposta": "Capadócia"
+      },
+      "existentes": [
+        {
+          "id": "q02096",
+          "pergunta": "As chaminés de fada da Capadócia, na Turquia, foram esculpidas pela erosão de que tipo de rocha?",
+          "resposta": "Tufo vulcânico"
+        },
+        {
+          "id": "q14029",
+          "pergunta": "Como se chamam estas colunas de rocha esculpidas pela erosão, típicas de uma região da Turquia?",
+          "resposta": "Chaminés de fadas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que edifício é este, visto do alto?",
+        "resposta": "Pentágono"
+      },
+      "existentes": [
+        {
+          "id": "q20444",
+          "pergunta": "Que edifício é este, visto do alto?",
+          "resposta": "Pentágono"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica este conjunto de ilhas?",
+        "resposta": "Dubai"
+      },
+      "existentes": [
+        {
+          "id": "q14153",
+          "pergunta": "Que arquipélago artificial é este, visto do espaço?",
+          "resposta": "Palm Jumeirah"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da região a partir de imagem; as existentes pedem o tipo de rocha e o nome das colunas. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q20444",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede a cidade onde ficam as ilhas (Dubai); a existente pede o nome do arquipélago (Palm Jumeirah). Fatos diferentes."
+    }
+  ]
+}

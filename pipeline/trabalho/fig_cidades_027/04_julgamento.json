@@ -1,0 +1,449 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Willis Tower",
+        "descricao": "Arranha-céu de 110 andares em Chicago, antiga Sears Tower.",
+        "variantes": [
+          "Sears Tower"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_do_diabo",
+          "nome": "Torre do Diabo",
+          "descricao": "Grande rochedo de colunas de rocha ígnea no nordeste do Wyoming, nos Estados Unidos.",
+          "variantes": [
+            "Devils Tower"
+          ]
+        },
+        {
+          "id": "torre_queimada",
+          "nome": "Torre Queimada",
+          "descricao": "Torre em ruínas da cidade de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver, antiga Torre de Bronze destruída por um incêndio.",
+          "variantes": [
+            "Burned Tower",
+            "Torre de Bronze",
+            "Brass Tower"
+          ]
+        },
+        {
+          "id": "earth_power",
+          "nome": "Earth Power",
+          "descricao": "Golpe de pokémon do tipo Terrestre, da 4ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "torre_do_cairo",
+          "nome": "Torre do Cairo",
+          "descricao": "Torre de concreto de 187 metros na ilha de Gezira, no rio Nilo, no Cairo, Egito.",
+          "variantes": [
+            "Cairo Tower",
+            "Borg El-Qahira"
+          ]
+        },
+        {
+          "id": "lontra_marinha",
+          "nome": "Lontra-marinha",
+          "descricao": "Mamífero marinho do Pacífico Norte, espécie Enhydra lutris.",
+          "variantes": [
+            "Enhydra lutris",
+            "Sea otter"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mesquita de Muhammad Ali",
+        "descricao": "Mesquita de estilo otomano na Cidadela do Cairo, construída entre 1832 e 1857.",
+        "variantes": [
+          "Mesquita de Alabastro",
+          "Mesquita de Mehmet Ali"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_de_al_aqsa",
+          "nome": "Mesquita de Al-Aqsa",
+          "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+          "variantes": [
+            "Al-Aqsa",
+            "Mesquita Al-Aqsa"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_kairouan",
+          "nome": "Grande Mesquita de Kairouan",
+          "descricao": "Mesquita de Kairouan, na Tunísia, fundada por Uqba ibn Nafi por volta de 670, uma das mais antigas do Magreb.",
+          "variantes": [
+            "Mesquita de Uqba",
+            "Grande Mesquita de Cairuão",
+            "Great Mosque of Kairouan"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "mesquita_do_xa_isfahan",
+          "nome": "Mesquita do Xá (Isfahan)",
+          "descricao": "Mesquita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+          "variantes": [
+            "Mesquita do Imã",
+            "Mesquita Imam Khomeini",
+            "Shah Mosque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Capadócia",
+        "descricao": "Região histórica da Anatólia Central, na Turquia, famosa pelas chaminés de fada.",
+        "variantes": [
+          "Cappadocia",
+          "Kapadokya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capadocia",
+          "nome": "Capadócia",
+          "descricao": "Região histórica no centro da Turquia, famosa pelas chaminés de fada e pelas cidades subterrâneas.",
+          "variantes": [
+            "Cappadocia",
+            "Kapadokya"
+          ]
+        },
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "qhapaq_nan",
+          "nome": "Qhapaq Ñan",
+          "descricao": "Rede de estradas do Império Inca que ligava Cusco a todo o território andino.",
+          "variantes": [
+            "Caminho Inca",
+            "Inca road system",
+            "Capac Ñan",
+            "Estradas incas"
+          ]
+        },
+        {
+          "id": "carpaccio",
+          "nome": "Carpaccio",
+          "descricao": "Prato de fatias finíssimas de carne crua temperada, criado no Harry's Bar em 1950.",
+          "variantes": [
+            "Carpaccio de carne"
+          ]
+        },
+        {
+          "id": "mamao",
+          "nome": "Mamão",
+          "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+          "variantes": [
+            "Papaia",
+            "Carica papaya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Prefeitura de Estocolmo",
+        "descricao": "Sede do município de Estocolmo, na Suécia, local do banquete do Nobel.",
+        "variantes": [
+          "Stockholms stadshus",
+          "Stockholm City Hall"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_de_estocolmo",
+          "nome": "Estádio Olímpico de Estocolmo",
+          "descricao": "Estádio de Estocolmo, na Suécia, inaugurado em 1912 para os Jogos Olímpicos daquele ano.",
+          "variantes": [
+            "Stockholms Olympiastadion",
+            "Stockholms stadion"
+          ]
+        },
+        {
+          "id": "estocolmo",
+          "nome": "Estocolmo",
+          "descricao": "Capital da Suécia, espalhada por ilhas onde o lago Mälaren encontra o mar Báltico.",
+          "variantes": [
+            "Stockholm"
+          ]
+        },
+        {
+          "id": "vaselina",
+          "nome": "Vaselina",
+          "descricao": "Marca de geleia de petróleo criada pelo químico americano Robert Chesebrough no século dezenove.",
+          "variantes": [
+            "Vaseline",
+            "Petrolato",
+            "Geleia de petróleo"
+          ]
+        },
+        {
+          "id": "prensa_francesa",
+          "nome": "Prensa francesa",
+          "descricao": "Utensílio de cozinha com êmbolo e filtro de malha, usado para preparar café por infusão.",
+          "variantes": [
+            "Cafeteira de êmbolo",
+            "French press",
+            "Cafetière"
+          ]
+        },
+        {
+          "id": "mesquita_de_suleymaniye",
+          "nome": "Mesquita de Süleymaniye",
+          "descricao": "Mesquita imperial otomana de Istambul, projetada por Mimar Sinan e concluída em 1557.",
+          "variantes": [
+            "Mesquita de Solimão",
+            "Süleymaniye Camii"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pentágono",
+        "descricao": "Sede do Departamento de Defesa dos EUA, em Arlington, Virgínia.",
+        "variantes": [
+          "The Pentagon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pentagono",
+          "nome": "Pentágono",
+          "descricao": "Sede do Departamento de Defesa dos Estados Unidos, em Arlington, Virgínia, de planta pentagonal.",
+          "variantes": [
+            "The Pentagon",
+            "O Pentágono"
+          ]
+        },
+        {
+          "id": "pantano",
+          "nome": "Pântano",
+          "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+          "variantes": [
+            "Swamp",
+            "Floresta alagada"
+          ]
+        },
+        {
+          "id": "pentatlo_antigo",
+          "nome": "Pentatlo antigo",
+          "descricao": "Prova combinada de cinco modalidades disputada nos Jogos Olímpicos da Antiguidade.",
+          "variantes": [
+            "Pentathlon",
+            "Pentatlo da Grécia Antiga",
+            "Ancient pentathlon"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_2002",
+          "nome": "Copa do Mundo FIFA de 2002",
+          "descricao": "Décima sétima Copa do Mundo, disputada no Japão e na Coreia do Sul e vencida pelo Brasil.",
+          "variantes": [
+            "Copa de 2002",
+            "2002 FIFA World Cup",
+            "Copa do Penta",
+            "Penta"
+          ]
+        },
+        {
+          "id": "pentatlo_moderno",
+          "nome": "Pentatlo moderno",
+          "descricao": "Modalidade olímpica criada por Pierre de Coubertin, que combina esgrima, natação, hipismo, tiro e corrida.",
+          "variantes": [
+            "Modern pentathlon",
+            "Pentatlo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Memorial do 11 de Setembro",
+        "descricao": "Memorial às vítimas dos atentados de 2001, no local das Torres Gêmeas em Nova York.",
+        "variantes": [
+          "National September 11 Memorial",
+          "9/11 Memorial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "memorial_jk",
+          "nome": "Memorial JK",
+          "descricao": "Mausoléu e centro cultural em Brasília dedicado a Juscelino Kubitschek, projetado por Oscar Niemeyer.",
+          "variantes": [
+            "Memorial Juscelino Kubitschek"
+          ]
+        },
+        {
+          "id": "armisticio_de_cassibile",
+          "nome": "Armistício de Cassibile",
+          "descricao": "Armistício assinado em setembro de 1943 entre a Itália e os Aliados, que tirou a Itália do Eixo.",
+          "variantes": [
+            "Armistício de 8 de setembro"
+          ]
+        },
+        {
+          "id": "cupula_da_bomba_atomica",
+          "nome": "Cúpula da Bomba Atômica",
+          "descricao": "Ruína de 1945 preservada como Memorial da Paz, no Japão.",
+          "variantes": [
+            "Genbaku Dome",
+            "Memorial da Paz de Hiroshima",
+            "Domo Genbaku"
+          ]
+        },
+        {
+          "id": "memorial_de_vimy",
+          "nome": "Memorial de Vimy",
+          "descricao": "Memorial nacional canadense na França, dedicado aos soldados canadenses mortos na Primeira Guerra Mundial.",
+          "variantes": [
+            "Memorial Nacional Canadense de Vimy",
+            "Canadian National Vimy Memorial"
+          ]
+        },
+        {
+          "id": "memorial_de_lincoln",
+          "nome": "Memorial de Lincoln",
+          "descricao": "Memorial nacional em forma de templo clássico em Washington, D.C., em homenagem a Abraham Lincoln.",
+          "variantes": [
+            "Lincoln Memorial",
+            "Memorial a Lincoln"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Palm Jumeirah",
+        "descricao": "Arquipélago artificial em forma de palmeira no Golfo Pérsico, em Dubai.",
+        "variantes": [
+          "Palmeira Jumeirah",
+          "Palm Islands"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palm_jumeirah",
+          "nome": "Palm Jumeirah",
+          "descricao": "Arquipélago artificial em forma de palmeira na costa de Dubai, nos Emirados Árabes Unidos.",
+          "variantes": [
+            "Palmeira Jumeirah",
+            "Palm Islands",
+            "Ilhas Palmeira"
+          ]
+        },
+        {
+          "id": "palmeira_imperial",
+          "nome": "Palmeira-imperial",
+          "descricao": "Palmeira alta do gênero Roystonea, de tronco liso e acinzentado, muito usada em jardins e avenidas.",
+          "variantes": [
+            "Roystonea",
+            "Palmeira-real",
+            "Royal palm"
+          ]
+        },
+        {
+          "id": "akala",
+          "nome": "Akala",
+          "descricao": "Segunda ilha da região de Alola, nos jogos Pokémon Sun e Moon, comandada pela kahuna Olivia.",
+          "variantes": [
+            "Ilha Akala",
+            "Akala Island"
+          ]
+        },
+        {
+          "id": "ilhas_seafoam",
+          "nome": "Ilhas Seafoam",
+          "descricao": "Arquipélago de cavernas geladas ao sul de Kanto, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Seafoam Islands"
+          ]
+        },
+        {
+          "id": "ilhas_do_canal",
+          "nome": "Ilhas do Canal",
+          "descricao": "Arquipélago no canal da Mancha, perto da costa da Normandia, formado por dependências da Coroa britânica como Jersey e Guernsey.",
+          "variantes": [
+            "Ilhas Anglo-Normandas",
+            "Channel Islands"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Willis Tower de Chicago."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a mesquita da Cidadela do Cairo."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "capadocia",
+      "motivo": "Mesma região histórica da Turquia, mesmas variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A Prefeitura de Estocolmo é diferente da cidade e do estádio."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "pentagono",
+      "motivo": "Mesma sede do Departamento de Defesa dos EUA."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Memorial do 11 de Setembro."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "palm_jumeirah",
+      "motivo": "Mesmo arquipélago artificial de Dubai."
+    }
+  ]
+}

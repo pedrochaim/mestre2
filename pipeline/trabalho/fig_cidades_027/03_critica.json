@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento. Os distratores são arranha-céus de Chicago, críveis, e nenhum é a torre da figura. O parêntese na resposta evita injustiça com o nome antigo.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A mesquita fica na Cidadela do Cairo, como diz o trecho. O enunciado não nomeia a entidade. Os distratores são cidades otomanas ou islâmicas críveis, e nenhuma delas tem esta mesquita.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta é uma região histórica. Os distratores Pamukkale, Antália e Éfeso são um sítio, uma cidade e uma cidade antiga, ou seja, de tipo diferente. Troquei por regiões históricas da Turquia.",
+      "reescrita": {
+        "pergunta": "Que região histórica da Turquia é esta?",
+        "resposta": "Capadócia",
+        "distratores": [
+          "Frígia",
+          "Lícia",
+          "Trácia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O edifício fica em Estocolmo, segundo o trecho. O enunciado não vaza a resposta, e os distratores são capitais nórdicas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O edifício é o Pentágono e a vista aérea mostra a forma característica. O enunciado não vaza a resposta. Os distratores são edifícios governamentais famosos, do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O memorial fica no local das Torres Gêmeas, em Nova York, segundo os trechos. O enunciado não vaza a resposta. Os distratores são cidades americanas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Palm Jumeirah fica em Dubai, segundo os trechos. O enunciado não vaza a resposta, e os distratores são cidades do Golfo Pérsico críveis.",
+      "reescrita": null
+    }
+  ]
+}

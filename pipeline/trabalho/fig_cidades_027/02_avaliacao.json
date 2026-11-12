@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O letreiro mostra 'Las Vegas' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arranha-céu reconhecível, sem texto.",
+      "pergunta": "Que arranha-céu é este?",
+      "resposta": "Willis Tower (antiga Sears Tower)",
+      "tipo": "multipla",
+      "distratores": [
+        "Torre John Hancock",
+        "Aon Center",
+        "Trump Tower Chicago"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Willis Tower",
+        "descricao": "Arranha-céu de 110 andares em Chicago, antiga Sears Tower.",
+        "variantes": [
+          "Sears Tower"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mesquita iluminada na Cidadela, reconhecível, sem texto.",
+      "pergunta": "Em que cidade fica esta mesquita?",
+      "resposta": "Cairo",
+      "tipo": "multipla",
+      "distratores": [
+        "Istambul",
+        "Damasco",
+        "Bagdá"
+      ],
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Mesquita de Muhammad Ali",
+        "descricao": "Mesquita de estilo otomano na Cidadela do Cairo, construída entre 1832 e 1857.",
+        "variantes": [
+          "Mesquita de Alabastro",
+          "Mesquita de Mehmet Ali"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Paisagem característica de chaminés de fada, sem texto.",
+      "pergunta": "Que região da Turquia é esta?",
+      "resposta": "Capadócia",
+      "tipo": "multipla",
+      "distratores": [
+        "Pamukkale",
+        "Antália",
+        "Éfeso"
+      ],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Capadócia",
+        "descricao": "Região histórica da Anatólia Central, na Turquia, famosa pelas chaminés de fada.",
+        "variantes": [
+          "Cappadocia",
+          "Kapadokya"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Vila portuguesa sem marco reconhecível; além disso, não é uma cidade do Brasil e a resposta não é única pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Edifício de tijolos com torre, marcante e sem texto.",
+      "pergunta": "Em que cidade fica este edifício?",
+      "resposta": "Estocolmo",
+      "tipo": "multipla",
+      "distratores": [
+        "Copenhague",
+        "Oslo",
+        "Helsinque"
+      ],
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Prefeitura de Estocolmo",
+        "descricao": "Sede do município de Estocolmo, na Suécia, local do banquete do Nobel.",
+        "variantes": [
+          "Stockholms stadshus",
+          "Stockholm City Hall"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea inconfundível do formato pentagonal, sem texto.",
+      "pergunta": "Que edifício é este, visto do alto?",
+      "resposta": "Pentágono",
+      "tipo": "multipla",
+      "distratores": [
+        "Capitólio dos Estados Unidos",
+        "Casa Branca",
+        "Palácio de Versalhes"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Pentágono",
+        "descricao": "Sede do Departamento de Defesa dos EUA, em Arlington, Virgínia.",
+        "variantes": [
+          "The Pentagon"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista genérica de litoral, sem elemento que permita reconhecer Maragogi."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea do memorial com as piscinas, sem texto e com pessoas minúsculas.",
+      "pergunta": "Em que cidade fica este memorial?",
+      "resposta": "Nova York",
+      "tipo": "multipla",
+      "distratores": [
+        "Washington",
+        "Boston",
+        "Chicago"
+      ],
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Memorial do 11 de Setembro",
+        "descricao": "Memorial às vítimas dos atentados de 2001, no local das Torres Gêmeas em Nova York.",
+        "variantes": [
+          "National September 11 Memorial",
+          "9/11 Memorial"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Praia com prédios genéricos, sem marco que permita reconhecer a Praia de Iracema; há pessoa em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Há texto visível ('Arena Shop', 'Biglietteria') nas portas e pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista de satélite em formato de palmeira, inconfundível, sem texto.",
+      "pergunta": "Em que cidade fica este conjunto de ilhas?",
+      "resposta": "Dubai",
+      "tipo": "multipla",
+      "distratores": [
+        "Abu Dhabi",
+        "Doha",
+        "Manama"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Palm Jumeirah",
+        "descricao": "Arquipélago artificial em forma de palmeira no Golfo Pérsico, em Dubai.",
+        "variantes": [
+          "Palmeira Jumeirah",
+          "Palm Islands"
+        ]
+      }
+    }
+  ]
+}
