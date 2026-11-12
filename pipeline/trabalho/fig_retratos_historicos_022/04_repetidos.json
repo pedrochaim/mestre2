@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que conquistador espanhol invadiu o império deste soberano?",
+        "resposta": "Hernán Cortés"
+      },
+      "existentes": [
+        {
+          "id": "q08591",
+          "pergunta": "Em que ano o imperador asteca Moctezuma segundo recebeu Hernán Cortés e seus soldados na entrada de Tenochtitlan?",
+          "resposta": "1519"
+        },
+        {
+          "id": "q08592",
+          "pergunta": "A diarreia que ataca muitos turistas no México ganhou o apelido de vingança de que imperador asteca?",
+          "resposta": "Montezuma (Moctezuma II)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o conquistador (Cortés); a q08591 pede o ano do encontro (1519) e a q08592 pede o imperador do apelido da diarreia. São fatos diferentes."
+    }
+  ]
+}

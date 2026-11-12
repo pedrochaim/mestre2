@@ -1,0 +1,254 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, figura pública.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Em que década este líder foi derrubado do poder?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "ancora": {
+        "nome": "Salvador Allende",
+        "descricao": "Político socialista chileno, presidente do Chile de 1970 a 1973, morto no golpe de 1973.",
+        "variantes": [
+          "Salvador Guillermo Allende Gossens"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pintura colonial clara, sem texto; imagem clássica do imperador asteca.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Que conquistador espanhol invadiu o império deste soberano?",
+      "resposta": "Hernán Cortés",
+      "distratores": [
+        "Francisco Pizarro",
+        "Pedro de Alvarado",
+        "Vasco Núñez de Balboa"
+      ],
+      "ancora": {
+        "nome": "Montezuma II",
+        "descricao": "Nono imperador asteca, que reinou de 1502 a 1520 e foi capturado pelos espanhóis em Tenochtitlán.",
+        "variantes": [
+          "Moctezuma II",
+          "Moctezuma Xocoyotzin",
+          "Montezuma"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pintura de gala clara, sem texto legível que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Com que imperador francês esta mulher foi casada?",
+      "resposta": "Napoleão Bonaparte",
+      "distratores": [
+        "Napoleão III",
+        "Luís XVI",
+        "Carlos Magno"
+      ],
+      "ancora": {
+        "nome": "Imperatriz Josefina",
+        "descricao": "Primeira esposa de Napoleão Bonaparte e imperatriz dos franceses de 1804 a 1810.",
+        "variantes": [
+          "Joséphine de Beauharnais",
+          "Joséphine Bonaparte",
+          "Josefina de Beauharnais"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica legível, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Em que década este líder revolucionário morreu em combate?",
+      "resposta": "Década de 1890",
+      "distratores": [
+        "Década de 1860",
+        "Década de 1870",
+        "Década de 1900"
+      ],
+      "ancora": {
+        "nome": "José Martí",
+        "descricao": "Poeta e herói da independência de Cuba, morto em combate em 1895.",
+        "variantes": [
+          "José Julián Martí Pérez"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A pintura traz o sobrenome 'STVART' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto minúscula e de baixa resolução, com outras pessoas ao fundo; não é reconhecível no celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Em que década este líder chegou à presidência russa?",
+      "resposta": "Década de 1990",
+      "distratores": [
+        "Década de 1970",
+        "Década de 1980",
+        "Década de 2000"
+      ],
+      "ancora": {
+        "nome": "Boris Iéltsin",
+        "descricao": "Primeiro presidente da Rússia pós-soviética, no cargo de 1991 a 1999.",
+        "variantes": [
+          "Boris Yeltsin",
+          "Boris Nikolayevich Yeltsin"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 9,
+      "pergunta": "Quem é este líder africano?",
+      "resposta": "Samora Machel",
+      "distratores": [
+        "Agostinho Neto",
+        "Amílcar Cabral",
+        "Eduardo Mondlane"
+      ],
+      "ancora": {
+        "nome": "Samora Machel",
+        "descricao": "Revolucionário e primeiro presidente de Moçambique independente, de 1975 a 1986.",
+        "variantes": [
+          "Samora Moisés Machel"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 8,
+      "pergunta": "Quem é este abolicionista brasileiro?",
+      "resposta": "José do Patrocínio",
+      "distratores": [
+        "Joaquim Nabuco",
+        "André Rebouças",
+        "Luís Gama"
+      ],
+      "ancora": {
+        "nome": "José do Patrocínio",
+        "descricao": "Jornalista, orador e abolicionista brasileiro, conhecido como Tigre da Abolição.",
+        "variantes": [
+          "José Carlos do Patrocínio",
+          "Tigre da Abolição"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Em 1939, na Mongólia, este militar soviético derrotou forças de que país?",
+      "resposta": "Japão",
+      "distratores": [
+        "Alemanha",
+        "China",
+        "Finlândia"
+      ],
+      "ancora": {
+        "nome": "Georgy Jukov",
+        "descricao": "Marechal soviético, um dos principais comandantes do Exército Vermelho na Segunda Guerra Mundial.",
+        "variantes": [
+          "Gueorgui Júkov",
+          "Georgy Zhukov",
+          "Gueorgui Konstantinovich Júkov"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Em que década este presidente argentino chegou ao poder pela primeira vez?",
+      "resposta": "Década de 1940",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1930",
+        "Década de 1950"
+      ],
+      "ancora": {
+        "nome": "Juan Perón",
+        "descricao": "Militar e político argentino, presidente da Argentina em 1946–1955 e 1973–1974.",
+        "variantes": [
+          "Juan Domingo Perón"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pintura nítida; a inscrição em latim é pequena e não traz o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Em que batalha este rei desapareceu, em 1578?",
+      "resposta": "Alcácer-Quibir",
+      "distratores": [
+        "Aljubarrota",
+        "Ourique",
+        "Toro"
+      ],
+      "ancora": {
+        "nome": "Dom Sebastião",
+        "descricao": "Rei de Portugal de 1557 a 1578, desaparecido na batalha de Alcácer-Quibir.",
+        "variantes": [
+          "Sebastião I de Portugal",
+          "O Desejado",
+          "O Encoberto"
+        ]
+      }
+    }
+  ]
+}
