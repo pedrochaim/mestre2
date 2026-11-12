@@ -1111,7 +1111,7 @@
       "titulo": "en:Nucleolus",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Estromatólito",
@@ -1615,7 +1615,7 @@
       "titulo": "en:Osteon",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Célula caliciforme",
@@ -1679,6 +1679,286 @@
       "camada": 3,
       "destino": 1,
       "status": "sem_imagem"
+    },
+    {
+      "nome": "Quadril",
+      "titulo": "en:Hip",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pescoço",
+      "titulo": "en:Neck",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Axila",
+      "titulo": "en:Axilla",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Calcanhar",
+      "titulo": "en:Heel",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Dedo do pé",
+      "titulo": "en:Toe",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bochecha",
+      "titulo": "en:Cheek",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Testa",
+      "titulo": "en:Forehead",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Panturrilha",
+      "titulo": "en:Calf (leg)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ruga",
+      "titulo": "en:Wrinkle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pinta (nevo)",
+      "titulo": "en:Melanocytic nevus",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pé de atleta (frieira)",
+      "titulo": "en:Athlete's foot",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Músculo esquelético",
+      "titulo": "en:Skeletal muscle",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Duodeno",
+      "titulo": "en:Duodenum",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ureter",
+      "titulo": "en:Ureter",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ílio",
+      "titulo": "en:Ilium (bone)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tálus",
+      "titulo": "en:Talus bone",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lobo frontal",
+      "titulo": "en:Frontal lobe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Músculo temporal",
+      "titulo": "en:Temporalis muscle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cone (retina)",
+      "titulo": "en:Cone cell",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cromátide",
+      "titulo": "en:Chromatid",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Metáfase",
+      "titulo": "en:Metaphase",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Colágeno",
+      "titulo": "en:Collagen",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Floema",
+      "titulo": "en:Phloem",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esporo",
+      "titulo": "en:Spore",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Osteoclasto",
+      "titulo": "en:Osteoclast",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fibroblasto",
+      "titulo": "en:Fibroblast",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Chlorella",
+      "titulo": "en:Chlorella",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Noctiluca",
+      "titulo": "en:Noctiluca scintillans",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arcella",
+      "titulo": "en:Arcella",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Blepharisma",
+      "titulo": "en:Blepharisma",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gonium",
+      "titulo": "en:Gonium",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Copépode",
+      "titulo": "en:Copepod",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Megacariócito",
+      "titulo": "en:Megakaryocyte",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Célula de Schwann",
+      "titulo": "en:Schwann cell",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Músculo braquiorradial",
+      "titulo": "en:Brachioradialis",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Músculo psoas maior",
+      "titulo": "en:Psoas major muscle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Platisma",
+      "titulo": "en:Platysma muscle",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Osso etmoide",
+      "titulo": "en:Ethmoid bone",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Glândula paratireoide",
+      "titulo": "en:Parathyroid gland",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nervo ulnar",
+      "titulo": "en:Ulnar nerve",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

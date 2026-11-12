@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Duodeno é a primeira porção do intestino delgado; o enunciado não vaza a resposta e a figura é necessária para saber qual parte está destacada.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O que a figura mostra é o quadril (região e articulação), mas o enunciado afirma que um osso está destacado. Não dá para garantir que isso vale para a imagem. A resposta também é ambígua entre osso do quadril, pelve e ílio.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a anáfase vem logo depois da metáfase. Os distratores são fases da mitose ou do ciclo, e nenhum está correto. Ir além de reconhecer a fase caracteriza o nível 3.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O ílio é a parte superior e maior do osso do quadril. O enunciado não vaza a resposta e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Unidade funcional... camadas concêntricas' define o ósteon, então dá para responder sem a figura. Reescrito sem a descrição, só com o grupo (osso compacto).",
+      "reescrita": {
+        "pergunta": "Que estrutura do osso compacto aparece nesta imagem?",
+        "resposta": "Ósteon (sistema de Havers)",
+        "distratores": [
+          "Trabécula óssea",
+          "Periósteo",
+          "Disco epifisário"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Partes na extremidade do pé' já entrega a resposta (dedos do pé), então a figura é enfeite. Não há pista que conserte isso sem ficar vaga ou ambígua.",
+      "reescrita": null
+    }
+  ]
+}

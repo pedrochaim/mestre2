@@ -413143,5 +413143,95 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q20778",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "duodeno",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que parte do intestino delgado está destacada em vermelho neste esquema?",
+    "resposta": "Duodeno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Duodenum",
+      "https://pt.wikipedia.org/wiki/Duodeno"
+    ],
+    "imagem": {
+      "arquivo": "q20778.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tractus_intestinalis_duodenum.svg",
+      "autor": "Olek Remesz (wiki-pl: Orem, commons: Orem)",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q20779",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "metafase",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Na mitose, que fase vem logo depois da mostrada nesta imagem?",
+    "resposta": "Anáfase",
+    "distratores": [
+      "Prófase",
+      "Telófase",
+      "Interfase"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Metaphase",
+      "https://pt.wikipedia.org/wiki/Met%C3%A1fase"
+    ],
+    "imagem": {
+      "arquivo": "q20779.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Metaphase_chromosomes.jpg",
+      "autor": "Simon Caulton",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20780",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "ilio",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que parte do osso do quadril está destacada em vermelho nesta imagem?",
+    "resposta": "Ílio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ilium_%28bone%29",
+      "https://pt.wikipedia.org/wiki/%C3%8Dlio"
+    ],
+    "imagem": {
+      "arquivo": "q20780.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ilium_02_animation.gif",
+      "autor": "BodyParts3D is made by DBCLS",
+      "licenca": "CC BY-SA 2.1 jp"
+    }
+  },
+  {
+    "id": "q20781",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "osteon",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estrutura do osso compacto aparece nesta imagem?",
+    "resposta": "Ósteon (sistema de Havers)",
+    "distratores": [
+      "Trabécula óssea",
+      "Periósteo",
+      "Disco epifisário"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Osteon",
+      "https://pt.wikipedia.org/wiki/%C3%93steon"
+    ],
+    "imagem": {
+      "arquivo": "q20781.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bone_unit_-_Osteon_1_--_Smart-Servier.png",
+      "autor": "Laboratoires Servier",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

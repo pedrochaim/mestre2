@@ -1,0 +1,156 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A pinta é um ponto minúsculo no ombro de uma pessoa comum; pouco legível no celular e a imagem não destaca a entidade."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Esquema limpo, sem texto, com o duodeno destacado em vermelho junto ao estômago.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que parte do intestino delgado está destacada em vermelho neste esquema?",
+      "resposta": "Duodeno",
+      "ancora": {
+        "nome": "Duodeno",
+        "descricao": "Primeira porção do intestino delgado, que liga o estômago ao jejuno.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A ilustração traz legendas legíveis, incluindo BRACHIO-RADIALIS sobre o músculo destacado, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Esqueleto com os ossos do quadril em vermelho, sem texto, claro e legível.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que osso do esqueleto está destacado em vermelho nesta imagem?",
+      "resposta": "Osso do quadril (osso coxal)",
+      "ancora": {
+        "nome": "Quadril",
+        "descricao": "Região e articulação lateral da pelve, formada pelo osso do quadril (ílio, ísquio e púbis) e pelo fêmur.",
+        "variantes": [
+          "Osso do quadril",
+          "Osso coxal",
+          "Pelve"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fotos de microscopia fluorescente de células em metáfase (vista lateral e polar), sem texto; reconhecível pelo alinhamento dos cromossomos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Na mitose, que fase vem logo depois da mostrada nesta imagem?",
+      "resposta": "Anáfase",
+      "distratores": [
+        "Prófase",
+        "Telófase",
+        "Interfase"
+      ],
+      "ancora": {
+        "nome": "Metáfase",
+        "descricao": "Fase da mitose em que os cromossomos condensados se alinham na placa equatorial da célula.",
+        "variantes": [
+          "Metaphase"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Ilustração de Gray cheia de legendas, com PLATYSMA escrito sobre o músculo destacado."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de pé de pessoa comum em que tornozelo, calcanhar e dedos aparecem juntos; 'esta parte' fica ambígua e a pergunta responde-se sem a imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Diagrama de ciclo de vida cheio de texto, com 'spores' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto do corpo de uma pessoa comum em primeiro plano, com fundo manchado de vermelho; inadequada."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Modelo 3D da pelve com as asas do ílio em vermelho, sem texto.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que parte do osso do quadril está destacada em vermelho nesta imagem?",
+      "resposta": "Ílio",
+      "ancora": {
+        "nome": "Ílio",
+        "descricao": "Região superior e maior do osso do quadril, formada pela asa e pelo corpo.",
+        "variantes": [
+          "Osso ilíaco",
+          "Ilium"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Desenho em corte do osso compacto com lamelas concêntricas e vasos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que unidade funcional do osso compacto aparece nestes cilindros de camadas concêntricas?",
+      "resposta": "Ósteon (sistema de Havers)",
+      "distratores": [
+        "Trabécula óssea",
+        "Periósteo",
+        "Disco epifisário"
+      ],
+      "ancora": {
+        "nome": "Ósteon",
+        "descricao": "Unidade funcional cilíndrica do osso compacto, com lamelas concêntricas ao redor de um canal central com vasos.",
+        "variantes": [
+          "Sistema de Havers",
+          "Sistema haversiano",
+          "Osteon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida, fundo branco, sem texto, mostrando os dedos do pé; parte do corpo anônima.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Como se chamam estas partes na extremidade do pé?",
+      "resposta": "Dedos do pé (artelhos)",
+      "ancora": {
+        "nome": "Dedo do pé",
+        "descricao": "Cada um dos dígitos na extremidade do pé humano.",
+        "variantes": [
+          "Artelho",
+          "Pododáctilo"
+        ]
+      }
+    }
+  ]
+}
