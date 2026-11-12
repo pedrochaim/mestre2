@@ -1,0 +1,112 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano e texto visível (NEXT, Digital Fix) na câmera."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A palavra SEGWAY aparece escrita na bolsa e no eixo, entregando a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A marca NOKIA aparece no aparelho, o que entrega a resposta e contraria o catálogo."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Montagem com quatro gerações diferentes do aparelho; imagem sem um único assunto claro e resposta ambígua."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O nome KENBAK-1 aparece várias vezes na imagem, além de legenda de museu e ano."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto desfocada, com pessoa comum, e o aparelho não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível de base hemisférica e tela em braço. O texto 'iMac' é minúsculo e não dá o ano pedido.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este computador foi lançado?",
+      "resposta": "2002",
+      "distratores": [
+        "1998",
+        "2000",
+        "2004"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "iMac G4",
+        "descricao": "Computador all-in-one da Apple lançado em 2002, com base hemisférica e tela LCD plana presa por um braço articulado.",
+        "variantes": [
+          "iMac de lâmpada",
+          "iMac G4 de 2002"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Forma cilíndrica e cores únicas, reconhecível. A palavra CRAY está apagada e quase ilegível no tanque.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que líquido eletricamente inerte, forçado sob pressão entre os circuitos, resfria este supercomputador?",
+      "resposta": "Fluorinert",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cray-2",
+        "descricao": "Supercomputador de quatro processadores vetoriais da Cray Research, de 1985, resfriado por imersão em líquido.",
+        "variantes": [
+          "Cray 2"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O logotipo HDMI aparece em relevo no conector, entregando a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Aparecem 'hp 12C' e 'Hewlett-Packard' na calculadora, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem clara de um termômetro de Galileu, com esferas coloridas em líquido. A etiqueta mostra só 24°C, sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento é este?",
+      "resposta": "Termômetro de Galileu",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Termômetro de Galileu",
+        "descricao": "Termômetro de tubo de vidro com líquido e esferas de densidades diferentes que sobem ou descem conforme a temperatura.",
+        "variantes": [
+          "Termômetro galileano",
+          "Galileo thermometer"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Mostra a bateria de uma ferramenta elétrica aberta, com texto 14.4V 1300mAh. Não é um carregador portátil, e o assunto não é reconhecível pela imagem."
+    }
+  ]
+}

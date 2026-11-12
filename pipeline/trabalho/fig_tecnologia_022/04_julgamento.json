@@ -1,0 +1,187 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "iMac G4",
+        "descricao": "Computador all-in-one da Apple lançado em 2002, com base hemisférica e tela LCD plana presa por um braço articulado.",
+        "variantes": [
+          "iMac de lâmpada",
+          "iMac G4 de 2002"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "florence_nightingale",
+          "nome": "Florence Nightingale",
+          "descricao": "Inglesa fundadora da enfermagem moderna e pioneira da estatística, famosa na Guerra da Crimeia.",
+          "variantes": [
+            "A Dama da Lâmpada"
+          ]
+        },
+        {
+          "id": "mar_de_marmara",
+          "nome": "Mar de Mármara",
+          "descricao": "Pequeno mar interior inteiramente dentro da Turquia, entre o Mar Negro e o Mar Egeu.",
+          "variantes": [
+            "Propôntida"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_2002",
+          "nome": "Copa do Mundo FIFA de 2002",
+          "descricao": "Décima sétima Copa do Mundo, disputada no Japão e na Coreia do Sul e vencida pelo Brasil.",
+          "variantes": [
+            "Copa de 2002",
+            "2002 FIFA World Cup",
+            "Copa do Penta",
+            "Penta"
+          ]
+        },
+        {
+          "id": "campeonato_mundial_de_basquete_masculino_de_2002",
+          "nome": "Campeonato Mundial de Basquete Masculino de 2002",
+          "descricao": "Mundial de basquete masculino da FIBA disputado em Indianápolis, nos Estados Unidos.",
+          "variantes": [
+            "Mundial de 2002",
+            "2002 FIBA World Championship"
+          ]
+        },
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cray-2",
+        "descricao": "Supercomputador de quatro processadores vetoriais da Cray Research, de 1985, resfriado por imersão em líquido.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "cray_1",
+          "nome": "Cray-1",
+          "descricao": "Supercomputador vetorial da Cray Research, em gabinete em forma de C com bancos ao redor, anunciado em 1975.",
+          "variantes": []
+        },
+        {
+          "id": "minigolfe",
+          "nome": "Minigolfe",
+          "descricao": "Variante do golfe focada nas tacadas curtas, jogada em pistas com obstáculos artificiais.",
+          "variantes": [
+            "Mini golfe",
+            "Crazy golf",
+            "Putt-putt"
+          ]
+        },
+        {
+          "id": "ray_ban",
+          "nome": "Ray-Ban",
+          "descricao": "Marca de óculos escuros criada nos Estados Unidos pela Bausch & Lomb nos anos 1930.",
+          "variantes": []
+        },
+        {
+          "id": "angra_2",
+          "nome": "Angra 2",
+          "descricao": "Segunda usina nuclear brasileira, unidade da central de Angra dos Reis, em operação desde 2000.",
+          "variantes": [
+            "Usina Nuclear Angra 2"
+          ]
+        },
+        {
+          "id": "cradily",
+          "nome": "Cradily",
+          "descricao": "Pokémon dos tipos Pedra e Planta, número 346 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Termômetro de Galileu",
+        "descricao": "Termômetro de tubo de vidro com líquido e esferas de densidades diferentes que sobem ou descem conforme a temperatura.",
+        "variantes": [
+          "Termômetro galileano",
+          "Galileo thermometer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "termometro_de_galileu",
+          "nome": "Termômetro de Galileu",
+          "descricao": "Termômetro de coluna de vidro com esferas de densidades diferentes que sobem ou descem conforme a temperatura.",
+          "variantes": [
+            "Termômetro galileano"
+          ]
+        },
+        {
+          "id": "termometro_clinico",
+          "nome": "Termômetro clínico",
+          "descricao": "Instrumento usado para medir a temperatura do corpo de uma pessoa ou animal.",
+          "variantes": [
+            "Termômetro médico",
+            "Termômetro digital"
+          ]
+        },
+        {
+          "id": "termometro_de_mercurio",
+          "nome": "Termômetro de mercúrio",
+          "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
+          "variantes": [
+            "Termômetro de vidro",
+            "Termômetro de mercúrio em vidro",
+            "Termômetro de vidro com mercúrio",
+            "Mercury-in-glass thermometer"
+          ]
+        },
+        {
+          "id": "caso_galileu",
+          "nome": "Caso Galileu",
+          "descricao": "Conflito entre Galileu Galilei e a Igreja Católica, que levou à sua condenação pela Inquisição em 1633.",
+          "variantes": [
+            "Processo de Galileu",
+            "Julgamento de Galileu",
+            "Galileo affair"
+          ]
+        },
+        {
+          "id": "aritmometro",
+          "nome": "Aritmômetro",
+          "descricao": "Calculadora mecânica patenteada na França em 1820 por Thomas de Colmar, a primeira produzida comercialmente com sucesso.",
+          "variantes": [
+            "Arithmomètre",
+            "Arithmometer"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o iMac G4; são entidades não relacionadas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cray-2 é um supercomputador diferente do Cray-1."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "termometro_de_galileu",
+      "motivo": "Mesma descrição e variantes: termômetro de esferas de densidades diferentes."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento é este?",
+        "resposta": "Termômetro de Galileu"
+      },
+      "existentes": [
+        {
+          "id": "q17980",
+          "pergunta": "Este termômetro de vidro, hoje muito usado como objeto de decoração, leva o nome de qual cientista?",
+          "resposta": "Galileu Galilei"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome do instrumento (Termômetro de Galileu), com imagem; a existente já dá o termômetro e pede o cientista (Galileu Galilei). Fatos diferentes, e saber um não leva necessariamente ao outro."
+    }
+  ]
+}
