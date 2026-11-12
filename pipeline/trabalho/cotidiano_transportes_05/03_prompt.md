@@ -1,0 +1,1873 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Transportes** (tema **Cotidiano**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "RMS Titanic",
+      "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Na madrugada de abril de 1912, que navio chegou ao local do naufrágio do Titanic e resgatou os sobreviventes nos botes?",
+    "resposta": "Carpathia",
+    "distratores": [
+      "Californian",
+      "Lusitania",
+      "Olympic"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/RMS_Carpathia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/RMS_Carpathia",
+        "situacao": "ok",
+        "texto": "RMS Carpathia was a Cunard Line transatlantic passenger steamship built by C. S. Swan & Hunter in their shipyard in Wallsend, England.\n[…]\nCarpathia made her maiden voyage in 1903 from Liverpool to Boston, and continued on this route before being transferred to Mediterranean service in 1904. In April 1912, she became famous for rescuing survivors of the rival White Star Line's RMS Titanic after it struck an iceberg and sank in the North Atlantic Ocean. Carpathia navigated the ice fields to arrive two hours after Titanic had sunk, and the crew rescued 712 survivors from the ship's lifeboats.\n[…]\nJosip Car, from Crikvenica, present-day Croatia, was an 18-year-old waiter onboard Carpathia. After participating in the rescue, he kept a Titanic life jacket as a souvenir and donated it in 1938 to the Maritime and History Museum of the Croatian Littoral in Rijeka. It is one of fourteen known and confirmed original life jackets from Titanic and the only one preserved and permanently displayed in Europe.\n[…]\nCarpathia Seamount, one of the Fogo Seamounts southeast of the Grand Banks of Newfoundland in the North Atlantic Ocean, is named after Carpathia for her involvement in the Titanic disaster.\n[…]\nThe wreck of Carpathia is owned by Premier Exhibitions Inc., formerly RMS Titanic Inc., which had planned to recover objects from the wreck.\n[…]\nButler, Daniel Allen (2009). The Other Side of the Night: The Carpathia, the Californian, and the Night the Titanic Was Lost. Casemate. ISBN 978-1-9351-4970-5\n[…]\nRMS Carpathia at sorbie.net\n[…]\nRMS Carpathia History on Chris' Cunard Page\n[…]\nArticle on Carpathia from Marine Engineering Oct 1903"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/RMS_Carpathia",
+        "situacao": "ok",
+        "texto": "O RMS Carpathia foi um navio de passageiros britânico operado pela Cunard Line e construído pelos estaleiros da Swan Hunter & Wigham Richardson. Sua construção começou em setembro de 1901, sendo lançado ao mar em agosto de 1902 e realizando sua viagem inaugural em maio de 1903. O Carpathia foi projetado para transportar imigrantes do Leste Europeu e pessoas da classe média, oferecendo um conforto \n[…]\nDepois de nove anos de serviço sem nenhum grande incidente, o Carpathia captou os pedidos de socorro do RMS Titanic na madrugada do dia 15 de abril de 1912 enquanto fazia sua rotineira travessia de Nova Iorque para Fiume na Áustria-Hungria. O capitão Arthur Rostron mudou o curso de seu navio para ir ao resgate do Titanic, preparou toda sua tripulação e conseguiu fazer com que a embarcação quebrasse seu próprio recorde de velocidade.\n[…]\nO Carpathia resgatou os poucos mais de setecentos sobreviventes ao amanhecer, retornando para Nova Iorque no dia 18 de abril. A imprensa da época e vários passageiros do Titanic consideraram Rostron e sua tripulação como heróis.\n[…]\nO Carpathia chegou ao local por volta dàs 3h30min e avistou o primeiro bote salva-vida às 4h00min; este era o nº 2, que foi resgatado dez minutos depois. O primeiro sobrevivente a embarcar foi o quarto oficial Joseph Boxhall, que anunciou oficialmente para Rostron o naufrágio do Titanic.\n[…]\nUma hora depois o U-55 foi avistado novamente e disparou um terceiro torpedo, acertando o compartimento nº 5. O Carpathia naufragou totalmente dez minutos depois, duas horas e trinta minutos após o primeiro impacto. O submarino foi avistado mais uma vez quinze minutos depois, desta vez indo em direção dos botes, porém o HMS Snowdrop chegou e afugentou o U-55, resgatando os sobreviventes. Das 280 pessoas que estavam a bordo, 275 sobreviveram.\n[…]\nRMS Carpathia (em inglês) no The Great Ocean Liners\n[…]\nRMS Carpathia (em inglês) na Encyclopedia Titanica",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "RMS Titanic",
+      "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Titanic foi construído no estaleiro Harland and Wolff. Em que cidade ficava esse estaleiro?",
+    "resposta": "Belfast",
+    "distratores": [
+      "Liverpool",
+      "Glasgow",
+      "Dublin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Titanic",
+      "https://en.wikipedia.org/wiki/Harland_%26_Wolff"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Titanic",
+        "situacao": "ok",
+        "texto": "RMS Titanic was a British ocean liner that sank in the early hours of 15 April 1912 after striking an iceberg on her maiden voyage from Southampton, England, to New York City. Of the 2,208 passengers and crew aboard, approximately 1,500 died (estimates vary), making the incident one of the deadliest peacetime sinkings of a single ship.\n[…]\nThe sheer size of the Olympic class vessels posed a major engineering challenge for Harland and Wolff; no shipbuilder had ever before attempted to construct vessels this size. The ships were constructed on Queen's Island, now known as the Titanic Quarter, in Belfast Harbour. Harland and Wolff had to demolish three existing slipways and build two new ones, the largest ever constructed up to that time, to accommodate both ships.\n[…]\nIt was then shipped by rail to Fleetwood in Lancashire before boarding a ship to Belfast.\n[…]\nIt took many decades before the significance of Titanic was promoted in Northern Ireland, where it had been built by Harland and Wolff in Belfast. While the rest of the world embraced the glory and tragedy of Titanic, it remained a taboo subject throughout the 20th century in its birth city. The sinking brought tremendous grief and was a blow to Belfast's pride. Its shipyard was also a place many Catholics regarded as hostile.\n[…]\nIn 1995, Queen's Island, where Harland and Wolff built their ships, was renamed to Titanic Quarter, after the lost liner. In 2012 on the ship's centenary, the Titanic Belfast visitor attraction was opened on the site of the shipyard where Titanic was built. It was Northern Ireland's second most visited tourist attraction with almost 700,000 visitors in 2016.\n[…]\nRMS Titanic Inc. - the salvor-in-possession of the Titanic wreck site\n[…]\nTitanic Footage and Survivors Interviews on YouTube\n[…]\nTitanic Footage: Leaving Belfast – British Pathé on YouTube"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Harland_%26_Wolff",
+        "situacao": "ok",
+        "texto": "Harland & Wolff is a British shipbuilding and fabrication company headquartered in London with sites in Belfast, Arnish, Appledore and Methil. It specialises in ship repair, shipbuilding and offshore construction.\n[…]\nHarland & Wolff built the majority of the ocean liners for the White Star Line in the early 20th century, including the Olympic-class trio – RMS Olympic, RMS Titanic and HMHS Britannic. Their ships also include the Royal Navy's HMS Belfast; Royal Mail Line's flagship Andes; Shaw, Savill & Albion's Southern Cross; Union-Castle's RMS Pendennis Castle; P&O's Canberra; and Hamburg-America's Amerika of 1905.\n[…]\nIn 2003, Harland & Wolff's parent company sold 185 acres of surplus shipyard land and buildings to Harcourt Developments for £47 million. This is now known as the Titanic Quarter, and includes the £97 million Titanic Belfast visitor attraction.\n[…]\nStructural steel work on the ship began on 10 February 2011 and was completed in time for the 2012 Belfast Titanic Festival. In July 2012 Harland & Wolff was to carry out the dry docking and service of the Husky Oil SeaRose FPSO (Floating Production, Storage and Offloading) vessel.\n[…]\nIn June 2008, assembly work at the Belfast yard was underway on 60 Vestas V90-3MW wind turbines for the Robin Rigg Wind Farm. This was the second offshore wind farm assembled by the company for Vestas having completed the logistics for the Barrow Offshore Wind Farm in 2006. In August 2011 Harland & Wolff completed the logistics for the Ormonde Wind Farm which consisted of 30 REpower 5MW turbines.\n[…]\nCameron, Stephen (2011). Belfast Shipbuilders: A Titanic Tale (1st ed.). Colourpoint Books. ISBN 978-1-906578-78-7.\n[…]\nHarland and Wolff Heavy Industries"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/RMS_Titanic",
+        "situacao": "ok",
+        "texto": "RMS Titanic foi um navio de passageiros britânico operado pela White Star Line e construído pelos estaleiros da Harland and Wolff, em Belfast. Segunda embarcação da Classe Olympic de transatlânticos, depois do RMS Olympic e seguido pelo HMHS Britannic, foi projetado pelos engenheiros navais Alexander Carlisle e Thomas Andrews. Sua construção começou em março de 1909 e seu lançamento ao mar ocorreu\n[…]\nOs projetos foram realizados nos escritórios de desenho da Harland and Wolff, em Belfast, Irlanda, pelos engenheiros navais Alexander Carlisle, cunhado de Pirrie e responsável pelas decorações, instalações e dispositivos de segurança, e Thomas Andrews, sobrinho de Pirrie e chefe do Departamento de Desenho Naval. Carlisle acabou se aposentando repentinamente em 1910, enquanto o Olympic e o Titanic ainda estavam em construção, deixando Andrews como o único responsável pelos estaleiros e projetos.\n[…]\nAo meio-dia, os engenheiros, os representantes da Harland and Wolff e os representantes do Ministério do Comércio britânico almoçaram no salão de jantar da primeira classe e dessa forma inauguraram essa instalação. O Titanic voltou para Belfast às 18h, tendo cumprido todos os requisitos exigidos pelo governo do Reino Unido. Francis Carruthers, inspetor da Junta Comercial, assinou o certificado n.º 131 428 de navegabilidade do navio, válido por um ano.\n[…]\nHouve um profundo sentimento de dor em lugares associados diretamente com o Titanic. Multidões formadas por mulheres às lágrimas, as esposas, irmãs e mães de tripulantes, se reuniram na frente dos escritórios da White Star em Southampton para tentar descobrir o que havia acontecido com seus entes queridos – a maioria dos quais haviam morrido. Igrejas em Belfast lotaram e trabalhadores da Harland and Wolff choraram nas ruas ao saberem das notícias.\n[…]\n«Titanic-Titanic.com» (em inglês)\n[…]\n«RMS Titanic» (em inglês). no MaritimeQuest",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Alberto Santos-Dumont",
+      "descricao": "Aviador e inventor brasileiro, pioneiro dos dirigíveis e do 14-bis."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Em 1932, Santos Dumont morreu no Guarujá, abalado com o uso de aviões em combates de qual conflito brasileiro?",
+    "resposta": "Revolução Constitucionalista",
+    "distratores": [
+      "Revolução de 1930",
+      "Guerra do Contestado",
+      "Coluna Prestes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+      "https://pt.wikipedia.org/wiki/Alberto_Santos-Dumont"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+        "situacao": "ok",
+        "texto": "Alberto Santos-Dumont (self-stylised as Alberto Santos=Dumont; (20 July 1873 – 23 July 1932) was a Brazilian aeronaut, sportsman, inventor, and one of the few people to have contributed significantly to the early development of both lighter-than-air and heavier-than-air aircraft. The heir of a wealthy family of coffee producers, he dedicated himself to aeronautical study and experimentation in Par\n[…]\nOn 28 October 1930, Santos-Dumont was hospitalised in France, and on 14 April 1931 he wrote his first will. In 1931, he was treated in sanatoriums in Biarritz, and Orthez, in the Pyrénées-Atlantiques, where he attempted suicide by overdosing on medication. Prado Júnior, former mayor of Rio de Janeiro (then the capital of Brazil), had been exiled by the Revolution of 1930 and had gone to France. He found Santos-Dumont in a delicate state of health due to his worsening multiple sclerosis.\n[…]\nIn July 1932, the state of São Paulo rose up in the Constitutionalist revolution against the revolutionary government of Getúlio Vargas. On the 14th, Santos-Dumont wrote a letter in favour of \"...constitutional order in the country...\" to Governor Pedro de Toledo. When talking to professor and friend José de Oliveira Orlandi by phone, Santos-Dumont said: \"My God! My God! Is there no way to avoid the bloodshed of brothers?\n[…]\nThe conflict continued, and aeroplanes attacked the Campo de Marte in São Paulo on 23 July. They may have flown over Guarujá, and the sight of planes in combat may have caused deep anguish in Santos-Dumont who, in his nephew's absence, died by suicide at the age of 59. Decree No. 21,668 established three days of mourning. Coroners Roberto Catunda and Angelo Esmolari, who signed his death certificate, recorded the death as a heart attack.\n[…]\nWorks by or about Alberto Santos-Dumont at the Internet Archive\n[…]\nAlberto Santos Dumont Article by writer Patricia Nell Warren."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alberto_Santos-Dumont",
+        "situacao": "ok",
+        "texto": "Alberto Santos Dumont (Palmira, 20 de julho de 1873 – Guarujá, 23 de julho de 1932) foi um aeronauta, esportista, autodidata e inventor brasileiro. Santos Dumont projetou, construiu e voou os primeiros balões dirigíveis com motor a gasolina. Esse mérito lhe é garantido internacionalmente pela conquista do Prêmio Deutsch em 1901, quando em um voo contornou a Torre Eiffel com o seu dirigível Nº 6, t\n[…]\nNo dia 28 de outubro de 1930, na França, Santos Dumont foi internado, e no dia 14 de abril do ano seguinte, escreveu seu primeiro testamento. Em 1931 esteve internado em casas de saúde em Biarritz e em Orthez, no sul da França, onde tentou suicidar-se com sobredose de medicação. Antônio Prado Júnior, ex-prefeito do Rio de Janeiro (então capital do Brasil), havia sido exilado pela Revolução de 1930 e fora para a França.\n[…]\nEm 1932 ocorreu a revolução constitucionalista, em que o estado de São Paulo se levantou contra o governo revolucionário de Getúlio Vargas. No dia 14 de junho daquele ano, Santos Dumont escreveu uma carta em favor da \"…ordem constitucional no país…\" para o governador Pedro de Toledo, porém, ao conversar com o professor e amigo José de Oliveira Orlandi por telefone, Dumont disse: “Meu Deus! Meu Deus! Não haverá meio de evitar derramamento de sangue de irmãos?\n[…]\nApesar disso o conflito aconteceu e aviões atacaram o Campo de Marte, em São Paulo, no dia 23 de julho. Possivelmente, sobrevoaram o Guarujá, e a visão de aviões em combate pode ter causado uma angústia profunda em Santos Dumont que, nesse dia, aproveitando-se da ausência de seu sobrinho, suicidou-se, aos 59 anos. O Decreto n° 21 668 estabeleceu três dias de luto. Os médicos legistas Roberto Catunda e Ângelo Esmolari, que assinaram seu atestado de óbito, registraram a morte como ataque cardíaco.\n[…]\nColeção Santos Dumont\n[…]\nSantos Dumont — Academia Brasileira de Letras\n[…]\n«Histórias do Brasil - Santos Dumont»  — TV Senado"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "14-bis",
+      "descricao": "Avião de Alberto Santos-Dumont que voou em Paris em 1906."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Visto hoje, o 14-bis parece voar de ré, porque levava na frente, em forma de caixa, uma peça que nos aviões atuais fica na cauda. Que peça é essa?",
+    "resposta": "O leme",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis",
+        "situacao": "ok",
+        "texto": "The 14-bis (French: Quatorze-bis; (Portuguese: Quatorze-bis; English: Fourteen-again, approximating \"14B\"), also known as Oiseau de proie (\"bird of prey\" in French), was a pioneer era, canard-style biplane designed and built by Brazilian aviation pioneer Alberto Santos-Dumont. In 1906, near Paris, the 14-bis made a manned powered flight that was the first to be publicly witnessed by a crowd and al\n[…]\nFurthermore, written and photographic documentation by the Wrights authenticated by historians shows that the 1903 Wright Flyer accomplished takeoffs in a strong headwind without a catapult and made controlled and sustained flight; nearly three years before Santos-Dumont made his first heavier-than-air takeoff. In addition, although the Hargrave cells gave the 14-bis lateral stability, there was no lateral control, which is required for making turns, rolling, and banking.\n[…]\nThe Wright design used wing-warping for lateral control, something which they had been using since 1899 in their gliders. Without lateral control, the aircraft merely hops, or lifts off the ground and returns to it in a straight line – although rudder input, coupled with the very generous dihedral of the 14-bis' wings, would in fact give a fair degree of roll control. Dumont added octagonal ailerons to the 14-bis for lateral control in November 1906 (see media pictures below).\n[…]\nThe 14-bis was featured as one of the highlights of Brazil during the 2016 Summer Olympics opening ceremony.\n[…]\nBitencourt; Pogorzelski; Freitas; Azevedo (2011). \"A CFD-based Analysis of the 14-Bis Aircraft Aerodynamics and Stability\". J. Aerosp. Technol. Manag. 3 (2): 137–146. doi:10.5028/jatm.2011.03021711."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/14-bis",
+        "situacao": "ok",
+        "texto": "14-bis, também conhecido como Oiseau de Proie (francês para “ave de rapina”), foi um avião construído pelo inventor brasileiro Alberto Santos Dumont que em 12 de novembro de 1906 conquistou o Prêmio Archdeacon e o Prêmio do Aeroclube da França ao realizar um voo de 220 metros em Paris.\n[…]\nEstrutura Celular Hargrave: A configuração de pipa-caixa das asas, com seis células (três de cada lado), conferia grande rigidez estrutural e estabilidade intrínseca. A fuselagem triangular passava entre as células, e o piloto ficava em pé em uma cesta de vime à frente do motor.\n[…]\nO 14-bis era uma aeronave de configuração canard, com a superfície de controle de profundidade (e direção) à frente das asas principais. Essa configuração, combinada com o diedro acentuado das asas (cerca de 10 graus), tinha implicações profundas em sua estabilidade e controle. Análises modernas por CFD revelaram que o 14-bis era marginalmente estável longitudinalmente e instável direcionalmente.\n[…]\nPrimeiros Saltos (Agosto-Setembro de 1906): Após abandonar o balão Nº 14, Santos Dumont realizou os primeiros testes no solo em Bagatelle. Em 13 de setembro, com o motor de 24 hp, conseguiu um \"salto\" de 7 a 11 metros, que terminou com o trem de pouso danificado. Ele então instalou o motor mais potente de 50 hp e rebatizou a aeronave de Oiseau de Proie.\n[…]\nPor outro lado, defensores de Santos Dumont, especialmente no Brasil e na França, argumentam que o 14-bis foi a primeira aeronave a cumprir todos os requisitos para um \"voo verdadeiro\" na época: decolar por meios próprios, em público e sob supervisão oficial. Eles destacam que os voos dos Wright não foram publicamente demonstrados de forma convincente até 1908, e a dependência de uma catapulta os desqualificaria como uma decolagem autônoma.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Volkswagen Fusca",
+      "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Brasil, o apelido Fusca nasceu do jeito como imigrantes alemães pronunciavam uma palavra. Que palavra era essa?",
+    "resposta": "Volkswagen",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Volkswagen_Fusca",
+        "situacao": "ok",
+        "texto": "O Volkswagen Typ 1, popularmente conhecido como Fusca (no Brasil), Carocha (em Portugal) ou VW Käfer (em linguagem coloquial na Alemanha), foi o primeiro modelo de automóvel fabricado pela companhia alemã Volkswagen, sendo produzido entre 1938 e 2003. Foi o carro mais vendido no mundo, ultrapassando em 1972 o recorde que pertencia até então ao Ford Modelo T, de origem estadunidense. Foi produzido \n[…]\nLogo em seguida viria o icônico Karmann Ghia, que permitiria a Volkswagen entrar timidamente no mercado de carros luxuosos. Já no final da década de 1950 o Fusca se mostrava uma aposta certeira para a Volkswagen, que se expandia rapidamente para além-mar (chegaria no Brasil, por exemplo, já em 1957).\n[…]\nJá no Brasil, o nome Fusca é um pouco mais peculiar: a origem do nome no Brasil está relacionada com a pronúncia alemã da palavra Volkswagen, que significa \"carro(s) do povo\". O fonema da letra V em alemão é algo como \"fau\" e o W é \"vê\". Ao abreviar a palavra Volkswagen para VW, os alemães falavam \"fauvê\". Logo que o Fusca foi lançado na Alemanha, ficou comum a frase \"Isto é um VW\" (\"Das ist ein VW\"). A abreviação alemã \"fauvê\" logo se transformaria em \"fulque\" e \"fulca\"[carece de fontes]?.\n[…]\nSegundo o especialista Alexander Gromow, \"Desde que começaram a circular os primeiros Volkswagens, em 1950, também apareceu a corruptela da palavra Volkswagen passando pela influência da colônia alemã. (...)\n[…]\nEm Curitiba se fala 'fuqui' ou 'fuque', no Rio Grande do Sul é 'fuca'. Mas em São Paulo, talvez por uma questão de fonética, acrescentaram o 'S' na palavra e o Volkswagen virou Fusca.\"\n[…]\nVolkswagen 1600\n[…]\nVolkswagen Brasília\n[…]\nVolkswagen Variant II\n[…]\nVolkswagen Kombi\n[…]\nVolkswagen Karmann-Ghia\n[…]\nVolkswagen SP2\n[…]\nVolkswagen New Beetle\n[…]\nVolkswagen Fusca (A5)\n[…]\nVolkswagen\n[…]\n«Site da Volkswagen (Brasil)». www.volkswagen.com.br\n[…]\nQuatro Rodas. Grandes Brasileiros: VW Fusca\n[…]\nQuatro Rodas. Grandes Brasileiros: VW Fusca 1500"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Volkswagen Fusca",
+      "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que Fusca branco dos filmes da Disney, com o número cinquenta e três pintado, tinha vontade própria?",
+    "resposta": "Herbie",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Herbie"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Herbie",
+        "situacao": "ok",
+        "texto": "Herbie, the Love Bug is a fictional sentient 1963 Volkswagen Beetle racing car that was featured in several Walt Disney motion pictures starting with The Love Bug in 1968. He has a mind of his own, being capable of driving himself and often becoming a serious contender in auto racing.\n[…]\nIn the end of the film, Maggie becomes a NASCAR driver and Herbie builds a relationship with his new love interest, a Volkswagen New Beetle (which is revealed to be sentient as well).\n[…]\nHerbie has had numerous appearances in Disney parades, and has taken part in Disney on Ice and Disney on Parade, usually with painted-on eyes and teeth, along with a moving tongue. This Herbie model has been moved to Disney's All-Star Movies Resort at Walt Disney World and is the centerpiece of \"The Love Bug\" themed area.\n[…]\nTwo of the liveries available for the \"BF Weevil\" (the Grand Theft Auto equivalent of the Beetle) in Grand Theft Auto Online are based on Herbie.\n[…]\nAdditionally, Herbie was running on standard wheels yet again. Volkswagen also promoted the film by having a Type 1 Beetle, complete with Herbie livery, in every showroom. There are various model errors in this film, such as the later \"big window\" (post-1964) Beetles being used. Also of note is the \"cut-n-shut\" engine cover after the warehouse break-in. The Beetle used was a late model, having a more bulbous flat-bottomed lid with an earlier rounded bottom edge welded on.\n[…]\nAfter the success of The Love Bug, it was heavily endorsed by Volkswagen, which was in financial trouble at the time, when Beetle sales in North America were considerably lower than in previous decades. As such, the company insisted that the VW logos appear on Herbie. Both the hub cap VW logo and hood-mounted VW logo were reinstated at the company's request."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Herbie",
+        "situacao": "ok",
+        "texto": "Herbie é um personagem fictício que apareceu em seis filmes produzidos pelos estúdios Disney: Se Meu Fusca Falasse, (The Love Bug) de 1968; As Novas Aventuras do Fusca, (Herbie Rides Again) de 1974; Um Fusca em Monte Carlo, (Herbie Goes to Monte Carlo) de 1977 (também conhecido como Herbie - O Fusca Enamorado); A Última Cruzada do Fusca, (Herbie Goes Bananas) de 1980, Se o Meu Fusca Falasse (Remak\n[…]\nHerbie é um Volkswagen Fusca 1963, de cor branco pérola (código VW L87), dotado de vida própria, com uma incrível inteligência, carisma e personalidade. É um Fusca desprezado que vai parar nas mãos de Jim Douglas, um piloto de corridas fracassado que, graças a Herbie, ganha confiança e começa vencer várias corridas.\n[…]\nO tamanho original da listras do Herbie são de 12 cm de largura. Temos 3 cm para a cor vermelha, 3 cm para a cor branca e 6 cm para a cor da listra azul. Em cima do teto solar, as 3 cores das listras não são feitas de um decalque de vinil, mas sim pintado. A marca da fonte \"53\" usada desde os primeiros filmes é uma fonte especial desenhada por um homem da equipe de arte da Disney aos filmes, mas foi perdida ao longo do tempo.\n[…]\nPor essa razão não usaram a mesma fonte (tipo de letra) no (53) dos últimos 2 filmes. A largura da elipse com o (53) do capô tem cerca de 50 cm de largura. Na parte traseira do carro, a elipse (53) é um pouco maior e ainda possui uma ligeira inclinação.\n[…]\nHerbie Rides Again (1974) — dirigido por Robert Stevenson\n[…]\nHerbie Goes to Monte Carlo (1977) — dirigido por Vincent McEveety\n[…]\nHerbie Goes Bananas (1980) — dirigido por Vincent McEveety\n[…]\nHerbie: Fully Loaded (2005) — dirigido por Angela Robinson\n[…]\n«Herbie» (em inglês)\n[…]\nHerbie no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Concorde",
+      "descricao": "Avião comercial supersônico franco-britânico que operou de 1976 a 2003."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do avião supersônico Concorde, que quer dizer harmonia ou acordo, celebrava a parceria entre quais dois países?",
+    "resposta": "França e Reino Unido",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Concorde"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Concorde",
+        "situacao": "ok",
+        "texto": "Concorde ( KONG-kord, French: [kɔ̃kɔʁd] ) is a retired Anglo-French supersonic airliner jointly developed and manufactured by Sud Aviation and the British Aircraft Corporation (BAC).\n[…]\nIn 1995, David Fahey, of the National Oceanic and Atmospheric Administration in the United States, warned that a fleet of 500 supersonic aircraft with exhausts similar to Concorde might produce a 2 per cent drop in global ozone levels, much higher than previously thought. Each 1 per cent drop in ozone is estimated to increase the incidence of non-melanoma skin cancer worldwide by 2 per cent.\n[…]\nThe aircraft was usually referred to by the British as simply \"Concorde\". In France, it was known as \"le Concorde\" owing to \"le\", the definite article, used in French grammar to introduce the name of a ship or aircraft, and the capital being used to distinguish a proper name from a common noun of the same spelling. In French, the common noun concorde means \"agreement, harmony, or peace\".\n[…]\nConcorde sometimes made special flights for demonstrations, air shows (such as the Farnborough, Paris-Le Bourget, Oshkosh AirVenture and MAKS air shows) as well as parades and celebrations (for example, of Zurich Airport's anniversary in 1998).\n[…]\nKelly, Neil (2005). The Concorde Story: 34 Years of Supersonic Air Travel. Surrey, UK: Merchant Book Company Ltd. ISBN 978-1-904779-05-6.\n[…]\nOwen, Kenneth (2001). Concorde: Story of a Supersonic Pioneer. London: Science Museum. ISBN 978-1-900747-42-4.\n[…]\n\"First Concorde Supersonic Transport Flies\" (PDF). Aviation Week & Space Technology. 17 March 1969. Archived from the original (PDF) on 16 March 2015.\n[…]\n\"The day Concorde flew into the history books\". Airbus. 2 March 2019."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Concorde",
+        "situacao": "ok",
+        "texto": "O Concorde foi um avião comercial supersônico de passageiros, que foi produzido de abril de 1965 até o final de 1978 pelo consórcio formado pela britânica British Aircraft Corporation (BAC) e a francesa Aérospatiale.\n[…]\nCada um desses países possuía seu próprio projeto, porém, no começo da década de 1960, devido aos enormes custos demandados, os governos da Inglaterra e França decidiram juntar forças ao assinar, em 25 de outubro de 1962, um tratado que criou o consórcio franco-britânico e tornou possível o desenvolvimento do projeto e produção da aeronave.\n[…]\nA construção do primeiro protótipo francês (nº 001) começou em abril de 1965, pela Aérospatiale, em Toulouse, França, e foi concluída em 11 de dezembro de 1967. Após quinze meses de testes em solo, decolou para seu primeiro voo em 2 de março de 1969. O segundo protótipo (nº 002) foi construído pela BAC em Fliton, Inglaterra e decolou para seu primeiro voo um mês depois, em 9 de abril de 1969.\n[…]\nPorém, por se tratar de um avião supersônico, o Concorde emitia muito ruído e poluição, e assim, por muito tempo, restrições ambientais impediram sua operação nos Estados Unidos.\n[…]\nO serviço de passageiros no Concorde permaneceu sem acidentes por cerca de 24 anos, atendendo regularmente, além de Nova Iorque e Washington, as cidades de Miami, Bridgetown (Barbados), Caracas, Ilha de Santa Maria, Dacar, Bahrein, Singapura, Cidade do México e Rio de Janeiro. Ao longo destes anos, o avião rodou o mundo nas duas direções, visitando todos os continentes, exceto a Antártica.\n[…]\nVídeo com diversos voos do Concorde\n[…]\n«Site com informações, vídeos e fotos do Concorde» (em inglês e francês)\n[…]\n«Site com informações e fotos do Concorde» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Metrô de Londres",
+      "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que aviso em inglês, repetido nos alto-falantes do metrô de Londres desde 1968, pede cuidado com o vão entre o trem e a plataforma?",
+    "resposta": "Mind the gap",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mind_the_gap"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mind_the_gap",
+        "situacao": "ok",
+        "texto": "\"Mind the gap\" or sometimes \"watch the gap\" is an audible and written warning phrase issued to rail passengers to take caution while crossing the horizontal, and in some cases vertical, spatial gap between the train doorway and the station platform edge.\n[…]\nThe phrase was first introduced in 1968 on the London Underground in the United Kingdom. It is popularly associated with the UK among tourists because of the particularly British word choice (this meaning of the verb mind has largely fallen into disuse in American English, where the term \"watch your step\" is more commonly used).\n[…]\nThe phrase \"Mind the gap\" was coined in around 1968 for a planned automated announcement, after it had become impractical for drivers and station attendants to warn passengers. London Underground chose digital recording using solid state equipment with no moving parts. As data storage capacity was expensive, the phrase had to be short. A concise warning was also easier to paint onto the platform.\n[…]\nOn the Rio de Janeiro Metro, the phrase \"Observe atentamente o espaço entre o trem e a plataforma – Mind the gap\" also can be heard.\n[…]\nDuring the CPTM train trips in São Paulo, the announcer says, before reaching a station, \"Ao desembarcar, cuidado com o vão entre o trem e a plataforma – Before leaving, mind the gap between the train and the platform\".\n[…]\nIt is also the title of a Noisettes song on their album What's the Time Mr. Wolf?. The phrase is used in the songs \"Deadwing\" by Porcupine Tree, \"Bingo\" by Madness, \"Someone in London\" by Godsmack, Metal Airplanes by Matthew Good and \"New Frontier\" by the Counting Crows. Emma Clarke, one of the voices of the London Underground, has released a Mind The Gap single. It features spoof London Underground announcements."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mind_the_gap",
+        "situacao": "ok",
+        "texto": "\"Mind the gap\" (Cuidado com o vão) é uma advertência para o comboio de passageiros, pois por vezes há uma grande vala entre a porta e a plataforma. Foi introduzido em 1969 pelo Metro de Londres. A frase é tão associada ao metro que vende-se t-shirts com a frase imposta a um símbolo da London Transport.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Canal do Panamá",
+      "descricao": "Canal artificial que atravessa o istmo do Panamá e liga o oceano Atlântico ao Pacífico."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Na tentativa francesa de abrir o Canal do Panamá, nos anos 1880, milhares de trabalhadores morreram principalmente de quais doenças?",
+    "resposta": "Malária e febre amarela",
+    "distratores": [
+      "Cólera e disenteria",
+      "Peste bubônica",
+      "Varíola e sarampo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/French_canal_construction_in_Panama"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/French_canal_construction_in_Panama",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Canal do Panamá",
+      "descricao": "Canal artificial que atravessa o istmo do Panamá e liga o oceano Atlântico ao Pacífico."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Construído e controlado durante décadas pelos Estados Unidos, o Canal do Panamá passou para as mãos do governo panamenho em que ano?",
+    "resposta": "1999",
+    "distratores": [
+      "1977",
+      "1989",
+      "2003"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Torrijos%E2%80%93Carter_Treaties",
+      "https://en.wikipedia.org/wiki/Panama_Canal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Torrijos%E2%80%93Carter_Treaties",
+        "situacao": "ok",
+        "texto": "The Torrijos–Carter Treaties (Spanish: Tratados Torrijos-Carter) are two treaties signed by the United States and Panama in Washington, D.C., on September 7, 1977, which superseded the Hay–Bunau-Varilla Treaty of 1903. The treaties guaranteed that Panama would gain control of the Panama Canal after 1999, ending the control of the canal that the U.S. had exercised since 1903. The treaties are named\n[…]\nThe second treaty is titled The Panama Canal Treaty (Tratado del Canal de Panamá), and provided that as from 12:00 on December 31, 1999, Panama would assume full control of canal operations and become primarily responsible for its defense.\n[…]\nThe treaty laid out a timetable for transfer of the canal, leading to a complete handover of all lands and buildings in the canal area to Panama. The most immediate consequence of this treaty was that the Canal Zone, as an entity, ceased to exist on October 1, 1979. The final phase of the treaty was completed on December 31, 1999. On this date, the United States relinquished control of the Panama Canal and all areas in what had been the Panama Canal Zone.\n[…]\nIn addition, the treaty designated numerous areas and individual facilities as \"Canal Operating Areas\" for joint U.S.–Panama ongoing operations by a commission. On the effective date of the treaty, many of these, including Madden Dam, became newly surrounded by the territory of Panama. Just after noon local time on 31 December 1999, all former Canal Zone parcels of all types had come under the exclusive jurisdiction of Panama.\n[…]\nThomas Hollihan, \"The Public Controversy Over the Panama Canal Treaties: An Analysis of American Foreign Policy Rhetoric,\" Western Journal of Speech Communication, Fall 1986, p. 371+\n[…]\nThe New York Times, April 20, 1978, \"U.S. Was Prepared to Defend the Canal\".\n[…]\nThe Panama Canal Treaty (in English)\n[…]\nUniversity of Florida Digital Collections: Panama and the Canal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+        "situacao": "ok",
+        "texto": "The Panama Canal (Spanish: Canal de Panamá) is an artificial 82-kilometer (51-mile) waterway in Panama that connects the Caribbean Sea in the Atlantic Ocean with the Pacific Ocean. It cuts across the narrowest point of the Isthmus of Panama and is a conduit for maritime trade between the Atlantic Ocean and the Pacific Ocean.\n[…]\nAfter a period of joint American–Panamanian control, the Panamanian government took control in 1999. It is now managed and operated by the Panamanian government-owned Panama Canal Authority. Annual traffic has risen from about 1,000 ships in 1914, when the canal opened, to 14,702 vessels in 2008, for a total of 333.7 million Panama Canal/Universal Measurement System (PC/UMS) tons. By 2012, more than 815,000 vessels had passed through the canal.\n[…]\nThe treaty led to full Panamanian control effective at noon on 31 December 1999, and the Panama Canal Authority (ACP) assumed command of the waterway. The Panama Canal remains one of the chief revenue sources for Panama.\n[…]\nThe Panama Canal Authority (ACP) generates substantial revenue through tolls and fees, contributing to Panama’s GDP growth and infrastructure development. Since the canal’s transfer from the United States to Panama in 1999, revenues have been reinvested into national development projects, including ports, logistics hubs, and free trade zones. The canal's expansion has also improved employment and stimulated investment in the surrounding economic zones within Panama.\n[…]\nPanama Canal Zone\n[…]\nMellander, Gustavo A., Mellander, Nelly, Charles Edward Magoon: The Panama Years. Río Piedras, Puerto Rico: Editorial Plaza Mayor. ISBN 978-1-56328-155-6. OCLC 42970390. (1999).\n[…]\nPanama Canal Collection Archived 5 March 2021 at the Wayback Machine\n[…]\nPanama Canal at nationsonline.org\n[…]\nVideos of a transit in 1999 (original locks) @ shipvideos.net"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tratados_Torrijos-Carter",
+        "situacao": "ok",
+        "texto": "Os Tratados Torrijos-Carter (às vezes referidos no singular como o Tratado Torrijos-Carter) são dois tratados assinados entre os Estados Unidos e o Panamá em Washington, D.C. em 7 de setembro de 1977, anulando o Tratado Hay-Bunau-Varilla assinado em 1903.\n[…]\nEsses dois tratados garantiam ao Panamá o controle do canal do Panamá - até então sob controle dos Estados Unidos - a partir de 1999. Os tratados são assim chamados em homenagem aos dois signatários, o presidente estado-unidense Jimmy Carter e o líder panamenho Omar Torrijos. Torrijos não fora eleito democraticamente, tendo tomado o poder através de um golpe de estado em 1968, mas considera-se, em geral, que teve um grande apoio no Panamá para a assinatura desses tratados.\n[…]\nOs tratados foram objeto de algumas controvérsias nos Estados Unidos, particularmente na ala conservadora, que os encarava como um abandono de soberania sobre um bem dos Estados Unidos ao que ela caracterizava como \"governo hostil\". No ano precedendo a transferência final de controle do Canal, houve uma tentativa, no Congresso dos EUA, principalmente a Resolução Comum 77 (House Joint Resolution 77) apresentada por Helen Chenoweth-Hage, de declarar os tratados Carter-Torrijos caducos e nulos.\n[…]\nO tratado do Canal do Panamá definiu um plano para a transferência do canal, levando a um total controle de todas as terras e edifícios na área do Canal pelo Panamá. A consequência mais imediata desse tratado foi que a Zona do canal do Panamá, como entidade, deixou de existir em 1 de outubro de 1979. A fase final do tratado foi completada em 31 de dezembro de 1999.\n[…]\nNessa data, Os Estados Unidos transferiram o controle do Canal do Panamá e de todas as áreas do que fora até então a Zona do canal do Panamá ao Panamá.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Canal de Suez",
+      "descricao": "Canal artificial no Egito que liga o mar Mediterrâneo ao mar Vermelho."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Depois da Guerra dos Seis Dias, em 1967, o Canal de Suez ficou fechado à navegação por cerca de quantos anos?",
+    "resposta": "Oito anos",
+    "distratores": [
+      "Dois anos",
+      "Cinco anos",
+      "Doze anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Suez_Canal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Suez_Canal",
+        "situacao": "ok",
+        "texto": "The Suez Canal (; Egyptian Arabic: قناة السويس, Qanāt as-Suwais) is an artificial sea-level waterway in Egypt, connecting the Mediterranean Sea to the Red Sea through the Isthmus of Suez and dividing Africa and Asia (and by extension, the Sinai Peninsula from the rest of Egypt). The 193.3-kilometre-long (120.1-mile) canal is a key trade route between Europe and Asia.\n[…]\nAfter Egypt closed the Suez Canal at the beginning of the Six-Day War on 5 June 1967, the canal remained closed for eight years, reopening on 5 June 1975.\n[…]\nOn 16 May 1967, Nasser ordered UNEF peacekeeping forces out of the Sinai Peninsula, including the Suez Canal area. Egyptian troops were sent into Sinai to take their place. On 21 May, Israel protested Nasser's order to close the Straits of Tiran to Israeli trade.\n[…]\nAfter the 1967 Six-Day War, Israeli forces occupied the Sinai Peninsula and the Egyptian-administered Gaza Strip, including the entire east bank of the Suez Canal. In the following years, the tensions between Egypt and Israel intensified and from 1967 until August 1970, the War of Attrition took place as the then Egyptian president, Gamal Abdel Nasser, tried to retake the territories occupied by Israel during the conflict. The fighting ceased after the death of Nasser on 28 September 1970.\n[…]\nNew Suez Canal\n[…]\nSuez Canal on OpenStreetMap\n[…]\nEntrance of the Suez Canal – 1882\n[…]\nAmerican Society of Civil Engineers – Suez Canal\n[…]\nSuez Canal map by Strommer, 19th century. Archived 22 November 2018 at the Wayback Machine Eran Laor Cartographic Collection, The National Library of Israel. Historic Cities Research Project. Archived 25 March 2022 at the Wayback Machine\n[…]\nImages of container ship Ever Given aground in Suez Canal BBC News\n[…]\nExplained: The Whole Scenario Of Suez Canal. How Would It Have Impacted The Trade If It Persisted Longer? Archived 16 July 2021 at the Wayback Machine – Inventiva"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Canal_de_Suez",
+        "situacao": "ok",
+        "texto": "O canal de Suez (قناة السويس, Qanāt as-Suwais) é uma via navegável artificial ao nível do mar, no Egito, que liga o mar Mediterrâneo ao mar Vermelho através do istmo de Suez. Separa a África da Ásia e a península do Sinai do restante do território egípcio. Com 193,3 km de extensão, permite a navegação entre a Europa e a Ásia sem contornar a África.\n[…]\nA Convenção de Constantinopla estabelece a liberdade de passagem de navios mercantes e de guerra, em tempos de paz ou de guerra e sem distinção de bandeira. O atalho também é um ponto de estrangulamento naval, de interesse para as marinhas do Egito e de Israel, países com costas e bases no Mediterrâneo e no mar Vermelho. Fechado pelo Egito no início da Guerra dos Seis Dias, em 5 de junho de 1967, permaneceu sem navegação por oito anos, até 5 de junho de 1975.\n[…]\nNa Segunda Guerra Mundial, as tentativas ítalo-alemãs de tomá-lo foram repelidas durante a Campanha do Norte da África, mantendo-o fechado à navegação das potências do Eixo. Depois da guerra, o Exército Britânico manteve cerca de 70 mil soldados na Zona do Canal de Suez.\n[…]\nO Egito impôs um bloqueio para impedir que os israelenses usassem o canal, fechando-o a toda a navegação logo depois do início da Guerra dos Seis Dias. A passagem ficou interrompida por oito anos. Como o fechamento não havia sido previsto, quinze navios cargueiros ficaram presos no canal até sua reabertura, em 1975. Essas embarcações ficaram conhecidas como \"Frota Amarela\".\n[…]\nNo início do século XXI, a redução do gelo marinho no Ártico abriu uma janela de seis a oito semanas no verão para o transporte comercial entre a Europa e o leste da Ásia pela Rota Marítima do Norte, encurtando a viagem em milhares de quilômetros. O recuo do gelo de verão pode ampliar o período de navegação sem quebra-gelos.\n[…]\nCanal de Corinto, canal marítimo grego escavado ao nível do mar.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "TGV",
+      "descricao": "Trem francês de alta velocidade operado pela SNCF."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A sigla TGV, dos trens rápidos da França, abrevia uma expressão em francês. O que ela quer dizer?",
+    "resposta": "Trem de grande velocidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/TGV"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/TGV",
+        "situacao": "ok",
+        "texto": "The TGV (French: [teʒeve] ; train à grande vitesse, [tʁɛ̃ a ɡʁɑ̃d vitɛs] , 'high-speed train') is the generic name of the trainsets used for the intercity high-speed rail service run by France's national rail operator, SNCF Voyageurs. It is also a quasi-generic initialism for high-speed trains in French, even when not operated by SNCF Voyageurs.\n[…]\nThe success of the first high-speed service led to a rapid development of lignes à grande vitesse (LGVs, 'high-speed lines') to the south (Rhône-Alpes, Méditerranée, Nîmes–Montpellier), west (Atlantique, Bretagne-Pays de la Loire, Sud Europe Atlantique), north (Nord, Interconnexion Est) and east (Rhin-Rhône, Est). Since it was launched, the TGV has not recorded a single passenger fatality in an accident on normal, high-speed service.\n[…]\nIt was originally planned that the TGV, then standing for très grande vitesse ('very high speed') or turbine grande vitesse ('high-speed turbine'), would be propelled by gas turbines, selected for their small size, good power-to-weight ratio and ability to deliver high power over an extended period.\n[…]\nIn 1976, the French administration funded the TGV project, and construction of the LGV Sud-Est, the first high-speed line (French: ligne à grande vitesse), began shortly afterwards. The line was given the designation LN1, Ligne Nouvelle 1 ('New Line 1'). After two pre-production trainsets (nicknamed Patrick and Sophie) had been tested and substantially modified, the first production version was delivered on 25 April 1980.\n[…]\nKTX-I (based on the TGV Réseau) at the KTX (Korea Train eXpress) in South Korea.\n[…]\nIn June 2021, there were approximately 2,800 km (1,740 mi) of Lignes à Grande Vitesse (LGV), with four additional line sections under construction. The current lines and those under construction can be grouped into four routes radiating from Paris."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Train_%C3%A0_Grande_Vitesse",
+        "situacao": "ok",
+        "texto": "O TGV (Trem (português brasileiro) ou Comboio (português europeu) de Grande Velocidade, do francês, Train à Grande Vitesse) é uma série de trens (comboios) de alta velocidade desenvolvida pela Alsthom (atualmente Alstom) e pela companhia de caminhos de ferro nacional francesa SNCF, e operada principalmente pela própria SNCF. Também se denomina TGV aos serviços ferroviários realizados com este tipo\n[…]\nO êxito da primeira linha favoreceu a expansão do serviço, com novas linhas construídas até ao sul, oeste e nordeste de França. Desejosos de imitar o êxito da rede francesa, alguns países vizinhos como Bélgica, Itália ou Países Baixos construíram também as suas próprias linhas de alta velocidade. Atualmente, as linhas francesas de alta velocidade enlaçam com as de Bélgica, Alemanha, Países Baixos, Luxemburgo, Itália, Suíça, Espanha e inclusivamente, com as do Reino Unido.\n[…]\nOutras redes de alta velocidade utilizam trens derivados dos TGV (KTX, Série 100 da Renfe…).\n[…]\nO conceito de alta velocidade ferroviária criado foi de uma ferrovia exclusiva para trens de passageiros, separada completamente da ferrovia convencional, chamada de LGV (sigla em francês para Linha de alta velocidade), e que possuísse acessos para que os trens sirvam as estações já existentes.\n[…]\nLondres é servida atualmente pelos trens Eurostar, que circulam a alta velocidade pela linha do Eurotúnel e pela linha de alta velocidade inglesa (CTRL).[carece de fontes]?\n[…]\nAcela Express, trem de alta velocidade construído pela Bombardier, associada da Alstom, para os Estados Unidos, que usa a tecnologia motriz do TGV (apesar de o resto do trem ser independente).\n[…]\nEm 3 de abril de 2007, um trem TGV Duplex modificado, nomeado V150 bateu o recorde mundial de velocidade, atingindo 574,8 km/h, entre as estações de Champanhe-Ardenas e Lorena na LGV leste europeia, se tornando o trem convencional mais rápido do mundo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Expresso do Oriente",
+      "descricao": "Serviço ferroviário de luxo criado em 1883 entre Paris e Constantinopla."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Expresso do Oriente, criado em 1883, ligava Paris a Constantinopla. Como se chama hoje essa cidade?",
+    "resposta": "Istambul",
+    "distratores": [
+      "Ancara",
+      "Atenas",
+      "Bucareste"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orient_Express"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Orient_Express",
+        "situacao": "ok",
+        "texto": "The Orient Express was a long-distance passenger luxury train service created in 1883 by the Belgian company Compagnie Internationale des Wagons-Lits (CIWL) that operated until 2009. The train traveled the length of continental Europe, with terminal stations in Paris in the northwest and Istanbul in the southeast, and branches extending service to Athens, Brussels, and London.\n[…]\nThe Orient Express embarked on its initial journey on 5 June 1883, from Paris to Vienna, eventually extending to Istanbul, thus connecting the western and eastern extremities of Europe. The route saw alterations and expansions, including the introduction of the Simplon Orient Express following the opening of the Simplon Tunnel in 1919, enhancing the service's allure and importance. Several routes concurrently used the Orient Express name, or variations.\n[…]\nOn 5 June 1883, the first Express d'Orient left Paris for Vienna via Munich. Vienna remained the terminus until 4 October 1883, when the route was extended to Giurgiu, Romania. At Giurgiu, passengers were ferried across the Danube to Ruse, Bulgaria, to pick up another train to Varna. They then completed their journey to Constantinople, as the city was still commonly called in the west at the time, by ferry.\n[…]\nThe train was officially renamed the Orient Express in 1891.\n[…]\nTickets start at US$3,262 per person and it operates on multiple different routes most notably Paris-Istanbul via Vienna and Budapest. Despite its name, the train runs via the Brenner Pass instead of the Simplon tunnel. Belmond also offers a similarly themed luxury train in Singapore, Malaysia and Thailand, called the Eastern & Oriental Express. Sherwood also operated a chain of Orient Express-branded luxury hotels, licensed from SNCF, owner of the Orient Express branding.\n[…]\nOrient-Express Hotels\n[…]\nThe Last Express\n[…]\nTaurus Express\n[…]\nOrient-Express, a luxury brand"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Expresso_do_Oriente",
+        "situacao": "ok",
+        "texto": "Expresso do Oriente (Orient Express em inglês e francês) foi o serviço de trem de longa distância que, no seu ápice, ligava Paris a Istambul. Desde a sua inauguração em 1883 até hoje, a sua rota foi alterada muitas vezes, seja por logística ou por questões políticas. Foi considerado um dos trens mais luxuosos do mundo, com passageiros que incluíam desde burgueses milionários até membros da aristoc\n[…]\nEm 4 de outubro de 1883 a companhia inaugurou o então batizado Express d'Orient. Na época, o trem saía duas vezes por semana da estação Gare de l'Est, em Paris, e terminava na cidade de Giurgiu, na Romênia, passando por Estrasburgo, Munique, Viena, Budapeste e Bucareste. De Giurgiu, os passageiros eram transportados através do Danúbio para a cidade de Ruse, na Bulgária. Daí havia outro trem que os levaria até Varna, onde poderiam tomar um ferry para Istambul.\n[…]\nEm 1885 o Expresso do Oriente já contava com saídas diárias de Paris até Viena. De lá, além das duas saídas semanais até Giurgiu, criou-se uma alternativa, que saía de Viena até Niŝ, na Iugoslávia (atual Sérvia), passando pela capital Belgrado. De Niŝ, como as ferrovias na Bulgária estavam incompletas, os passageiros cruzavam a fronteira usando carruagens, sendo levados até a cidade de Plovdiv, de onde tomavam outro trem até Istambul.\n[…]\nEm 1914 o serviço do Expresso do Oriente foi interrompido. As operações voltaram ao normal em 1918. Em 1919 foi inaugurado o Túnel do Simplon, ligando a Suíça à Itália, possibilitando uma rota alternativa para Istambul. Foi então inaugurado o serviço Simplon Orient Express, que passava (após sair de Paris) por Lausanne, Milão, Veneza, Trieste e Zagreb, se juntando à rota original em Belgrado.\n[…]\nO Simplon Orient Express logo provou ser a rota mais visada de todo o serviço.\n[…]\n«Venice-Simplon Orient Express» (em inglês)\n[…]\n«The truth behind the legend: A history of the Orient Express» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Estrada de Ferro Madeira-Mamoré",
+      "descricao": "Ferrovia construída em Rondônia no início do século vinte, conhecida como Ferrovia do Diabo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por que a ferrovia Madeira-Mamoré, aberta na selva de Rondônia, ganhou o apelido de Ferrovia do Diabo?",
+    "resposta": "Milhares de operários morreram na obra",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamor%C3%A9",
+      "https://en.wikipedia.org/wiki/Madeira-Mamor%C3%A9_Railroad"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamor%C3%A9",
+        "situacao": "ok",
+        "texto": "Estrada de Ferro Madeira-Mamoré (EFMM) é uma ferrovia no atual estado de Rondônia, no Brasil, considerada um ícone ferroviário mundial.\n[…]\nAinda, a empresa iniciou mais uma ação judicial contra a Madeira-Mamoré por perdas e danos (que curiosamente nem sofrera, por sequer ter feito nada na obra), que ao contrário da primeira, foi resolvida com o rápido pagamento de £25.000 por parte do Coronel Church, que na época encontrava-se desesperado em construir a ferrovia a qualquer custo.\n[…]\nConsciente das falhas cometidas nas tentativas anteriores de construção da ferrovia, a Madeira-Mamoré agora contaria com uma ampla infraestrutura para suporte na região insalubre em que seria construída: as primeiras medidas a ser tomada foram a avaliação do material deixado pela P&T Collins (dos quais o principal item recuperado foi a locomotiva Coronel Church, que havia trafegado na linha 28 anos antes e foi encontrada com uma árvore crescendo em sua caldeira) e a construção do Hospital de Candelária, em uma propriedade adquirida de um residente local de origem italiana; também, para evitar a paralisação das obras por falta de mão de obra, dadas as altas taxas de adoecimento do contingente de mão de obra, a firma construtora enviaria reforços recrutados das mais diversas partes do mundo para Santo Antônio com frequência mensal.\n[…]\n2018 - O Pátio Ferroviário da Estrada de Ferro Madeira-Mamoré, seus bens móveis e imóveis são inscritos  no Livro do Tombo Arqueológico, Etnográfico e Paisagístico em 08/01/2018;\n[…]\nMuseu da Estrada de Ferro Madeira-Mamoré\n[…]\n«Estrada de Ferro Madeira-Mamoré.»\n[…]\nFotografias da construção da Estrada de Ferro Madeira-Mamoré"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Madeira-Mamor%C3%A9_Railroad",
+        "situacao": "ok",
+        "texto": "The Madeira-Mamoré Railroad is an abandoned railroad built in the Brazilian state of Rondônia between 1907 and 1912, during the rubber boom. The railroad links the cities of Porto Velho and Guajará-Mirim. It became known as the \"Devil's Railroad\" because thousands of construction workers died from tropical diseases and violence.\n[…]\nDuring the 1870s, the American George Earl Church made two attempts to overcome the Madeira River rapids in order to gain access to Bolivian rubber markets. Both efforts were defeated by the difficult terrain and by appalling loss of life to malaria, accidents, and violence.\n[…]\nA successful bid to build the railroad began with the Treaty of Petrópolis (1903) whereby Bolivia gave Brazil the territory of Acre (191,000 km²), in exchange for Brazilian territory, a monetary payment, and a pledge that Brazil would build a rail link to bypass the rapids on the Madeira river. Construction began in 1907, and on April 30, 1912, the final leg of the Madeira-Mamoré Railway was inaugurated. The Chief Accountant from Oct 1911 - Sept 1913 was Mark E. Smith.\n[…]\nNeeleman, Gary  and Rose Neeleman. Tracks in the Amazon: The Day-to-Day Life of the Workers on the Madeira-Mamoré Railroad. Salt Lake City: University of Utah Press, 2013. ISBN 978-1-60781-275-3\n[…]\nRalph Anderson Bennitt: The Madeira-Mamoré Railway. Archived 2019-05-08 at the Wayback Machine 1913.\n[…]\nNeville B. Craig (1847-1926) in cooperation with members of the Madeira and Mamore of Philadelphia. \"Recollections of an Ill-Fated Expedition to the Headwaters of the Madeira River in Brazil\". Philadelphia & London: J.B.Lippincott Company, 1907. Library of Congress Call Number HE2930.M2 C82. LCCN Number 07-29709"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Bondinho do Pão de Açúcar",
+      "descricao": "Teleférico que liga a Praia Vermelha aos morros da Urca e do Pão de Açúcar, no Rio de Janeiro, inaugurado em 1912."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que filme de James Bond, de 1979, o agente luta com o vilão Dentes de Aço em cima do bondinho do Pão de Açúcar?",
+    "resposta": "007 Contra o Foguete da Morte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moonraker_(film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Moonraker_(film)",
+        "situacao": "ok",
+        "texto": "Moonraker is a 1979 spy-fi film, the eleventh in the James Bond series produced by Eon Productions, and the fourth to star Roger Moore as the fictional MI6 agent James Bond. The third and final film in the series to be directed by Lewis Gilbert, it co-stars Lois Chiles, Michael Lonsdale, Corinne Cléry and Richard Kiel. In the film, Bond investigates the vanishing of a Space Shuttle orbiter, leadin\n[…]\nA Drax Industries Moonraker Space Shuttle orbiter on loan to the United Kingdom is hijacked in midair while aboard a Shuttle Carrier Aircraft. The carrier is destroyed, but no wreckage of the shuttle is found. M, head of MI6, assigns James Bond, Agent 007, to investigate. En route to England, Bond is attacked and thrown from a plane by assassin Jaws. He survives by stealing the pilot's parachute, while Jaws lands on a trapeze net inside a circus tent.\n[…]\nRoger Moore as Commander James Bond \"007\", an MI6 agent assigned to look into the theft of a shuttle from the \"Moonraker\" space programme.\n[…]\nEmily Bolton as Manuela, 007's contact in Rio.\n[…]\nFor Moonraker, for the first time since Diamonds Are Forever (1971), Barry used a piece of music called \"007\" (on track 7), the secondary Bond theme composed by Barry and introduced in From Russia with Love during Bond's escape with the Lektor; some classical music pieces were also included.\n[…]\nIn November 2006, Entertainment Weekly ranked Moonraker fourteenth among the Bond films, describing it as \"by far the campiest of all 007 movies\" with \"one of the worst theme songs.\" IGN listed it eleventh, calling it outlandish and saying that despite the actors \"trying what they can to ground the film in reality, the laser gun/space station finale pretty much undercuts their efforts.\" Norman Wilner of MSN chose it as the fourth-worst film of the series, considering that the film \"just flat-out sucks.\"\n[…]\nOutline of James Bond"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Moonraker",
+        "situacao": "ok",
+        "texto": "Moonraker (bra: 007 contra o Foguete da Morte) é um filme franco-britânico de acção, aventura, espionagem e ficção científica de 1979, o 11.º da série James Bond com Roger Moore no papel do agente secreto. O filme retrata uma aventura de James Bond no espaço sideral em que o agente secreto tem por missão destruir cúpulas de orquídeas negras que, se entrassem na Terra, causariam o fim da humanidade\n[…]\nRoger Moore - James Bond\n[…]\nDepois do Natal em Paris, a unidade viaja até o Rio de Janeiro e aproveita a chegada de Moore para filmar o concorde da viagem de Bond. Na cidade é filmada uma das cenas mais arriscadas: a luta entre Moore e Jaws por cima do teleférico. A unidade é dividida em duas, uma delas para recriar o carnaval do Rio e outra para filmar as cataratas de Iguaçu.\n[…]\nO filme, com o slogan Outer Space now belongs to 007 (O Espaço pertence agora a 007), filmado em sete países, quatro estúdios diferentes e com uma despesa superior aos seis primeiros filmes juntos, é estreado no Verão de 1979 esmagando mais um recorde de bilheteiras.\n[…]\nHouve uma polêmica, não divulgada na época, que a modelo Adele Fátima, seria a primeira Bond Girl brasileira, segundo depois a própria atriz teria revelado no programa de televisão Elas apresentado por Luciana Vendramini em televisão a cabo, que houve uma suposta rejeição da atriz brasileira por parte da esposa de Roger Moore e da produção do filme contra a participação da atriz brasileira, que era conhecida como garota propaganda de uma marca de sardinhas enlatadas com sede em Niterói\n[…]\nO Pão de Açúcar foi uma das principais locações do filme e durante a sequência da luta no Bondinho, na qual Bond e Goodhead são atacados por Jaws, o dublê Richard Graydon escorregou e evitou uma queda fatal. Na cena em que Jaws rói o cabo de aço do Bondinho foram utilizados cabos de caramelo, apesar de que Kiel precisou usar suas dentaduras de metal.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Elevador Lacerda",
+      "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O Elevador Lacerda, inaugurado em Salvador em 1873, leva o nome de quem?",
+    "resposta": "Antônio Francisco de Lacerda",
+    "distratores": [
+      "Carlos Lacerda",
+      "Barão de Mauá",
+      "Marquês de Pombal"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Elevador_Lacerda",
+      "https://en.wikipedia.org/wiki/Lacerda_Elevator"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Elevador_Lacerda",
+        "situacao": "ok",
+        "texto": "O Elevador Lacerda é um sistema de transporte público da cidade de Salvador, capital do estado brasileiro da Bahia. Trata-se do primeiro elevador urbano do mundo. Em 8 de dezembro de 1873, quando a primeira torre foi inaugurada, era o elevador mais alto do mundo, com 63 metros. A estrutura atual, de 1930, tem 72 metros de altura. Faz o transporte de pessoas entre a Praça Cairu, na Cidade Baixa, e \n[…]\nPorém, o plano do baiano visionário Antônio de Lacerda ao idealizar o Elevador Hidráulico da Conceição - primeiro nome do Elevador Lacerda - não era apenas ligar a parte baixa e alta da cidade, era facilitar o transporte para o sul, sentido em que a cidade se expandia, articulando o elevador com as linhas de bonde.[carece de fontes]?\n[…]\nO projeto foi construído em ambiente familiar. Reuniões entre o pai Antônio Francisco de Lacerda, dono de muitas propriedades, o irmão engenheiro Augusto Frederico de Lacerda, a esposa e o sogro, eram realizadas para discutir o plano revolucionário. As obras foram iniciadas em 17 de outubro de 1869 e sua inauguração de se deu em 8 de dezembro de 1872. Era de sistema hidráulico até 1906, quando, após passar por reformas, foi eletrizado pela Companhia Linha Circular de Carris da Bahia.\n[…]\nA oportunidade de realizar seu projeto surgiu quando a firma Antônio de Lacerda & Cia, cujo principal sócio era seu pai, comprou os direitos de construção de linhas de transporte na encosta e a firma se transformou na Companhia de Transportes Urbanos. A inauguração do equipamento se deu três anos depois e o elevador ficou conhecido popularmente como \"Parafuso\". Em 1896, o nome oficial foi alterado para \"Elevador Lacerda\" em homenagem ao idealizador e construtor Antônio de Lacerda.\n[…]\nLista de monumentos públicos em Salvador\n[…]\nElevador de Santa Justa\n[…]\nElevador Lacerda (BA) no sítio da eleição das 7 Maravilhas do Brasil\n[…]\nElevador Lacerda no sítio do IPHAN"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lacerda_Elevator",
+        "situacao": "ok",
+        "texto": "The Lacerda Elevator (Elevador Lacerda) is a public urban elevator located in Salvador, Brazil, connecting the lower city (Cidade Baixa) to the upper city (Cidade Alta). The 72 metres (236 ft) elevator was built between 1869 and 1873; it was named after Antônio de Lacerda, director of the Commercial Association of Bahia. It was a hydraulic elevator at first; later operating by electricity since 19\n[…]\nThe Lacerda Elevator has two towers, one that pierces the stone slope of the Ladeira da Montanha, and the other, more visible, goes to the Cidade Baixa level. The elevator has four lifts, carrying 27 passengers each on a 30-second ride costing 0.15 reais. In 2019 it transported more than 33,000 passengers per day."
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Volkswagen Passat",
+      "descricao": "Carro médio da Volkswagen lançado em 1973, também fabricado no Brasil a partir de 1974."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Passat, Jetta, Bora e Scirocco, nomes de carros da Volkswagen, foram inspirados em que tipo de fenômeno da natureza?",
+    "resposta": "Ventos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volkswagen_Passat",
+      "https://en.wikipedia.org/wiki/Volkswagen_Jetta"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Passat",
+        "situacao": "ok",
+        "texto": "The Volkswagen Passat is a nameplate of large family cars (D-segment) manufactured and marketed by the German automobile manufacturer Volkswagen since 1973 and also marketed variously as the Dasher, Santana, Quantum, Magotan, Corsar and Carat — in saloon, estate, and hatchback body styles. With sales of 34 million units worldwide, the Passat is the fourth best-selling automobile of all time.\n[…]\nThe B3 Passat was heavily facelifted in 1993, and despite being designated B4, it was not an all-new model. The facelift revised external body panels except for the roof and glasshouse, with the most obvious exterior change seeing the reintroduction of a grille to match the style of the other same-generation Volkswagen models of the era, such as the Mk3 Golf and Jetta.\n[…]\nThe Passat introduced a new design language, first seen on the Concept 1 concept car, for the latest generation of Volkswagens, such as the Mk4 Golf, Bora and Polo Mk4. Aerodynamic work gave the B5 Passat a coefficient of drag of 0.27 (saloon model).\n[…]\nThe Passat nameplate was first used in China in 2011, when SAIC Volkswagen began selling the North American Passat NMS.\n[…]\nIn October 2018, the Chinese market 2019 Passat was unveiled, using the same Volkswagen Group MQB platform as the European Passat and VW Magotan, but it is not directly based on them. As a result, despite the high physical resemblance between the Chinese and North American Passats (and both being called Passat NMS), they have now diverged and are no longer using the same platform.\n[…]\nThe Volkswagen Magotan (China) produced by FAW-VW and Volkswagen Passat NMS (China) produced by SAIC-VW are considered to be near-equivalents, using the same MQB platform and an identical wheelbase of 2871mm, but with slightly different dimensions and different styling. The latest generation based on the B9 version of the European Passat will be launched in 2024."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Jetta",
+        "situacao": "ok",
+        "texto": "The Volkswagen Jetta () is a compact car/small family car manufactured and marketed by Volkswagen since 1979. Positioned to fill a sedan niche slightly above the Golf hatchback, it has been marketed over seven generations, variously as the Atlantic, Vento, Bora, City Jetta, Jetta City, GLI, Jetta, Clasico, and Sagitar (in China).\n[…]\nNumerous sources note that the Jetta nameplate derives from the Atlantic \"jet stream\" during a period when Volkswagen named its vehicles after prominent winds and currents (e.g. the Passat after the German word for trade wind, the Bora after bora, and the Scirocco after sirocco).\n[…]\nThe Volkswagen Bora has been produced by FAW-VW since 2001. It initially started as a rebadged version of the Mk4 Jetta (which was sold as the Bora in most markets). Later versions followed a different development path from the global Jetta, retaining the A4 (PQ34) platform until 2018, when it switched to the MQB A1 platform, similar to the global Mk7 Jetta.\n[…]\nThe Volkswagen Lavida has been produced by SAIC-VW since 2008. It was based on a heavily modified FAW-VW first generation Bora (which itself was a rebadged Mk4 Jetta). In 2018, it also switched to the MQB A1 platform, similar to the 2018 Bora and global Mk7 Jetta.\n[…]\nThe second known Jetta in China was the A4 model sold under the Bora name, which commenced production in December 2001. It was given a facelift in 2006, and was available with the 1.6- and 1.8-litre EA113 petrol engine and a 1.9-litre diesel engine. A five-speed manual was available alongside a four-speed automatic transmission. A hatchback version was known as the Bora HS and was a badged Volkswagen Golf Mk4.\n[…]\nVolkswagen Jetta (China)\n[…]\nTest Drive: VOLKSWAGEN Jetta 1.4 TSI (122 HP) - 2009 by Autoevolution.com\n[…]\nVW JETTA (USA)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Volkswagen_Passat",
+        "situacao": "ok",
+        "texto": "O Passat é um automóvel de segmento D fabricado pela Volkswagen AG. Produzido em várias gerações desde 1973, ele se situa entre o Volkswagen Golf/Jetta e o Phaeton na atual linha de produção da VW. Atualmente produzido na fábrica da VW em Emden, Alemanha, é normalmente chamado de Passat nos mercados europeus, mas recebeu vários outros nomes tais como Dasher, Santana e Quantum, particularmente em m\n[…]\nEsta geração marcou a ida da Volkswagen para o segmento de carros mais sofisticados (deixando o segmento de baixo custo para suas marcas SEAT ou Skoda), e pondo o Passat novamente entre os antigos rivais como o Ford Mondeo e o Opel Vectra, e até mesmo carros mais luxuosos como os BMW Série 3 e os Mercedes Classe C. Na verdade ele indubitavelmente tomou parte do mercado de seu \"irmão\" Audi A4.\n[…]\nEm 2001, surgiu uma versão da Volkswagen Passat com oito cilindros em W que seria o único carro de produção com este tipo de motor.\n[…]\nA 7.ª geração do Volkswagen Passat sofreu poucas alterações em relação à 6.ª. As principais alterações foram a nível estético. A gama Passat da 7.ª geração em Portugal é composta pelas seguintes motorizações (todas a diesel):\n[…]\nO modelo de oitava geração foi introduzido em novembro de 2014 na Europa Continental como um sedan de quatro portas e uma perua. Seguindo outros veículos de passageiros do Grupo Volkswagen, como o Volkswagen Golf Mk7, ele é baseado em uma variante estendida da plataforma MQB, uma plataforma modular de construção de automóveis projetada para carros transversais com motor dianteiro. Para reduzir o peso, foram utilizados materiais leves, como alumínio e aço formado a vácuo.\n[…]\nVolkswagen Passat 3.2 V6 FSI\n[…]\nVolkswagen Passat Peru\n[…]\nAutocar Road Test July 2005: Volkswagen Passat Saloon 2.0TDI SE 4dr (Mk 6)\n[…]\nVW Germany: Passat\n[…]\nAutocar Road Test July 2005: Volkswagen Passat Saloon 2.0TDI SE 4dr (Mk 6)\n[…]\nQuatro Rodas. Grandes Brasileiros: Volkswagen Passat LSE",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Chevrolet",
+      "descricao": "Marca americana de automóveis da General Motors, fundada em 1911 por Louis Chevrolet e William Durant."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa do formato, o emblema dourado da Chevrolet é chamado nos Estados Unidos pelo nome de qual acessório de roupa?",
+    "resposta": "Gravata-borboleta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chevrolet"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chevrolet",
+        "situacao": "ok",
+        "texto": "Chevrolet is an American automobile division of the manufacturer General Motors (GM). In North America, Chevrolet produces and sells a wide range of vehicles, from subcompact automobiles to medium-duty commercial trucks.\n[…]\nIn 1999, Opel was rebranded to Chevrolet as a coincidence of Chevy's entry to Indonesia. Chevrolet stopped selling cars and ceased production in Indonesia by the end of March 2020.\n[…]\nIn 2010, a memo signed by Chevrolet sales and service vice president Alan Batey and General Motors marketing division vice president Jim Campbell was sent to Chevrolet employees at its Detroit headquarters, instructing employees to only use Chevrolet when addressing the brand, in order to present a consistent brand message. A postscript to the memo says a sort of cuss jar - a plastic \"Chevy\" can - has been placed in the hallway.\n[…]\n\"Every time someone uses 'Chevy' rather than Chevrolet\", the note said, the employee is expected to put a quarter in the can. The proceeds were to be spent on \"a team building activity\". Paul Worthington, head of strategy for Wolff Olins, said that the branding effort ran counter to a trend in which corporate names had become more casual.\n[…]\nIan Beavis of Nielsen Automotive Group said that marketers cannot control what consumers call their products, but nicknames do not work in new markets where Chevrolet is trying to get a start. Following the release of the memo, General Motors published a statement claiming the note was in no way discouraging customers or fans from using the Chevy name.\n[…]\nFollowing the 2010 memo incident, Chevy Runs Deep campaign remains to use the 'Chevy' name, while Driving Our World Forward and Find New Roads campaigns uses the 'Chevrolet' name."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chevrolet",
+        "situacao": "ok",
+        "texto": "Chevrolet (conhecida também pela abreviação \"Chevy\") é uma fabricante de veículos motorizados estadunidense fundada em 1911 por Louis Chevrolet e que pertence à General Motors (GM) juntamente com Cadillac, Buick e GMC, além de serem antigos proprietários das marcas Opel (1929–2017) e Vauxhall (1925–2017), voltadas para o mercado Europeu e das extintas Holden na Austrália e Pontiac.\n[…]\nChevrolet usou pela primeira vez o \"emblema laço de borboleta\". Logo em 1913, pesquisas mais recentes do historiador Ken Kaufmann, apresenta um caso que o logotipo é baseado num logotipo para \"Coalettes\". Outros afirmam que o projeto era uma cruz estilizada suíça, em homenagem à terra natal dos pais de Chevrolet.\n[…]\nA Chevrolet continuou, em 1920, 1930 e 1940, a competir com a Ford, e depois com a Chrysler Corporation, em 1928, quando incorporou a Plymoutyh. Ford, Chevrolet e Chrysler eram conhecidos como \"as três grandes\". Em 1933, a Chevrolet anunciou que, nos Estados Unidos, vendia o mais barato carro de seis cilindros à venda.\n[…]\nEm 1963, um em cada dez carros vendidos nos Estados Unidos era um Chevrolet.\n[…]\nA Chevrolet do Brasil renovou sua linha de produtos, lançando novos projetos como Agile, Cruze, Cobalt, Cruze Sport6, Nova S10, Sonic, Spin, Onix e TrailBlazer, a partir de um investimento de R$ 5,3 bilhões desde 2008.\n[…]\nEm setembro de 2011, a Chevrolet lançou o Cruze, no Brasil, com o motor Ecotec 6 e transmissão automática de 6 velocidades.\n[…]\nEm outubro de 2013, a GM traz novamente para o Brasil o Chevrolet Tracker, totalmente reestilizado e com um visual bem moderno. O SUV está disponível nas versões LT e LTZ (top de linha).\n[…]\nAté 2014, a Chevrolet lançará 18 novos modelos no mercado.\n[…]\n«Site da Chevrolet» (em inglês)\n[…]\n«Site da Chevrolet Brasil»\n[…]\nSite da Chevrolet Portugal\n[…]\n«Site de Carros Consórcio Chevrolet - GM»\n[…]\n«Consórcio Chevrolet»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Toyota Corolla",
+      "descricao": "Série de carros compactos da Toyota, produzida desde 1966."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do Toyota Corolla vem de uma palavra em latim. O que ela significa?",
+    "resposta": "Pequena coroa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Toyota_Corolla"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Toyota_Corolla",
+        "situacao": "ok",
+        "texto": "The Toyota Corolla (Japanese: トヨタ・カローラ, Hepburn: Toyota Karōra) is a series of compact cars (formerly subcompact) manufactured and marketed globally by the Japanese automaker Toyota Motor Corporation since 1966. Since 1997, the Corolla has remained the best-selling automobile nameplate of all time, surpassing the Volkswagen Beetle. Toyota reached the milestone of 50 million Corollas sold over twel\n[…]\nIn Australasia, the European market second-generation Toyota Auris was also sold badged as the Corolla hatchback, alongside the international E170 Corolla.\n[…]\nThe Tercel was a front wheel drive car, first introduced in 1980 at Japanese Toyota dealerships called Toyota Corolla Store, and was called the Corolla Tercel then, and later given its own name in 1984. Between 1982 and 1999, the hatchback version of the Toyota Tercel in Japan is called  Corolla II also used from Tercel platform.\n[…]\nToyota Sprinter, the Corolla's twin for Japanese market with slightly different body panels\n[…]\nToyota Corolla Levin and Sprinter Trueno, a sports-oriented model of the Corolla and Sprinter\n[…]\nToyota AE86\n[…]\nToyota Corolla Ceres and Sprinter Marino, a hardtop variation of the E100 Corolla/Sprinter sedan\n[…]\nToyota GR Corolla, a high-performance variant of the E210 Corolla hatchback\n[…]\nToyota Corolla Rumion, a tall hatchback variation of the E150 series Corolla\n[…]\nToyota Matrix (Corolla Matrix), a hatchback/wagon based on the Corolla for the North American market\n[…]\nToyota Corolla Spacio, a mini MPV with the Corolla nameplate for the Japanese market\n[…]\nToyota Corolla Verso, a mini MPV with the Corolla nameplate for the European market\n[…]\nToyota Corolla Cross, a crossover SUV counterpart of the E210 series Corolla\n[…]\nToyota Corolla WRC, a World Rally Car based on the E110 Corolla hatchback\n[…]\nToyota Global Site | Vehicle Heritage · Corolla\n[…]\nblog.toyota.co.uk : Vehicles : Corolla History Archived 19 June 2013 at the Wayback Machine (official site)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Toyota_Corolla",
+        "situacao": "ok",
+        "texto": "Toyota Corolla (トヨタ・カローラ, Toyota Karōra) é um modelo de segmento C (\"médio\" no Brasil) da Toyota oferecido em versões sedã, hatchback e perua. Também é o modelo mais vendido da história dos automóveis, com produção nos cinco continentes e vendas totais superiores a 50 milhões de automóveis desde seu lançamento, em 1966.\n[…]\nSeu nome provém do Latim e o significado é “Coroa de Flores”, que por sua vez significam felicidade e triunfo. Ao adotar este nome, a Toyota manteve uma tradição da época em que muitos dos nomes dos seus carros começavam por “C” – Crown, Corona, Carina, Century, Celica, Camry etc. – Apesar da Toyota já não utilizar esta estratégia para dar nomes aos carros, nomes como o Yaris, Auris, Avalon, Etios e Avensis, todos eles derivam ainda do Latim.\n[…]\nEm 2001 houve um pequeno banho de loja onde a grade dianteira recebeu um aplique e uma faixa cromada nos pára-choques. Na parte interna o apoio de pé era adicionado junto aos pedais.\n[…]\nEm 2010, o Toyota Corolla foi alvo do maior recall da história da montadora japonesa, afetando milhões de carros no mundo todo. O motivo seria que os tapetes do carro escorregam com facilidade, fazendo com que o motorista acelere ou freie bruscamente, causando acidentes. No estado brasileiro de Minas Gerais o modelo chegou a ter suas vendas proibidas por determinação do Procon, através do Ministério Público.\n[…]\nA Toyota do Brasil anunciou, no domingo (27 de fevereiro de 2011), mais um recall para os Corollas fabricados entre março de 2008 e dezembro de 2010. Os modelos envolvidos no chamamento são as versões XLi, GLi, XEi, SE-G e Altis. Segundo a companhia, trata-se de uma medida preventiva. O atendimento começa em 1º de março.\n[…]\nToyota Corona\n[…]\nToyota Camry\n[…]\nToyota Avalon\n[…]\nBest Cars Web Site. Toyota Corolla, confiança que já dura 50 anos\n[…]\nToyota Corolla: 50 anos de história",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Fordlândia",
+      "descricao": "Cidade fundada por Henry Ford na Amazônia em 1928 para produzir borracha."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "As seringueiras plantadas lado a lado na Fordlândia, no Pará, nunca deram a borracha esperada. O que arrasou a plantação?",
+    "resposta": "Praga de fungo",
+    "distratores": [
+      "Enchentes do rio",
+      "Geadas",
+      "Incêndios florestais"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia",
+        "situacao": "ok",
+        "texto": "Fordlândia is a district and adjacent area of 14,268 square kilometres (5,509 sq mi) in the city of Aveiro, Pará, Brazil. It is located on the east banks of the Tapajós river roughly 300 kilometres (190 mi) south of the city of Santarém.\n[…]\nIn 1927, the Ford Motor Company announced interest in buying the land in Brazil which now forms Fordlândia to create a rubber plantation. This was done to reduce Ford's reliance on European rubber manufacturing, particularly after Winston Churchill proposed the creation of a \"rubber cartel.\" Ford had utopian visions for this plantation, drawing up plans to create a Midwest-style town around the plantation.\n[…]\nThe land was hilly, rocky and infertile. None of Ford's managers had the requisite knowledge of tropical agriculture. In the wild, the rubber trees grow apart from each other as a protection mechanism against plagues and diseases, often growing close to bigger trees of other species for added support. In Fordlândia, however, the trees were planted close together in plantations, easy prey for tree blight, Saúva ants, lace bugs, red spiders, and leaf caterpillars.\n[…]\nGrandin, Greg (2009). Fordlandia: The Rise and Fall of Henry Ford's Forgotten Jungle City. Metropolitan Books. ISBN 978-0805082364.\n[…]\nThe Ruins of Fordlândia, by Alan Bellows, from Damn Interesting, posted 3 August 2006. Includes pictures.\n[…]\nFordlandia: The Rise and Fall of Henry Ford’s Forgotten Jungle City - Democracy Now, broadcast 2 July 2009, Video and Discussion (transcript available).\n[…]\nFordlandia on Flickr - Historic images from the Benson Ford Research Center, a library and archive located at the Henry Ford Museum.\n[…]\nFordlandia - 99% Invisible podcast episode 298, posted 6 March 2018"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fordl%C3%A2ndia",
+        "situacao": "ok",
+        "texto": "Fordlândia é um distrito brasileiro de 14 568 km² de extensão, no município paraense de Aveiro, situado às margens do Rio Tapajós, na Amazônia. Recebeu este nome porque foi uma cidade operária do projeto agroindustrial \"Fordlândia\" do empresário estadunidense Henry Ford em 1927.\n[…]\nO governo brasileiro suspeitava dos investimentos estrangeiros, especialmente na Amazônia, que oferecia pouca ajuda. Ford ainda tentou realocar as plantações em Belterra, mais para o norte, onde as condições para a seringueira eram melhores, mas, a partir de 1945, novas tecnologias permitiam fabricar pneus a partir de derivados de petróleo, o que tornou o empreendimento um total desastre, causando prejuízos de mais de vinte milhões de dólares.\n[…]\nCom o falecimento de Henry Ford, seu neto Henry Ford II assumiu o comando da empresa nos Estados Unidos e decidiu encerrar o projeto de plantação de seringueiras no Brasil.\n[…]\nAtravés do Decreto 8 440 de 24 de dezembro de 1945, o governo federal brasileiro definiu as condições de compra do acervo da Companhia Ford Industrial do Brasil: a Ford foi indenizada em aproximadamente US$ 250 000, e o governo brasileiro assumiu as obrigações trabalhistas dos trabalhadores remanescentes, além de receber seis escolas (quatro em Belterra e duas em Fordlândia); dois hospitais; estações de captação, tratamento e distribuição de água nas duas cidades; usinas de força; mais de 70 quilômetros de estradas; dois portos fluviais; estação de rádio e telefonia; duas mil casas para trabalhadores; trinta galpões; centros de análise de doenças e autópsias; duas unidades de beneficiamento de látex; vilas de casas para a administração; departamento de pesquisa e análise de solo; plantação de 1 900 000 seringueiras em Fordlândia e 3 200 000 em Belterra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Henry Ford",
+      "descricao": "Industrial americano, fundador da Ford Motor Company e criador da produção em massa do Modelo T."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em 1914, Henry Ford surpreendeu a indústria ao pagar aos operários de suas fábricas quantos dólares por dia de trabalho?",
+    "resposta": "Cinco dólares",
+    "distratores": [
+      "Dois dólares",
+      "Dez dólares",
+      "Um dólar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_Ford"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Henry_Ford",
+        "situacao": "ok",
+        "texto": "Henry Ford (July 30, 1863 – April 7, 1947) was an American industrialist and business magnate. As the founder of the Ford Motor Company, he is credited as a pioneer in making automobiles affordable for middle-class Americans through the system that came to be known as Fordism. In 1911, he was awarded a patent for the transmission mechanism that would be used in the Ford Model T and other automobil\n[…]\nHarold Wills. (See Ford Piquette Avenue Plant.)\n[…]\nFord astonished the world in 1914 by offering a $5 daily wage ($161 in 2025), which more than doubled the rate of most of his workers. A Cleveland, Ohio newspaper editorialized that the announcement \"shot like a blinding rocket through the dark clouds of the present industrial depression\".\n[…]\nThe Ford Motor Company was the last Detroit automaker to recognize the UAW, despite pressure from the rest of the U.S. automotive industry and even the U.S. government. A sit-down strike by the UAW union in April 1941 closed the River Rouge Plant. Sorensen recounted that a distraught Henry Ford was very close to following through with a threat to break up the company rather than cooperate. Still, his wife, Clara, told him she would leave him if he destroyed the family business.\n[…]\nFord was awarded for contributing to industrial development and \"putting the world on wheels\".\n[…]\nIn the 1927 classic film Metropolis, Joh Frederson, the cold, calculating master of the city played by Alfred Abel, bears a striking resemblance to Henry Ford.\n[…]\nSymphonic composer Ferde Grofé composed a tone poem in Henry Ford's honor (1938).\n[…]\nThe Henry Ford Heritage Association\n[…]\nHenry Ford – an American Experience documentary\n[…]\nWorks by Henry Ford at Project Gutenberg\n[…]\nWorks by or about Henry Ford at the Internet Archive\n[…]\nWorks by Henry Ford at LibriVox (public domain audiobooks)\n[…]\nNewspaper clippings about Henry Ford in the 20th Century Press Archives of the ZBW\n[…]\nHenry Ford at Find a Grave"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Henry_Ford",
+        "situacao": "ok",
+        "texto": "Henry Ford (30 de julho de 1863 – 7 de abril de 1947) foi um industrialista e magnata dos negócios americano. Como fundador da Ford Motor Company, ele é creditado como um pioneiro em tornar os automóveis acessíveis para os americanos de classe média por meio do sistema que veio a ser conhecido como fordismo. Em 1911, ele recebeu uma patente pelo mecanismo de transmissão que seria usado no Ford Mod\n[…]\nA introdução do veículo Ford Modelo T em 1908 é creditada por ter revolucionado tanto os transportes quanto a indústria americana. Como único proprietário da Ford Motor Company, Ford se tornou uma das pessoas mais ricas do mundo. Ele também esteve entre os pioneiros da semana de trabalho de cinco dias. Ford acreditava que o consumismo poderia ajudar a promover a paz mundial.\n[…]\nEm 1º de maio de 1926, os trabalhadores da fábrica da Ford Motor Company mudaram para uma semana de trabalho de cinco dias e 40 horas, com os funcionários do escritório da empresa fazendo a transição no mês de agosto seguinte.\n[…]\nO departamento de polícia de Dearborn e os guardas de segurança da Ford abriram fogo contra os trabalhadores, resultando em mais de sessenta feridos e cinco mortes. Em 26 de maio de 1937, os seguranças de Bennett espancaram membros do United Automobile Workers (UAW), incluindo Walter Reuther, com cassetetes.\n[…]\nFord enviou seus engenheiros e técnicos para a União Soviética para ajudar a instalar o equipamento e treinar a força de trabalho, enquanto mais de cem engenheiros e técnicos soviéticos ficaram estacionados nas fábricas da Ford em Detroit e Dearborn \"com o propósito de aprender os métodos e a prática de fabricação e montagem nas fábricas da Empresa\". Disse Ford: \"Não importa onde a indústria prospere, seja na Índia, na China ou na Rússia, quanto mais lucro houver para todos, incluindo nós.\n[…]\nRecortes de jornais sobre Henry Ford nos Arquivos da Imprensa do Século XX da ZBW",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Henry Ford",
+      "descricao": "Industrial americano, fundador da Ford Motor Company e criador da produção em massa do Modelo T."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de fabricar carros, Henry Ford foi engenheiro-chefe de uma companhia elétrica de Detroit ligada a qual inventor famoso?",
+    "resposta": "Thomas Edison",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_Ford"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Henry_Ford",
+        "situacao": "ok",
+        "texto": "Henry Ford (July 30, 1863 – April 7, 1947) was an American industrialist and business magnate. As the founder of the Ford Motor Company, he is credited as a pioneer in making automobiles affordable for middle-class Americans through the system that came to be known as Fordism. In 1911, he was awarded a patent for the transmission mechanism that would be used in the Ford Model T and other automobil\n[…]\nIn 1891, Ford became an engineer with the Edison Illuminating Company of Detroit. After his promotion to Chief Engineer in 1893, he had enough time and money to devote attention to his experiments on gasoline engines. These experiments culminated in 1896 with the completion of a self-propelled automobile, which he named the Ford Quadricycle. He test-drove it on June 4. After various test drives, Ford brainstormed ways to improve the Quadricycle.\n[…]\nAlso in 1896, Ford attended a meeting of Edison executives, where he was introduced to Thomas Edison. Edison approved of Ford's automobile experimentation. Encouraged by Edison, Ford designed and built a second automobile, completing it in 1898. Backed by the capital of Detroit lumber baron William H. Murphy, Ford resigned from the Edison Company and founded the Detroit Automobile Company on August 5, 1899.\n[…]\nIn 1927, Ford partnered with Thomas Edison and Harvey Samuel Firestone (each contributing $25,000) to create the Edison Botanic Research Corporation in Fort Myers, Florida, to seek a native source of rubber.\n[…]\nFord had a vacation residence in Fort Myers, Florida, next to that of Thomas Edison, which he bought in 1915 and used until c. 1930. It still stands today as a museum.\n[…]\nFord is featured as an ally of Thomas Edison in the YouTube series Super Science Friends.\n[…]\nWorks by Henry Ford at LibriVox (public domain audiobooks)\n[…]\nNewspaper clippings about Henry Ford in the 20th Century Press Archives of the ZBW\n[…]\nHenry Ford at Find a Grave"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Henry_Ford",
+        "situacao": "ok",
+        "texto": "Henry Ford (30 de julho de 1863 – 7 de abril de 1947) foi um industrialista e magnata dos negócios americano. Como fundador da Ford Motor Company, ele é creditado como um pioneiro em tornar os automóveis acessíveis para os americanos de classe média por meio do sistema que veio a ser conhecido como fordismo. Em 1911, ele recebeu uma patente pelo mecanismo de transmissão que seria usado no Ford Mod\n[…]\nEm 1891, Ford tornou-se engenheiro na Edison Illuminating Company de Detroit. Após sua promoção a Engenheiro-Chefe em 1893, ele teve tempo e dinheiro suficientes para dedicar atenção aos seus experimentos com motores a gasolina. Esses experimentos culminaram em 1896 com a conclusão de um automóvel autopropulsado, que ele nomeou de Ford Quadriciclo. Ele o testou em 4 de junho. Após vários testes na prática, Ford pensou em maneiras de melhorar o Quadriciclo.\n[…]\nTambém em 1896, Ford participou de uma reunião de executivos da Edison, onde foi apresentado a Thomas Edison. Edison aprovou os experimentos automobilísticos de Ford. Incentivado por Edison, Ford projetou e construiu um segundo automóvel, concluindo-o em 1898. Apoiado pelo capital do magnata da madeira de Detroit William H. Murphy, Ford pediu demissão da Edison Company e fundou a Detroit Automobile Company em 5 de agosto de 1899.\n[…]\nEm 1927, Ford fez uma parceria com Thomas Edison e Harvey Samuel Firestone (cada um contribuindo com $ 25 000) para criar a Edison Botanic Research Corporation em Fort Myers, Flórida, para buscar uma fonte nativa de borracha.\n[…]\nFord tinha uma residência de férias em Fort Myers, Flórida, ao lado da de Thomas Edison, que ele comprou em 1915 e usou até c. 1930. Ela ainda está de pé hoje como um museu.\n[…]\nFord é apresentado como um aliado de Thomas Edison na série do YouTube Super Science Friends.\n[…]\nThe Henry Ford Heritage Association\n[…]\nRecortes de jornais sobre Henry Ford nos Arquivos da Imprensa do Século XX da ZBW",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Mercedes-Benz",
+      "descricao": "Marca alemã de automóveis de luxo, nascida da fusão da Daimler com a Benz em 1926."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A marca de carros Mercedes tem nome de menina. Quem era a Mercedes que inspirou o nome?",
+    "resposta": "Filha do empresário Emil Jellinek",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Emil_Jellinek",
+      "https://en.wikipedia.org/wiki/Mercedes-Benz"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Emil_Jellinek",
+        "situacao": "ok",
+        "texto": "Emil Jellinek, known after 1903 as Emil Jellinek-Mercedes (6 April 1853 – 21 January 1918), was an automobile entrepreneur of the Daimler Motoren Gesellschaft (DMG), responsible in 1900 for commissioning the first modern automobile, the Mercedes 35hp. Jellinek created the Mercedes trademark in 1902, naming it in honor of his daughter, Mercédès Jellinek.\n[…]\nThe trademark developed into the company Mercedes-Benz, and the marque became one of the largest car brands in the world. Jellinek lived in Vienna, Austria, then later moved to Nice, on the French Riviera, where he was General Consul of Austria-Hungary.\n[…]\nJellinek acquired a large mansion which he named Villa Mercedes to run the business from and by 1897 he was selling about 140 cars a year and started calling them \"Mercedes\". The car business was by now more profitable than his insurance work.\n[…]\nAs well as shaving off his side-whiskers, the overjoyed Emil Jellinek, in Vienna in June 1903 at the age of 50, changed his name to Jellinek-Mercedes, commenting: \"This is probably the first time that a father has taken his daughter's name\". From then on, he signed himself E.J. Mercédès.\n[…]\nFleeing in 1917, they ended up in Geneva, in neutral Switzerland, where Emil Jellinek was temporarily arrested again. He stayed there until his death on 21 January 1918, at the age of 64. All his French properties were later forfeited. Since 1982, his remains have been resting near Rachel's tomb, in Nice's Catholic Cemetery.\n[…]\nIn the Mercedes global boom in 1900, Jellinek-Mercedes purchased several properties including:\n[…]\nChâteau Robert. An immense house located between Toulon and Nice. Officially it was Jellinek's private residence, though he spent most of the time in the Villa Mercedes of Nice.\n[…]\n\"My Father Mr. Mercedes\". Jellinek-Mercedes, Guy (translated by Ruth Hassell). G.T. Foulis & Co. Ltd, 1966, 319 pp."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mercedes-Benz",
+        "situacao": "ok",
+        "texto": "Mercedes-Benz (German pronunciation: [mɛʁˌtseːdəs ˈbɛnts, -dɛs -] ), commonly referred to simply as Mercedes and occasionally as Benz, is a German luxury automotive brand that was founded in 1926. Mercedes-Benz AG (a subsidiary of the Mercedes-Benz Group, established in 2019) is based in Stuttgart, Baden-Württemberg, Germany. Mercedes-Benz AG manufactures luxury vehicles and light commercial vehic\n[…]\nEmil Jellinek, an Austrian automobile entrepreneur who worked with DMG, registered the trademark in 1902, naming the 1901 Mercedes 35 hp after his daughter Mercédès Jellinek. Jellinek was a businessman and marketing strategist who promoted \"horseless\" Daimler automobiles among the highest circles of society. At the time, it was a meeting place for the haute volée of France and Europe, especially in winter.\n[…]\nHis customers included the Rothschild family and other wealthy clients, but as early as 1901, he was selling Mercedes cars in the \"New World\" as well, including to billionaires Rockefeller, Astor, Morgan, and Taylor. At the Nice race he attended in 1899, Jellinek drove under the pseudonym \"Monsieur Mercédès\". Many consider that race the birth of Mercedes-Benz as a brand. In 1901, the name \"Mercedes\" was re-registered by DMG worldwide as a protected trademark.\n[…]\nMercedes unveiled the VISION AVTR at the 2020 Consumer Electronics Show in Las Vegas. The car was inspired by the 2009 science fiction film Avatar. Whilst the AVTR is a concept car, it is said to \"hold clues on features bound for next-generation Mercedes-Benz cars\".\n[…]\nIn September 2003, Mercedes-Benz introduced the world's first seven-speed automatic transmission called '7G-Tronic'.\n[…]\nMercedes-Benz won the Safety Award at the 2007 What Car? Awards.\n[…]\nThe Mercedes-Benz was chosen by Mitsubishi Electric as an official sponsor of AFF Mitsubishi Electric Cup 2022, along with Maspion Holdings, Wuling, Gree, Yanmar and Tiger Brokers."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Emil_Jellinek",
+        "situacao": "ok",
+        "texto": "Emil Jellinek (conhecido após 1903 como Emil Jellinek-Mercédès; Leipzig, 6 de abril de 1853 – Genebra, 21 de janeiro de 1918) foi um rico empresário automobilístico europeu da Daimler-Motoren-Gesellschaft (DMG), responsável em 1900 por comissionar o primeiro carro 'moderno', o Mercedes 35 hp.\n[…]\nJellinek criou a marca registrada Mercedes em 1902, denominando os carros com o nome de sua filha; a marca registrada se tornou Mercedes-Benz, e atualmente está entre as maiores marcas de automóveis do mundo. Jellinek viveu em Viena, Áustria, mas depois mudou-se para Nice, na Riviera Francesa, onde foi cônsul geral da Áustria-Hungria.\n[…]\nVendo um anúncio de um carro DMG na revista semanal Fliegende Blätter, Jellinek, agora com 43 anos de idade, viajou para Cannstatt (perto de Stuttgart) em 1896 para saber mais sobre a empresa, sua fábrica e os designers Gottlieb Daimler e Wilhelm Maybach. Ele fez um pedido para um dos carros Daimler, que foi entregue em outubro daquele ano.\n[…]\nA DMG parecia uma empresa confiável, então Jellinek decidiu começar a vender seus carros. Em 1898 ele escreveu para a DMG solicitando mais seis carros e para se tornar um agente e distribuidor principal da DMG. Em 1899 ele vendeu 10 carros e em 1900 29 carros.\n[…]\nAlém de raspar os bigodes laterais, o muito feliz Emil Jellinek, em Viena em junho de 1903, aos 50 anos, mudou seu nome para Jellinek-Mercedes , comentando: \"Esta é provavelmente a primeira vez que um pai leva o nome de sua filha\". A partir de então ele passou a assinar E.J. Mercédès\n[…]\nMercedes-Benz\n[…]\nMercedes 35 hp\n[…]\n\"My Father Mr. Mercedes\". Jellinek-Mercedes, Guy (traduzido por Ruth Hassell). G.T. Foulis & Co. Ltd, 1966, 319 pp.\n[…]\nMedia relacionados com Emil Jellinek no Wikimedia Commons\n[…]\nJellinek-Mercedes, Emil\n[…]\nVilla Jellinek-Mercedes",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Mercedes-Benz",
+      "descricao": "Marca alemã de automóveis de luxo, nascida da fusão da Daimler com a Benz em 1926."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A estrela de três pontas da Mercedes-Benz simboliza o uso dos motores da marca em quais três meios?",
+    "resposta": "Terra, mar e ar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mercedes-Benz"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mercedes-Benz",
+        "situacao": "ok",
+        "texto": "Mercedes-Benz (German pronunciation: [mɛʁˌtseːdəs ˈbɛnts, -dɛs -] ), commonly referred to simply as Mercedes and occasionally as Benz, is a German luxury automotive brand that was founded in 1926. Mercedes-Benz AG (a subsidiary of the Mercedes-Benz Group, established in 2019) is based in Stuttgart, Baden-Württemberg, Germany. Mercedes-Benz AG manufactures luxury vehicles and light commercial vehic\n[…]\nThe roots of the brand trace back to the 1901 Mercedes by Daimler-Motoren-Gesellschaft and the 1886 Benz Patent-Motorwagen and 1894 Benz Velo by Carl Benz, which is widely recognised as the first automobile powered by an internal combustion engine. The brand’s slogan is \"The Best or Nothing\".\n[…]\nMercedes-Benz traces its origins to Carl Benz's first internal combustion engine in a car, seen in the Benz Patent-Motorwagen – financed by Bertha Benz's dowry and patented in January 1886 – and Gottlieb Daimler and its engineer Wilhelm Maybach's conversion of a stagecoach, with the addition of a petrol engine, introduced later that year. The Mercedes automobile was first marketed in 1901 by Daimler Motoren Gesellschaft (DMG).\n[…]\nOn 24 August 2015, Mercedes-Benz was announced as the naming rights sponsor for the Atlanta Falcons' new home, Mercedes-Benz Stadium, (Mercedes-Benz's US headquarters are in Greater Atlanta) which opened in August 2017.\n[…]\nTo promote the release of Mario Kart 8, Nintendo and Mercedes-Benz partnered up to have three of its cars in its history, the 2014 Mercedes-Benz GLA, the 1957 SL 300 Roadster, and the 1934 W25 Silver Arrow as karts in the game. As part of the partnership, Mario, Luigi, and Peach appeared in Japanese commercials to promote the 2014 Mercedes-Benz GLA.\n[…]\nThe Mercedes-Benz was chosen by Mitsubishi Electric as an official sponsor of AFF Mitsubishi Electric Cup 2022, along with Maspion Holdings, Wuling, Gree, Yanmar and Tiger Brokers.\n[…]\nBertha Benz\n[…]\nMercedes-AMG"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mercedes-Benz",
+        "situacao": "ok",
+        "texto": "Mercedes-Benz é uma marca alemã de automóveis de Stuttgart criada em 1924. Parte da Mercedes-Benz Group, é uma das mais antigas fabricantes de automóveis do mundo, sendo resultado de uma fusão entre a Benz & Cie e a Daimler-Motoren-Gesellschaft. Também produz caminhões, autocarros e os seus próprios motores.\n[…]\nA estrela de três pontas foi desenhada por Gottlieb Daimler em que cada ponta representava o ar, a terra e o mar mostrando que os motores desenhados adaptavam-se a estes três meios. A estrela apareceu primeiramente num automóvel de um Daimler datado de 1901, denominado Mercedes 35 HP, e viria a ser usada então pela Mercedes-Benz. O círculo à volta da estrela viria a ser desenhada por Karl Benz juntando na parte inferior o seu nome. Até 1937, este símbolo não era usado.\n[…]\nAlém de produzir automóveis, a empresa fabrica também autocarros, motores para aviões, caminhões, entre outros meios de transporte. Atualmente fabrica também protótipos de motores para as equipas de Fórmula 1 da Aston Martin, Williams e da própria Mercedes GP.\n[…]\nOs primeiros veículos da marca Mercedes-Benz foram produzidos em 1926, após a fusão das empresas fundadas por Karl Benz (Benz & Cie.) e Gottlieb Daimler (Daimler-Motoren-Gesellschaft) como Daimler-Benz em 28 de junho do mesmo ano.\n[…]\nKarl Benz decidiu acrescentar o seu nome \"Benz\" à marca Mercedes. Acrescentou uma auréola à volta da estrela e nasceu assim o famoso nome Mercedes-Benz juntamente com o seu símbolo e que dura até aos dias de hoje. Durante a Segunda Guerra Mundial, a DMG foi uma importante contribuidora de meios de transporte como carros de combate, automóveis militares e motores para aviões.\n[…]\nMercedes-AMG\n[…]\n«Mercedes-Benz Portugal»\n[…]\n«Mercedes-Benz Brasil»\n[…]\n«Mercedes-Benz Club Brasil» , na Google Plus\n[…]\nQuatro Rodas. Mercedes-Benz W116: o primeiro da classe",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Porsche",
+      "descricao": "Fabricante alemã de carros esportivos, sediada em Stuttgart e fundada por Ferdinand Porsche."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O cavalo empinado no centro do brasão da Porsche foi tirado do brasão de qual cidade alemã?",
+    "resposta": "Stuttgart",
+    "distratores": [
+      "Munique",
+      "Berlim",
+      "Hamburgo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Porsche"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Porsche",
+        "situacao": "ok",
+        "texto": "Dr. Ing. h.c. F. Porsche AG, commonly known as Porsche, is a German automobile manufacturer specializing in luxury, high-performance sports cars, SUVs and sedans, headquartered in Stuttgart, Baden-Württemberg, Germany. The company is owned by Volkswagen AG, a controlling stake of which is owned by Porsche Automobil Holding SE, usually shortened to Porsche SE. Porsche's current lineup includes the \n[…]\nThe heraldic symbols, combined with the texts \"Porsche\" and \"Stuttgart\", do not form a conventional coat of arms, since heraldic achievements never spell out the name of the armiger, nor the armiger's home town in the shield.\n[…]\nThe headquarters and main factory are located in Zuffenhausen, a district in Stuttgart, where Porsche produces flat-6 and V8 piston engines. Macan and Panamera are manufactured in Leipzig, and the Cayenne at the Volkswagen Group plant in Bratislava, Slovakia. Boxster and Cayman production was outsourced to Valmet Automotive in Finland from 1997 to 2011, and in 2012 production moved to Germany.\n[…]\nPorsche's headquarters and main factory are in Zuffenhausen, Stuttgart, where the 911 and Taycan are manufactured. The Macan and Panamera are produced at the company's plant in Leipzig. The Cayenne is manufactured at the Volkswagen Group plant in Bratislava, Slovakia, while some vehicles are assembled in Kulim, Malaysia, for the Malaysian and Thai markets.\n[…]\nOn 11 May 2017, Porsche built the one-millionth 911. An Irish green Carrera S was built for the celebration, and it will be taken on a global tour before becoming a permanent exhibit at the Porsche Museum in Stuttgart.\n[…]\nIn August 2021, Porsche confirmed that it would be setting up a production plant in Malaysia, the first country outside of Europe. Local assembly will be handled by Porsche Malaysia's partner, Sime Darby, which has been the official distributor of the Stuttgart-based company in Malaysia since 2010."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Porsche",
+        "situacao": "ok",
+        "texto": "Porsche é um fabricante alemão de automóveis especializado em carros esportivos, SUVs e sedãs de alto desempenho, com sede em Stuttgart, Baden-Württemberg, Alemanha. A empresa é de propriedade do Grupo Volkswagen, cujo controle acionário pertence à Porsche SE. A linha atual da Porsche inclui o 718, 911, Panamera, Macan, Cayenne e Taycan.\n[…]\nA marca alemã Porsche foi fundada em 1931 por Ferdinand Porsche e seu filho Ferry Porsche. Ferdinand Porsche já era conhecido antes de fundar a empresa, tendo trabalhado para outras marcas. Havia também lançado em 1900 o primeiro automóvel híbrido.\n[…]\nEm 2009, a Porsche inovou ao lançar o modelo Panamera, um coupé de 4 portas e motor dianteiro, o mesmo utilizado no Cayenne. Lançado para atingir um público que deseja esportividade com mais espaço interno, ele possui um arrojado interior repleto de tecnologia, tem motorização dianteira V6 e V8 feitos em Stuttgart, a carroçaria é fornecida já pintada pela fábrica da VW localizada em Hannover, e a montagem final ocorre em Leipzig.\n[…]\nCom a participação do Catar, país produtor de petróleo do oriente médio, que amortizou a dívida da Porsche através da compra de ações, a Volkswagen ganhou a queda de braço, e a empresa de Stuttgart vai fazer uma fusão com Grupo Volkswagen, que conta com estes fabricantes no conjunto do grupo Audi, Seat, Skoda, Bentley, Bugatti, Lamborghini, Scania, MAN SE e a própria Volkswagen.\n[…]\nA sede e a fábrica principal estão localizadas em Zuffenhausen, uma área de Stuttgart, mas os modelos Cayenne e Panamera são fabricados em Leipzig, Alemanha, e partes para o SUV também são assembladas na fábrica do Volkswagen Touareg em Bratislava, Eslováquia. a produção dos modelos Boxster e Cayman foi produzida externamente na fábrica da Valmet Automotive na Finlândia de 1997 a 2011, e em 2012 a produção regressou à Alemanha.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Volvo",
+      "descricao": "Fabricante sueca de automóveis fundada em 1927 em Gotemburgo."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O emblema da Volvo, um círculo com uma seta apontada para cima e para a direita, é o antigo símbolo de qual metal?",
+    "resposta": "Ferro",
+    "distratores": [
+      "Cobre",
+      "Ouro",
+      "Prata"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volvo_Cars"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volvo_Cars",
+        "situacao": "ok",
+        "texto": "Volvo Car AB (Swedish: [ˈvɔlːvʊ kɑːr oːˈbeː]), trading as Volvo Cars (Swedish: Volvo personvagnar, pronounced [ˈvɔlːvʊ pæˈʂuːnˌvɑŋːnar]; styled VOLVO in the company's logo), is a Swedish multinational manufacturer of luxury vehicles. Volvo is headquartered in Torslanda, Gothenburg. The company manufactures SUVs, station wagons, and sedans. The company's main marketing revolves around safety and it\n[…]\nThe name Volvo is Latin for \"I roll\".\n[…]\nThe Volvo symbol is an ancient chemistry sign for iron. The iron sign is used to symbolize the strength of iron used in the car as Sweden is known for its quality iron. The diagonal line (a strip of metal) across the grille came about to hold the actual symbol, a circle with an arrow, in front of the radiator.\n[…]\nVolvo has, since the 1950s, had special international sales programs for customers assigned abroad, for example Diplomat Sales, Military Sales and Expat Sales.\n[…]\nIn 2011, Volvo Cars is the main sponsor of the winter sports and music festival Snowbombing in Austria.\n[…]\nIn 2012, Volvo signed NBA star Jeremy Lin to an endorsement agreement for two years to participate in Volvo's corporate and marketing activities as a \"brand ambassador\" for Volvo Car Corp.\n[…]\nIn 2015, Volvo signed a deal with Chennaiyin FC, a football franchise team of the Indian Super League as a side shirt sponsor.\n[…]\nIn May 2009, Volvo – The Game was released. It was developed by Simbin Studios (now Sector3 Studios).\n[…]\nIn 1990, Volvo Cars filed a lawsuit against Hong Kong-based Club Volvo night club for infringement in Hong Kong High Court. The lawsuit ended with settlement where the night club paid 1 dollar to Volvo Cars. Since then, Club Volvo had been renamed to Club Borubo (the Japanese pronunciation of \"Volvo\"), and then Club Bboss (reference to Big Boss).\n[…]\nVolvo – The Game\n[…]\nVolvo Penta\n[…]\nList of Volvo passenger cars\n[…]\nWikibooks:Vehicle Identification Numbers (VIN codes)/Volvo/VIN codes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Volvo_Cars",
+        "situacao": "ok",
+        "texto": "A Volvo Car Group (em sueco Volvo Personvagnar ou Volvo PV; conhecida como Volvo Cars) é uma fabricante de automóveis sueca fundada em 1926 em Gotemburgo, Suécia, e desde 2010 detida maioritariamente pela companhia chinesa Zhejiang Geely Holding Group e minoritariamente pelas sociedades suecas Första AP-fonden, AMF e Folksam.\n[…]\nA Ford, por outro lado, percebeu as vantagens de adquirir uma fabricante de automóveis europeia de porte médio, rentável, respeitada e renomada por seus aspectos de segurança, para somá-la a seu Premier Automotive Group. A compra dos direitos da Volvo Cars foi anunciada em 28 de janeiro de 1998 e, no ano seguinte, a aquisição foi completada por US$6,45 bilhões.\n[…]\nOriginalmente, a Volvo planejava um esquema de nomenclatura diferente. “S” e “C” deveriam designar a mesma coisa e “F” significaria “flexibilidade” e seria usado em peruas. Quando a Volvo introduziu a primeira geração do S40 e do V40 em Frankfurt em 1994, os modelos foram anunciados como S4 e F4. No entanto, a Audi questionou direitos inerentes relativos ao nome S4, já que essa denominação é adotada para seus carros esportivos “S” e uma versão a ser introduzida do Audi A4 teria o nome S4.\n[…]\nA Volvo adotou como símbolo um sinal ancestral utilizado na química para designar o ferro. A imagem simboliza tanto a força do ferro utilizado no carro quanto a qualidade reconhecida do ferro sueco. A linha diagonal (uma barra de metal) atravessando a grade foi colocada para afixar o símbolo – um círculo com uma flecha – à frente do radiador.\n[…]\nA Volvo patrocinou pela primeira vez em 2001-2002 o Volvo Ocean Race, principal campeonato de iatismo ao redor do mundo. A próxima edição acontecerá entre 2011 e 2012. A Volvo também tem um compromisso antigo com a ISAF e está envolvida no Campeonato Mundial Volvo de Vela Jovem da ISAF desde 1997.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Draisiana",
+      "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Segundo uma hipótese difundida, Karl Drais criou sua máquina de correr por falta de cavalos, mortos de fome depois de qual fenômeno natural?",
+    "resposta": "Erupção do vulcão Tambora",
+    "distratores": [
+      "Terremoto de Lisboa",
+      "Erupção do Vesúvio",
+      "Grande enchente do Reno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dandy_horse"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dandy_horse",
+        "situacao": "ok",
+        "texto": "The dandy horse, an English nickname for what was first called a Laufmaschine ('running machine' in German), then a vélocipède or draisienne (in French and then English), and then a pedestrian curricle or hobby-horse, or swiftwalker, is a human-powered vehicle that, as the first two-wheeled vehicle, is regarded as the first bicycle. The dandy horse is powered by the rider's feet on the ground inst\n[…]\nIt was invented by Karl Drais, who called it a Laufmaschine German: [ˈlaʊfmaˌʃiːnə] 'running machine' in 1817, and patented by him in France in February 1818 as a vélocipède. It is also known as a Draisine (German: [dʁaɪˈziːnə]  in German, a term used in English only for light auxiliary railcars regardless of their form of propulsion), and as a draisienne (French: [drɛzjɛn] in French and English.\n[…]\nThe dandy-horse was a two-wheeled vehicle, with both wheels in line, propelled by the rider pushing along the ground with the feet as in regular walking or running. The front wheel and handlebar assembly was hinged to allow steering. The dandy horse was capable of more than doubling the average walking speed, to around 10 mph (16 km/h) on level ground.\n[…]\nDrais was inspired, at least in part, by the need to develop a form of transit that did not rely on the horse. After the 1815 eruption of Mount Tambora and the Year Without a Summer (1816), which followed close on the devastation of the Napoleonic Wars, widespread crop failures and food shortages resulted in the deaths of tens of thousands of horses, which either starved to death or were killed to provide meat and hides.\n[…]\nIn the 1860s in France, the vélocipède bicycle was created by attaching rotary cranks and pedals to the front-wheel hub of a dandy-horse.\n[…]\nThe dandy horse has been adapted as a starter bicycle for children, and is called a balance bike, or a run bike."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Draisiana",
+        "situacao": "ok",
+        "texto": "Draisiana, ou dresina, é um veículo de duas rodas inventado em 1817, precursor da bicicleta, e que foi chamado de draisiana em homenagem ao seu inventor, o barão Karl Drais.\n[…]\nA draisiana é a primeira definição viável do uso prático de uma bicicleta. Foi o primeiro veículo desse tipo que obteve êxito comercial em sua época, por ser dirigível e com grande interação homem-máquina. Na draisiana a tração era fornecida pelos próprios pés, por meio de empurrões do condutor contra o solo, semelhantemente ao que se faz num patinete, mas com a alternância das pernas. Não tardou que fosse desenvolvido um modelo com pedal na roda dianteira, que se denominou por velocípede.\n[…]\nEm 1817, o barão alemão Karl Christian Ludwig Drais von Sauerbronn inventou o primeiro veículo de duas rodas em linha, a que chamou Laufmaschine (\"máquina andante\"), precursora da bicicleta e da motocicleta. A laufmaschine consistia em um marco de madeira ao qual se ligavam duas rodas, alinhadas no sentido do giro, um banco e uma alavanca que fazia as vezes de guidão.\n[…]\nTal invento baseava-se na ideia de que uma pessoa, ao caminhar, desperdiça muita força por ter que deslocar seu peso de forma alternada de um pé a outro. Drais logrou criar o primeiro veículo simples que nos permitiu evitar esse trabalho. Essa máquina evoluiu rapidamente até chegar à bicicleta atual.\n[…]\nH.E.Lessing: How sophisticated was the draisine? The Boneshaker #159 (2002)\n[…]\nC.Reynaud: L'Ère de la Draisienne en France 1818-1870, Éditions Musée Vélo-Moto, Domazan 2015",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Michelin",
+      "descricao": "Fabricante francesa de pneus fundada em 1889 pelos irmãos André e Édouard Michelin."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O boneco feito de pneus da Michelin se chama Bibendum, palavra de um verso latino usado num anúncio antigo. O que ela quer dizer?",
+    "resposta": "Hora de beber",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bibendum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bibendum",
+        "situacao": "ok",
+        "texto": "Bibendum (French pronunciation: [bibɛ̃dɔm]), commonly referred to in English as the Michelin Man or Michelin Tire Man, is the official mascot of the Michelin tire company. A humanoid figure consisting of stacked white tires, it was introduced at the Lyon Exhibition of 1894 where the Michelin brothers had a stand. He is one of the world's oldest trademarks still in active use. The slogan Nunc est b\n[…]\nAndré immediately suggested replacing the man with a figure made from tires, and O'Galop adapted the earlier image into Michelin's symbol. Today, Bibendum is one of the world's most recognized trademarks, representing Michelin in over 170 countries. According to Michelin, a study showed that 90% of the world’s population could instantly recognize him.\n[…]\nThe 1898 poster showed him offering the toast Nunc est bibendum to his scrawny Brand X competitors with a glass full of road hazards, with the title and tag C'est à dire : À votre santé. Le pneu Michelin boit l'obstacle (\"That is to say: To your health. The Michelin tire absorbs (literally \"drinks\") the obstacle\"; see illustration). The character's glass is filled with nails and broken glass, implying that Michelin tires will easily take on road hazards.\n[…]\nThe company used this basic poster format for 15 years, adding its latest products to the table in front of the figure. It is unclear when the name \"Bibendum\" was adopted. At the latest, it was in 1908, when Michelin commissioned Curnonsky to write a newspaper column signed \"Bibendum\". In 1922, Michelin held a contest to name the character in the United States.\n[…]\nThe \"Bibendum chair\" was designed by Eileen Gray in 1925.\n[…]\nThe mascot appears in a BBC Not the Nine O'Clock News comedy sketch, in which a restaurant waiter and chef suspect a diner, dressed as Bibendum, might be a food critic for the Michelin Guide.\n[…]\nBibimage.com, Unofficial site dedicated to Bibendum. (in French)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bibendum",
+        "situacao": "ok",
+        "texto": "Bibendum, popularmente conhecido como boneco da Michelin ou homem da Michelin, é o mascote da empresa francesa de pneus  Michelin.\n[…]\nÉ um dos mais antigos mascotes do mundo, criado pelo artista e cartunista francês O'Galop em 1898 para a Exposição Internacional e Colonial em Lyon. O nome tem origem na frase latina \" nunc est bibendum\" (Bebamos agora). Com o passar dos anos fica mais fino.\n[…]\nFoi protagonista no filme de curta-metragem de animação Logorama, onde uma série de Bibendums interpretam detetives de polícia, um xerife e um esquadrão da SWAT que trabalham juntos para tentar derrubar um criminoso psicótico e ultraviolento interpretado por Ronald McDonald.\n[…]\nImages publicitaires du Bibendum Michelin (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Irmãos Wright",
+      "descricao": "Orville e Wilbur Wright, americanos pioneiros da aviação com o Wright Flyer em 1903."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em dezembro de 1903, de que jeito os irmãos Wright decidiram qual dos dois faria a primeira tentativa de voo com o Flyer?",
+    "resposta": "Cara ou coroa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wright_Flyer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
+        "situacao": "ok",
+        "texto": "The Wright Flyer (also known as the Kitty Hawk, Flyer I or the 1903 Flyer) made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903. Invented and flown by brothers Orville and Wilbur Wright, it marked the beginning of the pioneer era of aviation.\n[…]\nOn November 5, 1903, the brothers tested their engine on the Wright Flyer at Kitty Hawk, but before they could tune the engine, the propeller hubs came loose. The drive shafts were sent back to Dayton for repair, and returned on 20 November. A hairline crack was discovered in one of the propeller shafts. Orville returned to Dayton on 30 November to make new spring steel shafts.\n[…]\nOn December 12, the brothers installed the new shafts on the Wright Flyer and tested it on their 60-foot (18 m) launching rail system that included a wheeled launching dolly. According to Orville:\n[…]\nThe Los Angeles Section of the American Institute of Aeronautics and Astronautics (AIAA) built a full-scale replica of the 1903 Wright Flyer between 1979 and 1993 using plans from the original Wright Flyer published by the Smithsonian Institution in 1950. Constructed in advance of the 100th anniversary of the Wright Brothers' first flight, the replica was intended for wind tunnel testing to provide a historically accurate aerodynamic database of the Wright Flyer design.\n[…]\nA small piece of the Wright Flyer's wing fabric is attached to a cable underneath the solar panel of the helicopter Ingenuity, which became the first vehicle to perform a controlled atmospheric flight on Mars on April 19, 2021. Before moving on for further exploration and testing, Ingenuity's first base on Mars was named Wright Brothers Field.\n[…]\nFlyer III\n[…]\nWright Model B\n[…]\nWrightexperience.com\n[…]\nHistory of the Wright Flyer Wright State University Library"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wright_Flyer",
+        "situacao": "ok",
+        "texto": "O Wright Flyer (também frequentemente referenciado como Flyer I ou 1903 Flyer) foi a primeira aeronave construída pelos Irmãos Wright. Eles voaram com ele por quatro vezes em 17 de Dezembro de 1903, próximo à Kill Devil Hills, Carolina do Norte, cerca de 6,4 km ao Sul de Kitty Hawk, Estados Unidos. Hoje a aeronave está em exibição no Museu do Ar e Espaço em Washington, D.C.\n[…]\nNo seu retorno à Kitty Hawk em 1903, os Wright completaram a montagem do Flyer enquanto praticavam com o planador de 1902. Em 14 de Dezembro eles se sentiram prontos para a primeira tentativa de voo motorizado. Com a ajuda de alguns membros da equipe de salva vidas local, levaram o Flyer e a sua rampa de lançamento para o declive de uma duna próxima (em Kill Devil Hills), com a intenção de fazer uma decolagem facilitada pela gravidade.\n[…]\nos irmãos jogaram \"cara ou coroa\" para decidir quem seria o primeiro a pilotar e Wilbur venceu. A aeronave deixou o trilho, mas Wilbur puxou o controle de forma muito brusca, estolou e caiu, sem grandes danos.\n[…]\nDepois dos voos do Flyer, os irmãos Wright retornaram ao lar em Dayton para o Natal de 1903. Enquanto eles abandonaram os planadores, eles perceberam o significado histórico do Flyer. Eles o empacotaram e enviaram para Dayton, onde ele permaneceu embalado por nove anos. ele ficou submerso na Grande enchente de Dayton em Março de 1913.\n[…]\nO então secretário da Smithsonian Institution, Charles Walcott, se recusava a dar o crédito desse primeiro voo aos irmãos Wright. Em vez disso, ele concedeu a honra ao secretário anterior (seu amigo) Samuel Langley, que em 1903 testou o seu Langley Aerodrome no rio Potomac sem sucesso.\n[…]\nWright Flyer II\n[…]\nWright Flyer III\n[…]\nMikesh, Robert C. and Tom D. Crouch. \"Restoration: The Wright Flyer.\"  National Air and Space Museum Research Report, 1985, pp. 135–141.\n[…]\nUnder The Hood of A Wright Flyer  Air & Space Magazine",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Embraer",
+      "descricao": "Fabricante brasileira de aviões, criada em 1969."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A Embraer, fabricante brasileira de aviões criada em 1969, tem sede em qual cidade paulista?",
+    "resposta": "São José dos Campos",
+    "distratores": [
+      "Campinas",
+      "Sorocaba",
+      "Ribeirão Preto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Embraer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Embraer",
+        "situacao": "ok",
+        "texto": "Embraer S.A. (Brazilian Portuguese pronunciation: [ẽbɾaˈɛʁ]) is a Brazilian multinational aerospace corporation. It develops and manufactures aircraft and aviation systems, and provides leasing, equipment, and technical support services. Embraer is the third largest producer of civil aircraft after Boeing and Airbus. The company also has a significant presence in military aviation, ranking among t\n[…]\nIt is headquartered in São José dos Campos, São Paulo, with offices and operations in China, the Netherlands, Portugal, Singapore, and the United States.\n[…]\nIts first president, Ozires Silva, was a government appointee, and the company initially only produced a turboprop passenger aircraft, the Embraer EMB 110 Bandeirante. The city of São José dos Campos was chosen to host the company's headquarters because it had already hosted, since 1950, the Technological Institute of Aeronautics (ITA), the first higher education institution in Brazil dedicated to the aerospace sector.\n[…]\nAerotec S/A Indústria Aeronáutica was a design and manufacturing company founded in São José dos Campos in 1962 under the auspices of the Brazilian General Command for Aerospace Technology. Beginning in the late 1960s, the firm manufactured a two-seat trainer for the Brazilian Air Force, the Aerotec Uirapuru. A small number were also built for the civilian market, and others were exported to other Latin American countries.\n[…]\nThe company's headquarters and main production base are in São José dos Campos, São Paulo, Brazil. It also has production bases in the State of São Paulo at Botucatu, Eugênio de Melo (a district of São José dos Campos) and Gavião Peixoto. The company has offices in Beijing, Fort Lauderdale, Amsterdam, Singapore, and Washington, D.C.\n[…]\nEmbraer EMB 120 Brasilia (30 passengers)\n[…]\nEmbraer Carioca/Minuano/Sertanejo (based on Piper PA-32)\n[…]\nEmbraer Navajo (based on Piper PA-31)\n[…]\nBusiness data for Embraer:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Embraer",
+        "situacao": "ok",
+        "texto": "Embraer (B3: EMBR3\n[…]\n, NYSE: EMBJ) é um conglomerado transnacional brasileiro, fabricante de aviões comerciais, executivos, agrícolas e militares, peças aeroespaciais, serviços e suporte na área. A empresa tem sede no município de São José dos Campos, interior do estado de São Paulo, e possui diversas unidades no Brasil e no exterior, inclusive joint ventures na China e em Portugal.\n[…]\nLocalizada em São José dos Campos, a Eleb foi implantada em 1984 com o nome de EMBRAER Divisão Equipamentos (EDE), com a finalidade de desenvolver e produzir trens de pouso do EMB-312 Tucano e do avião de ataque AMX. Fabrica também diversos componentes para os sistemas eletro-hidráulicos e eletromecânicos das aeronaves da Embraer. Em 1999, passou por uma reestruturação societária, quando formou uma joint venture com a europeia Liebherr Aerospace [en]. Voltou ao controle da Embraer em 2008.\n[…]\nLocalizada em Harbin, capital da província de Heilongjiang, essa joint venture foi criada em 2002 entre a Embraer e mais duas empresas aeronáuticas chinesas: Harbin Aircraft Industry Group e Hafei Aviation Industry. Seu foco está nas atividades operacionais de venda e suporte pós-venda da linha ERJ-145 na China.\n[…]\nA Embraer, que mantém sua sede na cidade paulista de São José dos Campos, também tem várias unidades outras unidades. No Brasil, a empresa também tem unidades nos municípios de São Paulo, Botucatu, Eugênio de Melo, Gavião Peixoto, Taubaté e Sorocaba, além de representações em Minas Gerais e Rio de Janeiro.\n[…]\nEmbraer no Twitter",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Zepelim",
+      "descricao": "Tipo de dirigível rígido desenvolvido na Alemanha a partir do fim do século dezenove."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Na zona oeste do Rio de Janeiro, que bairro guarda até hoje um hangar construído nos anos trinta para receber os zepelins alemães?",
+    "resposta": "Santa Cruz",
+    "distratores": [
+      "Jacarepaguá",
+      "Bangu",
+      "Barra da Tijuca"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Hangar_do_Zeppelin",
+      "https://en.wikipedia.org/wiki/Santa_Cruz_Air_Force_Base"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hangar_do_Zeppelin",
+        "situacao": "ok",
+        "texto": "O chamado Hangar do Zeppelin localiza-se nas dependências da Base Aérea de Santa Cruz, unidade da Força Aérea Brasileira, no bairro de Santa Cruz na zona oeste da cidade do Rio de Janeiro. Trata-se de um hangar, edificação de grandes dimensões destinada a abrigar os dirigíveis alemães conhecidos como zeppelin. Atualmente é um dos últimos hangares de dirigíveis existentes e um dos mais bem conserva\n[…]\nÉ tombado pelo Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) e poderá ser reconhecido por lei (PL 422/2009 da Câmara de Vereadores da Cidade do Rio de Janeiro) como uma das eleitas sete maravilhas do histórico bairro de Santa Cruz, por real interesse turístico e sociocultural da cidade do Rio de Janeiro.\n[…]\nApós meticulosos estudos climáticos, de direção e velocidade dos ventos e também das possibilidades de meios de transporte terrestres, foi escolhida uma área próxima à baía de Sepetiba, no bairro de Santa Cruz, no Rio de Janeiro.\n[…]\nO hangar da base aérea de Santa Cruz atualmente é um dos últimos hangares para dirigíveis existentes no mundo. Ainda sobreviveram dentre outros, o que servia a linha alemã de passageiros para os Estados Unidos, o Hangar Number One, em Lakehurst (Naval Air Station Lakehurst), e que se transformou em monumento nacional. Em Akron, estado de Ohio, existe ainda o Akron Airdock da Goodyear  , e na cidade de Tustin, no estado da Califórnia, há também outros dois hangares .\n[…]\nO edifício do hangar da Base Aérea de Santa Cruz, encontra-se tombado pelo Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN), desde 1998, recebendo a inscrição de tombamento no 550. É um dos últimos exemplares e um dos mais bem conservados no mundo hoje.\n[…]\nEm 2009, foi encaminhado projeto de lei, para o seu reconhecimento pela Câmara de Vereadores da Cidade do Rio de Janeiro, como uma das eleitas sete maravilhas do histórico bairro de Santa Cruz."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Santa_Cruz_Air_Force_Base",
+        "situacao": "ok",
+        "texto": "Santa Cruz Air Force Base – ALA12 (IATA: SNZ, ICAO: SBSC) is a base of the Brazilian Air Force, located in the district of Santa Cruz in Rio de Janeiro, Brazil.\n[…]\nOn 12 February 1942, six months before Brazil declared war against the Axis, the airport was commissioned as a base of the Brazilian Air Force. The name of the facility was changed to Santa Cruz Air Force Base on 16 January 1943, even though, according to a law prescribing rules for the naming of airports of July 21, 1953, the name of the facility could officially and exceptionally be maintained as Bartolomeu de Gusmão Airport.\n[…]\nThe following units are based at Santa Cruz Air Force Base:\n[…]\n7 August 1951: The Brazilian Air Force, a Douglas C-47 Skytrain registration FAB-2028, struck a hillside reportedly following an engine failure and crashed upon approach to Santa Cruz. The crew of 4 died.\n[…]\n3 May 1982: a Royal Air Force Avro Vulcan was intercepted by two F-5E aircraft of the 2nd Squadron of the 1st Group of Combat Aviation (2°/1°GAvC) Pif-paf based at Santa Cruz. The Vulcan had finished the Operation Black Buck 6 during the Falklands War and was returning to Ascension Island when it suffered technical problems. It was intercepted upon entering Brazilian airspace and made to land at the Galeão Air Force Base.\n[…]\nThe Brazilian aircraft flew back to Santa Cruz having successfully accomplished the first real interception mission in their history.\n[…]\nThe base is located 54 km from Rio de Janeiro downtown in the district of Santa Cruz.\n[…]\nThis gallery displays aircraft that are or have been based at Santa Cruz. The gallery is not comprehensive."
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Vasa",
+      "descricao": "Navio de guerra sueco que afundou na viagem inaugural em 1628 e foi recuperado em 1961."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O navio sueco Vasa passou mais de trezentos anos no fundo do mar, perto de Estocolmo, e saiu quase inteiro. Por que a madeira não foi devorada por vermes?",
+    "resposta": "Água pouco salgada do Báltico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vasa_(ship)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vasa_(ship)",
+        "situacao": "ok",
+        "texto": "Vasa (previously Wasa) (Swedish pronunciation: [²vɑːsa] ) is a Swedish warship built between 1626 and 1628. The ship sank after sailing roughly 1,300 m (1,400 yd) into her maiden voyage on 10 August 1628. She fell into obscurity after most of her valuable bronze cannons were salvaged in the 17th century, until she was located again in the late 1950s in a busy shipping area in Stockholm harbor. The\n[…]\nDuring the 17th century, Sweden went from being a sparsely populated, poor, and peripheral northern European kingdom of little influence to one of the major powers in continental politics. Between 1611 and 1718 it was the dominant power in the Baltic, eventually gaining territory that encompassed the Baltic on all sides.\n[…]\nThe king's plans for a Polish campaign and for securing Sweden's interests required a strong naval presence in the Baltic.\n[…]\nThis would have granted the Catholic powers control over the strategic passages between the Baltic Sea and the North Sea, which would be disastrous for Swedish interests.\n[…]\nThis was the largest concentration of artillery in a single warship in the Baltic at the time, perhaps in all of northern Europe, and it was not until the 1630s that a ship with more firepower was built. This large amount of naval artillery was placed on a ship that was quite small relative to the armament carried.\n[…]\nIn the early 1950s, amateur archaeologist Anders Franzén considered the possibility of recovering wrecks from the cold brackish waters of the Baltic because, he reasoned, they were free from the shipworm Teredo navalis, which usually destroys submerged wood rapidly in warmer, saltier seas. Franzén had previously been successful in locating wrecks such as Riksäpplet and Lybska Svan, and after long and tedious research he began looking for Vasa as well.\n[…]\nVasa Museum\n[…]\nA tour of the inside of the ship first episode of five produced by the Vasa Museum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vasa_%28navio%29",
+        "situacao": "ok",
+        "texto": "O Vasa ou Vasen foi um navio de guerra da Marinha Sueca. Ele afundou durante sua viagem inaugural em 10 de agosto de 1628 depois de viajar apenas 1,3 quilômetro. Ele foi praticamente esquecido depois da maioria dos seus valiosos canhões de bronze terem sido recuperados, porém foi redescoberto no final da década de 1950 no meio de uma área movimentada do porto de Estocolmo.\n[…]\nFranzén usou em 1956 uma sonda de perfuração caseira movida por gravidade e localizou um grande objeto de madeira quase paralelo com a entrada da doca. A localização do navio recebeu considerável atenção, mesmo com a identificação precisa da embarcação não podendo ser determinada sem uma investigação mais minuciosa. Planejamentos começaram pouco depois do anúncio da descoberta para determinar a melhor maneira de escavar e reflutuar o Vasa.\n[…]\nA elevação final começou em 8 de abril de 1961 e na manhã do dia 24 o Vasa estava pronto para retornar à superfície. Jornalistas do mundo inteiro, câmeras de televisão, quatrocentos convidados e milhares de espectadores no litoral acompanharam enquanto as primeiras partes do navio saíam da água. A água e a lama de dentro do Vasa foram então removidas e ele rebocado para a Doca Gustavo V, onde sua quilha foi flutuada para um pontão de concreto, sobre o qual o casco permanece até hoje.\n[…]\nO Vasa representou uma desafio sem precedentes para os arqueólogos, pois nunca uma estrutura de quatro andares com boa parte de seus conteúdos intactos tendo ficado disponível para escavação. As condições de trabalho eram difíceis. O navio precisava ser mantido molhado para que não secasse e rachasse antes que fosse adequadamente conservado. Escavações precisavam ser realizadas sob um constante chuvisco de água e em uma lama coberta de lodo que poderia ter mais de um metro de profundidade.\n[…]\nPágina oficial do Museu Vasa",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Mayflower",
+      "descricao": "Navio inglês que levou os colonos conhecidos como peregrinos à América do Norte em 1620."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1620, o navio Mayflower levou os peregrinos ingleses à América do Norte. Em que atual estado americano eles se instalaram?",
+    "resposta": "Massachusetts",
+    "distratores": [
+      "Virgínia",
+      "Nova York",
+      "Pensilvânia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mayflower"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mayflower",
+        "situacao": "ok",
+        "texto": "Mayflower was an English square-rigged merchant sailing ship, active from before 1609 until 1622. Her tonnage was 180+, and she was 110 feet (34 meters) long and 25 feet (7.5 meters) in the beam, with several decks. She was notable in that she transported a group of English families, known today as the Pilgrims, from England to the New World in 1620.\n[…]\nAfter 10 weeks at sea, Mayflower, with 102 passengers and a crew of about 30, reached what is today the United States, dropping anchor near the tip of Cape Cod, Massachusetts on 21 November [O.S. 11 November] 1620. The Pilgrims, often conflated with the Puritans (who sought to reform and purify the Church of England from within), sought separation from the church and prayed privately. They believed that the church's resistance to reform and its Roman Catholic past left it beyond redemption.\n[…]\nAfter many hardships ... the Pilgrim Fathers first set foot December, 1620 upon a bare rock on the bleak coast of Massachusetts Bay, while all around the earth was covered with deep snow ... Dreary, indeed, was the prospect before them. Exposure and privations had prostrated one half of the men before the first blow of the ax had been struck to build a habitation. ... One by one perished.\n[…]\nMayflower has a famous place in American history as a symbol of early European colonization of the future United States. As described by Richard Bevan:\n[…]\nMassachusetts governor Calvin Coolidge commemorated the compact as an event of great importance in American history:\n[…]\nMayflower II, a replica of Mayflower in Plymouth, Massachusetts\n[…]\nUsher, Roland G (1984). The Pilgrims and Their History. Williamstown, Massachusetts: Corner House Publishers. ISBN 0-87928-082-4. (originally published in 1918)\n[…]\nPilgrim Hall Museum of Plymouth, Massachusetts\n[…]\nThe Mayflower II\n[…]\n\"Mayflower, The\" . Encyclopedia Americana. 1920."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mayflower",
+        "situacao": "ok",
+        "texto": "Mayflower foi o famoso navio que, em 1620, transportou os chamados Peregrinos, do porto de Southampton, Inglaterra, para o Novo Mundo.\n[…]\nDevido a uma série de problemas no navio, os peregrinos viram-se obrigados a regressar duas vezes, pouco depois de zarpar, para o consertar. A viagem seria feita em dois navios: o Mayflower e o Speedwell, mas problemas de vedação no casco do último impediram a sua partida. Por causa disso, 20 passageiros desistiram da viagem. Os outros foram todos juntos no Mayflower.\n[…]\nNuma terceira tentativa, saíram de Southampton a 6 de setembro e, finalmente, a 11 de novembro, o Mayflower chegou a Plymouth, no Cabo Cod, atual estado do Massachusetts.\n[…]\nOs Peregrinos do Mayflower foram um dos primeiros povos colonos a se estabelecer nas terras do que seriam os futuros Estados Unidos da América. Fundaram aí a cidade de Plymouth, que se tornaria a capital da Colónia de Plymouth.\n[…]\nA rota inicial foi idealizada para ser realizada por dois barcos, juntamente com o Speedwell. A primeira viagem partiu de Southampton, Inglaterra a 5 de agosto de 1620, mas o Speedwell teve um furo e teve de ser consertado em Dartmouth. Numa segunda tentativa, o barco atingiu o Oceano Atlântico, mas uma vez mais viu-se forçado a regressar. Após reorganização de planos a viagem definitiva fez-se apenas no Mayflower.\n[…]\nAntes de desembarcar, os peregrinos escreveram e assinaram o Pacto do Mayflower. Estes não conseguiram chegar à Virgínia, onde tinham permissão de terras. A 5 de abril de 1621 o Mayflower partiu da colônia de Plymouth no Massachusetts, regressando a Inglaterra a 6 de maio de 1621.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Gôndola veneziana",
+      "descricao": "Barco a remo tradicional de Veneza, longo e de fundo chato, conduzido por um gondoleiro em pé com um único remo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição veneziana, por que quase todas as gôndolas de Veneza são pintadas de preto?",
+    "resposta": "Lei contra o luxo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gondola"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gondola",
+        "situacao": "ok",
+        "texto": "The gondola (English: , Italian: [ˈɡondola]; Venetian: góndoła, Venetian: [ˈɡoŋdoɰa]) is a traditional, flat-bottomed Venetian rowing boat, well suited to the conditions of the Venetian lagoon in Italy. It is typically propelled by a gondolier, who uses a rowing oar, which is not fastened to the hull, in a sculling manner, and also acts as the rudder. The uniqueness of the gondola includes its bei\n[…]\nContrary to popular belief, the gondola is never poled like a punt as the waters of Venice are too deep. Until the early 20th century, as many photographs attest, gondolas were often fitted with a \"felze\", a small cabin, to protect the passengers from the weather or from onlookers. Its windows could be closed with louvered shutters—the original \"Venetian blinds\".\n[…]\nUnder the main blade there is a kind of comb with six teeth or prongs (\"rebbi\") pointing forward standing for the six districts or \"sestieri\" of Venice (however, this is contradicted by the fact that old photographs and paintings show gondolas with 4 or 5 teeth). A kind of tooth juts out backwards toward the centre of the gondola symbolises the island of Giudecca. The curved top signifies the Doge's cap.\n[…]\nThe first act of Gilbert and Sullivan's two-act comic operetta The Gondoliers is set in Venice, and its two protagonists (as well as its men's chorus) are of the eponymous profession, even though the political irony that makes up the core of the piece has much more to do with British society than with Venice.\n[…]\nHoratio Brown, chapter \"The Gondola\" in Life on the Lagoons (1884 and later editions)\n[…]\nWooden Boat, The Venetian Gondola, April 1977. Penzo, Gilberto; La Gondola, 1999.\n[…]\nOfficial Venetian gondola site\n[…]\nHistorical Gondolier Cooperative of Venice - Cooperativa Daniele Manin\n[…]\nThe Tramontin Gondola Archived 2016-03-03 at the Wayback Machine\n[…]\nVenice Gondola\n[…]\nThe Gondola: The Floating Symbol of Venice"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/G%C3%B4ndola",
+        "situacao": "ok",
+        "texto": "A gôndola é uma embarcação típica da Lagoa de Veneza, na Itália. Pelas suas características de manobrabilidade e velocidade, foi, até a chegada dos meios motorizados, a embarcação veneziana mais adaptada ao transporte de pessoas. Em uma cidade como Veneza, os canais foram sempre mais utilizados como via de transporte. Atualmente é usada sobretudo para passeios turísticos.\n[…]\nA gôndola é considerada uma das formas de encontro mais românticos de Veneza.\n[…]\nEm 2010 existiam 426 gondoleiros, dos quais um era mulher\n[…]\nAs gôndolas de Veneza são conhecidas mundialmente como um símbolo emblemático da cidade. Sua história remonta ao século XI, quando eram utilizadas para transporte e comércio ao longo dos canais venezianos. Com o passar dos séculos, as gôndolas passaram a ser associadas à elegância e ao charme da cidade, tornando-se uma parte integrante da cultura veneziana.\n[…]\nNo século XVI, as gôndolas evoluíram para a forma alongada que conhecemos hoje, com uma proa ornamentada e um casco assimétrico que facilita a navegação nos canais estreitos. Essa forma distintiva permitiu que as gôndolas se movessem com agilidade pelos canais sinuosos, tornando-se uma forma eficiente de transporte para os habitantes de Veneza.\n[…]\nAlém disso, as gôndolas possuem detalhes decorativos, como o ferro da proa, conhecido como \"fèrro,\" que serve tanto para equilíbrio quanto para simbolismo. O fèrro geralmente tem seis dentes, representando os seis distritos de Veneza, e um dente voltado para cima, simbolizando a Ilha de Giudecca.\n[…]\nOs gondoleiros, responsáveis por pilotar as gôndolas, também desempenham um papel importante na tradição. Eles são conhecidos por seus trajes típicos, compostos por camisetas listradas, chapéus de palha e faixas vermelhas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Faixa de pedestres de Abbey Road",
+      "descricao": "Faixa de pedestres da rua Abbey Road, em Londres, junto aos estúdios de gravação de mesmo nome."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que banda britânica aparece atravessando uma faixa de pedestres de Londres na capa de um disco de 1969, imitada até hoje por turistas?",
+    "resposta": "The Beatles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abbey_Road"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Abbey_Road",
+        "situacao": "ok",
+        "texto": "Abbey Road is the eleventh studio album by the English rock band the Beatles, released on 26 September 1969 by Apple Records. It is the last album the group recorded – although Let It Be had mostly been recorded earlier, its release was delayed due to production issues. Abbey Road was mostly recorded in April, July and August 1969, and topped the record charts in both the United States and the Uni\n[…]\nMany traditional works of Beatles scholarship agree that when working on Abbey Road, the four Beatles knew their time as a band was moving towards divorce. However, this account has been disproven; during a taped meeting in October 1969, after the album had come out, the group mulled over strategies for how they could bridle their songwriting differences—Lennon suggested releasing new music, and McCartney wished for them to work together as they always had—yet all to no avail.\n[…]\nThe finished song is a combination of two different recording attempts. The first attempt occurred in February 1969, almost immediately after the Get Back / Let It Be sessions with Billy Preston. This was subsequently combined with a second version made during the Abbey Road sessions proper in April. The two sections together ran to nearly eight minutes, making it the Beatles' second-longest released track.\n[…]\nWhile covering the Rolling Stones' 1969 American tour for The Village Voice, Robert Christgau reported from a meeting with Greil Marcus in Berkeley that \"opinion has shifted against the Beatles. Everyone is putting down Abbey Road.\" Shortly afterwards, in Los Angeles, he wrote that his colleague Ellen Willis had grown to love the record, adding: \"Damned if she isn't right – flawed but fine. Because the world is round it turns her on. Charlie Watts tells us he likes it too.\"\n[…]\nBeatles engineer Geoff Emerick on Abbey Road – A track-by-track walkthrough\n[…]\nThe Beatles y la foto de la portada de Abbey Road"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Abbey_Road",
+        "situacao": "ok",
+        "texto": "Abbey Road é o décimo primeiro álbum de estúdio da banda britânica de rock The Beatles, lançado em 26 de setembro de 1969 pela Apple Records. É o último álbum que o grupo gravou, embora Let It Be (1970) tenha sido o último álbum concluído antes da separação da banda em abril de 1970. Foi gravado principalmente em abril, julho e agosto de 1969, e liderou as paradas de discos nos Estados Unidos e no\n[…]\nA capa do álbum, com os Beatles atravessando a faixa de pedestres ao lado de fora do Abbey Road Studios (até então oficialmente chamado de EMI Studios), é uma das mais famosas e imitadas de todos os tempos.\n[…]\nA canção finalizada é uma combinação de duas tentativas de gravação diferentes. A primeira tentativa ocorreu em fevereiro de 1969, quase imediatamente após as sessões de Get Back / Let It Be com Billy Preston. Isso foi posteriormente combinado com uma segunda versão feita durante as sessões de Abbey Road, propriamente em abril. As duas seções juntas duraram quase oito minutos, tornando-se a segunda faixa mais longa lançada pelos Beatles.\n[…]\nAo cobrir a turnê americana dos Rolling Stones em 1969 para o jornal The Village Voice, o crítico musical Robert Christgau relatou de uma reunião com Greil Marcus em Berkeley que \"a opinião mudou contra os Beatles. Todo mundo está menosprezando Abbey Road\". Pouco depois, em Los Angeles, ele escreveu que sua colega Ellen Willis havia começado a amar o disco, acrescentando: \"E não é que ela está certa? – [disco] falho, mas ótimo.\n[…]\nA imagem da capa frontal dos Beatles no cruzamento da Abbey Road se tornou uma das mais famosas e imitadas na história da música. O cruzamento é um destino popular para os fãs dos Beatles, e uma webcam opera lá desde 2011. Em dezembro de 2010, o cruzamento recebeu status de grau II por sua \"importância cultural e histórica\"; os próprios estúdios de Abbey Road receberam status semelhante no início do ano.\n[…]\nThe Beatles",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Mão inglesa",
+      "descricao": "Regra de trânsito em que os veículos circulam pelo lado esquerdo da via, como no Reino Unido."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Uma explicação tradicional para circular pela esquerda remonta aos cavaleiros medievais, quase todos destros. Por que eles preferiam esse lado?",
+    "resposta": "Deixar livre a mão da espada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Left-_and_right-hand_traffic"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Left-_and_right-hand_traffic",
+        "situacao": "ok",
+        "texto": "Left-hand traffic (LHT) and right-hand traffic (RHT) are the practices, in bidirectional traffic, of keeping to the left side or to the right side of the road, respectively. They are fundamental to traffic flow, and are sometimes called a \"rule of the road\". The terms right- and left-hand \"drive\" refer to the position of the driver and the steering wheel in the vehicle and are, in automobiles, the\n[…]\nIn LHT, traffic keeps left and cars usually have the steering wheel on the right (RHD: right-hand drive) and roundabouts circulate clockwise. RHT is the opposite: traffic keeps right, the driver usually sits on the left side of the car (LHD: left-hand drive), and roundabouts circulate counterclockwise.\n[…]\nWhy some societies preferred or selected one over the other is not clear.\n[…]\nIn the late 18th century, right-hand traffic started to be introduced in the United States based on teamsters' use of large freight wagons pulled by several pairs of horses and without a driver's seat; the (typically right-handed) postilion held his whip in his right hand and thus sat on the left rear horse, and therefore preferred other wagons passing on the left so that he would have a clear view of other vehicles.\n[…]\nIn RHT jurisdictions, vehicles are typically configured as left-hand drive (LHD), with the steering wheel on the left side of the passenger compartment. In LHT jurisdictions, the reverse is true as the right-hand drive (RHD) configuration. In most jurisdictions, the position of the steering wheel is not regulated, or explicitly permitted to be anywhere.\n[…]\nMost windscreen wipers are preferentially designed to better clean the driver's side of the windscreen and thus have a longer wiper blade on the driver's side and wipe up from the passenger side to the driver's side. Thus on LHD configurations, they wipe up from right to left, viewed from inside the vehicle, and do the opposite on RHD vehicles."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sentido_de_circula%C3%A7%C3%A3o_de_tr%C3%A1fego",
+        "situacao": "ok",
+        "texto": "Sentido de circulação de tráfego é a forma pela qual os veículos devem ser conduzidos nas ruas e rodovias de cada país, no que diz respeito ao lado pelo qual se deve conduzir tais veículos, ou mesmo para os pedestres, que devem saber o sentido de circulação para poder atravessar as ruas com segurança.\n[…]\nNa Inglaterra medieval, os cavaleiros empunhavam as espadas com a mão direita e se mantinham à esquerda para atacar possíveis oponentes com mais facilidade. Por influência deles, condutores de carroças adotaram a mão esquerda. Acredita-se também que os romanos em suas estradas trafegassem pela esquerda.\n[…]\nNos Estados Unidos, na época das diligências, o cocheiro sentava-se a esquerda, para poder deixar a mão direita livre para conduzir os cavalos, prática que com o advento da indústria automobilística foi adotada por Henry Ford, onde o volante encontrava-se na esquerda, influenciando assim o restante do mundo. Dizem alguns historiadores que os Estados Unidos adotaram o sistema universal para enfatizar sua independência da Inglaterra.\n[…]\na ultrapassagem é feita pela esquerda;\n[…]\nO ato de subir em um cavalo do lado esquerdo se deve à cavalaria, pois como a maioria dos soldados é destra, se usa a espada do lado esquerdo, daí é mais fácil passar a perna direita sem espada por sobre a montaria.\n[…]\nEm Singapura, todo o tráfego se dá pela esquerda com os motoristas do lado direito, herança do domínio britânico de quase dois séculos sobre a região. Esta regra foi também adotada para a circulação de pedestres, na qual eles também mantêm-se à esquerda voluntariamente ou com o auxílio de placas indicativas em passeios movimentados. Em escadas e passarelas rolantes recomenda-se aos passageiros manterem-se à esquerda, deixando a direita livre para usuários com pressa, tal como numa rodovia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Ônibus",
+      "descricao": "Veículo rodoviário de grande porte para o transporte coletivo de passageiros."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1662, que matemático e filósofo francês criou em Paris uma linha de carruagens coletivas com rotas e horários fixos, ancestral do ônibus?",
+    "resposta": "Blaise Pascal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carrosses_%C3%A0_cinq_sols",
+      "https://en.wikipedia.org/wiki/Blaise_Pascal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Carrosses_%C3%A0_cinq_sols",
+        "situacao": "ok",
+        "texto": "The carrosses à cinq sols (English: five-sol coaches) was the first modern form of public transport in the world, developed by mathematician and philosopher Blaise Pascal and operated in Paris in the 1660s.\n[…]\nIn a corporation founded in November 1661 on the initiative of Blaise Pascal, with the participation of the Duke of Roannez (governor and lieutenant-general of the province of Poitou), the Marquis de Sourches (knight of the king's orders and Grand Provost of the Hotel), and the Marquis de Crenan, the entrepreneurs presented a request to establish an operation for \"carriages which would always make the same journeys...and would always leave at scheduled times, without waiting to be filled up, even empty, without the people that enjoy that commodity having to pay for the empty seats\".\n[…]\nThe system of public coaches was approved and instituted by a judgement of the King's Counsel on 19 January 1662, and signed by Louis XIV. The letters patent granted them the exclusive right of operating such a service. After the first trials starting 26 February, five routes were progressively started from 18 March 1662, linking multiple historical quarters of Paris. From its inception, the new service was received positively.\n[…]\nThe carrosses à cinq sols exhibited the characteristics of a modern public transit system. It had consistent routes, fixed schedules with regular departures (7½ minutes on the first line), and fares that varied based on distance. However, the social hierarchy of France during this period, coupled with the tendency for residents to live close to where they worked, were factors that significantly reduced demand for the service."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Blaise_Pascal",
+        "situacao": "ok",
+        "texto": "Blaise Pascal (19 June 1623 – 19 August 1662) was a French mathematician, physicist, inventor, philosopher, and Catholic writer.\n[…]\nBlaise Pascal Chairs are given to outstanding international scientists to conduct their research in the Ile de France region.\n[…]\nOne of the Universities of Clermont-Ferrand, France—Université Blaise Pascal—is named after him. Établissement scolaire français Blaise-Pascal in Lubumbashi, Democratic Republic of the Congo, is named after Pascal.\n[…]\nIn 2023, Pope Francis released an apostolic letter, Sublimitas et miseria hominis, dedicated to Blaise Pascal, in commemoration of the fourth centenary of his birth.\n[…]\nPascal's simplex\n[…]\nWorks by Blaise Pascal at Project Gutenberg\n[…]\nWorks by or about Blaise Pascal at the Internet Archive\n[…]\nWorks by Blaise Pascal at LibriVox (public domain audiobooks)\n[…]\nThe Correspondence of Blaise Pascal in EMLO\n[…]\nSimpson, David. \"\"Blaise Pascal\"\". In Fieser, James; Dowden, Bradley (eds.). Internet Encyclopedia of Philosophy. ISSN 2161-0002. OCLC 37741658.\n[…]\nClarke, Desmond. \"Blaise Pascal\". In Zalta, Edward N. (ed.). Stanford Encyclopedia of Philosophy. ISSN 1095-5054. OCLC 429049174.\n[…]\nBlaise Pascal at the Mathematics Genealogy Project\n[…]\nPensées de Blaise Pascal. Renouard, Paris 1812 (2 vols.) (Digitized)\n[…]\nWorks by Blaise Pascal at Open Library\n[…]\nBlaise Pascal featured on the 500 French Franc banknote in 1977. Archived 16 April 2009 at the Wayback Machine\n[…]\nBlaise Pascal's works: text, concordances and frequency lists\n[…]\n\"Blaise Pascal\" . Catholic Encyclopedia. 1913.\n[…]\nO'Connor, John J.; Robertson, Edmund F., \"Blaise Pascal\", MacTutor History of Mathematics Archive, University of St Andrews"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Táxi",
+      "descricao": "Automóvel de aluguel com motorista que leva passageiros e cobra pela corrida."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1915, o empresário John Hertz pintou de amarelo os táxis da sua empresa em Chicago, cor depois adotada em Nova York. Por que essa cor?",
+    "resposta": "É a mais fácil de ver de longe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/John_D._Hertz",
+      "https://en.wikipedia.org/wiki/Taxicabs_of_New_York_City"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/John_D._Hertz",
+        "situacao": "ok",
+        "texto": "John Daniel Hertz Sr. (April 10, 1879 – October 8, 1961) was an American businessman, thoroughbred racehorse owner and breeder, and philanthropist.\n[…]\nAs a young man, Hertz was an amateur boxer, fighting as \"Dan Donnelly.\" He won amateur championships at the Chicago Athletic Association and eventually began to box under his own name. He lived at 880 Fifth Avenue in New York City.\n[…]\nBy 1925, the Yellow Cab Company was owned by the \"Chicago Yellow Cab Company,\" which in turn was owned by Hertz, Parmelee and other investors. In that year he established The Omnibus Corporation to control both the Chicago Motor Coach Company and the Fifth Avenue Coach Company in New York.\n[…]\nUsing The Omnibus Corporation he re-purchased the car rental business from General Motors in 1953. The Omnibus Corporation then divested itself of its public transport interests, changed its name to The Hertz Corporation and was listed on the New York Stock Exchange the following year.\n[…]\nIn 1903, Hertz married Francis (Fannie) Kesner of Chicago with whom he had three children: Leona Jane, John Jr., and Helen. His son was born Leonard J. Hertz and changed his name at the age of seventeen to John D. Hertz Jr. in honor of his father; John Jr. later became an advertising executive and was briefly married (1942–44) to film star Myrna Loy.\n[…]\nHertz died on October 8, 1961. His wife died two years later. They were originally buried together in the Rosehill Cemetery (Chicago, Illinois). Their remains are now interred at Woodlawn Cemetery in the Bronx, New York City.\n[…]\nIn 1924, Hertz provided the city of Chicago $34,000 to install the city's first traffic lights on Michigan Avenue."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Taxicabs_of_New_York_City",
+        "situacao": "ok",
+        "texto": "Taxicabs in New York City come in two varieties: yellow and green; they are widely recognizable symbols of the city. Taxis painted yellow (medallion taxis) are able to pick up passengers anywhere in the five boroughs. Taxis painted apple green (street hail livery vehicles, commonly known as \"boro taxis\"), which began to appear in August 2013, are allowed to pick up passengers in Upper Manhattan, t\n[…]\nAs of September 2012, there are around 7,990 hybrid taxi vehicles, representing almost 59% of the taxis in service, as of 2023, there are over 12,000 taxis in New York City, the most in any city in North America. The Nissan NV200 won the city's bid to become the \"Taxi of Tomorrow\" to replace most of the city's taxi fleet, with its introduction scheduled for October 2012.\n[…]\nAll types of taxis are licensed by the New York City Taxi and Limousine Commission (TLC), which oversees for-hire vehicles, taxis, commuter vans, and paratransit vehicles. The iconic taxicabs come in two colors. The apple green taxis, which are called street hail livery vehicles or \"boro taxis,\" operate only outside the Manhattan central business district, excluding John F. Kennedy International Airport and LaGuardia Airport.\n[…]\nAccording to an April 2011 study by the Chicago Dispatcher, New York City taxis have a relatively low standard fare, charging an estimated $14.10 for a distance of 5 miles (8.0 km) and five minutes' wait time (compared to an estimated $18.48 in West Hollywood and $12.87 in Houston). Taxi drivers are not permitted to use cell phones while transporting passengers, even if they use a hands-free headset, although this is widely ignored by drivers.\n[…]\nAs of 2012, New York taxis are only crash-tested before being equipped as a cab. However, the new \"Taxi of Tomorrow\", the Nissan NV200, would also have its partition be crash-tested while installed inside the vehicle.\n[…]\n1980 New York City transit strike"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Harley-Davidson",
+      "descricao": "Fabricante americana de motocicletas fundada em 1903 por William Harley e os irmãos Davidson."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1903, a fabricante de motocicletas Harley-Davidson foi fundada em qual cidade americana, onde mantém a sede?",
+    "resposta": "Milwaukee",
+    "distratores": [
+      "Detroit",
+      "Chicago",
+      "Cleveland"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harley-Davidson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Harley-Davidson",
+        "situacao": "ok",
+        "texto": "Harley-Davidson, Inc. (H-D, or simply Harley) is an American motorcycle manufacturer and lifestyle brand headquartered in Milwaukee, Wisconsin. Founded in 1903, it is one of two major American motorcycle manufacturers to survive the Great Depression along with its historical rival, Indian Motorcycle Company.\n[…]\nIn 1901, 20-year-old William S. Harley drew up plans for a small engine with a displacement of 7.07 cubic inches (116 cc) and four-inch (102 mm) flywheels designed for use in a regular pedal-bicycle frame. Over the next two years, he and his childhood friend Arthur Davidson worked on their motor-bicycle using the northside Milwaukee machine shop at the home of their friend Henry Melk. It was finished in 1903 with the help of Arthur's brother Walter Davidson.\n[…]\nThe prototype of the new loop-frame Harley-Davidson was assembled in a 10 ft × 15 ft (3.0 m × 4.6 m) shed in the Davidson family backyard. Most of the major parts, however, were made elsewhere, including some probably fabricated at the West Milwaukee railshops where oldest brother William A. Davidson was toolroom foreman. This prototype machine was functional by September 8, 1904, when it competed in a Milwaukee motorcycle race held at State Fair Park.\n[…]\nMilwaukee, Wisconsin – Harley-Davidson Museum: Archive; exhibits of people, products, culture and history; restaurant & café; and museum store.\n[…]\nThe 105th anniversary celebration was held on August 28–31, 2008, and included events in Milwaukee, Waukesha, Racine, and Kenosha counties, in Southeast Wisconsin. The 110th-anniversary celebration was held on August 29–31, 2013. The 115th anniversary was held in Prague, Czech Republic, the home country of the oldest existing Harley Davidson Club, on July 5–8, 2018 and attracted more than 100,000 visitors and 60,000 bikes."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Harley-Davidson",
+        "situacao": "ok",
+        "texto": "Harley-Davidson, Inc., também conhecida como H-D ou simplesmente Harley, é uma fabricante estadunidense de motocicletas e uma marca associada a um estilo de vida, com sede em Milwaukee, no estado do Wisconsin. Fundada em 1903, é uma das duas grandes fabricantes de motocicletas dos Estados Unidos que sobreviveram à Grande Depressão, juntamente com sua rival histórica, a Indian Motorcycle.\n[…]\nUm rigoroso ensaio de durabilidade do motor Revolution foi realizado em dinamômetro na fábrica da Harley-Davidson em Milwaukee, simulando a viagem pelas Autobahns alemãs entre o centro de pesquisa e desenvolvimento da Porsche em Weissach, perto de Stuttgart, e a cidade de Düsseldorf. Um número não divulgado de motores falhou antes que uma unidade completasse 500 horas de funcionamento ininterrupto. O resultado foi utilizado como referência para os engenheiros autorizarem a produção do Revolution.\n[…]\nDesde o 90.º aniversário, em 1993, a Harley-Davidson organiza viagens comemorativas a Milwaukee denominadas Ride Home (\"viagem de volta para casa\"). O evento passou a ocorrer de cinco em cinco anos e ficou conhecido informalmente como Harleyfest, em referência aos festivais de Milwaukee, entre eles Summerfest, German Fest e Festa Italiana. Motociclistas de diferentes países participam das comemorações.\n[…]\nO 105.º aniversário foi celebrado de 28 a 31 de agosto de 2008, com atividades em Milwaukee e nos condados de Waukesha, Racine e Kenosha, no sudeste de Wisconsin. O 110.º aniversário ocorreu de 29 a 31 de agosto de 2013. As comemorações dos 115 anos aconteceram de 5 a 8 de julho de 2018 em Praga, sede do clube Harley-Davidson mais antigo ainda em atividade, e atraíram mais de 100 mil visitantes e 60 mil motocicletas.\n[…]\nWisconsin, estado dos Estados Unidos onde a empresa foi fundada e mantém sua sede\n[…]\nBuell, fabricante de motocicletas esportivas que integrou o grupo Harley-Davidson",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Rodovia Transamazônica",
+      "descricao": "Rodovia federal BR-230, aberta nos anos setenta para cruzar o Brasil do litoral nordestino à Amazônia."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A Transamazônica, aberta nos anos setenta para cortar o país rumo ao oeste, começa no litoral de qual estado do Nordeste?",
+    "resposta": "Paraíba",
+    "distratores": [
+      "Ceará",
+      "Maranhão",
+      "Pernambuco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trans-Amazonian_Highway",
+      "https://pt.wikipedia.org/wiki/BR-230"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trans-Amazonian_Highway",
+        "situacao": "ok",
+        "texto": "The Trans-Amazonian Highway (official designation BR-230, official name Rodovia Transamazônica Portuguese pronunciation: [ho.doˈvi.ɐ tɾɐ̃.za.maˈzõ.ni.kɐ]) was introduced on September 27, 1972. It is 4,000 km long, making it the third longest highway in Brazil. It runs through the Amazon forest and the Brazilian states of Paraíba, Ceará, Piauí, Maranhão, Tocantins, Pará, and Amazonas, from the prox\n[…]\nThe BR-230 or Transamazônica is a transversal highway, considered the third longest highway in Brazil, with 4260 km in length, that connects the port city of Cabedelo in Paraíba with the municipality of Lábrea, in Amazonas, cutting through some of bá, Altamira and Itaituba. It also connects with ports on the Northeast coast, like Suape Port.\n[…]\nBR-230 has a leading role in the development of the economy of several Brazilian states.\n[…]\nThe main industrial centers of Paraíba, as well as the main industrial centers of the state, are: in the forest area, the Metropolitan Region of João Pessoa (Bayeux, Cabedelo, Conde, João Pessoa, Lucena and Santa Rita), where the industries are mainly food, cement, civil construction and textiles; in the wild, Campina Grande, where once again the food industries stand out, as well as those of beverages, footwear, industrialized fruits and, more recently, software; in the interior, Cajazeiras, Patos, São Bento and Sousa, with an emphasis on the textile and clothing industries.\n[…]\nIn commerce, the value of sales throughout the state reached R$4.8 billion, while the entire tertiary sector contributed more than R$25 billion. The state is the fifth largest exporter in the Northeast, standing out in the export of consumer goods, intermediate goods and capital. Sugar, ethyl alcohol, footwear, granite, clothing, sisal, and fabrics are the main products exported from Paraíba abroad, mainly to Australia, Argentina, the United States, Russia, and the European Union."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/BR-230",
+        "situacao": "ok",
+        "texto": "A Rodovia Transamazônica, também denominada como BR-230, é uma rodovia federal transversal do Brasil, com extensão implantada de 4 260 km (5 662,60 quilômetros incluindo os trechos não construídos). Inspirada em uma proposta de Euclides da Cunha, foi criada durante o Governo Emílio Médici, sendo uma das obras inacabadas devido às suas proporções enormes, realizadas durante o período da ditadura mi\n[…]\nAo extremo leste (na região Nordeste), se inicia na cidade de Cabedelo, no estado da Paraíba; ao extremo oeste (na região Norte), na cidade de Lábrea, no estado do Amazonas.\n[…]\nA Rodovia Transamazônica foi planejada para integrar melhor o Norte brasileiro com o resto do país, tendo seu traçado baseado em uma passagem do livro À Margem da História de Euclides da Cunha, publicado no Brasil apenas em 1967, que argumentava que a única maneira de conquistar e ocupar a Amazônia era cortando transversalmente os vales dos rios.\n[…]\nA BR-230 ou Transamazônica é uma rodovia transversal, considerada a terceira mais longa rodovia do Brasil, com 4 260 km de extensão, ligando cidade portuária de Cabedelo na Paraíba ao município de Lábrea, no Amazonas cortando algumas das principais cidades do estado do Pará: Marabá, Altamira e Itaituba.\n[…]\nNa Paraíba representa o principal eixo de circulação de pessoas e mercadorias entre seus municípios, tendo como referencial o porto de Cabedelo e as cidades de João Pessoa, Campina Grande, Patos, Pombal, Sousa e Cajazeiras, os maiores polos econômicos do estado. Percorre o solo paraibano por 521 km, com boa condição de tráfego até a divisa com o estado do Ceará.\n[…]\nOrozimbo, pertencente ao município de Paraibano e acesso à BR-135 levando à capital São Luís\n[…]\nAraguatins (a 8 km da rodovia)\n[…]\nAcesso a Belterra e a Santarém pela BR-163 (Rodovia Cuiabá-Santarém)\n[…]\nJacareacanga (a 7 km da rodovia)\n[…]\nRodovia Cuiabá-Santarém\n[…]\nhttp://www.amazonialegal.com.br/textos/Transamazonica.htm"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Rota 66",
+      "descricao": "Antiga rodovia americana entre Chicago e Los Angeles, aberta em 1926 e símbolo das viagens de carro nos Estados Unidos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que animação da Pixar, de 2006, se passa numa cidadezinha esquecida à beira da Rota 66, chamada Radiator Springs?",
+    "resposta": "Carros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cars_(film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cars_(film)",
+        "situacao": "ok",
+        "texto": "Cars is a 2006 American animated sports comedy film directed by John Lasseter, who co-wrote it with Joe Ranft, Dan Fogelman, Kiel Murray, Phil Lorin and Jorgen Klubien.\n[…]\nSet in a world populated entirely by anthropomorphic vehicles, the film follows a young self-obsessed racecar named Lightning McQueen (Wilson) who, on the way to the most important race of his life for the Piston Cup, becomes stranded in a forgotten town along U.S. Route 66 called Radiator Springs, where he learns about friendship and begins to reevaluate his priorities.\n[…]\nOver time, McQueen begins to warm up to and befriends the town's residents, especially local tow truck Mater, and Sally Carrera, who dreams of reviving Radiator Springs. As he bonds with the locals, McQueen learns of Radiator Springs' heyday and subsequent economic decline; the town was once a bustling attraction for drivers on Route 66, before the construction of an interstate highway bypassed their town and caused them to lose their business traffic.\n[…]\nThe Cars soundtrack was released by Walt Disney Records on June 6, 2006. Nine tracks on the soundtrack are by popular artists, while the remaining eleven are score cues by Randy Newman. It has two versions of the classic Bobby Troup jazz standard \"Route 66\" (popularized by Nat King Cole), one by Chuck Berry and a new version recorded specifically for the film's credits performed by John Mayer.\n[…]\nReal-life ghost towns and landmarks along historic Route 66 inspire the fictional town of Radiator Springs.\n[…]\nThere are also some Pixar Easter Eggs and crossovers.\n[…]\n2006: CARS: The Junior Novelization, RH/Disney, ISBN 978-0736422918\n[…]\nOfficial website from Pixar"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carros_%28filme%29",
+        "situacao": "ok",
+        "texto": "Carros (título original: Cars) é um filme norte-americano de comédia esportiva animada de 2006, produzido pela Pixar Animation Studios para a Walt Disney Pictures. O filme foi dirigido por John Lasseter, codirigido por Joe Ranft (seu único trabalho na direção), produzido por Darla K. Anderson e escrito por Lasseter, Ranft, Dan Fogelman, Kiel Murray, Phil Lorin e Jorgen Klubien, baseado em uma hist\n[…]\nAmbientado em um mundo povoado inteiramente por veículos antropomórficos, o filme acompanha um jovem carro de corrida egocêntrico chamado Lightning McQueen que, a caminho da corrida mais importante de sua vida, fica preso em uma cidade esquecida ao longo da Rota 66 dos EUA, chamada Radiator Springs, onde aprende sobre amizade e começa a reavaliar suas prioridades.\n[…]\nEla também conta para McQueen a história de como Radiator Springs foi num dia uma próspera turística comunidade na Rota 66, que entrou em franca decadência após a construção da interestadual 40 naquela região.\n[…]\nJames Berardinelli, do ReelViews, deu ao filme três de quatro estrelas, dizendo: \"Embora Carros possa cruzar a linha de chegada à frente de qualquer um dos outros filmes de animação de 2006, está várias voltas atrás de seus 'co-irmãos' da Pixar\".\n[…]\nClaudia Puig, do USA Today, deu uma crítica positiva ao filme, dizendo: \"A animação é incrivelmente renderizada. Mas a história é sempre o elemento crítico nos filmes da Pixar, e a história de Carros é sincera com uma moral clara e ousada\".\n[…]\nCarros concorreu a diversos prêmios do cinema de 2006. Muitas associações de críticos de cinema, como a Broadcast Film Critics Association e o National Board of Review, nomearam-no o melhor longa-metragem de animação de 2006. Carros é também o longa de animação de 2006 melhor revisado pelo Rotten Tomatoes.\n[…]\nCarros também venceu o prêmio de Melhor Longa de Animação em 2006 do Annie Awards.\n[…]\n«Website da Pixar para Carros» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Rodovias federais do Brasil",
+      "descricao": "Sistema de estradas federais brasileiras identificadas pela sigla BR e por números de três algarismos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Nas rodovias federais do Brasil, quando o número começa com zero, como na BR zero quarenta, isso indica que a estrada parte de qual cidade?",
+    "resposta": "Brasília",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazilian_Highway_System"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Highway_System",
+        "situacao": "ok",
+        "texto": "The Brazilian Highway System (Portuguese: Sistema Nacional de Rodovias) is a network of trunk roads administered by the Ministry of Transport of Brazil. It is constructed, managed and maintained by the National Department of Transport Infrastructure (DNIT), a federal agency linked to the Ministry of Infrastructure, and the public works departments of state governments.\n[…]\n000-099 - means that the highway runs radially from Brasília. It is an exception to the cases below.\n[…]\nThe BR-010 is a radial highway that connects the national capital Brasília, to the city of Belém, in the state of Pará. It has the official name of Rodovia Bernardo Sayão (the name of its chief engineer, who died in an accident during the construction of the highway, when a tree fell on him), and is also called Belém–Brasília Highway or as Transbrasiliana Highway, in the stretch between the city of Estreito, in the state of Maranhão, and the city of Belém.\n[…]\nThis is due to the fact that between Brasília and Estreito, the highway has many incomplete and unpaved stretches, especially in the state of Tocantins. Between Brasília and Estreito, the original route of the Belém-Brasília Highway follows the BR-060, the BR-153 and the BR-226 highways, which are completely paved in this stretch. The BR-010 passes through the Federal District, and the states of Goiás, Tocantins, Maranhão and Pará.\n[…]\nThe BR-020 connects Fortaleza in Ceará to the federal capital Brasília. Like other BRs that start with the number 0, it leaves Brasília to an extreme point in Brazil. The highway is important because passes through the MATOPIBA region (in the south of Piauí and in the west of Bahia), which is an important producer of soybeans, corn and cotton, among other products. It connects the interior of the Northeast to the Port of Mucuripe, in Fortaleza."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Transporte_rodovi%C3%A1rio_no_Brasil",
+        "situacao": "ok",
+        "texto": "Transporte rodoviário no Brasil é o principal sistema logístico do país e conta com uma rede de 1 720 909 quilômetros de estradas e rodovias nacionais (a quarta maior do mundo), por onde passam 65% de todas as cargas movimentadas no território brasileiro. Esse sistema de rodovias é o principal meio de transporte de cargas e passageiros no tráfego do país.\n[…]\nO Governo Federal Brasileiro nunca concretizou um Plano Nacional de Autoestradas do mesmo nível de países desenvolvidos como Estados Unidos, Japão ou os países europeus, que visasse especificamente os deslocamentos inter-regionais, e que deveriam, preferencialmente, ser atendidos por autoestradas (que se diferenciariam das rodovias duplicadas comuns pelo padrão geométrico, controle de acesso sem acesso aos lotes lindeiros, zero transposições e retornos em nível, proibição de circulação de veículos não-motorizados como ciclistas, tração animal ou propulsão humana, conforme a Convenção de Viena).\n[…]\nAs rodovias brasileiras são patrulhadas pela Polícia Rodoviária Federal e têm limites de velocidade, isto é, não é permitido transitar nelas a velocidades superiores às indicadas.\n[…]\nRodovia radial (000-099): significa que a estrada funciona radialmente, a partir de Brasília. É uma exceção para os casos abaixo;\n[…]\nCerca de 14 000 quilômetros do sistema rodoviário brasileiro cumprem os critérios de classificação de autoestradas, segundo dados de 2019, sendo muitas dessas rodovias concedidas à iniciativa privada. No entanto, não há uma designação específica no governo brasileiro para esse tipo de rodovia, sendo que o termo autoestrada não é comumente usado no país; ao invés disto a maioria destas vias são chamadas simplesmente de rodovias ou estradas.\n[…]\nLista de unidades federativas do Brasil por malha rodoviária em pista dupla\n[…]\nLista de rodovias do Brasil\n[…]\nRodovias federais do Brasil",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Aeroporto do Galeão",
+      "descricao": "Aeroporto internacional da Ilha do Governador, no Rio de Janeiro."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O aeroporto internacional do Galeão, no Rio de Janeiro, recebeu oficialmente o nome de qual compositor?",
+    "resposta": "Tom Jobim",
+    "distratores": [
+      "Vinicius de Moraes",
+      "Pixinguinha",
+      "Cartola"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio_de_Janeiro/Gale%C3%A3o_International_Airport"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro/Gale%C3%A3o_International_Airport",
+        "situacao": "ok",
+        "texto": "Rio de Janeiro/Galeão–Antonio Carlos Jobim International Airport (IATA: GIG, ICAO: SBGL), popularly known by its original name Galeão International Airport, is the main international airport serving Rio de Janeiro, Brazil.\n[…]\nThe airport was originally named after the neighborhood of Galeão: Praia do Galeão (Galleon Beach) is located in front of the original passenger terminal (the present passenger terminal of the Brazilian Air Force). This beach is the location where the galleon Padre Eterno was built in 1663. On 5 January 1999 the name was changed adding a tribute to the Brazilian musician Antonio Carlos Jobim. Galeão Airport is explicitly mentioned in his composition Samba do Avião.\n[…]\nThe new concessionary has been using the brand name RIOgaleão–Aeroporto Internacional Tom Jobim.\n[…]\nIn order to control and revert this abnormal trend, on August 10, 2023 the Civil Aviation National Council issued an order to restrict Santos Dumont services to airports located within 400 km maximum from Rio de Janeiro and without international services. The resolution came into force on January 1, 2024, and is considered to be provisory, until a balance is reached. Airlines started cancelling and/or moving services to Galeão in September 2023.\n[…]\n26 July 1979: a Lufthansa cargo Boeing 707-330C registration D-ABUY operating flight 527 from Rio de Janeiro–Galeão to Frankfurt via Dakar collided with a mountain 5 minutes after take-off from Galeão. The crew of three died.\n[…]\nThe airport is located 20 km (12 mi) north of downtown Rio de Janeiro.\n[…]\nGaleão Air Force Base\n[…]\nMedia related to Rio de Janeiro (state)/Galeão - Antônio Carlos Jobim International Airport at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aeroporto_Internacional_do_Rio_de_Janeiro-Gale%C3%A3o",
+        "situacao": "ok",
+        "texto": "Aeroporto Internacional Antônio Carlos Jobim, anteriormente chamado Aeroporto Internacional do Rio de Janeiro e também conhecido como Aeroporto do Galeão (IATA: GIG, ICAO: SBGL), é um aeroporto internacional no município do Rio de Janeiro, no estado homônimo. É o segundo maior aeroporto do Brasil em movimento internacional. Considerando também o movimento de passageiros domésticos, é o sétimo maio\n[…]\nAtualmente, 26 companhias aéreas operam no Aeroporto Internacional Tom Jobim com rotas ligando-o à cidades dos continentes da Europa, Oriente Médio e América do Norte, Central e do Sul, além das rotas domésticas.\n[…]\nPor causa de seu baixo nível de ocupação, somado ao alto custo operacional, a rota foi encerrada em 1982. Outra visita de destaque ao Aeroporto Internacional Tom Jobim foi a do Airbus A380, o maior avião comercial do mundo, que pousou no aeroporto no dia 22 de março de 2012. Era a segunda vez que este modelo vinha ao Brasil. O aeroporto recebeu o A380 comercialmente pela primeira vez no dia 22 de agosto de 2016, em um voo da Air France.\n[…]\nO atual Aeroporto Internacional Tom Jobim tem suas origens na década de 1920 com advento das operações militares. Em 10 de maio de 1923, o Governo Federal desapropriou terrenos na Ilha do Governador para a construção do Centro de Aviação Naval do Rio de Janeiro. Já no ano seguinte a Escola de Aviação Naval, que funcionava desde 1916 no antigo Arsenal de Marinha, no Rio de Janeiro, foi transferida para a ponta do Galeão.\n[…]\nEsse novo terminal foi inaugurado em 20 de julho 1999 como um dos mais modernos da América Latina, com capacidade de atender a oito milhões de passageiros ao ano, mais que duplicando a capacidade do Aeroporto Internacional do Rio de Janeiro. No mesmo ano, o aeroporto recebeu um nome em uma homenagem ao compositor Tom Jobim.\n[…]\n«RIOgaleão - Aeroporto Internacional Tom Jobim (site oficial)»\n[…]\n«Ilha Carioca » Aeroporto do Galeão»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Túnel do Canal da Mancha",
+      "descricao": "Túnel ferroviário submarino sob o Canal da Mancha que liga a Inglaterra à França, inaugurado em 1994."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O túnel ferroviário sob o Canal da Mancha, entre a Inglaterra e a França, tem cerca de quantos quilômetros de extensão?",
+    "resposta": "Cinquenta quilômetros",
+    "distratores": [
+      "Vinte quilômetros",
+      "Trinta quilômetros",
+      "Cem quilômetros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Channel_Tunnel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Channel_Tunnel",
+        "situacao": "ok",
+        "texto": "The Channel Tunnel (French: Tunnel sous la Manche), sometimes referred to as the Chunnel, is a 50.46-kilometre (31.35-mile) railway tunnel beneath the English Channel which connects Folkestone in the United Kingdom with Coquelles in northern France. Opened in 1994, it remains the only fixed link between Great Britain and the European mainland.\n[…]\nA BBC commentator called Graham Fagg \"the first man to cross the Channel by land for 8000 years\". A Paddington Bear soft toy was chosen by British tunnellers as the first item to pass through to their French counterparts when the two sides met. Eurotunnel completed the tunnel on time.\n[…]\nUnder the terms of the Concession, Eurotunnel was obliged to investigate a cross-Channel road tunnel. In December 1999 road and rail tunnel proposals were presented to the British and French governments, but it was stressed that there was not enough demand for a second tunnel.\n[…]\nIn 1999, Eurostar posted its first net profit, having made a loss of £925m in 1995. In 2005, Eurotunnel was described as being in a serious situation. In 2013, operating profits rose 4 percent from 2012, to £54 million. Getlink (the operator of the Channel Tunnel) suggested Brexit uncertainty led to a €18m hit in 2019 and their revenues remained almost unchanged compared to 2018, at €1.09bn. In 2020, at the height of the COVID-19 pandemic, turnover fell 24% to €815.9m.\n[…]\nIn January 2014, UK operators EE and Vodafone signed ten-year contracts with Eurotunnel for Running Tunnel North. The agreements will enable both operators' subscribers to use 2G and 3G services. Both EE and Vodafone planned to offer LTE services on the route; EE said it expected to cover the route with LTE connectivity by the summer of 2014. EE and Vodafone will offer Channel Tunnel network coverage for travellers from the UK to France."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Eurot%C3%BAnel",
+        "situacao": "ok",
+        "texto": "O Eurotúnel (em inglês:  Channel Tunnel; em francês:  Tunnel sous la Manche) é um túnel ferroviário de 50,45 quilômetros de extensão que liga Folkestone, Kent, no Reino Unido, com Coquelles, em Pas-de-Calais, perto de Calais, no norte da França, sob o Canal da Mancha no Estreito de Dover. No seu ponto mais baixo, atinge 75 metros de profundidade.\n[…]\nEm 1957, foi formado o Grupo de Estudo para o Túnel do Canal (Channel Tunnel Study Group). No seu relatório, publicado em 1960, recomendava-se a construção de dois túneis ferroviários principais e um de serviço, menor. O projeto foi iniciado em 1973, mas, devido a problemas de financiamento, foi interrompido em 1975 quando já estavam construídos 250 metros de um túnel de teste.\n[…]\nO encontro dos dois túneis 40 metros abaixo do solo do Canal da Mancha em 1 de dezembro de 1990, num crossover (passagens que permitem trens passar de um túnel a outro), tornou possível caminhar em terra seca da Inglaterra à Europa pela primeira vez desde o fim da última glaciação, mais de 13 mil anos atrás. Os britânicos e franceses, usando métodos de cálculo e pesquisa a laser, encontraram-se com menos de 2 cm de erro.\n[…]\nLe Shuttle: transporta automoveis, ônibus e vans através do túnel (como se fosse um ferry-boat, uma balsa ferroviária), serviço entre Calais (França) e Folkestone (Inglaterra).\n[…]\nO governo britânico instituiu um projeto (Channel Tunnel Rail Link, Ligação ao túnel do canal, em português), com parte de suas verbas oriundas do estado britânico, cujo objetivo é construir uma linha de trem de Londres à entrada do túnel especialmente dedicada aos trens de alta velocidade do Eurostar. No final de 2003, aproximadamente metade da linha estava completa (secção de Ebbsfleet a Cheriton). Quando o projeto foi finalizado, o terminal foi transferido de Waterloo para a estação de St.\n[…]\nChannel Tunnel History",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Túnel do Canal da Mancha",
+      "descricao": "Túnel ferroviário submarino sob o Canal da Mancha que liga a Inglaterra à França, inaugurado em 1994."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Sob o Canal da Mancha, além dos dois túneis por onde passam os trens, há um terceiro túnel menor entre eles. Para que ele serve?",
+    "resposta": "Manutenção e emergências",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Channel_Tunnel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Channel_Tunnel",
+        "situacao": "ok",
+        "texto": "The Channel Tunnel (French: Tunnel sous la Manche), sometimes referred to as the Chunnel, is a 50.46-kilometre (31.35-mile) railway tunnel beneath the English Channel which connects Folkestone in the United Kingdom with Coquelles in northern France. Opened in 1994, it remains the only fixed link between Great Britain and the European mainland.\n[…]\nThe normal ventilating system is connected directly to the service tunnel and provides fresh air through the cross-passages into the running tunnels, where it is dispersed by the piston effect of the train and shuttle movements. Only one fan on each side is ever running, the second being available as a backup. The supplementary ventilating system is a separate emergency system and can be used to control smoke or supply emergency air within the tunnels.\n[…]\nA binational emergency plan coordinates UK and French emergency activities.\n[…]\nThey were taken to the Eurotunnel Fire/Emergency Management Centre close to the French portal.\n[…]\nThe service tunnel is used for access to technical equipment in cross-passages and equipment rooms, to provide fresh-air ventilation and for emergency evacuation. The Service Tunnel Transport System (STTS) allows fast access to all areas of the tunnel. The service vehicles are rubber-tired with a buried wire guidance system.\n[…]\nThe 24 STTS vehicles are used mainly for maintenance but also for firefighting and emergencies. \"Pods\" with different purposes, up to a payload of 2.5–5 tonnes (2.8–5.5 tons), are inserted into the side of the vehicles. The vehicles cannot turn around within the tunnel and are driven from either end. The maximum speed is 80 km/h (50 mph) when the steering is locked. A fleet of 15 Light Service Tunnel Vehicles (LADOGS) was introduced to supplement the STTSs.\n[…]\nChannel Tunnel on OpenStreetMap wiki\n[…]\n\"Channel Tunnel\". Structurae."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Eurot%C3%BAnel",
+        "situacao": "ok",
+        "texto": "O Eurotúnel (em inglês:  Channel Tunnel; em francês:  Tunnel sous la Manche) é um túnel ferroviário de 50,45 quilômetros de extensão que liga Folkestone, Kent, no Reino Unido, com Coquelles, em Pas-de-Calais, perto de Calais, no norte da França, sob o Canal da Mancha no Estreito de Dover. No seu ponto mais baixo, atinge 75 metros de profundidade.\n[…]\nEm 1957, foi formado o Grupo de Estudo para o Túnel do Canal (Channel Tunnel Study Group). No seu relatório, publicado em 1960, recomendava-se a construção de dois túneis ferroviários principais e um de serviço, menor. O projeto foi iniciado em 1973, mas, devido a problemas de financiamento, foi interrompido em 1975 quando já estavam construídos 250 metros de um túnel de teste.\n[…]\nO Túnel da Mancha é constituído por 3 túneis paralelos, dois principais ferroviários e um menor, de acesso. Este túnel de acesso, que é servido por veículos pequenos, é ligado aos outros através de passagens transversais em intervalos regulares para permitir que os trabalhadores da manutenção tenham acesso aos túneis principais e para fornecer uma saída de emergência em caso de acidente.\n[…]\nO encontro dos dois túneis 40 metros abaixo do solo do Canal da Mancha em 1 de dezembro de 1990, num crossover (passagens que permitem trens passar de um túnel a outro), tornou possível caminhar em terra seca da Inglaterra à Europa pela primeira vez desde o fim da última glaciação, mais de 13 mil anos atrás. Os britânicos e franceses, usando métodos de cálculo e pesquisa a laser, encontraram-se com menos de 2 cm de erro.\n[…]\nO túnel é operado por Eurotunnel plc. Existem quatro distintos tipos de serviço:\n[…]\nEm realidade, o Eurotúnel usa dois túneis fisicamente separados, para ambas as direções de viagem e eles jamais se encontram nos percursos.\n[…]\nCanal da Mancha\n[…]\nProjeto de túnel entre Europa e África\n[…]\nEurotunnel\n[…]\nChannel Tunnel History",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Ponte Rio-Niterói",
+      "descricao": "Ponte sobre a Baía de Guanabara que liga o Rio de Janeiro a Niterói, inaugurada em 1974."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Inaugurada em 1974 sobre a Baía de Guanabara, a ponte Rio-Niterói tem cerca de quantos quilômetros de extensão?",
+    "resposta": "Treze quilômetros",
+    "distratores": [
+      "Sete quilômetros",
+      "Vinte quilômetros",
+      "Trinta quilômetros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge",
+        "situacao": "ok",
+        "texto": "The Rio–Niterói Bridge (in Portuguese: Ponte Rio-Niterói), officially the President Costa e Silva Bridge, is a box girder bridge spanning the Guanabara Bay, connecting the cities of Rio de Janeiro and Niterói in the State of Rio de Janeiro, Brazil. It is currently the second longest bridge in Latin America, after the Metro Line 1 bridge, and the  48th longest in the world in 2020.\n[…]\nFrom its completion in 1974 until 1985 it was the world's second-longest bridge, second only to the Lake Pontchartrain Causeway.\n[…]\nIn 1963, a working group was created to study a bridge-building project. On 29 December 1965, an executive committee was formed to run the bridge-building program. President Artur da Costa e Silva signed a decree on 23 August 1968, authorizing the project for the bridge. The bridge program was run by Minister of Transport Mário Andreazza.\n[…]\nInitially, the bridge was constructed by a consortium of Brazilian companies led by Camargo Correa SA (for the concrete works) and by Cleveland Bridge & Engineering Company and Redpath Dorman Long in association with Montreal Engenharia of Brazil (for the steel navigation spans). On January 26, 1971, President Emílio Garrastazu Médici signed a decree taking control of the consortium.\n[…]\nThe bridge opened on 4 March 1974, on a Monday morning, with the official name of President Costa e Silva Bridge. \"Rio-Niterói\" started as a descriptive nickname that soon became better known than the official name. Today hardly anyone refers to it by its official name.\n[…]\nIn 2012 a bill was introduced to change its official name, President Costa e Silva Bridge - the second president of the Brazilian military dictatorship between 1964 and 1985 -  to Herbert de Souza Bridge, which has annoyed the Brazilian military.\n[…]\nOfficial website with live feed from the bridge's surveillance cameras: Ponte S.A. homepage"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ponte_Rio-Niter%C3%B3i",
+        "situacao": "ok",
+        "texto": "Ponte Presidente Costa e Silva, popularmente conhecida como Ponte Rio-Niterói, é uma ponte que atravessa a Baía de Guanabara, no estado do Rio de Janeiro, no Brasil. Ela conecta os municípios do Rio de Janeiro e Niterói. Seu nome é em homenagem a Artur da Costa e Silva, presidente durante a ditadura militar brasileira que deu a ordem para a construção da estrutura.\n[…]\nA ponte tem 13,29 quilômetros de comprimento, sendo 8,8 quilômetros sobre a água e um vão central de 300 metros de extensão com 72 metros de altura para permitir a passagem de centenas de navios que entram e saem da Baía de Guanabara todos os meses. Desde a sua conclusão em 1974 até 1985, foi a segunda ponte mais extensa do mundo, atrás da Ponte do Lago Pontchartrain, nos Estados Unidos.\n[…]\nEntretanto, somente no século XX, em 1963, foi criado um grupo de trabalho para estudar um projeto para a construção de uma via rodoviária. Em 29 de dezembro de 1965, uma comissão executiva foi formada para cuidar do projeto definitivo de construção de uma ponte. O Presidente Costa e Silva assinou decreto em 23 de agosto de 1968, autorizando o projeto de construção da ponte, idealizado pelo ministro dos transportes, Mário Andreazza, sob a gestão de quem a ponte foi iniciada e concluída.\n[…]\nA apresentação oficial do projeto da Ponte Rio-Niterói aconteceu no dia 14 de novembro de 1968 na Escola de Engenharia da Universidade Católica de Petrópolis (UCP). Na cerimônia estavam presentes: o Presidente Costa e Silva, o Ministro Mário Andreazza, o engenheiro Eliseu Rezende, diretor do DNER e o Grão-Chanceler e Reitor da UCP, Dom José Fernandes Veloso.[carece de fontes]?\n[…]\nPontes mais extensas do mundo\n[…]\nEcoPonte, concessionária responsável pela ponte\n[…]\nPonte Rio-Niterói no G1\n[…]\nPonte Rio-Niterói no OpenStreetMap",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Ford Modelo T",
+      "descricao": "Automóvel da Ford fabricado de 1908 a 1927, o primeiro carro produzido em massa em linha de montagem."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O que aconteceu primeiro: o primeiro voo motorizado dos irmãos Wright ou o lançamento do Ford Modelo T?",
+    "resposta": "O voo dos irmãos Wright",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ford_Model_T",
+      "https://en.wikipedia.org/wiki/Wright_Flyer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ford_Model_T",
+        "situacao": "ok",
+        "texto": "The Ford Model T is an automobile that was produced by the Ford Motor Company from October 1, 1908, to May 26, 1927. It is generally regarded as the first mass-affordable automobile, which made car travel available to middle-class Americans. The relatively low price was partly the result of Ford's efficient fabrication, including assembly line production instead of individual handcrafting.\n[…]\nPower tools were scarce outside factories, as were power sources for them; electrification, like pavement, was found usually only in larger towns. Rural electrification and motorized mechanization were embryonic in some regions and nonexistent in most. Henry Ford oversaw the requirements and design of the Model T based on contemporary realities. Consequently, the Model T was (intentionally) almost as much a tractor and portable engine as it was an automobile.\n[…]\nThe above tally includes a total of 14,689,525 vehicles. Ford said the last Model T was the 15 millionth vehicle produced.\n[…]\nMany steel Model T parts are still manufactured today, and even fiberglass replicas of their distinctive bodies are produced, which are popular for T-bucket style hot rods (as immortalized in the Jan and Dean surf music song \"Bucket T\", which was later recorded by The Who). In 1949, more than twenty years after the end of production, 200,000 Model Ts were registered in the United States. In 2008, it was estimated that about 50,000 to 60,000 Ford Model Ts remain roadworthy.\n[…]\nNew Zealand RM class (Model T Ford) – a 1925 experimental railcar based on a Model T powertrain\n[…]\nMcCalley, Bruce W. (1994). Model T Ford: The Car That Changed the World. Iola, WI, U.S.: Krause Publications. ISBN 0-87341-293-1.\n[…]\nFordModelT.net – Resource for Model T Owners and Enthusiasts\n[…]\nModel T Ford Club of America (USA)\n[…]\nModel T Ford Club International\n[…]\nFord Model T at the Internet Movie Cars Database"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wright_Flyer",
+        "situacao": "ok",
+        "texto": "The Wright Flyer (also known as the Kitty Hawk, Flyer I or the 1903 Flyer) made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903. Invented and flown by brothers Orville and Wilbur Wright, it marked the beginning of the pioneer era of aviation.\n[…]\nA modified version, the Wright Model B, was produced in larger numbers by the Wright brothers and was used by the army \"for training pilots and conducting aerial experiments\" including tests of \"a bombsight and bomb-dropping device\".\n[…]\nNeither the Smithsonian Institution or its successors, nor any museum or other agency, bureau or facilities administered for the United States of America by the Smithsonian Institution or its successors shall publish or permit to be displayed a statement or label in connection with or in respect of any aircraft model or design of earlier date than the Wright Aeroplane of 1903, claiming in effect that such aircraft was capable of carrying a man under its own power in controlled flight.\n[…]\nThis artifact is on display at the visitors center at the Wright Brothers National Memorial in Kitty Hawk, North Carolina.\n[…]\nPowerplant: 1 × Wright straight-4 water-cooled 201.1 cu in (3,295 cc) piston engine., 12 hp (8.9 kW)\n[…]\nPropellers: 2-bladed Wright \"Elliptical\" props, 8 ft 6 in (2.59 m) diameter\n[…]\nThe Wright Brothers and their airplane have been commemorated on a U.S. Quarter and on several U. S. Postage stamps.\n[…]\nThe Wrights' unpowered gliders\n[…]\nWright Model A\n[…]\nWright Model B\n[…]\nWrightflyer.org Archived February 27, 2021, at the Wayback Machine\n[…]\nWrightexperience.com\n[…]\n\"Under The Hood of A Wright Flyer\" Air & Space Magazine\n[…]\n1942 Smithsonian Annual Report acknowledging primacy of the Wright Flyer\n[…]\nHistory of the Wright Flyer Wright State University Library"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ford_Model_T",
+        "situacao": "ok",
+        "texto": "Ford Modelo T é um automóvel que foi desenvolvido e fabricado pela empresa norte-americana Ford Motor Company, de 1908 a 1927. Vigésimo modelo da marca, popularizou e revolucionou a indústria automobilística.\n[…]\nPor estas razões, o \"T\" conquistou o público americano e de outros países. Em 1914 iniciou-se a sua fabricação na Argentina. Em 1917 foi lançado o caminhão Modelo TT. Em 1919, a Ford se tornou o primeiro fabricante de automóveis no Brasil, com a produção do carro e do caminhão dessa linha. Em 1920, mais da metade dos veículos que circulavam ao redor do mundo eram modelos \"T\", que eram vistos até em países distantes, como Turquia e Etiópia.\n[…]\nDurante a Primeira Guerra Mundial, o Modelo T foi empregado amplamente, inclusive como ambulância, e correspondeu nas condições mais adversas.\n[…]\nPrimeiro carro da Ford com volante no lado esquerdo. Era considerado leve em relação a outros modelos. Como no câmbio, a redução se fazia por meio de uma engrenagem helicoidal. No painel havia amperímetro e hodômetro.\n[…]\nAinda não era com o sistema de pedal, mas com uma alavanca junto ao volante, que formava par com outra, para ajustar o avanço de ignição. As duas alavancas, opostas, formavam a figura de um bigode, o que levou o \"T\" a ser chamado, no Brasil, de \"Ford Bigode\". Quando o nome pegou, os modelos fabricados no Brasil passaram a mostrar no ornamento do capô a figura de um bigode.\n[…]\nExceto em alguns períodos e para alguns modelos, faróis e buzinas eram oferecidos como opcionais, mediante pagamento adicional. O farol auxiliar do motorista, elétrico, com controle interno, muito útil numa época de má iluminação pública, sempre foi oferecido como opcional.\n[…]\nCronologia do modelo T\n[…]\nFord Hemp Body Car",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Metrô do Rio de Janeiro",
+      "descricao": "Sistema de metrô da cidade do Rio de Janeiro, inaugurado em 1979."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes metrôs brasileiros foi inaugurado primeiro?",
+    "resposta": "Metrô do Rio",
+    "distratores": [
+      "Metrô do Recife",
+      "Metrô de Belo Horizonte",
+      "Metrô de Brasília"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Metro",
+      "https://en.wikipedia.org/wiki/Recife_Metro",
+      "https://en.wikipedia.org/wiki/Federal_District_Metro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Metro",
+        "situacao": "ok",
+        "texto": "The Rio de Janeiro Metro (Portuguese: Metrô do Rio de Janeiro, Portuguese pronunciation: [meˌtɾo du ˈʁi.u dʒi ʒɐˈnejɾu]), commonly referred to as just the Metrô (Portuguese pronunciation: [meˈtɾo]) is a rapid transit network that serves the city of Rio de Janeiro, Brazil. The Metrô was inaugurated on 5 March 1979, and consisted of five stations operating on a single line. The system currently cove\n[…]\nBuses run to every station on the Metro system.\n[…]\nThe Série 1000 trains were originally built by Mafersa, Budd, Villares and Westinghouse from 1978 to 1984; although 210 cars had originally been ordered, a government budgetary crisis led to only 146 being delivered, enough for 24 6-car EMUs. Each car has three 1,870 mm (74 in) wide doors per side. Because of the Série 1000, the Rio de Janeiro Metro became the second metro system in the world to have only air-conditioned trains when it opened in 1979.\n[…]\nAs of January 2026, Rio de Janeiro Metro tickets cost R$7.90, making them the most expensive single-use metro tickets in Brazil. The fare does not change based on distance or time. All stations have ticket barriers, at which at the following are accepted as of January 2026:\n[…]\nThe Jaé is a fare card used in Rio de Janeiro City. This uses a different fare integration system to the RioCard. Unlike the RioCard, all Jaé cards have fare integration enabled, though Metro trips cost R$7.90.\n[…]\nThe Rio de Janeiro State government has plans for further expansion of the metro system. As of 2017, the following lines are intended to be built or extended:\n[…]\nThe collection of narratives Entre Linhas: Histórias do Metrô e Trem do Rio de Janeiro (2023), by Sofia Neves, delves into the stories of anonymous passengers on the Rio de Janeiro subway.\n[…]\nList of Rio de Janeiro metro stations\n[…]\nList of metro systems\n[…]\nRio de Janeiro Metro at NYCSubway.org (in English)\n[…]\nRio de Janeiro metro map (in English)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Recife_Metro",
+        "situacao": "ok",
+        "texto": "The Recife Metro (Portuguese: Metrô do Recife, Metrorec) is a rapid transit system serving the Metropolitan Region of Recife, Pernambuco, Brazil. It is operated by the federally-owned Companhia Brasileira de Trens Urbanos (CBTU) and currently serves 29 stations, along 39.5 kilometers (24.5 mi) of track. The system is complemented by two diesel-powered light rail lines with seven additional station\n[…]\nThe contemporary metro, entirely aboveground, began construction in 1983, with funding from the World Bank. The metro consists of the Center Line (with two branches, Center-1 and Center-2) and the South Line, which all radiate outward from Recife station.\n[…]\nThe system originally had a total of 25.2 kilometers (15.7 mi) of route. After completion of the expansion of the network that occurred from February 2005 to March 2009, the metro grew to its current 39.5 kilometers (24.5 mi) in length.\n[…]\nThe Recife Metro has a direct connection to the Recife International Airport via the Airport Station, which is located just a few meters from the terminal and accessible by a covered walkway.\n[…]\nA 31.5 km (19.6 mi) long meter gauge (1,000 mm (3 ft 3+3⁄8 in)) light rail network (Brazilian Portuguese: Veículo Leve sobre Trilhos, VLT) is integrated with the metro system. Two light rail lines link the city of Cabo de Santo Agostinho with Recife and provide a connection between the Center-1 and South lines through the suburbs. The rail lines are not electrified, and use diesel vehicles.\n[…]\nThe system also includes several bus lines linked from the terminals of bus/metro integration designated SEI (Sistema Estrutural Integrado - \"Integrated Structural System\") through which passengers may continue their travel on the same ticket.\n[…]\nThe metro is built to a gauge of 1,600 mm (5 ft 3 in), (Irish gauge). All three lines are elevated or at grade, and trains are powered by overhead lines.\n[…]\nList of metro systems"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Federal_District_Metro",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Metropolitano_do_Rio_de_Janeiro",
+        "situacao": "ok",
+        "texto": "Metrô do Rio de Janeiro ou Metropolitano  do Rio de Janeiro, também conhecido pela marca MetrôRio, é o sistema de transporte metroviário da capital fluminense. Inaugurado em 1979, conta com 41 estações e aproximadamente 57 quilômetros de extensão, distribuídos em 3 linhas (1, 2 e 4), e com movimento médio de cerca de 660 mil passageiros em dias úteis.\n[…]\nEm 1980 foi inaugurada a primeira expansão da malha. A Estação Estácio prolongou o sistema rumo ao norte, enquanto a Estação Uruguaiana foi construída em uma região onde o metrô já passava, a fim de aliviar as demais estações da região central da cidade.\n[…]\nEm 19 de novembro do mesmo ano a Linha 2 foi inaugurada, levando o metrô da Estação Estácio, no Centro, para a Zona Norte. O primeiro trecho da segunda linha era composto pelas estações São Cristóvão e Maracanã, situada em frente ao lendário estádio de futebol.\n[…]\nEm 2010, é inaugurada a Linha 1A, prevista no projeto Metrô no Século XXI. A obra foi executada pela MetrôRio e inaugurada em novembro de 2010 sendo uma ligação entre as estações São Cristóvão, da Linha 2 e Central, com a construção de uma estação intermediária em frente a Prefeitura do Rio de Janeiro, a Estação Cidade Nova.\n[…]\nO trem 115 entrou no Centro de Manutenção transportando passageiros, provocando piadas dos operários do metrô. Os passageiros embarcados por engano tiveram de caminhar 600 metros pelo túnel até a estação Central do Brasil / Centro, onde puderam embarcar gratuitamente.\n[…]\nA coletânea de narrativas Entre Linhas: Histórias do Metrô e Trem do Rio de Janeiro, de Sofia Neves (2023), mergulha nas histórias de passageiros anônimos do metrô do Rio de Janeiro.\n[…]\nDuas cenas do romance O grande dia, de Pierre Cormon (2024), se passam no Metrô do Rio de Janeiro.\n[…]\nMetrô do Rio de Janeiro\n[…]\n«WikiRio - Informações práticas sobre Metrô da cidade do Rio de Janeiro»  (formato wiki)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Spirit of St. Louis",
+      "descricao": "Monoplano em que Charles Lindbergh fez, em 1927, o primeiro voo solo sem escalas entre Nova York e Paris."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1927, que aviador americano cruzou o Atlântico sozinho e sem escalas, de Nova York a Paris, no avião Spirit of St. Louis?",
+    "resposta": "Charles Lindbergh",
+    "distratores": [
+      "Howard Hughes",
+      "Richard Byrd",
+      "Wiley Post"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spirit_of_St._Louis",
+      "https://en.wikipedia.org/wiki/Charles_Lindbergh"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spirit_of_St._Louis",
+        "situacao": "ok",
+        "texto": "The Spirit of St. Louis (formally the Ryan NYP; registered N-X-211) is the custom-built, single-engine, single-seat, high-wing monoplane that Charles Lindbergh flew on May 20–21, 1927, on the first solo nonstop transatlantic flight from Long Island, New York, to Paris, France, for which Lindbergh won the $25,000 Orteig Prize.\n[…]\nThe rest was provided by the Spirit of St. Louis Organization.\n[…]\nLindbergh sat in a cramped cockpit which was  36 in × 32 in × 52 in (91 cm × 81 cm × 132 cm) in width, length, and height. It was so small, Lindbergh could not stretch his legs, nevertheless it was to be his home for nearly two days and nights over the Atlantic. The Spirit of St. Louis was powered by a 223 hp (166 kW), air-cooled, nine-cylinder Wright J-5C Whirlwind radial engine, by most accounts an exceptionally engineered powerplant by engineer Charles Lawrance.\n[…]\nShortly after the original Spirit was retired in April 1928, the Mahoney Aircraft Corporation presented Lindbergh with a Mahoney Ryan B-1 \"Brougham\". In 1928, Mahoney built a B-1X (NX4215) as a gift for Charles Lindbergh.\n[…]\nCharles Lindbergh in popular culture\n[…]\nThe Spirit of St. Louis, Charles Lindbergh – An American Aviator\n[…]\nLindbergh's Transatlantic Flight: New York to Paris Timeline, May 20–21, 1927, Charles Lindbergh – An American Aviator\n[…]\nPhoto Archive by Donald A. Hall: Designer of the Spirit of St. Louis, Charles Lindbergh – An American Aviator\n[…]\nRaymond Orteig-$25,000 prize, Charles Lindbergh – An American Aviator\n[…]\nB.F. Mahoney was the \"mystery man\" behind the Ryan company that built Lindbergh's Spirit of St. Louis Charles Lindbergh – An American Aviator\n[…]\nThe Spirit of St. Louis airborne over Paris as Lindbergh leaves for Belgium, the next stop after a few days in France(flickr)(large detailed picture, if it won't reduce just hit 'refresh' button)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_Lindbergh",
+        "situacao": "ok",
+        "texto": "Charles Augustus Lindbergh (February 4, 1902 – August 26, 1974) was an American aviator, military officer, and author. On May 20–21, 1927, he made the first nonstop flight from New York to Paris, a distance of 3,600 miles (5,800 km), flying alone for over 33 hours. His aircraft, the Spirit of St. Louis, was built to compete for the $25,000 Orteig Prize for the first flight between the two cities.\n[…]\nLindbergh was the son of U.S. congressman Charles August Lindbergh. He became a U.S. Army Air Service cadet in 1924. The next year, he was hired as a U.S. Air Mail pilot in the Greater St. Louis area, where he began to prepare for crossing the Atlantic. For his 1927 flight, President Calvin Coolidge presented him both the Distinguished Flying Cross and Medal of Honor, the highest U.S. military award. He was promoted to colonel in the U.S.\n[…]\nFor displaying heroic courage and skill as a navigator, at the risk of his life, by his nonstop flight in his airplane, the \"Spirit of St. Louis\", from New York City to Paris, France, 20–21 May 1927, by which Capt. Lindbergh not only achieved the greatest individual triumph of any American citizen but demonstrated that travel across the ocean by aircraft was possible.\n[…]\nLindbergh and the Spirit have been honored by a variety of world postage stamps over the last eight decades, including three issued by the United States. Less than three weeks after the flight the U.S. Post Office Department issued a 10-cent \"Lindbergh Air Mail\" stamp on June 11, 1927, with engraved illustrations of both the Spirit of St. Louis and a map of its route from New York to Paris. This was also the first U.S. stamp to bear the name of a living person.\n[…]\nWallace, Max (2005). The American Axis: Henry Ford, Charles Lindbergh and the Rise of the Third Reich. Macmillan. ISBN 978-0-312-33531-1.\n[…]\n\"Lindbergh: Fallen Hero\". PBS.\n[…]\nFBI Records: The Vault – Charles Lindbergh at fbi.gov"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Spirit_of_St._Louis",
+        "situacao": "ok",
+        "texto": "O Spirit of St. Louis (registrado: N-X-211) é um monomotor customizado e de único assento que foi pilotado por Charles Lindbergh entre 20 e 21 de maio de 1927 em sua missão bem-sucedida de travessia do oceano atlântico em voo solo sem escalas de Long Island, EUA, até Paris, França, feito pelo qual foi contemplado com o Prêmio Orteig de US$ 25 mil, que estava sendo oferecido desde 1919 para quem o \n[…]\nO Spirit foi desenvolvido e produzido em San Diego especialmente para a competição associada ao Prêmio Orteize de US$ 25 mil, para quem cumprisse o voo sem escalas entre Nova York e Paris, feito no qual Lindbergh foi bem-sucedido com o seu monomotor. Hall bem como a equipe da Ryan Airlines trabalham de forma dedicada aos propósitos de Lindbergh, os quais tinham como meta entregar a aeronave em cerca de 60 dias para que assim tivessem chances de obter o prêmio.\n[…]\nEmbora toda a quantia paga a companhia pelo trabalho não seja precisamente conhecida, sabe-se que Mahoney aceitou o trabalho a preço de custo ou pouco lucro. Lindbergh havia recorrido a Ryan Companhy em fevereiro de 1927, somente após se frustrar com várias companhias de aviação, com proposta de construir uma nova aeronave ou adaptar aeronaves existente, basicamente com a pergunta: \"Você pode construir um avião com motor Whirlwind capaz de voar sem escalas entre Nova York e Paris...?\".\n[…]\nO Mahoney Ryan B-1 “Brougham” foi também utilizado como base na produção do Spirit of St. Louis. A reprodução foi utilizada no filme da Paramount Men with Wings de 1938 estrelando Ray Milland.\n[…]\nLouis; o segundo, o B-156, tendo integrado a coleção do Museu Henry Ford, em Dearborn, no Michigan; e o terceiro, o B-159, incluído no acervo do Cradle of Aviation Museum localizado em Garden City, Long Island, Nova York, próximo ao Roosevelt Field, local em que Charles Lindbergh originalmente decolou com o seu Spirit em 20 de maio de 1927.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Balão de ar quente",
+      "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O que aconteceu primeiro: o primeiro voo tripulado num balão de ar quente ou a primeira viagem de uma locomotiva a vapor sobre trilhos?",
+    "resposta": "O voo de balão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+      "https://en.wikipedia.org/wiki/Richard_Trevithick"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+        "situacao": "ok",
+        "texto": "The Montgolfier brothers – Joseph-Michel Montgolfier (French: [ʒozɛf miʃɛl mɔ̃ɡɔlfje]; 26 August 1740 – 26 June 1810) and Jacques-Étienne Montgolfier ([ʒak etjɛn mɔ̃ɡɔlfje]; 6 January 1745 – 2 August 1799) – were aviation pioneers, balloonists and paper manufacturers from Annonay in Ardèche, France. They invented the Montgolfière-style hot air balloon, Globe aérostatique, which launched the first \n[…]\nIn December 1783, father Pierre Montgolfier was elevated to the nobility and the hereditary appellation of de Montgolfier by King Louis XVI.\n[…]\nBoth brothers invented a process to manufacture transparent paper similar to vellum, imitating the technique of the English, followed by the papermakers Johannot and Réveillon. In 1796, Joseph Michel Montgolfier invented the first self-acting hydraulic ram, a water pump to raise water for his paper mill at Voiron. In 1772, the British clockmaker John Whitehurst had invented its precursor, the \"pulsation engine\".\n[…]\nIn 1797, Montgolfier's friend Matthew Boulton took out a British patent on his behalf.\n[…]\nIn 1799, Etienne de Montgolfier died on the way from Lyon to Annonay. His son-in-law, Barthélémy Barou de la Lombardière de Canson (1774–1859), succeeded him as the head of the company, thanks to his marriage with Alexandrine de Montgolfier. The company became Montgolfier et Canson in 1801, then Canson-Montgolfier in 1807. In 1810, Joseph-Michel died in Balaruc-les-Bains.\n[…]\nThe Montgolfier Company in Annonay still exists under the name Canson. It produces fine art papers, school drawing papers and digital fine art and photography papers sold in 150 countries.\n[…]\nIn 1983, the Montgolfier brothers were inducted into the International Air & Space Hall of Fame at the San Diego Air & Space Museum.\n[…]\nAdélaïde de Montgolfier\n[…]\n\"Lighter than air: the Montgolfier brothers\"\n[…]\n\"Balloons and the Montgolfier brothers\""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Richard_Trevithick",
+        "situacao": "ok",
+        "texto": "Richard Trevithick (13 April 1771 – 22 April 1833) was a British inventor and mining engineer. The son of a mining captain, and born in the mining heartland of Cornwall, Trevithick was immersed in mining and engineering from an early age. He was an early pioneer of steam-powered road and rail transport, and his most significant contributions were the development of the first high-pressure steam en\n[…]\nThere is a plaque and memorial situated in Abercynon, outside the fire station. It says \"In commemoration of the achievements of Richard Trevithick who having constructed the first steam locomotive did on February 21st 1804 successfully hail 10 tons of iron and numerous passengers along a tramroad from Merthyr to this precinct where was situated the loading point of the Glamorgan Canal\". There is also a building in Abercynon called Ty Trevithick (Trevithick House), named in his honour.\n[…]\nOn Penydarren Road, Merthyr Tydfil there is a memorial on the site of the Penydarren Tramway. The inscription reads \"RICHARD TREVITHICK 1771-1833 PIONEER OF HIGH PRESSURE STEAM BUILT THE FIRST STEAM LOCOMOTIVE TO RUN ON RAILS. ON FEBRUARY 21ST 1804 IT TRAVERSED THE SPOT ON WHICH THIS MONUMENT STANDS ON ITS WAY TO ABERCYNON\". A short walk north of that is the (slightly misspelled) Trevethick Street, named after Trevithick.\n[…]\nA replica of Trevithick's first full-size steam road locomotive was first displayed at Camborne Trevithick Day 2001, the day chosen for the celebration of Trevithick's public demonstration of the use of high-pressure steam. The team consisting of John Woodward, Mark Rivron and Sean Oliver, have continued to maintain and display the engine at various steam fairs across the country.\n[…]\nLowe, James W. (1975), British Steam Locomotive Builders. Cambridge: Goose ISBN 0-900404-21-3 (reissued in 1989 by Guild Publishing)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Irm%C3%A3os_Montgolfier",
+        "situacao": "ok",
+        "texto": "Os Irmãos Montgolfier: Joseph-Michel (Annonay, 26 de agosto de 1740 — Balaruc-les-Bains, 26 de junho de 1810) e Jacques-Étienne (Annonay, 6 de janeiro de 1745 — Neuchâtel, 2 de agosto de 1799), foram dois irmãos inventores franceses, que construíram o primeiro balão tripulado do Mundo, que elevou Étienne aos céus em 5 de junho de 1783.\n[…]\nAo que se sabe, Étienne Montgolfier foi o primeiro ser humano a levantar voo do solo, fazendo no mínimo um voo seguro por cordas do pátio da oficina de Réveillon no subúrbio de Paris conhecido como Faubourg Saint-Antoine, na provável date de 15 de outubro de 1783. Mais tarde naquele mesmo dia, Pilâtre de Rozier tornou-se o segundo ser humano a voar num balão atingindo cerca de 24 m de altitude, que era o comprimento da corda.\n[…]\nEm 21 de novembro de 1783, ocorreu o primeiro voo livre de seres humanos num balão, executado por Pilâtre juntamente com o oficial do exército, marquês d'Arlandes. O voo partiu das terras do castelo de la Muette (perto do parque Bois de Boulogne), lado Oeste de Paris. Eles voaram por 9 km a cerca de 910 m acima de Paris, depois de 25 minutos, o aparelho pousou entre os moinhos de Butte-aux-Cailles, tendo o voo sido abreviado por um princípio de incêndio no tecido que recobria o balão.\n[…]\nNo início de 1784, um balão, então batizado em Flesselles, em homenagem à Jacques de Flesselles fez um pouso forçado com sua tripulação. Em junho de 1784, o balão batizado de La Gustave levou como passageira a aeronauta cantora, Élisabeth Thible.\n[…]\nBoa parte da comunidade lusófona, atribui a invenção do balão ao Padre Jesuíta português Bartolomeu de Gusmão, a quase oitenta anos antes, em 1709, o padre nascido no Brasil Colônia, teria conseguido a ascensão de um balão cheio de ar quente o qual chamou de \"passarola\".\n[…]\nBalão\n[…]\nBalão de ar quente\n[…]\nMusée des papeteries Canson et Montgolfier",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.94 — 2026-11-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **3 perguntas por âncora** em cada lote (2 até 2026-10-27), nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **8 perguntas por âncora** no banco inteiro (3 até 2026-10-23, 5 até 2026-10-27), somando texto e figura, e no máximo **3 com figura** (2 até 2026-10-27). As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas. Essas perguntas têm um teto no jogo original (§9).
+- **Metade aberta, metade múltipla escolha** (desde 2026-10-27). O jogo original busca as duas formas na mesma proporção, em cada tema, para que um modo só de múltipla escolha tenha perguntas de todos os temas. Vale para texto e figura. Cada lote recebe a quantidade de `multipla` que aproxima o seu tema dessa meta (§17), e a pergunta segue a quantidade pedida, salvo quando a outra forma for claramente melhor.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **três perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master e Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 8 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- **Respostas que são um ano específico** ("1969", "800 a.C."), somando abertas e múltiplas: no máximo **9%** das perguntas do lote, e no máximo **uma** num lote de figuras, que tem 12 itens (desde 2026-10-30, só no jogo original). Para pedir a época, prefira o século, a década ou a ordem entre dois fatos. O registro descarta o que passar do teto; as perguntas que já estavam no banco ficam.
+- No máximo **3 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras centrais e conhecidas**, mesmo que já tenham perguntas, a âncoras novas e obscuras (desde 2026-10-27; antes, "prefira âncoras novas"). O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para aprofundá-las com fatos e ângulos novos, sem repetir fatos.
+- **Tentar incluir uma âncora nova a cada 50 perguntas**, tão conhecida quanto as centrais, para manter alguma variedade. Se for difícil achar uma assim, o lote fica sem: uma âncora nova obscura não vale a troca.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

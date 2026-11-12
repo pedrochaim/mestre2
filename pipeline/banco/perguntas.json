@@ -418387,5 +418387,635 @@
       "autor": "Pieter_Bruegel_d._Ä._014.jpg: File Upload Bot (Eloquence) derivative work: Wikielwikingo (talk)",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q21024",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "rms_titanic",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Na madrugada de abril de 1912, que navio chegou ao local do naufrágio do Titanic e resgatou os sobreviventes nos botes?",
+    "resposta": "Carpathia",
+    "distratores": [
+      "Californian",
+      "Lusitania",
+      "Olympic"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/RMS_Carpathia"
+    ]
+  },
+  {
+    "id": "q21025",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "rms_titanic",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Titanic foi construído no estaleiro Harland and Wolff. Em que cidade ficava esse estaleiro?",
+    "resposta": "Belfast",
+    "distratores": [
+      "Liverpool",
+      "Glasgow",
+      "Dublin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Titanic",
+      "https://en.wikipedia.org/wiki/Harland_%26_Wolff"
+    ]
+  },
+  {
+    "id": "q21026",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "alberto_santos_dumont",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Segundo uma versão difundida, Santos Dumont ficou muito angustiado, em 1932, ao ver aviões em combate em qual conflito brasileiro?",
+    "resposta": "Revolução Constitucionalista",
+    "distratores": [
+      "Revolução de 1930",
+      "Guerra do Contestado",
+      "Coluna Prestes"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Alberto_Santos-Dumont"
+    ]
+  },
+  {
+    "id": "q21027",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "volkswagen_fusca",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Brasil, o apelido Fusca nasceu do jeito como imigrantes alemães pronunciavam uma palavra. Que palavra era essa?",
+    "resposta": "Volkswagen",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+    ]
+  },
+  {
+    "id": "q21028",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "volkswagen_fusca",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que Fusca branco dos filmes da Disney, com o número cinquenta e três pintado, tinha vontade própria?",
+    "resposta": "Herbie",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Herbie"
+    ]
+  },
+  {
+    "id": "q21029",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "concorde",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do avião supersônico Concorde, que quer dizer harmonia ou acordo, celebrava a parceria entre quais dois países?",
+    "resposta": "França e Reino Unido",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Concorde"
+    ]
+  },
+  {
+    "id": "q21030",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "metro_de_londres",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que aviso em inglês, repetido nos alto-falantes do metrô de Londres desde 1968, pede cuidado com o vão entre o trem e a plataforma?",
+    "resposta": "Mind the gap",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mind_the_gap"
+    ]
+  },
+  {
+    "id": "q21031",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "canal_do_panama",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Na tentativa francesa de abrir o Canal do Panamá, nos anos 1880, milhares de trabalhadores morreram principalmente de quais doenças?",
+    "resposta": "Malária e febre amarela",
+    "distratores": [
+      "Cólera e disenteria",
+      "Peste bubônica",
+      "Varíola e sarampo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Panama_Canal"
+    ]
+  },
+  {
+    "id": "q21032",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "canal_do_panama",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Construído e controlado durante décadas pelos Estados Unidos, o Canal do Panamá passou para as mãos do governo panamenho em que ano?",
+    "resposta": "1999",
+    "distratores": [
+      "1977",
+      "1989",
+      "2003"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Torrijos%E2%80%93Carter_Treaties",
+      "https://en.wikipedia.org/wiki/Panama_Canal"
+    ]
+  },
+  {
+    "id": "q21033",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "canal_de_suez",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Depois da Guerra dos Seis Dias, em 1967, o Canal de Suez ficou fechado à navegação por cerca de quantos anos?",
+    "resposta": "Oito anos",
+    "distratores": [
+      "Dois anos",
+      "Cinco anos",
+      "Doze anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Suez_Canal"
+    ]
+  },
+  {
+    "id": "q21034",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "tgv",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A sigla TGV, dos trens rápidos da França, abrevia uma expressão em francês. O que ela quer dizer?",
+    "resposta": "Trem de grande velocidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/TGV"
+    ]
+  },
+  {
+    "id": "q21035",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "expresso_do_oriente",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Expresso do Oriente, criado em 1883, ligava Paris a Constantinopla. Como se chama hoje essa cidade?",
+    "resposta": "Istambul",
+    "distratores": [
+      "Ancara",
+      "Atenas",
+      "Bucareste"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orient_Express"
+    ]
+  },
+  {
+    "id": "q21036",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "chevrolet",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa do formato, o emblema dourado da Chevrolet é chamado nos Estados Unidos pelo nome de qual acessório de roupa?",
+    "resposta": "Gravata-borboleta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chevrolet"
+    ]
+  },
+  {
+    "id": "q21037",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "toyota_corolla",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do Toyota Corolla vem de uma palavra em latim. O que ela significa?",
+    "resposta": "Pequena coroa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Toyota_Corolla"
+    ]
+  },
+  {
+    "id": "q21038",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "fordlandia",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "As seringueiras plantadas lado a lado na Fordlândia, no Pará, nunca deram a borracha esperada. O que arrasou a plantação?",
+    "resposta": "Praga de fungo",
+    "distratores": [
+      "Enchentes do rio",
+      "Geadas",
+      "Incêndios florestais"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+    ]
+  },
+  {
+    "id": "q21039",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "henry_ford",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em 1914, Henry Ford surpreendeu a indústria ao pagar aos operários de suas fábricas quantos dólares por dia de trabalho?",
+    "resposta": "Cinco dólares",
+    "distratores": [
+      "Dois dólares",
+      "Dez dólares",
+      "Um dólar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_Ford"
+    ]
+  },
+  {
+    "id": "q21040",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "henry_ford",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de fabricar carros, Henry Ford foi engenheiro-chefe de uma companhia elétrica de Detroit ligada a qual inventor famoso?",
+    "resposta": "Thomas Edison",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_Ford"
+    ]
+  },
+  {
+    "id": "q21041",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "porsche",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O cavalo empinado no centro do brasão da Porsche foi tirado do brasão de qual cidade alemã?",
+    "resposta": "Stuttgart",
+    "distratores": [
+      "Munique",
+      "Berlim",
+      "Hamburgo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Porsche"
+    ]
+  },
+  {
+    "id": "q21042",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "volvo",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O emblema da Volvo, um círculo com uma seta apontada para cima e para a direita, é o antigo símbolo de qual metal?",
+    "resposta": "Ferro",
+    "distratores": [
+      "Cobre",
+      "Ouro",
+      "Prata"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volvo_Cars"
+    ]
+  },
+  {
+    "id": "q21043",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "michelin",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Bibendum, do boneco de pneus da Michelin, vem de um verso latino de um anúncio antigo: nunc est bibendum. O que quer dizer o verso?",
+    "resposta": "Agora é hora de beber",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bibendum"
+    ]
+  },
+  {
+    "id": "q21044",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "irmaos_wright",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em dezembro de 1903, de que jeito os irmãos Wright decidiram qual dos dois faria a primeira tentativa de voo com o Flyer?",
+    "resposta": "Cara ou coroa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wright_Flyer"
+    ]
+  },
+  {
+    "id": "q21045",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "embraer",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A Embraer, fabricante brasileira de aviões criada em 1969, tem sede em qual cidade paulista?",
+    "resposta": "São José dos Campos",
+    "distratores": [
+      "Campinas",
+      "Sorocaba",
+      "Ribeirão Preto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Embraer"
+    ]
+  },
+  {
+    "id": "q21046",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "zepelim",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Na zona oeste do Rio de Janeiro, que bairro guarda até hoje um hangar construído nos anos trinta para receber os zepelins alemães?",
+    "resposta": "Santa Cruz",
+    "distratores": [
+      "Jacarepaguá",
+      "Bangu",
+      "Barra da Tijuca"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Hangar_do_Zeppelin",
+      "https://en.wikipedia.org/wiki/Santa_Cruz_Air_Force_Base"
+    ]
+  },
+  {
+    "id": "q21047",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "vasa",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O navio sueco Vasa passou mais de trezentos anos no fundo do mar, perto de Estocolmo, e saiu quase inteiro. Por que a madeira não foi devorada por vermes?",
+    "resposta": "Água pouco salgada do Báltico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vasa_(ship)"
+    ]
+  },
+  {
+    "id": "q21048",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "mayflower",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1620, o navio Mayflower levou os peregrinos ingleses à América do Norte. Em que atual estado americano eles se instalaram?",
+    "resposta": "Massachusetts",
+    "distratores": [
+      "Virgínia",
+      "Nova York",
+      "Pensilvânia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mayflower"
+    ]
+  },
+  {
+    "id": "q21049",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "faixa_de_pedestres_de_abbey_road",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que banda britânica aparece atravessando uma faixa de pedestres de Londres na capa de um disco de 1969, imitada até hoje por turistas?",
+    "resposta": "The Beatles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abbey_Road"
+    ]
+  },
+  {
+    "id": "q21050",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "mao_inglesa",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Uma explicação tradicional para circular pela esquerda remonta aos cavaleiros medievais, quase todos destros. Por que eles preferiam esse lado?",
+    "resposta": "Espada voltada para quem passava",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Sentido_de_circula%C3%A7%C3%A3o_de_tr%C3%A1fego"
+    ]
+  },
+  {
+    "id": "q21051",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "onibus",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1662, que matemático e filósofo francês criou em Paris uma linha de carruagens coletivas com rotas e horários fixos, ancestral do ônibus?",
+    "resposta": "Blaise Pascal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carrosses_%C3%A0_cinq_sols",
+      "https://en.wikipedia.org/wiki/Blaise_Pascal"
+    ]
+  },
+  {
+    "id": "q21052",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "taxi",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1915, o empresário John Hertz pintou de amarelo os táxis da sua empresa em Chicago, cor depois adotada em Nova York. Por que essa cor?",
+    "resposta": "É a mais fácil de ver de longe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/John_D._Hertz",
+      "https://en.wikipedia.org/wiki/Taxicabs_of_New_York_City"
+    ]
+  },
+  {
+    "id": "q21053",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "harley_davidson",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1903, a fabricante de motocicletas Harley-Davidson foi fundada em qual cidade americana, onde mantém a sede?",
+    "resposta": "Milwaukee",
+    "distratores": [
+      "Detroit",
+      "Chicago",
+      "Cleveland"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harley-Davidson"
+    ]
+  },
+  {
+    "id": "q21054",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "rodovia_transamazonica",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A Transamazônica, aberta nos anos setenta para cortar o país rumo ao oeste, começa no litoral de qual estado do Nordeste?",
+    "resposta": "Paraíba",
+    "distratores": [
+      "Ceará",
+      "Maranhão",
+      "Pernambuco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trans-Amazonian_Highway",
+      "https://pt.wikipedia.org/wiki/BR-230"
+    ]
+  },
+  {
+    "id": "q21055",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "rota_66",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que animação da Pixar, de 2006, se passa numa cidadezinha esquecida à beira da Rota 66, chamada Radiator Springs?",
+    "resposta": "Carros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cars_(film)"
+    ]
+  },
+  {
+    "id": "q21056",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "rodovias_federais_do_brasil",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Nas rodovias federais do Brasil, quando o número começa com zero, como na BR zero quarenta, isso indica que a estrada parte de qual cidade?",
+    "resposta": "Brasília",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazilian_Highway_System"
+    ]
+  },
+  {
+    "id": "q21057",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "tunel_do_canal_da_mancha",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O túnel ferroviário sob o Canal da Mancha, entre a Inglaterra e a França, tem cerca de quantos quilômetros de extensão?",
+    "resposta": "Cinquenta quilômetros",
+    "distratores": [
+      "Vinte quilômetros",
+      "Trinta quilômetros",
+      "Cem quilômetros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Channel_Tunnel"
+    ]
+  },
+  {
+    "id": "q21058",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "tunel_do_canal_da_mancha",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Sob o Canal da Mancha, além dos dois túneis por onde passam os trens, há um terceiro túnel menor entre eles. Para que ele serve?",
+    "resposta": "Manutenção e emergências",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Channel_Tunnel"
+    ]
+  },
+  {
+    "id": "q21059",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "ponte_rio_niteroi",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Inaugurada em 1974 sobre a Baía de Guanabara, a ponte Rio-Niterói tem cerca de quantos quilômetros de extensão?",
+    "resposta": "Treze quilômetros",
+    "distratores": [
+      "Sete quilômetros",
+      "Vinte quilômetros",
+      "Trinta quilômetros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge"
+    ]
+  },
+  {
+    "id": "q21060",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "ford_modelo_t",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O que aconteceu primeiro: o primeiro voo motorizado dos irmãos Wright ou o lançamento do Ford Modelo T?",
+    "resposta": "O voo dos irmãos Wright",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ford_Model_T",
+      "https://en.wikipedia.org/wiki/Wright_Flyer"
+    ]
+  },
+  {
+    "id": "q21061",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "metro_do_rio_de_janeiro",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes metrôs brasileiros foi inaugurado primeiro?",
+    "resposta": "Metrô do Rio",
+    "distratores": [
+      "Metrô do Recife",
+      "Metrô de Belo Horizonte",
+      "Metrô de Brasília"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Metro",
+      "https://en.wikipedia.org/wiki/Recife_Metro"
+    ]
+  },
+  {
+    "id": "q21062",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "spirit_of_st_louis",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1927, que aviador americano cruzou o Atlântico sozinho e sem escalas, de Nova York a Paris, no avião Spirit of St. Louis?",
+    "resposta": "Charles Lindbergh",
+    "distratores": [
+      "Howard Hughes",
+      "Richard Byrd",
+      "Wiley Post"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spirit_of_St._Louis",
+      "https://en.wikipedia.org/wiki/Charles_Lindbergh"
+    ]
+  },
+  {
+    "id": "q21063",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "balao_de_ar_quente",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O que aconteceu primeiro: o primeiro voo tripulado num balão de ar quente ou a primeira viagem de uma locomotiva a vapor sobre trilhos?",
+    "resposta": "O voo de balão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+      "https://en.wikipedia.org/wiki/Richard_Trevithick"
+    ]
   }
 ]

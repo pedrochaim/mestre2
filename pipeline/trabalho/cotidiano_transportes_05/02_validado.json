@@ -1,0 +1,1253 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "rms_titanic",
+        "nome": "RMS Titanic",
+        "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+        "variantes": [
+          "Titanic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Titanic"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na madrugada de abril de 1912, que navio chegou ao local do naufrágio do Titanic e resgatou os sobreviventes nos botes?",
+      "resposta": "Carpathia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/RMS_Carpathia"
+      ],
+      "distratores": [
+        "Californian",
+        "Lusitania",
+        "Olympic"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "rms_titanic",
+        "nome": "RMS Titanic",
+        "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+        "variantes": [
+          "Titanic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Titanic"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Titanic foi construído no estaleiro Harland and Wolff. Em que cidade ficava esse estaleiro?",
+      "resposta": "Belfast",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Titanic",
+        "https://en.wikipedia.org/wiki/Harland_%26_Wolff"
+      ],
+      "distratores": [
+        "Liverpool",
+        "Glasgow",
+        "Dublin"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "alberto_santos_dumont",
+        "nome": "Alberto Santos-Dumont",
+        "descricao": "Aviador e inventor brasileiro, pioneiro dos dirigíveis e do 14-bis.",
+        "variantes": [
+          "Santos Dumont"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Alberto_Santos-Dumont"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1932, Santos Dumont morreu no Guarujá, abalado com o uso de aviões em combates de qual conflito brasileiro?",
+      "resposta": "Revolução Constitucionalista",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+        "https://pt.wikipedia.org/wiki/Alberto_Santos-Dumont"
+      ],
+      "distratores": [
+        "Revolução de 1930",
+        "Guerra do Contestado",
+        "Coluna Prestes"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "14_bis",
+        "nome": "14-bis",
+        "descricao": "Avião de Alberto Santos-Dumont que voou em Paris em 1906.",
+        "variantes": [
+          "Quatorze Bis",
+          "Oiseau de Proie"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Visto hoje, o 14-bis parece voar de ré, porque levava na frente, em forma de caixa, uma peça que nos aviões atuais fica na cauda. Que peça é essa?",
+      "resposta": "O leme",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "volkswagen_fusca",
+        "nome": "Volkswagen Fusca",
+        "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+        "variantes": [
+          "Fusca",
+          "Beetle",
+          "Käfer"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No Brasil, o apelido Fusca nasceu do jeito como imigrantes alemães pronunciavam uma palavra. Que palavra era essa?",
+      "resposta": "Volkswagen",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "volkswagen_fusca",
+        "nome": "Volkswagen Fusca",
+        "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+        "variantes": [
+          "Fusca",
+          "Beetle",
+          "Käfer"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que Fusca branco dos filmes da Disney, com o número cinquenta e três pintado, tinha vontade própria?",
+      "resposta": "Herbie",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Herbie"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "concorde",
+        "nome": "Concorde",
+        "descricao": "Avião comercial supersônico franco-britânico que operou de 1976 a 2003.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Concorde"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do avião supersônico Concorde, que quer dizer harmonia ou acordo, celebrava a parceria entre quais dois países?",
+      "resposta": "França e Reino Unido",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Concorde"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "metro_de_londres",
+        "nome": "Metrô de Londres",
+        "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway.",
+        "variantes": [
+          "London Underground",
+          "The Tube"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/London_Underground"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Que aviso em inglês, repetido nos alto-falantes do metrô de Londres desde 1968, pede cuidado com o vão entre o trem e a plataforma?",
+      "resposta": "Mind the gap",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mind_the_gap"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "canal_do_panama",
+        "nome": "Canal do Panamá",
+        "descricao": "Canal artificial que atravessa o istmo do Panamá e liga o oceano Atlântico ao Pacífico.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama_Canal"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Na tentativa francesa de abrir o Canal do Panamá, nos anos 1880, milhares de trabalhadores morreram principalmente de quais doenças?",
+      "resposta": "Malária e febre amarela",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/French_canal_construction_in_Panama"
+      ],
+      "distratores": [
+        "Cólera e disenteria",
+        "Peste bubônica",
+        "Varíola e sarampo"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "canal_do_panama",
+        "nome": "Canal do Panamá",
+        "descricao": "Canal artificial que atravessa o istmo do Panamá e liga o oceano Atlântico ao Pacífico.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama_Canal"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Construído e controlado durante décadas pelos Estados Unidos, o Canal do Panamá passou para as mãos do governo panamenho em que ano?",
+      "resposta": "1999",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Torrijos%E2%80%93Carter_Treaties",
+        "https://en.wikipedia.org/wiki/Panama_Canal"
+      ],
+      "distratores": [
+        "1977",
+        "1989",
+        "2003"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "canal_de_suez",
+        "nome": "Canal de Suez",
+        "descricao": "Canal artificial no Egito que liga o mar Mediterrâneo ao mar Vermelho.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Suez_Canal"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Depois da Guerra dos Seis Dias, em 1967, o Canal de Suez ficou fechado à navegação por cerca de quantos anos?",
+      "resposta": "Oito anos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Suez_Canal"
+      ],
+      "distratores": [
+        "Dois anos",
+        "Cinco anos",
+        "Doze anos"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "tgv",
+        "nome": "TGV",
+        "descricao": "Trem francês de alta velocidade operado pela SNCF.",
+        "variantes": [
+          "Train à Grande Vitesse"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/TGV"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A sigla TGV, dos trens rápidos da França, abrevia uma expressão em francês. O que ela quer dizer?",
+      "resposta": "Trem de grande velocidade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/TGV"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "expresso_do_oriente",
+        "nome": "Expresso do Oriente",
+        "descricao": "Serviço ferroviário de luxo criado em 1883 entre Paris e Constantinopla.",
+        "variantes": [
+          "Orient Express"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Orient_Express"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Expresso do Oriente, criado em 1883, ligava Paris a Constantinopla. Como se chama hoje essa cidade?",
+      "resposta": "Istambul",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Orient_Express"
+      ],
+      "distratores": [
+        "Ancara",
+        "Atenas",
+        "Bucareste"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "estrada_de_ferro_madeira_mamore",
+        "nome": "Estrada de Ferro Madeira-Mamoré",
+        "descricao": "Ferrovia construída em Rondônia no início do século vinte, conhecida como Ferrovia do Diabo.",
+        "variantes": [
+          "Madeira-Mamoré"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamor%C3%A9"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por que a ferrovia Madeira-Mamoré, aberta na selva de Rondônia, ganhou o apelido de Ferrovia do Diabo?",
+      "resposta": "Milhares de operários morreram na obra",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamor%C3%A9",
+        "https://en.wikipedia.org/wiki/Madeira-Mamor%C3%A9_Railroad"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "bondinho_do_pao_de_acucar",
+        "nome": "Bondinho do Pão de Açúcar",
+        "descricao": "Teleférico que liga a Praia Vermelha aos morros da Urca e do Pão de Açúcar, no Rio de Janeiro, inaugurado em 1912.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sugarloaf_Mountain"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em que filme de James Bond, de 1979, o agente luta com o vilão Dentes de Aço em cima do bondinho do Pão de Açúcar?",
+      "resposta": "007 Contra o Foguete da Morte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moonraker_(film)"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "elevador_lacerda",
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Elevador_Lacerda"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O Elevador Lacerda, inaugurado em Salvador em 1873, leva o nome de quem?",
+      "resposta": "Antônio Francisco de Lacerda",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Elevador_Lacerda",
+        "https://en.wikipedia.org/wiki/Lacerda_Elevator"
+      ],
+      "distratores": [
+        "Carlos Lacerda",
+        "Barão de Mauá",
+        "Marquês de Pombal"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Volkswagen Passat",
+        "descricao": "Carro médio da Volkswagen lançado em 1973, também fabricado no Brasil a partir de 1974.",
+        "variantes": [
+          "Passat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volkswagen_Passat"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Passat, Jetta, Bora e Scirocco, nomes de carros da Volkswagen, foram inspirados em que tipo de fenômeno da natureza?",
+      "resposta": "Ventos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Passat",
+        "https://en.wikipedia.org/wiki/Volkswagen_Jetta"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Chevrolet",
+        "descricao": "Marca americana de automóveis da General Motors, fundada em 1911 por Louis Chevrolet e William Durant.",
+        "variantes": [
+          "Chevy"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chevrolet"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por causa do formato, o emblema dourado da Chevrolet é chamado nos Estados Unidos pelo nome de qual acessório de roupa?",
+      "resposta": "Gravata-borboleta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chevrolet"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "toyota_corolla",
+        "nome": "Toyota Corolla",
+        "descricao": "Série de carros compactos da Toyota, produzida desde 1966.",
+        "variantes": [
+          "Corolla"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toyota_Corolla"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do Toyota Corolla vem de uma palavra em latim. O que ela significa?",
+      "resposta": "Pequena coroa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toyota_Corolla"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "fordlandia",
+        "nome": "Fordlândia",
+        "descricao": "Cidade fundada por Henry Ford na Amazônia em 1928 para produzir borracha.",
+        "variantes": [
+          "Fordlandia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "As seringueiras plantadas lado a lado na Fordlândia, no Pará, nunca deram a borracha esperada. O que arrasou a plantação?",
+      "resposta": "Praga de fungo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+      ],
+      "distratores": [
+        "Enchentes do rio",
+        "Geadas",
+        "Incêndios florestais"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Henry Ford",
+        "descricao": "Industrial americano, fundador da Ford Motor Company e criador da produção em massa do Modelo T.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Henry_Ford"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 1914, Henry Ford surpreendeu a indústria ao pagar aos operários de suas fábricas quantos dólares por dia de trabalho?",
+      "resposta": "Cinco dólares",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Henry_Ford"
+      ],
+      "distratores": [
+        "Dois dólares",
+        "Dez dólares",
+        "Um dólar"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Henry Ford",
+        "descricao": "Industrial americano, fundador da Ford Motor Company e criador da produção em massa do Modelo T.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Henry_Ford"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes de fabricar carros, Henry Ford foi engenheiro-chefe de uma companhia elétrica de Detroit ligada a qual inventor famoso?",
+      "resposta": "Thomas Edison",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Henry_Ford"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Mercedes-Benz",
+        "descricao": "Marca alemã de automóveis de luxo, nascida da fusão da Daimler com a Benz em 1926.",
+        "variantes": [
+          "Mercedes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mercedes-Benz"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A marca de carros Mercedes tem nome de menina. Quem era a Mercedes que inspirou o nome?",
+      "resposta": "Filha do empresário Emil Jellinek",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emil_Jellinek",
+        "https://en.wikipedia.org/wiki/Mercedes-Benz"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Mercedes-Benz",
+        "descricao": "Marca alemã de automóveis de luxo, nascida da fusão da Daimler com a Benz em 1926.",
+        "variantes": [
+          "Mercedes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mercedes-Benz"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A estrela de três pontas da Mercedes-Benz simboliza o uso dos motores da marca em quais três meios?",
+      "resposta": "Terra, mar e ar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mercedes-Benz"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Porsche",
+        "descricao": "Fabricante alemã de carros esportivos, sediada em Stuttgart e fundada por Ferdinand Porsche.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Porsche"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O cavalo empinado no centro do brasão da Porsche foi tirado do brasão de qual cidade alemã?",
+      "resposta": "Stuttgart",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Porsche"
+      ],
+      "distratores": [
+        "Munique",
+        "Berlim",
+        "Hamburgo"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "volvo",
+        "nome": "Volvo",
+        "descricao": "Fabricante sueca de automóveis fundada em 1927 em Gotemburgo.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volvo_Cars"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O emblema da Volvo, um círculo com uma seta apontada para cima e para a direita, é o antigo símbolo de qual metal?",
+      "resposta": "Ferro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volvo_Cars"
+      ],
+      "distratores": [
+        "Cobre",
+        "Ouro",
+        "Prata"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "draisiana",
+        "nome": "Draisiana",
+        "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
+        "variantes": [
+          "Máquina de correr",
+          "Dandy horse"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dandy_horse"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo uma hipótese difundida, Karl Drais criou sua máquina de correr por falta de cavalos, mortos de fome depois de qual fenômeno natural?",
+      "resposta": "Erupção do vulcão Tambora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dandy_horse"
+      ],
+      "distratores": [
+        "Terremoto de Lisboa",
+        "Erupção do Vesúvio",
+        "Grande enchente do Reno"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Michelin",
+        "descricao": "Fabricante francesa de pneus fundada em 1889 pelos irmãos André e Édouard Michelin.",
+        "variantes": [
+          "Bibendum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michelin"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O boneco feito de pneus da Michelin se chama Bibendum, palavra de um verso latino usado num anúncio antigo. O que ela quer dizer?",
+      "resposta": "Hora de beber",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bibendum"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "irmaos_wright",
+        "nome": "Irmãos Wright",
+        "descricao": "Orville e Wilbur Wright, americanos pioneiros da aviação com o Wright Flyer em 1903.",
+        "variantes": [
+          "Wright Brothers"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wright_brothers"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em dezembro de 1903, de que jeito os irmãos Wright decidiram qual dos dois faria a primeira tentativa de voo com o Flyer?",
+      "resposta": "Cara ou coroa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wright_Flyer"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Embraer",
+        "descricao": "Fabricante brasileira de aviões, criada em 1969.",
+        "variantes": [
+          "Empresa Brasileira de Aeronáutica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Embraer"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A Embraer, fabricante brasileira de aviões criada em 1969, tem sede em qual cidade paulista?",
+      "resposta": "São José dos Campos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Embraer"
+      ],
+      "distratores": [
+        "Campinas",
+        "Sorocaba",
+        "Ribeirão Preto"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "zepelim",
+        "nome": "Zepelim",
+        "descricao": "Tipo de dirigível rígido desenvolvido na Alemanha a partir do fim do século dezenove.",
+        "variantes": [
+          "Zeppelin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zeppelin"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Na zona oeste do Rio de Janeiro, que bairro guarda até hoje um hangar construído nos anos trinta para receber os zepelins alemães?",
+      "resposta": "Santa Cruz",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Hangar_do_Zeppelin",
+        "https://en.wikipedia.org/wiki/Santa_Cruz_Air_Force_Base"
+      ],
+      "distratores": [
+        "Jacarepaguá",
+        "Bangu",
+        "Barra da Tijuca"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "vasa",
+        "nome": "Vasa",
+        "descricao": "Navio de guerra sueco que afundou na viagem inaugural em 1628 e foi recuperado em 1961.",
+        "variantes": [
+          "Wasa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vasa_(ship)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O navio sueco Vasa passou mais de trezentos anos no fundo do mar, perto de Estocolmo, e saiu quase inteiro. Por que a madeira não foi devorada por vermes?",
+      "resposta": "Água pouco salgada do Báltico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vasa_(ship)"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Mayflower",
+        "descricao": "Navio inglês que levou os colonos conhecidos como peregrinos à América do Norte em 1620.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mayflower"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1620, o navio Mayflower levou os peregrinos ingleses à América do Norte. Em que atual estado americano eles se instalaram?",
+      "resposta": "Massachusetts",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mayflower"
+      ],
+      "distratores": [
+        "Virgínia",
+        "Nova York",
+        "Pensilvânia"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "gondola_veneziana",
+        "nome": "Gôndola veneziana",
+        "descricao": "Barco a remo tradicional de Veneza, longo e de fundo chato, conduzido por um gondoleiro em pé com um único remo.",
+        "variantes": [
+          "Gôndola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gondola"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição veneziana, por que quase todas as gôndolas de Veneza são pintadas de preto?",
+      "resposta": "Lei contra o luxo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gondola"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Faixa de pedestres de Abbey Road",
+        "descricao": "Faixa de pedestres da rua Abbey Road, em Londres, junto aos estúdios de gravação de mesmo nome.",
+        "variantes": [
+          "Abbey Road"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abbey_Road"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que banda britânica aparece atravessando uma faixa de pedestres de Londres na capa de um disco de 1969, imitada até hoje por turistas?",
+      "resposta": "The Beatles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abbey_Road"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "mao_inglesa",
+        "nome": "Mão inglesa",
+        "descricao": "Regra de trânsito em que os veículos circulam pelo lado esquerdo da via, como no Reino Unido.",
+        "variantes": [
+          "Circulação pela esquerda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Left-_and_right-hand_traffic"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Uma explicação tradicional para circular pela esquerda remonta aos cavaleiros medievais, quase todos destros. Por que eles preferiam esse lado?",
+      "resposta": "Deixar livre a mão da espada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Left-_and_right-hand_traffic"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "onibus",
+        "nome": "Ônibus",
+        "descricao": "Veículo rodoviário de grande porte para o transporte coletivo de passageiros.",
+        "variantes": [
+          "Autocarro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bus"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1662, que matemático e filósofo francês criou em Paris uma linha de carruagens coletivas com rotas e horários fixos, ancestral do ônibus?",
+      "resposta": "Blaise Pascal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carrosses_%C3%A0_cinq_sols",
+        "https://en.wikipedia.org/wiki/Blaise_Pascal"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "taxi",
+        "nome": "Táxi",
+        "descricao": "Automóvel de aluguel com motorista que leva passageiros e cobra pela corrida.",
+        "variantes": [
+          "Táxi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taxicab"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1915, o empresário John Hertz pintou de amarelo os táxis da sua empresa em Chicago, cor depois adotada em Nova York. Por que essa cor?",
+      "resposta": "É a mais fácil de ver de longe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/John_D._Hertz",
+        "https://en.wikipedia.org/wiki/Taxicabs_of_New_York_City"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Harley-Davidson",
+        "descricao": "Fabricante americana de motocicletas fundada em 1903 por William Harley e os irmãos Davidson.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Harley-Davidson"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1903, a fabricante de motocicletas Harley-Davidson foi fundada em qual cidade americana, onde mantém a sede?",
+      "resposta": "Milwaukee",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Harley-Davidson"
+      ],
+      "distratores": [
+        "Detroit",
+        "Chicago",
+        "Cleveland"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Rodovia Transamazônica",
+        "descricao": "Rodovia federal BR-230, aberta nos anos setenta para cruzar o Brasil do litoral nordestino à Amazônia.",
+        "variantes": [
+          "Transamazônica",
+          "BR-230"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trans-Amazonian_Highway"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A Transamazônica, aberta nos anos setenta para cortar o país rumo ao oeste, começa no litoral de qual estado do Nordeste?",
+      "resposta": "Paraíba",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trans-Amazonian_Highway",
+        "https://pt.wikipedia.org/wiki/BR-230"
+      ],
+      "distratores": [
+        "Ceará",
+        "Maranhão",
+        "Pernambuco"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Rota 66",
+        "descricao": "Antiga rodovia americana entre Chicago e Los Angeles, aberta em 1926 e símbolo das viagens de carro nos Estados Unidos.",
+        "variantes": [
+          "Route 66",
+          "U.S. Route 66"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/U.S._Route_66"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que animação da Pixar, de 2006, se passa numa cidadezinha esquecida à beira da Rota 66, chamada Radiator Springs?",
+      "resposta": "Carros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cars_(film)"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Rodovias federais do Brasil",
+        "descricao": "Sistema de estradas federais brasileiras identificadas pela sigla BR e por números de três algarismos.",
+        "variantes": [
+          "BRs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazilian_Highway_System"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Nas rodovias federais do Brasil, quando o número começa com zero, como na BR zero quarenta, isso indica que a estrada parte de qual cidade?",
+      "resposta": "Brasília",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazilian_Highway_System"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Aeroporto do Galeão",
+        "descricao": "Aeroporto internacional da Ilha do Governador, no Rio de Janeiro.",
+        "variantes": [
+          "Aeroporto Internacional Tom Jobim",
+          "Galeão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rio_de_Janeiro/Gale%C3%A3o_International_Airport"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O aeroporto internacional do Galeão, no Rio de Janeiro, recebeu oficialmente o nome de qual compositor?",
+      "resposta": "Tom Jobim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rio_de_Janeiro/Gale%C3%A3o_International_Airport"
+      ],
+      "distratores": [
+        "Vinicius de Moraes",
+        "Pixinguinha",
+        "Cartola"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "tunel_do_canal_da_mancha",
+        "nome": "Túnel do Canal da Mancha",
+        "descricao": "Túnel ferroviário submarino sob o Canal da Mancha que liga a Inglaterra à França, inaugurado em 1994.",
+        "variantes": [
+          "Eurotúnel",
+          "Channel Tunnel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Channel_Tunnel"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O túnel ferroviário sob o Canal da Mancha, entre a Inglaterra e a França, tem cerca de quantos quilômetros de extensão?",
+      "resposta": "Cinquenta quilômetros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Channel_Tunnel"
+      ],
+      "distratores": [
+        "Vinte quilômetros",
+        "Trinta quilômetros",
+        "Cem quilômetros"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "tunel_do_canal_da_mancha",
+        "nome": "Túnel do Canal da Mancha",
+        "descricao": "Túnel ferroviário submarino sob o Canal da Mancha que liga a Inglaterra à França, inaugurado em 1994.",
+        "variantes": [
+          "Eurotúnel",
+          "Channel Tunnel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Channel_Tunnel"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Sob o Canal da Mancha, além dos dois túneis por onde passam os trens, há um terceiro túnel menor entre eles. Para que ele serve?",
+      "resposta": "Manutenção e emergências",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Channel_Tunnel"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Ponte Rio-Niterói",
+        "descricao": "Ponte sobre a Baía de Guanabara que liga o Rio de Janeiro a Niterói, inaugurada em 1974.",
+        "variantes": [
+          "Ponte Presidente Costa e Silva"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Inaugurada em 1974 sobre a Baía de Guanabara, a ponte Rio-Niterói tem cerca de quantos quilômetros de extensão?",
+      "resposta": "Treze quilômetros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rio%E2%80%93Niter%C3%B3i_Bridge"
+      ],
+      "distratores": [
+        "Sete quilômetros",
+        "Vinte quilômetros",
+        "Trinta quilômetros"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "ford_modelo_t",
+        "nome": "Ford Modelo T",
+        "descricao": "Automóvel da Ford fabricado de 1908 a 1927, o primeiro carro produzido em massa em linha de montagem.",
+        "variantes": [
+          "Ford Bigode",
+          "Model T"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ford_Model_T"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O que aconteceu primeiro: o primeiro voo motorizado dos irmãos Wright ou o lançamento do Ford Modelo T?",
+      "resposta": "O voo dos irmãos Wright",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ford_Model_T",
+        "https://en.wikipedia.org/wiki/Wright_Flyer"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Metrô do Rio de Janeiro",
+        "descricao": "Sistema de metrô da cidade do Rio de Janeiro, inaugurado em 1979.",
+        "variantes": [
+          "MetrôRio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Metro"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes metrôs brasileiros foi inaugurado primeiro?",
+      "resposta": "Metrô do Rio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Metro",
+        "https://en.wikipedia.org/wiki/Recife_Metro",
+        "https://en.wikipedia.org/wiki/Federal_District_Metro"
+      ],
+      "distratores": [
+        "Metrô do Recife",
+        "Metrô de Belo Horizonte",
+        "Metrô de Brasília"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Spirit of St. Louis",
+        "descricao": "Monoplano em que Charles Lindbergh fez, em 1927, o primeiro voo solo sem escalas entre Nova York e Paris.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spirit_of_St._Louis"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1927, que aviador americano cruzou o Atlântico sozinho e sem escalas, de Nova York a Paris, no avião Spirit of St. Louis?",
+      "resposta": "Charles Lindbergh",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spirit_of_St._Louis",
+        "https://en.wikipedia.org/wiki/Charles_Lindbergh"
+      ],
+      "distratores": [
+        "Howard Hughes",
+        "Richard Byrd",
+        "Wiley Post"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "balao_de_ar_quente",
+        "nome": "Balão de ar quente",
+        "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+        "variantes": [
+          "Montgolfière"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hot_air_balloon"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O que aconteceu primeiro: o primeiro voo tripulado num balão de ar quente ou a primeira viagem de uma locomotiva a vapor sobre trilhos?",
+      "resposta": "O voo de balão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+        "https://en.wikipedia.org/wiki/Richard_Trevithick"
+      ]
+    }
+  ]
+}

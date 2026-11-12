@@ -1,0 +1,410 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, distratores críveis e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Belfast confirmada nas fontes; distratores são cidades portuárias críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A causa da angústia é apenas uma hipótese (a fonte diz 'pode ter causado') e o atestado registrou ataque cardíaco; o enunciado afirma como fato.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Segundo uma versão difundida, Santos Dumont ficou muito angustiado, em 1932, ao ver aviões em combate em qual conflito brasileiro?",
+        "resposta": "Revolução Constitucionalista",
+        "distratores": [
+          "Revolução de 1930",
+          "Guerra do Contestado",
+          "Coluna Prestes"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Alberto_Santos-Dumont"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A superfície frontal fazia o papel de profundor e de leme de direção; 'o leme' é ambíguo e impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do apelido sustentada pela fonte; resposta específica e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Herbie, Fusca branco com o número 53, confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O nome Concorde, harmonia, reflete o acordo franco-britânico; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frase introduzida em 1968 no metrô de Londres, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte é inexistente; fato conhecido, então troco por URL segura da Wikipédia.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Na tentativa francesa de abrir o Canal do Panamá, nos anos 1880, milhares de trabalhadores morreram principalmente de quais doenças?",
+        "resposta": "Malária e febre amarela",
+        "distratores": [
+          "Cólera e disenteria",
+          "Peste bubônica",
+          "Varíola e sarampo"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Panama_Canal"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ano 1999 confirmado, em múltipla com anos próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fechado por oito anos, de 1967 a 1975, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado da sigla confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Constantinopla é a atual Istambul, confirmado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que milhares de operários morreram por doenças e violência.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moonraker (007 Contra o Foguete da Morte) tem a luta de Jaws no bondinho.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A resposta cita o pai; o nome homenageia o idealizador Antônio de Lacerda, e as fontes divergem sobre o ano (1872 ou 1873); consertar vazaria o sobrenome.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma nomes inspirados em ventos e correntes.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O emblema é chamado de 'bowtie' nos EUA; a pt confirma o laço de borboleta.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Corolla vem do latim, diminutivo de coroa; coerente com a fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plantio denso favoreceu pragas e doenças como o fungo da folha; coerente com a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salário de cinco dólares em 1914 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ford foi engenheiro-chefe da Edison Illuminating Company de Detroit.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome em homenagem à filha de Emil Jellinek, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português confirma ar, terra e mar.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O cavalo vem do brasão de Stuttgart, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Símbolo alquímico do ferro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hipótese do Tambora e da fome de cavalos está na fonte e o enunciado a ressalva.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Hora de beber' traduz o verso inteiro, não só a palavra bibendum; o enunciado é impreciso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome Bibendum, do boneco de pneus da Michelin, vem de um verso latino de um anúncio antigo: nunc est bibendum. O que quer dizer o verso?",
+        "resposta": "Agora é hora de beber",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bibendum"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português confirma o cara ou coroa entre os irmãos.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sede em São José dos Campos confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hangar do Zeppelin fica em Santa Cruz, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Águas frias e salobras do Báltico sem o verme Teredo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Massachusetts confirmado, com distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Há duas tradições concorrentes (lei contra o luxo e luto pela peste), então a resposta não é única, e as fontes não sustentam.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capa de Abbey Road dos Beatles, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Deixar livre a mão da espada' não é o que a fonte diz: a espada na mão direita ficava voltada para quem vinha de frente.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Uma explicação tradicional para circular pela esquerda remonta aos cavaleiros medievais, quase todos destros. Por que eles preferiam esse lado?",
+        "resposta": "Espada voltada para quem passava",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Sentido_de_circula%C3%A7%C3%A3o_de_tr%C3%A1fego"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pascal e as carrosses à cinq sols em 1662 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hertz escolheu amarelo por ser a cor mais visível de longe, segundo a história documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundada e sediada em Milwaukee, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Começa em Cabedelo, na Paraíba, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carros (2006) passa em Radiator Springs, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rodovias 000 a 099 são radiais a partir de Brasília, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome Tom Jobim confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de 50 km confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Túnel de serviço para manutenção e evacuação de emergência, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de 13 km confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Voo de 1903 antes do Modelo T de 1908, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (Rio 1979 entre as opções), mas uma fonte é inexistente; mantenho as válidas.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destes metrôs brasileiros foi inaugurado primeiro?",
+        "resposta": "Metrô do Rio",
+        "distratores": [
+          "Metrô do Recife",
+          "Metrô de Belo Horizonte",
+          "Metrô de Brasília"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Rio_de_Janeiro_Metro",
+          "https://en.wikipedia.org/wiki/Recife_Metro"
+        ]
+      }
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lindbergh e o Spirit of St. Louis em 1927, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Balão tripulado em 1783 antecede a locomotiva de Trevithick em 1804.",
+      "reescrita": null
+    }
+  ]
+}
