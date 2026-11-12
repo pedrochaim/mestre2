@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'político venezuelano que sucedeu um líder após a morte dele' leva a Hugo Chávez sem olhar a figura; além disso, 'dele' é ambíguo e outros presidentes venezuelanos também sucederam após morte. Sem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ex-guerrilheiro' é pista que quase identifica Mujica sem a imagem. Removida; fato (posse em 1º de março de 2010) confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que ano este político uruguaio assumiu a presidência do seu país?",
+        "resposta": "2010",
+        "distratores": [
+          "2005",
+          "2008",
+          "2013"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Marechal francês que chefiou regime na Segunda Guerra' entrega Vichy sem a figura. Troquei por pergunta de reconhecimento seguido de fato: a batalha que deu fama a ele na Primeira Guerra (Verdun, citada no trecho como 'Leão de Verdun').",
+      "reescrita": {
+        "pergunta": "Que batalha da Primeira Guerra Mundial deu fama a este marechal francês?",
+        "resposta": "Verdun",
+        "distratores": [
+          "Marne",
+          "Somme",
+          "Ypres"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Monarca britânico que sucedeu a mãe, uma rainha' entrega Elizabeth II sem olhar a figura; a imagem vira enfeite.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Imperador que mandou matar o irmão para governar sozinho' entrega Geta sem a imagem. Troquei por pergunta sobre a dinastia, que exige reconhecer o imperador (trechos: dinastia dos Severos).",
+      "reescrita": {
+        "pergunta": "A que dinastia romana pertencia este imperador, que governou no começo do século três?",
+        "resposta": "Dinastia dos Severos",
+        "distratores": [
+          "Júlio-Cláudia",
+          "Flávia",
+          "Constantiniana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, sem pistas, distratores do mesmo tipo e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, sem pistas; distratores são papas, críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Governo que ele chefiou em 1917 depois da queda do czar' permite responder Governo Provisório sem a figura; o fato é a definição do personagem, sem ângulo alternativo fácil.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega o povo, pois há muitos líderes indígenas guerreiros; resposta Apache sustentada pelos trechos; distratores críveis e curtos.",
+      "reescrita": null
+    }
+  ]
+}

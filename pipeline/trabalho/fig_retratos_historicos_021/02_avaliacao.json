@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que líder este político venezuelano sucedeu na presidência do país, após a morte dele?",
+      "resposta": "Hugo Chávez",
+      "distratores": [
+        "Carlos Andrés Pérez",
+        "Rafael Caldera",
+        "Rómulo Betancourt"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Nicolás Maduro",
+        "descricao": "Político venezuelano, presidente da Venezuela de 2013 até sua captura em 2026.",
+        "variantes": [
+          "Maduro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este político uruguaio, ex-guerrilheiro, assumiu a presidência do seu país?",
+      "resposta": "2010",
+      "distratores": [
+        "2005",
+        "2008",
+        "2013"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "José Mujica",
+        "descricao": "Político uruguaio, ex-guerrilheiro tupamaro e presidente do Uruguai de 2010 a 2015.",
+        "variantes": [
+          "Pepe Mujica",
+          "José Alberto Mujica Cordano"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, sem texto; reconhecível pelo quepe de marechal.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que regime francês este marechal chefiou durante a Segunda Guerra Mundial?",
+      "resposta": "França de Vichy",
+      "distratores": [
+        "França Livre",
+        "Quarta República",
+        "Segundo Império"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Philippe Pétain",
+        "descricao": "Marechal francês, herói de Verdun na Primeira Guerra e chefe do regime colaboracionista de Vichy.",
+        "variantes": [
+          "Marechal Pétain",
+          "Henri Philippe Pétain"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que rainha, mãe deste monarca, ele sucedeu no trono britânico?",
+      "resposta": "Elizabeth II",
+      "distratores": [
+        "Rainha Vitória",
+        "Rainha Ana",
+        "Elizabeth I"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Rei Charles III",
+        "descricao": "Rei do Reino Unido desde 2022, filho de Elizabeth II.",
+        "variantes": [
+          "Carlos III",
+          "Charles III do Reino Unido"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Miniatura otomana sem inscrição, parecida com outros retratos de sultões; identificação não é única só pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Busto de mármore nítido e muito reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que irmão deste imperador romano foi morto para que ele governasse sozinho?",
+      "resposta": "Geta",
+      "distratores": [
+        "Cômodo",
+        "Lúcio Vero",
+        "Domiciano"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Caracala",
+        "descricao": "Imperador romano da dinastia dos Severos, de 198 a 217 d.C., autor da Constituição Antonina.",
+        "variantes": [
+          "Caracalla",
+          "Marco Aurélio Antonino"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto (só uma borda de bandeira).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que político francês é este?",
+      "resposta": "Emmanuel Macron",
+      "distratores": [
+        "François Hollande",
+        "Nicolas Sarkozy",
+        "Jacques Chirac"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Emmanuel Macron",
+        "descricao": "Político francês, presidente da França desde 2017.",
+        "variantes": [
+          "Macron"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A legenda 'Sir Douglas Haig' aparece escrita no alto da foto e entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que papa é este?",
+      "resposta": "Papa Francisco",
+      "distratores": [
+        "Bento XVI",
+        "João Paulo II",
+        "João XXIII"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Papa Francisco",
+        "descricao": "Jorge Mario Bergoglio, papa da Igreja Católica de 2013 a 2025, primeiro papa latino-americano.",
+        "variantes": [
+          "Francisco",
+          "Jorge Mario Bergoglio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Busto de guerreiro com elmo cuja identificação como Leônidas é hipotética; a imagem não permite resposta única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto, rosto claro; pergunta de múltipla escolha deixa a questão justa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que governo este político russo chefiou em 1917, depois da queda do czar?",
+      "resposta": "Governo Provisório",
+      "distratores": [
+        "Duma Imperial",
+        "Conselho dos Comissários",
+        "Assembleia Constituinte"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Alexander Kerensky",
+        "descricao": "Político e advogado russo, chefe do Governo Provisório da Rússia em 1917.",
+        "variantes": [
+          "Aleksandr Kerenski",
+          "Alexandre Kerenski"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica icônica, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "A que povo indígena norte-americano pertencia este líder guerreiro?",
+      "resposta": "Apache",
+      "distratores": [
+        "Sioux",
+        "Comanche",
+        "Cheyenne"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Gerônimo",
+        "descricao": "Líder militar e curandeiro apache bedonkohe, que lutou contra o México e os Estados Unidos no século dezenove.",
+        "variantes": [
+          "Geronimo",
+          "Goyaałé"
+        ]
+      }
+    }
+  ]
+}
