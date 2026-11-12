@@ -1,0 +1,245 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tandem reconhecível; texto 'Sosnowiec' não entrega a resposta.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "As primeiras patentes deste tipo de bicicleta surgiram em que década?",
+      "resposta": "Década de 1880",
+      "distratores": [
+        "Década de 1850",
+        "Década de 1910",
+        "Década de 1930"
+      ],
+      "ancora": {
+        "nome": "Bicicleta tandem",
+        "descricao": "Bicicleta projetada para ser pedalada por mais de uma pessoa, uma atrás da outra.",
+        "variantes": [
+          "Tandem",
+          "Bicicleta para dois"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Caça furtivo F-22 reconhecível pelo formato; imagem clara.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este caça furtivo americano entrou em serviço na Força Aérea dos Estados Unidos?",
+      "resposta": "2005",
+      "distratores": [
+        "2001",
+        "2003",
+        "2008"
+      ],
+      "ancora": {
+        "nome": "F-22 Raptor",
+        "descricao": "Caça furtivo bimotor de superioridade aérea da Lockheed Martin e Boeing, usado pela Força Aérea dos EUA.",
+        "variantes": [
+          "Lockheed Martin F-22 Raptor",
+          "F-22A"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Transatlântico Queen Elizabeth 2 bem visível; 'Cunard' não entrega o navio.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que década este transatlântico britânico começou a navegar?",
+      "resposta": "Década de 1960",
+      "ancora": {
+        "nome": "Queen Elizabeth 2",
+        "descricao": "Transatlântico britânico da Cunard Line, em operação de 1969 a 2008.",
+        "variantes": [
+          "QE2",
+          "Queen Elizabeth II"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Petroleiro de grande porte com convés longo e tubulações, claro e sem texto legível. Família trocada para o_que_e, mais adequada ao nível 1.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de navio é este?",
+      "resposta": "Navio petroleiro",
+      "ancora": {
+        "nome": "Navio petroleiro",
+        "descricao": "Navio projetado para o transporte a granel de petróleo ou de seus derivados.",
+        "variantes": [
+          "Petroleiro",
+          "Navio-petroleiro",
+          "Oil tanker"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tesla Model S nítido, sem placa nem texto entregando a resposta.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que designer desenhou o exterior do modelo de produção deste carro elétrico?",
+      "resposta": "Franz von Holzhausen",
+      "ancora": {
+        "nome": "Tesla Model S",
+        "descricao": "Sedã elétrico de quatro portas produzido pela Tesla a partir de 2012.",
+        "variantes": [
+          "Model S"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Porsche 917 em corrida, reconhecível; patrocinadores e número não entregam o modelo. Família trocada para o_que_e para evitar resposta que é ano.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modelo de carro de corrida é este?",
+      "resposta": "Porsche 917",
+      "ancora": {
+        "nome": "Porsche 917",
+        "descricao": "Protótipo esportivo de corrida da Porsche, vencedor das 24 Horas de Le Mans em 1970 e 1971.",
+        "variantes": [
+          "917",
+          "Porsche 917K"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Colheitadeira clara; a marca Claas visível impede perguntar o fabricante, então família trocada para o_que_e em múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que máquina agrícola é esta?",
+      "resposta": "Colheitadeira",
+      "distratores": [
+        "Ensiladeira",
+        "Plantadeira",
+        "Escavadeira"
+      ],
+      "ancora": {
+        "nome": "Colheitadeira",
+        "descricao": "Máquina agrícola que reúne ceifa, debulha e limpeza dos grãos numa só operação.",
+        "variantes": [
+          "Ceifeira-debulhadora",
+          "Combine"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "B-52 em vista superior, com oito motores em casulos, inconfundível. Família trocada para o_que_e para evitar ano.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que bombardeiro estratégico americano é este?",
+      "resposta": "Boeing B-52 Stratofortress",
+      "ancora": {
+        "nome": "Boeing B-52 Stratofortress",
+        "descricao": "Bombardeiro estratégico a jato oito motores da Boeing, em serviço na Força Aérea dos EUA desde 1955.",
+        "variantes": [
+          "B-52",
+          "B-52 Stratofortress",
+          "BUFF"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lamborghini Miura nítido; sem texto que entregue o fabricante (emblema minúsculo).",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fabricante italiano produziu este esportivo?",
+      "resposta": "Lamborghini",
+      "distratores": [
+        "Ferrari",
+        "Maserati",
+        "De Tomaso"
+      ],
+      "ancora": {
+        "nome": "Lamborghini Miura",
+        "descricao": "Esportivo italiano da Lamborghini produzido de 1966 a 1973, primeiro de série com motor central traseiro.",
+        "variantes": [
+          "Miura",
+          "Lamborghini Miura P400"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoas comuns visíveis ao fundo e marca d'água/crédito 'somiz.livejournal.com' na lateral; o buggy não é o único foco."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Boeing 777 reconhecível (motores grandes, trem de pouso de seis rodas); 'United' não entrega o fabricante.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que empresa fabrica este avião de longa distância?",
+      "resposta": "Boeing",
+      "ancora": {
+        "nome": "Boeing 777",
+        "descricao": "Avião comercial bimotor de grande porte e longo alcance da Boeing, em serviço desde 1995.",
+        "variantes": [
+          "777",
+          "Triple Seven",
+          "B777"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cruzador preservado com três chaminés às margens do rio; sem texto legível que entregue o nome.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, o tiro deste cruzador deu o sinal para qual acontecimento de 1917?",
+      "resposta": "Assalto ao Palácio de Inverno",
+      "distratores": [
+        "Domingo Sangrento",
+        "Motim do Potemkin",
+        "Coroação de Nicolau II"
+      ],
+      "ancora": {
+        "nome": "Cruzador Aurora",
+        "descricao": "Cruzador protegido russo, hoje navio-museu em São Petersburgo, ligado à Revolução de Outubro.",
+        "variantes": [
+          "Aurora",
+          "Avrora"
+        ]
+      }
+    }
+  ]
+}

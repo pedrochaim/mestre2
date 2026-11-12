@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que as patentes datam de meados da década de 1880. O enunciado não nomeia o veículo e os distratores são décadas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que o F-22 entrou em serviço formalmente em dezembro de 2005. O ano é pedido em múltipla escolha e os distratores são anos próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dão 1969 como o início da operação e da viagem inaugural. Resposta em década pode ser aberta, e o enunciado não entrega o navio.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento (nível 1) sem pista no enunciado. A resposta é única e sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Franz von Holzhausen desenhou o exterior do Model S de produção. O enunciado diz apenas 'carro elétrico', então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1 sem vazamento. A resposta é única e consta nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma colheitadeira como máquina de colheita agrícola. O enunciado não dá pista. Escavadeira é um distrator fraco, mas os três distratores são máquinas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam bombardeiro estratégico americano. A pista 'bombardeiro estratégico americano' não identifica o B-52 sozinha.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Lamborghini produziu o Miura. O enunciado só diz 'esportivo italiano', e os distratores são fabricantes italianos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Boeing desenvolveu e fabrica o 777. A pista 'longa distância' não entrega a empresa.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O 'tiro de um cruzador em 1917' é um feito único e famoso: dá para responder sem ver a figura, que vira enfeite. Troquei por um fato que exige reconhecer o navio, a cidade onde ele é museu, e que os trechos sustentam.",
+      "reescrita": {
+        "pergunta": "Este cruzador, que hoje funciona como navio-museu, está ancorado em que cidade?",
+        "resposta": "São Petersburgo",
+        "distratores": [
+          "Moscou",
+          "Vladivostok",
+          "Sebastopol"
+        ]
+      }
+    }
+  ]
+}

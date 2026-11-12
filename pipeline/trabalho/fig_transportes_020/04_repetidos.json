@@ -1,0 +1,71 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de navio é este?",
+        "resposta": "Navio petroleiro"
+      },
+      "existentes": [
+        {
+          "id": "q20705",
+          "pergunta": "Que carga este navio transporta em grandes quantidades?",
+          "resposta": "Petróleo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que modelo de carro de corrida é este?",
+        "resposta": "Porsche 917"
+      },
+      "existentes": [
+        {
+          "id": "q14968",
+          "pergunta": "Que modelo de carro de corrida alemão, da virada dos anos sessenta para os setenta, é este?",
+          "resposta": "Porsche 917"
+        },
+        {
+          "id": "q20492",
+          "pergunta": "No filme Le Mans, de 1971, qual astro de Hollywood, também piloto amador, interpreta um corredor que guia um Porsche 917?",
+          "resposta": "Steve McQueen"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este cruzador, que hoje funciona como navio-museu, está ancorado em que cidade?",
+        "resposta": "São Petersburgo"
+      },
+      "existentes": [
+        {
+          "id": "q20649",
+          "pergunta": "Que cruzador russo, hoje navio-museu em São Petersburgo, é este?",
+          "resposta": "Aurora"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q20705",
+      "motivo": "Ambas levam a identificar o navio como petroleiro (carga de petróleo); saber um implica saber o outro."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14968",
+      "motivo": "Mesma pergunta de identificar o modelo do carro, resposta Porsche 917."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q20649",
+      "motivo": "A existente já informa que o cruzador é navio-museu em São Petersburgo; a nova pergunta a cidade, fato já dado na existente, então o mesmo fato (Aurora em São Petersburgo)."
+    }
+  ]
+}

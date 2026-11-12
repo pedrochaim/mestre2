@@ -1,0 +1,692 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bicicleta tandem",
+        "descricao": "Bicicleta projetada para ser pedalada por mais de uma pessoa, uma atrás da outra.",
+        "variantes": [
+          "Tandem",
+          "Bicicleta para dois"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tande",
+          "nome": "Tande",
+          "descricao": "Alexandre Samuel, ex-jogador brasileiro de vôlei, campeão olímpico em Barcelona 1992 e hoje comentarista de TV.",
+          "variantes": [
+            "Alexandre Ramos Samuel",
+            "Alexandre Samuel"
+          ]
+        },
+        {
+          "id": "tandemaus",
+          "nome": "Tandemaus",
+          "descricao": "Pokémon do tipo Normal, número 924 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "cordilheira_dos_andes",
+          "nome": "Cordilheira dos Andes",
+          "descricao": "Cadeia de montanhas que percorre todo o oeste da América do Sul, da Venezuela à Patagônia.",
+          "variantes": [
+            "Andes",
+            "Cordillera de los Andes"
+          ]
+        },
+        {
+          "id": "leon",
+          "nome": "Leon",
+          "descricao": "Campeão da Liga Pokémon de Galar nos jogos Sword e Shield, adversário de Ash na final do Mundial no anime Jornadas Pokémon.",
+          "variantes": [
+            "Dande"
+          ]
+        },
+        {
+          "id": "bicicleta_pokemon",
+          "nome": "Bicicleta (Pokémon)",
+          "descricao": "Meio de transporte do jogador nos jogos Pokémon, que permite andar mais rápido que a pé.",
+          "variantes": [
+            "Bicycle",
+            "Bike"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "F-22 Raptor",
+        "descricao": "Caça furtivo bimotor de superioridade aérea da Lockheed Martin e Boeing, usado pela Força Aérea dos EUA.",
+        "variantes": [
+          "Lockheed Martin F-22 Raptor",
+          "F-22A"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toronto_raptors",
+          "nome": "Toronto Raptors",
+          "descricao": "Franquia canadense da NBA, sediada em Toronto e fundada em 1995.",
+          "variantes": [
+            "Raptors"
+          ]
+        },
+        {
+          "id": "eoraptor",
+          "nome": "Eoraptor",
+          "descricao": "Gênero de pequeno dinossauro primitivo do Triássico de Ischigualasto, na Argentina.",
+          "variantes": [
+            "Eoraptor lunensis"
+          ]
+        },
+        {
+          "id": "luneta_telescopio_refrator",
+          "nome": "Luneta (telescópio refrator)",
+          "descricao": "Telescópio óptico que usa uma lente como objetiva para formar a imagem.",
+          "variantes": [
+            "Telescópio refrator",
+            "Refrator"
+          ]
+        },
+        {
+          "id": "starly_de_ash",
+          "nome": "Starly de Ash",
+          "descricao": "Starly de Ash Ketchum no anime Pokémon, capturado em Sinnoh, que evolui para Staravia e depois para Staraptor.",
+          "variantes": [
+            "Staraptor de Ash",
+            "Ash's Staraptor"
+          ]
+        },
+        {
+          "id": "oviraptor",
+          "nome": "Oviraptor",
+          "descricao": "Gênero de pequeno dinossauro terópode do Cretáceo da Mongólia, encontrado sobre um ninho de ovos.",
+          "variantes": [
+            "Oviraptor philoceratops"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Queen Elizabeth 2",
+        "descricao": "Transatlântico britânico da Cunard Line, em operação de 1969 a 2008.",
+        "variantes": [
+          "QE2",
+          "Queen Elizabeth II"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elizabeth_ii",
+          "nome": "Elizabeth II",
+          "descricao": "Rainha do Reino Unido de 1952 a 2022, que serviu no Serviço Territorial Auxiliar no fim da Segunda Guerra.",
+          "variantes": [
+            "Isabel II",
+            "Rainha Elizabeth"
+          ]
+        },
+        {
+          "id": "elizabeth_i",
+          "nome": "Elizabeth I",
+          "descricao": "Rainha da Inglaterra de 1558 a 1603, última monarca da dinastia Tudor.",
+          "variantes": [
+            "Isabel I",
+            "Elizabeth I da Inglaterra",
+            "Rainha Virgem",
+            "Isabel I da Inglaterra"
+          ]
+        },
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth",
+            "Great Bell"
+          ]
+        },
+        {
+          "id": "peixe_anjo_rainha",
+          "nome": "Peixe-anjo-rainha",
+          "descricao": "Peixe-anjo de recifes do Atlântico ocidental (Holacanthus ciliaris), azul e amarelo, com uma mancha em forma de coroa na testa.",
+          "variantes": [
+            "Holacanthus ciliaris",
+            "Queen angelfish",
+            "Peixe-anjo-azul"
+          ]
+        },
+        {
+          "id": "abelha_rainha",
+          "nome": "Abelha-rainha",
+          "descricao": "Fêmea fértil e reprodutora de uma colônia de abelhas-europeias.",
+          "variantes": [
+            "Rainha",
+            "Queen bee"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Navio petroleiro",
+        "descricao": "Navio projetado para o transporte a granel de petróleo ou de seus derivados.",
+        "variantes": [
+          "Petroleiro",
+          "Oil tanker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "navio_petroleiro",
+          "nome": "Navio petroleiro",
+          "descricao": "Navio projetado para o transporte a granel de petróleo bruto ou de seus derivados.",
+          "variantes": [
+            "Petroleiro",
+            "Navio-tanque"
+          ]
+        },
+        {
+          "id": "petroleo",
+          "nome": "Petróleo",
+          "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+          "variantes": [
+            "Petroleum",
+            "Óleo cru"
+          ]
+        },
+        {
+          "id": "o_navio_negreiro",
+          "nome": "O Navio Negreiro",
+          "descricao": "Poema abolicionista de Castro Alves, de 1868, que cita a bandeira brasileira como auriverde pendão.",
+          "variantes": [
+            "Navio Negreiro",
+            "Tragédia no Mar"
+          ]
+        },
+        {
+          "id": "navio_negreiro",
+          "nome": "Navio negreiro",
+          "descricao": "Navio usado no tráfico atlântico para transportar africanos escravizados até as Américas.",
+          "variantes": [
+            "Tumbeiro"
+          ]
+        },
+        {
+          "id": "petrolina",
+          "nome": "Petrolina",
+          "descricao": "Cidade do sertão de Pernambuco, polo de fruticultura irrigada, vizinha de Juazeiro, na Bahia.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tesla Model S",
+        "descricao": "Sedã elétrico de quatro portas produzido pela Tesla a partir de 2012.",
+        "variantes": [
+          "Model S"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ford_modelo_t",
+          "nome": "Ford Modelo T",
+          "descricao": "Automóvel da Ford fabricado de 1908 a 1927, o primeiro carro produzido em massa em linha de montagem.",
+          "variantes": [
+            "Ford Model T",
+            "Ford Bigode",
+            "Tin Lizzie",
+            "Model T"
+          ]
+        },
+        {
+          "id": "rgb",
+          "nome": "RGB",
+          "descricao": "Modelo de cores aditivo em que luzes vermelha, verde e azul se combinam para formar as cores exibidas em telas.",
+          "variantes": [
+            "Modelo RGB",
+            "RGB color model",
+            "Cores primárias da luz"
+          ]
+        },
+        {
+          "id": "bobina_de_tesla",
+          "nome": "Bobina de Tesla",
+          "descricao": "Transformador ressonante que gera alta tensão e alta frequência, projetado por Nikola Tesla em 1891.",
+          "variantes": [
+            "Tesla coil",
+            "Transformador de Tesla"
+          ]
+        },
+        {
+          "id": "argentina_x_inglaterra_na_copa_de_1986",
+          "nome": "Argentina x Inglaterra na Copa de 1986",
+          "descricao": "Partida da Copa do Mundo de 1986 em que Maradona marcou o gol de mão e o chamado Gol do Século.",
+          "variantes": [
+            "Mão de Deus",
+            "La mano de Dios",
+            "Argentina 2 x 1 Inglaterra",
+            "Gol da Mão de Deus"
+          ]
+        },
+        {
+          "id": "moises_michelangelo",
+          "nome": "Moisés (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, na Basílica de San Pietro in Vincoli, em Roma, feita para o túmulo do papa Júlio II.",
+          "variantes": [
+            "Moisés de Michelangelo",
+            "Moses"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Porsche 917",
+        "descricao": "Protótipo esportivo de corrida da Porsche, vencedor das 24 Horas de Le Mans em 1970 e 1971.",
+        "variantes": [
+          "917",
+          "Porsche 917K"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porsche_917",
+          "nome": "Porsche 917",
+          "descricao": "Protótipo de corrida da Porsche, com motor de doze cilindros, vencedor das 24 Horas de Le Mans de 1970 e 1971.",
+          "variantes": [
+            "917"
+          ]
+        },
+        {
+          "id": "porsche_911",
+          "nome": "Porsche 911",
+          "descricao": "Carro esportivo da fabricante alemã Porsche, produzido desde 1964, com motor traseiro.",
+          "variantes": [
+            "Nove-onze",
+            "Porsche 901",
+            "Porsche Nove Onze"
+          ]
+        },
+        {
+          "id": "1917_filme",
+          "nome": "1917 (filme)",
+          "descricao": "Filme britânico de guerra de 2019 sobre dois soldados que atravessam o front para entregar uma mensagem, filmado para parecer um plano contínuo.",
+          "variantes": [
+            "1917"
+          ]
+        },
+        {
+          "id": "porsche_956",
+          "nome": "Porsche 956",
+          "descricao": "Protótipo de corridas de resistência do Grupo C construído pela Porsche em 1982.",
+          "variantes": [
+            "956"
+          ]
+        },
+        {
+          "id": "lotus_97t",
+          "nome": "Lotus 97T",
+          "descricao": "Carro de Fórmula 1 da Team Lotus usado na temporada de 1985.",
+          "variantes": [
+            "97T"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Colheitadeira",
+        "descricao": "Máquina agrícola que reúne ceifa, debulha e limpeza dos grãos numa só operação.",
+        "variantes": [
+          "Ceifeira-debulhadora",
+          "Combine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boleadeira",
+          "nome": "Boleadeira",
+          "descricao": "Arma de caça formada por pesos nas pontas de cordas ligadas, arremessada para enredar as pernas dos animais, típica dos gaúchos.",
+          "variantes": [
+            "Boleadora",
+            "Bolas"
+          ]
+        },
+        {
+          "id": "combee",
+          "nome": "Combee",
+          "descricao": "Pokémon abelha dos tipos Inseto e Voador, formado por três favos, número 415 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "zombie",
+          "nome": "Zombie",
+          "descricao": "Canção da banda irlandesa The Cranberries lançada em 1994",
+          "variantes": []
+        },
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        },
+        {
+          "id": "cobi",
+          "nome": "Cobi",
+          "descricao": "Mascote dos Jogos Olímpicos de Barcelona 1992, um cão pastor-catalão desenhado em estilo cubista.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Boeing B-52 Stratofortress",
+        "descricao": "Bombardeiro estratégico a jato oito motores da Boeing, em serviço na Força Aérea dos EUA desde 1955.",
+        "variantes": [
+          "B-52",
+          "B-52 Stratofortress",
+          "BUFF"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "b_29_superfortress",
+          "nome": "B-29 Superfortress",
+          "descricao": "Bombardeiro pesado quadrimotor americano da Boeing, usado na Segunda Guerra Mundial, que lançou as bombas atômicas sobre o Japão.",
+          "variantes": [
+            "Boeing B-29",
+            "B-29",
+            "Superfortaleza"
+          ]
+        },
+        {
+          "id": "gola_rufo",
+          "nome": "Gola rufo",
+          "descricao": "Gola franzida e engomada, redonda, usada na Europa entre meados do século XVI e meados do XVII.",
+          "variantes": [
+            "Rufo",
+            "Gorgeira",
+            "Ruff"
+          ]
+        },
+        {
+          "id": "bristol_f_2_fighter",
+          "nome": "Bristol F.2 Fighter",
+          "descricao": "Biplano britânico de dois lugares, caça e reconhecimento, da Primeira Guerra Mundial, projetado por Frank Barnwell.",
+          "variantes": [
+            "Bristol Fighter",
+            "Brisfit",
+            "Biff",
+            "Bristol F.2B"
+          ]
+        },
+        {
+          "id": "regalo",
+          "nome": "Regalo",
+          "descricao": "Acessório cilíndrico de pele ou tecido, aberto nas duas pontas, em que se enfiam as mãos para aquecê-las.",
+          "variantes": [
+            "Regalo (agasalho de mãos)",
+            "Regalo de pele",
+            "Muff",
+            "Agasalho de mãos"
+          ]
+        },
+        {
+          "id": "boeing_b_17_flying_fortress",
+          "nome": "Boeing B-17 Flying Fortress",
+          "descricao": "Bombardeiro pesado americano de quatro motores da Segunda Guerra Mundial, fabricado pela Boeing.",
+          "variantes": [
+            "B-17",
+            "Fortaleza Voadora"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lamborghini Miura",
+        "descricao": "Esportivo italiano da Lamborghini produzido de 1966 a 1973, primeiro de série com motor central traseiro.",
+        "variantes": [
+          "Miura",
+          "Lamborghini Miura P400"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santo_crisma",
+          "nome": "Santo crisma",
+          "descricao": "Óleo consagrado usado em ritos cristãos como o batismo, a crisma e a ordenação",
+          "variantes": [
+            "Crisma (óleo)",
+            "Óleo do crisma",
+            "Chrism",
+            "Mirão"
+          ]
+        },
+        {
+          "id": "iurta",
+          "nome": "Iurta",
+          "descricao": "Tenda redonda portátil, coberta de feltro, usada por nômades das estepes da Ásia.",
+          "variantes": [
+            "Yurt",
+            "Ger"
+          ]
+        },
+        {
+          "id": "lamborghini_diablo",
+          "nome": "Lamborghini Diablo",
+          "descricao": "Superesportivo V12 de motor central produzido pela Lamborghini de 1990 a 2001.",
+          "variantes": [
+            "Diablo",
+            "Diablo GT"
+          ]
+        },
+        {
+          "id": "ikura",
+          "nome": "Ikura",
+          "descricao": "Ovas de salmão curadas, de cor vermelho-alaranjada, usadas na culinária japonesa.",
+          "variantes": [
+            "Caviar vermelho",
+            "Ova de salmão"
+          ]
+        },
+        {
+          "id": "moray",
+          "nome": "Moray",
+          "descricao": "Sítio arqueológico inca com terraços circulares concêntricos, perto de Cusco, no Peru.",
+          "variantes": [
+            "Muray"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Boeing 777",
+        "descricao": "Avião comercial bimotor de grande porte e longo alcance da Boeing, em serviço desde 1995.",
+        "variantes": [
+          "777",
+          "Triple Seven",
+          "B777"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boeing_747",
+          "nome": "Boeing 747",
+          "descricao": "Avião a jato de grande porte da Boeing, com uma corcunda característica na parte dianteira.",
+          "variantes": [
+            "Jumbo",
+            "Jumbo Jet"
+          ]
+        },
+        {
+          "id": "boeing_707",
+          "nome": "Boeing 707",
+          "descricao": "Avião a jato quadrimotor de longo alcance da Boeing, voou pela primeira vez em 1957 e abriu a era dos jatos comerciais.",
+          "variantes": [
+            "707",
+            "Boeing 707-320C"
+          ]
+        },
+        {
+          "id": "triplice_entente",
+          "nome": "Tríplice Entente",
+          "descricao": "Entendimento entre três grandes potências europeias, formado antes da Primeira Guerra Mundial, que se opôs às Potências Centrais.",
+          "variantes": [
+            "Triple Entente",
+            "Entente"
+          ]
+        },
+        {
+          "id": "b_29_superfortress",
+          "nome": "B-29 Superfortress",
+          "descricao": "Bombardeiro pesado quadrimotor americano da Boeing, usado na Segunda Guerra Mundial, que lançou as bombas atômicas sobre o Japão.",
+          "variantes": [
+            "Boeing B-29",
+            "B-29",
+            "Superfortaleza"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Cruzador Aurora",
+        "descricao": "Cruzador protegido russo, hoje navio-museu em São Petersburgo, ligado à Revolução de Outubro.",
+        "variantes": [
+          "Aurora",
+          "Avrora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aurora_polar",
+          "nome": "Aurora polar",
+          "descricao": "Fenômeno luminoso no céu das regiões polares, chamado de aurora boreal no norte e de aurora austral no sul.",
+          "variantes": [
+            "Aurora boreal",
+            "Aurora austral",
+            "Aurora"
+          ]
+        },
+        {
+          "id": "cruzador_aurora",
+          "nome": "Cruzador Aurora",
+          "descricao": "Cruzador russo preservado como navio-museu em São Petersburgo, ligado à Revolução de Outubro.",
+          "variantes": [
+            "Aurora",
+            "Avrora"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "aurorus",
+          "nome": "Aurorus",
+          "descricao": "Pokémon dos tipos Pedra e Gelo, número 699 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "aorta",
+          "nome": "Aorta",
+          "descricao": "Artéria principal do corpo, que sai do ventrículo esquerdo do coração.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bicicleta tandem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o caça F-22."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O transatlântico é diferente da rainha e das demais candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "navio_petroleiro",
+      "motivo": "Mesma entidade: navio de transporte de petróleo, com descrição equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Tesla Model S."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "porsche_917",
+      "motivo": "Mesmo protótipo da Porsche, vencedor de Le Mans em 1970 e 1971."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a colheitadeira."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "B-52 é diferente do B-29 e do B-17."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Lamborghini Miura; o Diablo é outro modelo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Boeing 777 é diferente do 747 e do 707."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "cruzador_aurora",
+      "motivo": "Mesmo cruzador russo, navio-museu em São Petersburgo."
+    }
+  ]
+}
