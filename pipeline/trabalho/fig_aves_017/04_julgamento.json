@@ -1,0 +1,644 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bicudo",
+        "descricao": "Pássaro Sporophila maximiliani, de bico grosso e claro nos machos, da família Thraupidae.",
+        "variantes": [
+          "Bicudo-verdadeiro",
+          "Great-billed seed finch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bicudo_do_algodoeiro",
+          "nome": "Bicudo-do-algodoeiro",
+          "descricao": "Besouro Anthonomus grandis, da família Curculionidae, grave praga do algodão.",
+          "variantes": [
+            "Boll weevil",
+            "Anthonomus grandis",
+            "Bicudo"
+          ]
+        },
+        {
+          "id": "cudo",
+          "nome": "Cudo",
+          "descricao": "Grande antílope de savanas arborizadas (Tragelaphus strepsiceros) do leste e do sul da África, com chifres espiralados.",
+          "variantes": [
+            "Cudo-maior",
+            "Greater kudu",
+            "Tragelaphus strepsiceros"
+          ]
+        },
+        {
+          "id": "lirio",
+          "nome": "Lírio",
+          "descricao": "Flor do gênero Lilium, de pétalas grandes que crescem de bulbos.",
+          "variantes": [
+            "Lilium",
+            "Lírio verdadeiro"
+          ]
+        },
+        {
+          "id": "curio",
+          "nome": "Curió",
+          "descricao": "Pássaro canoro (Sporophila angolensis) de cabeça preta e ventre castanho, da América do Sul.",
+          "variantes": [
+            "Sporophila angolensis",
+            "Chestnut-bellied seed finch"
+          ]
+        },
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Gaturamo-verdadeiro",
+        "descricao": "Pássaro Euphonia violacea, de testa amarela, dorso azul-violáceo e ventre amarelo, da América do Sul oriental.",
+        "variantes": [
+          "Violaceous euphonia",
+          "Gaturamo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        },
+        {
+          "id": "gauro",
+          "nome": "Gauro",
+          "descricao": "Maior bovino selvagem (Bos gaurus), nativo do subcontinente indiano e do Sudeste Asiático.",
+          "variantes": [
+            "Bisão-indiano",
+            "Gaur",
+            "Bos gaurus"
+          ]
+        },
+        {
+          "id": "garoupa",
+          "nome": "Garoupa",
+          "descricao": "Grande peixe costeiro da família Epinephelidae, de corpo robusto e boca larga.",
+          "variantes": [
+            "Epinephelus marginatus",
+            "Dusky grouper",
+            "Garoupa-verdadeira"
+          ]
+        },
+        {
+          "id": "caranguejo_uca",
+          "nome": "Caranguejo-uçá",
+          "descricao": "Caranguejo de manguezal Ucides cordatus, do Atlântico ocidental, importante na alimentação no Brasil.",
+          "variantes": [
+            "Uçá",
+            "Ucides cordatus",
+            "Caranguejo-verdadeiro"
+          ]
+        },
+        {
+          "id": "lirio",
+          "nome": "Lírio",
+          "descricao": "Flor do gênero Lilium, de pétalas grandes que crescem de bulbos.",
+          "variantes": [
+            "Lilium",
+            "Lírio verdadeiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pinguim-africano",
+        "descricao": "Pinguim Spheniscus demersus, do sul da África, com manchas rosadas acima dos olhos.",
+        "variantes": [
+          "Pinguim-do-cabo",
+          "African penguin",
+          "Cape penguin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinguim_africano",
+          "nome": "Pinguim-africano",
+          "descricao": "Pinguim do sul da África (Spheniscus demersus), de faixa preta no peito, máscara facial preta e mancha rosada acima dos olhos.",
+          "variantes": [
+            "Spheniscus demersus",
+            "Pinguim-do-cabo",
+            "African penguin"
+          ]
+        },
+        {
+          "id": "pinguim_de_barbicha",
+          "nome": "Pinguim-de-barbicha",
+          "descricao": "Pinguim antártico Pygoscelis antarcticus, com uma estreita faixa preta sob a cabeça.",
+          "variantes": [
+            "Pygoscelis antarcticus",
+            "Chinstrap penguin",
+            "Pinguim-antártico"
+          ]
+        },
+        {
+          "id": "kino",
+          "nome": "Kino",
+          "descricao": "Fruto espinhoso de Cucumis metuliferus, nativo da África, de polpa verde gelatinosa e casca alaranjada quando maduro.",
+          "variantes": [
+            "Kiwano",
+            "Melão-de-chifres",
+            "Pepino-africano"
+          ]
+        },
+        {
+          "id": "pinguim_de_adelia",
+          "nome": "Pinguim-de-adélia",
+          "descricao": "Pinguim antártico de cabeça preta e anel branco no olho (Pygoscelis adeliae).",
+          "variantes": [
+            "Pinguim-de-adélie",
+            "Adélie penguin",
+            "Pygoscelis adeliae"
+          ]
+        },
+        {
+          "id": "pinguim_imperador",
+          "nome": "Pinguim-imperador",
+          "descricao": "Maior e mais pesado dos pinguins (Aptenodytes forsteri), endêmico da Antártida, com manchas amarelas nos lados da cabeça.",
+          "variantes": [
+            "Emperor penguin",
+            "Aptenodytes forsteri"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cabeça-seca",
+        "descricao": "Cegonha Mycteria americana, de plumagem branca e cabeça nua cinza-escura, das Américas.",
+        "variantes": [
+          "Wood stork",
+          "Cegonha-americana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "festival_de_woodstock",
+          "nome": "Festival de Woodstock",
+          "descricao": "Festival de música realizado em agosto de 1969 numa fazenda em Bethel, no estado de Nova York",
+          "variantes": [
+            "Woodstock"
+          ]
+        },
+        {
+          "id": "woodstock_peanuts",
+          "nome": "Woodstock (Peanuts)",
+          "descricao": "Passarinho amarelo, melhor amigo do Snoopy na tira Peanuts, de Charles Schulz",
+          "variantes": [
+            "Woodstock"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pica-pau-de-topete-vermelho",
+        "descricao": "Grande pica-pau norte-americano Dryocopus pileatus, de topete vermelho e corpo preto.",
+        "variantes": [
+          "Pileated woodpecker",
+          "Dryocopus pileatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pica_pau_de_banda_branca",
+          "nome": "Pica-pau-de-banda-branca",
+          "descricao": "Grande pica-pau Dryocopus lineatus, de crista vermelha e riscas brancas no dorso, do México à Argentina.",
+          "variantes": [
+            "Lineated woodpecker",
+            "Dryocopus lineatus"
+          ]
+        },
+        {
+          "id": "cardeal",
+          "nome": "Cardeal",
+          "descricao": "Cardeal-de-topete-vermelho, ave sul-americana de cabeça vermelha com topete, dorso cinza e peito branco, da família dos traupídeos.",
+          "variantes": [
+            "Cardeal-de-topete-vermelho",
+            "Paroaria coronata",
+            "Red-crested cardinal"
+          ]
+        },
+        {
+          "id": "pica_pau_de_cabeca_amarela",
+          "nome": "Pica-pau-de-cabeça-amarela",
+          "descricao": "Pica-pau (Celeus flavescens) de cabeça clara e mancha vermelha na face, que vive na Argentina, no Brasil e no Paraguai.",
+          "variantes": [
+            "Celeus flavescens",
+            "Blond-crested woodpecker"
+          ]
+        },
+        {
+          "id": "faisao_dourado",
+          "nome": "Faisão-dourado",
+          "descricao": "Faisão colorido (Chrysolophus pictus), originário das montanhas da China.",
+          "variantes": [
+            "Chrysolophus pictus",
+            "Golden pheasant"
+          ]
+        },
+        {
+          "id": "pica_pau",
+          "nome": "Pica-Pau",
+          "descricao": "Pássaro de desenho animado, de risada característica, que estreou nos cinemas em 1940 e fez sucesso na TV.",
+          "variantes": [
+            "Woody Woodpecker",
+            "Picapau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pavão-verde",
+        "descricao": "Pavão Pavo muticus, do Sudeste Asiático, de plumagem verde e crista em espigão.",
+        "variantes": [
+          "Green peafowl",
+          "Pavo muticus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "macaco_vervet",
+          "nome": "Macaco-vervet",
+          "descricao": "Macaco do Velho Mundo (Chlorocebus pygerythrus) de rosto preto e pelagem cinza, nativo do sul e leste da África.",
+          "variantes": [
+            "Vervet",
+            "Chlorocebus pygerythrus",
+            "Macaco-verde"
+          ]
+        },
+        {
+          "id": "cabo_verde",
+          "nome": "Cabo Verde",
+          "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+          "variantes": [
+            "Cape Verde"
+          ]
+        },
+        {
+          "id": "bandeira_de_cabo_verde",
+          "nome": "Bandeira de Cabo Verde",
+          "descricao": "Bandeira nacional de Cabo Verde, azul com faixas branca e vermelha e um círculo de dez estrelas amarelas.",
+          "variantes": [
+            "Cabo Verde",
+            "Bandeira cabo-verdiana"
+          ]
+        },
+        {
+          "id": "raio_verde",
+          "nome": "Raio verde",
+          "descricao": "Fenômeno óptico atmosférico em que surge um ponto verde acima do Sol no nascer ou no pôr do sol.",
+          "variantes": [
+            "Brilho verde",
+            "Green flash"
+          ]
+        },
+        {
+          "id": "lagarto_verde",
+          "nome": "Lagarto-verde",
+          "descricao": "Lagarto teiídeo de corpo esverdeado (Ameiva ameiva), comum na América do Sul e Central.",
+          "variantes": [
+            "Calango-verde",
+            "Ameiva ameiva",
+            "Giant ameiva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Águia-marcial",
+        "descricao": "Grande águia Polemaetus bellicosus, da África subsaariana, de peito branco pintado.",
+        "variantes": [
+          "Martial eagle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua_marinha",
+          "nome": "Água-marinha",
+          "descricao": "Gema azul-esverdeada, variedade do mineral berilo, com grandes jazidas no Brasil.",
+          "variantes": [
+            "Aquamarine"
+          ]
+        },
+        {
+          "id": "aguia_careca",
+          "nome": "Águia-careca",
+          "descricao": "Ave de rapina norte-americana (Haliaeetus leucocephalus) de cabeça branca, símbolo nacional dos Estados Unidos.",
+          "variantes": [
+            "Haliaeetus leucocephalus",
+            "Bald eagle",
+            "Águia-de-cabeça-branca"
+          ]
+        },
+        {
+          "id": "aguia_real",
+          "nome": "Águia-real",
+          "descricao": "Ave de rapina do Hemisfério Norte, Aquila chrysaetos, marrom escura com nuca dourada.",
+          "variantes": [
+            "Golden eagle",
+            "Aquila chrysaetos"
+          ]
+        },
+        {
+          "id": "maria_maria",
+          "nome": "Maria, Maria",
+          "descricao": "Canção de Milton Nascimento e Fernando Brant, lançada em disco em 1978.",
+          "variantes": []
+        },
+        {
+          "id": "space_needle",
+          "nome": "Space Needle",
+          "descricao": "Torre de observação de formato futurista em Seattle, nos Estados Unidos, construída para uma Feira Mundial.",
+          "variantes": [
+            "Agulha Espacial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cacatua-das-palmeiras",
+        "descricao": "Grande cacatua negra Probosciger aterrimus, de bochechas vermelhas, da Nova Guiné e do norte da Austrália.",
+        "variantes": [
+          "Palm cockatoo",
+          "Cacatua-negra",
+          "Goliath cockatoo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cacatua_rosa",
+          "nome": "Cacatua-rosa",
+          "descricao": "Cacatua australiana de peito rosa, dorso cinza e topete branco, Eolophus roseicapilla.",
+          "variantes": [
+            "Galah",
+            "Cacatua-galah",
+            "Eolophus roseicapilla"
+          ]
+        },
+        {
+          "id": "cacatua_de_crista_amarela",
+          "nome": "Cacatua-de-crista-amarela",
+          "descricao": "Grande cacatua branca de crista amarela (Cacatua galerita), nativa da Austrália e Nova Guiné.",
+          "variantes": [
+            "Cacatua galerita",
+            "Sulphur-crested cockatoo"
+          ]
+        },
+        {
+          "id": "brasao_da_malasia",
+          "nome": "Brasão da Malásia",
+          "descricao": "Brasão de armas nacional da Malásia, com dois tigres, crescente e estrela de catorze pontas.",
+          "variantes": [
+            "Jata Negara"
+          ]
+        },
+        {
+          "id": "arraia_negra",
+          "nome": "Arraia Negra",
+          "descricao": "Vilão da DC Comics, de capacete com olhos vermelhos, arqui-inimigo do Aquaman, estreado em 1967.",
+          "variantes": [
+            "Black Manta"
+          ]
+        },
+        {
+          "id": "svartifoss",
+          "nome": "Svartifoss",
+          "descricao": "Cachoeira no Parque Nacional Vatnajökull, na Islândia, cercada por colunas de basalto.",
+          "variantes": [
+            "Cachoeira Negra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Alfaiate",
+        "descricao": "Ave pernalta Recurvirostra avosetta, preta e branca, de bico fino curvado para cima.",
+        "variantes": [
+          "Alfaiate-comum",
+          "Pied avocet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gerrideo",
+          "nome": "Gerrídeo",
+          "descricao": "Percevejos aquáticos da família Gerridae, de pernas longas e finas, que andam sobre a superfície da água.",
+          "variantes": [
+            "Gerridae",
+            "Alfaiate",
+            "Patinador"
+          ]
+        },
+        {
+          "id": "alfaia",
+          "nome": "Alfaia",
+          "descricao": "Tambor membranofone tocado com baquetas, típico do maracatu e usado também no coco e na ciranda, popular em Pernambuco.",
+          "variantes": [
+            "Bumbo de maracatu"
+          ]
+        },
+        {
+          "id": "alicate",
+          "nome": "Alicate",
+          "descricao": "Ferramenta manual de duas alavancas com mandíbulas, usada para segurar e dobrar objetos.",
+          "variantes": [
+            "Alicate de pressão"
+          ]
+        },
+        {
+          "id": "baleia_comum",
+          "nome": "Baleia-comum",
+          "descricao": "Baleia de barbatanas esguia e veloz (Balaenoptera physalus), o segundo maior animal vivo.",
+          "variantes": [
+            "Baleia-fin",
+            "Rorqual-comum",
+            "Balaenoptera physalus",
+            "Fin whale"
+          ]
+        },
+        {
+          "id": "alto_falante",
+          "nome": "Alto-falante",
+          "descricao": "Transdutor eletroacústico que converte um sinal elétrico de áudio em som.",
+          "variantes": [
+            "Altifalante",
+            "Caixa de som"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Tragopã-de-temminck",
+        "descricao": "Faisão Tragopan temminckii, de corpo vermelho com pintas brancas, das montanhas da Ásia.",
+        "variantes": [
+          "Temminck's tragopan",
+          "Tragopan temminckii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tropa_de_elite_filme",
+          "nome": "Tropa de Elite (filme)",
+          "descricao": "Filme policial brasileiro de 2007 sobre o BOPE do Rio de Janeiro, com Wagner Moura como Capitão Nascimento.",
+          "variantes": [
+            "Tropa de Elite",
+            "Elite Squad"
+          ]
+        },
+        {
+          "id": "peste_de_atenas",
+          "nome": "Peste de Atenas",
+          "descricao": "Epidemia que devastou Atenas a partir de 430 a.C., no início da Guerra do Peloponeso, descrita por Tucídides.",
+          "variantes": [
+            "Praga de Atenas",
+            "Plague of Athens"
+          ]
+        },
+        {
+          "id": "tartaruga_aligator",
+          "nome": "Tartaruga-aligátor",
+          "descricao": "Grande tartaruga de água doce dos Estados Unidos, de casco com três cristas (Macrochelys temminckii).",
+          "variantes": [
+            "Macrochelys temminckii",
+            "Alligator snapping turtle"
+          ]
+        },
+        {
+          "id": "desastre_de_le_mans_de_1955",
+          "nome": "Desastre de Le Mans de 1955",
+          "descricao": "Acidente nas 24 Horas de Le Mans de 1955 em que um carro da Mercedes voou sobre o público, matando mais de oitenta pessoas.",
+          "variantes": [
+            "Tragédia de Le Mans de 1955",
+            "1955 Le Mans disaster",
+            "Tragédia de Le Mans"
+          ]
+        },
+        {
+          "id": "sapato_monk",
+          "nome": "Sapato monk",
+          "descricao": "Sapato social sem cadarço, fechado por uma ou mais fivelas e tiras.",
+          "variantes": [
+            "Monk strap",
+            "Monk shoe"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sporophila maximiliani é um pássaro; o besouro Bicudo-do-algodoeiro e o curió (outra espécie) são entidades diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Euphonia violacea não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "pinguim_africano",
+      "motivo": "Mesma espécie Spheniscus demersus, mesmo nome e variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cegonha Mycteria americana; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Dryocopus pileatus é espécie distinta de Dryocopus lineatus e das demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pavo muticus não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Polemaetus bellicosus é espécie diferente das águias candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Probosciger aterrimus é espécie distinta das outras cacatuas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A ave Recurvirostra avosetta é diferente do percevejo aquático gerrídeo, que só compartilha a variante Alfaiate."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Tragopan temminckii é um faisão; a tartaruga Macrochelys temminckii é outra entidade."
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Macho de bico claro e corpo negro, nítido e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pássaro brasileiro é este?",
+      "resposta": "Bicudo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bicudo",
+        "descricao": "Pássaro Sporophila maximiliani, de bico grosso e claro nos machos, da família Thraupidae.",
+        "variantes": [
+          "Bicudo-verdadeiro",
+          "Great-billed seed finch"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto de baixa resolução, ave atrás das grades da gaiola, coloração domesticada que não permite reconhecimento claro."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Macho nítido, com testa amarela, dorso azul-violáceo e ventre amarelo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pássaro brasileiro é este?",
+      "resposta": "Gaturamo-verdadeiro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gaturamo-verdadeiro",
+        "descricao": "Pássaro Euphonia violacea, de testa amarela, dorso azul-violáceo e ventre amarelo, da América do Sul oriental.",
+        "variantes": [
+          "Violaceous euphonia",
+          "Gaturamo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pinguim nítido, com mancha rosa acima do olho e faixa preta no peito.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vive naturalmente este pinguim?",
+      "resposta": "África",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pinguim-africano",
+        "descricao": "Pinguim Spheniscus demersus, do sul da África, com manchas rosadas acima dos olhos.",
+        "variantes": [
+          "Pinguim-do-cabo",
+          "African penguin",
+          "Cape penguin"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cegonha branca de cabeça nua e escura, bico longo e curvo, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave pernalta das Américas é esta?",
+      "resposta": "Cabeça-seca",
+      "distratores": [
+        "Tuiuiú",
+        "Maguari",
+        "Garça-branca-grande"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cabeça-seca",
+        "descricao": "Cegonha Mycteria americana, de plumagem branca e cabeça nua cinza-escura, das Américas.",
+        "variantes": [
+          "Wood stork",
+          "Cegonha-americana"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ave pernalta nítida, de pernas rosadas, bico fino e nuca preta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave pernalta de pernas rosadas é esta?",
+      "resposta": "Pernilongo-de-costas-negras",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pernilongo-de-costas-negras",
+        "descricao": "Ave pernalta Himantopus mexicanus, de pernas rosadas e plumagem preta e branca, das Américas.",
+        "variantes": [
+          "Pernilongo",
+          "Black-necked stilt"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pica-pau grande com topete vermelho, nítido e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pica-pau é este?",
+      "resposta": "Pica-pau-de-topete-vermelho",
+      "distratores": [
+        "Pica-pau-preto",
+        "Pica-pau-de-banda-branca",
+        "Pica-pau-de-cabeça-amarela"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pica-pau-de-topete-vermelho",
+        "descricao": "Grande pica-pau norte-americano Dryocopus pileatus, de topete vermelho e corpo preto.",
+        "variantes": [
+          "Pileated woodpecker",
+          "Dryocopus pileatus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pavões-verdes, macho e fêmea, reconhecíveis pelo pescoço verde escamado e crista em espigão.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta ave é a ave nacional de que país do Sudeste Asiático?",
+      "resposta": "Mianmar",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pavão-verde",
+        "descricao": "Pavão Pavo muticus, do Sudeste Asiático, de plumagem verde e crista em espigão.",
+        "variantes": [
+          "Green peafowl",
+          "Pavo muticus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Águia nítida, de peito branco pintado e cabeça escura, em ângulo claro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que águia africana é esta?",
+      "resposta": "Águia-marcial",
+      "destino": 0,
+      "ancora": {
+        "nome": "Águia-marcial",
+        "descricao": "Grande águia Polemaetus bellicosus, da África subsaariana, de peito branco pintado.",
+        "variantes": [
+          "Martial eagle"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cacatua negra com bochecha vermelha e bico forte, bem visível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ave é nativa de qual ilha, ao norte da Austrália?",
+      "resposta": "Nova Guiné",
+      "distratores": [
+        "Bornéu",
+        "Madagascar",
+        "Tasmânia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cacatua-das-palmeiras",
+        "descricao": "Grande cacatua negra Probosciger aterrimus, de bochechas vermelhas, da Nova Guiné e do norte da Austrália.",
+        "variantes": [
+          "Palm cockatoo",
+          "Cacatua-negra",
+          "Goliath cockatoo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ave preta e branca com bico fino curvado para cima, nítida e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave pernalta é esta?",
+      "resposta": "Alfaiate",
+      "destino": 0,
+      "ancora": {
+        "nome": "Alfaiate",
+        "descricao": "Ave pernalta Recurvirostra avosetta, preta e branca, de bico fino curvado para cima.",
+        "variantes": [
+          "Alfaiate-comum",
+          "Pied avocet"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Macho nítido, de corpo vermelho com pintas brancas e pele facial azul.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ave habita as montanhas de qual destes países?",
+      "resposta": "China",
+      "distratores": [
+        "Japão",
+        "Coreia do Sul",
+        "Quênia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tragopã-de-temminck",
+        "descricao": "Faisão Tragopan temminckii, de corpo vermelho com pintas brancas, das montanhas da Ásia.",
+        "variantes": [
+          "Temminck's tragopan",
+          "Tragopan temminckii"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A espécie é o bicudo-verdadeiro; 'bicudo' é só um apelido ocasional (trecho pt) e outras espécies também são chamadas de bicudo. A resposta precisa ser o nome específico.",
+      "reescrita": {
+        "pergunta": "Que pássaro brasileiro, de bico grosso e claro, é este?",
+        "resposta": "Bicudo-verdadeiro"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome técnico confirmado, enunciado sem vazamento, resposta específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pinguim confinado às águas do sul da África; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cabeça-seca (Mycteria americana) confirmado; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Himantopus mexicanus não se distingue por foto de outros pernilongos de pernas rosadas (inclusive o de costas brancas, presente no Brasil); em aberta de nível 1 a resposta específica não é única nem justa.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pica-pau-de-topete-vermelho' é o nome brasileiro de outra espécie (Campephilus melanoleucos); os trechos dão pica-pau-grande-americano para Dryocopus pileatus.",
+      "reescrita": {
+        "pergunta": "Que pica-pau é este?",
+        "resposta": "Pica-pau-grande-americano",
+        "distratores": [
+          "Pica-pau-preto",
+          "Pica-pau-de-banda-branca",
+          "Pica-pau-de-cabeça-amarela"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho em inglês confirma que é a ave nacional de Mianmar; enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Águia africana confirmada; enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nativa da Nova Guiné confirmado; distratores críveis o bastante e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alfaiate é o nome da Recurvirostra avosetta; enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que ocorre nas montanhas da China central; os distratores não são áreas de ocorrência.",
+      "reescrita": null
+    }
+  ]
+}

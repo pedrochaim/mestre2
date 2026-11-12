@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que continente vive naturalmente este pinguim?",
+        "resposta": "África"
+      },
+      "existentes": [
+        {
+          "id": "q17071",
+          "pergunta": "Que espécie de pinguim é esta?",
+          "resposta": "Pinguim-africano"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a espécie do pinguim (imagem); a nova pergunta o continente onde vive. Fatos diferentes, embora a resposta de uma possa sugerir a outra."
+    }
+  ]
+}
