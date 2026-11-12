@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'arte marcial afro-brasileira' já entrega Capoeira sem olhar a figura. Reescrita pede a origem do instrumento, que exige reconhecê-lo (trechos: origem em Angola).",
+      "reescrita": {
+        "pergunta": "Este instrumento musical, muito usado no Brasil, tem origem em qual país africano?",
+        "resposta": "Angola",
+        "distratores": [
+          "Nigéria",
+          "Gana",
+          "Senegal"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Grande império andino' entrega Inca sem a figura; a figura vira enfeite e não há reescrita simples que evite a pista.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, enunciado sem vazamento, distratores plausíveis e confirmados pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores do mesmo tipo (embarcações) e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores são outros instrumentos de percussão brasileiros.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kokoshnik é usado por mulheres e meninas; enunciado não vaza e distratores são outros chapéus.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Livro sagrado' é impreciso: outros textos sikhs também usam Gurmukhi. Os trechos dizem que o Guru Granth Sahib é a escritura principal.",
+      "reescrita": {
+        "pergunta": "Qual é a principal escritura sagrada de uma religião indiana, escrita com esta escrita?",
+        "resposta": "Guru Granth Sahib",
+        "distratores": [
+          "Bhagavad Gita",
+          "Rig Veda",
+          "Dhammapada"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; 'típico do Oriente Médio' ajuda sem entregar; distratores de objetos distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento; distratores são outras escritas indianas, nenhuma correta.",
+      "reescrita": null
+    }
+  ]
+}

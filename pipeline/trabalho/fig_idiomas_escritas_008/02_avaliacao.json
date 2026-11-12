@@ -1,0 +1,230 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Três berimbaus nítidos, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que arte marcial afro-brasileira é acompanhada por este instrumento?",
+      "resposta": "Capoeira",
+      "distratores": [
+        "Maculelê",
+        "Jiu-jítsu",
+        "Huka-huka"
+      ],
+      "ancora": {
+        "nome": "Berimbau",
+        "descricao": "Instrumento musical de um arco com corda única e cabaça ressoadora, de origem africana e usado no Brasil.",
+        "variantes": [
+          "Berimbau de barriga"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Quipu claro, fundo escuro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que grande império andino usou mais amplamente este sistema de registro?",
+      "resposta": "Inca",
+      "distratores": [
+        "Asteca",
+        "Maia",
+        "Olmeca"
+      ],
+      "ancora": {
+        "nome": "Quipu",
+        "descricao": "Instrumento de registro feito de cordas com nós, usado nos Andes, sobretudo pelo Império Inca.",
+        "variantes": [
+          "Khipu",
+          "Quipo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano dentro do mudhif."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Filtro dos sonhos claro, fundo neutro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto artesanal de povos nativos norte-americanos é este?",
+      "resposta": "Filtro dos sonhos",
+      "distratores": [
+        "Cata-vento",
+        "Escudo cerimonial",
+        "Cesto de penas"
+      ],
+      "ancora": {
+        "nome": "Filtro dos sonhos",
+        "descricao": "Aro de salgueiro com rede tecida e penas, amuleto de proteção de povos como os Anishinaabe.",
+        "variantes": [
+          "Apanhador de sonhos",
+          "Caçador de sonhos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "As marcas do ogam na pedra são tênues e pouco legíveis num celular; a imagem não permite reconhecer a escrita."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pintura de um junco chinês bem visível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de embarcação tradicional chinesa é esta?",
+      "resposta": "Junco",
+      "distratores": [
+        "Dau",
+        "Caravela",
+        "Gôndola"
+      ],
+      "ancora": {
+        "nome": "Junco chinês",
+        "descricao": "Embarcação a vela chinesa com velas ripadas, leme central e casco de anteparas estanques.",
+        "variantes": [
+          "Junco",
+          "Junk"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Apenas dois caracteres em imagem minúscula; difícil distinguir do tailandês ou do khmer."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pandeiro em primeiro plano; só mãos aparecem, sem identificar ninguém.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão brasileiro é este?",
+      "resposta": "Pandeiro",
+      "distratores": [
+        "Tamborim",
+        "Rebolo",
+        "Caixa de guerra"
+      ],
+      "ancora": {
+        "nome": "Pandeiro",
+        "descricao": "Tambor de mão com aro e platinelas, usado no samba, no choro e na capoeira.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura clássica de jovem russa com o adorno bem visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que adorno de cabeça tradicional russo esta jovem usa?",
+      "resposta": "Kokoshnik",
+      "distratores": [
+        "Ushanka",
+        "Papakha",
+        "Tubeteika"
+      ],
+      "ancora": {
+        "nome": "Kokoshnik",
+        "descricao": "Adorno de cabeça tradicional russo usado por mulheres e meninas junto com o sarafan.",
+        "variantes": [
+          "Kokochnik"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Tabela de letras gurmukhi, sem texto em alfabeto latino.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que livro sagrado de uma religião indiana é escrito com esta escrita?",
+      "resposta": "Guru Granth Sahib",
+      "distratores": [
+        "Bhagavad Gita",
+        "Rig Veda",
+        "Dhammapada"
+      ],
+      "ancora": {
+        "nome": "Gurmukhi",
+        "descricao": "Escrita silábica usada para o punjabi na Índia e para as escrituras sikhs.",
+        "variantes": [
+          "Gurmukhī"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Narguilé isolado, nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que objeto, típico do Oriente Médio, é este?",
+      "resposta": "Narguilé",
+      "distratores": [
+        "Samovar",
+        "Lamparina",
+        "Bule de chá"
+      ],
+      "ancora": {
+        "nome": "Narguilé",
+        "descricao": "Cachimbo de água de uma ou várias hastes para fumar tabaco aromatizado.",
+        "variantes": [
+          "Shisha",
+          "Hookah",
+          "Cachimbo de água"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Tabela clara da escrita devanágari.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que sistema de escrita indiano é este?",
+      "resposta": "Devanágari",
+      "distratores": [
+        "Gurmukhi",
+        "Bengali",
+        "Gujarati"
+      ],
+      "ancora": {
+        "nome": "Devanágari",
+        "descricao": "Escrita silábica usada para o hindi, o sânscrito e o nepalês, entre outras línguas.",
+        "variantes": [
+          "Devanagari",
+          "Nagari"
+        ]
+      }
+    }
+  ]
+}
