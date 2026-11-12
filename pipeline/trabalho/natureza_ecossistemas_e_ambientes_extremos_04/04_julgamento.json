@@ -1,0 +1,125 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ártico",
+        "descricao": "Região polar em torno do Polo Norte, formada pelo Oceano Ártico e pelas terras vizinhas.",
+        "variantes": [
+          "Região Ártica",
+          "Arctic"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        },
+        {
+          "id": "articuno",
+          "nome": "Articuno",
+          "descricao": "Pokémon dos tipos Gelo e Voador, número 144 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "damasco",
+          "nome": "Damasco",
+          "descricao": "Fruta alaranjada de caroço (Prunus armeniaca), consumida fresca ou seca.",
+          "variantes": [
+            "Abricó",
+            "Apricot"
+          ]
+        },
+        {
+          "id": "mar_adriatico",
+          "nome": "Mar Adriático",
+          "descricao": "Braço do Mediterrâneo entre a península Itálica e a península Balcânica.",
+          "variantes": [
+            "Adriático",
+            "Adriatic Sea"
+          ]
+        },
+        {
+          "id": "beartic",
+          "nome": "Beartic",
+          "descricao": "Pokémon do tipo Gelo, número 614 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Deserto do Atacama",
+        "descricao": "Deserto costeiro do norte do Chile, entre o Oceano Pacífico e os Andes, famoso pela secura extrema.",
+        "variantes": [
+          "Atacama",
+          "Atacama Desert"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "deserto_do_atacama",
+          "nome": "Deserto do Atacama",
+          "descricao": "Deserto costeiro no norte do Chile, entre o Oceano Pacífico e os Andes, um dos lugares mais secos do planeta.",
+          "variantes": [
+            "Atacama",
+            "Atacama Desert"
+          ]
+        },
+        {
+          "id": "deserto_do_saara",
+          "nome": "Deserto do Saara",
+          "descricao": "Maior deserto quente do mundo, que ocupa grande parte do norte da África.",
+          "variantes": [
+            "Saara",
+            "Sahara"
+          ]
+        },
+        {
+          "id": "deserto_de_taklamakan",
+          "nome": "Deserto de Taklamakan",
+          "descricao": "Grande deserto de areia da bacia do Tarim, na Ásia Central",
+          "variantes": [
+            "Taklimakan",
+            "Taklamakan Desert"
+          ]
+        },
+        {
+          "id": "tacaca",
+          "nome": "Tacacá",
+          "descricao": "Caldo quente paraense servido em cuia, feito com tucupi, goma de mandioca, camarão seco e jambu",
+          "variantes": []
+        },
+        {
+          "id": "deserto_do_namibe",
+          "nome": "Deserto do Namibe",
+          "descricao": "Deserto costeiro do sudoeste da África, ao longo da Namíbia e do sul de Angola",
+          "variantes": [
+            "Namib",
+            "Deserto do Namib"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "artico",
+      "motivo": "Mesma região polar ao redor do Polo Norte, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "deserto_do_atacama",
+      "motivo": "Mesmo deserto costeiro do norte do Chile, descrições e variantes equivalentes."
+    }
+  ]
+}

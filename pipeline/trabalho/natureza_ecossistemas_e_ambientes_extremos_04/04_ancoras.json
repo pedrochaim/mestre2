@@ -1,0 +1,1024 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "abismo_challenger",
+        "nome": "Abismo Challenger",
+        "descricao": "Ponto mais profundo conhecido do oceano, no extremo sul da Fossa das Marianas.",
+        "variantes": [
+          "Challenger Deep",
+          "Depressão Challenger"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Challenger_Deep"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O Abismo Challenger, na Fossa das Marianas, é o ponto mais fundo conhecido dos oceanos. Aproximadamente quantos quilômetros abaixo da superfície ele fica?",
+      "resposta": "Cerca de onze quilômetros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Challenger_Deep"
+      ],
+      "distratores": [
+        "Cerca de três quilômetros",
+        "Cerca de seis quilômetros",
+        "Cerca de vinte quilômetros"
+      ],
+      "ancora": "abismo_challenger"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "grand_canyon",
+        "nome": "Grand Canyon",
+        "descricao": "Grande desfiladeiro no estado do Arizona, nos Estados Unidos.",
+        "variantes": [
+          "Grande Cânion"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Grand_Canyon"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "As rochas mais antigas expostas no fundo do Grand Canyon, no Arizona, têm aproximadamente que idade?",
+      "resposta": "Quase dois bilhões de anos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Grand_Canyon",
+        "https://en.wikipedia.org/wiki/Geology_of_the_Grand_Canyon_area"
+      ],
+      "distratores": [
+        "Dez mil anos",
+        "Sessenta milhões de anos",
+        "Trezentos milhões de anos"
+      ],
+      "ancora": "grand_canyon"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "old_faithful",
+        "nome": "Old Faithful",
+        "descricao": "Gêiser cônico do Parque Nacional de Yellowstone, em Wyoming, conhecido pelas erupções regulares.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Old_Faithful"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O gêiser Old Faithful, em Yellowstone, entra em erupção com regularidade. Em média, quanto tempo passa entre uma erupção e a seguinte?",
+      "resposta": "Cerca de uma hora e meia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Old_Faithful"
+      ],
+      "distratores": [
+        "Cerca de cinco minutos",
+        "Cerca de seis horas",
+        "Cerca de um dia"
+      ],
+      "ancora": "old_faithful"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "recife_de_coral",
+        "nome": "Recife de coral",
+        "descricao": "Estrutura submarina formada pelo acúmulo dos esqueletos calcários de corais ao longo de séculos.",
+        "variantes": [
+          "Recife coralino"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coral_reef"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Os recifes de coral ocupam uma área minúscula do oceano, mas abrigam cerca de que fração de todas as espécies marinhas?",
+      "resposta": "Cerca de um quarto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coral_reef"
+      ],
+      "distratores": [
+        "Cerca de um centésimo",
+        "Cerca de dois terços",
+        "Quase todas"
+      ],
+      "ancora": "recife_de_coral"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "fumarola_negra",
+        "nome": "Fumarola negra",
+        "descricao": "Tipo de fonte hidrotermal do fundo do mar que expele água muito quente carregada de minerais escuros.",
+        "variantes": [
+          "Black smoker",
+          "Chaminé negra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hydrothermal_vent"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Por causa da enorme pressão do fundo do mar, a água das fumarolas negras não ferve, mesmo chegando a cerca de quantos graus?",
+      "resposta": "Cerca de quatrocentos graus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hydrothermal_vent"
+      ],
+      "distratores": [
+        "Cerca de sessenta graus",
+        "Cerca de cem graus",
+        "Cerca de mil graus"
+      ],
+      "ancora": "fumarola_negra"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "socotra",
+        "nome": "Socotra",
+        "descricao": "Maior ilha do arquipélago de Socotra, no oceano Índico, pertencente ao Iêmen e conhecida pelas espécies endêmicas.",
+        "variantes": [
+          "Socotorá",
+          "Socotra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Socotra"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Cerca de que fração das plantas da ilha de Socotorá, no Oceano Índico, não existe em nenhum outro lugar do mundo?",
+      "resposta": "Cerca de um terço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Socotra"
+      ],
+      "distratores": [
+        "Cerca de um centésimo",
+        "Cerca de três quartos",
+        "Quase todas"
+      ],
+      "ancora": "socotra"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "caverna_dos_cristais",
+        "nome": "Caverna dos Cristais",
+        "descricao": "Caverna na mina de Naica, no estado de Chihuahua, com cristais gigantes de gipsita e calor extremo.",
+        "variantes": [
+          "Cueva de los Cristales",
+          "Cave of the Crystals"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cave_of_the_Crystals"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na Caverna dos Cristais, no México, o ar chegava a que temperatura aproximada, obrigando os exploradores a usar roupas refrigeradas?",
+      "resposta": "Quase sessenta graus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cave_of_the_Crystals"
+      ],
+      "distratores": [
+        "Cerca de vinte graus",
+        "Cerca de cem graus",
+        "Cerca de 150 graus"
+      ],
+      "ancora": "caverna_dos_cristais"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "welwitschia",
+        "nome": "Welwitschia",
+        "descricao": "Planta do deserto do Namibe, Welwitschia mirabilis, que vive séculos com apenas duas folhas de crescimento contínuo.",
+        "variantes": [
+          "Welwitschia mirabilis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Welwitschia"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na Namíbia, a welwitschia tem um nome em africâner que quer dizer duas folhas que não podem fazer o quê?",
+      "resposta": "Morrer",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Welwitschia"
+      ],
+      "ancora": "welwitschia"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "vitoria_regia",
+        "nome": "Vitória-régia",
+        "descricao": "Planta aquática amazônica Victoria amazonica, de folhas circulares gigantes",
+        "variantes": [
+          "Victoria amazonica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Victoria_amazonica"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A vitória-régia, planta amazônica de folhas gigantes, recebeu o nome em homenagem a uma rainha do século dezenove. De que país ela era rainha?",
+      "resposta": "Reino Unido",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Victoria_amazonica"
+      ],
+      "ancora": "vitoria_regia"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "ciclone_tropical",
+        "nome": "Ciclone tropical",
+        "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+        "variantes": [
+          "Furacão",
+          "Tufão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tropical_cyclone"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra furacão chegou ao português pelo espanhol, que a tomou de um povo indígena das Antilhas. Que povo era esse?",
+      "resposta": "Taínos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Juracán",
+        "https://en.wikipedia.org/wiki/Tropical_cyclone"
+      ],
+      "distratores": [
+        "Maias",
+        "Astecas",
+        "Guaranis"
+      ],
+      "ancora": "ciclone_tropical"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "tsingy_de_bemaraha",
+        "nome": "Tsingy de Bemaraha",
+        "descricao": "Reserva natural de Madagascar famosa por suas agulhas de calcário, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Tsingy"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tsingy_de_Bemaraha_Strict_Nature_Reserve"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em malgaxe, a palavra tsingy, das agulhas de calcário de Madagascar, descreve um lugar onde não se consegue fazer o quê?",
+      "resposta": "Andar descalço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tsingy_de_Bemaraha_Strict_Nature_Reserve"
+      ],
+      "ancora": "tsingy_de_bemaraha"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "vulcao",
+        "nome": "Vulcão",
+        "descricao": "Abertura ou fissura na crosta por onde escapam lava, cinzas e gases de uma câmara magmática.",
+        "variantes": [
+          "Volcano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volcano"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra que designa as montanhas que expelem lava e cinzas remonta ao nome de que deus romano do fogo?",
+      "resposta": "Vulcano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volcano"
+      ],
+      "ancora": "vulcao"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "coral",
+        "nome": "Coral",
+        "descricao": "Animal marinho colonial da classe Anthozoa, cujos esqueletos formam os recifes.",
+        "variantes": [
+          "Anthozoa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coral"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Apesar do esqueleto duro, os corais pertencem ao mesmo grupo de que animais gelatinosos, famosos pelas queimaduras que causam nos banhistas?",
+      "resposta": "Águas-vivas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coral",
+        "https://en.wikipedia.org/wiki/Cnidaria"
+      ],
+      "ancora": "coral"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "ararinha_azul",
+        "nome": "Ararinha-azul",
+        "descricao": "Pequena arara azul (Cyanopsitta spixii) da caatinga do norte da Bahia.",
+        "variantes": [
+          "Cyanopsitta spixii",
+          "Arara-azul-de-spix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spix%27s_macaw"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Blu, um macho de ararinha-azul criado nos Estados Unidos, é o herói de que animação de 2011 dirigida pelo brasileiro Carlos Saldanha?",
+      "resposta": "Rio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rio_(2011_film)",
+        "https://en.wikipedia.org/wiki/Spix%27s_macaw"
+      ],
+      "ancora": "ararinha_azul"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "umbuzeiro",
+        "nome": "Umbuzeiro",
+        "descricao": "Árvore da caatinga, Spondias tuberosa, que produz o umbu e armazena água nas raízes.",
+        "variantes": [
+          "Umbu",
+          "Spondias tuberosa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Umbuzeiro"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que escritor chamou o umbuzeiro de árvore sagrada do sertão, no seu livro sobre a Guerra de Canudos?",
+      "resposta": "Euclides da Cunha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Umbuzeiro",
+        "https://pt.wikipedia.org/wiki/Os_Sertões"
+      ],
+      "distratores": [
+        "Graciliano Ramos",
+        "José de Alencar",
+        "Guimarães Rosa"
+      ],
+      "ancora": "umbuzeiro"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "bromelia",
+        "nome": "Bromélia",
+        "descricao": "Planta da família Bromeliaceae, muitas vezes epífita, cujas folhas em roseta acumulam água.",
+        "variantes": [
+          "Bromeliaceae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bromeliaceae"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que fruta tropical, muito consumida no Brasil, vem de uma planta da mesma família das bromélias?",
+      "resposta": "Abacaxi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bromeliaceae",
+        "https://en.wikipedia.org/wiki/Pineapple"
+      ],
+      "ancora": "bromelia"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "floresta_de_kelp",
+        "nome": "Floresta de kelp",
+        "descricao": "Ecossistema costeiro submerso dominado por grandes algas pardas do grupo kelp.",
+        "variantes": [
+          "Kelp forest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kelp_forest"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que mamífero marinho do Pacífico Norte protege as florestas de kelp ao comer os ouriços-do-mar que devoram essas algas?",
+      "resposta": "Lontra-marinha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kelp_forest",
+        "https://en.wikipedia.org/wiki/Sea_otter"
+      ],
+      "ancora": "floresta_de_kelp"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "erva_de_passarinho",
+        "nome": "Erva-de-passarinho",
+        "descricao": "Nome popular de plantas hemiparasitas que crescem sobre galhos de árvores, cujas sementes são espalhadas por aves.",
+        "variantes": [
+          "Mistletoe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mistletoe"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que planta da tradição natalina europeia, sob a qual os casais se beijam, é uma erva-de-passarinho?",
+      "resposta": "Visco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mistletoe",
+        "https://en.wikipedia.org/wiki/Viscum_album"
+      ],
+      "ancora": "erva_de_passarinho"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "saguaro",
+        "nome": "Saguaro",
+        "descricao": "Cacto colunar gigante, Carnegiea gigantea, de braços erguidos, típico do sudoeste dos Estados Unidos e do noroeste do México.",
+        "variantes": [
+          "Carnegiea gigantea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saguaro"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "As flores do saguaro abrem à noite e são visitadas por um mamífero voador que bebe seu néctar e as poliniza. Que animal é esse?",
+      "resposta": "Morcego",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saguaro"
+      ],
+      "ancora": "saguaro"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "superflorada_do_deserto",
+        "nome": "Superflorada do deserto",
+        "descricao": "Fenômeno raro em que sementes dormentes de flores silvestres do deserto germinam e florescem ao mesmo tempo após uma estação muito chuvosa.",
+        "variantes": [
+          "Desierto florido",
+          "Superbloom"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flowering_desert"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No deserto do Atacama, as raras superfloradas costumam vir depois de chuvas trazidas por que fenômeno climático do Pacífico?",
+      "resposta": "El Niño",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flowering_desert"
+      ],
+      "ancora": "superflorada_do_deserto"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "lago_natron",
+        "nome": "Lago Natron",
+        "descricao": "Lago salgado e muito alcalino no norte da Tanzânia, local de reprodução de flamingos-pequenos.",
+        "variantes": [
+          "Lake Natron"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lake_Natron"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Flamingos-pequenos fazem ninhos no lago Natron, de águas cáusticas e muito salgadas. Que vantagem esse lugar hostil dá a eles?",
+      "resposta": "Proteção contra predadores",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lake_Natron"
+      ],
+      "ancora": "lago_natron"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "estacao_antartica_comandante_ferraz",
+        "nome": "Estação Antártica Comandante Ferraz",
+        "descricao": "Base científica brasileira na ilha Rei George, na Antártida.",
+        "variantes": [
+          "EACF"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Estação_Antártica_Comandante_Ferraz"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 2012, a Estação Comandante Ferraz, base científica brasileira na Antártida, foi em grande parte destruída. O que causou a destruição?",
+      "resposta": "Um incêndio",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Estação_Antártica_Comandante_Ferraz",
+        "https://en.wikipedia.org/wiki/Comandante_Ferraz_Antarctic_Station"
+      ],
+      "ancora": "estacao_antartica_comandante_ferraz"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "delta_do_okavango",
+        "nome": "Delta do Okavango",
+        "descricao": "Grande delta interior formado pelo rio Okavango, que se espalha no deserto do Kalahari sem chegar ao mar.",
+        "variantes": [
+          "Okavango Delta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Okavango_Delta"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A cheia anual do delta do Okavango chega em plena estação seca, trazendo água de chuvas que caíram meses antes em que país?",
+      "resposta": "Angola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Okavango_Delta",
+        "https://en.wikipedia.org/wiki/Okavango_River"
+      ],
+      "distratores": [
+        "Zâmbia",
+        "Namíbia",
+        "Zimbábue"
+      ],
+      "ancora": "delta_do_okavango"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "antartida",
+        "nome": "Antártida",
+        "descricao": "Continente gelado em torno do Polo Sul.",
+        "variantes": [
+          "Antártica",
+          "Antarctica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Antarctica"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Considerando a altitude média, qual é o continente mais alto da Terra?",
+      "resposta": "Antártida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Antarctica"
+      ],
+      "distratores": [
+        "Ásia",
+        "América do Sul",
+        "África"
+      ],
+      "ancora": "antartida"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Deserto do Atacama",
+        "descricao": "Deserto costeiro do norte do Chile, entre o Oceano Pacífico e os Andes, famoso pela secura extrema.",
+        "variantes": [
+          "Atacama",
+          "Atacama Desert"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Atacama_Desert",
+          "https://pt.wikipedia.org/wiki/Deserto_do_Atacama"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Fora das regiões polares, qual é o deserto mais seco do mundo, com estações meteorológicas que nunca registraram chuva?",
+      "resposta": "Deserto do Atacama",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atacama_Desert"
+      ],
+      "ancora": "deserto_do_atacama"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "feneco",
+        "nome": "Feneco",
+        "descricao": "Pequena raposa do deserto do Saara, Vulpes zerda, de orelhas enormes.",
+        "variantes": [
+          "Raposa-do-deserto",
+          "Vulpes zerda",
+          "Fennec"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fennec_fox"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Que raposa do norte da África é a menor espécie de canídeo do mundo?",
+      "resposta": "Feneco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fennec_fox"
+      ],
+      "distratores": [
+        "Raposa-de-rüppell",
+        "Raposa-do-ártico",
+        "Raposa-orelhuda"
+      ],
+      "ancora": "feneco"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "peixe_pescador",
+        "nome": "Peixe-pescador",
+        "descricao": "Peixes da ordem Lophiiformes, muitos de águas profundas, que atraem presas com uma isca na cabeça.",
+        "variantes": [
+          "Lophiiformes",
+          "Anglerfish"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anglerfish"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em muitos peixes-pescadores das profundezas, o macho é minúsculo perto da fêmea. O que ele faz quando a encontra?",
+      "resposta": "Funde-se ao corpo dela",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anglerfish"
+      ],
+      "ancora": "peixe_pescador"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "fonte_hidrotermal",
+        "nome": "Fonte hidrotermal",
+        "descricao": "Fissura no fundo do mar por onde sai água aquecida pela atividade vulcânica, base de ecossistemas sem luz solar.",
+        "variantes": [
+          "Hydrothermal vent"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hydrothermal_vent"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Sem luz do sol, os micróbios das fontes hidrotermais fabricam alimento a partir de compostos químicos, como o gás sulfídrico. Como se chama esse processo?",
+      "resposta": "Quimiossíntese",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hydrothermal_vent",
+        "https://en.wikipedia.org/wiki/Chemosynthesis"
+      ],
+      "ancora": "fonte_hidrotermal"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "parque_nacional_de_yellowstone",
+        "nome": "Parque Nacional de Yellowstone",
+        "descricao": "Parque nacional nos Estados Unidos, sobre um grande sistema vulcânico, famoso por gêiseres e fontes termais.",
+        "variantes": [
+          "Yellowstone"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yellowstone_National_Park"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Parque Nacional de Yellowstone se estende por três estados americanos. Em qual deles fica a maior parte do parque?",
+      "resposta": "Wyoming",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yellowstone_National_Park"
+      ],
+      "distratores": [
+        "Montana",
+        "Idaho",
+        "Colorado"
+      ],
+      "ancora": "parque_nacional_de_yellowstone"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "estromatolito",
+        "nome": "Estromatólito",
+        "descricao": "Estrutura sedimentar laminada construída por comunidades de micro-organismos, sobretudo cianobactérias.",
+        "variantes": [
+          "Stromatolite"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stromatolite"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Ecossistemas e Ambientes Extremos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Os estromatólitos do sílex de Strelley Pool, na Austrália, estão entre os sinais de vida mais antigos da Terra. Que idade eles têm?",
+      "resposta": "Cerca de três bilhões e meio",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Estromatólito"
+      ],
+      "distratores": [
+        "Cerca de 65 milhões",
+        "Cerca de 500 milhões",
+        "Cerca de dez mil"
+      ],
+      "ancora": "estromatolito"
+    }
+  ],
+  "ancoras_novas": [],
+  "variantes": {
+    "abismo_challenger": [
+      "Abismo Challenger",
+      "Challenger Deep",
+      "Depressão Challenger"
+    ],
+    "tardigrado": [
+      "Tardígrado",
+      "Urso-d'água",
+      "Tardigrada"
+    ],
+    "pinguim_imperador": [
+      "Pinguim-imperador",
+      "Aptenodytes forsteri"
+    ],
+    "grand_canyon": [
+      "Grand Canyon",
+      "Grande Cânion"
+    ],
+    "old_faithful": [
+      "Old Faithful"
+    ],
+    "recife_de_coral": [
+      "Recife de coral",
+      "Recife coralino"
+    ],
+    "fumarola_negra": [
+      "Fumarola negra",
+      "Black smoker",
+      "Chaminé negra"
+    ],
+    "socotra": [
+      "Socotra",
+      "Socotorá"
+    ],
+    "caverna_dos_cristais": [
+      "Caverna dos Cristais",
+      "Cueva de los Cristales",
+      "Cave of the Crystals"
+    ],
+    "welwitschia": [
+      "Welwitschia",
+      "Welwitschia mirabilis"
+    ],
+    "vitoria_regia": [
+      "Vitória-régia",
+      "Victoria amazonica"
+    ],
+    "acai": [
+      "Açaí",
+      "Açaizeiro",
+      "Euterpe oleracea"
+    ],
+    "cataratas_do_iguacu": [
+      "Cataratas do Iguaçu",
+      "Iguazu Falls",
+      "Cataratas del Iguazú"
+    ],
+    "ciclone_tropical": [
+      "Ciclone tropical",
+      "Furacão",
+      "Tufão"
+    ],
+    "aurora_polar": [
+      "Aurora polar",
+      "Aurora boreal",
+      "Aurora austral"
+    ],
+    "pamukkale": [
+      "Pamukkale"
+    ],
+    "tsingy_de_bemaraha": [
+      "Tsingy de Bemaraha",
+      "Tsingy"
+    ],
+    "arqueias": [
+      "Arqueias",
+      "Archaea",
+      "Arqueobactérias"
+    ],
+    "vulcao": [
+      "Vulcão",
+      "Volcano"
+    ],
+    "coral": [
+      "Coral",
+      "Anthozoa"
+    ],
+    "manguezal": [
+      "Manguezal",
+      "Mangue",
+      "Mangrove"
+    ],
+    "monte_roraima": [
+      "Monte Roraima",
+      "Mount Roraima"
+    ],
+    "ararinha_azul": [
+      "Ararinha-azul",
+      "Cyanopsitta spixii",
+      "Arara-azul-de-spix"
+    ],
+    "umbuzeiro": [
+      "Umbuzeiro",
+      "Umbu",
+      "Spondias tuberosa"
+    ],
+    "bromelia": [
+      "Bromélia",
+      "Bromeliaceae"
+    ],
+    "floresta_de_kelp": [
+      "Floresta de kelp",
+      "Kelp forest"
+    ],
+    "erva_de_passarinho": [
+      "Erva-de-passarinho",
+      "Mistletoe"
+    ],
+    "saguaro": [
+      "Saguaro",
+      "Carnegiea gigantea"
+    ],
+    "superflorada_do_deserto": [
+      "Superflorada do deserto",
+      "Desierto florido",
+      "Superbloom"
+    ],
+    "mar_de_aral": [
+      "Mar de Aral",
+      "Aral Sea"
+    ],
+    "lago_natron": [
+      "Lago Natron",
+      "Lake Natron"
+    ],
+    "estacao_antartica_comandante_ferraz": [
+      "Estação Antártica Comandante Ferraz",
+      "EACF"
+    ],
+    "delta_do_okavango": [
+      "Delta do Okavango",
+      "Okavango Delta"
+    ],
+    "monte_everest": [
+      "Monte Everest",
+      "Everest",
+      "Chomolungma",
+      "Sagarmatha"
+    ],
+    "salar_de_uyuni": [
+      "Salar de Uyuni",
+      "Salar de Tunupa"
+    ],
+    "tubarao_da_groenlandia": [
+      "Tubarão-da-groenlândia",
+      "Somniosus microcephalus",
+      "Greenland shark"
+    ],
+    "antartida": [
+      "Antártida",
+      "Antártica",
+      "Antarctica"
+    ],
+    "feneco": [
+      "Feneco",
+      "Raposa-do-deserto",
+      "Vulpes zerda",
+      "Fennec"
+    ],
+    "urso_polar": [
+      "Urso-polar",
+      "Ursus maritimus",
+      "Urso-branco"
+    ],
+    "peixe_pescador": [
+      "Peixe-pescador",
+      "Lophiiformes",
+      "Anglerfish"
+    ],
+    "fonte_hidrotermal": [
+      "Fonte hidrotermal",
+      "Hydrothermal vent"
+    ],
+    "parque_nacional_de_yellowstone": [
+      "Parque Nacional de Yellowstone",
+      "Yellowstone"
+    ],
+    "polo_sul": [
+      "Polo Sul",
+      "South Pole"
+    ],
+    "estromatolito": [
+      "Estromatólito",
+      "Stromatolite"
+    ],
+    "artico": [
+      "Ártico",
+      "Região Ártica",
+      "Arctic"
+    ],
+    "deserto_do_atacama": [
+      "Deserto do Atacama",
+      "Atacama",
+      "Atacama Desert"
+    ]
+  }
+}
