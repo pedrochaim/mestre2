@@ -1,0 +1,572 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Monumento a Washington",
+        "descricao": "Obelisco de mármore no National Mall, em Washington, D.C., em homenagem a George Washington.",
+        "variantes": [
+          "Washington Monument"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monumento_a_washington",
+          "nome": "Monumento a Washington",
+          "descricao": "Obelisco de mármore no National Mall, em Washington, D.C., em homenagem a George Washington, concluído em 1884.",
+          "variantes": [
+            "Washington Monument"
+          ]
+        },
+        {
+          "id": "laranja_de_umbigo",
+          "nome": "Laranja-de-umbigo",
+          "descricao": "Variedade de laranja sem sementes, com um segundo fruto rudimentar na ponta, surgida no Brasil",
+          "variantes": [
+            "Laranja-baía",
+            "Laranja-da-baía",
+            "Washington navel",
+            "Navel orange"
+          ]
+        },
+        {
+          "id": "estatua_de_borba_gato",
+          "nome": "Estátua de Borba Gato",
+          "descricao": "Monumento ao bandeirante Manoel de Borba Gato, no bairro de Santo Amaro, em São Paulo.",
+          "variantes": [
+            "Monumento a Borba Gato"
+          ]
+        },
+        {
+          "id": "washington_luis",
+          "nome": "Washington Luís",
+          "descricao": "Político paulista, 13º presidente do Brasil e último da Primeira República, derrubado em 1930.",
+          "variantes": [
+            "Washington Luís Pereira de Sousa"
+          ]
+        },
+        {
+          "id": "washington_d_c",
+          "nome": "Washington, D.C.",
+          "descricao": "Capital federal dos Estados Unidos, situada no Distrito de Colúmbia.",
+          "variantes": [
+            "Washington",
+            "Distrito de Colúmbia",
+            "District of Columbia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ópera Garnier",
+        "descricao": "Casa de ópera de Paris inaugurada em 1875, projetada por Charles Garnier.",
+        "variantes": [
+          "Palais Garnier",
+          "Palácio Garnier",
+          "Ópera de Paris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House",
+            "Teatro Ópera de Arame"
+          ]
+        },
+        {
+          "id": "partida_da_opera",
+          "nome": "Partida da Ópera",
+          "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera.",
+          "variantes": [
+            "Opera Game",
+            "Jogo da Ópera"
+          ]
+        },
+        {
+          "id": "palacio_laranjeiras",
+          "nome": "Palácio Laranjeiras",
+          "descricao": "Palácio no bairro de Laranjeiras, no Rio de Janeiro, residência oficial do governador do estado.",
+          "variantes": [
+            "Palácio das Laranjeiras"
+          ]
+        },
+        {
+          "id": "acordo_de_paris",
+          "nome": "Acordo de Paris",
+          "descricao": "Tratado internacional sobre mudanças climáticas adotado em dezembro de 2015, na COP21.",
+          "variantes": [
+            "Paris Agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Paestum",
+        "descricao": "Antiga cidade grega da Magna Grécia, na Itália, famosa por seus três templos dóricos.",
+        "variantes": [
+          "Pesto",
+          "Poseidônia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pesto",
+          "nome": "Pesto",
+          "descricao": "Molho italiano cru de manjericão, alho, pinoli, queijo e azeite, originário da Ligúria",
+          "variantes": [
+            "Pesto genovês",
+            "Pesto alla genovese"
+          ]
+        },
+        {
+          "id": "poseidon",
+          "nome": "Poseidon",
+          "descricao": "Deus grego do mar, dos terremotos e dos cavalos, que porta um tridente.",
+          "variantes": [
+            "Posídon",
+            "Netuno"
+          ]
+        },
+        {
+          "id": "nado_peito",
+          "nome": "Nado peito",
+          "descricao": "Estilo da natação competitiva em que o nadador fica de bruços e move braços e pernas ao mesmo tempo, com pernada de sapo.",
+          "variantes": [
+            "Peito",
+            "Breaststroke"
+          ]
+        },
+        {
+          "id": "politereftalato_de_etileno",
+          "nome": "Politereftalato de etileno",
+          "descricao": "Plástico conhecido pela sigla PET, usado em garrafas de refrigerante e reciclado em fibras têxteis.",
+          "variantes": [
+            "PET",
+            "Polietileno tereftalato"
+          ]
+        },
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Palácio de Verão (Pequim)",
+        "descricao": "Conjunto imperial de jardins, lagos e palácios em Pequim, retiro da imperatriz viúva Cixi.",
+        "variantes": [
+          "Yihe Garden",
+          "Yiheyuan",
+          "Summer Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sudoku",
+          "nome": "Sudoku",
+          "descricao": "Quebra-cabeça de lógica de preencher uma grade 9x9 com dígitos de 1 a 9 sem repetir em linhas, colunas e blocos 3x3.",
+          "variantes": [
+            "Number Place"
+          ]
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        },
+        {
+          "id": "palacio_de_inverno",
+          "nome": "Palácio de Inverno",
+          "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+          "variantes": [
+            "Winter Palace",
+            "Palácio de Inverno de São Petersburgo"
+          ]
+        },
+        {
+          "id": "pato_de_pequim",
+          "nome": "Pato de Pequim",
+          "descricao": "Prato chinês de pato laqueado e assado, de pele crocante, servido com panquecas finas.",
+          "variantes": [
+            "Pato laqueado de Pequim",
+            "Peking duck"
+          ]
+        },
+        {
+          "id": "palau_sant_jordi",
+          "nome": "Palau Sant Jordi",
+          "descricao": "Ginásio coberto do Anel Olímpico de Montjuïc, em Barcelona, projetado por Arata Isozaki.",
+          "variantes": [
+            "Palácio de São Jorge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Túmulo de Askia",
+        "descricao": "Túmulo piramidal de adobe em Gao, no Mali, de Askia Muhammad I, do Império Songai.",
+        "variantes": [
+          "Tomb of Askia",
+          "Túmulo de Ásquia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mausoleu_de_halicarnasso",
+          "nome": "Mausoléu de Halicarnasso",
+          "descricao": "Túmulo monumental do governante Mausolo, na antiga Halicarnasso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Mausoleum at Halicarnassus",
+            "Túmulo de Mausolo",
+            "Mausoléu de Mausolo"
+          ]
+        },
+        {
+          "id": "tesouro_de_atreu",
+          "nome": "Tesouro de Atreu",
+          "descricao": "Grande tumba tholos micênica, de cerca de 1300 a 1250 a.C., em Micenas, na Grécia.",
+          "variantes": [
+            "Túmulo de Agamêmnon",
+            "Treasury of Atreus",
+            "Túmulo de Agamenon"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        },
+        {
+          "id": "grutas_de_ellora",
+          "nome": "Grutas de Ellora",
+          "descricao": "Complexo de templos e mosteiros escavados na rocha, em Aurangabad, na Índia, incluindo o templo de Kailasa.",
+          "variantes": [
+            "Ellora Caves",
+            "Templo de Kailasa"
+          ]
+        },
+        {
+          "id": "salto_de_esqui",
+          "nome": "Salto de esqui",
+          "descricao": "Esporte de inverno em que o atleta salta de uma rampa curva sobre esquis, buscando a maior distância.",
+          "variantes": [
+            "Ski jumping"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Wat Arun",
+        "descricao": "Templo budista com um grande prang, na margem do rio Chao Phraya, em Bangkok, Tailândia.",
+        "variantes": [
+          "Templo da Aurora",
+          "Templo do Amanhecer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wat_arun",
+          "nome": "Wat Arun",
+          "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+          "variantes": [
+            "Templo do Amanhecer",
+            "Templo da Aurora",
+            "Wat Arun Ratchawararam"
+          ]
+        },
+        {
+          "id": "lance",
+          "nome": "Lance",
+          "descricao": "Treinador especialista em pokémon dragão, último membro da Elite dos Quatro em Red e Blue e campeão da Liga em Gold e Silver.",
+          "variantes": [
+            "Wataru"
+          ]
+        },
+        {
+          "id": "templo_de_luxor",
+          "nome": "Templo de Luxor",
+          "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+          "variantes": [
+            "Luxor Temple"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "templo_da_concordia",
+          "nome": "Templo da Concórdia",
+          "descricao": "Templo dórico grego do Vale dos Templos, em Agrigento, na Sicília.",
+          "variantes": [
+            "Tempio della Concordia",
+            "Temple of Concordia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Palácio dos Papas de Avignon",
+        "descricao": "Fortaleza e palácio gótico em Avignon, França, sede do papado no século quatorze.",
+        "variantes": [
+          "Palais des Papes",
+          "Palácio dos Papas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_do_planalto",
+          "nome": "Palácio do Planalto",
+          "descricao": "Sede do governo federal e local de trabalho do presidente do Brasil, em Brasília, projetado por Oscar Niemeyer.",
+          "variantes": [
+            "Planalto"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        },
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "catetinho",
+          "nome": "Catetinho",
+          "descricao": "Residência de madeira em Brasília, primeiro local oficial de trabalho do presidente Juscelino Kubitschek.",
+          "variantes": [
+            "Palácio de Tábuas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Palácio de Peterhof",
+        "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, encomendado por Pedro, o Grande.",
+        "variantes": [
+          "Peterhof",
+          "Petergof",
+          "Versalhes russo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_peterhof",
+          "nome": "Palácio de Peterhof",
+          "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, na Rússia, mandado construir por Pedro, o Grande.",
+          "variantes": [
+            "Peterhof",
+            "Petergof"
+          ]
+        },
+        {
+          "id": "palacio_de_inverno",
+          "nome": "Palácio de Inverno",
+          "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+          "variantes": [
+            "Winter Palace",
+            "Palácio de Inverno de São Petersburgo"
+          ]
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        },
+        {
+          "id": "o_parlamento_de_londres",
+          "nome": "O Parlamento de Londres",
+          "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+          "variantes": [
+            "O Parlamento de Londres (Monet)",
+            "Houses of Parliament",
+            "Parlamento de Londres, Efeito de Neblina",
+            "Palácio de Westminster"
+          ]
+        },
+        {
+          "id": "palacio_de_westminster",
+          "nome": "Palácio de Westminster",
+          "descricao": "Sede do Parlamento do Reino Unido, em Londres, às margens do Tâmisa, com a torre do Big Ben.",
+          "variantes": [
+            "Houses of Parliament",
+            "Casas do Parlamento"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Pentre Ifan",
+        "descricao": "Dolmen neolítico em Pembrokeshire, no País de Gales, o maior e mais bem preservado do país.",
+        "variantes": [
+          "Dolmen de Pentre Ifan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dolmen_de_menga",
+          "nome": "Dólmen de Menga",
+          "descricao": "Grande sepulcro megalítico neolítico perto de Antequera, na Andaluzia, Espanha.",
+          "variantes": [
+            "Cova de Menga"
+          ]
+        },
+        {
+          "id": "persian",
+          "nome": "Persian",
+          "descricao": "Pokémon felino de tipo Normal, número 53 da Pokédex Nacional, evolução de Meowth.",
+          "variantes": []
+        },
+        {
+          "id": "opon_ifa",
+          "nome": "Opon Ifá",
+          "descricao": "Bandeja de madeira entalhada usada pelos adivinhos (babalawo) na adivinhação do Ifá, na tradição iorubá.",
+          "variantes": [
+            "Àtẹ Ifá",
+            "Bandeja de Ifá"
+          ]
+        },
+        {
+          "id": "senhor_de_sipan",
+          "nome": "Senhor de Sipán",
+          "descricao": "Governante moche cuja tumba intacta, cheia de joias, foi descoberta em 1987 no norte do Peru.",
+          "variantes": [
+            "Lord of Sipán",
+            "Señor de Sipán"
+          ]
+        },
+        {
+          "id": "ladrilhos_de_penrose",
+          "nome": "Ladrilhos de Penrose",
+          "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta.",
+          "variantes": [
+            "Penrose tiling",
+            "Pavimentação de Penrose"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "monumento_a_washington",
+      "motivo": "Mesmo obelisco no National Mall."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "opera_garnier",
+      "motivo": "Mesma casa de ópera de Paris, Charles Garnier, 1875."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Paestum é cidade antiga; 'Pesto' candidata é o molho, entidade diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio de Verão de Pequim."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o túmulo de Askia em Gao."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "wat_arun",
+      "motivo": "Mesmo templo em Bangkok."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio dos Papas de Avignon."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_peterhof",
+      "motivo": "Mesmo conjunto de palácios perto de São Petersburgo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Pentre Ifan."
+    }
+  ]
+}

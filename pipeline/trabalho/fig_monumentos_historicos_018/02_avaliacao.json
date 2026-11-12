@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Obelisco inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que monumento é este?",
+      "resposta": "Monumento a Washington",
+      "distratores": [
+        "Obelisco de Buenos Aires",
+        "Agulha de Cleópatra",
+        "Monumento de San Jacinto"
+      ],
+      "ancora": {
+        "nome": "Monumento a Washington",
+        "descricao": "Obelisco de mármore no National Mall, em Washington, D.C., em homenagem a George Washington.",
+        "variantes": [
+          "Washington Monument"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada famosa e reconhecível; o texto na fachada é minúsculo e não nomeia o edifício. Trocado 'quando' por 'quem_fez' para evitar pergunta com ano.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que arquiteto projetou este teatro de Paris?",
+      "resposta": "Charles Garnier",
+      "distratores": [
+        "Gustave Eiffel",
+        "Jacques Ignace Hittorff",
+        "Georges-Eugène Haussmann"
+      ],
+      "ancora": {
+        "nome": "Ópera Garnier",
+        "descricao": "Casa de ópera de Paris inaugurada em 1875, projetada por Charles Garnier.",
+        "variantes": [
+          "Palais Garnier",
+          "Palácio Garnier",
+          "Ópera de Paris"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea mostra claramente os templos dóricos e a malha urbana de Paestum.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que sítio arqueológico é este, com templos gregos muito bem preservados?",
+      "resposta": "Paestum",
+      "distratores": [
+        "Pompeia",
+        "Selinunte",
+        "Herculano"
+      ],
+      "ancora": {
+        "nome": "Paestum",
+        "descricao": "Antiga cidade grega da Magna Grécia, na Itália, famosa por seus três templos dóricos.",
+        "variantes": [
+          "Pesto",
+          "Poseidônia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Santuário Inari com estátuas de raposa e salão vermelho, sem o túnel de torii; há milhares de santuários Inari parecidos, então a resposta não é única. Há ainda placas com texto."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pátio branco com palmeiras genérico, sem traço que permita reconhecer o forte."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Torre do Incenso Budista na Colina da Longevidade e lago Kunming, reconhecível. Trocado 'quando' por 'onde' para evitar pergunta com ano.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Em que cidade fica este conjunto imperial de jardins e pavilhões?",
+      "resposta": "Pequim",
+      "distratores": [
+        "Xangai",
+        "Nanquim",
+        "Xi'an"
+      ],
+      "ancora": {
+        "nome": "Palácio de Verão (Pequim)",
+        "descricao": "Conjunto imperial de jardins, lagos e palácios em Pequim, retiro da imperatriz viúva Cixi.",
+        "variantes": [
+          "Yihe Garden",
+          "Yiheyuan",
+          "Summer Palace"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pirâmide de adobe com vigas salientes, típica do Sahel, reconhecível; distratores de mesma região.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 9,
+      "pergunta": "Que edifício de terra da África Ocidental é este?",
+      "resposta": "Túmulo de Askia",
+      "distratores": [
+        "Grande Mesquita de Djenné",
+        "Mesquita de Sankoré",
+        "Mesquita de Sidi Yahia"
+      ],
+      "ancora": {
+        "nome": "Túmulo de Askia",
+        "descricao": "Túmulo piramidal de adobe em Gao, no Mali, de Askia Muhammad I, do Império Songai.",
+        "variantes": [
+          "Tomb of Askia",
+          "Túmulo de Ásquia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Prang icônico do Wat Arun às margens do Chao Phraya, sem texto relevante.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 4,
+      "pergunta": "Em que cidade fica este templo budista?",
+      "resposta": "Bangkok",
+      "distratores": [
+        "Chiang Mai",
+        "Ayutthaya",
+        "Phuket"
+      ],
+      "ancora": {
+        "nome": "Wat Arun",
+        "descricao": "Templo budista com um grande prang, na margem do rio Chao Phraya, em Bangkok, Tailândia.",
+        "variantes": [
+          "Templo da Aurora",
+          "Templo do Amanhecer"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fortaleza-palácio gótica inconfundível; pergunta sobre o século, não o ano.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Em que século este palácio foi residência dos papas?",
+      "resposta": "Século quatorze",
+      "distratores": [
+        "Século treze",
+        "Século quinze",
+        "Século doze"
+      ],
+      "ancora": {
+        "nome": "Palácio dos Papas de Avignon",
+        "descricao": "Fortaleza e palácio gótico em Avignon, França, sede do papado no século quatorze.",
+        "variantes": [
+          "Palais des Papes",
+          "Palácio dos Papas"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Grande Cascata e Palácio de Peterhof, inconfundível. Pergunta sobre o encomendante, com 'originalmente' para evitar ambiguidade.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 7,
+      "pergunta": "Que soberano russo encomendou originalmente este palácio e seus jardins?",
+      "resposta": "Pedro, o Grande",
+      "distratores": [
+        "Ivan, o Terrível",
+        "Nicolau II",
+        "Alexandre III"
+      ],
+      "ancora": {
+        "nome": "Palácio de Peterhof",
+        "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, encomendado por Pedro, o Grande.",
+        "variantes": [
+          "Peterhof",
+          "Petergof",
+          "Versalhes russo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dolmen nítido, forma inconfundível; a pergunta pede o tipo de monumento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de monumento pré-histórico de pedra é este?",
+      "resposta": "Dolmen",
+      "distratores": [
+        "Menir",
+        "Cromeleque",
+        "Cairn"
+      ],
+      "ancora": {
+        "nome": "Pentre Ifan",
+        "descricao": "Dolmen neolítico em Pembrokeshire, no País de Gales, o maior e mais bem preservado do país.",
+        "variantes": [
+          "Dolmen de Pentre Ifan"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto aérea confusa de ruínas entre prédios modernos e um museu; pouco reconhecível e pouco legível no celular."
+    }
+  ]
+}

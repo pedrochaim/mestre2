@@ -1,0 +1,109 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que monumento é este?",
+        "resposta": "Monumento a Washington"
+      },
+      "existentes": [
+        {
+          "id": "q11604",
+          "pergunta": "O obelisco do Monumento a Washington tem duas tonalidades de mármore, uma na base e outra no alto. Por quê?",
+          "resposta": "Obra interrompida por duas décadas"
+        },
+        {
+          "id": "q17052",
+          "pergunta": "Que monumento é este?",
+          "resposta": "Monumento a Washington"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que arquiteto projetou este teatro de Paris?",
+        "resposta": "Charles Garnier"
+      },
+      "existentes": [
+        {
+          "id": "q04256",
+          "pergunta": "Em que ano foi inaugurada a Ópera Garnier, de Paris, cenário do romance O Fantasma da Ópera?",
+          "resposta": "1875"
+        },
+        {
+          "id": "q08472",
+          "pergunta": "O reservatório de água sob o Palais Garnier, em Paris, inspirou o esconderijo de qual personagem do romance de Gaston Leroux?",
+          "resposta": "O Fantasma da Ópera"
+        },
+        {
+          "id": "q17057",
+          "pergunta": "Em que cidade fica este edifício?",
+          "resposta": "Paris"
+        },
+        {
+          "id": "q19465",
+          "pergunta": "Em 1964, que pintor modernista de origem russa pintou o novo teto da sala de espetáculos da Ópera Garnier, em Paris?",
+          "resposta": "Marc Chagall"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica este templo budista?",
+        "resposta": "Bangkok"
+      },
+      "existentes": [
+        {
+          "id": "q08669",
+          "pergunta": "Que templo budista tailandês é este?",
+          "resposta": "Wat Arun"
+        },
+        {
+          "id": "q14123",
+          "pergunta": "Em que cidade, às margens de um grande rio, fica este templo?",
+          "resposta": "Bangkok"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que soberano russo encomendou originalmente este palácio e seus jardins?",
+        "resposta": "Pedro, o Grande"
+      },
+      "existentes": [
+        {
+          "id": "q14582",
+          "pergunta": "Que palácio russo é este?",
+          "resposta": "Palácio de Peterhof"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q17052",
+      "motivo": "Pergunta e resposta idênticas a q17052."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O arquiteto do teatro é um fato diferente de ano, personagem, cidade ou pintor do teto."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q14123",
+      "motivo": "Ambas perguntam a cidade do templo, com resposta Bangkok."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Quem encomendou o palácio é diferente de identificar o palácio."
+    }
+  ]
+}

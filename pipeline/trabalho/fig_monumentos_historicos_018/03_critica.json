@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem vazamento; distratores são obeliscos críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem o nome na pergunta, não se responde sem a figura; trechos confirmam Garnier; distratores são arquitetos/urbanistas parisienses, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'templos gregos muito bem preservados' é quase a descrição de fama de Paestum e entrega a resposta sem a figura; além disso, outros sítios (Agrigento, Segesta) também têm templos gregos bem preservados, e os distratores romanos ficam eliminados pela pista. Trocar a pista por país e ajustar distratores.",
+      "reescrita": {
+        "pergunta": "Que sítio arqueológico do sul da Itália é este?",
+        "resposta": "Paestum",
+        "distratores": [
+          "Pompeia",
+          "Selinunte",
+          "Agrigento"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que fica em Pequim; pista não entrega a cidade; distratores são cidades chinesas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho descreve o túmulo como exemplo de construção de lama do Sael; distratores também são edifícios de terra da região, e a figura distingue.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wat Arun fica em Bangkok, confirmado nos trechos; distratores são cidades tailandesas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos dizem que a residência papal foi sede da cristandade no século XIV; a figura identifica o palácio e distratores são séculos próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que Pedro, o Grande encomendou o conjunto; enunciado não nomeia a entidade; distratores são soberanos russos que não o encomendaram.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que Pentre Ifan é um dolmen neolítico; distratores são outros tipos de monumento megalítico, nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}
