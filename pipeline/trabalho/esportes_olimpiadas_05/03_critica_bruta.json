@@ -1,0 +1,445 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Phelps foi criado em Towson, não em Baltimore; o apelido não consta nos trechos, mas é bem documentado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Nascido numa grande cidade portuária de Maryland, Michael Phelps ganhou um apelido que junta o nome dela a um projétil. Qual?",
+        "resposta": "Bala de Baltimore",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Michael_Phelps"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia aos 15 anos em Sydney 2000, 5º lugar nos 200 m borboleta, sem medalha; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Adi Dassler visitou Owens em 1936 e fundou a Adidas depois; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte sustenta a Guerra Franco-Prussiana como motivação da defesa da educação física.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pausânias registra a proibição às mulheres casadas; fato amplamente documentado e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "As estrelas do escudo do São Paulo são douradas, não vermelhas.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que grande clube de futebol paulista, pelo qual Adhemar Ferreira da Silva competiu, traz no escudo duas estrelas douradas em homenagem aos recordes mundiais dele?",
+        "resposta": "São Paulo Futebol Clube",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva",
+          "https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_Futebol_Clube"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casamento com Bart Conner, campeão em 1984; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os sapatos novos não serviam e davam bolhas; resposta fiel à fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chegada à noite no Arco de Constantino, com tochas; distratores de mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colchões de espuma profundos tornaram o salto de costas seguro, no lugar de areia ou colchões baixos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte diz simultâneo aos Jogos de Londres; o dia da abertura, 29 de julho de 1948, é documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; a lágrima de Misha no encerramento é fato bem documentado, trocar fonte.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "No encerramento de Moscou 1980, o urso Misha, mascote dos Jogos, apareceu num painel formado por cartões na arquibancada. Que gesto dele emocionou o estádio?",
+        "resposta": "Derramou uma lágrima",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/1980_Summer_Olympics"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Só parte das armas e da munição foi roubada, segundo a fonte em português.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em Antuérpia 1920, os atiradores brasileiros conquistaram medalhas usando armas e munição emprestadas pela equipe americana. Por que precisaram do empréstimo?",
+        "resposta": "Parte das armas e munição foi roubada",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Brasil_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1920",
+          "https://en.wikipedia.org/wiki/Brazil_at_the_1920_Summer_Olympics"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasceu em Taguatinga; distratores são regiões do DF.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Horan, ex-padre irlandês; fonte principal confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Biles e Jordan Chiles se curvaram a Rebeca no pódio do solo.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três cirurgias de reconstrução do LCA, todas no joelho direito.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O apelido 'Sem Rim' não aparece nos trechos e não tenho certeza dele.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Uma das varas foi perdida pela organização em Pequim; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "7,04 contra 7,03 de Lebedeva, um centímetro de diferença.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tinha 13 anos em Tóquio; distratores próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aprendeu a surfar numa tampa de caixa de isopor, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kahena Kunze foi parceira de Martine Grael nos dois ouros.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "The Swimmers (As Nadadoras), da Netflix, conta a história de Yusra Mardini.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Competições de arte eliminadas por os artistas serem considerados profissionais.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coubertin simulou a experiência de um soldado de cavalaria atrás das linhas inimigas.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vai trocar' é dependente do tempo; reescrever no passado.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Depois de polêmicas com cavalos em Tóquio 2020, o pentatlo moderno trocou o hipismo por outra prova a partir de Los Angeles 2028. Qual?",
+        "resposta": "Corrida de obstáculos",
+        "distratores": [
+          "Escalada esportiva",
+          "Ciclismo de estrada",
+          "Canoagem"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Modern_pentathlon"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Título de maior atleta do mundo ligado ao decatlo desde Thorpe em 1912.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido 'Pardal de Minsk' confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "'Flying Tomato' é apelido amplamente documentado de Shaun White.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eddie the Eagle, último em Calgary 1988; fato e apelido confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ailsa Craig, ilha desabitada, fornece o granito das pedras olímpicas.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte diz que foi uma brincadeira e que a bandeira devolvida é contestada; perguntar quem a levou.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "No fim de Antuérpia 1920, a bandeira olímpica sumiu, levada por brincadeira por um mergulhador americano. Quem era ele?",
+        "resposta": "Hal Haig Prieste",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hal_Haig_Prieste",
+          "https://en.wikipedia.org/wiki/Olympic_flag"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Letra de Kostis Palamas confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tocha levada debaixo d'água na Grande Barreira de Coral.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Operação Ira de Deus confirmada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Boicote soviético a Los Angeles 1984 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte não diz que o nome veio da mãe e a tradução em português é 'Caminho Iluminado'.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "De origem indígena, o campeão olímpico Jim Thorpe tinha um nome em sua língua nativa, Wa-Tho-Huk. O que esse nome significa?",
+        "resposta": "Caminho Iluminado",
+        "distratores": [
+          "Águia Veloz",
+          "Trovão da Planície",
+          "Cavalo Ligeiro"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Jim_Thorpe",
+          "https://en.wikipedia.org/wiki/Jim_Thorpe"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nurmi corria com o relógio na mão para controlar o ritmo.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "'Filho do Vento' é o apelido brasileiro de Carl Lewis; nove ouros confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Unhas longas e coloridas eram sua marca registrada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conan Doyle escreveu o relato para o Daily Mail.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desistiu por causa dos twisties, perda de noção espacial no ar.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Erupção do Vesúvio em 1906 desviou os recursos italianos.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma fonte é página de desambiguação; manter apenas a da cerimônia.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Na abertura de Londres 2012, a rainha Elizabeth segunda apareceu num filme, saindo do palácio para pular de paraquedas ao lado de que famoso espião do cinema?",
+        "resposta": "James Bond",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/2012_Summer_Olympics_opening_ceremony"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Danny Boyle dirigiu a cerimônia; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gisele desfilou ao som de Garota de Ipanema.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Céline Dion cantou Hymne à l'amour, de Édith Piaf.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte registra o apelido 'Tubarão das Piscinas', não 'Tubarão Paralímpico'.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Ídolo da natação paralímpica brasileira, com seis ouros em Atenas 2004, Clodoaldo Silva ficou conhecido por que apelido?",
+        "resposta": "Tubarão das Piscinas",
+        "distratores": [
+          "Golfinho de Natal",
+          "Torpedo Potiguar",
+          "Peixe Voador"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Clodoaldo_Silva"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Discóbolo é obra de Míron, original em bronze.",
+      "reescrita": null
+    }
+  ]
+}

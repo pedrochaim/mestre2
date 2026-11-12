@@ -1451,3 +1451,7 @@
 {"quando": "2026-11-12T07:32:13", "evento": "concluido", "trabalho": "natureza_ecossistemas_e_ambientes_extremos_04", "registradas": 30, "total": 20994}
 {"quando": "2026-11-12T07:37:01", "evento": "concluido", "trabalho": "fig_relevo_maravilhas_019", "registradas": 4, "total": 20998}
 {"quando": "2026-11-12T07:43:44", "evento": "concluido", "trabalho": "fig_artefatos_antigos_011", "registradas": 7, "total": 21005}
+{"quando": "2026-11-12T07:55:52", "evento": "falha", "trabalho": "esportes_olimpiadas_05", "mensagem": "Claude devolveu erro (success): You've hit your 5-hour limit · resets 10:10am (America/Sao_Paulo)", "vezes": 1}
+{"quando": "2026-11-12T07:57:00", "evento": "cota", "trabalho": "esportes_olimpiadas_05", "mensagem": "Session limit reached: 101% da sessão usados (limite de 95%); renova às 10:10 |1794489000", "volta": "2026-11-12T10:12:00"}
+{"quando": "2026-11-12T16:19:32", "evento": "inicio", "pid": 14408, "max": 0, "so": null, "limite_sessao": 0.95, "foco_multipla": true}
+{"quando": "2026-11-12T16:21:44", "evento": "concluido", "trabalho": "esportes_olimpiadas_05", "registradas": 42, "total": 21047}

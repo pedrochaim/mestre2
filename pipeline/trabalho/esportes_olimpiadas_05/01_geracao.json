@@ -1,0 +1,1058 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "michael_phelps",
+        "nome": "Michael Phelps",
+        "descricao": "Nadador americano, maior medalhista da história dos Jogos Olímpicos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Phelps"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Nascido e criado numa grande cidade portuária de Maryland, Michael Phelps ganhou um apelido que junta o nome dela a um projétil. Qual?",
+      "resposta": "Bala de Baltimore",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michael_Phelps"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "michael_phelps",
+        "nome": "Michael Phelps",
+        "descricao": "Nadador americano, maior medalhista da história dos Jogos Olímpicos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Phelps"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Michael Phelps estreou em Jogos Olímpicos com apenas quinze anos e voltou para casa sem medalha. Em que edição foi isso?",
+      "resposta": "Sydney 2000",
+      "distratores": [
+        "Atlanta 1996",
+        "Atenas 2004",
+        "Barcelona 1992"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michael_Phelps"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jesse_owens",
+        "nome": "Jesse Owens",
+        "descricao": "Velocista americano, campeão de quatro provas nos Jogos de Berlim 1936.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jesse_Owens"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em Berlim 1936, Jesse Owens correu com sapatilhas de um sapateiro alemão que, anos depois, fundou uma famosa marca esportiva. Que marca?",
+      "resposta": "Adidas",
+      "distratores": [
+        "Nike",
+        "Reebok",
+        "Asics"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adolf_Dassler",
+        "https://en.wikipedia.org/wiki/Jesse_Owens"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pierre_de_coubertin",
+        "nome": "Pierre de Coubertin",
+        "descricao": "Pedagogo francês, fundador do Comitê Olímpico Internacional e idealizador dos Jogos Olímpicos modernos.",
+        "variantes": [
+          "Barão de Coubertin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pierre_de_Coubertin"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Pierre de Coubertin defendia o esporte nas escolas porque atribuía a derrota da França em uma guerra ao mau preparo físico dos jovens. Que guerra?",
+      "resposta": "Guerra Franco-Prussiana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pierre_de_Coubertin"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jogos_olimpicos_da_antiguidade",
+        "nome": "Jogos Olímpicos da Antiguidade",
+        "descricao": "Festival esportivo e religioso realizado no santuário de Olímpia, na Grécia Antiga.",
+        "variantes": [
+          "Jogos Olímpicos antigos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nos Jogos de Olímpia da Antiguidade, que grupo de pessoas era proibido, sob ameaça de morte, de assistir às competições?",
+      "resposta": "Mulheres casadas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "adhemar_ferreira_da_silva",
+        "nome": "Adhemar Ferreira da Silva",
+        "descricao": "Atleta brasileiro, bicampeão olímpico do salto triplo em 1952 e 1956.",
+        "variantes": [
+          "Adhemar da Silva"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que grande clube de futebol paulista, pelo qual Adhemar Ferreira da Silva competia, traz no escudo duas estrelas vermelhas em homenagem aos recordes mundiais dele?",
+      "resposta": "São Paulo Futebol Clube",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_Futebol_Clube",
+        "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nadia_comaneci",
+        "nome": "Nadia Comăneci",
+        "descricao": "Ginasta romena que recebeu a primeira nota dez da ginástica olímpica, em Montreal 1976.",
+        "variantes": [
+          "Nadia Comaneci"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nadia_Com%C4%83neci"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Depois de deixar a Romênia, Nadia Comaneci se casou com um ginasta americano, campeão olímpico em Los Angeles 1984. Quem é ele?",
+      "resposta": "Bart Conner",
+      "distratores": [
+        "Mitch Gaylord",
+        "Peter Vidmar",
+        "Kurt Thomas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bart_Conner",
+        "https://en.wikipedia.org/wiki/Nadia_Com%C4%83neci"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abebe_bikila",
+        "nome": "Abebe Bikila",
+        "descricao": "Maratonista etíope, campeão olímpico da maratona em Roma 1960 e Tóquio 1964.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abebe_Bikila"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na maratona de Roma 1960, Abebe Bikila venceu correndo descalço. Por que ele decidiu correr sem calçados?",
+      "resposta": "Os tênis fornecidos não serviam bem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abebe_Bikila"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abebe_bikila",
+        "nome": "Abebe Bikila",
+        "descricao": "Maratonista etíope, campeão olímpico da maratona em Roma 1960 e Tóquio 1964.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abebe_Bikila"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A maratona de Roma 1960, vencida por Abebe Bikila, terminou à noite, iluminada por tochas, junto a um arco triunfal romano. Qual?",
+      "resposta": "Arco de Constantino",
+      "distratores": [
+        "Arco de Tito",
+        "Arco de Septímio Severo",
+        "Arco de Jano"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Athletics_at_the_1960_Summer_Olympics_%E2%80%93_Men%27s_marathon",
+        "https://en.wikipedia.org/wiki/Abebe_Bikila"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fosbury_flop",
+        "nome": "Fosbury Flop",
+        "descricao": "Técnica do salto em altura em que o atleta passa de costas sobre o sarrafo.",
+        "variantes": [
+          "Flop"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fosbury_flop"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Saltar de costas e cair de nuca no salto em altura só se tornou seguro graças a uma mudança na área de queda. Qual foi essa mudança?",
+      "resposta": "Colchões de espuma no lugar da areia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fosbury_flop"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jogos_de_stoke_mandeville",
+        "nome": "Jogos de Stoke Mandeville",
+        "descricao": "Competição criada em 1948 num hospital inglês, considerada a origem dos Jogos Paralímpicos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stoke_Mandeville_Games"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Os primeiros jogos para atletas em cadeira de rodas de Stoke Mandeville, em 1948, foram marcados para o mesmo dia de que grande evento esportivo?",
+      "resposta": "Abertura dos Jogos Olímpicos de Londres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stoke_Mandeville_Games"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Misha",
+        "descricao": "Urso mascote dos Jogos Olímpicos de Moscou 1980.",
+        "variantes": [
+          "Misha, o urso olímpico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Misha_(mascot)"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No encerramento de Moscou 1980, o urso Misha, mascote dos Jogos, apareceu num painel formado por cartões na arquibancada. Que gesto dele emocionou o estádio?",
+      "resposta": "Derramou uma lágrima",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Misha_(mascot)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "brasil_nos_jogos_olimpicos_de_verao_de_1920",
+        "nome": "Brasil nos Jogos Olímpicos de Verão de 1920",
+        "descricao": "Participação brasileira nos Jogos de Antuérpia 1920, a primeira do país em Jogos Olímpicos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_at_the_1920_Summer_Olympics"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Antuérpia 1920, os atiradores brasileiros conquistaram medalhas usando armas e munição emprestadas pela equipe americana. Por que precisaram do empréstimo?",
+      "resposta": "Suas armas e munição foram roubadas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_at_the_1920_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Guilherme_Paraense"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "joaquim_cruz",
+        "nome": "Joaquim Cruz",
+        "descricao": "Meio-fundista brasileiro, campeão olímpico dos 800 metros.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Joaquim_Cruz"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Campeão olímpico dos oitocentos metros, Joaquim Cruz nasceu numa cidade do Distrito Federal, vizinha a Brasília. Qual?",
+      "resposta": "Taguatinga",
+      "distratores": [
+        "Ceilândia",
+        "Gama",
+        "Sobradinho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Joaquim_Cruz"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "vanderlei_cordeiro_de_lima",
+        "nome": "Vanderlei Cordeiro de Lima",
+        "descricao": "Maratonista brasileiro, medalha de bronze na maratona dos Jogos de Atenas 2004.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O homem que agarrou Vanderlei Cordeiro de Lima quando ele liderava a maratona de Atenas 2004 era um padre afastado. De que país ele era?",
+      "resposta": "Irlanda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cornelius_Horan",
+        "https://en.wikipedia.org/wiki/Vanderlei_Cordeiro_de_Lima"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rebeca_andrade",
+        "nome": "Rebeca Andrade",
+        "descricao": "Ginasta artística brasileira, campeã olímpica no salto em Tóquio 2020 e no solo em Paris 2024.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rebeca_Andrade"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No pódio do solo em Paris 2024, duas americanas se curvaram em reverência à campeã Rebeca Andrade. Uma era Simone Biles. Quem era a outra?",
+      "resposta": "Jordan Chiles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rebeca_Andrade"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rebeca_andrade",
+        "nome": "Rebeca Andrade",
+        "descricao": "Ginasta artística brasileira, campeã olímpica no salto em Tóquio 2020 e no solo em Paris 2024.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rebeca_Andrade"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Antes das medalhas olímpicas, Rebeca Andrade rompeu o ligamento cruzado do joelho direito várias vezes. Quantas cirurgias ela fez nesse ligamento?",
+      "resposta": "Três",
+      "distratores": [
+        "Uma",
+        "Duas",
+        "Cinco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rebeca_Andrade"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "isaquias_queiroz",
+        "nome": "Isaquias Queiroz",
+        "descricao": "Canoísta brasileiro de velocidade, medalhista olímpico com três medalhas numa mesma edição.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Isaquias_Queiroz"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Quando criança, o canoísta Isaquias Queiroz caiu de uma árvore e perdeu um órgão. Que apelido os amigos lhe deram por causa disso?",
+      "resposta": "Sem Rim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isaquias_Queiroz",
+        "https://pt.wikipedia.org/wiki/Isaquias_Queiroz"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fabiana_murer",
+        "nome": "Fabiana Murer",
+        "descricao": "Atleta brasileira aposentada de salto com vara, campeã mundial em 2011.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fabiana_Murer"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na final do salto com vara de Pequim 2008, Fabiana Murer ficou longe do pódio depois de um problema causado pela organização. O que aconteceu?",
+      "resposta": "Uma de suas varas sumiu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fabiana_Murer"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "maurren_maggi",
+        "nome": "Maurren Maggi",
+        "descricao": "Ex-atleta brasileira, campeã olímpica do salto em distância em 2008.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maurren_Maggi"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em Pequim 2008, Maurren Maggi ganhou o ouro do salto em distância saltando sete metros e quatro. Por quanto ela superou a russa Tatyana Lebedeva?",
+      "resposta": "Um centímetro",
+      "distratores": [
+        "Dois centímetros",
+        "Cinco centímetros",
+        "Dez centímetros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Athletics_at_the_2008_Summer_Olympics_%E2%80%93_Women%27s_long_jump",
+        "https://en.wikipedia.org/wiki/Maurren_Maggi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rayssa_leal",
+        "nome": "Rayssa Leal",
+        "descricao": "Skatista brasileira, medalhista olímpica no skate street, conhecida como Fadinha.",
+        "variantes": [
+          "Fadinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rayssa_Leal"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Rayssa Leal conquistou a medalha de prata no skate street dos Jogos de Tóquio com quantos anos de idade?",
+      "resposta": "Treze",
+      "distratores": [
+        "Doze",
+        "Catorze",
+        "Quinze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rayssa_Leal"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "italo_ferreira",
+        "nome": "Ítalo Ferreira",
+        "descricao": "Surfista brasileiro de Baía Formosa (RN), campeão mundial da WSL e campeão olímpico em 2020.",
+        "variantes": [
+          "Italo Ferreira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/%C3%8Dtalo_Ferreira"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Sem dinheiro para comprar uma prancha, o menino Ítalo Ferreira, futuro campeão olímpico, aprendeu a surfar em Baía Formosa usando o quê?",
+      "resposta": "Uma tampa de caixa de isopor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/%C3%8Dtalo_Ferreira"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "martine_grael",
+        "nome": "Martine Grael",
+        "descricao": "Velejadora brasileira, campeã olímpica na classe 49er FX no Rio e em Tóquio.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Martine_Grael"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Nos ouros olímpicos da classe 49er FX, no Rio e em Tóquio, quem dividiu o barco com Martine Grael?",
+      "resposta": "Kahena Kunze",
+      "distratores": [
+        "Fernanda Oliveira",
+        "Isabel Swan",
+        "Patrícia Freitas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kahena_Kunze",
+        "https://en.wikipedia.org/wiki/Martine_Grael"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "equipe_olimpica_de_refugiados",
+        "nome": "Equipe Olímpica de Refugiados",
+        "descricao": "Delegação de atletas refugiados que compete nos Jogos Olímpicos sob a bandeira olímpica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Refugee_Olympic_Team"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A síria Yusra Mardini, da Equipe de Refugiados, ajudou a empurrar um bote à deriva no mar Egeu antes de nadar nos Jogos. Que filme da Netflix conta sua história?",
+      "resposta": "As Nadadoras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yusra_Mardini",
+        "https://en.wikipedia.org/wiki/The_Swimmers_(2022_film)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "competicoes_de_arte_nos_jogos_olimpicos",
+        "nome": "Competições de arte nos Jogos Olímpicos",
+        "descricao": "Disputas de pintura, escultura, literatura, música e arquitetura que deram medalhas olímpicas na primeira metade do século vinte.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Depois de 1948, as medalhas olímpicas de pintura, escultura e literatura deixaram de existir. Por que essas competições foram eliminadas?",
+      "resposta": "Os artistas eram profissionais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pentatlo_moderno",
+        "nome": "Pentatlo moderno",
+        "descricao": "Modalidade olímpica criada por Pierre de Coubertin, que combina esgrima, natação, hipismo, tiro e corrida.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Modern_pentathlon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Coubertin juntou esgrima, natação, cavalo, tiro e corrida no pentatlo moderno para simular a aventura de que personagem?",
+      "resposta": "Um soldado atrás das linhas inimigas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Modern_pentathlon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pentatlo_moderno",
+        "nome": "Pentatlo moderno",
+        "descricao": "Modalidade olímpica criada por Pierre de Coubertin, que combina esgrima, natação, hipismo, tiro e corrida.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Modern_pentathlon"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Depois de polêmicas com cavalos em Tóquio, o pentatlo moderno vai trocar o hipismo por outra prova a partir de Los Angeles 2028. Qual?",
+      "resposta": "Corrida de obstáculos",
+      "distratores": [
+        "Escalada esportiva",
+        "Ciclismo de estrada",
+        "Canoagem"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Modern_pentathlon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Decatlo",
+        "descricao": "Prova combinada do atletismo masculino com dez provas disputadas em dois dias.",
+        "variantes": [
+          "Decathlon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Decathlon"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Desde que o rei da Suécia elogiou Jim Thorpe em 1912, que título informal costuma acompanhar o campeão olímpico do decatlo?",
+      "resposta": "Maior atleta do mundo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Decathlon",
+        "https://en.wikipedia.org/wiki/Jim_Thorpe"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "olga_korbut",
+        "nome": "Olga Korbut",
+        "descricao": "Ginasta soviética nascida na Bielorrússia, estrela dos Jogos Olímpicos de 1972.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olga_Korbut"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Pequena e leve, a ginasta soviética Olga Korbut encantou o público em Munique 1972 e ganhou um apelido de passarinho. Qual?",
+      "resposta": "Pardal de Minsk",
+      "distratores": [
+        "Andorinha de Kiev",
+        "Beija-flor de Moscou",
+        "Canário de Odessa"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olga_Korbut"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "shaun_white",
+        "nome": "Shaun White",
+        "descricao": "Snowboarder e skatista americano, três vezes campeão olímpico no half-pipe.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shaun_White"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Por causa da longa cabeleira ruiva que voava em suas manobras, o snowboarder Shaun White ganhou que apelido?",
+      "resposta": "Tomate Voador",
+      "distratores": [
+        "Cenoura Voadora",
+        "Raposa Ruiva",
+        "Cometa Vermelho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shaun_White"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eddie the Eagle",
+        "descricao": "Michael Edwards, saltador de esqui britânico que ficou em último em Calgary 1988 e virou ídolo popular.",
+        "variantes": [
+          "Michael Edwards",
+          "Eddie Edwards",
+          "Eddie, a Águia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eddie_the_Eagle"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Míope e sem patrocínio, o britânico Michael Edwards ficou em último no salto de esqui de Calgary 1988, mas virou ídolo. Por que apelido ficou famoso?",
+      "resposta": "Eddie, a Águia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eddie_the_Eagle"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "curling",
+        "nome": "Curling",
+        "descricao": "Esporte de inverno em que se desliza uma pedra de granito no gelo até um alvo.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Curling"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "As pedras usadas no curling olímpico costumam ser feitas de um granito especial, extraído de uma pequena ilha desabitada da Escócia. Que ilha?",
+      "resposta": "Ailsa Craig",
+      "distratores": [
+        "Skye",
+        "Iona",
+        "Arran"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ailsa_Craig",
+        "https://en.wikipedia.org/wiki/Curling"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bandeira_olimpica",
+        "nome": "Bandeira olímpica",
+        "descricao": "Bandeira branca com os cinco anéis olímpicos entrelaçados, hasteada nas cerimônias dos Jogos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympic_flag"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A bandeira olímpica hasteada em Antuérpia 1920 sumiu e só voltou ao Comitê Olímpico Internacional muitas décadas depois. Por que ela tinha desaparecido?",
+      "resposta": "Um atleta americano a roubou do mastro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympic_flag",
+        "https://en.wikipedia.org/wiki/Hal_Haig_Prieste"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hino_olimpico",
+        "nome": "Hino olímpico",
+        "descricao": "Composição grega tocada pela primeira vez nos Jogos de Atenas 1896 e adotada como hino oficial do movimento olímpico.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympic_Hymn"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O hino olímpico tem música de Spyros Samaras. A letra, em grego, foi escrita por que poeta?",
+      "resposta": "Kostis Palamas",
+      "distratores": [
+        "Constantino Cavafis",
+        "Nikos Kazantzakis",
+        "Odysseas Elytis"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympic_Hymn"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "revezamento_da_tocha_olimpica",
+        "nome": "Revezamento da tocha olímpica",
+        "descricao": "Percurso em que a chama olímpica é levada de Olímpia até a cidade-sede dos Jogos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympic_flame"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A caminho de Sydney 2000, a tocha olímpica foi levada debaixo d'água, com uma chama especial, num famoso ponto da costa australiana. Qual?",
+      "resposta": "Grande Barreira de Coral",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2000_Summer_Olympics_torch_relay"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "massacre_de_munique",
+        "nome": "Massacre de Munique",
+        "descricao": "Ataque a atletas israelenses durante os Jogos Olímpicos de Munique 1972.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Munich_massacre"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Depois do ataque aos atletas israelenses em Munique 1972, o serviço secreto de Israel montou uma operação para caçar os responsáveis. Como ela ficou conhecida?",
+      "resposta": "Operação Ira de Deus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Operation_Wrath_of_God"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "boicote_aos_jogos_de_moscou_1980",
+        "nome": "Boicote aos Jogos de Moscou 1980",
+        "descricao": "Boicote liderado pelos Estados Unidos aos Jogos Olímpicos de Verão de 1980, em Moscou.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1980_Summer_Olympics_boycott"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Quatro anos depois do boicote liderado pelos americanos a Moscou 1980, a União Soviética e seus aliados deram o troco boicotando que edição dos Jogos?",
+      "resposta": "Los Angeles 1984",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1984_Summer_Olympics_boycott"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jim_thorpe",
+        "nome": "Jim Thorpe",
+        "descricao": "Atleta americano, campeão do pentatlo e do decatlo nos Jogos de Estocolmo 1912.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jim_Thorpe"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "De origem indígena, o campeão olímpico Jim Thorpe recebeu da mãe o nome Wa-Tho-Huk. O que esse nome significa?",
+      "resposta": "Caminho Brilhante",
+      "distratores": [
+        "Águia Veloz",
+        "Trovão da Planície",
+        "Cavalo Ligeiro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jim_Thorpe"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "paavo_nurmi",
+        "nome": "Paavo Nurmi",
+        "descricao": "Fundista finlandês, nove vezes campeão olímpico nos Jogos de 1920, 1924 e 1928.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paavo_Nurmi"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O fundista finlandês Paavo Nurmi ficou famoso por correr carregando na mão um objeto que o ajudava a controlar o ritmo. Que objeto?",
+      "resposta": "Um cronômetro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paavo_Nurmi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "carl_lewis",
+        "nome": "Carl Lewis",
+        "descricao": "Atleta americano, campeão de quatro provas nos Jogos de Los Angeles 1984.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Carl_Lewis"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Nove vezes campeão olímpico na velocidade e no salto em distância, o americano Carl Lewis ganhou no Brasil que apelido?",
+      "resposta": "Filho do Vento",
+      "distratores": [
+        "Gazela Negra",
+        "Raio Negro",
+        "Bala de Prata"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Carl_Lewis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "florence_griffith_joyner",
+        "nome": "Florence Griffith-Joyner",
+        "descricao": "Velocista americana, detentora dos recordes mundiais dos 100 e 200 metros, de 1988.",
+        "variantes": [
+          "Flo-Jo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Florence_Griffith_Joyner"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Além dos macacões ousados, com uma perna só, que detalhe do visual tornava a velocista Flo-Jo inconfundível nas pistas de Seul 1988?",
+      "resposta": "Unhas enormes e decoradas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Florence_Griffith_Joyner"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dorando_pietri",
+        "nome": "Dorando Pietri",
+        "descricao": "Maratonista italiano que chegou em primeiro na maratona olímpica de Londres 1908 e foi desclassificado.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dorando_Pietri"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A chegada cambaleante do italiano Dorando Pietri na maratona de Londres 1908 foi narrada para um jornal pelo criador de Sherlock Holmes. Quem era ele?",
+      "resposta": "Arthur Conan Doyle",
+      "distratores": [
+        "Rudyard Kipling",
+        "H. G. Wells",
+        "G. K. Chesterton"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dorando_Pietri"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "simone_biles",
+        "nome": "Simone Biles",
+        "descricao": "Ginasta artística americana, a mais premiada da história da modalidade.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Simone_Biles"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Tóquio 2020, Simone Biles abandonou a final por equipes e outras provas. Que problema a levou a desistir?",
+      "resposta": "Perdia a noção do corpo no ar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Simone_Biles"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jogos Olímpicos de Verão de 1908",
+        "descricao": "Edição dos Jogos Olímpicos realizada em Londres em 1908.",
+        "variantes": [
+          "Londres 1908"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1908_Summer_Olympics"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Os Jogos de 1908 estavam prometidos a Roma, mas acabaram em Londres porque a Itália precisou gastar com uma catástrofe. Qual?",
+      "resposta": "Erupção do Vesúvio",
+      "distratores": [
+        "Erupção do Etna",
+        "Terremoto de Messina",
+        "Enchente do Tibre"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1908_Summer_Olympics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cerimônia de abertura dos Jogos Olímpicos de 2012",
+        "descricao": "Cerimônia que abriu os Jogos Olímpicos de Londres, em julho de 2012, no Estádio Olímpico de Londres.",
+        "variantes": [
+          "Isles of Wonder"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2012_Summer_Olympics_opening_ceremony"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na abertura de Londres 2012, a rainha Elizabeth segunda apareceu num filme, saindo do palácio para pular de paraquedas ao lado de que famoso espião do cinema?",
+      "resposta": "James Bond",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Happy_and_Glorious",
+        "https://en.wikipedia.org/wiki/2012_Summer_Olympics_opening_ceremony"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cerimônia de abertura dos Jogos Olímpicos de 2012",
+        "descricao": "Cerimônia que abriu os Jogos Olímpicos de Londres, em julho de 2012, no Estádio Olímpico de Londres.",
+        "variantes": [
+          "Isles of Wonder"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2012_Summer_Olympics_opening_ceremony"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A cerimônia de abertura de Londres 2012, com a Revolução Industrial e Mr. Bean, foi dirigida por que cineasta britânico, vencedor do Oscar por Quem Quer Ser um Milionário?",
+      "resposta": "Danny Boyle",
+      "distratores": [
+        "Sam Mendes",
+        "Christopher Nolan",
+        "Ridley Scott"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2012_Summer_Olympics_opening_ceremony"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cerimonia_de_abertura_dos_jogos_olimpicos_de_2016",
+        "nome": "Cerimônia de abertura dos Jogos Olímpicos de 2016",
+        "descricao": "Cerimônia que abriu os Jogos Olímpicos do Rio de Janeiro, em agosto de 2016, no Maracanã.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2016_Summer_Olympics_opening_ceremony"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na abertura da Rio 2016, a modelo Gisele Bündchen atravessou o gramado do Maracanã num longo desfile ao som de que canção de Tom Jobim?",
+      "resposta": "Garota de Ipanema",
+      "distratores": [
+        "Chega de Saudade",
+        "Águas de Março",
+        "Wave"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2016_Summer_Olympics_opening_ceremony"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cerimonia_de_abertura_dos_jogos_olimpicos_de_2024",
+        "nome": "Cerimônia de abertura dos Jogos Olímpicos de 2024",
+        "descricao": "Cerimônia que abriu os Jogos Olímpicos de Paris, em julho de 2024, realizada fora de um estádio.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2024_Summer_Olympics_opening_ceremony"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No fim da abertura de Paris 2024, Céline Dion cantou na Torre Eiffel o Hino ao Amor, clássico eternizado por que cantora francesa?",
+      "resposta": "Édith Piaf",
+      "distratores": [
+        "Dalida",
+        "Juliette Gréco",
+        "Mireille Mathieu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2024_Summer_Olympics_opening_ceremony"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Clodoaldo Silva",
+        "descricao": "Nadador paralímpico brasileiro, multimedalhista nos Jogos de Sydney 2000 e Atenas 2004.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Clodoaldo_Silva"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Ídolo da natação paralímpica brasileira, com seis ouros em Atenas 2004, Clodoaldo Silva ficou conhecido por que apelido?",
+      "resposta": "Tubarão Paralímpico",
+      "distratores": [
+        "Golfinho de Natal",
+        "Torpedo Potiguar",
+        "Peixe Voador"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Clodoaldo_Silva"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "discobolo",
+        "nome": "Discóbolo",
+        "descricao": "Escultura grega do século cinco a.C. que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+        "variantes": [
+          "Discobolus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Discobolus"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O Discóbolo, estátua grega de um atleta prestes a lançar o disco, conhecida hoje por cópias romanas, foi criado originalmente em bronze por que escultor?",
+      "resposta": "Míron",
+      "distratores": [
+        "Fídias",
+        "Praxíteles",
+        "Policleto"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Discobolus"
+      ]
+    }
+  ]
+}
