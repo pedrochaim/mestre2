@@ -1,0 +1,395 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado (maior império da América pré-colombiana); enunciado e distratores corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte diz que os incas não tinham sistema de escrita e usavam quipus; pergunta justa.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lhama é o animal de carga andino; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português confirma algodão para redes de pesca trocadas por peixe.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Forma de puma atribuída a Pachacuti, com ressalva 'segundo a tradição'.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quipus usam base decimal; contraste com maias é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mita era tributo em trabalho; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Base do Monks Mound é comparável à da Grande Pirâmide de Gizé, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cahokia Woodhenge confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "UNESCO descreve Chan Chan como a maior cidade de arquitetura de terra da América pré-colombiana.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; o fato (Grande Campo de Bola de Chichén Itzá, 168 m) é bem documentado, troca-se a fonte.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destas cidades maias tem o maior campo de jogo de bola da antiga Mesoamérica, com mais de cento e sessenta metros?",
+        "resposta": "Chichén Itzá",
+        "distratores": [
+          "Tikal",
+          "Copán",
+          "Palenque"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Chichen_Itza"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Machu Picchu e Chichén Itzá foram eleitas em 2007; única outra pré-colombiana.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Escadaria Hieroglífica de Copán tem o mais longo texto maia conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teotihuacan foi a maior cidade das Américas na primeira metade do primeiro milênio.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Fontes divergem sobre a data do incêndio e declínio (século seis ou sete); resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lã de vicunha é a mais fina e era reservada à nobreza inca.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pirâmide do Sol (cerca de 65 m) é a mais alta entre as listadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tlatelolco, na mesma ilha, tinha o principal mercado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cabeças colossais são de basalto.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três Irmãs: abóbora, milho e feijão.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tabelas de Vênus são as mais célebres do códice.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta repete 'Dresden' do enunciado (vazamento) e distratores são fracos.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paredes cobertas de lâminas de ouro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Colar de corações e mãos é descrição padrão da estátua.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Huitzilopochtli nasceu armado para defender a mãe.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Olhos de coral branco confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trono do Jaguar Vermelho no templo interno.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tlaxcaltecas foram os principais aliados.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1521 precede 1532, 1535 e 1572; ordem correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sambaquis são depósitos de conchas.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tortura de Cuauhtémoc por Cortés para revelar o ouro é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte diz que os tesos serviam também para defesa; distrator 'ataques inimigos' ficava defensável.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Os marajoaras ergueram aterros, os tesos, para morar e enterrar seus mortos. Que fenômeno sazonal das terras baixas de Marajó eles evitavam assim?",
+        "resposta": "As inundações",
+        "distratores": [
+          "As secas",
+          "As queimadas",
+          "As geadas"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cultura_marajoara",
+          "https://en.wikipedia.org/wiki/Marajoara_culture"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os espanhóis nunca encontraram Machu Picchu, explicação amplamente aceita.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nixtamalização previne pelagra (falta de niacina).",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedras usadas para construir a Cusco espanhola.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Uma sala de ouro e o dobro em prata.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro templo reconstruído seis vezes, totalizando sete etapas.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pakal assumiu aos doze anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Quatro Atlantes no topo da Pirâmide B de Tula.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ciclo do Calendário combina Tzolkin e Haab em 52 anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Haudenosaunee significa 'os que constroem a casa comprida'.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Fontes traduzem o nome de formas diferentes (Sacudidor da Terra, o que muda a Terra); resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Códice Mendoza está na Biblioteca Bodleiana, em Oxford.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Primeira edição de 1609 saiu em Lisboa.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ritual na Lagoa de Guatavita originou o Eldorado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Serra da Capivara fica no Piauí.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Niède Guidon foi a principal responsável pelo parque.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "Fonte indica descoberta em 1974, não 1975.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Achado em 1974, o crânio de Luzia, um dos fósseis humanos mais antigos das Américas, saiu de uma gruta de que estado brasileiro?",
+        "resposta": "Minas Gerais",
+        "distratores": [
+          "Piauí",
+          "Bahia",
+          "Goiás"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Luzia_Woman",
+          "https://pt.wikipedia.org/wiki/Luzia_(f%C3%B3ssil)"
+        ]
+      }
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gêmeos derrotaram os senhores de Xibalbá no jogo de bola.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda do anão mágico confirmada.",
+      "reescrita": null
+    }
+  ]
+}

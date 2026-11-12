@@ -1,0 +1,445 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lhama",
+        "descricao": "Camelídeo domesticado nos Andes, usado pelos incas como animal de carga e fonte de lã e carne.",
+        "variantes": [
+          "Lama glama",
+          "Llama"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lhama",
+          "nome": "Lhama",
+          "descricao": "Camelídeo doméstico sul-americano (Lama glama), usado como animal de carga e fonte de carne e lã nos Andes.",
+          "variantes": [
+            "Llama",
+            "Lama glama"
+          ]
+        },
+        {
+          "id": "hamsa",
+          "nome": "Hamsa",
+          "descricao": "Amuleto em forma de mão aberta, popular no Oriente Médio e no Norte da África contra o mau-olhado.",
+          "variantes": [
+            "Mão de Fátima",
+            "Khamsa",
+            "Mão de Miriam"
+          ]
+        },
+        {
+          "id": "alhambra",
+          "nome": "Alhambra",
+          "descricao": "Palácio-fortaleza dos emires nacéridas, em Granada, na Espanha.",
+          "variantes": [
+            "Alhambra de Granada",
+            "Alambra",
+            "La Alhambra"
+          ]
+        },
+        {
+          "id": "ham_o_chimpanze_astronauta",
+          "nome": "Ham, o chimpanzé astronauta",
+          "descricao": "Chimpanzé que fez um voo suborbital da NASA na missão Mercury-Redstone 2 em 1961.",
+          "variantes": [
+            "Ham",
+            "Ham the Chimp",
+            "Ham the Astrochimp"
+          ]
+        },
+        {
+          "id": "kama_arma",
+          "nome": "Kama (arma)",
+          "descricao": "Arma japonesa de artes marciais derivada de uma foice agrícola, usada em par.",
+          "variantes": [
+            "Kama",
+            "Kama (ferramenta)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mita",
+        "descricao": "Sistema de trabalho obrigatório prestado ao Estado no Império Inca, como forma de tributo.",
+        "variantes": [
+          "Mit'a",
+          "Mita incaica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bhagavad_gita",
+          "nome": "Bhagavad Gita",
+          "descricao": "Texto sagrado hindu em forma de diálogo entre Krishna e Arjuna, parte do Mahabharata.",
+          "variantes": [
+            "Gita"
+          ]
+        },
+        {
+          "id": "misa_amane",
+          "nome": "Misa Amane",
+          "descricao": "Modelo e atriz loira que se torna a segunda Kira em Death Note.",
+          "variantes": [
+            "Misa",
+            "Second Kira"
+          ]
+        },
+        {
+          "id": "tita",
+          "nome": "Titã",
+          "descricao": "Maior lua de Saturno, com densa atmosfera alaranjada.",
+          "variantes": [
+            "Titan"
+          ]
+        },
+        {
+          "id": "gol_baliza",
+          "nome": "Gol (baliza)",
+          "descricao": "Armação formada por duas traves e um travessão onde a bola deve entrar para valer um gol no futebol.",
+          "variantes": [
+            "Baliza",
+            "Meta",
+            "Goal"
+          ]
+        },
+        {
+          "id": "meia",
+          "nome": "Meia",
+          "descricao": "Peça de vestuário que cobre o pé e, muitas vezes, parte da perna.",
+          "variantes": [
+            "Meias",
+            "Meia de tricô"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Vicunha",
+        "descricao": "Camelídeo selvagem dos Andes, parente da lhama, cuja lã finíssima era reservada à realeza inca.",
+        "variantes": [
+          "Vicuña",
+          "Vicugna vicugna"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vicunha",
+          "nome": "Vicunha",
+          "descricao": "Camelídeo selvagem dos Andes, parente da lhama, cuja lã é rara e caríssima",
+          "variantes": [
+            "Vicuña",
+            "Vicunha andina"
+          ]
+        },
+        {
+          "id": "avicena",
+          "nome": "Avicena",
+          "descricao": "Filósofo e médico persa (c. 980–1037), autor do Cânone da Medicina, nascido perto de Bucara.",
+          "variantes": [
+            "Ibn Sina",
+            "Avicenna"
+          ]
+        },
+        {
+          "id": "unha",
+          "nome": "Unha",
+          "descricao": "Placa dura e córnea que recobre a ponta dos dedos humanos.",
+          "variantes": [
+            "Unhas"
+          ]
+        },
+        {
+          "id": "idun",
+          "nome": "Idun",
+          "descricao": "Deusa nórdica que guarda os frutos que mantêm os deuses jovens.",
+          "variantes": [
+            "Iðunn",
+            "Idunn",
+            "Iduna"
+          ]
+        },
+        {
+          "id": "vesicula_biliar",
+          "nome": "Vesícula biliar",
+          "descricao": "Pequena bolsa sob o fígado que armazena a bile.",
+          "variantes": [
+            "Vesícula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Três Irmãs (agricultura)",
+        "descricao": "Técnica agrícola indígena americana de plantar juntos milho, feijão e abóbora, que se ajudam no crescimento.",
+        "variantes": [
+          "Three Sisters",
+          "Milpa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ac_milan",
+          "nome": "AC Milan",
+          "descricao": "Associazione Calcio Milan, clube de futebol de Milão, na Itália, fundado em 1899.",
+          "variantes": [
+            "Milan",
+            "Associazione Calcio Milan"
+          ]
+        },
+        {
+          "id": "milka",
+          "nome": "Milka",
+          "descricao": "Marca de chocolate ao leite de embalagem lilás, criada na Suíça em 1901 pela Suchard.",
+          "variantes": []
+        },
+        {
+          "id": "praca_do_duomo_de_milao",
+          "nome": "Praça do Duomo de Milão",
+          "descricao": "Praça central de Milão, onde ficam a catedral gótica de mármore e a entrada da Galleria Vittorio Emanuele II.",
+          "variantes": [
+            "Milão",
+            "Piazza del Duomo"
+          ]
+        },
+        {
+          "id": "falesias_seven_sisters",
+          "nome": "Falésias Seven Sisters",
+          "descricao": "Série de falésias de giz no Canal da Mancha, em East Sussex, Inglaterra, entre o rio Cuckmere e Beachy Head.",
+          "variantes": [
+            "Seven Sisters",
+            "Sete Irmãs"
+          ]
+        },
+        {
+          "id": "masters_de_golfe",
+          "nome": "Masters de golfe",
+          "descricao": "Torneio principal de golfe disputado todo ano no Augusta National Golf Club, nos Estados Unidos.",
+          "variantes": [
+            "The Masters",
+            "Masters Tournament",
+            "Masters de Augusta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sambaqui",
+        "descricao": "Morro artificial de conchas e restos de alimentos erguido por povos pré-históricos do litoral brasileiro.",
+        "variantes": [
+          "Sambaquis",
+          "Concheiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sambaqui",
+          "nome": "Sambaqui",
+          "descricao": "Monte artificial pré-histórico de conchas e restos, comum no litoral brasileiro.",
+          "variantes": [
+            "Sambaquis",
+            "Concheiro"
+          ]
+        },
+        {
+          "id": "colhereiro",
+          "nome": "Colhereiro",
+          "descricao": "Ave pernalta rosada, de bico em forma de colher, da família dos íbis, nas Américas.",
+          "variantes": [
+            "Colhereiro-americano",
+            "Platalea ajaja",
+            "Roseate spoonbill"
+          ]
+        },
+        {
+          "id": "uirapuru",
+          "nome": "Uirapuru",
+          "descricao": "Pequena ave amazônica (Cyphorhinus arada) de canto melodioso, cercada de lendas de sorte e encantamento.",
+          "variantes": [
+            "Uirapuru-verdadeiro",
+            "Corneteiro",
+            "Cyphorhinus arada"
+          ]
+        },
+        {
+          "id": "o_concerto",
+          "nome": "O Concerto",
+          "descricao": "Pintura de Johannes Vermeer, de cerca de 1664, roubada do Museu Isabella Stewart Gardner, em Boston, em 1990.",
+          "variantes": [
+            "O Concerto (Vermeer)",
+            "The Concert",
+            "Het concert"
+          ]
+        },
+        {
+          "id": "carruagem",
+          "nome": "Carruagem",
+          "descricao": "Veículo de duas ou quatro rodas puxado por cavalos, usado para transportar passageiros.",
+          "variantes": [
+            "Coche"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Parque Nacional da Serra da Capivara",
+        "descricao": "Parque nacional no sudeste do Piauí com milhares de pinturas rupestres e sítios arqueológicos pré-históricos.",
+        "variantes": [
+          "Serra da Capivara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_nacional_da_serra_da_capivara",
+          "nome": "Parque Nacional da Serra da Capivara",
+          "descricao": "Parque nacional no sudeste do Piauí, com milhares de pinturas rupestres pré-históricas.",
+          "variantes": [
+            "Serra da Capivara"
+          ]
+        },
+        {
+          "id": "pedra_furada_serra_da_capivara",
+          "nome": "Pedra Furada (Serra da Capivara)",
+          "descricao": "Arco de arenito símbolo do Parque Nacional da Serra da Capivara, em São Raimundo Nonato, Piauí.",
+          "variantes": [
+            "Parque Nacional da Serra da Capivara",
+            "Pedra Furada"
+          ]
+        },
+        {
+          "id": "serra_da_canastra",
+          "nome": "Serra da Canastra",
+          "descricao": "Serra do sudoeste de Minas Gerais, protegida pelo Parque Nacional da Serra da Canastra.",
+          "variantes": [
+            "Parque Nacional da Serra da Canastra"
+          ]
+        },
+        {
+          "id": "parque_nacional_da_serra_do_divisor",
+          "nome": "Parque Nacional da Serra do Divisor",
+          "descricao": "Parque nacional na fronteira com o Peru, onde fica o ponto extremo oeste do Brasil.",
+          "variantes": [
+            "Serra do Divisor"
+          ]
+        },
+        {
+          "id": "parque_nacional_da_serra_dos_orgaos",
+          "nome": "Parque Nacional da Serra dos Órgãos",
+          "descricao": "Parque nacional no estado do Rio de Janeiro que protege a serra dos Órgãos, onde fica o Dedo de Deus.",
+          "variantes": [
+            "Serra dos Órgãos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Luzia",
+        "descricao": "Esqueleto humano de cerca de onze mil anos achado em 1975 numa gruta da região de Lagoa Santa, um dos mais antigos das Américas.",
+        "variantes": [
+          "Luzia (fóssil)",
+          "Mulher de Lapa Vermelha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luzia",
+          "nome": "Luzia",
+          "descricao": "Esqueleto humano pré-histórico de mulher, com cerca de 11 mil anos, achado na Lapa Vermelha, em Lagoa Santa, Minas Gerais.",
+          "variantes": [
+            "Mulher de Luzia",
+            "Luzia Woman",
+            "Luzia (fóssil)",
+            "Mulher de Lagoa Santa"
+          ]
+        },
+        {
+          "id": "lugia",
+          "nome": "Lugia",
+          "descricao": "Pokémon dos tipos Psíquico e Voador, número 249 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lisia",
+          "nome": "Lisia",
+          "descricao": "Estrela dos concursos pokémon em Omega Ruby e Alpha Sapphire, que apresenta o jogador aos Concursos Espetaculares.",
+          "variantes": [
+            "Lutia"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "lua_linguagem_de_programacao",
+          "nome": "Lua (linguagem de programação)",
+          "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos.",
+          "variantes": [
+            "Lua"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "lhama",
+      "motivo": "Mesmo animal, Lama glama."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Mita inca não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "vicunha",
+      "motivo": "Mesmo camelídeo selvagem andino."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Técnica agrícola das Três Irmãs, sem candidata equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "sambaqui",
+      "motivo": "Mesmo conceito de sambaqui."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "parque_nacional_da_serra_da_capivara",
+      "motivo": "Mesmo parque nacional; Pedra Furada é uma parte."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "luzia",
+      "motivo": "Mesmo esqueleto de Lapa Vermelha, Lagoa Santa."
+    }
+  ]
+}
