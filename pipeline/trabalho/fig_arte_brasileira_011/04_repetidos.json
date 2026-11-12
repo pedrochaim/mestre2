@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que bairro do Rio de Janeiro fica este palácio?",
+        "resposta": "Laranjeiras"
+      },
+      "existentes": [
+        {
+          "id": "q19959",
+          "pergunta": "Que palácio do Rio de Janeiro é este?",
+          "resposta": "Palácio Guanabara"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica este museu?",
+        "resposta": "Recife"
+      },
+      "existentes": [
+        {
+          "id": "q17246",
+          "pergunta": "Em que cidade fica este museu de aspecto de castelo?",
+          "resposta": "Recife"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que século começaram as obras desta construção sobre um penhasco?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q16903",
+          "pergunta": "Em que estado brasileiro fica este santuário, construído no alto de um penhasco?",
+          "resposta": "Espírito Santo"
+        },
+        {
+          "id": "q18828",
+          "pergunta": "Que santuário histórico, iniciado no século dezesseis, é este?",
+          "resposta": "Convento da Penha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o bairro (Laranjeiras), não a identificação do palácio; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade do mesmo museu, resposta Recife."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "O século de início das obras (dezesseis) já é dado no enunciado de q18828; saber um responde o outro."
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Palácio Guanabara",
+        "descricao": "Palácio no bairro de Laranjeiras, no Rio de Janeiro, sede do governo estadual do Rio de Janeiro, antes chamado Paço Isabel.",
+        "variantes": [
+          "Paço Isabel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_guanabara",
+          "nome": "Palácio Guanabara",
+          "descricao": "Sede oficial do governo do estado do Rio de Janeiro, em Laranjeiras.",
+          "variantes": [
+            "Guanabara Palace",
+            "Paço Isabel"
+          ]
+        },
+        {
+          "id": "palacio_araguaia",
+          "nome": "Palácio Araguaia",
+          "descricao": "Sede do governo do estado do Tocantins, em Palmas.",
+          "variantes": [
+            "Palácio Araguaia Governador José Wilson Siqueira Campos",
+            "Araguaia Palace"
+          ]
+        },
+        {
+          "id": "palacio_barolo",
+          "nome": "Palacio Barolo",
+          "descricao": "Edifício de escritórios na Avenida de Mayo, em Buenos Aires, irmão gêmeo do Palacio Salvo de Montevidéu.",
+          "variantes": []
+        },
+        {
+          "id": "baia_de_guanabara",
+          "nome": "Baía de Guanabara",
+          "descricao": "Baía oceânica do estado do Rio de Janeiro, cercada pelas cidades do Rio de Janeiro e de Niterói.",
+          "variantes": [
+            "Guanabara Bay",
+            "Guanabara"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Instituto Ricardo Brennand",
+        "descricao": "Museu em forma de castelo no Recife, Pernambuco, com a maior coleção do pintor Frans Post.",
+        "variantes": [
+          "Castelo de Brennand",
+          "Instituto RB"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "instituto_ricardo_brennand",
+          "nome": "Instituto Ricardo Brennand",
+          "descricao": "Complexo cultural em edifício de tijolos com aspecto de castelo, em Recife, com museu, galeria, biblioteca e parque.",
+          "variantes": [
+            "Museu Ricardo Brennand"
+          ]
+        },
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        },
+        {
+          "id": "castelo_de_n",
+          "nome": "Castelo de N",
+          "descricao": "Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história.",
+          "variantes": [
+            "N's Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_chenonceau",
+          "nome": "Castelo de Chenonceau",
+          "descricao": "Castelo renascentista francês sobre o rio Cher, no Vale do Loire.",
+          "variantes": [
+            "Château de Chenonceau",
+            "Chenonceau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Eliseu Visconti",
+        "descricao": "Pintor ítalo-brasileiro (1866-1944), impressionista e precursor da Art Nouveau no Brasil; aqui, em autorretrato com pincéis.",
+        "variantes": [
+          "Eliseo D'Angelo Visconti"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gioventu_eliseu_visconti",
+          "nome": "Gioventù (Eliseu Visconti)",
+          "descricao": "Pintura simbolista de 1898 de Eliseu Visconti, no Museu Nacional de Belas Artes do Rio de Janeiro.",
+          "variantes": [
+            "Gioventu",
+            "Juventude"
+          ]
+        },
+        {
+          "id": "moca_no_trigal_eliseu_visconti",
+          "nome": "Moça no Trigal (Eliseu Visconti)",
+          "descricao": "Pintura impressionista de Eliseu Visconti que mostra uma moça com flores num campo de trigo, exposta antes como Pão e Flores.",
+          "variantes": [
+            "Moça no trigal",
+            "Pão e Flores"
+          ]
+        },
+        {
+          "id": "celine_dion",
+          "nome": "Céline Dion",
+          "descricao": "Cantora canadense de língua francesa e inglesa, intérprete de My Heart Will Go On",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Convento da Penha",
+        "descricao": "Santuário mariano no alto de um penhasco em Vila Velha, Espírito Santo, com obras iniciadas em 1558.",
+        "variantes": [
+          "Santuário da Penha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "convento_da_penha",
+          "nome": "Convento da Penha",
+          "descricao": "Santuário mariano do século dezesseis, no alto de um penhasco em Vila Velha (ES).",
+          "variantes": [
+            "Santuário da Penha",
+            "Penha Convent"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "santuario_do_bom_jesus_de_congonhas",
+          "nome": "Santuário do Bom Jesus de Congonhas",
+          "descricao": "Santuário barroco do século dezoito em Congonhas, Minas Gerais, com os profetas esculpidos por Aleijadinho.",
+          "variantes": [
+            "Santuário do Bom Jesus de Matosinhos",
+            "Basílica do Bom Jesus de Matosinhos",
+            "Santuário de Congonhas"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "canario_da_terra",
+          "nome": "Canário-da-terra",
+          "descricao": "Pequena ave amarela com o alto da cabeça alaranjado, comum em áreas abertas da América do Sul e não aparentada ao canário.",
+          "variantes": [
+            "Canário-da-terra-verdadeiro",
+            "Sicalis flaveola",
+            "Saffron finch"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ermida Dom Bosco",
+        "descricao": "Capela em forma de pirâmide no Lago Sul, em Brasília, dedicada a São João Bosco.",
+        "variantes": [
+          "Ermida de Dom Bosco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_dom_bosco",
+          "nome": "Santuário Dom Bosco",
+          "descricao": "Igreja católica de Brasília, na Asa Sul, famosa por seus vitrais e dedicada a São João Bosco.",
+          "variantes": [
+            "Santuário São João Bosco",
+            "Igreja Dom Bosco"
+          ]
+        },
+        {
+          "id": "lenda_do_boto",
+          "nome": "Lenda do boto",
+          "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas.",
+          "variantes": [
+            "Boto encantado",
+            "Encantado",
+            "Boto-cor-de-rosa (lenda)"
+          ]
+        },
+        {
+          "id": "cidade_do_cabo",
+          "nome": "Cidade do Cabo",
+          "descricao": "Cidade portuária da África do Sul, ao pé da Montanha da Mesa.",
+          "variantes": [
+            "Cape Town",
+            "Kaapstad"
+          ]
+        },
+        {
+          "id": "kremlin_de_moscou",
+          "nome": "Kremlin de Moscou",
+          "descricao": "Complexo fortificado no centro de Moscou, sede do governo da Rússia.",
+          "variantes": [
+            "Kremlin",
+            "Moscow Kremlin"
+          ]
+        },
+        {
+          "id": "calcolitico",
+          "nome": "Calcolítico",
+          "descricao": "Período de transição entre o Neolítico e a Idade do Bronze, também chamado Idade do Cobre.",
+          "variantes": [
+            "Idade do Cobre",
+            "Eneolítico",
+            "Chalcolithic"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "palacio_guanabara",
+      "motivo": "Mesmo palácio sede do governo do RJ em Laranjeiras, variante Paço Isabel coincide."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "instituto_ricardo_brennand",
+      "motivo": "Mesmo instituto/museu em forma de castelo no Recife."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A proposta é o pintor; candidatas são obras dele ou outra pessoa, não o artista."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "convento_da_penha",
+      "motivo": "Mesmo santuário em Vila Velha, ES, com mesma variante."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ermida Dom Bosco (capela piramidal no Lago Sul) é distinta do Santuário Dom Bosco na Asa Sul."
+    }
+  ]
+}

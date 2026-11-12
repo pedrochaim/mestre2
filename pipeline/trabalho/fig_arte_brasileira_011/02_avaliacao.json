@@ -1,0 +1,140 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Palácio bem visível, sem texto; pergunta por bairro em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que bairro do Rio de Janeiro fica este palácio, sede do governo estadual?",
+      "resposta": "Laranjeiras",
+      "distratores": [
+        "Santa Teresa",
+        "Botafogo",
+        "Flamengo"
+      ],
+      "ancora": {
+        "nome": "Palácio Guanabara",
+        "descricao": "Palácio no bairro de Laranjeiras, no Rio de Janeiro, sede do governo estadual do Rio de Janeiro, antes chamado Paço Isabel.",
+        "variantes": [
+          "Paço Isabel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Placa com 'Solar do Unhão' e logo do museu visíveis entregam a resposta; o solar nem aparece."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Faixa com 'Resto das Docas' entrega o nome; pessoas ao fundo."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto antiga e pequena de um homem; o retrato não permite reconhecer a pessoa e o assunto está fora do catálogo de obras."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Placa com 'Memorial dos Povos Indígenas' legível na imagem entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Concreto aparente com vão livre pode ser confundido com o MASP e outros prédios brutalistas; entidade pouco reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Castelo de tijolos característico, sem texto legível; pergunta pela cidade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Em que cidade fica este museu em forma de castelo de tijolos?",
+      "resposta": "Recife",
+      "ancora": {
+        "nome": "Instituto Ricardo Brennand",
+        "descricao": "Museu em forma de castelo no Recife, Pernambuco, com a maior coleção do pintor Frans Post.",
+        "variantes": [
+          "Castelo de Brennand",
+          "Instituto RB"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Autorretrato claro, assinatura minúscula e ilegível; múltipla com pintores contemporâneos.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem pintou este autorretrato, um dos poucos impressionistas do Brasil?",
+      "resposta": "Eliseu Visconti",
+      "distratores": [
+        "Rodolfo Amoedo",
+        "Almeida Júnior",
+        "Belmiro de Almeida"
+      ],
+      "ancora": {
+        "nome": "Eliseu Visconti",
+        "descricao": "Pintor ítalo-brasileiro (1866-1944), impressionista e precursor da Art Nouveau no Brasil; aqui, em autorretrato com pincéis.",
+        "variantes": [
+          "Eliseo D'Angelo Visconti"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Assinatura 'R. Amoedo Rio 1921' legível no canto entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Convento branco sobre rocha, reconhecível, sem texto; pergunta por século (resposta aberta).",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Em que século começaram as obras desta construção sobre um penhasco?",
+      "resposta": "Século dezesseis",
+      "ancora": {
+        "nome": "Convento da Penha",
+        "descricao": "Santuário mariano no alto de um penhasco em Vila Velha, Espírito Santo, com obras iniciadas em 1558.",
+        "variantes": [
+          "Santuário da Penha"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vista aérea de um estádio oval genérico, sem elementos que permitam reconhecê-lo; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Capela em pirâmide de mármore, bem característica; pessoas pequenas ao fundo, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Em que cidade fica esta capela em forma de pirâmide, à beira de um lago?",
+      "resposta": "Brasília",
+      "ancora": {
+        "nome": "Ermida Dom Bosco",
+        "descricao": "Capela em forma de pirâmide no Lago Sul, em Brasília, dedicada a São João Bosco.",
+        "variantes": [
+          "Ermida de Dom Bosco"
+        ]
+      }
+    }
+  ]
+}

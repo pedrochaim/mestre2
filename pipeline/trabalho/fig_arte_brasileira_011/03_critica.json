@@ -1,0 +1,59 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sede do governo estadual' identifica o palácio sem olhar a figura; a imagem vira enfeite. Tirei a pista. Laranjeiras está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que bairro do Rio de Janeiro fica este palácio?",
+        "resposta": "Laranjeiras",
+        "distratores": [
+          "Santa Teresa",
+          "Botafogo",
+          "Flamengo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De tijolos' não está nos trechos, e 'museu em forma de castelo' já aponta para a entidade sem a figura. Deixei só o reconhecimento pela imagem. Recife está confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que cidade brasileira fica este museu?",
+        "resposta": "Recife",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Um dos poucos impressionistas do Brasil' é uma pista que quase entrega Visconti sem a imagem. Troquei por uma pista genérica.",
+      "reescrita": {
+        "pergunta": "Que pintor brasileiro fez este autorretrato?",
+        "resposta": "Eliseu Visconti",
+        "distratores": [
+          "Rodolfo Amoedo",
+          "Almeida Júnior",
+          "Belmiro de Almeida"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frei Pedro Palácios chegou em 1558 e a ermida foi erguida em seguida, no século dezesseis. O enunciado não vaza a resposta e a figura é necessária. Aberta é adequado para resposta em século.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Ermida Dom Bosco fica no Lago Sul, em Brasília, conforme os trechos. 'Capela em forma de pirâmide à beira de lago' é descrição visual que não entrega a cidade. Resposta única.",
+      "reescrita": null
+    }
+  ]
+}
