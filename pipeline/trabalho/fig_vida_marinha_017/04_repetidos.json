@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ave marinha, que mergulha para pescar, é esta?",
+        "resposta": "Atobá-pardo (ou atobá-marrom)"
+      },
+      "existentes": [
+        {
+          "id": "q20761",
+          "pergunta": "Que ave marinha é esta?",
+          "resposta": "Atobá-marrom"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ave costeira é esta?",
+        "resposta": "Gaivota"
+      },
+      "existentes": [
+        {
+          "id": "q16586",
+          "pergunta": "Esta ave marinha é parente próxima de qual destas?",
+          "resposta": "Trinta-réis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q20761",
+      "motivo": "Ambas pedem a identificação da mesma ave (atobá-marrom) a partir da imagem; resposta igual."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a ave (gaivota); a existente pergunta qual é parente próxima (trinta-réis). Fatos diferentes."
+    }
+  ]
+}

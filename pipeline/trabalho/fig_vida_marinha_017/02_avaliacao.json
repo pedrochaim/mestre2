@@ -1,0 +1,189 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Imagem pequena e borrada; a colônia vermelha não fica legível nem reconhecível num celular."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave marinha é esta, que mergulha para pescar?",
+      "resposta": "Atobá-pardo",
+      "distratores": [
+        "Atobá-de-pés-azuis",
+        "Atobá-mascarado",
+        "Fragata"
+      ],
+      "ancora": {
+        "nome": "Atobá-marrom",
+        "descricao": "Ave marinha da família Sulidae (Sula leucogaster), de plumagem marrom-escura e ventre branco, que mergulha para pescar.",
+        "variantes": [
+          "Atobá-pardo",
+          "Brown booby",
+          "Sula leucogaster"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Concha coberta de incrustações e foto sem escala; fácil confundir com outros tritões (Charonia), então a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, com as pontas brancas das nadadeiras visíveis e corpo esguio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que tubarão de recife é este?",
+      "resposta": "Tubarão-de-pontas-brancas-de-recife",
+      "ancora": {
+        "nome": "Tubarão-de-pontas-brancas-de-recife",
+        "descricao": "Pequeno tubarão-cinzento (Triaenodon obesus) dos recifes do Indo-Pacífico, com as pontas das nadadeiras dorsais brancas.",
+        "variantes": [
+          "Tubarão-de-ponta-branca",
+          "Whitetip reef shark",
+          "Triaenodon obesus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "É uma ilustração antiga com duas vistas, não foto, e a espécie é facilmente confundida com o golfinho-de-cabeça-redonda australiano."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, corpo arredondado com tubérculos característicos, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "A que grupo de animais marinhos pertence este bicho de corpo arredondado?",
+      "resposta": "Estrelas-do-mar",
+      "ancora": {
+        "nome": "Estrela-almofada",
+        "descricao": "Estrela-do-mar de braços curtos e corpo inflado em forma de almofada pentagonal (Culcita novaeguineae), do Indo-Pacífico.",
+        "variantes": [
+          "Cushion star",
+          "Culcita novaeguineae"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de gaivota, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave costeira é esta?",
+      "resposta": "Gaivota",
+      "distratores": [
+        "Trinta-réis",
+        "Albatroz",
+        "Petrel"
+      ],
+      "ancora": {
+        "nome": "Gaivota",
+        "descricao": "Ave marinha branca e cinza da subfamília Larinae, de bico forte e pés palmados, comum no litoral.",
+        "variantes": [
+          "Gaivota-prateada",
+          "Gull",
+          "Seagull"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Desenho pequeno, de baixa resolução e fundo colorido; difícil de ler num celular."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Prancha antiga de espécie de águas profundas, que não se fotografa facilmente; as duas vistas são do mesmo animal e não há texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "O nome popular deste peixe das profundezas faz referência à boca de qual ave?",
+      "resposta": "Pelicano",
+      "ancora": {
+        "nome": "Enguia-pelicano",
+        "descricao": "Enguia de águas profundas (Eurypharynx pelecanoides), de boca enorme e corpo fino terminado em cauda longa.",
+        "variantes": [
+          "Eurypharynx pelecanoides",
+          "Pelican eel",
+          "Gulper eel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de pinguim-azul, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pinguim de plumagem azulada é este?",
+      "resposta": "Pinguim-azul",
+      "distratores": [
+        "Pinguim-de-magalhães",
+        "Pinguim-de-humboldt",
+        "Pinguim-de-galápagos"
+      ],
+      "ancora": {
+        "nome": "Pinguim-azul",
+        "descricao": "Menor espécie de pinguim (Eudyptula minor), de plumagem azul-ardósia, da Austrália e da Nova Zelândia.",
+        "variantes": [
+          "Pinguim-pequeno",
+          "Little penguin",
+          "Fairy penguin",
+          "Eudyptula minor"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem aérea pequena, granulada e distante; a espécie não é reconhecível e pode ser confundida com outras baleias-francas."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida e marcante do verme saindo da toca, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "A que tipo de animal pertence este predador que vive enterrado no fundo do mar?",
+      "resposta": "Verme poliqueta",
+      "distratores": [
+        "Nudibrânquio",
+        "Pepino-do-mar",
+        "Anêmona-do-mar"
+      ],
+      "ancora": {
+        "nome": "Verme-de-bobbit",
+        "descricao": "Verme poliqueta marinho predador (Eunice aphroditois), que se enterra no fundo e captura presas com mandíbulas afiadas.",
+        "variantes": [
+          "Bobbit worm",
+          "Eunice aphroditois",
+          "Verme-de-areia"
+        ]
+      }
+    }
+  ]
+}

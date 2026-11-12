@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A figura mostra o atobá-marrom, mas a resposta traz só o sinônimo atobá-pardo. Ambos os nomes são corretos (pt.wikipedia), então a resposta deve incluir os dois para evitar injustiça.",
+      "reescrita": {
+        "pergunta": "Que ave marinha, que mergulha para pescar, é esta?",
+        "resposta": "Atobá-pardo (ou atobá-marrom)",
+        "distratores": [
+          "Atobá-de-pés-azuis",
+          "Atobá-mascarado",
+          "Fragata"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'de recife', parte da resposta. Além disso, 'tubarão de recife' vale para vários tubarões, então a pergunta não tem resposta específica. A reescrita remove o vazamento e dá uma pista que não entrega a espécie.",
+      "reescrita": {
+        "pergunta": "Que tubarão do Indo-Pacífico, que passa o dia descansando em cavernas, é este?",
+        "resposta": "Tubarão-de-pontas-brancas-de-recife",
+        "distratores": [
+          "Tubarão-de-pontas-pretas",
+          "Tubarão-cinzento-de-recife",
+          "Tubarão-limão"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Estrelas-do-mar' é uma categoria genérica, não a entidade mostrada, e outras respostas como 'equinodermos' seriam defensáveis. A reescrita pede a espécie sem usar a palavra 'estrela' no enunciado.",
+      "reescrita": {
+        "pergunta": "Que animal marinho do Indo-Pacífico, de braços curtos e corpo inflado, é este?",
+        "resposta": "Estrela-almofada",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede o reconhecimento da ave e não vaza a resposta. A resposta é única e os distratores são aves marinhas críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O epíteto pelecanoides e o nome popular fazem referência ao pelicano, como dizem os trechos. O enunciado não nomeia o peixe, e a resposta vem de reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Azulada' vaza a resposta 'Pinguim-azul' (palavra derivada). Os distratores, de outros continentes, também facilitam a eliminação. A reescrita usa uma pista geográfica e distratores da Oceania.",
+      "reescrita": {
+        "pergunta": "Que pinguim de águas da Oceania é este?",
+        "resposta": "Pinguim-azul",
+        "distratores": [
+          "Pinguim-de-olho-amarelo",
+          "Pinguim-de-fiordland",
+          "Pinguim-de-snares"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que é um poliqueta predador que fica enterrado no fundo. O enunciado não nomeia o animal, e os distratores são invertebrados marinhos que não são poliquetas.",
+      "reescrita": null
+    }
+  ]
+}
