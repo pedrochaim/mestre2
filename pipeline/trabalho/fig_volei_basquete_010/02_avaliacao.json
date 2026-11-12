@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Captura de vídeo borrada, com pessoa em ambiente doméstico; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida em quadra, jogador reconhecível; a camisa não traz o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este jogador de basquete?",
+      "resposta": "Ray Allen",
+      "destino": 1,
+      "ancora": {
+        "nome": "Ray Allen",
+        "descricao": "Ex-jogador de basquete americano da NBA, campeão olímpico em 2000 e um dos maiores arremessadores de três pontos da história.",
+        "variantes": [
+          "Walter Ray Allen Jr."
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Jogador de camisa da seleção brasileira sem contexto que o identifique; rosto pouco reconhecível e camisa 6 não é única para a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Camisa do Praia Clube e troféu com texto; a jogadora não é reconhecível de modo único pela imagem e o texto dá pistas do clube."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto que entregue a resposta; múltipla com distratores do mesmo tipo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este jogador de basquete americano?",
+      "resposta": "Jimmy Butler",
+      "distratores": [
+        "Jaylen Brown",
+        "Jrue Holiday",
+        "Kawhi Leonard"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Jimmy Butler",
+        "descricao": "Jogador de basquete americano da NBA, conhecido como Jimmy Buckets, campeão olímpico em 2016.",
+        "variantes": [
+          "Jimmy Butler III",
+          "Jimmy Buckets"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de atleta famosa, sem texto que entregue o nome; bola Mikasa é só marca.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta jogadora de vôlei russa?",
+      "resposta": "Ekaterina Gamova",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ekaterina Gamova",
+        "descricao": "Ex-jogadora de vôlei russa, campeã mundial em 2006 e 2010, com 2,02 metros de altura.",
+        "variantes": [
+          "Yekaterina Gamova",
+          "Ekaterina Gamova"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco, cabelo e uniforme característicos; camisa não traz o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este jogador de basquete, que atuou nos anos setenta?",
+      "resposta": "Pete Maravich",
+      "distratores": [
+        "Rick Barry",
+        "Jerry West",
+        "Bill Walton"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pete Maravich",
+        "descricao": "Jogador de basquete americano apelidado Pistol Pete, maior pontuador da história do basquete universitário da primeira divisão da NCAA.",
+        "variantes": [
+          "Pistol Pete",
+          "Peter Press Maravich"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida do jogador com camisa do New Orleans, sem o nome; passo de conhecimento sobre a trajetória.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este jogador de basquete defendeu qual universidade antes de entrar na NBA?",
+      "resposta": "Duke",
+      "distratores": [
+        "Kentucky",
+        "North Carolina",
+        "Kansas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Zion Williamson",
+        "descricao": "Ala-pivô americano do New Orleans Pelicans, primeira escolha do draft da NBA de 2019 após uma temporada na Duke.",
+        "variantes": [
+          "Zion Lateef Williamson"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido com camisa da Polônia, sem nome visível; crédito do fotógrafo no rodapé não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este jogador de vôlei?",
+      "resposta": "Bartosz Kurek",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bartosz Kurek",
+        "descricao": "Jogador de vôlei polonês, ponteiro oposto e capitão da seleção da Polônia, campeão mundial em 2018.",
+        "variantes": [
+          "Bartosz Kamil Kurek"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto minúscula de baixa resolução, em estilo de ficha de clube; jogador pouco reconhecível, não fica legível no celular."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa qualidade, com pessoas comuns ao fundo; atleta pouco reconhecível pela foto."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rosto nítido de figura pública, sem texto; múltipla com distratores pivôs da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ex-jogador de basquete americano?",
+      "resposta": "David Robinson",
+      "distratores": [
+        "Patrick Ewing",
+        "Hakeem Olajuwon",
+        "Alonzo Mourning"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "David Robinson",
+        "descricao": "Ex-pivô americano do San Antonio Spurs, apelidado de Almirante, MVP da NBA em 1995 e campeão olímpico.",
+        "variantes": [
+          "O Almirante",
+          "David Maurice Robinson"
+        ]
+      }
+    }
+  ]
+}

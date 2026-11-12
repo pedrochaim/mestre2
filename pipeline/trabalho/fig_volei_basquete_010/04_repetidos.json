@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este jogador de basquete?",
+        "resposta": "Ray Allen"
+      },
+      "existentes": [
+        {
+          "id": "q19839",
+          "pergunta": "Que jogador de basquete é este?",
+          "resposta": "Ray Allen"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q19839",
+      "motivo": "Mesma pergunta (identificar o jogador de basquete na imagem), mesma resposta Ray Allen, apenas com redação diferente."
+    }
+  ]
+}
