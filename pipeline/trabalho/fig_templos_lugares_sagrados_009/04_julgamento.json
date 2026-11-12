@@ -1,0 +1,644 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cupido",
+        "descricao": "Deus romano do desejo e do amor erótico, filho de Vênus, representado como menino alado com arco e flechas.",
+        "variantes": [
+          "Amor",
+          "Eros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eros",
+          "nome": "Eros",
+          "descricao": "Deus grego do amor e do desejo.",
+          "variantes": []
+        },
+        {
+          "id": "eros_asteroide",
+          "nome": "Eros (asteroide)",
+          "descricao": "Asteroide alongado 433 Eros, próximo da Terra, explorado pela sonda NEAR Shoemaker.",
+          "variantes": [
+            "433 Eros",
+            "Eros"
+          ]
+        },
+        {
+          "id": "amora_preta",
+          "nome": "Amora-preta",
+          "descricao": "Fruto escuro e composto de plantas do gênero Rubus, a blackberry.",
+          "variantes": [
+            "Amora",
+            "Blackberry"
+          ]
+        },
+        {
+          "id": "cudo",
+          "nome": "Cudo",
+          "descricao": "Grande antílope de savanas arborizadas (Tragelaphus strepsiceros) do leste e do sul da África, com chifres espiralados.",
+          "variantes": [
+            "Cudo-maior",
+            "Greater kudu",
+            "Tragelaphus strepsiceros"
+          ]
+        },
+        {
+          "id": "palmira",
+          "nome": "Palmira",
+          "descricao": "Antiga cidade caravaneira no deserto da Síria central, com ruínas romanas como o teatro e a Grande Colunata.",
+          "variantes": [
+            "Palmyra",
+            "Tadmor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Templo Brihadisvara",
+        "descricao": "Templo hindu shivaíta de Thanjavur, no sul da Índia, construído pelo imperador Rajaraja I entre 1003 e 1010.",
+        "variantes": [
+          "Templo Brihadeeswarar",
+          "Rajarajesvaram",
+          "Thanjai Periya Kovil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ta_prohm",
+          "nome": "Ta Prohm",
+          "descricao": "Templo khmer do fim do século doze, perto de Angkor Thom, no Camboja, famoso pelas raízes de árvores sobre as ruínas.",
+          "variantes": [
+            "Rajavihara",
+            "Templo de Tomb Raider"
+          ]
+        },
+        {
+          "id": "templo_zu_lai",
+          "nome": "Templo Zu Lai",
+          "descricao": "Templo budista em Cotia (SP), o maior da América do Sul, filial da ordem taiwanesa Fo Guang Shan.",
+          "variantes": [
+            "Zu Lai Temple",
+            "Templo Budista Zu Lai"
+          ]
+        },
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        },
+        {
+          "id": "templo_de_saturno",
+          "nome": "Templo de Saturno",
+          "descricao": "Templo romano dedicado ao deus Saturno, cujas ruínas ficam no Fórum Romano.",
+          "variantes": [
+            "Templum Saturni",
+            "Tempio di Saturno"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Presépio",
+        "descricao": "Representação em miniatura do nascimento de Jesus, com figuras e cenário, exibida no Natal.",
+        "variantes": [
+          "Cena da Natividade",
+          "Manjedoura"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura",
+            "Cena da Natividade",
+            "Lapinha"
+          ]
+        },
+        {
+          "id": "basilica_da_natividade",
+          "nome": "Basílica da Natividade",
+          "descricao": "Igreja cristã erguida sobre a gruta onde a tradição situa o nascimento de Jesus",
+          "variantes": [
+            "Igreja da Natividade"
+          ]
+        },
+        {
+          "id": "meganeura",
+          "nome": "Meganeura",
+          "descricao": "Gênero extinto de insetos gigantes aparentados às libélulas, com mais de sessenta centímetros de envergadura.",
+          "variantes": [
+            "Meganeura monyi"
+          ]
+        },
+        {
+          "id": "mantela_dourada",
+          "nome": "Mantela-dourada",
+          "descricao": "Pequena rã terrestre amarelo-alaranjada (Mantella aurantiaca), endêmica de uma área restrita de Madagascar.",
+          "variantes": [
+            "Mantella aurantiaca",
+            "Golden mantella"
+          ]
+        },
+        {
+          "id": "pepino",
+          "nome": "Pepino",
+          "descricao": "Fruto cilíndrico de Cucumis sativus, usado como hortaliça em saladas e conservas.",
+          "variantes": [
+            "Cucumis sativus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Portão de Ishtar",
+        "descricao": "Oitavo portão da cidade interna da Babilônia, com tijolos azuis esmaltados, construído por Nabucodonosor II por volta de 575 a.C.",
+        "variantes": [
+          "Porta de Istar",
+          "Ishtar Gate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porta_de_ishtar",
+          "nome": "Porta de Ishtar",
+          "descricao": "Portão monumental da Babilônia, revestido de tijolos vidrados azuis, construído por Nabucodonosor segundo.",
+          "variantes": [
+            "Ishtar Gate"
+          ]
+        },
+        {
+          "id": "tritao_de_crista",
+          "nome": "Tritão-de-crista",
+          "descricao": "Anfíbio europeu de grande porte, Triturus cristatus, cujo macho desenvolve uma crista serrilhada no dorso na época de reprodução.",
+          "variantes": [
+            "Triturus cristatus",
+            "Tritão-crestado"
+          ]
+        },
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        },
+        {
+          "id": "torta_de_limao_com_merengue",
+          "nome": "Torta de limão com merengue",
+          "descricao": "Torta de massa amanteigada recheada com creme de limão e coberta com merengue.",
+          "variantes": [
+            "Torta de limão",
+            "Lemon meringue pie"
+          ]
+        },
+        {
+          "id": "foca_de_capuz",
+          "nome": "Foca-de-capuz",
+          "descricao": "Grande foca Cystophora cristata do Atlântico Norte, de pelagem manchada e capuz nasal inflável.",
+          "variantes": [
+            "Foca-de-crista",
+            "Cystophora cristata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Templo Jokhang",
+        "descricao": "Templo budista tibetano do século sete, considerado o coração de Lhasa, na Praça Barkhor.",
+        "variantes": [
+          "Jokhang",
+          "Mosteiro Jokhang"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "johanna",
+          "nome": "Johanna",
+          "descricao": "Mãe de Dawn na série Diamante e Pérola do anime Pokémon, moradora de Twinleaf, em Sinnoh.",
+          "variantes": [
+            "Mãe de Dawn"
+          ]
+        },
+        {
+          "id": "bayon",
+          "nome": "Bayon",
+          "descricao": "Templo budista khmer decorado com torres de faces, em Angkor Thom, Camboja.",
+          "variantes": [
+            "Templo Bayon",
+            "Prasat Bayon"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "moca_iemen",
+          "nome": "Moca (Iêmen)",
+          "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+          "variantes": [
+            "Mocha",
+            "Mokha",
+            "Al-Makha"
+          ]
+        },
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sagrada Família",
+        "descricao": "Basílica católica em construção em Barcelona, projetada por Antoni Gaudí, a igreja mais alta do mundo.",
+        "variantes": [
+          "Templo Expiatório da Sagrada Família",
+          "Basílica da Sagrada Família"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sagrada_familia",
+          "nome": "Sagrada Família",
+          "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século.",
+          "variantes": [
+            "Templo Expiatório da Sagrada Família",
+            "Basílica da Sagrada Família",
+            "Sagrada Família de Barcelona"
+          ]
+        },
+        {
+          "id": "a_grande_familia_2001",
+          "nome": "A Grande Família (2001)",
+          "descricao": "Série de humor da TV Globo, exibida de 2001 a 2014, sobre uma família do subúrbio carioca.",
+          "variantes": [
+            "A Grande Família"
+          ]
+        },
+        {
+          "id": "saira_militar",
+          "nome": "Saíra-militar",
+          "descricao": "Pequena ave de cabeça azul, garganta vermelha e corpo verde (Tangara cyanocephala).",
+          "variantes": [
+            "Saíra-de-chapéu-azul",
+            "Tangara cyanocephala"
+          ]
+        },
+        {
+          "id": "basilica_de_sacre_c_ur",
+          "nome": "Basílica de Sacré-Cœur",
+          "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
+          "variantes": [
+            "Sacré-Cœur",
+            "Basílica do Sagrado Coração de Montmartre",
+            "Basílica do Sagrado Coração"
+          ]
+        },
+        {
+          "id": "arca_da_alianca",
+          "nome": "Arca da Aliança",
+          "descricao": "Baú sagrado descrito na Bíblia hebraica, levado pelos israelitas no deserto e depois guardado no Templo de Jerusalém",
+          "variantes": [
+            "Arca do Testemunho",
+            "Arca da Lei"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral de Santa Maria del Fiore, em Florença, famosa pela cúpula de Brunelleschi.",
+        "variantes": [
+          "Duomo de Florença",
+          "Santa Maria del Fiore",
+          "Florence Cathedral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença",
+            "Florence Cathedral"
+          ]
+        },
+        {
+          "id": "cupula_da_catedral_de_florenca",
+          "nome": "Cúpula da Catedral de Florença",
+          "descricao": "Grande cúpula de alvenaria da Catedral de Santa Maria del Fiore, em Florença, concluída em 1436.",
+          "variantes": [
+            "Cúpula de Brunelleschi",
+            "Duomo de Florença",
+            "Santa Maria del Fiore"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "buenos_aires",
+          "nome": "Buenos Aires",
+          "descricao": "Capital da Argentina, às margens do Rio da Prata.",
+          "variantes": [
+            "Santa María del Buen Ayre"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Sacsayhuamán",
+        "descricao": "Cidadela inca de muralhas de pedras gigantes encaixadas, nos arredores de Cusco, no Peru.",
+        "variantes": [
+          "Saksaywaman",
+          "Sacsahuamán"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sacsayhuaman",
+          "nome": "Sacsayhuamán",
+          "descricao": "Cidadela inca de muralhas de pedra seca nos arredores de Cusco, no Peru.",
+          "variantes": [
+            "Saksaywaman"
+          ]
+        },
+        {
+          "id": "robert_schumann",
+          "nome": "Robert Schumann",
+          "descricao": "Compositor e crítico musical alemão do Romantismo (1810–1856), marido da pianista Clara Schumann.",
+          "variantes": [
+            "Schumann"
+          ]
+        },
+        {
+          "id": "aquaman",
+          "nome": "Aquaman",
+          "descricao": "Super-herói da DC Comics que vive no mar e se comunica com as criaturas marinhas",
+          "variantes": [
+            "Arthur Curry"
+          ]
+        },
+        {
+          "id": "coracao_humano",
+          "nome": "Coração humano",
+          "descricao": "Órgão muscular do tórax que bombeia o sangue por todo o corpo.",
+          "variantes": [
+            "Coração"
+          ]
+        },
+        {
+          "id": "hitmonlee",
+          "nome": "Hitmonlee",
+          "descricao": "Pokémon lutador da primeira geração, número 106 da Pokédex Nacional, conhecido pelos chutes, evolução do Tyrogue.",
+          "variantes": [
+            "Sawamura"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lobisomem",
+        "descricao": "Criatura do folclore que se transforma em lobo ou híbrido de homem e lobo, ligada à lua cheia.",
+        "variantes": [
+          "Homem-lobo",
+          "Werewolf",
+          "Licantropo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lobisomem",
+          "nome": "Lobisomem",
+          "descricao": "Criatura lendária, homem que se transforma em lobo ou bicho peludo, presente no folclore brasileiro de origem europeia.",
+          "variantes": [
+            "Lobishomem"
+          ]
+        },
+        {
+          "id": "pithecanthropus",
+          "nome": "Pithecanthropus",
+          "descricao": "Nome de gênero criado no século dezenove para o elo perdido entre macacos e humanos, depois usado para o Homem de Java.",
+          "variantes": [
+            "Pitecantropo"
+          ]
+        },
+        {
+          "id": "homem_leao_de_hohlenstein_stadel",
+          "nome": "Homem-Leão de Hohlenstein-Stadel",
+          "descricao": "Estatueta paleolítica com corpo humano e cabeça de leão, achada numa caverna alemã.",
+          "variantes": [
+            "Löwenmensch",
+            "Homem-Leão",
+            "Lion-man"
+          ]
+        },
+        {
+          "id": "fat_man_bomba_de_nagasaki",
+          "nome": "Fat Man (bomba de Nagasaki)",
+          "descricao": "Bomba atômica de plutônio lançada pelos Estados Unidos sobre Nagasaki em 9 de agosto de 1945.",
+          "variantes": [
+            "Fat Man",
+            "Homem Gordo",
+            "Mark III"
+          ]
+        },
+        {
+          "id": "canopus",
+          "nome": "Canopus",
+          "descricao": "Estrela supergigante branco-amarelada da constelação da Carena, a segunda mais brilhante do céu noturno.",
+          "variantes": [
+            "Canopo",
+            "Alfa Carinae"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Templo das Inscrições",
+        "descricao": "Pirâmide escalonada maia em Palenque, no México, construída como monumento funerário do governante Pakal.",
+        "variantes": [
+          "Temple of the Inscriptions",
+          "Templo de las Inscripciones"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_atena_nice",
+          "nome": "Templo de Atena Nice",
+          "descricao": "Pequeno templo jônico do século cinco a.C. na Acrópole de Atenas, dedicado a Atena Nice.",
+          "variantes": [
+            "Templo de Atena Nike",
+            "Temple of Athena Nike"
+          ]
+        },
+        {
+          "id": "medinet_habu",
+          "nome": "Medinet Habu",
+          "descricao": "Templo funerário de Ramsés III na margem oeste do Nilo, em frente a Luxor, Egito.",
+          "variantes": [
+            "Templo de Ramsés III"
+          ]
+        },
+        {
+          "id": "templo_i_de_tikal",
+          "nome": "Templo I de Tikal",
+          "descricao": "Pirâmide-templo maia de cerca de 732 d.C. na Grande Praça de Tikal, na Guatemala, também chamada Templo do Grande Jaguar.",
+          "variantes": [
+            "Templo do Grande Jaguar",
+            "Templo de Ah Cacao",
+            "Tikal Temple I"
+          ]
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cupido é o deus romano; Eros é o deus grego, entidade distinta apesar de variantes compartilhadas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o templo de Thanjavur."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "presepio",
+      "motivo": "Mesma representação do nascimento de Jesus, com variantes coincidentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "porta_de_ishtar",
+      "motivo": "Mesmo portão da Babilônia construído por Nabucodonosor II."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Templo Jokhang de Lhasa."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "sagrada_familia",
+      "motivo": "Mesma basílica de Gaudí em Barcelona."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_florenca",
+      "motivo": "Mesma catedral de Santa Maria del Fiore; a cúpula é uma parte distinta."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "sacsayhuaman",
+      "motivo": "Mesma cidadela inca perto de Cusco."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "lobisomem",
+      "motivo": "Mesma criatura lendária do homem que vira lobo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Templo das Inscrições de Palenque; Templo I de Tikal é outro."
+    }
+  ]
+}

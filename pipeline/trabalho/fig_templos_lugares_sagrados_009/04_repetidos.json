@@ -1,0 +1,158 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que enfeite natalino, com figuras em miniatura, é este?",
+        "resposta": "Presépio"
+      },
+      "existentes": [
+        {
+          "id": "q00111",
+          "pergunta": "Em 1223, na aldeia italiana de Greccio, que santo montou o que é considerado o primeiro presépio de Natal?",
+          "resposta": "São Francisco de Assis"
+        },
+        {
+          "id": "q14988",
+          "pergunta": "Que montagem tradicional de Natal é esta?",
+          "resposta": "Presépio"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que portão monumental da antiga Mesopotâmia é este?",
+        "resposta": "Portão de Ishtar"
+      },
+      "existentes": [
+        {
+          "id": "q03377",
+          "pergunta": "A Porta de Ishtar, entrada da Babilônia coberta de tijolos azuis, foi reconstruída em que museu?",
+          "resposta": "Museu de Pérgamo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que arquiteto projetou esta basílica católica?",
+        "resposta": "Antoni Gaudí"
+      },
+      "existentes": [
+        {
+          "id": "q02037",
+          "pergunta": "Em Barcelona, as obras da basílica da Sagrada Família começaram em qual século?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q02519",
+          "pergunta": "Em que cidade fica esta basílica?",
+          "resposta": "Barcelona"
+        },
+        {
+          "id": "q03193",
+          "pergunta": "Em que ano foi lançada a pedra fundamental da Sagrada Família, em Barcelona?",
+          "resposta": "1882"
+        },
+        {
+          "id": "q19577",
+          "pergunta": "Que arquiteto projetou esta basílica?",
+          "resposta": "Antoni Gaudí"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que catedral italiana é esta?",
+        "resposta": "Catedral de Florença"
+      },
+      "existentes": [
+        {
+          "id": "q03188",
+          "pergunta": "Que arquiteto renascentista ergueu a enorme cúpula da Catedral de Florença, no século quinze?",
+          "resposta": "Filippo Brunelleschi"
+        },
+        {
+          "id": "q07189",
+          "pergunta": "Em que século foi concluída a cúpula desta catedral?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que país fica esta muralha de pedras encaixadas sem argamassa?",
+        "resposta": "Peru"
+      },
+      "existentes": [
+        {
+          "id": "q06291",
+          "pergunta": "Em que cidade do Peru fica esta fortaleza inca?",
+          "resposta": "Cusco"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que criatura do folclore europeu é esta?",
+        "resposta": "Lobisomem"
+      },
+      "existentes": [
+        {
+          "id": "q05244",
+          "pergunta": "Segundo uma versão da crença popular brasileira, vira lobisomem o menino que nasce depois de quantas irmãs mulheres seguidas?",
+          "resposta": "Sete"
+        },
+        {
+          "id": "q06899",
+          "pergunta": "Que criatura das lendas é esta?",
+          "resposta": "Lobisomem"
+        },
+        {
+          "id": "q15973",
+          "pergunta": "Segundo a crença popular brasileira, em que noite da semana, à meia-noite, o lobisomem se transforma e sai correndo pelos campos?",
+          "resposta": "Sexta-feira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar a imagem do presépio (q14988), resposta idêntica.",
+      "id_existente": "q14988"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o portão é diferente de saber em que museu foi reconstruído."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: arquiteto da basílica, Gaudí (q19577).",
+      "id_existente": "q19577"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar a catedral pela imagem é fato diferente de arquiteto da cúpula ou século de conclusão."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "País da muralha é diferente da cidade da fortaleza; fatos distintos."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesma identificação da criatura Lobisomem pela imagem (q06899).",
+      "id_existente": "q06899"
+    }
+  ]
+}

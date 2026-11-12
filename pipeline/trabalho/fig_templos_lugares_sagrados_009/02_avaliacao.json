@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pintura clara de Cupido: menino alado com arco e aljava. A assinatura do pintor não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que deus romano, representado como um menino alado, é este?",
+      "resposta": "Cupido",
+      "distratores": [
+        "Mercúrio",
+        "Apolo",
+        "Baco"
+      ],
+      "ancora": {
+        "nome": "Cupido",
+        "descricao": "Deus romano do desejo e do amor erótico, filho de Vênus, representado como menino alado com arco e flechas.",
+        "variantes": [
+          "Amor",
+          "Eros"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A ilustração mostra disco solar entre chifres, igual à iconografia de Ísis, que adotou o toucado de Hathor. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Templo reconhecível, com o grande vimana piramidal. As pessoas são pequenas e distantes.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que dinastia indiana construiu este templo hindu, no início do século onze?",
+      "resposta": "Dinastia Chola",
+      "ancora": {
+        "nome": "Templo Brihadisvara",
+        "descricao": "Templo hindu shivaíta de Thanjavur, no sul da Índia, construído pelo imperador Rajaraja I entre 1003 e 1010.",
+        "variantes": [
+          "Templo Brihadeeswarar",
+          "Rajarajesvaram",
+          "Thanjai Periya Kovil"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Presépio claro, sem pessoas e sem texto. Mostra o nascimento de Jesus com Maria, José, pastor, ovelhas e estrela.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cidade da Judeia é lembrada por esta cena natalina?",
+      "resposta": "Belém",
+      "distratores": [
+        "Nazaré",
+        "Jerusalém",
+        "Jericó"
+      ],
+      "ancora": {
+        "nome": "Presépio",
+        "descricao": "Representação em miniatura do nascimento de Jesus, com figuras e cenário, exibida no Natal.",
+        "variantes": [
+          "Cena da Natividade",
+          "Manjedoura"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Portão de tijolos azuis esmaltados com animais em relevo, inconfundível. Os visitantes são pequenos e incidentais.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que portão da antiga Babilônia, hoje reconstruído num museu de Berlim, é este?",
+      "resposta": "Portão de Ishtar",
+      "ancora": {
+        "nome": "Portão de Ishtar",
+        "descricao": "Oitavo portão da cidade interna da Babilônia, com tijolos azuis esmaltados, construído por Nabucodonosor II por volta de 575 a.C.",
+        "variantes": [
+          "Porta de Istar",
+          "Ishtar Gate"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada branca com mastros de oração e a praça Barkhor, característica do Jokhang. Há pessoas, mas pequenas e distantes.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade fica este templo budista?",
+      "resposta": "Lhasa",
+      "distratores": [
+        "Katmandu",
+        "Thimphu",
+        "Leh"
+      ],
+      "ancora": {
+        "nome": "Templo Jokhang",
+        "descricao": "Templo budista tibetano do século sete, considerado o coração de Lhasa, na Praça Barkhor.",
+        "variantes": [
+          "Jokhang",
+          "Mosteiro Jokhang"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada da Natividade e torres, inconfundíveis. Não há pessoas em destaque nem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que arquiteto, sepultado na cripta desta basílica, assumiu o projeto em 1883 e dedicou a vida a ela?",
+      "resposta": "Antoni Gaudí",
+      "ancora": {
+        "nome": "Sagrada Família",
+        "descricao": "Basílica católica em construção em Barcelona, projetada por Antoni Gaudí, a igreja mais alta do mundo.",
+        "variantes": [
+          "Templo Expiatório da Sagrada Família",
+          "Basílica da Sagrada Família"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto noturna nítida da cúpula de Brunelleschi e do campanário, emblemática e sem pessoas ou texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que catedral italiana é esta?",
+      "resposta": "Catedral de Florença",
+      "ancora": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral de Santa Maria del Fiore, em Florença, famosa pela cúpula de Brunelleschi.",
+        "variantes": [
+          "Duomo de Florença",
+          "Santa Maria del Fiore",
+          "Florence Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Muralha de grandes blocos poligonais encaixados, típica de Sacsayhuamán. Sem pessoas ou texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica esta muralha de pedras encaixadas sem argamassa?",
+      "resposta": "Peru",
+      "distratores": [
+        "Bolívia",
+        "Equador",
+        "Chile"
+      ],
+      "ancora": {
+        "nome": "Sacsayhuamán",
+        "descricao": "Cidadela inca de muralhas de pedras gigantes encaixadas, nos arredores de Cusco, no Peru.",
+        "variantes": [
+          "Saksaywaman",
+          "Sacsahuamán"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ilustração clara de um homem-lobo com lua cheia e cemitério. A assinatura do ilustrador não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que criatura do folclore europeu é esta?",
+      "resposta": "Lobisomem",
+      "ancora": {
+        "nome": "Lobisomem",
+        "descricao": "Criatura do folclore que se transforma em lobo ou híbrido de homem e lobo, ligada à lua cheia.",
+        "variantes": [
+          "Homem-lobo",
+          "Werewolf",
+          "Licantropo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns em primeiro plano, e o letreiro com ideogramas aparece na fachada."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pirâmide escalonada com templo no topo, distintiva e bem enquadrada, sem pessoas ou texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que governante maia do século sete foi sepultado no interior desta pirâmide?",
+      "resposta": "Pakal (Kʼinich Janaabʼ Pakal)",
+      "ancora": {
+        "nome": "Templo das Inscrições",
+        "descricao": "Pirâmide escalonada maia em Palenque, no México, construída como monumento funerário do governante Pakal.",
+        "variantes": [
+          "Temple of the Inscriptions",
+          "Templo de las Inscripciones"
+        ]
+      }
+    }
+  ]
+}
