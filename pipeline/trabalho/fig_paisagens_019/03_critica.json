@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, resposta única entre as alternativas, distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia nem descreve o cabo; distratores são cabos portugueses críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Terra do Fogo é um arquipélago (trechos), e o enunciado diz 'ilha', o que é impreciso. Chiloé também é ilha/arquipélago do sul do Chile, então o distrator é fraco. Corrigi o termo e troquei o distrator.",
+      "reescrita": {
+        "pergunta": "Que arquipélago do extremo sul da América do Sul aparece nesta imagem de satélite?",
+        "resposta": "Terra do Fogo",
+        "distratores": [
+          "Ilhas Malvinas",
+          "Ilhas Órcades do Sul",
+          "Ilhas Shetland do Sul"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Vista do espaço, o Himalaia aparece com o Planalto Tibetano, então 'planalto' é defensável. A resposta também pode ser 'montanhas' ou 'Himalaia'. Falta resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Topo plano e bordas em escarpa' é a definição de chapada (trecho), então o enunciado entrega a resposta e a figura vira enfeite. Tirei a definição.",
+      "reescrita": {
+        "pergunta": "Que forma de relevo típica do Brasil aparece nesta foto?",
+        "resposta": "Chapada",
+        "distratores": [
+          "Planície",
+          "Duna",
+          "Restinga"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lago de Banff, no Canadá, confirmado nos trechos. O enunciado só dá a cor da água, que não identifica o país. Distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vale entre montanhas, confirmado pela definição nos trechos. 'Entre as montanhas' não entrega a resposta e os distratores são formas de relevo distintas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Cratera Meteor (Barringer) fica no Arizona, Estados Unidos, segundo o trecho. O enunciado não vaza e os distratores são países com crateras, mas nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}

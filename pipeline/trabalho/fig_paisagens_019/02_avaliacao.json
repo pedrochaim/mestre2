@@ -1,0 +1,209 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Colina clara, forma de relevo típica, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que forma de relevo aparece ao fundo desta foto?",
+      "resposta": "Colina",
+      "distratores": [
+        "Planalto",
+        "Duna",
+        "Cânion"
+      ],
+      "ancora": {
+        "nome": "Colina",
+        "descricao": "Forma de relevo elevada, de topo arredondado, menos proeminente que uma montanha.",
+        "variantes": [
+          "Morro",
+          "Outeiro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Falésia com farol, reconhecível; sem texto nem pessoas em primeiro plano.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que cabo da costa portuguesa é este?",
+      "resposta": "Cabo da Roca",
+      "distratores": [
+        "Cabo de São Vicente",
+        "Cabo Espichel",
+        "Cabo Carvoeiro"
+      ],
+      "ancora": {
+        "nome": "Cabo da Roca",
+        "descricao": "Cabo em Sintra, Portugal, ponto mais ocidental da Europa continental, com um farol.",
+        "variantes": [
+          "Cape Roca"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Rochas esféricas isoladas: concreções parecidas existem em outros lugares (Nova Zelândia, Cazaquistão); sem contexto, não dá resposta única nem reconhecimento."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Maciço de topo plano ao longe, sem pistas para reconhecer o local; país não identificável e a forma pode ser lida como mesa ou montanha."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de satélite do extremo sul sul-americano, sem texto; reconhecível pelos fiordes e pelo Estreito de Magalhães.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que ilha do extremo sul da América do Sul aparece nesta imagem de satélite?",
+      "resposta": "Terra do Fogo",
+      "distratores": [
+        "Ilhas Malvinas",
+        "Ilha de Chiloé",
+        "Geórgia do Sul"
+      ],
+      "ancora": {
+        "nome": "Terra do Fogo",
+        "descricao": "Arquipélago no extremo sul da América do Sul, dividido entre Chile e Argentina.",
+        "variantes": [
+          "Tierra del Fuego",
+          "Isla Grande de Tierra del Fuego"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano; além disso, a praia não é reconhecível por esta foto."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto de satélite de grande cordilheira nevada, forma de relevo clara, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que forma de relevo é esta, vista do espaço?",
+      "resposta": "Cordilheira",
+      "distratores": [
+        "Planalto",
+        "Depressão",
+        "Planície"
+      ],
+      "ancora": {
+        "nome": "Cordilheira",
+        "descricao": "Série de montanhas ligadas em linha, aqui o Himalaia visto do espaço.",
+        "variantes": [
+          "Cadeia de montanhas"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vale andino genérico; sem elementos que o identifiquem como o Vale Sagrado, e vales parecidos existem na Bolívia e no Equador."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista da Chapada Diamantina, com topo plano e escarpas, sem texto.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que forma de relevo brasileiro, de topo plano e bordas em escarpa, aparece nesta foto?",
+      "resposta": "Chapada",
+      "distratores": [
+        "Planície",
+        "Duna",
+        "Restinga"
+      ],
+      "ancora": {
+        "nome": "Chapada Diamantina",
+        "descricao": "Região de chapadas e escarpas no interior da Bahia, exemplo de relevo de chapada.",
+        "variantes": [
+          "Chapada"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Lago Moraine e Vale dos Dez Picos, paisagem icônica, sem texto nem pessoas.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este lago de águas azul-turquesa?",
+      "resposta": "Canadá",
+      "distratores": [
+        "Estados Unidos",
+        "Suíça",
+        "Nova Zelândia"
+      ],
+      "ancora": {
+        "nome": "Lago Moraine",
+        "descricao": "Lago glacial no Parque Nacional de Banff, nas Montanhas Rochosas canadenses, junto ao Vale dos Dez Picos.",
+        "variantes": [
+          "Moraine Lake"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vale largo entre montanhas com rio, claro e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que forma de relevo ocupa o centro desta foto, entre as montanhas?",
+      "resposta": "Vale",
+      "distratores": [
+        "Planalto",
+        "Cânion",
+        "Duna"
+      ],
+      "ancora": {
+        "nome": "Vale",
+        "descricao": "Área baixa e alongada entre colinas ou montanhas, em geral com um rio, aqui o vale de Kazbegi, na Geórgia.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cratera Meteor, no Arizona, vista do alto, sem texto nem pessoas; reconhecível para quem conhece.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta cratera de impacto?",
+      "resposta": "Estados Unidos",
+      "distratores": [
+        "Austrália",
+        "Canadá",
+        "México"
+      ],
+      "ancora": {
+        "nome": "Cratera Meteor",
+        "descricao": "Cratera de impacto bem preservada no deserto do Arizona, nos Estados Unidos.",
+        "variantes": [
+          "Meteor Crater",
+          "Cratera Barringer"
+        ]
+      }
+    }
+  ]
+}
