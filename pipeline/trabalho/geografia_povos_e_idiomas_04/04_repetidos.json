@@ -1,0 +1,973 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Do alfa ao ômega, quantas letras tem o alfabeto grego?",
+        "resposta": "24"
+      },
+      "existentes": [
+        {
+          "id": "q13547",
+          "pergunta": "No alfabeto grego, que começa com alfa, qual é a última letra?",
+          "resposta": "Ômega"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na Coreia do Sul, quantas letras básicas, somando consoantes e vogais, tem o alfabeto hangul?",
+        "resposta": "24"
+      },
+      "existentes": [
+        {
+          "id": "q13115",
+          "pergunta": "Com que objetivo foi criado o alfabeto coreano hangul, no século quinze?",
+          "resposta": "Facilitar a alfabetização do povo"
+        },
+        {
+          "id": "q13124",
+          "pergunta": "Que rei da dinastia Joseon promoveu a criação do alfabeto coreano?",
+          "resposta": "Sejong, o Grande"
+        },
+        {
+          "id": "q13557",
+          "pergunta": "Na escrita coreana, as letras não ficam soltas em fila, mas agrupadas em pequenos blocos. Cada bloco corresponde a quê?",
+          "resposta": "Uma sílaba"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Na Geórgia, o alfabeto de letras arredondadas usado hoje para escrever a língua do país tem quantas letras?",
+        "resposta": "33"
+      },
+      "existentes": [
+        {
+          "id": "q14228",
+          "pergunta": "Estas três versões de um mesmo alfabeto são usadas para escrever o idioma de que país?",
+          "resposta": "Geórgia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O alfabeto tradicional do italiano dispensa letras como o K, o W e o Y. Com quantas letras ele fica?",
+        "resposta": "21"
+      },
+      "existentes": [
+        {
+          "id": "q13503",
+          "pergunta": "O italiano padrão nasceu do falar usado por Dante, Petrarca e Boccaccio. De qual região da Itália vem esse falar?",
+          "resposta": "Toscana"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O esperanto abre mão do Q, do W, do X e do Y, mas cria letras com acentos próprios. Quantas letras tem seu alfabeto?",
+        "resposta": "28"
+      },
+      "existentes": [
+        {
+          "id": "q13127",
+          "pergunta": "Em 1887, que oftalmologista publicou em Varsóvia o primeiro livro do esperanto?",
+          "resposta": "Ludwik Zamenhof"
+        },
+        {
+          "id": "q13520",
+          "pergunta": "O nome esperanto vem do pseudônimo que o criador da língua usou no primeiro livro. O que essa palavra significa?",
+          "resposta": "Aquele que tem esperança"
+        },
+        {
+          "id": "q13555",
+          "pergunta": "No esperanto, os substantivos no singular terminam todos com a mesma vogal. Qual é ela?",
+          "resposta": "O"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O alfabeto dos fenícios, ancestral do grego, só tinha sinais para consoantes. Quantos eram esses sinais?",
+        "resposta": "22"
+      },
+      "existentes": [
+        {
+          "id": "q03100",
+          "pergunta": "A palavra alfabeto vem das letras gregas alfa e beta, derivadas de letras fenícias que significavam boi e o quê?",
+          "resposta": "Casa"
+        },
+        {
+          "id": "q13106",
+          "pergunta": "O alfabeto grego e o hebraico descendem do sistema de escrita de qual povo navegador do Mediterrâneo antigo?",
+          "resposta": "Fenícios"
+        },
+        {
+          "id": "q13510",
+          "pergunta": "As cidades de Biblos, Tiro e Sídon, onde se usava o alfabeto fenício, ficam no litoral de qual país atual?",
+          "resposta": "Líbano"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No japonês, o silabário hiragana, aprendido primeiro pelas crianças, tem quantos caracteres básicos?",
+        "resposta": "46"
+      },
+      "existentes": [
+        {
+          "id": "q13129",
+          "pergunta": "Além dos kanji e do hiragana, que terceiro sistema de escrita o japonês usa, sobretudo para palavras estrangeiras?",
+          "resposta": "Katakana"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No vietnamita escrito, sinais sobre e sob as vogais marcam os tons. Quantos tons tem a pronúncia padrão de Hanói?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q13111",
+          "pergunta": "Por que o vietnamita escreve o som de nh com as mesmas letras usadas no português?",
+          "resposta": "Influência de missionários portugueses"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Sem Q, W nem X, mas com letras como o cê cedilha, o alfabeto turco moderno tem quantas letras?",
+        "resposta": "29"
+      },
+      "existentes": [
+        {
+          "id": "q13122",
+          "pergunta": "Em que década a Turquia de Atatürk trocou o alfabeto árabe pelo latino?",
+          "resposta": "Década de 1920"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O nome da língua suaíli vem do plural de uma palavra árabe. O que essa palavra significa?",
+        "resposta": "Costa, litoral"
+      },
+      "existentes": [
+        {
+          "id": "q04912",
+          "pergunta": "O nome suaíli, dado a uma língua e a uma cultura do leste africano, vem de uma palavra árabe. O que ela significa?",
+          "resposta": "Costas"
+        },
+        {
+          "id": "q13540",
+          "pergunta": "Oficial no Quênia e na Tanzânia, qual é a língua banta com mais falantes, somando os que a aprendem como segunda língua?",
+          "resposta": "Suaíli"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O nome urdu, língua nacional do Paquistão, vem de uma palavra túrquica que também deu origem a horda. O que ela significa?",
+        "resposta": "Exército, acampamento"
+      },
+      "existentes": [
+        {
+          "id": "q13554",
+          "pergunta": "Muito parecido com o hindi na fala, o urdu do Paquistão usa uma escrita bem diferente. Qual?",
+          "resposta": "Alfabeto árabe modificado"
+        },
+        {
+          "id": "q13566",
+          "pergunta": "O hindi e o urdu são, na fala do dia a dia, praticamente a mesma língua. Que nome recebe essa língua comum?",
+          "resposta": "Hindustâni"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Nos Andes, os próprios falantes chamam o quíchua de runa simi. Como se traduz esse nome?",
+        "resposta": "Fala do povo"
+      },
+      "existentes": [
+        {
+          "id": "q13104",
+          "pergunta": "O que as palavras lhama, puma e condor têm em comum na sua origem?",
+          "resposta": "Vêm do quíchua"
+        },
+        {
+          "id": "q13539",
+          "pergunta": "Herdeira do idioma do Império Inca, qual é a língua indígena com mais falantes nas Américas?",
+          "resposta": "Quíchua"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Nheengatu, nome da língua de base tupi ainda falada às margens do rio Negro, significa o quê?",
+        "resposta": "Língua boa"
+      },
+      "existentes": [
+        {
+          "id": "q00763",
+          "pergunta": "O nome nheengatu, idioma de origem tupi falado na Amazônia, significa o quê?",
+          "resposta": "Língua boa"
+        },
+        {
+          "id": "q00782",
+          "pergunta": "Em que município do Amazonas, perto da fronteira com a Colômbia, o nheengatu é língua cooficial ao lado do português?",
+          "resposta": "São Gabriel da Cachoeira"
+        },
+        {
+          "id": "q13572",
+          "pergunta": "O nheengatu, língua de base tupi espalhada na Amazônia colonial, ainda é falado às margens do rio Negro, em qual estado brasileiro?",
+          "resposta": "Amazonas"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O nome da língua hindi chegou à Índia pelo persa e se refere originalmente à terra de qual grande rio?",
+        "resposta": "Indo"
+      },
+      "existentes": [
+        {
+          "id": "q13537",
+          "pergunta": "Que sistema de escrita, também usado para o sânscrito, é empregado para escrever o hindi?",
+          "resposta": "Devanágari"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Nos Pireneus, a palavra euskaldun, usada para designar uma pessoa basca, significa literalmente o quê?",
+        "resposta": "Quem possui a língua"
+      },
+      "existentes": [
+        {
+          "id": "q13132",
+          "pergunta": "Que língua dos Pireneus, entre Espanha e França, é um isolado linguístico, sem parentes conhecidos entre as línguas vivas?",
+          "resposta": "Basco"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "A palavra hieróglifo foi criada pelos gregos para a escrita dos templos egípcios. O que ela significa?",
+        "resposta": "Entalhe sagrado"
+      },
+      "existentes": [
+        {
+          "id": "q06370",
+          "pergunta": "Em 1822, depois de estudar a Pedra de Roseta e outros textos, que estudioso francês anunciou ter decifrado os hieróglifos egípcios?",
+          "resposta": "Jean-François Champollion"
+        },
+        {
+          "id": "q06371",
+          "pergunta": "A palavra hieróglifo vem do grego e descreve a escrita gravada nas paredes dos templos egípcios. O que ela significa literalmente?",
+          "resposta": "Entalhes sagrados"
+        },
+        {
+          "id": "q13558",
+          "pergunta": "Os hieróglifos egípcios podiam ser escritos em várias direções. O que mostrava ao leitor de que lado começar?",
+          "resposta": "Para onde as figuras olham"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "A palavra inglesa Welsh, usada para os galeses e sua língua, vem de um termo germânico antigo. O que ele significava?",
+        "resposta": "Estrangeiros"
+      },
+      "existentes": [
+        {
+          "id": "q13541",
+          "pergunta": "Entre as línguas celtas ainda faladas, qual tem mais falantes nativos?",
+          "resposta": "Galês"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "No norte da África, os povos chamados de berberes preferem o nome amazigue. Como essa palavra costuma ser traduzida?",
+        "resposta": "Homens livres"
+      },
+      "existentes": [
+        {
+          "id": "q13565",
+          "pergunta": "O nome dos berberes, povo do norte da África, tem a mesma origem de qual palavra que os gregos usavam para os estrangeiros?",
+          "resposta": "Bárbaro"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "A Libras, do Brasil, e a língua de sinais americana têm raízes na mesma língua de sinais europeia. Qual?",
+        "resposta": "Língua de sinais francesa"
+      },
+      "existentes": [
+        {
+          "id": "q04757",
+          "pergunta": "A Libras, língua dos surdos brasileiros, descende da língua de sinais de qual país, trazida por um professor surdo no tempo do Império?",
+          "resposta": "França"
+        },
+        {
+          "id": "q04763",
+          "pergunta": "Em que ano uma lei federal reconheceu a Libras como meio legal de comunicação e expressão no Brasil?",
+          "resposta": "2002"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Falado numa província do norte da Holanda, que idioma é apontado como o parente vivo mais próximo do inglês na Europa continental?",
+        "resposta": "Frísio"
+      },
+      "existentes": [
+        {
+          "id": "q13527",
+          "pergunta": "As palavras inglesas beef e pork, para carne de boi e de porco, vêm do francês. Que acontecimento de 1066 explica essa herança?",
+          "resposta": "A conquista normanda da Inglaterra"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Antes de chegar aos romanos, o alfabeto grego foi adaptado por qual povo vizinho na Itália antiga?",
+        "resposta": "Etruscos"
+      },
+      "existentes": [
+        {
+          "id": "q13543",
+          "pergunta": "Usado no português, no inglês, no turco e no vietnamita, qual é o sistema de escrita mais usado do mundo?",
+          "resposta": "Alfabeto latino"
+        },
+        {
+          "id": "q13550",
+          "pergunta": "No alfabeto dos antigos romanos não havia J, U nem W. Que letra fazia o papel do U?",
+          "resposta": "V"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Entre as línguas faladas perto de Israel, qual pertence à mesma família do hebraico?",
+        "resposta": "Árabe"
+      },
+      "existentes": [
+        {
+          "id": "q13126",
+          "pergunta": "Que lexicógrafo nascido no Império Russo liderou, no fim do século dezenove, o renascimento do hebraico como língua falada?",
+          "resposta": "Eliezer Ben-Yehuda"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Decifrada na década de 1950, a escrita Linear B, de Creta e de Micenas, registrava uma forma antiga de qual língua?",
+        "resposta": "Grego"
+      },
+      "existentes": [
+        {
+          "id": "q03106",
+          "pergunta": "Em 1952, quem decifrou a escrita Linear B, de Creta e Micenas, mesmo sendo arquiteto e não linguista profissional?",
+          "resposta": "Michael Ventris"
+        },
+        {
+          "id": "q14172",
+          "pergunta": "Que escrita da Idade do Bronze aparece nesta tábua de argila?",
+          "resposta": "Linear B"
+        },
+        {
+          "id": "q14194",
+          "pergunta": "A escrita Linear B, das tabuletas de argila de Creta e de Micenas, registra a forma mais antiga conhecida de qual língua?",
+          "resposta": "Grego"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "A escrita tradicional mongol, da época de Gengis Khan, foi adaptada do alfabeto de qual povo de língua túrquica?",
+        "resposta": "Uigures"
+      },
+      "existentes": [
+        {
+          "id": "q13553",
+          "pergunta": "A escrita tradicional mongol, ainda usada na Mongólia Interior chinesa, é escrita em que direção?",
+          "resposta": "De cima para baixo"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Em que região administrativa especial da China o português é língua oficial ao lado do chinês?",
+        "resposta": "Macau"
+      },
+      "existentes": [
+        {
+          "id": "q00795",
+          "pergunta": "Qual é a língua materna mais falada do Hemisfério Sul?",
+          "resposta": "Português"
+        },
+        {
+          "id": "q04767",
+          "pergunta": "No fim do século treze, que rei poeta, também chamado de Lavrador, adotou o português como língua dos documentos oficiais de Portugal?",
+          "resposta": "Dom Dinis"
+        },
+        {
+          "id": "q08512",
+          "pergunta": "Assim como o inglês é a língua de Shakespeare, o português é apelidado de língua de qual poeta do século dezesseis?",
+          "resposta": "Luís de Camões"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Na Bélgica, o holandês é a língua de qual região do norte do país?",
+        "resposta": "Flandres"
+      },
+      "existentes": [
+        {
+          "id": "q05746",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Bruxelas"
+        },
+        {
+          "id": "q07542",
+          "pergunta": "A Bélgica se divide em três regiões: Flandres, ao norte, a região de Bruxelas e qual outra, ao sul?",
+          "resposta": "Valônia"
+        },
+        {
+          "id": "q13532",
+          "pergunta": "As línguas oficiais da Bélgica são o holandês, o francês e qual outra, falada por uma pequena comunidade no leste do país?",
+          "resposta": "Alemão"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Criado em 1999 no norte do Canadá, que território de maioria inuíte tem a língua desse povo entre suas línguas oficiais?",
+        "resposta": "Nunavut"
+      },
+      "existentes": [
+        {
+          "id": "q13095",
+          "pergunta": "Os povos do Ártico antes chamados de esquimós preferem o nome inuit. O que essa palavra significa na língua deles?",
+          "resposta": "As pessoas"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Que país da África Central, antiga colônia da Espanha, tem o espanhol como língua oficial?",
+        "resposta": "Guiné Equatorial"
+      },
+      "existentes": [
+        {
+          "id": "q08497",
+          "pergunta": "Entre as línguas que nasceram do latim, qual tem mais falantes nativos no mundo?",
+          "resposta": "Espanhol"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Por que o inglês é a língua oficial da Libéria, país da África Ocidental que nunca foi colônia britânica?",
+        "resposta": "Fundada por afro-americanos libertos"
+      },
+      "existentes": [
+        {
+          "id": "q00016",
+          "pergunta": "No século dezenove, a Libéria foi fundada na África como destino de qual grupo vindo dos Estados Unidos?",
+          "resposta": "Afro-americanos libertos"
+        },
+        {
+          "id": "q08108",
+          "pergunta": "Qual destes países africanos se tornou independente primeiro?",
+          "resposta": "Libéria"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "O Suriname ficou com os holandeses no Tratado de Breda, de 1667. Em troca, os ingleses ficaram com qual território holandês na América do Norte?",
+        "resposta": "Nova Amsterdã, atual Nova York"
+      },
+      "existentes": [
+        {
+          "id": "q04032",
+          "pergunta": "Em 1667, pelo Tratado de Breda, os holandeses ficaram com o Suriname e deixaram aos ingleses a colônia que viraria qual cidade?",
+          "resposta": "Nova York"
+        },
+        {
+          "id": "q04038",
+          "pergunta": "Vizinho do Brasil, o Suriname tem como língua oficial uma herança da colonização. Qual é essa língua?",
+          "resposta": "Neerlandês (holandês)"
+        },
+        {
+          "id": "q07530",
+          "pergunta": "Em área, qual é o menor país independente da América do Sul?",
+          "resposta": "Suriname"
+        },
+        {
+          "id": "q20210",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Suriname"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Quando um pidgin passa a ser a língua materna das crianças de uma comunidade, ele se torna o quê?",
+        "resposta": "Língua crioula"
+      },
+      "existentes": [
+        {
+          "id": "q13563",
+          "pergunta": "A palavra pidgin, usada para línguas de contato simplificadas, viria da pronúncia chinesa de qual palavra inglesa?",
+          "resposta": "Business"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Falado por milhões de judeus da Europa Oriental, o iídiche perdeu de uma vez boa parte de seus falantes por causa de qual acontecimento?",
+        "resposta": "Holocausto"
+      },
+      "existentes": [
+        {
+          "id": "q13096",
+          "pergunta": "O nome do iídiche, idioma de origem germânica escrito com letras hebraicas, pode ser traduzido por qual adjetivo?",
+          "resposta": "Judaico"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Em 1976, estudantes negros de Soweto, na África do Sul, saíram às ruas contra o ensino obrigatório em qual língua?",
+        "resposta": "Africâner"
+      },
+      "existentes": [
+        {
+          "id": "q04919",
+          "pergunta": "Em 1976, milhares de estudantes de Soweto saíram às ruas contra a imposição do ensino em que língua?",
+          "resposta": "Africâner"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Em que ano uma lei federal reconheceu a Libras como meio legal de comunicação das pessoas surdas no Brasil?",
+        "resposta": "2002"
+      },
+      "existentes": [
+        {
+          "id": "q04757",
+          "pergunta": "A Libras, língua dos surdos brasileiros, descende da língua de sinais de qual país, trazida por um professor surdo no tempo do Império?",
+          "resposta": "França"
+        },
+        {
+          "id": "q04763",
+          "pergunta": "Em que ano uma lei federal reconheceu a Libras como meio legal de comunicação e expressão no Brasil?",
+          "resposta": "2002"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Em que século o monge Mesrop Mashtots criou o alfabeto usado até hoje para escrever o armênio?",
+        "resposta": "Século cinco"
+      },
+      "existentes": [
+        {
+          "id": "q14143",
+          "pergunta": "Que alfabeto é este?",
+          "resposta": "Alfabeto armênio"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Qual língua tem o maior número de falantes nativos no hemisfério sul?",
+        "resposta": "Português"
+      },
+      "existentes": [
+        {
+          "id": "q00795",
+          "pergunta": "Qual é a língua materna mais falada do Hemisfério Sul?",
+          "resposta": "Português"
+        },
+        {
+          "id": "q04767",
+          "pergunta": "No fim do século treze, que rei poeta, também chamado de Lavrador, adotou o português como língua dos documentos oficiais de Portugal?",
+          "resposta": "Dom Dinis"
+        },
+        {
+          "id": "q08512",
+          "pergunta": "Assim como o inglês é a língua de Shakespeare, o português é apelidado de língua de qual poeta do século dezesseis?",
+          "resposta": "Luís de Camões"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Entre as línguas que descendem do latim, qual tem mais falantes nativos?",
+        "resposta": "Espanhol"
+      },
+      "existentes": [
+        {
+          "id": "q08497",
+          "pergunta": "Entre as línguas que nasceram do latim, qual tem mais falantes nativos no mundo?",
+          "resposta": "Espanhol"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Entre os países que têm o árabe como língua oficial, qual é o mais populoso?",
+        "resposta": "Egito"
+      },
+      "existentes": [
+        {
+          "id": "q13523",
+          "pergunta": "O al que aparece no começo de palavras como alface, almofada e alfaiate é a herança de um artigo de qual língua?",
+          "resposta": "Árabe"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "A Pedra de Roseta traz o mesmo decreto em hieróglifos, em grego antigo e em qual terceira escrita usada no Egito?",
+        "resposta": "Demótico"
+      },
+      "existentes": [
+        {
+          "id": "q00114",
+          "pergunta": "Em 2014, uma sonda espacial europeia enviou um módulo que pousou num cometa. A sonda recebeu o nome de qual célebre artefato egípcio?",
+          "resposta": "Pedra de Roseta"
+        },
+        {
+          "id": "q06359",
+          "pergunta": "Desde 1802, a Pedra de Roseta, chave para decifrar os hieróglifos, fica exposta em qual museu?",
+          "resposta": "Museu Britânico"
+        },
+        {
+          "id": "q06360",
+          "pergunta": "A Pedra de Roseta traz o mesmo decreto em hieróglifos, em grego antigo e em qual terceira escrita?",
+          "resposta": "Demótico"
+        },
+        {
+          "id": "q18256",
+          "pergunta": "Em que ano foi encontrada esta estela com um decreto escrito em três escritas?",
+          "resposta": "1799"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Criado para ser fácil a muitos povos, o esperanto tirou a maior parte do seu vocabulário de qual grupo de línguas europeias?",
+        "resposta": "Línguas românicas"
+      },
+      "existentes": [
+        {
+          "id": "q13127",
+          "pergunta": "Em 1887, que oftalmologista publicou em Varsóvia o primeiro livro do esperanto?",
+          "resposta": "Ludwik Zamenhof"
+        },
+        {
+          "id": "q13520",
+          "pergunta": "O nome esperanto vem do pseudônimo que o criador da língua usou no primeiro livro. O que essa palavra significa?",
+          "resposta": "Aquele que tem esperança"
+        },
+        {
+          "id": "q13555",
+          "pergunta": "No esperanto, os substantivos no singular terminam todos com a mesma vogal. Qual é ela?",
+          "resposta": "O"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Em 1952, que arquiteto inglês, apaixonado por línguas antigas, decifrou a escrita Linear B?",
+        "resposta": "Michael Ventris"
+      },
+      "existentes": [
+        {
+          "id": "q03106",
+          "pergunta": "Em 1952, quem decifrou a escrita Linear B, de Creta e Micenas, mesmo sendo arquiteto e não linguista profissional?",
+          "resposta": "Michael Ventris"
+        },
+        {
+          "id": "q14172",
+          "pergunta": "Que escrita da Idade do Bronze aparece nesta tábua de argila?",
+          "resposta": "Linear B"
+        },
+        {
+          "id": "q14194",
+          "pergunta": "A escrita Linear B, das tabuletas de argila de Creta e de Micenas, registra a forma mais antiga conhecida de qual língua?",
+          "resposta": "Grego"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Número de letras vs. última letra; fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Número de letras do hangul é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Número de letras vs. país do idioma."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Tamanho do alfabeto italiano vs. região do falar padrão."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Número de letras do esperanto é fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Número de sinais fenícios não é perguntado nas existentes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Número de caracteres hiragana vs. terceiro sistema."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tons vs. influência portuguesa."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Número de letras vs. década da reforma."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q04912",
+      "motivo": "Mesmo significado da palavra árabe de suaíli."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Etimologia de urdu não perguntada."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Significado de runa simi é fato novo."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q00763",
+      "motivo": "Mesmo significado de nheengatu."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Etimologia de hindi vs. escrita."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Significado de euskaldun vs. isolado linguístico."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "id_existente": "q06371",
+      "motivo": "Mesmo significado de hieróglifo."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Etimologia de Welsh vs. língua celta mais falada."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Significado de amazigue vs. origem do nome berbere."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "id_existente": "q04757",
+      "motivo": "Ambas perguntam a língua de sinais francesa como origem da Libras."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Frísio vs. conquista normanda."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Etruscos não perguntados."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Família linguística do hebraico é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "repete",
+      "id_existente": "q14194",
+      "motivo": "Mesmo fato: Linear B registra grego."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Origem uigur vs. direção da escrita."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Macau não perguntado."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Região flamenga não perguntada."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Nunavut vs. significado de inuit."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Guiné Equatorial não perguntada."
+    },
+    {
+      "caso": 29,
+      "decisao": "repete",
+      "id_existente": "q00016",
+      "motivo": "Ambas giram em torno da fundação por afro-americanos libertos."
+    },
+    {
+      "caso": 30,
+      "decisao": "repete",
+      "id_existente": "q04032",
+      "motivo": "Mesma troca do Tratado de Breda: Nova Amsterdã/Nova York."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Crioulo vs. origem de pidgin."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Holocausto vs. significado do nome."
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "id_existente": "q04919",
+      "motivo": "Mesmo fato."
+    },
+    {
+      "caso": 34,
+      "decisao": "repete",
+      "id_existente": "q04763",
+      "motivo": "Mesmo ano da lei da Libras."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Pergunta existente é de imagem; século de criação é outro fato."
+    },
+    {
+      "caso": 36,
+      "decisao": "repete",
+      "id_existente": "q00795",
+      "motivo": "Mesmo fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "repete",
+      "id_existente": "q08497",
+      "motivo": "Mesmo fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Egito mais populoso vs. artigo al."
+    },
+    {
+      "caso": 39,
+      "decisao": "repete",
+      "id_existente": "q06360",
+      "motivo": "Mesmo fato."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Origem do vocabulário não perguntada."
+    },
+    {
+      "caso": 41,
+      "decisao": "repete",
+      "id_existente": "q03106",
+      "motivo": "Mesmo fato: Ventris decifrou Linear B."
+    }
+  ]
+}

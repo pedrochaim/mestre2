@@ -1,0 +1,435 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A contagem varia (24 no Sul, 40 no Norte, 51 no total); o distrator 40 era defensável. Fixar na Coreia do Sul.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Na Coreia do Sul, quantas letras básicas, somando consoantes e vogais, tem o alfabeto hangul?",
+        "resposta": "24",
+        "distratores": [
+          "20",
+          "28",
+          "32"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hangul"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "33 letras no mkhedruli, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alfabeto base italiano tem 21 letras.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "28 letras, com seis diacríticas; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "22 consoantes, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hiragana tem 46 caracteres básicos, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis tons no vietnamita de Hanói, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "29 letras, sem Q, W e X; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia de suaíli confirmada (costas, litoral).",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em português diz 'exército'; 'acampamento militar' e 'corte real' também são sentidos de ordu, criando ambiguidade.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome urdu, língua nacional do Paquistão, vem de uma palavra túrquica que também deu origem a horda. O que ela significa?",
+        "resposta": "Exército, acampamento",
+        "distratores": [
+          "Mercado",
+          "Montanha",
+          "Poeta"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/L%C3%ADngua_urdu",
+          "https://en.wikipedia.org/wiki/Urdu"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Runa simi significa língua do povo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nhẽẽga + katu = língua boa, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hind como terra do Indo, confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Euskal- + -dun, 'aquele que tem' a língua; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Do grego hieros + glyphein, 'entalhe sagrado'; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "*Walha significa estrangeiro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Māori significa normal, comum; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amazigh como 'homens livres', confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Libras e ASL derivam da língua de sinais francesa.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frísio é a língua viva mais próxima do inglês.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alfabeto etrusco intermediou grego e latino.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta deve ser o nome da língua: egípcio antigo.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Ainda usada na liturgia dos cristãos do Egito, a língua copta é a fase final de qual idioma antigo?",
+        "resposta": "Egípcio antigo",
+        "distratores": [
+          "Grego antigo",
+          "Aramaico",
+          "Árabe clássico"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Coptic_language"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tupi antigo deu essas palavras ao português do Brasil.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado lista as quatro opções e depois as repete como alternativas; redundante e longo para voz.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Entre as línguas faladas perto de Israel, qual pertence à mesma família do hebraico?",
+        "resposta": "Árabe",
+        "distratores": [
+          "Persa",
+          "Turco",
+          "Armênio"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Semitic_languages"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Linear B registra grego micênico; decifração nos anos 1950.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escrita mongol adaptada do alfabeto uigur antigo.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Suaíli, zulu e quimbundo são línguas bantas.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Português é oficial em Macau ao lado do chinês; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flandres é a região neerlandófona do norte da Bélgica.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nunavut criado em 1999 para os inuítes.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guiné Equatorial, único país africano com espanhol oficial.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kasato Maru atracou em Santos em 1908.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Libéria fundada por afro-americanos libertos via ACS.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os holandeses não 'cederam' Nova Amsterdã no tratado; os ingleses a mantiveram. Corrigir a formulação.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "O Suriname ficou com os holandeses no Tratado de Breda, de 1667. Em troca, os ingleses ficaram com qual território holandês na América do Norte?",
+        "resposta": "Nova Amsterdã, atual Nova York",
+        "distratores": [
+          "Nova França",
+          "Virgínia",
+          "Flórida"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)",
+          "https://en.wikipedia.org/wiki/Suriname"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pidgin nativizado vira crioulo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte cita a perda de falantes no Holocausto.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Protesto contra o africâner como língua de ensino, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lei 10.436 de 2002, com distratores de anos próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kasato Maru chegou em 1908; múltipla escolha adequada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alfabeto criado por volta de 405, século cinco.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Português é a língua mais falada no hemisfério sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espanhol, com 519 milhões de nativos, lidera entre as românicas.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Egito é o país mais populoso do mundo árabe.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedra de Roseta traz hieróglifos, demótico e grego.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de 80% do vocabulário vem de línguas românicas.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tok pisin é crioulo de base inglesa.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ventris, arquiteto inglês, decifrou o Linear B em 1952.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sérvio usa cirílico e latino, ambos no cotidiano.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores sul-americanos são eliminados de imediato pela pista 'sudoeste dos EUA'; trocar por línguas indígenas norte-americanas.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "multipla",
+        "pergunta": "Na Segunda Guerra, fuzileiros americanos usaram como código contra os japoneses uma língua indígena do sudoeste dos Estados Unidos. Qual?",
+        "resposta": "Navajo",
+        "distratores": [
+          "Apache",
+          "Zuni",
+          "Cherokee"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Code_talker",
+          "https://en.wikipedia.org/wiki/Navajo_language"
+        ]
+      }
+    }
+  ]
+}
