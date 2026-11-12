@@ -1,0 +1,265 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de anolis-verde sobre tronco.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este lagarto, que muda de cor e é chamado de camaleão por muita gente, é nativo de que região?",
+      "resposta": "Sudeste dos Estados Unidos",
+      "ancora": {
+        "nome": "Anolis-verde",
+        "descricao": "Lagarto arborícola Anolis carolinensis, nativo do sudeste dos Estados Unidos, capaz de mudar de cor.",
+        "variantes": [
+          "Anolis carolinensis",
+          "Camaleão-americano",
+          "Anole-verde"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Lagarto-de-contas escuro com faixas amareladas, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que lagarto venenoso é este?",
+      "resposta": "Lagarto-de-contas-mexicano",
+      "distratores": [
+        "Dragão-de-komodo",
+        "Lagarto-de-língua-azul",
+        "Teiú-gigante"
+      ],
+      "ancora": {
+        "nome": "Lagarto-de-contas-mexicano",
+        "descricao": "Lagarto venenoso Heloderma horridum, do México e sul da Guatemala, escuro com faixas amareladas.",
+        "variantes": [
+          "Heloderma horridum",
+          "Lagarto-de-contas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Sapinho laranja nítido e inconfundível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este minúsculo anfíbio alaranjado é endêmico de que bioma brasileiro?",
+      "resposta": "Mata Atlântica",
+      "ancora": {
+        "nome": "Sapinho-pingo-de-ouro",
+        "descricao": "Pequeno anfíbio laranja Brachycephalus ephippium, endêmico da Mata Atlântica do sudeste do Brasil.",
+        "variantes": [
+          "Brachycephalus ephippium",
+          "Sapo-pumpkin"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista dorsal clara da rã aquática com patas de membranas e olhos no topo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que anfíbio totalmente aquático, muito usado em laboratórios, é este?",
+      "resposta": "Sapo-de-unhas-africano",
+      "ancora": {
+        "nome": "Sapo-de-unhas-africano",
+        "descricao": "Anfíbio aquático africano Xenopus laevis, da família Pipidae, muito usado em pesquisa.",
+        "variantes": [
+          "Xenopus laevis",
+          "Rã-de-garras-africana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Perereca verde com pintas brancas, bem nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que perereca é esta?",
+      "resposta": "Perereca-verde-australiana",
+      "distratores": [
+        "Perereca-verde-europeia",
+        "Perereca-de-olhos-vermelhos",
+        "Rã-de-vidro"
+      ],
+      "ancora": {
+        "nome": "Perereca-verde-australiana",
+        "descricao": "Perereca grande Pelodryas caerulea, nativa da Austrália e Nova Guiné, verde com pintas brancas.",
+        "variantes": [
+          "Pelodryas caerulea",
+          "Rã-arborícola-de-white",
+          "Litoria caerulea"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida do sapo-parteiro; distratores de sapos europeus de aspecto parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que sapo europeu é este?",
+      "resposta": "Sapo-parteiro",
+      "distratores": [
+        "Sapo-comum",
+        "Sapo-corredor",
+        "Sapo-de-esporas"
+      ],
+      "ancora": {
+        "nome": "Sapo-parteiro",
+        "descricao": "Sapo europeu Alytes obstetricans, cujo macho carrega os ovos nas patas traseiras.",
+        "variantes": [
+          "Sapo-parteiro-comum",
+          "Alytes obstetricans"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rã robusta verde de frente, nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que rã gigante é esta?",
+      "resposta": "Rã-boi-africana",
+      "distratores": [
+        "Rã-touro-americana",
+        "Sapo-cururu",
+        "Sapo-comum"
+      ],
+      "ancora": {
+        "nome": "Rã-boi-africana",
+        "descricao": "Rã grande e robusta Pyxicephalus adspersus, da savana da África subsaariana.",
+        "variantes": [
+          "Pyxicephalus adspersus",
+          "Rã-touro-africana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Jacaré escuro de corpo inteiro, nítido.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este jacaré, que passa o inverno em tocas, vive em estado selvagem em que país?",
+      "resposta": "China",
+      "ancora": {
+        "nome": "Jacaré-chinês",
+        "descricao": "Crocodiliano Alligator sinensis, endêmico do vale do rio Yangtzé, na China.",
+        "variantes": [
+          "Alligator sinensis",
+          "Jacaré-do-yangtzé",
+          "Jacaré-da-china"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Duas iguanas marinhas em rocha, bem reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que iguana é esta?",
+      "resposta": "Iguana-marinha",
+      "ancora": {
+        "nome": "Iguana-marinha",
+        "descricao": "Iguana Amblyrhynchus cristatus, das ilhas Galápagos, que se alimenta de algas no mar.",
+        "variantes": [
+          "Amblyrhynchus cristatus",
+          "Iguana-marinha-das-galápagos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Lagarto planando com patágios abertos; foto borrada e girada, mas reconhecível pelas membranas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que lagarto asiático é este?",
+      "resposta": "Dragão-voador",
+      "distratores": [
+        "Lagarto-de-gola",
+        "Basilisco",
+        "Dragão-barbudo"
+      ],
+      "ancora": {
+        "nome": "Dragão-voador",
+        "descricao": "Lagarto planador do gênero Draco, do sudeste da Ásia, com membranas laterais.",
+        "variantes": [
+          "Draco",
+          "Lagarto-voador"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tartaruga cinzenta de carapaça arredondada na areia, nítida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que tartaruga marinha, associada ao Golfo do México, é esta?",
+      "resposta": "Tartaruga-de-kemp",
+      "ancora": {
+        "nome": "Tartaruga-de-kemp",
+        "descricao": "Tartaruga marinha Lepidochelys kempii, a menor e mais ameaçada do mundo, do Golfo do México.",
+        "variantes": [
+          "Lepidochelys kempii",
+          "Tartaruga-lora-de-kemp"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rã redonda com olhos no topo, característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que rã é esta?",
+      "resposta": "Rã-de-budgett",
+      "distratores": [
+        "Rã-pacman",
+        "Sapo-pipa",
+        "Rã-touro-americana"
+      ],
+      "ancora": {
+        "nome": "Rã-de-budgett",
+        "descricao": "Rã sul-americana Lepidobatrachus laevis, de corpo achatado e boca larga, mantida como pet.",
+        "variantes": [
+          "Lepidobatrachus laevis",
+          "Rã-hipopótamo"
+        ]
+      }
+    }
+  ]
+}

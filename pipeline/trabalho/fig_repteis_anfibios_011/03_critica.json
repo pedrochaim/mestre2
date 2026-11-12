@@ -1,0 +1,136 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro; a região nativa está nos trechos e a pista (muda de cor, chamado de camaleão) não entrega a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O dragão-de-komodo é hoje documentado como venenoso, então o distrator é defensável. Troquei por uma espécie próxima e visualmente distinta.",
+      "reescrita": {
+        "pergunta": "Que lagarto venenoso é este?",
+        "resposta": "Lagarto-de-contas-mexicano",
+        "distratores": [
+          "Monstro-de-gila",
+          "Lagarto-de-língua-azul",
+          "Teiú-gigante"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Endêmico do Brasil e encontrado na Mata Atlântica, conforme os trechos. A pista não entrega a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"totalmente aquático, usado em laboratórios\" também descreve o axolote e quase entrega a resposta. Pista retirada.",
+      "reescrita": {
+        "pergunta": "Que anfíbio de vida aquática é este?",
+        "resposta": "Sapo-de-unhas-africano",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A palavra \"perereca\" do enunciado faz parte da resposta (vazamento parcial).",
+      "reescrita": {
+        "pergunta": "Que anfíbio arborícola é este?",
+        "resposta": "Perereca-verde-australiana",
+        "distratores": [
+          "Perereca-verde-europeia",
+          "Perereca-de-olhos-vermelhos",
+          "Rã-de-vidro"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A palavra \"sapo\" do enunciado faz parte da resposta (vazamento parcial).",
+      "reescrita": {
+        "pergunta": "Que anfíbio europeu é este?",
+        "resposta": "Sapo-parteiro",
+        "distratores": [
+          "Sapo-comum",
+          "Sapo-corredor",
+          "Sapo-de-esporas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Rã\" aparece no enunciado e na resposta. Além disso, o nome em português mais conhecido, segundo o trecho, é rã-touro-africana, e não rã-boi.",
+      "reescrita": {
+        "pergunta": "Que anfíbio de grande porte é este?",
+        "resposta": "Rã-touro-africana",
+        "distratores": [
+          "Rã-touro-americana",
+          "Sapo-cururu",
+          "Sapo-comum"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A espécie é endêmica da China, como diz o trecho. A hibernação em tocas é documentada, e a pista não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A palavra \"iguana\" do enunciado faz parte da resposta (vazamento parcial).",
+      "reescrita": {
+        "pergunta": "Que réptil de ilhas vulcânicas do Pacífico é este?",
+        "resposta": "Iguana-marinha",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gênero Draco asiático, e os distratores (australianos ou americanos) são do mesmo tipo e não descrevem a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "\"Tartaruga\" faz parte da resposta, e a tartaruga-de-kemp é muito parecida com a oliva. A resposta única diante da foto é duvidosa e não há conserto seguro.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Rã\" do enunciado faz parte da resposta. O distrator \"Rã-pacman\" também é sul-americano, achatado e de boca larga, então é defensável.",
+      "reescrita": {
+        "pergunta": "Que anfíbio sul-americano é este?",
+        "resposta": "Rã-de-budgett",
+        "distratores": [
+          "Rã-de-vidro",
+          "Sapo-pipa",
+          "Rã-touro-americana"
+        ]
+      }
+    }
+  ]
+}

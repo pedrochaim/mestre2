@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que réptil de ilhas vulcânicas do Pacífico é este?",
+        "resposta": "Iguana-marinha"
+      },
+      "existentes": [
+        {
+          "id": "q02479",
+          "pergunta": "A iguana-marinha de Galápagos, que se alimenta de algas no mar, vive espirrando. Para que ela faz isso?",
+          "resposta": "Para expelir o excesso de sal"
+        },
+        {
+          "id": "q05645",
+          "pergunta": "A iguana-marinha, um lagarto que mergulha no mar para comer algas, só existe naturalmente em que arquipélago?",
+          "resposta": "Ilhas Galápagos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação da espécie (iguana-marinha); as existentes perguntam sobre espirros/sal e sobre o arquipélago. São fatos diferentes, e as existentes ainda trazem o nome no enunciado."
+    }
+  ]
+}

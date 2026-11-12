@@ -1,0 +1,712 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Anolis-verde",
+        "descricao": "Lagarto arborícola Anolis carolinensis, nativo do sudeste dos Estados Unidos, capaz de mudar de cor.",
+        "variantes": [
+          "Anolis carolinensis",
+          "Camaleão-americano",
+          "Anole-verde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quiriquiri",
+          "nome": "Quiriquiri",
+          "descricao": "Menor e mais comum falcão das Américas (Falco sparverius).",
+          "variantes": [
+            "Falcão-americano",
+            "American kestrel",
+            "Falco sparverius"
+          ]
+        },
+        {
+          "id": "aligator",
+          "nome": "Aligátor",
+          "descricao": "Gênero de crocodilianos (Alligator) que inclui o aligátor-americano e o aligátor-chinês.",
+          "variantes": [
+            "Alligator",
+            "Jacaré-americano",
+            "Aligátor-americano"
+          ]
+        },
+        {
+          "id": "aligator_americano",
+          "nome": "Aligátor-americano",
+          "descricao": "Grande crocodiliano (Alligator mississippiensis) dos pântanos do sudeste dos Estados Unidos.",
+          "variantes": [
+            "Alligator mississippiensis",
+            "Jacaré-americano",
+            "American alligator"
+          ]
+        },
+        {
+          "id": "leao_o_africano",
+          "nome": "Leão, o Africano",
+          "descricao": "Diplomata e viajante do século dezesseis, autor de uma célebre descrição da África, nascido al-Hasan al-Wazzan.",
+          "variantes": [
+            "Leo Africanus",
+            "Hasan al-Wazzan",
+            "Leão Africano"
+          ]
+        },
+        {
+          "id": "esquilo_cinzento",
+          "nome": "Esquilo-cinzento",
+          "descricao": "Esquilo arborícola Sciurus carolinensis, nativo do leste da América do Norte e invasor na Europa.",
+          "variantes": [
+            "Esquilo-cinza",
+            "Esquilo-cinzento-oriental",
+            "Sciurus carolinensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lagarto-de-contas-mexicano",
+        "descricao": "Lagarto venenoso Heloderma horridum, do México e sul da Guatemala, escuro com faixas amareladas.",
+        "variantes": [
+          "Heloderma horridum",
+          "Lagarto-de-contas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagarto_de_gola",
+          "nome": "Lagarto-de-gola",
+          "descricao": "Lagarto Chlamydosaurus kingii, de grande membrana no pescoço, nativo do norte da Austrália e sul da Nova Guiné.",
+          "variantes": [
+            "Lagarto-de-colar",
+            "Dragão-de-gola",
+            "Chlamydosaurus kingii"
+          ]
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        },
+        {
+          "id": "lago_constanca",
+          "nome": "Lago Constança",
+          "descricao": "Lago do norte dos Alpes, no Reno, entre Alemanha, Suíça e Áustria.",
+          "variantes": [
+            "Lago de Constança",
+            "Bodensee",
+            "Lake Constance"
+          ]
+        },
+        {
+          "id": "cartao_perfurado",
+          "nome": "Cartão perfurado",
+          "descricao": "Cartão de papel rígido que guarda informações pela presença ou ausência de furos, usado em teares e computadores.",
+          "variantes": [
+            "Cartão de pontos",
+            "Punched card"
+          ]
+        },
+        {
+          "id": "lagarto_de_chifre_texano",
+          "nome": "Lagarto-de-chifre-texano",
+          "descricao": "Lagarto espinhoso (Phrynosoma cornutum) do centro-sul dos Estados Unidos e nordeste do México.",
+          "variantes": [
+            "Phrynosoma cornutum",
+            "Texas horned lizard",
+            "Sapo-de-chifres"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sapinho-pingo-de-ouro",
+        "descricao": "Pequeno anfíbio laranja Brachycephalus ephippium, endêmico da Mata Atlântica do sudeste do Brasil.",
+        "variantes": [
+          "Brachycephalus ephippium",
+          "Sapo-pumpkin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abobora",
+          "nome": "Abóbora",
+          "descricao": "Fruto de plantas do gênero Cucurbita, de formas e cores variadas.",
+          "variantes": [
+            "Jerimum",
+            "Pumpkin"
+          ]
+        },
+        {
+          "id": "sapo_pipa",
+          "nome": "Sapo-pipa",
+          "descricao": "Anfíbio aquático e achatado da Amazônia (Pipa pipa), cujos ovos se desenvolvem embutidos nas costas da fêmea.",
+          "variantes": [
+            "Pipa pipa",
+            "Sapo-do-suriname"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "banco_de_ouro",
+          "nome": "Banco de Ouro",
+          "descricao": "Trono sagrado do povo axânti, em Gana, símbolo da unidade e da alma da nação axânti.",
+          "variantes": [
+            "Golden Stool",
+            "Sika Dwa Kofi"
+          ]
+        },
+        {
+          "id": "velocino_de_ouro",
+          "nome": "Velocino de Ouro",
+          "descricao": "Pele de carneiro dourada buscada por Jasão e os argonautas na mitologia grega.",
+          "variantes": [
+            "Tosão de Ouro",
+            "Velo de Ouro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sapo-de-unhas-africano",
+        "descricao": "Anfíbio aquático africano Xenopus laevis, da família Pipidae, muito usado em pesquisa.",
+        "variantes": [
+          "Xenopus laevis",
+          "Rã-de-garras-africana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_de_esporas_africana",
+          "nome": "Tartaruga-de-esporas-africana",
+          "descricao": "Grande tartaruga terrestre do Sahel e sul do Saara (Centrochelys sulcata).",
+          "variantes": [
+            "Centrochelys sulcata",
+            "Sulcata",
+            "African spurred tortoise"
+          ]
+        },
+        {
+          "id": "brasao_da_finlandia",
+          "nome": "Brasão da Finlândia",
+          "descricao": "Brasão de armas da Finlândia: leão coroado com espada sobre escudo vermelho com rosas.",
+          "variantes": [
+            "Finlândia",
+            "Brasão de armas da Finlândia"
+          ]
+        },
+        {
+          "id": "pulga_do_rato_oriental",
+          "nome": "Pulga-do-rato-oriental",
+          "descricao": "Pulga parasita de ratos (Xenopsylla cheopis), principal transmissora da bactéria da peste.",
+          "variantes": [
+            "Xenopsylla cheopis",
+            "Oriental rat flea"
+          ]
+        },
+        {
+          "id": "ano_da_africa",
+          "nome": "Ano da África",
+          "descricao": "O ano de 1960, em que dezessete países africanos se tornaram independentes.",
+          "variantes": [
+            "Year of Africa"
+          ]
+        },
+        {
+          "id": "triade_parnasiana",
+          "nome": "Tríade Parnasiana",
+          "descricao": "Nome dado aos três principais poetas do Parnasianismo brasileiro: Olavo Bilac, Raimundo Correia e Alberto de Oliveira.",
+          "variantes": [
+            "Trindade Parnasiana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Perereca-verde-australiana",
+        "descricao": "Perereca grande Pelodryas caerulea, nativa da Austrália e Nova Guiné, verde com pintas brancas.",
+        "variantes": [
+          "Pelodryas caerulea",
+          "Rã-arborícola-de-white",
+          "Litoria caerulea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teoria_celular",
+          "nome": "Teoria celular",
+          "descricao": "Teoria biológica segundo a qual todos os seres vivos são formados por células, formulada no século dezenove.",
+          "variantes": [
+            "Cell theory"
+          ]
+        },
+        {
+          "id": "irmas_sensacionais",
+          "nome": "Irmãs Sensacionais",
+          "descricao": "Irmãs mais velhas de Misty, Daisy, Violet e Lily, que cuidam do ginásio de Cerulean no anime Pokémon.",
+          "variantes": [
+            "Sensational Sisters",
+            "Irmãs de Cerulean"
+          ]
+        },
+        {
+          "id": "nebulosa_california",
+          "nome": "Nebulosa Califórnia",
+          "descricao": "Nebulosa de emissão na constelação de Perseu, também chamada NGC 1499.",
+          "variantes": [
+            "NGC 1499",
+            "Sh 2-220",
+            "California Nebula"
+          ]
+        },
+        {
+          "id": "alinhamentos_de_carnac",
+          "nome": "Alinhamentos de Carnac",
+          "descricao": "Milhares de menires enfileirados perto de Carnac, na Bretanha, França.",
+          "variantes": [
+            "Pedras de Carnac",
+            "Carnac stones"
+          ]
+        },
+        {
+          "id": "teoria_da_terra",
+          "nome": "Teoria da Terra",
+          "descricao": "Obra do século dezoito de James Hutton que defendeu que a Terra é moldada por processos lentos ao longo de um tempo imenso.",
+          "variantes": [
+            "Theory of the Earth"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sapo-parteiro",
+        "descricao": "Sapo europeu Alytes obstetricans, cujo macho carrega os ovos nas patas traseiras.",
+        "variantes": [
+          "Sapo-parteiro-comum",
+          "Alytes obstetricans"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapoti",
+          "nome": "Sapoti",
+          "descricao": "Fruto marrom e doce do sapotizeiro (Manilkara zapota), de polpa alaranjada e sementes pretas.",
+          "variantes": [
+            "Sapotizeiro",
+            "Sapodilla",
+            "Manilkara zapota"
+          ]
+        },
+        {
+          "id": "sapo_comum",
+          "nome": "Sapo-comum",
+          "descricao": "Sapo marrom e verrugoso (Bufo bufo), muito difundido na Europa.",
+          "variantes": [
+            "Bufo bufo",
+            "Sapo-europeu",
+            "Common toad"
+          ]
+        },
+        {
+          "id": "apolo_de_belvedere",
+          "nome": "Apolo de Belvedere",
+          "descricao": "Escultura de mármore, cópia romana de um bronze grego, que representa Apolo e está nos Museus do Vaticano.",
+          "variantes": [
+            "Apollo Belvedere",
+            "Apolo Pítio"
+          ]
+        },
+        {
+          "id": "blockbuster_cinema",
+          "nome": "Blockbuster (cinema)",
+          "descricao": "Termo usado para filmes de grande orçamento e enorme sucesso de público.",
+          "variantes": [
+            "Arrasa-quarteirão"
+          ]
+        },
+        {
+          "id": "atlantes_de_tula",
+          "nome": "Atlantes de Tula",
+          "descricao": "Colunas de pedra em forma de guerreiros no alto de uma pirâmide de Tula, antiga capital tolteca no estado mexicano de Hidalgo.",
+          "variantes": [
+            "Atlantes",
+            "Atlantes de Tula de Allende",
+            "Atlantes toltecas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Rã-boi-africana",
+        "descricao": "Rã grande e robusta Pyxicephalus adspersus, da savana da África subsaariana.",
+        "variantes": [
+          "Pyxicephalus adspersus",
+          "Rã-touro-africana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ra_touro",
+          "nome": "Rã-touro",
+          "descricao": "Grande rã norte-americana Lithobates catesbeianus, da família Ranidae.",
+          "variantes": [
+            "Rã-touro-americana",
+            "Lithobates catesbeianus"
+          ]
+        },
+        {
+          "id": "republica_centro_africana",
+          "nome": "República Centro-Africana",
+          "descricao": "País sem litoral da África Central, com capital em Bangui.",
+          "variantes": [
+            "Centro-Africana",
+            "CAR"
+          ]
+        },
+        {
+          "id": "eva_mitocondrial",
+          "nome": "Eva mitocondrial",
+          "descricao": "Ancestral comum mais recente, pela linhagem materna, de todos os seres humanos vivos, identificada pelo DNA mitocondrial.",
+          "variantes": [
+            "Mitochondrial Eve",
+            "Eva africana"
+          ]
+        },
+        {
+          "id": "leao_o_africano",
+          "nome": "Leão, o Africano",
+          "descricao": "Diplomata e viajante do século dezesseis, autor de uma célebre descrição da África, nascido al-Hasan al-Wazzan.",
+          "variantes": [
+            "Leo Africanus",
+            "Hasan al-Wazzan",
+            "Leão Africano"
+          ]
+        },
+        {
+          "id": "bandeira_da_republica_centro_africana",
+          "nome": "Bandeira da República Centro-Africana",
+          "descricao": "Bandeira nacional da República Centro-Africana, com quatro faixas horizontais, faixa vermelha vertical e estrela amarela.",
+          "variantes": [
+            "República Centro-Africana",
+            "Bandeira da Centro-Africana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Jacaré-chinês",
+        "descricao": "Crocodiliano Alligator sinensis, endêmico do vale do rio Yangtzé, na China.",
+        "variantes": [
+          "Alligator sinensis",
+          "Jacaré-do-yangtzé",
+          "Jacaré-da-china"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aligator_americano",
+          "nome": "Aligátor-americano",
+          "descricao": "Grande crocodiliano (Alligator mississippiensis) dos pântanos do sudeste dos Estados Unidos.",
+          "variantes": [
+            "Alligator mississippiensis",
+            "Jacaré-americano",
+            "American alligator"
+          ]
+        },
+        {
+          "id": "xadrez_chines",
+          "nome": "Xadrez chinês",
+          "descricao": "Jogo de estratégia para dois jogadores, popular na China, com peças redondas e um rio no meio do tabuleiro.",
+          "variantes": [
+            "Xiangqi"
+          ]
+        },
+        {
+          "id": "jacare_do_pantanal",
+          "nome": "Jacaré-do-pantanal",
+          "descricao": "Jacaré Caiman yacare, de marrom com manchas escuras, nativo da Argentina, Bolívia, Brasil e Paraguai.",
+          "variantes": [
+            "Caiman yacare",
+            "Jacaré-paraguaio",
+            "Yacare caiman"
+          ]
+        },
+        {
+          "id": "galeoes_de_manila",
+          "nome": "Galeões de Manila",
+          "descricao": "Navios espanhóis que, de 1565 a 1815, cruzavam o Pacífico entre as Filipinas e a Nova Espanha levando prata e mercadorias asiáticas.",
+          "variantes": [
+            "Galeão de Manila",
+            "Nau da China",
+            "Manila galleon"
+          ]
+        },
+        {
+          "id": "laranja",
+          "nome": "Laranja",
+          "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+          "variantes": [
+            "Laranja-doce",
+            "Citrus sinensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Iguana-marinha",
+        "descricao": "Iguana Amblyrhynchus cristatus, das ilhas Galápagos, que se alimenta de algas no mar.",
+        "variantes": [
+          "Amblyrhynchus cristatus",
+          "Iguana-marinha-das-galápagos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iguana_marinha",
+          "nome": "Iguana-marinha",
+          "descricao": "Lagarto de Galápagos (Amblyrhynchus cristatus) que mergulha no mar para comer algas.",
+          "variantes": [
+            "Amblyrhynchus cristatus",
+            "Marine iguana"
+          ]
+        },
+        {
+          "id": "agua_marinha",
+          "nome": "Água-marinha",
+          "descricao": "Gema azul-esverdeada, variedade do mineral berilo, com grandes jazidas no Brasil.",
+          "variantes": [
+            "Aquamarine"
+          ]
+        },
+        {
+          "id": "dugongo",
+          "nome": "Dugongo",
+          "descricao": "Mamífero marinho herbívoro da ordem Sirenia, que vive no Indo-Pacífico e se alimenta de capim-marinho.",
+          "variantes": [
+            "Dugong dugon",
+            "Vaca-marinha"
+          ]
+        },
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "santa_maria_nau_de_colombo",
+          "nome": "Santa Maria (nau de Colombo)",
+          "descricao": "Nau capitânia da primeira viagem de Cristóvão Colombo à América, em 1492, que naufragou no Haiti no Natal daquele ano.",
+          "variantes": [
+            "Santa María",
+            "La Gallega"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Dragão-voador",
+        "descricao": "Lagarto planador do gênero Draco, do sudeste da Ásia, com membranas laterais.",
+        "variantes": [
+          "Draco",
+          "Lagarto-voador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dracon",
+          "nome": "Drácon",
+          "descricao": "Legislador ateniense do século sete a.C., autor do primeiro código escrito de leis de Atenas.",
+          "variantes": [
+            "Draco",
+            "Drakon"
+          ]
+        },
+        {
+          "id": "francisco_jose_do_nascimento",
+          "nome": "Francisco José do Nascimento",
+          "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+          "variantes": [
+            "Dragão do Mar",
+            "Chico da Matilde"
+          ]
+        },
+        {
+          "id": "parauacu",
+          "nome": "Parauacu",
+          "descricao": "Macaco sul-americano de pelagem escura e rosto claro, Pithecia pithecia.",
+          "variantes": [
+            "Parauacu-de-cara-branca",
+            "Macaco-voador",
+            "White-faced saki",
+            "Pithecia pithecia"
+          ]
+        },
+        {
+          "id": "centro_dragao_do_mar_de_arte_e_cultura",
+          "nome": "Centro Dragão do Mar de Arte e Cultura",
+          "descricao": "Centro cultural de Fortaleza, Ceará, com museus, planetário, teatro e cinemas.",
+          "variantes": [
+            "Dragão do Mar"
+          ]
+        },
+        {
+          "id": "aco",
+          "nome": "Aço",
+          "descricao": "Liga de ferro com pequena quantidade de carbono, o material metálico mais usado na construção e na indústria.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Rã-de-budgett",
+        "descricao": "Rã sul-americana Lepidobatrachus laevis, de corpo achatado e boca larga, mantida como pet.",
+        "variantes": [
+          "Lepidobatrachus laevis",
+          "Rã-hipopótamo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hipopotamo",
+          "nome": "Hipopótamo",
+          "descricao": "Grande mamífero semiaquático africano, espécie Hippopotamus amphibius.",
+          "variantes": [
+            "Hippopotamus amphibius",
+            "Hippopotamus",
+            "Hipopótamo-comum"
+          ]
+        },
+        {
+          "id": "hipopotamo_pigmeu",
+          "nome": "Hipopótamo-pigmeu",
+          "descricao": "Pequeno hipopótamo da floresta da África Ocidental, Choeropsis liberiensis.",
+          "variantes": [
+            "Choeropsis liberiensis",
+            "Hipopótamo-anão"
+          ]
+        },
+        {
+          "id": "hippopotas",
+          "nome": "Hippopotas",
+          "descricao": "Pokémon do tipo Terrestre, número 449 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "hipotalamo",
+          "nome": "Hipotálamo",
+          "descricao": "Pequena região do diencéfalo, abaixo do tálamo, que liga o sistema nervoso ao endócrino via hipófise.",
+          "variantes": [
+            "Hypothalamus"
+          ]
+        },
+        {
+          "id": "mao_de_buda",
+          "nome": "Mão-de-buda",
+          "descricao": "Variedade de cidra (Citrus medica var. sarcodactylis) cujo fruto se divide em partes como dedos.",
+          "variantes": [
+            "Cidra-digitada",
+            "Buddha's hand",
+            "Citrus medica var. sarcodactylis"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Anolis carolinensis não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Heloderma horridum não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Brachycephalus ephippium é distinto de todas as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Xenopus laevis não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pelodryas caerulea não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Alytes obstetricans é diferente do sapo-comum (Bufo bufo) e das demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pyxicephalus adspersus é espécie diferente da rã-touro americana."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Alligator sinensis é espécie diferente do aligátor-americano e das demais."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "iguana_marinha",
+      "motivo": "Mesma espécie, Amblyrhynchus cristatus, das Galápagos."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Lagarto planador Draco é diferente do legislador Drácon e das demais candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Lepidobatrachus laevis não está entre as candidatas; hipopótamos são outros animais."
+    }
+  ]
+}
