@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que artista americano pintou esta série de quadros, criada entre 1894 e 1910?",
+        "resposta": "Cassius Marcellus Coolidge"
+      },
+      "existentes": [
+        {
+          "id": "q20698",
+          "pergunta": "Que jogo de cartas os personagens desta pintura disputam?",
+          "resposta": "Pôquer"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o artista autor da série (Coolidge); a existente pede o jogo de cartas retratado (pôquer). Fatos diferentes."
+    }
+  ]
+}

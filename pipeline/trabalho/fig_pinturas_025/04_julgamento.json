@@ -1,0 +1,760 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jesus Misericordioso",
+        "descricao": "Imagem devocional de Jesus Cristo baseada nas visões de Faustina Kowalska, com raios vermelho e pálido saindo do peito.",
+        "variantes": [
+          "Divina Misericórdia",
+          "Imagem da Divina Misericórdia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "divina_comedia",
+          "nome": "Divina Comédia",
+          "descricao": "Poema épico de Dante Alighieri, do início do século quatorze, dividido em Inferno, Purgatório e Paraíso.",
+          "variantes": [
+            "Divina Commedia",
+            "Divine Comedy",
+            "Commedia"
+          ]
+        },
+        {
+          "id": "pomo_da_discordia",
+          "nome": "Pomo da discórdia",
+          "descricao": "Expressão para o motivo de uma briga, vinda da maçã de ouro do mito grego",
+          "variantes": [
+            "Maçã da discórdia"
+          ]
+        },
+        {
+          "id": "pomo_da_discordia_2",
+          "nome": "Pomo da Discórdia",
+          "descricao": "Maçã de ouro da mitologia grega, destinada à mais bela, que provocou a disputa entre Hera, Atena e Afrodite.",
+          "variantes": [
+            "Maçã da discórdia",
+            "Apple of Discord"
+          ]
+        },
+        {
+          "id": "divisao_fisico_especial",
+          "nome": "Divisão físico-especial",
+          "descricao": "Mudança introduzida em Pokémon Diamond e Pearl que passou a definir a categoria física ou especial de cada golpe individualmente.",
+          "variantes": [
+            "Physical/special split",
+            "Categoria de dano"
+          ]
+        },
+        {
+          "id": "presente_misterioso",
+          "nome": "Presente Misterioso",
+          "descricao": "Recurso dos jogos Pokémon, criado em Gold e Silver, para receber presentes como itens e pokémon de evento.",
+          "variantes": [
+            "Mystery Gift"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Oficial dos Caçadores a Cavalo",
+        "descricao": "Pintura a óleo de Théodore Géricault, de cerca de 1812, que mostra um oficial dos Caçadores a Cavalo da Guarda Imperial a galope, no Louvre.",
+        "variantes": [
+          "Oficial dos Caçadores a Cavalo (Géricault)",
+          "O Caçador Imperial a Cavalo",
+          "The Charging Chasseur",
+          "Oficial dos Caçadores a Cavalo da Guarda Imperial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "os_cacadores_da_arca_perdida",
+          "nome": "Os Caçadores da Arca Perdida",
+          "descricao": "Filme de aventura de 1981 dirigido por Steven Spielberg, com Indiana Jones em busca da Arca da Aliança.",
+          "variantes": [
+            "Raiders of the Lost Ark",
+            "Indiana Jones e os Caçadores da Arca Perdida"
+          ]
+        },
+        {
+          "id": "proclamacao_do_imperio_alemao",
+          "nome": "Proclamação do Império Alemão",
+          "descricao": "Cerimônia de 18 de janeiro de 1871 em Versalhes na qual o rei Guilherme I da Prússia foi proclamado imperador alemão.",
+          "variantes": [
+            "Proclamation of the German Empire",
+            "Unificação alemã"
+          ]
+        },
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "o_cavaleiro_sorridente",
+          "nome": "O Cavaleiro Sorridente",
+          "descricao": "Retrato de 1624 pintado por Frans Hals, guardado na Wallace Collection, em Londres.",
+          "variantes": [
+            "The Laughing Cavalier",
+            "O Cavaleiro Risonho"
+          ]
+        },
+        {
+          "id": "nebulosa_cabeca_de_cavalo",
+          "nome": "Nebulosa Cabeça de Cavalo",
+          "descricao": "Nebulosa escura na constelação de Órion, também chamada Barnard 33, com formato de cabeça de cavalo.",
+          "variantes": [
+            "Barnard 33",
+            "B33",
+            "Horsehead Nebula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Baco Doente",
+        "descricao": "Autorretrato de juventude de Caravaggio como Baco, pintado entre 1593 e 1594, na Galleria Borghese, em Roma.",
+        "variantes": [
+          "Baco Doente (Caravaggio)",
+          "Pequeno Baco Doente",
+          "Bacchino Malato",
+          "Autorretrato como Baco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baco_caravaggio",
+          "nome": "Baco (Caravaggio)",
+          "descricao": "Pintura a óleo de Caravaggio (c. 1596) que mostra um jovem Baco com uvas na cabeça e uma taça de vinho, na Galeria Uffizi.",
+          "variantes": [
+            "Bacchus",
+            "Baco",
+            "Bacco"
+          ]
+        },
+        {
+          "id": "autorretrato_com_dois_circulos_rembrandt",
+          "nome": "Autorretrato com Dois Círculos (Rembrandt)",
+          "descricao": "Autorretrato a óleo de Rembrandt, c. 1665-1669, em Kenwood House, Londres, com dois círculos ao fundo.",
+          "variantes": [
+            "Self-Portrait with Two Circles",
+            "Autorretrato com dois círculos"
+          ]
+        },
+        {
+          "id": "a_cartomante",
+          "nome": "A Cartomante",
+          "descricao": "Pintura de Caravaggio, de c. 1594–1595, em que uma adivinha lê a mão de um jovem; há duas versões, em Roma e no Louvre.",
+          "variantes": [
+            "A Cartomante (Caravaggio)",
+            "A Adivinha",
+            "The Fortune Teller"
+          ]
+        },
+        {
+          "id": "medusa_caravaggio",
+          "nome": "Medusa (Caravaggio)",
+          "descricao": "Pintura de Caravaggio, feita em um escudo, que mostra a cabeça decepada da Medusa; está na Galeria Uffizi, em Florença.",
+          "variantes": [
+            "Medusa de Caravaggio",
+            "Escudo com a cabeça da Medusa"
+          ]
+        },
+        {
+          "id": "laocoonte_e_seus_filhos",
+          "nome": "Laocoonte e seus filhos",
+          "descricao": "Escultura helenística em mármore que mostra o sacerdote troiano Laocoonte e seus filhos atacados por serpentes marinhas.",
+          "variantes": [
+            "Grupo de Laocoonte",
+            "Laocoonte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Quadrado Vermelho (Malevich)",
+        "descricao": "Pintura suprematista de 1915 de Kazimir Malevich que mostra um quadrilátero vermelho sobre campo branco.",
+        "variantes": [
+          "Red Square",
+          "Realismo Pictórico de uma Camponesa em Duas Dimensões"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "praca_vermelha",
+          "nome": "Praça Vermelha",
+          "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+          "variantes": [
+            "Krasnaya Ploshchad",
+            "Red Square"
+          ]
+        },
+        {
+          "id": "esquadro",
+          "nome": "Esquadro",
+          "descricao": "Instrumento triangular de desenho técnico, com um ângulo reto, usado para traçar retas e ângulos.",
+          "variantes": [
+            "Esquadro de desenho",
+            "Set square"
+          ]
+        },
+        {
+          "id": "times_square",
+          "nome": "Times Square",
+          "descricao": "Praça e cruzamento comercial de Manhattan, em Nova York, famosa pelos painéis luminosos.",
+          "variantes": [
+            "Praça Times"
+          ]
+        },
+        {
+          "id": "mar_vermelho",
+          "nome": "Mar Vermelho",
+          "descricao": "Braço do oceano Índico entre a península Arábica e o nordeste da África, ligado ao Mediterrâneo pelo canal de Suez.",
+          "variantes": [
+            "Red Sea"
+          ]
+        },
+        {
+          "id": "sprite_relampago",
+          "nome": "Sprite (relâmpago)",
+          "descricao": "Grande descarga elétrica avermelhada na mesosfera, acima das nuvens de tempestade.",
+          "variantes": [
+            "Sprite vermelho",
+            "Red sprite",
+            "Raio sprite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "São Miguel Vencendo Satanás",
+        "descricao": "Pintura de Rafael em que o arcanjo Miguel pisa em Satanás, encomendada pelo papa Leão X e hoje no Louvre.",
+        "variantes": [
+          "São Miguel Vencendo Satanás (Rafael)",
+          "São Miguel derrota Satanás",
+          "Saint Michael Vanquishing Satan",
+          "Grande São Miguel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "st_michael_s_mount",
+          "nome": "St Michael's Mount",
+          "descricao": "Ilha de maré na baía de Mount, na Cornualha, Inglaterra, ligada a Marazion por uma calçada.",
+          "variantes": [
+            "Monte de São Miguel",
+            "Saint Michael's Mount"
+          ]
+        },
+        {
+          "id": "arcanjo_miguel",
+          "nome": "Arcanjo Miguel",
+          "descricao": "Arcanjo guerreiro das tradições judaica, cristã e islâmica, aqui na pintura de Guido Reni que o mostra vencendo Satanás.",
+          "variantes": [
+            "Anjo",
+            "São Miguel Arcanjo",
+            "Michael"
+          ]
+        },
+        {
+          "id": "grande_salto_adiante",
+          "nome": "Grande Salto Adiante",
+          "descricao": "Campanha econômica lançada por Mao Tsé-tung em 1958 para industrializar rapidamente a China e coletivizar a agricultura.",
+          "variantes": [
+            "Great Leap Forward",
+            "Grande Salto para a Frente"
+          ]
+        },
+        {
+          "id": "granada_mills",
+          "nome": "Granada Mills",
+          "descricao": "Série de granadas de mão britânicas de fragmentação, projetadas por William Mills e usadas nas duas guerras mundiais.",
+          "variantes": [
+            "Mills bomb",
+            "Granada de mão Mills",
+            "Mills No. 5"
+          ]
+        },
+        {
+          "id": "grande_otelo",
+          "nome": "Grande Otelo",
+          "descricao": "Ator, comediante, cantor e compositor brasileiro nascido em Uberlândia, parceiro de Oscarito no cinema.",
+          "variantes": [
+            "Sebastião Bernardes de Souza Prata",
+            "Othelo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cristo Pantocrator do Sinai",
+        "descricao": "Ícone bizantino do século seis do Mosteiro de Santa Catarina, no Sinai, a mais antiga representação conhecida de Cristo como Pantocrator.",
+        "variantes": [
+          "Cristo Pantocrator de Santa Catarina",
+          "Christ Pantocrator (Sinai)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mosteiro_de_santa_catarina_sinai",
+          "nome": "Mosteiro de Santa Catarina (Sinai)",
+          "descricao": "Mosteiro ortodoxo do século seis aos pés do Monte Sinai, no Egito.",
+          "variantes": [
+            "Saint Catherine's Monastery",
+            "Mosteiro de Santa Catarina do Sinai"
+          ]
+        },
+        {
+          "id": "cantigas_de_santa_maria",
+          "nome": "Cantigas de Santa Maria",
+          "descricao": "Coleção medieval de cantigas em louvor à Virgem, escritas em galego-português no século treze",
+          "variantes": []
+        },
+        {
+          "id": "sao_joaquim",
+          "nome": "São Joaquim",
+          "descricao": "Município da serra catarinense conhecido pelo frio, pelas geadas e pela neve ocasional",
+          "variantes": [
+            "São Joaquim (Santa Catarina)"
+          ]
+        },
+        {
+          "id": "lamentacao_sobre_o_cristo_morto_mantegna",
+          "nome": "Lamentação sobre o Cristo Morto (Mantegna)",
+          "descricao": "Pintura de Andrea Mantegna, do século quinze, com o corpo de Cristo em escorço sobre uma laje, velado por três figuras, na Pinacoteca de Brera.",
+          "variantes": [
+            "O Cristo Morto",
+            "Lamentation of Christ",
+            "Cristo Morto de Mantegna",
+            "Lamentação de Cristo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Stańczyk (Matejko)",
+        "descricao": "Pintura de Jan Matejko, de 1862, que mostra o bobo da corte Stańczyk sombrio durante um baile na corte da rainha Bona.",
+        "variantes": [
+          "Stańczyk",
+          "Stańczyk durante um baile na corte da rainha Bona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        },
+        {
+          "id": "starbuck",
+          "nome": "Starbuck",
+          "descricao": "Primeiro imediato do baleeiro Pequod no romance Moby Dick, de Herman Melville.",
+          "variantes": [
+            "Starbuck (Moby Dick)"
+          ]
+        },
+        {
+          "id": "starlink",
+          "nome": "Starlink",
+          "descricao": "Constelação de satélites de internet em órbita baixa operada pela SpaceX.",
+          "variantes": [
+            "Satélites Starlink"
+          ]
+        },
+        {
+          "id": "skuntank",
+          "nome": "Skuntank",
+          "descricao": "Pokémon gambá de tipo Veneno/Sombrio, número 435 da Pokédex Nacional, evolução de Stunky.",
+          "variantes": []
+        },
+        {
+          "id": "satanas",
+          "nome": "Satanás",
+          "descricao": "Anjo caído e adversário de Deus nas religiões abraâmicas, aqui na gravura de Doré para Paraíso Perdido.",
+          "variantes": [
+            "Diabo",
+            "Satan",
+            "Lúcifer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Nossa Senhora do Perpétuo Socorro",
+        "descricao": "Ícone bizantino do século quinze da Virgem com o Menino, hoje na igreja de Santo Afonso de Ligório, em Roma.",
+        "variantes": [
+          "Mãe do Perpétuo Socorro",
+          "Our Lady of Perpetual Help"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "florianopolis",
+          "nome": "Florianópolis",
+          "descricao": "Capital do estado de Santa Catarina, situada em grande parte na Ilha de Santa Catarina.",
+          "variantes": [
+            "Desterro",
+            "Nossa Senhora do Desterro",
+            "Floripa"
+          ]
+        },
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "forte_de_sao_marcelo",
+          "nome": "Forte de São Marcelo",
+          "descricao": "Forte circular erguido sobre arrecifes na Baía de Todos os Santos, em frente ao centro histórico de Salvador, na Bahia.",
+          "variantes": [
+            "Forte do Mar",
+            "Forte de Nossa Senhora do Pópulo"
+          ]
+        },
+        {
+          "id": "nossa_senhora_aparecida",
+          "nome": "Nossa Senhora Aparecida",
+          "descricao": "Imagem de Nossa Senhora da Conceição encontrada em 1717, padroeira do Brasil",
+          "variantes": [
+            "Nossa Senhora da Conceição Aparecida",
+            "Our Lady of Aparecida",
+            "Imagem de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "dama_de_elche",
+          "nome": "Dama de Elche",
+          "descricao": "Busto de calcário ibérico do século quarto antes de Cristo, descoberto em 1897 em La Alcudia, perto de Elche, na Espanha.",
+          "variantes": [
+            "Lady of Elche",
+            "Dama d'Elx"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "O Ateliê do Pintor (Courbet)",
+        "descricao": "Pintura de Gustave Courbet, de 1855, no Musée d'Orsay, alegoria realista de sua vida artística.",
+        "variantes": [
+          "O Ateliê do Artista",
+          "L'Atelier du peintre",
+          "The Painter's Studio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_alienista",
+          "nome": "O Alienista",
+          "descricao": "Novela satírica de Machado de Assis publicada em 1882, sobre o médico Simão Bacamarte e seu hospício, a Casa Verde.",
+          "variantes": []
+        },
+        {
+          "id": "templo_de_artemis",
+          "nome": "Templo de Ártemis",
+          "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Artemísion",
+            "Templo de Diana em Éfeso",
+            "Templo de Ártemis em Éfeso",
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "id": "a_ronda_dos_prisioneiros",
+          "nome": "A Ronda dos Prisioneiros",
+          "descricao": "Pintura a óleo de Vincent van Gogh, de fevereiro de 1890, inspirada numa gravura de Gustave Doré do pátio da prisão de Newgate.",
+          "variantes": [
+            "A Ronda dos Prisioneiros (Van Gogh)",
+            "Prisoners' Round",
+            "O Pátio da Prisão",
+            "Prisioneiros Exercitando"
+          ]
+        },
+        {
+          "id": "noite_dos_cristais",
+          "nome": "Noite dos Cristais",
+          "descricao": "Onda de ataques organizados pelos nazistas contra judeus, suas lojas e sinagogas na Alemanha e na Áustria, em novembro de 1938.",
+          "variantes": [
+            "Kristallnacht",
+            "Pogrom de Novembro"
+          ]
+        },
+        {
+          "id": "parque_nacional_da_chapada_diamantina",
+          "nome": "Parque Nacional da Chapada Diamantina",
+          "descricao": "Parque nacional no centro da Bahia que abriga vales, serras e cachoeiras, como o Vale do Pati.",
+          "variantes": [
+            "Vale do Pati",
+            "Chapada Diamantina",
+            "PARNA Chapada Diamantina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "A Morte de Chatterton (Henry Wallis)",
+        "descricao": "Pintura pré-rafaelita de Henry Wallis, de 1856, na Tate Britain, que mostra o poeta Thomas Chatterton morto.",
+        "variantes": [
+          "The Death of Chatterton",
+          "Morte de Chatterton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_morte_de_socrates",
+          "nome": "A Morte de Sócrates",
+          "descricao": "Pintura a óleo de Jacques-Louis David, de 1787, que mostra Sócrates prestes a beber a cicuta cercado de discípulos.",
+          "variantes": [
+            "La Mort de Socrate",
+            "The Death of Socrates"
+          ]
+        },
+        {
+          "id": "a_riqueza_das_nacoes",
+          "nome": "A Riqueza das Nações",
+          "descricao": "Obra de economia publicada em 1776, considerada fundadora da economia política clássica e do liberalismo econômico.",
+          "variantes": [
+            "The Wealth of Nations",
+            "An Inquiry into the Nature and Causes of the Wealth of Nations"
+          ]
+        },
+        {
+          "id": "a_morte_de_sardanapalo",
+          "nome": "A Morte de Sardanápalo",
+          "descricao": "Pintura romântica de Eugène Delacroix, de 1827, no Louvre, sobre o rei assírio Sardanápalo cercado por seu harém e seus tesouros.",
+          "variantes": [
+            "The Death of Sardanapalus",
+            "La Mort de Sardanapale",
+            "Morte de Sardanapalo"
+          ]
+        },
+        {
+          "id": "assassinato_de_jean_paul_marat",
+          "nome": "Assassinato de Jean-Paul Marat",
+          "descricao": "Morte do jornalista revolucionário francês Jean-Paul Marat, esfaqueado na banheira em 13 de julho de 1793.",
+          "variantes": [
+            "Morte de Marat"
+          ]
+        },
+        {
+          "id": "a_morte_do_general_wolfe",
+          "nome": "A Morte do General Wolfe",
+          "descricao": "Pintura de Benjamin West, de 1770, sobre a morte do general James Wolfe na Batalha de Quebec.",
+          "variantes": [
+            "A Morte do General Wolfe (Benjamin West)",
+            "The Death of General Wolfe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Cães Jogando Pôquer",
+        "descricao": "Série de pinturas a óleo de Cassius Marcellus Coolidge, feitas entre 1894 e 1910, com cães antropomorfizados jogando pôquer.",
+        "variantes": [
+          "Dogs Playing Poker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cachorros_jogando_poquer",
+          "nome": "Cachorros jogando pôquer",
+          "descricao": "Série de pinturas a óleo de Cassius Marcellus Coolidge, de 1903, com cães antropomorfizados jogando cartas.",
+          "variantes": [
+            "Dogs Playing Poker",
+            "Cães jogando pôquer"
+          ]
+        },
+        {
+          "id": "rei_carta_de_baralho",
+          "nome": "Rei (carta de baralho)",
+          "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
+          "variantes": [
+            "King (playing card)",
+            "Rei de espadas",
+            "King"
+          ]
+        },
+        {
+          "id": "castor_e_polux",
+          "nome": "Castor e Pólux",
+          "descricao": "Irmãos gêmeos da mitologia grega, filhos de Leda, conhecidos como Dióscuros.",
+          "variantes": [
+            "Dióscuros",
+            "Castor and Pollux"
+          ]
+        },
+        {
+          "id": "edgar_allan_poe",
+          "nome": "Edgar Allan Poe",
+          "descricao": "Escritor, poeta e crítico americano do Romantismo e da ficção gótica, pioneiro do conto policial.",
+          "variantes": [
+            "Edgar Poe"
+          ]
+        },
+        {
+          "id": "shaymin",
+          "nome": "Shaymin",
+          "descricao": "Pokémon lendário do tipo Planta da quarta geração, número 492 da Pokédex Nacional, na forma Terrestre.",
+          "variantes": [
+            "Shaymin (Pokémon)",
+            "Shaymin Land Forme"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "A Dança dos Camponeses (Bruegel)",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de cerca de 1567, no Kunsthistorisches Museum de Viena.",
+        "variantes": [
+          "A Dança Camponesa",
+          "A Kermesse da Aldeia",
+          "The Peasant Dance"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casamento_campones_bruegel",
+          "nome": "Casamento Camponês (Bruegel)",
+          "descricao": "Pintura de 1567 de Pieter Bruegel, o Velho, que mostra um banquete de casamento camponês num celeiro.",
+          "variantes": [
+            "A Boda Camponesa",
+            "The Peasant Wedding"
+          ]
+        },
+        {
+          "id": "arremesso_final",
+          "nome": "Arremesso Final",
+          "descricao": "Série documental de 2020 sobre o Chicago Bulls de Michael Jordan, produzida pela ESPN e pela Netflix.",
+          "variantes": [
+            "The Last Dance"
+          ]
+        },
+        {
+          "id": "sandman",
+          "nome": "Sandman",
+          "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989",
+          "variantes": [
+            "The Sandman"
+          ]
+        },
+        {
+          "id": "pentagono",
+          "nome": "Pentágono",
+          "descricao": "Sede do Departamento de Defesa dos Estados Unidos, em Arlington, Virgínia, de planta pentagonal.",
+          "variantes": [
+            "The Pentagon",
+            "O Pentágono"
+          ]
+        },
+        {
+          "id": "the_boat_race",
+          "nome": "The Boat Race",
+          "descricao": "Regata anual de remo entre as universidades de Oxford e Cambridge.",
+          "variantes": [
+            "Regata Oxford-Cambridge"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a imagem devocional da Divina Misericórdia."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pintura de Géricault não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Baco Doente é distinto do Baco (Uffizi) de Caravaggio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pintura de Malevich difere da Praça Vermelha."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pintura de Rafael difere do Arcanjo Miguel de Guido Reni."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ícone difere do mosteiro que o abriga."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à pintura de Matejko."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ícone do Perpétuo Socorro difere de Nossa Senhora Aparecida e outras."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pintura de Courbet não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Pintura de Wallis não está entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "cachorros_jogando_poquer",
+      "motivo": "Mesma série de Coolidge com cães jogando pôquer; variantes coincidem."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Dança dos Camponeses é obra distinta do Casamento Camponês."
+    }
+  ]
+}

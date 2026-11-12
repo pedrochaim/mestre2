@@ -1,0 +1,261 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; devoção muito conhecida. Pergunta de ano trocada por reconhecimento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que imagem devocional de Jesus é esta, com raios vermelho e pálido saindo do peito?",
+      "resposta": "Jesus Misericordioso (Divina Misericórdia)",
+      "ancora": {
+        "nome": "Jesus Misericordioso",
+        "descricao": "Imagem devocional de Jesus Cristo baseada nas visões de Faustina Kowalska, com raios vermelho e pálido saindo do peito.",
+        "variantes": [
+          "Divina Misericórdia",
+          "Imagem da Divina Misericórdia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pintura clara e reconhecível, sem texto. Pergunta de nível 3 sobre o corpo militar.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este oficial francês, pintado por volta de 1812, pertence a que corpo da Guarda Imperial de Napoleão?",
+      "resposta": "Caçadores a cavalo",
+      "distratores": [
+        "Granadeiros a pé",
+        "Lanceiros poloneses",
+        "Mamelucos da Guarda"
+      ],
+      "ancora": {
+        "nome": "Oficial dos Caçadores a Cavalo",
+        "descricao": "Pintura a óleo de Théodore Géricault, de cerca de 1812, que mostra um oficial dos Caçadores a Cavalo da Guarda Imperial a galope, no Louvre.",
+        "variantes": [
+          "O Caçador Imperial a Cavalo",
+          "The Charging Chasseur",
+          "Oficial dos Caçadores a Cavalo da Guarda Imperial"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. Resposta em ano trocada por autoria.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que pintor italiano do barroco fez este quadro?",
+      "resposta": "Caravaggio",
+      "ancora": {
+        "nome": "Baco Doente",
+        "descricao": "Autorretrato de juventude de Caravaggio como Baco, pintado entre 1593 e 1594, na Galleria Borghese, em Roma.",
+        "variantes": [
+          "Pequeno Baco Doente",
+          "Bacchino Malato",
+          "Autorretrato como Baco"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Quadrado vermelho sobre fundo branco, sem texto. Fica no limite da resposta única, mas a obra é bem documentada.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "A que movimento da arte abstrata russa, de 1915, pertence esta obra?",
+      "resposta": "Suprematismo",
+      "ancora": {
+        "nome": "Quadrado Vermelho (Malevich)",
+        "descricao": "Pintura suprematista de 1915 de Kazimir Malevich que mostra um quadrilátero vermelho sobre campo branco.",
+        "variantes": [
+          "Red Square",
+          "Realismo Pictórico de uma Camponesa em Duas Dimensões"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; pergunta do museu em vez do ano.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que museu fica este quadro renascentista de Rafael, desde o século dezessete?",
+      "resposta": "Museu do Louvre",
+      "distratores": [
+        "Museu do Prado",
+        "Galeria Uffizi",
+        "Museus do Vaticano"
+      ],
+      "ancora": {
+        "nome": "São Miguel Vencendo Satanás",
+        "descricao": "Pintura de Rafael em que o arcanjo Miguel pisa em Satanás, encomendada pelo papa Leão X e hoje no Louvre.",
+        "variantes": [
+          "São Miguel derrota Satanás",
+          "Saint Michael Vanquishing Satan",
+          "Grande São Miguel"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ícone clássico, imagem clara e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Como se chama este tipo de representação de Cristo na arte bizantina?",
+      "resposta": "Pantocrator",
+      "ancora": {
+        "nome": "Cristo Pantocrator do Sinai",
+        "descricao": "Ícone bizantino do século seis do Mosteiro de Santa Catarina, no Sinai, a mais antiga representação conhecida de Cristo como Pantocrator.",
+        "variantes": [
+          "Cristo Pantocrator de Santa Catarina",
+          "Christ Pantocrator (Sinai)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem clara; a carta na mesa tem escrita ilegível. Pergunta de nível 3 sustentada pelo título completo.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "O bobo da corte desta pintura polonesa do século dezenove lamenta a perda de que cidade?",
+      "resposta": "Smolensk",
+      "distratores": [
+        "Kiev",
+        "Vilnius",
+        "Riga"
+      ],
+      "ancora": {
+        "nome": "Stańczyk (Matejko)",
+        "descricao": "Pintura de Jan Matejko, de 1862, que mostra o bobo da corte Stańczyk sombrio durante um baile na corte da rainha Bona.",
+        "variantes": [
+          "Stańczyk",
+          "Stańczyk durante um baile na corte da rainha Bona"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ícone clássico; as letras gregas são abreviaturas que não entregam o nome em português.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que invocação de Maria, venerada num ícone bizantino do século quinze, é esta?",
+      "resposta": "Nossa Senhora do Perpétuo Socorro",
+      "ancora": {
+        "nome": "Nossa Senhora do Perpétuo Socorro",
+        "descricao": "Ícone bizantino do século quinze da Virgem com o Menino, hoje na igreja de Santo Afonso de Ligório, em Roma.",
+        "variantes": [
+          "Mãe do Perpétuo Socorro",
+          "Our Lady of Perpetual Help"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Obra célebre, imagem legível. A assinatura no canto é minúscula e não entrega o movimento.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "A que movimento artístico francês do século dezenove pertence esta obra?",
+      "resposta": "Realismo",
+      "ancora": {
+        "nome": "O Ateliê do Pintor (Courbet)",
+        "descricao": "Pintura de Gustave Courbet, de 1855, no Musée d'Orsay, alegoria realista de sua vida artística.",
+        "variantes": [
+          "O Ateliê do Artista",
+          "L'Atelier du peintre",
+          "The Painter's Studio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem clara; a assinatura e a data no canto são minúsculas. Ano evitado por causa do teto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta pintura pré-rafaelita inglesa mostra a morte de um jovem de que ofício?",
+      "resposta": "Poeta",
+      "distratores": [
+        "Pintor",
+        "Músico",
+        "Ator"
+      ],
+      "ancora": {
+        "nome": "A Morte de Chatterton (Henry Wallis)",
+        "descricao": "Pintura pré-rafaelita de Henry Wallis, de 1856, na Tate Britain, que mostra o poeta Thomas Chatterton morto.",
+        "variantes": [
+          "The Death of Chatterton",
+          "Morte de Chatterton"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem clara e sem texto; obra de série muito conhecida.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que artista americano pintou esta série de cães em torno de uma mesa de jogo?",
+      "resposta": "Cassius Marcellus Coolidge",
+      "distratores": [
+        "Norman Rockwell",
+        "Grant Wood",
+        "Edward Hopper"
+      ],
+      "ancora": {
+        "nome": "Cães Jogando Pôquer",
+        "descricao": "Série de pinturas a óleo de Cassius Marcellus Coolidge, feitas entre 1894 e 1910, com cães antropomorfizados jogando pôquer.",
+        "variantes": [
+          "Dogs Playing Poker"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, obra bem conhecida.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que pintor flamengo do século dezesseis fez este quadro?",
+      "resposta": "Pieter Bruegel, o Velho",
+      "ancora": {
+        "nome": "A Dança dos Camponeses (Bruegel)",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de cerca de 1567, no Kunsthistorisches Museum de Viena.",
+        "variantes": [
+          "A Dança Camponesa",
+          "A Kermesse da Aldeia",
+          "The Peasant Dance"
+        ]
+      }
+    }
+  ]
+}
