@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Morsa nítida, com presas e bigodes, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em torno de qual região do planeta vive este animal?",
+      "resposta": "Ártico",
+      "distratores": [
+        "Antártida",
+        "Patagônia",
+        "Mar Negro"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Morsa",
+        "descricao": "Grande mamífero marinho pinípede de presas proeminentes, Odobenus rosmarus, do Ártico e mares subárticos.",
+        "variantes": [
+          "Odobenus rosmarus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vulcão nevado com fumaça no cume, vista do outro lado do estreito; reconhecível e sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha fica este vulcão?",
+      "resposta": "Sicília",
+      "distratores": [
+        "Sardenha",
+        "Córsega",
+        "Creta"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Monte Etna",
+        "descricao": "Vulcão ativo na costa leste da Sicília, Itália, o maior vulcão ativo da Europa.",
+        "variantes": [
+          "Etna"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem pouco nítida, com sombra quase imperceptível; o halo colorido pode ser confundido com arco-íris circular ou halo, sem resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tuiuiú de corpo inteiro, com pescoço vermelho e bico escuro característicos; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que região do Brasil esta ave é mais comum?",
+      "resposta": "Pantanal",
+      "distratores": [
+        "Pampa",
+        "Caatinga",
+        "Restinga"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Tuiuiú",
+        "descricao": "Grande cegonha das Américas, Jabiru mycteria, de pescoço preto com faixa vermelha, comum no Pantanal.",
+        "variantes": [
+          "Jaburu",
+          "Jabiru",
+          "Jabiru mycteria"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de interior de floresta com troncos e cipós, sem traço que permita reconhecer campinarana e distinguir de floresta de terra firme."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, estreita; não fica legível num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Mapa mundial com manchas verdes dispersas; a resposta não é reconhecível pela imagem e pode ser confundida com outros biomas de floresta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Abertura circular nítida em nuvens altocúmulos, muito característica; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno das nuvens é este?",
+      "resposta": "Buraco de nuvem",
+      "distratores": [
+        "Nuvem lenticular",
+        "Nuvem mamma",
+        "Nuvem em rolo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Buraco de nuvem",
+        "descricao": "Grande abertura circular ou elíptica em nuvens cirrocúmulos ou altocúmulos, causada por água super-resfriada.",
+        "variantes": [
+          "Nuvem perfurada",
+          "Fallstreak hole",
+          "Cavum"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cacto colunar com costelas e espinhos, bem visível e legível; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que bioma brasileiro este cacto é típico?",
+      "resposta": "Caatinga",
+      "distratores": [
+        "Pampa",
+        "Pantanal",
+        "Mata Atlântica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mandacaru",
+        "descricao": "Cacto colunar Cereus jamacaru, nativo do centro e leste do Brasil, símbolo da Caatinga.",
+        "variantes": [
+          "Cardeiro",
+          "Cereus jamacaru"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Sequoia imensa, de tronco avermelhado e copa característica; pessoas pequenas ao fundo, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que árvore gigante é esta?",
+      "resposta": "Sequoia-gigante",
+      "distratores": [
+        "Sequoia-costeira",
+        "Abeto-de-douglas",
+        "Cipreste-calvo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sequoia-gigante",
+        "descricao": "Conífera Sequoiadendron giganteum da Serra Nevada, na Califórnia, a maior árvore do mundo em volume.",
+        "variantes": [
+          "Sequoiadendron giganteum",
+          "Sequoia-da-sierra"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Língua de detritos rochosos com frente íngreme, característica de geleira de rocha; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de geleira é esta?",
+      "resposta": "Geleira de rocha",
+      "distratores": [
+        "Geleira de vale",
+        "Geleira de circo",
+        "Geleira tabular"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Geleira de rocha",
+        "descricao": "Massa de detritos rochosos com gelo intersticial que se move lentamente encosta abaixo em áreas de alta altitude ou latitude.",
+        "variantes": [
+          "Geleira rochosa",
+          "Rock glacier"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Diagrama esquemático com texto em inglês, que entrega a resposta (Caldera Collapse) e não é foto."
+    }
+  ]
+}

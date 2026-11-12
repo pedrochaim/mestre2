@@ -1,0 +1,128 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em torno de qual região do planeta vive este animal?",
+        "resposta": "Ártico"
+      },
+      "existentes": [
+        {
+          "id": "q00277",
+          "pergunta": "O nome científico da morsa, Odobenus, vem do grego e significa aquele que caminha com o quê?",
+          "resposta": "Dentes"
+        },
+        {
+          "id": "q09114",
+          "pergunta": "Que mamífero marinho do Ártico é este?",
+          "resposta": "Morsa"
+        },
+        {
+          "id": "q17803",
+          "pergunta": "As longas presas da morsa, que podem chegar a um metro, são na verdade que tipo de dente alongado?",
+          "resposta": "Caninos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ilha fica este vulcão?",
+        "resposta": "Sicília"
+      },
+      "existentes": [
+        {
+          "id": "q02219",
+          "pergunta": "O Etna, um dos vulcões mais ativos da Europa, fica em qual ilha do Mediterrâneo?",
+          "resposta": "Sicília"
+        },
+        {
+          "id": "q09643",
+          "pergunta": "Na mitologia grega, as forjas de qual deus ferreiro ficavam debaixo do vulcão Etna, na Sicília?",
+          "resposta": "Hefesto"
+        },
+        {
+          "id": "q15909",
+          "pergunta": "Que vulcão europeu é este?",
+          "resposta": "Etna"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que região do Brasil esta ave é mais comum?",
+        "resposta": "Pantanal"
+      },
+      "existentes": [
+        {
+          "id": "q01031",
+          "pergunta": "Em que grande planície alagável do Brasil esta ave é mais comum?",
+          "resposta": "Pantanal"
+        },
+        {
+          "id": "q18405",
+          "pergunta": "O tuiuiú, ave-símbolo do Pantanal, é da mesma família de que ave europeia que, segundo a lenda, entrega os bebês?",
+          "resposta": "Cegonha"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que bioma brasileiro este cacto é típico?",
+        "resposta": "Caatinga"
+      },
+      "existentes": [
+        {
+          "id": "q06085",
+          "pergunta": "Que cacto do sertão abre o Xote das Meninas, de Luiz Gonzaga e Zé Dantas, florindo na seca como sinal de que a chuva vai chegar?",
+          "resposta": "Mandacaru"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que conífera norte-americana é esta?",
+        "resposta": "Sequoia-gigante"
+      },
+      "existentes": [
+        {
+          "id": "q06893",
+          "pergunta": "Que árvore é esta?",
+          "resposta": "Sequoia-gigante"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a região onde vive a morsa; as existentes tratam do nome científico, presas e identificação do animal (que apenas menciona Ártico no enunciado, mas pergunta a espécie)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o Etna fica na Sicília (q02219).",
+      "id_existente": "q02219"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: região/planície do Brasil onde a ave é mais comum, Pantanal.",
+      "id_existente": "q01031"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Bioma do cacto (Caatinga) é fato diferente de identificar o mandacaru na música."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Na dúvida: a nova traz a dica de conífera norte-americana, mas ambas pedem identificar a mesma imagem; porém decidido como nova por cautela."
+    }
+  ]
+}

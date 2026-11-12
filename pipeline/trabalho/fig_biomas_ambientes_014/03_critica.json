@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega o animal. O trecho confirma a distribuição ao redor do Ártico, e os distratores são regiões polares ou frias plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura não dá para saber qual vulcão é. O trecho confirma que o Etna fica na costa leste da Sicília, e os distratores são ilhas mediterrâneas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a ave é mais comum no Pantanal. O enunciado não nomeia a ave e os distratores são regiões brasileiras plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'nuvens' e a resposta 'buraco de nuvem', palavra derivada que vaza. Além disso, a Wikipédia em português usa 'nuvem perfurada' como nome corrente.",
+      "reescrita": {
+        "pergunta": "Que fenômeno atmosférico é este?",
+        "resposta": "Nuvem perfurada (buraco de nuvem)",
+        "distratores": [
+          "Nuvem lenticular",
+          "Nuvem mamma",
+          "Nuvem em rolo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o mandacaru é espécie típica da Caatinga. O enunciado só diz 'cacto' e não nomeia a planta, e os distratores são biomas brasileiros.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'gigante', que está dentro da resposta 'Sequoia-gigante', então há vazamento parcial. Troquei por uma pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que conífera norte-americana é esta?",
+        "resposta": "Sequoia-gigante",
+        "distratores": [
+          "Sequoia-costeira",
+          "Abeto-de-douglas",
+          "Cipreste-calvo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'geleira', que está dentro da resposta, então há vazamento. Também ajustei o nome para 'geleira rochosa', como na Wikipédia em português.",
+      "reescrita": {
+        "pergunta": "Que forma de relevo de altas montanhas e altas latitudes é esta?",
+        "resposta": "Geleira rochosa",
+        "distratores": [
+          "Geleira de vale",
+          "Geleira de circo",
+          "Geleira tabular"
+        ]
+      }
+    }
+  ]
+}

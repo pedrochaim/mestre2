@@ -1,0 +1,448 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Morsa",
+        "descricao": "Grande mamífero marinho pinípede de presas proeminentes, Odobenus rosmarus, do Ártico e mares subárticos.",
+        "variantes": [
+          "Odobenus rosmarus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "mosca_domestica",
+          "nome": "Mosca-doméstica",
+          "descricao": "Mosca comum Musca domestica, cosmopolita, que convive com os humanos.",
+          "variantes": [
+            "Musca domestica",
+            "Mosca"
+          ]
+        },
+        {
+          "id": "codigo_morse",
+          "nome": "Código Morse",
+          "descricao": "Sistema que codifica letras e números em sequências de pontos e traços, usado na telegrafia.",
+          "variantes": [
+            "Morse",
+            "Alfabeto Morse"
+          ]
+        },
+        {
+          "id": "amora_preta",
+          "nome": "Amora-preta",
+          "descricao": "Fruto escuro e composto de plantas do gênero Rubus, a blackberry.",
+          "variantes": [
+            "Amora",
+            "Blackberry"
+          ]
+        },
+        {
+          "id": "moray",
+          "nome": "Moray",
+          "descricao": "Sítio arqueológico inca com terraços circulares concêntricos, perto de Cusco, no Peru.",
+          "variantes": [
+            "Muray"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Monte Etna",
+        "descricao": "Vulcão ativo na costa leste da Sicília, Itália, o maior vulcão ativo da Europa.",
+        "variantes": [
+          "Etna"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "monte_quenia",
+          "nome": "Monte Quênia",
+          "descricao": "Segunda montanha mais alta da África, vulcão extinto próximo ao Equador.",
+          "variantes": [
+            "Mount Kenya"
+          ]
+        },
+        {
+          "id": "vietna",
+          "nome": "Vietnã",
+          "descricao": "País do Sudeste Asiático com litoral no Mar da China Meridional, capital Hanói.",
+          "variantes": [
+            "Vietnam",
+            "Viet Nam",
+            "Vietname"
+          ]
+        },
+        {
+          "id": "retina",
+          "nome": "Retina",
+          "descricao": "Camada sensível à luz no fundo do olho, onde ficam as células fotorreceptoras.",
+          "variantes": []
+        },
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tuiuiú",
+        "descricao": "Grande cegonha das Américas, Jabiru mycteria, de pescoço preto com faixa vermelha, comum no Pantanal.",
+        "variantes": [
+          "Jaburu",
+          "Jabiru",
+          "Jabiru mycteria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tuiuiu",
+          "nome": "Tuiuiú",
+          "descricao": "Grande cegonha (Jabiru mycteria) de plumagem branca, cabeça e pescoço pretos com colar vermelho, ave-símbolo do Pantanal.",
+          "variantes": [
+            "Jaburu",
+            "Jabiru",
+            "Jabiru mycteria"
+          ]
+        },
+        {
+          "id": "palacio_do_jaburu",
+          "nome": "Palácio do Jaburu",
+          "descricao": "Residência oficial do vice-presidente do Brasil em Brasília, projetada por Oscar Niemeyer e inaugurada em 1977.",
+          "variantes": [
+            "Jaburu"
+          ]
+        },
+        {
+          "id": "abiu",
+          "nome": "Abiu",
+          "descricao": "Fruto amarelo do abieiro (Pouteria caimito), de polpa branca e gelatinosa, nativo da Amazônia.",
+          "variantes": [
+            "Caimito",
+            "Abieiro",
+            "Pouteria caimito"
+          ]
+        },
+        {
+          "id": "bauru",
+          "nome": "Bauru",
+          "descricao": "Sanduíche brasileiro de rosbife, queijo derretido, tomate e picles no pão francês, criado no bar Ponto Chic",
+          "variantes": [
+            "Bauru (sanduíche)"
+          ]
+        },
+        {
+          "id": "kiwi",
+          "nome": "Kiwi",
+          "descricao": "Ave não voadora e noturna da Nova Zelândia, do gênero Apteryx, de bico longo e fino.",
+          "variantes": [
+            "Apteryx",
+            "Quivi",
+            "Quiuí"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Buraco de nuvem",
+        "descricao": "Grande abertura circular ou elíptica em nuvens cirrocúmulos ou altocúmulos, causada por água super-resfriada.",
+        "variantes": [
+          "Nuvem perfurada",
+          "Fallstreak hole",
+          "Cavum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "om",
+          "nome": "Om",
+          "descricao": "Símbolo e sílaba sagrada do hinduísmo, budismo, jainismo e siquismo.",
+          "variantes": [
+            "Aum",
+            "ॐ"
+          ]
+        },
+        {
+          "id": "nuvem_muralha",
+          "nome": "Nuvem muralha",
+          "descricao": "Abaixamento localizado e persistente da base de um cumulonimbo, de onde às vezes se formam tornados.",
+          "variantes": [
+            "Wall cloud",
+            "Murus"
+          ]
+        },
+        {
+          "id": "baco_doente",
+          "nome": "Baco Doente",
+          "descricao": "Autorretrato de juventude de Caravaggio como Baco, pintado entre 1593 e 1594, na Galleria Borghese, em Roma.",
+          "variantes": [
+            "Baco Doente (Caravaggio)",
+            "Pequeno Baco Doente",
+            "Bacchino Malato",
+            "Autorretrato como Baco"
+          ]
+        },
+        {
+          "id": "nuvem_nacarada",
+          "nome": "Nuvem nacarada",
+          "descricao": "Nuvem estratosférica polar de cristais de gelo, de brilho iridescente como madrepérola.",
+          "variantes": [
+            "Nuvem estratosférica polar",
+            "Nuvem de madrepérola"
+          ]
+        },
+        {
+          "id": "cafu",
+          "nome": "Cafu",
+          "descricao": "Marcos Evangelista de Morais, lateral-direito brasileiro, capitão da seleção campeã mundial em 2002.",
+          "variantes": [
+            "Marcos Evangelista de Morais"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mandacaru",
+        "descricao": "Cacto colunar Cereus jamacaru, nativo do centro e leste do Brasil, símbolo da Caatinga.",
+        "variantes": [
+          "Cardeiro",
+          "Cereus jamacaru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mandacaru",
+          "nome": "Mandacaru",
+          "descricao": "Cacto Cereus jamacaru, típico da Caatinga e símbolo do sertão nordestino",
+          "variantes": [
+            "Cereus jamacaru"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        },
+        {
+          "id": "mandacaia",
+          "nome": "Mandaçaia",
+          "descricao": "Abelha sem ferrão Melipona quadrifasciata, nativa do Sudeste e Sul do Brasil.",
+          "variantes": [
+            "Melipona quadrifasciata",
+            "Mandaçaia-grande"
+          ]
+        },
+        {
+          "id": "corrupiao",
+          "nome": "Corrupião",
+          "descricao": "Ave canora laranja e preta do Nordeste do Brasil (Icterus jamacaii).",
+          "variantes": [
+            "Campo troupial",
+            "Icterus jamacaii",
+            "Sofrê"
+          ]
+        },
+        {
+          "id": "cairo",
+          "nome": "Cairo",
+          "descricao": "Capital do Egito, às margens do rio Nilo, fundada no século dez pela dinastia fatímida.",
+          "variantes": [
+            "O Cairo",
+            "Al-Qahira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sequoia-gigante",
+        "descricao": "Conífera Sequoiadendron giganteum da Serra Nevada, na Califórnia, a maior árvore do mundo em volume.",
+        "variantes": [
+          "Sequoiadendron giganteum",
+          "Sequoia-da-sierra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sequoia_gigante",
+          "nome": "Sequoia-gigante",
+          "descricao": "Sequoiadendron giganteum, conífera da Serra Nevada, na Califórnia, a maior árvore do mundo em volume.",
+          "variantes": [
+            "Sequoiadendron giganteum",
+            "Sequoia-da-sierra",
+            "Wellingtonia"
+          ]
+        },
+        {
+          "id": "megaterio",
+          "nome": "Megatério",
+          "descricao": "Gênero extinto de preguiça-terrestre gigante que viveu na América do Sul até o fim do Pleistoceno.",
+          "variantes": [
+            "Megatherium",
+            "Preguiça-gigante"
+          ]
+        },
+        {
+          "id": "teoria_da_terra",
+          "nome": "Teoria da Terra",
+          "descricao": "Obra do século dezoito de James Hutton que defendeu que a Terra é moldada por processos lentos ao longo de um tempo imenso.",
+          "variantes": [
+            "Theory of the Earth"
+          ]
+        },
+        {
+          "id": "lula_gigante",
+          "nome": "Lula-gigante",
+          "descricao": "Grande cefalópode de águas profundas do gênero Architeuthis.",
+          "variantes": [
+            "Architeuthis",
+            "Giant squid"
+          ]
+        },
+        {
+          "id": "armillaria_ostoyae",
+          "nome": "Armillaria ostoyae",
+          "descricao": "Espécie de fungo cujo exemplar na Floresta Nacional Malheur é um dos maiores seres vivos conhecidos",
+          "variantes": [
+            "Armillaria solidipes",
+            "fungo gigante",
+            "humongous fungus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Geleira de rocha",
+        "descricao": "Massa de detritos rochosos com gelo intersticial que se move lentamente encosta abaixo em áreas de alta altitude ou latitude.",
+        "variantes": [
+          "Geleira rochosa",
+          "Rock glacier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "geleira_de_aletsch",
+          "nome": "Geleira de Aletsch",
+          "descricao": "Maior geleira dos Alpes, no cantão suíço de Valais.",
+          "variantes": [
+            "Aletschgletscher",
+            "Glaciar de Aletsch",
+            "Grande Geleira de Aletsch"
+          ]
+        },
+        {
+          "id": "royce_gracie",
+          "nome": "Royce Gracie",
+          "descricao": "Lutador brasileiro de jiu-jitsu e MMA, vencedor dos primeiros torneios do UFC e membro da família Gracie.",
+          "variantes": []
+        },
+        {
+          "id": "rock_slide",
+          "nome": "Rock Slide",
+          "descricao": "Golpe de pokémon do tipo Pedra, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "guerra_de_troia",
+          "nome": "Guerra de Troia",
+          "descricao": "Guerra lendária entre gregos e troianos, narrada na Ilíada e em outros poemas.",
+          "variantes": [
+            "Trojan War"
+          ]
+        },
+        {
+          "id": "helena_de_troia",
+          "nome": "Helena de Troia",
+          "descricao": "Rainha de Esparta, filha de Zeus e Leda, cuja fuga com Páris desencadeou a Guerra de Troia.",
+          "variantes": [
+            "Helena",
+            "Helen of Troy"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "morsa",
+      "motivo": "Mesma espécie Odobenus rosmarus."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "monte_etna",
+      "motivo": "Mesmo vulcão na Sicília."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "tuiuiu",
+      "motivo": "Mesma ave Jabiru mycteria."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Fenômeno de buraco em nuvem; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "mandacaru",
+      "motivo": "Mesmo cacto Cereus jamacaru."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "sequoia_gigante",
+      "motivo": "Mesma espécie Sequoiadendron giganteum."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Geleira de rocha é um conceito geral, diferente da Geleira de Aletsch."
+    }
+  ]
+}
