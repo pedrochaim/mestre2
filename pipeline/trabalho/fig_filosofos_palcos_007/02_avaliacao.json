@@ -1,0 +1,168 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Busto gravado sem texto, retrato clássico de Lucrécio.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este poeta e filósofo romano é autor de qual poema didático sobre o epicurismo?",
+      "resposta": "Sobre a Natureza das Coisas (De rerum natura)",
+      "ancora": {
+        "nome": "Lucrécio",
+        "descricao": "Poeta e filósofo epicurista romano do século I a.C., autor de De rerum natura.",
+        "variantes": [
+          "Tito Lucrécio Caro",
+          "Titus Lucretius Carus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Os cartazes na fachada mostram o nome 'BURG THEATER' legível, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Gravura de ator de kabuki com kumadori bem visível; o texto japonês não entrega o nome da maquiagem.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome tem esta pintura facial de listras vermelhas, usada por atores do teatro kabuki?",
+      "resposta": "Kumadori",
+      "ancora": {
+        "nome": "Kumadori",
+        "descricao": "Maquiagem teatral de listras e padrões coloridos usada por atores de kabuki.",
+        "variantes": [
+          "隈取"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto, de Husserl.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este filósofo austro-alemão fundou qual escola de pensamento?",
+      "resposta": "Fenomenologia",
+      "ancora": {
+        "nome": "Edmund Husserl",
+        "descricao": "Filósofo e matemático austro-alemão, fundador da fenomenologia.",
+        "variantes": [
+          "Husserl"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Boneco artesanal genérico, sem traços que permitam reconhecê-lo como mamulengo; resposta não única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A medalha traz o nome 'ANAXAGORAS' escrito, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato pintado sem texto, domínio público; múltipla escolha com obras de pensadores franceses.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este pensador francês do século dezenove é autor de qual obra?",
+      "resposta": "A Democracia na América",
+      "distratores": [
+        "O Contrato Social",
+        "O Espírito das Leis",
+        "Cartas Persas"
+      ],
+      "ancora": {
+        "nome": "Alexis de Tocqueville",
+        "descricao": "Pensador político e historiador francês do século XIX, autor de A Democracia na América.",
+        "variantes": [
+          "Tocqueville"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada sem texto, rosa e cinza, característica; teatro neoclássico histórico.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade brasileira fica este teatro, um dos mais antigos do país ainda em funcionamento?",
+      "resposta": "São Luís (Maranhão)",
+      "ancora": {
+        "nome": "Teatro Arthur Azevedo",
+        "descricao": "Teatro neoclássico inaugurado em 1817 no centro histórico de São Luís, Maranhão.",
+        "variantes": [
+          "Teatro União"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Edifício emblemático, cúpula inconfundível; marca '500px' discreta não entrega a resposta.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que edifício cultural, com teatro e murais, é este, na capital mexicana?",
+      "resposta": "Palácio de Belas Artes",
+      "ancora": {
+        "nome": "Palácio de Belas Artes (Cidade do México)",
+        "descricao": "Centro cultural e casa de espetáculos no centro histórico da Cidade do México.",
+        "variantes": [
+          "Palacio de Bellas Artes",
+          "Bellas Artes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A palavra 'SCOTO' aparece escrita na base do quadro, entregando a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome 'FOLIES BERGERE' está escrito na fachada, entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea sem texto, edifício reconhecível com a cúpula e o rio.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que teatro de ópera, às margens de um rio, é este?",
+      "resposta": "Teatro Nacional de Praga",
+      "distratores": [
+        "Ópera Garnier",
+        "Semperoper de Dresden",
+        "Ópera Estatal de Viena"
+      ],
+      "ancora": {
+        "nome": "Teatro Nacional de Praga",
+        "descricao": "Teatro de ópera histórico às margens do rio Vltava, em Praga, República Tcheca.",
+        "variantes": [
+          "Národní divadlo",
+          "National Theatre Prague"
+        ]
+      }
+    }
+  ]
+}

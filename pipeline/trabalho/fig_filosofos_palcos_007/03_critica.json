@@ -1,0 +1,73 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'poeta romano, poema didático sobre o epicurismo' descreve a obra única de Lucrécio, então a figura vira enfeite. Reescrito como reconhecimento, com época como pista.",
+      "reescrita": {
+        "pergunta": "Que poeta e filósofo romano do século primeiro antes de Cristo é este?",
+        "resposta": "Lucrécio",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pintura facial usada no kabuki' entrega o nome sem ver a figura, e 'listras vermelhas' não vale para todos os kumadori (há azul e outras cores). Reescrito para pedir o tipo de teatro.",
+      "reescrita": {
+        "pergunta": "Esta maquiagem de linhas e padrões coloridos é usada em qual forma de teatro japonês?",
+        "resposta": "Kabuki",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelos trechos; o enunciado não nomeia a entidade e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A obra é confirmada pelos trechos. Os distratores são obras francesas do século dezoito, críveis e curtas, e nenhuma é dele. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Localização em São Luís e 'um dos mais antigos ainda em funcionamento' confirmados pelo trecho. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Edifício cultural com teatro e murais na capital mexicana' permite responder sem a figura. Pista removida; ficam o país e o tipo de construção.",
+      "reescrita": {
+        "pergunta": "Que edifício histórico, de mármore branco, na capital mexicana, é este?",
+        "resposta": "Palácio de Belas Artes",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Teatro de ópera às margens de um rio' não é único nem distintivo, e a Semperoper também fica junto ao rio Elba, então um distrator é defensável. Reescrito pedindo a cidade, com distratores que não são a resposta.",
+      "reescrita": {
+        "pergunta": "Em que cidade europeia fica este teatro de ópera histórico?",
+        "resposta": "Praga",
+        "distratores": [
+          "Viena",
+          "Budapeste",
+          "Varsóvia"
+        ]
+      }
+    }
+  ]
+}

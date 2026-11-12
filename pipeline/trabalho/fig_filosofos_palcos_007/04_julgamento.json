@@ -1,0 +1,428 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lucrécio",
+        "descricao": "Poeta e filósofo epicurista romano do século I a.C., autor de De rerum natura.",
+        "variantes": [
+          "Tito Lucrécio Caro",
+          "Titus Lucretius Carus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lucario",
+          "nome": "Lucario",
+          "descricao": "Pokémon dos tipos Lutador e Aço, número 448 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lucio",
+          "nome": "Lúcio",
+          "descricao": "Ex-zagueiro brasileiro (Lucimar Ferreira da Silva), campeão mundial em 2002, conhecido como O Cavalo.",
+          "variantes": [
+            "Lucimar Ferreira da Silva"
+          ]
+        },
+        {
+          "id": "ricardo_lucarelli",
+          "nome": "Ricardo Lucarelli",
+          "descricao": "Ponta brasileiro de vôlei, campeão olímpico no Rio 2016.",
+          "variantes": [
+            "Lucarelli",
+            "Ricardo Samuel Lucarelli Santos de Souza"
+          ]
+        },
+        {
+          "id": "minas_de_laurio",
+          "nome": "Minas de Láurio",
+          "descricao": "Minas de prata da Ática, ao sul de Atenas, cuja riqueza financiou a frota ateniense no século cinco a.C.",
+          "variantes": [
+            "Laurium",
+            "Lavrio",
+            "Láurion"
+          ]
+        },
+        {
+          "id": "dicionario_aurelio",
+          "nome": "Dicionário Aurélio",
+          "descricao": "Dicionário da língua portuguesa de Aurélio Buarque de Holanda Ferreira, cujo nome virou sinônimo de dicionário no Brasil",
+          "variantes": [
+            "Novo Dicionário Aurélio da Língua Portuguesa",
+            "Aurélio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kumadori",
+        "descricao": "Maquiagem teatral de listras e padrões coloridos usada por atores de kabuki.",
+        "variantes": [
+          "隈取"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "madri",
+          "nome": "Madri",
+          "descricao": "Capital e maior cidade da Espanha, no centro da Península Ibérica.",
+          "variantes": [
+            "Madrid"
+          ]
+        },
+        {
+          "id": "matori",
+          "nome": "Matori",
+          "descricao": "Secretária de Giovanni na Equipe Rocket nas séries Sol e Lua e Jornadas do anime Pokémon.",
+          "variantes": []
+        },
+        {
+          "id": "conga",
+          "nome": "Conga",
+          "descricao": "Tambor alto e estreito, de origem cubana, tocado com as mãos.",
+          "variantes": [
+            "Tumbadora",
+            "Congas"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "hei_tiki",
+          "nome": "Hei-tiki",
+          "descricao": "Pingente ornamental maori de pedra verde (pounamu), em forma de figura humana estilizada.",
+          "variantes": [
+            "Tiki maori"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Edmund Husserl",
+        "descricao": "Filósofo e matemático austro-alemão, fundador da fenomenologia.",
+        "variantes": [
+          "Husserl"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edmund_husserl",
+          "nome": "Edmund Husserl",
+          "descricao": "Filósofo e matemático austro-alemão (1859–1938), fundador da fenomenologia.",
+          "variantes": []
+        },
+        {
+          "id": "edmond_becquerel",
+          "nome": "Edmond Becquerel",
+          "descricao": "Físico francês do século dezenove que descobriu o efeito fotovoltaico em 1839, pai de Henri Becquerel.",
+          "variantes": [
+            "Alexandre-Edmond Becquerel"
+          ]
+        },
+        {
+          "id": "mucarela",
+          "nome": "Muçarela",
+          "descricao": "Queijo fresco italiano de massa filada, originário do sul da Itália",
+          "variantes": [
+            "Mozzarella",
+            "Mussarela"
+          ]
+        },
+        {
+          "id": "musselina",
+          "nome": "Musselina",
+          "descricao": "Tecido de algodão leve e de trama fina, usado em vestidos, cortinas e fraldas",
+          "variantes": [
+            "Muslin",
+            "Mousseline"
+          ]
+        },
+        {
+          "id": "gamal_abdel_nasser",
+          "nome": "Gamal Abdel Nasser",
+          "descricao": "Oficial e estadista egípcio, segundo presidente do Egito, de 1954 a 1970.",
+          "variantes": [
+            "Nasser",
+            "Gamal Abdel Nasser Hussein"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Alexis de Tocqueville",
+        "descricao": "Pensador político e historiador francês do século XIX, autor de A Democracia na América.",
+        "variantes": [
+          "Tocqueville"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ratatouille",
+          "nome": "Ratatouille",
+          "descricao": "Prato francês da Provença de legumes de verão cozidos em azeite, como abobrinha, berinjela, pimentão e tomate.",
+          "variantes": [
+            "Ratatouille niçoise"
+          ]
+        },
+        {
+          "id": "charles_de_gaulle",
+          "nome": "Charles de Gaulle",
+          "descricao": "General francês que liderou a França Livre a partir de Londres na Segunda Guerra e depois presidiu a França.",
+          "variantes": [
+            "General de Gaulle",
+            "De Gaulle"
+          ]
+        },
+        {
+          "id": "herman_melville",
+          "nome": "Herman Melville",
+          "descricao": "Escritor americano do século dezenove, autor de Moby Dick.",
+          "variantes": [
+            "Melville"
+          ]
+        },
+        {
+          "id": "escala_de_scoville",
+          "nome": "Escala de Scoville",
+          "descricao": "Escala que mede a ardência das pimentas pela concentração de capsaicinoides, criada em 1912 por Wilbur Scoville.",
+          "variantes": [
+            "Scoville",
+            "Unidades de calor Scoville"
+          ]
+        },
+        {
+          "id": "leis_de_kepler",
+          "nome": "Leis de Kepler",
+          "descricao": "Leis que descrevem o movimento dos planetas em órbitas elípticas ao redor do Sol, formuladas por Johannes Kepler entre 1609 e 1619.",
+          "variantes": [
+            "Kepler's laws of planetary motion",
+            "Leis do movimento planetário"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Teatro Arthur Azevedo",
+        "descricao": "Teatro neoclássico inaugurado em 1817 no centro histórico de São Luís, Maranhão.",
+        "variantes": [
+          "Teatro União"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_arthur_azevedo",
+          "nome": "Teatro Arthur Azevedo",
+          "descricao": "Teatro neoclássico inaugurado em 1817 no centro histórico de São Luís, Maranhão.",
+          "variantes": [
+            "Teatro União"
+          ]
+        },
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        },
+        {
+          "id": "theatro_municipal_do_rio_de_janeiro",
+          "nome": "Theatro Municipal do Rio de Janeiro",
+          "descricao": "Teatro na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
+          "variantes": [
+            "Teatro Municipal do Rio de Janeiro",
+            "Theatro Municipal (Rio de Janeiro)",
+            "Theatro Municipal"
+          ]
+        },
+        {
+          "id": "kabuki",
+          "nome": "Kabuki",
+          "descricao": "Forma tradicional de teatro japonês que combina canto, dança e atuação estilizada, surgida no início do século dezessete.",
+          "variantes": [
+            "Teatro kabuki"
+          ]
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter",
+            "Metro-padrão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Palácio de Belas Artes (Cidade do México)",
+        "descricao": "Centro cultural e casa de espetáculos no centro histórico da Cidade do México.",
+        "variantes": [
+          "Palacio de Bellas Artes",
+          "Bellas Artes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_belas_artes",
+          "nome": "Palácio de Belas Artes",
+          "descricao": "Centro cultural de mármore com cúpula colorida, no centro histórico da Cidade do México.",
+          "variantes": [
+            "Palacio de Bellas Artes"
+          ]
+        },
+        {
+          "id": "academia_imperial_de_belas_artes",
+          "nome": "Academia Imperial de Belas Artes",
+          "descricao": "Escola oficial de arte do Rio de Janeiro, criada a partir da Missão Artística Francesa e inaugurada em 1826.",
+          "variantes": [
+            "Imperial Academia de Belas Artes",
+            "Imperial Academy of Fine Arts"
+          ]
+        },
+        {
+          "id": "palau_de_les_arts_reina_sofia",
+          "nome": "Palau de les Arts Reina Sofía",
+          "descricao": "Casa de ópera projetada por Santiago Calatrava na Cidade das Artes e das Ciências de Valência, na Espanha.",
+          "variantes": [
+            "Palácio das Artes Rainha Sofia",
+            "Palacio de las Artes Reina Sofía"
+          ]
+        },
+        {
+          "id": "museu_nacional_de_belas_artes",
+          "nome": "Museu Nacional de Belas Artes",
+          "descricao": "Museu de arte no centro do Rio de Janeiro, instalado em prédio eclético de 1908.",
+          "variantes": [
+            "MNBA"
+          ]
+        },
+        {
+          "id": "stella_artois",
+          "nome": "Stella Artois",
+          "descricao": "Marca de cerveja belga originária da cidade de Leuven.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Teatro Nacional de Praga",
+        "descricao": "Teatro de ópera histórico às margens do rio Vltava, em Praga, República Tcheca.",
+        "variantes": [
+          "Národní divadlo",
+          "National Theatre Prague"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_nacional_claudio_santoro",
+          "nome": "Teatro Nacional Cláudio Santoro",
+          "descricao": "Teatro de Brasília projetado por Oscar Niemeyer, com fachadas decoradas por Athos Bulcão.",
+          "variantes": [
+            "Teatro Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "teatro_nacional_de_munique",
+          "nome": "Teatro Nacional de Munique",
+          "descricao": "Casa de ópera neoclássica na Max-Joseph-Platz, sede da Ópera Estatal da Baviera.",
+          "variantes": [
+            "Nationaltheater München",
+            "National Theatre Munich"
+          ]
+        },
+        {
+          "id": "estadio_nacional_do_peru",
+          "nome": "Estádio Nacional do Peru",
+          "descricao": "Estádio nacional multiuso de Lima, Peru, inaugurado em 1952.",
+          "variantes": [
+            "Estadio Nacional del Perú",
+            "Coloso de José Díaz"
+          ]
+        },
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "basilica_de_nossa_senhora_aparecida",
+          "nome": "Basílica de Nossa Senhora Aparecida",
+          "descricao": "Santuário nacional católico em Aparecida, São Paulo, dedicado à padroeira do Brasil.",
+          "variantes": [
+            "Basílica Nova de Aparecida",
+            "Santuário Nacional de Aparecida"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o poeta Lucrécio."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Kumadori (maquiagem kabuki) não corresponde a nenhuma candidata; Kabuki é o gênero teatral, não a maquiagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "edmund_husserl",
+      "motivo": "Mesmo filósofo, fundador da fenomenologia."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tocqueville."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "teatro_arthur_azevedo",
+      "motivo": "Mesmo teatro de São Luís, descrição e variantes idênticas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_belas_artes",
+      "motivo": "Mesmo centro cultural no centro histórico da Cidade do México."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Teatro Nacional de Praga; Munique e Brasília são outros teatros."
+    }
+  ]
+}

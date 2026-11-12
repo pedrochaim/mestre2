@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este filósofo austro-alemão fundou qual escola de pensamento?",
+        "resposta": "Fenomenologia"
+      },
+      "existentes": [
+        {
+          "id": "q19316",
+          "pergunta": "Que filósofo alemão é este?",
+          "resposta": "Edmund Husserl"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica este teatro, um dos mais antigos do país ainda em funcionamento?",
+        "resposta": "São Luís (Maranhão)"
+      },
+      "existentes": [
+        {
+          "id": "q19501",
+          "pergunta": "Em que capital fica este teatro, um dos mais antigos do país ainda em funcionamento?",
+          "resposta": "São Luís"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que edifício histórico, de mármore branco, na capital mexicana, é este?",
+        "resposta": "Palácio de Belas Artes"
+      },
+      "existentes": [
+        {
+          "id": "q09521",
+          "pergunta": "Que arquiteto italiano iniciou a construção deste edifício em 1904?",
+          "resposta": "Adamo Boari"
+        },
+        {
+          "id": "q18786",
+          "pergunta": "Em que cidade fica este teatro e centro cultural?",
+          "resposta": "Cidade do México"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente pede o nome do filósofo; nova pede a escola fundada (fenomenologia). Fatos distintos, embora a nova pergunta não revele a resposta da outra."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade/capital onde fica o teatro; resposta São Luís."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nova pede o nome do edifício; existentes pedem o arquiteto e a cidade. Fatos diferentes."
+    }
+  ]
+}
