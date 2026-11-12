@@ -1,0 +1,235 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de Martin Cooper com o aparelho; os logotipos ao fundo não revelam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em 1973, este engenheiro americano trabalhava em que empresa?",
+      "resposta": "Motorola",
+      "distratores": [
+        "Nokia",
+        "Ericsson",
+        "Bell Labs"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Martin Cooper",
+        "descricao": "Engenheiro e inventor americano, considerado o pai do telefone celular portátil, que fez a primeira chamada pública de um protótipo na Motorola em 1973.",
+        "variantes": [
+          "Martin Cooper (inventor)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto; Kekulé é reconhecível por quem conhece a foto padrão.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este químico alemão do século dezenove ficou famoso pela estrutura em anel de qual composto?",
+      "resposta": "Benzeno",
+      "destino": 1,
+      "ancora": {
+        "nome": "August Kekulé",
+        "descricao": "Químico orgânico alemão do século XIX, fundador da teoria da estrutura química e autor da estrutura do benzeno.",
+        "variantes": [
+          "Friedrich August Kekulé",
+          "Kekulé von Stradonitz"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido e sem texto de Svante Pääbo, figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este geneticista sueco ficou conhecido por sequenciar o genoma de qual hominídeo extinto?",
+      "resposta": "Neandertal",
+      "distratores": [
+        "Homo erectus",
+        "Homo floresiensis",
+        "Australopithecus"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Svante Pääbo",
+        "descricao": "Geneticista sueco, fundador da paleogenética e Nobel de Fisiologia ou Medicina de 2022, que estudou o genoma dos neandertais.",
+        "variantes": [
+          "Svante Paabo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pintura a óleo de Max Liebermann; o rosto de Felix Klein não é reconhecível por esse retrato e a imagem tem a assinatura do pintor. Não há como reconhecer o matemático pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto antiga nítida de Louis de Broglie, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que título de nobreza tinha este físico francês?",
+      "resposta": "Duque (7º duque de Broglie)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Louis de Broglie",
+        "descricao": "Físico teórico francês e 7º duque de Broglie, Nobel de Física de 1929 por propor a natureza ondulatória do elétron.",
+        "variantes": [
+          "Louis Victor de Broglie",
+          "Duque de Broglie"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pintura de época, de domínio público, conhecida, sem texto; Mary Anning aparece sozinha com martelo e cachorro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista inglesa do século dezenove é retratada neste quadro?",
+      "resposta": "Mary Anning",
+      "distratores": [
+        "Mary Somerville",
+        "Ada Lovelace",
+        "Caroline Herschel"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Mary Anning",
+        "descricao": "Coletora de fósseis e paleontóloga inglesa do século XIX, conhecida por suas descobertas jurássicas em Lyme Regis.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto pequena, mas legível, de Konrad Zuse idoso, sem texto; reconhecimento difícil, porém possível para aficionados.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que linguagem de programação este engenheiro alemão projetou?",
+      "resposta": "Plankalkül",
+      "destino": 4,
+      "ancora": {
+        "nome": "Konrad Zuse",
+        "descricao": "Engenheiro e pioneiro da computação alemão, construtor do computador Z3 e projetista da linguagem Plankalkül.",
+        "variantes": [
+          "Konrad Ernst Otto Zuse"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato a óleo de Cuvier por Vincent, nítido, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que naturalista francês é retratado neste quadro?",
+      "resposta": "Georges Cuvier",
+      "distratores": [
+        "Jean-Baptiste Lamarck",
+        "Georges-Louis Buffon",
+        "Étienne Geoffroy Saint-Hilaire"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Georges Cuvier",
+        "descricao": "Naturalista e zoólogo francês, considerado o fundador da paleontologia dos vertebrados e da anatomia comparada.",
+        "variantes": [
+          "Baron Cuvier",
+          "Jean Léopold Nicolas Frédéric Cuvier"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto antiga legível, sem texto; a ligação com o museu de Belém rende pergunta de nível 3.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este zoólogo suíço, que viveu no Brasil, dirigiu que museu em Belém?",
+      "resposta": "Museu Paraense Emílio Goeldi",
+      "destino": 6,
+      "ancora": {
+        "nome": "Emílio Goeldi",
+        "descricao": "Naturalista e zoólogo suíço-brasileiro (1859–1917), diretor do museu paraense que hoje leva o seu nome.",
+        "variantes": [
+          "Émil August Goeldi",
+          "Emil Goeldi",
+          "Emílio Augusto Goeldi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida do rosto de Kip Thorne, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que físico americano é este?",
+      "resposta": "Kip Thorne",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kip Thorne",
+        "descricao": "Astrofísico americano, Nobel de Física de 2017 por contribuições ao detector LIGO e à observação das ondas gravitacionais.",
+        "variantes": [
+          "Kip Stephen Thorne"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato antigo nítido, sem texto; Manuel de Abreu é figura pública, mas pouco conhecido, por isso múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este médico brasileiro criou um método de radiografia em massa para detectar qual doença?",
+      "resposta": "Tuberculose",
+      "distratores": [
+        "Doença de Chagas",
+        "Febre amarela",
+        "Hanseníase"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Manuel de Abreu",
+        "descricao": "Médico e cientista brasileiro (1892–1962), inventor da abreugrafia, radiografia rápida dos pulmões para rastrear a tuberculose.",
+        "variantes": [
+          "Manuel Dias de Abreu"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Geoffrey Hinton, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cientista da computação é este?",
+      "resposta": "Geoffrey Hinton",
+      "destino": 4,
+      "ancora": {
+        "nome": "Geoffrey Hinton",
+        "descricao": "Cientista da computação britânico-canadense, pioneiro das redes neurais artificiais e Nobel de Física de 2024.",
+        "variantes": [
+          "Geoffrey Everest Hinton"
+        ]
+      }
+    }
+  ]
+}

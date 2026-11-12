@@ -1,0 +1,113 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelos trechos (Cooper era da Motorola em 1973). O enunciado não entrega a resposta sem a figura e os distratores são empresas críveis, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: \"químico alemão famoso pela estrutura em anel de qual composto\" se responde sem a figura (benzeno é o feito único dele). Trocada por pergunta de lugar, sustentada pelo trecho em português.",
+      "reescrita": {
+        "pergunta": "Em que cidade alemã nasceu este químico do século dezenove?",
+        "resposta": "Darmstadt",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta não é única: Pääbo também liderou o sequenciamento do genoma do denisovano. Além disso, o enunciado se responde só com a descrição.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta ambígua: antes de 1960 ele era príncipe de Broglie e só depois virou duque. A resposta também carrega o sobrenome dele entre parênteses, o que entrega a identidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz \"quadro\", mas nada garante que a imagem seja uma pintura. Troquei por \"retrato\", que vale para qualquer imagem. O resto está correto.",
+      "reescrita": {
+        "pergunta": "Que cientista inglesa do século dezenove é retratada nesta imagem?",
+        "resposta": "Mary Anning",
+        "distratores": [
+          "Mary Somerville",
+          "Ada Lovelace",
+          "Caroline Herschel"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: \"engenheiro alemão que projetou uma linguagem de programação\" aponta para Zuse sem a figura. Troquei por pergunta de lugar, sustentada pelo trecho em português.",
+      "reescrita": {
+        "pergunta": "Em que cidade alemã nasceu este engenheiro pioneiro da computação?",
+        "resposta": "Berlim",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz \"quadro\", mas a imagem pode não ser uma pintura. Troquei por \"imagem\". O resto está correto e os distratores são naturalistas franceses críveis.",
+      "reescrita": {
+        "pergunta": "Que naturalista francês é retratado nesta imagem?",
+        "resposta": "Georges Cuvier",
+        "distratores": [
+          "Jean-Baptiste Lamarck",
+          "Georges-Louis Buffon",
+          "Étienne Geoffroy Saint-Hilaire"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: o museu leva o nome do próprio zoólogo, então o enunciado e a resposta se respondem sem a figura. Troquei por pergunta de conexão, sustentada pelos trechos.",
+      "reescrita": {
+        "pergunta": "Na Alemanha, este zoólogo suíço estudou com qual famoso biólogo?",
+        "resposta": "Ernst Haeckel",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento. O enunciado não vaza o nome e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: \"médico brasileiro que criou radiografia em massa\" se responde sem a figura. Troquei por pergunta de lugar, sustentada pelo trecho em português.",
+      "reescrita": {
+        "pergunta": "Em que cidade brasileira nasceu este médico, inventor de um método de radiografia em massa?",
+        "resposta": "São Paulo",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento. O enunciado não vaza o nome e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}
