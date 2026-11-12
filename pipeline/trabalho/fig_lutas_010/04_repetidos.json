@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ex-boxeador mexicano é este?",
+        "resposta": "Julio César Chávez"
+      },
+      "existentes": [
+        {
+          "id": "q19837",
+          "pergunta": "Em quantas categorias de peso este pugilista mexicano foi campeão mundial?",
+          "resposta": "Três"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade do boxeador; a existente pede em quantas categorias de peso foi campeão. São fatos diferentes."
+    }
+  ]
+}

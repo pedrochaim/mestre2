@@ -1,0 +1,50 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado define o uniforme (artes marciais coreanas) e entrega a resposta sem a figura. Além disso, o dobok tradicional é quase idêntico ao keikogi japonês, então a imagem pode não ser única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem pista que entregue o nome. A figura é necessária e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ex-lutador de luta livre profissional' mais 'Guardiões da Galáxia' quase identifica o ator sem a imagem, o que deixa a figura de enfeite. Sem essa pista, é preciso reconhecer o ator. Drax está confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Este ator interpretou um personagem nos filmes dos Guardiões da Galáxia. Qual?",
+        "resposta": "Drax",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. O enunciado é verdadeiro (boxeador americano) e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento. 'Ex-boxeador mexicano' ajuda sem entregar e é confirmado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Peso-pesado americano' é verdadeiro e não identifica sozinho. A figura é necessária e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Ilustração esquemática de um soco reto; não dá para saber qual braço golpeia, então jab, direto e cruzado se confundem, e ilustração não se justifica para algo fotografável."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de um uniforme branco de gola em V, típico do taekwondo. O texto parcial no avesso da gola não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Como se chama este uniforme usado em artes marciais coreanas?",
+      "resposta": "Dobok",
+      "distratores": [
+        "Hanbok",
+        "Hakama",
+        "Mawashi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dobok",
+        "descricao": "Uniforme usado por praticantes de artes marciais coreanas, como o taekwondo.",
+        "variantes": [
+          "Dobak"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara de lutador de sumô em pé no dohyō, sem texto que entregue o nome. Reconhecível para aficionados.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que lutador de sumô é este?",
+      "resposta": "Asashōryū",
+      "destino": 0,
+      "ancora": {
+        "nome": "Asashōryū",
+        "descricao": "Ex-lutador de sumô mongol, 68º yokozuna da história.",
+        "variantes": [
+          "Asashoryu Akinori",
+          "Dolgorsürengiin Dagvadorj"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública (Dave Bautista) sorrindo. O texto do fundo (Comic-Con) não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que personagem dos Guardiões da Galáxia este ator, ex-lutador de luta livre profissional, interpreta?",
+      "resposta": "Drax",
+      "destino": 0,
+      "ancora": {
+        "nome": "Dave Bautista",
+        "descricao": "Ator americano e ex-lutador profissional da WWE, conhecido como Batista.",
+        "variantes": [
+          "Batista",
+          "David Michael Bautista Jr."
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco, de domínio público, de Joe Louis em pose de guarda, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que boxeador americano é este?",
+      "resposta": "Joe Louis",
+      "destino": 0,
+      "ancora": {
+        "nome": "Joe Louis",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados de 1937 a 1949.",
+        "variantes": [
+          "Joseph Louis Barrow",
+          "Brown Bomber"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Close nítido de Julio César Chávez numa entrevista. O texto do fundo é parcial e o microfone não traz nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ex-boxeador mexicano é este?",
+      "resposta": "Julio César Chávez",
+      "destino": 0,
+      "ancora": {
+        "nome": "Julio César Chávez",
+        "descricao": "Ex-boxeador mexicano, campeão mundial em três categorias de peso.",
+        "variantes": [
+          "Julio Cesar Chavez",
+          "Chávez Sr."
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A foto mostra dois lutadores com faixas nas mãos num ringue, mas nada permite distinguir lethwei de muay thai ou kickboxing; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano (uma menina e um militar numa apresentação escolar), com texto em cirílico ao fundo."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Close nítido de Deontay Wilder numa coletiva; o texto de fundo é parcial e não traz o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que boxeador peso-pesado americano é este?",
+      "resposta": "Deontay Wilder",
+      "destino": 0,
+      "ancora": {
+        "nome": "Deontay Wilder",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados pelo WBC entre 2015 e 2020.",
+        "variantes": [
+          "Bronze Bomber"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O calção e a camiseta trazem fragmentos de texto com o nome do lutador, e o lutador é pouco reconhecível pelo rosto."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A plaquinha na parte inferior da foto mostra parte do nome ('Steve Au...'), o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto distante de uma luta numa arena olímpica; os lutadores são minúsculos e irreconhecíveis, e o texto 'London 2012' e a indicação 'Brasil' aparecem. Não mostra o lutador com clareza."
+    }
+  ]
+}
