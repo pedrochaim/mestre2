@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que brincadeira infantil é esta?",
+        "resposta": "Cama de gato"
+      },
+      "existentes": [
+        {
+          "id": "q15243",
+          "pergunta": "Que brincadeira é esta?",
+          "resposta": "Cama de gato"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que brincadeira ou esporte coletivo é este?",
+        "resposta": "Cabo de guerra"
+      },
+      "existentes": [
+        {
+          "id": "q17937",
+          "pergunta": "Este esporte de equipe já foi disputado nos Jogos Olímpicos. Em que edição ele apareceu pela última vez?",
+          "resposta": "Antuérpia 1920"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q15243",
+      "motivo": "Mesma pergunta de identificação da brincadeira (imagem) com a mesma resposta, Cama de gato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da brincadeira (cabo de guerra); a existente pergunta a última edição olímpica em que apareceu. Fatos diferentes."
+    }
+  ]
+}

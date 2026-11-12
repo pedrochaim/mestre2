@@ -1,0 +1,127 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Árvore do deserto sem relação com o folclore brasileiro; a espécie também não é reconhecível com segurança pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome DOMINGUINHOS está escrito no acordeão, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A gravura traz a legenda manuscrita NANÃ e a assinatura do artista, entregando a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Chapéus de couro bem visíveis, sem texto; vaqueiros em evento público.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que trabalhador do sertão nordestino usa tradicionalmente este chapéu?",
+      "resposta": "Vaqueiro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chapéu de couro",
+        "descricao": "Chapéu de couro tradicional dos vaqueiros do Nordeste brasileiro, protege da caatinga, do sol e da chuva.",
+        "variantes": [
+          "Chapéu de vaqueiro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Tigela de cerâmica genérica, não reconhecível como gamela; resposta não única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Retrato antigo em sépia que não permite reconhecer o folclorista; imagem insuficiente para identificação."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto de divulgação sem texto, de figura pública, com o pandeiro; reconhecível para quem conhece o forró e o coco.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este músico do pandeiro, grande nome do forró e do coco, nasceu em que estado?",
+      "resposta": "Paraíba",
+      "distratores": [
+        "Pernambuco",
+        "Ceará",
+        "Bahia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jackson do Pandeiro",
+        "descricao": "Percussionista e cantor brasileiro (1919–1982), nascido na Paraíba, nome central da música nordestina.",
+        "variantes": [
+          "José Gomes Filho"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, num parque, com outras pessoas ao fundo; não é figura pública nem brincante de festa."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A faixa na fachada traz o texto Memorial Patativa do Assaré, o que entrega a resposta; edifício também pouco reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem mostra a banda de rock Papangu, e não o personagem do carnaval de Bezerros; banda no escuro, não reconhecível e fora do escopo do folclore."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mãos segurando um barbante em figura clássica de cama de gato; sem texto e legível. Só aparecem as mãos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que brincadeira de barbante e dedos é esta?",
+      "resposta": "Cama de gato",
+      "distratores": [
+        "Cabo de guerra",
+        "Pula-corda",
+        "Pega-varetas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cama de gato",
+        "descricao": "Brincadeira em que se formam figuras com um laço de barbante entre os dedos, sozinho ou passando entre jogadores.",
+        "variantes": [
+          "Cat's cradle"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Equipes puxando uma corda em competição pública, sem texto; imagem clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que disputa de força entre duas equipes é esta?",
+      "resposta": "Cabo de guerra",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cabo de guerra",
+        "descricao": "Disputa em que duas equipes puxam as pontas opostas de uma corda, tentando levar a marca central para o seu lado.",
+        "variantes": [
+          "Tug of war",
+          "Cabo-de-guerra"
+        ]
+      }
+    }
+  ]
+}

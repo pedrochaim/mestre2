@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'trabalhador do sertão nordestino' com chapéu leva a vaqueiro sem ver a figura. Passa a pedir o reconhecimento da peça.",
+      "reescrita": {
+        "pergunta": "Que peça do traje tradicional do Nordeste brasileiro é esta?",
+        "resposta": "Chapéu de couro"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'músico do pandeiro, grande nome do forró e do coco' entrega o nome. O fato (nascido na Paraíba) é sustentado pelos trechos. Pista trocada por época e nacionalidade.",
+      "reescrita": {
+        "pergunta": "Este cantor e percussionista brasileiro, nascido em 1919, veio ao mundo em que estado?",
+        "resposta": "Paraíba",
+        "distratores": [
+          "Pernambuco",
+          "Ceará",
+          "Bahia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'brincadeira de barbante e dedos' descreve a resposta. Enunciado genérico e distratores ajustados.",
+      "reescrita": {
+        "pergunta": "Que brincadeira infantil é esta?",
+        "resposta": "Cama de gato",
+        "distratores": [
+          "Pula-corda",
+          "Pega-varetas",
+          "Elástico"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'disputa de força entre duas equipes' praticamente define o cabo de guerra. Enunciado genérico.",
+      "reescrita": {
+        "pergunta": "Que brincadeira ou esporte coletivo é este?",
+        "resposta": "Cabo de guerra"
+      }
+    }
+  ]
+}
