@@ -1,0 +1,595 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "OSIRIS-REx",
+        "descricao": "Sonda da NASA que coletou amostras do asteroide Bennu e as trouxe à Terra em 2023.",
+        "variantes": [
+          "OSIRIS-APEX"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "osiris",
+          "nome": "Osíris",
+          "descricao": "Deus egípcio dos mortos e do além, marido de Ísis e pai de Hórus",
+          "variantes": [
+            "Usir"
+          ]
+        },
+        {
+          "id": "edipo_rei",
+          "nome": "Édipo Rei",
+          "descricao": "Tragédia de Sófocles sobre o rei de Tebas que descobre ter matado o pai e se casado com a mãe.",
+          "variantes": [
+            "Oedipus Rex",
+            "Édipo Tirano",
+            "Oedipus Tyrannus"
+          ]
+        },
+        {
+          "id": "axew_de_iris",
+          "nome": "Axew de Iris",
+          "descricao": "Axew parceiro de Iris na série Preto e Branco do anime Pokémon.",
+          "variantes": [
+            "Iris's Axew"
+          ]
+        },
+        {
+          "id": "simisage",
+          "nome": "Simisage",
+          "descricao": "Pokémon do tipo Planta, número 512 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Galáxia de Bode",
+        "descricao": "Galáxia espiral Messier 81, na constelação da Ursa Maior, a cerca de 12 milhões de anos-luz.",
+        "variantes": [
+          "Messier 81",
+          "M81",
+          "NGC 3031"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "galaxia_do_rodamoinho",
+          "nome": "Galáxia do Rodamoinho",
+          "descricao": "Galáxia espiral Messier 51, em Cães de Caça, que interage com a companheira NGC 5195.",
+          "variantes": [
+            "Galáxia do Redemoinho",
+            "Messier 51",
+            "M51",
+            "NGC 5194",
+            "Whirlpool Galaxy"
+          ]
+        },
+        {
+          "id": "m87",
+          "nome": "M87*",
+          "descricao": "Buraco negro supermassivo no centro da galáxia Messier 87, fotografado pelo Event Horizon Telescope e divulgado em 2019.",
+          "variantes": [
+            "Buraco negro",
+            "Messier 87*",
+            "Buraco negro de M87",
+            "Primeira imagem de um buraco negro"
+          ]
+        },
+        {
+          "id": "galaxia_do_charuto",
+          "nome": "Galáxia do Charuto",
+          "descricao": "Galáxia starburst na Ursa Maior, também chamada Messier 82, membro do Grupo M81.",
+          "variantes": [
+            "Messier 82",
+            "M82",
+            "NGC 3034",
+            "Cigar Galaxy"
+          ]
+        },
+        {
+          "id": "nebulosa_da_aguia",
+          "nome": "Nebulosa da Águia",
+          "descricao": "Nebulosa de formação de estrelas na constelação da Serpente, onde ficam os Pilares da Criação (Messier 16).",
+          "variantes": [
+            "Messier 16",
+            "M16",
+            "NGC 6611",
+            "Pilares da Criação"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Nebulosa Crescente",
+        "descricao": "Nebulosa de emissão NGC 6888 na constelação do Cisne, formada pelo vento da estrela Wolf-Rayet WR 136.",
+        "variantes": [
+          "NGC 6888",
+          "Caldwell 27",
+          "Sharpless 105"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "centaurus_a",
+          "nome": "Centaurus A",
+          "descricao": "Galáxia ativa na constelação de Centaurus, com faixa escura de poeira e jatos, a rádio-galáxia mais próxima da Terra.",
+          "variantes": [
+            "NGC 5128",
+            "Caldwell 77"
+          ]
+        },
+        {
+          "id": "nebulosa_do_anel_do_sul",
+          "nome": "Nebulosa do Anel do Sul",
+          "descricao": "Nebulosa planetária NGC 3132, na constelação de Vela, fotografada pelo telescópio James Webb.",
+          "variantes": [
+            "NGC 3132",
+            "Nebulosa das Oito Explosões",
+            "Caldwell 74"
+          ]
+        },
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        },
+        {
+          "id": "nebulosa_do_coracao",
+          "nome": "Nebulosa do Coração",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, a cerca de 7.500 anos-luz da Terra.",
+          "variantes": [
+            "Heart Nebula",
+            "IC 1805",
+            "Sharpless 2-190"
+          ]
+        },
+        {
+          "id": "nebulosa_da_bolha",
+          "nome": "Nebulosa da Bolha",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, também chamada NGC 7635, em forma de bolha criada pelo vento de uma estrela massiva.",
+          "variantes": [
+            "NGC 7635",
+            "Sharpless 162",
+            "Caldwell 11",
+            "Bubble Nebula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Eclipse solar de 21 de agosto de 2017",
+        "descricao": "Eclipse solar total visível nos Estados Unidos em 21 de agosto de 2017, o chamado Grande Eclipse Americano.",
+        "variantes": [
+          "Grande Eclipse Americano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eclipse_solar_de_29_de_maio_de_1919",
+          "nome": "Eclipse solar de 29 de maio de 1919",
+          "descricao": "Eclipse total do Sol observado em Sobral e na ilha do Príncipe, que ajudou a confirmar a relatividade geral.",
+          "variantes": [
+            "Experimento de Eddington",
+            "Eclipse de Sobral"
+          ]
+        },
+        {
+          "id": "rand",
+          "nome": "Rand",
+          "descricao": "Moeda oficial da África do Sul.",
+          "variantes": [
+            "Rand sul-africano"
+          ]
+        },
+        {
+          "id": "rio_grande",
+          "nome": "Rio Grande",
+          "descricao": "Rio da América do Norte que forma a fronteira entre o Texas, nos Estados Unidos, e o México.",
+          "variantes": [
+            "Río Bravo",
+            "Río Bravo del Norte",
+            "Rio Grande do Norte americano"
+          ]
+        },
+        {
+          "id": "grande_colisor_de_hadrons",
+          "nome": "Grande Colisor de Hádrons",
+          "descricao": "Acelerador de partículas do CERN, instalado num túnel circular subterrâneo perto de Genebra.",
+          "variantes": [
+            "LHC",
+            "Large Hadron Collider"
+          ]
+        },
+        {
+          "id": "recife_da_amazonia",
+          "nome": "Recife da Amazônia",
+          "descricao": "Extenso sistema de recifes de corais, esponjas e algas calcárias sob as águas barrentas da foz do rio Amazonas, anunciado em 2016.",
+          "variantes": [
+            "Grande Recife da Amazônia",
+            "Amazon Reef"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sonda Galileo",
+        "descricao": "Sonda robótica da NASA que orbitou Júpiter de 1995 a 2003 e lançou uma sonda atmosférica.",
+        "variantes": [
+          "Galileo",
+          "Galileo (sonda espacial)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galileu_galilei",
+          "nome": "Galileu Galilei",
+          "descricao": "Astrônomo, físico e engenheiro italiano (1564–1642), pai da astronomia observacional.",
+          "variantes": [
+            "Galileo Galilei",
+            "Galileu"
+          ]
+        },
+        {
+          "id": "galio",
+          "nome": "Gálio",
+          "descricao": "Elemento químico metálico de número atômico 31, prateado, que funde a cerca de trinta graus Celsius.",
+          "variantes": [
+            "Gallium"
+          ]
+        },
+        {
+          "id": "sonda_juno",
+          "nome": "Sonda Juno",
+          "descricao": "Sonda espacial da NASA lançada em 2011 que orbita Júpiter desde 2016, com três grandes painéis solares.",
+          "variantes": [
+            "Juno",
+            "Juno (sonda espacial)"
+          ]
+        },
+        {
+          "id": "aeroporto_internacional_do_galeao",
+          "nome": "Aeroporto Internacional do Galeão",
+          "descricao": "Principal aeroporto internacional do Rio de Janeiro, na Ilha do Governador.",
+          "variantes": [
+            "Aeroporto Internacional do Rio de Janeiro",
+            "Galeão",
+            "Aeroporto do Galeão",
+            "Aeroporto Internacional Tom Jobim"
+          ]
+        },
+        {
+          "id": "galeno",
+          "nome": "Galeno",
+          "descricao": "Médico grego do Império Romano (século segundo), cujas ideias dominaram a medicina por mais de mil anos.",
+          "variantes": [
+            "Cláudio Galeno",
+            "Galen",
+            "Galeno de Pérgamo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cratera Copérnico",
+        "descricao": "Grande cratera de impacto lunar no leste do Oceano das Tempestades, com sistema de raios proeminente.",
+        "variantes": [
+          "Copernicus",
+          "Cratera Copernicus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nicolau_copernico",
+          "nome": "Nicolau Copérnico",
+          "descricao": "Astrônomo polonês do Renascimento que propôs o modelo heliocêntrico.",
+          "variantes": [
+            "Nicolaus Copernicus",
+            "Mikołaj Kopernik"
+          ]
+        },
+        {
+          "id": "vaso_francois",
+          "nome": "Vaso François",
+          "descricao": "Grande cratera ática de figuras negras, de cerca de 570 a.C., achada em Chiusi e guardada no Museu Arqueológico de Florença.",
+          "variantes": [
+            "François Vase",
+            "Cratera François",
+            "François Krater"
+          ]
+        },
+        {
+          "id": "cratera_de_impacto",
+          "nome": "Cratera de impacto",
+          "descricao": "Depressão na superfície de um corpo sólido formada pelo choque em alta velocidade de um objeto menor; a imagem mostra a Meteor Crater, no Arizona.",
+          "variantes": [
+            "Meteor Crater",
+            "Cratera Barringer",
+            "Cratera do Meteoro"
+          ]
+        },
+        {
+          "id": "cratera_do_meteoro",
+          "nome": "Cratera do Meteoro",
+          "descricao": "Cratera de impacto de cerca de 1,2 km de diâmetro no deserto do norte do Arizona, Estados Unidos.",
+          "variantes": [
+            "Meteor Crater",
+            "Cratera Barringer",
+            "Barringer Crater"
+          ]
+        },
+        {
+          "id": "pericles",
+          "nome": "Péricles",
+          "descricao": "Estadista e general ateniense do século cinco a.C., líder de Atenas no auge da democracia.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Campo Ultraprofundo do Hubble",
+        "descricao": "Imagem de uma pequena região da constelação de Fornax, com cerca de 10 mil galáxias, feita pelo Hubble entre 2003 e 2004.",
+        "variantes": [
+          "Hubble Ultra-Deep Field",
+          "HUDF"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hubble_deep_field",
+          "nome": "Hubble Deep Field",
+          "descricao": "Imagem de uma pequena região da constelação da Ursa Maior, feita pelo Hubble em 1995, mostrando cerca de três mil galáxias.",
+          "variantes": [
+            "Campo Profundo do Hubble",
+            "HDF"
+          ]
+        },
+        {
+          "id": "distrito_federal",
+          "nome": "Distrito Federal",
+          "descricao": "Menor unidade federativa do Brasil, sem municípios, onde fica Brasília.",
+          "variantes": [
+            "DF",
+            "Federal District"
+          ]
+        },
+        {
+          "id": "disco_rigido",
+          "nome": "Disco rígido",
+          "descricao": "Dispositivo eletromecânico de armazenamento de dados em pratos magnéticos giratórios.",
+          "variantes": [
+            "HD",
+            "Hard disk"
+          ]
+        },
+        {
+          "id": "primeiro_campo_profundo_do_webb",
+          "nome": "Primeiro Campo Profundo do Webb",
+          "descricao": "Primeira imagem operacional do Telescópio Espacial James Webb, centrada no aglomerado de galáxias SMACS 0723, divulgada em 2022.",
+          "variantes": [
+            "Webb's First Deep Field",
+            "SMACS 0723"
+          ]
+        },
+        {
+          "id": "queops",
+          "nome": "Quéops",
+          "descricao": "Faraó da quarta dinastia do Egito, ligado à Grande Pirâmide de Gizé.",
+          "variantes": [
+            "Khufu",
+            "Cheops"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Sexteto de Seyfert",
+        "descricao": "Grupo compacto de galáxias na constelação da Serpente, a cerca de 190 milhões de anos-luz.",
+        "variantes": [
+          "Seyfert's Sextet",
+          "HCG 79"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quinteto_de_stephan",
+          "nome": "Quinteto de Stephan",
+          "descricao": "Grupo visual de cinco galáxias na constelação de Pégaso, descoberto em 1877 por Édouard Stephan.",
+          "variantes": [
+            "Stephan's Quintet",
+            "Hickson Compact Group 92",
+            "HCG 92"
+          ]
+        },
+        {
+          "id": "busto_de_nefertiti",
+          "nome": "Busto de Nefertiti",
+          "descricao": "Busto pintado de calcário e estuque que retrata a rainha Nefertiti, no Neues Museum de Berlim.",
+          "variantes": [
+            "Nefertiti Bust"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "exercito_de_terracota",
+          "nome": "Exército de Terracota",
+          "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian.",
+          "variantes": [
+            "Guerreiros de Terracota",
+            "Terracotta Army",
+            "Guerreiros de Xian"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Nebulosa do Bumerangue",
+        "descricao": "Nebulosa planetária jovem bipolar de reflexão, na constelação de Centauro, a cerca de 5 mil anos-luz.",
+        "variantes": [
+          "Boomerang Nebula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_haltere",
+          "nome": "Nebulosa Haltere",
+          "descricao": "Nebulosa planetária na constelação da Raposa, também conhecida como Messier 27.",
+          "variantes": [
+            "Nebulosa do Haltere",
+            "Dumbbell Nebula",
+            "Messier 27",
+            "M27",
+            "NGC 6853"
+          ]
+        },
+        {
+          "id": "bumerangue",
+          "nome": "Bumerangue",
+          "descricao": "Ferramenta de arremesso de origem aborígine australiana, em geral curva, que pode girar e voltar ao lançador.",
+          "variantes": [
+            "Boomerang"
+          ]
+        },
+        {
+          "id": "nebulosa_da_aguia",
+          "nome": "Nebulosa da Águia",
+          "descricao": "Nebulosa de formação de estrelas na constelação da Serpente, onde ficam os Pilares da Criação (Messier 16).",
+          "variantes": [
+            "Messier 16",
+            "M16",
+            "NGC 6611",
+            "Pilares da Criação"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sonda NASA distinta de todas as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "M81 não está entre as candidatas; M82 e M51 são outras galáxias."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "NGC 6888 não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Eclipse de 2017 difere do de 1919."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sonda Galileo é distinta de Juno, Galileu Galilei etc."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cratera lunar Copérnico é diferente das demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ultra-Deep Field é imagem distinta do Deep Field de 1995."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Sexteto de Seyfert é diferente do Quinteto de Stephan."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nebulosa do Bumerangue não está entre as candidatas."
+    }
+  ]
+}

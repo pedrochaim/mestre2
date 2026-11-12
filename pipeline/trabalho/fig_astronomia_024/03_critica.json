@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado; resposta única e confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galáxia de Bode (M81) é espiral e está confirmada nos trechos. Os distratores são galáxias espirais críveis e nenhum deles é M81.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a NGC 6888 fica na constelação do Cisne. O enunciado não vaza a resposta e os distratores são constelações críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que foi um eclipse solar total. O enunciado não entrega a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Ilustrada perto de Júpiter' é uma pista que restringe a resposta sem olhar a figura (Galileo, Juno etc.). Além disso, a descrição de 'mostra' não garante que a imagem mostre Júpiter. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que sonda espacial da NASA é esta?",
+        "resposta": "Galileo",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a cratera Copernicus recebeu o nome de Nicolau Copérnico. O enunciado não nomeia a cratera. Os distratores são astrônomos críveis e nenhum deles é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Quase qualquer imagem de galáxias distantes sugere 'Hubble' sem olhar a figura, e o James Webb também fez campos profundos. Troquei por uma pergunta de lugar que exige reconhecer o campo (constelação de Fornax, confirmada nos trechos).",
+      "reescrita": {
+        "pergunta": "Esta imagem mostra uma pequena região do céu com cerca de dez mil galáxias. Em que constelação ela fica?",
+        "resposta": "Fornax",
+        "distratores": [
+          "Órion",
+          "Sagitário",
+          "Cassiopeia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o grupo fica na constelação da Serpente (Serpens). O enunciado não vaza a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a nebulosa foi batizada por sua forma, semelhante à de um bumerangue. O enunciado não nomeia o objeto e a figura é necessária.",
+      "reescrita": null
+    }
+  ]
+}

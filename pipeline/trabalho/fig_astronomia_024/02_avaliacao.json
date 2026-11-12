@@ -1,0 +1,204 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Retrato em pastel de um cientista do século XVII, sem contexto: o rosto não é reconhecível pela imagem para um respondente comum."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilustração clara e sem texto da sonda, reconhecível pelos painéis, antena e braço de coleta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sonda espacial da NASA é esta?",
+      "resposta": "OSIRIS-REx",
+      "destino": 0,
+      "ancora": {
+        "nome": "OSIRIS-REx",
+        "descricao": "Sonda da NASA que coletou amostras do asteroide Bennu e as trouxe à Terra em 2023.",
+        "variantes": [
+          "OSIRIS-APEX"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem infravermelha nítida de galáxia espiral, sem texto; distratores são outras espirais famosas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que galáxia espiral é esta?",
+      "resposta": "Galáxia de Bode",
+      "distratores": [
+        "Galáxia do Redemoinho",
+        "Galáxia do Cata-vento",
+        "Galáxia de Andrômeda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Galáxia de Bode",
+        "descricao": "Galáxia espiral Messier 81, na constelação da Ursa Maior, a cerca de 12 milhões de anos-luz.",
+        "variantes": [
+          "Messier 81",
+          "M81",
+          "NGC 3031"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem nítida da nebulosa em forma de crescente, sem texto; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que constelação fica esta nebulosa?",
+      "resposta": "Cisne",
+      "distratores": [
+        "Órion",
+        "Escorpião",
+        "Sagitário"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa Crescente",
+        "descricao": "Nebulosa de emissão NGC 6888 na constelação do Cisne, formada pelo vento da estrela Wolf-Rayet WR 136.",
+        "variantes": [
+          "NGC 6888",
+          "Caldwell 27",
+          "Sharpless 105"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de eclipse total com coroa, sem texto; a pergunta pede o tipo do fenômeno, sem depender de qual eclipse específico.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de eclipse é este?",
+      "resposta": "Eclipse solar total",
+      "destino": 0,
+      "ancora": {
+        "nome": "Eclipse solar de 21 de agosto de 2017",
+        "descricao": "Eclipse solar total visível nos Estados Unidos em 21 de agosto de 2017, o chamado Grande Eclipse Americano.",
+        "variantes": [
+          "Grande Eclipse Americano"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Recorte de remanescente de supernova com filamentos que se confunde com outros (Véu, Vela); a resposta não é única nem reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ilustração oficial da sonda diante de Júpiter, sem texto; configuração característica de antena e braços.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sonda espacial da NASA, ilustrada aqui perto de Júpiter, é esta?",
+      "resposta": "Galileo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sonda Galileo",
+        "descricao": "Sonda robótica da NASA que orbitou Júpiter de 1995 a 2003 e lançou uma sonda atmosférica.",
+        "variantes": [
+          "Galileo",
+          "Galileo (sonda espacial)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem orbital nítida da cratera com picos centrais e terraços, sem texto; pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta cratera lunar recebeu o nome de qual astrônomo?",
+      "resposta": "Nicolau Copérnico",
+      "distratores": [
+        "Johannes Kepler",
+        "Tycho Brahe",
+        "Galileu Galilei"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cratera Copérnico",
+        "descricao": "Grande cratera de impacto lunar no leste do Oceano das Tempestades, com sistema de raios proeminente.",
+        "variantes": [
+          "Copernicus",
+          "Cratera Copernicus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem icônica de campo profundo, sem texto; pergunta de nível 3 sobre o instrumento que a produziu.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que telescópio espacial captou esta imagem de milhares de galáxias distantes?",
+      "resposta": "Telescópio Espacial Hubble",
+      "destino": 0,
+      "ancora": {
+        "nome": "Campo Ultraprofundo do Hubble",
+        "descricao": "Imagem de uma pequena região da constelação de Fornax, com cerca de 10 mil galáxias, feita pelo Hubble entre 2003 e 2004.",
+        "variantes": [
+          "Hubble Ultra-Deep Field",
+          "HUDF"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem do Hubble com disposição característica do grupo compacto, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que constelação fica este grupo compacto de galáxias?",
+      "resposta": "Serpente",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sexteto de Seyfert",
+        "descricao": "Grupo compacto de galáxias na constelação da Serpente, a cerca de 190 milhões de anos-luz.",
+        "variantes": [
+          "Seyfert's Sextet",
+          "HCG 79"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Dois pontos de luz com espículas de difração: não é reconhecível como Alfa Centauri e poderia ser qualquer estrela dupla."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem azul em forma de gravata-borboleta, sem texto, característica da nebulosa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que objeto esta nebulosa recebeu o nome, por causa do seu formato?",
+      "resposta": "Bumerangue",
+      "destino": 0,
+      "ancora": {
+        "nome": "Nebulosa do Bumerangue",
+        "descricao": "Nebulosa planetária jovem bipolar de reflexão, na constelação de Centauro, a cerca de 5 mil anos-luz.",
+        "variantes": [
+          "Boomerang Nebula"
+        ]
+      }
+    }
+  ]
+}
