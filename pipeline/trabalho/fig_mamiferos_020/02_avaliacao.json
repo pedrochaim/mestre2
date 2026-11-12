@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Gravura antiga com a legenda 'Felis nigra' visível, que entrega a resposta; além disso é ilustração de animal fotografável e a espécie não é única (leopardo ou onça melânicos)."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Ilustração de baixa resolução, de animal que pode ser fotografado; pouco legível no celular e facilmente confundida com mufla ou outros carneiros selvagens."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida, com as vibrissas características da foca-barbuda sobre o gelo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que foca é esta?",
+      "resposta": "Foca-barbuda",
+      "distratores": [
+        "Foca-anelada",
+        "Foca-comum",
+        "Foca-cinzenta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Foca-barbuda",
+        "descricao": "Foca do Ártico (Erignathus barbatus), de bigodes longos e abundantes e nadadeiras dianteiras quadradas.",
+        "variantes": [
+          "Erignathus barbatus",
+          "Foca-de-barba"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de lobo de pelagem clara na tundra; reconhecível como lobo-ártico.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que subespécie de lobo, de pelagem clara e adaptada ao frio extremo, é esta?",
+      "resposta": "Lobo-ártico",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lobo-ártico",
+        "descricao": "Subespécie de lobo-cinzento (Canis lupus arctos) das ilhas do Alto Ártico canadense, de pelagem branca.",
+        "variantes": [
+          "Lobo-do-ártico",
+          "Lobo-branco",
+          "Lobo-polar",
+          "Canis lupus arctos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto clara, com os olhos grandes e a face típicos do macaco-da-noite.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que macaco sul-americano é este?",
+      "resposta": "Macaco-da-noite",
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-da-noite",
+        "descricao": "Primata noturno do gênero Aotus, de olhos grandes, encontrado do Panamá à América do Sul.",
+        "variantes": [
+          "Macaco-coruja",
+          "Aotus",
+          "Douroucouli"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de coelho extremamente peludo, típico do angorá; o texto ao fundo (Tyvek) não revela a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que raça de coelho é esta?",
+      "resposta": "Coelho-angorá",
+      "distratores": [
+        "Coelho-leão",
+        "Coelho-rex",
+        "Coelho-anão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coelho-angorá",
+        "descricao": "Raça antiga de coelho doméstico criada pela longa lã do pelo, chamada lã de angorá.",
+        "variantes": [
+          "Angorá",
+          "Coelho angora"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, com animais pálidos entre rochas; não é possível distinguir com segurança de outros leões-marinhos ou lobos-marinhos."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de macaco-vervet de face preta e pelo cinza sobre árvore; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que macaco africano é este?",
+      "resposta": "Macaco-vervet",
+      "distratores": [
+        "Babuíno-amarelo",
+        "Macaco-patas",
+        "Cercopiteco-diana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-vervet",
+        "descricao": "Macaco do Velho Mundo (Chlorocebus pygerythrus) de rosto preto e pelagem cinza, nativo do sul e leste da África.",
+        "variantes": [
+          "Vervet",
+          "Chlorocebus pygerythrus",
+          "Macaco-verde"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de rosto de leão-branco; pergunta vai além do nome sem entregá-lo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta rara variação de cor de um grande felino africano é associada a que região da África do Sul?",
+      "resposta": "Timbavati",
+      "destino": 0,
+      "ancora": {
+        "nome": "Leão-branco",
+        "descricao": "Variação rara de cor do leão (Panthera leo), de pelagem esbranquiçada, ligada à região de Timbavati, na África do Sul.",
+        "variantes": [
+          "Leão branco",
+          "Leão-branco-de-timbavati"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de lince-pardo, com a cauda curta de ponta negra e pelagem malhada.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vive este felino selvagem?",
+      "resposta": "América do Norte",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lince-pardo",
+        "descricao": "Felino de médio porte (Lynx rufus), de cauda curta, nativo da América do Norte.",
+        "variantes": [
+          "Bobcat",
+          "Lynx rufus",
+          "Gato-selvagem-norte-americano"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de macho de cobo-de-meia-lua com os chifres longos característicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antílope africano é este?",
+      "resposta": "Cobo-de-meia-lua",
+      "distratores": [
+        "Redunca",
+        "Orige",
+        "Cudo-maior"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cobo-de-meia-lua",
+        "descricao": "Grande antílope africano (Kobus ellipsiprymnus) de pelagem marrom-acinzentada e chifres longos nos machos.",
+        "variantes": [
+          "Waterbuck",
+          "Cobo-d'água",
+          "Kobus ellipsiprymnus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma fêmea de cachalote com o filhote, com a cabeça quadrada típica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que baleia é esta?",
+      "resposta": "Cachalote",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cachalote",
+        "descricao": "Maior dos cetáceos com dentes (Physeter macrocephalus), de cabeça grande e quadrada.",
+        "variantes": [
+          "Physeter macrocephalus",
+          "Baleia-esperma"
+        ]
+      }
+    }
+  ]
+}

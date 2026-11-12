@@ -1,0 +1,41 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que baleia é esta?",
+        "resposta": "Cachalote"
+      },
+      "existentes": [
+        {
+          "id": "q02049",
+          "pergunta": "Que baleia é esta?",
+          "resposta": "Cachalote"
+        },
+        {
+          "id": "q02527",
+          "pergunta": "Em 1820, um cachalote afundou o navio baleeiro Essex no Oceano Pacífico. Que romance americano foi inspirado nesse naufrágio?",
+          "resposta": "Moby Dick"
+        },
+        {
+          "id": "q05670",
+          "pergunta": "Em inglês, o cachalote se chama sperm whale porque os baleeiros confundiam com esperma uma substância cerosa encontrada em que parte do corpo dele?",
+          "resposta": "Na cabeça"
+        },
+        {
+          "id": "q17792",
+          "pergunta": "Pesando cerca de oito quilos, o maior cérebro de todo o reino animal pertence a qual mamífero marinho?",
+          "resposta": "Cachalote"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02049",
+      "motivo": "Pergunta idêntica (\"Que baleia é esta?\") com a mesma resposta, Cachalote."
+    }
+  ]
+}
