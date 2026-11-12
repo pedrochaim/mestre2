@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que estado está destacado neste mapa?",
+        "resposta": "Havaí"
+      },
+      "existentes": [
+        {
+          "id": "q02204",
+          "pergunta": "As ilhas do Havaí se formaram, uma após a outra, enquanto a placa do Pacífico se deslocava sobre o quê?",
+          "resposta": "Um ponto quente"
+        },
+        {
+          "id": "q05843",
+          "pergunta": "Que navegador inglês fez, em 1778, o primeiro contato europeu registrado com as ilhas do Havaí, onde acabou morto no ano seguinte?",
+          "resposta": "James Cook"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "São Cristóvão e Névis"
+      },
+      "existentes": [
+        {
+          "id": "q20220",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "São Cristóvão e Névis"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que ilha está destacada neste mapa?",
+        "resposta": "Sicília"
+      },
+      "existentes": [
+        {
+          "id": "q05861",
+          "pergunta": "Entre todas as ilhas do mar Mediterrâneo, como Sardenha, Chipre e Córsega, qual é a maior?",
+          "resposta": "Sicília"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que estreito separa do continente o estado destacado neste mapa?",
+        "resposta": "Estreito de Bass"
+      },
+      "existentes": [
+        {
+          "id": "q17352",
+          "pergunta": "Que estreito separa esta ilha do continente australiano?",
+          "resposta": "Estreito de Bass"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Tajiquistão"
+      },
+      "existentes": [
+        {
+          "id": "q14574",
+          "pergunta": "De que país da Ásia Central é esta bandeira?",
+          "resposta": "Tajiquistão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o estado em mapa é fato diferente de ponto quente ou de Cook."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar país por mapa não é o mesmo que identificar por bandeira; saber um não implica o outro."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar a ilha no mapa difere de saber qual é a maior do Mediterrâneo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a Tasmânia (estado); a existente é a mesma resposta, mas a identificação depende de imagem. Porém ambas perguntam o estreito que separa a Tasmânia do continente, o mesmo fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Mapa versus bandeira: reconhecimentos visuais distintos."
+    }
+  ]
+}

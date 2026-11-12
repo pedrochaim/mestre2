@@ -1,0 +1,266 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro, ponto vermelho isolado no Pacífico, reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Que estado está destacado neste mapa?",
+      "tipo": "multipla",
+      "resposta": "Havaí",
+      "distratores": [
+        "Alasca",
+        "Flórida",
+        "Califórnia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Havaí",
+        "descricao": "Estado dos Estados Unidos, arquipélago vulcânico no Oceano Pacífico.",
+        "variantes": [
+          "Hawaii",
+          "Hawai"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "País em vermelho, claro e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Que país está destacado neste mapa?",
+      "tipo": "multipla",
+      "resposta": "Jordânia",
+      "distratores": [
+        "Síria",
+        "Iraque",
+        "Arábia Saudita"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jordânia",
+        "descricao": "País do Oriente Médio, o Reino Hachemita da Jordânia, com capital em Amã.",
+        "variantes": [
+          "Reino Hachemita da Jordânia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Círculo marca Granada no Caribe, sem texto; localização única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Este país insular destacado no mapa é o mais ao sul de que grupo de ilhas?",
+      "tipo": "multipla",
+      "resposta": "Ilhas de Barlavento",
+      "distratores": [
+        "Ilhas de Sotavento",
+        "Bahamas",
+        "Grandes Antilhas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Granada",
+        "descricao": "País insular do Caribe oriental, a ilha das especiarias, com capital em St. George's.",
+        "variantes": [
+          "Grenada"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estado em vermelho, claro e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Que estado está destacado neste mapa?",
+      "tipo": "multipla",
+      "resposta": "Califórnia",
+      "distratores": [
+        "Oregon",
+        "Nevada",
+        "Arizona"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Califórnia",
+        "descricao": "Estado da costa oeste dos Estados Unidos, o mais populoso do país.",
+        "variantes": [
+          "California"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Província em vermelho, forma característica, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Que província está destacada neste mapa?",
+      "tipo": "multipla",
+      "resposta": "Quebec",
+      "distratores": [
+        "Ontário",
+        "Manitoba",
+        "Terra Nova e Labrador"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quebec",
+        "descricao": "Maior província do Canadá em área, de maioria francófona.",
+        "variantes": [
+          "Québec"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Globo com localização e detalhe ampliado das duas ilhas, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Que país está destacado neste mapa?",
+      "tipo": "multipla",
+      "resposta": "São Cristóvão e Névis",
+      "distratores": [
+        "Antígua e Barbuda",
+        "Granada",
+        "São Vicente e Granadinas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "São Cristóvão e Névis",
+        "descricao": "País insular do Caribe formado pelas ilhas de São Cristóvão e Névis, o menor do Hemisfério Ocidental.",
+        "variantes": [
+          "Saint Kitts e Nevis",
+          "São Cristóvão e Nevis"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ilha em vermelho, silhueta inconfundível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Que ilha está destacada neste mapa?",
+      "tipo": "multipla",
+      "resposta": "Sicília",
+      "distratores": [
+        "Sardenha",
+        "Córsega",
+        "Creta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sicília",
+        "descricao": "Maior ilha do Mediterrâneo e região autônoma da Itália, com capital em Palermo.",
+        "variantes": [
+          "Sicily",
+          "Sicilia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estado insular em vermelho, claro e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Que estreito separa do continente o estado destacado neste mapa?",
+      "tipo": "multipla",
+      "resposta": "Estreito de Bass",
+      "distratores": [
+        "Estreito de Torres",
+        "Estreito de Magalhães",
+        "Estreito de Cook"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tasmânia",
+        "descricao": "Estado insular da Austrália, ao sul do continente, com capital em Hobart.",
+        "variantes": [
+          "Tasmania"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem minúscula; Nauru é um ponto verde quase invisível, ilegível no celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Globo com detalhe ampliado e forma reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Que território está destacado neste mapa?",
+      "tipo": "multipla",
+      "resposta": "Porto Rico",
+      "distratores": [
+        "Jamaica",
+        "Ilhas Virgens",
+        "Guadalupe"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Porto Rico",
+        "descricao": "Território não incorporado dos Estados Unidos, ilha do Caribe com capital em San Juan.",
+        "variantes": [
+          "Puerto Rico"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Estado em vermelho, península característica, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Que estado está destacado neste mapa?",
+      "tipo": "multipla",
+      "resposta": "Flórida",
+      "distratores": [
+        "Geórgia",
+        "Alabama",
+        "Louisiana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Flórida",
+        "descricao": "Estado do sudeste dos Estados Unidos, numa península entre o Golfo do México e o Atlântico.",
+        "variantes": [
+          "Florida"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Globo com país em verde, legível e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "Que país está destacado neste mapa?",
+      "tipo": "multipla",
+      "resposta": "Tajiquistão",
+      "distratores": [
+        "Quirguistão",
+        "Uzbequistão",
+        "Afeganistão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tajiquistão",
+        "descricao": "País sem litoral da Ásia Central, com capital em Duchambé.",
+        "variantes": [
+          "Tadjiquistão",
+          "Tajikistan"
+        ]
+      }
+    }
+  ]
+}

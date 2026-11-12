@@ -1,0 +1,689 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Havaí",
+        "descricao": "Estado dos Estados Unidos, arquipélago vulcânico no Oceano Pacífico.",
+        "variantes": [
+          "Hawaii",
+          "Hawai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arquipelago_do_havai",
+          "nome": "Arquipélago do Havaí",
+          "descricao": "Cadeia de ilhas vulcânicas no centro do oceano Pacífico, que forma um estado dos Estados Unidos.",
+          "variantes": [
+            "Havaí",
+            "Hawaii",
+            "Ilhas Havaianas"
+          ]
+        },
+        {
+          "id": "avai",
+          "nome": "Avaí",
+          "descricao": "Avaí Futebol Clube, clube de futebol de Florianópolis, Santa Catarina, que joga na Ressacada.",
+          "variantes": [
+            "Avaí Futebol Clube",
+            "Avaí FC"
+          ]
+        },
+        {
+          "id": "ushabti",
+          "nome": "Ushabti",
+          "descricao": "Estatueta funerária egípcia colocada nas tumbas, muitas vezes em grande número, junto com o morto",
+          "variantes": [
+            "Shabti",
+            "Shawabti"
+          ]
+        },
+        {
+          "id": "chinelo_de_dedo",
+          "nome": "Chinelo de dedo",
+          "descricao": "Calçado leve e aberto, preso ao pé por uma tira em Y que passa entre o primeiro e o segundo dedos.",
+          "variantes": [
+            "Havaiana",
+            "Flip-flop",
+            "Chinelo"
+          ]
+        },
+        {
+          "id": "javali",
+          "nome": "Javali",
+          "descricao": "Suíno selvagem (Sus scrofa) nativo da Eurásia e do norte da África, ancestral do porco doméstico.",
+          "variantes": [
+            "Javali-europeu",
+            "Sus scrofa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Jordânia",
+        "descricao": "País do Oriente Médio, o Reino Hachemita da Jordânia, com capital em Amã.",
+        "variantes": [
+          "Reino Hachemita da Jordânia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_jordania",
+          "nome": "Bandeira da Jordânia",
+          "descricao": "Bandeira da Jordânia, faixas preta, branca e verde com triângulo vermelho e estrela branca de sete pontas.",
+          "variantes": [
+            "Jordânia"
+          ]
+        },
+        {
+          "id": "jordan_grand_prix",
+          "nome": "Jordan Grand Prix",
+          "descricao": "Equipe de Fórmula 1 irlandesa fundada por Eddie Jordan, que competiu de 1991 a 2005.",
+          "variantes": [
+            "Jordan",
+            "Jordan F1"
+          ]
+        },
+        {
+          "id": "fordlandia",
+          "nome": "Fordlândia",
+          "descricao": "Cidade fundada por Henry Ford na Amazônia em 1928 para produzir borracha.",
+          "variantes": []
+        },
+        {
+          "id": "joaninha",
+          "nome": "Joaninha",
+          "descricao": "Besouros da família Coccinellidae, pequenos, arredondados e geralmente vermelhos com pintas pretas.",
+          "variantes": [
+            "Coccinellidae",
+            "ladybird",
+            "ladybug"
+          ]
+        },
+        {
+          "id": "rio_jordao",
+          "nome": "Rio Jordão",
+          "descricao": "Rio do Oriente Médio que corre do mar da Galileia até o Mar Morto.",
+          "variantes": [
+            "Jordão",
+            "Jordan River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Granada",
+        "descricao": "País insular do Caribe oriental, a ilha das especiarias, com capital em St. George's.",
+        "variantes": [
+          "Grenada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "geada",
+          "nome": "Geada",
+          "descricao": "Camada de cristais de gelo formada pela deposição de vapor de água sobre superfícies congeladas.",
+          "variantes": [
+            "Gelo",
+            "Frost"
+          ]
+        },
+        {
+          "id": "granadilla",
+          "nome": "Granadilla",
+          "descricao": "Fruta alaranjada de casca lisa e polpa gelatinosa com sementes escuras, Passiflora ligularis.",
+          "variantes": [
+            "Granadilha",
+            "Maracujá-doce",
+            "Passiflora ligularis"
+          ]
+        },
+        {
+          "id": "rabanada",
+          "nome": "Rabanada",
+          "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela.",
+          "variantes": [
+            "Fatia dourada",
+            "Torrada francesa",
+            "French toast"
+          ]
+        },
+        {
+          "id": "groenlandia",
+          "nome": "Groenlândia",
+          "descricao": "A maior ilha do mundo, no Atlântico Norte, coberta em grande parte por uma camada de gelo.",
+          "variantes": [
+            "Greenland",
+            "Kalaallit Nunaat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Califórnia",
+        "descricao": "Estado da costa oeste dos Estados Unidos, o mais populoso do país.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "cafona",
+          "nome": "Cafona",
+          "descricao": "Adjetivo brasileiro para algo de mau gosto ou brega, vindo do italiano cafone",
+          "variantes": []
+        },
+        {
+          "id": "nebulosa_california",
+          "nome": "Nebulosa Califórnia",
+          "descricao": "Nebulosa de emissão na constelação de Perseu, também chamada NGC 1499.",
+          "variantes": [
+            "NGC 1499",
+            "Sh 2-220",
+            "California Nebula"
+          ]
+        },
+        {
+          "id": "gafanhoto",
+          "nome": "Gafanhoto",
+          "descricao": "Inseto saltador herbívoro da subordem Caelifera, de antenas curtas.",
+          "variantes": [
+            "Caelifera",
+            "Grasshopper",
+            "Locusta"
+          ]
+        },
+        {
+          "id": "mosca_varejeira",
+          "nome": "Mosca-varejeira",
+          "descricao": "Inseto díptero da família Calliphoridae, de corpo verde ou azul metálico.",
+          "variantes": [
+            "Califorídeos",
+            "Mosca-varejeira-verde",
+            "Calliphoridae"
+          ]
+        },
+        {
+          "id": "caipora",
+          "nome": "Caipora",
+          "descricao": "Ser do folclore brasileiro protetor dos animais e das florestas, que castiga os caçadores.",
+          "variantes": [
+            "Caapora"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Quebec",
+        "descricao": "Maior província do Canadá em área, de maioria francófona.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "cidade_de_quebec",
+          "nome": "Cidade de Quebec",
+          "descricao": "Cidade do Canadá às margens do rio São Lourenço, fundada em 1608 como capital da Nova França.",
+          "variantes": [
+            "Quebec",
+            "Québec",
+            "Quebec City"
+          ]
+        },
+        {
+          "id": "bandeira_do_quebec",
+          "nome": "Bandeira do Quebec",
+          "descricao": "Bandeira da província canadense do Quebec, com cruz branca e quatro flores-de-lis sobre fundo azul.",
+          "variantes": [
+            "Quebec",
+            "Fleurdelisé",
+            "Québec"
+          ]
+        },
+        {
+          "id": "rebeca",
+          "nome": "Rebeca",
+          "descricao": "Instrumento medieval de cordas friccionadas, de corpo em forma de pera ou barco, antepassado do violino.",
+          "variantes": [
+            "Rabeca",
+            "Rebec"
+          ]
+        },
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        },
+        {
+          "id": "quibe",
+          "nome": "Quibe",
+          "descricao": "Bolinho oval frito de carne moída e trigo para quibe, prato típico do Levante.",
+          "variantes": [
+            "Kibe",
+            "Kibbeh",
+            "Kubba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "São Cristóvão e Névis",
+        "descricao": "País insular do Caribe formado pelas ilhas de São Cristóvão e Névis, o menor do Hemisfério Ocidental.",
+        "variantes": [
+          "Saint Kitts e Nevis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_cristovao_e_nevis",
+          "nome": "São Cristóvão e Névis",
+          "descricao": "País insular do Caribe, o menor das Américas, com capital em Basseterre.",
+          "variantes": [
+            "Saint Kitts e Nevis",
+            "São Cristóvão e Neves"
+          ]
+        },
+        {
+          "id": "camille_saint_saens",
+          "nome": "Camille Saint-Saëns",
+          "descricao": "Compositor, organista e pianista francês romântico (1835–1921), autor de O Carnaval dos Animais.",
+          "variantes": [
+            "Charles-Camille Saint-Saëns",
+            "Saint-Saens"
+          ]
+        },
+        {
+          "id": "adidas_stan_smith",
+          "nome": "Adidas Stan Smith",
+          "descricao": "Modelo de calçado esportivo da Adidas batizado em homenagem ao tenista americano Stan Smith.",
+          "variantes": [
+            "Stan Smith (calçado)",
+            "Stan Smith (tênis)"
+          ]
+        },
+        {
+          "id": "cano_cristales",
+          "nome": "Caño Cristales",
+          "descricao": "Rio da serra de La Macarena, na Colômbia, conhecido como rio de cinco cores.",
+          "variantes": [
+            "Rio de Cinco Cores",
+            "Rio Arco-Íris"
+          ]
+        },
+        {
+          "id": "paco_imperial",
+          "nome": "Paço Imperial",
+          "descricao": "Edifício colonial do século dezoito na Praça XV, no Rio de Janeiro, sede do governo colonial e residência real.",
+          "variantes": [
+            "Paço Real",
+            "Palácio dos Vice-Reis",
+            "Paço de São Cristóvão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sicília",
+        "descricao": "Maior ilha do Mediterrâneo e região autônoma da Itália, com capital em Palermo.",
+        "variantes": [
+          "Sicily"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sicilia",
+          "nome": "Sicília",
+          "descricao": "Ilha italiana no centro do mar Mediterrâneo, separada da península pelo estreito de Messina.",
+          "variantes": []
+        },
+        {
+          "id": "sicilia_romana",
+          "nome": "Sicília romana",
+          "descricao": "Província romana criada na ilha da Sicília após a Primeira Guerra Púnica.",
+          "variantes": [
+            "Sicilia",
+            "Província da Sicília"
+          ]
+        },
+        {
+          "id": "bandeira_da_sicilia",
+          "nome": "Bandeira da Sicília",
+          "descricao": "Bandeira da região italiana da Sicília, amarela e vermelha, com a trinácria (cabeça com três pernas) no centro.",
+          "variantes": [
+            "Sicília",
+            "Trinácria",
+            "Sicilia"
+          ]
+        },
+        {
+          "id": "defesa_siciliana",
+          "nome": "Defesa Siciliana",
+          "descricao": "Abertura de xadrez que começa com 1.e4 c5.",
+          "variantes": [
+            "Sicilian Defence",
+            "Siciliana"
+          ]
+        },
+        {
+          "id": "anemia_falciforme",
+          "nome": "Anemia falciforme",
+          "descricao": "Doença hereditária do sangue em que a hemoglobina anormal faz as hemácias assumirem forma de foice.",
+          "variantes": [
+            "Doença falciforme",
+            "Siclemia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tasmânia",
+        "descricao": "Estado insular da Austrália, ao sul do continente, com capital em Hobart.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tasmania",
+          "nome": "Tasmânia",
+          "descricao": "Ilha e estado ao sul da Austrália continental.",
+          "variantes": []
+        },
+        {
+          "id": "esquilo_listrado",
+          "nome": "Esquilo-listrado",
+          "descricao": "Pequeno roedor Tamias striatus, de listras escuras nas costas, do leste da América do Norte.",
+          "variantes": [
+            "Tâmia",
+            "Tâmia-oriental",
+            "Tamias striatus"
+          ]
+        },
+        {
+          "id": "tanzania",
+          "nome": "Tanzânia",
+          "descricao": "País da África Oriental formado em 1964 pela união de Tanganica e Zanzibar.",
+          "variantes": [
+            "República Unida da Tanzânia"
+          ]
+        },
+        {
+          "id": "floresta_amazonica",
+          "nome": "Floresta Amazônica",
+          "descricao": "Floresta tropical úmida da bacia amazônica, na América do Sul",
+          "variantes": [
+            "Amazônia",
+            "Hileia Amazônica",
+            "Amazon rainforest"
+          ]
+        },
+        {
+          "id": "rodovia_transamazonica",
+          "nome": "Rodovia Transamazônica",
+          "descricao": "Rodovia federal BR-230, que atravessa a Amazônia no sentido leste-oeste.",
+          "variantes": [
+            "Transamazônica",
+            "BR-230"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Porto Rico",
+        "descricao": "Território não incorporado dos Estados Unidos, ilha do Caribe com capital em San Juan.",
+        "variantes": [
+          "Puerto Rico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_porto_rico",
+          "nome": "Bandeira de Porto Rico",
+          "descricao": "Bandeira do território dos Estados Unidos Porto Rico, com listras vermelhas e brancas e triângulo azul com estrela branca.",
+          "variantes": [
+            "Porto Rico",
+            "Puerto Rico"
+          ]
+        },
+        {
+          "id": "cerro_rico_de_potosi",
+          "nome": "Cerro Rico de Potosí",
+          "descricao": "Montanha rica em prata nos Andes, explorada pelos espanhóis a partir de 1545, que enriqueceu o Império Espanhol.",
+          "variantes": [
+            "Cerro Rico",
+            "Potosí"
+          ]
+        },
+        {
+          "id": "ornitorrinco",
+          "nome": "Ornitorrinco",
+          "descricao": "Mamífero monotremado semiaquático australiano, espécie Ornithorhynchus anatinus.",
+          "variantes": [
+            "Ornithorhynchus anatinus",
+            "Platypus"
+          ]
+        },
+        {
+          "id": "umberto_eco",
+          "nome": "Umberto Eco",
+          "descricao": "Escritor, filósofo e semiólogo italiano (1932–2016), autor de O Nome da Rosa.",
+          "variantes": []
+        },
+        {
+          "id": "numero_primo",
+          "nome": "Número primo",
+          "descricao": "Número natural maior que um que só é divisível por um e por ele mesmo.",
+          "variantes": [
+            "Números primos",
+            "Prime number",
+            "Primo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Flórida",
+        "descricao": "Estado do sudeste dos Estados Unidos, numa península entre o Golfo do México e o Atlântico.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "florianopolis",
+          "nome": "Florianópolis",
+          "descricao": "Capital do estado de Santa Catarina, situada em grande parte na Ilha de Santa Catarina.",
+          "variantes": [
+            "Desterro",
+            "Nossa Senhora do Desterro",
+            "Floripa"
+          ]
+        },
+        {
+          "id": "frida_kahlo",
+          "nome": "Frida Kahlo",
+          "descricao": "Pintora mexicana, famosa por seus autorretratos, que viveu de 1907 a 1954.",
+          "variantes": [
+            "Magdalena Carmen Frida Kahlo y Calderón",
+            "Frida"
+          ]
+        },
+        {
+          "id": "fluorita",
+          "nome": "Fluorita",
+          "descricao": "Mineral de fluoreto de cálcio (CaF2), de dureza 4 na escala de Mohs, que forma cristais cúbicos coloridos.",
+          "variantes": [
+            "Fluorspar",
+            "Espatoflúor",
+            "Fluorite",
+            "Espato-flúor"
+          ]
+        },
+        {
+          "id": "gloria_fenomeno_optico",
+          "nome": "Glória (fenômeno óptico)",
+          "descricao": "Anel colorido concêntrico visto em torno da sombra do observador, causado pela luz interagindo com gotículas de névoa ou nuvem.",
+          "variantes": [
+            "Glória",
+            "Espectro de Brocken",
+            "Glory"
+          ]
+        },
+        {
+          "id": "henry_ford",
+          "nome": "Henry Ford",
+          "descricao": "Industrial americano, fundador da Ford Motor Company e pioneiro da produção em massa de automóveis.",
+          "variantes": [
+            "Ford"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Tajiquistão",
+        "descricao": "País sem litoral da Ásia Central, com capital em Duchambé.",
+        "variantes": [
+          "Tadjiquistão",
+          "Tajikistan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tajiquistao",
+          "nome": "Tajiquistão",
+          "descricao": "País sem litoral da Ásia Central, com capital em Duchambé, cuja bandeira tem faixas vermelha, branca e verde com uma coroa e sete estrelas.",
+          "variantes": [
+            "Tajikistan",
+            "Tadjiquistão",
+            "República do Tajiquistão"
+          ]
+        },
+        {
+          "id": "paquistao",
+          "nome": "Paquistão",
+          "descricao": "País do sul da Ásia criado em 1947 na partição da Índia britânica, com capital em Islamabad.",
+          "variantes": [
+            "Pakistan"
+          ]
+        },
+        {
+          "id": "bandeira_do_cazaquistao",
+          "nome": "Bandeira do Cazaquistão",
+          "descricao": "Bandeira nacional do Cazaquistão, azul-turquesa com sol dourado, águia e ornamento vertical na lateral.",
+          "variantes": [
+            "Cazaquistão",
+            "Bandeira do Kazakhstan"
+          ]
+        },
+        {
+          "id": "cazaquistao",
+          "nome": "Cazaquistão",
+          "descricao": "País da Ásia Central, o maior sem saída para o mar, com capital em Astana.",
+          "variantes": [
+            "Kazakhstan"
+          ]
+        },
+        {
+          "id": "tai_chi_chuan",
+          "nome": "Tai chi chuan",
+          "descricao": "Arte marcial chinesa praticada sobretudo como exercício de movimentos suaves e encadeados.",
+          "variantes": [
+            "Tai chi",
+            "Taiji",
+            "Taijiquan"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "arquipelago_do_havai",
+      "motivo": "Havaí estado/arquipélago vulcânico no Pacífico é a mesma entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "País Jordânia; candidatas são bandeira, rio, equipe de F1 etc., diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "País Granada; candidatas são fruta romã e outras, não o país."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Estado da Califórnia; a nebulosa é outra entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Província de Quebec difere da cidade e da bandeira."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "sao_cristovao_e_nevis",
+      "motivo": "Mesmo país insular do Caribe."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "sicilia",
+      "motivo": "Mesma ilha italiana da Sicília."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "tasmania",
+      "motivo": "Mesma ilha/estado australiano da Tasmânia."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Território Porto Rico difere da sua bandeira."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Estado da Flórida; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "tajiquistao",
+      "motivo": "Mesmo país da Ásia Central com capital Duchambé."
+    }
+  ]
+}
