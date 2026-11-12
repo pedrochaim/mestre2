@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, resposta única e distratores plausíveis do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma a origem no norte da Inglaterra. O enunciado não nomeia o chapéu e só a figura permite saber qual é. Os distratores são regiões e nenhum deles é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Entalhada em relevo' define o camafeu, então dá para responder sem a figura. Troquei por um enunciado neutro. O trecho sustenta a resposta.",
+      "reescrita": {
+        "pergunta": "Como se chama este tipo de peça de joalheria?",
+        "resposta": "Camafeu",
+        "distratores": [
+          "Intaglio",
+          "Filigrana",
+          "Esmalte"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples. Enxó, picareta e marreta são ferramentas diferentes, nenhuma delas também correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Tirol' deriva do nome do chapéu, 'tirolês', e a pergunta já diz 'chapéu' e 'Alpes'. Isso vaza a resposta e a figura vira enfeite. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento e com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que tiara e diadema são usadas como sinônimos, então o parêntese é apropriado. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o disco é tocado num fonógrafo ou toca-discos. A pergunta exige reconhecer o objeto e o enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de uma ferramenta, com resposta única e sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ferramenta é esta?",
+        "resposta": "Machado"
+      },
+      "existentes": [
+        {
+          "id": "q14048",
+          "pergunta": "Que ferramenta é esta?",
+          "resposta": "Machado"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Globo terrestre"
+      },
+      "existentes": [
+        {
+          "id": "q20231",
+          "pergunta": "Em que século foi feito o exemplar mais antigo que se conservou deste modelo da Terra?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que joia é esta?",
+        "resposta": "Tiara (ou diadema)"
+      },
+      "existentes": [
+        {
+          "id": "q15887",
+          "pergunta": "Que joia de cabeça é esta?",
+          "resposta": "Tiara"
+        },
+        {
+          "id": "q20571",
+          "pergunta": "Esta joia de cabeça tem origem em qual antiga civilização?",
+          "resposta": "Pérsia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14048",
+      "motivo": "Pergunta e resposta idênticas (identificar a ferramenta machado)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o século do exemplar mais antigo; a nova pede identificar o objeto. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q15887",
+      "motivo": "Ambas pedem identificar a joia de cabeça como tiara."
+    }
+  ]
+}

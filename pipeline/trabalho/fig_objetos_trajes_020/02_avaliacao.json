@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Sofá dourado estofado, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que móvel é este?",
+      "resposta": "Sofá",
+      "distratores": [
+        "Poltrona",
+        "Aparador",
+        "Baú"
+      ],
+      "ancora": {
+        "nome": "Sofá",
+        "descricao": "Móvel estofado para várias pessoas sentarem, usado em salas e ambientes de espera.",
+        "variantes": [
+          "Canapé",
+          "Couch"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Boina de tweed espinha de peixe, reconhecível; só aparece um trecho da cabeça, sem identificar ninguém.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "De que região da Inglaterra vem originalmente este chapéu?",
+      "resposta": "Norte da Inglaterra",
+      "distratores": [
+        "Sudoeste da Inglaterra",
+        "Midlands do Leste",
+        "Região de Londres"
+      ],
+      "ancora": {
+        "nome": "Boina inglesa",
+        "descricao": "Chapéu redondo e achatado, com pequena aba rígida na frente, originário do norte da Inglaterra.",
+        "variantes": [
+          "Flat cap",
+          "Boné de motorista",
+          "Boina de tweed"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Camafeu em relevo com camadas de cor contrastante, bem visível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Como se chama esta peça entalhada em relevo?",
+      "resposta": "Camafeu",
+      "distratores": [
+        "Intaglio",
+        "Mosaico",
+        "Filigrana"
+      ],
+      "ancora": {
+        "nome": "Camafeu",
+        "descricao": "Peça de joalheria ou gema entalhada em relevo, com a figura em cor contrastante com o fundo.",
+        "variantes": [
+          "Cameo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Machado isolado em fundo branco, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ferramenta é esta?",
+      "resposta": "Machado",
+      "distratores": [
+        "Enxó",
+        "Picareta",
+        "Marreta"
+      ],
+      "ancora": {
+        "nome": "Machado",
+        "descricao": "Ferramenta de cabo longo e lâmina afiada usada para cortar e rachar madeira.",
+        "variantes": [
+          "Axe"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Chapéu de feltro com cordão verde, típico alpino, claro e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "De que região dos Alpes vem este chapéu?",
+      "resposta": "Tirol",
+      "ancora": {
+        "nome": "Chapéu tirolês",
+        "descricao": "Chapéu de feltro com cordão, típico do traje folclórico do Tirol, nos Alpes.",
+        "variantes": [
+          "Tirolerhut",
+          "Chapéu alpino",
+          "Chapéu bávaro"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Desenho de linhas de um homem com chapéu com pompom, pluma e roseta, que poderia ser outro barrete escocês (glengarry, balmoral); não é claro e não é foto."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Globo terrestre antigo em tripé, claro; o texto do mapa não entrega o nome do objeto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Globo terrestre",
+      "ancora": {
+        "nome": "Globo terrestre",
+        "descricao": "Modelo esférico da Terra, montado num suporte, que mostra continentes e oceanos.",
+        "variantes": [
+          "Globo",
+          "Esfera terrestre"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tiara de diamantes em exposição, nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que joia é esta?",
+      "resposta": "Tiara (ou diadema)",
+      "ancora": {
+        "nome": "Tiara",
+        "descricao": "Ornamento de cabeça cravejado de gemas, usado por mulheres em ocasiões formais.",
+        "variantes": [
+          "Diadema"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O instrumento parece um octante (arco de cerca de um oitavo de círculo), e não um sextante; resposta ambígua e inscrição pequena na peça."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Disco preto com rótulo central, forma reconhecível; o texto do rótulo não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que aparelho se toca este objeto?",
+      "resposta": "Toca-discos (vitrola)",
+      "ancora": {
+        "nome": "Disco de vinil",
+        "descricao": "Disco fonográfico com sulco espiral que armazena som analógico, tocado num toca-discos.",
+        "variantes": [
+          "Bolacha",
+          "LP",
+          "Disco fonográfico"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Quatro pinças de tamanhos diferentes sobre fundo branco, nítidas e sem texto; assunto único.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ferramenta é esta?",
+      "resposta": "Pinça",
+      "ancora": {
+        "nome": "Pinça",
+        "descricao": "Ferramenta manual de duas hastes unidas numa ponta, usada para segurar objetos pequenos.",
+        "variantes": [
+          "Tweezers",
+          "Pinça de sobrancelha"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto de rua no Muro das Lamentações com pessoas comuns em primeiro plano (um rapaz e uma criança) e texto em camisetas."
+    }
+  ]
+}

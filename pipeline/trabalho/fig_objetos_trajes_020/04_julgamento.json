@@ -1,0 +1,511 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sofá",
+        "descricao": "Móvel estofado para várias pessoas sentarem, usado em salas e ambientes de espera.",
+        "variantes": [
+          "Canapé",
+          "Couch"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "carruagem",
+          "nome": "Carruagem",
+          "descricao": "Veículo de duas ou quatro rodas puxado por cavalos, usado para transportar passageiros.",
+          "variantes": [
+            "Coche"
+          ]
+        },
+        {
+          "id": "shofar",
+          "nome": "Shofar",
+          "descricao": "Chifre, em geral de carneiro, usado como instrumento em rituais judaicos.",
+          "variantes": [
+            "Chofar"
+          ]
+        },
+        {
+          "id": "eta_carinae",
+          "nome": "Eta Carinae",
+          "descricao": "Sistema estelar massivo na constelação da Carena, cercado pela Nebulosa do Homúnculo, formada na Grande Erupção do século dezenove.",
+          "variantes": [
+            "η Carinae",
+            "Eta Argus"
+          ]
+        },
+        {
+          "id": "candace",
+          "nome": "Candace",
+          "descricao": "Título das rainhas e rainhas-mães do antigo reino de Cuxe, na Núbia.",
+          "variantes": [
+            "Kandake",
+            "Kentake"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Boina inglesa",
+        "descricao": "Chapéu redondo e achatado, com pequena aba rígida na frente, originário do norte da Inglaterra.",
+        "variantes": [
+          "Flat cap",
+          "Boné de motorista",
+          "Boina de tweed"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "snooker",
+          "nome": "Snooker",
+          "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+          "variantes": [
+            "Sinuca inglesa"
+          ]
+        },
+        {
+          "id": "lingua_inglesa",
+          "nome": "Língua inglesa",
+          "descricao": "Língua germânica nascida na Inglaterra, com grande parte do vocabulário de origem francesa e latina.",
+          "variantes": [
+            "Inglês"
+          ]
+        },
+        {
+          "id": "bobina_de_tesla",
+          "nome": "Bobina de Tesla",
+          "descricao": "Transformador ressonante que gera alta tensão e alta frequência, projetado por Nikola Tesla em 1891.",
+          "variantes": [
+            "Tesla coil",
+            "Transformador de Tesla"
+          ]
+        },
+        {
+          "id": "mao_inglesa",
+          "nome": "Mão inglesa",
+          "descricao": "Regra de trânsito em que os veículos circulam pelo lado esquerdo da via, como no Reino Unido.",
+          "variantes": [
+            "Circulação pela esquerda",
+            "Mão esquerda"
+          ]
+        },
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Camafeu",
+        "descricao": "Peça de joalheria ou gema entalhada em relevo, com a figura em cor contrastante com o fundo.",
+        "variantes": [
+          "Cameo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "cameron_anime",
+          "nome": "Cameron (anime)",
+          "descricao": "Treinador distraído de Unova, rival de Ash na série Preto e Branco do anime Pokémon, dono de um Riolu.",
+          "variantes": [
+            "Cameron",
+            "Kenyan"
+          ]
+        },
+        {
+          "id": "sopwith_camel",
+          "nome": "Sopwith Camel",
+          "descricao": "Caça biplano britânico monoplace da Primeira Guerra Mundial, fabricado pela Sopwith Aviation Company.",
+          "variantes": [
+            "Camel",
+            "Sopwith F.1 Camel"
+          ]
+        },
+        {
+          "id": "camaleao_do_iemen",
+          "nome": "Camaleão-do-iêmen",
+          "descricao": "Camaleão Chamaeleo calyptratus, com capacete alto na cabeça, nativo do Iêmen e da Arábia Saudita.",
+          "variantes": [
+            "Camaleão",
+            "Camaleão-velado",
+            "Chamaeleo calyptratus"
+          ]
+        },
+        {
+          "id": "camaroes",
+          "nome": "Camarões",
+          "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses",
+          "variantes": [
+            "Cameroon",
+            "Cameroun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Machado",
+        "descricao": "Ferramenta de cabo longo e lâmina afiada usada para cortar e rachar madeira.",
+        "variantes": [
+          "Axe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "axe_music",
+          "nome": "Axé music",
+          "descricao": "Gênero musical surgido em Salvador nos anos 1980, ligado ao carnaval baiano.",
+          "variantes": [
+            "Axé"
+          ]
+        },
+        {
+          "id": "machado",
+          "nome": "Machado",
+          "descricao": "Ferramenta de lâmina afiada presa a um cabo, usada para cortar madeira e como arma.",
+          "variantes": [
+            "Axe"
+          ]
+        },
+        {
+          "id": "axel",
+          "nome": "Axel",
+          "descricao": "Salto da patinação artística batizado em homenagem ao norueguês Axel Paulsen.",
+          "variantes": [
+            "Axel jump",
+            "Axel Paulsen"
+          ]
+        },
+        {
+          "id": "axew",
+          "nome": "Axew",
+          "descricao": "Pokémon de tipo Dragão, número 610 da Pokédex Nacional, da quinta geração, que evolui para Fraxure.",
+          "variantes": []
+        },
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Globo terrestre",
+        "descricao": "Modelo esférico da Terra, montado num suporte, que mostra continentes e oceanos.",
+        "variantes": [
+          "Globo",
+          "Esfera terrestre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tv_globo",
+          "nome": "TV Globo",
+          "descricao": "Emissora de televisão brasileira fundada por Roberto Marinho, inaugurada no Rio de Janeiro e cabeça da Rede Globo.",
+          "variantes": [
+            "Rede Globo",
+            "Globo"
+          ]
+        },
+        {
+          "id": "globo_terrestre",
+          "nome": "Globo terrestre",
+          "descricao": "Modelo esférico da Terra usado como representação cartográfica.",
+          "variantes": [
+            "Globo"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "lobo",
+          "nome": "Lobo",
+          "descricao": "Caçador de recompensas alienígena da DC Comics, estreou em Omega Men.",
+          "variantes": [
+            "Main Man"
+          ]
+        },
+        {
+          "id": "atmosfera_terrestre",
+          "nome": "Atmosfera terrestre",
+          "descricao": "Camada de gases que envolve a Terra",
+          "variantes": [
+            "Atmosfera da Terra",
+            "Ar atmosférico",
+            "Atmosphere of Earth"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tiara",
+        "descricao": "Ornamento de cabeça cravejado de gemas, usado por mulheres em ocasiões formais.",
+        "variantes": [
+          "Diadema"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tiara",
+          "nome": "Tiara",
+          "descricao": "Adorno de cabeça semicircular cravejado de diamantes, em exposição.",
+          "variantes": [
+            "Diadema"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        },
+        {
+          "id": "tarzan",
+          "nome": "Tarzan",
+          "descricao": "Personagem criado por Edgar Rice Burroughs em 1912, menino inglês criado por macacos na África.",
+          "variantes": [
+            "Tarzã",
+            "Lorde Greystoke"
+          ]
+        },
+        {
+          "id": "taranto",
+          "nome": "Taranto",
+          "descricao": "Cidade do sul da Itália fundada no século oito a.C. por colonos gregos com o nome de Taras.",
+          "variantes": [
+            "Taras",
+            "Tarento"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Disco de vinil",
+        "descricao": "Disco fonográfico com sulco espiral que armazena som analógico, tocado num toca-discos.",
+        "variantes": [
+          "Bolacha",
+          "LP",
+          "Disco fonográfico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "biscoito",
+          "nome": "Biscoito",
+          "descricao": "Pequeno alimento assado e seco de massa de farinha, doce ou salgado.",
+          "variantes": [
+            "Bolacha"
+          ]
+        },
+        {
+          "id": "bocha_paralimpica",
+          "nome": "Bocha paralímpica",
+          "descricao": "Esporte paralímpico de precisão em que atletas com deficiência motora severa lançam bolas para chegar perto de uma bola-alvo.",
+          "variantes": [
+            "Boccia",
+            "Bocha"
+          ]
+        },
+        {
+          "id": "gas_liquefeito_de_petroleo",
+          "nome": "Gás liquefeito de petróleo",
+          "descricao": "Mistura de gases derivados do petróleo, sobretudo propano e butano, vendida em botijões como gás de cozinha.",
+          "variantes": [
+            "GLP",
+            "Gás de cozinha",
+            "Gás de botijão"
+          ]
+        },
+        {
+          "id": "constituicao_brasileira_de_1937",
+          "nome": "Constituição brasileira de 1937",
+          "descricao": "Constituição outorgada por Getúlio Vargas em 1937, que instituiu o Estado Novo.",
+          "variantes": [
+            "Polaca",
+            "Constituição do Estado Novo"
+          ]
+        },
+        {
+          "id": "bleach",
+          "nome": "Bleach",
+          "descricao": "Mangá e anime de Tite Kubo sobre Ichigo Kurosaki, adolescente que se torna ceifador de almas.",
+          "variantes": [
+            "Bleach (mangá)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pinça",
+        "descricao": "Ferramenta manual de duas hastes unidas numa ponta, usada para segurar objetos pequenos.",
+        "variantes": [
+          "Tweezers",
+          "Pinça de sobrancelha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sabia_do_campo",
+          "nome": "Sabiá-do-campo",
+          "descricao": "Ave pardacenta de cauda longa e sobrancelha clara (Mimus saturninus), da América do Sul.",
+          "variantes": [
+            "Mimo-de-sobrancelha",
+            "Calhandra",
+            "Mimus saturninus"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        },
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        },
+        {
+          "id": "henri_poincare",
+          "nome": "Henri Poincaré",
+          "descricao": "Matemático, físico teórico e filósofo da ciência francês, pioneiro da teoria do caos.",
+          "variantes": [
+            "Jules Henri Poincaré",
+            "Poincare"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sofá não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Boina inglesa (chapéu) é diferente de todas as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Camafeu (joia) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "machado",
+      "motivo": "Mesma ferramenta de lâmina com cabo, variante Axe igual."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "globo_terrestre",
+      "motivo": "Ambos são o modelo esférico da Terra."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "tiara",
+      "motivo": "Ambos são o adorno de cabeça cravejado, variante Diadema."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Disco de vinil não corresponde a nenhuma candidata; Bolacha de biscoito é outra coisa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pinça (ferramenta) não corresponde a nenhuma candidata."
+    }
+  ]
+}
