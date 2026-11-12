@@ -1,0 +1,151 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mosquetão nítido; o texto gravado (marca) não entrega a resposta.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "pergunta": "Em que modalidade esportiva este equipamento é usado para prender a corda?",
+      "tipo": "multipla",
+      "resposta": "Escalada",
+      "distratores": [
+        "Remo",
+        "Esgrima",
+        "Tiro com arco"
+      ],
+      "ancora": {
+        "nome": "Mosquetão",
+        "descricao": "Argola metálica com trava de mola usada para conectar cordas e equipamentos, típica da escalada.",
+        "variantes": [
+          "Carabiner",
+          "Carabina"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A bola traz 'Etrusco Unico' escrito e há uma placa com o nome e o ano; o texto entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Faixa 'Sahara Race 2011' visível, pessoas comuns em primeiro plano, e a imagem não distingue uma ultramaratona de outra corrida."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Caiaques, gol suspenso sobre a água e bola mostram a modalidade; sem texto que entregue a resposta (só patrocinadores).",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que modalidade esportiva é esta?",
+      "tipo": "multipla",
+      "resposta": "Caiaque polo",
+      "distratores": [
+        "Polo aquático",
+        "Canoagem slalom",
+        "Remo"
+      ],
+      "ancora": {
+        "nome": "Canoa polo",
+        "descricao": "Esporte coletivo de caiaques em que duas equipes tentam marcar gols numa meta suspensa sobre a água.",
+        "variantes": [
+          "Caiaque polo",
+          "Canoe polo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Moto e helicóptero no deserto não identificam o Rali Dakar com unicidade; serve para vários ralis no deserto."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, com números de peito e marca visíveis."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoas comuns na imagem e a pergunta sobre o green se responderia só pela descrição, sem a figura."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Estádio pouco reconhecível, com a resposta não única diante da imagem; texto de US Open e Rolex visível."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rampas, corrimões e bowl típicos de skatepark, sem texto relevante nem pessoas.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "pergunta": "Que tipo de espaço esportivo é este?",
+      "tipo": "multipla",
+      "resposta": "Pista de skate",
+      "distratores": [
+        "Pista de motocross",
+        "Quadra de handebol",
+        "Pista de atletismo"
+      ],
+      "ancora": {
+        "nome": "Pista de skate",
+        "descricao": "Espaço com rampas, corrimões e bowls projetado para skate e esportes sobre rodas.",
+        "variantes": [
+          "Skatepark",
+          "Skate park"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Barco longo com remadores em fila e cabeça de dragão na proa, em evento público; sem texto legível que entregue.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que embarcação tradicional chinesa é esta?",
+      "tipo": "aberta",
+      "resposta": "Barco-dragão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Barco-dragão",
+        "descricao": "Embarcação longa, remada por equipes ao ritmo de um tambor, com cabeça de dragão na proa, usada em regatas tradicionais chinesas.",
+        "variantes": [
+          "Dragon boat",
+          "Barco dragão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Espada curta sem contexto; não se distingue com segurança de um katana ou outra lâmina, então a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Diagrama limpo, sem texto, com a linha tracejada e um atacante além do penúltimo defensor, ilustrando o impedimento.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que regra do futebol este diagrama ilustra?",
+      "tipo": "aberta",
+      "resposta": "Impedimento",
+      "distratores": [],
+      "ancora": {
+        "nome": "Impedimento",
+        "descricao": "Regra do futebol que pune o jogador posicionado à frente da bola e do penúltimo adversário quando recebe o passe.",
+        "variantes": [
+          "Offside",
+          "Fora de jogo"
+        ]
+      }
+    }
+  ]
+}

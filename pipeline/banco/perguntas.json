@@ -413233,5 +413233,120 @@
       "autor": "Laboratoires Servier",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q20782",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "mosquetao",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que equipamento usado na escalada é este?",
+    "resposta": "Mosquetão",
+    "distratores": [
+      "Cadeirinha",
+      "Grampo",
+      "Fita expressa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carabiner",
+      "https://pt.wikipedia.org/wiki/Mosquet%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q20782.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Carabiner_for_climbing_Petzl_ball_lock.JPG",
+      "autor": "Stefan Bellini",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q20783",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "canoa_polo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que modalidade esportiva é esta?",
+    "resposta": "Caiaque polo (ou canoa polo)",
+    "distratores": [
+      "Polo aquático",
+      "Canoagem slalom",
+      "Remo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Canoe_polo",
+      "https://pt.wikipedia.org/wiki/Caiaque_polo"
+    ],
+    "imagem": {
+      "arquivo": "q20783.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:European_Canoe_Polo_Championship_2013,_Poznan_(7).JPG",
+      "autor": "MOs810",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q20784",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "pista_de_skate",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de espaço esportivo é este?",
+    "resposta": "Pista de skate",
+    "distratores": [
+      "Pista de motocross",
+      "Quadra de handebol",
+      "Pista de atletismo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Skatepark",
+      "https://pt.wikipedia.org/wiki/Skatepark"
+    ],
+    "imagem": {
+      "arquivo": "q20784.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Danga_Bay_Skate_Park.jpg",
+      "autor": "Chongkian",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20785",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "barco_dragao",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que embarcação tradicional chinesa é esta?",
+    "resposta": "Barco-dragão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dragon_boat",
+      "https://pt.wikipedia.org/wiki/Barco-drag%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q20785.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dragon_boat_-_Cantonese.JPG",
+      "autor": "Earthengine (Wikimedia Commons)",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q20786",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "impedimento",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que regra do futebol este diagrama ilustra?",
+    "resposta": "Impedimento",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Offside_%28association_football%29",
+      "https://pt.wikipedia.org/wiki/Impedimento_%28futebol%29"
+    ],
+    "imagem": {
+      "arquivo": "q20786.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Offsidelarge.svg",
+      "autor": "NielsF",
+      "licenca": "CC BY 2.5"
+    }
   }
 ]

@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pela regra da imagem coberta, 'prender a corda' já leva a escalada entre as opções, e a figura vira enfeite. Além disso, o mosquetão também é usado em espeleologia e canyoning, então a resposta não é única. A reescrita pede o nome do equipamento.",
+      "reescrita": {
+        "pergunta": "Que equipamento usado na escalada é este?",
+        "resposta": "Mosquetão",
+        "distratores": [
+          "Cadeirinha",
+          "Grampo",
+          "Fita expressa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos mostram que o esporte tem dois nomes, canoe polo e kayak polo. Como a 'mostra' usa canoa polo, a resposta precisa registrar os dois para ser justa.",
+      "reescrita": {
+        "pergunta": "Que modalidade esportiva é esta?",
+        "resposta": "Caiaque polo (ou canoa polo)",
+        "distratores": [
+          "Polo aquático",
+          "Canoagem slalom",
+          "Remo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta. Os distratores são de outros espaços esportivos e nenhum descreve a imagem. O trecho confirma que o espaço é construído para skate.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia nem deriva da resposta. 'Embarcação tradicional chinesa' ajuda sem entregar, e os trechos confirmam a origem na China.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é curta e o enunciado não vaza a resposta. Os trechos confirmam que o impedimento é uma regra do futebol. O diagrama é um único assunto e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}
