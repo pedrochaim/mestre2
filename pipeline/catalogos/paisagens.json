@@ -971,7 +971,7 @@
       "titulo": "en:Everglades",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Deserto do Kalahari",
@@ -1237,7 +1237,7 @@
       "titulo": "en:Rapids",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Cenote",
@@ -1300,7 +1300,7 @@
       "titulo": "pt:Arpoador",
       "camada": 2,
       "destino": 3,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Pedra da Galinha Choca",
@@ -1349,7 +1349,7 @@
       "titulo": "en:Shiprock",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Raja Ampat",
@@ -1678,6 +1678,286 @@
       "titulo": "pt:Salto do Itiquira",
       "camada": 3,
       "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Patagônia",
+      "titulo": "en:Patagonia",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Praia do Leblon",
+      "titulo": "pt:Praia do Leblon",
+      "camada": 1,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Baía",
+      "titulo": "en:Bay",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Vale",
+      "titulo": "en:Valley",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Planície",
+      "titulo": "en:Plain",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Planalto",
+      "titulo": "en:Plateau",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cordilheira",
+      "titulo": "en:Mountain range",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Colina",
+      "titulo": "en:Hill",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fonte termal",
+      "titulo": "en:Hot spring",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Chapada",
+      "titulo": "pt:Chapada",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Estuário",
+      "titulo": "en:Estuary",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Redemoinho",
+      "titulo": "en:Whirlpool",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Dolina",
+      "titulo": "en:Sinkhole",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cratera de impacto",
+      "titulo": "en:Impact crater",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha de Santa Catarina",
+      "titulo": "pt:Ilha de Santa Catarina",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Mata de Araucárias",
+      "titulo": "en:Araucaria moist forests",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Big Sur",
+      "titulo": "en:Big Sur",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cabo da Roca",
+      "titulo": "en:Cabo da Roca",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Diamond Head",
+      "titulo": "en:Diamond Head, Hawaii",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eyjafjallajökull",
+      "titulo": "en:Eyjafjallajökull",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Vale Sagrado dos Incas",
+      "titulo": "en:Sacred Valley",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sigiriya",
+      "titulo": "en:Sigiriya",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Parque Nacional de Banff",
+      "titulo": "en:Banff National Park",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Terra do Fogo",
+      "titulo": "en:Tierra del Fuego",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Pitons de Santa Lúcia",
+      "titulo": "en:Pitons (Saint Lucia)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Huanglong",
+      "titulo": "en:Huanglong",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dallol",
+      "titulo": "en:Dallol (hydrothermal field)",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Old Man of Storr",
+      "titulo": "en:Old Man of Storr",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vestrahorn",
+      "titulo": "en:Vestrahorn",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bungle Bungle",
+      "titulo": "en:Bungle Bungle Range",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lago Tekapo",
+      "titulo": "en:Lake Tekapo",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mammoth Hot Springs",
+      "titulo": "en:Mammoth Hot Springs",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rochedo Percé",
+      "titulo": "en:Percé Rock",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Subterrâneo de Puerto Princesa",
+      "titulo": "en:Puerto Princesa Subterranean River National Park",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tômbolo",
+      "titulo": "en:Tombolo",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Restinga",
+      "titulo": "en:Restinga",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapada das Mesas",
+      "titulo": "pt:Parque Nacional da Chapada das Mesas",
+      "camada": 3,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cachoeira Staubbach",
+      "titulo": "en:Staubbach Falls",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Serra do Cipó",
+      "titulo": "pt:Parque Nacional da Serra do Cipó",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Þingvellir",
+      "titulo": "en:Þingvellir",
+      "camada": 3,
+      "destino": 0,
       "status": "nova"
     }
   ]

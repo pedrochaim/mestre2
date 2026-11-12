@@ -1,0 +1,122 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vila de pescadores num fiorde: não é reconhecível como Patagônia; paisagem genérica de montanha e água."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Campo alagado de capim sem elemento distintivo; confundível com qualquer pântano ou pradaria."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Enseada costeira com falésias, sem identificação possível; baía genérica e resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida da Pedra do Arpoador, sem texto, reconhecível.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que formação rochosa à beira-mar, numa cidade brasileira, aparece nesta imagem?",
+      "resposta": "Pedra do Arpoador",
+      "distratores": [
+        "Pedra da Gávea",
+        "Pão de Açúcar",
+        "Morro Dois Irmãos"
+      ],
+      "ancora": {
+        "nome": "Arpoador",
+        "descricao": "Praia e formação rochosa no bairro de Ipanema, na cidade do Rio de Janeiro, conhecida entre os surfistas.",
+        "variantes": [
+          "Pedra do Arpoador",
+          "Praia do Arpoador"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Domos de arenito listrado muito característicos, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam estas formações de arenito listrado, em forma de cúpulas?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Namíbia",
+        "Estados Unidos",
+        "China"
+      ],
+      "ancora": {
+        "nome": "Bungle Bungle",
+        "descricao": "Cordilheira de cúpulas de arenito listrado no Parque Nacional Purnululu, na região de Kimberley, Austrália Ocidental.",
+        "variantes": [
+          "Cordilheira Bungle Bungle",
+          "Bungle Bungle Range",
+          "Purnululu"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Água turva borbulhando com vapor; não fica claro que é fonte termal e pode ser confundida com outros fenômenos."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em caiaques e botes em primeiro plano; local não reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Shiprock isolado e inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que formação rochosa isolada, no deserto do sudoeste dos Estados Unidos, é esta?",
+      "resposta": "Shiprock",
+      "distratores": [
+        "Devils Tower",
+        "Spider Rock",
+        "Chimney Rock"
+      ],
+      "ancora": {
+        "nome": "Shiprock",
+        "descricao": "Monadnock de rocha vulcânica de cerca de 482 metros de altura, no território Navajo, no Novo México, Estados Unidos.",
+        "variantes": [
+          "Tsé Bitʼaʼí",
+          "Rocha com Asas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Planície agrícola genérica, sem traço que permita identificar o local; resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vista aérea de geleiras que inclui também a calota vizinha (Mýrdalsjökull); não identificável com segurança."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Cachoeira sem traço que a ligue à Chapada das Mesas; local não reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista aérea de bairros do Rio onde Leblon e Ipanema se confundem; resposta não única."
+    }
+  ]
+}

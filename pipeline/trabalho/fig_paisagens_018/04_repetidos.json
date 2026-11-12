@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que formação rochosa à beira-mar, numa cidade brasileira, aparece nesta imagem?",
+        "resposta": "Pedra do Arpoador"
+      },
+      "existentes": [
+        {
+          "id": "q16899",
+          "pergunta": "Que ponto do Rio de Janeiro é esta pedra entre duas praias famosas?",
+          "resposta": "Arpoador"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que formação rochosa isolada, no deserto do sudoeste dos Estados Unidos, é esta?",
+        "resposta": "Shiprock"
+      },
+      "existentes": [
+        {
+          "id": "q19913",
+          "pergunta": "Que formação rochosa isolada no deserto do sudoeste dos Estados Unidos é esta?",
+          "resposta": "Shiprock"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a mesma formação (Pedra do Arpoador, Rio de Janeiro) a partir da imagem; a resposta é o mesmo fato.",
+      "id_existente": "q16899"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Perguntas praticamente idênticas, mesma resposta (Shiprock).",
+      "id_existente": "q19913"
+    }
+  ]
+}
