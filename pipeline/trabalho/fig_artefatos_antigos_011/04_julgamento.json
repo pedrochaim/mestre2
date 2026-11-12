@@ -1,0 +1,441 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tumba de Nefertari",
+        "descricao": "Tumba QV66 de Nefertari, esposa de Ramsés II, no Vale das Rainhas, famosa por suas pinturas murais.",
+        "variantes": [
+          "QV66",
+          "Tumba de Nefertari QV66"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "busto_de_nefertiti",
+          "nome": "Busto de Nefertiti",
+          "descricao": "Busto pintado de calcário e estuque que retrata a rainha Nefertiti, no Neues Museum de Berlim.",
+          "variantes": [
+            "Nefertiti Bust"
+          ]
+        },
+        {
+          "id": "tuba_uterina",
+          "nome": "Tuba uterina",
+          "descricao": "Órgão tubular pareado que liga o ovário ao útero, em corte histológico com mucosa muito pregueada.",
+          "variantes": [
+            "Trompa de Falópio",
+            "Tuba de Falópio",
+            "Trompa uterina"
+          ]
+        },
+        {
+          "id": "assuncao_da_virgem_ticiano",
+          "nome": "Assunção da Virgem (Ticiano)",
+          "descricao": "Retábulo de Ticiano na Basílica dos Frari, em Veneza, pintado entre 1515 e 1518.",
+          "variantes": [
+            "Assunta",
+            "Assunção de Frari"
+          ]
+        },
+        {
+          "id": "tubo_de_ensaio",
+          "nome": "Tubo de ensaio",
+          "descricao": "Vidraria de laboratório cilíndrica, aberta em cima e fechada embaixo, usada para conter amostras.",
+          "variantes": [
+            "Tubo de teste"
+          ]
+        },
+        {
+          "id": "i_ll_be_there_for_you",
+          "nome": "I'll Be There for You",
+          "descricao": "Canção de 1995 usada como tema de abertura da série Friends.",
+          "variantes": [
+            "Tema de Friends"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Têxteis de Paracas",
+        "descricao": "Bordados da cultura Paracas, usados para envolver múmias numa necrópole do litoral sul do Peru.",
+        "variantes": [
+          "Manto de Paracas",
+          "Mantos de Paracas",
+          "Paracas textiles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cranios_de_paracas",
+          "nome": "Crânios de Paracas",
+          "descricao": "Crânios alongados encontrados nos sítios da cultura Paracas, no litoral sul do Peru.",
+          "variantes": [
+            "Paracas skulls"
+          ]
+        },
+        {
+          "id": "mata_de_araucarias",
+          "nome": "Mata de Araucárias",
+          "descricao": "Floresta do planalto do Sul do Brasil dominada pelo pinheiro-do-paraná",
+          "variantes": [
+            "Floresta Ombrófila Mista",
+            "Floresta de Araucária"
+          ]
+        },
+        {
+          "id": "panteao_de_paris",
+          "nome": "Panteão de Paris",
+          "descricao": "Edifício neoclássico no Quartier Latin, em Paris, que guarda os restos de grandes personalidades francesas.",
+          "variantes": [
+            "Panthéon",
+            "Panteão"
+          ]
+        },
+        {
+          "id": "times_square",
+          "nome": "Times Square",
+          "descricao": "Praça e cruzamento comercial de Manhattan, em Nova York, famosa pelos painéis luminosos.",
+          "variantes": [
+            "Praça Times"
+          ]
+        },
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Vênus de Médici",
+        "descricao": "Escultura helenística em mármore de Afrodite, cópia do século primeiro a.C., exposta na Galeria Uffizi.",
+        "variantes": [
+          "Medici Venus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "venus_de_milo",
+          "nome": "Vênus de Milo",
+          "descricao": "Estátua grega de mármore no Louvre.",
+          "variantes": [
+            "Afrodite de Milo",
+            "Afrodite de Milos"
+          ]
+        },
+        {
+          "id": "clemente_vii",
+          "nome": "Clemente VII",
+          "descricao": "Papa de 1523 a 1534, nascido Giulio de Médici, que governava a Igreja durante o Saque de Roma de 1527.",
+          "variantes": [
+            "Papa Clemente VII",
+            "Giulio de' Medici"
+          ]
+        },
+        {
+          "id": "afrodite_de_cnido",
+          "nome": "Afrodite de Cnido",
+          "descricao": "Estátua grega de Afrodite nua criada por Praxíteles no século quatro a.C., conhecida por cópias romanas.",
+          "variantes": [
+            "Afrodite Cnídia",
+            "Aphrodite of Knidos",
+            "Vênus de Cnido"
+          ]
+        },
+        {
+          "id": "venus_de_urbino",
+          "nome": "Vênus de Urbino",
+          "descricao": "Quadro de Ticiano de 1538, na Galeria Uffizi.",
+          "variantes": []
+        },
+        {
+          "id": "venus_ao_espelho",
+          "nome": "Vênus ao Espelho",
+          "descricao": "Pintura de Diego Velázquez, de cerca de 1647 a 1651, com Vênus nua de costas olhando-se num espelho segurado por Cupido, na National Gallery de Londres.",
+          "variantes": [
+            "Rokeby Venus",
+            "Vênus de Rokeby",
+            "A Toilette de Vênus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Deffufa Ocidental de Kerma",
+        "descricao": "Grande edifício religioso de tijolos de barro da cidade de Kerma, na Núbia, no norte do Sudão.",
+        "variantes": [
+          "Western Deffufa",
+          "Deffufa de Kerma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "muro_das_lamentacoes",
+          "nome": "Muro das Lamentações",
+          "descricao": "Muro de contenção do Monte do Templo, em Jerusalém, lugar de oração judaica.",
+          "variantes": [
+            "Muro Ocidental",
+            "Kotel",
+            "Western Wall"
+          ]
+        },
+        {
+          "id": "frente_ocidental",
+          "nome": "Frente Ocidental",
+          "descricao": "Principal teatro de guerra terrestre da Primeira Guerra Mundial na Europa Ocidental, marcado por uma longa linha de trincheiras entre Alemanha e Aliados.",
+          "variantes": [
+            "Western Front",
+            "Front Ocidental"
+          ]
+        },
+        {
+          "id": "fundacao_de_roma",
+          "nome": "Fundação de Roma",
+          "descricao": "Fundação lendária da cidade de Roma por Rômulo.",
+          "variantes": [
+            "Founding of Rome"
+          ]
+        },
+        {
+          "id": "erupcao_minoica",
+          "nome": "Erupção minoica",
+          "descricao": "Grande erupção vulcânica de Thera, no mar Egeu, durante a Idade do Bronze.",
+          "variantes": [
+            "Erupção de Thera",
+            "Erupção de Santorini"
+          ]
+        },
+        {
+          "id": "efeito_werther",
+          "nome": "Efeito Werther",
+          "descricao": "Nome dado ao aumento de suicídios por imitação depois de casos amplamente divulgados.",
+          "variantes": [
+            "Werther effect",
+            "Suicídio por imitação"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Esfinge de Naxos",
+        "descricao": "Esfinge de mármore sobre coluna jônica, oferenda dos náxios ao santuário de Apolo em Delfos, de cerca de 560 a.C.",
+        "variantes": [
+          "Esfinge dos náxios",
+          "Sphinx of Naxos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esfinge_de_tebas",
+          "nome": "Esfinge de Tebas",
+          "descricao": "Monstro da mitologia grega com corpo de leão e cabeça de mulher que propunha um enigma aos viajantes de Tebas.",
+          "variantes": [
+            "Esfinge grega",
+            "Esfinge"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_tanis",
+          "nome": "Grande Esfinge de Tânis",
+          "descricao": "Esfinge egípcia de granito rosa achada nas ruínas do templo de Amon-Rá em Tânis, hoje no Louvre.",
+          "variantes": [
+            "Esfinge de Tânis",
+            "Great Sphinx of Tanis"
+          ]
+        },
+        {
+          "id": "desfile_das_delegacoes",
+          "nome": "Desfile das delegações",
+          "descricao": "Entrada das equipes nacionais na cerimônia de abertura dos Jogos Olímpicos.",
+          "variantes": [
+            "Parade of Nations",
+            "Desfile das nações"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "figa",
+          "nome": "Figa",
+          "descricao": "Gesto ou amuleto com o polegar entre dois dedos, usado na crença popular contra o mau-olhado.",
+          "variantes": [
+            "Figa de mão",
+            "Gesto da figa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Nice de Peônio",
+        "descricao": "Estátua de mármore da deusa Nice feita por Peônio de Mende por volta de 420 a.C. para o templo de Zeus em Olímpia.",
+        "variantes": [
+          "Nike de Paionios",
+          "Vitória de Peônio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vitoria_pirrica",
+          "nome": "Vitória pírrica",
+          "descricao": "Expressão para uma vitória obtida a um custo tão alto que equivale a uma derrota, inspirada em Pirro do Epiro.",
+          "variantes": [
+            "Vitória de Pirro",
+            "Pyrrhic victory"
+          ]
+        },
+        {
+          "id": "rainha_vitoria",
+          "nome": "Rainha Vitória",
+          "descricao": "Rainha do Reino Unido de 1837 a 1901, que deu nome à era vitoriana.",
+          "variantes": [
+            "Vitória do Reino Unido",
+            "Queen Victoria"
+          ]
+        },
+        {
+          "id": "pombo_coroado_de_victoria",
+          "nome": "Pombo-coroado-de-Victoria",
+          "descricao": "Grande pombo azulado da Nova Guiné com crista rendada de pontas brancas, Goura victoria.",
+          "variantes": [
+            "Goura victoria",
+            "Victoria crowned pigeon"
+          ]
+        },
+        {
+          "id": "vitoria_de_samotracia",
+          "nome": "Vitória de Samotrácia",
+          "descricao": "Escultura grega helenística de mármore de uma deusa alada, exposta no Louvre.",
+          "variantes": [
+            "Nike de Samotrácia",
+            "Winged Victory of Samothrace"
+          ]
+        },
+        {
+          "id": "copas_naipe",
+          "nome": "Copas (naipe)",
+          "descricao": "Naipe vermelho do baralho representado por corações, cujo nome em português vem do naipe de taças do baralho latino.",
+          "variantes": [
+            "Hearts",
+            "Naipe de copas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tumba de Nebamun",
+        "descricao": "Pinturas da tumba tebana de Nebamun, da 18ª dinastia egípcia, hoje expostas no Museu Britânico.",
+        "variantes": [
+          "Jardim de Nebamun",
+          "Pinturas de Nebamun",
+          "Tomb of Nebamun"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tumba_de_tutancamon",
+          "nome": "Tumba de Tutancâmon",
+          "descricao": "Tumba do faraó Tutancâmon no Vale dos Reis, catalogada como KV62 e encontrada quase intacta em 1922",
+          "variantes": [
+            "KV62"
+          ]
+        },
+        {
+          "id": "jardim_de_epicuro",
+          "nome": "Jardim de Epicuro",
+          "descricao": "Escola filosófica fundada por Epicuro em Atenas por volta de 306 a.C., numa propriedade com jardim.",
+          "variantes": [
+            "O Jardim",
+            "Kepos"
+          ]
+        },
+        {
+          "id": "pitagoras",
+          "nome": "Pitágoras",
+          "descricao": "Filósofo e matemático grego do século seis a.C., nascido em Samos, fundador da escola pitagórica.",
+          "variantes": [
+            "Pythagoras",
+            "Pitágoras de Samos"
+          ]
+        },
+        {
+          "id": "budas_de_bamiyan",
+          "nome": "Budas de Bamiyan",
+          "descricao": "Duas estátuas gigantes de Buda esculpidas num penhasco do vale de Bamiyan e destruídas em 2001",
+          "variantes": [
+            "Budas de Bamian"
+          ]
+        },
+        {
+          "id": "disco_de_nebra",
+          "nome": "Disco de Nebra",
+          "descricao": "Disco de bronze e ouro da Idade do Bronze, encontrado na Alemanha, com representações celestes.",
+          "variantes": [
+            "Nebra sky disc",
+            "Disco celeste de Nebra"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a tumba de Nefertari."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Têxteis de Paracas diferem dos crânios de Paracas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Vênus de Médici é uma escultura distinta das candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Deffufa de Kerma."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Esfinge de Naxos em Delfos é distinta das outras esfinges."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nice de Peônio é diferente da Vitória de Samotrácia."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tumba de Nebamun não corresponde a nenhuma candidata."
+    }
+  ]
+}

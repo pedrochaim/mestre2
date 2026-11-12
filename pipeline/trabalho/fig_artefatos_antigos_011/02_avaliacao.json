@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pintura mural nítida da rainha na tumba; hieróglifos não entregam a resposta ao público.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta pintura decora a tumba da grande esposa real de qual faraó?",
+      "resposta": "Ramsés II",
+      "distratores": [
+        "Tutmés III",
+        "Seti I",
+        "Amenhotep III"
+      ],
+      "ancora": {
+        "nome": "Tumba de Nefertari",
+        "descricao": "Tumba QV66 de Nefertari, esposa de Ramsés II, no Vale das Rainhas, famosa por suas pinturas murais.",
+        "variantes": [
+          "QV66",
+          "Tumba de Nefertari QV66"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bordados Paracas nítidos, um único tipo de objeto; reconhecível pelo estilo dos xamãs voadores.",
+      "destino": 2,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Estes bordados, achados numa necrópole, são da cultura Paracas. Em que país foram encontrados?",
+      "resposta": "Peru",
+      "distratores": [
+        "México",
+        "Bolívia",
+        "Equador"
+      ],
+      "ancora": {
+        "nome": "Têxteis de Paracas",
+        "descricao": "Bordados da cultura Paracas, usados para envolver múmias numa necrópole do litoral sul do Peru.",
+        "variantes": [
+          "Mantos de Paracas",
+          "Paracas textiles"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Faixa panorâmica de fragmentos de papiro, pouco legível no celular e pouco reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estátua nítida e reconhecível; a inscrição grega da base é minúscula e ilegível ao público.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta estátua de Afrodite, cópia romana de um original grego?",
+      "resposta": "Florença",
+      "distratores": [
+        "Roma",
+        "Nápoles",
+        "Paris"
+      ],
+      "ancora": {
+        "nome": "Vênus de Médici",
+        "descricao": "Escultura helenística em mármore de Afrodite, cópia do século primeiro a.C., exposta na Galeria Uffizi.",
+        "variantes": [
+          "Venus de' Medici",
+          "Medici Venus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ruína de tijolos de barro nítida, sem texto; reconhecível como a Deffufa de Kerma.",
+      "destino": 4,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta antiga construção de tijolos de barro, da cultura de Kerma?",
+      "resposta": "Sudão",
+      "distratores": [
+        "Egito",
+        "Etiópia",
+        "Chade"
+      ],
+      "ancora": {
+        "nome": "Deffufa Ocidental de Kerma",
+        "descricao": "Grande edifício religioso de tijolos de barro da cidade de Kerma, na Núbia, no norte do Sudão.",
+        "variantes": [
+          "Western Deffufa",
+          "Deffufa de Kerma"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Esfinge de mármore sobre capitel jônico, nítida e característica, sem texto.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século antes de Cristo foi erguida esta esfinge, oferenda ao santuário de Apolo?",
+      "resposta": "Século seis a.C.",
+      "distratores": [
+        "Século oito a.C.",
+        "Século quatro a.C.",
+        "Século dois a.C."
+      ],
+      "ancora": {
+        "nome": "Esfinge de Naxos",
+        "descricao": "Esfinge de mármore sobre coluna jônica, oferenda dos náxios ao santuário de Apolo em Delfos, de cerca de 560 a.C.",
+        "variantes": [
+          "Esfinge dos náxios",
+          "Sphinx of Naxos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma escadaria na selva com turistas, não os murais de Bonampak; não mostra a entidade."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Prisma de argila com escrita cuneiforme, duas vistas do mesmo objeto; sem texto que entregue a resposta.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este prisma de argila assírio narra o cerco a qual cidade, no reinado de Ezequias?",
+      "resposta": "Jerusalém",
+      "distratores": [
+        "Tebas",
+        "Damasco",
+        "Susa"
+      ],
+      "ancora": {
+        "nome": "Prisma de Senaqueribe",
+        "descricao": "Prisma de argila com os anais do rei assírio Senaqueribe, que descreve o cerco a Jerusalém; exemplar do Museu Britânico.",
+        "variantes": [
+          "Prisma de Taylor",
+          "Anais de Senaqueribe",
+          "Taylor Prism"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Estátua alada de Nice, sem cabeça e braços, nítida e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que santuário grego foi erguida esta estátua da deusa da vitória?",
+      "resposta": "Olímpia",
+      "distratores": [
+        "Delfos",
+        "Delos",
+        "Dodona"
+      ],
+      "ancora": {
+        "nome": "Nice de Peônio",
+        "descricao": "Estátua de mármore da deusa Nice feita por Peônio de Mende por volta de 420 a.C. para o templo de Zeus em Olímpia.",
+        "variantes": [
+          "Nike de Paionios",
+          "Vitória de Peônio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vista aérea com pessoas comuns em primeiro plano e sarcófago pouco reconhecível dentro de vitrine."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fragmento de pintura de tumba com tanque e jardim, nítido e sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica este fragmento de pintura de uma tumba egípcia de Tebas?",
+      "resposta": "Museu Britânico",
+      "distratores": [
+        "Louvre",
+        "Museu Egípcio do Cairo",
+        "Museu Egizio de Turim"
+      ],
+      "ancora": {
+        "nome": "Tumba de Nebamun",
+        "descricao": "Pinturas da tumba tebana de Nebamun, da 18ª dinastia egípcia, hoje expostas no Museu Britânico.",
+        "variantes": [
+          "Jardim de Nebamun",
+          "Pinturas de Nebamun",
+          "Tomb of Nebamun"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra a fachada de um restaurante com o nome visível, não as estelas dos Danzantes de Monte Albán."
+    }
+  ]
+}
