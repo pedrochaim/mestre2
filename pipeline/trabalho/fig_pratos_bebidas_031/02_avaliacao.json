@@ -1,0 +1,146 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem parece um pudim de leite com calda de caramelo; não dá para reconhecer o pudim de pão, e a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Suflê crescido na xícara, reconhecível pela massa aerada que sobe acima da borda.",
+      "ancora": {
+        "nome": "Suflê",
+        "descricao": "Prato assado à base de claras de ovo batidas que cresce no forno, doce ou salgado, originário da França.",
+        "variantes": [
+          "Soufflé"
+        ]
+      },
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país surgiu, no início do século dezoito, este prato assado?",
+      "resposta": "França",
+      "distratores": [
+        "Itália",
+        "Áustria",
+        "Suíça"
+      ]
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fatia de clafoutis de cerejas, reconhecível o bastante para um nível 1 aberto.",
+      "ancora": {
+        "nome": "Clafoutis",
+        "descricao": "Sobremesa francesa da região de Limousin, feita com frutas cobertas por massa líquida e assadas.",
+        "variantes": [
+          "Clafouti"
+        ]
+      },
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que sobremesa francesa é esta?",
+      "resposta": "Clafoutis"
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Copo de gelo raspado com calda, claro e legível. As pessoas ao fundo são pequenas e estão desfocadas.",
+      "ancora": {
+        "nome": "Raspadinha",
+        "descricao": "Sobremesa gelada feita de gelo raspado com calda saborizada.",
+        "variantes": [
+          "Gelo raspado",
+          "Snow cone",
+          "Shaved ice"
+        ]
+      },
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que sobremesa gelada é esta?",
+      "resposta": "Raspadinha",
+      "distratores": [
+        "Sorvete de massa",
+        "Sorbet",
+        "Picolé de frutas"
+      ]
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A caixa mostra o texto 'Christstollen', que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A foto das costelas na brasa está desfocada e queimada. Podem ser outros cortes ou preparos, então a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O curry alaranjado é indistinguível do tikka masala e de outros curries cremosos, então a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pani puri com as cascas fritas recheadas e a água temperada, reconhecível.",
+      "ancora": {
+        "nome": "Pani puri",
+        "descricao": "Petisco de rua do subcontinente indiano, feito de casca frita recheada e servida com água temperada.",
+        "variantes": [
+          "Panipuri",
+          "Golgappa",
+          "Phuchka"
+        ]
+      },
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que petisco de rua do sul da Ásia é este?",
+      "resposta": "Pani puri (golgappa)"
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Molho de carne moída num pote: pode ser bolonhesa, chili ou outro ragu, então a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A placa 'Turrón de Alicante' e a etiqueta 'Alicante' estão visíveis e entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Creme amarelo em pote de barro, que pode ser outro doce ou iogurte. Não permite reconhecer o kulfi."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Granola em pedaços, reconhecível pelos flocos de aveia em cachos.",
+      "ancora": {
+        "nome": "Granola",
+        "descricao": "Mistura de aveia, castanhas e mel assada até ficar crocante, comida no café da manhã.",
+        "variantes": []
+      },
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que alimento de café da manhã é este?",
+      "resposta": "Granola",
+      "distratores": [
+        "Aveia em flocos",
+        "Crumble",
+        "Farelo de trigo"
+      ]
+    }
+  ]
+}
