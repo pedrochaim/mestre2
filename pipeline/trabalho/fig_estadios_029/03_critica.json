@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Afirmação verdadeira (construído para a Copa de 1990, recebeu jogos). O enunciado não entrega a resposta e os distratores são estádios italianos críveis que a foto distingue.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sevilha tem outros estádios, e reconhecer La Cartuja em foto, em pergunta aberta, é difícil demais. Melhor como múltipla com distratores da mesma cidade.",
+      "reescrita": {
+        "pergunta": "Que estádio de Sevilha, na Espanha, aparece nesta foto?",
+        "resposta": "Estádio La Cartuja",
+        "distratores": [
+          "Estádio Ramón Sánchez-Pizjuán",
+          "Estádio Benito Villamarín",
+          "Estádio Vicente Calderón"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Estádio pouco conhecido para pergunta aberta, e a pista sobre atletismo vale para outros estádios colombianos. Melhor como múltipla com distratores do mesmo país.",
+      "reescrita": {
+        "pergunta": "Que estádio colombiano, usado para futebol e atletismo, aparece nesta foto?",
+        "resposta": "Estádio Pascual Guerrero",
+        "distratores": [
+          "Estádio El Campín",
+          "Estádio Atanasio Girardot",
+          "Estádio Metropolitano Roberto Meléndez"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 3 correto: é preciso reconhecer o estádio para responder. O fato está nos trechos, o enunciado não vaza a resposta e os distratores são times da NFL plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Riazor fica na Galícia, e a foto o distingue de Balaídos. O enunciado não entrega a resposta e a pergunta é curta e clara.",
+      "reescrita": null
+    }
+  ]
+}

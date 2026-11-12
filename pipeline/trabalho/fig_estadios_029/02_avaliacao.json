@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Interior com cobertura e pista de atletismo, sem texto que entregue o nome. Pouco óbvio, então vai em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estádio italiano, sede de jogos da Copa do Mundo de 1990, aparece nesta foto?",
+      "resposta": "Estádio delle Alpi",
+      "distratores": [
+        "Estádio San Siro",
+        "Estádio San Paolo",
+        "Estádio Marcantonio Bentegodi"
+      ],
+      "ancora": {
+        "nome": "Estádio delle Alpi",
+        "descricao": "Estádio de futebol e atletismo de Turim, Itália, casa de Juventus e Torino de 1990 a 2006, demolido em 2009.",
+        "variantes": [
+          "Stadio delle Alpi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome da cidade 'РОСТОВ' aparece escrito na cobertura interna, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Interior amplo, com abertura oval na cobertura e pista de atletismo. Não tem texto e a imagem é característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que estádio de Sevilha, na Espanha, aparece nesta foto?",
+      "resposta": "Estádio La Cartuja",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estádio La Cartuja",
+        "descricao": "Estádio de Sevilha, Espanha, concluído em 1999 para o Mundial de Atletismo, antes chamado Estádio Olímpico de Sevilha.",
+        "variantes": [
+          "Estadio de La Cartuja",
+          "La Cartuja",
+          "Estádio Olímpico de Sevilha"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A fachada traz 'REALE ARENA' escrito em letras grandes, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Há o nome 'Borussia-Park' na fachada e o escudo do clube, que entregam a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoas comuns ocupam o primeiro plano, há anúncios com texto e o estádio não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de jogo à noite, de baixa qualidade, sem traço arquitetônico que identifique o estádio. O escudo e o uniforme amarelo entregam o clube."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A fachada tem texto ('SCHARRENA'), que é outro nome e confunde a resposta. O estádio está em obras e a foto é distante."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Interior com pista azul, cadeiras coloridas e morros ao fundo, sem texto. Dá para reconhecer o estádio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que estádio colombiano, também usado para atletismo, aparece nesta foto?",
+      "resposta": "Estádio Pascual Guerrero",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estádio Pascual Guerrero",
+        "descricao": "Estádio olímpico de Cali, Colômbia, usado para futebol e atletismo, casa do América de Cali.",
+        "variantes": [
+          "Estadio Olímpico Pascual Guerrero",
+          "Pascual Guerrero"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada metálica com forma inconfundível, sem texto legível. Permite uma pergunta de nível 3 sobre o time que joga nele.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que time da NFL, o campeonato de futebol americano, manda seus jogos neste estádio?",
+      "resposta": "Arizona Cardinals",
+      "distratores": [
+        "Las Vegas Raiders",
+        "Houston Texans",
+        "Denver Broncos"
+      ],
+      "ancora": {
+        "nome": "State Farm Stadium",
+        "descricao": "Estádio de teto retrátil em Glendale, Arizona, casa do Arizona Cardinals e sede do Fiesta Bowl.",
+        "variantes": [
+          "Estádio State Farm",
+          "University of Phoenix Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arquibancadas com listras diagonais azuis e brancas e cobertura vermelha, sem placa com o nome. Os anúncios não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que estádio da Galícia, na Espanha, aparece nesta foto?",
+      "resposta": "Estádio Riazor",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estádio Riazor",
+        "descricao": "Estádio de A Coruña, Galícia, Espanha, casa do Deportivo de La Coruña e sede da Copa de 1982.",
+        "variantes": [
+          "Estadio Municipal de Riazor",
+          "Riazor",
+          "Abanca-Riazor"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto mostra o exterior de um prédio de pedra que parece de universidade. Não é reconhecível como arena e a resposta não é única diante da imagem."
+    }
+  ]
+}
