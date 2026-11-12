@@ -1,0 +1,407 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia 'leitoso' confirmada nas fontes; resposta específica e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato e etimologia sustentados pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta é o pai das Plêiades, então o ângulo correto é conexao, e não nome.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Na mitologia grega, as Plêiades eram sete irmãs. Elas eram filhas de qual titã, condenado a sustentar o céu nos ombros?",
+        "resposta": "Atlas",
+        "distratores": [
+          "Prometeu",
+          "Cronos",
+          "Hipérion"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pleiades_(Greek_mythology)",
+          "https://en.wikipedia.org/wiki/Pleiades"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ceres como deusa da agricultura e dos grãos confirmada; boa curiosidade etimológica.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Codinome Chaika (gaivota) confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Laika significa 'latidora' em russo, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Columbia confirmado; distratores são nomes reais de outros módulos Apollo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A âncora é a galáxia, mas o fato perguntado é do mito de Andrômeda e Perseu; âncora errada.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mercúrio como mensageiro dos deuses confirmado; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A descrição no enunciado quase entrega 'estrela da manhã' e há outros apelidos válidos (estrela do pastor), então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doze homens caminharam na Lua, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "É fato de Bandeiras e Símbolos, mal classificado em Astronomia, e pouco interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Volume 1.321 vezes o da Terra; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inclinação de cerca de 98 graus confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dia sideral cerca de quatro minutos mais curto, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Recessão de cerca de 38 mm por ano confirmada; distratores variam a escala.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fontes dão 225 a 240 milhões de anos; 230 é aproximação adequada.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Totalidade dura no máximo cerca de sete minutos e meio; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "18 espelhos hexagonais confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "13,8 bilhões de anos confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escorpião e Órion, mito confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Luas de Urano nomeadas a partir de Shakespeare; 'muitas' é preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fragmentos do Wright Flyer no kit pessoal de Armstrong, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Buzz Lightyear nomeado em homenagem a Aldrin, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Halley bancou a publicação dos Principia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Giotto di Bondone e o cometa na Adoração dos Magos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Transporte de 1887-88 a pedido de Pedro II, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cruzeiro de 1942 inspirado na constelação, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ascensão helíaca de Sírio antes da cheia do Nilo, confirmado no artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasceu 300 anos após a morte de Galileu; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O avião era um MiG-15UTI, jato de treino, e não um caça; a resposta precisa ser mais precisa.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Sete anos depois do seu voo histórico, Iuri Gagarin morreu num acidente, em 1968. Como foi esse acidente?",
+        "resposta": "Queda de um jato em voo de treino",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Terra cruza o plano dos anéis a cada 13 a 15 anos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'um astro' é genérica demais; pedir o nome Theia a torna específica.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Segundo a hipótese mais aceita, a Lua se formou há cerca de quatro bilhões e meio de anos, quando a Terra foi atingida por um planeta do tamanho de Marte. Que nome ele recebeu?",
+        "resposta": "Theia",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Giant-impact_hypothesis"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fusão nuclear no núcleo solar, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasa criada em 1958 após o Sputnik, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sobral fica no Ceará, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galileu nasceu em Pisa, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Netuno observado no Observatório de Berlim por Galle, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Voyager 1 entrou no espaço interestelar em 2012, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bendegó encontrado no sertão da Bahia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Huygens descreveu o anel em 1655, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Criado por decreto de Pedro I em 1827, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sagittarius A* no centro da Via Láctea, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sigma Octantis representa o Distrito Federal, confirmado; fato astronômico.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em português caiu em desambiguação e há dois apelidos (Intrometida e Intrusa); troquei a fonte e incluí ambos.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Além das quatro estrelas que formam a cruz, o Cruzeiro do Sul tem uma quinta, menor e fora do desenho. Que apelido ela tem no Brasil?",
+        "resposta": "Intrometida (ou Intrusa)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Epsilon_Crucis",
+          "https://en.wikipedia.org/wiki/Crux"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espelhos revestidos de ouro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Comparação entre apenas dois astros dá 50% de chute; pedir a proporção em múltipla escolha deixa a pergunta melhor.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "O diâmetro de Plutão equivale a cerca de dois terços do diâmetro de qual destes astros?",
+        "resposta": "Lua",
+        "distratores": [
+          "Mercúrio",
+          "Marte",
+          "Titã"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pluto",
+          "https://en.wikipedia.org/wiki/Moon"
+        ]
+      }
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Voyager 2 lançada em 20 de agosto, antes da Voyager 1; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Livro publicado em 1543, século dezesseis, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Retorno previsto para 2061, confirmado.",
+      "reescrita": null
+    }
+  ]
+}

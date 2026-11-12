@@ -1,0 +1,1140 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Galáxia",
+        "descricao": "Sistema enorme de estrelas, gás, poeira e matéria escura mantido unido pela gravidade, como a Via Láctea ou Andrômeda.",
+        "variantes": [
+          "Galaxy"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gal%C3%A1xia",
+          "https://en.wikipedia.org/wiki/Galaxy"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra galáxia vem do grego e lembra a faixa esbranquiçada que cruza o céu noturno. O que significa a sua raiz grega?",
+      "resposta": "Leite",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galaxy",
+        "https://pt.wikipedia.org/wiki/Gal%C3%A1xia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hélio",
+        "descricao": "Elemento químico de número atômico dois, gás nobre leve, identificado primeiro no espectro do Sol em 1868.",
+        "variantes": [
+          "Helium"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/H%C3%A9lio",
+          "https://en.wikipedia.org/wiki/Helium"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O hélio foi identificado primeiro na luz de um astro, durante um eclipse em 1868, e não aqui na Terra. De que palavra grega vem o seu nome?",
+      "resposta": "Hélios, o Sol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Helium",
+        "https://pt.wikipedia.org/wiki/H%C3%A9lio"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pleiades",
+        "nome": "Plêiades",
+        "descricao": "Aglomerado aberto de estrelas na constelação de Touro, conhecido no Brasil como Sete-Estrelo.",
+        "variantes": [
+          "Sete-Estrelo",
+          "Messier 45"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pleiades"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na mitologia grega, as Plêiades eram sete irmãs. Elas eram filhas de qual titã, condenado a sustentar o céu nos ombros?",
+      "resposta": "Atlas",
+      "distratores": [
+        "Prometeu",
+        "Cronos",
+        "Hipérion"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pleiades_(Greek_mythology)",
+        "https://en.wikipedia.org/wiki/Pleiades"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ceres",
+        "nome": "Ceres",
+        "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+        "variantes": [
+          "1 Ceres"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O planeta anão Ceres e a palavra cereal devem o nome à mesma deusa romana. Ela protegia o quê?",
+      "resposta": "A agricultura e as colheitas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ceres_(mythology)",
+        "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "valentina_tereshkova",
+        "nome": "Valentina Tereshkova",
+        "descricao": "Cosmonauta soviética, primeira mulher no espaço, na missão Vostok 6 em 1963.",
+        "variantes": [
+          "Valentina Tereshkova"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Durante o voo de 1963, Valentina Tereshkova falava com a Terra usando um codinome de rádio. Que ave esse codinome significa em russo?",
+      "resposta": "Gaivota",
+      "distratores": [
+        "Andorinha",
+        "Pomba",
+        "Águia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "laika",
+        "nome": "Laika",
+        "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
+        "variantes": [
+          "Лайка"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Laika"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome russo da cadela Laika, lançada no Sputnik 2, descreve um hábito comum dos cães. O que ele significa?",
+      "resposta": "Latidora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Laika"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "apollo_11",
+        "nome": "Apollo 11",
+        "descricao": "Missão da Nasa que levou os primeiros seres humanos à superfície da Lua.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apollo_11"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na Apollo 11, o módulo lunar se chamava Eagle, ou Águia. Que nome tinha o módulo de comando, que ficou na órbita da Lua?",
+      "resposta": "Columbia",
+      "distratores": [
+        "Odyssey",
+        "America",
+        "Yankee Clipper"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apollo_11"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "galaxia_de_andromeda",
+        "nome": "Galáxia de Andrômeda",
+        "descricao": "Galáxia espiral do Grupo Local, a cerca de dois milhões e meio de anos-luz da Terra.",
+        "variantes": [
+          "Messier 31",
+          "M31"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A galáxia de Andrômeda leva o nome de uma princesa mitológica acorrentada a uma rocha. Que herói grego a salvou de um monstro marinho?",
+      "resposta": "Perseu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Andromeda_(mythology)",
+        "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mercurio_2",
+        "nome": "Mercúrio",
+        "descricao": "Planeta mais próximo do Sol e o menor do Sistema Solar.",
+        "variantes": [
+          "Mercury"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mercury_(planet)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O planeta que gira mais depressa em volta do Sol recebeu o nome de um deus romano de sandálias aladas. Que função esse deus tinha?",
+      "resposta": "Mensageiro dos deuses",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mercury_(planet)",
+        "https://en.wikipedia.org/wiki/Mercury_(mythology)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "venus",
+        "nome": "Vênus",
+        "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+        "variantes": [
+          "Venus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/V%C3%AAnus_(planeta)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por brilhar forte no céu pouco antes do amanhecer, o planeta Vênus ganhou no Brasil um apelido popular de estrela. Qual?",
+      "resposta": "Estrela-d'alva (ou estrela da manhã)",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/V%C3%AAnus_(planeta)",
+        "https://en.wikipedia.org/wiki/Venus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "programa_apollo",
+        "nome": "Programa Apollo",
+        "descricao": "Programa espacial tripulado da NASA que levou astronautas à Lua entre 1969 e 1972.",
+        "variantes": [
+          "Apollo program"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apollo_program"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Somando todas as missões do programa Apollo, quantas pessoas caminharam na superfície da Lua?",
+      "resposta": "Doze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/List_of_Apollo_astronauts",
+        "https://en.wikipedia.org/wiki/Apollo_program"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bandeira_do_brasil",
+        "nome": "Bandeira do Brasil",
+        "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+        "variantes": [
+          "Bandeira nacional"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Cada estrela da bandeira do Brasil representa um estado ou o Distrito Federal. Quantas estrelas ela tem ao todo?",
+      "resposta": "Vinte e sete",
+      "distratores": [
+        "Vinte e seis",
+        "Vinte e quatro",
+        "Vinte e uma"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+        "https://en.wikipedia.org/wiki/Flag_of_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jupiter",
+        "nome": "Júpiter",
+        "descricao": "Quinto planeta a partir do Sol, o maior do Sistema Solar.",
+        "variantes": [
+          "Jupiter"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jupiter"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em volume, Júpiter é gigantesco. Aproximadamente quantos planetas do tamanho da Terra caberiam dentro dele?",
+      "resposta": "Cerca de 1.300",
+      "distratores": [
+        "Cerca de 100",
+        "Cerca de 318",
+        "Cerca de 10 mil"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jupiter"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "urano",
+        "nome": "Urano",
+        "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+        "variantes": [
+          "Uranus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uranus"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Urano gira praticamente deitado em relação à própria órbita. Seu eixo de rotação é inclinado em cerca de quantos graus?",
+      "resposta": "Cerca de 98 graus",
+      "distratores": [
+        "Cerca de 23 graus",
+        "Cerca de 45 graus",
+        "Cerca de 60 graus"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uranus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "terra",
+        "nome": "Terra",
+        "descricao": "Terceiro planeta a partir do Sol, o planeta onde vivemos.",
+        "variantes": [
+          "Earth"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Earth"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Medido em relação às estrelas distantes, o giro da Terra em torno de si é um pouco mais curto que vinte e quatro horas. Mais curto em quanto?",
+      "resposta": "Cerca de quatro minutos",
+      "distratores": [
+        "Cerca de um minuto",
+        "Cerca de dez minutos",
+        "Cerca de meia hora"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sidereal_time",
+        "https://en.wikipedia.org/wiki/Earth%27s_rotation"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lua",
+        "nome": "Lua",
+        "descricao": "Único satélite natural da Terra.",
+        "variantes": [
+          "Moon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moon"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A Lua está se afastando lentamente da Terra. Aproximadamente quanto ela se distancia de nós a cada ano?",
+      "resposta": "Cerca de 3,8 centímetros",
+      "distratores": [
+        "Cerca de 3,8 milímetros",
+        "Cerca de 38 centímetros",
+        "Cerca de 3,8 metros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tidal_acceleration",
+        "https://en.wikipedia.org/wiki/Moon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "via_lactea",
+        "nome": "Via Láctea",
+        "descricao": "A galáxia espiral onde fica o Sistema Solar.",
+        "variantes": [
+          "Milky Way"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Milky_Way"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O Sol carrega todo o Sistema Solar numa volta em torno do centro da Via Láctea. Quanto tempo dura, aproximadamente, uma volta completa?",
+      "resposta": "230 milhões de anos",
+      "distratores": [
+        "2 milhões de anos",
+        "23 milhões de anos",
+        "2 bilhões de anos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galactic_year",
+        "https://en.wikipedia.org/wiki/Milky_Way"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "eclipse_solar",
+        "nome": "Eclipse solar",
+        "descricao": "Fenômeno em que a Lua passa entre a Terra e o Sol e encobre o Sol total ou parcialmente.",
+        "variantes": [
+          "Eclipse do Sol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Solar_eclipse"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Num eclipse solar total, a fase em que o Sol fica completamente escondido pela Lua dura, no máximo, quanto tempo?",
+      "resposta": "Sete minutos e meio",
+      "distratores": [
+        "Trinta segundos",
+        "Vinte minutos",
+        "Uma hora e meia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Solar_eclipse"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "telescopio_espacial_james_webb",
+        "nome": "Telescópio Espacial James Webb",
+        "descricao": "Telescópio espacial infravermelho da NASA, ESA e CSA, lançado em 2021, com espelho primário de segmentos hexagonais dourados.",
+        "variantes": [
+          "James Webb",
+          "JWST"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O espelho principal do telescópio James Webb é montado com peças hexagonais encaixadas como um favo de mel. Quantas peças são?",
+      "resposta": "Dezoito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "big_bang",
+        "nome": "Big Bang",
+        "descricao": "Teoria cosmológica segundo a qual o universo se expande a partir de um estado inicial muito quente e denso.",
+        "variantes": [
+          "Grande Explosão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Big_Bang"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Segundo as medições mais aceitas da cosmologia, há quanto tempo o universo começou a se expandir no Big Bang?",
+      "resposta": "Cerca de 13,8 bilhões de anos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Age_of_the_universe",
+        "https://en.wikipedia.org/wiki/Big_Bang"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Órion (constelação)",
+        "descricao": "Constelação equatorial que representa o caçador da mitologia grega, com as Três Marias no cinturão e as estrelas Betelgeuse e Rigel.",
+        "variantes": [
+          "Orion",
+          "Órion"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Orion_(constellation)",
+          "https://pt.wikipedia.org/wiki/%C3%93rion_(constela%C3%A7%C3%A3o)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Num mito grego, o caçador Órion morreu picado por um animal, e os dois foram postos em lados opostos do céu. Que animal era esse?",
+      "resposta": "Escorpião",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Orion_(mythology)",
+        "https://en.wikipedia.org/wiki/Orion_(constellation)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "urano",
+        "nome": "Urano",
+        "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+        "variantes": [
+          "Uranus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uranus"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Muitas luas de Urano, como Miranda, Titânia e Oberon, têm nomes de personagens de qual dramaturgo?",
+      "resposta": "William Shakespeare",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moons_of_Uranus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Neil Armstrong",
+        "descricao": "Astronauta americano, comandante da Apollo 11 e primeiro ser humano a pisar na Lua, em 1969.",
+        "variantes": [
+          "Neil Alden Armstrong"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neil_Armstrong"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na Apollo 11, Neil Armstrong levou até a Lua pedacinhos de madeira e de tecido do avião pioneiro de quais inventores?",
+      "resposta": "Irmãos Wright",
+      "distratores": [
+        "Irmãos Lumière",
+        "Irmãos Montgolfier",
+        "Irmãos Voisin"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wright_Flyer",
+        "https://en.wikipedia.org/wiki/Neil_Armstrong"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Buzz Aldrin",
+        "descricao": "Astronauta americano da Apollo 11, segundo ser humano a pisar na Lua, nascido Edwin Aldrin.",
+        "variantes": [
+          "Edwin Aldrin",
+          "Edwin Eugene Aldrin Jr."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Buzz_Aldrin"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que personagem da animação Toy Story recebeu o nome em homenagem ao astronauta Edwin Aldrin, o segundo homem a pisar na Lua?",
+      "resposta": "Buzz Lightyear",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Buzz_Lightyear",
+        "https://en.wikipedia.org/wiki/Buzz_Aldrin"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "isaac_newton",
+        "nome": "Isaac Newton",
+        "descricao": "Polímata inglês, autor dos Principia e formulador da gravitação universal e da mecânica clássica.",
+        "variantes": [
+          "Sir Isaac Newton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Isaac_Newton"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que astrônomo inglês, amigo de Isaac Newton, pagou do próprio bolso a publicação dos Principia, em 1687?",
+      "resposta": "Edmond Halley",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+        "https://en.wikipedia.org/wiki/Edmond_Halley"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sonda Giotto",
+        "descricao": "Sonda da Agência Espacial Europeia que passou perto do núcleo do cometa Halley em 1986.",
+        "variantes": [
+          "Giotto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giotto_(spacecraft)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1986, a sonda europeia que se aproximou do cometa Halley recebeu o nome de qual pintor italiano, que retratou um cometa num afresco?",
+      "resposta": "Giotto di Bondone",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giotto_(spacecraft)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Meteorito do Bendegó",
+        "descricao": "Grande meteorito de ferro encontrado no sertão da Bahia em 1784 e exposto no Museu Nacional, no Rio de Janeiro.",
+        "variantes": [
+          "Bendegó"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bendeg%C3%B3_meteorite",
+          "https://pt.wikipedia.org/wiki/Meteorito_do_Bendeg%C3%B3"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No fim do século dezenove, que governante patrocinou o transporte do meteorito do Bendegó do sertão até o Rio de Janeiro?",
+      "resposta": "Dom Pedro II",
+      "distratores": [
+        "Dom Pedro I",
+        "Dom João VI",
+        "Marechal Deodoro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bendeg%C3%B3_meteorite",
+        "https://pt.wikipedia.org/wiki/Meteorito_do_Bendeg%C3%B3"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cruzeiro_do_sul",
+        "nome": "Cruzeiro do Sul",
+        "descricao": "Constelação do céu austral, presente na bandeira do Brasil.",
+        "variantes": [
+          "Crux",
+          "Cruzeiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crux"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1942, o Brasil trocou o mil-réis por uma nova moeda, batizada em homenagem a uma constelação do céu do sul. Que moeda era essa?",
+      "resposta": "Cruzeiro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cruzeiro_(moeda)",
+        "https://en.wikipedia.org/wiki/Brazilian_cruzeiro"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sirius",
+        "nome": "Sírius",
+        "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+        "variantes": [
+          "Sirius",
+          "Alfa do Cão Maior"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sirius"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No Egito antigo, a volta de Sírius ao céu da madrugada, depois de semanas sumida, anunciava qual acontecimento anual?",
+      "resposta": "A cheia do rio Nilo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sirius"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "stephen_hawking",
+        "nome": "Stephen Hawking",
+        "descricao": "Físico teórico e cosmólogo inglês, professor lucasiano em Cambridge, conhecido por estudos sobre buracos negros.",
+        "variantes": [
+          "Stephen William Hawking"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stephen_Hawking"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Stephen Hawking nasceu em janeiro de 1942, exatamente trezentos anos depois da morte de qual cientista italiano?",
+      "resposta": "Galileu Galilei",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stephen_Hawking"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "yuri_gagarin",
+        "nome": "Yuri Gagarin",
+        "descricao": "Cosmonauta soviético, primeiro ser humano a viajar ao espaço, em 1961.",
+        "variantes": [
+          "Iuri Gagarin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Sete anos depois do seu voo histórico, Iuri Gagarin morreu num acidente, em 1968. Como foi esse acidente?",
+      "resposta": "Queda de um caça em treino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aneis_de_saturno",
+        "nome": "Anéis de Saturno",
+        "descricao": "Sistema de anéis planetários que circunda Saturno, o mais extenso do Sistema Solar.",
+        "variantes": [
+          "Rings of Saturn"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Mais ou menos a cada quinze anos, os anéis de Saturno quase desaparecem quando vistos daqui. Por que isso acontece?",
+      "resposta": "Ficam de perfil para a Terra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lua",
+        "nome": "Lua",
+        "descricao": "Único satélite natural da Terra.",
+        "variantes": [
+          "Moon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a hipótese mais aceita pelos cientistas, como a Lua se formou, há cerca de quatro bilhões e meio de anos?",
+      "resposta": "Colisão de um astro com a Terra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giant-impact_hypothesis",
+        "https://en.wikipedia.org/wiki/Moon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sol",
+        "nome": "Sol",
+        "descricao": "Estrela no centro do Sistema Solar.",
+        "variantes": [
+          "Sun"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sun"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No núcleo do Sol, que processo transforma hidrogênio em hélio e produz a energia que chega até nós?",
+      "resposta": "Fusão nuclear",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sun"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sputnik_1",
+        "nome": "Sputnik 1",
+        "descricao": "Primeiro satélite artificial da Terra, lançado pela União Soviética em 1957.",
+        "variantes": [
+          "Sputnik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sputnik_1"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1958, abalado pelo lançamento do Sputnik soviético, o governo dos Estados Unidos criou qual agência espacial?",
+      "resposta": "Nasa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sputnik_crisis",
+        "https://en.wikipedia.org/wiki/NASA"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "eclipse_solar_de_29_de_maio_de_1919",
+        "nome": "Eclipse solar de 29 de maio de 1919",
+        "descricao": "Eclipse total do Sol observado em Sobral e na ilha do Príncipe, que ajudou a confirmar a relatividade geral.",
+        "variantes": [
+          "Eclipse de Sobral"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eddington_experiment"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O eclipse de 1919 que ajudou a confirmar a teoria de Einstein foi observado em Sobral e numa ilha africana. Em que estado fica Sobral?",
+      "resposta": "Ceará",
+      "distratores": [
+        "Piauí",
+        "Rio Grande do Norte",
+        "Pernambuco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eddington_experiment",
+        "https://pt.wikipedia.org/wiki/Sobral_(Cear%C3%A1)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "galileu_galilei",
+        "nome": "Galileu Galilei",
+        "descricao": "Astrônomo, físico e engenheiro italiano (1564–1642), pai da astronomia observacional.",
+        "variantes": [
+          "Galileo Galilei"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1564, em qual cidade italiana nasceu Galileu Galilei?",
+      "resposta": "Pisa",
+      "distratores": [
+        "Florença",
+        "Pádua",
+        "Veneza"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "netuno",
+        "nome": "Netuno",
+        "descricao": "Oitavo planeta a partir do Sol, um gigante gelado.",
+        "variantes": [
+          "Neptune"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neptune"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1846, guiado por cálculos, um astrônomo identificou Netuno como planeta pela primeira vez. Em que cidade ficava o observatório?",
+      "resposta": "Berlim",
+      "distratores": [
+        "Paris",
+        "Londres",
+        "Viena"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Discovery_of_Neptune"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "voyager_1",
+        "nome": "Voyager 1",
+        "descricao": "Sonda espacial da NASA lançada em 1977, objeto humano mais distante da Terra; gêmea da Voyager 2.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Voyager_1"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2012, a Voyager 1 se tornou o primeiro objeto feito por humanos a deixar a bolha formada pelo vento solar. Em que região ela entrou?",
+      "resposta": "Espaço interestelar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Voyager_1"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Meteorito do Bendegó",
+        "descricao": "Grande meteorito de ferro encontrado no sertão da Bahia em 1784 e exposto no Museu Nacional, no Rio de Janeiro.",
+        "variantes": [
+          "Bendegó"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bendeg%C3%B3_meteorite",
+          "https://pt.wikipedia.org/wiki/Meteorito_do_Bendeg%C3%B3"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O meteorito do Bendegó, que resistiu ao incêndio do Museu Nacional em 2018, foi encontrado no sertão de qual estado?",
+      "resposta": "Bahia",
+      "distratores": [
+        "Minas Gerais",
+        "Pernambuco",
+        "Goiás"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bendeg%C3%B3_meteorite",
+        "https://pt.wikipedia.org/wiki/Meteorito_do_Bendeg%C3%B3"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aneis_de_saturno",
+        "nome": "Anéis de Saturno",
+        "descricao": "Sistema de anéis planetários que circunda Saturno, o mais extenso do Sistema Solar.",
+        "variantes": [
+          "Rings of Saturn"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Galileu viu formas estranhas dos dois lados de Saturno, sem entender o que eram. Que astrônomo explicou, em meados do século dezessete, que eram um anel?",
+      "resposta": "Christiaan Huygens",
+      "distratores": [
+        "Giovanni Cassini",
+        "Johannes Kepler",
+        "Edmond Halley"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+        "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Observatório Nacional",
+        "descricao": "Instituição brasileira de pesquisa em astronomia, geofísica e metrologia do tempo, criada em 1827 no Rio de Janeiro.",
+        "variantes": [
+          "Imperial Observatório do Rio de Janeiro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Observat%C3%B3rio_Nacional"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O Observatório Nacional, no Rio de Janeiro, é uma das instituições científicas mais antigas do Brasil. Que governante o criou, em 1827?",
+      "resposta": "Dom Pedro I",
+      "distratores": [
+        "Dom Pedro II",
+        "Dom João VI",
+        "José Bonifácio"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Observat%C3%B3rio_Nacional"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "via_lactea",
+        "nome": "Via Láctea",
+        "descricao": "A galáxia espiral onde fica o Sistema Solar.",
+        "variantes": [
+          "Milky Way"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Milky_Way"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No coração da Via Láctea há um buraco negro com milhões de vezes a massa do Sol. Como ele se chama?",
+      "resposta": "Sagitário A estrela",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sagittarius_A*",
+        "https://en.wikipedia.org/wiki/Milky_Way"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bandeira_do_brasil",
+        "nome": "Bandeira do Brasil",
+        "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+        "variantes": [
+          "Bandeira nacional"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na bandeira do Brasil, o Distrito Federal é representado por uma estrela discreta, bem perto do polo sul celeste. Que estrela é essa?",
+      "resposta": "Sigma Octantis",
+      "distratores": [
+        "Acrux",
+        "Canopus",
+        "Antares"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+        "https://en.wikipedia.org/wiki/Sigma_Octantis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cruzeiro_do_sul",
+        "nome": "Cruzeiro do Sul",
+        "descricao": "Constelação do céu austral, presente na bandeira do Brasil.",
+        "variantes": [
+          "Crux",
+          "Cruzeiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crux"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Além das quatro estrelas que formam a cruz, o Cruzeiro do Sul tem uma quinta, menor e fora do desenho. Que apelido ela tem no Brasil?",
+      "resposta": "Intrometida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Epsilon_Crucis",
+        "https://pt.wikipedia.org/wiki/Cruzeiro_do_Sul"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "telescopio_espacial_james_webb",
+        "nome": "Telescópio Espacial James Webb",
+        "descricao": "Telescópio espacial infravermelho da NASA, ESA e CSA, lançado em 2021, com espelho primário de segmentos hexagonais dourados.",
+        "variantes": [
+          "James Webb",
+          "JWST"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Os espelhos do telescópio James Webb são cobertos por uma camada finíssima de um metal que reflete muito bem o infravermelho. Que metal é esse?",
+      "resposta": "Ouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "plutao",
+        "nome": "Plutão",
+        "descricao": "Planeta anão do Cinturão de Kuiper, descoberto em 1930 e considerado o nono planeta até 2006.",
+        "variantes": [
+          "Pluto",
+          "134340 Plutão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pluto"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Plutão foi chamado de planeta por mais de setenta anos. Em tamanho, quem é maior: Plutão ou a nossa Lua?",
+      "resposta": "A Lua",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pluto",
+        "https://en.wikipedia.org/wiki/Moon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "voyager_2",
+        "nome": "Voyager 2",
+        "descricao": "Sonda espacial da NASA lançada em 1977, única a visitar Urano e Netuno; ilustração da sonda do programa Voyager.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Voyager_2"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Apesar da numeração, uma das sondas Voyager partiu cerca de duas semanas antes da outra, em 1977. Qual delas foi lançada primeiro?",
+      "resposta": "Voyager 2",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Voyager_2",
+        "https://en.wikipedia.org/wiki/Voyager_1"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nicolau_copernico",
+        "nome": "Nicolau Copérnico",
+        "descricao": "Astrônomo polonês do Renascimento que propôs o modelo heliocêntrico.",
+        "variantes": [
+          "Nicolaus Copernicus",
+          "Mikołaj Kopernik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O livro em que Copérnico defendeu que a Terra gira em torno do Sol saiu no mesmo ano da morte dele. Em que século foi isso?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século quatorze",
+        "Século quinze",
+        "Século dezessete"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium",
+        "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cometa_halley",
+        "nome": "Cometa Halley",
+        "descricao": "Cometa periódico visível a olho nu que volta às proximidades da Terra em intervalos regulares.",
+        "variantes": [
+          "1P/Halley"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O cometa Halley passou perto do Sol pela última vez em 1986. Em que ano está previsto o seu próximo retorno?",
+      "resposta": "2061",
+      "distratores": [
+        "2056",
+        "2066",
+        "2076"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+      ]
+    }
+  ]
+}

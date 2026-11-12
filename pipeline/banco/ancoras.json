@@ -8493,7 +8493,8 @@
     "variantes": [
       "Sete-Estrelo",
       "M45",
-      "Subaru"
+      "Subaru",
+      "Messier 45"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Pleiades"
@@ -8701,7 +8702,8 @@
     "nome": "Laika",
     "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
     "variantes": [
-      "Kudryavka"
+      "Kudryavka",
+      "Лайка"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Laika"
@@ -117856,7 +117858,8 @@
     "nome": "Programa Apollo",
     "descricao": "Programa espacial tripulado da NASA que levou astronautas à Lua entre 1969 e 1972.",
     "variantes": [
-      "Projeto Apollo"
+      "Projeto Apollo",
+      "Apollo program"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Programa_Apollo"
@@ -246849,6 +246852,76 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Geronimo",
       "https://pt.wikipedia.org/wiki/Ger%C3%B4nimo"
+    ]
+  },
+  {
+    "id": "galaxia",
+    "nome": "Galáxia",
+    "descricao": "Sistema enorme de estrelas, gás, poeira e matéria escura mantido unido pela gravidade, como a Via Láctea ou Andrômeda.",
+    "variantes": [
+      "Galaxy"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Gal%C3%A1xia",
+      "https://en.wikipedia.org/wiki/Galaxy"
+    ]
+  },
+  {
+    "id": "orion_constelacao",
+    "nome": "Órion (constelação)",
+    "descricao": "Constelação equatorial que representa o caçador da mitologia grega, com as Três Marias no cinturão e as estrelas Betelgeuse e Rigel.",
+    "variantes": [
+      "Orion",
+      "Órion"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Orion_(constellation)",
+      "https://pt.wikipedia.org/wiki/%C3%93rion_(constela%C3%A7%C3%A3o)"
+    ]
+  },
+  {
+    "id": "neil_armstrong",
+    "nome": "Neil Armstrong",
+    "descricao": "Astronauta americano, comandante da Apollo 11 e primeiro ser humano a pisar na Lua, em 1969.",
+    "variantes": [
+      "Neil Alden Armstrong"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Neil_Armstrong"
+    ]
+  },
+  {
+    "id": "buzz_aldrin",
+    "nome": "Buzz Aldrin",
+    "descricao": "Astronauta americano da Apollo 11, segundo ser humano a pisar na Lua, nascido Edwin Aldrin.",
+    "variantes": [
+      "Edwin Aldrin",
+      "Edwin Eugene Aldrin Jr."
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Buzz_Aldrin"
+    ]
+  },
+  {
+    "id": "sonda_giotto",
+    "nome": "Sonda Giotto",
+    "descricao": "Sonda da Agência Espacial Europeia que passou perto do núcleo do cometa Halley em 1986.",
+    "variantes": [
+      "Giotto"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Giotto_(spacecraft)"
+    ]
+  },
+  {
+    "id": "observatorio_nacional",
+    "nome": "Observatório Nacional",
+    "descricao": "Instituição brasileira de pesquisa em astronomia, geofísica e metrologia do tempo, criada em 1827 no Rio de Janeiro.",
+    "variantes": [
+      "Imperial Observatório do Rio de Janeiro"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Observat%C3%B3rio_Nacional"
     ]
   }
 ]

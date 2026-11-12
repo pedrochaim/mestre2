@@ -415518,5 +415518,655 @@
       "autor": "Ben Wittick",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q20891",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "galaxia",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra galáxia vem do grego e lembra a faixa esbranquiçada que cruza o céu noturno. O que significa a sua raiz grega?",
+    "resposta": "Leite",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Galaxy",
+      "https://pt.wikipedia.org/wiki/Gal%C3%A1xia"
+    ]
+  },
+  {
+    "id": "q20892",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "pleiades",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Na mitologia grega, as Plêiades eram sete irmãs. Elas eram filhas de qual titã, condenado a sustentar o céu nos ombros?",
+    "resposta": "Atlas",
+    "distratores": [
+      "Prometeu",
+      "Cronos",
+      "Hipérion"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pleiades_(Greek_mythology)",
+      "https://en.wikipedia.org/wiki/Pleiades"
+    ]
+  },
+  {
+    "id": "q20893",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "ceres",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O planeta anão Ceres e a palavra cereal devem o nome à mesma deusa romana. Ela protegia o quê?",
+    "resposta": "A agricultura e as colheitas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ceres_(mythology)",
+      "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
+    ]
+  },
+  {
+    "id": "q20894",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "valentina_tereshkova",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Durante o voo de 1963, Valentina Tereshkova falava com a Terra usando um codinome de rádio. Que ave esse codinome significa em russo?",
+    "resposta": "Gaivota",
+    "distratores": [
+      "Andorinha",
+      "Pomba",
+      "Águia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+    ]
+  },
+  {
+    "id": "q20895",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "laika",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome russo da cadela Laika, lançada no Sputnik 2, descreve um hábito comum dos cães. O que ele significa?",
+    "resposta": "Latidora",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Laika"
+    ]
+  },
+  {
+    "id": "q20896",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "apollo_11",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na Apollo 11, o módulo lunar se chamava Eagle, ou Águia. Que nome tinha o módulo de comando, que ficou na órbita da Lua?",
+    "resposta": "Columbia",
+    "distratores": [
+      "Odyssey",
+      "America",
+      "Yankee Clipper"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apollo_11"
+    ]
+  },
+  {
+    "id": "q20897",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "mercurio_2",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O planeta que gira mais depressa em volta do Sol recebeu o nome de um deus romano de sandálias aladas. Que função esse deus tinha?",
+    "resposta": "Mensageiro dos deuses",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mercury_(planet)",
+      "https://en.wikipedia.org/wiki/Mercury_(mythology)"
+    ]
+  },
+  {
+    "id": "q20898",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "programa_apollo",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Somando todas as missões do programa Apollo, quantas pessoas caminharam na superfície da Lua?",
+    "resposta": "Doze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_Apollo_astronauts",
+      "https://en.wikipedia.org/wiki/Apollo_program"
+    ]
+  },
+  {
+    "id": "q20899",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "jupiter",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em volume, Júpiter é gigantesco. Aproximadamente quantos planetas do tamanho da Terra caberiam dentro dele?",
+    "resposta": "Cerca de 1.300",
+    "distratores": [
+      "Cerca de 100",
+      "Cerca de 318",
+      "Cerca de 10 mil"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jupiter"
+    ]
+  },
+  {
+    "id": "q20900",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "urano",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Urano gira praticamente deitado em relação à própria órbita. Seu eixo de rotação é inclinado em cerca de quantos graus?",
+    "resposta": "Cerca de 98 graus",
+    "distratores": [
+      "Cerca de 23 graus",
+      "Cerca de 45 graus",
+      "Cerca de 60 graus"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uranus"
+    ]
+  },
+  {
+    "id": "q20901",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "terra",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Medido em relação às estrelas distantes, o giro da Terra em torno de si é um pouco mais curto que vinte e quatro horas. Mais curto em quanto?",
+    "resposta": "Cerca de quatro minutos",
+    "distratores": [
+      "Cerca de um minuto",
+      "Cerca de dez minutos",
+      "Cerca de meia hora"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sidereal_time",
+      "https://en.wikipedia.org/wiki/Earth%27s_rotation"
+    ]
+  },
+  {
+    "id": "q20902",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "lua",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A Lua está se afastando lentamente da Terra. Aproximadamente quanto ela se distancia de nós a cada ano?",
+    "resposta": "Cerca de 3,8 centímetros",
+    "distratores": [
+      "Cerca de 3,8 milímetros",
+      "Cerca de 38 centímetros",
+      "Cerca de 3,8 metros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tidal_acceleration",
+      "https://en.wikipedia.org/wiki/Moon"
+    ]
+  },
+  {
+    "id": "q20903",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "via_lactea",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O Sol carrega todo o Sistema Solar numa volta em torno do centro da Via Láctea. Quanto tempo dura, aproximadamente, uma volta completa?",
+    "resposta": "230 milhões de anos",
+    "distratores": [
+      "2 milhões de anos",
+      "23 milhões de anos",
+      "2 bilhões de anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Galactic_year",
+      "https://en.wikipedia.org/wiki/Milky_Way"
+    ]
+  },
+  {
+    "id": "q20904",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "eclipse_solar",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Num eclipse solar total, a fase em que o Sol fica completamente escondido pela Lua dura, no máximo, quanto tempo?",
+    "resposta": "Sete minutos e meio",
+    "distratores": [
+      "Trinta segundos",
+      "Vinte minutos",
+      "Uma hora e meia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solar_eclipse"
+    ]
+  },
+  {
+    "id": "q20905",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "big_bang",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Segundo as medições mais aceitas da cosmologia, há quanto tempo o universo começou a se expandir no Big Bang?",
+    "resposta": "Cerca de 13,8 bilhões de anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Age_of_the_universe",
+      "https://en.wikipedia.org/wiki/Big_Bang"
+    ]
+  },
+  {
+    "id": "q20906",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "orion_constelacao",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Num mito grego, o caçador Órion morreu picado por um animal, e os dois foram postos em lados opostos do céu. Que animal era esse?",
+    "resposta": "Escorpião",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orion_(mythology)",
+      "https://en.wikipedia.org/wiki/Orion_(constellation)"
+    ]
+  },
+  {
+    "id": "q20907",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "urano",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Muitas luas de Urano, como Miranda, Titânia e Oberon, têm nomes de personagens de qual dramaturgo?",
+    "resposta": "William Shakespeare",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moons_of_Uranus"
+    ]
+  },
+  {
+    "id": "q20908",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "neil_armstrong",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Na Apollo 11, Neil Armstrong levou até a Lua pedacinhos de madeira e de tecido do avião pioneiro de quais inventores?",
+    "resposta": "Irmãos Wright",
+    "distratores": [
+      "Irmãos Lumière",
+      "Irmãos Montgolfier",
+      "Irmãos Voisin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wright_Flyer",
+      "https://en.wikipedia.org/wiki/Neil_Armstrong"
+    ]
+  },
+  {
+    "id": "q20909",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "buzz_aldrin",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que personagem da animação Toy Story recebeu o nome em homenagem ao astronauta Edwin Aldrin, o segundo homem a pisar na Lua?",
+    "resposta": "Buzz Lightyear",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Buzz_Lightyear",
+      "https://en.wikipedia.org/wiki/Buzz_Aldrin"
+    ]
+  },
+  {
+    "id": "q20910",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "isaac_newton",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que astrônomo inglês, amigo de Isaac Newton, pagou do próprio bolso a publicação dos Principia, em 1687?",
+    "resposta": "Edmond Halley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+      "https://en.wikipedia.org/wiki/Edmond_Halley"
+    ]
+  },
+  {
+    "id": "q20911",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sonda_giotto",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1986, a sonda europeia que se aproximou do cometa Halley recebeu o nome de qual pintor italiano, que retratou um cometa num afresco?",
+    "resposta": "Giotto di Bondone",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giotto_(spacecraft)"
+    ]
+  },
+  {
+    "id": "q20912",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "meteorito_do_bendego",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "No fim do século dezenove, que governante patrocinou o transporte do meteorito do Bendegó do sertão até o Rio de Janeiro?",
+    "resposta": "Dom Pedro II",
+    "distratores": [
+      "Dom Pedro I",
+      "Dom João VI",
+      "Marechal Deodoro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bendeg%C3%B3_meteorite",
+      "https://pt.wikipedia.org/wiki/Meteorito_do_Bendeg%C3%B3"
+    ]
+  },
+  {
+    "id": "q20913",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cruzeiro_do_sul",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1942, o Brasil trocou o mil-réis por uma nova moeda, batizada em homenagem a uma constelação do céu do sul. Que moeda era essa?",
+    "resposta": "Cruzeiro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cruzeiro_(moeda)",
+      "https://en.wikipedia.org/wiki/Brazilian_cruzeiro"
+    ]
+  },
+  {
+    "id": "q20914",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sirius",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No Egito antigo, a volta de Sírius ao céu da madrugada, depois de semanas sumida, anunciava qual acontecimento anual?",
+    "resposta": "A cheia do rio Nilo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sirius"
+    ]
+  },
+  {
+    "id": "q20915",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "yuri_gagarin",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Sete anos depois do seu voo histórico, Iuri Gagarin morreu num acidente, em 1968. Como foi esse acidente?",
+    "resposta": "Queda de um jato em voo de treino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+    ]
+  },
+  {
+    "id": "q20916",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "aneis_de_saturno",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Mais ou menos a cada quinze anos, os anéis de Saturno quase desaparecem quando vistos daqui. Por que isso acontece?",
+    "resposta": "Ficam de perfil para a Terra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+    ]
+  },
+  {
+    "id": "q20917",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "lua",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Segundo a hipótese mais aceita, a Lua se formou há cerca de quatro bilhões e meio de anos, quando a Terra foi atingida por um planeta do tamanho de Marte. Que nome ele recebeu?",
+    "resposta": "Theia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant-impact_hypothesis"
+    ]
+  },
+  {
+    "id": "q20918",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sol",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No núcleo do Sol, que processo transforma hidrogênio em hélio e produz a energia que chega até nós?",
+    "resposta": "Fusão nuclear",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sun"
+    ]
+  },
+  {
+    "id": "q20919",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "galileu_galilei",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1564, em qual cidade italiana nasceu Galileu Galilei?",
+    "resposta": "Pisa",
+    "distratores": [
+      "Florença",
+      "Pádua",
+      "Veneza"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Galileo_Galilei"
+    ]
+  },
+  {
+    "id": "q20920",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "netuno",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1846, guiado por cálculos, um astrônomo identificou Netuno como planeta pela primeira vez. Em que cidade ficava o observatório?",
+    "resposta": "Berlim",
+    "distratores": [
+      "Paris",
+      "Londres",
+      "Viena"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Discovery_of_Neptune"
+    ]
+  },
+  {
+    "id": "q20921",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "voyager_1",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 2012, a Voyager 1 se tornou o primeiro objeto feito por humanos a deixar a bolha formada pelo vento solar. Em que região ela entrou?",
+    "resposta": "Espaço interestelar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Voyager_1"
+    ]
+  },
+  {
+    "id": "q20922",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "aneis_de_saturno",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Galileu viu formas estranhas dos dois lados de Saturno, sem entender o que eram. Que astrônomo explicou, em meados do século dezessete, que eram um anel?",
+    "resposta": "Christiaan Huygens",
+    "distratores": [
+      "Giovanni Cassini",
+      "Johannes Kepler",
+      "Edmond Halley"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+    ]
+  },
+  {
+    "id": "q20923",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "observatorio_nacional",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O Observatório Nacional, no Rio de Janeiro, é uma das instituições científicas mais antigas do Brasil. Que governante o criou, em 1827?",
+    "resposta": "Dom Pedro I",
+    "distratores": [
+      "Dom Pedro II",
+      "Dom João VI",
+      "José Bonifácio"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Observat%C3%B3rio_Nacional"
+    ]
+  },
+  {
+    "id": "q20924",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "via_lactea",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No coração da Via Láctea há um buraco negro com milhões de vezes a massa do Sol. Como ele se chama?",
+    "resposta": "Sagitário A estrela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sagittarius_A*",
+      "https://en.wikipedia.org/wiki/Milky_Way"
+    ]
+  },
+  {
+    "id": "q20925",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "bandeira_do_brasil",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na bandeira do Brasil, o Distrito Federal é representado por uma estrela discreta, bem perto do polo sul celeste. Que estrela é essa?",
+    "resposta": "Sigma Octantis",
+    "distratores": [
+      "Acrux",
+      "Canopus",
+      "Antares"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil",
+      "https://en.wikipedia.org/wiki/Sigma_Octantis"
+    ]
+  },
+  {
+    "id": "q20926",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cruzeiro_do_sul",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Além das quatro estrelas que formam a cruz, o Cruzeiro do Sul tem uma quinta, menor e fora do desenho. Que apelido ela tem no Brasil?",
+    "resposta": "Intrometida (ou Intrusa)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Epsilon_Crucis",
+      "https://en.wikipedia.org/wiki/Crux"
+    ]
+  },
+  {
+    "id": "q20927",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "telescopio_espacial_james_webb",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os espelhos do telescópio James Webb são cobertos por uma camada finíssima de um metal que reflete muito bem o infravermelho. Que metal é esse?",
+    "resposta": "Ouro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+    ]
+  },
+  {
+    "id": "q20928",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "plutao",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "O diâmetro de Plutão equivale a cerca de dois terços do diâmetro de qual destes astros?",
+    "resposta": "Lua",
+    "distratores": [
+      "Mercúrio",
+      "Marte",
+      "Titã"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pluto",
+      "https://en.wikipedia.org/wiki/Moon"
+    ]
+  },
+  {
+    "id": "q20929",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "voyager_2",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Apesar da numeração, uma das sondas Voyager partiu cerca de duas semanas antes da outra, em 1977. Qual delas foi lançada primeiro?",
+    "resposta": "Voyager 2",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Voyager_2",
+      "https://en.wikipedia.org/wiki/Voyager_1"
+    ]
+  },
+  {
+    "id": "q20930",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "nicolau_copernico",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O livro em que Copérnico defendeu que a Terra gira em torno do Sol saiu no mesmo ano da morte dele. Em que século foi isso?",
+    "resposta": "Século dezesseis",
+    "distratores": [
+      "Século quatorze",
+      "Século quinze",
+      "Século dezessete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium",
+      "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+    ]
+  },
+  {
+    "id": "q20931",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cometa_halley",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O cometa Halley passou perto do Sol pela última vez em 1986. Em que ano está previsto o seu próximo retorno?",
+    "resposta": "2061",
+    "distratores": [
+      "2056",
+      "2066",
+      "2076"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+    ]
   }
 ]
