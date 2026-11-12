@@ -417938,5 +417938,69 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q21004",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "mascara_de_goleiro_de_hoquei",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que equipamento de proteção esportivo é este?",
+    "resposta": "Máscara de goleiro de hóquei",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Goaltender_mask"
+    ],
+    "imagem": {
+      "arquivo": "q21004.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Plante_Mask.jpg",
+      "autor": "Horge",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q21005",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "arco_recurvo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de arco de tiro é este?",
+    "resposta": "Arco recurvo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Recurve_bow",
+      "https://pt.wikipedia.org/wiki/Arco_recurvo"
+    ],
+    "imagem": {
+      "arquivo": "q21005.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Recurve_bow_0020.JPG",
+      "autor": "Sentinel7 at English Wikipedia",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q21006",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "esgrima_em_cadeira_de_rodas",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que modalidade paralímpica é esta?",
+    "resposta": "Esgrima em cadeira de rodas",
+    "distratores": [
+      "Tênis em cadeira de rodas",
+      "Rugby em cadeira de rodas",
+      "Basquete em cadeira de rodas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wheelchair_fencing",
+      "https://pt.wikipedia.org/wiki/Esgrima_em_cadeira_de_rodas"
+    ],
+    "imagem": {
+      "arquivo": "q21006.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Final_EMS-A_2013_Wheelchair_Fencing_WCH_t201328.jpg",
+      "autor": "Marie-Lan Nguyen",
+      "licenca": "CC BY 3.0"
+    }
   }
 ]

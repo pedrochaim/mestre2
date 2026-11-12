@@ -1,0 +1,169 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Patinadora artística de gelo, imagem clara, sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "pergunta": "Que modalidade olímpica de inverno é praticada nesta imagem?",
+      "tipo": "multipla",
+      "resposta": "Patinação artística",
+      "distratores": [
+        "Patinação de velocidade",
+        "Hóquei no gelo",
+        "Curling"
+      ],
+      "ancora": {
+        "nome": "Patinação no gelo",
+        "descricao": "Deslizar sobre superfície de gelo com patins de lâmina metálica, esporte e lazer.",
+        "variantes": [
+          "Patinação artística",
+          "Ice skating",
+          "Patinagem no gelo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Lutadores amadores em campeonato, pessoas comuns em primeiro plano, e há texto parcial ao fundo."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Máscara de fibra de vidro de goleiro, reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que equipamento de proteção esportivo é este?",
+      "tipo": "aberta",
+      "resposta": "Máscara de goleiro de hóquei",
+      "ancora": {
+        "nome": "Máscara de goleiro de hóquei",
+        "descricao": "Máscara que protege o rosto dos goleiros de hóquei contra o disco.",
+        "variantes": [
+          "Máscara de goleiro",
+          "Goalie mask",
+          "Hockey mask"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Estádio com letreiros visíveis (Fly Emirates, Hala Madrid, Adidas) que entregam a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Diagrama numerado com marca CAMP visível; não é uma imagem limpa."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Patinete infantil claro, sem texto nem pessoas.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que brinquedo e veículo de impulso com o pé é este?",
+      "tipo": "multipla",
+      "resposta": "Patinete",
+      "distratores": [
+        "Skate",
+        "Triciclo",
+        "Carrinho de rolimã"
+      ],
+      "ancora": {
+        "nome": "Patinete",
+        "descricao": "Veículo de duas rodas com guidão e plataforma, impulsionado pelo pé do condutor.",
+        "variantes": [
+          "Kick scooter",
+          "Scooter"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Corredores comuns em primeiro plano, com números de peito."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A bola traz 'KIN-BALL' escrito, entregando a resposta, e há pessoas comuns."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Paraquedas da cápsula, claros, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que equipamento está desacelerando a queda desta cápsula?",
+      "tipo": "multipla",
+      "resposta": "Paraquedas",
+      "distratores": [
+        "Parapente",
+        "Balão de ar quente",
+        "Asa-delta"
+      ],
+      "ancora": {
+        "nome": "Paraquedas",
+        "descricao": "Dispositivo que reduz a velocidade de descida de pessoas ou objetos pelo ar.",
+        "variantes": [
+          "Parachute"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arco recurvo olímpico com estabilizador e mira, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que tipo de arco de tiro é este?",
+      "tipo": "aberta",
+      "resposta": "Arco recurvo",
+      "ancora": {
+        "nome": "Arco recurvo",
+        "descricao": "Arco de tiro com as pontas das hastes curvadas para frente, usado no tiro com arco olímpico.",
+        "variantes": [
+          "Recurve bow",
+          "Arco olímpico"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Atletas públicos em esgrima paralímpica, nitidamente em cadeiras de rodas.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "pergunta": "Que modalidade paralímpica é esta?",
+      "tipo": "multipla",
+      "resposta": "Esgrima em cadeira de rodas",
+      "distratores": [
+        "Tênis em cadeira de rodas",
+        "Rugby em cadeira de rodas",
+        "Basquete em cadeira de rodas"
+      ],
+      "ancora": {
+        "nome": "Esgrima em cadeira de rodas",
+        "descricao": "Versão da esgrima para atletas com deficiência, disputada com as cadeiras fixas ao chão.",
+        "variantes": [
+          "Para esgrima",
+          "Wheelchair fencing"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Textos visíveis (Porsche, Michelin, '24h Le Mans' nas barreiras) entregam a resposta."
+    }
+  ]
+}

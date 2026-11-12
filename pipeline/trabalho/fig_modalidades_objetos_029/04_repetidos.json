@@ -1,0 +1,51 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que veículo de rua, usado como brinquedo e meio de transporte, é este?",
+        "resposta": "Patinete"
+      },
+      "existentes": [
+        {
+          "id": "q06472",
+          "pergunta": "Que veículo é este?",
+          "resposta": "Patinete"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que equipamento aparece aberto acima desta cápsula espacial?",
+        "resposta": "Paraquedas"
+      },
+      "existentes": [
+        {
+          "id": "q07633",
+          "pergunta": "Que equipamento é este?",
+          "resposta": "Paraquedas"
+        },
+        {
+          "id": "q19113",
+          "pergunta": "Em 1797, que francês saltou de um balão sobre Paris usando um paraquedas de seda, sem armação rígida, criado por ele mesmo?",
+          "resposta": "André-Jacques Garnerin"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q06472",
+      "motivo": "Ambas pedem identificar o veículo mostrado, resposta Patinete; mesma pergunta com mais detalhes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q07633",
+      "motivo": "Ambas pedem identificar o equipamento (paraquedas) a partir da imagem; mesmo fato."
+    }
+  ]
+}

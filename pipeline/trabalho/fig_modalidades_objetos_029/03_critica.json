@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A figura mostra patinação no gelo em geral, sem indicar a modalidade. Patinação artística, de velocidade e hóquei usam patins no gelo e todas são olímpicas de inverno, então a resposta não é única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento (nível 1). O enunciado não entrega a resposta e a máscara de goleiro de hóquei é identificável pela imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Veículo de impulso com o pé' descreve a função do patinete e, pelo teste da imagem coberta, permite responder sem ver a figura. O skate também é impulsionado com o pé. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que veículo de rua, usado como brinquedo e meio de transporte, é este?",
+        "resposta": "Patinete",
+        "distratores": [
+          "Skate",
+          "Triciclo",
+          "Carrinho de rolimã"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Desacelerando a queda' define a função do paraquedas e entrega a resposta sem a imagem. Troquei por um enunciado que aponta para a figura sem dar a função.",
+      "reescrita": {
+        "pergunta": "Que equipamento aparece aberto acima desta cápsula espacial?",
+        "resposta": "Paraquedas",
+        "distratores": [
+          "Parapente",
+          "Balão de ar quente",
+          "Asa-delta"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto (nível 1). O enunciado não vaza a resposta e o arco recurvo é o tipo olímpico, bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A esgrima em cadeira de rodas é modalidade paralímpica desde 1960, conforme os trechos. Os distratores são do mesmo tipo e não descrevem a imagem. O enunciado não vaza a resposta.",
+      "reescrita": null
+    }
+  ]
+}
