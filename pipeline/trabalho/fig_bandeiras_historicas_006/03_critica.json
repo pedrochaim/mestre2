@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A menção aos Reis Católicos e a Aragão permite responder sem ver a figura (teste da imagem coberta). O fato (união pessoal em 1469, século quinze) é sustentado pelo trecho em português. Reescrita remove a pista e exige reconhecer a bandeira.",
+      "reescrita": {
+        "pergunta": "Em que século esta coroa passou a ter os mesmos monarcas que a coroa de Aragão?",
+        "resposta": "Século quinze",
+        "distratores": [
+          "Século treze",
+          "Século quatorze",
+          "Século dezesseis"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regime terminou em 1975 com a morte de Franco, década de 1970, conforme os trechos. Enunciado não nomeia a entidade e não dá para responder sem a figura. Distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o reino ficava no norte da Grã-Bretanha, onde hoje é a Escócia. O enunciado não entrega a resposta sem a bandeira, e os distratores são do mesmo tipo e não estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a cidade-estado estava sob a proteção e a supervisão da Liga das Nações. O enunciado não nomeia a entidade e os distratores são críveis, têm no máximo 4 palavras e estão errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A expressão 'a maior da União Soviética' é uma pista que entrega a república e dispensa a figura. O fato (tratado de 1922, década de 1920) é sustentado pelos trechos.",
+      "reescrita": {
+        "pergunta": "Em que década esta república passou a integrar a União Soviética?",
+        "resposta": "Década de 1920",
+        "distratores": [
+          "Década de 1910",
+          "Década de 1930",
+          "Década de 1940"
+        ]
+      }
+    }
+  ]
+}

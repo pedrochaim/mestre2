@@ -1,0 +1,161 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Brasão de castelos e leões, reconhecível e sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século os reis desta coroa e os de Aragão passaram a reinar juntos, pelo casamento dos Reis Católicos?",
+      "resposta": "Século quinze",
+      "distratores": [
+        "Século treze",
+        "Século quatorze",
+        "Século dezesseis"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Coroa de Castela",
+        "descricao": "Reino medieval e moderno da Península Ibérica, formado em 1230 pela união de Castela e Leão, que durou até 1716.",
+        "variantes": [
+          "Coroa de Castela e Leão",
+          "Reino de Castela"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Cruz nórdica preta sobre fundo branco, genérica e não reconhecível; resposta não única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira com a águia de São João, marcante e distinta; os lemas são parte do emblema e não entregam o nome.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década terminou o regime que usava esta bandeira, com a morte do seu líder?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Espanha franquista",
+        "descricao": "Regime ditatorial liderado por Francisco Franco na Espanha, de 1936/1939 a 1975.",
+        "variantes": [
+          "Estado Espanhol",
+          "Regime franquista",
+          "Espanha nacionalista"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Branco e vermelho horizontal é idêntica à bandeira atual da Polônia; não é uma bandeira histórica distinta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Listras branca e azul, genéricas e iguais às da Baviera atual; resposta ambígua e pouco reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cruz de Santsanto André azul e branca, clara e legível; resposta única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que território, hoje parte do Reino Unido, ficava o reino que usava esta bandeira?",
+      "resposta": "Escócia",
+      "distratores": [
+        "Inglaterra",
+        "País de Gales",
+        "Irlanda do Norte"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Reino da Escócia",
+        "descricao": "Reino soberano no norte da ilha da Grã-Bretanha, existente até a união com a Inglaterra em 1707.",
+        "variantes": [
+          "Escócia",
+          "Reino Escocês"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Estrela amarela sobre fundo vermelho é quase idêntica à bandeira atual do Vietnã; pouco distintiva."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Coroa e duas cruzes brancas sobre vermelho, marcante, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que organização internacional protegia e supervisionava o Estado que usava esta bandeira?",
+      "resposta": "Liga das Nações",
+      "distratores": [
+        "Organização das Nações Unidas",
+        "Liga Hanseática",
+        "Tríplice Entente"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Cidade Livre de Danzig",
+        "descricao": "Cidade-Estado do mar Báltico sob proteção da Liga das Nações entre 1920 e 1939, hoje Gdańsk, na Polônia.",
+        "variantes": [
+          "Danzig",
+          "Dantzig",
+          "Cidade Livre de Danzigue"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Preto, vermelho e dourado é idêntica à bandeira atual da Alemanha; não é distinta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Faixa azul, foice e martelo e estrela, reconhecível e distinta de outras bandeiras soviéticas.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década esta república, a maior da União Soviética, passou a integrar a União?",
+      "resposta": "Década de 1920",
+      "distratores": [
+        "Década de 1910",
+        "Década de 1930",
+        "Década de 1940"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "República Socialista Federativa Soviética da Rússia",
+        "descricao": "Maior república constituinte da União Soviética, existente de 1917 a 1991.",
+        "variantes": [
+          "RSFS da Rússia",
+          "Rússia Soviética"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Union Jack é idêntica à bandeira atual do Reino Unido; não é uma bandeira histórica distinta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Listras branca, vermelha e branca genéricas, parecidas com outras bandeiras e com a bandeira da oposição atual; resposta não única."
+    }
+  ]
+}
