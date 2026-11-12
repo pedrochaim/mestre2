@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este ex-meio-campista brasileiro, campeão mundial em 2002, ganhou o apelido juntando vampiro e que outra palavra?",
+      "resposta": "Capeta",
+      "ancora": {
+        "nome": "Vampeta",
+        "descricao": "Ex-meio-campista brasileiro, campeão mundial em 2002, hoje comentarista de futebol.",
+        "variantes": [
+          "Marcos André Batista dos Santos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido; bandeira ao fundo só com cores, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este ex-atacante ucraniano ganhou a Liga dos Campeões de 2003 por qual clube?",
+      "resposta": "Milan",
+      "distratores": [
+        "Juventus",
+        "Inter de Milão",
+        "Chelsea"
+      ],
+      "ancora": {
+        "nome": "Andriy Shevchenko",
+        "descricao": "Ex-atacante ucraniano, maior artilheiro da seleção da Ucrânia, ídolo do Milan.",
+        "variantes": [
+          "Andrei Shevchenko",
+          "Shevchenko"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, não legível no celular; a camisa do Palmeiras não identifica a pessoa."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Este boxeador americano, medalhista de ouro nos Jogos Olímpicos de 1976, é qual?",
+      "resposta": "Sugar Ray Leonard",
+      "distratores": [
+        "Thomas Hearns",
+        "Marvin Hagler",
+        "Roberto Durán"
+      ],
+      "ancora": {
+        "nome": "Sugar Ray Leonard",
+        "descricao": "Ex-boxeador americano, ouro olímpico em 1976 e campeão mundial em cinco categorias.",
+        "variantes": [
+          "Ray Charles Leonard"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto histórica de rosto claro, sem texto; reconhecimento de aficionado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este centroavante brasileiro foi artilheiro de qual Copa do Mundo?",
+      "resposta": "Copa de 1950",
+      "ancora": {
+        "nome": "Ademir de Menezes",
+        "descricao": "Centroavante brasileiro do Vasco, artilheiro da Copa do Mundo de 1950.",
+        "variantes": [
+          "Ademir",
+          "Ademir Marques de Menezes"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto de ação nítida com a camisa da seleção, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que apelido, ligado ao cabelo, ganhou este lateral e meio-campista brasileiro?",
+      "resposta": "Capacete",
+      "distratores": [
+        "Esponja",
+        "Cabeludo",
+        "Black Power"
+      ],
+      "ancora": {
+        "nome": "Júnior (Leovegildo Júnior)",
+        "descricao": "Lateral-esquerdo e meio-campista brasileiro, ídolo do Flamengo e da seleção de 1982.",
+        "variantes": [
+          "Leovegildo Lins da Gama Júnior",
+          "Maestro Júnior",
+          "Léo Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto histórica de baixa nitidez; só a camisa com escudo CBD, sem como confirmar uma resposta única; pergunta ambígua (vários clubes e apelidos)."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; camisa listrada sem nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "O sobrenome deste treinador brasileiro foi inspirado em qual revolucionária?",
+      "resposta": "Rosa Luxemburgo",
+      "ancora": {
+        "nome": "Vanderlei Luxemburgo",
+        "descricao": "Treinador brasileiro de futebol, recordista de títulos do Campeonato Brasileiro.",
+        "variantes": [
+          "Luxemburgo",
+          "Vanderlei Luxemburgo da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rosto claro com camisa da seleção; textos Topper e Café do Brasil não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube mineiro projetou este volante, que jogou as Copas do Mundo de 1978 e 1982?",
+      "resposta": "Atlético Mineiro",
+      "distratores": [
+        "Cruzeiro",
+        "América Mineiro",
+        "Villa Nova"
+      ],
+      "ancora": {
+        "nome": "Toninho Cerezo",
+        "descricao": "Ex-volante brasileiro, ídolo do Atlético Mineiro e da seleção nas Copas de 1978 e 1982.",
+        "variantes": [
+          "Cerezo",
+          "Antônio Carlos Cerezo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Reconhecimento incerto; outro homem aparece em primeiro plano e a imagem é desfocada."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; logotipo de TV não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este capitão alemão levantou a taça da Copa do Mundo em qual ano?",
+      "resposta": "1990",
+      "distratores": [
+        "1986",
+        "1994",
+        "1998"
+      ],
+      "ancora": {
+        "nome": "Lothar Matthäus",
+        "descricao": "Ex-meio-campista alemão, capitão da Alemanha Ocidental campeã mundial em 1990.",
+        "variantes": [
+          "Lothar Matthaus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro com agasalho do Brasil, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 6,
+      "pergunta": "Em que Olimpíada este boxeador brasileiro ganhou a medalha de bronze?",
+      "resposta": "Londres 2012",
+      "ancora": {
+        "nome": "Yamaguchi Falcão",
+        "descricao": "Boxeador brasileiro, bronze nos meio-pesados nos Jogos Olímpicos de Londres 2012.",
+        "variantes": [
+          "Yamaguchi Falcão Florentino"
+        ]
+      }
+    }
+  ]
+}

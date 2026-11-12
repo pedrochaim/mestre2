@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que boxeador americano da década de 1980 é este?",
+        "resposta": "Sugar Ray Leonard"
+      },
+      "existentes": [
+        {
+          "id": "q18156",
+          "pergunta": "Este boxeador americano conquistou o ouro olímpico em qual edição dos Jogos?",
+          "resposta": "Montreal 1976"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade do boxeador (Sugar Ray Leonard); a existente pergunta a edição olímpica em que ele ganhou o ouro (Montreal 1976). São fatos diferentes, e saber um não leva ao outro."
+    }
+  ]
+}
