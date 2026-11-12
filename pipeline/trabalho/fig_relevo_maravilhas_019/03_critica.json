@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta sem a figura. O trecho confirma que é o ponto mais alto de Washington. Os distratores são estados vizinhos ou vulcânicos, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Moldada pelo vento' é a definição de duna, então dá para responder sem a figura. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que forma de relevo é esta, vista na foto?",
+        "resposta": "Duna",
+        "distratores": [
+          "Planície salina",
+          "Colina rochosa",
+          "Cratera de impacto"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista que entregue a resposta. Os distratores são de outros tipos de relevo e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O saguaro é característico do Deserto de Sonora, como diz o trecho. O enunciado não nomeia o cacto nem o deserto, e os distratores são desertos onde o saguaro não cresce naturalmente.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a Barragem do Cedro foi construída aos pés da Pedra da Galinha Choca, entre 1890 e 1906. Os distratores são outros açudes cearenses.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português trata 'geleira' como sinônimo de iceberg, então esse distrator é defensável. Troquei por Banquisa.",
+      "reescrita": {
+        "pergunta": "Que forma de gelo polar é esta, no centro da foto?",
+        "resposta": "Iceberg",
+        "distratores": [
+          "Banquisa",
+          "Calota polar",
+          "Morena glacial"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o Lago Hévíz fica na Hungria. O enunciado não nomeia o lago e os distratores são países vizinhos plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

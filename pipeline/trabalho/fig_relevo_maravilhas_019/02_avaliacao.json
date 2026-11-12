@@ -1,0 +1,194 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Falésia genérica à beira-mar, sem lugar reconhecível; não rende pergunta justa nem resposta específica."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Usina hidrelétrica sem elemento que permita identificá-la com segurança como Furnas; pode ser confundida com outras usinas."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vulcão nevado reconhecível para aficionados; pergunta de nível 3 sobre o estado, com multipla.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta montanha vulcânica é o ponto mais alto de que estado americano?",
+      "resposta": "Washington",
+      "distratores": [
+        "Oregon",
+        "Califórnia",
+        "Alasca"
+      ],
+      "ancora": {
+        "nome": "Monte Rainier",
+        "descricao": "Estratovulcão ativo da Cordilheira das Cascatas, o ponto mais alto do estado de Washington, nos Estados Unidos.",
+        "variantes": [
+          "Mount Rainier",
+          "Tahoma"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dunas de areia claras e inequívocas; reconhecimento direto em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que forma de relevo, moldada pelo vento, é esta?",
+      "resposta": "Duna",
+      "distratores": [
+        "Planície salina",
+        "Colina rochosa",
+        "Cratera de impacto"
+      ],
+      "ancora": {
+        "nome": "Duna",
+        "descricao": "Forma de relevo composta de areia acumulada pelo vento, típica de desertos e litorais.",
+        "variantes": [
+          "Dunas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem de satélite com escala e rosa dos ventos; meandros encaixados parecidos com outros de rios do Colorado, resposta não única nem reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Coluna de cinzas saindo de uma montanha, claramente um vulcão em erupção.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que forma de relevo é esta, no centro da foto?",
+      "resposta": "Vulcão",
+      "distratores": [
+        "Cânion",
+        "Geleira",
+        "Atol"
+      ],
+      "ancora": {
+        "nome": "Vulcão",
+        "descricao": "Abertura da crosta por onde escapam lava, cinzas e gases de uma câmara de magma.",
+        "variantes": [
+          "Volcano"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cactos saguaro, símbolo do Deserto de Sonora, onde ocorrem naturalmente; resposta única.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que deserto norte-americano cresce naturalmente este cacto gigante?",
+      "resposta": "Deserto de Sonora",
+      "distratores": [
+        "Deserto de Mojave",
+        "Deserto de Chihuahua",
+        "Grande Bacia"
+      ],
+      "ancora": {
+        "nome": "Deserto de Sonora",
+        "descricao": "Deserto quente do noroeste do México e sudoeste dos Estados Unidos, lar do cacto saguaro.",
+        "variantes": [
+          "Sonoran Desert",
+          "Desierto de Sonora"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Formação rochosa de silhueta inconfundível, reconhecível; pergunta de nível 3 sobre a barragem aos seus pés.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que açude histórico do Ceará foi construído aos pés desta formação rochosa?",
+      "resposta": "Açude do Cedro",
+      "distratores": [
+        "Açude Orós",
+        "Açude Castanhão",
+        "Açude Banabuiú"
+      ],
+      "ancora": {
+        "nome": "Pedra da Galinha Choca",
+        "descricao": "Formação rochosa granítica em Quixadá, no Ceará, de formato que lembra uma galinha chocando.",
+        "variantes": [
+          "Galinha Choca",
+          "Pedra da Arara"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Paisagem plana de lava e capim com montanha baixa ao fundo; sem traço que permita reconhecer o Erta Ale."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Iceberg claro e isolado, mar com gelo ao redor.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que forma de gelo polar é esta, no centro da foto?",
+      "resposta": "Iceberg",
+      "distratores": [
+        "Geleira",
+        "Calota polar",
+        "Morena glacial"
+      ],
+      "ancora": {
+        "nome": "Iceberg",
+        "descricao": "Grande bloco de gelo de água doce que se desprendeu de uma geleira ou plataforma de gelo e flutua no mar.",
+        "variantes": [
+          "Icebergue"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de satélite de um lago sem referências; o Lago Kariba não é reconhecível para o público."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea característica do lago termal com pavilhão central; resposta única em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país europeu fica este lago visto do alto?",
+      "resposta": "Hungria",
+      "distratores": [
+        "Eslováquia",
+        "Áustria",
+        "Romênia"
+      ],
+      "ancora": {
+        "nome": "Lago Hévíz",
+        "descricao": "Maior lago termal navegável da Europa, perto do Lago Balaton, na Hungria.",
+        "variantes": [
+          "Hévíz",
+          "Lake Hévíz"
+        ]
+      }
+    }
+  ]
+}

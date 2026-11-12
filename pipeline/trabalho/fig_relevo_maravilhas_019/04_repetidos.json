@@ -1,0 +1,114 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que forma de relevo é esta, vista na foto?",
+        "resposta": "Duna"
+      },
+      "existentes": [
+        {
+          "id": "q14149",
+          "pergunta": "Que forma de relevo é esta?",
+          "resposta": "Duna"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que forma de relevo é esta, no centro da foto?",
+        "resposta": "Vulcão"
+      },
+      "existentes": [
+        {
+          "id": "q14258",
+          "pergunta": "Que formação geológica é esta?",
+          "resposta": "Vulcão"
+        },
+        {
+          "id": "q21081",
+          "pergunta": "A palavra que designa as montanhas que expelem lava e cinzas remonta ao nome de que deus romano do fogo?",
+          "resposta": "Vulcano"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que deserto norte-americano cresce naturalmente este cacto gigante?",
+        "resposta": "Deserto de Sonora"
+      },
+      "existentes": [
+        {
+          "id": "q08712",
+          "pergunta": "Terra do gigantesco cacto saguaro, o Deserto de Sonora se divide entre os Estados Unidos e que país vizinho?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que açude histórico do Ceará foi construído aos pés desta formação rochosa?",
+        "resposta": "Açude do Cedro"
+      },
+      "existentes": [
+        {
+          "id": "q19350",
+          "pergunta": "Em que estado brasileiro fica esta formação rochosa?",
+          "resposta": "Ceará"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que forma de gelo polar é esta, no centro da foto?",
+        "resposta": "Iceberg"
+      },
+      "existentes": [
+        {
+          "id": "q09218",
+          "pergunta": "Que parte de um iceberg costuma ficar escondida debaixo d'água?",
+          "resposta": "Cerca de nove décimos"
+        },
+        {
+          "id": "q15395",
+          "pergunta": "Que tipo de massa de gelo é esta?",
+          "resposta": "Iceberg"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar a forma de relevo na foto, resposta Duna.",
+      "id_existente": "q14149"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Identificar a formação na foto, resposta Vulcão; mesmo fato.",
+      "id_existente": "q14258"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta o deserto onde o cacto cresce; a existente pergunta o país vizinho (México)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Açude construído ao pé da formação é fato diferente do estado onde fica."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Identificar o iceberg na foto, mesma resposta.",
+      "id_existente": "q15395"
+    }
+  ]
+}
