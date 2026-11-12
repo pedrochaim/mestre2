@@ -1,0 +1,401 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tanque Mark IV",
+        "descricao": "Tanque britânico da Primeira Guerra Mundial, introduzido em 1917, versão aprimorada do Mark I.",
+        "variantes": [
+          "Mark IV",
+          "Tank Mark IV"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mark_i_tanque",
+          "nome": "Mark I (tanque)",
+          "descricao": "Primeiro tanque britânico usado em combate, estreado na Batalha do Somme em 1916.",
+          "variantes": [
+            "Tanque Mark I"
+          ]
+        },
+        {
+          "id": "telescopio_lovell",
+          "nome": "Telescópio Lovell",
+          "descricao": "Radiotelescópio de 76 metros de diâmetro em Jodrell Bank, na Inglaterra, concluído em 1957.",
+          "variantes": [
+            "Lovell Telescope",
+            "Mark I",
+            "Radiotelescópio de Jodrell Bank"
+          ]
+        },
+        {
+          "id": "fat_man_bomba_de_nagasaki",
+          "nome": "Fat Man (bomba de Nagasaki)",
+          "descricao": "Bomba atômica de plutônio lançada pelos Estados Unidos sobre Nagasaki em 9 de agosto de 1945.",
+          "variantes": [
+            "Fat Man",
+            "Homem Gordo",
+            "Mark III"
+          ]
+        },
+        {
+          "id": "maria_i_da_inglaterra",
+          "nome": "Maria I da Inglaterra",
+          "descricao": "Rainha católica da Inglaterra de 1553 a 1558, filha de Henrique VIII e Catarina de Aragão.",
+          "variantes": [
+            "Mary I",
+            "Maria Tudor",
+            "Bloody Mary"
+          ]
+        },
+        {
+          "id": "tanque_a7v",
+          "nome": "Tanque A7V",
+          "descricao": "Tanque pesado alemão de 1918, o único modelo alemão produzido e usado em combate na Primeira Guerra Mundial.",
+          "variantes": [
+            "A7V",
+            "Sturmpanzerwagen A7V"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ossuário de Douaumont",
+        "descricao": "Memorial na França que abriga restos de soldados mortos na Batalha de Verdun, na Primeira Guerra Mundial.",
+        "variantes": [
+          "Ossuaire de Douaumont",
+          "Douaumont Ossuary"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edmontossauro",
+          "nome": "Edmontossauro",
+          "descricao": "Gênero de dinossauro hadrossaurídeo (bico de pato) do Cretáceo Superior da América do Norte.",
+          "variantes": [
+            "Edmontosaurus",
+            "Anatotitan",
+            "Anatossauro"
+          ]
+        },
+        {
+          "id": "sudario_de_turim",
+          "nome": "Sudário de Turim",
+          "descricao": "Pano de linho com a imagem de um homem, venerado como o sudário de Jesus, guardado em Turim.",
+          "variantes": [
+            "Santo Sudário",
+            "Sindone di Torino"
+          ]
+        },
+        {
+          "id": "velocino_de_ouro",
+          "nome": "Velocino de Ouro",
+          "descricao": "Pele de carneiro dourada buscada por Jasão e os argonautas na mitologia grega.",
+          "variantes": [
+            "Tosão de Ouro",
+            "Velo de Ouro"
+          ]
+        },
+        {
+          "id": "claude_monet",
+          "nome": "Claude Monet",
+          "descricao": "Pintor impressionista francês, autor de Impressão, Nascer do Sol e da série das Ninfeias, que viveu de 1840 a 1926.",
+          "variantes": [
+            "Oscar-Claude Monet",
+            "Monet"
+          ]
+        },
+        {
+          "id": "carrinho_de_rolima",
+          "nome": "Carrinho de rolimã",
+          "descricao": "Carrinho artesanal de madeira com rolamentos, usado em corridas ladeira abaixo.",
+          "variantes": [
+            "Carrinho de rolamentos",
+            "Carrinho de lomba",
+            "Carrinho de rolemã"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Kübelwagen",
+        "descricao": "Veículo militar leve alemão da Segunda Guerra Mundial, projetado por Ferdinand Porsche e fabricado pela Volkswagen.",
+        "variantes": [
+          "Volkswagen Type 82",
+          "Kübel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kombi",
+          "nome": "Kombi",
+          "descricao": "Furgão da Volkswagen, também chamado Volkswagen Type 2, fabricado no Brasil de 1957 a 2013.",
+          "variantes": [
+            "Volkswagen Kombi",
+            "Volkswagen Type 2",
+            "Transporter",
+            "Volkswagen Transporter"
+          ]
+        },
+        {
+          "id": "volkswagen_sp2",
+          "nome": "Volkswagen SP2",
+          "descricao": "Esportivo fabricado pela Volkswagen do Brasil de 1972 a 1975, baseado no chassi do Volkswagen Tipo 3.",
+          "variantes": [
+            "SP2",
+            "VW SP2"
+          ]
+        },
+        {
+          "id": "volkswagen_fusca",
+          "nome": "Volkswagen Fusca",
+          "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+          "variantes": [
+            "Fusca",
+            "Volkswagen Beetle",
+            "Volkswagen Käfer",
+            "Volkswagen Tipo 1",
+            "Fusquinha",
+            "Käfer",
+            "Beetle",
+            "Volkswagen Sedan"
+          ]
+        },
+        {
+          "id": "decibel",
+          "nome": "Decibel",
+          "descricao": "Unidade logarítmica usada para medir o nível de intensidade sonora, décima parte do bel.",
+          "variantes": [
+            "dB",
+            "Decibel (unidade)",
+            "Bel"
+          ]
+        },
+        {
+          "id": "cheren_e_bianca",
+          "nome": "Cheren e Bianca",
+          "descricao": "Amigos de infância e rivais do protagonista em Pokémon Black e White, da região de Unova.",
+          "variantes": [
+            "Cheren",
+            "Bianca",
+            "Bel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Capacete Adrian",
+        "descricao": "Capacete de aço projetado por Louis Adrian para o exército francês, o primeiro modelo padrão, da Primeira Guerra Mundial.",
+        "variantes": [
+          "Casque Adrian",
+          "Adrian helmet",
+          "Capacete M15"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capacete_brodie",
+          "nome": "Capacete Brodie",
+          "descricao": "Capacete de aço de aba larga patenteado em Londres em 1915 por John Brodie, usado por britânicos e americanos na Primeira Guerra.",
+          "variantes": [
+            "Brodie helmet",
+            "Capacete M1917",
+            "Capacete Mark I"
+          ]
+        },
+        {
+          "id": "pickelhaube",
+          "nome": "Pickelhaube",
+          "descricao": "Capacete de couro ou metal com um espigão no topo, usado por soldados prussianos e alemães nos séculos dezenove e vinte.",
+          "variantes": [
+            "Pickelhelm",
+            "Capacete prussiano",
+            "Capacete de ponta alemão"
+          ]
+        },
+        {
+          "id": "elmo_corintio",
+          "nome": "Elmo coríntio",
+          "descricao": "Elmo grego de bronze que cobre toda a cabeça e o pescoço, com fendas para olhos e boca, que leva o nome da cidade de Corinto.",
+          "variantes": [
+            "Corinthian helmet",
+            "Capacete coríntio"
+          ]
+        },
+        {
+          "id": "capacete_colonial",
+          "nome": "Capacete colonial",
+          "descricao": "Capacete leve coberto de tecido, feito de sholapith, usado por militares e exploradores nos trópicos.",
+          "variantes": [
+            "Pith helmet",
+            "Capacete de safári",
+            "Salacot"
+          ]
+        },
+        {
+          "id": "mas_que_nada",
+          "nome": "Mas que Nada",
+          "descricao": "Samba lançado em 1963, sucesso mundial com Sérgio Mendes & Brasil '66 em 1966.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sikorsky Ilya Muromets",
+        "descricao": "Bombardeiro pesado quadrimotor russo da Primeira Guerra Mundial, projetado por Igor Sikorsky.",
+        "variantes": [
+          "Ilya Muromets",
+          "Ilia Muromets"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "julia_roberts",
+          "nome": "Julia Roberts",
+          "descricao": "Atriz norte-americana, vencedora do Oscar de melhor atriz por Erin Brockovich.",
+          "variantes": [
+            "Julia Fiona Roberts"
+          ]
+        },
+        {
+          "id": "lemure",
+          "nome": "Lêmure",
+          "descricao": "Primatas da infraordem Lemuriformes, nativos de Madagascar.",
+          "variantes": [
+            "Lemur",
+            "Lemuriformes"
+          ]
+        },
+        {
+          "id": "ilhas_faroe",
+          "nome": "Ilhas Faroé",
+          "descricao": "Arquipélago do Atlântico Norte entre a Islândia, a Noruega e a Escócia, território autônomo do Reino da Dinamarca.",
+          "variantes": [
+            "Ilhas Feroe",
+            "Faroe Islands",
+            "Ilhas Faroes"
+          ]
+        },
+        {
+          "id": "cecilia_meireles",
+          "nome": "Cecília Meireles",
+          "descricao": "Poeta, escritora e educadora brasileira do Modernismo.",
+          "variantes": [
+            "Cecília Benevides de Carvalho Meireles"
+          ]
+        },
+        {
+          "id": "confederacao_iroquesa",
+          "nome": "Confederação Iroquesa",
+          "descricao": "Aliança de nações indígenas do nordeste da América do Norte, também chamada Haudenosaunee.",
+          "variantes": [
+            "Haudenosaunee",
+            "Liga Iroquesa",
+            "Cinco Nações"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "B-17 Fortaleza Voadora",
+        "descricao": "Bombardeiro pesado quadrimotor americano da Boeing, muito usado na Segunda Guerra Mundial.",
+        "variantes": [
+          "Boeing B-17 Flying Fortress",
+          "B-17"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boeing_b_17_flying_fortress",
+          "nome": "Boeing B-17 Flying Fortress",
+          "descricao": "Bombardeiro pesado americano de quatro motores da Segunda Guerra Mundial, fabricado pela Boeing.",
+          "variantes": [
+            "B-17",
+            "Fortaleza Voadora"
+          ]
+        },
+        {
+          "id": "androide_17",
+          "nome": "Androide 17",
+          "descricao": "Androide criado pelo Dr. Gero em Dragon Ball Z, irmão gêmeo da Androide 18.",
+          "variantes": [
+            "C-17",
+            "Android 17",
+            "Número 17"
+          ]
+        },
+        {
+          "id": "katyusha",
+          "nome": "Katyusha",
+          "descricao": "Lançador múltiplo de foguetes soviético da Segunda Guerra Mundial, montado em caminhões, como o BM-13.",
+          "variantes": [
+            "Katiusha",
+            "BM-13",
+            "Órgão de Stalin"
+          ]
+        },
+        {
+          "id": "f_117_nighthawk",
+          "nome": "F-117 Nighthawk",
+          "descricao": "Caça furtivo americano subsônico, o primeiro avião operacional projetado com tecnologia stealth.",
+          "variantes": [
+            "Lockheed F-117",
+            "F-117"
+          ]
+        },
+        {
+          "id": "forte_dos_reis_magos",
+          "nome": "Forte dos Reis Magos",
+          "descricao": "Fortaleza colonial em forma de estrela na foz do rio Potengi, em Natal, Rio Grande do Norte.",
+          "variantes": [
+            "Fortaleza dos Reis Magos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Mark IV é um tanque diferente do Mark I; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Ossuário de Douaumont."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Kübelwagen é um veículo militar distinto de Kombi, Fusca e demais."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Capacete Adrian é francês, diferente do Brodie e outros capacetes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o bombardeiro Ilya Muromets."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "boeing_b_17_flying_fortress",
+      "motivo": "Mesmo bombardeiro Boeing B-17 Flying Fortress (Fortaleza Voadora)."
+    }
+  ]
+}

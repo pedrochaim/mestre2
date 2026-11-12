@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"O mais numeroso da guerra\" é falso: o trecho diz o mais numeroso tanque britânico, e outros tanques, como o Renault FT, foram mais numerosos. Estreou em Messines Ridge em 1917, conforme o trecho.",
+      "reescrita": {
+        "pergunta": "Este tanque britânico, o mais numeroso entre os britânicos da Primeira Guerra, estreou em que batalha de 1917?",
+        "resposta": "Messines Ridge",
+        "distratores": [
+          "Somme",
+          "Amiens",
+          "Marne"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "\"Outro conflito\" não tem resposta única: o Corsair também lutou na Indochina, na Argélia e na Guerra do Futebol. Qualquer reescrita que restrinja a resposta por data ou lugar deixa a figura como enfeite.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o ossuário nem a batalha. A resposta é única e os distratores são batalhas críveis da mesma guerra.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o Kübelwagen se baseou fortemente no Fusca. A resposta é única e os distratores são carros civis críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o Adrian foi introduzido em 1915. A resposta é um ano e a pergunta é multipla, com distratores de anos próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A premissa \"chamado de o 'da Primeira Guerra'\" em comparação com o Spitfire não tem apoio nos trechos nem é fato documentado. A pergunta está mal formulada e é incorrigível.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz \"russo\" e os três distratores são britânico ou alemães, então a pista os elimina e a pergunta fica fácil demais. Tirando \"russo\", as alternativas ficam críveis.",
+      "reescrita": {
+        "pergunta": "Que bombardeiro pesado da Primeira Guerra é este?",
+        "resposta": "Sikorsky Ilya Muromets",
+        "distratores": [
+          "Handley Page O/400",
+          "Gotha G.V",
+          "Zeppelin-Staaken R.VI"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o B-17 entrou em serviço em 1938, na década de 1930. O trecho confirma o desenvolvimento em meados dos anos 1930. A pergunta pede uma década, então pode ser multipla, e as alternativas são plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

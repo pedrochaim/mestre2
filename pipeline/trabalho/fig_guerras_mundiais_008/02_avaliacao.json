@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tanque britânico de rombos com patrocinadores laterais, viga de desencalhe; reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este tanque britânico foi o mais numeroso da guerra. Em que batalha de 1917 ele estreou?",
+      "resposta": "Messines Ridge",
+      "distratores": [
+        "Somme",
+        "Amiens",
+        "Marne"
+      ],
+      "ancora": {
+        "nome": "Tanque Mark IV",
+        "descricao": "Tanque britânico da Primeira Guerra Mundial, introduzido em 1917, versão aprimorada do Mark I.",
+        "variantes": [
+          "Mark IV",
+          "Tank Mark IV"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Legenda datilografada legível (Rhine, Erpel, railroad bridge) entrega a resposta e soldado em primeiro plano."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Ruína de concreto coberta de musgo, sem traços que permitam reconhecê-la; resposta não única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Asas em gaivota inconfundíveis; textos na fuselagem não entregam o modelo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este caça americano de asas em gaivota lutou na Segunda Guerra Mundial e em que outro conflito?",
+      "resposta": "Guerra da Coreia",
+      "distratores": [
+        "Guerra do Vietnã",
+        "Guerra do Golfo",
+        "Guerra Civil Espanhola"
+      ],
+      "ancora": {
+        "nome": "F4U Corsair",
+        "descricao": "Caça embarcado americano da Vought, de asas em gaivota, usado na Segunda Guerra Mundial e na Guerra da Coreia.",
+        "variantes": [
+          "Vought F4U Corsair",
+          "Corsair"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea histórica do ossuário com a torre central, reconhecível; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta construção guarda os restos de soldados mortos em qual batalha da Primeira Guerra?",
+      "resposta": "Batalha de Verdun",
+      "distratores": [
+        "Batalha do Somme",
+        "Batalha do Marne",
+        "Batalha de Ypres"
+      ],
+      "ancora": {
+        "nome": "Ossuário de Douaumont",
+        "descricao": "Memorial na França que abriga restos de soldados mortos na Batalha de Verdun, na Primeira Guerra Mundial.",
+        "variantes": [
+          "Ossuaire de Douaumont",
+          "Douaumont Ossuary"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Inscrição 'Ca.11504' visível no casco e o Ca.3 se confunde com Ca.1 e Ca.5; resposta não única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Veículo militar bege inconfundível, bem enquadrado, sem texto que entregue.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este veículo militar alemão da Segunda Guerra derivou de qual carro civil?",
+      "resposta": "Volkswagen Fusca",
+      "distratores": [
+        "Opel Kadett",
+        "Fiat Topolino",
+        "Ford Model T"
+      ],
+      "ancora": {
+        "nome": "Kübelwagen",
+        "descricao": "Veículo militar leve alemão da Segunda Guerra Mundial, projetado por Ferdinand Porsche e fabricado pela Volkswagen.",
+        "variantes": [
+          "Volkswagen Type 82",
+          "Kübel"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Capacete isolado, fundo neutro, com crista e granada característica; reconhecível.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que ano entrou em uso este capacete de aço do exército francês?",
+      "resposta": "1915",
+      "distratores": [
+        "1914",
+        "1916",
+        "1917"
+      ],
+      "ancora": {
+        "nome": "Capacete Adrian",
+        "descricao": "Capacete de aço projetado por Louis Adrian para o exército francês, o primeiro modelo padrão, da Primeira Guerra Mundial.",
+        "variantes": [
+          "Casque Adrian",
+          "Adrian helmet",
+          "Capacete M15"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Biplano britânico de caça com metralhadora sobre a asa superior, em fila; reconhecível como S.E.5a.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este caça britânico foi chamado de o 'da Primeira Guerra' em comparação com qual avião da Segunda Guerra?",
+      "resposta": "Spitfire",
+      "distratores": [
+        "Hawker Hurricane",
+        "P-51 Mustang",
+        "Messerschmitt Bf 109"
+      ],
+      "ancora": {
+        "nome": "Royal Aircraft Factory S.E.5",
+        "descricao": "Biplano de caça britânico da Primeira Guerra Mundial, desenvolvido na Royal Aircraft Factory.",
+        "variantes": [
+          "S.E.5a",
+          "SE5"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Encouraçado da classe Tegetthoff indistinguível dos irmãos de classe nesta foto; resposta não única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gigantesco biplano quadrimotor inconfundível em voo; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que bombardeiro pesado russo da Primeira Guerra é este?",
+      "resposta": "Sikorsky Ilya Muromets",
+      "distratores": [
+        "Handley Page O/400",
+        "Gotha G.V",
+        "Zeppelin-Staaken R.VI"
+      ],
+      "ancora": {
+        "nome": "Sikorsky Ilya Muromets",
+        "descricao": "Bombardeiro pesado quadrimotor russo da Primeira Guerra Mundial, projetado por Igor Sikorsky.",
+        "variantes": [
+          "Ilya Muromets",
+          "Ilia Muromets"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "B-17 em voo, lado e planta visíveis, quatro motores, sem texto que entregue.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que década este bombardeiro quadrimotor americano entrou em serviço?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1920",
+        "Década de 1940",
+        "Década de 1950"
+      ],
+      "ancora": {
+        "nome": "B-17 Fortaleza Voadora",
+        "descricao": "Bombardeiro pesado quadrimotor americano da Boeing, muito usado na Segunda Guerra Mundial.",
+        "variantes": [
+          "Boeing B-17 Flying Fortress",
+          "B-17"
+        ]
+      }
+    }
+  ]
+}

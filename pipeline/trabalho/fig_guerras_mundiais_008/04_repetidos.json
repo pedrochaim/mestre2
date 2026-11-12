@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década este bombardeiro quadrimotor americano entrou em serviço?",
+        "resposta": "Década de 1930"
+      },
+      "existentes": [
+        {
+          "id": "q17985",
+          "pergunta": "Em que década este bombardeiro americano de quatro motores entrou em serviço?",
+          "resposta": "Década de 1930"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q17985",
+      "motivo": "Mesma pergunta (década de entrada em serviço do bombardeiro quadrimotor americano), mesma resposta, apenas com redação diferente."
+    }
+  ]
+}
