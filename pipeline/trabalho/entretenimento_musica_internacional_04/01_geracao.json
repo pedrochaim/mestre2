@@ -1,0 +1,1074 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "david_bowie",
+        "nome": "David Bowie",
+        "descricao": "Cantor, compositor e ator britânico, criador do personagem Ziggy Stardust, morto em 2016",
+        "variantes": [
+          "David Jones",
+          "David Robert Jones"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/David_Bowie"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Dois dias depois de lançar o álbum Blackstar, David Bowie morreu de câncer. Em janeiro de que ano?",
+      "resposta": "2016",
+      "distratores": [
+        "2014",
+        "2015",
+        "2017"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/David_Bowie",
+        "https://en.wikipedia.org/wiki/Blackstar_(album)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "david_bowie",
+        "nome": "David Bowie",
+        "descricao": "Cantor, compositor e ator britânico, criador do personagem Ziggy Stardust, morto em 2016",
+        "variantes": [
+          "David Jones"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/David_Bowie"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1981, num estúdio na Suíça, David Bowie se juntou ao Queen para gravar que canção?",
+      "resposta": "Under Pressure",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Under_Pressure"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bob_marley",
+        "nome": "Bob Marley",
+        "descricao": "Cantor e compositor jamaicano de reggae, líder dos Wailers",
+        "variantes": [
+          "Robert Nesta Marley"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bob_Marley"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1974, Eric Clapton chegou ao primeiro lugar nos Estados Unidos regravando que canção de Bob Marley?",
+      "resposta": "I Shot the Sheriff",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/I_Shot_the_Sheriff"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "freddie_mercury",
+        "nome": "Freddie Mercury",
+        "descricao": "Cantor britânico, vocalista do Queen, nascido Farrokh Bulsara",
+        "variantes": [
+          "Farrokh Bulsara"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Freddie_Mercury"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1987, Freddie Mercury gravou a canção Barcelona, depois usada nas Olimpíadas de 1992, em dueto com que soprano espanhola?",
+      "resposta": "Montserrat Caballé",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Barcelona_(Freddie_Mercury_and_Montserrat_Caball%C3%A9_song)",
+        "https://en.wikipedia.org/wiki/Montserrat_Caball%C3%A9"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bee_gees",
+        "nome": "Bee Gees",
+        "descricao": "Grupo pop formado pelos irmãos Barry, Robin e Maurice Gibb, astros da era disco",
+        "variantes": [
+          "The Bee Gees"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bee_Gees"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1977, os Bee Gees compuseram boa parte da trilha sonora de que filme estrelado por John Travolta?",
+      "resposta": "Os Embalos de Sábado à Noite",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saturday_Night_Fever_(soundtrack)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "queen",
+        "nome": "Queen",
+        "descricao": "Banda de rock britânica formada em Londres em 1970, de Freddie Mercury e Brian May",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Queen_(band)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1980, o Queen compôs a trilha sonora de que filme de ficção científica, baseado num herói espacial dos quadrinhos?",
+      "resposta": "Flash Gordon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flash_Gordon_(album)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pink_floyd",
+        "nome": "Pink Floyd",
+        "descricao": "Banda britânica de rock progressivo formada em Londres em 1965",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pink_Floyd"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No filme Pink Floyd The Wall, de 1982, o protagonista é vivido por que cantor irlandês, que depois organizou o Live Aid?",
+      "resposta": "Bob Geldof",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pink_Floyd_%E2%80%93_The_Wall"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "michael_jackson",
+        "nome": "Michael Jackson",
+        "descricao": "Cantor e dançarino americano conhecido como Rei do Pop",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Jackson"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1985, Michael Jackson comprou uma editora musical que detinha os direitos de grande parte das canções de que banda britânica?",
+      "resposta": "The Beatles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ATV_Music",
+        "https://en.wikipedia.org/wiki/Michael_Jackson"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "kurt_cobain",
+        "nome": "Kurt Cobain",
+        "descricao": "Cantor, guitarrista e compositor americano, líder da banda Nirvana",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kurt_Cobain"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Kurt Cobain, do Nirvana, foi casado com a cantora Courtney Love, vocalista de que banda americana?",
+      "resposta": "Hole",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Courtney_Love",
+        "https://en.wikipedia.org/wiki/Hole_(band)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "paul_mccartney",
+        "nome": "Paul McCartney",
+        "descricao": "Músico e compositor inglês, baixista e vocalista dos Beatles.",
+        "variantes": [
+          "James Paul McCartney"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paul_McCartney"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Depois do fim dos Beatles, Paul McCartney formou que banda, com a mulher Linda nos teclados?",
+      "resposta": "Wings",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wings_(band)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Norah Jones",
+        "descricao": "Cantora, pianista e compositora americana de jazz e pop, do sucesso Don't Know Why",
+        "variantes": [
+          "Geethali Norah Jones Shankar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Norah_Jones"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A cantora americana Norah Jones, do sucesso Don't Know Why, é filha de que músico indiano, mestre da cítara?",
+      "resposta": "Ravi Shankar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Norah_Jones"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "elton_john",
+        "nome": "Elton John",
+        "descricao": "Cantor, compositor e pianista britânico, nascido Reginald Dwight.",
+        "variantes": [
+          "Reginald Dwight"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elton_John"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Ao trocar oficialmente o nome Reginald Dwight por Elton John, o cantor adotou como nome do meio o de que herói da mitologia grega?",
+      "resposta": "Hércules",
+      "distratores": [
+        "Aquiles",
+        "Ulisses",
+        "Perseu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elton_John"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Black Sabbath",
+        "descricao": "Banda britânica de heavy metal formada em Birmingham em 1968, com Ozzy Osbourne e Tony Iommi",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Black_Sabbath"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Antes de se chamar Black Sabbath, a banda de Ozzy Osbourne se chamava Earth. O novo nome veio de um filme de terror estrelado por quem?",
+      "resposta": "Boris Karloff",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Black_Sabbath",
+        "https://en.wikipedia.org/wiki/Black_Sabbath_(film)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "the_doors",
+        "nome": "The Doors",
+        "descricao": "Banda de rock americana formada em Los Angeles em 1965, liderada pelo vocalista Jim Morrison",
+        "variantes": [
+          "Doors"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Doors"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome da banda The Doors foi tirado do livro As Portas da Percepção, de que escritor inglês?",
+      "resposta": "Aldous Huxley",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Doors",
+        "https://en.wikipedia.org/wiki/The_Doors_of_Perception"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rihanna",
+        "nome": "Rihanna",
+        "descricao": "Cantora, compositora e empresária de Barbados, de Umbrella e Diamonds.",
+        "variantes": [
+          "Robyn Rihanna Fenty"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rihanna"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Rihanna é, na verdade, o nome do meio da cantora de Barbados. Qual é o seu primeiro nome?",
+      "resposta": "Robyn",
+      "distratores": [
+        "Rachel",
+        "Rebecca",
+        "Roberta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rihanna"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Despacito",
+        "descricao": "Canção em espanhol de Luis Fonsi com Daddy Yankee, lançada em 2017",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Despacito"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O título do sucesso Despacito, de Luis Fonsi e Daddy Yankee, quer dizer o quê em português?",
+      "resposta": "Devagarinho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Despacito"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lucy in the Sky with Diamonds",
+        "descricao": "Canção dos Beatles composta por John Lennon, do álbum Sgt. Pepper's Lonely Hearts Club Band, de 1967",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Segundo John Lennon, de onde veio o título da canção Lucy in the Sky with Diamonds, dos Beatles?",
+      "resposta": "De um desenho do filho Julian",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "taylor_swift",
+        "nome": "Taylor Swift",
+        "descricao": "Cantora e compositora americana, autora de 1989 e Fearless.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taylor_Swift"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os pais de Taylor Swift lhe deram esse nome em homenagem a que cantor e compositor americano de folk?",
+      "resposta": "James Taylor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taylor_Swift"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "shakira",
+        "nome": "Shakira",
+        "descricao": "Cantora e compositora colombiana de pop latino, nascida Shakira Isabel Mebarak Ripoll",
+        "variantes": [
+          "Shakira Isabel Mebarak Ripoll"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shakira"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Shakira, de origem árabe, herdado da família do pai, significa o quê?",
+      "resposta": "Grata",
+      "distratores": [
+        "Rainha",
+        "Estrela",
+        "Bailarina"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shakira"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abbey_road",
+        "nome": "Abbey Road",
+        "descricao": "Álbum dos Beatles lançado em 1969, com a capa da banda atravessando uma faixa de pedestres em Londres",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abbey_Road"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O título do álbum Abbey Road, dos Beatles, é o nome de quê?",
+      "resposta": "Da rua do estúdio de gravação",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abbey_Road",
+        "https://en.wikipedia.org/wiki/Abbey_Road_Studios"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salsa",
+        "descricao": "Gênero de música dançante desenvolvido por músicos caribenhos, sobretudo cubanos e porto-riquenhos, em Nova York nos anos sessenta e setenta",
+        "variantes": [
+          "Salsa music"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Salsa_music"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A salsa, gênero dançante criado por músicos caribenhos em Nova York, tem um nome que significa o quê em espanhol?",
+      "resposta": "Molho",
+      "distratores": [
+        "Festa",
+        "Fogo",
+        "Dança"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Salsa_music"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "thriller",
+        "nome": "Thriller",
+        "descricao": "Álbum de Michael Jackson produzido por Quincy Jones",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thriller_(album)"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Das nove faixas do álbum Thriller, de Michael Jackson, quantas foram lançadas como singles?",
+      "resposta": "Sete",
+      "distratores": [
+        "Três",
+        "Cinco",
+        "Nove"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thriller_(album)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "harpa",
+        "nome": "Harpa",
+        "descricao": "Instrumento de cordas dedilhadas, de formato triangular, com cordas em ângulo em relação à caixa de ressonância.",
+        "variantes": [
+          "Harpa de pedais"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Harp"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A harpa de concerto moderna muda a afinação das cordas com pedais acionados pelos pés. Quantos pedais ela tem?",
+      "resposta": "Sete",
+      "distratores": [
+        "Dois",
+        "Quatro",
+        "Doze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pedal_harp"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "piano_de_cauda",
+        "nome": "Piano de cauda",
+        "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+        "variantes": [
+          "Grand piano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Grand_piano"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O teclado padrão de um piano de cauda moderno tem quantas teclas, somando as brancas e as pretas?",
+      "resposta": "Oitenta e oito",
+      "distratores": [
+        "Setenta e seis",
+        "Noventa e seis",
+        "Cem"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Piano",
+        "https://en.wikipedia.org/wiki/Grand_piano"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "the_beatles",
+        "nome": "The Beatles",
+        "descricao": "Banda de rock britânica formada em Liverpool em 1960 por John Lennon, Paul McCartney, George Harrison e, depois, Ringo Starr",
+        "variantes": [
+          "Beatles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Beatles"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em fevereiro de 1964, a estreia dos Beatles na TV americana, no programa de Ed Sullivan, foi vista por cerca de quantas pessoas?",
+      "resposta": "Setenta e três milhões",
+      "distratores": [
+        "Sete milhões",
+        "Vinte e cinco milhões",
+        "Cento e cinquenta milhões"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show",
+        "https://en.wikipedia.org/wiki/The_Beatles"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "queen",
+        "nome": "Queen",
+        "descricao": "Banda de rock britânica formada em Londres em 1970, de Freddie Mercury e Brian May",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Queen_(band)"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No Live Aid, em 1985, a apresentação do Queen, considerada uma das maiores da história do rock, durou cerca de quanto tempo?",
+      "resposta": "Vinte minutos",
+      "distratores": [
+        "Cinco minutos",
+        "Uma hora",
+        "Duas horas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Live_Aid",
+        "https://en.wikipedia.org/wiki/Queen_(band)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abba",
+        "nome": "ABBA",
+        "descricao": "Grupo pop sueco formado em 1972 por Agnetha, Björn, Benny e Anni-Frid",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ABBA"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em 2021, o ABBA lançou Voyage, seu primeiro álbum de canções inéditas depois de um intervalo de quantas décadas?",
+      "resposta": "Quatro décadas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Voyage_(ABBA_album)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hey_jude",
+        "nome": "Hey Jude",
+        "descricao": "Canção dos Beatles composta por Paul McCartney e lançada em 1968",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hey_Jude"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Lançada como single em 1968, Hey Jude, dos Beatles, tinha uma duração rara para as rádios da época. Cerca de quantos minutos?",
+      "resposta": "Cerca de sete minutos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hey_Jude"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "festival_de_woodstock",
+        "nome": "Festival de Woodstock",
+        "descricao": "Festival de música realizado em agosto de 1969 numa fazenda em Bethel, no estado de Nova York",
+        "variantes": [
+          "Woodstock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Woodstock"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em agosto de 1969, o Festival de Woodstock reuniu, segundo as estimativas, um público de cerca de quantas pessoas?",
+      "resposta": "Quatrocentas mil",
+      "distratores": [
+        "Dez mil",
+        "Quarenta mil",
+        "Quatro milhões"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Woodstock"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "amy_winehouse",
+        "nome": "Amy Winehouse",
+        "descricao": "Cantora e compositora britânica de soul e jazz, autora do álbum Back to Black",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amy_Winehouse"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Sem conseguir a tempo o visto americano, Amy Winehouse cantou de Londres, por satélite, no Grammy de 2008. Quantos prêmios ela levou naquela noite?",
+      "resposta": "Cinco",
+      "distratores": [
+        "Um",
+        "Três",
+        "Oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amy_Winehouse",
+        "https://en.wikipedia.org/wiki/50th_Annual_Grammy_Awards"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ac_dc",
+        "nome": "AC/DC",
+        "descricao": "Banda de hard rock fundada em 1973 pelos irmãos Malcolm e Angus Young",
+        "variantes": [
+          "ACDC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/AC/DC"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A capa totalmente preta do álbum Back in Black, do AC/DC, lançado em 1980, foi uma forma de luto por quem?",
+      "resposta": "Bon Scott",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Back_in_Black"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Prince",
+        "descricao": "Cantor, compositor e multi-instrumentista americano, de Purple Rain, morto em 2016",
+        "variantes": [
+          "Prince Rogers Nelson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Prince_(musician)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1993, o astro Prince trocou o nome artístico por um símbolo impronunciável. Era um protesto contra quem?",
+      "resposta": "A gravadora Warner",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Prince_(musician)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "the_beatles",
+        "nome": "The Beatles",
+        "descricao": "Banda de rock britânica formada em Liverpool em 1960 por John Lennon, Paul McCartney, George Harrison e, depois, Ringo Starr",
+        "variantes": [
+          "Beatles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Beatles"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1966, os Beatles pararam de fazer turnês. Um dos motivos é que, no palco, eles mal conseguiam se ouvir por causa de quê?",
+      "resposta": "Os gritos dos fãs",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Beatles"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "john_lennon",
+        "nome": "John Lennon",
+        "descricao": "Músico e compositor inglês, cofundador dos Beatles, assassinado em Nova York",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/John_Lennon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1966, discos dos Beatles foram queimados no sul dos Estados Unidos depois que John Lennon disse que a banda era mais popular que quem?",
+      "resposta": "Jesus Cristo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/More_popular_than_Jesus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "freddie_mercury",
+        "nome": "Freddie Mercury",
+        "descricao": "Cantor britânico, vocalista do Queen, nascido Farrokh Bulsara",
+        "variantes": [
+          "Farrokh Bulsara"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Freddie_Mercury"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Freddie Mercury tinha os dentes da frente salientes por ter quatro dentes a mais, mas nunca quis corrigi-los. Que medo o impedia?",
+      "resposta": "Prejudicar a voz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Freddie_Mercury"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "freddie_mercury",
+        "nome": "Freddie Mercury",
+        "descricao": "Cantor britânico, vocalista do Queen, nascido Farrokh Bulsara",
+        "variantes": [
+          "Farrokh Bulsara"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Freddie_Mercury"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em novembro de 1991, Freddie Mercury confirmou publicamente que tinha AIDS. Quanto tempo depois desse anúncio ele morreu?",
+      "resposta": "Um dia",
+      "distratores": [
+        "Uma semana",
+        "Um mês",
+        "Um ano"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Freddie_Mercury"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tango",
+        "nome": "Tango",
+        "descricao": "Gênero musical e dança surgidos na região do Rio da Prata, entre Buenos Aires e Montevidéu",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tango"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O tango surgiu nos bairros pobres e portuários de Buenos Aires e Montevidéu no fim de que século?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século dezessete",
+        "Século dezoito",
+        "Século vinte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tango"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Reggae",
+        "descricao": "Gênero musical surgido na Jamaica, popularizado mundialmente por Bob Marley",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Reggae"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Herdeiro do ska e do rocksteady, o reggae surgiu na Jamaica no fim de que década?",
+      "resposta": "Anos sessenta",
+      "distratores": [
+        "Anos quarenta",
+        "Anos cinquenta",
+        "Anos setenta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Reggae"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Metallica",
+        "descricao": "Banda americana de heavy metal formada em 1981 por James Hetfield e Lars Ulrich",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Metallica"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A banda Metallica, que depois se mudou para São Francisco, foi formada em 1981 em que cidade americana?",
+      "resposta": "Los Angeles",
+      "distratores": [
+        "Seattle",
+        "Nova York",
+        "Chicago"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Metallica"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bee_gees",
+        "nome": "Bee Gees",
+        "descricao": "Grupo pop formado pelos irmãos Barry, Robin e Maurice Gibb, astros da era disco",
+        "variantes": [
+          "The Bee Gees"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bee_Gees"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Antes de a família se mudar para a Austrália, os irmãos Gibb, dos Bee Gees, nasceram em que ilha britânica do mar da Irlanda?",
+      "resposta": "Ilha de Man",
+      "distratores": [
+        "Ilha de Wight",
+        "Jersey",
+        "Anglesey"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bee_Gees"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gangnam_style",
+        "nome": "Gangnam Style",
+        "descricao": "Canção do cantor sul-coreano Psy lançada em 2012, famosa por sua dança",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gangnam_Style"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Gangnam, o distrito rico satirizado na canção Gangnam Style, do sul-coreano Psy, fica em que cidade?",
+      "resposta": "Seul",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gangnam_Style",
+        "https://en.wikipedia.org/wiki/Gangnam_District"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cesária Évora",
+        "descricao": "Cantora cabo-verdiana de morna, conhecida como a diva dos pés descalços, morta em 2011",
+        "variantes": [
+          "Cesaria Evora"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ces%C3%A1ria_%C3%89vora"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A cantora Cesária Évora, a diva dos pés descalços, levou a morna para o mundo. De que país africano ela era?",
+      "resposta": "Cabo Verde",
+      "distratores": [
+        "Angola",
+        "Moçambique",
+        "Guiné-Bissau"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ces%C3%A1ria_%C3%89vora"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "festival_de_woodstock",
+        "nome": "Festival de Woodstock",
+        "descricao": "Festival de música realizado em agosto de 1969 numa fazenda em Bethel, no estado de Nova York",
+        "variantes": [
+          "Woodstock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Woodstock"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que guitarrista encerrou o Festival de Woodstock, na manhã de segunda-feira, com uma versão distorcida do hino americano?",
+      "resposta": "Jimi Hendrix",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Woodstock",
+        "https://en.wikipedia.org/wiki/Jimi_Hendrix"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guns N' Roses",
+        "descricao": "Banda americana de hard rock formada em Los Angeles em 1985, com o vocalista Axl Rose",
+        "variantes": [
+          "Guns and Roses"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guns_N%27_Roses"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que guitarrista do Guns N' Roses, de cartola e cachos sobre o rosto, tocou o solo de Sweet Child o' Mine?",
+      "resposta": "Slash",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Slash_(musician)",
+        "https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "queen",
+        "nome": "Queen",
+        "descricao": "Banda de rock britânica formada em Londres em 1970, de Freddie Mercury e Brian May",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Queen_(band)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Another One Bites the Dust, um dos maiores sucessos do Queen, foi composta por qual integrante da banda?",
+      "resposta": "John Deacon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Another_One_Bites_the_Dust"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hotel California",
+        "descricao": "Canção de rock lançada em 1976 como faixa-título de um álbum da banda americana Eagles",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hotel_California_(Eagles_song)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A canção Hotel California, de 1976, sobre um hotel do qual nunca se consegue sair, é de que banda americana?",
+      "resposta": "Eagles",
+      "distratores": [
+        "Fleetwood Mac",
+        "The Doors",
+        "Creedence Clearwater Revival"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hotel_California_(Eagles_song)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "imagine",
+        "nome": "Imagine",
+        "descricao": "Canção de John Lennon lançada no álbum homônimo de 1971",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Imagine_(John_Lennon_song)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 2017, quem passou a ser creditada oficialmente como coautora da canção Imagine, de John Lennon?",
+      "resposta": "Yoko Ono",
+      "distratores": [
+        "Linda McCartney",
+        "Cynthia Lennon",
+        "May Pang"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Imagine_(John_Lennon_song)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Prince",
+        "descricao": "Cantor, compositor e multi-instrumentista americano, de Purple Rain, morto em 2016",
+        "variantes": [
+          "Prince Rogers Nelson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Prince_(musician)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Prince, Madonna e Michael Jackson nasceram todos em 1958. Qual dos três nasceu primeiro?",
+      "resposta": "Prince",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Prince_(musician)",
+        "https://en.wikipedia.org/wiki/Madonna",
+        "https://en.wikipedia.org/wiki/Michael_Jackson"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ozzy_osbourne",
+        "nome": "Ozzy Osbourne",
+        "descricao": "Cantor britânico de heavy metal, vocalista do Black Sabbath e depois artista solo.",
+        "variantes": [
+          "John Michael Osbourne"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ozzy_Osbourne"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em 1982, num show em Iowa, Ozzy Osbourne mordeu a cabeça de um animal jogado no palco, achando que era de borracha. Que animal?",
+      "resposta": "Morcego",
+      "distratores": [
+        "Rato",
+        "Lagarto",
+        "Sapo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ozzy_Osbourne"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abbey_road",
+        "nome": "Abbey Road",
+        "descricao": "Álbum dos Beatles lançado em 1969, com a capa da banda atravessando uma faixa de pedestres em Londres",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abbey_Road"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Let It Be foi o último álbum lançado pelos Beatles. Mas qual foi o último que eles gravaram juntos?",
+      "resposta": "Abbey Road",
+      "distratores": [
+        "Revolver",
+        "Sgt. Pepper's",
+        "Álbum Branco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abbey_Road",
+        "https://en.wikipedia.org/wiki/Let_It_Be_(album)"
+      ]
+    }
+  ]
+}

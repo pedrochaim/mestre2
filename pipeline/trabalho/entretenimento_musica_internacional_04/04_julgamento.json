@@ -1,0 +1,602 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Norah Jones",
+        "descricao": "Cantora, pianista e compositora americana de jazz e pop, do sucesso Don't Know Why",
+        "variantes": [
+          "Geethali Norah Jones Shankar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jon_jones",
+          "nome": "Jon Jones",
+          "descricao": "Lutador americano de MMA, campeão dos meio-pesados e dos pesados do UFC.",
+          "variantes": [
+            "Jonathan Dwight Jones",
+            "Bones"
+          ]
+        },
+        {
+          "id": "ossos_oraculares",
+          "nome": "Ossos oraculares",
+          "descricao": "Ossos e cascos de tartaruga usados para adivinhação na China antiga, com os textos mais antigos da escrita chinesa.",
+          "variantes": [
+            "Oracle bones",
+            "Jiaguwen"
+          ]
+        },
+        {
+          "id": "conquista_normanda_da_inglaterra",
+          "nome": "Conquista normanda da Inglaterra",
+          "descricao": "Invasão e conquista da Inglaterra por Guilherme, duque da Normandia, a partir da Batalha de Hastings em 1066.",
+          "variantes": [
+            "Conquista Normanda",
+            "Norman Conquest"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "kanzashi",
+          "nome": "Kanzashi",
+          "descricao": "Enfeite de cabelo tradicional japonês, como grampos com flores e correntes pendentes.",
+          "variantes": [
+            "Kanzashi japonês"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Black Sabbath",
+        "descricao": "Banda britânica de heavy metal formada em Birmingham em 1968, com Ozzy Osbourne e Tony Iommi",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "black_sabbath_album",
+          "nome": "Black Sabbath (álbum)",
+          "descricao": "Álbum de estreia da banda britânica Black Sabbath, lançado em 1970",
+          "variantes": [
+            "Black Sabbath"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "kobe_bryant",
+          "nome": "Kobe Bryant",
+          "descricao": "Ala-armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, de 1996 a 2016.",
+          "variantes": [
+            "Kobe Bean Bryant",
+            "Black Mamba",
+            "Kobe"
+          ]
+        },
+        {
+          "id": "gato_preto",
+          "nome": "Gato preto",
+          "descricao": "Gato de pelagem preta, objeto de superstições opostas em diferentes países.",
+          "variantes": [
+            "Black cat"
+          ]
+        },
+        {
+          "id": "mar_negro",
+          "nome": "Mar Negro",
+          "descricao": "Mar interior entre o sudeste da Europa e a Ásia Menor, ligado ao Mediterrâneo pelo Bósforo.",
+          "variantes": [
+            "Black Sea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Despacito",
+        "descricao": "Canção em espanhol de Luis Fonsi com Daddy Yankee, lançada em 2017",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "democrito",
+          "nome": "Demócrito",
+          "descricao": "Filósofo grego pré-socrático (c. 460–370 a.C.), um dos formuladores da teoria atômica.",
+          "variantes": [
+            "Democritus",
+            "Demócrito de Abdera"
+          ]
+        },
+        {
+          "id": "pedra_sabao",
+          "nome": "Pedra-sabão",
+          "descricao": "Rocha metamórfica macia rica em talco, a esteatita, usada em esculturas e panelas.",
+          "variantes": [
+            "Esteatita",
+            "Soapstone",
+            "Esteatito"
+          ]
+        },
+        {
+          "id": "espartaco",
+          "nome": "Espártaco",
+          "descricao": "Gladiador trácio que liderou a maior revolta de escravos contra Roma, entre 73 e 71 antes de Cristo.",
+          "variantes": [
+            "Spartacus"
+          ]
+        },
+        {
+          "id": "heraclito",
+          "nome": "Heráclito",
+          "descricao": "Filósofo pré-socrático de Éfeso (c. 535–475 a.C.), que via o fogo e a mudança constante como base do mundo.",
+          "variantes": [
+            "Heráclito de Éfeso",
+            "Heraclitus"
+          ]
+        },
+        {
+          "id": "try_rugbi",
+          "nome": "Try (rúgbi)",
+          "descricao": "Jogada do rúgbi em que o jogador apoia a bola no chão dentro da área de meta adversária.",
+          "variantes": [
+            "Ensaio",
+            "Try"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Salsa",
+        "descricao": "Gênero de música dançante desenvolvido por músicos caribenhos, sobretudo cubanos e porto-riquenhos, em Nova York nos anos sessenta e setenta",
+        "variantes": [
+          "Salsa music"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salsinha",
+          "nome": "Salsinha",
+          "descricao": "Erva Petroselinum crispum, usada como tempero e guarnição, aqui de folha lisa.",
+          "variantes": [
+            "Salsa",
+            "Parsley"
+          ]
+        },
+        {
+          "id": "aipo",
+          "nome": "Aipo",
+          "descricao": "Hortaliça Apium graveolens, de talos fibrosos e crocantes usados em saladas, caldos e sucos.",
+          "variantes": [
+            "Salsão",
+            "Celery"
+          ]
+        },
+        {
+          "id": "balsa",
+          "nome": "Balsa",
+          "descricao": "Embarcação que transporta passageiros e veículos de uma margem a outra.",
+          "variantes": [
+            "Ferry",
+            "Ferry-boat",
+            "Ferryboat"
+          ]
+        },
+        {
+          "id": "balsa_muisca",
+          "nome": "Balsa Muísca",
+          "descricao": "Peça de ouro dos muíscas que representa uma jangada com um chefe e acompanhantes, ligada ao ritual que originou a lenda do Eldorado.",
+          "variantes": [
+            "Balsa de El Dorado",
+            "Muisca raft"
+          ]
+        },
+        {
+          "id": "salsicha",
+          "nome": "Salsicha",
+          "descricao": "Membro da turma do Scooby-Doo, de camisa verde e cavanhaque ralo, dono do cão Scooby.",
+          "variantes": [
+            "Shaggy Rogers",
+            "Norville Rogers",
+            "Shaggy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Prince",
+        "descricao": "Cantor, compositor e multi-instrumentista americano, de Purple Rain, morto em 2016",
+        "variantes": [
+          "Prince Rogers Nelson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pince_nez",
+          "nome": "Pince-nez",
+          "descricao": "Tipo de óculos sem hastes, cujas lentes são presas pressionando a ponte do nariz, popular no fim do século dezenove.",
+          "variantes": [
+            "Pincenê"
+          ]
+        },
+        {
+          "id": "o_principe",
+          "nome": "O Príncipe",
+          "descricao": "Tratado político de Nicolau Maquiavel, escrito por volta de 1513.",
+          "variantes": [
+            "Il Principe",
+            "The Prince"
+          ]
+        },
+        {
+          "id": "jigglypuff",
+          "nome": "Jigglypuff",
+          "descricao": "Pokémon dos tipos Normal e Fada, número 39 da Pokédex Nacional.",
+          "variantes": [
+            "Purin"
+          ]
+        },
+        {
+          "id": "pride_fighting_championships",
+          "nome": "Pride Fighting Championships",
+          "descricao": "Organização japonesa de MMA que promoveu grandes eventos entre 1997 e 2007.",
+          "variantes": [
+            "Pride FC",
+            "Pride"
+          ]
+        },
+        {
+          "id": "rio_reno",
+          "nome": "Rio Reno",
+          "descricao": "Grande rio da Europa Ocidental que nasce nos Alpes suíços e deságua no mar do Norte, nos Países Baixos.",
+          "variantes": [
+            "Rhine",
+            "Rhein",
+            "Rhin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Reggae",
+        "descricao": "Gênero musical surgido na Jamaica, popularizado mundialmente por Bob Marley",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "regua",
+          "nome": "Régua",
+          "descricao": "Instrumento rígido com marcações usado para medir comprimentos e traçar linhas retas.",
+          "variantes": [
+            "Régua graduada",
+            "Escala"
+          ]
+        },
+        {
+          "id": "regaleco",
+          "nome": "Regaleco",
+          "descricao": "Peixe oceânico prateado em forma de fita (Regalecus glesne), o peixe ósseo mais comprido do mundo.",
+          "variantes": [
+            "Peixe-remo",
+            "Regalecus glesne",
+            "Giant oarfish"
+          ]
+        },
+        {
+          "id": "bruges",
+          "nome": "Bruges",
+          "descricao": "Cidade medieval de canais na Flandres Ocidental, Bélgica, com centro histórico Patrimônio da UNESCO.",
+          "variantes": [
+            "Brugge"
+          ]
+        },
+        {
+          "id": "regigigas",
+          "nome": "Regigigas",
+          "descricao": "Pokémon do tipo Normal, número 486 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "regice",
+          "nome": "Regice",
+          "descricao": "Pokémon do tipo Gelo, número 378 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Metallica",
+        "descricao": "Banda americana de heavy metal formada em 1981 por James Hetfield e Lars Ulrich",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "dormideira",
+          "nome": "Dormideira",
+          "descricao": "Mimosa pudica, planta rasteira da família das leguminosas cujas folhas se fecham ao toque.",
+          "variantes": [
+            "Sensitiva",
+            "Mimosa pudica",
+            "Malícia"
+          ]
+        },
+        {
+          "id": "metecos",
+          "nome": "Metecos",
+          "descricao": "Estrangeiros livres que residiam em Atenas, pagavam imposto e serviam no exército, mas não tinham direitos políticos.",
+          "variantes": [
+            "Meteco",
+            "Metic",
+            "Métoikos"
+          ]
+        },
+        {
+          "id": "petalita",
+          "nome": "Petalita",
+          "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
+          "variantes": [
+            "Petalite",
+            "Castorita"
+          ]
+        },
+        {
+          "id": "met_gala",
+          "nome": "Met Gala",
+          "descricao": "Baile beneficente anual de moda do Instituto do Figurino do Metropolitan Museum of Art, em Nova York.",
+          "variantes": [
+            "Met Ball",
+            "Costume Institute Gala"
+          ]
+        },
+        {
+          "id": "maiorca",
+          "nome": "Maiorca",
+          "descricao": "Maior ilha das Baleares, na Espanha.",
+          "variantes": [
+            "Mallorca",
+            "Majorca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cesária Évora",
+        "descricao": "Cantora cabo-verdiana de morna, conhecida como a diva dos pés descalços, morta em 2011",
+        "variantes": [
+          "Cesaria Evora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cesariao",
+          "nome": "Cesarião",
+          "descricao": "Ptolomeu Quinze, filho de Cleópatra Sétima e de Júlio César, corregente do Egito morto em 30 antes de Cristo",
+          "variantes": [
+            "Ptolomeu XV",
+            "Caesarion",
+            "Ptolomeu XV Cesarião"
+          ]
+        },
+        {
+          "id": "cesar_cielo",
+          "nome": "Cesar Cielo",
+          "descricao": "Nadador brasileiro de velocidade, campeão olímpico dos 50 m livre em 2008.",
+          "variantes": [
+            "César Augusto Cielo Filho"
+          ]
+        },
+        {
+          "id": "alfabeto_georgiano",
+          "nome": "Alfabeto georgiano",
+          "descricao": "Sistema de escrita do idioma georgiano, com as três versões Asomtavruli, Nuskhuri e Mkhedruli.",
+          "variantes": [
+            "Escrita georgiana",
+            "Mkhedruli"
+          ]
+        },
+        {
+          "id": "marilia_pera",
+          "nome": "Marília Pêra",
+          "descricao": "Atriz, cantora e diretora de teatro brasileira (1943–2015).",
+          "variantes": [
+            "Marília Soares Pêra"
+          ]
+        },
+        {
+          "id": "federico_garcia_lorca",
+          "nome": "Federico García Lorca",
+          "descricao": "Poeta e dramaturgo espanhol (1898–1936), autor de Bodas de Sangue.",
+          "variantes": [
+            "García Lorca",
+            "Lorca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Guns N' Roses",
+        "descricao": "Banda americana de hard rock formada em Los Angeles em 1985, com o vocalista Axl Rose",
+        "variantes": [
+          "Guns and Roses"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "satyendra_nath_bose",
+          "nome": "Satyendra Nath Bose",
+          "descricao": "Físico teórico e matemático indiano, autor da estatística de Bose-Einstein.",
+          "variantes": [
+            "S. N. Bose"
+          ]
+        },
+        {
+          "id": "guido_van_rossum",
+          "nome": "Guido van Rossum",
+          "descricao": "Programador holandês, criador da linguagem Python.",
+          "variantes": []
+        },
+        {
+          "id": "dungeons_dragons",
+          "nome": "Dungeons & Dragons",
+          "descricao": "Jogo de RPG de mesa de fantasia lançado nos Estados Unidos em 1974.",
+          "variantes": [
+            "D&D",
+            "Dungeons and Dragons"
+          ]
+        },
+        {
+          "id": "guerra_das_rosas",
+          "nome": "Guerra das Rosas",
+          "descricao": "Série de guerras civis pelo trono inglês, travadas entre 1455 e 1487 por dois ramos da dinastia Plantageneta.",
+          "variantes": [
+            "Wars of the Roses",
+            "Guerras das Rosas"
+          ]
+        },
+        {
+          "id": "venus_e_marte_botticelli",
+          "nome": "Vênus e Marte (Botticelli)",
+          "descricao": "Pintura em painel de Sandro Botticelli, por volta de 1485, com Vênus e Marte reclinados entre pequenos sátiros.",
+          "variantes": [
+            "Marte e Vênus",
+            "Venus and Mars"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Hotel California",
+        "descricao": "Canção de rock lançada em 1976 como faixa-título de um álbum da banda americana Eagles",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "california",
+          "nome": "Califórnia",
+          "descricao": "Estado da costa oeste dos Estados Unidos, o mais populoso do país.",
+          "variantes": []
+        },
+        {
+          "id": "nebulosa_california",
+          "nome": "Nebulosa Califórnia",
+          "descricao": "Nebulosa de emissão na constelação de Perseu, também chamada NGC 1499.",
+          "variantes": [
+            "NGC 1499",
+            "Sh 2-220",
+            "California Nebula"
+          ]
+        },
+        {
+          "id": "heliconia",
+          "nome": "Helicônia",
+          "descricao": "Planta tropical do gênero Heliconia, de brácteas coloridas e pontiagudas dispostas em fileira.",
+          "variantes": [
+            "Bananeira-do-mato",
+            "Falsa-ave-do-paraíso"
+          ]
+        },
+        {
+          "id": "bandeira_da_california",
+          "nome": "Bandeira da Califórnia",
+          "descricao": "Bandeira do estado americano da Califórnia, branca com uma estrela vermelha, um urso e uma faixa vermelha embaixo.",
+          "variantes": [
+            "Bear Flag"
+          ]
+        },
+        {
+          "id": "leao_marinho",
+          "nome": "Leão-marinho",
+          "descricao": "Mamífero marinho da família Otariidae, com orelhas externas, como o leão-marinho-da-califórnia.",
+          "variantes": [
+            "Leão-marinho-da-Califórnia",
+            "Otariidae"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Norah Jones."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A banda é diferente do álbum de estreia homônimo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a canção Despacito."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Salsa (gênero musical) difere de salsinha (erva), que só compartilha a variante 'Salsa'."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cantor Prince."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o gênero reggae."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a banda Metallica."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Cesária Évora."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a banda Guns N' Roses."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "A canção difere do estado da Califórnia e das demais candidatas."
+    }
+  ]
+}
