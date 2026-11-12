@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra um rato albino (Rattus), não um camundongo (Mus musculus); a figura contradiz a âncora e a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mostra um cubo metálico e várias placas de aspecto diferente; o manganês não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cristais incolores a azul-claro que podem ser confundidos com barita, quartzo ou outros minerais; não é reconhecível com resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dioneias em primeiro plano, bem reconhecíveis. A assinatura do fotógrafo não entrega a resposta. As droseras ao fundo não atrapalham.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que planta de pântano, em primeiro plano, é esta?",
+      "resposta": "Dioneia (Dionaea muscipula)",
+      "destino": 2,
+      "ancora": {
+        "nome": "Dioneia",
+        "descricao": "Planta carnívora Dionaea muscipula, nativa de pântanos da Carolina do Norte e do Sul, com folhas em forma de armadilha.",
+        "variantes": [
+          "Vênus papa-moscas",
+          "Dionaea muscipula",
+          "Venus flytrap"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cariótipo humano em pares numerados, claro e legível; só números, sem texto que entregue a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Estes cromossomos organizados em pares pertencem a qual espécie?",
+      "resposta": "Ser humano",
+      "destino": 2,
+      "ancora": {
+        "nome": "Cariótipo humano",
+        "descricao": "Representação ordenada dos 23 pares de cromossomos de uma célula humana, em geral obtida na metáfase.",
+        "variantes": [
+          "Cariograma",
+          "Cariótipo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Aglomerado de cristais escuros sem forma característica; a cassiterita não é reconhecível com resposta única pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Aparelho digital de pressão com a braçadeira bem visível. A marca não entrega a resposta.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama a faixa cinza ao lado do visor neste aparelho?",
+      "resposta": "Manguito (braçadeira)",
+      "destino": 1,
+      "ancora": {
+        "nome": "Esfigmomanômetro",
+        "descricao": "Aparelho usado para medir a pressão arterial, com manguito inflável e medidor de pressão.",
+        "variantes": [
+          "Aparelho de pressão",
+          "Medidor de pressão arterial",
+          "Tensiômetro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Corte histológico corado de linfonodo, com cápsula e gordura ao redor. Sem texto. Reconhecível para o público informado, e a pergunta do sistema evita confundir com timo ou baço.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este corte de órgão visto ao microscópio pertence a qual sistema do corpo?",
+      "resposta": "Sistema linfático",
+      "distratores": [
+        "Sistema endócrino",
+        "Sistema digestório",
+        "Sistema nervoso"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Linfonodo",
+        "descricao": "Órgão linfoide secundário em forma de rim, com córtex e medula, que filtra a linfa e abriga linfócitos.",
+        "variantes": [
+          "Gânglio linfático",
+          "Nódulo linfático"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Micrografia pequena e de baixa resolução, ilegível no celular; o osteoclasto não é reconhecível com clareza."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Quatro provetas graduadas de tamanhos diferentes, claramente reconhecíveis. As marcas de fabricante não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que vidraria de laboratório é esta?",
+      "resposta": "Proveta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Proveta",
+        "descricao": "Vidraria cilíndrica graduada de laboratório usada para medir volumes de líquidos.",
+        "variantes": [
+          "Cilindro graduado"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Balão volumétrico isolado, bem nítido, com gargalo longo e traço de aferição. O texto '10 ml' não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que vidraria de laboratório, com gargalo longo e estreito, é esta?",
+      "resposta": "Balão volumétrico",
+      "distratores": [
+        "Erlenmeyer",
+        "Balão de fundo redondo",
+        "Kitassato"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Balão volumétrico",
+        "descricao": "Vidraria de laboratório de fundo chato e gargalo longo com traço de aferição, calibrada para conter um volume exato.",
+        "variantes": [
+          "Balão aferido"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Sólido laranja num frasco: outros compostos têm cor parecida, então não é reconhecível com resposta única pela imagem."
+    }
+  ]
+}

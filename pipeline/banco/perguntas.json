@@ -413823,5 +413823,135 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q20806",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "dioneia",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que planta de pântano é esta?",
+    "resposta": "Dioneia (Dionaea muscipula)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Venus_flytrap",
+      "https://pt.wikipedia.org/wiki/Dioneia"
+    ],
+    "imagem": {
+      "arquivo": "q20806.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Venus_Flytrap_Dionaea_muscipula_(26455092815).jpg",
+      "autor": "Len Worthington",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q20807",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "cariotipo_humano",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Estes cromossomos organizados em pares pertencem a qual espécie?",
+    "resposta": "Ser humano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Karyotype",
+      "https://pt.wikipedia.org/wiki/Cari%C3%B3tipo"
+    ],
+    "imagem": {
+      "arquivo": "q20807.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Human_male_karyotpe_high_resolution.jpg",
+      "autor": "Courtesy: National Human Genome Research Institute",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q20808",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "esfigmomanometro",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Como se chama a parte deste aparelho que envolve o braço?",
+    "resposta": "Manguito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sphygmomanometer",
+      "https://pt.wikipedia.org/wiki/Esfigmoman%C3%B4metro"
+    ],
+    "imagem": {
+      "arquivo": "q20808.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2020_Sfigmomanometr_elektroniczny.jpg",
+      "autor": "Jacek Halicki",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20809",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "linfonodo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Este corte de órgão visto ao microscópio pertence a qual sistema do corpo?",
+    "resposta": "Sistema linfático",
+    "distratores": [
+      "Sistema endócrino",
+      "Sistema digestório",
+      "Sistema nervoso"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lymph_node",
+      "https://pt.wikipedia.org/wiki/Linfonodo"
+    ],
+    "imagem": {
+      "arquivo": "q20809.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Normal_Lymph_Node.jpg",
+      "autor": "Ed Uthman, MD",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q20810",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "proveta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que vidraria de laboratório é esta?",
+    "resposta": "Proveta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Graduated_cylinder",
+      "https://pt.wikipedia.org/wiki/Proveta"
+    ],
+    "imagem": {
+      "arquivo": "q20810.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Different_types_of_graduated_cylinder-_10ml,_25ml,_50ml_and_100_ml_graduated_cylinder.jpg",
+      "autor": "Praphai Donphaimueang",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q20811",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "balao_volumetrico",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que vidraria de laboratório, com gargalo longo e estreito, é esta?",
+    "resposta": "Balão volumétrico",
+    "distratores": [
+      "Erlenmeyer",
+      "Balão de fundo redondo",
+      "Kitassato"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volumetric_flask",
+      "https://pt.wikipedia.org/wiki/Bal%C3%A3o_volum%C3%A9trico"
+    ],
+    "imagem": {
+      "arquivo": "q20811.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Messkolben_10mL.jpg",
+      "autor": "Ichwarsnur",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

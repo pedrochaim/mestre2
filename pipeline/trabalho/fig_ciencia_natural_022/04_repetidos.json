@@ -1,0 +1,54 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que planta de pântano é esta?",
+        "resposta": "Dioneia (Dionaea muscipula)"
+      },
+      "existentes": [
+        {
+          "id": "q02666",
+          "pergunta": "A dioneia, planta carnívora, digere insetos para obter qual nutriente que falta no solo pantanoso onde vive?",
+          "resposta": "Nitrogênio"
+        },
+        {
+          "id": "q02667",
+          "pergunta": "Para a dioneia fechar a armadilha, quantos toques nos seus pelos sensores precisam acontecer em poucos segundos?",
+          "resposta": "Dois"
+        },
+        {
+          "id": "q19046",
+          "pergunta": "Na natureza, a dioneia só existe numa pequena região de pântanos e campos úmidos de que país?",
+          "resposta": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Como se chama a parte deste aparelho que envolve o braço?",
+        "resposta": "Manguito"
+      },
+      "existentes": [
+        {
+          "id": "q08653",
+          "pergunta": "Que aparelho é este?",
+          "resposta": "Esfigmomanômetro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta de identificação da planta (imagem); nenhuma existente pergunta o nome da planta, apenas nutriente, toques e distribuição."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o nome da parte do aparelho (manguito), fato diferente do nome do aparelho (esfigmomanômetro)."
+    }
+  ]
+}

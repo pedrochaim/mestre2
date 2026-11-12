@@ -1,0 +1,390 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Dioneia",
+        "descricao": "Planta carnívora Dionaea muscipula, nativa de pântanos da Carolina do Norte e do Sul, com folhas em forma de armadilha.",
+        "variantes": [
+          "Dioneia (planta carnívora)",
+          "Vênus papa-moscas",
+          "Dionaea muscipula",
+          "Venus flytrap"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dioneia",
+          "nome": "Dioneia",
+          "descricao": "Planta carnívora Dionaea muscipula, que captura insetos com folhas em forma de armadilha",
+          "variantes": [
+            "Dionaea muscipula",
+            "papa-moscas",
+            "Venus flytrap"
+          ]
+        },
+        {
+          "id": "grandes_dionisias",
+          "nome": "Grandes Dionísias",
+          "descricao": "Festival religioso de Atenas em honra a Dionísio, com concursos de tragédia e comédia.",
+          "variantes": [
+            "Dionísias Urbanas",
+            "Dionysia"
+          ]
+        },
+        {
+          "id": "dulcineia_del_toboso",
+          "nome": "Dulcineia del Toboso",
+          "descricao": "Dama idealizada por Dom Quixote no romance de Miguel de Cervantes.",
+          "variantes": [
+            "Dulcinea del Toboso",
+            "Dulcineia"
+          ]
+        },
+        {
+          "id": "indonesia",
+          "nome": "Indonésia",
+          "descricao": "País arquipélago do Sudeste Asiático, entre os oceanos Índico e Pacífico.",
+          "variantes": []
+        },
+        {
+          "id": "brasao_da_indonesia",
+          "nome": "Brasão da Indonésia",
+          "descricao": "Brasão de armas da Indonésia, com a ave mitológica Garuda e escudo com cinco símbolos do Pancasila.",
+          "variantes": [
+            "Indonésia",
+            "Garuda Pancasila",
+            "Armas da Indonésia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cariótipo humano",
+        "descricao": "Representação ordenada dos 23 pares de cromossomos de uma célula humana, em geral obtida na metáfase.",
+        "variantes": [
+          "Cariótipo",
+          "Cariograma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cromossomos_humanos",
+          "nome": "Cromossomos humanos",
+          "descricao": "Estruturas do núcleo celular que organizam o DNA humano.",
+          "variantes": [
+            "Cariótipo humano",
+            "Human chromosomes"
+          ]
+        },
+        {
+          "id": "eucarionte",
+          "nome": "Eucarionte",
+          "descricao": "Organismo cujas células têm núcleo delimitado por membrana, como animais, plantas, fungos e protistas.",
+          "variantes": [
+            "Eucarioto",
+            "Eukaryote"
+          ]
+        },
+        {
+          "id": "procarionte",
+          "nome": "Procarionte",
+          "descricao": "Organismo unicelular sem núcleo delimitado por membrana, como bactérias e arqueias.",
+          "variantes": [
+            "Procarioto",
+            "Prokaryote"
+          ]
+        },
+        {
+          "id": "monte_roraima",
+          "nome": "Monte Roraima",
+          "descricao": "Tepui de topo plano na tríplice fronteira entre Brasil, Venezuela e Guiana.",
+          "variantes": [
+            "Roraima",
+            "Mount Roraima",
+            "Tepui Roraima",
+            "Roraima-tepui"
+          ]
+        },
+        {
+          "id": "roraima",
+          "nome": "Roraima",
+          "descricao": "Estado mais setentrional do Brasil, na Região Norte, com capital em Boa Vista.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Esfigmomanômetro",
+        "descricao": "Aparelho usado para medir a pressão arterial, com manguito inflável e medidor de pressão.",
+        "variantes": [
+          "Esfigmomanômetro (aparelho de pressão)",
+          "Aparelho de pressão",
+          "Medidor de pressão arterial",
+          "Tensiômetro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esfigmomanometro",
+          "nome": "Esfigmomanômetro",
+          "descricao": "Aparelho com braçadeira inflável usado para medir a pressão arterial.",
+          "variantes": [
+            "Aparelho de pressão",
+            "Medidor de pressão arterial",
+            "Tensiômetro"
+          ]
+        },
+        {
+          "id": "panela_de_pressao",
+          "nome": "Panela de pressão",
+          "descricao": "Panela vedada que cozinha alimentos sob pressão de vapor acima da atmosférica.",
+          "variantes": [
+            "Pressure cooker"
+          ]
+        },
+        {
+          "id": "nilometro",
+          "nome": "Nilômetro",
+          "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+          "variantes": [
+            "Nilometer"
+          ]
+        },
+        {
+          "id": "aparelho_de_barbear",
+          "nome": "Aparelho de barbear",
+          "descricao": "Aparelho de barbear de segurança, com proteção entre a lâmina e a pele e lâmina removível.",
+          "variantes": [
+            "Barbeador",
+            "Safety razor",
+            "Gilete"
+          ]
+        },
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Linfonodo",
+        "descricao": "Órgão linfoide secundário em forma de rim, com córtex e medula, que filtra a linfa e abriga linfócitos.",
+        "variantes": [
+          "Gânglio linfático",
+          "Nódulo linfático"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "londres",
+          "nome": "Londres",
+          "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+          "variantes": [
+            "London"
+          ]
+        },
+        {
+          "id": "nucleo_atomico",
+          "nome": "Núcleo atômico",
+          "descricao": "Região central e densa do átomo, formada por prótons e nêutrons.",
+          "variantes": [
+            "Atomic nucleus"
+          ]
+        },
+        {
+          "id": "heliocentrismo",
+          "nome": "Heliocentrismo",
+          "descricao": "Modelo astronômico em que a Terra e os planetas giram em torno do Sol.",
+          "variantes": [
+            "Modelo heliocêntrico"
+          ]
+        },
+        {
+          "id": "pepita_de_ouro",
+          "nome": "Pepita de ouro",
+          "descricao": "Pedaço natural de ouro nativo, comum em depósitos de aluvião.",
+          "variantes": [
+            "Pepita",
+            "Ouro nativo"
+          ]
+        },
+        {
+          "id": "linfocito",
+          "nome": "Linfócito",
+          "descricao": "Tipo de glóbulo branco do sistema imunológico, que inclui células T, B e NK.",
+          "variantes": [
+            "Linfócito T",
+            "Lymphocyte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Proveta",
+        "descricao": "Vidraria cilíndrica graduada de laboratório usada para medir volumes de líquidos.",
+        "variantes": [
+          "Cilindro graduado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roleta",
+          "nome": "Roleta",
+          "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
+          "variantes": [
+            "Roleta de cassino"
+          ]
+        },
+        {
+          "id": "proton",
+          "nome": "Próton",
+          "descricao": "Partícula subatômica de carga elétrica positiva presente no núcleo de todos os átomos.",
+          "variantes": [
+            "Protão"
+          ]
+        },
+        {
+          "id": "biscoito_de_polvilho",
+          "nome": "Biscoito de polvilho",
+          "descricao": "Biscoito típico brasileiro feito de polvilho, em forma de argola, como o Biscoito Globo.",
+          "variantes": [
+            "Avoador",
+            "Biscoito de goma",
+            "Biscoito de vento",
+            "Biscoito voador",
+            "Peta"
+          ]
+        },
+        {
+          "id": "prea",
+          "nome": "Preá",
+          "descricao": "Roedor selvagem (Cavia aperea), parente do porquinho-da-índia, comum no Brasil e países vizinhos.",
+          "variantes": [
+            "Preá-brasileiro",
+            "Brazilian guinea pig",
+            "Cavia aperea"
+          ]
+        },
+        {
+          "id": "polenta",
+          "nome": "Polenta",
+          "descricao": "Prato italiano de fubá cozido, servido cremoso ou solidificado.",
+          "variantes": [
+            "Angu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Balão volumétrico",
+        "descricao": "Vidraria de laboratório de fundo chato e gargalo longo com traço de aferição, calibrada para conter um volume exato.",
+        "variantes": [
+          "Balão aferido"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "bufalo_asiatico",
+          "nome": "Búfalo-asiático",
+          "descricao": "Bovino domesticado de origem asiática (Bubalus bubalis), criado em grandes rebanhos na Ilha de Marajó, no Pará.",
+          "variantes": [
+            "Búfalo-d'água",
+            "Búfalo-doméstico",
+            "Bubalus bubalis"
+          ]
+        },
+        {
+          "id": "leao_o_africano",
+          "nome": "Leão, o Africano",
+          "descricao": "Diplomata e viajante do século dezesseis, autor de uma célebre descrição da África, nascido al-Hasan al-Wazzan.",
+          "variantes": [
+            "Leo Africanus",
+            "Hasan al-Wazzan",
+            "Leão Africano"
+          ]
+        },
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "batalhao_sagrado_de_tebas",
+          "nome": "Batalhão Sagrado de Tebas",
+          "descricao": "Tropa de elite tebana de trezentos soldados, ativa no século quatro a.C. e destruída em Queroneia em 338 a.C.",
+          "variantes": [
+            "Sacred Band of Thebes",
+            "Batalhão Sagrado"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "dioneia",
+      "motivo": "Mesma planta carnívora Dionaea muscipula."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cariótipo é a representação ordenada dos cromossomos; 'Cromossomos humanos' são as estruturas em si. Na dúvida, nova."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "esfigmomanometro",
+      "motivo": "Mesmo aparelho de medir pressão arterial."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Linfonodo é um órgão, diferente de linfócito e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é vidraria de laboratório."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Vidraria de laboratório, sem candidata equivalente."
+    }
+  ]
+}

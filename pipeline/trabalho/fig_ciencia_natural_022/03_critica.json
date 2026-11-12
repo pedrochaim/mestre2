@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Em primeiro plano\" não consta em `mostra` e não dá para confirmar para esta foto. O resto está correto: a dioneia é de pântanos da Carolina do Norte e do Sul. A pista \"de pântano\" ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que planta de pântano é esta?",
+        "resposta": "Dioneia (Dionaea muscipula)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cariótipo humano tem 23 pares (46 cromossomos), como diz o trecho. O enunciado não vaza a resposta e a figura é necessária. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Faixa cinza ao lado do visor\" descreve cor e posição que `mostra` não confirma, e \"visor\" supõe um modelo digital. O trecho em português também usa \"braçadeira\" para a capa externa e \"manguito\" para a bolsa, então a resposta com parênteses é ambígua. A reescrita pede o nome da parte sem descrever o aparelho.",
+      "reescrita": {
+        "pergunta": "Como se chama a parte deste aparelho que envolve o braço?",
+        "resposta": "Manguito",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O linfonodo pertence ao sistema linfático, como diz o trecho. O enunciado não vaza a resposta e os distratores são do mesmo tipo e errados. O nível 3 está correto, pois exige reconhecer o órgão e saber a que sistema ele pertence.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de uma proveta, vidraria cilíndrica graduada. O enunciado não vaza a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O balão volumétrico tem gargalo longo com traço de aferição e fundo chato. Os distratores são vidrarias parecidas mas distintas e têm até 4 palavras. A pista \"gargalo longo e estreito\" ajuda sem entregar a resposta.",
+      "reescrita": null
+    }
+  ]
+}
