@@ -1,0 +1,640 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Formiga-carpinteira",
+        "descricao": "Formigas do gênero Camponotus, que fazem ninhos em madeira.",
+        "variantes": [
+          "Camponotus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camp_nou",
+          "nome": "Camp Nou",
+          "descricao": "Estádio do Barcelona, o maior da Europa.",
+          "variantes": []
+        },
+        {
+          "id": "sauva",
+          "nome": "Saúva",
+          "descricao": "Formigas cortadeiras do gênero Atta, que cortam folhas e as levam para o formigueiro.",
+          "variantes": [
+            "Atta",
+            "formiga-cortadeira",
+            "leafcutter ant"
+          ]
+        },
+        {
+          "id": "canopus",
+          "nome": "Canopus",
+          "descricao": "Estrela supergigante branco-amarelada da constelação da Carena, a segunda mais brilhante do céu noturno.",
+          "variantes": [
+            "Canopo",
+            "Alfa Carinae"
+          ]
+        },
+        {
+          "id": "mamangava",
+          "nome": "Mamangava",
+          "descricao": "Abelha grande do gênero Xylocopa, que escava o ninho em madeira seca ou bambu.",
+          "variantes": [
+            "Abelha-carpinteira",
+            "Xylocopa"
+          ]
+        },
+        {
+          "id": "formiga_feiticeira",
+          "nome": "Formiga-feiticeira",
+          "descricao": "Vespa da família Mutillidae cuja fêmea, sem asas e peluda, parece uma formiga.",
+          "variantes": [
+            "Formiga-de-veludo",
+            "Mutilídeo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Formiga-de-correição",
+        "descricao": "Formigas nômades e predadoras que caçam em grandes colunas, como as do gênero Eciton.",
+        "variantes": [
+          "Formiga-legionária",
+          "Marabunta",
+          "Eciton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maraba_rodolfo_amoedo",
+          "nome": "Marabá (Rodolfo Amoedo)",
+          "descricao": "Pintura a óleo de 1882 de Rodolfo Amoedo, inspirada no poema de Gonçalves Dias.",
+          "variantes": [
+            "Marabá"
+          ]
+        },
+        {
+          "id": "marabu",
+          "nome": "Marabu",
+          "descricao": "Grande cegonha africana Leptoptilos crumenifer, de cabeça e pescoço pelados e bico enorme, que frequenta também lixões.",
+          "variantes": [
+            "Marabou",
+            "Leptoptilos crumenifer",
+            "Marabout stork"
+          ]
+        },
+        {
+          "id": "aguia_legionaria",
+          "nome": "Águia legionária",
+          "descricao": "Estandarte de cada legião romana, encimado por uma águia, cuja perda era considerada grande desonra.",
+          "variantes": [
+            "Aquila"
+          ]
+        },
+        {
+          "id": "maria_bonita",
+          "nome": "Maria Bonita",
+          "descricao": "Maria Gomes de Oliveira, companheira de Lampião e a mais famosa mulher do cangaço, morta em 1938.",
+          "variantes": [
+            "Maria Gomes de Oliveira",
+            "Maria de Déa"
+          ]
+        },
+        {
+          "id": "rambuta",
+          "nome": "Rambutã",
+          "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+          "variantes": [
+            "Rambutão",
+            "Rambutan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Camarão-pistola",
+        "descricao": "Camarões da família Alpheidae, com uma garra enorme que produz um estalo.",
+        "variantes": [
+          "Camarão-de-estalo",
+          "Alpheidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        },
+        {
+          "id": "mar_de_salton",
+          "nome": "Mar de Salton",
+          "descricao": "Lago salgado e raso no sul da Califórnia, nos condados de Riverside e Imperial, sobre a Falha de San Andreas.",
+          "variantes": [
+            "Salton Sea",
+            "Lago Salton"
+          ]
+        },
+        {
+          "id": "camara_de_nuvens",
+          "nome": "Câmara de nuvens",
+          "descricao": "Detector de partículas ionizantes com vapor supersaturado, criado por Charles Wilson em 1911.",
+          "variantes": [
+            "Câmara de Wilson"
+          ]
+        },
+        {
+          "id": "mosca_varejeira",
+          "nome": "Mosca-varejeira",
+          "descricao": "Inseto díptero da família Calliphoridae, de corpo verde ou azul metálico.",
+          "variantes": [
+            "Califorídeos",
+            "Mosca-varejeira-verde",
+            "Calliphoridae"
+          ]
+        },
+        {
+          "id": "ilha_de_marajo",
+          "nome": "Ilha de Marajó",
+          "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+          "variantes": [
+            "Marajó",
+            "Marajó Island"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Traça",
+        "descricao": "Inseto prateado e sem asas, Lepisma saccharina, que vive em casas e come papel e amido.",
+        "variantes": [
+          "Lepisma saccharina",
+          "Traça-de-livros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mariposa",
+          "nome": "Mariposa",
+          "descricao": "Inseto alado da ordem Lepidoptera, de hábitos em geral noturnos, aparentado com as borboletas; aqui, um exemplar de mariposa de olhos desenhados nas asas.",
+          "variantes": [
+            "Traça",
+            "Mariposas",
+            "Moth"
+          ]
+        },
+        {
+          "id": "tracaja",
+          "nome": "Tracajá",
+          "descricao": "Podocnemis unifilis, tartaruga de rio amazônica com manchas amarelas na cabeça.",
+          "variantes": [
+            "Podocnemis unifilis",
+            "Taricaya"
+          ]
+        },
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        },
+        {
+          "id": "tacha",
+          "nome": "Tachã",
+          "descricao": "Chauna torquata, ave aquática cinzenta sul-americana da família Anhimidae, de pernas vermelhas.",
+          "variantes": [
+            "Chajá",
+            "Tachã-cinzenta",
+            "Southern screamer"
+          ]
+        },
+        {
+          "id": "torracat",
+          "nome": "Torracat",
+          "descricao": "Pokémon do tipo Fogo, número 726 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Besouro-bombardeiro",
+        "descricao": "Besouro carabídeo que se defende expelindo um jato químico quente.",
+        "variantes": [
+          "Brachinus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bachianas_brasileiras",
+          "nome": "Bachianas Brasileiras",
+          "descricao": "Ciclo de nove suítes de Heitor Villa-Lobos que une a música brasileira ao estilo barroco.",
+          "variantes": [
+            "Bachianas"
+          ]
+        },
+        {
+          "id": "baco_caravaggio",
+          "nome": "Baco (Caravaggio)",
+          "descricao": "Pintura a óleo de Caravaggio (c. 1596) que mostra um jovem Baco com uvas na cabeça e uma taça de vinho, na Galeria Uffizi.",
+          "variantes": [
+            "Bacchus",
+            "Baco",
+            "Bacco"
+          ]
+        },
+        {
+          "id": "baco_michelangelo",
+          "nome": "Baco (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo (1496–1497) que representa o deus romano do vinho, com um pequeno sátiro.",
+          "variantes": [
+            "Bacchus",
+            "Baco de Michelangelo"
+          ]
+        },
+        {
+          "id": "braquiossauro",
+          "nome": "Braquiossauro",
+          "descricao": "Gênero de dinossauro saurópode do Jurássico Superior da América do Norte, de pescoço longo e patas dianteiras mais longas que as traseiras.",
+          "variantes": [
+            "Brachiosaurus"
+          ]
+        },
+        {
+          "id": "brain_virus_de_computador",
+          "nome": "Brain (vírus de computador)",
+          "descricao": "Vírus de computador de 1986 que infectava disquetes de computadores pessoais compatíveis com o IBM PC.",
+          "variantes": [
+            "Brain",
+            "Pakistani Brain"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tarântula-golias",
+        "descricao": "Theraphosa blondi, grande aranha da família das tarântulas, do norte da América do Sul.",
+        "variantes": [
+          "Aranha-golias",
+          "Theraphosa blondi",
+          "Goliath birdeater"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ra_golias",
+          "nome": "Rã-golias",
+          "descricao": "Rã africana (Conraua goliath) de rios de Camarões e da Guiné Equatorial.",
+          "variantes": [
+            "Conraua goliath"
+          ]
+        },
+        {
+          "id": "besouro_golias",
+          "nome": "Besouro-golias",
+          "descricao": "Besouro africano do gênero Goliathus, um dos maiores insetos do mundo, com élitros e tórax listrados de preto e branco.",
+          "variantes": [
+            "Goliathus",
+            "Goliath beetle",
+            "Golias"
+          ]
+        },
+        {
+          "id": "nebulosa_da_tarantula",
+          "nome": "Nebulosa da Tarântula",
+          "descricao": "Grande região H II, também chamada 30 Doradus, no canto sudeste da Grande Nuvem de Magalhães.",
+          "variantes": [
+            "30 Doradus",
+            "Tarantula Nebula"
+          ]
+        },
+        {
+          "id": "marimbondo_cavalo",
+          "nome": "Marimbondo-cavalo",
+          "descricao": "Vespa da família Pompilidae, dos gêneros Pepsis e Hemipepsis, que caça tarântulas.",
+          "variantes": [
+            "Tarantula hawk",
+            "Vespa-caçadora-de-tarântulas"
+          ]
+        },
+        {
+          "id": "njinga_mbandi",
+          "nome": "Njinga Mbandi",
+          "descricao": "Rainha dos reinos de Ndongo e Matamba, no atual território de Angola, que resistiu aos portugueses no século dezessete.",
+          "variantes": [
+            "Rainha Ginga",
+            "Nzinga",
+            "Rainha Jinga",
+            "Ana de Sousa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Quíton",
+        "descricao": "Molusco marinho da classe Polyplacophora, com concha de oito placas.",
+        "variantes": [
+          "Poliplacóforo",
+          "Chiton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quioto",
+          "nome": "Quioto",
+          "descricao": "Antiga capital imperial do Japão, na ilha de Honshu, vista na rua histórica Ninenzaka.",
+          "variantes": [
+            "Kyoto"
+          ]
+        },
+        {
+          "id": "chita",
+          "nome": "Chita",
+          "descricao": "Tecido barato de algodão com estampas florais coloridas, tradicional no Brasil",
+          "variantes": [
+            "Chitão",
+            "Chintz"
+          ]
+        },
+        {
+          "id": "quiron",
+          "nome": "Quíron",
+          "descricao": "Centauro sábio da mitologia grega, mestre de heróis como Aquiles e Asclépio.",
+          "variantes": [
+            "Chiron",
+            "Quirão"
+          ]
+        },
+        {
+          "id": "quimono",
+          "nome": "Quimono",
+          "descricao": "Vestimenta tradicional japonesa em forma de T, com mangas largas e presa por uma faixa chamada obi",
+          "variantes": [
+            "Kimono"
+          ]
+        },
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tipulídeo",
+        "descricao": "Mosca-grua, díptero da superfamília Tipuloidea, de pernas muito longas.",
+        "variantes": [
+          "Mosca-grua",
+          "Crane fly",
+          "Tipulidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mexilhao",
+          "nome": "Mexilhão",
+          "descricao": "Molusco bivalve marinho da família Mytilidae, de concha alongada escura, fixo ao substrato por filamentos do bisso.",
+          "variantes": [
+            "Mexilhões",
+            "Mytilidae"
+          ]
+        },
+        {
+          "id": "formiga_feiticeira",
+          "nome": "Formiga-feiticeira",
+          "descricao": "Vespa da família Mutillidae cuja fêmea, sem asas e peluda, parece uma formiga.",
+          "variantes": [
+            "Formiga-de-veludo",
+            "Mutilídeo"
+          ]
+        },
+        {
+          "id": "mosca_ladra",
+          "nome": "Mosca-ladra",
+          "descricao": "Mosca predadora da família Asilidae, robusta e cerdosa, que caça outros insetos em emboscada.",
+          "variantes": [
+            "Asilídeos",
+            "Mosca-assassina",
+            "Asilidae"
+          ]
+        },
+        {
+          "id": "drosophila_melanogaster",
+          "nome": "Drosophila melanogaster",
+          "descricao": "Mosca-da-fruta usada como organismo-modelo em genética.",
+          "variantes": [
+            "Mosca-da-fruta",
+            "Drosófila",
+            "Mosca-das-frutas"
+          ]
+        },
+        {
+          "id": "til",
+          "nome": "Til",
+          "descricao": "Sinal gráfico ondulado usado sobre as vogais a e o no português",
+          "variantes": [
+            "Tilde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Besouro-da-batata",
+        "descricao": "Leptinotarsa decemlineata, besouro listrado de amarelo e preto, grande praga da batata.",
+        "variantes": [
+          "Escaravelho-da-batata",
+          "Besouro-do-colorado",
+          "Leptinotarsa decemlineata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rola_bosta",
+          "nome": "Rola-bosta",
+          "descricao": "Besouros escarabeídeos que se alimentam de fezes e as moldam em bolas para rolar e enterrar.",
+          "variantes": [
+            "besouro-rola-bosta",
+            "dung beetle",
+            "escaravelho",
+            "Besouro-de-esterco"
+          ]
+        },
+        {
+          "id": "besouro_da_neblina",
+          "nome": "Besouro-da-neblina",
+          "descricao": "Besouro Stenocara gracilipes, do deserto do Namibe, que coleta água das gotas de neblina sobre o próprio corpo.",
+          "variantes": [
+            "Stenocara gracilipes",
+            "Besouro-do-namibe"
+          ]
+        },
+        {
+          "id": "tesouro_de_oxus",
+          "nome": "Tesouro de Oxus",
+          "descricao": "Coleção de cerca de 180 peças de ouro e prata e 200 moedas do período aquemênida persa, achadas perto do rio Oxus no século dezenove.",
+          "variantes": [
+            "Tesouro do Oxo",
+            "Oxus Treasure",
+            "Tesouro de Amudaria"
+          ]
+        },
+        {
+          "id": "rio_colorado",
+          "nome": "Rio Colorado",
+          "descricao": "Rio do sudoeste dos Estados Unidos e norte do México que atravessa o Grand Canyon.",
+          "variantes": [
+            "Colorado River"
+          ]
+        },
+        {
+          "id": "pure_de_batata",
+          "nome": "Purê de batata",
+          "descricao": "Prato feito de batatas cozidas e amassadas, com leite, manteiga e sal.",
+          "variantes": [
+            "Batata amassada",
+            "Mashed potatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Mariposa-cometa",
+        "descricao": "Argema mittrei, grande mariposa amarela de caudas longas, nativa de Madagascar.",
+        "variantes": [
+          "Argema mittrei",
+          "Mariposa-lunar-de-madagascar",
+          "Comet moth"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mariposa_caveira",
+          "nome": "Mariposa-caveira",
+          "descricao": "Mariposas do gênero Acherontia, como a Acherontia atropos, que têm no tórax um desenho parecido com uma caveira.",
+          "variantes": [
+            "Acherontia atropos",
+            "Acherontia",
+            "death's-head hawkmoth",
+            "esfinge-caveira"
+          ]
+        },
+        {
+          "id": "mariposa_atlas",
+          "nome": "Mariposa-atlas",
+          "descricao": "Grande mariposa saturniídea asiática (Attacus atlas), uma das maiores do mundo, com pontas das asas semelhantes a cabeças de serpente.",
+          "variantes": [
+            "Attacus atlas",
+            "Atlas moth",
+            "Atlas"
+          ]
+        },
+        {
+          "id": "fossa",
+          "nome": "Fossa",
+          "descricao": "Carnívoro esguio e de cauda longa, parecido com um felino, endêmico de Madagascar (Cryptoprocta ferox).",
+          "variantes": [
+            "Cryptoprocta ferox",
+            "Fossa-de-madagascar"
+          ]
+        },
+        {
+          "id": "mariposa_luna",
+          "nome": "Mariposa-luna",
+          "descricao": "Grande mariposa verde-clara norte-americana da família Saturniidae, com caudas nas asas posteriores (Actias luna).",
+          "variantes": [
+            "Actias luna",
+            "Luna moth"
+          ]
+        },
+        {
+          "id": "esfinge_colibri",
+          "nome": "Esfinge-colibri",
+          "descricao": "Mariposa da família Sphingidae (Macroglossum stellatarum), que paira no ar para sugar néctar, como um beija-flor.",
+          "variantes": [
+            "Mariposa-colibri",
+            "Macroglossum stellatarum",
+            "Hummingbird hawk-moth"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Formiga-carpinteira (Camponotus) não corresponde a nenhuma candidata; a mamangava é abelha."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Formiga-de-correição não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Camarão-pistola não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Traça-de-livros (Lepisma saccharina) é um inseto sem asas, diferente da mariposa, que é da ordem Lepidoptera, embora tenha 'Traça' como variante."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Besouro-bombardeiro não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tarântula-golias é uma aranha, diferente das outras 'golias' e da nebulosa."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Quíton é um molusco; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tipulídeo (mosca-grua) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Besouro-da-batata (Leptinotarsa decemlineata) não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Argema mittrei é espécie diferente das mariposas candidatas, como a luna e a atlas."
+    }
+  ]
+}

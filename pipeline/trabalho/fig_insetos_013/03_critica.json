@@ -1,0 +1,101 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento; sem vazamento, resposta coerente com o gênero Camponotus.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As mandíbulas em gancho dos soldados de Eciton são bem documentadas. O enunciado não nomeia o grupo e os distratores são formigas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que apenas algumas espécies dividem a toca com góbios, então 'muitos' não é literal. Trocar por 'alguns'.",
+      "reescrita": {
+        "pergunta": "Alguns camarões como este, de garra enorme, dividem a toca com um peixe pequeno que vigia a entrada. Que peixe é esse?",
+        "resposta": "Góbio",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Tenébrio' também é nome popular da larva, então a resposta não é única e coincide com a entidade da figura. Reescrever pedindo o besouro seria ambíguo com a larva de Zophobas, também vendida como alimento. Sem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com a figura decidindo entre os distratores. Traça é o nome brasileiro do Lepisma saccharina.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Cabeça alaranjada e asas escuras' não está confirmado em 'mostra' e varia entre espécies. Além disso, o vaga-lume também tem tórax alaranjado e élitros escuros, então o distrator poderia descrever a imagem. Removi a cor e troquei os distratores.",
+      "reescrita": {
+        "pergunta": "Que besouro predador é este, que escondido sob pedras expele um jato quente quando ameaçado?",
+        "resposta": "Besouro-bombardeiro",
+        "distratores": [
+          "Besouro-rinoceronte",
+          "Besouro-de-junho",
+          "Joaninha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos confirmam que o apelido 'comedora de pássaros' vem de uma gravura, e que a espécie raramente caça aves. Pergunta de nível 3 que exige reconhecer a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de molusco marinho (Polyplacophora). Resposta específica e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Mosquito gigante que não pica' é a definição popular da mosca-grua, e os distratores (todos picadores) são eliminados só pelo texto. A figura vira enfeite. Troquei a pista por uma que ajuda sem entregar, e a resposta pelo nome popular, já que Limoniidae também é mosca-grua.",
+      "reescrita": {
+        "pergunta": "Que díptero de pernas muito longas é este?",
+        "resposta": "Mosca-grua",
+        "distratores": [
+          "Pernilongo",
+          "Mutuca",
+          "Maruim"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Listrado' e 'praga agrícola' não bastam para chegar à resposta sem a figura. Resposta correta e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie é endêmica de Madagascar e vive em floresta tropical pluvial. Os distratores são ilhas plausíveis e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de formiga preta de pernas longas, típica do gênero Camponotus.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que formiga é esta?",
+      "resposta": "Formiga-carpinteira",
+      "destino": 0,
+      "ancora": {
+        "nome": "Formiga-carpinteira",
+        "descricao": "Formigas do gênero Camponotus, que fazem ninhos em madeira.",
+        "variantes": [
+          "Camponotus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cabeça de soldado com mandíbulas em gancho, característica; a escala de 2 mm não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de formiga é este soldado, de mandíbulas enormes em forma de gancho?",
+      "resposta": "Formiga-de-correição",
+      "distratores": [
+        "Formiga-cortadeira",
+        "Formiga-carpinteira",
+        "Formiga-de-fogo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Formiga-de-correição",
+        "descricao": "Formigas nômades e predadoras que caçam em grandes colunas, como as do gênero Eciton.",
+        "variantes": [
+          "Formiga-legionária",
+          "Marabunta",
+          "Eciton"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Camarão com garra grande e assimétrica visível; marca d'água discreta não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Muitos camarões como este, de garra enorme, dividem a toca com um peixe pequeno que vigia a entrada. Que peixe é esse?",
+      "resposta": "Góbio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Camarão-pistola",
+        "descricao": "Camarões da família Alpheidae, com uma garra enorme que produz um estalo.",
+        "variantes": [
+          "Camarão-de-estalo",
+          "Alpheidae"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de estúdio do besouro adulto, nítida. A imagem mostra o adulto, então a pergunta é sobre a larva.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome popular tem a larva deste besouro, vendida como alimento para aves e outros bichos?",
+      "resposta": "Bicho-da-farinha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tenébrio",
+        "descricao": "Besouro Tenebrio molitor, cuja larva é o bicho-da-farinha.",
+        "variantes": [
+          "Besouro-da-farinha",
+          "Tenebrio molitor"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto clara de inseto prateado, sem asas e com apêndices na cauda, bem reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inseto doméstico sem asas é este?",
+      "resposta": "Traça",
+      "distratores": [
+        "Tesourinha",
+        "Piolho-de-livro",
+        "Pulga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Traça",
+        "descricao": "Inseto prateado e sem asas, Lepisma saccharina, que vive em casas e come papel e amido.",
+        "variantes": [
+          "Lepisma saccharina",
+          "Traça-de-livros"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Besouro de cabeça alaranjada e élitros escuros, bem nítido e característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que besouro é este, de cabeça alaranjada e asas escuras?",
+      "resposta": "Besouro-bombardeiro",
+      "distratores": [
+        "Besouro-tigre",
+        "Besouro-de-junho",
+        "Vaga-lume"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Besouro-bombardeiro",
+        "descricao": "Besouro carabídeo que se defende expelindo um jato químico quente.",
+        "variantes": [
+          "Brachinus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Montagem de quatro fotos de lapas diferentes, várias espécies, sem resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tarântula gigante nítida, de corpo inteiro, em fundo branco.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "O apelido popular desta tarântula gigante cita um tipo de presa que ela raramente caça. Que animais são esses?",
+      "resposta": "Aves (pássaros)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tarântula-golias",
+        "descricao": "Theraphosa blondi, grande aranha da família das tarântulas, do norte da América do Sul.",
+        "variantes": [
+          "Aranha-golias",
+          "Theraphosa blondi",
+          "Goliath birdeater"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida e colorida de um quíton de cima, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que molusco marinho é este?",
+      "resposta": "Quíton",
+      "destino": 0,
+      "ancora": {
+        "nome": "Quíton",
+        "descricao": "Molusco marinho da classe Polyplacophora, com concha de oito placas.",
+        "variantes": [
+          "Poliplacóforo",
+          "Chiton"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clara, em fundo branco, de mosca-grua de pernas longuíssimas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que inseto, parecido com um mosquito gigante mas que não pica, é este?",
+      "resposta": "Tipulídeo (mosca-grua)",
+      "distratores": [
+        "Pernilongo",
+        "Mutuca",
+        "Maruim"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tipulídeo",
+        "descricao": "Mosca-grua, díptero da superfamília Tipuloidea, de pernas muito longas.",
+        "variantes": [
+          "Mosca-grua",
+          "Crane fly",
+          "Tipulidae"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida do besouro listrado sobre uma planta, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que besouro listrado é este, famoso como praga agrícola?",
+      "resposta": "Besouro-da-batata",
+      "destino": 0,
+      "ancora": {
+        "nome": "Besouro-da-batata",
+        "descricao": "Leptinotarsa decemlineata, besouro listrado de amarelo e preto, grande praga da batata.",
+        "variantes": [
+          "Escaravelho-da-batata",
+          "Besouro-do-colorado",
+          "Leptinotarsa decemlineata"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mariposa amarela com caudas longas e ocelos, inconfundível; a roupa ao fundo não mostra pessoa reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta mariposa gigante vive nas florestas tropicais de qual ilha?",
+      "resposta": "Madagascar",
+      "distratores": [
+        "Sri Lanka",
+        "Bornéu",
+        "Nova Guiné"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mariposa-cometa",
+        "descricao": "Argema mittrei, grande mariposa amarela de caudas longas, nativa de Madagascar.",
+        "variantes": [
+          "Argema mittrei",
+          "Mariposa-lunar-de-madagascar",
+          "Comet moth"
+        ]
+      }
+    }
+  ]
+}
