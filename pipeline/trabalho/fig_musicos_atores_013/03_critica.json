@@ -1,0 +1,101 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta, sem vazamento; distratores são cantoras críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ator sueco e francês confirmado; enunciado não vaza o nome; distratores variados e errados para a foto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples, sem pista no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz a palavra 'banda', que faz parte da resposta 'Banda Calypso'. Troco por 'grupo' e acrescento a origem paraense como pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Com que grupo musical esta cantora paraense ficou famosa?",
+        "resposta": "Banda Calypso",
+        "distratores": [
+          "Companhia do Calypso",
+          "Banda Magníficos",
+          "Aviões do Forró"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sinatra deixou a Capitol em 1960 e fundou a Reprise, segundo os trechos. É preciso reconhecer o cantor para responder; distratores são gravadoras plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples, sem pista.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Blue é de 1971, mas Harvest é de 1972 e Rumours de 1977. O enunciado diz 'álbuns de 1971', então esses distratores contradizem a própria pergunta. Troco por álbuns de 1971.",
+      "reescrita": {
+        "pergunta": "Qual destes álbuns de 1971 é desta cantora?",
+        "resposta": "Blue",
+        "distratores": [
+          "Tapestry",
+          "Led Zeppelin IV",
+          "What's Going On"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples; atriz e apresentadora confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cuoco atuou nas duas versões de Pecado Capital: Carlão em 1975 e Salviano Lisboa em 1998. A resposta não era única. Fixo a versão de 1975 e simplifico a resposta.",
+      "reescrita": {
+        "pergunta": "Na versão original da novela Pecado Capital, de mil novecentos e setenta e cinco, que personagem este ator interpretou?",
+        "resposta": "Carlão",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Binoche ganhou o Oscar de atriz coadjuvante por O Paciente Inglês, e foi o único. Pergunta de nível 3 sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}

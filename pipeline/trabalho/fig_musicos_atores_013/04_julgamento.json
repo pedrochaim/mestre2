@@ -1,0 +1,600 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tina Turner",
+        "descricao": "Cantora, compositora e atriz norte-americana, a Rainha do Rock 'n' Roll, ex-vocalista do duo Ike & Tina Turner.",
+        "variantes": [
+          "Anna Mae Bullock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "natureza_pokemon",
+          "nome": "Natureza (Pokémon)",
+          "descricao": "Traço de personalidade de cada pokémon, introduzido em Ruby e Sapphire, que aumenta um atributo e diminui outro.",
+          "variantes": [
+            "Nature"
+          ]
+        },
+        {
+          "id": "trinta_reis_inca",
+          "nome": "Trinta-réis-inca",
+          "descricao": "Ave marinha da família Laridae, de plumagem cinza-escura, bico vermelho e bigode branco, das costas do Pacífico sul-americano.",
+          "variantes": [
+            "Larosterna inca",
+            "Inca tern"
+          ]
+        },
+        {
+          "id": "pedra_do_inga",
+          "nome": "Pedra do Ingá",
+          "descricao": "Rocha na Paraíba coberta de gravuras pré-históricas, também chamada Itacoatiara do Ingá.",
+          "variantes": [
+            "Itacoatiara do Ingá",
+            "Ingá Stone"
+          ]
+        },
+        {
+          "id": "fabiana_murer",
+          "nome": "Fabiana Murer",
+          "descricao": "Atleta brasileira aposentada de salto com vara, campeã mundial em 2011.",
+          "variantes": [
+            "Fabiana de Almeida Murer"
+          ]
+        },
+        {
+          "id": "ivan_turgueniev",
+          "nome": "Ivan Turguêniev",
+          "descricao": "Romancista russo do realismo, autor de Pais e Filhos.",
+          "variantes": [
+            "Ivan Turgenev",
+            "Turguenev"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Max von Sydow",
+        "descricao": "Ator sueco e francês, conhecido por O Sétimo Selo e O Exorcista.",
+        "variantes": [
+          "Carl Adolf von Sydow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "macondo",
+          "nome": "Macondo",
+          "descricao": "Cidade fictícia criada por Gabriel García Márquez, cenário de Cem Anos de Solidão.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Harrison Ford",
+        "descricao": "Ator norte-americano de Star Wars e Indiana Jones.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "harrison",
+          "nome": "Harrison",
+          "descricao": "Treinador de Hoenn que elimina Ash do torneio da Liga de Johto, a Conferência Prata, no anime Pokémon.",
+          "variantes": []
+        },
+        {
+          "id": "carrom",
+          "nome": "Carrom",
+          "descricao": "Jogo de mesa de origem indiana em que os jogadores lançam discos com os dedos para as caçapas dos cantos do tabuleiro.",
+          "variantes": [
+            "Carrom board"
+          ]
+        },
+        {
+          "id": "arroz_dourado",
+          "nome": "Arroz dourado",
+          "descricao": "Variedade de arroz geneticamente modificada para produzir betacaroteno nos grãos.",
+          "variantes": [
+            "Golden rice"
+          ]
+        },
+        {
+          "id": "forma_regional",
+          "nome": "Forma regional",
+          "descricao": "Variação de um pokémon já conhecido adaptada ao ambiente de outra região, com aparência e às vezes tipo diferentes, como as formas de Alola e de Galar.",
+          "variantes": [
+            "Regional form",
+            "Regional variant"
+          ]
+        },
+        {
+          "id": "jason_todd",
+          "nome": "Jason Todd",
+          "descricao": "Segundo jovem a usar o uniforme de Robin, parceiro do Batman",
+          "variantes": [
+            "Capuz Vermelho",
+            "Red Hood"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Joelma",
+        "descricao": "Cantora e dançarina paraense, vocalista da Banda Calypso.",
+        "variantes": [
+          "Joelma Mendes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joel",
+          "nome": "Joel",
+          "descricao": "Protagonista do jogo The Last of Us, da Naughty Dog, e da série de TV baseada nele.",
+          "variantes": [
+            "Joel Miller"
+          ]
+        },
+        {
+          "id": "moema_victor_meirelles",
+          "nome": "Moema (Victor Meirelles)",
+          "descricao": "Pintura a óleo de 1866 de Victor Meirelles que retrata a indígena Moema morta nas águas, personagem do poema Caramuru.",
+          "variantes": [
+            "Moema"
+          ]
+        },
+        {
+          "id": "moela",
+          "nome": "Moela",
+          "descricao": "Parte musculosa do estômago das aves que tritura o alimento, muitas vezes com a ajuda de pedrinhas engolidas.",
+          "variantes": [
+            "Gizzard",
+            "Ventrículo"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "proteu",
+          "nome": "Proteu",
+          "descricao": "Salamandra aquática cavernícola e cega dos Alpes Dináricos, Proteus anguinus.",
+          "variantes": [
+            "Proteus anguinus",
+            "Olm",
+            "Salamandra-cega",
+            "Peixe-humano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lou Reed",
+        "descricao": "Músico e compositor norte-americano, líder do Velvet Underground.",
+        "variantes": [
+          "Lewis Allan Reed"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "loudred",
+          "nome": "Loudred",
+          "descricao": "Pokémon do tipo Normal, número 294 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lew_hoad",
+          "nome": "Lew Hoad",
+          "descricao": "Tenista australiano dos anos 1950, campeão de quatro torneios de Grand Slam e rival de Ken Rosewall.",
+          "variantes": [
+            "Lewis Alan Hoad"
+          ]
+        },
+        {
+          "id": "lorelei",
+          "nome": "Lorelei",
+          "descricao": "Rochedo à margem do rio Reno, na Alemanha, ligado à lenda de uma moça que atraía barqueiros para o naufrágio.",
+          "variantes": [
+            "Loreley"
+          ]
+        },
+        {
+          "id": "o_sonho_henri_rousseau",
+          "nome": "O Sonho (Henri Rousseau)",
+          "descricao": "Pintura a óleo de Henri Rousseau, de 1910, com uma mulher nua num divã em meio a uma selva exuberante com leões e um flautista.",
+          "variantes": [
+            "Le Rêve",
+            "The Dream",
+            "O Sonho"
+          ]
+        },
+        {
+          "id": "lorelei_2",
+          "nome": "Lorelei",
+          "descricao": "Treinadora especialista em pokémon de gelo, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue.",
+          "variantes": [
+            "Kanna"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Frank Sinatra",
+        "descricao": "Cantor e ator norte-americano apelidado de Chairman of the Board.",
+        "variantes": [
+          "Francis Albert Sinatra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "francis_albert_sinatra_antonio_carlos_jobim",
+          "nome": "Francis Albert Sinatra & Antônio Carlos Jobim",
+          "descricao": "Álbum de 1967 gravado em dupla por Frank Sinatra e Tom Jobim.",
+          "variantes": []
+        },
+        {
+          "id": "francis_galton",
+          "nome": "Francis Galton",
+          "descricao": "Polímata inglês do século dezenove que criou o termo eugenia e estudou a hereditariedade.",
+          "variantes": [
+            "Sir Francis Galton"
+          ]
+        },
+        {
+          "id": "benjamin_franklin",
+          "nome": "Benjamin Franklin",
+          "descricao": "Polímata, estadista e inventor americano, um dos pais fundadores dos Estados Unidos.",
+          "variantes": [
+            "Franklin",
+            "Ben Franklin"
+          ]
+        },
+        {
+          "id": "rosalind_franklin",
+          "nome": "Rosalind Franklin",
+          "descricao": "Química e cristalógrafa britânica (1920–1958) cujas imagens de raios X ajudaram a revelar a estrutura do DNA.",
+          "variantes": [
+            "Rosalind Elsie Franklin",
+            "Franklin"
+          ]
+        },
+        {
+          "id": "francesinha",
+          "nome": "Francesinha",
+          "descricao": "Sanduíche português originário do Porto, com carnes, queijo derretido e molho de tomate e cerveja.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Dua Lipa",
+        "descricao": "Cantora e compositora britânica de Future Nostalgia.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "duda_lisboa",
+          "nome": "Duda Lisboa",
+          "descricao": "Jogadora brasileira de vôlei de praia, campeã olímpica com Ana Patrícia em Paris 2024.",
+          "variantes": [
+            "Eduarda Santos Lisboa",
+            "Duda"
+          ]
+        },
+        {
+          "id": "tulipa",
+          "nome": "Tulipa",
+          "descricao": "Gênero de plantas bulbosas de flores vistosas, Tulipa, nativo da Ásia Central e da Turquia",
+          "variantes": [
+            "tulip"
+          ]
+        },
+        {
+          "id": "lada_riva",
+          "nome": "Lada Riva",
+          "descricao": "Sedã compacto soviético da série Zhiguli, derivado do Fiat 124 e produzido pela AvtoVAZ a partir de 1979, vendido em alguns mercados como Lada Riva ou Laika.",
+          "variantes": [
+            "Lada Laika",
+            "Lada 2107",
+            "VAZ-2107",
+            "Lada Nova",
+            "Lada Classic"
+          ]
+        },
+        {
+          "id": "durga_puja",
+          "nome": "Durga Puja",
+          "descricao": "Grande festival hindu em honra da deusa Durga, celebrado sobretudo no leste da Índia e em Bangladesh.",
+          "variantes": [
+            "Durgotsava",
+            "Sharadotsava"
+          ]
+        },
+        {
+          "id": "reino_das_duas_sicilias",
+          "nome": "Reino das Duas Sicílias",
+          "descricao": "Reino do sul da Itália (1816–1861) governado pela Casa de Bourbon-Duas Sicílias, anexado na unificação italiana.",
+          "variantes": [
+            "Duas Sicílias",
+            "Reino de Nápoles e Sicília"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Joni Mitchell",
+        "descricao": "Cantora, compositora e pintora canadense-americana do folk, autora de Blue.",
+        "variantes": [
+          "Roberta Joan Anderson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mont_saint_michel",
+          "nome": "Mont-Saint-Michel",
+          "descricao": "Ilha de maré com abadia medieval fortificada, na costa da Normandia, França.",
+          "variantes": [
+            "Monte Saint-Michel"
+          ]
+        },
+        {
+          "id": "gros_michel",
+          "nome": "Gros Michel",
+          "descricao": "Variedade de banana que foi a principal de exportação até meados do século vinte",
+          "variantes": [
+            "Banana-maçã-grande",
+            "Big Mike"
+          ]
+        },
+        {
+          "id": "paradoxo_do_aniversario",
+          "nome": "Paradoxo do aniversário",
+          "descricao": "Resultado de probabilidade segundo o qual, num grupo pequeno de pessoas, já é provável que duas façam aniversário no mesmo dia.",
+          "variantes": [
+            "Problema do aniversário",
+            "Birthday problem"
+          ]
+        },
+        {
+          "id": "opera_do_malandro",
+          "nome": "Ópera do Malandro",
+          "descricao": "Musical de Chico Buarque, de 1978, ambientado na Lapa carioca dos anos 1940.",
+          "variantes": []
+        },
+        {
+          "id": "robert_de_niro",
+          "nome": "Robert De Niro",
+          "descricao": "Ator e produtor americano, vencedor de dois Oscars.",
+          "variantes": [
+            "Robert Anthony De Niro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Regina Casé",
+        "descricao": "Atriz e apresentadora brasileira, fundadora do grupo Asdrúbal Trouxe o Trombone.",
+        "variantes": [
+          "Regina Maria Barreto Casé"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        },
+        {
+          "id": "arena_castelao",
+          "nome": "Arena Castelão",
+          "descricao": "Estádio de futebol de Fortaleza, Ceará, inaugurado em 1973 e casa do Ceará e do Fortaleza.",
+          "variantes": [
+            "Estádio Governador Plácido Castelo",
+            "Castelão",
+            "Gigante da Boa Vista"
+          ]
+        },
+        {
+          "id": "regice",
+          "nome": "Regice",
+          "descricao": "Pokémon do tipo Gelo, número 378 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        },
+        {
+          "id": "regiao_sul_do_brasil",
+          "nome": "Região Sul do Brasil",
+          "descricao": "Uma das cinco grandes regiões do Brasil definidas pelo IBGE, formada por Paraná, Santa Catarina e Rio Grande do Sul.",
+          "variantes": [
+            "Região Sul",
+            "Sul do Brasil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Francisco Cuoco",
+        "descricao": "Ator brasileiro de novelas da TV Globo, galã das décadas de 1960 a 1990.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "erlenmeyer",
+          "nome": "Erlenmeyer",
+          "descricao": "Vidraria de laboratório de base plana, corpo cônico e gargalo cilíndrico, inventada por Emil Erlenmeyer em 1860.",
+          "variantes": [
+            "Frasco de Erlenmeyer",
+            "Balão de Erlenmeyer",
+            "Frasco cônico"
+          ]
+        },
+        {
+          "id": "francisco_franco",
+          "nome": "Francisco Franco",
+          "descricao": "General e ditador que governou a Espanha do fim da Guerra Civil Espanhola, em 1939, até morrer.",
+          "variantes": [
+            "Generalíssimo Franco",
+            "Caudilho"
+          ]
+        },
+        {
+          "id": "francisco_jose_i_da_austria",
+          "nome": "Francisco José I da Áustria",
+          "descricao": "Imperador da Áustria de 1848 a 1916 e rei da Hungria, que reinava sobre a Áustria-Hungria no início da Primeira Guerra Mundial.",
+          "variantes": [
+            "Francisco José",
+            "Franz Joseph I"
+          ]
+        },
+        {
+          "id": "papa_francisco",
+          "nome": "Papa Francisco",
+          "descricao": "Jorge Mario Bergoglio, papa da Igreja Católica de 2013 a 2025, primeiro papa latino-americano.",
+          "variantes": [
+            "Francisco",
+            "Jorge Mario Bergoglio"
+          ]
+        },
+        {
+          "id": "francis_crick",
+          "nome": "Francis Crick",
+          "descricao": "Biólogo molecular britânico, co-descobridor da estrutura helicoidal do DNA e Nobel de 1962.",
+          "variantes": [
+            "Francis Harry Compton Crick",
+            "Crick"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Juliette Binoche",
+        "descricao": "Atriz francesa, vencedora do Oscar de atriz coadjuvante por O Paciente Inglês.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "little_boy",
+          "nome": "Little Boy",
+          "descricao": "Bomba atômica de fissão tipo canhão lançada sobre Hiroshima em 6 de agosto de 1945.",
+          "variantes": [
+            "Little Boy (bomba de Hiroshima)",
+            "L-11"
+          ]
+        },
+        {
+          "id": "o_pequeno_principe",
+          "nome": "O Pequeno Príncipe",
+          "descricao": "Novela ilustrada de Antoine de Saint-Exupéry, publicada em 1943, sobre um principezinho vindo de um asteroide.",
+          "variantes": [
+            "Le Petit Prince",
+            "The Little Prince"
+          ]
+        },
+        {
+          "id": "pequena_era_do_gelo",
+          "nome": "Pequena Era do Gelo",
+          "descricao": "Período de resfriamento do clima no hemisfério norte entre os séculos quatorze e dezenove",
+          "variantes": [
+            "Little Ice Age"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tina Turner."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Macondo é cidade fictícia, não o ator."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Harrison é treinador do anime; não é o ator."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cantora Joelma."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Lou Reed."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O álbum é obra, não o cantor; demais são outras pessoas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Dua Lipa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Joni Mitchell."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Regina Casé."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o ator Francisco Cuoco."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Juliette Binoche."
+    }
+  ]
+}

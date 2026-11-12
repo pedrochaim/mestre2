@@ -1,0 +1,224 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro e reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cantora é esta?",
+      "resposta": "Tina Turner",
+      "distratores": [
+        "Donna Summer",
+        "Chaka Khan",
+        "Grace Jones"
+      ],
+      "ancora": {
+        "nome": "Tina Turner",
+        "descricao": "Cantora, compositora e atriz norte-americana, a Rainha do Rock 'n' Roll, ex-vocalista do duo Ike & Tina Turner.",
+        "variantes": [
+          "Anna Mae Bullock"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, pessoa pequena e de boné, com texto parcial ao fundo; pouco reconhecível no celular."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue a resposta.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator sueco é este?",
+      "resposta": "Max von Sydow",
+      "distratores": [
+        "Stellan Skarsgård",
+        "Christopher Plummer",
+        "Ian McKellen"
+      ],
+      "ancora": {
+        "nome": "Max von Sydow",
+        "descricao": "Ator sueco e francês, conhecido por O Sétimo Selo e O Exorcista.",
+        "variantes": [
+          "Carl Adolf von Sydow"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o texto ao fundo é parcial e não entrega o nome.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ator é este?",
+      "resposta": "Harrison Ford",
+      "ancora": {
+        "nome": "Harrison Ford",
+        "descricao": "Ator norte-americano de Star Wars e Indiana Jones.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto claro, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com que banda esta cantora ficou famosa?",
+      "resposta": "Banda Calypso",
+      "distratores": [
+        "Companhia do Calypso",
+        "Banda Magníficos",
+        "Aviões do Forró"
+      ],
+      "ancora": {
+        "nome": "Joelma",
+        "descricao": "Cantora e dançarina paraense, vocalista da Banda Calypso.",
+        "variantes": [
+          "Joelma Mendes"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que músico é este?",
+      "resposta": "Lou Reed",
+      "ancora": {
+        "nome": "Lou Reed",
+        "descricao": "Músico e compositor norte-americano, líder do Velvet Underground.",
+        "variantes": [
+          "Lewis Allan Reed"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem pequena, mas o rosto e o chapéu o tornam reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que gravadora este cantor fundou em 1960?",
+      "resposta": "Reprise Records",
+      "distratores": [
+        "Capitol Records",
+        "Atlantic Records",
+        "Motown Records"
+      ],
+      "ancora": {
+        "nome": "Frank Sinatra",
+        "descricao": "Cantor e ator norte-americano apelidado de Chairman of the Board.",
+        "variantes": [
+          "Francis Albert Sinatra"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantora é esta?",
+      "resposta": "Dua Lipa",
+      "ancora": {
+        "nome": "Dua Lipa",
+        "descricao": "Cantora e compositora britânica de Future Nostalgia.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o texto ao fundo é parcial e não entrega o nome.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes álbuns de 1971 é desta cantora?",
+      "resposta": "Blue",
+      "distratores": [
+        "Tapestry",
+        "Harvest",
+        "Rumours"
+      ],
+      "ancora": {
+        "nome": "Joni Mitchell",
+        "descricao": "Cantora, compositora e pintora canadense-americana do folk, autora de Blue.",
+        "variantes": [
+          "Roberta Joan Anderson"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Rosto claro; o texto do painel é de uma série e não revela o nome dela.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que atriz e apresentadora é esta?",
+      "resposta": "Regina Casé",
+      "ancora": {
+        "nome": "Regina Casé",
+        "descricao": "Atriz e apresentadora brasileira, fundadora do grupo Asdrúbal Trouxe o Trombone.",
+        "variantes": [
+          "Regina Maria Barreto Casé"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Rosto visível, sem texto; resolução baixa, mas aceitável.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Que personagem este ator interpretou na novela Pecado Capital?",
+      "resposta": "Carlão, o taxista",
+      "ancora": {
+        "nome": "Francisco Cuoco",
+        "descricao": "Ator brasileiro de novelas da TV Globo, galã das décadas de 1960 a 1990.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o texto parcial do festival não entrega o nome.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Por qual filme esta atriz francesa ganhou o Oscar?",
+      "resposta": "O Paciente Inglês",
+      "ancora": {
+        "nome": "Juliette Binoche",
+        "descricao": "Atriz francesa, vencedora do Oscar de atriz coadjuvante por O Paciente Inglês.",
+        "variantes": []
+      }
+    }
+  ]
+}
