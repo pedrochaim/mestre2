@@ -1,0 +1,321 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Batata palha",
+        "descricao": "Batata frita cortada em filetes muito finos, vendida seca e usada como cobertura de pratos.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "batata_assada",
+          "nome": "Batata assada",
+          "descricao": "Preparação de batata assada inteira com a casca, servida recheada ou com coberturas.",
+          "variantes": [
+            "Baked potato",
+            "Jacket potato"
+          ]
+        },
+        {
+          "id": "tatu_galinha",
+          "nome": "Tatu-galinha",
+          "descricao": "Tatu das Américas, espécie Dasypus novemcinctus.",
+          "variantes": [
+            "Dasypus novemcinctus",
+            "Nine-banded armadillo",
+            "Tatu-de-nove-bandas"
+          ]
+        },
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        },
+        {
+          "id": "batata_frita",
+          "nome": "Batata frita",
+          "descricao": "Batatas cortadas em palitos e fritas, servidas como acompanhamento ou petisco.",
+          "variantes": [
+            "Fritas",
+            "Batata frita palito",
+            "French fries"
+          ]
+        },
+        {
+          "id": "pure_de_batata",
+          "nome": "Purê de batata",
+          "descricao": "Prato feito de batatas cozidas e amassadas, com leite, manteiga e sal.",
+          "variantes": [
+            "Batata amassada",
+            "Mashed potatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Araçá",
+        "descricao": "Fruto de Psidium cattleyanum, árvore da família das mirtáceas, também chamado goiaba-morango.",
+        "variantes": [
+          "Araçá-rosa",
+          "Araçá-vermelho",
+          "Goiaba-morango"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_do_caraca",
+          "nome": "Santuário do Caraça",
+          "descricao": "Complexo religioso com igreja neogótica e convento na Serra do Caraça, em Catas Altas, Minas Gerais.",
+          "variantes": [
+            "Caraça",
+            "Igreja Nossa Senhora Mãe dos Homens"
+          ]
+        },
+        {
+          "id": "barao_vermelho",
+          "nome": "Barão Vermelho",
+          "descricao": "Banda de rock carioca formada em 1981, que revelou o cantor Cazuza.",
+          "variantes": []
+        },
+        {
+          "id": "manfred_von_richthofen",
+          "nome": "Manfred von Richthofen",
+          "descricao": "Aviador de caça alemão da Primeira Guerra Mundial, o ás com mais vitórias aéreas creditadas no conflito, morto em combate em 1918.",
+          "variantes": [
+            "Barão Vermelho",
+            "Red Baron",
+            "Der Rote Baron"
+          ]
+        },
+        {
+          "id": "praca_vermelha",
+          "nome": "Praça Vermelha",
+          "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+          "variantes": [
+            "Krasnaya Ploshchad",
+            "Red Square"
+          ]
+        },
+        {
+          "id": "mar_vermelho",
+          "nome": "Mar Vermelho",
+          "descricao": "Braço do oceano Índico entre a península Arábica e o nordeste da África, ligado ao Mediterrâneo pelo canal de Suez.",
+          "variantes": [
+            "Red Sea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pimenta-de-sichuan",
+        "descricao": "Especiaria feita do pericarpo seco dos frutos de plantas do gênero Zanthoxylum, que causa dormência na boca.",
+        "variantes": [
+          "Huajiao"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pimenta_da_jamaica",
+          "nome": "Pimenta-da-jamaica",
+          "descricao": "Especiaria feita do fruto seco e verde da Pimenta dioica, árvore da América Central e das Antilhas.",
+          "variantes": [
+            "Allspice",
+            "Pimenta-de-caiena-doce",
+            "Pimenta-da-índia"
+          ]
+        },
+        {
+          "id": "ushuaia",
+          "nome": "Ushuaia",
+          "descricao": "Capital da província argentina da Terra do Fogo, considerada a cidade mais ao sul do mundo.",
+          "variantes": []
+        },
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà",
+            "Pietà"
+          ]
+        },
+        {
+          "id": "tacha",
+          "nome": "Tachã",
+          "descricao": "Chauna torquata, ave aquática cinzenta sul-americana da família Anhimidae, de pernas vermelhas.",
+          "variantes": [
+            "Chajá",
+            "Tachã-cinzenta",
+            "Southern screamer"
+          ]
+        },
+        {
+          "id": "uvaia",
+          "nome": "Uvaia",
+          "descricao": "Fruta amarela e ácida da uvaieira (Eugenia pyriformis), árvore nativa do Sul e Sudeste do Brasil.",
+          "variantes": [
+            "Uvalha",
+            "Eugenia pyriformis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Camarão",
+        "descricao": "Crustáceo decápode de corpo alongado e natação ativa, muito usado como alimento.",
+        "variantes": [
+          "Shrimp"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camarao",
+          "nome": "Camarão",
+          "descricao": "Crustáceo decápode de corpo alongado e nadador, como os da imagem, listrados e com longas antenas.",
+          "variantes": [
+            "Camarões"
+          ]
+        },
+        {
+          "id": "chevrolet_camaro",
+          "nome": "Chevrolet Camaro",
+          "descricao": "Automóvel esportivo americano do tipo pony car, fabricado pela Chevrolet desde o modelo de 1967.",
+          "variantes": [
+            "Camaro",
+            "Camaro RS"
+          ]
+        },
+        {
+          "id": "carao",
+          "nome": "Carão",
+          "descricao": "Ave pernalta de áreas alagadas das Américas (Aramus guarauna), única da família Aramidae, que come caramujos.",
+          "variantes": [
+            "Aramus guarauna",
+            "Limpkin",
+            "Carão-do-pantanal"
+          ]
+        },
+        {
+          "id": "camaleao_do_iemen",
+          "nome": "Camaleão-do-iêmen",
+          "descricao": "Camaleão Chamaeleo calyptratus, com capacete alto na cabeça, nativo do Iêmen e da Arábia Saudita.",
+          "variantes": [
+            "Camaleão",
+            "Camaleão-velado",
+            "Chamaeleo calyptratus"
+          ]
+        },
+        {
+          "id": "camaroes",
+          "nome": "Camarões",
+          "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses",
+          "variantes": [
+            "Cameroon",
+            "Cameroun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Semente de papoula",
+        "descricao": "Pequena semente oleaginosa da papoula (Papaver somniferum), usada em pães e doces.",
+        "variantes": [
+          "Papoula",
+          "Poppy seed"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "papoula",
+          "nome": "Papoula",
+          "descricao": "Papaver rhoeas, planta anual de flores vermelhas comum em campos agrícolas.",
+          "variantes": [
+            "Papoila",
+            "Papaver rhoeas",
+            "Papoula-comum"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "nova_guine",
+          "nome": "Nova Guiné",
+          "descricao": "Grande ilha da Oceania, ao norte da Austrália, dividida entre a Indonésia e Papua-Nova Guiné.",
+          "variantes": [
+            "New Guinea",
+            "Papua"
+          ]
+        },
+        {
+          "id": "conjunto_moderno_da_pampulha",
+          "nome": "Conjunto Moderno da Pampulha",
+          "descricao": "Conjunto arquitetônico projetado por Oscar Niemeyer nos anos 1940 em torno da lagoa da Pampulha, com a Igreja de São Francisco de Assis.",
+          "variantes": [
+            "Pampulha",
+            "Igreja da Pampulha",
+            "Pampulha Modern Ensemble"
+          ]
+        },
+        {
+          "id": "lagoa_da_pampulha",
+          "nome": "Lagoa da Pampulha",
+          "descricao": "Lagoa artificial de Belo Horizonte, cercada pelo conjunto arquitetônico moderno da Pampulha.",
+          "variantes": [
+            "Lago da Pampulha",
+            "Pampulha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Batata palha é um produto distinto de batata frita em palito, batata e demais preparações."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Araçá (fruto de Psidium cattleyanum) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pimenta-de-sichuan (Zanthoxylum) é diferente da pimenta-da-jamaica e das demais candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "camarao",
+      "motivo": "Ambas descrevem o crustáceo decápode camarão; a candidata é a mesma entidade, e Camarões é o país."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Semente de papoula (Papaver somniferum) é diferente da planta Papoula (Papaver rhoeas) e de uma parte da planta."
+    }
+  ]
+}

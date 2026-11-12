@@ -1,0 +1,36 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que crustáceo é este?",
+        "resposta": "Camarão"
+      },
+      "existentes": [
+        {
+          "id": "q09116",
+          "pergunta": "Que tipo de crustáceo é este?",
+          "resposta": "Camarão"
+        },
+        {
+          "id": "q09583",
+          "pergunta": "A casca que tiramos do camarão antes de comê-lo é feita principalmente de que substância, a mesma do esqueleto externo dos insetos?",
+          "resposta": "Quitina"
+        },
+        {
+          "id": "q15186",
+          "pergunta": "A que grupo de animais pertence este bicho aquático?",
+          "resposta": "Crustáceos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q09116",
+      "motivo": "Ambas pedem identificar o crustáceo da imagem, com resposta Camarão; mesmo fato."
+    }
+  ]
+}

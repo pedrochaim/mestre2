@@ -1,0 +1,173 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Maçã do amor com cobertura vermelha e amendoim picado, clara e reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta guloseima de festa, servida num palito, é feita com que fruta por dentro da cobertura?",
+      "resposta": "Maçã",
+      "distratores": [
+        "Pera",
+        "Morango",
+        "Banana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Maçã do amor",
+        "descricao": "Doce de festa feito com uma maçã inteira coberta de açúcar caramelizado, servida num palito.",
+        "variantes": [
+          "Candy apple",
+          "Toffee apple"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Massa de folhas sem flor ou detalhe distintivo; confundível com hortelã e outras lamiáceas, sem resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Batata palha em prato branco, clara e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ingrediente crocante, em fios finos, é este?",
+      "resposta": "Batata palha",
+      "distratores": [
+        "Aletria frita",
+        "Cebola crocante",
+        "Macarrão instantâneo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Batata palha",
+        "descricao": "Batata frita cortada em filetes muito finos, vendida seca e usada como cobertura de pratos.",
+        "variantes": [
+          "Batata-palha"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem gerada por IA, com marca visível 'Conteúdo gerado por IA'; prato não fiel."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Frutos vermelho-arroxeados com folhas coriáceas, reconhecíveis como araçá; distratores de frutas pequenas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta brasileira, parente da goiaba, é esta?",
+      "resposta": "Araçá",
+      "distratores": [
+        "Pitanga",
+        "Jabuticaba",
+        "Cambuci"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Araçá",
+        "descricao": "Fruto de Psidium cattleyanum, árvore da família das mirtáceas, também chamado goiaba-morango.",
+        "variantes": [
+          "Araçá-rosa",
+          "Araçá-vermelho",
+          "Goiaba-morango"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O melão da foto, listrado de verde e com flores amarelas, não é um cantalupo típico; identificação duvidosa."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cascas secas abertas de pimenta-de-sichuan sobre fundo branco, nítidas e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que especiaria é esta?",
+      "resposta": "Pimenta-de-sichuan",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pimenta-de-sichuan",
+        "descricao": "Especiaria feita do pericarpo seco dos frutos de plantas do gênero Zanthoxylum, que causa dormência na boca.",
+        "variantes": [
+          "Pimenta de Sichuan",
+          "Huajiao"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Camarões em ambiente natural, claros o bastante para reconhecer o crustáceo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que crustáceo é este?",
+      "resposta": "Camarão",
+      "distratores": [
+        "Lagostim",
+        "Siri",
+        "Lagosta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Camarão",
+        "descricao": "Crustáceo decápode de corpo alongado e natação ativa, muito usado como alimento.",
+        "variantes": [
+          "Shrimp"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Semente alaranjada com radícula; não é claramente feijão (poderia ser grão-de-bico ou lentilha), sem resposta única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Montagem de duas fotos com pessoas comuns em primeiro plano, e o sagu em si não aparece."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Sementes pequenas, azul-acinzentadas e reticuladas, típicas de papoula; múltipla com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que semente, usada em pães e bolos, é esta?",
+      "resposta": "Semente de papoula",
+      "distratores": [
+        "Chia",
+        "Gergelim preto",
+        "Linhaça"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Semente de papoula",
+        "descricao": "Pequena semente oleaginosa da papoula (Papaver somniferum), usada em pães e doces.",
+        "variantes": [
+          "Papoula",
+          "Poppy seed"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Prancha botânica com texto visível que entrega a resposta (Glycyrrhiza glabra, Süßholz) e vários detalhes."
+    }
+  ]
+}
