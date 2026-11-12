@@ -1,0 +1,243 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Dragão nítido e inconfundível; o texto 'Capsule' não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá de onde vem este dragão?",
+      "resposta": "Akira Toriyama",
+      "distratores": [
+        "Masami Kurumada",
+        "Eiichiro Oda",
+        "Masashi Kishimoto"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Shenlong",
+        "descricao": "Dragão místico de Dragon Ball que concede desejos quando as esferas do dragão são reunidas.",
+        "variantes": [
+          "Shenron",
+          "Shen Long",
+          "Dragão Shenlong"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rosto, chapéu e cabelo azul de Buggy reconhecíveis na cena, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Eiichiro Oda",
+      "destino": 0,
+      "ancora": {
+        "nome": "Buggy",
+        "descricao": "Pirata palhaço de One Piece, capitão dos Piratas do Buggy e um dos Quatro Imperadores.",
+        "variantes": [
+          "Buggy, o Palhaço",
+          "Buggy the Clown"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida. A silhueta é genérica (rapaz de uniforme e cabelo espetado), pouco reconhecível; usa-se a imagem colorida.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Gege Akutami",
+      "distratores": [
+        "Koyoharu Gotouge",
+        "Tite Kubo",
+        "Yoshihiro Togashi"
+      ],
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Megumi Fushiguro",
+        "descricao": "Estudante de feitiçaria da Escola Técnica de Jujutsu de Tóquio, usuário de shikigamis, em Jujutsu Kaisen.",
+        "variantes": [
+          "Fushiguro Megumi"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Arte colorida muito reconhecível; a silhueta é quase uma mancha redonda, então usa-se a colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Golduck",
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Psyduck",
+        "descricao": "Pokémon pato amarelo do tipo Água, conhecido pelas dores de cabeça constantes.",
+        "variantes": [
+          "Psyduck (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto, uniforme escolar e arco reconhecíveis; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é o companheiro meio-demônio desta personagem?",
+      "resposta": "Inuyasha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kagome Higurashi",
+        "descricao": "Estudante moderna que viaja à era feudal e busca os fragmentos da Joia de Quatro Almas em Inuyasha.",
+        "variantes": [
+          "Kagome"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Corpo inteiro, armadura de ouro de Câncer característica, fundo limpo.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece este cavaleiro?",
+      "resposta": "Masami Kurumada",
+      "distratores": [
+        "Naoko Takeuchi",
+        "Yoshihiro Togashi",
+        "Akira Toriyama"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Máscara da Morte de Câncer",
+        "descricao": "Cavaleiro de Ouro de Câncer, guardião da quarta casa do Zodíaco em Os Cavaleiros do Zodíaco.",
+        "variantes": [
+          "Death Mask",
+          "Deathmask de Câncer",
+          "Máscara da Morte"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida; a silhueta, de pose inclinada, não é bem reconhecível, então usa-se a colorida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é o tipo de pokémon em que esta treinadora é especialista?",
+      "resposta": "Água",
+      "destino": 0,
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Misty",
+        "descricao": "Líder do Ginásio de Cerulean City, especialista em pokémon do tipo Água, em Pokémon.",
+        "variantes": [
+          "Kasumi"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Gatobus claramente visível; a cena é de um único filme, sem texto relevante.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu o filme em que aparece este veículo?",
+      "resposta": "Hayao Miyazaki",
+      "distratores": [
+        "Isao Takahata",
+        "Mamoru Hosoda",
+        "Makoto Shinkai"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gatobus",
+        "descricao": "Ônibus em forma de gato gigante de Meu Amigo Totoro, do Studio Ghibli.",
+        "variantes": [
+          "Catbus",
+          "Nekobasu",
+          "Ônibus-gato"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Folha de modelo com várias vistas, texto visível (199X e nome em japonês) e montagem de rostos; não legível nem limpa."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, corpo inteiro, com caixa nas costas e espada que dão contorno inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Tanjiro Kamado",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Tanjiro Kamado",
+        "descricao": "Protagonista de Demon Slayer, caçador de demônios que busca curar a irmã Nezuko.",
+        "variantes": [
+          "Kamado Tanjiro",
+          "Tanjirou"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta com orelha pontuda, espinhos e braços abertos é característica e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Gengar",
+      "distratores": [
+        "Haunter",
+        "Gastly",
+        "Sableye"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Gengar",
+        "descricao": "Pokémon fantasma e venenoso roxo, de sorriso largo, evolução final de Gastly.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rosto com chapéu listrado e cicatriz no pescoço reconhecível; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que divisão dos Shinigamis este personagem foi capitão?",
+      "resposta": "Décima segunda divisão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kisuke Urahara",
+        "descricao": "Ex-capitão da 12ª Divisão e dono de uma loja no mundo humano em Bleach.",
+        "variantes": [
+          "Urahara Kisuke"
+        ]
+      }
+    }
+  ]
+}

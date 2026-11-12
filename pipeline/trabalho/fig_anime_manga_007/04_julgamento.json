@@ -1,0 +1,650 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Shenlong",
+        "descricao": "Dragão místico de Dragon Ball que concede desejos quando as esferas do dragão são reunidas.",
+        "variantes": [
+          "Shenron",
+          "Shen Long",
+          "Dragão Shenlong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shenlong",
+          "nome": "Shenlong",
+          "descricao": "Dragão místico de Dragon Ball, invocado com as esferas do dragão para realizar desejos.",
+          "variantes": [
+            "Shenron",
+            "Shen Long",
+            "Dragão Eterno"
+          ]
+        },
+        {
+          "id": "shelgon",
+          "nome": "Shelgon",
+          "descricao": "Pokémon do tipo Dragão, número 372 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "heroina",
+          "nome": "Heroína",
+          "descricao": "Droga opioide derivada da morfina, a diacetilmorfina, comercializada originalmente como medicamento.",
+          "variantes": [
+            "Diacetilmorfina",
+            "Diamorfina",
+            "Heroin"
+          ]
+        },
+        {
+          "id": "tonfa",
+          "nome": "Tonfa",
+          "descricao": "Arma de artes marciais de Okinawa formada por um bastão com um cabo perpendicular, usada em pares.",
+          "variantes": [
+            "Tunkua",
+            "Tui-fa",
+            "Senkon"
+          ]
+        },
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Buggy",
+        "descricao": "Pirata palhaço de One Piece, capitão dos Piratas do Buggy e um dos Quatro Imperadores.",
+        "variantes": [
+          "Buggy, o Palhaço",
+          "Buggy the Clown"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bugsy",
+          "nome": "Bugsy",
+          "descricao": "Jovem líder do ginásio de tipo Inseto de Azalea, em Johto, nos jogos Pokémon Gold e Silver.",
+          "variantes": []
+        },
+        {
+          "id": "krusty_o_palhaco",
+          "nome": "Krusty, o Palhaço",
+          "descricao": "Palhaço apresentador de TV de Os Simpsons, de cabelo verde e nariz vermelho.",
+          "variantes": [
+            "Krusty the Clown",
+            "Krusty"
+          ]
+        },
+        {
+          "id": "bug_informatica",
+          "nome": "Bug (informática)",
+          "descricao": "Defeito ou falha num programa de computador que faz com que ele funcione errado.",
+          "variantes": [
+            "Bug de software",
+            "Software bug",
+            "Bug"
+          ]
+        },
+        {
+          "id": "o_palhaco",
+          "nome": "O Palhaço",
+          "descricao": "Filme brasileiro de 2011, dirigido por Selton Mello, sobre a dupla de palhaços Pangaré e Puro Sangue no Circo Esperança.",
+          "variantes": [
+            "O Palhaço (2011)"
+          ]
+        },
+        {
+          "id": "bruges",
+          "nome": "Bruges",
+          "descricao": "Cidade medieval de canais na Flandres Ocidental, Bélgica, com centro histórico Patrimônio da UNESCO.",
+          "variantes": [
+            "Brugge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Megumi Fushiguro",
+        "descricao": "Estudante de feitiçaria da Escola Técnica de Jujutsu de Tóquio, usuário de shikigamis, em Jujutsu Kaisen.",
+        "variantes": [
+          "Fushiguro Megumi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "figo",
+          "nome": "Figo",
+          "descricao": "Fruto da figueira-comum (Ficus carica), nativa da região mediterrânea.",
+          "variantes": [
+            "Figo-comum",
+            "Ficus carica"
+          ]
+        },
+        {
+          "id": "toshiro_mifune",
+          "nome": "Toshiro Mifune",
+          "descricao": "Ator japonês de Rashomon, Os Sete Samurais e Yojimbo.",
+          "variantes": [
+            "Mifune Toshirō"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Psyduck",
+        "descricao": "Pokémon pato amarelo do tipo Água, conhecido pelas dores de cabeça constantes.",
+        "variantes": [
+          "Psyduck (Pokémon)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "psyduck",
+          "nome": "Psyduck",
+          "descricao": "Pokémon do tipo Água, número 54 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "play_pokemon",
+          "nome": "Play! Pokémon",
+          "descricao": "Programa oficial da The Pokémon Company que organiza ligas, torneios e campeonatos de card game e videogames Pokémon.",
+          "variantes": [
+            "Pokémon Organized Play"
+          ]
+        },
+        {
+          "id": "disco_de_hoquei",
+          "nome": "Disco de hóquei",
+          "descricao": "Disco de borracha usado no hóquei no gelo.",
+          "variantes": [
+            "Puck"
+          ]
+        },
+        {
+          "id": "tipos_de_pokemon",
+          "nome": "Tipos de pokémon",
+          "descricao": "Sistema de tipos elementais, como Fogo, Água e Planta, que define forças e fraquezas dos pokémon e dos golpes nas batalhas.",
+          "variantes": [
+            "Tipos elementais de Pokémon",
+            "Pokémon types"
+          ]
+        },
+        {
+          "id": "baralho_do_card_game_pokemon",
+          "nome": "Baralho do card game Pokémon",
+          "descricao": "Conjunto de sessenta cartas que cada jogador monta para disputar uma partida padrão do card game Pokémon.",
+          "variantes": [
+            "Deck (Pokémon TCG)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kagome Higurashi",
+        "descricao": "Estudante moderna que viaja à era feudal e busca os fragmentos da Joia de Quatro Almas em Inuyasha.",
+        "variantes": [
+          "Kagome"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maome",
+          "nome": "Maomé",
+          "descricao": "Profeta do islã, nascido em Meca",
+          "variantes": [
+            "Muhammad",
+            "Mohammed"
+          ]
+        },
+        {
+          "id": "agoge",
+          "nome": "Agogê",
+          "descricao": "Sistema de educação e treinamento militar obrigatório dos meninos de Esparta.",
+          "variantes": []
+        },
+        {
+          "id": "kamek",
+          "nome": "Kamek",
+          "descricao": "Magikoopa idoso, conselheiro de Bowser e arqui-inimigo de Yoshi na série Mario.",
+          "variantes": [
+            "Magikoopa Kamek"
+          ]
+        },
+        {
+          "id": "genoma",
+          "nome": "Genoma",
+          "descricao": "Conjunto completo do material genético de um organismo.",
+          "variantes": [
+            "Genome"
+          ]
+        },
+        {
+          "id": "fagote",
+          "nome": "Fagote",
+          "descricao": "Instrumento de sopro da família das madeiras, de palheta dupla, com tubo longo dobrado e registro grave.",
+          "variantes": [
+            "Fagot",
+            "Bassoon",
+            "Fagotto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Máscara da Morte de Câncer",
+        "descricao": "Cavaleiro de Ouro de Câncer, guardião da quarta casa do Zodíaco em Os Cavaleiros do Zodíaco.",
+        "variantes": [
+          "Death Mask",
+          "Deathmask de Câncer",
+          "Máscara da Morte"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mascara_da_morte_de_cancer",
+          "nome": "Máscara da Morte de Câncer",
+          "descricao": "Cavaleiro de Ouro de Câncer em Os Cavaleiros do Zodíaco, de Masami Kurumada.",
+          "variantes": [
+            "Cancer Deathmask",
+            "Death Mask",
+            "Máscara da Morte"
+          ]
+        },
+        {
+          "id": "o_maskara",
+          "nome": "O Máskara",
+          "descricao": "Comédia americana de 1994 em que um bancário ganha poderes ao usar uma máscara verde.",
+          "variantes": [
+            "The Mask"
+          ]
+        },
+        {
+          "id": "death_note",
+          "nome": "Death Note",
+          "descricao": "Mangá e anime de Tsugumi Ohba e Takeshi Obata sobre um caderno que mata quem tem o nome escrito nele.",
+          "variantes": [
+            "Caderno da Morte"
+          ]
+        },
+        {
+          "id": "mascara_de_medico_da_peste",
+          "nome": "Máscara de médico da peste",
+          "descricao": "Máscara de bico longo do Carnaval de Veneza, inspirada no traje dos médicos que tratavam a peste.",
+          "variantes": [
+            "Medico della peste",
+            "Máscara de bico"
+          ]
+        },
+        {
+          "id": "jupara",
+          "nome": "Jupará",
+          "descricao": "Mamífero arborícola e noturno da família dos procionídeos, da espécie Potos flavus.",
+          "variantes": [
+            "Potos flavus",
+            "Macaco-da-noite",
+            "Kinkajou"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Misty",
+        "descricao": "Líder do Ginásio de Cerulean City, especialista em pokémon do tipo Água, em Pokémon.",
+        "variantes": [
+          "Kasumi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "misty",
+          "nome": "Misty",
+          "descricao": "Líder de ginásio do tipo Água de Cerulean, nos jogos, e companheira de viagem de Ash no início do anime Pokémon.",
+          "variantes": [
+            "Kasumi"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "axum",
+          "nome": "Axum",
+          "descricao": "Cidade no norte da Etiópia, antiga capital do Reino de Axum.",
+          "variantes": [
+            "Aksum"
+          ]
+        },
+        {
+          "id": "misato_katsuragi",
+          "nome": "Misato Katsuragi",
+          "descricao": "Capitã e diretora de operações da NERV em Neon Genesis Evangelion.",
+          "variantes": [
+            "Misato"
+          ]
+        },
+        {
+          "id": "mukluk",
+          "nome": "Mukluk",
+          "descricao": "Bota macia de cano alto, tradicionalmente de pele de rena ou foca, usada por povos indígenas do Ártico.",
+          "variantes": [
+            "Kamik",
+            "Kamiit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Gatobus",
+        "descricao": "Ônibus em forma de gato gigante de Meu Amigo Totoro, do Studio Ghibli.",
+        "variantes": [
+          "Catbus",
+          "Nekobasu",
+          "Ônibus-gato"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cats_musical",
+          "nome": "Cats (musical)",
+          "descricao": "Musical de Andrew Lloyd Webber, estreado em Londres em 1981, sobre uma tribo de gatos.",
+          "variantes": [
+            "Cats"
+          ]
+        },
+        {
+          "id": "binturong",
+          "nome": "Binturong",
+          "descricao": "Viverrídeo arborícola do Sul e Sudeste da Ásia (Arctictis binturong), de pelagem escura e cauda preênsil.",
+          "variantes": [
+            "Arctictis binturong",
+            "Gato-urso",
+            "Bearcat"
+          ]
+        },
+        {
+          "id": "albert_camus",
+          "nome": "Albert Camus",
+          "descricao": "Escritor e filósofo francês nascido na Argélia (1913–1960), autor de O Estrangeiro e O Mito de Sísifo.",
+          "variantes": [
+            "Camus"
+          ]
+        },
+        {
+          "id": "atos_dos_apostolos",
+          "nome": "Atos dos Apóstolos",
+          "descricao": "Livro do Novo Testamento que narra os primeiros anos da Igreja cristã depois da morte de Jesus",
+          "variantes": [
+            "Atos",
+            "Actos dos Apóstolos"
+          ]
+        },
+        {
+          "id": "gato",
+          "nome": "Gato",
+          "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+          "variantes": [
+            "Gato-doméstico",
+            "Felis catus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Tanjiro Kamado",
+        "descricao": "Protagonista de Demon Slayer, caçador de demônios que busca curar a irmã Nezuko.",
+        "variantes": [
+          "Kamado Tanjiro",
+          "Tanjirou"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tanistrofeu",
+          "nome": "Tanistrofeu",
+          "descricao": "Réptil arcossauromorfo do Triássico, de pescoço extremamente alongado, com 13 vértebras cervicais (Tanystropheus).",
+          "variantes": [
+            "Tanystropheus"
+          ]
+        },
+        {
+          "id": "concreto_armado",
+          "nome": "Concreto armado",
+          "descricao": "Concreto reforçado com barras ou telas de metal, patenteado pelo francês Joseph Monier em 1867.",
+          "variantes": [
+            "Betão armado"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "rio_tejo",
+          "nome": "Rio Tejo",
+          "descricao": "Maior rio da Península Ibérica, que nasce na Espanha e deságua no Atlântico em Lisboa.",
+          "variantes": [
+            "Tejo",
+            "Tajo",
+            "Tagus"
+          ]
+        },
+        {
+          "id": "titanio",
+          "nome": "Titânio",
+          "descricao": "Elemento químico de número atômico 22, metal leve e resistente à corrosão, usado em próteses e aviões.",
+          "variantes": [
+            "Ti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Gengar",
+        "descricao": "Pokémon fantasma e venenoso roxo, de sorriso largo, evolução final de Gastly.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "gengar",
+          "nome": "Gengar",
+          "descricao": "Pokémon dos tipos Fantasma e Veneno, número 94 da Pokédex Nacional.",
+          "variantes": [
+            "Mega Gengar"
+          ]
+        },
+        {
+          "id": "berimbau",
+          "nome": "Berimbau",
+          "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+          "variantes": [
+            "Berimbau de barriga",
+            "Gunga"
+          ]
+        },
+        {
+          "id": "jenga",
+          "nome": "Jenga",
+          "descricao": "Jogo de habilidade em que se retiram blocos de madeira de uma torre e se recolocam no topo sem derrubá-la.",
+          "variantes": []
+        },
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Kisuke Urahara",
+        "descricao": "Ex-capitão da 12ª Divisão e dono de uma loja no mundo humano em Bleach.",
+        "variantes": [
+          "Urahara Kisuke"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shin_chan",
+          "nome": "Shin-chan",
+          "descricao": "Menino de cinco anos travesso, protagonista do mangá e anime Crayon Shin-chan.",
+          "variantes": [
+            "Shinnosuke Nohara",
+            "Shinchan"
+          ]
+        },
+        {
+          "id": "yusuke_urameshi",
+          "nome": "Yusuke Urameshi",
+          "descricao": "Protagonista delinquente do mangá e anime Yu Yu Hakusho, de Yoshihiro Togashi.",
+          "variantes": [
+            "Yusuke"
+          ]
+        },
+        {
+          "id": "muralhas_de_ataque_dos_titas",
+          "nome": "Muralhas de Ataque dos Titãs",
+          "descricao": "As três muralhas concêntricas, Maria, Rose e Sina, que protegem a humanidade dos titãs em Ataque dos Titãs.",
+          "variantes": [
+            "Muralha Maria",
+            "Muralha Rose",
+            "Muralha Sina"
+          ]
+        },
+        {
+          "id": "disco_rigido",
+          "nome": "Disco rígido",
+          "descricao": "Dispositivo eletromecânico de armazenamento de dados em pratos magnéticos giratórios.",
+          "variantes": [
+            "HD",
+            "Hard disk"
+          ]
+        },
+        {
+          "id": "deserto_do_saara",
+          "nome": "Deserto do Saara",
+          "descricao": "Maior deserto quente do mundo, que ocupa grande parte do norte da África.",
+          "variantes": [
+            "Saara",
+            "Sahara"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "shenlong",
+      "motivo": "Mesmo dragão de Dragon Ball."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Buggy de One Piece não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Personagem de Jujutsu Kaisen não cadastrado."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "psyduck",
+      "motivo": "Mesmo Pokémon Psyduck."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Kagome Higurashi não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "mascara_da_morte_de_cancer",
+      "motivo": "Mesmo Cavaleiro de Ouro de Câncer."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "misty",
+      "motivo": "Mesma líder de ginásio de Cerulean."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Gatobus não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Tanjiro Kamado não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "gengar",
+      "motivo": "Mesmo Pokémon Gengar."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Kisuke Urahara não consta entre as candidatas."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem criou o mangá de onde vem este dragão?",
+        "resposta": "Akira Toriyama"
+      },
+      "existentes": [
+        {
+          "id": "q20765",
+          "pergunta": "Como se chama este dragão, personagem de um famoso mangá japonês?",
+          "resposta": "Shenlong"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que pokémon este evolui?",
+        "resposta": "Golduck"
+      },
+      "existentes": [
+        {
+          "id": "q08303",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Psyduck"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem criou o mangá em que aparece este cavaleiro?",
+        "resposta": "Masami Kurumada"
+      },
+      "existentes": [
+        {
+          "id": "q19078",
+          "pergunta": "Quem criou o mangá em que aparece este cavaleiro?",
+          "resposta": "Masami Kurumada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é o nome do dragão (Shenlong); a outra é o criador do mangá (Toriyama). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Perguntar a evolução (Golduck) é diferente de identificar o pokémon (Psyduck)."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q19078",
+      "motivo": "Mesma pergunta e mesma resposta."
+    }
+  ]
+}
