@@ -1,0 +1,60 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década este navio de guerra foi lançado ao mar?",
+        "resposta": "Década de 1790"
+      },
+      "existentes": [
+        {
+          "id": "q06468",
+          "pergunta": "Em que ano foi lançada ao mar esta fragata da Marinha americana?",
+          "resposta": "1797"
+        },
+        {
+          "id": "q17145",
+          "pergunta": "A fragata americana USS Constitution é de madeira, mas ganhou o apelido de Old Ironsides, lados de ferro. Por quê?",
+          "resposta": "Balas de canhão ricocheteavam"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que período este tipo de bicicleta foi mais popular?",
+        "resposta": "Anos 1870 e 1880"
+      },
+      "existentes": [
+        {
+          "id": "q00980",
+          "pergunta": "O antigo biciclo de roda dianteira enorme e traseira pequena era chamado em inglês de penny-farthing. A que se referia esse nome?",
+          "resposta": "Duas moedas de tamanhos diferentes"
+        },
+        {
+          "id": "q09378",
+          "pergunta": "No antigo biciclo de roda dianteira gigante, que não tinha corrente, onde ficavam presos os pedais?",
+          "resposta": "No eixo da roda dianteira"
+        },
+        {
+          "id": "q18492",
+          "pergunta": "Que tipo de bicicleta do século dezenove é este?",
+          "resposta": "Biciclo (penny-farthing)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q06468",
+      "motivo": "Ambas perguntam quando o navio foi lançado ao mar; o ano 1797 responde a década de 1790."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O período de maior popularidade é um fato diferente do nome, dos pedais ou da identificação do biciclo."
+    }
+  ]
+}

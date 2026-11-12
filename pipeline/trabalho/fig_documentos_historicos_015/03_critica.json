@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lançada em 1797, confirmado nos trechos. O enunciado não nomeia o navio nem entrega a resposta. Os distratores são décadas plausíveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "'Auge da moda' é ambíguo. O trecho em português fala em popularidade do século XVI ao XVIII, com Luís XIV tornando-o moda no século XVII e declínio no fim do XVIII. O século dezessete é defensável e o dezesseis aparece como distrator. Sem conserto limpo, descarta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projetada em 1861 e patenteada em 1862, ambas na década de 1860. O enunciado não nomeia a arma, e os distratores são décadas distintas e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Emitido em 10 de maio de 1918, confirmado. O enunciado, porém, descreve o selo ('avião de cabeça para baixo'), o que o identifica sem olhar a figura e a torna enfeite. Basta tirar a pista.",
+      "reescrita": {
+        "pergunta": "Em que ano este selo americano de correio aéreo foi emitido pela primeira vez?",
+        "resposta": "1918",
+        "distratores": [
+          "1914",
+          "1921",
+          "1925"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que foi popular nas décadas de 1870 e 1880. O enunciado não nomeia o biciclo e os distratores são períodos críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bandeira adotada em 1928 pela África do Sul, confirmada nos trechos. O enunciado não dá a resposta. Os distratores são países com bandeira de aspecto parecido ou ligados à origem dela, e nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}

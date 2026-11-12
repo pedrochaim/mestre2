@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A placa legível no pé da peça traz 'Iron Maiden' em inglês e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O avião mostra 'Spirit of St. Louis' escrito no motor e a matrícula N-X-211 na cauda, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "A foto mostra o navio com clareza e não tem texto que entregue a resposta. O mastreamento e o casco são característicos.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década este navio de guerra foi lançado ao mar?",
+      "resposta": "Década de 1790",
+      "distratores": [
+        "Década de 1750",
+        "Década de 1820",
+        "Década de 1850"
+      ],
+      "ancora": {
+        "nome": "USS Constitution",
+        "descricao": "Fragata de madeira da Marinha dos Estados Unidos, lançada em 1797 em Boston e a mais antiga embarcação ainda a flutuar.",
+        "variantes": [
+          "Old Ironsides"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A gravura é pequena e de baixa resolução, com dois navios e cenário confuso. Fica ilegível no celular e a entidade não é clara."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A cena de museu mistura manequins, um menino no chão e um mural ao fundo. A máquina não permite distinguir com segurança a spinning jenny de outras máquinas de fiar, como a mule."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O mapa tem muitas legendas, e uma delas diz 'Vinlanda Insula'. Não serve como figura."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "O chapéu aparece sozinho, com fundo neutro e sem texto. A forma triangular com a aba dobrada é inconfundível.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século este tipo de chapéu esteve no auge da moda na Europa?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século quinze",
+        "Século dezesseis",
+        "Século vinte"
+      ],
+      "ancora": {
+        "nome": "Chapéu tricórnio",
+        "descricao": "Chapéu de aba dobrada em três lados, formando um triângulo, popular na Europa no século XVIII.",
+        "variantes": [
+          "Tricorne",
+          "Tricórnio"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "A metralhadora aparece com clareza, com os canos giratórios e a manivela, e sem texto. É um modelo reconhecível.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi inventada esta arma de tiro rápido?",
+      "resposta": "Década de 1860",
+      "distratores": [
+        "Década de 1830",
+        "Década de 1880",
+        "Década de 1900"
+      ],
+      "ancora": {
+        "nome": "Metralhadora Gatling",
+        "descricao": "Arma de fogo de vários canos giratórios acionada por manivela, inventada por Richard Gatling em 1861.",
+        "variantes": [
+          "Gatling gun",
+          "Gatling"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "O selo está inteiro e legível. O texto 'U.S. Postage 24 Cents' não entrega o ano. O avião invertido é o traço que o identifica.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este selo, com um avião impresso de cabeça para baixo, foi emitido pela primeira vez?",
+      "resposta": "1918",
+      "distratores": [
+        "1914",
+        "1921",
+        "1925"
+      ],
+      "ancora": {
+        "nome": "Inverted Jenny",
+        "descricao": "Selo americano de 24 centavos emitido em 1918, com o avião Curtiss JN-4 impresso de cabeça para baixo por erro.",
+        "variantes": [
+          "Jenny Invertida",
+          "Upside Down Jenny"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "O biciclo aparece inteiro, de perfil e sem texto. A roda dianteira enorme o identifica.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que período este tipo de bicicleta foi mais popular?",
+      "resposta": "Anos 1870 e 1880",
+      "distratores": [
+        "Anos 1830 e 1840",
+        "Anos 1910 e 1920",
+        "Anos 1790 e 1800"
+      ],
+      "ancora": {
+        "nome": "Biciclo (velocípede de roda alta)",
+        "descricao": "Bicicleta antiga com roda dianteira enorme e roda traseira pequena, popular nas décadas de 1870 e 1880.",
+        "variantes": [
+          "Penny-farthing",
+          "Velocípede de roda alta",
+          "Ordinary"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "A bandeira é nítida, sem texto, e tem o laranja, o branco e o azul com três bandeirinhas no centro. É reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país era esta bandeira, adotada em 1928?",
+      "resposta": "África do Sul",
+      "distratores": [
+        "Rodésia",
+        "Países Baixos",
+        "Nova Zelândia"
+      ],
+      "ancora": {
+        "nome": "Bandeira da África do Sul (1928–1994)",
+        "descricao": "Bandeira horizontal laranja, branca e azul com as bandeiras do Reino Unido, do Estado Livre de Orange e do Transvaal no centro, usada de 1928 a 1994.",
+        "variantes": [
+          "Oranje, Blanje, Blou",
+          "Bandeira da União Sul-Africana"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O mapa está cheio de legendas e texto em chinês, e o título aparece no canto. É um mapa com legendas."
+    }
+  ]
+}
