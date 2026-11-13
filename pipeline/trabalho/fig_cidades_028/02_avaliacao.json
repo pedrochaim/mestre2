@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Portão de Tiananmen, inconfundível; o texto em chinês não entrega a resposta para o público. Pessoas ao fundo são pequenas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que famoso portão imperial de Pequim é este?",
+      "resposta": "Tiananmen (Portão da Paz Celestial)",
+      "distratores": [
+        "Portão do Meio-Dia",
+        "Templo do Céu",
+        "Palácio de Verão"
+      ],
+      "ancora": {
+        "nome": "Praça da Paz Celestial",
+        "descricao": "Grande praça no centro de Pequim, diante do portão Tiananmen, que a separa da Cidade Proibida.",
+        "variantes": [
+          "Praça Tiananmen",
+          "Tiananmen"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea da ilha com o edifício principal de imigração; reconhecível e a pergunta exige reconhecer antes de responder.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta ilha faz parte do mesmo monumento nacional de uma estátua famosíssima. Que estátua é essa?",
+      "resposta": "Estátua da Liberdade",
+      "ancora": {
+        "nome": "Ilha Ellis",
+        "descricao": "Ilha na baía de Nova York que foi a principal estação de inspeção de imigrantes dos Estados Unidos entre 1892 e 1954.",
+        "variantes": [
+          "Ellis Island"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Planície de templos de tijolo característica de Bagan, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sítio histórico do Sudeste Asiático, Patrimônio Mundial da UNESCO, é este?",
+      "resposta": "Bagan",
+      "ancora": {
+        "nome": "Bagan",
+        "descricao": "Cidade medieval de Mianmar, antiga capital do Reino de Pagã, com milhares de templos e pagodes.",
+        "variantes": [
+          "Pagã",
+          "Pagan"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco da represa em cânion, reconhecível; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rio foi represado por esta barragem?",
+      "resposta": "Rio Colorado",
+      "distratores": [
+        "Rio Columbia",
+        "Rio Missouri",
+        "Rio Snake"
+      ],
+      "ancora": {
+        "nome": "Represa Hoover",
+        "descricao": "Barragem de concreto em arco no Black Canyon, entre os estados americanos de Nevada e Arizona.",
+        "variantes": [
+          "Hoover Dam",
+          "Barragem Hoover"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pórtico de entrada do cemitério; o texto em latim 'Requiescant in pace' não entrega o nome. Pessoas pequenas ao fundo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que famoso cemitério é este?",
+      "resposta": "Cemitério da Recoleta",
+      "ancora": {
+        "nome": "Cemitério da Recoleta",
+        "descricao": "Cemitério do bairro da Recoleta, em Buenos Aires, onde estão sepultados Eva Perón e presidentes argentinos.",
+        "variantes": [
+          "La Recoleta",
+          "Cementerio de la Recoleta"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Forte circular no mar, muito característico e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que capital brasileira fica este forte?",
+      "resposta": "Salvador",
+      "distratores": [
+        "Recife",
+        "São Luís",
+        "Fortaleza"
+      ],
+      "ancora": {
+        "nome": "Forte de São Marcelo",
+        "descricao": "Forte circular erguido sobre um banco de arrecifes na Baía de Todos os Santos, diante do centro histórico de Salvador.",
+        "variantes": [
+          "Forte do Mar",
+          "Forte de Nossa Senhora do Pópulo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Esplanada e basílica do santuário, reconhecíveis e sem texto. Pergunta ajustada para 'onde' por render melhor que o 'o que é' de nível 3.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país europeu fica este grande santuário católico de peregrinação?",
+      "resposta": "Portugal",
+      "ancora": {
+        "nome": "Santuário de Fátima",
+        "descricao": "Conjunto de edifícios religiosos católicos em Fátima, Portugal, dedicado às aparições marianas de 1917.",
+        "variantes": [
+          "Santuário de Nossa Senhora de Fátima",
+          "Sanctuary of Fátima"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Os telões mostram 'FC Bayern München', 'Real Madrid' e a faixa 'El Real Madrid nunca se...', texto que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A foto mostra só um trecho de uma casa de madeira branca entre árvores; sem elementos que permitam reconhecer o Catetinho com resposta única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Estádio de estrutura entrelaçada inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estádio é este?",
+      "resposta": "Ninho de Pássaro (Estádio Nacional de Pequim)",
+      "ancora": {
+        "nome": "Estádio Nacional de Pequim",
+        "descricao": "Estádio de Pequim projetado para as Olimpíadas de 2008, conhecido como Ninho de Pássaro.",
+        "variantes": [
+          "Ninho de Pássaro",
+          "Bird's Nest",
+          "Beijing National Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista do prédio eclético da Biblioteca Nacional, sem texto legível. A pergunta pede a praça onde fica.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que praça carioca fica este prédio, a maior biblioteca da América Latina?",
+      "resposta": "Cinelândia",
+      "distratores": [
+        "Praça Mauá",
+        "Largo da Carioca",
+        "Praça Quinze"
+      ],
+      "ancora": {
+        "nome": "Biblioteca Nacional do Brasil",
+        "descricao": "Maior biblioteca da América Latina, instalada em prédio eclético na Cinelândia, no Rio de Janeiro.",
+        "variantes": [
+          "Fundação Biblioteca Nacional",
+          "National Library of Brazil"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A fachada traz a placa 'Administração Adolpho Lisboa', que entrega o nome. Há também pessoas comuns em primeiro plano."
+    }
+  ]
+}

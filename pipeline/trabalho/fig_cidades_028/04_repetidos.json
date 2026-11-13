@@ -1,0 +1,161 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ilha da baía de Nova York é esta?",
+        "resposta": "Ilha Ellis"
+      },
+      "existentes": [
+        {
+          "id": "q13230",
+          "pergunta": "Entre 1892 e 1954, que serviço do governo americano funcionou na ilha Ellis, na baía de Nova York, atendendo milhões de pessoas?",
+          "resposta": "Estação de imigração"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que sítio histórico do Sudeste Asiático, Patrimônio Mundial da UNESCO, é este?",
+        "resposta": "Bagan"
+      },
+      "existentes": [
+        {
+          "id": "q19855",
+          "pergunta": "Que reino medieval construiu os milhares de templos desta planície?",
+          "resposta": "Reino de Pagã"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que rio foi represado por esta barragem?",
+        "resposta": "Rio Colorado"
+      },
+      "existentes": [
+        {
+          "id": "q05480",
+          "pergunta": "Entre 1933 e 1947, a represa Hoover, no rio Colorado, foi chamada por outro nome, tirado de um cânion vizinho. Qual?",
+          "resposta": "Boulder"
+        },
+        {
+          "id": "q07160",
+          "pergunta": "A represa no rio Colorado que forma o lago Mead, na divisa de Nevada com o Arizona, leva o nome de qual presidente americano?",
+          "resposta": "Herbert Hoover"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que capital brasileira fica este forte?",
+        "resposta": "Salvador"
+      },
+      "existentes": [
+        {
+          "id": "q18986",
+          "pergunta": "Que forte colonial, construído sobre arrecifes diante de uma capital brasileira, é este?",
+          "resposta": "Forte de São Marcelo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que país europeu fica este grande santuário católico de peregrinação?",
+        "resposta": "Portugal"
+      },
+      "existentes": [
+        {
+          "id": "q16879",
+          "pergunta": "Em que país fica este santuário católico de peregrinação?",
+          "resposta": "Portugal"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que estádio é este?",
+        "resposta": "Ninho de Pássaro (Estádio Nacional de Pequim)"
+      },
+      "existentes": [
+        {
+          "id": "q00531",
+          "pergunta": "Que estádio olímpico é este?",
+          "resposta": "Ninho de Pássaro (Pequim)"
+        },
+        {
+          "id": "q00691",
+          "pergunta": "Que artista chinês foi consultor artístico no projeto do Ninho de Pássaro, estádio de Pequim 2008 desenhado por arquitetos suíços?",
+          "resposta": "Ai Weiwei"
+        },
+        {
+          "id": "q09122",
+          "pergunta": "Por causa do emaranhado de vigas de aço da fachada, o Estádio Nacional de Pequim, palco dos Jogos Olímpicos de 2008, ganhou que apelido?",
+          "resposta": "Ninho de Pássaro"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que praça do centro do Rio de Janeiro fica este prédio?",
+        "resposta": "Cinelândia"
+      },
+      "existentes": [
+        {
+          "id": "q16734",
+          "pergunta": "Que prédio do centro do Rio de Janeiro é este?",
+          "resposta": "Biblioteca Nacional"
+        },
+        {
+          "id": "q18826",
+          "pergunta": "Em que década foi inaugurado este prédio da Cinelândia, no Rio de Janeiro?",
+          "resposta": "Década de 1910"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede para identificar a ilha; a existente pergunta que serviço funcionou nela. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do sítio; a existente pergunta qual reino construiu os templos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o rio da barragem. As existentes perguntam o nome antigo da represa e o presidente homenageado."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pergunta a cidade onde fica o forte. A existente pede o nome do forte."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "As duas perguntam em que país fica o santuário, com a mesma resposta, Portugal.",
+      "id_existente": "q16879"
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "As duas pedem para identificar o estádio, e a resposta é a mesma, o Ninho de Pássaro.",
+      "id_existente": "q00531"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A nova pergunta a praça onde fica o prédio. As existentes pedem o nome do prédio e a década de inauguração."
+    }
+  ]
+}

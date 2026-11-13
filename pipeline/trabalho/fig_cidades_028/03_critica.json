@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A imagem mostra a praça, não o portão; a pergunta pelo portão não bate com a figura. Os distratores Templo do Céu e Palácio de Verão também não são portões.",
+      "reescrita": {
+        "pergunta": "Que grande praça de Pequim é esta?",
+        "resposta": "Praça da Paz Celestial",
+        "distratores": [
+          "Praça Vermelha",
+          "Praça Tahrir",
+          "Praça Merdeka"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: o enunciado já aponta a Estátua da Liberdade, então a figura é só enfeite. Passa a pedir o reconhecimento da ilha.",
+      "reescrita": {
+        "pergunta": "Que ilha da baía de Nova York é esta?",
+        "resposta": "Ilha Ellis",
+        "distratores": [
+          "Ilha da Liberdade",
+          "Ilha Governors",
+          "Ilha Roosevelt"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sítio da UNESCO desde 2019 e no Sudeste Asiático, como os trechos confirmam. A pista ajuda sem entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a barragem fica no rio Colorado. O enunciado não vaza a resposta e os distratores são rios americanos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento, com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O forte fica em Salvador, como os trechos confirmam. Os distratores são capitais litorâneas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O santuário fica em Portugal, como os trechos confirmam. O enunciado não nomeia o santuário, que só se reconhece pela figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. O enunciado não vaza, e a resposta traz o apelido e o nome oficial.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A expressão 'maior biblioteca da América Latina' identifica a Biblioteca Nacional sem a imagem, e a Cinelândia sai por conhecimento. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Em que praça do centro do Rio de Janeiro fica este prédio?",
+        "resposta": "Cinelândia",
+        "distratores": [
+          "Praça Mauá",
+          "Largo da Carioca",
+          "Praça Quinze"
+        ]
+      }
+    }
+  ]
+}

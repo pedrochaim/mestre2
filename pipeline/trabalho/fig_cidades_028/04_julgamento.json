@@ -1,0 +1,570 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Praça da Paz Celestial",
+        "descricao": "Grande praça no centro de Pequim, diante do portão Tiananmen, que a separa da Cidade Proibida.",
+        "variantes": [
+          "Praça Tiananmen",
+          "Tiananmen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "times_square",
+          "nome": "Times Square",
+          "descricao": "Praça e cruzamento comercial de Manhattan, em Nova York, famosa pelos painéis luminosos.",
+          "variantes": [
+            "Praça Times"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "radiotelescopio_fast",
+          "nome": "Radiotelescópio FAST",
+          "descricao": "Radiotelescópio chinês de 500 metros de abertura, instalado numa depressão natural em Guizhou.",
+          "variantes": [
+            "FAST",
+            "Five-hundred-meter Aperture Spherical Telescope",
+            "Tianyan"
+          ]
+        },
+        {
+          "id": "evacuacao_de_dunquerque",
+          "nome": "Evacuação de Dunquerque",
+          "descricao": "Retirada por mar de soldados aliados cercados no norte da França, entre maio e junho de 1940, de codinome Operação Dínamo.",
+          "variantes": [
+            "Operação Dínamo",
+            "Milagre de Dunquerque"
+          ]
+        },
+        {
+          "id": "ishtar",
+          "nome": "Ishtar",
+          "descricao": "Deusa mesopotâmica do amor, da fertilidade e da guerra, equivalente acádia da suméria Inanna.",
+          "variantes": [
+            "Inanna",
+            "Istar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ilha Ellis",
+        "descricao": "Ilha na baía de Nova York que foi a principal estação de inspeção de imigrantes dos Estados Unidos entre 1892 e 1954.",
+        "variantes": [
+          "Ellis Island"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_ellis",
+          "nome": "Ilha Ellis",
+          "descricao": "Ilha na baía de Nova York, perto da Estátua da Liberdade, hoje sede de um museu.",
+          "variantes": [
+            "Ellis Island"
+          ]
+        },
+        {
+          "id": "tuvalu",
+          "nome": "Tuvalu",
+          "descricao": "País insular da Polinésia, no Pacífico, cuja bandeira é azul-clara com a Union Jack no canto e nove estrelas amarelas.",
+          "variantes": [
+            "Ilhas Ellice"
+          ]
+        },
+        {
+          "id": "ilha_do_havai",
+          "nome": "Ilha do Havaí",
+          "descricao": "A maior ilha do arquipélago havaiano, conhecida como Big Island, onde ficam Mauna Kea, Mauna Loa e Kilauea.",
+          "variantes": [
+            "Big Island",
+            "Hawaii Island"
+          ]
+        },
+        {
+          "id": "ilha_de_pascoa",
+          "nome": "Ilha de Páscoa",
+          "descricao": "Ilha chilena isolada no Pacífico Sul, famosa pelas estátuas moai.",
+          "variantes": [
+            "Rapa Nui",
+            "Easter Island",
+            "Isla de Pascua"
+          ]
+        },
+        {
+          "id": "lesbos",
+          "nome": "Lesbos",
+          "descricao": "Ilha grega no nordeste do mar Egeu, perto da costa da Turquia.",
+          "variantes": [
+            "Lesvos",
+            "Lesbos Island"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bagan",
+        "descricao": "Cidade medieval de Mianmar, antiga capital do Reino de Pagã, com milhares de templos e pagodes.",
+        "variantes": [
+          "Pagã",
+          "Pagan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bagan",
+          "nome": "Bagan",
+          "descricao": "Sítio arqueológico medieval em Mianmar com milhares de templos e pagodes budistas, antiga capital do Reino de Pagã.",
+          "variantes": [
+            "Pagan",
+            "Pagã"
+          ]
+        },
+        {
+          "id": "praga",
+          "nome": "Praga",
+          "descricao": "Capital da República Tcheca, às margens do rio Moldava.",
+          "variantes": [
+            "Prague"
+          ]
+        },
+        {
+          "id": "h_letra",
+          "nome": "H (letra)",
+          "descricao": "Oitava letra do alfabeto latino, que no português não tem som próprio no início das palavras",
+          "variantes": [
+            "Agá",
+            "Letra H"
+          ]
+        },
+        {
+          "id": "pangeia",
+          "nome": "Pangeia",
+          "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+          "variantes": [
+            "Pangea",
+            "Pangaea"
+          ]
+        },
+        {
+          "id": "bagon",
+          "nome": "Bagon",
+          "descricao": "Pokémon do tipo Dragão, número 371 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Represa Hoover",
+        "descricao": "Barragem de concreto em arco no Black Canyon, entre os estados americanos de Nevada e Arizona.",
+        "variantes": [
+          "Hoover Dam",
+          "Barragem Hoover"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "represa_hoover",
+          "nome": "Represa Hoover",
+          "descricao": "Barragem de concreto no rio Colorado, na divisa entre Nevada e Arizona, construída nos anos 1930.",
+          "variantes": [
+            "Hoover Dam",
+            "Barragem Hoover",
+            "Boulder Dam"
+          ]
+        },
+        {
+          "id": "encontro_em_horda",
+          "nome": "Encontro em horda",
+          "descricao": "Tipo de batalha introduzido em Pokémon X e Y em que vários pokémon selvagens aparecem juntos contra o jogador.",
+          "variantes": [
+            "Horde Encounter",
+            "Horda"
+          ]
+        },
+        {
+          "id": "cher_ami",
+          "nome": "Cher Ami",
+          "descricao": "Pombo-correio do exército americano condecorado por levar uma mensagem que salvou o Batalhão Perdido em 1918.",
+          "variantes": []
+        },
+        {
+          "id": "diamante_hope",
+          "nome": "Diamante Hope",
+          "descricao": "Diamante azul de 45,52 quilates, vindo da Índia, hoje no Smithsonian.",
+          "variantes": [
+            "Hope Diamond",
+            "Azul da França"
+          ]
+        },
+        {
+          "id": "primeira_demonstracao_publica_de_anestesia",
+          "nome": "Primeira demonstração pública de anestesia",
+          "descricao": "Cirurgia realizada em 1846 no Hospital Geral de Massachusetts, em Boston, com o paciente anestesiado por William Morton.",
+          "variantes": [
+            "Ether Day",
+            "Ether Dome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cemitério da Recoleta",
+        "descricao": "Cemitério do bairro da Recoleta, em Buenos Aires, onde estão sepultados Eva Perón e presidentes argentinos.",
+        "variantes": [
+          "La Recoleta",
+          "Cementerio de la Recoleta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roleta",
+          "nome": "Roleta",
+          "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
+          "variantes": [
+            "Roleta de cassino"
+          ]
+        },
+        {
+          "id": "vuelta_a_espana",
+          "nome": "Vuelta a España",
+          "descricao": "Volta ciclística da Espanha, uma das três grandes voltas do ciclismo de estrada.",
+          "variantes": [
+            "Volta da Espanha",
+            "La Vuelta"
+          ]
+        },
+        {
+          "id": "leonardo",
+          "nome": "Leonardo",
+          "descricao": "Cantor sertanejo brasileiro, ex-integrante da dupla Leandro & Leonardo.",
+          "variantes": [
+            "Emival Eterno da Costa"
+          ]
+        },
+        {
+          "id": "cemiterio_real_de_ur",
+          "nome": "Cemitério Real de Ur",
+          "descricao": "Conjunto de túmulos sumérios em Ur, com ricos objetos de ouro e outros tesouros.",
+          "variantes": [
+            "Royal Cemetery at Ur"
+          ]
+        },
+        {
+          "id": "a_doce_vida",
+          "nome": "A Doce Vida",
+          "descricao": "Filme italiano de 1960 dirigido por Federico Fellini, com Marcello Mastroianni, passado em Roma.",
+          "variantes": [
+            "La dolce vita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Forte de São Marcelo",
+        "descricao": "Forte circular erguido sobre um banco de arrecifes na Baía de Todos os Santos, diante do centro histórico de Salvador.",
+        "variantes": [
+          "Forte do Mar",
+          "Forte de Nossa Senhora do Pópulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forte_de_sao_marcelo",
+          "nome": "Forte de São Marcelo",
+          "descricao": "Forte circular erguido sobre arrecifes na Baía de Todos os Santos, em frente ao centro histórico de Salvador, na Bahia.",
+          "variantes": [
+            "Forte do Mar",
+            "Forte de Nossa Senhora do Pópulo"
+          ]
+        },
+        {
+          "id": "assassinato_de_jean_paul_marat",
+          "nome": "Assassinato de Jean-Paul Marat",
+          "descricao": "Morte do jornalista revolucionário francês Jean-Paul Marat, esfaqueado na banheira em 13 de julho de 1793.",
+          "variantes": [
+            "Morte de Marat"
+          ]
+        },
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        },
+        {
+          "id": "ourico_do_mar",
+          "nome": "Ouriço-do-mar",
+          "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+          "variantes": [
+            "Ouriço",
+            "Sea urchin"
+          ]
+        },
+        {
+          "id": "ovelha_do_mar",
+          "nome": "Ovelha-do-mar",
+          "descricao": "Lesma-do-mar Costasiella kuroshimae, minúscula, com projeções que lembram orelhas de ovelha, que faz fotossíntese por cleptoplastia.",
+          "variantes": [
+            "Costasiella kuroshimae",
+            "Ovelha-folha",
+            "Leaf sheep"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Santuário de Fátima",
+        "descricao": "Conjunto de edifícios religiosos católicos em Fátima, Portugal, dedicado às aparições marianas de 1917.",
+        "variantes": [
+          "Santuário de Nossa Senhora de Fátima",
+          "Sanctuary of Fátima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_de_fatima",
+          "nome": "Santuário de Fátima",
+          "descricao": "Conjunto de edifícios católicos em Fátima, Portugal, dedicado às aparições marianas de 1917.",
+          "variantes": [
+            "Santuário de Nossa Senhora de Fátima",
+            "Cova da Iria"
+          ]
+        },
+        {
+          "id": "santuario_de_lourdes",
+          "nome": "Santuário de Lourdes",
+          "descricao": "Santuário mariano católico em Lourdes, nos Pirenéus franceses, ao redor da gruta das aparições de 1858.",
+          "variantes": [
+            "Santuário de Nossa Senhora de Lourdes",
+            "Lourdes"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "santuario_de_itsukushima",
+          "nome": "Santuário de Itsukushima",
+          "descricao": "Santuário xintoísta na ilha de Miyajima, no Japão, famoso pelo grande portal torii erguido sobre o mar.",
+          "variantes": [
+            "Itsukushima-jinja",
+            "Miyajima"
+          ]
+        },
+        {
+          "id": "basilica_de_nazare",
+          "nome": "Basílica de Nazaré",
+          "descricao": "Basílica católica de Belém do Pará, ponto de chegada da procissão do Círio de Nazaré.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora de Nazaré"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Estádio Nacional de Pequim",
+        "descricao": "Estádio de Pequim projetado para as Olimpíadas de 2008, conhecido como Ninho de Pássaro.",
+        "variantes": [
+          "Estádio Nacional de Pequim (Ninho de Pássaro)",
+          "Ninho de Pássaro",
+          "Bird's Nest",
+          "Beijing National Stadium"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro",
+            "Bird's Nest"
+          ]
+        },
+        {
+          "id": "estadio_nacional_do_peru",
+          "nome": "Estádio Nacional do Peru",
+          "descricao": "Estádio nacional multiuso de Lima, Peru, inaugurado em 1952.",
+          "variantes": [
+            "Estadio Nacional del Perú",
+            "Coloso de José Díaz"
+          ]
+        },
+        {
+          "id": "estadio_nacional_do_japao",
+          "nome": "Estádio Nacional do Japão",
+          "descricao": "Estádio de Tóquio inaugurado em 2019, palco da abertura dos Jogos Olímpicos de 2020.",
+          "variantes": [
+            "Japan National Stadium",
+            "Novo Estádio Nacional",
+            "MUFG Stadium"
+          ]
+        },
+        {
+          "id": "ninho_comestivel_de_andorinhao",
+          "nome": "Ninho comestível de andorinhão",
+          "descricao": "Ninho feito de saliva endurecida por andorinhões do Sudeste Asiático, usado na sopa de ninho de andorinha da culinária chinesa.",
+          "variantes": [
+            "Sopa de ninho de andorinha",
+            "Edible bird's nest",
+            "Bird's nest soup"
+          ]
+        },
+        {
+          "id": "cubo_d_agua",
+          "nome": "Cubo d'Água",
+          "descricao": "Centro Nacional de Natação de Pequim, com fachada de bolhas azuis, construído para os Jogos Olímpicos de 2008.",
+          "variantes": [
+            "Water Cube",
+            "Centro Aquático Nacional de Pequim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Biblioteca Nacional do Brasil",
+        "descricao": "Maior biblioteca da América Latina, instalada em prédio eclético na Cinelândia, no Rio de Janeiro.",
+        "variantes": [
+          "Fundação Biblioteca Nacional",
+          "National Library of Brazil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "biblioteca_nacional_do_brasil",
+          "nome": "Biblioteca Nacional do Brasil",
+          "descricao": "Maior biblioteca da América Latina, em prédio eclético na Cinelândia, no Rio de Janeiro.",
+          "variantes": [
+            "Biblioteca Nacional",
+            "Fundação Biblioteca Nacional"
+          ]
+        },
+        {
+          "id": "teatro_nacional_claudio_santoro",
+          "nome": "Teatro Nacional Cláudio Santoro",
+          "descricao": "Teatro de Brasília projetado por Oscar Niemeyer, com fachadas decoradas por Athos Bulcão.",
+          "variantes": [
+            "Teatro Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "simbolos_nacionais_do_brasil",
+          "nome": "Símbolos nacionais do Brasil",
+          "descricao": "Os quatro símbolos oficiais da República Federativa do Brasil definidos pela Lei 5.700 de 1971.",
+          "variantes": [
+            "Símbolos Nacionais"
+          ]
+        },
+        {
+          "id": "armas_nacionais_do_brasil",
+          "nome": "Armas Nacionais do Brasil",
+          "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+          "variantes": [
+            "Brasão de armas do Brasil",
+            "Brasão da República"
+          ]
+        },
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Praça Tiananmen não consta entre as candidatas; Templo do Céu é outro local."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ilha_ellis",
+      "motivo": "Mesma ilha em Nova York, nome e variantes idênticos."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "bagan",
+      "motivo": "Mesma cidade/sítio de Mianmar, antiga capital de Pagã."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "represa_hoover",
+      "motivo": "Mesma barragem entre Nevada e Arizona."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Cemitério da Recoleta."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "forte_de_sao_marcelo",
+      "motivo": "Mesmo forte em Salvador, mesmas variantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "santuario_de_fatima",
+      "motivo": "Mesmo santuário em Fátima, Portugal."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "estadio_nacional_de_pequim",
+      "motivo": "Mesmo estádio, Ninho de Pássaro de 2008."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "biblioteca_nacional_do_brasil",
+      "motivo": "Mesma biblioteca na Cinelândia, Rio."
+    }
+  ]
+}
