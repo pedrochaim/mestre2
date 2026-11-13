@@ -1,0 +1,189 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida das cataratas, com ponte; reconhecível.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que rio despenca nesta queda?",
+      "resposta": "Zambezi",
+      "distratores": [
+        "Congo",
+        "Limpopo",
+        "Níger"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cataratas Vitória",
+        "descricao": "Queda d'água no rio Zambezi, na fronteira entre Zâmbia e Zimbábue.",
+        "variantes": [
+          "Victoria Falls",
+          "Mosi-oa-Tunya"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Erupção de gêiser genérica; sem o contexto, poderia ser outro gêiser, então a resposta não é única pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cristais escuros numa matriz clara, sem traço que permita reconhecer pegmatito; o respondente não identificaria."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Paredão de gelo à beira-mar, que pode ser geleira, plataforma de gelo ou iceberg; resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, com rocha acinzentada e manchas amarelas; não é legível nem reconhecível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cristais dendríticos de ouro, nítidos e com fundo limpo; a escala na imagem não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que metal precioso é este?",
+      "resposta": "Ouro",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ouro",
+        "descricao": "Elemento químico de símbolo Au, metal amarelo, denso e maleável.",
+        "variantes": [
+          "Au"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Aglomerado de cristais alaranjados com hábito característico de granada, bem nítido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este?",
+      "resposta": "Granada",
+      "distratores": [
+        "Citrino",
+        "Topázio",
+        "Turmalina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Granada",
+        "descricao": "Grupo de minerais silicatos usados como gemas e abrasivos, aqui em cristais alaranjados.",
+        "variantes": [
+          "Granada (mineral)",
+          "Garnet"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Gema lapidada com zonas roxa e amarela, característica do ametrino; legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pedra de quartzo, de duas cores, é esta?",
+      "resposta": "Ametrino (bolivianita)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ametrino",
+        "descricao": "Variedade de quartzo com zonas alternadas de roxo e amarelo-alaranjado.",
+        "variantes": [
+          "Bolivianita",
+          "Ametrine",
+          "Trystine"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Morro com perfil inconfundível e o Cristo no topo, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que morro é este?",
+      "resposta": "Corcovado",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Corcovado",
+        "descricao": "Morro de granito de 710 metros na Floresta da Tijuca, no Rio de Janeiro.",
+        "variantes": [
+          "Morro do Corcovado"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Terraços de travertino brancos com água azul-clara, inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que local natural, formado por terraços de calcário, é este?",
+      "resposta": "Pamukkale",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pamukkale",
+        "descricao": "Formação de travertino com terraços de águas termais, no sudoeste da Turquia.",
+        "variantes": [
+          "Castelo de Algodão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Monólito vulcânico isolado, de silhueta distintiva e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que formação rochosa, num deserto dos Estados Unidos, é esta?",
+      "resposta": "Shiprock",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Shiprock",
+        "descricao": "Monólito vulcânico sagrado para os navajos, no Novo México, Estados Unidos.",
+        "variantes": [
+          "Tsé Bitʼaʼí"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arco de arenito vermelho nítido, o Delicate Arch; reconhecível e com resposta única sobre a rocha.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que tipo de rocha é feito este arco natural?",
+      "resposta": "Arenito",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Delicate Arch",
+        "descricao": "Arco natural de arenito vermelho no Parque Nacional dos Arcos, em Utah, Estados Unidos.",
+        "variantes": [
+          "Arco Delicado",
+          "Delicate Arch"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que rio despenca nesta queda?",
+        "resposta": "Zambezi"
+      },
+      "existentes": [
+        {
+          "id": "q02066",
+          "pergunta": "Os povos locais chamam as Cataratas Vitória de Mosi-oa-Tunya. O que significa esse nome?",
+          "resposta": "A fumaça que troveja"
+        },
+        {
+          "id": "q02067",
+          "pergunta": "Em 1855, que explorador escocês deu às grandes cataratas do rio Zambeze o nome da rainha britânica?",
+          "resposta": "David Livingstone"
+        },
+        {
+          "id": "q09617",
+          "pergunta": "Na estação seca, turistas se banham numa piscina natural bem na borda das Cataratas Vitória. Que nome assustador ela tem?",
+          "resposta": "Piscina do Diabo"
+        },
+        {
+          "id": "q17024",
+          "pergunta": "Que cataratas africanas são estas?",
+          "resposta": "Cataratas Vitória"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que metal precioso é este?",
+        "resposta": "Ouro"
+      },
+      "existentes": [
+        {
+          "id": "q04109",
+          "pergunta": "Que metal, em forma de cristais, é este?",
+          "resposta": "Ouro"
+        },
+        {
+          "id": "q09419",
+          "pergunta": "Batido em folhas finíssimas para revestir altares de igrejas barrocas, qual é o metal mais maleável que existe?",
+          "resposta": "Ouro"
+        },
+        {
+          "id": "q18664",
+          "pergunta": "O símbolo do ouro vem do latim aurum, palavra que tem a mesma raiz do nome de que fenômeno do céu?",
+          "resposta": "Aurora"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que morro é este?",
+        "resposta": "Corcovado"
+      },
+      "existentes": [
+        {
+          "id": "q04409",
+          "pergunta": "Que morro brasileiro é este?",
+          "resposta": "Corcovado"
+        },
+        {
+          "id": "q09628",
+          "pergunta": "O nome do Corcovado, o morro do Cristo Redentor, no Rio de Janeiro, descreve o seu formato. Ele lembra o quê?",
+          "resposta": "Uma corcunda"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que local natural, formado por terraços de calcário, é este?",
+        "resposta": "Pamukkale"
+      },
+      "existentes": [
+        {
+          "id": "q02071",
+          "pergunta": "Em turco, o que significa Pamukkale, nome dos terraços brancos formados por fontes termais na Turquia?",
+          "resposta": "Castelo de algodão"
+        },
+        {
+          "id": "q09202",
+          "pergunta": "Os terraços brancos de Pamukkale, na Turquia, parecem neve, mas foram formados por fontes termais. De que rocha eles são feitos?",
+          "resposta": "Travertino"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que formação rochosa, num deserto dos Estados Unidos, é esta?",
+        "resposta": "Shiprock"
+      },
+      "existentes": [
+        {
+          "id": "q19913",
+          "pergunta": "Que formação rochosa isolada no deserto do sudoeste dos Estados Unidos é esta?",
+          "resposta": "Shiprock"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "De que tipo de rocha é feito este arco natural?",
+        "resposta": "Arenito"
+      },
+      "existentes": [
+        {
+          "id": "q06697",
+          "pergunta": "O Delicate Arch, arco de arenito que já estampou as placas de carro do seu estado, fica em que estado americano?",
+          "resposta": "Utah"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o rio da queda (Zambezi); nenhuma existente pergunta isso como resposta, embora q02067 cite o rio no enunciado. Fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Identificar o metal ouro a partir da imagem, igual a q04109."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Identificar o morro Corcovado por imagem, igual a q04409."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar Pamukkale por imagem; as existentes perguntam o significado do nome e a rocha, fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Identificar Shiprock por imagem, igual a q19913."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tipo de rocha do arco é fato diferente do estado onde fica o Delicate Arch."
+    }
+  ]
+}

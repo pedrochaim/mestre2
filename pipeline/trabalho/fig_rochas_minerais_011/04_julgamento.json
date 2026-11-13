@@ -1,0 +1,512 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cataratas Vitória",
+        "descricao": "Queda d'água no rio Zambezi, na fronteira entre Zâmbia e Zimbábue.",
+        "variantes": [
+          "Victoria Falls",
+          "Mosi-oa-Tunya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cataratas_vitoria",
+          "nome": "Cataratas Vitória",
+          "descricao": "Queda d'água do rio Zambeze, na fronteira entre Zâmbia e Zimbábue.",
+          "variantes": [
+            "Victoria Falls",
+            "Mosi-oa-Tunya"
+          ]
+        },
+        {
+          "id": "cataratas_ban_gioc",
+          "nome": "Cataratas Ban Gioc",
+          "descricao": "Conjunto de duas cachoeiras no rio Quây Sơn, na fronteira entre o Vietnã e a China.",
+          "variantes": [
+            "Ban Gioc–Detian",
+            "Cataratas Detian",
+            "Bản Giốc"
+          ]
+        },
+        {
+          "id": "cataratas_kaieteur",
+          "nome": "Cataratas Kaieteur",
+          "descricao": "Queda d'água de 226 metros no Rio Potaro, no Parque Nacional Kaieteur, na Guiana.",
+          "variantes": [
+            "Kaieteur Falls",
+            "Cataratas de Kaieteur"
+          ]
+        },
+        {
+          "id": "gullfoss",
+          "nome": "Gullfoss",
+          "descricao": "Cachoeira no cânion do rio Hvítá, no sudoeste da Islândia, parada do Círculo Dourado.",
+          "variantes": [
+            "Cataratas Douradas",
+            "Golden Falls"
+          ]
+        },
+        {
+          "id": "cataratas_havasu",
+          "nome": "Cataratas Havasu",
+          "descricao": "Cachoeira de água turquesa no Havasu Creek, dentro do Grand Canyon, no Arizona.",
+          "variantes": [
+            "Havasu Falls"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ouro",
+        "descricao": "Elemento químico de símbolo Au, metal amarelo, denso e maleável.",
+        "variantes": [
+          "Au"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold",
+            "Aurum"
+          ]
+        },
+        {
+          "id": "rio_douro",
+          "nome": "Rio Douro",
+          "descricao": "Rio da Península Ibérica que nasce na Espanha e deságua no Atlântico entre Porto e Vila Nova de Gaia, em Portugal.",
+          "variantes": [
+            "Douro",
+            "Duero"
+          ]
+        },
+        {
+          "id": "folha_de_louro",
+          "nome": "Folha de louro",
+          "descricao": "Folha aromática do loureiro (Laurus nobilis), usada como tempero em cozidos.",
+          "variantes": [
+            "Louro",
+            "Folha de loureiro",
+            "Bay leaf"
+          ]
+        },
+        {
+          "id": "ouros_naipe",
+          "nome": "Ouros (naipe)",
+          "descricao": "Naipe vermelho do baralho francês, representado por um losango.",
+          "variantes": [
+            "Ouros",
+            "Diamonds",
+            "Losango"
+          ]
+        },
+        {
+          "id": "auroque",
+          "nome": "Auroque",
+          "descricao": "Boi selvagem extinto (Bos primigenius) da Eurásia e do norte da África, ancestral do gado doméstico.",
+          "variantes": [
+            "Uro",
+            "Bos primigenius",
+            "Aurochs"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Granada",
+        "descricao": "Grupo de minerais silicatos usados como gemas e abrasivos, aqui em cristais alaranjados.",
+        "variantes": [
+          "Granada (mineral)",
+          "Garnet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "granada",
+          "nome": "Granada",
+          "descricao": "País insular do Caribe oriental, a ilha das especiarias, com capital em St. George's.",
+          "variantes": [
+            "Grenada"
+          ]
+        },
+        {
+          "id": "brasao_de_granada",
+          "nome": "Brasão de Granada",
+          "descricao": "Brasão de armas do país caribenho de Granada, com tatu e pomba como suportes.",
+          "variantes": [
+            "Granada",
+            "Brasão de Grenada",
+            "Coat of arms of Grenada"
+          ]
+        },
+        {
+          "id": "diantha",
+          "nome": "Diantha",
+          "descricao": "Campeã da Liga Pokémon de Kalos nos jogos Pokémon X e Y, dona de um Gardevoir.",
+          "variantes": [
+            "Carnet"
+          ]
+        },
+        {
+          "id": "granadilla",
+          "nome": "Granadilla",
+          "descricao": "Fruta alaranjada de casca lisa e polpa gelatinosa com sementes escuras, Passiflora ligularis.",
+          "variantes": [
+            "Granadilha",
+            "Maracujá-doce",
+            "Passiflora ligularis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ametrino",
+        "descricao": "Variedade de quartzo com zonas alternadas de roxo e amarelo-alaranjado.",
+        "variantes": [
+          "Bolivianita",
+          "Ametrine",
+          "Trystine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "boliviano",
+          "nome": "Boliviano",
+          "descricao": "Moeda oficial da Bolívia.",
+          "variantes": [
+            "Boliviano (moeda)",
+            "BOB"
+          ]
+        },
+        {
+          "id": "amethio",
+          "nome": "Amethio",
+          "descricao": "Integrante dos Exploradores, grupo vilão da série Pokémon Horizontes, que persegue Liko com seu Ceruledge.",
+          "variantes": [
+            "Amethio dos Exploradores"
+          ]
+        },
+        {
+          "id": "bolivia",
+          "nome": "Bolívia",
+          "descricao": "País sem litoral da América do Sul, com capital constitucional em Sucre e sede de governo em La Paz.",
+          "variantes": [
+            "Estado Plurinacional da Bolívia"
+          ]
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter",
+            "Metro-padrão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Corcovado",
+        "descricao": "Morro de granito de 710 metros na Floresta da Tijuca, no Rio de Janeiro.",
+        "variantes": [
+          "Morro do Corcovado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corcovado",
+          "nome": "Corcovado",
+          "descricao": "Morro granítico de 710 metros na Floresta da Tijuca, no Rio de Janeiro, com a estátua do Cristo Redentor.",
+          "variantes": [
+            "Morro do Corcovado"
+          ]
+        },
+        {
+          "id": "cristo_redentor",
+          "nome": "Cristo Redentor",
+          "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+          "variantes": [
+            "Christ the Redeemer",
+            "Cristo do Corcovado"
+          ]
+        },
+        {
+          "id": "trem_do_corcovado",
+          "nome": "Trem do Corcovado",
+          "descricao": "Ferrovia de cremalheira inaugurada em 1884 que sobe o morro do Corcovado, no Rio de Janeiro.",
+          "variantes": [
+            "Estrada de Ferro do Corcovado",
+            "Corcovado Rack Railway"
+          ]
+        },
+        {
+          "id": "morro_do_careca",
+          "nome": "Morro do Careca",
+          "descricao": "Duna de cerca de 107 metros na Praia de Ponta Negra, em Natal, Rio Grande do Norte.",
+          "variantes": [
+            "Morro do Careca de Ponta Negra"
+          ]
+        },
+        {
+          "id": "morro_da_urca",
+          "nome": "Morro da Urca",
+          "descricao": "Morro do Rio de Janeiro, no bairro da Urca, primeira parada do bondinho que leva ao Pão de Açúcar.",
+          "variantes": [
+            "Urca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pamukkale",
+        "descricao": "Formação de travertino com terraços de águas termais, no sudoeste da Turquia.",
+        "variantes": [
+          "Castelo de Algodão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pamukkale",
+          "nome": "Pamukkale",
+          "descricao": "Sítio natural no sudoeste da Turquia com terraços brancos de travertino formados por fontes termais.",
+          "variantes": [
+            "Pamukkale-Hierápolis"
+          ]
+        },
+        {
+          "id": "fasil_ghebbi",
+          "nome": "Fasil Ghebbi",
+          "descricao": "Cidadela real em Gondar, Etiópia, fundada no século dezessete e residência de imperadores etíopes.",
+          "variantes": [
+            "Cidade-fortaleza de Fasil Ghebbi",
+            "Castelos de Gondar"
+          ]
+        },
+        {
+          "id": "castelo_de_praga",
+          "nome": "Castelo de Praga",
+          "descricao": "Complexo de castelo em Praga, na República Tcheca, sede de reis da Boêmia e hoje residência oficial do presidente.",
+          "variantes": [
+            "Pražský hrad",
+            "Prague Castle"
+          ]
+        },
+        {
+          "id": "costela_de_adao",
+          "nome": "Costela-de-adão",
+          "descricao": "Planta trepadeira tropical, Monstera deliciosa, de folhas grandes com cortes e furos, muito usada como planta de vaso.",
+          "variantes": [
+            "Monstera",
+            "Monstera deliciosa",
+            "Swiss cheese plant"
+          ]
+        },
+        {
+          "id": "battle_chateau",
+          "nome": "Battle Château",
+          "descricao": "Castelo de batalhas da região de Kalos, nos jogos Pokémon X e Y, onde os treinadores sobem de posto a cada vitória.",
+          "variantes": [
+            "Castelo de Batalha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Shiprock",
+        "descricao": "Monólito vulcânico sagrado para os navajos, no Novo México, Estados Unidos.",
+        "variantes": [
+          "Tsé Bitʼaʼí"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shiprock",
+          "nome": "Shiprock",
+          "descricao": "Monólito vulcânico de cerca de 480 metros no deserto da Nação Navajo, no Novo México, EUA.",
+          "variantes": [
+            "Shiprock Peak",
+            "Tsé Bitʼaʼí",
+            "Rocha com Asas"
+          ]
+        },
+        {
+          "id": "spock",
+          "nome": "Spock",
+          "descricao": "Oficial de ciências meio humano e meio vulcano da nave Enterprise em Jornada nas Estrelas, vivido por Leonard Nimoy.",
+          "variantes": [
+            "Senhor Spock",
+            "Mr. Spock"
+          ]
+        },
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "cynthia",
+          "nome": "Cynthia",
+          "descricao": "Campeã da Liga Pokémon de Sinnoh nos jogos Diamond, Pearl e Platinum.",
+          "variantes": [
+            "Shirona"
+          ]
+        },
+        {
+          "id": "solrock",
+          "nome": "Solrock",
+          "descricao": "Pokémon dos tipos Pedra e Psíquico, número 338 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Delicate Arch",
+        "descricao": "Arco natural de arenito vermelho no Parque Nacional dos Arcos, em Utah, Estados Unidos.",
+        "variantes": [
+          "Arco natural",
+          "Arco Delicado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "delicate_arch",
+          "nome": "Delicate Arch",
+          "descricao": "Arco natural de arenito isolado no Parque Nacional dos Arcos, perto de Moab, nos Estados Unidos.",
+          "variantes": [
+            "Arco Delicado"
+          ]
+        },
+        {
+          "id": "arco_natural",
+          "nome": "Arco natural",
+          "descricao": "Formação rochosa em que a erosão abriu uma passagem sob uma ponte de rocha, como o Delicate Arch, em Utah.",
+          "variantes": [
+            "Arco de pedra",
+            "Ponte natural",
+            "Natural arch"
+          ]
+        },
+        {
+          "id": "gas_natural",
+          "nome": "Gás natural",
+          "descricao": "Combustível fóssil gasoso formado sobretudo por metano, usado em usinas, indústrias, veículos e residências.",
+          "variantes": [
+            "GNV",
+            "Gás natural encanado"
+          ]
+        },
+        {
+          "id": "hovercraft",
+          "nome": "Hovercraft",
+          "descricao": "Veículo anfíbio que se sustenta sobre um colchão de ar produzido por ventiladores, também chamado de aerodeslizador.",
+          "variantes": [
+            "Aerodeslizador",
+            "Veículo sobre colchão de ar",
+            "Air-cushion vehicle"
+          ]
+        },
+        {
+          "id": "arco_de_cabo_san_lucas",
+          "nome": "Arco de Cabo San Lucas",
+          "descricao": "Arco de granito no extremo sul da península da Baja California, no México, onde o Pacífico encontra o Golfo da Califórnia.",
+          "variantes": [
+            "El Arco",
+            "Arco de Los Cabos",
+            "Arch of Cabo San Lucas"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "cataratas_vitoria",
+      "motivo": "Mesma queda d'água no Zambeze, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ouro",
+      "motivo": "Mesmo elemento químico Au."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Granada mineral difere de romã, país, brasão e demais candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ametrino é variedade de quartzo; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "corcovado",
+      "motivo": "Mesmo morro do Corcovado no Rio de Janeiro."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "pamukkale",
+      "motivo": "Mesmo sítio de travertino termal na Turquia."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "shiprock",
+      "motivo": "Mesmo monólito navajo no Novo México, com a mesma variante Tsé Bitʼaʼí."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "delicate_arch",
+      "motivo": "Mesmo arco no Parque Nacional dos Arcos; 'Arco natural' é conceito genérico distinto."
+    }
+  ]
+}
