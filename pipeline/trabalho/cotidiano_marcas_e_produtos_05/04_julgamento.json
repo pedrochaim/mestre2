@@ -1,0 +1,493 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Toyota",
+        "descricao": "Montadora japonesa de automóveis fundada em 1937 por Kiichiro Toyoda, a partir da empresa de teares da família Toyoda.",
+        "variantes": [
+          "Toyota Motor Corporation"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toyota",
+          "nome": "Toyota",
+          "descricao": "Montadora japonesa de automóveis fundada por Kiichiro Toyoda em 1937.",
+          "variantes": [
+            "Toyota Motor Corporation"
+          ]
+        },
+        {
+          "id": "toquio",
+          "nome": "Tóquio",
+          "descricao": "Capital e cidade mais populosa do Japão, vista com os arranha-céus de Shinjuku.",
+          "variantes": [
+            "Tokyo",
+            "Edo"
+          ]
+        },
+        {
+          "id": "kamikaze",
+          "nome": "Kamikaze",
+          "descricao": "Pilotos japoneses que, no fim da Segunda Guerra, lançavam seus aviões carregados de explosivos contra navios aliados.",
+          "variantes": [
+            "Camicase",
+            "Tokkōtai"
+          ]
+        },
+        {
+          "id": "sony",
+          "nome": "Sony",
+          "descricao": "Empresa japonesa de eletrônicos e entretenimento fundada em Tóquio em 1946.",
+          "variantes": [
+            "Sony Corporation"
+          ]
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Guia Michelin",
+        "descricao": "Guia de viagem e de restaurantes publicado pela fabricante francesa de pneus Michelin desde 1900, famoso por suas estrelas.",
+        "variantes": [
+          "Michelin Guide",
+          "Guide Michelin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guia_michelin",
+          "nome": "Guia Michelin",
+          "descricao": "Guia de viagem francês publicado desde 1900 pela fabricante de pneus Michelin, famoso por dar estrelas a restaurantes.",
+          "variantes": [
+            "Michelin Guide",
+            "Guide Michelin"
+          ]
+        },
+        {
+          "id": "michelin",
+          "nome": "Michelin",
+          "descricao": "Fabricante francesa de pneus fundada em 1889 pelos irmãos André e Édouard Michelin.",
+          "variantes": [
+            "Bibendum"
+          ]
+        },
+        {
+          "id": "michelangelo",
+          "nome": "Michelangelo",
+          "descricao": "Escultor, pintor e arquiteto do Renascimento italiano, autor do Davi e dos afrescos da Capela Sistina, morto em 1564.",
+          "variantes": [
+            "Michelangelo Buonarroti",
+            "Miguel Ângelo"
+          ]
+        },
+        {
+          "id": "bibendum",
+          "nome": "Bibendum",
+          "descricao": "Mascote da fabricante francesa de pneus Michelin, criado em 1898.",
+          "variantes": [
+            "Boneco da Michelin",
+            "Michelin Man"
+          ]
+        },
+        {
+          "id": "gros_michel",
+          "nome": "Gros Michel",
+          "descricao": "Variedade de banana que foi a principal de exportação até meados do século vinte",
+          "variantes": [
+            "Banana-maçã-grande",
+            "Big Mike"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bic Cristal",
+        "descricao": "Caneta esferográfica descartável de corpo transparente e sextavado, lançada na França pela empresa de Marcel Bich.",
+        "variantes": [
+          "Caneta Bic",
+          "Bic Cristal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bic_cristal",
+          "nome": "BIC Cristal",
+          "descricao": "Caneta esferográfica descartável de corpo transparente lançada pela empresa francesa BIC em 1950.",
+          "variantes": [
+            "Caneta BIC",
+            "Bic"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome",
+            "Caneta Bic"
+          ]
+        },
+        {
+          "id": "cristal",
+          "nome": "Cristal",
+          "descricao": "Aglomerado de cristais prismáticos transparentes de quartzo (cristal de rocha).",
+          "variantes": [
+            "Cristal de rocha",
+            "Quartzo"
+          ]
+        },
+        {
+          "id": "cano_cristales",
+          "nome": "Caño Cristales",
+          "descricao": "Rio da serra de La Macarena, na Colômbia, conhecido como rio de cinco cores.",
+          "variantes": [
+            "Rio de Cinco Cores",
+            "Rio Arco-Íris"
+          ]
+        },
+        {
+          "id": "gibi",
+          "nome": "Gibi",
+          "descricao": "Revista em quadrinhos brasileira lançada em 1939, cujo título virou sinônimo de revista em quadrinhos",
+          "variantes": [
+            "Gibi (revista)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Puma",
+        "descricao": "Empresa alemã de calçados e artigos esportivos fundada por Rudolf Dassler em Herzogenaurach, em 1948.",
+        "variantes": [
+          "Puma SE"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "puma",
+          "nome": "Puma",
+          "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+          "variantes": [
+            "Puma SE"
+          ]
+        },
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        },
+        {
+          "id": "pumba",
+          "nome": "Pumba",
+          "descricao": "Javali-africano comilão, amigo de Timon, em O Rei Leão, da Disney.",
+          "variantes": [
+            "Pumbaa"
+          ]
+        },
+        {
+          "id": "pulmao",
+          "nome": "Pulmão",
+          "descricao": "Órgão par do sistema respiratório responsável pelas trocas gasosas.",
+          "variantes": [
+            "Pulmões"
+          ]
+        },
+        {
+          "id": "ameixa",
+          "nome": "Ameixa",
+          "descricao": "Fruto de árvores do gênero Prunus, uma drupa de polpa suculenta, que seca vira ameixa-seca.",
+          "variantes": [
+            "Plum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Apple",
+        "descricao": "Empresa americana de tecnologia fundada em 1976 por Steve Jobs, Steve Wozniak e Ronald Wayne, fabricante do iPhone e dos computadores Mac.",
+        "variantes": [
+          "Apple Inc.",
+          "Apple Computer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple",
+            "Malus domestica"
+          ]
+        },
+        {
+          "id": "apple",
+          "nome": "Apple",
+          "descricao": "Empresa americana de tecnologia fundada em 1976, fabricante do Macintosh e do iPhone.",
+          "variantes": [
+            "Apple Inc.",
+            "Apple Computer"
+          ]
+        },
+        {
+          "id": "apple_i",
+          "nome": "Apple I",
+          "descricao": "Primeiro computador da Apple, projetado por Steve Wozniak e vendido a partir de 1976.",
+          "variantes": [
+            "Apple-1"
+          ]
+        },
+        {
+          "id": "flapple",
+          "nome": "Flapple",
+          "descricao": "Pokémon dos tipos Planta e Dragão, número 841 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "applin",
+          "nome": "Applin",
+          "descricao": "Pokémon do tipo Planta e Dragão da oitava geração, uma larva dentro de uma maçã, número 840 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Porsche",
+        "descricao": "Fabricante alemã de carros esportivos sediada em Stuttgart, que leva o sobrenome do engenheiro Ferdinand Porsche.",
+        "variantes": [
+          "Porsche AG"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porsche",
+          "nome": "Porsche",
+          "descricao": "Fabricante alemã de carros esportivos, sediada em Stuttgart e fundada por Ferdinand Porsche.",
+          "variantes": []
+        },
+        {
+          "id": "porsche_911",
+          "nome": "Porsche 911",
+          "descricao": "Carro esportivo da fabricante alemã Porsche, produzido desde 1964, com motor traseiro.",
+          "variantes": [
+            "Nove-onze",
+            "Porsche 901",
+            "Porsche Nove Onze"
+          ]
+        },
+        {
+          "id": "porsche_917",
+          "nome": "Porsche 917",
+          "descricao": "Protótipo de corrida da Porsche, com motor de doze cilindros, vencedor das 24 Horas de Le Mans de 1970 e 1971.",
+          "variantes": [
+            "917"
+          ]
+        },
+        {
+          "id": "porsche_956",
+          "nome": "Porsche 956",
+          "descricao": "Protótipo de corridas de resistência do Grupo C construído pela Porsche em 1982.",
+          "variantes": [
+            "956"
+          ]
+        },
+        {
+          "id": "borscht",
+          "nome": "Borscht",
+          "descricao": "Sopa azeda da Europa Oriental, em geral vermelha por causa da beterraba.",
+          "variantes": [
+            "Borsch",
+            "Bortsch",
+            "Borche"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lamborghini",
+        "descricao": "Fabricante italiana de carros esportivos fundada em 1963 por Ferruccio Lamborghini em Sant'Agata Bolognese, cujo símbolo é um touro.",
+        "variantes": [
+          "Automobili Lamborghini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lamborghini",
+          "nome": "Lamborghini",
+          "descricao": "Fabricante italiana de carros esportivos fundada por Ferruccio Lamborghini em 1963.",
+          "variantes": [
+            "Automobili Lamborghini"
+          ]
+        },
+        {
+          "id": "lamborghini_miura",
+          "nome": "Lamborghini Miura",
+          "descricao": "Esportivo italiano da Lamborghini produzido de 1966 a 1973, primeiro de série com motor central traseiro.",
+          "variantes": [
+            "Miura",
+            "Lamborghini Miura P400"
+          ]
+        },
+        {
+          "id": "lamborghini_diablo",
+          "nome": "Lamborghini Diablo",
+          "descricao": "Superesportivo V12 de motor central produzido pela Lamborghini de 1990 a 2001.",
+          "variantes": [
+            "Diablo",
+            "Diablo GT"
+          ]
+        },
+        {
+          "id": "lamborghini_countach",
+          "nome": "Lamborghini Countach",
+          "descricao": "Esportivo italiano de motor central traseiro, produzido pela Lamborghini de 1974 a 1990.",
+          "variantes": [
+            "Countach"
+          ]
+        },
+        {
+          "id": "lumbini",
+          "nome": "Lumbini",
+          "descricao": "Local de peregrinação budista apontado pela tradição como lugar de nascimento de Buda",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Guinness World Records",
+        "descricao": "Livro anual de recordes mundiais, lançado em 1955 por iniciativa da cervejaria irlandesa Guinness.",
+        "variantes": [
+          "Livro Guinness dos Recordes",
+          "Guinness Book",
+          "Livro dos recordes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "livro_dos_mortos",
+          "nome": "Livro dos Mortos",
+          "descricao": "Coletânea egípcia de fórmulas mágicas escritas em papiro e postas nas tumbas para guiar o morto no além",
+          "variantes": [
+            "Book of the Dead",
+            "Livro egípcio dos mortos"
+          ]
+        },
+        {
+          "id": "guinness",
+          "nome": "Guinness",
+          "descricao": "Cerveja escura irlandesa produzida desde o século dezoito na cervejaria de St. James's Gate, em Dublin.",
+          "variantes": [
+            "Guinness Stout"
+          ]
+        },
+        {
+          "id": "livro_dos_salmos",
+          "nome": "Livro dos Salmos",
+          "descricao": "Livro da Bíblia formado por uma coleção de cânticos e orações, tradicionalmente associado ao rei Davi",
+          "variantes": [
+            "Salmos",
+            "Saltério"
+          ]
+        },
+        {
+          "id": "liber_abaci",
+          "nome": "Liber Abaci",
+          "descricao": "Livro de aritmética escrito por Fibonacci, publicado em 1202.",
+          "variantes": [
+            "Livro do Ábaco",
+            "Liber Abbaci"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "toyota",
+      "motivo": "Mesma montadora japonesa fundada por Kiichiro Toyoda em 1937."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "guia_michelin",
+      "motivo": "Mesmo guia publicado pela Michelin desde 1900."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "bic_cristal",
+      "motivo": "Mesma caneta esferográfica descartável transparente da BIC."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "puma",
+      "motivo": "Mesma marca alemã de artigos esportivos fundada por Rudolf Dassler."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "apple",
+      "motivo": "Mesma empresa de tecnologia fundada em 1976; a maçã é outra entidade."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "porsche",
+      "motivo": "Mesma fabricante alemã de carros esportivos de Stuttgart."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "lamborghini",
+      "motivo": "Mesma fabricante italiana fundada em 1963 por Ferruccio Lamborghini."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Livro de recordes não corresponde a nenhuma candidata; a cerveja Guinness é outra entidade."
+    }
+  ]
+}

@@ -1,0 +1,1152 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome Coca-Cola vem de dois ingredientes da fórmula original: a folha de coca e qual semente africana, rica em cafeína?",
+        "resposta": "Noz-de-cola"
+      },
+      "existentes": [
+        {
+          "id": "q03808",
+          "pergunta": "Em 1886, na cidade americana de Atlanta, qual farmacêutico criou a fórmula da Coca-Cola?",
+          "resposta": "John Pemberton"
+        },
+        {
+          "id": "q07057",
+          "pergunta": "A Coca-Cola começou a ser produzida no Brasil durante qual guerra?",
+          "resposta": "Segunda Guerra Mundial"
+        },
+        {
+          "id": "q07058",
+          "pergunta": "Os projetistas da garrafa curvilínea da Coca-Cola, em 1915, se inspiraram no fruto de qual planta, por engano?",
+          "resposta": "Cacau"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Sócio e contador do farmacêutico John Pemberton, quem sugeriu o nome Coca-Cola e desenhou a letra cursiva do logotipo?",
+        "resposta": "Frank Robinson"
+      },
+      "existentes": [
+        {
+          "id": "q03808",
+          "pergunta": "Em 1886, na cidade americana de Atlanta, qual farmacêutico criou a fórmula da Coca-Cola?",
+          "resposta": "John Pemberton"
+        },
+        {
+          "id": "q07057",
+          "pergunta": "A Coca-Cola começou a ser produzida no Brasil durante qual guerra?",
+          "resposta": "Segunda Guerra Mundial"
+        },
+        {
+          "id": "q07058",
+          "pergunta": "Os projetistas da garrafa curvilínea da Coca-Cola, em 1915, se inspiraram no fruto de qual planta, por engano?",
+          "resposta": "Cacau"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O título de coronel de Harland Sanders, fundador do KFC, não era uma patente militar. De onde ele veio?",
+        "resposta": "Título honorário do governador do Kentucky"
+      },
+      "existentes": [
+        {
+          "id": "q18856",
+          "pergunta": "Segundo a receita secreta do coronel Sanders, o frango frito original do KFC leva quantas ervas e especiarias?",
+          "resposta": "Onze"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Antes de adotar o nome Nike, no começo dos anos setenta, como se chamava a empresa de Phil Knight e Bill Bowerman?",
+        "resposta": "Blue Ribbon Sports"
+      },
+      "existentes": [
+        {
+          "id": "q18845",
+          "pergunta": "A marca esportiva Nike tem o nome de uma deusa grega. O que essa deusa personificava?",
+          "resposta": "A vitória"
+        },
+        {
+          "id": "q18865",
+          "pergunta": "Que empresário americano fundou, ao lado de seu antigo treinador de atletismo Bill Bowerman, a empresa que virou a Nike?",
+          "resposta": "Phil Knight"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A montadora trocou Toyoda por Toyota em parte por sorte. Em japonês, o novo nome se escreve com quantos traços?",
+        "resposta": "Oito"
+      },
+      "existentes": [
+        {
+          "id": "q00976",
+          "pergunta": "A família que fundou a montadora se chamava Toyoda, mas a marca virou Toyota. Que superstição explica a troca?",
+          "resposta": "Oito traços, número da sorte"
+        },
+        {
+          "id": "q09395",
+          "pergunta": "Antes dos automóveis, a família japonesa que criou a Toyota prosperou fabricando outra máquina, inventada por Sakichi Toyoda. Que máquina era essa?",
+          "resposta": "Tear automático"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O que os carros Toyota têm a ver com a indústria têxtil japonesa?",
+        "resposta": "Nasceram de uma fábrica de teares"
+      },
+      "existentes": [
+        {
+          "id": "q00976",
+          "pergunta": "A família que fundou a montadora se chamava Toyoda, mas a marca virou Toyota. Que superstição explica a troca?",
+          "resposta": "Oito traços, número da sorte"
+        },
+        {
+          "id": "q09395",
+          "pergunta": "Antes dos automóveis, a família japonesa que criou a Toyota prosperou fabricando outra máquina, inventada por Sakichi Toyoda. Que máquina era essa?",
+          "resposta": "Tear automático"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O nome Aspirina, criado pela Bayer, traz um pedaço do antigo nome científico de qual planta, fonte natural de um composto parecido?",
+        "resposta": "Ulmária"
+      },
+      "existentes": [
+        {
+          "id": "q03146",
+          "pergunta": "Usada contra dor desde a Antiguidade, o que a casca do salgueiro tem a ver com a aspirina?",
+          "resposta": "É a origem do ácido salicílico"
+        },
+        {
+          "id": "q03819",
+          "pergunta": "Em que ano a empresa alemã Bayer registrou a marca Aspirina?",
+          "resposta": "1899"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Na Alemanha dos anos quarenta, o nome Fanta nasceu de um pedido do chefe da filial da Coca-Cola: que a equipe usasse o quê?",
+        "resposta": "A imaginação"
+      },
+      "existentes": [
+        {
+          "id": "q00130",
+          "pergunta": "A Fanta foi criada na Alemanha durante a guerra porque a filial local de uma empresa americana ficou sem qual ingrediente importado?",
+          "resposta": "Xarope da Coca-Cola"
+        },
+        {
+          "id": "q11896",
+          "pergunta": "Na Alemanha da Segunda Guerra, a primeira Fanta era feita com soro de leite e com sobras de qual fruta?",
+          "resposta": "Maçã"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O nome dos óculos escuros Ray-Ban descreve, em inglês, o que as lentes fazem. O quê?",
+        "resposta": "Barram os raios de sol"
+      },
+      "existentes": [
+        {
+          "id": "q03805",
+          "pergunta": "Os óculos escuros Ray-Ban de modelo aviador foram desenvolvidos nos anos trinta para proteger os olhos de quem?",
+          "resposta": "Pilotos militares americanos"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Por que Hans Wilsdorf escolheu um nome curto e inventado como Rolex para a sua marca de relógios?",
+        "resposta": "Fácil de pronunciar em qualquer idioma"
+      },
+      "existentes": [
+        {
+          "id": "q07054",
+          "pergunta": "Antes de se mudar para Genebra, a fabricante de relógios Rolex foi fundada em 1905 em qual cidade?",
+          "resposta": "Londres"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Antes de virar Chupa Chups, o pirulito do espanhol Enric Bernat tinha um nome tirado do futebol. Qual?",
+        "resposta": "Gol"
+      },
+      "existentes": [
+        {
+          "id": "q07044",
+          "pergunta": "Em 1969, qual pintor surrealista espanhol desenhou o logotipo em forma de margarida dos pirulitos Chupa Chups?",
+          "resposta": "Salvador Dalí"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Segundo a fabricante Mattel, qual é o nome completo da boneca Barbie?",
+        "resposta": "Barbara Millicent Roberts"
+      },
+      "existentes": [
+        {
+          "id": "q00877",
+          "pergunta": "Lançada em 1959 pela Mattel, a boneca Barbie ganhou esse nome em homenagem a quem?",
+          "resposta": "Barbara, filha da criadora Ruth Handler"
+        },
+        {
+          "id": "q03820",
+          "pergunta": "Em que ano a boneca Barbie foi apresentada ao público numa feira de brinquedos em Nova York?",
+          "resposta": "1959"
+        },
+        {
+          "id": "q18557",
+          "pergunta": "Lançado pela Mattel em 1961, o boneco Ken, namorado da Barbie, leva o nome de quem?",
+          "resposta": "Filho da criadora da Barbie"
+        },
+        {
+          "id": "q18558",
+          "pergunta": "A Barbie foi inspirada em Bild Lilli, uma boneca baseada numa personagem de tirinhas de jornal. De que país era essa boneca?",
+          "resposta": "Alemanha"
+        },
+        {
+          "id": "q18859",
+          "pergunta": "A Barbie foi inspirada em qual boneca alemã, baseada numa personagem de tirinha de jornal?",
+          "resposta": "Lilli"
+        },
+        {
+          "id": "q18860",
+          "pergunta": "Qual empresária americana, uma das fundadoras da Mattel, criou a boneca Barbie?",
+          "resposta": "Ruth Handler"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "A sigla BMW abrevia um nome em alemão. Traduzido para o português, como fica esse nome por extenso?",
+        "resposta": "Fábrica de Motores da Baviera"
+      },
+      "existentes": [
+        {
+          "id": "q18861",
+          "pergunta": "As cores azul e branca do logotipo da BMW vêm da bandeira de qual estado alemão?",
+          "resposta": "Baviera"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que problema, vivido no coral da igreja, deu a Art Fry, químico da 3M, a ideia do bloquinho Post-it?",
+        "resposta": "Os marcadores caíam do hinário"
+      },
+      "existentes": [
+        {
+          "id": "q00883",
+          "pergunta": "Art Fry, da empresa 3M, pensou no Post-it porque seus marcadores de página viviam caindo de um livro que ele usava no coral da igreja. Que livro?",
+          "resposta": "O hinário"
+        },
+        {
+          "id": "q07048",
+          "pergunta": "Que empresa americana de Minnesota, também conhecida pelas fitas adesivas, lançou os bloquinhos Post-it?",
+          "resposta": "3M"
+        },
+        {
+          "id": "q08741",
+          "pergunta": "Em 1968, o químico Spencer Silver tentava criar uma cola superforte, mas obteve a do futuro post-it. Que característica ela tinha?",
+          "resposta": "Colava fraco e descolava fácil"
+        },
+        {
+          "id": "q16862",
+          "pergunta": "A cola fraca do post-it foi criada em 1968, mas os bloquinhos só foram lançados em todos os Estados Unidos em que ano?",
+          "resposta": "1980"
+        },
+        {
+          "id": "q20657",
+          "pergunta": "Em 1968, que químico da empresa 3M criou por acaso uma cola fraca que, anos depois, daria origem ao Post-it?",
+          "resposta": "Spencer Silver"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "King Gillette criou a lâmina de barbear descartável inspirado pelo conselho do inventor de qual objeto, também feito para ser jogado fora?",
+        "resposta": "Tampinha de garrafa"
+      },
+      "existentes": [
+        {
+          "id": "q11913",
+          "pergunta": "No começo do século vinte, qual foi a grande novidade do aparelho de barbear lançado pelo americano King Gillette?",
+          "resposta": "Lâminas descartáveis"
+        },
+        {
+          "id": "q18542",
+          "pergunta": "A marca que deu origem à palavra gilete leva o sobrenome do fundador, cujo primeiro nome parecia um título de nobreza. Qual era esse nome?",
+          "resposta": "King"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Nos anos cinquenta, um funcionário da Ikea tirou as pernas de uma mesa para ela caber num carro. Que costume da loja nasceu daí?",
+        "resposta": "Vender móveis desmontados em caixas planas"
+      },
+      "existentes": [
+        {
+          "id": "q11927",
+          "pergunta": "O nome da rede sueca de móveis Ikea traz as iniciais do fundador, da fazenda e da vila onde ele cresceu. Quem é esse fundador?",
+          "resposta": "Ingvar Kamprad"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Nos anos vinte, as propagandas do enxaguante Listerine tornaram popular qual termo médico, até então pouco conhecido?",
+        "resposta": "Halitose"
+      },
+      "existentes": [
+        {
+          "id": "q11920",
+          "pergunta": "Que cirurgião britânico do século dezenove, pioneiro do uso de antissépticos nas operações, deu nome a um famoso enxaguante bucal?",
+          "resposta": "Joseph Lister"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Por que um morcego virou o símbolo do rum Bacardi, criado no século dezenove?",
+        "resposta": "Havia morcegos vivendo na destilaria"
+      },
+      "existentes": [
+        {
+          "id": "q07055",
+          "pergunta": "O rum Bacardi, que tem um morcego como símbolo, foi fundado em 1862 em qual país?",
+          "resposta": "Cuba"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Por que os irmãos Michelin, fabricantes de pneus, lançaram em 1900 um guia gratuito para os motoristas franceses?",
+        "resposta": "Para estimular viagens de carro"
+      },
+      "existentes": [
+        {
+          "id": "q00993",
+          "pergunta": "Em 1900, uma fabricante francesa de pneus lançou um guia com hotéis, oficinas e restaurantes. Qual era o objetivo?",
+          "resposta": "Incentivar viagens de carro"
+        },
+        {
+          "id": "q17131",
+          "pergunta": "Criado por uma fabricante de pneus, o Guia Michelin dá estrelas a restaurantes. Quantas estrelas, no máximo, um restaurante pode receber?",
+          "resposta": "Três"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Antes de fundar a Avon, David McConnell vendia de porta em porta e dava perfumes de brinde, que faziam mais sucesso que o produto. Que produto era?",
+        "resposta": "Livros"
+      },
+      "existentes": [
+        {
+          "id": "q11911",
+          "pergunta": "Qual destas empresas de cosméticos foi fundada primeiro?",
+          "resposta": "Avon"
+        },
+        {
+          "id": "q18847",
+          "pergunta": "O nome da Avon foi inspirado em Stratford-upon-Avon, cidade inglesa natal de qual escritor admirado pelo fundador?",
+          "resposta": "William Shakespeare"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "No fim do século dezenove, a Louis Vuitton criou sua estampa de monograma, com as iniciais da marca, para combater o quê?",
+        "resposta": "As falsificações"
+      },
+      "existentes": [
+        {
+          "id": "q11912",
+          "pergunta": "Em 1854, em Paris, o artesão Louis Vuitton abriu sua casa especializada em qual objeto de viagem?",
+          "resposta": "Baús de viagem"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O lubrificante WD-40 foi usado primeiro para proteger da ferrugem a fuselagem de qual equipamento militar americano?",
+        "resposta": "Mísseis Atlas"
+      },
+      "existentes": [
+        {
+          "id": "q11919",
+          "pergunta": "No nome do lubrificante WD-40, as letras indicam deslocamento de água em inglês. E o número quarenta, indica o quê?",
+          "resposta": "A quadragésima tentativa da fórmula"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Robert Chesebrough teve a ideia da vaselina ao ver operários de poços de petróleo usando uma cera das máquinas para quê?",
+        "resposta": "Tratar cortes e queimaduras"
+      },
+      "existentes": [
+        {
+          "id": "q11901",
+          "pergunta": "A Vaselina, patenteada pelo químico americano Robert Chesebrough em 1872, é obtida a partir de qual matéria-prima?",
+          "resposta": "Petróleo"
+        },
+        {
+          "id": "q15693",
+          "pergunta": "Segundo a explicação mais aceita, o nome vaselina junta a palavra alemã para água com uma palavra grega. Qual é o sentido dela?",
+          "resposta": "Óleo"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Nos anos sessenta, a empresa que viraria a Nike começou revendendo nos Estados Unidos os tênis de qual marca japonesa, que depois formou a Asics?",
+        "resposta": "Onitsuka Tiger"
+      },
+      "existentes": [
+        {
+          "id": "q07064",
+          "pergunta": "O nome da marca japonesa de tênis Asics é a sigla de uma frase em latim. O que ela significa?",
+          "resposta": "Alma sã num corpo são"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Os fundadores da Puma e da Adidas, que viraram rivais numa mesma cidadezinha da Baviera, tinham que parentesco?",
+        "resposta": "Eram irmãos"
+      },
+      "existentes": [
+        {
+          "id": "q00946",
+          "pergunta": "Os fundadores das marcas esportivas alemãs Adidas e Puma tinham que parentesco?",
+          "resposta": "Eram irmãos"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "O primeiro logotipo da Apple, de 1976, mostrava qual cientista sentado debaixo de uma macieira?",
+        "resposta": "Isaac Newton"
+      },
+      "existentes": [
+        {
+          "id": "q03452",
+          "pergunta": "A Apple foi fundada em 1976 por Steve Jobs, Steve Wozniak e um terceiro sócio, que vendeu sua parte poucos dias depois. Quem?",
+          "resposta": "Ronald Wayne"
+        },
+        {
+          "id": "q19888",
+          "pergunta": "A Apple de Steve Jobs travou longas disputas pelo uso do nome com a Apple Corps, empresa fundada por qual banda?",
+          "resposta": "Beatles"
+        },
+        {
+          "id": "q19889",
+          "pergunta": "O primeiro logotipo da Apple, de 1976, era um desenho que mostrava qual cientista sentado sob uma árvore?",
+          "resposta": "Isaac Newton"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Ao lado de Steve Jobs e Steve Wozniak, quem foi o terceiro fundador da Apple, que vendeu sua parte poucos dias depois?",
+        "resposta": "Ronald Wayne"
+      },
+      "existentes": [
+        {
+          "id": "q03452",
+          "pergunta": "A Apple foi fundada em 1976 por Steve Jobs, Steve Wozniak e um terceiro sócio, que vendeu sua parte poucos dias depois. Quem?",
+          "resposta": "Ronald Wayne"
+        },
+        {
+          "id": "q19888",
+          "pergunta": "A Apple de Steve Jobs travou longas disputas pelo uso do nome com a Apple Corps, empresa fundada por qual banda?",
+          "resposta": "Beatles"
+        },
+        {
+          "id": "q19889",
+          "pergunta": "O primeiro logotipo da Apple, de 1976, era um desenho que mostrava qual cientista sentado sob uma árvore?",
+          "resposta": "Isaac Newton"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "O engenheiro Ferdinand Porsche, cujo sobrenome batiza uma marca de carros esportivos, projetou nos anos trinta qual carro popular alemão?",
+        "resposta": "Fusca"
+      },
+      "existentes": [
+        {
+          "id": "q21041",
+          "pergunta": "O cavalo empinado no centro do brasão da Porsche foi tirado do brasão de qual cidade alemã?",
+          "resposta": "Stuttgart"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Segundo a história mais conhecida, Ruth Wakefield cedeu à Nestlé a receita do cookie com gotas de chocolate em troca de quê?",
+        "resposta": "Chocolate de graça pelo resto da vida"
+      },
+      "existentes": [
+        {
+          "id": "q03812",
+          "pergunta": "Nos anos trinta, qual cozinheira e dona de uma pousada em Massachusetts criou o cookie com gotas de chocolate?",
+          "resposta": "Ruth Wakefield"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Segundo a história contada pela família, Ferruccio Lamborghini decidiu fabricar carros esportivos depois de uma discussão com qual fabricante italiano?",
+        "resposta": "Enzo Ferrari"
+      },
+      "existentes": [
+        {
+          "id": "q01002",
+          "pergunta": "O nome Lamborghini aparece em carros esportivos e também em qual veículo, que seu fundador já fabricava antes?",
+          "resposta": "Tratores"
+        },
+        {
+          "id": "q17141",
+          "pergunta": "Miura, Diablo e Murciélago são carros da Lamborghini. Esses nomes homenageiam o quê?",
+          "resposta": "Touros de tourada"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Antes dos carros esportivos, Ferruccio Lamborghini ficou rico fabricando que tipo de veículo, usado no campo?",
+        "resposta": "Tratores"
+      },
+      "existentes": [
+        {
+          "id": "q01002",
+          "pergunta": "O nome Lamborghini aparece em carros esportivos e também em qual veículo, que seu fundador já fabricava antes?",
+          "resposta": "Tratores"
+        },
+        {
+          "id": "q17141",
+          "pergunta": "Miura, Diablo e Murciélago são carros da Lamborghini. Esses nomes homenageiam o quê?",
+          "resposta": "Touros de tourada"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Em 1940, os irmãos Richard e Maurice McDonald abriram o restaurante que deu origem à rede em qual cidade da Califórnia?",
+        "resposta": "San Bernardino"
+      },
+      "existentes": [
+        {
+          "id": "q07047",
+          "pergunta": "Que vendedor de máquinas de milk-shake comprou o negócio dos irmãos McDonald e o transformou numa rede mundial?",
+          "resposta": "Ray Kroc"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Em qual pequena cidade dinamarquesa o carpinteiro Ole Kirk Christiansen fundou a empresa que virou a Lego?",
+        "resposta": "Billund"
+      },
+      "existentes": [
+        {
+          "id": "q00876",
+          "pergunta": "O nome da fabricante de blocos de montar Lego vem de uma expressão em dinamarquês. O que ela significa?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03782",
+          "pergunta": "Em dinamarquês, a expressão que deu origem ao nome da marca de brinquedos Lego quer dizer o quê?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03783",
+          "pergunta": "Em 1932, qual carpinteiro dinamarquês fundou a pequena fábrica de brinquedos de madeira que viria a se chamar Lego?",
+          "resposta": "Ole Kirk Christiansen"
+        },
+        {
+          "id": "q07061",
+          "pergunta": "O tijolinho de plástico da Lego, com o sistema de encaixe usado até hoje, foi patenteado em que ano?",
+          "resposta": "1958"
+        },
+        {
+          "id": "q15700",
+          "pergunta": "Seis peças de Lego retangulares, do tipo dois por quatro e da mesma cor, podem ser encaixadas de quantas maneiras diferentes?",
+          "resposta": "Cerca de 915 milhões"
+        },
+        {
+          "id": "q20663",
+          "pergunta": "Fundada em 1932 por um carpinteiro, a fabricante de brinquedos Lego tem sede até hoje em qual pequena cidade da Dinamarca?",
+          "resposta": "Billund"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Os bonequinhos da Lego, de cabeça amarela e mãos em forma de garra, foram lançados em que década?",
+        "resposta": "Década de 1970"
+      },
+      "existentes": [
+        {
+          "id": "q00876",
+          "pergunta": "O nome da fabricante de blocos de montar Lego vem de uma expressão em dinamarquês. O que ela significa?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03782",
+          "pergunta": "Em dinamarquês, a expressão que deu origem ao nome da marca de brinquedos Lego quer dizer o quê?",
+          "resposta": "Brinque bem"
+        },
+        {
+          "id": "q03783",
+          "pergunta": "Em 1932, qual carpinteiro dinamarquês fundou a pequena fábrica de brinquedos de madeira que viria a se chamar Lego?",
+          "resposta": "Ole Kirk Christiansen"
+        },
+        {
+          "id": "q07061",
+          "pergunta": "O tijolinho de plástico da Lego, com o sistema de encaixe usado até hoje, foi patenteado em que ano?",
+          "resposta": "1958"
+        },
+        {
+          "id": "q15700",
+          "pergunta": "Seis peças de Lego retangulares, do tipo dois por quatro e da mesma cor, podem ser encaixadas de quantas maneiras diferentes?",
+          "resposta": "Cerca de 915 milhões"
+        },
+        {
+          "id": "q20663",
+          "pergunta": "Fundada em 1932 por um carpinteiro, a fabricante de brinquedos Lego tem sede até hoje em qual pequena cidade da Dinamarca?",
+          "resposta": "Billund"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "As sandálias de borracha Havaianas foram inspiradas no zori, um chinelo tradicional de qual país?",
+        "resposta": "Japão"
+      },
+      "existentes": [
+        {
+          "id": "q00896",
+          "pergunta": "As sandálias Havaianas, lançadas no Brasil em 1962, foram inspiradas em qual calçado tradicional japonês?",
+          "resposta": "Zori"
+        },
+        {
+          "id": "q03818",
+          "pergunta": "Em que década a São Paulo Alpargatas lançou as sandálias de borracha Havaianas?",
+          "resposta": "Década de 1960"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Antes de se mudar para a região de Seattle, a Microsoft foi fundada em 1975 em qual cidade americana?",
+        "resposta": "Albuquerque"
+      },
+      "existentes": [
+        {
+          "id": "q03450",
+          "pergunta": "O primeiro produto da Microsoft, em 1975, foi uma versão da linguagem Basic para qual microcomputador?",
+          "resposta": "Altair 8800"
+        },
+        {
+          "id": "q06768",
+          "pergunta": "Antes de se mudar para a região de Seattle, a Microsoft foi fundada em 1975 em qual cidade do Novo México?",
+          "resposta": "Albuquerque"
+        },
+        {
+          "id": "q11908",
+          "pergunta": "Qual destas empresas de tecnologia foi fundada primeiro?",
+          "resposta": "Microsoft"
+        },
+        {
+          "id": "q15949",
+          "pergunta": "O nome Microsoft surgiu da junção de quais duas palavras?",
+          "resposta": "Microcomputador e software"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Em qual pequena cidade italiana, perto de Modena, fica desde os anos quarenta a fábrica da Ferrari?",
+        "resposta": "Maranello"
+      },
+      "existentes": [
+        {
+          "id": "q03798",
+          "pergunta": "O cavalo empinado do símbolo da Ferrari vem do emblema pintado no avião de qual piloto italiano da Primeira Guerra Mundial?",
+          "resposta": "Francesco Baracca"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Para coar café em 1908, Melitta Bentz furou uma panela de latão e usou uma folha de papel tirada de onde?",
+        "resposta": "Do caderno escolar do filho"
+      },
+      "existentes": [
+        {
+          "id": "q03809",
+          "pergunta": "Em 1908, uma dona de casa de Dresden inventou o filtro de papel para café e fundou uma marca com o próprio nome. Quem?",
+          "resposta": "Melitta Bentz"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "O chicle, base das gomas de mascar de Thomas Adams, é o látex extraído de qual árvore das Américas?",
+        "resposta": "Sapotizeiro"
+      },
+      "existentes": [
+        {
+          "id": "q07070",
+          "pergunta": "Que ex-presidente do México, exilado nos Estados Unidos, apresentou a Thomas Adams o chicle que acabou virando goma de mascar?",
+          "resposta": "Antonio López de Santa Anna"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Antes de usar o milho, os irmãos Kellogg obtiveram por acaso os primeiros flocos de cereal com qual grão?",
+        "resposta": "Trigo"
+      },
+      "existentes": [
+        {
+          "id": "q03811",
+          "pergunta": "Quais irmãos americanos criaram os flocos de milho no fim do século dezenove, num sanatório de Michigan?",
+          "resposta": "Irmãos Kellogg"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "Em 1952, o Senhor Cabeça de Batata vinha sem cabeça de plástico, só com olhos, nariz e boca. Onde as crianças espetavam essas peças?",
+        "resposta": "Em batatas e legumes de verdade"
+      },
+      "existentes": [
+        {
+          "id": "q11910",
+          "pergunta": "Qual destes brinquedos americanos foi lançado primeiro?",
+          "resposta": "Senhor Cabeça de Batata"
+        },
+        {
+          "id": "q20772",
+          "pergunta": "Este personagem aparece em que franquia de animação?",
+          "resposta": "Toy Story"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Que instrumento musical aparece como símbolo no rótulo da cerveja irlandesa Guinness?",
+        "resposta": "Harpa"
+      },
+      "existentes": [
+        {
+          "id": "q03821",
+          "pergunta": "Em 1759, Arthur Guinness assinou o arrendamento da cervejaria de Saint James's Gate, em Dublin, por quantos anos?",
+          "resposta": "Nove mil anos"
+        },
+        {
+          "id": "q11906",
+          "pergunta": "Qual destas marcas de cerveja é a mais antiga?",
+          "resposta": "Guinness"
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "nova": {
+        "pergunta": "Muito antes dos carros, em 1874, a família Peugeot lançou um modelo famoso de qual utensílio de mesa?",
+        "resposta": "Moedor de pimenta"
+      },
+      "existentes": [
+        {
+          "id": "q01001",
+          "pergunta": "Além de carros, a marca francesa Peugeot está ligada a que utensílio de cozinha, fabricado desde o século dezenove?",
+          "resposta": "Moedor de pimenta"
+        },
+        {
+          "id": "q11904",
+          "pergunta": "Qual destas montadoras nasceu da empresa mais antiga, um negócio familiar do começo do século dezenove?",
+          "resposta": "Peugeot"
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "nova": {
+        "pergunta": "A primeira câmera Kodak, de 1888, já vinha carregada de fábrica com filme para quantas fotos?",
+        "resposta": "Cem"
+      },
+      "existentes": [
+        {
+          "id": "q08743",
+          "pergunta": "Lançada em 1888, a primeira câmera Kodak já vinha carregada de fábrica com filme para quantas fotos?",
+          "resposta": "Cem"
+        },
+        {
+          "id": "q11918",
+          "pergunta": "George Eastman inventou a palavra Kodak do zero. Segundo ele, o nome começa e termina com qual letra, sua favorita?",
+          "resposta": "K"
+        }
+      ]
+    },
+    {
+      "caso": 45,
+      "nova": {
+        "pergunta": "Em 1975, o engenheiro Steven Sasson construiu um protótipo pioneiro de câmera digital trabalhando para qual empresa?",
+        "resposta": "Kodak"
+      },
+      "existentes": [
+        {
+          "id": "q08743",
+          "pergunta": "Lançada em 1888, a primeira câmera Kodak já vinha carregada de fábrica com filme para quantas fotos?",
+          "resposta": "Cem"
+        },
+        {
+          "id": "q11918",
+          "pergunta": "George Eastman inventou a palavra Kodak do zero. Segundo ele, o nome começa e termina com qual letra, sua favorita?",
+          "resposta": "K"
+        }
+      ]
+    },
+    {
+      "caso": 46,
+      "nova": {
+        "pergunta": "Quantas estrelas aparecem no logotipo da montadora japonesa Subaru?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q03801",
+          "pergunta": "Que ligação existe entre a montadora japonesa Subaru e o aglomerado de estrelas das Plêiades?",
+          "resposta": "Subaru é o nome japonês das Plêiades"
+        }
+      ]
+    },
+    {
+      "caso": 47,
+      "nova": {
+        "pergunta": "A caneta esferográfica Bic Cristal, do empresário francês Marcel Bich, foi lançada em que década?",
+        "resposta": "Década de 1950"
+      },
+      "existentes": [
+        {
+          "id": "q00888",
+          "pergunta": "A tampa da caneta BIC Cristal tem um pequeno furo na ponta. Para que serve esse furo?",
+          "resposta": "Evitar sufocamento se engolida"
+        },
+        {
+          "id": "q18549",
+          "pergunta": "Além do furo na tampa, a caneta BIC Cristal tem um furinho na lateral do corpo. Para que ele serve?",
+          "resposta": "Igualar a pressão do ar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a origem do nome (noz-de-cola); fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Frank Robinson, fato diferente de Pemberton."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Origem do título de coronel, não o número de ervas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nome anterior da empresa; fato diferente."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma explicação: oito traços, número da sorte (q00976).",
+      "id_existente": "q00976"
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: origem em fábrica de teares (q09395).",
+      "id_existente": "q09395"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Origem do nome Aspirina (ulmária), diferente da casca do salgueiro e do ano."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Origem do nome Fanta; fato diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Significado do nome, não o modelo aviador."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Motivo do nome, não a cidade de fundação."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nome anterior do pirulito; fato diferente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nome completo da Barbie não é perguntado nas existentes."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Significado da sigla, diferente das cores do logotipo."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: marcadores caindo do hinário (q00883).",
+      "id_existente": "q00883"
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Inspiração do conselho da tampinha; fato diferente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Móveis desmontados; fato diferente do fundador."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Termo halitose, diferente de Joseph Lister."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Motivo do morcego, não o país."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "motivo": "Mesmo objetivo do guia Michelin em 1900 (q00993).",
+      "id_existente": "q00993"
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Produto vendido por McConnell antes; fato diferente."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Motivo do monograma, não os baús."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Primeiro uso do WD-40, não o significado do número."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Uso observado por Chesebrough, diferente da matéria-prima ou etimologia."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Marca revendida pela Nike, não o significado de Asics."
+    },
+    {
+      "caso": 25,
+      "decisao": "repete",
+      "motivo": "Mesmo parentesco dos fundadores (q00946).",
+      "id_existente": "q00946"
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "motivo": "Mesmo logotipo com Isaac Newton (q19889).",
+      "id_existente": "q19889"
+    },
+    {
+      "caso": 27,
+      "decisao": "repete",
+      "motivo": "Mesmo terceiro fundador, Ronald Wayne (q03452).",
+      "id_existente": "q03452"
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Fusca projetado por Porsche, diferente do brasão."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Troca da receita com a Nestlé, não a criadora."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Origem da disputa com Ferrari; fato diferente."
+    },
+    {
+      "caso": 31,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: tratores (q01002).",
+      "id_existente": "q01002"
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Cidade do restaurante, diferente de Ray Kroc."
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "motivo": "Mesma cidade, Billund (q20663).",
+      "id_existente": "q20663"
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Lançamento dos bonequinhos; fato diferente."
+    },
+    {
+      "caso": 35,
+      "decisao": "repete",
+      "motivo": "Mesma inspiração no zori japonês (q00896).",
+      "id_existente": "q00896"
+    },
+    {
+      "caso": 36,
+      "decisao": "repete",
+      "motivo": "Mesma cidade de fundação, Albuquerque (q06768).",
+      "id_existente": "q06768"
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Localização da fábrica, não o cavalo."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Origem do papel usado; a inventora é outro fato."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Árvore do chicle, diferente de Santa Anna."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Primeiros flocos de trigo, não quem os criou."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Onde espetavam as peças; fato diferente."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Símbolo da harpa, fato diferente."
+    },
+    {
+      "caso": 43,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Peugeot e moedor de pimenta (q01001).",
+      "id_existente": "q01001"
+    },
+    {
+      "caso": 44,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre cem fotos (q08743).",
+      "id_existente": "q08743"
+    },
+    {
+      "caso": 45,
+      "decisao": "nova",
+      "motivo": "Câmera digital de Sasson, fato diferente."
+    },
+    {
+      "caso": 46,
+      "decisao": "nova",
+      "motivo": "Número de estrelas; fato diferente do nome Plêiades."
+    },
+    {
+      "caso": 47,
+      "decisao": "nova",
+      "motivo": "Década de lançamento, não os furos."
+    }
+  ]
+}

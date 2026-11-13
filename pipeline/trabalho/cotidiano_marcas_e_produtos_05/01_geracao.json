@@ -1,0 +1,1098 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "coca_cola",
+        "nome": "Coca-Cola",
+        "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+        "variantes": [
+          "Coke"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coca-Cola"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Coca-Cola vem de dois ingredientes da fórmula original: a folha de coca e qual semente africana, rica em cafeína?",
+      "resposta": "Noz-de-cola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coca-Cola"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "coca_cola",
+        "nome": "Coca-Cola",
+        "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+        "variantes": [
+          "Coke"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coca-Cola"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Sócio e contador do farmacêutico John Pemberton, quem sugeriu o nome Coca-Cola e desenhou a letra cursiva do logotipo?",
+      "resposta": "Frank Robinson",
+      "distratores": [
+        "Asa Candler",
+        "Robert Woodruff",
+        "Willis Venable"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Frank_Mason_Robinson"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "kfc",
+        "nome": "KFC",
+        "descricao": "Rede americana de lanchonetes de frango frito fundada por Harland Sanders, o Coronel Sanders, em Kentucky.",
+        "variantes": [
+          "Kentucky Fried Chicken"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/KFC"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Harland Sanders, o fundador do KFC, nunca foi militar. De onde veio o título de coronel que ele usava?",
+      "resposta": "Honraria do governo do Kentucky",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Colonel_Sanders"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nike",
+        "nome": "Nike",
+        "descricao": "Empresa americana de calçados e artigos esportivos fundada por Phil Knight e Bill Bowerman, dona do logotipo Swoosh.",
+        "variantes": [
+          "Nike, Inc."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nike,_Inc."
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Antes de adotar o nome Nike, no começo dos anos setenta, como se chamava a empresa de Phil Knight e Bill Bowerman?",
+      "resposta": "Blue Ribbon Sports",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nike,_Inc."
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Toyota",
+        "descricao": "Montadora japonesa de automóveis fundada em 1937 por Kiichiro Toyoda, a partir da empresa de teares da família Toyoda.",
+        "variantes": [
+          "Toyota Motor Corporation"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toyota"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Fundada pela família Toyoda, a montadora japonesa passou a se chamar Toyota em parte por um motivo de sorte. Qual?",
+      "resposta": "Escreve-se com oito traços, número da sorte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toyota"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Toyota",
+        "descricao": "Montadora japonesa de automóveis fundada em 1937 por Kiichiro Toyoda, a partir da empresa de teares da família Toyoda.",
+        "variantes": [
+          "Toyota Motor Corporation"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toyota"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que os carros Toyota têm a ver com a indústria têxtil japonesa?",
+      "resposta": "Nasceram de uma fábrica de teares",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toyota",
+        "https://en.wikipedia.org/wiki/Toyota_Industries"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nutella",
+        "nome": "Nutella",
+        "descricao": "Creme de avelã com cacau da empresa italiana Ferrero, lançado em 1964.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nutella"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Nutella junta um diminutivo italiano a uma palavra da língua inglesa. O que essa palavra inglesa significa?",
+      "resposta": "Noz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nutella"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "aspirina",
+        "nome": "Aspirina",
+        "descricao": "Medicamento à base de ácido acetilsalicílico, lançado pela Bayer em 1899, usado contra dor, febre e inflamação.",
+        "variantes": [
+          "Aspirin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aspirin"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Aspirina, criado pela Bayer, traz um pedaço do antigo nome científico de qual planta, fonte natural de um composto parecido?",
+      "resposta": "Ulmária",
+      "distratores": [
+        "Salgueiro",
+        "Papoula",
+        "Camomila"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aspirin",
+        "https://en.wikipedia.org/wiki/Filipendula_ulmaria"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fanta",
+        "nome": "Fanta",
+        "descricao": "Refrigerante criado na Alemanha em 1940 pela filial alemã da Coca-Cola.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fanta"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na Alemanha dos anos quarenta, o nome Fanta nasceu de um pedido do chefe da filial da Coca-Cola: que a equipe usasse o quê?",
+      "resposta": "A imaginação",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fanta"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ray_ban",
+        "nome": "Ray-Ban",
+        "descricao": "Marca de óculos escuros criada nos Estados Unidos pela Bausch & Lomb nos anos 1930.",
+        "variantes": [
+          "Ray Ban"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ray-Ban"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome dos óculos escuros Ray-Ban descreve, em inglês, o que as lentes fazem. O quê?",
+      "resposta": "Barram os raios de sol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ray-Ban"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rolex",
+        "nome": "Rolex",
+        "descricao": "Fabricante de relógios de luxo fundada em 1905 por Hans Wilsdorf e Alfred Davis, hoje sediada em Genebra.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rolex"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por que Hans Wilsdorf escolheu um nome curto e inventado como Rolex para a sua marca de relógios?",
+      "resposta": "Fácil de pronunciar em qualquer idioma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rolex"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chupa_chups",
+        "nome": "Chupa Chups",
+        "descricao": "Marca espanhola de pirulitos fundada por Enric Bernat em 1958, com logotipo em forma de margarida.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chupa_Chups"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Antes de virar Chupa Chups, o pirulito do espanhol Enric Bernat tinha um nome tirado do futebol. Qual?",
+      "resposta": "Gol",
+      "distratores": [
+        "Pênalti",
+        "Craque",
+        "Bola"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chupa_Chups"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "barbie",
+        "nome": "Barbie",
+        "descricao": "Boneca lançada pela empresa americana Mattel em 1959, criada por Ruth Handler.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Barbie"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Segundo a fabricante Mattel, qual é o nome completo da boneca Barbie?",
+      "resposta": "Barbara Millicent Roberts",
+      "distratores": [
+        "Barbara Ann Carson",
+        "Barbara Jean Miller",
+        "Barbara Louise Wilson"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Barbie"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bmw",
+        "nome": "BMW",
+        "descricao": "Montadora alemã de automóveis e motocicletas sediada em Munique, cujo logotipo é um círculo azul e branco.",
+        "variantes": [
+          "Bayerische Motoren Werke"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/BMW"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A sigla BMW abrevia um nome em alemão. Traduzido para o português, como fica esse nome por extenso?",
+      "resposta": "Fábrica de Motores da Baviera",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/BMW"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "post_it",
+        "nome": "Post-it",
+        "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+        "variantes": [
+          "Post-it Note"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Post-it_Note"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que problema, vivido no coral da igreja, deu a Art Fry, químico da 3M, a ideia do bloquinho Post-it?",
+      "resposta": "Os marcadores caíam do hinário",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Post-it_Note",
+        "https://en.wikipedia.org/wiki/Art_Fry"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gillette",
+        "nome": "Gillette",
+        "descricao": "Marca americana de aparelhos de barbear fundada por King Camp Gillette no começo do século vinte.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gillette"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "King Gillette criou a lâmina de barbear descartável inspirado pelo conselho do inventor de qual objeto, também feito para ser jogado fora?",
+      "resposta": "Tampinha de garrafa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/King_C._Gillette"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ikea",
+        "nome": "Ikea",
+        "descricao": "Rede sueca de lojas de móveis fundada em 1943 por Ingvar Kamprad.",
+        "variantes": [
+          "IKEA"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/IKEA"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos anos cinquenta, um funcionário da Ikea tirou as pernas de uma mesa para ela caber num carro. Que costume da loja nasceu daí?",
+      "resposta": "Vender móveis desmontados em caixas planas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gillis_Lundgren"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "listerine",
+        "nome": "Listerine",
+        "descricao": "Enxaguante bucal antisséptico criado nos Estados Unidos em 1879 por Joseph Lawrence.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Listerine"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Nos anos vinte, as propagandas do enxaguante Listerine tornaram popular qual termo médico, até então pouco conhecido?",
+      "resposta": "Halitose",
+      "distratores": [
+        "Gengivite",
+        "Tártaro",
+        "Placa bacteriana"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Listerine"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "bacardi",
+        "nome": "Bacardi",
+        "descricao": "Marca de rum fundada em 1862 por Facundo Bacardí Massó, cujo símbolo é um morcego.",
+        "variantes": [
+          "Bacardí"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bacardi"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que um morcego virou o símbolo do rum Bacardi, criado no século dezenove?",
+      "resposta": "Havia morcegos vivendo na destilaria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bacardi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guia Michelin",
+        "descricao": "Guia de viagem e de restaurantes publicado pela fabricante francesa de pneus Michelin desde 1900, famoso por suas estrelas.",
+        "variantes": [
+          "Michelin Guide",
+          "Guide Michelin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michelin_Guide"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que os irmãos Michelin, fabricantes de pneus, lançaram em 1900 um guia gratuito para os motoristas franceses?",
+      "resposta": "Para estimular viagens de carro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michelin_Guide"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "avon",
+        "nome": "Avon",
+        "descricao": "Empresa de cosméticos de venda direta fundada em Nova York em 1886 por David McConnell.",
+        "variantes": [
+          "Avon Products"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avon_Products"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Antes de fundar a Avon, David McConnell vendia de porta em porta e dava perfumes de brinde, que faziam mais sucesso que o produto. Que produto era?",
+      "resposta": "Livros",
+      "distratores": [
+        "Sabonetes",
+        "Panelas",
+        "Remédios"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avon_Products"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "louis_vuitton_2",
+        "nome": "Louis Vuitton",
+        "descricao": "Marca francesa de artigos de luxo fundada em Paris em 1854 pelo artesão Louis Vuitton.",
+        "variantes": [
+          "LV"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Vuitton"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No fim do século dezenove, a Louis Vuitton criou sua estampa de monograma, com as iniciais da marca, para combater o quê?",
+      "resposta": "As falsificações",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Vuitton"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "wd_40",
+        "nome": "WD-40",
+        "descricao": "Lubrificante e desengripante em spray criado em San Diego, nos Estados Unidos, em 1953.",
+        "variantes": [
+          "WD40"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/WD-40"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O lubrificante WD-40 foi usado primeiro para proteger da ferrugem a fuselagem de qual equipamento militar americano?",
+      "resposta": "Mísseis Atlas",
+      "distratores": [
+        "Submarinos nucleares",
+        "Caças a jato",
+        "Tanques de guerra"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/WD-40"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bic Cristal",
+        "descricao": "Caneta esferográfica descartável de corpo transparente e sextavado, lançada na França pela empresa de Marcel Bich.",
+        "variantes": [
+          "Caneta Bic",
+          "Bic Cristal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bic_Cristal"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a tampa da caneta esferográfica Bic Cristal tem um furinho na ponta?",
+      "resposta": "Para não sufocar quem a engolir",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bic_Cristal"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "vaselina",
+        "nome": "Vaselina",
+        "descricao": "Marca de geleia de petróleo criada pelo químico americano Robert Chesebrough no século dezenove.",
+        "variantes": [
+          "Vaseline"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vaseline"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Robert Chesebrough teve a ideia da vaselina ao ver operários de poços de petróleo usando uma cera das máquinas para quê?",
+      "resposta": "Tratar cortes e queimaduras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Petroleum_jelly",
+        "https://en.wikipedia.org/wiki/Vaseline"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "asics",
+        "nome": "Asics",
+        "descricao": "Fabricante japonesa de tênis e artigos esportivos sediada em Kobe.",
+        "variantes": [
+          "ASICS"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Asics"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Nos anos sessenta, a empresa que viraria a Nike começou revendendo nos Estados Unidos os tênis de qual marca japonesa, que depois formou a Asics?",
+      "resposta": "Onitsuka Tiger",
+      "distratores": [
+        "Mizuno",
+        "Yonex",
+        "Descente"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Asics",
+        "https://en.wikipedia.org/wiki/Nike,_Inc."
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Puma",
+        "descricao": "Empresa alemã de calçados e artigos esportivos fundada por Rudolf Dassler em Herzogenaurach, em 1948.",
+        "variantes": [
+          "Puma SE"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Puma_(brand)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Os fundadores da Puma e da Adidas, que viraram rivais numa mesma cidadezinha da Baviera, tinham que parentesco?",
+      "resposta": "Eram irmãos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Puma_(brand)",
+        "https://en.wikipedia.org/wiki/Adidas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Apple",
+        "descricao": "Empresa americana de tecnologia fundada em 1976 por Steve Jobs, Steve Wozniak e Ronald Wayne, fabricante do iPhone e dos computadores Mac.",
+        "variantes": [
+          "Apple Inc.",
+          "Apple Computer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apple_Inc."
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O primeiro logotipo da Apple, de 1976, mostrava qual cientista sentado debaixo de uma macieira?",
+      "resposta": "Isaac Newton",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apple_Inc.",
+        "https://en.wikipedia.org/wiki/Ronald_Wayne"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Apple",
+        "descricao": "Empresa americana de tecnologia fundada em 1976 por Steve Jobs, Steve Wozniak e Ronald Wayne, fabricante do iPhone e dos computadores Mac.",
+        "variantes": [
+          "Apple Inc.",
+          "Apple Computer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apple_Inc."
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Ao lado de Steve Jobs e Steve Wozniak, quem foi o terceiro fundador da Apple, que vendeu sua parte poucos dias depois?",
+      "resposta": "Ronald Wayne",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ronald_Wayne"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Porsche",
+        "descricao": "Fabricante alemã de carros esportivos sediada em Stuttgart, que leva o sobrenome do engenheiro Ferdinand Porsche.",
+        "variantes": [
+          "Porsche AG"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Porsche"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O engenheiro Ferdinand Porsche, cujo sobrenome batiza uma marca de carros esportivos, projetou nos anos trinta qual carro popular alemão?",
+      "resposta": "Fusca",
+      "distratores": [
+        "Kombi",
+        "Trabant",
+        "Opel Kadett"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ferdinand_Porsche",
+        "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cookie_com_gotas_de_chocolate",
+        "nome": "Cookie com gotas de chocolate",
+        "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+        "variantes": [
+          "Chocolate chip cookie"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chocolate_chip_cookie"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo a história mais conhecida, Ruth Wakefield cedeu à Nestlé a receita do cookie com gotas de chocolate em troca de quê?",
+      "resposta": "Chocolate de graça pelo resto da vida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chocolate_chip_cookie",
+        "https://en.wikipedia.org/wiki/Ruth_Graves_Wakefield"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lamborghini",
+        "descricao": "Fabricante italiana de carros esportivos fundada em 1963 por Ferruccio Lamborghini em Sant'Agata Bolognese, cujo símbolo é um touro.",
+        "variantes": [
+          "Automobili Lamborghini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lamborghini"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo a história contada pela família, Ferruccio Lamborghini decidiu fabricar carros esportivos depois de uma discussão com qual fabricante italiano?",
+      "resposta": "Enzo Ferrari",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lamborghini",
+        "https://en.wikipedia.org/wiki/Ferruccio_Lamborghini"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lamborghini",
+        "descricao": "Fabricante italiana de carros esportivos fundada em 1963 por Ferruccio Lamborghini em Sant'Agata Bolognese, cujo símbolo é um touro.",
+        "variantes": [
+          "Automobili Lamborghini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lamborghini"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Antes dos carros esportivos, Ferruccio Lamborghini ficou rico fabricando que tipo de veículo, usado no campo?",
+      "resposta": "Tratores",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ferruccio_Lamborghini",
+        "https://en.wikipedia.org/wiki/Lamborghini_Trattori"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guinness World Records",
+        "descricao": "Livro anual de recordes mundiais, lançado em 1955 por iniciativa da cervejaria irlandesa Guinness.",
+        "variantes": [
+          "Livro Guinness dos Recordes",
+          "Guinness Book",
+          "Livro dos recordes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guinness_World_Records"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que ligação tem o famoso livro anual dos recordes mundiais com uma cerveja escura irlandesa?",
+      "resposta": "Foi criado pela cervejaria Guinness",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guinness_World_Records",
+        "https://en.wikipedia.org/wiki/Hugh_Beaver"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mcdonald_s",
+        "nome": "McDonald's",
+        "descricao": "Rede americana de lanchonetes de hambúrguer criada pelos irmãos Richard e Maurice McDonald na Califórnia, em 1940.",
+        "variantes": [
+          "McDonalds"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/McDonald%27s"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1940, os irmãos Richard e Maurice McDonald abriram o restaurante que deu origem à rede em qual cidade da Califórnia?",
+      "resposta": "San Bernardino",
+      "distratores": [
+        "Los Angeles",
+        "San Diego",
+        "Sacramento"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/McDonald%27s"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lego_2",
+        "nome": "Lego",
+        "descricao": "Marca dinamarquesa de brinquedos de blocos de montar plásticos.",
+        "variantes": [
+          "LEGO"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lego"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em qual pequena cidade dinamarquesa o carpinteiro Ole Kirk Christiansen fundou a empresa que virou a Lego?",
+      "resposta": "Billund",
+      "distratores": [
+        "Copenhague",
+        "Aarhus",
+        "Odense"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Lego_Group",
+        "https://en.wikipedia.org/wiki/Billund,_Denmark"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lego_2",
+        "nome": "Lego",
+        "descricao": "Marca dinamarquesa de brinquedos de blocos de montar plásticos.",
+        "variantes": [
+          "LEGO"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lego"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Os bonequinhos da Lego, de cabeça amarela e mãos em forma de garra, foram lançados em que década?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1980"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lego_minifigure"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "havaianas",
+        "nome": "Havaianas",
+        "descricao": "Marca brasileira de sandálias de borracha lançada em 1962 pela Alpargatas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Havaianas"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "As sandálias de borracha Havaianas foram inspiradas no zori, um chinelo tradicional de qual país?",
+      "resposta": "Japão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Havaianas"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "microsoft",
+        "nome": "Microsoft",
+        "descricao": "Empresa americana de software fundada em 1975 por Bill Gates e Paul Allen.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microsoft"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Antes de se mudar para a região de Seattle, a Microsoft foi fundada em 1975 em qual cidade americana?",
+      "resposta": "Albuquerque",
+      "distratores": [
+        "Phoenix",
+        "Denver",
+        "São Francisco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Microsoft"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ferrari",
+        "nome": "Ferrari",
+        "descricao": "Fabricante italiana de carros esportivos fundada por Enzo Ferrari, com o símbolo do cavalo empinado.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ferrari"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em qual pequena cidade italiana, perto de Modena, fica desde os anos quarenta a fábrica da Ferrari?",
+      "resposta": "Maranello",
+      "distratores": [
+        "Sant'Agata Bolognese",
+        "Turim",
+        "Imola"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ferrari",
+        "https://en.wikipedia.org/wiki/Maranello"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "melitta",
+        "nome": "Melitta",
+        "descricao": "Empresa alemã de café e filtros de papel fundada por Melitta Bentz em Dresden, em 1908.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Melitta"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Para coar café em 1908, Melitta Bentz furou uma panela de latão e usou uma folha de papel tirada de onde?",
+      "resposta": "Do caderno escolar do filho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Melitta_Bentz"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chiclete_de_thomas_adams",
+        "nome": "Chiclete de Thomas Adams",
+        "descricao": "Goma de mascar feita de chicle, produzida em Nova York por Thomas Adams a partir de 1871.",
+        "variantes": [
+          "Adams New York Chewing Gum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thomas_Adams_(inventor)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O chicle, base das gomas de mascar de Thomas Adams, é o látex extraído de qual árvore das Américas?",
+      "resposta": "Sapotizeiro",
+      "distratores": [
+        "Seringueira",
+        "Mogno",
+        "Pau-brasil"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chicle",
+        "https://en.wikipedia.org/wiki/Manilkara_zapota"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "corn_flakes",
+        "nome": "Corn Flakes",
+        "descricao": "Flocos de milho torrados criados no fim do século dezenove no sanatório de Battle Creek, em Michigan.",
+        "variantes": [
+          "Sucrilhos de milho",
+          "Flocos de milho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Corn_flakes"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Antes de usar o milho, os irmãos Kellogg obtiveram por acaso os primeiros flocos de cereal com qual grão?",
+      "resposta": "Trigo",
+      "distratores": [
+        "Aveia",
+        "Arroz",
+        "Cevada"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Corn_flakes"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "senhor_cabeca_de_batata",
+        "nome": "Senhor Cabeça de Batata",
+        "descricao": "Brinquedo americano de batata com peças de rosto encaixáveis, lançado em 1952 pela Hasbro.",
+        "variantes": [
+          "Mr. Potato Head"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mr._Potato_Head"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 1952, o Senhor Cabeça de Batata vinha sem cabeça de plástico, só com olhos, nariz e boca. Onde as crianças espetavam essas peças?",
+      "resposta": "Em batatas e legumes de verdade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mr._Potato_Head"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "guinness",
+        "nome": "Guinness",
+        "descricao": "Cerveja escura irlandesa produzida desde o século dezoito na cervejaria de St. James's Gate, em Dublin.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guinness"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Que instrumento musical aparece como símbolo no rótulo da cerveja irlandesa Guinness?",
+      "resposta": "Harpa",
+      "distratores": [
+        "Gaita de foles",
+        "Violino",
+        "Flauta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guinness"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "peugeot",
+        "nome": "Peugeot",
+        "descricao": "Fabricante francesa de automóveis, originada de uma empresa familiar de produtos de aço do século dezenove.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Peugeot"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Muito antes dos carros, a família Peugeot já fabricava, no século dezenove, qual utensílio de cozinha que leva a marca até hoje?",
+      "resposta": "Moedor de pimenta",
+      "distratores": [
+        "Panela de pressão",
+        "Abridor de latas",
+        "Ralador de queijo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Peugeot"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "kodak",
+        "nome": "Kodak",
+        "descricao": "Empresa americana de fotografia fundada por George Eastman, que lançou em 1888 a primeira câmera Kodak.",
+        "variantes": [
+          "Eastman Kodak"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kodak"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A primeira câmera Kodak, de 1888, já vinha carregada de fábrica com filme para quantas fotos?",
+      "resposta": "Cem",
+      "distratores": [
+        "Doze",
+        "Vinte e quatro",
+        "Trinta e seis"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kodak",
+        "https://en.wikipedia.org/wiki/George_Eastman"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "kodak",
+        "nome": "Kodak",
+        "descricao": "Empresa americana de fotografia fundada por George Eastman, que lançou em 1888 a primeira câmera Kodak.",
+        "variantes": [
+          "Eastman Kodak"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kodak"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em 1975, o engenheiro Steven Sasson construiu um protótipo pioneiro de câmera digital trabalhando para qual empresa?",
+      "resposta": "Kodak",
+      "distratores": [
+        "Sony",
+        "Polaroid",
+        "Canon"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Steven_Sasson"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "subaru",
+        "nome": "Subaru",
+        "descricao": "Montadora japonesa de automóveis cujo logotipo mostra um grupo de estrelas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Subaru"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantas estrelas aparecem no logotipo da montadora japonesa Subaru?",
+      "resposta": "Seis",
+      "distratores": [
+        "Cinco",
+        "Sete",
+        "Nove"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Subaru"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bic Cristal",
+        "descricao": "Caneta esferográfica descartável de corpo transparente e sextavado, lançada na França pela empresa de Marcel Bich.",
+        "variantes": [
+          "Caneta Bic",
+          "Bic Cristal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bic_Cristal"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A caneta esferográfica Bic Cristal, do empresário francês Marcel Bich, foi lançada em que década?",
+      "resposta": "Década de 1950",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1940",
+        "Década de 1960"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bic_Cristal"
+      ]
+    }
+  ]
+}
