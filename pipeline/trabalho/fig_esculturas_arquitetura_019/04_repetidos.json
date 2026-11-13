@@ -1,0 +1,126 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que edifício romano antigo é este, com fachada de duas ordens de colunas?",
+        "resposta": "Biblioteca de Celso"
+      },
+      "existentes": [
+        {
+          "id": "q03884",
+          "pergunta": "Em que cidade antiga da atual Turquia ficam as ruínas deste edifício romano?",
+          "resposta": "Éfeso"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que empresa britânica projetou e construiu esta ponte em arco de aço?",
+        "resposta": "Dorman Long"
+      },
+      "existentes": [
+        {
+          "id": "q05440",
+          "pergunta": "Por causa do formato do seu grande arco de aço, a Ponte da Baía de Sydney ganhou dos australianos o apelido de qual objeto?",
+          "resposta": "Cabide"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que construção europeia do século vinte é esta?",
+        "resposta": "Muro de Berlim"
+      },
+      "existentes": [
+        {
+          "id": "q02329",
+          "pergunta": "Que construção da Guerra Fria é esta?",
+          "resposta": "Muro de Berlim"
+        },
+        {
+          "id": "q03912",
+          "pergunta": "Em novembro de 1989, que anúncio atrapalhado de um porta-voz da Alemanha Oriental levou multidões ao Muro de Berlim?",
+          "resposta": "Liberação imediata das viagens"
+        },
+        {
+          "id": "q05435",
+          "pergunta": "Dividindo a cidade alemã por quase três décadas, o Muro de Berlim começou a ser erguido em qual ano?",
+          "resposta": "1961"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que pirâmide mesoamericana é esta?",
+        "resposta": "Pirâmide do Sol"
+      },
+      "existentes": [
+        {
+          "id": "q01921",
+          "pergunta": "Que pirâmide mesoamericana é esta?",
+          "resposta": "Pirâmide do Sol"
+        },
+        {
+          "id": "q15836",
+          "pergunta": "Em que país fica esta pirâmide?",
+          "resposta": "México"
+        },
+        {
+          "id": "q21273",
+          "pergunta": "Em altura, qual destas pirâmides pré-colombianas do México é a mais alta?",
+          "resposta": "Pirâmide do Sol"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que povo antigo da Mesoamérica esculpiu este monumento?",
+        "resposta": "Olmecas"
+      },
+      "existentes": [
+        {
+          "id": "q05287",
+          "pergunta": "Que civilização da Mesoamérica fez esta escultura monumental?",
+          "resposta": "Olmecas"
+        },
+        {
+          "id": "q21275",
+          "pergunta": "As cabeças colossais olmecas, algumas com dezenas de toneladas, foram esculpidas em que tipo de rocha?",
+          "resposta": "Basalto"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nova pede o nome do edifício; a existente pede a cidade onde fica. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Construtora da ponte versus apelido da ponte; fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar o Muro de Berlim a partir da imagem (q02329)."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar a Pirâmide do Sol (q01921), com a mesma resposta."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam qual civilização mesoamericana (olmecas) fez a escultura."
+    }
+  ]
+}

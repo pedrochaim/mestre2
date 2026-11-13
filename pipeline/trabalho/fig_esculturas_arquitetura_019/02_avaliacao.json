@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O brasão do clube aparece no gramado e a multidão ocupa o primeiro plano. Isso entrega a resposta e põe pessoas comuns em evidência."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada nítida e inconfundível, sem texto legível que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que edifício da Roma Antiga é este, com fachada de duas ordens de colunas?",
+      "resposta": "Biblioteca de Celso",
+      "destino": 0,
+      "ancora": {
+        "nome": "Biblioteca de Celso",
+        "descricao": "Edifício romano do século II em Éfeso, na atual Turquia, construído como biblioteca e túmulo de Celso.",
+        "variantes": [
+          "Library of Celsus",
+          "Biblioteca de Celso em Éfeso"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura bem visível, de um só assunto. A placa na base é minúscula e ilegível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que escultor francês criou esta obra em homenagem a um romancista, rejeitada pela sociedade que a encomendou?",
+      "resposta": "Auguste Rodin",
+      "distratores": [
+        "Camille Claudel",
+        "Aristide Maillol",
+        "Antoine Bourdelle"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monumento a Balzac",
+        "descricao": "Escultura de Auguste Rodin em homenagem ao romancista Honoré de Balzac, encomendada em 1891.",
+        "variantes": [
+          "Monument to Balzac",
+          "Balzac de Rodin"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Há pessoas comuns em primeiro plano, em destaque no centro da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ponte em arco de aço, nítida, muito reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que empresa britânica projetou e construiu esta ponte em arco de aço?",
+      "resposta": "Dorman Long",
+      "distratores": [
+        "Cleveland Bridge",
+        "Vickers-Armstrongs",
+        "Harland and Wolff"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ponte da Baía de Sydney",
+        "descricao": "Ponte em arco de aço que cruza a baía de Sydney, na Austrália, inaugurada em 1932.",
+        "variantes": [
+          "Sydney Harbour Bridge",
+          "Cabide de Sydney"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estátua equestre nítida, em enquadramento claro e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escultor renascentista fez esta estátua equestre, instalada em Veneza?",
+      "resposta": "Andrea del Verrocchio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estátua equestre de Colleoni",
+        "descricao": "Estátua equestre em bronze do condottiero Bartolomeo Colleoni, em Veneza, feita por Verrocchio entre 1480 e 1488.",
+        "variantes": [
+          "Monumento a Colleoni",
+          "Equestrian statue of Bartolomeo Colleoni"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Trecho do muro com a faixa de segurança e os obstáculos antitanque. As pichações em alemão não dizem o nome da construção.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que muro famoso é este?",
+      "resposta": "Muro de Berlim",
+      "destino": 0,
+      "ancora": {
+        "nome": "Muro de Berlim",
+        "descricao": "Barreira de concreto que cercou Berlim Ocidental de 1961 a 1989, separando-a de Berlim Oriental.",
+        "variantes": [
+          "Berliner Mauer",
+          "Berlin Wall"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pirâmide dominante e clara, com perfil escalonado característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pirâmide mesoamericana é esta?",
+      "resposta": "Pirâmide do Sol",
+      "distratores": [
+        "El Castillo",
+        "Pirâmide de Cholula",
+        "Templo do Grande Jaguar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pirâmide do Sol",
+        "descricao": "Maior edifício da antiga cidade de Teotihuacan, no México, construído por volta de 200 d.C.",
+        "variantes": [
+          "Pyramid of the Sun",
+          "Pirámide del Sol"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Escultura nítida, de um só assunto, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade belga fica esta escultura de mármore de Michelangelo?",
+      "resposta": "Bruges",
+      "distratores": [
+        "Gante",
+        "Antuérpia",
+        "Bruxelas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Madona de Bruges",
+        "descricao": "Escultura de mármore de Michelangelo, de cerca de 1504, que representa a Virgem com o Menino.",
+        "variantes": [
+          "Madonna of Bruges",
+          "Madona com o Menino de Bruges"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Torcedores comuns em primeiro plano, com camisas patrocinadas e texto visível, e o estádio não é inconfundível."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cabeça colossal nítida, sem texto, reconhecível pelo estilo olmeca.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que povo antigo da Mesoamérica esculpiu esta cabeça colossal de basalto?",
+      "resposta": "Olmecas",
+      "distratores": [
+        "Maias",
+        "Astecas",
+        "Toltecas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cabeças olmecas",
+        "descricao": "Cabeças colossais de basalto esculpidas pela civilização olmeca, na Mesoamérica, a partir de cerca de 900 a.C.",
+        "variantes": [
+          "Cabeça colossal olmeca",
+          "Olmec colossal heads"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Grupo escultórico nítido, de um só assunto. Há só uma placa minúscula de aviso na base.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escultura neoclássica de mármore é esta, de três figuras abraçadas?",
+      "resposta": "As Três Graças",
+      "destino": 0,
+      "ancora": {
+        "nome": "As Três Graças (Canova)",
+        "descricao": "Grupo escultórico neoclássico em mármore, de Antonio Canova, com as três Cárites da mitologia grega.",
+        "variantes": [
+          "The Three Graces",
+          "As Três Graças de Canova"
+        ]
+      }
+    }
+  ]
+}

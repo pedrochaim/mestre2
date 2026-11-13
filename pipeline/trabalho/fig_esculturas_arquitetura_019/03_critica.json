@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Edifício da Roma Antiga' sugere a cidade de Roma, mas fica em Éfeso; 'romano' é literalmente correto.",
+      "reescrita": {
+        "pergunta": "Que edifício romano antigo é este, com fachada de duas ordens de colunas?",
+        "resposta": "Biblioteca de Celso",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista da rejeição pela sociedade somada ao romancista permite identificar a obra sem a figura; retirada a pista.",
+      "reescrita": {
+        "pergunta": "Que escultor francês criou esta obra, encomendada em 1891?",
+        "resposta": "Auguste Rodin",
+        "distratores": [
+          "Camille Claudel",
+          "Aristide Maillol",
+          "Antoine Bourdelle"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dorman Long, de Middlesbrough, ganhou o contrato e construiu a ponte; o enunciado não vaza e os distratores são empresas britânicas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Estátua equestre renascentista em Veneza praticamente identifica a obra sem a imagem.",
+      "reescrita": {
+        "pergunta": "Que escultor renascentista fez esta estátua equestre de bronze?",
+        "resposta": "Andrea del Verrocchio",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado contém 'muro', palavra da resposta.",
+      "reescrita": {
+        "pergunta": "Que construção europeia do século vinte é esta?",
+        "resposta": "Muro de Berlim",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Escultura de mármore de Michelangelo' em cidade belga entrega a resposta sem a imagem, e os distratores belgas denunciam o país.",
+      "reescrita": {
+        "pergunta": "Em que cidade europeia fica esta escultura renascentista de mármore?",
+        "resposta": "Bruges",
+        "distratores": [
+          "Florença",
+          "Paris",
+          "Gante"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cabeça colossal de basalto' entrega o povo olmeca sem olhar a figura.",
+      "reescrita": {
+        "pergunta": "Que povo antigo da Mesoamérica esculpiu este monumento?",
+        "resposta": "Olmecas",
+        "distratores": [
+          "Maias",
+          "Astecas",
+          "Toltecas"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Três figuras' vaza parte da resposta; a descrição também serve a outras obras das Três Graças. Datas dão apoio sem entregar.",
+      "reescrita": {
+        "pergunta": "Que grupo escultórico neoclássico de mármore, criado por Canova entre 1814 e 1817, é este?",
+        "resposta": "As Três Graças",
+        "distratores": []
+      }
+    }
+  ]
+}

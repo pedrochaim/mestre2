@@ -1,0 +1,570 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Biblioteca de Celso",
+        "descricao": "Edifício romano do século II em Éfeso, na atual Turquia, construído como biblioteca e túmulo de Celso.",
+        "variantes": [
+          "Library of Celsus",
+          "Biblioteca de Celso em Éfeso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "biblioteca_de_celso",
+          "nome": "Biblioteca de Celso",
+          "descricao": "Fachada monumental de uma biblioteca romana do século dois em Éfeso, na Turquia.",
+          "variantes": [
+            "Biblioteca de Celsus"
+          ]
+        },
+        {
+          "id": "biblia_de_lutero",
+          "nome": "Bíblia de Lutero",
+          "descricao": "Tradução da Bíblia para o alemão feita por Martinho Lutero no século dezesseis.",
+          "variantes": [
+            "Lutherbibel",
+            "Luther Bible"
+          ]
+        },
+        {
+          "id": "biblioteca_nacional_do_brasil",
+          "nome": "Biblioteca Nacional do Brasil",
+          "descricao": "Maior biblioteca da América Latina, em prédio eclético na Cinelândia, no Rio de Janeiro.",
+          "variantes": [
+            "Biblioteca Nacional",
+            "Fundação Biblioteca Nacional"
+          ]
+        },
+        {
+          "id": "biblioteca_de_assurbanipal",
+          "nome": "Biblioteca de Assurbanipal",
+          "descricao": "Coleção de milhares de tabuletas cuneiformes reunida pelo rei assírio Assurbanipal no século sete antes de Cristo.",
+          "variantes": [
+            "Library of Ashurbanipal"
+          ]
+        },
+        {
+          "id": "biblioteca_mario_de_andrade",
+          "nome": "Biblioteca Mário de Andrade",
+          "descricao": "Maior biblioteca pública da cidade de São Paulo, em edifício art déco no centro histórico.",
+          "variantes": [
+            "BMA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Monumento a Balzac",
+        "descricao": "Escultura de Auguste Rodin em homenagem ao romancista Honoré de Balzac, encomendada em 1891.",
+        "variantes": [
+          "Monument to Balzac",
+          "Balzac de Rodin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_do_lacador",
+          "nome": "Estátua do Laçador",
+          "descricao": "Monumento em bronze ao gaúcho pilchado, símbolo oficial de Porto Alegre, obra do escultor Antônio Caringi.",
+          "variantes": [
+            "Laçador",
+            "Monumento ao Laçador",
+            "O Laçador"
+          ]
+        },
+        {
+          "id": "monumento_as_bandeiras",
+          "nome": "Monumento às Bandeiras",
+          "descricao": "Grande escultura de granito de Victor Brecheret, junto ao Parque Ibirapuera, em São Paulo, que homenageia as bandeiras.",
+          "variantes": [
+            "Monumento aos Bandeirantes",
+            "Monumento às Bandeiras de São Paulo"
+          ]
+        },
+        {
+          "id": "estatua_de_borba_gato",
+          "nome": "Estátua de Borba Gato",
+          "descricao": "Monumento ao bandeirante Manoel de Borba Gato, no bairro de Santo Amaro, em São Paulo.",
+          "variantes": [
+            "Monumento a Borba Gato"
+          ]
+        },
+        {
+          "id": "betelgeuse",
+          "nome": "Betelgeuse",
+          "descricao": "Estrela supergigante vermelha da constelação de Órion, que marca o ombro do caçador.",
+          "variantes": [
+            "Alfa de Órion",
+            "Betelgeuze"
+          ]
+        },
+        {
+          "id": "batalha_de_verdun",
+          "nome": "Batalha de Verdun",
+          "descricao": "Batalha travada entre franceses e alemães em 1916, perto da cidade de Verdun, uma das mais longas e sangrentas da Primeira Guerra Mundial.",
+          "variantes": [
+            "Battle of Verdun",
+            "Verdun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ponte da Baía de Sydney",
+        "descricao": "Ponte em arco de aço que cruza a baía de Sydney, na Austrália, inaugurada em 1932.",
+        "variantes": [
+          "Sydney Harbour Bridge",
+          "Cabide de Sydney"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_da_baia_de_sydney",
+          "nome": "Ponte da Baía de Sydney",
+          "descricao": "Ponte em arco de aço sobre o porto de Sydney, na Austrália, inaugurada em 1932, vizinha da Ópera.",
+          "variantes": [
+            "Sydney Harbour Bridge"
+          ]
+        },
+        {
+          "id": "ponte_da_amizade",
+          "nome": "Ponte da Amizade",
+          "descricao": "Ponte em arco sobre o Rio Paraná que liga Foz do Iguaçu (Brasil) a Ciudad del Este (Paraguai).",
+          "variantes": [
+            "Ponte Internacional da Amizade",
+            "Puente de la Amistad"
+          ]
+        },
+        {
+          "id": "opera_de_sydney",
+          "nome": "Ópera de Sydney",
+          "descricao": "Casa de espetáculos com cobertura em forma de velas no porto de Sydney, na Austrália.",
+          "variantes": [
+            "Sydney Opera House"
+          ]
+        },
+        {
+          "id": "mossdeep",
+          "nome": "Mossdeep",
+          "descricao": "Cidade-ilha da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, onde fica um centro espacial e o ginásio psíquico de Tate e Liza.",
+          "variantes": [
+            "Mossdeep City",
+            "Cidade de Mossdeep"
+          ]
+        },
+        {
+          "id": "hades_hercules",
+          "nome": "Hades (Hércules)",
+          "descricao": "Deus do mundo dos mortos e vilão do filme de animação Hércules, da Disney, de 1997.",
+          "variantes": [
+            "Hades",
+            "Hades da Disney"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estátua equestre de Colleoni",
+        "descricao": "Estátua equestre em bronze do condottiero Bartolomeo Colleoni, em Veneza, feita por Verrocchio entre 1480 e 1488.",
+        "variantes": [
+          "Monumento a Colleoni",
+          "Equestrian statue of Bartolomeo Colleoni"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_equestre_de_d_pedro_i",
+          "nome": "Estátua equestre de D. Pedro I",
+          "descricao": "Monumento de bronze a D. Pedro I a cavalo, na Praça Tiradentes, no centro do Rio de Janeiro, primeira escultura pública do país.",
+          "variantes": [
+            "Monumento a D. Pedro I",
+            "Estátua equestre de Dom Pedro I"
+          ]
+        },
+        {
+          "id": "estatua_equestre_de_marco_aurelio",
+          "nome": "Estátua equestre de Marco Aurélio",
+          "descricao": "Estátua romana de bronze do imperador Marco Aurélio a cavalo, exposta nos Museus Capitolinos, em Roma.",
+          "variantes": [
+            "Equus Marci Aurelii",
+            "Estátua de Marco Aurélio"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "monument_valley",
+          "nome": "Monument Valley",
+          "descricao": "Vale com grandes formações de arenito na fronteira entre Arizona e Utah, nos Estados Unidos, em território navajo.",
+          "variantes": [
+            "Vale dos Monumentos",
+            "Tsé Biiʼ Ndzisgaii"
+          ]
+        },
+        {
+          "id": "estatua_equestre_de_gattamelata",
+          "nome": "Estátua equestre de Gattamelata",
+          "descricao": "Estátua equestre em bronze do condottiere Gattamelata, feita por Donatello em 1453, na Piazza del Santo, em Pádua.",
+          "variantes": [
+            "Gattamelata",
+            "Monumento equestre a Gattamelata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Muro de Berlim",
+        "descricao": "Barreira de concreto que cercou Berlim Ocidental de 1961 a 1989, separando-a de Berlim Oriental.",
+        "variantes": [
+          "Berliner Mauer",
+          "Berlin Wall"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "muro_de_berlim",
+          "nome": "Muro de Berlim",
+          "descricao": "Barreira de concreto que cercou Berlim Ocidental entre 1961 e 1989, separando-a de Berlim Oriental e da Alemanha Oriental.",
+          "variantes": [
+            "Berliner Mauer",
+            "Berlin Wall"
+          ]
+        },
+        {
+          "id": "azul_da_prussia",
+          "nome": "Azul da prússia",
+          "descricao": "Pigmento azul-escuro de ferrocianeto férrico, obtido por acaso no início do século dezoito.",
+          "variantes": [
+            "Azul de Berlim",
+            "Prussian blue"
+          ]
+        },
+        {
+          "id": "pacto_tripartite",
+          "nome": "Pacto Tripartite",
+          "descricao": "Acordo militar assinado em Berlim em setembro de 1940 que formalizou a aliança das potências do Eixo.",
+          "variantes": [
+            "Pacto de Berlim",
+            "Pacto Tripartido"
+          ]
+        },
+        {
+          "id": "bloqueio_de_berlim",
+          "nome": "Bloqueio de Berlim",
+          "descricao": "Bloqueio soviético das vias terrestres para Berlim Ocidental, de junho de 1948 a maio de 1949, uma das primeiras crises da Guerra Fria.",
+          "variantes": [
+            "Berlin Blockade"
+          ]
+        },
+        {
+          "id": "muralha_aureliana",
+          "nome": "Muralha Aureliana",
+          "descricao": "Muralha que cerca Roma, construída a partir de 271 por ordem do imperador Aureliano.",
+          "variantes": [
+            "Muralhas Aurelianas",
+            "Aurelian Walls"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pirâmide do Sol",
+        "descricao": "Maior edifício da antiga cidade de Teotihuacan, no México, construído por volta de 200 d.C.",
+        "variantes": [
+          "Pyramid of the Sun",
+          "Pirámide del Sol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun",
+            "Pirámide del Sol"
+          ]
+        },
+        {
+          "id": "piramide_da_lua",
+          "nome": "Pirâmide da Lua",
+          "descricao": "Segunda maior pirâmide de Teotihuacan, no México, no fim da Avenida dos Mortos.",
+          "variantes": [
+            "Pyramid of the Moon"
+          ]
+        },
+        {
+          "id": "piramide_de_cestio",
+          "nome": "Pirâmide de Céstio",
+          "descricao": "Pirâmide romana funerária de Caio Céstio, junto à Porta San Paolo, em Roma.",
+          "variantes": [
+            "Pirâmide de Caio Céstio",
+            "Piramide Cestia"
+          ]
+        },
+        {
+          "id": "piramide_de_ball",
+          "nome": "Pirâmide de Ball",
+          "descricao": "Ilhéu rochoso vulcânico no Pacífico, a sudeste da Ilha Lord Howe, o maior pináculo vulcânico do mundo.",
+          "variantes": [
+            "Ball's Pyramid"
+          ]
+        },
+        {
+          "id": "pedra_do_sol_asteca",
+          "nome": "Pedra do Sol asteca",
+          "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+          "variantes": [
+            "Calendário Asteca",
+            "Piedra del Sol",
+            "Pedra do Sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Madona de Bruges",
+        "descricao": "Escultura de mármore de Michelangelo, de cerca de 1504, que representa a Virgem com o Menino.",
+        "variantes": [
+          "Madonna of Bruges",
+          "Madona com o Menino de Bruges"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "madona_benois",
+          "nome": "Madona Benois",
+          "descricao": "Pintura de Leonardo da Vinci, c. 1478–1480, no Museu Hermitage, que mostra a Virgem com o Menino e uma flor.",
+          "variantes": [
+            "Madona Benois (Leonardo)",
+            "Virgem Benois",
+            "Madonna com flores",
+            "Benois Madonna"
+          ]
+        },
+        {
+          "id": "madonna_munch",
+          "nome": "Madonna (Munch)",
+          "descricao": "Composição de Edvard Munch, de 1892 a 1895, com figura feminina de busto nu, com várias versões em óleo e litografia.",
+          "variantes": [
+            "Madonna de Munch"
+          ]
+        },
+        {
+          "id": "argentina_x_inglaterra_na_copa_de_1986",
+          "nome": "Argentina x Inglaterra na Copa de 1986",
+          "descricao": "Partida da Copa do Mundo de 1986 em que Maradona marcou o gol de mão e o chamado Gol do Século.",
+          "variantes": [
+            "Mão de Deus",
+            "La mano de Dios",
+            "Argentina 2 x 1 Inglaterra",
+            "Gol da Mão de Deus"
+          ]
+        },
+        {
+          "id": "mao_de_buda",
+          "nome": "Mão-de-buda",
+          "descricao": "Variedade de cidra (Citrus medica var. sarcodactylis) cujo fruto se divide em partes como dedos.",
+          "variantes": [
+            "Cidra-digitada",
+            "Buddha's hand",
+            "Citrus medica var. sarcodactylis"
+          ]
+        },
+        {
+          "id": "salao_dos_recusados",
+          "nome": "Salão dos Recusados",
+          "descricao": "Exposição em Paris das obras rejeitadas pelo júri do Salão oficial, autorizada por Napoleão Terceiro.",
+          "variantes": [
+            "Salon des Refusés"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cabeças olmecas",
+        "descricao": "Cabeças colossais de basalto esculpidas pela civilização olmeca, na Mesoamérica, a partir de cerca de 900 a.C.",
+        "variantes": [
+          "Cabeça colossal olmeca",
+          "Olmec colossal heads"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cabecas_colossais_olmecas",
+          "nome": "Cabeças colossais olmecas",
+          "descricao": "Esculturas monumentais de cabeças em basalto feitas pela civilização olmeca, no sul do México, a partir de cerca de 900 a.C.",
+          "variantes": [
+            "Olmec colossal heads",
+            "Cabeça colossal olmeca"
+          ]
+        },
+        {
+          "id": "cabeca_seca",
+          "nome": "Cabeça-seca",
+          "descricao": "Cegonha Mycteria americana, de plumagem branca e cabeça nua cinza-escura, das Américas.",
+          "variantes": [
+            "Wood stork",
+            "Cegonha-americana"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "cabo_da_boa_esperanca",
+          "nome": "Cabo da Boa Esperança",
+          "descricao": "Promontório rochoso no extremo sudoeste da África do Sul, contornado por Bartolomeu Dias em 1488.",
+          "variantes": [
+            "Cabo das Tormentas",
+            "Cape of Good Hope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "As Três Graças (Canova)",
+        "descricao": "Grupo escultórico neoclássico em mármore, de Antonio Canova, com as três Cárites da mitologia grega.",
+        "variantes": [
+          "The Three Graces",
+          "As Três Graças de Canova"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "os_tres_tenores",
+          "nome": "Os Três Tenores",
+          "descricao": "Trio formado pelos tenores Luciano Pavarotti, Plácido Domingo e José Carreras, que se apresentou em grandes concertos a partir de 1990.",
+          "variantes": [
+            "The Three Tenors"
+          ]
+        },
+        {
+          "id": "bee_gees",
+          "nome": "Bee Gees",
+          "descricao": "Grupo pop formado pelos irmãos Barry, Robin e Maurice Gibb, astros da era disco",
+          "variantes": [
+            "The Bee Gees"
+          ]
+        },
+        {
+          "id": "tres_gargantas_do_yangtze",
+          "nome": "Três Gargantas do Yangtzé",
+          "descricao": "Sequência de três desfiladeiros (Qutang, Wu e Xiling) no curso médio do rio Yangtzé, na China.",
+          "variantes": [
+            "Três Gargantas",
+            "Three Gorges"
+          ]
+        },
+        {
+          "id": "the_boat_race",
+          "nome": "The Boat Race",
+          "descricao": "Regata anual de remo entre as universidades de Oxford e Cambridge.",
+          "variantes": [
+            "Regata Oxford-Cambridge"
+          ]
+        },
+        {
+          "id": "comedie_francaise",
+          "nome": "Comédie-Française",
+          "descricao": "Companhia teatral estatal francesa, fundada em Paris em 1680 por ordem de Luís quatorze.",
+          "variantes": [
+            "Théâtre-Français"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "biblioteca_de_celso",
+      "motivo": "Mesma biblioteca romana de Celso em Éfeso."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a escultura de Rodin."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "ponte_da_baia_de_sydney",
+      "motivo": "Mesma ponte de Sydney, inaugurada em 1932."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Colleoni é distinta de Gattamelata e das demais estátuas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "muro_de_berlim",
+      "motivo": "Mesma barreira de Berlim, 1961-1989."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "piramide_do_sol_teotihuacan",
+      "motivo": "Mesma pirâmide de Teotihuacan."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Escultura de Michelangelo; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "cabecas_colossais_olmecas",
+      "motivo": "Mesmas cabeças colossais olmecas de basalto."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a escultura de Canova."
+    }
+  ]
+}
