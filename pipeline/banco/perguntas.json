@@ -434040,5 +434040,113 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q21827",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "moela",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que parte comestível do sistema digestivo de uma ave é esta?",
+    "resposta": "Moela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gizzard",
+      "https://pt.wikipedia.org/wiki/Moela"
+    ],
+    "imagem": {
+      "arquivo": "q21827.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gesierdecanarddeslandes.jpg",
+      "autor": "Arnaud 25",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q21828",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pimenta_calabresa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tempero é este?",
+    "resposta": "Pimenta calabresa",
+    "distratores": [
+      "Páprica",
+      "Colorau",
+      "Cúrcuma"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crushed_red_pepper"
+    ],
+    "imagem": {
+      "arquivo": "q21828.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chilli_flakes.jpg",
+      "autor": "Takeaway",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q21829",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pepperoni",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que embutido fatiado é este?",
+    "resposta": "Pepperoni",
+    "distratores": [
+      "Chouriço",
+      "Mortadela",
+      "Linguiça calabresa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pepperoni",
+      "https://pt.wikipedia.org/wiki/Pepperoni"
+    ],
+    "imagem": {
+      "arquivo": "q21829.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lamb_pepperoni_cropped.jpg",
+      "autor": "Chiring chandan",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q21830",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tempeh",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que leguminosa é a base deste alimento?",
+    "resposta": "Soja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tempeh",
+      "https://pt.wikipedia.org/wiki/Tempeh"
+    ],
+    "imagem": {
+      "arquivo": "q21830.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tempeh_tempe.jpg",
+      "autor": "Sakurai Midori",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q21831",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tomate_seco",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fruta, depois de seca ao sol, resulta nestes pedaços?",
+    "resposta": "Tomate",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sun-dried_tomato"
+    ],
+    "imagem": {
+      "arquivo": "q21831.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sun-dried_tomatoes.jpg",
+      "autor": "Andrew Deacon",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

@@ -1,0 +1,169 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Moelas de ave fritas, reconhecíveis na frigideira, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que parte comestível do sistema digestivo de uma ave é esta?",
+      "resposta": "Moela",
+      "destino": 0,
+      "ancora": {
+        "nome": "Moela",
+        "descricao": "Estômago muscular das aves, consumido como miúdo.",
+        "variantes": [
+          "Gizzard"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vieira viva com olhos e bordas ondulantes, imagem clara e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que molusco bivalve é este?",
+      "resposta": "Vieira",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vieira",
+        "descricao": "Molusco bivalve marinho da família Pectinidae, apreciado na culinária.",
+        "variantes": [
+          "Scallop",
+          "Coquille Saint-Jacques"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A etiqueta legível na peça diz 'Jamón Ibérico', entregando a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Flocos de pimenta seca com sementes, bem nítidos; múltipla com temperos vermelhos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tempero é este?",
+      "resposta": "Pimenta calabresa",
+      "distratores": [
+        "Páprica",
+        "Colorau",
+        "Cúrcuma"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pimenta calabresa",
+        "descricao": "Condimento de pimentas vermelhas secas e esmigalhadas, com sementes.",
+        "variantes": [
+          "Pimenta em flocos",
+          "Crushed red pepper"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fatias finas de pepperoni na bandeja, características; textos ao fundo estão ilegíveis e não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que embutido fatiado é este?",
+      "resposta": "Pepperoni",
+      "distratores": [
+        "Chouriço",
+        "Mortadela",
+        "Linguiça calabresa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pepperoni",
+        "descricao": "Salame picante norte-americano de porco e boi, temperado com páprica e pimenta.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Blocos de tempeh embrulhados em folha de bananeira, com grãos visíveis; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que leguminosa é a base deste alimento?",
+      "resposta": "Soja",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tempeh",
+        "descricao": "Alimento indonésio feito de soja fermentada por fungo, em bloco compacto.",
+        "variantes": [
+          "Tempê",
+          "Tempe"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A embalagem traz texto ('Tuore Hiiva', 'Färsk jäst') que significa fermento fresco, e o bloco poderia passar por manteiga ou queijo."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Dois cogumelos porcini nítidos, de chapéu marrom e pé robusto, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cogumelo comestível é este?",
+      "resposta": "Porcini (Boletus edulis)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Porcini",
+        "descricao": "Cogumelo comestível Boletus edulis, de chapéu marrom e pé grosso, muito usado na cozinha italiana.",
+        "variantes": [
+          "Boletus edulis",
+          "Cepe",
+          "Cogumelo-de-paris-selvagem",
+          "Funghi porcini"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tomates-cereja secos ao sol, meio a meio, com sementes visíveis, sobre papel branco.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta, depois de seca ao sol, resulta nestes pedaços?",
+      "resposta": "Tomate",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tomate seco",
+        "descricao": "Tomate desidratado, geralmente ao sol, usado como ingrediente e conserva.",
+        "variantes": [
+          "Sun-dried tomato"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Repolho branco cortado em tiras no garfo: não se distingue chucrute de repolho cru, então a resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem mostra cogumelos de chapéu marrom, que são buna-shimeji, não enoki; o enoki cultivado é branco e fino."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vários pacotes de massas diferentes e potes de conservas, com muitos rótulos legíveis ('Fusilloni', 'Penne', 'Pomodori secchi'); é montagem de assuntos múltiplos com texto."
+    }
+  ]
+}

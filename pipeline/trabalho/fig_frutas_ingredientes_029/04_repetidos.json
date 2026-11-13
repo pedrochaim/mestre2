@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que parte comestível do sistema digestivo de uma ave é esta?",
+        "resposta": "Moela"
+      },
+      "existentes": [
+        {
+          "id": "q06525",
+          "pergunta": "Galinhas e muitas outras aves engolem pedrinhas de propósito. Para que servem essas pedras dentro da moela?",
+          "resposta": "Para triturar os alimentos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que molusco bivalve é este?",
+        "resposta": "Vieira"
+      },
+      "existentes": [
+        {
+          "id": "q05512",
+          "pergunta": "Que molusco de duas conchas é este?",
+          "resposta": "Vieira"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que cogumelo comestível é este?",
+        "resposta": "Porcini (Boletus edulis)"
+      },
+      "existentes": [
+        {
+          "id": "q17729",
+          "pergunta": "Que cogumelo comestível é este, de chapéu marrom e poros em vez de lâminas?",
+          "resposta": "Porcini (Boletus edulis)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a moela a partir de imagem; a existente pergunta a função das pedrinhas na moela. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificação (imagem) com a mesma resposta, Vieira, apenas com enunciado ligeiramente diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma identificação do cogumelo porcini, mesma resposta; a existente só acrescenta uma descrição."
+    }
+  ]
+}

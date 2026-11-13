@@ -1,0 +1,440 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Moela",
+        "descricao": "Estômago muscular das aves, consumido como miúdo.",
+        "variantes": [
+          "Gizzard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moela",
+          "nome": "Moela",
+          "descricao": "Parte musculosa do estômago das aves que tritura o alimento, muitas vezes com a ajuda de pedrinhas engolidas.",
+          "variantes": [
+            "Gizzard",
+            "Ventrículo"
+          ]
+        },
+        {
+          "id": "requeima_da_batata",
+          "nome": "Requeima da batata",
+          "descricao": "Doença da batata e do tomate causada pelo oomiceto Phytophthora infestans",
+          "variantes": [
+            "Phytophthora infestans",
+            "mela",
+            "late blight"
+          ]
+        },
+        {
+          "id": "morchella",
+          "nome": "Morchella",
+          "descricao": "Gênero de fungos comestíveis de chapéu alveolado, as morquelas.",
+          "variantes": [
+            "Morquela",
+            "Morel",
+            "Morchella esculenta"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "dente_molar",
+          "nome": "Dente molar",
+          "descricao": "Dente posterior humano com coroa larga de várias cúspides e duas ou mais raízes, usado para triturar alimentos.",
+          "variantes": [
+            "Dente",
+            "Molar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Vieira",
+        "descricao": "Molusco bivalve marinho da família Pectinidae, apreciado na culinária.",
+        "variantes": [
+          "Scallop",
+          "Coquille Saint-Jacques"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vieira",
+          "nome": "Vieira",
+          "descricao": "Molusco bivalve marinho da família Pectinidae, com muitos olhos pequenos na borda do manto.",
+          "variantes": [
+            "Scallop",
+            "Pectinidae"
+          ]
+        },
+        {
+          "id": "caliope",
+          "nome": "Calíope",
+          "descricao": "Musa grega da poesia épica e da eloquência, mãe de Orfeu em algumas versões.",
+          "variantes": [
+            "Calliope",
+            "Kalliope"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "agave_americana",
+          "nome": "Agave-americana",
+          "descricao": "Planta suculenta Agave americana, que floresce uma única vez depois de muitos anos e então morre",
+          "variantes": [
+            "Planta-do-século",
+            "Piteira"
+          ]
+        },
+        {
+          "id": "bandeira_da_baviera",
+          "nome": "Bandeira da Baviera",
+          "descricao": "Bandeira listrada em branco e azul do estado alemão da Baviera.",
+          "variantes": [
+            "Baviera",
+            "Bayern"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pimenta calabresa",
+        "descricao": "Condimento de pimentas vermelhas secas e esmigalhadas, com sementes.",
+        "variantes": [
+          "Pimenta em flocos",
+          "Crushed red pepper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pimenta",
+          "nome": "Pimenta",
+          "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+          "variantes": [
+            "Capsicum",
+            "Pimenta-malagueta"
+          ]
+        },
+        {
+          "id": "pimentao",
+          "nome": "Pimentão",
+          "descricao": "Fruto de Capsicum annuum do grupo Grossum, usado como hortaliça, aqui vermelho.",
+          "variantes": [
+            "Pimentão vermelho",
+            "Bell pepper"
+          ]
+        },
+        {
+          "id": "jalapeno",
+          "nome": "Jalapeño",
+          "descricao": "Pimenta de porte médio da espécie Capsicum annuum, geralmente consumida ainda verde, típica da culinária mexicana.",
+          "variantes": [
+            "Pimenta-jalapenho"
+          ]
+        },
+        {
+          "id": "pimenta_cambuci",
+          "nome": "Pimenta-cambuci",
+          "descricao": "Cultivar de pimenta (Capsicum baccatum var. pendulum) de formato achatado com três ou quatro abas, parecido com um chapéu de bispo.",
+          "variantes": [
+            "Chapéu de bispo",
+            "Pimenta chapéu-de-bispo",
+            "Bishop's crown"
+          ]
+        },
+        {
+          "id": "pimentao_2",
+          "nome": "Pimentão",
+          "descricao": "Fruto de Capsicum annuum do grupo Grossum, hortaliça doce de várias cores.",
+          "variantes": [
+            "Pimentão-doce",
+            "Bell pepper",
+            "Capsicum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pepperoni",
+        "descricao": "Salame picante norte-americano de porco e boi, temperado com páprica e pimenta.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "arven",
+          "nome": "Arven",
+          "descricao": "Aluno da academia de Paldea em Pokémon Scarlet e Violet, cozinheiro e filho do professor da região.",
+          "variantes": [
+            "Pepper"
+          ]
+        },
+        {
+          "id": "fibula",
+          "nome": "Fíbula",
+          "descricao": "Osso fino e longo na face lateral da perna, ao lado da tíbia.",
+          "variantes": [
+            "Perônio"
+          ]
+        },
+        {
+          "id": "pelipper",
+          "nome": "Pelipper",
+          "descricao": "Pokémon dos tipos Água e Voador, número 279 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "dr_pepper",
+          "nome": "Dr Pepper",
+          "descricao": "Refrigerante americano criado em 1885 numa farmácia de Waco, no Texas.",
+          "variantes": [
+            "Doctor Pepper"
+          ]
+        },
+        {
+          "id": "eva_peron",
+          "nome": "Eva Perón",
+          "descricao": "Atriz e política argentina, primeira-dama de 1946 a 1952 e esposa do presidente Juan Perón.",
+          "variantes": [
+            "Evita",
+            "María Eva Duarte de Perón"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tempeh",
+        "descricao": "Alimento indonésio feito de soja fermentada por fungo, em bloco compacto.",
+        "variantes": [
+          "Tempê",
+          "Tempe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tempera",
+          "nome": "Têmpera",
+          "descricao": "Técnica de pintura de secagem rápida, dominante na Europa antes da pintura a óleo, usada em ícones e retábulos.",
+          "variantes": [
+            "Têmpera a ovo"
+          ]
+        },
+        {
+          "id": "cometa_tempel_1",
+          "nome": "Cometa Tempel 1",
+          "descricao": "Cometa da família de Júpiter descoberto em 1867, alvo da missão Deep Impact.",
+          "variantes": [
+            "9P/Tempel",
+            "Tempel 1"
+          ]
+        },
+        {
+          "id": "tempura",
+          "nome": "Tempurá",
+          "descricao": "Técnica japonesa de fritura de legumes e frutos do mar envoltos em massa leve",
+          "variantes": []
+        },
+        {
+          "id": "meme",
+          "nome": "Meme",
+          "descricao": "Unidade de ideia ou comportamento que se transmite culturalmente, conceito criado em 1976.",
+          "variantes": [
+            "Meme (conceito)"
+          ]
+        },
+        {
+          "id": "espada_esgrima",
+          "nome": "Espada (esgrima)",
+          "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+          "variantes": [
+            "Épée",
+            "Espada de esgrima"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Porcini",
+        "descricao": "Cogumelo comestível Boletus edulis, de chapéu marrom e pé grosso, muito usado na cozinha italiana.",
+        "variantes": [
+          "Boletus edulis",
+          "Cepe",
+          "Cogumelo-de-paris-selvagem",
+          "Funghi porcini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boletus_edulis",
+          "nome": "Boletus edulis",
+          "descricao": "Cogumelo comestível de chapéu marrom e poros em vez de lâminas, conhecido como porcini ou cepe.",
+          "variantes": [
+            "Porcini",
+            "Cepe",
+            "Cogumelo-de-paris-marrom",
+            "Penny bun"
+          ]
+        },
+        {
+          "id": "champignon",
+          "nome": "Champignon",
+          "descricao": "Cogumelo cultivado branco, Agaricus bisporus, o mais consumido no mundo.",
+          "variantes": [
+            "Champignon de Paris",
+            "Agaricus bisporus",
+            "Cogumelo-de-paris"
+          ]
+        },
+        {
+          "id": "candido_portinari",
+          "nome": "Candido Portinari",
+          "descricao": "Pintor brasileiro, nascido em Brodowski em 1903 e morto em 1962, autor de Os Retirantes e dos painéis Guerra e Paz.",
+          "variantes": [
+            "Portinari"
+          ]
+        },
+        {
+          "id": "espada_esgrima",
+          "nome": "Espada (esgrima)",
+          "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+          "variantes": [
+            "Épée",
+            "Espada de esgrima"
+          ]
+        },
+        {
+          "id": "creeper",
+          "nome": "Creeper",
+          "descricao": "Criatura verde que explode ao se aproximar do jogador no jogo Minecraft.",
+          "variantes": [
+            "Creeper (Minecraft)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tomate seco",
+        "descricao": "Tomate desidratado, geralmente ao sol, usado como ingrediente e conserva.",
+        "variantes": [
+          "Sun-dried tomato"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tomate",
+          "nome": "Tomate",
+          "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+          "variantes": [
+            "Tomate-cereja",
+            "Tomato",
+            "Solanum lycopersicum"
+          ]
+        },
+        {
+          "id": "romanesco",
+          "nome": "Romanesco",
+          "descricao": "Hortaliça verde-limão, cultivar de couve-flor (Brassica oleracea), de botões em forma de fractal.",
+          "variantes": [
+            "Brócolis romanesco",
+            "Couve-flor romanesca"
+          ]
+        },
+        {
+          "id": "corto_maltese",
+          "nome": "Corto Maltese",
+          "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+          "variantes": [
+            "Corto"
+          ]
+        },
+        {
+          "id": "maltes",
+          "nome": "Maltês",
+          "descricao": "Língua semítica oficial de Malta, escrita com o alfabeto latino.",
+          "variantes": [
+            "Língua maltesa",
+            "Maltese"
+          ]
+        },
+        {
+          "id": "tomate_cereja",
+          "nome": "Tomate-cereja",
+          "descricao": "Variedade de tomate pequeno e redondo, geralmente vermelho, da variedade botânica Solanum lycopersicum var. cerasiforme.",
+          "variantes": [
+            "Cherry tomato",
+            "Tomatinho"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "moela",
+      "motivo": "Mesma entidade: moela, estômago muscular das aves."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "vieira",
+      "motivo": "Mesmo molusco bivalve Pectinidae."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pimenta calabresa é condimento em flocos, distinto das pimentas frescas e pimentão."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o salame pepperoni."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tempeh é alimento de soja; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "boletus_edulis",
+      "motivo": "Porcini é o Boletus edulis, mesmo cogumelo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tomate seco é produto desidratado, diferente do tomate fresco."
+    }
+  ]
+}
