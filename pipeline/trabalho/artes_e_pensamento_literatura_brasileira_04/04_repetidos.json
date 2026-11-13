@@ -1,0 +1,962 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Logo no início de Memórias Póstumas, Brás Cubas conta que morreu em 1869, rijo e próspero. Com quantos anos?",
+        "resposta": "Sessenta e quatro anos"
+      },
+      "existentes": [
+        {
+          "id": "q02896",
+          "pergunta": "Em Memórias Póstumas, o defunto narrador conta que pegou a pneumonia que o matou ao andar obcecado com a invenção de que remédio?",
+          "resposta": "Emplasto Brás Cubas"
+        },
+        {
+          "id": "q02897",
+          "pergunta": "O romance de Machado de Assis narrado por um defunto, considerado marco inicial do Realismo no Brasil, foi lançado em livro em que ano?",
+          "resposta": "1881"
+        },
+        {
+          "id": "q11668",
+          "pergunta": "Logo na abertura de suas memórias, o defunto Brás Cubas as dedica, como saudosa lembrança, a quem?",
+          "resposta": "Ao verme que primeiro roeu seu cadáver"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No romance Senhora, de José de Alencar, a rica Aurélia compra Fernando Seixas como marido oferecendo um dote de quanto?",
+        "resposta": "Cem contos de réis"
+      },
+      "existentes": [
+        {
+          "id": "q11663",
+          "pergunta": "Qual destes romances de José de Alencar se passa na alta sociedade do Rio de Janeiro, longe das matas e dos sertões?",
+          "resposta": "Senhora"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em A Moreninha, o estudante Augusto aposta com os amigos que nunca amará a mesma moça por mais de quantos dias?",
+        "resposta": "Quinze dias"
+      },
+      "existentes": [
+        {
+          "id": "q02924",
+          "pergunta": "Que médico e escritor publicou em 1844 A Moreninha, romance romântico ambientado numa ilha da baía de Guanabara?",
+          "resposta": "Joaquim Manuel de Macedo"
+        },
+        {
+          "id": "q06025",
+          "pergunta": "Qual destes romances românticos brasileiros foi publicado primeiro?",
+          "resposta": "A Moreninha"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Apesar do nome, a Semana de Arte Moderna de 1922 teve seus espetáculos de palco, os chamados festivais, em quantos dias?",
+        "resposta": "Três dias"
+      },
+      "existentes": [
+        {
+          "id": "q00158",
+          "pergunta": "A Semana de Arte Moderna foi realizada em 1922, ano escolhido por coincidir com qual comemoração nacional?",
+          "resposta": "Centenário da Independência"
+        },
+        {
+          "id": "q03414",
+          "pergunta": "Em que teatro paulistano aconteceu a Semana de Arte Moderna de 1922?",
+          "resposta": "Theatro Municipal de São Paulo"
+        },
+        {
+          "id": "q13715",
+          "pergunta": "Que compositor carioca, depois famoso pelas Bachianas Brasileiras, apresentou suas músicas na Semana de Arte Moderna de 1922?",
+          "resposta": "Heitor Villa-Lobos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O baiano Castro Alves, o Poeta dos Escravos, morreu de tuberculose em 1871. Quantos anos ele tinha?",
+        "resposta": "Vinte e quatro anos"
+      },
+      "existentes": [
+        {
+          "id": "q02909",
+          "pergunta": "Em 1868, um tiro acidental de espingarda durante uma caçada levou à amputação de que parte do corpo do poeta Castro Alves?",
+          "resposta": "O pé esquerdo"
+        },
+        {
+          "id": "q04188",
+          "pergunta": "Que poeta brasileiro do século dezenove aparece nesta foto?",
+          "resposta": "Castro Alves"
+        },
+        {
+          "id": "q06032",
+          "pergunta": "Por seus versos contra a escravidão, como em O Navio Negreiro, Castro Alves ficou conhecido por que apelido?",
+          "resposta": "Poeta dos Escravos"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Vinicius de Moraes, autor do Soneto de Fidelidade, casou-se quantas vezes ao longo da vida?",
+        "resposta": "Nove vezes"
+      },
+      "existentes": [
+        {
+          "id": "q01189",
+          "pergunta": "Longe da música, que carreira Vinicius de Moraes seguiu, a mesma do escritor Guimarães Rosa?",
+          "resposta": "Diplomata"
+        },
+        {
+          "id": "q05409",
+          "pergunta": "O poeta e diplomata Vinicius de Moraes foi aposentado à força do Itamaraty por qual ato da ditadura militar?",
+          "resposta": "O AI-5"
+        },
+        {
+          "id": "q11486",
+          "pergunta": "Qual era o apelido carinhoso deste compositor e diplomata brasileiro?",
+          "resposta": "Poetinha"
+        },
+        {
+          "id": "q17189",
+          "pergunta": "O poeta que pediu que o amor fosse infinito enquanto dure, Vinicius de Moraes, casou-se quantas vezes?",
+          "resposta": "Nove"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Clarice Lispector nasceu num dez de dezembro e morreu num nove de dezembro, em 1977. Que idade ela completaria no dia seguinte?",
+        "resposta": "Cinquenta e sete anos"
+      },
+      "existentes": [
+        {
+          "id": "q02902",
+          "pergunta": "Em 1966, Clarice Lispector sofreu queimaduras graves, sobretudo na mão direita, num incêndio em seu quarto. O que o provocou?",
+          "resposta": "Dormiu com um cigarro aceso"
+        },
+        {
+          "id": "q02903",
+          "pergunta": "Clarice Lispector chegou ao Brasil ainda bebê, com a família fugindo de perseguições. Em que país ela nasceu?",
+          "resposta": "Ucrânia"
+        },
+        {
+          "id": "q06400",
+          "pergunta": "Esta escritora estreou em 1943 com qual romance?",
+          "resposta": "Perto do Coração Selvagem"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Segundo Os Sertões, de Euclides da Cunha, quantas expedições militares foram enviadas contra Canudos até a destruição do arraial?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q06014",
+          "pergunta": "Em Os Sertões, Euclides da Cunha narra a destruição, pelo Exército, de que arraial do sertão baiano liderado por Antônio Conselheiro?",
+          "resposta": "Canudos"
+        },
+        {
+          "id": "q06045",
+          "pergunta": "Os Sertões, de Euclides da Cunha, é dividido em três partes. As duas primeiras são A Terra e O Homem. Qual é a terceira?",
+          "resposta": "A Luta"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O título Urupês, livro de contos de Monteiro Lobato que apresenta o Jeca Tatu, é o nome popular de quê?",
+        "resposta": "Um fungo, orelha-de-pau"
+      },
+      "existentes": [
+        {
+          "id": "q11660",
+          "pergunta": "Monteiro Lobato ficou famoso pelos livros infantis. Qual destes livros dele, lançado em 1918, foi escrito para leitores adultos?",
+          "resposta": "Urupês"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Ao chegar ao Brasil, a família de Clarice Lispector adotou nomes brasileiros. Que nome judaico a escritora recebeu ao nascer?",
+        "resposta": "Chaya"
+      },
+      "existentes": [
+        {
+          "id": "q02902",
+          "pergunta": "Em 1966, Clarice Lispector sofreu queimaduras graves, sobretudo na mão direita, num incêndio em seu quarto. O que o provocou?",
+          "resposta": "Dormiu com um cigarro aceso"
+        },
+        {
+          "id": "q02903",
+          "pergunta": "Clarice Lispector chegou ao Brasil ainda bebê, com a família fugindo de perseguições. Em que país ela nasceu?",
+          "resposta": "Ucrânia"
+        },
+        {
+          "id": "q06400",
+          "pergunta": "Esta escritora estreou em 1943 com qual romance?",
+          "resposta": "Perto do Coração Selvagem"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em Iracema, de José de Alencar, o filho da índia com o português Martim recebe um nome que, segundo o autor, significa filho do sofrimento. Qual?",
+        "resposta": "Moacir"
+      },
+      "existentes": [
+        {
+          "id": "q02888",
+          "pergunta": "O nome Iracema, a virgem dos lábios de mel de José de Alencar, tem exatamente as mesmas letras de que palavra?",
+          "resposta": "América"
+        },
+        {
+          "id": "q11682",
+          "pergunta": "José de Alencar descreve Iracema, a virgem dos lábios de mel, com cabelos mais negros que a asa de que pássaro?",
+          "resposta": "Graúna"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A jovem apelidada de Moreninha, no romance de Joaquim Manuel de Macedo, é irmã do amigo de Augusto. Qual é o nome dela?",
+        "resposta": "Carolina"
+      },
+      "existentes": [
+        {
+          "id": "q02924",
+          "pergunta": "Que médico e escritor publicou em 1844 A Moreninha, romance romântico ambientado numa ilha da baía de Guanabara?",
+          "resposta": "Joaquim Manuel de Macedo"
+        },
+        {
+          "id": "q06025",
+          "pergunta": "Qual destes romances românticos brasileiros foi publicado primeiro?",
+          "resposta": "A Moreninha"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Carolina Maria de Jesus comparou São Paulo a uma casa, em que o Palácio do governo era a sala de visita. Que lugar ela chamou de quarto de despejo?",
+        "resposta": "A favela"
+      },
+      "existentes": [
+        {
+          "id": "q02920",
+          "pergunta": "Quarto de Despejo, de Carolina Maria de Jesus, é o diário da vida dela em que favela paulistana?",
+          "resposta": "Canindé"
+        },
+        {
+          "id": "q11701",
+          "pergunta": "Quarto de Despejo, diário de Carolina Maria de Jesus, chegou às livrarias no mesmo ano da inauguração de Brasília. Que ano foi esse?",
+          "resposta": "1960"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Mário de Andrade e Oswald de Andrade lideraram juntos o Modernismo paulista. Que parentesco havia entre os dois?",
+        "resposta": "Nenhum"
+      },
+      "existentes": [
+        {
+          "id": "q02926",
+          "pergunta": "Mário de Andrade contou ter escrito a primeira versão de Macunaíma, numa chácara em Araraquara, em quantos dias de rede, cigarros e cigarras?",
+          "resposta": "Seis dias"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Guimarães Rosa nasceu em 1908, o mesmo ano em que morreu que grande escritor brasileiro?",
+        "resposta": "Machado de Assis"
+      },
+      "existentes": [
+        {
+          "id": "q02901",
+          "pergunta": "Guimarães Rosa adiou por quatro anos sua posse na Academia Brasileira de Letras. Que medo ele alegava?",
+          "resposta": "De morrer de emoção"
+        },
+        {
+          "id": "q06019",
+          "pergunta": "Guimarães Rosa nasceu numa pequena cidade mineira, perto de uma famosa gruta, que hoje tem um museu dedicado a ele. Qual é essa cidade?",
+          "resposta": "Cordisburgo"
+        },
+        {
+          "id": "q06028",
+          "pergunta": "Em novembro de 1967, depois de anos adiando, Guimarães Rosa finalmente tomou posse na Academia Brasileira de Letras. Quanto tempo depois ele morreu?",
+          "resposta": "Três dias depois"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O dramaturgo maranhense Artur Azevedo, autor da peça A Capital Federal, tinha que parentesco com o romancista de O Cortiço?",
+        "resposta": "Era seu irmão"
+      },
+      "existentes": [
+        {
+          "id": "q08661",
+          "pergunta": "Qual destes romances foi escrito pelo autor deste retrato?",
+          "resposta": "O Cortiço"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em 1963, Vidas Secas, de Graciliano Ramos, virou um filme marcante do Cinema Novo. Quem o dirigiu?",
+        "resposta": "Nelson Pereira dos Santos"
+      },
+      "existentes": [
+        {
+          "id": "q06044",
+          "pergunta": "Em Vidas Secas, de Graciliano Ramos, que nome tem a cachorra da família do vaqueiro Fabiano?",
+          "resposta": "Baleia"
+        },
+        {
+          "id": "q11681",
+          "pergunta": "Em Vidas Secas, de Graciliano Ramos, a cachorra da família tem nome. Que traço curioso têm, ao contrário dela, os dois filhos de Fabiano e Sinhá Vitória?",
+          "resposta": "Não têm nome"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Que atriz viveu Gabriela, a retirante de Jorge Amado, tanto na novela da Globo de 1975 quanto no filme de 1983?",
+        "resposta": "Sônia Braga"
+      },
+      "existentes": [
+        {
+          "id": "q06021",
+          "pergunta": "Gabriela, Cravo e Canela, de Jorge Amado, se passa nos anos 1920, na época de ouro do cacau, em que cidade baiana?",
+          "resposta": "Ilhéus"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "No filme O Auto da Compadecida, de 2000, dirigido por Guel Arraes, que ator interpretou o esperto João Grilo?",
+        "resposta": "Matheus Nachtergaele"
+      },
+      "existentes": [
+        {
+          "id": "q02921",
+          "pergunta": "Em que pequena cidade do sertão paraibano se passa o Auto da Compadecida, de Ariano Suassuna?",
+          "resposta": "Taperoá"
+        },
+        {
+          "id": "q03388",
+          "pergunta": "Na peça Auto da Compadecida, de Ariano Suassuna, quem é a Compadecida do título?",
+          "resposta": "Nossa Senhora"
+        },
+        {
+          "id": "q03421",
+          "pergunta": "No Auto da Compadecida, que amigo de João Grilo vive contando histórias absurdas e repete não sei, só sei que foi assim?",
+          "resposta": "Chicó"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "A Semana de Arte Moderna aconteceu em 1922, ano em que o Brasil comemorava o centenário de que acontecimento?",
+        "resposta": "Da Independência do Brasil"
+      },
+      "existentes": [
+        {
+          "id": "q00158",
+          "pergunta": "A Semana de Arte Moderna foi realizada em 1922, ano escolhido por coincidir com qual comemoração nacional?",
+          "resposta": "Centenário da Independência"
+        },
+        {
+          "id": "q03414",
+          "pergunta": "Em que teatro paulistano aconteceu a Semana de Arte Moderna de 1922?",
+          "resposta": "Theatro Municipal de São Paulo"
+        },
+        {
+          "id": "q13715",
+          "pergunta": "Que compositor carioca, depois famoso pelas Bachianas Brasileiras, apresentou suas músicas na Semana de Arte Moderna de 1922?",
+          "resposta": "Heitor Villa-Lobos"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "No romance de Lima Barreto, o major Policarpo Quaresma apoia com fervor que presidente na Revolta da Armada, e acaba preso pelo governo dele?",
+        "resposta": "Floriano Peixoto"
+      },
+      "existentes": [
+        {
+          "id": "q02898",
+          "pergunta": "Num romance de Lima Barreto, o patriótico major Policarpo Quaresma vira motivo de chacota ao pedir que o Brasil adote qual língua oficial?",
+          "resposta": "Tupi"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Machado de Assis nasceu em 1839, filho de um pintor de paredes, numa chácara de que morro do Rio de Janeiro?",
+        "resposta": "Morro do Livramento"
+      },
+      "existentes": [
+        {
+          "id": "q02235",
+          "pergunta": "Que escritor brasileiro do século dezenove é este?",
+          "resposta": "Machado de Assis"
+        },
+        {
+          "id": "q02885",
+          "pergunta": "Que apelido Machado de Assis recebeu, a partir do nome da rua carioca onde morou até morrer?",
+          "resposta": "Bruxo do Cosme Velho"
+        },
+        {
+          "id": "q02886",
+          "pergunta": "Ao ajudar a fundar a Academia Brasileira de Letras, Machado de Assis escolheu que romancista romântico como patrono da sua cadeira?",
+          "resposta": "José de Alencar"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Em fevereiro de 1922, em que teatro paulistano aconteceu a Semana de Arte Moderna?",
+        "resposta": "Theatro Municipal de São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q00158",
+          "pergunta": "A Semana de Arte Moderna foi realizada em 1922, ano escolhido por coincidir com qual comemoração nacional?",
+          "resposta": "Centenário da Independência"
+        },
+        {
+          "id": "q03414",
+          "pergunta": "Em que teatro paulistano aconteceu a Semana de Arte Moderna de 1922?",
+          "resposta": "Theatro Municipal de São Paulo"
+        },
+        {
+          "id": "q13715",
+          "pergunta": "Que compositor carioca, depois famoso pelas Bachianas Brasileiras, apresentou suas músicas na Semana de Arte Moderna de 1922?",
+          "resposta": "Heitor Villa-Lobos"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "No grande romance de Guimarães Rosa, o jagunço Riobaldo vai à meia-noite a uma encruzilhada tentar um pacto com o diabo. Como se chama esse lugar?",
+        "resposta": "Veredas-Mortas"
+      },
+      "existentes": [
+        {
+          "id": "q02922",
+          "pergunta": "Que palavra antiga, que significa coisa sem importância, abre o romance Grande Sertão Veredas, de Guimarães Rosa?",
+          "resposta": "Nonada"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Em que cidade fictícia gaúcha se passa grande parte de O Tempo e o Vento, a saga da família Terra Cambará?",
+        "resposta": "Santa Fé"
+      },
+      "existentes": [
+        {
+          "id": "q11671",
+          "pergunta": "A trilogia O Tempo e o Vento, de Erico Verissimo, começa com O Continente e termina com O Arquipélago. Qual é o volume do meio?",
+          "resposta": "O Retrato"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Em Dom Casmurro, que amigo de seminário de Bentinho tem uma semelhança com o menino Ezequiel que alimenta o ciúme do narrador?",
+        "resposta": "Escobar"
+      },
+      "existentes": [
+        {
+          "id": "q02887",
+          "pergunta": "Em Dom Casmurro, Bento Santiago ganha esse apelido de um jovem poeta, ofendido porque Bento fez o quê enquanto ouvia seus versos no trem?",
+          "resposta": "Cochilou"
+        },
+        {
+          "id": "q06039",
+          "pergunta": "Em Dom Casmurro, por que o jovem Bentinho é mandado para o seminário, mesmo apaixonado por Capitu?",
+          "resposta": "Por uma promessa da mãe"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Em A Hora da Estrela, a história da datilógrafa Macabéa é contada por um escritor fictício. Como ele se chama?",
+        "resposta": "Rodrigo S.M."
+      },
+      "existentes": [
+        {
+          "id": "q06017",
+          "pergunta": "Em A Hora da Estrela, de Clarice Lispector, a datilógrafa Macabéa vive no Rio de Janeiro, mas nasceu em que estado nordestino?",
+          "resposta": "Alagoas"
+        },
+        {
+          "id": "q06027",
+          "pergunta": "O romance A Hora da Estrela foi lançado no mesmo ano de que acontecimento na vida de sua autora, Clarice Lispector?",
+          "resposta": "A morte dela"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Em Gabriela, Cravo e Canela, o árabe Nacib contrata a retirante como cozinheira do seu bar em Ilhéus. Como se chama o bar?",
+        "resposta": "Vesúvio"
+      },
+      "existentes": [
+        {
+          "id": "q06021",
+          "pergunta": "Gabriela, Cravo e Canela, de Jorge Amado, se passa nos anos 1920, na época de ouro do cacau, em que cidade baiana?",
+          "resposta": "Ilhéus"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Em O Cortiço, quem é o português ambicioso que enriquece com a estalagem, explorando o trabalho da escrava Bertoleza?",
+        "resposta": "João Romão"
+      },
+      "existentes": [
+        {
+          "id": "q06005",
+          "pergunta": "Em 1890, que escritor maranhense publicou O Cortiço, romance naturalista sobre os moradores de uma habitação coletiva no Rio de Janeiro?",
+          "resposta": "Aluísio Azevedo"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "No julgamento final da peça de Ariano Suassuna, quem é a Compadecida que intercede pelos mortos diante de Jesus?",
+        "resposta": "Nossa Senhora"
+      },
+      "existentes": [
+        {
+          "id": "q02921",
+          "pergunta": "Em que pequena cidade do sertão paraibano se passa o Auto da Compadecida, de Ariano Suassuna?",
+          "resposta": "Taperoá"
+        },
+        {
+          "id": "q03388",
+          "pergunta": "Na peça Auto da Compadecida, de Ariano Suassuna, quem é a Compadecida do título?",
+          "resposta": "Nossa Senhora"
+        },
+        {
+          "id": "q03421",
+          "pergunta": "No Auto da Compadecida, que amigo de João Grilo vive contando histórias absurdas e repete não sei, só sei que foi assim?",
+          "resposta": "Chicó"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Monteiro Lobato disse que o Jeca Tatu não é assim, está assim, apontando uma verminose que deixa a pele pálida. Qual?",
+        "resposta": "Ancilostomíase (amarelão)"
+      },
+      "existentes": [
+        {
+          "id": "q01078",
+          "pergunta": "O caipira Jeca Tatu, que Mazzaropi levou às telas de cinema, foi criado por qual escritor brasileiro?",
+          "resposta": "Monteiro Lobato"
+        },
+        {
+          "id": "q06036",
+          "pergunta": "O caipira Jeca Tatu, de Monteiro Lobato, virou garoto-propaganda num almanaque distribuído aos milhões por que famoso fortificante?",
+          "resposta": "Biotônico Fontoura"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Ariano Suassuna nasceu em 1927 num palácio de João Pessoa. Por que a família dele morava ali?",
+        "resposta": "O pai governava a Paraíba"
+      },
+      "existentes": [
+        {
+          "id": "q08663",
+          "pergunta": "Que escritor brasileiro é este?",
+          "resposta": "Ariano Suassuna"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "No fim de Morte e Vida Severina, o retirante pensa em se atirar no Capibaribe, mas é interrompido pela notícia de quê?",
+        "resposta": "Do nascimento de uma criança"
+      },
+      "existentes": [
+        {
+          "id": "q02914",
+          "pergunta": "Em 1965, a montagem de Morte e Vida Severina pelo teatro da PUC de São Paulo ganhou música de que jovem compositor?",
+          "resposta": "Chico Buarque"
+        },
+        {
+          "id": "q06023",
+          "pergunta": "Em Morte e Vida Severina, o retirante Severino desce do sertão até o Recife acompanhando o curso de que rio?",
+          "resposta": "Capibaribe"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Que exclamação, repetida desde a infância pelo herói sem nenhum caráter, virou a marca registrada de Macunaíma?",
+        "resposta": "Ai, que preguiça!"
+      },
+      "existentes": [
+        {
+          "id": "q02905",
+          "pergunta": "Em Macunaíma, de Mário de Andrade, o herói viaja até São Paulo para recuperar que amuleto, presente de sua amada Ci?",
+          "resposta": "Muiraquitã"
+        },
+        {
+          "id": "q11690",
+          "pergunta": "No filme Macunaíma, de 1969, o herói nasce negro e depois fica branco. Que ator, famoso parceiro de Oscarito, interpretou a primeira fase?",
+          "resposta": "Grande Otelo"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Numa de suas frases mais célebres, Euclides da Cunha escreveu em Os Sertões que o sertanejo é, antes de tudo, o quê?",
+        "resposta": "Um forte"
+      },
+      "existentes": [
+        {
+          "id": "q06014",
+          "pergunta": "Em Os Sertões, Euclides da Cunha narra a destruição, pelo Exército, de que arraial do sertão baiano liderado por Antônio Conselheiro?",
+          "resposta": "Canudos"
+        },
+        {
+          "id": "q06045",
+          "pergunta": "Os Sertões, de Euclides da Cunha, é dividido em três partes. As duas primeiras são A Terra e O Homem. Qual é a terceira?",
+          "resposta": "A Luta"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Que filosofia, resumida na frase ao vencedor, as batatas, é criada pelo personagem Quincas Borba, de Machado de Assis?",
+        "resposta": "Humanitismo"
+      },
+      "existentes": [
+        {
+          "id": "q06030",
+          "pergunta": "No romance de Machado de Assis, o filósofo Quincas Borba deixa sua herança a Rubião com a condição de cuidar de quem, que tem o mesmo nome dele?",
+          "resposta": "O cachorro dele"
+        },
+        {
+          "id": "q11662",
+          "pergunta": "Machado de Assis gostava de narradores que falam de si mesmos. Qual destes romances dele é narrado em terceira pessoa?",
+          "resposta": "Quincas Borba"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "No Poeminho do Contra, Mário Quintana diz que todos os que atravancam seu caminho passarão. E ele, o que é?",
+        "resposta": "Passarinho"
+      },
+      "existentes": [
+        {
+          "id": "q11696",
+          "pergunta": "O poeta Mário Quintana morou por anos num quarto de hotel no centro de Porto Alegre, que hoje é um centro cultural com o nome dele. Que hotel era?",
+          "resposta": "Hotel Majestic"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Tendo Machado de Assis como primeiro presidente, a Academia Brasileira de Letras foi fundada em que ano?",
+        "resposta": "1897"
+      },
+      "existentes": [
+        {
+          "id": "q04770",
+          "pergunta": "Fundada em 1897 para cultivar a língua e a literatura, a Academia Brasileira de Letras teve qual escritor como seu primeiro presidente?",
+          "resposta": "Machado de Assis"
+        },
+        {
+          "id": "q06031",
+          "pergunta": "A sede da Academia Brasileira de Letras, doada pela França, é uma réplica de um palacete do parque de Versalhes e leva o mesmo nome. Qual?",
+          "resposta": "Petit Trianon"
+        },
+        {
+          "id": "q06046",
+          "pergunta": "Seguindo o modelo da Academia Francesa, a Academia Brasileira de Letras tem quantas cadeiras de membros efetivos?",
+          "resposta": "Quarenta"
+        },
+        {
+          "id": "q19215",
+          "pergunta": "A Academia Brasileira de Letras seguiu o modelo de uma academia estrangeira, cujos membros também são chamados de imortais. De que país?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Em vez do calendário cristão, o Manifesto Antropófago de Oswald de Andrade é datado do ano 374 da deglutição de quem?",
+        "resposta": "Do Bispo Sardinha"
+      },
+      "existentes": [
+        {
+          "id": "q02906",
+          "pergunta": "Que quadro de Tarsila do Amaral, dado de presente a Oswald de Andrade, inspirou o Manifesto Antropófago?",
+          "resposta": "Abaporu"
+        },
+        {
+          "id": "q02907",
+          "pergunta": "Que frase em inglês do Manifesto Antropófago, de Oswald de Andrade, parodia o famoso dilema de Hamlet?",
+          "resposta": "Tupi or not tupi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Idade de morte do narrador é fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Valor do dote vs. ambientação."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Aposta dos dias é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Número de dias dos festivais é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Idade na morte é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo número de casamentos.",
+      "id_existente": "q17189"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Idade que completaria; fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Número de expedições é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Significado do título Urupês, outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nome judaico de nascimento é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nome do filho é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nome da personagem é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Significado da metáfora quarto de despejo; existentes perguntam outra coisa."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Parentesco é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Ano de nascimento coincidindo com morte de Machado é outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Parentesco entre Artur Azevedo e Aluísio é outro fato."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Diretor do filme é outro fato."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Atriz é outro fato."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Ator do filme é outro fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: centenário da Independência.",
+      "id_existente": "q00158"
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Presidente apoiado, outro fato."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Morro de nascimento é outro fato."
+    },
+    {
+      "caso": 23,
+      "decisao": "repete",
+      "motivo": "Mesmo teatro.",
+      "id_existente": "q03414"
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Local do pacto é outro fato."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Cidade fictícia é outro fato."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Escobar é outro fato."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Narrador fictício é outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Nome do bar é outro fato."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Personagem João Romão é outro fato."
+    },
+    {
+      "caso": 30,
+      "decisao": "repete",
+      "motivo": "Quem é a Compadecida: Nossa Senhora.",
+      "id_existente": "q03388"
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Verminose é outro fato."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Motivo do nascimento no palácio é outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Final da obra é outro fato."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Exclamação é outro fato."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Frase célebre é outro fato."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Filosofia Humanitismo é outro fato."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Poema é outro fato."
+    },
+    {
+      "caso": 38,
+      "decisao": "repete",
+      "motivo": "Ano de fundação já está no enunciado da existente.",
+      "id_existente": "q04770"
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Data do manifesto/Bispo Sardinha é outro fato."
+    }
+  ]
+}
