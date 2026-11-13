@@ -1,0 +1,1060 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "escala_richter",
+        "nome": "Escala Richter",
+        "descricao": "Escala logarítmica de magnitude de terremotos, apresentada em 1935.",
+        "variantes": [
+          "Escala de Richter"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Richter_scale"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na escala Richter, cada ponto a mais de magnitude indica ondas sísmicas com amplitude quantas vezes maior?",
+      "resposta": "Dez vezes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Richter_scale"
+      ],
+      "distratores": [
+        "Duas vezes",
+        "Cem vezes",
+        "Mil vezes"
+      ],
+      "ancora": "escala_richter"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "escala_de_mercalli",
+        "nome": "Escala de Mercalli",
+        "descricao": "Escala que mede a intensidade de um terremoto pelos efeitos sentidos e pelos estragos causados.",
+        "variantes": [
+          "Escala de Mercalli modificada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Modified_Mercalli_intensity_scale"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A escala de Mercalli modificada, que mede os terremotos pelos estragos, vai do grau um até qual grau, o da destruição total?",
+      "resposta": "Doze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Modified_Mercalli_intensity_scale"
+      ],
+      "distratores": [
+        "Dez",
+        "Nove",
+        "Vinte"
+      ],
+      "ancora": "escala_de_mercalli"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "erupcao_do_krakatoa_de_1883",
+        "nome": "Erupção do Krakatoa de 1883",
+        "descricao": "Erupção catastrófica do vulcão Krakatoa, na Indonésia, em agosto de 1883.",
+        "variantes": [
+          "Erupção do Cracatoa",
+          "Krakatau 1883"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 1883, o estrondo da erupção do Krakatoa foi ouvido a cerca de quantos quilômetros de distância?",
+      "resposta": "Quase cinco mil quilômetros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+      ],
+      "distratores": [
+        "Cerca de cem quilômetros",
+        "Cerca de quinhentos quilômetros",
+        "Cerca de mil quilômetros"
+      ],
+      "ancora": "erupcao_do_krakatoa_de_1883"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "terremoto_de_valdivia_de_1960",
+        "nome": "Terremoto de Valdivia de 1960",
+        "descricao": "Terremoto de magnitude 9,5 que atingiu o sul do Chile em 22 de maio de 1960.",
+        "variantes": [
+          "Grande Terremoto do Chile"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Medido pelos sismógrafos, o terremoto de Valdivia, que atingiu o sul do Chile em 1960, teve qual magnitude?",
+      "resposta": "Nove e meio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake"
+      ],
+      "distratores": [
+        "Sete e meio",
+        "Oito e meio",
+        "Dez e meio"
+      ],
+      "ancora": "terremoto_de_valdivia_de_1960"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Cratera de Chicxulub",
+        "descricao": "Cratera de impacto enterrada sob a península de Iucatã, no México, ligada à extinção em massa do fim do Cretáceo.",
+        "variantes": [
+          "Chicxulub"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chicxulub_crater",
+          "https://pt.wikipedia.org/wiki/Cratera_de_Chicxulub"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O asteroide que abriu a cratera de Chicxulub e ajudou a extinguir os dinossauros tinha cerca de quantos quilômetros de diâmetro?",
+      "resposta": "Cerca de dez quilômetros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chicxulub_impactor",
+        "https://en.wikipedia.org/wiki/Chicxulub_crater"
+      ],
+      "distratores": [
+        "Cerca de cem metros",
+        "Cerca de cem quilômetros",
+        "Cerca de mil quilômetros"
+      ],
+      "ancora": "cratera_de_chicxulub"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "manto_terrestre",
+        "nome": "Manto terrestre",
+        "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+        "variantes": [
+          "Manto da Terra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mantle_(geology)"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Logo abaixo da crosta, o manto terrestre tem cerca de quantos quilômetros de espessura?",
+      "resposta": "Quase três mil quilômetros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mantle_(geology)"
+      ],
+      "distratores": [
+        "Cerca de trinta quilômetros",
+        "Cerca de trezentos quilômetros",
+        "Quase dez mil quilômetros"
+      ],
+      "ancora": "manto_terrestre"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "calcada_dos_gigantes",
+        "nome": "Calçada dos Gigantes",
+        "descricao": "Formação de milhares de colunas de basalto no litoral do condado de Antrim, na Irlanda do Norte.",
+        "variantes": [
+          "Giant's Causeway"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giant%27s_Causeway"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A maioria das colunas de basalto da Calçada dos Gigantes, na Irlanda do Norte, tem quantos lados?",
+      "resposta": "Seis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giant%27s_Causeway"
+      ],
+      "ancora": "calcada_dos_gigantes"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "era_cenozoica",
+        "nome": "Era Cenozoica",
+        "descricao": "Era geológica atual, iniciada há cerca de 66 milhões de anos, após a extinção do fim do Cretáceo.",
+        "variantes": [
+          "Cenozoico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cenozoic"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A era Cenozoica, a dos mamíferos, que dura até hoje, tem um nome de origem grega que significa o quê?",
+      "resposta": "Vida nova",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cenozoic",
+        "https://pt.wikipedia.org/wiki/Cenozoico"
+      ],
+      "ancora": "era_cenozoica"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "erupcao_do_vesuvio_em_79",
+        "nome": "Erupção do Vesúvio em 79",
+        "descricao": "Erupção do vulcão Vesúvio, no ano 79, que soterrou cidades romanas da baía de Nápoles.",
+        "variantes": [
+          "Erupção do Vesúvio de 79 d.C."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "As erupções muito explosivas, como a do Vesúvio no ano setenta e nove, levam o nome de qual escritor romano, que a testemunhou e descreveu?",
+      "resposta": "Plínio, o Jovem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Plinian_eruption"
+      ],
+      "distratores": [
+        "Sêneca",
+        "Tácito",
+        "Suetônio"
+      ],
+      "ancora": "erupcao_do_vesuvio_em_79"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "rochedo_de_gibraltar",
+        "nome": "Rochedo de Gibraltar",
+        "descricao": "Montanha monolítica de calcário de 426 metros, na entrada do Mediterrâneo, no território britânico de Gibraltar.",
+        "variantes": [
+          "Rock of Gibraltar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rock_of_Gibraltar"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Gibraltar vem do árabe e homenageia qual comandante muçulmano, que desembarcou ali em 711 para conquistar a Península Ibérica?",
+      "resposta": "Tárique (Tariq ibn Ziyad)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rock_of_Gibraltar",
+        "https://en.wikipedia.org/wiki/Tariq_ibn_Ziyad"
+      ],
+      "ancora": "rochedo_de_gibraltar"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "baia_de_ha_long",
+        "nome": "Baía de Ha Long",
+        "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+        "variantes": [
+          "Ha Long Bay",
+          "Baía de Halong"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ha_Long_Bay"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome da Baía de Ha Long, no Vietnã, com milhares de ilhotas de calcário, significa o quê?",
+      "resposta": "Dragão que desce",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ha_Long_Bay"
+      ],
+      "distratores": [
+        "Mil ilhas de pedra",
+        "Mar das tartarugas",
+        "Porta do céu"
+      ],
+      "ancora": "baia_de_ha_long"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "alfred_wegener",
+        "nome": "Alfred Wegener",
+        "descricao": "Meteorologista e geofísico alemão, autor da teoria da deriva continental, morto em 1930.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alfred_Wegener"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Alfred Wegener, pai da deriva continental, era genro de qual climatologista, criador de uma famosa classificação dos climas da Terra?",
+      "resposta": "Wladimir Köppen",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alfred_Wegener",
+        "https://en.wikipedia.org/wiki/Wladimir_K%C3%B6ppen"
+      ],
+      "ancora": "alfred_wegener"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "erupcao_do_monte_santa_helena_de_1980",
+        "nome": "Erupção do Monte Santa Helena de 1980",
+        "descricao": "Erupção explosiva do vulcão Monte Santa Helena, no estado de Washington, nos Estados Unidos, em 18 de maio de 1980.",
+        "variantes": [
+          "Mount St. Helens 1980"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na erupção do Monte Santa Helena, em 1980, morreu um idoso que se recusou a deixar a montanha. Que nome ele tinha em comum com um presidente americano?",
+      "resposta": "Harry Truman",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Harry_R._Truman"
+      ],
+      "ancora": "erupcao_do_monte_santa_helena_de_1980"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "nucleo_da_terra",
+        "nome": "Núcleo da Terra",
+        "descricao": "Parte mais interna do planeta, formada por um núcleo externo líquido e um núcleo interno sólido.",
+        "variantes": [
+          "Núcleo terrestre"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Earth%27s_inner_core"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo as estimativas dos cientistas, o centro da Terra é mais ou menos tão quente quanto qual lugar do Sistema Solar?",
+      "resposta": "A superfície do Sol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Earth%27s_inner_core"
+      ],
+      "ancora": "nucleo_da_terra"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "serra_pelada",
+        "nome": "Serra Pelada",
+        "descricao": "Local de garimpo no sudeste do Pará, palco de uma grande corrida de garimpeiros nos anos 1980.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Serra_Pelada"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que fotógrafo brasileiro registrou em preto e branco os milhares de garimpeiros enlameados de Serra Pelada, em imagens famosas no mundo todo?",
+      "resposta": "Sebastião Salgado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Serra_Pelada",
+        "https://en.wikipedia.org/wiki/Sebasti%C3%A3o_Salgado"
+      ],
+      "distratores": [
+        "Pierre Verger",
+        "Evandro Teixeira",
+        "Marc Ferrez"
+      ],
+      "ancora": "serra_pelada"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "monte_everest",
+        "nome": "Monte Everest",
+        "descricao": "Montanha do Himalaia, na fronteira entre Nepal e China, o ponto mais alto da Terra acima do nível do mar.",
+        "variantes": [
+          "Chomolungma",
+          "Sagarmatha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mount_Everest"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Himalaia, onde fica o Everest, se ergueu e continua subindo por causa da colisão da Ásia com qual placa tectônica?",
+      "resposta": "Placa Indiana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Geology_of_the_Himalayas",
+        "https://en.wikipedia.org/wiki/Mount_Everest"
+      ],
+      "ancora": "monte_everest"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "deriva_continental",
+        "nome": "Deriva continental",
+        "descricao": "Teoria segundo a qual os continentes já estiveram unidos e se deslocaram lentamente ao longo do tempo geológico.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Continental_drift"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A teoria de Wegener sobre os continentes foi rejeitada por décadas principalmente porque ele não conseguia explicar o quê?",
+      "resposta": "Que força movia os continentes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Continental_drift"
+      ],
+      "ancora": "deriva_continental"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "poco_superprofundo_de_kola",
+        "nome": "Poço Superprofundo de Kola",
+        "descricao": "Perfuração científica soviética na península de Kola, no noroeste da Rússia, iniciada em 1970.",
+        "variantes": [
+          "Kola Superdeep Borehole"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A perfuração do Poço Superprofundo de Kola, na Rússia, não conseguiu ir mais fundo por causa de qual problema inesperado lá embaixo?",
+      "resposta": "Calor muito acima do esperado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole"
+      ],
+      "ancora": "poco_superprofundo_de_kola"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "terremoto_de_lisboa_de_1755",
+        "nome": "Terremoto de Lisboa de 1755",
+        "descricao": "Terremoto seguido de tsunami e incêndios que destruiu grande parte de Lisboa em 1º de novembro de 1755.",
+        "variantes": [
+          "Grande Terremoto de Lisboa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O terremoto de Lisboa de 1755 abalou a crença de que tudo vai bem no mundo e levou qual filósofo francês a escrever um poema e o romance Cândido?",
+      "resposta": "Voltaire",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+        "https://en.wikipedia.org/wiki/Poem_on_the_Lisbon_Disaster"
+      ],
+      "distratores": [
+        "Rousseau",
+        "Diderot",
+        "Montesquieu"
+      ],
+      "ancora": "terremoto_de_lisboa_de_1755"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "id_existente": "formacao_ferrifera_bandada",
+        "nome": "Formação ferrífera bandada",
+        "descricao": "Rocha sedimentar pré-cambriana de camadas alternadas de óxidos de ferro e sílex.",
+        "variantes": [
+          "Itabirito",
+          "Banded iron formation"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Banded_iron_formation"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "As rochas de ferro em faixas que formam minas como as de Carajás surgiram quando o ferro dissolvido no mar antigo reagiu com qual gás?",
+      "resposta": "Oxigênio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Banded_iron_formation"
+      ],
+      "ancora": "formacao_ferrifera_bandada"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "grande_vale_do_rift",
+        "nome": "Grande Vale do Rift",
+        "descricao": "Sistema de fendas tectônicas que corta o leste da África, onde o continente está se partindo.",
+        "variantes": [
+          "Rift da África Oriental"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/East_African_Rift"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Se o Grande Vale do Rift continuar se abrindo por milhões de anos, o que deve surgir entre o leste da África e o resto do continente?",
+      "resposta": "Um novo oceano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/East_African_Rift"
+      ],
+      "ancora": "grande_vale_do_rift"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "pangeia",
+        "nome": "Pangeia",
+        "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+        "variantes": [
+          "Pangea",
+          "Pangaea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pangaea"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Ao se partir, a Pangeia deu origem ao Gondwana, no sul, e a qual supercontinente, no norte?",
+      "resposta": "Laurásia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Laurasia",
+        "https://en.wikipedia.org/wiki/Pangaea"
+      ],
+      "distratores": [
+        "Rodínia",
+        "Panótia",
+        "Pantalassa"
+      ],
+      "ancora": "pangeia"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "pirita",
+        "nome": "Pirita",
+        "descricao": "Mineral de sulfeto de ferro, de brilho metálico dourado.",
+        "variantes": [
+          "Ouro de tolo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pyrite"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A pirita, o famoso ouro de tolo de brilho dourado, é um mineral formado por enxofre e qual metal?",
+      "resposta": "Ferro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pyrite"
+      ],
+      "ancora": "pirita"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "capadocia",
+        "nome": "Capadócia",
+        "descricao": "Região histórica no centro da Turquia, famosa pelas chaminés de fada e pelas cidades subterrâneas.",
+        "variantes": [
+          "Cappadocia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cappadocia"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "As casas e cidades subterrâneas da Capadócia, na Turquia, foram escavadas numa rocha macia formada pelo acúmulo de quê?",
+      "resposta": "Cinzas vulcânicas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cappadocia"
+      ],
+      "ancora": "capadocia"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "dorsal_mesoatlantica",
+        "nome": "Dorsal Mesoatlântica",
+        "descricao": "Cadeia de montanhas submarinas no meio do oceano Atlântico, onde placas tectônicas se afastam.",
+        "variantes": [
+          "Cordilheira Mesoatlântica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que pequeno arquipélago brasileiro, perto da linha do Equador, tem rochas do manto terrestre expostas acima do nível do mar?",
+      "resposta": "São Pedro e São Paulo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saint_Peter_and_Saint_Paul_Archipelago",
+        "https://pt.wikipedia.org/wiki/Arquip%C3%A9lago_de_S%C3%A3o_Pedro_e_S%C3%A3o_Paulo"
+      ],
+      "ancora": "dorsal_mesoatlantica"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "erupcao_do_krakatoa_de_1883",
+        "nome": "Erupção do Krakatoa de 1883",
+        "descricao": "Erupção catastrófica do vulcão Krakatoa, na Indonésia, em agosto de 1883.",
+        "variantes": [
+          "Erupção do Cracatoa",
+          "Krakatau 1883"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O vulcão Krakatoa, que explodiu em 1883, fica entre as ilhas de Java e Sumatra, em qual estreito?",
+      "resposta": "Estreito de Sunda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Krakatoa",
+        "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+      ],
+      "distratores": [
+        "Estreito de Malaca",
+        "Estreito de Lombok",
+        "Estreito de Makassar"
+      ],
+      "ancora": "erupcao_do_krakatoa_de_1883"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "diamante",
+        "nome": "Diamante",
+        "descricao": "Mineral formado por carbono puro cristalizado, o mais duro da natureza, usado como gema.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Diamond"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Por mais de um século, entre o esgotamento das minas da Índia e as descobertas na África do Sul, qual país foi o maior produtor de diamantes do mundo?",
+      "resposta": "Brasil",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Diamond"
+      ],
+      "distratores": [
+        "Rússia",
+        "Austrália",
+        "Congo"
+      ],
+      "ancora": "diamante"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "ambar",
+        "nome": "Âmbar",
+        "descricao": "Material fóssil translúcido que às vezes preserva insetos e outros pequenos organismos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amber"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A maior parte do âmbar do mundo, a resina fóssil que às vezes guarda insetos, vem do litoral de qual mar europeu?",
+      "resposta": "Mar Báltico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amber",
+        "https://en.wikipedia.org/wiki/Baltic_amber"
+      ],
+      "ancora": "ambar"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "monte_fuji",
+        "nome": "Monte Fuji",
+        "descricao": "Vulcão de forma cônica na ilha de Honshu, o ponto mais alto do Japão.",
+        "variantes": [
+          "Fujisan",
+          "Fuji-san"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mount_Fuji"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que século aconteceu a última erupção do Monte Fuji, o vulcão símbolo do Japão?",
+      "resposta": "Século dezoito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mount_Fuji",
+        "https://en.wikipedia.org/wiki/H%C5%8Dei_eruption"
+      ],
+      "distratores": [
+        "Século doze",
+        "Século quinze",
+        "Século vinte"
+      ],
+      "ancora": "monte_fuji"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "pangeia",
+        "nome": "Pangeia",
+        "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+        "variantes": [
+          "Pangea",
+          "Pangaea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pangaea"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que era geológica a Pangeia começou a se partir, dando início ao desenho dos continentes atuais?",
+      "resposta": "Era Mesozoica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pangaea"
+      ],
+      "distratores": [
+        "Era Paleozoica",
+        "Era Cenozoica",
+        "Era Proterozoica"
+      ],
+      "ancora": "pangeia"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "limite_cretaceo_paleogeno",
+        "nome": "Limite Cretáceo-Paleogeno",
+        "descricao": "Fina camada de rocha que marca a extinção em massa de cerca de 66 milhões de anos atrás, que eliminou os grandes dinossauros.",
+        "variantes": [
+          "Limite K-Pg",
+          "Limite K-T"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_boundary"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1980, estudando a camada de rocha do fim do Cretáceo, que dupla americana de pai e filho propôs que um asteroide extinguiu os dinossauros?",
+      "resposta": "Luis e Walter Alvarez",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alvarez_hypothesis"
+      ],
+      "ancora": "limite_cretaceo_paleogeno"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "quartzo",
+        "nome": "Quartzo",
+        "descricao": "Mineral de dióxido de silício (SiO2), o segundo mais comum da litosfera terrestre.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quartz"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nos relógios a quartzo, um pequeno cristal desse mineral, sob corrente elétrica, faz o quê para marcar o tempo?",
+      "resposta": "Vibra numa frequência constante",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quartz_clock"
+      ],
+      "ancora": "quartzo"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "calcita",
+        "nome": "Calcita",
+        "descricao": "Mineral de carbonato de cálcio (CaCO3), componente do calcário, de dureza 3 na escala de Mohs.",
+        "variantes": [
+          "Calcite"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Calcite"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Geologia e História da Terra",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Para reconhecer a calcita, mineral do calcário e do mármore, os geólogos pingam nela um pouco de ácido. O que acontece?",
+      "resposta": "Ela solta bolhas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Calcite"
+      ],
+      "ancora": "calcita"
+    }
+  ],
+  "ancoras_novas": [],
+  "variantes": {
+    "escala_richter": [
+      "Escala Richter",
+      "Escala de Richter"
+    ],
+    "escala_de_mercalli": [
+      "Escala de Mercalli",
+      "Escala de Mercalli modificada"
+    ],
+    "escala_de_mohs": [
+      "Escala de Mohs",
+      "Escala de dureza de Mohs"
+    ],
+    "erupcao_do_krakatoa_de_1883": [
+      "Erupção do Krakatoa de 1883",
+      "Erupção do Cracatoa",
+      "Krakatau 1883"
+    ],
+    "terremoto_de_valdivia_de_1960": [
+      "Terremoto de Valdivia de 1960",
+      "Grande Terremoto do Chile"
+    ],
+    "manto_terrestre": [
+      "Manto terrestre",
+      "Manto da Terra"
+    ],
+    "calcada_dos_gigantes": [
+      "Calçada dos Gigantes",
+      "Giant's Causeway"
+    ],
+    "era_cenozoica": [
+      "Era Cenozoica",
+      "Cenozoico"
+    ],
+    "erupcao_do_vesuvio_em_79": [
+      "Erupção do Vesúvio em 79",
+      "Erupção do Vesúvio de 79 d.C."
+    ],
+    "rochedo_de_gibraltar": [
+      "Rochedo de Gibraltar",
+      "Rock of Gibraltar"
+    ],
+    "uluru": [
+      "Uluru",
+      "Ayers Rock"
+    ],
+    "baia_de_ha_long": [
+      "Baía de Ha Long",
+      "Ha Long Bay",
+      "Baía de Halong"
+    ],
+    "amonite": [
+      "Amonite",
+      "Amonoide",
+      "Ammonoidea"
+    ],
+    "alfred_wegener": [
+      "Alfred Wegener"
+    ],
+    "gruta_de_fingal": [
+      "Gruta de Fingal",
+      "Fingal's Cave"
+    ],
+    "monte_roraima": [
+      "Monte Roraima",
+      "Roraima-tepui"
+    ],
+    "parque_florestal_nacional_de_zhangjiajie": [
+      "Parque Florestal Nacional de Zhangjiajie",
+      "Zhangjiajie"
+    ],
+    "torre_do_diabo": [
+      "Torre do Diabo",
+      "Devils Tower"
+    ],
+    "erupcao_do_monte_santa_helena_de_1980": [
+      "Erupção do Monte Santa Helena de 1980",
+      "Mount St. Helens 1980"
+    ],
+    "nucleo_da_terra": [
+      "Núcleo da Terra",
+      "Núcleo terrestre"
+    ],
+    "serra_pelada": [
+      "Serra Pelada"
+    ],
+    "monte_everest": [
+      "Monte Everest",
+      "Chomolungma",
+      "Sagarmatha"
+    ],
+    "deriva_continental": [
+      "Deriva continental"
+    ],
+    "poco_superprofundo_de_kola": [
+      "Poço Superprofundo de Kola",
+      "Kola Superdeep Borehole"
+    ],
+    "terremoto_de_lisboa_de_1755": [
+      "Terremoto de Lisboa de 1755",
+      "Grande Terremoto de Lisboa"
+    ],
+    "formacao_ferrifera_bandada": [
+      "Formação ferrífera bandada",
+      "Itabirito",
+      "Banded iron formation"
+    ],
+    "grand_canyon": [
+      "Grand Canyon",
+      "Grand Cânion"
+    ],
+    "grande_vale_do_rift": [
+      "Grande Vale do Rift",
+      "Rift da África Oriental"
+    ],
+    "pangeia": [
+      "Pangeia",
+      "Pangea",
+      "Pangaea"
+    ],
+    "pirita": [
+      "Pirita",
+      "Ouro de tolo"
+    ],
+    "capadocia": [
+      "Capadócia",
+      "Cappadocia"
+    ],
+    "dorsal_mesoatlantica": [
+      "Dorsal Mesoatlântica",
+      "Cordilheira Mesoatlântica"
+    ],
+    "diamante": [
+      "Diamante"
+    ],
+    "ambar": [
+      "Âmbar"
+    ],
+    "monte_fuji": [
+      "Monte Fuji",
+      "Fujisan",
+      "Fuji-san"
+    ],
+    "limite_cretaceo_paleogeno": [
+      "Limite Cretáceo-Paleogeno",
+      "Limite K-Pg",
+      "Limite K-T"
+    ],
+    "quartzo": [
+      "Quartzo"
+    ],
+    "calcita": [
+      "Calcita",
+      "Calcite"
+    ],
+    "cratera_de_chicxulub": [
+      "Cratera de Chicxulub",
+      "Chicxulub"
+    ],
+    "periodo_cretaceo": [
+      "Período Cretáceo",
+      "Cretáceo",
+      "Cretácico"
+    ],
+    "geysir": [
+      "Geysir",
+      "Grande Geysir",
+      "Stóri Geysir"
+    ],
+    "grafite": [
+      "Grafite",
+      "Grafita"
+    ],
+    "paricutin": [
+      "Paricutín",
+      "Parícutin",
+      "Paricutin"
+    ]
+  }
+}
