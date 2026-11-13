@@ -434663,5 +434663,70 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q21854",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "tomografia_computadorizada",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Este aparelho de diagnóstico por imagem forma cortes do corpo usando que tipo de radiação?",
+    "resposta": "Raios X",
+    "distratores": [
+      "Ondas de rádio",
+      "Raios gama",
+      "Luz ultravioleta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/CT_scan",
+      "https://pt.wikipedia.org/wiki/Tomografia_computadorizada"
+    ],
+    "imagem": {
+      "arquivo": "q21854.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Moderní_výpočetní_tomografie_s_přímo_digitální_detekcí_rentgenového_záření.jpg",
+      "autor": "Tomáš Vendiš",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q21855",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "otoscopio",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento médico é este?",
+    "resposta": "Otoscópio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Otoscope",
+      "https://pt.wikipedia.org/wiki/Otosc%C3%B3pio"
+    ],
+    "imagem": {
+      "arquivo": "q21855.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ototskop_mit_Ohrtrichtern.jpg",
+      "autor": "GO (MedPlus Medizintechnik GmbH)",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q21856",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "bisturi",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento médico é este?",
+    "resposta": "Bisturi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scalpel",
+      "https://pt.wikipedia.org/wiki/Bisturi"
+    ],
+    "imagem": {
+      "arquivo": "q21856.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Various_scalpels.png",
+      "autor": "Spekta (Wikimedia Commons)",
+      "licenca": "Public domain"
+    }
   }
 ]

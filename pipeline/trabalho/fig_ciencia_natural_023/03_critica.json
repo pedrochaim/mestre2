@@ -1,0 +1,28 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a tomografia computadorizada usa raios X. O enunciado não nomeia o aparelho, e 'cortes do corpo' também serviria para a ressonância, então a figura é necessária. Os distratores são do mesmo tipo e erram de fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1, direta, sem vazamento e com resposta única. Os trechos descrevem o instrumento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A expressão 'mostrado em vários modelos' afirma algo sobre a imagem que não consta em `mostra`, então não dá para garantir que o enunciado vale para esta foto. Basta tirá-la. O fato está nos trechos.",
+      "reescrita": {
+        "pergunta": "Que instrumento médico é este?",
+        "resposta": "Bisturi"
+      }
+    }
+  ]
+}

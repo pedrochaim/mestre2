@@ -1,0 +1,192 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tomografia computadorizada",
+        "descricao": "Aparelho de imagem médica (tomógrafo) que forma cortes transversais do corpo com raios X.",
+        "variantes": [
+          "Tomógrafo",
+          "TC",
+          "CT scan",
+          "Tomografia axial computadorizada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "et_cetera",
+          "nome": "Et cetera",
+          "descricao": "Expressão latina usada no fim de enumerações, abreviada como etc.",
+          "variantes": [
+            "Etc.",
+            "Etcétera"
+          ]
+        },
+        {
+          "id": "bitcoin",
+          "nome": "Bitcoin",
+          "descricao": "Criptomoeda descentralizada descrita num artigo de 2008 e lançada em 2009.",
+          "variantes": [
+            "BTC"
+          ]
+        },
+        {
+          "id": "comissao_da_verdade_e_reconciliacao",
+          "nome": "Comissão da Verdade e Reconciliação",
+          "descricao": "Comissão criada na África do Sul em 1995 para investigar as violações de direitos humanos cometidas durante o apartheid.",
+          "variantes": [
+            "Truth and Reconciliation Commission",
+            "TRC"
+          ]
+        },
+        {
+          "id": "fonografo",
+          "nome": "Fonógrafo",
+          "descricao": "Aparelho de cilindro que grava e reproduz sons mecanicamente, inventado em 1877.",
+          "variantes": [
+            "Phonograph",
+            "Fonógrafo de Edison"
+          ]
+        },
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Otoscópio",
+        "descricao": "Instrumento médico de mão com luz e lente usado para examinar o canal auditivo e o tímpano.",
+        "variantes": [
+          "Auriscópio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "xerografia",
+          "nome": "Xerografia",
+          "descricao": "Processo de fotocópia a seco que deu origem às máquinas Xerox.",
+          "variantes": [
+            "Xerox",
+            "Fotocópia"
+          ]
+        },
+        {
+          "id": "bandeira_de_mauricio",
+          "nome": "Bandeira de Maurício",
+          "descricao": "Bandeira nacional de Maurício, com quatro faixas horizontais: vermelha, azul, amarela e verde.",
+          "variantes": [
+            "Maurício",
+            "Bandeira das Ilhas Maurício"
+          ]
+        },
+        {
+          "id": "cinetoscopio",
+          "nome": "Cinetoscópio",
+          "descricao": "Aparelho de exibição de filmes para um espectador por vez, desenvolvido no laboratório de Thomas Edison por volta de 1890.",
+          "variantes": [
+            "Kinetoscope"
+          ]
+        },
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        },
+        {
+          "id": "eletroscopio_de_folhas",
+          "nome": "Eletroscópio de folhas",
+          "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+          "variantes": [
+            "Eletroscópio",
+            "Eletroscópio de folha de ouro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bisturi",
+        "descricao": "Instrumento cirúrgico pequeno e muito afiado, de lâmina, usado em cirurgias e dissecações.",
+        "variantes": [
+          "Escalpelo",
+          "Scalpel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capelo",
+          "nome": "Capelo",
+          "descricao": "Chapéu acadêmico de topo quadrado e borla, usado em cerimônias de formatura.",
+          "variantes": [
+            "Barrete de formatura",
+            "Chapéu de formatura",
+            "Mortarboard"
+          ]
+        },
+        {
+          "id": "espelho",
+          "nome": "Espelho",
+          "descricao": "Superfície de vidro com fundo metálico que reflete imagens, usada no dia a dia para ver o próprio reflexo.",
+          "variantes": [
+            "Espelho de vidro"
+          ]
+        },
+        {
+          "id": "vieira",
+          "nome": "Vieira",
+          "descricao": "Molusco bivalve marinho da família Pectinidae, com muitos olhos pequenos na borda do manto.",
+          "variantes": [
+            "Scallop",
+            "Pectinidae"
+          ]
+        },
+        {
+          "id": "estadio_orlando_scarpelli",
+          "nome": "Estádio Orlando Scarpelli",
+          "descricao": "Estádio de futebol do Figueirense, no bairro Estreito, em Florianópolis, Santa Catarina.",
+          "variantes": [
+            "Scarpelli"
+          ]
+        },
+        {
+          "id": "sahel",
+          "nome": "Sahel",
+          "descricao": "Faixa semiárida da África que se estende de leste a oeste logo ao sul do Deserto do Saara",
+          "variantes": [
+            "Sael"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o tomógrafo/tomografia; são entidades diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Otoscópio é distinto do estetoscópio e das demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bisturi não corresponde a nenhuma candidata."
+    }
+  ]
+}

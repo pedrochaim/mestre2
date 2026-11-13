@@ -1,0 +1,112 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Close de pele do punho sem estrutura característica; poderia ser antebraço ou mão, e a entidade não é clara no celular."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Cristais escuros sem forma distintiva; podem ser confundidos com iodo, dióxido de manganês ou outros sólidos escuros. Não é reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Prancha com seis micrografias (A a F) e letras de legenda; diagrama científico confuso e ilegível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pó branco indistinguível de sal, açúcar ou outros pós; resposta não única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pedra preta polida; pode ser ônix, obsidiana, azeviche ou ágata preta. Sem as bandas características, não é reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tomógrafo claro, sem pessoas; o texto visível é só marca e modelo, que não entregam a resposta. Pergunta de nível 3 sobre o tipo de radiação.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este aparelho de diagnóstico por imagem forma cortes do corpo usando que tipo de radiação?",
+      "resposta": "Raios X",
+      "distratores": [
+        "Ondas de rádio",
+        "Raios gama",
+        "Luz ultravioleta"
+      ],
+      "ancora": {
+        "nome": "Tomografia computadorizada",
+        "descricao": "Aparelho de imagem médica (tomógrafo) que forma cortes transversais do corpo com raios X.",
+        "variantes": [
+          "Tomógrafo",
+          "TC",
+          "CT scan",
+          "Tomografia axial computadorizada"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Otoscópio de mão com espéculo ao lado, bem visível num fundo branco; a marca impressa não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que instrumento médico é este?",
+      "resposta": "Otoscópio",
+      "ancora": {
+        "nome": "Otoscópio",
+        "descricao": "Instrumento médico de mão com luz e lente usado para examinar o canal auditivo e o tímpano.",
+        "variantes": [
+          "Auriscópio"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Bloco metálico prateado sem característica distintiva; poderia ser silício, antimônio, bismuto ou outro metal. Não é reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mostra pessoas comuns (profissionais e um bebê) em primeiro plano numa sala de hospital, com cena confusa."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Líquido incolor numa proveta; indistinguível de água ou outros solventes. Não é reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de texto, com legendas que entregam a resposta (Mitral Valve) e várias estruturas."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cinco bisturis de modelos diferentes, todos da mesma entidade, sem texto que entregue a resposta (só números de lâmina). Reconhecíveis e a resposta é única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que instrumento médico é este, mostrado em vários modelos?",
+      "resposta": "Bisturi",
+      "ancora": {
+        "nome": "Bisturi",
+        "descricao": "Instrumento cirúrgico pequeno e muito afiado, de lâmina, usado em cirurgias e dissecações.",
+        "variantes": [
+          "Escalpelo",
+          "Scalpel"
+        ]
+      }
+    }
+  ]
+}

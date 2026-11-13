@@ -253760,5 +253760,45 @@
       "pt": 40,
       "en": 2204
     }
+  },
+  {
+    "id": "tomografia_computadorizada",
+    "nome": "Tomografia computadorizada",
+    "descricao": "Aparelho de imagem médica (tomógrafo) que forma cortes transversais do corpo com raios X.",
+    "variantes": [
+      "Tomógrafo",
+      "TC",
+      "CT scan",
+      "Tomografia axial computadorizada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/CT_scan",
+      "https://pt.wikipedia.org/wiki/Tomografia_computadorizada"
+    ]
+  },
+  {
+    "id": "otoscopio",
+    "nome": "Otoscópio",
+    "descricao": "Instrumento médico de mão com luz e lente usado para examinar o canal auditivo e o tímpano.",
+    "variantes": [
+      "Auriscópio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Otoscope",
+      "https://pt.wikipedia.org/wiki/Otosc%C3%B3pio"
+    ]
+  },
+  {
+    "id": "bisturi",
+    "nome": "Bisturi",
+    "descricao": "Instrumento cirúrgico pequeno e muito afiado, de lâmina, usado em cirurgias e dissecações.",
+    "variantes": [
+      "Escalpelo",
+      "Scalpel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Scalpel",
+      "https://pt.wikipedia.org/wiki/Bisturi"
+    ]
   }
 ]
