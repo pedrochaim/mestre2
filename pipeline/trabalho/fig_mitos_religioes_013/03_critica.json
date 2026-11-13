@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Função da gárgula (escoar a água do telhado) confirmada nos trechos. O enunciado não nomeia a entidade, e os distratores são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'a sudoeste de Paris' ajuda a responder sem a figura. Além disso, o trecho em português diz 'noroeste da França', o que gera ruído. Basta tirar a direção.",
+      "reescrita": {
+        "pergunta": "Em que cidade francesa fica esta catedral gótica, concluída em grande parte no início do século treze?",
+        "resposta": "Chartres",
+        "distratores": [
+          "Reims",
+          "Amiens",
+          "Rouen"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de Maat, de nível 1. O enunciado não vaza nada e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma 'princesa', 'pintura sueca' e plural, o que não consta em 'mostra' nem nos trechos e não pode ser verificado. Reescrito para o que se sabe da figura: o ser do folclore nórdico.",
+      "reescrita": {
+        "pergunta": "Que criatura do folclore nórdico é esta?",
+        "resposta": "Troll",
+        "distratores": [
+          "Elfo",
+          "Gnomo",
+          "Duende"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nut é irmã e esposa de Geb, confirmado nos trechos. O enunciado não nomeia a deusa, e os distratores são deuses egípcios errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cúpula é obra de Brunelleschi, confirmado nos trechos. Não há vazamento no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Buda reclinado de Wat Pho é confirmado nos trechos. A figura mostra o templo e o enunciado exige reconhecê-lo. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A mesquita fica em Isfahan, no Irã, confirmado nos trechos. É uma pergunta de nível 1 sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Gárgula",
+        "descricao": "Escultura grotesca com bica, usada em beirais, sobretudo na arquitetura gótica, para escoar a água do telhado.",
+        "variantes": [
+          "Gargoyle",
+          "Gargouille"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gargula",
+          "nome": "Gárgula",
+          "descricao": "Escultura grotesca no alto de edifícios, sobretudo catedrais góticas, que serve de bica para a água do telhado.",
+          "variantes": [
+            "Gargoyle"
+          ]
+        },
+        {
+          "id": "grovyle",
+          "nome": "Grovyle",
+          "descricao": "Pokémon do tipo planta, número 253 da Pokédex Nacional, evolução do Treecko.",
+          "variantes": []
+        },
+        {
+          "id": "grovyle_mystery_dungeon",
+          "nome": "Grovyle (Mystery Dungeon)",
+          "descricao": "Personagem de Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness, procurado por roubar as Time Gears.",
+          "variantes": [
+            "Grovyle"
+          ]
+        },
+        {
+          "id": "narguile",
+          "nome": "Narguilé",
+          "descricao": "Instrumento de fumo com base de água e mangueira, usado para fumar tabaco aromatizado.",
+          "variantes": [
+            "Shisha",
+            "Hookah",
+            "Cachimbo de água"
+          ]
+        },
+        {
+          "id": "garuda",
+          "nome": "Garuda",
+          "descricao": "Criatura alada da mitologia hindu, rei das aves e montaria do deus Vishnu.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Catedral de Chartres",
+        "descricao": "Catedral gótica de Notre-Dame, em Chartres, na França, concluída em grande parte entre 1194 e 1220.",
+        "variantes": [
+          "Chartres Cathedral",
+          "Catedral de Notre-Dame de Chartres"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_chartres",
+          "nome": "Catedral de Chartres",
+          "descricao": "Catedral gótica de Notre-Dame em Chartres, na França, famosa por suas duas torres assimétricas e seus vitrais.",
+          "variantes": [
+            "Catedral de Notre-Dame de Chartres",
+            "Chartres Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "catedral_de_cantuaria",
+          "nome": "Catedral de Cantuária",
+          "descricao": "Catedral da arquidiocese anglicana em Cantuária (Kent), na Inglaterra, sede espiritual da Igreja da Inglaterra.",
+          "variantes": [
+            "Catedral de Canterbury",
+            "Canterbury Cathedral"
+          ]
+        },
+        {
+          "id": "incendio_da_catedral_de_notre_dame_de_paris",
+          "nome": "Incêndio da Catedral de Notre-Dame de Paris",
+          "descricao": "Incêndio que destruiu o telhado e a agulha da catedral de Notre-Dame, em Paris.",
+          "variantes": [
+            "Notre-Dame de Paris fire"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Maat",
+        "descricao": "Deusa egípcia que personificava a verdade, a justiça e a ordem do universo, representada com uma pena na cabeça.",
+        "variantes": [
+          "Maʽat",
+          "Ma'at"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jean_paul_marat",
+          "nome": "Jean-Paul Marat",
+          "descricao": "Jornalista, médico e político radical da Revolução Francesa, assassinado em 1793.",
+          "variantes": [
+            "Marat"
+          ]
+        },
+        {
+          "id": "peixe_boi_marinho",
+          "nome": "Peixe-boi-marinho",
+          "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+          "variantes": [
+            "Peixe-boi",
+            "Trichechus manatus",
+            "Manati"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple",
+            "Malus domestica"
+          ]
+        },
+        {
+          "id": "erva_mate",
+          "nome": "Erva-mate",
+          "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+          "variantes": [
+            "Ilex paraguariensis",
+            "mate",
+            "yerba mate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Troll",
+        "descricao": "Ser do folclore e da mitologia nórdicos, que habita rochas, montanhas e cavernas.",
+        "variantes": [
+          "Trol",
+          "Trolls"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caixa_clara",
+          "nome": "Caixa-clara",
+          "descricao": "Tambor de pele dupla com esteira de fios que produz som seco, usado em orquestras e bandas.",
+          "variantes": [
+            "Caixa",
+            "Snare drum",
+            "Tarol"
+          ]
+        },
+        {
+          "id": "atol",
+          "nome": "Atol",
+          "descricao": "Recife de coral em forma de anel que cerca uma lagoa, típico de mares tropicais.",
+          "variantes": [
+            "Atoll",
+            "Atóis"
+          ]
+        },
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico",
+            "Trio"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "quero_quero",
+          "nome": "Quero-quero",
+          "descricao": "Vanellus chilensis, ave pernalta comum na América do Sul, de olhos vermelhos e pernas vermelhas.",
+          "variantes": [
+            "Southern lapwing",
+            "Tero",
+            "Vanellus chilensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nut",
+        "descricao": "Deusa egípcia do céu, esposa e irmã de Geb e mãe de Osíris, Ísis, Set e Néftis.",
+        "variantes": [
+          "Nut (deusa)",
+          "Nuit"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "inuites",
+          "nome": "Inuítes",
+          "descricao": "Povos indígenas das regiões árticas do Canadá, da Groenlândia e do Alasca, antes chamados de esquimós.",
+          "variantes": [
+            "Inuit",
+            "Inuíte",
+            "Esquimós"
+          ]
+        },
+        {
+          "id": "donut",
+          "nome": "Donut",
+          "descricao": "Doce frito ou assado de massa fermentada em formato de anel, geralmente com cobertura de glacê.",
+          "variantes": [
+            "Doughnut",
+            "Rosquinha"
+          ]
+        },
+        {
+          "id": "numbat",
+          "nome": "Numbat",
+          "descricao": "Pequeno marsupial diurno, listrado, que se alimenta de cupins, do sudoeste da Austrália (Myrmecobius fasciatus).",
+          "variantes": [
+            "Myrmecobius fasciatus",
+            "Mirmecóbio",
+            "Noombat"
+          ]
+        },
+        {
+          "id": "post_it",
+          "nome": "Post-it",
+          "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+          "variantes": [
+            "Post-it note",
+            "Nota adesiva",
+            "Bloco autoadesivo",
+            "Post-its"
+          ]
+        },
+        {
+          "id": "cuica",
+          "nome": "Cuíca",
+          "descricao": "Tambor de fricção usado no samba, com uma vareta presa ao centro do couro.",
+          "variantes": [
+            "Puíta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral católica de Santa Maria del Fiore, em Florença, famosa pela cúpula de Brunelleschi.",
+        "variantes": [
+          "Santa Maria del Fiore",
+          "Duomo di Firenze",
+          "Duomo de Florença"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença",
+            "Florence Cathedral"
+          ]
+        },
+        {
+          "id": "cupula_da_catedral_de_florenca",
+          "nome": "Cúpula da Catedral de Florença",
+          "descricao": "Grande cúpula de alvenaria da Catedral de Santa Maria del Fiore, em Florença, concluída em 1436.",
+          "variantes": [
+            "Cúpula de Brunelleschi",
+            "Duomo de Florença",
+            "Santa Maria del Fiore"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "buenos_aires",
+          "nome": "Buenos Aires",
+          "descricao": "Capital da Argentina, às margens do Rio da Prata.",
+          "variantes": [
+            "Santa María del Buen Ayre"
+          ]
+        },
+        {
+          "id": "catedral_de_lincoln",
+          "nome": "Catedral de Lincoln",
+          "descricao": "Catedral gótica da cidade de Lincoln, na Inglaterra, cuja torre central foi concluída por volta de 1311.",
+          "variantes": [
+            "Lincoln Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Wat Pho",
+        "descricao": "Templo budista de Bangkok, na Tailândia, conhecido como Templo do Buda Reclinado.",
+        "variantes": [
+          "Wat Po",
+          "Templo do Buda Reclinado",
+          "Wat Phra Chetuphon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "watchog",
+          "nome": "Watchog",
+          "descricao": "Pokémon do tipo Normal, número 505 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "templo_do_buda_de_esmeralda",
+          "nome": "Templo do Buda de Esmeralda",
+          "descricao": "Wat Phra Kaew, o templo budista mais sagrado da Tailândia, dentro do Grande Palácio em Bangkok.",
+          "variantes": [
+            "Wat Phra Kaew",
+            "Wat Phra Kaeo"
+          ]
+        },
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mesquita do Xá (Isfahan)",
+        "descricao": "Mesquita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+        "variantes": [
+          "Mesquita do Imã",
+          "Mesquita Imam Khomeini",
+          "Shah Mosque",
+          "Masjed-e Shah"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_do_xa_isfahan",
+          "nome": "Mesquita do Xá (Isfahan)",
+          "descricao": "Mesquita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+          "variantes": [
+            "Mesquita do Imã",
+            "Mesquita Imam Khomeini",
+            "Shah Mosque"
+          ]
+        },
+        {
+          "id": "mesquita_badshahi",
+          "nome": "Mesquita Badshahi",
+          "descricao": "Mesquita imperial mogol de arenito vermelho em Lahore, Paquistão, construída entre 1671 e 1673.",
+          "variantes": [
+            "Badshahi Mosque",
+            "Mesquita Real de Lahore"
+          ]
+        },
+        {
+          "id": "mesquita_de_suleymaniye",
+          "nome": "Mesquita de Süleymaniye",
+          "descricao": "Mesquita imperial otomana de Istambul, projetada por Mimar Sinan e concluída em 1557.",
+          "variantes": [
+            "Mesquita de Solimão",
+            "Süleymaniye Camii"
+          ]
+        },
+        {
+          "id": "mesquita_omiada",
+          "nome": "Mesquita Omíada",
+          "descricao": "Grande mesquita do século oito, na cidade velha de Damasco, uma das mais antigas ainda em uso.",
+          "variantes": [
+            "Grande Mesquita de Damasco",
+            "Mesquita dos Omíadas"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "gargula",
+      "motivo": "Mesma escultura grotesca com bica gótica."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_chartres",
+      "motivo": "Mesma catedral de Chartres."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Deusa egípcia Maat; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Troll do folclore nórdico; candidatas não relacionadas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Deusa Nut; candidatas não relacionadas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_florenca",
+      "motivo": "Mesma catedral de Santa Maria del Fiore; a cúpula é uma parte distinta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Wat Pho é distinto do Templo do Buda de Esmeralda e das demais candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "mesquita_do_xa_isfahan",
+      "motivo": "Mesma mesquita em Isfahan, descrição idêntica."
+    }
+  ]
+}

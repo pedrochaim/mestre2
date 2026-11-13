@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Gárgula esculpida em beiral de fortaleza, nítida; pergunta sobre a função, que se sabe depois de reconhecer.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta peça esculpida saindo da parede de um edifício tinha qual função prática?",
+      "resposta": "Escoar a água da chuva",
+      "distratores": [
+        "Defender contra invasores",
+        "Sinalizar com fogo",
+        "Marcar o limite do prédio"
+      ],
+      "ancora": {
+        "nome": "Gárgula",
+        "descricao": "Escultura grotesca com bica, usada em beirais, sobretudo na arquitetura gótica, para escoar a água do telhado.",
+        "variantes": [
+          "Gargoyle",
+          "Gargouille"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada inconfundível, com duas torres de estilos diferentes; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade francesa, a sudoeste de Paris, fica esta catedral gótica?",
+      "resposta": "Chartres",
+      "distratores": [
+        "Reims",
+        "Amiens",
+        "Rouen"
+      ],
+      "ancora": {
+        "nome": "Catedral de Chartres",
+        "descricao": "Catedral gótica de Notre-Dame, em Chartres, na França, concluída em grande parte entre 1194 e 1220.",
+        "variantes": [
+          "Chartres Cathedral",
+          "Catedral de Notre-Dame de Chartres"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Ilustração clara da deusa Maat, com a pena na cabeça, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que deusa egípcia é esta?",
+      "resposta": "Maat",
+      "ancora": {
+        "nome": "Maat",
+        "descricao": "Deusa egípcia que personificava a verdade, a justiça e a ordem do universo, representada com uma pena na cabeça.",
+        "variantes": [
+          "Maʽat",
+          "Ma'at"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns em primeiro plano; a inscrição de Agripa também aparece na fachada."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pintura de John Bauer (domínio público) com trolls cercando uma princesa; a assinatura não entrega a resposta, pois a pergunta é sobre as criaturas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que criaturas do folclore cercam a princesa nesta pintura sueca?",
+      "resposta": "Trolls",
+      "distratores": [
+        "Elfos",
+        "Valquírias",
+        "Anões"
+      ],
+      "ancora": {
+        "nome": "Troll",
+        "descricao": "Ser do folclore e da mitologia nórdicos, que habita rochas, montanhas e cavernas.",
+        "variantes": [
+          "Trol",
+          "Trolls"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração da deusa Nut com o vaso na cabeça, sem texto; reconhecimento exige conhecimento, por isso nível 3 em múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta deusa egípcia era casada com qual deus, que também era seu irmão?",
+      "resposta": "Geb",
+      "distratores": [
+        "Osíris",
+        "Rá",
+        "Hórus"
+      ],
+      "ancora": {
+        "nome": "Nut",
+        "descricao": "Deusa egípcia do céu, esposa e irmã de Geb e mãe de Osíris, Ísis, Set e Néftis.",
+        "variantes": [
+          "Nut (deusa)",
+          "Nuit"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista noturna icônica da catedral de Florença com a cúpula, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que arquiteto projetou a cúpula desta catedral?",
+      "resposta": "Filippo Brunelleschi",
+      "ancora": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral católica de Santa Maria del Fiore, em Florença, famosa pela cúpula de Brunelleschi.",
+        "variantes": [
+          "Santa Maria del Fiore",
+          "Duomo di Firenze",
+          "Duomo de Florença"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns em primeiro plano e letreiros em japonês visíveis."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A gravura traz a legenda 'Martigora' (variante do nome da mantícora), que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Livro aberto com texto em latim; não é reconhecível como obra específica e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Chedis e pavilhões decorados do templo, sem texto; reconhecível por quem conhece, e a pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que posição tem o Buda gigante abrigado neste templo de Bangkok?",
+      "resposta": "Reclinado (deitado)",
+      "ancora": {
+        "nome": "Wat Pho",
+        "descricao": "Templo budista de Bangkok, na Tailândia, conhecido como Templo do Buda Reclinado.",
+        "variantes": [
+          "Wat Po",
+          "Templo do Buda Reclinado",
+          "Wat Phra Chetuphon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista da Mesquita do Xá e da praça Naqsh-e Jahan, sem texto, com cúpula azulejada característica.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Em que país fica esta mesquita?",
+      "resposta": "Irã",
+      "ancora": {
+        "nome": "Mesquita do Xá (Isfahan)",
+        "descricao": "Mesquita safávida do século dezessete na praça Naqsh-e Jahan, em Isfahan, no Irã.",
+        "variantes": [
+          "Mesquita do Imã",
+          "Mesquita Imam Khomeini",
+          "Shah Mosque",
+          "Masjed-e Shah"
+        ]
+      }
+    }
+  ]
+}

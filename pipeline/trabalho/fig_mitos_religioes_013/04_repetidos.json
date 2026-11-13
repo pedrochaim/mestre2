@@ -1,0 +1,101 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta peça esculpida saindo da parede de um edifício tinha qual função prática?",
+        "resposta": "Escoar a água da chuva"
+      },
+      "existentes": [
+        {
+          "id": "q03199",
+          "pergunta": "Nas catedrais góticas, qual é a função prática original das gárgulas?",
+          "resposta": "Escoar a água da chuva"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade francesa fica esta catedral gótica, concluída em grande parte no início do século treze?",
+        "resposta": "Chartres"
+      },
+      "existentes": [
+        {
+          "id": "q11581",
+          "pergunta": "Em que cidade da França fica esta catedral gótica?",
+          "resposta": "Chartres"
+        },
+        {
+          "id": "q14595",
+          "pergunta": "Que catedral francesa é esta?",
+          "resposta": "Catedral de Chartres"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que arquiteto projetou a cúpula desta catedral?",
+        "resposta": "Filippo Brunelleschi"
+      },
+      "existentes": [
+        {
+          "id": "q03188",
+          "pergunta": "Que arquiteto renascentista ergueu a enorme cúpula da Catedral de Florença, no século quinze?",
+          "resposta": "Filippo Brunelleschi"
+        },
+        {
+          "id": "q07189",
+          "pergunta": "Em que século foi concluída a cúpula desta catedral?",
+          "resposta": "Século quinze"
+        },
+        {
+          "id": "q20979",
+          "pergunta": "Que catedral italiana é esta?",
+          "resposta": "Catedral de Florença"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que país fica esta mesquita?",
+        "resposta": "Irã"
+      },
+      "existentes": [
+        {
+          "id": "q19406",
+          "pergunta": "Em que país fica esta mesquita?",
+          "resposta": "Irã"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: função prática das gárgulas (escoar água da chuva).",
+      "id_existente": "q03199"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta a cidade da catedral de Chartres, igual à q11581.",
+      "id_existente": "q11581"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: arquiteto da cúpula da catedral de Florença, Brunelleschi.",
+      "id_existente": "q03188"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica: país da mesquita, Irã.",
+      "id_existente": "q19406"
+    }
+  ]
+}
