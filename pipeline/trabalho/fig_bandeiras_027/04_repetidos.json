@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Granada"
+      },
+      "existentes": [
+        {
+          "id": "q04995",
+          "pergunta": "Que especiaria, símbolo da economia da ilha, aparece desenhada na bandeira de Granada, no Caribe?",
+          "resposta": "Noz-moscada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Filipinas"
+      },
+      "existentes": [
+        {
+          "id": "q04987",
+          "pergunta": "Nas Filipinas, em que situação a bandeira nacional é hasteada de cabeça para baixo, com a faixa vermelha em cima?",
+          "resposta": "Em estado de guerra"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Barbados"
+      },
+      "existentes": [
+        {
+          "id": "q02368",
+          "pergunta": "Por que o tridente na bandeira de Barbados aparece com o cabo quebrado?",
+          "resposta": "Simboliza a ruptura com o passado colonial"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Libéria"
+      },
+      "existentes": [
+        {
+          "id": "q04986",
+          "pergunta": "Por que a bandeira da Libéria, com listras e uma estrela branca num canto azul, lembra tanto a dos Estados Unidos?",
+          "resposta": "O país foi fundado por ex-escravizados americanos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o país da bandeira é fato diferente de saber a especiaria desenhada nela."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o país é diferente de saber quando a bandeira é hasteada invertida."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o país é diferente do significado do cabo quebrado do tridente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o país é diferente de explicar a semelhança com a bandeira dos EUA."
+    }
+  ]
+}

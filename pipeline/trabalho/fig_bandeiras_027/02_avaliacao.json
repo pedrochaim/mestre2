@@ -1,0 +1,246 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, resposta única.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Ucrânia",
+      "ancora": {
+        "nome": "Bandeira da Ucrânia",
+        "descricao": "Bandeira nacional da Ucrânia, bicolor horizontal em azul e amarelo.",
+        "variantes": [
+          "Bandeira ucraniana"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira nítida com emblema característico (noz-moscada, estrelas); sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Granada",
+      "ancora": {
+        "nome": "Bandeira de Granada",
+        "descricao": "Bandeira nacional de Granada, país caribenho, com borda vermelha de estrelas, X verde e amarelo e uma noz-moscada.",
+        "variantes": [
+          "Bandeira de Grenada"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, distratores com triângulo ou cores parecidas.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Timor-Leste",
+      "distratores": [
+        "Cuba",
+        "Jordânia",
+        "Sudão"
+      ],
+      "ancora": {
+        "nome": "Bandeira de Timor-Leste",
+        "descricao": "Bandeira nacional de Timor-Leste, vermelha com triângulos amarelo e preto e uma estrela branca.",
+        "variantes": [
+          "Bandeira do Timor Leste",
+          "Bandeira de Timor Leste"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; pergunta vai além do reconhecimento (vizinho).",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que país rodeia por terra o país desta bandeira?",
+      "resposta": "Senegal",
+      "distratores": [
+        "Guiné-Bissau",
+        "Mali",
+        "Serra Leoa"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Gâmbia",
+        "descricao": "Bandeira nacional da Gâmbia, com faixas horizontais vermelha, azul e verde separadas por filetes brancos.",
+        "variantes": [
+          "Bandeira gambiana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, resposta única.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Filipinas",
+      "ancora": {
+        "nome": "Bandeira das Filipinas",
+        "descricao": "Bandeira nacional das Filipinas, com faixas azul e vermelha, triângulo branco, sol e três estrelas.",
+        "variantes": [
+          "Bandeira filipina"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; distratores de faixas horizontais.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Maurício",
+      "distratores": [
+        "Armênia",
+        "Bolívia",
+        "Gabão"
+      ],
+      "ancora": {
+        "nome": "Bandeira de Maurício",
+        "descricao": "Bandeira nacional de Maurício, com quatro faixas horizontais: vermelha, azul, amarela e verde.",
+        "variantes": [
+          "Bandeira das Ilhas Maurício"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, crescente e cinco estrelas características.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Singapura",
+      "ancora": {
+        "nome": "Bandeira de Singapura",
+        "descricao": "Bandeira nacional de Singapura, vermelha e branca com crescente e cinco estrelas.",
+        "variantes": [
+          "Bandeira singapuriana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira nítida; o lema em espanhol é minúsculo e não entrega o país.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Guiné Equatorial",
+      "distratores": [
+        "Irã",
+        "Bulgária",
+        "Tadjiquistão"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Guiné Equatorial",
+        "descricao": "Bandeira nacional da Guiné Equatorial, com faixas verde, branca e vermelha, triângulo azul e brasão central.",
+        "variantes": [
+          "Bandeira equato-guineense"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; pergunta sobre a capital depois de reconhecer.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Apia",
+      "ancora": {
+        "nome": "Bandeira de Samoa",
+        "descricao": "Bandeira nacional de Samoa, vermelha com cantão azul e cinco estrelas brancas do Cruzeiro do Sul.",
+        "variantes": [
+          "Bandeira samoana"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira nítida com tridente característico, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Barbados",
+      "ancora": {
+        "nome": "Bandeira de Barbados",
+        "descricao": "Bandeira nacional de Barbados, com faixas azul, amarela e azul e um tridente preto.",
+        "variantes": [
+          "Bandeira barbadiana"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; distratores listradas parecidas.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Libéria",
+      "distratores": [
+        "Estados Unidos",
+        "Malásia",
+        "Cuba"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Libéria",
+        "descricao": "Bandeira nacional da Libéria, com onze listras vermelhas e brancas e um cantão azul com estrela branca.",
+        "variantes": [
+          "Bandeira liberiana"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, desenho característico e único.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Ilhas Marshall",
+      "ancora": {
+        "nome": "Bandeira das Ilhas Marshall",
+        "descricao": "Bandeira nacional das Ilhas Marshall, azul com estrela branca e faixas diagonais laranja e branca.",
+        "variantes": [
+          "Bandeira de Marshall"
+        ]
+      }
+    }
+  ]
+}
