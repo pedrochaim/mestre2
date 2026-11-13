@@ -1,0 +1,149 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pele entre os dedos com descamação: aspecto inespecífico, pode ser maceração ou outra dermatite; não dá resposta única pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A ilustração traz legendas escritas, entre elas 'Temporalis', que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Micrografia de células esféricas com tentáculo, típicas de Noctiluca; reconhecível para o público de aficionado, e a pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quando este organismo microscópico marinho prolifera em excesso, pode causar que fenômeno nas águas?",
+      "resposta": "Maré vermelha",
+      "distratores": [
+        "Ressurgência costeira",
+        "Branqueamento de corais",
+        "Ressaca marítima"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Noctiluca",
+        "descricao": "Gênero de dinoflagelados marinhos unicelulares, com a espécie Noctiluca scintillans, capaz de bioluminescência.",
+        "variantes": [
+          "Noctiluca scintillans",
+          "Noctiluca scintillans"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto do rosto de uma pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem 3D clara de um crânio com um lobo cerebral destacado em vermelho, sem texto.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lobo do cérebro aparece destacado em vermelho nesta imagem?",
+      "resposta": "Lobo frontal",
+      "distratores": [
+        "Lobo parietal",
+        "Lobo temporal",
+        "Lobo occipital"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lobo frontal",
+        "descricao": "Maior lobo do cérebro humano, na parte anterior dos hemisférios cerebrais, separado do parietal pelo sulco central.",
+        "variantes": [
+          "Córtex frontal"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Micrografia em preto e branco com corpos esféricos e axopódios radiais, característicos de heliozoários.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Estes protistas de braços finos e radiais são parecidos com qual outro grupo de protistas, que se distingue por ter cápsula central e esqueleto complexo?",
+      "resposta": "Radiolários",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Heliozoário",
+        "descricao": "Protista de corpo esférico com axopódios rígidos que irradiam em todas as direções, chamado de animálculo-do-sol.",
+        "variantes": [
+          "Heliozoa",
+          "Animálculo-do-sol"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pernas vistas por trás, sem rosto, com a musculatura da panturrilha bem visível.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que região da perna mostra o músculo bem contraído nesta foto, com a pessoa na ponta dos pés?",
+      "resposta": "Panturrilha",
+      "distratores": [
+        "Coxa",
+        "Canela",
+        "Glúteo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Panturrilha",
+        "descricao": "Parte posterior da perna, entre o joelho e o tornozelo, formada pelos músculos gastrocnêmio e sóleo.",
+        "variantes": [
+          "Batata da perna",
+          "Barriga da perna"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Micrografia em preto e branco de uma célula grande com vários núcleos sobre tecido ósseo, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta célula grande, de vários núcleos, tem a função de remover qual tecido do corpo?",
+      "resposta": "Tecido ósseo",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Osteoclasto",
+        "descricao": "Célula multinucleada do tecido ósseo que reabsorve o osso, importante na remodelação e na regulação do cálcio no sangue.",
+        "variantes": [
+          "Osteoclastos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Células verdes esféricas misturadas com outro microrganismo: não é possível reconhecer Chlorella com unicidade diante de outras algas verdes unicelulares."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Retrato de uma pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pastilhas verdes: não se vê o microrganismo, e poderiam ser de clorela ou de outra alga; resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Microfilária em esfregaço sanguíneo: não distingue Wuchereria de Brugia ou Loa loa pela imagem; resposta não única."
+    }
+  ]
+}

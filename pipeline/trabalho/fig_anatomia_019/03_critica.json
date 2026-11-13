@@ -1,0 +1,58 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta falha: qualquer proliferação excessiva de dinoflagelado leva a maré vermelha, então a figura é enfeite. Além disso, a Noctiluca tem forma verde e a maré nem sempre é vermelha. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A cor vermelha é afirmação sobre a imagem que não dá para conferir por 'mostra'. Retirei a cor para o enunciado valer para qualquer destaque.",
+      "reescrita": {
+        "pergunta": "Que lobo do cérebro aparece destacado nesta imagem?",
+        "resposta": "Lobo frontal",
+        "distratores": [
+          "Lobo parietal",
+          "Lobo temporal",
+          "Lobo occipital"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado entrega a resposta ao citar cápsula central e esqueleto complexo, que são a definição dos radiolários. Troquei por uma pista que não entrega.",
+      "reescrita": {
+        "pergunta": "Estes protistas, de corpo esférico e projeções finas que irradiam como raios de sol, lembram qual grupo de protistas, em geral marinhos?",
+        "resposta": "Radiolários"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'na ponta dos pés' e 'músculo contraído' entrega a panturrilha sem olhar a figura. A pergunta passa a depender do reconhecimento da imagem.",
+      "reescrita": {
+        "pergunta": "Que região da perna aparece em destaque nesta foto?",
+        "resposta": "Panturrilha",
+        "distratores": [
+          "Coxa",
+          "Canela",
+          "Glúteo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos sustentam célula grande, multinucleada, que remove tecido ósseo. O enunciado não nomeia a célula, e a figura é necessária para reconhecê-la. A resposta é única e específica.",
+      "reescrita": null
+    }
+  ]
+}
