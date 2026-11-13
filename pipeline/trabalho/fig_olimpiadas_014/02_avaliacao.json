@@ -1,0 +1,128 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Jogadores com tacos de lacrosse bem visíveis; esporte reconhecível. Os textos nas camisas são de times universitários e não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que esporte, que voltará aos Jogos Olímpicos em 2028, é este?",
+      "resposta": "Lacrosse",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lacrosse",
+        "descricao": "Esporte coletivo de origem indígena norte-americana, jogado com um taco de rede e uma bola.",
+        "variantes": [
+          "Lacrosse de campo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato aproximado, sem nada que permita reconhecer o atleta pelo rosto; o fundo traz texto de patrocínio sem relação. Resposta não reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra barras de um parque de ginástica ao ar livre, à noite, e não as barras paralelas da ginástica artística. Não é reconhecível nem tem resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pista de bobsled abandonada, com grafites, sem texto que entregue a cidade; imagem nítida e característica.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que cidade fica esta pista olímpica abandonada?",
+      "resposta": "Sarajevo",
+      "distratores": [],
+      "ancora": {
+        "nome": "Pista olímpica de bobsled de Sarajevo",
+        "descricao": "Pista abandonada de bobsled e luge no monte Trebević, construída para os Jogos Olímpicos de Inverno de 1984.",
+        "variantes": [
+          "Pista de bobsled e luge de Sarajevo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública com medalha, bandeira jamaicana no agasalho e legenda de campeonato sem nome. A pergunta sobre a edição evita nomear a atleta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que edição dos Jogos Olímpicos esta velocista conquistou seu primeiro ouro nos cem metros?",
+      "resposta": "Rio 2016",
+      "distratores": [
+        "Londres 2012",
+        "Tóquio 2020",
+        "Pequim 2008"
+      ],
+      "ancora": {
+        "nome": "Elaine Thompson-Herah",
+        "descricao": "Velocista jamaicana, pentacampeã olímpica dos 100 m e 200 m.",
+        "variantes": [
+          "Elaine Thompson"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É um cartaz com texto visível 'Paris 1924' e 'Jeux Olympiques', que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto de uma mulher de perfil na praia, sem nada que permita reconhecê-la; resposta não reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A fita da medalha traz 'Rio 2016' escrito, o que entrega a edição que a pergunta pediria."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública em prova de esqui; texto de patrocinadores e local não revela o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esta esquiadora norte-americana?",
+      "resposta": "Lindsey Vonn",
+      "distratores": [
+        "Mikaela Shiffrin",
+        "Julia Mancuso",
+        "Picabo Street"
+      ],
+      "ancora": {
+        "nome": "Lindsey Vonn",
+        "descricao": "Esquiadora alpina norte-americana, campeã olímpica do downhill em 2010.",
+        "variantes": [
+          "Lindsey Kildow"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto de um homem de terno em tribuna, sem relação visível com o judô; não reconhecível pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Dois jogadores comuns aparecem em primeiro plano, de costas, e há placa com texto; pessoas comuns não são permitidas."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, sem nada que permita reconhecer a pessoa; não legível no celular."
+    }
+  ]
+}

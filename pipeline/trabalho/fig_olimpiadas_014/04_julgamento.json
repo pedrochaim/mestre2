@@ -1,0 +1,198 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lacrosse",
+        "descricao": "Esporte coletivo de origem indígena norte-americana, jogado com um taco de rede e uma bola.",
+        "variantes": [
+          "Lacrosse de campo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lacrosse",
+          "nome": "Lacrosse",
+          "descricao": "Esporte de origem indígena norte-americana, jogado com bastões de rede.",
+          "variantes": []
+        },
+        {
+          "id": "lago_retba",
+          "nome": "Lago Retba",
+          "descricao": "Lago salgado de águas cor-de-rosa perto de Dacar, no Senegal.",
+          "variantes": [
+            "Lago Rosa",
+            "Lac Rose",
+            "Lake Retba"
+          ]
+        },
+        {
+          "id": "lacoste",
+          "nome": "Lacoste",
+          "descricao": "Marca francesa de roupas fundada em 1933 pelo tenista René Lacoste, famosa pela camisa polo.",
+          "variantes": [
+            "La Chemise Lacoste",
+            "Lacoste (marca)"
+          ]
+        },
+        {
+          "id": "turma_da_monica_lacos",
+          "nome": "Turma da Mônica: Laços",
+          "descricao": "Graphic novel de 2013 da Turma da Mônica, adaptada para o cinema em 2019",
+          "variantes": [
+            "Laços"
+          ]
+        },
+        {
+          "id": "turma_da_monica_lacos_2",
+          "nome": "Turma da Mônica: Laços",
+          "descricao": "Filme brasileiro de 2019, adaptação em live action da graphic novel da Turma da Mônica.",
+          "variantes": [
+            "Laços"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pista olímpica de bobsled de Sarajevo",
+        "descricao": "Pista abandonada de bobsled e luge no monte Trebević, construída para os Jogos Olímpicos de Inverno de 1984.",
+        "variantes": [
+          "Pista de bobsled e luge de Sarajevo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "final_olimpica_de_basquete_de_1972",
+          "nome": "Final olímpica de basquete de 1972",
+          "descricao": "Decisão do basquete masculino nos Jogos de Munique, vencida pela União Soviética sobre os Estados Unidos.",
+          "variantes": [
+            "Final de Munique 1972",
+            "Estados Unidos x União Soviética 1972"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Elaine Thompson-Herah",
+        "descricao": "Velocista jamaicana, pentacampeã olímpica dos 100 m e 200 m.",
+        "variantes": [
+          "Elaine Thompson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "klay_thompson",
+          "nome": "Klay Thompson",
+          "descricao": "Arremessador americano de basquete da NBA, quatro vezes campeão pelo Golden State Warriors.",
+          "variantes": [
+            "Klay Alexander Thompson"
+          ]
+        },
+        {
+          "id": "gazela_de_thomson",
+          "nome": "Gazela-de-thomson",
+          "descricao": "Pequena gazela da África Oriental (Eudorcas thomsonii), com faixa escura no flanco.",
+          "variantes": [
+            "Eudorcas thomsonii",
+            "Tommie",
+            "Thomson's gazelle"
+          ]
+        },
+        {
+          "id": "submetralhadora_thompson",
+          "nome": "Submetralhadora Thompson",
+          "descricao": "Submetralhadora americana criada por John T. Thompson em 1918, famosa nos anos 1920 e na Segunda Guerra Mundial.",
+          "variantes": [
+            "Thompson",
+            "Tommy gun",
+            "Thompson submachine gun"
+          ]
+        },
+        {
+          "id": "william_thomson_lorde_kelvin",
+          "nome": "William Thomson (Lorde Kelvin)",
+          "descricao": "Físico britânico do século dezenove, nascido em Belfast e professor em Glasgow, que dá nome à escala Kelvin.",
+          "variantes": [
+            "Lord Kelvin",
+            "Lorde Kelvin",
+            "William Thomson"
+          ]
+        },
+        {
+          "id": "dupond_e_dupont",
+          "nome": "Dupond e Dupont",
+          "descricao": "Dupla de detetives atrapalhados da polícia nos quadrinhos As Aventuras de Tintim, distinguíveis pelos bigodes.",
+          "variantes": [
+            "Thomson e Thompson",
+            "Dupond et Dupont",
+            "Os Detetives",
+            "Thomson and Thompson"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lindsey Vonn",
+        "descricao": "Esquiadora alpina norte-americana, campeã olímpica do downhill em 2010.",
+        "variantes": [
+          "Lindsey Kildow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lindsey_vonn",
+          "nome": "Lindsey Vonn",
+          "descricao": "Esquiadora alpina americana, campeã olímpica da descida em 2010 e quatro vezes campeã geral da Copa do Mundo.",
+          "variantes": [
+            "Lindsey Caroline Vonn",
+            "Lindsey Kildow"
+          ]
+        },
+        {
+          "id": "lindsay_davenport",
+          "nome": "Lindsay Davenport",
+          "descricao": "Tenista americana, ex-número 1 do mundo e campeã do US Open de 1998.",
+          "variantes": [
+            "Davenport"
+          ]
+        },
+        {
+          "id": "lumineon",
+          "nome": "Lumineon",
+          "descricao": "Pokémon do tipo Água, número 457 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "lacrosse",
+      "motivo": "Mesmo esporte, descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pista de bobsled de Sarajevo é diferente da final de basquete de 1972."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a velocista Elaine Thompson-Herah; apenas sobrenomes parecidos."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "lindsey_vonn",
+      "motivo": "Mesma esquiadora, campeã olímpica da descida em 2010, com a variante Lindsey Kildow."
+    }
+  ]
+}

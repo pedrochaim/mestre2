@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que esporte coletivo, disputado nos Jogos Olímpicos de mil novecentos e quatro e de mil novecentos e oito, é este?",
+        "resposta": "Lacrosse"
+      },
+      "existentes": [
+        {
+          "id": "q00521",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Lacrosse"
+        },
+        {
+          "id": "q19948",
+          "pergunta": "Duro e às vezes violento, o lacrosse servia de treino para o combate entre povos indígenas da América do Norte. Como alguns deles chamavam o jogo?",
+          "resposta": "Irmão menor da guerra"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é esta esquiadora norte-americana?",
+        "resposta": "Lindsey Vonn"
+      },
+      "existentes": [
+        {
+          "id": "q17973",
+          "pergunta": "Em que prova esta esquiadora conquistou o ouro olímpico em 2010?",
+          "resposta": "Descida"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00521",
+      "motivo": "Ambas pedem identificar o esporte da imagem, com resposta Lacrosse; quem acerta uma sabe a outra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da esquiadora; a existente pede a prova do ouro olímpico em 2010. São fatos diferentes."
+    }
+  ]
+}
