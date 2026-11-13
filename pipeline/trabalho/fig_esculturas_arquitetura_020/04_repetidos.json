@@ -1,0 +1,161 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que igreja é esta?",
+        "resposta": "Hallgrímskirkja"
+      },
+      "existentes": [
+        {
+          "id": "q18625",
+          "pergunta": "Em que capital fica esta igreja luterana de torre escalonada?",
+          "resposta": "Reykjavík"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que usina hidrelétrica é esta?",
+        "resposta": "Itaipu"
+      },
+      "existentes": [
+        {
+          "id": "q02166",
+          "pergunta": "A usina de Itaipu, no rio Paraná, começou a gerar energia em que década do século vinte?",
+          "resposta": "Anos 1980"
+        },
+        {
+          "id": "q02415",
+          "pergunta": "Que famoso conjunto de cachoeiras do rio Paraná desapareceu em 1982, coberto pelas águas do lago da usina de Itaipu?",
+          "resposta": "Salto de Sete Quedas"
+        },
+        {
+          "id": "q02416",
+          "pergunta": "A usina hidrelétrica de Itaipu, no rio Paraná, é dividida meio a meio entre o Brasil e qual país vizinho?",
+          "resposta": "Paraguai"
+        },
+        {
+          "id": "q15437",
+          "pergunta": "Que usina hidrelétrica sul-americana é esta?",
+          "resposta": "Itaipu"
+        },
+        {
+          "id": "q17736",
+          "pergunta": "A usina de Itaipu, no rio Paraná, tem quantas unidades geradoras?",
+          "resposta": "Vinte"
+        },
+        {
+          "id": "q17737",
+          "pergunta": "Em tupi, o nome Itaipu, da usina binacional no rio Paraná, significa o quê?",
+          "resposta": "Pedra que canta"
+        },
+        {
+          "id": "q19121",
+          "pergunta": "Em que década começou a construção desta usina hidrelétrica?",
+          "resposta": "Década de 1970"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que represa é esta?",
+        "resposta": "Represa Hoover"
+      },
+      "existentes": [
+        {
+          "id": "q05480",
+          "pergunta": "Entre 1933 e 1947, a represa Hoover, no rio Colorado, foi chamada por outro nome, tirado de um cânion vizinho. Qual?",
+          "resposta": "Boulder"
+        },
+        {
+          "id": "q07160",
+          "pergunta": "A represa no rio Colorado que forma o lago Mead, na divisa de Nevada com o Arizona, leva o nome de qual presidente americano?",
+          "resposta": "Herbert Hoover"
+        },
+        {
+          "id": "q21607",
+          "pergunta": "Que rio foi represado por esta barragem?",
+          "resposta": "Rio Colorado"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que cidade fica esta grande mesquita do século oito?",
+        "resposta": "Damasco"
+      },
+      "existentes": [
+        {
+          "id": "q20592",
+          "pergunta": "Em que país fica esta mesquita?",
+          "resposta": "Síria"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que escritório de arquitetura projetou este arranha-céu de Chicago?",
+        "resposta": "Skidmore, Owings & Merrill"
+      },
+      "existentes": [
+        {
+          "id": "q20998",
+          "pergunta": "Que arranha-céu é este?",
+          "resposta": "Willis Tower (antiga Sears Tower)"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que construção romana é esta?",
+        "resposta": "Pont du Gard"
+      },
+      "existentes": [
+        {
+          "id": "q00091",
+          "pergunta": "A Ponte do Gard, um aqueduto romano com três andares de arcos, fica em qual país atual?",
+          "resposta": "França"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nova pede o nome da igreja; a existente pede a capital (resposta Reykjavík). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q15437",
+      "motivo": "Ambas pedem a identificação da usina como Itaipu a partir da imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nova pede identificar a represa pela imagem; existentes perguntam o nome antigo, o presidente e o rio, que são fatos diferentes. A pergunta do rio não revela Hoover."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cidade (Damasco) e país (Síria) são fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o escritório de arquitetura; a existente pede o nome do prédio."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nova pede o nome da construção; a existente pede o país onde fica."
+    }
+  ]
+}

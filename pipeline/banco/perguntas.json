@@ -431103,5 +431103,135 @@
       "autor": "NASA",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q21681",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "hallgrimskirkja",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que igreja é esta?",
+    "resposta": "Hallgrímskirkja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hallgr%C3%ADmskirkja",
+      "https://pt.wikipedia.org/wiki/Hallgr%C3%ADmskirkja"
+    ],
+    "imagem": {
+      "arquivo": "q21681.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hallgrimskirkja_mai_2026.jpg",
+      "autor": "Steinninn",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q21682",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "represa_hoover",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que represa é esta?",
+    "resposta": "Represa Hoover",
+    "distratores": [
+      "Represa Grand Coulee",
+      "Represa Glen Canyon",
+      "Represa Shasta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hoover_Dam",
+      "https://pt.wikipedia.org/wiki/Represa_Hoover"
+    ],
+    "imagem": {
+      "arquivo": "q21682.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_-_National_Archives_79-AAB-01.jpg",
+      "autor": "Ansel Adams",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q21683",
+    "tema": "Artes e Pensamento",
+    "subtema": "Religiões",
+    "ancora": "mesquita_omiada",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica esta grande mesquita do século oito?",
+    "resposta": "Damasco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Umayyad_Mosque",
+      "https://pt.wikipedia.org/wiki/Mesquita_dos_Om%C3%ADadas"
+    ],
+    "imagem": {
+      "arquivo": "q21683.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ommayyad_masjed.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q21684",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "willis_tower",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que escritório de arquitetura projetou este arranha-céu de Chicago?",
+    "resposta": "Skidmore, Owings & Merrill",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Willis_Tower",
+      "https://pt.wikipedia.org/wiki/Willis_Tower"
+    ],
+    "imagem": {
+      "arquivo": "q21684.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chicago_Sears_Tower.jpg",
+      "autor": "Daniel Schwen",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q21685",
+    "tema": "Artes e Pensamento",
+    "subtema": "Religiões",
+    "ancora": "templo_kailasa_ellora",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que templo hindu é este?",
+    "resposta": "Templo Kailasa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kailasa_Temple%2C_Ellora",
+      "https://pt.wikipedia.org/wiki/Templo_de_Kailasa"
+    ],
+    "imagem": {
+      "arquivo": "q21685.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ellora_Cave_16_si0308.jpg",
+      "autor": "G41rn8",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q21686",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "ponte_do_gard",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que construção romana é esta?",
+    "resposta": "Pont du Gard",
+    "distratores": [
+      "Aqueduto de Segóvia",
+      "Aqueduto de Valens",
+      "Aqueduto de Tarragona"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pont_du_Gard",
+      "https://pt.wikipedia.org/wiki/Ponte_do_Gard"
+    ],
+    "imagem": {
+      "arquivo": "q21686.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg",
+      "autor": "Benh LIEU SONG (Flickr)",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

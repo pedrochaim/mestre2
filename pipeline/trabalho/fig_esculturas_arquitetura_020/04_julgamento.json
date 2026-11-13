@@ -1,0 +1,473 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Hallgrímskirkja",
+        "descricao": "Igreja luterana de concreto em Reykjavík, Islândia, com torre em forma de colunas de basalto, concluída em 1986.",
+        "variantes": [
+          "Igreja de Hallgrímur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hallgrimskirkja",
+          "nome": "Hallgrímskirkja",
+          "descricao": "Igreja luterana de Reykjavík, a maior da Islândia, com torre em forma de basalto escalonado, concluída em 1986.",
+          "variantes": [
+            "Igreja de Hallgrímur"
+          ]
+        },
+        {
+          "id": "igrejas_de_lalibela",
+          "nome": "Igrejas de Lalibela",
+          "descricao": "Conjunto de igrejas monolíticas escavadas na rocha na cidade de Lalibela, na Etiópia, Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Igrejas escavadas na rocha de Lalibela",
+            "Rock-Hewn Churches, Lalibela",
+            "Rock-Hewn Churches of Lalibela"
+          ]
+        },
+        {
+          "id": "igreja_do_outeiro_da_gloria",
+          "nome": "Igreja do Outeiro da Glória",
+          "descricao": "Igreja colonial do século XVIII no alto do Outeiro da Glória, no Rio de Janeiro.",
+          "variantes": [
+            "Igreja de Nossa Senhora da Glória do Outeiro",
+            "Igreja da Glória"
+          ]
+        },
+        {
+          "id": "a_igreja_de_auvers",
+          "nome": "A Igreja de Auvers",
+          "descricao": "Pintura a óleo de Vincent van Gogh, de junho de 1890, que retrata a igreja de Auvers-sur-Oise.",
+          "variantes": [
+            "A Igreja de Auvers (Van Gogh)",
+            "A Igreja em Auvers",
+            "The Church at Auvers",
+            "L'église d'Auvers"
+          ]
+        },
+        {
+          "id": "igreja_da_candelaria",
+          "nome": "Igreja da Candelária",
+          "descricao": "Igreja católica no centro do Rio de Janeiro, de fachada barroca portuguesa, construída a partir de 1775.",
+          "variantes": [
+            "Igreja de Nossa Senhora da Candelária"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Usina de Itaipu",
+        "descricao": "Usina hidrelétrica no Rio Paraná, na fronteira entre Brasil e Paraguai.",
+        "variantes": [
+          "Itaipu",
+          "Barragem de Itaipu",
+          "Itaipu Binacional"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usina_de_itaipu",
+          "nome": "Usina de Itaipu",
+          "descricao": "Usina hidrelétrica binacional de Brasil e Paraguai, no rio Paraná.",
+          "variantes": [
+            "Itaipu",
+            "Itaipu Binacional",
+            "Itaipu Dam",
+            "Usina Hidrelétrica de Itaipu"
+          ]
+        },
+        {
+          "id": "represa_de_assua",
+          "nome": "Represa de Assuã",
+          "descricao": "Grande barragem no rio Nilo, no sul do Egito, construída nos anos 1960, que formou o lago Nasser.",
+          "variantes": [
+            "Represa Alta de Assuã",
+            "Barragem de Assuã",
+            "Aswan High Dam",
+            "Alta Barragem de Assuã"
+          ]
+        },
+        {
+          "id": "tabu",
+          "nome": "Tabu",
+          "descricao": "Palavra para uma proibição social ou religiosa, vinda das línguas polinésias",
+          "variantes": [
+            "Taboo",
+            "Tapu"
+          ]
+        },
+        {
+          "id": "simbolo_da_raiz_quadrada",
+          "nome": "Símbolo da raiz quadrada",
+          "descricao": "Símbolo matemático em forma de visto alongado que indica a extração de uma raiz.",
+          "variantes": [
+            "Radical",
+            "Sinal de raiz"
+          ]
+        },
+        {
+          "id": "sinal_de_mais",
+          "nome": "Sinal de mais",
+          "descricao": "Símbolo matemático em forma de cruz que indica a adição e os números positivos.",
+          "variantes": [
+            "Sinal de adição",
+            "Sinal positivo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Represa Hoover",
+        "descricao": "Represa de concreto em arco-gravidade no Cânion Negro do Rio Colorado, entre Nevada e Arizona, concluída em 1936.",
+        "variantes": [
+          "Hoover Dam",
+          "Barragem Hoover",
+          "Boulder Dam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "represa_hoover",
+          "nome": "Represa Hoover",
+          "descricao": "Barragem de concreto no rio Colorado, na divisa entre Nevada e Arizona, construída nos anos 1930.",
+          "variantes": [
+            "Hoover Dam",
+            "Barragem Hoover",
+            "Boulder Dam"
+          ]
+        },
+        {
+          "id": "boulder",
+          "nome": "Boulder",
+          "descricao": "Modalidade de escalada em blocos de rocha ou paredes artificiais baixas, sem cordas e com colchões de proteção.",
+          "variantes": [
+            "Bouldering",
+            "Escalada em blocos"
+          ]
+        },
+        {
+          "id": "chapeu_coco",
+          "nome": "Chapéu-coco",
+          "descricao": "Chapéu de feltro duro com copa arredondada, criado em Londres em 1849.",
+          "variantes": [
+            "Bowler hat",
+            "Derby",
+            "Chapéu-melão",
+            "Chapéu de coco"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "lei_butler",
+          "nome": "Lei Butler",
+          "descricao": "Lei do Tennessee, de 1925, que proibia ensinar nas escolas públicas que o ser humano descende de animais.",
+          "variantes": [
+            "Butler Act"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mesquita Omíada de Damasco",
+        "descricao": "Grande mesquita do século oito na cidade velha de Damasco, Síria, uma das mais antigas ainda em uso.",
+        "variantes": [
+          "Grande Mesquita de Damasco",
+          "Mesquita dos Omíadas",
+          "Umayyad Mosque"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_omiada",
+          "nome": "Mesquita Omíada",
+          "descricao": "Grande mesquita do século oito, na cidade velha de Damasco, uma das mais antigas ainda em uso.",
+          "variantes": [
+            "Grande Mesquita de Damasco",
+            "Mesquita dos Omíadas"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_samarra",
+          "nome": "Grande Mesquita de Samarra",
+          "descricao": "Antiga mesquita abássida do século nove em Samarra, Iraque, famosa pelo minarete em espiral.",
+          "variantes": [
+            "Mesquita Al-Malwiya",
+            "Great Mosque of Samarra",
+            "Malwiya"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_kairouan",
+          "nome": "Grande Mesquita de Kairouan",
+          "descricao": "Mesquita de Kairouan, na Tunísia, fundada por Uqba ibn Nafi por volta de 670, uma das mais antigas do Magreb.",
+          "variantes": [
+            "Mesquita de Uqba",
+            "Grande Mesquita de Cairuão",
+            "Great Mosque of Kairouan"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Willis Tower",
+        "descricao": "Arranha-céu de 110 andares no Loop de Chicago, inaugurado em 1973 e antes chamado Sears Tower.",
+        "variantes": [
+          "Sears Tower",
+          "Torre Willis",
+          "Torre Sears"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "willis_tower",
+          "nome": "Willis Tower",
+          "descricao": "Arranha-céu de 110 andares em Chicago, antiga Sears Tower.",
+          "variantes": [
+            "Sears Tower"
+          ]
+        },
+        {
+          "id": "torre_solar",
+          "nome": "Torre solar",
+          "descricao": "Usina solar térmica em que um campo de espelhos móveis concentra a luz do sol no topo de uma torre central.",
+          "variantes": [
+            "Usina de torre central",
+            "Torre de energia solar"
+          ]
+        },
+        {
+          "id": "torre_do_diabo",
+          "nome": "Torre do Diabo",
+          "descricao": "Grande rochedo de colunas de rocha ígnea no nordeste do Wyoming, nos Estados Unidos.",
+          "variantes": [
+            "Devils Tower"
+          ]
+        },
+        {
+          "id": "torre_de_telefonia_celular",
+          "nome": "Torre de telefonia celular",
+          "descricao": "Estrutura elevada com antenas e equipamentos que forma uma célula numa rede de telefonia celular.",
+          "variantes": [
+            "Torre celular",
+            "Estação rádio base",
+            "ERB",
+            "Antena de celular"
+          ]
+        },
+        {
+          "id": "burj_al_arab",
+          "nome": "Burj Al Arab",
+          "descricao": "Hotel de luxo erguido numa ilha artificial na costa de Dubai, nos Emirados Árabes Unidos, inaugurado em 1999.",
+          "variantes": [
+            "Torre dos Árabes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Templo Kailasa (Ellora)",
+        "descricao": "Maior templo hindu escavado na rocha das Cavernas de Ellora, em Maharashtra, na Índia.",
+        "variantes": [
+          "Kailasanatha",
+          "Kailasa",
+          "Kailash Temple",
+          "Templo de Kailasa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grutas_de_ellora",
+          "nome": "Grutas de Ellora",
+          "descricao": "Complexo de templos e mosteiros escavados na rocha, em Aurangabad, na Índia, incluindo o templo de Kailasa.",
+          "variantes": [
+            "Ellora Caves",
+            "Templo de Kailasa"
+          ]
+        },
+        {
+          "id": "templo_de_philae",
+          "nome": "Templo de Philae",
+          "descricao": "Complexo de templos egípcios dedicado à deusa Ísis, hoje na ilha de Agilkia, perto de Assuã, no Egito.",
+          "variantes": [
+            "Templo de Filas",
+            "Templo de Ísis em Filas"
+          ]
+        },
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        },
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "templo_de_apolo_epicuro",
+          "nome": "Templo de Apolo Epicuro",
+          "descricao": "Templo dórico do século cinco antes de Cristo em Bassas, na Arcádia, no Peloponeso, Grécia.",
+          "variantes": [
+            "Templo de Apolo em Bassas",
+            "Templo de Bassae",
+            "Temple of Apollo Epicurius"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pont du Gard",
+        "descricao": "Ponte-aqueduto romana do século primeiro sobre o Rio Gardon, no sul da França.",
+        "variantes": [
+          "Ponte do Gard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        },
+        {
+          "id": "dragao_de_liubliana",
+          "nome": "Dragão de Liubliana",
+          "descricao": "Escultura de dragão de bronze esverdeado da Ponte do Dragão, símbolo da capital eslovena.",
+          "variantes": [
+            "Dragão europeu",
+            "Ponte do Dragão",
+            "Dragon Bridge",
+            "Ljubljana dragon"
+          ]
+        },
+        {
+          "id": "ponyta",
+          "nome": "Ponyta",
+          "descricao": "Pokémon do tipo Fogo da primeira geração, um pônei de crina e cauda em chamas, número 77 da Pokédex Nacional.",
+          "variantes": [
+            "Ponyta de Galar"
+          ]
+        },
+        {
+          "id": "a_ponte_de_langlois_em_arles",
+          "nome": "A Ponte de Langlois em Arles",
+          "descricao": "Série de pinturas de Van Gogh de 1888 que retratam a ponte levadiça de Langlois sobre um canal perto de Arles.",
+          "variantes": [
+            "A Ponte de Langlois em Arles (Van Gogh)",
+            "A Ponte de Langlois",
+            "Ponte de Arles",
+            "Langlois Bridge at Arles",
+            "Pont de Langlois"
+          ]
+        },
+        {
+          "id": "forte_de_sao_marcelo",
+          "nome": "Forte de São Marcelo",
+          "descricao": "Forte circular erguido sobre arrecifes na Baía de Todos os Santos, em frente ao centro histórico de Salvador, na Bahia.",
+          "variantes": [
+            "Forte do Mar",
+            "Forte de Nossa Senhora do Pópulo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "hallgrimskirkja",
+      "motivo": "Mesma igreja de Reykjavík, concluída em 1986."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "usina_de_itaipu",
+      "motivo": "Mesma usina binacional no rio Paraná."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "represa_hoover",
+      "motivo": "Mesma represa no rio Colorado, mesmas variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "mesquita_omiada",
+      "motivo": "Mesma mesquita omíada de Damasco do século oito."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "willis_tower",
+      "motivo": "Mesmo arranha-céu de Chicago, antiga Sears Tower."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O templo Kailasa é uma parte do complexo das Grutas de Ellora, entidade distinta; o Monte Kailash é outra coisa."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "ponte_do_gard",
+      "motivo": "Mesma ponte-aqueduto romana; Pont du Gard é o nome francês."
+    }
+  ]
+}

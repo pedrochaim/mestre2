@@ -1,0 +1,183 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O nome COPACABANA PALACE aparece escrito na fachada e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Igreja inconfundível, sem texto e com boa leitura no celular.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que igreja é esta?",
+      "resposta": "Hallgrímskirkja",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hallgrímskirkja",
+        "descricao": "Igreja luterana de concreto em Reykjavík, Islândia, com torre em forma de colunas de basalto, concluída em 1986.",
+        "variantes": [
+          "Igreja de Hallgrímur",
+          "Hallgrimskirkja"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Há vários mosteiros de São Bento coloniais parecidos no Brasil (Salvador, Olinda, São Paulo) e a fachada não é reconhecível de forma única. Os distratores plausíveis também seriam defensáveis."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea característica da barragem e do vertedouro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que usina hidrelétrica é esta?",
+      "resposta": "Itaipu",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Usina de Itaipu",
+        "descricao": "Usina hidrelétrica no Rio Paraná, na fronteira entre Brasil e Paraguai.",
+        "variantes": [
+          "Itaipu",
+          "Barragem de Itaipu",
+          "Itaipu Binacional"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco do cânion e do paredão, sem texto e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que represa é esta?",
+      "resposta": "Represa Hoover",
+      "distratores": [
+        "Represa Grand Coulee",
+        "Represa Glen Canyon",
+        "Represa Shasta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Represa Hoover",
+        "descricao": "Represa de concreto em arco-gravidade no Cânion Negro do Rio Colorado, entre Nevada e Arizona, concluída em 1936.",
+        "variantes": [
+          "Hoover Dam",
+          "Barragem Hoover",
+          "Boulder Dam"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada e pátio reconhecíveis, sem texto legível; as pessoas estão pequenas e ao fundo.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica esta grande mesquita do século oito?",
+      "resposta": "Damasco",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Mesquita Omíada de Damasco",
+        "descricao": "Grande mesquita do século oito na cidade velha de Damasco, Síria, uma das mais antigas ainda em uso.",
+        "variantes": [
+          "Grande Mesquita de Damasco",
+          "Mesquita dos Omíadas",
+          "Umayyad Mosque"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoas comuns aparecem em primeiro plano, em grande número, e há placas legíveis ao redor."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Arranha-céu escuro com antenas gêmeas e recuos escalonados, central e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que escritório de arquitetura projetou este arranha-céu de Chicago?",
+      "resposta": "Skidmore, Owings & Merrill",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Willis Tower",
+        "descricao": "Arranha-céu de 110 andares no Loop de Chicago, inaugurado em 1973 e antes chamado Sears Tower.",
+        "variantes": [
+          "Sears Tower",
+          "Torre Willis",
+          "Torre Sears"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Templo escavado na rocha, com entalhes característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que templo hindu é este?",
+      "resposta": "Templo Kailasa",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo Kailasa (Ellora)",
+        "descricao": "Maior templo hindu escavado na rocha das Cavernas de Ellora, em Maharashtra, na Índia.",
+        "variantes": [
+          "Kailasanatha",
+          "Kailasa",
+          "Kailash Temple",
+          "Templo de Kailasa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Aqueduto de três níveis de arcos, inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que construção romana é esta?",
+      "resposta": "Pont du Gard",
+      "distratores": [
+        "Aqueduto de Segóvia",
+        "Aqueduto de Valens",
+        "Aqueduto de Tarragona"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pont du Gard",
+        "descricao": "Ponte-aqueduto romana do século primeiro sobre o Rio Gardon, no sul da França.",
+        "variantes": [
+          "Ponte do Gard",
+          "Pont du Gard"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome THEATRO JOSÉ DE ALENCAR está escrito na fachada e entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Os telões mostram texto (Real Madrid, FC Bayern München, Semifinal) e a faixa traz EL REAL MADRID. Texto e escudos entregam a resposta."
+    }
+  ]
+}
