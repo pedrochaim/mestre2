@@ -1,0 +1,151 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bússola nítida, texto só com pontos cardeais, que não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país surgiu pela primeira vez este objeto, antes usado em adivinhações?",
+      "resposta": "China",
+      "distratores": [
+        "Egito",
+        "Grécia",
+        "Índia"
+      ],
+      "ancora": {
+        "nome": "Bússola",
+        "descricao": "Instrumento de orientação com agulha magnetizada que aponta para o norte magnético.",
+        "variantes": [
+          "Compasso magnético"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto mostra Thomas Edison em primeiro plano com um fonógrafo de cilindro, não um gramofone; a resposta fica ambígua e a pessoa domina a imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Ilustração vetorial simplificada de objeto que poderia ser fotografado; pouco reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Cama inteira com lençol, cabeceira e travesseiros: a figura é ambígua quanto ao que se pede e a cena é escura."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Botas de pele de carneiro com forro de lã, bem visíveis; a origem é documentada.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país surgiram estas botas forradas de lã, a princípio usadas por surfistas?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Canadá",
+        "Islândia",
+        "Mongólia"
+      ],
+      "ancora": {
+        "nome": "Bota Ugg",
+        "descricao": "Bota unissex de pele de carneiro com lã por dentro, originada na Austrália.",
+        "variantes": [
+          "Ugg boots",
+          "Botas ugg"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Três plainas de madeira nítidas; as letras A, B e C são só rótulos e não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ferramenta de carpintaria é esta?",
+      "resposta": "Plaina",
+      "ancora": {
+        "nome": "Plaina",
+        "descricao": "Ferramenta manual de carpintaria com lâmina fixa num corpo, usada para alisar madeira.",
+        "variantes": [
+          "Plaina manual"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Carrinho de mão bem visível e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Carrinho de mão",
+      "ancora": {
+        "nome": "Carrinho de mão",
+        "descricao": "Veículo pequeno de uma roda, empurrado por uma pessoa por duas alças.",
+        "variantes": [
+          "Carrinho de obra"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano fora de festa pública; o boné tem texto parcial."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vestido estampado em manequim, fundo branco, sem texto e sem pessoa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que peça de roupa é esta?",
+      "resposta": "Vestido",
+      "ancora": {
+        "nome": "Vestido",
+        "descricao": "Peça de roupa inteiriça que cobre o tronco e desce sobre as pernas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Desenho a traço de um tecido drapeado; não é reconhecível como pareô e a resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Peça de porcelana com tampa e duas alças que também pode ser uma tigela de caldo (écuelle); a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Utensílio com concha funda e cabo longo, nítido sobre fundo neutro sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Concha",
+      "ancora": {
+        "nome": "Concha",
+        "descricao": "Utensílio de cozinha com cabo longo e taça funda, usado para servir líquidos.",
+        "variantes": [
+          "Concha de sopa"
+        ]
+      }
+    }
+  ]
+}

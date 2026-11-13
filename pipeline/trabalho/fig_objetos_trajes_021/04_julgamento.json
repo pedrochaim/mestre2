@@ -1,0 +1,367 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bússola",
+        "descricao": "Instrumento de orientação com agulha magnetizada que aponta para o norte magnético.",
+        "variantes": [
+          "Compasso magnético"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bussola",
+          "nome": "Bússola",
+          "descricao": "Instrumento de orientação com agulha magnetizada que aponta para o norte magnético.",
+          "variantes": [
+            "Compasso magnético",
+            "Compass",
+            "Agulha magnética"
+          ]
+        },
+        {
+          "id": "esfera",
+          "nome": "Esfera",
+          "descricao": "Sólido geométrico formado por todos os pontos do espaço a uma mesma distância de um ponto central.",
+          "variantes": [
+            "Bola"
+          ]
+        },
+        {
+          "id": "cursola",
+          "nome": "Cursola",
+          "descricao": "Pokémon do tipo Fantasma, número 864 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "absol",
+          "nome": "Absol",
+          "descricao": "Pokémon do tipo Sombrio, número 359 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "codigo_genetico",
+          "nome": "Código genético",
+          "descricao": "Conjunto de regras pelo qual trincas de bases do material genético são traduzidas em aminoácidos.",
+          "variantes": [
+            "Genetic code"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bota Ugg",
+        "descricao": "Bota unissex de pele de carneiro com lã por dentro, originada na Austrália.",
+        "variantes": [
+          "Ugg boots",
+          "Botas ugg"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "submarino",
+          "nome": "Submarino",
+          "descricao": "Embarcação capaz de operar submersa, aqui um submarino alemão da Segunda Guerra Mundial exposto em terra num museu.",
+          "variantes": [
+            "Sub",
+            "U-boot",
+            "Submarine"
+          ]
+        },
+        {
+          "id": "bota",
+          "nome": "Bota",
+          "descricao": "Calçado que cobre o pé e o tornozelo, aqui um par de botas pretas de cano alto em couro.",
+          "variantes": [
+            "Botas"
+          ]
+        },
+        {
+          "id": "muggsy_bogues",
+          "nome": "Muggsy Bogues",
+          "descricao": "Armador americano de um metro e sessenta, que jogou na NBA de 1987 a 2001.",
+          "variantes": [
+            "Tyrone Bogues"
+          ]
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        },
+        {
+          "id": "botafogo",
+          "nome": "Botafogo",
+          "descricao": "Botafogo de Futebol e Regatas, clube carioca de camisa alvinegra e escudo com uma estrela.",
+          "variantes": [
+            "Botafogo de Futebol e Regatas",
+            "Fogão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Plaina",
+        "descricao": "Ferramenta manual de carpintaria com lâmina fixa num corpo, usada para alisar madeira.",
+        "variantes": [
+          "Plaina manual"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polaina",
+          "nome": "Polaina",
+          "descricao": "Acessório de feltro ou couro que cobre o peito do pé e o tornozelo, preso por botões.",
+          "variantes": [
+            "Spats",
+            "Polainas"
+          ]
+        },
+        {
+          "id": "platina",
+          "nome": "Platina",
+          "descricao": "Elemento químico metálico de número atômico 78, metal precioso branco-acinzentado, denso e resistente à corrosão.",
+          "variantes": [
+            "Platinum"
+          ]
+        },
+        {
+          "id": "pain",
+          "nome": "Pain",
+          "descricao": "Líder da Akatsuki em Naruto, identidade adotada por Nagato.",
+          "variantes": [
+            "Pein",
+            "Nagato"
+          ]
+        },
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura",
+            "Cena da Natividade",
+            "Lapinha"
+          ]
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Carrinho de mão",
+        "descricao": "Veículo pequeno de uma roda, empurrado por uma pessoa por duas alças.",
+        "variantes": [
+          "Carrinho de obra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carrinho_de_mao",
+          "nome": "Carrinho de mão",
+          "descricao": "Veículo pequeno de uma roda, empurrado por uma pessoa por duas alças, para carregar cargas.",
+          "variantes": [
+            "Wheelbarrow"
+          ]
+        },
+        {
+          "id": "carrinho_de_rolima",
+          "nome": "Carrinho de rolimã",
+          "descricao": "Carrinho artesanal de madeira com rolamentos, usado em corridas ladeira abaixo.",
+          "variantes": [
+            "Carrinho de rolamentos",
+            "Carrinho de lomba",
+            "Carrinho de rolemã"
+          ]
+        },
+        {
+          "id": "carrinho_de_supermercado",
+          "nome": "Carrinho de supermercado",
+          "descricao": "Cesto de metal ou plástico sobre rodas usado pelos clientes para carregar compras no mercado.",
+          "variantes": [
+            "Carrinho de compras",
+            "Shopping cart"
+          ]
+        },
+        {
+          "id": "carrinho_de_golfe",
+          "nome": "Carrinho de golfe",
+          "descricao": "Pequeno veículo motorizado para dois jogadores e seus tacos em campos de golfe.",
+          "variantes": [
+            "golf cart",
+            "buggy de golfe"
+          ]
+        },
+        {
+          "id": "cinco_de_maio",
+          "nome": "Cinco de Maio",
+          "descricao": "Comemoração mexicana da vitória na Batalha de Puebla, em 1862, muito festejada nos Estados Unidos.",
+          "variantes": [
+            "Cinco de Mayo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Vestido",
+        "descricao": "Peça de roupa inteiriça que cobre o tronco e desce sobre as pernas.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        },
+        {
+          "id": "veto",
+          "nome": "Veto",
+          "descricao": "Poder de barrar uma decisão, cuja palavra vem do latim e era usada pelos tribunos da plebe romana.",
+          "variantes": []
+        },
+        {
+          "id": "estribo",
+          "nome": "Estribo",
+          "descricao": "Ossículo do ouvido médio que transmite vibrações à orelha interna.",
+          "variantes": [
+            "Stapes"
+          ]
+        },
+        {
+          "id": "monte_vesuvio",
+          "nome": "Monte Vesúvio",
+          "descricao": "Vulcão no golfo de Nápoles, na Itália, cuja erupção do ano 79 soterrou cidades romanas.",
+          "variantes": [
+            "Vesúvio",
+            "Vesuvius",
+            "Vesuvio"
+          ]
+        },
+        {
+          "id": "andre_vesalio",
+          "nome": "André Vesálio",
+          "descricao": "Anatomista flamengo autor de De humani corporis fabrica, tratado de anatomia humana publicado em 1543.",
+          "variantes": [
+            "Andreas Vesalius",
+            "Vesálio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Concha",
+        "descricao": "Utensílio de cozinha com cabo longo e taça funda, usado para servir líquidos.",
+        "variantes": [
+          "Concha de sopa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "coca_cola",
+          "nome": "Coca-Cola",
+          "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+          "variantes": [
+            "Coca",
+            "Coke"
+          ]
+        },
+        {
+          "id": "cuca",
+          "nome": "Cuca",
+          "descricao": "Bruxa do folclore brasileiro que pega crianças desobedientes, popularizada pelo Sítio do Picapau Amarelo.",
+          "variantes": [
+            "Coca"
+          ]
+        },
+        {
+          "id": "coxinha",
+          "nome": "Coxinha",
+          "descricao": "Salgado brasileiro frito, em forma de gota, recheado com frango desfiado.",
+          "variantes": [
+            "Coxinha de frango"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "bussola",
+      "motivo": "Mesma descrição e variantes; mesmo instrumento."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bota Ugg é um tipo específico de bota de pele de carneiro; difere de 'Bota' genérica (botas pretas de couro)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Plaina é ferramenta de carpintaria; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "carrinho_de_mao",
+      "motivo": "Mesmo veículo de uma roda com duas alças; descrição equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Vestido é uma peça de roupa distinta de colete e demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Concha utensílio de cozinha não corresponde a nenhuma candidata."
+    }
+  ]
+}

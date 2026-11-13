@@ -1,0 +1,61 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país surgiu pela primeira vez este objeto, antes usado em adivinhações?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q01676",
+          "pergunta": "Que instrumento de orientação, com uma agulha magnetizada, é este?",
+          "resposta": "Bússola"
+        },
+        {
+          "id": "q03610",
+          "pergunta": "A bússola magnética, que séculos depois guiaria as Grandes Navegações, foi inventada em que país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q07697",
+          "pergunta": "Antes de guiar navegantes, as antigas bússolas chinesas, em forma de colher de ímã, eram usadas para quê?",
+          "resposta": "Adivinhação e geomancia"
+        },
+        {
+          "id": "q16864",
+          "pergunta": "Na China antiga, as primeiras bússolas eram colheres de pedra magnética girando sobre uma placa. Por convenção, o cabo delas apontava para que direção?",
+          "resposta": "Sul"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Carrinho de mão"
+      },
+      "existentes": [
+        {
+          "id": "q21743",
+          "pergunta": "Que objeto é este?",
+          "resposta": "Carrinho de mão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03610",
+      "motivo": "Ambas perguntam em que país a bússola surgiu/foi inventada; resposta China."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q21743",
+      "motivo": "Mesma pergunta e mesma resposta: identificar o carrinho de mão."
+    }
+  ]
+}
