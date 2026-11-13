@@ -3076,7 +3076,8 @@
     "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
     "variantes": [
       "São Sebastião do Rio de Janeiro",
-      "Rio"
+      "Rio",
+      "Rio de Janeiro (cidade)"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Rio_de_Janeiro"
@@ -32868,7 +32869,9 @@
     "descricao": "Rio da América do Sul que atravessa o norte do Brasil e deságua no oceano Atlântico.",
     "variantes": [
       "Amazonas",
-      "Amazon River"
+      "Amazon River",
+      "Amazonas (rio)",
+      "Solimões-Amazonas"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Rio_Amazonas",
@@ -33351,7 +33354,8 @@
     "descricao": "Rio brasileiro que nasce na Serra da Canastra e deságua no Atlântico entre Alagoas e Sergipe.",
     "variantes": [
       "Velho Chico",
-      "São Francisco River"
+      "São Francisco River",
+      "São Francisco (rio)"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Rio_S%C3%A3o_Francisco"
@@ -252601,5 +252605,60 @@
       "pt": 2032,
       "en": 74569
     }
+  },
+  {
+    "id": "cidade_de_goias",
+    "nome": "Cidade de Goiás",
+    "descricao": "Município histórico de Goiás, antiga capital do estado, também chamado Goiás Velho.",
+    "variantes": [
+      "Goiás Velho",
+      "Goiás (município)",
+      "Vila Boa"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Goiás_(município)"
+    ]
+  },
+  {
+    "id": "serra_gaucha",
+    "nome": "Serra Gaúcha",
+    "descricao": "Região serrana do nordeste do Rio Grande do Sul, com cidades como Caxias do Sul, Bento Gonçalves e Gramado.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Serra_Gaúcha"
+    ]
+  },
+  {
+    "id": "unidades_federativas_do_brasil",
+    "nome": "Unidades federativas do Brasil",
+    "descricao": "Conjunto dos estados e do Distrito Federal que compõem a federação brasileira.",
+    "variantes": [
+      "Estados do Brasil"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Unidades_federativas_do_Brasil",
+      "https://en.wikipedia.org/wiki/Federative_units_of_Brazil"
+    ]
+  },
+  {
+    "id": "regiao_centro_oeste_do_brasil",
+    "nome": "Região Centro-Oeste do Brasil",
+    "descricao": "Uma das cinco grandes regiões do Brasil definidas pelo IBGE, formada por Goiás, Mato Grosso, Mato Grosso do Sul e o Distrito Federal.",
+    "variantes": [
+      "Centro-Oeste"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Região_Centro-Oeste_do_Brasil"
+    ]
+  },
+  {
+    "id": "regiao_sudeste_do_brasil",
+    "nome": "Região Sudeste do Brasil",
+    "descricao": "Uma das cinco grandes regiões do Brasil definidas pelo IBGE, formada por São Paulo, Rio de Janeiro, Minas Gerais e Espírito Santo.",
+    "variantes": [
+      "Sudeste"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Região_Sudeste_do_Brasil"
+    ]
   }
 ]

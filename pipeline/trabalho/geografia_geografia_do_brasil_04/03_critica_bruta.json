@@ -1,0 +1,388 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Amazonas' confunde-se com o nome do rio e o enunciado fica circular; é melhor perguntar o povo mitológico.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O maior rio do Brasil recebeu o nome de um povo de guerreiras da mitologia grega, lembrado pelos espanhóis no século dezesseis. Que povo era esse?",
+        "resposta": "As amazonas",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Rio_Amazonas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado: nascente no sul do Peru, nos Andes.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado 'mata branca' confirmado, distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Casa de Haver o Peso controlava o peso e arrecadava tributos; fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vila Rica sustentado pelas duas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ouro Preto foi o primeiro bem brasileiro inscrito, em 1980; fato bem documentado, distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte em português diz que a confusão com a foz de um rio é uma versão discutida; é preciso qualificar como versão tradicional.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Segundo a versão tradicional, os portugueses que chegaram à Baía de Guanabara em janeiro de 1502 acharam que ela era o quê, dando origem ao nome da cidade?",
+        "resposta": "A foz de um rio",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Rio_de_Janeiro",
+          "https://en.wikipedia.org/wiki/Rio_de_Janeiro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato fraco e óbvio: ser capital do país é trivial, sem surpresa.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estácio de Sá fundou a cidade em 1565; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Potengi sustentado pela fonte em inglês; distratores de outros rios nordestinos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem 'abre olhos' sustentada e qualificada como tradição.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cinco ilhas, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itaipu = pedra que canta, nome da ilha; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "20 unidades geradoras, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Iguaçu = água grande, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Garganta do Diabo, queda em U de maior fluxo; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Território Federal do Guaporé em 1943; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundada em 1612, homenagem a Luís XIII, então menino; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Cidade Morena pela cor da terra, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Mundo Perdido inspirado no Roraima, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sítio Fernando de Noronha e Atol das Rocas inscrito em 2001 na lista do Patrimônio Mundial.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O rio Branco banha Boa Vista, capital de Roraima; fato bem conhecido e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cora Coralina, doceira e poeta, primeiro livro aos quase 76 anos; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colonização italiana iniciada em 1875, sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Forte Schoonenborch holandês; Recife também foi holandesa no século dezessete.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gabriela, Cravo e Canela ambientado em Ilhéus; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Só São Paulo e Rio de Janeiro têm capital com o mesmo nome do estado; fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta vaga ('quase todos') e Amazonas e Pará também são cortados pelo Equador; ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O rio só atravessa Minas e Bahia; nos outros é divisa, então 'passa por' é impreciso.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "aberta",
+        "pergunta": "O rio São Francisco nasce em Minas Gerais e deságua no Atlântico. Contando Minas, quantos estados ele atravessa ou tem como divisa?",
+        "resposta": "Cinco",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Rio_São_Francisco",
+          "https://en.wikipedia.org/wiki/São_Francisco_River"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Foz entre Alagoas e Sergipe, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "396 metros, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "13,29 km, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Litoral de 66 km, o menor do país; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "26 estados mais o DF somam 27; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A extensão varia por fonte (15,7 mil ou 16,9 mil km) e 'cerca de 16 mil' arredonda mal; fato impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerrado é o segundo maior bioma; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sergipe é o menor estado; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Centro-Oeste é a única região sem litoral; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marajó é considerada a maior ilha fluviomarítima do mundo; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bolívia e Paraguai, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Paraguai e seus afluentes inundam o Pantanal; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "No Brasil, o Pampa ocorre só no Rio Grande do Sul; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Única divisa estadual: Santa Catarina; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lagoas se formam na estação chuvosa, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado, mas a resposta é longa demais para voz.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Nos fervedouros do Jalapão, quem entra na água fica boiando e não consegue afundar. O que provoca esse efeito?",
+        "resposta": "A pressão da nascente",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Jalapão"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reflorestamento para recuperar o abastecimento de água; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Minas Gerais é o único estado do Sudeste sem litoral.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurada em 21 de abril de 1960, mesma data da execução de Tiradentes; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anchieta, canonizado em 2014, cofundador de São Paulo; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Traçado radial de Boa Vista é descrito como um leque; a fonte confirma as vias irradiadas de uma praça.",
+      "reescrita": null
+    }
+  ]
+}
