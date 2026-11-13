@@ -429179,5 +429179,115 @@
       "autor": "Autor desconhecido",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q21586",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "flauta_de_pa",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento musical é este?",
+    "resposta": "Flauta de pã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pan_flute",
+      "https://pt.wikipedia.org/wiki/Flauta_de_p%C3%A3"
+    ],
+    "imagem": {
+      "arquivo": "q21586.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pan_flute_Gibonus_FP-12.jpg",
+      "autor": "ПростоУчастник",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q21587",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "teatro_nacional_de_sao_carlos",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica este teatro de ópera?",
+    "resposta": "Lisboa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Teatro_Nacional_de_S%C3%A3o_Carlos",
+      "https://pt.wikipedia.org/wiki/Teatro_Nacional_de_S%C3%A3o_Carlos"
+    ],
+    "imagem": {
+      "arquivo": "q21587.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_de_São_Carlos_2021-04-20.png",
+      "autor": "RickMorais",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q21588",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "oficleide",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento de metal do século dezenove é este?",
+    "resposta": "Oficleide",
+    "distratores": [
+      "Serpentão",
+      "Eufônio",
+      "Trombone baixo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ophicleide",
+      "https://pt.wikipedia.org/wiki/Oficleide"
+    ],
+    "imagem": {
+      "arquivo": "q21588.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Basophicleïde,_BK-NM-11430-46.jpg",
+      "autor": "Rijksmuseum",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q21589",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "violao_classico",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento de cordas dedilhadas é este?",
+    "resposta": "Violão clássico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Classical_guitar",
+      "https://pt.wikipedia.org/wiki/Guitarra_cl%C3%A1ssica"
+    ],
+    "imagem": {
+      "arquivo": "q21589.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Classical_Guitar_two_views.jpg",
+      "autor": "Martin Möller",
+      "licenca": "CC BY-SA 2.0 de"
+    }
+  },
+  {
+    "id": "q21590",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "carrilhao",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento musical é este?",
+    "resposta": "Carrilhão",
+    "distratores": [
+      "Sinos tubulares",
+      "Vibrafone",
+      "Celesta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carillon",
+      "https://pt.wikipedia.org/wiki/Carrilh%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q21590.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Carillon_Olympiapark_Muenchen.jpg",
+      "autor": "Oliver Raupach",
+      "licenca": "CC BY-SA 2.5"
+    }
   }
 ]

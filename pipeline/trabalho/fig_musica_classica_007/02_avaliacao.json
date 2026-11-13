@@ -1,0 +1,144 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto de uma flauta de pã de madeira, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Flauta de pã",
+      "destino": 0,
+      "ancora": {
+        "nome": "Flauta de pã",
+        "descricao": "Instrumento de sopro formado por vários tubos fechados de comprimentos crescentes, dispostos lado a lado.",
+        "variantes": [
+          "Siringe",
+          "Flauta de Pan",
+          "Pan flute"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada nítida, sem texto legível que entregue o nome; o prédio é reconhecível e a cidade é resposta única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este teatro de ópera?",
+      "resposta": "Lisboa",
+      "destino": 1,
+      "ancora": {
+        "nome": "Teatro Nacional de São Carlos",
+        "descricao": "Casa de ópera inaugurada em 1793 no bairro do Chiado, em Lisboa, Portugal.",
+        "variantes": [
+          "Teatro de São Carlos",
+          "Teatro Nacional de São Carlos (Lisboa)"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto de museu com fundo neutro e sem texto; oficleide inteiro e nítido. Múltipla com outros graves de metal.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de metal do século dezenove é este?",
+      "resposta": "Oficleide",
+      "distratores": [
+        "Serpentão",
+        "Eufônio",
+        "Trombone baixo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Oficleide",
+        "descricao": "Instrumento de metal de tubo cônico e chaves, inventado na França no início do século dezenove para o registro grave.",
+        "variantes": [
+          "Ophicleide"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra vários instrumentos (sousafone, eufônios) e pessoas comuns em primeiro plano, além de texto visível no pavilhão."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O letreiro 'Sala Cecília Meireles' está legível na fachada e entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O instrumento lembra um virginal ou cravo poligonal italiano; a resposta 'espineta' não é única diante da imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto limpa, fundo branco, violão de cordas de náilon de frente e de perfil; o rótulo interno é minúsculo e não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de cordas dedilhadas é este?",
+      "resposta": "Violão clássico",
+      "destino": 0,
+      "ancora": {
+        "nome": "Violão clássico",
+        "descricao": "Violão de cordas de náilon usado na música clássica, de formato tradicional espanhol.",
+        "variantes": [
+          "Guitarra clássica",
+          "Violão de náilon",
+          "Classical guitar"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A inscrição 'Konzerthaus Berlin' aparece no friso da fachada e entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O prédio rosado não é reconhecível como o Theatro Sete de Abril e a identificação é duvidosa; imagem não sustenta resposta única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de um carrilhão de sinos de bronze em estrutura metálica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Carrilhão",
+      "distratores": [
+        "Sinos tubulares",
+        "Vibrafone",
+        "Celesta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carrilhão",
+        "descricao": "Instrumento de percussão com teclado, formado por no mínimo 23 sinos de bronze afinados.",
+        "variantes": [
+          "Carillon"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Texto visível na fachada ('Opernhaus Zürich', 'Stadttheater Zürich') entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Casa de campo com jardim e pessoas comuns em primeiro plano; pouco reconhecível, sem elementos que identifiquem Glyndebourne."
+    }
+  ]
+}
