@@ -1,0 +1,150 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Caneta-tinteiro em foco, sem texto que entregue a resposta; a família quando não rende fato único seguro (autoria da invenção é disputada), então vai para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de escrita é este?",
+      "resposta": "Caneta-tinteiro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Caneta-tinteiro",
+        "descricao": "Instrumento de escrita com pena metálica e reservatório interno de tinta.",
+        "variantes": [
+          "Caneta tinteiro",
+          "Fountain pen"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Montagem de vários capacitores, com a palavra 'CAPACITOR' escrita num deles e outros textos visíveis; entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Lente de contato reconhecível sobre a ponta de um dedo (sem pessoa em primeiro plano); sem texto. Pergunta de época com distratores de séculos.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século o alemão Adolf Fick fez as primeiras lentes deste tipo, de vidro, usadas com sucesso?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século dezoito",
+        "Século vinte",
+        "Século dezessete"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lente de contato",
+        "descricao": "Lente fina colocada diretamente sobre a superfície do olho para corrigir a visão ou por motivos estéticos.",
+        "variantes": [
+          "Lente de contacto",
+          "Contact lens"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Jukebox clássico, bem reconhecível; os textos visíveis (Zodiac, Wurlitzer, Music for Millions) não dizem a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que máquina de tocar música é esta?",
+      "resposta": "Jukebox",
+      "destino": 0,
+      "ancora": {
+        "nome": "Jukebox",
+        "descricao": "Máquina automática, em geral operada por moedas, que toca a música escolhida pelo usuário.",
+        "variantes": [
+          "Juke-box",
+          "Vitrola de fichas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Detalhe em macro de fios que parece um tecido; a memória de núcleo magnético não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cadeado aberto com chaves, claro; a marca gravada não entrega a resposta. A autoria do cadeado é incerta, então vai para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Cadeado",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cadeado",
+        "descricao": "Fechadura portátil com haste em arco que se passa por argolas ou correntes para trancar algo.",
+        "variantes": [
+          "Padlock"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O mostrador traz escrito 'CASIO F-91W', o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Carrinho de mão nítido, sem texto. A autoria é incerta (origem chinesa ou grega), então vai para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto de carga, de uma roda só, é este?",
+      "resposta": "Carrinho de mão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Carrinho de mão",
+        "descricao": "Veículo pequeno de uma roda, empurrado por uma pessoa por duas alças, para carregar cargas.",
+        "variantes": [
+          "Wheelbarrow"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Texto visível 'AIKEN-IBM AUTOMATIC SEQUENC' entrega a resposta, e há reflexos de uma pessoa no vidro."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Trator agrícola moderno, claro; a marca visível não entrega a resposta. A autoria do trator é disputada, então vai para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que máquina agrícola é esta?",
+      "resposta": "Trator",
+      "destino": 0,
+      "ancora": {
+        "nome": "Trator",
+        "descricao": "Veículo de grande tração e baixa velocidade usado para puxar implementos e reboques, sobretudo na agricultura.",
+        "variantes": [
+          "Tractor"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É um desenho com um paciente, e ilustração só é aceita para o que não pode ser fotografado."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O casco tem a palavra 'TRIESTE' e 'US NAVY' escritas, o que entrega a resposta."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de escrita é este?",
+        "resposta": "Caneta-tinteiro"
+      },
+      "existentes": [
+        {
+          "id": "q09668",
+          "pergunta": "Que instrumento de escrita é este?",
+          "resposta": "Caneta-tinteiro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Cadeado"
+      },
+      "existentes": [
+        {
+          "id": "q08085",
+          "pergunta": "Que objeto é este?",
+          "resposta": "Cadeado"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta (caneta-tinteiro), idêntica à existente q09668.",
+      "id_existente": "q09668"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta (cadeado), idêntica à existente q08085.",
+      "id_existente": "q08085"
+    }
+  ]
+}

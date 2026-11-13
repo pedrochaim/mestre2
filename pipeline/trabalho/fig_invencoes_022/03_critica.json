@@ -1,0 +1,58 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1; o enunciado só dá a categoria ampla e não entrega a resposta. A descrição está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado nomeia Adolf Fick, e isso quase entrega o objeto: cobrindo a figura, quem conhece Fick já sabe que são lentes de contato, e a figura vira enfeite. Os trechos confirmam o século dezenove (1887 ou 1888). Reescrita sem o nome, com época e país como pista.",
+      "reescrita": {
+        "pergunta": "Um oftalmologista alemão fez as primeiras destas lentes, de vidro, usadas com sucesso. Em que século isso aconteceu?",
+        "resposta": "Século dezenove",
+        "distratores": [
+          "Século dezoito",
+          "Século vinte",
+          "Século dezessete"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento nível 1. 'Máquina de tocar música' é genérico (também serve a toca-discos e rádios), então não entrega a resposta. Com a figura, a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista no enunciado. Resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Objeto de carga, de uma roda só' descreve a função e a característica do carrinho de mão. Cobrindo a imagem, dá para responder, e a figura vira enfeite. Os trechos confirmam o objeto. Reescrita sem a pista.",
+      "reescrita": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Carrinho de mão",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Máquina agrícola' é categoria ampla (colheitadeiras, arados etc.), então não entrega a resposta. A figura decide, e o trator é a resposta única.",
+      "reescrita": null
+    }
+  ]
+}

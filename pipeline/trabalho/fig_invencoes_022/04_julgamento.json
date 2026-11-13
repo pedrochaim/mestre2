@@ -1,0 +1,381 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caneta-tinteiro",
+        "descricao": "Instrumento de escrita com pena metálica e reservatório interno de tinta.",
+        "variantes": [
+          "Fountain pen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caneta_tinteiro",
+          "nome": "Caneta-tinteiro",
+          "descricao": "Instrumento de escrita com ponta metálica e reservatório interno de tinta.",
+          "variantes": [
+            "Pena-tinteiro"
+          ]
+        },
+        {
+          "id": "tinteiro",
+          "nome": "Tinteiro",
+          "descricao": "Pequeno recipiente, em geral de vidro, que guarda a tinta para molhar a pena ou a caneta.",
+          "variantes": [
+            "Frasco de tinta",
+            "Tinteiro de vidro"
+          ]
+        },
+        {
+          "id": "montanhismo",
+          "nome": "Montanhismo",
+          "descricao": "Conjunto de atividades ao ar livre que envolvem a escalada de montanhas, também chamado de alpinismo.",
+          "variantes": [
+            "Alpinismo",
+            "Mountaineering"
+          ]
+        },
+        {
+          "id": "michel_de_montaigne",
+          "nome": "Michel de Montaigne",
+          "descricao": "Filósofo e escritor francês do Renascimento (1533–1592), autor dos Ensaios.",
+          "variantes": [
+            "Montaigne"
+          ]
+        },
+        {
+          "id": "aberto_da_australia",
+          "nome": "Aberto da Austrália",
+          "descricao": "Torneio de Grand Slam disputado em Melbourne, o primeiro da temporada.",
+          "variantes": [
+            "Australian Open",
+            "Aberto da Austrália de Tênis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lente de contato",
+        "descricao": "Lente fina colocada diretamente sobre a superfície do olho para corrigir a visão ou por motivos estéticos.",
+        "variantes": [
+          "Lente de contacto",
+          "Contact lens"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "velcro",
+          "nome": "Velcro",
+          "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral.",
+          "variantes": [
+            "Fecho de gancho e argola",
+            "Hook-and-loop fastener",
+            "Fecho de contato",
+            "Hook-and-loop",
+            "Fecho de velcro"
+          ]
+        },
+        {
+          "id": "lupa",
+          "nome": "Lupa",
+          "descricao": "Lente convexa montada em armação com cabo, usada para ampliar a imagem de objetos.",
+          "variantes": [
+            "Lente de aumento",
+            "Vidro de aumento"
+          ]
+        },
+        {
+          "id": "levante_de_soweto",
+          "nome": "Levante de Soweto",
+          "descricao": "Protestos de estudantes negros em Soweto, na África do Sul, iniciados em 16 de junho de 1976 e reprimidos pela polícia.",
+          "variantes": [
+            "Revolta de Soweto",
+            "Soweto uprising"
+          ]
+        },
+        {
+          "id": "cruz_de_einstein",
+          "nome": "Cruz de Einstein",
+          "descricao": "Quasar distante com imagem quadruplicada por lente gravitacional de uma galáxia à frente, formando uma cruz, também chamado Q2237+0305.",
+          "variantes": [
+            "Q2237+0305",
+            "Einstein Cross",
+            "Lente de Huchra"
+          ]
+        },
+        {
+          "id": "bridge",
+          "nome": "Bridge",
+          "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+          "variantes": [
+            "Contract bridge",
+            "Bridge de contrato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Jukebox",
+        "descricao": "Máquina automática, em geral operada por moedas, que toca a música escolhida pelo usuário.",
+        "variantes": [
+          "Juke-box",
+          "Vitrola de fichas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        },
+        {
+          "id": "roca_de_fiar",
+          "nome": "Roca de fiar",
+          "descricao": "Equipamento de madeira com roda e fuso para transformar fibras em fio, usado antes da Revolução Industrial.",
+          "variantes": [
+            "Roda de fiar",
+            "Roca",
+            "Spinning wheel"
+          ]
+        },
+        {
+          "id": "boeing_747",
+          "nome": "Boeing 747",
+          "descricao": "Avião a jato de grande porte da Boeing, com uma corcunda característica na parte dianteira.",
+          "variantes": [
+            "Jumbo",
+            "Jumbo Jet"
+          ]
+        },
+        {
+          "id": "viola_caipira",
+          "nome": "Viola caipira",
+          "descricao": "Instrumento de cordas símbolo da música sertaneja de raiz.",
+          "variantes": [
+            "Viola brasileira",
+            "Viola de dez cordas",
+            "Viola sertaneja"
+          ]
+        },
+        {
+          "id": "konoha",
+          "nome": "Konoha",
+          "descricao": "A Vila Oculta da Folha, vila ninja natal de Naruto Uzumaki no mangá e anime Naruto.",
+          "variantes": [
+            "Konohagakure",
+            "Vila da Folha",
+            "Vila Oculta da Folha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cadeado",
+        "descricao": "Fechadura portátil com haste em arco que se passa por argolas ou correntes para trancar algo.",
+        "variantes": [
+          "Padlock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cadeado",
+          "nome": "Cadeado",
+          "descricao": "Fechadura portátil com argola que passa por uma abertura para impedir o uso ou o roubo.",
+          "variantes": [
+            "Cadeado de latão"
+          ]
+        },
+        {
+          "id": "dado",
+          "nome": "Dado",
+          "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+          "variantes": [
+            "Dice",
+            "Dado de seis faces"
+          ]
+        },
+        {
+          "id": "dedo",
+          "nome": "Dedo",
+          "descricao": "Dedos da mão humana, mostrados em vista dorsal e palmar com numeração de um a cinco.",
+          "variantes": [
+            "Dedos da mão"
+          ]
+        },
+        {
+          "id": "cardeal",
+          "nome": "Cardeal",
+          "descricao": "Cardeal-de-topete-vermelho, ave sul-americana de cabeça vermelha com topete, dorso cinza e peito branco, da família dos traupídeos.",
+          "variantes": [
+            "Cardeal-de-topete-vermelho",
+            "Paroaria coronata",
+            "Red-crested cardinal"
+          ]
+        },
+        {
+          "id": "cerrado",
+          "nome": "Cerrado",
+          "descricao": "Bioma de savana do Brasil central",
+          "variantes": [
+            "Savana brasileira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Carrinho de mão",
+        "descricao": "Veículo pequeno de uma roda, empurrado por uma pessoa por duas alças, para carregar cargas.",
+        "variantes": [
+          "Wheelbarrow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carrinho_de_rolima",
+          "nome": "Carrinho de rolimã",
+          "descricao": "Carrinho artesanal de madeira com rolamentos, usado em corridas ladeira abaixo.",
+          "variantes": [
+            "Carrinho de rolamentos",
+            "Carrinho de lomba",
+            "Carrinho de rolemã"
+          ]
+        },
+        {
+          "id": "carrinho_de_supermercado",
+          "nome": "Carrinho de supermercado",
+          "descricao": "Cesto de metal ou plástico sobre rodas usado pelos clientes para carregar compras no mercado.",
+          "variantes": [
+            "Carrinho de compras",
+            "Shopping cart"
+          ]
+        },
+        {
+          "id": "carrinho_de_golfe",
+          "nome": "Carrinho de golfe",
+          "descricao": "Pequeno veículo motorizado para dois jogadores e seus tacos em campos de golfe.",
+          "variantes": [
+            "golf cart",
+            "buggy de golfe"
+          ]
+        },
+        {
+          "id": "cinco_de_maio",
+          "nome": "Cinco de Maio",
+          "descricao": "Comemoração mexicana da vitória na Batalha de Puebla, em 1862, muito festejada nos Estados Unidos.",
+          "variantes": [
+            "Cinco de Mayo"
+          ]
+        },
+        {
+          "id": "caipirinha",
+          "nome": "Caipirinha",
+          "descricao": "Coquetel brasileiro feito com cachaça, açúcar, limão e gelo.",
+          "variantes": [
+            "Caipirinha de limão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Trator",
+        "descricao": "Veículo de grande tração e baixa velocidade usado para puxar implementos e reboques, sobretudo na agricultura.",
+        "variantes": [
+          "Tractor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "emerson_fittipaldi",
+          "nome": "Emerson Fittipaldi",
+          "descricao": "Piloto brasileiro bicampeão mundial de Fórmula 1, em 1972 e 1974, e bicampeão das 500 Milhas de Indianápolis.",
+          "variantes": [
+            "Emmo",
+            "Emerson",
+            "Rato"
+          ]
+        },
+        {
+          "id": "staraptor",
+          "nome": "Staraptor",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 398 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "toronto_raptors",
+          "nome": "Toronto Raptors",
+          "descricao": "Franquia canadense da NBA, sediada em Toronto e fundada em 1995.",
+          "variantes": [
+            "Raptors"
+          ]
+        },
+        {
+          "id": "triatlo",
+          "nome": "Triatlo",
+          "descricao": "Esporte olímpico que combina natação, ciclismo e corrida, disputados em sequência.",
+          "variantes": [
+            "Triathlon"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "caneta_tinteiro",
+      "motivo": "Mesma entidade: caneta-tinteiro, descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é lente de contato; lupa e cruz de Einstein são outras entidades."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é jukebox."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "cadeado",
+      "motivo": "Mesmo objeto: cadeado, fechadura portátil com argola."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Carrinho de mão é diferente dos outros carrinhos listados."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é trator."
+    }
+  ]
+}
