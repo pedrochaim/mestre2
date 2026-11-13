@@ -1,0 +1,74 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado correto, não nomeia a montanha e exige reconhecer a figura. Distratores são ilhas havaianas críveis, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta contém 'Hot Springs', que é 'fontes termais' do enunciado, e 'terraços de travertino' mais 'americanas' bastam para responder sem a figura. Os distratores geiseres e uma bacia de geiseres ficam eliminados pelo próprio enunciado. Passa a pedir o parque, sem pista.",
+      "reescrita": {
+        "pergunta": "Em que parque nacional americano fica este lugar?",
+        "resposta": "Yellowstone",
+        "distratores": [
+          "Yosemite",
+          "Grand Canyon",
+          "Glacier"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vegetação rasteira e solo gelado' define a tundra, então a figura vira enfeite, e os distratores têm árvores ou solo não congelado. Troca a definição por uma pista de localização que não entrega a resposta.",
+      "reescrita": {
+        "pergunta": "Que bioma é este, que aparece nesta paisagem ártica?",
+        "resposta": "Tundra",
+        "distratores": [
+          "Taiga",
+          "Estepe",
+          "Savana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A definição de cenote no enunciado entrega o assunto sem a figura, e a pergunta só pede a península. Reescrita no nível 3, com o uso pelos povos antigos, sem nomear a formação. Aberta, então sem distratores.",
+      "reescrita": {
+        "pergunta": "Que civilização antiga do México usava estas formações naturais para obter água e em rituais?",
+        "resposta": "Maia",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Esculpidas pelas marés' é pista forte que quase identifica o lugar. Os distratores são sea stacks de outras regiões, sem relação com marés. Passa a pedir a baía, que só se sabe depois de reconhecer a imagem.",
+      "reescrita": {
+        "pergunta": "Em que baía canadense ficam estas formações rochosas?",
+        "resposta": "Baía de Fundy",
+        "distratores": [
+          "Baía de Hudson",
+          "Baía de Baffin",
+          "Baía de Placentia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado: 97,23% de Florianópolis fica na ilha, e a cidade ocupa a maior parte dela. O enunciado não nomeia a ilha e depende da figura. A resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

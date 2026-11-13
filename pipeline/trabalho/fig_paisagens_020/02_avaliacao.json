@@ -1,0 +1,166 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cone vulcânico reconhecível ao fundo, sem texto; pergunta de lugar em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que ilha do Havaí fica esta montanha vulcânica?",
+      "resposta": "Oʻahu",
+      "distratores": [
+        "Maui",
+        "Kauaʻi",
+        "Molokaʻi"
+      ],
+      "ancora": {
+        "nome": "Diamond Head",
+        "descricao": "Cone de tufo vulcânico na ilha de Oʻahu, no Havaí, junto à praia de Waikīkī.",
+        "variantes": [
+          "Lēʻahi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Terraços de travertino característicos, sem texto; a dica 'americanas' elimina Pamukkale.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fontes termais americanas formam estes terraços de travertino?",
+      "resposta": "Mammoth Hot Springs",
+      "distratores": [
+        "Grand Prismatic Spring",
+        "Old Faithful",
+        "Norris Geyser Basin"
+      ],
+      "ancora": {
+        "nome": "Mammoth Hot Springs",
+        "descricao": "Complexo de fontes termais em terraços de travertino no Parque Nacional de Yellowstone, nos Estados Unidos.",
+        "variantes": [
+          "Fontes Termais de Mammoth"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Paisagem ártica de tundra com vegetação rasteira avermelhada e icebergs, sem texto legível; bioma reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que bioma é este, de vegetação rasteira e solo gelado?",
+      "resposta": "Tundra",
+      "distratores": [
+        "Taiga",
+        "Estepe",
+        "Pradaria"
+      ],
+      "ancora": {
+        "nome": "Tundra",
+        "descricao": "Bioma frio sem árvores, com vegetação rasteira e solo congelado (permafrost), aqui numa paisagem ártica.",
+        "variantes": [
+          "Tundra ártica"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Lago turquesa com montanhas ao fundo, sem elementos distintivos; muitos lagos alpinos parecem iguais, resposta não única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Poço natural em caverna calcária com água azul, reconhecível como cenote; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Esta formação, em que a água subterrânea fica exposta, é típica de que península mexicana?",
+      "resposta": "Iucatã",
+      "distratores": [],
+      "ancora": {
+        "nome": "Cenote",
+        "descricao": "Poço natural formado pelo colapso do calcário que expõe água subterrânea, típico da península de Iucatã, no México.",
+        "variantes": [
+          "Cenote Zací"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Formações em vaso de flor bem características; pessoas pequenas ao fundo, sem primeiro plano; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que formações rochosas, esculpidas pelas marés, são estas?",
+      "resposta": "Hopewell Rocks",
+      "distratores": [
+        "Doze Apóstolos",
+        "Old Man of Hoy",
+        "Pináculos de Nambung"
+      ],
+      "ancora": {
+        "nome": "Hopewell Rocks",
+        "descricao": "Rochas em forma de vaso de flor esculpidas pelas marés na baía de Fundy, em Nova Brunswick, Canadá.",
+        "variantes": [
+          "Flowerpot Rocks",
+          "Rochas Hopewell"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de satélite sem texto, forma da ilha e do continente reconhecível; São Luís também fica em ilha, mas a imagem decide.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que cidade brasileira ocupa a maior parte desta ilha vista de satélite?",
+      "resposta": "Florianópolis",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ilha de Santa Catarina",
+        "descricao": "Ilha do litoral de Santa Catarina onde fica a maior parte do município de Florianópolis.",
+        "variantes": [
+          "Ilha de Florianópolis",
+          "Floripa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Vista genérica de serra com mureta pichada; não é reconhecível e há texto (pichação)."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto aérea de maré baixa genérica; poderia ser baía, ria ou lagoa, resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de um lago escuro sem traços distintivos; confundível com outros lagos (como Prespa)."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Costa com mar calmo, sem nada que identifique o Mar do Norte."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Pico nevado genérico, não reconhecível como Huascarán entre outras montanhas nevadas."
+    }
+  ]
+}

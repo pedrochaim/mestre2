@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que bioma é este, que aparece nesta paisagem ártica?",
+        "resposta": "Tundra"
+      },
+      "existentes": [
+        {
+          "id": "q02293",
+          "pergunta": "Como se chama a camada de solo que fica congelada o ano inteiro sob a tundra?",
+          "resposta": "Permafrost"
+        },
+        {
+          "id": "q06256",
+          "pergunta": "A palavra tundra chegou até nós pelo russo, mas provavelmente tem origem na língua de que povo nativo do extremo norte da Europa?",
+          "resposta": "Sámi (lapões)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que civilização antiga do México usava estas formações naturais para obter água e em rituais?",
+        "resposta": "Maia"
+      },
+      "existentes": [
+        {
+          "id": "q04827",
+          "pergunta": "Na península de Iucatã, no México, um grande anel de cenotes, poços naturais de água doce, marca a borda de que cratera famosa?",
+          "resposta": "Cratera de Chicxulub"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do bioma (tundra); as existentes perguntam sobre o permafrost e a origem da palavra, que são fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta qual civilização usava os cenotes (maia); a existente pergunta de que cratera os cenotes marcam a borda (Chicxulub), que é outro fato."
+    }
+  ]
+}
