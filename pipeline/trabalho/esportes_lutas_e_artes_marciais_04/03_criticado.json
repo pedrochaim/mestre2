@@ -1,0 +1,1233 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "muhammad_ali",
+        "nome": "Muhammad Ali",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Cassius Clay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Muhammad_Ali"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Ao longo da carreira, quantas vezes Muhammad Ali conquistou o título mundial dos pesos-pesados?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muhammad_Ali"
+      ],
+      "distratores": [
+        "Duas",
+        "Quatro",
+        "Cinco"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "muhammad_ali",
+        "nome": "Muhammad Ali",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "Cassius Clay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Muhammad_Ali"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que filha de Muhammad Ali também virou campeã mundial de boxe e se aposentou sem nenhuma derrota na carreira?",
+      "resposta": "Laila Ali",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Laila_Ali"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "mike_tyson",
+        "nome": "Mike Tyson",
+        "descricao": "Ex-boxeador americano dos pesos-pesados, campeão mundial indiscutível de 1987 a 1990.",
+        "variantes": [
+          "Iron Mike"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mike_Tyson"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em que comédia de 2009 Mike Tyson faz o próprio papel e tem seu tigre de estimação levado por amigos numa despedida de solteiro?",
+      "resposta": "Se Beber, Não Case!",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Hangover",
+        "https://en.wikipedia.org/wiki/Mike_Tyson"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "anderson_silva",
+        "nome": "Anderson Silva",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+        "variantes": [
+          "Spider"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anderson_Silva"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 2011, Anderson Silva nocauteou Vitor Belfort com um chute frontal no rosto. Que astro de filmes de ação disse ter ensinado o golpe?",
+      "resposta": "Steven Seagal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/UFC_126",
+        "https://en.wikipedia.org/wiki/Anderson_Silva"
+      ],
+      "distratores": [
+        "Chuck Norris",
+        "Jean-Claude Van Damme",
+        "Jackie Chan"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "anderson_silva",
+        "nome": "Anderson Silva",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+        "variantes": [
+          "Spider"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anderson_Silva"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Entre 2006 e 2013, Anderson Silva defendeu com sucesso o cinturão dos médios do UFC quantas vezes?",
+      "resposta": "Dez",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anderson_Silva"
+      ],
+      "distratores": [
+        "Seis",
+        "Oito",
+        "Doze"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "amanda_nunes",
+        "nome": "Amanda Nunes",
+        "descricao": "Lutadora brasileira de MMA, campeã do UFC em duas categorias.",
+        "variantes": [
+          "A Leoa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amanda_Nunes"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 2016, Amanda Nunes defendeu o cinturão contra Ronda Rousey com um nocaute técnico. Quanto tempo durou a luta?",
+      "resposta": "48 segundos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/UFC_207",
+        "https://en.wikipedia.org/wiki/Amanda_Nunes"
+      ],
+      "distratores": [
+        "13 segundos",
+        "Dois minutos",
+        "Quatro minutos"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "royce_gracie",
+        "nome": "Royce Gracie",
+        "descricao": "Lutador brasileiro de jiu-jitsu e MMA, vencedor dos primeiros torneios do UFC e membro da família Gracie.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Royce_Gracie"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O UFC começou em 1993 com torneios disputados numa noite só. Dos quatro primeiros, quantos foram vencidos por Royce Gracie?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Royce_Gracie"
+      ],
+      "distratores": [
+        "Um",
+        "Dois",
+        "Quatro"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "royce_gracie",
+        "nome": "Royce Gracie",
+        "descricao": "Lutador brasileiro de jiu-jitsu e MMA, vencedor dos primeiros torneios do UFC e membro da família Gracie.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Royce_Gracie"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O campeão do primeiro UFC, Royce Gracie, é filho de que pioneiro do jiu-jítsu brasileiro?",
+      "resposta": "Hélio Gracie",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Royce_Gracie"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "helio_gracie",
+        "nome": "Hélio Gracie",
+        "descricao": "Lutador brasileiro, um dos criadores do jiu-jítsu brasileiro.",
+        "variantes": [
+          "Helio Gracie"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/H%C3%A9lio_Gracie"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 1955, já com mais de quarenta anos, Hélio Gracie perdeu para o ex-aluno Waldemar Santana numa luta famosa pela duração. Quanto tempo ela durou?",
+      "resposta": "Quase quatro horas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/H%C3%A9lio_Gracie"
+      ],
+      "distratores": [
+        "Cerca de uma hora",
+        "Quase duas horas",
+        "Mais de seis horas"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "manny_pacquiao",
+        "nome": "Manny Pacquiao",
+        "descricao": "Boxeador filipino campeão mundial em oito categorias de peso.",
+        "variantes": [
+          "Pac-Man"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Manny_Pacquiao"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Fora do boxe, Manny Pacquiao chegou a ser jogador e treinador de um time profissional nas Filipinas. Em que esporte?",
+      "resposta": "Basquete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Manny_Pacquiao"
+      ],
+      "distratores": [
+        "Futebol",
+        "Vôlei",
+        "Beisebol"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "bruce_lee",
+        "nome": "Bruce Lee",
+        "descricao": "Ator e artista marcial sino-americano, astro do cinema de ação de Hong Kong nos anos 1970.",
+        "variantes": [
+          "Lee Jun-fan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bruce_Lee"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Brandon Lee, filho de Bruce Lee, morreu baleado por acidente em 1993, durante as filmagens de que filme?",
+      "resposta": "O Corvo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brandon_Lee"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "bruce_lee",
+        "nome": "Bruce Lee",
+        "descricao": "Ator e artista marcial sino-americano, astro do cinema de ação de Hong Kong nos anos 1970.",
+        "variantes": [
+          "Lee Jun-fan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bruce_Lee"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Bruce Lee morreu em 1973, poucos dias antes da estreia de Operação Dragão. Com quantos anos ele estava?",
+      "resposta": "32 anos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bruce_Lee"
+      ],
+      "distratores": [
+        "27 anos",
+        "38 anos",
+        "41 anos"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "georges_st_pierre",
+        "nome": "Georges St-Pierre",
+        "descricao": "Lutador canadense de MMA, ex-campeão meio-médio e médio do UFC.",
+        "variantes": [
+          "GSP"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Georges_St-Pierre"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O canadense Georges St-Pierre, ex-campeão do UFC, interpretou o vilão Batroc em que filme da Marvel?",
+      "resposta": "Capitão América: O Soldado Invernal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+        "https://en.wikipedia.org/wiki/Captain_America:_The_Winter_Soldier"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "fabricio_werdum",
+        "nome": "Fabrício Werdum",
+        "descricao": "Lutador brasileiro de MMA e jiu-jitsu, ex-campeão peso-pesado do UFC.",
+        "variantes": [
+          "Fabricio Werdum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fabr%C3%ADcio_Werdum"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 2010, o gaúcho Fabrício Werdum finalizou em pouco mais de um minuto que lutador russo, que não perdia havia dez anos?",
+      "resposta": "Fedor Emelianenko",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fabr%C3%ADcio_Werdum",
+        "https://en.wikipedia.org/wiki/Fedor_Emelianenko"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "nunchaku",
+        "nome": "Nunchaku",
+        "descricao": "Arma de artes marciais formada por dois bastões unidos por corda ou corrente.",
+        "variantes": [
+          "Nunchaco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nunchaku"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Nos desenhos das Tartarugas Ninja, qual dos quatro irmãos luta com um par de nunchakus?",
+      "resposta": "Michelangelo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michelangelo_(Teenage_Mutant_Ninja_Turtles)"
+      ],
+      "distratores": [
+        "Leonardo",
+        "Donatello",
+        "Rafael"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "luta_do_seculo",
+        "nome": "Luta do Século",
+        "descricao": "Luta de 1971 no Madison Square Garden entre Muhammad Ali e Joe Frazier pelo título dos pesos-pesados.",
+        "variantes": [
+          "Fight of the Century"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fight_of_the_Century"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Sem conseguir lugar na primeira fila, que cantor americano trabalhou como fotógrafo da revista Life na luta entre Ali e Frazier, em 1971?",
+      "resposta": "Frank Sinatra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fight_of_the_Century"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "jack_johnson",
+        "nome": "Jack Johnson",
+        "descricao": "Boxeador americano, primeiro campeão mundial negro dos pesos-pesados, em 1908.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jack_Johnson_(boxer)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No começo dos anos mil novecentos e vinte, o boxeador Jack Johnson registrou a patente de uma melhoria em que ferramenta?",
+      "resposta": "Chave inglesa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jack_Johnson_(boxer)"
+      ],
+      "distratores": [
+        "Martelo",
+        "Alicate",
+        "Serrote"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "hulk_hogan",
+        "nome": "Hulk Hogan",
+        "descricao": "Lutador estadunidense de luta livre profissional, astro da WWF nos anos 1980.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hulk_Hogan"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No papel do lutador Thunderlips, Hulk Hogan enfrentou Sylvester Stallone numa luta de exibição em que filme de 1982?",
+      "resposta": "Rocky III",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocky_III",
+        "https://en.wikipedia.org/wiki/Hulk_Hogan"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "rocky_um_lutador",
+        "nome": "Rocky, um Lutador",
+        "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+        "variantes": [
+          "Rocky"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rocky"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Indicado a dez Oscars, o filme Rocky, de 1976, ganhou quantas estatuetas, incluindo a de melhor filme?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocky"
+      ],
+      "distratores": [
+        "Duas",
+        "Cinco",
+        "Sete"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "escadaria_do_rocky",
+        "nome": "Escadaria do Rocky",
+        "descricao": "Escadaria de entrada do Museu de Arte da Filadélfia, famosa pela cena de treino do filme Rocky.",
+        "variantes": [
+          "Rocky Steps"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rocky_Steps"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantos degraus tem a escadaria do Museu de Arte da Filadélfia, que Rocky Balboa sobe correndo no filme?",
+      "resposta": "72",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocky_Steps"
+      ],
+      "distratores": [
+        "48",
+        "100",
+        "125"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "muay_thai",
+        "nome": "Muay thai",
+        "descricao": "Arte marcial e esporte de combate tradicional da Tailândia, também chamado de boxe tailandês.",
+        "variantes": [
+          "Boxe tailandês"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Muay_Thai"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Uma luta profissional de muay thai, na Tailândia, tem tradicionalmente quantos assaltos de três minutos?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muay_Thai"
+      ],
+      "distratores": [
+        "Três",
+        "Dez",
+        "Doze"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "sumo",
+        "nome": "Sumô",
+        "descricao": "Luta tradicional japonesa em que se tenta tirar o adversário do círculo.",
+        "variantes": [
+          "Sumo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sumo"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No Japão, cada um dos seis grandes torneios anuais de sumô profissional dura quantos dias?",
+      "resposta": "Quinze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Honbasho"
+      ],
+      "distratores": [
+        "Sete",
+        "Dez",
+        "Trinta"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "the_undertaker",
+        "nome": "The Undertaker",
+        "descricao": "Nome artístico do lutador americano Mark Calaway, astro da WWE.",
+        "variantes": [
+          "Undertaker",
+          "Mark Calaway"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Undertaker"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Entre 1991 e 2013, o Undertaker manteve uma famosa série invicta na WrestleMania. Quantas vitórias seguidas ela teve?",
+      "resposta": "21",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Streak_(professional_wrestling)"
+      ],
+      "distratores": [
+        "15",
+        "18",
+        "25"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "jiu_jitsu_brasileiro",
+        "nome": "Jiu-jítsu brasileiro",
+        "descricao": "Arte marcial de luta no chão desenvolvida no Brasil pela família Gracie.",
+        "variantes": [
+          "Brazilian jiu-jitsu",
+          "BJJ"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Como se traduz para o português o termo japonês jiu-jítsu, que batiza a luta da família Gracie?",
+      "resposta": "Arte suave",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jujutsu"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "boxe",
+        "nome": "Boxe",
+        "descricao": "Esporte de combate em que dois oponentes trocam socos usando luvas.",
+        "variantes": [
+          "Pugilismo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boxing"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra pugilista, sinônimo de boxeador, vem de um termo latino ligado a que parte do corpo?",
+      "resposta": "Punho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boxing"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "maguila",
+        "nome": "Maguila",
+        "descricao": "José Adílson Rodrigues dos Santos, boxeador brasileiro dos pesos-pesados, campeão WBF, conhecido como Maguila.",
+        "variantes": [
+          "Adílson Rodrigues"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maguila"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O apelido do boxeador Maguila veio de um personagem de desenho animado da Hanna-Barbera. Que animal era esse personagem?",
+      "resposta": "Gorila",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maguila",
+        "https://en.wikipedia.org/wiki/Magilla_Gorilla"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "rocky_um_lutador",
+        "nome": "Rocky, um Lutador",
+        "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+        "variantes": [
+          "Rocky"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rocky"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No filme Rocky, de 1976, o campeão Apollo Creed escolhe o desconhecido Rocky Balboa como adversário por gostar de que apelido dele?",
+      "resposta": "Garanhão Italiano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocky"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "samurai",
+        "nome": "Samurai",
+        "descricao": "Classe de guerreiros nobres do Japão pré-moderno, a serviço de senhores feudais.",
+        "variantes": [
+          "Samurais"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Samurai"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra samurai vem de um antigo verbo japonês. Que ação esse verbo indicava?",
+      "resposta": "Servir",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Samurai"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "rumble_in_the_jungle",
+        "nome": "Rumble in the Jungle",
+        "descricao": "Luta de 1974 entre Muhammad Ali e George Foreman pelo título mundial dos pesos-pesados, disputada no então Zaire.",
+        "variantes": [
+          "Luta na Selva"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Rumble_in_the_Jungle"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em 1974, no Zaire, Muhammad Ali passou boa parte da luta encostado nas cordas, deixando George Foreman se cansar. Como essa tática ficou conhecida?",
+      "resposta": "Rope-a-dope",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rope-a-dope",
+        "https://en.wikipedia.org/wiki/The_Rumble_in_the_Jungle"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "joe_louis",
+        "nome": "Joe Louis",
+        "descricao": "Boxeador americano, campeão mundial dos pesos-pesados de 1937 a 1949.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Joe_Louis"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O campeão dos pesos-pesados Joe Louis ficou eternizado por um apelido em inglês. Traduzido, o que esse apelido quer dizer?",
+      "resposta": "Bombardeiro Marrom (Brown Bomber)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Joe_Louis"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "id_existente": "sugar_ray_leonard",
+        "nome": "Sugar Ray Leonard",
+        "descricao": "Boxeador norte-americano, campeão olímpico dos meio-médios ligeiros em 1976 e campeão mundial profissional em cinco categorias.",
+        "variantes": [
+          "Ray Charles Leonard"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sugar_Ray_Leonard"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O boxeador Sugar Ray Leonard recebeu seu nome de batismo em homenagem a que cantor americano?",
+      "resposta": "Ray Charles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sugar_Ray_Leonard"
+      ],
+      "distratores": [
+        "Sam Cooke",
+        "Marvin Gaye",
+        "Otis Redding"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "shotokan",
+        "nome": "Shotokan",
+        "descricao": "Um dos estilos de caratê mais difundidos no mundo, desenvolvido no Japão a partir dos anos 1920.",
+        "variantes": [
+          "Shotokan-ryu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shotokan"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O estilo Shotokan leva o nome de Shoto, pseudônimo do mestre Gichin Funakoshi. O que Shoto significa?",
+      "resposta": "Ondas de pinheiros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shotokan",
+        "https://en.wikipedia.org/wiki/Gichin_Funakoshi"
+      ],
+      "distratores": [
+        "Mão vazia",
+        "Vento do sul",
+        "Montanha sagrada"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "jose_aldo",
+        "nome": "José Aldo",
+        "descricao": "Lutador brasileiro de MMA, primeiro campeão peso-pena do UFC.",
+        "variantes": [
+          "José Aldo da Silva Oliveira Júnior"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jos%C3%A9_Aldo"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Antes de se mudar para o Rio de Janeiro e virar campeão do UFC, José Aldo nasceu em que capital da região Norte?",
+      "resposta": "Manaus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Aldo"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "eder_jofre",
+        "nome": "Éder Jofre",
+        "descricao": "Boxeador paulistano, campeão mundial dos pesos-galo e dos pesos-pena.",
+        "variantes": [
+          "Galo de Ouro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/%C3%89der_Jofre"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O pai e treinador de Éder Jofre, o boxeador conhecido como Kid Jofre, nasceu em que país?",
+      "resposta": "Argentina",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/%C3%89der_Jofre",
+        "https://en.wikipedia.org/wiki/%C3%89der_Jofre"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "chuck_norris",
+        "nome": "Chuck Norris",
+        "descricao": "Artista marcial e ator norte-americano, fundador do Chun Kuk Do.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chuck_Norris"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No filme O Voo do Dragão, de 1972, Bruce Lee e Chuck Norris travam um duelo famoso dentro de que monumento de Roma?",
+      "resposta": "Coliseu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Way_of_the_Dragon"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "francis_ngannou",
+        "nome": "Francis Ngannou",
+        "descricao": "Lutador camaronês-francês de MMA e boxe, ex-campeão dos pesos-pesados do UFC.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Francis_Ngannou"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Depois de deixar Camarões, Francis Ngannou cruzou o Saara e tentou várias vezes entrar na Europa, até conseguir chegar a que país?",
+      "resposta": "Espanha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Francis_Ngannou"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "charles_do_bronx",
+        "nome": "Charles do Bronx",
+        "descricao": "Lutador brasileiro de MMA e jiu-jítsu, ex-campeão peso-leve do UFC, nascido Charles Oliveira da Silva.",
+        "variantes": [
+          "Charles Oliveira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Charles_Oliveira"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Charles do Bronx, ex-campeão dos pesos-leves do UFC, nasceu e foi criado em que cidade do litoral paulista?",
+      "resposta": "Guarujá",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Charles_Oliveira"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "ufc_1",
+        "nome": "UFC 1",
+        "descricao": "Primeiro evento do Ultimate Fighting Championship, realizado em Denver em novembro de 1993.",
+        "variantes": [
+          "UFC 1: The Beginning"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/UFC_1"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O primeiro evento do UFC, em novembro de 1993, foi realizado em que cidade americana?",
+      "resposta": "Denver",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/UFC_1"
+      ],
+      "distratores": [
+        "Las Vegas",
+        "Nova York",
+        "Miami"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "rocky_marciano",
+        "nome": "Rocky Marciano",
+        "descricao": "Boxeador americano, campeão dos pesos-pesados que se aposentou invicto em 1956.",
+        "variantes": [
+          "Rocco Marchegiano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rocky_Marciano"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Rocky Marciano morreu em 1969, na véspera de completar quarenta e seis anos. O que causou sua morte?",
+      "resposta": "A queda de um pequeno avião",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocky_Marciano"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "alex_poatan_alex_pereira",
+        "nome": "Alex Poatan (Alex Pereira)",
+        "descricao": "Lutador brasileiro de MMA e ex-kickboxer, campeão do UFC em duas categorias.",
+        "variantes": [
+          "Alex Pereira",
+          "Poatan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alex_Pereira"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Antes do sucesso no kickboxing e no UFC, Alex Poatan começou a treinar luta para se livrar de que problema pessoal?",
+      "resposta": "Alcoolismo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alex_Pereira"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "eye_of_the_tiger",
+        "nome": "Eye of the Tiger",
+        "descricao": "Canção de 1982 da banda Survivor, tema do filme Rocky III.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eye_of_the_Tiger"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Sylvester Stallone encomendou a canção Eye of the Tiger depois de não conseguir usar em Rocky III que sucesso do Queen?",
+      "resposta": "Another One Bites the Dust",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eye_of_the_Tiger"
+      ],
+      "distratores": [
+        "We Will Rock You",
+        "Under Pressure",
+        "We Are the Champions"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "yokozuna",
+        "nome": "Yokozuna",
+        "descricao": "Posto mais alto da hierarquia dos lutadores profissionais de sumô.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yokozuna"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No sumô, um yokozuna nunca é rebaixado de posto. Por isso, o que se espera dele quando os resultados começam a piorar?",
+      "resposta": "Que se aposente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yokozuna"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Capoeira regional",
+        "descricao": "Estilo de capoeira criado por Mestre Bimba em Salvador nos anos 1930, com novos golpes e método de ensino sistematizado.",
+        "variantes": [
+          "Luta Regional Baiana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mestre_Bimba",
+          "https://pt.wikipedia.org/wiki/Mestre_Bimba"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos anos mil novecentos e trinta, em Salvador, que mestre criou a capoeira regional, com novos golpes e um método de ensino próprio?",
+      "resposta": "Mestre Bimba",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mestre_Bimba",
+        "https://pt.wikipedia.org/wiki/Mestre_Bimba"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "regras_do_marques_de_queensberry",
+        "nome": "Regras do Marquês de Queensberry",
+        "descricao": "Código de regras publicado na Inglaterra em 1867 que deu origem ao boxe moderno com luvas.",
+        "variantes": [
+          "Queensberry Rules"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "As regras do boxe de 1867 levam o nome do Marquês de Queensberry, mas foram redigidas por outro britânico. Quem?",
+      "resposta": "John Graham Chambers",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules",
+        "https://en.wikipedia.org/wiki/John_Graham_Chambers"
+      ],
+      "distratores": [
+        "Jack Broughton",
+        "Daniel Mendoza",
+        "James Figg"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "berimbau",
+        "nome": "Berimbau",
+        "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Berimbau"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na mesma mão da baqueta, o tocador de berimbau segura um pequeno chocalho de palha trançada. Como ele se chama?",
+      "resposta": "Caxixi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Berimbau",
+        "https://en.wikipedia.org/wiki/Caxixi"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "ringue_de_boxe",
+        "nome": "Ringue de boxe",
+        "descricao": "Espaço quadrado cercado por cordas onde se disputam as lutas de boxe.",
+        "variantes": [
+          "Ringue"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boxing_ring"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No ringue de boxe olímpico, além dos cantos vermelho e azul, há dois cantos neutros. De que cor eles são?",
+      "resposta": "Branco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boxing_ring"
+      ],
+      "distratores": [
+        "Amarelo",
+        "Preto",
+        "Verde"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "khabib_nurmagomedov",
+        "nome": "Khabib Nurmagomedov",
+        "descricao": "Lutador russo do Daguestão de MMA, campeão peso-leve do UFC, aposentado invicto.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Um vídeo famoso mostra Khabib Nurmagomedov, aos nove anos, no Daguestão, lutando com que animal?",
+      "resposta": "Um urso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "dohyo",
+        "nome": "Dohyō",
+        "descricao": "Arena circular de argila em que se disputam as lutas de sumô.",
+        "variantes": [
+          "Dohyô"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dohy%C5%8D"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Por tradição religiosa, quem é proibido de subir no dohyô, a arena das lutas de sumô profissional?",
+      "resposta": "Mulheres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dohy%C5%8D"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "ronda_rousey",
+        "nome": "Ronda Rousey",
+        "descricao": "Lutadora americana, primeira campeã feminina do UFC e medalhista olímpica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ronda_Rousey"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Lutas e Artes Marciais",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Antes do MMA, Ronda Rousey tornou-se a primeira americana a ganhar medalha olímpica no judô, um bronze. Em que edição dos Jogos?",
+      "resposta": "Pequim 2008",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ronda_Rousey"
+      ],
+      "distratores": [
+        "Sydney 2000",
+        "Atenas 2004",
+        "Londres 2012"
+      ]
+    }
+  ]
+}
