@@ -1,0 +1,181 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Close do boneco Chucky, reconhecível pelas cicatrizes costuradas, cabelo ruivo e macacão listrado, sem texto.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que série de filmes de terror aparece este boneco?",
+      "resposta": "O Brinquedo Assassino (Child's Play)",
+      "ancora": {
+        "nome": "Chucky",
+        "descricao": "Boneco Good Guy possuído pela alma de um serial killer, vilão da série de filmes de terror O Brinquedo Assassino.",
+        "variantes": [
+          "Charles Lee Ray",
+          "Chucky, o Boneco Assassino"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Trafalgar Law em arte do anime, reconhecível pelo chapéu manchado, jolly roger no moletom e espada; sem texto. Não é silhueta do tipo corpo inteiro.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Eiichiro Oda",
+      "ancora": {
+        "nome": "Trafalgar Law",
+        "descricao": "Capitão dos Piratas do Coração e médico, conhecido como Cirurgião da Morte, personagem de One Piece.",
+        "variantes": [
+          "Trafalgar D. Water Law",
+          "Law",
+          "Cirurgião da Morte"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte de Mysterio com capacete de aquário e capa roxa, bem reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este vilão dos quadrinhos da Marvel é inimigo clássico de que herói?",
+      "resposta": "Homem-Aranha",
+      "distratores": [
+        "Homem de Ferro",
+        "Capitão América",
+        "Hulk"
+      ],
+      "ancora": {
+        "nome": "Mysterio",
+        "descricao": "Vilão da Marvel Comics (Quentin Beck), mestre de ilusões que usa capacete de aquário, estreou em Amazing Spider-Man #13.",
+        "variantes": [
+          "Quentin Beck",
+          "Mystério"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida do Caco, o Sapo, inconfundível, sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Caco, o Sapo",
+      "ancora": {
+        "nome": "Caco, o Sapo",
+        "descricao": "Fantoche sapo verde criado por Jim Henson, apresentador de Os Muppets.",
+        "variantes": [
+          "Kermit the Frog",
+          "Kermit"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de um homem comum, sem figurino nem traço que permita reconhecer o personagem; há partes de outra pessoa na imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É a abertura da novela com o título Belíssima escrito; o texto entrega a resposta e não mostra a personagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É um pôster com o título Dungeons & Dragons escrito e vários personagens juntos; o Mestre dos Magos nem aparece com clareza."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto antiga em sépia de uma senhora tricotando; não é reconhecível como Dona Benta de forma única, e a obra e a atriz não são identificáveis pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco do personagem com chapéu acolchoado, óculos redondos grandes e bigode, reconhecível por quem conhece Chespirito; a silhueta é uma caixa retangular sem forma, então usa a imagem colorida.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "usar_silhueta": false,
+      "pergunta": "Este personagem dos quadros de Chespirito é amigo de qual outro maluquinho?",
+      "resposta": "Lucas Pirado",
+      "ancora": {
+        "nome": "Chaparrón Bonaparte",
+        "descricao": "Personagem de Chespirito em Los Chifladitos (Os Maluquinhos), amigo de Lucas Pirado.",
+        "variantes": [
+          "Pancada",
+          "Gota Mágica",
+          "Sr. Fortunato"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de divulgação nítida de Dumbledore com gorro, barba longa e varinha, sem texto.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Alvo Dumbledore",
+      "distratores": [
+        "Gandalf",
+        "Saruman",
+        "Merlin"
+      ],
+      "ancora": {
+        "nome": "Alvo Dumbledore",
+        "descricao": "Diretor de Hogwarts na série Harry Potter, bruxo de longa barba branca.",
+        "variantes": [
+          "Albus Dumbledore",
+          "Dumbledore"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É o logotipo da novela com o título Roque Santeiro escrito; o texto entrega a resposta e não mostra a Viúva Porcina."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte oficial colorida do Titi, nítida e sem texto. A silhueta é uma forma genérica de menino de cabelo preto, que pode ser confundida com outros garotos da turma, então usa a imagem colorida.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "usar_silhueta": false,
+      "pergunta": "Este personagem de Maurício de Sousa faz parte de que turma?",
+      "resposta": "Turma do Bermudão",
+      "distratores": [
+        "Turma do Penadinho",
+        "Turma da Mata",
+        "Turma do Piteco"
+      ],
+      "ancora": {
+        "nome": "Titi",
+        "descricao": "Timóteo Soares de Lima, menino dentuço galanteador da Turma da Mônica, de camiseta listrada, namorado da Aninha.",
+        "variantes": [
+          "Tigrão",
+          "Timóteo Soares de Lima"
+        ]
+      }
+    }
+  ]
+}
