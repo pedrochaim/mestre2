@@ -1,0 +1,93 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século antes de Cristo começou a construção deste complexo de templos egípcios?",
+        "resposta": "Século vinte a.C."
+      },
+      "existentes": [
+        {
+          "id": "q06395",
+          "pergunta": "A grande sala hipostila do templo de Karnak, em Luxor, é uma verdadeira floresta de colunas de pedra. Quantas colunas ela tem?",
+          "resposta": "134"
+        },
+        {
+          "id": "q15837",
+          "pergunta": "Em que cidade egípcia fica este complexo de templos?",
+          "resposta": "Luxor"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país foi encontrada esta paleta cerimonial?",
+        "resposta": "Egito"
+      },
+      "existentes": [
+        {
+          "id": "q06356",
+          "pergunta": "A Paleta de Narmer, que mostra um rei usando as coroas do Alto e do Baixo Egito, data de cerca de quando?",
+          "resposta": "3100 antes de Cristo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Há cerca de quanto tempo viveu o hominídeo deste crânio, encontrado numa mina africana?",
+        "resposta": "300 mil anos"
+      },
+      "existentes": [
+        {
+          "id": "q11629",
+          "pergunta": "O crânio de Kabwe, achado em 1921 numa mina da Zâmbia, tem mais de duzentos mil anos e um problema nos dentes muito comum hoje. Qual?",
+          "resposta": "Cáries"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que necrópole egípcia, ao sul do Cairo, fica esta pirâmide?",
+        "resposta": "Dahshur"
+      },
+      "existentes": [
+        {
+          "id": "q03481",
+          "pergunta": "Em que necrópole egípcia fica esta pirâmide?",
+          "resposta": "Dahshur"
+        },
+        {
+          "id": "q13636",
+          "pergunta": "A Pirâmide Curvada, que muda de inclinação no meio da subida, foi construída para qual faraó, pai de Quéops?",
+          "resposta": "Seneferu"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o século de início da construção, fato diferente do número de colunas ou da cidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "País de descoberta é diferente da data da paleta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Idade do hominídeo é diferente do problema dentário."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q03481",
+      "motivo": "Mesma pergunta sobre a necrópole da pirâmide, mesma resposta Dahshur."
+    }
+  ]
+}

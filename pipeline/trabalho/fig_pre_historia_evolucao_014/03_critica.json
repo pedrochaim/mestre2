@@ -1,0 +1,64 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construção começou sob Senusret I (1971–1926 a.C.), ou seja, século vinte a.C. O enunciado não nomeia o complexo e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Primatóloga' com 'orangotango' no enunciado entrega a resposta sem a figura, já que Galdikas é a grande referência em orangotangos. Também não há garantia de que a foto mostre um filhote. Retirei essa pista e deixei só a nacionalidade.",
+      "reescrita": {
+        "pergunta": "Que primatóloga canadense é esta?",
+        "resposta": "Biruté Galdikas"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escultura magdaleniana em ponta de presa de mamute. A pista não entrega o nome e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A paleta é egípcia (Hieracômpolis, Alto Egito). A pergunta pede o país e não dá a resposta no enunciado. É simples, mas serve para o nível 1.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A datação de 2019/2020 dá cerca de 300 mil anos. O enunciado está correto e os distratores são plausíveis, com no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Pirâmide Curvada fica na necrópole real de Dahshur, a cerca de 40 km ao sul do Cairo. O enunciado não nomeia a pirâmide nem a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'A mais antiga conhecida' não é literalmente verdadeiro: o trecho cita outra possível agulha, de cerca de 61 mil anos, na África do Sul. Ajustei para 'entre as mais antigas'. A resposta de 50 mil anos continua sustentada.",
+      "reescrita": {
+        "pergunta": "Nesta caverna siberiana achou-se uma agulha de osso entre as mais antigas conhecidas. Há cerca de quanto tempo ela foi feita?",
+        "resposta": "50 mil anos",
+        "distratores": [
+          "20 mil anos",
+          "10 mil anos",
+          "100 mil anos"
+        ]
+      }
+    }
+  ]
+}

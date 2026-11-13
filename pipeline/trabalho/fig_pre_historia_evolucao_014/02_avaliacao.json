@@ -1,0 +1,187 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Sala hipostila com obelisco, reconhecível como Karnak; sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que século antes de Cristo começou a construção deste complexo de templos egípcios?",
+      "resposta": "Século vinte a.C.",
+      "distratores": [
+        "Século trinta a.C.",
+        "Século quinze a.C.",
+        "Século dez a.C."
+      ],
+      "ancora": {
+        "nome": "Templo de Karnak",
+        "descricao": "Vasto complexo de templos, pilones e capelas perto de Luxor, no Egito, dedicado sobretudo ao deus Amon.",
+        "variantes": [
+          "Karnak",
+          "Carnaque",
+          "Complexo do Templo de Karnak"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Fundações de tijolo sem traço distintivo; podem ser confundidas com Mohenjo-daro, Harappa ou outros sítios do Indo. Resposta não única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A etiqueta do museu, legível na imagem, traz o nome Oreopithecus bambolii e entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Montes de terra num deserto enevoado, sem traço que permita reconhecer Caral; pode ser confundido com outros sítios andinos."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Fragmento de mandíbula fóssil sobre fundo escuro; não permite reconhecer o Dryopithecus e a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Figura pública (primatóloga) com um filhote de orangotango, sem texto. A pergunta sobre época não rende, então usei a família o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que primatóloga é esta, fotografada com um filhote de orangotango?",
+      "resposta": "Biruté Galdikas",
+      "ancora": {
+        "nome": "Biruté Galdikas",
+        "descricao": "Antropóloga e primatóloga canadense, de origem lituana, referência mundial no estudo de orangotangos em Bornéu.",
+        "variantes": [
+          "Birutė Galdikas",
+          "Birute Galdikas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Escultura famosa, reconhecível pela pose de dois animais nadando em fila. Sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que obra pré-histórica, esculpida em presa de mamute, é esta?",
+      "resposta": "Renas nadando",
+      "distratores": [
+        "Cervos bebendo",
+        "Cavalos correndo",
+        "Bisões lutando"
+      ],
+      "ancora": {
+        "nome": "Renas Nadando",
+        "descricao": "Escultura magdaleniana de duas renas nadando, entalhada em presa de mamute e guardada no Museu Britânico.",
+        "variantes": [
+          "Swimming Reindeer",
+          "Renas nadadoras"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Paleta de Narmer, frente e verso, inconfundível; os hieróglifos não entregam o nome ao público leigo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Em que país foi encontrada esta paleta cerimonial?",
+      "resposta": "Egito",
+      "ancora": {
+        "nome": "Paleta de Narmer",
+        "descricao": "Paleta de xisto egípcia de cerca do século XXXI a.C., com os primeiros hieróglifos conhecidos e a imagem do rei Narmer.",
+        "variantes": [
+          "Paleta de Narmer",
+          "Narmer Palette",
+          "Grande Paleta de Hieracômpolis"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto antiga do crânio de Kabwe (Broken Hill), reconhecível pelo orifício na têmpora. O nome do item, Bodo, não bate com a imagem, que é de Kabwe, então a âncora segue a imagem. Há leve risco de confusão com outros crânios de H. heidelbergensis.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Há cerca de quanto tempo viveu o hominídeo deste crânio, encontrado numa mina africana?",
+      "resposta": "300 mil anos",
+      "distratores": [
+        "100 mil anos",
+        "600 mil anos",
+        "1 milhão de anos"
+      ],
+      "ancora": {
+        "nome": "Crânio de Kabwe",
+        "descricao": "Crânio fóssil de hominídeo do Pleistoceno Médio achado na mina de Broken Hill, em Kabwe, na Zâmbia, ligado a Homo rhodesiensis ou H. heidelbergensis.",
+        "variantes": [
+          "Crânio de Broken Hill",
+          "Homem de Rodésia",
+          "Kabwe 1",
+          "Homo rhodesiensis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pirâmide de inclinação dupla, inconfundível; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Em que necrópole egípcia, ao sul do Cairo, fica esta pirâmide?",
+      "resposta": "Dahshur",
+      "ancora": {
+        "nome": "Pirâmide Curvada",
+        "descricao": "Pirâmide egípcia de Sneferu, em Dahshur, de inclinação reduzida na parte superior.",
+        "variantes": [
+          "Pirâmide Romboidal",
+          "Bent Pyramid",
+          "Pirâmide Torta"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Corte de escavação numa parede de rocha, sem traço que identifique a caverna de Tabun; não é reconhecível e há texto hebraico nas réguas."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Entrada da caverna de Denisova, com escada de madeira e floresta de Altai; sem texto. Reconhecimento moderado, por isso a múltipla escolha.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Nesta caverna siberiana achou-se a agulha de osso mais antiga conhecida. Há cerca de quanto tempo ela foi feita?",
+      "resposta": "50 mil anos",
+      "distratores": [
+        "20 mil anos",
+        "10 mil anos",
+        "100 mil anos"
+      ],
+      "ancora": {
+        "nome": "Caverna de Denisova",
+        "descricao": "Caverna nos montes Altai, na Sibéria, onde se descobriu o hominínio de Denisova.",
+        "variantes": [
+          "Denisova Cave",
+          "Caverna Denisova"
+        ]
+      }
+    }
+  ]
+}
