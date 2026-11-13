@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pista (escritora brasileira nascida no século dezenove) é genérica demais. Várias escritoras brasileiras servem, e uma pista mais específica (A Falência, exclusão da ABL) entregaria a resposta sem a imagem. Na dúvida, descarta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'jovem escondida na ocupação alemã escrevendo o diário' identifica Anne Frank, e daí Amsterdã. Reescrevi com um fato que exige reconhecer a figura (mudança da família em 1934), sustentado pelo trecho.",
+      "reescrita": {
+        "pergunta": "Esta jovem nasceu em Frankfurt, na Alemanha. Em mil novecentos e trinta e quatro, para que cidade a família dela se mudou?",
+        "resposta": "Amsterdã",
+        "distratores": [
+          "Roterdã",
+          "Haia",
+          "Utrecht"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Longa Jornada Noite Adentro é de O'Neill, e os distratores são peças americanas de outros autores. A pergunta só se responde reconhecendo o retrato.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, sem vazamento. A resposta é única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que ele foi mestre de música e de capela da Capela Real, na corte de dom João no Rio. Os distratores são do mesmo tipo e não estão corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Star Wars é de Williams, confirmado no trecho. Os distratores são trilhas de outros compositores (Shore, Zimmer), e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento por imagem, com distratores de outros líderes ou escritores indígenas. A resposta é única diante da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nijinsky foi bailarino russo do início do século vinte. Nível 1, sem vazamento, e a imagem decide a resposta.",
+      "reescrita": null
+    }
+  ]
+}

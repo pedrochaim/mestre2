@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta jovem nasceu em Frankfurt, na Alemanha. Em mil novecentos e trinta e quatro, para que cidade a família dela se mudou?",
+        "resposta": "Amsterdã"
+      },
+      "existentes": [
+        {
+          "id": "q05760",
+          "pergunta": "Descoberta no esconderijo em Amsterdã, a adolescente Anne Frank morreu em 1945 em qual campo de concentração nazista?",
+          "resposta": "Bergen-Belsen"
+        },
+        {
+          "id": "q13389",
+          "pergunta": "Nascida na Alemanha e escondida em Amsterdã, em que língua Anne Frank escreveu o seu diário?",
+          "resposta": "Holandês"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a cidade para onde a família se mudou em 1934 (Amsterdã). As existentes pedem o campo onde Anne morreu e a língua do diário. São fatos diferentes. Amsterdã aparece só como contexto numa delas, não como resposta."
+    }
+  ]
+}

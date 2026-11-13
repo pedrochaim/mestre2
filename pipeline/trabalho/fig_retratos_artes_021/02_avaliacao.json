@@ -1,0 +1,193 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto borrada, em recorte, com outras pessoas comuns em primeiro plano; a atriz não é reconhecível com clareza."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A base do busto traz o nome em grego (ΑΡΙΣΤΟΦΑΝΗΣ), o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato de estúdio em preto e branco, nítido; a assinatura do fotógrafo (Paul, Rio) não entrega o nome.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que escritora brasileira, nascida no século dezenove, aparece neste retrato?",
+      "resposta": "Júlia Lopes de Almeida",
+      "ancora": {
+        "nome": "Júlia Lopes de Almeida",
+        "descricao": "Escritora brasileira (1862–1934), autora de A Falência e Memórias de Marta.",
+        "variantes": [
+          "Julia Lopes de Almeida"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto muito conhecida, nítida, sem texto. A pergunta vai além do nome e não pode ser respondida sem a imagem.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Em que cidade esta jovem viveu escondida durante a ocupação alemã, escrevendo o seu diário?",
+      "resposta": "Amsterdã",
+      "distratores": [
+        "Roterdã",
+        "Haia",
+        "Utrecht"
+      ],
+      "ancora": {
+        "nome": "Anne Frank",
+        "descricao": "Jovem judia alemã que escreveu um diário enquanto vivia escondida em Amsterdã durante a ocupação nazista.",
+        "variantes": [
+          "Annelies Marie Frank"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Estátua de bronze em foto de rosto, sem contexto. Não dá para reconhecer o escritor por ela."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto. A pergunta pede a peça do autor, entre distratores de outros dramaturgos americanos.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 4,
+      "pergunta": "Qual destas peças foi escrita por este dramaturgo americano?",
+      "resposta": "Longa Jornada Noite Adentro",
+      "distratores": [
+        "Um Bonde Chamado Desejo",
+        "A Morte do Caixeiro-Viajante",
+        "As Bruxas de Salem"
+      ],
+      "ancora": {
+        "nome": "Eugene O'Neill",
+        "descricao": "Dramaturgo americano (1888–1953), Nobel de Literatura de 1936, autor de Longa Jornada Noite Adentro.",
+        "variantes": [
+          "Eugene Gladstone O'Neill"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que escritor russo é este?",
+      "resposta": "Máximo Gorki",
+      "ancora": {
+        "nome": "Máximo Gorki",
+        "descricao": "Escritor russo e soviético (1868–1936), autor de A Mãe e Os Baixos-Fundos.",
+        "variantes": [
+          "Maxim Gorky",
+          "Aleksei Peshkov"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato pintado conhecido, nítido, sem texto. A pergunta usa múltipla escolha porque o compositor é menos famoso.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 2,
+      "pergunta": "Este compositor brasileiro foi mestre de qual instituição da corte de Dom João Sexto no Rio de Janeiro?",
+      "resposta": "Capela Real",
+      "distratores": [
+        "Teatro São João",
+        "Academia Imperial",
+        "Colégio Pedro Segundo"
+      ],
+      "ancora": {
+        "nome": "José Maurício Nunes Garcia",
+        "descricao": "Padre e compositor brasileiro (1767–1830), mestre da Capela Real no Rio de Janeiro.",
+        "variantes": [
+          "Padre José Maurício"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública. O crachá com a sigla NASA não entrega o nome. Troquei para múltipla porque a pergunta aberta teria mais de uma resposta defensável.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 2,
+      "pergunta": "Qual destas trilhas sonoras de cinema foi composta por este homem?",
+      "resposta": "Star Wars",
+      "distratores": [
+        "O Senhor dos Anéis",
+        "Piratas do Caribe",
+        "Gladiador"
+      ],
+      "ancora": {
+        "nome": "John Williams",
+        "descricao": "Compositor e maestro americano, nascido em 1932, autor de trilhas de Star Wars, Tubarão e Indiana Jones.",
+        "variantes": [
+          "John Towner Williams"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Estátua em foto noturna, suja, com letreiros ao fundo. Não dá para reconhecer o ator pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Quem é este pensador e escritor indígena brasileiro?",
+      "resposta": "Ailton Krenak",
+      "distratores": [
+        "Davi Kopenawa",
+        "Daniel Munduruku",
+        "Raoni Metuktire"
+      ],
+      "ancora": {
+        "nome": "Ailton Krenak",
+        "descricao": "Escritor, filósofo e líder indígena brasileiro do povo Krenak, autor de Ideias para Adiar o Fim do Mundo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 4,
+      "pergunta": "Que bailarino russo do início do século vinte é este?",
+      "resposta": "Vaslav Nijinsky",
+      "ancora": {
+        "nome": "Vaslav Nijinsky",
+        "descricao": "Bailarino e coreógrafo russo (1889/1890–1950), estrela dos Ballets Russes.",
+        "variantes": [
+          "Nijinski",
+          "Vatslav Nijinsky"
+        ]
+      }
+    }
+  ]
+}

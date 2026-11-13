@@ -1412,9 +1412,10 @@
     "fig_astronomia_025",
     "fig_cenas_017",
     "fig_rochas_minerais_011",
-    "cotidiano_culinaria_e_bebidas_05"
+    "cotidiano_culinaria_e_bebidas_05",
+    "fig_retratos_artes_021"
   ],
-  "maior_id": 21932,
+  "maior_id": 21939,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1758,15 +1759,15 @@
     },
     "retratos_artes": {
       "familias": {
-        "o_que_e": 91,
-        "com_o_que_se_liga": 93
+        "o_que_e": 94,
+        "com_o_que_se_liga": 97
       },
       "niveis": {
-        "1": 73,
-        "2": 73,
-        "3": 38
+        "1": 75,
+        "2": 77,
+        "3": 39
       },
-      "registradas": 184
+      "registradas": 191
     },
     "folclore": {
       "familias": {
@@ -2739,9 +2740,5 @@
   "pausados": [
     "figura:pokemon"
   ],
-  "abandonados": [],
-  "lote_figura_em_andamento": {
-    "id": "fig_retratos_artes_021",
-    "catalogo": "retratos_artes"
-  }
+  "abandonados": []
 }
