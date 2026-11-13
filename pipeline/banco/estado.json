@@ -1411,9 +1411,10 @@
     "fig_festas_costumes_016",
     "fig_astronomia_025",
     "fig_cenas_017",
-    "fig_rochas_minerais_011"
+    "fig_rochas_minerais_011",
+    "cotidiano_culinaria_e_bebidas_05"
   ],
-  "maior_id": 21899,
+  "maior_id": 21932,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -2692,7 +2693,8 @@
     "Culinária e Bebidas": [
       44,
       44,
-      40
+      40,
+      33
     ],
     "Corpo Humano e Medicina": [
       44,
@@ -2735,15 +2737,11 @@
     ]
   },
   "pausados": [
-    "figura:pokemon",
-    "figura:retratos_artes"
+    "figura:pokemon"
   ],
-  "abandonados": [
-    {
-      "id": "fig_retratos_artes_021",
-      "chave": "figura:retratos_artes",
-      "motivo": "3 falhas seguidas: Claude devolveu erro (success): Failed to authenticate. API Error: 403 Attention Required! | Cloudflare",
-      "quando": "2026-11-13T07:17:49"
-    }
-  ]
+  "abandonados": [],
+  "lote_figura_em_andamento": {
+    "id": "fig_retratos_artes_021",
+    "catalogo": "retratos_artes"
+  }
 }

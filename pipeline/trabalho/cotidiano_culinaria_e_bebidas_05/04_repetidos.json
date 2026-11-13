@@ -1,0 +1,821 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em francês, o que quer dizer fondue, nome do prato suíço em que se mergulham pedaços de pão numa panela de queijo?",
+        "resposta": "Derretido"
+      },
+      "existentes": [
+        {
+          "id": "q01418",
+          "pergunta": "Que país promoveu este prato como símbolo nacional na década de mil novecentos e trinta?",
+          "resposta": "Suíça"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na origem, a palavra japonesa sushi descrevia o sabor do arroz que acompanhava o peixe. Que sabor era esse?",
+        "resposta": "Azedo"
+      },
+      "existentes": [
+        {
+          "id": "q00972",
+          "pergunta": "Que prato japonês, de arroz com vinagre e peixe, é este?",
+          "resposta": "Sushi"
+        },
+        {
+          "id": "q06136",
+          "pergunta": "Na forma mais antiga do sushi, o arroz era jogado fora antes de comer o peixe. Para que ele servia?",
+          "resposta": "Para fermentar e conservar o peixe"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A palavra café chegou às línguas europeias pelo turco kahve. E a palavra turca, por sua vez, vem de qual língua?",
+        "resposta": "Árabe"
+      },
+      "existentes": [
+        {
+          "id": "q06118",
+          "pergunta": "Segundo uma lenda etíope, quem descobriu o café ao notar que suas cabras ficavam agitadas depois de comer os frutos do cafeeiro?",
+          "resposta": "O pastor Kaldi"
+        },
+        {
+          "id": "q18105",
+          "pergunta": "Que compositor alemão do século dezoito escreveu uma cantata cômica sobre uma jovem viciada em café?",
+          "resposta": "Johann Sebastian Bach"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Uma explicação para o nome tempurá o liga aos dias de jejum que os missionários portugueses guardavam no Japão. Como se chamavam esses dias?",
+        "resposta": "Têmporas"
+      },
+      "existentes": [
+        {
+          "id": "q00206",
+          "pergunta": "No século dezesseis, que povo europeu levou ao Japão a técnica de fritura empanada que deu origem ao tempurá?",
+          "resposta": "Portugueses"
+        },
+        {
+          "id": "q00756",
+          "pergunta": "Segundo a origem mais aceita, o nome tempurá vem de uma palavra latina usada pelos portugueses no Japão para certos dias de jejum. Que dias eram esses?",
+          "resposta": "Têmporas"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Segundo a história mais contada, o nome hot dog, que no Brasil virou cachorro-quente, veio de uma piada: as salsichas alemãs lembravam qual raça de cão?",
+        "resposta": "Bassê"
+      },
+      "existentes": [
+        {
+          "id": "q01415",
+          "pergunta": "Este lanche, muito associado ao beisebol, é considerado típico de qual país?",
+          "resposta": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Vindo do tupi, o nome açaí costuma ser traduzido como fruta que faz o quê?",
+        "resposta": "Que chora"
+      },
+      "existentes": [
+        {
+          "id": "q17731",
+          "pergunta": "Esta palmeira amazônica dá frutos de que cor, quando maduros?",
+          "resposta": "Roxo-escuro"
+        },
+        {
+          "id": "q19048",
+          "pergunta": "Além do fruto roxo, o açaizeiro fornece outro alimento, tirado do miolo macio do topo do caule. Qual?",
+          "resposta": "Palmito"
+        },
+        {
+          "id": "q19049",
+          "pergunta": "Segundo a explicação mais citada, o nome açaí vem do tupi. O que ele significa?",
+          "resposta": "Fruta que chora"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Na língua náuatle, dos astecas, a palavra que deu origem a abacate também designava qual parte do corpo?",
+        "resposta": "Testículo"
+      },
+      "existentes": [
+        {
+          "id": "q02767",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Abacate"
+        },
+        {
+          "id": "q09728",
+          "pergunta": "Na botânica, o que o abacate e a canela têm em comum?",
+          "resposta": "Família das lauráceas"
+        },
+        {
+          "id": "q19050",
+          "pergunta": "O abacate tem uma particularidade entre as frutas: ele só amadurece de verdade depois de quê?",
+          "resposta": "Ser colhido"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Segundo a lenda, por que o quarto conde de Sandwich, nobre inglês do século dezoito, pedia carne entre duas fatias de pão?",
+        "resposta": "Para não largar o jogo de cartas"
+      },
+      "existentes": [
+        {
+          "id": "q08514",
+          "pergunta": "Segundo a história mais conhecida, o conde de Sandwich pedia carne entre fatias de pão para não interromper qual atividade?",
+          "resposta": "Jogo de cartas"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Por que a maioria das garrafas de cerveja é feita de vidro marrom ou verde?",
+        "resposta": "Para proteger a bebida da luz"
+      },
+      "existentes": [
+        {
+          "id": "q08452",
+          "pergunta": "Que cereal maltado é a base principal desta bebida?",
+          "resposta": "Cevada"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Guardado fechado, o mel dura anos sem estragar. Por que bactérias e fungos não conseguem se desenvolver nele?",
+        "resposta": "Tem pouca água e muito açúcar"
+      },
+      "existentes": [
+        {
+          "id": "q07300",
+          "pergunta": "Que alimento é este, no pote e escorrendo da colher?",
+          "resposta": "Mel"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O suco da maioria das uvas tintas é claro. De onde vem, então, a cor do vinho tinto?",
+        "resposta": "Da casca da uva"
+      },
+      "existentes": [
+        {
+          "id": "q03707",
+          "pergunta": "Qual é a matéria-prima principal desta bebida?",
+          "resposta": "Uva"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Por que a castanha de caju precisa passar pelo calor antes de ser tirada da casca, mesmo a vendida como crua?",
+        "resposta": "A casca tem um óleo tóxico"
+      },
+      "existentes": [
+        {
+          "id": "q01854",
+          "pergunta": "A árvore que dá esta fruta é originária de qual região do Brasil?",
+          "resposta": "Nordeste"
+        },
+        {
+          "id": "q02687",
+          "pergunta": "No caju, a parte suculenta é um pseudofruto. Qual parte é o verdadeiro fruto da planta?",
+          "resposta": "A castanha"
+        },
+        {
+          "id": "q19036",
+          "pergunta": "A castanha-de-caju nunca é vendida crua dentro da casca, só depois de torrada ou processada. Por quê?",
+          "resposta": "Óleo cáustico na casca"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "A mandioca pertence à mesma família botânica de qual árvore amazônica, famosa pelo látex usado para fazer borracha?",
+        "resposta": "Seringueira"
+      },
+      "existentes": [
+        {
+          "id": "q00190",
+          "pergunta": "No Rio de Janeiro ela é chamada de aipim. Que outro nome a mandioca recebe na maior parte do Nordeste?",
+          "resposta": "Macaxeira"
+        },
+        {
+          "id": "q02663",
+          "pergunta": "O que torna a mandioca-brava perigosa quando comida crua?",
+          "resposta": "Ela libera cianeto"
+        },
+        {
+          "id": "q06084",
+          "pergunta": "Segundo uma lenda tupi, o nome mandioca vem de uma menina indígena enterrada dentro da oca, onde a planta brotou. Como ela se chamava?",
+          "resposta": "Mani"
+        },
+        {
+          "id": "q19021",
+          "pergunta": "Que ingrediente, extraído da mandioca, é a base da massa do pão de queijo mineiro?",
+          "resposta": "Polvilho"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na botânica, qual destes temperos é parente próximo da cenoura, da mesma família?",
+        "resposta": "Coentro"
+      },
+      "existentes": [
+        {
+          "id": "q05985",
+          "pergunta": "Que raiz comestível é esta, aqui em várias cores?",
+          "resposta": "Cenoura"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O abacaxi pertence à mesma família de quais plantas ornamentais, de folhas em roseta, muito comuns em jardins tropicais?",
+        "resposta": "Bromélias"
+      },
+      "existentes": [
+        {
+          "id": "q02652",
+          "pergunta": "Pineapple, o nome do abacaxi em inglês, compara a fruta a que coisa?",
+          "resposta": "Pinha, o cone do pinheiro"
+        },
+        {
+          "id": "q06098",
+          "pergunta": "Que enzima do abacaxi fresco ajuda a amaciar carnes e deixa a língua ardida quando se come muito da fruta?",
+          "resposta": "Bromelina"
+        },
+        {
+          "id": "q09278",
+          "pergunta": "Que fruta tropical é esta, ainda na planta?",
+          "resposta": "Abacaxi"
+        },
+        {
+          "id": "q18121",
+          "pergunta": "Quem faz gelatina com abacaxi fresco descobre que ela não endurece. Por que isso acontece?",
+          "resposta": "Enzima que digere proteínas"
+        },
+        {
+          "id": "q21834",
+          "pergunta": "A que família botânica pertence esta planta frutífera?",
+          "resposta": "Bromeliáceas (bromélias)"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Embora seja comida como se fosse um cereal, a quinoa é parente próxima de qual hortaliça de folhas?",
+        "resposta": "Espinafre"
+      },
+      "existentes": [
+        {
+          "id": "q17433",
+          "pergunta": "Que planta, cultivada por suas sementes comestíveis, é esta?",
+          "resposta": "Quinoa"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "A planta de cujas folhas se faz o chá pertence ao mesmo gênero botânico de qual flor ornamental?",
+        "resposta": "Camélia"
+      },
+      "existentes": [
+        {
+          "id": "q06124",
+          "pergunta": "Segundo uma lenda chinesa, o chá foi descoberto quando folhas caíram na água fervente de qual imperador mítico?",
+          "resposta": "Shennong"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "A melancia pertence à mesma família botânica de qual destes legumes?",
+        "resposta": "Pepino"
+      },
+      "existentes": [
+        {
+          "id": "q04173",
+          "pergunta": "Que fruta cresce nesta planta rasteira?",
+          "resposta": "Melancia"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Nos anos vinte, em Tijuana, que dono de restaurante ítalo-americano criou a salada de alface-romana e croûtons que leva o seu nome?",
+        "resposta": "Caesar Cardini"
+      },
+      "existentes": [
+        {
+          "id": "q00205",
+          "pergunta": "A salada Caesar foi criada em 1924 por um imigrante italiano, num restaurante de qual cidade mexicana?",
+          "resposta": "Tijuana"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "A frase que comam brioches, atribuída a Maria Antonieta, já aparece nas Confissões, escritas quando ela ainda era criança. Quem escreveu esse livro?",
+        "resposta": "Jean-Jacques Rousseau"
+      },
+      "existentes": [
+        {
+          "id": "q03933",
+          "pergunta": "A frase que comam brioches, atribuída a Maria Antonieta, já aparecia num livro de memórias de qual filósofo?",
+          "resposta": "Jean-Jacques Rousseau"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Em que século a batata, nativa dos Andes, chegou à Europa levada pelos espanhóis?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q02693",
+          "pergunta": "A batata, nativa dos Andes, foi levada para a Europa pelos espanhóis em que século?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q06107",
+          "pergunta": "Antes de conquistar a Europa, a batata foi domesticada há milhares de anos por povos de qual cordilheira sul-americana?",
+          "resposta": "Andes"
+        },
+        {
+          "id": "q18097",
+          "pergunta": "Na botânica, o que a batata, o tomate, a berinjela e o pimentão têm em comum?",
+          "resposta": "Família das solanáceas"
+        },
+        {
+          "id": "q19040",
+          "pergunta": "Batatas expostas à luz ficam esverdeadas e acumulam uma substância tóxica, por isso as partes verdes devem ser descartadas. Que substância é essa?",
+          "resposta": "Solanina"
+        },
+        {
+          "id": "q19041",
+          "pergunta": "Botanicamente, qual destes alimentos que crescem debaixo da terra é um caule, e não uma raiz?",
+          "resposta": "Batata"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Muita gente acha que o tiramisù é uma receita antiga, mas em que século ele surgiu?",
+        "resposta": "Século vinte"
+      },
+      "existentes": [
+        {
+          "id": "q00192",
+          "pergunta": "A sobremesa italiana de café, mascarpone e biscoito se chama tiramisù. O que esse nome significa em português?",
+          "resposta": "Me puxa para cima"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Em que século foi patenteada, em Turim, a primeira máquina de café expresso?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q04462",
+          "pergunta": "Como se chama a camada clara de espuma que cobre o topo desta bebida?",
+          "resposta": "Crema"
+        },
+        {
+          "id": "q18107",
+          "pergunta": "Para fazer um café expresso, a máquina força a água quente pelo pó a uma pressão de cerca de quantas atmosferas?",
+          "resposta": "Cerca de nove"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "A cachaça começou a ser destilada nos engenhos de açúcar do Brasil colonial em qual século?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q00234",
+          "pergunta": "Pela lei brasileira, qual é o teor alcoólico mínimo, em graus, para uma bebida ser chamada de cachaça?",
+          "resposta": "Trinta e oito graus"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Os vestígios mais antigos de produção de vinho de uva, com cerca de oito mil anos, foram encontrados em qual país?",
+        "resposta": "Geórgia"
+      },
+      "existentes": [
+        {
+          "id": "q03707",
+          "pergunta": "Qual é a matéria-prima principal desta bebida?",
+          "resposta": "Uva"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Apesar de o chocolate ter sido popularizado pelos astecas, o cacaueiro é nativo de qual floresta da América do Sul?",
+        "resposta": "Floresta Amazônica"
+      },
+      "existentes": [
+        {
+          "id": "q06117",
+          "pergunta": "Bebido pelos astecas como um preparo amargo e apimentado, o chocolate chegou à Europa, levado pelos espanhóis, em qual século?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q18119",
+          "pergunta": "Em 1875, que chocolateiro suíço acrescentou leite ao chocolate sólido e criou o chocolate ao leite?",
+          "resposta": "Daniel Peter"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Há milhares de anos, o arroz asiático foi domesticado pela primeira vez em qual país?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q15293",
+          "pergunta": "Que grão é este?",
+          "resposta": "Arroz"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Cada frutinho vermelho do cafeeiro, chamado de cereja, costuma guardar quantos grãos de café?",
+        "resposta": "Dois"
+      },
+      "existentes": [
+        {
+          "id": "q06118",
+          "pergunta": "Segundo uma lenda etíope, quem descobriu o café ao notar que suas cabras ficavam agitadas depois de comer os frutos do cafeeiro?",
+          "resposta": "O pastor Kaldi"
+        },
+        {
+          "id": "q18105",
+          "pergunta": "Que compositor alemão do século dezoito escreveu uma cantata cômica sobre uma jovem viciada em café?",
+          "resposta": "Johann Sebastian Bach"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Na Espanha, à meia-noite da virada do ano, come-se uma uva a cada badalada do relógio. Quantas uvas ao todo?",
+        "resposta": "Doze"
+      },
+      "existentes": [
+        {
+          "id": "q00843",
+          "pergunta": "Na Espanha, na virada do ano, come-se uma uva a cada badalada da meia-noite. Quantas uvas ao todo?",
+          "resposta": "Doze"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Que substância do cacau, que o corpo dos cães elimina muito devagar, torna o chocolate perigoso para eles?",
+        "resposta": "Teobromina"
+      },
+      "existentes": [
+        {
+          "id": "q06117",
+          "pergunta": "Bebido pelos astecas como um preparo amargo e apimentado, o chocolate chegou à Europa, levado pelos espanhóis, em qual século?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q18119",
+          "pergunta": "Em 1875, que chocolateiro suíço acrescentou leite ao chocolate sólido e criou o chocolate ao leite?",
+          "resposta": "Daniel Peter"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "O vinho do Porto fica doce e mais forte porque sua fermentação é interrompida com o acréscimo de qual bebida?",
+        "resposta": "Aguardente vínica"
+      },
+      "existentes": [
+        {
+          "id": "q06122",
+          "pergunta": "Em 1756, que ministro do rei dom José criou a região demarcada do Douro para controlar a produção do vinho do Porto?",
+          "resposta": "Marquês de Pombal"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "A paella valenciana tradicional não leva frutos do mar. Além do frango, que carne vai nela?",
+        "resposta": "Coelho"
+      },
+      "existentes": [
+        {
+          "id": "q00193",
+          "pergunta": "Na língua valenciana, a palavra paella não designava originalmente o prato de arroz, e sim o quê?",
+          "resposta": "A frigideira em que é feito"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "A banana é levemente radioativa por causa de qual mineral, presente nela em grande quantidade?",
+        "resposta": "Potássio"
+      },
+      "existentes": [
+        {
+          "id": "q02664",
+          "pergunta": "As bananas são levemente radioativas. Isso acontece por causa de qual elemento químico presente nelas?",
+          "resposta": "Potássio"
+        },
+        {
+          "id": "q04354",
+          "pergunta": "Do ponto de vista botânico, esta fruta é classificada como que tipo de fruto?",
+          "resposta": "Baga"
+        },
+        {
+          "id": "q19016",
+          "pergunta": "A bananeira parece uma árvore, mas não tem tronco de madeira. Do que é formado o seu falso tronco?",
+          "resposta": "Bainhas das folhas"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Qual destas frutas tem, de longe, mais gordura na polpa?",
+        "resposta": "Abacate"
+      },
+      "existentes": [
+        {
+          "id": "q02767",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Abacate"
+        },
+        {
+          "id": "q09728",
+          "pergunta": "Na botânica, o que o abacate e a canela têm em comum?",
+          "resposta": "Família das lauráceas"
+        },
+        {
+          "id": "q19050",
+          "pergunta": "O abacate tem uma particularidade entre as frutas: ele só amadurece de verdade depois de quê?",
+          "resposta": "Ser colhido"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Quem come pequi aprende a roer a polpa com cuidado, sem morder o caroço. O que o caroço esconde por dentro?",
+        "resposta": "Espinhos finos"
+      },
+      "existentes": [
+        {
+          "id": "q00232",
+          "pergunta": "Que fruto do cerrado, estrela da cozinha goiana, esconde espinhos finos sob a polpa e por isso deve ser roído com cuidado?",
+          "resposta": "Pequi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs país que promoveu o prato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Sabor original da palavra sushi é fato distinto."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Origem etimológica da palavra café, outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre os dias de jejum (Têmporas).",
+      "id_existente": "q00756"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs país típico."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo significado do nome açaí.",
+      "id_existente": "q19049"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Etimologia náuatle não coberta."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesma lenda e resposta: jogo de cartas.",
+      "id_existente": "q08514"
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cor das garrafas, fato diferente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Conservação do mel, fato diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Origem da cor do vinho, diferente da matéria-prima."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: óleo tóxico na casca exige calor/processamento.",
+      "id_existente": "q19036"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Família botânica não perguntada."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Parente botânico da cenoura, fato novo."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesma família botânica: bromeliáceas.",
+      "id_existente": "q21834"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Parentesco da quinoa não coberto."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Gênero botânico do chá, fato novo."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Família da melancia não coberta."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Criador da salada vs cidade onde foi criada."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Rousseau e a frase.",
+      "id_existente": "q03933"
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre o século.",
+      "id_existente": "q02693"
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Século de surgimento vs significado do nome."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Patente da máquina de expresso, fato novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Século de origem vs teor alcoólico."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Local dos vestígios mais antigos, fato novo."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Origem nativa do cacaueiro, fato novo."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Domesticação do arroz, fato novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Grãos por cereja, fato novo."
+    },
+    {
+      "caso": 29,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta das doze uvas.",
+      "id_existente": "q00843"
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Toxicidade para cães, fato novo."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Fortificação com aguardente, fato novo."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Ingrediente da paella vs significado de palavra."
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "motivo": "Mesma radioatividade por potássio.",
+      "id_existente": "q02664"
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Gordura do abacate, fato novo."
+    },
+    {
+      "caso": 35,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: espinhos finos no caroço do pequi.",
+      "id_existente": "q00232"
+    }
+  ]
+}

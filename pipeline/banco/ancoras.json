@@ -12396,7 +12396,8 @@
     "descricao": "Costume espanhol de comer uvas acompanhando as badaladas da meia-noite do Ano-Novo.",
     "variantes": [
       "Las doce uvas",
-      "Twelve Grapes"
+      "Twelve Grapes",
+      "Uvas de la suerte"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Twelve_Grapes"
@@ -28647,7 +28648,8 @@
       "Cashew apple",
       "Anacardium occidentale",
       "cajueiro",
-      "cashew"
+      "cashew",
+      "Castanha de caju"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Cashew",
@@ -42585,7 +42587,8 @@
     "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
     "variantes": [
       "Persea americana",
-      "Abacateiro"
+      "Abacateiro",
+      "Avocado"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Avocado",
@@ -59218,7 +59221,8 @@
     "descricao": "Frase tradicionalmente atribuída a Maria Antonieta diante da fome do povo francês, sem registro de que ela a tenha dito.",
     "variantes": [
       "Qu'ils mangent de la brioche",
-      "Let them eat cake"
+      "Let them eat cake",
+      "Que comam bolo"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Let_them_eat_cake"
@@ -89840,7 +89844,8 @@
     "nome": "Chocolate",
     "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica.",
     "variantes": [
-      "Xocolatl"
+      "Xocolatl",
+      "Cacau"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/History_of_chocolate"
@@ -254420,6 +254425,89 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Ametrine",
       "https://pt.wikipedia.org/wiki/Bolivianita"
+    ]
+  },
+  {
+    "id": "gim_tonica",
+    "nome": "Gim-tônica",
+    "descricao": "Coquetel de gim com água tônica, servido com gelo e limão, popularizado pelos britânicos na Índia colonial.",
+    "variantes": [
+      "Gin tônica",
+      "Gin and tonic"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gin_and_tonic"
+    ]
+  },
+  {
+    "id": "sal_iodado",
+    "nome": "Sal iodado",
+    "descricao": "Sal de cozinha ao qual se adiciona iodo, por exigência de saúde pública em vários países, como o Brasil.",
+    "variantes": [
+      "Sal de cozinha iodado",
+      "Iodised salt"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Iodised_salt"
+    ]
+  },
+  {
+    "id": "nectarina",
+    "nome": "Nectarina",
+    "descricao": "Fruta de casca lisa, sem penugem, variedade do pessegueiro (Prunus persica var. nucipersica).",
+    "variantes": [
+      "Nectarine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nectarine"
+    ]
+  },
+  {
+    "id": "a_fisiologia_do_gosto",
+    "nome": "A Fisiologia do Gosto",
+    "descricao": "Livro de gastronomia do francês Jean Anthelme Brillat-Savarin, publicado em 1825, cheio de aforismos sobre a mesa.",
+    "variantes": [
+      "Physiologie du goût",
+      "The Physiology of Taste"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Physiology_of_Taste"
+    ]
+  },
+  {
+    "id": "vatapa",
+    "nome": "Vatapá",
+    "descricao": "Creme baiano de origem afro-brasileira feito com pão, camarão seco, amendoim, castanha, leite de coco e dendê.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Vatap%C3%A1",
+      "https://en.wikipedia.org/wiki/Vatap%C3%A1"
+    ]
+  },
+  {
+    "id": "mortadela",
+    "nome": "Mortadela",
+    "descricao": "Embutido cozido italiano de carne de porco moída, originário de Bolonha, com cubos de gordura visíveis na fatia.",
+    "variantes": [
+      "Mortadella"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mortadella"
+    ]
+  },
+  {
+    "id": "roquefort",
+    "nome": "Roquefort",
+    "descricao": "Queijo azul francês de leite de ovelha, maturado nas cavernas de Roquefort-sur-Soulzon.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Roquefort"
+    ]
+  },
+  {
+    "id": "abara",
+    "nome": "Abará",
+    "descricao": "Bolinho baiano de massa de feijão-fradinho com dendê, cozido no vapor embrulhado em folha de bananeira.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Abar%C3%A1"
     ]
   }
 ]

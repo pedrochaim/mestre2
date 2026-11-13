@@ -1,0 +1,394 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Há versões conflitantes da lenda (ajudante de cozinha ou confeiteiro, como na fonte em português), então a resposta não é única e o trecho não a sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fondue é particípio de fondre, 'derretido'; a pergunta é precisa e a resposta, específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O artigo em português diz que sushi vem de uma forma arcaica que significa 'é azedo'.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A origem árabe (qahwa) do turco kahve é sustentada pelo artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho liga tempura ao latim tempora, os períodos de jejum (Têmporas) dos missionários portugueses.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A origem do termo hot dog é incerta; 'nasceu de uma piada' afirma como fato o que é só a história popular.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Segundo a história mais contada, o nome hot dog, que no Brasil virou cachorro-quente, veio de uma piada: as salsichas alemãs lembravam qual raça de cão?",
+        "resposta": "Bassê",
+        "distratores": [
+          "Buldogue",
+          "Pug",
+          "Poodle"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hot_dog",
+          "https://pt.wikipedia.org/wiki/Cachorro-quente"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Baguette significa vara, bastão ou varinha, então 'varinha' não é a única resposta defensável; os trechos também não mostram o fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte apresenta duas etimologias possíveis, uma delas contestada, e um distrator ('espinhosa') corresponde à outra, então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não sustentam a origem do nome, e a resposta é longa e imprecisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte em inglês chama de mito a homenagem à ave e atribui o nome ao apelido dos neozelandeses, enquanto a fonte em português diz o contrário; a resposta é contestada.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A tradução tupi 'fruto que chora' é amplamente documentada e o enunciado diz 'costuma ser traduzido'.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que āhuacatl também significava testículo no dicionário náuatle.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lenda do conde de Sandwich e do jogo de cartas é sustentada e o enunciado está bem hedgeado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O vidro marrom ou verde reduz a deterioração pela luz, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta é óbvia e genérica ('estragava rápido'); o fato é fraco demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos mostram que o gim tornava o tônico de quinino mais palatável.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O artigo em português liga a vida útil indefinida ao teor de água abaixo de 18% e à concentração de açúcares.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cor vem dos pigmentos da casca; o trecho em inglês diz que o suco da maioria das uvas roxas é claro.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte liga o sal iodado à prevenção da deficiência de iodo e do bócio.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A casca da castanha tem líquido cáustico e tóxico, fato bem documentado, e o aquecimento é a etapa que a remove.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mandioca e seringueira são Euphorbiaceae, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cenoura e coentro são Apiaceae; os distratores são todos de outras famílias.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O abacaxi é uma bromeliácea, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta é vaga e imprecisa (cervejas lager usam outra espécie) e o fato é fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Quinoa e espinafre são Amaranthaceae, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Camellia sinensis é do gênero Camellia, e a camélia é a flor ornamental.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Melancia é Cucurbitaceae, assim como o pepino; os distratores são solanáceas.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A nectarina é uma variedade do pessegueiro sem a penugem, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A criação costuma ser atribuída a Caesar Cardini em Tijuana, nos anos 1920.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português atribui a frase a Brillat-Savarin.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma a origem nas Confissões de Rousseau, escritas em 1765, quando Maria Antonieta tinha nove anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho situa a chegada da batata à Europa no século dezesseis.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Vêneto é disputado com o Friuli como origem; basta tirar a região do enunciado.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Muita gente acha que o tiramisù é uma receita antiga, mas em que século ele surgiu?",
+        "resposta": "Século vinte",
+        "distratores": [
+          "Século dezenove",
+          "Século dezoito",
+          "Século dezessete"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Tiramisu"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A patente de Moriondo em Turim é de 1884, século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a produção a partir da cana trazida da Madeira em 1532, século dezesseis.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os vestígios mais antigos, de cerca de 6000 a.C., estão na Geórgia.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cacaueiro é nativo da Amazônia, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O arroz asiático foi domesticado primeiro na China, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cereja do café costuma ter duas sementes.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "São doze uvas, uma para cada badalada à meia-noite, segundo a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A teobromina é metabolizada lentamente pelos cães, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fermentação é interrompida pela adição de aguardente vínica, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pão molhado é ingrediente base do vatapá, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Lula' é um fruto do mar já excluído pelo enunciado, então é fraco; troca-se por vitela.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "A paella valenciana tradicional não leva frutos do mar. Além do frango, que carne vai nela?",
+        "resposta": "Coelho",
+        "distratores": [
+          "Vitela",
+          "Porco",
+          "Cordeiro"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Paella"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os cubos brancos são de gordura de porco, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A radioatividade da banana vem do potássio-40.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O roquefort é de leite de ovelha; os distratores são de leite de vaca.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O abacate é notavelmente oleoso, muito mais que as outras frutas listadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O caroço do pequi tem finos espinhos, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O abará é feito com a massa do acarajé, mas cozido no vapor em folha de bananeira.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,800 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Açaí",
+        "descricao": "Fruto roxo-escuro da palmeira amazônica Euterpe oleracea, base do açaí na tigela e de pratos do Pará.",
+        "variantes": [
+          "Euterpe oleracea",
+          "Açaizeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acai_na_tigela",
+          "nome": "Açaí na tigela",
+          "descricao": "Lanche brasileiro de polpa de açaí congelada e batida, servida em tigela com granola e banana.",
+          "variantes": [
+            "Açaí",
+            "Açaí bowl"
+          ]
+        },
+        {
+          "id": "acai",
+          "nome": "Açaí",
+          "descricao": "Palmeira amazônica Euterpe oleracea, cultivada pelo fruto roxo-escuro e pelo palmito.",
+          "variantes": [
+            "Açaizeiro",
+            "Euterpe oleracea",
+            "Açaí palm"
+          ]
+        },
+        {
+          "id": "acaro",
+          "nome": "Ácaro",
+          "descricao": "Pequeno aracnídeo de oito patas, geralmente com menos de um milímetro.",
+          "variantes": [
+            "Acari",
+            "Mite"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "gotcha_clipe",
+          "nome": "GOTCHA! (clipe)",
+          "descricao": "Clipe animado de 2020 que relembra as aventuras dos jogos Pokémon, embalado pela música Acacia.",
+          "variantes": [
+            "GOTCHA!",
+            "Acacia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Sanduíche",
+        "descricao": "Lanche de recheio, como carne, queijo ou frios, colocado entre fatias de pão.",
+        "variantes": [
+          "Sanduíche",
+          "Sandwich"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sanduiche",
+          "nome": "Sanduíche",
+          "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+          "variantes": [
+            "Sanduba",
+            "Sandes",
+            "Sandwich",
+            "Sanduche"
+          ]
+        },
+        {
+          "id": "club_sandwich",
+          "nome": "Club sandwich",
+          "descricao": "Sanduíche de três fatias de pão com frango, bacon, alface, tomate e maionese.",
+          "variantes": [
+            "Clubhouse sandwich",
+            "Sanduíche club"
+          ]
+        },
+        {
+          "id": "bauru",
+          "nome": "Bauru",
+          "descricao": "Sanduíche brasileiro de rosbife, queijo derretido, tomate e picles no pão francês, criado no bar Ponto Chic",
+          "variantes": [
+            "Bauru (sanduíche)"
+          ]
+        },
+        {
+          "id": "sandile",
+          "nome": "Sandile",
+          "descricao": "Pokémon do tipo Terra/Sombrio da quinta geração, número 551 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "nintendo_switch",
+          "nome": "Nintendo Switch",
+          "descricao": "Console de videogame híbrido da Nintendo, lançado em 2017, que funciona como portátil ou conectado à TV.",
+          "variantes": [
+            "Switch"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gim-tônica",
+        "descricao": "Coquetel de gim com água tônica, servido com gelo e limão, popularizado pelos britânicos na Índia colonial.",
+        "variantes": [
+          "Gin tônica",
+          "Gin and tonic"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua_tonica",
+          "nome": "Água tônica",
+          "descricao": "Refrigerante gaseificado e amargo, usado como mistura no gim-tônica.",
+          "variantes": [
+            "Tônica",
+            "Tonic water"
+          ]
+        },
+        {
+          "id": "monica",
+          "nome": "Mônica",
+          "descricao": "Protagonista da Turma da Mônica, de Mauricio de Sousa, menina de vestido vermelho e dentuça.",
+          "variantes": [
+            "Mônica de Sousa"
+          ]
+        },
+        {
+          "id": "armonica_de_vidro",
+          "nome": "Armônica de vidro",
+          "descricao": "Instrumento de tigelas de vidro giratórias, tocado com os dedos molhados, criado no século dezoito.",
+          "variantes": [
+            "Harmônica de vidro",
+            "Glass harmonica",
+            "Armonica"
+          ]
+        },
+        {
+          "id": "hugin_e_munin",
+          "nome": "Hugin e Munin",
+          "descricao": "Par de corvos que voam pelo mundo e trazem notícias ao deus nórdico Odin.",
+          "variantes": [
+            "Huginn e Muninn",
+            "Huginn and Muninn"
+          ]
+        },
+        {
+          "id": "grand_teton",
+          "nome": "Grand Teton",
+          "descricao": "Pico mais alto da cordilheira Teton, no Parque Nacional Grand Teton, em Wyoming, nos Estados Unidos.",
+          "variantes": [
+            "Grande Teton",
+            "Tetons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sal iodado",
+        "descricao": "Sal de cozinha ao qual se adiciona iodo, por exigência de saúde pública em vários países, como o Brasil.",
+        "variantes": [
+          "Sal de cozinha iodado",
+          "Iodised salt"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cloreto_de_sodio",
+          "nome": "Cloreto de sódio",
+          "descricao": "Composto formado por sódio e cloro, principal componente do sal de cozinha.",
+          "variantes": [
+            "Sal de cozinha",
+            "Sodium chloride"
+          ]
+        },
+        {
+          "id": "algodao",
+          "nome": "Algodão",
+          "descricao": "Planta do gênero Gossypium cujo fruto, o capulho, envolve as sementes em fibra macia usada em tecidos.",
+          "variantes": [
+            "Algodoeiro",
+            "Gossypium"
+          ]
+        },
+        {
+          "id": "gas_liquefeito_de_petroleo",
+          "nome": "Gás liquefeito de petróleo",
+          "descricao": "Mistura de gases derivados do petróleo, sobretudo propano e butano, vendida em botijões como gás de cozinha.",
+          "variantes": [
+            "GLP",
+            "Gás de cozinha",
+            "Gás de botijão"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina",
+            "Festa de São João"
+          ]
+        },
+        {
+          "id": "salvador",
+          "nome": "Salvador",
+          "descricao": "Capital da Bahia, primeira capital do Brasil.",
+          "variantes": [
+            "São Salvador da Bahia de Todos os Santos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Melancia",
+        "descricao": "Fruta grande de casca verde e polpa vermelha e suculenta da planta Citrullus lanatus.",
+        "variantes": [
+          "Citrullus lanatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "melancia",
+          "nome": "Melancia",
+          "descricao": "Planta rasteira Citrullus lanatus, da família Cucurbitaceae, que produz um grande fruto de polpa doce e suculenta.",
+          "variantes": [
+            "Citrullus lanatus"
+          ]
+        },
+        {
+          "id": "melanesia",
+          "nome": "Melanésia",
+          "descricao": "Sub-região da Oceania no sudoeste do Pacífico, que inclui Nova Guiné, Ilhas Salomão, Vanuatu e Fiji.",
+          "variantes": []
+        },
+        {
+          "id": "melencolia_i",
+          "nome": "Melencolia I",
+          "descricao": "Gravura em metal de 1514 de Albrecht Dürer, com figura alada e pensativa cercada de ferramentas e símbolos.",
+          "variantes": [
+            "Melancolia I",
+            "Melencolia"
+          ]
+        },
+        {
+          "id": "melanie_anime",
+          "nome": "Melanie (anime)",
+          "descricao": "Moça do anime Pokémon que cuida de pokémon abandonados num vilarejo escondido de Kanto, protegido pelo Bulbasaur que depois segue Ash.",
+          "variantes": [
+            "Melanie"
+          ]
+        },
+        {
+          "id": "malaca",
+          "nome": "Malaca",
+          "descricao": "Cidade portuária no estreito de Malaca, conquistada pelos portugueses de Afonso de Albuquerque em 1511.",
+          "variantes": [
+            "Malacca",
+            "Melaka"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Nectarina",
+        "descricao": "Fruta de casca lisa, sem penugem, variedade do pessegueiro (Prunus persica var. nucipersica).",
+        "variantes": [
+          "Nectarine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate",
+            "Cravat"
+          ]
+        },
+        {
+          "id": "ocarina",
+          "nome": "Ocarina",
+          "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+          "variantes": [
+            "Okarina"
+          ]
+        },
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120",
+            "Cochonilha",
+            "Ácido carmínico"
+          ]
+        },
+        {
+          "id": "eta_carinae",
+          "nome": "Eta Carinae",
+          "descricao": "Sistema estelar massivo na constelação da Carena, cercado pela Nebulosa do Homúnculo, formada na Grande Erupção do século dezenove.",
+          "variantes": [
+            "η Carinae",
+            "Eta Argus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "A Fisiologia do Gosto",
+        "descricao": "Livro de gastronomia do francês Jean Anthelme Brillat-Savarin, publicado em 1825, cheio de aforismos sobre a mesa.",
+        "variantes": [
+          "Physiologie du goût",
+          "The Physiology of Taste"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "foie_gras",
+          "nome": "Foie gras",
+          "descricao": "Iguaria da culinária francesa feita do fígado engordado de pato ou ganso.",
+          "variantes": [
+            "Fígado gordo"
+          ]
+        },
+        {
+          "id": "a_escola_de_atenas",
+          "nome": "A Escola de Atenas",
+          "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+          "variantes": [
+            "The School of Athens",
+            "Scuola di Atene",
+            "Escola de Atenas"
+          ]
+        },
+        {
+          "id": "quinta_sinfonia_de_beethoven",
+          "nome": "Quinta Sinfonia de Beethoven",
+          "descricao": "Sinfonia em dó menor de Ludwig van Beethoven, de 1808, famosa por seu motivo de quatro notas.",
+          "variantes": [
+            "Sinfonia nº 5 de Beethoven",
+            "Sinfonia do Destino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Que comam brioches",
+        "descricao": "Frase sobre o povo sem pão tradicionalmente atribuída à rainha Maria Antonieta, mas registrada antes por Rousseau.",
+        "variantes": [
+          "Qu'ils mangent de la brioche",
+          "Let them eat cake",
+          "Que comam bolo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "que_comam_brioches",
+          "nome": "Que comam brioches",
+          "descricao": "Frase tradicionalmente atribuída a Maria Antonieta diante da fome do povo francês, sem registro de que ela a tenha dito.",
+          "variantes": [
+            "Qu'ils mangent de la brioche",
+            "Let them eat cake"
+          ]
+        },
+        {
+          "id": "coturno",
+          "nome": "Coturno",
+          "descricao": "Bota militar de couro, com cano alto e cadarço, projetada para soldados em combate.",
+          "variantes": [
+            "Bota de combate",
+            "Combat boot",
+            "Buskin",
+            "Kothornos"
+          ]
+        },
+        {
+          "id": "super_mario_bros",
+          "nome": "Super Mario Bros.",
+          "descricao": "Jogo de plataforma da Nintendo lançado em 1985 para o NES, o Nintendinho.",
+          "variantes": [
+            "Super Mario Brothers"
+          ]
+        },
+        {
+          "id": "pedro_o_grande",
+          "nome": "Pedro, o Grande",
+          "descricao": "Tsar da Rússia a partir de 1682 e primeiro imperador russo, de 1721 a 1725.",
+          "variantes": [
+            "Pedro I da Rússia",
+            "Peter the Great"
+          ]
+        },
+        {
+          "id": "usina_maremotriz_de_la_rance",
+          "nome": "Usina maremotriz de La Rance",
+          "descricao": "Usina que gera eletricidade com a força das marés no estuário do rio Rance, inaugurada em 1966.",
+          "variantes": [
+            "Rance Tidal Power Station",
+            "Usine marémotrice de la Rance"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Doze uvas da sorte",
+        "descricao": "Tradição espanhola de comer uma uva a cada badalada da meia-noite na virada do ano.",
+        "variantes": [
+          "Uvas de la suerte",
+          "Twelve Grapes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "doze_uvas_da_sorte",
+          "nome": "Doze uvas da sorte",
+          "descricao": "Costume espanhol de comer uvas acompanhando as badaladas da meia-noite do Ano-Novo.",
+          "variantes": [
+            "Las doce uvas",
+            "Twelve Grapes"
+          ]
+        },
+        {
+          "id": "doze_apostolos",
+          "nome": "Doze Apóstolos",
+          "descricao": "Conjunto de pilares de calcário no mar, no Parque Nacional de Port Campbell, em Victoria, Austrália.",
+          "variantes": [
+            "Twelve Apostles"
+          ]
+        },
+        {
+          "id": "lei_das_doze_tabuas",
+          "nome": "Lei das Doze Tábuas",
+          "descricao": "Primeiro código de leis escrito de Roma, elaborado por volta de 450 antes de Cristo.",
+          "variantes": [
+            "Doze Tábuas",
+            "Twelve Tables",
+            "Lex Duodecim Tabularum"
+          ]
+        },
+        {
+          "id": "aro_de_basquete",
+          "nome": "Aro de basquete",
+          "descricao": "Anel de metal com rede, preso à tabela, por onde a bola deve passar para marcar pontos.",
+          "variantes": [
+            "Cesta",
+            "Rim",
+            "Hoop"
+          ]
+        },
+        {
+          "id": "cueva_de_la_arana",
+          "nome": "Cueva de la Araña",
+          "descricao": "Cavernas em Bicorp, na Espanha, com uma pintura rupestre de cerca de oito mil anos que mostra a coleta de mel.",
+          "variantes": [
+            "Cuevas de la Araña",
+            "Caverna da Aranha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Vatapá",
+        "descricao": "Creme baiano de origem afro-brasileira feito com pão, camarão seco, amendoim, castanha, leite de coco e dendê.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "avatar",
+          "nome": "Avatar",
+          "descricao": "No hinduísmo, a encarnação ou manifestação de uma divindade na Terra",
+          "variantes": [
+            "Avatara"
+          ]
+        },
+        {
+          "id": "amapa",
+          "nome": "Amapá",
+          "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+          "variantes": [
+            "Estado do Amapá"
+          ]
+        },
+        {
+          "id": "via_apia",
+          "nome": "Via Ápia",
+          "descricao": "Antiga estrada romana ligando Roma a Brindisi, iniciada em 312 a.C.",
+          "variantes": [
+            "Via Appia",
+            "Appian Way"
+          ]
+        },
+        {
+          "id": "figueira_estranguladora",
+          "nome": "Figueira-estranguladora",
+          "descricao": "Figueira tropical do gênero Ficus que cresce sobre outra árvore e a envolve com raízes entrelaçadas.",
+          "variantes": [
+            "Mata-pau",
+            "Strangler fig"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Mortadela",
+        "descricao": "Embutido cozido italiano de carne de porco moída, originário de Bolonha, com cubos de gordura visíveis na fatia.",
+        "variantes": [
+          "Mortadella"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "portela",
+          "nome": "Portela",
+          "descricao": "Escola de samba do bairro de Madureira, no Rio de Janeiro, de cores azul e branco.",
+          "variantes": [
+            "Grêmio Recreativo Escola de Samba Portela"
+          ]
+        },
+        {
+          "id": "hortela",
+          "nome": "Hortelã",
+          "descricao": "Planta aromática do gênero Mentha, da família das lamiáceas.",
+          "variantes": [
+            "Menta",
+            "Mentha"
+          ]
+        },
+        {
+          "id": "morchella",
+          "nome": "Morchella",
+          "descricao": "Gênero de fungos comestíveis de chapéu alveolado, as morquelas.",
+          "variantes": [
+            "Morquela",
+            "Morel",
+            "Morchella esculenta"
+          ]
+        },
+        {
+          "id": "moela",
+          "nome": "Moela",
+          "descricao": "Parte musculosa do estômago das aves que tritura o alimento, muitas vezes com a ajuda de pedrinhas engolidas.",
+          "variantes": [
+            "Gizzard",
+            "Ventrículo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Roquefort",
+        "descricao": "Queijo azul francês de leite de ovelha, maturado nas cavernas de Roquefort-sur-Soulzon.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "penicillium_roqueforti",
+          "nome": "Penicillium roqueforti",
+          "descricao": "Espécie de fungo usada para produzir os veios azuis de queijos como o roquefort",
+          "variantes": [
+            "P. roqueforti",
+            "mofo do roquefort"
+          ]
+        },
+        {
+          "id": "croque",
+          "nome": "Croqué",
+          "descricao": "Jogo de gramado em que os jogadores batem bolas com malhos, fazendo-as passar por arcos fincados no chão.",
+          "variantes": [
+            "Croquet",
+            "Croquet (jogo)"
+          ]
+        },
+        {
+          "id": "roque",
+          "nome": "Roque",
+          "descricao": "Lance especial do xadrez em que o rei e uma torre se movem ao mesmo tempo.",
+          "variantes": [
+            "Castling",
+            "Roque (xadrez)"
+          ]
+        },
+        {
+          "id": "croquete",
+          "nome": "Croquete",
+          "descricao": "Rolinho frito e empanado de massa cremosa com recheio, típico das cozinhas francesa e espanhola.",
+          "variantes": [
+            "Croqueta",
+            "Croquette"
+          ]
+        },
+        {
+          "id": "poquer",
+          "nome": "Pôquer",
+          "descricao": "Jogo de cartas de apostas e blefe em que vence a melhor combinação de cinco cartas.",
+          "variantes": [
+            "Poker"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Abará",
+        "descricao": "Bolinho baiano de massa de feijão-fradinho com dendê, cozido no vapor embrulhado em folha de bananeira.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "abra",
+          "nome": "Abra",
+          "descricao": "Pokémon psíquico da primeira geração, número 63 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        },
+        {
+          "id": "deserto_do_saara",
+          "nome": "Deserto do Saara",
+          "descricao": "Maior deserto quente do mundo, que ocupa grande parte do norte da África.",
+          "variantes": [
+            "Saara",
+            "Sahara"
+          ]
+        },
+        {
+          "id": "ambar",
+          "nome": "Âmbar",
+          "descricao": "Material fóssil translúcido que às vezes preserva insetos e outros pequenos organismos.",
+          "variantes": [
+            "Amber"
+          ]
+        },
+        {
+          "id": "cabra",
+          "nome": "Cabra",
+          "descricao": "Cabra-doméstica, Capra hircus, mamífero criado para leite, carne e pele.",
+          "variantes": [
+            "Bode",
+            "Cabra-doméstica",
+            "Capra hircus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "acai",
+      "motivo": "Ambas descrevem a palmeira/fruto Euterpe oleracea; o açaí na tigela é prato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "sanduiche",
+      "motivo": "Mesmo alimento genérico, sanduíche."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Gim-tônica é coquetel; água tônica é apenas um ingrediente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sal iodado é um tipo específico de sal, diferente do cloreto de sódio."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "melancia",
+      "motivo": "Mesma planta/fruto Citrullus lanatus."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é nectarina."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é esse livro."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "que_comam_brioches",
+      "motivo": "Mesma frase atribuída a Maria Antonieta."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "doze_uvas_da_sorte",
+      "motivo": "Mesma tradição espanhola de Ano-Novo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o vatapá."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é mortadela."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "O queijo roquefort é diferente do fungo Penicillium roqueforti."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é abará."
+    }
+  ]
+}

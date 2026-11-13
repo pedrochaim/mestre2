@@ -1,0 +1,1059 @@
+{
+  "itens": [
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "fondue",
+        "nome": "Fondue",
+        "descricao": "Prato suíço de queijo e vinho derretidos numa panela comum, no qual se mergulham pão e outros alimentos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fondue"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em francês, o que quer dizer fondue, nome do prato suíço em que se mergulham pedaços de pão numa panela de queijo?",
+      "resposta": "Derretido",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fondue"
+      ],
+      "ancora": "fondue"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "sushi",
+        "nome": "Sushi",
+        "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sushi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na origem, a palavra japonesa sushi descrevia o sabor do arroz que acompanhava o peixe. Que sabor era esse?",
+      "resposta": "Azedo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sushi"
+      ],
+      "distratores": [
+        "Salgado",
+        "Doce",
+        "Amargo"
+      ],
+      "ancora": "sushi"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "cafe",
+        "nome": "Café",
+        "descricao": "Bebida preparada com os grãos torrados e moídos do cafeeiro, originário da Etiópia.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coffee"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra café chegou às línguas europeias pelo turco kahve. E a palavra turca, por sua vez, vem de qual língua?",
+      "resposta": "Árabe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coffee"
+      ],
+      "distratores": [
+        "Persa",
+        "Grego",
+        "Hebraico"
+      ],
+      "ancora": "cafe"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "cachorro_quente",
+        "nome": "Cachorro-quente",
+        "descricao": "Lanche de salsicha grelhada, cozida ou fervida, servida num pão alongado aberto ao meio.",
+        "variantes": [
+          "Hot dog"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hot_dog"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Segundo a história mais contada, o nome hot dog, que no Brasil virou cachorro-quente, veio de uma piada: as salsichas alemãs lembravam qual raça de cão?",
+      "resposta": "Bassê",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hot_dog",
+        "https://pt.wikipedia.org/wiki/Cachorro-quente"
+      ],
+      "distratores": [
+        "Buldogue",
+        "Pug",
+        "Poodle"
+      ],
+      "ancora": "cachorro_quente"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "abacate",
+        "nome": "Abacate",
+        "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+        "variantes": [
+          "Avocado"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avocado"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na língua náuatle, dos astecas, a palavra que deu origem a abacate também designava qual parte do corpo?",
+      "resposta": "Testículo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avocado"
+      ],
+      "ancora": "abacate"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "cerveja",
+        "nome": "Cerveja",
+        "descricao": "Bebida alcoólica produzida pela fermentação de cereais maltados, em geral cevada, com lúpulo.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beer"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a maioria das garrafas de cerveja é feita de vidro marrom ou verde?",
+      "resposta": "Para proteger a bebida da luz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beer_bottle"
+      ],
+      "ancora": "cerveja"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Gim-tônica",
+        "descricao": "Coquetel de gim com água tônica, servido com gelo e limão, popularizado pelos britânicos na Índia colonial.",
+        "variantes": [
+          "Gin tônica",
+          "Gin and tonic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gin_and_tonic"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na Índia colonial, a água tônica era tomada como remédio contra a malária. Por que os britânicos misturavam gim a ela?",
+      "resposta": "Para disfarçar o amargor do quinino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gin_and_tonic"
+      ],
+      "ancora": "gim_tonica"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "mel",
+        "nome": "Mel",
+        "descricao": "Substância doce e viscosa produzida pelas abelhas a partir do néctar das flores.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Honey"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Guardado fechado, o mel dura anos sem estragar. Por que bactérias e fungos não conseguem se desenvolver nele?",
+      "resposta": "Tem pouca água e muito açúcar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Honey"
+      ],
+      "ancora": "mel"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "vinho",
+        "nome": "Vinho",
+        "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wine"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O suco da maioria das uvas tintas é claro. De onde vem, então, a cor do vinho tinto?",
+      "resposta": "Da casca da uva",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red_wine"
+      ],
+      "ancora": "vinho"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Sal iodado",
+        "descricao": "Sal de cozinha ao qual se adiciona iodo, por exigência de saúde pública em vários países, como o Brasil.",
+        "variantes": [
+          "Sal de cozinha iodado",
+          "Iodised salt"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iodised_salt"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a lei brasileira obriga os fabricantes a acrescentar iodo ao sal de cozinha?",
+      "resposta": "Para prevenir o bócio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iodised_salt",
+        "https://pt.wikipedia.org/wiki/B%C3%B3cio"
+      ],
+      "ancora": "sal_iodado"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "mandioca",
+        "nome": "Mandioca",
+        "descricao": "Raiz da planta Manihot esculenta, base alimentar indígena e ingrediente central da cozinha brasileira",
+        "variantes": [
+          "Aipim",
+          "Macaxeira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cassava"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A mandioca pertence à mesma família botânica de qual árvore amazônica, famosa pelo látex usado para fazer borracha?",
+      "resposta": "Seringueira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euphorbiaceae"
+      ],
+      "ancora": "mandioca"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "cenoura",
+        "nome": "Cenoura",
+        "descricao": "Daucus carota subsp. sativus, raiz comestível, em geral alaranjada.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carrot"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na botânica, qual destes temperos é parente próximo da cenoura, da mesma família?",
+      "resposta": "Coentro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apiaceae"
+      ],
+      "distratores": [
+        "Manjericão",
+        "Alecrim",
+        "Orégano"
+      ],
+      "ancora": "cenoura"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "quinoa",
+        "nome": "Quinoa",
+        "descricao": "Planta andina (Chenopodium quinoa) cultivada pelas sementes comestíveis.",
+        "variantes": [
+          "Quinua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quinoa"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Embora seja comida como se fosse um cereal, a quinoa é parente próxima de qual hortaliça de folhas?",
+      "resposta": "Espinafre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quinoa"
+      ],
+      "distratores": [
+        "Alface",
+        "Couve",
+        "Rúcula"
+      ],
+      "ancora": "quinoa"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "cha",
+        "nome": "Chá",
+        "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Camellia_sinensis"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A planta de cujas folhas se faz o chá pertence ao mesmo gênero botânico de qual flor ornamental?",
+      "resposta": "Camélia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Camellia_sinensis"
+      ],
+      "distratores": [
+        "Azaleia",
+        "Magnólia",
+        "Gardênia"
+      ],
+      "ancora": "cha"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Melancia",
+        "descricao": "Fruta grande de casca verde e polpa vermelha e suculenta da planta Citrullus lanatus.",
+        "variantes": [
+          "Citrullus lanatus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Watermelon"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A melancia pertence à mesma família botânica de qual destes legumes?",
+      "resposta": "Pepino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Watermelon",
+        "https://en.wikipedia.org/wiki/Cucurbitaceae"
+      ],
+      "distratores": [
+        "Tomate",
+        "Berinjela",
+        "Pimentão"
+      ],
+      "ancora": "melancia"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Nectarina",
+        "descricao": "Fruta de casca lisa, sem penugem, variedade do pessegueiro (Prunus persica var. nucipersica).",
+        "variantes": [
+          "Nectarine"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nectarine"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "De casca lisa e sem penugem, a nectarina é, na verdade, uma variedade de qual fruta?",
+      "resposta": "Pêssego",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nectarine"
+      ],
+      "ancora": "nectarina"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "salada_caesar",
+        "nome": "Salada Caesar",
+        "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+        "variantes": [
+          "Salada César"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Caesar_salad"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Nos anos vinte, em Tijuana, que dono de restaurante ítalo-americano criou a salada de alface-romana e croûtons que leva o seu nome?",
+      "resposta": "Caesar Cardini",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caesar_salad"
+      ],
+      "distratores": [
+        "Alfredo di Lelio",
+        "Robert Cobb",
+        "Oscar Tschirky"
+      ],
+      "ancora": "salada_caesar"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "A Fisiologia do Gosto",
+        "descricao": "Livro de gastronomia do francês Jean Anthelme Brillat-Savarin, publicado em 1825, cheio de aforismos sobre a mesa.",
+        "variantes": [
+          "Physiologie du goût",
+          "The Physiology of Taste"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Physiology_of_Taste"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que gastrônomo francês do século dezenove escreveu a famosa frase: diga-me o que comes, e te direi quem és?",
+      "resposta": "Brillat-Savarin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jean_Anthelme_Brillat-Savarin",
+        "https://en.wikipedia.org/wiki/The_Physiology_of_Taste"
+      ],
+      "distratores": [
+        "Auguste Escoffier",
+        "Alexandre Dumas",
+        "Antonin Carême"
+      ],
+      "ancora": "a_fisiologia_do_gosto"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "id_existente": "tiramisu",
+        "nome": "Tiramisù",
+        "descricao": "Sobremesa italiana em camadas de biscoito embebido em café e creme de mascarpone, polvilhada com cacau",
+        "variantes": [
+          "Tiramisu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tiramisu"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Muita gente acha que o tiramisù é uma receita antiga, mas em que século ele surgiu?",
+      "resposta": "Século vinte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tiramisu"
+      ],
+      "distratores": [
+        "Século dezenove",
+        "Século dezoito",
+        "Século dezessete"
+      ],
+      "ancora": "tiramisu"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "id_existente": "cafe_expresso",
+        "nome": "Café expresso",
+        "descricao": "Café concentrado preparado forçando água quente sob alta pressão através do pó fino, de origem italiana.",
+        "variantes": [
+          "Espresso"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Espresso_machine"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que século foi patenteada, em Turim, a primeira máquina de café expresso?",
+      "resposta": "Século dezenove",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Espresso_machine"
+      ],
+      "distratores": [
+        "Século vinte",
+        "Século dezoito",
+        "Século dezessete"
+      ],
+      "ancora": "cafe_expresso"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "cachaca",
+        "nome": "Cachaça",
+        "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+        "variantes": [
+          "Pinga",
+          "Aguardente de cana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cacha%C3%A7a"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A cachaça começou a ser destilada nos engenhos de açúcar do Brasil colonial em qual século?",
+      "resposta": "Século dezesseis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cacha%C3%A7a"
+      ],
+      "ancora": "cachaca"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "vinho",
+        "nome": "Vinho",
+        "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/History_of_wine"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Os vestígios mais antigos de produção de vinho de uva, com cerca de oito mil anos, foram encontrados em qual país?",
+      "resposta": "Geórgia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/History_of_wine"
+      ],
+      "distratores": [
+        "Grécia",
+        "Egito",
+        "Itália"
+      ],
+      "ancora": "vinho"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "chocolate",
+        "nome": "Chocolate",
+        "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica.",
+        "variantes": [
+          "Cacau"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Theobroma_cacao"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Apesar de o chocolate ter sido popularizado pelos astecas, o cacaueiro é nativo de qual floresta da América do Sul?",
+      "resposta": "Floresta Amazônica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Theobroma_cacao"
+      ],
+      "ancora": "chocolate"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "arroz",
+        "nome": "Arroz",
+        "descricao": "Grão da gramínea Oryza sativa, alimento básico de grande parte da população mundial.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rice"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Há milhares de anos, o arroz asiático foi domesticado pela primeira vez em qual país?",
+      "resposta": "China",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rice",
+        "https://en.wikipedia.org/wiki/History_of_rice_cultivation"
+      ],
+      "distratores": [
+        "Índia",
+        "Japão",
+        "Tailândia"
+      ],
+      "ancora": "arroz"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "cafe",
+        "nome": "Café",
+        "descricao": "Bebida preparada com os grãos torrados e moídos do cafeeiro, originário da Etiópia.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coffee_bean"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Cada frutinho vermelho do cafeeiro, chamado de cereja, costuma guardar quantos grãos de café?",
+      "resposta": "Dois",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coffee_bean"
+      ],
+      "ancora": "cafe"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "chocolate",
+        "nome": "Chocolate",
+        "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chocolate"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Que substância do cacau, que o corpo dos cães elimina muito devagar, torna o chocolate perigoso para eles?",
+      "resposta": "Teobromina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Theobromine_poisoning"
+      ],
+      "distratores": [
+        "Capsaicina",
+        "Quinino",
+        "Tanino"
+      ],
+      "ancora": "chocolate"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "vinho_do_porto",
+        "nome": "Vinho do Porto",
+        "descricao": "Vinho licoroso português produzido no vale do Douro e envelhecido em Vila Nova de Gaia.",
+        "variantes": [
+          "Porto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Port_wine"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O vinho do Porto fica doce e mais forte porque sua fermentação é interrompida com o acréscimo de qual bebida?",
+      "resposta": "Aguardente vínica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Port_wine"
+      ],
+      "ancora": "vinho_do_porto"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Vatapá",
+        "descricao": "Creme baiano de origem afro-brasileira feito com pão, camarão seco, amendoim, castanha, leite de coco e dendê.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vatap%C3%A1",
+          "https://en.wikipedia.org/wiki/Vatap%C3%A1"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Além de camarão seco, amendoim e dendê, que ingrediente, muitas vezes amanhecido e molhado no leite de coco, engrossa o vatapá baiano?",
+      "resposta": "Pão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vatap%C3%A1",
+        "https://en.wikipedia.org/wiki/Vatap%C3%A1"
+      ],
+      "ancora": "vatapa"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "paella",
+        "nome": "Paella",
+        "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+        "variantes": [
+          "Paelha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paella"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A paella valenciana tradicional não leva frutos do mar. Além do frango, que carne vai nela?",
+      "resposta": "Coelho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paella"
+      ],
+      "distratores": [
+        "Vitela",
+        "Porco",
+        "Cordeiro"
+      ],
+      "ancora": "paella"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Mortadela",
+        "descricao": "Embutido cozido italiano de carne de porco moída, originário de Bolonha, com cubos de gordura visíveis na fatia.",
+        "variantes": [
+          "Mortadella"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mortadella"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Os quadradinhos brancos espalhados pela fatia de mortadela são pedaços de quê?",
+      "resposta": "Toucinho, gordura de porco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mortadella"
+      ],
+      "ancora": "mortadela"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Roquefort",
+        "descricao": "Queijo azul francês de leite de ovelha, maturado nas cavernas de Roquefort-sur-Soulzon.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Roquefort"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes queijos famosos é feito com leite de ovelha?",
+      "resposta": "Roquefort",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roquefort"
+      ],
+      "distratores": [
+        "Brie",
+        "Camembert",
+        "Emmental"
+      ],
+      "ancora": "roquefort"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "abacate",
+        "nome": "Abacate",
+        "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avocado"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas frutas tem, de longe, mais gordura na polpa?",
+      "resposta": "Abacate",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avocado"
+      ],
+      "distratores": [
+        "Banana",
+        "Manga",
+        "Mamão"
+      ],
+      "ancora": "abacate"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Abará",
+        "descricao": "Bolinho baiano de massa de feijão-fradinho com dendê, cozido no vapor embrulhado em folha de bananeira.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Abar%C3%A1"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que quitute baiano usa a mesma massa de feijão-fradinho do acarajé, mas é cozido no vapor, embrulhado em folha de bananeira?",
+      "resposta": "Abará",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Abar%C3%A1"
+      ],
+      "ancora": "abara"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "gim_tonica",
+      "nome": "Gim-tônica",
+      "descricao": "Coquetel de gim com água tônica, servido com gelo e limão, popularizado pelos britânicos na Índia colonial.",
+      "variantes": [
+        "Gin tônica",
+        "Gin and tonic"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gin_and_tonic"
+      ]
+    },
+    {
+      "id": "sal_iodado",
+      "nome": "Sal iodado",
+      "descricao": "Sal de cozinha ao qual se adiciona iodo, por exigência de saúde pública em vários países, como o Brasil.",
+      "variantes": [
+        "Sal de cozinha iodado",
+        "Iodised salt"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Iodised_salt"
+      ]
+    },
+    {
+      "id": "nectarina",
+      "nome": "Nectarina",
+      "descricao": "Fruta de casca lisa, sem penugem, variedade do pessegueiro (Prunus persica var. nucipersica).",
+      "variantes": [
+        "Nectarine"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Nectarine"
+      ]
+    },
+    {
+      "id": "a_fisiologia_do_gosto",
+      "nome": "A Fisiologia do Gosto",
+      "descricao": "Livro de gastronomia do francês Jean Anthelme Brillat-Savarin, publicado em 1825, cheio de aforismos sobre a mesa.",
+      "variantes": [
+        "Physiologie du goût",
+        "The Physiology of Taste"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_Physiology_of_Taste"
+      ]
+    },
+    {
+      "id": "vatapa",
+      "nome": "Vatapá",
+      "descricao": "Creme baiano de origem afro-brasileira feito com pão, camarão seco, amendoim, castanha, leite de coco e dendê.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Vatap%C3%A1",
+        "https://en.wikipedia.org/wiki/Vatap%C3%A1"
+      ]
+    },
+    {
+      "id": "mortadela",
+      "nome": "Mortadela",
+      "descricao": "Embutido cozido italiano de carne de porco moída, originário de Bolonha, com cubos de gordura visíveis na fatia.",
+      "variantes": [
+        "Mortadella"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Mortadella"
+      ]
+    },
+    {
+      "id": "roquefort",
+      "nome": "Roquefort",
+      "descricao": "Queijo azul francês de leite de ovelha, maturado nas cavernas de Roquefort-sur-Soulzon.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Roquefort"
+      ]
+    },
+    {
+      "id": "abara",
+      "nome": "Abará",
+      "descricao": "Bolinho baiano de massa de feijão-fradinho com dendê, cozido no vapor embrulhado em folha de bananeira.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Abar%C3%A1"
+      ]
+    }
+  ],
+  "variantes": {
+    "fondue": [
+      "Fondue"
+    ],
+    "sushi": [
+      "Sushi"
+    ],
+    "cafe": [
+      "Café"
+    ],
+    "tempura": [
+      "Tempurá",
+      "Tempura"
+    ],
+    "cachorro_quente": [
+      "Cachorro-quente",
+      "Hot dog"
+    ],
+    "abacate": [
+      "Abacate",
+      "Avocado"
+    ],
+    "cerveja": [
+      "Cerveja"
+    ],
+    "mel": [
+      "Mel"
+    ],
+    "vinho": [
+      "Vinho"
+    ],
+    "caju": [
+      "Caju",
+      "Castanha de caju"
+    ],
+    "mandioca": [
+      "Mandioca",
+      "Aipim",
+      "Macaxeira"
+    ],
+    "cenoura": [
+      "Cenoura"
+    ],
+    "abacaxi": [
+      "Abacaxi",
+      "Ananás"
+    ],
+    "quinoa": [
+      "Quinoa",
+      "Quinua"
+    ],
+    "cha": [
+      "Chá"
+    ],
+    "salada_caesar": [
+      "Salada Caesar",
+      "Salada César"
+    ],
+    "batata": [
+      "Batata",
+      "Batata-inglesa"
+    ],
+    "tiramisu": [
+      "Tiramisù",
+      "Tiramisu"
+    ],
+    "cafe_expresso": [
+      "Café expresso",
+      "Espresso"
+    ],
+    "cachaca": [
+      "Cachaça",
+      "Pinga",
+      "Aguardente de cana"
+    ],
+    "chocolate": [
+      "Chocolate",
+      "Cacau"
+    ],
+    "arroz": [
+      "Arroz"
+    ],
+    "vinho_do_porto": [
+      "Vinho do Porto",
+      "Porto"
+    ],
+    "paella": [
+      "Paella",
+      "Paelha"
+    ],
+    "banana": [
+      "Banana"
+    ],
+    "pequi": [
+      "Pequi",
+      "Caryocar brasiliense"
+    ],
+    "acai": [
+      "Açaí",
+      "Euterpe oleracea",
+      "Açaizeiro"
+    ],
+    "sanduiche": [
+      "Sanduíche",
+      "Sandwich"
+    ],
+    "melancia": [
+      "Melancia",
+      "Citrullus lanatus"
+    ],
+    "que_comam_brioches": [
+      "Que comam brioches",
+      "Qu'ils mangent de la brioche",
+      "Let them eat cake",
+      "Que comam bolo"
+    ],
+    "doze_uvas_da_sorte": [
+      "Doze uvas da sorte",
+      "Uvas de la suerte",
+      "Twelve Grapes"
+    ]
+  }
+}

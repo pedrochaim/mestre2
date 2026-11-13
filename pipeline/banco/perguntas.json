@@ -435692,5 +435692,525 @@
       "autor": "The original uploader was Mlcreech at English Wikipedia.",
       "licenca": "CC BY-SA 2.5"
     }
+  },
+  {
+    "id": "q21900",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "fondue",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em francês, o que quer dizer fondue, nome do prato suíço em que se mergulham pedaços de pão numa panela de queijo?",
+    "resposta": "Derretido",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fondue"
+    ]
+  },
+  {
+    "id": "q21901",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "sushi",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na origem, a palavra japonesa sushi descrevia o sabor do arroz que acompanhava o peixe. Que sabor era esse?",
+    "resposta": "Azedo",
+    "distratores": [
+      "Salgado",
+      "Doce",
+      "Amargo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sushi"
+    ]
+  },
+  {
+    "id": "q21902",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cafe",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra café chegou às línguas europeias pelo turco kahve. E a palavra turca, por sua vez, vem de qual língua?",
+    "resposta": "Árabe",
+    "distratores": [
+      "Persa",
+      "Grego",
+      "Hebraico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coffee"
+    ]
+  },
+  {
+    "id": "q21903",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cachorro_quente",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Segundo a história mais contada, o nome hot dog, que no Brasil virou cachorro-quente, veio de uma piada: as salsichas alemãs lembravam qual raça de cão?",
+    "resposta": "Bassê",
+    "distratores": [
+      "Buldogue",
+      "Pug",
+      "Poodle"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hot_dog",
+      "https://pt.wikipedia.org/wiki/Cachorro-quente"
+    ]
+  },
+  {
+    "id": "q21904",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "abacate",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na língua náuatle, dos astecas, a palavra que deu origem a abacate também designava qual parte do corpo?",
+    "resposta": "Testículo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Avocado"
+    ]
+  },
+  {
+    "id": "q21905",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cerveja",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a maioria das garrafas de cerveja é feita de vidro marrom ou verde?",
+    "resposta": "Para proteger a bebida da luz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beer_bottle"
+    ]
+  },
+  {
+    "id": "q21906",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "gim_tonica",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na Índia colonial, a água tônica era tomada como remédio contra a malária. Por que os britânicos misturavam gim a ela?",
+    "resposta": "Para disfarçar o amargor do quinino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gin_and_tonic"
+    ]
+  },
+  {
+    "id": "q21907",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "mel",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Guardado fechado, o mel dura anos sem estragar. Por que bactérias e fungos não conseguem se desenvolver nele?",
+    "resposta": "Tem pouca água e muito açúcar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Honey"
+    ]
+  },
+  {
+    "id": "q21908",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "vinho",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O suco da maioria das uvas tintas é claro. De onde vem, então, a cor do vinho tinto?",
+    "resposta": "Da casca da uva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_wine"
+    ]
+  },
+  {
+    "id": "q21909",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "sal_iodado",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a lei brasileira obriga os fabricantes a acrescentar iodo ao sal de cozinha?",
+    "resposta": "Para prevenir o bócio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iodised_salt",
+      "https://pt.wikipedia.org/wiki/B%C3%B3cio"
+    ]
+  },
+  {
+    "id": "q21910",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "mandioca",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A mandioca pertence à mesma família botânica de qual árvore amazônica, famosa pelo látex usado para fazer borracha?",
+    "resposta": "Seringueira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Euphorbiaceae"
+    ]
+  },
+  {
+    "id": "q21911",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cenoura",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Na botânica, qual destes temperos é parente próximo da cenoura, da mesma família?",
+    "resposta": "Coentro",
+    "distratores": [
+      "Manjericão",
+      "Alecrim",
+      "Orégano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apiaceae"
+    ]
+  },
+  {
+    "id": "q21912",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "quinoa",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Embora seja comida como se fosse um cereal, a quinoa é parente próxima de qual hortaliça de folhas?",
+    "resposta": "Espinafre",
+    "distratores": [
+      "Alface",
+      "Couve",
+      "Rúcula"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quinoa"
+    ]
+  },
+  {
+    "id": "q21913",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cha",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A planta de cujas folhas se faz o chá pertence ao mesmo gênero botânico de qual flor ornamental?",
+    "resposta": "Camélia",
+    "distratores": [
+      "Azaleia",
+      "Magnólia",
+      "Gardênia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Camellia_sinensis"
+    ]
+  },
+  {
+    "id": "q21914",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "melancia",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A melancia pertence à mesma família botânica de qual destes legumes?",
+    "resposta": "Pepino",
+    "distratores": [
+      "Tomate",
+      "Berinjela",
+      "Pimentão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Watermelon",
+      "https://en.wikipedia.org/wiki/Cucurbitaceae"
+    ]
+  },
+  {
+    "id": "q21915",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "nectarina",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "De casca lisa e sem penugem, a nectarina é, na verdade, uma variedade de qual fruta?",
+    "resposta": "Pêssego",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nectarine"
+    ]
+  },
+  {
+    "id": "q21916",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "salada_caesar",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Nos anos vinte, em Tijuana, que dono de restaurante ítalo-americano criou a salada de alface-romana e croûtons que leva o seu nome?",
+    "resposta": "Caesar Cardini",
+    "distratores": [
+      "Alfredo di Lelio",
+      "Robert Cobb",
+      "Oscar Tschirky"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caesar_salad"
+    ]
+  },
+  {
+    "id": "q21917",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "a_fisiologia_do_gosto",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que gastrônomo francês do século dezenove escreveu a famosa frase: diga-me o que comes, e te direi quem és?",
+    "resposta": "Brillat-Savarin",
+    "distratores": [
+      "Auguste Escoffier",
+      "Alexandre Dumas",
+      "Antonin Carême"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jean_Anthelme_Brillat-Savarin",
+      "https://en.wikipedia.org/wiki/The_Physiology_of_Taste"
+    ]
+  },
+  {
+    "id": "q21918",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tiramisu",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Muita gente acha que o tiramisù é uma receita antiga, mas em que século ele surgiu?",
+    "resposta": "Século vinte",
+    "distratores": [
+      "Século dezenove",
+      "Século dezoito",
+      "Século dezessete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tiramisu"
+    ]
+  },
+  {
+    "id": "q21919",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cafe_expresso",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que século foi patenteada, em Turim, a primeira máquina de café expresso?",
+    "resposta": "Século dezenove",
+    "distratores": [
+      "Século vinte",
+      "Século dezoito",
+      "Século dezessete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Espresso_machine"
+    ]
+  },
+  {
+    "id": "q21920",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cachaca",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A cachaça começou a ser destilada nos engenhos de açúcar do Brasil colonial em qual século?",
+    "resposta": "Século dezesseis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cacha%C3%A7a"
+    ]
+  },
+  {
+    "id": "q21921",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "vinho",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Os vestígios mais antigos de produção de vinho de uva, com cerca de oito mil anos, foram encontrados em qual país?",
+    "resposta": "Geórgia",
+    "distratores": [
+      "Grécia",
+      "Egito",
+      "Itália"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/History_of_wine"
+    ]
+  },
+  {
+    "id": "q21922",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "chocolate",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Apesar de o chocolate ter sido popularizado pelos astecas, o cacaueiro é nativo de qual floresta da América do Sul?",
+    "resposta": "Floresta Amazônica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theobroma_cacao"
+    ]
+  },
+  {
+    "id": "q21923",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "arroz",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Há milhares de anos, o arroz asiático foi domesticado pela primeira vez em qual país?",
+    "resposta": "China",
+    "distratores": [
+      "Índia",
+      "Japão",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rice",
+      "https://en.wikipedia.org/wiki/History_of_rice_cultivation"
+    ]
+  },
+  {
+    "id": "q21924",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cafe",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Cada frutinho vermelho do cafeeiro, chamado de cereja, costuma guardar quantos grãos de café?",
+    "resposta": "Dois",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coffee_bean"
+    ]
+  },
+  {
+    "id": "q21925",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "chocolate",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que substância do cacau, que o corpo dos cães elimina muito devagar, torna o chocolate perigoso para eles?",
+    "resposta": "Teobromina",
+    "distratores": [
+      "Capsaicina",
+      "Quinino",
+      "Tanino"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theobromine_poisoning"
+    ]
+  },
+  {
+    "id": "q21926",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "vinho_do_porto",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O vinho do Porto fica doce e mais forte porque sua fermentação é interrompida com o acréscimo de qual bebida?",
+    "resposta": "Aguardente vínica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Port_wine"
+    ]
+  },
+  {
+    "id": "q21927",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "vatapa",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Além de camarão seco, amendoim e dendê, que ingrediente, muitas vezes amanhecido e molhado no leite de coco, engrossa o vatapá baiano?",
+    "resposta": "Pão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vatap%C3%A1",
+      "https://en.wikipedia.org/wiki/Vatap%C3%A1"
+    ]
+  },
+  {
+    "id": "q21928",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "paella",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A paella valenciana tradicional não leva frutos do mar. Além do frango, que carne vai nela?",
+    "resposta": "Coelho",
+    "distratores": [
+      "Vitela",
+      "Porco",
+      "Cordeiro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paella"
+    ]
+  },
+  {
+    "id": "q21929",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "mortadela",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os quadradinhos brancos espalhados pela fatia de mortadela são pedaços de quê?",
+    "resposta": "Toucinho, gordura de porco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mortadella"
+    ]
+  },
+  {
+    "id": "q21930",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "roquefort",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes queijos famosos é feito com leite de ovelha?",
+    "resposta": "Roquefort",
+    "distratores": [
+      "Brie",
+      "Camembert",
+      "Emmental"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roquefort"
+    ]
+  },
+  {
+    "id": "q21931",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "abacate",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas frutas tem, de longe, mais gordura na polpa?",
+    "resposta": "Abacate",
+    "distratores": [
+      "Banana",
+      "Manga",
+      "Mamão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Avocado"
+    ]
+  },
+  {
+    "id": "q21932",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "abara",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que quitute baiano usa a mesma massa de feijão-fradinho do acarajé, mas é cozido no vapor, embrulhado em folha de bananeira?",
+    "resposta": "Abará",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Abar%C3%A1"
+    ]
   }
 ]
