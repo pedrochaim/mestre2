@@ -1,0 +1,147 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Panorama escuro com multidão em primeiro plano e placas de museu com texto; esqueleto cortado e pouco legível no celular."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilustração clara de ceratopsídeo com gola fenestrada; boa para pergunta de grupo.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este dinossauro com gola óssea e chifres viveu no Cretáceo da América do Norte. A que grupo de dinossauros ele pertence?",
+      "resposta": "Ceratopsídeos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chasmosaurus",
+        "descricao": "Gênero de dinossauro ceratopsídeo do Cretáceo Superior do Canadá, com grande gola de aberturas.",
+        "variantes": [
+          "Quasmossauro",
+          "Chasmosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Crânio isolado que um leigo confundiria com crânio humano comum ou outro hominídeo; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Fóssil de baixa resolução, borrado, ilegível no celular e fácil de confundir com outros euripterídeos."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Esqueleto montado de forma característica, sem texto legível; múltipla com distratores de mamíferos marinhos extintos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mamífero marinho extinto é este, cujo esqueleto está montado num museu?",
+      "resposta": "Vaca-marinha-de-Steller",
+      "distratores": [
+        "Desmóstilo",
+        "Basilossauro",
+        "Paleoparadoxia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vaca-marinha-de-Steller",
+        "descricao": "Sirênio gigante extinto (Hydrodamalis gigas) do mar de Bering, caçado até a extinção no século dezoito.",
+        "variantes": [
+          "Hydrodamalis gigas",
+          "Vaca-marinha de Steller"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Esqueleto montado de réptil de postura aberta, sem cauda visível; não se reconhece com segurança como Megalania e pode ser confundido com outros répteis."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cabeça blindada muito característica, sem texto; distratores placodermes parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe blindado extinto do Devoniano é este?",
+      "resposta": "Dunkleosteus",
+      "distratores": [
+        "Coccosteus",
+        "Titanichthys",
+        "Bothriolepis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dunkleosteus",
+        "descricao": "Gênero de grandes peixes placodermes blindados do Devoniano Superior.",
+        "variantes": [
+          "Dunkleosteus terrelli"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Esqueleto de tartaruga pendurado cuja identificação como Estupendêmis é incerta (pode ser Arquelão); resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Ilustração genérica de crocodilo, sem traços que distingam o Purussauro de outros crocodilianos."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Gravura clara de gliptodonte com cauda em maça e carapaça; sem texto relevante.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este animal extinto da América do Sul, de carapaça e cauda em forma de maça, é parente de qual animal atual?",
+      "resposta": "Tatu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Doedicurus",
+        "descricao": "Gênero de gliptodonte gigante extinto da América do Sul, com cauda em forma de maça.",
+        "variantes": [
+          "Doedicurus clavicaudatus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Reconstrução limpa de hadrossaurídeo; a pergunta de período é única para qualquer hadrossauro.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que período viveu este dinossauro de bico de pato?",
+      "resposta": "Cretáceo",
+      "distratores": [
+        "Jurássico",
+        "Triássico",
+        "Permiano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hadrosaurus",
+        "descricao": "Gênero de dinossauro hadrossaurídeo do Cretáceo Superior de Nova Jersey, nos Estados Unidos.",
+        "variantes": [
+          "Hadrossauro",
+          "Hadrosaurus foulkii"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Ilustração estilizada, emplumada e com assinatura do artista; pouco reconhecível como Suchomimus e confundível com outros espinossaurídeos."
+    }
+  ]
+}

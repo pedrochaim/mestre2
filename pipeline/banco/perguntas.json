@@ -427283,5 +427283,100 @@
       "licenca": "CC BY 2.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q21485",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "vaca_marinha_de_steller",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que mamífero marinho extinto do Pacífico Norte é este?",
+    "resposta": "Vaca-marinha-de-Steller",
+    "distratores": [
+      "Desmóstilo",
+      "Basilossauro",
+      "Paleoparadoxia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steller%27s_sea_cow",
+      "https://pt.wikipedia.org/wiki/Hydrodamalis_gigas"
+    ],
+    "imagem": {
+      "arquivo": "q21485.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hydrodamalis_gigas_skeleton_-_Finnish_Museum_of_Natural_History_-_DSC04529.JPG",
+      "autor": "Daderot",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q21486",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "dunkleosteus",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que peixe blindado extinto do Devoniano é este?",
+    "resposta": "Dunkleosteus",
+    "distratores": [
+      "Coccosteus",
+      "Titanichthys",
+      "Bothriolepis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dunkleosteus",
+      "https://pt.wikipedia.org/wiki/Dunkleosteus_terrelli"
+    ],
+    "imagem": {
+      "arquivo": "q21486.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dunkleosteus_terrelli_(fossil_fish)_(Cleveland_Shale_Member,_Ohio_Shale,_Upper_Devonian;_Rocky_River_Valley,_Cleveland,_Ohio,_USA)_16_(33289195654).jpg",
+      "autor": "James St. John",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q21487",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "doedicurus",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Este gigante extinto da América do Sul tinha uma cauda em forma de maça. Qual animal atual é seu parente mais próximo?",
+    "resposta": "Tatu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Doedicurus",
+      "https://pt.wikipedia.org/wiki/Doedicurus"
+    ],
+    "imagem": {
+      "arquivo": "q21487.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Doedicurus.png",
+      "autor": "JAMES D. DANA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q21488",
+    "tema": "Natureza",
+    "subtema": "Dinossauros e Fósseis",
+    "ancora": "hadrosaurus",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que período viveu este dinossauro de bico de pato?",
+    "resposta": "Cretáceo",
+    "distratores": [
+      "Jurássico",
+      "Triássico",
+      "Permiano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hadrosaurus",
+      "https://pt.wikipedia.org/wiki/Hadrosaurus"
+    ],
+    "imagem": {
+      "arquivo": "q21488.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hadrosaurus_foulkii_restoration.png",
+      "autor": "Audrey.m.horn",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

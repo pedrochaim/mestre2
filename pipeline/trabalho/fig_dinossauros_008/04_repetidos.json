@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que mamífero marinho extinto do Pacífico Norte é este?",
+        "resposta": "Vaca-marinha-de-Steller"
+      },
+      "existentes": [
+        {
+          "id": "q05679",
+          "pergunta": "A vaca-marinha-de-steller, parente gigante do peixe-boi, foi descrita por cientistas em 1741. Quantos anos depois ela foi extinta pela caça?",
+          "resposta": "Vinte e sete anos"
+        },
+        {
+          "id": "q07927",
+          "pergunta": "Em 1741, na expedição de Vitus Bering, que naturalista alemão descreveu um enorme sirênio do Pacífico Norte, caçado até a extinção poucas décadas depois?",
+          "resposta": "Georg Wilhelm Steller"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que peixe blindado extinto do Devoniano é este?",
+        "resposta": "Dunkleosteus"
+      },
+      "existentes": [
+        {
+          "id": "q08346",
+          "pergunta": "O Dunkleosteus, peixe gigante com a cabeça blindada por placas de osso, viveu no período apelidado de era dos peixes. Qual?",
+          "resposta": "Devoniano"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal (vaca-marinha-de-Steller). As existentes perguntam o intervalo até a extinção e o naturalista que a descreveu, que são fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal (Dunkleosteus). A existente já dá o nome e pergunta o período, o Devoniano. São fatos diferentes."
+    }
+  ]
+}
