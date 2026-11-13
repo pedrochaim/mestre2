@@ -431934,5 +431934,70 @@
       "https://pt.wikipedia.org/wiki/Boa_Vista_(Roraima)",
       "https://en.wikipedia.org/wiki/Boa_Vista,_Roraima"
     ]
+  },
+  {
+    "id": "q21722",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "basilica_de_nazare",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade brasileira fica esta basílica católica, cuja construção começou em 1909?",
+    "resposta": "Belém",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_Santu%C3%A1rio_Nossa_Senhora_de_Nazar%C3%A9",
+      "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_Nazareth_of_Exile"
+    ],
+    "imagem": {
+      "arquivo": "q21722.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Basílica_de_Nossa_Senhora_de_Nazaré..jpg",
+      "autor": "Nando1462 - Fernando Santos Cunha Filho",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q21723",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "palacio_pedro_ernesto",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Este palácio abriga a Câmara Municipal de qual cidade brasileira?",
+    "resposta": "Rio de Janeiro",
+    "distratores": [
+      "São Paulo",
+      "Salvador",
+      "Belo Horizonte"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Pedro_Ernesto",
+      "https://en.wikipedia.org/wiki/Pedro_Ernesto_Palace"
+    ],
+    "imagem": {
+      "arquivo": "q21723.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Palácio_Pedro_Ernesto_na_Cinelândia.jpg",
+      "autor": "Halley Pacheco de Oliveira",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q21724",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "neo_quimica_arena",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica este estádio?",
+    "resposta": "São Paulo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arena_Corinthians",
+      "https://pt.wikipedia.org/wiki/Neo_Qu%C3%ADmica_Arena"
+    ],
+    "imagem": {
+      "arquivo": "q21724.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:ARENA_CORINTHIANS.jpg",
+      "autor": "Alexandre Breveglieri",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

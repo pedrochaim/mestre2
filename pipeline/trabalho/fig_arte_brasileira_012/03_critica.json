@@ -1,0 +1,35 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o prédio nem a resposta. É preciso reconhecer o edifício para saber o estado. Fato confirmado nos trechos: sede do Governo do Estado de São Paulo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista do Círio entrega Belém sem olhar a figura, então a imagem virou enfeite. Removi a pista e mantive só o que ajuda sem entregar (a data de início da obra, que está nos trechos).",
+      "reescrita": {
+        "pergunta": "Em que cidade brasileira fica esta basílica católica, cuja construção começou em 1909?",
+        "resposta": "Belém"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é literalmente verdadeiro, não vaza a resposta e tem resposta única. Os distratores são capitais de porte parecido e todos têm até 4 palavras. Os trechos confirmam que a Câmara Municipal do Rio de Janeiro ocupa o prédio desde 1923.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento direto (nível 1) e não traz pista que a entregue. A resposta é única e está confirmada nos trechos: o estádio fica em Itaquera, na cidade de São Paulo.",
+      "reescrita": null
+    }
+  ]
+}

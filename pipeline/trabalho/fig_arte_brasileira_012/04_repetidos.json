@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este edifício é a sede do governo de que estado brasileiro?",
+        "resposta": "São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q18762",
+          "pergunta": "Este palácio é a sede do governo de que estado brasileiro?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica esta basílica católica, cuja construção começou em 1909?",
+        "resposta": "Belém"
+      },
+      "existentes": [
+        {
+          "id": "q20154",
+          "pergunta": "Que basílica brasileira é esta?",
+          "resposta": "Basílica de Nazaré"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica este estádio?",
+        "resposta": "São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q01867",
+          "pergunta": "Que estádio paulistano é este?",
+          "resposta": "Neo Química Arena"
+        },
+        {
+          "id": "q17044",
+          "pergunta": "Que clube manda seus jogos neste estádio?",
+          "resposta": "Corinthians"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta (sede do governo de SP), só troca 'palácio' por 'edifício'; mesma resposta.",
+      "id_existente": "q18762"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta a cidade (Belém); a existente pede o nome da basílica. Fatos diferentes, embora relacionados."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade do estádio é fato distinto do nome do estádio ou do clube mandante; saber o nome não é a mesma pergunta, e a existente 'paulistano' já dá a cidade, mas o fato perguntado é outro."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Há texto visível com o nome do estádio (faixa 'Itaipava Arena Fonte Nova'), que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A placa em primeiro plano diz 'Biblioteca Nacional de Brasília' e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de um recorte lateral do prédio, sem elementos que o tornem reconhecível; a resposta não é única nem justa diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada com colunata e o brasão do estado, sem texto. Dá para reconhecer e perguntar de qual estado é a sede do governo.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Este edifício é a sede do governo de que estado brasileiro?",
+      "resposta": "São Paulo",
+      "ancora": {
+        "nome": "Palácio dos Bandeirantes",
+        "descricao": "Edifício-sede do Governo do Estado de São Paulo e residência oficial do governador, no bairro do Morumbi.",
+        "variantes": [
+          "Palácio do Governo de São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fachada neoclássica com duas torres, bem enquadrada. O texto em latim no frontão não revela a cidade.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Em que cidade brasileira fica esta basílica, que recebe a procissão do Círio?",
+      "resposta": "Belém",
+      "ancora": {
+        "nome": "Basílica de Nossa Senhora de Nazaré",
+        "descricao": "Basílica católica de Belém, no Pará, erguida a partir de 1909 onde se diz ter sido achada a imagem de Nossa Senhora de Nazaré.",
+        "variantes": [
+          "Basílica de Nazaré",
+          "Basílica Santuário de Nossa Senhora de Nazaré do Desterro"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O quadro traz a assinatura e uma dedicatória escritas. O retrato de um rosto pouco conhecido também não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Há muitas pessoas comuns em primeiro plano e texto de patrocinadores visível (Crefisa)."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Prédio eclético bem visível, sem texto. Há uma bandeira do Brasil, mas ela não entrega a cidade. Pergunta pela cidade da Câmara Municipal, com distratores de capitais.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este palácio abriga a Câmara Municipal de qual cidade brasileira?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "São Paulo",
+        "Salvador",
+        "Belo Horizonte"
+      ],
+      "ancora": {
+        "nome": "Palácio Pedro Ernesto",
+        "descricao": "Prédio histórico no centro do Rio de Janeiro que abriga a Câmara Municipal desde 1923.",
+        "variantes": [
+          "Câmara Municipal do Rio de Janeiro",
+          "Palácio Pedro Ernesto (Cinelândia)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga em sépia de um retrato de rosto. O retratado não é reconhecível pela imagem, e a resposta não seria justa."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea com o teto branco e o formato característico. A marca d'água é discreta e não revela o estádio.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Em que cidade fica este estádio?",
+      "resposta": "São Paulo",
+      "ancora": {
+        "nome": "Neo Química Arena",
+        "descricao": "Estádio do Corinthians no bairro de Itaquera, em São Paulo, sede da abertura da Copa do Mundo de 2014.",
+        "variantes": [
+          "Arena Corinthians",
+          "Itaquerão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Enquadramento parcial, com ônibus na frente e uma torre ao fundo. O prédio não é bem reconhecível, e a resposta pode ser confundida com outros edifícios modernos da avenida."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e ilegível num celular, com uma assinatura e uma data escritas no canto. O retrato não é reconhecível."
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Palácio dos Bandeirantes",
+        "descricao": "Edifício-sede do Governo do Estado de São Paulo e residência oficial do governador, no bairro do Morumbi.",
+        "variantes": [
+          "Palácio do Governo de São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_dos_bandeirantes",
+          "nome": "Palácio dos Bandeirantes",
+          "descricao": "Edifício-sede do Governo do Estado de São Paulo, no bairro do Morumbi.",
+          "variantes": []
+        },
+        {
+          "id": "palacio_laranjeiras",
+          "nome": "Palácio Laranjeiras",
+          "descricao": "Palácio no bairro de Laranjeiras, no Rio de Janeiro, residência oficial do governador do estado.",
+          "variantes": [
+            "Palácio das Laranjeiras"
+          ]
+        },
+        {
+          "id": "palacio_de_inverno",
+          "nome": "Palácio de Inverno",
+          "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+          "variantes": [
+            "Winter Palace",
+            "Palácio de Inverno de São Petersburgo"
+          ]
+        },
+        {
+          "id": "hawa_mahal",
+          "nome": "Hawa Mahal",
+          "descricao": "Palácio de arenito rosa com fachada de 953 janelas, em Jaipur, Índia.",
+          "variantes": [
+            "Palácio dos Ventos",
+            "Palace of Winds"
+          ]
+        },
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Basílica de Nossa Senhora de Nazaré",
+        "descricao": "Basílica católica de Belém, no Pará, erguida a partir de 1909 onde se diz ter sido achada a imagem de Nossa Senhora de Nazaré.",
+        "variantes": [
+          "Basílica de Nazaré",
+          "Basílica Santuário de Nossa Senhora de Nazaré do Desterro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_nazare",
+          "nome": "Basílica de Nazaré",
+          "descricao": "Basílica católica de Belém do Pará, ponto de chegada da procissão do Círio de Nazaré.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "basilica_de_notre_dame_de_montreal",
+          "nome": "Basílica de Notre-Dame de Montreal",
+          "descricao": "Basílica neogótica no centro histórico de Montreal, no Canadá, diante da Place d'Armes.",
+          "variantes": [
+            "Basílica de Nossa Senhora de Montreal",
+            "Notre-Dame Basilica of Montreal"
+          ]
+        },
+        {
+          "id": "basilica_de_nossa_senhora_de_guadalupe",
+          "nome": "Basílica de Nossa Senhora de Guadalupe",
+          "descricao": "Basílica circular moderna ao pé do morro de Tepeyac, na Cidade do México, um dos santuários mais visitados do mundo.",
+          "variantes": [
+            "Basílica de Santa María de Guadalupe",
+            "Nova Basílica de Guadalupe"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "basilica_de_nossa_senhora_aparecida",
+          "nome": "Basílica de Nossa Senhora Aparecida",
+          "descricao": "Santuário nacional católico em Aparecida, São Paulo, dedicado à padroeira do Brasil.",
+          "variantes": [
+            "Basílica Nova de Aparecida",
+            "Santuário Nacional de Aparecida"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Palácio Pedro Ernesto",
+        "descricao": "Prédio histórico no centro do Rio de Janeiro que abriga a Câmara Municipal desde 1923.",
+        "variantes": [
+          "Câmara Municipal do Rio de Janeiro",
+          "Palácio Pedro Ernesto (Cinelândia)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "theatro_municipal_do_rio_de_janeiro",
+          "nome": "Theatro Municipal do Rio de Janeiro",
+          "descricao": "Teatro na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
+          "variantes": [
+            "Teatro Municipal do Rio de Janeiro",
+            "Theatro Municipal (Rio de Janeiro)",
+            "Theatro Municipal"
+          ]
+        },
+        {
+          "id": "museu_nacional_quinta_da_boa_vista",
+          "nome": "Museu Nacional (Quinta da Boa Vista)",
+          "descricao": "Antigo Paço de São Cristóvão, na Quinta da Boa Vista, no Rio de Janeiro, sede do Museu Nacional, a mais antiga instituição científica do Brasil.",
+          "variantes": [
+            "Paço de São Cristóvão",
+            "Museu Nacional do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "palacio_do_supremo_tribunal_federal",
+          "nome": "Palácio do Supremo Tribunal Federal",
+          "descricao": "Sede do Supremo Tribunal Federal na Praça dos Três Poderes, em Brasília, projetada por Oscar Niemeyer.",
+          "variantes": [
+            "Palácio do STF",
+            "Supremo Tribunal Federal"
+          ]
+        },
+        {
+          "id": "palacio_de_inverno",
+          "nome": "Palácio de Inverno",
+          "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+          "variantes": [
+            "Winter Palace",
+            "Palácio de Inverno de São Petersburgo"
+          ]
+        },
+        {
+          "id": "jardim_botanico_do_rio_de_janeiro",
+          "nome": "Jardim Botânico do Rio de Janeiro",
+          "descricao": "Jardim botânico e instituto de pesquisa fundado por Dom João no bairro carioca do Jardim Botânico",
+          "variantes": [
+            "Jardim Botânico do Rio",
+            "JBRJ"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Neo Química Arena",
+        "descricao": "Estádio do Corinthians no bairro de Itaquera, em São Paulo, sede da abertura da Copa do Mundo de 2014.",
+        "variantes": [
+          "Arena Corinthians",
+          "Itaquerão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "neo_quimica_arena",
+          "nome": "Neo Química Arena",
+          "descricao": "Estádio de futebol do Corinthians, no bairro de Itaquera, em São Paulo, também chamado Arena Corinthians.",
+          "variantes": [
+            "Arena Corinthians",
+            "Itaquerão"
+          ]
+        },
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "iaque",
+          "nome": "Iaque",
+          "descricao": "Bovino domesticado de pelagem longa das montanhas da Ásia central, Bos grunniens.",
+          "variantes": [
+            "Yak",
+            "Bos grunniens"
+          ]
+        },
+        {
+          "id": "ordem_corintia",
+          "nome": "Ordem coríntia",
+          "descricao": "Ordem arquitetônica clássica grega, a mais ornamentada, com capitel decorado com folhas de acanto.",
+          "variantes": [
+            "Corinthian order",
+            "Estilo coríntio"
+          ]
+        },
+        {
+          "id": "isqueiro",
+          "nome": "Isqueiro",
+          "descricao": "Aparelho portátil de combustível que produz uma chama controlada, aqui um modelo metálico de tampa articulada.",
+          "variantes": [
+            "Zippo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "palacio_dos_bandeirantes",
+      "motivo": "Mesmo edifício-sede do governo paulista no Morumbi."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "basilica_de_nazare",
+      "motivo": "Mesma basílica católica de Belém do Pará; variantes coincidem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Palácio Pedro Ernesto (Câmara Municipal) não está entre as candidatas; o Theatro Municipal é outro edifício."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "neo_quimica_arena",
+      "motivo": "Mesmo estádio do Corinthians em Itaquera, com mesmas variantes."
+    }
+  ]
+}
