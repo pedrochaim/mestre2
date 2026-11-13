@@ -1,0 +1,66 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de medição é este?",
+        "resposta": "Paquímetro"
+      },
+      "existentes": [
+        {
+          "id": "q15459",
+          "pergunta": "Que instrumento de medição é este?",
+          "resposta": "Paquímetro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ferramenta de pedreiros e carpinteiros é esta?",
+        "resposta": "Nível de bolha"
+      },
+      "existentes": [
+        {
+          "id": "q20020",
+          "pergunta": "Que ferramenta é esta?",
+          "resposta": "Nível de bolha"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que instrumento de desenho técnico é este?",
+        "resposta": "Compasso"
+      },
+      "existentes": [
+        {
+          "id": "q15043",
+          "pergunta": "Que instrumento de desenho é este?",
+          "resposta": "Compasso"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas (identificar o paquímetro na imagem).",
+      "id_existente": "q15459"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma imagem/ferramenta e mesma resposta (nível de bolha); só muda o detalhe do enunciado.",
+      "id_existente": "q20020"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: identificar o compasso de desenho; enunciado quase igual.",
+      "id_existente": "q15043"
+    }
+  ]
+}

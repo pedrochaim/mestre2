@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista nem vazamento; distratores do mesmo tipo, curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inventado por volta de 1844 e usado em laboratórios, então 'século dezenove' é verdadeiro. O enunciado não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De latão' não consta em `mostra` e pode ser falso para esta foto. O distrator 'Esquadro de latão' é fraco e repete a pista. 'Goniômetro' não deve ser distrator, porque o transferidor é um tipo de goniômetro.",
+      "reescrita": {
+        "pergunta": "Que instrumento de medição, comum em aulas de geometria, é este?",
+        "resposta": "Transferidor",
+        "distratores": [
+          "Sextante",
+          "Astrolábio",
+          "Teodolito"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá só o grupo de usuários, que é verdadeiro (carpinteiros e pedreiros usam o nível). Não entrega a resposta, e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Compasso é instrumento de desenho técnico. Os distratores são do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tubo de tecido preso a um mastro, como em `mostra`. A pista não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}

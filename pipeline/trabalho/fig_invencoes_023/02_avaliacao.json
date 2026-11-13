@@ -1,0 +1,168 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, usando o cinto."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Paquímetro nítido, sem nome visível; reconhecível pela forma.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de medição é este?",
+      "resposta": "Paquímetro",
+      "distratores": [
+        "Micrômetro",
+        "Goniômetro",
+        "Relógio comparador"
+      ],
+      "ancora": {
+        "nome": "Paquímetro",
+        "descricao": "Instrumento de medição de dimensões lineares com escala principal e cursor deslizante (nônio).",
+        "variantes": [
+          "Calibre",
+          "Paquímetro de nônio",
+          "Vernier caliper"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O teclado traz escrito \"ZX Spectrum\" e a marca Sinclair, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aparece o texto \"helvetic airways\" e é uma aeronave específica (Fokker 100), não a invenção em geral."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem traz \"SEGA MASTER SYSTEM\" escrito no console, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Aparelho de vidro nítido, sem texto, forma característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que aparelho de vidro, usado em laboratórios de química desde o século dezenove, é este?",
+      "resposta": "Aparelho de Kipp",
+      "distratores": [],
+      "ancora": {
+        "nome": "Aparelho de Kipp",
+        "descricao": "Aparelho de vidro inventado por volta de 1844 pelo farmacêutico holandês Petrus Jacobus Kipp para preparar pequenos volumes de gases.",
+        "variantes": [
+          "Gerador de Kipp",
+          "Kipp's apparatus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Transferidor antigo de latão, escala em graus visível, sem nome do instrumento; assinatura do fabricante ilegível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de medição, de latão, é este?",
+      "resposta": "Transferidor",
+      "distratores": [
+        "Sextante",
+        "Astrolábio",
+        "Esquadro de latão"
+      ],
+      "ancora": {
+        "nome": "Transferidor",
+        "descricao": "Instrumento de medição e traçado de ângulos, com escala graduada em arco.",
+        "variantes": [
+          "Goniômetro",
+          "Protractor"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Níveis de bolha amarelos nítidos, só marcas comerciais; um único tipo de objeto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que ferramenta de pedreiros e carpinteiros é esta?",
+      "resposta": "Nível de bolha",
+      "distratores": [],
+      "ancora": {
+        "nome": "Nível de bolha",
+        "descricao": "Instrumento com um tubo de líquido e uma bolha de ar que indica se uma superfície está na horizontal ou na vertical.",
+        "variantes": [
+          "Nível",
+          "Nível de pedreiro",
+          "Spirit level"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A placa na roda diz \"PELTON-FREISTRAHLTURBINE\", o que entrega a resposta; há também carros e restaurante ao fundo."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Compasso de desenho técnico nítido, fundo branco, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de desenho técnico é este?",
+      "resposta": "Compasso",
+      "distratores": [
+        "Esquadro",
+        "Pantógrafo",
+        "Régua paralela"
+      ],
+      "ancora": {
+        "nome": "Compasso",
+        "descricao": "Instrumento de desenho técnico com duas hastes articuladas, usado para traçar círculos e arcos.",
+        "variantes": [
+          "Compasso de desenho",
+          "Par de compassos"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Biruta nítida contra o céu azul, sem texto, resposta única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que objeto de tecido, preso no alto de um mastro, é este?",
+      "resposta": "Biruta",
+      "distratores": [],
+      "ancora": {
+        "nome": "Biruta",
+        "descricao": "Tubo cônico de tecido, preso a um mastro, que indica a direção e a intensidade do vento.",
+        "variantes": [
+          "Manga de vento",
+          "Windsock"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto histórica com dois operários em primeiro plano, pessoas comuns, e duas máquinas em cena confusa."
+    }
+  ]
+}

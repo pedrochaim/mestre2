@@ -1,0 +1,392 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Paquímetro",
+        "descricao": "Instrumento de medição de dimensões lineares com escala principal e cursor deslizante (nônio).",
+        "variantes": [
+          "Calibre",
+          "Paquímetro de nônio",
+          "Vernier caliper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paquimetro",
+          "nome": "Paquímetro",
+          "descricao": "Instrumento com escala e nônio que mede comprimentos, espessuras e diâmetros com precisão.",
+          "variantes": [
+            "Calibre",
+            "Caliper",
+            "Calipers"
+          ]
+        },
+        {
+          "id": "calice",
+          "nome": "Cálice",
+          "descricao": "Canção de Chico Buarque e Gilberto Gil de 1973, censurada pela ditadura militar.",
+          "variantes": []
+        },
+        {
+          "id": "cabure",
+          "nome": "Caburé",
+          "descricao": "Pequena coruja (Glaucidium brasilianum) amplamente distribuída nas Américas.",
+          "variantes": [
+            "Glaucidium brasilianum",
+            "Ferruginous pygmy owl",
+            "Caburé-ferrugem"
+          ]
+        },
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        },
+        {
+          "id": "pluviometro",
+          "nome": "Pluviômetro",
+          "descricao": "Instrumento cilíndrico de coleta e medição da chuva, aqui com tubo graduado interno, montado num poste.",
+          "variantes": [
+            "Udômetro",
+            "Ombrômetro",
+            "Rain gauge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Aparelho de Kipp",
+        "descricao": "Aparelho de vidro inventado por volta de 1844 pelo farmacêutico holandês Petrus Jacobus Kipp para preparar pequenos volumes de gases.",
+        "variantes": [
+          "Gerador de Kipp",
+          "Kipp's apparatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esfigmomanometro",
+          "nome": "Esfigmomanômetro",
+          "descricao": "Aparelho com braçadeira inflável usado para medir a pressão arterial.",
+          "variantes": [
+            "Aparelho de pressão",
+            "Medidor de pressão arterial",
+            "Tensiômetro"
+          ]
+        },
+        {
+          "id": "furador_de_papel",
+          "nome": "Furador de papel",
+          "descricao": "Ferramenta de escritório que faz furos em folhas de papel para arquivá-las em pastas.",
+          "variantes": [
+            "Perfurador de papel",
+            "Furador"
+          ]
+        },
+        {
+          "id": "turbina_eolica",
+          "nome": "Turbina eólica",
+          "descricao": "Máquina de eixo horizontal com três pás que converte a energia cinética do vento em energia elétrica.",
+          "variantes": [
+            "Aerogerador",
+            "Gerador eólico"
+          ]
+        },
+        {
+          "id": "fuso_mitotico",
+          "nome": "Fuso mitótico",
+          "descricao": "Estrutura de microtúbulos que se forma na divisão celular para separar as cromátides-irmãs.",
+          "variantes": [
+            "Fuso acromático",
+            "Aparelho do fuso"
+          ]
+        },
+        {
+          "id": "aparelho_de_barbear",
+          "nome": "Aparelho de barbear",
+          "descricao": "Aparelho de barbear de segurança, com proteção entre a lâmina e a pele e lâmina removível.",
+          "variantes": [
+            "Barbeador",
+            "Safety razor",
+            "Gilete"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Transferidor",
+        "descricao": "Instrumento de medição e traçado de ângulos, com escala graduada em arco.",
+        "variantes": [
+          "Goniômetro",
+          "Protractor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nilometro",
+          "nome": "Nilômetro",
+          "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+          "variantes": [
+            "Nilometer"
+          ]
+        },
+        {
+          "id": "trator",
+          "nome": "Trator",
+          "descricao": "Veículo de grande tração e baixa velocidade usado para puxar implementos e reboques, sobretudo na agricultura.",
+          "variantes": [
+            "Tractor"
+          ]
+        },
+        {
+          "id": "cronometro",
+          "nome": "Cronômetro",
+          "descricao": "Relógio que mede o tempo decorrido entre o acionamento e a parada, usado em competições esportivas.",
+          "variantes": [
+            "Cronômetro analógico"
+          ]
+        },
+        {
+          "id": "esfigmomanometro",
+          "nome": "Esfigmomanômetro",
+          "descricao": "Aparelho com braçadeira inflável usado para medir a pressão arterial.",
+          "variantes": [
+            "Aparelho de pressão",
+            "Medidor de pressão arterial",
+            "Tensiômetro"
+          ]
+        },
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Nível de bolha",
+        "descricao": "Instrumento com um tubo de líquido e uma bolha de ar que indica se uma superfície está na horizontal ou na vertical.",
+        "variantes": [
+          "Nível",
+          "Nível de pedreiro",
+          "Spirit level"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nivel_de_bolha",
+          "nome": "Nível de bolha",
+          "descricao": "Instrumento com uma bolha de ar num tubo de líquido, que indica se uma superfície está nivelada ou a prumo.",
+          "variantes": [
+            "Nível",
+            "Nível de pedreiro",
+            "Spirit level"
+          ]
+        },
+        {
+          "id": "nivea",
+          "nome": "Nivea",
+          "descricao": "Marca alemã de cremes e cosméticos da Beiersdorf, lançada em 1911 com um creme em lata azul.",
+          "variantes": []
+        },
+        {
+          "id": "mel",
+          "nome": "Mel",
+          "descricao": "Substância doce e viscosa produzida pelas abelhas a partir do néctar das flores.",
+          "variantes": [
+            "Mel de abelha"
+          ]
+        },
+        {
+          "id": "ninive",
+          "nome": "Nínive",
+          "descricao": "Antiga capital do Império Assírio, às margens do rio Tigre, no norte do atual Iraque.",
+          "variantes": [
+            "Nineveh"
+          ]
+        },
+        {
+          "id": "nebulosa_da_bolha",
+          "nome": "Nebulosa da Bolha",
+          "descricao": "Nebulosa de emissão na constelação de Cassiopeia, também chamada NGC 7635, em forma de bolha criada pelo vento de uma estrela massiva.",
+          "variantes": [
+            "NGC 7635",
+            "Sharpless 162",
+            "Caldwell 11",
+            "Bubble Nebula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Compasso",
+        "descricao": "Instrumento de desenho técnico com duas hastes articuladas, usado para traçar círculos e arcos.",
+        "variantes": [
+          "Compasso de desenho",
+          "Par de compassos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "compasso",
+          "nome": "Compasso",
+          "descricao": "Instrumento de desenho técnico com duas hastes, usado para traçar circunferências e arcos.",
+          "variantes": [
+            "Compasso de desenho",
+            "Compasso de ponta seca"
+          ]
+        },
+        {
+          "id": "bussola",
+          "nome": "Bússola",
+          "descricao": "Instrumento de orientação com agulha magnetizada que aponta para o norte magnético.",
+          "variantes": [
+            "Compasso magnético",
+            "Compass",
+            "Agulha magnética"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos",
+            "Cnosso"
+          ]
+        },
+        {
+          "id": "par_de_bases",
+          "nome": "Par de bases",
+          "descricao": "Ligação entre duas bases nitrogenadas complementares que une as duas fitas do DNA, adenina com timina e citosina com guanina.",
+          "variantes": [
+            "Pareamento de bases",
+            "Base pair"
+          ]
+        },
+        {
+          "id": "cassio",
+          "nome": "Cássio",
+          "descricao": "Cássio Ramos, goleiro brasileiro ídolo do Corinthians, nascido em 1987.",
+          "variantes": [
+            "Cássio Ramos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Biruta",
+        "descricao": "Tubo cônico de tecido, preso a um mastro, que indica a direção e a intensidade do vento.",
+        "variantes": [
+          "Manga de vento",
+          "Windsock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paisley",
+          "nome": "Paisley",
+          "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+          "variantes": [
+            "Estampa paisley",
+            "Estampa caxemira",
+            "Buta"
+          ]
+        },
+        {
+          "id": "moinho_de_vento",
+          "nome": "Moinho de vento",
+          "descricao": "Máquina de torre movida pela força do vento sobre pás ou velas, usada para moer grãos.",
+          "variantes": [
+            "Moinho de vento vertical",
+            "Windmill",
+            "Moinho eólico"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "bigua",
+          "nome": "Biguá",
+          "descricao": "Cormorão neotropical (Nannopterum brasilianum), ave aquática escura das Américas.",
+          "variantes": [
+            "Nannopterum brasilianum",
+            "Neotropic cormorant",
+            "Phalacrocorax brasilianus"
+          ]
+        },
+        {
+          "id": "iurta",
+          "nome": "Iurta",
+          "descricao": "Tenda redonda portátil, coberta de feltro, usada por nômades das estepes da Ásia.",
+          "variantes": [
+            "Yurt",
+            "Ger"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "paquimetro",
+      "motivo": "Mesmo instrumento com escala e nônio (paquímetro/calibre)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Aparelho de Kipp (gerador de gases) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Transferidor (medição de ângulos) não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "nivel_de_bolha",
+      "motivo": "Mesmo instrumento, mesmas variantes e descrição equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "compasso",
+      "motivo": "Mesmo compasso de desenho técnico; a bússola é outra entidade."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Biruta (indicador de vento) não corresponde a nenhuma candidata."
+    }
+  ]
+}
