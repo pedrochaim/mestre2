@@ -1,0 +1,128 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Broto verde em close, ambíguo; pode ser outra Zingiberaceae. Gengibre não é reconhecível com segurança."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Árvore inteira com frutos minúsculos ao fundo de uma casa; lichia não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Creme com crosta de açúcar queimado, praticamente idêntico à crème brûlée e a outros cremes queimados; resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Copo de bebida escura com gelo; poderia ser refrigerante de cola, chá ou café. Não identifica café gelado."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fatia com camadas e cobertura de ganache, bem característica do bolo Ópera.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que bolo francês, de camadas finas e cobertura de chocolate, é este?",
+      "resposta": "Bolo Ópera",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bolo Ópera",
+        "descricao": "Bolo francês de camadas de pão de ló de amêndoa, creme de café e ganache, coberto com glacê de chocolate.",
+        "variantes": [
+          "Opéra",
+          "Gâteau Opéra",
+          "Opera cake"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A salada tem feijão-vermelho, milho e outros ingredientes; não identifica com segurança salada russa, e a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fatias de foie gras com compota vermelha e manjericão, sem texto. Há alguma semelhança com patê, mas a aparência é característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que iguaria francesa, feita de fígado de ave, é esta?",
+      "resposta": "Foie gras",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Foie gras",
+        "descricao": "Iguaria da culinária francesa feita do fígado engordado de pato ou ganso.",
+        "variantes": [
+          "Fígado gordo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Fruta verde com protuberâncias; fácil confundir com fruta-do-conde, cherimoia e graviola. Resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, incluindo um bebê dormindo, num mercado."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Espetos de frutas glaceadas em açúcar, bem característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que doce de rua chinês, em espetos, é este?",
+      "resposta": "Tanghulu",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tanghulu",
+        "descricao": "Petisco tradicional chinês de frutas, em geral espinheiro-da-china, cobertas de calda de açúcar endurecida em espeto de bambu.",
+        "variantes": [
+          "Bingtang hulu",
+          "Tang hulu"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A ilustração traz o nome científico escrito (Garcinia mangostana), que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Sanduíche com carne, queijo e alface, em fundo branco e sem texto. Os distratores evitam o hambúrguer simples, que também poderia ser aceito.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sanduíche é este?",
+      "resposta": "Cheeseburger",
+      "distratores": [
+        "Hot dog",
+        "Sanduíche de peixe",
+        "Pão com linguiça"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cheeseburger",
+        "descricao": "Hambúrguer com queijo derretido sobre o hambúrguer de carne.",
+        "variantes": [
+          "Hambúrguer com queijo",
+          "X-burger"
+        ]
+      }
+    }
+  ]
+}

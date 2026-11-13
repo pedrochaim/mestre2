@@ -1,0 +1,43 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bolo francês de camadas com cobertura de chocolate confere com os trechos. A pista não identifica sozinha, porque outros bolos também têm camadas e chocolate. A figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'feita de fígado de ave' define o foie gras, então dá para responder com a imagem coberta. Troquei por uma pista de contexto que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que iguaria de luxo da culinária francesa é esta?",
+        "resposta": "Foie gras"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doce chinês em espetos é verdadeiro segundo os trechos. A pista dá só o país e o formato, e não o nome. A resposta é única e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado e a resposta estão corretos. O distrator 'Pão com linguiça' é quase o mesmo que 'Hot dog', e os três distratores são fáceis demais para um nível 2. Troquei por um sanduíche mais parecido visualmente.",
+      "reescrita": {
+        "pergunta": "Que sanduíche é este?",
+        "resposta": "Cheeseburger",
+        "distratores": [
+          "Hot dog",
+          "Sanduíche de peixe",
+          "Sanduíche de frango"
+        ]
+      }
+    }
+  ]
+}
