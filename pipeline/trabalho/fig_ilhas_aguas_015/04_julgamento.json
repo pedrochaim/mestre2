@@ -1,0 +1,446 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Golfo de Nápoles",
+        "descricao": "Baía do mar Tirreno, na Campânia (Itália), dominada pelo Vesúvio e com as ilhas de Capri, Ísquia e Prócida.",
+        "variantes": [
+          "Baía de Nápoles",
+          "Gulf of Naples"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaita_de_fole",
+          "nome": "Gaita de fole",
+          "descricao": "Instrumento de sopro com palhetas alimentadas por uma bolsa de ar, típico da Escócia.",
+          "variantes": [
+            "Gaita escocesa",
+            "Bagpipe"
+          ]
+        },
+        {
+          "id": "dia_de_portugal",
+          "nome": "Dia de Portugal",
+          "descricao": "Feriado nacional português, também chamado Dia de Camões e das Comunidades Portuguesas",
+          "variantes": [
+            "Dia de Portugal, de Camões e das Comunidades Portuguesas",
+            "Dia de Camões"
+          ]
+        },
+        {
+          "id": "pais_de_gales",
+          "nome": "País de Gales",
+          "descricao": "País que integra o Reino Unido, na ilha da Grã-Bretanha, com capital em Cardiff, cuja bandeira traz um dragão vermelho.",
+          "variantes": [
+            "Gales",
+            "Wales",
+            "Cymru",
+            "Bandeira do País de Gales"
+          ]
+        },
+        {
+          "id": "ossos_de_napier",
+          "nome": "Ossos de Napier",
+          "descricao": "Instrumento manual de cálculo com bastões numerados, criado por John Napier para multiplicar e dividir.",
+          "variantes": [
+            "Bastões de Napier",
+            "Napier's bones",
+            "Barras de Napier"
+          ]
+        },
+        {
+          "id": "wigilia",
+          "nome": "Wigilia",
+          "descricao": "Ceia tradicional polonesa da véspera de Natal, sem carne e cheia de rituais.",
+          "variantes": [
+            "Ceia de Natal polonesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lindisfarne",
+        "descricao": "Ilha de maré da costa de Northumberland, na Inglaterra, antigo centro do cristianismo celta, com um castelo sobre um morro.",
+        "variantes": [
+          "Holy Island",
+          "Ilha Sagrada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lindisfarne",
+          "nome": "Lindisfarne",
+          "descricao": "Ilha de maré no nordeste da Inglaterra, sede de um mosteiro saqueado pelos vikings em 793.",
+          "variantes": [
+            "Ilha Sagrada",
+            "Holy Island"
+          ]
+        },
+        {
+          "id": "voie_sacree",
+          "nome": "Voie Sacrée",
+          "descricao": "Estrada entre Bar-le-Duc e Verdun que abasteceu de tropas e suprimentos a defesa francesa durante a Batalha de Verdun, em 1916.",
+          "variantes": [
+            "Via Sagrada",
+            "Caminho Sagrado"
+          ]
+        },
+        {
+          "id": "ilha_grande",
+          "nome": "Ilha Grande",
+          "descricao": "Ilha do município de Angra dos Reis, no litoral sul do estado do Rio de Janeiro.",
+          "variantes": [
+            "Ilha Grande de Angra dos Reis"
+          ]
+        },
+        {
+          "id": "colonia_de_rhode_island",
+          "nome": "Colônia de Rhode Island",
+          "descricao": "Colônia inglesa da Nova Inglaterra, fundada por Roger Williams em 1636, uma das Treze Colônias.",
+          "variantes": [
+            "Colônia de Rhode Island e Providence Plantations",
+            "Rhode Island"
+          ]
+        },
+        {
+          "id": "pilha_aaa",
+          "nome": "Pilha AAA",
+          "descricao": "Pilha cilíndrica de tamanho padrão AAA, chamada no Brasil de pilha palito.",
+          "variantes": [
+            "Pilha palito",
+            "Pilha triplo A"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Île de la Cité",
+        "descricao": "Ilha natural do rio Sena, no centro de Paris, onde ficam a catedral de Notre-Dame e a Sainte-Chapelle.",
+        "variantes": [
+          "Ilha da Cité"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relevo_burney",
+          "nome": "Relevo Burney",
+          "descricao": "Placa de terracota mesopotâmica em alto-relevo, de cerca de 1800 a 1750 a.C., com figura alada de garras de ave entre corujas e leões, no Museu Britânico.",
+          "variantes": [
+            "Relevo Burney (Rainha da Noite)",
+            "Rainha da Noite",
+            "Burney Relief",
+            "Queen of the Night relief"
+          ]
+        },
+        {
+          "id": "ilha_de_re",
+          "nome": "Ilha de Ré",
+          "descricao": "Ilha francesa do Atlântico, diante de La Rochelle.",
+          "variantes": [
+            "Île de Ré",
+            "Ile de Ré"
+          ]
+        },
+        {
+          "id": "ilha_de_wight",
+          "nome": "Ilha de Wight",
+          "descricao": "Ilha no sul da Inglaterra, separada do continente pelo estreito de Solent e banhada pelo Canal da Mancha.",
+          "variantes": [
+            "Isle of Wight"
+          ]
+        },
+        {
+          "id": "ilha_da_trindade",
+          "nome": "Ilha da Trindade",
+          "descricao": "Ilha brasileira isolada no Atlântico Sul, a cerca de mil e cem quilômetros da costa do Espírito Santo.",
+          "variantes": [
+            "Trindade",
+            "Trindade e Martim Vaz"
+          ]
+        },
+        {
+          "id": "trindade_e_martim_vaz",
+          "nome": "Trindade e Martim Vaz",
+          "descricao": "Arquipélago vulcânico brasileiro no meio do Atlântico Sul, a mais de mil quilômetros da costa.",
+          "variantes": [
+            "Ilha da Trindade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Baía de Hudson",
+        "descricao": "Grande mar interior de água salgada no nordeste do Canadá, ligado ao oceano Ártico, com a baía de James ao sul.",
+        "variantes": [
+          "Hudson Bay",
+          "Baía de Hudson's"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong",
+            "Baía de Halong"
+          ]
+        },
+        {
+          "id": "rio_hudson",
+          "nome": "Rio Hudson",
+          "descricao": "Rio do estado de Nova York que deságua no Atlântico junto à ilha de Manhattan.",
+          "variantes": [
+            "Hudson",
+            "Hudson River"
+          ]
+        },
+        {
+          "id": "baia_de_fundy",
+          "nome": "Baía de Fundy",
+          "descricao": "Baía da costa atlântica do Canadá, entre as províncias de Nova Brunswick e Nova Escócia.",
+          "variantes": [
+            "Bay of Fundy"
+          ]
+        },
+        {
+          "id": "alto_falante",
+          "nome": "Alto-falante",
+          "descricao": "Transdutor eletroacústico que converte um sinal elétrico de áudio em som.",
+          "variantes": [
+            "Altifalante",
+            "Caixa de som"
+          ]
+        },
+        {
+          "id": "baixa_pombalina",
+          "nome": "Baixa Pombalina",
+          "descricao": "Centro histórico de Lisboa, reconstruído em traçado regular sob o Marquês de Pombal.",
+          "variantes": [
+            "Pombaline Lower Town",
+            "Baixa de Lisboa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Svartifoss",
+        "descricao": "Cachoeira do Parque Nacional de Vatnajökull, na Islândia, cercada por colunas de basalto escuro.",
+        "variantes": [
+          "Cachoeira Negra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "svartifoss",
+          "nome": "Svartifoss",
+          "descricao": "Cachoeira no Parque Nacional Vatnajökull, na Islândia, cercada por colunas de basalto.",
+          "variantes": [
+            "Cachoeira Negra"
+          ]
+        },
+        {
+          "id": "cataratas_tugela",
+          "nome": "Cataratas Tugela",
+          "descricao": "Conjunto de cachoeiras sazonais nas montanhas Drakensberg, na África do Sul, entre as mais altas do mundo.",
+          "variantes": [
+            "Tugela Falls",
+            "Cachoeira Tugela"
+          ]
+        },
+        {
+          "id": "cachoeira",
+          "nome": "Cachoeira",
+          "descricao": "Ponto de um rio onde a água cai por um desnível vertical ou em degraus.",
+          "variantes": [
+            "Queda d'água",
+            "Waterfall"
+          ]
+        },
+        {
+          "id": "mancha_negra",
+          "nome": "Mancha Negra",
+          "descricao": "Vilão encapuzado de capa negra, arquiinimigo do Mickey Mouse nos quadrinhos da Disney.",
+          "variantes": [
+            "Phantom Blot",
+            "Fantasma Negro"
+          ]
+        },
+        {
+          "id": "cachoeira_da_fumaca",
+          "nome": "Cachoeira da Fumaça",
+          "descricao": "Queda d'água da Chapada Diamantina, na Bahia, cuja água se dispersa em névoa antes de chegar ao chão.",
+          "variantes": [
+            "Cachoeira da Glass"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Antártida",
+        "descricao": "Continente mais austral da Terra, quase todo coberto por uma calota de gelo e cercado pelo oceano Austral.",
+        "variantes": [
+          "Antarctica",
+          "Continente Antártico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "antartida",
+          "nome": "Antártida",
+          "descricao": "Continente gelado em torno do Polo Sul.",
+          "variantes": [
+            "Antártica",
+            "Antarctica"
+          ]
+        },
+        {
+          "id": "oceano_antartico",
+          "nome": "Oceano Antártico",
+          "descricao": "Oceano que cerca a Antártida, ao sul do paralelo 60 sul, também chamado Oceano Austral.",
+          "variantes": [
+            "Oceano Austral",
+            "Southern Ocean",
+            "Antarctic Ocean"
+          ]
+        },
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        },
+        {
+          "id": "altaria",
+          "nome": "Altaria",
+          "descricao": "Pokémon dos tipos Dragão e Voador, número 334 da Pokédex Nacional.",
+          "variantes": [
+            "Mega Altaria"
+          ]
+        },
+        {
+          "id": "escrava_anastacia",
+          "nome": "Escrava Anastácia",
+          "descricao": "Figura da devoção popular brasileira, venerada como santa popular, representada com máscara de ferro e olhos azuis.",
+          "variantes": [
+            "Anastácia",
+            "Santa Anastácia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lanzarote",
+        "descricao": "Ilha espanhola vulcânica, a mais oriental das Ilhas Canárias, com o Parque Nacional de Timanfaya.",
+        "variantes": [
+          "Lanzarote (Ilhas Canárias)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilhas_canarias",
+          "nome": "Ilhas Canárias",
+          "descricao": "Arquipélago espanhol no oceano Atlântico, diante da costa do Marrocos e do Saara Ocidental.",
+          "variantes": [
+            "Canárias",
+            "Canary Islands",
+            "Islas Canarias"
+          ]
+        },
+        {
+          "id": "praia_do_norte_nazare",
+          "nome": "Praia do Norte (Nazaré)",
+          "descricao": "Praia da vila portuguesa de Nazaré, famosa pelas ondas gigantes surfadas no inverno.",
+          "variantes": [
+            "Nazaré"
+          ]
+        },
+        {
+          "id": "janizaros",
+          "nome": "Janízaros",
+          "descricao": "Corpo de infantaria de elite do Império Otomano, formado a partir do século catorze e extinto em 1826.",
+          "variantes": [
+            "Janissários",
+            "Yeniçeri"
+          ]
+        },
+        {
+          "id": "lao_zi",
+          "nome": "Lao Zi",
+          "descricao": "Filósofo chinês tradicionalmente tido como autor do Tao Te Ching e fundador do taoísmo.",
+          "variantes": [
+            "Laozi",
+            "Lao-Tsé",
+            "Laotsé",
+            "Lao Tzu"
+          ]
+        },
+        {
+          "id": "allianz_arena",
+          "nome": "Allianz Arena",
+          "descricao": "Estádio do Bayern de Munique, de fachada que muda de cor.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Golfo de Nápoles."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "lindisfarne",
+      "motivo": "Mesma ilha de maré em Northumberland, mesmos nomes alternativos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Île de la Cité não consta entre as candidatas; Île de Ré é outra ilha."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Baía de Hudson é distinta do Rio Hudson e das outras baías."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "svartifoss",
+      "motivo": "Mesma cachoeira em Vatnajökull, Islândia."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "antartida",
+      "motivo": "Mesmo continente; o oceano Antártico é outra entidade."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lanzarote é uma ilha, parte do arquipélago Ilhas Canárias, mas entidade distinta."
+    }
+  ]
+}

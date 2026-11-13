@@ -635,7 +635,7 @@
       "titulo": "en:Lanzarote",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Staffa",
@@ -649,7 +649,7 @@
       "titulo": "en:Lindisfarne",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Ilha Bouvet",
@@ -1335,7 +1335,7 @@
       "titulo": "en:Lake Kaindy",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Lago Wakatipu",
@@ -1384,11 +1384,291 @@
       "titulo": "en:Svartifoss",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cataratas de Gocta",
       "titulo": "en:Gocta Cataracts",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Antártida",
+      "titulo": "en:Antarctica",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Île de la Cité",
+      "titulo": "en:Île de la Cité",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Coney Island",
+      "titulo": "en:Coney Island",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Key West",
+      "titulo": "en:Key West",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha Maurício",
+      "titulo": "en:Mauritius (island)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha Hashima",
+      "titulo": "en:Hashima Island",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha de Okinawa",
+      "titulo": "en:Okinawa Island",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Golfo de Nápoles",
+      "titulo": "en:Gulf of Naples",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Baía de Hudson",
+      "titulo": "en:Hudson Bay",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "San Giorgio Maggiore",
+      "titulo": "en:San Giorgio Maggiore",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estreito de Øresund",
+      "titulo": "en:Øresund",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mar de Azov",
+      "titulo": "en:Sea of Azov",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Golfo da Califórnia",
+      "titulo": "en:Gulf of California",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Golfo de Aqaba",
+      "titulo": "en:Gulf of Aqaba",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Skellig Michael",
+      "titulo": "en:Skellig Michael",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bass Rock",
+      "titulo": "en:Bass Rock",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha Deception",
+      "titulo": "en:Deception Island",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha Christmas",
+      "titulo": "en:Christmas Island",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha do Pico",
+      "titulo": "en:Pico Island",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aitutaki",
+      "titulo": "en:Aitutaki",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago de Furnas",
+      "titulo": "pt:Lago de Furnas",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rio Yamuna",
+      "titulo": "en:Yamuna",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cânion do Xingó",
+      "titulo": "pt:Cânion do Xingó",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Spree",
+      "titulo": "en:Spree",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Potomac",
+      "titulo": "en:Potomac River",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Nakuru",
+      "titulo": "en:Lake Nakuru",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Loch Lomond",
+      "titulo": "en:Loch Lomond",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Amstel",
+      "titulo": "en:Amstel",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Cam",
+      "titulo": "en:River Cam",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lago Windermere",
+      "titulo": "en:Windermere",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Charles",
+      "titulo": "en:Charles River",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Han",
+      "titulo": "en:Han River (Korea)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Taupō",
+      "titulo": "en:Lake Taupō",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Laguna 69",
+      "titulo": "en:Laguna 69",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Tuz",
+      "titulo": "en:Lake Tuz",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Brienz",
+      "titulo": "en:Lake Brienz",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Guadalquivir",
+      "titulo": "en:Guadalquivir",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago McDonald",
+      "titulo": "en:Lake McDonald",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cataratas Dudhsagar",
+      "titulo": "en:Dudhsagar Falls",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Matheson",
+      "titulo": "en:Lake Matheson",
       "camada": 3,
       "destino": 1,
       "status": "nova"

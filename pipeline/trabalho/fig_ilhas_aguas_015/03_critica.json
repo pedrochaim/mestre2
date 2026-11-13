@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capri está no golfo (trecho). Os distratores (Elba, Córsega, Lipari) ficam fora dele. O enunciado não nomeia o golfo e só se responde reconhecendo a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá só o tipo (ilha de maré, Inglaterra), sem entregar a resposta: St Michael's Mount, por exemplo, também é ilha de maré com castelo. A figura desempata. O castelo de Lindisfarne consta dos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Notre-Dame fica na Île de la Cité (trecho). O enunciado cita só o rio Sena, e o Sena tem mais de uma ilha em Paris, então a figura é necessária. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Golfo de São Lourenço' é um golfo, não uma baía, e destoa do enunciado ('grande baía'). Troquei-o por uma baía real e distinta, a de Ungava. A baía de James, que aparece na imagem, não serve como distrator.",
+      "reescrita": {
+        "pergunta": "Que grande baía do norte da América do Norte é esta, vista do espaço?",
+        "resposta": "Baía de Hudson",
+        "distratores": [
+          "Baía de Baffin",
+          "Baía de Fundy",
+          "Baía de Ungava"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento (nível 1). O enunciado só diz que é uma cachoeira da Islândia, o que não entrega o nome. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Antártida está quase toda coberta de gelo (trecho). A figura distingue o continente da Groenlândia, que também tem gelo. Os distratores são plausíveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lanzarote é vulcânica e pertence às Ilhas Canárias (trecho). 'Vulcânica' não basta para responder sem a figura, porque há outros arquipélagos vulcânicos. A resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

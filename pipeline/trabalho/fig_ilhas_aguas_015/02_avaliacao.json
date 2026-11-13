@@ -1,0 +1,175 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Placa legível (Riegelmann Boardwalk, Stillwell Avenue), pessoas comuns no calçadão e várias placas e letreiros; a imagem mostra o Parachute Jump, não a ilha."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem de satélite nítida, com o Vesúvio, a costa de Sorrento e as ilhas no golfo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destas ilhas fica nesta baía?",
+      "resposta": "Capri",
+      "distratores": [
+        "Elba",
+        "Córsega",
+        "Lipari"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Golfo de Nápoles",
+        "descricao": "Baía do mar Tirreno, na Campânia (Itália), dominada pelo Vesúvio e com as ilhas de Capri, Ísquia e Prócida.",
+        "variantes": [
+          "Baía de Nápoles",
+          "Gulf of Naples"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Castelo sobre um morro, sem texto nem pessoas; reconhecível e ligado a uma única ilha.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ilha de maré da costa da Inglaterra fica este castelo?",
+      "resposta": "Lindisfarne (Ilha Sagrada)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lindisfarne",
+        "descricao": "Ilha de maré da costa de Northumberland, na Inglaterra, antigo centro do cristianismo celta, com um castelo sobre um morro.",
+        "variantes": [
+          "Holy Island",
+          "Ilha Sagrada"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "A catedral de Notre-Dame vista do Sena, sem texto legível nem pessoas em primeiro plano; a ponta da ilha aparece.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ilha do rio Sena fica esta catedral?",
+      "resposta": "Île de la Cité (Ilha da Cité)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Île de la Cité",
+        "descricao": "Ilha natural do rio Sena, no centro de Paris, onde ficam a catedral de Notre-Dame e a Sainte-Chapelle.",
+        "variantes": [
+          "Ilha da Cité",
+          "Ile de la Cite"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com o contorno característico da baía, sem texto; as nuvens não atrapalham a forma.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que grande baía do norte da América do Norte é esta, vista do espaço?",
+      "resposta": "Baía de Hudson",
+      "distratores": [
+        "Baía de Baffin",
+        "Baía de Fundy",
+        "Golfo de São Lourenço"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Baía de Hudson",
+        "descricao": "Grande mar interior de água salgada no nordeste do Canadá, ligado ao oceano Ártico, com a baía de James ao sul.",
+        "variantes": [
+          "Hudson Bay",
+          "Baía de Hudson's"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de uma restinga de areia e conchas, com mar e céu: nada permite reconhecer o Mar de Azov."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Rio genérico visto de uma balaustrada; nada na imagem permite reconhecer o Yamuna com resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Trecho de rio plano e genérico com uma casa e barcos; não é reconhecível como o Cam."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cachoeira entre colunas de basalto, sem texto nem pessoas; paisagem característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cachoeira da Islândia é esta?",
+      "resposta": "Svartifoss",
+      "destino": 1,
+      "ancora": {
+        "nome": "Svartifoss",
+        "descricao": "Cachoeira do Parque Nacional de Vatnajökull, na Islândia, cercada por colunas de basalto escuro.",
+        "variantes": [
+          "Cachoeira Negra"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mosaico de satélite do continente, com contorno inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que massa de terra coberta de gelo é esta, vista do espaço?",
+      "resposta": "Antártida",
+      "distratores": [
+        "Groenlândia",
+        "Svalbard",
+        "Terra de Baffin"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Antártida",
+        "descricao": "Continente mais austral da Terra, quase todo coberto por uma calota de gelo e cercado pelo oceano Austral.",
+        "variantes": [
+          "Antarctica",
+          "Continente Antártico"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem de satélite da ilha inteira, com a ilhota ao norte e os campos de lava; forma característica.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que arquipélago fica esta ilha vulcânica?",
+      "resposta": "Ilhas Canárias",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lanzarote",
+        "descricao": "Ilha espanhola vulcânica, a mais oriental das Ilhas Canárias, com o Parque Nacional de Timanfaya.",
+        "variantes": [
+          "Lanzarote (Ilhas Canárias)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra a casa de força e os dutos da usina, não o lago; só um especialista reconheceria Furnas, e a âncora seria a usina, não o lago."
+    }
+  ]
+}

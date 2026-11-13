@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ilha de maré da costa da Inglaterra fica este castelo?",
+        "resposta": "Lindisfarne (Ilha Sagrada)"
+      },
+      "existentes": [
+        {
+          "id": "q13178",
+          "pergunta": "O saque viking ao mosteiro de Lindisfarne, na costa da Inglaterra, costuma marcar o início da Era Viking. Em que século ele ocorreu?",
+          "resposta": "Século oito"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que cachoeira da Islândia é esta?",
+        "resposta": "Svartifoss"
+      },
+      "existentes": [
+        {
+          "id": "q17179",
+          "pergunta": "Que tipo de rocha forma as paredes ao redor desta cachoeira?",
+          "resposta": "Basalto"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que massa de terra coberta de gelo é esta, vista do espaço?",
+        "resposta": "Antártida"
+      },
+      "existentes": [
+        {
+          "id": "q02097",
+          "pergunta": "Considerando deserto toda região onde quase não chove nem neva, qual é o maior deserto do mundo?",
+          "resposta": "Antártida"
+        },
+        {
+          "id": "q14221",
+          "pergunta": "Que continente é este, visto do espaço?",
+          "resposta": "Antártida"
+        },
+        {
+          "id": "q21093",
+          "pergunta": "Considerando a altitude média, qual é o continente mais alto da Terra?",
+          "resposta": "Antártida"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a ilha onde fica o castelo; a existente pede o século do saque viking. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da cachoeira; a existente pede o tipo de rocha. Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "A nova é igual à q14221: ambas mostram o continente visto do espaço e têm como resposta Antártida.",
+      "id_existente": "q14221"
+    }
+  ]
+}
