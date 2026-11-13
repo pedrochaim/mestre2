@@ -1,0 +1,81 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que formação mineral de caverna é esta?",
+        "resposta": "Estalactite"
+      },
+      "existentes": [
+        {
+          "id": "q09200",
+          "pergunta": "Nas cavernas de calcário, estalactites e estalagmites são formadas principalmente por que mineral?",
+          "resposta": "Calcita"
+        },
+        {
+          "id": "q13963",
+          "pergunta": "Como se chamam estas formações de caverna?",
+          "resposta": "Estalactites"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que delta fluvial africano, visto do espaço, é este?",
+        "resposta": "Delta do Nilo"
+      },
+      "existentes": [
+        {
+          "id": "q07164",
+          "pergunta": "A palavra delta, usada para certas fozes, nasceu porque os gregos acharam a foz de qual rio parecida com essa letra?",
+          "resposta": "Nilo"
+        },
+        {
+          "id": "q09149",
+          "pergunta": "O delta do Nilo tem dois braços principais. Um deles passa por Damieta. Qual é o outro, que deu nome a uma pedra famosa?",
+          "resposta": "Braço de Roseta"
+        },
+        {
+          "id": "q18517",
+          "pergunta": "Em que país fica este delta triangular?",
+          "resposta": "Egito"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ilha da Indonésia fica este lago, visto do espaço?",
+        "resposta": "Sumatra"
+      },
+      "existentes": [
+        {
+          "id": "q19196",
+          "pergunta": "Em que ilha fica este lago vulcânico, visto de satélite?",
+          "resposta": "Sumatra"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q13963",
+      "motivo": "Ambas pedem o nome da formação (estalactite) a partir da imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q18517",
+      "motivo": "Pergunta nova pede identificar o delta (Nilo) visto do espaço; q18517 pergunta o país do delta, fato diferente. Mas a imagem é do delta do Nilo; nenhuma pergunta existente pede identificar o delta pela imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q19196",
+      "motivo": "Mesma pergunta: ilha do lago visto de satélite, resposta Sumatra."
+    }
+  ]
+}

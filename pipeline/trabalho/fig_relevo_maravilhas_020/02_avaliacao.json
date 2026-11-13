@@ -1,0 +1,146 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estalactites nítidas pendendo do teto de uma caverna, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Estas formações pendem do teto de uma caverna. Como se chama a formação correspondente, que cresce no chão?",
+      "resposta": "Estalagmite",
+      "ancora": {
+        "nome": "Estalactite",
+        "descricao": "Formação mineral que pende do teto de cavernas, formada pela deposição de minerais dissolvidos na água que goteja.",
+        "variantes": [
+          "Estalactites"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga em preto e branco do interior de uma caverna, genérica; não permite reconhecer a Caverna do Mamute, e há uma pessoa em destaque."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cachoeira em garganta estreita, reconhecível como as Cataratas Murchison; múltipla escolha deixa a pergunta justa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que grande rio africano é espremido por esta garganta estreita antes de despencar?",
+      "resposta": "Nilo",
+      "distratores": [
+        "Congo",
+        "Zambeze",
+        "Níger"
+      ],
+      "ancora": {
+        "nome": "Cataratas Murchison",
+        "descricao": "Cachoeira de Uganda em que o Nilo Branco passa por uma garganta de cerca de 7 metros de largura, antes do Lago Alberto.",
+        "variantes": [
+          "Murchison Falls",
+          "Cataratas Kabalega"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É um diagrama esquemático ilustrado, não uma foto, e um gêiser pode ser fotografado."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Vista de cânion genérica, sem elementos que permitam reconhecer as Barrancas del Cobre com resposta única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Cachoeira fina entre encostas cobertas de mata, sem elementos que a distingam de outras; difícil reconhecer as Cataratas Sutherland."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de satélite do Delta do Nilo, muito característica, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que grande rio africano forma esta região verde, vista do espaço, antes de chegar ao mar?",
+      "resposta": "Nilo",
+      "ancora": {
+        "nome": "Delta do Nilo",
+        "descricao": "Delta triangular do rio Nilo no norte do Egito, onde o rio desemboca no Mar Mediterrâneo.",
+        "variantes": [
+          "Nile Delta"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto clara da cachoeira em Yosemite, reconhecível pela queda e paredão; múltipla com cachoeiras do mesmo parque.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cachoeira do Parque Nacional de Yosemite, na Califórnia, é esta?",
+      "resposta": "Bridalveil",
+      "distratores": [
+        "Yosemite Falls",
+        "Vernal Fall",
+        "Nevada Fall"
+      ],
+      "ancora": {
+        "nome": "Cachoeira Bridalveil",
+        "descricao": "Cachoeira de 188 metros no Vale de Yosemite, na Califórnia, que corre o ano todo.",
+        "variantes": [
+          "Bridalveil Fall"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem de satélite do Lago Toba com a ilha Samosir, característica; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ilha da Indonésia fica este lago, visto do espaço?",
+      "resposta": "Sumatra",
+      "distratores": [
+        "Bornéu",
+        "Java",
+        "Celebes"
+      ],
+      "ancora": {
+        "nome": "Lago Toba",
+        "descricao": "Maior lago da Indonésia, formado na caldeira do supervulcão Toba, no norte da ilha de Sumatra.",
+        "variantes": [
+          "Danau Toba",
+          "Lake Toba"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Várias pessoas comuns em caiaques e botes em primeiro plano; trecho de rio sem local reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama esquemático com texto em inglês (Caldera Collapse, Garfield Peak etc.) que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A placa com os caracteres 石林 (Shilin, 'floresta de pedra') está visível e entrega a resposta."
+    }
+  ]
+}
