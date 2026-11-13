@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Gado de chifres enormes, raça bem reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta raça de gado descende de rebanhos africanos, mas a raça moderna se formou em que país?",
+      "resposta": "Estados Unidos",
+      "distratores": [
+        "Quênia",
+        "África do Sul",
+        "Reino Unido"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ankole-Watusi",
+        "descricao": "Raça de gado doméstico de chifres muito grandes, derivada do gado Sanga africano e desenvolvida nos Estados Unidos.",
+        "variantes": [
+          "Watusi",
+          "Ankole"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Marta de garganta amarela nítida e inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta marta asiática é a segunda maior do Velho Mundo. Qual é a maior?",
+      "resposta": "Marta-de-Nilgiri",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Marta-de-garganta-amarela",
+        "descricao": "Espécie de marta (Martes flavigula) do Himalaia e do Sudeste e Leste da Ásia, de peito amarelo-dourado e cabeça escura.",
+        "variantes": [
+          "Martes flavigula",
+          "Yellow-throated marten"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pelagem muito manchada e pincéis nas orelhas, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que felino é este?",
+      "resposta": "Lince-ibérico",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lince-ibérico",
+        "descricao": "Felino de médio porte (Lynx pardinus), endêmico da Península Ibérica.",
+        "variantes": [
+          "Lynx pardinus",
+          "Iberian lynx"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Esquilo multicolorido característico.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esquilo é este?",
+      "resposta": "Esquilo-gigante-indiano",
+      "distratores": [
+        "Esquilo-gigante-negro",
+        "Esquilo-gigante-cinzento",
+        "Esquilo-gigante-creme"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esquilo-gigante-indiano",
+        "descricao": "Grande esquilo arborícola multicolorido (Ratufa indica), endêmico das florestas da Índia.",
+        "variantes": [
+          "Esquilo-gigante-de-Malabar",
+          "Ratufa indica",
+          "Malabar giant squirrel"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Padrão facial inconfundível de texugo norte-americano.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que mamífero norte-americano é este?",
+      "resposta": "Texugo-americano",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Texugo-americano",
+        "descricao": "Texugo (Taxidea taxus) das pradarias da América do Norte.",
+        "variantes": [
+          "Taxidea taxus",
+          "American badger"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Rosto de gato-pescador claro, com distratores de felinos asiáticos parecidos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que felino asiático é este?",
+      "resposta": "Gato-pescador",
+      "distratores": [
+        "Gato-leopardo",
+        "Gato-de-cabeça-chata",
+        "Gato-dourado-asiático"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gato-pescador",
+        "descricao": "Felino de médio porte (Prionailurus viverrinus) de áreas alagadas do Sul e Sudeste da Ásia.",
+        "variantes": [
+          "Prionailurus viverrinus",
+          "Fishing cat"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dugongo alimentando-se no fundo, focinho voltado para baixo característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este mamífero marinho tem como parente próximo um animal extinto no século dezoito. Que animal é esse?",
+      "resposta": "Vaca-marinha-de-Steller",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dugongo",
+        "descricao": "Mamífero marinho herbívoro da ordem Sirenia (Dugong dugon), do Indo-Pacífico.",
+        "variantes": [
+          "Dugong dugon",
+          "Dugong"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Veados pequenos e indistintos; a espécie de muntíaco não é identificável pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Reconstrução artística; indistinguível de um urso-pardo, resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Ilustração de baixa qualidade em animal que pode ser fotografado; pouco legível."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Macho de chital com manchas e chifres bem visíveis.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cervo é este?",
+      "resposta": "Chital",
+      "distratores": [
+        "Gamo",
+        "Cervo-sika",
+        "Cervo-porco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chital",
+        "descricao": "Cervo manchado (Axis axis) nativo do subcontinente indiano.",
+        "variantes": [
+          "Axis axis",
+          "Cervo-axis",
+          "Axis deer",
+          "Spotted deer"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Morcego orelhudo muito semelhante ao morcego-orelhudo-cinzento; espécie não distinguível pela imagem."
+    }
+  ]
+}
