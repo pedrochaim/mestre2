@@ -1,0 +1,725 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cubo mágico",
+        "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias, inventado pelo húngaro Ernő Rubik em 1974.",
+        "variantes": [
+          "Cubo de Rubik"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cubo_magico",
+          "nome": "Cubo mágico",
+          "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+          "variantes": [
+            "Cubo de Rubik",
+            "Rubik's Cube"
+          ]
+        },
+        {
+          "id": "cudo",
+          "nome": "Cudo",
+          "descricao": "Grande antílope de savanas arborizadas (Tragelaphus strepsiceros) do leste e do sul da África, com chifres espiralados.",
+          "variantes": [
+            "Cudo-maior",
+            "Greater kudu",
+            "Tragelaphus strepsiceros"
+          ]
+        },
+        {
+          "id": "valvula_olho_magico",
+          "nome": "Válvula olho mágico",
+          "descricao": "Válvula termiônica com mostrador luminoso circular, usada como indicador de sintonia em rádios antigos.",
+          "variantes": [
+            "Olho mágico",
+            "Magic eye",
+            "Indicador de sintonia"
+          ]
+        },
+        {
+          "id": "quadrado_magico",
+          "nome": "Quadrado mágico",
+          "descricao": "Arranjo quadrado de números em que linhas, colunas e diagonais principais têm a mesma soma.",
+          "variantes": [
+            "Magic square"
+          ]
+        },
+        {
+          "id": "cubo_d_agua",
+          "nome": "Cubo d'Água",
+          "descricao": "Centro Nacional de Natação de Pequim, com fachada de bolhas azuis, construído para os Jogos Olímpicos de 2008.",
+          "variantes": [
+            "Water Cube",
+            "Centro Aquático Nacional de Pequim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Problemas do Prêmio Millennium",
+        "descricao": "Conjunto de grandes problemas de matemática para os quais o Instituto Clay ofereceu, em 2000, um prêmio de um milhão de dólares por solução.",
+        "variantes": [
+          "Problemas do Milênio",
+          "Millennium Prize Problems"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "london_eye",
+          "nome": "London Eye",
+          "descricao": "Roda-gigante de observação à margem sul do rio Tâmisa, em Londres, inaugurada na virada do milênio.",
+          "variantes": [
+            "Millennium Wheel",
+            "Roda do Milênio"
+          ]
+        },
+        {
+          "id": "enigma_do_milenio",
+          "nome": "Enigma do Milênio",
+          "descricao": "Quebra-cabeça dourado em forma de pirâmide usado pelo protagonista Yugi Muto em Yu-Gi-Oh!.",
+          "variantes": [
+            "Millennium Puzzle",
+            "Quebra-Cabeça do Milênio"
+          ]
+        },
+        {
+          "id": "problemas_de_hilbert",
+          "nome": "Problemas de Hilbert",
+          "descricao": "Lista de vinte e três problemas de matemática apresentada por David Hilbert num congresso em Paris.",
+          "variantes": [
+            "Hilbert's problems"
+          ]
+        },
+        {
+          "id": "bug_do_milenio",
+          "nome": "Bug do milênio",
+          "descricao": "Problema de software temido na virada de 1999 para 2000, ligado ao modo como os sistemas registravam o ano.",
+          "variantes": [
+            "Problema do ano 2000",
+            "Y2K"
+          ]
+        },
+        {
+          "id": "dilema_do_bonde",
+          "nome": "Dilema do bonde",
+          "descricao": "Experimento mental de ética proposto por Philippa Foot em 1967, sobre desviar um veículo desgovernado para matar uma pessoa em vez de cinco.",
+          "variantes": [
+            "Trolley problem",
+            "Problema do bonde",
+            "Dilema do trem"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Isaac Newton",
+        "descricao": "Físico e matemático inglês (1643–1727), autor dos Princípios Matemáticos da Filosofia Natural e um dos criadores do cálculo.",
+        "variantes": [
+          "Sir Isaac Newton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "isaac_newton",
+          "nome": "Isaac Newton",
+          "descricao": "Polímata inglês, autor dos Principia e formulador da gravitação universal e da mecânica clássica.",
+          "variantes": [
+            "Sir Isaac Newton",
+            "Newton"
+          ]
+        },
+        {
+          "id": "disco_de_newton",
+          "nome": "Disco de Newton",
+          "descricao": "Disco pintado em fatias coloridas que parece branco quando gira rapidamente, demonstrando a composição da luz branca.",
+          "variantes": [
+            "Newton disc"
+          ]
+        },
+        {
+          "id": "leis_de_newton",
+          "nome": "Leis de Newton",
+          "descricao": "As três leis do movimento formuladas por Isaac Newton: inércia, princípio fundamental da dinâmica e ação e reação.",
+          "variantes": [
+            "Leis do movimento de Newton",
+            "Newton's laws of motion"
+          ]
+        },
+        {
+          "id": "newton",
+          "nome": "Newton",
+          "descricao": "Monotipia colorida de William Blake (1795, retrabalhada em 1805) que mostra Isaac Newton nu, agachado, desenhando com um compasso.",
+          "variantes": [
+            "Newton (William Blake)",
+            "Newton (Blake)",
+            "Newton de William Blake"
+          ]
+        },
+        {
+          "id": "sanhaco_cinzento",
+          "nome": "Sanhaço-cinzento",
+          "descricao": "Ave Thraupis sayaca, de corpo cinza-azulado e asas azul-esverdeadas, comum no Brasil e em países vizinhos.",
+          "variantes": [
+            "Sanhaçu-cinzento",
+            "Sayaca tanager",
+            "Thraupis sayaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sistema binário",
+        "descricao": "Sistema de numeração de base dois, que escreve todos os números apenas com os algarismos zero e um, base da computação.",
+        "variantes": [
+          "Sistema de numeração binário",
+          "Base dois"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sistema_binario",
+          "nome": "Sistema binário",
+          "descricao": "Sistema de numeração que usa apenas os algarismos zero e um, base da computação digital.",
+          "variantes": [
+            "Numeração binária",
+            "Base dois",
+            "Sistema de numeração binário",
+            "Binary number",
+            "Código binário"
+          ]
+        },
+        {
+          "id": "numeracao_maia",
+          "nome": "Numeração maia",
+          "descricao": "Sistema de numeração posicional dos maias, escrito com pontos, barras e um sinal de concha para o zero.",
+          "variantes": [
+            "Algarismos maias",
+            "Maya numerals",
+            "Sistema de numeração maia"
+          ]
+        },
+        {
+          "id": "algarismos_indo_arabicos",
+          "nome": "Algarismos indo-arábicos",
+          "descricao": "Sistema de numeração posicional com os dígitos de zero a nove, usado hoje em quase todo o mundo.",
+          "variantes": [
+            "Algarismos arábicos",
+            "Sistema de numeração indo-arábico",
+            "Hindu-Arabic numeral system",
+            "Hindu-Arabic numerals",
+            "Numeração indo-arábica"
+          ]
+        },
+        {
+          "id": "sistema_abo",
+          "nome": "Sistema ABO",
+          "descricao": "Classificação dos grupos sanguíneos humanos em A, B, AB e O.",
+          "variantes": [
+            "Grupos sanguíneos ABO",
+            "ABO blood group system"
+          ]
+        },
+        {
+          "id": "circulacao_sanguinea",
+          "nome": "Circulação sanguínea",
+          "descricao": "Movimento contínuo do sangue pelo corpo, bombeado pelo coração.",
+          "variantes": [
+            "Circulação do sangue",
+            "Sistema circulatório"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Florence Nightingale",
+        "descricao": "Enfermeira britânica (1820–1910), pioneira da enfermagem moderna, que atuou na Guerra da Crimeia e usou gráficos estatísticos.",
+        "variantes": [
+          "A dama da lâmpada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "florence_nightingale",
+          "nome": "Florence Nightingale",
+          "descricao": "Inglesa fundadora da enfermagem moderna e pioneira da estatística, famosa na Guerra da Crimeia.",
+          "variantes": [
+            "A Dama da Lâmpada"
+          ]
+        },
+        {
+          "id": "a_dama_das_camelias",
+          "nome": "A Dama das Camélias",
+          "descricao": "Romance de Alexandre Dumas Filho, publicado em 1848, sobre a cortesã Marguerite Gautier.",
+          "variantes": [
+            "La Dame aux Camélias"
+          ]
+        },
+        {
+          "id": "retrato_de_adele_bloch_bauer_i",
+          "nome": "Retrato de Adele Bloch-Bauer I",
+          "descricao": "Retrato dourado pintado por Gustav Klimt em 1907, saqueado pelos nazistas e devolvido à família da retratada em 2006.",
+          "variantes": [
+            "Portrait of Adele Bloch-Bauer I",
+            "A Dama Dourada"
+          ]
+        },
+        {
+          "id": "imac_g4",
+          "nome": "iMac G4",
+          "descricao": "Computador all-in-one da Apple lançado em 2002, com base hemisférica e tela LCD plana presa por um braço articulado.",
+          "variantes": [
+            "iMac de lâmpada",
+            "iMac G4 de 2002"
+          ]
+        },
+        {
+          "id": "salamandra_de_fogo",
+          "nome": "Salamandra-de-fogo",
+          "descricao": "Anfíbio (Salamandra salamandra) preto com manchas ou listras amarelas, comum na Europa.",
+          "variantes": [
+            "Fire salamander",
+            "Salamandra salamandra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Teorema do macaco infinito",
+        "descricao": "Resultado de probabilidade segundo o qual um macaco digitando teclas ao acaso por tempo infinito acabaria, quase certamente, escrevendo qualquer texto.",
+        "variantes": [
+          "Teorema dos macacos infinitos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sistema_binario",
+          "nome": "Sistema binário",
+          "descricao": "Sistema de numeração que usa apenas os algarismos zero e um, base da computação digital.",
+          "variantes": [
+            "Numeração binária",
+            "Base dois",
+            "Sistema de numeração binário",
+            "Binary number",
+            "Código binário"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Artur Avila",
+        "descricao": "Matemático brasileiro nascido no Rio de Janeiro em 1979, vencedor da Medalha Fields em 2014.",
+        "variantes": [
+          "Artur Avila Cordeiro de Melo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arthur_nory",
+          "nome": "Arthur Nory",
+          "descricao": "Ginasta artístico brasileiro, medalhista de bronze olímpico no solo em 2016 e campeão mundial da barra fixa em 2019.",
+          "variantes": [
+            "Arthur Nory Mariano",
+            "Arthur Mariano"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "saturnalia_tupiniquim",
+          "nome": "Saturnalia tupiniquim",
+          "descricao": "Dinossauro primitivo do Triássico encontrado no Rio Grande do Sul e descrito em 1999.",
+          "variantes": [
+            "Saturnalia"
+          ]
+        },
+        {
+          "id": "jacarta",
+          "nome": "Jacarta",
+          "descricao": "Maior cidade da Indonésia, na costa noroeste da ilha de Java.",
+          "variantes": [
+            "Jakarta",
+            "Djakarta",
+            "Batávia"
+          ]
+        },
+        {
+          "id": "saturnalia",
+          "nome": "Saturnália",
+          "descricao": "Festa romana em honra do deus Saturno, com banquetes, presentes e inversão de papéis entre senhores e escravos.",
+          "variantes": [
+            "Saturnais"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "M. C. Escher",
+        "descricao": "Artista gráfico holandês (1898–1972), famoso por gravuras com ladrilhamentos, metamorfoses e construções impossíveis.",
+        "variantes": [
+          "Maurits Cornelis Escher",
+          "Escher"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "scyther",
+          "nome": "Scyther",
+          "descricao": "Pokémon mantis dos tipos Inseto e Voador, número 123 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "franz_schubert",
+          "nome": "Franz Schubert",
+          "descricao": "Compositor austríaco do Classicismo tardio e início do Romantismo, famoso por seus Lieder.",
+          "variantes": [
+            "Schubert"
+          ]
+        },
+        {
+          "id": "geysir",
+          "nome": "Geysir",
+          "descricao": "Fonte termal eruptiva no sudoeste da Islândia que deu nome a todos os gêiseres.",
+          "variantes": [
+            "Grande Geysir",
+            "Gêiser",
+            "Great Geysir",
+            "Gêiser de Haukadalur",
+            "Stóri Geysir"
+          ]
+        },
+        {
+          "id": "pessach",
+          "nome": "Pessach",
+          "descricao": "Festa judaica que celebra a saída dos hebreus do Egito",
+          "variantes": [
+            "Páscoa judaica",
+            "Passover",
+            "Pesach"
+          ]
+        },
+        {
+          "id": "friedrich_nietzsche",
+          "nome": "Friedrich Nietzsche",
+          "descricao": "Filósofo alemão (1844–1900), autor de Assim Falou Zaratustra.",
+          "variantes": [
+            "Nietzsche"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Crivo de Eratóstenes",
+        "descricao": "Método antigo para encontrar todos os números primos até um limite, riscando os múltiplos de cada primo.",
+        "variantes": [
+          "Peneira de Eratóstenes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eratostenes",
+          "nome": "Eratóstenes",
+          "descricao": "Matemático e geógrafo grego do século três a.C. que estimou a circunferência da Terra.",
+          "variantes": [
+            "Eratosthenes",
+            "Eratóstenes de Cirene"
+          ]
+        },
+        {
+          "id": "filipicas",
+          "nome": "Filípicas",
+          "descricao": "Discursos do orador ateniense Demóstenes contra o rei Filipe II da Macedônia, no século quatro a.C.",
+          "variantes": [
+            "Philippics",
+            "Filípicas de Demóstenes"
+          ]
+        },
+        {
+          "id": "bandeira_de_serra_leoa",
+          "nome": "Bandeira de Serra Leoa",
+          "descricao": "Bandeira nacional de Serra Leoa, tricolor horizontal verde, branca e azul.",
+          "variantes": [
+            "Serra Leoa",
+            "Bandeira de Sierra Leone"
+          ]
+        },
+        {
+          "id": "silverstone",
+          "nome": "Silverstone",
+          "descricao": "Circuito na Inglaterra, sede do Grande Prêmio da Grã-Bretanha de Fórmula 1.",
+          "variantes": [
+            "Circuito de Silverstone",
+            "Silverstone Circuit"
+          ]
+        },
+        {
+          "id": "geladeira_de_einstein",
+          "nome": "Geladeira de Einstein",
+          "descricao": "Refrigerador sem partes móveis patenteado por Albert Einstein e Leó Szilárd em 1930.",
+          "variantes": [
+            "Refrigerador Einstein-Szilárd"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Máquina analítica",
+        "descricao": "Computador mecânico de uso geral projetado no século dezenove pelo inglês Charles Babbage, nunca concluído.",
+        "variantes": [
+          "Analytical Engine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_analitica",
+          "nome": "Máquina analítica",
+          "descricao": "Computador mecânico de uso geral projetado por Charles Babbage no século dezenove, nunca concluído.",
+          "variantes": [
+            "Analytical Engine"
+          ]
+        },
+        {
+          "id": "maquina_tecnica",
+          "nome": "Máquina Técnica",
+          "descricao": "Item dos jogos Pokémon que ensina um golpe a um pokémon, conhecido pela sigla MT.",
+          "variantes": [
+            "MT",
+            "TM",
+            "Technical Machine"
+          ]
+        },
+        {
+          "id": "mecanismo_de_anticitera",
+          "nome": "Mecanismo de Anticítera",
+          "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+          "variantes": [
+            "Máquina de Anticítera",
+            "Antikythera mechanism"
+          ]
+        },
+        {
+          "id": "snag_machine",
+          "nome": "Snag Machine",
+          "descricao": "Aparelho preso ao braço do protagonista de Pokémon Colosseum e Pokémon XD, usado para capturar pokémon de outros treinadores.",
+          "variantes": [
+            "Máquina Snag"
+          ]
+        },
+        {
+          "id": "maquina_de_lavar_louca",
+          "nome": "Máquina de lavar louça",
+          "descricao": "Eletrodoméstico que lava pratos e utensílios, patenteado pela americana Josephine Cochrane em 1886.",
+          "variantes": [
+            "Lava-louças",
+            "Dishwasher"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Principia Mathematica",
+        "descricao": "Obra em três volumes de Bertrand Russell e Alfred North Whitehead, publicada entre 1910 e 1913, que tentou fundamentar a matemática na lógica.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "principia",
+          "nome": "Principia",
+          "descricao": "Philosophiae Naturalis Principia Mathematica, obra de Isaac Newton que expôs as leis do movimento e a gravitação universal.",
+          "variantes": [
+            "Philosophiæ Naturalis Principia Mathematica",
+            "Princípios Matemáticos da Filosofia Natural"
+          ]
+        },
+        {
+          "id": "papiro_rhind",
+          "nome": "Papiro Rhind",
+          "descricao": "Papiro egípcio com problemas de matemática, copiado pelo escriba Ahmes por volta de 1550 antes de Cristo.",
+          "variantes": [
+            "Papiro de Ahmes",
+            "Rhind Mathematical Papyrus",
+            "Papiro de Rhind"
+          ]
+        },
+        {
+          "id": "dia_internacional_da_matematica",
+          "nome": "Dia Internacional da Matemática",
+          "descricao": "Data proclamada pela Unesco em 2019 para celebrar a matemática, comemorada em catorze de março.",
+          "variantes": [
+            "International Day of Mathematics"
+          ]
+        },
+        {
+          "id": "marcha_atletica",
+          "nome": "Marcha atlética",
+          "descricao": "Prova de pedestrianismo do atletismo em que os atletas andam o mais rápido possível, sem correr.",
+          "variantes": [
+            "Racewalking",
+            "Marcha"
+          ]
+        },
+        {
+          "id": "lei_da_superposicao",
+          "nome": "Lei da superposição",
+          "descricao": "Princípio da geologia segundo o qual, numa sequência de camadas de rocha não perturbada, as camadas de baixo são as mais antigas.",
+          "variantes": [
+            "Princípio da sobreposição",
+            "Law of superposition"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Tangram",
+        "descricao": "Quebra-cabeça geométrico de origem chinesa, formado por sete peças que se combinam para montar figuras.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tangram",
+          "nome": "Tangram",
+          "descricao": "Quebra-cabeça formado por sete peças geométricas planas que se combinam para montar figuras.",
+          "variantes": []
+        },
+        {
+          "id": "tangara",
+          "nome": "Tangará",
+          "descricao": "Pequena ave azul de cabeça preta e coroa vermelha (Chiroxiphia caudata), macho dançarino da Mata Atlântica.",
+          "variantes": [
+            "Tesourinha-da-mata",
+            "Dançador",
+            "Chiroxiphia caudata"
+          ]
+        },
+        {
+          "id": "pangrama",
+          "nome": "Pangrama",
+          "descricao": "Frase que usa todas as letras do alfabeto",
+          "variantes": [
+            "Pantograma"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "la_angora",
+          "nome": "Lã angorá",
+          "descricao": "Fibra felpuda e macia tirada do pelo do coelho angorá",
+          "variantes": [
+            "Angorá",
+            "Angora wool"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "cubo_magico",
+      "motivo": "Mesmo quebra-cabeça de Rubik."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é os Problemas do Milênio do Instituto Clay."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "isaac_newton",
+      "motivo": "Mesma pessoa."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "sistema_binario",
+      "motivo": "Mesmo sistema de numeração de base dois."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "florence_nightingale",
+      "motivo": "Mesma pessoa."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Candidata é outro conceito."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Artur Avila."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Escher."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "O método é distinto da pessoa Eratóstenes."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "maquina_analitica",
+      "motivo": "Mesmo computador mecânico de Babbage."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Obra de Russell e Whitehead difere dos Principia de Newton."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "tangram",
+      "motivo": "Mesmo quebra-cabeça de sete peças."
+    }
+  ]
+}

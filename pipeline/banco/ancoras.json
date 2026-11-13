@@ -50121,7 +50121,8 @@
     "descricao": "Nome dado no Brasil à fórmula que resolve equações do segundo grau.",
     "variantes": [
       "Fórmula quadrática",
-      "Fórmula resolutiva"
+      "Fórmula resolutiva",
+      "Fórmula resolvente"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Bhaskara"
@@ -50299,7 +50300,8 @@
     "nome": "Último Teorema de Fermat",
     "descricao": "Teorema enunciado por Pierre de Fermat em 1637 e demonstrado por Andrew Wiles em 1994.",
     "variantes": [
-      "Fermat's Last Theorem"
+      "Fermat's Last Theorem",
+      "Teorema de Fermat-Wiles"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem"
@@ -57014,7 +57016,10 @@
       "wikidata": "Q41390",
       "pt": 1000,
       "en": 30966
-    }
+    },
+    "variantes": [
+      "Godel"
+    ]
   },
   {
     "id": "alexander_von_humboldt",
@@ -111465,7 +111470,8 @@
     "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta.",
     "variantes": [
       "Penrose tiling",
-      "Pavimentação de Penrose"
+      "Pavimentação de Penrose",
+      "Ladrilhamento de Penrose"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Penrose_tiling"
@@ -250589,6 +250595,73 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Red_cabbage"
+    ]
+  },
+  {
+    "id": "problemas_do_premio_millennium",
+    "nome": "Problemas do Prêmio Millennium",
+    "descricao": "Conjunto de grandes problemas de matemática para os quais o Instituto Clay ofereceu, em 2000, um prêmio de um milhão de dólares por solução.",
+    "variantes": [
+      "Problemas do Milênio",
+      "Millennium Prize Problems"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Millennium_Prize_Problems"
+    ]
+  },
+  {
+    "id": "teorema_do_macaco_infinito",
+    "nome": "Teorema do macaco infinito",
+    "descricao": "Resultado de probabilidade segundo o qual um macaco digitando teclas ao acaso por tempo infinito acabaria, quase certamente, escrevendo qualquer texto.",
+    "variantes": [
+      "Teorema dos macacos infinitos"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Teorema_do_macaco_infinito",
+      "https://en.wikipedia.org/wiki/Infinite_monkey_theorem"
+    ]
+  },
+  {
+    "id": "artur_avila",
+    "nome": "Artur Avila",
+    "descricao": "Matemático brasileiro nascido no Rio de Janeiro em 1979, vencedor da Medalha Fields em 2014.",
+    "variantes": [
+      "Artur Avila Cordeiro de Melo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Artur_Avila"
+    ]
+  },
+  {
+    "id": "m_c_escher",
+    "nome": "M. C. Escher",
+    "descricao": "Artista gráfico holandês (1898–1972), famoso por gravuras com ladrilhamentos, metamorfoses e construções impossíveis.",
+    "variantes": [
+      "Maurits Cornelis Escher",
+      "Escher"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/M._C._Escher"
+    ]
+  },
+  {
+    "id": "crivo_de_eratostenes",
+    "nome": "Crivo de Eratóstenes",
+    "descricao": "Método antigo para encontrar todos os números primos até um limite, riscando os múltiplos de cada primo.",
+    "variantes": [
+      "Peneira de Eratóstenes"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Crivo_de_Erat%C3%B3stenes"
+    ]
+  },
+  {
+    "id": "principia_mathematica",
+    "nome": "Principia Mathematica",
+    "descricao": "Obra em três volumes de Bertrand Russell e Alfred North Whitehead, publicada entre 1910 e 1913, que tentou fundamentar a matemática na lógica.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Principia_Mathematica",
+      "https://en.wikipedia.org/wiki/Principia_Mathematica"
     ]
   }
 ]

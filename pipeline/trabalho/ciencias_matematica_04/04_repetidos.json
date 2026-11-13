@@ -1,0 +1,1004 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Para estimar pi, Arquimedes desenhou polígonos regulares dentro e fora de um círculo. Quantos lados tinham os maiores polígonos que ele usou?",
+        "resposta": "Noventa e seis"
+      },
+      "existentes": [
+        {
+          "id": "q02988",
+          "pergunta": "O que significa eureka, a palavra grega que Arquimedes teria gritado ao sair do banho?",
+          "resposta": "Encontrei"
+        },
+        {
+          "id": "q03219",
+          "pergunta": "Em 212 antes de Cristo, durante a tomada de Siracusa pelos romanos, como morreu o matemático Arquimedes?",
+          "resposta": "Morto por um soldado romano"
+        },
+        {
+          "id": "q16340",
+          "pergunta": "Arquimedes pediu que seu túmulo trouxesse o desenho de uma esfera dentro de que outro sólido, ligado à descoberta de que mais se orgulhava?",
+          "resposta": "Cilindro"
+        },
+        {
+          "id": "q16341",
+          "pergunta": "Arquimedes teria saído pelas ruas gritando eureka depois de achar, durante o banho, a solução de um problema sobre que objeto do rei?",
+          "resposta": "Uma coroa"
+        },
+        {
+          "id": "q19397",
+          "pergunta": "Segundo a lenda, Arquimedes descobriu se a coroa do rei Hierão era de ouro puro ou se o ourives tinha misturado ao ouro que outro metal?",
+          "resposta": "Prata"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O indiano Srinivasa Ramanujan deixou milhares de fórmulas, mas viveu pouco. Com quantos anos ele morreu?",
+        "resposta": "Trinta e dois"
+      },
+      "existentes": [
+        {
+          "id": "q01427",
+          "pergunta": "Que matemático indiano do início do século vinte é este?",
+          "resposta": "Srinivasa Ramanujan"
+        },
+        {
+          "id": "q03334",
+          "pergunta": "A convite do matemático Hardy, Ramanujan deixou a Índia em 1914 para trabalhar em qual universidade inglesa?",
+          "resposta": "Universidade de Cambridge"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Tirando o zero e o um, qual é o único número da sequência de Fibonacci que é um quadrado perfeito?",
+        "resposta": "Cento e quarenta e quatro"
+      },
+      "existentes": [
+        {
+          "id": "q07787",
+          "pergunta": "No Liber Abaci, a sequência de Fibonacci aparece num problema sobre a reprodução de que animal?",
+          "resposta": "Coelho"
+        },
+        {
+          "id": "q16351",
+          "pergunta": "Dividindo um termo da sequência de Fibonacci pelo anterior, o resultado chega cada vez mais perto de que número famoso?",
+          "resposta": "Razão áurea"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A razão áurea, também chamada de número de ouro, vale aproximadamente quanto?",
+        "resposta": "1,618"
+      },
+      "existentes": [
+        {
+          "id": "q03298",
+          "pergunta": "A razão áurea costuma ser representada pela letra grega fi, em homenagem a qual escultor da Grécia Antiga?",
+          "resposta": "Fídias"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O último teorema de Fermat diz que uma potência de inteiros positivos nunca é a soma de outras duas de mesmo grau. Isso vale a partir de que expoente?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q03315",
+          "pergunta": "Pierre de Fermat afirmou ter uma prova maravilhosa do seu último teorema, mas não a escreveu. Que motivo ele anotou?",
+          "resposta": "A margem do livro era pequena"
+        },
+        {
+          "id": "q03326",
+          "pergunta": "O último teorema de Fermat, enunciado em 1637, só foi demonstrado no fim do século vinte. Que matemático britânico o provou?",
+          "resposta": "Andrew Wiles"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Somando todos os números de cada linha do triângulo de Pascal, obtém-se sempre uma potência de que número?",
+        "resposta": "Dois"
+      },
+      "existentes": [
+        {
+          "id": "q03301",
+          "pergunta": "Na China, o triângulo de Pascal é conhecido pelo nome de qual matemático chinês do século treze?",
+          "resposta": "Yang Hui"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Uma busca exaustiva feita por computadores provou que um sudoku com solução única precisa de pelo menos quantas pistas?",
+        "resposta": "Dezessete"
+      },
+      "existentes": [
+        {
+          "id": "q14066",
+          "pergunta": "De que idioma vem o nome deste passatempo de lógica?",
+          "resposta": "Japonês"
+        },
+        {
+          "id": "q16370",
+          "pergunta": "O sudoku moderno teria sido criado por um arquiteto aposentado e publicado em 1979 numa revista de que país?",
+          "resposta": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em 1900, o alemão David Hilbert propôs uma lista de grandes problemas em aberto que guiou a matemática do século vinte. Quantos problemas havia nela?",
+        "resposta": "Vinte e três"
+      },
+      "existentes": [
+        {
+          "id": "q07763",
+          "pergunta": "Num congresso em Paris, o alemão David Hilbert apresentou uma lista de problemas que guiou a matemática do século vinte. Em que ano?",
+          "resposta": "1900"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Enquanto nós contamos de dez em dez, os maias usavam um sistema de numeração baseado em que número?",
+        "resposta": "Vinte"
+      },
+      "existentes": [
+        {
+          "id": "q03519",
+          "pergunta": "A numeração maia, que já usava o zero, tinha como base qual número?",
+          "resposta": "Vinte"
+        },
+        {
+          "id": "q07773",
+          "pergunta": "Que povo pré-colombiano da América Central escrevia o zero com um símbolo em forma de concha?",
+          "resposta": "Maias"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Por fazer matemática só nas horas vagas, sem nunca ter sido matemático de profissão, Pierre de Fermat ganhou que apelido?",
+        "resposta": "Príncipe dos amadores"
+      },
+      "existentes": [
+        {
+          "id": "q09682",
+          "pergunta": "Este matemático francês do século dezessete trabalhou como advogado no parlamento de que cidade?",
+          "resposta": "Toulouse"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O nome sudoku abrevia uma frase japonesa segundo a qual os algarismos devem ter que estado civil?",
+        "resposta": "Solteiros"
+      },
+      "existentes": [
+        {
+          "id": "q14066",
+          "pergunta": "De que idioma vem o nome deste passatempo de lógica?",
+          "resposta": "Japonês"
+        },
+        {
+          "id": "q16370",
+          "pergunta": "O sudoku moderno teria sido criado por um arquiteto aposentado e publicado em 1979 numa revista de que país?",
+          "resposta": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A Medalha Fields, um dos prêmios mais importantes da matemática, leva o nome de um matemático de que país?",
+        "resposta": "Canadá"
+      },
+      "existentes": [
+        {
+          "id": "q03327",
+          "pergunta": "Em 2014, que matemático carioca recebeu a Medalha Fields, um dos prêmios mais importantes da matemática?",
+          "resposta": "Artur Avila"
+        },
+        {
+          "id": "q07794",
+          "pergunta": "Que sábio da Grécia Antiga aparece de perfil na face da Medalha Fields?",
+          "resposta": "Arquimedes"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Para dar nome aos diferentes tamanhos de infinito, Georg Cantor usou a primeira letra de que alfabeto?",
+        "resposta": "Hebraico"
+      },
+      "existentes": [
+        {
+          "id": "q07182",
+          "pergunta": "Que teoria matemática este matemático alemão ajudou a criar?",
+          "resposta": "Teoria dos conjuntos"
+        },
+        {
+          "id": "q16331",
+          "pergunta": "Georg Cantor mostrou que alguns infinitos são maiores que outros. Qual destes conjuntos de números é o maior?",
+          "resposta": "Números reais"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Pela enorme influência de Os Elementos, Euclides é frequentemente chamado de pai de que ramo da matemática?",
+        "resposta": "Geometria"
+      },
+      "existentes": [
+        {
+          "id": "q07791",
+          "pergunta": "Segundo a tradição, Euclides disse a um rei do Egito que não existe caminho real para aprender geometria. Que rei era esse?",
+          "resposta": "Ptolomeu I"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Isaac Newton não chamava de cálculo o método que criou para estudar quantidades que variam. Que nome ele usava?",
+        "resposta": "Método das fluxões"
+      },
+      "existentes": [
+        {
+          "id": "q00863",
+          "pergunta": "Qual obra de 1687 deste cientista inglês estabeleceu a mecânica clássica?",
+          "resposta": "Principia Mathematica"
+        },
+        {
+          "id": "q02990",
+          "pergunta": "Em 1665, Isaac Newton deixou Cambridge e foi para a fazenda da família, onde teria visto a famosa maçã cair. Por que ele saiu da universidade?",
+          "resposta": "A peste fechou a universidade"
+        },
+        {
+          "id": "q02991",
+          "pergunta": "Além da física, Isaac Newton dirigiu por décadas que instituição inglesa, onde chegou a perseguir falsificadores?",
+          "resposta": "Casa da Moeda Real"
+        },
+        {
+          "id": "q15094",
+          "pergunta": "Que cientista inglês é este?",
+          "resposta": "Isaac Newton"
+        },
+        {
+          "id": "q19379",
+          "pergunta": "Uma maçã de cerca de cem gramas pesa mais ou menos uma unidade de força do Sistema Internacional. Que nome tem essa unidade?",
+          "resposta": "Newton"
+        },
+        {
+          "id": "q20910",
+          "pergunta": "Que astrônomo inglês, amigo de Isaac Newton, pagou do próprio bolso a publicação dos Principia, em 1687?",
+          "resposta": "Edmond Halley"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O problema de Monty Hall leva o nome do apresentador de que programa de auditório americano?",
+        "resposta": "Let's Make a Deal"
+      },
+      "existentes": [
+        {
+          "id": "q07797",
+          "pergunta": "No problema de Monty Hall, depois que o apresentador abre uma porta sem prêmio, o que o jogador deve fazer para dobrar suas chances de ganhar?",
+          "resposta": "Trocar de porta"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "O título Liber Abaci, do famoso livro de Fibonacci, costuma ser traduzido do latim como livro de quê?",
+        "resposta": "Do cálculo"
+      },
+      "existentes": [
+        {
+          "id": "q03333",
+          "pergunta": "Em que século Fibonacci publicou o Liber Abaci, livro que ajudou a difundir os algarismos indo-arábicos na Europa?",
+          "resposta": "Século treze"
+        },
+        {
+          "id": "q16343",
+          "pergunta": "Além dos algarismos de um a nove, que sinal o Liber Abaci, de Fibonacci, apresentou aos europeus em 1202?",
+          "resposta": "O zero"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Na língua quíchua, falada pelos incas, o que significa a palavra quipu?",
+        "resposta": "Nó"
+      },
+      "existentes": [
+        {
+          "id": "q03341",
+          "pergunta": "Que sistema de cordões com nós os incas usavam para registrar números e informações?",
+          "resposta": "Quipu"
+        },
+        {
+          "id": "q03492",
+          "pergunta": "Os incas registravam números em cordões coloridos chamados quipus. O que a palavra quipu significa em quíchua?",
+          "resposta": "Nó"
+        },
+        {
+          "id": "q21264",
+          "pergunta": "Os maias contavam de vinte em vinte. Nos quipus dos incas, os nós registravam os números em que base?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Que famoso matemático húngaro, autor de centenas de artigos, só aceitou a solução do problema de Monty Hall depois de ver uma simulação em computador?",
+        "resposta": "Paul Erdős"
+      },
+      "existentes": [
+        {
+          "id": "q07797",
+          "pergunta": "No problema de Monty Hall, depois que o apresentador abre uma porta sem prêmio, o que o jogador deve fazer para dobrar suas chances de ganhar?",
+          "resposta": "Trocar de porta"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Algumas cigarras da América do Norte passam treze ou dezessete anos debaixo da terra antes de sair. O que esses dois números têm em comum?",
+        "resposta": "São números primos"
+      },
+      "existentes": [
+        {
+          "id": "q03340",
+          "pergunta": "Qual é o único número primo que é par?",
+          "resposta": "Dois"
+        },
+        {
+          "id": "q16332",
+          "pergunta": "Alguns números parecem primos, mas escondem divisores. Qual destes é realmente um número primo?",
+          "resposta": "Noventa e sete"
+        },
+        {
+          "id": "q16333",
+          "pergunta": "Por volta de trezentos antes de Cristo, que matemático grego demonstrou que os números primos são infinitos?",
+          "resposta": "Euclides"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O livro A Divina Proporção, do frade Luca Pacioli, dedicado à razão áurea, foi ilustrado por que gênio do Renascimento?",
+        "resposta": "Leonardo da Vinci"
+      },
+      "existentes": [
+        {
+          "id": "q03298",
+          "pergunta": "A razão áurea costuma ser representada pela letra grega fi, em homenagem a qual escultor da Grécia Antiga?",
+          "resposta": "Fídias"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Nos anos noventa, Roger Penrose foi à justiça contra uma empresa que estampou seus famosos ladrilhos em que produto?",
+        "resposta": "Papel higiênico"
+      },
+      "existentes": [
+        {
+          "id": "q07774",
+          "pergunta": "Que físico e matemático britânico, Nobel de Física de 2020, criou um padrão de ladrilhos que cobre o plano sem nunca se repetir?",
+          "resposta": "Roger Penrose"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Num artigo famoso de 1967, Benoit Mandelbrot perguntou qual é o comprimento do litoral de que grande ilha europeia?",
+        "resposta": "Grã-Bretanha"
+      },
+      "existentes": [
+        {
+          "id": "q17510",
+          "pergunta": "Quem é este matemático?",
+          "resposta": "Benoit Mandelbrot"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Que hortaliça, parente da couve-flor, tem pontas em espiral que repetem a forma do todo e é um exemplo clássico de fractal na natureza?",
+        "resposta": "Brócolis romanesco"
+      },
+      "existentes": [
+        {
+          "id": "q03297",
+          "pergunta": "A palavra fractal, criada por Benoît Mandelbrot em 1975, vem de um termo latino com que significado?",
+          "resposta": "Quebrado"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "No início do século dezoito, Leibniz viu semelhanças entre o sistema binário e os hexagramas de que antigo livro chinês?",
+        "resposta": "I Ching"
+      },
+      "existentes": [
+        {
+          "id": "q06787",
+          "pergunta": "O filósofo alemão Leibniz viu no sistema binário, de zeros e uns, um paralelo com os hexagramas de qual antigo livro chinês?",
+          "resposta": "I Ching"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Que filme de 2016 contou a história de Katherine Johnson e de outras matemáticas negras que trabalharam na NASA?",
+        "resposta": "Estrelas Além do Tempo"
+      },
+      "existentes": [
+        {
+          "id": "q06796",
+          "pergunta": "Que matemática afro-americana da NASA, retratada no filme Estrelas Além do Tempo, verificou os cálculos da trajetória do voo orbital de John Glenn?",
+          "resposta": "Katherine Johnson"
+        },
+        {
+          "id": "q07767",
+          "pergunta": "A matemática Katherine Johnson, da NASA, conferiu os cálculos do voo de John Glenn, o primeiro americano a orbitar a Terra. Em que década?",
+          "resposta": "Anos sessenta"
+        },
+        {
+          "id": "q16764",
+          "pergunta": "Um filme de dois mil e dezessete, baseado em livro, conta a história desta matemática e de duas colegas. Que filme é esse?",
+          "resposta": "Estrelas Além do Tempo"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Em 1742, numa carta a Leonhard Euler, que matemático propôs que todo número par maior que dois é a soma de dois números primos?",
+        "resposta": "Christian Goldbach"
+      },
+      "existentes": [
+        {
+          "id": "q00867",
+          "pergunta": "Que matemático suíço é este?",
+          "resposta": "Leonhard Euler"
+        },
+        {
+          "id": "q07754",
+          "pergunta": "O suíço Leonhard Euler passou boa parte da vida trabalhando para a Academia de Ciências da Rússia. Em que cidade ele morreu, em 1783?",
+          "resposta": "São Petersburgo"
+        },
+        {
+          "id": "q16367",
+          "pergunta": "Nos últimos anos de vida, Leonhard Euler continuou produzindo muito, mas passou a ditar seus trabalhos a assistentes. Por quê?",
+          "resposta": "Tinha ficado cego"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Depois de deixar a ilha de Samos, Pitágoras fundou sua famosa escola numa colônia grega do sul da Itália. Em que cidade?",
+        "resposta": "Crotona"
+      },
+      "existentes": [
+        {
+          "id": "q03237",
+          "pergunta": "Em que cidade da Magna Grécia, no sul da atual Itália, Pitágoras fundou sua comunidade de seguidores?",
+          "resposta": "Crotona"
+        },
+        {
+          "id": "q03332",
+          "pergunta": "Entre os gregos Pitágoras, Euclides e Arquimedes, qual nasceu primeiro?",
+          "resposta": "Pitágoras"
+        },
+        {
+          "id": "q03745",
+          "pergunta": "Segundo uma lenda, Pitágoras foi alcançado pelos inimigos porque se recusou a atravessar uma plantação de quê?",
+          "resposta": "Favas"
+        },
+        {
+          "id": "q15206",
+          "pergunta": "Que filósofo e matemático grego da Antiguidade é retratado neste busto?",
+          "resposta": "Pitágoras"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Lagrange, Laplace e Cauchy estão entre os setenta e dois cientistas que têm o nome gravado em que famoso monumento francês?",
+        "resposta": "Torre Eiffel"
+      },
+      "existentes": [
+        {
+          "id": "q16704",
+          "pergunta": "Que matemático ítalo-francês do século dezoito é este?",
+          "resposta": "Joseph-Louis Lagrange"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Por volta de 1637, Pierre de Fermat anotou seu último teorema na margem de um livro escrito por um matemático grego antigo. Que livro?",
+        "resposta": "Aritmética, de Diofanto"
+      },
+      "existentes": [
+        {
+          "id": "q03315",
+          "pergunta": "Pierre de Fermat afirmou ter uma prova maravilhosa do seu último teorema, mas não a escreveu. Que motivo ele anotou?",
+          "resposta": "A margem do livro era pequena"
+        },
+        {
+          "id": "q03326",
+          "pergunta": "O último teorema de Fermat, enunciado em 1637, só foi demonstrado no fim do século vinte. Que matemático britânico o provou?",
+          "resposta": "Andrew Wiles"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Segundo uma lenda chinesa, o mais antigo quadrado mágico, o Lo Shu, apareceu desenhado no casco de que animal?",
+        "resposta": "Tartaruga"
+      },
+      "existentes": [
+        {
+          "id": "q14067",
+          "pergunta": "Que nome se dá a este tipo de arranjo de números?",
+          "resposta": "Quadrado mágico"
+        },
+        {
+          "id": "q16335",
+          "pergunta": "No quadrado mágico de três por três, montado com os números de um a nove, que número ocupa sempre a casa do centro?",
+          "resposta": "Cinco"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "O persa Al-Khwarizmi, cujo nome deu origem à palavra algoritmo, viveu em que século?",
+        "resposta": "Século nove"
+      },
+      "existentes": [
+        {
+          "id": "q00097",
+          "pergunta": "O nome do matemático persa al-Khwarizmi, que trabalhou em Bagdá no século nove, deu origem a que palavra essencial da computação?",
+          "resposta": "Algoritmo"
+        },
+        {
+          "id": "q07753",
+          "pergunta": "O persa Al-Khwarizmi trabalhou na Casa da Sabedoria, um grande centro de estudos do mundo islâmico. Em que cidade ela ficava?",
+          "resposta": "Bagdá"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "A letra grega pi passou a representar a razão entre a circunferência e o diâmetro de um círculo em que século?",
+        "resposta": "Século dezoito"
+      },
+      "existentes": [
+        {
+          "id": "q03296",
+          "pergunta": "A letra grega pi foi escolhida para a razão entre a circunferência e o diâmetro por ser a inicial de que palavra grega?",
+          "resposta": "Perímetro (ou periferia)"
+        },
+        {
+          "id": "q07790",
+          "pergunta": "Na Bíblia, a descrição de um grande tanque redondo do templo de Salomão dá a entender que pi vale quanto?",
+          "resposta": "Três"
+        },
+        {
+          "id": "q16346",
+          "pergunta": "Desde Arquimedes, que fração simples é usada como uma boa aproximação de pi?",
+          "resposta": "Vinte e dois sétimos"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Num congresso realizado em Oslo, foram entregues as primeiras Medalhas Fields da história. Em que ano?",
+        "resposta": "1936"
+      },
+      "existentes": [
+        {
+          "id": "q03327",
+          "pergunta": "Em 2014, que matemático carioca recebeu a Medalha Fields, um dos prêmios mais importantes da matemática?",
+          "resposta": "Artur Avila"
+        },
+        {
+          "id": "q07794",
+          "pergunta": "Que sábio da Grécia Antiga aparece de perfil na face da Medalha Fields?",
+          "resposta": "Arquimedes"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Ada Lovelace escreveu o que muitos consideram o primeiro programa de computador, para uma máquina projetada por que inventor inglês?",
+        "resposta": "Charles Babbage"
+      },
+      "existentes": [
+        {
+          "id": "q15936",
+          "pergunta": "Na máquina analítica de Charles Babbage, a parte que fazia as contas, equivalente ao processador, tinha que nome?",
+          "resposta": "Moinho"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Que matemático do século dezoito passou a usar a letra e, hoje universal, para a constante que é a base dos logaritmos naturais?",
+        "resposta": "Leonhard Euler"
+      },
+      "existentes": [
+        {
+          "id": "q07783",
+          "pergunta": "Em 1683, o suíço Jacob Bernoulli chegou à constante que hoje chamamos de número e ao estudar que assunto financeiro?",
+          "resposta": "Juros compostos"
+        },
+        {
+          "id": "q16361",
+          "pergunta": "O número e, base dos logaritmos naturais, também é chamado de constante de que matemático escocês?",
+          "resposta": "John Napier"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Em 1882, provou-se que pi é um número transcendente. Com isso, ficou provado ser impossível resolver, só com régua e compasso, que antigo problema grego?",
+        "resposta": "Quadratura do círculo"
+      },
+      "existentes": [
+        {
+          "id": "q03296",
+          "pergunta": "A letra grega pi foi escolhida para a razão entre a circunferência e o diâmetro por ser a inicial de que palavra grega?",
+          "resposta": "Perímetro (ou periferia)"
+        },
+        {
+          "id": "q07790",
+          "pergunta": "Na Bíblia, a descrição de um grande tanque redondo do templo de Salomão dá a entender que pi vale quanto?",
+          "resposta": "Três"
+        },
+        {
+          "id": "q16346",
+          "pergunta": "Desde Arquimedes, que fração simples é usada como uma boa aproximação de pi?",
+          "resposta": "Vinte e dois sétimos"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Nos últimos anos de vida, o lógico Kurt Gödel passou a recusar comida e acabou morrendo de fome. Por quê?",
+        "resposta": "Medo de ser envenenado"
+      },
+      "existentes": [
+        {
+          "id": "q03773",
+          "pergunta": "Que lógico e matemático austríaco do século vinte é este?",
+          "resposta": "Kurt Gödel"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Sophie Germain conseguia as apostilas da Escola Politécnica de Paris usando o nome de um ex-aluno. Por que ela não podia estudar lá?",
+        "resposta": "A escola não aceitava mulheres"
+      },
+      "existentes": [
+        {
+          "id": "q03312",
+          "pergunta": "A francesa Sophie Germain usou o pseudônimo masculino Monsieur Le Blanc para se corresponder com qual matemático alemão?",
+          "resposta": "Carl Friedrich Gauss"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Na fórmula de Bhaskara, que letra grega costuma representar o discriminante, b ao quadrado menos quatro a c?",
+        "resposta": "Delta"
+      },
+      "existentes": [
+        {
+          "id": "q03302",
+          "pergunta": "No Brasil, a fórmula que resolve as equações do segundo grau leva o nome de qual matemático indiano do século doze?",
+          "resposta": "Bhaskara"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "O tangram, quebra-cabeça chinês de sete peças, tem cinco triângulos. Que formas têm as outras duas peças?",
+        "resposta": "Um quadrado e um paralelogramo"
+      },
+      "existentes": [
+        {
+          "id": "q06443",
+          "pergunta": "O tangram, quebra-cabeça de sete peças geométricas que formam figuras de bichos e pessoas, surgiu em qual país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q08383",
+          "pergunta": "O tangram tem sete peças: cinco triângulos, um quadrado e qual outra figura geométrica?",
+          "resposta": "Paralelogramo"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "O algoritmo de Euclides, descrito em Os Elementos e um dos mais antigos ainda em uso, serve para calcular o quê?",
+        "resposta": "Máximo divisor comum"
+      },
+      "existentes": [
+        {
+          "id": "q07791",
+          "pergunta": "Segundo a tradição, Euclides disse a um rei do Egito que não existe caminho real para aprender geometria. Que rei era esse?",
+          "resposta": "Ptolomeu I"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Polígonos de Arquimedes para pi é fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Idade da morte não consta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Quadrado perfeito em Fibonacci é fato distinto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Valor da razão áurea difere do escultor Fídias."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Expoente do teorema é fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Soma das linhas difere do nome chinês."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Mínimo de pistas é fato distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Número de problemas difere do ano."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "id_existente": "q03519",
+      "motivo": "Mesma base vinte da numeração maia."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Apelido difere da cidade de trabalho."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Significado do nome difere do idioma de origem."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "País do matemático homenageado é fato distinto."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Alfabeto hebraico é fato distinto."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Pai da geometria difere do rei do Egito."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Nome do método das fluxões é fato distinto."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Programa de origem do nome difere da estratégia."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Tradução do título é fato distinto."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "id_existente": "q03492",
+      "motivo": "Mesmo significado de quipu em quíchua."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Matemático que duvidou da solução é fato distinto."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Propriedade dos números das cigarras é fato distinto."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Ilustrador de Pacioli difere de Fídias."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Processo judicial é fato distinto."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Litoral da Grã-Bretanha é fato distinto."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Brócolis romanesco difere da etimologia."
+    },
+    {
+      "caso": 25,
+      "decisao": "repete",
+      "id_existente": "q06787",
+      "motivo": "Mesmo fato: I Ching e o binário de Leibniz."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "id_existente": "q16764",
+      "motivo": "Mesmo fato: o filme sobre as matemáticas da NASA."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Goldbach não consta."
+    },
+    {
+      "caso": 28,
+      "decisao": "repete",
+      "id_existente": "q03237",
+      "motivo": "Mesma cidade, Crotona."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Torre Eiffel é fato distinto."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Livro anotado difere do motivo e do provador."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Lenda da tartaruga é fato distinto."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Século não é perguntado, embora esteja na pergunta existente; a pergunta existente pede a palavra."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Século em que pi virou símbolo é fato distinto."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Ano da primeira medalha é fato distinto."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Babbage como inventor difere do nome do moinho."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Quem usou a letra e é fato distinto."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Quadratura do círculo é fato distinto."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Motivo da morte de Gödel é fato distinto."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Motivo da exclusão difere do pseudônimo."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Letra delta é fato distinto."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Pede quadrado e paralelogramo; q08383 já pergunta o paralelogramo, mas a resposta nova inclui o quadrado dado em q08383."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Uso do algoritmo de Euclides é fato distinto."
+    }
+  ]
+}
