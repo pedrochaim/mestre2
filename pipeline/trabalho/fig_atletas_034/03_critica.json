@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, nível 1; o enunciado só dá nacionalidade e função, sem entregar o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Zagueiro italiano campeão do mundo' mais 'a partir de 2006' permite responder sem a figura. Tirei essas pistas. O único clube espanhol de Cannavaro foi o Real Madrid (trecho).",
+      "reescrita": {
+        "pergunta": "Este zagueiro italiano defendeu qual clube espanhol?",
+        "resposta": "Real Madrid",
+        "distratores": [
+          "Barcelona",
+          "Atlético de Madrid",
+          "Valencia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pivô brasileira confirmada nos trechos; pergunta de reconhecimento sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores não são italianos, então 'italiano' no enunciado os elimina sem olhar a figura. Tirei a nacionalidade para os distratores continuarem críveis.",
+      "reescrita": {
+        "pergunta": "Que jovem piloto de Fórmula 1 é este?",
+        "resposta": "Kimi Antonelli",
+        "distratores": [
+          "Oliver Bearman",
+          "Isack Hadjar",
+          "Franco Colapinto"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (Bola de Ouro de 1950). O distrator 1946 não é crível porque não houve Copa naquele ano; troquei por 1962.",
+      "reescrita": {
+        "pergunta": "Em qual Copa do Mundo este meia brasileiro foi eleito o melhor jogador do torneio?",
+        "resposta": "1950",
+        "distratores": [
+          "1954",
+          "1958",
+          "1962"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento nível 1; treinador brasileiro confirmado, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lutador russo, campeão do UFC, confirmado nos trechos. Os distratores são lutadores russos do Daguestão ou do UFC, críveis; o que separa as opções é a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Surfista americano confirmado nos trechos; o enunciado não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Treinador brasileiro confirmado; os distratores são treinadores brasileiros críveis e nenhum deles é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Atacante senegalês campeão da Liga dos Campeões por um clube inglês' identifica o jogador sem a figura. O título de 2019 não aparece nos trechos, só a final perdida de 2018. Qualquer reescrita ou dá pista demais ou tem duas respostas (Southampton e Liverpool).",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lutador americano confirmado nos trechos; pergunta de reconhecimento sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}

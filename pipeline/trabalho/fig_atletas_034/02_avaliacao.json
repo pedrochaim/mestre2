@@ -1,0 +1,234 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue o nome; figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este treinador português?",
+      "resposta": "José Mourinho",
+      "destino": 0,
+      "ancora": {
+        "nome": "José Mourinho",
+        "descricao": "Treinador português de futebol, conhecido como The Special One.",
+        "variantes": [
+          "Mourinho",
+          "José Mário dos Santos Mourinho Félix"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; pergunta de segundo passo sobre a carreira.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este zagueiro italiano, campeão do mundo, defendeu qual clube espanhol a partir de 2006?",
+      "resposta": "Real Madrid",
+      "distratores": [
+        "Barcelona",
+        "Atlético de Madrid",
+        "Valencia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fabio Cannavaro",
+        "descricao": "Zagueiro italiano campeão da Copa do Mundo de 2006, depois treinador.",
+        "variantes": [
+          "Cannavaro"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Jogadora em foco, camisa só com 'East' (All-Star), sem nome; reconhecimento para aficionado, com pista da nacionalidade.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta pivô brasileira de basquete?",
+      "resposta": "Érika de Souza",
+      "destino": 2,
+      "ancora": {
+        "nome": "Érika de Souza",
+        "descricao": "Pivô brasileira de basquete, veterana da WNBA e da seleção brasileira.",
+        "variantes": [
+          "Érika",
+          "Erika de Souza"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O número de peito traz o sobrenome 'FELIX' bem legível, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto visível, boné da Mercedes só com logo, sem nome; distratores jovens pilotos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jovem piloto italiano de Fórmula 1 é este?",
+      "resposta": "Kimi Antonelli",
+      "distratores": [
+        "Oliver Bearman",
+        "Isack Hadjar",
+        "Franco Colapinto"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Kimi Antonelli",
+        "descricao": "Piloto italiano de Fórmula 1, nascido em 2006, da Mercedes.",
+        "variantes": [
+          "Andrea Kimi Antonelli"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida; a camisa traz 'Bangu', mas não o nome, e a pergunta não pede o clube.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em qual Copa do Mundo este meia brasileiro foi eleito o melhor jogador do torneio?",
+      "resposta": "1950",
+      "distratores": [
+        "1946",
+        "1954",
+        "1958"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Zizinho",
+        "descricao": "Meia brasileiro (Thomaz Soares da Silva), ídolo de Pelé e craque da Copa de 1950.",
+        "variantes": [
+          "Thomaz Soares da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro; agasalho do Monaco não traz o nome da pessoa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este treinador brasileiro?",
+      "resposta": "Filipe Luís",
+      "destino": 0,
+      "ancora": {
+        "nome": "Filipe Luís",
+        "descricao": "Ex-lateral-esquerdo brasileiro e treinador de futebol.",
+        "variantes": [
+          "Filipe Luís Kasmirski"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Rosto e cinturão do UFC visíveis, sem nome; distratores lutadores russos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lutador russo de MMA, campeão do UFC, é este?",
+      "resposta": "Islam Makhachev",
+      "distratores": [
+        "Khabib Nurmagomedov",
+        "Umar Nurmagomedov",
+        "Magomed Ankalaev"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Islam Makhachev",
+        "descricao": "Lutador russo de MMA do Daguestão, campeão do UFC.",
+        "variantes": [
+          "Makhachev"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Surfista com prancha, sem nome visível (só patrocinadores); reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este surfista americano?",
+      "resposta": "John John Florence",
+      "destino": 7,
+      "ancora": {
+        "nome": "John John Florence",
+        "descricao": "Surfista havaiano bicampeão mundial em 2016 e 2017.",
+        "variantes": [
+          "John Florence"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro; camisa do Fluminense sem nome; pergunta de reconhecimento entre treinadores de cabelo grisalho.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que treinador brasileiro de futebol é este?",
+      "resposta": "Dorival Júnior",
+      "distratores": [
+        "Luiz Felipe Scolari",
+        "Mano Menezes",
+        "Tite"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dorival Júnior",
+        "descricao": "Treinador brasileiro de futebol, ex-técnico da seleção brasileira.",
+        "variantes": [
+          "Dorival Silvestre Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido com camisa do Senegal sem nome; pergunta de segundo passo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Por qual clube inglês este atacante senegalês foi campeão da Liga dos Campeões?",
+      "resposta": "Liverpool",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sadio Mané",
+        "descricao": "Atacante senegalês, ex-Liverpool e Bayern de Munique.",
+        "variantes": [
+          "Mané"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; figura pública muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este lutador americano?",
+      "resposta": "Brock Lesnar",
+      "destino": 6,
+      "ancora": {
+        "nome": "Brock Lesnar",
+        "descricao": "Lutador americano de wrestling profissional e MMA, ex-campeão do UFC.",
+        "variantes": [
+          "Lesnar"
+        ]
+      }
+    }
+  ]
+}
