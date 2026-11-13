@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Em inglês, 'kite' é o brinquedo e também o milhafre (gênero Milvus, ave de rapina), fato amplamente documentado. O enunciado não vaza a resposta e exige reconhecer a figura. Os distratores são aves de rapina sem esse nome em inglês.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista no enunciado. 'Hóquei sobre patins' é sinônimo de 'hóquei em patins', que está nos trechos. Os distratores são modalidades parecidas e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dois mostradores' descreve o aparelho e funciona como pista que o enunciado não precisa dar. O distrator 'Despertador duplo' não é um objeto crível. Reescrita com enunciado neutro e distratores mais críveis.",
+      "reescrita": {
+        "pergunta": "Que aparelho, usado em competições, é este?",
+        "resposta": "Relógio de xadrez",
+        "distratores": [
+          "Cronômetro de atletismo",
+          "Relógio de ponto",
+          "Placar eletrônico"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, reconhecimento direto. 'Corrida sem motor' não entrega o nome sem a figura, porque também serviria para bicicleta, entre outros. O trecho confirma o carrinho de rolimã como veículo sem motor de corridas.",
+      "reescrita": null
+    }
+  ]
+}

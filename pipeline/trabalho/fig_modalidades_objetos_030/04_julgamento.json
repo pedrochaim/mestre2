@@ -1,0 +1,260 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pipa",
+        "descricao": "Brinquedo e artefato voador mais pesado que o ar, preso por linhas e sustentado pelo vento.",
+        "variantes": [
+          "Papagaio",
+          "Pandorga",
+          "Kite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "praia_da_pipa",
+          "nome": "Praia da Pipa",
+          "descricao": "Famosa praia de Tibau do Sul, no litoral sul do Rio Grande do Norte, a cerca de 85 km de Natal.",
+          "variantes": [
+            "Praia de Pipa",
+            "Pipa"
+          ]
+        },
+        {
+          "id": "pandora",
+          "nome": "Pandora",
+          "descricao": "Primeira mulher da mitologia grega, segundo Hesíodo, que libertou os males no mundo.",
+          "variantes": []
+        },
+        {
+          "id": "alfabeto_fonetico_internacional",
+          "nome": "Alfabeto Fonético Internacional",
+          "descricao": "Sistema de notação fonética baseado no alfabeto latino, usado para representar os sons da fala.",
+          "variantes": [
+            "AFI",
+            "IPA",
+            "International Phonetic Alphabet"
+          ]
+        },
+        {
+          "id": "pipoca",
+          "nome": "Pipoca",
+          "descricao": "Grãos de milho que estouram quando aquecidos, petisco comum no cinema e nas festas juninas",
+          "variantes": [
+            "Pororoca",
+            "Pururuca de milho",
+            "Popcorn"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Hóquei sobre patins",
+        "descricao": "Esporte coletivo disputado com patins de quatro rodas, tacos e uma bola dura.",
+        "variantes": [
+          "Hóquei em patins",
+          "Rink hockey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hoquei_sobre_grama",
+          "nome": "Hóquei sobre grama",
+          "descricao": "Esporte olímpico jogado com tacos curvos e uma bola pequena, na grama.",
+          "variantes": []
+        },
+        {
+          "id": "hoquei_no_gelo",
+          "nome": "Hóquei no gelo",
+          "descricao": "Esporte coletivo disputado sobre o gelo, com patins e tacos, em que se faz gols com um disco de borracha.",
+          "variantes": [
+            "Hóquei sobre o gelo"
+          ]
+        },
+        {
+          "id": "hoquei_subaquatico",
+          "nome": "Hóquei subaquático",
+          "descricao": "Esporte de contato limitado jogado no fundo de uma piscina, com tacos curtos e um disco, sem equipamento de respiração.",
+          "variantes": [
+            "Underwater hockey",
+            "Octopush"
+          ]
+        },
+        {
+          "id": "bandy",
+          "nome": "Bandy",
+          "descricao": "Esporte de inverno em que duas equipes patinam num campo de gelo grande e usam tacos para levar uma bola ao gol adversário.",
+          "variantes": [
+            "Hóquei bandy"
+          ]
+        },
+        {
+          "id": "maria_sem_vergonha",
+          "nome": "Maria-sem-vergonha",
+          "descricao": "Impatiens walleriana, planta ornamental de flores coloridas nativa do leste da África.",
+          "variantes": [
+            "Impatiens walleriana",
+            "beijinho",
+            "impatiens"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Relógio de xadrez",
+        "descricao": "Aparelho de dois relógios que alternam para marcar o tempo de cada jogador numa partida.",
+        "variantes": [
+          "Relógio de jogo",
+          "Chess clock"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relogio_de_xadrez",
+          "nome": "Relógio de xadrez",
+          "descricao": "Aparelho com dois relógios e botões alternados que controla o tempo de cada jogador em partidas.",
+          "variantes": [
+            "Relógio de jogo",
+            "Chess clock"
+          ]
+        },
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "relogio_de_bolso",
+          "nome": "Relógio de bolso",
+          "descricao": "Relógio portátil com corrente, carregado no bolso em vez de usado no pulso.",
+          "variantes": [
+            "Relógio de pulso",
+            "Relógio de algibeira"
+          ]
+        },
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "relogio_cuco",
+          "nome": "Relógio cuco",
+          "descricao": "Relógio de parede com um pássaro mecânico que sai de uma portinhola para marcar as horas.",
+          "variantes": [
+            "Cuckoo clock",
+            "Relógio de cuco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Carrinho de rolimã",
+        "descricao": "Carrinho artesanal sem motor, feito para corridas ladeira abaixo.",
+        "variantes": [
+          "Carrinho de rolimãs",
+          "Carrinho de rolamentos",
+          "Soapbox"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carrinho_de_rolima",
+          "nome": "Carrinho de rolimã",
+          "descricao": "Carrinho artesanal de madeira com rolamentos, usado em corridas ladeira abaixo.",
+          "variantes": [
+            "Carrinho de rolamentos",
+            "Carrinho de lomba",
+            "Carrinho de rolemã"
+          ]
+        },
+        {
+          "id": "carrinho_de_golfe",
+          "nome": "Carrinho de golfe",
+          "descricao": "Pequeno veículo motorizado para dois jogadores e seus tacos em campos de golfe.",
+          "variantes": [
+            "golf cart",
+            "buggy de golfe"
+          ]
+        },
+        {
+          "id": "carrinho_de_supermercado",
+          "nome": "Carrinho de supermercado",
+          "descricao": "Cesto de metal ou plástico sobre rodas usado pelos clientes para carregar compras no mercado.",
+          "variantes": [
+            "Carrinho de compras",
+            "Shopping cart"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        },
+        {
+          "id": "caipirinha",
+          "nome": "Caipirinha",
+          "descricao": "Coquetel brasileiro feito com cachaça, açúcar, limão e gelo.",
+          "variantes": [
+            "Caipirinha de limão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "pipa",
+      "motivo": "Mesmo brinquedo (pipa/papagaio/pandorga), descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Hóquei sobre patins (patins de quatro rodas) é esporte distinto das candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "relogio_de_xadrez",
+      "motivo": "Mesmo aparelho, mesmo nome e variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "carrinho_de_rolima",
+      "motivo": "Mesmo carrinho artesanal de rolimã para corridas em ladeiras."
+    }
+  ]
+}

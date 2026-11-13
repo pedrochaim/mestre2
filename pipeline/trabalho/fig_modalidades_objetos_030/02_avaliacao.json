@@ -1,0 +1,138 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pipa acrobática de duas linhas, clara; só mãos em primeiro plano.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em inglês, o nome deste brinquedo é o mesmo de qual ave de rapina?",
+      "resposta": "Milhafre",
+      "distratores": [
+        "Falcão-peregrino",
+        "Gavião-real",
+        "Águia-pescadora"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pipa",
+        "descricao": "Brinquedo e artefato voador mais pesado que o ar, preso por linhas e sustentado pelo vento.",
+        "variantes": [
+          "Papagaio",
+          "Pandorga",
+          "Kite"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns, logotipo da Ferrari e texto (Bosch) na imagem; entrega e não é claramente um tifo."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e luta pouco reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Praticante comum em primeiro plano, não é figura pública."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Camisa do PSG com texto entrega o clube e a imagem foca numa pessoa possivelmente comum; resposta pouco clara."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Atletas em jogo internacional com patins quad e tacos, modalidade reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade esportiva é esta?",
+      "resposta": "Hóquei sobre patins",
+      "distratores": [
+        "Hóquei em linha",
+        "Hóquei no gelo",
+        "Bandy"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Hóquei sobre patins",
+        "descricao": "Esporte coletivo disputado com patins de quatro rodas, tacos e uma bola dura.",
+        "variantes": [
+          "Hóquei em patins",
+          "Rink hockey"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns; a foto parada não mostra claramente uma ola."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Aparelho antigo de dois relógios, legível e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho de competição, com dois mostradores, é este?",
+      "resposta": "Relógio de xadrez",
+      "distratores": [
+        "Cronômetro de atletismo",
+        "Relógio de ponto",
+        "Despertador duplo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Relógio de xadrez",
+        "descricao": "Aparelho de dois relógios que alternam para marcar o tempo de cada jogador numa partida.",
+        "variantes": [
+          "Relógio de jogo",
+          "Chess clock"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto antiga de pessoas não identificadas, com texto e bandeira; técnica não reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Carrinho de corrida artesanal sem motor, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que veículo de corrida sem motor é este?",
+      "resposta": "Carrinho de rolimã",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Carrinho de rolimã",
+        "descricao": "Carrinho artesanal sem motor, feito para corridas ladeira abaixo.",
+        "variantes": [
+          "Carrinho de rolimãs",
+          "Carrinho de rolamentos",
+          "Soapbox"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Selo com texto 'Почта СССР 1980' que entrega país e ano."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Crianças comuns em primeiro plano."
+    }
+  ]
+}
