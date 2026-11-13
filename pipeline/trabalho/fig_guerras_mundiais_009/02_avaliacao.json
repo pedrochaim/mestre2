@@ -1,0 +1,163 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira clara, sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século esta bandeira foi adotada como pavilhão da Marinha Imperial do Japão?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século dezoito",
+        "Século dezessete",
+        "Século vinte"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira do Sol Nascente",
+        "descricao": "Bandeira japonesa com disco vermelho e dezesseis raios, usada como pavilhão do Exército e da Marinha Imperial do Japão.",
+        "variantes": [
+          "Bandeira do Sol Nascente Japonesa",
+          "Kyokujitsu-ki",
+          "Rising Sun Flag"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cruzador com camuflagem e a Torre de Londres ao fundo; reconhecível e sem texto relevante.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este cruzador, hoje navio-museu em Londres, foi lançado ao mar em que década?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1910",
+        "Década de 1920",
+        "Década de 1940"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "HMS Belfast",
+        "descricao": "Cruzador leve britânico da classe Town, lançado em 1938 e hoje navio-museu no rio Tâmisa, em Londres.",
+        "variantes": [
+          "HMS Belfast (C35)"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Rochedo genérico com gaivota; não é reconhecível como Pointe du Hoc, resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Placa visível 'Churchill Museum and Cabinet War Rooms' entrega a resposta, além da inscrição 'Clive' na estátua."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Muito texto visível (LGOC, destinos, anúncios) e pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Inscrição 'INDIA' no monumento entrega a resposta e há multidão de pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto em preto e branco de porta-aviões que se confunde com Yorktown e Hornet; não há resposta única pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto antiga de frente, com hélice borrada; não distingue Akagi de Kaga ou Hiryu, resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Granada Mk 2 nítida, sem texto, formato inconfundível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano esta granada de mão americana entrou em serviço?",
+      "resposta": "1918",
+      "distratores": [
+        "1914",
+        "1916",
+        "1920"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Granada Mk 2 (abacaxi)",
+        "descricao": "Granada de mão americana de fragmentação, estriada, introduzida em 1918 e conhecida como abacaxi.",
+        "variantes": [
+          "Mk II",
+          "Granada abacaxi",
+          "Mk 2 grenade",
+          "Pineapple grenade"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cruzador de três chaminés em São Petersburgo, sem texto; reconhecível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este cruzador russo, hoje museu em São Petersburgo, sobreviveu a que batalha naval de 1905?",
+      "resposta": "Tsushima",
+      "distratores": [
+        "Jutlândia",
+        "Port Arthur",
+        "Dogger Bank"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cruzador Aurora",
+        "descricao": "Cruzador protegido russo da classe Pallada, famoso pela Revolução de Outubro e hoje navio-museu em São Petersburgo.",
+        "variantes": [
+          "Aurora",
+          "Avrora",
+          "Cruzador Avrora"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Submetralhadora MP 18 nítida, fundo branco, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Esta submetralhadora alemã de 1918 foi pensada para que tipo de combate?",
+      "resposta": "Guerra de trincheiras",
+      "distratores": [
+        "Combate aéreo",
+        "Guerra naval",
+        "Cerco de cidades"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Submetralhadora MP 18",
+        "descricao": "Submetralhadora alemã da Bergmann, introduzida em 1918, a primeira usada em combate.",
+        "variantes": [
+          "MP 18",
+          "Bergmann MP 18",
+          "Maschinenpistole 18"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Inscrição 'Here rests in honored glory an American soldier' visível entrega a resposta."
+    }
+  ]
+}

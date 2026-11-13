@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este cruzador protegido russo sobreviveu a que batalha naval de 1905?",
+        "resposta": "Tsushima"
+      },
+      "existentes": [
+        {
+          "id": "q20649",
+          "pergunta": "Que cruzador russo, hoje navio-museu em São Petersburgo, é este?",
+          "resposta": "Aurora"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a identidade do cruzador (Aurora); a nova pergunta a batalha de 1905 (Tsushima). São fatos diferentes."
+    }
+  ]
+}

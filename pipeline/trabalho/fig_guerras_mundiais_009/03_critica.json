@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado já diz que é bandeira da Marinha Imperial japonesa, então a figura é enfeite. Os distratores dezessete e dezoito são inviáveis para o Japão imperial. Os trechos também dão datas diferentes (1870 como bandeira de guerra, 1889 como naval), o que torna a pergunta ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Hoje navio-museu em Londres' identifica o navio sem olhar a figura, e a década de lançamento é um fato pouco ligado à imagem. Reescrito para o nome da cidade, que é um fato do trecho (Belfast, capital da Irlanda do Norte), sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Este cruzador britânico da Segunda Guerra Mundial, hoje museu, recebeu o nome da capital de que região?",
+        "resposta": "Irlanda do Norte",
+        "distratores": [
+          "Escócia",
+          "País de Gales",
+          "República da Irlanda"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem 'introduzida em 1918' e que a granada foi padronizada em 1920. Por isso 'entrou em serviço' e o distrator 1920 deixam margem para outra resposta defensável. Reescrito com 'introduziu' e distratores sem esse risco.",
+      "reescrita": {
+        "pergunta": "Em que ano as Forças Armadas americanas introduziram esta granada de mão?",
+        "resposta": "1918",
+        "distratores": [
+          "1914",
+          "1916",
+          "1922"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Hoje museu em São Petersburgo' identifica o cruzador sem olhar a figura. Reescrito sem essa pista. O fato (sobreviveu a Tsushima em 1905) está no trecho.",
+      "reescrita": {
+        "pergunta": "Este cruzador protegido russo sobreviveu a que batalha naval de 1905?",
+        "resposta": "Tsushima",
+        "distratores": [
+          "Jutlândia",
+          "Port Arthur",
+          "Dogger Bank"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta dá para responder sem a figura ('submetralhadora de 1918' implica guerra de trincheiras), e os distratores são absurdos. Reescrito como reconhecimento da arma, com distratores do mesmo tipo.",
+      "reescrita": {
+        "pergunta": "Qual é esta submetralhadora alemã da Primeira Guerra Mundial?",
+        "resposta": "MP 18",
+        "distratores": [
+          "MP 28",
+          "MP 40",
+          "MP 38"
+        ]
+      }
+    }
+  ]
+}
