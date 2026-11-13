@@ -1496,3 +1496,4 @@
 {"quando": "2026-11-13T07:17:50", "evento": "pausado", "chave": "figura:retratos_artes", "motivo": "3 falhas seguidas: Claude devolveu erro (success): Failed to authenticate. API Error: 403 Attention Required! | Cloudflare"}
 {"quando": "2026-11-13T07:19:13", "evento": "falha", "trabalho": "fig_musica_classica_007", "mensagem": "Claude devolveu erro (success): Failed to authenticate. API Error: 403 Attention Required! | Cloudflare", "vezes": 1}
 {"quando": "2026-11-13T07:21:36", "evento": "concluido", "trabalho": "fig_musica_classica_007", "registradas": 5, "total": 21485}
+{"quando": "2026-11-13T07:25:59", "evento": "concluido", "trabalho": "fig_camisas_times_009", "registradas": 7, "total": 21492}

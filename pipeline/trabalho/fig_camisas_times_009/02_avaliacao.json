@@ -1,0 +1,184 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Camisa branca com faixa preta no peito, característica do Olimpia; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual é o grande rival do time deste uniforme?",
+      "resposta": "Cerro Porteño",
+      "distratores": [
+        "Libertad",
+        "Guaraní",
+        "Sol de América"
+      ],
+      "ancora": {
+        "nome": "Club Olimpia",
+        "descricao": "Clube de futebol de Assunção, Paraguai, fundado em 1902.",
+        "variantes": [
+          "Olimpia",
+          "Olimpia Asunción"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Camisa preta com listras vermelhas genérica; pode ser confundida com Milan, Flamengo e outros; não é claramente reconhecível como o Leverkusen."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Uniforme branco com faixa diagonal verde, pouco marcante e parecido com outros times (estilo Vasco); não reconhecível, resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Listras largas azul-marinho e vermelhas, com calção branco, características do Cerro Porteño; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que estádio o time deste uniforme manda seus jogos?",
+      "resposta": "General Pablo Rojas",
+      "distratores": [
+        "Defensores del Chaco",
+        "Manuel Ferreira",
+        "La Huerta"
+      ],
+      "ancora": {
+        "nome": "Club Cerro Porteño",
+        "descricao": "Clube de futebol do bairro de Obrero, em Assunção, Paraguai, fundado em 1912.",
+        "variantes": [
+          "Cerro Porteño",
+          "Cerro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Camisa dividida ao meio em vermelho e preto, marcante do Newell's; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que técnico famoso dá nome ao estádio do time deste uniforme?",
+      "resposta": "Marcelo Bielsa",
+      "distratores": [],
+      "ancora": {
+        "nome": "Newell's Old Boys",
+        "descricao": "Clube de futebol de Rosario, Argentina, fundado em 1903.",
+        "variantes": [
+          "Newell's",
+          "Club Atlético Newell's Old Boys"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Uniforme todo branco, quase sem detalhes; não reconhecível e resposta não única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Uniforme todo azul liso com textura sutil; muitos times usam azul, não reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Listras verticais amarelas e azul-marinho, marcantes do Fenerbahçe; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica o time deste uniforme?",
+      "resposta": "Istambul",
+      "distratores": [],
+      "ancora": {
+        "nome": "Fenerbahçe",
+        "descricao": "Clube de futebol de Istambul, Turquia, fundado em 1907.",
+        "variantes": [
+          "Fenerbahçe Spor Kulübü",
+          "Fener"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Camisa grená lisa; muitos times usam grená, não é única nem marcante."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Camisa amarela com calção verde, reconhecível como a Austrália; como pode lembrar o Brasil, usa múltipla escolha com distratores de outras cores.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta seleção?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Japão",
+        "Argentina",
+        "Dinamarca"
+      ],
+      "ancora": {
+        "nome": "Seleção Australiana de Futebol",
+        "descricao": "Seleção masculina de futebol da Austrália, apelidada de Socceroos.",
+        "variantes": [
+          "Socceroos",
+          "Austrália"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Camisa dividida ao meio em vermelho e branco com calção preto, marcante do Feyenoord; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que apelido tem o estádio do time deste uniforme?",
+      "resposta": "De Kuip (A Banheira)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Feyenoord",
+        "descricao": "Clube de futebol de Roterdã, Países Baixos, fundado em 1908.",
+        "variantes": [
+          "Feyenoord Rotterdam"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Listras amarelas e pretas; pode lembrar o Peñarol, então a pergunta é múltipla, com pista de estado e distratores paulistas de outras cores.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time paulista é este uniforme?",
+      "resposta": "Novorizontino",
+      "distratores": [
+        "Ponte Preta",
+        "Guarani",
+        "Ferroviária"
+      ],
+      "ancora": {
+        "nome": "Grêmio Novorizontino",
+        "descricao": "Clube de futebol de Novo Horizonte, São Paulo.",
+        "variantes": [
+          "Novorizontino",
+          "Tigre do Vale"
+        ]
+      }
+    }
+  ]
+}
