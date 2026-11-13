@@ -1,0 +1,113 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que povo navegava em barcos longos como este, entre os séculos oito e onze?",
+        "resposta": "Vikings"
+      },
+      "existentes": [
+        {
+          "id": "q05514",
+          "pergunta": "Que tipo de embarcação é esta?",
+          "resposta": "Drakkar"
+        },
+        {
+          "id": "q09391",
+          "pergunta": "A palavra drakkar, usada para os navios vikings, vem de que criatura, cuja cabeça esculpida às vezes enfeitava a proa?",
+          "resposta": "Dragão"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta pedra foi encontrada no Egito por soldados de que país?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q00114",
+          "pergunta": "Em 2014, uma sonda espacial europeia enviou um módulo que pousou num cometa. A sonda recebeu o nome de qual célebre artefato egípcio?",
+          "resposta": "Pedra de Roseta"
+        },
+        {
+          "id": "q06359",
+          "pergunta": "Desde 1802, a Pedra de Roseta, chave para decifrar os hieróglifos, fica exposta em qual museu?",
+          "resposta": "Museu Britânico"
+        },
+        {
+          "id": "q06360",
+          "pergunta": "A Pedra de Roseta traz o mesmo decreto em hieróglifos, em grego antigo e em qual terceira escrita?",
+          "resposta": "Demótico"
+        },
+        {
+          "id": "q18256",
+          "pergunta": "Em que ano foi encontrada esta estela com um decreto escrito em três escritas?",
+          "resposta": "1799"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que século foi construída esta torre às margens do rio Tejo?",
+        "resposta": "Século dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q02022",
+          "pergunta": "A Torre de Belém e o vizinho Mosteiro dos Jerônimos, em Lisboa, compartilham qual estilo arquitetônico, batizado em homenagem a um rei?",
+          "resposta": "Manuelino"
+        },
+        {
+          "id": "q07520",
+          "pergunta": "Hoje cartão-postal de Lisboa, a Torre de Belém foi erguida no início do século dezesseis com que função principal?",
+          "resposta": "Defender a entrada do Tejo"
+        },
+        {
+          "id": "q14599",
+          "pergunta": "Que arquiteto projetou esta torre manuelina, à beira do Tejo?",
+          "resposta": "Francisco de Arruda"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que nome tem este tipo de proteção para a cabeça, muito usada por europeus em regiões tropicais?",
+        "resposta": "Capacete colonial"
+      },
+      "existentes": [
+        {
+          "id": "q14987",
+          "pergunta": "Que tipo de capacete é este?",
+          "resposta": "Capacete colonial"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o povo (Vikings), fato diferente do nome da embarcação ou da origem da palavra drakkar."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta quem encontrou a pedra (soldados franceses), fato não coberto pelas existentes; o ano de 1799 é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O século de construção é perguntado de forma direta; q07520 cita o século na pergunta, mas pergunta a função, e a resposta é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q14987",
+      "motivo": "Ambas pedem o nome do capacete colonial a partir da imagem; mesma resposta."
+    }
+  ]
+}

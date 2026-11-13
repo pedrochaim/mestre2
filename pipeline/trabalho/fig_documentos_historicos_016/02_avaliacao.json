@@ -1,0 +1,202 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Desenho limpo de um barco longo com vela e escudos, sem texto; reconhecível como navio viking.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que povo navegava em barcos como este, a remo e a vela, em expedições de saque e comércio?",
+      "resposta": "Vikings",
+      "distratores": [
+        "Fenícios",
+        "Visigodos",
+        "Mouros"
+      ],
+      "ancora": {
+        "nome": "Drakkar",
+        "descricao": "Navio longo de guerra, a remo e a vela, usado pelos povos nórdicos na Era Viking.",
+        "variantes": [
+          "Barco viking",
+          "Longship",
+          "Dracar",
+          "Langskip"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga de baixa resolução, quase em silhueta; não dá para garantir que seja a Demoiselle e não outra aeronave pioneira, e há várias versões do modelo."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; amarela com três listras vermelhas, identificável.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "De que país, que deixou de existir em 1975, é esta bandeira?",
+      "resposta": "Vietnã do Sul",
+      "distratores": [
+        "Vietnã do Norte",
+        "Alemanha Oriental",
+        "Iêmen do Sul"
+      ],
+      "ancora": {
+        "nome": "Bandeira do Vietnã do Sul",
+        "descricao": "Bandeira amarela com três listras vermelhas horizontais, usada pela República do Vietnã de 1949 a 1975.",
+        "variantes": [
+          "Bandeira da República do Vietnã",
+          "Bandeira do Vietname do Sul"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida da pedra com três blocos de escrita; inscrições antigas não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Esta pedra foi encontrada em 1799, no Egito, por soldados de que país?",
+      "resposta": "França",
+      "distratores": [
+        "Reino Unido",
+        "Itália",
+        "Prússia"
+      ],
+      "ancora": {
+        "nome": "Pedra de Roseta",
+        "descricao": "Estela de granodiorito com um decreto de 196 a.C. em hieróglifos, demótico e grego, chave para decifrar os hieróglifos egípcios.",
+        "variantes": [
+          "Rosetta Stone",
+          "Pedra de Rosetta"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ilustração nítida da coroa, sem texto, sobre fundo branco.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que século esta coroa foi usada pela primeira vez numa coroação?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezessete",
+        "Século dezenove",
+        "Século dezesseis"
+      ],
+      "ancora": {
+        "nome": "Coroa Imperial da Rússia",
+        "descricao": "Grande coroa imperial usada na coroação dos monarcas russos de 1762 a 1917, com um grande rubi no topo.",
+        "variantes": [
+          "Grande Coroa Imperial da Rússia",
+          "Imperial Crown of Russia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto em preto e branco de um globo pequeno, com texto mal legível; objeto obscuro, não reconhecível pela imagem e confundível com outros globos antigos."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Há uma mulher comum em primeiro plano, e o telefone é só um detalhe da cena."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto clara e sem texto de um monumento emblemático; resposta única.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que século foi construída esta torre às margens do rio Tejo?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século catorze",
+        "Século quinze",
+        "Século dezessete"
+      ],
+      "ancora": {
+        "nome": "Torre de Belém",
+        "descricao": "Fortificação manuelina do século dezesseis às margens do rio Tejo, em Lisboa, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Torre de São Vicente",
+          "Belém Tower"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O selo traz escrito SVERIGE e TRE SKILL, o que entrega o país e o valor; o carimbo também aparece."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida do capacete; o texto ao fundo é só parte de um painel de museu e não nomeia o objeto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Como se chama este tipo de capacete leve, de tecido sobre fibra vegetal?",
+      "resposta": "Capacete colonial",
+      "distratores": [
+        "Pickelhaube prussiano",
+        "Capacete de polo",
+        "Chapéu Panamá"
+      ],
+      "ancora": {
+        "nome": "Capacete colonial",
+        "descricao": "Capacete leve, coberto de tecido, de fibra vegetal, usado por militares e viajantes europeus em climas quentes.",
+        "variantes": [
+          "Pith helmet",
+          "Capacete de safári",
+          "Salacot",
+          "Sola topee"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida do navio no museu, com a proa em espiral característica; sem texto que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Em que século este navio foi sepultado num grande túmulo?",
+      "resposta": "Século nove",
+      "distratores": [
+        "Século sete",
+        "Século onze",
+        "Século treze"
+      ],
+      "ancora": {
+        "nome": "Navio de Oseberg",
+        "descricao": "Navio longo da Era Viking, muito bem preservado, achado num túmulo em Oseberg, na Noruega, e exposto em Oslo.",
+        "variantes": [
+          "Barco de Oseberg",
+          "Oseberg ship",
+          "Osebergskipet"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Mapa antigo com legendas minúsculas e orientado com o leste no topo; a ilha não é reconhecível pelo contorno e a imagem não fica legível no celular."
+    }
+  ]
+}

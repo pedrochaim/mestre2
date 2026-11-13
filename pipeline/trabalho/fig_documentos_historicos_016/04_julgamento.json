@@ -1,0 +1,456 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Drakkar",
+        "descricao": "Navio longo de guerra, a remo e a vela, usado pelos povos nórdicos na Era Viking.",
+        "variantes": [
+          "Drakkar (barco viking)",
+          "Barco viking",
+          "Longship",
+          "Dracar",
+          "Langskip"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "drakkar",
+          "nome": "Drakkar",
+          "descricao": "Navio longo de guerra a remo e vela usado pelos povos nórdicos na Era Viking.",
+          "variantes": [
+            "Drakkar (barco viking)",
+            "Barco viking",
+            "Longship",
+            "Langskip",
+            "Dracar"
+          ]
+        },
+        {
+          "id": "rali_dakar",
+          "nome": "Rali Dakar",
+          "descricao": "Rali de longa distância criado em 1978, que nasceu ligando Paris a Dakar, no Senegal.",
+          "variantes": [
+            "Paris-Dakar",
+            "Dakar Rally",
+            "Dakar"
+          ]
+        },
+        {
+          "id": "dracma",
+          "nome": "Dracma",
+          "descricao": "Moeda de prata da Grécia Antiga, usada em Atenas e em outras cidades gregas.",
+          "variantes": [
+            "Dracma grega",
+            "Drachma"
+          ]
+        },
+        {
+          "id": "conde_dracula",
+          "nome": "Conde Drácula",
+          "descricao": "Vampiro protagonista do romance Drácula, de Bram Stoker, publicado em 1897.",
+          "variantes": [
+            "Drácula",
+            "Count Dracula"
+          ]
+        },
+        {
+          "id": "dracon",
+          "nome": "Drácon",
+          "descricao": "Legislador ateniense do século sete a.C., autor do primeiro código escrito de leis de Atenas.",
+          "variantes": [
+            "Draco",
+            "Drakon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bandeira do Vietnã do Sul",
+        "descricao": "Bandeira amarela com três listras vermelhas horizontais, usada pela República do Vietnã de 1949 a 1975.",
+        "variantes": [
+          "Bandeira da República do Vietnã",
+          "Bandeira do Vietname do Sul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_taiwan",
+          "nome": "Bandeira de Taiwan",
+          "descricao": "Bandeira da República da China (Taiwan), vermelha com cantão azul e sol branco de doze raios.",
+          "variantes": [
+            "Taiwan",
+            "Bandeira da República da China"
+          ]
+        },
+        {
+          "id": "bandeira_do_niger",
+          "nome": "Bandeira do Níger",
+          "descricao": "Bandeira atual do Níger: faixas horizontais laranja, branca e verde, com um círculo laranja no centro da faixa branca.",
+          "variantes": [
+            "Níger",
+            "Bandeira da República do Níger"
+          ]
+        },
+        {
+          "id": "bandeira_do_mali",
+          "nome": "Bandeira do Mali",
+          "descricao": "Bandeira atual do Mali: tricolor vertical verde, amarelo e vermelho, sem emblemas.",
+          "variantes": [
+            "Mali",
+            "Bandeira da República do Mali"
+          ]
+        },
+        {
+          "id": "bandeira_da_republica_do_congo",
+          "nome": "Bandeira da República do Congo",
+          "descricao": "Bandeira nacional da República do Congo, com faixa diagonal amarela entre verde e vermelho.",
+          "variantes": [
+            "República do Congo",
+            "Bandeira do Congo-Brazzaville"
+          ]
+        },
+        {
+          "id": "bandeira_de_vanuatu",
+          "nome": "Bandeira de Vanuatu",
+          "descricao": "Bandeira atual de Vanuatu: faixas vermelha e verde com um Y deitado preto e amarelo e uma presa de javali com ramos no triângulo preto.",
+          "variantes": [
+            "Vanuatu",
+            "Bandeira da República de Vanuatu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pedra de Roseta",
+        "descricao": "Estela de granodiorito com um decreto de 196 a.C. em hieróglifos, demótico e grego, chave para decifrar os hieróglifos egípcios.",
+        "variantes": [
+          "Rosetta Stone",
+          "Pedra de Rosetta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        },
+        {
+          "id": "pedra_de_ezana",
+          "nome": "Pedra de Ezana",
+          "descricao": "Estela de Axum, na Etiópia, do século quatro, com inscrições trilíngues do rei Ezana sobre a sua conversão ao cristianismo e as suas conquistas.",
+          "variantes": [
+            "Estela de Ezana",
+            "Ezana Stone"
+          ]
+        },
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        },
+        {
+          "id": "queda_do_imperio_romano_do_ocidente",
+          "nome": "Queda do Império Romano do Ocidente",
+          "descricao": "Fim do poder imperial romano no Ocidente, marcado pela deposição de Rômulo Augusto pelo chefe germânico Odoacro.",
+          "variantes": [
+            "Queda de Roma",
+            "Fall of the Western Roman Empire"
+          ]
+        },
+        {
+          "id": "edda_em_prosa",
+          "nome": "Edda em Prosa",
+          "descricao": "Obra islandesa do século treze, atribuída a Snorri Sturluson, que reúne os mitos nórdicos.",
+          "variantes": [
+            "Edda de Snorri",
+            "Edda Menor",
+            "Prose Edda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Coroa Imperial da Rússia",
+        "descricao": "Grande coroa imperial usada na coroação dos monarcas russos de 1762 a 1917, com um grande rubi no topo.",
+        "variantes": [
+          "Grande Coroa Imperial da Rússia",
+          "Imperial Crown of Russia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coroa_imperial_do_brasil",
+          "nome": "Coroa Imperial do Brasil",
+          "descricao": "Coroa de ouro, diamantes e pérolas feita para Dom Pedro II, segundo imperador do Brasil.",
+          "variantes": [
+            "Coroa de Dom Pedro II",
+            "Coroa Diamantina"
+          ]
+        },
+        {
+          "id": "nicolau_ii_da_russia",
+          "nome": "Nicolau II da Rússia",
+          "descricao": "Último imperador da Rússia, que abdicou em 1917 durante a Revolução Russa.",
+          "variantes": [
+            "Nicolau II",
+            "Nicholas II",
+            "Czar Nicolau II"
+          ]
+        },
+        {
+          "id": "coroa_imperial_do_estado_britanica",
+          "nome": "Coroa Imperial do Estado (britânica)",
+          "descricao": "Coroa do monarca britânico, feita em 1937 para a coroação de Jorge VI e usada em coroações e aberturas do Parlamento.",
+          "variantes": [
+            "Imperial State Crown",
+            "Coroa do Estado Imperial"
+          ]
+        },
+        {
+          "id": "catarina_a_grande",
+          "nome": "Catarina, a Grande",
+          "descricao": "Catarina II, imperatriz da Rússia de 1762 a 1796, nascida princesa de Anhalt-Zerbst.",
+          "variantes": [
+            "Catarina II da Rússia",
+            "Catherine the Great"
+          ]
+        },
+        {
+          "id": "bandeira_do_imperio_do_brasil",
+          "nome": "Bandeira do Império do Brasil",
+          "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial.",
+          "variantes": [
+            "Bandeira imperial do Brasil",
+            "Bandeira imperial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Torre de Belém",
+        "descricao": "Fortificação manuelina do século dezesseis às margens do rio Tejo, em Lisboa, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Torre de São Vicente",
+          "Belém Tower"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "torre_de_babel",
+          "nome": "Torre de Babel",
+          "descricao": "Torre narrada no livro do Gênesis, cuja história explica a diversidade das línguas",
+          "variantes": [
+            "Babel"
+          ]
+        },
+        {
+          "id": "sao_vicente",
+          "nome": "São Vicente",
+          "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+          "variantes": [
+            "São Vicente (São Paulo)",
+            "Vila de São Vicente"
+          ]
+        },
+        {
+          "id": "pastel_de_nata",
+          "nome": "Pastel de nata",
+          "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos.",
+          "variantes": [
+            "Pastéis de nata",
+            "Pastel de Belém"
+          ]
+        },
+        {
+          "id": "torre_de_hanoi",
+          "nome": "Torre de Hanói",
+          "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+          "variantes": [
+            "Tower of Hanoi",
+            "Torre de Brahma"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Capacete colonial",
+        "descricao": "Capacete leve, coberto de tecido, de fibra vegetal, usado por militares e viajantes europeus em climas quentes.",
+        "variantes": [
+          "Pith helmet",
+          "Capacete de safári",
+          "Salacot",
+          "Sola topee"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capacete_colonial",
+          "nome": "Capacete colonial",
+          "descricao": "Capacete leve coberto de tecido, feito de sholapith, usado por militares e exploradores nos trópicos.",
+          "variantes": [
+            "Pith helmet",
+            "Capacete de safári",
+            "Salacot"
+          ]
+        },
+        {
+          "id": "salmao",
+          "nome": "Salmão",
+          "descricao": "Peixe migratório da família Salmonidae que vive no mar e sobe os rios para desovar.",
+          "variantes": [
+            "Salmon"
+          ]
+        },
+        {
+          "id": "aipo",
+          "nome": "Aipo",
+          "descricao": "Hortaliça Apium graveolens, de talos fibrosos e crocantes usados em saladas, caldos e sucos.",
+          "variantes": [
+            "Salsão",
+            "Celery"
+          ]
+        },
+        {
+          "id": "swalot",
+          "nome": "Swalot",
+          "descricao": "Pokémon do tipo Venenoso, número 317 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "capacete_de_ayrton_senna",
+          "nome": "Capacete de Ayrton Senna",
+          "descricao": "Capacete amarelo com faixas verde e azul usado por Ayrton Senna ao longo da carreira, desenhado por Sid Mosca.",
+          "variantes": [
+            "Capacete do Senna"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Navio de Oseberg",
+        "descricao": "Navio longo da Era Viking, muito bem preservado, achado num túmulo em Oseberg, na Noruega, e exposto em Oslo.",
+        "variantes": [
+          "Barco de Oseberg",
+          "Oseberg ship",
+          "Osebergskipet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "navio_de_teseu",
+          "nome": "Navio de Teseu",
+          "descricao": "Paradoxo filosófico sobre identidade que pergunta se um barco com todas as peças trocadas continua sendo o mesmo.",
+          "variantes": [
+            "Paradoxo de Teseu",
+            "Ship of Theseus"
+          ]
+        },
+        {
+          "id": "navio_porta_conteineres",
+          "nome": "Navio porta-contêineres",
+          "descricao": "Navio de carga que transporta toda a carga em contêineres padronizados.",
+          "variantes": [
+            "Porta-contentores",
+            "Containership",
+            "Navio de contêineres"
+          ]
+        },
+        {
+          "id": "nico_rosberg",
+          "nome": "Nico Rosberg",
+          "descricao": "Piloto alemão campeão mundial de Fórmula 1 em 2016, filho do finlandês Keke Rosberg.",
+          "variantes": []
+        },
+        {
+          "id": "barco_de_queops",
+          "nome": "Barco de Quéops",
+          "descricao": "Embarcação de madeira desmontada e enterrada num fosso junto à Grande Pirâmide de Gizé, achada em 1954",
+          "variantes": [
+            "Barco solar de Quéops",
+            "Khufu ship"
+          ]
+        },
+        {
+          "id": "pierre_de_coubertin",
+          "nome": "Pierre de Coubertin",
+          "descricao": "Pedagogo francês, fundador do Comitê Olímpico Internacional e idealizador dos Jogos Olímpicos modernos.",
+          "variantes": [
+            "Barão de Coubertin",
+            "Pierre de Frédy"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "drakkar",
+      "motivo": "Mesmo navio longo viking, descrições e variantes equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira do Vietnã do Sul."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "pedra_de_roseta",
+      "motivo": "Mesma estela, decreto de 196 a.C., chave dos hieróglifos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Coroa imperial russa não consta; as candidatas são outras coroas ou pessoas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "torre_de_belem",
+      "motivo": "Mesma fortificação em Lisboa, com variantes idênticas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "capacete_colonial",
+      "motivo": "Mesmo objeto: capacete colonial/pith helmet."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Navio de Oseberg não consta entre as candidatas."
+    }
+  ]
+}
