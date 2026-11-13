@@ -1,0 +1,49 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, resposta única diante da imagem do anel, distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Musk fundou a SpaceX em 2002. Os distratores são fabricantes de foguetes fundados por outras pessoas. O enunciado não permite responder sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Bezos fundou a Blue Origin em 2000. É a única empresa de voos espaciais que ele fundou. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gigante, construído na Irlanda no século dezenove' é uma pista quase identificadora, que dá para responder sem a figura. Também não é exclusiva: o Grande Telescópio de Melbourne foi construído em Dublin no século dezenove. A reescrita tira a pista de lugar e porte e mantém o nível 1.",
+      "reescrita": {
+        "pergunta": "Que telescópio refletor histórico é este?",
+        "resposta": "Leviatã de Parsonstown"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a propulsão vem de água expulsa por ar comprimido. Os distratores são críveis e errados, e o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1 direta. O enunciado não nomeia a lua e a resposta é única. Os trechos confirmam que Proteu é lua de Netuno.",
+      "reescrita": null
+    }
+  ]
+}

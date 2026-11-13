@@ -435318,5 +435318,139 @@
       "autor": "Novaric at English Wikipedia",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q21883",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "eclipse_solar_anular",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de eclipse solar é este?",
+    "resposta": "Anular",
+    "distratores": [
+      "Total",
+      "Parcial",
+      "Híbrido"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solar_eclipse_of_October_14%2C_2023",
+      "https://pt.wikipedia.org/wiki/Eclipse_solar_de_14_de_outubro_de_2023"
+    ],
+    "imagem": {
+      "arquivo": "q21883.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mexican_Hat,_Utah.jpg",
+      "autor": "Ajt2543",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q21884",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "elon_musk",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que fabricante de foguetes foi fundado por este empresário?",
+    "resposta": "SpaceX",
+    "distratores": [
+      "Blue Origin",
+      "Virgin Galactic",
+      "Rocket Lab"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elon_Musk",
+      "https://pt.wikipedia.org/wiki/Elon_Musk"
+    ],
+    "imagem": {
+      "arquivo": "q21884.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Elon_Musk_(54816836217)_(cropped_2)_(b).jpg",
+      "autor": "Gage Skidmore",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q21885",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "jeff_bezos",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que empresa de voos espaciais foi fundada por este empresário?",
+    "resposta": "Blue Origin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jeff_Bezos",
+      "https://pt.wikipedia.org/wiki/Jeff_Bezos"
+    ],
+    "imagem": {
+      "arquivo": "q21885.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_(39074799225)_(cropped).jpg",
+      "autor": "Seattle City Council from Seattle",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q21886",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "leviata_de_parsonstown",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que telescópio refletor histórico é este?",
+    "resposta": "Leviatã de Parsonstown",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leviathan_of_Parsonstown"
+    ],
+    "imagem": {
+      "arquivo": "q21886.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lossy-page1-6940px-Lord_Rosse's_Great_Reflecting_Telescope,_at_Parsonstown,_Ireland_RMG_F8661_(cropped).jpg",
+      "autor": "Working Men's Educational Union",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q21887",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "foguete_de_agua",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "O que impulsiona este foguete caseiro?",
+    "resposta": "Água sob pressão",
+    "distratores": [
+      "Pólvora",
+      "Combustível sólido",
+      "Gás hélio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Water_rocket",
+      "https://pt.wikipedia.org/wiki/Foguete_a_%C3%A1gua"
+    ],
+    "imagem": {
+      "arquivo": "q21887.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Launchbottle.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q21888",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "proteu_2",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que lua de Netuno é esta?",
+    "resposta": "Proteu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Proteus_%28moon%29",
+      "https://pt.wikipedia.org/wiki/Proteu_%28sat%C3%A9lite%29"
+    ],
+    "imagem": {
+      "arquivo": "q21888.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Proteus_(Voyager_2).jpg",
+      "autor": "Voyager 2, NASA",
+      "licenca": "Public domain"
+    }
   }
 ]

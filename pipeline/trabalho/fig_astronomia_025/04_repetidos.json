@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fabricante de foguetes foi fundado por este empresário?",
+        "resposta": "SpaceX"
+      },
+      "existentes": [
+        {
+          "id": "q09269",
+          "pergunta": "Este empresário nascido na África do Sul assumiu, em dois mil e oito, o comando de qual destas fabricantes de carros elétricos?",
+          "resposta": "Tesla"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que empresa de voos espaciais foi fundada por este empresário?",
+        "resposta": "Blue Origin"
+      },
+      "existentes": [
+        {
+          "id": "q18137",
+          "pergunta": "Que empresário americano, nascido em 1964, é este?",
+          "resposta": "Jeff Bezos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a SpaceX (fundada) é um fato diferente de assumir o comando da Tesla."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A empresa fundada (Blue Origin) é um fato diferente da identidade do empresário (Jeff Bezos)."
+    }
+  ]
+}

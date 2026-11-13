@@ -1,0 +1,164 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Anel de luz inconfundível, sem texto; boa pergunta de tipo de eclipse.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de eclipse solar é este?",
+      "resposta": "Anular",
+      "distratores": [
+        "Total",
+        "Parcial",
+        "Híbrido"
+      ],
+      "ancora": {
+        "nome": "Eclipse solar anular",
+        "descricao": "Eclipse solar em que a Lua, mais distante, deixa um anel luminoso do Sol visível ao redor dela.",
+        "variantes": [
+          "Eclipse anular",
+          "Anel de fogo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vista aérea de um observatório com cúpulas genérico; não é reconhecível como Yerkes pela imagem, e a resposta não seria única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Recorte de galáxia espiral que não permite reconhecer M83 especificamente; muito parecida com outras espirais."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Figura pública, retrato sem texto; pergunta liga a pessoa à empresa espacial.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fabricante de foguetes foi fundado por este empresário?",
+      "resposta": "SpaceX",
+      "distratores": [
+        "Blue Origin",
+        "Virgin Galactic",
+        "Rocket Lab"
+      ],
+      "ancora": {
+        "nome": "Elon Musk",
+        "descricao": "Empresário sul-africano naturalizado, CEO da Tesla e da SpaceX.",
+        "variantes": [
+          "Elon Reeve Musk"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Galáxia espiral barrada que não se distingue com segurança de outras; NGC 1365 não é reconhecível só pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Figura pública, retrato sem texto; pergunta leva à empresa espacial dele.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que empresa de voos espaciais foi fundada por este empresário?",
+      "resposta": "Blue Origin",
+      "distratores": [],
+      "ancora": {
+        "nome": "Jeff Bezos",
+        "descricao": "Empresário norte-americano, fundador da Amazon e da Blue Origin.",
+        "variantes": [
+          "Jeffrey Preston Bezos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem quase toda preta com pontos minúsculos; ilegível num celular e a conjunção não é reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Gravura histórica de um telescópio gigantesco muito característico (tubo entre muros de pedra); selo pequeno não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que telescópio gigante, construído na Irlanda no século dezenove, é este?",
+      "resposta": "Leviatã de Parsonstown",
+      "distratores": [],
+      "ancora": {
+        "nome": "Leviatã de Parsonstown",
+        "descricao": "Telescópio refletor de 72 polegadas construído pelo conde de Rosse no Castelo de Birr, na Irlanda, em 1845.",
+        "variantes": [
+          "Telescópio de Rosse",
+          "Leviathan of Parsonstown"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto clara de um foguete de garrafa PET no lançamento, com jato de água visível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "O que impulsiona este foguete caseiro?",
+      "resposta": "Água sob pressão",
+      "distratores": [
+        "Pólvora",
+        "Combustível sólido",
+        "Gás hélio"
+      ],
+      "ancora": {
+        "nome": "Foguete de água",
+        "descricao": "Foguete de brinquedo, em geral feito de garrafa PET, impulsionado por água expelida por ar comprimido.",
+        "variantes": [
+          "Foguete de garrafa PET",
+          "Foguete a água"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Interior genérico de um grande telescópio; não permite identificar o Observatório do Monte Wilson com resposta única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem da Voyager 2 de lua irregular e escura, forma característica de Proteu; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que lua de Netuno é esta?",
+      "resposta": "Proteu",
+      "distratores": [],
+      "ancora": {
+        "nome": "Proteu",
+        "descricao": "Segunda maior lua de Netuno, de forma irregular, descoberta pela Voyager 2 em 1989.",
+        "variantes": [
+          "Proteus",
+          "Netuno VIII"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O uniforme traz a plaquinha legível 'SUNI WILLIAMS', que entrega a resposta."
+    }
+  ]
+}
