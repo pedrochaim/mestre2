@@ -1,0 +1,117 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma competição de bombeiros, não um pódio; não traz a entidade e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Selfie com jaqueta da Haas à mostra: o texto dá pista da equipe e não identifica um piloto só; rosto pouco reconhecível e pessoas comuns ao fundo."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Retrato de óculos escuros, sem contexto que permita reconhecer o piloto; textos de patrocínio e IndyCar na camisa e no cordão."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Retrato de terno em ambiente fechado, sem nenhum elemento de automobilismo; o rosto não é reconhecível pela maioria."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A foto é de um carro (Audi Sport quattro) com letreiros Pikes Peak, Audi e quattro bem visíveis, que entregam a resposta; a entidade âncora, a subida, não aparece."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Porsche de Grupo C com a palavra Porsche no para-brisa; o 962 é muito parecido com o 956, então a resposta não é única pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida e legível do carro de 2021, com distratores de outros anos da Mercedes.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é este carro de Fórmula 1 da Mercedes?",
+      "resposta": "Mercedes W12",
+      "distratores": [
+        "Mercedes W10",
+        "Mercedes W13",
+        "Mercedes W14"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mercedes W12",
+        "descricao": "Carro de Fórmula 1 da Mercedes-AMG Petronas usado na temporada de 2021, pilotado por Hamilton e Bottas.",
+        "variantes": [
+          "Mercedes-AMG F1 W12 E Performance",
+          "W12"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto lateral nítida do carro branco e verde-limão; a pergunta vai além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual piloto britânico foi campeão mundial de Fórmula 1 com este carro?",
+      "resposta": "Jenson Button",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brawn BGP 001",
+        "descricao": "Carro de Fórmula 1 da equipe Brawn GP, campeão de pilotos e construtores em 2009.",
+        "variantes": [
+          "Brawn GP BGP 001",
+          "Honda RA109"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto de museu, nítida; o carro não tem o nome do modelo escrito. Múltipla escolha por causa dos modelos parecidos da McLaren.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é este modelo da McLaren de Fórmula 1?",
+      "resposta": "McLaren MP4/7A",
+      "distratores": [
+        "McLaren MP4/4",
+        "McLaren MP4/5",
+        "McLaren MP4/8"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "McLaren MP4/7A",
+        "descricao": "Carro de Fórmula 1 da McLaren com motor Honda, usado na temporada de 1992.",
+        "variantes": [
+          "MP4/7A",
+          "McLaren MP4/7"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Captura de tela de baixíssima resolução de um videogame, com texto visível (Grand Prix of Japan, Fuji Yama); não fica legível num celular e não mostra um simulador de corrida de forma identificável."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato sem nenhum elemento de automobilismo; o rosto não é reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Retrato de macacão com patrocinadores e nomes (Honda, Dale Coyne Racing) visíveis; o piloto não é reconhecível pelo rosto e o texto dá pistas indiretas."
+    }
+  ]
+}
