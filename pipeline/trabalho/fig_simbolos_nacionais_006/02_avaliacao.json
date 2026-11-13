@@ -1,0 +1,107 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Brasão imperial russo, águia bicéfala com São Jorge no peito e lema em cirílico que não nomeia o lugar; é um único brasão, legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "De que império é este brasão?",
+      "tipo": "multipla",
+      "resposta": "Império Russo",
+      "distratores": [
+        "Império Austro-Húngaro",
+        "Império Otomano",
+        "Império Alemão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão do Império Russo",
+        "descricao": "Brasão de armas do Império Russo (1721-1917), com águia bicéfala negra e São Jorge no escudo do peito.",
+        "variantes": [
+          "Brasão da Rússia Imperial",
+          "Grande Brasão do Império Russo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Brasão marcante de Granada (tatu, pomba, lema em inglês sem o nome do país); reconhecível e sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "De que país é este brasão?",
+      "tipo": "aberta",
+      "resposta": "Granada (país do Caribe)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão de Granada",
+        "descricao": "Brasão de armas do país caribenho de Granada, com tatu e pomba como suportes.",
+        "variantes": [
+          "Brasão de Grenada",
+          "Coat of arms of Grenada"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Brasão da Tunísia com galé, balança e leão; só lema em árabe, sem o nome do país.",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "De que país é este brasão?",
+      "tipo": "multipla",
+      "resposta": "Tunísia",
+      "distratores": [
+        "Argélia",
+        "Líbia",
+        "Marrocos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão da Tunísia",
+        "descricao": "Brasão de armas da Tunísia, com galé cartaginesa, balança e leão com cimitarra sob crescente e estrela.",
+        "variantes": [
+          "Coat of arms of Tunisia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Brasão das Ilhas Salomão (crocodilo e tubarão), lema em inglês sem o nome; reconhecível. Pergunta de nível 3 pela capital.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Qual é a capital do país deste brasão?",
+      "tipo": "aberta",
+      "resposta": "Honiara",
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão das Ilhas Salomão",
+        "descricao": "Brasão de armas das Ilhas Salomão, com crocodilo e tubarão como suportes e o lema To Lead Is to Serve.",
+        "variantes": [
+          "Brasão de Salomão",
+          "Coat of arms of Solomon Islands"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Brasão de Aruba, escudo em quatro partes com leão no topo, sem texto; reconhecível pelas peças.",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "De que país ou território é este brasão?",
+      "tipo": "aberta",
+      "resposta": "Aruba",
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasão de Aruba",
+        "descricao": "Brasão de armas de Aruba, ilha caribenha do Reino dos Países Baixos, com escudo em cruz de quatro quartéis e leão vermelho no topo.",
+        "variantes": [
+          "Coat of arms of Aruba"
+        ]
+      }
+    }
+  ]
+}
