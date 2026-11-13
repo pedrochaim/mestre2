@@ -1,0 +1,450 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Muralhas de Dubrovnik",
+        "descricao": "Sistema de muralhas defensivas de pedra que cercam a cidade velha de Dubrovnik, na Croácia.",
+        "variantes": [
+          "Muralhas de Ragusa",
+          "Dubrovačke gradske zidine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "muralhas_de_troia",
+          "nome": "Muralhas de Troia",
+          "descricao": "Muralhas lendárias da cidade de Troia, erguidas segundo o mito por deuses a serviço do rei Laomedonte.",
+          "variantes": []
+        },
+        {
+          "id": "muralha_de_adriano",
+          "nome": "Muralha de Adriano",
+          "descricao": "Muralha defensiva romana construída a partir de 122 no norte da Britânia, por ordem do imperador Adriano.",
+          "variantes": [
+            "Hadrian's Wall"
+          ]
+        },
+        {
+          "id": "republica_de_ragusa",
+          "nome": "República de Ragusa",
+          "descricao": "República marítima aristocrática centrada em Dubrovnik, na Dalmácia, que existiu de 1358 a 1808.",
+          "variantes": [
+            "República de Dubrovnik",
+            "Ragusa",
+            "Republic of Ragusa"
+          ]
+        },
+        {
+          "id": "muralhas_de_ataque_dos_titas",
+          "nome": "Muralhas de Ataque dos Titãs",
+          "descricao": "As três muralhas concêntricas, Maria, Rose e Sina, que protegem a humanidade dos titãs em Ataque dos Titãs.",
+          "variantes": [
+            "Muralha Maria",
+            "Muralha Rose",
+            "Muralha Sina"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cidadela de Bam",
+        "descricao": "Fortaleza de adobe na cidade de Bam, na província de Kerman, no Irã, danificada pelo terremoto de 2003.",
+        "variantes": [
+          "Arg-e Bam",
+          "Arg-é Bam"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "charge_beam",
+          "nome": "Charge Beam",
+          "descricao": "Golpe de pokémon do tipo Elétrico, da 4ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "cidade_perdida_de_z",
+          "nome": "Cidade Perdida de Z",
+          "descricao": "Cidade lendária que o explorador britânico Percy Fawcett acreditava existir na selva brasileira e procurou até desaparecer, em 1925.",
+          "variantes": [
+            "Cidade de Z",
+            "Lost City of Z"
+          ]
+        },
+        {
+          "id": "cidade_de_quebec",
+          "nome": "Cidade de Quebec",
+          "descricao": "Cidade do Canadá às margens do rio São Lourenço, fundada em 1608 como capital da Nova França.",
+          "variantes": [
+            "Quebec",
+            "Québec",
+            "Quebec City"
+          ]
+        },
+        {
+          "id": "azalea",
+          "nome": "Azalea",
+          "descricao": "Cidade da região de Johto, nos jogos Pokémon Gold e Silver, onde fica o ginásio de tipo Inseto e o Poço Slowpoke.",
+          "variantes": [
+            "Azalea Town",
+            "Cidade de Azalea"
+          ]
+        },
+        {
+          "id": "cadeados_do_amor",
+          "nome": "Cadeados do amor",
+          "descricao": "Cadeados que casais prendem em pontes e outros locais públicos para simbolizar o amor.",
+          "variantes": [
+            "Love locks",
+            "Cadeados de amor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mesquita de Al-Aqsa",
+        "descricao": "Mesquita principal do complexo de Al-Aqsa, na Cidade Velha de Jerusalém, junto à Cúpula da Rocha.",
+        "variantes": [
+          "Mesquita Al-Aqsa",
+          "Mesquita Qibli",
+          "Al-Masjid al-Aqsa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_de_al_aqsa",
+          "nome": "Mesquita de Al-Aqsa",
+          "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+          "variantes": [
+            "Al-Aqsa",
+            "Mesquita Al-Aqsa"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_meca",
+          "nome": "Grande Mesquita de Meca",
+          "descricao": "Masjid al-Haram, a mais sagrada mesquita do Islã, que envolve a Caaba em Meca, na Arábia Saudita.",
+          "variantes": [
+            "Masjid al-Haram",
+            "Mesquita Sagrada",
+            "Al-Masjid al-Haram"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_samarra",
+          "nome": "Grande Mesquita de Samarra",
+          "descricao": "Antiga mesquita abássida do século nove em Samarra, Iraque, famosa pelo minarete em espiral.",
+          "variantes": [
+            "Mesquita Al-Malwiya",
+            "Great Mosque of Samarra",
+            "Malwiya"
+          ]
+        },
+        {
+          "id": "mesquita_de_muhammad_ali",
+          "nome": "Mesquita de Muhammad Ali",
+          "descricao": "Mesquita de estilo otomano na Cidadela do Cairo, construída entre 1832 e 1857.",
+          "variantes": [
+            "Mesquita de Alabastro",
+            "Mesquita de Mehmet Ali"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pirâmide da Lua (Teotihuacan)",
+        "descricao": "Segunda maior pirâmide de Teotihuacan, no México, no fim da Avenida dos Mortos.",
+        "variantes": [
+          "Pirâmide da Lua",
+          "Pyramid of the Moon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_da_lua",
+          "nome": "Pirâmide da Lua",
+          "descricao": "Segunda maior pirâmide de Teotihuacan, no México, no fim da Avenida dos Mortos.",
+          "variantes": [
+            "Pyramid of the Moon"
+          ]
+        },
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun",
+            "Pirámide del Sol"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_cholula",
+          "nome": "Grande Pirâmide de Cholula",
+          "descricao": "Enorme pirâmide pré-colombiana no estado mexicano de Puebla, hoje coberta de terra e com uma igreja no topo.",
+          "variantes": [
+            "Pirâmide de Cholula",
+            "Tlachihualtépetl"
+          ]
+        },
+        {
+          "id": "piramide_do_louvre",
+          "nome": "Pirâmide do Louvre",
+          "descricao": "Pirâmide de vidro e metal no pátio do Museu do Louvre, em Paris, inaugurada em 1989.",
+          "variantes": [
+            "Louvre Pyramid",
+            "Pyramide du Louvre"
+          ]
+        },
+        {
+          "id": "piramide_de_ball",
+          "nome": "Pirâmide de Ball",
+          "descricao": "Ilhéu rochoso vulcânico no Pacífico, a sudeste da Ilha Lord Howe, o maior pináculo vulcânico do mundo.",
+          "variantes": [
+            "Ball's Pyramid"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Taq Kasra",
+        "descricao": "Ruína da fachada do palácio sassânida de Ctesifonte, com um grande arco de tijolos, perto de Salman Pak, no Iraque.",
+        "variantes": [
+          "Arco de Ctesifonte",
+          "Taq-e Kesra",
+          "Eivan de Cosroes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arco_de_tito",
+          "nome": "Arco de Tito",
+          "descricao": "Arco triunfal romano do século primeiro, no Fórum Romano, que celebra a tomada de Jerusalém pelo imperador Tito.",
+          "variantes": [
+            "Arch of Titus"
+          ]
+        },
+        {
+          "id": "holi",
+          "nome": "Holi",
+          "descricao": "Festa hindu em que as pessoas se cobrem de pós e águas coloridas",
+          "variantes": [
+            "Festival das Cores",
+            "Festa das Cores"
+          ]
+        },
+        {
+          "id": "triplice_fronteira",
+          "nome": "Tríplice Fronteira",
+          "descricao": "Ponto de encontro de Brasil, Argentina e Paraguai na confluência dos rios Iguaçu e Paraná.",
+          "variantes": [
+            "Marco das Três Fronteiras",
+            "Tríplice Fronteira do Iguaçu"
+          ]
+        },
+        {
+          "id": "dia_de_portugal",
+          "nome": "Dia de Portugal",
+          "descricao": "Feriado nacional português, também chamado Dia de Camões e das Comunidades Portuguesas",
+          "variantes": [
+            "Dia de Portugal, de Camões e das Comunidades Portuguesas",
+            "Dia de Camões"
+          ]
+        },
+        {
+          "id": "bandeira_das_comores",
+          "nome": "Bandeira das Comores",
+          "descricao": "Bandeira nacional da União das Comores, com quatro faixas horizontais, triângulo verde, crescente e quatro estrelas.",
+          "variantes": [
+            "Comores",
+            "Bandeira de Comores"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Igreja de Nossa Senhora do Rosário dos Pretos (Salvador)",
+        "descricao": "Igreja católica azul do Largo do Pelourinho, no centro histórico de Salvador, Bahia, construída no século dezoito.",
+        "variantes": [
+          "Igreja do Rosário dos Pretos",
+          "Igreja de Nossa Senhora do Rosário dos Pretos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_de_nossa_senhora_do_carmo_ouro_preto",
+          "nome": "Igreja de Nossa Senhora do Carmo (Ouro Preto)",
+          "descricao": "Igreja rococó do século dezoito em Ouro Preto, Minas Gerais, tombada pelo IPHAN.",
+          "variantes": [
+            "Igreja do Carmo de Ouro Preto"
+          ]
+        },
+        {
+          "id": "igreja_do_outeiro_da_gloria",
+          "nome": "Igreja do Outeiro da Glória",
+          "descricao": "Igreja colonial do século XVIII no alto do Outeiro da Glória, no Rio de Janeiro.",
+          "variantes": [
+            "Igreja de Nossa Senhora da Glória do Outeiro",
+            "Igreja da Glória"
+          ]
+        },
+        {
+          "id": "igreja_da_penha_rio_de_janeiro",
+          "nome": "Igreja da Penha (Rio de Janeiro)",
+          "descricao": "Basílica santuário de Nossa Senhora da Penha de França, no bairro da Penha, no Rio de Janeiro.",
+          "variantes": [
+            "Basílica Santuário de Nossa Senhora da Penha de França",
+            "Igreja de Nossa Senhora da Penha"
+          ]
+        },
+        {
+          "id": "santuario_do_caraca",
+          "nome": "Santuário do Caraça",
+          "descricao": "Complexo religioso com igreja neogótica e convento na Serra do Caraça, em Catas Altas, Minas Gerais.",
+          "variantes": [
+            "Caraça",
+            "Igreja Nossa Senhora Mãe dos Homens"
+          ]
+        },
+        {
+          "id": "catedral_basilica_de_salvador",
+          "nome": "Catedral Basílica de Salvador",
+          "descricao": "Antiga igreja do colégio dos jesuítas, de estilo maneirista, catedral primacial de Salvador, na Bahia.",
+          "variantes": [
+            "Catedral-Basílica Primacial de São Salvador",
+            "Catedral Primacial do Brasil",
+            "Igreja do Colégio dos Jesuítas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Grutas de Ajanta",
+        "descricao": "Conjunto de cerca de 30 templos e mosteiros budistas escavados na rocha, em Maharashtra, na Índia.",
+        "variantes": [
+          "Cavernas de Ajanta",
+          "Ajanta Caves"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cueva_de_la_arana",
+          "nome": "Cueva de la Araña",
+          "descricao": "Cavernas em Bicorp, na Espanha, com uma pintura rupestre de cerca de oito mil anos que mostra a coleta de mel.",
+          "variantes": [
+            "Cuevas de la Araña",
+            "Caverna da Aranha"
+          ]
+        },
+        {
+          "id": "caverna_dos_cristais",
+          "nome": "Caverna dos Cristais",
+          "descricao": "Caverna na mina de Naica, no estado de Chihuahua, com cristais gigantes de gipsita e calor extremo.",
+          "variantes": [
+            "Cueva de los Cristales",
+            "Cave of the Crystals",
+            "Caverna dos Cristais de Naica",
+            "Caverna de Naica"
+          ]
+        },
+        {
+          "id": "cartas_de_amarna",
+          "nome": "Cartas de Amarna",
+          "descricao": "Arquivo de tabuletas de argila com a correspondência diplomática dos faraós com reis do Oriente Próximo, achado em Amarna",
+          "variantes": [
+            "Amarna letters",
+            "Correspondência de Amarna"
+          ]
+        },
+        {
+          "id": "caverna_de_altamira",
+          "nome": "Caverna de Altamira",
+          "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+          "variantes": [
+            "Altamira",
+            "Cueva de Altamira",
+            "Cave of Altamira"
+          ]
+        },
+        {
+          "id": "caverna_de_shanidar",
+          "nome": "Caverna de Shanidar",
+          "descricao": "Caverna nos montes Zagros onde foram achados esqueletos de Neandertais, alguns com sinais de sepultamento.",
+          "variantes": [
+            "Shanidar"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata descreve as muralhas de Dubrovnik; a República de Ragusa é um estado, não as muralhas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cidadela de Bam no Irã."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "mesquita_de_al_aqsa",
+      "motivo": "Mesma mesquita de Al-Aqsa em Jerusalém, nomes e localização coincidem."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "piramide_da_lua",
+      "motivo": "Descrição idêntica: Pirâmide da Lua de Teotihuacan."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde ao Taq Kasra de Ctesifonte."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Igreja do Rosário dos Pretos em Salvador não consta entre as candidatas; a Catedral Basílica é outra igreja."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é as Grutas de Ajanta."
+    }
+  ]
+}

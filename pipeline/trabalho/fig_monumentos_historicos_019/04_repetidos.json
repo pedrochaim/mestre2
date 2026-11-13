@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica esta mesquita de fachada em arcos?",
+        "resposta": "Jerusalém"
+      },
+      "existentes": [
+        {
+          "id": "q09455",
+          "pergunta": "Depois das grandes mesquitas de Meca e de Medina, que mesquita de Jerusalém é tida como o terceiro lugar mais sagrado do islã?",
+          "resposta": "Mesquita de Al-Aqsa"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pirâmide da antiga cidade de Teotihuacan é esta?",
+        "resposta": "Pirâmide da Lua"
+      },
+      "existentes": [
+        {
+          "id": "q19749",
+          "pergunta": "Que pirâmide de Teotihuacan é esta?",
+          "resposta": "Pirâmide da Lua"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a cidade de uma mesquita mostrada em imagem; a existente pede o nome da mesquita de Jerusalém. Fatos diferentes, e saber o nome da mesquita não garante identificar a da imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q19749",
+      "motivo": "Mesma pergunta (qual pirâmide de Teotihuacan é esta) e mesma resposta, Pirâmide da Lua."
+    }
+  ]
+}

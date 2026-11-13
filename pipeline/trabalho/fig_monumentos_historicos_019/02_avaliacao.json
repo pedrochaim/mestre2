@@ -1,0 +1,199 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Forte de São João e muralhas de Dubrovnik visíveis, sem texto. A família 'quando' não rende resposta única (obras entre os séculos 13 e 17), então a pergunta é de 'onde'.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam estas muralhas à beira-mar?",
+      "resposta": "Croácia",
+      "distratores": [
+        "Montenegro",
+        "Itália",
+        "Grécia"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Muralhas de Dubrovnik",
+        "descricao": "Sistema de muralhas defensivas de pedra que cercam a cidade velha de Dubrovnik, na Croácia.",
+        "variantes": [
+          "Muralhas de Ragusa",
+          "Dubrovačke gradske zidine"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Há texto visível que entrega a resposta: a placa 'Rialto' no ponto de embarque do vaporetto. Há também pessoas comuns em primeiro plano, no barco."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A foto é antiga, em preto e branco e de baixa qualidade. Mostra só um muro de pedra em ruínas, sem nada que permita reconhecer Khami, e não fica legível num celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A placa sobre a porta tem o nome do mosteiro em caracteres chineses (少林寺), texto visível que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns aparecem em primeiro plano, com destaque para turistas e um guarda na praça. Há ainda placas e letreiros legíveis, como 'Keats-Shelley House'."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "A fortaleza de adobe é nítida e característica, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta fortaleza de barro?",
+      "resposta": "Irã",
+      "distratores": [
+        "Afeganistão",
+        "Iraque",
+        "Uzbequistão"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Cidadela de Bam",
+        "descricao": "Fortaleza de adobe na cidade de Bam, na província de Kerman, no Irã, danificada pelo terremoto de 2003.",
+        "variantes": [
+          "Arg-e Bam",
+          "Arg-é Bam"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "A mesquita e a esplanada são nítidas, sem texto. A família 'quando' é ambígua (final do século 7 ou começo do século 8, com muitas reconstruções), então a pergunta é de 'onde'.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta mesquita de fachada em arcos?",
+      "resposta": "Jerusalém",
+      "distratores": [
+        "Damasco",
+        "Istambul",
+        "Medina"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Mesquita de Al-Aqsa",
+        "descricao": "Mesquita principal do complexo de Al-Aqsa, na Cidade Velha de Jerusalém, junto à Cúpula da Rocha.",
+        "variantes": [
+          "Mesquita Al-Aqsa",
+          "Mesquita Qibli",
+          "Al-Masjid al-Aqsa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "A pirâmide escalonada tem boa nitidez e não há texto. Pessoas aparecem pequenas e ao longe, como visitantes de um sítio público. O enunciado cita só o sítio, não a pirâmide.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pirâmide da antiga cidade de Teotihuacan é esta?",
+      "resposta": "Pirâmide da Lua",
+      "distratores": [
+        "Pirâmide do Sol",
+        "Templo da Serpente Emplumada",
+        "Pirâmide de Cholula"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Pirâmide da Lua (Teotihuacan)",
+        "descricao": "Segunda maior pirâmide de Teotihuacan, no México, no fim da Avenida dos Mortos.",
+        "variantes": [
+          "Pirâmide da Lua",
+          "Pyramid of the Moon"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "O grande arco de tijolos com andaime é característico e não há texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam as ruínas deste palácio persa?",
+      "resposta": "Iraque",
+      "distratores": [
+        "Irã",
+        "Síria",
+        "Turquia"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Taq Kasra",
+        "descricao": "Ruína da fachada do palácio sassânida de Ctesifonte, com um grande arco de tijolos, perto de Salman Pak, no Iraque.",
+        "variantes": [
+          "Arco de Ctesifonte",
+          "Taq-e Kesra",
+          "Eivan de Cosroes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "A fachada azul barroca é nítida, sem texto. Há duas pessoas cortadas na base da foto, mas pequenas e sem destaque.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi construída esta igreja barroca do Pelourinho, em Salvador?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezesseis",
+        "Século dezessete",
+        "Século dezenove"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Igreja de Nossa Senhora do Rosário dos Pretos (Salvador)",
+        "descricao": "Igreja católica azul do Largo do Pelourinho, no centro histórico de Salvador, Bahia, construída no século dezoito.",
+        "variantes": [
+          "Igreja do Rosário dos Pretos",
+          "Igreja de Nossa Senhora do Rosário dos Pretos"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "A fachada do templo escavado na rocha é nítida. A única placa visível é pequena e não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que religião motivou a escavação destes templos na rocha?",
+      "resposta": "Budismo",
+      "distratores": [
+        "Hinduísmo",
+        "Jainismo",
+        "Islamismo"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Grutas de Ajanta",
+        "descricao": "Conjunto de cerca de 30 templos e mosteiros budistas escavados na rocha, em Maharashtra, na Índia.",
+        "variantes": [
+          "Cavernas de Ajanta",
+          "Ajanta Caves"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem é pequena e de baixa resolução, e mostra uma estrutura circular em ruínas sem nada que a identifique como a Vila Adriana. Não é reconhecível nem tem resposta única, e não fica legível num celular."
+    }
+  ]
+}
