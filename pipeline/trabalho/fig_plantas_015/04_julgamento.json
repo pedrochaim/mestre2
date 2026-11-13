@@ -1,0 +1,642 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pêssego",
+        "descricao": "Fruto do pessegueiro (Prunus persica), de casca aveludada e caroço duro.",
+        "variantes": [
+          "Prunus persica",
+          "Pessegueiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pessego",
+          "nome": "Pêssego",
+          "descricao": "Fruto aveludado do pessegueiro, Prunus persica, originário da China.",
+          "variantes": [
+            "Prunus persica"
+          ]
+        },
+        {
+          "id": "pessego_melba",
+          "nome": "Pêssego Melba",
+          "descricao": "Sobremesa de pêssegos com sorvete de baunilha e calda de framboesa, criada no fim do século dezenove",
+          "variantes": [
+            "Peach Melba",
+            "Pêche Melba"
+          ]
+        },
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura",
+            "Cena da Natividade",
+            "Lapinha"
+          ]
+        },
+        {
+          "id": "pesto",
+          "nome": "Pesto",
+          "descricao": "Molho italiano cru de manjericão, alho, pinoli, queijo e azeite, originário da Ligúria",
+          "variantes": [
+            "Pesto genovês",
+            "Pesto alla genovese"
+          ]
+        },
+        {
+          "id": "cafe_expresso",
+          "nome": "Café expresso",
+          "descricao": "Café concentrado preparado forçando água quente sob alta pressão através do pó fino, de origem italiana.",
+          "variantes": [
+            "Espresso",
+            "Expresso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cravo-de-defunto",
+        "descricao": "Planta ornamental Tagetes erecta, de flores amarelas ou alaranjadas, nativa do México e da América Central.",
+        "variantes": [
+          "Tagetes erecta",
+          "Cempasúchil",
+          "Tagetes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coroa_do_advento",
+          "nome": "Coroa do Advento",
+          "descricao": "Coroa de ramos verdes com quatro velas, acesas uma a cada domingo do Advento, tradição cristã luterana que antecede o Natal.",
+          "variantes": [
+            "Advent wreath",
+            "Corona de Advento"
+          ]
+        },
+        {
+          "id": "ima",
+          "nome": "Ímã",
+          "descricao": "Objeto que produz um campo magnético e atrai materiais ferromagnéticos; aqui, um ímã em barra com polos marcados.",
+          "variantes": [
+            "Magneto",
+            "Magnete",
+            "Magnet"
+          ]
+        },
+        {
+          "id": "baguete",
+          "nome": "Baguete",
+          "descricao": "Pão longo e fino de massa simples e casca crocante, típico da França.",
+          "variantes": [
+            "Baguette"
+          ]
+        },
+        {
+          "id": "tiradentes",
+          "nome": "Tiradentes",
+          "descricao": "Joaquim José da Silva Xavier, alferes e principal mártir da Inconfidência Mineira, executado em 1792.",
+          "variantes": [
+            "Joaquim José da Silva Xavier"
+          ]
+        },
+        {
+          "id": "tiradentes_2",
+          "nome": "Tiradentes",
+          "descricao": "Município histórico de Minas Gerais, antiga São José del Rei, com a Matriz de Santo Antônio.",
+          "variantes": [
+            "São José del Rei"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Noz",
+        "descricao": "Semente comestível da nogueira (gênero Juglans), em casca rugosa.",
+        "variantes": [
+          "Noz comum",
+          "Juglans regia",
+          "Walnut"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "noz",
+          "nome": "Noz",
+          "descricao": "Semente comestível da nogueira (Juglans regia), com casca dura e enrugada e miolo em forma de cérebro.",
+          "variantes": [
+            "Noz comum",
+            "Walnut"
+          ]
+        },
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        },
+        {
+          "id": "nowruz",
+          "nome": "Nowruz",
+          "descricao": "Ano-novo persa, celebrado no Irã, na Ásia Central e em outras regiões de influência persa.",
+          "variantes": [
+            "Noruz",
+            "Norouz",
+            "Ano-novo persa"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "foca_comum",
+          "nome": "Foca-comum",
+          "descricao": "Foca verdadeira (Phoca vitulina) do hemisfério norte, o pinípede de maior distribuição.",
+          "variantes": [
+            "Phoca vitulina",
+            "Foca-do-porto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Abacaxi",
+        "descricao": "Planta Ananas comosus e seu fruto, da família das bromeliáceas.",
+        "variantes": [
+          "Bromélia",
+          "Ananas comosus",
+          "Abacaxizeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "bromelia",
+          "nome": "Bromélia",
+          "descricao": "Planta da família Bromeliaceae, muitas vezes epífita, cujas folhas em roseta acumulam água.",
+          "variantes": [
+            "Bromeliaceae",
+            "Gravatá"
+          ]
+        },
+        {
+          "id": "acai",
+          "nome": "Açaí",
+          "descricao": "Palmeira amazônica Euterpe oleracea, cultivada pelo fruto roxo-escuro e pelo palmito.",
+          "variantes": [
+            "Açaizeiro",
+            "Euterpe oleracea",
+            "Açaí palm"
+          ]
+        },
+        {
+          "id": "abacate",
+          "nome": "Abacate",
+          "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+          "variantes": [
+            "Persea americana",
+            "Abacateiro"
+          ]
+        },
+        {
+          "id": "roselia",
+          "nome": "Roselia",
+          "descricao": "Pokémon dos tipos Planta e Venenoso, número 315 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Flor-de-cera",
+        "descricao": "Trepadeira ornamental Hoya carnosa, de folhas cerosas e flores estreladas perfumadas.",
+        "variantes": [
+          "Hoya carnosa",
+          "Hoya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iansa",
+          "nome": "Iansã",
+          "descricao": "Orixá dos ventos, raios e tempestades nas religiões afro-brasileiras.",
+          "variantes": [
+            "Oyá",
+            "Oiá"
+          ]
+        },
+        {
+          "id": "torre_digital_de_brasilia",
+          "nome": "Torre Digital de Brasília",
+          "descricao": "Torre de TV digital de Brasília, de Oscar Niemeyer, conhecida como Flor do Cerrado.",
+          "variantes": [
+            "Torre de TV Digital de Brasília",
+            "Flor do Cerrado"
+          ]
+        },
+        {
+          "id": "meteorito_hoba",
+          "nome": "Meteorito Hoba",
+          "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+          "variantes": [
+            "Meteorito",
+            "Hoba",
+            "Hoba West"
+          ]
+        },
+        {
+          "id": "flor_de_maio",
+          "nome": "Flor-de-maio",
+          "descricao": "Cacto epífito do gênero Schlumbergera, nativo da Mata Atlântica do Sudeste brasileiro",
+          "variantes": [
+            "Schlumbergera",
+            "Cacto-de-natal",
+            "Christmas cactus"
+          ]
+        },
+        {
+          "id": "holocausto",
+          "nome": "Holocausto",
+          "descricao": "Genocídio de cerca de seis milhões de judeus europeus promovido pela Alemanha nazista e seus colaboradores.",
+          "variantes": [
+            "Shoá",
+            "Shoah"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Coentro",
+        "descricao": "Erva aromática Coriandrum sativum, de folhas recortadas, usada na culinária.",
+        "variantes": [
+          "Coriandrum sativum",
+          "Cilantro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "centauro",
+          "nome": "Centauro",
+          "descricao": "Criatura da mitologia grega com tronco humano e corpo de cavalo.",
+          "variantes": [
+            "Centaur",
+            "Hipocentauro"
+          ]
+        },
+        {
+          "id": "controle_remoto",
+          "nome": "Controle remoto",
+          "descricao": "Dispositivo eletrônico de mão que comanda à distância aparelhos como a televisão, aqui com teclado numérico e botões coloridos.",
+          "variantes": [
+            "Controle",
+            "Telecomando",
+            "Remote control"
+          ]
+        },
+        {
+          "id": "cilan",
+          "nome": "Cilan",
+          "descricao": "Líder de ginásio de Striaton e conhecedor pokémon, companheiro de viagem de Ash em Unova no anime.",
+          "variantes": [
+            "Dent"
+          ]
+        },
+        {
+          "id": "cinto",
+          "nome": "Cinto",
+          "descricao": "Faixa flexível de couro ou tecido, com fivela, usada na cintura para prender a roupa ou como adorno.",
+          "variantes": [
+            "Cinta",
+            "Cinturão"
+          ]
+        },
+        {
+          "id": "contralto",
+          "nome": "Contralto",
+          "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
+          "variantes": [
+            "Contralto (voz)",
+            "Alto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Jacinto",
+        "descricao": "Planta bulbosa do gênero Hyacinthus, de cachos perfumados de flores, florescendo na primavera.",
+        "variantes": [
+          "Hyacinthus",
+          "Jacinto-dos-jardins"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "libelula",
+          "nome": "Libélula",
+          "descricao": "Insetos voadores da ordem Odonata, de corpo longo, quatro asas e larvas aquáticas.",
+          "variantes": [
+            "Lavadeira",
+            "Odonata",
+            "Jacinta"
+          ]
+        },
+        {
+          "id": "cinto",
+          "nome": "Cinto",
+          "descricao": "Faixa flexível de couro ou tecido, com fivela, usada na cintura para prender a roupa ou como adorno.",
+          "variantes": [
+            "Cinta",
+            "Cinturão"
+          ]
+        },
+        {
+          "id": "clube_dos_jacobinos",
+          "nome": "Clube dos Jacobinos",
+          "descricao": "Clube político da Revolução Francesa, reduto dos revolucionários radicais liderados por Robespierre.",
+          "variantes": [
+            "Jacobinos",
+            "Jacobin Club",
+            "Société des amis de la Constitution"
+          ]
+        },
+        {
+          "id": "mackintosh",
+          "nome": "Mackintosh",
+          "descricao": "Capa de chuva de tecido impermeabilizado criada pelo escocês Charles Macintosh no século dezenove",
+          "variantes": [
+            "Macintosh",
+            "Mac"
+          ]
+        },
+        {
+          "id": "macintosh",
+          "nome": "Macintosh",
+          "descricao": "Linha de computadores pessoais da Apple, lançada em 1984.",
+          "variantes": [
+            "Mac"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cantarelo",
+        "descricao": "Cogumelo comestível Cantharellus cibarius, amarelo-alaranjado, em forma de funil com dobras.",
+        "variantes": [
+          "Cantharellus cibarius",
+          "Chanterelle",
+          "Girolle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grotle",
+          "nome": "Grotle",
+          "descricao": "Pokémon do tipo Planta, número 388 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "antares",
+          "nome": "Antares",
+          "descricao": "Estrela supergigante vermelha, a mais brilhante da constelação de Escorpião.",
+          "variantes": [
+            "Alfa do Escorpião"
+          ]
+        },
+        {
+          "id": "lingua_catala",
+          "nome": "Língua catalã",
+          "descricao": "Língua românica falada na Catalunha, em Valência, nas Ilhas Baleares e em Andorra.",
+          "variantes": [
+            "Catalão",
+            "Català"
+          ]
+        },
+        {
+          "id": "castelo_medieval",
+          "nome": "Castelo medieval",
+          "descricao": "Fortificação residencial de senhores e reis da Europa medieval, com muralhas, torres e fosso.",
+          "variantes": [
+            "Castelo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Amarílis",
+        "descricao": "Planta bulbosa ornamental do gênero Hippeastrum, de flores grandes em forma de trompete.",
+        "variantes": [
+          "Hippeastrum",
+          "Amaryllis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estrela_da_terra",
+          "nome": "Estrela-da-terra",
+          "descricao": "Fungo do gênero Geastrum, cuja camada externa se abre em segmentos em forma de estrela ao redor do saco de esporos.",
+          "variantes": [
+            "Geastrum",
+            "Earthstar"
+          ]
+        },
+        {
+          "id": "marill",
+          "nome": "Marill",
+          "descricao": "Pokémon rato aquático do tipo Água/Fada da segunda geração, número 183 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "agudas",
+          "nome": "Agudás",
+          "descricao": "Comunidade de descendentes de africanos e brasileiros que se estabeleceram no golfo da Guiné vindos do Brasil, sobretudo no século dezenove.",
+          "variantes": [
+            "Amarôs",
+            "Brasileiros do Benim"
+          ]
+        },
+        {
+          "id": "maoris",
+          "nome": "Maoris",
+          "descricao": "Povo polinésio nativo da Nova Zelândia, que chegou às ilhas por volta do século treze.",
+          "variantes": [
+            "Māori",
+            "Maori"
+          ]
+        },
+        {
+          "id": "azumarill",
+          "nome": "Azumarill",
+          "descricao": "Pokémon dos tipos Água e Fada, número 184 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Coroa-de-cristo",
+        "descricao": "Planta ornamental Euphorbia milii, espinhosa, nativa de Madagascar, de pequenas flores vermelhas.",
+        "variantes": [
+          "Euphorbia milii",
+          "Espinho-de-cristo",
+          "Crown-of-thorns"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cruz_da_ordem_de_cristo",
+          "nome": "Cruz da Ordem de Cristo",
+          "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+          "variantes": [
+            "Cruz de Cristo",
+            "Cruz Portuguesa"
+          ]
+        },
+        {
+          "id": "porco_espinho",
+          "nome": "Porco-espinho",
+          "descricao": "Roedor da espécie Hystrix cristata, o porco-espinho-de-crista, com espinhos longos no dorso.",
+          "variantes": [
+            "Porco-espinho-de-crista",
+            "Hystrix cristata",
+            "Porco-espinho-crestado"
+          ]
+        },
+        {
+          "id": "ordem_de_cristo",
+          "nome": "Ordem de Cristo",
+          "descricao": "Ordem militar portuguesa criada em 1319 para receber os bens e membros dos templários em Portugal.",
+          "variantes": [
+            "Ordem Militar de Cristo",
+            "Order of Christ"
+          ]
+        },
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        },
+        {
+          "id": "a_descida_da_cruz_van_der_weyden",
+          "nome": "A Descida da Cruz (Van der Weyden)",
+          "descricao": "Pintura em painel de Rogier van der Weyden, de cerca de 1435, no Museu do Prado, que mostra Cristo sendo baixado da cruz.",
+          "variantes": [
+            "The Descent from the Cross",
+            "A Deposição da Cruz",
+            "Deposição de Cristo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "pessego",
+      "motivo": "Mesmo fruto do pessegueiro, Prunus persica."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a planta Tagetes erecta."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "noz",
+      "motivo": "Mesma semente da nogueira, Juglans regia."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "abacaxi",
+      "motivo": "Mesma planta/fruto Ananas comosus; bromélia é a família, distinta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Hoya carnosa não corresponde a nenhuma candidata; Flor-de-maio é outra planta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o coentro."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a planta jacinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cogumelo cantarelo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a planta amarílis."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a planta Euphorbia milii."
+    }
+  ]
+}

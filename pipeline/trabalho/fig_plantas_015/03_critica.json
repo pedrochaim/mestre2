@@ -1,0 +1,104 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Cortada ao meio' não consta em `mostra` e pode ser falso para esta foto. Tirei a afirmação para o enunciado valer para qualquer imagem do pêssego.",
+      "reescrita": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Pêssego",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A dália é nativa do México e pode ser amarela, então também é defensável. Troquei esse distrator por outra flor que não é nativa do México.",
+      "reescrita": {
+        "pergunta": "Que flor amarela, nativa do México, é esta?",
+        "resposta": "Cravo-de-defunto",
+        "distratores": [
+          "Calêndula",
+          "Gérbera",
+          "Crisântemo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A resposta 'Orquídea-abelha' não é o nome comum em português dos trechos (erva-abelha, abelha-flor). O enunciado ainda traz 'orquídea', parte da resposta. Outras Ophrys podem se confundir com ela. Não tem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A noz em casca rugosa se distingue da noz-pecã, que é lisa, da avelã e da amêndoa. Não há vazamento e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 3 correto: é preciso reconhecer o abacaxi para dizer que é uma bromeliácea. O enunciado não vaza a resposta e o trecho confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista (trepadeira de vaso) não entrega o nome. A resposta é única e os trechos a sustentam.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são apiáceas de folhas parecidas e todos críveis. Não há vazamento e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista (bulbo, perfume, primavera) é verdadeira e não basta sozinha, porque outras bulbosas também são perfumadas. A figura decide. Os trechos sustentam.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português chama a espécie de cantarelo e a cor amarelo-alaranjada confere. A pista não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "`mostra` descreve a semente (amêndoa), mas a pergunta fala de uma 'ilustração botânica' de árvore. Não há como confirmar o que a imagem mostra, e a resposta (amendoeira) destoa de `mostra`.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pétalas vermelhas' não consta em `mostra` e pode ser falso para esta foto. Troquei pela forma de trompete, que consta.",
+      "reescrita": {
+        "pergunta": "Que planta ornamental de bulbo, de flores grandes em forma de trompete, é esta?",
+        "resposta": "Amarílis",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A poinsétia é uma euforbiácea parecida e a ixora tem flores vermelhas pequenas, então os distratores são críveis. O enunciado não vaza a resposta.",
+      "reescrita": null
+    }
+  ]
+}

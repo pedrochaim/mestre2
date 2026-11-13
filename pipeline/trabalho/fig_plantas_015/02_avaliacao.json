@@ -1,0 +1,263 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pêssego cortado, casca aveludada visível, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta, cortada ao meio?",
+      "resposta": "Pêssego",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pêssego",
+        "descricao": "Fruto do pessegueiro (Prunus persica), de casca aveludada e caroço duro.",
+        "variantes": [
+          "Prunus persica",
+          "Pessegueiro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cravos-de-defunto em canteiro, flores grandes e amarelas, reconhecível; distratores amarelos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que flor amarela, nativa do México, é esta?",
+      "resposta": "Cravo-de-defunto",
+      "distratores": [
+        "Calêndula",
+        "Dália",
+        "Crisântemo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cravo-de-defunto",
+        "descricao": "Planta ornamental Tagetes erecta, de flores amarelas ou alaranjadas, nativa do México e da América Central.",
+        "variantes": [
+          "Tagetes erecta",
+          "Cempasúchil",
+          "Tagetes"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Close nítido da flor, labelo imitando abelha, característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que orquídea europeia é esta?",
+      "resposta": "Orquídea-abelha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Orquídea-abelha",
+        "descricao": "Orquídea europeia Ophrys apifera, cujo labelo imita uma abelha para atrair polinizadores.",
+        "variantes": [
+          "Ophrys apifera",
+          "Bee orchid"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Noz inteira, aberta e miolo sobre fundo neutro, nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que semente comestível é esta?",
+      "resposta": "Noz",
+      "distratores": [
+        "Noz-pecã",
+        "Avelã",
+        "Amêndoa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Noz",
+        "descricao": "Semente comestível da nogueira (gênero Juglans), em casca rugosa.",
+        "variantes": [
+          "Noz comum",
+          "Juglans regia",
+          "Walnut"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "A imagem mostra um abacaxi na planta, não uma bromélia genérica; pergunta ajustada para a família, o que dá resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A que família botânica pertence esta planta frutífera?",
+      "resposta": "Bromeliáceas (bromélias)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Abacaxi",
+        "descricao": "Planta Ananas comosus e seu fruto, da família das bromeliáceas.",
+        "variantes": [
+          "Ananas comosus",
+          "Abacaxizeiro"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Flores em umbela e folhas cerosas típicas, nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que planta trepadeira de vaso é esta?",
+      "resposta": "Flor-de-cera",
+      "destino": 0,
+      "ancora": {
+        "nome": "Flor-de-cera",
+        "descricao": "Trepadeira ornamental Hoya carnosa, de folhas cerosas e flores estreladas perfumadas.",
+        "variantes": [
+          "Hoya carnosa",
+          "Hoya"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Folhas de coentro em close; possível confusão com salsa, tratada com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que erva aromática é esta?",
+      "resposta": "Coentro",
+      "distratores": [
+        "Salsa",
+        "Cerefólio",
+        "Salsão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coentro",
+        "descricao": "Erva aromática Coriandrum sativum, de folhas recortadas, usada na culinária.",
+        "variantes": [
+          "Coriandrum sativum",
+          "Cilantro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Jacinto azul bem característico; pista de mitologia entregaria, então só pista botânica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Que flor perfumada, que brota de bulbo na primavera, é esta?",
+      "resposta": "Jacinto",
+      "destino": 0,
+      "ancora": {
+        "nome": "Jacinto",
+        "descricao": "Planta bulbosa do gênero Hyacinthus, de cachos perfumados de flores, florescendo na primavera.",
+        "variantes": [
+          "Hyacinthus",
+          "Jacinto-dos-jardins"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Grupo de cantarelos nítido no solo da floresta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cogumelo comestível, de cor amarelo-alaranjada, é este?",
+      "resposta": "Cantarelo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cantarelo",
+        "descricao": "Cogumelo comestível Cantharellus cibarius, amarelo-alaranjado, em forma de funil com dobras.",
+        "variantes": [
+          "Cantharellus cibarius",
+          "Chanterelle",
+          "Girolle"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ilustração botânica antiga sem texto, com flores, frutos e sementes da amendoeira; um único assunto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que árvore é retratada nesta ilustração botânica?",
+      "resposta": "Amendoeira",
+      "distratores": [
+        "Pessegueiro",
+        "Ameixeira",
+        "Damasqueiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Amêndoa",
+        "descricao": "Semente comestível da amendoeira (Prunus dulcis), árvore do gênero Prunus.",
+        "variantes": [
+          "Amendoeira",
+          "Prunus dulcis",
+          "Prunus amygdalus",
+          "Almond"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Flor vermelha grande em close, nítida e característica do amarílis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que flor de bulbo, de pétalas vermelhas grandes, é esta?",
+      "resposta": "Amarílis",
+      "destino": 0,
+      "ancora": {
+        "nome": "Amarílis",
+        "descricao": "Planta bulbosa ornamental do gênero Hippeastrum, de flores grandes em forma de trompete.",
+        "variantes": [
+          "Hippeastrum",
+          "Amaryllis"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Flores vermelhas nítidas em close; distratores vermelhos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta ornamental é esta?",
+      "resposta": "Coroa-de-cristo",
+      "distratores": [
+        "Poinsétia",
+        "Ixora",
+        "Begônia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coroa-de-cristo",
+        "descricao": "Planta ornamental Euphorbia milii, espinhosa, nativa de Madagascar, de pequenas flores vermelhas.",
+        "variantes": [
+          "Euphorbia milii",
+          "Espinho-de-cristo",
+          "Crown-of-thorns"
+        ]
+      }
+    }
+  ]
+}

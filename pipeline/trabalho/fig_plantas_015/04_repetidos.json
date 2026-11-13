@@ -1,0 +1,84 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Pêssego"
+      },
+      "existentes": [
+        {
+          "id": "q06127",
+          "pergunta": "O nome da fruta pêssego vem do latim e indica a região de onde os romanos achavam que ela vinha. Que região era essa?",
+          "resposta": "Pérsia"
+        },
+        {
+          "id": "q18116",
+          "pergunta": "Embora o nome remeta à Pérsia, o pêssego é originário de qual país?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que semente comestível é esta?",
+        "resposta": "Noz"
+      },
+      "existentes": [
+        {
+          "id": "q14622",
+          "pergunta": "Que fruto seco é este?",
+          "resposta": "Noz"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A que família botânica pertence esta planta frutífera?",
+        "resposta": "Bromeliáceas (bromélias)"
+      },
+      "existentes": [
+        {
+          "id": "q02652",
+          "pergunta": "Pineapple, o nome do abacaxi em inglês, compara a fruta a que coisa?",
+          "resposta": "Pinha, o cone do pinheiro"
+        },
+        {
+          "id": "q06098",
+          "pergunta": "Que enzima do abacaxi fresco ajuda a amaciar carnes e deixa a língua ardida quando se come muito da fruta?",
+          "resposta": "Bromelina"
+        },
+        {
+          "id": "q09278",
+          "pergunta": "Que fruta tropical é esta, ainda na planta?",
+          "resposta": "Abacaxi"
+        },
+        {
+          "id": "q18121",
+          "pergunta": "Quem faz gelatina com abacaxi fresco descobre que ela não endurece. Por que isso acontece?",
+          "resposta": "Enzima que digere proteínas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta de identificação da fruta (imagem), resposta Pêssego; as existentes perguntam sobre Pérsia e China, fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14622",
+      "motivo": "Ambas pedem identificar a noz numa imagem, com a mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A família botânica (bromeliáceas) é um fato diferente de nome em inglês, enzima, gelatina ou identificação."
+    }
+  ]
+}
