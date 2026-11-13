@@ -1,0 +1,43 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado fiel aos trechos (início do século vinte, primeiros receptores). Não nomeia a resposta, e os distratores são do mesmo tipo e não descrevem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não sustentam a década em que o aparelho foi 'inventado'. A autoria e a data são disputadas (patentes, nome comercial já em 1999, fabricantes chineses). A resposta 'Década de 2010' é frágil e a pergunta mal depende da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é verdadeiro e não vaza o nome. A figura mostra o Sputnik 1, então a resposta é única, e a pergunta vale como nível 1 de reconhecimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Invenção de 1877 confirmada nos trechos (século dezenove). Os distratores são aparelhos parecidos do mesmo catálogo, e a imagem distingue o praxinoscópio.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Com um objeto sobre o vidro' é uma afirmação sobre a foto que não está em `mostra` e não pode ser verificada. Removi esse trecho e deixei o enunciado curto.",
+      "reescrita": {
+        "pergunta": "Que periférico de computador é este, usado para digitalizar documentos?",
+        "resposta": "Scanner de mesa",
+        "distratores": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que satélite artificial lançado pela União Soviética é este?",
+        "resposta": "Sputnik 1"
+      },
+      "existentes": [
+        {
+          "id": "q00560",
+          "pergunta": "O primeiro satélite artificial, lançado pelos soviéticos, tem um nome russo que pode ser traduzido como o quê?",
+          "resposta": "Companheiro de viagem"
+        },
+        {
+          "id": "q00593",
+          "pergunta": "Em que ano a União Soviética lançou o Sputnik, o primeiro satélite artificial, dando início à corrida espacial?",
+          "resposta": "1957"
+        },
+        {
+          "id": "q03911",
+          "pergunta": "O lançamento do satélite soviético Sputnik, em 1957, levou os Estados Unidos a criar no ano seguinte qual agência espacial?",
+          "resposta": "Nasa"
+        },
+        {
+          "id": "q15804",
+          "pergunta": "Quem foi o engenheiro-chefe do programa que construiu este satélite?",
+          "resposta": "Sergei Korolev"
+        },
+        {
+          "id": "q16835",
+          "pergunta": "Lançado pela União Soviética em 1957, o Sputnik 1 era uma esfera metálica polida com quantas antenas compridas?",
+          "resposta": "Quatro"
+        },
+        {
+          "id": "q17285",
+          "pergunta": "O Sputnik 1 não tinha câmeras. O que ele fazia em órbita que radioamadores do mundo todo conseguiam captar?",
+          "resposta": "Emitia bipes de rádio"
+        },
+        {
+          "id": "q20735",
+          "pergunta": "Este objeto esférico de metal polido foi lançado em órbita da Terra no século vinte. Que país o lançou?",
+          "resposta": "União Soviética"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que aparelho de animação do século dezenove é este?",
+        "resposta": "Praxinoscópio"
+      },
+      "existentes": [
+        {
+          "id": "q17094",
+          "pergunta": "Quem inventou este aparelho, na França, em 1877?",
+          "resposta": "Charles-Émile Reynaud"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do satélite (identificação por imagem); nenhuma existente tem como resposta Sputnik 1. As existentes tratam de tradução do nome, ano, agência, engenheiro, antenas, bipes e país, que são fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do aparelho (Praxinoscópio); a existente pede quem o inventou. São fatos diferentes."
+    }
+  ]
+}

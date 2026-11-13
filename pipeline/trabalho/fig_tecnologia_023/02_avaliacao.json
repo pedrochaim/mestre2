@@ -1,0 +1,150 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra várias antenas diferentes numa mesma torre (Yagis e outras), então a resposta não é única nem claramente a antena Yagi."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Aparecem os textos 'KINECT' e 'XBOX 360' no aparelho, que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto limpa e sem texto de um tubo de vidro com limalha e eletrodos, característico do coesor. Em múltipla escolha com tubos eletrônicos parecidos, a pergunta fica justa.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que componente dos primeiros receptores de rádio, do início do século vinte, é este?",
+      "resposta": "Coesor",
+      "distratores": [
+        "Válvula diodo",
+        "Cristal de galena",
+        "Tubo de Geiger"
+      ],
+      "ancora": {
+        "nome": "Coesor",
+        "descricao": "Detector primitivo de sinais de rádio, um tubo de vidro com limalha metálica entre dois eletrodos, usado na telegrafia sem fio.",
+        "variantes": [
+          "Coherer",
+          "Tubo de Branly"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A marca 'SONY', o modelo e o logotipo 'DVD' aparecem no aparelho e no controle remoto, entregando a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O nome 'Moog' aparece escrito nos gabinetes, e há uma pessoa em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A foto mostra dois operadores diante de armários escuros e sem identificação. A máquina não é reconhecível pela imagem e pode ser confundida com outros computadores da época, como o ENIAC."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara do hoverboard, com apenas os pés da pessoa aparecendo. A época de invenção é uma pergunta de nível 2 com décadas próximas. O texto visível é minúsculo e a resposta é uma década, não o nome.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década este veículo de duas rodas motorizadas foi inventado na forma atual?",
+      "resposta": "Década de 2010",
+      "distratores": [
+        "Década de 1980",
+        "Década de 1990",
+        "Década de 2000"
+      ],
+      "ancora": {
+        "nome": "Hoverboard",
+        "descricao": "Patinete autoequilibrado com duas rodas motorizadas e dois apoios para os pés, popularizado a partir de 2013.",
+        "variantes": [
+          "Scooter autoequilibrada",
+          "Swegway",
+          "Prancha autoequilibrada"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Réplica do Sputnik 1 num museu, com esfera polida e quatro antenas, reconhecível e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que satélite artificial lançado pela União Soviética é este?",
+      "resposta": "Sputnik 1",
+      "ancora": {
+        "nome": "Sputnik 1",
+        "descricao": "Primeiro satélite artificial da Terra, lançado pela União Soviética em 4 de outubro de 1957.",
+        "variantes": [
+          "Sputnik",
+          "Спутник-1"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A calculadora mecânica de cobre com manivela não é claramente reconhecível como o comptômetro e pode ser confundida com outras calculadoras de teclas da época."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto limpa de um praxinoscópio com tambor de imagens, sem texto. O aparelho é de aficionado, então a múltipla escolha com dispositivos de animação parecidos é justa.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho de animação do século dezenove é este?",
+      "resposta": "Praxinoscópio",
+      "distratores": [
+        "Zoótropo",
+        "Fenacistoscópio",
+        "Taumatrópio"
+      ],
+      "ancora": {
+        "nome": "Praxinoscópio",
+        "descricao": "Aparelho de animação inventado por Charles-Émile Reynaud em 1877, com um tambor de imagens e espelhos internos.",
+        "variantes": [
+          "Praxinoscope"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Scanner de mesa aberto, claro e sem texto legível, reconhecível pela tampa e pelo vidro.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que periférico de computador é este, com um objeto sobre o vidro?",
+      "resposta": "Scanner de mesa",
+      "ancora": {
+        "nome": "Scanner de mesa",
+        "descricao": "Digitalizador de imagens com tampa e vidro plano onde o documento é colocado.",
+        "variantes": [
+          "Digitalizador",
+          "Scanner plano",
+          "Flatbed scanner"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O nome 'POWER GLOVE' está escrito na luva e entrega a resposta."
+    }
+  ]
+}
