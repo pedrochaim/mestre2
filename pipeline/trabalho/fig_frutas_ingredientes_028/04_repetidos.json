@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que molusco bivalve é este?",
+        "resposta": "Ostra"
+      },
+      "existentes": [
+        {
+          "id": "q07423",
+          "pergunta": "Que molusco bivalve comestível é este?",
+          "resposta": "Ostra"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que crustáceo de água doce é este?",
+        "resposta": "Lagostim"
+      },
+      "existentes": [
+        {
+          "id": "q18933",
+          "pergunta": "Que crustáceo é este?",
+          "resposta": "Lagostim"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a mesma imagem de molusco bivalve com resposta Ostra; só difere o adjetivo 'comestível'.",
+      "id_existente": "q07423"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o crustáceo da imagem, resposta Lagostim; 'de água doce' é só detalhe do mesmo fato.",
+      "id_existente": "q18933"
+    }
+  ]
+}

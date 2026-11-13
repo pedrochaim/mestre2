@@ -1,0 +1,169 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Um vendedor aparece em primeiro plano (tronco e mão), pessoa comum; o algodão-doce está borrado pelo movimento."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vagens e grãos verdes bem nítidos, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Estas vagens verdes, servidas cozidas e salgadas como petisco, guardam sementes imaturas de que planta?",
+      "resposta": "Soja",
+      "distratores": [
+        "Ervilha",
+        "Feijão-fradinho",
+        "Grão-de-bico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Edamame",
+        "descricao": "Prato asiático de vagens de soja imaturas, cozidas ou no vapor e servidas com sal.",
+        "variantes": [
+          "Vagem de soja",
+          "Mukimame"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A flor não permite afirmar que é Nigella sativa e não de outra nigela (como a Nigella damascena); resposta pouco segura diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Xícara de canjica com canela em pau e em pó, nítida e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este doce cremoso, comum nas festas juninas, é feito com grãos inteiros de qual cereal?",
+      "resposta": "Milho (branco)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Canjica (mungunzá)",
+        "descricao": "Doce brasileiro de grãos de milho branco cozidos em leite, açúcar e canela.",
+        "variantes": [
+          "Mungunzá",
+          "Canjica"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Três pimentas com aspecto rugoso e cauda pontuda, características e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pimenta é esta?",
+      "resposta": "Carolina Reaper",
+      "destino": 0,
+      "ancora": {
+        "nome": "Carolina Reaper",
+        "descricao": "Cultivar de pimenta Capsicum chinense criada por Ed Currie, vermelha, rugosa e com cauda pontuda.",
+        "variantes": [
+          "Carolina Reaper chili"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Arbusto florido visto de longe, facilmente confundido com outras plantas de flores brancas (espinheiro, sorveira); resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ovo na frigideira, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que preparo simples, comum no café da manhã, está na frigideira?",
+      "resposta": "Ovo frito (estrelado)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ovo frito",
+        "descricao": "Ovo sem casca cozido numa frigideira, com a gema inteira.",
+        "variantes": [
+          "Ovo estrelado"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ostra aberta, com concha e corpo visíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que molusco é este, servido cru em restaurantes sofisticados?",
+      "resposta": "Ostra",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ostra",
+        "descricao": "Molusco bivalve marinho de concha irregular, apreciado como iguaria.",
+        "variantes": [
+          "Ostra comestível"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Montagem de duas fotos (sementes e palmeira), em baixa resolução; ilegível no celular e a espécie não é reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Repolho de folhas roxas, reconhecível, sem texto; resolução baixa, mas aceitável.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que hortaliça é esta?",
+      "resposta": "Repolho roxo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Repolho roxo",
+        "descricao": "Variedade de repolho (Brassica oleracea) de folhas roxo-escuras.",
+        "variantes": [
+          "Repolho-roxo",
+          "Couve-roxa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Crustáceo de água doce nítido, sem texto; distratores parecidos disponíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que crustáceo de água doce é este?",
+      "resposta": "Lagostim",
+      "distratores": [
+        "Lagosta",
+        "Pitu",
+        "Camarão-rosa"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lagostim",
+        "descricao": "Crustáceo de água doce parecido com uma pequena lagosta, da infraordem Astacidea.",
+        "variantes": [
+          "Crayfish",
+          "Lagostim-de-água-doce"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Placa legível na imagem com o nome 'Sweet Marjoram' e o nome científico, que entregam a resposta."
+    }
+  ]
+}

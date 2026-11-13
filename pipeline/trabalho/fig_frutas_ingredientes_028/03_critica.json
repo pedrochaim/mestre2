@@ -1,0 +1,64 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cozidas e salgadas como petisco' descreve o edamame e entrega a resposta (soja) sem olhar a figura. Retirada a pista de preparo, deixando só uma pista de origem que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Estas vagens verdes, típicas da culinária asiática, guardam sementes colhidas antes de amadurecer. De que planta são?",
+        "resposta": "Soja",
+        "distratores": [
+          "Ervilha",
+          "Feijão-fradinho",
+          "Grão-de-bico"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Doce de festa junina feito com grãos inteiros de cereal já entrega o milho sem a figura. Os trechos também mostram que o nome canjica varia por região, o que complica uma reescrita.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista no enunciado. A resposta é única e está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista (café da manhã, frigideira) não entrega a resposta sozinha, já que há muitos preparos de ovo. Os trechos confirmam que é comum no café da manhã e feito na frigideira.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Molusco servido cru em restaurantes sofisticados' leva à ostra sem olhar a figura. Retirada a pista, a pergunta fica só no reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que molusco bivalve é este?",
+        "resposta": "Ostra"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem vazamento. A resposta é única e coerente com a entidade mostrada.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Água doce' ajuda sem entregar. Os distratores são do mesmo tipo, têm até 4 palavras e não descrevem a imagem. Lagosta e camarão-rosa são marinhos, e o pitu, embora de água doce, é um camarão visualmente distinto.",
+      "reescrita": null
+    }
+  ]
+}
