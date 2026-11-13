@@ -1,0 +1,166 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte de divulgação sem texto, de uma única obra, com Na'vi azul, ilhas flutuantes e banshee, muito reconhecível. Troquei 'quando' por 'o que é' porque ano exigiria múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "Avatar",
+      "ancora": {
+        "nome": "Avatar (filme de 2009)",
+        "descricao": "Filme de ficção científica de James Cameron, de 2009, sobre os Na'vi no planeta Pandora.",
+        "variantes": [
+          "Avatar"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Casal, vestido amarelo, poste de luz e Los Angeles ao fundo, sem texto e bem reconhecível. Troquei a pergunta do ano pela do diretor, para não gastar a cota de anos.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Damien Chazelle",
+      "distratores": [
+        "Rob Marshall",
+        "Tom Hooper",
+        "Baz Luhrmann"
+      ],
+      "ancora": {
+        "nome": "La La Land: Cantando Estações",
+        "descricao": "Musical romântico de 2016, dirigido por Damien Chazelle, sobre um pianista e uma atriz em Los Angeles.",
+        "variantes": [
+          "La La Land"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A cena sepia de hospital não permite reconhecer a série (só quem a conhece muito bem). Há também um crachá com texto parcialmente legível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação do elenco de uma única obra, sem texto, em fundo preto. Pergunta direta. Troquei 'quando' por 'o que é' porque ano exigiria múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "De que série brasileira é esta imagem?",
+      "resposta": "Verdades Secretas",
+      "ancora": {
+        "nome": "Verdades Secretas",
+        "descricao": "Série brasileira de 2015, da Globo, sobre o mundo da moda e um triângulo amoroso entre mãe e filha.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Elenco principal de uma só série em fotografia de divulgação, sem texto que entregue a resposta. Pergunta de ator com distratores plausíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que ator, de terno e gravata, aparece no centro desta imagem?",
+      "resposta": "Neil Patrick Harris",
+      "distratores": [
+        "Ashton Kutcher",
+        "Zach Braff",
+        "Matt LeBlanc"
+      ],
+      "ancora": {
+        "nome": "Como Eu Conheci Sua Mãe",
+        "descricao": "Série de comédia americana, de 2005, em que Ted Mosby conta aos filhos como conheceu a mãe deles.",
+        "variantes": [
+          "How I Met Your Mother"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A cena é uma imagem psicodélica em fundo roxo, com dançarinos em silhueta, e não tem nada que permita reconhecer o filme. Não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rosto da Mulan em animação, sem texto, bem reconhecível. A pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que dragãozinho acompanha a protagonista deste filme?",
+      "resposta": "Mushu",
+      "ancora": {
+        "nome": "Mulan (filme de 1998)",
+        "descricao": "Animação da Disney de 1998 sobre uma jovem chinesa que toma o lugar do pai na guerra.",
+        "variantes": [
+          "Mulan"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação do elenco de uma só série, sem texto. Troquei 'quando' por 'o que é' para evitar ano, com distratores de séries brasileiras parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "De que série brasileira é esta imagem?",
+      "resposta": "Sob Pressão",
+      "distratores": [
+        "Unidade Básica",
+        "Carcereiros",
+        "Sessão de Terapia"
+      ],
+      "ancora": {
+        "nome": "Sob Pressão",
+        "descricao": "Série brasileira de 2017, da Globo, sobre a rotina de médicos de um hospital público.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mulher caminhando numa rua, diante de um muro azul. Nada na imagem permite reconhecer o filme com resposta única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma arte de pôster, com o texto 'Stark Industries' parcialmente visível, que pode entregar a obra."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Close do protagonista chorando, cena icônica do filme, sem texto. A pergunta pede o ator, que é um passo além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ator vive o personagem que aparece nesta cena?",
+      "resposta": "Daniel Kaluuya",
+      "ancora": {
+        "nome": "Corra!",
+        "descricao": "Filme de terror de Jordan Peele, de 2017, sobre um jovem que visita a família da namorada.",
+        "variantes": [
+          "Get Out"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A cena (três pessoas em confusão, com um microfone boom) não permite reconhecer o filme. A resposta não é única diante da imagem."
+    }
+  ]
+}

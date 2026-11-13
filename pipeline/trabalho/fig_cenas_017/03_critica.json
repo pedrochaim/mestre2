@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; resposta confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Diretor confirmado nos trechos; enunciado não nomeia o filme; distratores são diretores de musicais, críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia a define como telenovela; chamar de série não é literalmente exato. Ajustar o gênero e dar contexto sem entregar.",
+      "reescrita": {
+        "pergunta": "De que novela brasileira da Globo, exibida em dois mil e quinze, é esta cena?",
+        "resposta": "Verdades Secretas"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O que aparece no centro da imagem não é confirmado por 'mostra', que só indica a série. Várias pessoas de terno podem aparecer, então a resposta pode não ser única nem verdadeira para esta foto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'dragãozinho que acompanha a protagonista' permite responder Mushu sem ver a figura. Passa a pedir o reconhecimento do filme.",
+      "reescrita": {
+        "pergunta": "De que animação da Disney é esta cena?",
+        "resposta": "Mulan"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com distratores de séries brasileiras críveis, curtos e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Não se sabe qual personagem aparece na cena, então o ator não é verificável nem único. Reescrito para o diretor, confirmado nos trechos, sem nomear o filme.",
+      "reescrita": {
+        "pergunta": "Quem dirigiu o filme desta cena?",
+        "resposta": "Jordan Peele"
+      }
+    }
+  ]
+}
