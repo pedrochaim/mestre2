@@ -1,0 +1,208 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Headset de realidade virtual preto, visto por trás, sem texto legível, reconhecível pelas lentes e pela tira.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Que tipo de aparelho, usado na cabeça para jogar, é este?",
+      "resposta": "Óculos de realidade virtual",
+      "distratores": [],
+      "ancora": {
+        "nome": "Óculos de realidade virtual",
+        "descricao": "Dispositivo de exibição usado na cabeça que oferece ambientes de realidade virtual, muito usado em jogos.",
+        "variantes": [
+          "Headset de realidade virtual",
+          "Headset VR",
+          "Óculos VR"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Flautim claro, fundo liso, sem texto. A resposta é única, mas a flauta transversal é parecida, por isso a múltipla escolha usa distratores de outros sopros.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que instrumento de sopro é este?",
+      "resposta": "Flautim",
+      "distratores": [
+        "Clarinete",
+        "Oboé",
+        "Flauta doce"
+      ],
+      "ancora": {
+        "nome": "Flautim",
+        "descricao": "Pequena flauta transversal da família das madeiras, que soa uma oitava acima da flauta comum.",
+        "variantes": [
+          "Piccolo",
+          "Flauta piccolo",
+          "Ottavino"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Erhu nítido, sem texto. A imagem é estreita, mas legível. A silhueta de duas cordas, caixa hexagonal e arco é característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Este instrumento de cordas tocado com arco é tradicional de que país?",
+      "resposta": "China",
+      "distratores": [
+        "Japão",
+        "Coreia do Sul",
+        "Mongólia"
+      ],
+      "ancora": {
+        "nome": "Erhu",
+        "descricao": "Instrumento chinês de duas cordas tocado com arco, da família huqin, também chamado de violino chinês.",
+        "variantes": [
+          "Violino chinês",
+          "Er-hu"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vaso grego com figura tocando lira. As letras gregas são só inscrições decorativas e não entregam a resposta. A figura é de uma obra antiga, sem pessoa comum.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que instrumento de cordas a figura deste vaso da Grécia antiga está tocando?",
+      "resposta": "Lira",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lira",
+        "descricao": "Instrumento de cordas dedilhadas da Antiguidade, com duas hastes ligadas por uma barra transversal.",
+        "variantes": [
+          "Lyre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Afoxé de metal (cabasa) nítido, sem texto. A múltipla usa distratores da percussão brasileira. Há risco leve de confusão com o ganzá, mas a corrente de esferas é distintiva.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão, de esferas metálicas em volta de um cilindro, é este?",
+      "resposta": "Afoxé (cabasa)",
+      "distratores": [
+        "Reco-reco",
+        "Pandeiro",
+        "Agogô"
+      ],
+      "ancora": {
+        "nome": "Afoxé",
+        "descricao": "Instrumento de percussão de cabo com cilindro envolto por correntes de esferas metálicas, também chamado de cabasa ou afuchê.",
+        "variantes": [
+          "Cabasa",
+          "Afuche",
+          "Afuchê"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Oud em foto de museu, nítido, sem texto, forma de pera característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que instrumento europeu da Idade Média se desenvolveu a partir deste instrumento do Oriente Médio?",
+      "resposta": "Alaúde",
+      "distratores": [
+        "Harpa",
+        "Saltério",
+        "Órgão portátil"
+      ],
+      "ancora": {
+        "nome": "Alaúde árabe (oud)",
+        "descricao": "Instrumento de cordas do Oriente Médio, de braço curto, sem trastes e caixa em forma de pera.",
+        "variantes": [
+          "Oud",
+          "Ud",
+          "Alaúde árabe"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O Switch 2 só se distingue do Switch original por detalhes pequenos, como o botão C. Num celular a resposta não é única, porque o Switch comum serviria."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O texto 'Game Boy camera' aparece no rótulo e entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bouzouki grego nítido, em fundo branco, sem texto, com corpo de pera e braço longo e trastejado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Este instrumento de cordas dedilhadas é o símbolo musical de que país?",
+      "resposta": "Grécia",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bouzouki",
+        "descricao": "Instrumento grego de cordas de aço, com braço longo e corpo em forma de pera, central no rebetiko.",
+        "variantes": [
+          "Bouzouki grego",
+          "Mpouzouki"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Flauta de pã de madeira, nítida, sem texto, reconhecível pelos tubos de tamanho crescente.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que instrumento de sopro, de tubos de comprimentos diferentes, é este?",
+      "resposta": "Flauta de pã",
+      "distratores": [
+        "Quena",
+        "Ocarina",
+        "Flauta doce"
+      ],
+      "ancora": {
+        "nome": "Flauta de pã",
+        "descricao": "Instrumento de sopro formado por vários tubos fechados de comprimento crescente, unidos lado a lado.",
+        "variantes": [
+          "Siringe",
+          "Flauta de Pan",
+          "Pan flute"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O botão do console traz o texto 'STEAM', que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Um homem comum aparece em primeiro plano, tocando dois instrumentos. Não é figura pública, e a foto mostra mais de um handpan."
+    }
+  ]
+}

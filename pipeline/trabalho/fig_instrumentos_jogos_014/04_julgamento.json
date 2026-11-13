@@ -1,0 +1,521 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Óculos de realidade virtual",
+        "descricao": "Dispositivo de exibição usado na cabeça que oferece ambientes de realidade virtual, muito usado em jogos.",
+        "variantes": [
+          "Headset de realidade virtual",
+          "Headset VR",
+          "Óculos VR"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oculos_de_realidade_virtual",
+          "nome": "Óculos de realidade virtual",
+          "descricao": "Aparelho de uso na cabeça com telas junto aos olhos e rastreamento de movimento, que cria um ambiente de realidade virtual.",
+          "variantes": [
+            "Headset de realidade virtual",
+            "Headset VR",
+            "Visor de realidade virtual"
+          ]
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "carlos_v",
+          "nome": "Carlos V",
+          "descricao": "Monarca Habsburgo do século dezesseis, rei da Espanha como Carlos I e imperador do Sacro Império Romano-Germânico.",
+          "variantes": [
+            "Carlos I da Espanha",
+            "Carlos Quinto",
+            "Charles V"
+          ]
+        },
+        {
+          "id": "oculos_de_neve",
+          "nome": "Óculos de neve",
+          "descricao": "Óculos tradicionais de osso ou madeira com fendas estreitas, usados no Ártico contra o brilho da neve.",
+          "variantes": []
+        },
+        {
+          "id": "oculos_escuros",
+          "nome": "Óculos escuros",
+          "descricao": "Óculos com lentes escurecidas que protegem os olhos da luz forte do sol.",
+          "variantes": [
+            "Óculos de sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Flautim",
+        "descricao": "Pequena flauta transversal da família das madeiras, que soa uma oitava acima da flauta comum.",
+        "variantes": [
+          "Piccolo",
+          "Flauta piccolo",
+          "Ottavino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piccolo",
+          "nome": "Piccolo",
+          "descricao": "Namekuseijin verde de capa branca e turbante, personagem de Dragon Ball.",
+          "variantes": [
+            "Piccolo Jr.",
+            "Piccolo Júnior",
+            "Kamiccolo"
+          ]
+        },
+        {
+          "id": "flautim",
+          "nome": "Flautim",
+          "descricao": "Pequena flauta transversal que soa uma oitava acima da flauta comum, usada na orquestra e em bandas.",
+          "variantes": [
+            "Piccolo",
+            "Flauta piccolo"
+          ]
+        },
+        {
+          "id": "augusto",
+          "nome": "Augusto",
+          "descricao": "Otaviano, primeiro imperador romano, que governou de 27 antes de Cristo a 14 depois de Cristo.",
+          "variantes": [
+            "Otaviano",
+            "César Augusto",
+            "Augustus",
+            "Octavian"
+          ]
+        },
+        {
+          "id": "latim",
+          "nome": "Latim",
+          "descricao": "Língua indo-europeia da Roma antiga, ancestral das línguas românicas.",
+          "variantes": [
+            "Língua latina"
+          ]
+        },
+        {
+          "id": "picole",
+          "nome": "Picolé",
+          "descricao": "Sorvete ou refresco congelado preso a um palito.",
+          "variantes": [
+            "Ice pop",
+            "Popsicle",
+            "Geladinho de palito"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Erhu",
+        "descricao": "Instrumento chinês de duas cordas tocado com arco, da família huqin, também chamado de violino chinês.",
+        "variantes": [
+          "Violino chinês",
+          "Er-hu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        },
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "descricao": "Ave galiforme domesticada (Meleagris gallopavo), nativa da América do Norte, tradicional nas ceias de fim de ano.",
+          "variantes": [
+            "Peru-doméstico",
+            "Meleagris gallopavo"
+          ]
+        },
+        {
+          "id": "ilha_run",
+          "nome": "Ilha Run",
+          "descricao": "Pequena ilha das ilhas Banda, na atual Indonésia, disputada por ingleses e holandeses no século dezessete.",
+          "variantes": [
+            "Run",
+            "Pulau Run",
+            "Rhun"
+          ]
+        },
+        {
+          "id": "selecao_peruana_de_futebol",
+          "nome": "Seleção Peruana de Futebol",
+          "descricao": "Seleção masculina de futebol do Peru, apelidada La Bicolor.",
+          "variantes": [
+            "Peru",
+            "La Bicolor"
+          ]
+        },
+        {
+          "id": "brasao_do_peru",
+          "nome": "Brasão do Peru",
+          "descricao": "Brasão de armas do Peru, com escudo dividido em vicunha, árvore de quina e cornucópia.",
+          "variantes": [
+            "Peru",
+            "Brasão de armas do Peru"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lira",
+        "descricao": "Instrumento de cordas dedilhadas da Antiguidade, com duas hastes ligadas por uma barra transversal.",
+        "variantes": [
+          "Lyre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lira",
+          "nome": "Lira",
+          "descricao": "Instrumento de cordas dedilhadas da Grécia antiga, com dois braços ligados por uma travessa.",
+          "variantes": [
+            "Lyra"
+          ]
+        },
+        {
+          "id": "libra_esterlina",
+          "nome": "Libra esterlina",
+          "descricao": "Moeda oficial do Reino Unido, representada por um L cortado.",
+          "variantes": [
+            "Pound sterling",
+            "Libra"
+          ]
+        },
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        },
+        {
+          "id": "libras",
+          "nome": "Libras",
+          "descricao": "Língua Brasileira de Sinais, usada pela comunidade surda do Brasil",
+          "variantes": [
+            "Língua Brasileira de Sinais",
+            "Brazilian Sign Language",
+            "Língua de sinais brasileira",
+            "LSB"
+          ]
+        },
+        {
+          "id": "elgyem",
+          "nome": "Elgyem",
+          "descricao": "Pokémon do tipo Psíquico da quinta geração, número 605 da Pokédex Nacional, de cabeça grande inspirada em alienígenas.",
+          "variantes": [
+            "Ligray"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Afoxé",
+        "descricao": "Instrumento de percussão de cabo com cilindro envolto por correntes de esferas metálicas, também chamado de cabasa ou afuchê.",
+        "variantes": [
+          "Cabasa",
+          "Afuche",
+          "Afuchê"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "afoxe_instrumento",
+          "nome": "Afoxé (instrumento)",
+          "descricao": "Instrumento de percussão afro-brasileiro formado por uma cabaça envolta em rede de contas ou sementes.",
+          "variantes": [
+            "Afoxé",
+            "Cabaça",
+            "Cabaça afoxé"
+          ]
+        },
+        {
+          "id": "cabaca",
+          "nome": "Cabaça",
+          "descricao": "Fruto da trepadeira Lagenaria siceraria, cuja casca seca vira recipiente e instrumento musical.",
+          "variantes": [
+            "Porongo",
+            "Cuia",
+            "Lagenaria"
+          ]
+        },
+        {
+          "id": "canastra",
+          "nome": "Canastra",
+          "descricao": "Jogo de cartas da família do rummy, jogado com dois baralhos, criado em Montevidéu em 1939.",
+          "variantes": [
+            "Canasta"
+          ]
+        },
+        {
+          "id": "mapuches",
+          "nome": "Mapuches",
+          "descricao": "Povo indígena do centro-sul do Chile e do sudoeste da Argentina.",
+          "variantes": [
+            "Mapuche",
+            "Araucanos"
+          ]
+        },
+        {
+          "id": "axe_music",
+          "nome": "Axé music",
+          "descricao": "Gênero musical surgido em Salvador nos anos 1980, ligado ao carnaval baiano.",
+          "variantes": [
+            "Axé"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Alaúde árabe (oud)",
+        "descricao": "Instrumento de cordas do Oriente Médio, de braço curto, sem trastes e caixa em forma de pera.",
+        "variantes": [
+          "Oud",
+          "Ud",
+          "Alaúde árabe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alfabeto_arabe",
+          "nome": "Alfabeto árabe",
+          "descricao": "Sistema de escrita da língua árabe, também usado no persa e no urdu, escrito da direita para a esquerda.",
+          "variantes": [
+            "Escrita árabe"
+          ]
+        },
+        {
+          "id": "assalto_boxe",
+          "nome": "Assalto (boxe)",
+          "descricao": "Cada um dos períodos de luta em que se divide um combate de boxe, separados por intervalos.",
+          "variantes": [
+            "Round"
+          ]
+        },
+        {
+          "id": "round",
+          "nome": "Round",
+          "descricao": "Golpe de pokémon do tipo Normal, da 5ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "cloud_strife",
+          "nome": "Cloud Strife",
+          "descricao": "Ex-SOLDIER mercenário de cabelos loiros espetados, protagonista de Final Fantasy VII.",
+          "variantes": [
+            "Cloud"
+          ]
+        },
+        {
+          "id": "som",
+          "nome": "Som",
+          "descricao": "Onda mecânica de vibração que se propaga por um meio material, como o ar ou a água.",
+          "variantes": [
+            "Onda sonora",
+            "Sound"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bouzouki",
+        "descricao": "Instrumento grego de cordas de aço, com braço longo e corpo em forma de pera, central no rebetiko.",
+        "variantes": [
+          "Bouzouki grego",
+          "Mpouzouki"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "el_greco",
+          "nome": "El Greco",
+          "descricao": "Pintor nascido na Grécia, que fez carreira em Toledo, na Espanha, e viveu de 1541 a 1614.",
+          "variantes": [
+            "Doménikos Theotokópoulos",
+            "O Grego"
+          ]
+        },
+        {
+          "id": "olho_grego",
+          "nome": "Olho grego",
+          "descricao": "Amuleto de vidro em forma de olho azul, usado para proteger contra o mau-olhado, comum na Turquia e na Grécia.",
+          "variantes": [
+            "Olho turco",
+            "Nazar",
+            "Nazar boncuğu",
+            "Máti"
+          ]
+        },
+        {
+          "id": "buzio_cauri",
+          "nome": "Búzio-cauri",
+          "descricao": "Concha de pequenos moluscos do oceano Índico, usada como moeda em várias regiões da África.",
+          "variantes": [
+            "Cauri",
+            "Cowrie",
+            "Búzio"
+          ]
+        },
+        {
+          "id": "buzkashi",
+          "nome": "Buzkashi",
+          "descricao": "Esporte tradicional da Ásia Central em que cavaleiros disputam a carcaça de uma cabra ou bezerro para levá-la a um alvo.",
+          "variantes": [
+            "Kokpar",
+            "Kök-börü",
+            "Ulak tartysh",
+            "Kupkari"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Flauta de pã",
+        "descricao": "Instrumento de sopro formado por vários tubos fechados de comprimento crescente, unidos lado a lado.",
+        "variantes": [
+          "Siringe",
+          "Flauta de Pan",
+          "Pan flute"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flauta_de_pa",
+          "nome": "Flauta de pã",
+          "descricao": "Instrumento de sopro formado por vários tubos fechados de comprimentos crescentes, dispostos lado a lado.",
+          "variantes": [
+            "Siringe",
+            "Flauta de Pan",
+            "Pan flute"
+          ]
+        },
+        {
+          "id": "flauta_doce",
+          "nome": "Flauta doce",
+          "descricao": "Instrumento de sopro de bisel, com orifício para o polegar e sete para os dedos.",
+          "variantes": [
+            "Recorder",
+            "Flauta de bisel"
+          ]
+        },
+        {
+          "id": "ringue_de_boxe",
+          "nome": "Ringue de boxe",
+          "descricao": "Espaço quadrado cercado por cordas onde se disputam as lutas de boxe.",
+          "variantes": [
+            "Ringue",
+            "Boxing ring"
+          ]
+        },
+        {
+          "id": "poke_flauta",
+          "nome": "Poké Flauta",
+          "descricao": "Item dos jogos Pokémon que toca uma melodia capaz de acordar pokémon adormecidos, como os Snorlax que bloqueiam o caminho em Kanto.",
+          "variantes": [
+            "Poké Flute",
+            "Pokéflauta"
+          ]
+        },
+        {
+          "id": "placa_de_pare",
+          "nome": "Placa de pare",
+          "descricao": "Placa de trânsito vermelha e octogonal que indica parada obrigatória.",
+          "variantes": [
+            "Placa de parada obrigatória",
+            "Stop sign"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "oculos_de_realidade_virtual",
+      "motivo": "Mesmo dispositivo VR de cabeça."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "flautim",
+      "motivo": "Mesmo instrumento, a pequena flauta transversal."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Erhu não aparece entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "lira",
+      "motivo": "Mesmo instrumento antigo de cordas com dois braços e travessa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O afoxé da proposta é o cabasa/afuchê, com correntes de esferas metálicas. O afoxé da candidata é uma cabaça com rede de contas. Os dois são parecidos, mas há dúvida, então decido nova."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O oud não aparece entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O bouzouki não aparece entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "flauta_de_pa",
+      "motivo": "Mesmo instrumento e mesmas variantes."
+    }
+  ]
+}

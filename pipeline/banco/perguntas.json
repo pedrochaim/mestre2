@@ -434343,5 +434343,124 @@
       "autor": "Ezra Katz",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q21841",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "flautim",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento de sopro é este?",
+    "resposta": "Flautim",
+    "distratores": [
+      "Clarinete",
+      "Oboé",
+      "Flauta doce"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piccolo",
+      "https://pt.wikipedia.org/wiki/Flautim"
+    ],
+    "imagem": {
+      "arquivo": "q21841.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Piccolo_on_red_backdrop.jpg",
+      "autor": "Greatkate3303",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q21842",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "erhu",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este instrumento de cordas tocado com arco é tradicional de que país?",
+    "resposta": "China",
+    "distratores": [
+      "Japão",
+      "Coreia do Sul",
+      "Mongólia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Erhu",
+      "https://pt.wikipedia.org/wiki/Erhu"
+    ],
+    "imagem": {
+      "arquivo": "q21842.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Erhu.png",
+      "autor": "LDHan",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q21843",
+    "tema": "Entretenimento",
+    "subtema": "Música Brasileira",
+    "ancora": "afoxe",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento de percussão, muito usado na bossa nova, é este?",
+    "resposta": "Cabasa (afuchê)",
+    "distratores": [
+      "Reco-reco",
+      "Ganzá",
+      "Agogô"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cabasa"
+    ],
+    "imagem": {
+      "arquivo": "q21843.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cabasa.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q21844",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "alaude_arabe_oud",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento europeu da Idade Média se desenvolveu a partir deste instrumento do Oriente Médio?",
+    "resposta": "Alaúde",
+    "distratores": [
+      "Harpa",
+      "Saltério",
+      "Órgão portátil"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oud",
+      "https://pt.wikipedia.org/wiki/Ala%C3%BAde_%C3%A1rabe"
+    ],
+    "imagem": {
+      "arquivo": "q21844.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ūd_MET_DP340079.jpg",
+      "autor": "Creator:Manol (Emmanuel Venios)",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q21845",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "bouzouki",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Este instrumento de cordas dedilhadas é o símbolo musical de que país?",
+    "resposta": "Grécia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bouzouki",
+      "https://pt.wikipedia.org/wiki/Bouzouki"
+    ],
+    "imagem": {
+      "arquivo": "q21845.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bouzouki_tetrachordo.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY 2.5"
+    }
   }
 ]

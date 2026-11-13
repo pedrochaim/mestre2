@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista só de uso, não entrega. Trechos confirmam que o aparelho é usado na cabeça e em jogos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista; flautim é instrumento de sopro (madeiras) e os distratores são outros sopros que não descrevem a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Erhu é instrumento chinês, confirmado nos trechos. Enunciado não nomeia o instrumento e os distratores são países vizinhos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma que a figura é de um vaso grego tocando o instrumento, o que não consta em 'mostra'; pode ser falso para esta imagem. Reescrito sem essa afirmação.",
+      "reescrita": {
+        "pergunta": "Que instrumento de cordas dedilhadas, da Antiguidade, é este?",
+        "resposta": "Lira"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o objeto (esferas metálicas em cilindro), entregando a resposta sem a figura. Além disso, 'afoxé' não é sustentado pelos trechos e no Brasil designa outro instrumento (de cabaça com contas); o metálico é cabasa/afuchê.",
+      "reescrita": {
+        "pergunta": "Que instrumento de percussão, muito usado na bossa nova, é este?",
+        "resposta": "Cabasa (afuchê)",
+        "distratores": [
+          "Reco-reco",
+          "Ganzá",
+          "Agogô"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o alaúde europeu medieval derivou do oud árabe (trecho confirma a difusão pela Ibéria). Enunciado não nomeia o instrumento; distratores não são derivados do oud.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bouzouki é o instrumento mais característico da música grega (rebetiko), segundo os trechos; o enunciado não o nomeia.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tubos de comprimentos diferentes' descreve a flauta de pã e entrega a resposta sem a figura. Pista removida.",
+      "reescrita": {
+        "pergunta": "Que instrumento de sopro é este?",
+        "resposta": "Flauta de pã",
+        "distratores": [
+          "Quena",
+          "Ocarina",
+          "Flauta doce"
+        ]
+      }
+    }
+  ]
+}

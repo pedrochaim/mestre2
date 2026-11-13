@@ -1,0 +1,85 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de aparelho, usado na cabeça para jogar, é este?",
+        "resposta": "Óculos de realidade virtual"
+      },
+      "existentes": [
+        {
+          "id": "q14990",
+          "pergunta": "Que aparelho de uso na cabeça é este?",
+          "resposta": "Óculos de realidade virtual"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de sopro é este?",
+        "resposta": "Flautim"
+      },
+      "existentes": [
+        {
+          "id": "q08751",
+          "pergunta": "Na família das madeiras da orquestra, qual instrumento alcança as notas mais agudas?",
+          "resposta": "Flautim"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que instrumento de cordas dedilhadas, da Antiguidade, é este?",
+        "resposta": "Lira"
+      },
+      "existentes": [
+        {
+          "id": "q16521",
+          "pergunta": "Que instrumento de cordas dedilhadas, usado na Grécia antiga, é este?",
+          "resposta": "Lira"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que instrumento de sopro é este?",
+        "resposta": "Flauta de pã"
+      },
+      "existentes": [
+        {
+          "id": "q21586",
+          "pergunta": "Que instrumento musical é este?",
+          "resposta": "Flauta de pã"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma imagem e mesma resposta: identificar o aparelho de cabeça como óculos de realidade virtual.",
+      "id_existente": "q14990"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nova pede identificar o instrumento pela imagem; a existente pergunta qual madeira alcança notas mais agudas. Fatos distintos, embora a resposta seja a mesma."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificação da lira como instrumento de cordas dedilhadas da Antiguidade/Grécia.",
+      "id_existente": "q16521"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o instrumento da imagem, com resposta flauta de pã.",
+      "id_existente": "q21586"
+    }
+  ]
+}
