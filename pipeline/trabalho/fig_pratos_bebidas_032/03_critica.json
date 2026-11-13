@@ -1,0 +1,45 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento; 'Sudeste Asiático' ajuda sem entregar. Fato confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o prato (arroz glutinoso com manga), o que permite responder sem ver a figura. Tirar a descrição e manter a pista regional. Os trechos sustentam a origem tailandesa.",
+      "reescrita": {
+        "pergunta": "Esta sobremesa tem origem em que país do Sudeste Asiático?",
+        "resposta": "Tailândia"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com distratores coreanos plausíveis e curtos, nenhum correto. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Bife empanado' descreve o prato e deixa adivinhar a resposta sem a figura. Troco por uma referência neutra à figura e ao Brasil. O trecho sustenta a origem na cotoletta alla milanese.",
+      "reescrita": {
+        "pergunta": "Este prato, muito popular no Brasil, descende de uma receita típica de que cidade italiana?",
+        "resposta": "Milão"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com distratores coreanos do mesmo tipo, nenhum correto, sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}

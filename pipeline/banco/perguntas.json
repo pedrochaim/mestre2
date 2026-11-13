@@ -426935,5 +426935,113 @@
       "autor": "Stefan Brending (2eight)",
       "licenca": "CC BY-SA 3.0 de"
     }
+  },
+  {
+    "id": "q21472",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "satay",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que prato do Sudeste Asiático é este?",
+    "resposta": "Satay",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Satay",
+      "https://pt.wikipedia.org/wiki/Satay"
+    ],
+    "imagem": {
+      "arquivo": "q21472.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chicken_satay_on_banana_leaf_in_Java.jpg",
+      "autor": "Gunawan Kartapranata",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q21473",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "arroz_doce_com_manga_mango_sticky_rice",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Esta sobremesa tem origem em que país do Sudeste Asiático?",
+    "resposta": "Tailândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mango_sticky_rice",
+      "https://pt.wikipedia.org/wiki/Khao_niao_mamuang"
+    ],
+    "imagem": {
+      "arquivo": "q21473.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mango_sticy_rice_(3859549574).jpg",
+      "autor": "Dennis Wong from Hong Kong, Hong Kong",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q21474",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bulgogi",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que prato coreano é este?",
+    "resposta": "Bulgogi",
+    "distratores": [
+      "Bibimbap",
+      "Samgyeopsal",
+      "Tteokbokki"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bulgogi",
+      "https://pt.wikipedia.org/wiki/Bulgogi"
+    ],
+    "imagem": {
+      "arquivo": "q21474.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Bulgogi-01.jpg",
+      "autor": "by ayustety",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q21475",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bife_a_milanesa",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Este prato, muito popular no Brasil, descende de uma receita típica de que cidade italiana?",
+    "resposta": "Milão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Milanesa"
+    ],
+    "imagem": {
+      "arquivo": "q21475.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Plato_tradicional_argentino_compuesto_por_milanesa_empanada,_huevo_frito_y_papas_fritas,_presentado_en_una_comida_casera.jpg",
+      "autor": "Horacio Cambeiro",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q21476",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "japchae",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que prato coreano é este?",
+    "resposta": "Japchae",
+    "distratores": [
+      "Bibimbap",
+      "Naengmyeon",
+      "Tteokbokki"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Japchae"
+    ],
+    "imagem": {
+      "arquivo": "q21476.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Korean.food-Chapchae-01.jpg",
+      "autor": "ayustety (a flickr user)",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]

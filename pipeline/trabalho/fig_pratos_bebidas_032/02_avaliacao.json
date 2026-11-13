@@ -1,0 +1,145 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de camarões vivos sob uma rocha, não um prato; espécie ambígua (camarão ou pitu) e não serve ao catálogo de pratos."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Sobremesa servida numa tigela escura sobre cestinho; não tem a forma de bom-bocado e não é reconhecível com resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Camarões com linguiça e molho sobre arroz podem ser gumbo, étouffée ou camarão à crioula; resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra vários chás (oolong, pu-erh em bolo) com um pente e texto chinês; não é chá verde claramente e tem várias coisas."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Espetinhos com molho de amendoim sobre folha de bananeira, bem reconhecíveis. A pessoa ao fundo está desfocada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que prato do Sudeste Asiático é este?",
+      "resposta": "Satay",
+      "distratores": [],
+      "ancora": {
+        "nome": "Satay",
+        "descricao": "Prato do Sudeste Asiático de pedaços de carne temperada grelhados em espetos, servido com molho de amendoim.",
+        "variantes": [
+          "Sate",
+          "Saté"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arroz glutinoso com manga em prato branco, claro e reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Esta sobremesa de arroz glutinoso com manga é típica de que país asiático?",
+      "resposta": "Tailândia",
+      "distratores": [],
+      "ancora": {
+        "nome": "Arroz doce com manga (mango sticky rice)",
+        "descricao": "Sobremesa do Sudeste Asiático de arroz glutinoso, manga fresca e leite de coco.",
+        "variantes": [
+          "Mango sticky rice",
+          "Khao niao mamuang"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A fruta pintada de vermelho e pontos escuros parece pêssego ou ameixa doente, não uma goiaba reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Copo com líquido turvo e espuma, segurado por uma mão em primeiro plano; não é reconhecível como sidra."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Carne fatiada marinada com cogumelos e cebolinha na chapa coreana, típico do bulgogi.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que prato coreano é este?",
+      "resposta": "Bulgogi",
+      "distratores": [
+        "Bibimbap",
+        "Samgyeopsal",
+        "Tteokbokki"
+      ],
+      "ancora": {
+        "nome": "Bulgogi",
+        "descricao": "Prato coreano de fatias finas de carne bovina marinada, grelhada ou salteada.",
+        "variantes": [
+          "Pulgogi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Milanesa empanada com ovo frito e batatas fritas, reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este bife empanado descende de um prato típico de que cidade italiana?",
+      "resposta": "Milão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bife à milanesa",
+        "descricao": "Bife empanado e frito, derivado da cotoletta alla milanese italiana.",
+        "variantes": [
+          "Milanesa",
+          "Milanesa a caballo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Docinhos assados de coco dourados podem ser queijadinha, cocada assada ou bom-bocado; resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Macarrão de batata-doce transparente com legumes, gergelim e carne, característico do japchae.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que prato coreano é este?",
+      "resposta": "Japchae",
+      "distratores": [
+        "Bibimbap",
+        "Naengmyeon",
+        "Tteokbokki"
+      ],
+      "ancora": {
+        "nome": "Japchae",
+        "descricao": "Prato coreano de macarrão de batata-doce salteado com legumes, carne e cogumelos.",
+        "variantes": [
+          "Chapchae"
+        ]
+      }
+    }
+  ]
+}
