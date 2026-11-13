@@ -1,0 +1,193 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O quadro traz legenda e inscrições legíveis (Matoaks, Rebecka, Powhatan), que entregam a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto, retrato claro de um líder único.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este líder africano do século dezenove resistiu ao domínio colonial de qual país europeu?",
+      "resposta": "França",
+      "distratores": [
+        "Reino Unido",
+        "Portugal",
+        "Alemanha"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Samori Touré",
+        "descricao": "Líder militar e fundador do Império Wassoulou, que resistiu à colonização francesa na África Ocidental no século XIX.",
+        "variantes": [
+          "Samory Touré",
+          "Samori Ture",
+          "Almamy Samori"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto, de figura pública.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este líder soviético morreu em que ano?",
+      "resposta": "1982",
+      "distratores": [
+        "1979",
+        "1984",
+        "1985"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Leonid Brejnev",
+        "descricao": "Secretário-geral do Partido Comunista da União Soviética de 1964 a 1982.",
+        "variantes": [
+          "Leonid Brezhnev"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A gravura traz a legenda 'Hippocrates Hiraclidae F. Cous' na parte inferior, que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Busto antigo de homem barbado, facilmente confundível com outros bustos gregos (Heródoto, Hipócrates); resposta não única pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto em close, sem texto, de figura pública; reconhecível com distratores do mesmo tipo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este alpinista?",
+      "resposta": "Edmund Hillary",
+      "distratores": [
+        "Tenzing Norgay",
+        "George Mallory",
+        "Reinhold Messner"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Edmund Hillary",
+        "descricao": "Alpinista e explorador neozelandês que, com Tenzing Norgay, alcançou o cume do Everest em 1953.",
+        "variantes": [
+          "Sir Edmund Hillary"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto, retrato claro com capacete colonial.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este explorador partiu em busca de qual outro explorador, dado como desaparecido na África?",
+      "resposta": "David Livingstone",
+      "distratores": [
+        "Richard Burton",
+        "John Speke",
+        "Mungo Park"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Henry Morton Stanley",
+        "descricao": "Explorador e jornalista galês-americano que explorou a África Central e encontrou David Livingstone.",
+        "variantes": [
+          "Stanley",
+          "John Rowlands"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto, com capacete de aviadora característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta aviadora?",
+      "resposta": "Amelia Earhart",
+      "distratores": [
+        "Bessie Coleman",
+        "Jacqueline Cochran",
+        "Anne Morrow Lindbergh"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Amelia Earhart",
+        "descricao": "Aviadora americana, primeira mulher a fazer um voo transatlântico solo sem escalas, desaparecida em 1937.",
+        "variantes": [
+          "Amelia Mary Earhart"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica legível, figura pública em primeiro plano; fundo com figurantes desfocados e sem texto relevante.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este político alemão tornou-se chanceler em que década?",
+      "resposta": "Década de 1940",
+      "distratores": [
+        "Década de 1930",
+        "Década de 1950",
+        "Década de 1960"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Konrad Adenauer",
+        "descricao": "Primeiro chanceler da Alemanha Ocidental, de 1949 a 1963, e líder fundador da CDU.",
+        "variantes": [
+          "Konrad Hermann Joseph Adenauer"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Busto barroco de bronze e mármores coloridos em Versalhes, com traços juvenis julio-cláudios; não é reconhecível como Cláudio e pode ser confundido com outros membros da dinastia."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato colorido nítido, sem texto, de figura pública.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este homem foi primeiro-ministro de Israel. Em que década teve o seu primeiro mandato?",
+      "resposta": "Década de 1970",
+      "distratores": [
+        "Década de 1960",
+        "Década de 1980",
+        "Década de 1990"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Yitzhak Rabin",
+        "descricao": "Militar e estadista israelense, primeiro-ministro de 1974 a 1977 e de 1992 a 1995, assassinado em 1995.",
+        "variantes": [
+          "Itzhak Rabin"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, com pessoas comuns ao fundo e sem traços que permitam reconhecer a figura de forma segura; não legível num celular."
+    }
+  ]
+}

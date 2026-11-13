@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é esta aviadora?",
+        "resposta": "Amelia Earhart"
+      },
+      "existentes": [
+        {
+          "id": "q05612",
+          "pergunta": "Em 1937, a aviadora americana Amelia Earhart desapareceu durante uma tentativa de dar a volta ao mundo. Sobre que oceano ela sumiu?",
+          "resposta": "Oceano Pacífico"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade da aviadora (Amelia Earhart); a existente já dá o nome e pergunta sobre o oceano do desaparecimento. Fatos diferentes."
+    }
+  ]
+}
