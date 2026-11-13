@@ -1,0 +1,430 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As doze leões da fonte do Pátio dos Leões são fato bem documentado; enunciado preciso e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro originais de 1215 sobrevivem, como confirma a fonte; pergunta precisa e clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português diz que Joana foi executada aos 19 anos; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sete expedições entre 1405 e 1433, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Bíblia de 42 linhas tem esse nome pelas linhas por coluna; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "100 cantos (33+33+33 mais o introdutório), confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte em português diz que a armadura podia pesar mais de 25 kg; o peso 'em geral' é impreciso e arbitrário.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado (30 a 60%), mas distratores como 'um vigésimo' são implausíveis demais; troquei por opções críveis.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Segundo as estimativas dos historiadores, que fração da população da Europa morreu na peste negra, em meados do século quatorze?",
+        "resposta": "Um terço a metade",
+        "distratores": [
+          "Um décimo",
+          "Três quartos",
+          "Nove décimos"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Black_Death"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quase 70 metros, confirmado; distratores com escalas distintas e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hagia Sophia significa Santa/Sagrada Sabedoria; a fonte em português confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salah ad-Din significa 'Retidão da Fé', como diz a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português confirma que 'rei' em línguas eslavas deriva do nome de Carlos Magno.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O apelido vem do pai, Vlad II Dracul, membro da Ordem do Dragão; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guilherme era chamado 'o Bastardo' por seu nascimento ilegítimo; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Consenso acadêmico: os rus eram nórdicos/escandinavos.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Flagelo de Deus' confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Andaluzia herdou o nome de al-Andalus; fato amplamente documentado e pergunta limpa.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'O Navegador' confirmado; enunciado preciso e distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o nome vem do selo de ouro que o documento levava.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Constantino XI e Constantino, o Grande, confirmado; boa conexão sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português confirma mameluco como mestiço de branco com indígena; o termo vem dos mamelucos do Egito.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (Martin cita a Guerra das Rosas), mas a fonte citada não o sustenta; acrescentei a página da guerra.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "A Guerra das Rosas, que dividiu a Inglaterra no século quinze, inspirou os livros de George R. R. Martin adaptados em que série de TV?",
+        "resposta": "Game of Thrones",
+        "distratores": [
+          "The Witcher",
+          "Vikings",
+          "Os Tudors"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Wars_of_the_Roses",
+          "https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ricardo Coração de Leão confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Victor Hugo escreveu o romance de 1831 para salvar a catedral; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português traz a exclamação atribuída a Justiniano contra Salomão; enunciado ressalva 'segundo a tradição'.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Harun al-Rashid aparece em As Mil e Uma Noites; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os Hospitalários ficaram em Malta de 1530 a 1798 e a ordem leva o nome; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angkor Wat está na bandeira do Camboja; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas os distratores ('seu irmão', 'seu sogro') são vagos e inverossímeis; melhor aberta.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Na Batalha de São Mamede, em 1128, Dom Afonso Henriques, futuro primeiro rei de Portugal, derrotou as tropas de que parente?",
+        "resposta": "Sua mãe, Dona Teresa",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Battle_of_S%C3%A3o_Mamede",
+          "https://en.wikipedia.org/wiki/Afonso_I_of_Portugal"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação rasa em subsolo fraco, começando a afundar em 1178; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A coroa de espinhos foi comprada de Balduíno II; confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A guerra foi desencadeada pela reivindicação de Eduardo III ao trono francês.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Invenção provavelmente acidental em experiências para o elixir da vida; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A âncora (Quarta Cruzada) não é a entidade do fato, que são os Cavalos de São Marcos; ângulo 'causa' também errado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Iniciais do rei Haroldo Dente-Azul' em português dá H e D, tornando o enunciado falso; removi a tradução.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "O logotipo do Bluetooth junta duas runas nórdicas, que correspondem às iniciais do nome do rei viking que inspirou a tecnologia. Que letras são essas?",
+        "resposta": "H e B",
+        "distratores": [
+          "B e T",
+          "H e D",
+          "R e B"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bluetooth"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é sobre a Pedra de Scone, não sobre a Abadia de Westminster: âncora errada.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pergunta trata do enredo do poema, não do manuscrito que é a âncora.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jacques de Molay, último grão-mestre, queimado em 1314 na Île de la Cité; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grafites rúnicos atribuídos à Guarda Varegue na galeria da Hagia Sophia.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Khanbaliq é a atual Pequim; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dante morreu em Ravena em 1321; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Túmulos de Pedro I e Inês de Castro em Alcobaça, obras do gótico; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Mainz confirmada, mas Estrasburgo não é cidade alemã e é fácil de eliminar; troquei o distrator.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Por volta de 1455, Johannes Gutenberg imprimiu com tipos móveis sua famosa Bíblia. Em que cidade alemã ficava a oficina dele?",
+        "resposta": "Mainz",
+        "distratores": [
+          "Colônia",
+          "Frankfurt",
+          "Nuremberg"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Gutenberg_Bible"
+        ]
+      }
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cúpula é de Brunelleschi, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista da 'sequência de números' entrega a resposta, e 'Leonardo da Vinci' confunde com Leonardo de Pisa; ajustei.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Que matemático italiano divulgou os algarismos indo-arábicos na Europa em seu livro Liber Abaci, de 1202?",
+        "resposta": "Fibonacci",
+        "distratores": [
+          "Luca Pacioli",
+          "Gerolamo Cardano",
+          "Tartaglia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Liber_Abaci",
+          "https://en.wikipedia.org/wiki/Fibonacci"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Murasaki Shikibu, autora de O Conto de Genji; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os primeiros óculos surgiram na Itália por volta de 1280–1300, século treze; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda dos corvos da Torre de Londres confirmada; enunciado cita 'segundo uma lenda'.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português confirma a adoção do grego no lugar do latim sob Heráclio, no século sete.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maria Argyropoulina e o garfo em Veneza em 1004, criticada por Pedro Damião; confirmado.",
+      "reescrita": null
+    }
+  ]
+}

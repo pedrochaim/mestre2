@@ -1,0 +1,970 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No Pátio dos Leões da Alhambra, em Granada, a famosa fonte central é sustentada por quantos leões de pedra?",
+        "resposta": "Doze"
+      },
+      "existentes": [
+        {
+          "id": "q00386",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Alhambra"
+        },
+        {
+          "id": "q02033",
+          "pergunta": "O conjunto de palácios mouros da Alhambra, último grande reduto muçulmano da Espanha, fica em qual cidade?",
+          "resposta": "Granada"
+        },
+        {
+          "id": "q09117",
+          "pergunta": "No famoso Pátio dos Leões, na Alhambra de Granada, a fonte central é sustentada por quantos leões de mármore?",
+          "resposta": "Doze"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A Magna Carta foi selada em 1215 e copiada para ser enviada pelo reino. Quantas dessas cópias originais sobreviveram até hoje?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q00100",
+          "pergunta": "Que rei inglês aparece como vilão em versões da lenda de Robin Hood e foi forçado pelos barões a aceitar a Magna Carta em 1215?",
+          "resposta": "João Sem-Terra"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Joana d'Arc comandou tropas francesas ainda muito jovem. Com que idade, aproximadamente, ela foi queimada na fogueira em 1431?",
+        "resposta": "Dezenove anos"
+      },
+      "existentes": [
+        {
+          "id": "q01359",
+          "pergunta": "Que cidade francesa esta guerreira libertou do cerco inglês em 1429?",
+          "resposta": "Orléans"
+        },
+        {
+          "id": "q13188",
+          "pergunta": "Depois de capturada e condenada por heresia, Joana d'Arc foi queimada em 1431 em que cidade da Normandia?",
+          "resposta": "Ruão (Rouen)"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Entre 1405 e 1433, o almirante chinês Zheng He liderou frotas gigantescas pelo oceano Índico. Quantas foram essas grandes expedições?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q13604",
+          "pergunta": "Em 1414, um animal levado à China pelas frotas do almirante Zheng He foi saudado na corte Ming como o qilin, uma criatura mítica. Que animal era?",
+          "resposta": "Girafa"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A Bíblia de Gutenberg, impressa com tipos móveis no século quinze, também é conhecida pelo número de linhas de cada coluna. Quantas são?",
+        "resposta": "Quarenta e duas"
+      },
+      "existentes": [
+        {
+          "id": "q03612",
+          "pergunta": "A Bíblia de Gutenberg, primeiro grande livro impresso com tipos móveis na Europa, ficou pronta em que década?",
+          "resposta": "Década de 1450"
+        },
+        {
+          "id": "q13676",
+          "pergunta": "Em que língua foi impressa a famosa Bíblia de Johannes Gutenberg, nos anos 1450?",
+          "resposta": "Latim"
+        },
+        {
+          "id": "q16833",
+          "pergunta": "A Bíblia de Gutenberg, impressa em Mainz no século quinze, também é conhecida pelo número de linhas de cada coluna. Quantas linhas?",
+          "resposta": "42"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "A Divina Comédia, de Dante Alighieri, divide-se em Inferno, Purgatório e Paraíso. Somando as três partes, o poema tem quantos cantos?",
+        "resposta": "Cem"
+      },
+      "existentes": [
+        {
+          "id": "q05497",
+          "pergunta": "Que poeta italiano é este?",
+          "resposta": "Dante Alighieri"
+        },
+        {
+          "id": "q07001",
+          "pergunta": "Exilado de Florença, Dante Alighieri morreu em 1321 e está sepultado em que cidade italiana?",
+          "resposta": "Ravena"
+        },
+        {
+          "id": "q07628",
+          "pergunta": "Que epopeia, considerada a obra-prima deste poeta florentino, ele escreveu na Idade Média?",
+          "resposta": "A Divina Comédia"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Segundo as estimativas dos historiadores, que fração da população da Europa morreu na peste negra, em meados do século quatorze?",
+        "resposta": "Um terço a metade"
+      },
+      "existentes": [
+        {
+          "id": "q00101",
+          "pergunta": "No século quatorze, a peste negra matou milhões de europeus. Que inseto, parasita de ratos, é apontado como principal transmissor da bactéria causadora?",
+          "resposta": "Pulga"
+        },
+        {
+          "id": "q06308",
+          "pergunta": "A peste negra, que matou cerca de um terço dos europeus, devastou a Europa em que século?",
+          "resposta": "Século quatorze"
+        },
+        {
+          "id": "q13187",
+          "pergunta": "Segundo relatos da época, a peste negra chegou à Europa em 1347 em navios genoveses vindos de Caffa, porto de que península do mar Negro?",
+          "resposta": "Crimeia"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A Tapeçaria de Bayeux conta em imagens bordadas a conquista normanda da Inglaterra. Qual é, aproximadamente, o comprimento dela?",
+        "resposta": "Cerca de 70 metros"
+      },
+      "existentes": [
+        {
+          "id": "q00107",
+          "pergunta": "A Tapeçaria de Bayeux, bordada no século onze para narrar a conquista normanda da Inglaterra, mostra no céu que famoso cometa?",
+          "resposta": "Halley"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A grande igreja de Justiniano em Constantinopla é chamada em grego de Hagia Sophia. Como se traduz esse nome?",
+        "resposta": "Santa Sabedoria"
+      },
+      "existentes": [
+        {
+          "id": "q02452",
+          "pergunta": "Que monumento de Istambul é este?",
+          "resposta": "Santa Sofia"
+        },
+        {
+          "id": "q03171",
+          "pergunta": "Santa Sofia, em Istambul, não homenageia nenhuma santa. O que significa seu nome em grego?",
+          "resposta": "Santa Sabedoria"
+        },
+        {
+          "id": "q03940",
+          "pergunta": "Que imperador mandou construir este edifício, concluído no ano quinhentos e trinta e sete?",
+          "resposta": "Justiniano I"
+        },
+        {
+          "id": "q17360",
+          "pergunta": "Em que cidade fica este edifício?",
+          "resposta": "Istambul"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Saladino é a forma ocidental de Salah ad-Din, um título árabe. O que esse título quer dizer?",
+        "resposta": "Retidão da fé"
+      },
+      "existentes": [
+        {
+          "id": "q13185",
+          "pergunta": "O sultão Saladino nasceu na cidade iraquiana em cujos arredores, oito séculos depois, nasceu Saddam Hussein. Que cidade é essa?",
+          "resposta": "Tikrit"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em várias línguas eslavas, como o polonês e o tcheco, a palavra que significa rei vem do nome de que governante medieval?",
+        "resposta": "Carlos Magno"
+      },
+      "existentes": [
+        {
+          "id": "q00109",
+          "pergunta": "Num dia de Natal, em Roma, o papa Leão Terceiro coroou Carlos Magno imperador. Em que ano isso aconteceu?",
+          "resposta": "800"
+        },
+        {
+          "id": "q13183",
+          "pergunta": "Carlos Magno, imperador dos francos, morreu em 814 e foi sepultado na catedral de que cidade, hoje na Alemanha?",
+          "resposta": "Aachen (Aquisgrano)"
+        },
+        {
+          "id": "q13591",
+          "pergunta": "Segundo seu biógrafo Eginhardo, Carlos Magno guardava tabuinhas sob o travesseiro para treinar à noite uma habilidade que nunca dominou. Qual?",
+          "resposta": "Escrever"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O apelido Drácula, usado por Vlad Terceiro da Valáquia, vem de uma ordem de cavalaria da qual seu pai fazia parte. Que ordem era essa?",
+        "resposta": "Ordem do Dragão"
+      },
+      "existentes": [
+        {
+          "id": "q13206",
+          "pergunta": "Diz-se que o nome de Vlad Terceiro, príncipe da Valáquia no século quinze, famoso por empalar inimigos, inspirou que personagem do escritor Bram Stoker?",
+          "resposta": "Conde Drácula"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Embora quase nunca tenha ido ao mar, o infante Dom Henrique, que incentivou as viagens portuguesas no século quinze, ficou conhecido por que apelido?",
+        "resposta": "O Navegador"
+      },
+      "existentes": [
+        {
+          "id": "q11577",
+          "pergunta": "Depois da conquista de Ceuta, em 1415, que título de duque este príncipe português recebeu?",
+          "resposta": "Duque de Viseu"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "A Bula de Ouro, decreto de 1356 que regulou a eleição dos imperadores germânicos, deve esse nome a quê?",
+        "resposta": "Seu selo de ouro"
+      },
+      "existentes": [
+        {
+          "id": "q13615",
+          "pergunta": "Pela Bula de Ouro de 1356, quantos príncipes-eleitores tinham o direito de escolher o rei que seria coroado imperador do Sacro Império?",
+          "resposta": "Sete"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O último imperador bizantino morreu lutando quando os otomanos tomaram sua capital, em 1453. Ele tinha o mesmo nome de que imperador romano?",
+        "resposta": "Constantino, o Grande"
+      },
+      "existentes": [
+        {
+          "id": "q00102",
+          "pergunta": "Em 1453, que armas gigantes, construídas pelo engenheiro Orban, ajudaram os otomanos a romper as muralhas de Constantinopla?",
+          "resposta": "Canhões"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "No Brasil colonial, que nome, igual ao de uma casta de soldados que governou o Egito medieval, designava o filho de branco com indígena?",
+        "resposta": "Mameluco"
+      },
+      "existentes": [
+        {
+          "id": "q13589",
+          "pergunta": "Os mamelucos, que tomaram o poder no Egito no século treze e derrotaram os mongóis, eram originalmente que tipo de soldados?",
+          "resposta": "Soldados escravos"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "A Guerra das Rosas, que dividiu a Inglaterra no século quinze, inspirou os livros de George R. R. Martin adaptados em que série de TV?",
+        "resposta": "Game of Thrones"
+      },
+      "existentes": [
+        {
+          "id": "q13202",
+          "pergunta": "A Guerra das Rosas, na Inglaterra do século quinze, tem esse nome por causa dos símbolos de duas casas nobres rivais. Quais eram elas?",
+          "resposta": "Lancaster e York"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em muitas versões da lenda, Robin Hood se mantém fiel a um rei inglês ausente por estar lutando nas cruzadas. Que rei é esse?",
+        "resposta": "Ricardo Coração de Leão"
+      },
+      "existentes": [
+        {
+          "id": "q13613",
+          "pergunta": "Segundo a lenda inglesa, em que floresta perto de Nottingham Robin Hood se escondia com seu bando?",
+          "resposta": "Floresta de Sherwood"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Que escritor francês ajudou a salvar Notre-Dame de Paris do abandono com um romance de 1831, cujo herói é um sineiro corcunda?",
+        "resposta": "Victor Hugo"
+      },
+      "existentes": [
+        {
+          "id": "q01920",
+          "pergunta": "Que catedral gótica é esta?",
+          "resposta": "Notre-Dame de Paris"
+        },
+        {
+          "id": "q03974",
+          "pergunta": "Marco da arquitetura gótica, a Catedral de Notre-Dame de Paris teve sua construção iniciada em que século?",
+          "resposta": "Século doze"
+        },
+        {
+          "id": "q07527",
+          "pergunta": "No século dezenove, que romance de Victor Hugo despertou o interesse do público e ajudou a salvar da ruína a grande catedral gótica de Paris?",
+          "resposta": "O Corcunda de Notre-Dame"
+        },
+        {
+          "id": "q18266",
+          "pergunta": "Em que cidade fica esta catedral gótica?",
+          "resposta": "Paris"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Segundo a tradição, ao entrar na Hagia Sophia recém-concluída, o imperador Justiniano exclamou que havia superado que rei bíblico?",
+        "resposta": "Salomão"
+      },
+      "existentes": [
+        {
+          "id": "q02452",
+          "pergunta": "Que monumento de Istambul é este?",
+          "resposta": "Santa Sofia"
+        },
+        {
+          "id": "q03171",
+          "pergunta": "Santa Sofia, em Istambul, não homenageia nenhuma santa. O que significa seu nome em grego?",
+          "resposta": "Santa Sabedoria"
+        },
+        {
+          "id": "q03940",
+          "pergunta": "Que imperador mandou construir este edifício, concluído no ano quinhentos e trinta e sete?",
+          "resposta": "Justiniano I"
+        },
+        {
+          "id": "q17360",
+          "pergunta": "Em que cidade fica este edifício?",
+          "resposta": "Istambul"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O califa Harun al-Rashid, que governou Bagdá no fim do século oito, virou personagem de que famosa coletânea de contos?",
+        "resposta": "Mil e Uma Noites"
+      },
+      "existentes": [
+        {
+          "id": "q13603",
+          "pergunta": "O califa Harun al-Rashid, de Bagdá, enviou a Carlos Magno um presente que espantou os francos em 802. Que animal era?",
+          "resposta": "Um elefante"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "O templo de Angkor Wat, erguido no século doze pelo Império Khmer, aparece desenhado na bandeira de que país?",
+        "resposta": "Camboja"
+      },
+      "existentes": [
+        {
+          "id": "q00385",
+          "pergunta": "Que templo é este?",
+          "resposta": "Angkor Wat"
+        },
+        {
+          "id": "q02034",
+          "pergunta": "O templo de Angkor Wat, que aparece estampado na bandeira nacional, fica em qual país asiático?",
+          "resposta": "Camboja"
+        },
+        {
+          "id": "q02517",
+          "pergunta": "Que rei khmer mandou construir este templo, no século doze?",
+          "resposta": "Suryavarman II"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "A Torre de Pisa começou a inclinar ainda durante a construção, no fim do século doze. Por que isso aconteceu?",
+        "resposta": "Solo mole demais"
+      },
+      "existentes": [
+        {
+          "id": "q02007",
+          "pergunta": "Por que a Torre de Pisa começou a se inclinar ainda durante a obra, no século doze?",
+          "resposta": "Solo mole e fundação rasa"
+        },
+        {
+          "id": "q02451",
+          "pergunta": "Em que região da Itália fica este campanário de catedral?",
+          "resposta": "Toscana"
+        },
+        {
+          "id": "q03945",
+          "pergunta": "Que torre é esta?",
+          "resposta": "Torre de Pisa"
+        },
+        {
+          "id": "q18956",
+          "pergunta": "Segundo um relato de seu discípulo, que cientista nascido em Pisa soltou objetos do alto da torre inclinada para estudar a queda dos corpos?",
+          "resposta": "Galileu Galilei"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "A Sainte-Chapelle, em Paris, foi erguida para abrigar uma relíquia cara, comprada pelo rei Luís Nono do imperador latino de Constantinopla. Qual?",
+        "resposta": "Coroa de espinhos"
+      },
+      "existentes": [
+        {
+          "id": "q20145",
+          "pergunta": "Em meados do século treze, que rei francês mandou construir esta capela gótica de Paris para guardar relíquias?",
+          "resposta": "Luís IX"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "A Guerra dos Cem Anos começou em 1337, quando o rei inglês Eduardo Terceiro passou a reivindicar o quê?",
+        "resposta": "O trono da França"
+      },
+      "existentes": [
+        {
+          "id": "q00108",
+          "pergunta": "Apesar do nome, quantos anos durou de fato a Guerra dos Cem Anos, travada entre Inglaterra e França?",
+          "resposta": "116 anos"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Segundo a história mais aceita, alquimistas chineses chegaram à pólvora por volta do século nove enquanto procuravam o quê?",
+        "resposta": "Elixir da imortalidade"
+      },
+      "existentes": [
+        {
+          "id": "q03153",
+          "pergunta": "Descoberta por alquimistas que buscavam um elixir da imortalidade, a pólvora surgiu em que país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q03364",
+          "pergunta": "Por volta do século nove, alquimistas chineses descobriram a pólvora enquanto procuravam o quê?",
+          "resposta": "O elixir da imortalidade"
+        },
+        {
+          "id": "q05886",
+          "pergunta": "Os alquimistas chineses chegaram à mistura da pólvora por volta de que século?",
+          "resposta": "Século nove"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "O logotipo do Bluetooth junta duas runas nórdicas, que correspondem às iniciais do nome do rei viking que inspirou a tecnologia. Que letras são essas?",
+        "resposta": "H e B"
+      },
+      "existentes": [
+        {
+          "id": "q00099",
+          "pergunta": "Haroldo, rei viking da Dinamarca no século dez, tinha um apelido que hoje dá nome a que tecnologia sem fio?",
+          "resposta": "Bluetooth"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Depois do processo contra os templários, o último grão-mestre da ordem foi queimado numa ilha do rio Sena, em Paris, em 1314. Quem era ele?",
+        "resposta": "Jacques de Molay"
+      },
+      "existentes": [
+        {
+          "id": "q13199",
+          "pergunta": "A ordem dos templários tirou seu nome do local de sua primeira sede em Jerusalém, ligado ao templo de que rei bíblico?",
+          "resposta": "Salomão"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Guerreiros nórdicos que serviam aos imperadores bizantinos deixaram nomes riscados em runas num parapeito de que grande templo de Constantinopla?",
+        "resposta": "Hagia Sophia"
+      },
+      "existentes": [
+        {
+          "id": "q13210",
+          "pergunta": "A Guarda Varegue, tropa de elite que protegia os imperadores bizantinos em Constantinopla, era formada sobretudo por guerreiros de que origem?",
+          "resposta": "Nórdicos, os vikings"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Kublai Khan ergueu na China uma capital que os mongóis chamavam de Khanbaliq, a cidade do khan. Que cidade é essa hoje?",
+        "resposta": "Pequim"
+      },
+      "existentes": [
+        {
+          "id": "q07622",
+          "pergunta": "Em que século viveu este governante mongol?",
+          "resposta": "Século treze"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Exilado de Florença, Dante Alighieri morreu em 1321 em outra cidade italiana, onde está seu túmulo até hoje. Que cidade é essa?",
+        "resposta": "Ravena"
+      },
+      "existentes": [
+        {
+          "id": "q05497",
+          "pergunta": "Que poeta italiano é este?",
+          "resposta": "Dante Alighieri"
+        },
+        {
+          "id": "q07001",
+          "pergunta": "Exilado de Florença, Dante Alighieri morreu em 1321 e está sepultado em que cidade italiana?",
+          "resposta": "Ravena"
+        },
+        {
+          "id": "q07628",
+          "pergunta": "Que epopeia, considerada a obra-prima deste poeta florentino, ele escreveu na Idade Média?",
+          "resposta": "A Divina Comédia"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Os túmulos góticos de Dom Pedro Primeiro e de sua amada Inês de Castro, esculpidos no século quatorze, ficam em que mosteiro português?",
+        "resposta": "Mosteiro de Alcobaça"
+      },
+      "existentes": [
+        {
+          "id": "q13602",
+          "pergunta": "Segundo a lenda, Dom Pedro Primeiro de Portugal, no século quatorze, fez a corte beijar a mão do cadáver de que amada, assassinada a mando do pai dele?",
+          "resposta": "Inês de Castro"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Por volta de 1455, Johannes Gutenberg imprimiu com tipos móveis sua famosa Bíblia. Em que cidade alemã ficava a oficina dele?",
+        "resposta": "Mainz"
+      },
+      "existentes": [
+        {
+          "id": "q03612",
+          "pergunta": "A Bíblia de Gutenberg, primeiro grande livro impresso com tipos móveis na Europa, ficou pronta em que década?",
+          "resposta": "Década de 1450"
+        },
+        {
+          "id": "q13676",
+          "pergunta": "Em que língua foi impressa a famosa Bíblia de Johannes Gutenberg, nos anos 1450?",
+          "resposta": "Latim"
+        },
+        {
+          "id": "q16833",
+          "pergunta": "A Bíblia de Gutenberg, impressa em Mainz no século quinze, também é conhecida pelo número de linhas de cada coluna. Quantas linhas?",
+          "resposta": "42"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "A catedral de Florença ficou mais de um século sem cobertura sobre o altar. Que arquiteto venceu o desafio de erguer sua enorme cúpula, no século quinze?",
+        "resposta": "Filippo Brunelleschi"
+      },
+      "existentes": [
+        {
+          "id": "q03188",
+          "pergunta": "Que arquiteto renascentista ergueu a enorme cúpula da Catedral de Florença, no século quinze?",
+          "resposta": "Filippo Brunelleschi"
+        },
+        {
+          "id": "q07189",
+          "pergunta": "Em que século foi concluída a cúpula desta catedral?",
+          "resposta": "Século quinze"
+        },
+        {
+          "id": "q20979",
+          "pergunta": "Que catedral italiana é esta?",
+          "resposta": "Catedral de Florença"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Que matemático italiano divulgou os algarismos indo-arábicos na Europa em seu livro Liber Abaci, de 1202?",
+        "resposta": "Fibonacci"
+      },
+      "existentes": [
+        {
+          "id": "q00106",
+          "pergunta": "Os algarismos de zero a nove são chamados de arábicos, mas os árabes medievais os aprenderam com matemáticos de que região?",
+          "resposta": "Índia"
+        },
+        {
+          "id": "q03360",
+          "pergunta": "Os algarismos que usamos hoje foram criados na Índia. Por que, então, costumam ser chamados de arábicos?",
+          "resposta": "Chegaram à Europa pelos árabes"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Escrito no Japão por volta do ano mil, O Conto de Genji é obra de uma dama da corte imperial. Qual era o nome dela?",
+        "resposta": "Murasaki Shikibu"
+      },
+      "existentes": [
+        {
+          "id": "q02965",
+          "pergunta": "O Conto de Genji, clássico japonês do século onze, foi escrito por uma dama da corte imperial. Quem foi ela?",
+          "resposta": "Murasaki Shikibu"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Os primeiros óculos para corrigir a visão surgiram no norte da Itália, provavelmente em Pisa. Em que século isso aconteceu?",
+        "resposta": "Século treze"
+      },
+      "existentes": [
+        {
+          "id": "q00903",
+          "pergunta": "Os óculos de correção surgiram no norte da Itália, provavelmente em Pisa. Em que século?",
+          "resposta": "Século treze"
+        },
+        {
+          "id": "q03607",
+          "pergunta": "Os primeiros óculos de correção de que se tem notícia surgiram por volta de 1290 no território de que país atual?",
+          "resposta": "Itália"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Segundo uma lenda, a monarquia britânica cairá se certas aves abandonarem a Torre de Londres. Por isso, algumas são mantidas lá até hoje. Que aves são essas?",
+        "resposta": "Corvos"
+      },
+      "existentes": [
+        {
+          "id": "q05454",
+          "pergunta": "Segundo uma antiga lenda, o reino britânico cairá se quais aves, mantidas ali até hoje, abandonarem a Torre de Londres?",
+          "resposta": "Corvos"
+        },
+        {
+          "id": "q07616",
+          "pergunta": "Em que século foi fundada esta fortaleza inglesa?",
+          "resposta": "Século onze"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Os bizantinos se diziam romanos, mas, a partir do século sete, que língua substituiu o latim como língua oficial do império?",
+        "resposta": "Grego"
+      },
+      "existentes": [
+        {
+          "id": "q00096",
+          "pergunta": "O nome Império Bizantino foi criado por historiadores depois da sua queda. Como os próprios habitantes desse império se chamavam?",
+          "resposta": "Romanos"
+        },
+        {
+          "id": "q05331",
+          "pergunta": "O Império Romano do Oriente sobreviveu ao do Ocidente por quase mil anos. Em que século ele chegou ao fim?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "No início do século onze, uma princesa bizantina casada com o filho do doge de Veneza escandalizou o clero ao comer usando que talher?",
+        "resposta": "Garfo"
+      },
+      "existentes": [
+        {
+          "id": "q07349",
+          "pergunta": "No começo do século onze, uma princesa causou escândalo em Veneza ao comer com um garfo de ouro. De que império ela vinha?",
+          "resposta": "Império Bizantino"
+        },
+        {
+          "id": "q20669",
+          "pergunta": "O viajante inglês Thomas Coryat conheceu o garfo na Itália e foi ridicularizado ao usá-lo de volta à Inglaterra. Em que século isso aconteceu?",
+          "resposta": "Século dezessete"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q09117",
+      "motivo": "Mesmo fato: doze leões na fonte."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cópias sobreviventes é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Idade na morte, diferente de local ou Orléans."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Número de expedições é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q16833",
+      "motivo": "Mesmo fato: 42 linhas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Número de cantos é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q06308",
+      "motivo": "A existente já traz um terço como fração; a resposta de uma entrega a outra."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Comprimento diferente do cometa."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "id_existente": "q03171",
+      "motivo": "Mesmo significado do nome."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Significado do título é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Etimologia de rei é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Origem do apelido, não o personagem de Stoker."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Apelido diferente do título de duque."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Origem do nome difere do número de eleitores."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Nome do imperador, outro fato."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Uso colonial brasileiro, fato diferente."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Série de TV, fato diferente."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Rei da lenda, diferente da floresta."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "id_existente": "q07527",
+      "motivo": "Mesmo fato: Victor Hugo e o romance salvando a catedral."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Rei bíblico superado, fato diferente."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Mil e Uma Noites vs elefante."
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "id_existente": "q02034",
+      "motivo": "Existente já pergunta Camboja pela bandeira."
+    },
+    {
+      "caso": 23,
+      "decisao": "repete",
+      "id_existente": "q02007",
+      "motivo": "Mesmo motivo da inclinação."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Relíquia diferente do rei construtor."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Causa da guerra, não a duração."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "id_existente": "q03364",
+      "motivo": "Mesma pergunta: o que procuravam."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Letras das runas, outro fato."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Grão-mestre, outro fato."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Templo com runas, outro fato."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Capital Khanbaliq, outro fato."
+    },
+    {
+      "caso": 31,
+      "decisao": "repete",
+      "id_existente": "q07001",
+      "motivo": "Mesmo fato: sepultado em Ravena."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Local dos túmulos, outro fato."
+    },
+    {
+      "caso": 33,
+      "decisao": "repete",
+      "id_existente": "q16833",
+      "motivo": "A existente já menciona Mainz no enunciado, mas pergunta linhas; fato diferente."
+    },
+    {
+      "caso": 34,
+      "decisao": "repete",
+      "id_existente": "q03188",
+      "motivo": "Mesmo fato: Brunelleschi."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Fibonacci é outro fato."
+    },
+    {
+      "caso": 36,
+      "decisao": "repete",
+      "id_existente": "q02965",
+      "motivo": "Mesma pergunta."
+    },
+    {
+      "caso": 37,
+      "decisao": "repete",
+      "id_existente": "q00903",
+      "motivo": "Mesma pergunta: século treze."
+    },
+    {
+      "caso": 38,
+      "decisao": "repete",
+      "id_existente": "q05454",
+      "motivo": "Mesma pergunta: corvos."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Língua oficial, outro fato."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Talher é garfo, mas a existente já pergunta império; fato diferente."
+    }
+  ]
+}
