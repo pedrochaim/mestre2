@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (1788). Mas 'ao lado de instrumentos de laboratório' descreve a figura e quase entrega a obra; retiro essa pista.",
+      "reescrita": {
+        "pergunta": "Em que ano o pintor francês Jacques-Louis David pintou este retrato de casal?",
+        "resposta": "1788",
+        "distratores": [
+          "1785",
+          "1791",
+          "1794"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o evento e é verdadeiro. A resposta é única e está sustentada pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1, sem vazamento. A resposta (Natividade) é sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Título correto e distratores são outras obras de Cézanne, do mesmo tipo e curtos, sem nenhum correto. Redação aceitável.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, 'Roma, 1601' leva a Barroco sem ver a figura. 'Estilo' também é discutível (tenebrismo, naturalismo). Troco por autoria, que exige reconhecer a obra.",
+      "reescrita": {
+        "pergunta": "Quem pintou este quadro, feito em Roma em 1601?",
+        "resposta": "Caravaggio"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Museu confirmado pelos trechos (National Gallery, comprado em 1844). A data é verdadeira e os distratores são museus críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Atribuição tradicional a Rembrandt sustentada pelos trechos. O enunciado não nomeia a obra nem o autor.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rossetti é pintor inglês pré-rafaelita, e o trecho confirma autoria e tema do espelho. A pista de grupo ajuda sem entregar.",
+      "reescrita": null
+    }
+  ]
+}

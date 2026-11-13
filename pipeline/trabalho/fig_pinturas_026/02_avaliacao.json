@@ -1,0 +1,183 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano Jacques-Louis David pintou este retrato de um casal ao lado de instrumentos de laboratório?",
+      "resposta": "1788",
+      "distratores": [
+        "1785",
+        "1791",
+        "1794"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Retrato de Antoine e Marie-Anne Lavoisier",
+        "descricao": "Pintura de Jacques-Louis David, de 1788, retratando o químico Antoine Lavoisier e sua esposa.",
+        "variantes": [
+          "Retrato de Lavoisier e sua Esposa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Assinatura legível 'Renoir 76' no canto entrega o autor e o ano."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Obra célebre, sem texto, cena clara.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que acontecimento londrino do século dezenove este quadro de Turner retrata?",
+      "resposta": "Incêndio do Parlamento (Casas do Parlamento)",
+      "destino": 0,
+      "ancora": {
+        "nome": "O Incêndio das Casas do Parlamento",
+        "descricao": "Pintura de J. M. W. Turner sobre o incêndio do Parlamento britânico em 1834.",
+        "variantes": [
+          "The Burning of the Houses of Lords and Commons"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem é uma foto do pintor Archibald Willard, não a pintura O Espírito de 76."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Obra reconhecível; a inscrição grega no topo não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que episódio da vida de Jesus esta pintura de Botticelli representa?",
+      "resposta": "A Natividade (nascimento de Jesus)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Natividade Mística",
+        "descricao": "Pintura de Sandro Botticelli, de cerca de 1500, na National Gallery de Londres.",
+        "variantes": [
+          "The Mystical Nativity"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Obra clara, sem texto; distratores com outras obras de Cézanne.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas é esta pintura de Cézanne?",
+      "resposta": "O Garoto do Colete Vermelho",
+      "distratores": [
+        "Os Jogadores de Cartas",
+        "Mulher com Cafeteira",
+        "O Fumante"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Garoto do Colete Vermelho",
+        "descricao": "Pintura de Paul Cézanne, de cerca de 1888-1890, roubada em 2008 e recuperada em 2012.",
+        "variantes": [
+          "The Boy in the Red Vest",
+          "Le Garçon au gilet rouge"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "A que estilo artístico pertence este quadro pintado em Roma por volta de 1601?",
+      "resposta": "Barroco",
+      "destino": 0,
+      "ancora": {
+        "nome": "Crucificação de São Pedro",
+        "descricao": "Pintura de Caravaggio, de 1601, na capela Cerasi de Santa Maria del Popolo, em Roma.",
+        "variantes": [
+          "Crocifissione di san Pietro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato claro; o cartellino com a assinatura é minúsculo e não entrega o museu.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica este retrato de um doge de Veneza, pintado por volta de 1501?",
+      "resposta": "National Gallery, em Londres",
+      "distratores": [
+        "Museu do Louvre",
+        "Galleria degli Uffizi",
+        "Museu do Prado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Retrato do Doge Leonardo Loredan",
+        "descricao": "Pintura de Giovanni Bellini, de cerca de 1501-1502, retratando o doge de Veneza Leonardo Loredan.",
+        "variantes": [
+          "Portrait of Doge Leonardo Loredan"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O título 'AREAREA' está escrito na pintura, visível, e entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto legível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor holandês do século dezessete fez este quadro de um homem pensativo ao lado de uma escada em espiral?",
+      "resposta": "Rembrandt",
+      "destino": 0,
+      "ancora": {
+        "nome": "Filósofo em Meditação",
+        "descricao": "Pintura atribuída a Rembrandt, de 1632, no Louvre.",
+        "variantes": [
+          "Philosopher in Meditation",
+          "Filósofo em Contemplação"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Assinatura 'Mary Cassatt' visível no canto inferior, que entrega a autora e o estilo."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Obra clara, sem texto que entregue o autor (só data e monograma).",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Que pintor inglês do século dezenove, ligado aos pré-rafaelitas, fez este quadro de uma mulher penteando os cabelos diante de um espelho?",
+      "resposta": "Dante Gabriel Rossetti",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lady Lilith",
+        "descricao": "Pintura de Dante Gabriel Rossetti, de 1866-1873, que representa Lilith, primeira esposa de Adão segundo a lenda judaica.",
+        "variantes": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Retrato de Antoine e Marie-Anne Lavoisier",
+        "descricao": "Pintura de Jacques-Louis David, de 1788, retratando o químico Antoine Lavoisier e sua esposa.",
+        "variantes": [
+          "Retrato de Lavoisier e sua Esposa (David)",
+          "Retrato de Lavoisier e sua Esposa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corrida_de_carregar_a_esposa",
+          "nome": "Corrida de carregar a esposa",
+          "descricao": "Competição em que homens carregam a esposa nas costas por uma pista com obstáculos, com campeonato mundial em Sonkajärvi.",
+          "variantes": [
+            "Wife-carrying",
+            "Eukonkanto"
+          ]
+        },
+        {
+          "id": "retrato_de_juan_de_pareja",
+          "nome": "Retrato de Juan de Pareja",
+          "descricao": "Retrato de Velázquez, de 1650, do assistente escravizado Juan de Pareja, no Metropolitan Museum de Nova York.",
+          "variantes": [
+            "Retrato de Juan de Pareja (Velázquez)",
+            "Portrait of Juan de Pareja"
+          ]
+        },
+        {
+          "id": "maria_antonieta_com_a_rosa",
+          "nome": "Maria Antonieta com a Rosa",
+          "descricao": "Retrato a óleo de Maria Antonieta segurando uma rosa, pintado por Élisabeth Vigée Le Brun em 1783, no Palácio de Versalhes.",
+          "variantes": [
+            "Marie Antoinette with a Rose",
+            "Marie-Antoinette dite « à la Rose »",
+            "Maria Antonieta com uma Rosa"
+          ]
+        },
+        {
+          "id": "antoine_lavoisier",
+          "nome": "Antoine Lavoisier",
+          "descricao": "Químico francês do século dezoito, central na revolução química e na descoberta do papel do oxigênio na combustão.",
+          "variantes": [
+            "Antoine-Laurent de Lavoisier",
+            "Lavoisier"
+          ]
+        },
+        {
+          "id": "tratado_de_versalhes",
+          "nome": "Tratado de Versalhes",
+          "descricao": "Tratado de paz assinado em 1919 entre a Alemanha e os Aliados, que encerrou formalmente a Primeira Guerra Mundial.",
+          "variantes": [
+            "Treaty of Versailles"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "O Incêndio das Casas do Parlamento",
+        "descricao": "Pintura de J. M. W. Turner sobre o incêndio do Parlamento britânico em 1834.",
+        "variantes": [
+          "O Incêndio das Casas do Parlamento (Turner)",
+          "The Burning of the Houses of Lords and Commons"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_westminster",
+          "nome": "Palácio de Westminster",
+          "descricao": "Sede do Parlamento do Reino Unido, em Londres, às margens do Tâmisa, com a torre do Big Ben.",
+          "variantes": [
+            "Houses of Parliament",
+            "Casas do Parlamento"
+          ]
+        },
+        {
+          "id": "o_enterro_do_conde_de_orgaz_el_greco",
+          "nome": "O Enterro do Conde de Orgaz (El Greco)",
+          "descricao": "Pintura de El Greco, de 1586, na igreja de Santo Tomé, em Toledo, dividida em uma parte celeste e outra terrestre.",
+          "variantes": [
+            "The Burial of the Count of Orgaz",
+            "El Entierro del Conde de Orgaz",
+            "Enterro do Conde de Orgaz"
+          ]
+        },
+        {
+          "id": "inundacao_da_varzea_do_carmo_benedito_calixto",
+          "nome": "Inundação da Várzea do Carmo (Benedito Calixto)",
+          "descricao": "Pintura a óleo de Benedito Calixto, de 1892, que mostra a cheia do Tamanduateí no centro de São Paulo.",
+          "variantes": [
+            "Inundação da Várzea do Carmo",
+            "Várzea do Carmo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Natividade Mística",
+        "descricao": "Pintura de Sandro Botticelli, de cerca de 1500, na National Gallery de Londres.",
+        "variantes": [
+          "Natividade Mística (Botticelli)",
+          "The Mystical Nativity"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caminhada_espacial",
+          "nome": "Caminhada espacial",
+          "descricao": "Atividade extraveicular em que um astronauta trabalha fora da nave, no espaço.",
+          "variantes": [
+            "Atividade extraveicular",
+            "EVA",
+            "Passeio espacial"
+          ]
+        },
+        {
+          "id": "eletricidade_estatica",
+          "nome": "Eletricidade estática",
+          "descricao": "Acúmulo de carga elétrica na superfície de objetos, em geral por atrito, que causa faíscas e atrai cabelos.",
+          "variantes": [
+            "Static electricity"
+          ]
+        },
+        {
+          "id": "regra_das_tres_unidades",
+          "nome": "Regra das três unidades",
+          "descricao": "Princípio do teatro clássico, derivado da Poética de Aristóteles, que exige unidade de ação, de tempo e de lugar numa peça.",
+          "variantes": [
+            "Unidades aristotélicas",
+            "Lei das três unidades",
+            "Unidades clássicas"
+          ]
+        },
+        {
+          "id": "ginastica_artistica",
+          "nome": "Ginástica artística",
+          "descricao": "Modalidade de ginástica disputada em aparelhos como solo, argolas, barras e trave.",
+          "variantes": [
+            "Ginástica olímpica"
+          ]
+        },
+        {
+          "id": "nado_artistico",
+          "nome": "Nado artístico",
+          "descricao": "Esporte aquático em que nadadoras executam coreografias sincronizadas ao som de música.",
+          "variantes": [
+            "Natação sincronizada",
+            "Nado sincronizado",
+            "Natação artística",
+            "Artistic swimming",
+            "Synchronized swimming"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "O Garoto do Colete Vermelho",
+        "descricao": "Pintura de Paul Cézanne, de cerca de 1888-1890, roubada em 2008 e recuperada em 2012.",
+        "variantes": [
+          "O Garoto do Colete Vermelho (Cézanne)",
+          "The Boy in the Red Vest",
+          "Le Garçon au gilet rouge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "machado_de_assis",
+          "nome": "Machado de Assis",
+          "descricao": "Escritor brasileiro (1839–1908), fundador da Academia Brasileira de Letras, autor de Dom Casmurro.",
+          "variantes": [
+            "Joaquim Maria Machado de Assis",
+            "Bruxo do Cosme Velho"
+          ]
+        },
+        {
+          "id": "abadia_no_carvalhal",
+          "nome": "Abadia no Carvalhal",
+          "descricao": "Pintura a óleo de Caspar David Friedrich (1809-1810) com ruínas de uma abadia gótica entre carvalhos secos.",
+          "variantes": [
+            "Abtei im Eichwald",
+            "The Abbey in the Oakwood"
+          ]
+        },
+        {
+          "id": "o_nascimento_de_venus",
+          "nome": "O Nascimento de Vênus",
+          "descricao": "Pintura de Sandro Botticelli, de cerca de 1485.",
+          "variantes": [
+            "The Birth of Venus",
+            "Nascita di Venere"
+          ]
+        },
+        {
+          "id": "o_nascimento_de_venus_bouguereau",
+          "nome": "O Nascimento de Vênus (Bouguereau)",
+          "descricao": "Pintura de William-Adolphe Bouguereau que mostra Vênus de pé numa concha, cercada por tritões, ninfas e anjinhos.",
+          "variantes": [
+            "The Birth of Venus",
+            "La Naissance de Vénus",
+            "Nascimento de Vênus de Bouguereau"
+          ]
+        },
+        {
+          "id": "festa_de_iemanja",
+          "nome": "Festa de Iemanjá",
+          "descricao": "Celebração em homenagem ao orixá Iemanjá no bairro do Rio Vermelho, em Salvador",
+          "variantes": [
+            "Dois de Fevereiro",
+            "Festa do Rio Vermelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Crucificação de São Pedro",
+        "descricao": "Pintura de Caravaggio, de 1601, na capela Cerasi de Santa Maria del Popolo, em Roma.",
+        "variantes": [
+          "Crucificação de São Pedro (Caravaggio)",
+          "Crocifissione di san Pietro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "praca_de_sao_pedro",
+          "nome": "Praça de São Pedro",
+          "descricao": "Grande praça diante da Basílica de São Pedro, no Vaticano, cercada por uma colunata em semicírculo.",
+          "variantes": [
+            "Piazza San Pietro",
+            "St. Peter's Square"
+          ]
+        },
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "a_incredulidade_de_sao_tome_caravaggio",
+          "nome": "A Incredulidade de São Tomé (Caravaggio)",
+          "descricao": "Pintura de Caravaggio, de cerca de 1601, em que o apóstolo Tomé toca a ferida de Cristo.",
+          "variantes": [
+            "The Incredulity of Saint Thomas",
+            "A Incredulidade de Tomé"
+          ]
+        },
+        {
+          "id": "baldaquino_de_sao_pedro",
+          "nome": "Baldaquino de São Pedro",
+          "descricao": "Dossel monumental de bronze de Bernini sobre o altar-mor da Basílica de São Pedro, no Vaticano, feito de 1623 a 1634.",
+          "variantes": [
+            "Baldacchino di San Pietro",
+            "Baldaquino de Bernini",
+            "St. Peter's Baldachin"
+          ]
+        },
+        {
+          "id": "cristo_crucificado_velazquez",
+          "nome": "Cristo Crucificado (Velázquez)",
+          "descricao": "Pintura de Diego Velázquez (1632) que mostra Cristo sozinho na cruz sobre fundo escuro, hoje no Museu do Prado.",
+          "variantes": [
+            "Cristo de São Plácido",
+            "Cristo Crucificado",
+            "Christ Crucified"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Retrato do Doge Leonardo Loredan",
+        "descricao": "Pintura de Giovanni Bellini, de cerca de 1501-1502, retratando o doge de Veneza Leonardo Loredan.",
+        "variantes": [
+          "Retrato do Doge Leonardo Loredan (Bellini)",
+          "Portrait of Doge Leonardo Loredan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "retrato_de_um_homem_em_giz_vermelho_leonardo_da_vinci",
+          "nome": "Retrato de um homem em giz vermelho (Leonardo da Vinci)",
+          "descricao": "Desenho em sanguínea de c. 1510, atribuído a Leonardo da Vinci como autorretrato, na Biblioteca Real de Turim.",
+          "variantes": [
+            "Autorretrato de Leonardo da Vinci (sanguínea)",
+            "Autorretrato de Leonardo da Vinci",
+            "Portrait of a Man in Red Chalk"
+          ]
+        },
+        {
+          "id": "retrato_de_juan_de_pareja",
+          "nome": "Retrato de Juan de Pareja",
+          "descricao": "Retrato de Velázquez, de 1650, do assistente escravizado Juan de Pareja, no Metropolitan Museum de Nova York.",
+          "variantes": [
+            "Retrato de Juan de Pareja (Velázquez)",
+            "Portrait of Juan de Pareja"
+          ]
+        },
+        {
+          "id": "la_fornarina_rafael",
+          "nome": "La Fornarina (Rafael)",
+          "descricao": "Retrato de uma jovem seminua com turbante, pintado por Rafael entre 1518 e 1519 e guardado no Palazzo Barberini, em Roma.",
+          "variantes": [
+            "A Fornarina",
+            "Retrato de Jovem Mulher",
+            "La fornarina",
+            "Portrait of a Young Woman"
+          ]
+        },
+        {
+          "id": "retrato_de_madame_recamier_david",
+          "nome": "Retrato de Madame Récamier (David)",
+          "descricao": "Retrato inacabado de Juliette Récamier, pintado por Jacques-Louis David em 1800, reclinada num divã.",
+          "variantes": [
+            "Madame Récamier",
+            "Portrait of Madame Récamier",
+            "Retrato de Madame de Récamier"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Filósofo em Meditação",
+        "descricao": "Pintura atribuída a Rembrandt, de 1632, no Louvre.",
+        "variantes": [
+          "Filósofo em Meditação (Rembrandt)",
+          "Philosopher in Meditation",
+          "Filósofo em Contemplação"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "orion_constelacao",
+          "nome": "Órion (constelação)",
+          "descricao": "Constelação equatorial que representa o caçador da mitologia grega, com as Três Marias no cinturão e as estrelas Betelgeuse e Rigel.",
+          "variantes": [
+            "Orion",
+            "Órion"
+          ]
+        },
+        {
+          "id": "estoicismo",
+          "nome": "Estoicismo",
+          "descricao": "Escola filosófica fundada por Zenão de Cítio em Atenas, por volta de 300 a.C.",
+          "variantes": [
+            "Escola estoica",
+            "Stoicism",
+            "Stoicismo",
+            "Filosofia estoica"
+          ]
+        },
+        {
+          "id": "o_festim_de_baltasar",
+          "nome": "O Festim de Baltasar",
+          "descricao": "Pintura de Rembrandt, na National Gallery de Londres, que mostra o rei Baltasar vendo uma escrita misteriosa na parede.",
+          "variantes": [
+            "O Festim de Baltasar (Rembrandt)",
+            "O Banquete de Baltazar",
+            "Belshazzar's Feast"
+          ]
+        },
+        {
+          "id": "funil_de_separacao",
+          "nome": "Funil de separação",
+          "descricao": "Vidraria em forma de pera, com torneira, usada para separar líquidos imiscíveis de densidades diferentes.",
+          "variantes": [
+            "Funil separador",
+            "Funil de decantação"
+          ]
+        },
+        {
+          "id": "fonografo",
+          "nome": "Fonógrafo",
+          "descricao": "Aparelho de cilindro que grava e reproduz sons mecanicamente, inventado em 1877.",
+          "variantes": [
+            "Phonograph",
+            "Fonógrafo de Edison"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Lady Lilith",
+        "descricao": "Pintura de Dante Gabriel Rossetti, de 1866-1873, que representa Lilith, primeira esposa de Adão segundo a lenda judaica.",
+        "variantes": [
+          "Lady Lilith (Rossetti)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "liudmila_pavlichenko",
+          "nome": "Liudmila Pavlichenko",
+          "descricao": "Militar soviética da Segunda Guerra Mundial, creditada com 309 inimigos abatidos.",
+          "variantes": [
+            "Lyudmila Pavlichenko",
+            "Lady Death"
+          ]
+        },
+        {
+          "id": "diana_princesa_de_gales",
+          "nome": "Diana, Princesa de Gales",
+          "descricao": "Membro da família real britânica, primeira esposa do então príncipe Charles e mãe dos príncipes William e Harry.",
+          "variantes": [
+            "Princesa Diana",
+            "Lady Di",
+            "Diana Spencer"
+          ]
+        },
+        {
+          "id": "vlad_o_empalador",
+          "nome": "Vlad, o Empalador",
+          "descricao": "Vlad Terceiro, príncipe da Valáquia no século quinze, conhecido pela crueldade contra inimigos e pelo nome Drácula.",
+          "variantes": [
+            "Vlad III",
+            "Vlad Tepes",
+            "Vlad Drácula"
+          ]
+        },
+        {
+          "id": "lady_dimitrescu",
+          "nome": "Lady Dimitrescu",
+          "descricao": "Condessa altíssima de chapéu largo, vilã de Resident Evil Village.",
+          "variantes": [
+            "Alcina Dimitrescu"
+          ]
+        },
+        {
+          "id": "ilha_da_irlanda",
+          "nome": "Ilha da Irlanda",
+          "descricao": "Ilha do Atlântico Norte, no noroeste da Europa, dividida entre a República da Irlanda e a Irlanda do Norte.",
+          "variantes": [
+            "Irlanda (ilha)",
+            "Ireland"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pintura de David; nenhuma candidata é essa obra (Antoine Lavoisier é a pessoa)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pintura de Turner; o Palácio de Westminster é o edifício, entidade diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Botticelli."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pintura de Cézanne, sem candidata equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pintura de Caravaggio diferente da Incredulidade de São Tomé e dos demais."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Retrato de Bellini; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pintura diferente de O Festim de Baltasar; sem candidata equivalente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pintura de Rossetti; nenhuma candidata corresponde (Lady Dimitrescu é personagem de jogo)."
+    }
+  ]
+}
