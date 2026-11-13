@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual é o ingrediente principal deste doce de tabuleiro?",
+        "resposta": "Coco"
+      },
+      "existentes": [
+        {
+          "id": "q03708",
+          "pergunta": "Que doce brasileiro é este?",
+          "resposta": "Cocada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que doce típico das festas juninas é este?",
+        "resposta": "Pé-de-moleque"
+      },
+      "existentes": [
+        {
+          "id": "q03711",
+          "pergunta": "Que doce brasileiro de festa junina é este?",
+          "resposta": "Pé de moleque"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome do doce (cocada); a nova pergunta o ingrediente principal (coco). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q03711",
+      "motivo": "Ambas pedem o nome do doce junino mostrado, com resposta pé-de-moleque."
+    }
+  ]
+}

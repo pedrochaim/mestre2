@@ -894,7 +894,7 @@
       "titulo": "pt:Abadá",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Pilão",
@@ -1209,7 +1209,7 @@
       "titulo": "en:Confetti",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Repente",
@@ -1223,7 +1223,7 @@
       "titulo": "pt:Xilogravura",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Gibão",
@@ -1370,7 +1370,7 @@
       "titulo": "pt:Mestre Salustiano",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Moçambique (dança)",
@@ -1396,6 +1396,286 @@
     {
       "nome": "Maxixe",
       "titulo": "en:Maxixe (dance)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lambada",
+      "titulo": "en:Lambada",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arlequim",
+      "titulo": "en:Harlequin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Futebol de botão",
+      "titulo": "en:Button football",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cata-vento",
+      "titulo": "en:Pinwheel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Churrasco",
+      "titulo": "en:Churrasco",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pamonha",
+      "titulo": "en:Pamonha",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pé-de-moleque",
+      "titulo": "en:Pé-de-moleque",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Paçoca",
+      "titulo": "en:Paçoca",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cocada",
+      "titulo": "en:Cocada",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Telefone de lata",
+      "titulo": "en:Tin can telephone",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pular elástico",
+      "titulo": "en:Chinese jump rope",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "João-bobo",
+      "titulo": "en:Roly-poly toy",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Colombina",
+      "titulo": "en:Columbina",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quentão",
+      "titulo": "pt:Quentão",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Candomblé",
+      "titulo": "en:Candomblé",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Umbanda",
+      "titulo": "en:Umbanda",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boi Garantido",
+      "titulo": "pt:Boi Garantido",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Boi Caprichoso",
+      "titulo": "pt:Boi Caprichoso",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carnaval de Salvador",
+      "titulo": "en:Salvador Carnival",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Dique do Tororó",
+      "titulo": "en:Dique do Tororó",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Casa de farinha",
+      "titulo": "pt:Casa de farinha",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bomba de chimarrão",
+      "titulo": "en:Bombilla",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Repinique",
+      "titulo": "en:Repinique",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Samba de gafieira",
+      "titulo": "en:Samba de Gafieira",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jogo de búzios",
+      "titulo": "pt:Jogo de búzios",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mário de Andrade",
+      "titulo": "en:Mário de Andrade",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Inezita Barroso",
+      "titulo": "en:Inezita Barroso",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mãe Menininha do Gantois",
+      "titulo": "en:Mãe Menininha do Gantois",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corisco",
+      "titulo": "pt:Corisco (cangaceiro)",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Clementina de Jesus",
+      "titulo": "en:Clementina de Jesus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Selma do Coco",
+      "titulo": "pt:Selma do Coco",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pinduca",
+      "titulo": "pt:Pinduca",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cornélio Pires",
+      "titulo": "pt:Cornélio Pires",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ana das Carrancas",
+      "titulo": "pt:Ana das Carrancas",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alto do Moura",
+      "titulo": "pt:Alto do Moura",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ossaim",
+      "titulo": "en:Osanyin",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tambor de Mina",
+      "titulo": "en:Tambor de Mina",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Cacique de Ramos",
+      "titulo": "en:Cacique de Ramos",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Banda de Ipanema",
+      "titulo": "pt:Banda de Ipanema",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mestre João Grande",
+      "titulo": "en:João Grande",
       "camada": 3,
       "destino": 0,
       "status": "nova"

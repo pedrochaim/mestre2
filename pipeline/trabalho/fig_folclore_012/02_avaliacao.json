@@ -1,0 +1,166 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Brinquedo de madeira claro, sem texto, fundo limpo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que brinquedo tradicional é este, que balança e volta a ficar de pé?",
+      "resposta": "João-bobo",
+      "distratores": [
+        "Pião",
+        "Ioiô",
+        "Pé de lata"
+      ],
+      "ancora": {
+        "nome": "João-bobo",
+        "descricao": "Brinquedo de base arredondada que se endireita sozinho quando empurrado.",
+        "variantes": [
+          "João-teimoso",
+          "Roly-poly toy"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Calça branca genérica, confundível com calça de judô, karatê ou outra roupa; o logotipo não é legível. Não identifica o abadá."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Boi branco de alegoria em festa pública, sem texto; a cor branca distingue do Caprichoso.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade acontece o festival folclórico em que desfila este boi?",
+      "resposta": "Parintins",
+      "distratores": [
+        "Manacapuru",
+        "Itacoatiara",
+        "Maués"
+      ],
+      "ancora": {
+        "nome": "Boi Garantido",
+        "descricao": "Boi-bumbá vermelho e branco do Festival Folclórico de Parintins, no Amazonas.",
+        "variantes": [
+          "Garantido",
+          "Boi-Bumbá Garantido"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Multidão de pessoas comuns em primeiro plano; nada identifica a Banda de Ipanema."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, com cenário de Colônia; a imagem não é focada no confete e não é do contexto brasileiro."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É um retrato gravado de um cavaleiro de armadura, não um exemplo reconhecível de xilogravura popular; a técnica não fica evidente."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Retrato de uma senhora com crédito de foto; a pessoa não é reconhecível pela imagem para o público e a identidade não pode ser verificada."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Doce de coco claro com lascas visíveis, sem texto; aceitável.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é o ingrediente principal deste doce de tabuleiro?",
+      "resposta": "Coco",
+      "distratores": [
+        "Mandioca",
+        "Amendoim",
+        "Banana"
+      ],
+      "ancora": {
+        "nome": "Cocada",
+        "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+        "variantes": [
+          "Cocada branca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bomba metálica clara, fundo branco, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que região do Brasil este utensílio é mais tradicional?",
+      "resposta": "Sul",
+      "ancora": {
+        "nome": "Bomba de chimarrão",
+        "descricao": "Canudo metálico com filtro usado para beber chimarrão.",
+        "variantes": [
+          "Bomba",
+          "Bombilla"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Retrato de um senhor com crédito de foto; não é reconhecível pela imagem para o público e a identidade não pode ser verificada."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gravura antiga clara de duas pessoas com latas ligadas por um fio; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que brinquedo de criança é este, em que o som viaja por um fio esticado?",
+      "resposta": "Telefone de lata",
+      "distratores": [
+        "Walkie-talkie",
+        "Corneta acústica",
+        "Megafone de papel"
+      ],
+      "ancora": {
+        "nome": "Telefone de lata",
+        "descricao": "Brinquedo feito de duas latas ou copos ligados por um fio esticado.",
+        "variantes": [
+          "Telefone de latinha",
+          "Telefone de copo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Doce de amendoim com calda caramelizada, claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que doce típico das festas juninas é este?",
+      "resposta": "Pé-de-moleque",
+      "ancora": {
+        "nome": "Pé-de-moleque",
+        "descricao": "Doce tradicional brasileiro de amendoim com rapadura ou açúcar mascavo.",
+        "variantes": [
+          "Pé de moleque"
+        ]
+      }
+    }
+  ]
+}

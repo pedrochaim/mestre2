@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a função do brinquedo (balança e volta a ficar de pé), o que entrega a resposta sem olhar a figura. Retirei a pista.",
+      "reescrita": {
+        "pergunta": "Que brinquedo tradicional das crianças brasileiras é este?",
+        "resposta": "João-bobo",
+        "distratores": [
+          "Pião",
+          "Ioiô",
+          "Pé de lata"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a cidade nem o boi. É preciso reconhecer o Garantido pela figura. Parintins está confirmada nos trechos e os distratores são cidades do Amazonas que não sediam o festival.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não traz o nome do doce nem a palavra 'coco'. 'Doce de tabuleiro' não identifica sozinho, e o ingrediente vem dos trechos. Os distratores são plausíveis e nenhum é o ingrediente principal.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos apontam o sul do Brasil como a região típica do chimarrão e da bomba. O enunciado não entrega o utensílio. 'Sul' é uma resposta única e defensável.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O som viaja por um fio esticado' descreve o brinquedo e entrega a resposta com a imagem coberta. Retirei a pista.",
+      "reescrita": {
+        "pergunta": "Que brinquedo caseiro de criança, feito com materiais simples, é este?",
+        "resposta": "Telefone de lata",
+        "distratores": [
+          "Walkie-talkie",
+          "Corneta acústica",
+          "Megafone de papel"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 de reconhecimento. 'Típico das festas juninas' ajuda sem entregar, já que há outros doces juninos (paçoca, cocada). A associação com as festas juninas é amplamente documentada e aparece nos trechos pela versão em bolo.",
+      "reescrita": null
+    }
+  ]
+}
