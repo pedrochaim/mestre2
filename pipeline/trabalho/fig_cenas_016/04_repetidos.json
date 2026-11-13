@@ -1,0 +1,54 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que deusa grega estes guerreiros protegem na série?",
+        "resposta": "Atena"
+      },
+      "existentes": [
+        {
+          "id": "q01366",
+          "pergunta": "O título brasileiro Os Cavaleiros do Zodíaco foi tirado da versão do anime exibida em qual país europeu?",
+          "resposta": "França"
+        },
+        {
+          "id": "q05935",
+          "pergunta": "Os Cavaleiros do Zodíaco viraram febre entre as crianças brasileiras ao estrear na Rede Manchete em qual ano?",
+          "resposta": "1994"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem dirigiu esta série de anime?",
+        "resposta": "Hideaki Anno"
+      },
+      "existentes": [
+        {
+          "id": "q05932",
+          "pergunta": "Lançado em 1995, o anime Neon Genesis Evangelion mostra adolescentes pilotando robôs gigantes em qual ano, então no futuro?",
+          "resposta": "2015"
+        },
+        {
+          "id": "q19146",
+          "pergunta": "Sucesso dos anos noventa, a série de TV original de Neon Genesis Evangelion tem quantos episódios?",
+          "resposta": "Vinte e seis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a deusa protegida pelos cavaleiros; as existentes tratam do país da versão e do ano de estreia no Brasil."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o diretor; as existentes tratam do ano da ambientação e do número de episódios."
+    }
+  ]
+}

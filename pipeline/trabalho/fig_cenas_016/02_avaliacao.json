@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte promocional sem texto com Manny, Sid, Diego e Scrat; reconhecível. Pergunta sobre o estúdio, que só se responde depois de reconhecer o filme.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio de animação produziu este filme?",
+      "resposta": "Blue Sky Studios",
+      "distratores": [
+        "Pixar",
+        "DreamWorks Animation",
+        "Illumination"
+      ],
+      "ancora": {
+        "nome": "A Era do Gelo",
+        "descricao": "Filme de animação de 2002 sobre o mamute Manfred, a preguiça Sid e o tigre-dentes-de-sabre Diego.",
+        "variantes": [
+          "Ice Age"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bailarina de tutu branco em cena escura, sem texto. Reconhecível para quem conhece o filme. A pergunta sobre o balé exige reconhecer a obra antes.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que balé está no centro da história deste filme?",
+      "resposta": "O Lago dos Cisnes",
+      "distratores": [
+        "Quebra-Nozes",
+        "Giselle",
+        "A Bela Adormecida"
+      ],
+      "ancora": {
+        "nome": "Cisne Negro",
+        "descricao": "Filme de suspense de 2010, dirigido por Darren Aronofsky, sobre uma bailarina obcecada pelo papel principal em O Lago dos Cisnes.",
+        "variantes": [
+          "Black Swan"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cena de neve com a xerife de uniforme, sem texto. Fargo é bem reconhecível e a pergunta é sobre a década, sem spoiler.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que década foi lançado este filme?",
+      "resposta": "Década de 1990",
+      "ancora": {
+        "nome": "Fargo (filme)",
+        "descricao": "Filme de 1996 dos irmãos Coen, comédia policial passada em Minnesota e Dakota do Norte, em meio à neve.",
+        "variantes": [
+          "Fargo: Uma Comédia de Erros",
+          "Fargo"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Montagem sem texto com os cavaleiros de bronze de uma única obra; reconhecível. A pergunta pede a deusa protegida, que só se sabe depois de reconhecer a série.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que deusa grega estes guerreiros protegem na série?",
+      "resposta": "Atena",
+      "ancora": {
+        "nome": "Os Cavaleiros do Zodíaco",
+        "descricao": "Anime de 1986 baseado no mangá de Masami Kurumada, sobre guerreiros que vestem armaduras inspiradas em constelações.",
+        "variantes": [
+          "Saint Seiya",
+          "Cavaleiros do Zodíaco"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Montagem de polaroides com cenas de uma única obra, sem título; o texto visível (fatos da ficha) não entrega a resposta. Reconhecimento moderado, porém aceitável. Troquei de década para diretor, para evitar ambiguidade do ano 2000.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem dirigiu este filme?",
+      "resposta": "Christopher Nolan",
+      "ancora": {
+        "nome": "Amnésia (filme de 2000)",
+        "descricao": "Filme de 2000 sobre um homem que não forma novas memórias e caça o assassino de sua esposa, com tatuagens e fotos instantâneas como lembretes.",
+        "variantes": [
+          "Memento",
+          "Amnésia"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arte sem texto com Rei, Asuka, Kaworu e Shinji, personagens de uma só obra. Pergunta sobre o diretor, com distratores de anime famoso.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu esta série de anime?",
+      "resposta": "Hideaki Anno",
+      "distratores": [
+        "Hayao Miyazaki",
+        "Shinichirō Watanabe",
+        "Satoshi Kon"
+      ],
+      "ancora": {
+        "nome": "Neon Genesis Evangelion",
+        "descricao": "Série de anime de 1995 sobre adolescentes que pilotam robôs gigantes, os Evangelions, contra os Anjos.",
+        "variantes": [
+          "Evangelion",
+          "Shin Seiki Evangelion"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A foto mostra elenco jovem em cenário de casa de praia, que não parece ser de Da Cor do Pecado (parece Malhação). A cena não é reconhecível como a obra indicada e a resposta não seria confiável."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Arte promocional sem texto, com quatro mulheres num barco diante do litoral do Rio, em estética dos anos 50. Pergunta sobre o gênero musical, que só se responde depois de reconhecer a série.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que gênero musical move a trama desta série?",
+      "resposta": "Bossa nova",
+      "distratores": [
+        "Jovem Guarda",
+        "Tropicália",
+        "Samba de gafieira"
+      ],
+      "ancora": {
+        "nome": "Coisa Mais Linda",
+        "descricao": "Série brasileira da Netflix, estreada em 2019, passada no Rio de Janeiro dos anos 1950, sobre mulheres e o nascimento da bossa nova.",
+        "variantes": [
+          "Girls from Ipanema"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Close-up em contraluz de um rosto de perfil com a mão no queixo: sem elementos que permitam reconhecer a obra, e a resposta não é única nem justa diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O tabuleiro tem o nome JUMANJI escrito na tampa, visível na imagem, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto de cena sem texto, com Peter Falk de capa de chuva bege, claramente reconhecível. Pergunta pelo ator, com distratores de astros de séries policiais da mesma época.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpreta o protagonista desta série?",
+      "resposta": "Peter Falk",
+      "distratores": [
+        "Telly Savalas",
+        "Karl Malden",
+        "Jack Klugman"
+      ],
+      "ancora": {
+        "nome": "Columbo",
+        "descricao": "Série policial americana dos anos 1970 sobre o tenente de capa de chuva da Divisão de Homicídios de Los Angeles.",
+        "variantes": [
+          "Columbo (série)"
+        ]
+      },
+      "usar_silhueta": false
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra dois homens de capacete com câmeras em uma sala, sem relação reconhecível com o filme Tatuagem; o trecho descreve outro filme (uma paródia de terror). A obra não é reconhecível e há inconsistência entre imagem e item."
+    }
+  ]
+}
