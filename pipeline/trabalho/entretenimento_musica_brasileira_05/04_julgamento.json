@@ -1,0 +1,186 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Frevo",
+        "descricao": "Gênero musical e dança do carnaval de Pernambuco, de ritmo acelerado, dançado com sombrinhas coloridas.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "frevo",
+          "nome": "Frevo",
+          "descricao": "Ritmo e dança do carnaval de Pernambuco, com passos acrobáticos e sombrinhas coloridas.",
+          "variantes": []
+        },
+        {
+          "id": "clorofluorcarboneto",
+          "nome": "Clorofluorcarboneto",
+          "descricao": "Classe de gases sintéticos com cloro, flúor e carbono, usados em geladeiras e aerossóis e depois banidos por destruírem o ozônio.",
+          "variantes": [
+            "CFC",
+            "Freon"
+          ]
+        },
+        {
+          "id": "paus_naipe",
+          "nome": "Paus (naipe)",
+          "descricao": "Naipe preto do baralho francês, representado por um trevo de três folhas.",
+          "variantes": [
+            "Paus",
+            "Clubs",
+            "Trevo"
+          ]
+        },
+        {
+          "id": "trevor_philips",
+          "nome": "Trevor Philips",
+          "descricao": "Um dos três protagonistas de Grand Theft Auto V.",
+          "variantes": [
+            "Trevor"
+          ]
+        },
+        {
+          "id": "remo",
+          "nome": "Remo",
+          "descricao": "Esporte de corrida de barcos impulsionados por remos presos ao casco por forquetas.",
+          "variantes": [
+            "Rowing"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Elza Soares",
+        "descricao": "Cantora carioca de samba e MPB (1930–2022), intérprete de Se Acaso Você Chegasse e A Carne.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "elza_soares",
+          "nome": "Elza Soares",
+          "descricao": "Cantora brasileira (1930-2022) de samba e MPB, eleita pela BBC a cantora brasileira do milênio.",
+          "variantes": [
+            "Elza Gomes da Conceição"
+          ]
+        },
+        {
+          "id": "luz_solar",
+          "nome": "Luz solar",
+          "descricao": "Radiação emitida pelo Sol que chega à Terra.",
+          "variantes": [
+            "Luz do Sol",
+            "Sunlight"
+          ]
+        },
+        {
+          "id": "painel_solar",
+          "nome": "Painel solar",
+          "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade.",
+          "variantes": [
+            "Painel fotovoltaico",
+            "Placa solar",
+            "Célula solar"
+          ]
+        },
+        {
+          "id": "elasmossauro",
+          "nome": "Elasmossauro",
+          "descricao": "Gênero de plesiossauro de pescoço extremamente longo do Cretáceo Superior da América do Norte, descrito por Edward Cope em 1868.",
+          "variantes": [
+            "Elasmosaurus"
+          ]
+        },
+        {
+          "id": "regla_torres",
+          "nome": "Regla Torres",
+          "descricao": "Ex-jogadora cubana de vôlei, central tricampeã olímpica com Cuba em 1992, 1996 e 2000.",
+          "variantes": [
+            "Regla Torres Herrera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Trio elétrico",
+        "descricao": "Caminhão com som e palco que conduz os foliões no carnaval de Salvador, surgido em 1950.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico",
+            "Trio"
+          ]
+        },
+        {
+          "id": "ferro_de_passar",
+          "nome": "Ferro de passar",
+          "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+          "variantes": [
+            "Ferro elétrico",
+            "Ferro a vapor",
+            "Ferro de engomar"
+          ]
+        },
+        {
+          "id": "motor_eletrico",
+          "nome": "Motor elétrico",
+          "descricao": "Máquina que converte energia elétrica em energia mecânica por meio de campos magnéticos.",
+          "variantes": [
+            "Motor de indução",
+            "Motor trifásico"
+          ]
+        },
+        {
+          "id": "e_mail",
+          "nome": "E-mail",
+          "descricao": "Sistema de troca de mensagens eletrônicas entre usuários de computadores em rede.",
+          "variantes": [
+            "Correio eletrônico",
+            "Email"
+          ]
+        },
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "frevo",
+      "motivo": "Ambas são o ritmo e dança do carnaval de Pernambuco com sombrinhas coloridas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "elza_soares",
+      "motivo": "Mesma cantora brasileira de samba e MPB (1930–2022)."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "trio_eletrico",
+      "motivo": "Mesmo caminhão de som do carnaval de Salvador."
+    }
+  ]
+}

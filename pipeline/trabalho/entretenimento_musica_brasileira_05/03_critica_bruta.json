@@ -1,0 +1,467 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que a mudança foi provavelmente para evitar confusão de nome, não de direitos autorais.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Em 1989, Jorge Ben passou a se chamar Jorge Ben Jor, provavelmente para evitar confusão com qual músico americano?",
+        "resposta": "George Benson",
+        "distratores": [
+          "Tony Bennett",
+          "Ben E. King",
+          "George Michael"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Jorge_Ben_Jor"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Nome de registro longo e imprevisível; a origem do apelido no enunciado não está na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado, resposta única e específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dinho não estava na formação original da Utopia; 'a banda de Dinho' é impreciso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Antes de virar Mamonas Assassinas e apostar no humor, a banda tocava rock alternativo com qual nome?",
+        "resposta": "Utopia",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Mamonas_Assassinas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que não há consenso e dá outros sentidos para semba; 'umbigada' não é sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Resposta de duas partes, fonte situa 'bossa' nos anos 1930 e o sentido não é claro; fraca.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada e precisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta 'Pássaros' é categoria; o específico é inhambu.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome da dupla Chitãozinho e Xororó veio de uma antiga moda de viola. Na canção, chitãozinho e xororó são nomes populares de qual ave?",
+        "resposta": "Inhambu",
+        "distratores": [
+          "Jacu",
+          "Codorna",
+          "Perdiz"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Chit%C3%A3ozinho_%26_Xoror%C3%B3"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado, com história curiosa e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada; 'tido como' cobre a autoria incerta.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte atribui a ausência ao TOC, não a convicção religiosa.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Por que Roberto Carlos ficou anos sem cantar Quero Que Vá Tudo pro Inferno, um dos maiores sucessos da Jovem Guarda?",
+        "resposta": "Por causa do TOC",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Quero_que_V%C3%A1_Tudo_pro_Inferno"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Na fonte, quem a considerava morta era o pai, por ela ter abandonado o marido.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "No Rio do século dezenove, por que o pai de Chiquinha Gonzaga passou a considerá-la morta?",
+        "resposta": "Abandonou o marido",
+        "distratores": [
+          "Envolveu-se com política",
+          "Fugiu para a Europa",
+          "Mudou de religião"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Chiquinha_Gonzaga"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada, com distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente e sem URL substituta de alta confiança; fato trivial.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pelas duas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Filho registrado e não biológico, e o nome Gonzaguinha vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dono do Copacabana Palace' e 'bancou' não estão na fonte e são imprecisos; vazava o sobrenome.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que milionário carioca patrocinou a viagem de Pixinguinha e Os Oito Batutas a Paris, em 1922?",
+        "resposta": "Arnaldo Guinle",
+        "distratores": [
+          "Assis Chateaubriand",
+          "Roberto Marinho",
+          "Francisco Matarazzo"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Os_Oito_Batutas"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte confirma o pai; autoria de Raízes do Brasil é amplamente documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada, distratores do mesmo diretor.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte confirma a adaptação; Palma de Ouro de 1959 é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada; Três Caballeros é o filme.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pelas fontes, incluindo a admissão de Stewart.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte em desambiguação; troco pela página do álbum, e o fato é bem documentado.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que trompetista americano gravou composições de Hermeto Pascoal no disco Live-Evil, de 1971?",
+        "resposta": "Miles Davis",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Live-Evil_(Miles_Davis_album)"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte fala em violão e protótipo de guitarra ligados à bateria, não em guitarras elétricas.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "No carnaval de Salvador de 1950, que dupla tocou instrumentos elétricos em cima de um velho Ford, a Fobica, criando o trio elétrico?",
+        "resposta": "Dodô e Osmar",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Trio_el%C3%A9trico"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que não se pode creditar o samba-reggae a um só músico; 'criou' é impreciso.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "Nos anos oitenta, que mestre de bateria do Olodum é apontado como criador da batida do samba-reggae?",
+        "resposta": "Neguinho do Samba",
+        "distratores": [
+          "Carlinhos Brown",
+          "Mestre Bimba",
+          "Luiz Caldas"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Neguinho_do_Samba"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Episódio de Diamantina é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A resposta é o nome anterior do bar, então o ângulo certo é nome.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Tom e Vinicius viam a garota de Ipanema passar sentados num bar que depois ganhou o nome da canção. Como o bar se chamava antes?",
+        "resposta": "Bar Veloso",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Garota_de_Ipanema"
+        ]
+      }
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Detalhe famoso da capa, bem documentado e curioso.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O álbum levou três Grammys; o quarto foi da canção. A contagem do enunciado é ambígua.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Em 1965, o disco Getz/Gilberto foi o primeiro álbum não americano a ganhar qual grande prêmio do Grammy?",
+        "resposta": "Álbum do Ano",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Getz/Gilberto"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada: um fio de aço.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Passagem pela arquitetura é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "O número de versos contradiz a fonte (168) e o fato é fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fricote é de 1985, década de 1980.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    }
+  ]
+}

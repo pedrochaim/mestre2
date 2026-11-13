@@ -1,0 +1,996 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1989, Jorge Ben passou a se chamar Jorge Ben Jor, provavelmente para evitar confusão com qual músico americano?",
+        "resposta": "George Benson"
+      },
+      "existentes": [
+        {
+          "id": "q07809",
+          "pergunta": "Quem é este músico brasileiro?",
+          "resposta": "Jorge Ben Jor"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Por ter revelado Zeca Pagodinho, Jorge Aragão e o Fundo de Quintal, Beth Carvalho ganhou qual apelido?",
+        "resposta": "Madrinha do Samba"
+      },
+      "existentes": [
+        {
+          "id": "q14862",
+          "pergunta": "Quem é esta sambista brasileira?",
+          "resposta": "Beth Carvalho"
+        },
+        {
+          "id": "q17210",
+          "pergunta": "Em 1997, uma engenheira brasileira da NASA despertou o robô Sojourner, em Marte, com qual samba gravado por Beth Carvalho?",
+          "resposta": "Coisinha do Pai"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Antes de virar Mamonas Assassinas e apostar no humor, a banda tocava rock alternativo com qual nome?",
+        "resposta": "Utopia"
+      },
+      "existentes": [
+        {
+          "id": "q01180",
+          "pergunta": "Em março de 1996, no auge do sucesso, o que interrompeu de repente a carreira dos Mamonas Assassinas?",
+          "resposta": "Um acidente aéreo"
+        },
+        {
+          "id": "q17187",
+          "pergunta": "Quantos álbuns de estúdio os Mamonas Assassinas, autores de Pelados em Santos, chegaram a lançar?",
+          "resposta": "Um"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome do frevo, ritmo frenético do carnaval do Recife, vem de uma pronúncia popular de qual verbo?",
+        "resposta": "Ferver"
+      },
+      "existentes": [
+        {
+          "id": "q00316",
+          "pergunta": "O nome do frevo, a dança das sombrinhas coloridas do carnaval pernambucano, vem de uma pronúncia popular de qual verbo?",
+          "resposta": "Ferver"
+        },
+        {
+          "id": "q08190",
+          "pergunta": "O que o frevo pernambucano, o samba de roda baiano e o Círio de Nazaré, de Belém, têm em comum?",
+          "resposta": "São patrimônio da humanidade pela Unesco"
+        },
+        {
+          "id": "q08196",
+          "pergunta": "A sombrinha colorida do frevo descende dos guarda-chuvas que os capoeiristas levavam no carnaval do Recife. Para que eles serviam?",
+          "resposta": "Como arma de defesa"
+        },
+        {
+          "id": "q19624",
+          "pergunta": "O frevo tem três tipos principais. Qual deles é só instrumental, tocado pela orquestra para os passistas dançarem?",
+          "resposta": "Frevo de rua"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que apelido de Raul Seixas vem do título de uma canção do seu disco O Dia em que a Terra Parou, de 1977?",
+        "resposta": "Maluco Beleza"
+      },
+      "existentes": [
+        {
+          "id": "q05382",
+          "pergunta": "Raul Seixas morreu poucos dias depois de lançar A Panela do Diabo, disco gravado com Marcelo Nova. Em que ano?",
+          "resposta": "1989"
+        },
+        {
+          "id": "q17191",
+          "pergunta": "Numa canção de 1976, que dá nome ao disco, Raul Seixas diz ter nascido há quantos anos atrás?",
+          "resposta": "Dez mil"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O nome da dupla Chitãozinho e Xororó veio de uma antiga moda de viola. Na canção, chitãozinho e xororó são nomes populares de qual ave?",
+        "resposta": "Inhambu"
+      },
+      "existentes": [
+        {
+          "id": "q15189",
+          "pergunta": "Que dupla sertaneja é esta?",
+          "resposta": "Chitãozinho & Xororó"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O cantor sertanejo Gusttavo Lima, de Balada, foi registrado com qual nome?",
+        "resposta": "Nivaldo Batista Lima"
+      },
+      "existentes": [
+        {
+          "id": "q14860",
+          "pergunta": "Quem é este cantor sertanejo brasileiro?",
+          "resposta": "Gusttavo Lima"
+        },
+        {
+          "id": "q19567",
+          "pergunta": "Que música de 2011 projetou este cantor internacionalmente?",
+          "resposta": "Balada"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em 1999, que título a rádio BBC de Londres deu à cantora Elza Soares?",
+        "resposta": "Cantora brasileira do milênio"
+      },
+      "existentes": [
+        {
+          "id": "q05118",
+          "pergunta": "Que relação pessoal existiu entre a cantora Elza Soares e o craque Garrincha, ídolo do Botafogo?",
+          "resposta": "Foram casados"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O gaúcho Lupicínio Rodrigues é tido como o criador de qual expressão para o sofrimento de quem perdeu um amor?",
+        "resposta": "Dor de cotovelo"
+      },
+      "existentes": [
+        {
+          "id": "q11424",
+          "pergunta": "Mestre da dor de cotovelo, o gaúcho Lupicínio Rodrigues também compôs o hino de qual clube de futebol?",
+          "resposta": "Grêmio"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No show Phono 73, em São Paulo, Chico Buarque e Gilberto Gil tentaram cantar Cálice, que estava proibida. O que aconteceu então?",
+        "resposta": "Os microfones foram desligados"
+      },
+      "existentes": [
+        {
+          "id": "q05400",
+          "pergunta": "Censurada pela ditadura, a canção Cálice, de Chico Buarque e Gilberto Gil, faz no título um trocadilho com qual ordem de silêncio?",
+          "resposta": "Cale-se"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em agosto de 1989, Raul Seixas foi encontrado morto em seu apartamento em São Paulo. Que doença, agravada pelo álcool, causou a morte?",
+        "resposta": "Pancreatite"
+      },
+      "existentes": [
+        {
+          "id": "q05382",
+          "pergunta": "Raul Seixas morreu poucos dias depois de lançar A Panela do Diabo, disco gravado com Marcelo Nova. Em que ano?",
+          "resposta": "1989"
+        },
+        {
+          "id": "q17191",
+          "pergunta": "Numa canção de 1976, que dá nome ao disco, Raul Seixas diz ter nascido há quantos anos atrás?",
+          "resposta": "Dez mil"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Por que Roberto Carlos ficou anos sem cantar Quero Que Vá Tudo pro Inferno, um dos maiores sucessos da Jovem Guarda?",
+        "resposta": "Por causa do TOC"
+      },
+      "existentes": [
+        {
+          "id": "q01182",
+          "pergunta": "Aos seis anos, em Cachoeiro de Itapemirim, Roberto Carlos perdeu parte de uma perna ao ser atingido por quê?",
+          "resposta": "Um trem"
+        },
+        {
+          "id": "q11414",
+          "pergunta": "Por superstição, que cor de roupa o cantor Roberto Carlos se recusa a usar?",
+          "resposta": "Marrom"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "No Rio do século dezenove, por que o pai de Chiquinha Gonzaga passou a considerá-la morta?",
+        "resposta": "Abandonou o marido"
+      },
+      "existentes": [
+        {
+          "id": "q04190",
+          "pergunta": "Que compositora e pianista brasileira, nascida no século dezenove, aparece nesta foto?",
+          "resposta": "Chiquinha Gonzaga"
+        },
+        {
+          "id": "q11412",
+          "pergunta": "Autora de Ó Abre Alas, Chiquinha Gonzaga foi a primeira mulher no Brasil a reger que tipo de conjunto?",
+          "resposta": "Orquestra popular"
+        },
+        {
+          "id": "q21231",
+          "pergunta": "Em 1914, o maxixe Corta-Jaca, de Chiquinha Gonzaga, escandalizou a elite ao ser tocado no palácio presidencial pela esposa de qual presidente?",
+          "resposta": "Hermes da Fonseca"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Recebida com frieza no Rio em 1940, acusada de ter ficado estrangeira demais em Hollywood, Carmen Miranda respondeu com qual samba?",
+        "resposta": "Disseram que Voltei Americanizada"
+      },
+      "existentes": [
+        {
+          "id": "q00948",
+          "pergunta": "O figurino de turbante, saia rodada e balangandãs que consagrou Carmen Miranda foi inspirado nas roupas de quem?",
+          "resposta": "Das baianas quituteiras"
+        },
+        {
+          "id": "q01083",
+          "pergunta": "Carmen Miranda, a Pequena Notável dos turbantes de frutas, chegou ao Brasil ainda bebê. Em que país ela tinha nascido?",
+          "resposta": "Portugal"
+        },
+        {
+          "id": "q14859",
+          "pergunta": "Quem é esta cantora e atriz brasileira, famosa nos anos 1940?",
+          "resposta": "Carmen Miranda"
+        },
+        {
+          "id": "q17198",
+          "pergunta": "Pela baixa estatura e pelo enorme talento, Carmen Miranda ganhou qual apelido ainda nos tempos do rádio?",
+          "resposta": "A Pequena Notável"
+        },
+        {
+          "id": "q17223",
+          "pergunta": "Carmen Miranda morreu em casa, em Beverly Hills, horas depois de gravar um programa de TV. Em que ano?",
+          "resposta": "1955"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Os Novos Baianos começaram no rock, mas trocaram a guitarra distorcida pelo samba e pelo choro depois das visitas de qual cantor?",
+        "resposta": "João Gilberto"
+      },
+      "existentes": [
+        {
+          "id": "q05413",
+          "pergunta": "Que guitarrista, então casado com Baby Consuelo, integrava os Novos Baianos ao lado de Moraes Moreira?",
+          "resposta": "Pepeu Gomes"
+        },
+        {
+          "id": "q17214",
+          "pergunta": "No começo dos anos setenta, os Novos Baianos viveram em comunidade num sítio de qual localidade da Zona Oeste carioca?",
+          "resposta": "Vargem Grande"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em 1985, junto com Tony Bellotto, Arnaldo Antunes, então nos Titãs, foi preso em São Paulo por causa de qual droga?",
+        "resposta": "Heroína"
+      },
+      "existentes": [
+        {
+          "id": "q14870",
+          "pergunta": "De que banda de rock paulistana, formada nos anos oitenta, este cantor e poeta foi um dos fundadores?",
+          "resposta": "Titãs"
+        },
+        {
+          "id": "q17078",
+          "pergunta": "Que músico e poeta brasileiro é este?",
+          "resposta": "Arnaldo Antunes"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Que milionário carioca patrocinou a viagem de Pixinguinha e Os Oito Batutas a Paris, em 1922?",
+        "resposta": "Arnaldo Guinle"
+      },
+      "existentes": [
+        {
+          "id": "q11434",
+          "pergunta": "Em 1922, o conjunto Os Oito Batutas, de Pixinguinha e Donga, passou meses tocando em qual capital europeia?",
+          "resposta": "Paris"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em qual filme de Pedro Almodóvar, de 2002, Caetano Veloso aparece cantando Cucurrucucú Paloma?",
+        "resposta": "Fale com Ela"
+      },
+      "existentes": [
+        {
+          "id": "q01819",
+          "pergunta": "Quem é este cantor e compositor?",
+          "resposta": "Caetano Veloso"
+        },
+        {
+          "id": "q11435",
+          "pergunta": "Exilado em Londres desde 1969, Caetano Veloso voltou de vez ao Brasil em que ano?",
+          "resposta": "1972"
+        },
+        {
+          "id": "q17212",
+          "pergunta": "Os irmãos Caetano Veloso e Maria Bethânia nasceram em qual cidade do Recôncavo Baiano?",
+          "resposta": "Santo Amaro da Purificação"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Em 2006, Mas que Nada voltou às paradas numa nova versão de Sérgio Mendes com qual grupo americano de hip hop?",
+        "resposta": "Black Eyed Peas"
+      },
+      "existentes": [
+        {
+          "id": "q05372",
+          "pergunta": "Mas que Nada correu o mundo com Sérgio Mendes em 1966. Que cantor carioca a compôs e lançou três anos antes?",
+          "resposta": "Jorge Ben Jor"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "No filme Você Já Foi à Bahia?, da Disney, o Pato Donald se encanta por uma cantora brasileira, irmã de Carmen Miranda. Quem é ela?",
+        "resposta": "Aurora Miranda"
+      },
+      "existentes": [
+        {
+          "id": "q00948",
+          "pergunta": "O figurino de turbante, saia rodada e balangandãs que consagrou Carmen Miranda foi inspirado nas roupas de quem?",
+          "resposta": "Das baianas quituteiras"
+        },
+        {
+          "id": "q01083",
+          "pergunta": "Carmen Miranda, a Pequena Notável dos turbantes de frutas, chegou ao Brasil ainda bebê. Em que país ela tinha nascido?",
+          "resposta": "Portugal"
+        },
+        {
+          "id": "q14859",
+          "pergunta": "Quem é esta cantora e atriz brasileira, famosa nos anos 1940?",
+          "resposta": "Carmen Miranda"
+        },
+        {
+          "id": "q17198",
+          "pergunta": "Pela baixa estatura e pelo enorme talento, Carmen Miranda ganhou qual apelido ainda nos tempos do rádio?",
+          "resposta": "A Pequena Notável"
+        },
+        {
+          "id": "q17223",
+          "pergunta": "Carmen Miranda morreu em casa, em Beverly Hills, horas depois de gravar um programa de TV. Em que ano?",
+          "resposta": "1955"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Que roqueiro britânico reconheceu ter usado a melodia de Taj Mahal, de Jorge Ben, no sucesso Da Ya Think I'm Sexy?",
+        "resposta": "Rod Stewart"
+      },
+      "existentes": [
+        {
+          "id": "q07809",
+          "pergunta": "Quem é este músico brasileiro?",
+          "resposta": "Jorge Ben Jor"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Que trompetista americano gravou composições de Hermeto Pascoal no disco Live-Evil, de 1971?",
+        "resposta": "Miles Davis"
+      },
+      "existentes": [
+        {
+          "id": "q11744",
+          "pergunta": "Quem é este músico brasileiro?",
+          "resposta": "Hermeto Pascoal"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Que astro americano da soul music tocou gaita na gravação de Samurai, de Djavan, lançada em 1982?",
+        "resposta": "Stevie Wonder"
+      },
+      "existentes": [
+        {
+          "id": "q14973",
+          "pergunta": "Que cantor e compositor brasileiro é este?",
+          "resposta": "Djavan"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Em 1969, Gal Costa gravou Meu Nome é Gal, canção feita especialmente para ela por quem?",
+        "resposta": "Roberto e Erasmo Carlos"
+      },
+      "existentes": [
+        {
+          "id": "q01826",
+          "pergunta": "Quem é esta cantora brasileira?",
+          "resposta": "Gal Costa"
+        },
+        {
+          "id": "q17193",
+          "pergunta": "O nome Gal veio de um apelido de infância da cantora baiana. Qual era o nome de batismo de Gal Costa?",
+          "resposta": "Maria da Graça"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "No carnaval de Salvador de 1950, que dupla tocou instrumentos elétricos em cima de um velho Ford, a Fobica, criando o trio elétrico?",
+        "resposta": "Dodô e Osmar"
+      },
+      "existentes": [
+        {
+          "id": "q00335",
+          "pergunta": "No carnaval de Salvador de 1950, que dupla saiu às ruas tocando num velho Ford equipado com alto-falantes, dando origem ao trio elétrico?",
+          "resposta": "Dodô e Osmar"
+        },
+        {
+          "id": "q15983",
+          "pergunta": "Em 1951, o carro elétrico de Dodô e Osmar passou a ser chamado de trio. De onde veio essa palavra?",
+          "resposta": "Eram três músicos"
+        },
+        {
+          "id": "q19634",
+          "pergunta": "Que apelido tinha o velho Ford em que Dodô e Osmar saíram tocando pelas ruas de Salvador, dando origem ao trio elétrico?",
+          "resposta": "Fobica"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Tom Jobim fez a música de Chega de Saudade, marco da bossa nova. Quem escreveu a letra?",
+        "resposta": "Vinicius de Moraes"
+      },
+      "existentes": [
+        {
+          "id": "q01206",
+          "pergunta": "Em que ano João Gilberto lançou o disco de setenta e oito rotações com Chega de Saudade, marco da bossa nova?",
+          "resposta": "1958"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "No disco Acabou Chorare, dos Novos Baianos, quem escreveu as letras das canções de Moraes Moreira, como Preta Pretinha?",
+        "resposta": "Luiz Galvão"
+      },
+      "existentes": [
+        {
+          "id": "q01176",
+          "pergunta": "O título do disco Acabou Chorare, dos Novos Baianos, veio de uma frase dita, ainda criança, por qual futura cantora?",
+          "resposta": "Bebel Gilberto"
+        },
+        {
+          "id": "q11419",
+          "pergunta": "Em 2007, a revista Rolling Stone Brasil fez uma lista dos maiores discos da música brasileira. Qual ficou em primeiro lugar?",
+          "resposta": "Acabou Chorare"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Que empresário e publicitário carioca criou o festival Rock in Rio, em 1985?",
+        "resposta": "Roberto Medina"
+      },
+      "existentes": [
+        {
+          "id": "q01207",
+          "pergunta": "Com Queen e Iron Maiden entre as atrações, em que ano aconteceu a primeira edição do Rock in Rio?",
+          "resposta": "1985"
+        },
+        {
+          "id": "q17188",
+          "pergunta": "A primeira edição do Rock in Rio, em janeiro de 1985, ocupou a Cidade do Rock por quantos dias?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "Nos anos oitenta, que mestre de bateria do Olodum é apontado como criador da batida do samba-reggae?",
+        "resposta": "Neguinho do Samba"
+      },
+      "existentes": [
+        {
+          "id": "q01204",
+          "pergunta": "Em 1996, Michael Jackson gravou um clipe com os tambores do Olodum em qual bairro histórico de Salvador?",
+          "resposta": "Pelourinho"
+        },
+        {
+          "id": "q17209",
+          "pergunta": "Em 1990, a percussão do Olodum abriu a faixa The Obvious Child, de qual cantor americano?",
+          "resposta": "Paul Simon"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "Nos anos cinquenta, João Gilberto se trancava no banheiro da casa da irmã para criar a batida da bossa nova. Em qual cidade mineira?",
+        "resposta": "Diamantina"
+      },
+      "existentes": [
+        {
+          "id": "q05395",
+          "pergunta": "João Gilberto, o pai da bossa nova, nasceu na mesma cidade baiana, à beira do São Francisco, que Ivete Sangalo. Qual?",
+          "resposta": "Juazeiro"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "Em março de 1998, Tim Maia passou mal no palco e morreu dias depois. Em que cidade era esse último show?",
+        "resposta": "Niterói"
+      },
+      "existentes": [
+        {
+          "id": "q01172",
+          "pergunta": "Por causa do refrão da música W Brasil, de Jorge Ben Jor, que apelido ficou colado em Tim Maia?",
+          "resposta": "Síndico"
+        },
+        {
+          "id": "q01194",
+          "pergunta": "No fim dos anos cinquenta, na Tijuca, Tim Maia e Roberto Carlos fizeram parte de qual conjunto?",
+          "resposta": "The Sputniks"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "Em 1992, um show de Daniela Mercury em São Paulo reuniu tanta gente que causou medo pela estrutura de qual museu, sob cujo vão ela cantava?",
+        "resposta": "MASP"
+      },
+      "existentes": [
+        {
+          "id": "q14874",
+          "pergunta": "Que gênero musical esta cantora levou ao sucesso nacional nos anos noventa?",
+          "resposta": "Axé"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "Tom e Vinicius viam a garota de Ipanema passar sentados num bar que depois ganhou o nome da canção. Como o bar se chamava antes?",
+        "resposta": "Bar Veloso"
+      },
+      "existentes": [
+        {
+          "id": "q01183",
+          "pergunta": "Quem era a jovem cujo caminhar rumo à praia inspirou Tom Jobim e Vinicius de Moraes a compor Garota de Ipanema?",
+          "resposta": "Helô Pinheiro"
+        },
+        {
+          "id": "q17197",
+          "pergunta": "Na primeira versão da letra escrita por Vinicius de Moraes, Garota de Ipanema tinha outro título. Qual?",
+          "resposta": "Menina que Passa"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "O samba Pelo Telefone nasceu nas rodas da casa de qual quituteira baiana, na Praça Onze, no Rio de Janeiro?",
+        "resposta": "Tia Ciata"
+      },
+      "existentes": [
+        {
+          "id": "q05373",
+          "pergunta": "Considerado o primeiro samba gravado, Pelo Telefone foi registrado em 1916 na Biblioteca Nacional por qual compositor carioca?",
+          "resposta": "Donga"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Na fase paulista do Festival Internacional da Canção de 1968, Caetano Veloso, vaiado, fez um discurso furioso enquanto cantava qual canção?",
+        "resposta": "É Proibido Proibir"
+      },
+      "existentes": [
+        {
+          "id": "q01200",
+          "pergunta": "No Festival Internacional da Canção de 1968, qual música venceu sob vaias, à frente de Caminhando, de Geraldo Vandré?",
+          "resposta": "Sabiá"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Na capa do disco Tropicália ou Panis et Circencis, o maestro Rogério Duprat posa segurando, como se fosse uma xícara, qual objeto?",
+        "resposta": "Um penico"
+      },
+      "existentes": [
+        {
+          "id": "q05381",
+          "pergunta": "Em que ano saiu o disco-manifesto Tropicália ou Panis et Circencis, reunindo Caetano, Gil, Gal Costa e Os Mutantes?",
+          "resposta": "1968"
+        },
+        {
+          "id": "q11410",
+          "pergunta": "Que maestro fez os arranjos do álbum-manifesto Tropicália ou Panis et Circencis, lançado em 1968?",
+          "resposta": "Rogério Duprat"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "Em 1965, o disco Getz/Gilberto foi o primeiro álbum não americano a ganhar qual grande prêmio do Grammy?",
+        "resposta": "Álbum do Ano"
+      },
+      "existentes": [
+        {
+          "id": "q11407",
+          "pergunta": "Em 1964, num disco com o saxofonista Stan Getz, que cantora estreante deu voz em inglês a Garota de Ipanema?",
+          "resposta": "Astrud Gilberto"
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "nova": {
+        "pergunta": "Quantas cordas de arame tem o berimbau, o arco de madeira com cabaça que comanda a roda de capoeira?",
+        "resposta": "Uma"
+      },
+      "existentes": [
+        {
+          "id": "q00341",
+          "pergunta": "No berimbau, que comanda o ritmo da roda de capoeira, que fruto seco e oco serve de caixa de ressonância?",
+          "resposta": "Cabaça"
+        },
+        {
+          "id": "q04164",
+          "pergunta": "Que instrumento musical é este?",
+          "resposta": "Berimbau"
+        },
+        {
+          "id": "q05256",
+          "pergunta": "Na roda de capoeira tocam três berimbaus: gunga, médio e viola. Qual deles, de cabaça maior, tem o som mais grave?",
+          "resposta": "Gunga"
+        },
+        {
+          "id": "q16003",
+          "pergunta": "Para mudar o som do berimbau, o tocador encosta no arame uma moeda ou uma pedra lisa. Como se chama essa peça?",
+          "resposta": "Dobrão"
+        },
+        {
+          "id": "q17442",
+          "pergunta": "Este instrumento musical de uma corda tem origem em qual país africano?",
+          "resposta": "Angola"
+        },
+        {
+          "id": "q19627",
+          "pergunta": "Muito antes da capoeira, o nome berimbau já designava em Portugal um pequeno instrumento de metal, tocado preso entre os dentes. Qual?",
+          "resposta": "Harpa de boca"
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "nova": {
+        "pergunta": "Antes de se dedicar de vez à música, Tom Jobim começou uma faculdade e trabalhou num escritório de qual profissão?",
+        "resposta": "Arquitetura"
+      },
+      "existentes": [
+        {
+          "id": "q05391",
+          "pergunta": "Em dezembro de 1994, Tom Jobim morreu de problemas cardíacos longe do Rio. Em qual cidade estrangeira?",
+          "resposta": "Nova York"
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "nova": {
+        "pergunta": "Em plena ditadura militar, Chico Buarque lançou a canção Construção, a do operário que morreu na contramão atrapalhando o tráfego. Em que ano?",
+        "resposta": "1971"
+      },
+      "existentes": [
+        {
+          "id": "q01213",
+          "pergunta": "Na canção Construção, de Chico Buarque, todos os versos terminam com que tipo de palavra?",
+          "resposta": "Proparoxítona"
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "nova": {
+        "pergunta": "A canção Fricote, de Luiz Caldas, a do nega do cabelo duro, é tida como marco inicial do axé. Em que década foi lançada?",
+        "resposta": "Década de 1980"
+      },
+      "existentes": [
+        {
+          "id": "q05398",
+          "pergunta": "A palavra axé, que deu nome ao gênero musical baiano dos anos oitenta, vem do iorubá e significa o quê?",
+          "resposta": "Força ou energia vital"
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "nova": {
+        "pergunta": "Em que ano saiu o primeiro disco do Secos e Molhados, aquele cuja capa mostra as cabeças dos integrantes servidas numa mesa?",
+        "resposta": "1973"
+      },
+      "existentes": [
+        {
+          "id": "q05396",
+          "pergunta": "O grupo de rostos pintados Secos e Molhados tirou o nome da placa de que tipo de comércio?",
+          "resposta": "Armazém"
+        },
+        {
+          "id": "q05412",
+          "pergunta": "Que cantor de voz aguda e performance ousada formava o Secos e Molhados com João Ricardo e Gérson Conrad?",
+          "resposta": "Ney Matogrosso"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente (George Benson vs. identificação por imagem)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Apelido não perguntado antes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nome anterior da banda é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre origem do nome frevo.",
+      "id_existente": "q00316"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Apelido, fato diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ave do nome, não identificação."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nome de registro é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Título da BBC é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Expressão criada, não o hino."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Episódio do Phono 73 diferente do trocadilho."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Causa da morte, não ano."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Motivo de não cantar a canção é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Fato biográfico novo."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Samba de resposta é outro fato."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Influência de João Gilberto é novo."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Prisão em 1985 é novo."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Patrocinador, não a cidade."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Filme de Almodóvar é novo."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Versão de 2006 diferente do compositor original."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Irmã atriz/cantora é novo."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Fato novo."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Fato novo."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Fato novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Autoria da canção é novo."
+    },
+    {
+      "caso": 25,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: dupla do trio elétrico em 1950.",
+      "id_existente": "q00335"
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Letrista, não o ano."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Letrista é novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Criador, não o ano."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Criador do samba-reggae é novo."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Cidade do banheiro, não a de nascimento."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Local do último show é novo."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Show no MASP é novo."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Nome antigo do bar é novo."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Casa de Tia Ciata, não o compositor."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Canção de Caetano, não a vencedora."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Objeto na capa é novo."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Prêmio do Grammy é novo."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Número de cordas não perguntado."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Faculdade é novo."
+    },
+    {
+      "caso": 40,
+      "decisao": "nova",
+      "motivo": "Ano da canção, não a métrica."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Década de Fricote é novo."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Ano do primeiro disco é novo."
+    }
+  ]
+}
