@@ -1,0 +1,109 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Tite, figura pública; o fundo mostra só o escudo da CBF e patrocinadores, sem o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é este treinador de futebol?",
+      "resposta": "Tite",
+      "ancora": {
+        "nome": "Tite",
+        "descricao": "Treinador brasileiro de futebol, ex-técnico da seleção brasileira, nascido Adenor Leonardo Bacchi.",
+        "variantes": [
+          "Adenor Leonardo Bacchi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O número de peito mostra 'LYLES', que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, com atleta de corpo inteiro; o rosto não é reconhecível no celular e a camisa só traz 'Brasil' e o número 5."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto desfocada, com boné e objeto borrado em primeiro plano; a pessoa não é reconhecível com segurança."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de perfil antiga, sem nenhum contexto (carro, macacão); pouco reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Baixa resolução, rosto sem contexto e texto parcial ao fundo; não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa qualidade, sem contexto de críquete; não fica legível nem reconhecível no celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Cantona, figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ex-jogador de futebol francês aparece nesta foto?",
+      "resposta": "Eric Cantona",
+      "distratores": [
+        "Michel Platini",
+        "Thierry Henry",
+        "Zinedine Zidane"
+      ],
+      "ancora": {
+        "nome": "Eric Cantona",
+        "descricao": "Ex-futebolista francês, ídolo do Manchester United, depois ator.",
+        "variantes": [
+          "Éric Cantona"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de coletiva com baixa resolução e rosto sem traços marcantes; a lutadora não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida de Puskás com o escudo do Real Madrid na camisa; sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que craque húngaro do futebol é este?",
+      "resposta": "Ferenc Puskás",
+      "ancora": {
+        "nome": "Ferenc Puskás",
+        "descricao": "Futebolista húngaro, astro do Honvéd e do Real Madrid nos anos 1950 e 1960.",
+        "variantes": [
+          "Puskas",
+          "Puskás Ferenc"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato oficial atual, sem contexto esportivo; o lutador não é reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto de comentarista com fone, sem contexto; a pessoa não é reconhecível pela imagem."
+    }
+  ]
+}

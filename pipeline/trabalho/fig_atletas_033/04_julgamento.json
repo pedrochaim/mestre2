@@ -1,0 +1,184 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tite",
+        "descricao": "Treinador brasileiro de futebol, ex-técnico da seleção brasileira, nascido Adenor Leonardo Bacchi.",
+        "variantes": [
+          "Adenor Leonardo Bacchi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_tiete",
+          "nome": "Rio Tietê",
+          "descricao": "Rio do estado de São Paulo que nasce em Salesópolis, atravessa a capital paulista e deságua no rio Paraná.",
+          "variantes": [
+            "Tietê",
+            "Tietê River"
+          ]
+        },
+        {
+          "id": "tita",
+          "nome": "Titã",
+          "descricao": "Maior lua de Saturno, com densa atmosfera alaranjada.",
+          "variantes": [
+            "Titan"
+          ]
+        },
+        {
+          "id": "ciclo_de_dia_e_noite_em_pokemon",
+          "nome": "Ciclo de dia e noite em Pokémon",
+          "descricao": "Mecânica introduzida em Pokémon Gold e Silver em que um relógio real faz o dia e a noite se alternarem no jogo.",
+          "variantes": [
+            "Time",
+            "Relógio em tempo real"
+          ]
+        },
+        {
+          "id": "bite",
+          "nome": "Bite",
+          "descricao": "Golpe de pokémon do tipo Sombrio, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "tito",
+          "nome": "Tito",
+          "descricao": "Imperador romano de 79 a 81, filho de Vespasiano, da dinastia flávia.",
+          "variantes": [
+            "Titus",
+            "Tito Flávio Vespasiano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Eric Cantona",
+        "descricao": "Ex-futebolista francês, ídolo do Manchester United, depois ator.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "canal_erie",
+          "nome": "Canal Erie",
+          "descricao": "Canal artificial do estado de Nova York que liga o rio Hudson, em Albany, ao lago Erie, em Buffalo.",
+          "variantes": [
+            "Erie Canal"
+          ]
+        },
+        {
+          "id": "maria_antonieta",
+          "nome": "Maria Antonieta",
+          "descricao": "Rainha da França, esposa de Luís XVI, guilhotinada durante a Revolução Francesa.",
+          "variantes": [
+            "Marie Antoinette"
+          ]
+        },
+        {
+          "id": "georg_cantor",
+          "nome": "Georg Cantor",
+          "descricao": "Matemático alemão (1845–1918), criador da teoria dos conjuntos.",
+          "variantes": [
+            "Georg Ferdinand Ludwig Philipp Cantor"
+          ]
+        },
+        {
+          "id": "rio_tocantins",
+          "nome": "Rio Tocantins",
+          "descricao": "Rio brasileiro que nasce em Goiás, atravessa o estado do Tocantins e deságua perto de Belém, no Pará.",
+          "variantes": [
+            "Tocantins",
+            "Tocantins River"
+          ]
+        },
+        {
+          "id": "marco_antonio",
+          "nome": "Marco Antônio",
+          "descricao": "General e político romano do século primeiro antes de Cristo, aliado de Cleópatra e derrotado por Otaviano.",
+          "variantes": [
+            "Marcus Antonius",
+            "Mark Antony"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ferenc Puskás",
+        "descricao": "Futebolista húngaro, astro do Honvéd e do Real Madrid nos anos 1950 e 1960.",
+        "variantes": [
+          "Puskas",
+          "Puskás Ferenc"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "musas",
+          "nome": "Musas",
+          "descricao": "As nove deusas gregas, filhas de Zeus e Mnemósine, inspiradoras das artes e das ciências.",
+          "variantes": [
+            "Muses"
+          ]
+        },
+        {
+          "id": "prensa_francesa",
+          "nome": "Prensa francesa",
+          "descricao": "Utensílio de cozinha com êmbolo e filtro de malha, usado para preparar café por infusão.",
+          "variantes": [
+            "Cafeteira de êmbolo",
+            "French press",
+            "Cafetière"
+          ]
+        },
+        {
+          "id": "pulsar",
+          "nome": "Pulsar",
+          "descricao": "Estrela de nêutrons em rotação rápida que emite feixes de radiação captados como pulsos regulares.",
+          "variantes": [
+            "Pulsares"
+          ]
+        },
+        {
+          "id": "premio_puskas",
+          "nome": "Prêmio Puskás",
+          "descricao": "Prêmio da FIFA, criado em 2009, para o gol mais bonito do ano.",
+          "variantes": [
+            "FIFA Puskás Award"
+          ]
+        },
+        {
+          "id": "pulga",
+          "nome": "Pulga",
+          "descricao": "Inseto sem asas da ordem Siphonaptera, parasita externo de mamíferos e aves que se alimenta de sangue.",
+          "variantes": [
+            "Pulgas",
+            "Sifonápteros",
+            "Flea",
+            "Siphonaptera"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tite (treinador) não corresponde a nenhuma candidata; são rio, lua, golpe, imperador etc."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Eric Cantona é um futebolista; nenhuma candidata é a mesma pessoa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O jogador Ferenc Puskás é distinto do Prêmio Puskás, que apenas leva seu nome."
+    }
+  ]
+}
