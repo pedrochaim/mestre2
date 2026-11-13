@@ -1,0 +1,140 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoas comuns (militares) em primeiro plano, com texto visível (U.S. NAVY, nome no uniforme)."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Kokeshi nítida, reconhecível; pergunta sobre a região de origem.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta boneca de madeira, sem braços nem pernas, é tradicional de qual região do Japão?",
+      "resposta": "Tohoku",
+      "distratores": [
+        "Kansai",
+        "Kyushu",
+        "Chubu"
+      ],
+      "ancora": {
+        "nome": "Kokeshi",
+        "descricao": "Boneca de madeira japonesa sem braços nem pernas, com cabeça redonda e corpo cilíndrico pintado, originária da região de Tohoku.",
+        "variantes": [
+          "Kokeshi japonesa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foliões mascarados do Busójárás, festa pública, imagem clara e distintiva.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que festa de fim de carnaval, numa cidade húngara, tem estes foliões de máscara com chifres e pele de carneiro?",
+      "resposta": "Busójárás",
+      "ancora": {
+        "nome": "Busójárás",
+        "descricao": "Festa anual de fim de carnaval em Mohács, na Hungria, com foliões mascarados chamados busós.",
+        "variantes": [
+          "Busojaras",
+          "Pohod bušara",
+          "Busó-walking"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É um pôster (litografia) com texto visível (Troupe de Mlle Églantine, nomes); pôsteres são proibidos."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Altar com papel picado, pão de muerto e flores, reconhecível; a foto emoldurada é pequena e de fundo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que celebração anual mexicana se monta este altar, com pão doce, flores e velas, para receber os mortos?",
+      "resposta": "Dia de los Muertos (Dia dos Mortos)",
+      "ancora": {
+        "nome": "Ofrenda",
+        "descricao": "Altar doméstico com oferendas montado no Día de los Muertos, no México, para homenagear os falecidos.",
+        "variantes": [
+          "Ofrenda do Dia dos Mortos",
+          "Altar de muertos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Mola nítida, padrão característico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que peça de artesanato têxtil, de camadas de tecido recortadas e costuradas, é esta, típica de um povo indígena do Panamá?",
+      "resposta": "Mola",
+      "ancora": {
+        "nome": "Mola",
+        "descricao": "Tecido artesanal de camadas recortadas e costuradas, parte do traje das mulheres do povo Guna (Kuna), do Panamá.",
+        "variantes": [
+          "Molas",
+          "Mola kuna",
+          "Mola guna"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto histórica de baixa resolução com marca d'água (www.awm.gov.au), pessoas comuns em primeiro plano; não mostra claramente bermudas como assunto."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, em cenário rural; contexto não é festa pública."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Trajes brancos com faixas são comuns a várias festas etíopes (Meskel, Timkat); resposta não única pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Crianças comuns em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Legenda do museu visível com 'Coat Djellaba' escrito, entregando a resposta; imagem com reflexos."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bonecos brancos de pano pendurados, reconhecíveis, sem texto relevante legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "No Japão, estes bonecos de pano pendurados em janelas e beirais são feitos para pedir que tipo de tempo?",
+      "resposta": "Tempo bom (sol)",
+      "ancora": {
+        "nome": "Teru teru bōzu",
+        "descricao": "Pequeno boneco japonês de papel ou pano, branco, pendurado em janelas para pedir tempo bom.",
+        "variantes": [
+          "Teru teru bozu",
+          "Teru-teru-bōzu"
+        ]
+      }
+    }
+  ]
+}

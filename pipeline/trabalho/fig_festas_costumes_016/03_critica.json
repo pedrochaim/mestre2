@@ -1,0 +1,59 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (Tohoku), mas 'boneca de madeira sem braços nem pernas' já identifica o kokeshi sem a figura. Pista retirada.",
+      "reescrita": {
+        "pergunta": "Esta boneca tradicional japonesa é originária de qual região do país?",
+        "resposta": "Tohoku",
+        "distratores": [
+          "Kansai",
+          "Kyushu",
+          "Chubu"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Festa de fim de carnaval numa cidade húngara' mais máscaras com chifres permite responder sem ver a figura. Pista reduzida.",
+      "reescrita": {
+        "pergunta": "Que festa de foliões mascarados, realizada todo ano na Hungria, é esta?",
+        "resposta": "Busójárás"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Altar para receber os mortos' com pão doce e flores entrega a celebração sem a figura. Pistas removidas.",
+      "reescrita": {
+        "pergunta": "Este altar doméstico é montado em qual celebração anual mexicana?",
+        "resposta": "Dia de los Muertos (Dia dos Mortos)"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Descrever as camadas de tecido recortadas e costuradas é a definição da mola, então a figura vira enfeite. Descrição retirada.",
+      "reescrita": {
+        "pergunta": "Que peça de artesanato têxtil é esta, típica de um povo indígena do Panamá?",
+        "resposta": "Mola"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar o tempo pedido é quase um palpite (tempo bom) e a figura é dispensável. Passa a pedir o reconhecimento do boneco.",
+      "reescrita": {
+        "pergunta": "Que boneco branco de papel ou pano é este, que as crianças japonesas penduram nas janelas?",
+        "resposta": "Teru teru bōzu"
+      }
+    }
+  ]
+}
