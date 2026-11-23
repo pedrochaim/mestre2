@@ -10,17 +10,26 @@ service cloud.firestore {
       // "semente" (Linear): sorteia a ordem dos temas nas casas. "perguntas": "multipla" sorteia só perguntas de
       // múltipla escolha; partidas sem o campo são completas.
       allow create: if codigo.matches('^[A-Z]{4}$')
-                    && request.resource.data.keys().hasOnly(['criada_em', 'modo', 'semente', 'perguntas'])
-                    && (!('semente' in request.resource.data) || request.resource.data.semente is int)
-                    && (!('perguntas' in request.resource.data) || request.resource.data.perguntas == 'multipla')
                     && request.resource.data.criada_em == request.time
-                    && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'linear', 'pokemon']);
+                    && ((request.resource.data.keys().hasOnly(['criada_em', 'modo', 'semente', 'perguntas'])
+                         && (!('semente' in request.resource.data) || request.resource.data.semente is int)
+                         && (!('perguntas' in request.resource.data) || request.resource.data.perguntas == 'multipla')
+                         && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'linear', 'pokemon']))
+                        // Arena (2026-11-23): criada pela tela grande, com login anônimo; "anfitriao" é o uid dela, o único
+                        // que muda a partida depois. "prazo": segundos para responder.
+                        || (request.resource.data.keys().hasOnly(['criada_em', 'modo', 'semente', 'perguntas', 'anfitriao', 'prazo'])
+                            && request.resource.data.modo == 'arena'
+                            && request.auth != null && request.resource.data.anfitriao == request.auth.uid
+                            && request.resource.data.semente is int
+                            && request.resource.data.perguntas == 'multipla'
+                            && prazoValido(request.resource.data.prazo)));
       // "vez" é o id do jogador da vez. "atual" é a pergunta em jogo, para o modo mesa (sem a resposta), ou null.
       // "som" é o último evento de som ({e, n}), que a tela grande toca. "anterior" é a rodada encerrada antes da
       // atual (o mesmo formato de "atual"), que a tela grande pode mostrar de novo.
       // Duração da partida (2026-10-28): "inicio" é gravado uma vez, no primeiro sorteio; "fim" quando o primeiro peão
       // chega à última casa, com "duracao" em segundos (até 7 dias).
-      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez', 'atual', 'som', 'anterior', 'inicio', 'fim', 'duracao'])
+      allow update: if resource.data.get('modo', 'master') != 'arena'
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez', 'atual', 'som', 'anterior', 'inicio', 'fim', 'duracao'])
                     && (!('inicio' in request.resource.data.diff(resource.data).affectedKeys())
                         || (!('inicio' in resource.data) && request.resource.data.inicio == request.time))
                     && (!('fim' in request.resource.data.diff(resource.data).affectedKeys())
@@ -36,21 +45,71 @@ service cloud.firestore {
                         || (request.resource.data.atual is map && request.resource.data.atual.size() <= 12))
                     && (!('anterior' in request.resource.data) || request.resource.data.anterior == null
                         || (request.resource.data.anterior is map && request.resource.data.anterior.size() <= 12));
+      // Arena: só a tela grande (o anfitrião) muda a partida. "rodada" é a pergunta em jogo, para todos: n (o número
+      // da rodada), pergunta (o id), tema, subtema, enunciado, opcoes (as 4 alternativas, na ordem da tela), figura,
+      // prazo, inicio (hora do servidor), fase ("respondendo", "encerrada" ou "revelada") e, revelada, certa (o índice
+      // da alternativa certa). "vencedores": os ids de quem chegou ao fim na mesma rodada.
+      allow update: if resource.data.get('modo', 'master') == 'arena'
+                    && request.auth != null && request.auth.uid == resource.data.anfitriao
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['rodada', 'prazo', 'inicio', 'fim', 'duracao', 'vencedores'])
+                    && (!('rodada' in request.resource.data)
+                        || (request.resource.data.rodada is map && request.resource.data.rodada.size() <= 12
+                            && request.resource.data.rodada.n is int
+                            && request.resource.data.rodada.fase in ['respondendo', 'encerrada', 'revelada']
+                            && request.resource.data.rodada.inicio is timestamp
+                            && prazoValido(request.resource.data.rodada.prazo)
+                            && request.resource.data.rodada.opcoes is list && request.resource.data.rodada.opcoes.size() == 4))
+                    && prazoValido(request.resource.data.prazo)
+                    && (!('inicio' in request.resource.data.diff(resource.data).affectedKeys())
+                        || (!('inicio' in resource.data) && request.resource.data.inicio == request.time))
+                    && (!('fim' in request.resource.data.diff(resource.data).affectedKeys())
+                        || request.resource.data.fim == request.time)
+                    && (!('duracao' in request.resource.data.diff(resource.data).affectedKeys())
+                        || (request.resource.data.duracao is int && request.resource.data.duracao >= 0
+                            && request.resource.data.duracao <= 604800))
+                    && (!('vencedores' in request.resource.data)
+                        || (request.resource.data.vencedores is list && request.resource.data.vencedores.size() <= 30));
 
       // "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1 do Master.
+      // Na Arena, o id do jogador é o uid do celular dele: só ele cria o próprio jogador e troca nome e cor ("tema"); só a
+      // tela grande muda a casa. Sai o próprio jogador ou quem a tela grande tirar.
       match /jogadores/{id} {
         allow read: if true;
         allow create: if request.resource.data.keys().hasOnly(['nome', 'pontos', 'tema', 'criado_em'])
-                      && request.resource.data.nome is string
-                      && request.resource.data.nome.size() > 0
-                      && request.resource.data.nome.size() <= 30
+                      && nomeValido(request.resource.data)
                       && request.resource.data.pontos == 0
                       && temaValido(request.resource.data)
-                      && request.resource.data.criado_em == request.time;
-        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos', 'tema'])
+                      && request.resource.data.criado_em == request.time
+                      && (!ehArena(codigo) || (request.auth != null && id == request.auth.uid));
+        allow update: if !ehArena(codigo)
+                      && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos', 'tema'])
                       && request.resource.data.pontos is int
                       && temaValido(request.resource.data);
-        allow delete: if true;
+        allow update: if ehArena(codigo) && request.auth != null
+                      && ((request.auth.uid == partidaDe(codigo).anfitriao
+                           && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos'])
+                           && request.resource.data.pontos is int && request.resource.data.pontos >= 0)
+                          || (request.auth.uid == id
+                              && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['nome', 'tema'])
+                              && nomeValido(request.resource.data) && temaValido(request.resource.data)));
+        allow delete: if !ehArena(codigo)
+                      || (request.auth != null && (request.auth.uid == id || request.auth.uid == partidaDe(codigo).anfitriao));
+      }
+
+      // Arena: a resposta de cada jogador em cada rodada, com o id "n_uid". Uma só, sem troca, gravada pelo próprio
+      // jogador enquanto a rodada aceita respostas: fase "respondendo" e até 3 s depois do prazo, na hora do servidor.
+      match /respostas/{id} {
+        allow read: if true;
+        allow create: if request.auth != null
+                      && request.resource.data.keys().hasOnly(['n', 'jogador', 'opcao', 'em'])
+                      && request.resource.data.jogador == request.auth.uid
+                      && request.resource.data.n is int
+                      && id == string(request.resource.data.n) + '_' + request.auth.uid
+                      && request.resource.data.opcao is int
+                      && request.resource.data.opcao >= 0 && request.resource.data.opcao <= 3
+                      && request.resource.data.em == request.time
+                      && rodadaAberta(codigo, request.resource.data.n)
+                      && exists(/databases/$(database)/documents/partidas/$(codigo)/jogadores/$(request.auth.uid));
       }
 
       // Um registro por sorteio; a mesma pergunta pode sair mais de uma vez na partida. "dado" (modo Pokémon): de 1 a
@@ -103,6 +162,23 @@ service cloud.firestore {
                     && (resource == null || resource.data.pergunta == request.resource.data.pergunta);
     }
 
+    function partidaDe(codigo) {
+      return get(/databases/$(database)/documents/partidas/$(codigo)).data;
+    }
+    function ehArena(codigo) {
+      return partidaDe(codigo).get('modo', 'master') == 'arena';
+    }
+    function rodadaAberta(codigo, n) {
+      let p = partidaDe(codigo);
+      return p.get('modo', 'master') == 'arena' && p.rodada.n == n && p.rodada.fase == 'respondendo'
+             && request.time <= p.rodada.inicio + duration.value(p.rodada.prazo + 3, 's');
+    }
+    function prazoValido(prazo) {
+      return prazo is int && prazo >= 5 && prazo <= 120;
+    }
+    function nomeValido(dados) {
+      return dados.nome is string && dados.nome.size() > 0 && dados.nome.size() <= 30;
+    }
     function temaValido(dados) {
       return !('tema' in dados) || (dados.tema is string && dados.tema.size() > 0 && dados.tema.size() <= 40);
     }

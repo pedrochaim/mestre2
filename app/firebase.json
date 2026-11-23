@@ -33,5 +33,10 @@
     "rules": "firestore.rules",
     "database": "(default)",
     "location": "southamerica-east1"
+  },
+  "auth": {
+    "providers": {
+      "anonymous": true
+    }
   }
 }

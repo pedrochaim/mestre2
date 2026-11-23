@@ -653,6 +653,7 @@ O Mestre2 terá mais de um modo de jogo, todos sobre o mesmo banco de perguntas.
 | **Linear** | Protótipo no app (2026-10-02; tabuleiro refeito em 2026-10-27 e em 2026-11-02). Uma trilha única de 26 casas em faixa ondulada, 3 de cada tema, em ordem sorteada por partida, e 2 casas especiais fixas, que fazem os da frente voltar, com um dado de 1 a 3 | Esta seção (Modo Linear) e §16 |
 | **Pokémon** | No app (2026-10-13). O primeiro dos **modos temáticos**: só perguntas de pokémon, com as regras do Linear numa trilha própria de 60 casas, com casas temáticas que ditam o teor da pergunta | [`modo_pokemon.md`](modo_pokemon.md) |
 | **Trilha da Vida** | Protótipo fora do app: esteve nele de 2026-10-02 a 2026-10-27 e ficou guardado em `prototipos/trilha_da_vida/`. Corrida num mapa vertical no estilo *Slay the Spire*: profissão com dois temas, personalidade, casas "Vá trabalhar", de Ação, de tema, em Branco e de Destino, e uma mão de cartas | [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md) e §16 (Modo Trilha da Vida) |
+| **Arena** | Versão inicial (2026-11-23). Só perguntas de múltipla escolha do jogo original. A pergunta aparece numa tela grande (TV ou tablet), todos respondem ao mesmo tempo, cada um no próprio celular, e quem acerta anda uma casa na trilha do Linear | §16 (Modo Arena) |
 
 O que esta seção diz sobre papéis, repetição e sorteio vale para todos os modos, salvo quando o modo disser outra coisa. O que diz sobre o tabuleiro vale para o Modo Master.
 
@@ -761,6 +762,21 @@ Ao criar a partida, há também **Nova partida · Linear (protótipo)**, no bot�
 
 **Nova partida · Pokémon**, em **Outros modos**, grava `modo: "pokemon"`; o app trata a partida como Linear, com as perguntas e o tabuleiro do modo (`svgPokemon`, em `linear.js`), e as casas temáticas do modo no lugar dos temas. Os detalhes estão em [`modo_pokemon.md`](modo_pokemon.md). Nos outros modos, as perguntas exclusivas de uma coleção nem entram na lista do sorteio.
 
+### Modo Arena
+
+Versão inicial (2026-11-23). **Nova partida · Arena**, em **Outros modos**, abre `arena.html`, a página da **tela grande**; os jogadores entram por `jogar.html`, a página do **celular**. O código comum fica em `arena-comum.js`, e o tabuleiro é o do Linear (`linear.js`), sem dado e sem casas especiais com efeito.
+
+- **Login anônimo** (Firebase Authentication): cada aparelho ganha um id (`uid`) que sobrevive a recarregar a página. É o único modo com login; os outros continuam sem ele. O jogador é o documento `jogadores/{uid}`, e a tela grande que criou a partida fica em `anfitriao`: só ela sorteia, revela e anda com os peões. Outra tela que abra `arena.html#CODIGO` só assiste.
+- **Entrar:** a tela grande mostra um QR code com `jogar.html#CODIGO`. O jogador digita o nome e escolhe a cor do peão (as cores dos temas). Quem recarrega volta direto para a partida. Um código da Arena digitado no `index.html` leva ao `jogar.html`.
+- **Rodada:** quem comanda toca em **Começar** (ou **Próxima pergunta**). A pergunta aparece na tela grande, com a figura, e no celular aparecem o tema, o enunciado e as alternativas A a D (sem a figura: "Olhe a figura na tela grande"). Cada um responde uma vez, sem troca. A rodada fecha quando o **prazo** acaba (10, 15, 20 ou 30 s, escolhido na tela grande; 20 s por padrão) ou quando todos responderam, ou pelo botão **Encerrar o tempo**. A tela grande mostra a certa, quem escolheu cada alternativa e quem acertou; cada celular mostra **Acertou!**, **Errou** ou **Sem resposta**. Quem acertou anda uma casa.
+- **Próxima automática** (ligada por padrão): a pergunta seguinte sai 10 s depois da resposta.
+- **Sorteio:** os temas se revezam na ordem da trilha da partida (a `semente`), pulando os que não têm perguntas novas; dentro do tema, o subtema que menos saiu e, nele, a pergunta mais fresca, com a memória de 30 dias entre partidas, como no jogo original. Nenhuma pergunta se repete na partida. Perguntas com áudio continuam fora.
+- **Fim:** vence quem chega à Chegada (casa 27). Quem chegar na mesma rodada empata.
+- **Jogadores:** a tela grande tira um jogador tocando nele; o próprio jogador sai pelo botão **Sair**. Quem entra no meio começa no Início.
+- **Relógio:** o prazo conta do `inicio` gravado pelo servidor. A regra do Firestore aceita respostas até 3 s depois do prazo, pela hora do servidor; a tela grande fecha a rodada 0,8 s depois do prazo e, para nenhuma resposta escapar, fecha em dois passos: `encerrada` (a regra para de aceitar respostas), depois lê todas e, numa transação, revela e anda com quem acertou.
+- **Ainda não tem:** sons, avaliação das perguntas, revanche com os mesmos jogadores e as regras na aba Informações.
+- **Testar sem o projeto:** com `?emulador` no endereço, as páginas usam os emuladores locais do Firebase (Firestore e Auth).
+
 ### Modo Trilha da Vida
 
 **Fora do app desde 2026-10-27**, guardado como protótipo. Na tela inicial ficam **Nova partida · Master** e, no botão **Outros modos**, o Linear e o Pokémon; abaixo do Master e do campo do código, quatro atalhos: **Outros modos**, **Informações**, **QR code** e **Sons**. Partidas sem modo, como as antigas, são Master. Uma partida antiga da Trilha não abre mais: o app avisa que o modo saiu, e as regras do Firestore não aceitam mais partidas nem jogadores dela (`semente`, `trilha`).
@@ -803,11 +819,13 @@ As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` c
 | `partidas/{codigo}/usadas/{id da pergunta}` | `em`, `respondente`, `acertou` | Formato antigo, até a v0.16: uma entrada por pergunta. O app ainda lê essas entradas, e elas contam junto com `sorteios` |
 
 - Cada sorteio cria um registro novo em `sorteios`. O resultado (`respondente` e `acertou`) é acrescentado quando o questionador marca acerto ou erro.
+- **Arena:** a partida tem também `anfitriao` (o uid da tela grande), `prazo` (segundos), `rodada` (a pergunta em jogo: `n`, `pergunta`, `tema`, `subtema`, `enunciado`, `opcoes`, `figura`, `prazo`, `inicio`, `fase`, que é `respondendo`, `encerrada` ou `revelada`, e, revelada, `certa`, o índice da alternativa certa) e `vencedores`. As respostas ficam em `partidas/{codigo}/respostas/{n}_{uid}`, com `n`, `jogador`, `opcao` (0 a 3) e `em`. Cada pergunta sorteada também vai para `sorteios`, para a memória entre partidas.
 - Os registros de sorteio já formam um histórico de acertos por pergunta. É daí que uma medida de dificuldade pode vir no futuro, e não do LLM (§12).
 
 ### Regras de segurança (`app/firestore.rules`)
 
 - **Não há login.** Quem conhece o código de uma partida pode lê-la e jogar.
+- **Exceto na Arena**, que usa login anônimo: ali, o jogador só cria e muda o próprio documento (`jogadores/{uid}`, nome e cor), só responde por si (`respostas/{n}_{uid}`, uma vez, com a rodada aberta e até 3 s depois do prazo, pela hora do servidor), e só a tela grande (`anfitriao`) muda a partida e as casas.
 - As regras só limitam o **formato** dos dados:
   - o código tem 4 letras maiúsculas;
   - uma partida não pode ser recriada nem apagada;

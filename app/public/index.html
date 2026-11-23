@@ -419,6 +419,9 @@
     <div id="outros-modos" class="cartao" hidden>
       <button id="criar-linear" style="width:100%">Nova partida · Linear (protótipo)</button>
       <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 26 casas, com um dado de 1 a 3.</p>
+      <!-- Arena (2026-11-23): a pergunta na tela grande e cada jogador responde no próprio celular (arena.html e jogar.html) -->
+      <button id="criar-arena" style="width:100%">Nova partida · Arena</button>
+      <p class="suave" style="margin:.3rem 0 .8rem">Todos respondem ao mesmo tempo, cada um no seu celular; quem acerta anda uma casa. Só múltipla escolha.</p>
       <!-- Modos temáticos: um universo só, com perguntas, tabuleiro e regras próprios. O Pokémon é o primeiro. -->
       <h2 class="grupo-modos">Modos temáticos</h2>
       <button id="criar-pokemon" style="width:100%">Nova partida · Pokémon</button>
@@ -924,6 +927,9 @@
   $("criar").onclick = () => criar("master");
   $("criar-linear").onclick = () => criar("linear");
   $("criar-pokemon").onclick = () => criar("pokemon");
+  // A Arena tem páginas próprias: a tela grande (arena.html) cria a partida, e os jogadores entram por jogar.html.
+  $("criar-arena").onclick = () => { location.href = "arena.html"; };
+  const ARENA = c => { location.href = "jogar.html#" + c; };
 
   const TRILHA_FORA = "Esta partida é da Trilha da Vida, que saiu do app.";
   $("form-entrar").onsubmit = async e => {
@@ -932,6 +938,7 @@
     const snap = await getDoc(doc(db, "partidas", c)).catch(() => null);
     if (!snap || !snap.exists()) return ($("erro-entrada").textContent = "Partida não encontrada.");
     if (snap.data().modo === "trilha") return ($("erro-entrada").textContent = TRILHA_FORA);
+    if (snap.data().modo === "arena") return ARENA(c);
     entrar(c);
   };
 
@@ -2498,7 +2505,8 @@
   const doLink = location.hash.slice(1).toUpperCase();
   if (/^[A-Z]{4}$/.test(doLink)) {
     getDoc(doc(db, "partidas", doLink)).then(s => !s.exists() ? ($("erro-entrada").textContent = "Partida do link não encontrada.")
-      : s.data().modo === "trilha" ? ($("erro-entrada").textContent = TRILHA_FORA) : entrar(doLink));
+      : s.data().modo === "trilha" ? ($("erro-entrada").textContent = TRILHA_FORA)
+      : s.data().modo === "arena" ? ARENA(doLink) : entrar(doLink));
   }
 </script>
 </body>
