@@ -1,0 +1,252 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Iridescência de nuvem",
+        "descricao": "Fenômeno óptico em que nuvens exibem cores pastel como as de bolhas de sabão, perto do Sol ou da Lua.",
+        "variantes": [
+          "Irisação",
+          "Nuvem iridescente"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nuvem_noctilucente",
+          "nome": "Nuvem noctilucente",
+          "descricao": "Nuvem tênue de cristais de gelo na alta atmosfera, visível só no crepúsculo.",
+          "variantes": [
+            "Nuvem mesosférica polar",
+            "Nuvem que brilha à noite"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "cintilacao_estelar",
+          "nome": "Cintilação estelar",
+          "descricao": "Variação rápida do brilho das estrelas vistas da superfície da Terra, o popular piscar das estrelas.",
+          "variantes": [
+            "Cintilação",
+            "Twinkling"
+          ]
+        },
+        {
+          "id": "ciclone_tropical",
+          "nome": "Ciclone tropical",
+          "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+          "variantes": [
+            "Furacão",
+            "Tufão"
+          ]
+        },
+        {
+          "id": "iracema",
+          "nome": "Iracema",
+          "descricao": "Romance indianista de José de Alencar publicado em 1865.",
+          "variantes": [
+            "Iracema, Lenda do Ceará"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pingente de gelo",
+        "descricao": "Ponta de gelo formada quando a água que escorre de um objeto congela.",
+        "variantes": [
+          "Pingentes de gelo",
+          "Estalactite de gelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pingente_de_liko",
+          "nome": "Pingente de Liko",
+          "descricao": "Pingente misterioso da protagonista Liko na série Pokémon Horizontes, cobiçado pelo grupo dos Exploradores.",
+          "variantes": [
+            "Liko's pendant"
+          ]
+        },
+        {
+          "id": "estalactite",
+          "nome": "Estalactite",
+          "descricao": "Formação mineral que pende do teto de cavernas, depositada pela água que goteja.",
+          "variantes": [
+            "Stalactite"
+          ]
+        },
+        {
+          "id": "presente_de_grego",
+          "nome": "Presente de grego",
+          "descricao": "Expressão para um presente que traz prejuízo a quem o recebe",
+          "variantes": []
+        },
+        {
+          "id": "dente_de_leao",
+          "nome": "Dente-de-leão",
+          "descricao": "Planta do gênero Taraxacum, de capítulo amarelo que depois vira bola de sementes.",
+          "variantes": [
+            "Taraxaco",
+            "Taraxacum",
+            "Dandelion"
+          ]
+        },
+        {
+          "id": "pilar_de_luz",
+          "nome": "Pilar de luz",
+          "descricao": "Fenômeno óptico em que um feixe vertical de luz parece se estender de uma fonte luminosa, por reflexão em cristais de gelo.",
+          "variantes": [
+            "Pilar de gelo",
+            "Light pillar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Arco-íris lunar",
+        "descricao": "Arco-íris produzido pela luz da Lua em gotas de água, em vez da luz direta do Sol.",
+        "variantes": [
+          "Moonbow",
+          "Arco-íris da Lua"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arcos_da_lapa",
+          "nome": "Arcos da Lapa",
+          "descricao": "Aqueduto colonial de arcos brancos no bairro da Lapa, no Rio de Janeiro, construído no século dezoito.",
+          "variantes": [
+            "Aqueduto da Carioca"
+          ]
+        },
+        {
+          "id": "arco_iris",
+          "nome": "Arco-íris",
+          "descricao": "Fenômeno óptico em que a luz do Sol, refratada e refletida em gotas de chuva, forma um arco colorido no céu.",
+          "variantes": [
+            "Arco-celeste",
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "mariposa_luna",
+          "nome": "Mariposa-luna",
+          "descricao": "Grande mariposa verde-clara norte-americana da família Saturniidae, com caudas nas asas posteriores (Actias luna).",
+          "variantes": [
+            "Actias luna",
+            "Luna moth"
+          ]
+        },
+        {
+          "id": "eclipse_lunar",
+          "nome": "Eclipse lunar",
+          "descricao": "Fenômeno em que a Terra fica entre o Sol e a Lua, e sua sombra cobre a Lua.",
+          "variantes": [
+            "Eclipse da Lua",
+            "Lua de sangue"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Arco de neblina",
+        "descricao": "Fenômeno óptico semelhante ao arco-íris, formado por gotículas minúsculas de neblina, de cores muito fracas ou brancas.",
+        "variantes": [
+          "Arco-íris branco",
+          "Fog bow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pico_da_neblina",
+          "nome": "Pico da Neblina",
+          "descricao": "Montanha da Serra do Imeri, no Amazonas, junto à fronteira com a Venezuela, o ponto mais alto do Brasil.",
+          "variantes": [
+            "Neblina"
+          ]
+        },
+        {
+          "id": "barao_do_rio_branco",
+          "nome": "Barão do Rio Branco",
+          "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+          "variantes": [
+            "José Maria da Silva Paranhos Júnior",
+            "Rio Branco"
+          ]
+        },
+        {
+          "id": "arco_instrumento_musical",
+          "nome": "Arco (instrumento musical)",
+          "descricao": "Vara de madeira com fios esticados usada para friccionar as cordas do violino, da viola, do violoncelo e do contrabaixo.",
+          "variantes": [
+            "Arco de violino"
+          ]
+        },
+        {
+          "id": "besouro_da_neblina",
+          "nome": "Besouro-da-neblina",
+          "descricao": "Besouro Stenocara gracilipes, do deserto do Namibe, que coleta água das gotas de neblina sobre o próprio corpo.",
+          "variantes": [
+            "Stenocara gracilipes",
+            "Besouro-do-namibe"
+          ]
+        },
+        {
+          "id": "arco_iris",
+          "nome": "Arco-íris",
+          "descricao": "Fenômeno óptico em que a luz do Sol, refratada e refletida em gotas de chuva, forma um arco colorido no céu.",
+          "variantes": [
+            "Arco-celeste",
+            "Rainbow"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Iridescência de nuvem é um fenômeno distinto das candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pingente de gelo é diferente de estalactite mineral e das demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Arco-íris lunar é um fenômeno específico, distinto do arco-íris solar e da Lua."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Arco de neblina é fenômeno distinto do arco-íris comum."
+    }
+  ]
+}

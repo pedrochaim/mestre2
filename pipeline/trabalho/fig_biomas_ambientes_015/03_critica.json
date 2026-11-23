@@ -1,0 +1,51 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'nuvens' (palavra da resposta) e 'madrepérola' (sinônimo de iridescente), entregando a resposta. 'Perto do Sol' pode não valer para a foto. Glória é difração em nuvens, então é um distrator duvidoso.",
+      "reescrita": {
+        "pergunta": "Que fenômeno óptico dá ao céu estas cores pastel, como as de bolhas de sabão?",
+        "resposta": "Iridescência de nuvem",
+        "distratores": [
+          "Halo solar",
+          "Raios crepusculares",
+          "Parélio"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Formações de gelo penduradas' é quase a definição de pingente de gelo, então dá para responder sem a figura.",
+      "reescrita": {
+        "pergunta": "Que formações são estas que aparecem na rocha no inverno?",
+        "resposta": "Pingentes de gelo"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O contexto (noite, cachoeira) ajuda sem entregar a resposta, e o trecho confirma que arco-íris lunar ocorre em cachoeiras. O arco-íris comum é descartado pela noite.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Arco esbranquiçado, quase sem cores' define a resposta e vaza a pista. O arco-íris lunar também parece branco a olho nu, então é um distrator defensável como resposta. Arco circum-horizontal é colorido, então é fraco como distrator.",
+      "reescrita": {
+        "pergunta": "Que fenômeno óptico, parecido com o arco-íris, é este?",
+        "resposta": "Arco de neblina",
+        "distratores": [
+          "Halo solar",
+          "Glória",
+          "Arco circum-zenital"
+        ]
+      }
+    }
+  ]
+}

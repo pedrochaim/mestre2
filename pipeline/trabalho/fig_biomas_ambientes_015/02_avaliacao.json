@@ -1,0 +1,130 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Mostra uma nuvem em prateleira sobre o mar, não uma 'tempestade' com resposta única; a entidade do item não se localiza nem se reconhece de forma única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Nuvens com cores de madrepérola perto do Sol, bem reconhecíveis; troquei a família para o_que_e porque 'onde' não rende.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fenômeno óptico dá estas cores de madrepérola às nuvens perto do Sol?",
+      "resposta": "Iridescência de nuvem",
+      "distratores": [
+        "Halo solar",
+        "Glória",
+        "Arco-íris duplo"
+      ],
+      "ancora": {
+        "nome": "Iridescência de nuvem",
+        "descricao": "Fenômeno óptico em que nuvens exibem cores pastel como as de bolhas de sabão, perto do Sol ou da Lua.",
+        "variantes": [
+          "Irisação",
+          "Nuvem iridescente"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Bloco de gelo genérico na praia; a resposta 'gelo' é trivial e pode ser iceberg ou fragmento de geleira, sem resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Grãos brancos sobre um carro, facilmente confundidos com granizo, neve ou gelo; o graupel não é reconhecível de forma única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara de pingentes de gelo numa rocha, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Como se chamam estas formações de gelo penduradas na rocha?",
+      "resposta": "Pingentes de gelo",
+      "ancora": {
+        "nome": "Pingente de gelo",
+        "descricao": "Ponta de gelo formada quando a água que escorre de um objeto congela.",
+        "variantes": [
+          "Pingentes de gelo",
+          "Estalactite de gelo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arco-íris pálido sobre uma cachoeira à noite, com estrelas; reconhecível como arco-íris lunar.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que fenômeno é este, visto numa noite estrelada sobre uma cachoeira?",
+      "resposta": "Arco-íris lunar",
+      "ancora": {
+        "nome": "Arco-íris lunar",
+        "descricao": "Arco-íris produzido pela luz da Lua em gotas de água, em vez da luz direta do Sol.",
+        "variantes": [
+          "Moonbow",
+          "Arco-íris da Lua"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Raios sobre a água não identificam o Catatumbo; qualquer tempestade elétrica pareceria igual, sem resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pôr do sol genérico, sem nada que o distinga de qualquer outro; a pergunta seria trivial ou vaga."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mapa-múndi com manchas amarelas dispersas, difícil de reconhecer como floresta tropical seca e confundível com savana ou outros biomas."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vilarejo costeiro com montanhas, sem elemento que identifique a Patagônia; poderia ser fiorde chileno, norueguês ou outro."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pequeno trecho colorido numa nuvem, facilmente confundido com iridescência de nuvem; resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arco branco e largo na neblina sobre uma colina, bem característico; sem texto, só a sombra do fotógrafo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que fenômeno óptico forma este arco esbranquiçado, quase sem cores?",
+      "resposta": "Arco de neblina",
+      "distratores": [
+        "Arco-íris lunar",
+        "Halo solar",
+        "Arco circum-horizontal"
+      ],
+      "ancora": {
+        "nome": "Arco de neblina",
+        "descricao": "Fenômeno óptico semelhante ao arco-íris, formado por gotículas minúsculas de neblina, de cores muito fracas ou brancas.",
+        "variantes": [
+          "Arco-íris branco",
+          "Fog bow"
+        ]
+      }
+    }
+  ]
+}

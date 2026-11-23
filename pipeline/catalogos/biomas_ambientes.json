@@ -915,7 +915,7 @@
       "titulo": "en:Moonbow",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Virga",
@@ -1230,7 +1230,7 @@
       "titulo": "en:Catatumbo lightning",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Redemoinho de fogo",
@@ -1321,7 +1321,7 @@
       "titulo": "pt:Cerradão",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Nuvem bandeira",
@@ -1342,7 +1342,7 @@
       "titulo": "en:Circumhorizontal arc",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Pó de diamante",
@@ -1396,6 +1396,286 @@
     {
       "nome": "Jökulsárlón",
       "titulo": "en:Jökulsárlón",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pingente de gelo",
+      "titulo": "en:Icicle",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pôr do sol",
+      "titulo": "en:Sunset",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gelo",
+      "titulo": "en:Ice",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tempestade",
+      "titulo": "en:Storm",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mar de nuvens",
+      "titulo": "en:Sea of clouds",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Patagônia",
+      "titulo": "en:Patagonia",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Calota de gelo",
+      "titulo": "en:Ice cap",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta tropical seca",
+      "titulo": "en:Tropical and subtropical dry broadleaf forests",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Altiplano",
+      "titulo": "en:Altiplano",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco de neblina",
+      "titulo": "en:Fog bow",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Iridescência de nuvem",
+      "titulo": "en:Cloud iridescence",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Coroa (fenômeno óptico)",
+      "titulo": "en:Corona (optical phenomenon)",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Nuvem de Kelvin-Helmholtz",
+      "titulo": "en:Kelvin–Helmholtz instability",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Matorral",
+      "titulo": "en:Matorral",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Miombo",
+      "titulo": "en:Miombo",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Puna",
+      "titulo": "en:Puna grassland",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Karoo",
+      "titulo": "en:Karoo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lavrado",
+      "titulo": "pt:Lavrado",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brejo de altitude",
+      "titulo": "pt:Brejo de altitude",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rolo de neve",
+      "titulo": "en:Snow roller",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sastrugi",
+      "titulo": "en:Sastrugi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Graupel",
+      "titulo": "en:Graupel",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Encontro das Águas",
+      "titulo": "en:Meeting of Waters",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapada Diamantina",
+      "titulo": "en:Chapada Diamantina National Park",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estalagmite",
+      "titulo": "en:Stalagmite",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arquipélago de Abrolhos",
+      "titulo": "en:Abrolhos Archipelago",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Atol das Rocas",
+      "titulo": "en:Atol das Rocas",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lagoa Azul (Islândia)",
+      "titulo": "en:Blue Lagoon (geothermal spa)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cavernas de Mármore",
+      "titulo": "en:Marble Caves",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caño Cristales",
+      "titulo": "en:Caño Cristales",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Svalbard",
+      "titulo": "en:Svalbard",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vatnajökull",
+      "titulo": "en:Vatnajökull",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estação Amundsen-Scott",
+      "titulo": "en:Amundsen–Scott South Pole Station",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Poça de lama fervente",
+      "titulo": "en:Mudpot",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vale dos Gêiseres",
+      "titulo": "en:Valley of Geysers",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lost City (campo hidrotermal)",
+      "titulo": "en:Lost City Hydrothermal Field",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Assal",
+      "titulo": "en:Lake Assal (Djibouti)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Abraham",
+      "titulo": "en:Abraham Lake",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha Deception",
+      "titulo": "en:Deception Island",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estação Vostok",
+      "titulo": "en:Vostok Station",
       "camada": 3,
       "destino": 1,
       "status": "nova"
