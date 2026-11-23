@@ -1,0 +1,147 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Dois homens comuns em primeiro plano; a imagem mostra pessoas, não só a peça de roupa."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fileira de letras arcaicas sem texto que entregue a resposta; forma reconhecível, com distratores de outros sistemas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antigo alfabeto da Itália é este?",
+      "resposta": "Alfabeto etrusco",
+      "distratores": [
+        "Alfabeto rúnico",
+        "Alfabeto ogâmico",
+        "Alfabeto glagolítico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alfabeto etrusco",
+        "descricao": "Sistema de escrita usado pelos etruscos, no centro e norte da Itália, de cerca de 700 a.C. até cerca do ano 100.",
+        "variantes": [
+          "Escrita etrusca"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Montagem de muitas lanternas diferentes, aparentemente coreanas e não chinesas, com placa de museu; resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Caractere único estilizado, sem contexto de osso; não é reconhecível como escrita oracular e pode ser confundido com escrita de selo."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Maquete em museu com placa em caracteres chineses que traz o nome (四合院), além de pessoas e vitrines ao redor."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto antiga de duas pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano tocando o instrumento; fora do escopo do catálogo."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Quadro de letras kannada nítido e legível; o título está na própria escrita e não entrega para quem não a lê.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escrita do sul da Índia é esta?",
+      "resposta": "Kannada (canarês)",
+      "distratores": [
+        "Telugu",
+        "Tâmil",
+        "Malaiala"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Escrita canaresa",
+        "descricao": "Abugida da família brâmica usada para escrever o idioma kannada, em Karnataka, no sul da Índia.",
+        "variantes": [
+          "Escrita kannada",
+          "Kannada",
+          "Canarês"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Duas jangadas claras na praia, com a vela triangular característica; as pessoas ao fundo são pequenas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que embarcação a vela é esta?",
+      "resposta": "Jangada",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jangada",
+        "descricao": "Embarcação de madeira com vela triangular usada por pescadores artesanais do Nordeste do Brasil.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Página de manuscrito em escrita glagolítica, forma inconfundível; a linha de cirílico no topo é pequena.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antigo alfabeto eslavo é este?",
+      "resposta": "Alfabeto glagolítico",
+      "distratores": [
+        "Alfabeto gótico",
+        "Alfabeto rúnico",
+        "Alfabeto armênio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alfabeto glagolítico",
+        "descricao": "Mais antigo alfabeto eslavo conhecido, criado no século nove para traduzir textos litúrgicos gregos para o eslavo eclesiástico.",
+        "variantes": [
+          "Glagolítico",
+          "Escrita glagolítica"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A foto mostra um tamanco-sandália de estilo sueco, não um tamanco holandês; resposta não sustentada pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Boneca kokeshi isolada, nítida e inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que boneca tradicional do Japão é esta?",
+      "resposta": "Kokeshi",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kokeshi",
+        "descricao": "Boneca japonesa tradicional de madeira, sem braços nem pernas, originária da região de Tohoku.",
+        "variantes": [
+          "Boneca kokeshi"
+        ]
+      }
+    }
+  ]
+}

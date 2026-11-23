@@ -437901,5 +437901,74 @@
       "licenca": "CC BY 4.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q22023",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "escrita_canaresa",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que escrita do sul da Índia é esta?",
+    "resposta": "Kannada (canarês)",
+    "distratores": [
+      "Telugu",
+      "Tâmil",
+      "Malaiala"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kannada_script"
+    ],
+    "imagem": {
+      "arquivo": "q22023.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kannada_aksharamala.png",
+      "autor": "Symphonicallyu",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q22024",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_glagolitico",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que antigo alfabeto eslavo é este?",
+    "resposta": "Alfabeto glagolítico",
+    "distratores": [
+      "Alfabeto gótico",
+      "Alfabeto rúnico",
+      "Alfabeto armênio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Glagolitic_script",
+      "https://pt.wikipedia.org/wiki/Alfabeto_glagol%C3%ADtico"
+    ],
+    "imagem": {
+      "arquivo": "q22024.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:ZografskiyKodeks.png",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q22025",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "kokeshi",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que boneca tradicional do Japão é esta?",
+    "resposta": "Kokeshi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kokeshi",
+      "https://pt.wikipedia.org/wiki/Kokeshi"
+    ],
+    "imagem": {
+      "arquivo": "q22025.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kokeshi_1.JPG",
+      "autor": "Boberger",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

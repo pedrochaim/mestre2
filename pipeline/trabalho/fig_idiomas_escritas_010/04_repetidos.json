@@ -1,0 +1,60 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que embarcação a vela é esta?",
+        "resposta": "Jangada"
+      },
+      "existentes": [
+        {
+          "id": "q02305",
+          "pergunta": "Como se chamam os pescadores artesanais que navegam nestas embarcações de madeira do litoral nordestino?",
+          "resposta": "Jangadeiros"
+        },
+        {
+          "id": "q03648",
+          "pergunta": "Que embarcação artesanal de pesca à vela, feita de madeira, é esta?",
+          "resposta": "Jangada"
+        },
+        {
+          "id": "q16002",
+          "pergunta": "Em 1941, uma jangada saiu de Fortaleza e navegou até o Rio para levar as reivindicações dos pescadores a Getúlio Vargas. Quantos jangadeiros estavam a bordo?",
+          "resposta": "Quatro"
+        },
+        {
+          "id": "q17153",
+          "pergunta": "Em 1941, quatro jangadeiros cearenses navegaram de jangada até o Rio para levar reivindicações a Getúlio Vargas. Que cineasta americano foi filmar a história deles?",
+          "resposta": "Orson Welles"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que boneca tradicional do Japão é esta?",
+        "resposta": "Kokeshi"
+      },
+      "existentes": [
+        {
+          "id": "q21878",
+          "pergunta": "Esta boneca tradicional japonesa é originária de qual região do país?",
+          "resposta": "Tohoku"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03648",
+      "motivo": "Ambas pedem o nome da embarcação à vela mostrada (jangada)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome da boneca (Kokeshi); a existente pede a região de origem (Tohoku), que é outro fato."
+    }
+  ]
+}
