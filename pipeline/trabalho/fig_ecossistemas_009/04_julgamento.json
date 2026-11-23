@@ -1,0 +1,570 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tempestade de areia",
+        "descricao": "Fenômeno meteorológico em que ventos fortes levantam areia e poeira de superfícies secas, comum em regiões áridas.",
+        "variantes": [
+          "Tempestade de poeira",
+          "Haboob"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "haboob",
+          "nome": "Haboob",
+          "descricao": "Intensa tempestade de poeira gerada pelas rajadas descendentes de uma tempestade.",
+          "variantes": [
+            "Habub",
+            "Tempestade de poeira"
+          ]
+        },
+        {
+          "id": "tempestade_de_areia",
+          "nome": "Tempestade de areia",
+          "descricao": "Fenômeno meteorológico em que ventos fortes levantam areia e poeira de superfícies secas, comum em regiões áridas.",
+          "variantes": [
+            "Tempestade de poeira",
+            "Haboob"
+          ]
+        },
+        {
+          "id": "volkssturm",
+          "nome": "Volkssturm",
+          "descricao": "Milícia nacional criada pela Alemanha nazista em outubro de 1944 para a defesa final do país.",
+          "variantes": [
+            "Tempestade do Povo"
+          ]
+        },
+        {
+          "id": "trovoada",
+          "nome": "Trovoada",
+          "descricao": "Tempestade com raios e trovões, formada em nuvens cumulonimbus.",
+          "variantes": [
+            "Tempestade elétrica",
+            "Tempestade com raios"
+          ]
+        },
+        {
+          "id": "virga",
+          "nome": "Virga",
+          "descricao": "Faixa de precipitação que evapora ou sublima antes de chegar ao solo.",
+          "variantes": [
+            "Virgas",
+            "Tempestade seca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Delicate Arch",
+        "descricao": "Arco natural de arenito vermelho no Parque Nacional dos Arcos, em Utah, Estados Unidos.",
+        "variantes": [
+          "Arco natural",
+          "Arco Delicado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "delicate_arch",
+          "nome": "Delicate Arch",
+          "descricao": "Arco natural de arenito isolado no Parque Nacional dos Arcos, perto de Moab, nos Estados Unidos.",
+          "variantes": [
+            "Arco Delicado"
+          ]
+        },
+        {
+          "id": "arco_natural",
+          "nome": "Arco natural",
+          "descricao": "Formação rochosa em que a erosão abriu uma passagem sob uma ponte de rocha, como o Delicate Arch, em Utah.",
+          "variantes": [
+            "Arco de pedra",
+            "Ponte natural",
+            "Natural arch"
+          ]
+        },
+        {
+          "id": "gas_natural",
+          "nome": "Gás natural",
+          "descricao": "Combustível fóssil gasoso formado sobretudo por metano, usado em usinas, indústrias, veículos e residências.",
+          "variantes": [
+            "GNV",
+            "Gás natural encanado"
+          ]
+        },
+        {
+          "id": "hovercraft",
+          "nome": "Hovercraft",
+          "descricao": "Veículo anfíbio que se sustenta sobre um colchão de ar produzido por ventiladores, também chamado de aerodeslizador.",
+          "variantes": [
+            "Aerodeslizador",
+            "Veículo sobre colchão de ar",
+            "Air-cushion vehicle"
+          ]
+        },
+        {
+          "id": "arco_de_cabo_san_lucas",
+          "nome": "Arco de Cabo San Lucas",
+          "descricao": "Arco de granito no extremo sul da península da Baja California, no México, onde o Pacífico encontra o Golfo da Califórnia.",
+          "variantes": [
+            "El Arco",
+            "Arco de Los Cabos",
+            "Arch of Cabo San Lucas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Chaminé de fadas",
+        "descricao": "Coluna de rocha ou sedimento esculpida pela erosão, protegida no topo por uma pedra mais dura.",
+        "variantes": [
+          "Hoodoo",
+          "Pirâmide de terra",
+          "Chaminé de fada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chamine_de_fada",
+          "nome": "Chaminé de fada",
+          "descricao": "Pilar de rocha mole esculpido pela erosão, coberto por um bloco mais duro no topo.",
+          "variantes": [
+            "Hoodoo",
+            "Pirâmide de terra",
+            "Tent rock"
+          ]
+        },
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        },
+        {
+          "id": "piramides_de_meroe",
+          "nome": "Pirâmides de Méroe",
+          "descricao": "Conjunto de pirâmides núbias erguidas pelos reis de Cuxe perto da antiga cidade de Méroe.",
+          "variantes": [
+            "Pirâmides núbias",
+            "Meroë pyramids"
+          ]
+        },
+        {
+          "id": "piramide_de_ball",
+          "nome": "Pirâmide de Ball",
+          "descricao": "Ilhéu rochoso vulcânico no Pacífico, a sudeste da Ilha Lord Howe, o maior pináculo vulcânico do mundo.",
+          "variantes": [
+            "Ball's Pyramid"
+          ]
+        },
+        {
+          "id": "piramide_de_quefren",
+          "nome": "Pirâmide de Quéfren",
+          "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Khafre",
+            "Pyramid of Khafre",
+            "Pirâmide de Chefren"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Círculos de fadas",
+        "descricao": "Manchas circulares sem vegetação em pastagens áridas do deserto do Namibe, na Namíbia, de origem debatida.",
+        "variantes": [
+          "Fairy circles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circulo_de_pedras",
+          "nome": "Círculo de pedras",
+          "descricao": "Anel de pedras eretas megalíticas, típico do Neolítico tardio e da Idade do Bronze inicial na Europa.",
+          "variantes": [
+            "Stone circle",
+            "Cromlech"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        },
+        {
+          "id": "avebury",
+          "nome": "Avebury",
+          "descricao": "Vila inglesa em Wiltshire construída em parte dentro de um grande círculo de pedras neolítico.",
+          "variantes": [
+            "Círculo de Avebury"
+          ]
+        },
+        {
+          "id": "anel_de_brodgar",
+          "nome": "Anel de Brodgar",
+          "descricao": "Círculo de pedras neolítico com henge na ilha principal das Órcades, Escócia.",
+          "variantes": [
+            "Ring of Brodgar",
+            "Círculo de Brodgar"
+          ]
+        },
+        {
+          "id": "ciclismo_de_estrada",
+          "nome": "Ciclismo de estrada",
+          "descricao": "Modalidade de ciclismo competitivo disputada em ruas e estradas, com chegada em pelotão.",
+          "variantes": [
+            "Ciclismo",
+            "Ciclismo de rua",
+            "Road bicycle racing"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Coluna de luz",
+        "descricao": "Fenômeno óptico atmosférico em que cristais de gelo refletem uma fonte de luz, criando um feixe vertical.",
+        "variantes": [
+          "Pilar de luz",
+          "Light pillar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pilar_de_luz",
+          "nome": "Pilar de luz",
+          "descricao": "Fenômeno óptico em que um feixe vertical de luz parece se estender de uma fonte luminosa, por reflexão em cristais de gelo.",
+          "variantes": [
+            "Pilar de gelo",
+            "Light pillar"
+          ]
+        },
+        {
+          "id": "coluna_de_nelson",
+          "nome": "Coluna de Nelson",
+          "descricao": "Coluna monumental no centro da Trafalgar Square, em Londres, em homenagem ao almirante Horatio Nelson.",
+          "variantes": [
+            "Nelson's Column"
+          ]
+        },
+        {
+          "id": "sabre_de_luz",
+          "nome": "Sabre de luz",
+          "descricao": "Arma de lâmina de energia usada pelos Jedi e Sith na franquia Star Wars.",
+          "variantes": [
+            "Lightsaber"
+          ]
+        },
+        {
+          "id": "pingo",
+          "nome": "Pingo",
+          "descricao": "Colina cônica com núcleo de gelo que se forma em regiões de permafrost no Ártico e subártico.",
+          "variantes": [
+            "Pingos",
+            "Colina de gelo"
+          ]
+        },
+        {
+          "id": "silbury_hill",
+          "nome": "Silbury Hill",
+          "descricao": "Montículo artificial de giz neolítico perto de Avebury, em Wiltshire, Inglaterra, o maior da Europa.",
+          "variantes": [
+            "Colina de Silbury"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gelo-agulha",
+        "descricao": "Colunas finas de gelo formadas por água subterrânea que sobe ao solo e congela quando o ar está abaixo de zero.",
+        "variantes": [
+          "Needle ice",
+          "Gelo em agulhas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carcaju",
+          "nome": "Carcaju",
+          "descricao": "Maior mustelídeo terrestre (Gulo gulo), carnívoro solitário do hemisfério norte.",
+          "variantes": [
+            "Glutão",
+            "Wolverine",
+            "Gulo gulo"
+          ]
+        },
+        {
+          "id": "gargula",
+          "nome": "Gárgula",
+          "descricao": "Escultura grotesca no alto de edifícios, sobretudo catedrais góticas, que serve de bica para a água do telhado.",
+          "variantes": [
+            "Gargoyle"
+          ]
+        },
+        {
+          "id": "indeedee",
+          "nome": "Indeedee",
+          "descricao": "Pokémon dos tipos Psíquico e Normal, número 876 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "clepsidra",
+          "nome": "Clepsidra",
+          "descricao": "Relógio de água usado na Grécia Antiga, entre outras funções, para marcar o tempo dos discursos nos tribunais de Atenas.",
+          "variantes": [
+            "Relógio de água",
+            "Clepsydra",
+            "Water clock"
+          ]
+        },
+        {
+          "id": "fernao_de_magalhaes",
+          "nome": "Fernão de Magalhães",
+          "descricao": "Navegador português que liderou a expedição que realizou a primeira circum-navegação da Terra.",
+          "variantes": [
+            "Fernando de Magalhães",
+            "Ferdinand Magellan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Floco de neve",
+        "descricao": "Cristal de gelo grande o bastante para cair pela atmosfera como neve.",
+        "variantes": [
+          "Cristal de neve",
+          "Snowflake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "floco_de_neve",
+          "nome": "Floco de neve",
+          "descricao": "Cristal de gelo que se forma nas nuvens e cai como neve",
+          "variantes": [
+            "Snowflake"
+          ]
+        },
+        {
+          "id": "floco_de_neve_o_gorila_albino",
+          "nome": "Floco de Neve, o gorila albino",
+          "descricao": "Gorila-das-planícies-ocidentais de pelagem branca, único conhecido, que viveu no Zoológico de Barcelona até 2003.",
+          "variantes": [
+            "Floquet de Neu",
+            "Copito de Nieve",
+            "Snowflake"
+          ]
+        },
+        {
+          "id": "vidro_de_murano",
+          "nome": "Vidro de Murano",
+          "descricao": "Vidro artesanal produzido na ilha de Murano, em Veneza, desde a Idade Média.",
+          "variantes": [
+            "Cristal de Murano"
+          ]
+        },
+        {
+          "id": "oculos_de_neve",
+          "nome": "Óculos de neve",
+          "descricao": "Óculos tradicionais de osso ou madeira com fendas estreitas, usados no Ártico contra o brilho da neve.",
+          "variantes": []
+        },
+        {
+          "id": "sao_cristovao_e_nevis",
+          "nome": "São Cristóvão e Névis",
+          "descricao": "País insular do Caribe, o menor das Américas, com capital em Basseterre.",
+          "variantes": [
+            "Saint Kitts e Nevis",
+            "São Cristóvão e Neves"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tromba-d'água",
+        "descricao": "Coluna de ar em rotação sobre a água, ligada a uma nuvem cumuliforme.",
+        "variantes": [
+          "Tromba de água",
+          "Waterspout"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tromba_d_agua",
+          "nome": "Tromba d'água",
+          "descricao": "Coluna de ar em rotação sobre uma massa de água, ligada a uma nuvem cumuliforme.",
+          "variantes": [
+            "Waterspout"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        },
+        {
+          "id": "gota_d_agua_peca",
+          "nome": "Gota d'Água (peça)",
+          "descricao": "Peça de Chico Buarque e Paulo Pontes, de 1975, ambientada num conjunto habitacional do Rio de Janeiro.",
+          "variantes": [
+            "Gota d'Água"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Geada",
+        "descricao": "Camada de gelo formada pelo vapor de água que se deposita sobre superfícies abaixo de zero.",
+        "variantes": [
+          "Frost",
+          "Gelo de deposição"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "geada",
+          "nome": "Geada",
+          "descricao": "Camada de cristais de gelo formada pela deposição de vapor de água sobre superfícies congeladas.",
+          "variantes": [
+            "Gelo",
+            "Frost"
+          ]
+        },
+        {
+          "id": "gelada",
+          "nome": "Gelada",
+          "descricao": "Macaco do Velho Mundo das terras altas da Etiópia, Theropithecus gelada, com mancha vermelha no peito.",
+          "variantes": [
+            "Babuíno-gelada",
+            "Theropithecus gelada"
+          ]
+        },
+        {
+          "id": "bifrost",
+          "nome": "Bifröst",
+          "descricao": "Na mitologia nórdica, a ponte que liga Asgard, a morada dos deuses, a Midgard, o mundo dos humanos.",
+          "variantes": [
+            "Bilröst"
+          ]
+        },
+        {
+          "id": "granada",
+          "nome": "Granada",
+          "descricao": "País insular do Caribe oriental, a ilha das especiarias, com capital em St. George's.",
+          "variantes": [
+            "Grenada"
+          ]
+        },
+        {
+          "id": "frosmoth",
+          "nome": "Frosmoth",
+          "descricao": "Pokémon dos tipos Gelo e Inseto, número 873 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "tempestade_de_areia",
+      "motivo": "Nome e descrição idênticos à candidata existente."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "delicate_arch",
+      "motivo": "Mesmo arco natural no Parque Nacional dos Arcos, Utah."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "chamine_de_fada",
+      "motivo": "Mesma formação (hoodoo), variantes e descrição equivalentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Círculos de fadas da Namíbia não correspondem a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "pilar_de_luz",
+      "motivo": "Mesmo fenômeno óptico (light pillar) por cristais de gelo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Gelo-agulha não aparece entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "floco_de_neve",
+      "motivo": "Mesmo conceito: cristal de gelo que cai como neve, não o gorila."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "tromba_d_agua",
+      "motivo": "Mesmo fenômeno, waterspout, com descrição equivalente."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "geada",
+      "motivo": "Mesmo fenômeno: gelo por deposição de vapor sobre superfícies frias."
+    }
+  ]
+}

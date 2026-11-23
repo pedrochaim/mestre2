@@ -1,0 +1,115 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro, não nomeia a resposta e a figura é necessária para identificar o fenômeno.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'em Utah' entrega a rocha (arcos de Utah são de arenito) sem olhar a figura. Tirei a pista de lugar. O arenito do Delicate Arch é amplamente documentado.",
+      "reescrita": {
+        "pergunta": "Que tipo de rocha forma este arco natural, esculpido pela erosão?",
+        "resposta": "Arenito",
+        "distratores": [
+          "Granito",
+          "Basalto",
+          "Mármore"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado reproduz a definição da formação (rocha dura no topo da coluna), então dá para responder com a imagem coberta. Tirei a descrição.",
+      "reescrita": {
+        "pergunta": "Que formação rochosa é esta, esculpida pela erosão?",
+        "resposta": "Chaminé de fadas",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'manchas circulares de terra nua em pastagens áridas' é a definição do fenômeno e entrega a resposta. Troquei por pista de lugar e origem debatida, que ajudam sem entregar.",
+      "reescrita": {
+        "pergunta": "Que fenômeno intrigante é este, de origem ainda debatida, visto no deserto do Namibe, na Namíbia?",
+        "resposta": "Círculos de fadas",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'sobre as luzes de um povoado gelado' é detalhe da foto que não consta em 'mostra' e descreve o fenômeno. Simplifiquei o enunciado.",
+      "reescrita": {
+        "pergunta": "Que fenômeno atmosférico é este?",
+        "resposta": "Coluna de luz",
+        "distratores": [
+          "Aurora boreal",
+          "Halo solar",
+          "Arco-íris lunar"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'brota do solo úmido em noites frias' descreve o mecanismo do gelo-agulha e entrega a resposta. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que tipo de gelo é este, observado sobre o solo?",
+        "resposta": "Gelo-agulha",
+        "distratores": [
+          "Gelo-panqueca",
+          "Granizo",
+          "Orvalho congelado"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento, e a figura é necessária. A resposta é única e específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'sobre o mar' não é confirmado por 'mostra', que diz só 'sobre a água' (podia ser um lago). Simplifiquei o enunciado.",
+      "reescrita": {
+        "pergunta": "Que fenômeno natural é este?",
+        "resposta": "Tromba-d'água",
+        "distratores": [
+          "Furacão",
+          "Tsunami",
+          "Ressaca"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'nas barras de uma grade' é detalhe da foto que não consta em 'mostra' e pode ser falso. Tirei o detalhe.",
+      "reescrita": {
+        "pergunta": "Que cobertura de gelo é esta?",
+        "resposta": "Geada",
+        "distratores": [
+          "Granizo",
+          "Orvalho",
+          "Nevoeiro"
+        ]
+      }
+    }
+  ]
+}

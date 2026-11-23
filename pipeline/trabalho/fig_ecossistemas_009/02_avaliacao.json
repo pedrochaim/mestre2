@@ -1,0 +1,219 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Muralha de poeira avançando sobre um acampamento, claramente reconhecível; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno natural é este, que avança sobre regiões áridas?",
+      "resposta": "Tempestade de areia",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tempestade de areia",
+        "descricao": "Fenômeno meteorológico em que ventos fortes levantam areia e poeira de superfícies secas, comum em regiões áridas.",
+        "variantes": [
+          "Tempestade de poeira",
+          "Haboob"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A foto mostra a coluna de erupção do Monte St. Helens, não um fluxo piroclástico visível; a entidade não corresponde à imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Raios sobre um lago não permitem reconhecer o Relâmpago do Catatumbo; poderia ser qualquer tempestade, sem resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Delicate Arch, arco de arenito vermelho nítido, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de rocha forma este arco, esculpido pela erosão em Utah?",
+      "resposta": "Arenito",
+      "distratores": [
+        "Granito",
+        "Basalto",
+        "Mármore"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Delicate Arch",
+        "descricao": "Arco natural de arenito vermelho no Parque Nacional dos Arcos, em Utah, Estados Unidos.",
+        "variantes": [
+          "Arco Delicado",
+          "Arco natural"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Colunas de erosão com pedra no topo, típicas; reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que formação de erosão é esta, com uma rocha dura equilibrada no topo de cada coluna?",
+      "resposta": "Chaminé de fadas",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chaminé de fadas",
+        "descricao": "Coluna de rocha ou sedimento esculpida pela erosão, protegida no topo por uma pedra mais dura.",
+        "variantes": [
+          "Hoodoo",
+          "Pirâmide de terra",
+          "Chaminé de fada"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Paisagem da Namíbia com manchas circulares de terra nua cercadas por capim, característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno é este, de manchas circulares de terra nua em pastagens áridas?",
+      "resposta": "Círculos de fadas",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Círculos de fadas",
+        "descricao": "Manchas circulares sem vegetação em pastagens áridas do deserto do Namibe, na Namíbia, de origem debatida.",
+        "variantes": [
+          "Fairy circles"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Feixes verticais de luz sobre luzes de um povoado, bem visíveis; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno atmosférico é este, visto sobre as luzes de um povoado gelado?",
+      "resposta": "Coluna de luz",
+      "distratores": [
+        "Aurora boreal",
+        "Halo solar",
+        "Arco-íris lunar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coluna de luz",
+        "descricao": "Fenômeno óptico atmosférico em que cristais de gelo refletem uma fonte de luz, criando um feixe vertical.",
+        "variantes": [
+          "Pilar de luz",
+          "Light pillar"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Colunas finas e translúcidas de gelo brotando do solo, claras.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de gelo é este, que brota do solo úmido em noites frias?",
+      "resposta": "Gelo-agulha",
+      "distratores": [
+        "Gelo-panqueca",
+        "Granizo",
+        "Orvalho congelado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gelo-agulha",
+        "descricao": "Colunas finas de gelo formadas por água subterrânea que sobe ao solo e congela quando o ar está abaixo de zero.",
+        "variantes": [
+          "Needle ice",
+          "Gelo em agulhas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cristal de neve em macrofotografia, nítido e inconfundível; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "O que é esta estrutura de gelo, fotografada em grande aumento?",
+      "resposta": "Floco de neve",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Floco de neve",
+        "descricao": "Cristal de gelo grande o bastante para cair pela atmosfera como neve.",
+        "variantes": [
+          "Cristal de neve",
+          "Snowflake"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Coluna giratória ligando nuvem ao mar, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno é este, visto sobre o mar?",
+      "resposta": "Tromba-d'água",
+      "distratores": [
+        "Furacão",
+        "Tsunami",
+        "Ressaca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tromba-d'água",
+        "descricao": "Coluna de ar em rotação sobre a água, ligada a uma nuvem cumuliforme.",
+        "variantes": [
+          "Tromba de água",
+          "Waterspout"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem é minúscula e em tons de cinza, parece microscopia de grãos; não mostra gelo-panqueca e não é legível no celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cristais de gelo nas barras de uma grade, claros; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cobertura de gelo é esta, formada nas barras de uma grade?",
+      "resposta": "Geada",
+      "distratores": [
+        "Granizo",
+        "Orvalho",
+        "Nevoeiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Geada",
+        "descricao": "Camada de gelo formada pelo vapor de água que se deposita sobre superfícies abaixo de zero.",
+        "variantes": [
+          "Frost",
+          "Gelo de deposição"
+        ]
+      }
+    }
+  ]
+}

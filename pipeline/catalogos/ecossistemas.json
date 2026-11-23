@@ -75,7 +75,7 @@
       "titulo": "en:Catatumbo lightning",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Olho do Saara",
@@ -593,7 +593,7 @@
       "titulo": "en:Waterspout",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Antelope Canyon",
@@ -635,7 +635,7 @@
       "titulo": "en:Light pillar",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Lava em almofada",
@@ -839,6 +839,286 @@
       "camada": 3,
       "destino": 2,
       "status": "usada"
+    },
+    {
+      "nome": "Geada",
+      "titulo": "en:Frost",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Granizo",
+      "titulo": "en:Hail",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tempestade de areia",
+      "titulo": "en:Dust storm",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Floco de neve",
+      "titulo": "en:Snowflake",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Miragem",
+      "titulo": "en:Mirage",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco natural",
+      "titulo": "en:Natural arch",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fluxo piroclástico",
+      "titulo": "en:Pyroclastic flow",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tubo de lava",
+      "titulo": "en:Lava tube",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chaminé de fadas",
+      "titulo": "en:Hoodoo (geology)",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gelo-agulha",
+      "titulo": "en:Needle ice",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nuvem noctilucente",
+      "titulo": "en:Noctilucent cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Círculos de fadas",
+      "titulo": "en:Fairy circle (arid grass formation)",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gelo-panqueca",
+      "titulo": "en:Pancake ice",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nuvem Morning Glory",
+      "titulo": "en:Morning Glory cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pelicano",
+      "titulo": "en:Pelican",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caranguejo-uçá",
+      "titulo": "en:Ucides cordatus",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caranguejo-real-vermelho",
+      "titulo": "en:Red king crab",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Baleia-minke",
+      "titulo": "en:Common minke whale",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Peixe-trombeta",
+      "titulo": "en:Trumpetfish",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Atobá-pardo",
+      "titulo": "en:Brown booby",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Porcelana (cauri)",
+      "titulo": "en:Cowry",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lula-de-humboldt",
+      "titulo": "en:Humboldt squid",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Peixe-sapo",
+      "titulo": "en:Frogfish",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cavalo-marinho-pigmeu",
+      "titulo": "en:Pygmy seahorse",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Polvo-de-coco",
+      "titulo": "en:Veined octopus",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cesto-de-flores-de-vênus",
+      "titulo": "en:Euplectella aspergillum",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Anjo-do-mar",
+      "titulo": "en:Sea angel",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Begônia",
+      "titulo": "en:Begonia",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Dália",
+      "titulo": "en:Dahlia",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Trevo-de-quatro-folhas",
+      "titulo": "en:Four-leaf clover",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Coroa-de-frade",
+      "titulo": "en:Melocactus",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Babaçu",
+      "titulo": "en:Attalea speciosa",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Glicínia",
+      "titulo": "en:Wisteria",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Sumaúma",
+      "titulo": "en:Ceiba pentandra",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Ora-pro-nóbis",
+      "titulo": "en:Pereskia aculeata",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bufa-de-lobo",
+      "titulo": "en:Puffball",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cogumelo-barbudo",
+      "titulo": "en:Coprinus comatus",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Fungo casca-de-laranja",
+      "titulo": "en:Aleuria aurantia",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Planta-cobra (Darlingtonia)",
+      "titulo": "en:Darlingtonia californica",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Rosa-de-jericó",
+      "titulo": "en:Selaginella lepidophylla",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
     }
   ]
 }
