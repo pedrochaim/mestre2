@@ -1,0 +1,522 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Roda de oração",
+        "descricao": "Cilindro giratório budista tibetano com mantras escritos, cujo giro equivale à recitação.",
+        "variantes": [
+          "Roda de oração tibetana",
+          "Mani wheel",
+          "Prayer wheel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roda_de_oracao",
+          "nome": "Roda de oração",
+          "descricao": "Cilindro budista, comum no Tibete, que contém mantras e é girado como forma de recitação.",
+          "variantes": [
+            "Roda de mani",
+            "Mani wheel",
+            "Prayer wheel"
+          ]
+        },
+        {
+          "id": "bandeiras_de_oracao_tibetanas",
+          "nome": "Bandeiras de oração tibetanas",
+          "descricao": "Tecidos retangulares coloridos com textos sagrados, pendurados em cordas nas montanhas do Himalaia.",
+          "variantes": [
+            "Bandeiras de oração",
+            "Lung ta"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        },
+        {
+          "id": "galocha",
+          "nome": "Galocha",
+          "descricao": "Bota impermeável de borracha, de cano alto, usada na chuva e no trabalho no campo.",
+          "variantes": [
+            "Bota de borracha",
+            "Wellington boot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Thaana",
+        "descricao": "Sistema de escrita da língua divehi (maldivense), usado nas Maldivas.",
+        "variantes": [
+          "Tãna",
+          "Taana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "tanach",
+          "nome": "Tanach",
+          "descricao": "Conjunto das escrituras sagradas do judaísmo, a Bíblia hebraica",
+          "variantes": [
+            "Tanakh",
+            "Bíblia hebraica"
+          ]
+        },
+        {
+          "id": "tahine",
+          "nome": "Tahine",
+          "descricao": "Pasta de sementes de gergelim moídas, usada no homus e em molhos do Oriente Médio.",
+          "variantes": [
+            "Tahini",
+            "Tahina"
+          ]
+        },
+        {
+          "id": "tenia_solitaria",
+          "nome": "Tênia (solitária)",
+          "descricao": "Platelminto parasita intestinal do gênero Taenia, com escólex dotado de ventosas e ganchos.",
+          "variantes": [
+            "Solitária",
+            "Taenia solium",
+            "Taenia",
+            "Tapeworm"
+          ]
+        },
+        {
+          "id": "katana",
+          "nome": "Katana",
+          "descricao": "Espada japonesa de lâmina curva e um só gume, usada pelos samurais.",
+          "variantes": [
+            "Catana",
+            "Uchigatana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tomahawk",
+        "descricao": "Machadinha de uma mão usada por vários povos indígenas da América do Norte.",
+        "variantes": [
+          "Tomahawk de cachimbo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toalha",
+          "nome": "Toalha",
+          "descricao": "Peça de tecido absorvente usada para secar o corpo ou superfícies, aqui uma toalha de praia.",
+          "variantes": [
+            "Toalha de praia",
+            "Toalha de banho"
+          ]
+        },
+        {
+          "id": "tony_hawk",
+          "nome": "Tony Hawk",
+          "descricao": "Skatista profissional americano, um dos nomes mais famosos do skate vertical.",
+          "variantes": [
+            "Anthony Frank Hawk"
+          ]
+        },
+        {
+          "id": "tom_hanks",
+          "nome": "Tom Hanks",
+          "descricao": "Ator e cineasta americano, vencedor de dois Oscars de melhor ator.",
+          "variantes": [
+            "Thomas Jeffrey Hanks"
+          ]
+        },
+        {
+          "id": "batalha_de_acio",
+          "nome": "Batalha de Ácio",
+          "descricao": "Batalha naval de 31 antes de Cristo, na costa da Grécia, em que Otaviano derrotou Marco Antônio e Cleópatra.",
+          "variantes": [
+            "Batalha de Actium",
+            "Battle of Actium"
+          ]
+        },
+        {
+          "id": "batalha_de_acaba",
+          "nome": "Batalha de Ácaba",
+          "descricao": "Ataque de julho de 1917 em que forças da Revolta Árabe, com participação de T. E. Lawrence, tomaram dos otomanos o porto de Ácaba.",
+          "variantes": [
+            "Battle of Aqaba",
+            "Tomada de Ácaba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Batik",
+        "descricao": "Tecido estampado com a técnica de reserva por cera, tradicional da Indonésia.",
+        "variantes": [
+          "Batique"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "batik",
+          "nome": "Batik",
+          "descricao": "Técnica de tingimento de tecidos com reserva de cera, típica da Indonésia, e o tecido assim produzido.",
+          "variantes": [
+            "Batique"
+          ]
+        },
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "bastet",
+          "nome": "Bastet",
+          "descricao": "Deusa egípcia protetora do lar, cultuada sobretudo na cidade de Bubástis",
+          "variantes": [
+            "Bast",
+            "Bastit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hórreo",
+        "descricao": "Celeiro tradicional elevado sobre pilares do noroeste da Península Ibérica, para guardar grãos.",
+        "variantes": [
+          "Espigueiro",
+          "Hórreo galego"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oreo",
+          "nome": "Oreo",
+          "descricao": "Biscoito de chocolate recheado com creme branco, lançado pela americana Nabisco em Nova York.",
+          "variantes": [
+            "Biscoito Oreo"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó",
+            "Forró pé de serra"
+          ]
+        },
+        {
+          "id": "l_orfeo",
+          "nome": "L'Orfeo",
+          "descricao": "Ópera de Claudio Monteverdi sobre o mito de Orfeu, estreada em Mântua em 1607.",
+          "variantes": [
+            "Orfeo",
+            "Orfeu (Monteverdi)",
+            "L'Orfeo, favola in musica",
+            "L'Orfeo de Monteverdi"
+          ]
+        },
+        {
+          "id": "thor",
+          "nome": "Thor",
+          "descricao": "Deus nórdico do trovão, filho de Odin, que empunha o martelo Mjölnir.",
+          "variantes": [
+            "Thórr",
+            "Tor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Olho grego",
+        "descricao": "Amuleto de vidro azul em forma de olho, contra o mau-olhado, comum na Turquia e na Grécia.",
+        "variantes": [
+          "Nazar",
+          "Olho turco",
+          "Nazar boncuğu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "olho_grego",
+          "nome": "Olho grego",
+          "descricao": "Amuleto de vidro em forma de olho azul, usado para proteger contra o mau-olhado, comum na Turquia e na Grécia.",
+          "variantes": [
+            "Olho turco",
+            "Nazar",
+            "Nazar boncuğu",
+            "Máti"
+          ]
+        },
+        {
+          "id": "praia_do_norte_nazare",
+          "nome": "Praia do Norte (Nazaré)",
+          "descricao": "Praia da vila portuguesa de Nazaré, famosa pelas ondas gigantes surfadas no inverno.",
+          "variantes": [
+            "Nazaré"
+          ]
+        },
+        {
+          "id": "el_greco",
+          "nome": "El Greco",
+          "descricao": "Pintor nascido na Grécia, que fez carreira em Toledo, na Espanha, e viveu de 1541 a 1614.",
+          "variantes": [
+            "Doménikos Theotokópoulos",
+            "O Grego"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "o_banho_turco",
+          "nome": "O Banho Turco",
+          "descricao": "Pintura circular a óleo de Ingres, finalizada em 1862, que mostra mulheres nuas num banho de harém.",
+          "variantes": [
+            "O Banho Turco (Ingres)",
+            "Le Bain turc",
+            "The Turkish Bath",
+            "Banho Turco de Ingres"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Escrita cuneiforme",
+        "descricao": "Sistema de escrita em forma de cunha, nascido na Mesopotâmia e gravado em argila.",
+        "variantes": [
+          "Cuneiforme"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escrita_cuneiforme",
+          "nome": "Escrita cuneiforme",
+          "descricao": "Sistema de escrita criado na Mesopotâmia, com sinais marcados em tabuletas de argila.",
+          "variantes": [
+            "Cuneiforme",
+            "Cuneiform"
+          ]
+        },
+        {
+          "id": "silabario_cherokee",
+          "nome": "Silabário cherokee",
+          "descricao": "Sistema de escrita da língua cherokee, criado no início do século dezenove.",
+          "variantes": [
+            "Cherokee syllabary",
+            "Escrita cherokee"
+          ]
+        },
+        {
+          "id": "bandeira_do_canada",
+          "nome": "Bandeira do Canadá",
+          "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro.",
+          "variantes": [
+            "Maple Leaf",
+            "Unifolié"
+          ]
+        },
+        {
+          "id": "alfabeto_armenio",
+          "nome": "Alfabeto armênio",
+          "descricao": "Alfabeto criado por volta do ano 405 por Mesrop Mashtots para escrever o armênio.",
+          "variantes": [
+            "Escrita armênia"
+          ]
+        },
+        {
+          "id": "escrita_n_ko",
+          "nome": "Escrita N'Ko",
+          "descricao": "Alfabeto criado por Solomana Kanté em 1949 para as línguas mandingas da África Ocidental.",
+          "variantes": [
+            "Nko",
+            "Alfabeto N'Ko"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Balalaica",
+        "descricao": "Instrumento de cordas russo de corpo triangular e três cordas.",
+        "variantes": [
+          "Balalaika"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balalaica",
+          "nome": "Balalaica",
+          "descricao": "Instrumento de cordas russo, de corpo triangular e três cordas.",
+          "variantes": [
+            "Balalaika"
+          ]
+        },
+        {
+          "id": "balaclava",
+          "nome": "Balaclava",
+          "descricao": "Gorro de lã que cobre a cabeça e o pescoço, deixando só o rosto ou os olhos de fora",
+          "variantes": [
+            "Balaclava (gorro)",
+            "Touca ninja"
+          ]
+        },
+        {
+          "id": "lada_riva",
+          "nome": "Lada Riva",
+          "descricao": "Sedã compacto soviético da série Zhiguli, derivado do Fiat 124 e produzido pela AvtoVAZ a partir de 1979, vendido em alguns mercados como Lada Riva ou Laika.",
+          "variantes": [
+            "Lada Laika",
+            "Lada 2107",
+            "VAZ-2107",
+            "Lada Nova",
+            "Lada Classic"
+          ]
+        },
+        {
+          "id": "laika",
+          "nome": "Laika",
+          "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
+          "variantes": [
+            "Kudryavka",
+            "Лайка"
+          ]
+        },
+        {
+          "id": "balaiada",
+          "nome": "Balaiada",
+          "descricao": "Revolta popular ocorrida no Maranhão entre 1838 e 1841, durante o Período Regencial.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "roda_de_oracao",
+      "motivo": "Mesmo cilindro budista com mantras; variantes coincidem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Thaana é um sistema de escrita maldivense; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tomahawk é uma machadinha; candidatas são entidades distintas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "batik",
+      "motivo": "Mesma técnica/tecido batik da Indonésia."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Hórreo é um celeiro ibérico; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "olho_grego",
+      "motivo": "Mesmo amuleto de olho azul contra mau-olhado, mesmas variantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "escrita_cuneiforme",
+      "motivo": "Mesmo sistema de escrita mesopotâmico."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "balalaica",
+      "motivo": "Mesmo instrumento russo de três cordas."
+    }
+  ]
+}

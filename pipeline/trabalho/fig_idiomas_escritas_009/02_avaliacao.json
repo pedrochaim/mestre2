@@ -1,0 +1,214 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra só uma haste com penas, sem fornilho; não é reconhecível como cachimbo e a resposta não seria única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fileira de rodas de oração nítida, legível e sem texto latino.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que mantra costuma estar escrito em objetos como estes, girados por devotos?",
+      "resposta": "Om mani padme hum",
+      "distratores": [
+        "Om namah shivaya",
+        "Hare Krishna",
+        "Gayatri Mantra"
+      ],
+      "ancora": {
+        "nome": "Roda de oração",
+        "descricao": "Cilindro giratório budista tibetano com mantras escritos, cujo giro equivale à recitação.",
+        "variantes": [
+          "Roda de oração tibetana",
+          "Mani wheel",
+          "Prayer wheel"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Amostra nítida da escrita Thaana, sem legenda, reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que país é usado este sistema de escrita?",
+      "resposta": "Maldivas",
+      "distratores": [],
+      "ancora": {
+        "nome": "Thaana",
+        "descricao": "Sistema de escrita da língua divehi (maldivense), usado nas Maldivas.",
+        "variantes": [
+          "Tãna",
+          "Taana",
+          "Thaana"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tomahawk com cabo e adorno de miçangas, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que arma tradicional de povos indígenas da América do Norte é esta?",
+      "resposta": "Tomahawk",
+      "distratores": [
+        "Clava de guerra",
+        "Propulsor atlatl",
+        "Machado de pedra"
+      ],
+      "ancora": {
+        "nome": "Tomahawk",
+        "descricao": "Machadinha de uma mão usada por vários povos indígenas da América do Norte.",
+        "variantes": [
+          "Tomahawk de cachimbo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tecido com padrão de batik típico, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que tecido tradicional estampado da Indonésia é este?",
+      "resposta": "Batik",
+      "distratores": [],
+      "ancora": {
+        "nome": "Batik",
+        "descricao": "Tecido estampado com a técnica de reserva por cera, tradicional da Indonésia.",
+        "variantes": [
+          "Batique"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Hórreo galego nítido, com pilares e pedras planas visíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Para que servem as pedras planas no alto dos pilares desta construção?",
+      "resposta": "Impedir a entrada de roedores",
+      "distratores": [],
+      "ancora": {
+        "nome": "Hórreo",
+        "descricao": "Celeiro tradicional elevado sobre pilares do noroeste da Península Ibérica, para guardar grãos.",
+        "variantes": [
+          "Espigueiro",
+          "Hórreo galego"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Amuleto de vidro azul em forma de olho, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que amuleto é este, usado contra o mau-olhado?",
+      "resposta": "Nazar (olho grego ou olho turco)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Olho grego",
+        "descricao": "Amuleto de vidro azul em forma de olho, contra o mau-olhado, comum na Turquia e na Grécia.",
+        "variantes": [
+          "Nazar",
+          "Olho turco",
+          "Nazar boncuğu"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tábula de argila com escrita cuneiforme inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que sistema de escrita da Antiguidade aparece nesta tábula de argila?",
+      "resposta": "Escrita cuneiforme",
+      "distratores": [
+        "Hieróglifos egípcios",
+        "Linear B",
+        "Escrita rúnica"
+      ],
+      "ancora": {
+        "nome": "Escrita cuneiforme",
+        "descricao": "Sistema de escrita em forma de cunha, nascido na Mesopotâmia e gravado em argila.",
+        "variantes": [
+          "Cuneiforme"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem traz a romanização escrita (ha na ca ra ka...), que equivale a um dos nomes da escrita (hanacaraka) e a torna uma tabela com legenda."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Balalaica de corpo triangular, nítida e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de cordas é este?",
+      "resposta": "Balalaica",
+      "distratores": [
+        "Bandolim",
+        "Alaúde",
+        "Domra"
+      ],
+      "ancora": {
+        "nome": "Balalaica",
+        "descricao": "Instrumento de cordas russo de corpo triangular e três cordas.",
+        "variantes": [
+          "Balalaika"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto histórica com uma pessoa comum em primeiro plano e texto no quepe; a semáfora não fica clara."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ulu isolado em fundo branco, nítido e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que região do planeta esta faca de lâmina em meia-lua é tradicional?",
+      "resposta": "Ártico",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ulu",
+        "descricao": "Faca tradicional de lâmina semicircular usada por mulheres inuit e de outros povos do Ártico.",
+        "variantes": [
+          "Faca ulu",
+          "Uluit"
+        ]
+      }
+    }
+  ]
+}

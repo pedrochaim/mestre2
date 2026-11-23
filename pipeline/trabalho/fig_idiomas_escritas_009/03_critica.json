@@ -1,0 +1,80 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que Om mani padme hum é o mantra mais usado. O enunciado não nomeia a roda. Os distratores são mantras de mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Thaana é a escrita do maldivense, falado nas Maldivas. O enunciado não tem pista, então a figura é necessária. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Machado de pedra' é um distrator defensável, porque tomahawks pré-contato eram de pedra. Troquei-o por uma arma claramente diferente.",
+      "reescrita": {
+        "pergunta": "Que arma tradicional de povos indígenas da América do Norte é esta?",
+        "resposta": "Tomahawk",
+        "distratores": [
+          "Clava de guerra",
+          "Propulsor atlatl",
+          "Faca de caça"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Batik é o tecido de reserva por cera tradicional da Indonésia (UNESCO). O enunciado não entrega a resposta e a resposta é específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que os pilares terminam em pedras planas para impedir o acesso de roedores. O enunciado não nomeia a construção.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Amuleto contra o mau-olhado' entrega a resposta sem a imagem (teste da imagem coberta). Troquei por uma pista de região e material que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que objeto de vidro azul, muito comum em casas e joias na Turquia e na Grécia, é este?",
+        "resposta": "Nazar (olho turco ou olho grego)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tábula' é termo impróprio para o objeto. Corrigi para 'tabuinha', como no trecho. O fato e os distratores estão corretos.",
+      "reescrita": {
+        "pergunta": "Que sistema de escrita da Antiguidade aparece nesta tabuinha de argila?",
+        "resposta": "Escrita cuneiforme",
+        "distratores": [
+          "Hieróglifos egípcios",
+          "Linear B",
+          "Escrita rúnica"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. Os distratores são cordas dedilhadas parecidas, e a domra, de corpo redondo, não descreve o instrumento triangular.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que mantra costuma estar escrito em objetos como estes, girados por devotos?",
+        "resposta": "Om mani padme hum"
+      },
+      "existentes": [
+        {
+          "id": "q15821",
+          "pergunta": "Que objeto ritual budista é este?",
+          "resposta": "Roda de oração"
+        },
+        {
+          "id": "q16380",
+          "pergunta": "Em que religião se usam estas rodas, giradas pelos fiéis?",
+          "resposta": "Budismo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tecido tradicional estampado da Indonésia é este?",
+        "resposta": "Batik"
+      },
+      "existentes": [
+        {
+          "id": "q15006",
+          "pergunta": "Que técnica de tingimento produz este tecido?",
+          "resposta": "Batik"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que objeto de vidro azul, muito comum em casas e joias na Turquia e na Grécia, é este?",
+        "resposta": "Nazar (olho turco ou olho grego)"
+      },
+      "existentes": [
+        {
+          "id": "q15403",
+          "pergunta": "Que objeto de vidro, muito comum na Turquia, é este?",
+          "resposta": "Olho turco (também chamado olho grego)"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que sistema de escrita da Antiguidade aparece nesta tabuinha de argila?",
+        "resposta": "Escrita cuneiforme"
+      },
+      "existentes": [
+        {
+          "id": "q03096",
+          "pergunta": "A escrita cuneiforme, criada na Mesopotâmia, tem esse nome por causa do formato dos seus sinais. Eles lembram o quê?",
+          "resposta": "Cunhas"
+        },
+        {
+          "id": "q07670",
+          "pergunta": "A escrita cuneiforme, uma das mais antigas do mundo, surgiu na Mesopotâmia por volta de que milênio?",
+          "resposta": "Quarto milênio antes de Cristo"
+        },
+        {
+          "id": "q07671",
+          "pergunta": "Feita com estiletes de junco sobre tabuletas de argila, a escrita cuneiforme foi criada por que povo do sul da Mesopotâmia?",
+          "resposta": "Sumérios"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que instrumento de cordas é este?",
+        "resposta": "Balalaica"
+      },
+      "existentes": [
+        {
+          "id": "q06802",
+          "pergunta": "Que instrumento de cordas é este?",
+          "resposta": "Balalaica"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o mantra escrito, fato diferente do nome do objeto ou da religião."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas têm resposta Batik para a mesma imagem; quem sabe uma responde a outra."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo objeto, mesma resposta (olho turco/nazar), enunciado quase idêntico."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o sistema de escrita na tabuinha é diferente de por que o nome, quando surgiu ou quem criou; as existentes citam o nome no enunciado."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta."
+    }
+  ]
+}
