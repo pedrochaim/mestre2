@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A foto mostra água borbulhando com vapor; pode ser fonte termal, gêiser ou poça fervente, sem resposta única, e o fenômeno não é reconhecível."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A miragem aparece como um lago distante num deserto, e nada na imagem permite reconhecê-la como miragem. A foto parece uma paisagem comum."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Um arco de rocha vulcânica não permite reconhecer um tubo de lava nem o lugar. Há pessoas em primeiro plano e a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "destino": 0,
+      "aprovado": true,
+      "motivo": "Fenda de água cristalina entre paredes de lava cobertas de musgo, com mergulhadores pequenos ao fundo. É reconhecível por quem conhece e tem resposta única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica esta fenda, onde mergulhadores nadam entre duas placas tectônicas?",
+      "resposta": "Islândia",
+      "ancora": {
+        "nome": "Fenda Silfra",
+        "descricao": "Fenda no Parque Nacional Þingvellir, na Islândia, entre as placas tectônicas norte-americana e eurasiática, cheia de água cristalina.",
+        "variantes": [
+          "Silfra",
+          "Silfra Fissure"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "destino": 0,
+      "aprovado": true,
+      "motivo": "A taça de arenito é emblemática de Vila Velha e a imagem é clara, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de rocha forma esta escultura natural?",
+      "resposta": "Arenito",
+      "distratores": [
+        "Granito",
+        "Basalto",
+        "Calcário"
+      ],
+      "ancora": {
+        "nome": "Parque Estadual de Vila Velha",
+        "descricao": "Sítio geológico em Ponta Grossa, no Paraná, conhecido por formações de arenito esculpidas pela erosão, como a Taça.",
+        "variantes": [
+          "Vila Velha",
+          "Taça de Vila Velha"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "destino": 0,
+      "aprovado": true,
+      "motivo": "Pedras de granizo na mão, imagem clara. A mão não identifica ninguém, e a pergunta vai além do reconhecimento.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nuvem produz estas pedras de gelo?",
+      "resposta": "Cumulonimbo",
+      "distratores": [
+        "Cirro",
+        "Estrato",
+        "Altocúmulo"
+      ],
+      "ancora": {
+        "nome": "Granizo",
+        "descricao": "Precipitação sólida em forma de bolas ou pedaços irregulares de gelo, produzida em tempestades.",
+        "variantes": [
+          "Chuva de pedra",
+          "Saraiva"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "destino": 0,
+      "aprovado": true,
+      "motivo": "Nuvem prateada e luminosa no crepúsculo, sobre uma turfeira com estrelas visíveis. É característica e reconhecível, mas os distratores evitam nuvens altas parecidas.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nuvem rara é esta, que brilha no céu do crepúsculo de verão?",
+      "resposta": "Nuvem noctilucente",
+      "distratores": [
+        "Nuvem lenticular",
+        "Cumulonimbo",
+        "Altocúmulo"
+      ],
+      "ancora": {
+        "nome": "Nuvem noctilucente",
+        "descricao": "Nuvem tênue de cristais de gelo na alta atmosfera, visível só no crepúsculo, perto dos polos, no verão.",
+        "variantes": [
+          "Nuvens noctilucentes",
+          "Nuvem mesosférica polar"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "destino": 0,
+      "aprovado": true,
+      "motivo": "Rolos de nuvem muito característicos, vistos do alto, sem texto. A pergunta é sobre o local onde o fenômeno ocorre com regularidade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que golfo este rolo de nuvens pode ser observado com regularidade?",
+      "resposta": "Golfo de Carpentária",
+      "distratores": [
+        "Golfo do México",
+        "Golfo Pérsico",
+        "Golfo da Califórnia"
+      ],
+      "ancora": {
+        "nome": "Nuvem Morning Glory",
+        "descricao": "Fenômeno meteorológico raro de nuvens em rolo, ligado a uma onda solitária de baixa altitude, observado regularmente no norte da Austrália.",
+        "variantes": [
+          "Morning Glory",
+          "Morning Glory cloud"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "destino": 2,
+      "aprovado": true,
+      "motivo": "O cacto globoso com o cefálio avermelhado no topo é bem característico do gênero e a imagem é clara.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cacto é este?",
+      "resposta": "Coroa-de-frade (Melocactus)",
+      "ancora": {
+        "nome": "Coroa-de-frade",
+        "descricao": "Cacto do gênero Melocactus, globoso, com um cefálio de cerdas e lã no topo, comum no nordeste do Brasil.",
+        "variantes": [
+          "Melocactus",
+          "Cabeça-de-frade",
+          "Turk's head cactus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma prancha botânica com várias partes da planta, e o texto 'Orbignia phalerata' e 'Tab. 170' aparece na imagem e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "destino": 2,
+      "aprovado": true,
+      "motivo": "As folhas com tentáculos e gotas pegajosas são características da drósera, e a pergunta pede um passo além do reconhecimento.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de planta é esta, quanto à forma de se alimentar?",
+      "resposta": "Carnívora",
+      "distratores": [
+        "Parasita",
+        "Epífita",
+        "Saprófita"
+      ],
+      "ancora": {
+        "nome": "Drósera",
+        "descricao": "Gênero Drosera, de plantas carnívoras que capturam insetos com tentáculos de gotas pegajosas nas folhas.",
+        "variantes": [
+          "Drosera",
+          "Orvalhinha",
+          "Sundew"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "destino": 2,
+      "aprovado": true,
+      "motivo": "Flor simples de dália em foto nítida. A dália e o cosmos, seus parecidos, têm a mesma origem no México, então a resposta continua única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é originária esta flor?",
+      "resposta": "México",
+      "ancora": {
+        "nome": "Dália",
+        "descricao": "Gênero Dahlia de plantas herbáceas tuberosas da família das asteráceas, nativas do México e da América Central, com flores muito cultivadas.",
+        "variantes": [
+          "Dahlia",
+          "Dália-de-jardim"
+        ]
+      }
+    }
+  ]
+}

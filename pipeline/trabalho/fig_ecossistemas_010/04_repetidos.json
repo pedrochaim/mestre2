@@ -1,0 +1,88 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de rocha forma esta escultura natural?",
+        "resposta": "Arenito"
+      },
+      "existentes": [
+        {
+          "id": "q04407",
+          "pergunta": "Que parque brasileiro de rochas esculpidas pela erosão é este?",
+          "resposta": "Vila Velha"
+        },
+        {
+          "id": "q05187",
+          "pergunta": "Os blocos de arenito esculpidos pela chuva e pelo vento do Parque Estadual de Vila Velha, como a famosa Taça, ficam em qual estado brasileiro?",
+          "resposta": "Paraná"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de nuvem produz esta precipitação?",
+        "resposta": "Cumulonimbo"
+      },
+      "existentes": [
+        {
+          "id": "q14223",
+          "pergunta": "Que tipo de precipitação é esta?",
+          "resposta": "Granizo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que nuvem rara é esta, vista no céu depois do pôr do sol?",
+        "resposta": "Nuvem noctilucente"
+      },
+      "existentes": [
+        {
+          "id": "q14275",
+          "pergunta": "Que tipo de nuvem rara é esta?",
+          "resposta": "Nuvem noctilucente"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que tipo de planta é esta, quanto à forma de se alimentar?",
+        "resposta": "Carnívora"
+      },
+      "existentes": [
+        {
+          "id": "q15495",
+          "pergunta": "Que naturalista britânico estudou esta planta numa longa série de experimentos no século dezenove?",
+          "resposta": "Charles Darwin"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tipo de rocha (arenito) é fato diferente do nome do parque ou do estado; embora o enunciado do q05187 mencione arenito, não o pergunta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nuvem produtora é diferente do tipo de precipitação."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma imagem e mesma resposta: nuvem noctilucente.",
+      "id_existente": "q14275"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Dieta carnívora é fato diferente de quem estudou a planta."
+    }
+  ]
+}

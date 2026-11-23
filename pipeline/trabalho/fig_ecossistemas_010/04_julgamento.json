@@ -1,0 +1,510 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Fenda Silfra",
+        "descricao": "Fenda no Parque Nacional Þingvellir, na Islândia, entre as placas tectônicas norte-americana e eurasiática, cheia de água cristalina.",
+        "variantes": [
+          "Silfra",
+          "Silfra Fissure"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usina_solar_fotovoltaica",
+          "nome": "Usina solar fotovoltaica",
+          "descricao": "Usina que converte a luz do sol em eletricidade por painéis fotovoltaicos, em grande escala.",
+          "variantes": [
+            "Parque solar",
+            "Fazenda solar",
+            "Central fotovoltaica"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        },
+        {
+          "id": "rota_da_seda",
+          "nome": "Rota da Seda",
+          "descricao": "Rede de rotas comerciais que ligava a China ao Mediterrâneo desde a Antiguidade.",
+          "variantes": [
+            "Silk Road",
+            "Caminho da Seda"
+          ]
+        },
+        {
+          "id": "safira",
+          "nome": "Safira",
+          "descricao": "Gema, geralmente azul, que é uma variedade do mineral corindo.",
+          "variantes": [
+            "Sapphire"
+          ]
+        },
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Parque Estadual de Vila Velha",
+        "descricao": "Sítio geológico em Ponta Grossa, no Paraná, conhecido por formações de arenito esculpidas pela erosão, como a Taça.",
+        "variantes": [
+          "Vila Velha",
+          "Taça de Vila Velha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vila_velha_parana",
+          "nome": "Vila Velha (Paraná)",
+          "descricao": "Parque estadual em Ponta Grossa, no Paraná, conhecido pelas formações de arenito como a Taça.",
+          "variantes": [
+            "Parque Estadual de Vila Velha",
+            "Taça de Vila Velha"
+          ]
+        },
+        {
+          "id": "jalapao",
+          "nome": "Jalapão",
+          "descricao": "Região de cerrado no leste do Tocantins, conhecida por dunas, cachoeiras e fervedouros.",
+          "variantes": [
+            "Parque Estadual do Jalapão"
+          ]
+        },
+        {
+          "id": "pedra_azul",
+          "nome": "Pedra Azul",
+          "descricao": "Monólito de granito no Parque Estadual da Pedra Azul, em Domingos Martins, Espírito Santo.",
+          "variantes": [
+            "Pico da Pedra Azul",
+            "Parque Estadual de Pedra Azul"
+          ]
+        },
+        {
+          "id": "vuelta_a_espana",
+          "nome": "Vuelta a España",
+          "descricao": "Volta ciclística da Espanha, uma das três grandes voltas do ciclismo de estrada.",
+          "variantes": [
+            "Volta da Espanha",
+            "La Vuelta"
+          ]
+        },
+        {
+          "id": "konoha",
+          "nome": "Konoha",
+          "descricao": "A Vila Oculta da Folha, vila ninja natal de Naruto Uzumaki no mangá e anime Naruto.",
+          "variantes": [
+            "Konohagakure",
+            "Vila da Folha",
+            "Vila Oculta da Folha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Granizo",
+        "descricao": "Precipitação sólida em forma de bolas ou pedaços irregulares de gelo, produzida em tempestades.",
+        "variantes": [
+          "Chuva de pedra",
+          "Saraiva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "granizo",
+          "nome": "Granizo",
+          "descricao": "Precipitação sólida formada por bolas ou pedaços de gelo, produzida por cumulonimbos.",
+          "variantes": [
+            "Chuva de pedra",
+            "Hail"
+          ]
+        },
+        {
+          "id": "granito",
+          "nome": "Granito",
+          "descricao": "Rocha ígnea intrusiva de grão grosso, formada pelo resfriamento lento do magma no interior da crosta.",
+          "variantes": [
+            "Granite"
+          ]
+        },
+        {
+          "id": "staravia",
+          "nome": "Staravia",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 397 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "grao_de_bico",
+          "nome": "Grão-de-bico",
+          "descricao": "Semente da leguminosa Cicer arietinum, usada no homus e no falafel.",
+          "variantes": [
+            "Chickpea",
+            "Garbanzo"
+          ]
+        },
+        {
+          "id": "bubble_tea",
+          "nome": "Bubble tea",
+          "descricao": "Bebida à base de chá, leite e pérolas de tapioca, originada em Taiwan.",
+          "variantes": [
+            "Chá de bolhas",
+            "Boba tea",
+            "Chá de pérolas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Nuvem noctilucente",
+        "descricao": "Nuvem tênue de cristais de gelo na alta atmosfera, visível só no crepúsculo, perto dos polos, no verão.",
+        "variantes": [
+          "Nuvens noctilucentes",
+          "Nuvem mesosférica polar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nuvem_noctilucente",
+          "nome": "Nuvem noctilucente",
+          "descricao": "Nuvem tênue de cristais de gelo na alta atmosfera, visível só no crepúsculo.",
+          "variantes": [
+            "Nuvem mesosférica polar",
+            "Nuvem que brilha à noite"
+          ]
+        },
+        {
+          "id": "nuvem_nacarada",
+          "nome": "Nuvem nacarada",
+          "descricao": "Nuvem estratosférica polar de cristais de gelo, de brilho iridescente como madrepérola.",
+          "variantes": [
+            "Nuvem estratosférica polar",
+            "Nuvem de madrepérola"
+          ]
+        },
+        {
+          "id": "penitentes",
+          "nome": "Penitentes",
+          "descricao": "Formação de neve ou gelo em lâminas finas e pontiagudas, típica de grandes altitudes nos Andes secos.",
+          "variantes": [
+            "Nieves penitentes",
+            "Neve penitente"
+          ]
+        },
+        {
+          "id": "nuvem_lenticular",
+          "nome": "Nuvem lenticular",
+          "descricao": "Nuvem estacionária em forma de lente ou disco, que se forma ao lado de montanhas.",
+          "variantes": [
+            "Lenticular",
+            "Lenticularis"
+          ]
+        },
+        {
+          "id": "nuvem_muralha",
+          "nome": "Nuvem muralha",
+          "descricao": "Abaixamento localizado e persistente da base de um cumulonimbo, de onde às vezes se formam tornados.",
+          "variantes": [
+            "Wall cloud",
+            "Murus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nuvem Morning Glory",
+        "descricao": "Fenômeno meteorológico raro de nuvens em rolo, ligado a uma onda solitária de baixa altitude, observado regularmente no norte da Austrália.",
+        "variantes": [
+          "Morning Glory",
+          "Morning Glory cloud"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fraque",
+          "nome": "Fraque",
+          "descricao": "Traje masculino formal de paletó com abas longas atrás e frente cortada em curva",
+          "variantes": [
+            "Morning coat",
+            "Morning dress"
+          ]
+        },
+        {
+          "id": "bandeira_dos_estados_unidos",
+          "nome": "Bandeira dos Estados Unidos",
+          "descricao": "Bandeira nacional dos Estados Unidos, com listras vermelhas e brancas e um retângulo azul com estrelas.",
+          "variantes": [
+            "Stars and Stripes",
+            "Old Glory"
+          ]
+        },
+        {
+          "id": "rainbow_cloud_pokemon_snap",
+          "nome": "Rainbow Cloud (Pokémon Snap)",
+          "descricao": "Fase final e secreta de Pokémon Snap, uma nuvem de arco-íris onde Todd fotografa o mítico Mew.",
+          "variantes": [
+            "Rainbow Cloud",
+            "Nuvem Arco-Íris"
+          ]
+        },
+        {
+          "id": "portico_da_gloria",
+          "nome": "Pórtico da Glória",
+          "descricao": "Pórtico românico da Catedral de Santiago de Compostela, obra do Mestre Mateo, concluída em 1188.",
+          "variantes": [
+            "Portico of Glory"
+          ]
+        },
+        {
+          "id": "gorila_da_montanha",
+          "nome": "Gorila-da-montanha",
+          "descricao": "Subespécie do gorila-oriental que vive nas montanhas Virunga e em Bwindi, na África Central.",
+          "variantes": [
+            "Gorila-das-montanhas",
+            "Gorilla beringei beringei",
+            "Mountain gorilla"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Coroa-de-frade",
+        "descricao": "Cacto do gênero Melocactus, globoso, com um cefálio de cerdas e lã no topo, comum no nordeste do Brasil.",
+        "variantes": [
+          "Melocactus",
+          "Cabeça-de-frade",
+          "Turk's head cactus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cabeca_de_ife",
+          "nome": "Cabeça de Ifé",
+          "descricao": "Cabeça de liga de cobre naturalista, atribuída a um rei iorubá, entre as dezoito peças achadas em Ifé, na Nigéria, em 1938.",
+          "variantes": [
+            "Ife Head",
+            "Cabeça de bronze de Ifé",
+            "Bronze Head from Ife"
+          ]
+        },
+        {
+          "id": "pyramid_head",
+          "nome": "Pyramid Head",
+          "descricao": "Monstro de capacete piramidal vermelho e grande faca da série de terror Silent Hill.",
+          "variantes": [
+            "Cabeça de Pirâmide",
+            "Red Pyramid Thing"
+          ]
+        },
+        {
+          "id": "cabeca_de_meroe",
+          "nome": "Cabeça de Méroe",
+          "descricao": "Cabeça de bronze de Augusto achada em Méroe, no atual Sudão, hoje no Museu Britânico.",
+          "variantes": [
+            "Cabeça de Augusto de Méroe",
+            "Meroë Head"
+          ]
+        },
+        {
+          "id": "coroa_de_ferro_da_lombardia",
+          "nome": "Coroa de Ferro da Lombardia",
+          "descricao": "Coroa-relicário medieval de ouro e gemas, guardada na catedral de Monza, usada na coroação de reis da Itália.",
+          "variantes": [
+            "Coroa de Ferro",
+            "Corona Ferrea",
+            "Iron Crown of Lombardy"
+          ]
+        },
+        {
+          "id": "bico_de_sapato",
+          "nome": "Bico-de-sapato",
+          "descricao": "Grande ave pernalta de bico enorme em forma de sapato (Balaeniceps rex) dos pântanos da África.",
+          "variantes": [
+            "Balaeniceps rex",
+            "Cabeça-de-baleia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Drósera",
+        "descricao": "Gênero Drosera, de plantas carnívoras que capturam insetos com tentáculos de gotas pegajosas nas folhas.",
+        "variantes": [
+          "Orvalhinha",
+          "Sundew"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "drosera",
+          "nome": "Drósera",
+          "descricao": "Gênero Drosera de plantas carnívoras de folhas com tentáculos pegajosos, os orvalhinhos.",
+          "variantes": [
+            "Orvalhinha",
+            "Sundew"
+          ]
+        },
+        {
+          "id": "rosa",
+          "nome": "Rosa",
+          "descricao": "Planta lenhosa do gênero Rosa, da família Rosaceae, ou a flor que ela produz.",
+          "variantes": [
+            "Roseira",
+            "Rosa silvestre",
+            "Rosa (gênero)"
+          ]
+        },
+        {
+          "id": "sundae",
+          "nome": "Sundae",
+          "descricao": "Sobremesa gelada de sorvete coberto com calda e outros acompanhamentos, de origem americana.",
+          "variantes": [
+            "Sundae de morango"
+          ]
+        },
+        {
+          "id": "roserade",
+          "nome": "Roserade",
+          "descricao": "Pokémon dos tipos Planta e Venenoso, número 407 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "raphinha",
+          "nome": "Raphinha",
+          "descricao": "Atacante brasileiro, jogador do Barcelona e da seleção brasileira, ex-Leeds United.",
+          "variantes": [
+            "Raphael Dias Belloli"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Dália",
+        "descricao": "Gênero Dahlia de plantas herbáceas tuberosas da família das asteráceas, nativas do México e da América Central, com flores muito cultivadas.",
+        "variantes": [
+          "Dahlia",
+          "Dália-de-jardim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "enguia_de_jardim",
+          "nome": "Enguia-de-jardim",
+          "descricao": "Peixe semelhante a enguia da subfamília Heterocongrinae, que vive em colônias em tocas na areia com a cabeça para fora.",
+          "variantes": [
+            "Garden eel",
+            "Enguia-jardineira"
+          ]
+        },
+        {
+          "id": "homem_de_dali",
+          "nome": "Homem de Dali",
+          "descricao": "Crânio fóssil quase completo de humano arcaico do Pleistoceno Médio, achado em 1978 em Dali, na China.",
+          "variantes": [
+            "Dali man",
+            "Dali Man"
+          ]
+        },
+        {
+          "id": "sandalia",
+          "nome": "Sandália",
+          "descricao": "Calçado aberto com sola presa ao pé por tiras.",
+          "variantes": [
+            "Sandalia rasteira",
+            "Sandal"
+          ]
+        },
+        {
+          "id": "dafnia",
+          "nome": "Dáfnia",
+          "descricao": "Gênero de pequenos crustáceos planctônicos de água doce, chamados pulgas-d'água.",
+          "variantes": [
+            "Daphnia",
+            "pulga-d'água"
+          ]
+        },
+        {
+          "id": "dua_lipa",
+          "nome": "Dua Lipa",
+          "descricao": "Cantora e compositora britânica de Future Nostalgia.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fenda Silfra."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "vila_velha_parana",
+      "motivo": "Mesmo parque estadual em Ponta Grossa, com a Taça."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "granizo",
+      "motivo": "Mesmo fenômeno, descrição e variantes equivalentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "nuvem_noctilucente",
+      "motivo": "Mesma nuvem na mesosfera, mesma variante."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a nuvem Morning Glory."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cacto Melocactus."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "drosera",
+      "motivo": "Mesmo gênero Drosera, plantas carnívoras."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o gênero Dahlia."
+    }
+  ]
+}
