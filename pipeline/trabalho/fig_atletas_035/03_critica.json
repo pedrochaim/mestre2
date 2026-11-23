@@ -1,0 +1,94 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, mas o título mundial de 2011 já entrega a dupla sem olhar a figura. Os distratores também são arriscados, porque ela teve outras parceiras.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Só a Sérvia foi campeã mundial em 2018 e 2022, então dá para responder sem a figura e ela vira enfeite. A pergunta passa a pedir o reconhecimento da jogadora.",
+      "reescrita": {
+        "pergunta": "Quem é esta oposta canhota sérvia de vôlei?",
+        "resposta": "Tijana Bošković",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fernanda Garay também foi campeã olímpica em 2008, então o distrator seria correto. Troquei por uma jogadora que não estava na seleção de 2008.",
+      "reescrita": {
+        "pergunta": "Quem é esta jogadora da seleção brasileira de vôlei, campeã olímpica em 2008?",
+        "resposta": "Mari Steinbrecher",
+        "distratores": [
+          "Natália Pereira",
+          "Tandara Caixeta",
+          "Gabi Guimarães"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vários pivôs brasileiros jogaram na NBA (Splitter, Nenê, Varejão), então a resposta não era única. Incluí a naturalidade, que distingue sem entregar o time.",
+      "reescrita": {
+        "pergunta": "Este pivô brasileiro, nascido em Pouso Alegre, jogou na NBA por qual time?",
+        "resposta": "Chicago Bulls",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede para reconhecer a figura e os distratores são canadenses da NBA. Está correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O título de 2007 entrega a Ducati sem a figura. Troquei por uma pista sobre os dois títulos por fábricas diferentes. Doohan só ganhou pela Honda, então a resposta continua única.",
+      "reescrita": {
+        "pergunta": "Este piloto australiano foi campeão da MotoGP por duas fábricas. Uma foi a Honda. Qual foi a outra?",
+        "resposta": "Ducati",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A única vitória pela Ferrari em 1995 está nos trechos. Panis também tem uma só vitória, então o enunciado sozinho não basta e a figura é necessária. Os distratores são equipes críveis em que ele correu e que não são a da vitória.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Bicampeão italiano da MotoGP e a academia VR46 entregam a resposta sem a figura. Não há como consertar mantendo a pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Campeão dos pesos-pesados em 1938 contra um alemão com carga política só tem uma resposta, e ela sai do enunciado sem a figura. A figura vira enfeite.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nada no enunciado entrega a resposta. Barão foi campeão peso-galo do UFC, como dizem os trechos.",
+      "reescrita": null
+    }
+  ]
+}
