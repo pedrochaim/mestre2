@@ -1,0 +1,367 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Itaipu tem metade das unidades a 50 Hz (padrão paraguaio) e metade a 60 Hz; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A média de cerca de -18 °C sem efeito estufa é um dado clássico; os distratores são críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Proálcool foi resposta à crise do petróleo dos anos 1970, como diz o trecho em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O embargo árabe de 1973 ligado à Guerra do Yom Kippur está nos trechos; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O watt homenageia James Watt, escocês da máquina a vapor; o enunciado não nomeia a unidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Vazamento: 'eólica' é palavra derivada de Éolo, o que entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tamar vem de TArtaruga MARinha, como confirma o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Great Stink de 1858 em Londres, chamado de 'O Grande Fedor' pela imprensa.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oikos significa casa, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Haeckel cunhou 'ecologia' em 1866; enunciado preciso e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "ITER significa 'o caminho' em latim, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'Tetra' no nome já entrega 'tetraedro'; e o 'primeiro produto' foi creme de leite, não leite.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hidrogênio verde é produzido com energia renovável, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pai dos fundadores importava e vendia conchas, segundo o trecho em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A inversão térmica prende poluentes e é associada a São Paulo no inverno.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A principal causa do branqueamento é o aumento da temperatura do mar.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A eutrofização esgota o oxigênio da água e mata os peixes; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A expansão térmica da água aquecida é o outro fator do aumento do nível do mar.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O reflorestamento por Dom Pedro II visava a falta de água, segundo o trecho em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Após o Exxon Valdez, o OPA 1990 passou a exigir cascos duplos.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A maior parte do petróleo vem de plâncton marinho soterrado; fato bem estabelecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pré-sal está ligado à separação entre América do Sul e África.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores tropicais (café, cacau) pouco críveis para a Ásia Central, e arroz e cereais também eram irrigados; convém dizer 'principalmente'.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "O Mar de Aral encolheu porque a União Soviética desviou os rios que o alimentavam para irrigar principalmente plantações de quê?",
+        "resposta": "Algodão",
+        "distratores": [
+          "Tabaco",
+          "Linho",
+          "Chá"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Aral_Sea"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fatos sobre a canção e a profecia não aparecem nas fontes, e a âncora (represa) não é a entidade do fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Foote em 1856 e Tyndall em 1859, três anos depois, confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Os trechos mostram série em 1978 e lançamento comercial em 1979, e a âncora Proálcool não é a entidade do fato (Fiat 147).",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O documentário baseia-se na apresentação de slides de Al Gore.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A mistura obrigatória de etanol anidro na gasolina brasileira está nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os rejeitos de Fundão eram da mineração de minério de ferro.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lama desceu o rio Doce até a foz no Espírito Santo, conforme os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O bagaço da cana é queimado como biocombustível para gerar calor e eletricidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Three Mile Island fica na Pensilvânia e foi o pior acidente nuclear dos EUA.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Belo Monte fica no rio Xingu, no Pará.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Greta iniciou a greve em 2018, aos 15 anos, diante do parlamento sueco.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A explosão matou 11 trabalhadores; distratores razoáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três dos seis reatores de Fukushima Daiichi derreteram.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Protocolo de Montreal foi acordado em 1987; é múltipla, como exigido para anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angra 1 entrou em operação nos anos 1980 (rede em 1985).",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Pearl Street Station foi a primeira usina comercial de Edison, em 1882.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fábrica de Bhopal era da Union Carbide India Limited, controlada pela Union Carbide.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arrhenius calculou em 1896 o efeito do CO2 e ganhou o Nobel em 1903.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O hidrogênio tem a maior energia por quilo (cerca de 120 MJ/kg) entre as opções.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de 95% da energia da lâmpada incandescente vira calor.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chico Mendes defendeu as reservas extrativistas; o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tesla defendeu a corrente alternada contra Edison e dá nome à marca de carros elétricos.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O hélio comercial é extraído do gás natural.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "E = mc² descreve a conversão de massa em energia; resposta falável.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Raoni viajou por 17 países com Sting em 1989.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Lórax (1971) é de Dr. Seuss, autor do Grinch.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Opep teve como fundadores Irã, Iraque, Kuwait, Arábia Saudita e Venezuela.",
+      "reescrita": null
+    }
+  ]
+}

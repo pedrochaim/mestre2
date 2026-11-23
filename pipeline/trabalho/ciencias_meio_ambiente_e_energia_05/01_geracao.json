@@ -1,0 +1,1059 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "usina_de_itaipu",
+        "nome": "Usina de Itaipu",
+        "descricao": "Usina hidrelétrica binacional de Brasil e Paraguai, no rio Paraná.",
+        "variantes": [
+          "Itaipu Binacional"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Itaipu_Dam"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Itaipu, metade das turbinas gera energia numa frequência elétrica diferente da usada no Brasil. Esse padrão de cinquenta hertz é o de que país?",
+      "resposta": "Paraguai",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Itaipu_Dam"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "efeito_estufa",
+        "nome": "Efeito estufa",
+        "descricao": "Aquecimento da superfície de um planeta causado por gases da atmosfera que retêm o calor irradiado.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Efeito_estufa"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Sem o efeito estufa natural, a temperatura média da superfície da Terra ficaria em torno de quanto?",
+      "resposta": "Dezoito graus negativos",
+      "distratores": [
+        "Cinco graus positivos",
+        "Quarenta graus negativos",
+        "Setenta graus negativos"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Efeito_estufa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Proálcool",
+        "descricao": "Programa Nacional do Álcool, lançado pelo governo brasileiro em 1975 para substituir gasolina por etanol de cana.",
+        "variantes": [
+          "Programa Nacional do Álcool",
+          "Pró-Álcool"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ethanol_fuel_in_Brazil"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1975, o governo brasileiro lançou o Proálcool, para trocar gasolina por álcool de cana. O programa foi uma resposta a que crise internacional?",
+      "resposta": "Crise do petróleo de 1973",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ethanol_fuel_in_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Crise do petróleo de 1973",
+        "descricao": "Disparada dos preços do petróleo provocada pelo embargo dos países árabes produtores, iniciado em outubro de 1973.",
+        "variantes": [
+          "Primeiro choque do petróleo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1973_oil_crisis"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1973, países árabes produtores de petróleo cortaram as vendas às nações que apoiaram Israel em que guerra?",
+      "resposta": "Guerra do Yom Kippur",
+      "distratores": [
+        "Guerra dos Seis Dias",
+        "Guerra Irã-Iraque",
+        "Guerra do Golfo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1973_oil_crisis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Watt",
+        "descricao": "Unidade de potência do Sistema Internacional, usada para indicar a potência de lâmpadas e aparelhos elétricos.",
+        "variantes": [
+          "W"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Watt"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A unidade de potência impressa nas lâmpadas e nos aparelhos elétricos homenageia que engenheiro escocês, famoso pela máquina a vapor?",
+      "resposta": "James Watt",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Watt"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Energia eólica",
+        "descricao": "Energia obtida a partir da força dos ventos, convertida em eletricidade por aerogeradores.",
+        "variantes": [
+          "Energia dos ventos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wind_power"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra eólica, usada para a energia dos ventos, vem do nome de que personagem da mitologia grega, senhor dos ventos?",
+      "resposta": "Éolo",
+      "distratores": [
+        "Zéfiro",
+        "Hélio",
+        "Netuno"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aeolus",
+        "https://en.wikipedia.org/wiki/Wind_power"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Projeto Tamar",
+        "descricao": "Programa brasileiro de conservação das tartarugas marinhas, criado em 1980.",
+        "variantes": [
+          "Tamar"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Projeto_Tamar"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do Projeto Tamar, de conservação no litoral brasileiro, junta o começo de duas palavras. Quais são elas?",
+      "resposta": "Tartaruga marinha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Projeto_Tamar"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Fedor de Londres",
+        "descricao": "Episódio do verão de 1858 em que o mau cheiro do rio Tâmisa, poluído por esgoto, tomou conta de Londres.",
+        "variantes": [
+          "Great Stink"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Stink"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No verão de 1858, o cheiro do rio Tâmisa, tomado pelo esgoto, ficou tão forte que o episódio ganhou que apelido em Londres?",
+      "resposta": "O Grande Fedor",
+      "distratores": [
+        "A Grande Névoa",
+        "O Verão Negro",
+        "O Rio Morto"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Stink"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ecologia",
+        "descricao": "Ciência que estuda as relações dos seres vivos entre si e com o ambiente.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ecology"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra ecologia vem do grego oikos, a mesma raiz da palavra economia. O que significa oikos?",
+      "resposta": "Casa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ecology"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ecologia",
+        "descricao": "Ciência que estuda as relações dos seres vivos entre si e com o ambiente.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ecology"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1866, que biólogo alemão, famoso por seus desenhos de seres marinhos, criou a palavra ecologia?",
+      "resposta": "Ernst Haeckel",
+      "distratores": [
+        "Alexander von Humboldt",
+        "Gregor Mendel",
+        "Robert Koch"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ernst_Haeckel",
+        "https://en.wikipedia.org/wiki/Ecology"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "ITER",
+        "descricao": "Reator experimental de fusão nuclear do tipo tokamak, construído no sul da França por um consórcio internacional.",
+        "variantes": [
+          "Iter",
+          "International Thermonuclear Experimental Reactor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ITER"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O grande reator experimental de fusão nuclear construído por vários países no sul da França se chama Iter. O que essa palavra significa em latim?",
+      "resposta": "Caminho",
+      "distratores": [
+        "Fogo",
+        "Estrela",
+        "Força"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ITER"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tetra_pak",
+        "nome": "Tetra Pak",
+        "descricao": "Empresa e tipo de embalagem cartonada para alimentos líquidos, como o leite longa vida, criada por Ruben Rausing.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tetra_Pak"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Tetra Pak vem do formato da primeira embalagem de leite da empresa sueca, nos anos cinquenta. Que sólido geométrico ela lembrava?",
+      "resposta": "Tetraedro",
+      "distratores": [
+        "Cubo",
+        "Cilindro",
+        "Octaedro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tetra_Pak"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hidrogênio verde",
+        "descricao": "Hidrogênio produzido pela quebra da água com eletricidade de fontes renováveis.",
+        "variantes": [
+          "Green hydrogen"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Green_hydrogen"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No chamado hidrogênio verde, a cor não está no gás, que é incolor. Ela indica que ele foi produzido com que tipo de energia?",
+      "resposta": "Energia renovável",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Green_hydrogen"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Shell",
+        "descricao": "Multinacional anglo-holandesa de petróleo e gás, com origem em Londres no fim do século dezenove.",
+        "variantes": [
+          "Royal Dutch Shell",
+          "Shell plc"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shell_plc"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A petroleira Shell herdou o nome do negócio do pai de seus fundadores, em Londres, que importava e vendia o quê?",
+      "resposta": "Conchas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shell_plc"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "smog",
+        "nome": "Smog",
+        "descricao": "Tipo de poluição atmosférica urbana que forma uma névoa de fumaça e poluentes sobre as cidades.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Smog"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em São Paulo, a névoa de poluição piora no inverno, quando uma camada de ar quente fica sobre o ar frio e prende os poluentes. Que fenômeno é esse?",
+      "resposta": "Inversão térmica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inversion_(meteorology)",
+        "https://en.wikipedia.org/wiki/Smog"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "branqueamento_de_corais",
+        "nome": "Branqueamento de corais",
+        "descricao": "Fenômeno em que os corais perdem a cor ao expulsar as algas que vivem em seus tecidos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coral_bleaching"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os corais perdem a cor e ficam brancos quando expulsam as algas que vivem neles. Que mudança na água do mar é a principal causa disso?",
+      "resposta": "O aumento da temperatura",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coral_bleaching"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eutrofização",
+        "descricao": "Enriquecimento excessivo de nutrientes num corpo d'água, que provoca a proliferação de algas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eutrophication"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Quando esgoto e adubo chegam a um lago, as algas se multiplicam e depois apodrecem. Os peixes então morrem por falta de quê?",
+      "resposta": "Oxigênio",
+      "distratores": [
+        "Gás carbônico",
+        "Nitrogênio",
+        "Fósforo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eutrophication"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Elevação do nível do mar",
+        "descricao": "Aumento do nível médio dos oceanos associado ao aquecimento global.",
+        "variantes": [
+          "Subida do nível do mar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sea_level_rise"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Além do derretimento das geleiras, o aquecimento global faz o nível do mar subir por outro motivo. O que acontece com a água do oceano quando esquenta?",
+      "resposta": "Ela se expande",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sea_level_rise"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Floresta da Tijuca",
+        "descricao": "Floresta urbana do Rio de Janeiro, replantada no século dezenove e hoje parte do Parque Nacional da Tijuca.",
+        "variantes": [
+          "Parque Nacional da Tijuca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tijuca_Forest"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No século dezenove, Dom Pedro Segundo mandou replantar a Floresta da Tijuca, devastada pelos cafezais. Que problema da cidade do Rio isso pretendia resolver?",
+      "resposta": "A falta de água",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tijuca_Forest"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "derramamento_do_exxon_valdez",
+        "nome": "Derramamento do Exxon Valdez",
+        "descricao": "Vazamento de petróleo causado pelo encalhe do petroleiro Exxon Valdez em março de 1989.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Depois do vazamento do Exxon Valdez, os Estados Unidos passaram a exigir aos poucos que os novos petroleiros tivessem que tipo de casco?",
+      "resposta": "Casco duplo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oil_Pollution_Act_of_1990",
+        "https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "petroleo",
+        "nome": "Petróleo",
+        "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Petroleum"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Ao contrário do que muita gente pensa, a maior parte do petróleo se formou a partir de restos de quê, soterrados no fundo de mares antigos?",
+      "resposta": "Plâncton",
+      "distratores": [
+        "Dinossauros",
+        "Árvores gigantes",
+        "Baleias"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Petroleum"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pre_sal",
+        "nome": "Pré-sal",
+        "descricao": "Camada de rochas sob uma espessa camada de sal no litoral brasileiro, que guarda grandes reservas de petróleo.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pre-salt_layer"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "As rochas do pré-sal se formaram há mais de cem milhões de anos, em lagos que surgiram quando a América do Sul começou a se separar de que continente?",
+      "resposta": "África",
+      "distratores": [
+        "Antártida",
+        "Oceania",
+        "América do Norte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pre-salt_layer"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mar_de_aral",
+        "nome": "Mar de Aral",
+        "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aral_Sea"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O Mar de Aral encolheu porque a União Soviética desviou os rios que o alimentavam para irrigar plantações de quê?",
+      "resposta": "Algodão",
+      "distratores": [
+        "Café",
+        "Cacau",
+        "Soja"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aral_Sea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Represa de Sobradinho",
+        "descricao": "Barragem e usina hidrelétrica no rio São Francisco, na Bahia, cujo lago inundou várias cidades nos anos 1970.",
+        "variantes": [
+          "Usina de Sobradinho",
+          "Barragem de Sobradinho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sobradinho_Dam"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A canção Sobradinho, de Sá e Guarabyra, sobre a represa que inundou cidades na Bahia, retoma a profecia o sertão vai virar mar, atribuída a que líder de Canudos?",
+      "resposta": "Antônio Conselheiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sobradinho_Dam",
+        "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Conselheiro"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "eunice_foote",
+        "nome": "Eunice Foote",
+        "descricao": "Cientista e ativista americana do século dezenove que estudou o aquecimento de gases expostos ao Sol.",
+        "variantes": [
+          "Eunice Newton Foote"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eunice_Newton_Foote"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Três anos depois dos experimentos de Eunice Foote, que físico irlandês, por muito tempo creditado sozinho pela descoberta, mediu como certos gases absorvem calor?",
+      "resposta": "John Tyndall",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eunice_Newton_Foote",
+        "https://en.wikipedia.org/wiki/John_Tyndall"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Proálcool",
+        "descricao": "Programa Nacional do Álcool, lançado pelo governo brasileiro em 1975 para substituir gasolina por etanol de cana.",
+        "variantes": [
+          "Programa Nacional do Álcool",
+          "Pró-Álcool"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ethanol_fuel_in_Brazil"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1979, no embalo do Proálcool, que modelo de carro se tornou o primeiro movido só a álcool fabricado em série no Brasil?",
+      "resposta": "Fiat 147",
+      "distratores": [
+        "Fusca",
+        "Chevette",
+        "Brasília"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Fiat_147",
+        "https://en.wikipedia.org/wiki/Ethanol_fuel_in_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Uma Verdade Inconveniente",
+        "descricao": "Documentário americano de 2006 sobre o aquecimento global, vencedor do Oscar de melhor documentário.",
+        "variantes": [
+          "An Inconvenient Truth"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/An_Inconvenient_Truth"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O documentário Uma Verdade Inconveniente, de 2006, sobre o aquecimento global, nasceu das palestras de que ex-vice-presidente dos Estados Unidos?",
+      "resposta": "Al Gore",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/An_Inconvenient_Truth"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gasolina",
+        "descricao": "Combustível líquido derivado do petróleo, usado em motores de automóveis.",
+        "variantes": [
+          "Gasolina comum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ethanol_fuel_in_Brazil"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Por lei, a gasolina comum vendida nos postos brasileiros não é pura. Que outro combustível vem misturado a ela?",
+      "resposta": "Etanol anidro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ethanol_fuel_in_Brazil"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "desastre_de_mariana",
+        "nome": "Desastre de Mariana",
+        "descricao": "Rompimento da barragem de rejeitos de Fundão, em Mariana, Minas Gerais, em novembro de 2015.",
+        "variantes": [
+          "Rompimento da barragem de Fundão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mariana_dam_disaster"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A lama que vazou da barragem de Fundão, em Mariana, em 2015, era formada por rejeitos da mineração de que minério?",
+      "resposta": "Ferro",
+      "distratores": [
+        "Ouro",
+        "Bauxita",
+        "Manganês"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mariana_dam_disaster"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "desastre_de_mariana",
+        "nome": "Desastre de Mariana",
+        "descricao": "Rompimento da barragem de rejeitos de Fundão, em Mariana, Minas Gerais, em novembro de 2015.",
+        "variantes": [
+          "Rompimento da barragem de Fundão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mariana_dam_disaster"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Depois de descer o rio Doce por centenas de quilômetros, a lama da barragem de Mariana chegou ao mar no litoral de que estado?",
+      "resposta": "Espírito Santo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mariana_dam_disaster"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Biomassa",
+        "descricao": "Matéria orgânica de origem vegetal ou animal usada como fonte de energia.",
+        "variantes": [
+          "Energia de biomassa",
+          "Bioeletricidade"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bagasse"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nas usinas de açúcar e álcool, as caldeiras queimam que resíduo da cana para produzir vapor e gerar eletricidade?",
+      "resposta": "Bagaço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bagasse"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Acidente de Three Mile Island",
+        "descricao": "Derretimento parcial do núcleo de um reator da usina nuclear de Three Mile Island, nos Estados Unidos, em março de 1979.",
+        "variantes": [
+          "Three Mile Island"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Three_Mile_Island_accident"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1979, o pior acidente nuclear da história americana aconteceu na usina de Three Mile Island, que fica em que estado?",
+      "resposta": "Pensilvânia",
+      "distratores": [
+        "Nova York",
+        "Ohio",
+        "Califórnia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Three_Mile_Island_accident"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Usina de Belo Monte",
+        "descricao": "Grande usina hidrelétrica no estado do Pará, inaugurada nos anos 2010.",
+        "variantes": [
+          "Usina Hidrelétrica de Belo Monte"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Belo_Monte_Dam"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A usina hidrelétrica de Belo Monte, no Pará, foi construída em que rio da Amazônia?",
+      "resposta": "Rio Xingu",
+      "distratores": [
+        "Rio Tocantins",
+        "Rio Tapajós",
+        "Rio Madeira"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Belo_Monte_Dam"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Greta Thunberg",
+        "descricao": "Ativista climática sueca, nascida em 2003, que iniciou as greves escolares pelo clima.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Greta_Thunberg"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2018, aos quinze anos, Greta Thunberg começou sua greve escolar pelo clima sentada em frente ao parlamento de que país?",
+      "resposta": "Suécia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Greta_Thunberg"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "vazamento_da_deepwater_horizon",
+        "nome": "Vazamento da Deepwater Horizon",
+        "descricao": "Derramamento de petróleo causado pela explosão da plataforma Deepwater Horizon, da BP, em abril de 2010.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em abril de 2010, a explosão da plataforma Deepwater Horizon, que deu início ao vazamento de petróleo, matou quantos trabalhadores?",
+      "resposta": "Onze",
+      "distratores": [
+        "Dois",
+        "Vinte e nove",
+        "Cinquenta"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deepwater_Horizon_explosion",
+        "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "acidente_nuclear_de_fukushima",
+        "nome": "Acidente nuclear de Fukushima",
+        "descricao": "Acidente na usina nuclear de Fukushima Daiichi, no Japão, em março de 2011.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No acidente de Fukushima, em 2011, quantos reatores da usina sofreram derretimento do núcleo?",
+      "resposta": "Três",
+      "distratores": [
+        "Um",
+        "Quatro",
+        "Seis"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Protocolo de Montreal",
+        "descricao": "Tratado internacional que eliminou gradualmente os gases que destroem a camada de ozônio, como os CFCs.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Montreal_Protocol"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi assinado o Protocolo de Montreal, que eliminou aos poucos os gases que destroem a camada de ozônio?",
+      "resposta": "1987",
+      "distratores": [
+        "1979",
+        "1992",
+        "1997"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Montreal_Protocol"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "angra_1",
+        "nome": "Angra 1",
+        "descricao": "Primeira usina nuclear brasileira, unidade da central de Angra dos Reis, construída com tecnologia americana.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Angra_Nuclear_Power_Plant"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A primeira usina nuclear do Brasil, Angra 1, começou a funcionar em que década?",
+      "resposta": "Década de 1980",
+      "distratores": [
+        "Década de 1960",
+        "Década de 1970",
+        "Década de 1990"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Angra_Nuclear_Power_Plant"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pearl Street Station",
+        "descricao": "Central elétrica a carvão inaugurada em 1882 em Manhattan, Nova York, uma das primeiras a vender eletricidade comercialmente.",
+        "variantes": [
+          "Usina de Pearl Street"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pearl_Street_Station"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1882, que inventor americano inaugurou em Nova York a Pearl Street Station, central que passou a vender eletricidade para iluminar o bairro?",
+      "resposta": "Thomas Edison",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pearl_Street_Station"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "desastre_de_bhopal",
+        "nome": "Desastre de Bhopal",
+        "descricao": "Vazamento de gás tóxico de uma fábrica de pesticidas na cidade indiana de Bhopal, que matou milhares de pessoas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bhopal_disaster"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A fábrica de pesticidas de Bhopal, de onde vazou o gás tóxico em 1984, era controlada por que empresa americana?",
+      "resposta": "Union Carbide",
+      "distratores": [
+        "Monsanto",
+        "DuPont",
+        "General Electric"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bhopal_disaster"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aquecimento global",
+        "descricao": "Aumento da temperatura média da Terra causado pelo acúmulo de gases do efeito estufa.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Svante_Arrhenius"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1896, que químico sueco, depois ganhador do Nobel, calculou quanto a Terra esquentaria se o gás carbônico do ar dobrasse?",
+      "resposta": "Svante Arrhenius",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Svante_Arrhenius"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hidrogênio como combustível",
+        "descricao": "Uso do gás hidrogênio como fonte de energia, por combustão ou em células a combustível.",
+        "variantes": [
+          "Combustível de hidrogênio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hydrogen_fuel"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Quilo por quilo, qual destes combustíveis libera mais energia ao ser usado?",
+      "resposta": "Hidrogênio",
+      "distratores": [
+        "Gasolina",
+        "Óleo diesel",
+        "Gás natural"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Energy_density",
+        "https://en.wikipedia.org/wiki/Hydrogen_fuel"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada que produz luz aquecendo um filamento metálico, em geral de tungstênio, até ele brilhar.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Incandescent_light_bulb"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "As antigas lâmpadas incandescentes foram trocadas por modelos econômicos porque transformam a maior parte da eletricidade em quê, em vez de luz?",
+      "resposta": "Calor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Incandescent_light_bulb"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chico_mendes",
+        "nome": "Chico Mendes",
+        "descricao": "Seringueiro, sindicalista e ambientalista acreano, assassinado em dezembro de 1988.",
+        "variantes": [
+          "Francisco Alves Mendes Filho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chico_Mendes"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Chico Mendes defendia um tipo de área protegida em que seringueiros e outras comunidades vivem do que a floresta dá, sem derrubá-la. Que nome ela tem?",
+      "resposta": "Reserva extrativista",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Extractive_reserve",
+        "https://en.wikipedia.org/wiki/Chico_Mendes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guerra das Correntes",
+        "descricao": "Disputa comercial do fim do século dezenove entre os sistemas de corrente contínua e de corrente alternada para distribuir eletricidade.",
+        "variantes": [
+          "War of the currents"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/War_of_the_currents"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na Guerra das Correntes, contra Thomas Edison, que inventor defendeu a corrente alternada e depois emprestou o nome a uma famosa marca de carros elétricos?",
+      "resposta": "Nikola Tesla",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/War_of_the_currents"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hélio",
+        "descricao": "Elemento químico gasoso, leve e inerte, usado para encher balões.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Helium"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O hélio dos balões de festa não é fabricado. Ele é extraído principalmente junto com que combustível fóssil, retirado de poços no subsolo?",
+      "resposta": "Gás natural",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Helium"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fissão nuclear",
+        "descricao": "Divisão do núcleo de um átomo pesado, como o urânio, que libera grande quantidade de energia nas usinas nucleares.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nuclear_fission"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na fissão das usinas nucleares, um pouquinho de massa some e vira muita energia. Que famosa equação de Einstein descreve essa troca?",
+      "resposta": "E igual a m c ao quadrado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
+        "https://en.wikipedia.org/wiki/Nuclear_fission"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Raoni Metuktire",
+        "descricao": "Líder indígena caiapó, conhecido mundialmente pela defesa da floresta amazônica e do Xingu.",
+        "variantes": [
+          "Cacique Raoni",
+          "Raoni"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Raoni_Metuktire"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1989, que cantor britânico, ex-líder da banda The Police, percorreu o mundo ao lado do cacique Raoni em defesa da Amazônia?",
+      "resposta": "Sting",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Raoni_Metuktire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "O Lórax",
+        "descricao": "Livro infantil de 1971 sobre um ser que fala pelas árvores contra a devastação de uma floresta.",
+        "variantes": [
+          "The Lorax"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Lorax"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O Lórax, criatura que fala pelas árvores num livro infantil de 1971 contra a devastação da natureza, foi criado por que autor americano, o mesmo do Grinch?",
+      "resposta": "Dr. Seuss",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Lorax"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "organizacao_dos_paises_exportadores_de_petroleo",
+        "nome": "Organização dos Países Exportadores de Petróleo",
+        "descricao": "Organização intergovernamental de países produtores de petróleo, fundada em 1960 para coordenar suas políticas petrolíferas.",
+        "variantes": [
+          "Opep",
+          "OPEC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/OPEC"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Ao lado de quatro países do Oriente Médio, que país sul-americano participou da fundação da Opep, em 1960?",
+      "resposta": "Venezuela",
+      "distratores": [
+        "Brasil",
+        "Equador",
+        "Colômbia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/OPEC"
+      ]
+    }
+  ]
+}
