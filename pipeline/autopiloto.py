@@ -143,15 +143,61 @@ def imprimir_progresso(prog, plano):
 
 # ---------------------------------------------------------------- escolha do próximo trabalho
 
+FOCO_SUBTEMAS = False  # --foco-subtemas
+MAX_CATALOGO_TEMA = 0.4  # nenhum catálogo passa de 40% das figuras do seu tema (MANIFESTO §6)
+
+
+def por_subtema(banco):
+    """(total, com figura) de cada (tema, subtema) do jogo original."""
+    cont = {}
+    for p in banco.perguntas:
+        if not p.get("exclusiva"):
+            c = cont.setdefault((p["tema"], p["subtema"]), [0, 0])
+            c[0] += 1
+            c[1] += "imagem" in p
+    return cont
+
+
+def fracao_figura_subtemas(banco):
+    return {k: f / max(1, n) for k, (n, f) in por_subtema(banco).items()}
+
+
+def prioridade_destinos(cat, banco):
+    """Com --foco-subtemas, a ordem das entidades do lote: primeiro as dos destinos (subtemas) com menos figuras."""
+    if not FOCO_SUBTEMAS:
+        return None
+    frac = fracao_figura_subtemas(banco)
+    return {i: frac.get(tuple(d), 0) for i, d in enumerate(cat["destinos"])}
+
+
 def escolher(banco, plano, canon, so=None, catalogos=None):
     prog = progresso(banco, plano, canon)
     pausados = set(banco.estado.get("pausados", []))
     def_texto = {k: m - n for k, (n, m) in prog["texto"].items() if m - n > 0 and f"texto:{k[1]}" not in pausados}
+    contagem = por_subtema(banco)
 
     def trabalho_figura(tema):
         cats = [c for c in plano["catalogos"] if c["destinos"][0][0] == tema and f"figura:{c['id']}" not in pausados
                 and not c.get("exclusiva")   # os catálogos de coleções exclusivas rodam à mão
                 and (not catalogos or c["id"] in catalogos)]
+        if FOCO_SUBTEMAS:
+            # Foco nos subtemas com poucas figuras (2026-11-23): a meta do catálogo deixa de ser teto, e vale só o
+            # limite de 40% das figuras do tema. Ganha o catálogo que serve o subtema com a menor fração de
+            # figuras, contando só os destinos com entidades livres (ou todos, se o lote vai pedir curadoria).
+            teto = MAX_CATALOGO_TEMA * plano["temas"][tema]["figura"]
+            cats = [c for c in cats if prog["catalogos"][c["id"]][0] < teto]
+            if not cats:
+                return None
+            frac = fracao_figura_subtemas(banco)
+
+            def nota(c):
+                livres = figuras.livres(figuras.carregar_catalogo(c["id"]))
+                if len(livres) < 2 * plano["lote_figura"]["quantidade"]:
+                    idx = range(len(c["destinos"]))
+                else:
+                    idx = {e["destino"] for e in livres if 0 <= e["destino"] < len(c["destinos"])}
+                return min((frac.get(tuple(c["destinos"][i]), 0) for i in idx), default=1)
+            return ("figura", min(cats, key=nota))
         cats = [c for c in cats if prog["catalogos"][c["id"]][1] - prog["catalogos"][c["id"]][0] > 0]
         if not cats:
             return None
@@ -160,6 +206,16 @@ def escolher(banco, plano, canon, so=None, catalogos=None):
         return ("figura", max(cats, key=lambda c: 1 - prog["catalogos"][c["id"]][0] / prog["catalogos"][c["id"]][1]))
 
     def trabalho_texto(tema):
+        if FOCO_SUBTEMAS:
+            # Foco nos subtemas pequenos (2026-11-23): a meta de texto do subtema deixa de ser teto (os subtemas sem
+            # figura já a passaram e ficaram pequenos no total); vale a meta de texto do tema, e ganha o subtema com
+            # o menor total (texto + figura) em relação ao peso.
+            nt = sum(n for (t, _), (n, _m) in prog["texto"].items() if t == tema)
+            mt = sum(m for (t, _), (_n, m) in prog["texto"].items() if t == tema)
+            subs = [k for k in prog["texto"] if k[0] == tema and f"texto:{k[1]}" not in pausados]
+            if nt >= mt or not subs:
+                return None
+            return ("texto", min(subs, key=lambda k: contagem.get(k, [0])[0] / plano["subtemas"][k[1]].get("peso", 1)))
         subs = {k: d for k, d in def_texto.items() if k[0] == tema}
         return ("texto", max(subs, key=subs.get)) if subs else None
 
@@ -328,9 +384,12 @@ def main():
                     help="uso máximo da sessão de 5 horas, em %%, antes de esperar a renovação (100 = até a cota acabar)")
     ap.add_argument("--foco-multipla", action="store_true",
                     help="lotes só de múltipla escolha nos temas com menos múltiplas que abertas")
+    ap.add_argument("--foco-subtemas", action="store_true",
+                    help="texto para os subtemas menores e figuras para os subtemas com menos figuras")
     args = ap.parse_args()
-    global FOCO_MULTIPLA
+    global FOCO_MULTIPLA, FOCO_SUBTEMAS
     FOCO_MULTIPLA = args.foco_multipla
+    FOCO_SUBTEMAS = args.foco_subtemas
     claude_cli.LIMITE_SESSAO = None if args.limite_sessao >= 100 else args.limite_sessao / 100
     catalogos = set(args.catalogos.split(",")) if args.catalogos else None
     so = "texto" if args.so_texto else "figuras" if args.so_figuras or catalogos else None
@@ -359,7 +418,7 @@ def main():
     trava()
     feitos, falhas = 0, {}
     diario("inicio", pid=os.getpid(), max=args.max, so=so, limite_sessao=claude_cli.LIMITE_SESSAO,
-           foco_multipla=FOCO_MULTIPLA)
+           foco_multipla=FOCO_MULTIPLA, foco_subtemas=FOCO_SUBTEMAS)
     try:
         while True:
             if PARAR.exists():
@@ -401,7 +460,8 @@ def main():
                     cat = next(c for c in plano["catalogos"] if c["id"] == lote_fig["catalogo"])
                     registradas = figuras.executar_lote(cat, banco, canon, rodar.CONFIG, plano["lote_figura"]["quantidade"],
                                                         lote_fig["id"],
-                                                        fracao_multipla(banco, plano, cat["destinos"][0][0]))
+                                                        fracao_multipla(banco, plano, cat["destinos"][0][0]),
+                                                        prioridade_destinos(cat, banco))
                     n = len(registradas)
                     banco.estado.pop("lote_figura_em_andamento", None)
                     if n == 0 and not figuras.livres(figuras.carregar_catalogo(cat["id"])):

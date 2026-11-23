@@ -614,7 +614,7 @@ def proximo_lote_id(banco, cat_id):
     return f"fig_{cat_id}_{len(feitos) + 1:03d}"
 
 
-def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None, fracao_multipla=None):
+def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None, fracao_multipla=None, prioridade=None):
     """Roda um lote de figuras de um catálogo e devolve as perguntas registradas. Levanta ErroClaude se o LLM
     falhar; chamar de novo com o mesmo lote retoma do último passo concluído. Com fracao_multipla, essa fração dos
     itens recebe o tipo sugerido `multipla`, e o resto `aberta` (MANIFESTO §6)."""
@@ -653,6 +653,10 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None, fracao
             for k in (1, 2, 3):
                 if camadas[k]:
                     ordem.append(camadas[k].pop(0))
+        if prioridade:
+            # Foco nos subtemas com poucas figuras (autopiloto --foco-subtemas): {destino: fração de figuras do
+            # subtema}; os destinos com menos figuras vêm primeiro, mantendo o rodízio de camadas dentro de cada um.
+            ordem.sort(key=lambda e: prioridade.get(e["destino"], 1))
         itens = []
         print("  1. preparo das imagens…", flush=True)
         for ent in ordem:

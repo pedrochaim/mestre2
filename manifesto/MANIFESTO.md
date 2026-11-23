@@ -1038,6 +1038,10 @@ As metas dos catálogos são estimativas. Os catálogos que reprovam muito (est�
 - **Limite de figuras por âncora:** continua em 2 (§4). Os catálogos usam cada entidade uma vez, então esse limite quase não pesa. Só vale subir se entrar uma "segunda figura" das entidades mais conhecidas (um detalhe da pintura, outra vista do monumento).
 - **Profundidade x obscuridade:** com mais entidades por catálogo, as camadas 2 e 3 pesam mais (§6). Conferir na amostra se as figuras continuam reconhecíveis por quem conhece o assunto.
 
+**Foco nos subtemas pequenos (2026-11-23).** Com o banco em 19 009 perguntas, os temas estavam equilibrados (~2 370 cada), mas os subtemas não: até 3,6 vezes de diferença dentro de um tema (Culinária 591 × Marcas 166), porque as figuras se concentram nos subtemas visuais e os subtemas sem figura já tinham passado a sua meta de texto. Com `--foco-subtemas`, o autopiloto mantém a ordem dos temas e o déficit texto/figura do tema, mas:
+- **Texto:** a meta do subtema deixa de ser teto (vale a meta de texto do tema), e o lote vai para o subtema com o menor total (texto + figura) dividido pelo peso.
+- **Figura:** a meta do catálogo deixa de ser teto (vale só o limite de 40% das figuras do tema), e ganha o catálogo que serve o subtema com a menor fração de figuras. Dentro do lote, as entidades desses destinos vêm primeiro.
+
 ---
 
 ## 18. Histórico
