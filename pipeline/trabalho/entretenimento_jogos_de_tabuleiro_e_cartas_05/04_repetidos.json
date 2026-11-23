@@ -1,0 +1,952 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na tradição francesa, o valete de copas homenageia La Hire, um capitão da Guerra dos Cem Anos. Ao lado de qual heroína ele lutou?",
+        "resposta": "Joana d'Arc"
+      },
+      "existentes": [
+        {
+          "id": "q08396",
+          "pergunta": "O valete do baralho tem nome de origem francesa. O que significa a palavra valet nessa língua?",
+          "resposta": "Criado"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na tradição francesa, a dama de copas se chama Judite, heroína bíblica. Já a dama de espadas leva o nome de qual deusa grega?",
+        "resposta": "Palas Atena"
+      },
+      "existentes": [
+        {
+          "id": "q14039",
+          "pergunta": "Que figura do baralho francês é esta?",
+          "resposta": "Dama (também chamada rainha)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em francês, o naipe de espadas não se chama espada, e sim pique. Que arma essa palavra designa?",
+        "resposta": "Lança"
+      },
+      "existentes": [
+        {
+          "id": "q15448",
+          "pergunta": "Que naipe do baralho é este?",
+          "resposta": "Espadas"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Merle Robbins criou o Uno em 1971, depois de uma discussão com o filho sobre as regras de qual jogo de cartas?",
+        "resposta": "Crazy Eights (oito maluco)"
+      },
+      "existentes": [
+        {
+          "id": "q01519",
+          "pergunta": "O Uno foi criado em 1971, no estado americano de Ohio, por Merle Robbins. Qual era a profissão dele?",
+          "resposta": "Barbeiro"
+        },
+        {
+          "id": "q08375",
+          "pergunta": "Ao fim de uma rodada de Uno, as cartas que sobram na mão dos adversários viram pontos para o vencedor. Quais cartas valem mais?",
+          "resposta": "Os curingas"
+        },
+        {
+          "id": "q18051",
+          "pergunta": "O baralho original do Uno, com cartas numeradas, coringas e cartas de ação, tem quantas cartas ao todo?",
+          "resposta": "Cento e oito"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Segundo a tradição, uma forma primitiva da roleta surgiu no século dezessete, quando qual matemático francês tentava criar uma máquina de movimento perpétuo?",
+        "resposta": "Blaise Pascal"
+      },
+      "existentes": [
+        {
+          "id": "q06801",
+          "pergunta": "Que jogo de azar é este?",
+          "resposta": "Roleta"
+        },
+        {
+          "id": "q08376",
+          "pergunta": "A roleta americana tem uma casa a mais que a roleta europeia. Que número aparece nessa casa extra?",
+          "resposta": "Duplo zero"
+        },
+        {
+          "id": "q18057",
+          "pergunta": "Somando todos os números da roleta europeia, de zero a trinta e seis, chega-se a um número famoso. Qual?",
+          "resposta": "Seiscentos e sessenta e seis"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O Liberty Bell, um dos primeiros caça-níqueis de rolos, foi criado pelo mecânico Charles Fey no fim do século dezenove. Em qual cidade americana?",
+        "resposta": "São Francisco"
+      },
+      "existentes": [
+        {
+          "id": "q15242",
+          "pergunta": "Que máquina é esta?",
+          "resposta": "Caça-níqueis"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O jogo do bicho nasceu em 1892 num zoológico do Rio de Janeiro, criado pelo Barão de Drummond. Em que bairro carioca ficava esse zoológico?",
+        "resposta": "Vila Isabel"
+      },
+      "existentes": [
+        {
+          "id": "q01517",
+          "pergunta": "Em 1892, o Barão de Drummond criou o jogo do bicho no Rio de Janeiro. Qual era o objetivo original dele?",
+          "resposta": "Arrecadar dinheiro para seu zoológico"
+        },
+        {
+          "id": "q01533",
+          "pergunta": "Do avestruz à vaca, quantos animais formam a tabela do jogo do bicho?",
+          "resposta": "Vinte e cinco"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No Rio de Janeiro, muitos banqueiros do jogo do bicho ficaram famosos como patronos e financiadores de que tipo de agremiação popular?",
+        "resposta": "Escolas de samba"
+      },
+      "existentes": [
+        {
+          "id": "q01517",
+          "pergunta": "Em 1892, o Barão de Drummond criou o jogo do bicho no Rio de Janeiro. Qual era o objetivo original dele?",
+          "resposta": "Arrecadar dinheiro para seu zoológico"
+        },
+        {
+          "id": "q01533",
+          "pergunta": "Do avestruz à vaca, quantos animais formam a tabela do jogo do bicho?",
+          "resposta": "Vinte e cinco"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "No Brasil, a grade de xis e bolinhas é o jogo da velha. Em Portugal, o mesmo jogo leva o nome de qual animal?",
+        "resposta": "Galo (jogo do galo)"
+      },
+      "existentes": [
+        {
+          "id": "q06462",
+          "pergunta": "Criado em 1952 num computador da Universidade de Cambridge, o OXO é um dos primeiros jogos eletrônicos da história. Que jogo ele simulava?",
+          "resposta": "Jogo da velha"
+        },
+        {
+          "id": "q18071",
+          "pergunta": "No Brasil, o símbolo usado nas hashtags é popularmente chamado pelo nome de qual brincadeira?",
+          "resposta": "Jogo da velha"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Depois de ganhar o mundo com o nome de Rubik's Cube, o cubo mágico virou uma febre internacional em qual década?",
+        "resposta": "Década de 1980"
+      },
+      "existentes": [
+        {
+          "id": "q00905",
+          "pergunta": "O cubo mágico foi inventado pelo húngaro Ernő Rubik, professor de arquitetura. Em que ano ele criou o primeiro protótipo?",
+          "resposta": "1974"
+        },
+        {
+          "id": "q06444",
+          "pergunta": "Em 1974, que professor húngaro de arquitetura inventou o cubo mágico?",
+          "resposta": "Ernő Rubik"
+        },
+        {
+          "id": "q07330",
+          "pergunta": "No cubo mágico com o esquema de cores padrão, que cor fica na face oposta à branca?",
+          "resposta": "Amarelo"
+        },
+        {
+          "id": "q15701",
+          "pergunta": "Girando as faces de um cubo mágico comum, de três por três, é possível chegar a quantas combinações diferentes?",
+          "resposta": "Cerca de 43 quintilhões"
+        },
+        {
+          "id": "q18053",
+          "pergunta": "Em 2010, provou-se que qualquer cubo mágico embaralhado pode ser resolvido com, no máximo, quantos giros de face?",
+          "resposta": "Vinte"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O nome sudoku abrevia uma frase japonesa que diz que os números devem permanecer num certo estado civil. Qual?",
+        "resposta": "Solteiros"
+      },
+      "existentes": [
+        {
+          "id": "q14066",
+          "pergunta": "De que idioma vem o nome deste passatempo de lógica?",
+          "resposta": "Japonês"
+        },
+        {
+          "id": "q16370",
+          "pergunta": "O sudoku moderno teria sido criado por um arquiteto aposentado e publicado em 1979 numa revista de que país?",
+          "resposta": "Estados Unidos"
+        },
+        {
+          "id": "q21380",
+          "pergunta": "Uma busca exaustiva feita por computadores provou que um sudoku com solução única precisa de pelo menos quantas pistas?",
+          "resposta": "Dezessete"
+        },
+        {
+          "id": "q21384",
+          "pergunta": "O nome sudoku abrevia uma frase japonesa segundo a qual os algarismos devem ter que estado civil?",
+          "resposta": "Solteiros"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Apesar do nome japonês, o sudoku moderno apareceu em 1979, com o nome de Number Place, numa revista de qual país?",
+        "resposta": "Estados Unidos"
+      },
+      "existentes": [
+        {
+          "id": "q14066",
+          "pergunta": "De que idioma vem o nome deste passatempo de lógica?",
+          "resposta": "Japonês"
+        },
+        {
+          "id": "q16370",
+          "pergunta": "O sudoku moderno teria sido criado por um arquiteto aposentado e publicado em 1979 numa revista de que país?",
+          "resposta": "Estados Unidos"
+        },
+        {
+          "id": "q21380",
+          "pergunta": "Uma busca exaustiva feita por computadores provou que um sudoku com solução única precisa de pelo menos quantas pistas?",
+          "resposta": "Dezessete"
+        },
+        {
+          "id": "q21384",
+          "pergunta": "O nome sudoku abrevia uma frase japonesa segundo a qual os algarismos devem ter que estado civil?",
+          "resposta": "Solteiros"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O nome chaturanga, do jogo indiano que deu origem ao xadrez, significa quatro partes. Quatro partes de quê?",
+        "resposta": "Do exército"
+      },
+      "existentes": [
+        {
+          "id": "q03346",
+          "pergunta": "O nome chaturanga, jogo de tabuleiro da Índia antiga, significa em sânscrito quatro divisões de quê?",
+          "resposta": "Do exército"
+        },
+        {
+          "id": "q03347",
+          "pergunta": "Jogado na Índia por volta do século seis, o chaturanga é considerado o ancestral de que jogo de tabuleiro hoje popular no mundo todo?",
+          "resposta": "Xadrez"
+        },
+        {
+          "id": "q06422",
+          "pergunta": "Considerado o ancestral do xadrez, o chaturanga surgiu por volta do século seis no território de qual país atual?",
+          "resposta": "Índia"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em francês, o bispo do xadrez tem um nome bem diferente: fou. O que essa palavra significa?",
+        "resposta": "Louco (bobo da corte)"
+      },
+      "existentes": [
+        {
+          "id": "q01490",
+          "pergunta": "O bispo do xadrez descende de uma peça árabe chamada al-fil. Que animal essa palavra designa?",
+          "resposta": "Elefante"
+        },
+        {
+          "id": "q18089",
+          "pergunta": "Que peça do xadrez passa a partida inteira em casas da mesma cor em que começou?",
+          "resposta": "Bispo"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Pelo estilo cheio de sacrifícios ousados e ataques imprevisíveis, o campeão mundial de xadrez Mikhail Tal ganhou qual apelido?",
+        "resposta": "O Mago de Riga"
+      },
+      "existentes": [
+        {
+          "id": "q14038",
+          "pergunta": "Em que cidade nasceu este campeão mundial de xadrez?",
+          "resposta": "Riga"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Garry Kasparov nasceu com o sobrenome Weinstein. O sobrenome com que ficou famoso é a versão russa do sobrenome de quem?",
+        "resposta": "Da mãe"
+      },
+      "existentes": [
+        {
+          "id": "q06430",
+          "pergunta": "Garry Kasparov, campeão mundial de xadrez em 1985, nasceu numa república da antiga União Soviética. Qual?",
+          "resposta": "Azerbaijão"
+        },
+        {
+          "id": "q18463",
+          "pergunta": "Quem é este grande mestre de xadrez?",
+          "resposta": "Garry Kasparov"
+        },
+        {
+          "id": "q19935",
+          "pergunta": "Em 1997, o campeão mundial de xadrez Garry Kasparov perdeu um match para qual computador da IBM?",
+          "resposta": "Deep Blue"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Em 1992, Bobby Fischer jogou uma revanche contra Boris Spassky e passou a ser procurado pela justiça americana. Por quê?",
+        "resposta": "Jogou na Iugoslávia, violando sanções"
+      },
+      "existentes": [
+        {
+          "id": "q08409",
+          "pergunta": "Bobby Fischer, campeão mundial de xadrez em 1972, recebeu cidadania no fim da vida e está enterrado em qual país?",
+          "resposta": "Islândia"
+        },
+        {
+          "id": "q18078",
+          "pergunta": "Que ator, famoso por viver o Homem-Aranha no cinema, interpretou Bobby Fischer num filme sobre o duelo dele com Spassky?",
+          "resposta": "Tobey Maguire"
+        },
+        {
+          "id": "q19842",
+          "pergunta": "Que enxadrista é este?",
+          "resposta": "Bobby Fischer"
+        },
+        {
+          "id": "q19936",
+          "pergunta": "Em 1972, em plena Guerra Fria, o americano Bobby Fischer derrotou o soviético Boris Spassky pelo título mundial de xadrez. Em que cidade?",
+          "resposta": "Reykjavík"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O duelo pelo título mundial entre Anatoly Karpov e o jovem Kasparov, iniciado em 1984, foi interrompido sem vencedor depois de quantas partidas?",
+        "resposta": "Quarenta e oito"
+      },
+      "existentes": [
+        {
+          "id": "q14040",
+          "pergunta": "Em que cidade russa nasceu este ex-campeão mundial de xadrez?",
+          "resposta": "Zlatoust"
+        },
+        {
+          "id": "q18079",
+          "pergunta": "Em 1975, o soviético Anatoly Karpov virou campeão mundial de xadrez sem jogar a final. Por quê?",
+          "resposta": "Fischer recusou defender o título"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Em 2002, numa partida rápida em Moscou, a húngara Judit Polgár derrotou qual campeão, então número um do ranking mundial?",
+        "resposta": "Garry Kasparov"
+      },
+      "existentes": [
+        {
+          "id": "q06432",
+          "pergunta": "O húngaro László Polgár educou as três filhas, entre elas Judit Polgár, para virarem fortes enxadristas. O que ele queria provar?",
+          "resposta": "Que gênios são feitos, não natos"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Em 1927, o cubano Capablanca perdeu o título mundial de xadrez para Alexander Alekhine, num longo duelo disputado em qual cidade sul-americana?",
+        "resposta": "Buenos Aires"
+      },
+      "existentes": [
+        {
+          "id": "q14014",
+          "pergunta": "Que enxadrista é este?",
+          "resposta": "José Raúl Capablanca"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Um ano antes da vitória histórica de 1997, o computador Deep Blue fez seu primeiro match contra o campeão mundial, em 1996. Quem venceu esse primeiro duelo?",
+        "resposta": "Garry Kasparov"
+      },
+      "existentes": [
+        {
+          "id": "q03461",
+          "pergunta": "Em que ano o computador Deep Blue, da IBM, derrotou o campeão mundial Garry Kasparov num confronto completo de xadrez?",
+          "resposta": "1997"
+        },
+        {
+          "id": "q06429",
+          "pergunta": "Em 1997, o computador Deep Blue derrotou o campeão mundial Garry Kasparov num match de xadrez. Que empresa o construiu?",
+          "resposta": "IBM"
+        },
+        {
+          "id": "q18069",
+          "pergunta": "O nome do computador de xadrez Deep Blue faz trocadilho com qual apelido da empresa que o construiu?",
+          "resposta": "Big Blue"
+        },
+        {
+          "id": "q19877",
+          "pergunta": "Em 1997, a revanche entre o campeão Garry Kasparov e o computador Deep Blue foi disputada em quantas partidas?",
+          "resposta": "Seis"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Na segunda partida contra Lee Sedol, em 2016, o AlphaGo fez uma jogada tão inesperada que ficou famosa pelo número do lance. Que número?",
+        "resposta": "Trinta e sete"
+      },
+      "existentes": [
+        {
+          "id": "q06437",
+          "pergunta": "Em 2016, o programa AlphaGo derrotou o craque sul-coreano de go Lee Sedol. Que empresa de inteligência artificial, ligada ao Google, o criou?",
+          "resposta": "DeepMind"
+        },
+        {
+          "id": "q18085",
+          "pergunta": "Em 2016, o duelo de cinco partidas entre o programa AlphaGo e o mestre de go Lee Sedol foi disputado em qual cidade?",
+          "resposta": "Seul"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Na Novela de Xadrez, de Stefan Zweig, o Doutor B. vira um mestre do xadrez enquanto está isolado pela Gestapo. Graças a que objeto?",
+        "resposta": "Um livro de partidas roubado"
+      },
+      "existentes": [
+        {
+          "id": "q06456",
+          "pergunta": "Stefan Zweig escreveu a Novela de Xadrez no exílio, pouco antes de morrer, em 1942, na cidade brasileira onde vivia. Que cidade é essa?",
+          "resposta": "Petrópolis"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Na série O Gambito da Rainha, a menina Beth Harmon aprende a jogar xadrez no porão do orfanato. Com quem?",
+        "resposta": "O zelador, senhor Shaibel"
+      },
+      "existentes": [
+        {
+          "id": "q06436",
+          "pergunta": "A minissérie O Gambito da Rainha, sobre a enxadrista Beth Harmon, adapta o romance de qual escritor americano?",
+          "resposta": "Walter Tevis"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "No Dungeons and Dragons, como é chamado, em português, o jogador que narra a aventura, cria o mundo e controla os monstros?",
+        "resposta": "Mestre (Dungeon Master)"
+      },
+      "existentes": [
+        {
+          "id": "q01504",
+          "pergunta": "O desenho animado Caverna do Dragão, sucesso na TV brasileira, foi baseado em qual famoso jogo de RPG de mesa?",
+          "resposta": "Dungeons & Dragons"
+        },
+        {
+          "id": "q06461",
+          "pergunta": "Que dupla de americanos criou o Dungeons and Dragons, o jogo de RPG de mesa lançado em 1974?",
+          "resposta": "Gary Gygax e Dave Arneson"
+        },
+        {
+          "id": "q18077",
+          "pergunta": "Na série Stranger Things, os meninos batizam o monstro do Mundo Invertido de Demogorgon, um vilão de qual jogo de RPG?",
+          "resposta": "Dungeons & Dragons"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "No tabuleiro clássico americano do Monopoly, qual é a propriedade mais cara, a última antes da casa de partida?",
+        "resposta": "Boardwalk"
+      },
+      "existentes": [
+        {
+          "id": "q01510",
+          "pergunta": "No início do século vinte, Elizabeth Magie criou o jogo que deu origem ao Monopoly. Que males ela queria denunciar com ele?",
+          "resposta": "Os monopólios de terra"
+        },
+        {
+          "id": "q01526",
+          "pergunta": "Os nomes das ruas do tabuleiro clássico americano do Monopoly foram tirados de qual cidade litorânea de Nova Jersey?",
+          "resposta": "Atlantic City"
+        },
+        {
+          "id": "q18050",
+          "pergunta": "Contando os quatro cantos, quantas casas tem a volta completa do tabuleiro clássico do Monopoly?",
+          "resposta": "Quarenta"
+        },
+        {
+          "id": "q18081",
+          "pergunta": "Na Segunda Guerra, o serviço secreto britânico mandou a prisioneiros aliados jogos de Monopoly adulterados. O que vinha escondido neles?",
+          "resposta": "Mapas de fuga"
+        },
+        {
+          "id": "q18084",
+          "pergunta": "Nos anos trinta, quem vendeu o Monopoly à Parker Brothers apresentando o jogo como invenção sua, embora ele derivasse de outro mais antigo?",
+          "resposta": "Charles Darrow"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Em plena Grande Depressão, a fabricante Parker Brothers lançou o Monopoly. Em que ano?",
+        "resposta": "1935"
+      },
+      "existentes": [
+        {
+          "id": "q01510",
+          "pergunta": "No início do século vinte, Elizabeth Magie criou o jogo que deu origem ao Monopoly. Que males ela queria denunciar com ele?",
+          "resposta": "Os monopólios de terra"
+        },
+        {
+          "id": "q01526",
+          "pergunta": "Os nomes das ruas do tabuleiro clássico americano do Monopoly foram tirados de qual cidade litorânea de Nova Jersey?",
+          "resposta": "Atlantic City"
+        },
+        {
+          "id": "q18050",
+          "pergunta": "Contando os quatro cantos, quantas casas tem a volta completa do tabuleiro clássico do Monopoly?",
+          "resposta": "Quarenta"
+        },
+        {
+          "id": "q18081",
+          "pergunta": "Na Segunda Guerra, o serviço secreto britânico mandou a prisioneiros aliados jogos de Monopoly adulterados. O que vinha escondido neles?",
+          "resposta": "Mapas de fuga"
+        },
+        {
+          "id": "q18084",
+          "pergunta": "Nos anos trinta, quem vendeu o Monopoly à Parker Brothers apresentando o jogo como invenção sua, embora ele derivasse de outro mais antigo?",
+          "resposta": "Charles Darrow"
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "nova": {
+        "pergunta": "Na batalha naval clássica, qual é o maior navio da frota, o que ocupa cinco casas da grade?",
+        "resposta": "Porta-aviões"
+      },
+      "existentes": [
+        {
+          "id": "q06463",
+          "pergunta": "Antes de virar jogo de tabuleiro de plástico, em 1967, a batalha naval já era popular jogada com quais materiais simples?",
+          "resposta": "Papel e lápis"
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "nova": {
+        "pergunta": "No tabuleiro mais comum do resta um, em forma de cruz e com só o furo central vazio, quantos pinos há no começo do jogo?",
+        "resposta": "Trinta e dois"
+      },
+      "existentes": [
+        {
+          "id": "q14034",
+          "pergunta": "Os primeiros indícios deste jogo de um jogador só vêm da corte de que rei francês?",
+          "resposta": "Luís XIV"
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "nova": {
+        "pergunta": "No truco paulista, uma carta aberta na mesa no começo de cada mão define quais serão as manilhas. Como se chama essa carta?",
+        "resposta": "Vira"
+      },
+      "existentes": [
+        {
+          "id": "q01492",
+          "pergunta": "No truco mineiro, a carta mais forte do jogo, o quatro de paus, é conhecida por qual apelido?",
+          "resposta": "Zap"
+        },
+        {
+          "id": "q08374",
+          "pergunta": "No truco mineiro, a carta mais forte é o zap, o quatro de paus. Qual é a segunda carta mais forte do jogo?",
+          "resposta": "Sete de copas"
+        },
+        {
+          "id": "q18055",
+          "pergunta": "Tirando do baralho comum os oitos, os noves, os dez e os curingas, com quantas cartas se joga o truco?",
+          "resposta": "Quarenta"
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "nova": {
+        "pergunta": "No pôquer, quais cartas formam o royal straight flush, a mão mais forte do jogo?",
+        "resposta": "Do dez ao ás, mesmo naipe"
+      },
+      "existentes": [
+        {
+          "id": "q08372",
+          "pergunta": "No pôquer, qual destas mãos é a mais forte?",
+          "resposta": "Full house"
+        },
+        {
+          "id": "q08410",
+          "pergunta": "No século dezenove, o pôquer se espalhou pelos Estados Unidos a bordo de barcos a vapor que navegavam por qual rio?",
+          "resposta": "Mississippi"
+        },
+        {
+          "id": "q18074",
+          "pergunta": "Que cantora americana fez sucesso em 2008 com uma música cujo título fala da cara impassível dos jogadores de pôquer?",
+          "resposta": "Lady Gaga"
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "nova": {
+        "pergunta": "O nome shogi, do xadrez japonês, significa jogo de tabuleiro de quem?",
+        "resposta": "Dos generais"
+      },
+      "existentes": [
+        {
+          "id": "q01835",
+          "pergunta": "Que jogo de tabuleiro é este?",
+          "resposta": "Shogi"
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "nova": {
+        "pergunta": "No xadrez chinês, qual peça, que anda exatamente duas casas na diagonal, é proibida de atravessar o rio e fica sempre do próprio lado?",
+        "resposta": "Elefante"
+      },
+      "existentes": [
+        {
+          "id": "q04170",
+          "pergunta": "Que jogo de tabuleiro é este?",
+          "resposta": "Xadrez chinês (Xiangqi)"
+        },
+        {
+          "id": "q08384",
+          "pergunta": "No xadrez chinês, o que corta o tabuleiro ao meio, separando os territórios dos dois exércitos?",
+          "resposta": "Um rio"
+        },
+        {
+          "id": "q08407",
+          "pergunta": "No xadrez ocidental, as brancas começam. No xadrez chinês, de que cor são as peças que fazem o primeiro lance?",
+          "resposta": "Vermelhas"
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "nova": {
+        "pergunta": "Diz a tradição que um imperador mogol jogava pachisi num pátio gigante do seu palácio, usando pessoas como peças. Que imperador?",
+        "resposta": "Akbar"
+      },
+      "existentes": [
+        {
+          "id": "q01505",
+          "pergunta": "Que jogo de tabuleiro popular no Brasil, de peões coloridos que dão a volta no tabuleiro, é uma versão simplificada do pachisi indiano?",
+          "resposta": "Ludo"
+        },
+        {
+          "id": "q18063",
+          "pergunta": "O pachisi, jogo indiano que deu origem ao ludo, tem nome derivado da palavra hindi para qual número?",
+          "resposta": "Vinte e cinco"
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "nova": {
+        "pergunta": "Publicada em 1913 num jornal de Nova York, a primeira palavra cruzada moderna não era quadrada. Que formato ela tinha?",
+        "resposta": "Losango (diamante)"
+      },
+      "existentes": [
+        {
+          "id": "q16604",
+          "pergunta": "Que jornal americano popularizou este passatempo na década de 1910?",
+          "resposta": "New York World"
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "nova": {
+        "pergunta": "Em inglês, o quebra-cabeça de encaixar se chama jigsaw puzzle. A palavra jigsaw é o nome de que tipo de ferramenta?",
+        "resposta": "Uma serra"
+      },
+      "existentes": [
+        {
+          "id": "q06446",
+          "pergunta": "Os primeiros quebra-cabeças de encaixar foram feitos em Londres, por volta de 1760. Que tipo de imagem eles recortavam?",
+          "resposta": "Mapas"
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "nova": {
+        "pergunta": "O alemão Klaus Teuber contou que criou o Catan inspirado na colonização de qual ilha pelos vikings?",
+        "resposta": "Islândia"
+      },
+      "existentes": [
+        {
+          "id": "q01525",
+          "pergunta": "O Catan, jogo moderno de colonizar uma ilha trocando madeira, tijolo e trigo, nasceu em 1995 em qual país europeu?",
+          "resposta": "Alemanha"
+        },
+        {
+          "id": "q01534",
+          "pergunta": "No Catan, que peça, movida quando os dados somam sete, impede um terreno de produzir recursos?",
+          "resposta": "O ladrão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "La Hire e Joana d'Arc, fato diferente do significado de valet."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nome da dama de espadas, fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Significado de pique em francês, não identificar naipe."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Jogo que inspirou o Uno, fato novo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Origem da roleta com Pascal, fato novo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cidade do Liberty Bell, fato novo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Bairro do zoológico, fato novo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Banqueiros e escolas de samba, fato novo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nome português do jogo da velha, fato novo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Década da febre, fato novo."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q21384",
+      "motivo": "Mesmo fato: estado civil solteiros no nome sudoku."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "id_existente": "q16370",
+      "motivo": "Mesmo fato: revista de 1979 nos Estados Unidos."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q03346",
+      "motivo": "Mesmo fato: significado de chaturanga, do exército."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Nome francês fou, diferente de al-fil."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Apelido de Tal, fato diferente da cidade natal."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Origem do sobrenome, fato novo."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Motivo da procura pela justiça, fato novo."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Número de partidas do duelo de 1984, fato novo."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Vitória de Judit sobre Kasparov, fato novo."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Cidade do match de 1927, fato novo."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Resultado do match de 1996, fato novo."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Lance 37, fato novo."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Enredo do Doutor B., fato novo."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Quem ensinou Beth, fato novo."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Termo para o narrador, fato novo."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Propriedade mais cara, fato novo."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento pela Parker, fato novo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Maior navio, fato novo."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Número de pinos, fato novo."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Nome da carta vira, fato novo."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Composição do royal straight flush, fato novo."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Significado do nome shogi, fato novo."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Peça elefante, fato novo."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Imperador Akbar, fato novo."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Formato da primeira palavra cruzada, fato novo."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Etimologia de jigsaw, fato novo."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Inspiração islandesa, fato novo."
+    }
+  ]
+}

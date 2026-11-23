@@ -23110,7 +23110,8 @@
     "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
     "variantes": [
       "Parchís",
-      "Chaupar"
+      "Chaupar",
+      "Parchisi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Pachisi"
@@ -23311,7 +23312,10 @@
       "wikidata": "Q373659",
       "pt": 70281,
       "en": 3141
-    }
+    },
+    "variantes": [
+      "Bicho"
+    ]
   },
   {
     "id": "risk",
@@ -93943,7 +93947,8 @@
     "descricao": "Enxadrista nascido em Baku em 1963, campeão mundial de xadrez de 1985 a 2000.",
     "variantes": [
       "Garri Kasparov",
-      "Kasparov"
+      "Kasparov",
+      "Garik Weinstein"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Garry_Kasparov"
@@ -94181,7 +94186,8 @@
     "nome": "Quebra-cabeça",
     "descricao": "Jogo de montar uma imagem a partir de peças recortadas que se encaixam, surgido na Inglaterra no século dezoito.",
     "variantes": [
-      "Jigsaw puzzle"
+      "Jigsaw puzzle",
+      "Puzzle"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Jigsaw_puzzle"
@@ -98988,7 +98994,8 @@
     "nome": "Roleta",
     "descricao": "Jogo de cassino em que uma bolinha cai em um dos compartimentos numerados e coloridos de uma roda giratória.",
     "variantes": [
-      "Roleta de cassino"
+      "Roleta de cassino",
+      "Roulette"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Roulette",
@@ -172196,7 +172203,8 @@
     "descricao": "Grande mestre soviético letão de xadrez, oitavo campeão mundial.",
     "variantes": [
       "Mihail Tal",
-      "Mikhail Nekhemievich Tal"
+      "Mikhail Nekhemievich Tal",
+      "Mihails Tāls"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mikhail_Tal",
@@ -172216,7 +172224,8 @@
     "variantes": [
       "Rainha",
       "Queen",
-      "Q"
+      "Q",
+      "Rainha (carta)"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Queen_%28playing_card%29",
@@ -172700,7 +172709,8 @@
     "nome": "Sudoku",
     "descricao": "Quebra-cabeça de lógica de preencher uma grade 9x9 com dígitos de 1 a 9 sem repetir em linhas, colunas e blocos 3x3.",
     "variantes": [
-      "Number Place"
+      "Number Place",
+      "Su Doku"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sudoku",
@@ -191160,7 +191170,8 @@
     "descricao": "Máquina de jogo de azar com rolos giratórios que paga conforme a combinação de símbolos.",
     "variantes": [
       "Slot machine",
-      "Máquina de fruta"
+      "Máquina de fruta",
+      "Máquina caça-níqueis"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Slot_machine",
@@ -194371,7 +194382,8 @@
     "descricao": "Naipe preto do baralho francês, com símbolo em forma de coração invertido com haste.",
     "variantes": [
       "Pique",
-      "Espada"
+      "Espada",
+      "Spades"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Spades_%28suit%29",
@@ -254776,6 +254788,41 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/The_Lorax"
+    ]
+  },
+  {
+    "id": "problema_do_trigo_e_do_tabuleiro_de_xadrez",
+    "nome": "Problema do trigo e do tabuleiro de xadrez",
+    "descricao": "Lenda e problema matemático em que o inventor do xadrez pede grãos de trigo dobrando a quantidade a cada casa do tabuleiro.",
+    "variantes": [
+      "Lenda de Sissa",
+      "Wheat and chessboard problem"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wheat_and_chessboard_problem"
+    ]
+  },
+  {
+    "id": "fide",
+    "nome": "FIDE",
+    "descricao": "Federação Internacional de Xadrez, entidade que organiza o xadrez em nível mundial, fundada em 1924.",
+    "variantes": [
+      "Federação Internacional de Xadrez",
+      "Fédération Internationale des Échecs"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/FIDE"
+    ]
+  },
+  {
+    "id": "mate_do_pastor",
+    "nome": "Mate do pastor",
+    "descricao": "Xeque-mate rápido de abertura no xadrez, em que dama e bispo atacam a casa vizinha ao rei adversário.",
+    "variantes": [
+      "Scholar's mate"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Scholar%27s_mate"
     ]
   }
 ]

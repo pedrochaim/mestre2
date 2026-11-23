@@ -1,0 +1,318 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sudoku",
+        "descricao": "Passatempo de lógica em que se preenche uma grade de nove por nove com algarismos de um a nove, sem repetir em linhas, colunas e quadrados.",
+        "variantes": [
+          "Su Doku",
+          "Number Place"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sudoku",
+          "nome": "Sudoku",
+          "descricao": "Quebra-cabeça de lógica de preencher uma grade 9x9 com dígitos de 1 a 9 sem repetir em linhas, colunas e blocos 3x3.",
+          "variantes": [
+            "Number Place"
+          ]
+        },
+        {
+          "id": "palacio_de_verao_pequim",
+          "nome": "Palácio de Verão (Pequim)",
+          "descricao": "Conjunto imperial de jardins, lagos e palácios em Pequim, retiro da imperatriz viúva Cixi.",
+          "variantes": [
+            "Yihe Garden",
+            "Yiheyuan",
+            "Summer Palace"
+          ]
+        },
+        {
+          "id": "surdo",
+          "nome": "Surdo",
+          "descricao": "Grande tambor grave usado no samba e na percussão brasileira, tocado com baqueta.",
+          "variantes": [
+            "Bumbo"
+          ]
+        },
+        {
+          "id": "bandeira_do_sudao",
+          "nome": "Bandeira do Sudão",
+          "descricao": "Bandeira do Sudão, faixas vermelha, branca e preta com triângulo verde junto à haste.",
+          "variantes": [
+            "Sudão"
+          ]
+        },
+        {
+          "id": "sudao",
+          "nome": "Sudão",
+          "descricao": "País do nordeste da África, com capital em Cartum, que faz fronteira com o Egito e o Mar Vermelho.",
+          "variantes": [
+            "Sudan",
+            "República do Sudão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Problema do trigo e do tabuleiro de xadrez",
+        "descricao": "Lenda e problema matemático em que o inventor do xadrez pede grãos de trigo dobrando a quantidade a cada casa do tabuleiro.",
+        "variantes": [
+          "Lenda de Sissa",
+          "Wheat and chessboard problem"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lenda_da_vitoria_regia",
+          "nome": "Lenda da vitória-régia",
+          "descricao": "Lenda indígena amazônica sobre a jovem Naiá, transformada em planta aquática pela Lua.",
+          "variantes": [
+            "Lenda de Naiá"
+          ]
+        },
+        {
+          "id": "lenda_da_mandioca",
+          "nome": "Lenda da mandioca",
+          "descricao": "Lenda indígena tupi sobre a menina Mani, de cujo túmulo teria brotado a mandioca.",
+          "variantes": [
+            "Lenda de Mani"
+          ]
+        },
+        {
+          "id": "fibonacci",
+          "nome": "Fibonacci",
+          "descricao": "Leonardo de Pisa, matemático italiano dos séculos doze e treze.",
+          "variantes": [
+            "Leonardo de Pisa",
+            "Leonardo Fibonacci",
+            "Leonardo Pisano"
+          ]
+        },
+        {
+          "id": "linha_de_transmissao",
+          "nome": "Linha de transmissão",
+          "descricao": "Linha aérea de condutores suspensos por torres que leva energia elétrica por longas distâncias.",
+          "variantes": [
+            "Torre de transmissão",
+            "Linha de alta tensão",
+            "Torre de alta tensão"
+          ]
+        },
+        {
+          "id": "njinga_mbandi",
+          "nome": "Njinga Mbandi",
+          "descricao": "Rainha dos reinos de Ndongo e Matamba, no atual território de Angola, que resistiu aos portugueses no século dezessete.",
+          "variantes": [
+            "Rainha Ginga",
+            "Nzinga",
+            "Rainha Jinga",
+            "Ana de Sousa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "FIDE",
+        "descricao": "Federação Internacional de Xadrez, entidade que organiza o xadrez em nível mundial, fundada em 1924.",
+        "variantes": [
+          "Federação Internacional de Xadrez",
+          "Fédération Internationale des Échecs"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "angel_di_maria",
+          "nome": "Ángel Di María",
+          "descricao": "Futebolista argentino, ponta, campeão mundial em 2022, ex-Benfica, Real Madrid e PSG.",
+          "variantes": [
+            "Di Maria",
+            "Fideo"
+          ]
+        },
+        {
+          "id": "fifa",
+          "nome": "FIFA",
+          "descricao": "Federação Internacional de Futebol, entidade que organiza a Copa do Mundo, fundada em 1904.",
+          "variantes": [
+            "Fédération Internationale de Football Association",
+            "Federação Internacional de Futebol"
+          ]
+        },
+        {
+          "id": "federacao_internacional_de_voleibol",
+          "nome": "Federação Internacional de Voleibol",
+          "descricao": "Entidade que governa o vôlei de quadra e de praia no mundo, conhecida pela sigla FIVB.",
+          "variantes": [
+            "FIVB",
+            "Fédération Internationale de Volleyball"
+          ]
+        },
+        {
+          "id": "pulgao",
+          "nome": "Pulgão",
+          "descricao": "Pequeno inseto da superfamília Aphidoidea que suga a seiva das plantas.",
+          "variantes": [
+            "Afídeo",
+            "Aphid"
+          ]
+        },
+        {
+          "id": "friede",
+          "nome": "Friede",
+          "descricao": "Professor pokémon e líder dos aventureiros Rising Volt Tacklers na série Pokémon Horizontes.",
+          "variantes": [
+            "Professor Friede"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mate do pastor",
+        "descricao": "Xeque-mate rápido de abertura no xadrez, em que dama e bispo atacam a casa vizinha ao rei adversário.",
+        "variantes": [
+          "Scholar's mate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mjolnir",
+          "nome": "Mjolnir",
+          "descricao": "Martelo mágico do deus Thor nos quadrinhos da Marvel",
+          "variantes": [
+            "Martelo do Thor"
+          ]
+        },
+        {
+          "id": "mate_do_louco",
+          "nome": "Mate do louco",
+          "descricao": "Sequência de abertura que leva ao xeque-mate mais rápido possível no xadrez, aplicado pelas pretas.",
+          "variantes": [
+            "Fool's mate"
+          ]
+        },
+        {
+          "id": "ave_do_paraiso",
+          "nome": "Ave-do-paraíso",
+          "descricao": "Planta Strelitzia reginae, nativa da África do Sul, de flor laranja e azul.",
+          "variantes": [
+            "Estrelítzia",
+            "Strelitzia reginae",
+            "Flor-da-rainha"
+          ]
+        },
+        {
+          "id": "aves_do_paraiso",
+          "nome": "Aves-do-paraíso",
+          "descricao": "Família de aves (Paradisaeidae) de plumagens exuberantes e danças de corte, sobretudo da Nova Guiné.",
+          "variantes": [
+            "Paradisaeidae",
+            "Ave-do-paraíso",
+            "Birds-of-paradise"
+          ]
+        },
+        {
+          "id": "pato_do_mato",
+          "nome": "Pato-do-mato",
+          "descricao": "Pato grande de carúnculas vermelhas na face, nativo das Américas e domesticado (Cairina moschata).",
+          "variantes": [
+            "Cairina moschata",
+            "Pato-almiscarado",
+            "Muscovy duck"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "War (jogo)",
+        "descricao": "Jogo de tabuleiro brasileiro de estratégia militar e conquista de territórios, lançado em 1972 e inspirado no Risk.",
+        "variantes": [
+          "War"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onix",
+          "nome": "Onix",
+          "descricao": "Pokémon dos tipos Pedra e Terra, número 95 da Pokédex Nacional.",
+          "variantes": [
+            "Iwark"
+          ]
+        },
+        {
+          "id": "wario",
+          "nome": "Wario",
+          "descricao": "Personagem da Nintendo, rival ganancioso de Mario, de roupa amarela e roxa.",
+          "variantes": []
+        },
+        {
+          "id": "uruk",
+          "nome": "Uruk",
+          "descricao": "Antiga cidade suméria da Baixa Mesopotâmia, onde surgiram alguns dos primeiros registros escritos.",
+          "variantes": [
+            "Erech",
+            "Warka",
+            "Uruque"
+          ]
+        },
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "arbitro_assistente_de_video",
+          "nome": "Árbitro assistente de vídeo",
+          "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR.",
+          "variantes": [
+            "VAR",
+            "Video assistant referee",
+            "Árbitro de vídeo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "sudoku",
+      "motivo": "Mesmo quebra-cabeça Sudoku, descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a lenda/problema do trigo e do xadrez."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "FIDE (xadrez) é distinta da FIFA e da FIVB."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mate do pastor é distinto do mate do louco, outra sequência."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O jogo War não consta entre as candidatas."
+    }
+  ]
+}
