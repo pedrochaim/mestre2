@@ -186,8 +186,8 @@
 
   <div id="controles" hidden>
     <button id="proxima" class="principal">Começar</button>
-    <button id="revelar-ja" hidden>Encerrar o tempo</button>
-    <button id="automatico" aria-pressed="true" title="Depois da resposta, a próxima pergunta sai sozinha">Próxima automática</button>
+    <button id="revelar-ja" hidden>Mostrar resposta</button>
+    <button id="automatico" aria-pressed="false" title="Com todos respondendo, a resposta aparece e a próxima pergunta sai sozinha">Iniciar modo automático</button>
     <p id="msg" class="suave"></p>
     <p id="erro" class="erro" style="margin:0"></p>
   </div>
@@ -203,7 +203,6 @@
            agora, acertarRelogio, restante, manterAcesa } from "./arena-comum.js";
 
   const ESPERA_PROXIMA = 10;  // segundos entre a resposta revelada e a próxima pergunta automática
-  const FOLGA_FECHAR = 800;   // ms depois do prazo antes de fechar a rodada (a regra ainda aceita até 3 s)
 
   let uid = null;
   let codigo = null;
@@ -216,7 +215,9 @@
   let nVisto = null;          // última rodada vista, para acertar o relógio só nas que começam ao vivo
   let ocupado = false;        // sorteando ou fechando uma rodada
   let proximaEm = null;       // instante (local) da próxima pergunta automática
-  let automatico = true;
+  let agendadaPara = null;    // rodada cuja próxima pergunta automática já foi agendada (uma vez por rodada)
+  let automatico = false;     // modo automático, ligado e pausado pela tela que comanda (guardado neste aparelho)
+  const chaveAuto = () => `mestre2.arena.auto.${codigo}`;
   let tentouFecharEm = 0;     // última tentativa de fechar a rodada, para repetir com calma se der erro
 
   const souAnfitriao = () => Boolean(uid) && partida.anfitriao === uid;
@@ -364,6 +365,8 @@
     $("espera-url").innerHTML = `${esc(curto)} · código <strong>${esc(c)}</strong>`;
     $("canto-url").innerHTML = `${esc(curto)}<br>código <strong>${esc(c)}</strong>`;
     manterAcesa();
+    try { automatico = localStorage.getItem(chaveAuto()) === "ligado"; } catch { automatico = false; }
+    proximaEm = null; agendadaPara = null;
     await carregando;
     carregarRecentes(c);
 
@@ -393,7 +396,6 @@
     if (!pendente || !r) nVisto = r?.n ?? null;
     ouvirRespostas(r?.n ?? null);
     if (r?.fase !== "revelada") proximaEm = null;
-    else if (proximaEm === null && souAnfitriao() && !partida.fim && automatico) proximaEm = Date.now() + ESPERA_PROXIMA * 1000;
     desenhar();
   }
 
@@ -495,21 +497,32 @@
     if (souAnfitriao() && partida.rodada?.fase === "encerrada") fechar();
   }
 
-  // Relógio: a contagem na tela e, na tela que comanda, o fim do prazo, o fim antecipado (todos responderam) e a
-  // próxima pergunta automática.
+  // Todos os jogadores já responderam a rodada em jogo?
+  const todosResponderam = () => jogadores.length > 0 && jogadores.every(j => respostas.some(x => x.jogador === j.id));
+
+  // Relógio: a contagem na tela e, na tela que comanda, o fechamento quando todos responderam e a próxima pergunta do
+  // modo automático. O fim do prazo não faz nada sozinho (2026-11-23): a contagem é só um aviso, as respostas continuam
+  // valendo, e quem comanda mostra a resposta quando quiser. Com todos respondendo, a resposta aparece sozinha; no modo
+  // automático, a próxima pergunta sai 10 s depois, mas só se todos tiverem respondido.
   setInterval(() => {
     const r = partida.rodada;
     if (!codigo || !r) return;
     desenharTempo();
     if (!souAnfitriao()) return;
     if (r.fase === "respondendo") {
-      const todos = jogadores.length > 0 && jogadores.every(j => respostas.some(x => x.jogador === j.id));
-      if (todos || (r.inicio?.toMillis?.() ?? Infinity) + r.prazo * 1000 + FOLGA_FECHAR <= agora()) fechar();
+      if (todosResponderam()) fechar();
     } else if (r.fase === "encerrada" && Date.now() - tentouFecharEm > 3000) {
       fechar();
-    } else if (r.fase === "revelada" && proximaEm !== null && Date.now() >= proximaEm && !ocupado) {
-      proximaEm = null;
-      novaRodada();
+    } else if (r.fase === "revelada" && automatico && !partida.fim && !ocupado) {
+      if (proximaEm === null && agendadaPara !== r.n && todosResponderam()) {
+        agendadaPara = r.n;
+        proximaEm = Date.now() + ESPERA_PROXIMA * 1000;
+        desenharControles();
+      }
+      if (proximaEm !== null && Date.now() >= proximaEm) {
+        proximaEm = null;
+        novaRodada();
+      }
     }
   }, 200);
 
@@ -520,11 +533,17 @@
     novaRodada();
   };
   $("revelar-ja").onclick = () => fechar();
+  // Iniciar o modo automático: sem pergunta na tela, sai a primeira já; com a resposta à mostra, a próxima sai em 10 s.
+  // Pausar: nada sai sozinho até iniciar de novo.
   $("automatico").onclick = () => {
     automatico = !automatico;
-    $("automatico").setAttribute("aria-pressed", String(automatico));
-    if (!automatico) proximaEm = null;
-    else if (partida.rodada?.fase === "revelada" && !partida.fim) proximaEm = Date.now() + ESPERA_PROXIMA * 1000;
+    try { localStorage.setItem(chaveAuto(), automatico ? "ligado" : "pausado"); } catch {}
+    const r = partida.rodada;
+    proximaEm = null;
+    if (automatico && !partida.fim) {
+      if (!r && jogadores.length) novaRodada();
+      else if (r?.fase === "revelada") { agendadaPara = r.n; proximaEm = Date.now() + ESPERA_PROXIMA * 1000; }
+    }
     desenharControles();
   };
 
@@ -583,8 +602,9 @@
     }));
     const n = jogadores.filter(j => respostas.some(x => x.jogador === j.id)).length;
     $("status").textContent =
-      r.fase === "respondendo" ? `${n} de ${jogadores.length} responderam` :
-      r.fase === "encerrada" ? "Tempo esgotado. Conferindo as respostas…" :
+      r.fase === "respondendo" ? (restante(r) > 0 ? `${n} de ${jogadores.length} responderam`
+        : `Tempo esgotado · ${n} de ${jogadores.length} responderam · ainda dá para responder`) :
+      r.fase === "encerrada" ? "Conferindo as respostas…" :
       acertaramTexto();
   }
   function acertaramTexto() {
@@ -594,9 +614,11 @@
       : `Acertaram: ${quem.map(j => j.nome).join(", ")}.`;
   }
 
+  let esgotadoVisto = null;  // rodada cujo fim de prazo já foi desenhado
   function desenharTempo() {
     const r = partida.rodada;
     if (!r || partida.fim) return;
+    if (r.fase === "respondendo" && restante(r) <= 0 && esgotadoVisto !== r.n) { esgotadoVisto = r.n; desenharPergunta(r); }
     const ms = r.fase === "respondendo" ? restante(r) : 0;
     $("tempo").hidden = r.fase === "revelada";
     $("tempo-barra").firstElementChild.style.width = `${(100 * ms / (r.prazo * 1000)).toFixed(1)}%`;
@@ -646,8 +668,12 @@
     $("proxima").disabled = !r && !jogadores.length;
     $("revelar-ja").hidden = r?.fase !== "respondendo";
     $("automatico").hidden = fim;
+    $("automatico").textContent = automatico ? "⏸ Pausar modo automático" : "▶ Iniciar modo automático";
+    $("automatico").setAttribute("aria-pressed", String(automatico));
     if (fim) $("msg").textContent = "Fim de partida. Para jogar de novo, saia e crie outra.";
     else if (!r) $("msg").textContent = jogadores.length ? "" : "Esperando os jogadores entrarem.";
+    else if (r.fase === "revelada" && automatico && proximaEm === null && !todosResponderam())
+      $("msg").textContent = "Nem todos responderam: toque em Próxima pergunta.";
     else if (r.fase !== "revelada" || proximaEm === null) $("msg").textContent = "";
   }
 

@@ -101,7 +101,8 @@ service cloud.firestore {
       }
 
       // Arena: a resposta de cada jogador em cada rodada, com o id "n_uid". Uma só, sem troca, gravada pelo próprio
-      // jogador enquanto a rodada aceita respostas: fase "respondendo" e até 3 s depois do prazo, na hora do servidor.
+      // jogador enquanto a rodada aceita respostas: fase "respondendo", mesmo depois do prazo (2026-11-23), até a tela
+      // grande fechar a rodada.
       match /respostas/{id} {
         allow read: if true;
         allow create: if request.auth != null
@@ -174,8 +175,7 @@ service cloud.firestore {
     }
     function rodadaAberta(codigo, n) {
       let p = partidaDe(codigo);
-      return p.get('modo', 'master') == 'arena' && p.rodada.n == n && p.rodada.fase == 'respondendo'
-             && request.time <= p.rodada.inicio + duration.value(p.rodada.prazo + 3, 's');
+      return p.get('modo', 'master') == 'arena' && p.rodada.n == n && p.rodada.fase == 'respondendo';
     }
     // Arena: a rodada só anda em ordem: "respondendo" → "encerrada" → "revelada" → a seguinte ("respondendo", n + 1).
     // Assim a revelação (e os peões que andam com ela) vale uma vez só.
