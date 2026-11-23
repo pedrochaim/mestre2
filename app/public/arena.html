@@ -189,13 +189,14 @@
     <button id="revelar-ja" hidden>Encerrar o tempo</button>
     <button id="automatico" aria-pressed="true" title="Depois da resposta, a próxima pergunta sai sozinha">Próxima automática</button>
     <p id="msg" class="suave"></p>
+    <p id="erro" class="erro" style="margin:0"></p>
   </div>
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
 <script type="module">
   import { collection, doc, getDoc, setDoc, addDoc, updateDoc, deleteDoc, onSnapshot, query, orderBy, where, getDocs,
-           runTransaction, serverTimestamp, increment, Timestamp }
+           getDocFromServer, getDocsFromServer, writeBatch, serverTimestamp, increment, Timestamp }
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import * as L from "./linear.js";
   import { db, entrarAnonimo, LETRAS, PRAZOS, PRAZO_PADRAO, OPCOES, CORES, abrev, corDe, $, el, esc, umDe, peao, ficha,
@@ -369,16 +370,7 @@
     const base = doc(db, "partidas", c);
     nVisto = undefined;
     desligar.push(onSnapshot(base, snap => {
-      partida = snap.data({ serverTimestamps: "estimate" }) || {};
-      const r = partida.rodada;
-      // A rodada que começa ao vivo acerta o relógio deste aparelho pelo do servidor.
-      if (r && r.n !== nVisto && nVisto !== undefined && r.fase === "respondendo" && !snap.metadata.hasPendingWrites && r.inicio)
-        acertarRelogio(r.inicio.toMillis());
-      if (!snap.metadata.hasPendingWrites || !r) nVisto = r?.n ?? null;
-      ouvirRespostas(r?.n ?? null);
-      if (r?.fase !== "revelada") proximaEm = null;
-      else if (proximaEm === null && souAnfitriao() && !partida.fim && automatico) proximaEm = Date.now() + ESPERA_PROXIMA * 1000;
-      desenhar();
+      receberPartida(snap.data({ serverTimestamps: "estimate" }) || {}, snap.metadata.hasPendingWrites);
       retomar();
     }));
     desligar.push(onSnapshot(query(collection(base, "jogadores"), orderBy("criado_em")), snap => {
@@ -389,6 +381,20 @@
       usadas = new Map();
       for (const d of snap.docs) usadas.set(d.data().pergunta, (usadas.get(d.data().pergunta) || 0) + 1);
     }));
+  }
+
+  // Um retrato novo da partida, do ouvinte do Firestore ou lido direto do servidor (quando o ouvinte atrasa).
+  function receberPartida(dados, pendente = false) {
+    partida = dados;
+    const r = partida.rodada;
+    // A rodada que começa ao vivo acerta o relógio deste aparelho pelo do servidor.
+    if (r && r.n !== nVisto && nVisto !== undefined && r.fase === "respondendo" && !pendente && r.inicio)
+      acertarRelogio(r.inicio.toMillis());
+    if (!pendente || !r) nVisto = r?.n ?? null;
+    ouvirRespostas(r?.n ?? null);
+    if (r?.fase !== "revelada") proximaEm = null;
+    else if (proximaEm === null && souAnfitriao() && !partida.fim && automatico) proximaEm = Date.now() + ESPERA_PROXIMA * 1000;
+    desenhar();
   }
 
   // Respostas da rodada em jogo: ouvidas de novo a cada rodada.
@@ -424,7 +430,7 @@
     const r = partida.rodada;
     if (r && r.fase !== "revelada") return;
     ocupado = true;
-    $("msg").textContent = "";
+    $("erro").textContent = "";
     try {
       const n = (r?.n || 0) + 1;
       const p = sortear(n);
@@ -436,43 +442,49 @@
       if (!partida.inicio) dados.inicio = serverTimestamp();
       await updateDoc(doc(db, "partidas", codigo), dados);
     } catch (e) {
-      $("msg").textContent = "Erro: " + e.message;
+      $("erro").textContent = "Erro: " + e.message;
     } finally {
       ocupado = false;
     }
   }
 
   // Fecha a rodada em dois passos, para nenhuma resposta escapar da contagem: primeiro "encerrada" (a regra para de
-  // aceitar respostas), depois lê todas do servidor e, numa transação, revela a certa e anda com quem acertou. Se a
-  // tela recarregar no meio, retomar() refaz o segundo passo, e a transação garante que ele valha uma vez só.
+  // aceitar respostas), depois lê todas do servidor e, num lote, revela a certa e anda com quem acertou. O lote aparece
+  // na hora neste aparelho, sem esperar o ouvinte do Firestore (que, em alguns aparelhos, deixava a tela parada em
+  // "Conferindo"). As regras só aceitam a revelação a partir de "encerrada", então ela vale uma vez só, mesmo se a tela
+  // recarregar no meio (retomar) ou tentar de novo. Antes de tudo, o estado vem do servidor: se ele já estiver à frente
+  // do retrato local, a tela só se atualiza.
   async function fechar() {
     const r = partida.rodada;
     if (!souAnfitriao() || ocupado || !r || r.fase === "revelada") return;
     ocupado = true;
     tentouFecharEm = Date.now();
+    const base = doc(db, "partidas", codigo);
     try {
-      const base = doc(db, "partidas", codigo);
-      if (r.fase === "respondendo") await updateDoc(base, { "rodada.fase": "encerrada" });
+      const servidor = (await getDocFromServer(base)).data();
+      if (servidor.rodada?.n !== r.n || servidor.rodada.fase === "revelada") return receberPartida(servidor);
+      if (servidor.rodada.fase === "respondendo") await updateDoc(base, { "rodada.fase": "encerrada" });
       const p = porId.get(r.pergunta);
       const certa = r.opcoes.indexOf(p?.resposta);
-      const lidas = (await getDocs(query(collection(base, "respostas"), where("n", "==", r.n)))).docs.map(d => d.data());
+      const lidas = (await getDocsFromServer(query(collection(base, "respostas"), where("n", "==", r.n)))).docs.map(d => d.data());
       const ids = new Set(jogadores.map(j => j.id));
       const acertaram = [...new Set(lidas.filter(x => x.opcao === certa && ids.has(x.jogador)).map(x => x.jogador))];
-      await runTransaction(db, async t => {
-        const agoraNoServidor = (await t.get(base)).data();
-        if (agoraNoServidor.rodada?.n !== r.n || agoraNoServidor.rodada.fase !== "encerrada") return;
-        const mudar = { "rodada.fase": "revelada", "rodada.certa": certa };
-        const chegaram = jogadores.filter(j => acertaram.includes(j.id) && (j.pontos || 0) + 1 >= L.CHEGADA).map(j => j.id);
-        if (chegaram.length && !agoraNoServidor.fim) {
-          const inicio = agoraNoServidor.inicio?.toMillis?.() ?? Date.now();
-          Object.assign(mudar, { fim: serverTimestamp(), vencedores: chegaram,
-            duracao: Math.max(0, Math.min(604800, Math.round((Date.now() - inicio) / 1000))) });
-        }
-        t.update(base, mudar);
-        for (const id of acertaram) t.update(doc(base, "jogadores", id), { pontos: increment(1) });
-      });
+      const mudar = { "rodada.fase": "revelada", "rodada.certa": certa };
+      const chegaram = jogadores.filter(j => acertaram.includes(j.id) && (j.pontos || 0) + 1 >= L.CHEGADA).map(j => j.id);
+      if (chegaram.length && !servidor.fim) {
+        const inicio = servidor.inicio?.toMillis?.() ?? Date.now();
+        Object.assign(mudar, { fim: serverTimestamp(), vencedores: chegaram,
+          duracao: Math.max(0, Math.min(604800, Math.round((Date.now() - inicio) / 1000))) });
+      }
+      const lote = writeBatch(db);
+      lote.update(base, mudar);
+      for (const id of acertaram) lote.update(doc(base, "jogadores", id), { pontos: increment(1) });
+      await lote.commit();
+      $("erro").textContent = "";
     } catch (e) {
-      $("msg").textContent = "Erro ao fechar a rodada: " + e.message;
+      // Recusado porque outra tentativa já revelou: só falta mostrar.
+      try { receberPartida((await getDocFromServer(base)).data()); } catch {}
+      if (partida.rodada?.fase !== "revelada") $("erro").textContent = "Erro ao fechar a rodada (tentando de novo): " + e.message;
     } finally {
       ocupado = false;
     }
@@ -495,7 +507,7 @@
       if (todos || (r.inicio?.toMillis?.() ?? Infinity) + r.prazo * 1000 + FOLGA_FECHAR <= agora()) fechar();
     } else if (r.fase === "encerrada" && Date.now() - tentouFecharEm > 3000) {
       fechar();
-    } else if (r.fase === "revelada" && proximaEm !== null && Date.now() >= proximaEm) {
+    } else if (r.fase === "revelada" && proximaEm !== null && Date.now() >= proximaEm && !ocupado) {
       proximaEm = null;
       novaRodada();
     }
@@ -527,7 +539,7 @@
     $("fim").hidden = !fim;
     $("entrar-canto").hidden = !r || fim;
     if (!r) chipsDePrazo($("prazos"), partida.prazo || PRAZO_PADRAO, s => {
-      if (souAnfitriao()) updateDoc(doc(db, "partidas", codigo), { prazo: s }).catch(e => ($("msg").textContent = "Erro: " + e.message));
+      if (souAnfitriao()) updateDoc(doc(db, "partidas", codigo), { prazo: s }).catch(e => ($("erro").textContent = "Erro: " + e.message));
     });
     $("prazos").querySelectorAll("button").forEach(b => { b.disabled = !souAnfitriao(); });
     if (r && !fim) desenharPergunta(r);

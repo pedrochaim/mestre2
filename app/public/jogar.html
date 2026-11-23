@@ -117,7 +117,7 @@
 </main>
 
 <script type="module">
-  import { doc, getDoc, setDoc, updateDoc, deleteDoc, onSnapshot, serverTimestamp }
+  import { doc, getDoc, getDocFromServer, setDoc, updateDoc, deleteDoc, onSnapshot, serverTimestamp }
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import { CHEGADA } from "./linear.js";
   import { db, entrarAnonimo, OPCOES, CORES, corDe, $, el, esc, umDe, ficha, restante, acertarRelogio, manterAcesa }
@@ -200,23 +200,26 @@
     manterAcesa();
     const base = doc(db, "partidas", c);
     nVisto = undefined;
-    desligar.push(onSnapshot(base, snap => {
-      partida = snap.data({ serverTimestamps: "estimate" }) || {};
-      const r = partida.rodada;
-      if (r && nVisto !== undefined && r.n !== nVisto && r.fase === "respondendo") {
-        if (r.inicio) acertarRelogio(r.inicio.toMillis());
-        navigator.vibrate?.(120);
-      }
-      nVisto = r?.n ?? null;
-      ouvirMinha(r?.n ?? null);
-      desenhar();
-    }));
+    desligar.push(onSnapshot(base, snap => receberPartida(snap.data({ serverTimestamps: "estimate" }) || {})));
     desligar.push(onSnapshot(doc(base, "jogadores", uid), snap => {
       eu = snap.exists() ? { id: snap.id, ...snap.data() } : null;
       // Tirado da partida pela tela grande (ou saiu por outro aparelho com o mesmo login).
       if (!eu) return sair("Você não está mais nesta partida. Entre de novo, se quiser.");
       desenhar();
     }));
+  }
+
+  // Um retrato novo da partida, do ouvinte do Firestore ou lido direto do servidor (quando o ouvinte atrasa).
+  function receberPartida(dados) {
+    partida = dados;
+    const r = partida.rodada;
+    if (r && nVisto !== undefined && r.n !== nVisto && r.fase === "respondendo") {
+      if (r.inicio) acertarRelogio(r.inicio.toMillis());
+      navigator.vibrate?.(120);
+    }
+    nVisto = r?.n ?? null;
+    ouvirMinha(r?.n ?? null);
+    desenhar();
   }
 
   // A minha resposta na rodada em jogo, como ficou gravada.
@@ -335,10 +338,21 @@
     $("tempo-s").textContent = `${Math.ceil(ms / 1000)} s`;
     $("tempo").classList.toggle("acabando", ms > 0 && ms <= 5000);
   }
-  // A contagem anda sozinha; quando o tempo acaba, os botões travam.
-  let aberta = false;
-  setInterval(() => {
+  // A contagem anda sozinha; quando o tempo acaba, os botões travam. Se a rodada ficar parada em "encerrada" (ou
+  // passar muito do prazo) por alguns segundos, o celular confere a partida direto no servidor, para o caso de o
+  // ouvinte do Firestore ter atrasado.
+  let aberta = false, paradaDesde = null, conferindo = false;
+  setInterval(async () => {
     const r = partida.rodada;
+    const parada = codigo && r && (r.fase === "encerrada" || (r.fase === "respondendo" && restante(r) <= 0));
+    paradaDesde = parada ? paradaDesde ?? Date.now() : null;
+    if (parada && Date.now() - paradaDesde > 3000 && !conferindo) {
+      conferindo = true;
+      paradaDesde = Date.now();
+      const c = codigo;
+      try { const snap = await getDocFromServer(doc(db, "partidas", c)); if (codigo === c) receberPartida(snap.data() || {}); } catch {}
+      conferindo = false;
+    }
     if (!codigo || r?.fase !== "respondendo") return;
     desenharTempo();
     const agoraAberta = restante(r) > 0;

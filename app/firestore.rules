@@ -58,7 +58,9 @@ service cloud.firestore {
                             && request.resource.data.rodada.fase in ['respondendo', 'encerrada', 'revelada']
                             && request.resource.data.rodada.inicio is timestamp
                             && prazoValido(request.resource.data.rodada.prazo)
-                            && request.resource.data.rodada.opcoes is list && request.resource.data.rodada.opcoes.size() == 4))
+                            && request.resource.data.rodada.opcoes is list && request.resource.data.rodada.opcoes.size() == 4
+                            && (!('rodada' in request.resource.data.diff(resource.data).affectedKeys())
+                                || rodadaSegue(resource.data, request.resource.data))))
                     && prazoValido(request.resource.data.prazo)
                     && (!('inicio' in request.resource.data.diff(resource.data).affectedKeys())
                         || (!('inicio' in resource.data) && request.resource.data.inicio == request.time))
@@ -72,7 +74,8 @@ service cloud.firestore {
 
       // "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1 do Master.
       // Na Arena, o id do jogador é o uid do celular dele: só ele cria o próprio jogador e troca nome e cor ("tema"); só a
-      // tela grande muda a casa. Sai o próprio jogador ou quem a tela grande tirar.
+      // tela grande muda a casa: +1, só no mesmo lote que revela a resposta. Sai o próprio jogador ou quem a tela grande
+      // tirar.
       match /jogadores/{id} {
         allow read: if true;
         allow create: if request.resource.data.keys().hasOnly(['nome', 'pontos', 'tema', 'criado_em'])
@@ -88,7 +91,8 @@ service cloud.firestore {
         allow update: if ehArena(codigo) && request.auth != null
                       && ((request.auth.uid == partidaDe(codigo).anfitriao
                            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos'])
-                           && request.resource.data.pontos is int && request.resource.data.pontos >= 0)
+                           && request.resource.data.pontos == resource.data.pontos + 1
+                           && revelandoAgora(codigo))
                           || (request.auth.uid == id
                               && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['nome', 'tema'])
                               && nomeValido(request.resource.data) && temaValido(request.resource.data)));
@@ -172,6 +176,21 @@ service cloud.firestore {
       let p = partidaDe(codigo);
       return p.get('modo', 'master') == 'arena' && p.rodada.n == n && p.rodada.fase == 'respondendo'
              && request.time <= p.rodada.inicio + duration.value(p.rodada.prazo + 3, 's');
+    }
+    // Arena: a rodada só anda em ordem: "respondendo" → "encerrada" → "revelada" → a seguinte ("respondendo", n + 1).
+    // Assim a revelação (e os peões que andam com ela) vale uma vez só.
+    function rodadaSegue(antes, depois) {
+      return (depois.rodada.fase == 'respondendo'
+              && ((!('rodada' in antes) && depois.rodada.n == 1)
+                  || ('rodada' in antes && antes.rodada.fase == 'revelada' && depois.rodada.n == antes.rodada.n + 1)))
+          || ('rodada' in antes && depois.rodada.n == antes.rodada.n
+              && ((depois.rodada.fase == 'encerrada' && antes.rodada.fase == 'respondendo')
+                  || (depois.rodada.fase == 'revelada' && antes.rodada.fase == 'encerrada')));
+    }
+    // O lote em curso leva a rodada de "encerrada" a "revelada".
+    function revelandoAgora(codigo) {
+      return partidaDe(codigo).rodada.fase == 'encerrada'
+             && getAfter(/databases/$(database)/documents/partidas/$(codigo)).data.rodada.fase == 'revelada';
     }
     function prazoValido(prazo) {
       return prazo is int && prazo >= 5 && prazo <= 120;
