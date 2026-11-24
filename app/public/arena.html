@@ -325,7 +325,7 @@
   import { db, entrarAnonimo, LETRAS, PRAZOS, PRAZO_PADRAO, OPCOES, CORES, abrev, corDe, $, el, esc, umDe, peao, ficha,
            agora, acertarRelogio, restante, manterAcesa } from "./arena-comum.js";
 
-  const ESPERA_PROXIMA = 10;  // segundos entre a resposta revelada e a próxima pergunta automática
+  const ESPERA_PROXIMA = 7;  // segundos entre a resposta revelada e a próxima pergunta automática
 
   let uid = null;
   let codigo = null;
@@ -683,7 +683,7 @@
   // Relógio: a contagem na tela e, na tela que comanda, o fechamento quando todos responderam e a próxima pergunta do
   // modo automático. O fim do prazo não faz nada sozinho (2026-11-23): a contagem é só um aviso, as respostas continuam
   // valendo, e quem comanda mostra a resposta quando quiser. Com todos respondendo, a resposta aparece sozinha; no modo
-  // automático, a próxima pergunta sai 10 s depois, mas só se todos tiverem respondido.
+  // automático, a próxima pergunta sai ESPERA_PROXIMA (7 s) depois, mas só se todos tiverem respondido.
   // Sons do relógio (experimental, com o suspense): na tela grande, um som quando a pergunta aparece ao vivo, um
   // tique-taque a cada segundo do prazo e um aviso quando ele acaba. Só para a rodada vista aberta neste aparelho.
   let relogioDe = null, segundoTocado = null;  // rodada e último segundo já tocados
@@ -762,7 +762,7 @@
   // Os navegadores só liberam o som depois de um toque: qualquer toque na tela grande serve.
   addEventListener("pointerdown", () => S.prepararSom());
   addEventListener("keydown", () => S.prepararSom());
-  // Iniciar o modo automático: sem pergunta na tela, sai a primeira já; com a resposta à mostra, a próxima sai em 10 s.
+  // Iniciar o modo automático: sem pergunta na tela, sai a primeira já; com a resposta à mostra, a próxima sai em ESPERA_PROXIMA (7 s).
   // Pausar: nada sai sozinho até iniciar de novo.
   function mudarAutomatico(v) {
     automatico = v;
@@ -994,7 +994,7 @@
     if (num.textContent !== String(s)) {
       const novo = num.cloneNode(); novo.textContent = s; num.replaceWith(novo);
       $("aviso-proxima").setAttribute("aria-label", `Próxima pergunta em ${s} segundos`);
-      // Som da contagem (experimental, com "Sons e suspense"): um de 10, sorteado a cada contagem, junto com o número.
+      // Som da contagem (experimental, com "Sons e suspense"): um dos 10, sorteado a cada contagem, junto com o número.
       if (partida.experimental) {
         if (contagemSom !== proximaEm) { contagemSom = proximaEm; S.novaContagem(); }
         S.somContagem(s);

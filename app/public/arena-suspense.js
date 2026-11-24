@@ -353,7 +353,7 @@ export function novaContagem() {
   do { k = Math.floor(Math.random() * CONTAGENS.length); } while (k === contagemDaVez && CONTAGENS.length > 1);
   contagemDaVez = k;
 }
-// Um segundo da contagem (10 a 1).
+// Um segundo da contagem (de ESPERA_PROXIMA, hoje 7, até 1; os sons servem para até 10).
 export function somContagem(s) {
   if (!pronto() || s < 1) return;
   if (contagemDaVez < 0) novaContagem();
