@@ -71,7 +71,42 @@
     #enunciado { font-size: clamp(1.2rem, 4.2vmin, 3rem); font-weight: 700; line-height: 1.2; margin: 0; }
     #figura { flex: 1 1 0; min-height: 12vmin; display: flex; justify-content: center; }
     #figura[hidden] { display: none; }
-    #figura img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 10px; background: #fff; }
+    #figura img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 10px; background: #fff; cursor: zoom-in; }
+
+    /* Figura ampliada (como no modo mesa do jogo original): tocar na figura a mostra ocupando o palco, com a pergunta,
+       as alternativas e o tempo embaixo; outro toque (ou Esc) volta. Só neste aparelho. A barra do alto e os controles
+       continuam à vista. */
+    #palco { position: relative; }
+    #zoom { position: absolute; inset: 0; z-index: 3; background: #000; display: flex; flex-direction: column; gap: 1.4vmin;
+            cursor: zoom-out; }
+    #zoom[hidden] { display: none; }
+    #zoom > img { flex: 1; min-height: 0; width: 100%; object-fit: contain; }
+    #zoom .z-legenda { flex: none; display: flex; flex-direction: column; gap: 1.2vmin; font-size: clamp(1rem, 3vmin, 2.2rem); }
+    #zoom .z-topo { display: flex; align-items: center; gap: .4em 1em; flex-wrap: wrap; }
+    #zoom .etiqueta { align-self: center; font-size: .7em; }
+    #zoom .z-texto { flex: 1 1 20em; font-weight: 700; font-size: 1.15em; line-height: 1.2; }
+    #zoom ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1vmin; }
+    @media (orientation: portrait) { #zoom ol { grid-template-columns: 1fr 1fr; } }
+    #zoom li { display: flex; align-items: center; gap: .5em; padding: .35em .6em; border: 2px solid var(--linha); border-radius: .5em;
+               background: var(--cartao); font-weight: 600; min-width: 0; transition: opacity .3s; }
+    #zoom .letra { flex: none; width: 1.6em; height: 1.6em; border-radius: .25em; background: var(--texto); color: #000; display: grid;
+                   place-items: center; font-family: var(--mono); font-weight: 600; }
+    #zoom .texto { flex: 1; min-width: 0; }
+    #zoom .quem { display: flex; gap: .2em; flex-wrap: wrap; justify-content: flex-end; max-width: 40%; }
+    #zoom .quem .bola { width: 1.4em; height: 1.4em; font-size: .6em; }
+    #zoom .quem .bola.av { width: 1.8em; height: 1.8em; font-size: inherit; }
+    #zoom ol.revelada li:not(.certa) { opacity: .45; }
+    #zoom li.certa { border-color: var(--certo); background: var(--certo); color: #000; }
+    #zoom li.certa .letra { background: #000; color: var(--certo); }
+    #zoom .z-rodape { display: flex; align-items: center; gap: 1.2vmin; font-size: .8em; }
+    #zoom .z-barra { flex: 1; height: 1.2vmin; min-height: 6px; background: var(--linha); border-radius: 999px; overflow: hidden; }
+    #zoom .z-barra div { height: 100%; background: var(--acento); }
+    #zoom .z-rodape.acabando .z-barra div { background: var(--errado); }
+    #zoom .z-s { min-width: 2.2em; text-align: right; font-family: var(--mono); font-weight: 600; color: var(--acento); }
+    #zoom .z-status { color: var(--suave); }
+    #zoom .z-barra[hidden] + .z-s + .z-status { flex: 1; }
+    #zoom .z-dica { position: absolute; top: 1vmin; right: 1.5vmin; color: var(--suave); background: #000c; padding: .2em .6em;
+                    border-radius: .5em; font-size: clamp(11px, 1.6vmin, 20px); }
     #opcoes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2vmin; margin: 0; padding: 0; list-style: none; }
     #opcoes li { border: 2px solid var(--linha); border-radius: 14px; padding: 1.2vmin 1.6vmin; display: flex; gap: 1.2vmin; align-items: center;
                  font-size: clamp(1rem, 3.2vmin, 2.2rem); font-weight: 600; min-height: 9vmin; transition: opacity .3s, border-color .3s; }
@@ -238,6 +273,17 @@
         <p id="fim-duracao" class="suave"></p>
       </div>
     </section>
+
+    <!-- Figura ampliada: ocupa o palco, com a pergunta embaixo; tocar volta -->
+    <div id="zoom" hidden>
+      <img alt="Figura da pergunta ampliada">
+      <div class="z-legenda">
+        <div class="z-topo"><span class="etiqueta"></span><span class="z-texto"></span></div>
+        <ol></ol>
+        <div class="z-rodape"><div class="z-barra"><div></div></div><span class="z-s"></span><span class="z-status"></span></div>
+      </div>
+      <span class="z-dica">Toque para voltar</span>
+    </div>
 
     <section>
       <div id="tabuleiro"></div>
@@ -507,6 +553,7 @@
   // A resposta foi revelada ao vivo e o suspense está ligado: a pergunta aparece como antes da resposta, e a animação
   // vira as cartas; no fim, tudo é desenhado com a resposta (e o tabuleiro anda).
   function iniciarSuspense(r) {
+    fecharZoom();  // a animação acontece no cartão: a figura ampliada sai da frente
     desenharPergunta({ ...r, fase: "encerrada" });
     suspense = { n: r.n };
     abertaVista = null;  // o suspense desta rodada já começou: retratos seguintes da partida não o repetem
@@ -823,7 +870,39 @@
     if (!arrasto) $("tabuleiro").innerHTML = L.svgLinear(jogadores, casaVisivel, CORES, abrev, esc, peaoTela, partida.semente);
     desenharControles();
     desenharTempo();
+    desenharZoom();
   }
+
+  // Figura ampliada: copia do cartão o tema, o enunciado, a figura e as alternativas (com quem escolheu cada uma, depois
+  // da resposta); sem pergunta com figura na tela, fecha.
+  function desenharZoom() {
+    const z = $("zoom");
+    if (z.hidden) return;
+    if ($("cartao").hidden || $("figura").hidden) return fecharZoom();
+    for (const v of ["--c", "--ct"]) z.style.setProperty(v, $("cartao").style.getPropertyValue(v));
+    z.querySelector(".etiqueta").textContent = $("tema").textContent;
+    z.querySelector(".z-texto").textContent = $("enunciado").textContent;
+    const img = z.querySelector("img");
+    if (img.src !== $("figura-img").src) img.src = $("figura-img").src;
+    const ol = z.querySelector("ol");
+    ol.className = $("opcoes").className;
+    ol.replaceChildren(...[...$("opcoes").children].map(li => li.cloneNode(true)));
+    desenharTempoZoom();
+  }
+  function desenharTempoZoom() {
+    const z = $("zoom");
+    if (z.hidden) return;
+    const semTempo = $("tempo").hidden;
+    z.querySelector(".z-barra").hidden = z.querySelector(".z-s").hidden = semTempo;
+    z.querySelector(".z-barra div").style.width = $("tempo-barra").firstElementChild.style.width;
+    z.querySelector(".z-s").textContent = $("tempo-s").textContent;
+    z.querySelector(".z-rodape").classList.toggle("acabando", $("tempo").classList.contains("acabando"));
+    z.querySelector(".z-status").textContent = $("status").textContent;
+  }
+  function fecharZoom() { $("zoom").hidden = true; }
+  $("figura-img").addEventListener("click", () => { $("zoom").hidden = false; desenharZoom(); });
+  $("zoom").onclick = fecharZoom;
+  addEventListener("keydown", e => { if (e.key === "Escape" && !$("zoom").hidden) { e.preventDefault(); fecharZoom(); } });
 
   let figuraDe = null;  // "pergunta|revelada" da figura na tela, para não recarregar a imagem a cada retrato
   function desenharPergunta(r) {
@@ -881,6 +960,7 @@
     $("tempo-barra").firstElementChild.style.width = `${(100 * ms / (r.prazo * 1000)).toFixed(1)}%`;
     $("tempo-s").textContent = `${Math.ceil(ms / 1000)} s`;
     $("tempo").classList.toggle("acabando", ms > 0 && ms <= 5000);
+    desenharTempoZoom();
   }
 
   let contagemSom = null;  // a contagem (proximaEm) cujo som já foi sorteado
