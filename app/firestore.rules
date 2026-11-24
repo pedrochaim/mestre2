@@ -90,7 +90,8 @@ service cloud.firestore {
 
       // "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1 do Master.
       // Na Arena, o id do jogador é o uid do celular dele: só ele cria o próprio jogador e troca nome e cor ("tema"); só a
-      // tela grande muda a casa: +1, só no mesmo lote que revela a resposta. Sai o próprio jogador ou quem a tela grande
+      // tela grande muda a casa: +1 no lote que revela a resposta, ou à mão, arrastando o peão (2026-11-23). A revelação
+      // continua valendo uma vez só pela regra da partida (a ordem das fases). Sai o próprio jogador ou quem a tela grande
       // tirar.
       match /jogadores/{id} {
         allow read: if true;
@@ -107,8 +108,8 @@ service cloud.firestore {
         allow update: if ehArena(codigo) && request.auth != null
                       && ((request.auth.uid == partidaDe(codigo).anfitriao
                            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos'])
-                           && request.resource.data.pontos == resource.data.pontos + 1
-                           && revelandoAgora(codigo))
+                           && request.resource.data.pontos is int && request.resource.data.pontos >= 0
+                           && request.resource.data.pontos <= 100)
                           || (request.auth.uid == id
                               && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['nome', 'tema'])
                               && nomeValido(request.resource.data) && temaValido(request.resource.data)));
@@ -202,11 +203,6 @@ service cloud.firestore {
           || ('rodada' in antes && depois.rodada.n == antes.rodada.n
               && ((depois.rodada.fase == 'encerrada' && antes.rodada.fase == 'respondendo')
                   || (depois.rodada.fase == 'revelada' && antes.rodada.fase == 'encerrada')));
-    }
-    // O lote em curso leva a rodada de "encerrada" a "revelada".
-    function revelandoAgora(codigo) {
-      return partidaDe(codigo).rodada.fase == 'encerrada'
-             && getAfter(/databases/$(database)/documents/partidas/$(codigo)).data.rodada.fase == 'revelada';
     }
     function prazoValido(prazo) {
       return prazo is int && prazo >= 5 && prazo <= 120;

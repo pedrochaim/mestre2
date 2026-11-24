@@ -255,6 +255,7 @@
     if (r?.fase === "revelada" && partida.experimental && abertaVista === r.n && suspense?.n !== r.n) {
       const n = r.n;
       suspense = { n, inicio: Date.now() };
+      abertaVista = null;  // o suspense desta rodada já começou: retratos seguintes da partida não o repetem
       setTimeout(() => {
         if (suspense?.n !== n) return;
         suspense = null;

@@ -131,6 +131,9 @@
 
     /* Tabuleiro e jogadores */
     #tabuleiro svg { width: 100%; height: auto; display: block; max-height: 62vh; }
+    /* A tela que comanda arrasta os peões; solto, o peão vai para a casa mais próxima da trilha. */
+    #tabuleiro .peao { cursor: grab; touch-action: none; }
+    #tabuleiro .peao.arrastando { cursor: grabbing; filter: drop-shadow(0 0 12px #fff); }
     #jogadores { display: flex; flex-wrap: wrap; gap: .6vmin 1.2vmin; font-size: clamp(.85rem, 2.2vmin, 1.4rem); overflow: auto; }
     .ficha { display: inline-flex; align-items: center; gap: .35em; padding: .15em .6em .15em .15em; border: 1px solid var(--linha);
              border-radius: 999px; background: var(--cartao); }
@@ -293,6 +296,12 @@
   let pontosAntes = new Map();
   const congelado = () => emSuspense() || partida.rodada?.fase === "encerrada";
   function guardarPontos() { if (!congelado()) pontosAntes = new Map(jogadores.map(j => [j.id, j.pontos || 0])); }
+  const podeArrastar = () => souAnfitriao() && !congelado();
+  function peaoTela(x, y, raio, j) {
+    const svg = peao(x, y, raio, j);
+    if (!podeArrastar()) return svg;
+    return svg.replace("<g>", `<g class="peao" data-id="${esc(j.id)}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${Math.max(raio + 14, 34)}" fill="transparent"/>`);
+  }
   const casaVisivel = j => Math.max(0, Math.min(congelado() && pontosAntes.has(j.id) ? pontosAntes.get(j.id) : (j.pontos || 0), L.CHEGADA));
   let tentouFecharEm = 0;     // última tentativa de fechar a rodada, para repetir com calma se der erro
 
@@ -489,6 +498,7 @@
   function iniciarSuspense(r) {
     desenharPergunta({ ...r, fase: "encerrada" });
     suspense = { n: r.n };
+    abertaVista = null;  // o suspense desta rodada já começou: retratos seguintes da partida não o repetem
     desenhar();
     $("status").textContent = "E a resposta certa é…";
     const p = porId.get(r.pergunta);
@@ -736,6 +746,51 @@
     if (partida.capataz === j.id) updateDoc(doc(db, "partidas", codigo), { capataz: null }).catch(() => {});
   };
 
+  // ---------------------------------------------------------------- arrastar peões (tela que comanda)
+
+  // Solto, o peão vai para a casa mais próxima da trilha (também o Início e a Chegada). Levado à Chegada, o jogador
+  // vence, como no jogo original: a partida acaba.
+  let arrasto = null;  // {g, svg, id, x0, y0}
+  const pontoSvg = (svg, e) => Object.assign(svg.createSVGPoint(), { x: e.clientX, y: e.clientY })
+    .matrixTransform(svg.getScreenCTM().inverse());
+  $("tabuleiro").addEventListener("touchstart", e => { if (e.target.closest(".peao")) e.preventDefault(); }, { passive: false });
+  $("tabuleiro").addEventListener("pointerdown", e => {
+    const g = e.target.closest(".peao");
+    if (!g || !codigo || !podeArrastar()) return;
+    e.preventDefault();
+    try { g.setPointerCapture(e.pointerId); } catch {}
+    const p = pontoSvg(g.ownerSVGElement, e);
+    arrasto = { g, svg: g.ownerSVGElement, id: g.dataset.id, x0: p.x, y0: p.y };
+    g.classList.add("arrastando");
+    g.parentNode.append(g);  // por cima dos outros peões
+  });
+  $("tabuleiro").addEventListener("pointermove", e => {
+    if (!arrasto) return;
+    const p = pontoSvg(arrasto.svg, e);
+    arrasto.g.setAttribute("transform", `translate(${(p.x - arrasto.x0).toFixed(1)} ${(p.y - arrasto.y0).toFixed(1)})`);
+  });
+  $("tabuleiro").addEventListener("pointerup", e => {
+    if (!arrasto) return;
+    const { svg, id } = arrasto;
+    arrasto = null;
+    const p = pontoSvg(svg, e);
+    const j = jogadores.find(x => x.id === id), casa = L.casaMaisProxima(p.x, p.y);
+    if (j && casa !== null && casa !== casaVisivel(j) && podeArrastar()) {
+      j.pontos = casa;  // já desenha na casa nova; o retrato do Firestore confirma
+      updateDoc(doc(db, "partidas", codigo, "jogadores", id), { pontos: casa })
+        .catch(e => ($("erro").textContent = "Erro ao mudar a casa: " + e.message));
+      if (casa >= L.CHEGADA && !partida.fim) {
+        const inicio = partida.inicio?.toMillis?.() ?? Date.now();
+        updateDoc(doc(db, "partidas", codigo), { fim: serverTimestamp(), vencedores: [id],
+          duracao: Math.max(0, Math.min(604800, Math.round((Date.now() - inicio) / 1000))) })
+          .catch(e => ($("erro").textContent = "Erro: " + e.message));
+      }
+    }
+    guardarPontos();
+    desenhar();
+  });
+  $("tabuleiro").addEventListener("pointercancel", () => { arrasto = null; desenhar(); });
+
   // ---------------------------------------------------------------- desenho
 
   function desenhar() {
@@ -753,7 +808,8 @@
     if (r && !fim && !emSuspense()) desenharPergunta(r);
     if (fim) desenharFim();
     desenharJogadores();
-    $("tabuleiro").innerHTML = L.svgLinear(jogadores, casaVisivel, CORES, abrev, esc, peao, partida.semente);
+    // Enquanto um peão é arrastado, o tabuleiro não é redesenhado, para não perder o arrasto.
+    if (!arrasto) $("tabuleiro").innerHTML = L.svgLinear(jogadores, casaVisivel, CORES, abrev, esc, peaoTela, partida.semente);
     desenharControles();
     desenharTempo();
   }
