@@ -199,11 +199,15 @@ function imagemSvg(id, a) {
 }
 
 // O desenho sozinho (na grade de escolha). Com siglaNoMeio, a sigla do time sobe, para dar lugar às iniciais.
+// Cada desenho ganha um id de recorte (clipPath) só dele: com o mesmo id repetido na página, o navegador usa o primeiro,
+// e se ele estiver num trecho escondido o recorte some (a imagem personalizada aparecia quadrada, sem o círculo).
+let desenhos = 0;
 export function desenhoAvatar(id, siglaNoMeio = false) {
   const a = porId.get(id);
   if (!a) return "";
-  if (a.tipo === "c") return imagemSvg(id, a);
-  return a.tipo === "t" ? bandeiraSvg(TIMES[a.k], undefined, siglaNoMeio) : avatarSvg(AV[a.k]);
+  const svg = a.tipo === "c" ? imagemSvg(id, a) : a.tipo === "t" ? bandeiraSvg(TIMES[a.k], undefined, siglaNoMeio) : avatarSvg(AV[a.k]);
+  const clip = svg.match(/<clipPath id="([^"]+)"/)?.[1];
+  return clip ? svg.split(`"${clip}"`).join(`"${clip}-${++desenhos}"`).split(`#${clip})`).join(`#${clip}-${desenhos})`) : svg;
 }
 
 const iniciais = nome => String(nome).split(/\s+/).filter(Boolean).slice(0, 2).map(p => p[0]).join("").toUpperCase();
@@ -217,7 +221,7 @@ export function avatarDoJogador(id, [cor, corTexto], nome, extra = "") {
   return base
     .replace("<svg ", `<svg ${extra} `)
     .replace('<circle cx="50" cy="50" r="50" fill="#24241f"/>', `<circle cx="50" cy="50" r="50" fill="${cor}"/><circle cx="50" cy="50" r="44" fill="#24241f"/>`)
-    .replace(/clip-path="url\(#(\w+)\)"/, (m, i) => `clip-path="url(#${i})" transform="translate(6 6) scale(.88)"`)
+    .replace(/clip-path="url\(#([\w-]+)\)"/, (m, i) => `clip-path="url(#${i})" transform="translate(6 6) scale(.88)"`)
     .replace(/<\/svg>$/, `<rect x="24" y="73" width="52" height="25" rx="10" fill="${cor}" stroke="#000" stroke-width="2.5"/>
       <text x="50" y="91" font-size="19" font-weight="900" text-anchor="middle" fill="${corTexto}" font-family="system-ui, sans-serif">${escTexto(iniciais(nome))}</text></svg>`);
 }
