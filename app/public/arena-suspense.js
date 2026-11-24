@@ -310,3 +310,53 @@ export function somSegundo(faltam) {
 export function somEsgotado() {
   if (pronto()) arquivo("esgotado", .9);
 }
+
+// ---------------------------------------------------------------- contagem da próxima pergunta
+
+// Dez sons para a contagem "Próxima pergunta em X s" (2026-11-23). A cada contagem sai um, sorteado, nunca o mesmo da
+// vez anterior; toca um som por segundo, de 10 a 1, mais forte nos 3 últimos. No 0, nada: o som de início da pergunta
+// seguinte (somInicio) fecha a contagem.
+const CONTAGENS = [
+  { nome: "Bipes de rádio",
+    segundo: s => tom({ f: s <= 3 ? 1320 : 880, dur: s <= 3 ? .16 : .08, vol: s <= 3 ? .3 : .18 }) },
+  { nome: "Sonar",
+    segundo: s => { sino(s <= 3 ? 1500 : 1150, { dur: .9, vol: s <= 3 ? .3 : .18 });
+                    if (s <= 3) sino(1500, { dur: .6, vol: .2, em: .16 }); } },
+  { nome: "Tambor militar",
+    segundo: s => { ruido({ dur: .09, vol: s <= 3 ? .5 : .32, tipo: "highpass", f: 1800 }); tom({ f: 180, f2: 140, dur: .08, vol: .2 });
+                    if (s <= 3) for (let k = 1; k < 4; k++) ruido({ dur: .05, vol: .25, tipo: "highpass", f: 1800, em: k * .07 }); } },
+  { nome: "Pêndulo",
+    segundo: s => s <= 3 ? sino([523, 587, 659][3 - s], { dur: 1.1, vol: .3 })
+                         : ruido({ dur: .035, vol: .4, tipo: "bandpass", f: s % 2 ? 3400 : 2300, q: 6 }) },
+  { nome: "Escada que sobe",
+    segundo: s => tom({ f: nota(60 + [0, 2, 4, 5, 7, 9, 11, 12, 14, 16][10 - Math.min(10, s)]), tipo: "square", dur: s <= 3 ? .25 : .12,
+                        vol: s <= 3 ? .16 : .1, filtro: { f: 2800 } }) },
+  { nome: "Largada de corrida",
+    segundo: s => s <= 3 ? tom({ f: s === 1 ? 880 : 440, tipo: "square", dur: s === 1 ? .45 : .22, vol: .16 })
+                         : tom({ f: 330, tipo: "square", dur: .05, vol: .08 }) },
+  { nome: "Marimba que desce",
+    segundo: s => marimba(nota([84, 81, 79, 76, 74, 72, 69, 67, 64, 60][10 - Math.min(10, s)]), { vol: s <= 3 ? .45 : .3 }) },
+  { nome: "Coração",
+    segundo: s => { const f = s <= 3 ? 1 : .6;
+                    tom({ f: 70, f2: 38, dur: .2, vol: .9 * f, ataque: .012 }); tom({ f: 70, f2: 38, dur: .2, vol: .5 * f, ataque: .012, em: .17 }); } },
+  { nome: "Gotas",
+    segundo: s => { const f = (s <= 3 ? 900 : 1300) + Math.random() * 200;
+                    tom({ f, f2: f * 2.2, dur: .12, vol: s <= 3 ? .35 : .22, ataque: .004, comEco: true }); } },
+  { nome: "Dim-dom",
+    segundo: s => { const [a, b] = s % 2 ? [988, 784] : [784, 988];
+                    sino(a, { dur: .7, vol: s <= 3 ? .28 : .16 }); if (s <= 3) sino(b, { dur: .9, vol: .24, em: .18 }); } },
+];
+let contagemDaVez = -1;
+// Uma contagem nova começou: sorteia o som dela.
+export function novaContagem() {
+  let k;
+  do { k = Math.floor(Math.random() * CONTAGENS.length); } while (k === contagemDaVez && CONTAGENS.length > 1);
+  contagemDaVez = k;
+}
+// Um segundo da contagem (10 a 1).
+export function somContagem(s) {
+  if (!pronto() || s < 1) return;
+  if (contagemDaVez < 0) novaContagem();
+  CONTAGENS[contagemDaVez].segundo(s);
+}
+export const NOMES_CONTAGENS = CONTAGENS.map(c => c.nome);

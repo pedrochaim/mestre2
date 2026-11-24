@@ -592,6 +592,7 @@
   // tique-taque a cada segundo do prazo e um aviso quando ele acaba. Só para a rodada vista aberta neste aparelho.
   let relogioDe = null, segundoTocado = null;  // rodada e último segundo já tocados
   setInterval(() => {
+    desenharAvisoProxima();  // a contagem da próxima pergunta, com o som dela, no passo de 50 ms (ritmo certo)
     const r = partida.rodada;
     if (!codigo || !r || r.fase !== "respondendo" || !partida.experimental || !r.inicio || r.inicio.toMillis() > agora() + 1000) return;
     const faltam = Math.ceil(restante(r) / 1000);
@@ -743,6 +744,7 @@
     $("tempo").classList.toggle("acabando", ms > 0 && ms <= 5000);
   }
 
+  let contagemSom = null;  // a contagem (proximaEm) cujo som já foi sorteado
   // "Próxima pergunta em" e o número de segundos, enorme no meio da tela, enquanto a próxima automática está marcada. O
   // número é trocado a cada segundo, o que recomeça o pulso dele.
   function desenharAvisoProxima() {
@@ -755,6 +757,11 @@
     if (num.textContent !== String(s)) {
       const novo = num.cloneNode(); novo.textContent = s; num.replaceWith(novo);
       $("aviso-proxima").setAttribute("aria-label", `Próxima pergunta em ${s} segundos`);
+      // Som da contagem (experimental, com "Sons e suspense"): um de 10, sorteado a cada contagem, junto com o número.
+      if (partida.experimental) {
+        if (contagemSom !== proximaEm) { contagemSom = proximaEm; S.novaContagem(); }
+        S.somContagem(s);
+      }
     }
   }
 
