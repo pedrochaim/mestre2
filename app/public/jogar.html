@@ -85,6 +85,8 @@
     #botoes button.certa .letra { background: #000; color: var(--certo); }
     #botoes.travado button:not(.escolhida):not(.certa) { opacity: .4; }
     #situacao { text-align: center; margin: .8rem 0 0; font-weight: 700; }
+    /* Casa do tema: a pergunta é do tema da casa do jogador, e acertando ele anda duas. */
+    #dobro { margin: .5rem 0 0; font-weight: 700; border-left: 4px solid var(--c); padding-left: .6rem; }
     #resultado { text-align: center; padding: 1.4rem 1rem; border-radius: 16px; margin: 1rem 0; border: 2px solid var(--linha); }
     #resultado.acertou { border-color: var(--certo); background: #0f2a1a; }
     #resultado.errou { border-color: var(--errado); background: #2f1510; }
@@ -150,6 +152,7 @@
     <div id="pergunta" hidden>
       <div class="cartao">
         <span id="tema" class="etiqueta"></span>
+        <p id="dobro" hidden></p>
         <p id="enunciado"></p>
         <div id="aviso-figura" class="suave" hidden><span>🖼️ Olhe a figura na tela grande.</span>
           <button id="ver-figura" type="button" hidden>Ver aqui</button></div>
@@ -181,7 +184,7 @@
 <script type="module">
   import { doc, getDoc, getDocFromServer, setDoc, updateDoc, deleteDoc, onSnapshot, serverTimestamp }
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
-  import { CHEGADA } from "./linear.js";
+  import { CHEGADA, temaDaCasa } from "./linear.js";
   import { TEMPOS } from "./arena-suspense.js";
   import { SEGUNDOS, criarContagem } from "./arena-contagem.js";
   import { PERSONAGENS, TIMES_DE_FUTEBOL, PERSONALIZADOS, personalizadosProntos, desenhoAvatar, avatarValido } from "./arena-avatares.js";
@@ -466,6 +469,14 @@
     $("tema").style.setProperty("--c", c);
     $("tema").style.setProperty("--ct", ct);
     $("tema").textContent = r.tema;
+    // Casa do tema (2026-11-24): a pergunta é do tema da casa em que o jogador está; quem decide é a tela grande, que
+    // também sabe se ele está sozinho na frente (aí anda uma só).
+    const casaDoTema = r.fase === "respondendo" && temaDaCasa(Math.min(eu.pontos || 0, CHEGADA), partida.semente) === r.tema;
+    $("dobro").hidden = !casaDoTema;
+    if (casaDoTema) {
+      $("dobro").style.setProperty("--c", c);
+      $("dobro").textContent = `Você está numa casa de ${r.tema}: se acertar, anda duas (menos se estiver sozinho na frente).`;
+    }
     $("enunciado").textContent = r.enunciado;
     $("aviso-figura").hidden = !r.figura;
     $("ver-figura").hidden = !arquivoFigura;
@@ -495,7 +506,8 @@
       const acertei = minha?.opcao === r.certa;
       $("resultado").className = minha ? (acertei ? "acertou" : "errou") : "";
       $("resultado").innerHTML = minha
-        ? (acertei ? "<strong>Acertou!</strong> Seu peão anda uma casa." : `<strong>Errou.</strong> A certa era ${OPCOES[r.certa] ?? "?"}.`)
+        ? (acertei ? ((r.dobro || []).includes(uid) ? "<strong>Acertou!</strong> Na casa do tema, seu peão anda duas casas."
+            : "<strong>Acertou!</strong> Seu peão anda uma casa.") : `<strong>Errou.</strong> A certa era ${OPCOES[r.certa] ?? "?"}.`)
         : `<strong>Sem resposta.</strong> A certa era ${OPCOES[r.certa] ?? "?"}.`;
     }
     desenharTempo();

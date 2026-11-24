@@ -191,6 +191,7 @@
     .ficha.acertou .estado { color: var(--certo); }
     .ficha.errou .estado { color: var(--errado); }
     .ficha .casa { color: var(--suave); font-size: .85em; }
+    .ficha .dobro { font-weight: 800; color: var(--cd); font-size: .9em; }
     .removivel { cursor: pointer; }
     .ficha .capataz { font-size: 1.05em; }
     /* Menu de um jogador, aberto pela tela que comanda ao tocar nele: capataz e tirar da partida. */
@@ -220,7 +221,7 @@
     <p><a href="./">← Mestre2</a></p>
     <h1>Arena</h1>
     <p class="suave">Este aparelho vira a tela da partida: ponha numa TV ou num tablet que todos vejam. A pergunta aparece aqui,
-      e cada jogador responde no próprio celular, ao mesmo tempo. Quem acerta anda uma casa. Só perguntas de múltipla escolha.</p>
+      e cada jogador responde no próprio celular, ao mesmo tempo. Quem acerta anda uma casa, ou duas se estiver numa casa do tema da pergunta (menos quem está sozinho na frente). Só perguntas de múltipla escolha.</p>
     <div class="cartao">
       <p style="margin:0 0 .5rem">Tempo para responder</p>
       <div id="prazos-inicio" class="chips" role="group" aria-label="Tempo para responder"></div>
@@ -370,6 +371,12 @@
 
   const souAnfitriao = () => Boolean(uid) && partida.anfitriao === uid;
   const casaDe = j => Math.max(0, Math.min(j.pontos || 0, L.CHEGADA));
+
+  // Casa do tema (2026-11-24): quem acerta uma pergunta do mesmo tema da casa em que está anda duas casas, menos quem
+  // está sozinho na frente de todos (quem empata na frente anda duas). O Início e as casas ★ não têm tema e não contam.
+  // Vale a casa de antes da revelação ("casa": casaDe ao revelar; casaVisivel na lista, que no suspense mostra a de antes).
+  const naFrente = (j, casa) => jogadores.every(o => o.id === j.id || casa(o) < casa(j));
+  const andaDuas = (j, tema, casa = casaDe) => Boolean(tema) && L.temaDaCasa(casa(j), partida.semente) === tema && !naFrente(j, casa);
 
   // ---------------------------------------------------------------- perguntas
 
@@ -664,8 +671,11 @@
       const lidas = (await getDocsFromServer(query(collection(base, "respostas"), where("n", "==", r.n)))).docs.map(d => d.data());
       const ids = new Set(jogadores.map(j => j.id));
       const acertaram = [...new Set(lidas.filter(x => x.opcao === certa && ids.has(x.jogador)).map(x => x.jogador))];
-      const mudar = { "rodada.fase": "revelada", "rodada.certa": certa };
-      const chegaram = jogadores.filter(j => acertaram.includes(j.id) && (j.pontos || 0) + 1 >= L.CHEGADA).map(j => j.id);
+      // Quem acertou na casa do tema da pergunta anda duas ("rodada.dobro", para os celulares e a lista mostrarem).
+      const dobro = jogadores.filter(j => acertaram.includes(j.id) && andaDuas(j, r.tema)).map(j => j.id);
+      const passo = id => dobro.includes(id) ? 2 : 1;
+      const mudar = { "rodada.fase": "revelada", "rodada.certa": certa, "rodada.dobro": dobro };
+      const chegaram = jogadores.filter(j => acertaram.includes(j.id) && (j.pontos || 0) + passo(j.id) >= L.CHEGADA).map(j => j.id);
       if (chegaram.length && !servidor.fim) {
         const inicio = servidor.inicio?.toMillis?.() ?? Date.now();
         Object.assign(mudar, { fim: serverTimestamp(), vencedores: chegaram,
@@ -673,7 +683,7 @@
       }
       const lote = writeBatch(db);
       lote.update(base, mudar);
-      for (const id of acertaram) lote.update(doc(base, "jogadores", id), { pontos: increment(1) });
+      for (const id of acertaram) lote.update(doc(base, "jogadores", id), { pontos: increment(passo(id)) });
       await lote.commit();
       $("erro").textContent = "";
     } catch (e) {
@@ -1039,10 +1049,15 @@
     $("jogadores").replaceChildren(...(lista.length ? lista.map(j => {
       const x = respostas.find(x => x.jogador === j.id);
       let estado = "", classe = "";
-      if (fase === "revelada") [estado, classe] = x?.opcao === r.certa ? [" +1", "acertou"] : [x ? " ✗" : " –", "errou"];
+      if (fase === "revelada") [estado, classe] = x?.opcao === r.certa
+        ? [(r.dobro || []).includes(j.id) ? " +2" : " +1", "acertou"] : [x ? " ✗" : " –", "errou"];
       else if (r && x) [estado, classe] = [" ✓", "respondeu"];
       const chefe = partida.capataz === j.id ? `<span class="capataz" title="Capataz">👷</span>` : "";
-      const f = ficha(j, `${chefe}<span class="estado">${estado}</span><span class="casa">casa ${casaVisivel(j)}</span>`);
+      // Com a pergunta aberta, "×2" em quem está numa casa do tema dela (e não sozinho na frente).
+      const [cd] = corDe(r?.tema);
+      const dobra = r && fase !== "revelada" && andaDuas(j, r.tema, casaVisivel)
+        ? `<span class="dobro" style="--cd:${cd}" title="Casa de ${esc(r.tema)}: se acertar, anda duas">×2</span>` : "";
+      const f = ficha(j, `${chefe}<span class="estado">${estado}</span>${dobra}<span class="casa">casa ${casaVisivel(j)}</span>`);
       if (classe) f.classList.add(classe);
       // Quem comanda toca num jogador para torná-lo capataz ou tirá-lo da partida (um celular que saiu).
       if (souAnfitriao()) {

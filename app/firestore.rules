@@ -48,7 +48,7 @@ service cloud.firestore {
       // Arena: só a tela grande (o anfitrião) muda a partida. "rodada" é a pergunta em jogo, para todos: n (o número
       // da rodada), pergunta (o id), tema, subtema, enunciado, opcoes (as 4 alternativas, na ordem da tela), figura,
       // prazo, inicio (hora do servidor), fase ("respondendo", "encerrada" ou "revelada") e, revelada, certa (o índice
-      // da alternativa certa). "vencedores": os ids de quem chegou ao fim na mesma rodada. "experimental": o suspense antes
+      // da alternativa certa) e dobro (os ids de quem acertou na casa do tema da pergunta e andou duas). "vencedores": os ids de quem chegou ao fim na mesma rodada. "experimental": o suspense antes
       // da resposta está ligado (2026-11-23, em teste). "capataz": o uid do jogador que a tela grande deixou comandar a
       // próxima pergunta e o modo automático; "automatico": o estado do modo automático, para o capataz ver.
       // "proxima" (2026-11-24): a contagem do modo automático para a próxima pergunta, {n (a rodada), em (ms, hora do
@@ -97,7 +97,7 @@ service cloud.firestore {
 
       // "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1 do Master.
       // Na Arena, o id do jogador é o uid do celular dele: só ele cria o próprio jogador e troca nome, cor ("tema") e avatar; só a
-      // tela grande muda a casa: +1 no lote que revela a resposta, ou à mão, arrastando o peão (2026-11-23). A revelação
+      // tela grande muda a casa: +1 (ou +2, na casa do tema) no lote que revela a resposta, ou à mão, arrastando o peão (2026-11-23). A revelação
       // continua valendo uma vez só pela regra da partida (a ordem das fases). Sai o próprio jogador ou quem a tela grande
       // tirar.
       match /jogadores/{id} {
