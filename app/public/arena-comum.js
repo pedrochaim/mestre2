@@ -6,6 +6,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
 import { getFirestore, connectFirestoreEmulator } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 import { getAuth, signInAnonymously, onAuthStateChanged, connectAuthEmulator } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
+import { avatarDoJogador, avatarValido } from "./arena-avatares.js";
 
 const app = initializeApp({
   apiKey: "AIzaSyDOxFK6-2MaySIpb5oDeLQJha3V1_6Aw7I",
@@ -63,8 +64,14 @@ export const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": 
 export const iniciais = nome => nome.split(/\s+/).filter(Boolean).slice(0, 2).map(p => p[0]).join("").toUpperCase();
 export const umDe = lista => lista[Math.floor(Math.random() * lista.length)];
 
-// Peão no tabuleiro do Linear: um disco na cor escolhida pelo jogador, com as iniciais.
+// Peão no tabuleiro do Linear: o avatar do jogador (arena-avatares.js), com o anel na cor dele e as iniciais; sem avatar
+// (quem entrou antes dos avatares), um disco na cor escolhida, com as iniciais.
 export function peao(x, y, raio, j) {
+  if (avatarValido(j.avatar)) {
+    const r = raio * 1.3;
+    return `<g><title>${esc(j.nome)}</title>${avatarDoJogador(j.avatar, corDe(j.tema), j.nome,
+      `x="${(x - r).toFixed(1)}" y="${(y - r).toFixed(1)}" width="${(2 * r).toFixed(1)}" height="${(2 * r).toFixed(1)}"`)}</g>`;
+  }
   const [c, ct] = corDe(j.tema);
   const [cx, cy] = [x.toFixed(1), y.toFixed(1)];
   return `<g><title>${esc(j.nome)}</title>
@@ -73,11 +80,15 @@ export function peao(x, y, raio, j) {
     <text x="${cx}" y="${cy}" font-size="${(raio * .95).toFixed(1)}" fill="${ct}" font-weight="800" text-anchor="middle" dominant-baseline="central">${esc(iniciais(j.nome))}</text></g>`;
 }
 
-// Ficha de um jogador (cor e nome), para listas.
+// Ficha de um jogador (avatar, ou a cor com as iniciais, e o nome), para listas. A bolinha (.bola) também serve sozinha,
+// como nos votos que caem nas alternativas.
 export function ficha(j, extra = "") {
   const [c, ct] = corDe(j.tema);
   const f = el("span", { className: "ficha" });
-  f.innerHTML = `<span class="bola" style="background:${c};color:${ct}">${esc(iniciais(j.nome))}</span><span class="nome">${esc(j.nome)}</span>${extra}`;
+  const bola = avatarValido(j.avatar)
+    ? `<span class="bola av">${avatarDoJogador(j.avatar, corDe(j.tema), j.nome)}</span>`
+    : `<span class="bola" style="background:${c};color:${ct}">${esc(iniciais(j.nome))}</span>`;
+  f.innerHTML = `${bola}<span class="nome">${esc(j.nome)}</span>${extra}`;
   return f;
 }
 

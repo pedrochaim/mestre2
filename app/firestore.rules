@@ -89,14 +89,15 @@ service cloud.firestore {
                     && request.resource.data.comando.em == request.time;
 
       // "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1 do Master.
-      // Na Arena, o id do jogador é o uid do celular dele: só ele cria o próprio jogador e troca nome e cor ("tema"); só a
+      // Na Arena, o id do jogador é o uid do celular dele: só ele cria o próprio jogador e troca nome, cor ("tema") e avatar; só a
       // tela grande muda a casa: +1 no lote que revela a resposta, ou à mão, arrastando o peão (2026-11-23). A revelação
       // continua valendo uma vez só pela regra da partida (a ordem das fases). Sai o próprio jogador ou quem a tela grande
       // tirar.
       match /jogadores/{id} {
         allow read: if true;
-        allow create: if request.resource.data.keys().hasOnly(['nome', 'pontos', 'tema', 'criado_em'])
+        allow create: if request.resource.data.keys().hasOnly(['nome', 'pontos', 'tema', 'criado_em', 'avatar'])
                       && nomeValido(request.resource.data)
+                      && avatarValido(request.resource.data)
                       && request.resource.data.pontos == 0
                       && temaValido(request.resource.data)
                       && request.resource.data.criado_em == request.time
@@ -111,8 +112,9 @@ service cloud.firestore {
                            && request.resource.data.pontos is int && request.resource.data.pontos >= 0
                            && request.resource.data.pontos <= 100)
                           || (request.auth.uid == id
-                              && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['nome', 'tema'])
-                              && nomeValido(request.resource.data) && temaValido(request.resource.data)));
+                              && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['nome', 'tema', 'avatar'])
+                              && nomeValido(request.resource.data) && temaValido(request.resource.data)
+                              && avatarValido(request.resource.data)));
         allow delete: if !ehArena(codigo)
                       || (request.auth != null && (request.auth.uid == id || request.auth.uid == partidaDe(codigo).anfitriao));
       }
@@ -206,6 +208,10 @@ service cloud.firestore {
     }
     function prazoValido(prazo) {
       return prazo is int && prazo >= 5 && prazo <= 120;
+    }
+    // Arena: o avatar do jogador, um identificador curto ("astronauta", "t-fla"…), de arena-avatares.js.
+    function avatarValido(dados) {
+      return !('avatar' in dados) || (dados.avatar is string && dados.avatar.size() > 0 && dados.avatar.size() <= 24);
     }
     function nomeValido(dados) {
       return dados.nome is string && dados.nome.size() > 0 && dados.nome.size() <= 30;

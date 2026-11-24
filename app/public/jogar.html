@@ -31,10 +31,21 @@
     .codigo { font-weight: 800; letter-spacing: .15em; }
     .ficha { display: inline-flex; align-items: center; gap: .35em; padding: .15em .6em .15em .15em; border: 1px solid var(--linha);
              border-radius: 999px; background: var(--cartao); }
+    /* Avatar (arena-avatares.js) no lugar da bolinha de iniciais: o desenho já traz o anel e as iniciais. */
+    .bola.av { border: none; background: none; width: 2.4em; height: 2.4em; font-size: inherit; }
+    .bola.av svg { width: 100%; height: 100%; display: block; }
     .bola { width: 1.8em; height: 1.8em; border-radius: 50%; display: inline-grid; place-items: center; font-weight: 800; font-size: .8em;
             border: 2px solid #fff; flex: none; }
 
     /* Cores do peão */
+    /* Escolha do avatar: abas Personagens e Times e a grade com os desenhos. */
+    .abas-av { display: flex; gap: .4rem; margin-bottom: .5rem; }
+    .abas-av button { flex: 1; padding: .4rem .5rem; font-size: .9rem; }
+    .abas-av button[aria-selected="true"] { border-color: var(--acento); color: var(--acento); font-weight: 700; }
+    #avatares { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; max-height: 18rem; overflow: auto; padding: 2px; }
+    #avatares button { padding: 4px; border-radius: 14px; border: 2px solid transparent; }
+    #avatares button[aria-pressed="true"] { border-color: var(--acento); box-shadow: 0 0 0 2px #7c9cf555; }
+    #avatares svg { width: 100%; height: auto; display: block; }
     #cores { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
     #cores button { height: 3rem; border-radius: 12px; border: 3px solid transparent; }
     #cores button[aria-pressed="true"] { border-color: #fff; box-shadow: 0 0 0 2px var(--acento); }
@@ -95,7 +106,13 @@
       <input id="campo-codigo" maxlength="4" autocomplete="off" style="text-transform:uppercase" required>
       <label for="campo-nome">Seu nome</label>
       <input id="campo-nome" maxlength="30" autocomplete="nickname" required>
-      <label>Cor do peão</label>
+      <label>Seu avatar</label>
+      <div class="abas-av" role="tablist" aria-label="Tipo de avatar">
+        <button type="button" role="tab" id="aba-personagens" aria-selected="true">Personagens</button>
+        <button type="button" role="tab" id="aba-times" aria-selected="false">Times</button>
+      </div>
+      <div id="avatares" role="group" aria-label="Avatar"></div>
+      <label>Sua cor</label>
       <div id="cores" role="group" aria-label="Cor do peão"></div>
       <button class="principal" style="width:100%;margin-top:1.2rem">Entrar</button>
     </form>
@@ -146,6 +163,7 @@
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import { CHEGADA } from "./linear.js";
   import { TEMPOS } from "./arena-suspense.js";
+  import { PERSONAGENS, TIMES_DE_FUTEBOL, desenhoAvatar, avatarValido } from "./arena-avatares.js";
   import { db, entrarAnonimo, OPCOES, CORES, corDe, $, el, esc, umDe, ficha, restante, acertarRelogio, manterAcesa }
     from "./arena-comum.js";
 
@@ -183,6 +201,27 @@
   }
   desenharCores();
 
+  // Avatar (arena-avatares.js): um personagem ou a bandeira de um time; o último escolhido fica guardado no aparelho.
+  let avatar = null;
+  try { avatar = localStorage.getItem("mestre2.arena.avatar"); } catch {}
+  if (!avatarValido(avatar)) avatar = umDe(PERSONAGENS).id;
+  let abaAvatar = avatar.startsWith("t-") ? "times" : "personagens";
+  function desenharAvatares() {
+    for (const a of ["personagens", "times"]) $("aba-" + a).setAttribute("aria-selected", String(a === abaAvatar));
+    const lista = abaAvatar === "times" ? TIMES_DE_FUTEBOL : PERSONAGENS;
+    $("avatares").replaceChildren(...lista.map(a => {
+      const b = el("button", { type: "button", title: a.nome });
+      b.innerHTML = desenhoAvatar(a.id);
+      b.setAttribute("aria-label", a.nome);
+      b.setAttribute("aria-pressed", String(a.id === avatar));
+      b.onclick = () => { avatar = a.id; desenharAvatares(); };
+      return b;
+    }));
+  }
+  $("aba-personagens").onclick = () => { abaAvatar = "personagens"; desenharAvatares(); };
+  $("aba-times").onclick = () => { abaAvatar = "times"; desenharAvatares(); };
+  desenharAvatares();
+
   function mostrarEntrada(c = "") {
     $("conectando").hidden = true;
     $("jogo").hidden = true;
@@ -208,11 +247,12 @@
     try {
       const erro = await conferir(c);
       if (erro) return ($("erro-entrada").innerHTML = erro);
-      try { localStorage.setItem("mestre2.arena.nome", nome); localStorage.setItem("mestre2.arena.cor", cor); } catch {}
+      try { localStorage.setItem("mestre2.arena.nome", nome); localStorage.setItem("mestre2.arena.cor", cor);
+            localStorage.setItem("mestre2.arena.avatar", avatar); } catch {}
       // O documento do jogador tem o id deste aparelho. Quem volta só troca nome e cor; a casa continua a mesma.
       const ref = doc(db, "partidas", c, "jogadores", uid);
-      if ((await getDoc(ref)).exists()) await updateDoc(ref, { nome, tema: cor });
-      else await setDoc(ref, { nome, tema: cor, pontos: 0, criado_em: serverTimestamp() });
+      if ((await getDoc(ref)).exists()) await updateDoc(ref, { nome, tema: cor, avatar });
+      else await setDoc(ref, { nome, tema: cor, avatar, pontos: 0, criado_em: serverTimestamp() });
       jogar(c);
     } catch (e) {
       $("erro-entrada").textContent = "Erro: " + e.message;

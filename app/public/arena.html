@@ -137,6 +137,10 @@
     #jogadores { display: flex; flex-wrap: wrap; gap: .6vmin 1.2vmin; font-size: clamp(.85rem, 2.2vmin, 1.4rem); overflow: auto; }
     .ficha { display: inline-flex; align-items: center; gap: .35em; padding: .15em .6em .15em .15em; border: 1px solid var(--linha);
              border-radius: 999px; background: var(--cartao); }
+    /* Avatar (arena-avatares.js) no lugar da bolinha de iniciais: o desenho já traz o anel e as iniciais. */
+    .bola.av { border: none; background: none; width: 2.4em; height: 2.4em; font-size: inherit; }
+    .bola.av svg { width: 100%; height: 100%; display: block; }
+    #opcoes .quem .bola.av { width: 2em; height: 2em; font-size: inherit; }
     .bola { width: 1.8em; height: 1.8em; border-radius: 50%; display: inline-grid; place-items: center; font-weight: 800; font-size: .8em;
             border: 2px solid #fff; flex: none; }
     .ficha .estado { font-weight: 800; }
@@ -238,7 +242,7 @@
 
   <div id="menu-jogador" hidden>
     <div class="caixa" role="dialog" aria-modal="true" aria-labelledby="menu-nome">
-      <h3 id="menu-nome"></h3>
+      <h3 id="menu-nome" class="linha"></h3>
       <button id="menu-capataz"></button>
       <p id="menu-capataz-desc">O capataz ganha no celular os botões Próxima pergunta e Iniciar/Pausar modo automático. Só um por vez.</p>
       <button id="menu-tirar" class="perigo">Tirar da partida</button>
@@ -300,7 +304,7 @@
   function peaoTela(x, y, raio, j) {
     const svg = peao(x, y, raio, j);
     if (!podeArrastar()) return svg;
-    return svg.replace("<g>", `<g class="peao" data-id="${esc(j.id)}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${Math.max(raio + 14, 34)}" fill="transparent"/>`);
+    return svg.replace("<g>", `<g class="peao" data-id="${esc(j.id)}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(raio * 1.3).toFixed(1)}" fill="transparent"/>`);
   }
   const casaVisivel = j => Math.max(0, Math.min(congelado() && pontosAntes.has(j.id) ? pontosAntes.get(j.id) : (j.pontos || 0), L.CHEGADA));
   let tentouFecharEm = 0;     // última tentativa de fechar a rodada, para repetir com calma se der erro
@@ -723,7 +727,7 @@
   function abrirMenu(j) {
     jogadorDoMenu = j;
     const ehCapataz = partida.capataz === j.id;
-    $("menu-nome").textContent = j.nome;
+    $("menu-nome").replaceChildren(ficha(j));
     $("menu-capataz").textContent = ehCapataz ? "Deixar de ser capataz" : "👷 Tornar capataz";
     $("menu-capataz-desc").hidden = ehCapataz;
     $("menu-jogador").hidden = false;
