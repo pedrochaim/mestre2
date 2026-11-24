@@ -49,11 +49,16 @@ service cloud.firestore {
       // da rodada), pergunta (o id), tema, subtema, enunciado, opcoes (as 4 alternativas, na ordem da tela), figura,
       // prazo, inicio (hora do servidor), fase ("respondendo", "encerrada" ou "revelada") e, revelada, certa (o índice
       // da alternativa certa). "vencedores": os ids de quem chegou ao fim na mesma rodada. "experimental": o suspense antes
-      // da resposta está ligado (2026-11-23, em teste).
+      // da resposta está ligado (2026-11-23, em teste). "capataz": o uid do jogador que a tela grande deixou comandar a
+      // próxima pergunta e o modo automático; "automatico": o estado do modo automático, para o capataz ver.
       allow update: if resource.data.get('modo', 'master') == 'arena'
                     && request.auth != null && request.auth.uid == resource.data.anfitriao
-                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['rodada', 'prazo', 'inicio', 'fim', 'duracao', 'vencedores', 'experimental'])
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['rodada', 'prazo', 'inicio', 'fim', 'duracao', 'vencedores', 'experimental',
+                                                                                  'capataz', 'automatico'])
                     && (!('experimental' in request.resource.data) || request.resource.data.experimental is bool)
+                    && (!('automatico' in request.resource.data) || request.resource.data.automatico is bool)
+                    && (!('capataz' in request.resource.data) || request.resource.data.capataz == null
+                        || (request.resource.data.capataz is string && request.resource.data.capataz.size() <= 128))
                     && (!('rodada' in request.resource.data)
                         || (request.resource.data.rodada is map && request.resource.data.rodada.size() <= 12
                             && request.resource.data.rodada.n is int
@@ -73,6 +78,15 @@ service cloud.firestore {
                             && request.resource.data.duracao <= 604800))
                     && (!('vencedores' in request.resource.data)
                         || (request.resource.data.vencedores is list && request.resource.data.vencedores.size() <= 30));
+      // Arena, capataz: só ele, e só o campo "comando" ({acao: "proxima" ou "automatico", n, em}), que a tela grande executa.
+      allow update: if resource.data.get('modo', 'master') == 'arena'
+                    && request.auth != null && resource.data.get('capataz', null) == request.auth.uid
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['comando'])
+                    && request.resource.data.comando is map
+                    && request.resource.data.comando.keys().hasOnly(['acao', 'n', 'em'])
+                    && request.resource.data.comando.acao in ['proxima', 'automatico']
+                    && request.resource.data.comando.n is int
+                    && request.resource.data.comando.em == request.time;
 
       // "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1 do Master.
       // Na Arena, o id do jogador é o uid do celular dele: só ele cria o próprio jogador e troca nome e cor ("tema"); só a

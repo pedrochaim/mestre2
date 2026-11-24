@@ -143,6 +143,14 @@
     .ficha.errou .estado { color: var(--errado); }
     .ficha .casa { color: var(--suave); font-size: .85em; }
     .removivel { cursor: pointer; }
+    .ficha .capataz { font-size: 1.05em; }
+    /* Menu de um jogador, aberto pela tela que comanda ao tocar nele: capataz e tirar da partida. */
+    #menu-jogador { position: fixed; inset: 0; z-index: 10; display: grid; place-items: center; background: #000a; }
+    #menu-jogador .caixa { background: var(--cartao); border: 1px solid var(--linha); border-radius: 16px; padding: 1.2rem;
+                           display: grid; gap: .6rem; min-width: min(22rem, 90vw); }
+    #menu-jogador h3 { margin: 0 0 .3rem; font-size: 1.2rem; }
+    #menu-jogador p { margin: 0; color: var(--suave); font-size: .9rem; max-width: 26rem; }
+    #menu-jogador .perigo { border-color: var(--errado); color: var(--errado); }
     #entrar-canto { display: flex; align-items: center; gap: 1.2vmin; font-size: clamp(.8rem, 2vmin, 1.2rem); }
     #entrar-canto[hidden] { display: none; }
     #canto-qr { width: 11vmin; height: 11vmin; background: #fff; border-radius: 6px; padding: .4vmin; flex: none; }
@@ -225,6 +233,16 @@
     </section>
   </div>
 
+  <div id="menu-jogador" hidden>
+    <div class="caixa" role="dialog" aria-modal="true" aria-labelledby="menu-nome">
+      <h3 id="menu-nome"></h3>
+      <button id="menu-capataz"></button>
+      <p id="menu-capataz-desc">O capataz ganha no celular os botões Próxima pergunta e Iniciar/Pausar modo automático. Só um por vez.</p>
+      <button id="menu-tirar" class="perigo">Tirar da partida</button>
+      <button id="menu-cancelar">Cancelar</button>
+    </div>
+  </div>
+
   <div id="aviso-proxima" hidden aria-live="polite"><div class="rot">Próxima pergunta em</div><div class="num"></div></div>
 
   <div id="controles" hidden>
@@ -261,7 +279,9 @@
   let ocupado = false;        // sorteando ou fechando uma rodada
   let proximaEm = null;       // instante (local) da próxima pergunta automática
   let agendadaPara = null;    // rodada cuja próxima pergunta automática já foi agendada (uma vez por rodada)
-  let automatico = false;     // modo automático, ligado e pausado pela tela que comanda (guardado neste aparelho)
+  let automatico = false;     // modo automático, ligado e pausado pela tela que comanda; gravado na partida ("automatico"),
+                              // para o celular do capataz saber o estado, e também neste aparelho
+  let ultimoComando;          // número do último comando do capataz já visto (undefined antes do primeiro retrato)
   const chaveAuto = () => `mestre2.arena.auto.${codigo}`;
   // Suspense (experimental, arena-suspense.js): a revelação vista ao vivo fica segura enquanto a animação roda; o tabuleiro
   // e os jogadores não mudam até ela acabar, para nada entregar a resposta antes da hora.
@@ -422,6 +442,7 @@
     $("canto-url").innerHTML = `${esc(curto)}<br>código <strong>${esc(c)}</strong>`;
     manterAcesa();
     try { automatico = localStorage.getItem(chaveAuto()) === "ligado"; } catch { automatico = false; }
+    ultimoComando = undefined;
     proximaEm = null; agendadaPara = null;
     await carregando;
     carregarRecentes(c);
@@ -434,6 +455,8 @@
     }));
     desligar.push(onSnapshot(query(collection(base, "jogadores"), orderBy("criado_em")), snap => {
       jogadores = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+      if (souAnfitriao() && partida.capataz && !snap.metadata.fromCache && !jogadores.some(j => j.id === partida.capataz))
+        updateDoc(doc(db, "partidas", codigo), { capataz: null }).catch(() => {});
       guardarPontos();
       desenhar();
     }));
@@ -446,6 +469,8 @@
   // Um retrato novo da partida, do ouvinte do Firestore ou lido direto do servidor (quando o ouvinte atrasa).
   function receberPartida(dados, pendente = false) {
     partida = dados;
+    if (typeof partida.automatico === "boolean") automatico = partida.automatico;
+    processarComando();
     const r = partida.rodada;
     // A rodada que começa ao vivo acerta o relógio deste aparelho pelo do servidor.
     if (r && r.n !== nVisto && nVisto !== undefined && r.fase === "respondendo" && !pendente && r.inicio)
@@ -502,6 +527,7 @@
     desligarRespostas = null; nRespostas = null;
     suspense = null; abertaVista = null;
     $("aviso-proxima").hidden = true;
+    fecharMenu();
     codigo = null; partida = {}; jogadores = []; respostas = []; usadas = new Map();
     history.replaceState(null, "", location.pathname);
     $("sala").hidden = true;
@@ -630,12 +656,28 @@
     }
   }, 200);
 
-  $("proxima").onclick = () => {
+  // Próxima pergunta, pelo botão da tela ou a pedido do capataz (nunca no meio de uma rodada aberta ou do suspense).
+  function pedirProxima() {
     const r = partida.rodada;
-    if (r?.fase === "respondendo") return;
+    if (r?.fase === "respondendo" || r?.fase === "encerrada" || emSuspense()) return;
     proximaEm = null;
     novaRodada();
-  };
+  }
+  $("proxima").onclick = pedirProxima;
+
+  // Capataz (2026-11-23): um jogador escolhido pela tela que comanda, que manda do próprio celular "proxima" ou
+  // "automatico" no campo "comando" da partida ({acao, n, em}); a tela que comanda executa cada comando novo uma vez,
+  // se for recente (comandos antigos, vistos ao abrir a tela, não contam).
+  function processarComando() {
+    const c = partida.comando;
+    if (ultimoComando === undefined) { ultimoComando = c?.n ?? null; return; }
+    if (!c || c.n === ultimoComando) return;
+    ultimoComando = c.n;
+    if (!souAnfitriao() || partida.fim) return;
+    if (c.em?.toMillis && agora() - c.em.toMillis() > 20000) return;
+    if (c.acao === "proxima") setTimeout(pedirProxima);
+    else if (c.acao === "automatico") setTimeout(() => mudarAutomatico(!automatico));
+  }
   $("revelar-ja").onclick = () => fechar();
   // Liga e desliga o suspense na partida (todos os aparelhos seguem); o som é só deste aparelho.
   $("suspense").onclick = () => {
@@ -652,9 +694,10 @@
   addEventListener("keydown", () => S.prepararSom());
   // Iniciar o modo automático: sem pergunta na tela, sai a primeira já; com a resposta à mostra, a próxima sai em 10 s.
   // Pausar: nada sai sozinho até iniciar de novo.
-  $("automatico").onclick = () => {
-    automatico = !automatico;
+  function mudarAutomatico(v) {
+    automatico = v;
     try { localStorage.setItem(chaveAuto(), automatico ? "ligado" : "pausado"); } catch {}
+    if (souAnfitriao()) updateDoc(doc(db, "partidas", codigo), { automatico }).catch(e => ($("erro").textContent = "Erro: " + e.message));
     const r = partida.rodada;
     proximaEm = null;
     if (automatico && !partida.fim) {
@@ -662,6 +705,35 @@
       else if (r?.fase === "revelada") { agendadaPara = r.n; proximaEm = Date.now() + ESPERA_PROXIMA * 1000; }
     }
     desenharControles();
+  }
+  $("automatico").onclick = () => mudarAutomatico(!automatico);
+
+  // Menu de um jogador (tela que comanda): tornar ou deixar de ser capataz, ou tirar da partida.
+  let jogadorDoMenu = null;
+  function abrirMenu(j) {
+    jogadorDoMenu = j;
+    const ehCapataz = partida.capataz === j.id;
+    $("menu-nome").textContent = j.nome;
+    $("menu-capataz").textContent = ehCapataz ? "Deixar de ser capataz" : "👷 Tornar capataz";
+    $("menu-capataz-desc").hidden = ehCapataz;
+    $("menu-jogador").hidden = false;
+    $("menu-capataz").focus();
+  }
+  const fecharMenu = () => { $("menu-jogador").hidden = true; jogadorDoMenu = null; };
+  $("menu-cancelar").onclick = fecharMenu;
+  $("menu-jogador").onclick = e => { if (e.target === $("menu-jogador")) fecharMenu(); };
+  addEventListener("keydown", e => { if (e.key === "Escape" && !$("menu-jogador").hidden) fecharMenu(); });
+  $("menu-capataz").onclick = () => {
+    const j = jogadorDoMenu; fecharMenu();
+    if (!j) return;
+    updateDoc(doc(db, "partidas", codigo), { capataz: partida.capataz === j.id ? null : j.id })
+      .catch(e => ($("erro").textContent = "Erro: " + e.message));
+  };
+  $("menu-tirar").onclick = () => {
+    const j = jogadorDoMenu; fecharMenu();
+    if (!j) return;
+    deleteDoc(doc(db, "partidas", codigo, "jogadores", j.id)).catch(e => ($("erro").textContent = "Erro: " + e.message));
+    if (partida.capataz === j.id) updateDoc(doc(db, "partidas", codigo), { capataz: null }).catch(() => {});
   };
 
   // ---------------------------------------------------------------- desenho
@@ -773,15 +845,14 @@
       let estado = "", classe = "";
       if (fase === "revelada") [estado, classe] = x?.opcao === r.certa ? [" +1", "acertou"] : [x ? " ✗" : " –", "errou"];
       else if (r && x) [estado, classe] = [" ✓", "respondeu"];
-      const f = ficha(j, `<span class="estado">${estado}</span><span class="casa">casa ${casaVisivel(j)}</span>`);
+      const chefe = partida.capataz === j.id ? `<span class="capataz" title="Capataz">👷</span>` : "";
+      const f = ficha(j, `${chefe}<span class="estado">${estado}</span><span class="casa">casa ${casaVisivel(j)}</span>`);
       if (classe) f.classList.add(classe);
-      // Quem comanda pode tirar um jogador (um celular que saiu), tocando nele.
+      // Quem comanda toca num jogador para torná-lo capataz ou tirá-lo da partida (um celular que saiu).
       if (souAnfitriao()) {
         f.classList.add("removivel");
-        f.title = "Tocar para tirar da partida";
-        f.onclick = () => {
-          if (confirm(`Tirar ${j.nome} da partida?`)) deleteDoc(doc(db, "partidas", codigo, "jogadores", j.id)).catch(e => alert(e.message));
-        };
+        f.title = "Tocar para capataz ou tirar da partida";
+        f.onclick = () => abrirMenu(j);
       }
       return f;
     }) : [el("span", { className: "suave", textContent: "Ninguém entrou ainda." })]));

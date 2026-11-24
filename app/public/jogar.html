@@ -65,6 +65,13 @@
     #resultado.errou { border-color: var(--errado); background: #2f1510; }
     #resultado strong { display: block; font-size: 1.8rem; }
     .grande { font-size: 1.3rem; text-align: center; margin: 2rem 0 1rem; }
+    /* Capataz: o jogador escolhido pela tela grande para comandar a próxima pergunta e o modo automático. */
+    #capataz { border: 2px solid #ffd23f; border-radius: 16px; padding: .9rem 1rem; margin: 1rem 0; background: #1b1607; }
+    #capataz h2 { margin: 0 0 .6rem; font-size: 1rem; color: #ffd23f; }
+    #capataz .botoes { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+    #capataz button { min-height: 3.2rem; font-weight: 700; }
+    #capataz button:disabled { opacity: .4; }
+    #capataz-msg { margin: .5rem 0 0; color: var(--suave); font-size: .85rem; min-height: 1.2em; }
     /* Suspense (experimental): enquanto a tela grande elimina as alternativas, o celular pulsa no mesmo ritmo. */
     #resultado.suspense { animation: celbate var(--bpm, 900ms) ease-in-out infinite; }
     @keyframes celbate { 0%, 100% { border-color: var(--linha); } 18% { border-color: #f0f0ea; } 34% { border-color: var(--linha); }
@@ -120,6 +127,16 @@
     </div>
 
     <div id="resultado" hidden></div>
+
+    <!-- Só no celular do capataz -->
+    <div id="capataz" hidden>
+      <h2>👷 Você é o capataz</h2>
+      <div class="botoes">
+        <button id="cap-proxima" class="principal">Próxima pergunta</button>
+        <button id="cap-auto">▶ Iniciar modo automático</button>
+      </div>
+      <p id="capataz-msg"></p>
+    </div>
     <p id="erro-jogo" class="erro"></p>
   </section>
 </main>
@@ -296,11 +313,46 @@
     try { await deleteDoc(doc(db, "partidas", c, "jogadores", uid)); } catch {}
   };
 
+  // ---------------------------------------------------------------- capataz
+
+  // O capataz (escolhido pela tela grande, campo "capataz" da partida) manda comandos pelo campo "comando"; a tela grande
+  // executa: "proxima" (a próxima pergunta) e "automatico" (iniciar ou pausar o modo automático, cujo estado está em
+  // "automatico"). Só o celular do capataz mostra os botões.
+  let enviando = false;
+  function desenharCapataz() {
+    const sou = partida.capataz === uid && !partida.fim;
+    $("capataz").hidden = !sou;
+    if (!sou) return;
+    const r = partida.rodada;
+    const podeProxima = !r || (r.fase === "revelada" && !emSuspense());
+    $("cap-proxima").textContent = r ? "Próxima pergunta" : "Começar";
+    $("cap-proxima").disabled = enviando || !podeProxima;
+    $("cap-auto").textContent = partida.automatico ? "⏸ Pausar modo automático" : "▶ Iniciar modo automático";
+    $("cap-auto").disabled = enviando;
+    if (!enviando) $("capataz-msg").textContent = !podeProxima && r?.fase !== "revelada" ? "A próxima pergunta fica liberada quando a resposta aparecer." : "";
+  }
+  async function comandar(acao) {
+    if (enviando || partida.capataz !== uid) return;
+    enviando = true;
+    $("capataz-msg").textContent = "Enviando…";
+    desenharCapataz();
+    try {
+      await updateDoc(doc(db, "partidas", codigo), { comando: { acao, n: (partida.comando?.n || 0) + 1, em: serverTimestamp() } });
+      $("capataz-msg").textContent = acao === "proxima" ? "Pedido enviado à tela grande." : "Modo automático: pedido enviado.";
+    } catch (e) {
+      $("capataz-msg").textContent = e.code === "permission-denied" ? "Você não é mais o capataz." : "Erro: " + e.message;
+    }
+    setTimeout(() => { enviando = false; desenharCapataz(); }, 1500);
+  }
+  $("cap-proxima").onclick = () => comandar("proxima");
+  $("cap-auto").onclick = () => comandar("automatico");
+
   // ---------------------------------------------------------------- desenho
 
   function desenhar() {
     if (!codigo || !eu) return;
     const r = partida.rodada;
+    desenharCapataz();
     $("eu").replaceChildren(ficha(eu));
     // Em "encerrada" e durante o suspense, a casa fica a de antes (o peão só anda quando a resposta aparece), chegue antes
     // a atualização do jogador ou a da partida.
