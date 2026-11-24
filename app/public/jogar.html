@@ -183,7 +183,7 @@
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import { CHEGADA } from "./linear.js";
   import { TEMPOS } from "./arena-suspense.js";
-  import { SEGUNDOS, estiloDaContagem, criarContagem } from "./arena-contagem.js";
+  import { SEGUNDOS, criarContagem } from "./arena-contagem.js";
   import { PERSONAGENS, TIMES_DE_FUTEBOL, PERSONALIZADOS, personalizadosProntos, desenhoAvatar, avatarValido } from "./arena-avatares.js";
   import { db, entrarAnonimo, OPCOES, CORES, corDe, $, el, esc, umDe, ficha, restante, agora, acertarRelogio, manterAcesa }
     from "./arena-comum.js";
@@ -522,16 +522,16 @@
     $("tempo-s").textContent = `${Math.ceil(ms / 1000)} s`;
     $("tempo").classList.toggle("acabando", ms > 0 && ms <= 5000);
   }
-  // "Próxima pergunta em": a contagem do modo automático, gravada pela tela grande em "proxima" ({n, em}), no mesmo estilo
-  // da tela grande (sorteado pela semente da partida e pela rodada); some se a rodada mudar, se o modo automático for
-  // pausado ou durante o suspense.
+  // "Próxima pergunta em": a contagem do modo automático, gravada pela tela grande em "proxima" ({n, em, tema}), com a
+  // animação do tema da próxima pergunta, como na tela grande; some se a rodada mudar, se o modo automático for pausado
+  // ou durante o suspense.
   const contagem = criarContagem($("proxima-aviso"));
   function desenharProxima() {
     const r = partida.rodada, x = partida.proxima;
     const valendo = codigo && x && r && x.n === r.n && r.fase === "revelada" && partida.automatico !== false && !partida.fim
       && !emSuspense() && x.em - agora() > -500;
     if (!valendo) return contagem.esconder();
-    contagem.mostrar(estiloDaContagem(partida.semente, r.n), x.em - agora(), SEGUNDOS);
+    contagem.mostrar(x.tema || "", x.em - agora(), SEGUNDOS);
   }
   // A contagem anda sozinha; quando o tempo acaba, o aviso muda (os botões continuam valendo). Se a rodada ficar parada
   // em "encerrada" (ou passar do prazo) por alguns segundos, o celular confere a partida direto no servidor, para o

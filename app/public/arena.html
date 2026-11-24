@@ -310,7 +310,7 @@
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import * as L from "./linear.js";
   import * as S from "./arena-suspense.js";
-  import { SEGUNDOS, estiloDaContagem, criarContagem } from "./arena-contagem.js";
+  import { SEGUNDOS, criarContagem } from "./arena-contagem.js";
   import { personalizadosProntos } from "./arena-avatares.js";
   import { db, entrarAnonimo, LETRAS, PRAZOS, PRAZO_PADRAO, OPCOES, CORES, abrev, corDe, $, el, esc, umDe, peao, ficha,
            agora, acertarRelogio, restante, manterAcesa } from "./arena-comum.js";
@@ -328,6 +328,7 @@
   let nVisto = null;          // última rodada vista, para acertar o relógio só nas que começam ao vivo
   let ocupado = false;        // sorteando ou fechando uma rodada
   let proximaEm = null;       // instante (local) da próxima pergunta automática
+  let proximaSorteada = null; // {n, p}: a próxima pergunta, sorteada quando a contagem começa (o tema dela escolhe a animação)
   let agendadaPara = null;    // rodada cuja próxima pergunta automática já foi agendada (uma vez por rodada)
   let zoomAutoN = null;      // rodada cuja figura o modo automático já abriu
   let zoomPeloAuto = false;  // a figura ampliada na tela foi aberta pelo modo automático
@@ -501,7 +502,7 @@
     manterAcesa();
     try { automatico = localStorage.getItem(chaveAuto()) === "ligado"; } catch { automatico = false; }
     ultimoComando = undefined;
-    proximaEm = null; agendadaPara = null;
+    proximaEm = null; agendadaPara = null; proximaSorteada = null;
     await carregando;
     carregarRecentes(c);
 
@@ -605,7 +606,9 @@
     $("erro").textContent = "";
     try {
       const n = (r?.n || 0) + 1;
-      const p = sortear(n);
+      // A pergunta sorteada no começo da contagem (a do tema que a animação mostrou); sem ela, sorteia agora.
+      const p = (proximaSorteada?.n === n && proximaSorteada.p) || sortear(n);
+      proximaSorteada = null;
       if (!p) return ($("msg").textContent = "As perguntas de múltipla escolha acabaram nesta partida.");
       await addDoc(collection(db, "partidas", codigo, "sorteios"), { pergunta: p.id, em: serverTimestamp() });
       // "figura": o arquivo da figura (img/…), para o celular poder mostrá-la; false sem figura. A de revelação não vai.
@@ -717,11 +720,14 @@
     }
   }, 200);
 
-  // Marca a próxima pergunta automática daqui a ESPERA_PROXIMA segundos e grava a contagem na partida ("proxima": {n, em},
-  // em ms na hora do servidor estimada), para os celulares a mostrarem também.
+  // Marca a próxima pergunta automática daqui a ESPERA_PROXIMA segundos. A próxima pergunta já é sorteada aqui, porque a
+  // animação da contagem é a do tema dela; a contagem vai para a partida ("proxima": {n, em, tema}, em ms na hora do
+  // servidor estimada), para os celulares a mostrarem também.
   function marcarProxima(n) {
     proximaEm = Date.now() + ESPERA_PROXIMA * 1000;
-    if (souAnfitriao()) updateDoc(doc(db, "partidas", codigo), { proxima: { n, em: Math.round(proximaEm + agora() - Date.now()) } })
+    if (proximaSorteada?.n !== n + 1) proximaSorteada = { n: n + 1, p: sortear(n + 1) };
+    const tema = proximaSorteada.p?.tema || "";
+    if (souAnfitriao()) updateDoc(doc(db, "partidas", codigo), { proxima: { n, em: Math.round(proximaEm + agora() - Date.now()), tema } })
       .catch(() => {});
   }
 
@@ -984,13 +990,13 @@
 
   let contagemSom = null;  // a contagem (proximaEm) cujo som já foi sorteado
   const contagem = criarContagem($("aviso-proxima"));
-  // "Próxima pergunta em" e o número de segundos no meio da tela, enquanto a próxima automática está marcada, num dos
-  // cinco estilos de arena-contagem.js, sorteado pela semente da partida e pela rodada (o mesmo nos celulares).
+  // "Próxima pergunta em" e o número de segundos no meio da tela, enquanto a próxima automática está marcada, com a
+  // animação do tema da próxima pergunta (arena-contagem.js; a mesma nos celulares).
   function desenharAvisoProxima() {
     const r = partida.rodada;
     const ver = Boolean(codigo) && r?.fase === "revelada" && proximaEm !== null && !emSuspense() && !partida.fim;
     if (!ver) return contagem.esconder();
-    const s = contagem.mostrar(estiloDaContagem(partida.semente, r.n), proximaEm - Date.now(), ESPERA_PROXIMA);
+    const s = contagem.mostrar(proximaSorteada?.p?.tema || "", proximaEm - Date.now(), ESPERA_PROXIMA);
     // Som da contagem (experimental, com "Sons e suspense"): um dos 10, sorteado a cada contagem, junto com o número.
     if (s !== null && partida.experimental) {
       if (contagemSom !== proximaEm) { contagemSom = proximaEm; S.novaContagem(); }
