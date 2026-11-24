@@ -211,9 +211,9 @@ export function svgLinear(jogadores, casaDe, cores, abrev, esc, peao, semente) {
   const [ini, fim] = [areaDe(0), areaDe(CHEGADA)];
   const partes = [
     `<defs>${XADREZ}</defs>`,
-    `<rect width="${LARGURA}" height="${ALTURA_LINEAR}" rx="26" fill="#161615"/>`,
-    caminho(LIN, "#333", [[ini.x + ini.w / 2, ini.y + ini.h / 2], [fim.x + fim.w / 2, fim.y + fim.h / 2]]),
-    `<rect x="${ini.x}" y="${f(ini.y)}" width="${ini.w}" height="${ini.h}" rx="18" fill="#f2f2f2" stroke="#000" stroke-width="3"><title>Início · qualquer tema</title></rect>`,
+    `<rect width="${LARGURA}" height="${ALTURA_LINEAR}" rx="26" fill="#101114"/>`,
+    caminho(LIN, "#2A2D33", [[ini.x + ini.w / 2, ini.y + ini.h / 2], [fim.x + fim.w / 2, fim.y + fim.h / 2]]),
+    `<rect x="${ini.x}" y="${f(ini.y)}" width="${ini.w}" height="${ini.h}" rx="18" fill="#F4F4F2" stroke="#000" stroke-width="3"><title>Início · qualquer tema</title></rect>`,
     texto([ini.x + ini.w / 2, ini.y + 28], "INÍCIO", 22, "#111"),
     `<rect x="${fim.x}" y="${f(fim.y)}" width="${fim.w}" height="${fim.h}" rx="18" fill="url(#xadrez)" stroke="#000" stroke-width="3"><title>Chegada</title></rect>`,
     `<rect x="${fim.x + 24}" y="${f(fim.y + 12)}" width="${fim.w - 48}" height="34" rx="10" fill="#111"/>`,
@@ -222,7 +222,7 @@ export function svgLinear(jogadores, casaDe, cores, abrev, esc, peao, semente) {
   LIN.idx.forEach((_, c) => {
     const tipo = tiposDaPartida[c + 1];
     const [fundo, cor, rotulo, tam, dica] = tipo === "especial"
-      ? ["#2a2a2a", "#ffd23f", "★", 40, "Casa especial · qualquer tema (ação ainda a definir)"]
+      ? ["#F4F4F2", "#000", "★", 40, "Casa especial · qualquer tema (ação ainda a definir)"]
       : [...(cores[tipo] || ["#6b6b66", "#fff"]), esc(abrev(tipo)), 30, esc(tipo)];
     partes.push(`<path d="${contornoDaCasa(LIN, c)}" fill="${fundo}" stroke="#000" stroke-width="3"><title>Casa ${c + 1} · ${dica}</title></path>`);
     partes.push(texto(LIN.centros[c], rotulo, tam, cor));

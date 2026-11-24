@@ -44,14 +44,14 @@ export const OPCOES = ["A", "B", "C", "D"];
 
 // Cores dos temas, as mesmas do index.html: [fundo, texto]. Também são as cores possíveis do peão.
 export const CORES = {
-  "Geografia":          ["#006400", "#fff"],
-  "Natureza":           ["#90EE90", "#1d1d1b"],
-  "Artes e Pensamento": ["#FFA500", "#1d1d1b"],
-  "Cotidiano":          ["#FF4500", "#fff"],
-  "Ciências":           ["#C71585", "#fff"],
-  "Entretenimento":     ["#9370DB", "#fff"],
-  "Esportes":           ["#87CEEB", "#1d1d1b"],
-  "História":           ["#00008B", "#fff"],
+  "Geografia":          ["#00A84F", "#000"],
+  "Natureza":           ["#8CC63F", "#000"],
+  "Artes e Pensamento": ["#F7941D", "#000"],
+  "Cotidiano":          ["#E8412C", "#000"],
+  "Ciências":           ["#E4007C", "#fff"],
+  "Entretenimento":     ["#8E4FC9", "#fff"],
+  "Esportes":           ["#00A3E0", "#000"],
+  "História":           ["#2F5BEA", "#fff"],
 };
 const ABREV = { "Geografia": "G", "Natureza": "N", "Artes e Pensamento": "AP", "Cotidiano": "CO",
                 "Ciências": "CI", "Entretenimento": "EN", "Esportes": "E", "História": "H" };
@@ -76,7 +76,7 @@ export function peao(x, y, raio, j) {
   const [cx, cy] = [x.toFixed(1), y.toFixed(1)];
   return `<g><title>${esc(j.nome)}</title>
     <circle cx="${cx}" cy="${cy}" r="${raio + 3}" fill="#000"/>
-    <circle cx="${cx}" cy="${cy}" r="${raio}" fill="${c}" stroke="#fff" stroke-width="3"/>
+    <circle cx="${cx}" cy="${cy}" r="${raio}" fill="${c}" stroke="#FFD100" stroke-width="5"/>
     <text x="${cx}" y="${cy}" font-size="${(raio * .95).toFixed(1)}" fill="${ct}" font-weight="800" text-anchor="middle" dominant-baseline="central">${esc(iniciais(j.nome))}</text></g>`;
 }
 

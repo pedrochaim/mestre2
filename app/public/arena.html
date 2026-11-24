@@ -5,22 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000">
   <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800&family=Overpass+Mono:wght@600&display=swap" rel="stylesheet">
   <title>Mestre2 · Arena</title>
   <style>
     /* Tela grande da Arena: a pergunta para todos, numa TV ou num tablet. Sempre escura, como o resto do app. As medidas
        acompanham a tela (vmin), para servir da TV ao tablet. */
     :root { color-scheme: dark;
-            --fundo: #000; --texto: #ecebe6; --suave: #9b9a94; --linha: #2c2c29; --cartao: #111110;
-            --acento: #7c9cf5; --certo: #4cc485; --errado: #f07a64; --sobre-cor: #000; }
+            --fundo: #000; --texto: #F4F4F2; --suave: #A0A4AB; --linha: #2A2D33; --cartao: #101114;
+            --acento: #FFD100; --certo: #3DDC84; --errado: #FF6B57; --sobre-cor: #000;
+            /* Identidade Metrô (2026-11-24): Overpass nos textos, Overpass Mono em códigos e números;
+               amarelo de sinalização (--acento) só no botão principal, na seleção e no anel dos peões. */
+            --fonte: "Overpass", system-ui, sans-serif; --mono: "Overpass Mono", ui-monospace, monospace; }
     * { box-sizing: border-box; }
     [hidden] { display: none !important; }
     html, body { height: 100%; }
-    body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.4 system-ui, sans-serif; }
+    body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.4 var(--fonte); }
     button, input { font: inherit; color: inherit; }
     button { background: var(--cartao); border: 1px solid var(--linha); border-radius: 10px; padding: .6rem 1rem; cursor: pointer; }
-    button.principal { background: var(--acento); border-color: var(--acento); color: var(--sobre-cor); font-weight: 700; }
+    button.principal { background: var(--acento); border-color: var(--acento); color: var(--sobre-cor); font-weight: 800; }
     button:disabled { opacity: .45; cursor: default; }
-    button[aria-pressed="true"] { border-color: var(--acento); color: var(--acento); font-weight: 700; }
+    button[aria-pressed="true"] { border-color: var(--texto); background: var(--texto); color: #000; font-weight: 800; }
     input { background: var(--cartao); border: 1px solid var(--linha); border-radius: 10px; padding: .6rem .8rem; width: 100%; }
     .suave { color: var(--suave); }
     .erro { color: var(--errado); }
@@ -38,7 +44,7 @@
     #sala { height: 100vh; height: 100dvh; display: grid; grid-template-rows: auto 1fr auto; padding: 1.2vmin 1.6vmin; gap: 1.2vmin; }
     #sala[hidden], #inicio[hidden] { display: none; }
     .barra { display: flex; align-items: center; gap: 1rem; font-size: clamp(.9rem, 2.2vmin, 1.5rem); }
-    .barra .codigo { font-weight: 800; letter-spacing: .15em; }
+    .barra .codigo { font-family: var(--mono); font-weight: 600; letter-spacing: .15em; color: var(--acento); }
     .barra .espaco { flex: 1; }
     .barra button { padding: .3rem .8rem; }
     #palco { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 1.6vmin; min-height: 0; }
@@ -59,8 +65,8 @@
     #cartao { --c: var(--linha); --ct: #fff; border: 1px solid var(--linha); border-top: 1vmin solid var(--c); border-radius: 16px;
               background: var(--cartao); padding: 2vmin 2.4vmin; display: flex; flex-direction: column; gap: 1.4vmin; flex: 1; min-height: 0; }
     #cartao[hidden] { display: none; }
-    .etiqueta { align-self: flex-start; background: var(--c); color: var(--ct); border-radius: 999px; padding: .2em .9em;
-                font-weight: 700; font-size: clamp(.8rem, 2.2vmin, 1.4rem); }
+    .etiqueta { align-self: flex-start; background: var(--c); color: var(--ct); border-radius: .4em; padding: .25em .8em;
+                font-weight: 800; font-size: clamp(.8rem, 2.2vmin, 1.4rem); }
     #rodada-n { font-size: clamp(.8rem, 2vmin, 1.2rem); }
     #enunciado { font-size: clamp(1.2rem, 4.2vmin, 3rem); font-weight: 700; line-height: 1.2; margin: 0; }
     #figura { flex: 1 1 0; min-height: 12vmin; display: flex; justify-content: center; }
@@ -69,18 +75,18 @@
     #opcoes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2vmin; margin: 0; padding: 0; list-style: none; }
     #opcoes li { border: 2px solid var(--linha); border-radius: 14px; padding: 1.2vmin 1.6vmin; display: flex; gap: 1.2vmin; align-items: center;
                  font-size: clamp(1rem, 3.2vmin, 2.2rem); font-weight: 600; min-height: 9vmin; transition: opacity .3s, border-color .3s; }
-    #opcoes .letra { flex: none; width: 1.7em; height: 1.7em; border-radius: 50%; background: #2a2a28; display: grid; place-items: center; font-weight: 900; }
+    #opcoes .letra { flex: none; width: 1.7em; height: 1.7em; border-radius: .25em; background: var(--texto); color: #000; display: grid; place-items: center; font-family: var(--mono); font-weight: 600; }
     #opcoes .texto { flex: 1; min-width: 0; }
     #opcoes .quem { display: flex; gap: .2em; flex-wrap: wrap; justify-content: flex-end; max-width: 40%; }
     #opcoes .quem .bola { width: 1.4em; height: 1.4em; font-size: .6em; }
-    #opcoes li.certa { border-color: var(--certo); background: #12321f; }
-    #opcoes li.certa .letra { background: var(--certo); color: #000; }
+    #opcoes li.certa { border-color: var(--certo); background: var(--certo); color: #000; }
+    #opcoes li.certa .letra { background: #000; color: var(--certo); }
     #opcoes.revelada li:not(.certa) { opacity: .45; }
     #tempo { display: flex; align-items: center; gap: 1.4vmin; font-size: clamp(1rem, 3vmin, 2rem); font-weight: 800; }
-    #tempo-barra { flex: 1; height: 1.4vmin; min-height: 8px; background: #222; border-radius: 999px; overflow: hidden; }
+    #tempo-barra { flex: 1; height: 1.4vmin; min-height: 8px; background: var(--linha); border-radius: 999px; overflow: hidden; }
     #tempo-barra div { height: 100%; background: var(--acento); width: 100%; }
     #tempo.acabando #tempo-barra div { background: var(--errado); }
-    #tempo-s { min-width: 2.2em; text-align: right; font-variant-numeric: tabular-nums; }
+    #tempo-s { min-width: 2.2em; text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--acento); }
     #status { font-size: clamp(.9rem, 2.4vmin, 1.6rem); margin: 0; }
 
     /* Suspense (experimental): antes da resposta, as alternativas pulsam como batimento, os votos caem em cada uma e as
@@ -98,7 +104,7 @@
                         18% { border-color: #f0f0ea; box-shadow: 0 0 2vmin #ffffff30; } 34% { border-color: var(--linha); }
                         48% { border-color: #c9c9c2; box-shadow: 0 0 1.2vmin #ffffff20; } }
     #opcoes li { position: relative; }
-    #opcoes li.certa { box-shadow: 0 0 3vmin #4cc48566; }
+    #opcoes li.certa { box-shadow: 0 0 3vmin #3DDC8466; }
     #opcoes li.acende { animation: estourar .7s cubic-bezier(.2, 1.6, .4, 1); }
     @keyframes estourar { 0% { transform: scale(1); } 40% { transform: scale(1.06); } 100% { transform: scale(1); } }
     #opcoes .quem .bola.cai { animation: cair .45s cubic-bezier(.2, 1.4, .4, 1) both; }
@@ -142,7 +148,7 @@
     .bola.av svg { width: 100%; height: 100%; display: block; }
     #opcoes .quem .bola.av { width: 2em; height: 2em; font-size: inherit; }
     .bola { width: 1.8em; height: 1.8em; border-radius: 50%; display: inline-grid; place-items: center; font-weight: 800; font-size: .8em;
-            border: 2px solid #fff; flex: none; }
+            border: 2px solid var(--acento); flex: none; }
     .ficha .estado { font-weight: 800; }
     .ficha.respondeu { border-color: var(--acento); }
     .ficha.acertou { border-color: var(--certo); }
