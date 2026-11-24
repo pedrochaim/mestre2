@@ -339,6 +339,8 @@
   let ocupado = false;        // sorteando ou fechando uma rodada
   let proximaEm = null;       // instante (local) da próxima pergunta automática
   let agendadaPara = null;    // rodada cuja próxima pergunta automática já foi agendada (uma vez por rodada)
+  let zoomAutoN = null;      // rodada cuja figura o modo automático já abriu
+  let zoomPeloAuto = false;  // a figura ampliada na tela foi aberta pelo modo automático
   let automatico = false;     // modo automático, ligado e pausado pela tela que comanda; gravado na partida ("automatico"),
                               // para o celular do capataz saber o estado, e também neste aparelho
   let ultimoComando;          // número do último comando do capataz já visto (undefined antes do primeiro retrato)
@@ -870,7 +872,23 @@
     if (!arrasto) $("tabuleiro").innerHTML = L.svgLinear(jogadores, casaVisivel, CORES, abrev, esc, peaoTela, partida.semente);
     desenharControles();
     desenharTempo();
+    zoomAutomatico();
     desenharZoom();
+  }
+
+  // Modo automático: a pergunta com figura já abre ampliada (uma vez por rodada: quem a fechar não a vê reabrir) e fecha
+  // quando a rodada sai de "respondendo", isto é, quando todos responderam ou a resposta foi mostrada. Aberta à mão, ou
+  // reaberta depois, fica como antes.
+  function zoomAutomatico() {
+    const r = partida.rodada;
+    if (!r) return;
+    if (r.fase === "respondendo") {
+      if (automatico && zoomAutoN !== r.n && !$("cartao").hidden && !$("figura").hidden) {
+        zoomAutoN = r.n;
+        $("zoom").hidden = false;
+        zoomPeloAuto = true;
+      }
+    } else if (zoomPeloAuto) fecharZoom();
   }
 
   // Figura ampliada: copia do cartão o tema, o enunciado, a figura e as alternativas (com quem escolheu cada uma, depois
@@ -899,8 +917,8 @@
     z.querySelector(".z-rodape").classList.toggle("acabando", $("tempo").classList.contains("acabando"));
     z.querySelector(".z-status").textContent = $("status").textContent;
   }
-  function fecharZoom() { $("zoom").hidden = true; }
-  $("figura-img").addEventListener("click", () => { $("zoom").hidden = false; desenharZoom(); });
+  function fecharZoom() { $("zoom").hidden = true; zoomPeloAuto = false; }
+  $("figura-img").addEventListener("click", () => { $("zoom").hidden = false; zoomPeloAuto = false; desenharZoom(); });
   $("zoom").onclick = fecharZoom;
   addEventListener("keydown", e => { if (e.key === "Escape" && !$("zoom").hidden) { e.preventDefault(); fecharZoom(); } });
 
