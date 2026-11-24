@@ -110,6 +110,19 @@
       #cartao.tensa #opcoes li, #opcoes li.treme, #opcoes li.acende, .faisca, #opcoes .quem .bola.cai { animation: none !important; }
     }
 
+    /* A próxima pergunta automática (2026-11-23, "número gigante"): no meio da tela, que escurece em volta, o número de
+       segundos enorme, pulsando a cada segundo, com "Próxima pergunta em" piscando em cima. */
+    #aviso-proxima { position: fixed; inset: 0; display: grid; place-items: center; align-content: center; pointer-events: none;
+                     z-index: 5; background: radial-gradient(ellipse at center, #000b 0%, #0006 45%, transparent 75%); }
+    #aviso-proxima .rot { font-size: clamp(1.2rem, 4.5vmin, 3.2rem); font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+                          color: #fff; text-shadow: 0 0 3vmin #000; animation: piscar 1s ease-in-out infinite; }
+    #aviso-proxima .num { font-size: clamp(6rem, 42vmin, 30rem); font-weight: 900; line-height: .9; color: #fff;
+                          font-variant-numeric: tabular-nums; text-shadow: 0 0 6vmin #000, 0 0 3vmin var(--acento);
+                          animation: bater 1s ease-out both; }
+    @keyframes piscar { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+    @keyframes bater { 0% { transform: scale(1.25); opacity: 1; } 70% { transform: scale(1); opacity: .85; } 100% { transform: scale(.96); opacity: .35; } }
+    @media (prefers-reduced-motion: reduce) { #aviso-proxima .rot, #aviso-proxima .num { animation: none; } }
+
     /* Fim */
     #fim { text-align: center; flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 1.4vmin; }
     #fim[hidden] { display: none; }
@@ -211,6 +224,8 @@
       <div id="jogadores"></div>
     </section>
   </div>
+
+  <div id="aviso-proxima" hidden aria-live="polite"><div class="rot">Próxima pergunta em</div><div class="num"></div></div>
 
   <div id="controles" hidden>
     <button id="proxima" class="principal">Começar</button>
@@ -486,6 +501,7 @@
     desligarRespostas?.();
     desligarRespostas = null; nRespostas = null;
     suspense = null; abertaVista = null;
+    $("aviso-proxima").hidden = true;
     codigo = null; partida = {}; jogadores = []; respostas = []; usadas = new Map();
     history.replaceState(null, "", location.pathname);
     $("sala").hidden = true;
@@ -716,6 +732,7 @@
 
   let esgotadoVisto = null;  // rodada cujo fim de prazo já foi desenhado
   function desenharTempo() {
+    desenharAvisoProxima();
     const r = partida.rodada;
     if (!r || partida.fim) return;
     if (r.fase === "respondendo" && restante(r) <= 0 && esgotadoVisto !== r.n) { esgotadoVisto = r.n; desenharPergunta(r); }
@@ -724,8 +741,21 @@
     $("tempo-barra").firstElementChild.style.width = `${(100 * ms / (r.prazo * 1000)).toFixed(1)}%`;
     $("tempo-s").textContent = `${Math.ceil(ms / 1000)} s`;
     $("tempo").classList.toggle("acabando", ms > 0 && ms <= 5000);
-    if (r.fase === "revelada" && proximaEm !== null && !emSuspense())
-      $("msg").textContent = `Próxima pergunta em ${Math.max(0, Math.ceil((proximaEm - Date.now()) / 1000))} s`;
+  }
+
+  // "Próxima pergunta em" e o número de segundos, enorme no meio da tela, enquanto a próxima automática está marcada. O
+  // número é trocado a cada segundo, o que recomeça o pulso dele.
+  function desenharAvisoProxima() {
+    const r = partida.rodada;
+    const ver = Boolean(codigo) && r?.fase === "revelada" && proximaEm !== null && !emSuspense() && !partida.fim;
+    $("aviso-proxima").hidden = !ver;
+    if (!ver) return;
+    const s = Math.max(0, Math.ceil((proximaEm - Date.now()) / 1000));
+    const num = $("aviso-proxima").querySelector(".num");
+    if (num.textContent !== String(s)) {
+      const novo = num.cloneNode(); novo.textContent = s; num.replaceWith(novo);
+      $("aviso-proxima").setAttribute("aria-label", `Próxima pergunta em ${s} segundos`);
+    }
   }
 
   function desenharJogadores() {
@@ -776,7 +806,7 @@
     else if (!r) $("msg").textContent = jogadores.length ? "" : "Esperando os jogadores entrarem.";
     else if (r.fase === "revelada" && automatico && proximaEm === null && !todosResponderam())
       $("msg").textContent = "Nem todos responderam: toque em Próxima pergunta.";
-    else if (r.fase !== "revelada" || proximaEm === null) $("msg").textContent = "";
+    else $("msg").textContent = "";
   }
 
   // ---------------------------------------------------------------- início
