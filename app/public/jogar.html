@@ -61,7 +61,14 @@
     .etiqueta { display: inline-block; background: var(--c, #333); color: var(--ct, #fff); border-radius: 8px; padding: .2em .75em;
                 font-weight: 800; font-size: .85rem; }
     #enunciado { font-size: 1.15rem; font-weight: 600; margin: .6rem 0; }
-    #aviso-figura { margin: 0 0 .6rem; }
+    #aviso-figura { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin: 0 0 .6rem; }
+    #ver-figura { margin-left: auto; padding: .45rem .9rem; font-weight: 700; color: var(--texto); }
+    /* A figura no próprio celular, em tela cheia; tocar volta. */
+    #figura-cheia { position: fixed; inset: 0; z-index: 20; background: #000; display: flex; align-items: center;
+                    justify-content: center; padding: 8px; cursor: zoom-out; }
+    #figura-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    #figura-cheia span { position: absolute; top: calc(10px + env(safe-area-inset-top)); right: 12px; color: var(--suave);
+                         background: #000c; padding: .2em .6em; border-radius: .5em; font-size: .85rem; }
     #tempo { display: flex; align-items: center; gap: .6rem; font-weight: 800; margin: .4rem 0 .8rem; }
     #tempo-barra { flex: 1; height: 8px; background: var(--linha); border-radius: 999px; overflow: hidden; }
     #tempo-barra div { height: 100%; background: var(--acento); }
@@ -143,7 +150,8 @@
       <div class="cartao">
         <span id="tema" class="etiqueta"></span>
         <p id="enunciado"></p>
-        <p id="aviso-figura" class="suave" hidden>🖼️ Olhe a figura na tela grande.</p>
+        <div id="aviso-figura" class="suave" hidden><span>🖼️ Olhe a figura na tela grande.</span>
+          <button id="ver-figura" type="button" hidden>Ver aqui</button></div>
         <div id="tempo"><div id="tempo-barra"><div></div></div><span id="tempo-s"></span></div>
         <div id="botoes"></div>
         <p id="situacao"></p>
@@ -151,6 +159,9 @@
     </div>
 
     <div id="resultado" hidden></div>
+
+    <!-- A figura da pergunta neste celular, em tela cheia -->
+    <div id="figura-cheia" hidden><img alt="Figura da pergunta"><span>Toque para voltar</span></div>
 
     <!-- Só no celular do capataz -->
     <div id="capataz" hidden>
@@ -188,6 +199,17 @@
   let abertaVista = null;     // última rodada vista ainda aberta (respondendo ou encerrada)
   let suspense = null;        // {n, inicio}: a rodada cuja revelação está em suspense
   const emSuspense = () => suspense !== null && partida.rodada?.n === suspense.n;
+  // Figura no próprio celular (2026-11-24): a tela grande grava em rodada.figura o arquivo da figura; "Ver aqui" a abre
+  // em tela cheia (só então a imagem é baixada) e um toque ou Esc fecha. Rodadas antigas (figura = true) só têm o aviso.
+  let figuraCheia = null;     // arquivo da figura aberta em tela cheia
+  function abrirFigura(arquivo) {
+    figuraCheia = arquivo;
+    $("figura-cheia").querySelector("img").src = "img/" + arquivo;
+    $("figura-cheia").hidden = false;
+  }
+  function fecharFigura() { figuraCheia = null; $("figura-cheia").hidden = true; }
+  $("figura-cheia").onclick = fecharFigura;
+  addEventListener("keydown", e => { if (e.key === "Escape" && figuraCheia) fecharFigura(); });
   let casaAntes = null;       // a casa mostrada antes do suspense
 
   // ---------------------------------------------------------------- entrada
@@ -409,6 +431,8 @@
   function desenhar() {
     if (!codigo || !eu) return;
     const r = partida.rodada;
+    const arquivoFigura = typeof r?.figura === "string" && r.figura ? r.figura : null;
+    if (figuraCheia && (figuraCheia !== arquivoFigura || partida.fim)) fecharFigura();
     desenharCapataz();
     $("eu").replaceChildren(ficha(eu));
     // Em "encerrada" e durante o suspense, a casa fica a de antes (o peão só anda quando a resposta aparece), chegue antes
@@ -441,6 +465,8 @@
     $("tema").textContent = r.tema;
     $("enunciado").textContent = r.enunciado;
     $("aviso-figura").hidden = !r.figura;
+    $("ver-figura").hidden = !arquivoFigura;
+    $("ver-figura").onclick = () => abrirFigura(arquivoFigura);
 
     const revelada = r.fase === "revelada" && !emSuspense();
     const aberta = r.fase === "respondendo";

@@ -618,8 +618,9 @@
       const p = sortear(n);
       if (!p) return ($("msg").textContent = "As perguntas de múltipla escolha acabaram nesta partida.");
       await addDoc(collection(db, "partidas", codigo, "sorteios"), { pergunta: p.id, em: serverTimestamp() });
+      // "figura": o arquivo da figura (img/…), para o celular poder mostrá-la; false sem figura. A de revelação não vai.
       const dados = { rodada: { n, pergunta: p.id, tema: p.tema, subtema: p.subtema, enunciado: p.pergunta,
-        opcoes: embaralhar([p.resposta, ...p.distratores]), figura: Boolean(p.imagem), prazo: partida.prazo || PRAZO_PADRAO,
+        opcoes: embaralhar([p.resposta, ...p.distratores]), figura: p.imagem ? p.imagem.arquivo : false, prazo: partida.prazo || PRAZO_PADRAO,
         fase: "respondendo", inicio: serverTimestamp() } };
       if (!partida.inicio) dados.inicio = serverTimestamp();
       await updateDoc(doc(db, "partidas", codigo), dados);
