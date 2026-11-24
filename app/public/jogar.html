@@ -63,19 +63,8 @@
     #enunciado { font-size: 1.15rem; font-weight: 600; margin: .6rem 0; }
     #aviso-figura { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin: 0 0 .6rem; }
     #ver-figura { margin-left: auto; padding: .45rem .9rem; font-weight: 700; color: var(--texto); }
+    /* A contagem do modo automático para a próxima pergunta: a mesma da tela grande (arena-contagem.js). */
     /* A figura no próprio celular, em tela cheia; tocar volta. */
-    /* A contagem do modo automático para a próxima pergunta, com a mesma animação da tela grande (arena.html): no meio da
-       tela, que escurece em volta, o número enorme pulsando a cada segundo, com "Próxima pergunta em" piscando em cima. */
-    #proxima-aviso { position: fixed; inset: 0; display: grid; place-items: center; align-content: center; pointer-events: none;
-                     z-index: 5; background: radial-gradient(ellipse at center, #000b 0%, #0006 45%, transparent 75%); }
-    #proxima-aviso .rot { font-size: clamp(1.2rem, 4.5vmin, 3.2rem); font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
-                          color: #fff; text-shadow: 0 0 3vmin #000; animation: piscar 1s ease-in-out infinite; text-align: center; }
-    #proxima-aviso .num { font-size: clamp(6rem, 42vmin, 30rem); font-weight: 900; line-height: .9; color: #fff;
-                          font-variant-numeric: tabular-nums; text-shadow: 0 0 6vmin #000, 0 0 3vmin var(--acento);
-                          animation: bater 1s ease-out both; }
-    @keyframes piscar { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
-    @keyframes bater { 0% { transform: scale(1.25); opacity: 1; } 70% { transform: scale(1); opacity: .85; } 100% { transform: scale(.96); opacity: .35; } }
-    @media (prefers-reduced-motion: reduce) { #proxima-aviso .rot, #proxima-aviso .num { animation: none; } }
     #figura-cheia { position: fixed; inset: 0; z-index: 20; background: #000; display: flex; align-items: center;
                     justify-content: center; padding: 8px; cursor: zoom-out; }
     #figura-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
@@ -171,7 +160,7 @@
     </div>
 
     <div id="resultado" hidden></div>
-    <div id="proxima-aviso" hidden aria-live="polite"><div class="rot">Próxima pergunta em</div><div class="num"></div></div>
+    <div id="proxima-aviso" hidden aria-live="polite"></div>
 
     <!-- A figura da pergunta neste celular, em tela cheia -->
     <div id="figura-cheia" hidden><img alt="Figura da pergunta"><span>Toque para voltar</span></div>
@@ -194,6 +183,7 @@
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import { CHEGADA } from "./linear.js";
   import { TEMPOS } from "./arena-suspense.js";
+  import { SEGUNDOS, estiloDaContagem, criarContagem } from "./arena-contagem.js";
   import { PERSONAGENS, TIMES_DE_FUTEBOL, PERSONALIZADOS, personalizadosProntos, desenhoAvatar, avatarValido } from "./arena-avatares.js";
   import { db, entrarAnonimo, OPCOES, CORES, corDe, $, el, esc, umDe, ficha, restante, agora, acertarRelogio, manterAcesa }
     from "./arena-comum.js";
@@ -532,20 +522,16 @@
     $("tempo-s").textContent = `${Math.ceil(ms / 1000)} s`;
     $("tempo").classList.toggle("acabando", ms > 0 && ms <= 5000);
   }
-  // "Próxima pergunta em": a contagem do modo automático, gravada pela tela grande em "proxima" ({n, em}); some se a
-  // rodada mudar, se o modo automático for pausado ou durante o suspense.
+  // "Próxima pergunta em": a contagem do modo automático, gravada pela tela grande em "proxima" ({n, em}), no mesmo estilo
+  // da tela grande (sorteado pela semente da partida e pela rodada); some se a rodada mudar, se o modo automático for
+  // pausado ou durante o suspense.
+  const contagem = criarContagem($("proxima-aviso"));
   function desenharProxima() {
     const r = partida.rodada, x = partida.proxima;
     const valendo = codigo && x && r && x.n === r.n && r.fase === "revelada" && partida.automatico !== false && !partida.fim
-      && !emSuspense();
-    const s = valendo ? Math.ceil((x.em - agora()) / 1000) : -1;
-    $("proxima-aviso").hidden = s < 0;
-    // O número é trocado a cada segundo por um novo, o que recomeça o pulso dele (como na tela grande).
-    const num = $("proxima-aviso").querySelector(".num");
-    if (s >= 0 && num.textContent !== String(s)) {
-      const novo = num.cloneNode(); novo.textContent = s; num.replaceWith(novo);
-      $("proxima-aviso").setAttribute("aria-label", `Próxima pergunta em ${s} segundos`);
-    }
+      && !emSuspense() && x.em - agora() > -500;
+    if (!valendo) return contagem.esconder();
+    contagem.mostrar(estiloDaContagem(partida.semente, r.n), x.em - agora(), SEGUNDOS);
   }
   // A contagem anda sozinha; quando o tempo acaba, o aviso muda (os botões continuam valendo). Se a rodada ficar parada
   // em "encerrada" (ou passar do prazo) por alguns segundos, o celular confere a partida direto no servidor, para o
