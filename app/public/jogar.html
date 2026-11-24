@@ -531,7 +531,7 @@
     const valendo = codigo && x && r && x.n === r.n && r.fase === "revelada" && partida.automatico !== false && !partida.fim
       && !emSuspense() && x.em - agora() > -500;
     if (!valendo) return contagem.esconder();
-    contagem.mostrar(x.tema || "", x.em - agora(), SEGUNDOS);
+    contagem.mostrar(x.tema || "", x.em - agora(), SEGUNDOS, (partida.semente || 0) * 31 + r.n);
   }
   // A contagem anda sozinha; quando o tempo acaba, o aviso muda (os botões continuam valendo). Se a rodada ficar parada
   // em "encerrada" (ou passar do prazo) por alguns segundos, o celular confere a partida direto no servidor, para o

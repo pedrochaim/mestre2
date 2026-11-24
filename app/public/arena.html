@@ -996,7 +996,8 @@
     const r = partida.rodada;
     const ver = Boolean(codigo) && r?.fase === "revelada" && proximaEm !== null && !emSuspense() && !partida.fim;
     if (!ver) return contagem.esconder();
-    const s = contagem.mostrar(proximaSorteada?.p?.tema || "", proximaEm - Date.now(), ESPERA_PROXIMA);
+    const s = contagem.mostrar(proximaSorteada?.p?.tema || "", proximaEm - Date.now(), ESPERA_PROXIMA,
+      (partida.semente || 0) * 31 + r.n);  // a chave do sorteio da cena (a mesma nos celulares)
     // Som da contagem (experimental, com "Sons e suspense"): um dos 10, sorteado a cada contagem, junto com o número.
     if (s !== null && partida.experimental) {
       if (contagemSom !== proximaEm) { contagemSom = proximaEm; S.novaContagem(); }

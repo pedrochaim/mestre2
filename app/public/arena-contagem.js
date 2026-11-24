@@ -1,9 +1,11 @@
 // Arena: a contagem da próxima pergunta automática ("Próxima pergunta em X"), na tela grande (arena.html) e nos celulares
 // (jogar.html). Desde 2026-11-24, a animação é a do TEMA DA PRÓXIMA PERGUNTA (sorteada pela tela grande quando a contagem
-// começa e gravada em "proxima.tema"): Geografia, o globo; História, a ampulheta e os algarismos romanos; Natureza, o
+// começa e gravada em "proxima.tema"): Geografia, o globo; História, uma de cinco cenas (abaixo); Natureza, o
 // broto; Artes e Pensamento, a pincelada; Cotidiano, o despertador; Ciências, o átomo; Entretenimento, o começo do filme;
 // Esportes, a bola quicando. Sem tema conhecido, o número gigante. Primeira versão de cada uma (os protótipos de
-// 2026-11-24), para ser melhorada depois, tema a tema.
+// 2026-11-24), para ser melhorada depois, tema a tema. História já tem cinco cenas (pirâmide, Coliseu, relógio de sol,
+// Muralha da China e religiões do mundo), sempre em algarismos romanos; a cena é sorteada a cada contagem pela "chave"
+// (semente da partida e rodada), a mesma em todos os aparelhos.
 // Medidas em --u (1,8vmin): na TV deitada, perto de 1% da largura; no celular em pé, a cena ocupa boa parte da tela.
 // Usa as variáveis de cor da página (--acento, --linha) e as fontes (--fonte, --mono).
 
@@ -48,22 +50,74 @@ const CSS = `
 .contagem .geo .num { position: absolute; inset: 0; display: grid; place-items: center; font-size: calc(13 * var(--u));
                       text-shadow: 0 0 calc(2 * var(--u)) #000, 0 0 var(--u) #000; animation: ct-pulso 1s ease-out both; }
 
-/* História: a ampulheta escoando e o número em algarismos romanos. */
-.contagem .hist .linha { display: flex; align-items: center; gap: calc(3 * var(--u)); }
-.contagem .hist .amp { width: calc(11 * var(--u)); height: auto; display: block; }
-.contagem .hist .vidro { fill: #0b1230; stroke: #2F5BEA; stroke-width: 2; stroke-linejoin: round; }
-.contagem .hist .moldura { fill: #2F5BEA; }
-.contagem .hist .areia { fill: #F4D58D; }
-.contagem .hist .cima { transform-box: fill-box; transform-origin: 50% 100%; animation: ct-escoar 7s linear var(--atraso, 0s) both; }
-.contagem .hist .baixo { transform-box: fill-box; transform-origin: 50% 100%; animation: ct-encher 7s linear var(--atraso, 0s) both; }
-@keyframes ct-escoar { from { transform: scaleY(1); } to { transform: scaleY(0); } }
-@keyframes ct-encher { from { transform: scaleY(0); } to { transform: scaleY(1); } }
-.contagem .hist .fio { stroke: #F4D58D; stroke-width: 1.4; stroke-dasharray: 2 3; animation: ct-cair .4s linear infinite; }
-@keyframes ct-cair { to { stroke-dashoffset: -5; } }
-.contagem .hist .romano { display: grid; justify-items: start; gap: calc(.6 * var(--u)); }
-.contagem .hist .num { font-size: calc(12 * var(--u)); letter-spacing: .06em; text-shadow: 0 0 calc(2 * var(--u)) #2F5BEA, 0 0 var(--u) #000;
-                       transform-origin: left center; animation: ct-pulso 1s ease-out both; }
-.contagem .hist .arab { font-family: var(--mono, monospace); font-size: calc(1.8 * var(--u)); color: #A0A4AB; }
+/* História: sempre em algarismos romanos (o zero é N, de nulla); cinco cenas, uma sorteada a cada contagem. */
+.contagem .hist .num { letter-spacing: .06em; animation: ct-pulso 1s ease-out both; }
+.contagem .hist svg { display: block; overflow: visible; height: auto; }
+/* — Pirâmide em construção: uma fiada de blocos por segundo e o topo dourado no zero; o sol atravessa o céu. */
+.contagem .hp .linha { display: flex; align-items: flex-end; gap: calc(3 * var(--u)); }
+.contagem .hp svg { width: calc(30 * var(--u)); }
+.contagem .hp .chao { fill: #2a2316; }
+.contagem .hp .camada { stroke: #8a6a2a; stroke-width: .6; transform-box: fill-box; transform-origin: 50% 100%;
+                        animation: ct-assentar .5s cubic-bezier(.2, 1.4, .4, 1) both; }
+.contagem .hp .camada.a { fill: #E2BC6E; } .contagem .hp .camada.b { fill: #D4AC5B; }
+@keyframes ct-assentar { from { transform: translateY(-140%); opacity: 0; } to { transform: none; opacity: 1; } }
+.contagem .hp .topo { fill: #FFD100; filter: drop-shadow(0 0 3px #FFD100); transform-box: fill-box; transform-origin: 50% 100%;
+                      animation: ct-assentar .5s cubic-bezier(.2, 1.4, .4, 1) calc(var(--atraso, 0s) + 6.6s) both; }
+.contagem .hp .numbox { display: grid; justify-items: start; gap: calc(.6 * var(--u)); padding-bottom: var(--u); }
+.contagem .hp .num { font-size: calc(12 * var(--u)); transform-origin: left bottom; text-shadow: 0 0 calc(2 * var(--u)) #2F5BEA; }
+/* — Coliseu à noite: os sete arcos do térreo, acesos por tochas, apagam um por segundo. */
+.contagem .hc svg { width: calc(40 * var(--u)); max-width: 94vw; }
+.contagem .hc .pedra { fill: #CDB88E; } .contagem .hc .friso { fill: #9c8a64; }
+.contagem .hc .vao, .contagem .hc .arco { fill: #14161c; }
+.contagem .hc .arco { transition: fill .4s; }
+.contagem .hc .arco.acesa { fill: #FFB347; filter: drop-shadow(0 0 2px #FFB347) drop-shadow(0 0 5px #ff8a00); }
+.contagem .hc .num { font-size: calc(10 * var(--u)); letter-spacing: .08em; text-shadow: 0 0 calc(2 * var(--u)) #FFB347, 0 0 var(--u) #000; }
+/* — Relógio de sol: a sombra passa pelas horas de VII a I e a hora da vez acende; o sol atravessa o céu. */
+.contagem .hs .linha { display: flex; align-items: center; gap: calc(3 * var(--u)); }
+.contagem .hs svg { width: calc(34 * var(--u)); }
+.contagem .hs .mostrador { fill: #2b2f38; stroke: #2F5BEA; stroke-width: 1.5; }
+.contagem .hs .raio { stroke: #A0A4AB55; stroke-width: .6; }
+.contagem .hs .hora { font: 800 6.5px var(--fonte, sans-serif); fill: #A0A4AB; text-anchor: middle; dominant-baseline: central; transition: fill .3s; }
+.contagem .hs .hora.agora { fill: #FFD100; }
+.contagem .hs .gnomon { fill: #8b93a7; }
+.contagem .hs .sombra { fill: #000; opacity: .85; transform-box: fill-box; transform-origin: 0% 50%; transition: transform .9s ease-in-out; }
+.contagem .hs .astro { fill: #FFD100; filter: drop-shadow(0 0 4px #FFD100); }
+.contagem .hs .romano { display: grid; justify-items: start; gap: calc(.5 * var(--u)); }
+.contagem .hs .num { font-size: calc(11 * var(--u)); transform-origin: left center; text-shadow: 0 0 calc(2 * var(--u)) #2F5BEA; }
+/* — Muralha da China: as torres acendem os faróis de fogo uma por segundo, como os sinais que corriam pela muralha. */
+.contagem .hm svg { width: calc(50 * var(--u)); max-width: 94vw; }
+.contagem .hm .serra { fill: #161b29; } .contagem .hm .serra2 { fill: #1e2537; }
+.contagem .hm .muro { fill: none; stroke: #b49f72; stroke-width: 7; stroke-linejoin: round; stroke-linecap: round; }
+.contagem .hm .ameias { fill: none; stroke: #CDB88E; stroke-width: 3; stroke-dasharray: 2.2 2; }
+.contagem .hm .torre { fill: #CDB88E; stroke: #8a7650; stroke-width: .6; }
+.contagem .hm .janela { fill: #14161c; }
+.contagem .hm .farol { opacity: 0; transition: opacity .3s; }
+.contagem .hm .farol.acesa { opacity: 1; }
+.contagem .hm .chama { fill: #FFB347; filter: drop-shadow(0 0 2px #ff8a00) drop-shadow(0 0 5px #ff6a00); transform-box: fill-box;
+                       transform-origin: 50% 100%; animation: ct-chama .35s ease-in-out infinite alternate; }
+@keyframes ct-chama { from { transform: scale(.85, .9); } to { transform: scale(1.1, 1.15); } }
+.contagem .hm .fumaca { fill: #8b93a7; transform-box: fill-box; transform-origin: center; animation: ct-fumaca 1.6s ease-out infinite; }
+@keyframes ct-fumaca { from { transform: translateY(0) scale(.6); opacity: .7; } to { transform: translateY(-16px) scale(1.6); opacity: 0; } }
+.contagem .hm .num { font-size: calc(10 * var(--u)); letter-spacing: .08em; text-shadow: 0 0 calc(2 * var(--u)) #ff8a00, 0 0 var(--u) #000; }
+/* — Religiões do mundo: sete símbolos num anel que gira devagar; um acende a cada segundo; o número fica no centro.
+     O "view-box" tem a origem no (0, 0) do desenho, que é o centro do anel. */
+.contagem .hr .roda { position: relative; width: calc(30 * var(--u)); aspect-ratio: 1; }
+.contagem .hr svg { width: 100%; height: 100%; }
+.contagem .hr .giro { transform-box: view-box; transform-origin: 0 0; animation: ct-girar 28s linear infinite; }
+@keyframes ct-girar { to { transform: rotate(360deg); } }
+.contagem .hr .contra { transform-box: fill-box; transform-origin: center; animation: ct-girar 28s linear infinite reverse; }
+.contagem .hr .aro { fill: none; stroke: #2F5BEA; stroke-width: .8; opacity: .6; }
+.contagem .hr .disco { fill: #0b1230; stroke: #2F5BEA; stroke-width: 1; transition: fill .4s, stroke .4s; }
+.contagem .hr .simbolo { fill: #A0A4AB; transition: fill .4s; }
+.contagem .hr .simbolo .tra { fill: none; stroke: #A0A4AB; transition: stroke .4s; }
+.contagem .hr .simbolo .furo { fill: #0b1230; }
+.contagem .hr .acesa .disco { fill: #1c2a6b; stroke: #FFD100; }
+.contagem .hr .acesa .simbolo { fill: #FFD100; filter: drop-shadow(0 0 2px #FFD100); }
+.contagem .hr .acesa .simbolo .tra { stroke: #FFD100; }
+.contagem .hr .acesa .simbolo .furo { fill: #1c2a6b; }
+.contagem .hr .om { font: 700 9px "Nirmala UI", "Noto Sans Devanagari", "Mangal", sans-serif; text-anchor: middle; dominant-baseline: central; }
+.contagem .hr .num { position: absolute; inset: 0; display: grid; place-items: center; font-size: calc(8 * var(--u));
+                     text-shadow: 0 0 calc(2 * var(--u)) #2F5BEA, 0 0 var(--u) #000; }
 
 /* Natureza: o broto cresce, uma folha a cada segundo, e floresce no zero. */
 .contagem .nat .linha { display: flex; align-items: flex-end; gap: calc(2 * var(--u)); }
@@ -179,7 +233,121 @@ function instalarCss() {
   document.head.append(s);
 }
 
-const ROMANOS = ["·", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+const ROMANOS = ["N", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];  // o zero é N, de nulla (monges medievais)
+const romano = s => ROMANOS[s] ?? String(s);
+const f = n => n.toFixed(1);
+
+// Gerador pseudoaleatório (mulberry32), como em linear.js: sorteia a cena de História a partir da chave.
+function aleatorio(semente) {
+  let a = semente >>> 0;
+  return () => {
+    a = (a + 0x6D2B79F5) >>> 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+// ---- História: cinco cenas. "decorrido" acerta as animações longas para quem vê a contagem começar no meio.
+function piramide(decorrido) {
+  const meia = y => 64 * (y - 18) / 82, cx = 70;  // inclinação da Grande Pirâmide (cerca de 52°)
+  const camadas = Array.from({ length: 7 }, (_, k) => {
+    const yb = 100 - 10 * k, yt = yb - 10;
+    return `<polygon class="camada ${k % 2 ? "b" : "a"}" style="animation-delay:calc(var(--atraso, 0s) + ${k}s)"
+      points="${f(cx - meia(yb))},${yb} ${f(cx + meia(yb))},${yb} ${f(cx + meia(yt))},${yt} ${f(cx - meia(yt))},${yt}"/>`;
+  }).join("");
+  return `<svg viewBox="0 0 140 112" aria-hidden="true"><rect class="chao" x="0" y="100" width="140" height="12" rx="2"/>
+    <circle r="6" fill="#FFD100" opacity=".9"><animateMotion dur="7s" begin="${f(-decorrido)}s" fill="freeze" path="M8 70 Q70 -30 132 70"/></circle>
+    ${camadas}<polygon class="topo" points="${f(cx - meia(30))},30 ${f(cx + meia(30))},30 ${cx},18"/></svg>`;
+}
+function coliseu(s) {
+  const arcos = (y, h, w, cls, acesos) => Array.from({ length: 7 }, (_, k) => {
+    const x = 26 + k * (148 / 7) + (148 / 7 - w) / 2;
+    return `<path class="${cls}${k < acesos ? " acesa" : ""}" data-k="${k}" d="M${f(x)} ${y} v${-h + w / 2} a${w / 2} ${w / 2} 0 0 1 ${w} 0 v${h - w / 2} z"/>`;
+  }).join("");
+  return `<svg viewBox="0 0 200 118" aria-hidden="true"><defs><clipPath id="ct-ruina">
+      <path d="M18 14 H120 L126 22 H140 L146 30 H156 L160 44 H170 L174 58 H182 L182 116 H18 Z"/></clipPath></defs>
+    <rect x="0" y="112" width="200" height="6" rx="2" fill="#1c1e23"/>
+    <g clip-path="url(#ct-ruina)">
+      <rect class="pedra" x="20" y="14" width="160" height="98"/>
+      <rect class="friso" x="20" y="28" width="160" height="2"/><rect class="friso" x="20" y="52" width="160" height="2"/>
+      <rect class="friso" x="20" y="80" width="160" height="2"/>
+      ${Array.from({ length: 10 }, (_, k) => `<rect class="vao" x="${f(30 + k * 15.4)}" y="18" width="5" height="6" rx="1"/>`).join("")}
+      ${arcos(50, 18, 11, "vao", 0)}${arcos(78, 22, 12, "vao", 0)}${arcos(110, 26, 13, "arco", s)}
+    </g></svg>`;
+}
+const HORAS = [7, 6, 5, 4, 3, 2, 1];
+const anguloSol = h => 165 - (7 - h) * 25;  // graus: VII à esquerda, I à direita, longe da base
+function relogioDeSol(s, decorrido) {
+  const rad = a => a * Math.PI / 180;
+  const horas = HORAS.map(h => {
+    const a = rad(anguloSol(h));
+    return `<line class="raio" x1="0" y1="0" x2="${f(44 * Math.cos(a))}" y2="${f(-44 * Math.sin(a))}"/>
+      <text class="hora${h === s ? " agora" : ""}" data-h="${h}" x="${f(36 * Math.cos(a))}" y="${f(-36 * Math.sin(a))}">${ROMANOS[h]}</text>`;
+  }).join("");
+  // O sol vai da direita (leste) para a esquerda e a sombra aponta sempre para o lado oposto, da esquerda para a direita.
+  return `<svg viewBox="-52 -62 104 70" aria-hidden="true">
+    <circle class="astro" r="5"><animateMotion dur="7s" begin="${f(-decorrido)}s" fill="freeze" path="M44 -50 Q0 -78 -44 -50"/></circle>
+    <path class="mostrador" d="M-46 0 A46 46 0 0 1 46 0 Z"/>${horas}
+    <path class="sombra" d="M0 -2 L42 0 L0 2 Z" style="transform: rotate(${-anguloSol(Math.max(1, Math.min(7, s)))}deg)"/>
+    <path class="gnomon" d="M-3 0 L0 -12 L3 0 Z"/><rect x="-50" y="0" width="100" height="5" rx="1.5" fill="#3a3f4b"/></svg>`;
+}
+const TORRES = [[22, 74], [52, 56], [82, 68], [112, 48], [142, 62], [172, 44], [200, 58]];
+function muralha(s) {
+  const pts = TORRES.map(([x, y]) => `${x},${y}`).join(" "), topo = TORRES.map(([x, y]) => `${x},${y - 4.5}`).join(" ");
+  const torres = TORRES.map(([x, y], k) => `<g transform="translate(${x} ${y})">
+    <rect class="torre" x="-7" y="-15" width="14" height="17"/>
+    ${[-7, -3.2, .8, 4.6].map(dx => `<rect class="torre" x="${dx}" y="-18" width="2.4" height="3.2"/>`).join("")}
+    <rect class="janela" x="-1.6" y="-10" width="3.2" height="5" rx="1.6"/>
+    <g class="farol${k < 8 - s ? " acesa" : ""}" data-k="${k}">
+      <circle class="fumaca" cx="0" cy="-26" r="2.4" style="animation-delay:${f(-k * .3)}s"/>
+      <circle class="fumaca" cx="1.2" cy="-26" r="2" style="animation-delay:${f(-k * .3 - .8)}s"/>
+      <path class="chama" d="M0 -18 c-3 -3 -2.4 -6.5 0 -9.5 c2.4 3 3 6.5 0 9.5z"/></g></g>`).join("");
+  return `<svg viewBox="0 0 222 112" aria-hidden="true">
+    <path class="serra" d="M0 112 L0 70 L18 58 L40 66 L62 40 L84 58 L104 34 L128 52 L150 36 L170 30 L190 46 L222 34 L222 112 Z"/>
+    <polyline class="muro" points="${pts}"/><polyline class="ameias" points="${topo}"/>${torres}
+    <path class="serra2" d="M0 112 L0 96 L30 88 L56 94 L86 86 L118 94 L146 84 L176 90 L204 82 L222 88 L222 112 Z"/></svg>`;
+}
+const SIMBOLOS = [
+  ["Cristianismo", `<path d="M-1.3 -6.5 h2.6 v3.6 h3.2 v2.6 h-3.2 v6.8 h-2.6 v-6.8 h-3.2 v-2.6 h3.2 z"/>`],
+  ["Islamismo", `<path d="M1.2 -5.3 A5.5 5.5 0 1 0 1.2 5.3 A4.3 4.3 0 1 1 1.2 -5.3 Z"/><path d="M3.6 -2 L4.2 -.6 L5.7 -.6 L4.5 .3 L5 1.8 L3.6 .9 L2.2 1.8 L2.7 .3 L1.5 -.6 L3 -.6 Z"/>`],
+  ["Judaísmo", `<path class="tra" stroke-width="1.1" stroke-linejoin="round" d="M0 -6 L5.2 3 L-5.2 3 Z M0 6 L5.2 -3 L-5.2 -3 Z"/>`],
+  ["Budismo", `<circle class="tra" r="5" stroke-width="1.1"/><circle r="1.4"/>` + Array.from({ length: 8 }, (_, k) => {
+    const a = k * Math.PI / 4;
+    return `<line class="tra" stroke-width=".8" x1="${f(1.4 * Math.cos(a))}" y1="${f(1.4 * Math.sin(a))}" x2="${f(6.4 * Math.cos(a))}" y2="${f(6.4 * Math.sin(a))}"/>`;
+  }).join("")],
+  ["Hinduísmo", `<text class="om" x="0" y=".5">ॐ</text>`],
+  // Yin-yang: o ponto claro fica na metade escura (embaixo) e o escuro na clara (em cima).
+  ["Taoísmo", `<circle class="tra" r="5.5" stroke-width=".8"/><path d="M0 -5.5 A5.5 5.5 0 0 1 0 5.5 A2.75 2.75 0 0 1 0 0 A2.75 2.75 0 0 0 0 -5.5 Z"/><circle cx="0" cy="-2.75" r=".9"/><circle class="furo" cx="0" cy="2.75" r=".9"/>`],
+  ["Xintoísmo", `<path d="M-6.8 -5.2 Q0 -6.8 6.8 -5.2 L6.4 -3.8 Q0 -5.3 -6.4 -3.8 Z"/><rect x="-5.2" y="-2.6" width="10.4" height="1.2"/><rect x="-4.4" y="-4" width="1.4" height="10"/><rect x="3" y="-4" width="1.4" height="10"/>`],
+];
+function religioes(s) {
+  const discos = SIMBOLOS.map(([nome, d], k) => {
+    const a = -Math.PI / 2 + k * 2 * Math.PI / 7;
+    return `<g transform="translate(${f(38 * Math.cos(a))} ${f(38 * Math.sin(a))})"><g class="item${k < 8 - s ? " acesa" : ""}" data-k="${k}">
+      <g class="contra"><circle class="disco" r="9.5"/><g class="simbolo" transform="scale(1.05)">${d}</g><title>${nome}</title></g></g></g>`;
+  }).join("");
+  return `<svg viewBox="-50 -50 100 100" aria-hidden="true"><circle class="aro" r="38"/><g class="giro">${discos}</g></svg>`;
+}
+const acender = (caixa, sel, n) => caixa.querySelectorAll(sel).forEach(g => g.classList.toggle("acesa", +g.dataset.k < n));
+const badgeH = `<span class="badge" style="background:#2F5BEA;color:#fff">História</span>`;
+const rotH = `<div class="rot">Próxima pergunta em</div>`;
+const HISTORIA = [
+  { html: (s, d) => `<div class="cena hist hp">${badgeH}<div class="linha">${piramide(d)}<div class="numbox">${rotH}<div class="num">${romano(s)}</div></div></div></div>`,
+    texto: romano },
+  { html: s => `<div class="cena hist hc">${badgeH}${rotH}<div class="num">${romano(s)}</div>${coliseu(s)}</div>`,
+    texto: romano, depois: (caixa, s) => acender(caixa, ".arco", s) },
+  { html: (s, d) => `<div class="cena hist hs">${badgeH}<div class="linha">${relogioDeSol(s, d)}<div class="romano">${rotH}<div class="num">${romano(s)}</div></div></div></div>`,
+    texto: romano,
+    depois: (caixa, s) => {
+      caixa.querySelector(".sombra").style.transform = `rotate(${-anguloSol(Math.max(1, Math.min(7, s)))}deg)`;
+      caixa.querySelectorAll(".hora").forEach(t => t.classList.toggle("agora", +t.dataset.h === s));
+    } },
+  { html: s => `<div class="cena hist hm">${badgeH}${rotH}<div class="num">${romano(s)}</div>${muralha(s)}</div>`,
+    texto: romano, depois: (caixa, s) => acender(caixa, ".farol", 8 - s) },
+  { html: s => `<div class="cena hist hr">${badgeH}${rotH}<div class="roda">${religioes(s)}<div class="num">${romano(s)}</div></div></div>`,
+    texto: romano, depois: (caixa, s) => acender(caixa, ".item", 8 - s) },
+];
 const badge = t => `<span class="badge" style="background:${CORES[t][0]};color:${CORES[t][1]}">${t}</span>`;
 const rot = `<div class="rot">Próxima pergunta em</div>`;
 const folhas = [98, 88, 77, 66, 54, 43].map((y, k) => k % 2
@@ -210,15 +378,7 @@ const ESTILOS = {
       ${[0, -1, -2, -3].map(d => `<ellipse class="mer" rx="46" ry="46" style="animation-delay:${d}s"/>`).join("")}
       <path class="pino" d="M24 -40 c-5 0 -8 4 -8 8 c0 6 8 13 8 13 s8 -7 8 -13 c0 -4 -3 -8 -8 -8z"/>
     </svg><div class="num">${s}</div></div></div>` },
-  "História": {
-    html: s => `<div class="cena hist">${badge("História")}<div class="linha"><svg class="amp" viewBox="0 0 60 100" aria-hidden="true">
-      <rect class="moldura" x="4" y="2" width="52" height="6" rx="2"/><rect class="moldura" x="4" y="92" width="52" height="6" rx="2"/>
-      <path class="vidro" d="M10 8 L50 8 L32 50 L50 92 L10 92 L28 50 Z"/>
-      <path class="areia cima" d="M14 12 L46 12 L30 47 Z"/><path class="areia baixo" d="M30 60 L47 89 L13 89 Z"/>
-      <line class="fio" x1="30" y1="47" x2="30" y2="89"/></svg>
-      <div class="romano">${rot}<div class="num">${ROMANOS[s] ?? s}</div><div class="arab">${s} s</div></div></div></div>`,
-    texto: s => ROMANOS[s] ?? String(s),
-    depois: (caixa, s) => { caixa.querySelector(".arab").textContent = `${s} s`; } },
+  "História": HISTORIA,
   "Natureza": {
     html: s => `<div class="cena nat">${badge("Natureza")}<div class="linha"><div class="numbox">${rot}<div class="num">${s}</div></div>
       <svg class="planta" viewBox="0 0 100 120" aria-hidden="true"><path class="solo" d="M4 112 Q50 103 96 112 L96 120 L4 120Z"/>
@@ -251,19 +411,20 @@ const ESTILOS = {
       <div class="bola"><span class="num">${s}</span></div></div></div>` },
 };
 
-// Liga a contagem a um elemento da página (vazio, com hidden). mostrar(tema, ms, total) desenha "faltam ms" com a
-// animação do tema e devolve o número de segundos quando ele acaba de mudar (para tocar o som do segundo), ou null;
+// Liga a contagem a um elemento da página (vazio, com hidden). mostrar(tema, ms, total, chave) desenha "faltam ms" com a
+// animação do tema (com várias, a sorteada pela chave: um número igual em todos os aparelhos) e devolve o número de segundos quando ele acaba de mudar (para tocar o som do segundo), ou null;
 // esconder() some.
 export function criarContagem(caixa) {
   instalarCss();
   let atual = null, segundos = null;
   return {
-    mostrar(tema, ms, total) {
-      const chave = ESTILOS[tema] ? tema : "";
-      const e = ESTILOS[chave];
+    mostrar(tema, ms, total, chave = 0) {
+      const lista = [].concat(ESTILOS[tema] || ESTILOS[""]);
+      const i = lista.length > 1 ? Math.floor(aleatorio(chave)() * lista.length) : 0;
+      const e = lista[i], id = `${tema}|${i}`;
       const s = Math.max(0, Math.ceil(ms / 1000));
-      if (chave !== atual || caixa.hidden) {
-        atual = chave;
+      if (id !== atual || caixa.hidden) {
+        atual = id;
         segundos = s;
         const decorrido = Math.max(0, total - ms / 1000);
         caixa.className = "contagem";
