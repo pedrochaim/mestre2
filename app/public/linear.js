@@ -39,6 +39,20 @@ export const ordemDosTemas = semente => {
   return ordem;
 };
 
+// Modo Arena: a sequência dos temas das perguntas, 10 posições que se repetem durante a partida, os 8 temas e duas de
+// tema qualquer (QUALQUER), numa ordem sorteada pela semente da partida (um sorteio à parte do das casas do tabuleiro).
+export const QUALQUER = "*";
+export const ordemDaArena = semente => {
+  const ordem = [...TEMAS, QUALQUER, QUALQUER];
+  if (!Number.isInteger(semente)) return ordem;
+  const r = aleatorio(semente ^ 0x5A3C96E1);
+  for (let i = ordem.length - 1; i > 0; i--) {
+    const j = Math.floor(r() * (i + 1));
+    [ordem[i], ordem[j]] = [ordem[j], ordem[i]];
+  }
+  return ordem;
+};
+
 // Tipo de cada posição: "inicio", "chegada", "especial" ou o nome do tema.
 const tiposCache = new Map();
 export function tipos(semente) {

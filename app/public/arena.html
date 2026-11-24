@@ -159,6 +159,18 @@
     #fim h2 { font-size: clamp(1.6rem, 6vmin, 4rem); margin: 0; }
     #fim .chips { justify-content: center; font-size: clamp(1.1rem, 3.4vmin, 2.2rem); }
 
+    /* Sequência dos temas (só na tela que comanda): a tira acima do tabuleiro, com a ordem em que os temas são
+       perguntados, os 8 e duas posições de tema qualquer, repetida em voltas. A da pergunta em jogo fica marcada, e as
+       que já passaram nesta volta, apagadas. */
+    #sequencia { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: .5vmin; margin: .5em .4em 0; padding: 0; list-style: none;
+                 font-size: clamp(9px, 1.35vmin, 18px); flex: none; }
+    #sequencia li { background: var(--c); color: var(--ct); border-radius: .5em; padding: .5em .25em; min-height: 3.4em; display: grid;
+                    place-items: center; text-align: center; font-weight: 800; line-height: 1.1; transition: opacity .3s, transform .3s; }
+    #sequencia li.qualquer { --ct: var(--texto); background:
+      linear-gradient(90deg, #00A84F, #8CC63F, #F7941D, #E8412C, #E4007C, #8E4FC9, #00A3E0, #2F5BEA) top / 100% .5em no-repeat, #23262c; }
+    #sequencia li.feita { opacity: .4; }
+    #sequencia li.atual { outline: .3em solid var(--acento); outline-offset: .15em; transform: scale(1.06); }
+
     /* Tabuleiro e jogadores */
     #tabuleiro svg { width: 100%; height: auto; display: block; max-height: 62vh; }
     /* A tela que comanda arrasta os peões; solto, o peão vai para a casa mais próxima da trilha. */
@@ -275,6 +287,7 @@
     </div>
 
     <section>
+      <ol id="sequencia" hidden aria-label="Ordem dos temas das perguntas"></ol>
       <div id="tabuleiro"></div>
       <div id="entrar-canto" hidden><div id="canto-qr"></div><div><div class="suave">Para entrar</div><div id="canto-url"></div></div></div>
       <div id="jogadores"></div>
@@ -401,18 +414,24 @@
     return umDe(lista.filter(p => recentes.get(p.id) === maisAntiga));
   }
 
-  // Sorteio da Arena: a pergunta é a mesma para todos, então o tema não vem da casa de um jogador. Os temas se revezam,
-  // na ordem da trilha desta partida (a semente), pulando os que já não têm perguntas novas. Dentro do tema, o subtema
-  // que menos saiu e, nele, a pergunta mais fresca, como no jogo original. Nenhuma pergunta se repete na partida.
+  // Sorteio da Arena: a pergunta é a mesma para todos, então o tema não vem da casa de um jogador. O tema da pergunta n
+  // é a posição n da sequência da partida (L.ordemDaArena: os 8 temas e duas de tema qualquer, sorteados pela semente e
+  // repetidos em voltas), a da tira acima do tabuleiro; na de tema qualquer, um tema sorteado. Se o tema já não tiver
+  // perguntas novas, vale o das posições seguintes. Dentro do tema, o subtema que menos saiu e, nele, a pergunta mais
+  // fresca, como no jogo original. Nenhuma pergunta se repete na partida.
+  const TEMAS = Object.keys(CORES);
   function sortear(n) {
-    const ordem = L.ordemDosTemas(partida.semente);
+    const ordem = L.ordemDaArena(partida.semente);
     const uso = new Map();
     for (const [id, vezes] of usadas) {
       const p = porId.get(id);
       if (p) uso.set(`${p.tema} › ${p.subtema}`, (uso.get(`${p.tema} › ${p.subtema}`) || 0) + vezes);
     }
-    for (let k = 0; k < ordem.length; k++) {
-      const tema = ordem[(n - 1 + k) % ordem.length];
+    const escolhas = ordem.flatMap((_, k) => {
+      const t = ordem[(n - 1 + k) % ordem.length];
+      return t === L.QUALQUER ? embaralhar(TEMAS) : [t];
+    });
+    for (const tema of escolhas) {
       const lista = perguntas.filter(p => p.tema === tema && !usadas.has(p.id));
       if (!lista.length) continue;
       const usoDe = s => uso.get(`${tema} › ${s}`) || 0;
@@ -875,6 +894,7 @@
     if (r && !fim && !emSuspense()) desenharPergunta(r);
     if (fim) desenharFim();
     desenharJogadores();
+    desenharSequencia();
     // Enquanto um peão é arrastado, o tabuleiro não é redesenhado, para não perder o arrasto.
     if (!arrasto) $("tabuleiro").innerHTML = L.svgLinear(jogadores, casaVisivel, CORES, abrev, esc, peaoTela, partida.semente);
     desenharControles();
@@ -1025,6 +1045,37 @@
       }
       return f;
     }) : [el("span", { className: "suave", textContent: "Ninguém entrou ainda." })]));
+  }
+
+  // A tira da sequência dos temas (L.ordemDaArena), só na tela que comanda. Os nomes levam hífens opcionais, para
+  // quebrar em duas linhas nas casas estreitas.
+  const NOMES_CURTOS = { "Geografia": "Geo­grafia", "Natureza": "Natu­reza", "Artes e Pensamento": "Artes e Pensa­mento",
+    "Cotidiano": "Coti­diano", "Ciências": "Ciên­cias", "Entretenimento": "Entre­teni­mento",
+    "Esportes": "Espor­tes", "História": "His­tória" };
+  function desenharSequencia() {
+    const caixa = $("sequencia");
+    caixa.hidden = !souAnfitriao();
+    if (caixa.hidden) return;
+    const ordem = L.ordemDaArena(partida.semente);
+    const n = partida.rodada?.n;
+    const atual = n ? (n - 1) % ordem.length : -1;
+    caixa.replaceChildren(...ordem.map((t, i) => {
+      const li = el("li");
+      if (t === L.QUALQUER) {
+        li.className = "qualquer";
+        li.textContent = "★ Qualquer";
+        li.title = "Tema qualquer, sorteado na hora";
+      } else {
+        const [c, ct] = corDe(t);
+        li.style.setProperty("--c", c);
+        li.style.setProperty("--ct", ct);
+        li.textContent = NOMES_CURTOS[t] || t;
+        li.title = t;
+      }
+      if (i === atual) li.classList.add("atual");
+      else if (i < atual) li.classList.add("feita");
+      return li;
+    }));
   }
 
   function desenharFim() {
