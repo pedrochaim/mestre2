@@ -1,5 +1,5 @@
-// Modo Arena · avatares dos jogadores (2026-11-23): 20 personagens originais, desenhados aqui em SVG, e as bandeiras de 24
-// times de futebol (as listras e cores de cada um, com a sigla; sem os escudos). O jogador escolhe um ao entrar; o campo
+// Modo Arena · avatares dos jogadores (2026-11-23): 20 personagens originais, desenhados aqui em SVG, as bandeiras de 24
+// times de futebol (as listras e cores de cada um, com a sigla; sem os escudos) e imagens personalizadas (app/avatares/). O jogador escolhe um ao entrar; o campo
 // "avatar" do jogador guarda o identificador ("astronauta", "t-fla"…). No tabuleiro e nas listas, o avatar aparece com um
 // anel na cor do jogador e as iniciais dele numa etiqueta embaixo.
 
@@ -175,12 +175,34 @@ export const PERSONAGENS = AV.map((a, k) => ({ id: semAcento(a.nome), nome: a.no
 export const TIMES_DE_FUTEBOL = TIMES.map((t, k) => ({ id: "t-" + t.sigla.toLowerCase(), nome: t.nome, k }));
 const porId = new Map([...PERSONAGENS.map(p => [p.id, { tipo: "p", k: p.k }]), ...TIMES_DE_FUTEBOL.map(t => [t.id, { tipo: "t", k: t.k }])]);
 export const avatarValido = id => porId.has(id);
-export const nomeDoAvatar = id => { const a = porId.get(id); return !a ? "" : a.tipo === "t" ? TIMES[a.k].nome : AV[a.k].nome; };
+export const nomeDoAvatar = id => { const a = porId.get(id); return !a ? "" : a.tipo === "c" ? a.nome : a.tipo === "t" ? TIMES[a.k].nome : AV[a.k].nome; };
+
+// Personalizados (2026-11-23): imagens coladas em app/avatares/, convertidas por app/avatares.py para avatares/ no site,
+// com a lista avatares/avatares.json ([{id: "c-…", nome, arquivo}]). Carregados ao abrir a página; até lá, quem tem um
+// avatar personalizado aparece com o disco de iniciais, e a página redesenha quando a lista chega (personalizadosProntos).
+export const PERSONALIZADOS = [];
+export const personalizadosProntos = fetch("avatares/avatares.json", { cache: "no-cache" })
+  .then(r => r.ok ? r.json() : []).catch(() => [])
+  .then(lista => {
+    for (const a of Array.isArray(lista) ? lista : [])
+      if (/^c-[a-z0-9_-]{1,22}$/.test(a.id) && typeof a.arquivo === "string" && !porId.has(a.id)) {
+        PERSONALIZADOS.push({ id: a.id, nome: String(a.nome || a.id) });
+        porId.set(a.id, { tipo: "c", nome: String(a.nome || a.id), url: a.arquivo });
+      }
+    return PERSONALIZADOS;
+  });
+function imagemSvg(id, a) {
+  const cid = "c_" + id.replace(/\W/g, "_");
+  return `<svg viewBox="0 0 100 100" role="img" aria-label="${escTexto(a.nome)}"><circle cx="50" cy="50" r="50" fill="#24241f"/>
+    <clipPath id="${cid}"><circle cx="50" cy="50" r="50"/></clipPath><g clip-path="url(#${cid})">
+    <image href="${escTexto(a.url)}" x="0" y="0" width="100" height="100" preserveAspectRatio="xMidYMid slice"/></g></svg>`;
+}
 
 // O desenho sozinho (na grade de escolha). Com siglaNoMeio, a sigla do time sobe, para dar lugar às iniciais.
 export function desenhoAvatar(id, siglaNoMeio = false) {
   const a = porId.get(id);
   if (!a) return "";
+  if (a.tipo === "c") return imagemSvg(id, a);
   return a.tipo === "t" ? bandeiraSvg(TIMES[a.k], undefined, siglaNoMeio) : avatarSvg(AV[a.k]);
 }
 

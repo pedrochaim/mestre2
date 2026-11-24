@@ -110,6 +110,7 @@
       <div class="abas-av" role="tablist" aria-label="Tipo de avatar">
         <button type="button" role="tab" id="aba-personagens" aria-selected="true">Personagens</button>
         <button type="button" role="tab" id="aba-times" aria-selected="false">Times</button>
+        <button type="button" role="tab" id="aba-personalizados" aria-selected="false" hidden>Personalizados</button>
       </div>
       <div id="avatares" role="group" aria-label="Avatar"></div>
       <label>Sua cor</label>
@@ -163,7 +164,7 @@
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import { CHEGADA } from "./linear.js";
   import { TEMPOS } from "./arena-suspense.js";
-  import { PERSONAGENS, TIMES_DE_FUTEBOL, desenhoAvatar, avatarValido } from "./arena-avatares.js";
+  import { PERSONAGENS, TIMES_DE_FUTEBOL, PERSONALIZADOS, personalizadosProntos, desenhoAvatar, avatarValido } from "./arena-avatares.js";
   import { db, entrarAnonimo, OPCOES, CORES, corDe, $, el, esc, umDe, ficha, restante, acertarRelogio, manterAcesa }
     from "./arena-comum.js";
 
@@ -204,11 +205,14 @@
   // Avatar (arena-avatares.js): um personagem ou a bandeira de um time; o último escolhido fica guardado no aparelho.
   let avatar = null;
   try { avatar = localStorage.getItem("mestre2.arena.avatar"); } catch {}
-  if (!avatarValido(avatar)) avatar = umDe(PERSONAGENS).id;
-  let abaAvatar = avatar.startsWith("t-") ? "times" : "personagens";
+  // Um avatar personalizado só é conferido quando a lista deles chega (personalizadosProntos).
+  if (!avatarValido(avatar) && !avatar?.startsWith("c-")) avatar = umDe(PERSONAGENS).id;
+  let abaAvatar = avatar.startsWith("t-") ? "times" : avatar.startsWith("c-") ? "personalizados" : "personagens";
   function desenharAvatares() {
-    for (const a of ["personagens", "times"]) $("aba-" + a).setAttribute("aria-selected", String(a === abaAvatar));
-    const lista = abaAvatar === "times" ? TIMES_DE_FUTEBOL : PERSONAGENS;
+    $("aba-personalizados").hidden = !PERSONALIZADOS.length;
+    if (abaAvatar === "personalizados" && !PERSONALIZADOS.length) abaAvatar = "personagens";
+    for (const a of ["personagens", "times", "personalizados"]) $("aba-" + a).setAttribute("aria-selected", String(a === abaAvatar));
+    const lista = abaAvatar === "times" ? TIMES_DE_FUTEBOL : abaAvatar === "personalizados" ? PERSONALIZADOS : PERSONAGENS;
     $("avatares").replaceChildren(...lista.map(a => {
       const b = el("button", { type: "button", title: a.nome });
       b.innerHTML = desenhoAvatar(a.id);
@@ -220,7 +224,13 @@
   }
   $("aba-personagens").onclick = () => { abaAvatar = "personagens"; desenharAvatares(); };
   $("aba-times").onclick = () => { abaAvatar = "times"; desenharAvatares(); };
+  $("aba-personalizados").onclick = () => { abaAvatar = "personalizados"; desenharAvatares(); };
   desenharAvatares();
+  personalizadosProntos.then(() => {
+    if (!avatarValido(avatar)) { avatar = umDe(PERSONAGENS).id; abaAvatar = "personagens"; }
+    desenharAvatares();
+    desenhar();  // quem está na partida com um personalizado
+  });
 
   function mostrarEntrada(c = "") {
     $("conectando").hidden = true;

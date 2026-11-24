@@ -269,6 +269,7 @@
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import * as L from "./linear.js";
   import * as S from "./arena-suspense.js";
+  import { personalizadosProntos } from "./arena-avatares.js";
   import { db, entrarAnonimo, LETRAS, PRAZOS, PRAZO_PADRAO, OPCOES, CORES, abrev, corDe, $, el, esc, umDe, peao, ficha,
            agora, acertarRelogio, restante, manterAcesa } from "./arena-comum.js";
 
@@ -951,6 +952,8 @@
 
   const doLink = location.hash.slice(1).toUpperCase();
   if (/^[A-Z]{4}$/.test(doLink)) abrirPeloCodigo(doLink);
+  // Avatares personalizados chegam depois: redesenha o tabuleiro e as listas com eles.
+  personalizadosProntos.then(() => desenhar());
 </script>
 </body>
 </html>
