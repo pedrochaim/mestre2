@@ -2,7 +2,8 @@
   "hosting": {
     "public": "public",
     "predeploy": [
-      "node versao.js"
+      "node versao.js",
+      "node limpar_versoes.js"
     ],
     "ignore": [
       "firebase.json",
@@ -27,6 +28,9 @@
           }
         ]
       }
+    ],
+    "postdeploy": [
+      "node limpar_versoes.js"
     ]
   },
   "firestore": {
