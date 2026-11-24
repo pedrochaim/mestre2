@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800&family=Overpass+Mono:wght@600&display=swap" rel="stylesheet">
+  <title>Mestre2 · Contagens da Arena</title>
+  <style>
+    /* Galeria das contagens da Arena (arena-contagem.js): todas as cenas, em miniatura, e cada uma em tela cheia
+       (?ver=<tema>&cena=<n>). As miniaturas são a própria página em tela cheia, num iframe reduzido (?mini=1), para
+       as medidas em vmin saírem como na TV ou no celular. Cada cena repete: 7 s de contagem, o zero, e de novo. */
+    :root { color-scheme: dark;
+            --fundo: #000; --texto: #F4F4F2; --suave: #A0A4AB; --linha: #2A2D33; --cartao: #101114;
+            --acento: #FFD100; --sobre-cor: #000;
+            --fonte: "Overpass", system-ui, sans-serif; --mono: "Overpass Mono", ui-monospace, monospace; }
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+    html, body { height: 100%; }
+    body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.4 var(--fonte); }
+    button, a { font: inherit; color: inherit; }
+    button { background: var(--cartao); border: 1px solid var(--linha); border-radius: 10px; padding: .5rem .9rem; cursor: pointer; }
+    button[aria-pressed="true"] { border-color: var(--texto); background: var(--texto); color: #000; font-weight: 800; }
+    .suave { color: var(--suave); }
+
+    /* Galeria */
+    #galeria main { max-width: 1200px; margin: 0 auto; padding: 16px 16px 48px; }
+    #galeria header { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; align-items: end; justify-content: space-between;
+                      border-bottom: 1px solid var(--linha); padding-bottom: 1rem; }
+    #galeria h1 { margin: .3rem 0 0; font-size: 1.7rem; }
+    #galeria header p { margin: .2rem 0 0; }
+    .voltar { color: var(--suave); text-decoration: none; font-size: .9rem; }
+    .voltar:hover { color: var(--texto); }
+    .aparelho { display: flex; gap: .4rem; }
+    section { margin-top: 1.6rem; }
+    section h2 { margin: 0 0 .7rem; display: flex; align-items: center; gap: .6rem; font-size: 1rem; }
+    .badge { border-radius: 6px; padding: .15em .7em; font-weight: 800; }
+    .grade { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(var(--min, 270px), 1fr)); }
+    body.celular .grade { --min: 170px; }
+    .card { display: block; text-decoration: none; background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px;
+            overflow: hidden; transition: border-color .15s; }
+    .card:hover, .card:focus-visible { border-color: var(--acento); outline: none; }
+    .tela { position: relative; overflow: hidden; background: #000; }
+    .tela iframe { position: absolute; top: 0; left: 0; border: 0; transform-origin: 0 0; pointer-events: none;
+                   transform: scale(var(--k, .25)); }
+    .card .nome { padding: .5rem .75rem; font-weight: 700; display: flex; flex-wrap: wrap; align-items: center;
+                  justify-content: space-between; gap: .2rem .5rem; line-height: 1.25; }
+    .card .nome .badge { font-size: .75rem; white-space: nowrap; }
+    .card .nome span:not(.badge) { color: var(--suave); font-weight: 400; font-size: .85rem; white-space: nowrap; }
+
+    /* Uma cena em tela cheia */
+    #palco { position: fixed; inset: 0; background: repeating-linear-gradient(90deg, #ffffff05 0 1px, transparent 1px 8vmin),
+                                                     repeating-linear-gradient(0deg, #ffffff05 0 1px, transparent 1px 8vmin), #000; }
+    #controles { position: fixed; z-index: 10; left: 50%; bottom: 14px; transform: translateX(-50%); display: flex; gap: .4rem;
+                 align-items: center; background: #101114e6; border: 1px solid var(--linha); border-radius: 14px; padding: .4rem;
+                 max-width: calc(100vw - 16px); }
+    #controles .rotulo { padding: 0 .6rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+    #controles a { text-decoration: none; }
+    #controles .ctl { background: var(--cartao); border: 1px solid var(--linha); border-radius: 10px; padding: .5rem .8rem;
+                      cursor: pointer; white-space: nowrap; }
+    body.mini #controles { display: none; }
+  </style>
+</head>
+<body>
+  <div id="galeria" hidden>
+    <main>
+      <header>
+        <div>
+          <a class="voltar" href="index.html">← Mestre2</a>
+          <h1>Contagens da Arena</h1>
+          <p class="suave" id="resumo"></p>
+        </div>
+        <div class="aparelho" role="group" aria-label="Aparelho">
+          <button id="ver-tv" aria-pressed="true">Tela grande</button>
+          <button id="ver-celular" aria-pressed="false">Celular</button>
+        </div>
+      </header>
+      <div id="secoes"></div>
+    </main>
+  </div>
+
+  <div id="palco" hidden></div>
+  <div id="caixa" hidden></div>
+  <nav id="controles" hidden>
+    <a class="ctl" href="contagens.html" title="Todas as contagens">← Todas</a>
+    <button class="ctl" id="anterior" title="Cena anterior (←)">‹</button>
+    <span class="rotulo" id="rotulo"></span>
+    <button class="ctl" id="seguinte" title="Cena seguinte (→)">›</button>
+    <button class="ctl" id="repetir" title="Recomeçar (espaço)">↻</button>
+  </nav>
+
+<script type="module">
+  import { SEGUNDOS, CORES, CENAS, criarContagem } from "./arena-contagem.js";
+
+  const $ = id => document.getElementById(id);
+  const NOMES = {
+    "História": ["Pirâmide", "Coliseu", "Relógio de sol", "Muralha da China", "Religiões do mundo"],
+    "Geografia": ["Globo"], "Natureza": ["Broto"], "Artes e Pensamento": ["Pincelada"], "Cotidiano": ["Despertador"],
+    "Ciências": ["Átomo"], "Entretenimento": ["Começo do filme"],
+    "Esportes": ["Futebol", "Vôlei", "Basquete", "Tênis", "Automobilismo"],
+    "": ["Número gigante"],
+  };
+  // Os temas na ordem da galeria; o sem tema (quando a próxima pergunta não é conhecida) por último.
+  const TEMAS = [...Object.keys(CENAS).filter(t => t), ""];
+  const LISTA = TEMAS.flatMap(t => Array.from({ length: CENAS[t] }, (_, i) => ({ tema: t, cena: i })));
+  const nome = (t, i) => NOMES[t]?.[i] || `Cena ${i + 1}`;
+  const titulo = t => t || "Sem tema";
+  const url = (t, i, mini) => `contagens.html?ver=${encodeURIComponent(t)}&cena=${i}${mini ? "&mini=1" : ""}`;
+  const ZERO = 1500;  // quanto o zero fica na tela antes de recomeçar (no jogo, só até a próxima pergunta entrar)
+
+  const q = new URLSearchParams(location.search);
+  if (q.has("ver")) tocar(q.get("ver"), +q.get("cena") || 0, q.has("mini"));
+  else galeria();
+
+  // ---- Uma cena em tela cheia, repetindo.
+  function tocar(tema, cena, mini) {
+    if (!(tema in CENAS)) tema = "";
+    cena = Math.max(0, Math.min(CENAS[tema] - 1, cena));
+    document.body.classList.toggle("mini", mini);
+    $("palco").hidden = false;
+    $("controles").hidden = false;
+    document.title = `${titulo(tema)} · ${nome(tema, cena)} · Contagens da Arena`;
+    $("rotulo").innerHTML = `<b>${nome(tema, cena)}</b> <span class="suave">${titulo(tema)}` +
+      (CENAS[tema] > 1 ? `, ${cena + 1} de ${CENAS[tema]}` : "") + `</span>`;
+    const k = LISTA.findIndex(x => x.tema === tema && x.cena === cena);
+    const ir = d => { const x = LISTA[(k + d + LISTA.length) % LISTA.length]; location.replace(url(x.tema, x.cena)); };
+    $("anterior").onclick = () => ir(-1);
+    $("seguinte").onclick = () => ir(1);
+    const contagem = criarContagem($("caixa"));
+    let inicio = performance.now();
+    const recomecar = () => { contagem.esconder(); inicio = performance.now(); passo(); };
+    $("repetir").onclick = recomecar;
+    if (!mini) addEventListener("keydown", e => {
+      if (e.key === "ArrowLeft") ir(-1);
+      else if (e.key === "ArrowRight") ir(1);
+      else if (e.key === " ") { e.preventDefault(); recomecar(); }
+      else if (e.key === "Escape") location.href = "contagens.html";
+    });
+    function passo() {
+      const ms = SEGUNDOS * 1000 - (performance.now() - inicio);
+      if (ms < -ZERO) return recomecar();
+      contagem.mostrar(tema, Math.max(0, ms), SEGUNDOS, 0, cena);
+    }
+    setInterval(passo, 50);
+    passo();
+  }
+
+  // ---- A galeria: todas as cenas em miniatura, por tema.
+  function galeria() {
+    $("galeria").hidden = false;
+    $("resumo").textContent = `As ${LISTA.length} animações da contagem da próxima pergunta, por tema. ` +
+      `Em História e Esportes, o jogo sorteia uma das cenas. Clique numa para vê-la em tela cheia.`;
+    const TAMANHO = { tv: [1280, 720], celular: [390, 780] };
+    let aparelho = (q.get("aparelho") || localStorage.getItem("contagens-aparelho")) === "celular" ? "celular" : "tv";
+    const medir = new ResizeObserver(itens => itens.forEach(({ target: t }) => {
+      const [w, h] = TAMANHO[aparelho];
+      const k = t.clientWidth / w;
+      t.style.setProperty("--k", k);
+      t.style.height = `${h * k}px`;
+    }));
+    function desenhar() {
+      medir.disconnect();
+      document.body.classList.toggle("celular", aparelho === "celular");
+      $("ver-tv").setAttribute("aria-pressed", aparelho === "tv");
+      $("ver-celular").setAttribute("aria-pressed", aparelho === "celular");
+      const [w, h] = TAMANHO[aparelho];
+      const badge = t => { const [fundo, texto] = CORES[t] || ["#2A2D33", "#F4F4F2"];
+        return `<span class="badge" style="background:${fundo};color:${texto}">${titulo(t)}</span>`; };
+      const card = (t, i, rotulo) => `<a class="card" href="${url(t, i)}">
+        <div class="tela"><iframe src="${url(t, i, true)}" width="${w}" height="${h}" loading="lazy" tabindex="-1"
+          title="${titulo(t)}: ${nome(t, i)}"></iframe></div><div class="nome">${rotulo}</div></a>`;
+      // Os temas de várias cenas (História e Esportes) têm seção própria; os de uma cena só ficam juntos.
+      const varias = TEMAS.filter(t => CENAS[t] > 1), uma = TEMAS.filter(t => CENAS[t] === 1);
+      $("secoes").innerHTML = varias.map(t => `<section><h2>${badge(t)}<span class="suave">${CENAS[t]} cenas, uma sorteada a cada
+          contagem, sem olhar o subtema</span></h2><div class="grade">${Array.from({ length: CENAS[t] }, (_, i) =>
+          card(t, i, `${nome(t, i)}<span>${i + 1} de ${CENAS[t]}</span>`)).join("")}</div></section>`).join("") +
+        `<section><h2>Os outros temas <span class="suave">uma cena cada; o número gigante é para quando o tema da próxima
+          pergunta não é conhecido</span></h2><div class="grade">${uma.map(t =>
+          card(t, 0, `${nome(t, 0)}${badge(t)}`)).join("")}</div></section>`;
+      document.querySelectorAll(".tela").forEach(t => medir.observe(t));
+    }
+    $("ver-tv").onclick = () => { aparelho = "tv"; localStorage.setItem("contagens-aparelho", aparelho); desenhar(); };
+    $("ver-celular").onclick = () => { aparelho = "celular"; localStorage.setItem("contagens-aparelho", aparelho); desenhar(); };
+    desenhar();
+  }
+</script>
+</body>
+</html>

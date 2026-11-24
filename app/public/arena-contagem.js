@@ -2,7 +2,8 @@
 // (jogar.html). Desde 2026-11-24, a animação é a do TEMA DA PRÓXIMA PERGUNTA (sorteada pela tela grande quando a contagem
 // começa e gravada em "proxima.tema"): Geografia, o globo; História, uma de cinco cenas (abaixo); Natureza, o
 // broto; Artes e Pensamento, a pincelada; Cotidiano, o despertador; Ciências, o átomo; Entretenimento, o começo do filme;
-// Esportes, a bola quicando. Sem tema conhecido, o número gigante. Primeira versão de cada uma (os protótipos de
+// Esportes, uma de cinco cenas (futebol, vôlei, basquete, tênis e automobilismo), sorteada como a de História e sem
+// olhar o subtema da pergunta. Sem tema conhecido, o número gigante. Primeira versão de cada uma (os protótipos de
 // 2026-11-24), para ser melhorada depois, tema a tema. História já tem cinco cenas (pirâmide, Coliseu, relógio de sol,
 // Muralha da China e religiões do mundo), sempre em algarismos romanos; a cena é sorteada a cada contagem pela "chave"
 // (semente da partida e rodada), a mesma em todos os aparelhos.
@@ -12,7 +13,7 @@
 export const SEGUNDOS = 7;  // duração da contagem entre uma pergunta e outra (2026-11-24: de 10 para 7)
 
 // Cores dos temas na identidade Metrô (as mesmas de CORES em arena-comum.js): [fundo, texto].
-const CORES = {
+export const CORES = {
   "Geografia": ["#00A84F", "#000"], "Natureza": ["#8CC63F", "#000"], "Artes e Pensamento": ["#F7941D", "#000"],
   "Cotidiano": ["#E8412C", "#000"], "Ciências": ["#E4007C", "#fff"], "Entretenimento": ["#8E4FC9", "#fff"],
   "Esportes": ["#00A3E0", "#000"], "História": ["#2F5BEA", "#fff"],
@@ -198,26 +199,77 @@ const CSS = `
                                      linear-gradient(90deg, transparent 72%, #ffffff18 72.2%, transparent 72.5%); }
 @keyframes ct-riscos { 33% { transform: translateX(3%); } 66% { transform: translateX(-4%); } }
 
-/* Esportes: a bola quica uma vez por segundo, com o número nela. */
-.contagem .esp .quadra { position: relative; width: calc(30 * var(--u)); height: calc(22 * var(--u)); }
-.contagem .esp .chao { position: absolute; left: 0; right: 0; bottom: 0; height: calc(.5 * var(--u)); border-radius: calc(.3 * var(--u));
-                       background: #00A3E0; opacity: .8; }
-.contagem .esp .sombra { position: absolute; left: 50%; bottom: calc(.2 * var(--u)); width: calc(11 * var(--u)); height: calc(1.6 * var(--u));
-                         margin-left: calc(-5.5 * var(--u)); border-radius: 50%; background: #00A3E055; animation: ct-sombra 1s linear infinite; }
-.contagem .esp .bola { position: absolute; left: 50%; bottom: calc(.5 * var(--u)); width: calc(13 * var(--u)); aspect-ratio: 1;
-                       margin-left: calc(-6.5 * var(--u)); border-radius: 50%;
-                       background: radial-gradient(circle at 32% 28%, #7fd8f5 0 12%, #00A3E0 40%, #00739e 100%);
-                       box-shadow: inset 0 0 0 calc(.4 * var(--u)) #ffffff33; display: grid; place-items: center; transform-origin: 50% 100%;
-                       animation: ct-quicar 1s linear infinite; }
-.contagem .esp .bola .num { color: #000; font-size: calc(8 * var(--u)); }
-@keyframes ct-quicar {
-  0% { transform: translateY(calc(-9 * var(--u))); animation-timing-function: cubic-bezier(.45, 0, .9, .5); }
-  46% { transform: translateY(0) scale(1, 1); animation-timing-function: ease-out; }
-  52% { transform: translateY(0) scale(1.14, .84); animation-timing-function: ease-out; }
-  58% { transform: translateY(calc(-.4 * var(--u))) scale(.96, 1.04); animation-timing-function: cubic-bezier(.1, .5, .55, 1); }
-  100% { transform: translateY(calc(-9 * var(--u))); }
-}
-@keyframes ct-sombra { 0%, 100% { transform: scale(.55); opacity: .5; } 46%, 52% { transform: scale(1.05); opacity: 1; } }
+/* Esportes: cinco cenas, uma sorteada a cada contagem (não depende do subtema da pergunta). */
+.contagem .esp svg { display: block; overflow: visible; height: auto; }
+.contagem .esp .num { font-size: calc(10 * var(--u)); text-shadow: 0 0 calc(2 * var(--u)) #00A3E0, 0 0 var(--u) #000;
+                      animation: ct-pulso 1s ease-out both; }
+.contagem .esp .grito { font: 900 calc(3 * var(--u)) var(--fonte, sans-serif); color: var(--acento); letter-spacing: .06em;
+                        text-transform: uppercase; opacity: 0; }
+.contagem.fim .esp .grito { animation: ct-grito .6s cubic-bezier(.2, 1.6, .4, 1) both; }
+@keyframes ct-grito { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: scale(1); } }
+/* — Futebol: a bola tradicional passa de jogador em jogador, um passe por segundo; no zero, entra no gol e a rede balança. */
+.contagem .ef svg { width: calc(56 * var(--u)); max-width: 94vw; }
+.contagem .ef .grama { fill: #1d6b35; } .contagem .ef .listra { fill: #23783d; }
+.contagem .ef .cal { fill: none; stroke: #ffffffcc; stroke-width: 1; }
+.contagem .ef .rede { fill: url(#ct-fut-rede); stroke: #fff; stroke-width: 1.2; }
+.contagem .ef .trajeto { fill: none; stroke: #ffffff40; stroke-width: 1; stroke-dasharray: 2 3; }
+.contagem .ef .jog { fill: var(--acento); stroke: #000; stroke-width: 1; }
+.contagem .ef .bola { transition: transform .55s cubic-bezier(.4, 0, .2, 1); }
+.contagem .ef .couro { fill: #fff; stroke: #000; stroke-width: .7; }
+.contagem .ef .gomo { fill: #111; }
+.contagem .ef .costura { fill: none; stroke: #000; stroke-width: .45; }
+.contagem .ef .giro-bola { animation: ct-rolar .55s linear infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes ct-rolar { to { transform: rotate(360deg); } }
+.contagem.fim .ef .rede { animation: ct-balanca .35s ease-in-out 3; transform-box: fill-box; transform-origin: 0 50%; }
+@keyframes ct-balanca { 50% { transform: scaleX(1.25); } }
+/* — Vôlei: na areia, a bola cruza a rede a cada segundo, numa parábola, como num rali. */
+.contagem .ev svg { width: calc(48 * var(--u)); max-width: 94vw; }
+.contagem .ev .areia { fill: #d8b26a; }
+.contagem .ev .poste { stroke: #cfd3da; stroke-width: 2.4; }
+.contagem .ev .rede { fill: url(#ct-vol-rede); stroke: #fff; stroke-width: 1; }
+.contagem .ev .vaivem { animation: ct-vaivem 2s linear infinite; }
+@keyframes ct-vaivem { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(110px); } }
+.contagem .ev .alto { animation: ct-alto 1s infinite; }
+@keyframes ct-alto { 0% { transform: translateY(0); animation-timing-function: cubic-bezier(.2, .6, .4, 1); }
+                     50% { transform: translateY(-52px); animation-timing-function: cubic-bezier(.6, 0, .8, .4); }
+                     100% { transform: translateY(0); } }
+.contagem .ev .sombra { fill: #0006; animation: ct-vaivem 2s linear infinite; }
+/* — Basquete: o número no relógio de posse, em vermelho, em cima da tabela; a bola quica; no zero, a luz da tabela pisca. */
+.contagem .eb svg { width: calc(30 * var(--u)); }
+.contagem .eb .caixa { fill: #0c0c0e; stroke: #3a3d44; stroke-width: 1.2; }
+.contagem .eb .num { font: 600 24px var(--mono, monospace); fill: #ff3b30; text-anchor: middle; dominant-baseline: central;
+                     text-shadow: none; filter: drop-shadow(0 0 3px #ff3b30); animation: none; }
+.contagem .eb .tabela { fill: #ffffff12; stroke: #F4F4F2; stroke-width: 1.6; }
+.contagem .eb .luz { fill: #ff3b30; opacity: .15; }
+.contagem.fim .eb .luz { animation: ct-buzina .25s steps(2) 6; opacity: 1; }
+@keyframes ct-buzina { 50% { opacity: .2; } }
+.contagem .eb .aro { fill: none; stroke: #F7941D; stroke-width: 2.6; }
+.contagem .eb .rede { fill: none; stroke: #F4F4F2aa; stroke-width: .8; }
+.contagem .eb .bola { animation: ct-quique 1s infinite; }
+@keyframes ct-quique { 0%, 100% { transform: translateY(0); animation-timing-function: cubic-bezier(.45, 0, .9, .5); }
+                       50% { transform: translateY(20px); animation-timing-function: cubic-bezier(.1, .5, .55, 1); } }
+.contagem .eb .bola circle { fill: #E8741D; } .contagem .eb .bola path { fill: none; stroke: #3a1a05; stroke-width: .9; }
+/* — Tênis: no saibro, visto de cima, a bola cruza a rede a cada segundo e deixa a marca onde quica. */
+.contagem .et svg { width: calc(50 * var(--u)); max-width: 94vw; }
+.contagem .et .saibro { fill: #c2603a; } .contagem .et .fora { fill: #a9512f; }
+.contagem .et .lin { fill: none; stroke: #fff; stroke-width: 1.1; }
+.contagem .et .rede { stroke: #F4F4F2; stroke-width: 2.4; stroke-dasharray: 1.2 1; }
+.contagem .et .marca { fill: #8a3b1e; opacity: 0; transition: opacity .3s; }
+.contagem .et .marca.feita { opacity: .9; }
+.contagem .et .bola { transition: transform .8s cubic-bezier(.3, .1, .3, 1); }
+.contagem .et .bola circle { fill: #d7f03c; stroke: #8aa01a; stroke-width: .6; animation: ct-voo 1s ease-in-out both;
+                             transform-box: fill-box; transform-origin: center; }
+@keyframes ct-voo { 0% { transform: scale(1); } 45% { transform: scale(1.7); } 85%, 100% { transform: scale(1); } }
+/* — Automobilismo: as luzes vermelhas da largada acendem uma por segundo; no zero, ficam verdes e o carro arranca. */
+.contagem .ea svg { width: calc(46 * var(--u)); max-width: 94vw; }
+.contagem .ea .portico { fill: #111316; stroke: #2a2d33; stroke-width: 1; }
+.contagem .ea .luz { fill: #2a0d0c; stroke: #000; stroke-width: 1; transition: fill .1s; }
+.contagem .ea .luz.acesa { fill: #ff3b30; filter: drop-shadow(0 0 4px #ff3b30); }
+.contagem .ea .luz.verde { fill: #3DDC84; filter: drop-shadow(0 0 5px #3DDC84); }
+.contagem .ea .pista { fill: #1b1d22; } .contagem .ea .faixa-pista { stroke: #F4F4F2; stroke-width: 1.4; stroke-dasharray: 8 6; }
+.contagem .ea .carro { transition: transform 1.1s cubic-bezier(.6, 0, .9, .4); animation: ct-tremor .08s linear infinite; }
+.contagem.fim .ea .carro { transform: translateX(260px); animation: none; }
+@keyframes ct-tremor { 50% { transform: translateY(.4px); } }
 
 @media (prefers-reduced-motion: reduce) {
   .contagem *, .contagem *::before, .contagem *::after { animation: none !important; }
@@ -364,6 +416,99 @@ const marcasRelogio = Array.from({ length: 12 }, (_, k) => {
 const orbita = (graus, dur) => `<g transform="rotate(${graus})"><ellipse class="orbita" rx="52" ry="17"/>
   <circle class="eletron" r="3.6"><animateMotion dur="${dur}s" repeatCount="indefinite" path="M52 0 A52 17 0 1 1 -52 0 A52 17 0 1 1 52 0"/></circle></g>`;
 
+// ---- Esportes: cinco cenas (futebol, vôlei, basquete, tênis e automobilismo), sorteadas sem olhar o subtema.
+const badgeE = `<span class="badge" style="background:#00A3E0;color:#000">Esportes</span>`;
+const rotE = `<div class="rot">Próxima pergunta em</div>`;
+// A bola de futebol tradicional (de 32 gomos): o pentágono preto no meio, as costuras e os pentágonos da borda, cortados
+// pelo contorno.
+const pent = (cx, cy, r, giro) => Array.from({ length: 5 }, (_, k) => {
+  const a = (giro + k * 72 - 90) * Math.PI / 180;
+  return `${f(cx + r * Math.cos(a))},${f(cy + r * Math.sin(a))}`;
+}).join(" ");
+const bolaFutebol = `<defs><clipPath id="ct-fut-bola"><circle r="5.4"/></clipPath></defs><g class="giro-bola">
+  <circle class="couro" r="5.4"/><g clip-path="url(#ct-fut-bola)"><polygon class="gomo" points="${pent(0, 0, 1.9, 0)}"/>
+  ${Array.from({ length: 5 }, (_, k) => {
+    const a = (k * 72 - 90) * Math.PI / 180, b = (k * 72 + 90) * Math.PI / 180;
+    return `<line class="costura" x1="${f(1.9 * Math.cos(a))}" y1="${f(1.9 * Math.sin(a))}" x2="${f(4.2 * Math.cos(a))}" y2="${f(4.2 * Math.sin(a))}"/>
+      <polygon class="gomo" points="${pent(5.6 * Math.cos(b), 5.6 * Math.sin(b), 2.1, k * 72 + 180)}"/>`;
+  }).join("")}</g><circle r="5.4" fill="none" stroke="#000" stroke-width=".7"/></g>`;
+const JOG = [[34, 60], [64, 30], [92, 86], [122, 44], [150, 80], [178, 38], [204, 66]];
+const GOL = [236, 60];
+const posBola = s => s > 0 ? JOG[Math.max(0, 7 - s)] ?? JOG[0] : GOL;
+function futebol(s) {
+  const listras = Array.from({ length: 6 }, (_, k) => `<rect class="listra" x="${k * 40}" y="6" width="20" height="108"/>`).join("");
+  const [x, y] = posBola(s);
+  return `<svg viewBox="0 0 248 120" aria-hidden="true"><defs><pattern id="ct-fut-rede" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L4 4 M4 0 L0 4" stroke="#ffffff88" stroke-width=".5"/></pattern></defs>
+    <rect class="grama" x="0" y="6" width="240" height="108" rx="3"/>${listras}
+    <rect class="cal" x="6" y="10" width="228" height="100"/><line class="cal" x1="120" y1="10" x2="120" y2="110"/>
+    <circle class="cal" cx="120" cy="60" r="16"/><rect class="cal" x="196" y="32" width="38" height="56"/><rect class="cal" x="220" y="46" width="14" height="28"/>
+    <rect class="rede" x="234" y="48" width="10" height="24"/>
+    <polyline class="trajeto" points="${[...JOG, GOL].map(p => p.join(",")).join(" ")}"/>
+    ${JOG.map(([a, b]) => `<circle class="jog" cx="${a}" cy="${b}" r="4.2"/>`).join("")}
+    <g class="bola" style="transform: translate(${x}px, ${y}px)">${bolaFutebol}</g></svg>`;
+}
+const volei = () => `<svg viewBox="0 0 200 112" aria-hidden="true"><defs><pattern id="ct-vol-rede" width="4" height="4" patternUnits="userSpaceOnUse">
+    <path d="M0 0 H4 M0 0 V4" stroke="#ffffff99" stroke-width=".5" fill="none"/></pattern></defs>
+  <rect class="areia" x="0" y="94" width="200" height="18" rx="2"/>
+  <line class="poste" x1="100" y1="44" x2="100" y2="96"/><rect class="rede" x="98" y="44" width="4" height="22"/>
+  <ellipse class="sombra" cx="45" cy="97" rx="7" ry="2"/>
+  <g class="vaivem"><g class="alto"><g transform="translate(45 84)"><circle r="7" fill="#F4F4F2"/>
+    <path d="M-7 0 Q0 -3 7 0 M-3 -6 Q2 0 -3 6 M3 -6 Q-1 0 4 6" stroke="#00A3E0" stroke-width="1.6" fill="none"/>
+    <path d="M-6 -3 Q0 -1 6 -3" stroke="#FFD100" stroke-width="1.4" fill="none"/></g></g></g></svg>`;
+const doisDigitos = s => String(s).padStart(2, "0");
+const basquete = s => `<svg viewBox="0 0 160 150" aria-hidden="true">
+  <rect class="caixa" x="52" y="2" width="56" height="30" rx="3"/><text class="num" x="80" y="17.5">${doisDigitos(s)}</text>
+  <rect class="tabela" x="34" y="36" width="92" height="56" rx="2"/><rect class="luz" x="34" y="36" width="92" height="4" rx="2"/>
+  <rect class="tabela" x="64" y="58" width="32" height="24"/>
+  <path class="rede" d="M66 90 L71 108 M72 90 L75 108 M80 90 L80 108 M88 90 L85 108 M94 90 L89 108 M71 108 L89 108 M68 98 L92 98"/>
+  <ellipse class="aro" cx="80" cy="90" rx="15" ry="3.2"/>
+  <line x1="0" y1="148" x2="160" y2="148" stroke="#F7941D" stroke-width="2"/>
+  <g class="bola"><g transform="translate(118 118)"><circle r="9"/><path d="M-9 0 H9 M0 -9 V9 M-6.5 -6.2 Q-2 0 -6.5 6.2 M6.5 -6.2 Q2 0 6.5 6.2"/></g></g></svg>`;
+const QUIQUES = [[168, 32], [54, 88], [182, 84], [40, 36], [174, 60], [58, 62], [166, 42], [50, 74]];
+const quique = s => QUIQUES[Math.max(0, Math.min(7, 7 - s))];
+function tenis(s) {
+  const [x, y] = quique(s);
+  return `<svg viewBox="0 0 220 120" aria-hidden="true"><rect class="fora" x="0" y="0" width="220" height="120" rx="3"/>
+    <rect class="saibro" x="14" y="12" width="192" height="96"/>
+    <rect class="lin" x="18" y="16" width="184" height="88"/><line class="lin" x1="18" y1="27" x2="202" y2="27"/><line class="lin" x1="18" y1="93" x2="202" y2="93"/>
+    <line class="lin" x1="62" y1="27" x2="62" y2="93"/><line class="lin" x1="158" y1="27" x2="158" y2="93"/><line class="lin" x1="62" y1="60" x2="158" y2="60"/>
+    ${QUIQUES.map(([a, b], k) => `<ellipse class="marca${k <= 7 - s ? " feita" : ""}" data-k="${k}" cx="${a}" cy="${b}" rx="2.6" ry="1.6"/>`).join("")}
+    <line class="rede" x1="110" y1="8" x2="110" y2="112"/>
+    <g class="bola" style="transform: translate(${x}px, ${y}px)"><circle r="3"/></g></svg>`;
+}
+// Automobilismo: uma luz vermelha a mais por segundo (cinco no máximo); no zero, todas verdes e o carro arranca.
+const classeLuz = (s, k) => s === 0 ? " verde" : k < Math.min(5, 8 - s) ? " acesa" : "";
+function automobilismo(s) {
+  const luzes = Array.from({ length: 5 }, (_, k) => {
+    const x = 30 + k * 26;
+    return `<rect class="portico" x="${x - 9}" y="10" width="18" height="40" rx="3"/>
+      <circle class="luz${classeLuz(s, k)}" data-k="${k}" cx="${x}" cy="21" r="6"/>
+      <circle class="luz${classeLuz(s, k)}" data-k="${k}" cx="${x}" cy="39" r="6"/>`;
+  }).join("");
+  return `<svg viewBox="0 0 164 104" aria-hidden="true"><rect class="portico" x="12" y="4" width="140" height="8" rx="2"/>${luzes}
+    <rect class="pista" x="0" y="66" width="164" height="36" rx="2"/><line class="faixa-pista" x1="0" y1="84" x2="164" y2="84"/>
+    <g class="carro"><g transform="translate(14 76)">
+      <path d="M0 6 L6 2 H18 L24 -2 H34 L38 2 H52 L58 6 Z" fill="#00A3E0"/><path d="M24 -2 L28 -6 H32 L34 -2 Z" fill="#111"/>
+      <rect x="52" y="0" width="7" height="2" fill="#00A3E0"/><rect x="-2" y="-2" width="5" height="6" fill="#00A3E0"/>
+      <circle cx="10" cy="7" r="4" fill="#111" stroke="#555"/><circle cx="46" cy="7" r="4" fill="#111" stroke="#555"/></g></g></svg>`;
+}
+const ESPORTES = [
+  { html: s => `<div class="cena esp ef">${badgeE}${rotE}<div class="num">${s}</div>${futebol(s)}<div class="grito">Gol!</div></div>`,
+    depois: (caixa, s) => { const [x, y] = posBola(s); caixa.querySelector(".bola").style.transform = `translate(${x}px, ${y}px)`; } },
+  { html: s => `<div class="cena esp ev">${badgeE}${rotE}<div class="num">${s}</div>${volei()}</div>` },
+  { html: s => `<div class="cena esp eb">${badgeE}${rotE}${basquete(s)}</div>`, texto: doisDigitos },
+  { html: s => `<div class="cena esp et">${badgeE}${rotE}<div class="num">${s}</div>${tenis(s)}</div>`,
+    depois: (caixa, s) => {
+      const [x, y] = quique(s), b = caixa.querySelector(".bola");
+      b.style.transform = `translate(${x}px, ${y}px)`;
+      const c = b.firstElementChild; c.replaceWith(c.cloneNode());  // recomeça o voo (a bola sobe e desce)
+      caixa.querySelectorAll(".marca").forEach(m => m.classList.toggle("feita", +m.dataset.k <= 7 - s));
+    } },
+  { html: s => `<div class="cena esp ea">${badgeE}${rotE}${automobilismo(s)}<div class="num">${s}</div></div>`,
+    depois: (caixa, s) => caixa.querySelectorAll(".luz").forEach(l => l.setAttribute("class", "luz" + classeLuz(s, +l.dataset.k))) },
+];
+
 // Cada estilo: html(s, decorrido) monta a cena; texto(s) é o que vai no número (os romanos, na História); depois(caixa, s)
 // faz o que mais muda a cada segundo. "decorrido" (em segundos) acerta as animações que duram a contagem toda, para quem
 // a vê começar no meio (um celular que acabou de entrar).
@@ -406,10 +551,10 @@ const ESTILOS = {
     html: s => `<div class="cena ent">${badge("Entretenimento")}<div class="pelicula"><div class="furos"></div><div class="quadro">
       <div class="varredura"></div><div class="anel a1"></div><div class="anel a2"></div><div class="cruz"></div><div class="riscos"></div>
       <div class="num">${s}</div></div><div class="furos"></div></div>${rot}</div>` },
-  "Esportes": {
-    html: s => `<div class="cena esp">${badge("Esportes")}${rot}<div class="quadra"><div class="sombra"></div><div class="chao"></div>
-      <div class="bola"><span class="num">${s}</span></div></div></div>` },
+  "Esportes": ESPORTES,
 };
+// Para a galeria (contagens.html): cada tema ("" é o sem tema) e quantas cenas ele tem.
+export const CENAS = Object.fromEntries(Object.entries(ESTILOS).map(([t, e]) => [t, [].concat(e).length]));
 
 // Liga a contagem a um elemento da página (vazio, com hidden). mostrar(tema, ms, total, chave) desenha "faltam ms" com a
 // animação do tema (com várias, a sorteada pela chave: um número igual em todos os aparelhos) e devolve o número de segundos quando ele acaba de mudar (para tocar o som do segundo), ou null;
@@ -418,9 +563,10 @@ export function criarContagem(caixa) {
   instalarCss();
   let atual = null, segundos = null;
   return {
-    mostrar(tema, ms, total, chave = 0) {
+    mostrar(tema, ms, total, chave = 0, cena = null) {
       const lista = [].concat(ESTILOS[tema] || ESTILOS[""]);
-      const i = lista.length > 1 ? Math.floor(aleatorio(chave)() * lista.length) : 0;
+      const i = cena != null ? Math.min(cena, lista.length - 1)  // a galeria (contagens.html) escolhe a cena
+        : lista.length > 1 ? Math.floor(aleatorio(chave)() * lista.length) : 0;
       const e = lista[i], id = `${tema}|${i}`;
       const s = Math.max(0, Math.ceil(ms / 1000));
       if (id !== atual || caixa.hidden) {
@@ -432,6 +578,7 @@ export function criarContagem(caixa) {
         caixa.innerHTML = e.html(s, decorrido);
         caixa.hidden = false;
         caixa.classList.toggle("ultimos", s <= 3);
+        caixa.classList.toggle("fim", s === 0);
         caixa.setAttribute("aria-label", `Próxima pergunta em ${s} segundos`);
         return s;
       }
@@ -443,6 +590,7 @@ export function criarContagem(caixa) {
       num.replaceWith(novo);
       e.depois?.(caixa, s);
       caixa.classList.toggle("ultimos", s <= 3);
+      caixa.classList.toggle("fim", s === 0);  // o zero: gol, buzina, luzes verdes, carro arrancando
       caixa.setAttribute("aria-label", `Próxima pergunta em ${s} segundos`);
       return s;
     },
