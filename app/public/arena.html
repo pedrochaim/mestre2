@@ -220,7 +220,7 @@
     <button id="proxima" class="principal">Começar</button>
     <button id="revelar-ja" hidden>Mostrar resposta</button>
     <button id="automatico" aria-pressed="false" title="Com todos respondendo, a resposta aparece e a próxima pergunta sai sozinha">Iniciar modo automático</button>
-    <button id="suspense" aria-pressed="false" title="Experimental: antes da resposta, contagem, cartas virando e sons">🧪 Suspense: desligado</button>
+    <button id="suspense" aria-pressed="false" title="Experimental: sons do relógio e, antes da resposta, contagem e cartas virando">🧪 Sons e suspense: desligado</button>
     <p id="msg" class="suave"></p>
     <p id="erro" class="erro" style="margin:0"></p>
   </div>
@@ -576,6 +576,25 @@
   // modo automático. O fim do prazo não faz nada sozinho (2026-11-23): a contagem é só um aviso, as respostas continuam
   // valendo, e quem comanda mostra a resposta quando quiser. Com todos respondendo, a resposta aparece sozinha; no modo
   // automático, a próxima pergunta sai 10 s depois, mas só se todos tiverem respondido.
+  // Sons do relógio (experimental, com o suspense): na tela grande, um som quando a pergunta aparece ao vivo, um
+  // tique-taque a cada segundo do prazo e um aviso quando ele acaba. Só para a rodada vista aberta neste aparelho.
+  let relogioDe = null, segundoTocado = null;  // rodada e último segundo já tocados
+  setInterval(() => {
+    const r = partida.rodada;
+    if (!codigo || !r || r.fase !== "respondendo" || !partida.experimental || !r.inicio || r.inicio.toMillis() > agora() + 1000) return;
+    const faltam = Math.ceil(restante(r) / 1000);
+    if (relogioDe !== r.n) {
+      relogioDe = r.n; segundoTocado = faltam;
+      // Só toca o início se a rodada acabou de começar (não ao abrir a tela no meio dela).
+      if (agora() - r.inicio.toMillis() < 2500) S.somInicio();
+      return;
+    }
+    if (faltam === segundoTocado) return;
+    segundoTocado = faltam;
+    if (faltam > 0) S.somSegundo(faltam);
+    else S.somEsgotado();
+  }, 50);
+
   setInterval(() => {
     const r = partida.rodada;
     if (!codigo || !r) return;
@@ -749,7 +768,7 @@
     if (!souAnfitriao()) return;
     const fim = Boolean(partida.fim);
     $("proxima").hidden = fim || r?.fase === "respondendo" || r?.fase === "encerrada" || emSuspense();
-    $("suspense").textContent = partida.experimental ? "🧪 Suspense: ligado" : "🧪 Suspense: desligado";
+    $("suspense").textContent = partida.experimental ? "🧪 Sons e suspense: ligado" : "🧪 Sons e suspense: desligado";
     $("suspense").setAttribute("aria-pressed", String(Boolean(partida.experimental)));
     $("proxima").textContent = r ? "Próxima pergunta" : "Começar";
     $("proxima").disabled = !r && !jogadores.length;

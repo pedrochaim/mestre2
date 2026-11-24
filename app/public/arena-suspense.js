@@ -1,4 +1,7 @@
-// Modo Arena · suspense antes da resposta (experimental, 2026-11-23). Liga-se na tela grande ("Suspense"), que grava
+// Modo Arena · sons do relógio e suspense antes da resposta (experimental, 2026-11-23). Sons do relógio, na tela grande:
+// um som quando a pergunta aparece e o prazo começa (o de "pergunta sorteada" da biblioteca), um tique-taque a cada
+// segundo da contagem (sintetizado), o tique da biblioteca nos últimos 5 s e o "tempo esgotado" quando o prazo acaba.
+// Suspense: Liga-se na tela grande ("Suspense"), que grava
 // "experimental" na partida. Quando a resposta é revelada ao vivo, a tela grande segura a revelação por uns 7 s com a
 // animação Cartas viradas: contagem 3, 2, 1, as alternativas erradas viram em vermelho (da menos para a mais votada) e a
 // certa vira por último, em verde. Os celulares acompanham, sem som, com a mesma contagem (TEMPOS).
@@ -14,6 +17,9 @@ const ARQUIVOS = {
   peido2: "sons/volta_casa/yle_pieruja_085s.mp3",
   peido3: "sons/volta_casa/yle_pieruja_161s.mp3",
   sax: "sons/fanfarra/jingles_SAX03.mp3",
+  inicio1: "sons/nova_pergunta/question_001.mp3",
+  inicio2: "sons/nova_pergunta/question_002.mp3",
+  esgotado: "sons/tempo_esgotado/lowThreeTone.mp3",
 };
 
 let audio = null, ligado = true, mestre = null, eco = null;
@@ -277,4 +283,23 @@ export async function animar({ cartao, opcoes, contagem, certa, votos, valendo }
     cartao.classList.remove("tensa");
     contagem.innerHTML = "";
   }
+}
+
+// ---------------------------------------------------------------- relógio da rodada (antes do suspense)
+
+// A pergunta apareceu e o prazo começou.
+export function somInicio() {
+  if (pronto()) arquivo(Math.random() < .5 ? "inicio1" : "inicio2", .9);
+}
+// Um segundo a menos no prazo: tique-taque (um agudo e um grave, alternados); nos últimos 5 s, o tique da biblioteca,
+// mais forte e um pouco mais agudo a cada segundo.
+export function somSegundo(faltam) {
+  if (!pronto()) return;
+  if (faltam <= 5) return arquivo("tique", 1, 1 + (5 - faltam) * .06);
+  ruido({ dur: .035, vol: .32, tipo: "bandpass", f: faltam % 2 ? 3400 : 2300, q: 6 });
+  tom({ f: faltam % 2 ? 1250 : 880, dur: .03, vol: .06 });
+}
+// O prazo acabou (ainda dá para responder; o som só avisa).
+export function somEsgotado() {
+  if (pronto()) arquivo("esgotado", .9);
 }
