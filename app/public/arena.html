@@ -717,7 +717,7 @@
     } else if (r.fase === "revelada" && automatico && !partida.fim && !ocupado) {
       if (proximaEm === null && agendadaPara !== r.n && todosResponderam() && !emSuspense()) {
         agendadaPara = r.n;
-        proximaEm = Date.now() + ESPERA_PROXIMA * 1000;
+        marcarProxima(r.n);
         desenharControles();
       }
       if (proximaEm !== null && Date.now() >= proximaEm) {
@@ -726,6 +726,14 @@
       }
     }
   }, 200);
+
+  // Marca a próxima pergunta automática daqui a ESPERA_PROXIMA segundos e grava a contagem na partida ("proxima": {n, em},
+  // em ms na hora do servidor estimada), para os celulares a mostrarem também.
+  function marcarProxima(n) {
+    proximaEm = Date.now() + ESPERA_PROXIMA * 1000;
+    if (souAnfitriao()) updateDoc(doc(db, "partidas", codigo), { proxima: { n, em: Math.round(proximaEm + agora() - Date.now()) } })
+      .catch(() => {});
+  }
 
   // Próxima pergunta, pelo botão da tela ou a pedido do capataz (nunca no meio de uma rodada aberta ou do suspense).
   function pedirProxima() {
@@ -768,12 +776,14 @@
   function mudarAutomatico(v) {
     automatico = v;
     try { localStorage.setItem(chaveAuto(), automatico ? "ligado" : "pausado"); } catch {}
-    if (souAnfitriao()) updateDoc(doc(db, "partidas", codigo), { automatico }).catch(e => ($("erro").textContent = "Erro: " + e.message));
+    // Pausado, a contagem some também dos celulares.
+    if (souAnfitriao()) updateDoc(doc(db, "partidas", codigo), automatico ? { automatico } : { automatico, proxima: null })
+      .catch(e => ($("erro").textContent = "Erro: " + e.message));
     const r = partida.rodada;
     proximaEm = null;
     if (automatico && !partida.fim) {
       if (!r && jogadores.length) novaRodada();
-      else if (r?.fase === "revelada") { agendadaPara = r.n; proximaEm = Date.now() + ESPERA_PROXIMA * 1000; }
+      else if (r?.fase === "revelada") { agendadaPara = r.n; marcarProxima(r.n); }
     }
     desenharControles();
   }

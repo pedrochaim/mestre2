@@ -64,6 +64,10 @@
     #aviso-figura { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin: 0 0 .6rem; }
     #ver-figura { margin-left: auto; padding: .45rem .9rem; font-weight: 700; color: var(--texto); }
     /* A figura no próprio celular, em tela cheia; tocar volta. */
+    /* A contagem do modo automático para a próxima pergunta, a mesma da tela grande. */
+    #proxima-aviso { text-align: center; margin: .4rem 0 1rem; font-weight: 700; color: var(--suave); }
+    #proxima-aviso strong { display: block; font-family: var(--mono); font-weight: 600; font-size: 3.2rem; line-height: 1.1;
+                            color: var(--acento); font-variant-numeric: tabular-nums; }
     #figura-cheia { position: fixed; inset: 0; z-index: 20; background: #000; display: flex; align-items: center;
                     justify-content: center; padding: 8px; cursor: zoom-out; }
     #figura-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
@@ -159,6 +163,7 @@
     </div>
 
     <div id="resultado" hidden></div>
+    <p id="proxima-aviso" hidden>Próxima pergunta em <strong></strong></p>
 
     <!-- A figura da pergunta neste celular, em tela cheia -->
     <div id="figura-cheia" hidden><img alt="Figura da pergunta"><span>Toque para voltar</span></div>
@@ -182,7 +187,7 @@
   import { CHEGADA } from "./linear.js";
   import { TEMPOS } from "./arena-suspense.js";
   import { PERSONAGENS, TIMES_DE_FUTEBOL, PERSONALIZADOS, personalizadosProntos, desenhoAvatar, avatarValido } from "./arena-avatares.js";
-  import { db, entrarAnonimo, OPCOES, CORES, corDe, $, el, esc, umDe, ficha, restante, acertarRelogio, manterAcesa }
+  import { db, entrarAnonimo, OPCOES, CORES, corDe, $, el, esc, umDe, ficha, restante, agora, acertarRelogio, manterAcesa }
     from "./arena-comum.js";
 
   let uid = null;
@@ -519,6 +524,17 @@
     $("tempo-s").textContent = `${Math.ceil(ms / 1000)} s`;
     $("tempo").classList.toggle("acabando", ms > 0 && ms <= 5000);
   }
+  // "Próxima pergunta em": a contagem do modo automático, gravada pela tela grande em "proxima" ({n, em}); some se a
+  // rodada mudar, se o modo automático for pausado ou durante o suspense.
+  function desenharProxima() {
+    const r = partida.rodada, x = partida.proxima;
+    const valendo = codigo && x && r && x.n === r.n && r.fase === "revelada" && partida.automatico !== false && !partida.fim
+      && !emSuspense();
+    const s = valendo ? Math.ceil((x.em - agora()) / 1000) : -1;
+    $("proxima-aviso").hidden = s < 0;
+    const num = $("proxima-aviso").querySelector("strong");
+    if (s >= 0 && num.textContent !== String(s)) num.textContent = s;
+  }
   // A contagem anda sozinha; quando o tempo acaba, o aviso muda (os botões continuam valendo). Se a rodada ficar parada
   // em "encerrada" (ou passar do prazo) por alguns segundos, o celular confere a partida direto no servidor, para o
   // caso de o ouvinte do Firestore ter atrasado.
@@ -537,6 +553,7 @@
       try { const snap = await getDocFromServer(doc(db, "partidas", c)); if (codigo === c) receberPartida(snap.data() || {}); } catch {}
       conferindo = false;
     }
+    desenharProxima();
     if (codigo && emSuspense()) return desenharSuspense();
     if (!codigo || r?.fase !== "respondendo") return;
     desenharTempo();

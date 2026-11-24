@@ -51,10 +51,15 @@ service cloud.firestore {
       // da alternativa certa). "vencedores": os ids de quem chegou ao fim na mesma rodada. "experimental": o suspense antes
       // da resposta está ligado (2026-11-23, em teste). "capataz": o uid do jogador que a tela grande deixou comandar a
       // próxima pergunta e o modo automático; "automatico": o estado do modo automático, para o capataz ver.
+      // "proxima" (2026-11-24): a contagem do modo automático para a próxima pergunta, {n (a rodada), em (ms, hora do
+      // servidor estimada)}, ou null; os celulares a mostram.
       allow update: if resource.data.get('modo', 'master') == 'arena'
                     && request.auth != null && request.auth.uid == resource.data.anfitriao
                     && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['rodada', 'prazo', 'inicio', 'fim', 'duracao', 'vencedores', 'experimental',
-                                                                                  'capataz', 'automatico'])
+                                                                                  'capataz', 'automatico', 'proxima'])
+                    && (!('proxima' in request.resource.data) || request.resource.data.proxima == null
+                        || (request.resource.data.proxima is map && request.resource.data.proxima.keys().hasOnly(['n', 'em'])
+                            && request.resource.data.proxima.n is int && request.resource.data.proxima.em is int))
                     && (!('experimental' in request.resource.data) || request.resource.data.experimental is bool)
                     && (!('automatico' in request.resource.data) || request.resource.data.automatico is bool)
                     && (!('capataz' in request.resource.data) || request.resource.data.capataz == null
