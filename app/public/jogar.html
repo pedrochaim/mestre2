@@ -184,7 +184,7 @@
 <script type="module">
   import { doc, getDoc, getDocFromServer, setDoc, updateDoc, deleteDoc, onSnapshot, serverTimestamp }
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
-  import { CHEGADA, temaDaCasa } from "./linear.js";
+  import { CHEGADA, temaDaCasa, ehEspecial } from "./linear.js";
   import { TEMPOS } from "./arena-suspense.js";
   import { SEGUNDOS, criarContagem } from "./arena-contagem.js";
   import { PERSONAGENS, TIMES_DE_FUTEBOL, PERSONALIZADOS, personalizadosProntos, desenhoAvatar, avatarValido } from "./arena-avatares.js";
@@ -471,11 +471,17 @@
     $("tema").textContent = r.tema;
     // Casa do tema (2026-11-24): a pergunta é do tema da casa em que o jogador está; quem decide é a tela grande, que
     // também sabe se ele está sozinho na frente (aí anda uma só).
-    const casaDoTema = r.fase === "respondendo" && temaDaCasa(Math.min(eu.pontos || 0, CHEGADA), partida.semente) === r.tema;
-    $("dobro").hidden = !casaDoTema;
+    // Casa ★: acertando, quem está à frente volta uma casa.
+    const minhaCasa = Math.min(eu.pontos || 0, CHEGADA);
+    const casaDoTema = r.fase === "respondendo" && temaDaCasa(minhaCasa, partida.semente) === r.tema;
+    const casaEstrela = r.fase === "respondendo" && ehEspecial(minhaCasa);
+    $("dobro").hidden = !casaDoTema && !casaEstrela;
     if (casaDoTema) {
       $("dobro").style.setProperty("--c", c);
       $("dobro").textContent = `Você está numa casa de ${r.tema}: se acertar, anda duas (menos se estiver sozinho na frente).`;
+    } else if (casaEstrela) {
+      $("dobro").style.setProperty("--c", "var(--texto)");
+      $("dobro").textContent = "★ Você está numa casa especial: se acertar, todos à sua frente voltam uma casa.";
     }
     $("enunciado").textContent = r.enunciado;
     $("aviso-figura").hidden = !r.figura;
@@ -509,6 +515,7 @@
         ? (acertei ? ((r.dobro || []).includes(uid) ? "<strong>Acertou!</strong> Na casa do tema, seu peão anda duas casas."
             : "<strong>Acertou!</strong> Seu peão anda uma casa.") : `<strong>Errou.</strong> A certa era ${OPCOES[r.certa] ?? "?"}.`)
         : `<strong>Sem resposta.</strong> A certa era ${OPCOES[r.certa] ?? "?"}.`;
+      if ((r.recuo || []).includes(uid)) $("resultado").innerHTML += "<br>★ Alguém acertou numa casa especial atrás de você: você volta uma casa.";
     }
     desenharTempo();
   }

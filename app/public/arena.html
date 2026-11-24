@@ -221,7 +221,7 @@
     <p><a href="./">← Mestre2</a></p>
     <h1>Arena</h1>
     <p class="suave">Este aparelho vira a tela da partida: ponha numa TV ou num tablet que todos vejam. A pergunta aparece aqui,
-      e cada jogador responde no próprio celular, ao mesmo tempo. Quem acerta anda uma casa, ou duas se estiver numa casa do tema da pergunta (menos quem está sozinho na frente). Só perguntas de múltipla escolha.</p>
+      e cada jogador responde no próprio celular, ao mesmo tempo. Quem acerta anda uma casa, ou duas se estiver numa casa do tema da pergunta (menos quem está sozinho na frente). Se alguém acerta numa casa ★, quem está à frente volta uma casa. Só perguntas de múltipla escolha.</p>
     <div class="cartao">
       <p style="margin:0 0 .5rem">Tempo para responder</p>
       <div id="prazos-inicio" class="chips" role="group" aria-label="Tempo para responder"></div>
@@ -674,8 +674,15 @@
       // Quem acertou na casa do tema da pergunta anda duas ("rodada.dobro", para os celulares e a lista mostrarem).
       const dobro = jogadores.filter(j => acertaram.includes(j.id) && andaDuas(j, r.tema)).map(j => j.id);
       const passo = id => dobro.includes(id) ? 2 : 1;
-      const mudar = { "rodada.fase": "revelada", "rodada.certa": certa, "rodada.dobro": dobro };
-      const chegaram = jogadores.filter(j => acertaram.includes(j.id) && (j.pontos || 0) + passo(j.id) >= L.CHEGADA).map(j => j.id);
+      // Casa especial (2026-11-24): se um ou mais acertam numa casa ★, todos os que estão à frente do mais atrasado deles
+      // voltam uma casa (uma só, mesmo com vários), menos os que acertaram nas ★ ("rodada.recuo"). Quem está à frente e
+      // também acertou anda e volta: o saldo é o que conta, também para chegar.
+      const naEstrela = jogadores.filter(j => acertaram.includes(j.id) && L.ehEspecial(casaDe(j)));
+      const atras = naEstrela.length ? Math.min(...naEstrela.map(casaDe)) : Infinity;
+      const recuo = jogadores.filter(j => casaDe(j) > atras && !naEstrela.includes(j)).map(j => j.id);
+      const saldo = id => (acertaram.includes(id) ? passo(id) : 0) - (recuo.includes(id) ? 1 : 0);
+      const mudar = { "rodada.fase": "revelada", "rodada.certa": certa, "rodada.dobro": dobro, "rodada.recuo": recuo };
+      const chegaram = jogadores.filter(j => saldo(j.id) > 0 && (j.pontos || 0) + saldo(j.id) >= L.CHEGADA).map(j => j.id);
       if (chegaram.length && !servidor.fim) {
         const inicio = servidor.inicio?.toMillis?.() ?? Date.now();
         Object.assign(mudar, { fim: serverTimestamp(), vencedores: chegaram,
@@ -683,7 +690,7 @@
       }
       const lote = writeBatch(db);
       lote.update(base, mudar);
-      for (const id of acertaram) lote.update(doc(base, "jogadores", id), { pontos: increment(passo(id)) });
+      for (const j of jogadores) if (saldo(j.id)) lote.update(doc(base, "jogadores", j.id), { pontos: increment(saldo(j.id)) });
       await lote.commit();
       $("erro").textContent = "";
     } catch (e) {
@@ -1052,11 +1059,14 @@
       if (fase === "revelada") [estado, classe] = x?.opcao === r.certa
         ? [(r.dobro || []).includes(j.id) ? " +2" : " +1", "acertou"] : [x ? " ✗" : " –", "errou"];
       else if (r && x) [estado, classe] = [" ✓", "respondeu"];
+      if (fase === "revelada" && (r.recuo || []).includes(j.id)) estado += " −1★";
       const chefe = partida.capataz === j.id ? `<span class="capataz" title="Capataz">👷</span>` : "";
       // Com a pergunta aberta, "×2" em quem está numa casa do tema dela (e não sozinho na frente).
       const [cd] = corDe(r?.tema);
       const dobra = r && fase !== "revelada" && andaDuas(j, r.tema, casaVisivel)
-        ? `<span class="dobro" style="--cd:${cd}" title="Casa de ${esc(r.tema)}: se acertar, anda duas">×2</span>` : "";
+        ? `<span class="dobro" style="--cd:${cd}" title="Casa de ${esc(r.tema)}: se acertar, anda duas">×2</span>`
+        : r && fase !== "revelada" && L.ehEspecial(casaVisivel(j))
+        ? `<span class="dobro" style="--cd:var(--texto)" title="Casa ★: se acertar, quem está à frente volta uma casa">★</span>` : "";
       const f = ficha(j, `${chefe}<span class="estado">${estado}</span>${dobra}<span class="casa">casa ${casaVisivel(j)}</span>`);
       if (classe) f.classList.add(classe);
       // Quem comanda toca num jogador para torná-lo capataz ou tirá-lo da partida (um celular que saiu).
