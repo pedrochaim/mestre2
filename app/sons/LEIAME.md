@@ -36,6 +36,7 @@ Pastas que começam com `_` nunca vão para o site.
 | `vitoria` | O acerto levou o jogador à chegada |
 | `fanfarra` | Na casa ★ do Linear, logo antes do `volta_casa`: toca primeiro a fanfarra, depois o peido |
 | `volta_casa` | Na casa ★ do Linear, o acerto fez os jogadores à frente voltarem uma casa (no lugar de `acerto`) |
+| `torcida_futebol` | Arena, tela grande: a contagem da próxima pergunta na cena do futebol. Não é sorteado: a hinchada toca ao fundo da contagem e o gol no zero (`arena-suspense.js`) |
 
 A lista oficial é o `acoes.json`. Quando uma ação tem mais de um som, o app sorteia um a cada vez.
 
@@ -74,7 +75,7 @@ A lista oficial é o `acoes.json`. Quando uma ação tem mais de um som, o app s
 
 ## Cuidados
 
-- **Só sons livres:** CC0 (como os do Kenney) ou CC-BY com crédito. Sem licença clara, não entra.
-- **Curtos:** menos de 2 segundos; a vitória e a pergunta final podem ser um pouco mais longas. O cronômetro toca `tempo_acabando` a cada segundo, então esse som precisa ser bem curto.
+- **Só sons livres:** CC0 (como os do Kenney), CC-BY ou CC-BY-SA, com crédito (no CC-BY-SA, o trecho recortado segue a mesma licença). Sem licença clara, não entra.
+- **Curtos:** menos de 2 segundos; a vitória e a pergunta final podem ser um pouco mais longas, e a torcida do futebol (`torcida_futebol`) dura a contagem inteira. O cronômetro toca `tempo_acabando` a cada segundo, então esse som precisa ser bem curto.
 - **Avisos do script:** crédito faltando, pasta fora do `acoes.json`, ação sem som e ação sem gatilho no app. Resolva antes de publicar.
 - **Requisito:** o script usa o ffmpeg. Se ele não estiver instalado, rode `pip install imageio-ffmpeg`, que já traz o programa.

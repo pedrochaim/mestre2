@@ -1009,13 +1009,19 @@
   }
 
   let contagemSom = null;  // a contagem (proximaEm) cujo som já foi sorteado
+  let contagemSomFim = null;  // quando acaba a contagem que está com som (para calar a torcida se ela for interrompida)
   const contagem = criarContagem($("aviso-proxima"));
   // "Próxima pergunta em" e o número de segundos no meio da tela, enquanto a próxima automática está marcada, com a
   // animação do tema da próxima pergunta (arena-contagem.js; a mesma nos celulares).
   function desenharAvisoProxima() {
     const r = partida.rodada;
     const ver = Boolean(codigo) && r?.fase === "revelada" && proximaEm !== null && !emSuspense() && !partida.fim;
-    if (!ver) return contagem.esconder();
+    if (!ver) {
+      // Interrompida antes do zero (pausa, fim da partida): a torcida do futebol para junto. No zero, deixa o gol soar.
+      if (contagemSomFim !== null && Date.now() < contagemSomFim - 400) S.pararContagem();
+      contagemSomFim = null;
+      return contagem.esconder();
+    }
     const s = contagem.mostrar(proximaSorteada?.p?.tema || "", proximaEm - Date.now(), ESPERA_PROXIMA,
       (partida.semente || 0) * 31 + r.n);  // a chave do sorteio da cena (a mesma nos celulares)
     // Som da contagem (experimental, com "Sons e suspense"): o próprio da cena (as de Esportes) ou um dos 10, sorteado a
@@ -1023,6 +1029,7 @@
     if (s !== null && partida.experimental) {
       if (contagemSom !== proximaEm) { contagemSom = proximaEm; S.novaContagem(); }
       S.somContagem(s, contagem.cena);
+      contagemSomFim = proximaEm;
     }
   }
 

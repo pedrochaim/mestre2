@@ -20,6 +20,10 @@ const ARQUIVOS = {
   inicio1: "sons/nova_pergunta/question_001.mp3",
   inicio2: "sons/nova_pergunta/question_002.mp3",
   esgotado: "sons/tempo_esgotado/lowThreeTone.mp3",
+  // A torcida do futebol (2026-11-24; ação torcida_futebol da biblioteca): a hinchada do Independiente ao fundo da
+  // contagem e a explosão do gol de Cali no zero (Wikimedia Commons, CC BY 3.0 e CC BY-SA 3.0).
+  torcidaFundo: `sons/${"torcida_futebol"}/hinchada_independiente_20s.mp3`,
+  torcidaGol: `sons/${"torcida_futebol"}/gol_cali_10s.mp3`,
 };
 
 let audio = null, ligado = true, mestre = null, eco = null;
@@ -45,7 +49,7 @@ export const somLigado = () => ligado;
 export function ligarSom(v) {
   ligado = v;
   try { localStorage.setItem("mestre2.arena.som", v ? "ligado" : "desligado"); } catch {}
-  if (!v) batimento(0);
+  if (!v) { batimento(0); pararContagem(); }
 }
 
 const pronto = () => ligado && audio;
@@ -63,6 +67,42 @@ function saida(g, pan, comEco) {
   let no = g;
   if (pan && audio.createStereoPanner) { const p = audio.createStereoPanner(); p.pan.value = pan; g.connect(p); no = p; }
   no.connect(mestre); if (comEco) no.connect(eco);
+}
+// Um trecho de um arquivo, marcado para daqui a "em" segundos, a partir de "de" segundos do arquivo, por "dur" segundos,
+// com o volume seguindo "envelope" ([segundos desde o começo, volume], em rampas). Fica em "tocandoTrechos" até acabar,
+// para pararContagem() poder calar a torcida quando a contagem é interrompida.
+const tocandoTrechos = new Set();
+async function trecho(nome, { em = 0, de = 0, dur, envelope = [[0, 1]] }) {
+  if (!pronto()) return;
+  let t0 = audio.currentTime + .01 + em;
+  const b = await buffers[nome];
+  if (!b || !pronto()) return;
+  const atraso = audio.currentTime + .01 - t0;  // o arquivo demorou a carregar: entra já, do ponto em que estaria
+  if (atraso > 0) { t0 += atraso; de += atraso; dur -= atraso; }
+  if (dur <= .05 || de >= b.duration) return;
+  const fonte = audio.createBufferSource(), g = audio.createGain();
+  fonte.buffer = b;
+  g.gain.setValueAtTime(.0001, t0);
+  const ja = Math.max(0, atraso);
+  for (const [t, v] of envelope) if (t >= ja) g.gain.linearRampToValueAtTime(v, t0 - ja + t);
+  g.gain.linearRampToValueAtTime(0, t0 + dur);
+  fonte.connect(g).connect(mestre);
+  const item = { fonte, g };
+  tocandoTrechos.add(item);
+  fonte.onended = () => tocandoTrechos.delete(item);
+  fonte.start(t0, de);
+  fonte.stop(t0 + dur + .02);
+}
+// A contagem foi interrompida (pausa, som desligado, outra cena na galeria): cala a torcida em 0,25 s.
+export function pararContagem() {
+  if (!audio) return;
+  const t = audio.currentTime;
+  torcidaAte = 0;
+  for (const { fonte, g } of tocandoTrechos) {
+    g.gain.cancelScheduledValues(t); g.gain.setValueAtTime(g.gain.value, t); g.gain.linearRampToValueAtTime(0, t + .25);
+    try { fonte.stop(t + .3); } catch {}
+  }
+  tocandoTrechos.clear();
 }
 // Um tom: oscilador com envelope, deslize de altura (f2), filtro, vibrato e saída com eco. Com sustenta, o volume fica
 // parado até o fim (buzina, motor) em vez de se apagar aos poucos.
@@ -362,7 +402,9 @@ const CONTAGENS = [
 // daqui a "em" segundos, porque no jogo o 0 mal aparece antes da pergunta seguinte.
 const chute = (vol, pan, em = 0) => { tom({ f: 150, f2: 55, dur: .12, vol, ataque: .003, em, pan });
                                       ruido({ dur: .03, vol: vol * .5, tipo: "lowpass", f: 1400, em, pan }); };
-const torcida = (vol, f, em = 0) => ruido({ dur: 1.15, vol, f, q: .7, ataque: .35, em, sustenta: true });
+// Até quando vai a torcida gravada do futebol (no relógio do áudio): ela começa no primeiro segundo da contagem e dura
+// até logo depois do zero; pararContagem() zera.
+let torcidaAte = 0;
 function aplauso(em, dur = 1.8, n = 130) {
   for (let k = 0; k < n; k++) {
     const x = Math.random(), forca = Math.sin(Math.PI * Math.min(1, x * 1.3));  // cresce rápido e vai sumindo
@@ -372,15 +414,23 @@ function aplauso(em, dur = 1.8, n = 130) {
 }
 const apito = (em, dur, vol = .3) => tom({ f: 2900, tipo: "sine", dur, vol, ataque: .01, em, sustenta: true, vibrato: { f: 32, prof: 260 } });
 const SONS_CENAS = {
-  // Futebol: a torcida ao fundo, mais alta e mais aguda nos três últimos; um chute a cada passe, a bola indo da esquerda
-  // para a direita. No zero, o chute a gol, a rede e a torcida explodindo.
+  // Futebol (2026-11-24, a sugestão 2 de cinco com torcida gravada): a hinchada do Independiente ao fundo, crescendo nos três
+  // últimos segundos, e um chute a cada passe, a bola indo da esquerda para a direita. No zero, o chute a gol, a rede e a
+  // explosão do gol de Cali. A torcida começa no primeiro segundo que toca (do ponto certo, se a contagem já ia no meio)
+  // e acaba logo depois do zero.
   "Esportes|0": {
-    nome: "Torcida e chutes",
-    segundo: s => { torcida(s <= 3 ? .07 + (4 - s) * .03 : .07, s <= 3 ? 650 + (4 - s) * 120 : 520); chute(.65, -.6 + (7 - s) * .17); },
+    nome: "Hinchada e gol",
+    segundo: s => {
+      if (audio.currentTime >= torcidaAte) {
+        const fim = s + .8, sobe = Math.max(.25, s - 3);
+        torcidaAte = audio.currentTime + fim;
+        trecho("torcidaFundo", { de: Math.max(0, 7 - s), dur: fim,
+          envelope: [[.25, .25], [sobe, .25], [Math.max(sobe, s), .5], [s + .5, .15]] });
+      }
+      chute(.65, -.6 + (7 - s) * .17);
+    },
     zero: em => { chute(.8, .7, em); ruido({ dur: .4, vol: .3, tipo: "highpass", f: 3200, em: em + .45, pan: .8 });
-                  ruido({ dur: 2.6, vol: .5, f: 750, f2: 1000, q: .6, ataque: .25, em: em + .35, sustenta: true, comEco: true });
-                  ruido({ dur: 2.4, vol: .22, f: 1700, q: .8, ataque: .3, em: em + .4, sustenta: true });
-                  apito(em + 2.2, .5, .18); } },
+                  trecho("torcidaGol", { em: em + .15, dur: 4.2, envelope: [[.05, 1], [1.8, 1], [4, .15]] }); } },
   // Vôlei: a manchete a cada segundo, de um lado e do outro da rede; nos três últimos, cortadas. No zero, o apito do juiz.
   "Esportes|1": {
     nome: "Manchetes e apito",

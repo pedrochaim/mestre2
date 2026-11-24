@@ -10,7 +10,7 @@ e também os candidatos). Pastas que começam com "_" (_candidatos, _desativados
 para o site.
 
 Avisa quando falta crédito, quando uma pasta não está em acoes.json, quando uma ação não tem som e quando uma ação
-não tem gatilho no app (o nome dela não aparece em public/index.html).
+não tem gatilho no app (o nome dela não aparece em public/index.html nem nos arquivos da Arena, public/arena*).
 
 Uso (na raiz do projeto):  python app/sons.py           # converte o que mudou
                            python app/sons.py --tudo    # converte tudo de novo
@@ -87,7 +87,8 @@ def montar(tudo=False):
     if not BIBLIOTECA.is_dir():
         return
     acoes = json.loads((BIBLIOTECA / "acoes.json").read_text(encoding="utf-8"))
-    codigo = INDEX.read_text(encoding="utf-8") if INDEX.exists() else ""
+    # O código que pode tocar os sons: o index.html e, desde 2026-11-24, os arquivos da Arena (a torcida do futebol).
+    codigo = "".join(f.read_text(encoding="utf-8") for f in [INDEX, *sorted(APP.glob("public/arena*"))] if f.is_file())
     exe = ffmpeg()
     avisos, sons, feitos = [], {}, set()
     pastas = sorted(p for p in BIBLIOTECA.iterdir() if p.is_dir() and not p.name.startswith("_"))
@@ -132,7 +133,7 @@ def montar(tudo=False):
         if acao not in sons:
             avisos.append(f"ação {acao} sem nenhum som (ponha arquivos em app/sons/{acao}/)")
         if f'"{acao}"' not in codigo:
-            avisos.append(f"ação {acao} sem gatilho no app: o nome não aparece em public/index.html")
+            avisos.append(f"ação {acao} sem gatilho no app: o nome não aparece em public/index.html nem em public/arena*")
     pagina_de_ouvir(acoes, sons)
     print(f"{sum(len(v) for v in sons.values())} sons em {len(sons)} ações; página para ouvir: app/sons/ouvir.html")
     for a in avisos:
