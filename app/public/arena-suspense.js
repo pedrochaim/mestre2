@@ -1,10 +1,10 @@
 // Modo Arena · sons do relógio e suspense antes da resposta (experimental, 2026-11-23). Sons do relógio, na tela grande:
 // um som quando a pergunta aparece e o prazo começa (o de "pergunta sorteada" da biblioteca), um tique-taque a cada
 // segundo da contagem (sintetizado), o tique da biblioteca nos últimos 5 s e o "tempo esgotado" quando o prazo acaba.
-// Suspense: Liga-se na tela grande ("Suspense"), que grava
-// "experimental" na partida. Quando a resposta é revelada ao vivo, a tela grande segura a revelação por uns 7 s com a
-// animação Cartas viradas: contagem 3, 2, 1, as alternativas erradas viram em vermelho (da menos para a mais votada) e a
-// certa vira por último, em verde. Os celulares acompanham, sem som, com a mesma contagem (TEMPOS).
+// Suspense: liga-se na tela grande ("Sons e suspense"), que grava "experimental" na partida. Quando a resposta é
+// revelada ao vivo, a tela grande segura a revelação por uns 6 s com a animação Votos e eliminação (2026-11-23; antes,
+// Cartas viradas): os votos caem nas alternativas, as erradas saem uma a uma, da menos para a mais votada, e sobra a
+// certa. Os celulares acompanham, sem som, no mesmo ritmo (TEMPOS).
 // Sons: só na tela grande. A cada revelação sai um de 11 pacotes, sorteado, nunca o mesmo da vez anterior. O pacote 1 usa
 // o tique, o erro e o acerto da biblioteca do app (Kenney, CC0); o 11 usa os peidos da biblioteca (Zache / Yle, Wikimedia
 // Commons, CC BY 3.0) e um jingle de sax (Kenney, CC0); o resto é sintetizado aqui, sem arquivo.
@@ -207,20 +207,25 @@ function sortearPacote() {
 }
 
 // O batimento do pacote, no ritmo do pulso da tela, enquanto durar o suspense.
-let coracao = null;
+// Ao mudar de ritmo, a próxima batida segue o compasso da anterior (sem bater dobrado).
+let coracao = null, ultimaBatida = 0;
 function batimento(ms, P) {
   clearTimeout(coracao);
-  if (!ms) return;
-  const bater = () => { if (pronto()) P.batida(); coracao = setTimeout(bater, ms); };
-  bater();
+  if (!ms) { ultimaBatida = 0; return; }
+  const bater = () => { ultimaBatida = Date.now(); if (pronto()) P.batida(); coracao = setTimeout(bater, ms); };
+  if (!ultimaBatida) return bater();
+  coracao = setTimeout(bater, Math.max(0, ultimaBatida + ms - Date.now()));
 }
 
-// Tempos da animação, que os celulares seguem sem ouvir a tela: a contagem (3 números) e o instante em que a certa
-// aparece, contado do começo do suspense (as 3 erradas viram antes dela).
-const CONTAGEM = 900, VIRA = 300, DEPOIS_ERRADA = 450, DEPOIS_ULTIMA = 900, SILENCIO = 350, SEGURA = 1300;
+// Tempos da animação, iguais em todos os aparelhos (os celulares seguem sem ouvir a tela): a fase dos votos tem duração
+// fixa, dividida entre quantos votos houver, para o instante em que a certa aparece não depender do número de votos.
+const INICIO = 500, VOTOS = 1600, PAUSA = 700, TREME = 380, DEPOIS_ERRADA = 650, DEPOIS_ULTIMA = 1100, SEGURA = 1300;
+const RITMOS = [700, 520, 380];          // o batimento acelera a cada alternativa eliminada
+const ELIMINA = INICIO + VOTOS + PAUSA;  // começo das eliminações
 export const TEMPOS = {
-  contagem: CONTAGEM,
-  revelaEm: 3 * CONTAGEM + 2 * (2 * VIRA + DEPOIS_ERRADA) + (2 * VIRA + DEPOIS_ULTIMA) + SILENCIO + 2 * VIRA,
+  revelaEm: ELIMINA + 3 * TREME + 2 * DEPOIS_ERRADA + DEPOIS_ULTIMA,
+  // O ritmo do batimento (ms por batida) num instante do suspense, para o celular pulsar junto.
+  ritmoEm: ms => ms < ELIMINA ? 900 : RITMOS[Math.min(2, Math.floor((ms - ELIMINA) / (TREME + DEPOIS_ERRADA)))],
 };
 const espera = ms => new Promise(r => setTimeout(r, ms));
 
@@ -235,53 +240,55 @@ function faiscas(el) {
   }
 }
 
-// A animação na tela grande. opcoes: a lista das 4 alternativas (li), ainda sem a resposta; cartao: o cartão da pergunta
-// (recebe a classe "tensa" e a contagem); certa: o índice da certa; votos: índice → bolinhas dos jogadores que a
-// escolheram; valendo(): falso se a tela mudou de rodada no meio (a animação para).
-export async function animar({ cartao, opcoes, contagem, certa, votos, valendo }) {
+// A animação Votos e eliminação, na tela grande. As alternativas pulsam como batimento; os votos caem um a um, cada um
+// com o tique do pacote, mais agudo a cada voto; depois as erradas saem, da menos votada para a mais votada: cada uma
+// treme (sopro do pacote) e sai (erro do pacote), e o batimento acelera; por fim, um instante de silêncio e a certa se
+// acende em verde (acerto do pacote). opcoes: a lista das 4 alternativas (li), ainda sem a resposta; cartao: o cartão
+// da pergunta (recebe a classe "tensa"); certa: o índice da certa; votos: índice → bolinhas de quem a escolheu;
+// valendo(): falso se a tela mudou de rodada no meio (a animação para).
+export async function animar({ cartao, opcoes, certa, votos, valendo }) {
   const P = sortearPacote();
   const li = i => opcoes.children[i];
-  const soltar = i => {
-    const item = li(i); if (!item) return;
+  const lugar = i => {
+    const item = li(i);
     let quem = item.querySelector(".quem");
     if (!quem) { quem = document.createElement("span"); quem.className = "quem"; item.append(quem); }
-    for (const b of votos(i)) { b.classList.add("cai"); quem.append(b); }
+    return quem;
   };
-  const nVotos = i => votos(i).length;
+  // Todos os votos, em ordem sorteada; o número de votos de cada alternativa decide a ordem das eliminações.
+  const todos = [], nVotos = [];
+  [...opcoes.children].forEach((_, i) => { const b = votos(i); nVotos[i] = b.length; for (const x of b) todos.push([i, x]); });
+  for (let k = todos.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [todos[k], todos[j]] = [todos[j], todos[k]]; }
   try {
-    cartao.classList.add("tensa"); cartao.style.setProperty("--bpm", "1000ms");
-    batimento(1000, P);
-    for (const n of [3, 2, 1]) {
+    cartao.classList.add("tensa"); cartao.style.setProperty("--bpm", "900ms");
+    batimento(900, P);
+    await espera(INICIO);
+    const passo = todos.length ? Math.min(260, VOTOS / todos.length) : VOTOS;
+    for (const [k, [i, b]] of todos.entries()) {
       if (!valendo()) return;
-      contagem.innerHTML = `<span>${n}</span>`;
-      cartao.style.setProperty("--bpm", `${600 + n * 150}ms`);
-      batimento(600 + n * 150, P);
-      if (pronto()) P.tique(n);
-      await espera(CONTAGEM);
+      b.classList.add("cai"); lugar(i).append(b);
+      if (pronto()) P.tique(Math.max(1, 3 - Math.floor(k * 3 / todos.length)));
+      await espera(passo);
     }
-    contagem.innerHTML = "";
-    batimento(560, P);
-    const erradas = [...opcoes.children].map((_, i) => i).filter(i => i !== certa).sort((a, b) => nVotos(a) - nVotos(b));
+    await espera(VOTOS - passo * todos.length + PAUSA);
+    const erradas = [...opcoes.children].map((_, i) => i).filter(i => i !== certa).sort((a, b) => nVotos[a] - nVotos[b]);
     for (const [k, i] of erradas.entries()) {
       if (!valendo()) return;
-      li(i).classList.add("virando"); if (pronto()) P.virada();
-      await espera(VIRA);
-      li(i).classList.add("errada"); if (pronto()) P.erro(); soltar(i);
-      await espera(VIRA); li(i).classList.remove("virando");
+      const ritmo = RITMOS[Math.min(k, RITMOS.length - 1)];
+      cartao.style.setProperty("--bpm", `${ritmo}ms`); batimento(ritmo, P);
+      li(i).classList.add("treme"); if (pronto()) P.virada();
+      await espera(TREME);
+      li(i).classList.remove("treme"); li(i).classList.add("fora"); if (pronto()) P.erro();
+      if (k === erradas.length - 1) batimento(0);  // silêncio antes da certa
       await espera(k === erradas.length - 1 ? DEPOIS_ULTIMA : DEPOIS_ERRADA);
     }
     if (!valendo() || !li(certa)) return;
-    batimento(0); await espera(SILENCIO);
-    li(certa).classList.add("virando"); if (pronto()) P.virada();
-    await espera(VIRA);
-    li(certa).classList.add("certa"); if (pronto()) P.acerto(); soltar(certa); faiscas(li(certa));
-    await espera(VIRA); li(certa).classList.remove("virando");
     cartao.classList.remove("tensa");
+    li(certa).classList.add("certa", "acende"); if (pronto()) P.acerto(); faiscas(li(certa));
     await espera(SEGURA);
   } finally {
     batimento(0);
     cartao.classList.remove("tensa");
-    contagem.innerHTML = "";
   }
 }
 

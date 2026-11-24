@@ -83,34 +83,31 @@
     #tempo-s { min-width: 2.2em; text-align: right; font-variant-numeric: tabular-nums; }
     #status { font-size: clamp(.9rem, 2.4vmin, 1.6rem); margin: 0; }
 
-    /* Suspense (experimental): antes da resposta, as alternativas pulsam como batimento, a contagem 3, 2, 1 aparece por
-       cima e cada alternativa vira como carta, as erradas em vermelho e a certa por último, em verde (arena-suspense.js). */
+    /* Suspense (experimental): antes da resposta, as alternativas pulsam como batimento, os votos caem em cada uma e as
+       erradas tremem e saem, da menos para a mais votada; sobra a certa, que se acende em verde (arena-suspense.js). */
+    #cartao.tensa { box-shadow: inset 0 0 6vmin #000c; }
+    #opcoes li.treme { animation: tremer .38s linear; }
+    @keyframes tremer { 0%, 100% { transform: none; } 20% { transform: translateX(-.8vmin) rotate(-.6deg); }
+                        40% { transform: translateX(.8vmin) rotate(.6deg); } 60% { transform: translateX(-.5vmin); } 80% { transform: translateX(.5vmin); } }
+    #opcoes li.fora { opacity: .22; filter: grayscale(1); border-color: var(--linha); }
+    #opcoes li.fora .texto { text-decoration: line-through; }
     #cartao { position: relative; }
     #opcoes { perspective: 120vmin; }
-    #cartao.tensa #opcoes li:not(.errada):not(.certa) { animation: batida var(--bpm, 900ms) ease-in-out infinite; }
+    #cartao.tensa #opcoes li:not(.fora):not(.certa):not(.treme) { animation: batida var(--bpm, 900ms) ease-in-out infinite; }
     @keyframes batida { 0%, 100% { border-color: var(--linha); box-shadow: none; }
                         18% { border-color: #f0f0ea; box-shadow: 0 0 2vmin #ffffff30; } 34% { border-color: var(--linha); }
                         48% { border-color: #c9c9c2; box-shadow: 0 0 1.2vmin #ffffff20; } }
-    #opcoes li { position: relative; transform-style: preserve-3d; }
-    #opcoes li.virando { animation: virar .6s ease-in-out; }
-    @keyframes virar { 0% { transform: rotateY(0); } 50% { transform: rotateY(90deg); } 100% { transform: rotateY(0); } }
-    #opcoes li.errada { border-color: var(--errado); background: #2f1510; opacity: .6; }
-    #opcoes li.errada .letra { background: var(--errado); color: #000; }
+    #opcoes li { position: relative; }
     #opcoes li.certa { box-shadow: 0 0 3vmin #4cc48566; }
-    #opcoes li.certa:not(.virando) { animation: estourar .7s cubic-bezier(.2, 1.6, .4, 1); }
+    #opcoes li.acende { animation: estourar .7s cubic-bezier(.2, 1.6, .4, 1); }
     @keyframes estourar { 0% { transform: scale(1); } 40% { transform: scale(1.06); } 100% { transform: scale(1); } }
     #opcoes .quem .bola.cai { animation: cair .45s cubic-bezier(.2, 1.4, .4, 1) both; }
     @keyframes cair { from { transform: translateY(-4vmin) scale(.4); opacity: 0; } to { transform: none; opacity: 1; } }
     .faisca { position: absolute; width: 1.1vmin; height: 1.1vmin; border-radius: 50%; left: 50%; top: 50%; pointer-events: none;
               animation: faisca .9s ease-out forwards; }
     @keyframes faisca { to { transform: translate(var(--dx), var(--dy)) scale(.3); opacity: 0; } }
-    .contagem { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; }
-    .contagem:empty { display: none; }
-    .contagem span { font-size: clamp(5rem, 30vmin, 22rem); font-weight: 900; color: #fff; text-shadow: 0 0 5vmin #000;
-                     animation: pulsar .9s ease-out both; }
-    @keyframes pulsar { 0% { transform: scale(1.8); opacity: 0; } 25% { transform: scale(1); opacity: 1; } 100% { transform: scale(.7); opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
-      #cartao.tensa #opcoes li, #opcoes li.virando, #opcoes li.certa, .contagem span, .faisca, #opcoes .quem .bola.cai { animation: none !important; }
+      #cartao.tensa #opcoes li, #opcoes li.treme, #opcoes li.acende, .faisca, #opcoes .quem .bola.cai { animation: none !important; }
     }
 
     /* Fim */
@@ -199,7 +196,6 @@
         <ol id="opcoes"></ol>
         <div id="tempo"><div id="tempo-barra"><div></div></div><span id="tempo-s"></span></div>
         <p id="status" class="suave"></p>
-        <div id="contagem" class="contagem" aria-live="polite"></div>
       </div>
 
       <div id="fim" hidden>
@@ -220,7 +216,7 @@
     <button id="proxima" class="principal">Começar</button>
     <button id="revelar-ja" hidden>Mostrar resposta</button>
     <button id="automatico" aria-pressed="false" title="Com todos respondendo, a resposta aparece e a próxima pergunta sai sozinha">Iniciar modo automático</button>
-    <button id="suspense" aria-pressed="false" title="Experimental: sons do relógio e, antes da resposta, contagem e cartas virando">🧪 Sons e suspense: desligado</button>
+    <button id="suspense" aria-pressed="false" title="Experimental: sons do relógio e, antes da resposta, os votos caindo e as erradas saindo uma a uma">🧪 Sons e suspense: desligado</button>
     <p id="msg" class="suave"></p>
     <p id="erro" class="erro" style="margin:0"></p>
   </div>
@@ -457,7 +453,7 @@
     $("status").textContent = "E a resposta certa é…";
     const p = porId.get(r.pergunta);
     S.animar({
-      cartao: $("cartao"), opcoes: $("opcoes"), contagem: $("contagem"), certa: r.certa,
+      cartao: $("cartao"), opcoes: $("opcoes"), certa: r.certa,
       votos: i => respostas.filter(x => x.opcao === i).map(x => jogadores.find(j => j.id === x.jogador)).filter(Boolean)
                            .map(j => ficha(j).querySelector(".bola")),
       valendo: () => Boolean(codigo) && suspense?.n === r.n,
