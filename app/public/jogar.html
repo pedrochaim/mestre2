@@ -65,6 +65,16 @@
     #resultado.errou { border-color: var(--errado); background: #2f1510; }
     #resultado strong { display: block; font-size: 1.8rem; }
     .grande { font-size: 1.3rem; text-align: center; margin: 2rem 0 1rem; }
+    /* Suspense (experimental): enquanto a tela grande vira as cartas, o celular pulsa e mostra a mesma contagem. */
+    #resultado.suspense { animation: celbate var(--bpm, 900ms) ease-in-out infinite; }
+    @keyframes celbate { 0%, 100% { border-color: var(--linha); } 18% { border-color: #f0f0ea; } 34% { border-color: var(--linha); }
+                         48% { border-color: #c9c9c2; } }
+    #resultado .numero { display: block; font-size: 4rem; font-weight: 900; line-height: 1; animation: pulsar .9s ease-out both; }
+    @keyframes pulsar { 0% { transform: scale(1.6); opacity: 0; } 25% { transform: scale(1); opacity: 1; } 100% { transform: scale(.8); opacity: .3; } }
+    .pontos span { display: inline-block; animation: ponto 1s infinite; }
+    .pontos span:nth-child(2) { animation-delay: .15s; } .pontos span:nth-child(3) { animation-delay: .3s; }
+    @keyframes ponto { 0%, 100% { opacity: .2; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { #resultado.suspense, #resultado .numero, .pontos span { animation: none; } }
   </style>
 </head>
 <body>
@@ -120,6 +130,7 @@
   import { doc, getDoc, getDocFromServer, setDoc, updateDoc, deleteDoc, onSnapshot, serverTimestamp }
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import { CHEGADA } from "./linear.js";
+  import { TEMPOS } from "./arena-suspense.js";
   import { db, entrarAnonimo, OPCOES, CORES, corDe, $, el, esc, umDe, ficha, restante, acertarRelogio, manterAcesa }
     from "./arena-comum.js";
 
@@ -132,6 +143,12 @@
   let desligarMinha = null, nMinha = null;
   let nVisto;                 // última rodada vista, para acertar o relógio e vibrar só nas que começam ao vivo
   const nomes = new Map();    // id → nome, para mostrar quem venceu
+  // Suspense (experimental, arena-suspense.js): a revelação vista ao vivo espera a animação da tela grande, com a mesma
+  // contagem; a casa do jogador também só muda depois.
+  let abertaVista = null;     // última rodada vista ainda aberta (respondendo ou encerrada)
+  let suspense = null;        // {n, inicio}: a rodada cuja revelação está em suspense
+  const emSuspense = () => suspense !== null && partida.rodada?.n === suspense.n;
+  let casaAntes = null;       // a casa mostrada antes do suspense
 
   // ---------------------------------------------------------------- entrada
 
@@ -219,6 +236,18 @@
     }
     nVisto = r?.n ?? null;
     ouvirMinha(r?.n ?? null);
+    if (r && r.fase !== "revelada") abertaVista = r.n;
+    if (r?.fase === "revelada" && partida.experimental && abertaVista === r.n && suspense?.n !== r.n) {
+      const n = r.n;
+      suspense = { n, inicio: Date.now() };
+      setTimeout(() => {
+        if (suspense?.n !== n) return;
+        suspense = null;
+        desenhar();
+        const acertei = minha?.opcao === partida.rodada?.certa;
+        navigator.vibrate?.(acertei ? [60, 60, 60] : 250);
+      }, TEMPOS.revelaEm);
+    }
     desenhar();
   }
 
@@ -258,7 +287,7 @@
     desligar = [];
     desligarMinha?.();
     desligarMinha = null; nMinha = null;
-    codigo = null; partida = {}; eu = null; minha = null;
+    codigo = null; partida = {}; eu = null; minha = null; suspense = null; abertaVista = null;
     mostrarEntrada();
     $("erro-entrada").textContent = aviso;
   }
@@ -275,10 +304,13 @@
     if (!codigo || !eu) return;
     const r = partida.rodada;
     $("eu").replaceChildren(ficha(eu));
-    $("casa").textContent = `Casa ${Math.min(eu.pontos || 0, CHEGADA)} de ${CHEGADA}`;
+    // Em "encerrada" e durante o suspense, a casa fica a de antes (o peão só anda quando a resposta aparece), chegue antes
+    // a atualização do jogador ou a da partida.
+    if (!(emSuspense() || r?.fase === "encerrada") || casaAntes === null) casaAntes = Math.min(eu.pontos || 0, CHEGADA);
+    $("casa").textContent = `Casa ${casaAntes} de ${CHEGADA}`;
     $("erro-jogo").textContent = r?.fase === "respondendo" ? $("erro-jogo").textContent : "";
 
-    if (partida.fim) {
+    if (partida.fim && !emSuspense()) {
       $("pergunta").hidden = true;
       $("resultado").hidden = true;
       $("espera").hidden = false;
@@ -303,7 +335,7 @@
     $("enunciado").textContent = r.enunciado;
     $("aviso-figura").hidden = !r.figura;
 
-    const revelada = r.fase === "revelada";
+    const revelada = r.fase === "revelada" && !emSuspense();
     const aberta = r.fase === "respondendo";
     $("tempo").hidden = r.fase !== "respondendo";
     $("botoes").classList.toggle("travado", Boolean(minha) || !aberta);
@@ -321,6 +353,7 @@
         : restante(r) > 0 ? "" : "Tempo esgotado, mas ainda dá para responder.")
       : r.fase === "encerrada" ? "Conferindo…" : "";
 
+    if (emSuspense()) return desenharSuspense();
     $("resultado").hidden = !revelada;
     if (revelada) {
       const acertei = minha?.opcao === r.certa;
@@ -332,8 +365,24 @@
     desenharTempo();
   }
 
+  // A contagem 3, 2, 1 no mesmo ritmo da tela grande e, depois, "Revelando…" até a resposta aparecer.
+  let numeroMostrado = null;
+  function desenharSuspense() {
+    const passou = Date.now() - suspense.inicio;
+    const n = passou < 3 * TEMPOS.contagem ? 3 - Math.floor(passou / TEMPOS.contagem) : 0;
+    const caixa = $("resultado");
+    caixa.hidden = false;
+    caixa.className = "suspense";
+    caixa.style.setProperty("--bpm", n ? `${600 + n * 150}ms` : "560ms");
+    if (numeroMostrado === `${suspense.n}:${n}`) return;
+    numeroMostrado = `${suspense.n}:${n}`;
+    caixa.innerHTML = n ? `E a resposta certa é…<span class="numero">${n}</span>`
+                        : `<strong class="pontos">Revelando<span>.</span><span>.</span><span>.</span></strong>`;
+  }
+
   function desenharTempo() {
     const r = partida.rodada;
+    if (emSuspense()) return desenharSuspense();
     if (!r || r.fase !== "respondendo") return;
     const ms = restante(r);
     $("tempo-barra").firstElementChild.style.width = `${(100 * ms / (r.prazo * 1000)).toFixed(1)}%`;
@@ -358,6 +407,7 @@
       try { const snap = await getDocFromServer(doc(db, "partidas", c)); if (codigo === c) receberPartida(snap.data() || {}); } catch {}
       conferindo = false;
     }
+    if (codigo && emSuspense()) return desenharSuspense();
     if (!codigo || r?.fase !== "respondendo") return;
     desenharTempo();
     const agoraNoPrazo = restante(r) > 0;

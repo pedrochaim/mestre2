@@ -48,10 +48,12 @@ service cloud.firestore {
       // Arena: só a tela grande (o anfitrião) muda a partida. "rodada" é a pergunta em jogo, para todos: n (o número
       // da rodada), pergunta (o id), tema, subtema, enunciado, opcoes (as 4 alternativas, na ordem da tela), figura,
       // prazo, inicio (hora do servidor), fase ("respondendo", "encerrada" ou "revelada") e, revelada, certa (o índice
-      // da alternativa certa). "vencedores": os ids de quem chegou ao fim na mesma rodada.
+      // da alternativa certa). "vencedores": os ids de quem chegou ao fim na mesma rodada. "experimental": o suspense antes
+      // da resposta está ligado (2026-11-23, em teste).
       allow update: if resource.data.get('modo', 'master') == 'arena'
                     && request.auth != null && request.auth.uid == resource.data.anfitriao
-                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['rodada', 'prazo', 'inicio', 'fim', 'duracao', 'vencedores'])
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['rodada', 'prazo', 'inicio', 'fim', 'duracao', 'vencedores', 'experimental'])
+                    && (!('experimental' in request.resource.data) || request.resource.data.experimental is bool)
                     && (!('rodada' in request.resource.data)
                         || (request.resource.data.rodada is map && request.resource.data.rodada.size() <= 12
                             && request.resource.data.rodada.n is int

@@ -83,6 +83,36 @@
     #tempo-s { min-width: 2.2em; text-align: right; font-variant-numeric: tabular-nums; }
     #status { font-size: clamp(.9rem, 2.4vmin, 1.6rem); margin: 0; }
 
+    /* Suspense (experimental): antes da resposta, as alternativas pulsam como batimento, a contagem 3, 2, 1 aparece por
+       cima e cada alternativa vira como carta, as erradas em vermelho e a certa por último, em verde (arena-suspense.js). */
+    #cartao { position: relative; }
+    #opcoes { perspective: 120vmin; }
+    #cartao.tensa #opcoes li:not(.errada):not(.certa) { animation: batida var(--bpm, 900ms) ease-in-out infinite; }
+    @keyframes batida { 0%, 100% { border-color: var(--linha); box-shadow: none; }
+                        18% { border-color: #f0f0ea; box-shadow: 0 0 2vmin #ffffff30; } 34% { border-color: var(--linha); }
+                        48% { border-color: #c9c9c2; box-shadow: 0 0 1.2vmin #ffffff20; } }
+    #opcoes li { position: relative; transform-style: preserve-3d; }
+    #opcoes li.virando { animation: virar .6s ease-in-out; }
+    @keyframes virar { 0% { transform: rotateY(0); } 50% { transform: rotateY(90deg); } 100% { transform: rotateY(0); } }
+    #opcoes li.errada { border-color: var(--errado); background: #2f1510; opacity: .6; }
+    #opcoes li.errada .letra { background: var(--errado); color: #000; }
+    #opcoes li.certa { box-shadow: 0 0 3vmin #4cc48566; }
+    #opcoes li.certa:not(.virando) { animation: estourar .7s cubic-bezier(.2, 1.6, .4, 1); }
+    @keyframes estourar { 0% { transform: scale(1); } 40% { transform: scale(1.06); } 100% { transform: scale(1); } }
+    #opcoes .quem .bola.cai { animation: cair .45s cubic-bezier(.2, 1.4, .4, 1) both; }
+    @keyframes cair { from { transform: translateY(-4vmin) scale(.4); opacity: 0; } to { transform: none; opacity: 1; } }
+    .faisca { position: absolute; width: 1.1vmin; height: 1.1vmin; border-radius: 50%; left: 50%; top: 50%; pointer-events: none;
+              animation: faisca .9s ease-out forwards; }
+    @keyframes faisca { to { transform: translate(var(--dx), var(--dy)) scale(.3); opacity: 0; } }
+    .contagem { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; }
+    .contagem:empty { display: none; }
+    .contagem span { font-size: clamp(5rem, 30vmin, 22rem); font-weight: 900; color: #fff; text-shadow: 0 0 5vmin #000;
+                     animation: pulsar .9s ease-out both; }
+    @keyframes pulsar { 0% { transform: scale(1.8); opacity: 0; } 25% { transform: scale(1); opacity: 1; } 100% { transform: scale(.7); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      #cartao.tensa #opcoes li, #opcoes li.virando, #opcoes li.certa, .contagem span, .faisca, #opcoes .quem .bola.cai { animation: none !important; }
+    }
+
     /* Fim */
     #fim { text-align: center; flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 1.4vmin; }
     #fim[hidden] { display: none; }
@@ -145,6 +175,7 @@
     <span>Arena · <span id="codigo" class="codigo"></span></span>
     <span id="papel" class="suave"></span>
     <span class="espaco"></span>
+    <button id="som" title="Ligar ou desligar o som do suspense neste aparelho">🔊</button>
     <button id="tela-cheia" title="Tela cheia">⛶</button>
     <button id="sair">Sair</button>
   </div>
@@ -168,6 +199,7 @@
         <ol id="opcoes"></ol>
         <div id="tempo"><div id="tempo-barra"><div></div></div><span id="tempo-s"></span></div>
         <p id="status" class="suave"></p>
+        <div id="contagem" class="contagem" aria-live="polite"></div>
       </div>
 
       <div id="fim" hidden>
@@ -188,6 +220,7 @@
     <button id="proxima" class="principal">Começar</button>
     <button id="revelar-ja" hidden>Mostrar resposta</button>
     <button id="automatico" aria-pressed="false" title="Com todos respondendo, a resposta aparece e a próxima pergunta sai sozinha">Iniciar modo automático</button>
+    <button id="suspense" aria-pressed="false" title="Experimental: antes da resposta, contagem, cartas virando e sons">🧪 Suspense: desligado</button>
     <p id="msg" class="suave"></p>
     <p id="erro" class="erro" style="margin:0"></p>
   </div>
@@ -199,6 +232,7 @@
            getDocFromServer, getDocsFromServer, writeBatch, serverTimestamp, increment, Timestamp }
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
   import * as L from "./linear.js";
+  import * as S from "./arena-suspense.js";
   import { db, entrarAnonimo, LETRAS, PRAZOS, PRAZO_PADRAO, OPCOES, CORES, abrev, corDe, $, el, esc, umDe, peao, ficha,
            agora, acertarRelogio, restante, manterAcesa } from "./arena-comum.js";
 
@@ -218,6 +252,17 @@
   let agendadaPara = null;    // rodada cuja próxima pergunta automática já foi agendada (uma vez por rodada)
   let automatico = false;     // modo automático, ligado e pausado pela tela que comanda (guardado neste aparelho)
   const chaveAuto = () => `mestre2.arena.auto.${codigo}`;
+  // Suspense (experimental, arena-suspense.js): a revelação vista ao vivo fica segura enquanto a animação roda; o tabuleiro
+  // e os jogadores não mudam até ela acabar, para nada entregar a resposta antes da hora.
+  let abertaVista = null;     // última rodada vista ainda aberta (respondendo ou encerrada) neste aparelho
+  let suspense = null;        // {n}: a rodada cuja revelação está em suspense
+  const emSuspense = () => suspense !== null && partida.rodada?.n === suspense.n;
+  // As casas de antes da revelação: guardadas enquanto a rodada está aberta e mostradas enquanto ela está em "encerrada"
+  // ou em suspense, chegue antes a atualização dos jogadores ou a da partida.
+  let pontosAntes = new Map();
+  const congelado = () => emSuspense() || partida.rodada?.fase === "encerrada";
+  function guardarPontos() { if (!congelado()) pontosAntes = new Map(jogadores.map(j => [j.id, j.pontos || 0])); }
+  const casaVisivel = j => Math.max(0, Math.min(congelado() && pontosAntes.has(j.id) ? pontosAntes.get(j.id) : (j.pontos || 0), L.CHEGADA));
   let tentouFecharEm = 0;     // última tentativa de fechar a rodada, para repetir com calma se der erro
 
   const souAnfitriao = () => Boolean(uid) && partida.anfitriao === uid;
@@ -378,6 +423,7 @@
     }));
     desligar.push(onSnapshot(query(collection(base, "jogadores"), orderBy("criado_em")), snap => {
       jogadores = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+      guardarPontos();
       desenhar();
     }));
     desligar.push(onSnapshot(collection(base, "sorteios"), snap => {
@@ -396,7 +442,32 @@
     if (!pendente || !r) nVisto = r?.n ?? null;
     ouvirRespostas(r?.n ?? null);
     if (r?.fase !== "revelada") proximaEm = null;
+    if (r && r.fase !== "revelada") abertaVista = r.n;
+    if (r?.fase === "revelada" && partida.experimental && abertaVista === r.n && suspense?.n !== r.n) return iniciarSuspense(r);
+    guardarPontos();
     desenhar();
+  }
+
+  // A resposta foi revelada ao vivo e o suspense está ligado: a pergunta aparece como antes da resposta, e a animação
+  // vira as cartas; no fim, tudo é desenhado com a resposta (e o tabuleiro anda).
+  function iniciarSuspense(r) {
+    desenharPergunta({ ...r, fase: "encerrada" });
+    suspense = { n: r.n };
+    desenhar();
+    $("status").textContent = "E a resposta certa é…";
+    const p = porId.get(r.pergunta);
+    S.animar({
+      cartao: $("cartao"), opcoes: $("opcoes"), contagem: $("contagem"), certa: r.certa,
+      votos: i => respostas.filter(x => x.opcao === i).map(x => jogadores.find(j => j.id === x.jogador)).filter(Boolean)
+                           .map(j => ficha(j).querySelector(".bola")),
+      valendo: () => Boolean(codigo) && suspense?.n === r.n,
+    }).catch(() => {}).finally(() => {
+      if (suspense?.n !== r.n) return;
+      suspense = null;
+      if (p?.imagem?.revelacao) figuraDe = null;  // a figura de revelação só agora
+      guardarPontos();
+      desenhar();
+    });
   }
 
   // Respostas da rodada em jogo: ouvidas de novo a cada rodada.
@@ -418,6 +489,7 @@
     desligar = [];
     desligarRespostas?.();
     desligarRespostas = null; nRespostas = null;
+    suspense = null; abertaVista = null;
     codigo = null; partida = {}; jogadores = []; respostas = []; usadas = new Map();
     history.replaceState(null, "", location.pathname);
     $("sala").hidden = true;
@@ -514,7 +586,7 @@
     } else if (r.fase === "encerrada" && Date.now() - tentouFecharEm > 3000) {
       fechar();
     } else if (r.fase === "revelada" && automatico && !partida.fim && !ocupado) {
-      if (proximaEm === null && agendadaPara !== r.n && todosResponderam()) {
+      if (proximaEm === null && agendadaPara !== r.n && todosResponderam() && !emSuspense()) {
         agendadaPara = r.n;
         proximaEm = Date.now() + ESPERA_PROXIMA * 1000;
         desenharControles();
@@ -533,6 +605,19 @@
     novaRodada();
   };
   $("revelar-ja").onclick = () => fechar();
+  // Liga e desliga o suspense na partida (todos os aparelhos seguem); o som é só deste aparelho.
+  $("suspense").onclick = () => {
+    if (!souAnfitriao()) return;
+    S.prepararSom();
+    updateDoc(doc(db, "partidas", codigo), { experimental: !partida.experimental })
+      .catch(e => ($("erro").textContent = "Erro: " + e.message));
+  };
+  const marcarSom = () => { $("som").textContent = S.somLigado() ? "🔊" : "🔇"; };
+  marcarSom();
+  $("som").onclick = () => { S.ligarSom(!S.somLigado()); marcarSom(); if (S.somLigado()) S.prepararSom(); };
+  // Os navegadores só liberam o som depois de um toque: qualquer toque na tela grande serve.
+  addEventListener("pointerdown", () => S.prepararSom());
+  addEventListener("keydown", () => S.prepararSom());
   // Iniciar o modo automático: sem pergunta na tela, sai a primeira já; com a resposta à mostra, a próxima sai em 10 s.
   // Pausar: nada sai sozinho até iniciar de novo.
   $("automatico").onclick = () => {
@@ -551,7 +636,7 @@
 
   function desenhar() {
     if (!codigo) return;
-    const r = partida.rodada, fim = Boolean(partida.fim);
+    const r = partida.rodada, fim = Boolean(partida.fim) && !emSuspense();
     $("papel").textContent = souAnfitriao() ? "" : "· só assistindo";
     $("espera").hidden = Boolean(r) || fim;
     $("cartao").hidden = !r || fim;
@@ -561,10 +646,10 @@
       if (souAnfitriao()) updateDoc(doc(db, "partidas", codigo), { prazo: s }).catch(e => ($("erro").textContent = "Erro: " + e.message));
     });
     $("prazos").querySelectorAll("button").forEach(b => { b.disabled = !souAnfitriao(); });
-    if (r && !fim) desenharPergunta(r);
+    if (r && !fim && !emSuspense()) desenharPergunta(r);
     if (fim) desenharFim();
     desenharJogadores();
-    $("tabuleiro").innerHTML = L.svgLinear(jogadores, casaDe, CORES, abrev, esc, peao, partida.semente);
+    $("tabuleiro").innerHTML = L.svgLinear(jogadores, casaVisivel, CORES, abrev, esc, peao, partida.semente);
     desenharControles();
     desenharTempo();
   }
@@ -624,19 +709,19 @@
     $("tempo-barra").firstElementChild.style.width = `${(100 * ms / (r.prazo * 1000)).toFixed(1)}%`;
     $("tempo-s").textContent = `${Math.ceil(ms / 1000)} s`;
     $("tempo").classList.toggle("acabando", ms > 0 && ms <= 5000);
-    if (r.fase === "revelada" && proximaEm !== null)
+    if (r.fase === "revelada" && proximaEm !== null && !emSuspense())
       $("msg").textContent = `Próxima pergunta em ${Math.max(0, Math.ceil((proximaEm - Date.now()) / 1000))} s`;
   }
 
   function desenharJogadores() {
-    const r = partida.rodada;
-    const lista = [...jogadores].sort((a, b) => casaDe(b) - casaDe(a));
+    const r = partida.rodada, fase = emSuspense() ? "encerrada" : r?.fase;
+    const lista = [...jogadores].sort((a, b) => casaVisivel(b) - casaVisivel(a));
     $("jogadores").replaceChildren(...(lista.length ? lista.map(j => {
       const x = respostas.find(x => x.jogador === j.id);
       let estado = "", classe = "";
-      if (r?.fase === "revelada") [estado, classe] = x?.opcao === r.certa ? [" +1", "acertou"] : [x ? " ✗" : " –", "errou"];
+      if (fase === "revelada") [estado, classe] = x?.opcao === r.certa ? [" +1", "acertou"] : [x ? " ✗" : " –", "errou"];
       else if (r && x) [estado, classe] = [" ✓", "respondeu"];
-      const f = ficha(j, `<span class="estado">${estado}</span><span class="casa">casa ${casaDe(j)}</span>`);
+      const f = ficha(j, `<span class="estado">${estado}</span><span class="casa">casa ${casaVisivel(j)}</span>`);
       if (classe) f.classList.add(classe);
       // Quem comanda pode tirar um jogador (um celular que saiu), tocando nele.
       if (souAnfitriao()) {
@@ -663,7 +748,9 @@
     $("controles").hidden = !souAnfitriao();
     if (!souAnfitriao()) return;
     const fim = Boolean(partida.fim);
-    $("proxima").hidden = fim || r?.fase === "respondendo" || r?.fase === "encerrada";
+    $("proxima").hidden = fim || r?.fase === "respondendo" || r?.fase === "encerrada" || emSuspense();
+    $("suspense").textContent = partida.experimental ? "🧪 Suspense: ligado" : "🧪 Suspense: desligado";
+    $("suspense").setAttribute("aria-pressed", String(Boolean(partida.experimental)));
     $("proxima").textContent = r ? "Próxima pergunta" : "Começar";
     $("proxima").disabled = !r && !jogadores.length;
     $("revelar-ja").hidden = r?.fase !== "respondendo";
