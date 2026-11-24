@@ -594,6 +594,8 @@ export function criarContagem(caixa) {
       caixa.setAttribute("aria-label", `Próxima pergunta em ${s} segundos`);
       return s;
     },
+    // A cena à mostra ("tema|n", como "Esportes|0"), ou null: escolhe o som próprio dela (arena-suspense.js).
+    get cena() { return caixa.hidden ? null : atual; },
     esconder() {
       if (caixa.hidden) return;
       caixa.hidden = true;

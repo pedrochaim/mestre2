@@ -58,8 +58,15 @@ async function arquivo(nome, volume = 1, velocidade = 1) {
   fonte.buffer = b; fonte.playbackRate.value = velocidade; g.gain.value = volume;
   fonte.connect(g).connect(mestre); fonte.start();
 }
-// Um tom: oscilador com envelope, deslize de altura (f2), filtro, vibrato e saída com eco.
-function tom({ f, f2, tipo = "sine", dur = .3, vol = .3, ataque = .005, em = 0, filtro, vibrato, comEco = false }) {
+// Saída de um som: no centro ou, com pan (de -1, esquerda, a 1, direita), de um lado; e o eco, se pedido.
+function saida(g, pan, comEco) {
+  let no = g;
+  if (pan && audio.createStereoPanner) { const p = audio.createStereoPanner(); p.pan.value = pan; g.connect(p); no = p; }
+  no.connect(mestre); if (comEco) no.connect(eco);
+}
+// Um tom: oscilador com envelope, deslize de altura (f2), filtro, vibrato e saída com eco. Com sustenta, o volume fica
+// parado até o fim (buzina, motor) em vez de se apagar aos poucos.
+function tom({ f, f2, tipo = "sine", dur = .3, vol = .3, ataque = .005, em = 0, filtro, vibrato, comEco = false, sustenta = false, pan = 0 }) {
   if (!pronto()) return;
   const t = audio.currentTime + .01 + em;
   const o = audio.createOscillator(), g = audio.createGain();
@@ -69,27 +76,29 @@ function tom({ f, f2, tipo = "sine", dur = .3, vol = .3, ataque = .005, em = 0, 
                  l.connect(lg).connect(o.frequency); l.start(t); l.stop(t + dur + .05); }
   g.gain.setValueAtTime(.0001, t);
   g.gain.exponentialRampToValueAtTime(vol, t + ataque);
+  if (sustenta) g.gain.setValueAtTime(vol, t + Math.max(ataque, dur - .12));
   g.gain.exponentialRampToValueAtTime(.0001, t + dur);
   let no = o;
   if (filtro) { const b = audio.createBiquadFilter(); b.type = filtro.tipo || "lowpass"; b.frequency.setValueAtTime(filtro.f, t);
                 if (filtro.f2) b.frequency.exponentialRampToValueAtTime(filtro.f2, t + dur); b.Q.value = filtro.q || 1; o.connect(b); no = b; }
-  no.connect(g); g.connect(mestre); if (comEco) g.connect(eco);
+  no.connect(g); saida(g, pan, comEco);
   o.start(t); o.stop(t + dur + .05);
 }
 // Ruído filtrado: sopros, chocalhos, pratos, estalos.
 let ruidoBase = null;
-function ruido({ dur = .2, vol = .3, tipo = "bandpass", f = 1000, f2, q = 1, ataque = .005, em = 0, comEco = false }) {
+function ruido({ dur = .2, vol = .3, tipo = "bandpass", f = 1000, f2, q = 1, ataque = .005, em = 0, comEco = false, sustenta = false, pan = 0 }) {
   if (!pronto()) return;
   if (!ruidoBase) { ruidoBase = audio.createBuffer(1, audio.sampleRate * 2, audio.sampleRate);
                     const d = ruidoBase.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1; }
   const t = audio.currentTime + .01 + em;
   const fonte = audio.createBufferSource(), b = audio.createBiquadFilter(), g = audio.createGain();
-  fonte.buffer = ruidoBase; b.type = tipo; b.Q.value = q;
+  fonte.buffer = ruidoBase; fonte.loop = true; b.type = tipo; b.Q.value = q;  // em laço: dá para mais de 1 s (a torcida)
   b.frequency.setValueAtTime(f, t); if (f2) b.frequency.exponentialRampToValueAtTime(f2, t + dur);
   g.gain.setValueAtTime(.0001, t);
   g.gain.exponentialRampToValueAtTime(vol, t + ataque);
+  if (sustenta) g.gain.setValueAtTime(vol, t + Math.max(ataque, dur - .2));
   g.gain.exponentialRampToValueAtTime(.0001, t + dur);
-  fonte.connect(b).connect(g); g.connect(mestre); if (comEco) g.connect(eco);
+  fonte.connect(b).connect(g); saida(g, pan, comEco);
   fonte.start(t, Math.random()); fonte.stop(t + dur + .05);
 }
 // Sino: parciais inarmônicas que se apagam em tempos diferentes.
@@ -346,17 +355,88 @@ const CONTAGENS = [
     segundo: s => { const [a, b] = s % 2 ? [988, 784] : [784, 988];
                     sino(a, { dur: .7, vol: s <= 3 ? .28 : .16 }); if (s <= 3) sino(b, { dur: .9, vol: .24, em: .18 }); } },
 ];
+
+// Sons próprios de algumas cenas da contagem (arena-contagem.js), no lugar do sorteado entre os dez de cima
+// (2026-11-24: as cinco de Esportes). A chave é a da cena ("tema|n", a de contagem.cena). segundo(s) toca a cada número,
+// de 7 a 1, no ritmo da animação; zero(em) toca o fim da cena (gol, apito, buzina, aplauso, largada), marcado no 1 para
+// daqui a "em" segundos, porque no jogo o 0 mal aparece antes da pergunta seguinte.
+const chute = (vol, pan, em = 0) => { tom({ f: 150, f2: 55, dur: .12, vol, ataque: .003, em, pan });
+                                      ruido({ dur: .03, vol: vol * .5, tipo: "lowpass", f: 1400, em, pan }); };
+const torcida = (vol, f, em = 0) => ruido({ dur: 1.15, vol, f, q: .7, ataque: .35, em, sustenta: true });
+function aplauso(em, dur = 1.8, n = 130) {
+  for (let k = 0; k < n; k++) {
+    const x = Math.random(), forca = Math.sin(Math.PI * Math.min(1, x * 1.3));  // cresce rápido e vai sumindo
+    ruido({ dur: .035, vol: .2 + .8 * forca * Math.random(), f: 1200 + Math.random() * 2200, q: .9, em: em + x * dur,
+            pan: Math.random() * 1.4 - .7 });
+  }
+}
+const apito = (em, dur, vol = .3) => tom({ f: 2900, tipo: "sine", dur, vol, ataque: .01, em, sustenta: true, vibrato: { f: 32, prof: 260 } });
+const SONS_CENAS = {
+  // Futebol: a torcida ao fundo, mais alta e mais aguda nos três últimos; um chute a cada passe, a bola indo da esquerda
+  // para a direita. No zero, o chute a gol, a rede e a torcida explodindo.
+  "Esportes|0": {
+    nome: "Torcida e chutes",
+    segundo: s => { torcida(s <= 3 ? .07 + (4 - s) * .03 : .07, s <= 3 ? 650 + (4 - s) * 120 : 520); chute(.65, -.6 + (7 - s) * .17); },
+    zero: em => { chute(.8, .7, em); ruido({ dur: .4, vol: .3, tipo: "highpass", f: 3200, em: em + .45, pan: .8 });
+                  ruido({ dur: 2.6, vol: .5, f: 750, f2: 1000, q: .6, ataque: .25, em: em + .35, sustenta: true, comEco: true });
+                  ruido({ dur: 2.4, vol: .22, f: 1700, q: .8, ataque: .3, em: em + .4, sustenta: true });
+                  apito(em + 2.2, .5, .18); } },
+  // Vôlei: a manchete a cada segundo, de um lado e do outro da rede; nos três últimos, cortadas. No zero, o apito do juiz.
+  "Esportes|1": {
+    nome: "Manchetes e apito",
+    segundo: s => { const pan = s % 2 ? -.5 : .5, forte = s <= 3;
+                    tom({ f: forte ? 190 : 160, f2: 100, dur: .1, vol: forte ? .6 : .45, ataque: .003, pan });
+                    ruido({ dur: forte ? .08 : .06, vol: forte ? .45 : .3, f: forte ? 1300 : 900, q: 1.4, pan }); },
+    zero: em => { apito(em, .14); apito(em + .22, .6); } },
+  // Basquete: o drible no meio de cada segundo (quando a bola bate no chão) e o tique do relógio de posse, que vira bipe
+  // nos três últimos. No zero, a buzina, enquanto a luz da tabela pisca.
+  "Esportes|2": {
+    nome: "Drible e buzina",
+    segundo: s => { tom({ f: s <= 3 ? 1000 : 1500, tipo: s <= 3 ? "sine" : "square", dur: s <= 3 ? .12 : .025, vol: s <= 3 ? .18 : .04 });
+                    tom({ f: 120, f2: 65, dur: .13, vol: .7, ataque: .003, em: .5 });
+                    ruido({ dur: .05, vol: .3, tipo: "lowpass", f: 500, em: .5 });
+                    ruido({ dur: .08, vol: .06, f: 2400, q: 3, em: .53, comEco: true }); },  // o eco do ginásio
+    zero: em => [[233, "sawtooth"], [277, "sawtooth"], [466, "square"]].forEach(([f, tipo]) =>
+      tom({ f, tipo, dur: 1.4, vol: .17, ataque: .02, em, sustenta: true, filtro: { f: 2200 }, comEco: true })) },
+  // Tênis: a raquetada de um lado e o quique da bola no saibro do outro, a cada segundo. No zero, o aplauso.
+  "Esportes|3": {
+    nome: "Raquetadas e aplauso",
+    segundo: s => { const lado = s % 2 ? .55 : -.55;  // onde a bola quica; a raquetada sai do outro lado
+                    tom({ f: 950, f2: 520, dur: .06, vol: .6, ataque: .002, pan: -lado });
+                    ruido({ dur: .05, vol: .7, f: 1900, q: 2, pan: -lado });
+                    tom({ f: 210, f2: 120, dur: .07, vol: .4, em: .75, pan: lado });
+                    ruido({ dur: .08, vol: .45, tipo: "lowpass", f: 600, em: .75, pan: lado }); },
+    zero: em => aplauso(em + .1) },
+  // Automobilismo: o motor em marcha lenta; um bipe a cada luz vermelha que acende (de 7 a 3); nos dois últimos, o motor
+  // acelera parado. No zero, o bipe agudo das luzes verdes e o carro arrancando, com o pneu cantando.
+  "Esportes|4": {
+    nome: "Luzes e motor",
+    segundo: s => { const acelera = s <= 2;
+                    tom({ f: acelera ? 70 : 52, f2: acelera ? 105 : 50, tipo: "sawtooth", dur: 1.05, vol: acelera ? .16 : .11, ataque: .05,
+                          sustenta: true, filtro: { f: acelera ? 700 : 380 }, vibrato: { f: acelera ? 26 : 16, prof: 3 } });
+                    if (s >= 3) tom({ f: 440, tipo: "square", dur: .2, vol: .16, filtro: { f: 2500 } }); },
+    zero: em => { tom({ f: 880, tipo: "square", dur: .45, vol: .18, em, filtro: { f: 3000 } });
+                  tom({ f: 90, f2: 520, tipo: "sawtooth", dur: 1.3, vol: .22, ataque: .02, em, filtro: { f: 600, f2: 3200 }, comEco: true });
+                  tom({ f: 180, f2: 1040, tipo: "sawtooth", dur: 1.1, vol: .07, ataque: .02, em, filtro: { f: 1200, f2: 4000 } });
+                  ruido({ dur: .5, vol: .16, f: 2600, q: 8, em: em + .03 }); } },
+};
 let contagemDaVez = -1;
-// Uma contagem nova começou: sorteia o som dela.
+// Uma contagem nova começou: sorteia o som dela (o das cenas sem som próprio) e devolve o nome dele.
 export function novaContagem() {
   let k;
   do { k = Math.floor(Math.random() * CONTAGENS.length); } while (k === contagemDaVez && CONTAGENS.length > 1);
   contagemDaVez = k;
+  return CONTAGENS[k].nome;
 }
-// Um segundo da contagem (de ESPERA_PROXIMA, hoje 7, até 1; os sons servem para até 10).
-export function somContagem(s) {
+// Um segundo da contagem (de ESPERA_PROXIMA, hoje 7, até 1; os sons servem para até 10). Com a cena (contagem.cena) e um
+// som próprio para ela, toca o dele; senão, o sorteado.
+export function somContagem(s, cena) {
   if (!pronto() || s < 1) return;
+  const proprio = SONS_CENAS[cena];
+  if (proprio) { proprio.segundo(s); if (s === 1) proprio.zero?.(1); return; }
   if (contagemDaVez < 0) novaContagem();
   CONTAGENS[contagemDaVez].segundo(s);
 }
+// O nome do som próprio da cena, ou null (a galeria, contagens.html, mostra qual som está tocando).
+export const somDaCena = cena => SONS_CENAS[cena]?.nome || null;
 export const NOMES_CONTAGENS = CONTAGENS.map(c => c.nome);

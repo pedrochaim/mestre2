@@ -12,7 +12,9 @@
   <style>
     /* Galeria das contagens da Arena (arena-contagem.js): todas as cenas, em miniatura, e cada uma em tela cheia
        (?ver=<tema>&cena=<n>). As miniaturas são a própria página em tela cheia, num iframe reduzido (?mini=1), para
-       as medidas em vmin saírem como na TV ou no celular. Cada cena repete: 7 s de contagem, o zero, e de novo. */
+       as medidas em vmin saírem como na TV ou no celular. Cada cena repete: 7 s de contagem, o zero, e de novo.
+       Som (2026-11-24): só na tela cheia, o mesmo da tela grande do jogo (arena-suspense.js): o próprio da cena (as de
+       Esportes) ou um dos dez sons de contagem, sorteado a cada volta. As miniaturas ficam mudas. */
     :root { color-scheme: dark;
             --fundo: #000; --texto: #F4F4F2; --suave: #A0A4AB; --linha: #2A2D33; --cartao: #101114;
             --acento: #FFD100; --sobre-cor: #000;
@@ -57,11 +59,14 @@
     #controles { position: fixed; z-index: 10; left: 50%; bottom: 14px; transform: translateX(-50%); display: flex; gap: .4rem;
                  align-items: center; background: #101114e6; border: 1px solid var(--linha); border-radius: 14px; padding: .4rem;
                  max-width: calc(100vw - 16px); }
-    #controles .rotulo { padding: 0 .6rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+    #controles .rotulo { padding: 0 .6rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0;
+                         line-height: 1.2; }
+    #controles .rotulo small { display: block; color: var(--suave); font-size: .78rem; }
     #controles a { text-decoration: none; }
     #controles .ctl { background: var(--cartao); border: 1px solid var(--linha); border-radius: 10px; padding: .5rem .8rem;
                       cursor: pointer; white-space: nowrap; }
     body.mini #controles { display: none; }
+    body:has(#palco:not([hidden])) { overflow: hidden; }  /* a galeria fica por baixo da cena, sem rolar */
   </style>
 </head>
 <body>
@@ -85,15 +90,17 @@
   <div id="palco" hidden></div>
   <div id="caixa" hidden></div>
   <nav id="controles" hidden>
-    <a class="ctl" href="contagens.html" title="Todas as contagens">← Todas</a>
+    <a class="ctl" id="todas" href="contagens.html" title="Todas as contagens (Esc)">← Todas</a>
     <button class="ctl" id="anterior" title="Cena anterior (←)">‹</button>
     <span class="rotulo" id="rotulo"></span>
     <button class="ctl" id="seguinte" title="Cena seguinte (→)">›</button>
     <button class="ctl" id="repetir" title="Recomeçar (espaço)">↻</button>
+    <button class="ctl" id="som" title="Ligar ou desligar o som (S)">🔊</button>
   </nav>
 
 <script type="module">
   import { SEGUNDOS, CORES, CENAS, criarContagem } from "./arena-contagem.js";
+  import * as S from "./arena-suspense.js";
 
   const $ = id => document.getElementById(id);
   const NOMES = {
@@ -109,50 +116,92 @@
   const nome = (t, i) => NOMES[t]?.[i] || `Cena ${i + 1}`;
   const titulo = t => t || "Sem tema";
   const url = (t, i, mini) => `contagens.html?ver=${encodeURIComponent(t)}&cena=${i}${mini ? "&mini=1" : ""}`;
-  const ZERO = 1500;  // quanto o zero fica na tela antes de recomeçar (no jogo, só até a próxima pergunta entrar)
+  const ZERO = 2200;  // quanto o zero fica na tela antes de recomeçar (no jogo, só até a próxima pergunta entrar)
 
-  const q = new URLSearchParams(location.search);
-  if (q.has("ver")) tocar(q.get("ver"), +q.get("cena") || 0, q.has("mini"));
+  const q = new URLSearchParams(location.search), mini = q.has("mini");
+  const lerUrl = () => { const u = new URLSearchParams(location.search); return u.has("ver") ? [u.get("ver"), +u.get("cena") || 0] : null; };
+  if (mini) document.body.classList.add("mini");
   else galeria();
+  const tocador = criarTocador();
+  if (lerUrl()) tocador.abrir(...lerUrl());
+  if (!mini) {
+    // A navegação do navegador (voltar e avançar) entre a galeria e as cenas, sem recarregar a página.
+    addEventListener("popstate", () => lerUrl() ? tocador.abrir(...lerUrl()) : tocador.fechar());
+    // Os navegadores só tocam som depois de um toque ou tecla na página.
+    addEventListener("pointerdown", () => S.prepararSom());
+    addEventListener("keydown", () => S.prepararSom());
+  }
 
-  // ---- Uma cena em tela cheia, repetindo.
-  function tocar(tema, cena, mini) {
-    if (!(tema in CENAS)) tema = "";
-    cena = Math.max(0, Math.min(CENAS[tema] - 1, cena));
-    document.body.classList.toggle("mini", mini);
-    $("palco").hidden = false;
-    $("controles").hidden = false;
-    document.title = `${titulo(tema)} · ${nome(tema, cena)} · Contagens da Arena`;
-    $("rotulo").innerHTML = `<b>${nome(tema, cena)}</b> <span class="suave">${titulo(tema)}` +
-      (CENAS[tema] > 1 ? `, ${cena + 1} de ${CENAS[tema]}` : "") + `</span>`;
-    const k = LISTA.findIndex(x => x.tema === tema && x.cena === cena);
-    const ir = d => { const x = LISTA[(k + d + LISTA.length) % LISTA.length]; location.replace(url(x.tema, x.cena)); };
-    $("anterior").onclick = () => ir(-1);
-    $("seguinte").onclick = () => ir(1);
+  // ---- Uma cena em tela cheia, repetindo, por cima da galeria.
+  function criarTocador() {
     const contagem = criarContagem($("caixa"));
-    let inicio = performance.now();
-    const recomecar = () => { contagem.esconder(); inicio = performance.now(); passo(); };
-    $("repetir").onclick = recomecar;
-    if (!mini) addEventListener("keydown", e => {
-      if (e.key === "ArrowLeft") ir(-1);
-      else if (e.key === "ArrowRight") ir(1);
-      else if (e.key === " ") { e.preventDefault(); recomecar(); }
-      else if (e.key === "Escape") location.href = "contagens.html";
-    });
+    let tema = "", cena = 0, inicio = 0, timer = null, somSorteado = "";
+    const marcarSom = () => { $("som").textContent = S.somLigado() ? "🔊" : "🔇"; };
+    function rotulo() {
+      const proprio = S.somDaCena(`${tema}|${cena}`);
+      $("rotulo").innerHTML = `<b>${nome(tema, cena)}</b> <span class="suave">${titulo(tema)}` +
+        (CENAS[tema] > 1 ? `, ${cena + 1} de ${CENAS[tema]}` : "") + `</span>` +
+        (mini ? "" : `<small>${proprio ? `Som próprio: ${proprio}` : `Som sorteado: ${somSorteado}`}</small>`);
+    }
+    function recomecar() {
+      contagem.esconder();
+      inicio = performance.now();
+      somSorteado = S.novaContagem();  // o som das cenas sem som próprio, sorteado a cada volta, como no jogo
+      rotulo();
+      passo();
+    }
     function passo() {
       const ms = SEGUNDOS * 1000 - (performance.now() - inicio);
       if (ms < -ZERO) return recomecar();
-      contagem.mostrar(tema, Math.max(0, ms), SEGUNDOS, 0, cena);
+      const s = contagem.mostrar(tema, Math.max(0, ms), SEGUNDOS, 0, cena);
+      if (s !== null && !mini) S.somContagem(s, contagem.cena);
     }
-    setInterval(passo, 50);
-    passo();
+    function abrir(t, c) {
+      tema = t in CENAS ? t : "";
+      cena = Math.max(0, Math.min(CENAS[tema] - 1, c));
+      $("palco").hidden = false;
+      $("controles").hidden = false;
+      document.title = `${titulo(tema)} · ${nome(tema, cena)} · Contagens da Arena`;
+      clearInterval(timer);
+      timer = setInterval(passo, 50);
+      recomecar();
+    }
+    function fechar() {
+      clearInterval(timer);
+      contagem.esconder();
+      $("palco").hidden = $("controles").hidden = true;
+      document.title = "Mestre2 · Contagens da Arena";
+    }
+    const ir = d => {
+      const k = LISTA.findIndex(x => x.tema === tema && x.cena === cena), x = LISTA[(k + d + LISTA.length) % LISTA.length];
+      history.replaceState(null, "", url(x.tema, x.cena));
+      abrir(x.tema, x.cena);
+    };
+    const todas = () => { history.pushState(null, "", "contagens.html"); fechar(); };
+    $("anterior").onclick = () => ir(-1);
+    $("seguinte").onclick = () => ir(1);
+    $("repetir").onclick = recomecar;
+    $("todas").onclick = e => { e.preventDefault(); todas(); };
+    $("som").onclick = () => { S.ligarSom(!S.somLigado()); marcarSom(); };
+    marcarSom();
+    if (!mini) addEventListener("keydown", e => {
+      if ($("controles").hidden) return;
+      if (e.key === "ArrowLeft") ir(-1);
+      else if (e.key === "ArrowRight") ir(1);
+      else if (e.key === " ") { e.preventDefault(); recomecar(); }
+      else if (e.key === "Escape") todas();
+      else if (e.key.toLowerCase() === "s") $("som").click();
+    });
+    return { abrir, fechar };
   }
 
   // ---- A galeria: todas as cenas em miniatura, por tema.
   function galeria() {
     $("galeria").hidden = false;
     $("resumo").textContent = `As ${LISTA.length} animações da contagem da próxima pergunta, por tema. ` +
-      `Em História e Esportes, o jogo sorteia uma das cenas. Clique numa para vê-la em tela cheia.`;
+      `Em História e Esportes, o jogo sorteia uma das cenas. Clique numa para vê-la em tela cheia, com som ` +
+      `(as de Esportes têm som próprio; as outras, um dos dez sons de contagem, sorteado). No jogo, o som toca só na ` +
+      `tela grande, com "Sons e suspense" ligado.`;
     const TAMANHO = { tv: [1280, 720], celular: [390, 780] };
     let aparelho = (q.get("aparelho") || localStorage.getItem("contagens-aparelho")) === "celular" ? "celular" : "tv";
     const medir = new ResizeObserver(itens => itens.forEach(({ target: t }) => {
@@ -181,6 +230,14 @@
           pergunta não é conhecido</span></h2><div class="grade">${uma.map(t =>
           card(t, 0, `${nome(t, 0)}${badge(t)}`)).join("")}</div></section>`;
       document.querySelectorAll(".tela").forEach(t => medir.observe(t));
+      // Abre a cena por cima da galeria, sem sair da página: o clique vale como o toque que libera o som.
+      document.querySelectorAll(".card").forEach(a => a.onclick = e => {
+        if (e.ctrlKey || e.metaKey || e.shiftKey || e.button) return;  // nova aba: segue o link
+        e.preventDefault();
+        S.prepararSom();
+        history.pushState(null, "", a.getAttribute("href"));
+        tocador.abrir(...lerUrl());
+      });
     }
     $("ver-tv").onclick = () => { aparelho = "tv"; localStorage.setItem("contagens-aparelho", aparelho); desenhar(); };
     $("ver-celular").onclick = () => { aparelho = "celular"; localStorage.setItem("contagens-aparelho", aparelho); desenhar(); };
