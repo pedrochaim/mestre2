@@ -1,6 +1,7 @@
 // Arena: a contagem da próxima pergunta automática ("Próxima pergunta em X"), na tela grande (arena.html) e nos celulares
 // (jogar.html). Desde 2026-11-24, a animação é a do TEMA DA PRÓXIMA PERGUNTA (sorteada pela tela grande quando a contagem
-// começa e gravada em "proxima.tema"): Geografia, o globo; História, uma de cinco cenas (abaixo); Natureza, o
+// começa e gravada em "proxima.tema"): Geografia, uma de onze cenas (o globo e, desde 2026-11-26, dez com som
+// próprio: aeroporto, bússola, monumentos, bandeiras, idiomas, vulcão, Everest, Rio São Francisco, farol e biomas); História, uma de cinco cenas (abaixo); Natureza, o
 // broto; Artes e Pensamento, a pincelada; Cotidiano, o despertador; Ciências, o átomo; Entretenimento, uma de onze cenas
 // (o começo do filme e, desde 2026-11-26, claquete, pipoca, TV de tubo, toca-discos, violão, quadrinhos, mangá, cartas,
 // fliperama e nave, estas com som próprio); Esportes, uma de cinco cenas (futebol, vôlei, basquete, tênis e automobilismo), sorteada como a de História e sem
@@ -605,17 +606,241 @@ const CSS = `
 @keyframes ct-en-warp { 30% { transform: translateY(6px); } 100% { transform: translateY(-140px) scaleY(1.8); } }
 .contagem .en-nave .grito { font: 400 calc(2 * var(--u))/1.2 "Press Start 2P", var(--mono, monospace); text-transform: none; }
 
+
+/* Geografia (2026-11-26): onze cenas, uma sorteada a cada contagem, sem olhar o subtema: o globo (acima) e dez com som
+   próprio (arena-suspense.js): painel do aeroporto, bússola, monumentos à noite, bandeiras, idiomas, vulcão, Everest,
+   Rio São Francisco, farol e biomas do Brasil. As fontes Noto (idiomas) são carregadas por instalarCss(). */
+.contagem .ge svg { display: block; overflow: visible; height: auto; max-width: 100%; }
+.contagem .ge .grito { font: 900 calc(3.2 * var(--u))/1 var(--fonte, sans-serif); color: #FFD100; letter-spacing: .06em; text-transform: uppercase;
+                       opacity: 0; text-shadow: 0 0 calc(1.5 * var(--u)) #000; }
+.contagem.fim .ge .grito { animation: ct-grito .6s cubic-bezier(.2, 1.6, .4, 1) both; }
+
+/* Geografia: o número padrão das cenas, com o brilho verde do tema. */
+.contagem .ge .num { font-size: calc(10 * var(--u)); text-shadow: 0 0 calc(2 * var(--u)) #00A84F, 0 0 var(--u) #000; animation: ct-pulso 1s ease-out both; }
+
+/* 1 · Painel do aeroporto: as letras viram (split-flap) a cada segundo e o voo de cima embarca. */
+.contagem .ge-aero .painel { width: max-content; max-width: 100%; background: #0c0d10; border-radius: var(--u); padding: var(--u);
+  display: grid; gap: calc(.45 * var(--u)); box-shadow: 0 0 0 calc(.25 * var(--u)) #2A2D33, 0 var(--u) calc(3 * var(--u)) #000a; }
+.contagem .ge-aero .topo-painel { display: flex; align-items: center; gap: var(--u); padding-bottom: calc(.4 * var(--u)); }
+.contagem .ge-aero .topo-painel svg { width: calc(3 * var(--u)); fill: #FFD100; }
+.contagem .ge-aero .topo-painel b { font: 800 calc(2.2 * var(--u))/1 var(--fonte, sans-serif); letter-spacing: .14em; color: #FFD100; flex: 1; }
+.contagem .ge-aero .topo-painel small { font: 700 calc(1.1 * var(--u))/1.2 var(--fonte, sans-serif); color: #A0A4AB; letter-spacing: .1em; text-transform: uppercase; text-align: right; }
+.contagem .ge-aero .placa { display: flex; gap: calc(.3 * var(--u)); }
+.contagem .ge-aero .placa .num { position: relative; display: grid; place-items: center; width: calc(6 * var(--u)); height: calc(8 * var(--u));
+  background: #1b1d22; border-radius: calc(.5 * var(--u)); font: 600 calc(6.4 * var(--u))/1 var(--mono, monospace); color: #F4F4F2; text-shadow: none;
+  animation: ct-ge-placa .3s cubic-bezier(.3, 1.4, .5, 1) both; }
+.contagem .ge-aero .placa .num::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: calc(.2 * var(--u)); background: #000; }
+@keyframes ct-ge-placa { from { transform: scaleY(.1); filter: brightness(1.8); } to { transform: none; } }
+.contagem .ge-aero .linha-voo { display: flex; gap: calc(.9 * var(--u)); }
+.contagem .ge-aero .campo { display: flex; gap: calc(.15 * var(--u)); }
+.contagem .ge-aero .cab { display: flex; gap: calc(.9 * var(--u)); font: 700 calc(1 * var(--u))/1 var(--fonte, sans-serif); letter-spacing: .12em; color: #A0A4AB; }
+.contagem .ge-aero .cab span:nth-child(1) { width: calc(10 * 1.85 * var(--u) - .15 * var(--u)); }
+.contagem .ge-aero .cab span:nth-child(2) { width: calc(3 * 1.85 * var(--u) - .15 * var(--u)); }
+.contagem .ge-aero .cel { position: relative; display: grid; place-items: center; width: calc(1.7 * var(--u)); height: calc(2.5 * var(--u));
+  background: #1b1d22; border-radius: calc(.2 * var(--u)); font: 600 calc(1.7 * var(--u))/1 var(--mono, monospace); color: #F4F4F2; }
+.contagem .ge-aero .cel::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: #000c; }
+.contagem .ge-aero .cel.va { animation: ct-ge-flap-a .09s ease-out; } .contagem .ge-aero .cel.vb { animation: ct-ge-flap-b .09s ease-out; }
+@keyframes ct-ge-flap-a { from { transform: scaleY(.15); filter: brightness(1.7); } }
+@keyframes ct-ge-flap-b { from { transform: scaleY(.15); filter: brightness(1.7); } }
+.contagem .ge-aero .embarque .situacao .cel { color: #3DDC84; }
+.contagem .ge-aero .embarque .situacao { animation: ct-en-piscar 1s steps(1) infinite; }
+.contagem.fim .ge-aero .embarque .situacao { animation-duration: .3s; }
+
+/* 2 · Bússola: a agulha procura um rumo a cada segundo (em português: L de leste, O de oeste) e acha o Norte no zero. */
+.contagem .ge-bus .linha { display: flex; align-items: center; gap: calc(2.4 * var(--u)); }
+.contagem .ge-bus svg { width: calc(32 * var(--u)); filter: drop-shadow(0 var(--u) calc(2 * var(--u)) #000a); }
+.contagem .ge-bus .numbox { display: grid; justify-items: start; gap: calc(.4 * var(--u)); }
+.contagem .ge-bus .num { font-size: calc(13 * var(--u)); }
+.contagem .ge-bus .rumo { font: 800 calc(2.6 * var(--u))/1 var(--fonte, sans-serif); color: #00A84F; text-shadow: 0 0 var(--u) #000; }
+.contagem .ge-bus .rumo small { font: 600 calc(1.8 * var(--u))/1 var(--mono, monospace); color: #A0A4AB; }
+.contagem.fim .ge-bus .rumo { color: #FFD100; }
+.contagem .ge-bus .aro1 { fill: #9c7425; } .contagem .ge-bus .aro2 { fill: #d9b25a; } .contagem .ge-bus .face { fill: #F1E6D0; }
+.contagem .ge-bus .marca { stroke: #2a2730; stroke-width: .6; } .contagem .ge-bus .marca.forte { stroke-width: 1.1; }
+.contagem .ge-bus .letra { font: 800 9px var(--fonte, sans-serif); fill: #2a2730; text-anchor: middle; dominant-baseline: central; }
+.contagem .ge-bus .letra.n { fill: #E8412C; }
+.contagem .ge-bus .letra.p { font-size: 5px; font-weight: 700; fill: #6b6f78; }
+.contagem .ge-bus .rosa-a { fill: #0b6b39; } .contagem .ge-bus .rosa-b { fill: #00A84F; }
+.contagem .ge-bus .agulha { transition: transform .9s cubic-bezier(.3, 1.7, .4, 1); }
+.contagem .ge-bus .norte { fill: #E8412C; } .contagem .ge-bus .sul { fill: #F4F4F2; stroke: #2a2730; stroke-width: .5; }
+.contagem .ge-bus .pino { fill: #d9b25a; stroke: #9c7425; stroke-width: .8; }
+.contagem .ge-bus .vidro { fill: #ffffff14; }
+.contagem.fim .ge-bus .letra.n { filter: drop-shadow(0 0 2px #E8412C); }
+
+/* 3 · Monumentos à noite: um monumento se acende por segundo; no zero, fogos. */
+.contagem .ge-mon svg { width: calc(50 * var(--u)); }
+.contagem .ge-mon .estrela { fill: #F4F4F2; animation: ct-en-piscar 2.4s ease-in-out infinite; }
+.contagem .ge-mon .chao { fill: #0a0f1f; } .contagem .ge-mon .morro { fill: #13241c; }
+.contagem .ge-mon .facho { fill: url(#ct-ge-holofote); opacity: 0; transition: opacity .6s; }
+.contagem .ge-mon .sil { fill: #2c3a61; transition: fill .5s, filter .5s; }
+.contagem .ge-mon .det { fill: #1a2442; }
+.contagem .ge-mon .acesa .facho { opacity: 1; }
+.contagem .ge-mon .acesa .sil { fill: #F2C46B; filter: drop-shadow(0 0 1.5px #F2C46B); }
+.contagem .ge-mon .acesa .det { fill: #a8742a; }
+.contagem .ge-mon .acesa .relogio { fill: #FFF6D5; }
+.contagem .ge-mon .acesa.branca .sil { fill: #FFF1D6; filter: drop-shadow(0 0 1.5px #FFF1D6); }
+.contagem .ge-mon .onde { font: 700 calc(1.7 * var(--u))/1.2 var(--fonte, sans-serif); color: #F4F4F2; text-shadow: 0 0 var(--u) #000; }
+.contagem .ge-mon .onde b { color: #F2C46B; }
+.contagem .ge-mon .faisca { opacity: 0; }
+.contagem.fim .ge-mon .faisca { animation: ct-ge-fogos 1.2s cubic-bezier(.2, .7, .3, 1) var(--d) both; }
+@keyframes ct-ge-fogos { 0% { opacity: 1; transform: none; } 70% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--dx), calc(var(--dy) + 6px)); } }
+
+/* 4 · Bandeiras: uma bandeira hasteada por segundo, de fora para dentro; a do Brasil, no mastro do meio, no 1. */
+.contagem .ge-band svg { width: calc(50 * var(--u)); }
+.contagem .ge-band .chao { fill: #1b1d22; }
+.contagem .ge-band .haste { stroke: #cfd3da; stroke-width: 1.3; stroke-linecap: round; }
+.contagem .ge-band .ponta { fill: #FFD100; }
+.contagem .ge-band .sobe { transform: translateY(46px); opacity: 0; transition: transform .8s cubic-bezier(.3, .8, .4, 1), opacity .15s; }
+.contagem .ge-band .hasteada .sobe { transform: none; opacity: 1; }
+.contagem .ge-band .tremula { animation: ct-ge-tremular 1.1s ease-in-out infinite alternate; }
+@keyframes ct-ge-tremular { from { transform: skewY(-4deg) scaleX(.95); } to { transform: skewY(3deg) scaleX(1); } }
+.contagem .ge-band .pais { font: 700 5.6px var(--fonte, sans-serif); fill: #A0A4AB; text-anchor: middle; opacity: 0; transition: opacity .4s .5s; }
+.contagem .ge-band .hasteada .pais { opacity: 1; }
+.contagem .ge-band .brasil .pais { fill: #FFD100; font-size: 6.4px; }
+.contagem.fim .ge-band .tremula { animation-duration: .35s; }
+.contagem .ge-band .confete { opacity: 0; }
+.contagem.fim .ge-band .confete { animation: ct-ge-confete 1.4s ease-in var(--d) both; }
+@keyframes ct-ge-confete { 0% { opacity: 1; transform: translate(0, 0) rotate(0); } 100% { opacity: 0; transform: translate(var(--dx), 110px) rotate(540deg); } }
+
+/* 5 · Idiomas: um "olá" por segundo, em sete línguas e escritas; no zero, em português. */
+.contagem .ge-idi .roda { position: relative; width: calc(48 * var(--u)); max-width: 100%; aspect-ratio: 48 / 32; }
+.contagem .ge-idi .globinho { position: absolute; left: 50%; top: 50%; width: calc(12 * var(--u)); aspect-ratio: 1; translate: -50% -50%; }
+.contagem .ge-idi .globinho svg { width: 100%; height: 100%; }
+.contagem .ge-idi .mar { fill: #04170c; stroke: #00A84F; stroke-width: 2; }
+.contagem .ge-idi .mer { fill: none; stroke: #00A84F; stroke-width: 1; opacity: .5; }
+.contagem .ge-idi .num { position: absolute; inset: 0; display: grid; place-items: center; font-size: calc(9 * var(--u)); }
+.contagem .ge-idi .balao { position: absolute; translate: -50% -50%; scale: 0; background: #F4F4F2; color: #111; border-radius: var(--u);
+  padding: calc(.5 * var(--u)) calc(1 * var(--u)) calc(.6 * var(--u)); text-align: center; white-space: nowrap;
+  box-shadow: 0 calc(.4 * var(--u)) var(--u) #0008; transition: scale .35s cubic-bezier(.3, 1.7, .5, 1); }
+.contagem .ge-idi .balao b { display: block; font: 700 calc(2.9 * var(--u))/1.3 "Noto Sans", var(--fonte, sans-serif); }
+.contagem .ge-idi .balao[lang="ja"] b { font-family: "Noto Sans JP", sans-serif; }
+.contagem .ge-idi .balao[lang="zh"] b { font-family: "Noto Sans SC", sans-serif; }
+.contagem .ge-idi .balao[lang="ar"] b { font-family: "Noto Sans Arabic", sans-serif; }
+.contagem .ge-idi .balao[lang="hi"] b { font-family: "Noto Sans Devanagari", sans-serif; }
+.contagem .ge-idi .balao small { display: block; font: 800 calc(1.1 * var(--u))/1 var(--fonte, sans-serif); color: #00843d; letter-spacing: .12em; text-transform: uppercase; }
+.contagem .ge-idi .balao.dito { scale: 1; }
+.contagem .ge-idi .balao.agora { background: #FFD100; }
+.contagem.fim .ge-idi .balao.dito { animation: ct-ge-saltinho .5s ease-in-out var(--d) 2 alternate; }
+@keyframes ct-ge-saltinho { to { translate: -50% -70%; } }
+.contagem .ge-idi .grito { font-size: calc(4 * var(--u)); text-transform: none; color: #00A84F; }
+
+/* 6 · Vulcão: a lava desce as encostas, a fumaça engrossa e o chão treme nos três últimos; no zero, a erupção. */
+.contagem .ge-vul svg { width: calc(46 * var(--u)); }
+.contagem.ultimos .ge-vul svg { animation: ct-en-sacudir .18s linear infinite; }
+.contagem .ge-vul .serra { fill: #24161a; }
+.contagem .ge-vul .cone { fill: #4a2e22; } .contagem .ge-vul .estrato { fill: none; stroke: #3a2219; stroke-width: 1.2; }
+.contagem .ge-vul .brasa { opacity: var(--brasa, .2); transition: opacity .8s; }
+.contagem .ge-vul .cratera { fill: #FF6A00; filter: drop-shadow(0 0 3px #FF6A00); }
+.contagem .ge-vul .corrida { fill: none; stroke: #FF6A00; stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 1 2; transition: stroke-dashoffset 1s linear;
+  filter: drop-shadow(0 0 1.5px #FF3B00); }
+.contagem .ge-vul .fumo { fill: #6b6570; opacity: 0; transform-box: fill-box; transform-origin: center; animation: ct-ge-fumo 2.6s ease-out var(--d) infinite; }
+@keyframes ct-ge-fumo { 0% { opacity: 0; transform: translate(0, 0) scale(.4); } 15% { opacity: .8; } 100% { opacity: 0; transform: translate(var(--dx), -38px) scale(2.2); } }
+.contagem.ultimos .ge-vul .fumo { fill: #3a3540; animation-duration: 1.8s; }
+.contagem .ge-vul .bomba { opacity: 0; }
+.contagem.fim .ge-vul .bomba { animation: ct-ge-bomba 1.3s var(--d) both; }
+@keyframes ct-ge-bomba { 0% { opacity: 1; transform: none; animation-timing-function: cubic-bezier(.2, .7, .4, 1); }
+  45% { transform: translate(calc(var(--dx) * .5), calc(var(--up) * -1)); animation-timing-function: cubic-bezier(.6, 0, .9, .5); }
+  85% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--dx), 60px); } }
+.contagem .ge-vul .jorro { fill: #FFB347; opacity: 0; transform-box: fill-box; transform-origin: 50% 100%; }
+.contagem.fim .ge-vul .jorro { animation: ct-ge-jorro 1.2s ease-out both; }
+@keyframes ct-ge-jorro { 0% { opacity: 0; transform: scaleY(0); } 15% { opacity: 1; transform: scaleY(1.1); } 100% { opacity: 0; transform: scaleY(.6); } }
+.contagem .ge-vul .grito { color: #FF6A00; }
+
+/* 7 · Everest: o alpinista sobe de acampamento em acampamento; no zero, o cume, a 8.849 m. */
+.contagem .ge-eve svg { width: calc(46 * var(--u)); }
+.contagem .ge-eve .longe { fill: #6b7d99; } .contagem .ge-eve .neve { fill: #F4F4F2; } .contagem .ge-eve .rocha { fill: #4a5568; }
+.contagem .ge-eve .sombra-neve { fill: #c9d3e3; }
+.contagem .ge-eve .rota { fill: none; stroke: #FFD100; stroke-width: .9; stroke-dasharray: 2 2; opacity: .7; }
+.contagem .ge-eve .tenda { fill: #F7941D; } .contagem .ge-eve .marco { fill: #FFD100; }
+.contagem .ge-eve .alpinista { transition: transform .8s ease-in-out; }
+.contagem .ge-eve .passo { animation: ct-ge-passo .25s ease-in-out infinite alternate; }
+@keyframes ct-ge-passo { to { transform: translateY(-.7px); } }
+.contagem .ge-eve .bandeira { opacity: 0; transform-box: fill-box; transform-origin: 0 100%; }
+.contagem.fim .ge-eve .bandeira { opacity: 1; animation: ct-grito .5s cubic-bezier(.2, 1.6, .4, 1) both; }
+.contagem .ge-eve .floco { fill: #fff; opacity: .5; animation: ct-ge-vento 1.1s linear var(--d) infinite; }
+@keyframes ct-ge-vento { from { transform: translateX(30px); } to { transform: translateX(-80px); } }
+.contagem.ultimos .ge-eve .floco { opacity: .9; animation-duration: .6s; }
+.contagem .ge-eve .altitude { display: flex; gap: var(--u); align-items: baseline; font: 700 calc(1.7 * var(--u))/1.2 var(--fonte, sans-serif); color: #F4F4F2;
+  background: #101114; border: calc(.2 * var(--u)) solid #2A2D33; border-radius: 99px; padding: calc(.4 * var(--u)) calc(1.4 * var(--u)); }
+.contagem .ge-eve .altitude b { font: 700 calc(2 * var(--u))/1 var(--mono, monospace); color: #00A84F; }
+.contagem.fim .ge-eve .altitude b { color: #FFD100; }
+
+/* 8 · Rio São Francisco: a água corre da nascente, na Serra da Canastra, até a foz, entre Alagoas e Sergipe. */
+.contagem .ge-rio svg { width: calc(46 * var(--u)); }
+.contagem .ge-rio .terra { fill: #2d5a3a; } .contagem .ge-rio .seco { fill: #8a7a45; opacity: .5; }
+.contagem .ge-rio .sertao { font: italic 700 5px var(--fonte, sans-serif); fill: #F1E6D0; opacity: .7; text-anchor: middle; letter-spacing: .2em; }
+.contagem .ge-rio .mar { fill: #0d3b66; } .contagem .ge-rio .onda { fill: none; stroke: #2d6a9f; stroke-width: .8; }
+.contagem .ge-rio .serra { fill: #6b5a3a; } .contagem .ge-rio .leito { fill: none; stroke: #1b3a26; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.contagem .ge-rio .seg { fill: none; stroke: #3fa9f5; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1 2; stroke-dashoffset: 1; }
+.contagem .ge-rio .seg.cheio { stroke-dashoffset: 0; }
+.contagem .ge-rio .seg.corre { animation: ct-ge-correr 1s linear both; }
+@keyframes ct-ge-correr { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+.contagem .ge-rio .cidade { fill: #1b1d22; stroke: #F4F4F2; stroke-width: .8; transition: fill .3s; }
+.contagem .ge-rio .cidade.vista { fill: #FFD100; }
+.contagem .ge-rio .rotulo { font: 700 4.4px var(--fonte, sans-serif); fill: #F4F4F2; opacity: 0; transition: opacity .4s; paint-order: stroke; stroke: #0008; stroke-width: 1.4px; }
+.contagem .ge-rio .rotulo.visto { opacity: 1; }
+.contagem .ge-rio .anel { fill: none; stroke: #3fa9f5; stroke-width: 1; opacity: 0; transform-box: fill-box; transform-origin: center; }
+.contagem.fim .ge-rio .anel { animation: ct-ge-anel 1.4s ease-out var(--d) infinite; }
+@keyframes ct-ge-anel { from { opacity: 1; transform: scale(.3); } to { opacity: 0; transform: scale(2.4); } }
+.contagem .ge-rio .ondinha { animation: ct-ge-mar 3s linear infinite; }
+@keyframes ct-ge-mar { to { transform: translateY(6px); } }
+.contagem .ge-rio .ponto { display: flex; gap: var(--u); align-items: baseline; font: 700 calc(1.7 * var(--u))/1.2 var(--fonte, sans-serif); color: #F4F4F2;
+  background: #101114; border: calc(.2 * var(--u)) solid #2A2D33; border-radius: 99px; padding: calc(.4 * var(--u)) calc(1.4 * var(--u)); }
+.contagem .ge-rio .ponto small { color: #3fa9f5; font-size: calc(1.3 * var(--u)); text-transform: uppercase; letter-spacing: .1em; }
+
+/* 9 · Farol: o facho gira e lampeja a cada segundo; o navio se aproxima; no zero, a buzina de nevoeiro. */
+.contagem .ge-far svg { width: calc(46 * var(--u)); }
+.contagem .ge-far .astro { fill: #F4F4F2; animation: ct-en-piscar 3s ease-in-out infinite; }
+.contagem .ge-far .agua { fill: #0b2340; }
+.contagem .ge-far .vaga { fill: none; stroke-width: 1.1; animation: ct-ge-vaga 2.4s linear infinite; }
+.contagem .ge-far .vaga.v1 { stroke: #1f4d7a; } .contagem .ge-far .vaga.v2 { stroke: #2d6a9f; animation-duration: 3.4s; animation-direction: reverse; }
+@keyframes ct-ge-vaga { to { transform: translateX(-20px); } }
+.contagem .ge-far .rocha { fill: #121a26; }
+.contagem .ge-far .faixa-v { fill: #E8412C; } .contagem .ge-far .faixa-b { fill: #F4F4F2; }
+.contagem .ge-far .galeria { fill: #2a2730; } .contagem .ge-far .teto { fill: #a3261b; }
+.contagem .ge-far .lanterna { fill: #FFE9A8; filter: drop-shadow(0 0 3px #FFE9A8); }
+.contagem .ge-far .facho { animation: ct-ge-facho 1s linear both; }
+@keyframes ct-ge-facho { 0% { transform: scaleX(1); } 25% { transform: scaleX(0); } 50% { transform: scaleX(-1); } 75% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
+.contagem .ge-far .clarao { fill: #FFF6D5; opacity: 0; transform-box: fill-box; transform-origin: center; animation: ct-ge-clarao 1s linear both; }
+@keyframes ct-ge-clarao { 0%, 15%, 38%, 100% { opacity: 0; transform: scale(.4); } 25% { opacity: .95; transform: scale(1.6); } }
+.contagem .ge-far .navio { transition: transform 1s ease-in-out; }
+.contagem .ge-far .balanco { animation: ct-ge-balanco 1.6s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: 50% 100%; }
+@keyframes ct-ge-balanco { from { transform: rotate(-3deg); } to { transform: rotate(3deg); } }
+.contagem .ge-far .casco { fill: #1b1d22; } .contagem .ge-far .ponte { fill: #2a2730; } .contagem .ge-far .janela { fill: #FFD100; }
+.contagem .ge-far .vapor { fill: #A0A4AB; opacity: 0; transform-box: fill-box; transform-origin: center; }
+.contagem.fim .ge-far .vapor { animation: ct-ge-fumo 1.4s ease-out var(--d) both; }
+
+/* 10 · Biomas do Brasil: os seis biomas e o Sistema Costeiro-Marinho (IBGE, 2019), um por segundo; no zero, todos juntos. */
+.contagem .ge-bio .janela { position: relative; width: calc(46 * var(--u)); max-width: 100%; aspect-ratio: 2 / 1; overflow: hidden; border-radius: var(--u);
+  box-shadow: 0 0 0 calc(.3 * var(--u)) #00A84F, 0 var(--u) calc(3 * var(--u)) #000a; background: #000; }
+.contagem .ge-bio .vista { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; transition: opacity .45s, clip-path .6s ease-in-out; }
+.contagem .ge-bio .vista.atual { opacity: 1; }
+.contagem.fim .ge-bio .vista { opacity: 1; clip-path: inset(0 calc(100% - (var(--k) + 1) * 100% / 7) 0 calc(var(--k) * 100% / 7)); }
+.contagem .ge-bio .nome { position: absolute; left: calc(1.4 * var(--u)); bottom: calc(1.1 * var(--u)); font: 900 calc(3.4 * var(--u))/1 var(--fonte, sans-serif); color: #fff;
+  text-shadow: 0 0 calc(1.2 * var(--u)) #000, 0 0 calc(.4 * var(--u)) #000; }
+.contagem .ge-bio .nome small { display: block; font: 700 calc(1.2 * var(--u))/1.4 var(--fonte, sans-serif); letter-spacing: .1em; text-transform: uppercase; color: #FFD100; }
+.contagem .ge-bio .nome.troca { animation: ct-ge-nome .45s ease-out both; }
+@keyframes ct-ge-nome { from { opacity: 0; transform: translateY(40%); } }
+.contagem .ge-bio .num { font-size: calc(9 * var(--u)); }
+.contagem .ge-bio .agua-anim { animation: ct-ge-vaga 3s linear infinite; }
+.contagem .ge-bio .ave { animation: ct-ge-ave 3s linear infinite; }
+@keyframes ct-ge-ave { from { transform: translateX(-30px); } to { transform: translateX(230px); } }
+.contagem .ge-bio .bico { animation: ct-ge-bico .3s steps(2) infinite; }
+@keyframes ct-ge-bico { 50% { transform: translateY(-.6px); } }
+
 @media (prefers-reduced-motion: reduce) {
   .contagem *, .contagem *::before, .contagem *::after { animation: none !important; }
   .contagem .nat .caule, .contagem .arte .num { stroke-dashoffset: 0; }
   .contagem .arte .num { fill-opacity: 1; }
 }`;
 
-// As fontes das cenas de Entretenimento (quadrinhos, claquete, fliperama e nave, mangá), além da Overpass das páginas;
-// a japonesa vem só com os caracteres usados (numerais e ドン).
+// As fontes das cenas de Entretenimento (quadrinhos, claquete, fliperama e nave, mangá) e de Geografia (idiomas), além
+// da Overpass das páginas; as japonesas e a chinesa vêm só com os caracteres usados.
 const FONTES = [
   "https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Press+Start+2P&display=swap",
   "https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap&text=0123456789%E4%B8%83%E5%85%AD%E4%BA%94%E5%9B%9B%E4%B8%89%E4%BA%8C%E4%B8%80%E9%9B%B6%E3%83%89%E3%83%B3%21",
+  // Geografia, cena dos idiomas: o russo, o árabe e o hindi; o japonês e o chinês só com os caracteres usados.
+  "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Noto+Sans+Arabic:wght@700&family=Noto+Sans+Devanagari:wght@700&display=swap",
+  "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Noto+Sans+SC:wght@700&display=swap&text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E4%BD%A0%E5%A5%BD",
 ];
 function instalarCss() {
   if (document.getElementById("css-contagem")) return;
@@ -1176,12 +1401,308 @@ const nave = {
   } };
 const ENTRETENIMENTO = [filme, claquete, pipoca, tv, vinil, violao, quadrinhos, manga, cartas, fliperama, nave];
 
+// ---- Geografia (2026-11-26): o globo e dez cenas com som próprio (arena-suspense.js, "Geografia|1" a "|10"),
+// sorteadas como as de História. depois(caixa, s) não depende do segundo anterior.
+const badgeGeo = `<span class="badge" style="background:#00A84F;color:#000">Geografia</span>`;
+
+// ---- 1. Painel do aeroporto
+const VOOS = [["LISBOA", "A12"], ["TÓQUIO", "B03"], ["CAIRO", "C21"], ["OTTAWA", "A08"], ["CANBERRA", "D15"], ["NAIRÓBI", "B06"],
+              ["BOGOTÁ", "C19"], ["OSLO", "A02"], ["HANÓI", "D11"], ["LIMA", "B17"]];
+const LARG = [10, 3, 10];  // destino, portão, situação (letras de cada coluna)
+// As quatro linhas do painel no segundo s: o voo de cima embarca; no zero, embarca a pergunta.
+function linhasPainel(s) {
+  const i = 7 - s;
+  return [0, 1, 2, 3].map(r => {
+    const [dest, portao] = s === 0 && r === 0 ? ["PERGUNTA", "M02"] : VOOS[Math.min(VOOS.length - 1, s === 0 ? i + r - 1 : i + r)];
+    return [dest, portao, r === 0 ? "EMBARQUE" : r === 1 ? "CONFIRMADO" : "NO HORÁRIO"];
+  });
+}
+const celulas = (txt, n) => [...txt.padEnd(n, " ").slice(0, n)].map(c => `<i class="cel">${c === " " ? "&nbsp;" : c}</i>`).join("");
+const AVIAO = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg>`;
+const LETRAS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+function virar(cel, final, atraso) {
+  const alvo = final === " " ? " " : final, passos = 2 + Math.floor(Math.random() * 4);
+  const bater = ch => { cel.textContent = ch; cel.classList.toggle("va"); cel.classList.toggle("vb", !cel.classList.contains("va")); };
+  for (let k = 0; k < passos; k++) setTimeout(() => bater(LETRAS[Math.floor(Math.random() * LETRAS.length)]), atraso + k * 45);
+  setTimeout(() => bater(alvo === " " ? " " : alvo), atraso + passos * 45);
+}
+const aeroporto = {
+  html: s => `<div class="cena ge ge-aero">${badgeGeo}${rot}<div class="painel">
+      <div class="topo-painel">${AVIAO}<b>PARTIDAS</b><small>Embarque<br>em</small><div class="placa"><div class="num">${s}</div></div></div>
+      <div class="cab"><span>DESTINO</span><span>PORTÃO</span><span>SITUAÇÃO</span></div>
+      ${linhasPainel(s).map((l, r) => `<div class="linha-voo${r === 0 ? " embarque" : ""}">${l.map((t, c) => `<span class="campo${c === 2 ? " situacao" : ""}">${celulas(t, LARG[c])}</span>`).join("")}</div>`).join("")}
+    </div></div>`,
+  depois: (c, s) => {
+    linhasPainel(s).forEach((l, r) => {
+      const campos = c.querySelectorAll(".linha-voo")[r].querySelectorAll(".campo");
+      l.forEach((t, col) => [...t.padEnd(LARG[col], " ")].forEach((ch, j) => {
+        const cel = campos[col].children[j], atual = cel.textContent === " " ? " " : cel.textContent;
+        if (atual !== ch) virar(cel, ch, (col * 6 + j) * 9);
+      }));
+    });
+  },
+};
+
+// ---- 2. Bússola
+const ANG_BUS = { 7: 90, 6: 225, 5: 405, 4: 270, 3: 135, 2: 315, 1: 180, 0: 360 };  // sempre pelo caminho mais curto
+const RUMO = { 7: "Leste", 6: "Sudoeste", 5: "Nordeste", 4: "Oeste", 3: "Sudeste", 2: "Noroeste", 1: "Sul", 0: "Norte!" };
+const rumo = s => `${RUMO[s]} <small>${ANG_BUS[s] % 360}°</small>`;
+const bussolaSvg = s => {
+  const marcas = Array.from({ length: 36 }, (_, k) => { const a = k * Math.PI / 18, r1 = k % 9 === 0 ? 41 : k % 3 === 0 ? 43 : 45;
+    return `<line class="marca${k % 3 === 0 ? " forte" : ""}" x1="${f1(r1 * Math.sin(a))}" y1="${f1(-r1 * Math.cos(a))}" x2="${f1(47 * Math.sin(a))}" y2="${f1(-47 * Math.cos(a))}"/>`; }).join("");
+  const letras = [["N", 0, " n"], ["L", 90, ""], ["S", 180, ""], ["O", 270, ""], ["NE", 45, " p"], ["SE", 135, " p"], ["SO", 225, " p"], ["NO", 315, " p"]]
+    .map(([t, a, c]) => { const r = c ? 30 : 35, rad = a * Math.PI / 180;
+      return `<text class="letra${c}" x="${f1(r * Math.sin(rad))}" y="${f1(-r * Math.cos(rad))}">${t}</text>`; }).join("");
+  const ponta = (a, r, cls) => { const rad = a * Math.PI / 180, w = r > 20 ? 5 : 3.4, e = (a - 90) * Math.PI / 180, d = (a + 90) * Math.PI / 180;
+    const p = [r * Math.sin(rad), -r * Math.cos(rad)], l = [w * Math.sin(e), -w * Math.cos(e)], q = [w * Math.sin(d), -w * Math.cos(d)];
+    return `<path class="rosa-a" d="M0 0 L${f1(p[0])} ${f1(p[1])} L${f1(l[0])} ${f1(l[1])} Z"/><path class="rosa-b" d="M0 0 L${f1(p[0])} ${f1(p[1])} L${f1(q[0])} ${f1(q[1])} Z"/>`; };
+  const rosa = [45, 135, 225, 315].map(a => ponta(a, 18)).join("") + [0, 90, 180, 270].map(a => ponta(a, 26)).join("");
+  return `<svg viewBox="-60 -60 120 120" aria-hidden="true"><circle class="aro1" r="57"/><circle class="aro2" r="53"/><circle class="face" r="48"/>
+    ${marcas}${rosa}${letras}
+    <g class="agulha" style="transform: rotate(${ANG_BUS[s]}deg)"><path class="norte" d="M0 -40 L4.6 0 L-4.6 0 Z"/><path class="sul" d="M0 40 L4.6 0 L-4.6 0 Z"/></g>
+    <circle class="pino" r="3.4"/><ellipse class="vidro" cx="-14" cy="-22" rx="22" ry="11" transform="rotate(-30 -14 -22)"/></svg>`;
+};
+const bussola = {
+  html: s => `<div class="cena ge ge-bus">${badgeGeo}${rot}<div class="linha">${bussolaSvg(s)}<div class="numbox"><div class="num">${s}</div><div class="rumo">${rumo(s)}</div></div></div></div>`,
+  depois: (c, s) => { c.querySelector(".agulha").style.transform = `rotate(${ANG_BUS[s]}deg)`; c.querySelector(".rumo").innerHTML = rumo(s); },
+};
+
+// ---- 3. Monumentos à noite
+const MON = [["Torre Eiffel", "Paris"], ["Big Ben", "Londres"], ["Torre de Pisa", "Pisa"], ["Taj Mahal", "Agra"], ["Cristo Redentor", "Rio de Janeiro"],
+             ["Ópera de Sydney", "Sydney"], ["Pirâmides de Gizé", "Gizé"]];
+const facho = x => `<polygon class="facho" points="${x - 3},104 ${x + 3},104 ${x + 15},26 ${x - 15},26"/>`;
+const MONUMENTOS = [
+  `${facho(18)}<path class="sil" fill-rule="evenodd" d="M8 102 L14.5 72 L16.5 52 L17.5 30 L18 21 L18.5 30 L19.5 52 L21.5 72 L28 102 Z M12 102 Q18 89 24 102 Z"/><rect class="sil" x="12.6" y="71" width="10.8" height="1.6"/><rect class="sil" x="15.4" y="51" width="5.2" height="1.4"/>`,
+  `${facho(44)}<rect class="sil" x="39.5" y="50" width="9" height="52"/><rect class="sil" x="38.5" y="44" width="11" height="12"/><polygon class="sil" points="38.5,44 44,26 49.5,44"/><circle class="det relogio" cx="44" cy="50" r="3.2"/>`,
+  `${facho(68)}<g transform="rotate(5 68 102)"><rect class="sil" x="62" y="52" width="12" height="50" rx="1.5"/><rect class="sil" x="64" y="45" width="8" height="8" rx="1"/>${[60, 68, 76, 84, 92].map(y => `<rect class="det" x="62" y="${y}" width="12" height=".9"/>`).join("")}</g>`,
+  `${facho(100)}<rect class="sil" x="84" y="92" width="32" height="10"/><rect class="sil" x="89" y="71" width="22" height="22"/><path class="det" d="M96 92 V82 Q100 76 104 82 V92 Z"/>
+     <path class="sil" d="M91 72 C91 60 97 54 100 48 C103 54 109 60 109 72 Z"/><rect class="sil" x="99.5" y="42" width="1" height="7"/>
+     <path class="sil" d="M86 72 C86 67 88.5 65 89.5 63 C90.5 65 93 67 93 72 Z"/><path class="sil" d="M107 72 C107 67 109.5 65 110.5 63 C111.5 65 114 67 114 72 Z"/>
+     <rect class="sil" x="80" y="62" width="2.6" height="40"/><rect class="sil" x="117.4" y="62" width="2.6" height="40"/><circle class="sil" cx="81.3" cy="61" r="1.8"/><circle class="sil" cx="118.7" cy="61" r="1.8"/>`,
+  `${facho(140)}<path class="morro" d="M120 102 Q130 82 140 77 Q150 82 160 102 Z"/><rect class="sil" x="137.8" y="73.6" width="4.4" height="3.6"/>
+     <path class="sil" d="M137.3 74 L138.4 56.5 L141.6 56.5 L142.7 74 Z"/><path class="sil" d="M129.5 56.4 Q140 54 150.5 56.4 L150.5 58.3 Q140 56.4 129.5 58.3 Z"/><circle class="sil" cx="140" cy="53" r="1.9"/>`,
+  `${facho(177)}<rect class="sil" x="161" y="96" width="34" height="6"/><path class="sil" d="M164 96 Q166 80 176 73 Q172 84 172 96 Z"/><path class="sil" d="M171 96 Q174 78 187 71 Q181 84 180 96 Z"/><path class="sil" d="M179 96 Q183 82 194 79 Q189 88 188 96 Z"/>`,
+  `${facho(211)}<path class="sil" d="M188 102 L196 90 L204 102 Z"/><path class="sil" d="M198 102 L211 82 L224 102 Z"/><path class="det" d="M211 82 L224 102 L216 102 Z"/>`,
+];
+const FOGOS = [[46, 30, "#FFD100"], [112, 22, "#E8412C"], [178, 32, "#00A84F"], [84, 42, "#3fa9f5"]].map(([x, y, cor], b) =>
+  Array.from({ length: 14 }, (_, k) => { const a = k * Math.PI / 7, r = 13 + (k % 2) * 4;
+    return `<circle class="faisca" cx="${x}" cy="${y}" r="1.1" fill="${cor}" style="--dx:${f1(Math.cos(a) * r)}px;--dy:${f1(Math.sin(a) * r)}px;--d:${(.15 + b * .28).toFixed(2)}s"/>`; }).join("")).join("");
+const ESTRELAS_NOITE = Array.from({ length: 26 }, (_, k) => { const r = aleatorio(k + 40);
+  return `<circle class="estrela" cx="${f1(r() * 226)}" cy="${f1(r() * 60)}" r="${f1(.3 + r() * .5)}" style="animation-delay:${f1(-r() * 2.4)}s"/>`; }).join("");
+const ondeMon = s => s > 0 ? `<b>${MON[7 - s][1]}</b> · ${MON[7 - s][0]}` : "<b>Fogos!</b> · sete cidades, sete monumentos";
+const monumentos = {
+  html: s => `<div class="cena ge ge-mon">${badgeGeo}${rot}<div class="num">${s}</div><svg viewBox="0 0 228 112" aria-hidden="true">
+      <defs><linearGradient id="ct-ge-noite" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#070d22"/><stop offset="1" stop-color="#1d2b55"/></linearGradient>
+        <linearGradient id="ct-ge-holofote" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#F2C46B" stop-opacity=".42"/><stop offset="1" stop-color="#F2C46B" stop-opacity="0"/></linearGradient></defs>
+      <rect width="228" height="112" rx="4" fill="url(#ct-ge-noite)"/>${ESTRELAS_NOITE}
+      <circle cx="206" cy="16" r="6" fill="#F1E6D0"/><circle cx="209" cy="14" r="5.4" fill="#0b1430"/>
+      ${MONUMENTOS.map((m, k) => `<g class="mon${k < 8 - s - (s ? 0 : 1) ? " acesa" : ""}${k === 5 ? " branca" : ""}" data-k="${k}">${m}</g>`).join("")}
+      <rect class="chao" x="0" y="102" width="228" height="10" rx="2"/>${FOGOS}</svg><div class="onde">${ondeMon(s)}</div></div>`,
+  depois: (c, s) => { c.querySelectorAll(".mon").forEach(g => g.classList.toggle("acesa", +g.dataset.k < (s ? 8 - s : 7))); c.querySelector(".onde").innerHTML = ondeMon(s); },
+};
+
+// ---- 4. Bandeiras
+const BANDEIRAS = {
+  japao: (w, h) => `<rect width="${w}" height="${h}" fill="#fff"/><circle cx="${w / 2}" cy="${h / 2}" r="${f1(h * .3)}" fill="#BC002D"/>`,
+  nigeria: (w, h) => `<rect width="${w}" height="${h}" fill="#fff"/><rect width="${f1(w / 3)}" height="${h}" fill="#008751"/><rect x="${f1(w * 2 / 3)}" width="${f1(w / 3)}" height="${h}" fill="#008751"/>`,
+  italia: (w, h) => `<rect width="${w}" height="${h}" fill="#fff"/><rect width="${f1(w / 3)}" height="${h}" fill="#009246"/><rect x="${f1(w * 2 / 3)}" width="${f1(w / 3)}" height="${h}" fill="#CE2B37"/>`,
+  colombia: (w, h) => `<rect width="${w}" height="${h / 2}" fill="#FCD116"/><rect y="${h / 2}" width="${w}" height="${h / 4}" fill="#003893"/><rect y="${h * .75}" width="${w}" height="${h / 4}" fill="#CE1126"/>`,
+  alemanha: (w, h) => `<rect width="${w}" height="${f1(h / 3)}" fill="#000"/><rect y="${f1(h / 3)}" width="${w}" height="${f1(h / 3)}" fill="#DD0000"/><rect y="${f1(h * 2 / 3)}" width="${w}" height="${f1(h / 3)}" fill="#FFCE00"/>`,
+  franca: (w, h) => `<rect width="${w}" height="${h}" fill="#fff"/><rect width="${f1(w / 3)}" height="${h}" fill="#002395"/><rect x="${f1(w * 2 / 3)}" width="${f1(w / 3)}" height="${h}" fill="#ED2939"/>`,
+  // O Brasil, simplificado: losango a 1,7 módulo das bordas, círculo de raio 3,5 módulos, faixa branca em arco e algumas estrelas.
+  brasil: (w, h) => { const m = w / 20;
+    return `<defs><clipPath id="ct-ge-esfera"><circle cx="${f1(10 * m)}" cy="${f1(7 * m)}" r="${f1(3.5 * m)}"/></clipPath></defs>
+      <rect width="${w}" height="${h}" fill="#009C3B"/><polygon points="${f1(1.7 * m)},${f1(7 * m)} ${f1(10 * m)},${f1(1.7 * m)} ${f1(18.3 * m)},${f1(7 * m)} ${f1(10 * m)},${f1(12.3 * m)}" fill="#FFDF00"/>
+      <circle cx="${f1(10 * m)}" cy="${f1(7 * m)}" r="${f1(3.5 * m)}" fill="#002776"/>
+      <g clip-path="url(#ct-ge-esfera)"><circle cx="${f1(11.9 * m)}" cy="${f1(16.35 * m)}" r="${f1(10.05 * m)}" fill="none" stroke="#fff" stroke-width="${f1(.55 * m)}"/>
+      ${[[9, 8.6], [10.4, 9.2], [11.6, 8.4], [8.2, 9.6], [10, 10.1], [12.2, 9.5], [9.6, 9.6]].map(([x, y]) => `<circle cx="${f1(x * m)}" cy="${f1(y * m)}" r="${f1(.16 * m)}" fill="#fff"/>`).join("")}</g>`; },
+};
+const MASTROS = [["japao", "Japão"], ["nigeria", "Nigéria"], ["italia", "Itália"], ["brasil", "Brasil"], ["colombia", "Colômbia"], ["alemanha", "Alemanha"], ["franca", "França"]];
+const ORDEM_BAND = [0, 6, 1, 5, 2, 4, 3];  // de fora para dentro; o Brasil, no meio, no 1
+const hasteadas = s => s > 0 ? ORDEM_BAND.slice(0, 8 - s) : ORDEM_BAND;
+const CONFETE = Array.from({ length: 26 }, (_, k) => { const r = aleatorio(k + 7);
+  return `<rect class="confete" x="${f1(20 + r() * 184)}" y="${f1(-4 - r() * 10)}" width="2" height="1.2" fill="${["#009C3B", "#FFDF00", "#002776", "#fff"][k % 4]}" style="--dx:${f1(r() * 30 - 15)}px;--d:${f1(r() * .5)}s"/>`; }).join("");
+const bandeiras = {
+  html: s => { const h = hasteadas(s);
+    return `<div class="cena ge ge-band">${badgeGeo}${rot}<div class="num">${s}</div><svg viewBox="0 0 224 102" aria-hidden="true">
+      <rect class="chao" x="0" y="88" width="224" height="3" rx="1.5"/>
+      ${MASTROS.map(([id, nome], k) => { const x = 16 + k * 32, br = id === "brasil", topo = br ? 8 : 30, [w, hh] = br ? [30, 21] : [26, 17.3];
+        return `<g class="mastro${br ? " brasil" : ""}${h.includes(k) ? " hasteada" : ""}" data-k="${k}"><line class="haste" x1="${x}" y1="${topo}" x2="${x}" y2="89"/>
+          <circle class="ponta" cx="${x}" cy="${topo - 1.5}" r="1.6"/><g class="sobe"><g transform="translate(${x + .6} ${topo + 1})"><g class="tremula">${BANDEIRAS[id](w, hh)}</g></g></g>
+          <text class="pais" x="${x}" y="98.5">${nome}</text></g>`; }).join("")}${CONFETE}</svg></div>`; },
+  depois: (c, s) => { const h = hasteadas(s); c.querySelectorAll(".mastro").forEach(g => g.classList.toggle("hasteada", h.includes(+g.dataset.k))); },
+};
+
+// ---- 5. Idiomas
+const OLAS = { 7: ["こんにちは", "japonês", "oiia", 250, -.15], 6: ["Jambo", "suaíli", "ao", 140, .1], 5: ["مرحبا", "árabe", "aaa", 175, .05],
+               4: ["Привет", "russo", "ie", 130, -.1], 3: ["नमस्ते", "hindi", "aae", 215, .12], 2: ["你好", "mandarim", "ia", 255, -.25],
+               1: ["Bonjour", "francês", "ou", 165, .2], 0: ["Olá!", "português", "oa", 205, .35] };
+const LINGUA = { 7: "ja", 6: "sw", 5: "ar", 4: "ru", 3: "hi", 2: "zh", 1: "fr", 0: "pt" };  // para a fonte certa de cada escrita
+const POS_IDI = Array.from({ length: 7 }, (_, k) => { const a = -Math.PI / 2 + k * 2 * Math.PI / 7; return [50 + 39 * Math.cos(a), 50 + 38 * Math.sin(a)]; });
+const idiomas = {
+  html: s => `<div class="cena ge ge-idi">${badgeGeo}${rot}<div class="roda">
+      <div class="globinho"><svg viewBox="-50 -50 100 100" aria-hidden="true"><circle class="mar" r="46"/><ellipse class="mer" rx="20" ry="46"/><ellipse class="mer" rx="38" ry="46"/>
+        <line class="mer" x1="-46" x2="46" y1="0" y2="0"/><line class="mer" x1="-40" x2="40" y1="-22" y2="-22"/><line class="mer" x1="-40" x2="40" y1="22" y2="22"/></svg>
+        <div class="num">${s}</div></div>
+      ${POS_IDI.map(([x, y], k) => { const [txt, lingua] = OLAS[7 - k];
+        return `<div class="balao${k < 8 - s && s > 0 || s === 0 ? " dito" : ""}${s > 0 && k === 7 - s ? " agora" : ""}" data-k="${k}" lang="${LINGUA[7 - k]}"${LINGUA[7 - k] === "ar" ? ' dir="rtl"' : ""} style="left:${f1(x)}%;top:${f1(y)}%;--d:${(k * .07).toFixed(2)}s"><b>${txt}</b><small lang="pt" dir="ltr">${lingua}</small></div>`; }).join("")}
+    </div><div class="grito">Olá!</div></div>`,
+  depois: (c, s) => c.querySelectorAll(".balao").forEach(b => { const k = +b.dataset.k;
+    b.classList.toggle("dito", s === 0 || k < 8 - s); b.classList.toggle("agora", s > 0 && k === 7 - s); }),
+};
+
+// ---- 6. Vulcão
+const FUMOS = Array.from({ length: 6 }, (_, k) => `<circle class="fumo" cx="${96 + (k % 3) * 4}" cy="33" r="5" style="--d:${f1(-k * .43)}s;--dx:${f1((k % 2 ? 1 : -1) * (4 + k * 2))}px"/>`).join("");
+const BOMBAS = Array.from({ length: 16 }, (_, k) => { const r = aleatorio(k + 3), lado = k % 2 ? 1 : -1;
+  return `<circle class="bomba" cx="100" cy="36" r="${f1(1.2 + r() * 1.4)}" fill="${["#FFB347", "#FF6A00", "#FFD100"][k % 3]}" style="--dx:${f1(lado * (10 + r() * 60))}px;--up:${f1(26 + r() * 30)}px;--d:${f1(r() * .35)}s"/>`; }).join("");
+const vulcao = {
+  html: s => `<div class="cena ge ge-vul">${badgeGeo}${rot}<div class="num">${s}</div><svg viewBox="0 0 200 116" aria-hidden="true" style="--brasa:${f1(.15 + (7 - s) * .12)}">
+      <defs><linearGradient id="ct-ge-crepusculo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1020"/><stop offset="1" stop-color="#4a1f18"/></linearGradient>
+        <radialGradient id="ct-ge-brasa"><stop offset="0" stop-color="#FF6A00" stop-opacity=".9"/><stop offset="1" stop-color="#FF6A00" stop-opacity="0"/></radialGradient></defs>
+      <rect width="200" height="116" rx="4" fill="url(#ct-ge-crepusculo)"/><circle class="brasa" cx="100" cy="36" r="44" fill="url(#ct-ge-brasa)"/>
+      <path class="serra" d="M0 116 L0 84 L26 70 L48 82 L70 66 L130 66 L150 76 L174 64 L200 78 L200 116 Z"/>
+      <path class="cone" d="M18 116 L80 42 Q86 35 92 37 L108 37 Q114 35 120 42 L182 116 Z"/>
+      <path class="estrato" d="M58 76 Q100 70 142 76 M44 94 Q100 86 156 94"/>
+      ${["M92 38 Q84 56 78 70 Q72 86 62 104", "M104 38 Q108 58 116 74 Q124 90 134 108", "M99 38 Q98 60 102 80 Q104 92 100 106"].map(d =>
+        `<path class="corrida" pathLength="1" d="${d}" style="stroke-dashoffset:${f1(s / 7)}"/>`).join("")}
+      <path class="jorro" d="M92 37 Q96 6 100 2 Q104 6 108 37 Z"/>
+      <ellipse class="cratera" cx="100" cy="37.5" rx="9" ry="2.4"/>${FUMOS}${BOMBAS}</svg><div class="grito">Erupção!</div></div>`,
+  depois: (c, s) => { c.querySelectorAll(".corrida").forEach(p => p.style.strokeDashoffset = f1(s / 7));
+                      c.querySelector("svg").style.setProperty("--brasa", f1(.15 + (7 - s) * .12)); },
+};
+
+// ---- 7. Everest
+const ROTA = [[52, 104], [70, 92], [88, 80], [104, 66], [118, 51], [126, 37], [133, 23], [138, 14]];
+const ALT = [["Acampamento-base", "5.364 m"], ["Acampamento 1", "6.065 m"], ["Acampamento 2", "6.400 m"], ["Acampamento 3", "7.162 m"],
+             ["Acampamento 4", "7.906 m"], ["A Varanda", "8.400 m"], ["Cume Sul", "8.749 m"], ["Cume do Everest", "8.849 m"]];
+const FLOCOS = Array.from({ length: 14 }, (_, k) => { const r = aleatorio(k + 70);
+  return `<circle class="floco" cx="${f1(60 + r() * 140)}" cy="${f1(6 + r() * 70)}" r="${f1(.5 + r() * .6)}" style="--d:${f1(-r() * 1.1)}s"/>`; }).join("");
+const ALPINISTA = `<g class="passo"><path d="M-.6 0 L0 -3 L.8 0" fill="none" stroke="#1b1d22" stroke-width=".7" stroke-linecap="round"/>
+  <rect x="-1.2" y="-6.2" width="2.4" height="3.4" rx=".8" fill="#E8412C"/><rect x="-2.3" y="-6" width="1.3" height="2.6" rx=".4" fill="#FFD100"/>
+  <circle cx=".1" cy="-7.2" r="1.1" fill="#F1E6D0"/><path d="M1 -5.4 L2.6 -3.4" stroke="#A0A4AB" stroke-width=".5"/></g>`;
+const everest = {
+  html: s => { const [x, y] = ROTA[7 - s];
+    return `<div class="cena ge ge-eve">${badgeGeo}${rot}<div class="num">${s}</div><svg viewBox="0 0 200 116" aria-hidden="true">
+      <defs><linearGradient id="ct-ge-altitude" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d3b66"/><stop offset="1" stop-color="#8ec5e8"/></linearGradient>
+        <clipPath id="ct-ge-quadro-eve"><rect width="200" height="116" rx="4"/></clipPath></defs>
+      <rect width="200" height="116" rx="4" fill="url(#ct-ge-altitude)"/>
+      <path class="longe" d="M0 116 L0 64 L24 48 L40 58 L62 36 L84 54 L100 44 L112 56 L130 62 L160 40 L180 50 L200 42 L200 116 Z"/>
+      <path class="neve" d="M56 42 L62 36 L68 42 L64 41 L62 44 L59 41 Z M154 45 L160 40 L166 45 L162 44 L160 47 Z"/>
+      <path class="rocha" d="M28 116 L92 58 L106 66 L138 14 L168 54 L200 70 L200 116 Z"/>
+      <path class="neve" d="M116 48 L138 14 L158 40 L150 38 L144 46 L137 37 L130 46 L123 41 Z"/><path class="sombra-neve" d="M138 14 L158 40 L150 38 L144 46 L140 30 Z"/>
+      <polyline class="rota" points="${ROTA.map(p => p.join(",")).join(" ")}"/>
+      ${ROTA.slice(0, 5).map(([a, b]) => `<path class="tenda" d="M${a - 3} ${b} L${a} ${b - 3.5} L${a + 3} ${b} Z"/>`).join("")}
+      ${ROTA.slice(5, 7).map(([a, b]) => `<circle class="marco" cx="${a}" cy="${b}" r="1"/>`).join("")}
+      <g transform="translate(138 14)"><g class="bandeira"><line x1="0" y1="0" x2="0" y2="-9" stroke="#F4F4F2" stroke-width=".6"/><path d="M0 -9 L7 -7 L0 -5 Z" fill="#00A84F"/></g></g>
+      <g class="alpinista" style="transform: translate(${x}px, ${y}px)">${ALPINISTA}</g><g clip-path="url(#ct-ge-quadro-eve)">${FLOCOS}</g></svg>
+      <div class="altitude"><span>${ALT[7 - s][0]}</span><b>${ALT[7 - s][1]}</b></div></div>`; },
+  depois: (c, s) => { const [x, y] = ROTA[7 - s]; c.querySelector(".alpinista").style.transform = `translate(${x}px, ${y}px)`;
+                      c.querySelector(".altitude").innerHTML = `<span>${ALT[7 - s][0]}</span><b>${ALT[7 - s][1]}</b>`; },
+};
+
+// ---- 8. Rio São Francisco
+const PARADAS = [[36, 104, "Serra da Canastra (MG)", "nascente"], [44, 82, "Pirapora (MG)", ""], [62, 62, "Bom Jesus da Lapa (BA)", ""],
+                 [88, 36, "Juazeiro (BA) e Petrolina (PE)", ""], [122, 40, "Paulo Afonso (BA)", ""], [140, 52, "Piranhas (AL)", ""],
+                 [156, 64, "Penedo (AL)", ""], [170, 74, "Foz, no Atlântico", "entre Alagoas e Sergipe"]];
+const CURVAS = [[30, 96, 40, 92], [48, 72, 54, 70], [70, 50, 78, 40], [100, 28, 110, 36], [130, 44, 134, 46], [148, 54, 150, 60], [162, 68, 166, 70]];
+const trecho = k => { const [x0, y0] = PARADAS[k], [x1, y1] = PARADAS[k + 1], [a, b, c, d] = CURVAS[k]; return `M${x0} ${y0} C${a} ${b} ${c} ${d} ${x1} ${y1}`; };
+const pontoRio = s => { const [, , nome, extra] = PARADAS[7 - s]; return `<span>${nome}</span>${extra ? `<small>${extra}</small>` : ""}`; };
+const rio = {
+  html: s => `<div class="cena ge ge-rio">${badgeGeo}${rot}<div class="num">${s}</div><svg viewBox="0 0 200 116" aria-hidden="true">
+      <rect class="terra" width="200" height="116" rx="4"/><path class="seco" d="M34 20 C58 4 118 4 150 14 C164 28 158 44 140 48 C116 54 88 60 66 72 C50 60 36 42 34 20 Z"/><text class="sertao" x="104" y="18">Sertão</text>
+      <path class="mar" d="M168 0 L200 0 L200 116 L150 116 Q160 96 170 76 Q178 60 176 44 Q180 20 168 0 Z"/>
+      <g class="ondinha">${[20, 40, 60, 80, 100].map(y => `<path class="onda" d="M182 ${y} q3 -2 6 0 t6 0"/>`).join("")}</g>
+      <path class="serra" d="M22 112 L30 100 L36 106 L42 98 L50 112 Z"/>
+      ${PARADAS.slice(0, 7).map((_, k) => `<path class="leito" d="${trecho(k)}"/>`).join("")}
+      ${PARADAS.slice(0, 7).map((_, k) => `<path class="seg${classeTrecho(k, s)}" data-k="${k}" pathLength="1" d="${trecho(k)}"/>`).join("")}
+      ${PARADAS.map(([x, y, nome], k) => `<circle class="cidade${k <= 7 - s ? " vista" : ""}" data-k="${k}" cx="${x}" cy="${y}" r="${k === 7 ? 2.4 : 1.8}"/>
+        <text class="rotulo${k <= 7 - s ? " visto" : ""}" data-k="${k}" x="${x + (k === 7 ? -6 : 3)}" y="${y - 3}" ${k === 7 ? 'text-anchor="end"' : ""}>${nome.replace(/ \(.*/, "")}</text>`).join("")}
+      ${[0, 1, 2].map(k => `<circle class="anel" cx="170" cy="74" r="5" style="--d:${k * .4}s"/>`).join("")}
+    </svg><div class="ponto">${pontoRio(s)}</div><div class="grito">Foz!</div></div>`,
+  depois: (c, s) => {
+    c.querySelectorAll(".seg").forEach(p => { const k = +p.dataset.k; p.classList.remove("corre"); p.classList.toggle("cheio", s === 0 || k < 7 - s);
+      if (s > 0 && k === 7 - s) { void p.getBoundingClientRect(); p.classList.add("corre"); } });
+    c.querySelectorAll(".cidade, .rotulo").forEach(e => e.classList.toggle(e.tagName === "text" ? "visto" : "vista", +e.dataset.k <= 7 - s));
+    c.querySelector(".ponto").innerHTML = pontoRio(s);
+  },
+};
+// No segundo s corre o trecho 7 - s (da parada de agora até a seguinte); os anteriores ficam cheios.
+function classeTrecho(k, s) { return s === 0 || k < 7 - s ? " cheio" : k === 7 - s ? " corre" : ""; }
+
+// ---- 9. Farol
+const ONDAS = (y, cls) => `<path class="vaga ${cls}" d="M-40 ${y} ${Array.from({ length: 15 }, () => "q5 -2.2 10 0 t10 0").join(" ")}"/>`;
+const navioX = s => 186 - (7 - s) * 7;
+const farol = {
+  html: s => `<div class="cena ge ge-far">${badgeGeo}${rot}<div class="num">${s}</div><svg viewBox="0 0 200 116" aria-hidden="true">
+      <defs><linearGradient id="ct-ge-mar-noite" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#06122a"/><stop offset="1" stop-color="#173f66"/></linearGradient>
+        <linearGradient id="ct-ge-luz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFF6D5" stop-opacity=".75"/><stop offset="1" stop-color="#FFF6D5" stop-opacity="0"/></linearGradient>
+        <clipPath id="ct-ge-torre"><path d="M42 86 L45 36 L55 36 L58 86 Z"/></clipPath>
+        <clipPath id="ct-ge-quadro-far"><rect width="200" height="116" rx="4"/></clipPath></defs>
+      <rect width="200" height="116" rx="4" fill="url(#ct-ge-mar-noite)"/><g clip-path="url(#ct-ge-quadro-far)">
+      ${Array.from({ length: 16 }, (_, k) => { const r = aleatorio(k + 90); return `<circle class="astro" cx="${f1(r() * 200)}" cy="${f1(r() * 50)}" r="${f1(.3 + r() * .4)}" style="animation-delay:${f1(-r() * 3)}s"/>`; }).join("")}
+      <g transform="translate(50 30)"><g class="facho"><path d="M0 -2.5 L170 -18 L170 18 L0 2.5 Z" fill="url(#ct-ge-luz)"/></g><circle class="clarao" r="7"/></g>
+      <rect class="agua" y="80" width="200" height="36"/>
+      <g class="navio" style="transform: translateX(${navioX(s)}px)"><g class="balanco"><path class="casco" d="M-10 84 L10 84 L7 89 L-7 89 Z"/><rect class="ponte" x="-4" y="79" width="7" height="5"/>
+        <rect class="janela" x="-2.6" y="80.4" width="1.4" height="1.2"/><rect class="janela" x="0" y="80.4" width="1.4" height="1.2"/><rect class="ponte" x="3.6" y="77" width="1.6" height="7"/>
+        ${[0, 1, 2].map(k => `<circle class="vapor" cx="4.4" cy="75" r="1.6" style="--d:${k * .15}s;--dx:${-3 - k * 2}px"/>`).join("")}</g></g>
+      <path class="rocha" d="M20 116 L26 92 L38 84 L62 84 L74 94 L82 116 Z"/>
+      <g clip-path="url(#ct-ge-torre)">${[36, 46, 56, 66, 76].map((y, k) => `<rect class="${k % 2 ? "faixa-b" : "faixa-v"}" x="40" y="${y}" width="20" height="10"/>`).join("")}</g>
+      <rect class="galeria" x="42" y="34" width="16" height="2.4" rx=".6"/><rect class="lanterna" x="45.5" y="26.5" width="9" height="7.5" rx="1"/>
+      <path class="teto" d="M44 27 L50 20 L56 27 Z"/><rect class="galeria" x="48.4" y="78" width="3.2" height="8" rx="1.4"/>
+      ${ONDAS(90, "v1")}${ONDAS(100, "v2")}${ONDAS(110, "v1")}</g></svg></div>`,
+  depois: (c, s) => { reinicia(c.querySelector(".facho")); reinicia(c.querySelector(".clarao")); c.querySelector(".navio").style.transform = `translateX(${navioX(s)}px)`; },
+};
+
+// ---- 10. Biomas do Brasil
+const VISTAS = [
+  ["Amazônia", "bioma 1 de 6", `<rect width="200" height="100" fill="#a9d8c8"/><path d="M0 70 L200 70 L200 100 L0 100 Z" fill="#a87b44"/><path d="M0 84 Q60 78 100 84 T200 82 L200 100 L0 100 Z" fill="#2a1f14"/>
+     ${Array.from({ length: 16 }, (_, k) => `<circle cx="${k * 13 + 4}" cy="${56 + (k % 3) * 3}" r="${12 + (k % 4) * 2}" fill="#1f6b3a"/>`).join("")}
+     ${Array.from({ length: 13 }, (_, k) => `<circle cx="${k * 16 + 8}" cy="${64 + (k % 2) * 3}" r="${9 + (k % 3) * 2}" fill="#2f8f4e"/>`).join("")}
+     <path d="M126.5 62 L128.2 25 L130.8 25 L133.5 62 Z" fill="#5b4632"/><ellipse cx="117" cy="26" rx="12" ry="5" fill="#246f3e"/><ellipse cx="141" cy="25" rx="13" ry="5.4" fill="#2a7a44"/><ellipse cx="129" cy="21" rx="14" ry="5" fill="#1f6b3a"/>
+     <g class="ave"><path d="M20 30 l6 -3 l-2 3 l6 1 l-8 1 z" fill="#E8412C"/></g>`],
+  ["Cerrado", "bioma 2 de 6", `<rect width="200" height="100" fill="#8cc8f0"/><path d="M0 64 Q100 58 200 64 L200 100 L0 100 Z" fill="#c9b25a"/>
+     ${[[30, 70], [90, 66], [150, 72]].map(([x, y]) => `<path d="M${x} ${y} l2 -10 l-3 -6 l4 -6" fill="none" stroke="#5b3a22" stroke-width="2"/><ellipse cx="${x + 3}" cy="${y - 23}" rx="13" ry="6" fill="#6f8f3a"/>`).join("")}
+     <path d="M112 80 Q116 58 122 80 Z" fill="#b5653a"/><path d="M62 82 Q64 68 68 82 Z" fill="#b5653a"/>
+     ${Array.from({ length: 12 }, (_, k) => `<path d="M${k * 17 + 6} 90 l2 -6 l2 6" fill="none" stroke="#7a8f2a" stroke-width="1"/>`).join("")}`],
+  ["Caatinga", "bioma 3 de 6", `<rect width="200" height="100" fill="#f3dca6"/><circle cx="160" cy="22" r="11" fill="#FFB347"/><path d="M0 70 Q100 64 200 70 L200 100 L0 100 Z" fill="#c79a5a"/>
+     <path d="M20 86 l14 -3 l8 4 M120 92 l10 -4 l12 2" fill="none" stroke="#a87b44" stroke-width=".8"/>
+     ${[[50, 76, 30], [140, 78, 22]].map(([x, y, h]) => `<rect x="${x - 2.5}" y="${y - h}" width="5" height="${h}" rx="2.5" fill="#3f7d4a"/><path d="M${x - 2.5} ${y - h * .45} h-5 v-${h * .3}" fill="none" stroke="#3f7d4a" stroke-width="4" stroke-linecap="round"/><path d="M${x + 2.5} ${y - h * .6} h5 v-${h * .25}" fill="none" stroke="#3f7d4a" stroke-width="4" stroke-linecap="round"/>`).join("")}
+     ${[[96, 74], [176, 72], [18, 72]].map(([x, y]) => `<path d="M${x} ${y} l-4 -10 m4 10 l3 -12 m-3 12 l7 -8 m-9 -1 l-3 -4 m8 -6 l2 -4" fill="none" stroke="#7a6a5a" stroke-width="1"/>`).join("")}`],
+  ["Pantanal", "bioma 4 de 6", `<rect width="200" height="100" fill="#f6c48a"/><circle cx="40" cy="40" r="9" fill="#FFD100" opacity=".85"/><rect y="62" width="200" height="38" fill="#4f8fb0"/>
+     <g class="agua-anim">${[70, 80, 90].map(y => `<path d="M-20 ${y} q10 -2 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#7fb4cf" stroke-width=".8"/>`).join("")}</g>
+     <path d="M0 62 Q30 56 60 62 Z M120 62 Q160 54 200 62 Z" fill="#6a9a3a"/>${[150, 170, 186].map(x => `<rect x="${x}" y="42" width="1.4" height="16" fill="#5b4632"/><circle cx="${x + .7}" cy="42" r="4" fill="#4a7a2a"/>`).join("")}
+     <g transform="translate(96 46)"><path d="M0 28 L-2 12 M4 28 L3 12" stroke="#1b1d22" stroke-width="1"/><ellipse cx="1" cy="10" rx="7" ry="4.6" fill="#fff"/><path d="M5 8 Q8 0 6 -6" fill="none" stroke="#1b1d22" stroke-width="2.4"/>
+       <rect x="4.6" y="2" width="3" height="2.4" fill="#E8412C"/><circle cx="6" cy="-7" r="2" fill="#1b1d22"/><g class="bico"><path d="M7 -7 L17 -4 L7 -6 Z" fill="#1b1d22"/></g></g>`],
+  ["Mata Atlântica", "bioma 5 de 6", `<rect width="200" height="100" fill="#bfe0d4"/><path d="M0 100 L0 40 Q30 18 60 36 Q90 10 120 34 Q150 20 200 38 L200 100 Z" fill="#2f7d4a"/>
+     <path d="M0 100 L0 62 Q40 46 80 60 Q120 44 160 58 Q184 50 200 56 L200 100 Z" fill="#1f5e36"/><path d="M98 34 Q99 60 100 86" fill="none" stroke="#e8f4f8" stroke-width="2.2"/>
+     <rect x="0" y="48" width="200" height="6" fill="#fff" opacity=".25"/>
+     <g transform="translate(150 60)"><rect x="-1" y="0" width="2" height="30" fill="#5b4632"/>${[[-14, 6], [14, 6], [-10, 0], [10, 0], [-6, -5], [6, -5]].map(([dx, dy]) => `<path d="M0 ${dy + 10} Q${dx * .6} ${dy + 6} ${dx} ${dy}" fill="none" stroke="#1d4a2a" stroke-width="1.6"/><ellipse cx="${dx}" cy="${dy - 1}" rx="4" ry="1.8" fill="#1d4a2a"/>`).join("")}</g>`],
+  ["Pampa", "bioma 6 de 6", `<rect width="200" height="100" fill="#a9d6f5"/><path d="M0 70 Q50 60 100 68 T200 66 L200 100 L0 100 Z" fill="#7fb34a"/><path d="M0 84 Q60 76 120 84 T200 82 L200 100 L0 100 Z" fill="#6aa33a"/>
+     ${Array.from({ length: 9 }, (_, k) => `<rect x="${10 + k * 22}" y="78" width="1.4" height="10" fill="#6b4a2a"/>`).join("")}<path d="M10 81 H186 M10 85 H186" stroke="#6b4a2a" stroke-width=".4"/>
+     <rect x="138" y="52" width="2.4" height="18" fill="#5b4632"/><ellipse cx="139" cy="50" rx="14" ry="8" fill="#4f7d2a"/>
+     <g transform="translate(70 66)"><ellipse cx="0" cy="0" rx="7" ry="3.6" fill="#3a2a1a"/><rect x="5" y="-4" width="4" height="3" rx="1" fill="#3a2a1a"/>${[-5, -2, 2, 5].map(x => `<rect x="${x}" y="2" width="1" height="4" fill="#3a2a1a"/>`).join("")}</g>`],
+  ["Costeiro-Marinho", "sistema costeiro-marinho", `<rect width="200" height="100" fill="#8fd0f5"/><circle cx="170" cy="20" r="10" fill="#FFD100"/><rect y="50" width="200" height="50" fill="#1d78b5"/>
+     <g class="agua-anim">${[56, 64, 72].map(y => `<path d="M-20 ${y} q10 -2 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#5fb0e0" stroke-width=".9"/>`).join("")}</g>
+     <path d="M0 100 L0 76 Q60 70 120 82 Q160 88 200 84 L200 100 Z" fill="#f2d8a0"/>
+     <path d="M40 92 Q44 60 52 44" fill="none" stroke="#6b4a2a" stroke-width="2.4"/>${[[-14, 4], [12, 6], [-10, -4], [10, -6], [0, -8]].map(([dx, dy]) => `<path d="M52 44 q${dx / 2} ${dy - 4} ${dx} ${dy}" fill="none" stroke="#2f8f4e" stroke-width="2.4" stroke-linecap="round"/>`).join("")}`],
+];
+const nomeBioma = s => s > 0 ? `${VISTAS[7 - s][0]}<small>${VISTAS[7 - s][1]}</small>` : `Brasil<small>6 biomas e o sistema costeiro-marinho</small>`;
+const biomas = {
+  html: s => `<div class="cena ge ge-bio">${badgeGeo}${rot}<div class="num">${s}</div><div class="janela">
+      ${VISTAS.map(([, , d], k) => `<svg class="vista${s > 0 && k === 7 - s ? " atual" : ""}" data-k="${k}" style="--k:${k}" viewBox="0 0 200 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true">${d}</svg>`).join("")}
+      <div class="nome troca">${nomeBioma(s)}</div></div></div>`,
+  depois: (c, s) => { c.querySelectorAll(".vista").forEach(v => v.classList.toggle("atual", s > 0 && +v.dataset.k === 7 - s));
+                      const n = c.querySelector(".nome"); n.innerHTML = nomeBioma(s); repetir(n, "troca"); },
+};
+
+const GEOGRAFIA = [aeroporto, bussola, monumentos, bandeiras, idiomas, vulcao, everest, rio, farol, biomas];
+
 // Cada estilo: html(s, decorrido) monta a cena; texto(s) é o que vai no número (os romanos, na História); depois(caixa, s)
 // faz o que mais muda a cada segundo. "decorrido" (em segundos) acerta as animações que duram a contagem toda, para quem
 // a vê começar no meio (um celular que acabou de entrar).
 const ESTILOS = {
   "": { html: s => `<div class="cena gigante">${rot}<div class="num">${s}</div></div>` },
-  "Geografia": {
+  "Geografia": [{
     html: s => `<div class="cena geo">${badge("Geografia")}${rot}<div class="globo"><svg viewBox="-50 -50 100 100" aria-hidden="true">
       <circle class="mar" r="46"/>
       <line class="lat" x1="-35" x2="35" y1="-30" y2="-30"/><line class="lat" x1="-43.5" x2="43.5" y1="-15" y2="-15"/>
@@ -1189,7 +1710,7 @@ const ESTILOS = {
       <line class="lat" x1="-35" x2="35" y1="30" y2="30"/>
       ${[0, -1, -2, -3].map(d => `<ellipse class="mer" rx="46" ry="46" style="animation-delay:${d}s"/>`).join("")}
       <path class="pino" d="M24 -40 c-5 0 -8 4 -8 8 c0 6 8 13 8 13 s8 -7 8 -13 c0 -4 -3 -8 -8 -8z"/>
-    </svg><div class="num">${s}</div></div></div>` },
+    </svg><div class="num">${s}</div></div></div>` }, ...GEOGRAFIA],
   "História": HISTORIA,
   "Natureza": {
     html: s => `<div class="cena nat">${badge("Natureza")}<div class="linha"><div class="numbox">${rot}<div class="num">${s}</div></div>

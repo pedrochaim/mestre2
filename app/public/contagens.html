@@ -14,7 +14,7 @@
        (?ver=<tema>&cena=<n>). As miniaturas são a própria página em tela cheia, num iframe reduzido (?mini=1), para
        as medidas em vmin saírem como na TV ou no celular. Cada cena repete: 7 s de contagem, o zero, e de novo.
        Som (2026-11-24): só na tela cheia, o mesmo da tela grande do jogo (arena-suspense.js): o próprio da cena (as de
-       Esportes e as dez novas de Entretenimento) ou um dos dez sons de contagem, sorteado a cada volta. As miniaturas ficam mudas. */
+       Esportes e as dez novas de Geografia e de Entretenimento) ou um dos dez sons de contagem, sorteado a cada volta. As miniaturas ficam mudas. */
     :root { color-scheme: dark;
             --fundo: #000; --texto: #F4F4F2; --suave: #A0A4AB; --linha: #2A2D33; --cartao: #101114;
             --acento: #FFD100; --sobre-cor: #000;
@@ -105,7 +105,9 @@
   const $ = id => document.getElementById(id);
   const NOMES = {
     "História": ["Pirâmide", "Coliseu", "Relógio de sol", "Muralha da China", "Religiões do mundo"],
-    "Geografia": ["Globo"], "Natureza": ["Broto"], "Artes e Pensamento": ["Pincelada"], "Cotidiano": ["Despertador"],
+    "Geografia": ["Globo", "Painel do aeroporto", "Bússola", "Monumentos à noite", "Bandeiras", "Idiomas", "Vulcão", "Everest",
+                  "Rio São Francisco", "Farol", "Biomas do Brasil"],
+    "Natureza": ["Broto"], "Artes e Pensamento": ["Pincelada"], "Cotidiano": ["Despertador"],
     "Ciências": ["Átomo"],
     "Entretenimento": ["Começo do filme", "Claquete", "Pipoca", "TV de tubo", "Toca-discos", "Violão", "Quadrinhos", "Mangá",
                        "Cartas", "Fliperama", "Nave"],
@@ -203,8 +205,8 @@
   function galeria() {
     $("galeria").hidden = false;
     $("resumo").textContent = `As ${LISTA.length} animações da contagem da próxima pergunta, por tema. ` +
-      `Em História, Esportes e Entretenimento, o jogo sorteia uma das cenas. Clique numa para vê-la em tela cheia, com som ` +
-      `(as de Esportes e as de Entretenimento, menos o começo do filme, têm som próprio; as outras, um dos dez sons de ` +
+      `Em Geografia, História, Esportes e Entretenimento, o jogo sorteia uma das cenas. Clique numa para vê-la em tela cheia, com som ` +
+      `(as de Esportes e as novas de Geografia e Entretenimento têm som próprio; as outras, um dos dez sons de ` +
       `contagem, sorteado). No jogo, o som toca só na ` +
       `tela grande, com "Sons e suspense" ligado.`;
     const TAMANHO = { tv: [1280, 720], celular: [390, 780] };
@@ -226,7 +228,7 @@
       const card = (t, i, rotulo) => `<a class="card" href="${url(t, i)}">
         <div class="tela"><iframe src="${url(t, i, true)}" width="${w}" height="${h}" loading="lazy" tabindex="-1"
           title="${titulo(t)}: ${nome(t, i)}"></iframe></div><div class="nome">${rotulo}</div></a>`;
-      // Os temas de várias cenas (História, Esportes e Entretenimento) têm seção própria; os de uma cena só ficam juntos.
+      // Os temas de várias cenas (Geografia, História, Esportes e Entretenimento) têm seção própria; os de uma cena só ficam juntos.
       const varias = TEMAS.filter(t => CENAS[t] > 1), uma = TEMAS.filter(t => CENAS[t] === 1);
       $("secoes").innerHTML = varias.map(t => `<section><h2>${badge(t)}<span class="suave">${CENAS[t]} cenas, uma sorteada a cada
           contagem, sem olhar o subtema</span></h2><div class="grade">${Array.from({ length: CENAS[t] }, (_, i) =>
