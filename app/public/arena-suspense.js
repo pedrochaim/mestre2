@@ -397,7 +397,7 @@ const CONTAGENS = [
 ];
 
 // Sons próprios de algumas cenas da contagem (arena-contagem.js), no lugar do sorteado entre os dez de cima
-// (2026-11-24: as cinco de Esportes). A chave é a da cena ("tema|n", a de contagem.cena). segundo(s) toca a cada número,
+// (2026-11-24: as cinco de Esportes; 2026-11-26: as dez novas de Entretenimento). A chave é a da cena ("tema|n", a de contagem.cena). segundo(s) toca a cada número,
 // de 7 a 1, no ritmo da animação; zero(em) toca o fim da cena (gol, apito, buzina, aplauso, largada), marcado no 1 para
 // daqui a "em" segundos, porque no jogo o 0 mal aparece antes da pergunta seguinte.
 const chute = (vol, pan, em = 0) => { tom({ f: 150, f2: 55, dur: .12, vol, ataque: .003, em, pan });
@@ -413,6 +413,110 @@ function aplauso(em, dur = 1.8, n = 130) {
   }
 }
 const apito = (em, dur, vol = .3) => tom({ f: 2900, tipo: "sine", dur, vol, ataque: .01, em, sustenta: true, vibrato: { f: 32, prof: 260 } });
+// ---- Entretenimento (2026-11-26): os sons das dez cenas novas ("Entretenimento|1" a "|10"; a 0, o começo do filme, segue
+// com o som sorteado). Instrumentos usados por elas:
+// Corda dedilhada (Karplus-Strong): um ruído curto e suavizado, repetido no período da nota, perdendo os agudos.
+const cordasProntas = new Map();
+function corda(f, { em = 0, vol = .4, dur = 2.4, pan = 0, comEco = true } = {}) {
+  if (!pronto()) return;
+  const chave = Math.round(f * 100);
+  let b = cordasProntas.get(chave);
+  if (!b) {
+    const sr = audio.sampleRate, n = Math.floor(sr * 2.6), N = Math.max(2, Math.round(sr / f));
+    b = audio.createBuffer(1, n, sr);
+    const d = b.getChannelData(0);
+    for (let i = 0; i < N; i++) d[i] = Math.random() * 2 - 1;
+    for (let p = 0; p < 2; p++) for (let i = 1; i < N; i++) d[i] = .5 * (d[i] + d[i - 1]);
+    let m = 0; for (let i = 0; i < N; i++) m += d[i] / N;
+    let pico = 0; for (let i = 0; i < N; i++) { d[i] -= m; pico = Math.max(pico, Math.abs(d[i])); }
+    for (let i = 0; i < N; i++) d[i] /= pico || 1;
+    for (let i = N; i < n; i++) d[i] = .998 * .5 * (d[i - N] + (i - N - 1 >= 0 ? d[i - N - 1] : 0));
+    cordasProntas.set(chave, b);
+  }
+  const t = audio.currentTime + .01 + em, fonte = audio.createBufferSource(), lp = audio.createBiquadFilter(), g = audio.createGain();
+  fonte.buffer = b; lp.type = "lowpass"; lp.frequency.value = Math.min(6000, f * 14);
+  g.gain.setValueAtTime(vol, t); g.gain.setValueAtTime(vol, t + Math.max(.01, dur - .12)); g.gain.linearRampToValueAtTime(0, t + dur);
+  fonte.connect(lp).connect(g); saida(g, pan, comEco);
+  fonte.start(t); fonte.stop(t + dur + .02);
+}
+// O DJ arranhando o disco: um som "vocal" (serra num filtro de formante) com a altura indo e voltando duas vezes.
+function arranhao(em, vol = .22) {
+  if (!pronto()) return;
+  const t = audio.currentTime + .01 + em;
+  const o = audio.createOscillator(), bp = audio.createBiquadFilter(), g = audio.createGain();
+  o.type = "sawtooth"; bp.type = "bandpass"; bp.Q.value = 3;
+  o.frequency.setValueAtTime(140, t); bp.frequency.setValueAtTime(700, t);
+  for (const [dt, fo, fb] of [[.06, 420, 1900], [.11, 120, 600], [.16, 380, 1700], [.24, 90, 500]]) {
+    o.frequency.linearRampToValueAtTime(fo, t + dt); bp.frequency.linearRampToValueAtTime(fb, t + dt);
+  }
+  g.gain.setValueAtTime(.0001, t); g.gain.linearRampToValueAtTime(vol, t + .01); g.gain.linearRampToValueAtTime(vol * .15, t + .11);
+  g.gain.linearRampToValueAtTime(vol, t + .13); g.gain.linearRampToValueAtTime(0, t + .25);
+  o.connect(bp).connect(g); saida(g, 0, false);
+  o.start(t); o.stop(t + .27);
+  ruido({ dur: .24, vol: vol * .5, f: 1200, f2: 2600, q: 2, em });
+}
+// Buzina de DJ: três toques (curto, curto, longo), cada um subindo de leve no começo.
+function buzinaDj(em) {
+  if (!pronto()) return;
+  for (const [ini, len] of [[0, .12], [.18, .12], [.36, .7]]) {
+    const t = audio.currentTime + .01 + em + ini;
+    for (const f of [466, 471, 934]) {
+      const o = audio.createOscillator(), lp = audio.createBiquadFilter(), g = audio.createGain(), v = f > 900 ? .03 : .07;
+      o.type = "sawtooth"; o.frequency.setValueAtTime(f * .82, t); o.frequency.exponentialRampToValueAtTime(f, t + .06);
+      lp.type = "lowpass"; lp.frequency.value = 2600;
+      g.gain.setValueAtTime(.0001, t); g.gain.exponentialRampToValueAtTime(v, t + .01);
+      g.gain.setValueAtTime(v, t + len - .05); g.gain.exponentialRampToValueAtTime(.0001, t + len);
+      o.connect(lp).connect(g); saida(g, 0, true);
+      o.start(t); o.stop(t + len + .02);
+    }
+  }
+}
+const bumbo = (em, vol = .9) => { tom({ f: 130, f2: 42, dur: .3, vol, ataque: .003, em }); ruido({ dur: .015, vol: vol * .3, tipo: "highpass", f: 3000, em }); };
+const tarol = (em, vol = .4) => { ruido({ dur: .16, vol, f: 1900, q: .6, em }); tom({ f: 210, f2: 150, dur: .08, vol: vol * .6, em }); };
+const chimbal = (em, vol = .12) => ruido({ dur: .035, vol, tipo: "highpass", f: 7500, em });
+const prato = (em, vol = .3) => ruido({ dur: 1.6, vol, tipo: "highpass", f: 5200, em, comEco: true });
+const estalo = (em, k = 1) => { ruido({ dur: .045, vol: .75 * k, f: 2100, q: 1.1, ataque: .001, em, comEco: true });
+                                ruido({ dur: .018, vol: .45 * k, tipo: "highpass", f: 4500, ataque: .001, em });
+                                tom({ f: 340, f2: 150, dur: .06, vol: .4 * k, ataque: .001, em }); };
+// A câmera de cinema rodando: 24 quadros por segundo passando na janela e o motor ao fundo.
+const rolar = (dur, vol, em = 0) => { for (let k = 0; k < dur * 24; k++) ruido({ dur: .012, vol: vol * (k % 2 ? .8 : 1.2), f: 2600, q: 3, ataque: .001, em: em + k / 24 });
+                                      tom({ f: 72, tipo: "sawtooth", dur, vol: vol * .5, ataque: .05, sustenta: true, filtro: { f: 320 }, em }); };
+const estouro = (em, vol = .45) => { const f = 700 + Math.random() * 1500, pan = Math.random() * 1.2 - .6;
+  ruido({ dur: .028, vol, f, q: 5, ataque: .001, em, pan }); tom({ f: f * .6, f2: f * .3, dur: .03, vol: vol * .4, ataque: .001, em, pan }); };
+// Os canais da TV de tubo, segundo a segundo (os mesmos de CANAL_TV em arena-contagem.js), e o som de cada um.
+const CANAL_TV = { 7: "barras", 6: "chuvisco", 5: "teste", 4: "noticias", 3: "rolando", 2: "chuvisco", 1: "barras" };
+const tvClique = em => { ruido({ dur: .015, vol: .45, tipo: "highpass", f: 3200, ataque: .001, em }); tom({ f: 160, f2: 90, dur: .05, vol: .3, ataque: .002, em }); };
+const estatica = (em, dur, vol) => ruido({ dur, vol, f: 3200, q: .35, ataque: .005, em, sustenta: dur > .3 });
+const SOM_CANAL = {
+  barras: () => tom({ f: 1000, dur: .7, vol: .07, ataque: .01, em: .2, sustenta: true }),  // barras de cor e o tom de 1 kHz
+  chuvisco: () => estatica(.15, .85, .12),
+  teste: () => { tom({ f: 440, dur: .25, vol: .07, em: .22, sustenta: true }); tom({ f: 440, dur: .25, vol: .07, em: .6, sustenta: true }); },
+  rolando: () => { tom({ f: 60, tipo: "sawtooth", dur: .75, vol: .12, em: .18, sustenta: true, filtro: { f: 260 } });
+                   tom({ f: 120, tipo: "square", dur: .75, vol: .03, em: .18, sustenta: true, filtro: { f: 500 } }); },
+  noticias: () => [72, 79, 84].forEach((m, k) => tom({ f: nota(m), tipo: "sawtooth", dur: k === 2 ? .45 : .12, vol: .07, em: .2 + k * .13, filtro: { f: 2400 }, comEco: true })),
+};
+const chiadoVinil = () => { ruido({ dur: 1.02, vol: .018, tipo: "highpass", f: 6000, sustenta: true });
+                            for (let k = 0; k < 7; k++) ruido({ dur: .004, vol: .12 + Math.random() * .15, tipo: "highpass", f: 1800, ataque: .001, em: Math.random() }); };
+const CORDAS_HZ = [82.41, 110, 146.83, 196, 246.94, 329.63];  // as seis cordas soltas, da 6ª (Mi grave) à 1ª (Mi agudo)
+const vuuu = (em, dur, de, ate, vol = .3) => ruido({ dur, vol, f: de, f2: ate, q: 1.6, ataque: dur * .6, em });
+const soco = (k = 1) => { vuuu(0, .09, 500, 1800, .25 * k); tom({ f: 140, f2: 55, dur: .2, vol: .85 * k, ataque: .002, em: .06 });
+                          ruido({ dur: .08, vol: .35 * k, tipo: "lowpass", f: 900, em: .06 }); };
+const SOM_HQ = {  // uma onomatopeia por segundo, cada uma com o seu som
+  7: () => soco(.9),                                                                                                           // POW!
+  6: () => { soco(1.1); tom({ f: 90, f2: 45, dur: .3, vol: .6, em: .06 }); },                                                  // BAM!
+  5: () => vuuu(0, .22, 400, 3500),                                                                                             // ZÁS!
+  4: () => { tom({ f: 75, f2: 48, dur: .45, vol: .9, ataque: .004 }); ruido({ dur: .12, vol: .3, tipo: "lowpass", f: 400 }); }, // TUM!
+  3: () => { ruido({ dur: .06, vol: .8, tipo: "highpass", f: 1600, ataque: .001 }); ruido({ dur: .03, vol: .4, f: 900, em: .01 }); }, // PLAFT!
+  2: () => { soco(); ruido({ dur: .9, vol: .35, tipo: "highpass", f: 2500, f2: 6000, em: .04, comEco: true });                // CRÁS!
+             for (let k = 0; k < 6; k++) ruido({ dur: .05, vol: .25, f: 2000 + Math.random() * 3000, q: 4, em: .06 + k * .05 }); },
+  1: () => vuuu(0, .3, 300, 4800),                                                                                              // VUPT!
+};
+const taiko = (em, vol = .9) => { tom({ f: 118, f2: 72, dur: .45, vol, ataque: .004, em }); tom({ f: 236, f2: 150, dur: .12, vol: vol * .25, ataque: .002, em });
+                                  ruido({ dur: .06, vol: vol * .35, tipo: "lowpass", f: 600, em }); };
+const darCarta = (em = 0) => { ruido({ dur: .09, vol: .3, f: 3400, f2: 1600, q: .8, ataque: .015, em });
+                               ruido({ dur: .035, vol: .45, tipo: "lowpass", f: 1600, ataque: .002, em: em + .32 }); tom({ f: 170, f2: 110, dur: .04, vol: .18, em: em + .32 }); };
+const fichaCassino = em => { tom({ f: 3300, dur: .07, vol: .07, ataque: .001, em }); tom({ f: 4450, dur: .05, vol: .05, ataque: .001, em: em + .004 }); };
+const NOTA_FLIPERAMA = { 7: 69, 6: 67, 5: 65, 4: 64, 3: 62, 2: 60, 1: 59 };  // o bipe do "Continuar?" desce a cada segundo
 const SONS_CENAS = {
   // Futebol (2026-11-24, a sugestão 2 de cinco com torcida gravada): a hinchada do Independiente ao fundo, crescendo nos três
   // últimos segundos, e um chute a cada passe, a bola indo da esquerda para a direita. No zero, o chute a gol, a rede e a
@@ -469,6 +573,102 @@ const SONS_CENAS = {
                   tom({ f: 90, f2: 520, tipo: "sawtooth", dur: 1.3, vol: .22, ataque: .02, em, filtro: { f: 600, f2: 3200 }, comEco: true });
                   tom({ f: 180, f2: 1040, tipo: "sawtooth", dur: 1.1, vol: .07, ataque: .02, em, filtro: { f: 1200, f2: 4000 } });
                   ruido({ dur: .5, vol: .16, f: 2600, q: 8, em: em + .03 }); } },
+  // Entretenimento (2026-11-26). Claquete: o estalo a cada segundo, junto da haste batendo; nos três últimos, a câmera
+  // rodando. No zero, o estalo, a câmera e um golpe de orquestra ("Ação!").
+  "Entretenimento|1": {
+    nome: "Claquete e câmera rodando",
+    segundo: s => { estalo(.08, s <= 3 ? 1 : .8); if (s <= 3) rolar(1, .05 + .025 * (3 - s)); },
+    zero: em => { estalo(em + .02, 1.25); rolar(1.4, .1, em);
+                  [60, 64, 67, 72, 76].forEach(m => tom({ f: nota(m), tipo: "sawtooth", dur: 1.5, vol: .05, ataque: .04, em: em + .1, filtro: { f: 900, f2: 3400 }, comEco: true }));
+                  tom({ f: 98, f2: 82, dur: 1.1, vol: .7, ataque: .005, em: em + .1 }); } },
+  // Pipoca: 1 estouro no 7, 2 no 6… 7 no 1, nos mesmos instantes em que os grãos pulam, com o chiado da panela crescendo.
+  // No zero, uma rajada que vai rareando.
+  "Entretenimento|2": {
+    nome: "Pipoca estourando",
+    segundo: s => { const n = 8 - s; for (let j = 0; j < n; j++) estouro(j * .8 / n + .04, .35 + .02 * (7 - s));
+                    ruido({ dur: 1.02, vol: .02 + .006 * (7 - s), tipo: "highpass", f: 5500, sustenta: true }); },
+    zero: em => { for (let j = 0; j < 26; j++) { const x = j / 26; estouro(em + .02 + Math.pow(x, 1.4) * 1.4, .5 * (1 - x * .5)); } } },
+  // TV de tubo: o clique do botão, um estalo de estática e o som do canal (o tom de 1 kHz nas barras, o chuvisco, os bipes
+  // do padrão de teste, a vinheta do noticiário, o zumbido da imagem rolando). No zero, o tubo acende e toca a vinheta.
+  "Entretenimento|3": {
+    nome: "Troca de canal",
+    segundo: s => { tvClique(0); estatica(.01, .17, .25); SOM_CANAL[CANAL_TV[s]]?.(); },
+    zero: em => { tvClique(em); tom({ f: 55, f2: 38, dur: .45, vol: .6, em: em + .02 }); tom({ f: 140, dur: .7, vol: .12, em: em + .02, vibrato: { f: 9, prof: 18 } });
+                  [67, 72, 76, 79].forEach((m, k) => tom({ f: nota(m), tipo: "square", dur: k === 3 ? .6 : .14, vol: .07, em: em + .25 + k * .12, filtro: { f: 2800 }, comEco: true })); } },
+  // Toca-discos: batida a 120 por minuto (bumbo, chimbal, caixa) com o chiado do vinil; nos três últimos, o arranhão do DJ,
+  // e no 1 a virada da caixa. No zero, o bumbo, o prato, um grave longo e a buzina de DJ.
+  "Entretenimento|4": {
+    nome: "Batida, arranhão e buzina de DJ",
+    segundo: s => {
+      chiadoVinil(); bumbo(0, .8); chimbal(.25); chimbal(.75);
+      if (s === 1) { arranhao(.02); for (let k = 0; k < 4; k++) tarol(.5 + k * .125, .22 + k * .06); }
+      else { tarol(.5); if (s <= 3) { arranhao(.02); arranhao(.52); } }
+    },
+    zero: em => { bumbo(em, 1); prato(em, .3); tom({ f: 55, f2: 41, dur: 1.4, vol: .8, ataque: .01, em, sustenta: true }); buzinaDj(em + .05); } },
+  // Violão: afinando, as cordas soltas de 7 a 2 (Mi, Lá, Ré, Sol, Si, Mi), os harmônicos no 1 e, no zero, o acorde C7M(9)
+  // na batida da bossa nova (o acorde, a batida sincopada abafada e o polegar no baixo).
+  "Entretenimento|5": {
+    nome: "Afinação e acorde de bossa",
+    segundo: s => {
+      if (s >= 2) return corda(CORDAS_HZ[7 - s], { vol: .5, pan: -.3 + (7 - s) * .12 });
+      tom({ f: 164.81, dur: 2, vol: .16, comEco: true }); tom({ f: 659.26, dur: 1.8, vol: .14, comEco: true }); tom({ f: 1318.5, dur: .5, vol: .03 });
+    },
+    zero: em => {
+      const acorde = [130.81, 164.81, 246.94, 293.66, 392.0];  // C7M(9): dó, mi, si, ré, sol
+      acorde.forEach((f, k) => corda(f, { em: em + k * .025, vol: .32 }));
+      acorde.slice(1).forEach((f, k) => corda(f, { em: em + .375 + k * .012, vol: .16, dur: .35 }));
+      corda(98, { em: em + .5, vol: .38, dur: 1.2 });
+      acorde.slice(1).forEach((f, k) => corda(f, { em: em + .75 + k * .012, vol: .13, dur: .3 }));
+    } },
+  // Quadrinhos: o som de cada onomatopeia (POW, BAM, ZÁS, TUM, PLAFT, CRÁS, VUPT). No zero, a explosão do KABUM.
+  "Entretenimento|6": {
+    nome: "Onomatopeias",
+    segundo: s => SOM_HQ[s]?.(),
+    zero: em => { tom({ f: 70, f2: 28, dur: 1.4, vol: 1, ataque: .005, em }); ruido({ dur: 1.6, vol: .55, tipo: "lowpass", f: 1400, f2: 90, ataque: .005, em, comEco: true });
+                  for (let k = 0; k < 14; k++) ruido({ dur: .03, vol: .2, tipo: "highpass", f: 2500, em: em + .1 + Math.random() * .9 }); } },
+  // Mangá: um taikô por segundo, com o zum que entra no número seguinte; nos três últimos, o poder carregando, mais agudo a
+  // cada segundo. No zero, dois taikôs ("ドン") e o brilho da espada.
+  "Entretenimento|7": {
+    nome: "Taikô e brilho de espada",
+    segundo: s => {
+      taiko(0, s <= 3 ? 1 : .75);
+      ruido({ dur: .2, vol: .18, f: 500, f2: 3200, q: 1.2, ataque: .18, em: .78 });
+      if (s <= 3) { const f = 196 * Math.pow(1.26, 3 - s); tom({ f, f2: f * 1.25, tipo: "sawtooth", dur: 1, vol: .045, ataque: .1, filtro: { f: 900, f2: 2600 }, vibrato: { f: 11, prof: 5 } }); }
+    },
+    zero: em => { taiko(em, 1); taiko(em + .14, 1.1);
+                  [2637, 3520, 4699].forEach((f, k) => tom({ f, dur: 1.3 - k * .3, vol: .07, ataque: .002, em: em + .02, comEco: true }));
+                  ruido({ dur: .35, vol: .2, tipo: "highpass", f: 6000, em: em + .02 }); } },
+  // Cartas: a carta deslizando e o tapa na mesa quando ela pousa; fichas nos três últimos. No zero, o curinga com um brilho
+  // e uma pilha de fichas.
+  "Entretenimento|8": {
+    nome: "Cartas dadas e fichas",
+    segundo: s => { darCarta(0); if (s <= 3) { fichaCassino(.6); fichaCassino(.68); } },
+    zero: em => { darCarta(em); [84, 88, 91, 96].forEach((m, k) => tom({ f: nota(m), dur: .7, vol: .09, ataque: .003, em: em + .36 + k * .07, comEco: true }));
+                  for (let k = 0; k < 5; k++) fichaCassino(em + .55 + k * .06); } },
+  // Fliperama: o bipe do "Continuar?", mais grave a cada segundo, e dobrado nos três últimos. No zero, a ficha e a música do START.
+  "Entretenimento|9": {
+    nome: "Bipes de “Continuar?” e ficha",
+    segundo: s => { const f = nota(NOTA_FLIPERAMA[s] + 12);
+      tom({ f, tipo: "square", dur: .16, vol: .1 }); tom({ f: f / 2, tipo: "square", dur: .16, vol: .05 }); tom({ f, tipo: "square", dur: .12, vol: .03, em: .19 });
+      if (s <= 3) { tom({ f: f * 2, tipo: "square", dur: .08, vol: .06, em: .4 }); tom({ f: f * 2, tipo: "square", dur: .08, vol: .06, em: .52 }); } },
+    zero: em => { [84, 91, 96].forEach((m, k) => tom({ f: nota(m), tipo: "square", dur: .06, vol: .09, em: em + k * .05 }));
+      [[72, 0, .08], [76, .09, .08], [79, .18, .08], [84, .27, .08], [79, .36, .08], [84, .45, .4]].forEach(([m, t, d]) =>
+        tom({ f: nota(m), tipo: "square", dur: d, vol: .08, em: em + .22 + t }));
+      tom({ f: nota(48), tipo: "triangle", dur: .25, vol: .25, em: em + .22 }); tom({ f: nota(43), tipo: "triangle", dur: .45, vol: .25, em: em + .67 }); } },
+  // Nave: a nave se move, o laser aos 0,3 s e a explosão aos 0,45 s, como na animação; nos três últimos, o alarme. No zero,
+  // o salto de fase e a musiquinha da fase nova.
+  "Entretenimento|10": {
+    nome: "Laser, explosão e salto de fase",
+    segundo: s => {
+      tom({ f: 260, f2: 420, tipo: "square", dur: .07, vol: .04 });
+      tom({ f: 1900, f2: 240, tipo: "square", dur: .17, vol: .09, em: .3 }); tom({ f: 950, f2: 120, tipo: "sawtooth", dur: .17, vol: .04, em: .3 });
+      ruido({ dur: .38, vol: .4, tipo: "lowpass", f: 2200, f2: 160, ataque: .003, em: .45 }); tom({ f: 130, f2: 40, tipo: "square", dur: .3, vol: .08, em: .45 });
+      if (s <= 3) { tom({ f: 660, tipo: "triangle", dur: .12, vol: .06, em: .72 }); tom({ f: 520, tipo: "triangle", dur: .12, vol: .06, em: .86 }); }
+    },
+    zero: em => { tom({ f: 140, f2: 2600, tipo: "sawtooth", dur: .75, vol: .07, ataque: .02, em: em + .1, filtro: { f: 600, f2: 6000 } });
+      ruido({ dur: .7, vol: .15, tipo: "highpass", f: 800, f2: 7000, ataque: .3, em: em + .1 });
+      [[76, 0], [79, .1], [84, .2], [88, .3]].forEach(([m, t]) => tom({ f: nota(m), tipo: "square", dur: .09, vol: .08, em: em + .55 + t }));
+      tom({ f: nota(91), tipo: "square", dur: .45, vol: .08, em: em + .95 }); } },
 };
 let contagemDaVez = -1;
 // Uma contagem nova começou: sorteia o som dela (o das cenas sem som próprio) e devolve o nome dele.
