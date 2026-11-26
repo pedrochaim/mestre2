@@ -67,6 +67,27 @@ export function tipos(semente) {
 // Tema da pergunta na posição c: o tema da casa; "*" (qualquer tema) no Início e nas especiais; null na chegada.
 export const temaDaCasa = (c, semente) => c >= CHEGADA ? null : TEMAS.includes(tipos(semente)[c]) ? tipos(semente)[c] : "*";
 
+// Modo Arena: quanto cada jogador anda quando a resposta é revelada. jogadores: [{id, casa}] (a casa de antes da
+// revelação); acertaram: os ids de quem acertou. Quem acerta anda uma casa, ou duas ("dobro") se acertou sozinho
+// (2026-11-26) ou se está numa casa do tema da pergunta, menos quem está sozinho na frente de todos (quem empata na
+// frente anda duas; o Início e as casas ★ não têm tema). Se um ou mais acertam numa casa ★, todos os que estão à frente
+// do mais atrasado deles voltam uma casa (uma só, mesmo com vários), menos os que acertaram nas ★ ("recuo"); quem está à
+// frente e também acertou anda e volta. Se todos acertam (2026-11-26), ninguém anda nem volta ("todos"). As duas regras
+// de 2026-11-26 só valem com dois jogadores ou mais. saldo(id): as casas que o jogador anda (negativo, volta).
+export function andadasDaArena(jogadores, acertaram, tema, semente) {
+  const certo = new Set(acertaram), varios = jogadores.length > 1;
+  if (varios && jogadores.every(j => certo.has(j.id))) return { todos: true, dobro: [], recuo: [], saldo: () => 0 };
+  const sozinho = varios && jogadores.filter(j => certo.has(j.id)).length === 1;
+  const naFrente = j => jogadores.every(o => o.id === j.id || o.casa < j.casa);
+  const casaDoTema = j => Boolean(tema) && temaDaCasa(j.casa, semente) === tema && !naFrente(j);
+  const dobro = jogadores.filter(j => certo.has(j.id) && (sozinho || casaDoTema(j))).map(j => j.id);
+  const naEstrela = jogadores.filter(j => certo.has(j.id) && ehEspecial(j.casa));
+  const atras = naEstrela.length ? Math.min(...naEstrela.map(j => j.casa)) : Infinity;
+  const recuo = jogadores.filter(j => j.casa > atras && !naEstrela.includes(j)).map(j => j.id);
+  const saldo = id => (certo.has(id) ? (dobro.includes(id) ? 2 : 1) : 0) - (recuo.includes(id) ? 1 : 0);
+  return { todos: false, dobro, recuo, saldo };
+}
+
 // ---------------------------------------------------------------- casas do modo Pokémon
 
 // A trilha antiga do Linear: 60 casas, com o Início na casa 0 e a Chegada na 59, e as especiais a cada 7 casas.

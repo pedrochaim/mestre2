@@ -13,6 +13,10 @@
 // (semente da partida e rodada), a mesma em todos os aparelhos.
 // Medidas em --u (1,8vmin): na TV deitada, perto de 1% da largura; no celular em pé, a cena ocupa boa parte da tela.
 // Usa as variáveis de cor da página (--acento, --linha) e as fontes (--fonte, --mono).
+// Tema qualquer (2026-11-26): quando a próxima posição da sequência dos temas é ★ Qualquer, no lugar da cena do tema entra
+// uma de quatro roletas (arena-roleta.js), sorteada pela chave, que para no tema da pergunta: mostrar(..., qualquer = true).
+
+import { QUANTAS_ROLETAS, planejarRoleta, desenharRoleta } from "./arena-roleta.js";
 
 export const SEGUNDOS = 7;  // duração da contagem entre uma pergunta e outra (2026-11-24: de 10 para 7)
 
@@ -36,6 +40,10 @@ const CSS = `
 @keyframes ct-piscar { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
 @keyframes ct-bater { 0% { transform: scale(1.25); opacity: 1; } 70% { transform: scale(1); opacity: .85; } 100% { transform: scale(.96); opacity: .35; } }
 @keyframes ct-brotar { from { transform: scale(0); } to { transform: scale(1); } }
+
+/* Tema qualquer: a roleta, num canvas do tamanho da tela (arena-roleta.js). */
+.contagem .roleta { position: absolute; inset: 0; }
+.contagem .roleta canvas { width: 100%; height: 100%; display: block; }
 
 /* Sem tema: o número gigante. */
 .contagem .gigante .rot { font-size: clamp(1.2rem, 4.5vmin, 3.2rem); animation: ct-piscar 1s ease-in-out infinite; }
@@ -2160,54 +2168,91 @@ const ESTILOS = {
   "Entretenimento": ENTRETENIMENTO,
   "Esportes": ESPORTES,
 };
-// Para a galeria (contagens.html): cada tema ("" é o sem tema) e quantas cenas ele tem.
-export const CENAS = Object.fromEntries(Object.entries(ESTILOS).map(([t, e]) => [t, [].concat(e).length]));
+// Para a galeria (contagens.html): cada tema ("" é o sem tema) e quantas cenas ele tem; "Qualquer", as roletas.
+export const CENAS = { ...Object.fromEntries(Object.entries(ESTILOS).map(([t, e]) => [t, [].concat(e).length])),
+                       "Qualquer": QUANTAS_ROLETAS };
 
 // Liga a contagem a um elemento da página (vazio, com hidden). mostrar(tema, ms, total, chave) desenha "faltam ms" com a
 // animação do tema (com várias, a sorteada pela chave: um número igual em todos os aparelhos) e devolve o número de segundos quando ele acaba de mudar (para tocar o som do segundo), ou null;
-// esconder() some.
+// esconder() some. Com qualquer = true (a próxima posição da sequência é ★ Qualquer) e um dos oito temas, a animação é
+// uma das roletas, que para nesse tema; ela é desenhada a cada quadro (requestAnimationFrame), pelo tempo que falta.
 export function criarContagem(caixa) {
   instalarCss();
-  let atual = null, segundos = null;
+  let atual = null, cenaAtual = null, segundos = null;
+  let roleta = null;  // a roleta à mostra: {k, plano, canvas, fim (o zero, em performance.now()), total, raf}
+  const tempoRoleta = () => roleta.total - (roleta.fim - performance.now()) / 1000;
+  function laco() {
+    if (!roleta) return;
+    desenharRoleta(roleta.canvas, roleta.k, roleta.plano, tempoRoleta(), roleta.total);
+    roleta.raf = requestAnimationFrame(laco);
+  }
+  function pararRoleta() {
+    if (roleta) cancelAnimationFrame(roleta.raf);
+    roleta = null;
+  }
   return {
-    mostrar(tema, ms, total, chave = 0, cena = null) {
-      const lista = [].concat(ESTILOS[tema] || ESTILOS[""]);
-      const i = cena != null ? Math.min(cena, lista.length - 1)  // a galeria (contagens.html) escolhe a cena
-        : lista.length > 1 ? Math.floor(aleatorio(chave)() * lista.length) : 0;
-      const e = lista[i], id = `${tema}|${i}`;
+    mostrar(tema, ms, total, chave = 0, cena = null, qualquer = false) {
       const s = Math.max(0, Math.ceil(ms / 1000));
+      const comRoleta = qualquer && tema in CORES;
+      let e = null, i, id;
+      if (comRoleta) {
+        i = cena != null ? Math.min(cena, QUANTAS_ROLETAS - 1) : Math.floor(aleatorio(chave)() * QUANTAS_ROLETAS);
+        id = `Qualquer|${i}|${tema}|${chave}`;
+      } else {
+        const lista = [].concat(ESTILOS[tema] || ESTILOS[""]);
+        i = cena != null ? Math.min(cena, lista.length - 1)  // a galeria (contagens.html) escolhe a cena
+          : lista.length > 1 ? Math.floor(aleatorio(chave)() * lista.length) : 0;
+        e = lista[i]; id = `${tema}|${i}`;
+      }
       if (id !== atual || caixa.hidden) {
         atual = id;
+        cenaAtual = comRoleta ? `Qualquer|${i}` : id;
         segundos = s;
+        pararRoleta();
         const decorrido = Math.max(0, total - ms / 1000);
         caixa.className = "contagem";
         caixa.style.setProperty("--atraso", `${(-decorrido).toFixed(2)}s`);
-        caixa.innerHTML = e.html(s, decorrido);
+        caixa.innerHTML = comRoleta ? `<div class="cena roleta"><canvas aria-hidden="true"></canvas></div>` : e.html(s, decorrido);
         caixa.hidden = false;
+        if (comRoleta) {
+          roleta = { k: i, plano: planejarRoleta(i, chave, tema), canvas: caixa.querySelector("canvas"),
+                     fim: performance.now() + ms, total, raf: 0 };
+          laco();
+        }
         caixa.classList.toggle("ultimos", s <= 3);
         caixa.classList.toggle("fim", s === 0);
         caixa.setAttribute("aria-label", `Próxima pergunta em ${s} segundos`);
         return s;
       }
+      // A roleta anda pelo relógio dela; só se acerta se o da página se afastar (mais de 80 ms).
+      if (roleta && ms > 0 && Math.abs(performance.now() + ms - roleta.fim) > 80) roleta.fim = performance.now() + ms;
       if (s === segundos) return null;
       segundos = s;
-      // O número é trocado por um novo a cada segundo, o que recomeça o pulso dele (e, na pincelada, a pintura).
-      const num = caixa.querySelector(".num"), novo = num.cloneNode(true);
-      novo.textContent = e.texto ? e.texto(s) : s;
-      num.replaceWith(novo);
-      e.depois?.(caixa, s);
+      if (!roleta) {
+        // O número é trocado por um novo a cada segundo, o que recomeça o pulso dele (e, na pincelada, a pintura).
+        const num = caixa.querySelector(".num"), novo = num.cloneNode(true);
+        novo.textContent = e.texto ? e.texto(s) : s;
+        num.replaceWith(novo);
+        e.depois?.(caixa, s);
+      }
       caixa.classList.toggle("ultimos", s <= 3);
       caixa.classList.toggle("fim", s === 0);  // o zero: gol, buzina, luzes verdes, carro arrancando
       caixa.setAttribute("aria-label", `Próxima pergunta em ${s} segundos`);
       return s;
     },
-    // A cena à mostra ("tema|n", como "Esportes|0"), ou null: escolhe o som próprio dela (arena-suspense.js).
-    get cena() { return caixa.hidden ? null : atual; },
+    // A cena à mostra ("tema|n", como "Esportes|0", ou "Qualquer|n" nas roletas), ou null: escolhe o som próprio dela
+    // (arena-suspense.js).
+    get cena() { return caixa.hidden ? null : cenaAtual; },
+    // A roleta à mostra ({cena, plano, t}: o plano dela e os segundos desde o começo da contagem), ou null: o som dela
+    // segue o plano (arena-suspense.js).
+    get roleta() { return roleta && !caixa.hidden ? { cena: cenaAtual, plano: roleta.plano, t: tempoRoleta() } : null; },
     esconder() {
+      pararRoleta();
       if (caixa.hidden) return;
       caixa.hidden = true;
       caixa.innerHTML = "";
       atual = null;
+      cenaAtual = null;
       segundos = null;
     },
   };

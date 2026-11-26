@@ -49,7 +49,7 @@ export const somLigado = () => ligado;
 export function ligarSom(v) {
   ligado = v;
   try { localStorage.setItem("mestre2.arena.som", v ? "ligado" : "desligado"); } catch {}
-  if (!v) { batimento(0); pararContagem(); }
+  if (!v) { batimento(0); pararContagem(); pararResultado(); }
 }
 
 const pronto = () => ligado && audio;
@@ -65,11 +65,13 @@ async function arquivo(nome, volume = 1, velocidade = 1) {
   fonte.buffer = b; fonte.playbackRate.value = velocidade; g.gain.value = volume;
   fonte.connect(g).connect(mestre); fonte.start();
 }
-// Saída de um som: no centro ou, com pan (de -1, esquerda, a 1, direita), de um lado; e o eco, se pedido.
+// Saída de um som: no centro ou, com pan (de -1, esquerda, a 1, direita), de um lado; e o eco, se pedido. Enquanto os sons
+// de uma roleta ou de uma animação de resultado são marcados, vão para o barramento dela (saidaCena), que pode ser apagado.
+let saidaCena = null;
 function saida(g, pan, comEco) {
   let no = g;
   if (pan && audio.createStereoPanner) { const p = audio.createStereoPanner(); p.pan.value = pan; g.connect(p); no = p; }
-  no.connect(mestre); if (comEco) no.connect(eco);
+  no.connect(saidaCena?.seco || mestre); if (comEco) no.connect(saidaCena?.molhado || eco);
 }
 // Um trecho de um arquivo, marcado para daqui a "em" segundos, a partir de "de" segundos do arquivo, por "dur" segundos,
 // com o volume seguindo "envelope" ([segundos desde o começo, volume], em rampas). Fica em "tocandoTrechos" até acabar,
@@ -107,6 +109,7 @@ export function pararContagem() {
     try { fonte.stop(t + .3); } catch {}
   }
   tocandoTrechos.clear();
+  apagarRoleta();
 }
 // Um tom: oscilador com envelope, deslize de altura (f2), filtro, vibrato e saída com eco. Com sustenta, o volume fica
 // parado até o fim (buzina, motor) em vez de se apagar aos poucos.
@@ -931,6 +934,260 @@ const SONS_CENAS = {
     zero: em => { tumTum(em + .25, .45, .14); [1046.5, 1318.5, 1568].forEach((f, j) => bipeMonitor(em + .25 + j * .14, f, .2, j === 2 ? .35 : .13)); },
   },
 };
+// ---- Tema qualquer: as roletas (arena-roleta.js; a cena "Qualquer|0" a "|3"). O som delas não é marcado segundo a
+// segundo: no primeiro segundo que toca, todos os sons que a roleta ainda vai fazer são marcados de uma vez, nos instantes
+// do plano dela (os cliques seguem o giro desenhado; se a contagem já ia no meio, o que passou fica de fora), num
+// barramento próprio que pararContagem() apaga. ganho: [giro, parada], medido como o das cenas (renderizado fora de tempo
+// real): perto de -22 LUFS no giro e -16 na parada, sem passar de 0,85 no pico.
+let roletaTocando = null;  // {plano, seco, molhado}
+// Um barramento (seco e com eco) para os sons de uma cena marcados de uma vez; apagar() o cala em 0,25 s.
+function barramento() {
+  const seco = audio.createGain(), molhado = audio.createGain();
+  seco.connect(mestre); molhado.connect(eco);
+  return { seco, molhado };
+}
+function apagarBarramento(b) {
+  if (!b || !audio) return;
+  const t = audio.currentTime;
+  for (const n of [b.seco, b.molhado]) { n.gain.cancelScheduledValues(t); n.gain.setValueAtTime(n.gain.value, t); n.gain.linearRampToValueAtTime(0, t + .25); }
+  setTimeout(() => { b.seco.disconnect(); b.molhado.disconnect(); }, 400);
+}
+function apagarRoleta() { const r = roletaTocando; roletaTocando = null; apagarBarramento(r); }
+// Marca de uma vez os sons de uma cena (sons(S, dados), com "t" em segundos desde o começo dela), a partir do instante
+// "agora" da cena (o que já passou fica de fora), no barramento b; ganhoEm(t) dá o ganho de cada som.
+function marcar(sons, dados, agora, ganhoEm, b) {
+  const vale = t => t >= agora - .02, em = t => Math.max(0, t - agora);
+  const S = {
+    tom: ({ t, ...o }) => { if (vale(t)) { ganho = ganhoEm(t); tom({ ...o, em: em(t) }); } },
+    ruido: ({ t, ...o }) => { if (vale(t)) { ganho = ganhoEm(t); ruido({ ...o, em: em(t) }); } },
+    sino: (f, { t, ...o }) => { if (vale(t)) { ganho = ganhoEm(t); sino(f, { ...o, em: em(t) }); } },
+    marimba: (f, { t, ...o }) => { if (vale(t)) { ganho = ganhoEm(t); marimba(f, { ...o, em: em(t) }); } },
+    continuo: ({ t0, t1, ...o }) => { const a = Math.max(t0, agora); if (a < t1 - .02) { ganho = ganhoEm(t0); continuo({ ...o, t0: a, t1, base: agora }); } },
+  };
+  saidaCena = b;
+  try { sons(S, dados); } finally { saidaCena = null; ganho = 1; }
+}
+const baseDeRuido = () => {
+  if (!ruidoBase) { ruidoBase = audio.createBuffer(1, audio.sampleRate * 2, audio.sampleRate);
+                    const d = ruidoBase.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1; }
+  return ruidoBase;
+};
+// Um som contínuo (motor, bolinha rolando, chiado), de t0 a t1 no tempo da roleta, com altura (freq, nos osciladores),
+// filtro (filtro.f) e volume seguindo funções desse tempo; "base" é o instante da roleta que corresponde a agora.
+function continuo({ fonte = "osc", forma = "sine", t0, t1, base = 0, passo = .03, freq, filtro, ganho: volume, pan = 0, comEco = false }) {
+  if (!pronto()) return;
+  const g0 = ganho, zero = audio.currentTime + .01, quando = t => zero + (t - base);
+  let src;
+  if (fonte === "osc") { src = audio.createOscillator(); src.type = forma; }
+  else { src = audio.createBufferSource(); src.buffer = baseDeRuido(); src.loop = true; }
+  const g = audio.createGain(); g.gain.setValueAtTime(0, quando(t0));
+  let no = src, bq = null;
+  if (filtro) { bq = audio.createBiquadFilter(); bq.type = filtro.tipo || "lowpass"; bq.Q.value = filtro.q ?? 1; src.connect(bq); no = bq; }
+  const pontos = []; for (let t = t0; t < t1; t += passo) pontos.push(t); pontos.push(t1);
+  pontos.forEach((t, k) => {
+    const w = quando(t);
+    if (fonte === "osc") { const v = typeof freq === "function" ? freq(t) : (freq ?? 440); k ? src.frequency.linearRampToValueAtTime(v, w) : src.frequency.setValueAtTime(v, w); }
+    if (bq) { const v = typeof filtro.f === "function" ? filtro.f(t) : filtro.f; k ? bq.frequency.linearRampToValueAtTime(v, w) : bq.frequency.setValueAtTime(v, w); }
+    g.gain.linearRampToValueAtTime(Math.max(0, volume(t) || 0) * g0, w);
+  });
+  g.gain.linearRampToValueAtTime(0, quando(t1) + .04);
+  no.connect(g); saida(g, pan, comEco);
+  if (fonte === "osc") src.start(quando(t0)); else src.start(quando(t0), Math.random());
+  src.stop(quando(t1) + .08);
+}
+// Os sons de cada roleta, com "t" no tempo dela (segundos desde o começo da contagem) e o plano "p" (arena-roleta.js).
+const SONS_ROLETA = {
+  // Roda da fortuna: o empurrão, um clique por pino (rápido no começo, cada vez mais espaçado, com mais corpo quando
+  // lenta); quando para, a pancada do ponteiro, um sino de dois toques e um brilho agudo.
+  "Qualquer|0": {
+    nome: "Catraca e sino", ganho: [2.68, 0.9],
+    sons(S, p) {
+      S.ruido({ t: .02, dur: .45, vol: .1, f: 420, f2: 2400, q: 1.1, ataque: .3 });
+      p.ticks.forEach(tk => {
+        const k = Math.min(1, Math.max(0, (tk - p.ti) / (p.ts - p.ti)));
+        S.ruido({ t: tk, dur: .018, vol: .3, tipo: "bandpass", f: 3200, q: 2.5, ataque: .001 });
+        S.tom({ t: tk, f: 1600, f2: 1000, dur: .03, vol: .08, ataque: .001 });
+        S.tom({ t: tk, f: 320, f2: 190, dur: .045, vol: .06 + .14 * k, ataque: .001 });
+      });
+      const t = p.ts;
+      S.tom({ t: t + .02, f: 200, f2: 110, dur: .14, vol: .25 });
+      S.sino(1318.5, { t: t + .12, vol: .2, dur: 1.5 });
+      S.sino(1760, { t: t + .3, vol: .22, dur: 1.6 });
+      [2093, 2637, 3136, 4186].forEach((f, k) => S.tom({ t: t + .5 + k * .055, f, dur: .3, vol: .035, comEco: true }));
+    } },
+  // Roleta de cassino: o lançamento, a bolinha rolando na pista (mais grave e mais baixa conforme perde velocidade, com o
+  // ronco da madeira), o tranco nos defletores, os quiques (cada vez mais fracos e próximos), o chocalho na casa; depois,
+  // um sino e fichas batendo.
+  "Qualquer|1": {
+    nome: "Bolinha e fichas", ganho: [1.75, 2.15],
+    sons(S, p) {
+      S.ruido({ t: 0, dur: .06, vol: .25, f: 2600, q: 2, ataque: .002 });
+      const fim = p.tb0 + .05;
+      const nivel = t => Math.min(1, t / .2) * Math.min(1, Math.max(0, (fim - t) / .35)) * Math.min(1, Math.abs(p.vel(t)) / p.v0);
+      S.continuo({ fonte: "ruido", t0: 0, t1: fim, filtro: { tipo: "bandpass", f: t => 420 + 55 * Math.abs(p.vel(t)), q: 1.6 },
+                   ganho: t => .26 * nivel(t) * (.8 + .2 * Math.sin((p.rotor(t) + p.psi(t)) * 4)) });
+      S.continuo({ fonte: "ruido", t0: 0, t1: fim, filtro: { tipo: "lowpass", f: 240, q: .7 }, ganho: t => .3 * nivel(t) });
+      const quique = (t, v, leve) => {
+        S.tom({ t, f: leve ? 2600 : 1900, f2: leve ? 2100 : 1300, dur: .03, vol: v * .5, ataque: .001 });
+        S.ruido({ t, dur: .025, vol: v * .6, tipo: "bandpass", f: 2200, q: 1.5, ataque: .001 });
+        if (!leve) S.tom({ t, f: 420, f2: 300, dur: .05, vol: v * .35, ataque: .001 });
+      };
+      quique(p.tdef, .55);
+      p.quiques.forEach((tq, i) => quique(tq, [.6, .48, .38, .3, .22, .16, .12][i] ?? .1));
+      [.05, .085, .115, .14, .16].forEach((d, k) => quique(p.ts + d, .1 - k * .016, true));
+      S.sino(1568, { t: p.ts + .3, vol: .12, dur: 1.3 });
+      for (let k = 0; k < 6; k++) {
+        const f = 3000 + Math.random() * 1600, tt = p.ts + .5 + k * .07 + Math.random() * .02;
+        S.tom({ t: tt, f, f2: f * 1.02, dur: .09, vol: .06 }); S.tom({ t: tt, f: f * 2.7, dur: .04, vol: .025 });
+      }
+    } },
+  // Linha Qualquer: o motor elétrico, que sobe e desce com a velocidade do trem, o ronco dos trilhos, as juntas (ta-dum,
+  // as duas rodas do truque), um bipe ao passar pelas estações quando já está devagar e o chiado do freio; na parada, o
+  // tranco, o ar das portas e o aviso de três notas.
+  "Qualquer|2": {
+    nome: "Chegada do trem", ganho: [1.21, 1.15],
+    sons(S, p) {
+      const vr = t => p.vel(t) / p.vmax, fim = p.ts + .05;
+      S.continuo({ fonte: "osc", forma: "sawtooth", t0: 0, t1: fim, freq: t => 70 + 520 * vr(t), filtro: { tipo: "lowpass", f: 1300, q: .8 }, ganho: t => .03 + .06 * vr(t) });
+      S.continuo({ fonte: "osc", forma: "sine", t0: 0, t1: fim, freq: t => 140 + 1040 * vr(t), ganho: t => .03 * vr(t) });
+      S.continuo({ fonte: "ruido", t0: 0, t1: p.ts + .2, filtro: { tipo: "lowpass", f: 320, q: .7 }, ganho: t => .06 + .25 * vr(t) });
+      p.juntas.forEach(tj => {
+        const dt = .016 / Math.max(.08, p.vel(tj));
+        [0, dt].forEach(d => { S.tom({ t: tj + d, f: 700, f2: 380, dur: .03, vol: .1, ataque: .001 });
+                               S.ruido({ t: tj + d, dur: .035, vol: .16, tipo: "lowpass", f: 1400, ataque: .001 }); });
+      });
+      p.passagens.forEach(lst => lst.forEach(tp => { if (vr(tp) < .55 && tp < p.ts - .05) S.tom({ t: tp, f: 1975.5, dur: .07, vol: .04 }); }));
+      const ini = p.ts - .85;
+      S.continuo({ fonte: "osc", forma: "sine", t0: ini, t1: p.ts + .02, passo: .01, freq: t => 2850 + 35 * Math.sin(t * 45),
+                   ganho: t => .028 * Math.sin(Math.PI * Math.min(1, Math.max(0, (t - ini) / .87))) });
+      S.tom({ t: p.ts, f: 95, f2: 55, dur: .28, vol: .3 });
+      S.ruido({ t: p.ts + .16, dur: .8, vol: .2, tipo: "highpass", f: 2600, ataque: .02 });
+      [[659.25, 0], [830.6, .17], [987.8, .34]].forEach(([f, d]) => S.sino(f, { t: p.ts + .55 + d, vol: .2, dur: 1.0 }));
+    } },
+  // Caça-níquel: a catraca e a pancada da alavanca, o chiado e o motor dos tambores (mais fracos a cada um que para), um
+  // clique por casa que passa, e, a cada tambor que para, uma pancada e uma nota mais aguda (mi, sol, dó: os temas batem);
+  // no fim, a campainha e as moedas.
+  "Qualquer|3": {
+    nome: "Alavanca e moedas", ganho: [0.59, 1.26],
+    sons(S, p) {
+      for (let k = 0; k < 6; k++) { const t = .02 + k * .045;
+        S.ruido({ t, dur: .014, vol: .22, tipo: "highpass", f: 2600, ataque: .001 }); S.tom({ t, f: 340 + k * 25, f2: 200, dur: .025, vol: .08, ataque: .001 }); }
+      S.tom({ t: .3, f: 150, f2: 75, dur: .12, vol: .35 }); S.ruido({ t: .3, dur: .07, vol: .2, tipo: "lowpass", f: 500 });
+      const rodando = t => p.rolos.filter(R => t > R.t0 && t < R.tj).length;
+      S.continuo({ fonte: "ruido", t0: .3, t1: p.ts, filtro: { tipo: "bandpass", f: 700, q: 1.2 }, ganho: t => .05 * rodando(t) });
+      S.continuo({ fonte: "osc", forma: "square", t0: .3, t1: p.ts, freq: 55, filtro: { tipo: "lowpass", f: 260 }, ganho: t => .025 * rodando(t) });
+      p.rolos.forEach((R, j) => {
+        R.cliques.forEach(tk => { S.ruido({ t: tk, dur: .01, vol: .07, tipo: "bandpass", f: 1900 + j * 300, q: 4, ataque: .001 });
+                                  S.tom({ t: tk, f: 650 + j * 60, dur: .015, vol: .03, ataque: .001 }); });
+        S.tom({ t: R.tj, f: 150, f2: 65, dur: .15, vol: .5 }); S.ruido({ t: R.tj, dur: .06, vol: .25, tipo: "lowpass", f: 600, ataque: .002 });
+        S.marimba([659.25, 783.99, 1046.5][j], { t: R.tj + .03, vol: .3 });
+      });
+      const t = p.ts + .15;
+      for (let k = 0; k < 10; k++) S.sino(k % 2 ? 1318.5 : 1568, { t: t + k * .075, vol: .09, dur: .3, comEco: false });
+      for (let k = 0; k < 24; k++) {
+        const tt = t + .1 + Math.random() * 1.3, f = 2600 + Math.random() * 2600;
+        S.tom({ t: tt, f, f2: f * 1.015, dur: .08, vol: .05 }); S.tom({ t: tt, f: f * 2.76, dur: .035, vol: .02 });
+        S.ruido({ t: tt, dur: .012, vol: .03, tipo: "highpass", f: 6000 });
+      }
+    } },
+};
+// Marca os sons da roleta que está à mostra (contagem.roleta: {cena, plano, t}), uma vez por contagem.
+function somRoleta({ cena, plano: p, t: agora }) {
+  const def = SONS_ROLETA[cena];
+  if (!def || !p || roletaTocando?.plano === p) return;
+  apagarRoleta();
+  roletaTocando = { plano: p, ...barramento() };
+  const [gg, gp] = def.ganho || [1, 1];
+  marcar(def.sons, p, agora, t => t >= p.ts - .02 ? gp : gg, roletaTocando);  // o que soa da parada em diante leva o ganho dela
+}
+
+// ---- Quem acertou e quem errou (arena-resultado.js): o som de cada uma das quatro animações, marcado de uma vez quando
+// ela começa, na tela grande, seguindo os instantes de cada jogador na cena (j.t), num barramento próprio que
+// pararResultado() apaga. ganho medido como o das cenas da contagem (renderizado fora de tempo real, com 3, 6 e 10
+// jogadores, todos acertando e ninguém acertando): perto de -18 LUFS no momento mais forte, sem passar de 0,85 no pico.
+let resultadoTocando = null;
+const PENTA = [1046.5, 1174.66, 1318.51, 1567.98, 1760, 2093, 2349.3, 2637];  // uma nota a mais a cada acerto
+const REVELA_HOLOFOTES = 1.7;  // quando os focos acendem (T_REVELA_HOLOFOTES em arena-resultado.js)
+const SONS_RESULTADO = [
+  // Dois lados: uma nota que sobe a cada acerto (quando o avatar quica) e um baque grave a cada erro; o confete estoura no
+  // primeiro acerto; no fim, um acorde de sinos se a maioria acertou, ou um trombone triste.
+  { nome: "Plim e bonk", ganho: 0.94,
+    sons(S, cena) {
+      S.ruido({ t: .02, dur: .35, vol: .06, f: 300, f2: 1500, q: .8, ataque: .2 });
+      let kc = 0, ke = 0;
+      cena.js.forEach(j => {
+        if (j.acertou) { const f = PENTA[Math.min(7, kc++)]; S.marimba(f, { t: j.t + .18, vol: .3 }); S.tom({ t: j.t + .3, f: f * 2, dur: .06, vol: .05 }); }
+        else { const f = 196 * Math.pow(.94, ke++); S.tom({ t: j.t + .4, f, f2: f * .75, tipo: "triangle", dur: .22, vol: .32 }); S.ruido({ t: j.t + .4, dur: .06, vol: .12, tipo: "lowpass", f: 500 }); }
+      });
+      if (cena.certos.length) {
+        const tc = Math.min(...cena.certos.map(j => j.t)) + .18;
+        S.ruido({ t: tc, dur: .12, vol: .2, tipo: "highpass", f: 3000, ataque: .002 });
+        for (let k = 0; k < 6; k++) S.tom({ t: tc + .05 + k * .07, f: 3000 + Math.random() * 1500, dur: .05, vol: .025 });
+      }
+      const fim = Math.max(...cena.js.map(j => j.t)) + .75;
+      if (cena.certos.length >= cena.errados.length) [1046.5, 1318.5, 1568, 2093].forEach((f, k) => S.sino(f, { t: fim + k * .07, vol: .12, dur: 1.2 }));
+      else [[311, 294], [294, 277], [277, 233]].forEach(([f, f2], k) => S.tom({ t: fim + k * .3, f, f2, tipo: "sawtooth", dur: k === 2 ? .6 : .28, vol: .17, filtro: { f: 1100 }, sustenta: true }));
+    } },
+  // Carimbo: a descida e a pancada do carimbo no papel; nos acertos, um tique agudo e uma nota que sobe a cada um; nos
+  // erros, um toque surdo; no fim, um sino se alguém acertou.
+  { nome: "Carimbadas", ganho: 0.97,
+    sons(S, cena) {
+      let kc = 0;
+      cena.js.forEach(j => {
+        const ti = j.t + .15;
+        S.ruido({ t: ti - .13, dur: .12, vol: .05, f: 600, f2: 1800, q: 1, ataque: .09 });
+        S.tom({ t: ti, f: 150, f2: 55, dur: .14, vol: .5 }); S.ruido({ t: ti, dur: .05, vol: .3, tipo: "lowpass", f: 900, ataque: .001 });
+        S.ruido({ t: ti, dur: .03, vol: .18, f: 2200, q: 1.2, ataque: .001 });
+        if (j.acertou) { S.tom({ t: ti + .02, f: 2637, dur: .05, vol: .06 }); S.marimba(PENTA[Math.min(7, kc++)], { t: ti + .06, vol: .22 }); }
+        else S.tom({ t: ti + .02, f: 392, f2: 330, tipo: "triangle", dur: .14, vol: .2 });
+      });
+      if (cena.certos.length) S.sino(1568, { t: Math.max(...cena.js.map(j => j.t)) + .55, vol: .12, dur: 1.2 });
+    } },
+  // Catraca: dois passos até a catraca; quem andou, o bipe de duas notas do validador e as portinholas abrindo; quem
+  // acertou sem andar (todos acertaram), um bipe só; quem errou, a campainha de catraca travada e a trombada.
+  { nome: "Validador e campainha", ganho: 1.74,
+    sons(S, cena) {
+      cena.js.forEach(j => {
+        const ti = j.t + .3;
+        [-.3, -.13].forEach(d => S.tom({ t: ti + d, f: 120, f2: 85, dur: .06, vol: .1 }));
+        if (j.casas > 0) {
+          S.tom({ t: ti, f: 1568, dur: .07, vol: .14 }); S.tom({ t: ti + .08, f: 2093, dur: .1, vol: .14 });
+          S.ruido({ t: ti + .05, dur: .22, vol: .1, f: 700, f2: 2400, q: 1.2, ataque: .05 });
+          S.tom({ t: ti + .05, f: 520, f2: 300, dur: .04, vol: .12 });
+        } else if (j.acertou) [0, .12].forEach(d => S.tom({ t: ti + d, f: 1175, dur: .1, vol: .28 }));  // acertou, mas ninguém anda
+        else {
+          S.tom({ t: ti, f: 155, tipo: "square", dur: .34, vol: .06, sustenta: true, filtro: { f: 1500 } });
+          S.tom({ t: ti, f: 163, tipo: "square", dur: .34, vol: .06, sustenta: true, filtro: { f: 1500 } });
+          S.tom({ t: ti + .03, f: 300, f2: 200, dur: .06, vol: .15 });
+        }
+      });
+    } },
+  // Holofotes: o rufar da caixa enquanto os holofotes procuram; o estalo dos refletores acendendo; metais e aplausos, mais
+  // fortes quanto mais gente acertou; se ninguém acertou, só os grilos.
+  { nome: "Rufar e aplausos", ganho: 0.96,
+    sons(S, cena) {
+      const T = REVELA_HOLOFOTES, a = cena.certos.length;
+      for (let t = .1; t < T - .02; t += .045) { const k = t / T;
+        S.ruido({ t, dur: .05, vol: .03 + .12 * k, tipo: "highpass", f: 1700, ataque: .002 }); S.ruido({ t, dur: .04, vol: .02 + .04 * k, tipo: "bandpass", f: 220 }); }
+      S.tom({ t: T, f: 95, f2: 50, dur: .3, vol: .5 }); S.ruido({ t: T, dur: .06, vol: .3, tipo: "lowpass", f: 1200, ataque: .001 });
+      S.ruido({ t: T, dur: .02, vol: .2, tipo: "highpass", f: 4000, ataque: .001 });
+      if (a) {
+        [196, 246.9, 293.7, 392].forEach(f => S.tom({ t: T + .05, f, tipo: "sawtooth", dur: .9, vol: .045, ataque: .03, sustenta: true, filtro: { f: 700, f2: 2600 }, comEco: true }));
+        const palmas = 14 + 8 * Math.min(a, 6);
+        for (let k = 0; k < palmas; k++) S.ruido({ t: T + .1 + Math.random() * 1.6, dur: .03, vol: .05 + Math.random() * .06, f: 1000 + Math.random() * 1400, q: 1.5, ataque: .001, pan: Math.random() * 1.6 - .8 });
+      } else [.35, .95, 1.55].forEach(d => { for (let k = 0; k < 3; k++) S.tom({ t: T + d + k * .055, f: 4400, dur: .035, vol: .05, ataque: .004 }); });
+    } },
+];
+// Toca o som da animação k (0 a 3) da cena (a que criarResultado().mostrar devolve), do começo. Só a tela grande.
+export function somResultado(k, cena) {
+  const def = SONS_RESULTADO[k];
+  if (!pronto() || !def || !cena) return;
+  pararResultado();
+  resultadoTocando = barramento();
+  marcar(def.sons, cena, 0, () => def.ganho ?? 1, resultadoTocando);
+}
+// A animação foi interrompida (outra pergunta, saída da partida, som desligado): cala o som dela em 0,25 s.
+export function pararResultado() { const b = resultadoTocando; resultadoTocando = null; apagarBarramento(b); }
 let contagemDaVez = -1;
 // Uma contagem nova começou: sorteia o som dela (o das cenas sem som próprio) e devolve o nome dele.
 export function novaContagem() {
@@ -940,9 +1197,11 @@ export function novaContagem() {
   return CONTAGENS[k].nome;
 }
 // Um segundo da contagem (de ESPERA_PROXIMA, hoje 7, até 1; os sons servem para até 10). Com a cena (contagem.cena) e um
-// som próprio para ela, toca o dele; senão, o sorteado.
-export function somContagem(s, cena) {
+// som próprio para ela, toca o dele; senão, o sorteado. Nas roletas ("Qualquer|n"), o primeiro segundo marca todos os sons
+// dela, pelo plano (contagem.roleta).
+export function somContagem(s, cena, roleta = null) {
   if (!pronto() || s < 1) return;
+  if (cena?.startsWith("Qualquer|")) { if (roleta) somRoleta(roleta); return; }
   const proprio = SONS_CENAS[cena];
   if (proprio) {
     const [gs, gz] = proprio.ganho || [1, 1];
@@ -956,5 +1215,5 @@ export function somContagem(s, cena) {
   finally { ganho = 1; }
 }
 // O nome do som próprio da cena, ou null (a galeria, contagens.html, mostra qual som está tocando).
-export const somDaCena = cena => SONS_CENAS[cena]?.nome || null;
+export const somDaCena = cena => SONS_CENAS[cena]?.nome || SONS_ROLETA[cena]?.nome || null;
 export const NOMES_CONTAGENS = CONTAGENS.map(c => c.nome);

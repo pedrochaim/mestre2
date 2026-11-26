@@ -14,7 +14,8 @@
        (?ver=<tema>&cena=<n>). As miniaturas são a própria página em tela cheia, num iframe reduzido (?mini=1), para
        as medidas em vmin saírem como na TV ou no celular. Cada cena repete: 7 s de contagem, o zero, e de novo.
        Som (2026-11-24): só na tela cheia, o mesmo da tela grande do jogo (arena-suspense.js): o próprio da cena (as de
-       Esportes e as dez novas de Geografia e de Entretenimento) ou um dos dez sons de contagem, sorteado a cada volta. As miniaturas ficam mudas. */
+       Esportes e as dez novas de Geografia e de Entretenimento) ou um dos dez sons de contagem, sorteado a cada volta. As miniaturas ficam mudas.
+       ★ Qualquer (2026-11-26): as quatro roletas (arena-roleta.js), cada volta parando num tema sorteado. */
     :root { color-scheme: dark;
             --fundo: #000; --texto: #F4F4F2; --suave: #A0A4AB; --linha: #2A2D33; --cartao: #101114;
             --acento: #FFD100; --sobre-cor: #000;
@@ -100,6 +101,7 @@
 
 <script type="module">
   import { SEGUNDOS, CORES, CENAS, criarContagem } from "./arena-contagem.js";
+  import { NOMES_ROLETAS } from "./arena-roleta.js";
   import * as S from "./arena-suspense.js";
 
   const $ = id => document.getElementById(id);
@@ -113,13 +115,14 @@
     "Entretenimento": ["Começo do filme", "Claquete", "Pipoca", "TV de tubo", "Toca-discos", "Violão", "Quadrinhos", "Mangá",
                        "Cartas", "Fliperama", "Nave"],
     "Esportes": ["Futebol", "Vôlei", "Basquete", "Tênis", "Automobilismo"],
+    "Qualquer": NOMES_ROLETAS,
     "": ["Número gigante"],
   };
   // Os temas na ordem da galeria; o sem tema (quando a próxima pergunta não é conhecida) por último.
   const TEMAS = [...Object.keys(CENAS).filter(t => t), ""];
   const LISTA = TEMAS.flatMap(t => Array.from({ length: CENAS[t] }, (_, i) => ({ tema: t, cena: i })));
   const nome = (t, i) => NOMES[t]?.[i] || `Cena ${i + 1}`;
-  const titulo = t => t || "Sem tema";
+  const titulo = t => t === "Qualquer" ? "★ Qualquer" : t || "Sem tema";
   const url = (t, i, mini) => `contagens.html?ver=${encodeURIComponent(t)}&cena=${i}${mini ? "&mini=1" : ""}`;
   const ZERO = 3000;  // quanto o zero fica na tela antes de recomeçar (no jogo, só até a próxima pergunta entrar)
 
@@ -141,6 +144,7 @@
   function criarTocador() {
     const contagem = criarContagem($("caixa"));
     let tema = "", cena = 0, inicio = 0, timer = null, somSorteado = "";
+    let alvo = "", chave = 0;  // nas roletas: o tema em que esta volta para e a chave do giro, sorteados a cada volta
     const marcarSom = () => { $("som").textContent = S.somLigado() ? "🔊" : "🔇"; };
     function rotulo() {
       const proprio = S.somDaCena(`${tema}|${cena}`);
@@ -153,14 +157,17 @@
       contagem.esconder();
       inicio = performance.now();
       somSorteado = S.novaContagem();  // o som das cenas sem som próprio, sorteado a cada volta, como no jogo
+      const temas = Object.keys(CORES);
+      alvo = temas[Math.floor(Math.random() * temas.length)]; chave = Math.floor(Math.random() * 1e9);
       rotulo();
       passo();
     }
     function passo() {
       const ms = SEGUNDOS * 1000 - (performance.now() - inicio);
       if (ms < -ZERO) return recomecar();
-      const s = contagem.mostrar(tema, Math.max(0, ms), SEGUNDOS, 0, cena);
-      if (s !== null && !mini) S.somContagem(s, contagem.cena);
+      const s = tema === "Qualquer" ? contagem.mostrar(alvo, Math.max(0, ms), SEGUNDOS, chave, cena, true)
+        : contagem.mostrar(tema, Math.max(0, ms), SEGUNDOS, 0, cena);
+      if (s !== null && !mini) S.somContagem(s, contagem.cena, contagem.roleta);
     }
     function abrir(t, c) {
       tema = t in CENAS ? t : "";
@@ -206,8 +213,9 @@
   function galeria() {
     $("galeria").hidden = false;
     $("resumo").textContent = `As ${LISTA.length} animações da contagem da próxima pergunta, por tema. ` +
-      `Em Geografia, História, Ciências, Esportes e Entretenimento, o jogo sorteia uma das cenas. Clique numa para vê-la em tela cheia, com som ` +
-      `(as de Esportes e as novas de Geografia, Ciências e Entretenimento têm som próprio; as outras, um dos dez sons de ` +
+      `Em Geografia, História, Ciências, Esportes e Entretenimento, o jogo sorteia uma das cenas. Quando a próxima posição da ` +
+      `sequência é ★ Qualquer, entra uma das roletas, que para no tema da pergunta. Clique numa para vê-la em tela cheia, com som ` +
+      `(as de Esportes, as roletas e as novas de Geografia, Ciências e Entretenimento têm som próprio; as outras, um dos dez sons de ` +
       `contagem, sorteado). No jogo, o som toca só na ` +
       `tela grande, com "Sons e suspense" ligado.`;
     const TAMANHO = { tv: [1280, 720], celular: [390, 780] };
@@ -231,8 +239,9 @@
           title="${titulo(t)}: ${nome(t, i)}"></iframe></div><div class="nome">${rotulo}</div></a>`;
       // Os temas de várias cenas (Geografia, História, Ciências, Esportes e Entretenimento) têm seção própria; os de uma cena só ficam juntos.
       const varias = TEMAS.filter(t => CENAS[t] > 1), uma = TEMAS.filter(t => CENAS[t] === 1);
-      $("secoes").innerHTML = varias.map(t => `<section><h2>${badge(t)}<span class="suave">${CENAS[t]} cenas, uma sorteada a cada
-          contagem, sem olhar o subtema</span></h2><div class="grade">${Array.from({ length: CENAS[t] }, (_, i) =>
+      $("secoes").innerHTML = varias.map(t => `<section><h2>${badge(t)}<span class="suave">${t === "Qualquer"
+          ? `${CENAS[t]} roletas, uma sorteada quando a próxima posição da sequência é ★ Qualquer; param no tema da pergunta`
+          : `${CENAS[t]} cenas, uma sorteada a cada contagem, sem olhar o subtema`}</span></h2><div class="grade">${Array.from({ length: CENAS[t] }, (_, i) =>
           card(t, i, `${nome(t, i)}<span>${i + 1} de ${CENAS[t]}</span>`)).join("")}</div></section>`).join("") +
         `<section><h2>Os outros temas <span class="suave">uma cena cada; o número gigante é para quando o tema da próxima
           pergunta não é conhecido</span></h2><div class="grade">${uma.map(t =>

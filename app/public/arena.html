@@ -221,7 +221,7 @@
     <p><a href="./">← Mestre2</a></p>
     <h1>Arena</h1>
     <p class="suave">Este aparelho vira a tela da partida: ponha numa TV ou num tablet que todos vejam. A pergunta aparece aqui,
-      e cada jogador responde no próprio celular, ao mesmo tempo. Quem acerta anda uma casa, ou duas se estiver numa casa do tema da pergunta (menos quem está sozinho na frente). Se alguém acerta numa casa ★, quem está à frente volta uma casa. Só perguntas de múltipla escolha.</p>
+      e cada jogador responde no próprio celular, ao mesmo tempo. Quem acerta anda uma casa. Anda duas quem acerta sozinho ou numa casa do tema da pergunta (menos quem está sozinho na frente). Se todos acertam, ninguém anda. Se alguém acerta numa casa ★, quem está à frente volta uma casa. Só perguntas de múltipla escolha.</p>
     <div class="cartao">
       <p style="margin:0 0 .5rem">Tempo para responder</p>
       <div id="prazos-inicio" class="chips" role="group" aria-label="Tempo para responder"></div>
@@ -306,6 +306,7 @@
   </div>
 
   <div id="aviso-proxima" hidden aria-live="polite"></div>
+  <div id="acertos" hidden aria-live="polite"></div>
 
   <div id="controles" hidden>
     <button id="proxima" class="principal">Começar</button>
@@ -325,6 +326,7 @@
   import * as L from "./linear.js";
   import * as S from "./arena-suspense.js";
   import { SEGUNDOS, criarContagem } from "./arena-contagem.js";
+  import { criarResultado, escolherResultado } from "./arena-resultado.js";
   import { personalizadosProntos } from "./arena-avatares.js";
   import { db, entrarAnonimo, LETRAS, PRAZOS, PRAZO_PADRAO, OPCOES, CORES, abrev, corDe, $, el, esc, umDe, peao, ficha,
            agora, acertarRelogio, restante, manterAcesa } from "./arena-comum.js";
@@ -567,6 +569,7 @@
     if (r?.fase === "revelada" && partida.experimental && abertaVista === r.n && suspense?.n !== r.n) return iniciarSuspense(r);
     guardarPontos();
     desenhar();
+    if (r?.fase === "revelada" && !partida.experimental && abertaVista === r.n) iniciarResultado(r);
   }
 
   // A resposta foi revelada ao vivo e o suspense está ligado: a pergunta aparece como antes da resposta, e a animação
@@ -590,7 +593,34 @@
       if (p?.imagem?.revelacao) figuraDe = null;  // a figura de revelação só agora
       guardarPontos();
       desenhar();
+      if (partida.rodada?.n === r.n && partida.rodada.fase === "revelada") iniciarResultado(partida.rodada);
     });
+  }
+
+  // Quem acertou e quem errou (2026-11-26, arena-resultado.js): logo depois da revelação vista ao vivo (no fim do suspense,
+  // se ele estiver ligado), uma animação de 3,6 s com todos os jogadores, o avatar e quanto cada um andou, sorteada entre
+  // quatro pela rodada (a mesma nos celulares, que mostram só o próprio jogador). No modo automático, a contagem da
+  // próxima pergunta espera ela acabar. O som toca com o suspense ligado.
+  const telaResultado = criarResultado($("acertos"));
+  let resultadoDe = null;  // a rodada cuja animação já começou neste aparelho
+  const emResultado = () => telaResultado.visivel;
+  function iniciarResultado(r) {
+    if (!codigo || resultadoDe === r.n || !jogadores.length) return;
+    resultadoDe = r.n;
+    const dobro = r.dobro || [], recuo = r.recuo || [];
+    const lista = jogadores.map(j => {
+      const x = respostas.find(x => x.jogador === j.id), acertou = x?.opcao === r.certa;
+      const casas = (acertou && !r.todos ? (dobro.includes(j.id) ? 2 : 1) : 0) - (recuo.includes(j.id) ? 1 : 0);
+      return { nome: j.nome, avatar: j.avatar, cor: corDe(j.tema), acertou, casas, semResposta: !x };
+    });
+    const k = escolherResultado((partida.semente || 0) * 31 + r.n);
+    const cena = telaResultado.mostrar(r.n, k, lista, false, Boolean(r.todos));
+    if (partida.experimental) S.somResultado(k, cena);
+  }
+  // Some se a rodada mudar no meio (próxima pergunta pedida à mão) ou ao sair da partida.
+  function vigiarResultado() {
+    const r = partida.rodada;
+    if (emResultado() && (!codigo || r?.n !== telaResultado.id || r.fase !== "revelada")) { telaResultado.esconder(); S.pararResultado(); }
   }
 
   // Respostas da rodada em jogo: ouvidas de novo a cada rodada.
@@ -614,6 +644,7 @@
     desligarRespostas = null; nRespostas = null;
     suspense = null; abertaVista = null;
     contagem.esconder();
+    telaResultado.esconder(); S.pararResultado();
     fecharMenu();
     codigo = null; partida = {}; jogadores = []; respostas = []; usadas = new Map();
     history.replaceState(null, "", location.pathname);
@@ -671,17 +702,12 @@
       const lidas = (await getDocsFromServer(query(collection(base, "respostas"), where("n", "==", r.n)))).docs.map(d => d.data());
       const ids = new Set(jogadores.map(j => j.id));
       const acertaram = [...new Set(lidas.filter(x => x.opcao === certa && ids.has(x.jogador)).map(x => x.jogador))];
-      // Quem acertou na casa do tema da pergunta anda duas ("rodada.dobro", para os celulares e a lista mostrarem).
-      const dobro = jogadores.filter(j => acertaram.includes(j.id) && andaDuas(j, r.tema)).map(j => j.id);
-      const passo = id => dobro.includes(id) ? 2 : 1;
-      // Casa especial (2026-11-24): se um ou mais acertam numa casa ★, todos os que estão à frente do mais atrasado deles
-      // voltam uma casa (uma só, mesmo com vários), menos os que acertaram nas ★ ("rodada.recuo"). Quem está à frente e
-      // também acertou anda e volta: o saldo é o que conta, também para chegar.
-      const naEstrela = jogadores.filter(j => acertaram.includes(j.id) && L.ehEspecial(casaDe(j)));
-      const atras = naEstrela.length ? Math.min(...naEstrela.map(casaDe)) : Infinity;
-      const recuo = jogadores.filter(j => casaDe(j) > atras && !naEstrela.includes(j)).map(j => j.id);
-      const saldo = id => (acertaram.includes(id) ? passo(id) : 0) - (recuo.includes(id) ? 1 : 0);
+      // Quanto cada um anda (L.andadasDaArena): uma casa por acerto; duas para quem acertou sozinho ou na casa do tema
+      // ("rodada.dobro", para os celulares e a lista mostrarem); a casa ★ faz quem está à frente voltar uma
+      // ("rodada.recuo"); se todos acertaram, ninguém anda ("rodada.todos"). O saldo é o que conta, também para chegar.
+      const { todos, dobro, recuo, saldo } = L.andadasDaArena(jogadores.map(j => ({ id: j.id, casa: casaDe(j) })), acertaram, r.tema, partida.semente);
       const mudar = { "rodada.fase": "revelada", "rodada.certa": certa, "rodada.dobro": dobro, "rodada.recuo": recuo };
+      if (todos) mudar["rodada.todos"] = true;
       const chegaram = jogadores.filter(j => saldo(j.id) > 0 && (j.pontos || 0) + saldo(j.id) >= L.CHEGADA).map(j => j.id);
       if (chegaram.length && !servidor.fim) {
         const inicio = servidor.inicio?.toMillis?.() ?? Date.now();
@@ -718,6 +744,7 @@
   // tique-taque a cada segundo do prazo e um aviso quando ele acaba. Só para a rodada vista aberta neste aparelho.
   let relogioDe = null, segundoTocado = null;  // rodada e último segundo já tocados
   setInterval(() => {
+    vigiarResultado();
     desenharAvisoProxima();  // a contagem da próxima pergunta, com o som dela, no passo de 50 ms (ritmo certo)
     const r = partida.rodada;
     if (!codigo || !r || r.fase !== "respondendo" || !partida.experimental || !r.inicio || r.inicio.toMillis() > agora() + 1000) return;
@@ -744,7 +771,7 @@
     } else if (r.fase === "encerrada" && Date.now() - tentouFecharEm > 3000) {
       fechar();
     } else if (r.fase === "revelada" && automatico && !partida.fim && !ocupado) {
-      if (proximaEm === null && agendadaPara !== r.n && todosResponderam() && !emSuspense()) {
+      if (proximaEm === null && agendadaPara !== r.n && todosResponderam() && !emSuspense() && !emResultado()) {
         agendadaPara = r.n;
         marcarProxima(r.n);
         desenharControles();
@@ -1032,20 +1059,23 @@
   // animação do tema da próxima pergunta (arena-contagem.js; a mesma nos celulares).
   function desenharAvisoProxima() {
     const r = partida.rodada;
-    const ver = Boolean(codigo) && r?.fase === "revelada" && proximaEm !== null && !emSuspense() && !partida.fim;
+    const ver = Boolean(codigo) && r?.fase === "revelada" && proximaEm !== null && !emSuspense() && !emResultado() && !partida.fim;
     if (!ver) {
       // Interrompida antes do zero (pausa, fim da partida): a torcida do futebol para junto. No zero, deixa o gol soar.
       if (contagemSomFim !== null && Date.now() < contagemSomFim - 400) S.pararContagem();
       contagemSomFim = null;
       return contagem.esconder();
     }
+    // Se a próxima posição da sequência dos temas é ★ Qualquer (a rodada n + 1 usa a posição n), entra uma roleta que para
+    // no tema da pergunta sorteada (arena-roleta.js), no lugar da cena do tema.
+    const ordem = L.ordemDaArena(partida.semente), qualquer = ordem[r.n % ordem.length] === L.QUALQUER;
     const s = contagem.mostrar(proximaSorteada?.p?.tema || "", proximaEm - Date.now(), ESPERA_PROXIMA,
-      (partida.semente || 0) * 31 + r.n);  // a chave do sorteio da cena (a mesma nos celulares)
+      (partida.semente || 0) * 31 + r.n, null, qualquer);  // a chave do sorteio da cena (a mesma nos celulares)
     // Som da contagem (experimental, com "Sons e suspense"): o próprio da cena (as de Esportes) ou um dos 10, sorteado a
-    // cada contagem, junto com o número.
+    // cada contagem, junto com o número; nas roletas, todos os sons dela, marcados no primeiro segundo.
     if (s !== null && partida.experimental) {
       if (contagemSom !== proximaEm) { contagemSom = proximaEm; S.novaContagem(); }
-      S.somContagem(s, contagem.cena);
+      S.somContagem(s, contagem.cena, contagem.roleta);
       contagemSomFim = proximaEm;
     }
   }
@@ -1057,7 +1087,7 @@
       const x = respostas.find(x => x.jogador === j.id);
       let estado = "", classe = "";
       if (fase === "revelada") [estado, classe] = x?.opcao === r.certa
-        ? [(r.dobro || []).includes(j.id) ? " +2" : " +1", "acertou"] : [x ? " ✗" : " –", "errou"];
+        ? [r.todos ? " +0" : (r.dobro || []).includes(j.id) ? " +2" : " +1", "acertou"] : [x ? " ✗" : " –", "errou"];
       else if (r && x) [estado, classe] = [" ✓", "respondeu"];
       if (fase === "revelada" && (r.recuo || []).includes(j.id)) estado += " −1★";
       const chefe = partida.capataz === j.id ? `<span class="capataz" title="Capataz">👷</span>` : "";
