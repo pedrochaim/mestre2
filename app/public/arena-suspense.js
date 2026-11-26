@@ -77,6 +77,7 @@ function saida(g, pan, comEco) {
 const tocandoTrechos = new Set();
 async function trecho(nome, { em = 0, de = 0, dur, envelope = [[0, 1]] }) {
   if (!pronto()) return;
+  const g0 = ganho;  // o ganho da cena: quando o arquivo chega, ele já voltou a 1
   let t0 = audio.currentTime + .01 + em;
   const b = await buffers[nome];
   if (!b || !pronto()) return;
@@ -87,7 +88,7 @@ async function trecho(nome, { em = 0, de = 0, dur, envelope = [[0, 1]] }) {
   fonte.buffer = b;
   g.gain.setValueAtTime(.0001, t0);
   const ja = Math.max(0, atraso);
-  for (const [t, v] of envelope) if (t >= ja) g.gain.linearRampToValueAtTime(v, t0 - ja + t);
+  for (const [t, v] of envelope) if (t >= ja) g.gain.linearRampToValueAtTime(v * g0, t0 - ja + t);
   g.gain.linearRampToValueAtTime(0, t0 + dur);
   fonte.connect(g).connect(mestre);
   const item = { fonte, g };
@@ -369,40 +370,41 @@ export function somEsgotado() {
 
 // Dez sons para a contagem "Próxima pergunta em X s" (2026-11-23). A cada contagem sai um, sorteado, nunca o mesmo da
 // vez anterior; toca um som por segundo, de 10 a 1, mais forte nos 3 últimos. No 0, nada: o som de início da pergunta
-// seguinte (somInicio) fecha a contagem.
+// seguinte (somInicio) fecha a contagem. O ganho de cada um (2026-11-26) foi medido como o das cenas: os três últimos
+// segundos perto de -22 LUFS, com pico até 0,85 (o tambor militar fica um pouco abaixo, pelo pico).
 const CONTAGENS = [
-  { nome: "Bipes de rádio",
+  { nome: "Bipes de rádio", ganho: 2.4,
     segundo: s => tom({ f: s <= 3 ? 1320 : 880, dur: s <= 3 ? .16 : .08, vol: s <= 3 ? .3 : .18 }) },
-  { nome: "Sonar",
+  { nome: "Sonar", ganho: 0.55,
     segundo: s => { sino(s <= 3 ? 1500 : 1150, { dur: .9, vol: s <= 3 ? .3 : .18 });
                     if (s <= 3) sino(1500, { dur: .6, vol: .2, em: .16 }); } },
-  { nome: "Tambor militar",
+  { nome: "Tambor militar", ganho: 1.09,
     segundo: s => { ruido({ dur: .09, vol: s <= 3 ? .5 : .32, tipo: "highpass", f: 1800 }); tom({ f: 180, f2: 140, dur: .08, vol: .2 });
                     if (s <= 3) for (let k = 1; k < 4; k++) ruido({ dur: .05, vol: .25, tipo: "highpass", f: 1800, em: k * .07 }); } },
-  { nome: "Pêndulo",
+  { nome: "Pêndulo", ganho: 0.57,
     segundo: s => s <= 3 ? sino([523, 587, 659][3 - s], { dur: 1.1, vol: .3 })
                          : ruido({ dur: .035, vol: .4, tipo: "bandpass", f: s % 2 ? 3400 : 2300, q: 6 }) },
-  { nome: "Escada que sobe",
+  { nome: "Escada que sobe", ganho: 3.05,
     segundo: s => tom({ f: nota(60 + [0, 2, 4, 5, 7, 9, 11, 12, 14, 16][10 - Math.min(10, s)]), tipo: "square", dur: s <= 3 ? .25 : .12,
                         vol: s <= 3 ? .16 : .1, filtro: { f: 2800 } }) },
-  { nome: "Largada de corrida",
+  { nome: "Largada de corrida", ganho: 2.24,
     segundo: s => s <= 3 ? tom({ f: s === 1 ? 880 : 440, tipo: "square", dur: s === 1 ? .45 : .22, vol: .16 })
                          : tom({ f: 330, tipo: "square", dur: .05, vol: .08 }) },
-  { nome: "Marimba que desce",
+  { nome: "Marimba que desce", ganho: 0.61,
     segundo: s => marimba(nota([84, 81, 79, 76, 74, 72, 69, 67, 64, 60][10 - Math.min(10, s)]), { vol: s <= 3 ? .45 : .3 }) },
-  { nome: "Coração",
+  { nome: "Coração", ganho: 0.68,
     segundo: s => { const f = s <= 3 ? 1 : .6;
                     tom({ f: 70, f2: 38, dur: .2, vol: .9 * f, ataque: .012 }); tom({ f: 70, f2: 38, dur: .2, vol: .5 * f, ataque: .012, em: .17 }); } },
-  { nome: "Gotas",
+  { nome: "Gotas", ganho: 1.66,
     segundo: s => { const f = (s <= 3 ? 900 : 1300) + Math.random() * 200;
                     tom({ f, f2: f * 2.2, dur: .12, vol: s <= 3 ? .35 : .22, ataque: .004, comEco: true }); } },
-  { nome: "Dim-dom",
+  { nome: "Dim-dom", ganho: 0.59,
     segundo: s => { const [a, b] = s % 2 ? [988, 784] : [784, 988];
                     sino(a, { dur: .7, vol: s <= 3 ? .28 : .16 }); if (s <= 3) sino(b, { dur: .9, vol: .24, em: .18 }); } },
 ];
 
 // Sons próprios de algumas cenas da contagem (arena-contagem.js), no lugar do sorteado entre os dez de cima
-// (2026-11-24: as cinco de Esportes; 2026-11-26: as dez novas de Entretenimento e as dez de Geografia). A chave é a da cena ("tema|n", a de contagem.cena). segundo(s) toca a cada número,
+// (2026-11-24: as cinco de Esportes; 2026-11-26: as dez novas de Entretenimento, as dez de Geografia e as sete de Ciências). A chave é a da cena ("tema|n", a de contagem.cena). segundo(s) toca a cada número,
 // de 7 a 1, no ritmo da animação; zero(em) toca o fim da cena (gol, apito, buzina, aplauso, largada), marcado no 1 para
 // daqui a "em" segundos, porque no jogo o 0 mal aparece antes da pergunta seguinte.
 const chute = (vol, pan, em = 0) => { tom({ f: 150, f2: 55, dur: .12, vol, ataque: .003, em, pan });
@@ -573,13 +575,26 @@ const SOM_BIOMA = {
              [0, .16, .32].forEach(t => piado(.3 + t, 2900, 2400, .1, .12, -.3)); },
   1: () => { ruido({ dur: 1, vol: .22, tipo: "lowpass", f: 380, f2: 1100, ataque: .45 }); [.45, .75].forEach(t => piado(t, 1500, 1050, .25, .1)); },  // Costa: onda e gaivota
 };
+// ---- Ciências (2026-11-26): os sons das sete cenas novas ("Ciências|1" a "|7"; a 0, o átomo, segue com o som sorteado).
+// Instrumentos a mais:
+const clique = (em, vol = .4) => { ruido({ dur: .012, vol, f: 2500, q: 1, ataque: .001, em }); tom({ f: 190, f2: 110, dur: .035, vol: vol * .5, ataque: .002, em }); };  // um relé
+const gotaPlink = (em, f = 700, vol = .3) => { tom({ f, f2: f * 2.4, dur: .07, vol, ataque: .002, em }); tom({ f: f * 2, f2: f * 3.4, dur: .04, vol: vol * .25, ataque: .002, em }); };
+const bolhas = (n, janela, em = 0, vol = .06) => { for (let k = 0; k < n; k++) { const f = 380 + Math.random() * 600; tom({ f, f2: f * 1.7, dur: .045, vol, ataque: .004, em: em + Math.random() * janela }); } };
+const giz = (em, dur = .09, vol = .22) => { ruido({ dur, vol, f: 2800 + Math.random() * 1800, q: 2.2, ataque: .012, em });  // o risco e, às vezes, o rangido
+  if (Math.random() < .25) tom({ f: 2300 + Math.random() * 500, dur: .06, vol: .025, ataque: .01, em, vibrato: { f: 45, prof: 70 } }); };
+const bipeMonitor = (em, f = 1046.5, vol = .12, dur = .1) => tom({ f, dur, vol, ataque: .004, em, sustenta: true });  // o bipe reto do monitor
+// O coração: duas batidas (tum-tum), com corpo nos médios para a TV não engolir o grave.
+const tumTum = (em, vol = .8, vao = .17) => [[0, 1], [vao, .6]].forEach(([t, k]) => { tom({ f: 120, f2: 62, dur: .16, vol: vol * k, ataque: .008, em: em + t });
+  ruido({ dur: .07, vol: vol * k * .25, tipo: "lowpass", f: 320, em: em + t }); });
+const RISCOS_CONTA = { 7: 5, 6: 2, 5: 3, 4: 5, 3: 3, 2: 7, 1: 8 };  // riscos de giz da conta de cada segundo, mais ou menos o tamanho dela
+const bitsMudados = s => s === 7 ? 3 : ((s + 1) ^ s).toString(2).replace(/0/g, "").length;  // 111 liga os três; depois 1, 2, 1, 3, 1, 2
 const SONS_CENAS = {
   // Futebol (2026-11-24, a sugestão 2 de cinco com torcida gravada): a hinchada do Independiente ao fundo, crescendo nos três
   // últimos segundos, e um chute a cada passe, a bola indo da esquerda para a direita. No zero, o chute a gol, a rede e a
   // explosão do gol de Cali. A torcida começa no primeiro segundo que toca (do ponto certo, se a contagem já ia no meio)
   // e acaba logo depois do zero.
   "Esportes|0": {
-    nome: "Hinchada e gol",
+    nome: "Hinchada e gol", ganho: [0.43, 0.35],
     segundo: s => {
       if (audio.currentTime >= torcidaAte) {
         const fim = s + .8, sobe = Math.max(.25, s - 3);
@@ -593,7 +608,7 @@ const SONS_CENAS = {
                   trecho("torcidaGol", { em: em + .15, dur: 4.2, envelope: [[.05, 1], [1.8, 1], [4, .15]] }); } },
   // Vôlei: a manchete a cada segundo, de um lado e do outro da rede; nos três últimos, cortadas. No zero, o apito do juiz.
   "Esportes|1": {
-    nome: "Manchetes e apito",
+    nome: "Manchetes e apito", ganho: [1.74, 0.58],
     segundo: s => { const pan = s % 2 ? -.5 : .5, forte = s <= 3;
                     tom({ f: forte ? 190 : 160, f2: 100, dur: .1, vol: forte ? .6 : .45, ataque: .003, pan });
                     ruido({ dur: forte ? .08 : .06, vol: forte ? .45 : .3, f: forte ? 1300 : 900, q: 1.4, pan }); },
@@ -601,7 +616,7 @@ const SONS_CENAS = {
   // Basquete: o drible no meio de cada segundo (quando a bola bate no chão) e o tique do relógio de posse, que vira bipe
   // nos três últimos. No zero, a buzina, enquanto a luz da tabela pisca.
   "Esportes|2": {
-    nome: "Drible e buzina",
+    nome: "Drible e buzina", ganho: [0.78, 0.63],
     segundo: s => { tom({ f: s <= 3 ? 1000 : 1500, tipo: s <= 3 ? "sine" : "square", dur: s <= 3 ? .12 : .025, vol: s <= 3 ? .18 : .04 });
                     tom({ f: 120, f2: 65, dur: .13, vol: .7, ataque: .003, em: .5 });
                     ruido({ dur: .05, vol: .3, tipo: "lowpass", f: 500, em: .5 });
@@ -610,7 +625,7 @@ const SONS_CENAS = {
       tom({ f, tipo, dur: 1.4, vol: .17, ataque: .02, em, sustenta: true, filtro: { f: 2200 }, comEco: true })) },
   // Tênis: a raquetada de um lado e o quique da bola no saibro do outro, a cada segundo. No zero, o aplauso.
   "Esportes|3": {
-    nome: "Raquetadas e aplauso",
+    nome: "Raquetadas e aplauso", ganho: [1.48, 1.95],
     segundo: s => { const lado = s % 2 ? .55 : -.55;  // onde a bola quica; a raquetada sai do outro lado
                     tom({ f: 950, f2: 520, dur: .06, vol: .6, ataque: .002, pan: -lado });
                     ruido({ dur: .05, vol: .7, f: 1900, q: 2, pan: -lado });
@@ -620,7 +635,7 @@ const SONS_CENAS = {
   // Automobilismo: o motor em marcha lenta; um bipe a cada luz vermelha que acende (de 7 a 3); nos dois últimos, o motor
   // acelera parado. No zero, o bipe agudo das luzes verdes e o carro arrancando, com o pneu cantando.
   "Esportes|4": {
-    nome: "Luzes e motor",
+    nome: "Luzes e motor", ganho: [0.77, 1.84],
     segundo: s => { const acelera = s <= 2;
                     tom({ f: acelera ? 70 : 52, f2: acelera ? 105 : 50, tipo: "sawtooth", dur: 1.05, vol: acelera ? .16 : .11, ataque: .05,
                           sustenta: true, filtro: { f: acelera ? 700 : 380 }, vibrato: { f: acelera ? 26 : 16, prof: 3 } });
@@ -632,7 +647,7 @@ const SONS_CENAS = {
   // Entretenimento (2026-11-26). Claquete: o estalo a cada segundo, junto da haste batendo; nos três últimos, a câmera
   // rodando. No zero, o estalo, a câmera e um golpe de orquestra ("Ação!").
   "Entretenimento|1": {
-    nome: "Claquete e câmera rodando", ganho: [1.15, 0.62],
+    nome: "Claquete e câmera rodando", ganho: [0.9, 0.62],
     segundo: s => { estalo(.08, s <= 3 ? 1 : .8); if (s <= 3) rolar(1, .05 + .025 * (3 - s)); },
     zero: em => { estalo(em + .02, 1.25); rolar(1.4, .1, em);
                   [60, 64, 67, 72, 76].forEach(m => tom({ f: nota(m), tipo: "sawtooth", dur: 1.5, vol: .05, ataque: .04, em: em + .1, filtro: { f: 900, f2: 3400 }, comEco: true }));
@@ -714,7 +729,7 @@ const SONS_CENAS = {
   // Nave: a nave se move, o laser aos 0,3 s e a explosão aos 0,45 s, como na animação; nos três últimos, o alarme. No zero,
   // o salto de fase e a musiquinha da fase nova.
   "Entretenimento|10": {
-    nome: "Laser, explosão e salto de fase", ganho: [2.11, 3.16],
+    nome: "Laser, explosão e salto de fase", ganho: [2.11, 4.2],
     segundo: s => {
       tom({ f: 260, f2: 420, tipo: "square", dur: .07, vol: .04 });
       tom({ f: 1900, f2: 240, tipo: "square", dur: .17, vol: .09, em: .3 }); tom({ f: 950, f2: 120, tipo: "sawtooth", dur: .17, vol: .04, em: .3 });
@@ -798,7 +813,7 @@ const SONS_CENAS = {
   },
   // Geografia, o Rio São Francisco.
   "Geografia|8": {
-    nome: "Água correndo e mar", ganho: [1.7, 3.16],
+    nome: "Água correndo e mar", ganho: [1.7, 4.6],
     segundo: s => { const k = 7 - s;
       ruido({ dur: 1.05, vol: .04 + .018 * k, f: 900, q: .45, ataque: .15, sustenta: true });
       for (let j = 0; j < 3 + k; j++) { const f = 500 + Math.random() * 700, t = Math.random() * .9; tom({ f, f2: f * 1.9, dur: .06, vol: .05, ataque: .004, em: t }); }  // bolhas
@@ -822,6 +837,99 @@ const SONS_CENAS = {
     segundo: s => SOM_BIOMA[s]?.(),
     zero: em => [60, 64, 67, 72, 76].forEach((m, k) => sino(nota(m), { dur: 1.3, vol: .1, em: em + k * .09 })),
   },
+  // Ciências, o foguete: o bipe da contagem; desde a ignição (6), o ronco crescendo; estalos de fogo nos três últimos. No
+  // zero, o bipe longo, o estrondo e o rugido que vai abrindo.
+  "Ciências|1": {
+    nome: "Contagem da torre e decolagem", ganho: [1.71, 0.39],
+    segundo: s => { const k = 7 - s;
+      tom({ f: 880, dur: .09, vol: .12, ataque: .003 }); tom({ f: 1760, dur: .05, vol: .03, ataque: .003 });
+      if (s === 6) ruido({ dur: .8, vol: .45, tipo: "lowpass", f: 900, f2: 220, ataque: .02 });
+      if (s <= 6) { ruido({ dur: 1.05, vol: .1 + .04 * k, tipo: "lowpass", f: 320, q: .7, ataque: .1, sustenta: true });
+                    ruido({ dur: 1.05, vol: .03 + .012 * k, f: 650, q: .8, ataque: .1, sustenta: true }); }
+      if (s <= 3) for (let j = 0; j < 10 + 4 * (3 - s); j++) ruido({ dur: .02, vol: .12, tipo: "highpass", f: 1800, ataque: .002, em: Math.random() * .95 });
+    },
+    zero: em => { tom({ f: 880, dur: .45, vol: .14, em }); tom({ f: 90, f2: 34, dur: 1.8, vol: .9, ataque: .006, em });
+                  ruido({ dur: 2.6, vol: .55, tipo: "lowpass", f: 300, f2: 1800, q: .7, ataque: .05, em, comEco: true });
+                  ruido({ dur: 2.2, vol: .18, f: 900, q: .6, ataque: .3, em: em + .1, sustenta: true });
+                  for (let j = 0; j < 30; j++) ruido({ dur: .025, vol: .14, tipo: "highpass", f: 2000, ataque: .002, em: em + .1 + Math.random() * 2 }); },
+  },
+  // Ciências, o eclipse: um acorde que vai fechando o filtro, escurecendo com o céu; grilos a partir do 3. No zero, um coro
+  // (senos com vibrato e serras numa formante de "a") e o brilho do anel de diamante, sem batida.
+  "Ciências|2": {
+    nome: "Acorde que escurece e coro", ganho: [1.81, 1.04],
+    segundo: s => { const k = 7 - s, corte = 2600 * Math.pow(.72, k);
+      [57, 60, 64, 71].forEach(m => tom({ f: nota(m), tipo: "sawtooth", dur: 1.15, vol: .03, ataque: .15, sustenta: true, filtro: { f: corte } }));
+      sino(nota(93 - k), { dur: .9, vol: .03 });
+      if (s <= 3) [.1, .55].forEach(t => { for (let j = 0; j < 4; j++) tom({ f: 4400, dur: .018, vol: .035, ataque: .002, em: t + j * .035 }); });
+    },
+    zero: em => {
+      [57, 64, 69, 73, 76].forEach((m, j) => {
+        tom({ f: nota(m), dur: 2.8, vol: .07, ataque: .5, em, sustenta: true, vibrato: { f: 5 + j * .3, prof: 3 }, comEco: true });
+        tom({ f: nota(m), tipo: "sawtooth", dur: 2.8, vol: .018, ataque: .5, em, sustenta: true, filtro: { tipo: "bandpass", f: 800, q: 1.5 }, comEco: true }); });
+      [88, 95, 100].forEach((m, j) => sino(nota(m), { dur: 1.6, vol: .05, em: em + .02 + j * .12 }));
+    },
+  },
+  // Ciências, o colisor: um zumbido que sobe um semitom por segundo e um sopro, de um lado para o outro, cada vez que os
+  // feixes se cruzam (mais vezes no fim). No zero, o impacto, a crepitação do detector e o zumbido descendo.
+  "Ciências|3": {
+    nome: "Zumbido que sobe e colisão", ganho: [1.24, 0.51],
+    segundo: s => { const k = 7 - s, f = 98 * Math.pow(2, k / 12), n = [1, 5, 4, 3, 2, 2, 1, 1][s];
+      tom({ f, f2: f * Math.pow(2, 1 / 12), tipo: "sawtooth", dur: 1.04, vol: .05, ataque: .05, sustenta: true, filtro: { f: 700 + 160 * k } });
+      tom({ f: f * 2, f2: f * 2 * Math.pow(2, 1 / 12), dur: 1.04, vol: .04, ataque: .05, sustenta: true });
+      for (let j = 0; j < n; j++) ruido({ dur: .2, vol: .2, f: 700, f2: 3200, q: 1.4, ataque: .12, em: j / n + .05, pan: j % 2 ? .6 : -.6 });
+    },
+    zero: em => { const f = 98 * Math.pow(2, 7 / 12);
+      tom({ f: 140, f2: 40, dur: 1, vol: .9, ataque: .004, em }); ruido({ dur: 1.4, vol: .55, tipo: "lowpass", f: 2400, f2: 200, ataque: .004, em, comEco: true });
+      for (let j = 0; j < 46; j++) ruido({ dur: .006, vol: .25 + Math.random() * .3, tipo: "highpass", f: 2600, ataque: .001, em: em + .05 + Math.pow(Math.random(), 1.6) * 1.6,
+                                           pan: Math.random() * 1.4 - .7 });
+      tom({ f, f2: 55, tipo: "sawtooth", dur: 1.6, vol: .06, ataque: .01, em, filtro: { f: 1600, f2: 260 } }); },
+  },
+  // Ciências, a lousa: o giz escrevendo a conta (riscos rápidos, um rangido de vez em quando), as batidinhas do sinal de
+  // igual e o número. No zero, a identidade de Euler, o sublinhado duplo, o C.Q.D., a batida do giz e um sino.
+  "Ciências|4": {
+    nome: "Giz na lousa e sino", ganho: [3.6, 1.36],
+    segundo: s => { const n = RISCOS_CONTA[s];
+      for (let j = 0; j < n; j++) giz(.02 + j * .5 / n, .05 + Math.random() * .06);
+      [.56, .62].forEach(t => ruido({ dur: .02, vol: .3, f: 1900, q: 3, ataque: .002, em: t }));
+      giz(.66, .12, .26); giz(.8, .1, .24); },
+    zero: em => { for (let j = 0; j < 4; j++) giz(em + .02 + j * .11, .07);
+      ruido({ dur: .2, vol: .26, f: 3000, f2: 3800, q: 2, ataque: .03, em: em + .2 }); ruido({ dur: .2, vol: .24, f: 2900, f2: 3600, q: 2, ataque: .03, em: em + .4 });
+      [.66, .8, .94].forEach(t => giz(em + t, .08, .2));
+      ruido({ dur: .03, vol: .45, f: 1500, q: 2.5, ataque: .002, em: em + 1.1 }); tom({ f: 700, dur: .04, vol: .15, em: em + 1.1 });
+      sino(nota(84), { dur: 1.6, vol: .16, em: em + 1.14 }); sino(nota(91), { dur: 1.8, vol: .12, em: em + 1.28 }); },
+  },
+  // Ciências, o registrador binário: o tique do relógio, um clique de relé para cada bit que muda e o ventilador; nos três
+  // últimos, a máquina calculando (bipes rápidos). No zero, o último relé, o bipe de inicialização, o disco procurando e um
+  // arpejo de bipes quadrados que termina num acorde.
+  "Ciências|5": {
+    nome: "Relés e bipe de inicialização", ganho: [2.85, 1.93],
+    segundo: s => { tom({ f: 2000, tipo: "square", dur: .015, vol: .03 });
+      for (let j = 0; j < bitsMudados(s); j++) clique(.03 + j * .07, .45);
+      tom({ f: 120, tipo: "sawtooth", dur: 1.04, vol: .02, ataque: .1, sustenta: true, filtro: { f: 600 } });
+      if (s <= 3) for (let j = 0; j < 8; j++) tom({ f: 1200 + Math.random() * 1800, tipo: "square", dur: .03, vol: .035, em: .3 + j * .08, filtro: { f: 4000 } }); },
+    zero: em => { clique(em + .03, .6); tom({ f: 1000, tipo: "square", dur: .45, vol: .3, em: em + .2, filtro: { f: 3000 } });
+      for (let j = 0; j < 12; j++) { ruido({ dur: .012, vol: .35, f: 900, q: 2, ataque: .001, em: em + .7 + j * .035 });
+                                     tom({ f: 180, tipo: "square", dur: .014, vol: .12, em: em + .7 + j * .035 }); }
+      [72, 76, 79, 84].forEach((m, j) => tom({ f: nota(m), tipo: "square", dur: j === 3 ? .8 : .08, vol: .22, em: em + 1.15 + j * .08, filtro: { f: 3000 } }));
+      [67, 76].forEach(m => tom({ f: nota(m), tipo: "square", dur: .8, vol: .1, em: em + 1.39, filtro: { f: 2400 } })); },
+  },
+  // Ciências, o pH: a gota caindo no líquido (um pouco mais aguda a cada segundo, como o nível que sobe) e o líquido mexendo;
+  // bolhas a partir do 3. No zero, a efervescência e o vapor.
+  "Ciências|6": {
+    nome: "Gotas e efervescência", ganho: [2.2, 0.94],
+    segundo: s => { gotaPlink(.43, 620 + (7 - s) * 45, .3); ruido({ dur: .05, vol: .08, tipo: "highpass", f: 3000, ataque: .002, em: .43 });
+      ruido({ dur: .6, vol: .035, tipo: "lowpass", f: 700, ataque: .2, em: .45 });
+      if (s <= 3) bolhas((4 - s) * 5, .95, 0, .05); },
+    zero: em => { ruido({ dur: 2.2, vol: .22, tipo: "highpass", f: 3800, ataque: .06, em, sustenta: true });
+      bolhas(60, 2, em, .07); ruido({ dur: 1.2, vol: .12, f: 800, f2: 2600, q: .8, ataque: .5, em: em + .3 }); },
+  },
+  // Ciências, o monitor cardíaco: o bipe e o tum-tum de cada batida, 0,25 s depois da troca do número, quando o traço
+  // passa; dois por segundo nos três últimos. No zero, a batida forte e três bipes subindo (nunca um tom contínuo).
+  "Ciências|7": {
+    nome: "Bipe do monitor e coração disparado", ganho: [0.82, 1.3],
+    segundo: s => (s <= 3 ? [.25, .75] : [.25]).forEach(t => { bipeMonitor(t); tumTum(t, s <= 3 ? .8 : .65, s <= 3 ? .12 : .17); }),
+    zero: em => { tumTum(em + .25, .45, .14); [1046.5, 1318.5, 1568].forEach((f, j) => bipeMonitor(em + .25 + j * .14, f, .2, j === 2 ? .35 : .13)); },
+  },
 };
 let contagemDaVez = -1;
 // Uma contagem nova começou: sorteia o som dela (o das cenas sem som próprio) e devolve o nome dele.
@@ -843,7 +951,9 @@ export function somContagem(s, cena) {
     return;
   }
   if (contagemDaVez < 0) novaContagem();
-  CONTAGENS[contagemDaVez].segundo(s);
+  const c = CONTAGENS[contagemDaVez];
+  try { ganho = c.ganho || 1; c.segundo(s); }
+  finally { ganho = 1; }
 }
 // O nome do som próprio da cena, ou null (a galeria, contagens.html, mostra qual som está tocando).
 export const somDaCena = cena => SONS_CENAS[cena]?.nome || null;

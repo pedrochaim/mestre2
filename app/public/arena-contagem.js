@@ -2,7 +2,9 @@
 // (jogar.html). Desde 2026-11-24, a animação é a do TEMA DA PRÓXIMA PERGUNTA (sorteada pela tela grande quando a contagem
 // começa e gravada em "proxima.tema"): Geografia, uma de onze cenas (o globo e, desde 2026-11-26, dez com som
 // próprio: aeroporto, bússola, monumentos, bandeiras, idiomas, vulcão, Everest, Rio São Francisco, farol e biomas); História, uma de cinco cenas (abaixo); Natureza, o
-// broto; Artes e Pensamento, a pincelada; Cotidiano, o despertador; Ciências, o átomo; Entretenimento, uma de onze cenas
+// broto; Artes e Pensamento, a pincelada; Cotidiano, o despertador; Ciências, uma de oito cenas (o átomo e, desde
+// 2026-11-26, sete com som próprio: foguete, eclipse, colisor de partículas, lousa, registrador binário, pH e monitor
+// cardíaco); Entretenimento, uma de onze cenas
 // (o começo do filme e, desde 2026-11-26, claquete, pipoca, TV de tubo, toca-discos, violão, quadrinhos, mangá, cartas,
 // fliperama e nave, estas com som próprio); Esportes, uma de cinco cenas (futebol, vôlei, basquete, tênis e automobilismo), sorteada como a de História e sem
 // olhar o subtema da pergunta. Sem tema conhecido, o número gigante. Primeira versão de cada uma (os protótipos de
@@ -827,13 +829,236 @@ const CSS = `
 .contagem .ge-bio .bico { animation: ct-ge-bico .3s steps(2) infinite; }
 @keyframes ct-ge-bico { 50% { transform: translateY(-.6px); } }
 
+/* Ciências (2026-11-26): oito cenas, uma sorteada a cada contagem, sem olhar o subtema: o átomo (acima) e sete com som
+   próprio (arena-suspense.js): foguete, eclipse, colisor de partículas, lousa, registrador binário, indicador de pH e
+   monitor cardíaco. As fontes Caveat (o giz da lousa) e VT323 (o terminal) são carregadas por instalarCss(). */
+.contagem .ci svg { display: block; overflow: visible; height: auto; max-width: 100%; }
+.contagem .ci .grito { font: 900 calc(3.2 * var(--u))/1 var(--fonte, sans-serif); color: #FFD100; letter-spacing: .06em; text-transform: uppercase;
+                       opacity: 0; text-shadow: 0 0 calc(1.5 * var(--u)) #000; }
+.contagem.fim .ci .grito { animation: ct-grito .6s cubic-bezier(.2, 1.6, .4, 1) both; }
+/* Ciências: o número padrão das cenas, com o brilho magenta do tema; dentro de um SVG, em unidades do desenho. */
+.contagem .ci .num { font-size: calc(10 * var(--u)); text-shadow: 0 0 calc(2 * var(--u)) #E4007C, 0 0 var(--u) #000; animation: ct-pulso 1s ease-out both; }
+.contagem .ci text.num { fill: #fff; text-anchor: middle; dominant-baseline: central; text-shadow: none; paint-order: stroke; stroke: #000;
+                         stroke-width: 2px; stroke-linejoin: round; transform-box: fill-box; transform-origin: center; }
+
+/* 1 · Foguete: o relógio da torre conta T−7; o braço de acesso recolhe, os motores acendem no 6 e o vapor sobe; nos três
+   últimos o foguete treme, ainda preso; no zero, decola. */
+.contagem .ci-fog .relogio { display: flex; align-items: baseline; gap: calc(.5 * var(--u)); background: #0c0d10; border-radius: var(--u);
+  padding: calc(.9 * var(--u)) calc(1.8 * var(--u)) calc(.5 * var(--u)); box-shadow: 0 0 0 calc(.25 * var(--u)) #2A2D33; }
+.contagem .ci-fog .relogio .t { font: 600 calc(4.6 * var(--u))/1 var(--mono, monospace); color: #A0A4AB; }
+.contagem .ci-fog .num { font: 600 calc(8 * var(--u))/1 var(--mono, monospace); }
+.contagem .ci-fog svg { width: calc(44 * var(--u)); }
+.contagem .ci-fog .estrela { fill: #F4F4F2; animation: ct-en-piscar 2.6s ease-in-out infinite; }
+.contagem .ci-fog .brilho { opacity: calc(var(--chama, 0) * .55); transition: opacity .6s; }
+.contagem .ci-fog .torre { fill: none; stroke: #5a5f69; stroke-width: .9; }
+.contagem .ci-fog .braco { fill: #A0A4AB; transform-origin: 72px 39.5px; transition: transform 1s ease-in-out; }
+.contagem .ci-fog .braco.recolhido { transform: rotate(-118deg); }
+.contagem .ci-fog .chama { transform-origin: 100px 97px; transform: scaleY(var(--chama, 0)); transition: transform .6s ease-out; }
+.contagem .ci-fog .labareda { transform-origin: 100px 97px; animation: ct-ci-labareda .09s steps(2) infinite; }
+@keyframes ct-ci-labareda { 50% { transform: scale(.88, 1.1); } }
+.contagem.ultimos .ci-fog .tremor { animation: ct-ci-tremor .09s linear infinite; }
+@keyframes ct-ci-tremor { 0%, 100% { transform: translate(0, 0); } 25% { transform: translate(-.6px, .3px); } 75% { transform: translate(.6px, -.3px); } }
+.contagem.fim .ci-fog .foguete { animation: ct-ci-decola 1.9s cubic-bezier(.55, 0, .85, .45) .1s both; }
+@keyframes ct-ci-decola { to { transform: translateY(-150px); } }
+.contagem .ci-fog .nuvem { fill: #d9dbe0; opacity: 0; transform: scale(.3); transform-box: fill-box; transform-origin: center;
+  transition: opacity .7s, transform 1s ease-out; }
+.contagem .ci-fog .nuvem.cheia { opacity: .9; transform: scale(1); }
+.contagem.fim .ci-fog .nuvem { opacity: .95; transform: scale(1.8); transition-duration: .5s, 1.6s; }
+
+/* 2 · Eclipse total: a Lua entra pela direita levando o número e cobre o Sol; o céu escurece; faixas de sombra no 2,
+   contas de Baily no 1; no zero, o anel de diamante e a coroa. */
+.contagem .ci-ecl svg { width: calc(40 * var(--u)); }
+.contagem .ci-ecl .ceu { transition: fill 1s; }
+.contagem .ci-ecl .estrela { fill: #fff; opacity: 0; transition: opacity 1s; }
+.contagem .ci-ecl .escuro .estrela.cedo, .contagem.fim .ci-ecl .estrela { opacity: .85; }
+.contagem .ci-ecl .halo { transition: opacity 1s; }
+.contagem .ci-ecl .sol { fill: #FFE9A8; }
+.contagem .ci-ecl .lua { transition: transform 1s cubic-bezier(.3, .7, .4, 1); }
+.contagem .ci-ecl .disco { fill: #030406; }
+.contagem .ci-ecl text.num { font-size: 26px; stroke-width: 0; }
+.contagem .ci-ecl .contas circle { fill: #fff; filter: drop-shadow(0 0 1.5px #fff); }
+.contagem .ci-ecl .contas { opacity: 0; transition: opacity .3s; }
+.contagem .ci-ecl .com-contas .contas { opacity: 1; animation: ct-en-piscar .5s ease-in-out infinite; }
+.contagem .ci-ecl .coroa, .contagem .ci-ecl .diamante { opacity: 0; }
+.contagem.fim .ci-ecl .coroa { animation: ct-ci-coroa 1.6s ease-out .35s both; }
+@keyframes ct-ci-coroa { from { opacity: 0; transform: scale(.85); } to { opacity: 1; transform: none; } }
+.contagem .ci-ecl .coroa { transform-origin: 80px 52px; }
+.contagem.fim .ci-ecl .diamante { animation: ct-ci-diamante 2s ease-out both; }
+@keyframes ct-ci-diamante { 0% { opacity: 0; } 12% { opacity: 1; } 40% { opacity: 1; } 100% { opacity: .25; } }
+.contagem .ci-ecl .morros { fill: #04060a; }
+.contagem .ci-ecl .faixas { fill: none; stroke: #fff; stroke-opacity: .16; stroke-width: 1.1; opacity: 0; transition: opacity .4s; }
+.contagem .ci-ecl .sombras .faixas { opacity: 1; animation: ct-ci-faixas .5s ease-in-out infinite alternate; }
+@keyframes ct-ci-faixas { to { transform: translate(5px, 1px); } }
+
+/* 3 · Colisor de partículas: dois feixes em sentidos contrários aceleram no anel; no zero, colidem no detector. */
+.contagem .ci-col svg { width: calc(40 * var(--u)); }
+.contagem .ci-col .fundo { fill: #05060a; }
+.contagem .ci-col .tunel { fill: none; stroke: #1c1e24; stroke-width: 8; }
+.contagem .ci-col .imas { fill: none; stroke: #E4007C; stroke-width: 8; stroke-dasharray: 3 12.7; opacity: .28; }
+.contagem .ci-col .trilho { fill: none; stroke: #2A2D33; stroke-width: .8; }
+.contagem .ci-col .gira { transform-origin: 80px 52px; animation: ct-ci-gira var(--volta, 2s) linear infinite; }
+@keyframes ct-ci-gira { to { transform: rotate(360deg); } }
+.contagem .ci-col .rastro-feixe { fill: none; stroke-width: 2.2; stroke-linecap: round; opacity: .55; }
+.contagem.fim .ci-col .feixes { opacity: 0; transition: opacity .1s; }
+.contagem .ci-col .detector { fill: #101114; stroke: #A0A4AB; stroke-width: .9; }
+.contagem .ci-col .det-linha { stroke: #A0A4AB; stroke-width: .5; opacity: .6; }
+.contagem .ci-col .rotulo { font: 700 4.4px var(--mono, monospace); fill: #A0A4AB; text-anchor: middle; letter-spacing: .1em; }
+.contagem .ci-col text.num { font-size: 26px; }
+.contagem .ci-col .tev { font: 600 5.2px var(--mono, monospace); fill: #ff8cc6; text-anchor: middle; }
+.contagem.fim .ci-col .tev { fill: #FFD100; }
+.contagem .ci-col .particula { fill: none; stroke-width: 1.1; stroke-dasharray: 1 1; stroke-dashoffset: 1; opacity: 0; }
+.contagem.fim .ci-col .particula { animation: ct-ci-particula .8s cubic-bezier(.2, .7, .3, 1) var(--d) both; }
+@keyframes ct-ci-particula { from { stroke-dashoffset: 1; opacity: 1; } to { stroke-dashoffset: 0; opacity: 1; } }
+.contagem .ci-col .clarao { fill: #FFD100; opacity: 0; transform-box: fill-box; transform-origin: center; }
+.contagem.fim .ci-col .clarao { animation: ct-ci-clarao .9s ease-out both; }
+@keyframes ct-ci-clarao { from { opacity: .95; transform: scale(.2); } to { opacity: 0; transform: scale(2.6); } }
+
+/* 4 · Lousa: o giz escreve uma conta por segundo, cada vez mais difícil, que dá o número; no zero, a identidade de Euler. */
+.contagem .ci-lou .lousa { width: calc(46 * var(--u)); max-width: 100%; background: #6b4a2b; padding: calc(1.1 * var(--u)) calc(1.1 * var(--u)) 0;
+  border-radius: calc(.6 * var(--u)); box-shadow: inset 0 0 0 calc(.2 * var(--u)) #4d351f, 0 var(--u) calc(3 * var(--u)) #000a; }
+.contagem .ci-lou .quadro { position: relative; aspect-ratio: 16 / 9; overflow: hidden; display: grid; place-content: center; justify-items: center;
+  gap: calc(.4 * var(--u)); background: radial-gradient(ellipse at 40% 30%, #2c4036, #1b2a23 75%); }
+.contagem .ci-lou .mancha { position: absolute; width: 34%; height: 20%; border-radius: 50%; background: #ffffff12; filter: blur(calc(.5 * var(--u)));
+  opacity: 0; transition: opacity .5s; }
+.contagem .ci-lou .mancha.vista { opacity: 1; }
+.contagem .ci-lou .conta, .contagem .ci-lou .resultado { position: relative; font-family: "Caveat", "Segoe Print", cursive; font-weight: 700;
+  white-space: nowrap; }
+.contagem .ci-lou .conta { font-size: calc(6.4 * var(--u)); line-height: 1.15; color: #F4F4F2; opacity: .93; }
+.contagem .ci-lou .conta.escreve { animation: ct-ci-escrever .6s steps(10, end) both; }
+@keyframes ct-ci-escrever { from { clip-path: inset(-20% 100% -20% 0); } to { clip-path: inset(-20% -5% -20% 0); } }
+.contagem .ci-lou .conta sup, .contagem .ci-lou .conta sub { font-size: .6em; line-height: 0; }
+.contagem .ci-lou .pi, .contagem .ci-lou .rad { display: inline-block; }
+.contagem .ci-lou .pi { width: .6em; height: .6em; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; vertical-align: -.02em; }
+.contagem .ci-lou .raiz { display: inline-flex; align-items: flex-start; }
+.contagem .ci-lou .rad { width: .48em; height: 1.08em; fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+.contagem .ci-lou .sob { border-top: .055em solid currentColor; padding: .04em .1em 0; margin-top: .07em; line-height: 1; }
+.contagem .ci-lou .piso { display: inline-flex; align-items: center; gap: .06em; }
+.contagem .ci-lou .piso::before, .contagem .ci-lou .piso::after { content: ""; width: .14em; height: .85em; border-bottom: .055em solid currentColor; }
+.contagem .ci-lou .piso::before { border-left: .055em solid currentColor; }
+.contagem .ci-lou .piso::after { border-right: .055em solid currentColor; }
+.contagem .ci-lou .resultado { display: flex; align-items: baseline; gap: calc(1.4 * var(--u)); font-size: calc(12 * var(--u)); line-height: .9; color: #ff8cc6; }
+.contagem .ci-lou .num { font: inherit; color: #ff8cc6; text-shadow: 0 0 calc(.8 * var(--u)) #ff8cc655;
+  animation: ct-ci-escrever .35s steps(5, end) .55s both; }
+.contagem.fim .ci-lou .conta::after { content: ""; position: absolute; left: -4%; right: -4%; bottom: -.06em; height: .14em;
+  border-block: .045em solid currentColor; animation: ct-ci-escrever .45s steps(6, end) .15s both; }
+.contagem .ci-lou .grito { position: absolute; right: 4%; bottom: 3%; font: 700 calc(4.6 * var(--u))/1 "Caveat", "Segoe Print", cursive;
+  color: #FFE9A8; text-transform: none; letter-spacing: .02em; }
+.contagem.fim .ci-lou .grito { animation: ct-ci-escrever .5s steps(6, end) .6s both; opacity: 1; }
+.contagem .ci-lou .calha { position: relative; height: calc(1.2 * var(--u)); margin: calc(.3 * var(--u)) calc(-1.1 * var(--u)) 0; background: #4d351f;
+  border-radius: 0 0 calc(.6 * var(--u)) calc(.6 * var(--u)); }
+.contagem .ci-lou .calha i { position: absolute; right: 20%; top: calc(-.5 * var(--u)); width: calc(3.2 * var(--u)); height: calc(.8 * var(--u));
+  background: #F4F4F2; border-radius: calc(.2 * var(--u)); }
+
+/* 5 · Registrador binário: três LEDs (4, 2 e 1) mostram o número em binário, de 111 a 000; no zero, o terminal responde. */
+.contagem .ci-bin .painel { width: calc(44 * var(--u)); max-width: 100%; display: grid; gap: calc(1.4 * var(--u)); padding: calc(1.4 * var(--u)) calc(2.2 * var(--u)) calc(1.8 * var(--u));
+  background: linear-gradient(#25282f, #191b20); border-radius: var(--u);
+  box-shadow: 0 0 0 calc(.25 * var(--u)) #2A2D33, inset 0 calc(.2 * var(--u)) 0 #ffffff10, 0 var(--u) calc(3 * var(--u)) #000a; }
+.contagem .ci-bin .cabeca { display: grid; grid-template-columns: 1fr auto; align-items: center; min-height: calc(3.4 * var(--u)); }
+.contagem .ci-bin .rotulo, .contagem .ci-bin .terminal { grid-area: 1 / 1; justify-self: start; }
+.contagem .ci-bin .rotulo { font: 600 calc(1.4 * var(--u))/1 var(--mono, monospace); letter-spacing: .14em; text-transform: uppercase; color: #A0A4AB; }
+.contagem.fim .ci-bin .rotulo { opacity: 0; }
+.contagem .ci-bin .terminal { font: 400 calc(3 * var(--u))/1 "VT323", var(--mono, monospace); color: #3DDC84; background: #031a0b;
+  padding: calc(.3 * var(--u)) calc(1 * var(--u)) calc(.1 * var(--u)); border-radius: calc(.3 * var(--u)); text-shadow: 0 0 calc(.6 * var(--u)) #3DDC8499;
+  clip-path: inset(0 100% 0 0); }
+.contagem.fim .ci-bin .terminal { animation: ct-ci-digitar .5s steps(9, end) .55s both; }
+@keyframes ct-ci-digitar { to { clip-path: inset(0 0 0 0); } }
+.contagem .ci-bin .terminal i { font-style: normal; animation: ct-en-piscar .8s steps(1) infinite; }
+.contagem .ci-bin .clk { grid-area: 1 / 2; display: flex; align-items: center; gap: calc(.6 * var(--u)); font: 600 calc(1.2 * var(--u))/1 var(--mono, monospace);
+  letter-spacing: .12em; color: #A0A4AB; }
+.contagem .ci-bin .clk i { width: calc(1.1 * var(--u)); aspect-ratio: 1; border-radius: 50%; background: #3DDC84; box-shadow: 0 0 calc(.6 * var(--u)) #3DDC84;
+  animation: ct-ci-clk 1s steps(1) infinite; }
+@keyframes ct-ci-clk { 0% { opacity: 1; } 25% { opacity: .15; } }
+.contagem .ci-bin .corpo { display: flex; align-items: center; justify-content: space-between; gap: calc(2 * var(--u)); }
+.contagem .ci-bin .bits { display: flex; gap: calc(2.2 * var(--u)); }
+.contagem .ci-bin .bit { display: grid; justify-items: center; gap: calc(.7 * var(--u)); }
+.contagem .ci-bin .led { width: calc(5.4 * var(--u)); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #5a1d22, #2a0b0e 70%);
+  box-shadow: inset 0 0 0 calc(.25 * var(--u)) #4a1a20; transition: background .1s, box-shadow .1s; }
+.contagem .ci-bin .on .led { background: radial-gradient(circle at 35% 35%, #ffd6d6, #ff2d3d 45%, #b3001a);
+  box-shadow: 0 0 calc(2 * var(--u)) #ff2d3d, inset 0 0 0 calc(.25 * var(--u)) #ff6b75; }
+.contagem .ci-bin .virou .led { animation: ct-ci-virou .3s ease-out; }
+@keyframes ct-ci-virou { from { transform: scale(1.18); } }
+.contagem .ci-bin .bit b { font: 600 calc(1.8 * var(--u))/1 var(--mono, monospace); color: #A0A4AB; }
+.contagem .ci-bin .chave { position: relative; width: calc(1.8 * var(--u)); height: calc(3 * var(--u)); border-radius: calc(.4 * var(--u)); background: #0f1013;
+  box-shadow: inset 0 0 0 calc(.15 * var(--u)) #2A2D33; }
+.contagem .ci-bin .chave::after { content: ""; position: absolute; left: 22%; right: 22%; height: 45%; bottom: 6%; border-radius: calc(.2 * var(--u));
+  background: #A0A4AB; transition: bottom .12s; }
+.contagem .ci-bin .on .chave::after { bottom: 49%; }
+.contagem .ci-bin .mostrador { display: grid; justify-items: center; gap: calc(.6 * var(--u)); }
+.contagem .ci-bin .visor { display: grid; place-items: center; background: #140404; border-radius: calc(.5 * var(--u));
+  padding: calc(.8 * var(--u)) calc(1.8 * var(--u)) calc(.4 * var(--u)); box-shadow: inset 0 0 0 calc(.2 * var(--u)) #2a0b0e; }
+.contagem .ci-bin .visor::before, .contagem .ci-bin .visor .num { grid-area: 1 / 1; }
+.contagem .ci-bin .visor::before { content: "8"; font: 600 calc(9 * var(--u))/1 var(--mono, monospace); color: #ff3b3b14; }
+.contagem .ci-bin .num { font: 600 calc(9 * var(--u))/1 var(--mono, monospace); color: #ff3b3b; text-shadow: 0 0 calc(1.2 * var(--u)) #ff3b3b99; }
+.contagem .ci-bin .binario { font: 600 calc(1.5 * var(--u))/1 var(--mono, monospace); letter-spacing: .12em; color: #A0A4AB; }
+
+/* 6 · Indicador de pH: uma gota de ácido por segundo; o pH cai de 7 a 0 e a cor do indicador universal anda pela escala. */
+.contagem .ci-ph .linha { display: flex; align-items: center; gap: calc(2.4 * var(--u)); }
+.contagem .ci-ph svg { width: calc(21 * var(--u)); }
+.contagem .ci-ph .suporte { fill: #2A2D33; }
+.contagem .ci-ph .vidro { fill: #cfe3ff14; stroke: #A0A4AB; stroke-width: .6; }
+.contagem .ci-ph .acido { fill: #dde8f5; fill-opacity: .35; transition: y .4s, height .4s; }
+.contagem .ci-ph .torneira { fill: #A0A4AB; }
+.contagem .ci-ph .gota { fill: #dde8f5; animation: ct-ci-gota .45s cubic-bezier(.5, 0, 1, .5) both; }
+@keyframes ct-ci-gota { 0% { transform: translateY(0); opacity: 1; } 92% { opacity: 1; } 100% { transform: translateY(var(--queda)); opacity: 0; } }
+.contagem .ci-ph .liquido { transition: fill .6s, transform .4s; }
+.contagem .ci-ph .copo { fill: none; stroke: #A0A4AB; stroke-width: 1.3; stroke-linejoin: round; }
+.contagem .ci-ph .grad { stroke: #A0A4AB; stroke-width: .5; }
+.contagem .ci-ph .reflexo { stroke: #fff; stroke-width: 1.4; stroke-linecap: round; opacity: .14; }
+.contagem .ci-ph .anel { fill: none; stroke: #fff; stroke-width: .6; opacity: 0; transform-box: fill-box; transform-origin: center;
+  animation: ct-ci-anel .6s ease-out .42s both; }
+@keyframes ct-ci-anel { from { opacity: .7; transform: scale(.2); } to { opacity: 0; transform: scale(1.4); } }
+.contagem .ci-ph .bolha { fill: none; stroke: #fff; stroke-opacity: .75; stroke-width: .5; opacity: 0; }
+.contagem .ci-ph .ferve .bolha.cedo, .contagem.fim .ci-ph .bolha { animation: ct-ci-bolha 1s linear var(--d) infinite; }
+.contagem.fim .ci-ph .bolha { animation-duration: .55s; }
+@keyframes ct-ci-bolha { from { opacity: 1; transform: translateY(0); } to { opacity: 0; transform: translateY(-16px); } }
+.contagem .ci-ph .vapor { fill: none; stroke: #d9dbe0; stroke-width: 2.4; stroke-linecap: round; opacity: 0; }
+.contagem.fim .ci-ph .vapor { animation: ct-ci-vapor 1.5s ease-out var(--d) infinite; }
+@keyframes ct-ci-vapor { from { opacity: .6; transform: translateY(6px); } to { opacity: 0; transform: translateY(-12px); } }
+.contagem .ci-ph .medidor { display: grid; gap: calc(.8 * var(--u)); width: calc(22 * var(--u)); padding: calc(1.2 * var(--u)) calc(1.6 * var(--u));
+  background: #101114; border-radius: var(--u); box-shadow: 0 0 0 calc(.25 * var(--u)) #2A2D33; }
+.contagem .ci-ph .cab-ph { display: flex; justify-content: space-between; align-items: baseline; font: 700 calc(1.6 * var(--u))/1 var(--fonte, sans-serif);
+  letter-spacing: .12em; color: #A0A4AB; }
+.contagem .ci-ph .estado { font-size: calc(1.3 * var(--u)); text-transform: uppercase; color: var(--cor-ph, #3DB54A); transition: color .6s; }
+.contagem .ci-ph .num { font-size: calc(11 * var(--u)); justify-self: center; }
+.contagem .ci-ph .escala { position: relative; display: grid; grid-template-columns: repeat(15, 1fr); height: calc(1.6 * var(--u)); }
+.contagem .ci-ph .escala span:first-child { border-radius: calc(.3 * var(--u)) 0 0 calc(.3 * var(--u)); }
+.contagem .ci-ph .escala span:nth-child(15) { border-radius: 0 calc(.3 * var(--u)) calc(.3 * var(--u)) 0; }
+.contagem .ci-ph .seta { position: absolute; top: calc(-1.3 * var(--u)); width: 0; height: 0; border: calc(.7 * var(--u)) solid transparent;
+  border-top-color: #fff; translate: -50% 0; transition: left .5s cubic-bezier(.3, 1.4, .5, 1); }
+.contagem .ci-ph .marcas { display: flex; justify-content: space-between; font: 600 calc(1.2 * var(--u))/1 var(--mono, monospace); color: #A0A4AB; }
+
+/* 7 · Monitor cardíaco: o traço do eletrocardiograma corre a tela uma vez na contagem, uma batida por segundo; nos três
+   últimos, o coração dispara; no zero, a batida mais forte e a tela pisca. */
+.contagem .ci-cor .monitor { width: calc(48 * var(--u)); max-width: 100%; padding: calc(1 * var(--u)); background: #16181d; border-radius: calc(1.2 * var(--u));
+  box-shadow: 0 0 0 calc(.25 * var(--u)) #2A2D33, 0 var(--u) calc(3 * var(--u)) #000a; }
+.contagem .ci-cor .tela { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; background: #020806; border-radius: calc(.4 * var(--u));
+  overflow: hidden; }
+.contagem .ci-cor .ecg { width: 100%; }
+.contagem .ci-cor .grade { stroke: #0b2a17; stroke-width: .5; }
+.contagem .ci-cor .traco { fill: none; stroke: #3DDC84; stroke-width: 1.3; stroke-linejoin: round; filter: drop-shadow(0 0 1px #3DDC84); }
+.contagem .ci-cor .traco.velho { opacity: .45; filter: none; }
+.contagem .ci-cor .cursor { fill: #3DDC84; opacity: .18; }
+.contagem .ci-cor .sinais { display: grid; justify-items: end; align-content: center; gap: calc(.3 * var(--u)); padding: calc(.8 * var(--u)) calc(1.4 * var(--u));
+  border-left: calc(.15 * var(--u)) solid #0f3a20; min-width: calc(13 * var(--u)); }
+.contagem .ci-cor .fc { display: flex; align-items: center; gap: calc(.8 * var(--u)); font: 700 calc(1.4 * var(--u))/1 var(--fonte, sans-serif); letter-spacing: .12em; color: #3DDC84; }
+.contagem .ci-cor .coracao { width: calc(2 * var(--u)); height: calc(2 * var(--u)); fill: #E4007C; }
+.contagem .ci-cor .coracao.bate { animation: ct-ci-bate var(--p, 1s) ease-out .25s var(--n, 1); }
+@keyframes ct-ci-bate { 0% { transform: scale(1.4); } 45%, 100% { transform: scale(1); } }
+.contagem .ci-cor .bpm { font: 600 calc(3.4 * var(--u))/1 var(--mono, monospace); color: #3DDC84; }
+.contagem .ci-cor .bpm small { font-size: .4em; margin-left: .3em; }
+.contagem .ci-cor .num { font-size: calc(11 * var(--u)); }
+.contagem .ci-cor .flash { position: absolute; inset: 0; background: #E4007C; opacity: 0; pointer-events: none; }
+.contagem.fim .ci-cor .flash { animation: ct-ci-flash 1.1s ease-out .25s both; }
+@keyframes ct-ci-flash { 0% { opacity: .55; } 100% { opacity: .12; } }
+
 @media (prefers-reduced-motion: reduce) {
   .contagem *, .contagem *::before, .contagem *::after { animation: none !important; }
   .contagem .nat .caule, .contagem .arte .num { stroke-dashoffset: 0; }
   .contagem .arte .num { fill-opacity: 1; }
 }`;
 
-// As fontes das cenas de Entretenimento (quadrinhos, claquete, fliperama e nave, mangá) e de Geografia (idiomas), além
+// As fontes das cenas de Entretenimento (quadrinhos, claquete, fliperama e nave, mangá), de Geografia (idiomas) e de
+// Ciências (lousa e registrador binário), além
 // da Overpass das páginas; as japonesas e a chinesa vêm só com os caracteres usados.
 const FONTES = [
   "https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Press+Start+2P&display=swap",
@@ -841,6 +1066,8 @@ const FONTES = [
   // Geografia, cena dos idiomas: o russo, o árabe e o hindi; o japonês e o chinês só com os caracteres usados.
   "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Noto+Sans+Arabic:wght@700&family=Noto+Sans+Devanagari:wght@700&display=swap",
   "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Noto+Sans+SC:wght@700&display=swap&text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E4%BD%A0%E5%A5%BD",
+  // Ciências: o giz da lousa e o terminal do registrador binário.
+  "https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=VT323&display=swap",
 ];
 function instalarCss() {
   if (document.getElementById("css-contagem")) return;
@@ -1697,6 +1924,204 @@ const biomas = {
 
 const GEOGRAFIA = [aeroporto, bussola, monumentos, bandeiras, idiomas, vulcao, everest, rio, farol, biomas];
 
+// ---- Ciências (2026-11-26): o átomo e sete cenas com som próprio (arena-suspense.js, "Ciências|1" a "|7"), sorteadas
+// como as de História. depois(caixa, s) não depende do segundo anterior.
+const badgeCi = `<span class="badge" style="background:#E4007C;color:#fff">Ciências</span>`;
+const atomo = {
+  html: s => `<div class="cena cien">${badge("Ciências")}${rot}<div class="atomo"><svg viewBox="-60 -60 120 120" aria-hidden="true">
+    ${orbita(0, 1.6)}${orbita(60, 2)}${orbita(120, 2.5)}<circle class="nucleo" r="19"/></svg>
+    <div class="num">${s}</div></div></div>` };
+
+// ---- 1. Foguete
+const CHAMA = [2.2, .95, .85, .72, .6, .48, .36, 0];  // o tamanho da chama em cada segundo (índice: s)
+const nuvensFog = s => s === 7 ? 0 : s === 0 ? 12 : Math.min(12, (7 - s) * 2);
+const ESTRELAS_FOG = Array.from({ length: 22 }, (_, k) => { const r = aleatorio(k + 120);
+  return `<circle class="estrela" cx="${f1(r() * 200)}" cy="${f1(r() * 70)}" r="${f1(.3 + r() * .5)}" style="animation-delay:${f1(-r() * 2.6)}s"/>`; }).join("");
+const TORRE_FOG = `<rect x="62" y="18" width="10" height="86"/>` + Array.from({ length: 10 }, (_, i) => { const y = 18 + i * 8.6;
+  return `<path d="M62 ${f1(y)} L72 ${f1(y + 8.6)} M72 ${f1(y)} L62 ${f1(y + 8.6)}"/>`; }).join("");
+const nuvens = s => Array.from({ length: 12 }, (_, k) => { const lado = k % 2 ? 1 : -1, j = Math.floor(k / 2);
+  return `<circle class="nuvem${k < nuvensFog(s) ? " cheia" : ""}" data-k="${k}" cx="${f1(100 + lado * (13 + j * 9))}" cy="${f1(101 - j * .8)}" r="${f1(6.5 + j * 1.3)}"/>`; }).join("");
+const foguete = {
+  html: s => `<div class="cena ci ci-fog">${badgeCi}${rot}<div class="relogio"><span class="t">T−</span><div class="num">${s}</div></div>
+    <svg viewBox="0 0 200 116" aria-hidden="true" style="--chama:${CHAMA[s]}">
+      <defs><linearGradient id="ct-ci-ceu-fog" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#03050c"/><stop offset="1" stop-color="#1a2240"/></linearGradient>
+        <radialGradient id="ct-ci-fogo"><stop offset="0" stop-color="#FFB347" stop-opacity=".9"/><stop offset="1" stop-color="#FF6A00" stop-opacity="0"/></radialGradient>
+        <clipPath id="ct-ci-quadro-fog"><rect width="200" height="116" rx="4"/></clipPath></defs>
+      <rect width="200" height="116" rx="4" fill="url(#ct-ci-ceu-fog)"/><g clip-path="url(#ct-ci-quadro-fog)">${ESTRELAS_FOG}
+      <ellipse class="brilho" cx="100" cy="104" rx="70" ry="22" fill="url(#ct-ci-fogo)"/>
+      <rect x="0" y="104" width="200" height="12" fill="#101114"/><rect x="78" y="100" width="44" height="4" fill="#2A2D33"/>
+      <g class="torre">${TORRE_FOG}</g><rect class="braco${s < 7 ? " recolhido" : ""}" x="72" y="38" width="20" height="3" rx=".6"/>
+      <g class="foguete"><g class="tremor">
+        <g class="chama"><g class="labareda"><path d="M94.5 97 Q100 128 105.5 97 Z" fill="#F7941D"/><path d="M97 97 Q100 116 103 97 Z" fill="#FFE9A8"/></g></g>
+        <path d="M92 78 L83 96 L92 92 Z M108 78 L117 96 L108 92 Z" fill="#A0A4AB"/>
+        <rect x="92" y="30" width="16" height="64" rx="2" fill="#F4F4F2"/><path d="M92 31 Q100 4 108 31 Z" fill="#F4F4F2"/>
+        <rect x="92" y="46" width="16" height="3" fill="#141218"/><rect x="92" y="78" width="16" height="5" fill="#E4007C"/>
+        <circle cx="100" cy="38" r="2.2" fill="#2A2D33"/><rect x="95" y="94" width="10" height="4" fill="#5a5f69"/></g></g>
+      ${nuvens(s)}</g></svg><div class="grito">Decolagem!</div></div>`,
+  depois: (c, s) => { c.querySelector("svg").style.setProperty("--chama", CHAMA[s]); c.querySelector(".braco").classList.toggle("recolhido", s < 7);
+                      c.querySelectorAll(".nuvem").forEach(n => n.classList.toggle("cheia", +n.dataset.k < nuvensFog(s))); },
+};
+
+// ---- 2. Eclipse total
+const OFF_ECL = [0, 1.3, 10, 19, 28, 37, 46, 56];  // quanto a Lua ainda está à direita do Sol (índice: s)
+const CEU_ECL = ["#02030a", "#060b1c", "#0a1430", "#0e1d44", "#122758", "#16316b", "#1a3b7d", "#1e4890"];
+const ESTRELAS_ECL = Array.from({ length: 24 }, (_, k) => { const r = aleatorio(k + 150);
+  return `<circle class="estrela${k < 8 ? " cedo" : ""}" cx="${f1(r() * 160)}" cy="${f1(r() * 90)}" r="${f1(.35 + r() * .55)}"/>`; }).join("");
+const COROA_ECL = Array.from({ length: 10 }, (_, k) => { const r = aleatorio(k + 170), a = k / 10 * Math.PI * 2 + r() * .4, L = 40 + r() * 22;
+  const p = (ang, d) => `${f1(80 + Math.cos(ang) * d)} ${f1(52 + Math.sin(ang) * d)}`;
+  return `<path d="M${p(a, 28)} Q${p(a + .08, L * .8)} ${p(a + .12, L)}" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="1.6" stroke-linecap="round"/>`; }).join("");
+const CONTAS_ECL = [160, 171, 183, 194].map(g => { const a = g * Math.PI / 180;
+  return `<circle cx="${f1(80 + Math.cos(a) * 28.2)}" cy="${f1(52 + Math.sin(a) * 28.2)}" r="1.1"/>`; }).join("");
+const DIAMANTE = (() => { const a = 205 * Math.PI / 180, x = 80 + Math.cos(a) * 28.4, y = 52 + Math.sin(a) * 28.4;
+  return `<circle cx="${f1(x)}" cy="${f1(y)}" r="6" fill="#fff" opacity=".35"/><circle cx="${f1(x)}" cy="${f1(y)}" r="2.6" fill="#fff"/>
+    <path d="M${f1(x - 14)} ${f1(y)} H${f1(x + 14)} M${f1(x)} ${f1(y - 14)} V${f1(y + 14)}" stroke="#fff" stroke-width=".6"/>`; })();
+const FAIXAS_ECL = [104, 107, 110, 113].map((y, k) => `<path d="M${-10 + k * 3} ${y} ${Array.from({ length: 9 }, () => "q10 -1.6 20 0").join(" ")}"/>`).join("");
+const classesEcl = s => [s <= 1 ? "escuro" : "", s === 1 ? "com-contas" : "", s === 1 || s === 2 ? "sombras" : ""].join(" ").trim();
+const halo = s => f1(.1 + s * .12);  // o brilho em volta do Sol, que some com a Lua chegando
+const eclipse = {
+  html: s => `<div class="cena ci ci-ecl">${badgeCi}${rot}<svg class="${classesEcl(s)}" viewBox="0 0 160 116" aria-hidden="true">
+      <defs><radialGradient id="ct-ci-coroa"><stop offset=".5" stop-color="#fff"/><stop offset=".56" stop-color="#fff" stop-opacity=".9"/>
+          <stop offset=".72" stop-color="#dfe8ff" stop-opacity=".3"/><stop offset="1" stop-color="#dfe8ff" stop-opacity="0"/></radialGradient>
+        <radialGradient id="ct-ci-brilho-sol"><stop offset=".62" stop-color="#FFE9A8" stop-opacity=".7"/><stop offset="1" stop-color="#FFD100" stop-opacity="0"/></radialGradient>
+        <clipPath id="ct-ci-quadro-ecl"><rect width="160" height="116" rx="4"/></clipPath></defs>
+      <g clip-path="url(#ct-ci-quadro-ecl)"><rect class="ceu" width="160" height="116" style="fill:${CEU_ECL[s]}"/>${ESTRELAS_ECL}
+      <g class="coroa"><circle cx="80" cy="52" r="56" fill="url(#ct-ci-coroa)"/>${COROA_ECL}</g>
+      <circle class="halo" cx="80" cy="52" r="44" fill="url(#ct-ci-brilho-sol)" style="opacity:${halo(s)}"/><circle class="sol" cx="80" cy="52" r="28"/>
+      <g class="lua" style="transform: translateX(${OFF_ECL[s]}px)"><circle class="disco" cx="80" cy="52" r="28.6"/><text class="num" x="80" y="53">${s}</text></g>
+      <g class="contas">${CONTAS_ECL}</g><g class="diamante">${DIAMANTE}</g>
+      <path class="morros" d="M0 100 Q30 90 60 98 T120 95 T160 98 V116 H0 Z"/><g class="faixas">${FAIXAS_ECL}</g></g></svg></div>`,
+  depois: (c, s) => { c.querySelector("svg").setAttribute("class", classesEcl(s)); c.querySelector(".ceu").style.fill = CEU_ECL[s];
+                      c.querySelector(".halo").style.opacity = halo(s); c.querySelector(".lua").style.transform = `translateX(${OFF_ECL[s]}px)`; },
+};
+
+// ---- 3. Colisor de partículas
+const RASTRO = [0, 250, 175, 115, 75, 48, 28, 14], VOLTA = [1, .35, .5, .7, 1, 1.3, 1.8, 2.4];  // índice: s
+const TEV = ["13,6 TeV na colisão", "6,8 TeV por feixe", "5,6 TeV por feixe", "4,4 TeV por feixe", "3,2 TeV por feixe", "2,1 TeV por feixe",
+             "1,2 TeV por feixe", "0,45 TeV por feixe"];  // a energia do LHC: injeção a 0,45 TeV, 6,8 TeV por feixe na colisão
+const feixe = (s, cor, espelho) => { const r = RASTRO[s], a = r / 40;
+  return `<g${espelho ? ' transform="translate(160 0) scale(-1 1)"' : ""}><g class="gira"><circle class="rastro-feixe" cx="80" cy="52" r="40" stroke="${cor}" stroke-dasharray="${r} 999"/>
+    <circle cx="${f1(80 + 40 * Math.cos(a))}" cy="${f1(52 + 40 * Math.sin(a))}" r="2.4" fill="${cor}"/></g></g>`; };
+const feixes = s => feixe(s, "#E4007C") + feixe(s, "#F4F4F2", true);
+const PARTICULAS = Array.from({ length: 22 }, (_, k) => { const r = aleatorio(k + 200), a = r() * Math.PI * 2, L = 18 + r() * 46, cv = (r() - .5) * 40;
+  const x2 = 80 + Math.cos(a) * L, y2 = 92 + Math.sin(a) * L * .85, cx = 80 + Math.cos(a) * L / 2 - Math.sin(a) * cv, cy = 92 + Math.sin(a) * L * .42 + Math.cos(a) * cv;
+  return `<path class="particula" pathLength="1" d="M80 92 Q${f1(cx)} ${f1(cy)} ${f1(x2)} ${f1(y2)}" stroke="${["#FFD100", "#E4007C", "#3DDC84", "#4FC3F7", "#F4F4F2"][k % 5]}" style="--d:${f1(r() * .25)}s"/>`; }).join("");
+const colisor = {
+  html: s => `<div class="cena ci ci-col">${badgeCi}${rot}<svg viewBox="0 0 160 116" aria-hidden="true" style="--volta:${VOLTA[s]}s">
+      <defs><clipPath id="ct-ci-quadro-col"><rect width="160" height="116" rx="4"/></clipPath></defs>
+      <rect class="fundo" width="160" height="116" rx="4"/><g clip-path="url(#ct-ci-quadro-col)">
+      <circle class="tunel" cx="80" cy="52" r="40"/><circle class="imas" cx="80" cy="52" r="40"/><circle class="trilho" cx="80" cy="52" r="40"/>
+      <g class="feixes">${feixes(s)}</g>
+      <rect class="detector" x="70" y="84" width="20" height="16" rx="2"/><path class="det-linha" d="M70 88 H90 M70 96 H90 M75 84 V100 M85 84 V100"/>
+      ${PARTICULAS}<circle class="clarao" cx="80" cy="92" r="10"/><text class="rotulo" x="80" y="108">DETECTOR</text>
+      <text class="num" x="80" y="47">${s}</text><text class="tev" x="80" y="66">${TEV[s]}</text></g></svg><div class="grito">Colisão!</div></div>`,
+  depois: (c, s) => { c.querySelector("svg").style.setProperty("--volta", `${VOLTA[s]}s`); c.querySelector(".feixes").innerHTML = feixes(s);
+                      c.querySelector(".tev").textContent = TEV[s]; },
+};
+
+// ---- 4. Lousa: uma conta por segundo, cada vez mais difícil, que dá o número. π, raiz e piso desenhados (a Caveat não os tem).
+const PI_GIZ = `<svg class="pi" viewBox="0 0 14 14" aria-hidden="true"><path d="M1 4.4 Q7 2.4 13 3.4 M4.6 3.8 Q4.8 9 2.6 13 M9.8 3.6 Q9.4 9.6 11.8 12.6"/></svg>`;
+const CONTAS = {
+  7: "2³ – 1", 6: "3!",
+  5: `<span class="raiz"><svg class="rad" viewBox="0 0 10 22" aria-hidden="true"><path d="M.6 13 L3 11.6 L5.6 21 L9.6 1"/></svg><span class="sob">25</span></span>`,
+  4: "log<sub>2</sub> 16", 3: `<span class="piso">${PI_GIZ}</span>`, 2: "1 + ½ + ¼ + …", 1: "sen²x + cos²x",
+  0: `e<sup>i${PI_GIZ}</sup> + 1`,
+};
+const MANCHAS = [[8, 14], [56, 10], [30, 62], [62, 58], [4, 44], [44, 34], [70, 30]];
+const lousa = {
+  html: s => `<div class="cena ci ci-lou">${badgeCi}${rot}<div class="lousa"><div class="quadro">
+      ${MANCHAS.map(([x, y], k) => `<i class="mancha${k < 7 - s ? " vista" : ""}" data-k="${k}" style="left:${x}%;top:${y}%"></i>`).join("")}
+      <div class="conta escreve">${CONTAS[s]}</div><div class="resultado"><span>=</span><span class="num">${s}</span></div>
+      <div class="grito">C.Q.D.</div></div><div class="calha"><i></i></div></div></div>`,
+  depois: (c, s) => { const conta = c.querySelector(".conta"); conta.innerHTML = CONTAS[s]; repetir(conta, "escreve");
+                      c.querySelectorAll(".mancha").forEach(m => m.classList.toggle("vista", +m.dataset.k < 7 - s)); },
+};
+
+// ---- 5. Registrador binário
+const tresBits = s => s.toString(2).padStart(3, "0");
+const binario = {
+  html: s => `<div class="cena ci ci-bin">${badgeCi}${rot}<div class="painel">
+      <div class="cabeca"><span class="rotulo">Registrador · 3 bits</span><span class="terminal">&gt; PRONTO<i>_</i></span><span class="clk"><i></i>CLK</span></div>
+      <div class="corpo"><div class="bits">${[4, 2, 1].map(b => `<div class="bit${s & b ? " on" : ""}" data-b="${b}"><i class="led"></i><b>${b}</b><i class="chave"></i></div>`).join("")}</div>
+        <div class="mostrador"><div class="visor"><div class="num">${s}</div></div><span class="binario">${tresBits(s)} em binário</span></div></div>
+    </div></div>`,
+  depois: (c, s) => {
+    c.querySelectorAll(".bit").forEach(b => { const on = !!(s & +b.dataset.b);
+      if (b.classList.contains("on") !== on) { b.classList.toggle("on", on); repetir(b, "virou"); } });
+    c.querySelector(".binario").textContent = `${tresBits(s)} em binário`;
+  },
+};
+
+// ---- 6. Indicador de pH: as cores do indicador universal, de 0 a 14.
+const COR_PH = ["#C8102E", "#E5322D", "#F2602B", "#F7941D", "#FDB515", "#FFE11A", "#B5D334", "#3DB54A", "#1FA38F", "#1A7FC1", "#2F5BEA", "#4B3FB5",
+                "#6A2C9E", "#7B2382", "#5A1A5E"];
+const nivelPh = s => 84 - (7 - s) * 1.3;  // a superfície do líquido sobe um pouco a cada gota
+const estadoPh = s => s === 7 ? "neutro" : s >= 3 ? "ácido" : "ácido forte";
+const setaPh = s => `${f1((s + .5) / 15 * 100)}%`;
+const BOLHAS_PH = Array.from({ length: 18 }, (_, k) => { const r = aleatorio(k + 230);
+  return `<circle class="bolha${k < 9 ? " cedo" : ""}" cx="${f1(28 + r() * 44)}" cy="${f1(92 + r() * 16)}" r="${f1(.7 + r() * 1.3)}" style="--d:${f1(-r())}s"/>`; }).join("");
+const VAPOR_PH = [36, 50, 64].map((x, k) => `<path class="vapor" style="--d:${f1(-k * .5)}s" d="M${x} 60 q-4 -7 0 -14 q4 -7 0 -14"/>`).join("");
+const ph = {
+  html: s => `<div class="cena ci ci-ph">${badgeCi}${rot}<div class="linha"><svg class="${s <= 3 ? "ferve" : ""}" viewBox="0 0 100 116" aria-hidden="true">
+      <defs><clipPath id="ct-ci-copo"><path d="M23 61 V108 Q23 111 26 111 H74 Q77 111 77 108 V61 Z"/></clipPath></defs>
+      <rect class="suporte" x="6" y="111" width="56" height="4" rx="1"/><rect class="suporte" x="10" y="2" width="3" height="110"/><rect class="suporte" x="10" y="14" width="38" height="3"/>
+      <rect class="vidro" x="46" y="0" width="8" height="46" rx="1"/><rect class="acido" x="47" y="${4 + (7 - s) * 2}" width="6" height="${41 - (7 - s) * 2}"/>
+      ${[8, 16, 24, 32, 40].map(y => `<line class="grad" x1="46" x2="49" y1="${y}" y2="${y}"/>`).join("")}
+      <rect class="torneira" x="42" y="46" width="16" height="3" rx="1"/><path class="torneira" d="M48.6 49 L51.4 49 L50.4 57 L49.6 57 Z"/>
+      <path class="gota" style="--queda:${f1(nivelPh(s) - 61)}px" d="M50 58 q-2.2 3.2 0 5 q2.2 -1.8 0 -5Z"/>
+      <g clip-path="url(#ct-ci-copo)"><rect class="liquido" x="20" y="0" width="60" height="60" style="fill:${COR_PH[s]};transform:translateY(${f1(nivelPh(s))}px)"/>
+        <ellipse class="anel" cx="50" cy="${f1(nivelPh(s))}" rx="9" ry="1.6"/>${BOLHAS_PH}</g>
+      <path class="copo" d="M20 61 H23 V108 Q23 112 27 112 H73 Q77 112 77 108 V61 H80"/>
+      ${[72, 82, 92, 102].map(y => `<line class="grad" x1="71" x2="77" y1="${y}" y2="${y}"/>`).join("")}
+      <line class="reflexo" x1="27" y1="66" x2="27" y2="104"/>${VAPOR_PH}</svg>
+    <div class="medidor" style="--cor-ph:${COR_PH[s]}"><div class="cab-ph"><span>pH</span><span class="estado">${estadoPh(s)}</span></div>
+      <div class="num">${s}</div>
+      <div class="escala">${COR_PH.map(cor => `<span style="background:${cor}"></span>`).join("")}<i class="seta" style="left:${setaPh(s)}"></i></div>
+      <div class="marcas"><span>0</span><span>7</span><span>14</span></div></div></div></div>`,
+  depois: (c, s) => {
+    const svg = c.querySelector("svg"), liq = c.querySelector(".liquido"), y = f1(nivelPh(s));
+    svg.setAttribute("class", s <= 3 ? "ferve" : "");
+    liq.style.fill = COR_PH[s]; liq.style.transform = `translateY(${y}px)`;
+    const acido = c.querySelector(".acido"); acido.setAttribute("y", 4 + (7 - s) * 2); acido.setAttribute("height", 41 - (7 - s) * 2);
+    if (s > 0) { const g = c.querySelector(".gota"); g.style.setProperty("--queda", `${f1(nivelPh(s) - 61)}px`); reinicia(g);
+                 const a = c.querySelector(".anel"); a.setAttribute("cy", y); reinicia(a); }
+    const m = c.querySelector(".medidor"); m.style.setProperty("--cor-ph", COR_PH[s]);
+    m.querySelector(".estado").textContent = estadoPh(s); m.querySelector(".seta").style.left = setaPh(s);
+  },
+};
+
+// ---- 7. Monitor cardíaco: o traço corre a tela uma vez na contagem (20 unidades por segundo, 7,8 s); a batida de cada
+// segundo cai 0,25 s depois da troca do número, quando o som toca (arena-suspense.js), e dobra nos três últimos.
+const BPM = { 7: 60, 6: 61, 5: 63, 4: 66, 3: 118, 2: 122, 1: 126, 0: 130 };
+const ECG_W = 156, ECG_T = 7.8, ECG_Y = 44;
+function tracoEcg(batidas) {  // [[segundos, altura do pico, largura]]
+  let d = `M0 ${ECG_Y}`;
+  for (const [t, A, k] of batidas) { const x = t * 20;
+    for (const [dx, dy] of [[-6, 0], [-4.5, -3], [-3, 0], [-1, 0], [-.4, 3], [.8, -A], [2, 8], [3, 0], [6, 0], [8, -6], [10.5, 0]])
+      d += ` L${f1(x + dx * k)} ${f1(ECG_Y + dy)}`; }
+  return d + ` L${ECG_W + 10} ${ECG_Y}`;
+}
+const TRACO_NOVO = tracoEcg([7, 6, 5, 4, 3, 2, 1].flatMap(s => { const t = 7 - s + .25; return s <= 3 ? [[t, 26, .6], [t + .5, 26, .6]] : [[t, 24, 1]]; })
+  .concat([[7.25, 40, .8]]));
+const TRACO_VELHO = tracoEcg(Array.from({ length: 8 }, (_, k) => [.7 + k, 22, 1]));
+const GRADE_ECG = [...Array.from({ length: 15 }, (_, k) => `M${(k + 1) * 10} 0 V80`), ...Array.from({ length: 7 }, (_, k) => `M0 ${(k + 1) * 10} H${ECG_W}`)].join(" ");
+const ritmo = s => s <= 3 && s > 0 ? "--p:.5s;--n:2" : "--p:1s;--n:1";
+const monitor = {
+  html: (s, decorrido = 0) => { const b = `begin="${(-decorrido).toFixed(2)}s" dur="${ECG_T}s" fill="freeze"`;
+    return `<div class="cena ci ci-cor">${badgeCi}${rot}<div class="monitor"><div class="tela">
+      <svg class="ecg" viewBox="0 0 156 80" aria-hidden="true"><defs>
+        <clipPath id="ct-ci-ecg-novo"><rect x="0" y="0" width="0" height="80"><animate attributeName="width" from="0" to="${ECG_W}" ${b}/></rect></clipPath>
+        <clipPath id="ct-ci-ecg-velho"><rect x="5" y="0" width="170" height="80"><animate attributeName="x" from="5" to="${ECG_W + 5}" ${b}/></rect></clipPath></defs>
+        <path class="grade" d="${GRADE_ECG}"/><path class="traco velho" clip-path="url(#ct-ci-ecg-velho)" d="${TRACO_VELHO}"/>
+        <path class="traco" clip-path="url(#ct-ci-ecg-novo)" d="${TRACO_NOVO}"/>
+        <rect class="cursor" x="-3" y="0" width="3" height="80"><animate attributeName="x" from="-3" to="${ECG_W - 3}" ${b}/></rect></svg>
+      <div class="sinais"><div class="fc"><span>FC</span><svg class="coracao bate" style="${ritmo(s)}" viewBox="-8 -8 16 14" aria-hidden="true"><path d="M0 5 C-8 -1 -5 -8 0 -4 C5 -8 8 -1 0 5Z"/></svg></div>
+        <div class="bpm">${BPM[s]}<small>bpm</small></div><div class="num">${s}</div></div><div class="flash"></div></div></div></div>`; },
+  depois: (c, s) => { c.querySelector(".bpm").innerHTML = `${BPM[s]}<small>bpm</small>`;
+                      const h = c.querySelector(".coracao"); h.setAttribute("style", ritmo(s)); repetir(h, "bate"); },
+};
+
+const CIENCIAS = [foguete, eclipse, colisor, lousa, binario, ph, monitor];
+
 // Cada estilo: html(s, decorrido) monta a cena; texto(s) é o que vai no número (os romanos, na História); depois(caixa, s)
 // faz o que mais muda a cada segundo. "decorrido" (em segundos) acerta as animações que duram a contagem toda, para quem
 // a vê começar no meio (um celular que acabou de entrar).
@@ -1731,10 +2156,7 @@ const ESTILOS = {
       <line class="ponteiro" x1="0" y1="0" x2="0" y2="-31"><animateTransform attributeName="transform" type="rotate" from="0 0 0"
         to="360 0 0" dur="${SEGUNDOS}s" begin="${(-decorrido).toFixed(2)}s" fill="freeze"/></line><circle r="2.6" fill="#FFD100"/></svg>
       <div class="num">${s}</div></div></div>` },
-  "Ciências": {
-    html: s => `<div class="cena cien">${badge("Ciências")}${rot}<div class="atomo"><svg viewBox="-60 -60 120 120" aria-hidden="true">
-      ${orbita(0, 1.6)}${orbita(60, 2)}${orbita(120, 2.5)}<circle class="nucleo" r="19"/></svg>
-      <div class="num">${s}</div></div></div>` },
+  "Ciências": [atomo, ...CIENCIAS],
   "Entretenimento": ENTRETENIMENTO,
   "Esportes": ESPORTES,
 };
