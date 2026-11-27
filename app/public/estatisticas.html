@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800&family=Overpass+Mono:wght@600&display=swap" rel="stylesheet">
+  <title>Mestre2 · Minhas estatísticas</title>
+  <style>
+    /* Estatísticas do jogador na Arena (2026-11-27): os registros de perfis/{uid}/respostas (arena-conta.js), lidos
+       pela conta deste aparelho, anônima ou Google. Identidade Metrô, como o jogar.html. */
+    :root { color-scheme: dark;
+            --fundo: #000; --texto: #F4F4F2; --suave: #A0A4AB; --linha: #2A2D33; --cartao: #101114;
+            --acento: #FFD100; --errado: #FF6B57;
+            --fonte: "Overpass", system-ui, sans-serif; --mono: "Overpass Mono", ui-monospace, monospace; }
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+    body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.45 var(--fonte); }
+    main { max-width: 560px; margin: 0 auto; padding: 16px; padding-bottom: calc(24px + env(safe-area-inset-bottom)); }
+    h1 { font-size: 1.4rem; margin: .5rem 0 .2rem; }
+    h2 { font-size: 1rem; margin: 1.6rem 0 .6rem; color: var(--suave); font-weight: 700; text-transform: uppercase;
+         letter-spacing: .06em; }
+    a { color: var(--acento); }
+    button { font: inherit; color: inherit; background: var(--cartao); border: 1px solid var(--linha); border-radius: 10px;
+             padding: .6rem 1rem; cursor: pointer; }
+    .suave { color: var(--suave); font-size: .9rem; }
+    .erro { color: var(--errado); }
+    .cartao { background: var(--cartao); border: 1px solid var(--linha); border-radius: 14px; padding: 1rem; margin: 1rem 0; }
+    .conta { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .8rem; padding: .8rem 1rem; }
+    .conta .conta-texto { flex: 1 1 100%; margin: 0; font-size: .92rem; }
+    .conta button.google { background: var(--texto); border-color: var(--texto); color: #000; font-weight: 700; }
+    .conta .erro, .conta .suave { flex: 1 1 100%; margin: 0; font-size: .85rem; }
+
+    /* Números principais */
+    #resumo { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; }
+    .num { background: var(--cartao); border: 1px solid var(--linha); border-radius: 14px; padding: .8rem 1rem; }
+    .num b { display: block; font-family: var(--mono); font-size: 1.9rem; line-height: 1.1; font-weight: 600;
+             font-variant-numeric: tabular-nums; }
+    .num span { color: var(--suave); font-size: .85rem; }
+    .num small { display: block; color: var(--suave); font-size: .8rem; margin-top: .15rem; }
+
+    /* Por tema: a etiqueta na cor do tema, a barra de acertos e os números */
+    .tema { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: .25rem .8rem; padding: .55rem 0;
+            border-bottom: 1px solid var(--linha); }
+    .tema:last-child { border-bottom: none; }
+    .tema .nome { display: flex; align-items: center; gap: .5rem; font-weight: 700; }
+    .tema .cor { width: .9rem; height: .9rem; border-radius: 4px; flex: none; }
+    .tema .valores { font-family: var(--mono); font-size: .9rem; color: var(--suave); text-align: right;
+                     font-variant-numeric: tabular-nums; }
+    .tema .valores strong { color: var(--texto); }
+    .tema .trilho { grid-column: 1 / -1; height: 8px; border-radius: 4px; background: var(--linha); overflow: hidden; }
+    .tema .trilho div { height: 100%; border-radius: 4px; }
+
+    /* Partidas */
+    .partida { display: grid; grid-template-columns: auto 1fr auto; align-items: baseline; gap: .8rem; padding: .55rem 0;
+               border-bottom: 1px solid var(--linha); }
+    .partida:last-child { border-bottom: none; }
+    .partida .data { color: var(--suave); font-size: .9rem; min-width: 4.2em; }
+    .partida .codigo { font-family: var(--mono); letter-spacing: .12em; color: var(--acento); }
+    .partida .acertos { font-family: var(--mono); font-size: .9rem; font-variant-numeric: tabular-nums; }
+    .vazio { text-align: center; padding: 2rem 1rem; }
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Mestre2</a> · <a href="jogar.html">Entrar numa partida</a></p>
+  <h1>Minhas estatísticas</h1>
+  <p class="suave" style="margin:0">As perguntas que você respondeu nas partidas da Arena.</p>
+  <div id="conta" class="cartao conta"></div>
+
+  <p id="carregando" class="suave">Carregando…</p>
+  <p id="erro" class="erro"></p>
+
+  <div id="vazio" class="cartao vazio" hidden>
+    <p style="margin:0 0 .4rem;font-weight:700">Ainda não há respostas suas registradas.</p>
+    <p class="suave" style="margin:0">Elas contam a partir das partidas da Arena jogadas desde 27 de novembro de 2026,
+      neste aparelho ou, com a conta Google, em qualquer aparelho.</p>
+  </div>
+
+  <div id="conteudo" hidden>
+    <div id="resumo"></div>
+    <h2>Por tema</h2>
+    <div id="temas" class="cartao" style="padding:.3rem 1rem"></div>
+    <h2>Partidas</h2>
+    <div id="partidas" class="cartao" style="padding:.3rem 1rem"></div>
+    <p class="suave">Contam só as perguntas respondidas, desde 27 de novembro de 2026. O tempo é o que passou da pergunta
+      aberta até a sua resposta.</p>
+  </div>
+</main>
+
+<script type="module">
+  import { doc, getDoc } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+  import { db, entrarAnonimo, CORES, $, el, esc } from "./arena-comum.js";
+  import { montarConta, lerRegistros } from "./arena-conta.js";
+
+  const inteiro = n => n.toLocaleString("pt-BR");
+  const pct = (a, n) => n ? Math.round(100 * a / n) : 0;
+  const segundos = ms => (ms / 1000).toLocaleString("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + " s";
+  const dia = t => t ? t.toDate().toLocaleDateString("pt-BR", { day: "numeric", month: "short" }).replace(".", "") : "";
+  function mediana(xs) {
+    if (!xs.length) return null;
+    const v = [...xs].sort((a, b) => a - b), m = v.length >> 1;
+    return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2;
+  }
+
+  let uid = null, vez = 0;
+
+  async function carregar() {
+    const minha = ++vez;
+    $("carregando").hidden = false;
+    $("erro").textContent = "";
+    try {
+      const regs = await lerRegistros(uid);
+      // Uma leitura por partida, para saber quando foi e quem venceu.
+      const porPartida = new Map();
+      for (const r of regs) {
+        const p = porPartida.get(r.partida) || { codigo: r.partida, n: 0, a: 0, ultima: null };
+        p.n++; if (r.acertou) p.a++;
+        if (r.em && (!p.ultima || r.em.toMillis() > p.ultima.toMillis())) p.ultima = r.em;
+        porPartida.set(r.partida, p);
+      }
+      const partidas = await Promise.all([...porPartida.values()].map(async p => {
+        try {
+          const s = await getDoc(doc(db, "partidas", p.codigo));
+          const d = s.data() || {};
+          return { ...p, quando: d.inicio || d.criada_em || p.ultima, fim: Boolean(d.fim),
+                   venceu: (d.vencedores || []).includes(uid) };
+        } catch { return { ...p, quando: p.ultima, fim: false, venceu: false }; }
+      }));
+      if (minha !== vez) return;
+      desenhar(regs, partidas);
+    } catch (e) {
+      if (minha !== vez) return;
+      $("erro").textContent = "Não consegui ler as estatísticas: " + (e.code || e.message);
+    }
+    $("carregando").hidden = true;
+  }
+
+  function desenhar(regs, partidas) {
+    $("vazio").hidden = regs.length > 0;
+    $("conteudo").hidden = regs.length === 0;
+    if (!regs.length) return;
+    const acertos = regs.filter(r => r.acertou).length;
+    const vitorias = partidas.filter(p => p.venceu).length;
+    const tempo = mediana(regs.map(r => r.ms).filter(ms => typeof ms === "number" && ms >= 0));
+    const numero = (valor, rotulo, extra = "") =>
+      el("div", { className: "num", innerHTML: `<b>${valor}</b><span>${rotulo}</span>${extra ? `<small>${extra}</small>` : ""}` });
+    $("resumo").replaceChildren(
+      numero(inteiro(regs.length), regs.length === 1 ? "pergunta respondida" : "perguntas respondidas"),
+      numero(`${pct(acertos, regs.length)}%`, "de acertos", `${inteiro(acertos)} de ${inteiro(regs.length)}`),
+      numero(inteiro(partidas.length), partidas.length === 1 ? "partida" : "partidas",
+        vitorias ? `🏆 ${inteiro(vitorias)} ${vitorias === 1 ? "vitória" : "vitórias"}` : "nenhuma vitória ainda"),
+      numero(tempo === null ? "—" : segundos(tempo), "tempo típico de resposta", "a mediana"),
+    );
+
+    // Por tema, na ordem das cores do app; o tema sem respostas fica com o trilho vazio.
+    const porTema = new Map(Object.keys(CORES).map(t => [t, { n: 0, a: 0 }]));
+    for (const r of regs) {
+      const t = porTema.get(r.tema) || porTema.set(r.tema, { n: 0, a: 0 }).get(r.tema);
+      t.n++; if (r.acertou) t.a++;
+    }
+    $("temas").replaceChildren(...[...porTema].map(([tema, { n, a }]) => {
+      const linha = el("div", { className: "tema" });
+      const p = pct(a, n);
+      linha.innerHTML = `<span class="nome"><span class="cor" style="background:${(CORES[tema] || ["#6b6b66"])[0]}"></span>${esc(tema)}</span>
+        <span class="valores">${n ? `${inteiro(a)} de ${inteiro(n)} · <strong>${p}%</strong>` : "—"}</span>
+        <div class="trilho" role="img" aria-label="${esc(tema)}: ${n ? `${p}% de acertos` : "sem respostas"}">
+          <div style="width:${p}%;background:${(CORES[tema] || ["#6b6b66"])[0]}"></div></div>`;
+      return linha;
+    }));
+
+    // Partidas, da mais recente para a mais antiga.
+    partidas.sort((x, y) => (y.quando?.toMillis?.() || 0) - (x.quando?.toMillis?.() || 0));
+    $("partidas").replaceChildren(...partidas.map(p => {
+      const situacao = p.venceu ? "🏆 venceu" : p.fim ? "terminou" : "em andamento";
+      return el("div", { className: "partida", innerHTML:
+        `<span class="data">${esc(dia(p.quando))}</span>
+         <span><span class="codigo">${esc(p.codigo)}</span> <span class="suave">· ${situacao}</span></span>
+         <span class="acertos">${inteiro(p.a)} de ${inteiro(p.n)}</span>` });
+    }));
+  }
+
+  (async () => {
+    try {
+      uid = await entrarAnonimo();
+    } catch (e) {
+      $("carregando").hidden = true;
+      $("erro").textContent = "Não consegui conectar: " + e.message;
+      return;
+    }
+    montarConta($("conta"), { linkEstatisticas: false, aoTrocar: c => { uid = c.uid; carregar(); } });
+    carregar();
+  })();
+</script>
+</body>
+</html>

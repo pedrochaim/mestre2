@@ -17,7 +17,7 @@ const app = initializeApp({
   appId: "1:450189916006:web:92357b7ab1998d0dc0faa7",
 });
 export const db = getFirestore(app);
-const auth = getAuth(app);
+export const auth = getAuth(app);
 // Para testar sem tocar no projeto: com "?emulador" no endereço, a página usa os emuladores locais do Firebase
 // (npx firebase-tools emulators:start --only firestore,auth, na pasta app/).
 if (new URLSearchParams(location.search).has("emulador")) {
@@ -26,7 +26,8 @@ if (new URLSearchParams(location.search).has("emulador")) {
 }
 
 // Login anônimo: cada aparelho ganha um id (uid) que sobrevive a recarregar a página. É ele que distingue os jogadores
-// (o documento do jogador tem o uid como id) e a tela grande que comanda a partida (campo "anfitriao").
+// (o documento do jogador tem o uid como id) e a tela grande que comanda a partida (campo "anfitriao"). Quem entrou com
+// a conta Google (arena-conta.js) continua com ela: o uid passa a ser o da conta, o mesmo em qualquer aparelho.
 export function entrarAnonimo() {
   return new Promise((resolve, reject) => {
     const parar = onAuthStateChanged(auth, usuario => {

@@ -107,6 +107,12 @@
     .pontos span:nth-child(2) { animation-delay: .15s; } .pontos span:nth-child(3) { animation-delay: .3s; }
     @keyframes ponto { 0%, 100% { opacity: .2; } 50% { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { #resultado.suspense, .pontos span { animation: none; } }
+    /* Conta (arena-conta.js): sem conta, "Entrar com Google"; com ela, o nome e "Sair da conta". */
+    .conta { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .8rem; padding: .8rem 1rem; }
+    .conta .conta-texto { flex: 1 1 100%; margin: 0; font-size: .92rem; }
+    .conta button.google { background: var(--texto); border-color: var(--texto); color: #000; font-weight: 700; }
+    .conta .conta-link { margin-left: auto; font-size: .92rem; }
+    .conta .erro, .conta .suave { flex: 1 1 100%; margin: 0; font-size: .85rem; }
   </style>
 </head>
 <body>
@@ -117,6 +123,7 @@
     <p><a href="./">← Mestre2</a></p>
     <h1>Arena</h1>
     <p class="suave">A pergunta aparece na tela grande; você responde por aqui.</p>
+    <div id="conta" class="cartao conta"></div>
     <form id="form-entrar">
       <label for="campo-codigo">Código da partida</label>
       <input id="campo-codigo" maxlength="4" autocomplete="off" style="text-transform:uppercase" required>
@@ -192,6 +199,7 @@
   import { PERSONAGENS, TIMES_DE_FUTEBOL, PERSONALIZADOS, personalizadosProntos, desenhoAvatar, avatarValido } from "./arena-avatares.js";
   import { db, entrarAnonimo, OPCOES, CORES, corDe, $, el, esc, umDe, ficha, restante, agora, acertarRelogio, manterAcesa }
     from "./arena-comum.js";
+  import { conta, montarConta, lerPerfil, gravarPerfil, registrarRespostas } from "./arena-conta.js";
 
   let uid = null;
   let codigo = null;
@@ -268,6 +276,26 @@
     desenhar();  // quem está na partida com um personalizado
   });
 
+  // Perfil da conta (arena-conta.js, 2026-11-27): ao entrar com o Google, ou num aparelho sem nome guardado, o nome, o
+  // avatar e a cor da última partida da conta; sem perfil, o primeiro nome da conta Google.
+  async function aplicarPerfil(c, sempre) {
+    const p = await lerPerfil(c.uid);
+    if (p && (sempre || !$("campo-nome").value)) {
+      if (p.nome) $("campo-nome").value = p.nome;
+      if (CORES[p.tema]) { cor = p.tema; desenharCores(); }
+      if (p.avatar && (avatarValido(p.avatar) || p.avatar.startsWith("c-"))) {
+        avatar = p.avatar;
+        abaAvatar = avatar.startsWith("t-") ? "times" : avatar.startsWith("c-") ? "personalizados" : "personagens";
+        personalizadosProntos.then(() => {
+          if (!avatarValido(avatar)) { avatar = umDe(PERSONAGENS).id; abaAvatar = "personagens"; }
+          desenharAvatares();
+        });
+      }
+    } else if (!p && c.google && !$("campo-nome").value) {
+      $("campo-nome").value = (c.nome.split(/\s+/)[0] || "").slice(0, 30);
+    }
+  }
+
   function mostrarEntrada(c = "") {
     $("conectando").hidden = true;
     $("jogo").hidden = true;
@@ -299,6 +327,7 @@
       const ref = doc(db, "partidas", c, "jogadores", uid);
       if ((await getDoc(ref)).exists()) await updateDoc(ref, { nome, tema: cor, avatar });
       else await setDoc(ref, { nome, tema: cor, avatar, pontos: 0, criado_em: serverTimestamp() });
+      gravarPerfil(uid, { nome, avatar, tema: cor });
       jogar(c);
     } catch (e) {
       $("erro-entrada").textContent = "Erro: " + e.message;
@@ -325,6 +354,8 @@
       if (!eu) return sair("Você não está mais nesta partida. Entre de novo, se quiser.");
       desenhar();
     }));
+    // Estatísticas (arena-conta.js): cada resposta numa rodada revelada vira um registro do jogador.
+    desligar.push(registrarRespostas(c, uid));
   }
 
   // Um retrato novo da partida, do ouvinte do Firestore ou lido direto do servidor (quando o ouvinte atrasa).
@@ -471,7 +502,8 @@
       $("resultado").hidden = true;
       $("espera").hidden = false;
       const venci = (partida.vencedores || []).includes(uid);
-      $("espera").textContent = venci ? "🏆 Você venceu!" : "Fim de partida. Veja quem venceu na tela grande.";
+      $("espera").innerHTML = (venci ? "🏆 Você venceu!" : "Fim de partida. Veja quem venceu na tela grande.")
+        + `<br><a href="estatisticas.html" style="font-size:1rem">Ver minhas estatísticas</a>`;
       return;
     }
     if (!r) {
@@ -611,6 +643,14 @@
       $("conectando").textContent = "Não consegui conectar: " + e.message;
       return;
     }
+    // Conta Google (arena-conta.js). Se a conta do aparelho muda (entrou numa conta Google já usada em outro aparelho,
+    // ou saiu dela), o id do jogador muda junto.
+    montarConta($("conta"), { aoTrocar: c => {
+      uid = c.uid;
+      if (codigo) sair("A conta deste aparelho mudou. Entre de novo na partida.");
+      aplicarPerfil(c, true);
+    } });
+    if (!$("campo-nome").value) aplicarPerfil(conta(), false);
     const c = location.hash.slice(1).toUpperCase();
     if (!/^[A-Z]{4}$/.test(c)) return mostrarEntrada();
     try {

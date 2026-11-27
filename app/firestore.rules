@@ -144,6 +144,22 @@ service cloud.firestore {
                       && exists(/databases/$(database)/documents/partidas/$(codigo)/jogadores/$(request.auth.uid));
       }
 
+      // Arena (2026-11-27): o histórico de cada rodada revelada, com o id "n". Gravado uma vez pela tela grande, logo
+      // depois do lote que revela, e conferido com a rodada da partida: a pergunta, o tema, a certa, o início e o prazo.
+      // "jogadores", "respostas" e "acertos" são as contagens da rodada. As estatísticas dos jogadores se apoiam nele.
+      match /rodadas/{n} {
+        allow read: if true;
+        allow create: if request.auth != null && request.auth.uid == partidaDe(codigo).anfitriao
+                      && request.resource.data.keys().hasOnly(['n', 'pergunta', 'tema', 'subtema', 'certa', 'inicio', 'prazo',
+                                                               'jogadores', 'respostas', 'acertos', 'em'])
+                      && n == string(request.resource.data.n)
+                      && rodadaConfere(partidaDe(codigo).rodada, request.resource.data)
+                      && contagemValida(request.resource.data.jogadores)
+                      && contagemValida(request.resource.data.respostas)
+                      && contagemValida(request.resource.data.acertos)
+                      && request.resource.data.em == request.time;
+      }
+
       // Um registro por sorteio; a mesma pergunta pode sair mais de uma vez na partida. "dado" (modo Pokémon): de 1 a
       // 3, quantas casas anda quem acertar.
       match /sorteios/{id} {
@@ -194,8 +210,49 @@ service cloud.firestore {
                     && (resource == null || resource.data.pergunta == request.resource.data.pergunta);
     }
 
+    // Arena, conta e estatísticas (2026-11-27): o jogador (login anônimo ou conta Google) só lê e grava o que é dele.
+    // "perfis/{uid}" guarda o nome, o avatar e a cor ("tema") da última partida, para a conta levá-los a outro aparelho.
+    match /perfis/{uid} {
+      allow read, delete: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+                            && request.resource.data.keys().hasOnly(['nome', 'avatar', 'tema', 'atualizado_em'])
+                            && nomeValido(request.resource.data) && avatarValido(request.resource.data)
+                            && temaValido(request.resource.data)
+                            && request.resource.data.atualizado_em == request.time;
+      // Uma resposta do jogador numa rodada revelada, com o id "codigo_n": só vale se bater com o histórico da rodada
+      // (rodadas/{n}) e com a resposta gravada na partida (respostas/{n}_{uid}). "ms": da pergunta aberta à resposta.
+      match /respostas/{id} {
+        allow read, delete: if request.auth != null && request.auth.uid == uid;
+        allow create: if request.auth != null && request.auth.uid == uid
+                      && request.resource.data.keys().hasOnly(['partida', 'n', 'pergunta', 'tema', 'subtema', 'opcao',
+                                                               'acertou', 'ms', 'em'])
+                      && request.resource.data.partida is string && request.resource.data.partida.matches('^[A-Z]{4}$')
+                      && request.resource.data.n is int
+                      && id == request.resource.data.partida + '_' + string(request.resource.data.n)
+                      && registroConfere(request.resource.data, uid)
+                      && request.resource.data.em == request.time;
+      }
+    }
+
     function partidaDe(codigo) {
       return get(/databases/$(database)/documents/partidas/$(codigo)).data;
+    }
+    // O histórico que a tela grande grava bate com a rodada revelada da partida.
+    function rodadaConfere(r, d) {
+      return r.n == d.n && r.fase == 'revelada' && r.pergunta == d.pergunta && r.tema == d.tema
+          && r.get('subtema', null) == d.subtema && r.certa == d.certa && r.inicio == d.inicio && r.prazo == d.prazo;
+    }
+    // O registro do jogador bate com o histórico da rodada e com a resposta dele (o tempo, com 1 ms de folga).
+    function registroConfere(d, uid) {
+      let rodada = get(/databases/$(database)/documents/partidas/$(d.partida)/rodadas/$(string(d.n))).data;
+      let resposta = get(/databases/$(database)/documents/partidas/$(d.partida)/respostas/$(string(d.n) + '_' + uid)).data;
+      let ms = resposta.em.toMillis() - rodada.inicio.toMillis();
+      return rodada.pergunta == d.pergunta && rodada.tema == d.tema && rodada.subtema == d.subtema
+          && resposta.jogador == uid && resposta.opcao == d.opcao && d.acertou == (resposta.opcao == rodada.certa)
+          && d.ms is int && d.ms >= ms - 1 && d.ms <= ms + 1;
+    }
+    function contagemValida(x) {
+      return x is int && x >= 0 && x <= 100;
     }
     function ehArena(codigo) {
       return partidaDe(codigo).get('modo', 'master') == 'arena';

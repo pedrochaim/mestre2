@@ -718,6 +718,14 @@
       lote.update(base, mudar);
       for (const j of jogadores) if (saldo(j.id)) lote.update(doc(base, "jogadores", j.id), { pontos: increment(saldo(j.id)) });
       await lote.commit();
+      // Histórico da rodada (2026-11-27): a pergunta, a certa e quantos responderam e acertaram, gravado depois do lote
+      // (a regra confere com a rodada revelada). É com ele que o celular de cada jogador grava as estatísticas dele
+      // (arena-conta.js); uma falha aqui não atrapalha a partida.
+      const s = servidor.rodada;
+      setDoc(doc(base, "rodadas", String(s.n)), { n: s.n, pergunta: s.pergunta, tema: s.tema, subtema: s.subtema ?? null,
+        certa, inicio: s.inicio, prazo: s.prazo, jogadores: ids.size, respostas: lidas.filter(x => ids.has(x.jogador)).length,
+        acertos: acertaram.length, em: serverTimestamp() })
+        .catch(e => console.warn("Histórico da rodada", s.n, "não gravado:", e.code || e));
       $("erro").textContent = "";
     } catch (e) {
       // Recusado porque outra tentativa já revelou: só falta mostrar.
