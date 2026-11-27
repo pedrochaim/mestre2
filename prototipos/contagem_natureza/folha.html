@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800;900&family=Overpass+Mono:wght@600;700&display=swap">
+<!-- Folha de contato para conferir as cenas: cada linha uma cena; em cada coluna, um instante congelado (o segundo e quanto
+     dele já passou). ?k=n,m mostra só as cenas n e m; ?q=s:t,s:t… troca os instantes; ?w= a largura de cada quadro; ?cel=1 põe
+     os quadros em formato de celular. A cena é montada como num celular que entra no meio (html(s, 7 - s)) e todas as
+     animações (CSS e SMIL) param no instante pedido. -->
+<style>
+  :root { --fonte: "Overpass", system-ui, sans-serif; --mono: "Overpass Mono", monospace; color-scheme: dark; }
+  body { margin: 0; background: #111; color: #ddd; font: 12px var(--fonte); padding: 8px; }
+  .linha { display: flex; gap: 6px; margin-bottom: 6px; align-items: start; }
+  figure { margin: 0; display: grid; gap: 2px; }
+  .palco { position: relative; container-type: size; width: var(--w, 300px); aspect-ratio: 16/9; background: #050506; border: 1px solid #333; }
+  .cel .palco { width: 150px; aspect-ratio: 9/19.5; }
+  .rotulo { width: 80px; }
+  .contagem { --u: 1.8cqmin; position: absolute; inset: 0; display: grid; place-items: center; align-content: center; overflow: hidden;
+              font-family: var(--fonte); background: radial-gradient(ellipse at center, #000d 0%, #0008 50%, #0003 80%); }
+  .contagem .cena { display: grid; justify-items: center; gap: calc(1.2 * var(--u)); position: relative; max-width: 96cqw; }
+  .contagem .badge { border-radius: calc(.7 * var(--u)); padding: .25em .8em; font-size: calc(1.5 * var(--u)); font-weight: 800; }
+  .contagem .rot { font-size: calc(2.2 * var(--u)); font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #fff; text-align: center; }
+  .contagem .num { font-weight: 900; color: #fff; line-height: .9; }
+  @keyframes ct-pulso { 0% { transform: scale(1.22); } 60% { transform: scale(1); } 100% { transform: scale(.97); } }
+</style></head><body>
+<script src="cenas.js"></script>
+<script>
+const css = document.createElement("style"); css.textContent = NA.CSS; document.head.append(css);
+const q = new URLSearchParams(location.search), so = q.get("k") === null ? null : q.get("k").split(",").map(Number);
+if (q.get("w")) document.documentElement.style.setProperty("--w", q.get("w") + "px");
+if (q.get("cel")) document.body.classList.add("cel");
+const quadros = (q.get("q") || "7:.5,5:.6,3:.6,1:.6,0:.5,0:1.4").split(",").map(x => x.split(":").map(Number));
+let n = 0;
+const celulas = [];
+NA.CENAS.forEach((e, i) => {
+  if (so !== null && !so.includes(i)) return;
+  const l = document.createElement("div"); l.className = "linha"; document.body.append(l);
+  l.innerHTML = `<div class="rotulo">${i + 1}. ${e.nome}</div>`;
+  quadros.forEach(([s, t]) => {
+    const f = document.createElement("figure"); l.append(f);
+    const p = document.createElement("div"); p.className = "palco"; f.append(p);
+    const c = document.createElement("div"); c.className = "contagem"; p.append(c);
+    f.insertAdjacentHTML("beforeend", `<figcaption>${s} · ${t}s</figcaption>`);
+    n++;
+    c.innerHTML = e.html(s, 7 - s).replace(/(id="|url\(#)(na-[\w-]+)/g, `$1$2-${n}`);
+    c.classList.toggle("ultimos", s <= 3 && s > 0); c.classList.toggle("fim", s === 0);
+    celulas.push([c, t]);
+  });
+});
+requestAnimationFrame(() => requestAnimationFrame(() => celulas.forEach(([c, t]) => {
+  c.getAnimations({ subtree: true }).forEach(a => { a.currentTime = t * 1000; a.pause(); });
+  c.querySelectorAll("svg").forEach(svg => { try { svg.pauseAnimations(); svg.setCurrentTime(t); } catch {} });
+})));
+</script>
+</body></html>

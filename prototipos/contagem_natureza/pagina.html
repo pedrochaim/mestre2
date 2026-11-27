@@ -1,0 +1,311 @@
+<title>Contagens da Natureza</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800;900&family=Overpass+Mono:wght@600;700&display=swap">
+<style>
+/* Layout: a identidade Metrô do app (preto, Overpass, o verde de Natureza). Em cima, o palco com a cena em tamanho de
+   jogo e com som, ao lado da ficha dela; embaixo, as dez cenas em miniatura, mudas, todas no mesmo segundo. */
+:root {
+  --fundo: #000; --cartao: #0e0f12; --cartao-2: #16171b; --linha: #2A2D33; --texto: #F4F4F2; --suave: #A0A4AB;
+  --nat: #8CC63F; --nat-fundo: #172309; --nat-claro: #c5ec8f; --acento: #FFD100;
+  --fonte: "Overpass", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "Overpass Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--fundo); color: var(--texto); font: 16px/1.55 var(--fonte); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--fundo); }
+.gutter { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.largura { max-width: 1180px; margin: 0 auto; }
+button { font: inherit; color: inherit; }
+button:focus-visible, .card:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+.mono { font-family: var(--mono); font-size: .9em; }
+
+/* Cabeçalho */
+header { padding-block: 36px 24px; }
+.sobre { font: 700 12px/1 var(--fonte); letter-spacing: .16em; text-transform: uppercase; color: var(--suave); display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.pilula { display: inline-block; background: var(--nat); color: #000; border-radius: 6px; padding: 5px 9px 3px; font: 800 12px/1 var(--fonte); letter-spacing: .08em; text-transform: uppercase; }
+h1 { font: 900 clamp(2rem, 5.2vw, 3.5rem)/1.02 var(--fonte); letter-spacing: -.02em; margin: 18px 0 14px; text-wrap: balance; }
+h1 em { font-style: normal; color: var(--nat); }
+.lede { max-width: 68ch; color: #d6d7da; font-size: 1.06rem; margin: 0; }
+.cobertura { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 0; padding: 0; list-style: none; }
+.cobertura li { border: 1px solid var(--linha); border-radius: 999px; padding: 5px 12px 3px; font-size: .88rem; color: #d6d7da; display: flex; gap: 8px; align-items: baseline; }
+.cobertura b { font-family: var(--mono); color: var(--nat); }
+
+/* Tocador: palco + ficha */
+.tocador { display: grid; gap: 18px 26px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+@media (min-width: 980px) { .tocador { grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); } }
+.coluna-palco { display: grid; gap: 10px; min-width: 0; }
+.palco { position: relative; container-type: size; aspect-ratio: 16 / 9; width: 100%; max-width: 100%; overflow: hidden; border-radius: 12px;
+         border: 1px solid var(--linha);
+         background: repeating-linear-gradient(90deg, #ffffff06 0 1px, transparent 1px 8cqmin), repeating-linear-gradient(0deg, #ffffff06 0 1px, transparent 1px 8cqmin), #050506; }
+.palco.celular { aspect-ratio: 9 / 19.5; width: auto; height: min(76vh, 700px); justify-self: center; border-radius: 22px; }
+.ouvir { position: absolute; z-index: 3; left: 50%; bottom: 5%; transform: translateX(-50%); background: var(--acento); color: #000; border: 0; border-radius: 999px;
+         padding: 10px 18px 8px; font: 800 15px/1 var(--fonte); cursor: pointer; box-shadow: 0 6px 24px #000a; white-space: nowrap; }
+.controles { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.ctl { background: var(--cartao-2); border: 1px solid var(--linha); border-radius: 10px; padding: 8px 12px 6px; cursor: pointer; line-height: 1.1; }
+.ctl:hover { border-color: #4a4e57; }
+.ctl[aria-pressed="true"] { background: var(--texto); color: #000; border-color: var(--texto); font-weight: 800; }
+.qual { flex: 1 1 180px; min-width: 0; padding: 0 4px; line-height: 1.2; }
+.qual b { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.qual small { color: var(--suave); font-size: .8rem; }
+.aparelho { display: flex; gap: 4px; }
+
+.ficha { background: var(--cartao); border: 1px solid var(--linha); border-radius: 14px; padding: 20px; display: grid; gap: 12px; min-width: 0; }
+.ficha .meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 0; }
+.chave { font: 700 12px/1 var(--mono); background: var(--nat-fundo); color: var(--nat-claro); border-radius: 6px; padding: 5px 7px 4px; }
+.sub { font: 700 12px/1.2 var(--fonte); letter-spacing: .1em; text-transform: uppercase; color: var(--suave); }
+.ficha h2 { font: 900 1.7rem/1.1 var(--fonte); margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+.ficha .ideia { margin: 0; color: #e2e3e6; }
+.fatos { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 8px 14px; margin: 2px 0 0; }
+.fatos dt { font: 700 11px/1.9 var(--fonte); letter-spacing: .12em; text-transform: uppercase; color: var(--suave); }
+.fatos dd { margin: 0; color: #d6d7da; font-size: .95rem; }
+.fatos .somnome { color: var(--texto); font-weight: 700; }
+.real { margin: 0; font-size: .9rem; color: var(--suave); border-left: 2px solid var(--nat); padding-left: 10px; }
+.atalhos { color: var(--suave); font-size: .8rem; margin: 0; }
+kbd { font: 600 .78rem var(--mono); border: 1px solid var(--linha); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; color: #d6d7da; }
+
+/* Miniaturas */
+.secao { padding-block: 34px 4px; }
+.secao h2 { font: 900 1.45rem/1.1 var(--fonte); margin: 0 0 6px; }
+.secao > p { margin: 0 0 16px; color: var(--suave); max-width: 70ch; }
+.grade { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
+.card { display: grid; gap: 0; text-align: left; background: var(--cartao); border: 1px solid var(--linha); border-radius: 12px; overflow: hidden; padding: 0; cursor: pointer; }
+.card:hover { border-color: #4a4e57; }
+.card[aria-current="true"] { border-color: var(--nat); box-shadow: 0 0 0 1px var(--nat); }
+.card .palco { border: 0; border-radius: 0; }
+.card .nome { padding: 9px 11px 10px; display: grid; gap: 3px; line-height: 1.25; }
+.card .nome b { font-size: .98rem; }
+.card .nome span { color: var(--suave); font-size: .8rem; }
+.card .nome .n { font: 700 11px/1 var(--mono); color: var(--nat-claro); }
+
+.passos { margin: 0; padding-left: 1.3em; display: grid; gap: 8px; max-width: 80ch; color: #d6d7da; }
+.passos b { color: var(--texto); }
+footer { padding-block: 26px 44px; color: var(--suave); font-size: .85rem; }
+
+/* A contagem: o mesmo CSS de arena-contagem.js, com --u e as larguras medidos no palco (cqmin, cqw) em vez da tela. */
+.contagem { --u: 1.8cqmin; position: absolute; inset: 0; z-index: 1; pointer-events: none; display: grid; place-items: center; align-content: center;
+            overflow: hidden; font-family: var(--fonte); background: radial-gradient(ellipse at center, #000d 0%, #0008 50%, #0003 80%); }
+.contagem .cena { display: grid; justify-items: center; gap: calc(1.2 * var(--u)); position: relative; max-width: 96cqw; }
+.contagem .badge { border-radius: calc(.7 * var(--u)); padding: .25em .8em; font-size: calc(1.5 * var(--u)); font-weight: 800; }
+.contagem .rot { font-size: calc(2.2 * var(--u)); font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #fff;
+                 text-shadow: 0 0 calc(2 * var(--u)) #000; text-align: center; }
+.contagem .num { font-weight: 900; color: #fff; line-height: .9; font-variant-numeric: tabular-nums; }
+@keyframes ct-pulso { 0% { transform: scale(1.22); } 60% { transform: scale(1); } 100% { transform: scale(.97); } }
+@keyframes ct-piscar { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+</style>
+
+<header class="gutter">
+  <div class="largura">
+    <div class="sobre"><span class="pilula">Natureza</span><span>Arena · contagem da próxima pergunta</span></div>
+    <h1>Dez contagens da <em>Natureza</em>, com som</h1>
+    <p class="lede">Dez cenas novas para a contagem de 7 a 0 antes de uma pergunta de Natureza, uma para cada subtema (Aves, Répteis e Anfíbios
+      ganhou duas), cada uma com som próprio, sintetizado na hora. O broto continua como a cena 0; estas entram como
+      <span class="mono">Natureza|1</span> a <span class="mono">|10</span> e são sorteadas como as dos outros temas. O volume de cada uma já foi
+      medido para soar igual às outras transições.</p>
+    <ul class="cobertura" aria-label="Cenas por subtema" id="cobertura"></ul>
+  </div>
+</header>
+
+<main class="gutter"><div class="largura">
+  <section class="tocador" aria-label="Cena em tamanho de jogo">
+    <div class="coluna-palco">
+      <div class="palco" id="palco" role="img" aria-label="Contagem">
+        <div class="caixa" id="caixa"></div>
+        <button class="ouvir" id="ouvir" type="button">▶ Ouvir com som</button>
+      </div>
+      <div class="controles">
+        <button class="ctl" id="anterior" type="button" aria-label="Cena anterior">‹</button>
+        <div class="qual" id="qual"></div>
+        <button class="ctl" id="seguinte" type="button" aria-label="Cena seguinte">›</button>
+        <button class="ctl" id="repetir" type="button" title="Recomeçar do 7 (espaço)">↻ Do 7</button>
+        <button class="ctl" id="som" type="button" aria-pressed="false" title="Ligar ou desligar o som (S)">Som desligado</button>
+        <div class="aparelho" role="group" aria-label="Aparelho">
+          <button class="ctl" id="ver-tv" type="button" aria-pressed="true">Tela grande</button>
+          <button class="ctl" id="ver-celular" type="button" aria-pressed="false">Celular</button>
+        </div>
+      </div>
+    </div>
+    <article class="ficha" id="ficha" aria-live="polite"></article>
+  </section>
+
+  <section class="secao" aria-labelledby="h-todas">
+    <h2 id="h-todas">As dez cenas</h2>
+    <p>Em miniatura e sem som, todas no mesmo segundo. Toque uma para vê-la em cima, em tamanho de jogo e com som.</p>
+    <div class="grade" id="grade"></div>
+  </section>
+
+  <section class="secao" aria-labelledby="h-app">
+    <h2 id="h-app">Para entrar no app</h2>
+    <ol class="passos">
+      <li><b>arena-contagem.js:</b> uma lista <span class="mono">NATUREZA</span> com o broto e as dez cenas, como <span class="mono">CIENCIAS</span>; o CSS
+        <span class="mono">.na-*</span> com <span class="mono">vmin</span> e <span class="mono">vw</span> no lugar de <span class="mono">cqmin</span> e <span class="mono">cqw</span>.
+        Nenhuma fonte nova.</li>
+      <li><b>arena-suspense.js:</b> <span class="mono">"Natureza|1"</span> a <span class="mono">"|10"</span> em <span class="mono">SONS_CENAS</span>, com os ganhos medidos:
+        −25 LUFS de 7 a 4, −22 de 3 a 1 e −16 no zero, com pico abaixo de 0,85.</li>
+      <li><b>contagens.html:</b> os onze nomes de Natureza na galeria.</li>
+    </ol>
+  </section>
+</div></main>
+
+<footer class="gutter"><div class="largura">Protótipo de 27/11/2026. Os arquivos estão em <span class="mono">prototipos/contagem_natureza/</span>: cenas.js, sons.js e a medição de volume (medir.html).</div></footer>
+
+<script src="cenas.js"></script>
+<script src="sons.js"></script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const CENAS = NA.CENAS, SEG = 7, ZERO_MS = 3000;
+  const FICHAS = [
+    { ideia: "À noite, um morcego caça uma mariposa pelo eco. A cada chamada sai uma onda dele, e a mariposa devolve o eco. Ele chega mais perto a cada segundo; nos três últimos, as chamadas aceleram até virar um zumbido. No zero, pegou. O número está na lua.",
+      som: "As chamadas de ecolocalização, trazidas para o som que a gente ouve, como num detector de morcegos: 4 por segundo, depois 6, 10, 18 e 36 no 1, cada uma com o eco da mariposa, que volta mais depressa conforme ele se aproxima. Grilos ao fundo.",
+      zero: "A mordida, o engolir e o bater de asas.",
+      real: "As chamadas dos morcegos são ultrassons, agudas demais para o ouvido humano. Na caça, eles passam de umas 10 chamadas por segundo para até 200 no ataque final, o zumbido de captura." },
+    { ideia: "No alto do mourão da cerca, o joão-de-barro levanta o forno: a cada segundo ele vai do arame ao ninho com uma bolota de barro no bico e assenta mais uma camada, escura de molhada, que seca devagar. No zero, a casa fica pronta, com a porta de lado, e o casal canta em dueto em cima dela. O número está na plaquinha do mourão.",
+      som: "O bater de asas indo e voltando, o “tup” do barro, o piado de contato e um vento leve.",
+      zero: "O dueto do casal: um canta rápido, o outro mais devagar, os dois descendo de tom.",
+      real: "O forno é de barro com palha e esterco. A entrada fica de lado e, lá dentro, uma parede separa a câmara do ninho, que fica protegida do vento e dos bichos." },
+    { ideia: "Noite de lua na praia. A cada segundo, um filhote sai do ninho na areia e corre para o mar; os primeiros chegam à água no 2 e no 1. No zero, uma onda sobe a praia e leva os outros, e lá no mar aparecem as cabecinhas nadando.",
+      som: "As ondas, a areia sendo cavada e o “pop” de cada filhote que sai, com uma nota de marimba que sobe a cada segundo; no 2 e no 1, o filhote que cai na água.",
+      zero: "A onda grande e um arpejo de marimba.",
+      real: "Os filhotes saem do ninho à noite e vão para o lado mais claro do horizonte, que é o mar com o reflexo da lua e das estrelas. Por isso a luz de prédios e postes na beira da praia confunde os filhotes." },
+    { ideia: "Metade embaixo d’água, metade no céu da manhã. A jubarte sobe do fundo cantando, dez metros por segundo, e o profundímetro acompanha: 70 metros no 7, 10 metros no 1. No zero, ela salta para fora d’água e cai de volta.",
+      som: "Um trecho do canto por segundo, gemidos que sobem e descem e um “uup”, mais agudo perto da superfície; nos três últimos, os assobios.",
+      zero: "A subida, o salto, o respingo e o tombo na água.",
+      real: "Só os machos cantam, e os de uma mesma região cantam a mesma canção, que muda aos poucos de um ano para outro. Entre julho e novembro, as jubartes vêm ter filhotes no litoral da Bahia, em Abrolhos." },
+    { ideia: "A lagarta da borboleta-azul come a folha, uma mordida por segundo; no 4, pendura-se no galho em J; no 3 vira crisálida, que se mexe nos três últimos e no 1 já deixa ver o azul das asas. No zero, a borboleta sai e abre as asas.",
+      som: "A lagarta mastigando, o fio de seda no 4 e, na crisálida, os estalos e um brilho que sobe.",
+      zero: "Uma celesta e o bater das asas.",
+      real: "O azul da borboleta-azul (Morpho) não vem de pigmento: as escamas das asas têm estruturas microscópicas que refletem só a luz azul, e por isso o brilho muda com o ângulo." },
+    { ideia: "No pé de uma palmeira de babaçu, à noite, brota um cogumelo por segundo, e cada um acende verde. Nos três últimos, eles pulsam. No zero, brilham todos de uma vez e soltam esporos.",
+      som: "A mata à noite, com grilos e pererecas, e um “plim” de vidro para cada cogumelo que acende, subindo a escala; nos três últimos, um brilho tremido.",
+      zero: "Um acorde de sinos e o pó dos esporos.",
+      real: "A flor-de-coco (Neonothopanus gardneri) é um fungo que cresce no pé de palmeiras de babaçu no Piauí e no Tocantins e brilha verde no escuro. Fungo não é planta: é parente mais próximo dos animais." },
+    { ideia: "Na rocha, com a quadrícula de barbante dos paleontólogos, o pincel descobre um pedaço do esqueleto por segundo: cauda, patas de trás, bacia, costelas, patas da frente, pescoço e, no 1, o crânio. No zero, aparece em volta dos ossos o bicho inteiro, um titanossauro. O número está na plaquinha da quadra.",
+      som: "O pincel na pedra, três passadas por segundo (quatro nos três últimos), os grãos caindo e o “tim” da espátula no osso; nos três últimos, um bordão que sobe.",
+      zero: "Um ronco grave, de boca fechada, e um acorde de metais.",
+      real: "Ninguém sabe a voz de um dinossauro; pelo parentesco com aves e crocodilos, alguns talvez fizessem sons graves de boca fechada. O maior dinossauro achado no Brasil é um titanossauro, o Austroposeidon magnificus, de uns 25 metros, de Presidente Prudente (SP)." },
+    { ideia: "Numa caverna escura, duas mãos batem pirita no sílex, uma vez por segundo, e as faíscas caem na palha seca. No 4 a palha começa a fumegar; nos três últimos a brasa cresce e clareia a caverna. No zero, o fogo pega e ilumina as pinturas na parede. O número está pintado na rocha, com ocre.",
+      som: "A pedra batendo no instante da batida, as faíscas chiando, uma gota pingando na caverna e, do 4 em diante, o sopro na palha.",
+      zero: "O “fuuum” do fogo pegando, um tambor e a lenha estalando.",
+      real: "Sílex com sílex não solta faísca: é preciso pirita, um mineral de ferro. Machadinhas de neandertais de uns 50 mil anos têm marcas de quem fazia fogo assim. As pinturas lembram as da Serra da Capivara, no Piauí." },
+    { ideia: "Recife à noite, poucos dias depois da lua cheia. A cada segundo, uma colônia de coral fica pronta: aparecem nas bocas dos pólipos as bolinhas cor-de-rosa. Nos três últimos, elas pulsam. No zero, todas saem ao mesmo tempo e a água se enche de bolinhas subindo, como neve ao contrário.",
+      som: "O fundo do mar, o crepitar dos camarões-de-estalo do recife e um “blup” com nota de vibrafone para cada colônia; nos três últimos, um pulso.",
+      zero: "Um “uuush” que sobe e o brilho de dezenas de bolinhas.",
+      real: "Cada bolinha é um pacote de óvulos e espermatozoides. Uma vez por ano, poucas noites depois da lua cheia, os corais de um recife soltam todos juntos; na Grande Barreira, na Austrália, entre outubro e dezembro. O crepitar de um recife vem dos camarões-de-estalo." },
+    { ideia: "O geodo cortado ao meio: no 7, só a bolha de gás que ficou na lava; no 6, 5 e 4, a água com sílica deixa as camadas de ágata na parede; no 3, 2 e 1, os cristais de quartzo crescem para dentro e ficam roxos. No zero, a luz passa pela pedra e os cristais brilham. O número fica no oco do meio.",
+      som: "A lava roncando e a bolha que estoura no 7, gotas pingando na pedra no 6, 5 e 4 e, no 3, 2 e 1, notas de vidro que vão formando um acorde, com os tique-tiques dos cristais.",
+      zero: "Sinos e um acorde de vidro.",
+      real: "Os geodos de Ametista do Sul (RS) se formaram nas bolhas de gás da lava que cobriu o sul do Brasil há uns 130 milhões de anos. O roxo da ametista vem de um pouco de ferro no quartzo." },
+  ];
+
+  // O CSS das cenas, como instalarCss() do app.
+  const css = document.createElement("style"); css.textContent = NA.CSS; document.head.append(css);
+
+  // Subtemas cobertos.
+  const conta = {}; CENAS.forEach(c => conta[c.sub] = (conta[c.sub] || 0) + 1);
+  $("cobertura").innerHTML = Object.entries(conta).map(([s, n]) => `<li><b>${n}</b>${s}</li>`).join("");
+
+  // ---- Um palco: a mesma lógica de criarContagem() do app (o número trocado a cada segundo, depois(), "ultimos" e "fim").
+  // Os ids dos desenhos ganham um sufixo por palco, porque aqui há dez cenas na mesma página.
+  let palcos = 0;
+  function criarPalco(caixa, { comSom = false, relogio = null } = {}) {
+    const n = ++palcos, unico = h => h.replace(/(id="|url\(#)(na-[\w-]+)/g, `$1$2-${n}`);
+    let i = 0, inicio = 0, seg = null, ativo = false;
+    const classes = s => { caixa.classList.toggle("ultimos", s <= 3); caixa.classList.toggle("fim", s === 0); };
+    function passo() {
+      if (!ativo) return;
+      const t = relogio ? relogio() : performance.now() - inicio;
+      const ms = SEG * 1000 - t;
+      if (!relogio && ms < -ZERO_MS) return recomecar();
+      const s = Math.max(0, Math.ceil(ms / 1000));
+      if (s === seg) return;
+      const e = CENAS[i];
+      if (seg === null || (relogio && s === SEG && seg === 0)) {
+        caixa.className = "contagem";
+        caixa.innerHTML = unico(e.html(s, Math.max(0, SEG - ms / 1000)));
+      } else {
+        const num = caixa.querySelector(".num"), novo = num.cloneNode(true);
+        novo.textContent = e.texto ? e.texto(s) : s;
+        num.replaceWith(novo);
+        e.depois?.(caixa, s);
+      }
+      classes(s);
+      seg = s;
+      if (comSom) NASOM.somContagem(s, i);
+    }
+    function recomecar() { inicio = performance.now(); seg = null; passo(); }
+    return {
+      passo,
+      abrir(k) { i = k; ativo = true; if (comSom) NASOM.pararContagem(); recomecar(); },
+      recomecar() { if (comSom) NASOM.pararContagem(); recomecar(); },
+      parar() { ativo = false; seg = null; caixa.innerHTML = ""; caixa.className = "caixa"; },
+      get ativo() { return ativo; },
+    };
+  }
+  const todos = [];
+  setInterval(() => todos.forEach(p => p.passo()), 50);
+
+  // ---- O palco grande, com som.
+  let atual = 0;
+  const grande = criarPalco($("caixa"), { comSom: true }); todos.push(grande);
+  function mostrarFicha() {
+    const c = CENAS[atual], f = FICHAS[atual];
+    $("ficha").innerHTML = `<p class="meta"><span class="chave">Natureza|${atual + 1}</span><span class="sub">${c.sub}</span></p>
+      <h2>${c.nome}</h2><p class="ideia">${f.ideia}</p>
+      <dl class="fatos"><dt>Som</dt><dd><span class="somnome">${NASOM.NOMES[atual]}.</span> ${f.som}</dd><dt>No zero</dt><dd>${f.zero}</dd></dl>
+      <p class="real">${f.real}</p>
+      <p class="atalhos"><kbd>←</kbd> <kbd>→</kbd> trocam de cena, <kbd>espaço</kbd> recomeça do 7 e <kbd>S</kbd> liga o som.</p>`;
+    $("qual").innerHTML = `<b>${c.nome}</b><small>${atual + 1} de ${CENAS.length} · ${NASOM.NOMES[atual]}</small>`;
+    $("palco").setAttribute("aria-label", `Contagem de Natureza: ${c.nome}`);
+    document.querySelectorAll(".card").forEach((b, k) => b.setAttribute("aria-current", String(k === atual)));
+  }
+  function escolher(k) { atual = (k + CENAS.length) % CENAS.length; mostrarFicha(); grande.abrir(atual); }
+  function marcarSom() {
+    const on = NASOM.somLigado() && somPronto;
+    $("som").textContent = on ? "Som ligado" : "Som desligado"; $("som").setAttribute("aria-pressed", String(on));
+    $("ouvir").hidden = on;
+  }
+  let somPronto = false;
+  async function ligar() { await NASOM.prepararSom(); somPronto = true; NASOM.ligarSom(true); marcarSom(); grande.recomecar(); }
+  $("ouvir").onclick = ligar;
+  $("som").onclick = () => { if (!somPronto || !NASOM.somLigado()) ligar(); else { NASOM.ligarSom(false); marcarSom(); } };
+  $("anterior").onclick = () => escolher(atual - 1);
+  $("seguinte").onclick = () => escolher(atual + 1);
+  $("repetir").onclick = () => grande.recomecar();
+  function aparelho(cel) {
+    $("palco").classList.toggle("celular", cel);
+    $("ver-tv").setAttribute("aria-pressed", String(!cel)); $("ver-celular").setAttribute("aria-pressed", String(cel));
+    grande.recomecar();
+  }
+  $("ver-tv").onclick = () => aparelho(false);
+  $("ver-celular").onclick = () => aparelho(true);
+  addEventListener("keydown", e => {
+    if (e.target.closest?.("input, textarea") || e.altKey || e.ctrlKey || e.metaKey) return;
+    if (e.key === "ArrowLeft") escolher(atual - 1);
+    else if (e.key === "ArrowRight") escolher(atual + 1);
+    else if (e.key === " " && !e.target.closest?.("button")) { e.preventDefault(); grande.recomecar(); }
+    else if (e.key === "s" || e.key === "S") $("som").click();
+  });
+
+  // ---- As miniaturas: mudas, no mesmo relógio (um ciclo de 10 s), só enquanto aparecem na tela.
+  const EPOCA = performance.now(), relogio = () => (performance.now() - EPOCA) % (SEG * 1000 + ZERO_MS);
+  $("grade").innerHTML = CENAS.map((c, k) => `<button class="card" type="button" data-k="${k}" aria-label="${c.nome}, ${c.sub}">
+      <div class="palco" aria-hidden="true"><div class="caixa"></div></div>
+      <div class="nome"><span class="n">Natureza|${k + 1}</span><b>${c.nome}</b><span>${c.sub}</span></div></button>`).join("");
+  const minis = [...document.querySelectorAll(".card")].map((b, k) => {
+    const p = criarPalco(b.querySelector(".caixa"), { relogio }); todos.push(p);
+    b.onclick = () => { escolher(k); $("palco").scrollIntoView({ behavior: "smooth", block: "center" }); };
+    return p;
+  });
+  const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.forEach(e => {
+    const p = minis[+e.target.dataset.k];
+    if (e.isIntersecting && !p.ativo) p.abrir(+e.target.dataset.k); else if (!e.isIntersecting && p.ativo) p.parar();
+  }), { rootMargin: "120px" }) : null;
+  document.querySelectorAll(".card").forEach((b, k) => io ? io.observe(b) : minis[k].abrir(k));
+
+  marcarSom();
+  escolher(0);
+})();
+</script>
