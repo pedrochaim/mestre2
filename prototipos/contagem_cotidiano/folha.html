@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800;900&family=Overpass+Mono:wght@600;700&family=VT323&family=Courier+Prime:wght@700&family=Pacifico&display=swap">
+<!-- Folha de contato para conferir as cenas: cada linha uma cena, nas colunas os segundos 7, 4 (montado com depois()), 2 e
+     0 (com depois()); embaixo, todas no formato de celular, no 3. ?k=n mostra só a cena n. -->
+<style>
+  :root { --fonte: "Overpass", system-ui, sans-serif; --mono: "Overpass Mono", monospace; color-scheme: dark; }
+  body { margin: 0; background: #111; color: #ddd; font: 12px var(--fonte); padding: 8px; }
+  .linha { display: flex; gap: 6px; margin-bottom: 6px; align-items: start; }
+  .palco { position: relative; container-type: size; width: var(--w, 340px); aspect-ratio: 16/9; background: #050506; border: 1px solid #333; }
+  .cel { width: 150px; aspect-ratio: 9/19.5; }
+  .rotulo { width: 90px; }
+  .contagem { --u: 1.8cqmin; position: absolute; inset: 0; display: grid; place-items: center; align-content: center; overflow: hidden;
+              font-family: var(--fonte); background: radial-gradient(ellipse at center, #000d 0%, #0008 50%, #0003 80%); }
+  .contagem .cena { display: grid; justify-items: center; gap: calc(1.2 * var(--u)); position: relative; max-width: 96cqw; }
+  .contagem .badge { border-radius: calc(.7 * var(--u)); padding: .25em .8em; font-size: calc(1.5 * var(--u)); font-weight: 800; }
+  .contagem .rot { font-size: calc(2.2 * var(--u)); font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #fff; text-align: center; }
+  .contagem .num { font-weight: 900; color: #fff; line-height: .9; }
+  @keyframes ct-pulso { 0% { transform: scale(1.22); } 60% { transform: scale(1); } 100% { transform: scale(.97); } }
+</style></head><body>
+<script src="cenas.js"></script>
+<script>
+const css = document.createElement("style"); css.textContent = CO.CSS; document.head.append(css);
+let n = 0;
+const unico = h => { n++; return h.replace(/(id="|url\(#)(co-[\w-]+)/g, `$1$2-${n}`); };
+function celula(pai, i, s, viaDepois, cel = false) {
+  const p = document.createElement("div"); p.className = "palco" + (cel ? " cel" : ""); pai.append(p);
+  const c = document.createElement("div"); c.className = "contagem"; p.append(c);
+  const e = CO.CENAS[i];
+  if (!viaDepois) c.innerHTML = unico(e.html(s, 7 - s));
+  else { c.innerHTML = unico(e.html(7, 0)); for (let k = 6; k >= s; k--) { const num = c.querySelector(".num"), novo = num.cloneNode(true);
+         novo.textContent = e.texto ? e.texto(k) : k; num.replaceWith(novo); e.depois?.(c, k); } }
+  c.classList.toggle("ultimos", s <= 3); c.classList.toggle("fim", s === 0);
+}
+const q = new URLSearchParams(location.search), so = q.get("k");
+if (q.get("w")) document.documentElement.style.setProperty("--w", q.get("w") + "px");
+CO.CENAS.forEach((e, i) => {
+  if (so !== null && +so !== i) return;
+  const l = document.createElement("div"); l.className = "linha"; document.body.append(l);
+  l.innerHTML = `<div class="rotulo">${i + 1}. ${e.nome}</div>`;
+  celula(l, i, 7, false); celula(l, i, 4, true); celula(l, i, 2, false); celula(l, i, 0, true);
+});
+const l = document.createElement("div"); l.className = "linha"; document.body.append(l);
+CO.CENAS.forEach((e, i) => { if (so === null || +so === i) celula(l, i, 3, false, true); });
+</script>
+</body></html>

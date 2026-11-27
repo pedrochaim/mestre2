@@ -1,0 +1,56 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Medir volume · Cotidiano</title>
+<!-- Mede o volume dos sons das cenas (sons.js) fora de tempo real e calcula o ganho de cada uma. Metas (as das outras cenas
+     da Arena): -25 LUFS de 7 a 4, -22 de 3 a 1, -16 no zero; pico até 0,85. Loudness: filtro K (BS.1770, 48 kHz), máximo
+     em janelas de 0,4 s. Cada medida é a média de 3 renderizações (os sons têm partes sorteadas). O resultado vai por
+     POST para servidor.py (?pronto=1 só mostra na página). -->
+<script src="sons.js"></script>
+<pre id="saida">medindo…</pre>
+<script>
+const SR = 48000, REPETE = 3;
+function biquad(x, b, a) {
+  const y = new Float32Array(x.length); let x1 = 0, x2 = 0, y1 = 0, y2 = 0;
+  for (let i = 0; i < x.length; i++) { const v = b[0] * x[i] + b[1] * x1 + b[2] * x2 - a[1] * y1 - a[2] * y2; x2 = x1; x1 = x[i]; y2 = y1; y1 = v; y[i] = v; }
+  return y;
+}
+const kw = x => biquad(biquad(x, [1.53512485958697, -2.69169618940638, 1.19839281085285], [1, -1.69065929318241, .73248077421585]),
+                       [1, -2, 1], [1, -1.99004745483398, .99007225036621]);
+async function render(tocar, dur) {
+  const ctx = new OfflineAudioContext(2, Math.ceil(SR * dur), SR);
+  COSOM.medir.usar(ctx); tocar();
+  const b = await ctx.startRendering();
+  return [b.getChannelData(0), b.getChannelData(1)];
+}
+function medida([L, R]) {
+  let pico = 0; for (const c of [L, R]) for (let i = 0; i < c.length; i++) pico = Math.max(pico, Math.abs(c[i]));
+  const a = kw(L), b = kw(R), n = a.length, acc = new Float64Array(n + 1);
+  for (let i = 0; i < n; i++) acc[i + 1] = acc[i] + a[i] * a[i] + b[i] * b[i];
+  const W = Math.round(.4 * SR), H = Math.round(.1 * SR); let max = -Infinity;
+  for (let i = 0; i + W <= n; i += H) max = Math.max(max, -0.691 + 10 * Math.log10((acc[i + W] - acc[i]) / W + 1e-12));
+  return { lufs: max, pico };
+}
+async function media(tocar, dur) {
+  let l = 0, p = 0;
+  for (let r = 0; r < REPETE; r++) { const m = medida(await render(tocar, dur)); l += m.lufs / REPETE; p = Math.max(p, m.pico); }
+  return { lufs: l, pico: p };
+}
+(async () => {
+  const res = [];
+  for (let i = 0; i < COSOM.NOMES.length; i++) {
+    const seg = {};
+    for (let s = 7; s >= 1; s--) seg[s] = await media(() => COSOM.medir.segundo(i, s), 1.6);
+    const zero = await media(() => COSOM.medir.zero(i), 3.4);
+    const precisa = Object.entries(seg).map(([s, m]) => (+s >= 4 ? -25 : -22) - m.lufs);
+    const picoS = Math.max(...Object.values(seg).map(m => m.pico));
+    const gs = Math.min(Math.pow(10, precisa.reduce((a, b) => a + b, 0) / precisa.length / 20), .85 / picoS);
+    const gz = Math.min(Math.pow(10, (-16 - zero.lufs) / 20), .85 / zero.pico);
+    res.push({ nome: COSOM.NOMES[i], ganho: [+gs.toFixed(2), +gz.toFixed(2)], seg, zero,
+               depois: { seg: Object.fromEntries(Object.entries(seg).map(([s, m]) => [s, +(m.lufs + 20 * Math.log10(gs)).toFixed(1)])),
+                         zero: +(zero.lufs + 20 * Math.log10(gz)).toFixed(1), picoSeg: +(picoS * gs).toFixed(2), picoZero: +(zero.pico * gz).toFixed(2) } });
+    document.getElementById("saida").textContent = `medindo… ${i + 1} de ${COSOM.NOMES.length}`;
+  }
+  document.getElementById("saida").textContent = JSON.stringify(res, null, 1);
+  if (!location.search.includes("pronto")) fetch("/resultado", { method: "POST", body: JSON.stringify(res) });
+})();
+</script>

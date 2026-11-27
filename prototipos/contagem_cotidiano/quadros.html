@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700;800;900&family=Overpass+Mono:wght@600;700&family=VT323&family=Courier+Prime:wght@700&family=Pacifico&display=swap">
+<!-- Quadros congelados de uma cena, para conferir as animações: ?k=<cena>&q=<segundo>:<instante>,... (o instante em
+     segundos desde que o número apareceu) &w=<largura de cada quadro>. A cena é montada como no jogo (html(7) e depois()
+     até o segundo) e todas as animações dela param no instante pedido. -->
+<style>
+  :root { --fonte: "Overpass", system-ui, sans-serif; --mono: "Overpass Mono", monospace; color-scheme: dark; }
+  body { margin: 0; background: #111; color: #ddd; font: 13px var(--fonte); padding: 8px; display: flex; flex-wrap: wrap; gap: 8px; }
+  figure { margin: 0; display: grid; gap: 4px; }
+  .palco { position: relative; container-type: size; width: var(--w, 500px); aspect-ratio: 16/9; background: #050506; border: 1px solid #333; }
+  .contagem { --u: 1.8cqmin; position: absolute; inset: 0; display: grid; place-items: center; align-content: center; overflow: hidden;
+              font-family: var(--fonte); background: radial-gradient(ellipse at center, #000d 0%, #0008 50%, #0003 80%); }
+  .contagem .cena { display: grid; justify-items: center; gap: calc(1.2 * var(--u)); position: relative; max-width: 96cqw; }
+  .contagem .badge { border-radius: calc(.7 * var(--u)); padding: .25em .8em; font-size: calc(1.5 * var(--u)); font-weight: 800; }
+  .contagem .rot { font-size: calc(2.2 * var(--u)); font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #fff; text-align: center; }
+  .contagem .num { font-weight: 900; color: #fff; line-height: .9; }
+  @keyframes ct-pulso { 0% { transform: scale(1.22); } 60% { transform: scale(1); } 100% { transform: scale(.97); } }
+</style></head><body>
+<script src="cenas.js"></script>
+<script>
+const css = document.createElement("style"); css.textContent = CO.CSS; document.head.append(css);
+const q = new URLSearchParams(location.search), k = +(q.get("k") || 0);
+if (q.get("w")) document.documentElement.style.setProperty("--w", q.get("w") + "px");
+const quadros = (q.get("q") || "7:.5,3:1,0:1.5").split(",").map(x => x.split(":").map(Number));
+let n = 0;
+const celulas = quadros.map(([s, t]) => {
+  const f = document.createElement("figure"); document.body.append(f);
+  const p = document.createElement("div"); p.className = "palco"; f.append(p);
+  const c = document.createElement("div"); c.className = "contagem"; p.append(c);
+  f.insertAdjacentHTML("beforeend", `<figcaption>${CO.CENAS[k].nome} · ${s} · ${t}s</figcaption>`);
+  n++; const e = CO.CENAS[k];
+  c.innerHTML = e.html(7, 0).replace(/(id="|url\(#)(co-[\w-]+)/g, `$1$2-${n}`);
+  for (let j = 6; j >= s; j--) { const num = c.querySelector(".num"), novo = num.cloneNode(true);
+    novo.textContent = e.texto ? e.texto(j) : j; num.replaceWith(novo); e.depois?.(c, j); }
+  c.classList.toggle("ultimos", s <= 3); c.classList.toggle("fim", s === 0);
+  return [c, t];
+});
+requestAnimationFrame(() => requestAnimationFrame(() => celulas.forEach(([c, t]) =>
+  c.getAnimations({ subtree: true }).forEach(a => { a.currentTime = t * 1000; a.pause(); }))));
+</script>
+</body></html>
