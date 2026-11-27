@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.94 — 2026-11-02**
+> **Versão preliminar 0.95 — 2026-11-26**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -649,11 +649,11 @@ O Mestre2 terá mais de um modo de jogo, todos sobre o mesmo banco de perguntas.
 
 | Modo | Situação | Onde está descrito |
 |---|---|---|
-| **Master** | Em uso e em desenvolvimento. É o modo do app hoje | Esta seção (Papéis, Regras do tabuleiro, Desenho do tabuleiro, Definições) e §16 |
+| **Arena** | **Modo principal do app desde 2026-11-26**, em destaque na tela inicial; versão inicial em 2026-11-23. Só perguntas de múltipla escolha do jogo original. A pergunta aparece numa tela grande (TV ou tablet), todos respondem ao mesmo tempo, cada um no próprio celular, e quem acerta anda uma casa na trilha do Linear, ou duas se acertou sozinho ou na casa do tema da pergunta; se todos acertam, só o primeiro colocado não anda; um acerto na casa ★ faz quem está à frente voltar uma | §16 (Modo Arena) |
+| **Master** | Em uso. Foi o modo principal do app até 2026-11-26; desde então fica em **Outros modos**, com o Linear | Esta seção (Papéis, Regras do tabuleiro, Desenho do tabuleiro, Definições) e §16 |
 | **Linear** | Protótipo no app (2026-10-02; tabuleiro refeito em 2026-10-27 e em 2026-11-02). Uma trilha única de 26 casas em faixa ondulada, 3 de cada tema, em ordem sorteada por partida, e 2 casas especiais fixas, que fazem os da frente voltar, com um dado de 1 a 3 | Esta seção (Modo Linear) e §16 |
 | **Pokémon** | No app (2026-10-13). O primeiro dos **modos temáticos**: só perguntas de pokémon, com as regras do Linear numa trilha própria de 60 casas, com casas temáticas que ditam o teor da pergunta | [`modo_pokemon.md`](modo_pokemon.md) |
 | **Trilha da Vida** | Protótipo fora do app: esteve nele de 2026-10-02 a 2026-10-27 e ficou guardado em `prototipos/trilha_da_vida/`. Corrida num mapa vertical no estilo *Slay the Spire*: profissão com dois temas, personalidade, casas "Vá trabalhar", de Ação, de tema, em Branco e de Destino, e uma mão de cartas | [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md) e §16 (Modo Trilha da Vida) |
-| **Arena** | Versão inicial (2026-11-23). Só perguntas de múltipla escolha do jogo original. A pergunta aparece numa tela grande (TV ou tablet), todos respondem ao mesmo tempo, cada um no próprio celular, e quem acerta anda uma casa na trilha do Linear, ou duas se acertou sozinho ou na casa do tema da pergunta; se todos acertam, só o primeiro colocado não anda; um acerto na casa ★ faz quem está à frente voltar uma | §16 (Modo Arena) |
 
 O que esta seção diz sobre papéis, repetição e sorteio vale para todos os modos, salvo quando o modo disser outra coisa. O que diz sobre o tabuleiro vale para o Modo Master.
 
@@ -727,14 +727,29 @@ O primeiro dos **modos temáticos** (2026-10-27): modos de um universo só, com 
 
 ### Visão geral
 
-- É uma página web única, em `app/public/index.html`, publicada no Firebase Hosting. Não há build nem dependências locais: o SDK do Firebase é carregado da CDN do Google.
+- São páginas web em `app/public/`, publicadas no Firebase Hosting: `index.html`, com a tela inicial e os modos Master, Linear e Pokémon, e as duas da Arena, `arena.html` (a tela grande) e `jogar.html` (o celular). Não há build nem dependências locais: o SDK do Firebase é carregado da CDN do Google.
 - Endereço: **https://mestre2-626dd.web.app**. Projeto Firebase: `mestre2-626dd`. O banco Firestore `(default)` fica em São Paulo (`southamerica-east1`).
 - O app **só lê** o banco de perguntas produzido pelo pipeline (§11). Ele não gera nem altera perguntas.
 - O app é **sempre escuro**, com fundo preto puro, para poupar bateria em celulares com tela OLED. Não segue o tema claro do aparelho.
 
+### Tela inicial
+
+Desde 2026-11-26, a **Arena** é o modo principal e fica em destaque; os outros modos ficam guardados no botão **Outros modos**. De cima para baixo:
+
+- A marca: o **tabuleiro da Arena** (a trilha do Linear, com os temas na ordem das cores) e sete avatares da Arena em várias casas, um deles no Início, como numa partida em andamento, na largura da página. Até 2026-11-26, era a espiral do tabuleiro do Master, sem peões.
+- O lema: *Quiz de conhecimentos gerais para jogar em grupo* (até 2026-11-26, terminava em "com as perguntas lidas em voz alta", o que não vale para a Arena).
+- Um cartão com **Nova partida · Arena**, o botão principal, que abre `arena.html`. Acima dele, uma frase explica o modo e diz que a partida se cria no aparelho da tela grande, e que os jogadores entram pelo QR code dela ou pelo código; abaixo, o link **Ver as animações de contagem** (`contagens.html`).
+- O campo do **código da partida**, com **Entrar**: o código de uma partida da Arena leva ao `jogar.html`; o dos outros modos abre a partida no próprio `index.html`.
+- Quatro atalhos: **Outros modos**, **Informações**, **QR code** e **Sons**.
+- **Outros modos** abre um cartão com dois grupos. **Master e Linear**: a escolha das perguntas da partida, **Completo** ou **Múltipla escolha**, que vale para os dois, e os botões **Nova partida · Master** e **Nova partida · Linear (protótipo)**, cada um com uma frase sobre o modo. **Modos temáticos**: **Nova partida · Pokémon**, com quantas perguntas de pokémon há.
+
+Até 2026-11-26, o botão principal era o **Nova partida · Master**, com a escolha das perguntas acima dele, e a Arena ficava em **Outros modos**, depois do Linear. Partidas sem modo, como as antigas, continuam sendo Master.
+
 ### Como se joga
 
-1. Um aparelho escolhe as perguntas da partida, **Completo** (abertas e de múltipla escolha, o padrão) ou **Múltipla escolha** (só de múltipla escolha, §6), toca em **Nova partida** e recebe um **código de 4 letras**, sem I e O para não confundir com 1 e 0. Os outros entram digitando o código ou abrindo o link `https://mestre2-626dd.web.app/#CODIGO`, que o botão **Convidar** compartilha (pelo menu do celular ou copiando o link).
+Esta parte descreve o **Master**; o Linear e o Pokémon seguem o mesmo roteiro, com as diferenças descritas abaixo. A Arena tem páginas e regras próprias (Modo Arena, abaixo).
+
+1. Em **Outros modos**, um aparelho escolhe as perguntas da partida, **Completo** (abertas e de múltipla escolha, o padrão) ou **Múltipla escolha** (só de múltipla escolha, §6), toca em **Nova partida · Master** e recebe um **código de 4 letras**, sem I e O para não confundir com 1 e 0. Os outros entram digitando o código ou abrindo o link `https://mestre2-626dd.web.app/#CODIGO`, que o botão **Convidar** compartilha (pelo menu do celular ou copiando o link).
 2. Na aba **Tabuleiro**, alguém adiciona os jogadores, e o app sorteia o tema designado de cada um. Todos os aparelhos veem o tabuleiro ao vivo.
    - O tabuleiro em espiral (§15) mostra os peões. O botão **Modo mesa** o põe em tela cheia.
    - Abaixo fica a lista de jogadores: tema atual, posição, acertos (✓) e erros (✗), os botões − e + e, no estágio 1, a troca de tema.
@@ -750,13 +765,13 @@ O primeiro dos **modos temáticos** (2026-10-27): modos de um universo só, com 
 6. Depois da resposta, o botão **Sobre a pergunta** abre a ficha dela: tema e subtema, âncora com descrição, ângulo, dificuldade estimada, tipo, fontes com link, fonte da figura (autor, licença e link), autor e id. Antes da resposta o botão não aparece, para não vazar nada. O crédito da figura só aparece nessa ficha, e nunca junto da foto: numa pergunta de pintura, o autor da imagem é a própria resposta.
    - **Avaliação** (2026-10-12): ao lado, **Avaliar a pergunta** abre um painel para quem lê, o único que vê pergunta e resposta durante a rodada. Tem a **dificuldade** em cinco níveis (Muito fácil, Fácil, Média, Difícil, Muito difícil), **⭐ Ótima pergunta**, **problemas** (fora do tema ou subtema, resposta errada ou discutível, mais de uma resposta, enunciado confuso, entrega a resposta, figura ruim, repetida, desatualizada) e um **comentário** opcional. Cada toque grava na hora, e tocar de novo desfaz. Depois da rodada, a aba Sorteio mostra **Avaliar a pergunta anterior**, com a pergunta, a resposta e o mesmo painel, até aquele aparelho sortear outra pergunta. As avaliações ficam na coleção `avaliacoes` e são baixadas pelo `python pipeline/avaliacoes.py`, que grava `pipeline/banco/avaliacoes.json` e mostra um relatório: as perguntas com problema grave (resposta errada, mais de uma resposta ou entrega a resposta) para revisar e, nas outras, a dificuldade percebida ao lado da estimada. Por enquanto, só registro (§4).
 
-7. A aba **Informações** mostra o que há no banco: o total de perguntas, quantas são de múltipla escolha, quantas são abertas e quantas têm figura, e a **data e a hora da versão publicada** (2026-10-28). Esse instante é gravado em `public/versao.json` pelo gancho `predeploy` do `firebase.json` (`app/versao.js`) a cada deploy, de onde quer que venha; o arquivo fica fora do git. Abaixo vem **Regras do jogo**, recolhido, com um resumo das regras gerais e das de cada modo (Master, Linear e Pokémon). Depois vem um bloco por tema, na cor dele, com o total. Tocar no bloco abre a descrição do tema e a lista de subtemas, cada um com descrição e contagens. Subtemas ainda sem perguntas aparecem como "em breve". A mesma página abre na tela inicial, pelo botão **Informações**, para consulta fora de uma partida.
+7. A aba **Informações** mostra o que há no banco: o total de perguntas, quantas são de múltipla escolha, quantas são abertas e quantas têm figura, e a **data e a hora da versão publicada** (2026-10-28). Esse instante é gravado em `public/versao.json` pelo gancho `predeploy` do `firebase.json` (`app/versao.js`) a cada deploy, de onde quer que venha; o arquivo fica fora do git. Abaixo vem **Regras do jogo**, recolhido, com um resumo das regras de cada modo: primeiro a **Arena** (desde 2026-11-26) e depois **Master, Linear e Pokémon**, com as regras comuns aos três e as de cada um. Depois vem um bloco por tema, na cor dele, com o total. Tocar no bloco abre a descrição do tema e a lista de subtemas, cada um com descrição e contagens. Subtemas ainda sem perguntas aparecem como "em breve". A mesma página abre na tela inicial, pelo botão **Informações**, para consulta fora de uma partida.
 
 Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão, feitos na aba Tabuleiro depois de tocar em **Editar jogadores** (casa, tema do estágio 1 e remoção), ou **arrastando o peão** no tabuleiro, inclusive no modo mesa: solto, ele vai para a casa mais próxima do caminho do jogador. As regras ficam recolhidas em **Como se joga**.
 
 ### Modo Linear
 
-Ao criar a partida, há também **Nova partida · Linear (protótipo)**, no botão **Outros modos** da tela inicial, que grava `modo: "linear"` e a `semente` que sorteia a ordem dos temas. Abaixo dele, sob o título **Modos temáticos**, fica o Pokémon. O desenho e as casas ficam em `app/public/linear.js`; o resto é o do Master: a aba Sorteio, a posição em `pontos`, os botões − e +, o arrasto do peão (que vai para a casa mais próxima da trilha) e o modo mesa, que mostra o tabuleiro deitado na largura da tela. No Sorteio, tocar num jogador seleciona o tema da casa dele, ou "Qualquer tema" no Início e nas casas ★.
+**Nova partida · Linear (protótipo)**, em **Outros modos**, logo abaixo do Master, grava `modo: "linear"` e a `semente` que sorteia a ordem dos temas. Abaixo dele, sob o título **Modos temáticos**, fica o Pokémon. O desenho e as casas ficam em `app/public/linear.js`; o resto é o do Master: a aba Sorteio, a posição em `pontos`, os botões − e +, o arrasto do peão (que vai para a casa mais próxima da trilha) e o modo mesa, que mostra o tabuleiro deitado na largura da tela. No Sorteio, tocar num jogador seleciona o tema da casa dele, ou "Qualquer tema" no Início e nas casas ★.
 
 ### Modo Pokémon
 
@@ -764,7 +779,7 @@ Ao criar a partida, há também **Nova partida · Linear (protótipo)**, no bot�
 
 ### Modo Arena
 
-Versão inicial (2026-11-23). **Nova partida · Arena**, em **Outros modos**, abre `arena.html`, a página da **tela grande**; os jogadores entram por `jogar.html`, a página do **celular**. O código comum fica em `arena-comum.js`, e o tabuleiro é o do Linear (`linear.js`), sem dado; as casas ★ têm efeito desde 2026-11-24 (abaixo).
+Versão inicial (2026-11-23); **modo principal do app desde 2026-11-26**. **Nova partida · Arena**, o botão principal da tela inicial, abre `arena.html`, a página da **tela grande**; os jogadores entram por `jogar.html`, a página do **celular**. O código comum fica em `arena-comum.js`, e o tabuleiro é o do Linear (`linear.js`), sem dado; as casas ★ têm efeito desde 2026-11-24 (abaixo).
 
 - **Login anônimo** (Firebase Authentication): cada aparelho ganha um id (`uid`) que sobrevive a recarregar a página. É o único modo com login; os outros continuam sem ele. O jogador é o documento `jogadores/{uid}`, e a tela grande que criou a partida fica em `anfitriao`: só ela sorteia, revela e anda com os peões. Outra tela que abra `arena.html#CODIGO` só assiste.
 - **Entrar:** a tela grande mostra um QR code com `jogar.html#CODIGO`. O jogador digita o nome e escolhe a cor do peão (as cores dos temas). Quem recarrega volta direto para a partida. Um código da Arena digitado no `index.html` leva ao `jogar.html`.
@@ -781,12 +796,13 @@ Versão inicial (2026-11-23). **Nova partida · Arena**, em **Outros modos**, ab
 - **Fim:** vence quem chega à Chegada (casa 27). Quem chegar na mesma rodada empata.
 - **Jogadores:** a tela grande tira um jogador tocando nele; o próprio jogador sai pelo botão **Sair**. Quem entra no meio começa no Início.
 - **Relógio e fechamento:** a contagem parte do `inicio` gravado pelo servidor. A regra do Firestore aceita respostas enquanto a rodada estiver em `respondendo`, mesmo depois do prazo. Para nenhuma resposta escapar, a tela grande fecha em dois passos: `encerrada` (a regra para de aceitar respostas), depois lê todas do servidor e, num lote, revela e anda com quem acertou. As regras exigem a ordem `respondendo` → `encerrada` → `revelada` → a seguinte e só deixam a tela andar com os peões (+1, +2 para quem acertou sozinho ou na casa do tema, −1 para quem está à frente de um acerto na ★) no lote que revela, então a revelação vale uma vez só. Se a atualização do Firestore atrasar, a tela e os celulares conferem a partida direto no servidor (2026-11-23: a tela chegou a ficar parada em "Conferindo").
-- **Ainda não tem:** sons, avaliação das perguntas, revanche com os mesmos jogadores e as regras na aba Informações.
+- **Regras na aba Informações** (2026-11-26): um resumo, o primeiro do bloco **Regras do jogo**.
+- **Ainda não tem:** sons, avaliação das perguntas e revanche com os mesmos jogadores.
 - **Testar sem o projeto:** com `?emulador` no endereço, as páginas usam os emuladores locais do Firebase (Firestore e Auth).
 
 ### Modo Trilha da Vida
 
-**Fora do app desde 2026-10-27**, guardado como protótipo. Na tela inicial ficam **Nova partida · Master** e, no botão **Outros modos**, o Linear e o Pokémon; abaixo do Master e do campo do código, quatro atalhos: **Outros modos**, **Informações**, **QR code** e **Sons**. Partidas sem modo, como as antigas, são Master. Uma partida antiga da Trilha não abre mais: o app avisa que o modo saiu, e as regras do Firestore não aceitam mais partidas nem jogadores dela (`semente`, `trilha`).
+**Fora do app desde 2026-10-27**, guardado como protótipo; a tela inicial de hoje está em "Tela inicial", acima. Uma partida antiga da Trilha não abre mais: o app avisa que o modo saiu, e as regras do Firestore não aceitam mais partidas nem jogadores dela (`semente`, `trilha`).
 
 As regras estão em [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md). O código da versão que esteve no app fica em `prototipos/trilha_da_vida/app/`: `trilha.js` (dados, mapa e desenho) e `app_trilha.js` (a seção do `index.html` que ligava o modo às telas e ao Firestore, com o CSS e as regras exibidas). A versão integrada e jogável é a do commit `ec2c7c6a`. Ela tinha:
 
@@ -1105,6 +1121,7 @@ As metas dos catálogos são estimativas. Os catálogos que reprovam muito (est�
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.95 | 2026-11-26 | A Arena passa a ser o modo principal do app: **Nova partida · Arena** é o botão em destaque da tela inicial, e o Master vai para **Outros modos**, com o Linear e a escolha entre Completo e Múltipla escolha, que vale para os dois; a marca da tela inicial passa a ser o tabuleiro da Arena, com avatares, no lugar da espiral do Master; o lema perde "com as perguntas lidas em voz alta"; resumo das regras da Arena, o primeiro, no bloco Regras do jogo da aba Informações; nova subseção "Tela inicial" (§15, §16) |
 | 0.94 | 2026-11-02 | Linear: tabuleiro de 26 casas em 3 fileiras, 3 de cada tema (uma volta por fileira) e 2 casas ★ nas curvas (9 e 18), no lugar de 32 casas com 8 ★; a Chegada passa para a direita. Simulação: 13 a 14 acertos do vencedor com 2 jogadores e 14 a 16 com 4 (§15) |
 | 0.93 | 2026-10-30 | Teto de respostas que são um ano específico no jogo original: no máximo 9% de cada lote de texto e uma por lote de figuras, com corte no registro; o banco presente não muda (§6, §9) |
 | 0.92 | 2026-10-28 | Memória entre partidas no jogo original: o sorteio evita as perguntas que saíram em outras partidas dos últimos 30 dias e, se todas saíram, usa a mais antiga (§15) |

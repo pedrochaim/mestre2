@@ -90,6 +90,7 @@
     .tipo-perguntas { margin-top: 0; }
     .grupo-modos { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--suave);
                    margin: 1.1rem 0 .5rem; padding-top: .9rem; border-top: 1px solid var(--linha); }
+    .grupo-modos:first-child { margin-top: 0; padding-top: 0; border-top: none; }
     .tipo-perguntas button { flex: 1; }
     .tipo-partida { margin-left: .4rem; font-size: .85em; }
     .acoes { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .8rem; }
@@ -331,7 +332,7 @@
     ul.placar.editando li { flex-wrap: wrap; }
     ul.placar.editando .info { flex-basis: 100%; }
     ul.placar.editando li > :nth-child(2) { margin-left: auto; }
-    .marca { width: min(78vw, 300px); margin: .5rem auto 1rem; }
+    .marca { width: 100%; margin: .5rem auto 1rem; }
     .marca svg { display: block; width: 100%; height: auto; }
     .lema { text-align: center; color: var(--suave); margin: 0 0 1rem; }
     .barra { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5;
@@ -366,6 +367,7 @@
     details.tema-info .num { font-weight: 700; font-variant-numeric: tabular-nums; }
     details.regras-jogo { --c: var(--acento); }
     details.regras-jogo .corpo-tema h3 { font-size: .95rem; margin: .9rem 0 .3rem; }
+    details.regras-jogo .corpo-tema h3:first-child { margin-top: 0; }
     details.regras-jogo .corpo-tema ul { margin: .2rem 0 .4rem; padding-left: 1.2rem; }
     details.regras-jogo .corpo-tema li { margin: .25rem 0; }
     .corpo-tema { padding: 0 1rem .8rem; }
@@ -396,15 +398,15 @@
   <section id="entrada">
     <h1>Mestre2</h1>
     <div id="marca" class="marca" aria-hidden="true"></div>
-    <p class="lema">Quiz de conhecimentos gerais para jogar em grupo, com as perguntas lidas em voz alta.</p>
+    <p class="lema">Quiz de conhecimentos gerais para jogar em grupo.</p>
+    <!-- Arena (2026-11-23), o modo principal desde 2026-11-26: a pergunta na tela grande e cada jogador responde no
+         próprio celular (arena.html e jogar.html) -->
     <div class="cartao">
-      <!-- Vale para o Master e o Linear; o Pokémon, modo temático, tem as suas regras -->
-      <div id="tipo-perguntas" class="chips tipo-perguntas" role="group" aria-label="Perguntas da nova partida">
-        <button type="button" data-tipo="completo" aria-pressed="true">Completo</button>
-        <button type="button" data-tipo="multipla" aria-pressed="false">Múltipla escolha</button>
-      </div>
-      <p id="tipo-desc" class="suave" style="margin:0 0 .6rem">Perguntas abertas e de múltipla escolha.</p>
-      <button id="criar" class="principal" style="width:100%">Nova partida · Master</button>
+      <p class="suave" style="margin:0 0 .6rem">A pergunta aparece numa tela grande (TV ou tablet), e todos respondem ao
+        mesmo tempo, cada um no próprio celular. Crie a partida no aparelho da tela; os jogadores entram pelo QR code
+        dela ou pelo código, aqui embaixo.</p>
+      <button id="criar-arena" class="principal" style="width:100%">Nova partida · Arena</button>
+      <p class="suave" style="margin:.6rem 0 0"><a href="contagens.html" style="color:inherit">Ver as animações de contagem</a></p>
     </div>
     <div class="cartao">
       <form id="form-entrar" class="linha">
@@ -422,12 +424,18 @@
       <button id="sons-entrada">Sons</button>
     </div>
     <div id="outros-modos" class="cartao" hidden>
+      <!-- Master e Linear (o jogo original): um celular lê a pergunta em voz alta para quem responde. A escolha das
+           perguntas vale para os dois; o Pokémon, modo temático, tem as suas regras -->
+      <h2 class="grupo-modos">Master e Linear</h2>
+      <div id="tipo-perguntas" class="chips tipo-perguntas" role="group" aria-label="Perguntas da nova partida">
+        <button type="button" data-tipo="completo" aria-pressed="true">Completo</button>
+        <button type="button" data-tipo="multipla" aria-pressed="false">Múltipla escolha</button>
+      </div>
+      <p id="tipo-desc" class="suave" style="margin:0 0 .6rem">Perguntas abertas e de múltipla escolha.</p>
+      <button id="criar" style="width:100%">Nova partida · Master</button>
+      <p class="suave" style="margin:.3rem 0 .8rem">Um celular lê a pergunta em voz alta para quem responde. No tabuleiro em espiral, cada jogador percorre o braço do seu tema e depois o anel central.</p>
       <button id="criar-linear" style="width:100%">Nova partida · Linear (protótipo)</button>
-      <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 26 casas, com um dado de 1 a 3.</p>
-      <!-- Arena (2026-11-23): a pergunta na tela grande e cada jogador responde no próprio celular (arena.html e jogar.html) -->
-      <button id="criar-arena" style="width:100%">Nova partida · Arena</button>
-      <p class="suave" style="margin:.3rem 0 .8rem">Todos respondem ao mesmo tempo, cada um no seu celular; quem acerta anda uma casa, ou duas se acertou sozinho ou na casa do tema da pergunta (menos quem está sozinho na frente); se todos acertam, só o primeiro colocado não anda; se alguém acerta numa casa ★, quem está à frente volta uma. Só múltipla escolha.
-        <a href="contagens.html" style="color:inherit">Ver as animações de contagem</a>.</p>
+      <p class="suave" style="margin:.3rem 0 0">Todos na mesma trilha de 26 casas, com um dado de 1 a 3.</p>
       <!-- Modos temáticos: um universo só, com perguntas, tabuleiro e regras próprios. O Pokémon é o primeiro. -->
       <h2 class="grupo-modos">Modos temáticos</h2>
       <button id="criar-pokemon" style="width:100%">Nova partida · Pokémon</button>
@@ -674,6 +682,7 @@
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
   import * as L from "./linear.js";
+  import { avatarDoJogador } from "./arena-avatares.js";
 
   const db = getFirestore(initializeApp({
     apiKey: "AIzaSyDOxFK6-2MaySIpb5oDeLQJha3V1_6Aw7I",
@@ -900,7 +909,7 @@
   // Perguntas da nova partida: "completo" (abertas e de múltipla escolha) ou "multipla" (só de múltipla escolha).
   let tipoNovaPartida = "completo";
   const DESC_TIPO = { completo: "Perguntas abertas e de múltipla escolha.",
-                      multipla: "Só perguntas de múltipla escolha (no Master e no Linear)." };
+                      multipla: "Só perguntas de múltipla escolha." };
   for (const b of $("tipo-perguntas").querySelectorAll("button")) b.onclick = () => {
     tipoNovaPartida = b.dataset.tipo;
     for (const x of $("tipo-perguntas").querySelectorAll("button")) x.setAttribute("aria-pressed", x === b);
@@ -1081,6 +1090,17 @@
     resumoRegras.append(el("span", { className: "nome-tema", textContent: "Regras do jogo" }));
     const corpoRegras = el("div", { className: "corpo-tema" });
     corpoRegras.innerHTML = `
+      <h3>Arena</h3>
+      <ul>
+        <li>A pergunta aparece numa tela grande (TV ou tablet), e todos respondem ao mesmo tempo, cada um no próprio
+          celular. Só perguntas de múltipla escolha.</li>
+        <li>Quem acerta anda <strong>uma casa</strong>; quem é o <strong>único a acertar</strong> anda duas.</li>
+        <li>Na <strong>casa do tema</strong> da pergunta, quem acerta anda duas, a menos que esteja sozinho na frente.</li>
+        <li>Se <strong>todos acertam</strong>, só o primeiro colocado não anda.</li>
+        <li>★ <strong>Casa especial:</strong> se alguém acerta numa casa ★, todos os que estão à frente dele voltam uma casa.</li>
+        <li>Vence quem chega primeiro à Chegada; quem chega na mesma rodada empata.</li>
+      </ul>
+      <h3>Master, Linear e Pokémon</h3>
       <p>Em grupo, com as perguntas lidas em voz alta. A cada rodada, o jogador da vez responde e o seguinte da fila
         lê a pergunta no celular. Quem responde nunca vê o texto, só a figura, quando houver.</p>
       <ul>
@@ -1151,7 +1171,7 @@
   }
 
   desenharInfo($("aba-info"));
-  // Outros modos (Linear e Pokémon) ficam guardados, para a tela inicial mostrar só o Master.
+  // Outros modos (Master, Linear e Pokémon) ficam guardados, para a tela inicial mostrar só a Arena, o modo principal.
   $("outros-modos-botao").onclick = () => {
     const abrir = $("outros-modos").hidden;
     $("outros-modos").hidden = !abrir;
@@ -2501,8 +2521,28 @@
 
   // ---------------------------------------------------------------- início
 
-  // A espiral do tabuleiro, sem peões, como marca da tela inicial.
-  carregando.then(() => { $("marca").innerHTML = svgTabuleiro(); });
+  // A marca da tela inicial (2026-11-26; antes, a espiral do Master): o tabuleiro da Arena, a trilha do Linear, com
+  // avatares da Arena em várias casas, como numa partida em andamento. Os temas das casas seguem a ordem das cores (sem
+  // semente). O padrão xadrez da Chegada ganha outro id: o tabuleiro de uma partida do Linear usa "xadrez", e, com a
+  // entrada escondida, o navegador não pintaria o padrão que ele apontasse aqui.
+  const MARCA = [
+    { nome: "Ana", avatar: "fada", tema: "História", casa: 0 },
+    { nome: "Lia", avatar: "astronauta", tema: "Cotidiano", casa: 2 },
+    { nome: "Téo", avatar: "pirata", tema: "Esportes", casa: 6 },
+    { nome: "Rui", avatar: "robo", tema: "Natureza", casa: 9 },
+    { nome: "Bia", avatar: "bruxa", tema: "Artes e Pensamento", casa: 14 },
+    { nome: "Gil", avatar: "viking", tema: "Entretenimento", casa: 21 },
+    { nome: "Caio", avatar: "cauboi", tema: "Geografia", casa: 24 },
+  ];
+  function svgMarca() {
+    const peaoMarca = (x, y, raio, j) => {
+      const r = raio * 1.5, f = n => n.toFixed(1);
+      return avatarDoJogador(j.avatar, CORES[j.tema], j.nome, `x="${f(x - r)}" y="${f(y - r)}" width="${f(2 * r)}" height="${f(2 * r)}"`);
+    };
+    return L.svgLinear(MARCA, j => j.casa, CORES, abrev, esc, peaoMarca)
+      .replaceAll('id="xadrez"', 'id="marca-xadrez"').replaceAll("url(#xadrez)", "url(#marca-xadrez)");
+  }
+  $("marca").innerHTML = svgMarca();
 
   const doLink = location.hash.slice(1).toUpperCase();
   if (/^[A-Z]{4}$/.test(doLink)) {
