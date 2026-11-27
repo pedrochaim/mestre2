@@ -185,7 +185,7 @@
 <script type="module">
   import { doc, getDoc, getDocFromServer, setDoc, updateDoc, deleteDoc, onSnapshot, serverTimestamp }
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
-  import { CHEGADA, temaDaCasa, ehEspecial, ordemDaArena, QUALQUER } from "./linear.js";
+  import { CHEGADA, temaDaCasa, ehEspecial, ordemDaArena, QUALQUER, parouNaArena, casasNaArena } from "./linear.js";
   import { TEMPOS } from "./arena-suspense.js";
   import { SEGUNDOS, criarContagem } from "./arena-contagem.js";
   import { criarResultado, escolherResultado } from "./arena-resultado.js";
@@ -364,9 +364,9 @@
     if (!codigo || !eu || resultadoDe === r.n) return;
     resultadoDe = r.n;
     const acertou = minha?.opcao === r.certa;
-    const casas = (acertou && !r.todos ? ((r.dobro || []).includes(uid) ? 2 : 1) : 0) - ((r.recuo || []).includes(uid) ? 1 : 0);
     telaResultado.mostrar(r.n, escolherResultado((partida.semente || 0) * 31 + r.n),
-      [{ nome: eu.nome, avatar: eu.avatar, cor: corDe(eu.tema), acertou, casas, semResposta: !minha }], true, Boolean(r.todos));
+      [{ nome: eu.nome, avatar: eu.avatar, cor: corDe(eu.tema), acertou, casas: casasNaArena(r, uid, acertou),
+         parado: acertou && parouNaArena(r, uid), semResposta: !minha }], true, Boolean(r.todos));
   }
 
   // A minha resposta na rodada em jogo, como ficou gravada.
@@ -531,7 +531,7 @@
       const acertei = minha?.opcao === r.certa;
       $("resultado").className = minha ? (acertei ? "acertou" : "errou") : "";
       $("resultado").innerHTML = minha
-        ? (acertei ? (r.todos ? "<strong>Acertou!</strong> Todos acertaram: ninguém anda."
+        ? (acertei ? (parouNaArena(r, uid) ? "<strong>Acertou!</strong> Todos acertaram e você está em primeiro: seu peão não anda."
             : (r.dobro || []).includes(uid) ? "<strong>Acertou!</strong> Seu peão anda duas casas."
             : "<strong>Acertou!</strong> Seu peão anda uma casa.") : `<strong>Errou.</strong> A certa era ${OPCOES[r.certa] ?? "?"}.`)
         : `<strong>Sem resposta.</strong> A certa era ${OPCOES[r.certa] ?? "?"}.`;

@@ -221,7 +221,7 @@
     <p><a href="./">← Mestre2</a></p>
     <h1>Arena</h1>
     <p class="suave">Este aparelho vira a tela da partida: ponha numa TV ou num tablet que todos vejam. A pergunta aparece aqui,
-      e cada jogador responde no próprio celular, ao mesmo tempo. Quem acerta anda uma casa. Anda duas quem acerta sozinho ou numa casa do tema da pergunta (menos quem está sozinho na frente). Se todos acertam, ninguém anda. Se alguém acerta numa casa ★, quem está à frente volta uma casa. Só perguntas de múltipla escolha.</p>
+      e cada jogador responde no próprio celular, ao mesmo tempo. Quem acerta anda uma casa. Anda duas quem acerta sozinho ou numa casa do tema da pergunta (menos quem está sozinho na frente). Se todos acertam, só o primeiro colocado não anda. Se alguém acerta numa casa ★, quem está à frente volta uma casa. Só perguntas de múltipla escolha.</p>
     <div class="cartao">
       <p style="margin:0 0 .5rem">Tempo para responder</p>
       <div id="prazos-inicio" class="chips" role="group" aria-label="Tempo para responder"></div>
@@ -607,11 +607,10 @@
   function iniciarResultado(r) {
     if (!codigo || resultadoDe === r.n || !jogadores.length) return;
     resultadoDe = r.n;
-    const dobro = r.dobro || [], recuo = r.recuo || [];
     const lista = jogadores.map(j => {
       const x = respostas.find(x => x.jogador === j.id), acertou = x?.opcao === r.certa;
-      const casas = (acertou && !r.todos ? (dobro.includes(j.id) ? 2 : 1) : 0) - (recuo.includes(j.id) ? 1 : 0);
-      return { nome: j.nome, avatar: j.avatar, cor: corDe(j.tema), acertou, casas, semResposta: !x };
+      return { nome: j.nome, avatar: j.avatar, cor: corDe(j.tema), acertou, casas: L.casasNaArena(r, j.id, acertou),
+               parado: acertou && L.parouNaArena(r, j.id), semResposta: !x };
     });
     const k = escolherResultado((partida.semente || 0) * 31 + r.n);
     const cena = telaResultado.mostrar(r.n, k, lista, false, Boolean(r.todos));
@@ -704,10 +703,11 @@
       const acertaram = [...new Set(lidas.filter(x => x.opcao === certa && ids.has(x.jogador)).map(x => x.jogador))];
       // Quanto cada um anda (L.andadasDaArena): uma casa por acerto; duas para quem acertou sozinho ou na casa do tema
       // ("rodada.dobro", para os celulares e a lista mostrarem); a casa ★ faz quem está à frente voltar uma
-      // ("rodada.recuo"); se todos acertaram, ninguém anda ("rodada.todos"). O saldo é o que conta, também para chegar.
+      // ("rodada.recuo"); se todos acertaram, o primeiro colocado (ou os primeiros) não anda ("rodada.todos", os ids
+      // deles). O saldo é o que conta, também para chegar.
       const { todos, dobro, recuo, saldo } = L.andadasDaArena(jogadores.map(j => ({ id: j.id, casa: casaDe(j) })), acertaram, r.tema, partida.semente);
       const mudar = { "rodada.fase": "revelada", "rodada.certa": certa, "rodada.dobro": dobro, "rodada.recuo": recuo };
-      if (todos) mudar["rodada.todos"] = true;
+      if (todos) mudar["rodada.todos"] = todos;
       const chegaram = jogadores.filter(j => saldo(j.id) > 0 && (j.pontos || 0) + saldo(j.id) >= L.CHEGADA).map(j => j.id);
       if (chegaram.length && !servidor.fim) {
         const inicio = servidor.inicio?.toMillis?.() ?? Date.now();
@@ -1087,7 +1087,7 @@
       const x = respostas.find(x => x.jogador === j.id);
       let estado = "", classe = "";
       if (fase === "revelada") [estado, classe] = x?.opcao === r.certa
-        ? [r.todos ? " +0" : (r.dobro || []).includes(j.id) ? " +2" : " +1", "acertou"] : [x ? " ✗" : " –", "errou"];
+        ? [L.parouNaArena(r, j.id) ? " +0" : (r.dobro || []).includes(j.id) ? " +2" : " +1", "acertou"] : [x ? " ✗" : " –", "errou"];
       else if (r && x) [estado, classe] = [" ✓", "respondeu"];
       if (fase === "revelada" && (r.recuo || []).includes(j.id)) estado += " −1★";
       const chefe = partida.capataz === j.id ? `<span class="capataz" title="Capataz">👷</span>` : "";

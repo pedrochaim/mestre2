@@ -106,12 +106,20 @@ function pilula(c, txt, x, y, px, fundoCor, cor, k) {
 const mais = j => j.casas > 0 ? `+${j.casas}` : j.casas < 0 ? "−1" : null;
 const xis = j => j.casas < 0 ? "✗ −1" : "✗";
 const pulo = (t, t0, d = .38) => { const x = (t - t0) / d; return x <= 0 ? 0 : x >= 1 ? 1 : easeOutBack(x); };
-// O resumo no alto: "4 ACERTARAM · 2 ERRARAM", "TODOS ACERTARAM", "NINGUÉM ACERTOU"; no celular, "VOCÊ ACERTOU!".
+// Quando todos acertam, quem não anda: o primeiro colocado, os primeiros (empatados na frente) ou ninguém anda (todos
+// empatados).
+function quemNaoAnda(cena) {
+  const p = cena.js.filter(j => j.parado).length;
+  return p >= cena.n ? "ninguém anda" : p === 1 ? "o líder não anda" : "os líderes não andam";
+}
+// O resumo no alto: "4 ACERTARAM · 2 ERRARAM", "TODOS ACERTARAM · O LÍDER NÃO ANDA", "NINGUÉM ACERTOU"; no celular,
+// "VOCÊ ACERTOU!" ("TODOS ACERTARAM · VOCÊ NÃO ANDA" para o líder).
 function resumo(cena, v = {}) {
   const V = { c1: "ACERTOU", cN: "ACERTARAM", e1: "ERROU", eN: "ERRARAM", tc: "TODOS ACERTARAM", ne: "NINGUÉM ACERTOU",
               vc: "VOCÊ ACERTOU!", ve: "VOCÊ ERROU", ...v };
   const a = cena.certos.length, e = cena.errados.length;
-  if (cena.todos) return [["TODOS ACERTARAM", CERTO], ["  ·  ", "#5b5f66"], ["NINGUÉM ANDA", BRANCO]];
+  if (cena.todos && (!cena.celular || cena.js[0].parado))
+    return [["TODOS ACERTARAM", CERTO], ["  ·  ", "#5b5f66"], [cena.celular ? "VOCÊ NÃO ANDA" : quemNaoAnda(cena).toUpperCase(), BRANCO]];
   if (cena.celular) return a ? [[V.vc, CERTO]] : cena.js[0].semResposta ? [["SEM RESPOSTA", ERRADO]] : [[V.ve, ERRADO]];
   if (!a) return [[V.ne, ERRADO]];
   if (!e) return [[cena.n === 1 ? `1 ${V.c1}` : V.tc, CERTO]];
@@ -189,7 +197,7 @@ const LADOS = {
     texto(c, e === 1 ? "ERROU" : "ERRARAM", W * .75, H * .1, { px: 3.2 * u, peso: 900, cor: ERRADO, esp: .12 });
     texto(c, a ? String(a) : "ninguém", W * .25, H * .19, { px: (a ? 8 : 4) * u, peso: 900, cor: a ? BRANCO : "#5b5f66" });
     texto(c, e ? String(e) : "ninguém", W * .75, H * .19, { px: (e ? 8 : 4) * u, peso: 900, cor: e ? BRANCO : "#5b5f66" });
-    if (cena.todos) texto(c, "ninguém anda", W * .25, H * .26, { px: 2.6 * u, peso: 800, cor: "#A0A4AB" });
+    if (cena.todos) texto(c, quemNaoAnda(cena), W * .25, H * .26, { px: 2.6 * u, peso: 800, cor: "#A0A4AB" });
     c.restore();
     const tc = a ? Math.min(...cena.certos.map(j => j.t)) + .18 : 99;
     confete(c, 0, meio, H, t, tc, 11);
@@ -375,9 +383,9 @@ const OPCOES = [LADOS, CARIMBO, CATRACA, HOLOFOTES];
 export const NOMES_RESULTADOS = ["Dois lados", "Carimbo", "Catraca", "Holofotes"];
 // A animação da rodada, sorteada pela chave (a mesma em todos os aparelhos; um sorteio à parte do da cena da contagem).
 export const escolherResultado = chave => Math.floor(aleatorio((chave ^ 0x51ED27) >>> 0)() * OPCOES.length);
-// A cena: os jogadores ({nome, avatar, cor: [fundo, texto], acertou, casas: quanto andou, de -1 a 2; semResposta}),
-// cada um com o instante em que entra (t), um depois do outro, e os grupos de quem acertou e de quem errou; todos: todos
-// acertaram e ninguém andou.
+// A cena: os jogadores ({nome, avatar, cor: [fundo, texto], acertou, casas: quanto andou, de -1 a 2; parado: acertou,
+// mas não andou por estar em primeiro quando todos acertaram; semResposta}), cada um com o instante em que entra (t), um
+// depois do outro, e os grupos de quem acertou e de quem errou; todos: todos acertaram.
 export function montarResultado(jogadores, celular = false, todos = false) {
   const js = jogadores.map((j, i) => ({ ...j, i }));
   const n = js.length, dt = Math.min(.3, 2.2 / Math.max(1, n));

@@ -49,7 +49,7 @@ service cloud.firestore {
       // da rodada), pergunta (o id), tema, subtema, enunciado, opcoes (as 4 alternativas, na ordem da tela), figura,
       // prazo, inicio (hora do servidor), fase ("respondendo", "encerrada" ou "revelada") e, revelada, certa (o índice
       // da alternativa certa), dobro (os ids de quem acertou sozinho ou na casa do tema da pergunta e andou duas), recuo (os de
-      // quem voltou uma casa porque alguém acertou numa casa ★ atrás) e todos (true quando todos acertaram e ninguém andou). "vencedores": os ids de quem chegou ao fim na mesma rodada. "experimental": o suspense antes
+      // quem voltou uma casa porque alguém acertou numa casa ★ atrás) e todos (quando todos acertaram, os ids do primeiro colocado, ou dos primeiros, que não andaram; true nas rodadas da primeira versão da regra, quando ninguém andava). "vencedores": os ids de quem chegou ao fim na mesma rodada. "experimental": o suspense antes
       // da resposta está ligado (2026-11-23, em teste). "capataz": o uid do jogador que a tela grande deixou comandar a
       // próxima pergunta e o modo automático; "automatico": o estado do modo automático, para o capataz ver.
       // "proxima" (2026-11-24): a contagem do modo automático para a próxima pergunta, {n (a rodada), em (ms, hora do

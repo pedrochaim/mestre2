@@ -1144,7 +1144,7 @@ const SONS_RESULTADO = [
       if (cena.certos.length) S.sino(1568, { t: Math.max(...cena.js.map(j => j.t)) + .55, vol: .12, dur: 1.2 });
     } },
   // Catraca: dois passos até a catraca; quem andou, o bipe de duas notas do validador e as portinholas abrindo; quem
-  // acertou sem andar (todos acertaram), um bipe só; quem errou, a campainha de catraca travada e a trombada.
+  // acertou sem andar (o primeiro, quando todos acertaram), um bipe só; quem errou, a campainha de catraca travada e a trombada.
   { nome: "Validador e campainha", ganho: 1.74,
     sons(S, cena) {
       cena.js.forEach(j => {
@@ -1154,7 +1154,7 @@ const SONS_RESULTADO = [
           S.tom({ t: ti, f: 1568, dur: .07, vol: .14 }); S.tom({ t: ti + .08, f: 2093, dur: .1, vol: .14 });
           S.ruido({ t: ti + .05, dur: .22, vol: .1, f: 700, f2: 2400, q: 1.2, ataque: .05 });
           S.tom({ t: ti + .05, f: 520, f2: 300, dur: .04, vol: .12 });
-        } else if (j.acertou) [0, .12].forEach(d => S.tom({ t: ti + d, f: 1175, dur: .1, vol: .28 }));  // acertou, mas ninguém anda
+        } else if (j.acertou) [0, .12].forEach(d => S.tom({ t: ti + d, f: 1175, dur: .1, vol: .28 }));  // acertou, mas não anda
         else {
           S.tom({ t: ti, f: 155, tipo: "square", dur: .34, vol: .06, sustenta: true, filtro: { f: 1500 } });
           S.tom({ t: ti, f: 163, tipo: "square", dur: .34, vol: .06, sustenta: true, filtro: { f: 1500 } });

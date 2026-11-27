@@ -72,21 +72,33 @@ export const temaDaCasa = (c, semente) => c >= CHEGADA ? null : TEMAS.includes(t
 // (2026-11-26) ou se está numa casa do tema da pergunta, menos quem está sozinho na frente de todos (quem empata na
 // frente anda duas; o Início e as casas ★ não têm tema). Se um ou mais acertam numa casa ★, todos os que estão à frente
 // do mais atrasado deles voltam uma casa (uma só, mesmo com vários), menos os que acertaram nas ★ ("recuo"); quem está à
-// frente e também acertou anda e volta. Se todos acertam (2026-11-26), ninguém anda nem volta ("todos"). As duas regras
-// de 2026-11-26 só valem com dois jogadores ou mais. saldo(id): as casas que o jogador anda (negativo, volta).
+// frente e também acertou anda e volta. Se todos acertam (2026-11-26; na primeira versão, do mesmo dia, ninguém andava), só
+// o primeiro colocado não anda, ou os primeiros, se empatam na frente ("todos": os ids deles; null se alguém errou); os outros
+// andam como sempre, e a casa ★ vale para todos: o primeiro que não andou volta uma se alguém acertou numa ★ atrás.
+// Com todos empatados, ninguém anda. As regras de 2026-11-26 só valem com dois jogadores ou mais.
+// saldo(id): as casas que o jogador anda (negativo, volta).
 export function andadasDaArena(jogadores, acertaram, tema, semente) {
   const certo = new Set(acertaram), varios = jogadores.length > 1;
-  if (varios && jogadores.every(j => certo.has(j.id))) return { todos: true, dobro: [], recuo: [], saldo: () => 0 };
+  const frente = Math.max(...jogadores.map(j => j.casa));
+  const todos = varios && jogadores.every(j => certo.has(j.id)) ? jogadores.filter(j => j.casa === frente).map(j => j.id) : null;
+  const anda = id => certo.has(id) && !todos?.includes(id);
   const sozinho = varios && jogadores.filter(j => certo.has(j.id)).length === 1;
   const naFrente = j => jogadores.every(o => o.id === j.id || o.casa < j.casa);
   const casaDoTema = j => Boolean(tema) && temaDaCasa(j.casa, semente) === tema && !naFrente(j);
-  const dobro = jogadores.filter(j => certo.has(j.id) && (sozinho || casaDoTema(j))).map(j => j.id);
+  const dobro = jogadores.filter(j => anda(j.id) && (sozinho || casaDoTema(j))).map(j => j.id);
   const naEstrela = jogadores.filter(j => certo.has(j.id) && ehEspecial(j.casa));
   const atras = naEstrela.length ? Math.min(...naEstrela.map(j => j.casa)) : Infinity;
   const recuo = jogadores.filter(j => j.casa > atras && !naEstrela.includes(j)).map(j => j.id);
-  const saldo = id => (certo.has(id) ? (dobro.includes(id) ? 2 : 1) : 0) - (recuo.includes(id) ? 1 : 0);
-  return { todos: false, dobro, recuo, saldo };
+  const saldo = id => (anda(id) ? (dobro.includes(id) ? 2 : 1) : 0) - (recuo.includes(id) ? 1 : 0);
+  return { todos, dobro, recuo, saldo };
 }
+
+// Para quem mostra a rodada revelada (r, a "rodada" da partida): se o jogador acertou mas não andou por estar em primeiro
+// quando todos acertaram (r.todos, a lista dos ids; true nas rodadas da primeira versão, quando ninguém andava), e
+// quantas casas ele andou ao todo, de -1 a 2.
+export const parouNaArena = (r, id) => r.todos === true || (Array.isArray(r.todos) && r.todos.includes(id));
+export const casasNaArena = (r, id, acertou) =>
+  (acertou && !parouNaArena(r, id) ? ((r.dobro || []).includes(id) ? 2 : 1) : 0) - ((r.recuo || []).includes(id) ? 1 : 0);
 
 // ---------------------------------------------------------------- casas do modo Pokémon
 
